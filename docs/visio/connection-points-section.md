@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e0c9d25d-933c-1c46-2cdd-3fa6ba3e56af
 description: Contém uma linha e células para cada ponto de conexão definido para a forma.
-ms.openlocfilehash: e43c74bae01bdfe6f7c23c582a05853dac5eeec5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23d5f4a48948be517875577cd05fd253ac16ec09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318904"
 ---
 # <a name="connection-points-section"></a>Seção Connection Points
 
@@ -22,9 +22,9 @@ Contém uma linha e células para cada ponto de conexão definido para a forma.
   
 ## <a name="remarks"></a>Comentários
 
-É possível definir pontos de conexão na seção **Pontos de Conexão** na janela ShapeSheet ou clicando na ferramenta **Ponto de Conexão** , na guia **página inicial** . 
+Você pode definir pontos de conexão na seção **pontos de conexão** na janela ShapeSheet ou clicando na ferramenta **ponto de conexão** , na guia **página inicial** . 
   
-Se a forma não tiver nenhuma seção **Pontos de Conexão** , você pode inserir uma seção de **Pontos de Conexão** na janela ShapeSheet. Com o botão direito na janela ShapeSheet, clique em **Inserir seção**e clique em **pontos de Conexão**. Para adicionar pontos de conexão a uma seção de **Pontos de Conexão** existente, do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
+Se a forma não tiver **pontos de conexão** , você poderá inserir uma seção de **pontos de conexão** na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e clique em ** Pontos de conexão**. Para adicionar pontos de conexão a uma seção **pontos de conexão** existentes, clique com o botão direito do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
   
 É possível alterar o tipo de linha de um ponto de conexão nessa seção para exibir células adicionais que podem ser usadas para cálculos transitórios. Para fazer isso, clique com o botão direito do mouse na linha e clique em **Alterar Tipo de Linha** no menu de atalho. 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f35780540f42fd4d3777b9fdd89c6795c97d98fe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: becb058fc6434765c238421f59a8775fb76c2d2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315439"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propriedade canônica PidLidIsInterpersonalFax
 
@@ -25,27 +25,27 @@ ms.locfileid: "22577055"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se o item é um item de fax da internet.
+Indica se o item é um item de fax de Internet.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidIsIPFax  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x0000859B  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x0000859B  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

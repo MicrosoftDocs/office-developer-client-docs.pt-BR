@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
-description: 'Modificado pela última vez: 06 de julho de 2012'
+description: 'Última modificação: 06 de julho de 2012'
 ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317210"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Instalar o exemplo de suplemento de estado offline
 
@@ -19,42 +19,42 @@ ms.locfileid: "25389194"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico leva as etapas para baixar e instalar o suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e utiliza a API de estado Offline. Através do menu estado Offline, você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para obter mais informações sobre como o suplemento de estado Offline é implementado, consulte [Add-in de configuração para cima uma Offline estado](setting-up-an-offline-state-add-in.md).
+Este tópico orienta as etapas para baixar e instalar o exemplo de suplemento de estado offline. O exemplo de suplemento de estado offline é um suplemento de COM que adiciona um menu de **estado offline** ao Outlook e utiliza a API de estado offline. No menu de estado offline, você pode habilitar ou desabilitar o monitoramento de estado, verificar o estado atual e alterar o estado atual. Para obter mais informações sobre como o suplemento de estado offline é implementado, consulte [Configurando um suplemento de estado offline](setting-up-an-offline-state-add-in.md).
   
-## <a name="install-the-sample-offline-state-add-in"></a>Instalar o amostra Offline State suplemento
+## <a name="install-the-sample-offline-state-add-in"></a>Instalar o exemplo de suplemento de estado offline
 
-1. Baixar o Add-in amostra Offline estado aqui: [amostras de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Baixe o exemplo de suplemento offline State aqui: [exemplos de código de referência auxiliar do Outlook 2007 e instalador](https://www.microsoft.com/en-us/download/details.aspx?id=24102)redistribuível.
     
-2. Execute o Visual Studio 2005 como administrador.
+2. Execute o Visual Studio 2005 como um administrador.
     
     > [!NOTE]
-    > Se seu computador estiver executando o Windows XP, você deve ser logado como administrador. Se seu computador estiver executando o Windows Vista, você deve ser logado como administrador. Com o botão direito no ícone do Visual Studio 2005 e clique em **Executar como administrador**. 
+    > Se o computador estiver executando o Windows XP, você deverá estar conectado como administrador. Se o computador estiver executando o Windows Vista, você deverá estar conectado como administrador. Clique com o botão direito do mouse no ícone do Visual Studio 2005 e clique em **Executar como administrador**. 
   
-3. No Visual Studio 2005, clique em **arquivo**, selecione **Abrir**e, em seguida, clique em **Project/Solution**.
+3. No Visual Studio 2005, clique em **arquivo**, selecione **abrir**e, em seguida, clique em **projeto/solução**.
     
-4. Navegue até o local onde você salvou a amostra, clique em **ConnectionStateAddin**e, em seguida, clique em **Abrir**.
+4. Navegue até o local onde você salvou o exemplo, clique em **ConnectionStateAddin**e, em seguida, clique em **abrir**.
     
 5. On the **Build** menu, click **Build Solution**.
     
-6. Na caixa de diálogo **Salvar arquivo como** , clique em **Salvar**.
+6. Na caixa de diálogo **salvar arquivo como** , clique em **salvar**.
     
-7. Clique no menu **Iniciar** , clique em **Todos os programas**, clique em **Acessórios**, do mouse em **Prompt de comando**e, em seguida, clique **em Executar como administrador**.
-    
-    > [!NOTE]
-    > Se você estiver executando o Windows XP, você deve ser logado como administrador. 
-  
-8. Na caixa de diálogo **Controle de conta de usuário** , clique em **continuar**.
-    
-9. Na janela de **Prompt de comando** , altere os diretórios para a pasta de depuração onde você salvou a amostra. Por exemplo, se você salvou a amostra em sua unidade C:\, digite **cd "C:\ConnectionStateAddin\Debug"** e pressione **ENTER**. 
-    
-10. Digite **regsvr32 OfflineStateAddin.dll** e pressione **ENTER**. 
+7. Clique no menu **Iniciar** , em **todos os programas**, em **acessórios**, clique com o botão direito do mouse em prompt de **comando**e clique em **Executar como administrador**.
     
     > [!NOTE]
-    > Para desinstalar o suplemento de amostra Offline estado, digite **regsvr32 -u OfflineStateAddin.dll**
+    > Se você estiver executando o Windows XP, você deve estar conectado como um administrador. 
   
-11. Na caixa de diálogo **regsvr32** , clique em **Okey**.
+8. Na caixa de diálogo **Controle de Conta de Usuário**, clique em **Continuar**.
     
-12. Reinicie o Outlook para ver o menu de **Estado Offline** . 
+9. Na janela de **prompt de comando** , altere os diretórios para a pasta de depuração onde você salvou o exemplo. Por exemplo, se você salvou o exemplo em C:\ Digite **CD "C:\ConnectionStateAddin\Debug"** e pressione **Enter**. 
+    
+10. Digite **regsvr32 OfflineStateAddin. dll** e pressione **Enter**. 
+    
+    > [!NOTE]
+    > Para desinstalar o exemplo de suplemento de estado offline, digite **regsvr32-u OfflineStateAddin. dll**
+  
+11. Na caixa de diálogo **RegSrv32** , clique em **OK**.
+    
+12. ReInicie o Outlook para ver o menu de **estado offline** . 
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,13 +62,13 @@ Este tópico leva as etapas para baixar e instalar o suplemento de amostra Offli
 
 [Sobre a API de estado offline](about-the-offline-state-api.md)
   
-[Instalar o exemplo de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
+[Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
   
-[Sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
+[Sobre a amostra de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
   
 [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
   
 [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
   
-[Desconectar-se de um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
+[Desconectar um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
 

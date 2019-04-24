@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310000"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570790"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define a ordem na qual transporte provedores são chamados para entregar uma mensagem.
+Define a ordem na qual os provedores de transporte são chamados para entregar uma mensagem.
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -39,15 +39,15 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> [in] A contagem de identificadores exclusivos no parâmetro _lpUIDList_ . 
+> no A contagem de identificadores exclusivos no parâmetro _lpUIDList_ . 
     
  _lpUIDList_
   
-> [in] Um ponteiro para uma matriz de identificadores exclusivos que representam os provedores de transporte. A matriz contém um identificador para cada provedor de transporte configurada no perfil atual.
+> no Um ponteiro para uma matriz de identificadores exclusivos que representam provedores de transporte. A matriz contém um identificador para cada provedor de transporte configurado no perfil atual.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -59,15 +59,15 @@ MAPI_E_BUSY
   
 > O valor no parâmetro _cUID_ difere do número de provedores de transporte realmente no perfil. 
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> Uma ou mais das estruturas [MAPIUID](mapiuid.md) passadas no parâmetro _lpUIDList_ não fazem referência a um provedor de transporte no momento no perfil. 
+> Uma ou mais das estruturas [MAPIUID](mapiuid.md) passadas no parâmetro _lpUIDList_ não se referem a um provedor de transporte atualmente no perfil. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::MsgServiceTransportOrder** define a ordem de entrega de provedores de transporte em um perfil. O parâmetro _lpUIDList_ deve conter uma lista classificada dos identificadores de entrada do provedor de transporte obtidos da propriedade **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) da tabela retornada do [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) método. Um aplicativo cliente deve passar a lista completa em _lpUIDList_.
+O método **IMsgServiceAdmin:: MsgServiceTransportOrder** define a ordem de entrega de provedores de transporte em um perfil. O parâmetro _lpUIDList_ deve conter uma lista classificada de identificadores de entrada do provedor de transporte obtidos na propriedade **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) da tabela retornada do [IMsgServiceAdmin:: ](imsgserviceadmin-getprovidertable.md)Método Getprovidertable. Um aplicativo cliente deve passar a lista completa no _lpUIDList_.
   
- Substituições **SetTransportOrder** transportam preferências de provedor, como o sinalizador STATUS_XP_PREFER_LAST definido na propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+ **SetTransportOrder** substitui as preferências do provedor de transporte, como o sinalizador STATUS_XP_PREFER_LAST definido na propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="see-also"></a>Confira também
 

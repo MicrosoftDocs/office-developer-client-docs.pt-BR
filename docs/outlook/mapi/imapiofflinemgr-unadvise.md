@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321214"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579519"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela retornos de chamada para um objeto offline.
+Cancela os retornos de chamada para um objeto offline.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -38,11 +38,11 @@ HRESULT COfflineObj::Unadvise(
 
  _ulFlags_
   
-> [in] Sinalizadores de cancelamento de retorno de chamada. Somente o valor MAPIOFFLINE_UNADVISE_DEFAULT é suportado.
+> no Sinalizadores para o retorno de chamada de cancelamento. Só há suporte para o valor MAPIOFFLINE_UNADVISE_DEFAULT.
     
  _ulAdviseToken_
   
-> [in] Um token de advise que identifica o registro de retorno de chamada que deve ser cancelado. 
+> no Um token de aviso que identifica o registro de retorno de chamada que deve ser cancelado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Remove o registro para o retorno de chamada que estava associado com *ulAdviseToken* retornados de uma chamada anterior ao **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Faz com que o objeto **IMAPIOfflineMgr** liberar a sua referência no objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associado *ulAdviseToken* . 
+Remove o registro do retorno de chamada que foi associado ao *ulAdviseToken* retornado de uma chamada anterior para **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Faz com que o objeto **IMAPIOfflineMgr** Libere sua referência no objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associado ao *ulAdviseToken* . 
   
 ## <a name="see-also"></a>Confira também
 

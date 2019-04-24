@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 92d5dcdf3e5e3fbdb7490d777a24976c9ae4af1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b104c62eb617e6c68f85dea4ef6379c831733844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317112"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
@@ -40,27 +40,27 @@ HRESULT CreateProfile(
 
  _lpszProfileName_
   
-> [in] Um ponteiro para o nome do novo perfil.
+> no Um ponteiro para o nome do novo perfil.
     
  _lpszPassword_
   
-> [in] Um ponteiro para a senha do novo perfil. 
+> no Um ponteiro para a senha do novo perfil. 
     
  _ulUIParam_
   
-> [in] Um identificador para a janela pai de todas as caixas de diálogo ou windows que esse método exibe.
+> no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o perfil é criado. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como o perfil é criado. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DEFAULT_SERVICES 
   
-> MAPI deve preencher o novo perfil com os serviços de mensagem que estão incluídos na seção [padrão Services] do arquivo Mapisvc.
+> O MAPI deve preencher o novo perfil com os serviços de mensagem incluídos na seção [serviços padrão] do arquivo MAPISVC. inf.
     
 MAPI_DIALOG 
   
-> Podem ser exibidas as folhas de propriedades de configuração de cada um dos provedores nos serviços de mensagem a ser adicionado. 
+> É possível exibir as folhas de propriedades de configuração de cada um dos provedores nos serviços de mensagens a serem adicionados. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -74,23 +74,23 @@ MAPI_E_NO_ACCESS
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin::CreateProfile** cria um novo perfil. 
+O método **IProfAdmin:: CreateProfile** cria um novo perfil. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode chamar **CreateProfile** no momento da instalação de aplicativos ou a qualquer momento durante uma sessão. Quando esse método é chamado no momento da instalação, muitas das definições de configuração provenientes do arquivo de configuração Mapisvc. Quando esse método é chamado durante uma sessão ativa, as configurações são provenientes de usuário que será solicitado por uma série de folhas de propriedades. 
+Você pode chamar **CreateProfile** no momento da instalação do aplicativo ou a qualquer momento durante uma sessão. Quando esse método é chamado no momento da instalação, muitas das definições de configuração são provenientes do arquivo de configuração MAPISVC. inf. Quando esse método é chamado durante uma sessão ativa, as configurações são provenientes do usuário que é solicitado através de uma série de folhas de propriedades. 
   
-Se o sinalizador MAPI_DEFAULT_SERVICES é definido no parâmetro _ulFlags_ , **CreateProfile** chama a função de ponto de entrada de serviço de mensagem para cada serviço de mensagem na seção [padrão Services] no arquivo Mapisvc. Cada função de ponto de entrada de serviço de mensagem é chamada com o parâmetro _ulContext_ definido como MSG_SERVICE_CREATE. 
+Se o sinalizador MAPI_DEFAULT_SERVICES estiver definido no parâmetro _parâmetroulflags_ , **CreateProfile** chamará a função de ponto de entrada do serviço de mensagens para cada serviço de mensagens na seção [serviços padrão] no arquivo MAPISVC. inf. Cada função de ponto de entrada de serviço de mensagens é chamada com o parâmetro _ulContext_ definido como MSG_SERVICE_CREATE. 
   
-Se flags MAPI_DIALOG tanto o MAPI_DEFAULT_SERVICES estiverem definidas, os valores nos parâmetros _ulUIParam_ e _ulFlags_ também são passados para a função de ponto de entrada de serviço de mensagem. As funções de ponto de entrada de serviço de mensagem são chamadas somente depois que todas as informações disponíveis do arquivo Mapisvc foi adicionadas ao perfil. 
+Se ambos os sinalizadores MAPI_DIALOG e MAPI_DEFAULT_SERVICES estiverem definidos, os valores nos parâmetros _ulUIParam_ e _parâmetroulflags_ também serão passados para a função de ponto de entrada de serviço de mensagens. As funções do ponto de entrada do serviço de mensagens são chamadas somente depois que todas as informações disponíveis do arquivo MAPISVC. inf forem adicionadas ao perfil. 
   
-O nome do novo perfil e sua senha pode ter até 64 caracteres de comprimento e pode incluir os seguintes caracteres:
+O nome do novo perfil e sua senha podem ter até 64 caracteres de comprimento e podem incluir os seguintes caracteres:
   
-- Todos os caracteres alfanuméricos, incluindo o caractere de sublinhado e ênfase.
+- Todos os caracteres alfanuméricos, incluindo caracteres de ênfase e o caractere de sublinhado.
     
 - Espaços incorporados, mas não espaços à esquerda ou à direita.
     
-O parâmetro _lpszPassword_ deve ser NULL ou um ponteiro para uma cadeia de caracteres de comprimento zero. 
+O parâmetro _lpszPassword_ deve ser NULL ou um ponteiro para uma sequência de comprimento zero. 
   
 ## <a name="see-also"></a>Confira também
 

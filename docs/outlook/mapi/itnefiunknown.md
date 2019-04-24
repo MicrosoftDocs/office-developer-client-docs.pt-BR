@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1803707b46b9b58e7372e7e58cc36241d0ebdb4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f815a914deb5e21f3d913abe46a84cc7a32b4ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315033"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 
@@ -25,28 +25,28 @@ ms.locfileid: "22571721"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece métodos para encapsular propriedades MAPI que não são suportadas por um sistema de mensagens em binários fluxos que podem ser anexados às mensagens. O formato usado para este encapsulamento é o transporte-TNEF Neutral Encapsulation Format (). O provedor de transporte de destino ou de um aplicativo cliente baseado em MAPI, ao receber uma mensagem que inclui um anexo TNEF, recuperem as propriedades do anexo.
+Fornece métodos para o encapsulamento de propriedades MAPI que não são compatíveis com um sistema de mensagens em fluxos binários que podem ser anexados a mensagens. O formato usado para esse encapsulamento é o formato de encapsulamento de transporte neutro (TNEF). O provedor de transporte de destino ou aplicativo cliente baseado em MAPI pode então, ao receber uma mensagem que inclui um anexo TNEF, recupera as propriedades do anexo.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |TNEF.h  <br/> |
-|Expostos pelo:  <br/> |Objetos TNEF  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de transporte, provedores de armazenamento de mensagem e gateways  <br/> |
+|Arquivo de cabeçalho:  <br/> |TNEF. h  <br/> |
+|Exposto por:  <br/> |Objetos TNEF  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de transporte, provedores de repositórios de mensagens e gateways  <br/> |
 |Identificador de interface:  <br/> |IID_ITNEF  <br/> |
 |Tipo de ponteiro:  <br/> |LPTNEF  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[AddProps](itnef-addprops.md) <br/> |Permite que o provedor de serviços de chamada ou gateway adicionar propriedades ao encapsulamento de uma mensagem ou um anexo.  <br/> |
+|[AddProps](itnef-addprops.md) <br/> |Permite que o provedor de serviços de chamada ou o gateway adicione Propriedades ao encapsulamento de uma mensagem ou de um anexo.  <br/> |
 |[ExtractProps](itnef-extractprops.md) <br/> |Extrai as propriedades de um encapsulamento TNEF.  <br/> |
-|[Finish](itnef-finish.md) <br/> |Tiver terminado de processamento de todas as operações de TNEF que estão enfileiradas e em espera.  <br/> |
-|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Abre uma interface de fluxo no texto de uma mensagem encapsulado.  <br/> |
-|[SetProps](itnef-setprops.md) <br/> |Define o valor de uma ou mais propriedades para uma mensagem encapsulada ou um anexo sem modificar a mensagem original ou um anexo.  <br/> |
-|[EncodeRecips](itnef-encoderecips.md) <br/> |Codifica um modo de exibição da tabela do destinatário da mensagem o fluxo de dados TNEF da mensagem.  <br/> |
-|[FinishComponent](itnef-finishcomponent.md) <br/> |Processa os componentes individuais de uma mensagem de um por vez em um fluxo TNEF.  <br/> |
+|[Finish](itnef-finish.md) <br/> |Conclui o processamento de todas as operações TNEF que estão na fila e aguardando.  <br/> |
+|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Abre uma interface de fluxo no texto de uma mensagem encapsulada.  <br/> |
+|[SetProps](itnef-setprops.md) <br/> |Define o valor de uma ou mais propriedades de uma mensagem encapsulada ou anexo sem modificar a mensagem original ou o anexo.  <br/> |
+|[EncodeRecips](itnef-encoderecips.md) <br/> |Codifica um modo de exibição para a tabela de destinatários de uma mensagem no fluxo de dados TNEF para a mensagem.  <br/> |
+|[FinishComponent](itnef-finishcomponent.md) <br/> |Processa componentes individuais de uma mensagem de cada vez em um fluxo TNEF.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

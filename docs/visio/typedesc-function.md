@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: Retorna uma cadeia de caracteres que descreve o tipo de um objeto interno.
-ms.openlocfilehash: ee00341042e0d36e5f9cd9fde42622f904f4c3ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma cadeia de caracteres que descreve o tipo interno de um objeto.
+ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316412"
 ---
 # <a name="typedesc-function"></a>Função TYPEDESC
 
-Retorna uma cadeia de caracteres que descreve o tipo de um objeto interno. 
+Retorna uma cadeia de caracteres que descreve o tipo interno de um objeto. 
   
 ## <a name="syntax"></a>Sintaxe
 
 TYPEDESC ()
   
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

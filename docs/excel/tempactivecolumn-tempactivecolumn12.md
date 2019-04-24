@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- função tempactivecolumn12 [excel 2007], função TempActiveColumn [Excel 2007]
+- função tempactivecolumn12 [Excel 2007], função TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1399a407e3e269b78c7afbde8ff32c126b4b1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310466"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funções da biblioteca Framework que criam um temporário **XLOPER**/ **XLOPER12** contendo uma referência externa para uma coluna inteira na planilha ativa. 
+Funções de biblioteca da estrutura que criam um **XLOPER de XLOPER**/ **** temporário contendo uma referência externa para uma coluna inteira na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## <a name="parameters"></a>Parâmetros
 
- _col_ (**Bytes**)
+ _Col_ (**Byte**)
   
-A coluna a ser referenciado. Isso é baseado em zero que a coluna A é passada como 0. No Microsoft Office Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é de 255 = 2 ^ 8 1 e é o valor máximo que pode ser realizado por um inteiro de bytes. Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 16,383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. H.
+A coluna a ser referenciada. Isso é baseado em zero, para que A coluna A seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 255 = 2 ^ 8-1 e é o valor máximo que pode ser feito por um inteiro de BYTE. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 16.383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. 0.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência de **xltypeRef** externo à coluna passada. 
+Retorna uma referência externa **xltypeRef** à coluna passada. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir usa **TempActiveColumn12** para selecionar toda a coluna B. 
+O exemplo a seguir usa **TempActiveColumn12** para selecionar a coluna inteira B. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -58,5 +58,5 @@ short WINAPI TempActiveColumnExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

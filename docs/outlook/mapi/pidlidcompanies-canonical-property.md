@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 987b680a-4b9d-47f1-8ae4-9b7ae556ccf0
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3368577f59a9b4b823d6341d9abeed656b7ca004
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319527"
 ---
 # <a name="pidlidcompanies-canonical-property"></a>Propriedade canônica PidLidCompanies
 
@@ -25,31 +25,31 @@ ms.locfileid: "25385001"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os nomes das empresas que estão associados um item.
+Contém os nomes das empresas que estão associadas a um item.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidCompanies  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008539  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008539  <br/> |
 |Tipo de dados:  <br/> |PT_MV_UNICODE  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para diários.
+> Especifica as propriedades e as operações que são permitidas para diários.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

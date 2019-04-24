@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 04e00e49-c12d-4517-8574-410741d0fa06
 description: O Outlook permite aos usuários especificar configurações para cada conta a fim de protegê-la contra spam. Essas configurações antispam são armazenadas em uma seção designada para essa conta no perfil de usuário.
 ms.openlocfilehash: cf9bce058e9e0bd1c8f6f14637ae0af73f155940
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316956"
 ---
 # <a name="about-anti-spam-settings"></a>Sobre as configurações antispam
 

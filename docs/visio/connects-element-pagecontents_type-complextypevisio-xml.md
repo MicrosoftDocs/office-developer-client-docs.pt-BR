@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Contém um elemento Connect para cada conexão entre duas formas em um desenho.
 ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318960"
 ---
 # <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Elemento Connects (PageContents_Type complexType) ('Visio XML')
 
@@ -53,6 +53,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

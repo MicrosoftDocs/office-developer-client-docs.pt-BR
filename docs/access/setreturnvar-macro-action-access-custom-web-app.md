@@ -1,28 +1,28 @@
 ---
-title: Ação de SetReturnVar Macro (aplicativo da web personalizado do Access)
+title: Ação de macro SetReturnVar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
-description: A ação SetReturnVar cria uma variável de retorno e o configura para um valor específico.
-ms.openlocfilehash: d0638c8f1e3b184a7c685ad8649c8923bdfd8f50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: A ação SetReturnVar cria uma variável de retorno e a define como um valor específico.
+ms.openlocfilehash: 29445f5021bed99fe45cee1d34457f1f91ca417d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310935"
 ---
-# <a name="setreturnvar-macro-action-access-custom-web-app"></a>Ação de SetReturnVar Macro (aplicativo da web personalizado do Access)
+# <a name="setreturnvar-macro-action-access-custom-web-app"></a>Ação de macro SetReturnVar (aplicativo Web personalizado do Access)
 
-A ação **SetReturnVar** cria uma variável de retorno e o configura para um valor específico. 
+A ação **SetReturnVar** cria uma variável de retorno e a define como um valor específico. 
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
-> A ação de **SetReturnVar** está disponível somente em Macros de dados. 
+> A ação **SetReturnVar** está disponível somente em macros de dados. 
   
 ## <a name="setting"></a>Configuração
 
@@ -30,17 +30,17 @@ A ação **SetReturnVar** tem os seguintes argumentos.
   
 |**Nome do argumento**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
-| _Name_ <br/> |Sim  <br/> |Uma cadeia de caracteres que especifica o nome da variável.  <br/> |
-| _Expression_ <br/> |Sim  <br/> |Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igual (=). Você pode clicar no botão **Construir** para usar o **Construtor de expressões** para definir este argumento.  <br/> |
+| _Nome_ <br/> |Sim  <br/> |Uma cadeia de caracteres que especifica o nome da variável.  <br/> |
+| _Expressão_. <br/> |Sim  <br/> |Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igualdade (=). Você pode clicar no botão **construir** para usar o **Construtor de expressões** para definir esse argumento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é a variável que pode ser usado por macros que chamar uma macro de dados usando a ação **ExecutarMacrodeDados** . 
+A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro** . 
   
-Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro chamada pode ser usada em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, você poderia usar a variável usando a seguinte sintaxe:
+Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, poderia usar a variável usando a seguinte sintaxe:
   
 `=[ReturnVars]![UpdateSuccess]`
 
-A ação **SetReturnVar** pode ser usada somente em macros de dados nomeada. Ele não está disponível em macros de dados que estejam anexadas a um evento de macro de dados. 
+A ação **SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ele não está disponível em macros de dados anexadas a um evento de macro de dados. 
   
 

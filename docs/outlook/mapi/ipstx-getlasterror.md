@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f45b070464fe1b3c177088ff6aa3295f961d45f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d0fb16ba63548a44dba3920670c0e65f8c700a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315096"
 ---
 # <a name="ipstxgetlasterror"></a>IPSTX::GetLastError
 
@@ -37,17 +37,17 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _hResult_
+ _And_
   
->  [in] Código de erro. 
+>  no Código de erro. 
     
  _ulFlags_
   
->  [in] Sinalizadores para modificar o comportamento. Isso deve ser de 0. 
+>  [in] Sinalizadores para modificar o comportamento. Deve ser 0. 
     
  _lppMAPIError_
   
->  [out] Ponteiro para a estrutura **MAPIERROR** que contém as informações estendidas para o erro. Consulte mapidefs.h para a definição de tipo de **LPMAPIERROR**. 
+>  bota Ponteiro para a estrutura **MAPIERROR** que contém as informações estendidas do erro. Consulte mapidefs. h para a definição de tipo de **LPMAPIERROR**. 
     
 ## <a name="see-also"></a>Confira também
 

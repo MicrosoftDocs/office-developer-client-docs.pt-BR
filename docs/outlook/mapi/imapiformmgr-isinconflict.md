@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 329771bf79e30f07c9de0a311aa2a836ca507c38
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87432d8982c5dc1f64396187739e97314edb385c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321844"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580030"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se um formulário pode lidar com conflitos sua própria mensagem. Uma mensagem está em conflito se ele tiver sido editado simultaneamente por mais de um usuário. Isso pode acontecer às mensagens em pastas públicas.
+Determina se um formulário pode lidar com seus próprios conflitos de mensagem. Uma mensagem estará em conflito se tiver sido editada simultaneamente por mais de um usuário. Isso pode acontecer com mensagens em pastas públicas.
   
 ```cpp
 HRESULT IsInConflict(
@@ -39,39 +39,39 @@ HRESULT IsInConflict(
 
  _ulMessageFlags_
   
-> [in] Um ponteiro para uma bitmask dos sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) de uma mensagem que indica o estado atual da mensagem.
+> no Um ponteiro para uma bitmask de sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) de uma mensagem que indica o estado atual da mensagem.
     
  _ulMessageStatus_
   
-> [in] Uma bitmask dos sinalizadores definido pelo provedor ou cliente copiado da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) de uma mensagem que fornece informações adicionais sobre o estado da mensagem.
+> no Uma bitmask de sinalizadores definidos pelo cliente ou definidos pelo provedor copiados da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) de uma mensagem que fornece informações adicionais sobre o estado da mensagem.
     
  _szMessageClass_
   
-> [in] Uma cadeia de caracteres que nomeia a classe de mensagem da mensagem.
+> no Uma cadeia de caracteres que nomeia a classe de mensagem da mensagem.
     
  _pFolderFocus_
   
-> [in] Um ponteiro para a pasta que contém a mensagem. O parâmetro _pFolderFocus_ pode ser NULL se tal uma pasta não existir (por exemplo, se a mensagem é incorporada em outra mensagem). 
+> no Um ponteiro para a pasta que contém a mensagem. O parâmetro _pFolderFocus_ pode ser NULL se essa pasta não existir (por exemplo, se a mensagem estiver incorporada a outra mensagem). 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O formulário não lidar com conflitos sua própria mensagem.
+> O formulário não manipula seus próprios conflitos de mensagem.
     
 S_FALSE 
   
-> O formulário manipula conflitos sua própria mensagem ou a mensagem para os quais informações passadas não está em conflito.
+> O formulário manipula seus próprios conflitos de mensagem ou a mensagem para a qual as informações foram transmitidas não está em conflito.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IMAPIFormMgr::IsInConflict** para descobrir se a determinado formulário não lidar com conflitos sua própria mensagem. **IsInConflict** verifica a bitmasks nos parâmetros _ulMessageFlags_ e _ulMessageStatus_ a presença de um sinalizador de conflito. Se for definido um sinalizador de conflito, **IsInConflict** resolva a classe de mensagem passada no parâmetro _szMessageClass_ e retorna S_OK se o formulário não manipular seus próprio conflitos. **IsInConflict** retorna S_FALSE se o formulário manipula o seus próprio conflitos. 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr:: IsInConflict** para descobrir se um determinado formulário não manipula seus próprios conflitos de mensagem. **IsInConflict** verifica os bitmasks nos parâmetros _ulMessageFlags_ e _ulMessageStatus_ para a presença de um sinalizador de conflito. Se um sinalizador de conflito estiver definido, **IsInConflict** resolverá a classe de mensagem passada no parâmetro _SZMESSAGECLASS_ e retornará S_OK se o formulário não manipular seus próprios conflitos. **IsInConflict** retornará S_FALSE se o formulário manipular seus próprios conflitos. 
   
-Um formulário que não lidar com seus próprio conflitos deve ser aberto usando o método [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) e não pode reutilizar um objeto de formulário existente. 
+Um formulário que não manipula seus próprios conflitos deve ser aberto usando o método [IMAPIFormMgr:: loadform](imapiformmgr-loadform.md) e não pode reutilizar um objeto Form existente. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Aplicativos clientes geralmente têm que lidar com conflitos quando os aplicativos se move de uma mensagem para a mensagem anterior ou seguinte em uma pasta. Se uma mensagem está em conflito, mas o servidor de formulário para essa mensagem pode lidar com conflitos, o aplicativo cliente deve executar o seu código usual para exibir a mensagem anterior ou seguinte. Se o servidor de formulário não pode lidar com conflitos, o aplicativo cliente deve continuar como se fosse não sabem da classe de mensagem da mensagem seguinte ou anterior. 
+Os aplicativos clientes normalmente precisam lidar com conflitos quando os aplicativos são movidos de uma mensagem para a mensagem seguinte ou anterior em uma pasta. Se uma mensagem estiver em conflito, mas o servidor de formulário dessa mensagem puder lidar com conflitos, o aplicativo cliente deverá executar o código habitual para exibir a mensagem seguinte ou anterior. Se o servidor de formulário não puder lidar com conflitos, o aplicativo cliente deve continuar como se não estivesse ciente da classe de mensagem da mensagem seguinte ou anterior. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -79,9 +79,9 @@ Aplicativos clientes geralmente têm que lidar com conflitos quando os aplicativ
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   
-[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

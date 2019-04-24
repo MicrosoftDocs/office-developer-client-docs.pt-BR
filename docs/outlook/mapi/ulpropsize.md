@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2bfe2841592987c530f6323db94834c1dcb64b2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cc1547ad7d881b707825630f96987d4c40ad4863
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315299"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
@@ -25,13 +25,13 @@ ms.locfileid: "22576635"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o tamanho de um valor de propriedade exclusivo. 
+Retorna o tamanho de um único valor de propriedade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 ULONG UlPropSize(
@@ -43,20 +43,20 @@ ULONG UlPropSize(
 
  _lpSPropValue_
   
-> [in] Ponteiro para uma estrutura [SPropValue](spropvalue.md) definindo a propriedade a ser medido. 
+> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define a propriedade a ser medida. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
+> A chamada teve êxito e retornou o valor ou valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperado ou desconhecido impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
-A função **UlPropSize** retorna o tamanho, em bytes, do valor da propriedade para a propriedade especificada. Ele ignora o tamanho do restante da estrutura **SPropValue** . 
+A função **UlPropSize** retorna o tamanho, em bytes, do valor da propriedade especificada. Ele ignora o tamanho do restante da estrutura **SPropValue** . 
   
 

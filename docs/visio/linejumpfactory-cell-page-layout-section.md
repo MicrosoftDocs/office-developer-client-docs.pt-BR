@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a14be0d-9e3c-23c4-7782-bda5470d1243
 description: Determina o tamanho dos saltos de linha nos conectores dinâmicos verticais na página em relação ao valor da célula LineToLineY. O valor dessa célula pode variar de 0 a 10, mas são sugeridos valores fracionários de 0 a 1.
-ms.openlocfilehash: deba4c27585644604e7bac1dbfe284bc3977835e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36712c1558ff2f50309dc31e8f918061180c8fa4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316454"
 ---
 # <a name="linejumpfactory-cell-page-layout-section"></a>Célula LineJumpFactorY (Seção Page Layout)
 

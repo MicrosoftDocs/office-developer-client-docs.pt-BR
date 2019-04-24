@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5170ceb443dcde075440bf84d29000afe4680c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321270"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568200"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém o estado atual de online ou offline, de um objeto offline.
+Obtém o estado online ou offline atual de um objeto offline.
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -37,7 +37,7 @@ HRESULT GetCurrentState(
 
  _pulState_
   
-> [out] O estado online ou offline atual de um objeto offline. Ele deve ser um destes dois valores:
+> bota O estado atual online ou offline de um objeto offline. Deve ser um destes dois valores:
     
 MAPIOFFLINE_STATE_ONLINE
   

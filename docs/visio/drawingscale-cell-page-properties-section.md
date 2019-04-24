@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: Representa o valor da unidade de desenho na escala de desenho atual. A escala de desenho da página representa a razão da unidade de página mostrada na célula PageScale em relação à unidade de desenho mostrada na célula DrawingScale.
-ms.openlocfilehash: cdd3222f5e56c34ac8947c9ef5a653cfe19fbd0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a3a5f93ff096e42ba3c13b671b46bf1cf97df82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316503"
 ---
 # <a name="drawingscale-cell-page-properties-section"></a>Célula DrawingScale (Seção Page Properties)
 
@@ -32,7 +32,7 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
 End Sub 
 ```
 
-Você pode determinar o sistema de medida em um desenho examinando a propriedade **unidades** da célula DrawingScale. Depois de executar a macro acima a seguinte instrução executada nos Immediate Editor do Visual Basic janela retornará *True* . 
+Determine o sistema de medidas em um desenho examinando a propriedade **Units** da célula DrawingScale. Após a execução da macro acima, a instrução a seguir executada na janela imediata do editor do Visual Basic retornará *true* . 
   
 ```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 

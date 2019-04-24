@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6bda9cc663af1d1b9167ec78da286fe1c1991d40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320262"
 ---
 # <a name="filter-recurring-appointments-and-search-for-a-string-in-the-subject"></a>Filtrar compromissos recorrentes e pesquisar por uma cadeia de caracteres no assunto
 
@@ -24,7 +24,7 @@ Para filtrar compromissos recorrentes, este exemplo de código usa o conjunto [I
 
 Depois de obter um conjunto **Items** de itens de compromisso recorrentes que ocorrem dentro do intervalo de datas especificado, o exemplo de código executa mais duas pesquisas usando consultas DAV de Pesquisa e Localização (DASL). A primeira pesquisa usa **Items.Find**, [FindNext](https://msdn.microsoft.com/library/bb623799\(v=office.15\)) e a palavra-chave **like** para procurar itens que tenham "office" como uma subcadeia de caracteres no assunto. A segunda pesquisa usa o método **Items.Restrict** e a palavra-chave **ci\_startswith** para procurar os itens que tenham assuntos que começam com "office".
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionada antes da declaração de Classe pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

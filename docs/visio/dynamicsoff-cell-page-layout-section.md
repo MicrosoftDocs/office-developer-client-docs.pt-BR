@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Determina se as formas de colocação serão movidas e se os conectores serão redirecionados em torno de outras formas e outros conectores na página de desenho.
-ms.openlocfilehash: 72d65860d1a2ee37efd5287ae3f4baf54bd3addb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315715"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>Célula DynamicsOff (Seção Page Layout)
 
@@ -22,8 +22,8 @@ Determina se as formas de colocação serão movidas e se os conectores serão r
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Desativar dinâmica.  <br/> |
-| FALSO  <br/> | Ativar dinâmica.  <br/> |
+| TRUE  <br/> | Desativar dinâmica.  <br/> |
+| FALSE  <br/> | Ativar dinâmica.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

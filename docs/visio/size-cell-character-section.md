@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a61b50fe-eacb-b3d4-0e4e-ab3e7c972ee9
 description: Determina o tamanho do texto no bloco de texto da forma.
-ms.openlocfilehash: f3077441844b859cf224eccc8180d0d56cce851f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea747620301a07cafaf179106b54510edb95f7ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314795"
 ---
 # <a name="size-cell-character-section"></a>Célula Size (Seção Character)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula Size pelo nome a partir de outra fórmula ou d
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char.Size [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char. Size [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Size pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

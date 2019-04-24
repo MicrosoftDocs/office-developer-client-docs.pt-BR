@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b292e65ddabcbe052832687a3dcf01658de5e379
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f961348e7be474202273aa97a2922566ef40c3a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318113"
 ---
 # <a name="attsentfor"></a>attSentFor
 
@@ -21,16 +21,16 @@ ms.locfileid: "22567472"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O atributo **attSentFor** é codificado como cadeias de caracteres contadas apresentados ponta a ponta. O formato **attSentFor** é da seguinte maneira: 
+O atributo **attSentFor** é codificado como cadeias de caracteres contadas de ponta a ponta. O formato de **attSentFor** é o seguinte: 
   
  **attSentFor**: 
   
-> nome para exibição do comprimento do nome de exibição endereço-comprimento _endereço de email_
+> display-name-Name de nome de exibição endereço de _email-endereço_
     
- _endereço de email_
+ _email-endereço_
   
-> endereço do tipo **:** 
+> tipo **:** endereço 
     
-Ao contrário de outro comprimento valores, o comprimento do nome de exibição e endereço comprimento são valores de 16 bits não assinados, em vez de inteiros longos não assinados. Eles ainda incluem abortar caracteres null, no entanto. As cadeias de caracteres de tipo e endereço na entrada de _endereço de email_ são separadas por um caractere de dois-pontos (:) literal, como "smtp:joe@nowhere.com". Somente a sequência de endereço do tipo combinada **:** é terminada em nulo.
+Diferentemente de outros valores de comprimento, o nome de exibição e comprimento de endereço são valores de 16 bits não assinados em vez de inteiros longos não assinados. No entanto, eles ainda incluem o encerramento de caracteres nulos. As cadeias de caracteres de tipo e endereço na entrada de _endereço de email_ são separadas por um caractere de dois-pontos literal (:) caractere, como "SMTP:Joe@nowhere.com". Somente o tipo combinado **:** cadeia de caracteres de endereço é terminada em nulo.
   
 

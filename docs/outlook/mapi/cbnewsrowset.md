@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de6836c036c1b8c80a030a8a49009b8899267aa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317966"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
@@ -25,11 +25,11 @@ ms.locfileid: "22571630"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes a ser alocada para uma nova estrutura de [SRowSet](srowset.md) que contém um número especificado de linhas representadas por estruturas de [SRow](srow.md) . 
+Calcula o número de bytes a serem alocados para uma nova estrutura [SRowSet](srowset.md) que contém um número especificado de linhas representadas por estruturas [SRow](srow.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
@@ -40,7 +40,7 @@ CbNewSRowSet (_crow)
 
  __galinha_
   
-> Contagem de estruturas **SRow** indicando o número de linhas a serem incluídos na nova estrutura de **SRowSet** . 
+> Contagem de estruturas **SRow** indicando o número de linhas a serem incluídas na nova estrutura **SRowSet** . 
     
 ## <a name="see-also"></a>Confira também
 

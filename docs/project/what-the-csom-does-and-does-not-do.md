@@ -7,11 +7,11 @@ ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: O modelo de objeto no lado do cliente (CSOM) é um conjunto de APIs para o Project Server 2013 projetadas para uso online e local em aplicativos que podem ser desenvolvidos para PCs, dispositivos móveis e tablets. Este artigo inclui alguns cenários típicos para usar o CSOM e também lista as suas limitações.
 localization_priority: Priority
 ms.openlocfilehash: 6cdcb72c24e352365b6dcc9268ddf0bd249369af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315222"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>O que o CSOM faz e não faz
 
@@ -40,7 +40,7 @@ Os exemplos a seguir representam alguns tipos de aplicativos compatíveis com o 
     
 - **Criar projetos financeiros** Crie projetos para captura do tempo em um quadro de horários para integração com um sistema financeiro. Crie uma hierarquia de códigos financeiros que reflitam a estrutura de decomposição de custos do sistema financeiro. Projetos financeiros não exigem agendamento ou atualizações de status. 
     
-- **Fazer integrações com sistemas contábeis** Capture os custos e despesas de recursos associados a projetos para alimentar sistemas financeiros e de cobrança e para fins de comparação de orçamento. Sincronize tarefas, recursos e atribuições entre os sistemas. Capture dados de quadros de horários em um sistema para alimentar o outro (o quadro de horários usado depende das necessidades da organização ou dos projetos individuais). 
+- **Fazer integrações com sistemas contábeis** Capture os custos e despesas de recursos associados a projetos para alimentar sistemas financeiros e de cobrança e para fins de comparação de orçamento. Sincronizar tarefas, recursos e atribuições entre os sistemas. Capturar dados da planilha em um sistema para alimentar o outro (qual planilha é usada depende das necessidades da organização ou do projeto). 
     
 - **Automatize atualizações de membros da equipe** Para projetos que não são gerenciados ativamente, atualize automaticamente os projetos no servidor com o progresso e outras alterações dos membros da equipe do projeto. Os projetos podem ser atualizados e republicados sem que um gerente de projetos precise revisar os resultados ou fazer ajustes no plano. 
     

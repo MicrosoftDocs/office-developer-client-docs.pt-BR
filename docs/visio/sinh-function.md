@@ -9,36 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: Retorna o seno hiperbólico de um ângulo.
-ms.openlocfilehash: d45473b0d900c04580aa1dbc4c206fe70fa7318b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 305dd9e62a32db3a91724cd182964012e482442e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314802"
 ---
 # <a name="sinh-function"></a>Função SINH
 
-Retorna o seno hiperbólico de um ângulo.
-    
- 
+Retorna o seno hiperbólico de um ângulo. 
   
 ## <a name="syntax"></a>Sintaxe
 
-SINH (* * *ângulo* * *) 
+SINH (* * *Angle* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ângulo_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo do qual obter o seno hiperbólico.  <br/> |
+| _reto_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo do qual obter o seno hiperbólico.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
-A função SINH usa radianos, a menos que você especifique uma unidade de medida diferente em _angle_.
+A função SINH usa radianos, a menos que você especifique uma unidade de medida diferente em _Angle_.
   
 ## <a name="example"></a>Exemplo
 

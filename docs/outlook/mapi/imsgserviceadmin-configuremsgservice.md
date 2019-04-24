@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a599a6fe5093e52e50d33a1761df5689b7335138
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87ac394f9ab77b092cdfcd44f65b040a039319e7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317406"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568291"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Reconfigura um serviço de mensagem.
+Reconfigura um serviço de mensagens.
   
 ```cpp
 HRESULT ConfigureMsgService(
@@ -41,57 +41,57 @@ HRESULT ConfigureMsgService(
 
  _lpUID_
   
-> [in] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagem configurar. 
+> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagens a ser configurado. 
     
  _ulUIParam_
   
-> [in] Uma alça para a janela pai da folha de propriedades de configuração.
+> no Uma alça para a janela pai da folha de propriedades de configuração.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a exibição da folha de propriedades. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla a exibição da folha de propriedades. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> O serviço de mensagem deve exibir sua folha de propriedades de configuração, mas não permitir que o usuário alterá-la. A maioria dos serviços de mensagem ignorar esse sinalizador.
+> O serviço de mensagens deve exibir sua folha de propriedades de configuração, mas não permitir que o usuário a altere. A maioria dos serviços de mensagem ignora esse sinalizador.
     
 SERVICE_UI_ALLOWED 
   
-> O serviço de mensagem deve exibir sua folha de propriedades de configuração somente se o serviço não estiver completamente configurado.
+> O serviço de mensagens só deve exibir sua folha de propriedades de configuração se o serviço não estiver completamente configurado.
     
 SERVICE_UI_ALWAYS 
   
-> O serviço de mensagem deve sempre exibir sua folha de propriedades de configuração. Se SERVICE_UI_ALWAYS não estiver definida, uma folha de propriedades de configuração ainda pode ser exibida se SERVICE_UI_ALLOWED for definido e informações de configuração válida não estão disponíveis na matriz de valores de propriedade no parâmetro _lpProps_ . SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS deve ser definida para uma folha de propriedades a ser exibido. 
+> O serviço de mensagens deve sempre exibir sua folha de propriedades de configuração. Se SERVICE_UI_ALWAYS não for definido, uma folha de propriedades de configuração ainda poderá ser exibida se SERVICE_UI_ALLOWED estiver definido e as informações de configuração válidas não estiverem disponíveis na matriz de valor da propriedade no parâmetro _lpProps_ . O SERVICE_UI_ALLOWED ou o SERVICE_UI_ALWAYS deve ser definido para uma folha de propriedades a ser exibida. 
     
  _cValues_
   
-> [in] A contagem de valores de propriedade na estrutura [SPropValue](spropvalue.md) apontado pela _lpProps_. 
+> no A contagem de valores de propriedade na estrutura [SPropValue](spropvalue.md) apontada por _lpProps_. 
     
  _lpProps_
   
-> [in] Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem exibidas na folha de propriedades. O parâmetro _lpProps_ não deve ser NULL se o serviço de mensagem deve ser configurado sem uma interface do usuário. 
+> no Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem exibidas na folha de propriedades. O parâmetro _lpProps_ não deve ser nulo se o serviço de mensagens deve ser configurado sem uma interface do usuário. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O serviço de mensagem foi configurado com êxito.
+> O serviço de mensagens foi configurado com êxito.
     
 MAPI_E_EXTENDED_ERROR 
   
-> Um erro específico para um serviço de mensagem. Para obter a estrutura [MAPIERROR](mapierror.md) que descreve o erro, o aplicativo cliente deve chamar o método [IMsgServiceAdmin::GetLastError](imsgserviceadmin-getlasterror.md) . 
+> Um erro específico de um serviço de mensagens. Para obter a estrutura [MAPIERROR](mapierror.md) que descreve o erro, o aplicativo cliente deve chamar o método [IMsgServiceAdmin:: GetLastError](imsgserviceadmin-getlasterror.md) . 
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> **MAPIUID** apontado pela _lpUID_ não corresponde àquele de um serviço de mensagem existente. 
+> O **MAPIUID** apontado por _lpUID_ não coincide com o de um serviço de mensagens existente. 
     
 MAPI_E_NOT_INITIALIZED 
   
-> O serviço de mensagem não tem uma entrada aponte a função.
+> O serviço de mensagens não tem uma função de ponto de entrada.
     
 MAPI_E_USER_CANCEL 
   
@@ -99,25 +99,25 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::ConfigureMsgService** permite que um serviço de mensagem a ser configurado, com ou sem uma folha de propriedades de configuração. 
+O método **IMsgServiceAdmin:: ConfigureMsgService** permite que um serviço de mensagem seja configurado, com ou sem uma folha de propriedades de configuração. 
   
-Para permitir que a configuração sem uma exibição de folha de propriedade, serviços de mensagem normalmente preparam um arquivo de cabeçalho que inclui as constantes para todas as propriedades obrigatórios e opcionais e seus valores.
+Para permitir a configuração sem exibição de folha de propriedades, os serviços de mensagens geralmente preparam um arquivo de cabeçalho que inclui constantes para todas as propriedades obrigatórias e opcionais e seus valores.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar a estrutura **MAPIUID** para configurar o serviço de mensagem, recupere a coluna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagem da tabela de serviço de mensagem. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar a estrutura **MAPIUID** do serviço de mensagens a ser configurado, recupere a coluna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
-Você pode configurar um serviço de mensagem sem exibir uma folha de propriedades para um usuário somente se você tiver o avanço informações sobre os valores de propriedade a ser definido. Se você estiver configurando um serviço de mensagem sem exibir uma folha de propriedades, passar valores de propriedade válido no parâmetro _lpProps_ e não definir os sinalizadores MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
+Você pode configurar um serviço de mensagens sem exibir uma folha de propriedades para um usuário somente se você tiver informações avançadas sobre os valores de propriedade a serem definidos. Se você estiver configurando um serviço de mensagens sem exibir uma folha de propriedades, passe valores de propriedade válidos no parâmetro _lpProps_ e não defina os sinalizadores MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
   
-Se você receber todas ou algumas das informações de configuração do usuário por meio de uma folha de propriedades, defina SERVICE_UI_ALLOWED em _ulFlags_. Se você usar as informações existentes da propriedade apenas para estabelecer as configurações padrão e o usuário é capaz de alterar as configurações, defina SERVICE_UI_ALWAYS em _ulFlags_.
+Se você receber todas ou algumas das informações de configuração do usuário por meio de uma folha de propriedades, defina SERVICE_UI_ALLOWED em _parâmetroulflags_. Se você usar as informações de propriedade existentes somente para estabelecer configurações padrão e o usuário puder alterar as configurações, defina SERVICE_UI_ALWAYS em _parâmetroulflags_.
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::ConfigureMsgService** para configurar um serviço que tenha sido adicionado a um perfil.  <br/> |
+|MAPIProfileFunctions. cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa o método **IMsgServiceAdmin:: ConfigureMsgService** para configurar um serviço que tenha sido adicionado a um perfil.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -130,5 +130,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

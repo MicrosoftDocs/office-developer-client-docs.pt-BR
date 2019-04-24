@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: Uma variável desse tipo de dados contém o valor de uma propriedade, que é um tipo de dados variant.
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Uma variável desse tipo de dados contém o valor de uma propriedade, que é de um tipo de dados Variant.
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316916"
 ---
 # <a name="acctvariant"></a>ACCT_VARIANT
 
-Uma variável desse tipo de dados contém o valor de uma propriedade, que é um tipo de dados variant.
+Uma variável desse tipo de dados contém o valor de uma propriedade, que é de um tipo de dados Variant.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -34,7 +34,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _dwType_
   
@@ -46,15 +46,15 @@ _dwType_
     
     - PT_BINARY
     
-_data warehouse_
+_Warehouse_
   
-> Valor DWORD da variante.
+> Valor DWORD de Variant.
     
-_pwsz_
+_PWSZ_
   
-> O valor da variante de sequência de caracteres.
+> Valor da cadeia de caracteres de Variant.
     
-_bin_
+_Bno_
   
 > Valor binário da variante.
     

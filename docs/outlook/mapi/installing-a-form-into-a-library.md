@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d3b20c9fb4b4f1a26eb4ed1a9a498bd56a915a70
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08470a80153e42136922ae502252d83de0125512
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317231"
 ---
 # <a name="installing-a-form-into-a-library"></a>Instalar um formulário em uma biblioteca
 
@@ -21,30 +21,30 @@ ms.locfileid: "22579778"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O Gerenciador de formulário MAPI padrão fornecido com o SDK do Windows não fornece uma interface de usuário de instalação formulários nas várias bibliotecas de formulário. Dessa forma, você precisará criar um aplicativo pequeno — ou detalhados de conjunto de instruções — que os usuários podem usar para instalar o formulário.
+O Gerenciador de formulários MAPI padrão fornecido com o Windows SDK não fornece uma interface de usuário para a instalação de formulários nas várias bibliotecas de formulários. Por isso, você precisará criar um pequeno aplicativo — ou um conjunto detalhado de instruções, que os usuários podem usar para instalar o formulário.
   
-Se você implementar um aplicativo de instalação, a série de ações ele deve executar para instalar um formulário em associado conteúdo de uma pasta tabela são os seguintes:
+Se você implementar um aplicativo de instalação, a série de ações que ele deve executar para instalar um formulário em uma tabela de conteúdo associada da pasta é a seguinte:
   
-1. Chame a função de [MAPIOpenFormMgr](mapiopenformmgr.md) para abrir o formulário manager. 
+1. Chame a função [MAPIOpenFormMgr](mapiopenformmgr.md) para abrir o Gerenciador de formulários. 
     
-2. Use o método [IMAPIFormMgr::OpenFormContainer](imapiformmgr-openformcontainer.md) ou [IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) para selecionar e abrir o contêiner de destino para o formulário. 
+2. Use [IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md) ou [IMAPIFormMgr:: SelectFormContainer](imapiformmgr-selectformcontainer.md) método para selecionar e abrir o contêiner de destino para o formulário. 
     
-3. Use a função [IMAPIFormContainer::InstallForm](imapiformcontainer-installform.md) para instalar o formulário. 
+3. Use a função [IMAPIFormContainer:: InstallForm](imapiformcontainer-installform.md) para instalar o formulário. 
     
     As etapas 4 a 6 são para instalação em uma biblioteca de formulários local:
     
-4. Copie todos os arquivos para o local apropriado no disco local, se a instalação é a biblioteca de formulários local na estação de trabalho do usuário. Se necessário, modifique o arquivo de configuração de formulário para refletir o atuais caminhos dos componentes. O arquivo de configuração de formulário pode conter caminhos relativos, caso em que esta etapa talvez não seja necessária.
+4. Copie todos os arquivos para o local apropriado no disco local, se a instalação for para a biblioteca de formulários local na estação de trabalho do usuário. Se necessário, modifique o arquivo de configuração de formulário para refletir os caminhos atuais dos componentes. O arquivo de configuração de formulário pode conter caminhos relativos, caso em que esta etapa pode não ser necessária.
     
-5. Conclua as etapas apropriadas de registro OLE para associar o tipo de mensagem com o servidor de formulário que está sendo instalado.
+5. Conclua as etapas de registro OLE apropriadas para associar o tipo de mensagem ao servidor de formulário que está sendo instalado.
     
-6. Se o formulário foi instalado na biblioteca de formulários local, copie o ícone (. ico) do formulário e arquivos de configuração (. cfg) no diretório %WINDOWS%\FORMS\CONFIGS para que o formulário possa ser restaurado automaticamente caso a biblioteca de formulários está corrompida ou excluída. Esta etapa é recomendado, mas não seja obrigatório.
+6. Se o formulário foi instalado na biblioteca de formulários local, copie os arquivos de ícone (. ico) e de configuração (. cfg) do formulário para o diretório%WINDOWS%\FORMS\CONFIGS para que o formulário possa ser restaurado automaticamente caso a biblioteca de formulários esteja corrompida ou excluída. Esta etapa é recomendada, mas não obrigatória.
     
 > [!NOTE]
-> Você pode simplificar a instalação em uma biblioteca de formulários locais, substituindo as etapas 1 e 2 por uma chamada para a função [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) . 
+> Você pode simplificar a instalação em uma biblioteca de formulários local, substituindo as etapas 1 e 2 por uma chamada para a função [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) . 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

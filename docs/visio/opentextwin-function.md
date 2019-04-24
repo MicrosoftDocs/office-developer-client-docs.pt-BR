@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
 description: Abre o bloco de texto da forma para que o texto possa ser editado.
-ms.openlocfilehash: 40cc2ab417be8a1ac9750d5faeac20cbec65f753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f182943b8ef01ff78c2f606cd0f925110ce83fef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315663"
 ---
 # <a name="opentextwin-function"></a>Função OPENTEXTWIN
 

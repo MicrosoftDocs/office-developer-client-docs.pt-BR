@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319283"
 ---
 # <a name="mapi-client-objects"></a>Objetos de cliente MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aplicativos de cliente de mensagens padrão implementam apenas um objeto — um coletor advise. Avise PIAs herdem a [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface e são usados pelo MAPI e provedores de notificação de evento de serviço. Alguns clientes também implementam objetos de andamento para oferecer suporte a exibição das caixas de diálogo de progresso. 
+Os aplicativos clientes de mensagens padrão implementam apenas um objeto — um coletor de aviso. Os coletores de aviso herdam da interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) e são usados por MAPI e provedores de serviço para notificação de eventos. Alguns clientes também implementam objetos Progress para dar suporte à exibição de caixas de diálogo de progresso. 
   
-Coletor de clientes mais complexos que formulários personalizados do suporte implementam advise outro objeto e alguns outros objetos, tais como o objeto de site de mensagem que herde a [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) interface e o objeto de contexto do modo de exibição que herda do [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) interface. O objeto coletor de eventos adicionais advise herde a [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) interface. 
+Clientes mais complexos que oferecem suporte a formulários personalizados implementam outro objeto de coletor de aviso e alguns outros objetos, como o objeto de site de mensagem que herda da interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) e o objeto de contexto de exibição que herda da [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) interface. O objeto de coletor de aviso adicional herda da interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) . 
   
-A tabela a seguir resume os objetos MAPI implementados por clientes de mensagens padrão e por clientes que oferecem suporte à exibição de formulários personalizados.
+A tabela a seguir resume os objetos MAPI implementados por clientes de mensagens padrão e por clientes que dão suporte à exibição de formulários personalizados.
   
-|**Objeto de cliente**|**Descrição**|
+|**Objeto Client**|**Descrição**|
 |:-----|:-----|
-|Coletor de eventos de aviso  <br/> |Fornece uma função de retorno de chamada para eventos que ocorrem no armazenamento de mensagens, catálogo de endereços ou a sessão.  <br/> |
-|Site de mensagem  <br/> |Trata a manipulação de objetos de formulário.  <br/> |
+|Coletor de aviso  <br/> |Fornece uma função de retorno de chamada para eventos que ocorrem no repositório de mensagens, no catálogo de endereços ou na sessão.  <br/> |
+|Site de mensagens  <br/> |Manipula a manipulação de objetos Form.  <br/> |
 |Progress  <br/> |Exibe uma caixa de diálogo para mostrar o progresso de uma operação.  <br/> |
-|Coletor de eventos de aviso do modo de exibição  <br/> |Fornece funções de retorno de chamada para eventos que ocorrem em um formulário.  <br/> |
-|Contexto de modo de exibição  <br/> |Oferece suporte a comandos para impressão e salvamento de formulários e navegação entre formulários.  <br/> |
+|Exibir coletor de avisos  <br/> |Fornece funções de retorno de chamada para eventos que ocorrem em um formulário.  <br/> |
+|Contexto de exibição  <br/> |Suporta comandos para imprimir e salvar formulários e para navegar entre formulários.  <br/> |
    
-A ilustração a seguir mostra a relação entre esses objetos de cliente diferente, as interfaces do qual eles herdam e os componentes MAPI que usá-los. 
+A ilustração a seguir mostra a relação entre esses objetos cliente diferentes, as interfaces das quais eles herdam e os componentes MAPI que os utilizam. 
   
-![Objetos de cliente e as interfaces correspondentes] (media/amapi_65.gif "Objetos de cliente e as interfaces correspondentes")
+![Objetos de cliente e interfaces correspondentes] (media/amapi_65.gif "Objetos de cliente e interfaces correspondentes")
   
-Os clientes usam muitos mais objetos do que eles implementam. Todos os clientes usam um objeto de sessão para obter acesso a uma ampla variedade de objetos do provedor de serviço e objetos que implementa MAPI. Os clientes interagem com provedores de serviços indiretamente, através da sessão, o catálogo de endereços ou os objetos de status que fornece MAPI ou diretamente por meio de uma variedade de objetos que implementam provedores de serviço específico. Para tornar o contato direto com provedores de catálogo de endereços, os clientes usam os contêineres do catálogo de endereços, usuários e listas de distribuição de mensagens. Para acessar um provedor de armazenamento de mensagem diretamente, os clientes usam o objeto de armazenamento de mensagens, pastas, mensagens e anexos. Quando os provedores de serviço oferecem suporte a um objeto de status, os clientes podem usar o objeto de status para monitorar o estado do provedor de serviços.
+Os clientes usam muitos outros objetos do que eles implementam. Todos os clientes usam um objeto Session para obter acesso a uma ampla variedade de objetos de provedor de serviços e objetos que o MAPI implementa. Os clientes interagem com os provedores de serviço indiretamente, através da sessão, do catálogo de endereços ou dos objetos de status que o MAPI fornece ou diretamente por uma variedade de objetos implementados por provedores de serviços específicos. Para fazer contato direto com provedores de catálogo de endereços, os clientes usam contêineres de catálogo de endereços, usuários de mensagens e listas de distribuição. Para acessar diretamente um provedor de armazenamento de mensagens, os clientes usam o objeto, as pastas, as mensagens e os anexos do repositório de mensagens. Quando os provedores de serviços dão suporte a um objeto status, os clientes podem usar o objeto status para monitorar o estado do provedor de serviços.
   
-Clientes com suporte do provedor de serviços e a configuração do serviço de mensagem usam três objetos que implementa MAPI: o objeto de administração do serviço de mensagem, o objeto de administração do perfil e o objeto de administração do provedor. Os clientes que exibem os formulários personalizados usam vários objetos de formulário que implementa um provedor de biblioteca de formulário ou um servidor de formulário.
+Os clientes que dão suporte ao provedor de serviços e à configuração do serviço de mensagens usam três objetos que o MAPI implementa: o objeto de administração do serviço de mensagens, o objeto de administração de perfil e o objeto de administração de provedor Os clientes que exibem formulários personalizados usam vários objetos de formulário que um provedor de biblioteca de formulários ou um servidor de formulários implementa.
   
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  
 - [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
-- [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
+- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
 

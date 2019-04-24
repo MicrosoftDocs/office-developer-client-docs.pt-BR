@@ -1,5 +1,5 @@
 ---
-title: Substituir função (VisioShapeSheet)
+title: Função REPLACE (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm60108
 localization_priority: Normal
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
-description: Substitui parte de uma cadeia de texto, baseada no número de caracteres especificado, por uma cadeia de texto diferente.
-ms.openlocfilehash: 4112339d772248ac033674808d97c3f9c55b6f0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Substitui parte de uma sequência de caracteres de texto, baseada no número de caracteres especificado, por uma sequência de caracteres de texto diferente.
+ms.openlocfilehash: 75a156d720ca276e75fccf932124ae905e4350b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320157"
 ---
-# <a name="replace-function-visioshapesheet"></a>Substituir função (VisioShapeSheet)
+# <a name="replace-function-visioshapesheet"></a>Função REPLACE (VisioShapeSheet)
 
 Substitui parte de uma sequência de caracteres de texto, baseada no número de caracteres especificado, por uma sequência de caracteres de texto diferente.
   
 ## <a name="syntax"></a>Sintaxe
 
-Substituir (* * *old_text* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *, * * *Novo_texto* * *) 
+REPLACE (* * *texto_antigo* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *, * * *novo_texto* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Texto_antigo_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
-| _Núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do caractere em _texto_antigo_ que você deseja substituir por _Novo_texto_. O primeiro caractere na cadeia de caracteres é a posição 1.  <br/> |
+| _iguais_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
+| _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do caractere em _texto_antigo_ que você deseja substituir por _novo_texto_. O primeiro caractere na cadeia é a posição 1.  <br/> |
 | _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres em _texto_antigo_ que você deseja substituir  <br/> |
-| _Novo_texto_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto que substituirá os caracteres em _texto_antigo_.  <br/> |
+| _novo_texto_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto que substituirá os caracteres em _texto_antigo_.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

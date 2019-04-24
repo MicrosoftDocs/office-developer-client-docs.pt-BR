@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 41066d4418760a676fbc02241bfc12d83275da9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c7124c8e3f2ced66d303321ff7aee8592a723a2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317119"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 
@@ -40,33 +40,33 @@ HRESULT ChangeProfilePassword(
 
  _lpszProfileName_
   
-> [in] Um ponteiro para o nome do perfil associado a senha a ser alterado.
+> no Um ponteiro para o nome do perfil associado à senha a ser alterada.
     
  _lpszOldPassword_
   
-> [in] Um ponteiro para a senha atual.
+> no Um ponteiro para a senha atual.
     
  _lpszNewPassword_
   
-> [in] Um ponteiro para a nova senha.
+> no Um ponteiro para a nova senha.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres no passado. O seguinte sinalizador pode ser definido:
+> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> O nome do perfil e senhas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estão no formato ANSI.
+> O nome do perfil e as senhas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estarão no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Se esse método for chamado, ela retornará S_OK. No entanto, nenhuma ação será tomada.
+> Se esse método for chamado, retornará S_OK. No enTanto, nenhuma ação será executada.
     
 ## <a name="remarks"></a>Comentários
 
-Não use esse método. MAPI não suporta senhas para perfis.
+Não use esse método. O MAPI não oferece suporte a senhas de perfis.
   
 ## <a name="see-also"></a>Confira também
 

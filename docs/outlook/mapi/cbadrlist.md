@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2507c3fa-e34c-4da0-88b5-2d1a98b32d4a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a262275640897a0243330404c4d141144bb64f21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f45a8ee2f52673dc04a9dc60971777200d1e8438
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318099"
 ---
 # <a name="cbadrlist"></a>CbADRLIST
 
@@ -25,11 +25,11 @@ ms.locfileid: "22567514"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura [ADRLIST](adrlist.md) existente. 
+Calcula o número de bytes em uma estrutura [das ADRLIST](adrlist.md) existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada  <br/> |**ADRLIST** <br/> |
    
 ```cpp
@@ -40,7 +40,7 @@ CbADRLIST (_lpadrlist)
 
  __lpadrlist_
   
-> Ponteiro para a estrutura **ADRLIST** existente. 
+> Ponteiro para a estrutura **das ADRLIST** existente. 
     
 ## <a name="see-also"></a>Confira também
 

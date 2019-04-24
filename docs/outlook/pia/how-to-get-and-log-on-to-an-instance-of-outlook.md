@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 4445d0665ea5a3d36a5ff7c92b5a46cfe4fffaa8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320269"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Acessar e entrar em uma instância do Outlook
 
@@ -25,13 +25,13 @@ Este tópico mostra como obter um objeto [Application](https://msdn.microsoft.co
 
 Os exemplos de código a seguir contêm o método GetApplicationObject da classe Sample, implementados como parte de um projeto de suplemento do Outlook. Cada projeto adiciona uma referência para o Outlook PIA, que se baseia no namespace [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)).
 
-O método GetApplicationObject usa classes na biblioteca de classes .NET Framework para verificar e obter qualquer processo do Outlook em execução no computador local. Ele primeiro usa o método [GetProcessesByName](https://msdn.microsoft.com/en-us/library/wbt7d3cy) da classe [Process](https://msdn.microsoft.com/en-us/library/ccf1tfx0) no namespace [System.Diagnostics](https://msdn.microsoft.com/en-us/library/15t15zda) para obter uma matriz de componentes de processo no computador local que compartilham o nome do processo "OUTLOOK". Para verificar se a matriz contém pelo menos um processo do Outlook, GetApplicationObject usa o Microsoft Language Integrated Query (LINQ). A classe [Enumerable](https://msdn.microsoft.com/en-us/library/bb345746) no namespace [System.Linq](https://msdn.microsoft.com/en-us/library/bb336768) fornece um conjunto de métodos, incluindo o método [Count](https://msdn.microsoft.com/en-us/library/bb357758) que implementa a interface genérica [IEnumerable\<T\>](https://msdn.microsoft.com/en-us/library/9eekhta0). Como a classe [Array](https://msdn.microsoft.com/en-us/library/czz5hkty) implementa a interface **IEnumerable(T)**, GetApplicationObject pode aplicar o método **Count** para a matriz retornada por **GetProcessesByName** para ver se há um processo do Outlook em execução. Se houver, o GetApplicationObject usa o método [GetActiveObject](https://msdn.microsoft.com/en-us/library/xt620x09) da classe [Marshal](https://msdn.microsoft.com/en-us/library/asx0thw2) no namespace [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) para obter essa instância do Outlook, e projeta esse objeto para um objeto [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) do Outlook.
+O método GetApplicationObject usa classes na biblioteca de classes .NET Framework para verificar e obter qualquer processo do Outlook em execução no computador local. Ele primeiro usa o método [GetProcessesByName](https://msdn.microsoft.com/pt-BR/library/wbt7d3cy) da classe [Process](https://msdn.microsoft.com/pt-BR/library/ccf1tfx0) no namespace [System.Diagnostics](https://msdn.microsoft.com/pt-BR/library/15t15zda) para obter uma matriz de componentes de processo no computador local que compartilham o nome do processo "OUTLOOK". Para verificar se a matriz contém pelo menos um processo do Outlook, GetApplicationObject usa o Microsoft Language Integrated Query (LINQ). A classe [Enumerable](https://msdn.microsoft.com/pt-BR/library/bb345746) no namespace [System.Linq](https://msdn.microsoft.com/pt-BR/library/bb336768) fornece um conjunto de métodos, incluindo o método [Count](https://msdn.microsoft.com/pt-BR/library/bb357758) que implementa a interface genérica [IEnumerable\<T\>](https://msdn.microsoft.com/pt-BR/library/9eekhta0). Como a classe [Array](https://msdn.microsoft.com/pt-BR/library/czz5hkty) implementa a interface **IEnumerable(T)**, GetApplicationObject pode aplicar o método **Count** para a matriz retornada por **GetProcessesByName** para ver se há um processo do Outlook em execução. Se houver, o GetApplicationObject usa o método [GetActiveObject](https://msdn.microsoft.com/pt-BR/library/xt620x09) da classe [Marshal](https://msdn.microsoft.com/pt-BR/library/asx0thw2) no namespace [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) para obter essa instância do Outlook, e projeta esse objeto para um objeto [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) do Outlook.
 
 Se o Outlook não estiver sendo executado no computador local, o GetApplicationObject criará uma nova instância do Outlook, usará o método [Logon(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb646718\(v=office.15\)) do objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) para entrar no perfil padrão e retornará a nova instância do Outlook.
 
 A seguir está um exemplo de código do Visual Basic, seguido do exemplo de código C\#.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionada antes da declaração de Classe pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

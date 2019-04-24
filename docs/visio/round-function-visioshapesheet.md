@@ -9,47 +9,47 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
 description: Arredonda um número para a precisão representada pelo número de dígitos.
-ms.openlocfilehash: 2457bdf6b46a2bb44b203497f02cc9b2ff034847
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6795cbc4d99e293da06c0ec369d2cefb84f9f5b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19772752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315572"
 ---
 # <a name="round-function-visioshapesheet"></a>Função ROUND (VisioShapeSheet)
 
-Arredonda um número para a precisão representada pelo *número de dígitos* . 
+Arredonda um número para a precisão representada pelo número de *dígitos* . 
   
 ## <a name="syntax"></a>Sintaxe
 
-Arredondar (* * *número* * *, * * *número de dígitos* * *) 
+ARREd (* * Number * *, * * *número* de *dígitos* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número a ser arredondado.  <br/> |
-| _número de dígitos_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de casas decimais de precisão.  <br/> |
+| _dígitos_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de casas decimais de precisão.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se o _número de dígitos_ for maior do que 0, o _número_ será arredondado pelo _número de dígitos_ à direita da vírgula decimal. Se o _número de dígitos_ for 0, o _número_ será arredondado para um número inteiro. Se o _número de dígitos_ for menor que 0, o _número_ será arredondado pelo _número de dígitos_ à esquerda da vírgula decimal. 
+Se o número de _dígitos_ for maior que 0, núm será arredondado para o _número_ de _dígitos_ à direita do decimal. Se o número de _dígitos_ for 0, _núm_ será arredondado para um inteiro. Se o número de _dígitos_ for menor que 0, núm será arredondado para o _número_ de _dígitos_ à esquerda do decimal. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-ROUND(123.654,2)
+ARRED (123.654, 2)
   
 Retornará 123,65.
   
 ## <a name="example-2"></a>Exemplo 2
 
-ROUND(123.654,0)
+ARRED (123.654, 0)
   
 Retornará 124.
   
 ## <a name="example-3"></a>Exemplo 3
 
-ROUND(123.654,-1)
+ARRED (123.654,-1)
   
 Retornará 120.
   

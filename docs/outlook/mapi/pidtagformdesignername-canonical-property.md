@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d80687df06633b0fd88b0d2c97f06e77c4d5a245
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 73877a146336f40d3c70511fd8caa7797370fab1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316216"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Propriedade canônica PidTagFormDesignerName
 
@@ -25,30 +25,30 @@ ms.locfileid: "22587723"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de exibição para o objeto que é usado para criar o formulário. 
+Contém o nome para exibição do objeto que é usado para criar o formulário. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FORM_DESIGNER_NAME, PR_FORM_DESIGNER_NAME_A, PR_FORM_DESIGNER_NAME_W  <br/> |
 |Identificador:  <br/> |0x3308  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm o identificador exclusivo para o objeto de designer do formulário. 
+Essas propriedades contêm o identificador exclusivo do objeto Form Designer. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

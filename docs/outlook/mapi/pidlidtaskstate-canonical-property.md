@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 149f238ea53e0669f4d95c8e6c2b17a2b5a1c209
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316531"
 ---
 # <a name="pidlidtaskstate-canonical-property"></a>Propriedade canônica PidLidTaskState
 
@@ -25,55 +25,55 @@ ms.locfileid: "25400982"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o estado atual da atribuição da tarefa.
+Indica o estado de atribuição atual da tarefa.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskState  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008113  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008113  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor dessa propriedade deve ser um destes procedimentos.
+O valor dessa propriedade deve ser um dos seguintes.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |Esta tarefa foi criada para corresponder a uma tarefa que foi incorporada a uma rejeição da tarefa, mas não pôde ser encontrada localmente.  <br/> |
-|0x00000001  <br/> |A tarefa não é atribuída.  <br/> |
-|0x00000002  <br/> |A tarefa é uma cópia do destinatário da tarefa de uma tarefa atribuída.  <br/> |
-|0x00000003  <br/> |A tarefa é uma cópia do cedente a tarefa de uma tarefa atribuída.  <br/> |
-|0x00000004  <br/> |A tarefa é uma cópia do cedente a tarefa de uma tarefa rejeitada.  <br/> |
+|0x00000000  <br/> |Esta tarefa foi criada para corresponder a uma tarefa que foi incorporada a rejeição de tarefa, mas que não pôde ser encontrada localmente.  <br/> |
+|0x00000001  <br/> |A tarefa não foi atribuída.  <br/> |
+|0x00000002  <br/> |A tarefa é a cópia de uma tarefa atribuída do destinatário da tarefa.  <br/> |
+|0x00000003  <br/> |A tarefa é a cópia de uma tarefa atribuída do destinatário da tarefa.  <br/> |
+|0x00000004  <br/> |A tarefa é a cópia de uma tarefa rejeitada do destinatário da tarefa.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a criação e a localização de pastas especiais em uma caixa de correio.
+> Especifica as propriedades e operações para criar e localizar as pastas especiais em uma caixa de correio.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -83,7 +83,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

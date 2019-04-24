@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c40d853c49645638c2ec4001d86e64a1b2d2e381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321592"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579288"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Apresenta uma caixa de diálogo que permite ao usuário selecionar vários formulários e retorna uma matriz de formulário objetos de informações que descrevem esses formulários.
+Apresenta uma caixa de diálogo que permite ao usuário selecionar vários formulários e retorna uma matriz de objetos de informações de formulário que descrevem esses formulários.
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -42,41 +42,41 @@ HRESULT SelectMultipleForms(
 
  _ulUIParam_
   
-> [in] Uma alça para a janela pai da caixa de diálogo exibida. 
+> no Uma alça para a janela pai da caixa de diálogo exibida. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres no passado. O seguinte sinalizador pode ser definido:
+> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _pszTitle_
   
-> [in] Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulário que fornece os formulários fornece uma legenda padrão. 
+> no Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulários que fornecerá os formulários fornecerá uma legenda padrão. 
     
  _pfld_
   
-> [in] Um ponteiro para a pasta da qual selecionar os formulários. Se o parâmetro _pfld_ for NULL, os formulários são selecionados do contêiner formulário local, pessoal ou organização. 
+> no Um ponteiro para a pasta da qual os formulários serão selecionados. Se o parâmetro _pfld_ for NULL, os formulários serão selecionados do contêiner de formulário local, pessoal ou organização. 
     
  _pfrminfoarray_
   
-> [in] Um ponteiro para uma matriz de objetos de informações de formulário que são pré-selecionados para o usuário.
+> no Um ponteiro para uma matriz de objetos de informações de formulário que são preselecionadas para o usuário.
     
  _ppfrminfoarray_
   
-> [out] Um ponteiro para um ponteiro para a matriz retornada dos objetos de informações do formulário.
+> bota Um ponteiro para um ponteiro para a matriz retornada de objetos de informação do formulário.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 MAPI_E_USER_CANCEL 
   
@@ -84,11 +84,11 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IMAPIFormMgr::SelectMultipleForms** para apresentado antes de uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, para recuperar uma matriz de formulário informações objetos que descrevem os formulários selecionados. A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, se ou não estão ocultos (ou seja, se ou não suas propriedades ocultas são criptografadas). 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectMultipleForms** para primeiro apresentar uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, recuperar uma matriz de objetos de informações de formulário que descrevem os formulários selecionados. A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, independentemente de estarem ou não ocultos (ou seja, se suas propriedades ocultas estão desmarcadas ou não). 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ , todas as cadeias de caracteres são Unicode. Provedores de biblioteca de formulário que não oferecem suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres serão Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
   
 ## <a name="see-also"></a>Confira também
 

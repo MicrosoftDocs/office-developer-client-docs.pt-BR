@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316629"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
@@ -37,15 +37,15 @@ HRESULT SaveChanges(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o que acontece ao objeto quando o método **IMAPIProp::SaveChanges** é chamado. Sinalizadores a seguir podem ser definidos: 
+> no Uma bitmask de sinalizadores que controlam o que acontece com o objeto quando o método **IMAPIProp:: SaveChanges** é chamado. Os seguintes sinalizadores podem ser definidos: 
     
 NON_EMS_XP_SAVE
   
-> Indica que a mensagem não foi entregue a partir de um Microsoft Exchange Server. Esse sinalizador deve ser usado em conjunto com o método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) e o sinalizador ITEMPROC_FORCE para indicar um repositório PST que a mensagem é qualificada para regras de processamento antes que o repositório de arquivos (. PST) de pastas particulares notifica qualquer um cliente de escuta que a mensagem foi entregue. Este regras processamento só se aplica às novas mensagens que são criadas com [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) em um servidor que não seja um servidor do Exchange, caso em que o Exchange Server seriam já processados regras na mensagem. 
+> Indica que a mensagem não foi entregue de um servidor do Microsoft Exchange. Esse sinalizador deve ser usado em combinação com o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) e o sinalizador ITEMPROC_FORCE para indicar a um repositório PST que a mensagem está qualificada para o processamento de regras antes que o repositório de arquivos de pastas particulares (PST) Notifique qualquer cliente de escuta que a mensagem chegou. Este processamento de regras só se aplica a novas mensagens criadas com o [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) em um servidor que não é um servidor Exchange, caso em que o servidor Exchange já tenha processado as regras da mensagem. 
     
 FORCE_SAVE 
   
-> As alterações devem ser gravadas no objeto, substituindo quaisquer alterações anteriores que foram feitas ao objeto, e o objeto deve ser fechado. Permissão de leitura/gravação deve ser definida para a operação tenha êxito. O sinalizador FORCE_SAVE é usado após uma chamada anterior para **SaveChanges** retornado MAPI_E_OBJECT_CHANGED. 
+> As alterações devem ser gravadas no objeto, substituindo todas as alterações anteriores que foram feitas no objeto e o objeto deve ser fechado. A permissão de leitura/gravação deve ser definida para que a operação seja bem-sucedida. O sinalizador FORCE_SAVE é usado depois que uma chamada anterior a **SaveChanges** retornou MAPI_E_OBJECT_CHANGED. 
     
 KEEP_OPEN_READONLY 
   
@@ -53,25 +53,25 @@ KEEP_OPEN_READONLY
     
 KEEP_OPEN_READWRITE 
   
-> As alterações devem ser confirmadas e o objeto deve ser mantido aberto para permissão de leitura/gravação. Esse sinalizador geralmente é definido quando o objeto foi aberto pela primeira vez para permissão de leitura/gravação. As alterações subsequentes ao objeto são permitidas. 
+> As alterações devem ser confirmadas e o objeto deve ser mantido aberto para permissão de leitura/gravação. Normalmente, esse sinalizador é definido quando o objeto foi aberto pela primeira vez para permissões de leitura/gravação. Alterações subsequentes no objeto são permitidas. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **SaveChanges** retornar com êxito, possivelmente antes que as alterações forem confirmadas totalmente. 
+> Permite que **SaveChanges** seja retornado com êxito, possivelmente antes de as alterações terem sido totalmente confirmadas. 
     
 SPAMFILTER_ONSAVE
   
-> Permite que o spam filtrados em uma mensagem que está sendo salva. O suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente for SMTP(Simple Mail Transfer Protocol) e a mensagem estiver sendo salva em um repositório de um arquivo de pastas particulares (PST).
+> Habilita a filtragem de spam em uma mensagem que está sendo salva. O suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente for SMTP(Simple Mail Transfer Protocol) e a mensagem estiver sendo salva em um repositório de um arquivo de pastas particulares (PST).
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O compromisso de alterações foi bem-sucedida.
+> O compromisso das alterações foi bem-sucedido.
     
 MAPI_E_NO_ACCESS 
   
-> **SaveChanges** não podem manter o objeto aberto para permissão somente leitura se KEEP_OPEN_READONLY for definido, ou permissão de leitura/gravação, se KEEP_OPEN_READWRITE estiver definida. Sem alterações são confirmadas. 
+> **SaveChanges** não pode manter o objeto aberto para permissão somente leitura se KEEP_OPEN_READONLY estiver definido, ou permissão de leitura/gravação se KEEP_OPEN_READWRITE estiver definido. Nenhuma alteração é confirmada. 
     
 MAPI_E_OBJECT_CHANGED 
   
@@ -79,50 +79,50 @@ MAPI_E_OBJECT_CHANGED
     
 MAPI_E_OBJECT_DELETED 
   
-> O objeto foi excluído desde que ela foi aberta.
+> O objeto foi excluído desde que foi aberto.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIProp::SaveChanges** faz com que as alterações de propriedade permanente para objetos que suportam o modelo de transação do processamento, como mensagens, anexos, recipientes do catálogo de endereços e objetos de usuário de mensagens. Objetos que não oferecem suporte a transações, como pastas, repositórios de mensagem e seções de perfil, faça alterações permanentes imediatamente. Nenhuma chamada para **SaveChanges** é necessária. 
+O método **IMAPIProp:: SaveChanges** torna as alterações de propriedade permanentes para objetos que dão suporte ao modelo de transação de processamento, como mensagens, anexos, contêineres de catálogo de endereços e objetos de usuário de mensagens. Objetos que não dão suporte a transações, como pastas, repositórios de mensagens e seções de perfil, tornam as alterações permanentes imediatamente. Nenhuma chamada para **SaveChanges** é necessária. 
   
-Porque não têm os provedores de serviço gerar um identificador de entrada para seus objetos até que todas as propriedades foram salvos, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) propriedade de um objeto pode não estar disponível até após seu método **SaveChanges** foi chamado. Alguns provedores de aguardar até que o sinalizador KEEP_OPEN_READONLY está definido na chamada **SaveChanges** . KEEP_OPEN_READONLY indica que as alterações sejam salvos na chamada atual será as últimas alterações serão feitas no objeto. 
+Como os provedores de serviços não precisam gerar um identificador de entrada para seus objetos até que todas as propriedades tenham sido salvas, a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de um objeto pode não estar disponível até que o método **SaveChanges** foi chamado. Alguns provedores esperam até que o sinalizador KEEP_OPEN_READONLY seja definido na chamada **SaveChanges** . KEEP_OPEN_READONLY indica que as alterações a serem salvas na chamada atual serão as últimas alterações que serão feitas no objeto. 
   
-Algumas implementações de repositório de mensagem do não mostrar recém-criadas mensagens em uma pasta até que um cliente salva a mensagem altera usando **SaveChanges** e libera os objetos de mensagem usando o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Além disso, algumas implementações de objeto não é possível gerar uma propriedade **PR_ENTRYID** para um objeto recém-criado até depois **SaveChanges** foi chamado e alguns podem fazê-lo apenas depois **SaveChanges** tiver sido chamado usando KEEP_OPEN_READONLY Defina no _ulFlags_.
+Algumas implementações de repositório de mensagens não mostram mensagens recém-criadas em uma pasta até que um cliente salve as alterações de mensagens usando **SaveChanges** e libere os objetos de mensagem usando o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Além disso, algumas implementações de objeto não podem gerar uma propriedade **PR_ENTRYID** para um objeto recém-criado até que **SaveChanges** tenha sido chamado, e alguns podem fazer isso somente depois que **SaveChanges** tiver sido chamado usando o KEEP_OPEN_READONLY definido no _parâmetroulflags_.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se você receber o sinalizador KEEP_OPEN_READONLY, você tem a opção de deixar o acesso do objeto como leitura/gravação. No entanto, um provedor pode nunca deixe um objeto em um estado somente leitura quando o sinalizador KEEP_OPEN_READWRITE é passado.
+Se você receber o sinalizador KEEP_OPEN_READONLY, terá a opção de deixar o acesso do objeto como leitura/gravação. No enTanto, um provedor nunca pode deixar um objeto em um estado somente leitura quando o sinalizador KEEP_OPEN_READWRITE é passado.
   
-Quando um cliente salva vários anexos para várias mensagens, ele chama o método **SaveChanges** para cada anexo e cada mensagem. Geralmente, clientes definirão MAPI_DEFERRED_ERRORS para cada uma dessas chamadas, exceto o último. Você pode retornar erros com a última chamada ou chamadas anteriores. Você pode até mesmo ignorar o sinalizador. 
+Quando um cliente salva vários anexos em várias mensagens, ele chama o método **SaveChanges** para todos os anexos e todas as mensagens. Geralmente, os clientes definirão MAPI_DEFERRED_ERRORS para cada uma dessas chamadas, exceto para o último. Você pode retornar erros com a última chamada ou chamadas anteriores. Você pode até mesmo ignorar o sinalizador. 
   
-Se KEEP_OPEN_READWRITE ou KEEP_OPEN_READONLY for definido em conjunto com MAPI_DEFERRED_ERRORS, você pode ignorar a solicitação de diferimento de erro. Se MAPI_DEFERRED_ERRORS não estiver definida no _ulFlags_, um dos erros adiados anteriormente pode ser retornado para a chamada **SaveChanges** . 
+Se KEEP_OPEN_READWRITE ou KEEP_OPEN_READONLY estiver definido junto com o MAPI_DEFERRED_ERRORS, você poderá ignorar a solicitação de diferimento de erro. Se MAPI_DEFERRED_ERRORS não estiver definido no _parâmetroulflags_, um dos erros adiados anteriormente poderá ser retornado para a chamada **SaveChanges** . 
   
-Se um provedor de transporte remoto fornece uma implementação funcional deste método é opcional e depende de outras escolhas de design na sua implementação. Se você implementar esse método, fazê-lo de acordo com a documentação aqui. Porque os objetos de pasta e objetos de status não serão transacionados, no mínimo implementação do provedor de um transporte remoto **SaveChanges** deve retornar S_OK sem realmente fazer qualquer trabalho. 
+Se um provedor de transporte remoto fornece uma implementação funcional desse método é opcional e depende de outras escolhas de design na sua implementação. Se você implementar esse método, faça-o de acordo com a documentação aqui. Como objetos Folder e status objetos não são transacionados, no mínimo uma implementação de **SaveChanges** do provedor de transporte remoto deve retornar S_OK sem realmente realizar qualquer trabalho. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se um cliente passa KEEP_OPEN_READONLY, chama o método [IMAPIProp::SetProps](imapiprop-setprops.md) e, em seguida, chama **SaveChanges** novamente, a mesma implementação pode falhar. 
+Se um cliente passar KEEP_OPEN_READONLY, chama o método [IMAPIProp::](imapiprop-setprops.md) SetProps e, em seguida, chama **SaveChanges** novamente, a mesma implementação pode falhar. 
   
-Após receber MAPI_E_NO_ACCESS de uma chamada no qual você definiu KEEP_OPEN_READWRITE, continuará a ter permissão de leitura/gravação para o objeto. É possível chamar **SaveChanges** novamente, passando o sinalizador KEEP_OPEN_READONLY ou sem sinalizadores com KEEP_OPEN_SUFFIX. 
+Após receber MAPI_E_NO_ACCESS de uma chamada na qual você definiu KEEP_OPEN_READWRITE, você continuará com permissão de leitura/gravação para o objeto. Você pode chamar o **SaveChanges** novamente, passando o sinalizador KEEP_OPEN_READONLY ou nenhum sinalizador com KEEP_OPEN_SUFFIX. 
   
-Se um provedor suporta o sinalizador KEEP_OPEN_READWRITE depende da implementação do provedor. 
+Se um provedor oferece suporte ao sinalizador KEEP_OPEN_READWRITE depende da implementação do provedor. 
   
-Para indicar que a chamada apenas ser feitas no objeto após **SaveChanges** é **IUnknown:: Release**, não defina nenhum sinalizadores para o parâmetro _ulFlags_ . Um erro de **SaveChanges** indica que ele não pôde tornar as alterações pendentes permanente. Provedores diferentes manipulam a ausência de sinalizadores na chamada **SaveChanges** de forma diferente. Alguns provedores tratam nesse estado da mesma forma KEEP_OPEN_READONLY; outros provedores interpretam o mesmo KEEP_OPEN_READWRITE. Ainda outros provedores desligar o objeto quando não recebem sinalizadores na chamada **SaveChanges** . 
+Para indicar que a única chamada a ser feita no objeto após **SaveChanges** é **IUnknown:: Release**, configure nenhum sinalizador para o parâmetro _parâmetroulflags_ . Um erro de **SaveChanges** indica que não foi possível tornar as alterações pendentes permanentes. Diferentes provedores manipulam a ausência de sinalizadores na chamada **SaveChanges** de forma diferente. Alguns provedores tratam esse estado da mesma forma que KEEP_OPEN_READONLY; outros provedores interpretam o mesmo que KEEP_OPEN_READWRITE. Ainda outros provedores desligam o objeto quando não recebem sinalizadores na chamada **SaveChanges** . 
   
-Algumas propriedades, normalmente computadas propriedades, não podem ser processadas até que se chame **SaveChanges** e, em alguns casos, a **versão**.
+Algumas propriedades, normalmente, Propriedades computadas, não podem ser processadas até que você chame **SaveChanges** e, em alguns casos, o **lançamento**.
   
-Quando você faz alterações em massa, como salvar anexos de várias mensagens, adie o erro de processamento, definindo o sinalizador MAPI_DEFERRED_ERRORS no _ulFlags_. Se você salvar vários anexos para várias mensagens, fazer um **SaveChanges** chamada para cada anexo e um **SaveChanges** chamada a cada mensagem. Defina o sinalizador MAPI_DEFERRED_ERRORS para cada chamada de anexo e para todas as mensagens, exceto o último. 
+Ao fazer alterações em massa, como salvar anexos em várias mensagens, adie o processamento de erro definindo o sinalizador MAPI_DEFERRED_ERRORS no _parâmetroulflags_. Se você salvar vários anexos em várias mensagens, faça uma chamada **SaveChanges** para cada anexo e uma chamada **SaveChanges** para cada mensagem. Defina o sinalizador MAPI_DEFERRED_ERRORS para cada chamada de anexo e para todas as mensagens, exceto a última. 
   
-Se **SaveChanges** retornar MAPI_E_OBJECT_CHANGED, verifique se o objeto original foi modificado. Em caso afirmativo, avise o usuário, que pode solicitar que as alterações sobrescrever as alterações anteriores ou salvar o objeto em outro local. Se o objeto original tiver sido excluído, avise o usuário para fornecer-lhes a oportunidade de salvar o objeto em outro local. 
+Se **SaveChanges** retornar MAPI_E_OBJECT_CHANGED, verifique se o objeto original foi modificado. Em caso afirmativo, avise ao usuário que pode solicitar que as alterações substituam as alterações anteriores ou salvem o objeto em outro lugar. Se o objeto original tiver sido excluído, avise o usuário para dar a eles a oportunidade de salvar o objeto em outro local. 
   
-Você não pode chamar **SaveChanges** com o sinalizador FORCE_SAVE em um objeto aberto que tenha sido excluído. 
+Você não pode chamar **SaveChanges** com o sinalizador FORCE_SAVE em um objeto Open que tenha sido excluído. 
   
-Se **SaveChanges** retornará um erro, o objeto cujas alterações foram salvos permanece aberto, independentemente dos sinalizadores definidos no parâmetro _ulFlags_ . 
+Se **SaveChanges** retornar um erro, o objeto cujas alterações foram salvas permanecerá aberto, independentemente dos sinalizadores definidos no parâmetro _parâmetroulflags_ . 
   
 > [!IMPORTANT]
-> O _ulFlags_ NON_EMS_XP_SAVE e SPAMFILTER_ONSAVE não podem ser definidos no arquivo de cabeçalho para download que você possui atualmente, nesse caso, você pode adicioná-lo ao seu código usando os seguintes valores: >`#define SPAMFILTER_ONSAVE ((ULONG) 0x00000080)`>  `#define NON_EMS_XP_SAVE ((ULONG) 0x00001000)`
+> O _parâmetroulflags_ NON_EMS_XP_SAVE e o SPAMFILTER_ONSAVE podem não ser definidos no arquivo de cabeçalho baixável que você tem atualmente e, nesse caso, você pode adicioná-lo ao seu código usando os seguintes valores: >`#define SPAMFILTER_ONSAVE ((ULONG) 0x00000080)`>  `#define NON_EMS_XP_SAVE ((ULONG) 0x00001000)`
   
-Para obter mais informações, consulte [Salvar Propriedades de MAPI](saving-mapi-properties.md).
+Para obter mais informações, consulte [salvar propriedades MAPI](saving-mapi-properties.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -130,7 +130,7 @@ Para obter mais informações, consulte [Salvar Propriedades de MAPI](saving-map
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 

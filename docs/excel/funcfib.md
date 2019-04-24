@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - FuncFib
 keywords:
-- função funcfib [excel 2007]
+- função funcfib [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8d1c97ea57e968aaedffca6b37ded3d875e87413
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb8f0c12c27fb2c95007eb5006c1d8b90970f3ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310833"
 ---
 # <a name="funcfib"></a>FuncFib
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função de planilha definida pelo usuário de exemplo que computa o número de Fibonacci enésima. Quando GENERIC.xll é carregado, ele registra esta função para que ele possa ser chamado da planilha.
+Exemplo de função de planilha definida pelo usuário que computa o número enésimo Fibonacci. Quando GENERIC. XLL é carregado, ele registra essa função para que ela possa ser chamada da planilha.
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
@@ -32,21 +32,21 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
  _pxN_ (**LPXLOPER12**)
   
-O valor de N para o qual o número de Fibonacci enésima é necessário.
+O valor de N para o qual o enésimo número Fibonacci é necessário.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-(**xltypeNum LPXLOPER12** se tiver êxito ou **xltypeErr** caso contrário) 
+(**XLTYPENUM LPXLOPER12** se for bem-sucedido ou **xltypeErr** caso contrário) 
   
-O número de Fibonacci enésima.
+O número enésimo Fibonacci.
   
 ## <a name="remarks"></a>Comentários
 
-A função usa uma variável estática definida dentro do bloco de função, como o valor de retorno **XLOPER12**. Isso não é thread-safe e, portanto essa função e qualquer função de planilha que usa essa estratégia para retornar **XLOPER**s ou s **XLOPER12**, não devem ser registradas como thread-safe iniciada no Excel 2007.
+A função usa uma variável estática definida dentro do bloco de funções como o valor de retorno **XLOPER12**. Isso não é thread-safe e, portanto, essa função e qualquer função de planilha que use essa estratégia para retornar **XLOPER**s ou **XLOPER12**s, não deve ser registrada como thread-safe a partir do Excel 2007.
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
   
 ## <a name="see-also"></a>Confira também
 

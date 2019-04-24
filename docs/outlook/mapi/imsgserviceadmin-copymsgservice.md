@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 791dfe094aa0ff1aab656b56fbdf7d59e880b92e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 72b4ab1fec10b2e91c7609af6644a54d29ed5e02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309965"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593729"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia um serviço de mensagem para um perfil. 
+Copia um serviço de mensagens em um perfil. 
   
 ```cpp
 HRESULT CopyMsgService(
@@ -43,55 +43,55 @@ HRESULT CopyMsgService(
 
  _lpUID_
   
-> [in] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagem para copiar. 
+> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagens a ser copiado. 
     
  _lpszDisplayName_
   
-> [in] Esse parâmetro foi reduzido. 
+> no Esse parâmetro foi preterido. 
     
  _lpInterfaceToCopy_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar a seção de perfil do serviço de mensagem para copiar. Passagem nula resulta no perfil padrão seção interface [IProfSect](iprofsectimapiprop.md), que está sendo utilizada.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a seção de perfil do serviço de mensagens a ser copiada. Passar resultados nulos na interface de seção de perfil padrão, [IProfSect](iprofsectimapiprop.md), que está sendo usada.
     
  _lpInterfaceDst_
   
-> [in] Um ponteiro para a IID que representa a interface que será usada para acessar o objeto apontado pelo parâmetro _lpObjectDst_ . Passagem nula resulta na interface de sessão, [IMAPISession](imapisessioniunknown.md), sendo usada. O parâmetro _lpInterfaceDst_ também pode ser definido como IID_IMsgServiceAdmin. 
+> no Um ponteiro para o IID que representa a interface a ser usada para acessar o objeto apontado pelo parâmetro _lpObjectDst_ . Passar resultados nulos na interface de sessão, [IMAPISession](imapisessioniunknown.md), sendo usado. O parâmetro _lpInterfaceDst_ também pode ser definido como IID_IMsgServiceAdmin. 
     
  _lpObjectDst_
   
-> [in] Um ponteiro para um ponteiro para um objeto de administração de serviço de sessão ou mensagem. O tipo de objeto deve corresponder ao identificador de interface passado em _lpInterfaceDst_. Ponteiros de objeto válido são LPMAPISESSION e LPSERVICEADMIN.
+> no Um ponteiro para um ponteiro para um objeto de administração de sessão ou serviço de mensagens. O tipo de objeto deve corresponder ao identificador de interface passado no _lpInterfaceDst_. Os ponteiros de objeto válidos são LPMAPISESSION e LPSERVICEADMIN.
     
  _ulUIParam_
   
-> [in] Um identificador para a janela do pai de quaisquer caixas de diálogo ou windows esse método exibe.
+> no Uma alça para a janela pai de qualquer caixa de diálogo ou Windows este método é exibido.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o serviço de mensagem é copiado. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como o serviço de mensagens é copiado. Os seguintes sinalizadores podem ser definidos:
     
 SERVICE_UI_ALWAYS 
   
-> Solicita que o serviço de mensagem sempre exibe uma folha de propriedades de configuração.
+> Solicita que o serviço de mensagens sempre exiba uma folha de propriedades de configuração.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O serviço de mensagem foi copiado com êxito.
+> O serviço de mensagens foi copiado com êxito.
     
 MAPI_E_NO_ACCESS 
   
-> O serviço de mensagem já está no perfil e não permitir que várias instâncias de si mesmo.
+> O serviço de mensagens já está no perfil e não permite várias instâncias de si mesmo.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> **MAPIUID** apontado pela _lpUID_ não faz referência a um serviço de mensagem existente. 
+> O **MAPIUID** apontado por _lpUID_ não se refere a um serviço de mensagens existente. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::CopyMsgService** copia um serviço de mensagem para um perfil, o perfil ativo ou outro perfil. O perfil que contém o serviço de mensagem a ser copiado e o destino não precisam ser o mesmo perfil, mas eles podem ser. 
+O método **IMsgServiceAdmin:: CopyMsgService** copia um serviço de mensagem em um perfil, seja o perfil ativo ou outro perfil. O perfil que contém o serviço de mensagens a ser copiado e o destino não precisam ser o mesmo perfil, mas podem ser. 
   
-Função do ponto de entrada do serviço de mensagem não é chamada para uma operação de cópia. O serviço de mensagem copiada tem as mesmas definições de configuração do seu original. Para alterar essas configurações, um cliente deve chamar o método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
+A função de ponto de entrada do serviço de mensagens não é chamada para uma operação de cópia. O serviço de mensagens copiadas tem as mesmas definições de configuração que o original. Para alterar essas configurações, um cliente deve chamar o método [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
 ## <a name="see-also"></a>Confira também
 

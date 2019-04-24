@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: dbf6f0f50e9f7fa988e83f3b58012e9deac13eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310424"
 ---
 # <a name="showoptions"></a>ShowOptions
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Mostra a caixa de diálogo modal para coletar informações do usuário. Esse ponto de entrada é chamado quando um usuário clica no botão de **Opções** ao lado da caixa **tipo de Cluster** para o conector de cluster selecionado na caixa de diálogo **Opções do Excel** (na categoria **Avançado** sob a seção de **fórmulas** ). Conectores de cluster são responsáveis para implementar sua própria interface de diálogo Opções e para armazenar os dados relacionados no registro ou em outro local. As opções são internas para o conector de cluster. Excel não está ciente deles. 
+Mostra uma caixa de diálogo modal para coletar informações do usuário. Este ponto de entrada é chamado quando um usuário clica no botão **Opções** ao lado da caixa **tipo de cluster** para o conector de cluster selecionado na caixa de diálogo **Opções do Excel** (na categoria **avançado** abaixo da seção **fórmulas** ). Os conectores de cluster são responsáveis por implementar sua própria interface de caixa de diálogo de opções e para armazenar os dados relacionados no registro ou em qualquer outro lugar. As opções são internas do conector de cluster. O Excel não está ciente delas. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -28,15 +28,15 @@ int ShowOptions(HWND hWndParent)
 
 _hWndParent_
   
-> Um identificador para a janela do Excel.
+> Uma alça para a janela do Excel.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se a caixa de diálogo foi mostrada; **xlHpcRetCallFailed** se ele não foi exibido. 
+**xlHpcRetSuccess** se a caixa de diálogo foi exibida; **xlHpcRetCallFailed** se não foi exibido. 
   
 ## <a name="remarks"></a>Comentários
 
-Conectores de cluster podem usar esta caixa de diálogo para obter mais informações, como o que o servidor do cluster use, do usuário.
+Os conectores de cluster podem usar essa caixa de diálogo para obter informações, como qual servidor de cluster usar, do usuário.
   
 ## <a name="see-also"></a>Confira também
 

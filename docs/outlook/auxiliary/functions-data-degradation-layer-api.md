@@ -1,25 +1,25 @@
 ---
-title: Funções (camada de dados degradação API)
+title: Funções (API da camada de degradação de dados)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5d89797a-d636-411a-8e8b-28dbcac5af50
-description: Esta seção descreve as funções do API de camada de degradação de dados.
-ms.openlocfilehash: 7fdcc5f79f0a63de0a17efdcd54664906edf8e54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção descreve as funções da API da camada de degradação de dados.
+ms.openlocfilehash: 3d0cea77369b3786fae324f57c83686891450f3a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317673"
 ---
-# <a name="functions-data-degradation-layer-api"></a>Funções (camada de dados degradação API)
+# <a name="functions-data-degradation-layer-api"></a>Funções (API da camada de degradação de dados)
 
-Esta seção descreve as funções do API de camada de degradação de dados.
+Esta seção descreve as funções da API da camada de degradação de dados.
   
-|**Função**|**Descrição**|
+|**Function**|**Descrição**|
 |:-----|:-----|
-|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |Cria um objeto que um cliente pode acessar em um formato de caracteres preferencial.  <br/> |
+|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |Cria um objeto que um cliente pode acessar em um formato de caractere preferido.  <br/> |
    
 

@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
 ms.openlocfilehash: f688f02c90e4341fe9cb0a1294b9f0f278bb7065
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319324"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 

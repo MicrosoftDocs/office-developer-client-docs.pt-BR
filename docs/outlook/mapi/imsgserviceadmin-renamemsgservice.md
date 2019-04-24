@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a6eba20fb346f53052808abf8fcae8993d423d34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2f0f1fb94ea36512bbc40df8a4877e89d2613a25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309979"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589557"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obsoleto. Atribui um novo nome para um serviço de mensagem. 
+Obsoleto. Atribui um novo nome a um serviço de mensagens. 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -39,25 +39,25 @@ HRESULT RenameMsgService(
 
  _lpUID_
   
-> [in] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagem renomear. 
+> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagem a ser renomeado. 
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpszDisplayName_
   
-> [in] Um ponteiro para o novo nome para o serviço de mensagem.
+> no Um ponteiro para o novo nome do serviço de mensagens.
     
 ## <a name="return-value"></a>Valor de retorno
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI não oferece suporte para renomear este serviço de mensagem. **RenameMsgService** sempre retorna este valor. 
+> O MAPI não dá suporte à renomeação deste serviço de mensagens. **RenameMsgService** sempre retorna esse valor. 
     
 ## <a name="remarks"></a>Comentários
 
-Para atribuir um novo nome para um serviço de mensagem, os clientes devem usar a propriedade **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) do serviço de mensagem. Os nomes dos provedores de serviços em um serviço de mensagem são armazenados em suas propriedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Para atribuir um novo nome a um serviço de mensagens, os clientes devem usar a propriedade **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) do serviço de mensagens. Os nomes de provedores de serviço em um serviço de mensagens são armazenados em suas propriedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
 ## <a name="see-also"></a>Confira também
 

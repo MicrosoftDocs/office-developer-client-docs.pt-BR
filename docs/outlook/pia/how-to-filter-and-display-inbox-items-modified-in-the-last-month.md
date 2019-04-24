@@ -1,5 +1,5 @@
 ---
-title: Filtro e exibir os itens de caixa de entrada modificados no mês passado
+title: Filtrar e exibir itens da Caixa de entrada modificados no último mês
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 77fe6e7df4cf67ed1ca2d62b8cf48f1b2873ccbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320290"
 ---
 # <a name="filter-and-display-inbox-items-modified-in-the-last-month"></a>Filtro e exibir os itens de caixa de entrada modificados no mês passado
 
@@ -110,7 +110,7 @@ A tabela seguinte lista as macros **DateTime** que você pode usar para retornar
 
 No exemplo a seguir DemoDASLDateMacro cria uma consulta DASL que usa a macro **lastmonthDateTime** para filtrar os itens na caixa de entrada do usuário que foram modificados no mês passado. Em seguida, cria um objeto **Table** com esse filtro, e enumera e exibe as linhas no objeto **Table** restrito.
 
-Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

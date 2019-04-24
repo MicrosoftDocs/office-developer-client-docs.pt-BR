@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: Obtém o valor da propriedade conta especificada.
-ms.openlocfilehash: 2c0756f416a209d37eff2209a82c298837f85f3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém o valor da propriedade de conta especificada.
+ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321228"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
-Obtém o valor da propriedade conta especificada.
+Obtém o valor da propriedade de conta especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetProp(  
@@ -33,27 +33,27 @@ ACCT_VARIANT *pVar
 
 _dwProp_
   
-> [in] A marca de propriedade da propriedade a conta a ser obtida.
+> no A marca de propriedade da propriedade Account a ser obtida.
     
 _pVar_
   
-> [out] O valor da propriedade especificada.
+> bota O valor da propriedade especificada.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |A propriedade não foi encontrada para a conta de determinado.  <br/> |
-|E_INVALIDARG  <br/> |Uma marca de propriedade inválido foi especificada.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |A propriedade não é encontrada para a conta determinada.  <br/> |
+|E_INVALIDARG  <br/> |Uma marca de propriedade inválida foi especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Depois que esse método retorna, se o valor da propriedade conta é um tipo binário ou cadeia de caracteres, você deve liberar *pVar* usando [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Depois que esse método retornar, se o valor da propriedade Account for um tipo de cadeia de caracteres ou binário, você deverá liberar *pvar* usando [IOlkAccount:: freememory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md) 
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)  
 - [IOlkAccount::SetProp](iolkaccount-setprop.md)
 

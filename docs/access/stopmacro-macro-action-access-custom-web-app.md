@@ -1,5 +1,5 @@
 ---
-title: Ação de Macro PararMacro (aplicativo da web personalizado do Access)
+title: Ação da macro PararMacro (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: af28534b-6f0d-43ee-ae89-ee2f85da1af1
 description: Você pode usar a ação PararMacro para interromper a macro em execução no momento.
-ms.openlocfilehash: 54501b65eb1847287e810ae43742a2e6e5384264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b80422a297647d556fb4b20cc15fb93e8853466
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311015"
 ---
-# <a name="stopmacro-macro-action-access-custom-web-app"></a>Ação de Macro PararMacro (aplicativo da web personalizado do Access)
+# <a name="stopmacro-macro-action-access-custom-web-app"></a>Ação da macro PararMacro (aplicativo Web personalizado do Access)
 
 Você pode usar a ação **PararMacro** para interromper a macro em execução no momento. 
   
@@ -23,10 +23,10 @@ Você pode usar a ação **PararMacro** para interromper a macro em execução n
   
 ## <a name="setting"></a>Configuração
 
-A ação **PararMacro** não tem nenhum argumento. 
+A ação **PararMacro** não tem argumentos. 
   
 ## <a name="remarks"></a>Comentários
 
-Geralmente você usa esta ação quando uma condição torna necessário para interromper a macro. Por exemplo, você pode criar uma macro (UI) da interface de usuário que abre uma exibição mostrando os totais de ordem de diário para a data inserida na exibição atual. Você poderia usar uma expressão condicional para certificar-se de que o controle de data do pedido na caixa de diálogo contém uma data válida. Caso contrário, a ação **MessageBox** pode exibir uma mensagem de erro e a ação **PararMacro** pode interromper a macro de interface do usuário. 
+Normalmente, você usa esta ação quando uma condição torna necessário parar a macro. Por exemplo, você pode criar uma macro de interface do usuário (UI) que abre um modo de exibição mostrando os totais de pedidos diários da data inserida no modo de exibição atual. Você pode usar uma expressão condicional para ter certeza de que o controle de data da ordem na caixa de diálogo contém uma data válida. Caso contrário, a ação **MessageBox** poderá exibir uma mensagem de erro e a ação **PararMacro** poderá interromper a macro da interface do usuário. 
   
 

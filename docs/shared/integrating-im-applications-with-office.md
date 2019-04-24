@@ -7,11 +7,11 @@ ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Este artigo descreve como configurar um aplicativo cliente de mensagens instantâneas para que ele se integre aos recursos de redes sociais no Office 2013, incluindo exibir presença e enviar mensagens instantâneas do cartão de visita.
 localization_priority: Priority
 ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270110"
 ---
 # <a name="integrating-im-applications-with-office"></a>Integração de aplicativos de mensagens instantâneas ao Office
 

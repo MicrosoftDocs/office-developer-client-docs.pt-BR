@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3bde66fd07a39aa8a63219876b9bdbcf72e00f7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320381"
 ---
 # <a name="enumerate-items-in-a-table-view"></a>Enumerar itens em um modo de exibição de tabela
 
@@ -22,7 +22,7 @@ Este exemplo enumera itens em um modo de exibição de tabela usando o método [
 
 O exemplo de código a seguir obtém um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) do modo de exibição atual da pasta Caixa de Entrada. O exemplo de código define a pasta atual do explorador ativo à Caixa de Entrada e, em seguida, verifica se o modo de exibição atual da Caixa de Entrada é um modo de exibição de tabela. Se o modo de exibição atual for uma tabela, o exemplo de código chamará o método [GetTable()](https://msdn.microsoft.com/library/ff184699\(v=office.15\)) e exibirá cada item representado por cada linha no objeto **Table** retornado.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. A seguinte linha de código mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

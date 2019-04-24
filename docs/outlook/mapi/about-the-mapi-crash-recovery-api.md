@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bc1e1f55-1959-a4a9-a24d-f006af531c9a
-description: 'Última modificação: 25 de julho de 2012'
-ms.openlocfilehash: fbb6d22414daf3464e80fbf1d9cf92ccb3d560e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+ms.openlocfilehash: 1acca6d806c1734007ac7c5e41059d3a870dc5bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321802"
 ---
 # <a name="about-the-mapi-crash-recovery-api"></a>Sobre a API de recuperação de falhas MAPI
 
@@ -19,15 +19,15 @@ ms.locfileid: "22576586"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API de recuperação MAPI travar verifica que o estado do arquivo de pastas particulares (. PST) ou o arquivo de pastas Offline (OST) compartilhado de memória para verificar se os dados estão em um estado consistente. Se ele estiver em um estado consistente, a função [MAPICrashRecovery](mapicrashrecovery.md) move os dados do open PSTs ou OSTs em disco e bloqueia o PSTs ou OSTs e não permitir que qualquer acesso de leitura ou gravação aos dados. Isso garante que os dados permaneçam em um estado consistente, até que o processo é encerrado. Garantindo que o PSTs ou OSTs estão em um estado consistente antes do processo é encerrado, você pode impedir que o Microsoft Outlook 2013 e o Microsoft Outlook 2010 exiba a seguinte mensagem de erro e evitar problemas de desempenho. 
+A API de recuperação de falha MAPI verifica o estado do arquivo de pastas particulares (PST) ou da memória compartilhada do OST (arquivo de pastas offline) para verificar se os dados estão em um estado consistente. Se estiver em um estado consistente, a função [MAPICrashRecovery](mapicrashrecovery.md) moverá os dados dos PSTs abertos ou OSTs para o disco e bloqueará os PSTs ou OSTs e não permitirá qualquer acesso de leitura ou gravação aos dados. Isso garante que os dados permaneçam em um estado consistente até que o processo seja encerrado. Ao garantir que PSTs ou OSTs estejam em um estado consistente antes do término do processo, você pode impedir que o Microsoft Outlook 2013 e o Microsoft Outlook 2010 exibam a mensagem de erro a seguir e evitar problemas de desempenho. 
   
- **Um arquivo de dados não foi fechado corretamente a última vez que foi usada e está sendo verificada para problemas. Desempenho poderá ser afetado enquanto a seleção estiver em andamento.**
+ **Um arquivo de dados não foi fechado corretamente na última vez em que foi usado e está sendo verificado em busca de problemas. O desempenho pode ser afetado enquanto o cheque estiver em andamento.**
   
-Essa API oferece os seguintes recursos:
+Essa API fornece o seguinte:
   
-Constantes:
+Constantes
   
-- [Constantes de MAPI](mapi-constants.md)
+- [Constantes MAPI](mapi-constants.md)
     
 Funções:
   

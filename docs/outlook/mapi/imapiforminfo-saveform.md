@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 7fec6b6236d26789a3ec9abee7d2ae1c620f89b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 391ea3ef4f44db2a9d007241232f58db27647ba2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321711"
 ---
 # <a name="imapiforminfosaveform"></a>IMAPIFormInfo::SaveForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593470"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Salva uma descrição de um determinado formulário em um arquivo de configuração.
+Salva uma descrição de um formulário específico em um arquivo de configuração.
   
 ```cpp
 HRESULT SaveForm(
@@ -37,31 +37,31 @@ HRESULT SaveForm(
 
  _szFileName_
   
-> [in] Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário onde a respectiva descrição é salva. Este nome de arquivo deve ter a extensão .fdm.
+> no Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário, onde sua descrição é salva. Esse nome de arquivo deve ter a extensão. FDM.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_EXTENDED_ERROR 
   
-> Não foi possível gravar o arquivo de configuração. Para obter a estrutura [MAPIERROR](mapierror.md) que está associada com o erro, chame o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) . 
+> Não foi possível gravar o arquivo de configuração. Para obter a estrutura [MAPIERROR](mapierror.md) associada ao erro, chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . 
     
 MAPI_E_NO_SUPPORT 
   
-> **SaveForm** provavelmente foi chamado para salvar um formulário no contêiner local do formulário. **SaveForm** não é suportado no contêiner do local do formulário. 
+> **SaveForm** provavelmente foi chamado para salvar um formulário no contêiner de formulário local. Não há suporte para **SaveForm** no contêiner de formulários local. 
     
 ## <a name="remarks"></a>Comentários
 
-Aplicativos cliente chamam o método de **IMAPIFormInfo::SaveForm** para salvar uma descrição do formulário atual no arquivo que tenha o nome de arquivo fornecido. **SaveForm** cria um arquivo de configuração. 
+Os aplicativos cliente chamam o método **IMAPIFormInfo:: SaveForm** para salvar uma descrição do formulário atual no arquivo com o nome de arquivo especificado. **SaveForm** cria um arquivo de configuração. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode reinstalar formulários selecionando-os em uma lista de mensagens descritor de formulário em uma caixa de diálogo que compõem a exibição de provedores de biblioteca. A extensão recomendada para mensagens de descritor de formulário é .fdm.
+Você pode reinstalar formulários selecionando-os em uma lista de mensagens do descritor de formulários em uma caixa de diálogo que os provedores de biblioteca de formulários exibem. A extensão recomendada para mensagens do descritor de formulários é. FDM.
   
-Chamar o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) se **SaveForm** retorna MAPI_E_EXTENDED_ERROR e verificar a estrutura **MAPIERROR** retornada para determinar a condição que causou o erro. 
+Chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) se **SaveForm** retornar MAPI_E_EXTENDED_ERROR e marque a estrutura de **MAPIERROR** retornada para determinar a condição que causou o erro. 
   
 ## <a name="see-also"></a>Confira também
 

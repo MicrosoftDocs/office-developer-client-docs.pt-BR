@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 27a9efb76fdbb1c6ac6b0b57e874ca59d002b928
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321326"
 ---
 # <a name="add-a-folder-to-the-folder-list"></a>Adicionar uma pasta à lista de pastas
 
@@ -26,7 +26,7 @@ Este exemplo mostra como usar o método [Add(String, Object)](https://msdn.micro
 
 No seguinte exemplo de código, **AddMyNewFolder** chama o método **Add** da coleção [Folders](https://msdn.microsoft.com/library/bb612071\(v=office.15\)) para adicionar um objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) que representa uma pasta chamada "Minha Nova Pasta" à lista de pastas **Inbox** do Outlook. "Minha Nova Pasta" é exibida.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. A seguinte linha de código mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

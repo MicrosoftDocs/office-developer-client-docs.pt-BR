@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: Inicializa um objeto IOlkApptRebaser para uso em alteração da base de compromissos no calendário do Outlook.
 ms.openlocfilehash: 33ad47d59ee2ca1b2461f730494f3466b9f8b54a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317609"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 

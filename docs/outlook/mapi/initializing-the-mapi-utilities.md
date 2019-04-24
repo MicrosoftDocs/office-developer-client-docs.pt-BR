@@ -1,5 +1,5 @@
 ---
-title: Iniciar utilitários MAPI
+title: Inicializando os utilitários MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: 02b14285-bbef-44f2-b2a4-45d96395998a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d0507a26b9ae5ae018111e2771e3af8b25761786
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5c5a9355e9edec28e08986ccd055fc43eec7b974
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317217"
 ---
-# <a name="initializing-the-mapi-utilities"></a>Iniciar utilitários MAPI
+# <a name="initializing-the-mapi-utilities"></a>Inicializando os utilitários MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se a única parte do MAPI que você precise usar são os utilitários — as funções e interfaces declaradas na MAPIUTIL do MAPI. Arquivo de cabeçalho H como **IPropData** e **ITableData** — não é necessário chamar **MAPIInitialize** para inicialização. Para obter mais informações, consulte [IPropData: IMAPIProp](ipropdataimapiprop.md), [ITableData: IUnknown](itabledataiunknown.md)e [MAPIInitialize](mapiinitialize.md). Em vez disso, chame a função de **ScInitMapiUtil** . Para obter mais informações, consulte [ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil** permite que os aplicativos cliente usar funções de utilitário e métodos que exigem alocadores de MAPI, mas que não pergunte explicitamente para eles. 
+Se a única parte do MAPI que você precisa usar são os utilitários, as interfaces e funções declaradas no MAPIUTIL de MAPI. Arquivo de cabeçalho H como **IPropData** e **ITableData** — você não precisa chamar o **MAPIInitialize** para inicialização. Para obter mais informações, consulte [IPropData: IMAPIProp](ipropdataimapiprop.md), [ITableData: IUnknown](itabledataiunknown.md)e [MAPIInitialize](mapiinitialize.md). Em vez disso, chame a função **ScInitMapiUtil** . Para obter mais informações, consulte [ScInitMapiUtil](scinitmapiutil.md). O **ScInitMapiUtil** permite que os aplicativos cliente usem funções e métodos de utilitários que exigem alocadores MAPI, mas que não pedem explicitamente. 
   
-No horário de desligamento, fazer uma chamada para **DeinitMapiUtil** para liberar recursos conectado aos utilitários. Não chame **MAPIUninitialize**. Para obter mais informações, consulte [DeinitMapiUtil](deinitmapiutil.md) e [MAPIUninitialize](mapiuninitialize.md).
+No momento do desligamento, faça uma chamada para **DeinitMapiUtil** para liberar recursos conectados aos utilitários. Não chame **MAPIUninitialize**. Para obter mais informações, consulte [DeinitMapiUtil](deinitmapiutil.md) e [MAPIUninitialize](mapiuninitialize.md).
   
-Lembre-se de que a interface **ITableData** não suporta as notificações de tabela para clientes que têm chamado **ScInitMapiUtil** em vez de **MAPIInitialize**. 
+Lembre-se de que a interface **ITableData** não oferece suporte a notificações de tabela para clientes que chamaram **ScInitMapiUtil** em vez de **MAPIInitialize**. 
   
 

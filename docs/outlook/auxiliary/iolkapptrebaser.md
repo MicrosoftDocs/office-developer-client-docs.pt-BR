@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
-description: Suporta a alteração da Base de compromissos em uma pasta de calendário.
-ms.openlocfilehash: 57ca59121f74c7b64a84282c7493e4aed3179f7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O suporta a alteração da base dos compromissos em uma pasta de calendário.
+ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321858"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 
-Suporta a alteração da Base de compromissos em uma pasta de calendário.
+O suporta a alteração da base dos compromissos em uma pasta de calendário.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -24,20 +24,20 @@ Suporta a alteração da Base de compromissos em uma pasta de calendário.
 |:-----|:-----|
 |Herda de:  <br/> |**IUnknown** <br/> |
 |Arquivo de cabeçalho:  <br/> |tzmovelib.h  <br/> |
-|Implementada por:  <br/> |tzmovelib.dll  <br/> |
-|Chamado pelo:  <br/> |Aplicativos de cliente MAPI  <br/> |
-|Expostas no:  <br/> |REBASE de objeto do Outlook  <br/> |
+|Implementado por:  <br/> |tzmovelib.dll  <br/> |
+|Chamado por:  <br/> |Aplicativos clientes MAPI  <br/> |
+|Exposto em:  <br/> |Objeto rebasing do Outlook  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Inicia uma tarefa a enumeração de compromisso em uma pasta de calendário para encontrar os compromissos que precisam a alteração da base.  <br/> |
-|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Aguardará enumeração de compromisso em uma pasta de calendário para a conclusão e retorna uma lista de compromissos essa necessidade alteração da base.  <br/> |
-|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Inicia uma tarefa a alteração da compromisso base fornecida uma lista de compromissos, normalmente obtido da **EndEnumerateAppointments**.  <br/> |
-|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Aguardará compromisso a alteração da base para concluir e recupera os resultados.  <br/> |
+|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Inicia uma tarefa para enumeração de compromisso em uma pasta de calendário para localizar os compromissos que precisam de alteração de base.  <br/> |
+|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Aguarda a conclusão da enumeração de compromissos em uma pasta de calendário e retorna uma lista de compromissos que precisam de alteração programática.  <br/> |
+|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Inicia uma tarefa para a alteração da base de compromisso, dada uma lista de compromissos, geralmente Obtida de **EndEnumerateAppointments**.  <br/> |
+|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Aguarda a alteração da base do compromisso para concluir e recupera os resultados.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

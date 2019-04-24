@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- função xlAbort [excel 2007]
+- função xlAbort [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310252"
 ---
 # <a name="xlabort"></a>xlAbort
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Gere o processador para outras tarefas no sistema e verifica se o usuário pressiona **ESC** para cancelar uma macro. Se o usuário pressiona **ESC** durante um recálculo de pasta de trabalho, ele também pode ser detectado de dentro de uma função de planilha chamando essa função. 
+Gera o processador para outras tarefas no sistema e verifica se o usuário pressionou **ESC** para cancelar uma macro. Se o usuário pressionou **ESC** durante um recálculo de pasta de trabalho, ele também pode ser detectado de dentro de uma função de planilha chamando essa função. 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
@@ -32,27 +32,27 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
  _pxRetain_ (**xltypeBool**)
   
-(Opcional). Se **Falso**, essa função verifica a condição de quebra e limpa qualquer quebra pendente. Isso permite que o usuário continue apesar a condição de quebra. Se esse argumento for omitido ou for **TRUE**, a função verifica uma anulação de usuário sem limpá-lo.
+(Opcional). Se **false**, esta função verifica a condição de interrupção e limpa qualquer quebra pendente. Isso permite que o usuário continue apesar da condição de interrupção. Se esse argumento for omitido ou for **true**, a função verificará a anulação do usuário sem limpá-lo.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna **TRUE** (**xltypeBool**) se o usuário pressionou a **tecla ESC**.
+Retorna **true** (**xltypeBool**) se o usuário pressionou **ESC**.
   
 ## <a name="remarks"></a>Comentários
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a>Chamadas frequentes podem ser necessários
+#### <a name="frequent-calls-may-be-needed"></a>Chamadas frequentes podem ser necessárias
 
-Funções e comandos que pode demorar muito tempo devem chamar essa função com frequência para gerar o processador para outras tarefas no sistema.
+Funções e comandos que podem levar muito tempo devem chamar essa função freqüentemente para gerar o processador para outras tarefas no sistema.
   
-#### <a name="avoid-sensitive-language"></a>Evite idioma confidencial
+#### <a name="avoid-sensitive-language"></a>Evitar idioma confidencial
 
-Evite usar o termo "Anulação" em sua interface do usuário. Considere o uso de "Cancelar", "Paralisado e" "Quebrar" ou "Parar" em vez disso.
+Evite usar o termo "Abort" em sua interface do usuário. Considere usar "Cancelar", "parar", "" quebrar "ou" parar ".
   
 ## <a name="example"></a>Exemplo
 
-O código a seguir move a célula ativa repetidamente em uma planilha até que um minuto decorrido ou até que o usuário pressionar **ESC**. Ele chama a função **xlAbort** ocasionalmente. Isso produz o processador, facilitando multitarefa cooperativa. 
+O código a seguir move repetidamente a célula ativa em uma planilha até que um minuto tenha decorrido ou até que o usuário pressione **ESC**. Ele chama a função **xlAbort** ocasionalmente. Isso gera o processador, facilitando a multitarefas cooperativa. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

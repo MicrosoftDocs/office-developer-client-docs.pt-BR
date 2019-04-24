@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e6de4be29811dafaf5288b2ccb39c0342a314bad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 950f5513696a9dd9d52db7b7ee912d3f7d12cc48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315362"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
@@ -25,13 +25,13 @@ ms.locfileid: "22584622"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Converte uma cadeia de caracteres terminada em nulo de dígitos hexadecimais em um inteiro não assinado de longo. 
+Converte uma cadeia de caracteres hexadecimal terminada em nulo em um inteiro longo não assinado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 ULONG UlFromSzHex(
@@ -43,16 +43,16 @@ LPCSTR lpsz
 
  _lpsz_
   
-> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. O parâmetro _lpsz_ não deve exceder 65.536 caracteres. 
+> no Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. O parâmetro _lpsz_ não deve exceder 65536 caracteres. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
- **UlFromSzHex** retorna um inteiro longo não assinado. Se a cadeia de caracteres não começa com pelo menos um dígito hexadecimal, zero será retornado. 
+ **UlFromSzHex** retorna um inteiro longo sem sinal. Se a cadeia de caracteres não começar com pelo menos um dígito hexadecimal, zero será retornado. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **UlFromSzHex** interrompe convertendo quando atingir o primeiro caractere na cadeia de caracteres que não é um dígito hexadecimal. Por exemplo, devido a cadeia de caracteres "5a", **UlFromSzHex** retorna o valor inteiro 90. Considerando a cadeia de caracteres "5g5h", a função retornará o valor de inteiro 5. Considerando a cadeia de caracteres "g5h5", **UlFromSzHex** retornará zero. 
+A função **UlFromSzHex** para de converter quando atinge o primeiro caractere na cadeia de caracteres que não é um dígito hexadecimal. Por exemplo, dada a cadeia de caracteres "5a", **UlFromSzHex** retorna o valor inteiro 90. Dada a cadeia de caracteres "5g5h", a função retorna o valor inteiro 5. Dada a cadeia de caracteres "g5h5", **UlFromSzHex** retorna zero. 
   
- **UlFromSzHex** é afetado pela diferenças diacríticos, mas permite que o 'a' a 'f' e 'A' a 'F' para dígitos hexadecimais. As cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de tamanho em _lpsz_ é em caracteres, não necessariamente bytes. 
+ **UlFromSzHex** é sensível a diferenças diacrítico, mas permite que "a" até ' f ' E ' a ' A ' f ' para dígitos hexadecimais. As cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de tamanho no _lpsz_ está em caracteres, não necessariamente em bytes. 
   
 

@@ -7,16 +7,16 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- função convertxlref12toxlref [excel 2007]
+- função convertxlref12toxlref [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 826428edb57eba9e17d601164aa8b4b797fc8929
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a12052a93d030088feb548449955129ff5bdc0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311050"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
@@ -32,19 +32,19 @@ BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 
  _pxRef12_ (**LPXLREF12**)
   
-Ponteiro para a estrutura de referência da fonte.
+Ponteiro para a estrutura de referência de origem.
   
  _pxRef_ (**LPXLREF**)
   
-Ponteiro para a estrutura de referência de destino em que o valor convertido é sejam colocadas.
+Ponteiro para a estrutura de referência de destino na qual o valor convertido deve ser colocado.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
- **TRUE** se a conversão foi bem-sucedida, **FALSE** caso contrário. 
+ **True** se a conversão tiver sido bem-sucedida; caso contrário, **false** . 
   
 ## <a name="remarks"></a>Comentários
 
-A conversão de **XLREF12** para **XLREF** falhará se a referência fornecida refere-se a parte de uma planilha do Excel 2007 que não é suportada nas versões anteriores. 
+A conversão de **XLREF12** para **XLREF** falhará se a referência fornecida se referir a parte de uma planilha do Excel 2007 que não é suportada em versões anteriores. 
   
 ## <a name="example"></a>Exemplo
 
@@ -75,5 +75,5 @@ BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

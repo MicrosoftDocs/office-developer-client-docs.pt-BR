@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: Protege a largura da forma para que ela não seja alterada quando a forma for dimensionada.
-ms.openlocfilehash: abdcc0d5285e98e5856524925a41c4f72ee7f6ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314830"
 ---
 # <a name="lockwidth-cell-protection-section"></a>Célula LockWidth (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege a largura da forma para que ela não seja alterada quando a forma for di
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A largura está protegida.  <br/> |
-| FALSO  <br/> | A largura não está protegida.  <br/> |
+| TRUE  <br/> | A largura está protegida.  <br/> |
+| FALSE  <br/> | A largura não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: be41a9916b6b231d5715cf18fe2b0d804434f2ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 069cb41ceac70a2eaaa08440e43745605890f071
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318036"
 ---
 # <a name="bookmark"></a>BOOKMARK
 
@@ -25,12 +25,12 @@ ms.locfileid: "22594478"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define os dados de indicadores para memorizar uma posição em uma tabela. 
+Define dados de indicadores para memorizar uma posição em uma tabela. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Métodos relacionados:  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) [IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Métodos relacionados:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md) [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,21 +38,21 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>Comentários
 
-MAPI define três indicadores, listadas a seguir:
+MAPI define três indicadores, listados da seguinte maneira:
   
 BOOKMARK_BEGINNING 
   
-> Lembra-se a posição inicial da tabela. 
+> Memoriza a posição inicial da tabela. 
     
 BOOKMARK_CURRENT 
   
-> Lembra-se a posição atual da tabela.
+> Memoriza a posição atual da tabela.
     
 BOOKMARK_END 
   
-> Lembra-se a posição final da tabela.
+> Memoriza a posição final da tabela.
     
-Os clientes podem criar outros indicadores lembrando outras posições de tabela. Indicadores são válidas somente quando a tabela é aberta. Clientes devem liberar todos os indicadores que eles criaram antes de fechar a tabela associada. 
+Os clientes podem criar outros indicadores para lembrar outras posições da tabela. Os indicadores são válidos somente quando a tabela está aberta. Os clientes devem liberar todos os indicadores criados antes de fechar a tabela associada. 
   
 ## <a name="see-also"></a>Confira também
 

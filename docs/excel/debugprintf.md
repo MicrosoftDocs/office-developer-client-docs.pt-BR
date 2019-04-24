@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - debugPrintf
 keywords:
-- função debugprintf [excel 2007]
+- função debugprintf [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311001"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca Framework que grava uma sequência de byte terminada em nulo ao depurador ativo por meio da função **OutputDebugStringA**do SDK do Windows. Se o aplicativo não possui nenhum depurador, o depurador do sistema exibe a cadeia de caracteres. Se o aplicativo não tem nenhum depurador e o depurador do sistema não está ativo, **debugPrintf** não fará nada. 
+A função da biblioteca de estrutura que grava uma cadeia de caracteres byte terminada em nulo no depurador ativo por meio da função SDK do Windows **OutputDebugStringa**. Se o aplicativo não tiver nenhum depurador, o depurador do sistema exibe a cadeia de caracteres. Se o aplicativo não tiver nenhum depurador e o depurador do sistema não estiver ativo, o **debugPrintf** não fará nada. 
   
 Essa função não retorna um valor.
   
@@ -34,15 +34,15 @@ void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 
  _lpFormat (LPSTR)_
   
-A sequência de formato, que segue a sintaxe e as regras para que usados com a função **sprintf** . 
+A cadeia de caracteres de formato, que segue a sintaxe e as regras usadas com a função **sprintf** . 
   
- _argumentos_
+ _argumento_
   
-Zero ou mais argumentos para coincidir com a cadeia de caracteres de formato.
+Zero ou mais argumentos para corresponder à cadeia de caracteres de formato.
   
 ## <a name="example"></a>Exemplo
 
-Essa função imprime uma cadeia de caracteres para mostrar que o controle foi passado para ele. O sinalizador _DEBUG deve ser definido antes de compilar senão essa função não faz nada.
+Essa função imprime uma cadeia de caracteres para mostrar que o controle foi passado para ela. O sinalizador _DEBUG deve ser definido antes da compilação ou esta função não faz nada.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -61,5 +61,5 @@ short WINAPI debugPrintfExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

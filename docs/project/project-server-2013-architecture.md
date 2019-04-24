@@ -7,11 +7,11 @@ ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: O Project Server 2013 integra funcionalidade de gerenciamento de projetos em um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do lado cliente (CSOM) e uma interface OData para os dados de Relatórios.
 localization_priority: Priority
 ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301583"
 ---
 # <a name="project-server-architecture"></a>Arquitetura do Project Server
 

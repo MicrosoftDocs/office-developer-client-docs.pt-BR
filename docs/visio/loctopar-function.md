@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Retorna um ponto transformado em coordenadas pai no sistema de coordenadas de destino.
-ms.openlocfilehash: 7d882ec34de93db2828fc751f99d87fc3e961d64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314844"
 ---
 # <a name="loctopar-function"></a>Função LOCTOPAR
 
@@ -26,13 +26,13 @@ LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _srcPoint_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
 | _srcRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
 | _dstRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

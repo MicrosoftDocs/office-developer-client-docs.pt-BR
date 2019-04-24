@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 889b823a55c39ebc19e52c8cc9a1d078a5732a01
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315019"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriedade canônica PidNameRightsManagementLicense
 
@@ -25,35 +25,35 @@ ms.locfileid: "25395541"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Armazena em cache a licença de uso para a mensagem de email gerenciadas por direitos.
+Armazena em cache a licença de uso da mensagem de email gerenciada por direitos.
   
 |||
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
-|Propriedade definida:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Conjunto de propriedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nome da propriedade:  <br/> |DRMLicense  <br/> |
 |Tipo de dados:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |Mensagens seguras  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade estiver presente em uma mensagem de email gerenciadas por direitos, o primeiro valor dessa propriedade binário vários deve conter a licença de uso compactado ZLIB (conforme especificado em [RFC1950]) para a mensagem de email gerenciadas por direitos.
+Se a propriedade estiver presente em uma mensagem de email gerenciada por direitos, o primeiro valor dessa propriedade Binary Multiple deverá conter o ZLIB (conforme especificado em [RFC1950]) licença de uso compactada para a mensagem de email gerenciada por direitos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades das mensagens codificadas direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

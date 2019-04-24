@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: As interfaces Window e Windows são que objetos de API do OneNote 2013 que permitem que os usuários trabalhem com as janelas do OneNote. Esses objetos permitem que os usuários enumerem o conjunto das janelas do OneNote e modifiquem certas propriedades da janela.
 ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317029"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces das janelas (OneNote)
 
@@ -46,7 +46,7 @@ A interface **Windows** também permite ao usuário acessar o conjunto de janela
   
 **Propriedades**
 
-|**Name**|**Tipo**|**Descrição**|
+|**Nome**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |**Contagem** <br/> |ULong  <br/> |Obtém o número dos objetos Window no **conjunto** do Windows.  <br/> |
 |**CurrentWindow** <br/> |**Janela** <br/> |Obtém o objeto**janela**da janela ativa do OneNote.  <br/> |
@@ -58,10 +58,10 @@ A interface **janela** também permite ao usuário acessar certas propriedades d
   
 **Propriedades**
 
-|**Name**|**Tipo**|**Descrição**|
+|**Nome**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |**Ativo** <br/> |bool  <br/> |Obtém ou define um valor que indica se a janela é a janela ativa do OneNote.  <br/> |
-|**Aplicativo** <br/> |**Aplicativo** <br/> |Obtém o objeto **aplicativo** do OneNote que estão associados com a janela.  <br/> |
+|**Application** <br/> |**Application** <br/> |Obtém o objeto **aplicativo** do OneNote que estão associados com a janela.  <br/> |
 |**CurrentPageId** <br/> |string  <br/> |Obtém a ID de objeto da página do OneNote ativa da janela.  <br/> |
 |**CurrentSectionId** <br/> |string  <br/> |Obtém a ID de objeto da seção do OneNote ativa da janela.  <br/> |
 |**CurrentSectionGroupId** <br/> |string  <br/> |Obtém a ID de objeto da seção de grupo ativa da janela do OneNote.  <br/> |
@@ -80,16 +80,16 @@ Você pode usar os seguintes métodos das interfaces**janela**para acessar objet
 |||
 |:-----|:-----|
 |**Descrição** <br/> |Leva até um objeto específico na janela do OneNote. Por exemplo, você pode navegar em seções, páginas elementos de estrutura das páginas.  <br/> |
-|**Sintaxe** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
-|**Parâmetros** <br/> | _bstrHierarchyObjectID_: Hierarquia do OneNote ID do objeto que você quer navegar. A ID de objeto pode fazer referência a um bloco de anotações do OneNote, seção, grupo de seção ou página.  <br/>  _bstrObjectID_, a ID do OneNote de um objeto específico para navegar até em uma página do OneNote. Se o usuário não quiser navegar até um objeto específico em uma página, esse parâmetro será definido como nulo.  <br/> |
+|**A sintaxe que você escolher da tabela de sintaxe de propriedade de valor múltiplo é especificada como um valor do parâmetro em um cmdlet. Por exemplo, o comando a seguir adiciona vários valores para uma propriedade com valores múltiplos:** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
+|**Parameters** <br/> | _bstrHierarchyObjectID_: Hierarquia do OneNote ID do objeto que você quer navegar. A ID de objeto pode fazer referência a um bloco de anotações do OneNote, seção, grupo de seção ou página.  <br/>  _bstrObjectID_, a ID do OneNote de um objeto específico para navegar até em uma página do OneNote. Se o usuário não quiser navegar até um objeto específico em uma página, esse parâmetro será definido como nulo.  <br/> |
    
 **NavigateToUrl**
 
 |||
 |:-----|:-----|
 |**Descrição** <br/> |Se for aprovado um link do OneNote (onenote: / /), a janela do OneNote abrirá no local correspondente no OneNote. No entanto, se o link está um link externo, como https:// ou file://,uma caixa de diálogo de segurança aparecerá. Após a demissão, o OneNote tentará abrir o link e um erro HResult.hrObjectDoesNotExist será retornado.  <br/> |
-|**Sintaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
-|**Parâmetros** <br/> | _bstrUrl_, a URL para navegar até.  <br/> |
+|**A sintaxe que você escolher da tabela de sintaxe de propriedade de valor múltiplo é especificada como um valor do parâmetro em um cmdlet. Por exemplo, o comando a seguir adiciona vários valores para uma propriedade com valores múltiplos:** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
+|**Parameters** <br/> | _bstrUrl_, a URL para navegar até.  <br/> |
    
 **SetDockedLocation**
 

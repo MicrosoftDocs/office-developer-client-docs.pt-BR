@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31ef1f5c6af498f042ab766ae90fcfbce805700a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315082"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
@@ -37,11 +37,11 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  [out] Ponteiro para a interface **IOSTX** a ser obtido. 
+>  bota Ponteiro para a interface **IOSTX** a ser obtido. 
     
 ## <a name="remarks"></a>Comentários
 
-O chamador deve assegurar que a mesma pasta não está sincronizada ao mesmo tempo em mais de um segmento.
+O chamador deve garantir que a mesma pasta não seja sincronizada ao mesmo tempo em mais de um thread.
   
 ## <a name="see-also"></a>Confira também
 

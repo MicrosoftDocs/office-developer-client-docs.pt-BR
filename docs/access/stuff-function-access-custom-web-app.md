@@ -1,41 +1,41 @@
 ---
-title: Função coisas (aplicativo da web personalizado do Access)
+title: Função tudo (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
-description: Insere uma cadeia de caracteres de texto em outra cadeia de caracteres de texto. Ela exclui um tamanho especificado de caracteres na primeira cadeia de caracteres na posição inicial e, em seguida, insere a segunda cadeia a primeira cadeia de caracteres na posição inicial.
-ms.openlocfilehash: 5540bb5936803370835a0c3d80b420edc13d0de6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Insere uma cadeia de caracteres de texto em outra sequência de texto. Ele exclui um tamanho especificado de caracteres na primeira cadeia de caracteres na posição inicial e insere a segunda cadeia de caracteres na primeira cadeia de caracteres na posição inicial.
+ms.openlocfilehash: 591823952faa0d593b6db1f5bfb00cc68a894a8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311022"
 ---
-# <a name="stuff-function-access-custom-web-app"></a>Função coisas (aplicativo da web personalizado do Access)
+# <a name="stuff-function-access-custom-web-app"></a>Função tudo (aplicativo Web personalizado do Access)
 
-Insere uma cadeia de caracteres de texto em outra cadeia de caracteres de texto. Ela exclui um tamanho especificado de caracteres na primeira cadeia de caracteres na posição inicial e, em seguida, insere a segunda cadeia a primeira cadeia de caracteres na posição inicial.
+Insere uma cadeia de caracteres de texto em outra sequência de texto. Ele exclui um tamanho especificado de caracteres na primeira cadeia de caracteres na posição inicial e insere a segunda cadeia de caracteres na primeira cadeia de caracteres na posição inicial.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Coisas** (*IntoTextExpression*, *Iniciar*, *comprimento*, *ThisTextExpression*) 
+ **Coisas** (*IntoTextExpression*, *Start*, *Length*, *ThisTextExpression*) 
   
-A função **coisas** contém os seguintes argumentos. 
+A função **tudo** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *IntoTextExpression*  <br/> |Uma expressão de texto que especifica o texto no qual o texto especificado pelo *ThisTextExpression* será inserido.  <br/> |
-| *Start*  <br/> |Um valor integer que especifica o local para iniciar a inserção e exclusão. Se o início ou o comprimento for negativo, uma cadeia de caracteres nula será retornada. Se start for maior que o primeiro *IntoTextExpression* , uma cadeia de caracteres nula será retornada.  <br/> |
-| *Length*  <br/> |Um inteiro que especifica o número de caracteres a ser excluído. Se length for maior que o primeiro *IntoTextExpression* , exclusão ocorre até o último caractere no último *IntoTextExpression* .  <br/> |
-| *ThisTextExpression*  <br/> |Um texto chapéu de expressão Especifica o texto para inserir em *IntoTextExpression* . Esta expressão substituirá os caracteres de comprimento de início de *IntoTextExpression* em *Iniciar* .  <br/> |
+| *Start*  <br/> |Um valor inteiro que especifica o local para iniciar a exclusão e a inserção. Se Start ou length for negativo, uma cadeia de caracteres nula será retornada. Se Start for maior que o primeiro *IntoTextExpression* , uma cadeia de caracteres nula será retornada.  <br/> |
+| *Length*  <br/> |Um inteiro que especifica o número de caracteres a serem excluídos. Se length for maior que o primeiro *IntoTextExpression* , a exclusão ocorrerá até o último caractere no último *IntoTextExpression* .  <br/> |
+| *ThisTextExpression*  <br/> |Uma expressão de texto Hat especifica o texto a ser inserido no *IntoTextExpression* . Essa expressão substituirá os caracteres de comprimento de *IntoTextExpression* começando no *início* .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se os argumentos *Iniciar* ou *comprimento* são negativos, ou se a posição inicial for maior que o comprimento da cadeia de caracteres primeiro, uma cadeia de caracteres nula será retornada. Se a posição inicial for 0, é retornado um valor nulo. Se o comprimento para excluir for maior que a primeira cadeia de caracteres, ele é excluído para o primeiro caractere na primeira cadeia de caracteres. 
+Se os argumentos *Start* ou *Length* forem negativos, ou se a posição inicial for maior do que o comprimento da primeira cadeia de caracteres, uma cadeia de caracteres nula será retornada. Se a posição inicial for 0, um valor nulo será retornado. Se o comprimento a ser excluído for maior que a primeira cadeia de caracteres, ele será excluído para o primeiro caractere na primeira cadeia de caracteres. 
   
 

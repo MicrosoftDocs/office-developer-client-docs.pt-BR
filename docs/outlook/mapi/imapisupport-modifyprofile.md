@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b16730681b5414f28ae45be7195b4fa551bf0e82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c296b12d2dc98c4ff8d94349298e9dda0fb9409
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316593"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591986"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Faz com que alterações a uma mensagem armazenar seção perfil permanente.
+Faz alterações em uma seção de perfil do repositório de mensagens permanente.
   
 ```cpp
 HRESULT ModifyProfile(
@@ -37,25 +37,25 @@ ULONG ulFlags
 
  _ulFlags_
   
-> [in] Armazene em uma bitmask dos sinalizadores que indica o tipo de mensagem. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que indica o tipo de repositório de mensagens. O seguinte sinalizador pode ser definido:
     
 MDB_TEMPORARY 
   
-> O armazenamento de mensagens é temporário e não deve ser adicionado à tabela de repositório de mensagem. Quando MDB_TEMPORARY estiver definido, o **ModifyProfile** Retorna S_OK imediatamente. 
+> O repositório de mensagens é temporário e não deve ser adicionado à tabela do repositório de mensagens. Quando MDB_TEMPORARY é definido, **ModifyProfile** retorna S_OK imediatamente. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As alterações para a seção de perfil foram bem-sucedidas.
+> As alterações na seção de perfil foram bem-sucedidas.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::ModifyProfile** é implementado para objetos de suporte do provedor de repositório de mensagem. Mensagem de chamada de provedores de repositório **ModifyProfile** para solicitar o MAPI para modificar suas informações de perfil. 
+O método **IMAPISupport:: ModifyProfile** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam o **ModifyProfile** para solicitar que o MAPI modifique suas informações de perfil. 
   
- **ModifyProfile** adiciona a seção de perfil que está associada com o provedor de chamada à lista de recursos do provedor de repositório de mensagem instalado. Isso faz com que o armazenamento de mensagens a serem listados na tabela de repositório de mensagens, que está disponível aos clientes através do método [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) e para ser aberto sem a exibição de uma caixa de diálogo. 
+ **ModifyProfile** adiciona a seção de perfil associada ao provedor de chamadas à lista de recursos do provedor de repositório de mensagens instalado. Isso faz com que o repositório de mensagens seja listado na tabela do repositório de mensagens, que está disponível para clientes por meio do método [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) , e a ser aberto sem a exibição de uma caixa de diálogo. 
   
-Se o sinalizador MDB_TEMPORARY estiver definido, MAPI não faz nada e o método retornará imediatamente com S_OK.
+Se o sinalizador MDB_TEMPORARY for definido, MAPI não fará nada e o método retornará imediatamente com S_OK.
   
 ## <a name="see-also"></a>Confira também
 

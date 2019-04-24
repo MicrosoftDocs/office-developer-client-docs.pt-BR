@@ -8,22 +8,22 @@ f1_keywords:
 - TempStr12
 - TempStrConst
 keywords:
-- função tempstr12 [excel 2007], função TempStrConst [Excel 2007]
+- função tempstr12 [Excel 2007], função TempStrConst [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 321c41aa87a3bfa0edc1d77ecc8fbe4b6a6a4730
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d93f9de021c7ba325d9c11af2cede0245ffbbf6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310322"
 ---
 # <a name="tempstrconsttempstr12"></a>TempStrConst/TempStr12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função de biblioteca Framework que cria um temporário **XLOPER/XLOPER12** que contém uma cadeia de caracteres **xltypeStr** , levando a uma cadeia de caracteres terminada em nulo fonte como entrada. A função aloca um novo buffer de memória e copia a cadeia de caracteres passada para ele. A cadeia de caracteres de entrada não seja alterada e portanto é declarada como **constante**.
+Função da biblioteca de estrutura que cria um **XLOPER/XLOPER12** temporário que contém uma cadeia de caracteres **xltypeStr** , colocando uma cadeia de caracteres de origem terminada em nulo como entrada. A função aloca um novo buffer de memória e copia a cadeia de caracteres passada para ele. A cadeia de caracteres de entrada não é alterada e, portanto, é declarada como **const**.
   
 ```cs
 LPXLOPER TempStrConst(const LPSTR str);
@@ -34,15 +34,15 @@ LPXLOPER12 TempStr12(const XCHAR* lpstr);
 
  _str_
   
-Um ponteiro para a cadeia de caracteres fonte terminada em nulo. No caso de s **XLOPER**, TempStrConst trunca strings que são maiores do que 255 bytes. No caso de **XLOPER12**s, TempStr12Const trunca cadeias de caracteres que são mais de 32.767 caracteres Unicode.
+Um ponteiro para a cadeia de caracteres de origem terminada em nulo. No caso de **XLOPER**s, TempStrConst trunca cadeias de caracteres maiores que 255 bytes. No caso de **XLOPER12**s, TempStr12Const trunca cadeias de caracteres que são maiores que 32.767 caracteres Unicode.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna uma cadeia de caracteres **xltypeStr** contendo uma cópia do buffer passado na cadeia de caracteres. 
+Retorna uma cadeia de caracteres **xltypeStr** contendo uma cópia do buffer de cadeia de caracteres passado. 
   
 ## <a name="remarks"></a>Comentários
 
-Observe que a cadeia de caracteres **XLOPER** função Framework, **TempStr**, se comporta de maneira diferente e tenta sobrescrever o primeiro caractere da cadeia de caracteres fornecida com o comprimento da cadeia de caracteres subsequentes. Isso não é sempre uma segura coisa a fazer: Microsoft Excel pode falhar se passadas uma cadeia de caracteres somente leitura. A maneira que o trabalho **TempStrConst** e o **TempStr12** agora é substituída dessa maneira de criação de cadeias de caracteres temporárias. Portanto, o primeiro caractere da cadeia de caracteres de entrada é tratado como o início da cadeia de caracteres, ou seja, não como um caractere de comprimento ou como um espaço para um caractere de comprimento. Você não deve passar cadeias de caracteres que possuem um caractere de comprimento codificado no início, conforme as consequências poderia ser imprevisíveis. 
+Observe que a função de estrutura de cadeia de caracteres **XLOPER** , **TempStr**, se comporta de forma diferente e tenta substituir o primeiro caractere da cadeia de caracteres fornecida com o comprimento da cadeia de caracteres subsequente. Isso nem sempre é uma coisa segura a fazer: o Microsoft Excel pode falhar se passar uma cadeia de caracteres somente leitura. Essa maneira de criar cadeias de caracteres temporárias agora está preterida em favor da forma como o **TempStrConst** e o **TempStr12** funcionam. Portanto, o primeiro caractere da cadeia de caracteres de entrada é tratado como o início da cadeia de caracteres, ou seja, não como um caractere de comprimento ou como um espaço para um caractere de comprimento. Você não deve passar cadeias de caracteres com um caractere de tamanho codificado no início, pois as conseqüências podem ser imprevisíveis. 
   
 ## <a name="example"></a>Exemplo
 
@@ -62,5 +62,5 @@ short WINAPI TempStrExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

@@ -1,28 +1,28 @@
 ---
-title: Automatizando o InfoPath de outros aplicativos
+title: Automatizar o InfoPath de outros aplicativos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- automação [infopath 2007], externo, automatizando InfoPath 2007, InfoPath 2007, automatizando de outros aplicativos
+- automação [InfoPath 2007], externo, automatizando o InfoPath 2007, InfoPath 2007, automatizando de outros aplicativos
 localization_priority: Normal
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
-description: Esta seção aborda a interoperabilidade primários do Microsoft InfoPath e assemblies de interoperabilidade de XML e como seus tipos e membros são usados para automatizar o InfoPath dos aplicativos externos usando de código gerenciado.
-ms.openlocfilehash: 5534fcc73970107baaacdced7cfc3be8396a42a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção discute os assemblies de interoperabilidade principal e de interoperabilidade XML do Microsoft InfoPath e como seus tipos e membros são usados para automatizar o InfoPath de aplicativos externos usando código gerenciado.
+ms.openlocfilehash: b6618dbe838446555920bf9e79c07712bc66fdda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310175"
 ---
-# <a name="automating-infopath-from-other-applications"></a>Automatizando o InfoPath de outros aplicativos
+# <a name="automating-infopath-from-other-applications"></a>Automatizar o InfoPath de outros aplicativos
 
-Esta seção aborda a interoperabilidade primários do Microsoft InfoPath e assemblies de interoperabilidade de XML e como seus tipos e membros são usados para automatizar o InfoPath dos aplicativos externos usando de código gerenciado.
+Esta seção discute os assemblies de interoperabilidade principal e de interoperabilidade XML do Microsoft InfoPath e como seus tipos e membros são usados para automatizar o InfoPath de aplicativos externos usando código gerenciado.
 
-- [Sobre o Microsoft Office InfoPath Primary Interop Assembly](about-the-microsoft-office-infopath-primary-interop-assembly.md): descreve o assembly de interoperabilidade primários do Microsoft Office InfoPath e o modelo de objeto, ele fornece para automação externa.
+- [Sobre o assembly de InteroperaBilidade primário do Microsoft Office InfoPath](about-the-microsoft-office-infopath-primary-interop-assembly.md): descreve o assembly de interoperabilidade primário do Microsoft Office InfoPath e o modelo de objeto que ele fornece para automação externa.
     
-- [Sobre o InfoPath XML Interop Assembly](about-the-infopath-xml-interop-assembly.md): descreve o assembly de interoperabilidade do InfoPath XML e o modelo de objeto, ele fornece para uso em aplicativos de automação externa.
+- [Sobre o assembly de InteroperaBILIDADE XML do InfoPath](about-the-infopath-xml-interop-assembly.md): descreve o assembly de interoperabilidade XML do InfoPath e o modelo de objeto que ele fornece para uso em aplicativos de automação externos.
     
-- [Cenários de automação externa e exemplos](external-automation-scenarios-and-examples.md): descreve os cenários comuns de automação externa e exemplos.
+- [Cenários e exemplos de automação externa](external-automation-scenarios-and-examples.md): descreve cenários e exemplos de automação externa comuns.
     
 

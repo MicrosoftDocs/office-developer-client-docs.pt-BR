@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bf8cf115c6188b5058717437c470e11797ff5b9a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cfa18c215fc98610b836db31e2a07581291910be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315782"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura fornece informações sobre um fluxo no formato nativo retornado da descompactando o corpo de uma mensagem que é encapsulado no compactado Rich Text Format (RTF).
+Essa estrutura fornece informações sobre um fluxo no formato nativo retornado da descompactação do corpo de uma mensagem encapsulada em formato Rich Text (RTF) compactado.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -30,7 +30,7 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _size_
   
@@ -38,13 +38,13 @@ _size_
     
 _ulStreamFlags_
   
-> Este é um valor que indica o formato do corpo da nativo. Este valor só será válido se o sinalizador **MAPI_NATIVE_BODY** é passado no parâmetro _ulFlags_ da estrutura [RTF_WCSINFO](rtf_wcsinfo.md) que é passado para a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Isso pode ser um dos seguintes valores: 
+> Este é um valor que indica o formato do corpo nativo. Esse valor só será válido se o sinalizador **MAPI_NATIVE_BODY** for passado no parâmetro _Parâmetroulflags_ da estrutura [RTF_WCSINFO](rtf_wcsinfo.md) que é passada para a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Pode ser um dos seguintes valores: 
     
 |||
 |:-----|:-----|
-|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Esse valor é usado apenas se _ulFlags_ inclui o sinalizador **MAPI_NATIVE_BODY** e corpo for RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Esse valor é usado apenas se _ulFlags_ inclui o sinalizador **MAPI_NATIVE_BODY** e o corpo é o formato de texto sem formatação.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Esse valor é usado apenas se _ulFlags_ inclui o sinalizador **MAPI_NATIVE_BODY** e o corpo é o formato de linguagem de marcação de hipertexto (HTML).  <br/> |
+|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Esse valor só será usado se _parâmetroulflags_ incluir o sinalizador **MAPI_NATIVE_BODY** e o corpo for RTF.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Esse valor é usado somente se _parâmetroulflags_ inclui o sinalizador **MAPI_NATIVE_BODY** e o corpo é o formato de texto sem formatação.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Esse valor é usado somente se _parâmetroulflags_ inclui o sinalizador **MAPI_NATIVE_BODY** e o corpo é o formato HTML (Hypertext Markup Language).  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

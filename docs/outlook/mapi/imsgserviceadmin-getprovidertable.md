@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1185a35df471fc3f85cbf50fd8ad3baa3927e72b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317378"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565288"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de provedor, uma lista de provedores de serviços de perfil.
+Fornece acesso à tabela do provedor, uma lista dos provedores de serviços no perfil.
   
 ```cpp
 HRESULT GetProviderTable(
@@ -38,51 +38,51 @@ HRESULT GetProviderTable(
 
  _ulFlags_
   
-> [in] Sempre nulo.
+> no Sempre nulo.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela de provedor.
+> bota Um ponteiro para um ponteiro para a tabela de provedor.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A tabela de provedor foi retornada com êxito.
+> A tabela do provedor foi retornada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::GetProviderTable** fornece acesso à tabela de provedor MAPI, uma tabela que lista todos os catálogos de endereços, armazenamento de mensagens e provedores de transporte instalados atualmente no perfil. 
+O método **IMsgServiceAdmin::** getprovidertable fornece acesso à tabela de provedor MAPI, uma tabela que lista todo o catálogo de endereços, o repositório de mensagens e os provedores de transporte atualmente instalados no perfil. 
   
-Ao contrário da tabela de provedor retornada por meio do método [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md) , a tabela de provedor retornada por meio de **IMsgServiceAdmin::GetProviderTable** não é possível incluir linhas adicionais que representam informações associadas com um ou mais provedores de serviços no perfil. 
+Diferente da tabela de provedor retornada por meio do método [IProviderAdmin::](iprovideradmin-getprovidertable.md) getprovidertable, a tabela de provedor retornada através de **IMsgServiceAdmin::** getprovidertable não pode incluir linhas adicionais que representam informações associadas com um ou mais provedores de serviço no perfil. 
   
-Os provedores que forem excluídos, ou estiverem em uso, foram marcados para exclusão, mas não são incluídos na tabela de provedor. As tabelas de provedor são estáticas, o que significa que subsequentes adições à ou exclusões do perfil não são refletidas na tabela. 
+Os provedores que foram excluídos ou estão em uso, mas que foram marcados para exclusão, não estão incluídos na tabela do provedor. As tabelas de provedor são estáticas, o que significa que adições ou exclusões subsequentes do perfil não são refletidas na tabela. 
   
-Se o perfil não tiver nenhum provedor, **GetProviderTable** retornará uma tabela com zero linhas e o valor de retorno S_OK. 
+Se o perfil não tiver provedores, **** getprovidertable retornará uma tabela com zero linhas e o valor de retorno de S_OK. 
   
-Para obter uma lista completa das colunas da tabela de provedor, consulte a [Tabela de provedor](provider-tables.md). 
+Para obter uma lista completa das colunas na tabela do provedor, consulte [tabela do provedor](provider-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar as linhas de uma tabela de provedor na ordem de transporte, use o procedimento a seguir:
+Para recuperar as linhas de uma tabela de provedor em ordem de transporte, use o seguinte procedimento:
   
-1. Chame o método [IMAPITable:: Restrict](imapitable-restrict.md) para impor uma restrição de propriedade que corresponda a propriedade **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) com MAPI_TRANSPORT_PROVIDER.
+1. Chame o método imApitable [:: Restrict](imapitable-restrict.md) para impor uma restrição de propriedade que corresponda à propriedade **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) com MAPI_TRANSPORT_PROVIDER.
     
-2. Chame o método [IMAPITable:: SortTable](imapitable-sorttable.md) para classificar a tabela pela coluna **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
+2. Chame o método imApitable [:: SortTable](imapitable-sorttable.md) para classificar a tabela pela coluna **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
     
-3. Chame o método [IMAPITable:: QueryRows](imapitable-queryrows.md) para obter as linhas da tabela. 
+3. Chame o método imApitable [:: QueryRows](imapitable-queryrows.md) para obter as linhas da tabela. 
     
-Uma alternativa para essas chamadas é tornar uma única chamada para a função [HrQueryAllRows](hrqueryallrows.md) com todos os dados apropriados estruturas passadas. 
+Uma alternativa para essas chamadas é fazer uma única chamada para a função [HrQueryAllRows](hrqueryallrows.md) com todas as estruturas de dados apropriadas passadas. 
   
-Se você recuperar as colunas **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) em cada uma das linhas, você pode usar essa matriz de estruturas **MAPIUID** para definir a ordem de transporte em uma chamada para [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
+Se você recuperar as colunas **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) em cada uma das linhas, poderá usar essa matriz de estruturas do **MAPIUID** para definir a ordem de transporte em uma chamada para [IMsgServiceAdmin:: MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ faz o seguinte: 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ faz o seguinte: 
   
-- Define o tipo de cadeia de caracteres para Unicode para os dados retornados para colunas ativas iniciais da tabela provedor pelo método [IMAPITable::QueryColumns](imapitable-querycolumns.md) . Colunas ativas iniciais para uma tabela de provedor são as colunas que o método **QueryColumns** retorna antes do provedor que contém as chamadas de tabela o método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+- Define o tipo de cadeia de caracteres como Unicode para dados retornados para as colunas iniciais ativas da tabela do provedor pelo método imApitable [:: QueryColumns](imapitable-querycolumns.md) . As colunas iniciais ativas de uma tabela de provedor são aquelas colunas que o método **QueryColumns** retorna antes de o provedor que contém a tabela chamar o método IMAPITable [::](imapitable-setcolumns.md) SetColumns. 
     
-- Define o tipo de cadeia de caracteres para Unicode para os dados retornados para as linhas de ativas iniciais da tabela provedor por **QueryRows**. As linhas de ativas iniciais para uma tabela de provedor são aquelas linhas **que QueryRows** retorna antes do provedor que contém as chamadas de tabela **SetColumns**. 
+- Define o tipo de cadeia de caracteres como Unicode para dados retornados para as linhas iniciais ativas da tabela do provedor por **QueryRows**. As linhas iniciais ativas de uma tabela de provedor são as linhas que **QueryRows** retorna antes do provedor que contém **** SetColumns de chamadas de tabela. 
     
-- Controles os tipos de propriedade da ordem de classificação retornadas pelo método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) antes que o cliente que contém a tabela de provedor chama o método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+- Controla os tipos de propriedade da ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) antes de o cliente que contém a tabela do provedor chamar o método IMAPITable [:: SortTable](imapitable-sorttable.md) . 
     
 ## <a name="see-also"></a>Confira também
 

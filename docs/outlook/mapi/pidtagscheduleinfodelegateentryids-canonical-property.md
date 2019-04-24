@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b2adde7c5ecc75fda25b94d005fabfcd705d5d07
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321291"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>Propriedade canônica PidTagScheduleInfoDelegateEntryIds
 
@@ -25,40 +25,40 @@ ms.locfileid: "25401508"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém as **EntryIDs** de representantes. 
+Contém o **ENTRYIDs** dos representantes. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |
 |Identificador:  <br/> |0x6845  <br/> |
 |Tipo de dados:  <br/> |PT_MV_BINARY  <br/> |
-|Área:  <br/> |Informações de disponibilidade  <br/> |
+|Área:  <br/> |Disponibilidade  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Cada entrada deve conter o valor da propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de entrada do catálogo de endereços do cada representante. Essa propriedade deverá ser definida no objeto de informações do representante.
+Cada entrada deve conter o valor da propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da entrada do catálogo de endereços de cada representante. Essa propriedade deve ser definida no objeto delegate Information.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com objetos de mensagem e calendário quando eles atuam em nome de outro usuário.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

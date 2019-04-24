@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 906f6c19-7f53-a8de-9748-c5dff0425bd3
-description: Este membro é um espaço reservado e não é suportado.
-ms.openlocfilehash: 2febb5c5d4af9e859d562b197aa13c640599fa88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esse membro é um espaço reservado e não tem suporte.
+ms.openlocfilehash: 8d929d330aeccb45cc492a4d4b887ec81f4b2d87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319877"
 ---
 # <a name="ifreebusysupportplaceholder11"></a>IFreeBusySupport::Placeholder11
 
-Este membro é um espaço reservado e não é suportado.
+Esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -28,9 +28,9 @@ BOOL Placeholder11(
 );
 ```
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-Sempre **false**, porque este membro é um espaço reservado e não é suportado.
+Sempre **false**, porque esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 
@@ -38,6 +38,6 @@ Este membro deve retornar **false**.
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de livre/ocupado)](constants-free-busy-api.md) 
+- [Constantes (API do serviço de disponibilidade)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

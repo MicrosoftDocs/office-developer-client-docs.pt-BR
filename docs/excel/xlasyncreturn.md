@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e7ba37629ff2198339394448410ffd16477d4766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310245"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para retornar o resultado de uma função definida pelo usuário assíncrona (UDF).
+Usado para retornar o resultado de uma função assíncrona definida pelo usuário (UDF).
   
 ```cpp
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
@@ -28,7 +28,7 @@ Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
-O identificador assíncrona do UDF para o qual o resultado é retornado.
+O identificador assíncrono do UDF para o qual o resultado é retornado.
   
 _pxFunctionResult_
   
@@ -36,15 +36,15 @@ O valor de retorno do UDF.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se tiver êxito, retornará **TRUE** (**xltypeBool**). Se for bem sucedida, retornará **FALSE**.
+Se bem-sucedido, retorna **true** (**xltypeBool**). Se não tiver êxito, retornará **false**.
   
 ## <a name="remarks"></a>Comentários
 
-**xlAsyncReturn** é o retorno de chamada somente que Excel permite em segmentos de não-cálculo durante o recálculo. A parte assíncrona de uma UDF assíncrona não deve executar qualquer retornos de chamada que não seja **xlAsyncReturn**. XLL deve liberar memória alocada para manter o valor de retorno.
+**xlAsyncReturn** é o único retorno de chamada que o Excel permite em threads não calculados durante o recálculo. A parte assíncrona de um UDF assíncrono não deve realizar nenhum retorno de chamada diferente de **xlAsyncReturn**. O XLL deve liberar memória alocada para armazenar o valor de retorno.
   
-Os parâmetros _pxAsyncHandle_ e _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usado para retornar uma matriz de identificadores e os valores correspondentes em um retorno de chamada único. Ao usar um único retorno de chamada, passe uma LPXLOPER12 que aponta para XLOPER12 estruturas que contêm um matrizes dimensionais que contêm as alças assíncronas e valores de retorno. Essas matrizes devem ser na mesma ordem para o Excel corretamente corresponder a um identificador assíncrona com seu valor correspondente. 
+Os parâmetros _pxAsyncHandle_ e _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usados para retornar uma matriz de identificadores e valores correspondentes em um único retorno de chamada. Ao usar um único retorno de chamada, passe um LPXLOPER12 que aponta para estruturas XLOPER12 que contêm uma matriz dimensional que contém as alças assíncronas e valores de retorno. Essas matrizes devem estar na mesma ordem para que o Excel coincida corretamente um identificador assíncrono com seu valor correspondente. 
   
-O exemplo a seguir mostra como você pode fazer com que um lote de chamada usando **xlAsyncReturn**.
+O exemplo a seguir mostra como você pode fazer uma chamada em lote usando o **xlAsyncReturn**.
   
 ```cpp
 int batchSize = 10;

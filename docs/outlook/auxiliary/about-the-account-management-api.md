@@ -6,37 +6,37 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: 'A API de gerenciamento de conta fornece acesso às informações de conta e dá suporte a notificações de alterações de conta. Como os clientes desta API, provedores de email faça o seguinte:'
-ms.openlocfilehash: 678143def25395c47f1c17cc99dcdcd1fb145e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'A API de gerenciamento de contas fornece acesso a informações de conta e dá suporte a notificações de alterações de conta. Como clientes desta API, os provedores de email fazem o seguinte:'
+ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316937"
 ---
 # <a name="about-the-account-management-api"></a>Sobre a API de gerenciamento de contas
 
-A API de gerenciamento de conta fornece acesso às informações de conta e dá suporte a notificações de alterações de conta. Como os clientes desta API, provedores de email faça o seguinte:
+A API de gerenciamento de contas fornece acesso a informações de conta e dá suporte a notificações de alterações de conta. Como clientes desta API, os provedores de email fazem o seguinte:
   
-1. Use [IOlkAccountManager](iolkaccountmanager.md) para gerenciar o acesso às contas e configurar notificações sobre alterações de conta. 
+1. Use o [IOlkAccountManager](iolkaccountmanager.md) para gerenciar o acesso a contas e configurar notificações sobre alterações de conta. 
     
-2. Implementar e usar [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificações sobre alterações de conta. 
+2. Implementar e usar o [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificações sobre alterações de conta. 
     
 3. Use [IOlkEnum](iolkenum.md) para enumerar contas. 
     
-4. Use [IOlkAccount](iolkaccount.md) para obter e definir propriedades e outras informações sobre uma conta. Os clientes obtêm essa interface por meio de [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum::GetNext](iolkenum-getnext.md) para acessar uma conta individual. 
+4. Use o [IOlkAccount](iolkaccount.md) para obter e definir propriedades e outras informações sobre uma conta. Os clientes obtêm essa interface por meio do [IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum:: GetNext](iolkenum-getnext.md) para acessar uma conta individual. 
     
-5. Implementar e usar [IOlkAccountHelper](iolkaccounthelper.md) para fornecer a funcionalidade de auxiliares do Gerenciador conta, incluindo obtendo o nome do perfil da conta e a sessão MAPI atual. 
+5. Implementar e usar o [IOlkAccountHelper](iolkaccounthelper.md) para fornecer a funcionalidade auxiliar do gerente de contas, incluindo obter o nome do perfil da conta e a sessão MAPI atual. 
     
-6. Implementar e usar [IOlkErrorUnknown](iolkerrorunknown.md) para fornecer informações adicionais sobre um erro em **IOlkAccountManager**, **IOlkAccountNotify**e **IOlkAccount**. 
+6. Implementar e usar o [IOlkErrorUnknown](iolkerrorunknown.md) para fornecer informações adicionais sobre um erro no **IOlkAccountManager**, **IOlkAccountNotify**e **IOlkAccount**. 
 
-##  <a name="account-management-api-components"></a>Componentes de API de gerenciamento de conta
+##  <a name="account-management-api-components"></a>Componentes da API de gerenciamento de contas
 
-A API de gerenciamento de conta fornece as seguintes definições, tipos de dados, interfaces, denominadas propriedades e propriedades.
+A API de gerenciamento de contas fornece as seguintes definições, tipos de dados, interfaces, propriedades nomeadas e propriedades.
   
 ### <a name="definitions"></a>Definições
   
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
     
 ### <a name="data-types"></a>Tipos de dados
   

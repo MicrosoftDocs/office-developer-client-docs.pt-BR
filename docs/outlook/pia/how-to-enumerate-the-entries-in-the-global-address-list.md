@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98256ce539172b69c2ae94d495c4aab12e3b8cc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320360"
 ---
 # <a name="enumerate-the-entries-in-the-global-address-list"></a>Enumerar entradas na lista de endereços global
 
@@ -25,7 +25,7 @@ Este exemplo enumera os primeiros 100 endereços SMTP (Simple Mail Transfer Prot
 
 No exemplo de código a seguir, o endereço SMTP para um objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) é obtido transmitindo-o para um objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) ou [ExchangeDistributionList](https://msdn.microsoft.com/library/bb624320\(v=office.15\)) em uma chamada para os métodos [GetExchangeUser()](https://msdn.microsoft.com/library/bb645260\(v=office.15\)) ou [GetExchangeDistributionList()](https://msdn.microsoft.com/library/bb611805\(v=office.15\)). Se o objeto **AddressEntry** representar um usuário do Exchange, EnumerateGAL retornará um objeto **ExchangeUser** que expõe as propriedades do objeto **AddressEntry**. Use propriedades ExchangeUser, como [JobTitle](https://msdn.microsoft.com/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/library/bb623789\(v=office.15\)), [Alias](https://msdn.microsoft.com/library/bb610682\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/library/bb612294\(v=office.15\)) ou [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)), para expô-las.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. A seguinte linha de código mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

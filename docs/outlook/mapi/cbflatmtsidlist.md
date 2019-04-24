@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 52e9454f9743311a83ee78aa28e1e81dbb569c64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7495b2e24f31b4409c69a429d50b79c8e5f220eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318057"
 ---
 # <a name="cbflatmtsidlist"></a>CbFLATMTSIDLIST
 
@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [FLATMTSIDLIST](flatmtsidlist.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp

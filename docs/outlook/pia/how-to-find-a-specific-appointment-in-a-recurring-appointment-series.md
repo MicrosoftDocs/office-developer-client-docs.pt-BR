@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 19502895996d4777f2d1a6887aa80883a5398a09
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320248"
 ---
 # <a name="find-a-specific-appointment-in-a-recurring-appointment-series"></a>Localizar um compromisso específico em uma série de compromissos recorrentes
 
@@ -31,7 +31,7 @@ Observe que mesmo após liberar sua referência e tentar obter uma nova referên
 
 No exemplo de código a seguir, CheckOccurrenceExample usa o compromisso recorrente criado no exemplo de código em [Criar um compromisso recorrente com um padrão semanal](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md). Em seguida, chama o método GetOccurrence para determinar se o compromisso recorrente é iniciado na data e hora especificadas. Para garantir que o procedimento continuará mesmo se as informações fornecidas não corresponderem à data e hora de início de uma instância do compromisso recorrente, o exemplo usará um bloco try… catch. Depois de chamar o método GetOccurrence em cada compromisso na série de compromissos recorrentes, CheckOccurrenceExample testa a variável singleAppt para determinar se ela está definida como uma referência nula, indicando que o método falhou e não retornou um objeto **AppointmentItem**.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

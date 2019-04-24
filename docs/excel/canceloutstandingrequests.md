@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 65d4257037b18c8fa68cabe0c08091ec67343fa5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882458ab096cbced8e0635dab65fe0b1d680388f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310994"
 ---
 # <a name="canceloutstandingrequests"></a>CancelOutstandingRequests
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Informa o conector de cluster que um cálculo do Excel foi cancelado e, portanto, todos os pendentes chamadas de função dentro dessa sessão poderão ser cancelados também (e que o Excel não espera retornos de chamada por seus resultados).
+Informa ao conector de cluster que um cálculo do Excel foi cancelado e, portanto, todas as chamadas de função pendentes nessa sessão podem ser canceladas também (e o Excel não espera retornos de chamada com seus resultados).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
@@ -28,15 +28,15 @@ int CancelOutstandingRequests(int SessionId)
 
 _SessionID_
   
-> A identificação da sessão usada pelo cálculo cancelado. Esse valor compara o valor retornado pela [OpenSession](opensession.md).
+> A ID da sessão usada pelo cálculo cancelado. Esse valor corresponde ao valor retornado por [OpenSession](opensession.md).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se o argumento _SessionId_ é válido. **xlHpcRetInvalidSessionId** se o argumento _SessionId_ é inválido; **xlHpcRetCallFailed** em outras falhas. 
+**xlHpcRetSuccess** se o argumento _SessionID_ for válido; **xlHpcRetInvalidSessionId** se o argumento _SessionID_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
   
 ## <a name="remarks"></a>Comentários
 
-Implementadores devem parar todos os processos para a sessão para melhorar o desempenho, como o retorno de algum resultado recebido após essa chamada será descartada pelo Excel.
+Os implementadores devem interromper todos os processos da sessão para melhorar o desempenho, como os resultados recebidos depois que essa chamada será descartada pelo Excel.
   
 ## <a name="see-also"></a>Confira também
 

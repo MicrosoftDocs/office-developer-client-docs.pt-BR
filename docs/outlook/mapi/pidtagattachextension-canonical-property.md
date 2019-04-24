@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319758"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Propriedade canônica PidTagAttachExtension
 
@@ -36,27 +36,27 @@ Contém uma extensão de nome de arquivo que indica o tipo de documento de um an
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são definidas pelo aplicativo cliente em tempo de envio. 
+Essas propriedades são definidas pelo aplicativo cliente no momento da envio. 
   
-As mensagens **PR_ATTACH_EXTENSION** do sistema usa ao converter os anexos de mensagens (na rota de conversão) ou launching aplicativos baseados em anexos em mensagens recebidas. Se o cliente de envio não fornecer um valor para essas propriedades, o armazenamento de mensagens tratamento de anexo não é obrigado a gerá-lo. O cliente de recebimento deve verificar primeiro **PR_ATTACH_EXTENSION**e se não for fornecido, deve analisar a extensão de nome de arquivo do **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou o **PR_ATTACH_LONG_FILENAME do anexo **Propriedade ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+O sistema de mensagens usa o **PR_ATTACH_EXTENSION** ao converter anexos de mensagens (conversão na rota) ou iniciar aplicativos baseados em anexos de mensagens recebidas. Se o cliente de envio não fornecer um valor para essas propriedades, o repositório de mensagens que estiver manipulando o anexo não será obrigado a gerá-lo. O cliente de recebimento deve primeiro verificar **PR_ATTACH_EXTENSION**e, se não for fornecido, deve analisar a extensão do nome do arquivo no **PR_ATTACH_FILENAME** do anexo ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME **([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) propriedade. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

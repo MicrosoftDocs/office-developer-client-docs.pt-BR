@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 00cc252dd16212e812280db70d6b7c77c2c02693
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315243"
 ---
 # <a name="share-freebusy-schedule-within-a-specified-period-in-a-calendar"></a>Compartilhar cronograma de disponibilidade em um período específico de um calendário
 
@@ -22,7 +22,7 @@ Este exemplo obtém o cronograma de disponibilidade de determinada semana e exib
 
 Este exemplo de código usa o método [GetCalendarExporter](https://msdn.microsoft.com/library/bb610021\(v=office.15\)) do objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) para obter um objeto [CalendarSharing](https://msdn.microsoft.com/library/bb624344\(v=office.15\)) para a pasta padrão Calendário em um período específico de uma semana. Em seguida, chama o método [ForwardAsICal](https://msdn.microsoft.com/library/bb652866\(v=office.15\)) no objeto **CalendarSharing** e exibe a mensagem com uma carga iCalendar.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -99,5 +99,5 @@ private void DemoCalendarSharing()
 
 ## <a name="see-also"></a>Confira também
 
-- [Calendário](calendar.md)
+- [Calendar](calendar.md)
 

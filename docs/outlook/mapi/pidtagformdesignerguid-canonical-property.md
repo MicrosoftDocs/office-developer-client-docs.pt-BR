@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316230"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propriedade canônica PidTagFormDesignerGuid
 
@@ -25,18 +25,18 @@ ms.locfileid: "22586526"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador exclusivo para o objeto que é usado para criar um formulário.
+Contém o identificador exclusivo do objeto que é usado para criar um formulário.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identificador:  <br/> |0x3309  <br/> |
 |Tipo de dados:  <br/> |PT_GUID  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Geralmente, essa propriedade contém o identificador globalmente exclusivo (GUID) do programa de design que é usado para criar o formulário. Esta propriedade pode ser vazia. 
+Essa propriedade normalmente contém o identificador global exclusivo (GUID) do programa de design que é usado para criar o formulário. Essa propriedade pode estar vazia. 
   
 A estrutura [MAPIUID](mapiuid.md) contém a definição do identificador exclusivo. 
   
@@ -44,13 +44,13 @@ A estrutura [MAPIUID](mapiuid.md) contém a definição do identificador exclusi
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

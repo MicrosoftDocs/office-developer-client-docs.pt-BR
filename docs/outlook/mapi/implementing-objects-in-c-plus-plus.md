@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 4c233f9855674080496b2e54ba9548a53738ead8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 89247ca1b263d6f06af73f1ffa14709a2aff23de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310147"
 ---
 # <a name="implementing-objects-in-c"></a>Implementar objetos em C++
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de serviços e clientes C++ definem os objetos MAPI, criando classes que herdam as interfaces estão implementando. Cada um dos métodos interface é pública, assim como o construtor e destrutor para a classe. Se a classe tem métodos adicionais, eles podem ser pública ou privada, dependendo da implementação. Todos os membros de dados são privados. 
+Clientes C++ e provedores de serviços definem as classes que herdam as interfaces que estão implementando. Cada um dos métodos de interface é público, como é o construtor e o destruidor da classe. Se a classe tem métodos adicionais, elas podem ser públicas ou privadas, dependendo da implementação. Todos os membros de dados são privados. 
   
-O exemplo de código a seguir mostra como definir um objeto de status do C++. O `CMyMAPIObject` classe herda a partir do [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface. Muitas das macros usadas neste exemplo são definidas no arquivo de cabeçalho OLE Compobj.h. Os primeiro membros da classe são os métodos da interface base, seguido os métodos para as interfaces herdadas na ordem de herança. Seguir as definições de interface é quaisquer métodos adicionais, o construtor e destrutor e os membros de dados. 
+O código de exemplo a seguir mostra como definir um objeto status do C++. A `CMyMAPIObject` classe herda da interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Muitas das macros usadas neste exemplo são definidas no arquivo de cabeçalho OLE COMPOBJ. h. Os primeiros membros da classe são os métodos da interface base, seguidos pelos métodos das interfaces herdadas em ordem de herança. Seguir as definições de interface são quaisquer métodos adicionais, o construtor e o destruidor e os membros de dados. 
   
 ```cpp
 class  CMyMAPIObject : public IMAPIStatus
@@ -48,7 +48,7 @@ private :
  
 ```
 
-Para usar uma instância do `CMyMAPIObject` classe, clientes C++ ou provedores de serviços de fazer uma chamada para um de seus métodos das seguintes formas: 
+Para usar uma instância da `CMyMAPIObject` classe, os clientes C++ ou provedores de serviços fazem uma chamada para um dos seus métodos da seguinte maneira: 
   
 ```cpp
 lpMyObj->ValidateState(ulUIParam, ulFlags);
@@ -57,5 +57,5 @@ lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

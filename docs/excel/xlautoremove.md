@@ -7,26 +7,26 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRemove
 keywords:
-- função xlautoremove [excel 2007]
+- função xlAutoRemove [Excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 6e5daac21a6d89472a7d84a25e9aeaea56db1ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310280"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chamado pelo Microsoft Excel sempre que o usuário desativa o XLL durante uma sessão do Excel usando o Gerenciador de suplemento. Essa função não é chamada quando uma sessão do Excel é fechado, normalmente ou modo anormal, com o suplemento instalado.
+Chamado pelo Microsoft Excel sempre que o usuário desativa o XLL durante uma sessão do Excel usando o Gerenciador de suplementos. Esta função não é chamada quando uma sessão do Excel é fechada, normalmente ou de forma anormal, com o suplemento instalado.
   
-Esta função pode ser usada para exibir uma caixa de diálogo personalizada informando ao usuário que o suplemento foi desativado, ou para ler ou gravar no registro, por exemplo.
+Essa função pode ser usada para exibir uma caixa de diálogo personalizada informando ao usuário que o suplemento foi desativado ou para ler ou gravar no registro, por exemplo.
   
-Excel não exige um XLL implementar e exportar essa função. 
+O Excel não requer um XLL para implementar e exportar essa função. 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ A implementação dessa função deve retornar 1 (**int**).
   
 ## <a name="remarks"></a>Comentários
 
-Use esta função se seu XLL precisa concluir qualquer tarefa quando ele é removido pelo gerente de suplemento.
+Use essa função se o XLL precisar concluir qualquer tarefa quando for removido pelo Gerenciador de suplementos.
   
 ## <a name="example"></a>Exemplo
 

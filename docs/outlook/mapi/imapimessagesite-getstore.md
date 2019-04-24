@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c78574f213245a5c30ff589ade824e5c5bd84ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321431"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567927"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o repositório de mensagem que contém a mensagem atual, se existir um repositório tal. Este método retornará NULL no parâmetro _ppStore_ mensagens incorporado, o que são armazenados em outra mensagem em vez de diretamente em um repositório de mensagem. 
+Retorna o repositório de mensagens que contém a mensagem atual, se esse repositório existir. Este método retornará nulo no parâmetro _ppStore_ para mensagens incorporadas, que são armazenadas em outra mensagem em vez de diretamente em um repositório de mensagens. 
   
 ```cpp
 HRESULT GetStore(
@@ -37,29 +37,29 @@ HRESULT GetStore(
 
  _ppStore_
   
-> [out] Um ponteiro para um ponteiro para o armazenamento de mensagens.
+> bota Um ponteiro para um ponteiro para o repositório de mensagens.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 S_FALSE 
   
-> Não há nenhum repositório que contém a mensagem.
+> Não há um repositório que contenha a mensagem.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa o método **IMAPIMessageSite::GetStore** para obter o ponteiro atualmente em cache para o repositório especificado, se ele estiver disponível.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: getStore  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: GetStore** para obter o ponteiro atualmente em cache para o repositório especificado, se ele estiver disponível.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulário MAPI](mapi-form-interfaces.md)
 

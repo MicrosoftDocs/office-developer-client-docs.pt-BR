@@ -1,5 +1,5 @@
 ---
-title: Sobre APIs exportadas pelo Outlook
+title: Sobre APIs exportado pelo Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook exporta as seguintes definições, estruturas de dados, funções e interfaces que foram originalmente concebidas para uso interno, mas agora são expostos para o público.
 ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316976"
 ---
 # <a name="about-apis-exported-by-outlook"></a>Sobre APIs exportadas pelo Outlook
 

@@ -43,11 +43,11 @@ ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: A Interface do Project Server (PSI) é a API usada para desenvolver aplicativos que se integram ao Project Server 2013 no local.
 localization_priority: Priority
 ms.openlocfilehash: 178f050022916ac1d26bd3d71f0ac5210c92295d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301552"
 ---
 # <a name="project-psi-reference-overview"></a>Visão geral da referência da PSI do Project
 

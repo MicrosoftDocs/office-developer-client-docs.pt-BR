@@ -7,16 +7,16 @@ ms.topic: reference
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 localization_priority: Priority
 ms.openlocfilehash: d7d27e98189a5b6784e4db48c81a545b85f01fc1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306089"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Criar e personalizar um aplicativo Web no Access
 
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 Access 2013 apresenta um novo modelo de aplicativo, que permite aos especialistas da área criar de forma rápida os aplicativos baseados na Web. Acompanha Access um conjunto de modelos que podem ser usados para promover a criação de aplicativos.
 

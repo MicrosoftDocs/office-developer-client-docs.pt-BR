@@ -10,11 +10,11 @@ ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: f0b6f3d7310cac6d141fc74652a3333f70bda8e9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310498"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>Recálculo multithreaded no Excel
 

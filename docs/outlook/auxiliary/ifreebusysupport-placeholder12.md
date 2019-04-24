@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 97591e34-59c4-41e0-5efc-634fb0f5aa1b
-description: Este membro é um espaço reservado e não é suportado.
-ms.openlocfilehash: 7b37ca6207e1f72a8c24dce5e90b3fe4aa7962df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esse membro é um espaço reservado e não tem suporte.
+ms.openlocfilehash: bc948f0338905cad407942f510a261bbd7de4658
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319884"
 ---
 # <a name="ifreebusysupportplaceholder12"></a>IFreeBusySupport::Placeholder12
 
-Este membro é um espaço reservado e não é suportado.
+Esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -26,9 +26,9 @@ Consulte [IFreeBusySupport](ifreebusysupport.md).
 HRESULT Placeholder12();
 ```
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-Sempre S_OK, porque este membro é um espaço reservado e não é suportado.
+Sempre S_OK, porque esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 
@@ -36,6 +36,6 @@ Este membro deve retornar S_OK.
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de livre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API do serviço de disponibilidade)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

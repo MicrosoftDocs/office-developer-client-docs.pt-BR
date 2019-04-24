@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2d05592d1fdcdcd53c8b7879f9cdcd432df1a3f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 49ef9862d5156a1bed242652df32baab9a0123fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317154"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
@@ -39,19 +39,19 @@ HRESULT SyncHdrBeg(
 
  _cbeid_
   
-> [in] O número de bytes na identificação de entrada da mensagem.
+> no O número de bytes na ID de entrada da mensagem.
     
  _lpeid_
   
-> [in] A identificação de entrada da mensagem.
+> no A identificação de entrada da mensagem.
     
- _ppv_
+ _PPV_
   
->  [in] / [out] ponteiro para a estrutura **[HDRSYNC](hdrsync.md)** para o cabeçalho da mensagem. 
+>  [in]/[out] ponteiro para a estrutura **[HDRSYNC](hdrsync.md)** do cabeçalho da mensagem. 
     
 ## <a name="remarks"></a>Comentários
 
-Após a **IOSTX::SyncHdrBeg**, o local armazenar transições a [baixar o estado do cabeçalho da mensagem](download-message-header-state.md). Inicializa o Outlook para o cliente a estrutura **HDRSYNC** com a representação atual do cabeçalho da mensagem no repositório e a pasta pai. O cliente, em seguida, deve baixar um item de mensagem completo (como *pmsgFull* **HDRSYNC** ). Se isso foi bem-sucedida, o cliente também definirá *ulFlags* em **HDRSYNC** **HSF_OK**. Após a **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, o Outlook verifica o resultado em **HDRSYNC** e usa as informações em **HDRSYNC** para atualizar o cabeçalho de mensagem local. 
+Após o **IOSTX:: SyncHdrBeg**, o repositório local transita para o [estado de cabeçalho da mensagem de download](download-message-header-state.md). O Outlook é inicializado para o cliente a estrutura **HDRSYNC** com a representação atual do cabeçalho da mensagem no repositório e na pasta pai. O cliente deve baixar um item de mensagem completo (como *pmsgFull* no **HDRSYNC** ). Se isso tiver sido bem-sucedido, o cliente também define *parâmetroulflags* no **HDRSYNC** como **HSF_OK**. Após o **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)**, o Outlook verifica o resultado em **HDRSYNC** e usa as informações em **HDRSYNC** para atualizar o cabeçalho da mensagem local. 
   
 ## <a name="see-also"></a>Confira também
 

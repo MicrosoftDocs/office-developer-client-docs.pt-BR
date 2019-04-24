@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1f4f0c9c1212d8030b2d05ec8a17304d082c06f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315950"
 ---
 # <a name="pidlidprivate-canonical-property"></a>Propriedade canônica PidLidPrivate
 
@@ -25,31 +25,31 @@ ms.locfileid: "25391777"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se o usuário final quer que este objeto de mensagem oculto de outros usuários que têm acesso ao objeto de mensagem.
+Indica se o usuário final deseja que esse objeto de mensagem fique oculto de outros usuários que têm acesso ao objeto Message.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidPrivate  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008506  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008506  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
+> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 13aa6ae2-47b9-2cf4-a6ef-651f1338dd49
 description: A interface IFreeBusyData na API de Disponibilidade usa um conceito de tempo relativo, que é o número de minutos desde 1º de janeiro de 1601, que é expresso em Tempo Universal (UTC) e é um valor do tipo LONG.
 ms.openlocfilehash: 1b977fc3aebd1f2b20e51f24caa36d6bbf2862ba
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317630"
 ---
 # <a name="use-relative-time-to-access-freebusy-data"></a>Usar o tempo relativo para acessar dados de disponibilidade
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f8df57579b23ea660f38a0f804b3729d0c73990e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320395"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Propriedade canônica PidTagTransportProviders
 
@@ -36,19 +36,19 @@ Contém uma lista de identificadores de provedores de transporte no perfil atual
    
 ## <a name="remarks"></a>Comentários
 
-Não use essa propriedade. Ele é reservado para uso pelo MAPI.
+Não use essa propriedade. É reservado para uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

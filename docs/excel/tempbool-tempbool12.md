@@ -8,22 +8,22 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- função tempbool [excel 2007], função TempBool12 [Excel 2007]
+- função tempbool [Excel 2007], função TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8c917f0004fe091413ea670f1cc562f1d701fa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310350"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de Framework que cria um temporário **XLOPER**/ **XLOPER12** contendo **Boolean** **TRUE** ou **FALSE**.
+Função da biblioteca da estrutura que cria **um XLOPER de XLOPER**/ **** temporário contendo **booliano** **true** ou **false**.
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -34,15 +34,15 @@ LPXLOPER12 TempBool12(int b);
 
  _b_ (**int**)
   
-Use 0 para retornar **FALSE**; Use qualquer outro valor para retornar **TRUE**.
+Use 0 para retornar **false**; Use qualquer outro valor para retornar **true**.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna um **xltypeBool** **booliano** que contém o valor lógico passado. 
+Retorna um **** **Boolean** xltypeBool contendo o valor lógico passado. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir usa a função **TempBool12** para limpar a barra de status. Memória temporária é liberada quando a função do [Excel/Excel12f](excel-excel12f.md) é chamada. 
+O exemplo a seguir usa a função **TempBool12** para limpar a barra de status. A memória temporária é liberada quando a função [Excel/Excel12f](excel-excel12f.md) é chamada. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -58,5 +58,5 @@ short int WINAPI TempBoolExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

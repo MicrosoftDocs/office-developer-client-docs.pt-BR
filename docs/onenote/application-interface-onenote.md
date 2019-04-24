@@ -8,11 +8,11 @@ ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'A Interface do aplicativo inclui métodos que ajudam a recuperar, manipular e atualizar o conteúdo e as informações do OneNote. Os métodos estão em quatro categorias gerais:'
 localization_priority: Priority
 ms.openlocfilehash: 20b2fc42711aaf4f1b407efb2c70057bd88a9046
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303105"
 ---
 # <a name="application-interface-onenote"></a>Interface do aplicativo (OneNote)
 

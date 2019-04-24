@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 90a51150-5c2c-4d5b-8717-5dacc8532744
 description: Este tópico descreve como um cliente de email pode acessar a propriedade PidTagAttachDataBinary para obter o histórico de download de mensagens para uma conta POP3.
 ms.openlocfilehash: ae12a044098aa4f42e1c2e5936e82da3d7a128dd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321872"
 ---
 # <a name="locating-the-message-download-history-for-a-pop3-account"></a>Localizar o histórico de download de mensagens de uma conta POP3
 

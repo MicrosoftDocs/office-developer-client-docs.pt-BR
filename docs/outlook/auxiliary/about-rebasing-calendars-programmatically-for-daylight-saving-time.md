@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
 description: Neste tópico, este período entre a primavera e o outono é denominado como período DST.
 ms.openlocfilehash: 8d9a0ffda89ee9d8847cde59181747588a50e947
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316951"
 ---
 # <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>Sobre a alteração programática da base de calendários para o horário de verão
 

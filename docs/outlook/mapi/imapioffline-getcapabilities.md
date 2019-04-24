@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 48d59d17d81da2ae78348a57ad8b1cb75486b1a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321312"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572029"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém as condições para o qual os retornos de chamada são suportados por um objeto offline.
+Obtém as condições para as quais os retornos de chamada são compatíveis com um objeto offline.
   
 ```cpp
 HRESULT GetCapabilities( 
@@ -37,7 +37,7 @@ HRESULT GetCapabilities(
 
  _pulCapablities_
   
-> [out] Uma bitmask dos sinalizadores de recurso a seguir:
+> bota Uma bitmask dos seguintes sinalizadores de recurso:
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
@@ -49,11 +49,11 @@ MAPIOFFLINE_CAPABILITY_ONLINE
     
 ## <a name="remarks"></a>Comentários
 
-Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente pode consultar em [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obter um ponteiro para uma interface **IMAPIOffline** e chamadas **IMAPIOffline::GetCapabilities** para descobrir os retornos de chamada com suporte pelo objeto. O cliente pode optar por configurar retornos de chamada usando **IMAPIOfflineMgr**.
+Ao abrir um objeto offline usando o **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente pode consultar no [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obter um ponteiro para uma interface do **IMAPIOffline** e chamar **IMAPIOffline:: GetCapabilities** para descobrir os retornos de chamada suportados pelo objeto. O cliente pode optar por configurar os retornos de chamada usando o **IMAPIOfflineMgr**.
   
-Observe que, dependendo do servidor de email para um objeto offline, um objeto que oferece suporte a retornos de chamada para o modo online não necessariamente suporta retornos de chamada para entrar no modo offline.
+Observe que, dependendo do servidor de email para um objeto offline, um objeto que oferece suporte a retornos de chamada para ficar online não necessariamente oferece suporte a retornos de chamada para ficar offline.
   
-Observe também que, enquanto um objeto offline pode suportar retornos de chamada para alterações que não seja online offline, a API de estado Offline suporta apenas alterações online offline e os clientes precisam verificar para apenas esses recursos.
+Observe também que, enquanto um objeto offline pode dar suporte a retornos de chamada para alterações diferentes de online/offline, a API de estado offline oferece suporte somente a alterações online/offline, e os clientes devem verificar apenas esses recursos.
   
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Observe também que, enquanto um objeto offline pode suportar retornos de chamad
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Constantes de MAPI](mapi-constants.md)
+[Constantes MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
 

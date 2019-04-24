@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ce823159047410a8cea13b7eff5566cd8abaa5b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316426"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriedade canônica PidTagExchangeProfileSectionId
 
@@ -36,13 +36,13 @@ Contém um GUID gerado dinamicamente usado para determinar uma conta quando voc�
    
 ## <a name="remarks"></a>Comentários
 
-Microsoft Outlook 2010 e o Microsoft Outlook 2013 suportam várias contas do Exchange, em vez de uma única conta do Exchange. Para acomodar várias contas do Exchange, o layout do perfil MAPI foi alterado. No Microsoft Office Outlook 2007 e versões anteriores, perfis contidos uma seção de perfil fixa dedicada para configurações do Exchange, como o nome do servidor, nome de usuário e o arquivo de pasta Offline (. ost). local. Essas configurações foram identificadas usando um identificador exclusivo, a propriedade **pbGlobalProfileSectionGuid** . A seção usada para configurações do Exchange é chamada a seção de perfil Global do Exchange. 
+O Microsoft Outlook 2010 e o Microsoft Outlook 2013 dão suporte a várias contas do Exchange, em vez de uma única conta do Exchange. Para acomodar várias contas do Exchange, o layout do perfil MAPI foi alterado. No Microsoft Office Outlook 2007 e anteriores, os perfis continham uma seção de perfil fixo dedicada às configurações do Exchange, como nome do servidor, nome de usuário e arquivo de pasta offline (. ost). alocações. Essas configurações foram identificadas usando um identificador exclusivo, a propriedade **pbGlobalProfileSectionGuid** . A seção usada para as configurações do Exchange é chamada de seção de perfil global do Exchange. 
   
-Um local de seção perfil fixo não mais é suficiente para acomodar várias contas do Exchange. Em vez disso, para cada conta do Exchange no seu perfil, existe uma seção dedicada ao configurações dessa conta. Nova seção usada para configurações do Exchange é identificada pelo identificador exclusivo **emsmdbUID**.
+Um local de seção de perfil fixo não é mais suficiente para acomodar várias contas do Exchange. Em vez disso, para cada conta do Exchange em seu perfil, existe uma seção que é dedicada às configurações da conta. A nova seção usada para as configurações do Exchange é identificada pelo identificador exclusivo **emsmdbUID**.
   
-A seção de perfil de serviço de mensagem para a conta do Exchange, você encontrará uma propriedade que contenha um GUID que seja gerado dinamicamente no momento em que a conta é criada. Este GUID é armazenado na propriedade **PidTagExchangeProfileSectionId** . Repositórios de mensagem e contêineres do catálogo de endereços expõem uma propriedade para determinar qual eles pertencem a conta do Exchange. Acessível na tabela de serviços de mensagem, cada serviço Exchange expõe essa propriedade. 
+Na seção perfil de serviço de mensagens da conta do Exchange, você pode encontrar uma propriedade que contenha um GUID gerado dinamicamente no momento em que a conta é criada. Este GUID é armazenado na propriedade **PidTagExchangeProfileSectionId** . Repositórios de mensagens e contêineres de catálogo de endereços expõem uma propriedade para determinar a conta do Exchange à qual pertencem. Acessível na tabela de serviços de mensagem, cada serviço do Exchange expõe essa propriedade. 
   
-É possível recuperar essa propriedade por meio de uma chamada para [IMAPIProp::GetProps](imapiprop-getprops.md) em **PidTagExchangeProfileSectionId** após consultando para qualquer uma das seguintes interfaces: 
+Você pode recuperar essa propriedade por meio de uma chamada a [IMAPIProp::](imapiprop-getprops.md) GetProps no **PidTagExchangeProfileSectionId** após a consulta para qualquer uma das seguintes interfaces: 
   
 - [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
     
@@ -50,18 +50,18 @@ A seção de perfil de serviço de mensagem para a conta do Exchange, você enco
     
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
-Se o objeto não é associado com o Exchange, a chamada retorna **E_NOT_FOUND**.
+Se o objeto não estiver associado ao Exchange, a chamada retornará **MAPI_E_NOT_FOUND**.
   
-Você pode restringir contêineres em um **PidTagExchangeProfileSectionId** ao exibir o catálogo de endereços. Depois que você tiver um contêiner aberto, você pode consultar **emsmdbUID** a partir dele. Também é importante observar que se um destinatário foi selecionado de um catálogo de endereços do Exchange, o destinatário também tiver a **PidTagExchangeProfileSectionId** em sua lista de propriedades. 
+Você pode restringir os contêineres em um **PidTagExchangeProfileSectionId** ao exibir o catálogo de endereços. Depois de ter um contêiner aberto, você pode consultar o **emsmdbUID** dele. Também vale a pena observar que, se um destinatário tiver sido selecionado de um catálogo de endereços do Exchange, o destinatário também terá o **PidTagExchangeProfileSectionId** em sua lista de propriedades. 
   
 > [!NOTE]
-> Em toda as amostras de código e cabeçalhos de função, este GUID é conhecido como **emsmdbUID**. 
+> Em todos os exemplos de código e cabeçalhos de função, esse GUID é conhecido como **emsmdbUID**. 
   
-Uma das contas Exchange está marcada como conta legada do Exchange. Geralmente, é a primeira conta adicionada ao perfil. Todas as chamadas para abrir **pbGlobalProfileSectionGuid** é redirecionada para a seção global do Exchange da conta de legado. As chamadas de modelo de objeto que interagem com a conta do Exchange não-herdada também interagem com a conta legada do Exchange. 
+Uma das contas do Exchange é marcada como a conta herdada do Exchange. Normalmente, é a primeira conta adicionada ao perfil. Cada chamada para abrir **pbGlobalProfileSectionGuid** é redirecionada para a seção global do Exchange da conta herdada. As chamadas de modelo de objeto que interagem com a conta não herdada do Exchange também interagem com a conta herdada do Exchange. 
   
-O serviço Exchange herdado tem a propriedade **PR_EMSMDB_LEGACY** (0x3D18000B), que é definido como **true** na tabela de serviços de mensagem. 
+O serviço do Exchange herdado tem a propriedade **PR_EMSMDB_LEGACY** (0x3D18000B), que é definida como **true** na tabela de serviços de mensagem. 
   
-O herdado **emsmdbUID** também é marcada na Global seção perfil do Outlook do perfil como **PidTagExchangeProfileSectionId**. Código escrito para dar suporte a várias contas do Exchange não deve ter que recuperar o herdado **emsmdbUID** porque ele deve obter o correto **emsmdbUID**, dependendo da conta em com que seu código está interagindo.
+O **emsmdbUID** herdado também está marcado na seção perfil global do Outlook do perfil como **PidTagExchangeProfileSectionId**. O código escrito para dar suporte a várias contas do Exchange não deve ter que recuperar o **emsmdbUID** herdado porque deve obter o **emsmdbUID**correto, dependendo da conta com a qual seu código está interagindo.
   
 ## <a name="see-also"></a>Confira também
 
@@ -70,5 +70,5 @@ O herdado **emsmdbUID** também é marcada na Global seção perfil do Outlook d
 [Usar várias contas do Exchange](using-multiple-exchange-accounts.md)
 
 
-[Como abrir a seção perfil Global](https://support.microsoft.com/kb/188482)
+[Como abrir a seção de perfil global](https://support.microsoft.com/kb/188482)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9e36e0d9-a28b-5978-0e23-f76e1bf506b5
 description: Este tópico mostra como ler a estrutura TZREG do formato persistente armazenado na propriedade binária PidLidTimeZoneStruct.
 ms.openlocfilehash: f59251ebc980ca10f4ddce76b34e700bc430540a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317651"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG
 

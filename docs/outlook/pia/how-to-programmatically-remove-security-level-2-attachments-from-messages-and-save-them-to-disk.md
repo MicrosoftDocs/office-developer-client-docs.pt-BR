@@ -1,5 +1,5 @@
 ---
-title: Remover os anexos de nível 2 de segurança de mensagens e salvá-los no disco por programação
+title: Remover programaticamente anexos de nível de segurança 2 das mensagens e salvá-los no disco
 TOCTitle: Programmatically remove security level 2 attachments from messages and save them to disk
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 135f07f4bd3bdc36cee8547106b955b967150df8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320143"
 ---
 # <a name="programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk"></a>Remover os anexos de nível 2 de segurança de mensagens e salvá-los no disco por programação
 
@@ -32,7 +32,7 @@ Usando o método [SaveAsFile(String)](https://msdn.microsoft.com/library/bb62431
 > 
 > Não é possível usar uma instrução **foreach** para remover itens em um conjunto. Em vez disso, use um operador **Index** para obter o primeiro item no conjunto e excluí-lo. Use uma instrução **while** para determinar quando é que você exclui o número apropriado de itens no conjunto. Isso garante que a iteração é feita sobre o número correto de itens no conjunto.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

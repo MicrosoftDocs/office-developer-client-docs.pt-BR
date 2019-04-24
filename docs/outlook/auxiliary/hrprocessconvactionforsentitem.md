@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
 description: Executa a categorização pós-envio em um item de email com base na sua PidTagConversationId.
 ms.openlocfilehash: 675f308093eea30084271abc66c1fa66e2ad6828
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318897"
 ---
 # <a name="hrprocessconvactionforsentitem"></a>HrProcessConvActionForSentItem
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d5d86af111bc778839a78f9b56ba7126e6c973d5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1ea68a7690a93915cd80ad5406c4d71d3a97400
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321438"
 ---
 # <a name="imapimessagesitegetsession"></a>IMAPIMessageSite::GetSession
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567374"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna a sessão MAPI em que a mensagem atual foi criada ou aberta.
+Retorna a sessão MAPI na qual a mensagem atual foi criada ou aberta.
   
 ```cpp
 HRESULT GetSession(
@@ -37,13 +37,13 @@ HRESULT GetSession(
 
  _ppSession_
   
-> [out] Um ponteiro para um ponteiro para o objeto retornado de sessão.
+> bota Um ponteiro para um ponteiro para o objeto Session retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 S_FALSE 
   
@@ -51,15 +51,15 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista das interfaces que estão relacionados aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulários MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa o método **IMAPIMessageSite::GetSession** para retornar o ponteiro de sessão atualmente em cache, se ele estiver disponível.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: GetSession** para retornar o ponteiro de sessão atualmente em cache, se ele estiver disponível.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -68,5 +68,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

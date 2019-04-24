@@ -10,11 +10,11 @@ ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310966"
 ---
 # <a name="excel-commands-functions-and-states"></a>Estados, funções e comandos do Excel
 

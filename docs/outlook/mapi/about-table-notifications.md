@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a42ed1e196e8ac498ab5889b4419ff407db4748
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321837"
 ---
 # <a name="about-table-notifications"></a>Sobre as notificações de tabela
 
@@ -21,21 +21,21 @@ ms.locfileid: "22571938"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes frequentemente dependem de notificações de tabela para saber das alterações aos objetos em vez de registro para receber notificações diretamente a partir de objetos. Alterações comuns que fazer com que as notificações sejam enviadas incluem a adição, exclusão ou modificação de uma linha e quaisquer erros críticos. Quando chegam de notificações, os clientes podem determinar se fazer outra chamada recarregar a tabela. 
+Os clientes freqüentemente dependem de notificações de tabela para aprender as alterações nos objetos em vez de se registrarem para receber notificações diretamente dos objetos. As alterações típicas que fazem com que as notificações sejam enviadas incluem adição, exclusão ou modificação de uma linha e qualquer erro crítico. Quando as notificações chegam, os clientes podem determinar se deseja fazer outra chamada para recarregar a tabela. 
   
-Como as notificações de tabela são assíncronas, existem alguns problemas que podem tornar o tratamento de notificações menores direta:
+Como as notificações de tabela são assíncronas, há alguns problemas que podem tornar as notificações de tratamento menores do que o simples:
   
-- Os dados passados na estrutura de [TABLE_NOTIFICATION](table_notification.md) podem não representar o estado de mais recente da tabela. Por exemplo, um cliente pode fazer uma alteração em uma mensagem e decida excluí-lo. O provedor de armazenamento de mensagem Implementando a tabela de conteúdo que incluem a mensagem envia notificações de duas: um evento TABLE_ROW_MODIFIED seguido de um evento TABLE_ROW_DELETED. Dependendo de como o provedor de armazenamento de mensagem tempo notificações, o cliente pode receber a notificação de TABLE_ROW_MODIFIED após a exclusão da linha. 
+- Os dados passados na estrutura [TABLE_NOTIFICATION](table_notification.md) podem não representar o estado mais atual da tabela. Por exemplo, um cliente pode fazer uma alteração em uma mensagem e, em seguida, decidir excluí-la. O provedor de repositório de mensagens que está implementando a tabela de conteúdo que incluía a mensagem envia duas notificações: um evento TABLE_ROW_MODIFIED seguido por um evento TABLE_ROW_DELETED. Dependendo de como o provedor do repositório de mensagens expira as notificações, o cliente pode receber a notificação TABLE_ROW_MODIFIED após a exclusão da linha. 
     
-- O conjunto incluída com uma notificação de colunas podem ser diferente do conjunto atual de coluna da tabela. MAPI exige que o conjunto de coluna de notificação corresponder ao conjunto de coluna que estava em vigor no momento em que a notificação foi gerada. Porque é possível para um cliente chamar [IMAPITable::SetColumns](imapitable-setcolumns.md) para alterar a coluna definida a qualquer momento — incluindo após uma notificação — os conjuntos de duas colunas não podem ser sincronizados. 
+- O conjunto de colunas incluído com uma notificação pode ser diferente do conjunto de colunas atual da tabela. MAPI exige que o conjunto de colunas de notificação coincida com o conjunto de colunas que estava em vigor no momento em que a notificação foi gerada. Como é possível para um cliente chamar imApitable [::](imapitable-setcolumns.md) SetColumns para alterar o conjunto de colunas a qualquer momento, incluindo após uma notificação, os dois conjuntos de colunas podem não ser sincronizados. 
     
-- Notificações da tabela serão enviadas somente para as linhas que fazem parte do modo de exibição. Ou seja, se uma linha é excluída da exibição devido a uma restrição ou a tabela estiver recolhida, nenhuma notificação será enviada se essa linha for alterado. Além disso, nenhuma notificação é enviadas para informar um cliente sobre uma alteração no estado de categoria.
+- As notificações de tabela são enviadas somente para as linhas que fazem parte do modo de exibição. Ou seja, se uma linha for excluída do modo de exibição devido a uma restrição ou porque a tabela está em um estado recolhido, nenhuma notificação será enviada se essa linha for alterada. Além disso, nenhuma notificação é enviada para informar um cliente sobre uma alteração no estado de categoria.
     
-Clientes devem estar cientes de que nem todas as tabelas suportam a notificação TABLE_SORT_DONE e devem estar preparadas para lidar com essa condição por:
+Os clientes devem estar cientes de que nem todas as tabelas oferecem suporte à notificação TABLE_SORT_DONE e devem estar preparados para lidar com essa condição:
   
-1. Forçando a classificação estão sincronizados.
+1. Forçar a classificação a ser síncrona.
     
-2. Recarregar as linhas da tabela quando [IMAPITable:: SortTable](imapitable-sorttable.md) retorna. 
+2. Recarregar as linhas da tabela quando imApitable [:: SortTable](imapitable-sorttable.md) retorna. 
     
 ## <a name="see-also"></a>Confira também
 

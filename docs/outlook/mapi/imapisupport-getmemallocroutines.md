@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: c3ec99e4e284ca2cdc4fba8fcf53a6c5741594cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316553"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577811"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera os endereços das MAPI memória alocação e desalocação funções ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md)).
+Recupera os endereços das funções de alocação e desalocação de memória MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md)).
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -39,25 +39,25 @@ HRESULT GetMemAllocRoutines(
 
  _lppAllocateBuffer_
   
-> [out] Um ponteiro para um ponteiro para a função **MAPIAllocateBuffer** . **MAPIAllocateBuffer** aloca memória. 
+> bota Um ponteiro para um ponteiro para a função **MAPIAllocateBuffer** . **MAPIAllocateBuffer** aloca memória. 
     
  _lppAllocateMore_
   
-> [out] Um ponteiro para um ponteiro para a função **MAPIAllocateMore** . **MAPIAllocateMore** aloca memória adicional para memória que foi originalmente alocada usando **MAPIAllocateBuffer**.
+> bota Um ponteiro para um ponteiro para a função **MAPIAllocateMore** . **MAPIAllocateMore** aloca memória adicional para a memória que foi originalmente alocada usando o **MAPIAllocateBuffer**.
     
  _lppFreeBuffer_
   
-> [out] Um ponteiro para um ponteiro para a função **MAPIFreeBuffer** . **MAPIFreeBuffer** libera a memória. 
+> bota Um ponteiro para um ponteiro para a função **MAPIFreeBuffer** . **MAPIFreeBuffer** libera memória. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Os endereços de função foram retornados com êxito.
+> Os endereços da função foram retornados com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::GetMemAllocRoutines** é implementado para todos os objetos de suporte. Provedores de serviços de chamarem **GetMemAllocRoutines** para obter os endereços das funções de alocação de três memória que são passados para as suas funções de inicialização ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
+O método **IMAPISupport:: GetMemAllocRoutines** é implementado para todos os objetos de suporte. Os provedores de serviços chamam o **GetMemAllocRoutines** para obter os endereços das três funções de alocação de memória que são passadas para a função de inicialização ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
   
 ## <a name="see-also"></a>Confira também
 

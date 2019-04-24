@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 74adbf02180e0e993b22e35481f51d304b14e7d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320080"
 ---
 # <a name="get-the-smtp-address-of-the-sender-of-a-mail-item"></a>Obter o endereço SMTP do remetente de uma mensagem
 
@@ -24,7 +24,7 @@ Para determinar o endereço SMTP de um item de email recebido, use a propriedade
 
 No exemplo de código a seguir, GetSenderSMTPAddress usa o objeto **PropertyAccessor** para obter valores que não são expostos diretamente no modelo de objeto do Outlook. GetSenderSMTPAddress leva um **MailItem**. Se o valor da propriedade [SenderEmailType](https://msdn.microsoft.com/library/bb624136\(v=office.15\)) do **MailItem** recebido for "EX", o remetente da mensagem está localizado em um servidor do Exchange na sua organização. GetSenderSMTPAddress usa a propriedade [Sender](https://msdn.microsoft.com/library/ff184720\(v=office.15\)) do objeto **MailItem** para obter o remetente, representado pelo objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)). Se o objeto **AddressEntry** objeto representa um usuário do Exchange, o exemplo chama o método [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) para retornar o objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) do objeto **AddressEntry**. GetSenderSMTPAddress usa a propriedade [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)) do objeto **ExchangeUser** para retornar o endereço SMTP do remetente. Se o objeto **AddressEntry** do remetente não representa um objeto **ExchangeUser**, o método [GetProperty(String)](https://msdn.microsoft.com/library/bb645726\(v=office.15\)) do objeto **PropertyAccessor** é usado, com **PR\_SMTP\_ADDRESS** ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) como argumento, para retornar o endereço do SMTP do remetente.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

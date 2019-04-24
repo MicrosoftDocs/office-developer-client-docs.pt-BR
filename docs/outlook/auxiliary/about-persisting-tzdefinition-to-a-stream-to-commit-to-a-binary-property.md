@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0dec535d-d48f-39a5-97d5-0bd109134b3b
 description: As propriedades de fuso horário, PidLidAppointmentTimeZoneDefinitionEndDisplay, PidLidAppointmentTimeZoneDefinitionRecur e PidLidAppointmentTimeZoneDefinitionStartDisplay são propriedades nomeadas como binárias, cada uma contem um fluxo de mapas para o formato persistente de uma estrutura TZDEFINITION.
 ms.openlocfilehash: f94b751a55aa852c962eebe5d46968e9e622e315
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316972"
 ---
 # <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3dcaee26-391c-0494-4380-890ee825dc47
 description: Ajusta ou corrige a intensidade de uma imagem para um determinado dispositivo de saída, como um monitor ou scanner. O valor padrão é 1 (sem correção).
-ms.openlocfilehash: 060cb02aa8fd33e5a6c70a2c0236f16b9552aea0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d00eb11ff1feffacf0d758bb25cdd56281e91327
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315201"
 ---
 # <a name="gamma-cell-image-properties-section"></a>Célula Gamma (Seção Image Properties)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Gamma pelo nome, a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Gamma  <br/> |
+| Nome da célula:  <br/> | Gama  <br/> |
    
 Para fazer referência à célula Gamma pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

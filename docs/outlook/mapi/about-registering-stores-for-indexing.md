@@ -1,5 +1,5 @@
 ---
-title: Sobre como registrar repositórios para indexação
+title: Sobre o registro de repositórios para indexação
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,66 +7,66 @@ localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321823"
 ---
-# <a name="about-registering-stores-for-indexing"></a>Sobre como registrar repositórios para indexação
+# <a name="about-registering-stores-for-indexing"></a>Sobre o registro de repositórios para indexação
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico é específico para a pesquisa instantânea no Microsoft Office Outlook 2007.
+Este tópico é específico para pesquisa instantânea no Microsoft Office Outlook 2007.
   
-Pesquisa instantânea permite localizar rapidamente os itens no Outlook. Ele usa os componentes do Windows Desktop Search.
+A pesquisa instantânea permite que você encontre itens rapidamente no Outlook. Ele usa componentes da pesquisa do Windows desktop.
   
-O manipulador de protocolo MAPI verifica o registro do Windows para repositórios que ele deve indexar para fins de pesquisa. Provedores de armazenamento que devem ser indexados devem ser registrados no registro do Windows.
+O manipulador de protocolo MAPI verifica o registro do Windows em busca de armazenamentos que ele deve indexar para fins de pesquisa. Os provedores de repositórios que desejam ser indexados devem ser registrados no registro do Windows.
   
-Por padrão, o Windows Desktop Search adiciona os seguintes quatro tipos de provedores de armazenamento no registro do Windows para permitir a indexação:
+Por padrão, o Windows Desktop Search adiciona os quatro tipos de provedores de repositório a seguir ao registro do Windows para permitir a indexação:
   
-- Repositório de arquivos de pastas particulares (. PST).
+- Armazenar para arquivos de pastas particulares (. PST).
     
--  Repositório do Microsoft Exchange, incluindo quaisquer arquivos de pasta Offline (. ost). 
+-  Repositório do Microsoft Exchange, incluindo qualquer arquivo de pasta offline (. ost). 
     
--  Repositório para pastas públicas. 
+-  Armazenar para pastas públicas. 
     
--  Repositório para o Microsoft Office Outlook Connector para MSN. 
+-  Store para o Microsoft Office Outlook Connector para MSN. 
     
- Provedores de armazenamento de terceiros que devem ser indexados devem ser registrados no registro do Windows. 
+ Provedores de repositório de terceiros que desejam ser indexados devem se registrar no registro do Windows. 
   
 > [!NOTE]
-> Os administradores e usuários podem usar uma configuração de diretiva de grupo para impedir a indexação de itens do Outlook do Windows Desktop Search. Para obter mais informações, consulte [Estendendo o Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Administradores e usuários podem usar uma configuração de política de grupo para impedir que o Windows Desktop Search Pesquise itens do Outlook de indexação. Para obter mais informações, consulte esTendendo o [Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Chaves do registro
 
-Em um computador, todos os provedores de armazenamento que devem ser indexados devem ser registrados em apenas um dos seguintes chaves de registro de três no registro do Windows. O manipulador de protocolo MAPI procura sob cada uma dessas chaves na seguinte ordem:
+Em um computador, todos os provedores de repositórios que desejam ser indexados devem ser registrados em apenas uma destas três chaves do registro no registro do Windows. O manipulador de protocolo MAPI examina cada uma destas chaves na seguinte ordem:
   
-1. \Software\Policies\Microsoft\Windows\Windows Search\ [HKLM]
+1. [HKLM] pesquisa do \Software\Policies\Microsoft\Windows\Windows
     
-2. \Software\Microsoft\Windows\Windows Search\Preferences\ [HKLM]
+2. [HKLM] \Software\Microsoft\Windows\Windows Search\Preferences\
     
-3. \Software\Microsoft\Windows\Windows Search\Preferences\ [HKCU]
+3. [HKCU] \Software\Microsoft\Windows\Windows Search\Preferences\
     
- Cada valor na chave corresponde a um provedor de repositório que seria indexado. O nome do valor é o identificador global exclusivo (GUID) o provedor de armazenamento, que é do tipo **DWORD** e tem o valor hexadecimal 0x00000001. 
+ Cada valor abaixo da chave corresponde a um provedor de armazenamento que seria indexado. O nome do valor é o identificador global exclusivo (GUID) do provedor de repositório, que é do tipo **DWORD** e tem o valor hexadecimal 0x00000001. 
   
-## <a name="guids-for-store-providers"></a>GUIDs de provedores de armazenamento
+## <a name="guids-for-store-providers"></a>GUIDs para provedores de repositório
 
-A propriedade MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** Especifica o GUID de um repositório MAPI. Os GUIDs para os provedores de armazenamento que os índices do Outlook estão descritos na tabela a seguir. 
+A propriedade MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** especifica o GUID de um repositório MAPI. Os GUIDs dos provedores de repositório que o Outlook indexa são descritos na tabela a seguir. 
   
 ||||
 |:-----|:-----|:-----|
-|**Tipo de provedor de armazenamento** <br/> |**GUID** <br/> |**Notes** <br/> |
-|Arquivos de pastas particulares (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID documentada a mspst.h do arquivo de cabeçalho público como **MSPST_UID_PROVIDER** <br/> |
-|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID documentada o arquivo de cabeçalho público Edkmdb. h como **pbExchangeProviderPrimaryUserGuid** <br/> |
-|Pastas públicas  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |GUID documentada o arquivo de cabeçalho público Edkmdb. h como **pbExchangeProviderPublicGuid** <br/> |
-|O Outlook Connector para MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Nenhum  <br/> |
+|**Tipo de provedor de repositório** <br/> |**GUID** <br/> |**Anotações** <br/> |
+|Arquivos de pastas particulares (. PST  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID está documentado no arquivo de cabeçalho público mspst. h as **MSPST_UID_PROVIDER** <br/> |
+|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID está documentado no arquivo de cabeçalho público edkmdb. h as **pbExchangeProviderPrimaryUserGuid** <br/> |
+|Pastas públicas  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |GUID está documentado no arquivo de cabeçalho público edkmdb. h as **pbExchangeProviderPublicGuid** <br/> |
+|Outlook Connector para MSN  <br/> |{c34f5c97-eb05-bb4b-B199-2a7570ec7cf9}  <br/> |Nenhum  <br/> |
    
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 
 
-[Sobre a API de armazenamento](about-the-store-api.md)
+[Sobre a API de Armazenamento](about-the-store-api.md)
 

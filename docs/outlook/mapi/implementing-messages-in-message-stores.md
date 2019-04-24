@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: df5003d5-cbfe-40b2-a481-e2e11dce4b3e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 1d68a5258739a8952df97ddceb07ebe6d9c8d2d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 223dfa2ac990875e98e876ab491bf09caf63e874
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310091"
 ---
 # <a name="implementing-messages-in-message-stores"></a>Implementar mensagens em repositórios de mensagens
 
@@ -21,11 +21,11 @@ ms.locfileid: "22568124"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O [IMessage: IMAPIProp](imessageimapiprop.md) interface é semelhante do [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) interface nessa derivam de ambas as interfaces do [IMAPIProp: IUnknown](imapipropiunknown.md) interface. Clientes usam os métodos **IMAPIProp** para acessar o conteúdo de uma mensagem. A interface **IMessage** fornece métodos adicionais para a manipulação de mensagens (por exemplo, a adição de anexos ou modificar os destinatários de uma mensagem). Os métodos na interface do **IMessage** modificam atributos de mensagens que não são armazenadas diretamente nas propriedades da mensagem. 
+A interface [IMessage: IMAPIProp](imessageimapiprop.md) é semelhante à interface [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) em que ambas as interfaces derivam da interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Os clientes usam os métodos **IMAPIProp** para acessar o conteúdo de uma mensagem. A interface **IMessage** fornece métodos adicionais para a manipulação de mensagens (por exemplo, adição de anexos ou modificação dos destinatários de uma mensagem). Os métodos na interface **IMessage** modificam atributos de mensagens que não são armazenadas diretamente nas propriedades da mensagem. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

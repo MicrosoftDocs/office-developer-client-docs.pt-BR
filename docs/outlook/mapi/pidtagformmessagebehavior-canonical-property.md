@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8bfb7e5af2e2e5e1a51225dc1cf20baf897752c1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316209"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Propriedade canônica PidTagFormMessageBehavior
 
@@ -25,30 +25,30 @@ ms.locfileid: "22580415"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se uma mensagem deve ser composta na pasta atual. 
+Contém TRUE se uma mensagem deve ser composta na pasta atual. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |Identificador:  <br/> |0x330A  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um valor FALSE indica que a mensagem deve ser composta como qualquer outra mensagem interpessoais, ou seja, na pasta caixa de saída. 
+Um valor FALSE indica que a mensagem deve ser composta como qualquer outra mensagem interpessoal, ou seja, na pasta de saída. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

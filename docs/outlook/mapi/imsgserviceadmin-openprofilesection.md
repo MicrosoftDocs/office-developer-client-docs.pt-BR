@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f24910a-e14e-44a1-8477-d8968130ba74
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8dfa777480af48819e5357fad9b1e7524148a8b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 32ebdea3a594b5adf5d46dc081098d3628ae145b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317386"
 ---
 # <a name="imsgserviceadminopenprofilesection"></a>IMsgServiceAdmin::OpenProfileSection
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568809"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre uma seção do perfil atual e retorna um ponteiro de [IProfSect](iprofsectimapiprop.md) para obter mais acesso. 
+Abre uma seção do perfil atual e retorna um ponteiro [IProfSect](iprofsectimapiprop.md) para obter mais acesso. 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -44,63 +44,63 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar a seção de perfil. Passagem nula resulta em um ponteiro para sua interface padrão que está sendo retornada no parâmetro _lppProfSect_ . A interface padrão para uma seção de perfil é **IProfSect**.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a seção de perfil. Passar resultados nulos em um ponteiro para a interface padrão que está sendo retornada no parâmetro _lppProfSect_ . A interface padrão para uma seção de perfil é **IProfSect**.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o acesso à seção de perfil. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla o acesso à seção de perfil. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **OpenProfileSection** retornar com êxito, possivelmente antes que o perfil seção é totalmente disponível para o cliente da chamada. Se o perfil da seção não estiver disponível, fazendo uma chamada subsequente a ele pode gerar um erro. 
+> Permite que o **OpenProfileSection** seja retornado com êxito, possivelmente antes que a seção de perfil esteja totalmente disponível para o cliente de chamada. Se a seção de perfil não estiver disponível, fazer uma chamada subsequente para ela poderá gerar um erro. 
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. Por padrão, seções de perfil são abertas com permissão somente leitura e os clientes não devem funcionar no pressuposto de que você recebeu permissão de leitura/gravação. 
+> Solicita permissão de leitura/gravação. Por padrão, as seções de perfil são abertas com permissão somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida. 
     
 MAPI_FORCE_ACCESS
   
-> Permite o acesso a todas as seções de perfil, mesmo aqueles pertencentes a provedores de serviços individuais.
+> Permite o acesso a todas as seções de perfil, mesmo aquelas pertencentes a provedores de serviços individuais.
     
  _lppProfSect_
   
-> [out] Um ponteiro para um ponteiro para a seção de perfil.
+> bota Um ponteiro para um ponteiro para a seção de perfil.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Seção perfil tiver sido aberta com êxito.
+> A seção de perfil foi aberta com êxito.
     
 MAPI_E_NO_ACCESS 
   
-> Foi feita uma tentativa de acessar uma seção de perfil para o qual o chamador tem permissões insuficientes.
+> Foi feita uma tentativa de acessar uma seção de perfil para a qual o chamador tem permissões insuficientes.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
 > A seção de perfil solicitada não existe.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::OpenProfileSection** abre uma seção de perfil, um objeto que dá suporte à interface [IProfSect](iprofsectimapiprop.md) . As seções de perfil são usadas para ler informações do e gravando informações do perfil da sessão. 
+O método **IMsgServiceAdmin:: OpenProfileSection** abre uma seção de perfil, um objeto que dá suporte à interface [IProfSect](iprofsectimapiprop.md) . Seções de perfil são usadas para ler informações de e gravar informações no perfil de sessão. 
   
- **OpenProfileSection** não pode ser usado para abrir seções perfil pertencentes a provedores de serviços individuais, a menos que MAPI_FORCE_ACCESS é usado. 
+ **OpenProfileSection** não pode ser usado para abrir seções de perfil pertencentes a provedores de serviço individuais, a menos que o MAPI_FORCE_ACCESS seja usado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Vários clientes podem abrir uma seção de perfil com permissão somente leitura, mas apenas um cliente pode abrir uma seção de perfil com permissão de leitura/gravação. Se outro cliente tiver uma seção de perfil abra se você tenta abrir chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY definido, a chamada irá falhar, retornando MAPI_E_NO_ACCESS. 
+Vários clientes podem abrir uma seção de perfil com permissão somente leitura, mas apenas um cliente pode abrir uma seção de perfil com permissão de leitura/gravação. Se outro cliente tiver uma seção de perfil aberta que você tentar abrir chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY definido, a chamada falhará, retornando MAPI_E_NO_ACCESS. 
   
-Uma operação de abertura somente leitura falhará se a seção está aberta para gravação. 
+Uma operação de abertura somente leitura falhará se a seção estiver aberta para gravação. 
   
-Você pode criar uma seção de perfil chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY e uma estrutura [MAPIUID](mapiuid.md) inexistente no parâmetro _lpUID_ . Certifique-se de que você especificar MAPI_MODIFY. Se você definir _lpUID_ para apontar para um inexistente **MAPIUID** e **OpenProfileSection** está definido para usar o modo de padrão de acesso de somente leitura, a chamada irá falhar com MAPI_E_NOT_FOUND. 
+Você pode criar uma seção de perfil chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY e uma estrutura [MAPIUID](mapiuid.md) inexistente no parâmetro _lpUID_ . Certifique-se de especificar MAPI_MODIFY. Se você definir _lpUID_ para apontar para um **MAPIUID** não existente e o **OpenProfileSection** estiver definido para usar o modo de acesso padrão de somente leitura, a chamada falhará com o MAPI_E_NOT_FOUND. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::OpenProfileSection** para abrir uma seção de perfil.  <br/> |
+|MAPIProfileFunctions. cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa o método **IMsgServiceAdmin:: OpenProfileSection** para abrir uma seção de perfil.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -117,5 +117,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

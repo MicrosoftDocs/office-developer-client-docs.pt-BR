@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3bc475292e47a9ad8dd9565e17640ef95e7b3c76
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316678"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Propriedade canônica PidLidTaskStartDate
 
@@ -25,7 +25,7 @@ ms.locfileid: "25383524"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A data quando o usuário espera para começar a tarefa.
+A data em que o usuário espera iniciar a tarefa.
   
 |||
 |:-----|:-----|
@@ -33,29 +33,29 @@ A data quando o usuário espera para começar a tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008104  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se o valor dessa propriedade for deixado não definida, a tarefa não tem uma data de início. Um valor igual a "0x5AE980E0" (1,525,252,320) também significa que a tarefa não possui uma data de início. Se a tarefa tiver uma data de início, o valor deve ter um componente de hora de meia-noite e as propriedades de **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) e o **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) também devem ser definidas.
+Se o valor dessa propriedade for Left undelete, a tarefa não terá uma data de início. Um valor de "0x5AE980E0" (1.525.252.320) também significa que a tarefa não tem uma data de início. Se a tarefa tiver uma data de início, o valor deverá ter um componente de hora da meia-noite e as propriedades **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) e **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) também deverão ser definidas.
   
-Essa propriedade é compartilhada pela especificação do protocolo de sinalização informativos e especificação de protocolo do objeto Task-Related localizados em [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Essa propriedade é compartilhada pela especificação de protocolo de sinalização inFormativa e de protocolo de objeto relacionado à tarefa localizada em [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em contatos e listas de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas em contatos e listas de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,16 +63,16 @@ Mapidefs.h
 
 
 
-[Propriedade canônica PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
+[Propriedade can�nico de PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
   
-[Propriedade canônica PidLidCommonStart](pidlidcommonstart-canonical-property.md)
+[Propriedade can�nico de PidLidCommonStart](pidlidcommonstart-canonical-property.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlfSetName
 keywords:
-- função xlfSetName [excel 2007]
+- função xlfSetName [Excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 48ce927f6bcb328a90779948a660cf9d0b460205
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310273"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para criar e excluir nomes definidos associados a DLL.
+Usado para criar e excluir nomes definidos associados à DLL.
   
 ```cs
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
@@ -32,27 +32,27 @@ Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNam
 
 _pxNameText_ (**xltypeStr**)
   
-O nome do intervalo, que deve se adequar às limitações usuais no Microsoft Excel sobre nomes válidos.
+O nome do intervalo, que deve estar em conformidade com as limitações normais no Microsoft Excel em nomes válidos.
   
 _pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**ou **xltypeInt**)
   
-(Opcional). O valor, o conjunto de valores, célula ou intervalo de células que _pxNameText_ é definido como. Se for omitido, o nome é excluído. 
+(Opcional). O valor, o conjunto de valores, a célula ou o intervalo de células que o _pxNameText_ está definido como. Se for omitido, o nome será excluído. 
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 _pxRes_ (**xltypeBool** ou **xltypeErr**)
   
-TRUE se a operação foi bem-sucedida ou FALSE se o nome não pôde ser criado ou excluído. Retorna #VALUE! Se um ou mais dos argumentos eram inválida.
+TRUE se a operação foi bem-sucedida ou FALSE se o nome não pôde ser criado ou excluído. Retorna #VALUE! se um ou mais argumentos forem inválidos.
   
 ## <a name="remarks"></a>Comentários
 
-Quando um comando ou uma função é registrado usando **xlfRegister** com um argumento válido _pxFunctionText_ , o Excel criará um nome associado a DLL de recurso. Quando sua DLL está sendo descarregado, tais nomes devem ser excluídos usando a [função xlfSetName](xlfsetname.md). No entanto, devido a um problema conhecido no Excel, essa operação de exclusão falhar. Para obter mais informações, consulte [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
+Quando um comando ou função é registrado usando **xlfRegister** com um argumento _pxFunctionText_ válido, o Excel cria um nome associado ao recurso dll. Quando sua DLL estiver sendo descarregada, esses nomes devem ser excluídos usando a [função xlfSetName](xlfsetname.md). No enTanto, devido a um problema conhecido no Excel, essa operação de exclusão falha. Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Exemplo
 
-Ver o código para a função **xlAutoClose** em `\SAMPLES\GENERIC\GENERIC.C`.
+Consulte o código para a função **xlAutoClose** no `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## <a name="see-also"></a>Confira também
 
-- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API C](essential-and-useful-c-api-xlm-functions.md)
 

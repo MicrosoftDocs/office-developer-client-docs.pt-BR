@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Determina a atribuição de texto de um grupo.
-ms.openlocfilehash: 65baf90254f6b213efea04739d8e4a66952b2856
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314914"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>Célula IsTextEditTarget (Seção Group Properties)
 
@@ -22,8 +22,8 @@ Determina a atribuição de texto de um grupo.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O texto é adicionado à forma do grupo.  <br/> |
-|FALSO  <br/> |O texto é adicionado à forma do grupo no início da ordem de empilhamento.  <br/> |
+|TRUE  <br/> |O texto é adicionado à forma do grupo.  <br/> |
+|FALSE  <br/> |O texto é adicionado à forma do grupo no início da ordem de empilhamento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

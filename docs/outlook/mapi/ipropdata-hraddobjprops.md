@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ae0d6d58f96738a9686dbdda86336c040c2e2f68
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: df63f08d3d453575816c4f7ab043f802023e21d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315530"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
@@ -34,15 +34,15 @@ HRESULT HrAddObjProps(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpPropTagArray_
   
-> [in] Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades para adicionar.
+> no Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades a serem adicionadas.
     
  _lppProblems_
   
-> [além, out] Na entrada, um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) , válido ou nulo. Na saída, um ponteiro para um ponteiro para uma estrutura que contém informações sobre propriedades não puderam ser adicionados ou nulo. Um ponteiro para uma estrutura de matriz de problema de propriedade será retornado somente se um ponteiro válido é transmitido em. 
+> [in, out] Na entrada, um ponteiro válido para uma estrutura [SPropProblemArray](spropproblemarray.md) ou nulo. Na saída, um ponteiro para um ponteiro para uma estrutura que contém informações sobre propriedades que não puderam ser adicionadas ou nulos. Um ponteiro para uma estrutura de conjunto de problemas de propriedade é retornado somente se um ponteiro válido é passado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,25 +52,25 @@ S_OK
     
 MAPI_E_INVALID_TYPE 
   
-> Uma propriedade digite diferente de PT_OBJECT foi passado na matriz que o parâmetro _lpPropTagArray_ aponta para. 
+> Um tipo de propriedade diferente de PT_OBJECT foi passado na matriz à qual o parâmetro _lpPropTagArray_ aponta. 
     
 MAPI_E_NO_ACCESS 
   
-> O objeto tiver sido definido para não permitir a permissão de leitura/gravação.
+> O objeto foi definido para não permitir permissão de leitura/gravação.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> Alguns, mas não todos, das propriedades foram adicionados.
+> Algumas das propriedades foram adicionadas, mas não todas.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IPropData::HrAddObjProps** adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto. **HrAddObjProps** oferece uma alternativa ao método [IMAPIProp::SetProps](imapiprop-setprops.md) para propriedades de objeto, porque as propriedades de objeto não podem ser criadas chamando **SetProps**. Adicionando um resultado de propriedade do objeto na marca de propriedade sejam incluída na lista de marcas de propriedade que o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) retorna. 
+O método **IPropData:: HrAddObjProps** adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto. **HrAddObjProps** fornece uma alternativa para o método [IMAPIProp::](imapiprop-setprops.md) SetProps para propriedades de objeto, pois as propriedades do objeto não podem **** ser criadas chamando SetProps. Adicionar uma propriedade de objeto resulta na marca de propriedade que está sendo incluída na lista de marcas de propriedade que o método [IMAPIProp::](imapiprop-getproplist.md) getproplist retorna. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se **HrAddObjProps** retorna MAPI_W_PARTIAL_COMPLETION e você tiver definido _lppProblems_ como um ponteiro válido, verifique a estrutura [SPropProblemArray](spropproblemarray.md) retornada para descobrir quais propriedades não foram adicionadas. Geralmente, o único problema ocorre é falta de memória. Libere a estrutura **SPropProblemArray** chamando-se a função [MAPIFreeBuffer](mapifreebuffer.md) quando terminar com ele. 
+Se **HrAddObjProps** retornar MAPI_W_PARTIAL_COMPLETION e você tiver definido _lppProblems_ para um ponteiro válido, verifique a estrutura [SPropProblemArray](spropproblemarray.md) retornada para descobrir quais propriedades não foram adicionadas. Normalmente, o único problema que ocorre é falta de memória. Libere a estrutura **SPropProblemArray** chamando a função [MAPIFreeBuffer](mapifreebuffer.md) quando tiver concluído. 
   
-Para adicionar uma propriedade, o objeto de destino deve ter permissão de leitura/gravação. Se **HrAddObjProps** retornar MAPI_E_NO_ACCESS, você não pode adicionar propriedades para o objeto porque não permite a modificação. Para obter a permissão de leitura/gravação para um objeto antes de chamar **HrAddObjProps**, chame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) e defina o parâmetro _ulAccess_ como IPROP_READWRITE. 
+Para adicionar uma propriedade, o objeto de destino deve ter permissão de leitura/gravação. Se **HrAddObjProps** retornar MAPI_E_NO_ACCESS, você não poderá adicionar propriedades ao objeto porque ele não permite modificações. Para obter permissão de leitura/gravação para um objeto antes de chamar **HrAddObjProps**, chame [IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md) e defina o parâmetro _ulAccess_ como IPROP_READWRITE. 
   
 ## <a name="see-also"></a>Confira também
 

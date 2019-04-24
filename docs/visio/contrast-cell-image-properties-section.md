@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0e4c644-c646-9649-c697-82feb02f5e29
 description: Ajusta o contraste de uma imagem de bitmap. Diminua o contraste de uma imagem inserindo um valor entre 0% e 49% ou aumente o contraste inserindo um valor entre 51% e 100%. O valor padrão é 50%.
-ms.openlocfilehash: 74a82fd9be49fcb9126c2b52bfcf25e0deb0e782
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0a27090ea1ec96bf11726ae641ff918dd581e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319016"
 ---
 # <a name="contrast-cell-image-properties-section"></a>Célula Contrast (Seção Image Properties)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Contrast pelo nome, a partir de outra fórmula
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Contrast  <br/> |
+| Nome da célula:  <br/> | Contraste  <br/> |
    
 Para fazer referência à célula Contrast pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

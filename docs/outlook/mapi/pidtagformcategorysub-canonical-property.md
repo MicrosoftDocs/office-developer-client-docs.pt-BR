@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0e654152-c850-417a-8877-29d47cf85db5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 679e19b5c791125fee10454dcec457d6776d7736
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b15cd27f6852f28e9dac113f6c45942de40ebbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316265"
 ---
 # <a name="pidtagformcategorysub-canonical-property"></a>Propriedade canônica PidTagFormCategorySub
 
@@ -32,23 +32,23 @@ Contém a subcategoria de um formulário, conforme definido por um aplicativo cl
 |Propriedades associadas:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Identificador:  <br/> |0x3305  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são subordinadas à categoria formulário principal que é fornecida na propriedade **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
+Essas propriedades são subordinadas à categoria de formulário principal que é fornecida na propriedade **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Definições constantes declarações de interface MAPI e identificadores de classe e interface usados pelo APIs MAPI.
 ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318918"
 ---
 # <a name="mapi-constants"></a>Constantes de MAPI
 
@@ -266,7 +266,7 @@ const MAPIUID g_muidProvPrvNST =
 |MDB_OST_LOGON_UNICODE  <br/> |((ULONG) 0X00000800)  <br/> |
 |MDB_OST_LOGON_ANSI  <br/> |((ULONG) 0X00001000)  <br/> |
 |SHOW_SOFT_DELETES  <br/> |((ULONG) 0X00000002)  <br/> |
-|SS_ACTIVE  <br/> |0  <br/> |
+|SS_ACTIVE  <br/> |,0  <br/> |
 |SS_SUSPENDED  <br/> |1  <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |

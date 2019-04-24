@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 43052e57-4712-410a-eb07-2a7c5bc124bd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5f80b67caa803c5e89de6cd74baaebd3a9f2b2a5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 387a7bdf2939f9ec618b0e86eeb00f3fddc9caa2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309685"
 ---
 # <a name="ipstx5--ipstx4"></a>IPSTX5 : IPSTX4
 
@@ -25,18 +25,18 @@ ms.locfileid: "22591384"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa interface fornece funcionalidade de auxiliares ao executar uma replicação por meio da interface IOSTX.
+Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface IOSTX.
   
 |||
 |:-----|:-----|
-|Fornecido pelo  <br/> |Consulta em [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Fornecido por  <br/> |Consulta no [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interface:  <br/> |IID_IPSTX5  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -44,5 +44,5 @@ Essa interface fornece funcionalidade de auxiliares ao executar uma replicação
 
 [Sobre a API de replicação](about-the-replication-api.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

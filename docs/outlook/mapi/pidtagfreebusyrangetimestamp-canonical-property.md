@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 24c3369d1d6db4977d26e4d31678a4f2cc5808a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316174"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propriedade canônica PidTagFreeBusyRangeTimestamp
 
@@ -25,26 +25,26 @@ ms.locfileid: "25399799"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a hora quando os dados foi publicados.
+Contém a hora em que os dados foram publicados.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FREEBUSY_RANGE_TIMESTAMP  <br/> |
 |Identificador:  <br/> |0x6868  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Informações de disponibilidade  <br/> |
+|Área:  <br/> |Disponibilidade  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é o número de minutos desde a meia-noite, 1 de janeiro de 1601 no tempo Universal Coordenado (UTC).
+Esta propriedade é o número de minutos desde a meia-noite, 1º de janeiro de 1601 em tempo universal coordenado (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -52,13 +52,13 @@ Essa propriedade é o número de minutos desde a meia-noite, 1 de janeiro de 160
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

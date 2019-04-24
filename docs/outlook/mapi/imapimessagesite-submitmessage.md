@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 587b8bbb7ac25a7977d8962535f1909464ffc248
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 496732e334d2d39672048dd1a02346aaee4b70e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321403"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571098"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Solicita que a mensagem atual ser colocados na fila de entrega.
+Solicita que a mensagem atual seja enfileirada para entrega.
   
 ```cpp
 HRESULT SubmitMessage(
@@ -37,31 +37,31 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como uma mensagem é enviada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controlam como uma mensagem é enviada. O seguinte sinalizador pode ser definido:
     
 FORCE_SUBMIT 
   
-> MAPI deve enviar a mensagem, mesmo que não podem ser enviado imediatamente.
+> O MAPI deve enviar a mensagem mesmo que ela não possa ser enviada imediatamente.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método de **IMAPIMessageSite::SubmitMessage** para solicitar que uma mensagem ser colocados na fila de entrega. O site de mensagem deve chamar o método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar a mensagem. A mensagem não precisa tenha sido salva anteriormente, porque **SubmitMessage** deve fazer com que a mensagem a ser salvo se a mensagem tiver sido modificada. Após o retorno de **SubmitMessage**, o formulário deve verificar se há uma mensagem atual e, em seguida, descartar a próprio se não houver nenhum. 
+Os objetos Form chamam o método **IMAPIMessageSite:: SubmitMessage** para solicitar que uma mensagem seja enfileirada para entrega. O site de mensagens deve chamar o método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar a mensagem. A mensagem não precisa ter sido salva anteriormente porque **SubmitMessage** deve fazer com que a mensagem seja salva se a mensagem tiver sido modificada. Após o retorno de **SubmitMessage**, o formulário deve verificar uma mensagem atual e, em seguida, se descartar, se não houver nenhuma. 
   
-Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI usa o método **IMAPIMessageSite::SubmitMessage** para salvar a mensagem. Primeiro, ele chama o método **IPersistMessage::HandsOffMessage** e, em seguida, ele chama **SubmitMessage**.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: SubmitMessage** para salvar a mensagem. Primeiro, ele chama o método **IPersistMessage:: HandsOffMessage** e, em seguida, chama **SubmitMessage**.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -72,7 +72,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulário MAPI](mapi-form-interfaces.md)
 

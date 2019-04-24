@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: babff746af16d51ca154d049943f6be7e9fab589
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321686"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567710"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para o conjunto completo de verbos que usa um formulário.
+Retorna um ponteiro para o conjunto completo de verbos que um formulário usa.
   
 ```cpp
 HRESULT CalcVerbSet(
@@ -38,37 +38,37 @@ HRESULT CalcVerbSet(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo de cadeias de caracteres retornada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _ppMAPIVerbArray_
   
-> [out] Um ponteiro para um ponteiro para a estrutura [SMAPIVerbArray](smapiverbarray.md) retornado que contém os verbos do formulário. 
+> bota Um ponteiro para um ponteiro para a estrutura [SMAPIVerbArray](smapiverbarray.md) retornada que contém os verbos do formulário. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Aplicativos cliente chamam o método **IMAPIFormInfo::CalcVerbSet** para obter um ponteiro para o conjunto de verbos usado por um formulário. Na estrutura de **SMAPIVerbArray** retornada no parâmetro _ppMAPIVerbArray_ , os verbos são retornados em ordem de número de índice; índice da cada verbo é encontrado na sua lista de membros **lVerb** . Aplicativos cliente podem usar a matriz de verbo para dinamicamente construir menus, ocultar ou Mostrar botões e assim por diante. 
+Os aplicativos cliente chamam o método **IMAPIFormInfo:: CalcVerbSet** para obter um ponteiro para o conjunto de verbos usados por um formulário. Na estrutura **SMAPIVerbArray** retornada no parâmetro _ppMAPIVerbArray_ , os verbos são retornados em ordem de número de índice; cada índice de verbo é encontrado no seu membro **lVerb** . Os aplicativos cliente podem usar a matriz de verbo para criar menus dinamicamente, ocultar ou Mostrar botões e assim por diante. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o método de **IMAPIFormInfo::CalcVerbSet** ao gravar a saída de depuração para os objetos de informações do formulário.  <br/> |
+|MFCOutput. cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o método **IMAPIFormInfo:: CalcVerbSet** durante a gravação da saída de depuração para objetos de informações de formulário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -79,5 +79,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

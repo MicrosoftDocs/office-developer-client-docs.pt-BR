@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1c00e54d02ba494c94c9826eabe142e1bd3b9a80
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c5305ddd20b690f5c2e5807fb7ce2410549f7124
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317245"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
@@ -25,37 +25,37 @@ ms.locfileid: "22579624"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso a um provedor de armazenamento de mensagens por meio de um objeto de provedor de armazenamento de mensagem. Este objeto de provedor de armazenamento de mensagens é retornado no logon do provedor por função de ponto de entrada do provedor de repositório a mensagem [MSProviderInit](msproviderinit.md) . O objeto de provedor de armazenamento de mensagem é usado principalmente pelos aplicativos cliente e o MAPI spooler para abrir armazenamentos de mensagem. 
+Fornece acesso a um provedor de repositório de mensagens por meio de um objeto do provedor de repositório de mensagens. Este objeto do provedor de repositório de mensagens é retornado no logon do provedor pela função de ponto de entrada do provedor do repositório de mensagens [MSProviderInit](msproviderinit.md) . O objeto do provedor de repositório de mensagens é usado principalmente por aplicativos cliente e o spooler MAPI para abrir repositórios de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Expostos pelo:  <br/> |Objetos do provedor de repositório de mensagem  <br/> |
-|Implementada por:  <br/> |Provedores de armazenamento de mensagem  <br/> |
-|Chamado pelo:  <br/> |O MAPI spooler e MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Exposto por:  <br/> |Objetos do provedor do repositório de mensagens  <br/> |
+|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
+|Chamado por:  <br/> |MAPI e o spooler MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMSProvider  <br/> |
 |Tipo de ponteiro:  <br/> |LPMSPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Shutdown](imsprovider-shutdown.md) <br/> |Fecha um provedor de armazenamento de mensagem de forma ordenada.  <br/> |
-|[Logon](imsprovider-logon.md) <br/> |Logs de MAPI em uma instância de um provedor de armazenamento de mensagem.  <br/> |
-|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Registra o MAPI spooler em um armazenamento de mensagens.  <br/> |
-|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compara dois mensagem repositório identificadores de entrada para determinar se eles se referem ao mesmo objeto store.  <br/> |
+|[Shutdown](imsprovider-shutdown.md) <br/> |Fecha um provedor de repositório de mensagens de maneira ordenada.  <br/> |
+|[Logon](imsprovider-logon.md) <br/> |Registra o MAPI em uma instância de um provedor de armazenamento de mensagens.  <br/> |
+|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Registra o spooler MAPI em um repositório de mensagens.  <br/> |
+|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compara dois identificadores de entrada de repositório de mensagens para determinar se eles se referem ao mesmo objeto Store.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O MAPI usa um objeto de provedor de armazenamento de mensagens por sessão, não importa quantos mensagem repositórios abertos pelo provedor de armazenamento. Se um segundo MAPI sessão faz logon em qualquer repositórios open, chamadas MAPI **MSProviderInit** uma segunda vez para criar um novo objeto de provedor de repositório de mensagem para a sessão de usar. 
+O MAPI usa um objeto de provedor de repositório de mensagens por sessão, independentemente de quantas lojas de mensagens são abertas pelo provedor da loja. Se uma segunda sessão MAPI fizer logon em qualquer repositório aberto, as chamadas MAPI **MSProviderInit** uma segunda vez para criar um novo objeto do provedor de repositório de mensagens para essa sessão usar. 
   
-Um objeto de provedor de armazenamento de mensagem deve conter o seguinte para que funcionem corretamente:
+Um objeto do provedor de repositório de mensagens deve conter o seguinte para funcionar corretamente:
   
-- Um _lpMalloc_ alocação de memória rotina ponteiro para uso por todos os repositórios aberta usando o objeto este provedor. 
+- Um ponteiro de rotina de alocação de memória do _lpMalloc_ para uso por todos os repositórios abertos usando este objeto de provedor. 
     
-- O _lpfAllocateBuffer_, _ lpfAllocateMore _ e ponteiros de rotina _lpfFreeBuffer_ às funções de alocação de memória [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) . 
+- Os ponteiros de rotina _lpfAllocateBuffer_, _ lpfAllocateMore _ e _lpfFreeBuffer_ para as funções de alocação de memória [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) . 
     
-- Uma lista vinculada de todos os repositórios aberta usando este objeto de provedor e ainda não foi fechado.
+- Uma lista vinculada de todos os repositórios abertos usando este objeto de provedor e ainda não foi fechado.
     
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 811be1f6506cee092e487af3bd43bdf6e136d4eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 472502d0f033370b06a69596944350152ab794f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317294"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568893"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para o objeto de repositório de mensagem. 
+Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para o objeto de repositório de mensagens. 
   
 ```cpp
 HRESULT GetLastError(
@@ -37,39 +37,39 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _hResult_
+ _And_
   
-> [in] Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior para o objeto de repositório de mensagem.
+> no Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior para o objeto do repositório de mensagens.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo de cadeias de caracteres retornada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres na estrutura **MAPIERROR** retornado no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
+> As cadeias de caracteres na estrutura **MAPIERROR** retornada no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
     
  _lppMAPIError_
   
-> [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornado que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhum **MAPIERROR** para retornar. 
+> bota Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhum **MAPIERROR** a ser retornado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Use o método **IMSLogon::GetLastError** para recuperar informações a serem exibidas em uma mensagem ao usuário sobre o último erro retornado de uma chamada de método do objeto de repositório de mensagem. 
+Use o método **IMSLogon:: GetLastError** para recuperar informações a serem exibidas em uma mensagem para o usuário sobre o último erro retornado de uma chamada de método para o objeto do repositório de mensagens. 
   
-Para liberar toda a memória alocada pelo MAPI para a estrutura **MAPIERROR** retornada, aplicativos cliente precisará chamar apenas a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar todas as memórias alocadas por MAPI para a estrutura **MAPIERROR** retornada, os aplicativos clientes precisam chamar somente a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-O valor de retorno de **GetLastError** deve ser S_OK para um aplicativo para usar o **MAPIERROR**. Mesmo se o valor de retorno é S_OK, um **MAPIERROR** não pode ser retornado. Se a implementação não puder determinar qual foi o último erro, ou se um **MAPIERROR** não está disponível para que o erro, **GetLastError** retorna um ponteiro como NULL em _lppMAPIError_ em vez disso. 
+O valor de retorno **** de GetLastError deve ser S_OK para que um aplicativo use o **MAPIERROR**. Mesmo que o valor de retorno seja S_OK, um **MAPIERROR** pode não ser retornado. Se a implementação não puder determinar o último erro, ou se um **MAPIERROR** não estiver disponível para esse erro, GetLastError retornará um ponteiro para NULL em _lppMAPIError_ em vez disso. **** 
   
 ## <a name="see-also"></a>Confira também
 

@@ -1,33 +1,33 @@
 ---
-title: Inicializar um provedor de armazenamento com quebra PST
+title: Iniciar um provedor do repositório PST encapsulado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: 'Modificado pela última vez: 05 de outubro de 2012'
-ms.openlocfilehash: c39f66917ecc080785b3a3e91506d3994427ca62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 5 de outubro de 2012'
+ms.openlocfilehash: 31114e4082fbc5e4c57da95eb6b32339822b1645
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317238"
 ---
-# <a name="initializing-a-wrapped-pst-store-provider"></a>Inicializar um provedor de armazenamento com quebra PST
+# <a name="initializing-a-wrapped-pst-store-provider"></a>Iniciar um provedor do repositório PST encapsulado
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para implementar um provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra, você deve inicializar o provedor de armazenamento com quebra PST usando a função **[MSProviderInit](msproviderinit.md)** como ponto de partida. Depois que a DLL do provedor é inicializada, a função **[MSGSERVICEENTRY](msgserviceentry.md)** configura o provedor de repositórios de PST com quebra. 
+Para implementar um provedor de repositório de arquivos de pastas particulares (PST) encapsulado, você deve inicializar o provedor de repositório PST encapsulado usando a função **[MSProviderInit](msproviderinit.md)** como ponto de entrada. Após a inicialização da DLL do provedor, a função **[MSGSERVICEENTRY](msgserviceentry.md)** configura o provedor de repositório PST encapsulado. 
   
-Neste tópico, a função **MSProviderInit** e a função **MSGSERVICEENTRY** são demonstrados usando exemplos de código a partir do provedor de repositório de PST quebrado automaticamente amostra. O exemplo implementa um provedor de PST com quebra que se destina a ser usado em conjunto com a API de replicação. Para obter mais informações sobre baixando e instalando o provedor de repositórios de PST quebrado automaticamente amostra, consulte [Instalando o provedor de repositórios de PST quebrado automaticamente amostra](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de replicação, consulte [Sobre o API de replicação](about-the-replication-api.md).
+Neste tópico, a função **MSProviderInit** e a função **MSGSERVICEENTRY** são demonstradas usando exemplos de código do provedor de repositório PST encapsulado de amostra. O exemplo implementa um provedor de PST encapsulado destinado a ser usado em conjunto com a API de replicação. Para obter mais informações sobre como baixar e instalar o exemplo de provedor de repositório PST encapsulado, consulte [instalando o provedor de repositório PST encapsulado de amostra](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de replicação, consulte [About The Replication API](about-the-replication-api.md).
   
-Depois de você ter inicializar um provedor de armazenamento de PST com quebra, você deve implementar funções para que o MAPI e o MAPI spooler podem efetuar logon em um provedor de armazenamento de mensagem. Para obter mais informações, consulte [Log em um provedor de armazenamento de PST quebrado automaticamente](logging-on-to-a-wrapped-pst-store-provider.md).
+Depois de inicializar um provedor de repositório PST encapsulado, você deve implementar as funções para que o MAPI e o spooler MAPI possam fazer logon no provedor de armazenamento de mensagens. Para obter mais informações, consulte [fazendo logon em um provedor de repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md).
   
 ## <a name="initialization-routine"></a>Rotina de inicialização
 
-Todos os provedores de repositório PST com quebra devem implementar a função **[MSProviderInit](msproviderinit.md)** como um ponto de partida para inicializar a DLL do provedor. **MSProviderInit** verifica se o número de versão da interface do provedor de serviço, `ulMAPIVer`, é compatível com o número da versão atual, `CURRENT_SPI_VERSION`. A função salva a memória MAPI rotinas de gerenciamento para o `g_lpAllocateBuffer`, `g_lpAllocateMore`, e `g_lpFreeBuffer` parâmetros. Essas rotinas de gerenciamento de memória devem ser usadas em toda a implementação de repositório PST com quebra para desalocação e alocação de memória. 
+Todos os provedores de repositório PST encapsulados devem implementar a função **[MSProviderInit](msproviderinit.md)** como ponto de entrada para inicializar a DLL do provedor. **MSProviderInit** verifica se o número da versão da interface `ulMAPIVer`do provedor de serviços é compatível com o número da versão atual. `CURRENT_SPI_VERSION` A função salva as rotinas de gerenciamento de memória `g_lpAllocateBuffer`MAPI `g_lpAllocateMore`nos parâmetros `g_lpFreeBuffer` , e. Essas rotinas de gerenciamento de memória devem ser usadas em toda a implementação do repositório PST encapsulado para alocação e desalocação de memória. 
   
-### <a name="msproviderinit-example"></a>Exemplo de MSProviderInit()
+### <a name="msproviderinit-example"></a>Exemplo de MSProviderInit ()
 
 ```cpp
 STDINITMETHODIMP MSProviderInit ( 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>Caminhos com quebra de PST e Unicode
+### <a name="wrapped-pst-and-unicode-paths"></a>Caminhos PST e Unicode encapsulados
 
-Para adaptar o exemplo original preparado no Microsoft Visual Studio 2008 para usar caminhos de Unicode para o NST para uso em Unicode habilitado para o Microsoft Outlook 2010 e o Outlook 2013, a rotina **CreateStoreEntryID** , que produz o identificador de entrada, deve usar um formato para caminhos de ASCII e outro para caminhos de Unicode. Esses itens são representados como estruturas no exemplo a seguir. 
+Para adaptar o exemplo original preparado no Microsoft Visual Studio 2008 para usar caminhos Unicode para o NST para uso no Microsoft Outlook 2010 e no Outlook 2013 habilitado para Unicode, a rotina **CreateStoreEntryID** , que produz o identificador de entrada, deve usar um formato para caminhos ASCII e outro para caminhos Unicode. Eles são representados como estruturas no exemplo a seguir. 
   
 ```cpp
 typedef struct                              // short format
@@ -131,13 +131,13 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> As diferenças nessas estruturas são dois bytes NULL antes de um caminho de Unicode. Se você precisar interpretar o identificador de entrada no "serviço entrada rotina" que segue, seria uma maneira de determinar se for esse o caso ou não converter conforme EIDMS em primeiro lugar, verifique se o szPath [0] é NULL. Se for, convertê-lo como EIDMSW. 
+> As diferenças nessas estruturas são dois bytes nulos antes de um caminho Unicode. Se você precisar interpretar o identificador de entrada na "rotina de entrada de serviço" que segue, uma maneira de determinar se esse é o caso ou não seria ser convertido como EIDMS primeiro e, em seguida, verifique se o szPath [0] é nulo. Se for, convertê-lo como EIDMSW em vez disso. 
   
 ## <a name="service-entry-routine"></a>Rotina de entrada de serviço
 
-A função **[MSGSERVICEENTRY](msgserviceentry.md)** é o ponto de entrada do serviço de mensagem em que o provedor de repositórios de PST com quebra está configurado. As chamadas de função `GetMemAllocRoutines()` para obter a memória MAPI rotinas de gerenciamento. A função usa a `lpProviderAdmin` parâmetro para localizar a seção de perfil para o provedor e define as propriedades no perfil. 
+A função **[MSGSERVICEENTRY](msgserviceentry.md)** é o ponto de entrada do serviço de mensagens onde o provedor de repositório PST encapsulado está configurado. As chamadas `GetMemAllocRoutines()` de função para obter as rotinas de gerenciamento de memória MAPI. A função usa o `lpProviderAdmin` parâmetro para localizar a seção de perfil para o provedor e define as propriedades no perfil. 
   
-### <a name="serviceentry-example"></a>Exemplo de ServiceEntry()
+### <a name="serviceentry-example"></a>Exemplo de userEntry ()
 
 ```cpp
 HRESULT STDAPICALLTYPE ServiceEntry ( 
@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre o exemplo de provedor do repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalar o provedor do repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
-- [Fazer logon em um provedor do repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Usar um provedor do repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
-- [Desativar um provedor do repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Sobre o exemplo de provedor de repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalando o provedor de repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
+- [Fazer logon em um provedor de repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
+- [DesLigamento de um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
 

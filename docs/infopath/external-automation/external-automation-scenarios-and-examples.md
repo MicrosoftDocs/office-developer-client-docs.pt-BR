@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Os membros fornecidos pelo assembly de interoperabilidade primário do Microsoft Office InfoPath (Microsoft.Office.Interop.InfoPath.dll) e pelo assembly de interoperabilidade XML do InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) permitem escrever código gerenciado para automatizar o InfoPath.
 ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310196"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Cenários e exemplos de automação externa
 

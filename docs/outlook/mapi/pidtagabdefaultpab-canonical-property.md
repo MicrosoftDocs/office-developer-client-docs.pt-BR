@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0726ceae42fecdf39512c9095295ea643b138c64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8406df2df40a12f039f4108a849700199eb77319
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315796"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propriedade canônica PidTagAbDefaultPab
 
@@ -36,17 +36,17 @@ Contém o identificador de entrada do contêiner de catálogo de endereços a se
    
 ## <a name="remarks"></a>Comentários
 
-Não use essa propriedade. Ele é reservado para uso pelo MAPI.
+Não use essa propriedade. É reservado para uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -56,7 +56,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

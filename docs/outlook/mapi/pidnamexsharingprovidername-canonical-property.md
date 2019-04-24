@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a56a93f425ccba36229e262c0e93815ffc998017
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315880"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>Propriedade canônica PidNameXSharingProviderName
 
@@ -25,31 +25,31 @@ ms.locfileid: "25390874"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Representa um nome para exibição de usuário do provedor de compartilhamento identificado pela propriedade **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
+Representa um nome de usuário que é reproduzido pelo provedor de compartilhamento identificado pela propriedade **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
-|Propriedade definida:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nome da propriedade:  <br/> |X-compartilhamento-provedor-Name  <br/> |
+|Conjunto de propriedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|Nome da propriedade:  <br/> |X-Sharing-Provider-Name  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Sharing  <br/> |
+|Área:  <br/> |Compartilhamento  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Compartilha pastas de caixa de correio entre clientes.
+> Compartilha pastas de caixa de correio entre os clientes.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

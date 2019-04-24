@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7c414f9c-a7f2-3404-326e-acd4026c7684
 description: Contém as células que controlam como a página de desenho é formatada (exibida) na página impressa.
-ms.openlocfilehash: 37ef70e27d20f9ad9856f51a8cf3b83aeb58ae5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ec5eabf3f9d03f704e2a9ea03099eba1e09afd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315208"
 ---
 # <a name="print-properties-section"></a>Seção Print Properties
 
@@ -22,8 +22,8 @@ Contém as células que controlam como a página de desenho é formatada (exibid
   
 ## <a name="remarks"></a>Comentários
 
-Use a seção **Print Properties** para controlar a impressão no nível da página. Essas configurações são por página e são independentes das configurações da página desenho, por exemplo, uma página de desenho que usa orientação em paisagem pode ser impresso com orientação retrato. Além disso, os documentos podem ser impressos usando uma combinação de orientações. 
+Use a seção **Propriedades de impressão** para controlar a impressão no nível da página. Essas configurações são por página e não dependem  das configurações da página do desenho; por exemplo, uma página de desenho que utilize a orientação paisagem pode ser impressa com a orientação retrato. Além disso, os documentos podem ser impressos usando uma combinação de orientações. 
   
-As configurações na seção **Print Properties** correspondem aos valores definido na guia **Configurar impressão** , na caixa de diálogo **Configurar página** (na guia **Design** , clique o iniciador de caixa de diálogo do grupo **Configurar página** ). Consulte a seção de **Propriedades da página** de configurações que se aplicam à página de desenho. 
+As configurações da seção **Imprimir Propriedades** correspondem aos valores definidos na guia **Configurar impressão** da caixa de diálogo **Configurar página** (na guia **design** , clique no iniciador da caixa de diálogo no grupo **Configurar página** ). Consulte a seção **Propriedades da página** para ver as configurações que se aplicam à página de desenho. 
   
 

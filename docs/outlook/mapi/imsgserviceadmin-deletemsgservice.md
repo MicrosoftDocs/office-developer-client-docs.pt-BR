@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3a6b34eb-9d46-488f-8d02-91b27c35de67
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e0d3d669982bee309901f913612ac1fb1622e60a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6cef03e33abab81a407698b73a007f247ef88194
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309986"
 ---
 # <a name="imsgserviceadmindeletemsgservice"></a>IMsgServiceAdmin::DeleteMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571140"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Exclui um serviço de mensagem de um perfil.
+Exclui um serviço de mensagens de um perfil.
   
 ```cpp
 HRESULT DeleteMsgService(
@@ -37,43 +37,43 @@ HRESULT DeleteMsgService(
 
  _lpuid_
   
-> [in] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagem a ser excluído. 
+> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagens a ser excluído. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O serviço de mensagem foi excluído.
+> O serviço de mensagens foi excluído.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> **MAPIUID** apontado pela _lpuid_ não corresponde a um serviço de mensagem existente. 
+> O **MAPIUID** apontado por _lpuid_ não corresponde a um serviço de mensagens existente. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::DeleteMsgService** exclui um serviço de mensagem de um perfil. **DeleteMsgService** remove todas as seções de perfil relacionadas ao serviço de mensagem. 
+O método **IMsgServiceAdmin::D eletemsgservice** exclui um serviço de mensagens de um perfil. **DeleteMsgService** remove todas as seções de perfil relacionadas ao serviço de mensagens. 
   
- **DeleteMsgService** executa as seguintes etapas para excluir o serviço de mensagem: 
+ O **DeleteMsgService** executa as seguintes etapas para excluir o serviço de mensagens: 
   
-1. Chama a função de ponto de entrada do serviço de mensagem com o parâmetro _ulContext_ definido como MSG_SERVICE_DELETE antes que as seções de perfil são removidas. Isso permite que o serviço de realizar tarefas específicas do serviço. 
+1. Chama a função de ponto de entrada do serviço de mensagens com o parâmetro _ulContext_ definido como MSG_SERVICE_DELETE antes das seções de perfil serem removidas. Isso permite que o serviço execute qualquer tarefa específica do serviço. 
     
-2. Exclui o serviço de mensagem.
+2. Exclui o serviço de mensagens.
     
-3. Exclui a seção de perfil do serviço na mensagem.
+3. Exclui a seção de perfil do serviço de mensagens.
     
-Função do ponto de entrada do serviço de mensagem não é chamada novamente depois que o serviço foi excluído.
+A função de ponto de entrada do serviço de mensagens não é chamada novamente depois que o serviço é excluído.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar a estrutura **MAPIUID** para o serviço de mensagem excluir, recupere a coluna de propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagem da tabela de serviço de mensagem. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar a estrutura **MAPIUID** para o serviço de mensagens excluir, recupere a coluna de propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::DeleteMsgService** para excluir o serviço selecionado.  <br/> |
+|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::D eletemsgservice** para excluir o serviço selecionado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -84,5 +84,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

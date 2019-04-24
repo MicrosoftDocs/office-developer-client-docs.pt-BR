@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: Determina o ajuste a um grupo ou a formas no grupo.
-ms.openlocfilehash: 89536923617f80768d7c14658cb07c97595824ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317896"
 ---
 # <a name="issnaptarget-cell-group-properties-section"></a>Célula IsSnapTarget (Seção Group Properties)
 
@@ -22,8 +22,8 @@ Determina o ajuste a um grupo ou a formas no grupo.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Permite ajustar a formas no grupo.  <br/> |
-|FALSO  <br/> |Permite ajustar somente ao grupo.  <br/> |
+|TRUE  <br/> |Permite ajustar a formas no grupo.  <br/> |
+|FALSE  <br/> |Permite ajustar somente ao grupo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Determina se a página será impressa na orientação retrato ou paisagem.
-ms.openlocfilehash: 2adc7dadcb3702e6c5307bb569b2ae1df7aee54e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315180"
 ---
 # <a name="printpageorientation-cell-print-properties-section"></a>Célula PrintPageOrientation (Seção Print Properties)
 
@@ -22,13 +22,13 @@ Determina se a página será impressa na orientação retrato ou paisagem.
   
 |**Valor**|**Orientation**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Mesmo que a impressora  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1  <br/> | Retrato  <br/> |**visPPOPortrait** <br/> |
-|2  <br/> |Paisagem  <br/> |**visPPOLandscape** <br/> |
+| ,0  <br/> | Mesmo que a impressora  <br/> |**visPPOSameAsPrinter** <br/> |
+| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|duas  <br/> |Paisagens  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando você insere novas páginas em um documento, essa configuração padrão é a configuração da página ativa.
+Quando você insere novas páginas em um documento, essa configuração assume como padrão a configuração na página ativa.
   
 Para fazer referência à célula PrintPageOrientation pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   

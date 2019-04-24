@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
 description: Cria um objeto que um cliente pode acessar em um formato de caractere preferido.
 ms.openlocfilehash: 3f68e0f275bcc5df065b3113d3322d6957f76df0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317602"
 ---
 # <a name="hrcreatenewwrappedobject"></a>HrCreateNewWrappedObject
 

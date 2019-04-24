@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8c024f71279fac5dbb3d771442d9fbfb8a50e0f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 346776635fc36ffd8efd10cb232846831add20f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316223"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>Propriedade canônica PidTagFormHostMap
 
@@ -25,30 +25,30 @@ ms.locfileid: "22578868"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um mapa de host de formulários disponíveis. 
+Contém um mapa de Hospedagem de formulários disponíveis. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Identificador:  <br/> |0x3306  <br/> |
 |Tipo de dados:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente deverá atualizar essa propriedade, juntamente com a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), ao alterar a estrutura subjacente na interface do **IMAPIFormProp** . 
+Um aplicativo cliente deve atualizar essa propriedade, juntamente com a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), ao alterar a estrutura subjacente na interface do **IMAPIFormProp** . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

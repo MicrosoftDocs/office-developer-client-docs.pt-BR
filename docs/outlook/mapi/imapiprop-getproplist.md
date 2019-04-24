@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5417853dbb1fa87d2beead2f73ca57329e17b044
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316566"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571119"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna as marcas de propriedade para todas as propriedades. 
+Retorna as marcas de propriedade de todas as propriedades. 
   
 ```cpp
 HRESULT GetPropList(
@@ -38,17 +38,17 @@ HRESULT GetPropList(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o formato de cadeias de caracteres nas marcas de propriedade retornados. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o formato das cadeias de caracteres nas marcas de propriedade retornadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _lppPropTagArray_
   
-> [out] Um ponteiro para um ponteiro para a matriz de marca de propriedade que contém marcas para todas as propriedades do objeto.
+> bota Um ponteiro para um ponteiro para a matriz de marca de propriedade que contém marcas para todas as propriedades do objeto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -56,31 +56,31 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIProp::GetPropList** recupera a marca de propriedade para cada propriedade suportada atualmente por um objeto. Se o objeto não oferece suporte atualmente todas as propriedades, **GetPropList** retorna uma matriz de marca de propriedade com o membro **cValues** definido como 0. 
+O método **IMAPIProp::** getproplist recupera a marca de propriedade para cada propriedade atualmente aceita por um objeto. Se o objeto não suportar nenhuma propriedade no momento, **** getproplist retornará uma matriz de marca de propriedade com o membro **cValues** definido como 0. 
   
-O escopo das propriedades retornado pela **GetPropList** varia de provedor. Alguns provedores de serviços excluir essas propriedades para o qual o chamador não tem acesso. Todos os provedores de retornam as propriedades do tipo **PT_OBJECT**.
+O escopo de propriedades retornado por **** getproplist varia de provedor para provedor. Alguns provedores de serviços excluem as propriedades para as quais o chamador não tem acesso. Todos os provedores retornam propriedades do tipo **PT_OBJECT**.
   
-Se o objeto não oferece suporte a Unicode, **GetPropList** retorna MAPI_E_BAD_CHARWIDTH, mesmo se não houver nenhuma propriedade de cadeia de caracteres definida para o objeto. 
+Se o objeto não oferecer suporte a Unicode **** , getproplist retornará MAPI_E_BAD_CHARWIDTH, mesmo se não houver propriedades de cadeia de caracteres definidas para o objeto. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Provedores de transporte remoto implementam **GetPropList** exatamente conforme especificado aqui. Não há nenhuma preocupações especiais. A implementação deve, obviamente, retornar a mesma lista de propriedades como suportados pelo método [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+Os provedores de transporte **** remotos implementam getproplist exatamente como especificado aqui. Não há preocupações especiais. A implementação deve, naturalmente, retornar a mesma lista de propriedades que é suportada pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de marca de propriedade apontada pela _lppPropTagArray_. 
+Chame a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de marca de propriedade apontada por _lppPropTagArray_. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa o método **IMAPIProp::GetPropList** para obter uma lista de propriedades a serem passados para **GetProps**.  <br/> |
+|MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa o método **IMAPIProp::** getproplist para obter uma lista de propriedades a ser **** passada para GetProps.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -93,5 +93,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

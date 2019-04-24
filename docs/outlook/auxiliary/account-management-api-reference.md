@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 68fef652-5db7-4273-a0ad-b196c5fa114b
-description: Fornece acesso às informações de conta, dá suporte a notificações de alterações de conta, Protegendo contas contra spam e gerenciando downloads de mensagem para contas POP3.
-ms.openlocfilehash: 8d3a79045652869d56eb2a6c30e06408b67e0ca7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Fornece acesso a informações de conta, oferece suporte a notificações de alterações de contas, proteção de contas contra spam e gerenciamento de downloads de mensagens para contas POP3.
+ms.openlocfilehash: 83761292028021cc90bd171b02d875b36f2a09a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316923"
 ---
 # <a name="account-management-api-reference"></a>Referência da API de gerenciamento de contas
 
-Esta seção fornece conteúdo de referência para a conta de API de gerenciamento, que fornece acesso às informações de conta, dá suporte a notificações de alterações de conta, Protegendo contas contra spam e gerenciando downloads de mensagem para contas POP3.
+Esta seção fornece conteúdo de referência para a API de gerenciamento de contas, que fornece acesso a informações de conta, oferece suporte a notificações de alterações de conta, proteção de contas contra spam e gerenciamento de downloads de mensagens de contas POP3.
 
 
-- [Constantes](constants-account-management-api.md)
+- [Constants](constants-account-management-api.md)
     
-- [Tipos de Dados](data-types-account-management-api.md)
+- [Tipos de dados](data-types-account-management-api.md)
     
 - [Interfaces](interfaces-account-management-api.md)
     
 - [Propriedades nomeadas](named-properties-account-management-api.md)
     
-- [Properties](properties-account-management-api.md)
+- [Propriedades](properties-account-management-api.md)
     
 

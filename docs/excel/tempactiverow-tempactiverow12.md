@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveRow
 - TempActiveRow12
 keywords:
-- função tempactiverow [excel 2007], função TempActiveRow12 [Excel 2007]
+- função tempactiverow [Excel 2007], função TempActiveRow12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a406d6e5a8ffa91e103276cb39230058b4840614
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f89c458a521b41e4f172f8a6c53526440bb472b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310413"
 ---
 # <a name="tempactiverowtempactiverow12"></a>TempActiveRow/TempActiveRow12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funções da biblioteca Framework que criam um temporário **XLOPER**/ **XLOPER12** contendo uma referência externa para uma linha inteira na planilha ativa. 
+Funções de biblioteca da estrutura que criam um **XLOPER de XLOPER**/ **** temporário contendo uma referência externa a uma linha inteira na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveRow12(ROW row);
 
 ## <a name="parameters"></a>Parâmetros
 
- _row_
+ _Row_
   
-A linha a ser referenciado. Argumentos de linha são baseada em zero, portanto, essa linha 1 é passada como 0. No Microsoft Office Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser realizado por um inteiro do WORD. Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. H.
+A linha a ser referenciada. Os argumentos de linha são baseados em zero, de forma que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser feito por um inteiro de palavra. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. 0.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência de **xltypeRef** externo às células da linha passados. 
+Retorna uma referência externa **xltypeRef** para as células de linha passadas. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempActiveRow12** para selecionar linha 113. 
+Este exemplo usa a função **TempActiveRow12** para selecionar a linha 113. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -58,5 +58,5 @@ short WINAPI TempActiveRowExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

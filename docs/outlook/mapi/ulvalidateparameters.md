@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fb9050c9-5797-44f0-8bf5-6264f4e6d7c3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 297b5a516f8275b236092f9f385afcb673c95de0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 465069f08e2026dcbf98e24f0f5f59e12ed17eca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315285"
 ---
 # <a name="ulvalidateparameters"></a>UlValidateParameters
 
@@ -25,13 +25,13 @@ ms.locfileid: "22585238"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Chama uma função interna para verificar que os aplicativos de cliente parâmetros tem passado para provedores de serviços e MAPI. 
+Chama uma função interna para verificar os parâmetros que os aplicativos clientes passaram para os provedores de serviço e MAPI. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 HRESULT UlValidateParameters(
@@ -44,24 +44,24 @@ HRESULT UlValidateParameters(
 
  _eMethod_
   
-> [in] Especifica o enumeração, o método para validar. 
+> no Especifica, por enumeração, o método a ser validado. 
     
  _Primeira_
   
-> [in] Ponteiro para o primeiro argumento na pilha.
+> no Ponteiro para o primeiro argumento na pilha.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
+> A chamada teve êxito e retornou o valor ou valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperado ou desconhecido impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **UlValidateParameters** foi substituída pela macro [UlValidateParms](ulvalidateparms.md) . **UlValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilação neles. Ele ainda é compilado e funciona corretamente em plataformas Intel, mas **UlValidateParms** é recomendado em todas as plataformas. 
+A macro **UlValidateParameters** foi substituída pela macro [UlValidateParms](ulvalidateparms.md) . O **UlValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las. Ele ainda é compilado e funciona corretamente nas plataformas Intel, mas o **UlValidateParms** é recomendado em todas as plataformas. 
   
 

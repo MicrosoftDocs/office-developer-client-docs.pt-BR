@@ -1,5 +1,5 @@
 ---
-title: Elemento RuleTest (Rule_Type complexType) ('Visio XML')
+title: Elemento RuleTest (Rule_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: Especifica a expressão lógica que determina se o objeto de destino satisfaz a regra de validação.
 ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319079"
 ---
-# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) ('Visio XML')
+# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) (' Visio XML ')
 
 Especifica a expressão lógica que determina se o objeto de destino satisfaz a regra de validação.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation.XML  <br/> |
+|**Partes do documento** <br/> |Validation. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Especifica a expressão lógica que determina se o objeto de destino satisfaz a 
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,8 +50,8 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Fórmula  <br/> |XSD: String  <br/> |opcional  <br/> |Representa a fórmula do elemento.  <br/> |Valores da xsd: String.  <br/> |
+|Fórmula  <br/> |xsd:string  <br/> |opcional  <br/> |Representa a fórmula do elemento.  <br/> |Valores da cadeia de caracteres xsd:.  <br/> |
    
 

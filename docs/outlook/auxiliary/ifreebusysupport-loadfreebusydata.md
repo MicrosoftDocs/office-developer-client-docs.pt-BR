@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: Retorna, para cada usuário especificado, uma interface para enumerar os blocos de informações de disponibilidade de dados dentro de um intervalo de tempo.
-ms.openlocfilehash: 9af5a40da9f0a831de7346b44cee9ca004c02300
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna, para cada usuário específico, uma interface para enumerar blocos de disponibilidade de dados em um intervalo de tempo.
+ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319401"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-Retorna, para cada usuário especificado, uma interface para enumerar os blocos de informações de disponibilidade de dados dentro de um intervalo de tempo. 
+Retorna, para cada usuário específico, uma interface para enumerar blocos de disponibilidade de dados em um intervalo de tempo. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -36,32 +36,32 @@ HRESULT LoadFreeBusyData(
 
 _cMax_
   
-> [in] O número de interfaces de [IFreeBusyData](ifreebusydata.md) para retornar. 
+> no O número de interfaces [IFreeBusyData](ifreebusydata.md) a serem retornadas. 
     
 _rgfbuser_
   
-> [in] A matriz de usuários de livre/ocupado para recuperar dados para.
+> no A matriz de usuários de disponibilidade para os quais recuperar dados.
     
 _prgfbdata_
   
-> [in] [out] A matriz de interfaces de **IFreeBusyData** que correspondem à matriz _rgfbuser_ de estruturas de [FBUser](fbuser.md) . 
+> no bota A matriz de interfaces **IFreeBusyData** que correspondem à matriz _Rgfbuser_ de estruturas [FBUser](fbuser.md) . 
     
    > [!NOTE]
-   > Essa matriz de ponteiros é alocada pelo chamador e liberada pelo chamador. As interfaces reais apontadas para sejam liberadas quando o chamador é feito com eles. 
+   > Essa matriz de ponteiros é alocada pelo chamador e liberada pelo chamador. As interfaces reais apontadas são lançadas quando o chamador é feito com elas. 
   
 _phrStatus_
   
-> [out] A matriz de resultados **HRESULT** para recuperação de cada interface **IFreeBusyData** correspondente. O valor pode ser NULL. Um resultado é definido como S_OK se correspondente _prgfbdata_ é válida. 
+> bota A matriz de resultados **HRESULT** para recuperar cada interface **IFreeBusyData** correspondente. O valor pode ser nulo. Um resultado é definido como S_OK se _prgfbdata_ correspondente for válido. 
     
 _pcRead_
   
->  [out] O número real de usuários para o qual uma interface **IFreeBusyData** foi encontrada. 
+>  bota O número real de usuários para os quais uma interface **IFreeBusyData** foi encontrada. 
     
 ## <a name="return-values"></a>Valores de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de livre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API do serviço de disponibilidade)](constants-free-busy-api.md)
 

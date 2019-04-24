@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa92e224f10fd652078b965c8e3a0b5ab59cc388
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320038"
 ---
 # <a name="pidtagreadreceiptsearchkey-canonical-property"></a>Propriedade canônica PidTagReadReceiptSearchKey
 
@@ -36,31 +36,31 @@ Contém uma chave de pesquisa para o usuário de mensagens para o qual o sistema
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade será ignorada se a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) não estiver definida como TRUE.
+Essa propriedade é ignorada, a menos que a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) esteja definida como true.
   
-Se um aplicativo cliente quiser receber ler relatórios em si, ele pode deixar esta propriedade não definidas ou defini-la como a chave de pesquisa contida na propriedade **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) em tempo de envio de mensagem.
+Se um aplicativo cliente deseja receber relatórios de leitura em si, pode deixar essa propriedade indefinida ou defini-la como a chave de pesquisa contida na propriedade **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) no horário de envio da mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em mensagens de email.
+> Especifica as propriedades e as operações que são permitidas em mensagens de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidef.h
+Mapidef. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319577"
 ---
 # <a name="mapi-sessions"></a>Sessões MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Antes do aplicativo cliente pode chamar um sistema de mensagens subjacente, ele precisa estabelecer uma sessão ou conexão, com o subsistema MAPI.
+Antes que o aplicativo cliente possa chamar um sistema de mensagens subjacente, ele deve estabelecer uma sessão ou conexão com o subsistema MAPI.
   
-Sessões são iniciadas quando um usuário faz logon, um processo que acessa um perfil válido e valida o sistema de mensagens e as credenciais do serviço de mensagem. Em seguida, o processo garante que todos os serviços de mensagem do perfil estão configurados corretamente. A interface de cliente que você usa determina a chamada de logon. Clientes MAPI chamar a função de [MAPILogonEx](mapilogonex.md) . 
+As sessões são iniciadas quando um usuário faz logon, um processo que acessa um perfil válido e valida o sistema de mensagens e as credenciais do serviço de mensagens. Em seguida, o processo garante que todos os serviços de mensagens do perfil estejam configurados corretamente. A interface de cliente usada determina a chamada de logon. Os clientes MAPI chamam a função [funçãomapilogonex](mapilogonex.md) . 
   
-Configuração do serviço de mensagens é uma das partes mais importantes do processo de logon. O perfil é a origem inicial das informações de configuração. Se informações sobre um serviço de mensagem específica estiverem ausentes, o processo de logon tenta solicitar ao usuário para fornecer a ele. Isso nem sempre é bem-sucedida por dois motivos: primeiro, solicitando que o usuário requer a exibição de uma caixa de diálogo. É possível para que os clientes não permitir a exibição de uma interface do usuário, passando um sinalizador na chamada de logon. Em segundo lugar, o usuário pode cancelar a caixa de diálogo antes que as informações necessárias podem ser adicionadas.
+A configuração do serviço de mensagens é uma das partes mais importantes do processo de logon. O perfil é a fonte inicial para informações de configuração. Se as informações de um determinado serviço de mensagens estiverem ausentes, o processo de logon tentará solicitar que o usuário a forneça. Isso nem sempre é bem-sucedido por dois motivos: primeiro, avisar o usuário requer a exibição de uma caixa de diálogo. É possível que os clientes desautorizam a exibição de uma interface de usuário passando um sinalizador para a chamada de logon. Em segundo lugar, o usuário pode cancelar a caixa de diálogo para que as informações necessárias possam ser adicionadas.
   
-Quando um processo de logon falha uma vez, o usuário é informado sobre a falha e tem a chance de repetição ou corrigir a condição de erro. Mais uma vez, uma interface de usuário será exibida, se o cliente permite e o usuário será solicitado a inserir quaisquer dados estão faltando. Se esse segundo try for bem sucedida, MAPI desabilita todos os provedores de serviço no serviço de mensagem para a duração da sessão. Na verdade, o serviço de mensagem inteira está desabilitado. Isso significa que nenhum dos provedores de serviço no serviço de mensagem pode trabalhar. Isso é feito porque se um provedor de falha de logon, os outros provedores geralmente também falharem. O processo de logon pode falhar devido a um caminho inválido para um recurso necessário, uma versão incompatível do MAPI, um servidor de mensagens não está disponível ou corrupção de dados. 
+Quando um processo de logon falha uma vez, o usuário é informado da falha e tem a chance de tentar novamente ou corrigir a condição de erro. Novamente, uma interface do usuário será exibida se o cliente permitir, e o usuário será solicitado a inserir os dados que estão ausentes. Se essa segunda tentativa não tiver êxito, o MAPI desabilita todos os provedores de serviço no serviço de mensagens durante a sessão. Na verdade, todo o serviço de mensagem é desabilitado. Isso significa que nenhum dos provedores de serviço no serviço de mensagens pode funcionar. Isso é feito porque, se um provedor falhar, os outros provedores também falharão. O processo de logon pode falhar devido a um caminho inválido para um recurso necessário, uma versão incompatível de MAPI, um servidor de mensagens não disponível ou corrupção de dados. 
   
-Os clientes podem especificar um dos dois tipos de sessões seja estabelecida na chamada logon: uma sessão individual ou uma sessão compartilhada. Sessões individuais são conexões particulares; Há um relacionamento individual entre um aplicativo cliente e a sessão está usando. Como consequência, aplicativos de cliente que compartilham uma sessão também compartilham um perfil. Sessões compartilhadas são estabelecidas uma vez, mas podem ser usadas por outros aplicativos cliente que precisam usá-los. O perfil e as credenciais são especificadas somente com o logon inicial. 
+Os clientes podem especificar um dos dois tipos de sessões a serem estabelecidas na chamada de logon: uma sessão individual ou uma sessão compartilhada. As sessões individuais são conexões privadas; Há uma relação um-para-um entre um aplicativo cliente e a sessão que está usando. Como consequência, os aplicativos clientes que compartilham uma sessão também compartilham um perfil. As sessões comPartilhadas são estabelecidas uma vez, mas podem ser usadas por outros aplicativos cliente que precisam usá-las. O perfil e as credenciais são especificados somente com o logon inicial. 
   
-Os clientes podem fazer logon várias vezes como o mesmo usuário ou vários usuários. MAPI não impede a isso. Alguns provedores de serviços, no entanto, podem não ser tão flexíveis, retornando o valor de erro MAPI_E_SESSION_LIMIT em tentativas de logon subsequentes. Provedores de serviços com limitações de hardware subjacente podem ser necessária para impor um limite de sessão.
+Os clientes podem fazer logon várias vezes como o mesmo usuário ou como vários usuários. O MAPI não impede isso. No entanto, alguns provedores de serviços podem não ser tão flexíveis, retornando o valor de erro MAPI_E_SESSION_LIMIT nas tentativas de logon subsequentes. Os provedores de serviços com limitações de hardware subjacentes podem ser necessários para impor um limite de sessão.
   
-As chamadas de função para o estabelecimento de uma sessão tem uma coleção de parâmetros e os sinalizadores que controlam como a sessão é criada. O cliente especifica um nome de perfil opcional e um identificador de janela que atua como a janela pai para as caixas de diálogo que são exibidos. Os sinalizadores incluem MAPI_NEW_SESSION, que solicita que uma nova sessão individual (em vez de uma sessão compartilhada) ser estabelecida, e o sinalizador de interface do usuário MAPI_LOGON_UI. O sinalizador de interface do usuário é definido como solicitar uma caixa de diálogo de logon.
+As chamadas de função para estabelecer uma sessão têm uma coleção de sinalizadores e parâmetros que controlam como a sessão é criada. O cliente especifica um nome de perfil opcional e um identificador de janela que atua como a janela pai para qualquer caixa de diálogo exibida. Os sinalizadores incluem MAPI_NEW_SESSION, que solicita que uma nova sessão individual (em vez de uma sessão compartilhada) seja estabelecida e o sinalizador de interface do usuário do MAPI_LOGON_UI. O sinalizador de interface do usuário é definido para solicitar uma caixa de diálogo de logon.
   
-A ilustração a seguir mostra como esses parâmetros e os sinalizadores vários estabelecem uma sessão MAPI.
+A ilustração a seguir mostra como esses vários parâmetros e sinalizadores estabelecem uma sessão MAPI.
   
 **MAPI session flowchart**
   
 ![Fluxograma de sessão MAPI] (media/amapi_47.gif "Fluxograma de sessão MAPI")
   
-Para obter informações sobre como lidar com sessões de dentro de um aplicativo cliente, consulte [Manipulação de sessão MAPI](mapi-session-handling.md)
+Para obter informações sobre como lidar com sessões de dentro de um aplicativo cliente, consulte [MAPI Session Handling](mapi-session-handling.md)
   
 ## <a name="see-also"></a>Confira também
 
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession : IUnknown](imapisessioniunknown.md)
-- [Tratamento de sessão MAPI](mapi-session-handling.md)  
+- [Manipulação de sessão MAPI](mapi-session-handling.md)  
 - [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
 

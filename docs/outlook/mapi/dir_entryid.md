@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9ef3f37ab266469e83434d5d9bd0bc7e2ef897fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7abcb2c86ff5cabe0b8f5664ec316244617ac09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316671"
 ---
 # <a name="direntryid"></a>DIR_ENTRYID
 
@@ -21,11 +21,11 @@ ms.locfileid: "22583341"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve as propriedades de uma identificação de entrada de diretório.
+Descreve as propriedades de uma ID de entrada de diretório.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |EntryID.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |EntryID. h  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -44,25 +44,25 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> Uma bitmask dos sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura de [ENTRYID](entryid.md) . 
+> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura [EntryID](entryid.md) . 
     
  **muid**
   
-> GUID que identifica o provedor de armazenamento.
+> GUID que identifica o provedor de repositório.
     
  **ulVersion**
   
-> O número de versão da estrutura **DIR_ENTRYID** . Deve ser definida como CONTAB_VERSION. 
+> O número da versão da estrutura **DIR_ENTRYID** . Deve ser definido como CONTAB_VERSION. 
     
  **ulType**
   
-> Um inteiro que representa o tipo de ID de entrada de diretório. Ele deve ser um dos seguintes valores:
+> Um inteiro que representa o tipo de ID de entrada de diretório. Deve ser um dos seguintes valores:
     
 |**Nome**|**Descrição**|
 |:-----|:-----|
 |CONTAB_ROOT  <br/> |A pasta raiz de um catálogo de endereços MAPI.  <br/> |
-|CONTAB_SUBROOT  <br/> |Uma subpasta contida na pasta raiz do objeto de catálogo de endereços MAPI.  <br/> |
-|CONTAB_CONTAINER  <br/> |Um objeto de contêiner de catálogo de endereços.  <br/> |
+|CONTAB_SUBROOT  <br/> |Uma subpasta contida na pasta raiz do objeto de catálogos de endereços MAPI.  <br/> |
+|CONTAB_CONTAINER  <br/> |Abrir o contêiner de um objeto do catálogo de endereços.  <br/> |
    
  **muidID**
   
@@ -70,7 +70,7 @@ typedef struct _dir_entryid
     
 ## <a name="remarks"></a>Comentários
 
-As estruturas **DIR_ENTRYID** e [CONTAB_ENTRYID](contab_entryid.md) são idênticas, exceto para o membro **ulType** . O conteúdo do membro **ulType** determinar qual estrutura é apropriada para os campos restantes. 
+As estruturas **DIR_ENTRYID** e [CONTAB_ENTRYID](contab_entryid.md) são idênticas, exceto para o membro **ulType** . O conteúdo do membro **ulType** determina qual estrutura é adequada para os campos restantes. 
   
 ## <a name="see-also"></a>Confira também
 

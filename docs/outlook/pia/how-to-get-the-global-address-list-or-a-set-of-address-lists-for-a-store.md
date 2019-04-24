@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320115"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Identificar a lista de endereços global ou um conjunto de listas de endereços de um armazenamento
 
@@ -26,7 +26,7 @@ O primeiro exemplo código contém o método DisplayGlobalAddressListForStore e 
 
 GetGlobalAddressList usa o objeto[PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\))e a propriedade MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 para obter a propriedade PR\_EMSMDB\_SECTION\_UID dO repositório de dados atual e de uma lista de endereços. A GetGlobalAddressList identifica uma lista de endereços como associada a um repositório se as propriedades PR\_EMSMDB\_SECTION\_UID forem correspondentes e se a lista de endereços se a lista de endereços Global for a  [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) e a propriedade [olExchangeGlobalAddressList](https://msdn.microsoft.com/library/bb644009\(v=office.15\)). Se a chamada para a GetGlobalAddressList for concluída, a DisplayGlobalAddressListForStore usa o objeto[SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a lista de endereços Global retornada na caixa de diálogo **selecionar nomes**.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente de biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**usando** não deve se situar antes de funções no exemplo de código mas deve ser adicionada antes da declaração classe pública. A seguinte linha de código mostra como fazer a importação e de tarefa em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente de biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A seguinte linha de código mostra como fazer a importação e de tarefa em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

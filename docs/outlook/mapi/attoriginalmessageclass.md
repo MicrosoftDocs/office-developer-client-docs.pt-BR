@@ -8,17 +8,17 @@ api_type:
 - COM
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 96cc758074586b180c47afab2ad8f63c11d49df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 145d054334a2d5a861896a2f5b6610d660000117
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318162"
 ---
 # <a name="attoriginalmessageclass"></a>attOriginalMessageClass
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma classe de mensagem é armazenada como uma cadeia de caracteres. A cadeia de caracteres codificada normalmente contém o nome da classe de mensagem especificado de MAPI.
+Uma classe de mensagem é armazenada como uma cadeia de caracteres. A cadeia de caracteres codificada normalmente contém o nome de MAPI especificado da classe de mensagem.
   
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5dd0d4c19f30e189218b1aeddd333df58e42102a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316286"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>Propriedade canônica PidTagFlagCompleteTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387129"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a data e hora em tempo Universal Coordenado (UTC) que o objeto de mensagem foi sinalizado como concluída.
+Especifica a data e a hora no UTC (tempo Universal Coordenado) em que o objeto Message foi marcado como concluído.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Especifica a data e hora em tempo Universal Coordenado (UTC) que o objeto de men
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é excluída se o objeto de mensagem não foi sinalizado completa. Resolução menor do tempo deve ser minutos (o valor deve ser um múltiplo de 600,000,000). Essa propriedade não deve existir se o objeto é um objeto de reuniões, e ele não deve existir em um objeto task.
+Essa propriedade será excluída se o objeto Message não for marcado como concluído. A menor resolução do tempo deve ser de minutos (o valor deve ser um múltiplo de 600 milhões). Esta propriedade não deve existir se o objeto for um objeto relacionado à reunião e não existir em um objeto Task.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações relacionadas a sinalização.
+> Especifica as propriedades e operações relacionadas à sinalização.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

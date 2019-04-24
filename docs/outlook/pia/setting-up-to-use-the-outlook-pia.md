@@ -1,5 +1,5 @@
 ---
-title: Como realizar a configuração para usar o PIA do Outlook
+title: Como configurar o Outlook PIA
 TOCTitle: Setting up to use the Outlook PIA
 ms:assetid: 4b3935ea-b584-41cb-ad40-b4f4c4bc378d
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610102(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6dcc52bcd6cd51091acf7319b3d33848127a575
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319212"
 ---
 # <a name="setting-up-to-use-the-outlook-pia"></a>Como realizar a configuração para usar o PIA do Outlook
 

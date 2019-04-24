@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321361"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -39,21 +39,21 @@ HRESULT MoveMessage(
 
  _pFolderDestination_
   
-> [in] Um ponteiro para a pasta onde a mensagem deve ser movido.
+> no Um ponteiro para a pasta onde a mensagem deve ser movida.
     
  _pViewContext_
   
-> [in] Um ponteiro para um objeto de contexto do modo de exibição.
+> no Um ponteiro para um objeto de contexto de exibição.
     
  _prcPosRect_
   
-> [in] Um ponteiro para uma estrutura de [Retangular](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário. A próxima forma exibida também usa esse retângulo de janela. 
+> no Um ponteiro para uma estrutura de [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário atual. O próximo formulário também usa este retângulo de janela. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
@@ -61,17 +61,17 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método **IMAPIMessageSite::MoveMessage** para mover a mensagem atual para uma nova pasta. 
+Os objetos Form chamam o método **IMAPIMessageSite:: MoveMessage** para mover a mensagem atual para uma nova pasta. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação do Visualizador de um formulário de **MoveMessage** deve chamar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , passando o sinalizador VCDIR_MOVE, antes de realmente mover a mensagem para uma nova pasta. Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+A implementação de um visualizador de formulários do **MoveMessage** deve chamar o método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) , passando o sinalizador VCDIR_MOVE, antes de mover a mensagem para uma nova pasta. Para obter a estrutura do **Rect** usada pela janela de um formulário, chame a função [GetWindowRect](https://msdn.microsoft.com/library/ms633519) do Windows. 
   
-Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Após o retorno de **MoveMessage**, formulários devem verificar se há uma mensagem atual e, em seguida, descartar sozinhos, se não houver nenhum. 
+Após o retorno de **MoveMessage**, os formulários devem verificar uma mensagem atual e, em seguida, descartar-se não existir nenhum. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -79,7 +79,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Não foi implementado.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: MoveMessage  <br/> |Não implementado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

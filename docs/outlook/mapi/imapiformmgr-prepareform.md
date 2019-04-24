@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 6e8ea7230ae86dee99cc4413715055fc53afa900
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d0d5d8fe13a3c192dc0b0a8ddc0f5f945fa16f15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321809"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 
@@ -39,31 +39,31 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> [in] Um identificador para a janela pai do indicador de progresso é exibida enquanto o formulário é baixado. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Uma alça para a janela pai do indicador de progresso que é exibida enquanto o formulário é baixado. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o formulário é baixado. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como o formulário é baixado. O seguinte sinalizador pode ser definido:
     
 MAPI_DIALOG 
   
-> Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações. Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.
+> Exibe uma interface do usuário para fornecer status ou solicitar mais informações ao usuário. Se esse sinalizador não for definido, nenhuma interface de usuário será exibida.
     
  _pfrmiInfo_
   
-> [in] Um ponteiro para um objeto de informações de formulário para o formulário sejam baixados.
+> no Um ponteiro para um objeto de informações de formulário para o formulário ser baixado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IMAPIFormMgr::PrepareForm** para baixar um formulário a partir de um contêiner de formulário para abertura. A maioria dos visualizadores de formulário não é necessário chamar **PrepareForm**, pois métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) tanto o [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário. 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr::P repareform** para baixar um formulário de um contêiner de formulários para abertura. A maioria dos visualizadores de formulário não precisa chamar **PrepareForm**, porque os métodos [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) e [IMAPIFormMgr:: loadform](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário. 
   
-Você pode usar **PrepareForm** para obter as bibliotecas de vínculos dinâmicos (DLLs) e outros arquivos associados a um formulário para modificá-los. Se o formulário modificado for carregado de volta para seu contêiner de formulário, ele deve ser reinstalado. 
+Você pode usar o **PrepareForm** para obter as bibliotecas de vínculo dinâmico (DLLs) e outros arquivos associados a um formulário para modificá-los. Se o formulário modificado for carregado de volta para o contêiner de formulários, ele deverá ser reinstalado. 
   
 ## <a name="see-also"></a>Confira também
 

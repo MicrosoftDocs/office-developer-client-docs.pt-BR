@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
 description: É uma interface que enumera blocos de disponibilidade de dados de um usuário em um intervalo de tempo específico.
 ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317553"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
@@ -47,7 +47,7 @@ _ftmEnd_
     
 ## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
+S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 

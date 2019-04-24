@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 08 de novembro de 2011'
+ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315474"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra os arquivos de pastas particulares (. pst) para desbloqueio automático, evitando mais chamadas para o HrTrustedPSTOverrideHandlerCallback.
+Registra arquivos de pastas particulares (. pst) para desbloqueio automático, evitando mais chamadas para o HrTrustedPSTOverrideHandlerCallback.
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -35,16 +35,16 @@ HRESULT SetPersistedRegistrations(
 
 _pmval_
   
-> [in] Uma estrutura de [SPropValue](spropvalue.md) que contém um ponteiro para o caminho da biblioteca de vínculo dinâmico (DLL) para registrar. A estrutura tem as seguintes características: 
+> no Uma estrutura [SPropValue](spropvalue.md) que contém um ponteiro para o caminho da biblioteca de vínculo dinâmico (DLL) a ser registrada. A estrutura tem as seguintes características: 
     
-   - Um ulPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
+   - Uma ulPropTag do [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
     
-   - Uma propriedade de valor de MVszW é definida como uma matriz de cadeias de caracteres Unicode terminada em nulo. Para obter mais informações, consulte o tópico de [SWStringArray](swstringarray.md) . 
+   - Uma propriedade de valor MVszW que é definida como uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. Para obter mais informações, consulte o tópico [SWStringArray](swstringarray.md) . 
     
 > [!NOTE]
-> O SPropValue é armazenado em uma propriedade MAPI no intervalo de interno do PST. Essa propriedade está inacessível aos aplicativos comuns de MAPI. 
+> O SPropValue é armazenado em uma propriedade MAPI no intervalo interno do PST. Esta propriedade está inacessível para aplicativos MAPI comuns. 
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -52,10 +52,10 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os registros persistentes podem afetar negativamente o desempenho de aplicativos, como o Outlook e Windows Desktop Search, que PSTs ser aberto. Considere o efeito no desempenho ao usar ou expandindo o uso dos registros persistentes.
+Os registros persistentes podem afetar adversamente o desempenho de aplicativos, como o Outlook e o Windows Desktop Search, que abriram PSTs. Considere o efeito de desempenho ao usar ou expandir o uso de registros persistentes.
   
 > [!IMPORTANT]
-> Esse método é implementado apenas para Unicode. Além disso, ele preventivamente falhará se qualquer um dos caminhos na matriz não têm uma extensão de nome de arquivo de. dll. 
+> Este método é implementado apenas para Unicode. Além disso, ele falhará preventivamente se qualquer um dos caminhos na matriz não tiver uma extensão de nome de arquivo. dll. 
   
 ## <a name="see-also"></a>Confira também
 

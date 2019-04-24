@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e489d5ccef9dcec9cdad08c068276e69fdf09566
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e74c3fe337ef60ab2e6ff9811270c7b605dd676
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316489"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>Propriedade canônica PidTagAbSearchPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567969"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de identificadores de entrada de contêineres de catálogo de endereços que devem ser pesquisadas para resolver nomes. 
+Contém uma lista de identificadores de entrada para contêineres de catálogo de endereços que devem ser pesquisados para resolver nomes. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém uma lista de identificadores de entrada de contêineres de catálogo de 
    
 ## <a name="remarks"></a>Comentários
 
-Não use essa propriedade. Ele é reservado para uso pelo MAPI.
+Não use essa propriedade. É reservado para uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -56,7 +56,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

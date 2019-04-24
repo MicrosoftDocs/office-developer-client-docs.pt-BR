@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8289b8dd2e0ab3c760e77a37b821d2fe74e4abe9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315966"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
@@ -38,31 +38,31 @@ HRESULT DoSentMail(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpMessage_
   
-> [in] Um ponteiro para a mensagem de aberta para o qual uma mensagem deve ser gerada na pasta designada para armazenar itens enviados.
+> no Um ponteiro para a mensagem aberta para a qual uma mensagem deve ser gerada na pasta designada para reter itens enviados.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::DoSentMail** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **DoSentMail** da sua implementação do método [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) , que é chamado pelo spooler MAPI quando ele tiver terminado de processamento de uma mensagem. **FinishedMsg** desbloqueia a mensagem, garante que a contagem de referência da mensagem é 1 e chama **DoSentMail**.
+O método **IMAPISupport::D osentmail** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam **DoSentMail** de sua implementação do método [IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md) , que é chamado pelo spooler MAPI quando o processamento de uma mensagem é concluído. **FinishedMsg** desbloqueia a mensagem, garante que a contagem de referência da mensagem seja 1 e chama o **DoSentMail**.
   
- **DoSentMail** executa as seguintes tarefas: 
+ O **DoSentMail** executa as seguintes tarefas: 
   
-- Verifica a mensagem para a propriedade **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) determinar se a mensagem deve ser excluída após o envio.
+- Verifica a mensagem da propriedade **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para determinar se a mensagem deve ser excluída após o envio.
     
 - Determina o local da pasta Itens enviados.
     
-- Inicia o processamento para qualquer ganchos definidas na pasta Itens enviados do gancho de mensagem.
+- Inicia o processamento de interceptador de mensagens para qualquer gancho definido na pasta Itens enviados.
     
-- Move a mensagem para a pasta Itens enviados, itens excluídos ou para outra pasta.
+- Move a mensagem para a pasta Itens enviados, a pasta itens excluídos ou para outra pasta.
     
 - Libera a mensagem.
     
@@ -72,7 +72,7 @@ O método **IMAPISupport::DoSentMail** é implementado para objetos de suporte d
 
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   
-[Propriedade canônico de PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
+[Propriedade canônica PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

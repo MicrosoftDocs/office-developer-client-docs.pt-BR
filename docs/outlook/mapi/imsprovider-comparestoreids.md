@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 57b8438d655b3bc5b708fd7ed6734554a3a23ac4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317266"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585987"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Compara dois mensagem repositório identificadores de entrada para determinar se eles se referem ao mesmo objeto store.
+Compara dois identificadores de entrada de repositório de mensagens para determinar se eles se referem ao mesmo objeto Store.
   
 ```cpp
 HRESULT CompareStoreIDs(
@@ -42,41 +42,41 @@ HRESULT CompareStoreIDs(
 
  _cbEntryID1_
   
-> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID1_ _._
+> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID1_ _._
     
  _lpEntryID1_
   
-> [in] Um ponteiro para o primeiro identificador de entrada a ser comparada.
+> no Um ponteiro para o primeiro identificador de entrada a ser comparado.
     
  _cbEntryID2_
   
-> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID2_ _._
+> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID2_ _._
     
  _lpEntryID2_
   
-> [in] Um ponteiro para o segundo identificador de entrada a ser comparada.
+> no Um ponteiro para o segundo identificador de entrada ser comparado.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpulResult_
   
-> [out] Um ponteiro para o resultado da comparação. TRUE se os identificadores de dois entrada se referir ao mesmo objeto; Caso contrário, FALSE.
+> bota Um ponteiro para o resultado retornado da comparação. TRUE se os dois identificadores de entrada se referem ao mesmo objeto; caso contrário, FALSE.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método **IMSProvider::CompareStoreIDs** quando ele processa uma chamada ao método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** é chamado, nesse momento, para determinar qual seção de perfil, se houver, está associada com o armazenamento de mensagens está sendo aberto. Uma chamada de **CompareStoreIDs** pode ser feita quando nenhum armazenamentos de mensagem estão abertos para um provedor de armazenamento específica. Além disso, o MAPI também chama **CompareStoreIDs** quando ele processa uma chamada do provedor de repositório para o método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) . 
+MAPI chama o método **IMSProvider:: CompareStoreIDs** quando processa uma chamada para o método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** é chamado neste ponto para determinar qual seção de perfil, se houver, está associada ao armazenamento de mensagens que está sendo aberto. Uma chamada **CompareStoreIDs** pode ser feita quando não há repositórios de mensagens abertos para um provedor de repositório específico. Além disso, o MAPI também chama **CompareStoreIDs** quando processa uma chamada do provedor de repositório para o método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) . 
   
-Os identificadores de entrada comparados por **CompareStoreIDs** são ambos para as atuais armazenam biblioteca do provedor de vínculo dinâmico (DLL) e são os dois identificadores de entrada do repositório desfeita. Para obter mais informações sobre identificadores de entrada do repositório de disposição, consulte [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
+Os identificadores de entrada comparados por **CompareStoreIDs** são para a biblioteca de vínculo dinâmico (DLL) do provedor de repositório atual e são identificadores de entrada de repositório não encapsulados. Para obter mais informações sobre identificadores de entrada de repositório de enrolamento, consulte [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-Comparar os identificadores de entrada é útil porque um objeto pode ter mais de um identificador de entrada válida. Isso pode ocorrer, por exemplo, depois que uma nova versão de um provedor de armazenamento de mensagens é instalada. 
+A comparação de identificadores de entrada é útil porque um objeto pode ter mais de um identificador de entrada válido. Isso pode ocorrer, por exemplo, após a instalação de uma nova versão de um provedor de repositório de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 

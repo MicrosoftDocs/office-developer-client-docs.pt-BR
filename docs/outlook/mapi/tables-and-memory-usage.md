@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afd69f5a3fff69f670d6be78ba4957307cdb6995
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320402"
 ---
 # <a name="tables-and-memory-usage"></a>Tabelas e o uso da memória
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma questão importante conectada com a recuperação de dados de uma tabela é o uso de memória. Falta de memória disponível pode causar [IMAPITable:: QueryRows](imapitable-queryrows.md) e [HrQueryAllRows](hrqueryallrows.md) falha, retornando menor do que o número de linhas desejado. Decidir qual método ou a função a ser usada para recuperar dados da tabela depende se a tabela pode ser esperada para ajustá-la na memória e se for possível, se a falha é aceitável. 
+Um problema importante conectado à recuperação de dados de uma tabela é o uso de memória. A falta de memória disponível pode causar imApitable [:: QueryRows](imapitable-queryrows.md) e [HrQueryAllRows](hrqueryallrows.md) falhar, retornando menos do que o número desejado de linhas. Decidir qual método ou função usar para recuperar os dados da tabela dependerá se a tabela pode ser adequada para caber na memória e, se não puder, se a falha for aceitável. 
   
-Porque nem sempre é fácil determinar a quantidade de dados que se ajustarão à memória ao mesmo tempo, MAPI fornece algumas diretrizes básicas para um aplicativo cliente ou o provedor de serviço a seguir. Lembre-se de que sempre há exceções, com base em como os dados subjacentes são armazenados e a implementação de determinada tabela.
+Como nem sempre é fácil determinar a quantidade de dados que se ajustarão na memória de uma só vez, o MAPI fornecerá algumas diretrizes básicas para um aplicativo cliente ou provedor de serviços a seguir. Lembre-se de que há sempre exceções, com base na implementação específica da tabela e como os dados subjacentes são armazenados.
   
-As diretrizes a seguir podem ser usadas para avaliar o uso de memória da tabela:
+As diretrizes a seguir podem ser usadas para avaliar o uso da memória da tabela:
   
-- Os clientes que podem tolerar ocasionais uso de memória de conjunto de trabalho no intervalo megabyte e podem assumir que eles têm problemas de leitura de uma tabela inteira na memória. 
+- Os clientes que podem tolerar o uso de memória de conjunto de trabalho ocasional no intervalo de megabytes e podem supor que não terão problemas para ler uma tabela inteira na memória. 
     
-- Restrições tem um efeito sobre o uso de uma tabela de memória. Para ajustá-la na memória enquanto uma tabela grande unrestricted geralmente não pode, espera-se uma tabela está seriamente restrita com um amplo número de linhas, como uma tabela de conteúdo. 
+- As restrições afetam o uso da memória de uma tabela. Uma tabela rigorosamente restrita com um grande número de linhas, como uma tabela de conteúdo, pode ser esperado para caber na memória, enquanto uma tabela grande irrestrita não é possível. 
     
-- Várias tabelas do pertencentes a MAPI, como status, perfil, o serviço de mensagem, provedor e tabelas de repositório de mensagens, geralmente couberem na memória. Estas são as tabelas geralmente é pequenas. No entanto, há exceções. Por exemplo, um provedor de perfil baseado em servidor pode gerar uma tabela maior de perfil que não será possível para ajustá-la.
+- Várias das tabelas pertencentes a MAPI, como o status, o perfil, o serviço de mensagens, o provedor e as tabelas de repositório de mensagens, normalmente se encaixarão na memória. Geralmente são tabelas pequenas. No enTanto, há exceções. Por exemplo, um provedor de perfil baseado em servidor pode gerar uma tabela de perfil maior que não poderá se ajustar.
     
-Para recuperar todas as linhas de uma tabela que se ajustarão à memória sem problemas, chame [HrQueryAllRows](hrqueryallrows.md), definindo o número máximo de linhas a zero.
+Para recuperar todas as linhas de uma tabela que se ajustam à memória sem problemas, chame [HrQueryAllRows](hrqueryallrows.md), definindo o número máximo de linhas como zero.
   
-Para recuperar todas as linhas de uma tabela que pode ou não pode cabem na memória, gerar um erro, chame **HrQueryAllRows** especificando um número máximo de linhas. O número máximo de linhas deve ser definido para um número maior que o número mínimo de linhas que são necessários. Se um cliente deve acessar pelo menos 50 linhas de uma tabela de 300 linha, o número máximo de linhas deve ser definido como 51 pelo menos. 
+Para recuperar todas as linhas de uma tabela que podem ou não se ajustar à memória, gerando um erro, chame **HrQueryAllRows** especificando um número máximo de linhas. O número máximo de linhas deve ser definido como um número maior que o número mínimo de linhas necessárias. Se um cliente precisar acessar pelo menos 50 linhas de uma tabela de linha 300, o número máximo de linhas deverá ser definido como pelo menos 51. 
   
-Para recuperar todas as linhas de uma tabela que não é esperada para ajustá-la na memória, chame [IMAPITable:: QueryRows](imapitable-queryrows.md) em um loop com uma contagem de linha relativamente pequeno, como mostra o exemplo de código a seguir: 
+Para recuperar todas as linhas de uma tabela que não seja adequada para a memória, chame imApitable [:: QueryRows](imapitable-queryrows.md) em um loop com uma contagem de linha relativamente pequena, pois o exemplo de código a seguir ilustra: 
   
 ```cpp
 HRESULT     hr;
@@ -59,7 +59,7 @@ if (hr)
  
 ```
 
-Quando este loop for concluído e todas as linhas na tabela foram processadas e _pássaros_ é zero, geralmente será a posição do cursor na parte inferior da tabela. 
+Quando esse loop é concluído e todas as linhas da tabela foram processadas e as _galinha_ são zero, a posição do cursor normalmente estará na parte inferior da tabela. 
   
 ## <a name="see-also"></a>Confira também
 

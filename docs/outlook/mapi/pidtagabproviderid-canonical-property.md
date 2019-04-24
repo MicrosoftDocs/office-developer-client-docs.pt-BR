@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f3aad4a5b3ba815d3e4f91e990bb63d75502f94b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 820df61ec23e2dd1459582e5a7bb35ad9525e0b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315817"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Propriedade canônica PidTagAbProviderId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580072"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a estrutura [MAPIUID](mapiuid.md) de um provedor catálogo de endereços. 
+Contém uma estrutura [MAPIUID](mapiuid.md) do provedor de catálogo de endereços. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém a estrutura [MAPIUID](mapiuid.md) de um provedor catálogo de endereços
    
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MAPIUID** identifica qual provedor de catálogo de endereços fornece nesse contêiner específico na hierarquia do contêiner. O valor é exclusivo para cada provedor. 
+A estrutura **MAPIUID** identifica qual provedor de catálogo de endereços fornece esse contêiner específico na hierarquia do contêiner. O valor é exclusivo para cada provedor. 
   
-Um provedor de catálogo de endereços pode fornecer mais de um identificador. Por exemplo, um provedor que fornece dois contêineres diferentes pode publicar em **PR_AB_PROVIDER_ID** de identificadores exclusivos para cada contêiner. 
+Um provedor de catálogo de endereços pode fornecer mais de um identificador. Por exemplo, um provedor que forneça dois contêineres diferentes pode publicar em **PR_AB_PROVIDER_ID** identificadores exclusivos para cada contêiner. 
   
- **PR_AB_PROVIDER_ID** é semelhante à propriedade **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para repositórios de mensagem. Aplicativos cliente podem usar **PR_AB_PROVIDER_ID** para localizar linhas relacionadas em uma tabela de hierarquia de catálogo de endereços. 
+ **PR_AB_PROVIDER_ID** é análogo à propriedade **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para repositórios de mensagens. Os aplicativos cliente podem usar o **PR_AB_PROVIDER_ID** para localizar linhas relacionadas em uma tabela de hierarquia de catálogo de endereços. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 [Propriedade canônica PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)
 
 
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

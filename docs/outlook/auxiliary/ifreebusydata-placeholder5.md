@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3fbec3be-82d2-cb12-9a02-006502b32895
-description: Este membro é um espaço reservado e não é suportado.
-ms.openlocfilehash: 89390e097d3bf8a4c78dc110f403119c9ce73243
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esse membro é um espaço reservado e não tem suporte.
+ms.openlocfilehash: fe7fad72b2adc10a5f0ac9878d578908084b9b4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319765"
 ---
 # <a name="ifreebusydataplaceholder5"></a>IFreeBusyData::Placeholder5
 
-Este membro é um espaço reservado e não é suportado.
+Esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IFreeBusyData](ifreebusydata.md).
+Confira [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder5( 
@@ -30,9 +30,9 @@ HRESULT Placeholder5(
 );
 ```
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-Sempre E_NOTIMPL, pois este membro é um espaço reservado no **IFreeBusyData** e não é suportado. 
+Sempre E_NOTIMPL, porque esse membro é um espaço reservado no **IFreeBusyData** e não tem suporte. 
   
 ## <a name="remarks"></a>Comentários
 

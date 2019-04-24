@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 8e1f15ae354894aede4e8418e6428d0524ccb70d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316476"
 ---
 # <a name="testing-and-debugging"></a>Teste e depuração
 
@@ -21,15 +21,15 @@ ms.locfileid: "25383657"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Estratégias de teste diferem, dependendo se você estiver desenvolvendo um provedor de cliente ou serviço. Como um aplicativo cliente requer um ou mais provedores de serviço operar, os clientes devem ser testados em um ambiente com diferentes conjuntos de provedores de serviço.
+As estratégias de teste diferem dependendo se você está desenvolvendo um cliente ou provedor de serviços. Como um aplicativo cliente exige que um ou mais provedores de serviço operem, os clientes devem ser testados em um ambiente com diferentes conjuntos de provedores de serviços.
   
-Provedores de serviço, no entanto, devem ser testadas isoladamente antes sendo integrado com outros provedores. MAPI fornece ferramentas que servem para testar os recursos de um provedor de serviço de um determinado tipo. O aplicativo de exemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de catálogo de endereços e o provedor de armazenamento funciona com uma mensagem. 
+No entanto, os provedores de serviços devem ser testados isoladamente antes de serem integrados a outros provedores. O MAPI fornece ferramentas destinadas a testar os recursos de um provedor de serviços de um tipo específico. O aplicativo de exemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de catálogo de endereços e funciona com um provedor de armazenamento de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
+[Visão geral da programação MAPI](mapi-programming-overview.md)
   
 [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

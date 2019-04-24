@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315089"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580716"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define um repositório local para emular o Gerenciador de protocolo do Outlook para spool mensagens de saída para um servidor.
+Define um repositório local para emular o Gerenciador de protocolos do Outlook para o spool de mensagens de saída para um servidor.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [in] Defina este parâmetro como True se o armazenamento local deve emular o spooler; configurá-lo como False se não. 
+>  no Defina esse parâmetro como true se o repositório local deve emular o spooler; Defina como false se não. 
     
 ## <a name="remarks"></a>Comentários
 
-Um repositório local chama **IPSTX::EmulateSpooler** para agir como um protocolo Gerenciador Outlook, mensagens de spooling na fila de saída para o servidor de back-end (por exemplo, servidor do MSN ou servidor AOL) para processamento. Emula um spooler durante a sincronização, o armazenamento, em seguida, chama esses dois métodos: 
+Um repositório local chama **IPSTX:: EmulateSpooler** para atuar como um Gerenciador de protocolo do Outlook, fazendo o spool de mensagens na fila de saída para o servidor back-end (por exemplo, servidor do MSN ou AOL) para processamento. Emular um spooler durante a sincronização, o repositório chama esses dois métodos: 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obter a fila de mensagens de saída no repositório. Esse método for bem-sucedido apenas se o repositório é emula o Gerenciador de protocolo do Outlook. 
+1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obter a fila de saída de mensagens no repositório. Este método será bem-sucedido somente se o repositório estiver emulando o Gerenciador de protocolos do Outlook. 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** para proteger o acesso único a uma mensagem na fila de saída antes de enviá-la para o servidor. Esse método for bem-sucedido apenas se o repositório é emula o Gerenciador de protocolo do Outlook. Após enviar a mensagem, o repositório chama esse método novamente para liberar acesso único a ele. 
+2. **[IMsgStore::](imsgstore-setlockstate.md)** setlockstate para proteger o acesso exclusivo a uma mensagem na fila de saída antes de enviá-la ao servidor. Este método será bem-sucedido somente se o repositório estiver emulando o Gerenciador de protocolos do Outlook. Após enviar a mensagem, o armazenamento chama esse método novamente para liberar acesso exclusivo a ele. 
     
 > [!NOTE]
-> Desde o Outlook 2002, o gerente de protocolo do Outlook substituído o MAPI spooler e tornou-se responsável spooling para mensagens de saída para servidores back-end. 
+> Desde o Outlook 2002, o Gerenciador de protocolo do Outlook substituiu o spooler MAPI e se tornou responsável por fazer o spool de mensagens de saída para servidores de back-end. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -1,41 +1,41 @@
 ---
-title: Função de log (aplicativo da web personalizado do Access)
+title: Função log (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
-description: Retorna o logaritmo natural ou o logaritmo de base determinado, da expressão especificada.
-ms.openlocfilehash: 5004b2b32e89a9d68364d271e8b94d72b012a62c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o logaritmo natural ou o logaritmo da base fornecida, da expressão especificada.
+ms.openlocfilehash: e2cfd1cf4ad3c1bf44778737faa0f697333f5234
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311085"
 ---
-# <a name="log-function-access-custom-web-app"></a>Função de log (aplicativo da web personalizado do Access)
+# <a name="log-function-access-custom-web-app"></a>Função log (aplicativo Web personalizado do Access)
 
-Retorna o logaritmo natural ou o logaritmo de base determinado, da expressão especificada.
+Retorna o logaritmo natural ou o logaritmo da base fornecida, da expressão especificada.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Log** (*NumericExpression* , [ *Base* ]) 
+ **Log** (*Numericname* , [ *base* ]) 
   
-A função de **Log** contém os seguintes argumentos. 
+A função **log** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |O número positivo para o qual você deseja obter o logaritmo.  <br/> |
-| *Base*  <br/> |A base do logaritmo. Se for omitido, a função **Log** retorna o logaritmo natural.  <br/> |
+| *Numericé*  <br/> |O número positivo cujo logaritmo você deseja obter.  <br/> |
+| *Base*  <br/> |A base do logaritmo. Se for omitido, a função **log** retornará o logaritmo natural.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função **Log10** é semelhante, mas sempre retorna o logaritmo comum, que significa que o logaritmo de base 10. 
+A função **log10** é semelhante, mas sempre retorna o logaritmo comum, significando o logaritmo de base 10. 
   
-O logaritmo natural é o logaritmo de base e, onde f é uma constante irrational aproximadamente igual a 2.718281828.
+O logaritmo natural é o logaritmo para a base e, onde e é uma constante Irrational aproximadamente igual a 2,718281828.
   
 

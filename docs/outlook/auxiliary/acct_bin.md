@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Uma variável desse tipo de dados contém um valor binário.
-ms.openlocfilehash: 6816fd21a51b86bda97353034e959685f22ff176
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316909"
 ---
 # <a name="acctbin"></a>ACCT_BIN
 
@@ -28,11 +28,11 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _cb_
   
-> Número de bytes que _pb_ aponta para. 
+> Número de bytes aos quais _PB_ aponta. 
     
 _pb_
   

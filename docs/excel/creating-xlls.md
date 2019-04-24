@@ -10,11 +10,11 @@ ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: 886b8e74f00f2e724785d43475ee0ffa3c922710
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304141"
 ---
 # <a name="creating-xlls"></a>Criar XLLs
 

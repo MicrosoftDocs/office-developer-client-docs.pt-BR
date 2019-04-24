@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Determina o padrão de linha de uma forma. O valor inserido na célula LinePattern é um número que serve de índice para uma coleção de padrões de linha.
-ms.openlocfilehash: cccc6028de21299942e62c53aba48622baa95f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316440"
 ---
 # <a name="linepattern-cell-line-format-section"></a>Célula LinePattern (Seção Line Format)
 
@@ -22,8 +22,8 @@ Determina o padrão de linha de uma forma. O valor inserido na célula LinePatte
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Sem padrão de linha  <br/> |
-|1  <br/> |Sólido  <br/> |
+|,0  <br/> |Sem padrão de linha  <br/> |
+|1  <br/> |Sólida  <br/> |
 |2 - 23  <br/> |Padrões de linha variados  <br/> |
    
 ## <a name="remarks"></a>Comentários

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c39fe513be122f265fdc316629a3e64a156fdc1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318176"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar IDs de entrada e IDs de anexo
 
@@ -19,7 +19,7 @@ ms.locfileid: "22577916"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de armazenamento pode enviar como parte de um MAPI Uniform Resource Locator (URL) uma identificação de entrada e uma ID de anexo para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O provedor de armazenamento codifica a entrada ID e a ID do anexo como cadeias de caracteres Unicode. Este tópico mostra um algoritmo que gera uma representação compact da identificação de entrada ou ID de anexo.
+Um provedor de repositório pode enviar como parte de uma URL de MAPI (Uniform Resource Locator) de MAPI uma ID de entrada e uma ID de anexo para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O provedor de repositório codifica a ID de entrada e a ID de anexo como cadeias de caracteres Unicode. Este tópico mostra um algoritmo que gera uma representação compacta da ID de entrada ou ID de anexo.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
+[Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
   
 [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 

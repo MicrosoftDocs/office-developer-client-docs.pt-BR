@@ -13,55 +13,55 @@ api_type:
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319772"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propriedade canônica PidLidContactLinkSearchKey
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a lista de **SearchKeys** para o contato vinculado por esse objeto de mensagem. 
+Contém a lista de **SearchKeys** para o contato vinculado por esse objeto Message. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidContactLinkSearchKey  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008584  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008584  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-|**Tamanho em bytes**|**Descrição**|**Notes**|
+|**Comprimento em bytes**|**Descrição**|**Anotações**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Nenhum  <br/> |
-|variável  <br/> |Dados SearchKey  <br/> |Repete ContactEntryCount vezes  <br/> |
+|duas  <br/> |ContactEntryCount  <br/> |Nenhum  <br/> |
+|variável  <br/> |Dados de SearchKey  <br/> |Repete horários ContactEntryCount  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
 ## <a name="see-also"></a>Confira também
 
 - [Propriedades MAPI](mapi-properties.md) 
-- [Propriedades MAPI canônicas](mapi-canonical-properties.md)
+- [Propriedades canônicas MAPI](mapi-canonical-properties.md)
 - [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
 - [Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

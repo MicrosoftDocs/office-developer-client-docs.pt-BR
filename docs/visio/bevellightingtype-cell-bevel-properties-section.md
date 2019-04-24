@@ -1,51 +1,51 @@
 ---
-title: Célula BevelLightingType (Seção Bevel Properties)
+title: Célula BevelLightingType (seção chanfrar Propriedades)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
-description: Determina o tipo de iluminação usado pelo efeito de bisel.
-ms.openlocfilehash: a8e7c2340f96362965d5ecb890fb47427be9e752
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tipo de iluminação usada pelo efeito de bisel.
+ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315768"
 ---
-# <a name="bevellightingtype-cell-bevel-properties-section"></a>Célula BevelLightingType (Seção Bevel Properties)
+# <a name="bevellightingtype-cell-bevel-properties-section"></a>Célula BevelLightingType (seção chanfrar Propriedades)
 
-Determina o tipo de iluminação usado pelo efeito de bisel.
+Determina o tipo de iluminação usada pelo efeito de bisel.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Sem iluminação  <br/> |
-|1  <br/> |Ponto de três  <br/> |
-|2  <br/> |Balancear  <br/> |
-|3  <br/> |Suave  <br/> |
-|4  <br/> |Irregular  <br/> |
-|5  <br/> |Inundação  <br/> |
-|6  <br/> |Contraste  <br/> |
-|7  <br/> |Manhã  <br/> |
+|,0  <br/> |Sem iluminação  <br/> |
+|1  <br/> |Três pontos  <br/> |
+|duas  <br/> |Carga  <br/> |
+|3D  <br/> |Suaves  <br/> |
+|quatro  <br/> |Dura  <br/> |
+|0,5  <br/> |Borda  <br/> |
+|6  <br/> |Contrastante  <br/> |
+|178  <br/> |Dia  <br/> |
 |8  <br/> |Nascer do sol  <br/> |
-|9  <br/> |Pôr-do-sol  <br/> |
-|10  <br/> |Fria  <br/> |
-|11  <br/> |Congelar  <br/> |
-|12  <br/> |Plano  <br/> |
-|13  <br/> |Dois ponto  <br/> |
-|14  <br/> |Brilho  <br/> |
+|241  <br/> |Pôr-do-sol  <br/> |
+|254  <br/> |Fria  <br/> |
+|11  <br/> |Gelado  <br/> |
+|3,6  <br/> |Plano  <br/> |
+|Treze  <br/> |Dois pontos  <br/> |
+|14  <br/> |Brilhar  <br/> |
 |15  <br/> |Sala brilhante  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **BevelLightingType** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **BevelLightingType** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |BevelLightingType  <br/> |
    
-Para obter uma referência à célula **BevelLightingType** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **BevelLightingType** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

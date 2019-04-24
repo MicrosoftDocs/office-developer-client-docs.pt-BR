@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9681a2af2997ad03b73ae07bc7bac05e5f0c780e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315460"
 ---
 # <a name="ipstoverride1overridepstdisablegrow"></a>IPSTOVERRIDE1::OverridePSTDisableGrow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563342"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Desbloqueia o arquivo de pastas particulares (. pst) para uma sessão, substituir a política de PSTDisableGrow.
+Desbloqueia um arquivo de pastas particulares (. pst) para uma sessão, substituindo a política PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();

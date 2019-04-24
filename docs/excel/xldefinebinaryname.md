@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlDefineBinaryName
 keywords:
-- função xlDefineBinaryName [excel 2007]
+- função xlDefineBinaryName [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 14515cc262ea398a9f200c0de3a1f6b64c758b3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c7fc4f6b6fc7179c1ca84043895273b2781f8b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310210"
 ---
 # <a name="xldefinebinaryname"></a>xlDefineBinaryName
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para alocar armazenamento persistente para um **xltypeBigData** **XLOPER**/ **XLOPER12**. Dados com um nome definido de binário é salvo com a pasta de trabalho e podem ser acessados pelo nome, a qualquer momento. Para obter mais informações, consulte "Binário nome escopo limitação" em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
+Usado para alocar armazenamento persistente para um **xltypeBigData** **XLOPER**/ **XLOPER12**. Os dados com um nome binário definido são salvos com a pasta de trabalho e podem ser acessados pelo nome a qualquer momento. Para saber mais, confira "limitação de escopo de nome binário" em [problemas conhecidos no desenvolvimento XLL do Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
@@ -32,13 +32,13 @@ Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
 
  _pxName_ (**xltypeStr**)
   
-Uma cadeia de caracteres especificando o nome dos dados. A cadeia de caracteres está sujeito a mesma nomes definidos como restrições de nomeação.
+Uma cadeia de caracteres especificando o nome dos dados. A cadeia de caracteres está sujeita às mesmas restrições de nomenclatura que os nomes definidos.
   
  _pxData_ (**xltypeBigData**)
   
-Estrutura de Bigdata especificando os dados a serem armazenados. Quando você chamar essa função, o membro **lpbData** da estrutura **bigdata** deve apontar para os dados para o qual o nome está definido e o membro **cbData diferente** deve conter o tamanho dos dados em bytes. 
+Estrutura bigdata que especifica os dados a serem armazenados. Ao chamar essa função, o membro **lpbData** da estrutura **bigdata** deve apontar para os dados para os quais o nome está sendo definido, e o membro **cbData** deve conter o tamanho dos dados em bytes. 
   
-Se o argumento _pxData_ não for especificado (**xltypeMissing**), a alocação nomeada especificada por _pxName_ é excluída. 
+Se o argumento _pxData_ não for especificado (**xltypeMissing**), a alocação nomeada especificada por _pxName_ será excluída. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -49,5 +49,5 @@ Se o argumento _pxData_ não for especificado (**xltypeMissing**), a alocação 
 
 [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md)
+[Problemas conhecidos no desenvolvimento do Excel XLL ](known-issues-in-excel-xll-development.md)
 

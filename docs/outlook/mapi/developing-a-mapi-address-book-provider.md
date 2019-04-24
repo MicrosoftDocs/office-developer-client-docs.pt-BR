@@ -1,5 +1,5 @@
 ---
-title: Desenvolver um provedor do catálogo de endereços MAPI
+title: Desenvolver um provedor de catálogo de endereços MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,33 +8,33 @@ api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 731ebf6f61db8e9f425d48ab63cb7b81035a41c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1db3ce53a1da60d946e52a03369c10547676277f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316699"
 ---
-# <a name="developing-a-mapi-address-book-provider"></a>Desenvolver um provedor do catálogo de endereços MAPI
+# <a name="developing-a-mapi-address-book-provider"></a>Desenvolver um provedor de catálogo de endereços MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de catálogo de endereços fornece informações de destinatário para aplicativos de cliente, para o repositório de mensagem e transporte provedores e MAPI. Informações do destinatário são organizadas hierarquicamente em compartimentos de armazenamento conhecidos como contêineres. Cada catálogo de endereços no perfil contribui um ou mais nível superior, ou pai, provedores de livro de contêineres ao catálogo de endereços MAPI, uma exibição integrada de informações de destinatário de todos os endereços em uma sessão. É por meio do catálogo de endereços MAPI que os clientes e outros provedores de serviços obtém acesso aos dados de um provedor de catálogo de endereços.
+Um provedor de catálogo de endereços fornece informações de destinatários para aplicativos clientes, para provedores de transporte e armazenamento de mensagens e para MAPI. As informações do destinatário são organizadas hierarquicamente em compartimentos de armazenamento conhecidos como contêineres. Cada catálogo de endereços no perfil contribui para um ou mais recipientes de nível superior ou pai para o catálogo de endereços MAPI, uma visão integrada das informações de destinatário de todos os provedores de catálogo de endereços em uma sessão. É através do catálogo de endereços MAPI que os clientes e outros provedores de serviços obtêm acesso aos dados de um provedor de catálogo de endereços.
   
-MAPI constrói o catálogo de endereços integrada por:
+MAPI cria o catálogo de endereços integrados por:
   
-1. Recuperando os contêineres de nível superior de cada provedor de catálogo de endereços.
+1. Recuperar os contêineres de nível superior de cada provedor de catálogo de endereços.
     
-2. Recuperando a tabela de hierarquia do cada contêiner. 
+2. Recuperar a tabela de hierarquia de cada contêiner. 
     
-3. Copiando cada tabela de hierarquia em uma tabela de hierarquia integrada. É a tabela de hierarquia integrado que é exposta no cliente. 
+3. Copiando cada tabela de hierarquia em uma tabela de hierarquia integrada. É a tabela de hierarquia integrada que é exposta ao cliente. 
     
-MAPI impõe poucos requisitos de escritores de provedor de catálogo de endereços. A gama de recursos possíveis que você pode implementar como um gravador de catálogo de endereços é variados e flexíveis. Por exemplo, seu provedor poderia ser limitados fornecendo um modo de exibição somente leitura de um determinado tipo de informação de destinatário ou implementar um conjunto completo de recursos, talvez permitindo que os clientes ou provedores para tornar as inclusões ou modificações nos dados de destinatário e para impor critérios de pesquisa para a definição de exibições personalizadas. 
+O MAPI impõe alguns requisitos nos escritores do provedor de catálogo de endereços. O intervalo de possíveis recursos que você pode implementar como gravador de catálogo de endereços é variado e flexível. Por exemplo, o provedor pode ser limitado ao fornecimento de um modo de exibição somente leitura de um tipo específico de informações do destinatário ou implementar um conjunto completo de recursos, talvez permitindo que clientes ou provedores façam inclusões ou modificações nos dados do destinatário e imponham critérios de pesquisa para definição de modos de exibição personalizados. 
   
-Dados do seu provedor podem residir localmente em um arquivo ou banco de dados ou em um servidor remoto. Alguns provedores de catálogo de endereços devem trabalhar com um sistema de mensagens específico, firmemente combinado com um provedor de transporte, enquanto outros podem operar com qualquer sistema de mensagens.
+Os dados do provedor podem residir localmente em um arquivo ou banco de dados ou em um servidor remoto. Alguns provedores de catálogos de endereços servem para trabalhar com um sistema de mensagens específico, intimamente acoplado a um provedor de transporte, enquanto outros podem operar com qualquer sistema de mensagens.
   
-MAPI define um tipo especial de provedor de catálogo de endereços chamado um catálogo de endereços pessoal ou PAB, que implementa um único contêiner modificável e pode conter informações copiadas de outros contêineres, bem como as informações que criou diretamente do destinatário. Embora qualquer provedor de catálogo de endereços pode implementar um PAB e vários PABs podem ser adicionados a um perfil, apenas um desses provedores pode ser designado para operar como o PAB durante uma sessão de qualquer. 
+O MAPI define um tipo especial de provedor de catálogo de endereços chamado de catálogo de endereços pessoal, ou PAB, que implementa um único contêiner modificável e pode conter informações de destinatário copiadas de outros contêineres, bem como informações criadas diretamente. Embora qualquer provedor de catálogo de endereços possa implementar um PAB e vários PABs possam ser adicionados a um perfil, somente um desses provedores pode ser designado para operar como o PAB durante uma única sessão. 
   
 

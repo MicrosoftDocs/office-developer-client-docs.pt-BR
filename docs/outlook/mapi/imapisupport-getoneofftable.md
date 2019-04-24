@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0beec8a0b234794d3f623c4ceac773db698dd79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316573"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570832"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para a tabela MAPI único (uma lista de modelos que todos no catálogo de endereços provedores de suporte para a criação de novos destinatários).
+Retorna um ponteiro para a tabela única de MAPI (uma lista de modelos que todos os provedores de catálogo de endereços dão suporte à criação de novos destinatários).
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,35 +38,35 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das colunas de cadeia de caracteres. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo das colunas de cadeia de caracteres. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela único.
+> bota Um ponteiro para um ponteiro para a tabela única.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A tabela único foi recuperada com êxito.
+> A tabela única foi recuperada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::GetOneOffTable** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **GetOneOffTable** para recuperar a lista completa de modelos para a criação de novos destinatários. Esta tabela inclui modelos que oferecem suporte a provedores de catálogo de endereços que estão ativos na sessão, bem como modelos que ofereça suporte a MAPI. 
+O método **IMAPISupport:: GetOneOffTable** é implementado para objetos de suporte do provedor de catálogo de endereços. Os provedores de catálogo de endereços chamam **GetOneOffTable** para recuperar a lista completa de modelos para a criação de novos destinatários. Esta tabela inclui modelos que os provedores de catálogo de endereços estão ativos no suporte de sessão, bem como os modelos suportados por MAPI. 
   
-Os destinatários recém-criado podem ser usados para endereçar uma mensagem ou podem ser adicionados a um contêiner de catálogo de endereços.
+Os destinatários recém-criados podem ser usados para endereçar uma mensagem ou podem ser adicionados a um contêiner de catálogo de endereços.
   
-Para obter uma lista das propriedades que compõem a coluna necessária definida nas tabelas únicas, consulte [Tabelas únicos](one-off-tables.md).
+Para obter uma lista das propriedades que compõem o conjunto de colunas obrigatórios em tabelas únicas, consulte [one-off Tables](one-off-tables.md).
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ afeta o formato das colunas retornado dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornadas pelo método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você estiver registrado para receber notificações de alterações para esta tabela único, você também receberá notificações de alterações nas tabelas de únicos dos outros provedores. Com base nessas notificações, você pode suportar novos tipos de endereço que são adicionados durante a sessão atual.
+Se você estiver registrado para receber notificações de alterações para esta tabela única, você também receberá notificações de alterações para as tabelas únicas de outros provedores. Com base nessas notificações, você pode dar suporte a novos tipos de endereço que são adicionados durante a sessão atual.
   
 ## <a name="see-also"></a>Confira também
 
@@ -84,7 +84,7 @@ Se você estiver registrado para receber notificações de alterações para est
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
-[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

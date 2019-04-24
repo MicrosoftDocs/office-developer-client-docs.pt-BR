@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: Inicia uma tarefa para alterar a base de compromisso, dada uma lista de compromissos, geralmente obtida de IOlkApptRebaser::EndEnumerateAppointments.
 ms.openlocfilehash: f0f2377f30de7688aaa4196e3a046c664c2128aa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321907"
 ---
 # <a name="iolkapptrebaserbeginrebaseappointments"></a>IOlkApptRebaser::BeginRebaseAppointments
 

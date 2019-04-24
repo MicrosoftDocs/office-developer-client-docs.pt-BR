@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
-description: Ignora um número especificado de blocos de informações de disponibilidade de dados.
-ms.openlocfilehash: 63f699d09e143a879702e8dc76beb8a969a77b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Pula um número específico de blocos de disponibilidade de dados.
+ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317546"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
-Ignora um número especificado de blocos de informações de disponibilidade de dados.
+Pula um número específico de blocos de disponibilidade de dados.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -32,11 +32,11 @@ HRESULT Skip(
 
 _celt_
   
->  [in] O número de blocos de livre/ocupado para ignorar. 
+>  no O número de blocos de disponibilidade a ser ignorado. 
     
 ## <a name="return-values"></a>Valores de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="see-also"></a>Confira também
 

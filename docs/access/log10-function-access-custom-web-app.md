@@ -1,5 +1,5 @@
 ---
-title: Função Log10 (aplicativo da web personalizado do Access)
+title: Função log10 (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 89c2d4f0-0de9-41d4-bc34-a21f5636e8c4
 description: Retorna o logaritmo de base 10 de um número.
-ms.openlocfilehash: a7849f07723f348a8a1d483776c812aa70e79c2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3aa17051de4ce22d211ab909e6eaffebbabb4d6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311127"
 ---
-# <a name="log10-function-access-custom-web-app"></a>Função Log10 (aplicativo da web personalizado do Access)
+# <a name="log10-function-access-custom-web-app"></a>Função log10 (aplicativo Web personalizado do Access)
 
 Retorna o logaritmo de base 10 de um número.
   
@@ -23,16 +23,16 @@ Retorna o logaritmo de base 10 de um número.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Log10** (*NumericExpression*) 
+ **Log10** (*Numericé*) 
   
-A função **Log10** contém os seguintes argumentos. 
+A função **log10** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |O número positivo às quais deseja que o logaritmo de base 10.  <br/> |
+| *Numericé*  <br/> |O número positivo cujo logaritmo de base 10 você deseja obter.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função de **Log** permite alterar a base do logaritmo, em vez de usar a base 10. 
+A função **log** permite que você altere a base do logaritmo, em vez de usar a base 10. 
   
 

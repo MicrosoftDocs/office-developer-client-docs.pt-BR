@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316524"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591006"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conclui a lista de destinatários da mensagem, expandindo listas de distribuição particular.
+Conclui a lista de destinatários de uma mensagem, expandindo listas de distribuição específicas.
   
 ```cpp
 HRESULT ExpandRecips(
@@ -38,45 +38,45 @@ HRESULT ExpandRecips(
 
  _lpMessage_
   
-> [in] Um ponteiro para a mensagem que tem a lista de destinatários a serem processados.
+> no Um ponteiro para a mensagem que tem a lista de destinatários a ser processada.
     
  _lpulFlags_
   
-> [out] Um ponteiro para uma bitmask dos sinalizadores que controla o tipo de processamento ocorre. Sinalizadores a seguir podem ser definidos:
+> bota Um ponteiro para uma bitmask de sinalizadores que controla o tipo de processamento que ocorre. Os seguintes sinalizadores podem ser definidos:
     
 NEEDS_PREPROCESSING 
   
-> A mensagem precisa ser processado antes de serem enviada.
+> A mensagem precisa ser preprocessada antes de ser enviada.
     
 NEEDS_SPOOLER 
   
-> O MAPI spooler (ao invés do provedor de transporte para o qual o chamador está intimamente ligado) deve enviar a mensagem.
+> O spooler MAPI (em vez do provedor de transporte ao qual o chamador está rigidamente acoplado) deve enviar a mensagem.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Lista de destinatários da mensagem foi processada com êxito.
+> A lista de destinatários da mensagem foi processada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::ExpandRecips** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **ExpandRecips** para solicitar que o MAPI para executar as seguintes tarefas: 
+O método **IMAPISupport:: ExpandRecips** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam o **ExpandRecips** para solicitar MAPI para executar as seguintes tarefas: 
   
-- Expanda certas listas de distribuição pessoal aos destinatários componente.
+- Expanda determinadas listas de distribuição pessoais para seus destinatários do componente.
     
-- Substitua todos os nomes para exibição que foram alterados os nomes originais.
+- Substitua todos os nomes para exibição que foram alterados com os nomes originais.
     
-- Marca quaisquer entradas duplicadas.
+- Marque as entradas duplicadas.
     
 - Resolva todos os endereços únicos. 
     
-- Verifique se a mensagem precisa pré-processamento e, se contiver, defina o sinalizador apontado pela _lpulFlags_ para NEEDS_PREPROCESSING. 
+- Verifique se a mensagem precisa de pré-processamento e, em caso afirmativo, defina o sinalizador apontado por _lpulFlags_ para NEEDS_PREPROCESSING. 
     
- **ExpandRecips** expande quaisquer listas de distribuição que tenham o tipo de endereço de mensagens de MAPIPDL. 
+ **ExpandRecips** expande qualquer lista de distribuição que tenha o tipo de endereço de mensagem de MAPIPDL. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Sempre chame **ExpandRecips** como parte do seu processamento de mensagens. Fazer uma chamada para **ExpandRecips** uma das chamadas primeira na sua implementação do método [IMessage::SubmitMessage](imessage-submitmessage.md) . 
+Sempre chame **ExpandRecips** como parte do seu processamento de mensagens. Faça uma chamada para **ExpandRecips** uma das primeiras chamadas em sua implementação do método [IMessage: SubmitMessage](imessage-submitmessage.md) . 
   
 ## <a name="see-also"></a>Confira também
 

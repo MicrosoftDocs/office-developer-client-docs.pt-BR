@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: Uma solicitação de reunião é um email com IPM. Schedule.Meeting.Request como classe da mensagem. Por padrão, um participante recebe uma solicitação de reunião e responde a ela diretamente.
 ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316993"
 ---
 # <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Sobre solicitações de reunião como atualizações informativas e atualizações completas
 

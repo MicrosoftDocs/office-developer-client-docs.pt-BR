@@ -8,22 +8,22 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- função tempmissing [excel 2007], função TempMissing12 [Excel 2007]
+- função tempmissing [Excel 2007], função TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a6db2e1f2917ecd9361043577f4bf203b3267a5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37c127b2252f18643b34dfc72fd9929885a68d01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310490"
 ---
 # <a name="tempmissingtempmissing12"></a>TempMissing/TempMissing12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de Framework que cria um temporário **XLOPER**/ **XLOPER12** do tipo **xltypeMissing**.
+Função da biblioteca de estrutura que cria um **XLOPER de XLOPER**/ **** temporário do tipo **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
@@ -34,13 +34,13 @@ LPXLOPER12 TempMissing12(void);
 
 Essa função não usa parâmetros.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna um ponteiro para uma **xltypeMissing** **XLOPER**/ **XLOPER12**.
+Retorna um ponteiro para um **** ****/ **XLOPER12**XLOPER xltypeMissing.
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa **TempMissing12** para fornecer três argumentos ausentes para **xlcWorkspace** seguido **booleano** **FALSE** para suprimir a exibição das barras de rolagem da planilha. Os três primeiros argumentos correspondem às outras configurações de espaço de trabalho que não são afetadas. 
+Este exemplo usa **TempMissing12** para fornecer três argumentos ausentes para **xlcWorkspace** seguidos por um **Boolean** **falso** para suprimir a exibição das barras de rolagem da planilha. Os primeiros três argumentos correspondem a outras configurações do espaço de trabalho que não são afetadas. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -60,5 +60,5 @@ short WINAPI TempMissingExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

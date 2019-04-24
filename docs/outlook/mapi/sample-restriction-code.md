@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cafcb20cbce3019d7623d330721005a674eca36e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314942"
 ---
 # <a name="sample-restriction-code"></a>Exemplo de código de restrição
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O código de exemplo a seguir mostra como criar uma restrição que filtra todas as mensagens que não contêm a palavra "voleibol" na linha de assunto e não foram enviados a Suzana de Sam. Uma árvore de estruturas [SRestriction](srestriction.md) será necessária, com o nó superior, sendo uma restrição **e** implementada com uma estrutura [SAndRestriction](sandrestriction.md) . As restrições de três que são reunidas pela operação de **AND** são uma restrição subobjeto que procura as mensagens enviadas para Sue, uma restrição de conteúdo que procura por mensagens de Sam e restrição **e** outra que procura por mensagens que possuírem um assunto contendo "voleibol." Como **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) não é uma propriedade necessária, uma restrição **existem** deve ser incluída. 
+O código de exemplo a seguir mostra como criar uma restrição que filtra todas as mensagens que não contêm a palavra "Volleyball" na linha de assunto e não foram enviadas à Suzana do Sam. Uma árvore de estruturas [SRestriction](srestriction.md) é necessária, com o nó superior sendo uma restrição **e** implementada com uma estrutura [SAndRestriction](sandrestriction.md) . As três restrições Unidas pela operação **and** são uma restrição de subobjeto que procura mensagens enviadas à Suzana, uma restrição de conteúdo que procura mensagens de Sam e outra **e** restrição que procura por mensagens que têm um assunto contendo "Volleyball". Como **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) não é uma propriedade obrigatória, uma restrição **exist** deve ser incluída. 
   
-Este código usa alocação dinâmica e inicialização; é possível alocar e inicializar estaticamente também. Para fins de concisão, a verificação de erros ocorridos devem seguir as chamadas de alocação não está incluído na amostra. 
+Este código usa alocação dinâmica e inicialização; também é possível alocar e inicializar de forma estática. Com o intuito de concisão, a verificação de erros que deve ocorrer seguindo as chamadas de alocação não está incluída no exemplo. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,

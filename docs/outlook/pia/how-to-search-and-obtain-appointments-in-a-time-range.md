@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9088da5f2deb4b3d4ccb1c2bc5409e0ff280ed24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316084"
 ---
 # <a name="search-and-obtain-appointments-in-a-time-range"></a>Pesquisar e obter compromissos em um intervalo de tempo
 
@@ -63,7 +63,7 @@ string filter = "[Start] <= '"
     + startTime.ToString("g") + "'";
 ```
 
-O código a seguir mostra o exemplo completo. Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importa a namespace **Microsoft.Office.Interop.Outlook**. As declarações **importar** ou **usando**não devem se situar antes de funções no exemplo de código, mas devem ser adicionadas antes da declaração classe pública. As linhas seguintes do código mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+O código a seguir mostra o exemplo completo. Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importa a namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

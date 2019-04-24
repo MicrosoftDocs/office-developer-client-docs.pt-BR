@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b453a7b0cfa04dd94da01089573427a931fb4d4f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316510"
 ---
 # <a name="pidtagaccess-canonical-property"></a>Propriedade canônica PidTagAccess
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398336"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask dos sinalizadores indicando as operações que estão disponíveis para o cliente para o objeto.
+Contém uma bitmask de sinalizadores que indicam as operações que estão disponíveis para o cliente para o objeto.
   
 |||
 |:-----|:-----|
@@ -36,40 +36,40 @@ Contém uma bitmask dos sinalizadores indicando as operações que estão dispon
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é somente leitura para o cliente. Ele deve ser um bit a bit **ou** de zero ou mais valores da tabela a seguir. 
+Essa propriedade é somente leitura para o cliente. Ele deve ser um **ou** mais bits ou valores da tabela a seguir. 
   
-|**Name**|**Valor**|**Descrição**|
+|**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Gravação  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Read  <br/> |
-|MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Delete  <br/> |
+|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Gravar  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Leitura  <br/> |
+|MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Excluir  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Criar subpastas na hierarquia de pastas  <br/> |
-|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Criar as mensagens de conteúdo  <br/> |
-|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Criar mensagens associadas de conteúdo  <br/> |
+|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Criar mensagens de conteúdo  <br/> |
+|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Criar mensagens de conteúdo associadas  <br/> |
    
-Os sinalizadores MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados na pasta e objetos de mensagem e na coluna **PR_ACCESS** em tabelas de conteúdo e de conteúdo associado. Os sinalizadores MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados em apenas os objetos de pasta. 
+Os sinalizadores MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados nos objetos Folder e Message e na coluna **PR_ACCESS** nas tabelas de conteúdo e tabelas de conteúdo associadas. Os sinalizadores MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados somente nos objetos Folder. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

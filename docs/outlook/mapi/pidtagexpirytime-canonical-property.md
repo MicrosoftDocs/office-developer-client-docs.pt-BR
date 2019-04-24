@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8d6fa58e61dde30292487c95fb8a74d568a3bbeb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316370"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propriedade canônica PidTagExpiryTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "25388466"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora de quando o sistema de mensagens pode invalidar o conteúdo de uma mensagem. 
+Contém a data e a hora em que o sistema de mensagens pode invalidar o conteúdo de uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém a data e hora de quando o sistema de mensagens pode invalidar o conteúd
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para direcionar que o sistema de mensagens na manipulação entregue interpessoais emails. 
+Essa propriedade é usada para direcionar o sistema de mensagens no tratamento de mensagens interpessoais entregues. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em mensagens de email.
+> Especifica as propriedades e as operações que são permitidas em mensagens de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

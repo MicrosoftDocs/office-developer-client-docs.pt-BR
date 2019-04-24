@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5e3a2224daace9be7f4504a693806ccb3cf4abbe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d4100d9bcd1b086747d742d9636c4bf7a39f50b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321363"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570489"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma interface de Gerenciador de formulário, que um servidor de formulário pode usar para abrir o outro servidor de formulário.
+Retorna uma interface de Gerenciador de formulários, que um servidor de formulário pode usar para abrir outro servidor de formulários.
   
 ```cpp
 HRESULT GetFormManager(
@@ -37,25 +37,25 @@ HRESULT GetFormManager(
 
  _ppFormMgr_
   
-> [out] Um ponteiro para um ponteiro para a interface do Gerenciador de formulário retornado.
+> bota Um ponteiro para um ponteiro para a interface do Gerenciador de formulários retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI usa o método **IMAPIMessageSite::GetFormManager** para chamar [MAPIOpenFormMgr](mapiopenformmgr.md) e apresentar os resultados dessa chamada.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: getFormmanager  <br/> |MFCMAPI usa o método **IMAPIMessageSite::** getformmanager para chamar [MAPIOpenFormMgr](mapiopenformmgr.md) e retornar os resultados da chamada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulário MAPI](mapi-form-interfaces.md)
 

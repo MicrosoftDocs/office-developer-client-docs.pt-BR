@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 822b4164737aa6010ccce108b544410104ac023d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315467"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575865"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera a lista dos registros para o arquivo de pastas particulares (. pst).
+Recupera a lista de registros para o arquivo de pastas particulares (. pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -35,10 +35,10 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> [in] Um ponteiro para um ponteiro para uma estrutura [SPropValue](spropvalue.md) . O membro ulPropTag esta estrutura é do tipo PT_MV_UNICODE e o membro de valor de MVszW será uma matriz de cadeias de caracteres de Unicode terminada em nulo. Essas cadeias de caracteres são caminhos para DLLs para o qual o registro tem foi persistente. 
+> no Um ponteiro para um ponteiro para uma estrutura [SPropValue](spropvalue.md) . O membro ulPropTag dessa estrutura é do tipo PT_MV_UNICODE, e o membro de valor MVszW será uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. Essas cadeias de caracteres são caminhos para DLLs para as quais o registro foi persistido. 
     
 > [!NOTE]
-> suporte. pst para ANSI não está implementado. 
+> o suporte a. pst para ANSI não foi implementado. 
   
 ## <a name="return-value"></a>Valor de retorno
 

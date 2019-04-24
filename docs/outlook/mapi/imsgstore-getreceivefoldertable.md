@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 681fd68fc068633912df1cb7f060b8c4111b5de8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 303c2ef855d5cfc1d6614bda92b46c2da97717c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317350"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566534"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de pasta de recebimento, uma tabela que inclui informações sobre todas as pastas de recebimento para o armazenamento de mensagens.
+Fornece acesso à tabela de pastas de recebimento, uma tabela que inclui informações sobre todas as pastas de recebimento do repositório de mensagens.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -37,47 +37,47 @@ HRESULT GetReceiveFolderTable(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controles tabela acesso. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam O acesso à tabela. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **GetReceiveFolderTable** retornar com êxito, possivelmente antes que a tabela é totalmente disponível para o chamador. Se a tabela não estiver totalmente disponível, fazendo uma chamada de tabela subsequentes pode gerar um erro. 
+> Permite que o **GetReceiveFolderTable** seja retornado com êxito, possivelmente antes de a tabela ficar totalmente disponível para o chamador. Se a tabela não estiver totalmente disponível, fazer uma chamada de tabela subsequente poderá gerar um erro. 
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela de pasta de recebimento.
+> bota Um ponteiro para um ponteiro para a tabela de pastas de recebimento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A tabela de pasta de recebimento foi retornada com êxito.
+> A tabela de pastas de recebimento foi retornada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore::GetReceiveFolderTable** fornece acesso a uma tabela que mostra que as configurações de propriedade para o armazenamento de mensagens todos recebem pastas. 
+O método **IMsgStore:: GetReceiveFolderTable** fornece acesso a uma tabela que mostra as configurações de propriedade de todas as pastas de recebimento do repositório de mensagens. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Para obter uma lista das colunas obrigatórias em uma tabela de pasta de recebimento, consulte as [Tabelas de pasta de recebimento](receive-folder-tables.md). 
+Para obter uma lista de colunas obrigatórias em uma tabela de pastas de recebimento, consulte [Receive Folder Tables](receive-folder-tables.md). 
   
-Implementar sua receber tabelas de pasta para oferecer suporte a restrições de propriedades de configuração na propriedade **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Este permite o acesso fácil a determinado receber pastas.
+Implemente suas tabelas de pastas de recebimento para suportar a definição de restrições de propriedade na propriedade **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Isso permite o acesso fácil a pastas de recebimento específicas.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ afeta o formato das colunas retornado dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornadas pelo método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI usa o método **IMsgStore::GetReceiveFolderTable** para obter a tabela de pasta de recebimento para exibir.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDisplayReceiveFolderTable  <br/> |MFCMAPI usa o método **IMsgStore:: GetReceiveFolderTable** para obter a exibição da tabela de pastas de recebimento.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -94,5 +94,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

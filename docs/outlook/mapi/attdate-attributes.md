@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 22801641-752c-4c81-be90-02039eaa4277
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ff0cc6b1c17b2ed83d7b0ec0921904763da8624b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b7c1ce8d0338a2bda63a276628bdd6e8be3b8eb1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318064"
 ---
 # <a name="attdate-attributes"></a>Atributos attDate
 
@@ -21,10 +21,10 @@ ms.locfileid: "22567010"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Todas as propriedades MAPI relativos ao datas e horas são mapeadas para os atributos TNEF que possuem o prefixo **attDate** . Estas são codificadas como estruturas **DTR** . As datas e horas dos atributos do anexo são codificadas como **DTR** estruturas também. 
+Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o prefixo **attDate** . Todos são codificados como estruturas de **DTR** . As datas e horas para atributos de anexo também são codificadas como estruturas de **DTR** . 
   
-Todas as propriedades MAPI relativos ao datas e horas são mapeadas para os atributos TNEF que possuem o prefixo **attDate** . Estas são codificadas como estruturas **DTR** . As datas e horas dos atributos do anexo são codificadas como **DTR** estruturas também. 
+Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o prefixo **attDate** . Todos são codificados como estruturas de **DTR** . As datas e horas para atributos de anexo também são codificadas como estruturas de **DTR** . 
   
-Uma estrutura **DTR** é muito semelhante à estrutura **SYSTEMTIME** definida nos arquivos de cabeçalho Win32. A estrutura **DTR** é codificada no stream TNEF como bytes **sizeof(DTR)** começando com o primeiro membro da estrutura. A estrutura **DTR** é definida no TNEF. Arquivo de cabeçalho H. 
+Uma estrutura **DTR** é muito parecida com a estrutura **SYSTEMTIME** definida nos arquivos de cabeçalho do Win32. A estrutura **DTR** é codificada nos bytes de fluxo TNEF como **sizeof (DTR)** começando com o primeiro membro da estrutura. A estrutura **DTR** é definida no TNEF. Arquivo de cabeçalho H. 
   
 

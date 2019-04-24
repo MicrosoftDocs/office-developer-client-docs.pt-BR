@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f39f721d434f4e54cbfa5d25a3ba626858f2b13e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 27c20242417e51886ab184b1cc87d6ebb185e4bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316860"
 ---
 # <a name="deleting-a-message-service"></a>Excluir um serviço de mensagens
 
@@ -21,12 +21,12 @@ ms.locfileid: "22583565"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para excluir um serviço de mensagem de um perfil**
+ **Para excluir um serviço de mensagens de um perfil**
   
-1. Chame **IMAPISession::GetMsgServiceTable** para acessar a tabela de serviços de mensagem. 
+1. Chame **IMAPISession:: GetMsgServiceTable** para acessar a tabela de serviço de mensagens. 
     
-2. Localize a linha para o serviço de mensagem e passar uma coluna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) no parâmetro _lpuid_ para [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md). 
+2. Localize a linha do serviço de mensagens e transmita sua coluna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) no parâmetro _Lpuid_ para [IMsgServiceAdmin::D eletemsgservice](imsgserviceadmin-deletemsgservice.md). 
     
- **DeleteMsgService** chama a função de ponto de entrada do serviço de mensagem com o parâmetro _ulContext_ definido como MSG_SERVICE_DELETE. Serviços de mensagem executam qualquer tarefas de limpeza neste momento antes de serem removidos do perfil. 
+ **DeleteMsgService** chama a função de ponto de entrada do serviço de mensagens com o parâmetro _ULCONTEXT_ definido como MSG_SERVICE_DELETE. Os serviços de mensagens realizam qualquer tarefa de limpeza no momento antes de serem removidos do perfil. 
   
 

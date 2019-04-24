@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abc0afa30aaac75d7980d7de83705ae4c3b43f99
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315044"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
@@ -25,20 +25,20 @@ ms.locfileid: "22587044"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa interface fornece funcionalidade de auxiliares ao executar uma replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
+Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
   
 |||
 |:-----|:-----|
-|Fornecido pelo  <br/> |Consulta em [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Fornecido por  <br/> |Consulta no [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interface:  <br/> |IID_IPSTX2  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Define o estado suspenso em spooler.  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Define o estado suspenso no spooler.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -46,5 +46,5 @@ Essa interface fornece funcionalidade de auxiliares ao executar uma replicação
 
 [Sobre a API de replicação](about-the-replication-api.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

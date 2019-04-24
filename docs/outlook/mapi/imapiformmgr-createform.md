@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6e18ee9f8ea1d7dc6592d576c5a1163db526639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321662"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586162"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário.
+Abre um formulário para criar uma nova mensagem com base na classe de mensagem do formulário.
   
 ```cpp
 HRESULT CreateForm(
@@ -41,53 +41,53 @@ HRESULT CreateForm(
 
  _ulUIParam_
   
-> [in] Uma alça para a janela pai para o indicador de progresso é exibida enquanto o formulário é aberto. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Uma alça para a janela pai do indicador de progresso que é exibido enquanto o formulário é aberto. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o formulário é aberto. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como o formulário é aberto. O seguinte sinalizador pode ser definido:
     
 MAPI_DIALOG 
   
-> Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações. Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.
+> Exibe uma interface do usuário para fornecer status ou solicitar mais informações ao usuário. Se esse sinalizador não for definido, nenhuma interface de usuário será exibida.
     
  _pfrminfoToActivate_
   
-> [in] Um ponteiro para o objeto de informações do formulário que é usado para abrir o formulário.
+> no Um ponteiro para o objeto de informações do formulário que é usado para abrir o formulário.
     
  _refiidToAsk_
   
-> [in] Um ponteiro para o identificador de interface (IID) para a interface a ser retornado para o objeto de formulário que foi criado. O parâmetro _refiidToAsk_ não deve ser NULL. 
+> no Um ponteiro para o identificador de interface (IID) da interface a ser retornado para o objeto Form que foi criado. O parâmetro _refiidToAsk_ não deve ser nulo. 
     
  _ppvObj_
   
-> [out] Um ponteiro para um ponteiro para a interface retornada.
+> bota Um ponteiro para um ponteiro para a interface retornada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_INTERFACE 
   
-> Não há suporte para a interface solicitada pelo objeto form.
+> A interface solicitada não é suportada pelo objeto Form.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método **IMAPIFormMgr::CreateForm** para abrir um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário. **CreateForm** abre o formulário criando uma instância do servidor de formulário para nesse formulário, conforme descrito no objeto informações determinado formulário. Se for necessário, **CreateForm** chama o método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para baixar o código de servidor do formulário no disco do usuário. 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr:: CreateForm** para abrir um formulário para criar uma nova mensagem com base na classe de mensagem do formulário. **CreateForm** abre o formulário criando uma instância do servidor de formulário para esse formulário, conforme descrito no objeto de informações do formulário determinado. Se necessário, **CreateForm** chama o método [IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md) para baixar o código do servidor de formulário no disco do usuário. 
   
 O parâmetro _pfrminfoToActivate_ deve apontar para um objeto de informações de formulário que foi resolvido corretamente. 
   
-Depois que o formulário foi aberto, a tela de formulário a chamada deve configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, pode configurar um contexto de modo de exibição para o formulário. Para obter mais informações, consulte [Lançar um servidor do formulário](launching-a-form-server.md). 
+Depois que o formulário é aberto, o Visualizador de formulário de chamada deve configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, pode configurar um contexto de exibição para o formulário. Para obter mais informações, consulte [iniciando um servidor de formulários](launching-a-form-server.md). 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa o método **IMAPIFormMgr::CreateForm** para criar um formulário antes exibi-las.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa o método **IMAPIFormMgr:: CreateForm** para criar um formulário antes de exibi-lo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -100,7 +100,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Iniciar um servidor de formulário](launching-a-form-server.md)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
 description: Retorna o nome de uma folha como uma cadeia de caracteres.
-ms.openlocfilehash: 0d3a70573177d8e16a16972d0a08245381b209dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d0a4e9f3c5f70be07e9cc5691f52afcbc7bea68
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319422"
 ---
 # <a name="name-function"></a>Função NAME
 
@@ -26,11 +26,11 @@ NOME (* * *langID_opt* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _langID_opt_ <br/> |Opcional  <br/> |**Número** <br/> |Use para especificar uma linguagem para a cadeia de caracteres retornada pela função. Use 0 (valor padrão) para especificar a linguagem local. Use 750 para especificar a linguagem universal.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

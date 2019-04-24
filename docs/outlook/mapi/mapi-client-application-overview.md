@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos aplicativos de cliente MAPI
+title: Visão geral do aplicativo cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 12fb03ed5a165592113f49a202f777b0f301736d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 100d1339ade8e5983c89695afbd85592cc2a4e43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318967"
 ---
-# <a name="mapi-client-application-overview"></a>Visão geral dos aplicativos de cliente MAPI
+# <a name="mapi-client-application-overview"></a>Visão geral do aplicativo cliente MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo de cliente MAPI é qualquer aplicativo que usa a interface de programação de MAPI. Aplicativos cliente implementam mensagens tarefas como uma seu foco primário ou secundário. Aplicativos de cliente de mensagens, como aplicativos que enviar e receberem emails, implementam mensagens como seu foco principal. Para aplicativos cliente não mensagens, como o inventário ou aplicativos de configuração, a mensagem é um recurso secundário.
+Um aplicativo cliente MAPI é qualquer aplicativo que usa a interface de programação MAPI. Os aplicativos cliente implementam tarefas de mensagens como o foco principal ou secundário. Aplicativos clientes de mensagens, como aplicativos que enviam e recebem emails, implementam mensagens como foco principal. Para aplicativos cliente que não são de mensagens, como aplicativos de inventário ou configuração, o sistema de mensagens é um recurso secundário.
   
-Atividades de mensagens podem incluir, por exemplo, um aplicativo de processamento de palavras que possui um comando **Enviar** no seu menu **arquivo** para permitir que os documentos sejam enviadas, email do Microsoft Office Outlook, programas de automação do fluxo de trabalho e serviços de quadro de avisos. 
+As atividades de mensagens podem incluir, por exemplo, um aplicativo de processamento de texto que tenha um comando **Enviar** no menu de **arquivo** para permitir que documentos sejam enviados, email do Microsoft Office Outlook, programas de automação de fluxo de trabalho e serviços de BBS. 
   
-Aplicativos cliente ou podem incluir o usuário para criar um ambiente interativo ou operar sem que um usuário em um ambiente automatizado. Embora o MAPI fornece um conjunto de caixas de diálogo comuns com sua interface de usuário padrão, os aplicativos cliente não são necessárias para apresentar uma interface do usuário. Na verdade, todo o processamento pode ser administrados no aplicativo, se desejar. Um exemplo de um aplicativo cliente automatizado seria um aplicativo de gerenciamento do inventário que está programado para rotear os itens de um determinado tipo aos destinatários standard regularmente.
+Os aplicativos cliente podem incluir o usuário para criar um ambiente interativo ou operar sem um usuário em um ambiente automatizado. Embora o MAPI forneça um conjunto de caixas de diálogo comuns com sua interface de usuário padrão, os aplicativos cliente não precisam apresentar uma interface de usuário. Na verdade, todo o processamento pode ser tratado no aplicativo, se você quiser. Um exemplo de um aplicativo cliente automatizado seria um aplicativo de gerenciamento de inventário programado para rotear itens de um tipo específico para os destinatários padrão regularmente.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Arquitetura e os recursos MAPI](mapi-features-and-architecture.md)
+[Recursos e arquitetura MAPI](mapi-features-and-architecture.md)
 

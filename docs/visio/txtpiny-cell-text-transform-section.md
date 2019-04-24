@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm1045
 localization_priority: Normal
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
-description: 'Determina a y-coordenadas do centro do bloco de texto de rotação em relação à origem da forma. A fórmula padrão é:'
-ms.openlocfilehash: e8101463413b177bf8ddd80ed52964d3eeae788f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Determina a coordenada y do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é:'
+ms.openlocfilehash: fc62ac76aa24a698d956690df6e5d1e7cff3fb5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316419"
 ---
 # <a name="txtpiny-cell-text-transform-section"></a>Célula TxtPinY (Seção Text Transform)
 
-Determina a *y* -coordenadas do centro do bloco de texto de rotação em relação à origem da forma. A fórmula padrão é: 
+Determina a coordenada *y* do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
   
-= A altura \* 0.5
+= Altura \* 0,5
   
 ## <a name="remarks"></a>Comentários
 

@@ -8,22 +8,22 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- função tempnum12 [excel 2007], função TempNum [Excel 2007]
+- função tempnum12 [Excel 2007], função TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cabd44ab828a2cfe22253e9aaf12abf7b7709d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310357"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de Framework que cria um temporário **XLOPER**/ **XLOPER12** contendo um número de planilha do Microsoft Excel (um double IEEE de 8 bytes). 
+A função da biblioteca de estrutura que cria um **XLOPER de XLOPER**/ **** temporário contendo um número de planilha do Microsoft Excel (um duplo IEEE de 8 bytes). 
   
 ```cs
 LPXLOPER TempNum(double d);
@@ -32,13 +32,13 @@ LPXLOPER12 TempNum12(double d);
 
 ## <a name="parameters"></a>Parâmetros
 
- _d_ (**double**)
+ _d_ (**duplo**)
   
-O valor desejado. Observe que os números de sub-recursos normais padrão IEEE não são suportados atualmente e são arredondados para zero. Há suporte para infinito negativo.
+O valor desejado. Observe que os números do IEEE sub-normal não têm suporte no momento e são arredondados para zero. O infinito negativo é suportado.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna numéricos **xltypeNum** contendo o valor passado ou zero se o valor passado na era sub-recursos normal. 
+Retorna um **xltypeNum** numérico que contém o valor passado ou zero se o valor passado em é sub-normal. 
   
 ## <a name="example"></a>Exemplo
 
@@ -60,5 +60,5 @@ short WINAPI TempNumExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

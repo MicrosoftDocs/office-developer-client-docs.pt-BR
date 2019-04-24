@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3008422420dc9bd02f32cbb6900ffe4ebba38877
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 790aa363522b9562f8f06c0806c87bba3816f566
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319940"
 ---
 # <a name="pidlidimapdeleted-canonical-property"></a>Propriedade canônica PidLidImapDeleted
 
@@ -25,31 +25,31 @@ ms.locfileid: "22595087"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Denota itens de Internet Mail Access Protocol (IMAP) que são marcados para exclusão.
+Indica os itens do protocolo IMAP que estão marcados para exclusão.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidImapDeleted  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008570  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008570  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |IMAP  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se definido como um valor diferente de zero, o item foi marcado para exclusão.
+Se definido para um valor diferente de zero, o item foi marcado para exclusão.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

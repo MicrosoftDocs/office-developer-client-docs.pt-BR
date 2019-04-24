@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm82251275
 localization_priority: Normal
 ms.assetid: cbfc4e91-10d1-d50e-3e8a-f269f7123276
-description: 'Determina o x-coordenadas do centro do bloco de texto de rotação em relação à origem do bloco de texto. A fórmula padrão é:'
-ms.openlocfilehash: 6eb48532bb19bce5b0d22ed2cd0997014721df88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Determina a coordenada x do centro de rotação do bloco de texto em relação à origem do bloco de texto. A fórmula padrão é:'
+ms.openlocfilehash: 390f8129e8000a043969eda0ab1c8e4ef62515ef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316447"
 ---
-# <a name="txtlocpinx-cell-text-transform-section"></a>Célula TxtLocPinX (Seção Text Transform)
+# <a name="txtlocpinx-cell-text-transform-section"></a>Célula TxtLocPinX (seção Text Transform)
 
-Determina o *x* -coordenadas do centro do bloco de texto de rotação em relação à origem do bloco de texto. A fórmula padrão é: 
+Determina a coordenada *x* do centro de rotação do bloco de texto em relação à origem do bloco de texto. A fórmula padrão é: 
   
-= TxtWidth \* 0.5
+= TxtWidth \* 0,5
   
 Essa fórmula avalia o centro horizontal do bloco de texto.
   

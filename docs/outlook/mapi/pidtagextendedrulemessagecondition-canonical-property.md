@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 891851e1-e4a4-4c20-a26c-7223bcca35f7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7c444485c3a443694e2902343a02da5605bde39f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316328"
 ---
 # <a name="pidtagextendedrulemessagecondition-canonical-property"></a>Propriedade canônica PidTagExtendedRuleMessageCondition
 
@@ -25,28 +25,28 @@ ms.locfileid: "25401654"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações sobre todas as propriedades nomeadas que está contido dentro de condições de regra estendido.
+Contém informações sobre as propriedades nomeadas que estão contidas dentro de condições estendidas da regra.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_EXTENDED_RULE_MSG_CONDITION  <br/> |
 |Identificador:  <br/> |0x0E9A  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Rules  <br/> |
+|Área:  <br/> |Regras  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade deve ser definida em uma mensagem FAI. Ele tem a mesma finalidade como **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), mas contém informações adicionais sobre as propriedades nomeadas usado. Todos os valores de cadeia de caracteres contidos em qualquer parte desse valor de propriedade de condição devem estar no formato Unicode.
+Essa propriedade deve ser definida em uma mensagem FAI. Ele tem a mesma finalidade que **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), mas contém informações adicionais sobre as propriedades nomeadas usadas. Todos os valores de cadeia de caracteres contidos em qualquer parte deste valor da Propriedade Condition devem estar no formato Unicode.
   
-Para obter informações sobre o formato dessa propriedade binários, consulte [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Para obter informações sobre o formato dessa propriedade binária, consulte [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -54,13 +54,13 @@ Para obter informações sobre o formato dessa propriedade binários, consulte [
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 90fe316bfd11d712f02187b6a569450b747a6409
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b861a11b6bc1d590225a0c99b20f8be38edfd2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321578"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 
@@ -25,15 +25,15 @@ ms.locfileid: "22587926"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à sessão MAPI atual associado ao objeto de suporte. Provedores MAPI pode consultar seu objeto de suporte de MAPI para esta interface. Para obter mais informações sobre objetos de suporte, consulte [Visão geral do objeto de suporte](support-object-overview.md).
+Fornece acesso à sessão MAPI atual associada ao objeto support. Os provedores MAPI podem consultar o objeto de suporte MAPI para esta interface. Para obter mais informações sobre objetos de suporte, consulte [visão geral do objeto support](support-object-overview.md).
   
 |||
 |:-----|:-----|
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
@@ -50,5 +50,5 @@ Fornece acesso à sessão MAPI atual associado ao objeto de suporte. Provedores 
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Visão geral de objetos de suporte](support-object-overview.md)
+[Visão geral do objeto support](support-object-overview.md)
 

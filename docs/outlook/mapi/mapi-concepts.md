@@ -1,38 +1,38 @@
 ---
-title: Conceitos MAPI
+title: Conceitos de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e5b3b7ac38e4e6b217779190fd652c7a223792b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e685c178a4ecf9b5526780c514fd4a0dcf6559f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318932"
 ---
-# <a name="mapi-concepts"></a>Conceitos MAPI
+# <a name="mapi-concepts"></a>Conceitos de MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção fornece um guia para compreender e programando com MAPI.
+Esta seção fornece um guia para compreender e programar o MAPI.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Recursos de MAPI e arquitetura](mapi-features-and-architecture.md): contém informações sobre os conceitos e gerais de design MAPI.
+- [Recursos e arquitetura MAPI](mapi-features-and-architecture.md): contém informações sobre o design e conceitos MAPI gerais.
     
-- [Desenvolvimento de aplicativos MAPI](mapi-application-development.md): fornece informações sobre o desenvolvimento de aplicativos cliente e provedores de serviço usando o MAPI.
+- [Desenvolvimento de aplicativos MAPI](mapi-application-development.md): fornece informações sobre o desenvolvimento de aplicativos cliente e provedores de serviço usando MAPI.
     
-- [Elementos de programação de MAPI](mapi-programming-elements.md): contém visões gerais conceituais, os elementos de programação na [Referência de MAPI](mapi-reference.md).
+- [Elementos de programação MAPI](mapi-programming-elements.md): contém visões gerais conceituais dos elementos de programação na [referência MAPI](mapi-reference.md).
     
-- [Provedores de serviço MAPI](mapi-service-providers.md): fornece informações básicas sobre os provedores de serviços MAPI.
+- [Provedores de serviços MAPI](mapi-service-providers.md): fornece informações básicas sobre provedores de serviço MAPI.
     
 ## <a name="related-sections"></a>Seções relacionadas
 
-- [Introdução à referência do MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
-- [Amostras MAPI](mapi-samples.md)
-- [Referência MAPI](mapi-reference.md)
+- [Introdução à referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Amostras de MAPI](mapi-samples.md)
+- [Referência de MAPI](mapi-reference.md)
   
 

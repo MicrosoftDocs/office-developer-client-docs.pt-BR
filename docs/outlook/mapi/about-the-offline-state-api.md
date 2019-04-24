@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
-description: 'Última modificação: 25 de julho de 2012'
-ms.openlocfilehash: aa30a173251193d74d6560c8dce2663463a18e36
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+ms.openlocfilehash: 56793ae0d2c2ce76c89c7cda4985618e3a40ccfd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321781"
 ---
 # <a name="about-the-offline-state-api"></a>Sobre a API de estado offline
 
@@ -19,28 +19,28 @@ ms.locfileid: "22565981"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API de estado Offline oferece suporte a chamadas de retorno indicando alterações no estado de conexão de um usuário no Microsoft Outlook 2013 e o Microsoft Outlook 2010 — por exemplo, de sendo online no Outlook 2013 ou o Outlook 2010 para sendo offline. A API usa um objeto global de offline no Outlook 2013 ou o Outlook 2010 para rastrear tais alterações para um perfil de conta de usuário específico. Notificação é a única forma com suporte de retorno de chamada. Como os clientes desta API, provedores de email que desejam ser notificado sobre essas alterações de estado de conexão faça o seguinte:
+A API de estado offline oferece suporte a retornos de chamada que indicam alterações no estado de conexão de um usuário no Microsoft Outlook 2013 e no Microsoft Outlook 2010 — por exemplo, de ser online no Outlook 2013 ou no Outlook 2010 para ser offline. A API usa um objeto offline global no Outlook 2013 ou no Outlook 2010 para controlar essas alterações para um determinado perfil de conta de usuário. A notificação é a única forma de retorno de chamada com suporte. Como clientes desta API, os provedores de email que desejam ser notificados dessas alterações de estado de conexão fazem o seguinte:
   
-1. Implemente **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+1. Implementar o **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
 2. Abra um objeto offline existente para um perfil específico usando **[HrOpenOfflineObj](hropenofflineobj.md)**. 
     
-3. Determine se o objeto tem a capacidade de fornecer notificações online ou offline, usando **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. 
+3. Determinar se o objeto tem a capacidade de fornecer notificações online ou offline usando o **[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)**. 
     
-4. Registre o objeto para notificações online ou offline, usando **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Provedores de email agora podem receber notificações que Outlook 2013 ou o Outlook 2010 envia usando **IMAPIOfflineNotify**. 
+4. Registre o objeto para notificações online ou offline usando o **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Os provedores de email agora podem receber notificações que o Outlook 2013 ou o Outlook 2010 enviar usando o **IMAPIOfflineNotify**. 
     
-5. No desligamento, remova o registro para notificações online e offline usando **[IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)**. 
+5. Ao desligar, remova o registro de notificações online e offline usando **[IMAPIOfflineMgr:: Unadvise](imapiofflinemgr-unadvise.md)**. 
     
 > [!NOTE]
-> Em geral, o Outlook 2013 e o Outlook 2010 podem notificá-um cliente de alterações online offline, bem como outras alterações, mas a API de estado Offline dá suporte a notificações apenas para alterações online offline. O cliente deve ignorar todos os outras notificações. Para obter mais informações, consulte **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** e **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)**. 
+> Em geral, o Outlook 2013 e o Outlook 2010 podem notificar um cliente sobre alterações online/offline, bem como outras alterações, mas a API de estado offline oferece suporte somente a notificações para alterações online/offline. O cliente deve ignorar todas as outras notificações. Para obter mais informações, consulte **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)** and **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)**. 
   
- Para obter um exemplo de um cliente que usa a API de estado Offline, consulte [sobre a amostra Offline estado Add-in](about-the-sample-offline-state-add-in.md). O suplemento de amostra Offline estado é um suplemento de COM que usa a API de estado Offline para monitorar e alterar o estado de conexão.
+ Para obter um exemplo de um cliente que usa a API de estado offline, consulte [sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md). O exemplo de suplemento de estado offline é um suplemento COM que usa a API de estado offline para monitorar e alterar o estado de conexão.
   
-Essa API oferece os seguintes recursos:
+Essa API fornece o seguinte:
   
 Definições:
   
-- [Constantes de MAPI](mapi-constants.md)
+- [Constantes MAPI](mapi-constants.md)
     
 Tipos de dados:
   

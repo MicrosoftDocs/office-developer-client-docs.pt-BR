@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: Este tópico descreve como resolver conflitos de tipos de item personalizados criados no Outlook.
 ms.openlocfilehash: 357dd9182f26c4e9e1e264afdee296859e7b3483
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316944"
 ---
 # <a name="about-conflict-resolution-for-custom-item-types"></a>Sobre a resolução de conflitos de tipos de itens personalizados
 
@@ -51,16 +51,16 @@ Quando você cria um tipo de item personalizado que não seja a classe de mensag
     
 Definir a resolução de conflitos por meio de uma Política de Grupo terá precedência sobre modificar diretamente a chave do Registro do usuário. A localização da chave no Registro depende da versão do Outlook. Você especifica o nome da classe de mensagem personalizada como um valor sob essa chave. Especifica o tipo de valor como **DWORD** e os dados do valor como um dos valores mostrados na tabela a seguir, dependendo do esquema de resolução escolhido. 
   
-|Dados  | Descrição  |
+|Data  | Descrição  |
 |:-----|:-----|
-|0  <br/> |Resolução de item comum que exige uma decisão de usuário, conforme usado no Outlook 2002 e em versões anteriores.  <br/> |
+|,0  <br/> |Resolução de item comum que exige uma decisão de usuário, conforme usado no Outlook 2002 e em versões anteriores.  <br/> |
 |1  <br/> |Resolução de item comum que exige intervenção mínima do usuário, conforme usado no Outlook desde o Outlook 2003.  <br/> |
-|2  <br/> |Resolução específica para itens de email.  <br/> |
-|3  <br/> |Resolução específica para itens de reunião.  <br/> |
-|4  <br/> |Resolução específica para itens de compromisso.  <br/> |
-|5  <br/> |Resolução específica para itens de contato.  <br/> |
+|duas  <br/> |Resolução específica para itens de email.  <br/> |
+|3D  <br/> |Resolução específica para itens de reunião.  <br/> |
+|quatro  <br/> |Resolução específica para itens de compromisso.  <br/> |
+|0,5  <br/> |Resolução específica para itens de contato.  <br/> |
 |6  <br/> |Resolução específica para itens de tarefas.  <br/> |
-|7  <br/> |Resolução específica para itens de notas autoadesivas.  <br/> |
+|178  <br/> |Resolução específica para itens de notas autoadesivas.  <br/> |
 |8  <br/> |Resolução específica para itens de diário.  <br/> |
    
 Se você especificar um dos esquemas de resolução específicos de itens (dados de chave de 2 a 8), o Outlook tentará resolver conflitos em campos específicos de item (por exemplo, campos **Início** e **Fim** de um item de compromisso) automaticamente sem intervenção do usuário. Se o Outlook considerar que a resolução pode resultar em perda de dados essenciais, ele manterá cópias conflitantes na pasta Conflitos, e os usuários poderão escolher ir para a pasta Conflitos para resolver novamente esses itens de forma manual e substituir a resolução automática. 

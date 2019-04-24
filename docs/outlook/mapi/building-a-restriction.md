@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38182abd922cd5806a14b6541c22ce675b997387
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318254"
 ---
 # <a name="building-a-restriction"></a>Criar uma restrição
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para criar uma restrição, um aplicativo cliente cria uma hierarquia de uma ou mais estruturas de restrição de vários tipos e passa um ponteiro para a hierarquia para o método [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md) . A ilustração a seguir e o exemplo de código no [Exemplo de código de restrição](sample-restriction-code.md) demonstram como uma restrição típica é implementada com estruturas de restrição vinculados de diferentes tipos. 
+Para criar uma restrição, um aplicativo cliente cria uma hierarquia de uma ou mais estruturas de restrição de vários tipos e passa um ponteiro para a hierarquia para o método imApitable: [: Restrict](imapitable-restrict.md) ou IMAPITable [:: FindRow](imapitable-findrow.md) . A ilustração a seguir e o exemplo de código no [exemplo de código de restrição](sample-restriction-code.md) demonstra como uma restrição típica é implementada com estruturas de restrição vinculadas de tipos diferentes. 
 
-Neste exemplo, um usuário de um aplicativo cliente está tentando localizar todas as mensagens que contêm a palavra "voleibol" na linha de assunto e eram enviadas para Sue de Sam. Primeiro, uma estrutura [SRestriction](srestriction.md) genérica é alocada. Essa estrutura torna-se a base para outras chamadas para a função [MAPIAllocateMore](mapiallocatemore.md) criar estruturas [SRestriction](srestriction.md) e [SPropValue](spropvalue.md) vinculadas que podem ser liberadas com uma única chamada para [MAPIFreeBuffer](mapifreebuffer.md). Como os critérios a ser aplicado ao conjunto de mensagens está em três partes, a estrutura de restrição de nível superior é uma restrição de **AND** . Membro de **cRes** da estrutura [SAndRestriction](sandrestriction.md) for definido como 3 para indicar as três restrições para avaliar e sua lista de membros **lpRes** estiver definida como uma matriz de três do membro de estruturas **SRestriction** . 
+Neste exemplo, um usuário de um aplicativo cliente está tentando localizar todas as mensagens que contêm a palavra "Volleyball" na linha de assunto e foram enviadas à Suzana de Samuel. Primeiro, uma estrutura [SRestriction](srestriction.md) genérica é alocada. Essa estrutura torna-se a base de outras chamadas para a função [MAPIAllocateMore](mapiallocatemore.md) para criar estruturas [SRestriction](srestriction.md) e [SPropValue](spropvalue.md) vinculadas que podem ser liberadas com uma única chamada para [MAPIFreeBuffer](mapifreebuffer.md). Como os critérios a serem aplicados ao conjunto de mensagens estão em três partes, a estrutura de restrição de nível superior é uma restrição **and** . O membro **cRes** da estrutura [SAndRestriction](sandrestriction.md) é definido como 3 para indicar as três restrições a serem avaliadas e seu membro **lpRes** está definido como uma matriz de três membros de estruturas **SRestriction** . 
   
-Para pesquisar mensagens que são enviadas para um destinatário específico, é necessário pesquisar a tabela de destinatários para cada mensagem em vez da mensagem em si. Uma restrição subobjeto é usada para executar a pesquisa de destinatário de tabela. Portanto, o primeiro membro dos pontos de matriz em uma estrutura de [SSubRestriction](ssubrestriction.md) com seu membro **ulSubObject** definido como **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Em seguida, para especificar o que procurar na tabela de destinatário, uma restrição de conteúdo é usada. 
+Para pesquisar mensagens enviadas a um destinatário específico, é necessário pesquisar a tabela de destinatários de cada mensagem, em vez da própria mensagem. Uma restrição de subobjeto é usada para executar a pesquisa da tabela de destinatários. Portanto, o primeiro membro da matriz aponta para uma estrutura [SSubRestriction](ssubrestriction.md) com seu membro **UlSubObject** definido como **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Em seguida, para especificar o que procurar na tabela de destinatários, uma restrição de conteúdo é usada. 
   
-Os membros de segundo e terceiro da matriz são mais simples. Se ambas apontarem para estruturas de restrição de conteúdo, um para pesquisar por mensagens que tenham uma propriedade **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) definida como "Sam" e outro que tenha uma propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) definida como" voleibol."
+O segundo e terceiro membros da matriz são mais simples. Ambas apontam para estruturas de restrição de conteúdo, uma para pesquisar mensagens que possuem uma propriedade **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) definida como "Sam" e outra que tenha uma propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) definida como " Volleyball ".
   
 **Restriction implementation**
   

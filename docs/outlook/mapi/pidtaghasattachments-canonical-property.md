@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aca9c9f9c22fc4057f1650d1342492d2ed34653c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316125"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Propriedade canônica PidTagHasAttachments
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397601"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se uma mensagem contém pelo menos um anexo. 
+Contém TRUE se uma mensagem contiver pelo menos um anexo. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Conterá TRUE se uma mensagem contém pelo menos um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-O armazenamento de mensagens copia essa propriedade do sinalizador **MSGFLAG_HASATTACH** da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Um aplicativo cliente pode usar **PR_HASATTACH** para classificar os anexos de mensagens em um visualizador de mensagem. 
+O repositório de mensagens copia essa propriedade do sinalizador **MSGFLAG_HASATTACH** da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Um aplicativo cliente pode usar **PR_HASATTACH** para classificar os anexos de mensagens em um visualizador de mensagens. 
   
-O valor que dessa propriedade é atualizada com o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+O valor dessa propriedade é atualizado com o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

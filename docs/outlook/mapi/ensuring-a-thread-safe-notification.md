@@ -1,5 +1,5 @@
 ---
-title: Garantindo uma notificação livre de threads
+title: Garantir uma notificação de thread-safe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ad10b2ebd835b21f207fd43ecd8aebc7e1f475f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 88c58d14893f2ac561dc56441eb38b7f4bd0db32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316580"
 ---
-# <a name="ensuring-a-thread-safe-notification"></a>Garantindo uma notificação livre de threads
+# <a name="ensuring-a-thread-safe-notification"></a>Garantir uma notificação de thread-safe
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se seu cliente é executado em uma plataforma multithreaded, talvez você precise de garantia de que as chamadas para seus métodos [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ocorrerem em um determinado thread. Porque as chamadas para **OnNotify** normalmente podem ocorrer em qualquer segmento, é possível receber notificações de threads inesperado e indesejado, levando a erros que são difíceis de depuração. 
+Se seu cliente é executado em uma plataforma multithread, talvez você precise de garantia de que as chamadas para os métodos [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) ocorram em um thread específico. Como as chamadas **** para onnotificar normalmente podem ocorrer em qualquer thread, é possível receber notificações em threads indesejados e indesejados, levando a erros difíceis de depurar. 
   
-Garantir que as chamadas para **OnNotify** para uma notificação em particular sejam feitas no mesmo thread que foi usado para o **Advise** chamada, chame [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) antes de chamar **Advise**. * * * * HrThisThreadAdviseSink * * * cria um novo objeto coletor de eventos advise seu objeto de coletor de eventos advise. Passe este novo objeto na chamada a **Advise**. Todos os clientes com o coletor de eventos advise objetos que podem não funcionar fora do contexto de um determinado thread sempre devem registrar aconselhe os objetos de coletor de eventos criados com **HrThisThreadAdviseSink**.
+Para garantir que as chamadas **** para OnNotify para uma determinada notificação sejam feitas no mesmo thread que foi usado para a chamada de **aviso** , chame [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) antes de chamar **Advise**. * * * * HrThisThreadAdviseSink * * * * cria um novo objeto de coletor de aviso do seu objeto de coletor de aviso. Passe este novo objeto na chamada para **Advise**. Todos os clientes com objetos de coletor de aviso que podem não funcionar fora do contexto de um determinado thread devem sempre registrar objetos de coletor de aviso criados com o **HrThisThreadAdviseSink**.
   
 

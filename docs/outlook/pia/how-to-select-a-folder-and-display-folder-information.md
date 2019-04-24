@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41dc96f26e7e0040467096731cb16ae7c0c08f74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316034"
 ---
 # <a name="select-a-folder-and-display-folder-information"></a>Selecionar uma pasta e exibir informações dela
 
@@ -25,7 +25,7 @@ Este exemplo mostra como exibir via programação informações sobre uma pasta 
 
 No exemplo de código a seguir, ShowFolderInfo usa o método [PickFolder()](https://msdn.microsoft.com/library/bb623484\(v=office.15\)) do objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) para exibir uma caixa de diálogo **Selecionar Pasta** ao usuário e aguarda o usuário selecionar uma pasta. Depois que o usuário seleciona uma pasta, as seguintes propriedades dela são exibidas: [EntryID](https://msdn.microsoft.com/library/bb646192\(v=office.15\)), [StoreID](https://msdn.microsoft.com/library/bb612609\(v=office.15\)), [UnReadItemCount](https://msdn.microsoft.com/library/bb610138\(v=office.15\)), [DefaultMessageClass](https://msdn.microsoft.com/library/bb646541\(v=office.15\)), [CurrentView](https://msdn.microsoft.com/library/bb612411\(v=office.15\)), [Name](https://msdn.microsoft.com/library/bb623727\(v=office.15\)) e [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)). O exemplo chama o método [GetFolderFromID](https://msdn.microsoft.com/library/bb647784\(v=office.15\)) para criar um novo objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) e exibir a pasta.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. A seguinte linha de código mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

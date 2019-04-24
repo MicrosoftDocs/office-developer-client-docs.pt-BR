@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317308"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25382754"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um objeto com um provedor de armazenamento de mensagem para notificações sobre alterações no armazenamento de mensagens. O armazenamento de mensagens, em seguida, enviará notificações sobre alterações ao objeto registrado.
+Registra um objeto com um provedor de repositório de mensagens para notificações sobre alterações no repositório de mensagens. O repositório de mensagens enviará notificações sobre alterações no objeto registrado.
   
 ```cpp
 HRESULT Advise(
@@ -41,15 +41,15 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada do objeto notificações sobre quais devem ser geradas. Este objeto pode ser uma pasta, uma mensagem ou qualquer outro objeto no repositório de mensagem. Como alternativa, se MAPI define o parâmetro _cbEntryID_ como 0 e passa **Nulo** para _lpEntryID_, o coletor de eventos advise fornece notificações sobre alterações no repositório de toda a mensagem.
+> no Um ponteiro para o identificador de entrada do objeto sobre quais notificações devem ser geradas. Este objeto pode ser uma pasta, uma mensagem ou qualquer outro objeto no repositório de mensagens. Como alternativa, se MAPI define o parâmetro _cbEntryID_ como 0 e passa **NULL** para _lpEntryID_, o coletor de avisos fornece notificações sobre alterações em todo o repositório de mensagens.
     
  _ulEventMask_
   
-> [in] Uma máscara de evento dos tipos de eventos de notificação que ocorrem para o objeto sobre quais MAPI irá gerar notificações. A máscara filtra casos específicos. Cada tipo de evento tem uma estrutura associada a ela que contém informações adicionais sobre o evento. A tabela a seguir lista os tipos de evento possíveis, juntamente com suas estruturas correspondentes.
+> no Uma máscara de evento dos tipos de eventos de notificação que ocorrem para o objeto sobre o qual o MAPI irá gerar notificações. A máscara filtra casos específicos. Cada tipo de evento tem uma estrutura associada a ele que contém informações adicionais sobre o evento. A tabela a seguir lista os possíveis tipos de evento juntamente com suas estruturas correspondentes.
     
 |**Tipo de evento de notificação**|**Estrutura correspondente**|
 |:-----|:-----|
@@ -65,33 +65,33 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in] Um ponteiro para um objeto de coletor de eventos advise a ser chamado quando ocorre um evento para o objeto de sessão notificação sobre quais tiver sido solicitada. Este objeto de coletor de eventos advise já deve existir.
+> no Um ponteiro para um objeto de coletor de aviso a ser chamado quando ocorre um evento para o objeto Session sobre o qual a notificação foi solicitada. Este objeto de coletor de aviso já deve existir.
     
  _lpulConnection_
   
-> [out] Um ponteiro para uma variável que contém o número de conexão para o registro de notificação após um retorno bem-sucedido. O número de conexão deve ser diferente de zero.
+> bota Um ponteiro para uma variável que em um retorno bem-sucedido contém o número de conexão para o registro de notificação. O número de conexão deve ser diferente de zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
-> A operação não é suportada por MAPI ou por um ou mais provedores de serviço.
+> A operação não é suportada pelo MAPI ou por um ou mais provedores de serviços.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de armazenamento de mensagem implementam o método **IMSLogon::Advise** para registrar um objeto para retornos de chamada de notificação. Sempre que ocorre uma alteração no objeto indicado, o provedor verifica quais bits de máscara de evento foi definida no parâmetro _ulEventMask_ e, portanto, o tipo de alteração que ocorreu. Se um pouco estiver definida, o provedor chama o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto coletor de eventos de advise indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a rotina de **OnNotify** descrevem o evento. 
+Os provedores de repositórios de mensagens implementam o método **IMSLogon:: Advise** para registrar um objeto para retornos de chamada de notificação. Sempre que uma alteração ocorre no objeto indicado, o provedor verifica se o bit de máscara de evento foi definido no parâmetro _ulEventMask_ e, portanto, que tipo de alteração ocorreu. Se um bit for definido, o provedor chamará o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) para o objeto de coletor de aviso indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a **** rotina OnNotify descreve o evento. 
   
-A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou a qualquer momento posterior. Nos sistemas que oferecem suporte a vários threads de execução, a chamada para **OnNotify** pode ocorrer em qualquer segmento. Para manipular com segurança uma chamada para **OnNotify** que pode acontecer momento inoportunos, um aplicativo cliente deve usar a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou em qualquer momento posterior. Em sistemas que oferecem suporte a vários threads de execução, **** a chamada para OnNotify pode ocorrer em qualquer thread. Para lidar com segurança uma chamada para **** onnotificar que pode ocorrer em um momento de inopportune, um aplicativo cliente deve usar a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Para fornecer notificações, o provedor de armazenamento de mensagem que implementa as necessidades de **Advise** manter uma cópia do ponteiro para o _lpAdviseSink_ avise o objeto coletor de eventos; Para fazer isso, o provedor chama o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para o coletor de eventos advise manter seu indicador de objeto até que o registro de notificação será cancelado com uma chamada ao método [IMSLogon::Unadvise](imslogon-unadvise.md) . A implementação de **Advise** deve atribuir um número de conexão para o registro de notificação e chamar **AddRef** este número de conexão antes de retorná-lo no parâmetro _lpulConnection_ . Provedores de serviços podem liberar o objeto coletor de eventos advise antes que o registro será cancelado, mas eles não devem liberar o número de conexão até que tenha sido chamado **Unadvise** . 
+Para fornecer notificações, o provedor de repositório de mensagens que implementa o **aviso** precisa manter uma cópia do ponteiro para o objeto de coletor de aviso _lpAdviseSink_ ; para fazer isso, o provedor chama o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para o coletor de avisos para manter seu ponteiro de objeto até que o registro de notificação seja cancelado com uma chamada para o método [IMSLogon:: Unadvise](imslogon-unadvise.md) . A implementação de **aviso** deve atribuir um número de conexão ao registro de notificação e chamar **AddRef** nesse número de conexão antes de devolvê-lo no parâmetro _lpulConnection_ . Os provedores de serviços podem liberar o objeto de coletor de aviso antes de o registro ser cancelado, mas não devem liberar o número de conexão até que **Unadvise** seja chamado. 
   
-Depois que uma chamada para **Advise** teve sucesso e antes de **Unadvise** tiver sido chamado, provedores devem ser preparados para o objeto coletor de eventos de advise ser liberada. Portanto, um provedor deve liberar seu objeto de coletor advise depois **Advise** retorna, a menos que ele tem um uso específico de longo prazo para que ele. 
+Após uma chamada a **Advise** ter sido bem-sucedida e antes que **Unadvise** seja chamado, os provedores devem estar preparados para que o objeto de coletor de aviso seja liberado. Portanto, um provedor deve liberar seu objeto de coletor de aviso depois que **Advise** retornar, a menos que tenha um uso específico de longo prazo para ele. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Notificação de evento em MAPI](event-notification-in-mapi.md). 
+Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). 
   
 ## <a name="see-also"></a>Confira também
 

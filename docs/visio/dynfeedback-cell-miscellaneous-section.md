@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 44017319-7146-3431-e476-fbb1a40341ca
 description: Altera o tipo de comentário visual fornecido aos usuários ao arrastar um conector. Quando o botão do mouse é liberado, a forma do conector resultante não é afetada por essa configuração não aplicável a conectores que podem ser roteados.
-ms.openlocfilehash: 858d98c8ee55eb49f58bbe98491ddc8752e75504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 823b8db4dc6afe94a5fdac1f62aaa48d7e1b0d80
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315740"
 ---
 # <a name="dynfeedback-cell-miscellaneous-section"></a>Célula DynFeedback (Seção Miscellaneous)
 
@@ -22,9 +22,9 @@ Altera o tipo de comentário visual fornecido aos usuários ao arrastar um conec
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Permanece reto (sem segmentos).  <br/> |**visDynFBDefault** <br/> |
+| ,0  <br/> | Permanece reto (sem segmentos).  <br/> |**visDynFBDefault** <br/> |
 | 1  <br/> | Mostra três segmentos quando arrastado.  <br/> |**visDynFBUCon3Leg** <br/> |
-| 2  <br/> | Mostra cinco segmentos quando arrastado.  <br/> |**visDynFBUCon5Leg** <br/> |
+| duas  <br/> | Mostra cinco segmentos quando arrastado.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

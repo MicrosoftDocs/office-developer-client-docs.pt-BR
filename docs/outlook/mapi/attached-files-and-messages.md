@@ -1,5 +1,5 @@
 ---
-title: Mensagens e arquivos anexados
+title: Arquivos e mensagens anexados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,76 +8,76 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c4dbe1a761a753bef77168aec8d2674a1b2b100e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318127"
 ---
-# <a name="attached-files-and-messages"></a>Mensagens e arquivos anexados
+# <a name="attached-files-and-messages"></a>Arquivos e mensagens anexados
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se MIME com TNEF é usado durante a codificação de conteúdo da mensagem, todas as propriedades de anexo e o conteúdo são no stream TNEF. O TNEF em si é um arquivo de anexo único, binário denominado Winmail. dat codificado conforme descrito para MIME sem TNEF. 
+Se MIME com TNEF é usado durante a codificação do conteúdo da mensagem, todas as propriedades e o conteúdo do anexo estão no fluxo TNEF. O próprio TNEF é um único arquivo binário anexado chamado winmail. dat, codificado conforme descrito para MIME sem TNEF. 
   
-Se MIME é usado sem TNEF, arquivos anexados são enviados como partes de conteúdo de mensagem MIME. O nome de arquivo é colocado no parâmetro *name* para o cabeçalho de *tipo de conteúdo* do anexo. O conjunto de caracteres para o anexo é colocado no parâmetro *charset* para o *tipo de conteúdo* ; ele e o conteúdo de codificação de transferência são determinados pela verificação do conteúdo do anexo inteiro. Anexos de URL são tratados especialmente: 
+Se MIME for usado sem TNEF, arquivos anexados serão enviados como partes de conteúdo de mensagem MIME. O nome do arquivo é colocado no parâmetro *Name* para o cabeçalho *Content-Type* do anexo. O conjunto de caracteres para o anexo é colocado no parâmetro *charset* para o *tipo de conteúdo* ; e a codificação de transferência de conteúdo é determinada examinando todo o conteúdo do anexo. Os anexos de URL são tratados especialmente: 
   
-- Se o anexo é uma URL (um arquivo anexado com extensão. URL) e o modo de acesso definido em que ele é FTP anônimo, ela é codificada como uma mensagem externa e o conteúdo do arquivo (a URL) é copiado para o cabeçalho da mensagem externo. *Tipo de conteúdo: mensagem/corpo externo; o tipo de acesso = anon ftp*  (Codificação de transferência de conteúdo: 7 bits é assumido.) 
+- Se o anexo for uma URL (um arquivo anexado com extensão. URL) e o modo de acesso definido nele é FTP anônimo, ele é codificado como uma mensagem externa e o conteúdo do arquivo (a URL) é copiado para o cabeçalho da mensagem externa. *Tipo de conteúdo: mensagem/corpo externo; Access-Type = anon-FTP*  (Content-Transfer-Encoding: 7bit é assumido.) 
     
-- Se apenas caracteres de 7 bits forem encontradas e nenhuma linha excede 140 caracteres de comprimento, o anexo é de texto ASCII. *Tipo de conteúdo: texto/simples; charset = us-ascii Content-Transfer-Encoding: 7 bits* 
+- Se apenas caracteres de 7 bits forem encontrados e nenhuma linha exceder 140 caracteres de comprimento, o anexo será texto ASCII. *Tipo de conteúdo: text/plain; charset = conteúdo US-ASCII-transferência-codificação: 7bit* 
     
-- Se as linhas de longo ou backup para 25% em caracteres de 8 bits forem encontradas, o conteúdo do anexo é texto e o conjunto de caracteres é determinado pela localidade do. Ele deve ser escolhido nos conjuntos de caracteres definidos pelo ISO 8859 standard. *Tipo de conteúdo: texto/simples; charset = ISO 8859-1*  (por exemplo) 
+- Se forem encontradas linhas longas ou até 25% de 8 bits, o conteúdo do anexo será texto e o conjunto de caracteres será determinado pela localidade. Ele deve ser escolhido dos conjuntos de caracteres definidos pelo ISO Standard 8859. *Content-Type: text/plain; charset = iso-8859-1*  (por exemplo) 
     
-     *Conteúdo de codificação de transferência: citados-printable* 
+     *Codificação de transferência de conteúdo: quot-imprimível* 
     
-- Se 25% ou mais dos caracteres tiverem definido o bit alto definido, o anexo é binário. Ela é codificada usando o algoritmo de Base64. *Tipo de conteúdo: aplicativo/octeto-fluxo*  (por padrão; com base na extensão do arquivo) 
+- Se 25% ou mais caracteres tiverem o conjunto de bits alto, o anexo será binário. Ele é codificado usando o algoritmo base64. *Tipo de conteúdo: application/octet-stream*  (por padrão; com base na extensão de arquivo) 
     
-     * Conteúdo de codificação de transferência: base64 * 
+     * Codificação de transferência de conteúdo: Base64 * 
     
-Em mensagens de saída, o tipo de conteúdo deve ser derivado de extensão de três letras do nome do arquivo. Esse mapeamento existe no registro do sistema; sob daí é um valor string, denominado "Tipo de conteúdo" que fornece o tipo de conteúdo MIME, se não houver uma definida. Este exemplo é para um arquivo de imagem TIFF:
+Em mensagens de saída, o tipo de conteúdo deve ser derivado da extensão de três letras do nome do arquivo. Este mapeamento existe no registro do sistema; em há um valor de cadeia de caracteres chamado "tipo de conteúdo" que fornece o tipo de conteúdo MIME, se um estiver definido. Este exemplo é para um arquivo de imagem TIFF:
   
-HKEY_LOCAL_MACHINE\
+Definida
   
-Software\
+Software
   
-Microsoft\
+O
   
-Classes\
+Cursos
   
 . tif
   
-Tipo de conteúdo = "image tiff"
+Tipo de conteúdo = "Image/TIFF"
   
-Se não houver nenhum mapeamento para a extensão de arquivo, o fluxo do *aplicativo/octeto* padrão deve ser usado. 
+Se não houver mapeamento para a extensão de arquivo, o fluxo de *aplicativo/octeto* padrão deverá ser usado. 
   
-Em mensagens de entrada, o tipo de conteúdo para um anexo sempre deve ser copiado para a propriedade MAPI **PR_ATTACH_MIME_TAG** ([PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Mesmo se um nome de arquivo é definido para um arquivo anexado, a extensão mapeada por tipo de conteúdo deve ser usada na **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) e propriedades de **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) .
+Em mensagens de entrada, o tipo de conteúdo de um anexo sempre deve ser copiado para a propriedade MAPI **PR_ATTACH_MIME_TAG** ([PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Mesmo que um FileName seja definido para um arquivo anexado, a extensão mapeada pelo tipo de conteúdo deve ser usada nas propriedades **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) e **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) .
   
-O parâmetro *name* oficialmente é substituído pelo RFC 821. À medida que os padrões se desenvolverem, Microsoft considerará especificando um mapeamento alternativo para nomes de arquivo anexado. 
+O parâmetro *Name* é oficialmente preterido pela RFC 821. À medida que os padrões evoluem, a Microsoft considerará a especificação de um mapeamento alternativo para os nomes de fileanexados. 
   
-Mensagens de saída de anexados são enviadas como * tipo de conteúdo: mensagem/rfc822 * mensagens em mensagens anexadas são recursivamente codificado, seus próprios lugares. Entrada de partes de conteúdo da mensagem com *tipo de conteúdo: com diversas partes/resumida* também são mapeados para mensagens inseridas. 
+As mensagens de saída anexadas são enviadas como * Content-Type: message/rfc822 * as mensagens em mensagens anexadas são codificadas recursivamente, em seu lugar adequado. Partes de conteúdo de mensagens de entrada com o *tipo de conteúdo: multipart/Digest* também são mapeadas para mensagens incorporadas. 
   
-Se uuencode com TNEF é usado durante a codificação de conteúdo da mensagem, todas as propriedades de anexo e o conteúdo são no stream TNEF. O TNEF em si é um arquivo de anexo único, binário denominado Winmail. dat codificado como descrito Uuencode sem TNEF.
+Se o uuencode com TNEF é usado durante a codificação do conteúdo da mensagem, todas as propriedades e o conteúdo do anexo estão no fluxo TNEF. O próprio TNEF é um único arquivo binário anexado chamado winmail. dat, codificado conforme descrito em Uuencode sem TNEF.
   
-Se uuencode for usado sem TNEF, todos os arquivos anexados são tratados como binário e uuencoded, seguindo o texto da mensagem. O nome de arquivo está presente no cabeçalho uuencode:
+Se uuencode for usado sem TNEF, todos os arquivos anexados serão tratados como binários e UUencoded, seguindo o texto da mensagem. O nome do arquivo está presente no cabeçalho uuencode:
   
- começar Winmail 0755 
+ iniciar o 0755 Winmail. dat 
   
- … dados … 
+ ... dados... 
   
  end 
   
-Mensagens anexadas são textized no texto da mensagem. A hierarquia das mensagens anexadas sempre é nivelada; ou seja, as mensagens em mensagens anexadas são retiradas para o nível superior.
+As mensagens anexadas são configuradas no texto da mensagem. A hierarquia de mensagens anexadas é sempre achatada; ou seja, as mensagens em mensagens anexadas são retiradas para o nível superior.
   
-Objetos OLE incorporados são descartados.
+Os objetos OLE incorporados são descartados.
   
-Posições de renderização do anexo são transmitidas literalmente, usando a propriedade **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) no TNEF. Se o TNEF não é usado, eles são perdidos. Anexos recebidos com nenhuma posição de renderização (incluindo quando não houver nenhuma TNEF) têm sua posição de renderização não definido como 0xFFFFFFFF, ou seja, nenhuma posição no texto da mensagem.
+As posições de renderização de anexo são transmitidas literalmente, usando a propriedade **PR_ATTACH_RENDERING** ([PIDTAGATTACHRENDERING](pidtagattachrendering-canonical-property.md)) no TNEF. Se o TNEF não for usado, eles serão perdidos. Anexos de entrada sem posição de renderização (incluindo quando não há TNEF) têm sua posição de renderização definida como 0xFFFFFFFF, ou seja, sem posição no texto da mensagem.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Mapeamento dos atributos de email da Internet para propriedades MAPI](mapping-of-internet-mail-attributes-to-mapi-properties.md)
+[Mapeamento de atributos de email da Internet para propriedades MAPI](mapping-of-internet-mail-attributes-to-mapi-properties.md)
 

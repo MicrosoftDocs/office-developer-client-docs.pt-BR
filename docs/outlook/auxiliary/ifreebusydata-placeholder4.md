@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
-description: Este membro é um espaço reservado e não é suportado.
-ms.openlocfilehash: 402521f2454cc7a829ce2aac455feab9aeeb657b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esse membro é um espaço reservado e não tem suporte.
+ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317483"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
-Este membro é um espaço reservado e não é suportado.
+Esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IFreeBusyData](ifreebusydata.md).
+Confira [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder4( 
@@ -36,9 +36,9 @@ HRESULT Placeholder4(
 
 ```
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-Sempre S_OK, porque isso é um espaço reservado e não é suportado.
+Sempre S_OK, porque este é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 
@@ -46,7 +46,7 @@ Este membro deve retornar S_OK.
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de livre/ocupado)](constants-free-busy-api.md)
+- [Constantes (API do serviço de disponibilidade)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)

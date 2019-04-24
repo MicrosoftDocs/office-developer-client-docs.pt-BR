@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
 description: O Outlook fornece uma maneira de especificar um novo domínio de serviço de mensagem para configuração automática e permite que o provedor de serviços de mensagem configure a conta.
 ms.openlocfilehash: bf06ff8d145ed6173e3545f784f8b5b7b5f433be
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316965"
 ---
 # <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Sobre como registrar um novo domínio para configuração automática
 

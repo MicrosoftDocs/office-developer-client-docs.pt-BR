@@ -7,18 +7,18 @@ ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: Saiba como controlar como uma data ou hora é exibida criando uma formatação personalizada.
 localization_priority: Priority
 ms.openlocfilehash: 76ba7361be4f7902a3ee4a1a8d6e51211ad114bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282205"
 ---
 # <a name="custom-date-and-time-formats-for-the-format-function-access-custom-web-app"></a>Formatos de data e hora personalizados da função Format (aplicativo Web personalizado do Access)
 
 Saiba como controlar como uma data ou hora é exibida criando uma formatação personalizada.
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="format-specifications"></a>Especificações de formato
 

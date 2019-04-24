@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c6242c9a926341908cb86645a8ea8586a9ca598
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c25f352e7fa607a46741164574a4ba91d4026edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321669"
 ---
 # <a name="imapiformmgrselectform"></a>IMAPIFormMgr::SelectForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586351"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Apresenta uma caixa de diálogo que permite que o usuário selecione um formulário e retorna um objeto de informações de formulário que descreve nesse formulário.
+Apresenta uma caixa de diálogo que permite ao usuário selecionar um formulário e retorna um objeto de informações de formulário que descreve esse formulário.
   
 ```cpp
 HRESULT SelectForm(
@@ -41,37 +41,37 @@ HRESULT SelectForm(
 
  _ulUIParam_
   
-> [in] Uma alça para a janela pai da caixa de diálogo exibida. 
+> no Uma alça para a janela pai da caixa de diálogo exibida. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres no passado. O seguinte sinalizador pode ser definido:
+> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _pszTitle_
   
-> [in] Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulário fornece uma legenda padrão. 
+> no Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulários fornecerá uma legenda padrão. 
     
  _pfld_
   
-> [in] Um ponteiro para a pasta da qual selecionar o formulário. Se o parâmetro _pfld_ for NULL, o formulário pode ser selecionado do contêiner formulário local, pessoal ou organização. 
+> no Um ponteiro para a pasta na qual o formulário será selecionado. Se o parâmetro _pfld_ for NULL, o formulário pode ser selecionado do contêiner de formulários local, pessoal ou organização. 
     
  _ppfrminfoReturned_
   
-> [out] Um ponteiro para um ponteiro para o objeto de informações do formulário retornado.
+> bota Um ponteiro para um ponteiro para o objeto de informações do formulário retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 MAPI_E_USER_CANCEL 
   
@@ -79,19 +79,19 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IMAPIFormMgr::SelectForm** para presente primeiro uma caixa de diálogo que permite que o usuário selecione um formulário e, em seguida, para recuperar um objeto de informações do formulário que descreve o formulário selecionado. A caixa de diálogo restringe o usuário selecione um formulário simples. 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectForm** para primeiro apresentar uma caixa de diálogo que permite ao usuário selecionar um formulário e, em seguida, recuperar um objeto de informações de formulário que descreve o formulário selecionado. A caixa de diálogo restringe o usuário a selecionar um único Formulário. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A caixa de diálogo **SelectForm** exibe somente os formulários que não estão ocultos (ou seja, formulários que têm as suas propriedades ocultas limpar). Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ , todas as cadeias de caracteres são Unicode. Provedores de biblioteca de formulário que não oferecem suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+A caixa de diálogo **SelectForm** exibe somente formulários que não estão ocultos (ou seja, formulários que têm suas propriedades ocultas desmarcadas). Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres serão Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI usa o método **IMAPIFormMgr::SelectForm** para selecionar um formulário e enviar informações sobre o formulário para um ou mais logs.  <br/> |
+|FolderDlg. cpp  <br/> |CFolderDlg:: OnSelectForm  <br/> |MFCMAPI usa o método **IMAPIFormMgr:: SelectForm** para selecionar um formulário e enviar informações sobre o formulário para um ou mais logs.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -100,5 +100,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

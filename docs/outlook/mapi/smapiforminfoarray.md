@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6c09c271fefcf31dcde01526d65091714c0b682d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e274e24d9aff30bb39b1865306477164d413d9a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319170"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22576271"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de ponteiros para objetos de informações do formulário. 
+Contém uma matriz de ponteiros para objetos de informação de formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
@@ -45,11 +45,11 @@ typedef struct
 
  **cForms**
   
-> Contagem de ponteiros na matriz apontado pelo membro **aFormInfo** . 
+> Contagem de ponteiros na matriz apontada pelo membro **aFormInfo** . 
     
  **aFormInfo**
   
-> Ponteiro para uma matriz de ponteiros para objetos de informações do formulário.
+> Ponteiro para uma matriz de ponteiros para objetos de informação de formulário.
     
 ## <a name="remarks"></a>Comentários
 

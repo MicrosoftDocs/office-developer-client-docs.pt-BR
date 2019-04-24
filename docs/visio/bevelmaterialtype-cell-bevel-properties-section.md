@@ -1,47 +1,47 @@
 ---
-title: Célula BevelMaterialType (Seção Bevel Properties)
+title: Célula BevelMaterialType (seção chanfrar Propriedades)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 30f50a94-88dc-41a3-bb46-45c92d6817a4
-description: Determina o tipo de bisel é composto de material.
-ms.openlocfilehash: cd4ab223754ffcf7f46478cbc65faff373a3d692
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tipo de material no qual o bisel é composto.
+ms.openlocfilehash: b8efaa1f84594c803c79be02cd88dda1a5346dc7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315761"
 ---
-# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>Célula BevelMaterialType (Seção Bevel Properties)
+# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>Célula BevelMaterialType (seção chanfrar Propriedades)
 
-Determina o tipo de bisel é composto de material. 
+Determina o tipo de material no qual o bisel é composto. 
   
 |**Descrição**|**Valor**|
 |:-----|:-----|
-|0  <br/> |Nenhum material especial  <br/> |
+|,0  <br/> |Nenhum material especial  <br/> |
 |1  <br/> |Fosco  <br/> |
-|2  <br/> |Mate Quente  <br/> |
-|3  <br/> |Plástico  <br/> |
-|4  <br/> |Metal  <br/> |
-|5  <br/> |Borda escura  <br/> |
+|duas  <br/> |Mate Quente  <br/> |
+|3D  <br/> |Plástico  <br/> |
+|quatro  <br/> |Metal  <br/> |
+|0,5  <br/> |Borda escura  <br/> |
 |6  <br/> |Borda Suave  <br/> |
-|7  <br/> |Plano  <br/> |
+|178  <br/> |Plano  <br/> |
 |8  <br/> |Estrutura  <br/> |
-|9  <br/> |Pó  <br/> |
-|10  <br/> |Pó Translúcido  <br/> |
+|241  <br/> |Pó  <br/> |
+|254  <br/> |Pó Translúcido  <br/> |
 |11  <br/> |Limpar  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **BevelMaterialType** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **BevelMaterialType** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | BevelMaterialType  <br/> |
    
-Para obter uma referência à célula **BevelMaterialType** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **BevelMaterialType** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06fe8d33b98d9d2a211dba497bd99ff0ec21bbf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318043"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [FLATENTRYLIST](flatentrylist.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp

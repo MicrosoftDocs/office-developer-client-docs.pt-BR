@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 865d929f3348710b7786f4182670f3304a3a9244
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17e900ac28481388379133a95b4b206ca4bc1805
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318421"
 ---
 # <a name="attowner"></a>attOwner
 
@@ -21,18 +21,18 @@ ms.locfileid: "22578035"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O atributo **attOwner** é codificado como cadeias de caracteres contadas apresentados ponta a ponta. O formato **attOwner** é da seguinte maneira: 
+O atributo **attOwner** é codificado como cadeias de caracteres contadas de ponta a ponta. O formato de **attOwner** é o seguinte: 
   
  **attOwner**: 
   
-> nome para exibição do comprimento do nome de exibição endereço-comprimento _endereço de email_
+> display-name-Name de nome de exibição endereço de _email-endereço_
     
- _endereço de email_
+ _email-endereço_
   
-> endereço do tipo **:** 
+> tipo **:** endereço 
     
-Ao contrário de outro comprimento valores, o comprimento do nome de exibição e endereço comprimento são valores de 16 bits não assinados, em vez de inteiros longos não assinados. Eles ainda incluem abortar caracteres null, no entanto. As cadeias de caracteres de tipo e endereço na entrada de _endereço de email_ são separadas por um caractere de dois-pontos (:) literal, como "smtp:joe@nowhere.com". Somente a sequência de endereço do tipo combinada **:** é terminada em nulo.
+Diferentemente de outros valores de comprimento, o nome de exibição e comprimento de endereço são valores de 16 bits não assinados em vez de inteiros longos não assinados. No entanto, eles ainda incluem o encerramento de caracteres nulos. As cadeias de caracteres de tipo e endereço na entrada de _endereço de email_ são separadas por um caractere de dois-pontos literal (:) caractere, como "SMTP:Joe@nowhere.com". Somente o tipo combinado **:** cadeia de caracteres de endereço é terminada em nulo.
   
-O mapeamento das propriedades MAPI para o atributo **attOwner** é dependente a classe de mensagem da mensagem que está sendo codificada. 
+O mapeamento de propriedades MAPI para o atributo **attOwner** depende da classe de mensagem da mensagem que está sendo codificada. 
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 074a806a710ce8c11adba815951c93c25d8cae7c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aeb8b090997bd0c4f51f872b36d6520547846f7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321543"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
@@ -37,13 +37,13 @@ HRESULT CopyMessage(
 
  _pFolderDestination_
   
-> [in] Um ponteiro para a pasta onde a mensagem deve ser copiado.
+> no Um ponteiro para a pasta onde a mensagem deve ser copiada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
@@ -51,29 +51,29 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método **IMAPIMessageSite::CopyMessage** para copiar a mensagem atual para uma nova pasta. **CopyMessage** não altera a mensagem atualmente estiver sendo exibida ao usuário e nenhuma interface para a mensagem recém-criado é retornado ao formulário. 
+Os objetos Form chamam o método **IMAPIMessageSite:: CopyMessage** para copiar a mensagem atual para uma nova pasta. **CopyMessage** não altera a mensagem que está sendo exibida para o usuário e nenhuma interface para a mensagem recém-criada é retornada ao formulário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Uma implementação típica do método **CopyMessage** executa as seguintes tarefas: 
   
-1. Cria uma nova mensagem para a mensagem atual deve ser copiado para.
+1. Cria uma nova mensagem para a mensagem atual a ser copiada.
     
-2. Chama o método [IPersistMessage::Save](ipersistmessage-save.md) com um ponteiro para a nova mensagem no parâmetro _pMessage_ e FALSE no parâmetro _fSameAsLoad_ . 
+2. Chama o método [IPersistMessage:: Save](ipersistmessage-save.md) com um ponteiro para a nova mensagem no parâmetro _PMessage_ e false no parâmetro _fSameAsLoad_ . 
     
-3. Chama o método [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) , passando NULL no parâmetro _pMessage_ . 
+3. Chama o método [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) , passando NULL no parâmetro _PMessage_ . 
     
-4. Chama o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) na nova mensagem. 
+4. Chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) na nova mensagem. 
     
-Para obter uma lista das interfaces que estão relacionados aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulários MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Não foi implementado.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: CopyMessage  <br/> |Não implementado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -88,7 +88,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulário MAPI](mapi-form-interfaces.md)
 

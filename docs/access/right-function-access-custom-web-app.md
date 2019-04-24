@@ -1,5 +1,5 @@
 ---
-title: Função Right (aplicativo da web personalizado do Access)
+title: Função Right (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
 description: Retorna a parte direita de uma cadeia de caracteres com o número especificado de caracteres.
-ms.openlocfilehash: d192e0a2d592cc2e23319289c6d5b134d6a7f1a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb87f6d238802a950a4858bae942f75fdefc1d5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310924"
 ---
-# <a name="right-function-access-custom-web-app"></a>Função Right (aplicativo da web personalizado do Access)
+# <a name="right-function-access-custom-web-app"></a>Função Right (aplicativo Web personalizado do Access)
 
 Retorna a parte direita de uma cadeia de caracteres com o número especificado de caracteres.
   
@@ -23,13 +23,13 @@ Retorna a parte direita de uma cadeia de caracteres com o número especificado d
   
 ## <a name="syntax"></a>Sintaxe
 
- **À direita** (*TextExpression*, *comprimento*) 
+ **À direita** (*TextName*, *Length*) 
   
-A função **direita** contém os seguintes argumentos. 
+A função **Right** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
-| *Length*  <br/> |É um inteiro positivo que especifica quantos caracteres do *TextExpression* são retornados.  <br/> |
+| *Length*  <br/> |É um inteiro positivo que especifica o número de caracteres do *texto* de retorno.  <br/> |
    
 

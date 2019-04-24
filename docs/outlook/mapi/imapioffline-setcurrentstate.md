@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 13a4cf401cf51241a52401668eef008d65aa5459
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b6837b51b09ecd9a60630c613e1806cb10c1d87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321207"
 ---
 # <a name="imapiofflinesetcurrentstate"></a>IMAPIOffline::SetCurrentState
 
@@ -40,11 +40,11 @@ HRESULT SetCurrentState(
 
  _ulFlags_
   
-> [in] Modifica o comportamento desta chamada. Os valores suportados são:
+> no Modifica o comportamento dessa chamada. Os valores com suporte são:
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> A definição de _ulFlags_ como esse valor bloqueará a chamada **SetCurrentState** até que a alteração de estado seja concluída. Por padrão a transição é feita de forma assíncrona. Quando a transição está ocorrendo de forma assíncrona, todas as chamadas **SetCurrentState** retornará **E_PENDING** até que a alteração seja concluída. 
+> A definição de _parâmetroulflags_ para esse valor bloqueará a chamada setcurrentstate até a alteração de Estado ser concluída. **** Por padrão, a transição ocorre de forma assíncrona. Quando a transição ocorrer de forma assíncrona, **** todas as chamadas setcurrentstate retornarão **E_PENDING** até que a alteração seja concluída. 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
@@ -52,11 +52,11 @@ MAPIOFFLINE_FLAG_DEFAULT
     
  _ulMask_
   
-> [in] A parte do estado para alterar. O único valor com suporte é MAPIOFFLINE_STATE_OFFLINE_MASK.
+> no A parte do estado a ser alterada. O único valor com suporte é MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulState_
   
-> [in] Para alterar para o estado. Ele deve ser um destes dois valores:
+> no O estado para o qual mudar. Deve ser um destes dois valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,9 +66,9 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _Preservadas_
+ _Enquanto_
   
-> Este parâmetro é reservado para uso interno do Outlook e não é suportado. 
+> Este parâmetro é reservado para uso interno do Outlook e não tem suporte. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -78,7 +78,7 @@ S_OK
     
 E_PENDING
   
-> Isso indica que o estado do objeto offline está mudando de forma assíncrona. Esse problema ocorre quando _ulFlags_ estiver definido como MAPIOFFLINE_FLAG_BLOCK em uma chamada de **SetCurrentState** anterior e qualquer chamada **SetCurrentState** subsequente irá retornar esse valor até que a alteração de estado assíncrona seja concluída. 
+> Isso indica que o estado do objeto offline está mudando de forma assíncrona. Isso ocorre quando o _parâmetroulflags_ é definido como MAPIOFFLINE_FLAG_BLOCK em uma **** chamada setcurrentstate anterior e qualquer chamada **** setcurrentstate subsequente retornará esse valor até que a alteração de estado assíncrona seja concluída. 
     
 ## <a name="see-also"></a>Confira também
 

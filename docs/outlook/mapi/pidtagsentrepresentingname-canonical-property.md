@@ -11,11 +11,11 @@ api_type:
 ms.assetid: bfee6c5e-d4c6-442e-af71-23156569fed5
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8e2df13f4e9c5d1d636c4f71ea6805ac031899e9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314928"
 ---
 # <a name="pidtagsentrepresentingname-canonical-property"></a>Propriedade canônica PidTagSentRepresentingName
 
@@ -23,7 +23,7 @@ ms.locfileid: "25383066"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de exibição para o usuário mensagens representado pelo remetente.
+Contém o nome para exibição do usuário de mensagens representado pelo remetente.
   
 |||
 |:-----|:-----|
@@ -34,71 +34,71 @@ Contém o nome de exibição para o usuário mensagens representado pelo remeten
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades de endereço para o usuário de mensagens está sendo representado pelo remetente. Quando um aplicativo cliente envia uma mensagem em nome de outro cliente, ele deve definir todas as propriedades de remetente representado para os valores para que o cliente. Um usuário de mensagens enviando em seu próprio nome geralmente deixa as propriedades de remetente representado não definidas.
+Essas propriedades são exemplos das propriedades de endereço do usuário de mensagens que está sendo representado pelo remetente. Quando um aplicativo cliente envia uma mensagem em nome de outro cliente, ele deve definir todas as propriedades de remetente representadas para os valores desse cliente. Um usuário de mensagens enviando em seu próprio nome normalmente deixa as propriedades do remetente representadas como não contratadas.
   
-O provedor de transporte de saída deve sempre deixar essa propriedade inalterada se ele tiver sido definido pelo cliente de envio. Se ela foi removida, o provedor de transporte deve defini-la como **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) na cópia de saída da mensagem e deixá-lo não definidas na cópia local.
+O provedor de transporte de saída sempre deve deixar essa propriedade inalterada se tiver sido definida pelo cliente de envio. Se estiver indefinido, o provedor de transporte deve defini-lo como **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) na cópia de saída da mensagem e deixá-lo desdefinido na cópia local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/cc433482%28EXCHG.80%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/cc463884%28EXCHG.80%29.aspx)
   
-> Especifica as propriedades e operações que representam os itens RSS.
+> Especifica as propriedades e operações que representam itens RSS.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica o local e as propriedades de dados de configuração de cliente e servidor, como listas de categoria compartilhada e o horário de trabalho.
+> Especifica o local e as propriedades dos dados de configuração de cliente e de servidor, como listas de categorias compartilhadas e horários de trabalho.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com objetos de mensagem e calendário quando eles atuam em nome de outro usuário.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para postagem objetos.
+> Especifica as propriedades e as operações que são permitidas para objetos post.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contato e objetos de lista de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para os objetos de contato e lista de distribuição pessoal.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
+> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -109,7 +109,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

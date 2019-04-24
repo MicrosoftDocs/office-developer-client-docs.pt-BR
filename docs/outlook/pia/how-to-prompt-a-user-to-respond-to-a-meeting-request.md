@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26e59cca7431e9f11f3fea5fa058548b9a5903a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320045"
 ---
 # <a name="prompt-a-user-to-respond-to-a-meeting-request"></a>Solicitar que um usuário responda a uma solicitação de reunião
 
@@ -27,7 +27,7 @@ O método [Respond](https://msdn.microsoft.com/library/bb647086\(v=office.15\)) 
 
 No exemplo código a seguir, PromptUserMeetingRequest enumera por meio de objetos [MeetingItem](https://msdn.microsoft.com/library/bb645703\(v=office.15\)) para que obter os objetos **AppointmentItem** associados, e chama o método **Respond** com o parâmetro *fNoUI* definido como **false** e o parâmetro *fAdditionalTextDialog* definido como **true**. Isso permite ao usuário escolher se deseja enviar uma resposta e se deseja editar o corpo da resposta antes de enviá-la.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

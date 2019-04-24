@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318078"
 ---
 # <a name="autocomplete-stream"></a>Fluxo de preenchimento automático
 
@@ -79,11 +79,11 @@ Em geral, o layout do fluxo de preenchimento automático é o seguinte:
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Metadados  <br/> |4  <br/> |
-|Número da Versão Principal  <br/> |4  <br/> |
-|Número da Versão Secundária  <br/> |4  <br/> |
+|Metadados  <br/> |quatro  <br/> |
+|Número da Versão Principal  <br/> |quatro  <br/> |
+|Número da Versão Secundária  <br/> |quatro  <br/> |
 |Conjunto de linhas  <br/> |Variável  <br/> |
-|EI de contagem de bytes de informações extras  <br/> |4  <br/> |
+|EI de contagem de bytes de informações extras  <br/> |quatro  <br/> |
 |Informações extras  <br/> |EI  <br/> |
 |Metadados  <br/> |8  <br/> |
    
@@ -98,7 +98,7 @@ O layout do conjunto de linhas é o seguinte:
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de linhas  <br/> |4  <br/> |
+|Número de linhas  <br/> |quatro  <br/> |
 |Linhas  <br/> |Variável  <br/> |
    
 O número de linhas identifica quantas linhas existem na próxima parte da sequência de fluxo binário.
@@ -109,7 +109,7 @@ Cada linha tem o seguinte formato:
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de Propriedades  <br/> |4  <br/> |
+|Número de Propriedades  <br/> |quatro  <br/> |
 |Propriedades  <br/> |Variável  <br/> |
    
 O número de propriedades identifica quantas propriedades existem na próxima parte da sequência de fluxo binário.
@@ -120,8 +120,8 @@ Cada propriedade tem o seguinte formato:
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Marca de Propriedade  <br/> |4  <br/> |
-|Dados Reservados  <br/> |4  <br/> |
+|Marca de Propriedade  <br/> |quatro  <br/> |
+|Dados Reservados  <br/> |quatro  <br/> |
 |União do Valor da Propriedade  <br/> ||
 |Dados do Valor  <br/> |0 ou variável (dependendo da marca propr)  <br/> |
    
@@ -151,49 +151,49 @@ PT_STRING8
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
-|Bytes a interpretar como uma cadeia de caracteres ANSI (inclui um terminador NULL)  <br/> |n  <br/> |
+|Número de bytes n  <br/> |quatro  <br/> |
+|Bytes a interpretar como uma cadeia de caracteres ANSI (inclui um terminador NULL)  <br/> |m  <br/> |
    
 PT_CLSID
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Bytes a interpretar como um GUID  <br/> |16  <br/> |
+|Bytes a interpretar como um GUID  <br/> |dezesseis  <br/> |
 |||
    
 PT_BINARY 
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
+|Número de bytes n  <br/> |quatro  <br/> |
 |Bytes a serem interpretados como uma matriz de byte  <br/> |n  <br/> |
    
 PT_ERROR
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
+|Número de bytes n  <br/> |quatro  <br/> |
 |Bytes a serem interpretados como uma matriz de byte  <br/> |n  <br/> |
    
 PT_MV_BINARY
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de matrizes binárias X  <br/> |4  <br/> |
+|Número de matrizes binárias X  <br/> |quatro  <br/> |
 |Uma execução de bytes com X matrizes binárias. Cada matriz deve ser interpretada exatamente como a execução de byte PT_BINARY.  <br/> |Variável  <br/> |
    
 PT_MV_STRING8 (Outlook 2007, Outlook 2010, and Outlook 2013)
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de cadeias de caracteres ANSI X  <br/> |4  <br/> |
+|Número de cadeias de caracteres ANSI X  <br/> |quatro  <br/> |
 |Uma execução de bytes com X cadeias de caracteres ANSI. Cada cadeia de caracteres deve ser interpretada exatamente como a execução de byte PT_STRING8.  <br/> |Variável  <br/> |
    
 PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
   
 |**Dados do Valor**|**Número de Bytes**|
 |:-----|:-----|
-|Número de cadeias de caracteres UNICODE X  <br/> |4  <br/> |
+|Número de cadeias de caracteres UNICODE X  <br/> |quatro  <br/> |
 |Uma execução de bytes que contém X cadeias de caracteres UNICODE. Cada cadeia de caracteres deve ser interpretada exatamente como a execução de byte PT_UNICODE.  <br/> |Variável  <br/> |
    
 ## <a name="significant-properties"></a>Propriedades significativas

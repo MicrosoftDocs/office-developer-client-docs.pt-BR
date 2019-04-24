@@ -1,5 +1,5 @@
 ---
-title: Função Left (aplicativo da web personalizado do Access)
+title: Função Left (aplicativo da Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2c726a3-29b2-491b-9c14-b4523f7f08f2
 description: Retorna a parte esquerda de uma cadeia de caracteres com o número especificado de caracteres.
-ms.openlocfilehash: c1204173ff5eceef9584aadc794227034214380f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a2ba6f43701552a2dba2b983f405d4f3d898bad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311099"
 ---
-# <a name="left-function-access-custom-web-app"></a>Função Left (aplicativo da web personalizado do Access)
+# <a name="left-function-access-custom-web-app"></a>Função Left (aplicativo da Web personalizado do Access)
 
 Retorna a parte esquerda de uma cadeia de caracteres com o número especificado de caracteres.
   
@@ -23,13 +23,13 @@ Retorna a parte esquerda de uma cadeia de caracteres com o número especificado 
   
 ## <a name="syntax"></a>Sintaxe
 
- **À esquerda** (*TextExpression*, *comprimento*) 
+ **À esquerda** (*TextName*, *Length*) 
   
-Função **Left** contém os seguintes argumentos. 
+A função **Left** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
-| *Length*  <br/> |É um inteiro positivo que especifica quantos caracteres do *TextExpression* são retornados.  <br/> |
+| *Length*  <br/> |É um inteiro positivo que especifica o número de caracteres do *texto* de retorno.  <br/> |
    
 

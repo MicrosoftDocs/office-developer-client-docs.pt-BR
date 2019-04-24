@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7b2761e20444c51d08380aee01c41eee797733eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321410"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
@@ -38,17 +38,17 @@ HRESULT DeleteMessage(
 
  _pViewContext_
   
-> [in] Um ponteiro para um objeto de contexto do modo de exibição.
+> no Um ponteiro para um objeto de contexto de exibição.
     
  _prcPosRect_
   
-> [in] Um ponteiro para uma estrutura de [Retangular](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário. A próxima forma exibida também usa esse retângulo de janela. 
+> no Um ponteiro para uma estrutura de [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário atual. O próximo formulário também usa este retângulo de janela. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
@@ -56,29 +56,29 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentários
 
-Um objeto form chama o método **IMAPIMessageSite::DeleteMessage** para excluir a mensagem que o formulário está exibindo no momento. 
+Um objeto Form chama o método **IMAPIMessageSite::D eletemessage** para excluir a mensagem que o formulário está exibindo no momento. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Após o retorno de **DeleteMessage**, os objetos de formulário devem verificar se há uma nova mensagem e, em seguida, descartar sozinhos, se não houver nenhum. Para determinar se a mensagem **que deletemessage** realizadas foi excluída ou movida para uma pasta de **Itens excluídos** , um objeto form pode chamar o método [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) para determinar se o sinalizador DELETE_IS_MOVE foi retornado. 
+Após o retorno de **DeleteMessage**, os objetos Form devem verificar uma nova mensagem e, em seguida, se não houver nenhum. Para determinar se a mensagem **DeleteMessage** atuou em foi excluída ou movida para uma pasta **itens excluídos** , um objeto Form pode chamar o método [IMAPIMessageSite:: GetSiteStatus](imapimessagesite-getsitestatus.md) para determinar se o sinalizador DELETE_IS_MOVE foi retornado. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se a implementação do Visualizador de um formulário do método **DeleteMessage** move para a próxima mensagem após ela exclui uma mensagem, a implementação deve chamar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) e passar o sinalizador VCDIR_DELETE antes de executar a exclusão real. Se a implementação do Visualizador de um formulário de **DeleteMessage** move a mensagem excluída (por exemplo, para uma pasta de **Itens excluídos** ), a implementação deve salvar alterações na mensagem se a mensagem foi modificada. 
+Se a implementação de um visualizador de formulários do método **DeleteMessage** for movida para a próxima mensagem depois de excluir uma mensagem, a implementação deverá chamar o método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) e passar o sinalizador VCDIR_DELETE antes de executar a exclusão real. Se a implementação de um visualizador de formulários do **DeleteMessage** mover a mensagem excluída (por exemplo, para uma pasta **itens excluídos** ), a implementação deverá salvar as alterações na mensagem se a mensagem tiver sido modificada. 
   
-Uma implementação típica de **DeleteMessage** executa as seguintes tarefas: 
+Uma implementação típica do **DeleteMessage** realiza as seguintes tarefas: 
   
-1. Se a mensagem está se movendo a implementação, ele chama o método [IPersistMessage::Save](ipersistmessage-save.md) , passando **null** no parâmetro _pMessage_ e **true** no parâmetro _fSameAsLoad_ . 
+1. Se a implementação estiver movendo a mensagem, ela chamará o método [IPersistMessage:: Save](ipersistmessage-save.md) , passando **NULL** no parâmetro _PMessage_ e **true** no parâmetro _fSameAsLoad_ . 
     
-2. Ele chama o método **IMAPIViewContext::ActivateNext** , passando o sinalizador VCDIR_DELETE no parâmetro _ulDir_ . 
+2. Ele chama o método **IMAPIViewContext:: ActivateNext** , passando o sinalizador VCDIR_DELETE no parâmetro _ulDir_ . 
     
-3. Se a chamada **ActivateNext** falha, será retornado. Se **ActivateNext** retornar S_FALSE, ele chama o método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) . 
+3. Se a chamada **ActivateNext** falhar, ela retornará. Se **ActivateNext** retornar S_FALSE, ele chamará o método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) . 
     
-4. Exclui ou move a mensagem.
+4. Ele exclui ou move a mensagem.
     
-Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+Para obter a estrutura do **Rect** usada pela janela de um formulário, chame a função [GetWindowRect](https://msdn.microsoft.com/library/ms633519) do Windows. 
   
-Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
+Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -86,7 +86,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::DeleteMessage  <br/> |Não foi implementado.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer::D eleteMessage  <br/> |Não implementado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

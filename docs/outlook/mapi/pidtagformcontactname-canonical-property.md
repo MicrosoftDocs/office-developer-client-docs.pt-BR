@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316251"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Propriedade canônica PidTagFormContactName
 
@@ -32,23 +32,23 @@ Contém o nome de um contato para obter informações sobre um formulário.
 |Propriedades associadas:  <br/> |PR_FORM_CONTACT_NAME, PR_FORM_CONTACT_NAME_A, PR_FORM_CONTACT_NAME_W  <br/> |
 |Identificador:  <br/> |0x3303  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Normalmente, o contato contém o nome de uma pessoa ou um alias que é responsável por manter o formulário. 
+O contato normalmente contém o nome de uma pessoa ou um alias responsável por manter o formulário. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -10,11 +10,11 @@ ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310903"
 ---
 # <a name="data-types-used-by-excel"></a>Tipos de dados usados pelo Excel
 
@@ -91,12 +91,12 @@ Reproduzimos e abordamos a tabela a seguir com mais detalhes no tópico [xlfRegi
 |[signed long] int  <br/> |J  <br/> |N  <br/> |32 bits  <br/> |
 |Array  <br/> ||O  <br/> | Passados como três argumentos por referência:  <br/>1. short int \*rows  <br/>2. short int \*columns  <br/>3. double \*array  <br/> |
 |Matriz  <br/> (iniciando em Excel 2007)  <br/> ||O%  <br/> | Passados como três argumentos por referência:  <br/>1. int \*rows  <br/>2. int \*columns  <br/>3. double \*array  <br/> |
-|FP  <br/> ||C  <br/> |Estrutura de matriz do ponto flutuante  <br/> |
+|FP  <br/> ||K  <br/> |Estrutura de matriz do ponto flutuante  <br/> |
 |FP12  <br/> (iniciando em Excel 2007)  <br/> ||K%  <br/> |Estrutura de matriz do ponto flutuante de grade grande  <br/> |
 |XLOPER  <br/> ||P  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
-|||S  <br/> |Referências de valores, matrizes e intervalos  <br/> |
+|||R  <br/> |Referências de valores, matrizes e intervalos  <br/> |
 |XLOPER12  <br/> (iniciando em Excel 2007)  <br/> ||I  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
-|||S  <br/> |Referências de valores, matrizes e intervalos  <br/> |
+|||U  <br/> |Referências de valores, matrizes e intervalos  <br/> |
    
 Os tipos **C%**, **F%**, **D%**, **G%**, **K%**, **O%**, **Q** e **U** eram todos novos no Microsoft Office Excel 2007 e não têm suporte nas versões anteriores. Os tipos de cadeias de caracteres **F**, **F%**, **G** e **G%** são usados para argumentos passíveis de modificação no local. Quando os argumentos **XLOPER** ou **XLOPER12** são registrados como tipos **P** ou **Q**, respectivamente, o Excel converte as referências de célula única em valores simples e as referências de várias células em matrizes, depois de prepará-las. 
   

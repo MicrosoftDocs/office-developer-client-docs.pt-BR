@@ -7,30 +7,30 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- função xlfRegister [excel 2007]
+- função xlfregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a535018e2b644966d183ba9ae862ce83670c9231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66af741456ab763ef346a8777429f0ae1be77c11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310119"
 ---
 # <a name="xlfregister-form-2"></a>xlfRegister (Formulário 2)
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pode ser chamado a partir de um comando DLL ou XLL próprio foi chamado pelo Microsoft Excel. Isso é equivalente a chamar **registrar** a partir de uma folha de macro do Excel XLM. 
+Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **Register** de uma folha de macro XLM do Excel. 
   
-A função **xlfRegister** pode ser chamada de duas formas: 
+A função **xlfRegister** pode ser chamada em duas formas: 
   
-- [xlfRegister (formulário 1)](xlfregister-form-1.md): registra um comando individual ou uma função.
+- [xlfRegister (formulário 1)](xlfregister-form-1.md): registra um comando ou função individual.
     
-- xlfRegister (formulário 2): cargas e ativa um XLL.
+- xlfRegister (Formato 2): carrega e ativa um XLL.
     
-Chamado no formulário 2, essa função pode ser usada apenas para carregar e ativar um XLL contendo um procedimento [xlAutoOpen](xlautoopen.md) . 
+Chamado no formato 2, essa função só pode ser usada para carregar e ativar um XLL contendo um procedimento [xlAutoOpen](xlautoopen.md) . 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -40,15 +40,15 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
  _pxModuleText_ (**xltypeStr**)
   
-O nome da DLL seja carregado e ativado.
+O nome da DLL a ser carregada e ativada.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se tiver êxito, isso retorna o nome da DLL (**xltypeStr**). Caso contrário, ele retornará um #VALUE! erro.
+Se tiver êxito, retornará o nome da DLL (**xltypeStr**). Caso contrário, retornará um #VALUE! #NUM!
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
+[Funções XLM essenciais e úteis para a API C](essential-and-useful-c-api-xlm-functions.md)
 

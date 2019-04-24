@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fed1e7eb39f31ddd4340fc82a16e31ec67523a9d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320283"
 ---
 # <a name="get-a-folder-based-on-its-folder-path"></a>Obter uma pasta com base em seu caminho da pasta
 
@@ -25,7 +25,7 @@ Este exemplo usa um caminho da pasta e obtém a pasta associada.
 
 No exemplo de código a seguir, o método GetKeyContacts usa a propriedade [GetRootFolder()](https://msdn.microsoft.com/library/bb645807\(v=office.15\)) para obter o caminho da pasta Contatos Principais dos Contatos\\. O método GetFolder é então chamado usando a propriedade [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) como argumento. Se GetFolder retornar uma pasta, aparecerá uma mensagem dizendo que os contatos principais foram encontrados. O método GetFolder utiliza um caminho para uma pasta e retorna o objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) correto. Isso é feito primeiro dividindo a propriedade **FolderPath** em uma matriz de cadeia de caracteres e depois usando a matriz para localizar a **Folder** correta a partir da parte superior da propriedade **FolderPath**. Se a pasta especificada não for encontrada, GetFolder retornará uma referência nula.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
