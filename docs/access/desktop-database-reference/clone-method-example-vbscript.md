@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296329"
 ---
 # <a name="clone-method-example-vbscript"></a>Exemplo do método Clone (VBScript)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.
 
 Utilize o exemplo a seguir em um Active Server Page (ASP). Esse exemplo utiliza o banco de dados Northwind distribuído com o Microsoft Access. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **CloneVBS.asp**. É possível ver o resultado em qualquer navegador cliente.
 
-Para exercitar o exemplo, altere a linha RsCustomerList.Source = "Customers" para a RsCustomerList.Source = "Products" para contar uma tabela maior.
+Para exercitar o exemplo, altere a linha RsCustomerList. Source = "Customers" para RsCustomerList. Source = "Products" para contar uma tabela maior.
 
 ```vb 
  

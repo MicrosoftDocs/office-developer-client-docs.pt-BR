@@ -1,5 +1,5 @@
 ---
-title: Método Connection.Cancel (DAO)
+title: Método Connection. Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0826a30f22cc46eb6ff9a114dbf02cab1d9f76a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295965"
 ---
-# <a name="connectioncancel-method-dao"></a>Método Connection.Cancel (DAO)
+# <a name="connectioncancel-method-dao"></a>Método Connection. Cancel (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . Cancelar
 
-*expressão* Uma variável que representa um objeto de **Conexão** .
+*expressão* Uma variável que representa um objeto **Connection** .
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **Cancel** para terminar a execução de uma chamada de método assíncrona **Execute** ou **OpenConnection** (ou seja, o método foi chamado com a opção dbRunAsync). **Cancelar** retornará um erro em tempo de execução se dbRunAsync não foi usada no método que você está tentando finalizar.
+Use o método **Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync). **Cancel** retornará um erro em tempo de execução se dbRunAsync não tiver sido usado no método que você está tentando encerrar.
 
 Ocorrerá um erro se, após uma chamada do método **Cancel**, você tentar fazer referência ao objeto que tiver sido criado por uma chamada assíncrona de **OpenConnection** (ou seja, o objeto **Connection** a partir do qual você chamou o método **Cancel**).
 

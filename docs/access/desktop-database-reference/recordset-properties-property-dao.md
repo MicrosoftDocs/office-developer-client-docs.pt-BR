@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset.Properties (DAO)
+title: Propriedade Recordset. Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: ea971737-8d2e-c31e-953f-72d1dea1afd2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836240(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 97352a9b2dc8b6588052b28e9dc40c29f9b41898
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309447"
 ---
-# <a name="recordsetproperties-property-dao"></a>Propriedade Recordset.Properties (DAO)
+# <a name="recordsetproperties-property-dao"></a>Propriedade Recordset. Properties (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto especificado. Somente leitura.
 

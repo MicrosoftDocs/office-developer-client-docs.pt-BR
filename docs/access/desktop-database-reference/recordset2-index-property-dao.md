@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.Index (DAO)
+title: Propriedade Recordset2. Index (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05a29ff9dbe720fe7c5539639b20e0abdc3c587b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307298"
 ---
-# <a name="recordset2index-property-dao"></a>Propriedade Recordset2.Index (DAO)
+# <a name="recordset2index-property-dao"></a>Propriedade Recordset2. Index (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que indica o nome do objeto **[Index](index-object-dao.md)** atual em um objeto **[Recordset](recordset-object-dao.md)** do tipo tabela (somente nos espaços de trabalho do Microsoft Access).
 
@@ -36,7 +36,7 @@ Examine a coleção **Indexes** de um objeto **TableDef** para determinar quais 
 
 Gere um novo índice da tabela pela criação de um novo objeto **Index**, pela definição de suas propriedades, pelo acréscimo à coleção **Indexes** do objeto base **TableDef** e depois pela reabertura do objeto **Recordset**.
 
-Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar registros em alguma outra ordem, você pode abrir um dynaset, instantâneo ou objeto **Recordset** do tipo somente encaminhamento, usando uma instrução SQL com uma cláusula ORDER BY.
+Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar registros em alguma outra ordem, você pode abrir um objeto **Recordset** do tipo dynaset, instantâneo – ou Forward – somente usando uma instrução SQL com uma cláusula order by.
 
 > [!NOTE]
 > - Não é necessário criar índices para tabelas. Em tabelas grandes e não indexadas, o acesso a um registro específico ou a criação do objeto **Recordset** podem demorar muito. Por outro lado, a criação excessiva de índices diminui a velocidade das operações de atualização, acréscimo e exclusão porque todos os índices são atualizados automaticamente.

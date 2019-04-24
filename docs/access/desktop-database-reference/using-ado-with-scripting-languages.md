@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1ab0615d1c16900e86a844635fad4ac9a90751a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312037"
 ---
 # <a name="using-ado-with-scripting-languages"></a>Uso do ADO com linguagens de script
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Em um ambiente de script, o ADO permite expor dados através de um script de servidor. Nesse cenário, o ADO, o provedor OLE DB subjacente que o utiliza e qualquer outro componente necessário para a referência a um repositório de dados específico serão instalados em um servidor que esteja executando o Internet Information Services (IIS). Quando você utiliza o Active Server Pages (ASP), o ADO é um componente referenciado em um script que pode gerar HTML, por exemplo. Esse conteúdo HTML pode ser passado via HTTP para um navegador da web de cliente. Com o uso de scripts, a página da Web pode enviar ações de volta para o script do lado do servidor, permitindo que você atualizar, atravessar ou exibir dados específicos.
+Em um ambiente de script, o ADO permite expor dados através de um script de servidor. Nesse cenário, o ADO, o provedor OLE DB subjacente que o utiliza e qualquer outro componente necessário para a referência a um repositório de dados específico serão instalados em um servidor que esteja executando o Internet Information Services (IIS). Quando você utiliza o Active Server Pages (ASP), o ADO é um componente referenciado em um script que pode gerar HTML, por exemplo. Esse conteúdo HTML pode ser transmitido via HTTP para um navegador da Web do cliente. Por meio do uso de scripts, a página da Web pode enviar ações de volta para o script do lado do servidor, permitindo que você atualize, percorra ou exiba dados específicos.
 
 ## <a name="odbc-data-sources"></a>Fontes de dados ODBC
 
@@ -35,6 +35,6 @@ N/A com linguagens de script.
 
 Os tópicos a seguir contêm informações mais específicas sobre como usar o ADO com linguagens de script:
 
-- [Programação ADO JScript](jscript-ado-programming.md)
+- [Programação do ADO no JScript](jscript-ado-programming.md)
 
-- [Programação ADO VBScript](vbscript-ado-programming.md)
+- [Programação do ADO no VBScript](vbscript-ado-programming.md)

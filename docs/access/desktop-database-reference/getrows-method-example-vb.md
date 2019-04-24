@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 27bdc82b1ea8cd3fc019b036de98a921dd7bc9bb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292234"
 ---
 # <a name="getrows-method-example-vb"></a>Exemplo do método GetRows (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar um número especificado de linhas de um [Recordset](recordset-object-ado.md) e para preencher uma matriz com os dados resultantes. O método **GetRows** retornará menos do que o número desejado de linhas em dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido atingido ou se **GetRows** tiver tentado recuperar um registro excluído por outro usuário. A função só retornará **Falso** se o segundo caso ocorrer. A função GetRowsOK é necessária para a execução deste procedimento.
+Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar um número específico de linhas de um [Recordset](recordset-object-ado.md) e para preencher uma matriz com os dados resultantes. O método **GetRows** retornará menos do que o número de linhas desejado nos dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido alcançado ou se **GetRows** tentou recuperar um registro excluído por outro usuário. A função retornará **False** somente se o segundo caso ocorrer. A função GetRowsOK é exigida para que este procedimento seja executado.
 
 ```vb 
  

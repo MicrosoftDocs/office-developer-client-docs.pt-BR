@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3816e1699865b1e58c745e9fb466c37885833802
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312040"
 ---
 # <a name="views-append-method-example-vb"></a>Exemplo do método Append de Views (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](views-collection-adox.md) da coleção [Views](append-method-adox-views.md) para criar um novo modo de exibição na fonte de dados subjacente.
 

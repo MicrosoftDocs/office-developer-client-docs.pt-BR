@@ -1,5 +1,5 @@
 ---
-title: Visual C++ (referência de banco de dados da área de trabalho do Access)
+title: Visual C++ (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Visual C++
 ms:assetid: 31d27968-e7bd-02fa-efad-26039bea30b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 082790c33840bfeacf0c1a6bd38af34c0617f4fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303399"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Esta é uma descrição esquemática de como instanciar eventos do ADO no Microsoft Visual C++. Consulte o [exemplo de modelo de eventos do ADO (VC + +)](ado-events-model-example-vc.md) para obter uma descrição completa.
+Esta é uma descrição esquemática de como instanciar eventos do ADO no Microsoft Visual C++. ConFira o [exemplo de modelo de eventos do ADO (VC + +)](ado-events-model-example-vc.md) para obter uma descrição completa.
 
 Crie classes derivadas das interfaces **ConnectionEventsVt** e **RecordsetEventsVt** encontradas no arquivo adoint.h.
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implemente cada um dos métodos do manipulador de eventos nas duas classes. É suficiente que cada método meramente retorna um HRESULT de S\_Okey. No entanto, quando você informar que os manipuladores de eventos estão disponíveis, eles serão chamados continuamente por padrão. Em vez disso, convém não solicitar mais notificações após a primeira vez definindo **adStatus** como **adStatusUnwantedEvent**.
+Implemente cada um dos métodos do manipulador de eventos nas duas classes. É suficiente que cada método retorne um HRESULT de S\_Ok. No entanto, quando você informar que os manipuladores de eventos estão disponíveis, eles serão chamados continuamente por padrão. Em vez disso, convém não solicitar mais notificações após a primeira vez definindo **adStatus** como **adStatusUnwantedEvent**.
 
 ```cpp 
  

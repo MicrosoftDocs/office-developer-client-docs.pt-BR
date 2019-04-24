@@ -1,5 +1,5 @@
 ---
-title: Método CreateParameter (ADO)
+title: Método createParameter (ADO)
 TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fa060811f60379e720e06be9f94e9403477c7869
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295384"
 ---
-# <a name="createparameter-method-ado"></a>Método CreateParameter (ADO)
+# <a name="createparameter-method-ado"></a>Método createParameter (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cria um novo objeto [Parameter](parameter-object-ado.md) com as propriedades especificadas.
 
@@ -48,7 +48,7 @@ Utilize o método **CreateParameter** para criar um novo objeto **Parameter** co
 
 Esse método não acrescenta automaticamente o objeto **Parameter** na coleção **Parameters** de um objeto [Command](command-object-ado.md). Isso permite definir propriedades adicionais cujos valores o ADO validará quando você acrescentar o objeto **Parameter** na coleção.
 
-Se você especificar um tipo de dados de comprimento variável no argumento de *tipo* , você deve passar um argumento de *tamanho* ou definir a propriedade [Size](size-property-ado.md) do objeto **Parameter** antes de acrescentá-lo à coleção **Parameters** ; Caso contrário, ocorrerá um erro.
+Se você especificar um tipo de dados de comprimento variável no argumento *Type*, deverá passar um argumento *Size* ou definir a propriedade [Size](size-property-ado.md) do objeto **Parameter** antes de acrescentá-lo na coleção **Parameters**; caso contrário, ocorrerá um erro.
 
 Se você especificar um tipo de dados numérico (**adNumeric** ou **adDecimal**) no argumento *Type*, também deverá definir as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md).
 

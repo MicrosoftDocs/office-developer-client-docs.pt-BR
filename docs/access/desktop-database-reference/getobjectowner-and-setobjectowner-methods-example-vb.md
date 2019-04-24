@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292297"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>Exemplo dos métodos GetObjectOwner e SetObjectOwner (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo para o sistema). O proprietário da tabela Categories é definido como Accounting.
+Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código pressupõe a existência do grupo acCounting (consulte o [exemplo dos métodos Append e ChangePassword de grupos e usuários (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo ao sistema). O proprietário da tabela Categories é definido como Accounting.
 
 ```vb 
  

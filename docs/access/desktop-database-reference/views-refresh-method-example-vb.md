@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9018ae314f814f3adca3268beba2f82e4e0ea2fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312156"
 ---
 # <a name="views-refresh-method-example-vb"></a>Exemplo do método Refresh de Views (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O código a seguir mostra como atualizar a coleção [Views](views-collection-adox.md) de um [Catálogo](catalog-object-adox.md). Esse procedimento é necessário para acessar os objetos [View](view-object-adox.md) do **Catálogo**.
 

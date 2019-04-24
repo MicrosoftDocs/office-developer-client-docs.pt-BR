@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292157"
 ---
 # <a name="gotopage-macro-action"></a>Ação da macro IrParaPágina
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **IrParaPágina** para mover o foco no formulário ativo para o primeiro controle em uma página especificada. É possível usar esta ação se você criou um formulário com quebras de páginas que contém grupos de informações relacionadas. Por exemplo, talvez haja um formulário Funcionários com informações pessoais em uma página, informações de escritório em outra e informações de vendas em uma terceira página. Você pode usar a ação **IrParaPágina** para se mover para a página desejada. Também pode apresentar várias páginas de informações em um único formulário usando controles guia.
 
@@ -49,20 +49,20 @@ A ação **IrParaPágina** tem os seguintes argumentos.
 <td><p>A posição horizontal do local da página, medida a partir da borda esquerda da janela que a contém, que aparecerá na borda esquerda da janela. Ela será obrigatória se você especificar um argumento <strong>Abaixo</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Inativo</strong></p></td>
+<td><p><strong>Down</strong></p></td>
 <td><p>A posição vertical do local da página, medida a partir da borda superior da janela que a contém, que aparecerá na borda superior da janela. Ela será obrigatória se você especificar um argumento <strong>À Direita</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> [!OBSERVAçãO] Os argumentos **À Direita** e **Abaixo** são medidos em polegadas ou centímetros, dependendo das configurações regionais do Painel de Controle do Windows.
+> Os argumentos **À Direita** e **Abaixo** são medidos em polegadas ou centímetros, dependendo das configurações regionais do Painel de Controle do Windows.
 
 ## <a name="remarks"></a>Comentários
 
 Você pode usar esta ação para selecionar o primeiro controle (conforme definido pela ordem de tabulação do formulário) na página especificada. Use a ação **IrParaControle** para se mover para um controle específico no formulário.
 
-Você pode usar os argumentos **direita** e **para baixo** para formulários com páginas maiores que a janela do Access. Use o argumento **Número de Página** para se mover para a página desejada e use os argumentos **À Direita** e **Abaixo** para exibir a parte da página que deseja ver. O Access exibe a parte da página cujo canto superior esquerdo está deslocado na distância especificada a partir do canto superior esquerdo da página.
+Você pode usar os argumentos **Right** e **down** para formulários com páginas maiores do que a janela do Access. Use o argumento **Número de Página** para se mover para a página desejada e use os argumentos **À Direita** e **Abaixo** para exibir a parte da página que deseja ver. O Access exibe a parte da página cujo canto superior esquerdo está deslocado na distância especificada a partir do canto superior esquerdo da página.
 
 Não use a ação **IrParaPágina** nos seguintes casos:
 

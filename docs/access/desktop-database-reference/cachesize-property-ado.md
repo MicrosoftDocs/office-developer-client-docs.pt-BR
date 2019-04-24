@@ -1,5 +1,5 @@
 ---
-title: Propriedade CacheSize (ADO)
+title: Propriedade caChesize (ADO)
 TOCTitle: CacheSize property (ADO)
 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 725c2f81b3f3bce05a3007c50705e9cf35f7008f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296742"
 ---
-# <a name="cachesize-property-ado"></a>Propriedade CacheSize (ADO)
+# <a name="cachesize-property-ado"></a>Propriedade caChesize (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o número de registros de um objeto [Recordset](recordset-object-ado.md) que ficam armazenados em cache localmente na memória.
 

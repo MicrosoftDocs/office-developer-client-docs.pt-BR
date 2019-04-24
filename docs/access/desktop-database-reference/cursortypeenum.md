@@ -1,5 +1,5 @@
 ---
-title: CursorTypeEnum (referência de banco de dados da área de trabalho do Access)
+title: CursorTypeEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0bcaaa1298f12d72c5e836dcfe1e74cdcda68d19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295160"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o tipo de cursor usado em um objeto [Recordset](recordset-object-ado.md).
 
@@ -38,12 +38,12 @@ Especifica o tipo de cursor usado em um objeto [Recordset](recordset-object-ado.
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenDynamic</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Usa um cursor dinâmico. As adições, alterações e exclusões feitas por outros usuários estão visíveis e são permitidos todos os tipos de movimento pelo <strong>Recordset</strong>, exceto para os marcadores, se o provedor não oferecer suporte a eles.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Padrão. Usa um cursor somente de encaminhamento. Idêntico a um cursor estático, exceto que você pode rolar para frente somente pelos registros. Isso melhora o desempenho quando você precisa fazer apenas uma passagem por um <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Especifica o tipo de cursor usado em um objeto [Recordset](recordset-object-ado.
 </tr>
 <tr class="even">
 <td><p><strong>adOpenStatic</strong></p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>Usa um cursor estático. Uma cópia estática de um conjunto de registros que você pode usar para localizar dados ou gerar relatórios. As adições, alterações ou exclusões feitas por outros usuários não estão visíveis.</p></td>
 </tr>
 <tr class="odd">
@@ -65,7 +65,7 @@ Especifica o tipo de cursor usado em um objeto [Recordset](recordset-object-ado.
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -75,24 +75,24 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.DYNAMIC</p></td>
+<td><p>AdoEnums. CursorType. DYNAMIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.FORWARDONLY</p></td>
+<td><p>AdoEnums. CursorType. FORWARDONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.KEYSET</p></td>
+<td><p>AdoEnums. CursorType. conjunto de chaves</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.STATIC</p></td>
+<td><p>AdoEnums. CursorType. STATIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. CursorType. unESPECIFICADO</p></td>
 </tr>
 </tbody>
 </table>

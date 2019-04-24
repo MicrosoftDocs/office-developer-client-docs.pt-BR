@@ -1,7 +1,7 @@
 ---
 title: Caixa de diálogo propriedades personalizadas do controle ActiveX
 TOCTitle: ActiveX control custom properties dialog box
-description: Essa caixa de diálogo de propriedades personalizadas oferece uma alternativa à lista de propriedades da folha de propriedades do Microsoft Access para definir as propriedades dos controles ActiveX no modo de design.
+description: Essa caixa de diálogo de propriedades personalizadas proporciona uma alternativa à lista de propriedades da folha de propriedades do Microsoft Access para definir as propriedades dos controles ActiveX no modo de design.
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845396(v=office.15)
 ms:contentKeyID: 48543338
@@ -13,15 +13,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314102"
 ---
 # <a name="activex-control-custom-properties-dialog-box"></a>Caixa de diálogo propriedades personalizadas do controle ActiveX
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Durante a definição das propriedades de um controle ActiveX, pode ser que você precise ou prefira utilizar a caixa de diálogo de propriedades personalizadas do controle. Essa caixa de diálogo de propriedades personalizadas oferece uma alternativa à lista de propriedades da folha de propriedades do Microsoft Access para definir as propriedades dos controles ActiveX no modo de design.
 
@@ -41,13 +41,13 @@ Em alguns casos, a caixa de diálogo de propriedades personalizadas é a única 
 
 ## <a name="finding-the-custom-properties-dialog-box"></a>Localizando a caixa de diálogo de propriedades personalizadas
 
-Nem todos os controles ActiveX proporcionam uma caixa de diálogo de propriedades personalizadas. Para ver se um controle oferece essa caixa de diálogo de propriedades personalizadas, procure pela propriedade **Personalizar** na folha de propriedades do Microsoft Access para esse controle. Se a lista de propriedades contiver o nome **personalizado**, o controle fornece a caixa de diálogo de propriedades personalizadas.
+Nem todos os controles ActiveX proporcionam uma caixa de diálogo de propriedades personalizadas. Para ver se um controle oferece essa caixa de diálogo de propriedades personalizadas, procure pela propriedade **Personalizar** na folha de propriedades do Microsoft Access para esse controle. Se a lista de propriedades contiver o nome **personalizado**, o controle fornecerá a caixa de diálogo de propriedades personalizadas.
 
-## <a name="using-the-custom-properties-dialog-box"></a>Usando a caixa de diálogo de propriedades personalizadas
+## <a name="using-the-custom-properties-dialog-box"></a>Usando a caixa de diálogo Propriedades personalizadas
 
-Depois que você escolher a caixa de propriedade **personalizada** na folha de propriedades do Microsoft Access, escolha o botão **Construir** , à direita da caixa de propriedade para exibir a caixa de diálogo de propriedades personalizadas do controle, apresentada frequentemente como uma caixa de diálogo com guias. Escolha a guia que contém a interface para a configuração das propriedades que você deseja definir.
+Após escolher a caixa de propriedades **personalizadas** na folha de propriedades do Microsoft Access, escolha o botão **construir** à direita da caixa de propriedades para exibir a caixa de diálogo Propriedades personalizadas do controle, geralmente apresentada como uma caixa de diálogo com guias. Escolha a guia que contém a interface para definir as propriedades que você deseja definir.
 
-Depois de fazer alterações em uma guia, você pode frequentemente aplicar essas alterações imediatamente, escolhendo o botão **Aplicar** (se fornecido). Você pode escolher outras guias para definir outras propriedades conforme necessário. Para aprovar todas as alterações feitas na caixa de diálogo de propriedades personalizadas, escolha o botão de **Okey** . Para retornar à folha de propriedade do Microsoft Access sem alterar as configurações de propriedade, escolha o botão **Cancelar** .
+Após fazer as alterações em uma guia, você geralmente pode aplicar essas alterações imediatamente escolhendo o botão **aplicar** (se fornecido). Você pode escolher outras guias para definir outras propriedades, conforme necessário. Para aprovar todas as alterações feitas na caixa de diálogo Propriedades personalizadas, escolha o botão **OK** . Para retornar à folha de propriedades do Microsoft Access sem alterar nenhuma configuração de propriedade, escolha o botão **Cancelar** .
 
-Também é possível exibir a caixa de diálogo de propriedades personalizadas, escolhendo o subcomando de **Propriedades** do controle ActiveX do comando (por exemplo, o **Objeto de controle de calendário**) do **objeto** no menu **Editar** , ou escolhendo nesse mesmo subcomando no o menu de atalho para o controle ActiveX. Além disso, algumas propriedades na folha de propriedades do Microsoft Access para o controle ActiveX, como a propriedade **GridFontColor** do Calendar Control, têm um botão **Construir** à direita da caixa de propriedades. Quando você escolhe o botão **Construir** , a caixa de diálogo de propriedades personalizadas é exibida, com a guia apropriada selecionada (por exemplo, **cores**).
+Você também pode exibir a caixa de diálogo Propriedades personalizadas escolhendo o subcomando **Propriedades** do comando do **objeto** ActiveX Control (por exemplo, **objeto de controle de calendário**) no menu **Editar** ou escolhendo este mesmo subcomando em o menu de atalho para o controle ActiveX. Além disso, algumas propriedades na folha de propriedades do Microsoft Access para o controle ActiveX, como a propriedade **GridFontColor** do Calendar Control, têm um botão **Construir** à direita da caixa de propriedades. Quando você escolhe o botão **construir** , a caixa de diálogo Propriedades personalizadas é exibida, com a guia adequada selecionada (por exemplo, **cores**).
 

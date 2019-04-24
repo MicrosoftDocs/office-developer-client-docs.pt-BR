@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25fd81acee3c541c8a3f315f96fa69241272a655
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295217"
 ---
 # <a name="cursorlocation-property-ado"></a>Propriedade CursorLocation (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o local do serviço de cursor.
 
@@ -35,5 +35,5 @@ Os cursores retornados pelo método [Execute](https://docs.microsoft.com/office/
 
 Essa propriedade é leitura/gravação em um [Connection](connection-object-ado.md) ou um [Recordset](recordset-object-ado.md) fechado e somente leitura em um **Recordset** aberto.
 
-**Uso de serviço de dados remotos** Quando usado em um cliente **Recordset** ou um objeto de **Conexão** , a propriedade **CursorLocation** só pode ser definida como **adUseClient**.
+**Uso do Remote Data Service** Quando usado em um objeto **Recordset** ou **Connection** do lado do cliente, a propriedade **CursorLocation** só pode ser definida como **adUseClient**.
 

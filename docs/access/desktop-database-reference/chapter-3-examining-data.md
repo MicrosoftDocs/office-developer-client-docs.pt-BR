@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcf837a02c40d11fecfa56b8aa34ac80a848411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296455"
 ---
 # <a name="chapter-3-examining-data"></a>Capítulo 3: Exame de dados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O capítulo 2 explicou como recuperar os dados de uma fonte de dados como um objeto **Recordset**. Este capítulo tratará do **Recordset** mais detalhadamente, incluindo como navegar por meio do **Recordset** e exibir os dados.
 
@@ -68,38 +68,38 @@ Esta consulta SQL retorna um **Recordset** com cinco linhas (registros) e três 
 <thead>
 <tr class="header">
 <th><p>CAMPO 0<br />
-Nome = ProductID</p></th>
+Name = ProductID</p></th>
 <th><p>CAMPO 1<br />
-Nome = ProductName</p></th>
+Name = NomeDoProduto</p></th>
 <th><p>CAMPO 2<br />
-Nome = UnitPrice</p></th>
+Nome = PreçoUnitário</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>178</p></td>
 <td><p>Pêras secas orgânicas do Tio Bob</p></td>
-<td><p>30.0000</p></td>
+<td><p>30, 0</p></td>
 </tr>
 <tr class="even">
 <td><p>14</p></td>
 <td><p>Tofu</p></td>
-<td><p>23.2500</p></td>
+<td><p>23,2500</p></td>
 </tr>
 <tr class="odd">
 <td><p>28</p></td>
 <td><p>Chucrute Rssle</p></td>
-<td><p>45.6000</p></td>
+<td><p>45,6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
 <td><p>Maçãs secas Manjimup</p></td>
-<td><p>53.0000</p></td>
+<td><p>53, 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
 <td><p>Tofu longa vida</p></td>
-<td><p>10.0000</p></td>
+<td><p>10, 0</p></td>
 </tr>
 </tbody>
 </table>
@@ -110,5 +110,5 @@ A próxima seção explica como localizar a posição atual do cursor neste **Re
 Este capítulo aborda os seguintes tópicos:
 
 - [Localizando o registro atual (ADO)](locating-the-current-record.md)
-- [Navegando nos dados (ADO)](navigating-through-the-data.md)
+- [Navegando pelos dados (ADO)](navigating-through-the-data.md)
 - [Noções básicas sobre a estrutura do Recordset (ADO)](understanding-recordset-structure.md)

@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3ad91f0a288b9908a5af5f92d7bfca3b23cdfe9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292066"
 ---
 # <a name="handler-property-rds"></a>Propriedade Handler (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o nome de um programa de personalização do servidor (manipulador) que estende a funcionalidade do [RDSServer.DataFactory](datafactory-object-rdsserver.md) e qualquer parâmetro usado pelo *manipulador*.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Manipulador = *cadeia de caracteres*
+*DataControl*. Handler = *cadeia de caracteres*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Um valor **String** que contém o nome do manipulador e qualquer parâmetro, todos separado por vírgulas (por exemplo, "handlerName, parm1, parm2,..., parm *N"*).|
+|*String* |Um valor **String** que contém o nome do manipulador e qualquer parâmetro, todos separados por vírgulas (por exemplo, "HandlerName, Parm1, parm2,..., Parm *N*").|
 
 ## <a name="remarks"></a>Comentários
 
@@ -39,5 +39,5 @@ O nome do manipulador e seus parâmetros, se houver, são separados por vírgula
 
 O nome do manipulador padrão é **MSDFMAP.Handler** e seu parâmetro padrão é um arquivo de personalização chamado **MSDFMAP.INI**. Use esta propriedade para invocar arquivos de personalização alternativos pelo administrador do servidor.
 
-A alternativa para definir a propriedade **Handler** é especificar um manipulador e os parâmetros na propriedade [ConnectionString](connectionstring-property-ado.md) ; ou seja, "**manipulador = * * * handlerName, parm1, parm2,...;*".
+A alternativa para definir a propriedade **Handler** é especificar um manipulador e os parâmetros na propriedade [ConnectionString](connectionstring-property-ado.md) ; ou seja, "**Handler = * * * HandlerName, Parm1, parm2,...;*".
 

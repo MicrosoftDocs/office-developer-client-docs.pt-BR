@@ -1,5 +1,5 @@
 ---
-title: Propriedade DefaultDatabase (ADO)
+title: Propriedade defaultDatabase (ADO)
 TOCTitle: DefaultDatabase property (ADO)
 ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 01ca42ff738afe3a35cab6263cdae32ac256f3d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294145"
 ---
-# <a name="defaultdatabase-property-ado"></a>Propriedade DefaultDatabase (ADO)
+# <a name="defaultdatabase-property-ado"></a>Propriedade defaultDatabase (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o banco de dados padrão para um objeto [Connection](connection-object-ado.md).
 
@@ -33,5 +33,5 @@ Se houver um banco de dados padrão, as sequências SQL poderão usar uma sintax
 
 Algumas fontes de dados e provedores talvez não ofereçam suporte a esse recurso e podem retornar um erro ou uma cadeia de caracteres vazia.
 
-**Uso de serviço de dados remotos** Essa propriedade não está disponível em um objeto de **Conexão** do cliente.
+**Uso do Remote Data Service** Esta propriedade não está disponível em um objeto **Connection** do lado do cliente.
 

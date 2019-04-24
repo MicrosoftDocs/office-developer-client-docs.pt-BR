@@ -1,5 +1,5 @@
 ---
-title: O que é um Cursor?  (Referência de banco de dados da área de trabalho do access)
+title: O que é um Cursor?  (Referência do banco de dados do Access Desktop)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2023b39620f80e6f770153e381c74d5285d027c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302741"
 ---
 # <a name="what-is-a-cursor"></a>O que é um cursor?
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 As operações em um banco de dados relacional agem em um conjunto completo de linhas. O conjunto de linha retornado por uma instrução SELECT é composto por todas as linhas que atendem às condições na cláusula WHERE da instrução. Esse conjunto completo de linhas retornado pela instrução é conhecido como o conjunto de resultados. Os aplicativos, especialmente aqueles que são interativos e estão online, nem sempre podem trabalhar de forma eficiente com um conjunto inteiro de resultados como uma unidade. Esses aplicativos precisam de um mecanismo para trabalharem com uma linha ou um pequeno bloco de linhas por vez. Os cursores são uma extensão dos conjuntos de resultados que fornecem esse mecanismo.
 
@@ -73,5 +73,5 @@ Um cursor também mantém o controle da posição atual em um conjunto de result
 
 ## <a name="scrollability"></a>Capacidade de navegação
 
-O tipo do cursor utilizado pelo aplicativo também afeta a capacidade de avançar e voltar nas linhas em um conjunto de resultados; isso normalmente é chamado de capacidade de navegação. A capacidade de mover a frente *e* para trás ao longo de um conjunto de resultados aumenta a complexidade do cursor e, portanto, é mais cara implementar. Por essa razão, você deve solicitar um cursor com essa funcionalidade somente quando necessário.
+O tipo do cursor utilizado pelo aplicativo também afeta a capacidade de avançar e voltar nas linhas em um conjunto de resultados; isso normalmente é chamado de capacidade de navegação. A capacidade de avançar *e* voltar no conjunto de resultados adiciona-se à complexidade do cursor e, portanto, é mais caro para implementar. Por essa razão, você deve solicitar um cursor com essa funcionalidade somente quando necessário.
 

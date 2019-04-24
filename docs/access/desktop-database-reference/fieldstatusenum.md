@@ -1,5 +1,5 @@
 ---
-title: FieldStatusEnum (referência de banco de dados da área de trabalho do Access)
+title: FieldStatusEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0ccf98f2a740e2a077d6e2451102bfc72bcd1b40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292514"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o status de um objeto **Field**.
 
@@ -40,17 +40,17 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldAlreadyExists</strong></p></td>
-<td><p>26</p></td>
+<td><p>660</p></td>
 <td><p>Indica que o campo especificado já existe.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldBadStatus</strong></p></td>
-<td><p>12</p></td>
+<td><p>3,6</p></td>
 <td><p>Indica que um valor de status inválido foi enviado do ADO para o provedor de OLE DB. As possíveis causas incluem um provedor de OLE DB 1.0 ou 1.1, ou uma combinação inadequada de <a href="value-property-ado.md">Value</a> e <a href="status-property-ado-field.md">Status</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCannotComplete</strong></p></td>
-<td><p>20</p></td>
+<td><p>508</p></td>
 <td><p>Indica que o servidor da URL especificado por <a href="source-property-ado-record.md">Source</a> não pôde concluir a operação.</p></td>
 </tr>
 <tr class="even">
@@ -60,27 +60,27 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
-<td><p>Indica que o campo não pode ser recuperado nem armazenado sem perda de dados.</p></td>
+<td><p>duas</p></td>
+<td><p>Indica que o campo não pode ser recuperado ou armazenado sem perda de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>178</p></td>
 <td><p>Indica que o campo não pôde ser adicionado porque o provedor excedeu um limite (como o número permitido de campos).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
 <td><p>6</p></td>
-<td><p>Indica que os dados retornados do provedor sobrecarregaram o tipo de dados do campo.</p></td>
+<td><p>Indica que os dados retornados do provedor estouraram o tipo de dados do campo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>13</p></td>
-<td><p>Indica que o valor padrão do campo foi usado durante a definição dos dados.</p></td>
+<td><p>Treze</p></td>
+<td><p>Indica que o valor padrão para o campo foi usado quando os dados foram definidos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>16</p></td>
+<td><p>dezesseis</p></td>
 <td><p>Indica que o campo especificado não existe.</p></td>
 </tr>
 <tr class="even">
@@ -90,28 +90,28 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
-<td><p>Indica que não é possível modificar o campo porque ele é uma entidade calculada ou derivada.</p></td>
+<td><p>254</p></td>
+<td><p>Indica que o campo não pode ser modificado porque ele é uma entidade calculada e derivada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldInvalidURL</strong></p></td>
-<td><p>17</p></td>
+<td><p>17.07.06</p></td>
 <td><p>Indica que a URL da fonte de dados contém caracteres inválidos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>Indica que o provedor retornou um valor VARIANT do tipo VT_NULL e que o campo não está vazio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldOK</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Padrão. Indica que o campo foi adicionado ou excluído com sucesso.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldOutOfSpace</strong></p></td>
 <td><p>22</p></td>
-<td><p>Indica que o provedor não conseguiu obter espaço de repositório suficiente para concluir uma operação de movimentação ou cópia.</p></td>
+<td><p>Indica que o provedor não pode obter espaço de repositório suficiente para concluir uma operação move ou copy.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldPendingChange</strong></p></td>
@@ -140,12 +140,12 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>241</p></td>
 <td><p>Indica que o campo não pode ser modificado porque ele está definido como somente-leitura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldReadOnly</strong></p></td>
-<td><p>24</p></td>
+<td><p>dia</p></td>
 <td><p>Indica que o campo na fonte de dados está definido como somente-leitura.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +155,7 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </tr>
 <tr class="even">
 <td><p><strong>adFieldResourceLocked</strong></p></td>
-<td><p>18</p></td>
+<td><p>anos</p></td>
 <td><p>Indica que o provedor não pôde executar a operação porque a fonte de dados está bloqueada por um ou mais aplicativos ou processos diferentes.</p></td>
 </tr>
 <tr class="odd">
@@ -170,12 +170,12 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldSignMismatch</strong></p></td>
-<td><p>5</p></td>
+<td><p>0,5</p></td>
 <td><p>Indica que o valor dos dados retornado pelo provedor estava assinado, mas o tipo de dados do valor do campo ADO não estava.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldTruncated</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Indica que os dados de comprimento variável estavam truncados durante a leitura a partir da fonte de dados.</p></td>
 </tr>
 <tr class="odd">
@@ -192,7 +192,7 @@ O valor **adFieldPending\*** indica a operação que causou a definição do sta
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

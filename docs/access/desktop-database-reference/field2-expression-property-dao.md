@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.Expression (DAO)
+title: Propriedade Campo2. Expression (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292815"
 ---
-# <a name="field2expression-property-dao"></a>Propriedade Field2.Expression (DAO)
+# <a name="field2expression-property-dao"></a>Propriedade Campo2. Expression (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Obtém ou define uma expressão que representa a fórmula de um campo calculado. **String** de leitura/gravação.
+Obtém ou define uma expressão que representa a fórmula para um campo calculado. **String** de leitura/gravação.
 
-## <a name="version-information"></a>Version information
+## <a name="version-information"></a>Informação da versão
 
 Versão adicionada: Access 2010
 
@@ -28,21 +28,21 @@ Versão adicionada: Access 2010
 
 *expressão* . Expressão
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
-No Access 2013, você pode criar campos de tabela que calculam valores. Os cálculos podem incluir valores de campos na mesma tabela, bem como as funções internas do Access.
+No Access 2013, você pode criar campos de tabela que calculam valores. Os cálculos podem incluir valores de campos na mesma tabela, bem como funções internas do Access.
 
-O cálculo não pode conter campos de outras tabelas ou consultas.
+O cálculo não pode incluir campos de outras tabelas ou consultas.
 
 Os resultados do cálculo são somente leitura.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como criar um campo calculado. O método CreateField cria um campo denominado **FullName**. A propriedade de expressão, em seguida, é definida como a expressão que calcula o valor do campo.
+O exemplo a seguir mostra como criar um item de lista. O método CreateField cria um campo denominado **NomeCompleto**. A propriedade de expressão, em seguida, está definida como a expressão que calcula o valor do campo.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()

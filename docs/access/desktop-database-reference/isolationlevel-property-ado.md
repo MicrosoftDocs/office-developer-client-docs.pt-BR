@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4eb46fa97b831030617916d03557b5bf9af9606d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291146"
 ---
 # <a name="isolationlevel-property-ado"></a>Propriedade IsolationLevel (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o nível de isolamento de um objeto [Connection](connection-object-ado.md).
 
@@ -31,7 +31,7 @@ Use a propriedade **IsolationLevel** para definir o nível de isolamento de um o
 
 A propriedade **IsolationLevel** é leitura/gravação.
 
-**Uso de serviço de dados remotos** Quando usado em um objeto de Conexão do cliente, a propriedade **IsolationLevel** pode ser definida somente para **adXactUnspecified**.
+**Uso do Remote Data Service** Quando usado em um objeto Connection do lado do cliente, a propriedade **IsolationLevel** pode ser definida apenas como **adXactUnspecified**.
 
 Como os usuários estão trabalhando com objetos **Recordset** desconectados em um cache do lado do cliente, pode haver problemas com vários usuários. Por exemplo, quando dois usuários diferentes tentam atualizar o mesmo registro, o Remote Data Service simplesmente permite que o usuário que atualizar o registro primeiro "ganhe". A solicitação de atualização do segundo usuário falhará, apresentando um erro.
 

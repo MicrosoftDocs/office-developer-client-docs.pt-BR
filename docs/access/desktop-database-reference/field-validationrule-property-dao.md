@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.ValidationRule (DAO)
+title: Propriedade Field. ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: b07e644d-54d3-7199-6f99-178774e54398
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1ef68db39b7dcad380eae16f789f4dd5b0eab75f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292941"
 ---
-# <a name="fieldvalidationrule-property-dao"></a>Propriedade Field.ValidationRule (DAO)
+# <a name="fieldvalidationrule-property-dao"></a>Propriedade Field. ValidationRule (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente em espaços de trabalho do Microsoft Access). **String** de leitura/gravação.
+Define ou retorna um valor que valida os dados em um campo, conforme ele é alterado ou adicionado a uma tabela (apenas espaços de trabalho do Microsoft Access). **String** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -77,6 +77,6 @@ A expressão da cadeia de caracteres especificada pela propriedade **ValidationR
 
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal de fora dos EUA, como uma vírgula (por exemplo, strRule = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro quando seu código tenta validar todos os dados. Isso acontece porque durante a concatenação, o número será convertido para uma sequência que usa os caracteres decimais padrão do sistema e o mecanismo SQL do banco de dados do Microsoft Access aceita somente os caracteres decimais padrão dos EUA.
+> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), ocorrerá um erro quando seu código tenta validar quaisquer dados. Isso ocorre porque, durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o mecanismo de banco de dados do Microsoft Access SQL aceita apenas caracteres decimais EUA.
 
 

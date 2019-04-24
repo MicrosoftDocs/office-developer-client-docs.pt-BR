@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66f122b7bdaa9069b839cd5884b5da5da48a15f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295783"
 ---
 # <a name="connections-collection-dao"></a>Coleção Connections (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 > [!NOTE]
 > [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
@@ -31,11 +31,11 @@ Quando você abre um objeto **Connection**, um objeto **[Database](database-obje
 
 A configuração da propriedade **Name** de um objeto **Connection** é uma sequência de caracteres que especifica o caminho do arquivo do banco de dados. Para fazer referência a um objeto **Connection** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-- **Connections**(0)
+- **Conexões** ,0
 
-- **Conexões** ("*nome*")
+- **Conexões** ("*Name*")
 
-- **Conexões**\!\[*nome*\]
+- ****\!\[*Nome* de conexões\]
 
 
 > [!NOTE]

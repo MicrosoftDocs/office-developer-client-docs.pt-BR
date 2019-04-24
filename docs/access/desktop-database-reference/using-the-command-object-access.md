@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b89d292d86035e565ad18413062274dfbfc74db
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312023"
 ---
 # <a name="using-the-command-object-access"></a>Usando o objeto Command (Access)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Depois de se conectar a uma fonte de dados, você precisa executar as solicitações nela para obter os conjuntos de resultados. O ADO encapsula este tipo de funcionalidade de comando no objeto **Command**.
 
@@ -26,7 +26,7 @@ Você pode usar o objeto **Command** para solicitar qualquer tipo de operação 
 Nem sempre é necessário criar um objeto **Command** para executar um comando em uma fonte de dados. Você pode usar o método **Execute** no objeto **Connection** ou o método **Open** no objeto **Recordset**. Contudo, você deveria usar um objeto **Command** se precisar usar novamente um comando em seu código ou se precisar transmitir informações detalhadas sobre o parâmetro com seu comando. Esses cenários são abordados em detalhes posteriormente neste capítulo.
 
 > [!NOTE]
-> Determinados comandos podem retornar um resultado definido como um fluxo binário ou como um único registro e não como um Recordset, se isso for suportado pelo provedor. Além disso, alguns comandos não visam retornar qualquer resultado definido em todos os (por exemplo, uma consulta SQL Update). Este capítulo abordará o cenário mais comum, no entanto: executar comandos que retornam resultados em um objeto Recordset. Para obter mais informações sobre como retornar resultados em registros ou fluxos, consulte [Capítulo 10: Records e Streams](chapter-10-records-and-streams.md).
+> Determinados Commands podem retornar um resultado como um fluxo binário ou como um único Record em vez de um Recordset se houver suporte para isso pelo provedor. Além disso, alguns Commands não são destinados a retornar qualquer conjunto de resultados (por exemplo, uma consulta SQL Update). Este capítulo abordará o cenário mais comum, contudo executando Commands que retornam resultados em um objeto Recordset. Para obter mais informações sobre o retorno de resultados em  Records ou Streams, consulte [Capítulo 10: Records e Streams](chapter-10-records-and-streams.md).
 
 Esta seção inclui os seguintes tópicos:
 

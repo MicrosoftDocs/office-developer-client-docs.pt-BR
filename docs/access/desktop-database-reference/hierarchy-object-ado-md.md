@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c6668dfd40f7d0d26bcfa2ca4149acdc713e14c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291926"
 ---
 # <a name="hierarchy-object-ado-md"></a>Objeto Hierarchy (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa uma maneira como os membros de uma [dimensão](dimension-object-ado-md.md) podem ser agregados. É possível agregar uma dimensão juntamente com uma ou mais hierarquias.
 
@@ -48,7 +48,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AllMember</p></td>
+<td><p>Membro</p></td>
 <td><p>O membro de nível mais alto de acúmulo na hierarquia.</p></td>
 </tr>
 <tr class="even">
@@ -56,7 +56,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nome do cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>O nome do cubo.</p></td>
 </tr>
 <tr class="even">
@@ -64,7 +64,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O nome exclusivo do membro padrão desta hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>Descrição</p></td>
 <td><p>Uma descrição consistente da hierarquia.</p></td>
 </tr>
 <tr class="even">

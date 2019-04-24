@@ -1,5 +1,5 @@
 ---
-title: Modo imediato (referência de banco de dados da área de trabalho do Access)
+title: Modo imediato (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Immediate mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3abc2e8365c60987fedc0d306b274df74c7ee551
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291877"
 ---
 # <a name="immediate-mode"></a>Modo Imediato
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O modo imediato entra em vigor quando a propriedade **LockType** é definida como **adLockOptimistic** ou **adLockPessimistic**. Nesse modo, as alterações feitas em um registro são propagadas na fonte de dados logo que você declara concluído o trabalho em uma linha chamando o método **Update**.
 

@@ -1,5 +1,5 @@
 ---
-title: StreamReadEnum (referência de banco de dados da área de trabalho do Access)
+title: StreamReadEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4d9c96a7bb34fe0ab3512a316a92e1f7a01ef4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314718"
 ---
 # <a name="streamreadenum"></a>StreamReadEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se o fluxo inteiro ou a próxima linha deve ser lido a partir de um objeto [Stream](stream-object-ado.md).
 
@@ -50,7 +50,7 @@ Especifica se o fluxo inteiro ou a próxima linha deve ser lido a partir de um o
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

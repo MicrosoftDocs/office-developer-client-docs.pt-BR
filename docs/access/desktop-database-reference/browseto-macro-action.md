@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bcf0a37f8c1596856f5d7b921430371d620f7a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296770"
 ---
 # <a name="browseto-macro-action"></a>Ação da macro ProcurarEm
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ProcurarEm** para navegar entre objetos no local. Também é possível alterar o objeto de origem em um controle de subformulário, especificando o argumento Caminho para Controle de Subformulário. Use **ProcurarEm** para navegar do formulário1 para o formulário1 sem precisar abrir uma nova janela.
 
@@ -42,7 +42,7 @@ A ação **ProcurarEm** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Tipo de Objeto</p></td>
-<td><p>O tipo de objeto que será procurado.</p></td>
+<td><p>O tipo de objeto até o qual você deseja navegar.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nome do Objeto</p></td>
@@ -50,15 +50,15 @@ A ação **ProcurarEm** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p>Caminho para Controle de Subformulário</p></td>
-<td><p>Se especificado, o caminho do formulário principal do aplicativo para o subformulário de destino de controle que carrega o objeto especificado pelo argumento Nome do objeto.</p></td>
+<td><p>Se especificado, o caminho do formulário principal do aplicativo para o controle de subformulário de destino que carrega o objeto especificado pelo argumento Nome do objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
-<td><p>Se estiver especificado, substitui a condição Where da fonte de registro de objeto.</p></td>
+<td><p>Se for especificado, substitui a condição Where da origem de registro do objeto.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Esse argumento será apenas web.</p></td>
+<td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Este argumento é somente Web.</p></td>
 </tr>
 <tr class="even">
 <td><p>Modo de Dados</p></td>
@@ -80,9 +80,9 @@ Neste exemplo, o Formulário principal é o formulário de nível superior no ap
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação procurarem para abrir um relatório em um controle subformulário ou dentro de um controle de navegação.
+O exemplo a seguir mostra como usar a ação procurarem para abrir um relatório em um controle de subformulário ou dentro de um controle de navegação.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OnError

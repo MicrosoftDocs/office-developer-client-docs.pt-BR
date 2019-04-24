@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.AllowZeroLength (DAO)
+title: Propriedade Campo2. AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3125a5669ea8aa016d8554be0357572d56c08ecf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292906"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Propriedade Field2.AllowZeroLength (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Propriedade Campo2. AllowZeroLength (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Define ou retorna um valor que indica que a sequência de comprimento zero ("") é uma configuração válida para a propriedade **[Value](field-value-property-dao.md)** do objeto **Field2** com um tipo de dados Texto ou Memorando (apenas espaços de trabalho do Microsoft Access).
@@ -26,7 +26,7 @@ Define ou retorna um valor que indica que a sequência de comprimento zero ("") 
 
 *expressão* . AllowZeroLength
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -47,23 +47,28 @@ Depois de acrescentado a uma coleção **Fields**, a disponibilidade da propried
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

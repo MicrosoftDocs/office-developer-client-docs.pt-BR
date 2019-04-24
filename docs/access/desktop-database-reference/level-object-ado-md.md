@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70fb359aa4faa0bcfc99f0b1700b0eb51f665bc0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290111"
 ---
 # <a name="level-object-ado-md"></a>Objeto Level (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Contém um conjunto de membros, sendo que cada um tem a mesma ordem em uma hierarquia.
 
@@ -56,11 +56,11 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nome do cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>O nome do cubo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>Descrição</p></td>
 <td><p>Uma descrição consistente do nível.</p></td>
 </tr>
 <tr class="even">
@@ -96,7 +96,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O tipo do nível.</p></td>
 </tr>
 <tr class="even">
-<td><p>LevelUniqueName não</p></td>
+<td><p>LevelUniqueName</p></td>
 <td><p>O nome inequívoco do nível.</p></td>
 </tr>
 <tr class="odd">

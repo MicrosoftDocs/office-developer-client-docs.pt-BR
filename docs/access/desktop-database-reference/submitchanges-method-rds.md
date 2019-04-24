@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ea7f3e27a75b4483cb8cf46e27d4492f831cff33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314396"
 ---
 # <a name="submitchanges-method-rds"></a>Método SubmitChanges (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Submete as alterações pendentes do [Recordset](recordset-object-ado.md) atualizável e armazenado localmente em cache para a fonte de dados especificada na propriedade [Connect](connect-property-rds.md) ou na propriedade [URL](url-property-rds.md).
 
@@ -24,7 +24,7 @@ Submete as alterações pendentes do [Recordset](recordset-object-ado.md) atuali
 
 *DataControl*. SubmitChanges
 
-*DataFactory*. SubmitChanges*Conexão*, *Recordset*
+** Datafactory. *Conexão*SubmitChanges, *Recordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -43,7 +43,7 @@ Se você chamar o método [CancelUpdate](cancelupdate-method-rds.md) depois de c
 
 Apenas os registros alterados serão enviados para modificação e todas as alterações obterão êxito ou falharão ao mesmo tempo.
 
-Você pode usar **SubmitChanges** somente com o objeto **Rdsserver** *padrão* . Objetos corporativos personalizados não podem utilizar esse método.
+Você pode usar **SubmitChanges** somente com o objeto **RDSServer.** datafactory *padrão* . Objetos corporativos personalizados não podem utilizar esse método.
 
 Se a propriedade **URL** foi definida, **SubmitChanges** submeterá as alterações para o local especificado pela URL.
 

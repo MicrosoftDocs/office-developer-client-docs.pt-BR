@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f08b9a8980fc6f08a9f91366d38f65e4365a037e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314621"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>Ação da macro DefinirCategoriasExibidas
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **DefinirCategoriasExibidas** para especificar quais categorias serão exibidas em **Navegar para Categoria** na barra de título do Painel de Navegação. Por exemplo, para que os usuários não possam mudar o Painel de Navegação para exibir objetos classificados por **Data da Criação**, use essa ação para ocultar essa opção na lista suspensa da barra de título.
 
@@ -46,7 +46,7 @@ A ação **DefinirCategoriasExibidas** tem os seguintes argumentos.
 <td><p>Selecione <strong>Sim</strong> para mostrar a(s) categoria(s). Selecione <strong>Não</strong> para ocultá-la(s).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Category</strong></p></td>
+<td><p><strong>Categoria</strong></p></td>
 <td><p>Digite ou selecione o nome da categoria que você deseja mostrar ou ocultar. Deixe em branco para mostrar ou ocultar todas as categorias.</p></td>
 </tr>
 </tbody>

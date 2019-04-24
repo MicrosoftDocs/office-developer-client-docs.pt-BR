@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88a84f6fa3604286ca27651cefc999c96ff41d0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290888"
 ---
 # <a name="jscript-ado-programming"></a>Programação ADO JScript
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 ## <a name="creating-an-ado-project"></a>Criando um projeto ADO
@@ -26,11 +26,11 @@ O Microsoft JScript não oferece suporte a bibliotecas de tipos, portanto, você
 
 No entanto, o ADO fornece dois arquivos que contêm as seguintes definições para serem usadas com o JScript:
 
-- Para uso de script do lado do servidor adojavas, que é instalado na unidade c:\\Program Files\\arquivos comuns\\sistema\\ado\\ pasta por padrão.
+- Para script no servidor, use o Adojavas. Inc, que é instalado na pasta c:\\arquivos\\de programas comuns\\do\\sistema\\ de arquivos comuns do sistema ADO por padrão.
 
-- Para uso de script do lado do cliente adcjavas, que é instalado na unidade c:\\Program Files\\arquivos comuns\\sistema\\msdac\\ pasta por padrão.
+- Para scripts do lado do cliente, use o Adcjavas. Inc, que é instalado na pasta\\c:\\arquivos de\\programas\\comuns\\ do sistema de arquivos comuns msdac por padrão.
 
-Você pode copiar e colar constantes definições dos seguintes arquivos em páginas ASP ou, se estiver realizando um script do servidor, copie o arquivo adojavas para uma pasta no seu site e faz referência a ele a partir de sua página ASP semelhante a esta:
+Você pode copiar e colar definições de constantes desses arquivos nas suas páginas ASP ou, se estiver executando o script no servidor, copiar o arquivo Adojavas. Inc para uma pasta no seu site e fazer referência a ele a partir da página ASP, da seguinte forma:
 
 ```javascript  
  

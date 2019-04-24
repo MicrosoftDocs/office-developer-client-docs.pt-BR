@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d8682c19686650ab193536658c6b56961f289174
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307069"
 ---
 # <a name="refreshrecord-macro-action"></a>Ação da macro AtualizarRegistro
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AtualizarRegistro** para atualizar a fonte do registro subjacente do formulário ou da folha de dados ativa para refletir alterações feitas nos registros no conjunto atual.
 
@@ -39,9 +39,9 @@ A ação de macro **AtualizarRegistro** executa as seguintes ações em um banco
 
 1.  Atualiza a fonte do registro para o formulário ou para a folha de dados ativa para refletir as alterações feitas nas linhas do conjunto atual.
 
-2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha em uma fonte de registro tiver sido excluída, ele será alterado para mostrar \#Deleted.
+2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha da fonte do registro tiver sido excluída, ela será alterada para \#mostrar excluído.
 
-3.  Atualiza o ativo ou folha de dados para exibir quaisquer registros alterados e qualquer \#excluídos registros no conjunto atual.
+3.  Atualiza o Active ou a folha de dos para exibir quaisquer registros alterados e registros \#excluídos, no conjunto atual.
 
 4.  Repete consultas em todos os subformulários e subrelatórios no formulário ou na folha de dados ativa.
 
@@ -53,9 +53,9 @@ A ação de macro **AtualizarRegistro** executa as seguintes ações em um banco
 
 1.  Recupera alterações do servidor para quaisquer tabelas de base no conjunto atual. Para tabelas ODBC vinculadas, recuperada alterações nos registros no conjunto atual da fonte de dados.
 
-2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha no conjunto atual tiver sido excluída, ele será alterado para mostrar \#Deleted.
+2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha no conjunto atual tiver sido excluída, ela será alterada para mostrar \#excluído.
 
-3.  Atualiza a ativa formulário ou folha de dados para exibir quaisquer registros alterados e qualquer \#excluídos registros no conjunto atual.
+3.  Atualiza o formulário ou folha de de dos ativos para exibir quaisquer registros alterados e registros \#excluídos, no conjunto atual.
 
 4.  Repete consultas em todos os subformulários e subrelatórios no formulário ou na folha de dados ativa.
 

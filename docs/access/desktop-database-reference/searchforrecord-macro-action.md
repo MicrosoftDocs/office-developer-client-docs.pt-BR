@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314641"
 ---
 # <a name="searchforrecord-macro-action"></a>Ação da macro ProcurarRegistro
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ProcurarRegistro** para procurar um registro em uma tabela, consulta, formulário ou relatório específico.
 
@@ -46,7 +46,7 @@ A ação **ProcurarRegistro** tem os seguintes argumentos.
 <td><p>Digite ou selecione o tipo de objeto de banco de dados que você está procurando. É possível selecionar <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong> ou <strong>Relatório</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nome do Objeto</strong></p></td>
+<td><p><strong>Nome do objeto</strong></p></td>
 <td><p>Digite ou selecione o objeto específico que contenha o registro a ser pesquisado. A lista suspensa mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -88,9 +88,9 @@ A ação **ProcurarRegistro** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Condição Onde</strong></p></td>
-<td><p>Insira os critérios para a pesquisa usando a mesma sintaxe como uma cláusula SQL WHERE, apenas sem a palavra &quot;onde&quot;. Por exemplo,</p>
+<td><p>Insira os critérios da pesquisa usando a mesma sintaxe de uma cláusula WHERE do SQL, somente sem a palavra &quot;Where&quot;. For example,</p>
 <p>`Description = "Beverages"`</p>
-<p>Para criar um critério que inclui um valor de uma caixa de texto em um formulário, você deve criar uma expressão que concatena a primeira parte do critério com o nome da caixa de texto que contém o valor a ser procurado. Por exemplo, o seguinte critério pesquisará o campo Descrição para o valor na caixa de texto denominada Txtdescrição no formulário denominado frmCategories. Observe o sinal de igualdade (<strong>=</strong>) no início da expressão e o uso de aspas simples (<strong>'</strong>) em ambos os lados da referência de caixa de texto:</p>
+<p>Para criar um critério que inclua um valor de uma caixa de texto em um formulário, você deve criar uma expressão que concatena a primeira parte do critério com o nome da caixa de texto que contém o valor a ser pesquisado. Por exemplo, o critério a seguir pesquisará o campo Descrição para obter o valor da caixa de texto nomeada txtDescrição, no formulário frmCategorias. Observe o sinal de igual<strong>=</strong>() no início da expressão e o uso de aspas simples (<strong>'</strong>) em qualquer lado da referência da caixa de texto:</p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -101,9 +101,9 @@ A ação **ProcurarRegistro** tem os seguintes argumentos.
 
 - Quando mais de um registro satisfizer os critérios do argumento **CondiçãoOnde**, os seguintes fatores determinarão o registro a ser localizado:
     
-  - **Definição do argumento o registro** Consulte a tabela na seção configurações para obter mais informações sobre o argumento **registro** .
+  - **A configuração do argumento Record** Consulte a tabela na seção configurações para obter mais informações sobre o argumento **Record** .
     
-  - **A ordem de classificação dos registros** Por exemplo, se o argumento **registro** é definido como o **primeiro**, alterando a ordem de classificação dos registros pode alterar registro a ser localizado.
+  - **A ordem de classificação dos registros** Por exemplo, se o argumento **Record** for definido como **primeiro**, a alteração da ordem de classificação dos registros poderá alterar o registro localizado.
 
 - O objeto especificado no argumento **NomeDeObjeto** deve ser aberto antes da execução dessa ação. Caso contrário, ocorrerá um erro.
 
@@ -119,7 +119,7 @@ A ação **ProcurarRegistro** tem os seguintes argumentos.
         
     `Description = "Beverages" and CategoryID = 11`
     
-  - É possível fazer referência a campos localizados na fonte de registros de um formulário ou relatório, mas que não são exibidos no formulário ou relatório. No exemplo anterior, nem descrição nem CategoryID deve ser exibido no formulário ou relatório para os critérios trabalhar.
+  - É possível fazer referência a campos localizados na fonte de registros de um formulário ou relatório, mas que não são exibidos no formulário ou relatório. No exemplo anterior, nenhuma descrição ou CódigoDaCategoria deve ser exibido no formulário ou relatório para que os critérios funcionem.
     
   - Você pode usar operadores lógicos, como **\<**, **\>**, **E**, **OU** e **ENTRE**. A ação **EncontrarRegistro** localiza somente cadeias de caracteres que sejam iguais a, comecem com ou contenham a cadeia pesquisada.
 
@@ -141,11 +141,11 @@ Esta macro primeiro abre a tabela Categorias usando a ação **AbrirTabela**. A 
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nome da tabela</strong>: categorias de<strong>modo de exibição</strong>: <strong>Modo DatasheetData</strong>: <strong>Editar</strong></p></td>
+<td><p><strong>Nome da tabela</strong>: modo de<strong>exibição</strong>de categorias: <strong>DatasheetData modo</strong>: <strong>Editar</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>Nome TableObject</strong>: categorias de<strong>registro</strong>: <strong>FirstWhere condição</strong>: descrição = &quot;bebidas&quot;</p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>nome</strong>de tableobject:<strong>registro</strong>de categorias: <strong>FirstWhere condição</strong>: Descrição = &quot;bebidas&quot;</p></td>
 </tr>
 </tbody>
 </table>

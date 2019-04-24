@@ -1,5 +1,5 @@
 ---
-title: Propriedade Connection.QueryTimeout (DAO)
+title: Propriedade Connection. QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2a03b97fc69d6d770a5d7a1d149f6518933002b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295818"
 ---
-# <a name="connectionquerytimeout-property-dao"></a>Propriedade Connection.QueryTimeout (DAO)
+# <a name="connectionquerytimeout-property-dao"></a>Propriedade Connection. QueryTimeout (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que especifica o número de segundos a serem aguardados antes de ocorrer um erro de tempo limite quando uma consulta é executada em uma fonte de dados ODBC.
 
@@ -29,7 +29,7 @@ Define ou retorna um valor que especifica o número de segundos a serem aguardad
 
 *expressão* . QueryTimeout
 
-*expressão* Uma variável que representa um objeto de **Conexão** .
+*expressão* Uma variável que representa um objeto **Connection** .
 
 ## <a name="remarks"></a>Comentários
 

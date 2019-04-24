@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 080281ae0deb25fa10fcdccd8577d3aab076c2cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312065"
 ---
 # <a name="visual-c-extensions-example"></a>Exemplo de Extensões do Visual C++
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este programa mostra como os valores são recuperados dos campos e convertidos em variáveis C/C++.
 
-Este exemplo também tira vantagem do "ponteiros inteligentes", que lidam automaticamente os detalhes específicos do COM de chamada e para a interface **IADORecordBinding** de contagem de referência.
+Este exemplo também tira proveito de "ponteiros inteligentes", que manipulam automaticamente os detalhes específicos de COM de chamada e contagem de referência para a interface **IADORecordBinding** .
 
 Sem os ponteiros inteligentes, o código seria:
 
@@ -35,7 +35,7 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-Com os ponteiros inteligentes, você deriva o tipo de IADORecordBindingPtr do tipo da interface IADORecordBinding com esta instrução:
+Com apontadores inteligentes, você deriva o tipo IADORecordBindingPtr do tipo da interface IADORecordBinding com esta instrução:
 
 ```cpp 
  
@@ -49,7 +49,7 @@ E instancia o ponteiro da seguinte forma:
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Porque as extensões do Visual C++ são implementadas pelo objeto **Recordset** , o construtor do ponteiro inteligente, picRs, utiliza o \_RecordsetPtr ponteiro, pRs. O construtor chama QueryInterface usando pRs para localizar a, usa o \_RecordsetPtr ponteiro, pRs. O construtor chama QueryInterface usando pRs para localizar a interface IADORecordBinding.
+Como as extensões do Visual C++ são implementadas pelo objeto **Recordset** , o construtor do ponteiro inteligente, picRs, utiliza o \_ponteiro RecordsetPtr, pRs. O construtor chama QueryInterface usando pRs para localizar o, usa o \_ponteiro RecordsetPtr, pRs. O construtor chama QueryInterface usando pRs para encontrar a interface IADORecordBinding.
 
 ```cpp 
  

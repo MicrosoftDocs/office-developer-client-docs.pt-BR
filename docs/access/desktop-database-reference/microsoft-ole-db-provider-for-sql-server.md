@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4faa664ed9001c1c06906f58c7d873faf75a5d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288887"
 ---
-# <a name="microsoft-ole-db-provider-for-sql-server"></a>Microsoft OLE DB Provider for SQL Server
+# <a name="microsoft-ole-db-provider-for-sql-server"></a>Provedor Microsoft OLE DB para SQL Server
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O Microsoft OLE DB Provider for SQL Server, SQLOLEDB, permite que o ADO acesse o Microsoft SQL Server.
 
 ## <a name="connection-string-parameters"></a>Parâmetros da sequência de conexão
 
-Para se conectar com esse provedor, defina o argumento *Provider* para a propriedade [ConnectionString](connectionstring-property-ado.md) como:
+Para estabelecer uma conexão com esse provedor, defina o argumento *Provider=* para a propriedade [ConnectionString](connectionstring-property-ado.md) como:
 
 ```sql 
  
@@ -111,7 +111,7 @@ O provedor oferece suporte a vários parâmetros de conexão específicos para p
 </tr>
 <tr class="even">
 <td><p>Network Library</p></td>
-<td><p>Indica o nome da biblioteca de rede (bibliotecas de vínculos dinâmicos) usado para se comunicar com o SQL Server. O nome não deve incluir o caminho ou a extensão de nome de arquivo. dll. O padrão é fornecido pela configuração de cliente do SQL Server.</p></td>
+<td><p>Indica o nome da biblioteca de rede (bibliotecas de vínculo dinâmico) utilizada para a comunicação com o SQL Server. O nome não deve incluir o caminho nem a extensão .dll do nome do arquivo. O padrão é fornecido pela configuração de cliente do SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Use Procedure for Prepare</p></td>
@@ -354,7 +354,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Password</p></td>
+<td><p>Senha</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">
@@ -558,7 +558,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetScroll</p></td>
+<td><p>Essa</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="even">
@@ -718,7 +718,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_UNIQUEROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
@@ -854,7 +854,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_IRowsetResynch</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetScroll</p></td>
+<td><p>Essa</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="odd">
@@ -1026,7 +1026,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4f5ffae4880cadb90f47f1ac348ffc8b3ea58785
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288908"
 ---
-# <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
+# <a name="microsoft-ole-db-provider-for-odbc"></a>Provedor Microsoft OLE DB para ODBC
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Para um programador de ADO ou RDS, o mundo ideal seria aquele em que todas as fontes de dados apresentassem uma interface OLE DB, de modo que as chamadas do ADO pudessem ser feitas diretamente na fonte de dados. Embora cada vez mais fornecedores de bancos de dados venham implementando interfaces OLE DB, algumas fontes de dados ainda não são expostas dessa maneira. Por outro lado, praticamente todos os sistemas DBMS em uso hoje em dia podem ser acessados por ODBC.
 
@@ -80,7 +80,7 @@ A cadeia de caracteres consiste nas seguintes palavras-chave:
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<td><p>Especifica a URL de um arquivo ou diretório publicado em uma pasta da web.</p></td>
+<td><p>Especifica a URL de um arquivo ou diretório publicado em uma pasta da Web.</p></td>
 </tr>
 </tbody>
 </table>
@@ -106,7 +106,7 @@ Uma alternativa à definição de um **DSN** seria especificar o driver ODBC (**
 
 Você também pode especificar o nome de uma conta de usuário (**UID=**) e a senha dessa conta (**PWD=**) nos parâmetros específicos para ODBC ou nos parâmetros padrão *user* e *password* definidos pelo ADO.
 
-Embora uma definição de **DSN** já especifica um banco de dados, você pode especificar *um* parâmetro de *banco de dados* , além de um **DSN** para se conectar a um banco de dados diferente. É uma boa ideia sempre incluir *o* parâmetro de *banco de dados* quando você usa um **DSN**. Isso garantirá a conexão com o banco de dados apropriado, mesmo que outro usuário tenha alterado o parâmetro referente do banco de dados padrão desde a última vez que você verificou a definição do **DSN**.
+Embora uma definição de **DSN** já especifique um banco de dados, você pode especificar *um* parâmetro de *banco de dados* além de um **DSN** para se conectar a um banco de dados diferente. É uma boa ideia incluir sempre o parâmetro ** *Database* quando você usa um **DSN**. Isso garantirá a conexão com o banco de dados apropriado, mesmo que outro usuário tenha alterado o parâmetro referente do banco de dados padrão desde a última vez que você verificou a definição do **DSN**.
 
 ## <a name="provider-specific-connection-properties"></a>Parâmetros de conexão específicos para provedor
 
@@ -119,13 +119,13 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome da propriedade</p></th>
+<th><p>Nome da Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Accessible Procedures<br />
+<td><p>Procedimentos acessíveis<br />
 (KAGPROP_ACCESSIBLEPROCEDURES)</p></td>
 <td><p>Indica se o usuário tem acesso a procedimentos armazenados.</p></td>
 </tr>
@@ -135,7 +135,7 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 <td><p>Indica se o usuário tem permissão para executar instruções SELECT nas tabelas do banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Instruções de ativas<br />
+<td><p>Instruções ativas<br />
 (KAGPROP_ACTIVESTATEMENTS)</p></td>
 <td><p>Indica o número de identificadores aos quais um driver ODBC pode oferecer suporte em uma conexão.</p></td>
 </tr>
@@ -145,22 +145,22 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 <td><p>Indica o nome do arquivo do driver ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Versão do driver ODBC<br />
+<td><p>Versão ODBC do driver<br />
 (KAGPROP_DRIVERODBCVER)</p></td>
 <td><p>Indica a versão do ODBC à qual o driver oferece suporte.</p></td>
 </tr>
 <tr class="even">
-<td><p>Uso de arquivos<br />
+<td><p>Uso de arquivo<br />
 (KAGPROP_FILEUSAGE)</p></td>
 <td><p>Indica como o driver trata um arquivo em uma fonte de dados; como uma tabela ou como um catálogo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Escape cláusula LIKE<br />
+<td><p>Cláusula LIKE escape<br />
 (KAGPROP_LIKEESCAPECLAUSE)</p></td>
 <td><p>Indica se o driver oferece suporte à definição e utilização de um caractere de escape no lugar do caractere de porcentagem (%) e do caractere de sublinhado (_) no predicado LIKE de uma cláusula WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Máximo de colunas no grupo por<br />
+<td><p>Máximo de colunas em Group by<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
 <td><p>Indica o número máximo de colunas que podem ser listadas na cláusula GROUP BY de uma instrução SELECT.</p></td>
 </tr>
@@ -170,12 +170,12 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 <td><p>Indica o número máximo de colunas que podem ser incluídas em um índice.</p></td>
 </tr>
 <tr class="even">
-<td><p>Máximo de colunas por ordem<br />
+<td><p>Máximo de colunas em ordem por<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indica o número máximo de colunas que podem ser listadas na cláusula ORDER BY de uma instrução SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Máximo de colunas em Select<br />
+<td><p>Máximo de colunas em selecionar<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
 <td><p>Indica o número máximo de colunas que podem ser listadas na parte SELECT de uma instrução SELECT.</p></td>
 </tr>
@@ -190,7 +190,7 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 <td><p>Indica as funções numéricas às quais o driver ODBC oferece suporte. Para obter uma listagem dos nomes de funções e valores associados utilizados nesta máscara de bits, consulte o Apêndice E: funções escalares da documentação do ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Recursos de associação externa<br />
+<td><p>Recursos de junção externa<br />
 (KAGPROP_OJCAPABILITY)</p></td>
 <td><p>Indica os tipos de junções externas (OUTER JOINs) aos quais o provedor oferece suporte.</p></td>
 </tr>
@@ -220,12 +220,12 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção [Properti
 <td><p>Indica as funções do sistema às quais o driver ODBC oferece suporte. Para obter uma listagem dos nomes de funções e valores associados utilizados nesta máscara de bits, consulte o Apêndice E: funções escalares da documentação do ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Funções de data/hora<br />
+<td><p>Funções de hora/data<br />
 (KAGPROP_TIMEDATEFUNCTIONS)</p></td>
 <td><p>Indica as funções de hora e data às quais o driver ODBC oferece suporte. Para obter uma listagem dos nomes de funções e valores associados utilizados nesta máscara de bits, consulte o Apêndice E: funções escalares da documentação do ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Suporte a gramática SQL<br />
+<td><p>Suporte à gramática SQL<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indica a gramática SQL à qual o driver ODBC oferece suporte.</p></td>
 </tr>
@@ -244,33 +244,33 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção **Propert
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome da propriedade</p></th>
+<th><p>Nome da Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Consultas com base em exclui/atualizações/inserirá<br />
+<td><p>Atualizações/exclusões/inserções baseadas em consulta<br />
 (KAGPROP_QUERYBASEDUPDATES)</p></td>
 <td><p>Indica se atualizações, exclusões e inserções podem ser realizadas utilizando consultas SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo de simultaneidade ODBC<br />
+<td><p>Tipo ODBC de simultaneidade<br />
 (KAGPROP_CONCURRENCY)</p></td>
 <td><p>Indica o método utilizado para reduzir problemas potenciais que surgem quando dois usuários tentam acessar simultaneamente os mesmos dados na fonte de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acessibilidade do BLOB no cursor somente de encaminhamento<br />
+<td><p>Acessibilidade de BLOB em cursor somente de encaminhamento<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
 <td><p>Indica se <strong>Fields</strong> BLOB podem ser acessados quando um cursor somente de encaminhamento estiver sendo utilizado.</p></td>
 </tr>
 <tr class="even">
-<td><p>Incluem valores SQL_FLOAT, SQL_DOUBLE e SQL_REAL em QBU WHERE cláusulas<br />
+<td><p>Incluir SQL_FLOAT, SQL_DOUBLE e SQL_REAL em cláusulas WHERE QBU<br />
 (KAGPROP_INCLUDENONEXACT)</p></td>
 <td><p>Indica se valores SQL_FLOAT, SQL_DOUBLE e SQL_REAL podem ser incluídos em uma cláusula QBU WHERE.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Posição na última linha, após inserir<br />
+<td><p>Posição na última linha após inserir<br />
 (KAGPROP_POSITIONONNEWROW)</p></td>
 <td><p>Indica que, após a inserção de um novo registro em uma tabela, a última linha da tabela passará a ser a linha atual.</p></td>
 </tr>
@@ -280,12 +280,12 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção **Propert
 <td><p>Indica se a interface <strong>IRowsetChange</strong> oferece suporte a informações estendidas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tipo de Cursor ODBC<br />
+<td><p>Tipo de cursor ODBC<br />
 (KAGPROP_CURSOR)</p></td>
 <td><p>Indica o tipo de cursor utilizado pelo <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Gerar um conjunto de linhas que pode ser empacotado.<br />
+<td><p>Gerar um conjunto de linhas que possa ser empacotado<br />
 (KAGPROP_MARSHALLABLE)</p></td>
 <td><p>Indica que o driver ODBC gera um conjunto de registros que pode ser empacotado.</p></td>
 </tr>
@@ -297,11 +297,11 @@ O provedor OLE DB para ODBC adiciona várias propriedades à coleção **Propert
 
 A forma de utilização do objeto [Command](command-object-ado.md) depende em grande parte da fonte de dados e dos tipos de consultas e instruções de comando que ela aceita.
 
-O ODBC fornece uma sintaxe específica para chamar procedimentos armazenados. Para a propriedade [CommandText](commandtext-property-ado.md) do argumento *origem* para o método **Open** em um [Recordset](recordset-object-ado.md) , o argumento *CommandText* para o método **Execute** em um objeto de [Conexão](connection-object-ado.md) ou um objeto **Command** objeto, passa em uma cadeia de caracteres com esta sintaxe:
+O ODBC fornece uma sintaxe específica para chamar procedimentos armazenados. Para a propriedade [CommandText](commandtext-property-ado.md) de um objeto **Command**, o argumento *CommandText* do método **Execute** em um objeto [Connection](connection-object-ado.md) ou o argumento *Source* do método **Open** em um objeto [Recordset](recordset-object-ado.md), deve-se passar uma cadeia de caracteres com a seguinte sintaxe:
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Cada **?** faz referência a um objeto na coleção [Parameters](parameters-collection-ado.md). O primeiro **?** faz referência a **Parameters**(0), o segundo **?** a **Parameters**(1), e assim por diante.
+Cada **?** faz referência a um objeto na coleção [Parameters](parameters-collection-ado.md). O primeiro **?** referencia **parâmetros**(0), o próximo **?** referencia **parâmetros**(1) e assim por diante.
 
 As referências a parâmetros são opcionais e dependem da estrutura do procedimento armazenado. Se você quiser chamar um procedimento armazenado que não define qualquer parâmetro, sua cadeia de caracteres será semelhante a esta:
 
@@ -337,11 +337,11 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade</p></th>
+<th><p>Propriedade	</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>Dinâmico</p></th>
-<th><p>Conjunto de chaves</p></th>
-<th><p>Estático</p></th>
+<th><p>Dinâmica</p></th>
+<th><p>Chaves</p></th>
+<th><p>Static</p></th>
 </tr>
 </thead>
 <tbody>
@@ -381,7 +381,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
+<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
 <td><p>leitura/gravação</p></td>
 <td><p>leitura/gravação</p></td>
 <td><p>leitura/gravação</p></td>
@@ -409,7 +409,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>leitura/gravação</p></td>
 <td><p>leitura/gravação</p></td>
 <td><p>leitura/gravação</p></td>
@@ -496,11 +496,11 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método</p></th>
+<th><p>Método		</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>Dinâmico</p></th>
-<th><p>Conjunto de chaves</p></th>
-<th><p>Estático</p></th>
+<th><p>Dinâmica</p></th>
+<th><p>Chaves</p></th>
+<th><p>Static</p></th>
 </tr>
 </thead>
 <tbody>
@@ -568,7 +568,7 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Métodos MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
@@ -624,14 +624,14 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Suporta</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Atualização</a></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
@@ -761,7 +761,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Location</p></td>
+<td><p>Localização</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">
@@ -781,7 +781,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Modo</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -833,7 +833,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Password</p></td>
+<td><p>Senha</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">
@@ -1177,7 +1177,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_UNIQUEROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
@@ -1433,7 +1433,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="even">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="odd">
@@ -1446,5 +1446,5 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 
 ## <a name="see-also"></a>Confira também
 
-Para obter detalhes sobre a implementação específica e informações funcionais sobre o Microsoft OLE DB Provider for ODBC, consulte o [Guia do programador do OLE DB do](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) ou visite a [Central de desenvolvedores de plataforma de dados](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+Para obter detalhes sobre a implementação específica e informações funcionais sobre o Microsoft OLE DB Provider for ODBC, consulte o [Guia do programador do OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) ou visite o [centro do desenvolvedor da plataforma de dados](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 

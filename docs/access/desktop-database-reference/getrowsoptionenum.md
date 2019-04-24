@@ -1,5 +1,5 @@
 ---
-title: GetRowsOptionEnum (referência de banco de dados da área de trabalho do Access)
+title: GetRowsOptionEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 16a878aaded9368d89f935df5a7ae9575c31f480
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292192"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica quantos registros devem ser recuperados de um [Recorset](recordset-object-ado.md).
 
@@ -45,7 +45,7 @@ Especifica quantos registros devem ser recuperados de um [Recorset](recordset-ob
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -55,12 +55,12 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.GetRowsOption.REST</p></td>
+<td><p>AdoEnums. GetRowsOption. REST</p></td>
 </tr>
 </tbody>
 </table>

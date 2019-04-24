@@ -1,5 +1,5 @@
 ---
-title: Método TableDef.RefreshLink (DAO)
+title: Método TableDef. RefreshLink (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba9375da16cebd7db7a29fe20fca6f8b395a73a2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314277"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a>Método TableDef.RefreshLink (DAO)
+# <a name="tabledefrefreshlink-method-dao"></a>Método TableDef. RefreshLink (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
  
 Atualiza as informações de conexão para uma tabela vinculada (apenas espaços de trabalho do Microsoft Access).
 

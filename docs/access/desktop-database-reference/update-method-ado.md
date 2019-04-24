@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306234"
 ---
 # <a name="update-method-ado"></a>Método Update (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Salva quaisquer alterações feitas na linha atual de um objeto [Recordset](recordset-object-ado.md) ou na coleção [Fields](fields-collection-ado.md) de um objeto [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*conjunto de registros*. Atualizar*campos*, *valores*
+*Recordset*. Atualizar*campos*, *valores*
 
-*registro*. *Campos*. Atualização
+*Record*. *Campos*. Cumulativo
 
 ## <a name="parameters"></a>Parâmetros
 

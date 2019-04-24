@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306682"
 ---
 # <a name="repaintobject-macro-action"></a>Ação da macro RedesenharObjeto
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **RedesenharObjeto** para concluir todas as atualizações de tela pendentes para um objeto de bancos de dados especificado ou para o objeto de banco de dados ativo, caso não haja nenhum especificado. Essas atualizações incluem todos os recálculos pendentes de controles do objeto.
 

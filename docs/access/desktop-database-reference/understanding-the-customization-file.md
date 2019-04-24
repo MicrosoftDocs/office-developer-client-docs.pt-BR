@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314067"
 ---
 # <a name="understanding-the-customization-file"></a>Noções básicas sobre o arquivo de personalização
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) que contém um tipo e o parâmetro. Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**. O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.
+Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) contendo um tipo e parâmetro. Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**. O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.
 
 Portanto, cada seção é marcada com um destes cabeçalhos de seção:
 
@@ -48,15 +48,15 @@ Os cabeçalhos de seção possuem as seguintes partes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connect</strong></p></td>
+<td><p><strong>ao</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica uma sequência de conexão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>sql</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica uma sequência de comando.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>userlist</strong></p></td>
+<td><p><strong>UserList</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica os direitos de acesso de um usuário específico.</p></td>
 </tr>
 <tr class="even">
@@ -68,9 +68,8 @@ Os cabeçalhos de seção possuem as seguintes partes.
 <td><p>Uma sequência de caracteres literal usada quando nenhum identificador é especificado ou localizado.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifier</em></p></td>
-<td><p>Uma sequência de caracteres que corresponde a uma sequência de caracteres na sequência de <strong>conexão</strong> ou de <strong>comando</strong>.
-</p>
+<td><p><em>identificador</em></p></td>
+<td><p>Uma sequência de caracteres que corresponde a uma sequência de caracteres na sequência de <strong>conexão</strong> ou de <strong>comando</strong>.</p>
 <p></p>
 <ul>
 <li><p>Use esta seção se o cabeçalho de seção contiver <strong>connect</strong> e a sequência identifier for localizada na sequência de conexão.</p></li>
@@ -87,7 +86,7 @@ O **DataFactory** chama o manipulador, passando parâmetros cliente. O manipulad
 
 Uma seção específica é usada nas seguintes circunstâncias:
 
-  - Uma seção de **Conectar** será usada se a parte de valor do cliente se conecta a palavra-chave de cadeia de caracteres, "**Data Source = * * * valor*", corresponder a um identificador de seção **Conectar** *.*
+  - Uma seção **Connect** será usada se a parte de valor da palavra-chave cadeia de caracteres de conexão do cliente, "**fonte de dados = * * * valor*", corresponder a um identificador de seção **Connect** *.*
 
   - Uma seção **sql** será usada se a sequência de comando do cliente contiver uma sequência de caracteres que corresponda a um identificador de seção **sql**.
 

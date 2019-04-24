@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f059e5dfe064442f10972fd36344e64f84fe7ea5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296441"
 ---
 # <a name="chapter-2-getting-data"></a>Capítulo 2: Obtenção de dados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O capítulo anterior apresentou quatro operações principais envolvidas na criação de um aplicativo ADO: obtenção de dados, exame de dados, edição de dados e atualização de dados. Este capítulo se concentrará nos detalhes dos conceitos relevantes à primeira operação: obtenção de dados.
 
 Vários objetos do ADO podem desempenhar um papel nessa operação. Primeiro, você se conecta à fonte de dados usando um objeto **Connection** do ADO (que, às vezes, será criado de forma implícita). Em seguida, você passa instruções à fonte de dados sobre o que deseja fazer usando um objeto **Command** do ADO (que também pode ser criado de forma implícita). O resultado da passagem de um comando para uma fonte de dados e do recebimento de sua resposta normalmente será representado em um objeto **Recordset** do ADO.
 
-Para obter dados, seu aplicativo deve se comunicar com uma fonte de dados, como um DBMS, um repositório de arquivos ou um arquivo de texto separado por vírgulas. Essa comunicação representa uma *conexão* — o ambiente necessário para intercâmbio de dados.
+Para obter dados, seu aplicativo deve se comunicar com uma fonte de dados, como um DBMS, um repositório de arquivos ou um arquivo de texto separado por vírgulas. Essa comunicação representa uma *conexão* — o ambiente necessário para o intercâmbio de dados.
 
 O modelo de objeto do ADO representa o conceito de uma conexão com o objeto **Connection**  a base sobre a qual grande parte da funcionalidade do ADO é criada. A finalidade de um objeto **Connection** é:
 
@@ -37,6 +37,6 @@ O modelo de objeto do ADO representa o conceito de uma conexão com o objeto **C
 Este capítulo aborda os seguintes tópicos:
 
 - [Criação de uma conexão](making-a-connection.md)
-- [Usando a referência de objeto de conexão (ADO)](using-the-connection-object-access.md)
-- [Usando a referência de objeto command (ADO)](using-the-command-object-access.md)
-- [Adicionar dados para um Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Usando a referência de objeto Connection (ADO)](using-the-connection-object-access.md)
+- [Usando a referência de objeto de comando (ADO)](using-the-command-object-access.md)
+- [Adicionando dados a um Recordset (ADO)](adding-data-to-a-recordset.md)

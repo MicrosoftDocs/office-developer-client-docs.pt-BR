@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe8ba97e3d8306b8dc8b0415fdf50e4c7041d7f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314081"
 ---
 # <a name="tabledefs-members-dao"></a>Membros de TableDefs (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção TableDefs contém todos os objetos TableDef armazenados em um banco de dados (espaços de trabalho do Microsoft Access apenas).
 
@@ -36,7 +36,7 @@ Uma coleção TableDefs contém todos os objetos TableDef armazenados em um banc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Acrescentar</a></strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Acrescido</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong>TableDef</strong> à coleção <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="even">

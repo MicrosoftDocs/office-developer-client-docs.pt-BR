@@ -1,5 +1,5 @@
 ---
-title: Enumeração DatabaseTypeEnum (DAO)
+title: Enumeração de DatabaseTypeEnum (DAO)
 TOCTitle: DatabaseTypeEnum enumeration
 ms:assetid: a9bfc7cd-63d2-a012-bd3b-4cec072706c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821447(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b58a36ca581b7c932aeff0e36391827a27d865b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294558"
 ---
-# <a name="databasetypeenum-enumeration-dao"></a>Enumeração DatabaseTypeEnum (DAO)
+# <a name="databasetypeenum-enumeration-dao"></a>Enumeração de DatabaseTypeEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a versão do formato de dados de um banco de dados compactado.
 
@@ -36,13 +36,13 @@ Especifica a versão do formato de dados de um banco de dados compactado.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbDecrypt</p></td>
-<td><p>4</p></td>
+<td><p>dbDecrypt como</p></td>
+<td><p>quatro</p></td>
 <td><p>Descriptografa o banco de dados ao compactar</p></td>
 </tr>
 <tr class="even">
 <td><p>dbEncrypt</p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Criptografa o banco de dados</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Especifica a versão do formato de dados de um banco de dados compactado.
 </tr>
 <tr class="even">
 <td><p>dbVersion20</p></td>
-<td><p>16</p></td>
+<td><p>dezesseis</p></td>
 <td><p>Mecanismo de banco de dados do Microsoft Jet versão 2.0</p></td>
 </tr>
 <tr class="odd">

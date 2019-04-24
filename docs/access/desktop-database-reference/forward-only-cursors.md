@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65eaafe805eabbac1681aa6dcd08b6b99bb056fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292290"
 ---
 # <a name="forward-only-cursors"></a>Cursores de encaminhamento somente
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O tipo de cursor padrão comum, chamado cursor apenas de avanço (ou não-rolável), pode mover apenas para frente no conjunto de resultados. Um cursor apenas de avanço não oferece suporte para rolagem (a capacidade de mover para frente e para trás no conjunto de resultados); ele só oferece suporte à busca de linhas do início ao fim desse conjunto. Com alguns cursores apenas de avanço (como os da biblioteca de cursores do SQL Server), todas instruções de inserção, atualização e exclusão realizadas pelo usuário final (ou confirmadas por outros usuários) que afetam linhas no conjunto de resultados ficam visíveis à medida que as linhas são buscadas. No entanto, como o cursor não pode ser rolado para trás, as alterações feitas nas linhas do banco de dados após a busca da linha não ficam visíveis através do cursor.
 

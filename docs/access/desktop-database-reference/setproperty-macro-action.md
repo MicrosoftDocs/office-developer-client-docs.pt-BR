@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314571"
 ---
 # <a name="setproperty-macro-action"></a>Ação da macro DefinirPropriedade
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **DefinirPropriedade** para definir uma propriedade para um controle em um formulário ou relatório.
 
@@ -42,10 +42,10 @@ A ação **DefinirPropriedade** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do controle</p></td>
-<td><p>Digite o nome do campo ou controle para o qual você deseja definir o valor da propriedade. Use somente o nome do controle, não a sintaxe completa. Deixe este argumento em branco para definir a propriedade do formulário ou relatório atual.</p></td>
+<td><p>Digite o nome do campo ou do controle para o qual você deseja definir o valor da propriedade. Use somente o nome do controle, e não a sintaxe completa. Deixe este argumento em branco para definir a propriedade do formulário ou do relatório atual.</p></td>
 </tr>
 <tr class="even">
-<td><p>Propriedade</p></td>
+<td><p>Propriedade	</p></td>
 <td><p>Selecione a propriedade a ser definida. Consulte a seção <strong>Comentários</strong> deste artigo para obter uma lista das propriedades que podem ser definidas com esta ação.</p></td>
 </tr>
 <tr class="odd">
@@ -68,9 +68,9 @@ A ação **DefinirPropriedade** tem os seguintes argumentos.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação DefinirPropriedade para alternar a visibilidade da caixa de texto **MyTextBox** .
+O exemplo a seguir mostra como usar a ação setProperty para alternar a visibilidade da caixa **** de texto myTextBox.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Submacro: TestVisible

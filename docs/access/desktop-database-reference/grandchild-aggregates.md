@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a4c50898626488f909616977c6bb50c936434563
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292143"
 ---
 # <a name="grandchild-aggregates"></a>Agregações de netos
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-A coluna de capítulo criada em uma cláusula de um comando de forma pode ser dado um *nome de alias de capítulo* (geralmente com a palavra-chave). Você pode identificar qualquer coluna qualquer capítulo do **Recordset** com formato com um nome totalmente qualificado que identifica o filho que contém a coluna. Por exemplo, se o capítulo pai, Cap1, contém um capítulo de filho, chap2, que tem uma coluna de quantidade amt, então o nome qualificado seria chap1.chap2.amt. O nome qualificado, em seguida, pode ser usado como um argumento para uma das funções agregadas (soma, média, MAX, MIN, contagem, DESVPAD ou qualquer).
+À coluna do capítulo criada em uma cláusula de um comando shape pode ser fornecida um *nome do alias do capítulo* (geralmente com a palavra-chave AS). Você pode identificar qualquer coluna em qualquer capítulo do **Recordset** com forma com um nome totalmente qualificado que identifica o filho que contém a coluna. Por exemplo, se o capítulo pai, chap1, contém um capítulo filho, chap2, que tem uma coluna de valor, amt, então o nome qualificado seria chap1.chap2.amt. O nome qualificado pode então ser usado como um argumento para uma das funções agregadas (SUM, AVG, MAX, MIN, COUNT, STDEV ou ANY).
 

@@ -1,5 +1,5 @@
 ---
-title: Usando CacheSize (referência de banco de dados da área de trabalho do Access)
+title: Usando caChesize (referência de banco de dados do Access)
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 94e84ad8c8a87a6537c1abefe12427ecad0c0187
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312121"
 ---
 # <a name="using-cachesize"></a>Uso de CacheSize
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use a propriedade **CacheSize** para controlar a quantidade de registros a serem recuperados de uma vez, do provedor para a memória local. Por exemplo, se **CacheSize** for 10, após a abertura inicial do objeto **Recordset**, o provedor irá recuperar os 10 primeiros registros para a memória local. À medida que você se movimentar pelo objeto **Recordset**, o provedor retornará os dados do buffer de memória local. Assim que você passar pelo último registro armazenado em cache, o provedor irá recuperar os 10 registros seguintes da fonte de dados para o cache.
 

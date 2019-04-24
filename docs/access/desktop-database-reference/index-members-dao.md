@@ -1,5 +1,5 @@
 ---
-title: Membros de índice (DAO)
+title: Membros do índice (DAO)
 TOCTitle: Index Members
 ms:assetid: e261c5fa-ca7d-0d63-1c29-48e9231b39d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291793"
 ---
-# <a name="index-members-dao"></a>Membros de índice (DAO)
+# <a name="index-members-dao"></a>Membros do índice (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Os objetos Index especificam a ordem dos registros acessados a partir de tabelas de banco de dados e se registros duplicados são aceitos, fornecendo acesso eficiente aos dados. Para bancos de dados externos, os objetos Index descrevem os índices estabelecidos para tabelas externas (apenas espaços de trabalho do Microsoft Access ).
 
@@ -37,11 +37,11 @@ Os objetos Index especificam a ordem dos registros acessados a partir de tabelas
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="index-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> (espaços de trabalho do Microsoft Access apenas).</p></td>
+<td><p>Cria um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido pelo usuário (somente espaços de trabalho do Microsoft Access).</p></td>
+<td><p>Cria um novo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido pelo usuário (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,11 +82,11 @@ Os objetos Index especificam a ordem dos registros acessados a partir de tabelas
 <td><p>Define ou retorna um valor que indica se os registros com valores Null nos campos de índice têm entradas de índice (somente nos espaços de trabalho do Microsoft Access ).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="index-name-property-dao.md">Nome</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Primary</a></strong></p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Primário</a></strong></p></td>
 <td><p>Define ou retorna um valor que indica se um objeto <strong><a href="index-object-dao.md">Index</a></strong> representa um índice de chave primária de uma tabela (somente em espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -94,7 +94,7 @@ Os objetos Index especificam a ordem dos registros acessados a partir de tabelas
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Necessário</a></strong></p></td>
+<td><p><strong><a href="index-required-property-dao.md">Required</a></strong></p></td>
 <td><p>Define ou retorna um valor que indica se um objeto <strong><a href="field-object-dao.md">Field</a></strong> requer um valor não Null.</p></td>
 </tr>
 <tr class="even">

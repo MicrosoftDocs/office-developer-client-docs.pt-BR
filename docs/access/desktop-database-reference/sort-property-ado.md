@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 62ac60b1c7575f0b0d3e003dc58a11fe4d86c131
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308635"
 ---
 # <a name="sort-property-ado"></a>Propriedade Sort (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica um ou mais nomes de campo nos quais o [Recordset](recordset-object-ado.md) é classificado e se cada campo é classificado na ordem crescente ou decrescente.
 
@@ -33,7 +33,7 @@ A operação de classificação é eficiente, pois os dados não são reorganiza
 
 A definição da propriedade **Sort** em uma sequência de caracteres vazia redefinirá as linhas para sua ordem original e excluirá os índices temporários. Os índices existentes não serão excluídos.
 
-Suponha que um **Recordset** contém três campos chamado *"MiddleInitial"*, *firstName*e *lastName*. Definir a propriedade **Sort** à cadeia de caracteres, "Sobrenome DESC, firstName ASC", que será ordenar o **conjunto de registros** por sobrenome em ordem decrescente e, em seguida, por nome em ordem crescente. A inicial do segundo nome será ignorada.
+Suponha que um **Recordset** contenha três campos denominados *firstName*, *middleInitial* e *lastName*. Defina a propriedade **Sort** como a cadeia de caracteres, "LastName DESC, FirstName ASC", que ordenará o **Recordset** pelo sobrenome em ordem decrescente e, em seguida, pelo primeiro nome em ordem crescente. A inicial do segundo nome será ignorada.
 
 Nenhum campo poderá ser nomeado como "ASC" ou "DESC", pois esses nomes entrariam em conflito com as palavras-chave **ASC** e **DESC**. Forneça um alias ao campo com um nome conflitante utilizando a palavra-chave **AS** na consulta que retornar o **Recordset**.
 

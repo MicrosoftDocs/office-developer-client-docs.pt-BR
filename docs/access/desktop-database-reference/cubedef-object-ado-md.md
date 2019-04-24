@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c82c95a430da76694fe26300e877e86f86a2eb4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295307"
 ---
 # <a name="cubedef-object-ado-md"></a>Objeto CubeDef (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa um cubo em um esquema multidimensional, contendo um conjunto de dimensões relacionadas.
 
@@ -52,7 +52,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O nome do catálogo ao qual este cubo pertence.</p></td>
 </tr>
 <tr class="even">
-<td><p>CreatedOn</p></td>
+<td><p>Created</p></td>
 <td><p>Data e hora de criação do cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -60,7 +60,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>GUID do cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nome do cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>O nome do cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>Identificação de usuário da pessoa que realizou a última atualização de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>Descrição</p></td>
 <td><p>Uma descrição consistente do cubo.</p></td>
 </tr>
 <tr class="even">

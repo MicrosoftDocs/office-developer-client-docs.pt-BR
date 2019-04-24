@@ -1,5 +1,5 @@
 ---
-title: IsolationLevelEnum (referência de banco de dados da área de trabalho do Access)
+title: IsolationLevelEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291153"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o nível de isolamento da transação para um objeto [Connection](connection-object-ado.md).
 
@@ -43,7 +43,7 @@ Especifica o nível de isolamento da transação para um objeto [Connection](con
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>16</p></td>
+<td><p>dezesseis</p></td>
 <td><p>Indica que as alterações pendentes de transações mais altamente isoladas não podem ser sobregravadas.</p></td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Especifica o nível de isolamento da transação para um objeto [Connection](con
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -95,36 +95,36 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
+<td><p>AdoEnums. IsolationLevel. unESPECIFICADO</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.CHAOS</p></td>
+<td><p>AdoEnums. IsolationLevel. caos</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
+<td><p>AdoEnums. IsolationLevel. BROWSE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
+<td><p>AdoEnums. IsolationLevel. READUNCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
+<td><p>AdoEnums. IsolationLevel. CURSORSTABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
+<td><p>AdoEnums. IsolationLevel. READCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
+<td><p>AdoEnums. IsolationLevel. REPEATABLEREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
+<td><p>AdoEnums. IsolationLevel. ISOLAted</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
+<td><p>AdoEnums. IsolationLevel. SERIALIZABLE</p></td>
 </tr>
 </tbody>
 </table>

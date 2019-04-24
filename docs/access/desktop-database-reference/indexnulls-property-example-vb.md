@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e37f53218a7dabfa6248ea1da7630f82818a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291466"
 ---
 # <a name="indexnulls-property-example-vb"></a>Exemplo da propriedade IndexNulls (VB)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um [Índice](index-object-adox.md). O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário (em uma caixa de listagem chamada List1). Em seguida, o **índice** é acrescentada à [tabela](table-object-adox.md) de **funcionários** no [catálogo](catalog-object-adox.md) *Northwind* . O novo **Index** é aplicado a um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**, e o **Recordset** é aberto. Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado. A exibição desse novo registro depende da definição da propriedade **IndexNulls**.
+Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um [Índice](index-object-adox.md). O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário (em uma caixa de listagem chamada List1). Em seguida, o **índice** é acrescentado à tabela **Employees** [](table-object-adox.md) no catálogo *Northwind* [](catalog-object-adox.md). O novo **Índice** é aplicado a um [Recordset](recordset-object-ado.md) com base na tabela **Employees** e o **Recordset** é aberto. Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado. A exibição desse registro depende da configuração da propriedade **IndexNulls**.
 
 ```vb
     ' IndexNullsVB 

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b1f9c2bcc4ed4f3314a697d4a0eae8415bc4f62
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292451"
 ---
 # <a name="filteraxis-property-ado-md"></a>Propriedade FilterAxis (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica informações de filtro sobre o conjunto de células atual.
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
 Retorna um objeto [Axis](axis-object-ado-md.md) e é somente leitura.
 

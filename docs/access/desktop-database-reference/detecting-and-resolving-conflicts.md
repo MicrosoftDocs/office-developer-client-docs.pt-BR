@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd7566be2581fe449872eb576bf7f11e5a806fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293921"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Detecção e solução de conflitos
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-## <a name="detecting-and-resolving-conflicts"></a>Detecção e solução de conflitos
+## <a name="detecting-and-resolving-conflicts"></a>Detectando e resolvendo conflitos
 
 Se você estiver lidando com o **Recordset** no modo imediato, a probabilidade de ocorrerem problemas de simultaneidade é bem menor. Por outro lado, se o aplicativo usar atualização no modo em lotes, é bem provável que um usuário altere um registro antes que as alterações feitas por outro usuário que está editando o mesmo registro sejam salvas. Nesse caso, você desejará que o aplicativo trate o conflito habilmente. Talvez você queira que a última pessoa a enviar uma atualização para o servidor "ganhe". Ou talvez queira permitir que o usuário mais recente decida qual atualização deve prevalecer, permitindo que ele escolha entre os dois valores conflitantes.
 
@@ -30,7 +30,7 @@ Quando o ADO encontra um conflito durante uma atualização em lotes, um aviso �
 
 Quando você chama **BatchUpdate**, o ADO e o provedor estão gerando instruções SQL para executar atualizações na fonte de dados. Lembre-se de que determinadas fontes de dados têm limitações quanto aos tipos de colunas que podem ser usados em uma cláusula WHERE.
 
-Em seguida, chame o método **Resync** no **Recordset** com o argumento *AffectRecords* defina igual a **adAffectGroup** e o argumento *ResyncValues* defina igual a **adResyncUnderlyingValues**. O método **Resync** atualiza os dados no objeto **Recordset** atual a partir do banco de dados subjacente. Usando **adAffectGroup**, você garante que apenas os registros visíveis com a configuração de filtro atual, ou seja, apenas os registros em conflito, sejam resincronizados com o banco de dados. Isso pode fazer uma diferença significativa no desempenho, se você estiver lidando com um **Recordset** grande. Definindo o argumento *ResyncValues* como **adResyncUnderlyingValues** quando se chama **Resync**, garantir que a propriedade **UnderlyingValue** conterá o valor (conflitante) do banco de dados, que o **valor** propriedade manterá o valor inserido pelo usuário e que a propriedade **OriginalValue** acomodará o valor original do campo (o valor que tinha antes que a última chamada **UpdateBatch** bem-sucedido foi feita). Em seguida, você poderá usar esses valores para resolver o conflito de maneira programática ou deixar que o usuário escolha o valor que será usado.
+Em seguida, chame o método **Resync** no **Recordset** com o argumento *AffectRecords* definido como **adAffectGroup** e o argumento *ResyncValues* definido como **adResyncUnderlyingValues**. O método **Resync** atualiza os dados no objeto **Recordset** atual a partir do banco de dados subjacente. Usando **adAffectGroup**, você garante que apenas os registros visíveis com a configuração de filtro atual, ou seja, apenas os registros em conflito, sejam resincronizados com o banco de dados. Isso pode fazer uma diferença significativa no desempenho, se você estiver lidando com um **Recordset** grande. Definindo o argumento *ResyncValues* como **adResyncUnderlyingValues** ao chamar **Resync**, você garante que a propriedade **UnderlyingValue** conterá o valor (conflitante) do banco de dados, que a propriedade **Value** manterá o valor inserido pelo usuário e que a propriedade **OriginalValue** manterá o valor original do campo (o valor que ele tinha antes que a última chamada bem-sucedida para **UpdateBatch** fosse feita). Em seguida, você poderá usar esses valores para resolver o conflito de maneira programática ou deixar que o usuário escolha o valor que será usado.
 
 Essa técnica é mostrada no exemplo de código a seguir, o qual cria um conflito artificialmente usando um **Recordset** separado para alterar um valor na tabela de base, antes que **UpdateBatch** seja chamado.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database.CollatingOrder (DAO)
+title: Propriedade Database. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295013"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Propriedade Database.CollatingOrder (DAO)
+# <a name="databasecollatingorder-property-dao"></a>Propriedade Database. CollatingOrder (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que especifica a sequência da ordem de classificação no texto para comparação ou classificação da sequência (apenas espaços de trabalho do Microsoft Access). **Long** somente leitura.
 
@@ -25,7 +25,7 @@ Retorna um valor que especifica a sequência da ordem de classificação no text
 
 *expressão* . CollatingOrder
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Database** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +38,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordem de classificação</p></th>
 </tr>
 </thead>
@@ -105,15 +105,15 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Paradox International</p></td>
+<td><p>International Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPDXNor</strong></p></td>
-<td><p>Paradox em norueguês ou dinamarquês</p></td>
+<td><p>Norueguês ou dinamarquês Paradox</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXSwe</strong></p></td>
-<td><p>Paradox em sueco ou finlandês</p></td>
+<td><p>Sueco ou finlandês Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPolish</strong></p></td>
@@ -147,7 +147,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </table>
 
 
-A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi recentemente compactado.
+A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
 
 Verifique a configuração da propriedade **CollatingOrder** de um objeto **Database** ou **Field** para determinar o método de comparação da sequência para o banco de dados ou o campo. Você pode definir a propriedade **CollatingOrder** de um objeto **Field** novo e não acrescentado se quiser que a configuração do objeto **Field** seja diferente da configuração do objeto **Database** que a contém.
 

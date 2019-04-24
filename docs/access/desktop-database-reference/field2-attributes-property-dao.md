@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.Attributes (DAO)
+title: Propriedade Campo2. Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a655cfa5c6f0427b1a26a01f01e991564ab8e387
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292885"
 ---
-# <a name="field2attributes-property-dao"></a>Propriedade Field2.Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Propriedade Campo2. Attributes (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Define ou retorna um valor que indica uma ou mais características de um objeto **Field2**. **Long** de leitura/gravação.
@@ -30,7 +30,7 @@ Define ou retorna um valor que indica uma ou mais características de um objeto 
 
 *expressão* . Atributos
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -43,7 +43,7 @@ O valor especifica características do campo representadas pelo objeto **Field2*
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -95,23 +95,28 @@ Para um objeto que não está acrescentado a uma coleção, essa propriedade é 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Leitura/gravação até que o objeto <strong>TableDef</strong>, que contém o objeto <strong>Index</strong>, esteja acrescentando ao objeto <strong>Database</strong>; a propriedade é somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

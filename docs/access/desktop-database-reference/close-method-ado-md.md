@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 609069d04124146f311166e3ae56d8d6a793675b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296315"
 ---
 # <a name="close-method-ado-md"></a>Método Close (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Fecha um conjunto de células aberto.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Conjunto de células*. Fechar
+*CellSet*. Fechado
 
 ## <a name="remarks"></a>Comentários
 

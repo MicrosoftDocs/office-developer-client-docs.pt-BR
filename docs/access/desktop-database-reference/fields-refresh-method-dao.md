@@ -1,5 +1,5 @@
 ---
-title: Método Fields.Refresh (DAO)
+title: Método Fields. Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d08597d8-bad6-523b-a083-d824f85b64bc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834723(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 09218fae470646ab04ecfb5427004e56183e46ca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292507"
 ---
-# <a name="fieldsrefresh-method-dao"></a>Método Fields.Refresh (DAO)
+# <a name="fieldsrefresh-method-dao"></a>Método Fields. Refresh (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
-Atualiza os objetos na coleção especificada para refletir o esquema atual do banco de dados.
+Atualiza os objetos na coleta especificada para refletir o esquema atual do banco de dados.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atualizar
+*expressão* . Atualizado
 
-*expressão* Uma variável que representa um objeto **Fields** .
+*expressão* Uma variável que representa um **** objeto Fields.
 
 ## <a name="remarks"></a>Comentários
 

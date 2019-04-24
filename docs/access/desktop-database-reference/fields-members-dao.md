@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a6bfefea569d5298b5fa5c69b1cf610592c9f952
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292535"
 ---
 # <a name="fields-members-dao"></a>Membros de campos (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção Fields contém todos os objetos Field armazenados de um objeto Index, QueryDef, Recordset, Relation ou TableDef.
 
@@ -36,7 +36,7 @@ Uma coleção Fields contém todos os objetos Field armazenados de um objeto Ind
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Acrescentar</a></strong></p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Acrescido</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> à coleção <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.DefaultValue (DAO)
+title: Propriedade Campo2. DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 845a2e0c7ffa5d54d73c4fcec1a6c785468d734e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292829"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Propriedade Field2.DefaultValue (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Propriedade Campo2. DefaultValue (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Field2** ainda não acrescentado à coleção **[Fields](fields-collection-dao.md)**, essa propriedade é de leitura/gravação (apenas espaços de trabalho do Microsoft Access).
 
@@ -28,7 +28,7 @@ Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Fiel
 
 *expressão* . DefaultValue
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 

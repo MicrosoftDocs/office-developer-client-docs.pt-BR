@@ -1,5 +1,5 @@
 ---
-title: FieldAttributeEnum (referência de banco de dados da área de trabalho do Access)
+title: FieldAttributeEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292598"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
 
@@ -59,7 +59,7 @@ Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Indica que o campo contém um fluxo padrão para o recurso representado pelo record. Por exemplo, um fluxo padrão pode ser o conteúdo HTML de uma pasta raiz de um site que sejam atendida automaticamente quando a URL raiz é especificada.</p></td>
+<td><p>Indica que o campo contém o fluxo padrão para o recurso representado pelo registro. Por exemplo, o Stream padrão pode ser o conteúdo HTML de uma pasta raiz em um site, que é automaticamente fornecido quando a URL raiz é especificada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
@@ -72,7 +72,7 @@ Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
 <td><p>Indica que o campo contém a URL que nomeia o recurso do repositório de dados representado pelo registro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFldLong</strong></p></td>
+<td><p><strong>Bit adfldlong</strong></p></td>
 <td><p>0x80</p></td>
 <td><p>Indica que o campo é campo binário longo. Além disso, indica que você pode utilizar os métodos <a href="appendchunk-method-ado.md">AppendChunk</a> e <a href="getchunk-method-ado.md">GetChunk</a>.</p></td>
 </tr>
@@ -121,7 +121,7 @@ Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -131,45 +131,45 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
+<td><p>AdoEnums. Fieldattribute. CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
+<td><p>AdoEnums. Fieldattribute. FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
+<td><p>AdoEnums. Fieldattribute. isNULLable</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.LONG</p></td>
+<td><p>AdoEnums. Fieldattribute. LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
+<td><p>AdoEnums. Fieldattribute. MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
+<td><p>AdoEnums. Fieldattribute. MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
+<td><p>AdoEnums. Fieldattribute. NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
+<td><p>AdoEnums. Fieldattribute. ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
+<td><p>AdoEnums. Fieldattribute. doVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums. Fieldattribute. UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
+<td><p>AdoEnums. Fieldattribute. unESPECIFICADO</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
+<td><p>AdoEnums. Fieldattribute. ATUALIZável</p></td>
 </tr>
 </tbody>
 </table>

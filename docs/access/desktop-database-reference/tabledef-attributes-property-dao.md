@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef.Attributes (DAO)
+title: Propriedade TableDef. Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: d01588c3-e94e-06bd-6568-974873411f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: abdb0d07f2293a53fccaf0d628c301750027acc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314389"
 ---
-# <a name="tabledefattributes-property-dao"></a>Propriedade TableDef.Attributes (DAO)
+# <a name="tabledefattributes-property-dao"></a>Propriedade TableDef. Attributes (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Define ou retorna um valor que indica uma ou várias características de um objeto **TableDef**. **Long** de leitura/gravação.

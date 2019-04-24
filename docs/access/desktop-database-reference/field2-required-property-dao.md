@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.Required (DAO)
+title: Propriedade Campo2. Required (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b1950c8a864fbf23bee26be89e07e49357840b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292717"
 ---
-# <a name="field2required-property-dao"></a>Propriedade Field2.Required (DAO)
+# <a name="field2required-property-dao"></a>Propriedade Campo2. Required (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Define ou retorna um valor que indica se o objeto **Field2** requer ou não um valor não-Nulo .
@@ -26,7 +26,7 @@ Define ou retorna um valor que indica se o objeto **Field2** requer ou não um v
 
 *expressão* . Necessário
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -47,23 +47,28 @@ A disponibilidade da propriedade **Required** depende do objeto que contém a co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

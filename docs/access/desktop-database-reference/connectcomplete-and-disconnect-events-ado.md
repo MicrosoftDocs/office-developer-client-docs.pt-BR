@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e1e1d4487eb113c25e25ce6b9de051e33a4536b3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295986"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>Eventos ConnectComplete e Disconnect (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **ConnectComplete** é chamado após o *início* de uma conexão. O evento **Disconnect** é chamado depois do *término* de uma conexão.
 
 ## <a name="syntax"></a>Sintaxe
 
-ConnectComplete*pError*, *adStatus*, *pConnection*
+ConnectComplete*perror*, *adStatus*, *pConnection*
 
-Desconectar*adStatus*, *pConnection*
+DesConectar*adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 

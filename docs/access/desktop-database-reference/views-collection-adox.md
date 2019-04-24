@@ -1,5 +1,5 @@
 ---
-title: Coleção Views (ADOX)
+title: Coleção views (ADOX)
 TOCTitle: Views collection (ADOX)
 ms:assetid: 8d0f9517-4be1-be9c-d4cd-6d50cd5a8983
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249618(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6ce9986d486eb76046216aabbce6352280042910
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312128"
 ---
-# <a name="views-collection-adox"></a>Coleção Views (ADOX)
+# <a name="views-collection-adox"></a>Coleção views (ADOX)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Contém todos os objetos [View](view-object-adox.md) de um catálogo.
 

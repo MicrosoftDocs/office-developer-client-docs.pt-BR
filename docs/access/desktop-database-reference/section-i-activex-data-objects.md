@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5fef8dbec1d8861dd8c3421735baed2fcc7d4cde
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308810"
 ---
 # <a name="section-i-activex-data-objects"></a>Seção I: ActiveX Data Objects (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Esta seção contém os seguintes capítulos:
 
@@ -29,5 +29,5 @@ Esta seção contém os seguintes capítulos:
 - [Capítulo 7: Manipulação de eventos do ADO](chapter-7-handling-ado-events.md)
 - [Capítulo 8: Noções básicas sobre cursores e bloqueios](chapter-8-understanding-cursors-and-locks.md)
 - [Capítulo 9: Data Shaping](chapter-9-data-shaping.md)
-- [Capítulo 10: Records e streams](chapter-10-records-and-streams.md)
+- [Capítulo 10: Registros e fluxos](chapter-10-records-and-streams.md)
 

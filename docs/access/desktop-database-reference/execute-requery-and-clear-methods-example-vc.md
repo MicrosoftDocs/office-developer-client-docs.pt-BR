@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 582acdd8500060cc340bb98d8335346f688f473a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293284"
 ---
 # <a name="execute-requery-and-clear-methods-example-vc"></a>Exemplo dos métodos Execute, Requery e Clear (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra o método **Execute** ao ser executado a partir de um objeto [Command](command-object-ado.md) e de um objeto [Connection](connection-object-ado.md). Ele também utiliza o método [Requery](requery-method-ado.md) para recuperar dados atuais em um [recordset](recordset-object-ado.md) e o método [Clear](clear-method-ado.md) para limpar o conteúdo da coleção [Errors](errors-collection-ado.md). As funções ExecuteCommand e PrintOutput são necessárias para a execução desse exemplo.
 

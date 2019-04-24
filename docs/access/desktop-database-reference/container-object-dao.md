@@ -1,5 +1,5 @@
 ---
-title: Objeto container (DAO)
+title: Objeto Container (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295629"
 ---
-# <a name="container-object-dao"></a>Objeto container (DAO)
+# <a name="container-object-dao"></a>Objeto Container (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto **Container** agrupa tipos semelhantes de objetos **Document**.
 
@@ -39,11 +39,11 @@ Alguns desses objetos **Container** são definidos pelo mecanismo de banco de da
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Databases</p></td>
+<td><p>Bancos de dados</p></td>
 <td><p>Bancos de dados salvos</p></td>
 </tr>
 <tr class="even">
-<td><p>Tables</p></td>
+<td><p>Tabelas</p></td>
 <td><p>Tabelas e consultas salvas</p></td>
 </tr>
 <tr class="odd">
@@ -70,11 +70,11 @@ Como os objetos **Container** são incorporados, você não pode criar novos obj
 
 Para referir-se a um objeto **Container** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-- **Containers**(0)
+- **Contêineres** ,0
 
-- **Contêineres** ("*nome*")
+- **Contêineres** ("*Name*")
 
-- **Contêineres**\!\[*nome*\]
+- ****\!\[*Nome* do contêiner\]
 
 ## <a name="example"></a>Exemplo
 

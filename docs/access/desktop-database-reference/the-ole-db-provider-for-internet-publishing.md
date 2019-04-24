@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 617dca5ced5410e2023657ea1b0b748066f7843f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314053"
 ---
-# <a name="ole-db-provider-for-internet-publishing"></a>OLE DB Provider para Publicação de Internet
+# <a name="ole-db-provider-for-internet-publishing"></a>OLE DB Provider for Internet Publishing
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Os objetos ADO [Record](record-object-ado.md) e [Stream](stream-object-ado.md) podem ser usados com o Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) para acessar e manipular os recursos, como pastas da web ou arquivos servidos pelo Microsoft FrontPage. Com o ADO, você pode especificar a origem de um **Record**, **Stream** ou [Recordset](recordset-object-ado.md) que será uma URL. Em seguida, você pode fazer upload, baixar, mover, copiar e excluir os recursos, ou manipular diretamente as propriedades de recursos.
+Os objetos [Record](record-object-ado.md) e [Stream](stream-object-ado.md) do ADO podem ser usados com o Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) para acessar e manipular recursos, como pastas da Web ou arquivos servidos pelo Microsoft FrontPage. Com o ADO, você pode especificar a origem de um **Record**, **Stream** ou [Recordset](recordset-object-ado.md) que será uma URL. Em seguida, você pode fazer upload, baixar, mover, copiar e excluir os recursos, ou manipular diretamente as propriedades de recursos.
 
 Por exemplo, codifique usando **Records** e **Streams** com o Internet Publishing Provider, consulte o [Cenário de publicação na Internet](internet-publishing-scenario.md).
 
@@ -33,7 +33,7 @@ Há três maneiras de se conectar o ADO ao Internet Publishing Provider:
     objConn.Open "URL=https://servername" 
   ```
 
-- Especifique Msdaipp.dso para a palavra-chave do *provedor* da cadeia de caracteres de conexão. Por exemplo:
+- Especifique Msdaipp.dso para a palavra-chave *Provider* da sequência de conexão. Por exemplo:
     
   ```vb 
      
@@ -49,7 +49,7 @@ Há três maneiras de se conectar o ADO ao Internet Publishing Provider:
   ```
 
 > [!NOTE]
-> Se Msdaipp.dso for explicitamente especificado como o valor do provedor, com a palavra-chave do *provedor de* conexão cadeia de caracteres ou com a propriedade **Provider** , você não pode usar "URL =" na cadeia de conexão. Se o fizer, ocorrerá um erro. Em vez disso, basta Especifica a URL conforme mostrado anteriormente neste tópico.
+> Se Msdaipp.dso for explicitamente especificado como o valor do provedor, com a palavra-chave de sequência de conexão *Provider* ou a propriedade **Provider**, você não poderá utilizar "URL=" na sequência de conexão. Se o fizer, ocorrerá um erro. Em vez disso, simplesmente especifique a URL, conforme mostrado anteriormente neste tópico.
 
 Para obter informações mais específicas sobre o Internet Publishing Provider, consulte [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md) ou a documentação do provedor fornecida com o aplicativo de origem com o qual o OLE DB Provider for Internet Publishing foi instalado: Windows 2000, Office 2000 ou Internet Explorer 5.0.
 

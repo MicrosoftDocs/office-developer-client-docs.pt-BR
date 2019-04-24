@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef.Type (DAO)
+title: Propriedade QueryDef. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cb8856194d0b2ed14577bdc275adeb50ebdde212
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300942"
 ---
-# <a name="querydeftype-property-dao"></a>Propriedade QueryDef.Type (DAO)
+# <a name="querydeftype-property-dao"></a>Propriedade QueryDef. Type (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.
+Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer**somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tipo
+*expressão* . Escreva
 
 *expressão* Uma variável que representa um objeto **QueryDef** .
 
@@ -38,7 +38,7 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Tipo de consulta</p></th>
 </tr>
 </thead>
@@ -49,15 +49,15 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="even">
 <td><p><strong>dbQAppend</strong></p></td>
-<td><p>Acréscimo</p></td>
+<td><p>Append</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Composto</p></td>
+<td><p>Composição</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Tabela de referência cruzada</p></td>
+<td><p>Tabela</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
@@ -65,7 +65,7 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="even">
 <td><p><strong>dbQDelete</strong></p></td>
-<td><p>Delete</p></td>
+<td><p>Excluir</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQMakeTable</strong></p></td>
@@ -73,7 +73,7 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedimento (somente em espaços de trabalho ODBCDirect)</p><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p></td>
+<td><p>Procedimento (somente em espaços de trabalho ODBCDirect)</p><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

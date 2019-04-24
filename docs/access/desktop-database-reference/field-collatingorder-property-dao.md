@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.CollatingOrder (DAO)
+title: Propriedade Field. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3d016d779472ec9809d3ac5c77158c2c1d994f3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293123"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Propriedade Field.CollatingOrder (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Propriedade Field. CollatingOrder (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que especifica a sequência da ordem de classificação no texto para comparação ou classificação da sequência (apenas espaços de trabalho do Microsoft Access). **Long** somente leitura.
 
@@ -42,7 +42,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordem de classificação</p></th>
 </tr>
 </thead>
@@ -109,15 +109,15 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Paradox International</p></td>
+<td><p>International Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPDXNor</strong></p></td>
-<td><p>Paradox em norueguês ou dinamarquês</p></td>
+<td><p>Norueguês ou dinamarquês Paradox</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXSwe</strong></p></td>
-<td><p>Paradox em sueco ou finlandês</p></td>
+<td><p>Sueco ou finlandês Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPolish</strong></p></td>
@@ -161,35 +161,40 @@ A disponibilidade da propriedade **CollatingOrder** depende do objeto que conté
 <thead>
 <tr class="header">
 <th><p>Se a coleção Fields pertencer a</p></th>
-<th><p>CollatingOrder será</p></th>
+<th><p>Então CollatingOrder é</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi recentemente compactado.
+A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
 
 As definições das propriedades **CollatingOrder** e **Attributes** de um objeto **Field** em uma coleção **Fields** de um objeto **Index** determinam em conjunto a sequência e a direção da ordem de classificação de um índice. No entanto, não é possível definir uma ordem de agrupamento para um índice individual você pode defini-la somente para uma tabela inteira.
 

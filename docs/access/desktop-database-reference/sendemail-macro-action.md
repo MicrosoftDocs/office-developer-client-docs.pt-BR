@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c0fa220b3088cde46b0e82631c06520afd839c64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314648"
 ---
 # <a name="sendemail-macro-action"></a>Ação da macro EnviarEmail
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A ação **EnviarEmail** envia uma mensagem de email.
 
 > [!NOTE]
-> [!OBSERVAçãO] A ação **EnviarEmail** está disponível somente em Macros de Dados.
+> A ação **EnviarEmail** está disponível somente em Macros de Dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -35,7 +35,7 @@ A ação **EnviarEmail** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -44,17 +44,17 @@ A ação **EnviarEmail** tem os seguintes argumentos.
 <tr class="odd">
 <td><p><strong>To</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>para</strong> da mensagem. Separe os nomes dos destinatários especificados neste argumento (e nos argumentos <em>Cc</em> e <em>Cco</em> ) com um ponto e vírgula (;).</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>para</strong> da mensagem. Separe os nomes de destinatários especificados neste argumento (e nos argumentos <em>CC</em> e <em>Cco</em> ) com ponto e vírgula (;).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na Cc (&quot;cópia carbono&quot;) linha da mensagem.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha CC (&quot;cópia&quot;carbono) na mensagem.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na Cco (&quot;cópia oculta&quot;) linha da mensagem.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha Cco (&quot;com cópia&quot;oculta) da mensagem.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subject</strong></p></td>

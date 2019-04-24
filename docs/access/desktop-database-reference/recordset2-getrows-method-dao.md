@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.GetRows (DAO)
+title: Método Recordset2. getRows (DAO)
 TOCTitle: GetRows Method
 ms:assetid: e5c0a082-e9d2-359f-fed5-835ab91d2311
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d7b20e2f41074e9f12198477a6abf2f1f1f9f719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309412"
 ---
-# <a name="recordset2getrows-method-dao"></a>Método Recordset2.GetRows (DAO)
+# <a name="recordset2getrows-method-dao"></a>Método Recordset2. getRows (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . GetRows (***NumRows***)
+*expressão* . GetRows (***numrows***)
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
@@ -60,31 +60,31 @@ Variant
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **GetRows** para copiar registros de um **Recordset**. **GetRows** retorna uma matriz bidimensional. A primeira assinatura identifica o campo e a segunda identifica o número da linha. Por exemplo, `intField` representa o campo, e `intRecord` identifica o número da linha:
+Use o método **GetRows** para copiar registros de um **Recordset**. **GetRows** retorna uma matriz bidimensional. A primeira subscript identifica o campo e a segunda, o número de linhas. Por exemplo, `intField` representa o campo e `intRecord` identifica o número da linha:
 
 `avarRecords(intField, intRecord)`
 
-Para obter o valor do primeiro campo na segunda linha retornada, use código como este:
+Para obter o primeiro valor do campo na segunda linha retornada, use o código como se segue:
 
 `field1 = avarRecords(0,1)`
 
-Para obter o segundo valor do campo na primeira linha, use código como este:
+Para obter o segundo valor do campo na primeira linha, use o código como se segue:
 
 `field2 = avarRecords(1,0)`
 
 A variável avarRecords automaticamente se torna uma matriz bidimensional quando **GetRows** retorna dados.
 
-Se você solicitar mais linhas do que as disponíveis, então **GetRows** retornará somente o número de linhas disponíveis. Você pode usar a função **UBound** do Visual Basic for Applications para determinar quantas linhas **GetRows** realmente recuperou, já que a matriz é dimensionada para ajustar o número de linhas retornadas. Por exemplo, se você tiver retornado os resultados em uma **Variant** chamado varA, você pode usar o código a seguir para determinar quantas linhas foram realmente retornadas:
+Se você solicitar mais linhas do que aquelas disponíveis, **GetRows** retornará apenas o número de linhas disponíveis. Você pode usar a função **UBound** do Visual Basic for Applications para determinar quantas linhas **GetRows** realmente recuperou, porque a matriz deve ajustar-se ao número de linhas retornadas. Por exemplo, se você retornou os resultados em uma **Variant** chamada vara, poderá usar o código a seguir para determinar quantas linhas foram realmente retornadas:
 
 `numReturned = UBound(varA,2) + 1`
 
-Você precisa usar "+ 1" por que a primeira linha retornada está no elemento 0 da matriz. O número de linhas que você pode retornar é restringido pela quantidade de memória disponível. Você não deve usar **GetRows** para recuperar a tabela inteira para uma matriz caso ela seja grande.
+Você precisa usar "+ 1" por que a primeira linha retornada está no elemento 0 da matriz. O número de linhas que você pode recuperar está restrito pela quantidade de memória disponível. Você não deve usar **GetRows** para recuperar uma tabela inteira em uma matriz, se ela for grande.
 
-Como **GetRows** retorna todos os campos do **Recordset** para a matriz, incluindo os campos Memorandos e Binário Longo, talvez queira usar uma consta que restrinja os campos retornados.
+Como **GetRows** retorna todos os campos do **Recordset** na matriz, inclusive os campos Memo e Long Binary, é possível usar uma consulta que restrinja os campos retornados.
 
-Depois de chamar **GetRows**, o registro atual é posicionado na próxima linha não lida. Ou seja, **GetRows** tem o mesmo efeito no registro atual numrows **Mover**.
+Depois de chamar **GetRows**, o registro atual é posicionado na próxima linha não lida. Ou seja, **GetRows** tem o mesmo efeito no registro atual como **move**numrows.
 
-Se você estiver tentando recuperar todas as linhas usando várias chamadas a **GetRows**, use a propriedade **[EOF](recordset2-eof-property-dao.md)** para garantir que você esteja no final do **Recordset**. **GetRows** retornará menos do que o número solicitado se estiver no final do **Recordset** ou se não puder recuperar uma linha no intervalo solicitado. Por exemplo, se você estiver tentando recuperar 10 registros mas não puder recuperar o quinto registro, **GetRows** retornará quatro registros e transformará o quinto registro no registro atual. Isso não gerará um erro de tempo de execução. Isso pode ocorrer caso um usuário exclua um registro em um **Recordset** do tipo dynaset. Veja o exemplo para obter uma demonstração de como lidar com isso.
+Se você estiver tentando recuperar todas as linhas utilizando várias chamadas de **GetRows**, use a propriedade **[EOF](recordset2-eof-property-dao.md)** para ter certeza de que está no final do **Recordset**. **GetRows** retorna menos que o número solicitado se ele estiver no final de **Recordset** ou se ele não puder recuperar uma linha no intervalo solicitado. Por exemplo, se você estiver tentando recuperar 10 registros, mas não conseguir recuperar o quinto registro, **GetRows** retornará quatro registros e tornará o quinto registro o registro atual. Isso não irá gerar nenhum erro de tempo de execução. Isso pode ocorrer se outro usuário excluir um registro em um **Recordset** tipo dynaset. Consulte o exemplo para obter uma demonstração de como tratar isso.
 
 ## <a name="example"></a>Exemplo
 

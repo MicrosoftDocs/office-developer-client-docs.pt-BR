@@ -1,5 +1,5 @@
 ---
-title: Método Field2.LoadFromFile (DAO)
+title: Método Campo2. loadFromfile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292787"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Método Field2.LoadFromFile (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Método Campo2. loadFromfile (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Carrega o arquivo especificado do disco.
 
-## <a name="version-information"></a>Version information
+## <a name="version-information"></a>Informação da versão
 
 Versão adicionada: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . LoadFromFile (***FileName***)
+*expressão* . LoadFromfile (***nome de arquivo***)
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -89,9 +89,9 @@ O trecho de código a seguir usa o método **LoadFromFile** para carregar a foto
 
 <br/>
 
-O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.
+O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado a um campo de anexo.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

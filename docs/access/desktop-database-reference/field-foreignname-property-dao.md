@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.ForeignName (DAO)
+title: Propriedade Field. ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 5f412ab4-173b-9530-eb4f-71ee30bed9e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194762(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7c340eee9972e8247654ec863ba0ef4588ef65f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293102"
 ---
-# <a name="fieldforeignname-property-dao"></a>Propriedade Field.ForeignName (DAO)
+# <a name="fieldforeignname-property-dao"></a>Propriedade Field. ForeignName (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que especifica o nome do objeto **[Field](field-object-dao.md)** em uma tabela externa que corresponde a um campo em uma tabela primária de uma relação (somente nos espaços de trabalho do Microsoft Access).
 

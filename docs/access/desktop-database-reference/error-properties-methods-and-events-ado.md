@@ -1,5 +1,5 @@
 ---
-title: Erro propriedades, métodos e eventos (ADO)
+title: Propriedades, métodos e eventos do erro (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 8a1180b3-e8bf-c13d-a295-9caad7dad259
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 06497982f3c338ea3c3eb499e788dd527c05e351
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293452"
 ---
-# <a name="error-properties-methods-and-events-ado"></a>Erro propriedades, métodos e eventos (ADO)
+# <a name="error-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do erro (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriedades
 
@@ -25,7 +25,7 @@ ms.locfileid: "28710619"
 - [Propriedade NativeError](nativeerror-property-ado.md)
 - [Propriedade Number](number-property-ado.md)
 - [Propriedade Source (Error do ADO)](source-property-ado-error.md)
-- [Propriedade SQLState](sqlstate-property-ado.md)
+- [Propriedade SqlState](sqlstate-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 

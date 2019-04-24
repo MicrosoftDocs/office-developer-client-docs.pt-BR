@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a537756483361733c087d5dc1c6bba6e649d17d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292570"
 ---
 # <a name="fields-collection-ado"></a>Coleção Fields (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Contém todos os objetos [Field](field-object-ado.md) de um objeto [Recordset](recordset-object-ado.md) ou [Record](record-object-ado.md).
 

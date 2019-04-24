@@ -1,5 +1,5 @@
 ---
-title: Método Database.PopulatePartial (DAO)
+title: Método Database. PopulatePartial (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9e0f77c356e0a13c2a1a83986a92c2b25029ecb4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294796"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Método Database.PopulatePartial (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>Método Database. PopulatePartial (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Sincroniza as alterações em uma réplica parcial com a réplica completa, limpa todos os registros na réplica parcial e preenche novamente a réplica parcial com base nos filtros da réplica atual. (Apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).
 
@@ -28,7 +28,7 @@ Sincroniza as alterações em uma réplica parcial com a réplica completa, limp
 
 *expressão* . PopulatePartial (***DbPathName***)
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Database** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -60,7 +60,7 @@ Sincroniza as alterações em uma réplica parcial com a réplica completa, limp
 
 ## <a name="remarks"></a>Comentários
 
-Quando você sincroniza uma réplica parcial com uma réplica completa, é possível criar registros "órfãos" na réplica parcial. Por exemplo, suponha que você tem uma tabela Customers com seu **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** definido como "região = 'CA'". Se um usuário alterar uma região de Customers de CA para NY na réplica parcial e, em seguida, ocorrer uma sincronização por meio do método **[Synchronize](database-synchronize-method-dao.md)**, a alteração será propagada para a réplica completa mas o registro que contém NY na réplica parcial é órfão porque agora ele não satisfaz aos critérios do filtro da réplica.
+Quando você sincroniza uma réplica parcial com uma réplica completa, é possível criar registros "órfãos" na réplica parcial. Por exemplo, suponha que você tenha uma tabela clientes com a **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** definida como "Region =" AC "". Se um usuário alterar uma região de Customers de CA para NY na réplica parcial e, em seguida, ocorrer uma sincronização por meio do método **[Synchronize](database-synchronize-method-dao.md)**, a alteração será propagada para a réplica completa mas o registro que contém NY na réplica parcial é órfão porque agora ele não satisfaz aos critérios do filtro da réplica.
 
 Para solucionar o problema dos registros órfãos, você pode usar o método **PopulatePartial**. O método **PopulatePartial** é semelhante ao método **Synchronize**, mas ele sincroniza quaisquer alterações com a réplica completa, remove todos os registros na réplica parcial e, em seguida, preenche novamente a réplica parcial com base nos atuais filtros da réplica. Mesmo que os filtros da réplica não tiverem sido alterados, **PopulatePartial** sempre limpará os registros na réplica parcial e os preencherá novamente com base nos filtros atuais.
 

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e0cdf85461276d26005bc3066a387031a1086691
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291884"
 ---
 # <a name="importexportdata-macro-action"></a>Ação da macro ImportarExportarDados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ImportExportData** para importar ou exportar dados entre o banco de dados atual do Access (.mdb ou .accdb) ou o projeto do Access (.adp) e outro banco de dados. Para bancos de dados do Microsoft Access, você também pode vincular uma tabela ao banco de dados atual do Access de outro banco de dados. Com uma tabela vinculada, você tem acesso aos dados da tabela enquanto a própria tabela permanece em outro banco de dados.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> This action will not be allowed if the database is not trusted. 
 
 ## <a name="settings"></a>Configurações
 
@@ -45,7 +45,7 @@ A ação **ImportExportData** tem os argumentos a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de transferência</strong></p></td>
-<td><p>O tipo de transferência que você deseja fazer. Selecione <strong>Importar</strong>, <strong>Exportar</strong> ou <strong>Vincular</strong> na caixa <strong>Tipo de Transferência</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Importar</strong>.  </p><p><strong>Observação</strong>: não há suporte para o tipo de transferência de <strong>Link</strong> para projetos do Access (. adp).</p></td>
+<td><p>O tipo de transferência que você deseja fazer. Selecione <strong>Importar</strong>, <strong>Exportar</strong> ou <strong>Vincular</strong> na caixa <strong>Tipo de Transferência</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Importar</strong>.  </p><p><strong>OBSERVAÇÃO</strong>: O tipo de <strong>Link</strong> de transferência não tem suporte para projetos do Access (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de Banco de Dados</strong></p></td>
@@ -61,7 +61,7 @@ A ação **ImportExportData** tem os argumentos a seguir.
 <li><p>Selecione uma tabela na caixa de diálogo <strong>Vincular Tabelas</strong> e clique em <strong>OK</strong>.</p></li>
 </ol>
 <p>Abra a tabela recentemente vinculada no modo Design e exiba as propriedades da tabela clicando em <strong>Folha de Propriedades</strong> na guia <strong>Design</strong>, em <strong>Ferramentas</strong>. O texto na configuração de propriedade <strong>Descrição</strong> é a cadeia de conexão para esta tabela.  </p>
-<p>Para obter mais informações sobre cadeias de caracteres de conexão ODBC, consulte o arquivo de Ajuda ou outra documentação para o driver ODBC desse tipo de banco de dados ODBC.</p></td>
+<p>Para obter mais informações sobre cadeias de conexão ODBC, consulte o arquivo de ajuda ou outra documentação para o driver ODBC desse tipo de banco de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de Objeto</strong></p></td>

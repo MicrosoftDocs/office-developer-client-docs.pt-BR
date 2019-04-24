@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd2ecf0d7d3df6d1caffd906cf318916a2a8882
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293193"
 ---
 # <a name="fetchoptions-property-rds"></a>Propriedade FetchOptions (RDS)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o tipo de busca assíncrona.
 
@@ -61,5 +61,5 @@ Define ou retorna um dos valores a seguir.
 
 ## <a name="remarks"></a>Comentários
 
-Em um aplicativo web, você geralmente desejará usar **adcFetchAsync** (o valor padrão), porque ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
+Em um aplicativo Web, você geralmente vai querer usar o **adcFetchAsync** (o valor padrão), pois ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
 

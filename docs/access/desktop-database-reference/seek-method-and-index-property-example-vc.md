@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a9498a24b858de013aa717e9ce54963a81ab137
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308740"
 ---
 # <a name="seek-method-and-index-property-example-vc"></a>Exemplo do método Seek e da propriedade Index (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo utiliza o método [Seek](seek-method-ado.md) e a propriedade [Index](index-property-ado.md) do objeto [Recordset](recordset-object-ado.md) em conjunto com um determinado ***Employee ID***, para localizar o nome do funcionário na tabela ***Employees*** do banco de dados Nwind.mdb.
 
@@ -243,7 +243,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-**SeekX.h**
+**SeekX. h**
 
 ```cpp 
  

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f4646326469b4db688277885c31b5629aba8d408
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314088"
 ---
 # <a name="type-property-example-field-vc"></a>Exemplo da propriedade Type (Field) (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra a propriedade [Type](type-property-ado.md) exibindo o nome da constante que corresponde ao valor da propriedade **Type** de todos os objetos [Field](field-object-ado.md) na tabela ***Employees***. A função FieldType é necessária para a execução deste procedimento.
 

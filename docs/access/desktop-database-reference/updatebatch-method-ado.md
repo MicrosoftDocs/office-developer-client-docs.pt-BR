@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d269a9012588a7b82505ac2e28466151715cbb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313573"
 ---
 # <a name="updatebatch-method-ado"></a>Método UpdateBatch (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Grava todas as atualizações em lote pendentes no disco.
 
 ## <a name="syntax"></a>Sintaxe
 
-*conjunto de registros*. UpdateBatch*AffectRecords*
+*Recordset*. UpdateBatch*AffectRecords*
 
 ## <a name="parameters"></a>Parâmetros
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dba078c3b0b9e2e4b93a15943988793b1c5e483b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293368"
 ---
 # <a name="errors-object-reference-dao"></a>Referência de objeto de erros (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 - [Coleção Errors (DAO)](errors-collection-dao.md)
-- [Membros de erros (DAO)](errors-members-dao.md)
+- [Erros de Membros (DAO)](errors-members-dao.md)
 - [Propriedades de erros (DAO)](errors-properties-dao.md)
 - [Métodos de erros (DAO)](errors-methods-dao.md)
 

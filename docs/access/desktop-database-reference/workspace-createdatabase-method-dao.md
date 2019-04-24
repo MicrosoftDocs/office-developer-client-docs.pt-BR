@@ -1,5 +1,5 @@
 ---
-title: Método Workspace.CreateDatabase (DAO)
+title: Método Workspace. createDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: c0ad986e-3b4d-f781-f782-5aa3cdccea7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305863"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Método Workspace.CreateDatabase (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>Método Workspace. createDatabase (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dados no disco e retorna um objeto **Database** aberto (apenas espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateDatabase (***nome***, ***Conectar***, ***opção***)
+*expressão* . CreateDatabase (***nome***, ***conexão***, ***opção***)
 
 *expressão* Uma variável que representa um objeto **Workspace** .
 
@@ -45,10 +45,10 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando. Pode ser o nome de arquivo e caminho completo. Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;. Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</p></td>
+<td><p>Uma String com até 255 caracteres de comprimento que é o nome do arquivo de banco de dados que você está criando. Ela pode ser o caminho completo e o nome do arquivo. Se sua rede oferecer suporte a ele, você também poderá especificar um caminho de rede &quot; \\,&quot;como server1\share1\dir1\db1. Você só pode criar arquivos de bancos de dados do Microsoft Access com esse método.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
@@ -56,15 +56,15 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Uma expressão de cadeia de caracteres que especifica uma ordem de agrupamento para criar o banco de dados, conforme especificado em Configurações. Você deve fornecer esse argumento ou um erro ocorrerá.</p></li>
-<li><p>Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres de senha (começando com &quot;; pwd =&quot;) com uma constante no argumento <em>locale</em> , semelhante a esta:</p></li>
-<li><p>dbLangSpanish &amp; &quot;; pwd = novasenha&quot;</p></li>
+<li><p>Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres da senha ( &quot;começando com;p&quot;WD =) com uma constante no argumento <em>locale</em> , da seguinte maneira:</p></li>
+<li><p>dbLangSpanish &amp; &quot;;p wd = NewPassword&quot;</p></li>
 <li><p>Se desejar usar o <em>local</em> padrão, mas especificar uma senha, simplesmente digite uma cadeia de caracteres como senha para o argumento <em>local</em>:</p></li>
-<li><p>&quot;; pwd = novasenha&quot;</p></li>
+<li><p>&quot;;p WD = NewPassword&quot;</p></li>
 <li><p>[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><em>Option</em></p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que indica uma ou mais opções, conforme especificado em Configurações. Você pode combinar opções associando as constantes correspondentes.</p></td>
@@ -84,14 +84,14 @@ Você pode usar uma das seguintes constantes para o argumento locale a fim de es
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordem de agrupamento</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>dbLangGeneral</strong></p></td>
-<td><p>Inglês, alemão, francês, português, italiano e espanhol moderno</p></td>
+<td><p>Inglês, francês, alemão, português, italiano e espanhol moderno</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLangArabic</strong></p></td>
@@ -187,7 +187,7 @@ Você pode usar uma ou mais das seguintes constantes no argumento options para e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

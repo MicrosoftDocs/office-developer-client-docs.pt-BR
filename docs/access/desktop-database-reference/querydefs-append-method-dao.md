@@ -1,5 +1,5 @@
 ---
-title: Método QueryDefs.Append (DAO)
+title: Método de QueryDefs. Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 9b62a26b-3b7c-6d26-7707-177b00a23178
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4183a7b438d3f55d73eb63adb2d124da7eeecc1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300935"
 ---
-# <a name="querydefsappend-method-dao"></a>Método QueryDefs.Append (DAO)
+# <a name="querydefsappend-method-dao"></a>Método de QueryDefs. Append (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Adiciona um novo **QueryDef** à coleção **QueryDefs**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Acrescentar (***objeto***)
+*expressão* . Append (***objeto***)
 
 *expressão* Uma variável que representa um objeto **QueryDefs** .
 
@@ -47,7 +47,7 @@ Adiciona um novo **QueryDef** à coleção **QueryDefs**.
 <tr class="odd">
 <td><p><em>Object</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Object</strong></p></td>
+<td><p><strong>Objeto</strong></p></td>
 <td><p>Uma variável de objeto que representa o campo sendo acrescentado à coleção.</p></td>
 </tr>
 </tbody>
@@ -60,5 +60,5 @@ O objeto acrescentado torna-se um objeto persistente, armazenado em disco, até 
 
 A adição de um novo objeto ocorre imediatamente, mas você deve usar o método **Refresh** em qualquer outra coleção que possa ser afetada pelas alterações na estrutura do banco de dados.
 
-Se o objeto que você está acrescentando não estiver completo (como quando você não acrescentou um objeto **Field** a uma coleção **Fields** de um objeto **Index** antes de ele ser acrescentado a uma coleção **Indexes**) ou se as propriedades definidas em um ou mais objetos subordinados estiverem incorretas, a utilização do método **Append** causará um erro. Por exemplo, se você ainda não tiver especificado um tipo de campo e, então, tenta acrescentar o objeto **Field** à coleção **Fields** em um objeto **TableDef** , usar o método **Append** dispara um erro em tempo de execução.
+Se o objeto que você está acrescentando não estiver completo (como quando você não acrescentou um objeto **Field** a uma coleção **Fields** de um objeto **Index** antes de ele ser acrescentado a uma coleção **Indexes**) ou se as propriedades definidas em um ou mais objetos subordinados estiverem incorretas, a utilização do método **Append** causará um erro. Por exemplo, se você não tiver especificado um tipo de campo e tentar acrescentar o objeto **Field** à coleção **Fields** em um objeto **TableDef** , o uso do método **Append** disparará um erro em tempo de execução.
 

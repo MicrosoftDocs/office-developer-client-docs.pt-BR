@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b004f5e952f471ef6c39e4fa40dc9ae6a5a2fce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291675"
 ---
 # <a name="indexes-append-method-example-vb"></a>Exemplo do método Append de índices (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.
 

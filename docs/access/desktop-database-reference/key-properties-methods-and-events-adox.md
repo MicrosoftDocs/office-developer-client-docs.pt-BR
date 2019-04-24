@@ -1,5 +1,5 @@
 ---
-title: Principais propriedades, métodos e eventos (ADOX)
+title: Propriedades, métodos e eventos de chave (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9c46ff4d00efd5ed8f46ba3a40175b997750c11a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290302"
 ---
-# <a name="key-properties-methods-and-events-adox"></a>Principais propriedades, métodos e eventos (ADOX)
+# <a name="key-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de chave (ADOX)
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
@@ -24,7 +24,7 @@ ms.locfileid: "28714546"
 - [Propriedade DeleteRule](deleterule-property-adox.md)
 - [Propriedade Name](name-property-adox.md)
 - [Propriedade RelatedTable](relatedtable-property-adox.md)
-- [Propriedade Type (chave)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [Propriedade Type (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [Propriedade UpdateRule](updaterule-property-adox.md)
 
 ## <a name="methods"></a>Métodos

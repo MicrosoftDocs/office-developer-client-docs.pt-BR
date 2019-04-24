@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 86834cd8b6132e8939067c0e34037ca1b0ef8bad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314606"
 ---
 # <a name="setorderby-macro-action"></a>Ação da macro DefinirClassificadoPor
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **DefinirClassificadoPor** para especificar como deseja classificar os registros em um formulário, relatório, tabela ou resultado da consulta.
 
@@ -43,7 +43,7 @@ A ação **DefinirClassificadoPor** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Classificado Por</strong></p></td>
-<td><p>Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais.</p></td>
+<td><p>Uma expressão de cadeia de caracteres que inclui o nome do campo ou dos campos nos quais os registros serão classificados, além das palavras-chave opcionais ASC ou DESC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Controle</strong></p></td>

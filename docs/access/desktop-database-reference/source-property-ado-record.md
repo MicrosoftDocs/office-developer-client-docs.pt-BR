@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9bd1e1259eb7b089d0387dd385ee5157eeac2f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314550"
 ---
 # <a name="source-property-ado-record"></a>Propriedade Source (Record do ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica a fonte de dados ou o objeto representado pelo [Record](record-object-ado.md).
 
@@ -27,7 +27,7 @@ Define ou retorna um valor **Variant** que indica a entidade representada pelo *
 
 ## <a name="remarks"></a>Comentários
 
-A propriedade **Source** retorna o argumento de *fonte* do objeto **Record** do método [Open](open-method-ado-record.md) . Ela pode conter uma cadeia de caracteres de URL absoluta ou relativa. Uma URL absoluta pode ser utilizada sem a definição da propriedade [ActiveConnection](activeconnection-property-ado.md) para abrir diretamente o objeto **Record**. Neste caso, será criado um objeto **Connection** implícito.
+A propriedade **Source** retorna o argumento *Source* do método [Open](open-method-ado-record.md) do objeto **Record**. Ela pode conter uma cadeia de caracteres de URL absoluta ou relativa. Uma URL absoluta pode ser utilizada sem a definição da propriedade [ActiveConnection](activeconnection-property-ado.md) para abrir diretamente o objeto **Record**. Neste caso, será criado um objeto **Connection** implícito.
 
 A propriedade **Source** também pode conter uma referência a um **Recordset** já aberto, que abre um objeto **Record** representando a linha atual no **Recordset**.
 

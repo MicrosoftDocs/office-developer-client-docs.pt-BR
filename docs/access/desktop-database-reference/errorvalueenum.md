@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum (referência de banco de dados da área de trabalho do Access)
+title: ErrorValueEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d4207f157d361f3b8aba2ff80f46d06b2f328e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293319"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o tipo de erro de tempo de execução do ADO.
 
@@ -26,10 +26,10 @@ Três formatos de número de erro são listados:
 
 - Decimal negativo  A conversão decimal de um número completo do erro.
 
-- Hexadecimal  — A representação hexadecimal do número completo do erro. O código de recurso do Windows está no quarto dígito. O código de recurso para números de erro do ADO é *A*. Por exemplo: 0x800***A***0E7B.
+- Hexadecimal  A representação hexadecimal do número completo do erro. O código de recurso do Windows está no quarto dígito. O código de facilidade para números de erro do ADO é *um*. Por exemplo: 0x800***um***0E7B.
 
 > [!NOTE]
-> Erros do OLE DB podem ser passados ao seu aplicativo do ADO. Normalmente, esses itens podem ser identificados por um código de instalações do Windows de *4*. Por exemplo, _**4**0x800_ … Para obter mais informações sobre esses números, consulte o capítulo 16 do *referência do programador DB OLE.*
+> Os erros do OLE DB podem ser transmitidos para seu aplicativo ADO. Em geral, eles podem ser identificados por um código de recursos do Windows de *4*. Por exemplo, 0x800_**4**_.... Para obter mais informações sobre esses números, consulte o capítulo 16 da *referência do programador do OLE DB.*
 
 <br/>
 
@@ -429,7 +429,7 @@ Três formatos de número de erro são listados:
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -441,72 +441,72 @@ Somente os seguintes subconjuntos de equivalentes do ADO/WFC estão definidos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums. Errorvalue. BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
+<td><p>AdoEnums. Errorvalue. dataCONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums. Errorvalue. FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
+<td><p>AdoEnums. Errorvalue. ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
+<td><p>AdoEnums. Errorvalue. inTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
+<td><p>AdoEnums. Errorvalue. INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
+<td><p>AdoEnums. Errorvalue. INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums. Errorvalue. INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
+<td><p>AdoEnums. Errorvalue. ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
+<td><p>AdoEnums. Errorvalue. NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
+<td><p>AdoEnums. Errorvalue. não está em execução</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
+<td><p>AdoEnums. Errorvalue. NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
+<td><p>AdoEnums. Errorvalue. objectCLOSEd</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums. Errorvalue. OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
+<td><p>AdoEnums. Errorvalue. objectNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
+<td><p>AdoEnums. Errorvalue. objectOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums. Errorvalue. OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums. Errorvalue. PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
+<td><p>AdoEnums. Errorvalue. STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
+<td><p>AdoEnums. Errorvalue. STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
+<td><p>AdoEnums. Errorvalue. UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

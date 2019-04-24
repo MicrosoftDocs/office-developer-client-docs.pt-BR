@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65388a9a724adc5cf32a16b00c7d23ada1ef1c5d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314165"
 ---
 # <a name="tabledefs-methods-dao"></a>Métodos de TableDefs (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Método TableDefs.Append (DAO)](tabledefs-append-method-dao.md)
-- [Método TableDefs.Delete (DAO)](tabledefs-delete-method-dao.md)
-- [Método TableDefs.Refresh (DAO)](tabledefs-refresh-method-dao.md)
+- [Método TableDefs. Append (DAO)](tabledefs-append-method-dao.md)
+- [Método TableDefs. Delete (DAO)](tabledefs-delete-method-dao.md)
+- [Método TableDefs. Refresh (DAO)](tabledefs-refresh-method-dao.md)
 

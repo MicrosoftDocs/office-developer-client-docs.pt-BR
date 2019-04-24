@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d19e7adcdd3bb60f24d90e75942fcc0b4e16e2e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296651"
 ---
 # <a name="cancelrecordchange-macro-action"></a>Ação da macro CancelarAlteraçãodeRegistro
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **CancelarAlteraçãodeRegistro** para cancelar alterações aplicadas a um registro em um bloco de dados **[CriarRegistro](createrecord-data-block.md)** ou **[EditarRegistro](editrecord-data-block.md)** antes que as alterações sejam submetidas.
 

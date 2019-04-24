@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a47ac1f850905546651ffbdd708887bf7d74940
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296490"
 ---
 # <a name="chapter-10-records-and-streams"></a>Capítulo 10: Registros e fluxos
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O ADO atualmente fornece o objeto [Recordset](recordset-object-ado.md) como o principal meio de acessar informações nas fontes de dados, como bancos de dados relacionais. Entretanto, alguns provedores oferecem suporte a objetos [Record](record-object-ado.md) e [Stream](stream-object-ado.md) como objetos alternativos ou complementares com os quais os dados de provedores podem ser manipulados. Para obter especificações sobre o comportamento de **Record**, consulte a documentação do provedor.
 
-## <a name="records"></a>Records
+## <a name="records"></a>Registros
 
 Os objetos **Record** funcionam essencialmente como um **Recordset** de uma linha. Entretanto, **Records** têm funções limitadas em comparação ao **Recordsets** e têm diferentes propriedades e métodos. A fonte para os dados no objeto **Record** pode ser um comando que retorne uma linha de dados do provedor. A utilização de objetos **Record** em vez de objetos **Recordset** para receber os resultados de uma consulta que retorne uma linha de dados elimina a sobrecarga de instanciação de um objeto **Recordset** mais complexo.
 
 Os objetos **Record** podem servir para outro propósito, particularmente com os provedores de fontes de dados diferentes de bancos de dados relacionais tradicionais, como o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Muitas das informações que devem ser processadas existem não como tabelas nos bancos de dados, mas como mensagens em sistemas de email e como arquivos em sistemas de arquivo modernos. Os objetos **Record** e **Stream** facilitam o acesso às informações armazenadas em fontes diferentes de bancos de dados relacionais.
 
-O objeto **Record** pode representar e gerenciar dados como arquivos e diretórios em um sistema de arquivos ou pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
+O objeto **Record** pode representar e gerenciar dados, como diretórios e arquivos em um sistema de arquivos, pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
 
 Normalmente, um **Recordset** pode ser utilizado para representar um contêiner ou um pai na hierarquia, como uma pasta ou diretório. Um **Record** pode ser usado para retornar informações específicas sobre um nó no contêiner pai, como um arquivo ou documento. A principal razão para que os **Records** sejam utilizados para representar esse tipo de informação é que essas fontes de dados são heterogêneas. Isso significa que cada **Record** pode ter um conjunto e um número diferente de campos. Os **Recordsets** tradicionais que contêm linhas de um banco de dados são homogêneos, o que significa que cada linha tem o mesmo número e tipo de campos.
 
@@ -57,4 +57,4 @@ Este capítulo aborda os seguintes tópicos:
 - [Fluxos e persistência](streams-and-persistence.md)
 - [Campos fornecidos pelo provedor e registros](records-and-provider-supplied-fields.md)
 - [URLs absolutas e relativas](absolute-and-relative-urls.md)
-- [Usando o ADO for Internet publishing (ADO)](using-ado-for-internet-publishing.md)
+- [Usando o ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)

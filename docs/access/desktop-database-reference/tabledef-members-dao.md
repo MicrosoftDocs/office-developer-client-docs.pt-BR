@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314900"
 ---
 # <a name="tabledef-members-dao"></a>Membros de TableDef (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto TableDef representa a definição armazenada de uma tabela base ou de uma tabela vinculada (apenas espaços de trabalho do Microsoft Access).
 
@@ -45,7 +45,7 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido pelo usuário (somente espaços de trabalho do Microsoft Access).</p></td>
+<td><p>Cria um novo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido pelo usuário (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
@@ -99,11 +99,11 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Retorna a data e a hora da alteração feita mais recentemente em um objeto. <strong>Variant</strong> somente leitura.</p></td>
+<td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. Somente leitura <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação.</p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Nome</a></strong></p></td>
+<td><p>Retorna ou define o nome do objeto especificado. <strong>Cadeia de caracteres</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-properties-property-dao.md">Propriedades</a></strong></p></td>
@@ -127,7 +127,7 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
-<td><p>Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente em espaços de trabalho do Microsoft Access). <strong>String</strong> de leitura/gravação.</p></td>
+<td><p>Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente espaços de trabalho do Microsoft Access). <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-validationtext-property-dao.md">ValidationText</a></strong></p></td>

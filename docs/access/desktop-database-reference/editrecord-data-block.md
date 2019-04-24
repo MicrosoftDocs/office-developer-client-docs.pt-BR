@@ -1,5 +1,5 @@
 ---
-title: Dados EditarRegistro
+title: Bloco de dados Editarregistro
 TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ddfbbf21e62d5967fa1f2f31bab0222664eb39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293592"
 ---
-# <a name="editrecord-data-block"></a>Dados EditarRegistro
+# <a name="editrecord-data-block"></a>Bloco de dados Editarregistro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar o bloco de dados **EditarRegistro** para alterar os valores contidos em um registro existente.
 
 > [!NOTE]
-> [!OBSERVAçãO] O bloco de dados **EditarRegistro** está disponível somente em Macros de Dados.
+> O bloco de dados **EditarRegistro** está disponível somente em Macros de Dados.
 
 
 ## <a name="setting"></a>Configuração
@@ -35,7 +35,7 @@ O bloco de dados **EditarRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -66,7 +66,7 @@ Após a instrução **EditarRegistro**, você pode inserir um bloco de comandos 
 <td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">Se... Então... Instrução de macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Then... Instrução de macro else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
@@ -83,7 +83,7 @@ Você pode usar uma instrução **Se...Então...Senão** para executar operaçõ
 
 Para cancelar a edição de um registro, use a ação **CancelarAlteraçãodeRegistro**. Dessa forma, as alterações não são atribuídas e o bloco de dados **EditarRegistro** é encerrado.
 
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do registro mais recentemente criado:
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do Registro criado mais recentemente:
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

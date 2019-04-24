@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.EditMode (DAO)
+title: Propriedade Recordset2. EditMode (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d4043a442bec8c5ce421d85de6256eb9c5cb353f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307347"
 ---
-# <a name="recordset2editmode-property-dao"></a>Propriedade Recordset2.EditMode (DAO)
+# <a name="recordset2editmode-property-dao"></a>Propriedade Recordset2. EditMode (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Retorna um valor que indica o estado da edição para o registro atual.
+Retorna um valor que indica o estado da edição do registro atual.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -33,15 +33,15 @@ Retorna um valor que indica o estado da edição para o registro atual.
 
 ## <a name="remarks"></a>Comentários
 
-O valor de retorno é **Long** que indica o estado da edição. O valor pode ser uma das constantes **[EditModeEnum](editmodeenum-enumeration-dao.md)**.
+O valor de retorno é um **Long** que indica o estado da edição. O valor pode ser uma das constantes **[EditModeEnum](editmodeenum-enumeration-dao.md)**.
 
-A propriedade **EditMode** é útil quando um processo de edição é interrompido, por exemplo, por um erro durante a validação. Você pode usar o valor da propriedade **EditMode** para determinar se você deve usar o método **[Update](recordset2-update-method-dao.md)** ou **[CancelUpdate](recordset2-cancelupdate-method-dao.md)**.
+A propriedade **EditMode** será útil quando um processo de edição for interrompido, por exemplo, por um erro durante a validação. Use o valor da propriedade **EditMode** para determinar se você deverá usar o método **[Update](recordset2-update-method-dao.md)** ou **[CancelUpdate](recordset2-cancelupdate-method-dao.md)**.
 
-Você também pode verificar se a configuração da propriedade **[LockEdits](recordset2-lockedits-property-dao.md)** é **True** e se a configuração de propriedade **EditMode** é **dbEditInProgress** para determinar se a página atual está bloqueada.
+Você também pode verificar se a definição da propriedade **[LockEdits](recordset2-lockedits-property-dao.md)** será **True** e a definição da propriedade **EditMode** será **dbEditInProgress** para determinar se a página será bloqueada.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo mostra o valor da propriedade **EditMode** sob diversas condições. A função EditModeOutput é exigida para que esse procedimento seja executado.
+Este exemplo mostra o valor da propriedade **EditMode** em várias condições. A função EditModeOutput é necessária para esse procedimento ser executado.
 
 ```vb
     Sub EditModeX() 

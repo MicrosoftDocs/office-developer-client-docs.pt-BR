@@ -1,5 +1,5 @@
 ---
-title: Objeto Field2 (DAO)
+title: Objeto Campo2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292759"
 ---
-# <a name="field2-object-dao"></a>Objeto Field2 (DAO)
+# <a name="field2-object-dao"></a>Objeto Campo2 (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto **Field2** representa uma coluna de dados com um tipo de dados comum e um conjunto comum de propriedades.
 
@@ -36,19 +36,19 @@ Um objeto **Field2** contém as mesmas propriedades e métodos que o objeto **[F
 
 Para se referir a um objeto **Field2** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-**Fields**(0)
+**Campos** ,0
 
-**Campos** ("nome")
+**Campos** ("Name")
 
-**Campos**\!\[nome\]
+****\!\[Nome dos campos\]
 
 Com as mesmas formas de sintaxe, você também pode se referir à propriedade **Value** de um objeto **Field2** criado e acrescentado à coleção **Fields**. O contexto da referência de campo determinará se você está se referindo ao objeto **Field2** ou à propriedade **Value** do objeto **Field**.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como navegar entre um Recordset que contém um campo de valor múltiplos.
+O exemplo a seguir mostra como navegar em um Recordset que contém um campo de vários valores.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ O exemplo a seguir mostra como navegar entre um Recordset que contém um campo d
 
 <br/>
 
-O exemplo a seguir mostra como navegar entre os arquivos em um campo de anexo. O tipo de arquivo e o nome do arquivo de cada anexo é impresso na janela Immediate.
+O exemplo a seguir mostra como navegar os arquivos em um campo de anexo. O tipo de arquivo e o nome de arquivo de cada anexo são impressos na janela imediata.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ O exemplo a seguir mostra como navegar entre os arquivos em um campo de anexo. O
 
 <br/>
 
-O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.
+O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado a um campo de anexo.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especif
 
 <br/>
 
-O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho da pasta especificada.
+O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho de pasta especificado.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

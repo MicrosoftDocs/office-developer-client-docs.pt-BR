@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f43207edec0c0acb58c66318e5dc7668a28ea595
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295324"
 ---
 # <a name="creating-the-connection-string"></a>Criação da cadeia de conexão
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. Outros argumentos são passados ao provedor cujo nome é atribuído no argumento *Provider*, sem processamento pelo ADO.
 
@@ -27,17 +27,17 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>Provider</em></p></td>
-<td><p>Especifica o nome de um provedor a ser usado para a conexão.</p></td>
+<td><p>Especifica o nome do provedor a ser usado na conexão.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Nome do Arquivo</em></p></td>
+<td><p><em>File Name</em></p></td>
 <td><p>Especifica o nome de um arquivo específico do provedor (por exemplo, um objeto de fonte de dados persistente) contendo informações de conexão predefinidas.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 
 
 > [!NOTE]
-> Nos exemplos a seguir e em todo o guia do programador do ADO, a id de usuário "MyId" com uma senha de "123aBc" é usada para autenticar com base no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
+> Nos exemplos a seguir e por todo o guia do programador do ADO, a ID de usuário "MyId" com a senha "123aBc" é usada para autenticar-se no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
 
 O aplicativo HelloData no Capítulo 1 usava a seguinte sequência de conexão:
 
@@ -68,7 +68,7 @@ m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _
  "Initial Catalog='Northwind';Integrated Security='SSPI';" 
 ```
 
-O único parâmetro do ADO fornecido nessa sequência de conexão foi "Provider=SQLOLEDB", que indicava o Microsoft OLE DB Provider for SQL Server. Outros parâmetros válidos a serem passados na sequência de conexão podem ser determinados por meio da referência à documentação de provedores individuais. De acordo com o OLE DB Provider for documentação do SQL Server, você pode substituir "Server" para o parâmetro de *Fonte de dados* e "Database" para o parâmetro *Initial Catalog* . Assim, a seguinte sequência de conexão produziria resultados idênticos à primeira:
+O único parâmetro do ADO fornecido nessa sequência de conexão foi "Provider=SQLOLEDB", que indicava o Microsoft OLE DB Provider for SQL Server. Outros parâmetros válidos a serem passados na sequência de conexão podem ser determinados por meio da referência à documentação de provedores individuais. De acordo com a documentação do OLE DB Provider for SQL Server, você pode substituir o parâmetro *Data Source* por "Server" e o parâmetro *Initial Catalog* por "Database". Assim, a seguinte sequência de conexão produziria resultados idênticos à primeira:
 
 ```vb 
  

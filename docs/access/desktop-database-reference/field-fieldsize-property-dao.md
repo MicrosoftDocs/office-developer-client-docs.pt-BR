@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.FieldSize (DAO)
+title: Propriedade Field. FieldSize (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: c81bd5cb-6b7c-5390-2d6b-049143f2f3b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68a1b354b27515dd855703b9bf6344e4a9e90d7b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293109"
 ---
-# <a name="fieldfieldsize-property-dao"></a>Propriedade Field.FieldSize (DAO)
+# <a name="fieldfieldsize-property-dao"></a>Propriedade Field. FieldSize (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Retorna o número de bytes usado no banco de dados (em vez da memória) do objeto Memo ou Long Binary **[Field](field-object-dao.md)** na coleção **[Fields](fields-collection-dao.md)** de um objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tamanho do campo
+*expressão* . FieldSize
 
 *expressão* Uma variável que representa um objeto **Field** .
 

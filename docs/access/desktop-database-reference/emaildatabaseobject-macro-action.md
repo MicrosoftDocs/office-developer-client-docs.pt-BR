@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293564"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>Ação da macro EnviarObjetodeBancodeDadosporEMail
 
@@ -53,7 +53,7 @@ A ação **EnviarObjetodeBancodeDadosporEMail** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Formato de Saída</strong></p></td>
-<td><p>O tipo de formato a ser utilizado para o objeto incluído. A lista dos formatos que você pode selecionar dentre será alterada dependendo se você selecionar para o argumento de <strong>Tipo de objeto</strong> . Formatos disponíveis podem incluir <strong>Excel 97 - pasta de trabalho do Excel 2003 (*. xls)</strong>, a <strong>Pasta de trabalho binária do Excel (*. xlsb)</strong>, a <strong>Pasta de trabalho do Excel (*. xlsx)</strong>, <strong>HTML (*. htm, *. HTML)</strong>, <strong>Pasta de trabalho do Microsoft Excel 5.0/95 (*. xls)</strong>, <strong>formato PDF </strong>, <strong>Formatar Rich Text (RTF)</strong>, <strong>arquivos de texto (*. txt)</strong>ou <strong>formato XPS (*. XPS)</strong>. Na caixa <strong>Formato de saída</strong> . Módulos podem ser enviados somente no formato de texto. Páginas de acesso a dados só podem ser enviadas no formato HTML. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
+<td><p>O tipo de formato que você deseja usar para o objeto incluído. A lista de formatos nas quais você pode selecionar será alterada dependendo do que você selecionar para o argumento <strong>tipo de objeto</strong> . Os formatos disponíveis podem incluir <strong>a pasta de trabalho do excel 97-excel 2003 (*. xls)</strong>, <strong>pasta de trabalho binária do Excel (*. xlsb)</strong>, <strong>pasta de trabalho do Excel (*. xlsx)</strong>, <strong>HTML (*. htm, *. html)</strong>, <strong>pasta de trabalho do Microsoft Excel 5.0/95 (*. xls)</strong>, <strong>formato PDF </strong>, <strong>Rich Text Formatar (*. rtf)</strong>, <strong>arquivos de texto (*. txt)</strong>ou <strong>formato XPS (*. XPS)</strong>. na caixa <strong>formato de saída</strong> . Os módulos só podem ser enviados no formato de texto. As páginas de acesso a dados só podem ser enviadas no formato HTML. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -61,11 +61,11 @@ A ação **EnviarObjetodeBancodeDadosporEMail** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Cc</strong></p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na <strong>Cc</strong> (&quot;cópia carbono&quot;) linha na mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cc</strong> da mensagem de email ficará em branco.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>CC</strong> (&quot;cópia&quot;carbono) na mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cc</strong> da mensagem de email ficará em branco.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cco</strong></p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na <strong>Cco</strong> (&quot;cópia oculta&quot;) linha na mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cco</strong> ficará em branco.</p></td>
+<td><p><strong>Bcc</strong></p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>Cco</strong> (&quot;com cópia&quot;oculta) da mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cco</strong> ficará em branco.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Assunto</strong></p></td>
@@ -111,7 +111,7 @@ Para executar a ação **EnviarObjetodeBancodeDadosporEMail** em um módulo do V
 
 ### <a name="about-the-contributor"></a>Sobre o colaborador
 
-**Link fornecido pelo** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), o fundador e presidente da FMS, Inc., uma fornecedora de soluções de banco de dados personalizado e ferramentas de desenvolvedor.
+**Link fornecido por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), fundador e presidente da FMS, Inc., um provedor líder de soluções de banco de dados personalizadas e ferramentas de desenvolvedor.
 
 - [Recursos e limites do uso do Método SendObject para envio](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 

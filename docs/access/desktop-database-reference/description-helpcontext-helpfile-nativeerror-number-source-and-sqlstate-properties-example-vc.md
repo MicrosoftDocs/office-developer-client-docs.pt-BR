@@ -1,5 +1,5 @@
 ---
-title: Exemplo das propriedades Description, HelpContext, HelpFile (VC + +)
+title: Exemplo das propriedades Description, HelpContext e HelpFile (VC + +)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bef947a7a45cb079ea0202fdecb0043a73ad05b2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293949"
 ---
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, Number, Source e SQLState (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo dispara um erro, intercepta-o e exibe as propriedades [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) e [SQLState](sqlstate-property-ado.md) do objeto [Error](error-object-ado.md) resultante.
 

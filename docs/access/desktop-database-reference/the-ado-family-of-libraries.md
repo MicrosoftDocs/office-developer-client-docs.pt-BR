@@ -1,5 +1,5 @@
 ---
-title: A família ADO das bibliotecas
+title: A família de bibliotecas do ADO
 TOCTitle: The ADO family of libraries
 ms:assetid: 9e794509-d0a8-2e5b-02a8-65e26f059c4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 296e05118054ec045c23cd92a399afdc3cddd9a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313969"
 ---
-# <a name="the-ado-family-of-libraries"></a>A família ADO das bibliotecas
+# <a name="the-ado-family-of-libraries"></a>A família de bibliotecas do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Três bibliotecas principais compõem a família ADO: ADO (incluindo RDS), ADO MD e ADOX.
 
 ## <a name="ado"></a>ADO
 
-O ADO permite que os aplicativos clientes acessem e manipulem dados de um servidor de banco de dados através de um provedor OLE DB. Os principais benefícios do ADO são a facilidade de uso, a alta velocidade, baixa sobrecarga de memória e uma pequena superfície do disco. O ADO oferece suporte a recursos-chave para criar aplicativos baseados na web e cliente/servidor.
+O ADO permite que os aplicativos clientes acessem e manipulem dados de um servidor de banco de dados através de um provedor OLE DB. Os principais benefícios do ADO são a facilidade de uso, a alta velocidade, baixa sobrecarga de memória e uma pequena superfície do disco. O ADO oferece suporte aos principais recursos para a criação de aplicativos cliente/servidor e baseados na Web.
 
-ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
+O ADO também apresenta o RDS (Remote Data Service), pelo qual você pode mover dados de um servidor para um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar atualizações para o servidor em uma única viagem de ida e volta.
 
 ## <a name="ado-md"></a>ADO MD
 

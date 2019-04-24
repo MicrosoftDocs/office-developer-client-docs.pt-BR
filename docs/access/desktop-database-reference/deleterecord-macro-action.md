@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8fb20068052972696b09ea0d2165b344e97ea922
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294012"
 ---
 # <a name="deleterecord-macro-action"></a>Ação da macro ExcluirRegistro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExcluirRegistro** para excluir um registro.
 
@@ -31,7 +31,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -45,7 +45,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a seguinte sintaxe para referir-se o registro mais recentemente criado:
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para fazer referência ao registro criado mais recentemente:
 
 `[LastCreateRecordIdentity]`
 

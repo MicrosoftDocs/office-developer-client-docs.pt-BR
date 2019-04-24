@@ -1,5 +1,5 @@
 ---
-title: Visual Basic (referência de banco de dados da área de trabalho do Access)
+title: Visual Basic (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Visual Basic
 ms:assetid: 9d153b6c-c860-7350-cb3c-b9bd08f75ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3045cf3861409d2909f31536670a27c282eb2cdc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312135"
 ---
 # <a name="visual-basic"></a>Visual Basic
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Para manipular eventos do ADO no Microsoft Visual Basic, você deve declarar uma variável no nível do módulo usando a palavra-chave **WithEvents**. É possível declarar a variável somente como parte de um módulo de classe e é necessário declará-la no nível do módulo. Contudo, isso não é tão restritivo como parece porque os objetos **Form** do Visual Basic também são classes. A maneira mais simples de tratar eventos do ADO consiste em declarar uma variável usando **WithEvents**. O exemplo a seguir trata o evento **ConnectComplete** de um objeto **Connection**:
 
@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-O objeto **Connection** é declarado no nível de **Form** por meio da palavra-chave **WithEvents** para ativar o tratamento de eventos. O formulário\_manipulador de evento Load realmente cria o objeto, atribuindo um novo objeto de **Conexão** a *connEvent* e abre a conexão. Obviamente, um aplicativo real faria mais processamento no formato\_manipulador de eventos de carga que é mostrado aqui.
+O objeto **Connection** é declarado no nível de **Form** por meio da palavra-chave **WithEvents** para ativar o tratamento de eventos. O manipulador\_de eventos Form Load realmente cria o objeto atribuindo um novo objeto **Connection** ao *connEvent* e, em seguida, abre a conexão. Naturalmente, um aplicativo real faria mais processamento no manipulador de eventos Form\_Load do que é mostrado aqui.
 

@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9d44bc8fae0143b183ef54120cdaaf91337f36f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296126"
 ---
 # <a name="commandtimeout-property-ado"></a>Propriedade CommandTimeout (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica quanto tempo esperar durante a execução de um comando antes de interromper a tentativa e gerar um erro.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade URL (RDS - referência de banco de dados da área de trabalho do Access)
+title: Propriedade URL (referência do banco de dados de área de trabalho do Access)
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aafc8cc10410cafed21e38ad7fec269c391c1fa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313395"
 ---
 # <a name="url-property-rds"></a>Propriedade URL (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica um cadeia de caracteres que contém uma URL relativa ou absoluta.
 
@@ -24,9 +24,9 @@ Você pode definir a propriedade **URL** no tempo de design na marca OBJECT do o
 
 ## <a name="syntax"></a>Sintaxe
 
-Tempo de design: \<PARAM nome = valor "URL" = "Server"\>
+Tempo de design \<: parâmetro Name = "URL" value = "Server"\>
 
-Tempo de execução: DataControl.URL="Server"
+Tempo de execução: dataControl. URL = "Server"
 
 ## <a name="parameters"></a>Parâmetros
 

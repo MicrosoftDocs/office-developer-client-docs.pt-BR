@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292045"
 ---
 # <a name="handling-errors-in-vbscript"></a>Tratamento de erros em VBScript
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript. A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo. Em outras palavras, é possível usar On Error GoTo no VBScript. Em vez disso, use em VBScript. Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:
+Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript. A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo. Em outras palavras, não é possível usar On Error GoTo no VBScript. Em vez disso, use no VBScript. Em vez disso, use On Error Resume Next e, em seguida, verifique o **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:
 
 ```vb 
  

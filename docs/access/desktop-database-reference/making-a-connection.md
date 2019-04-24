@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 487212acd8847928e1fab405593edb172d0172d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289781"
 ---
 # <a name="making-a-connection"></a>Criação de uma conexão
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Para se conectar à fonte de dados, especifique uma *sequência de caracteres de conexão* e os parâmetros para diferenciar cada provedor ou fonte de dados. Para obter mais informações, consulte [Criando uma sequência de caracteres de conexão](creating-the-connection-string.md).
 
@@ -27,7 +27,7 @@ Dim connection as New ADODB.Connection
 connection.Open ConnectionString, UserID, Password, OpenOptions
 ```
 
-De forma alternativa, você pode chamar a técnica de atalho, **Recordset.Open**, para abrir uma conexão implícita e emitir um comando sobre aquela conexão em uma operação. Faça isso passando uma cadeia de caracteres de conexão válida como o argumento *ActiveConnection* do método **Open** . Esta é a sintaxe de cada método do Visual Basic:
+De forma alternativa, você pode chamar a técnica de atalho, **Recordset.Open**, para abrir uma conexão implícita e emitir um comando sobre aquela conexão em uma operação. Faça isso, passando uma sequência de caracteres de conexão válidos como o argumento *ActiveConnection* para o método **Open**. Esta é a sintaxe de cada método do Visual Basic:
 
 ```vb
 Dim recordset as ADODB.Recordset 

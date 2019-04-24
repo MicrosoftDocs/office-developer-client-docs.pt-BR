@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cc38101cb17c52bf2c8c08c08c14163c3772b2f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290790"
 ---
 # <a name="item-property-ado"></a>Propriedade Item (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica um membro específico de uma coleção, por nome ou número ordinal.
 
 ## <a name="syntax"></a>Sintaxe
 
-Definir o*objeto* = *conjunto*. Item (Index)
+Definir** = *coleção*de objetos. Item (index)
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -36,9 +36,9 @@ Retorna uma referência de objeto.
 
 ## <a name="remarks"></a>Comentários
 
-Use a propriedade **Item** para retornar um objeto específico em uma coleção. Se o **Item** não puder encontrar um objeto da coleção correspondente ao argumento de *índice* , ocorrerá um erro. Além disso, algumas coleções não oferecem suporte a objetos nomeados; para essas coleções, use referências de números ordinais.
+Use a propriedade **Item** para retornar um objeto específico em uma coleção. Um erro ocorrerá se **Item** não puder encontrar um objeto na coleção correspondente ao argumento *Index*. Além disso, algumas coleções não oferecem suporte a objetos nomeados; para essas coleções, use referências de números ordinais.
 
-A propriedade **Item** é a propriedade padrão para todas as coleções; assim, os formulários de sintaxe a seguir são intercambiáveis:
+A propriedade **Item** é a propriedade padrão para todas as coleções; por esse motivo, os seguintes formulários de sintaxe são intercambiáveis:
 
 ```vb
     collection.Item (Index)

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 08d8a3d7b3d6012867a91aa306f45872bfebb2e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290783"
 ---
 # <a name="jumping-to-a-record"></a>Alternância para um registro
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O método [Move](move-method-ado.md) permite que você avance ou retroceda um número específico de registros no **Recordset** usando a seguinte sintaxe:
 
@@ -36,7 +36,7 @@ Se a chamada de **Move** mover a posição do registro atual para um ponto depoi
 
 Chamar o método **Move** a partir de um objeto **Recordset** vazio gera um erro.
 
-Se você passar um indicador no argumento *Start* , a movimentação é relativo record com este indicador, supondo que o objeto **Recordset** suporta indicadores. Um indicador é obtido usando a propriedade [Bookmark](bookmark-property-ado.md). Se não for especificado, o movimento será relativo ao registro atual.
+Se você passar um indicador no argumento *Start*, o movimento será relativo ao registro com esse indicador, assumindo que o objeto **Recordset** suporte indicadores. Um indicador é obtido usando a propriedade [Bookmark](bookmark-property-ado.md). Se não for especificado, o movimento será relativo ao registro atual.
 
-Força o ADO para recuperar um novo grupo de registros, se você estiver usando a propriedade **CacheSize** para registros no cache localmente do provedor, passando um argumento *NumRecords* que move a posição do registro atual fora do grupo atual de registros armazenados em cache Iniciando o registro de destino. A propriedade **CacheSize** determina o tamanho do grupo recém-recuperado e o registro de destino é o primeiro registro recuperado.
+Se estiver utilizando a propriedade **CacheSize** para armazenar localmente em cache os registros do provedor, passar um argumento *NumRecords* que mova a posição do registro atual para fora do grupo atual de registros em cache força o ADO a recuperar um novo grupo de registros, iniciando pelo registro de destino. A propriedade **CacheSize** determina o tamanho do grupo recém-recuperado e o registro de destino é o primeiro registro recuperado.
 

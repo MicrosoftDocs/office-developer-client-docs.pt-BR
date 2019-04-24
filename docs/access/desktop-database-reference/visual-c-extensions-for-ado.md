@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc69d3244cf6faf3aa91fe954e4b39323cf13abf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302748"
 ---
 # <a name="visual-c-extensions-for-ado"></a>Extensões do Visual C++ para ADO
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-O método preferencial de programação ADO com o Visual C++ está usando o ** \#importar** diretiva, conforme discutido no [Microsoft Visual C++ ADO Programming](visual-c-ado-programming.md). Entretanto, as versões anteriores do ADO eram fornecidas com um método alternativo de programação utilizando o C++: as Extensões do Visual C++. Esta seção documenta esse recurso para aqueles que deve manter o código de extensões do Visual C++, mas o novo código ADO deve ser escrito usando \# **Importar**.
+O método preferencial de programação do ADO com o Visual C++ é ** \#** usar a política de importação, conforme discutido na [programação do Microsoft Visual C++ ADO](visual-c-ado-programming.md). Entretanto, as versões anteriores do ADO eram fornecidas com um método alternativo de programação utilizando o C++: as Extensões do Visual C++. Esta seção documenta esse recurso para aqueles que precisam manter o código de extensões do Visual C++, mas o novo código ADO \#deve ser escrito usando a **importação**.
 
 Um dos trabalhos mais tediosos que os programadores do Visual C++ enfrentam ao recuperar dados com o ADO é a conversão de dados retornados como um tipo de dados VARIANT em um tipo de dados C++ e, em seguida, o repositório dos dados convertidos em uma classe ou estrutura. Além de ser trabalhosa, a recuperação dos dados C++ por meio de tipo de dados VARIANT reduz o desempenho.
 

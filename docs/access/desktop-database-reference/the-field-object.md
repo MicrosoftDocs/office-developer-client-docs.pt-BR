@@ -1,5 +1,5 @@
 ---
-title: O objeto Field (referência de banco de dados da área de trabalho do Access)
+title: O objeto Field (referência do banco de dados de área de trabalho do Access)
 TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2cbd5752399e5a14f08b7eb944e3a028ba53f561
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314018"
 ---
 # <a name="field-object"></a>Objeto Field
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cada objeto **Field** normalmente corresponde a uma coluna em uma tabela de banco de dados. No entanto, um **Field** também pode representar um ponteiro para outro **Recordset**, chamado de capítulo. Exceções, como colunas de capítulo, serão abordadas posteriormente neste guia.
 
@@ -46,7 +46,7 @@ Os tópicos a seguir abordarão as propriedades do objeto [Field](field-object-a
 
 ## <a name="discovering-the-data-type"></a>Descobrindo o tipo de dados
 
-A propriedade **Type** indica o tipo de dados do campo. As constantes de tipo enumerado de dados que são suportadas pelo ADO são descritas na [DataTypeEnum](datatypeenum.md) na *referência do programador do ADO*.
+A propriedade **Type** indica o tipo de dados do campo. As constantes enumeradas de tipo de dados que são suportadas pelo ADO estão descritas em [DataTypeEnum](datatypeenum.md) na *referência do programador do ADO*.
 
 É possível obter mais informações sobre os tipos numéricos de ponto flutuante, como **adNumeric**. A propriedade **NumericScale** indica quantos dígitos à direita do ponto decimal serão usados para representar valores do **Field**. A propriedade **Precision** especifica o número máximo de dígitos usados para representar valores do **Field**.
 
@@ -67,21 +67,21 @@ Para alterar os dados em um campo, defina a propriedade **Value** como um novo v
 > [!NOTE]
 > [!OBSERVAçãO] Não é possível definir os valores do campo **Recordset** durante o acréscimo de novos objetos **Field** a um **Recordset**. Em vez disso, é possível acrescentar novos objetos **Field** a um **Recordset** fechado. Em seguida, o **Recordset** deverá ser aberto, e só então valores poderão ser atribuídos a esses objetos **Field**.
 
-## <a name="getting-more-field-information"></a>Obtendo mais informações sobre campos
+## <a name="getting-more-field-information"></a>Obtendo mais informações de campos
 
 Os objetos do ADO têm dois tipos de propriedades: internas e dinâmicas. Até esse ponto, foram abordadas somente as propriedades internas do objeto **Field**.
 
-As propriedades internas são aquelas propriedades implementadas no ADO e estão disponíveis para qualquer novo objeto, usando a sintaxe imediatamente. Elas não são exibidas como objetos **Property** na coleção **Properties** de um objeto.
+Propriedades internas são aquelas implementadas no ADO e disponibilizadas imediatamente para qualquer objeto novo, usando a sintaxe. Elas não são exibidas como objetos **Property** na coleção **Properties** de um objeto.
 
-As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto **Recordset** oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. Propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject.Properties(0) ou ou MyObject.Properties("Name").
+As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto **Recordset** oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. Propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject. Properties (0) ou MyObject. Properties ("Name").
 
 Não é possível excluir nenhum tipo de propriedade.
 
 Um objeto **Property** dinâmico tem quatro propriedades internas próprias:
 
-- A propriedade **Name** é uma cadeia de caracteres que identifica a propriedade.
+- A propriedade **Name** é uma sequência de caracteres que identifica a propriedade.
 
-- A propriedade **Type** é um número inteiro que especifica o tipo de dados da propriedade.
+- A propriedade **Type** é um inteiro que especifica o tipo de dados da propriedade.
 
 - A propriedade **Value** é uma variante que contém a definição da propriedade. **Value** é a propriedade padrão de um objeto **Property**.
 
@@ -122,5 +122,5 @@ Se o bit **adFldLong** na propriedade **Attributes** de um objeto **Field** for 
 
 Se não houver um registro atual quando você usar o método **GetChunk** ou **AppendChunk** em um objeto **Field**, ocorrerá o erro 3021 (sem registro atual).
 
-Para obter um exemplo de como usar esses métodos para manipular dados binários, consulte os exemplos [Do método AppendChunk](appendchunk-method-ado.md) e [Método GetChunk](getchunk-method-ado.md) na *referência do programador do ADO*.
+Para obter um exemplo de como usar esses métodos para manipular dados binários, consulte os exemplos do método [AppendChunk](appendchunk-method-ado.md) e do [método GetChunk](getchunk-method-ado.md) na *referência do programador do ADO*.
 

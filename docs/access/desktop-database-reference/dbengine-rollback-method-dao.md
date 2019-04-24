@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine.Rollback (DAO)
+title: Método DBEngine. Rollback (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835327(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 378baa8cd2923366a453a6cf23d51af0ab0df5ee
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294201"
 ---
-# <a name="dbenginerollback-method-dao"></a>Método DBEngine.Rollback (DAO)
+# <a name="dbenginerollback-method-dao"></a>Método DBEngine. Rollback (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Encerra a transação atual e restaura os bancos de dados no objeto **Workspace** para o estado em que estavam quando a transação atual começou.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Reversão
+*expressão* . Restauração
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 

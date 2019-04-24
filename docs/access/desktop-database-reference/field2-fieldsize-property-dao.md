@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.FieldSize (DAO)
+title: Propriedade Campo2. FieldSize (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: d609801d-7761-663f-2840-de5923bb120c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835039(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a7dfeb33568664a6a75f9f43de64e0c24abeb09a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292801"
 ---
-# <a name="field2fieldsize-property-dao"></a>Propriedade Field2.FieldSize (DAO)
+# <a name="field2fieldsize-property-dao"></a>Propriedade Campo2. FieldSize (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Retorna o número de bytes usados no banco de dados (em vez de na memória) de um objeto **Field2** Memo ou Long Binary na coleção **[Fields](fields-collection-dao.md)** de um objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tamanho do campo
+*expressão* . FieldSize
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 

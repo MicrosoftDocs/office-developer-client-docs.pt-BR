@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae259589cc8d4945068901c59105425599edc64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295132"
 ---
 # <a name="customization-file-sql-section"></a>Seção SQL do arquivo de personalização
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A seção **sql** pode conter uma nova sequência de caracteres SQL que substitui a sequência de comando do cliente. Se a seção não tiver nenhuma sequência de caracteres SQL, ela será ignorada.
 
 A nova sequência de caracteres SQL pode conter parâmetros. Isso significa que os parâmetros na sequência de caracteres SQL da seção **sql** (designada pelo caractere '?') podem ser substituídos pelos argumentos correspondentes em um *identifier* na sequência de comando do cliente (designada por uma lista delimitada por vírgula entre parênteses). O identificador e a lista de argumentos funcionam como uma chamada de função.**
 
-Por exemplo, suponha que a cadeia de caracteres de comando do cliente é "CustomerByID(4)", o cabeçalho de seção SQL \[SQL CustomerByID\] , e a nova sequência de seção SQL é "Selecione \* FROM Customers WHERE CustomerID = ?". O manipulador gerará, o cabeçalho de seção SQL é \[SQL CustomerByID\] , e a nova sequência de seção SQL é "Selecione \* FROM Customers WHERE CustomerID = ?". O manipulador gerará "Selecione \* FROM Customers WHERE CustomerID = 4" e usará essa sequência para consultar a fonte de dados.
+Por exemplo, suponha que a cadeia de caracteres de comando do cliente é "CustomerByID (4)", \[o cabeçalho\] da seção SQL é SQL CustomerByID e a nova sequência \* de caracteres da seção SQL é "selecionar de clientes em que CustomerID = ?". O manipulador gerará, o cabeçalho da seção SQL \[será SQL\] CustomerByID e a nova sequência de caracteres da seção SQL \* será "selecionar de clientes em que CustomerID = ?". O manipulador irá gerar "selecionar \* de clientes em que CustomerID = 4" e usar essa cadeia de caracteres para consultar a fonte de dados.
 
 Se a nova sequência de caracteres SQL for a sequência nula (""), a seção será ignorada.
 

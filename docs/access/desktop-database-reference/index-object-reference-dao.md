@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 557e4a5330f535235ce3ba635c370ee1121f7ac2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291758"
 ---
 # <a name="index-object-reference-dao"></a>Referência de objeto de índice (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Index (DAO)](index-object-dao.md)
-- [Membros de índice (DAO)](index-members-dao.md)
-- [Propriedades de índice (DAO)](index-properties-dao.md)
-- [Métodos de índice (DAO)](index-methods-dao.md)
+- [Membros do índice (DAO)](index-members-dao.md)
+- [Propriedades do índice (DAO)](index-properties-dao.md)
+- [Métodos index (DAO)](index-methods-dao.md)
 

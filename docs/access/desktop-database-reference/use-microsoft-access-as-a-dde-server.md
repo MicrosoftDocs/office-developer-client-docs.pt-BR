@@ -13,22 +13,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313388"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Usar o Microsoft Access como um servidor DDE
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 O Microsoft Access dá suporte à DDE (troca dinâmica de dados) como um aplicativo de destino (cliente) ou um aplicativo de origem (servidor). Por exemplo, um aplicativo como Microsoft Word, funcionando como um cliente, pode solicitar dados através da DDE de um banco de dados do Microsoft Access que esteja funcionando como servidor.
 
 > [!TIP]
 > [!DICA] Caso você precise manipular objetos do Microsoft Access a partir de outro aplicativo, convém considerar o uso da Automação.
 
-Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Depois de uma conversação iniciada em um tópico específico, somente um item de dados associado àquele tópico pode ser transferido.
+Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Depois que uma conversa começou em um tópico específico, somente um item de dados associado a esse tópico pode ser transferido.
 
 Por exemplo, suponha que você esteja executando o Microsoft Word e queira inserir dados de um banco de dados específico do Microsoft Access em um documento. Comece uma conversação DDE com o Microsoft Access abrindo um canal DDE com a função **DDEInitiate** e especificando o nome do arquivo de banco de dados como o tópico. Em seguida, será transferir os dados daquele banco de dados para o Microsoft Word por meio desse canal.
 
@@ -44,7 +44,7 @@ Como um servidor DDE, o Microsoft Access dá suporte a estes tópicos:
 
 - Uma cadeia SQL do Microsoft Access (tópico *sqlstring*)
 
-Depois que você estabelecer uma conversação DDE, você pode usar a instrução **DDEExecute** para enviar um comando do cliente para o aplicativo de servidor. Quando usado como um servidor DDE, o Microsoft Access reconhece qualquer um destes como comandos válidos:
+Depois de estabelecer uma conversa DDE, você pode usar a instrução **DDEExecute** para enviar um comando do cliente para o aplicativo de servidor. Quando usado como um servidor DDE, o Microsoft Access reconhece qualquer um destes como comandos válidos:
 
 - O nome de uma macro no banco de dados atual.
 
@@ -55,7 +55,7 @@ Depois que você estabelecer uma conversação DDE, você pode usar a instruçã
 > [!NOTE]
 > [!OBSERVAçãO] Quando você especifica uma ação de macro como uma instrução **DDEExecute**, a ação e quaisquer argumentos seguem a sintaxe do objeto **DoCmd** e precisam vir entre colchetes ([ ]). No entanto, aplicativos que dão suporte à DDE não reconhecem constantes intrínsecas em operações DDE. Além disso, argumentos de cadeias de caracteres precisam vir entre aspas (" ") se a cadeia contiver uma vírgula. Senão, as aspas são desnecessárias.
 
-O aplicativo cliente pode usar a função **DDERequest** para solicitar dados de texto do aplicativo servidor através de um canal DDE aberto. Outra alternativa é o cliente usar a instrução **DDEPoke** para enviar dados ao aplicativo servidor. Quando a transferência de dados for concluída, o cliente pode usar a instrução **DDETerminate** para fechar o canal DDE ou a instrução **DDETerminateAll** para fechar todos os canais abertos.
+O aplicativo cliente pode usar a função **DDERequest** para solicitar dados de texto do aplicativo servidor através de um canal DDE aberto. Outra alternativa é o cliente usar a instrução **DDEPoke** para enviar dados ao aplicativo servidor. Após a conclusão da transferência de dados, o cliente pode usar a instrução **DDETerminate** para fechar o canal DDE ou a instrução **DDETerminateAll** para fechar todos os canais abertos.
 
 > [!NOTE]
 > [!OBSERVAçãO] Quando o aplicativo cliente termina de receber dados através de um canal DDE, deve fechar aquele canal para poupar recursos de memória.
@@ -95,7 +95,7 @@ As seções a seguir fornecem informações sobre os tópicos DDE válidos com s
 
 ## <a name="the-system-topic"></a>O tópico System
 
-O tópico System é um tópico padrão para todos os aplicativos Microsoft baseada no Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essa informação, seu código deve primeiro chamar a função **DDEInitiate** com o argumento *topic* e executar a instrução **DDERequest** com um dos seguintes fornecidos para o argumento *item* .
+O tópico System é um tópico padrão para todos os aplicativos baseados no Microsoft Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essas informações, seu código deve primeiro chamar a função **DDEIniciar** com o argumento *topic* e executar a instrução **DDERequest** com uma das seguintes opções fornecidas para o argumento *Item* .
 
 <table>
 <colgroup>
@@ -144,12 +144,12 @@ O exemplo a seguir demonstra o uso das funções **DDEInitiate** e **DDERequest*
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
 ```
 
-## <a name="the-database-topic"></a>O tópico de banco de dados
+## <a name="the-database-topic"></a>O tópico Database
 
-O tópico de *banco de dados* é o nome de arquivo do banco de dados existente. É possível digitar apenas o nome básico (Northwind) ou seu caminho e extensão. mdb (c:\\acesso\\amostras\\Northwind. mdb). Após iniciar uma conversação DDE com o banco de dados, você pode solicitar uma lista dos objetos naquele banco de dados.
+O tópico *database* é o nome do arquivo de um banco de dados existente. Você pode digitar apenas o nome de base (Northwind) ou o caminho e a extensão. mdb (C:\\Access\\Samples\\Northwind. mdb). Após iniciar uma conversação DDE com o banco de dados, você pode solicitar uma lista dos objetos naquele banco de dados.
 
 > [!NOTE]
-> [!OBSERVAçãO] Não é possível usar a DDE para consultar o arquivo de informações do grupo de trabalho do Microsoft Access.
+> Não é possível usar a DDE para consultar o arquivo de informações do grupo de trabalho do Microsoft Access.
 
 O tópico *database* oferece suporte aos seguintes itens.
 
@@ -166,15 +166,15 @@ O tópico *database* oferece suporte aos seguintes itens.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TableList</p></td>
+<td><p>Tablelist</p></td>
 <td><p>Uma lista de tabelas</p></td>
 </tr>
 <tr class="even">
-<td><p>QueryList</p></td>
+<td><p>Consulta</p></td>
 <td><p>Uma lista de consultas</p></td>
 </tr>
 <tr class="odd">
-<td><p>FormList</p></td>
+<td><p>Formulário</p></td>
 <td><p>Uma lista de formulários</p></td>
 </tr>
 <tr class="even">
@@ -182,19 +182,19 @@ O tópico *database* oferece suporte aos seguintes itens.
 <td><p>Uma lista de relatórios</p></td>
 </tr>
 <tr class="odd">
-<td><p>MacroList</p></td>
+<td><p>Macrolist</p></td>
 <td><p>Uma lista de macros</p></td>
 </tr>
 <tr class="even">
 <td><p>ModuleList</p></td>
-<td><p>Uma lista dos módulos</p></td>
+<td><p>Uma lista de módulos</p></td>
 </tr>
 <tr class="odd">
 <td><p>ViewList</p></td>
 <td><p>Uma lista de modos.</p></td>
 </tr>
 <tr class="even">
-<td><p>StoredProcedureList</p></td>
+<td><p>StoredProcedurelist</p></td>
 <td><p>Uma lista de procedimentos armazenados.</p></td>
 </tr>
 <tr class="odd">
@@ -219,15 +219,15 @@ O exemplo a seguir mostra como abrir o formulário Employees no exemplo de banco
     DDEExecute intChan2, "[OpenForm Employees,0,,,1,0]"
 ```
 
-## <a name="the-table-topic"></a>O tópico de tabela
+## <a name="the-table-topic"></a>O tópico da tabela
 
 Esses tópicos usam a seguinte sintaxe:
 
-_databasename_ ; **Tabela** _TableName_
+_DatabaseName_ ; **Tabela** _TableName_
 
-_databasename_ ; **Consulta** _queryname_
+_DatabaseName_ ; **Consulta** _QueryName_
 
-_databasename_ ; **SQL** [ _sqlstring_ ]
+_DatabaseName_ ; **SQL** [ _SqlString_ ]
 
 <br/>
 
@@ -244,20 +244,20 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>databasename</em></p></td>
+<td><p><em>DatabaseName</em></p></td>
 <td><p>O nome do banco de dados em que está a tabela ou consulta ou a que se aplica o SQL, seguido de ponto-e-vírgula (;). O nome do banco de dados pode ser apenas o nome básico (Northwind) ou seu caminho e extensão .mdb completos (C:\Access\Exemplos\Northwind.mdb).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tablename</em></p></td>
+<td><p><em>TableName</em></p></td>
 <td><p>O nome de uma tabela existente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>queryname</em></p></td>
+<td><p><em>QueryName</em></p></td>
 <td><p>O nome de uma consulta existente.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>sqlstring</em></p></td>
-<td><p>Uma instrução SQL válida até 256 caracteres e terminando com um ponto e vírgula. Para trocar mais de 256 caracteres, omitir esse argumento e, em vez disso, use sucessivas instruções <strong>DDEPoke</strong> para formar uma instrução SQL. Por exemplo, o seguinte código Visual Basic utiliza a instrução <strong>DDEPoke</strong> para formar uma instrução SQL e, em seguida, solicitar os resultados de uma consulta.</p></td>
+<td><p><em>SqlString</em></p></td>
+<td><p>Uma instrução SQL válida com até 256 caracteres e terminando com ponto-e-vírgula. Para trocar mais de 256 caracteres, omita esse argumento e, em seu lugar, use sucessivas instruções <strong>DDEPoke</strong> para formar uma instrução SQL. Por exemplo, o seguinte código Visual Basic utiliza a instrução <strong>DDEPoke</strong> para formar uma instrução SQL e, em seguida, solicitar os resultados de uma consulta.</p></td>
 </tr>
 </tbody>
 </table>
@@ -279,7 +279,7 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>All</p></td>
+<td><p>Tudo</p></td>
 <td><p>Todos os dados na tabela, incluindo nomes de campos.</p></td>
 </tr>
 <tr class="even">
@@ -291,24 +291,24 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 <td><p>Uma lista de linha única de nomes de campos.</p></td>
 </tr>
 <tr class="even">
-<td><p>FieldNames; T</p></td>
+<td><p>FieldNames I</p></td>
 <td><p>Uma lista de duas linhas de nomes de campos (primeira linha) e seus tipos de dados (segunda linha).</p>
 <p>Estes são os valores retornados:</p>
 <p>Valor</p>
 <p><ul>
-<li>0</li>
+<li>,0</li>
 <li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-<li>5</li>
+<li>duas</li>
+<li>3D</li>
+<li>quatro</li>
+<li>0,5</li>
 <li>6</li>
-<li>7</li>
+<li>178</li>
 <li>8</li>
-<li>9</li>
-<li>10</li>
+<li>241</li>
+<li>254</li>
 <li>11</li>
-<li>12</li>
+<li>3,6</li>
 </ul>
 </p>
 </td>
@@ -334,12 +334,12 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 <td><p>O número de campos na tabela ou consulta.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQLText</p></td>
-<td><p>Uma instrução SQL que representa a tabela ou consulta. Para tabelas, esse item retorna uma instrução SQL no formato &quot;selecione `*` da <em>tabela</em>; &quot;.</p></td>
+<td><p>SqlText</p></td>
+<td><p>Uma instrução SQL representando a tabela ou consulta. Para tabelas, este item retorna uma instrução SQL no formulário &quot;selecionar `*` from <em>Table</em>; &quot;.</p></td>
 </tr>
 <tr class="even">
-<td><p>SQLText;<em>n</em></p></td>
-<td><p>Uma instrução SQL, em que <em>n</em>-partes, representando a tabela ou consulta, onde <em>n</em> é um inteiro de até 256 de caractere. Por exemplo, suponhamos que uma consulta é representada pela seguinte instrução SQL: O item &quot;SQLText; 7&quot; retorna os seguintes blocos de delimitado por tabulação: O item &quot;SQLText; 7&quot; retorna os seguintes blocos de delimitado por tabulações:</p></td>
+<td><p>SqlText; <em>n</em></p></td>
+<td><p>Uma instrução SQL, em partes de <em>n</em> caracteres, representando a tabela ou consulta, onde <em>n</em> é um inteiro de até 256 caracteres. Por exemplo, suponha que uma consulta seja representada pela seguinte instrução SQL: o item &quot;SQLTEXT; 7&quot; retorna os seguintes blocos delimitados por tabulações: o &quot;item SQLTEXT;&quot; 7 retorna os seguintes blocos delimitados por tabulações:</p></td>
 </tr>
 </tbody>
 </table>

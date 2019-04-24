@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 086993095daef3ff4ad87aed9f572a09124a9d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292368"
 ---
 # <a name="findrecord-macro-action"></a>Ação da macro EncontrarRegistro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **EncontrarRegistro** para localizar a primeira instância de dados que atende aos critérios especificados pelos argumentos **EncontrarRegistro**. Esses dados podem estar no registro atual, em um registro sucessivo ou anterior, ou no primeiro registro. Você pode localizar registros na folha de dados da tabela ativa, na folha de dados de consulta ou no formulário.
 
@@ -42,7 +42,7 @@ A ação **EncontrarRegistro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Localizar</strong></p></td>
-<td><p>Especifica os dados que você deseja localizar no registro. Insira o texto, número ou data que você deseja localizar ou digite uma expressão, que é precedida por um sinal de igualdade (<strong>=</strong>), na caixa <strong>Localizar</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Você pode usar caracteres curinga. Este é um argumento obrigatório.</p></td>
+<td><p>Especifica os dados que serão localizados no registro. Insira o texto, o número ou a data que você deseja localizar ou digite uma expressão, que é precedida por um sinal de<strong>=</strong>igual (), na seção <strong>Localizar</strong> , na seção <strong>argumentos da ação</strong> do painel Construtor de macros. Você pode usar caracteres curinga. Esse é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Match</strong></p></td>
@@ -58,8 +58,8 @@ A ação **EncontrarRegistro** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Pesquisar como Formatado</strong></p></td>
-<td><p>Especifica se a pesquisa inclui dados formatados. Clique em <strong>Sim</strong> (Microsoft Office Access 2007 procurará os dados como é exibido no campo e formatado) ou <strong>não</strong> (Access procura os dados como ele está armazenado no banco de dados, não é sempre o mesmo como ele é exibido). O padrão é <strong>Não</strong>. Você pode usar esse recurso para restringir a pesquisa aos dados em um determinado formato. Por exemplo, clique em <strong>Sim</strong> e digite <strong>1.234</strong> no argumento <strong>Localizar</strong> para localizar um valor 1.234 em um campo formatado para incluir vírgulas. Clique em <strong>não</strong> se você quiser digitar <strong>1234</strong> para pesquisar os dados nesse campo. Para pesquisar datas, clique em <strong>Sim</strong> para localizar uma data exatamente como ela está formatada, como 08 de julho de 2003. Se você clicar em <strong>não</strong>, digite a data para o argumento <strong>Localizar</strong> no formato definido nas configurações regionais no painel de controle do Windows. Esse formato é mostrado na caixa <strong>formato de data curta</strong> encontrada na guia <strong>Data</strong> nas configurações regionais. Por exemplo, se a caixa de <strong>formato de data curta</strong> estiver definida como <strong>m/aa</strong>, você pode inserir 7/8/03 e Access irá localizar todas as entradas em um campo de data que correspondem à 8 de julho de 2003, independentemente de como esse campo é formatado.</p>
-<p><strong>Observação</strong>: O argumento <strong>Pesquisar como formatado</strong> entrará em vigor somente se o campo atual for um controle acoplado, o argumento <strong>Coincidir</strong> estiver definido como <strong>Campo inteiro</strong>, o argumento <strong>Somente campo atual</strong> será definido como <strong>Sim</strong>e a correspondência de <strong> Caso</strong> argumento estiver definido como <strong>não</strong>.</p>
+<td><p>Especifica se a pesquisa inclui dados formatados. Clique em <strong>Sim</strong> (o Microsoft Office Access 2007 pesquisa os dados à medida que são formatados e exibidos no campo) ou <strong>Não</strong> (o Access pesquisa os dados à medida que são armazenados no banco de dados, o que nem sempre é o mesmo que quando são exibidos). O padrão é <strong>Não</strong>. Você pode usar esse recurso para restringir a pesquisa a dados de um formato específico. Por exemplo, clique em <strong>Sim</strong> e digite <strong>1.234</strong> no argumento <strong>Localizar</strong> para localizar um valor de 1.234 em um campo formatado para incluir pontos. Clique em <strong>Não</strong> se desejar digitar <strong>1234</strong> para pesquisar dados nesse campo. Para pesquisar datas, clique em <strong>Sim</strong> para localizar uma data exatamente como ela está formatada, como 08-Julho-2003. Se você clicar em <strong>Não</strong>, digite a data do argumento <strong>Localizar</strong> no formato definido nas configurações regionais do Painel de Controle do Windows. Esse formato é mostrado na caixa <strong>Formato de data abreviada</strong> localizada na guia <strong>Data</strong> das configurações regionais. Por exemplo, se a caixa <strong>Formato de data abreviada</strong> estiver definida como <strong>M/d/aa</strong>, você poderá digitar 7/8/03, e o Access localizará todas as entradas em um campo Data que correspondem a 8 de julho de 2003, independentemente de como esse campo esteja formatado.</p>
+<p><strong>Observação</strong>: o argumento <strong>Pesquisar como formatado</strong> tem efeito somente se o campo atual for um controle acoplado, o argumento <strong>Match</strong> estiver definido como <strong>campo inteiro</strong>, o argumento <strong>somente campo atual</strong> será definido como <strong>Sim</strong>e a <strong>correspondência </strong>O argumento Case é definido como <strong>não</strong>.</p>
 <p>Se você definiu <strong>Diferenciar Maiúsc. de Minúsc.</strong> como <strong>Sim</strong>, ou <strong>Somente Campo Atual</strong> como <strong>Não</strong>, também precisará definir <strong>Pesquisar como Formatado</strong> como <strong>Sim</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -94,14 +94,12 @@ Entretanto, observe que, se você usar um botão de comando para executar uma ma
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Observação sobre segurança" alt="Security note" /><strong>Observação de segurança</strong></th>
+<th><img src="media/access-alert-security.gif" title="Observação de segurança" alt="Security note" /><strong>Observação de Segurança</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      Avoid using the <strong>SendKeys</strong> statement or an AutoKeys macro with sensitive or confidential information. A malicious user could intercept the keystrokes and compromise the security of your computer and data.
-</td>
+<td>Avoid using the <strong>SendKeys</strong> statement or an AutoKeys macro with sensitive or confidential information. A malicious user could intercept the keystrokes and compromise the security of your computer and data.</td>
 </tr>
 </tbody>
 </table>

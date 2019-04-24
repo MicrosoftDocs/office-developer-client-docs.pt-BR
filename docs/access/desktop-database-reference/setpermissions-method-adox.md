@@ -1,5 +1,5 @@
 ---
-title: Método SetPermissions (ADOX)
+title: Método setPermissions (ADOX)
 TOCTitle: SetPermissions method (ADOX)
 ms:assetid: 63d1053d-fb32-456b-ae67-3a4e45aa01af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4f9b393e90d579c131865b112263efd0aef3216b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314578"
 ---
-# <a name="setpermissions-method-adox"></a>Método SetPermissions (ADOX)
+# <a name="setpermissions-method-adox"></a>Método setPermissions (ADOX)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica as permissões referentes a um grupo ou usuário em um objeto.
 
 ## <a name="syntax"></a>Sintaxe
 
-*GrupoOuUsuário*. SetPermissions*nome*, *ObjectType*, *ação*, *direitos* \[,*herdam* \] \[,*ObjectTypeId*\]
+*GroupOrUser*. SetPermissions*Name*, *objecttype*, *Action*, *Rights* \[,*Inherit* \] \[, objecttypeid**\]
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,13 +33,13 @@ Especifica as permissões referentes a um grupo ou usuário em um objeto.
 |*Action* |Um valor **Long** que pode ser uma das constantes [ActionEnum](actionenum.md) que especifica o tipo de ação a ser executada durante a definição de permissões.|
 |*Rights* |Um valor **Long** que pode ser uma máscara de bits de uma ou mais constantes [RightsEnum](rightsenum.md), que indica os direitos a serem definidos.|
 |*Inherit* |Opcional. Um valor **Long** que pode ser uma das constantes [InheritTypeEnum](inherittypeenum.md), que especifica como os objetos herdarão essas permissões. O valor padrão é **adInheritNone**.|
-|*ObjectTypeId* |Opcional. Um valor **Variant** que especifica o GUID referente a um tipo de objeto de provedor não definido pela especificação OLE DB. Este parâmetro é obrigatório se *ObjectType* estiver definida como **adPermObjProviderSpecific**; Caso contrário, ele não é usado.|
+|*ObjectTypeid* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
 
 ## <a name="remarks"></a>Comentários
 
 Ocorrerá um erro se o provedor não oferecer suporte à definição de direitos de acesso para grupos ou usuários.
 
 > [!NOTE]
-> Ao chamar **SetPermissions**, a configuração de ações como **adAccessRevoke** substitui as configurações do parâmetro *direitos* . Não defina *ações* para **adAccessRevoke** se quiser que os direitos especificados no parâmetro *direitos* entrem em vigor.
+> Durante a chamada de **SetPermissions**, a definição de Actions como **adAccessRevoke** substituirá as configurações do parâmetro *Rights*. Não defina *Actions* como **adAccessRevoke** se desejar que os direitos especificados no parâmetro *Rights* entrem em vigor.
 
 

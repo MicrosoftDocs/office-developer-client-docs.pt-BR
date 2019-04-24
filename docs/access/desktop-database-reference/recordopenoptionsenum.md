@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caaf755ebd63f1805d0c77ef79a0f5863a85050e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300683"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica as opções para abrir um objeto [Record](record-object-ado.md). Esses valores podem ser combinadas usando o OR.
 
@@ -69,7 +69,7 @@ Especifica as opções para abrir um objeto [Record](record-object-ado.md). Esse
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace.DefaultCursorDriver (DAO)
+title: Propriedade Workspace. DefaultCursorDriver (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 73567aae9bc332c7113f9128dedc1e2cc8893cab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305926"
 ---
-# <a name="workspacedefaultcursordriver-property-dao"></a>Propriedade Workspace.DefaultCursorDriver (DAO)
+# <a name="workspacedefaultcursordriver-property-dao"></a>Propriedade Workspace. DefaultCursorDriver (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 ## <a name="syntax"></a>Sintaxe
@@ -38,7 +38,7 @@ Essa configuração de propriedade afeta somente as conexões estabelecidas apó
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **NextRecordset** para exibir os dados de uma consulta SELECT composta. A propriedade **DefaultCursorDriver** deve ser definida para **dbUseODBCCursor** na execução dessas consultas. O método **NextRecordset** retornará **True** mesmo que algumas ou todas as instruções SELECT retornem registros zero; ele retornará **False** apenas depois que todas as cláusulas SQL individuais tiverem sido verificadas.
+Este exemplo usa o método **NextRecordset** para visualizar os dados de uma consulta SELECT composta. A propriedade **DefaultCursorDriver** deve estar definida como **dbUseODBCCursor** ao executar essas consultas. O método **NextRecordset** retornará **True** mesmo se algumas ou todas as instruções SELECT retornarem registros em branco; ele retornará **False** somente após a verificação de todas as cláusulas SQL individuais.
 
 ```vb
     Sub NextRecordsetX() 
@@ -95,7 +95,7 @@ Este exemplo usa o método **NextRecordset** para exibir os dados de uma consult
 
 <br/>
 
-Outra maneira de realizar a mesma tarefa deveria ser criar uma instrução preparada contendo a instrução SQL composta. A propriedade **CacheSize** do objeto **QueryDef** deve ser definida como 1, e o objeto **Recordset** deve ser somente para encaminhamento e somente para leitura.
+Outra forma de cumprir a mesma tarefa é criar uma instrução preparada contendo a instrução SQL composta. A propriedade **CacheSize** do objeto **QueryDef** deve ser definida como 1, e o objeto **Recordset** deve ser somente encaminhamento e somente leitura.
 
 ```vb 
 Sub NextRecordsetX2() 
@@ -161,7 +161,7 @@ End Sub
 
 <br/>
 
-Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações de um **Recordset** local são controladas durante a atualização em lotes. A função RecordStatusOutput é necessária para executar esse procedimento.
+Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações para um **Recordset** local são controladas durante uma atualização em lote. A função RecordStatusOutput é exigida para que este procedimento seja executado.
 
 ```vb 
 Sub RecordStatusX() 

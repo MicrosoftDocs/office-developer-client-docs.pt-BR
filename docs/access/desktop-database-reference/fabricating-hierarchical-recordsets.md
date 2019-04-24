@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f644f25a04c5573a93aa106884473fed6b45440e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293200"
 ---
 # <a name="fabricating-hierarchical-recordsets"></a>Fabricação de conjuntos de registros hierárquicos
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O exemplo a seguir mostra como fabricar um Recordset hierárquicosem uma fonte de dados base utilizando a gramática de formatação de dados para definir colunas para **Recordsets** pais, filhos e netos.
 
@@ -48,5 +48,5 @@ Para fabricar um **Recordset** hierárquico, é necessário especificar o Micros
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-Depois que o **Recordset** for fabricado, ele pode ser preenchido, manipulado ou persistido para um arquivo.
+Após o **Recordset** ter sido fabricado, ele pode ser preenchido, manipulado ou persistente em um arquivo.
 

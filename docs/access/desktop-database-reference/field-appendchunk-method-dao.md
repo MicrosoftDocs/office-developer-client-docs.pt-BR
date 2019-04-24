@@ -1,5 +1,5 @@
 ---
-title: Método Field.AppendChunk (DAO)
+title: Método Field. AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1ce1c359582194ce87dfaf4f409be4303486e09
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293165"
 ---
-# <a name="fieldappendchunk-method-dao"></a>Método Field.AppendChunk (DAO)
+# <a name="fieldappendchunk-method-dao"></a>Método Field. AppendChunk (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Acrescenta dados de uma expressão de cadeia de caracteres a um objeto **[Field](field-object-dao.md)** Memo ou Long Binary em um **[Recordset](recordset-object-dao.md)**.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312058"
 ---
-# <a name="using-visual-c-extensions"></a>Usando as extensões do Visual C++
+# <a name="using-visual-c-extensions"></a>Uso de Extensões do Visual C++
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="the-iadorecordbinding-interface"></a>A interface IADORecordBinding
 
@@ -48,7 +48,7 @@ Inclua o arquivo a seguir em seu aplicativo para usar as extensões do Visual C+
 
 1.  Crie uma classe derivada da classe **CADORecordBinding**.
 
-2.  Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada. Colchete as entradas de ligação entre **começar\_ADO\_VINCULAÇÃO** e **END\_ADO\_VINCULAÇÃO** macros. Não termine as macros com vírgula ou ponto-e-vírgula. Delimitadores apropriados são especificados automaticamente por cada macro. Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++. Use um membro apropriado do **ADO\_def\_comprimento\_entrada**, **ADO\_numéricos\_entrada**, ou **ADO\_VARIÁVEL\_comprimento\_entrada** família de macros.
+2.  Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada. Colchete as entradas de associação **entre\_Begin\_Binding ADO** e **\_end\_ADO Binding** macros. Não termine as macros com vírgula ou ponto-e-vírgula. Delimitadores apropriados são especificados automaticamente por cada macro. Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++. Use um membro apropriado da **entrada de\_tamanho\_\_fixo do ADO**, da **entrada\_numérica\_do ADO**ou da família de entrada de **tamanho\_\_\_variável do ADO** .
 
 3.  No seu aplicativo, crie uma instância da classe derivada de **CADORecordBinding**. Obtenha a interface **IADORecordBinding** de **Recordset**. Em seguida, chame o método **BindToRecordset** para acoplar os campos **Recordset** às variáveis C/C++.
 
@@ -78,32 +78,32 @@ As macros de entrada de ligação definem a associação de um campo **Recordset
 
 As famílias de macros são fornecidas para dados de comprimento fixo, como **adDate** ou **adBoolean**; dados numéricos, como **adTinyInt**, **adInteger** ou **adDouble**; e dados de comprimento variável, como **adChar**, **adVarChar** ou **adVarBinary**. Todos os tipos numéricos, exceto **adVarNumeric**, também são tipos de comprimento fixo. Cada família possui conjuntos de parâmetros diferentes, o que permite excluir as informações de ligação que não sejam de seu interesse.
 
-Consulte os tipos de dados *OLE DB referência do programador,* apêndice a: para obter informações adicionais.
+Para obter informações adicionais, consulte a *Referência do programador do OLE DB*, apêndice A: Tipos de dados.
 
 _**Início das entradas de ligação**_
 
-**COMEÇAR\_ADO\_ASSOCIANDO**(*classe*)
+**INICIAR\_Associação\_ADO**(*classe*)
 
 _**Dados de comprimento fixo**_
 
-**ADO\_def\_comprimento\_entrada**(*Ordinal, DataType, Buffer, Status, modificar*)  
-**ADO\_def\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, modificar*)
+**Entrada\_de\_tamanho\_fixo ADO**(*ordinal, DataType, buffer, status, modificar*)  
+**Tamanho\_fixo\_do ADO\_ENTRY2**(*ordinal, DataType, buffer, Modify*)
 
 _**Dados numéricos**_
 
-**ADO\_numéricos\_entrada**(*Ordinal, DataType, Buffer, precisão, escala, Status, modificar*)  
-**ADO\_numéricos\_Entrada2**(*Ordinal, DataType, Buffer, precisão, escala, modificar*)
+**Entrada\_numérica\_do ADO**(*ordinal, DataType, buffer, precisão, escala, status, modificar*)  
+**ADO\_numérico\_ENTRY2**(*ordinal, DataType, buffer, precisão, escala, modificar*)
 
 _**Dados de comprimento variável**_
 
-**ADO\_VARIÁVEL\_comprimento\_entrada**(*Ordinal, DataType, Buffer, tamanho, Status, comprimento, modificar*)  
-**ADO\_VARIÁVEL\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, tamanho, Status, modificar*)  
-**ADO\_VARIÁVEL\_comprimento\_Entrada3**(*Ordinal, DataType, Buffer, tamanho, comprimento, modificar*)  
-**ADO\_VARIÁVEL\_comprimento\_Entrada4**(*Ordinal, DataType, Buffer, tamanho, modificar*)
+**Entrada\_de\_tamanho\_da variável ADO**(*ordinal, DataType, buffer, tamanho, status, comprimento, modificar*)  
+**Comprimento\_variável\_ADO\_ENTRY2**(*ordinal, DataType, buffer, tamanho, status, modificar*)  
+**Comprimento\_variável\_ADO\_ENTRY3**(*ordinal, DataType, buffer, tamanho, comprimento, modificar*)  
+**Comprimento\_variável\_ADO\_ENTRY4**(*ordinal, DataType, buffer, tamanho, modificar*)
 
-_**Final das entradas de ligação**_
+_**Encerrar entradas de vinculação**_
 
-**END\_ADO\_ASSOCIANDO** ()
+**Encerrar\_Associação\_ADO** ()
 
 <table>
 <colgroup>
@@ -139,13 +139,11 @@ _**Final das entradas de ligação**_
 </tr>
 <tr class="even">
 <td><p><em>Status</em></p></td>
-<td><p>Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida.
- Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio. Os valores possíveis para <em>Status</em> estão listados na tabela a seguir, &quot;valores de Status.&quot;</p></td>
+<td><p>Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida. Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio. Os valores possíveis para <em>status</em> estão listados na próxima tabela, &quot;valores de status.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modificar</em></p></td>
-<td><p>Sinalizador booleano; se for TRUE, indicará que o ADO tem permissão para atualizar o campo <strong>Recordset</strong> correspondente com o valor contido em <em>Buffer</em>.
- Defina o parâmetro booleano <em>modify</em> como TRUE para permitir que o ADO atualize o campo acoplado e como FALSE se desejar examinar o campo, mas sem alterá-lo.</p></td>
+<td><p>Sinalizador booleano; se for TRUE, indicará que o ADO tem permissão para atualizar o campo <strong>Recordset</strong> correspondente com o valor contido em <em>Buffer</em>. Defina o parâmetro booleano <em>modify</em> como TRUE para permitir que o ADO atualize o campo acoplado e como FALSE se desejar examinar o campo, mas sem alterá-lo.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Precisão</em></p></td>
@@ -165,7 +163,7 @@ _**Final das entradas de ligação**_
 
 ## <a name="status-values"></a>Valores de status
 
-O valor da variável *Status* indica se um campo foi copiado com êxito a uma variável.
+O valor da variável *Status* indica se um campo foi copiado com êxito para uma variável.
 
 Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o campo **Recordset** seja definido como nulo.
 
@@ -185,7 +183,7 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 <tbody>
 <tr class="odd">
 <td><p><strong>adFldOK</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Um valor de campo não-nulo foi retornado.</p></td>
 </tr>
 <tr class="even">
@@ -195,23 +193,22 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>O valor não pôde ser convertido devido a razões diferentes de incompatibilidade de sinal ou estouro de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3</p></td>
-<td><p>Quando um campo é obtido, indica que um valor nulo foi retornado.
- Na configuração de um campo, indica que o campo deve ser definido como <strong>NULL</strong> quando ele não puder codificar o próprio <strong>NULL</strong> (por exemplo, uma matriz de caracteres ou um número inteiro).</p></td>
+<td><p>3D</p></td>
+<td><p>Quando um campo é obtido, indica que um valor nulo foi retornado. Na configuração de um campo, indica que o campo deve ser definido como <strong>NULL</strong> quando ele não puder codificar o próprio <strong>NULL</strong> (por exemplo, uma matriz de caracteres ou um número inteiro).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Os dados de comprimento variável ou os dígitos numéricos foram truncados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>5</p></td>
+<td><p>0,5</p></td>
 <td><p>O valor tem sinal e o tipo de dados variáveis não.</p></td>
 </tr>
 <tr class="odd">
@@ -221,7 +218,7 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>178</p></td>
 <td><p>Tipo de coluna desconhecida e campo já aberto.</p></td>
 </tr>
 <tr class="odd">
@@ -231,12 +228,12 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>241</p></td>
 <td><p>Durante uma atualização, não houve permissão para gravar dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
+<td><p>254</p></td>
 <td><p>Durante uma atualização, o valor de campo violaria a integridade da coluna.</p></td>
 </tr>
 <tr class="even">
@@ -246,12 +243,12 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 </tr>
 <tr class="odd">
 <td><p><strong>adFldBadStatus</strong></p></td>
-<td><p>12</p></td>
+<td><p>3,6</p></td>
 <td><p>Durante uma atualização, um parâmetro de status inválido foi retornado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>13</p></td>
+<td><p>Treze</p></td>
 <td><p>Durante uma atualização, um valor padrão foi utilizado.</p></td>
 </tr>
 </tbody>

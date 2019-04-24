@@ -14,15 +14,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 72f31c71e710cca79695a7221f0e033d18d2f420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301376"
 ---
 # <a name="procedure-clause-microsoft-access-sql"></a>Cláusula PROCEDURE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define um nome e os parâmetros opcionais para uma consulta.
 
@@ -31,29 +31,28 @@ Define um nome e os parâmetros opcionais para uma consulta.
 
 ## <a name="syntax"></a>Sintaxe
 
-O *nome* do procedimento \[ *param1 datatype*\[, *param2 datatype*\[,...\]\]
+*Nome* \[do procedimento *param1 DataType*\[, *param2 DataType*\[,...\]\]
 
 A cláusula PROCEDURE contém estas partes:
 
 |Parte |Descrição |
 |:----|:-----------|
 |*name* |Um nome para o procedimento. Ele deve seguir as convenções de nomenclatura padrão.|
-|*param1*, *param2* |Um ou mais campos ou parâmetros de campo. Por exemplo:
-<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, consulte [parameters](parameters-declaration-microsoft-access-sql.md).|
-|*tipo de dados* | Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos. |
+|*param1*, *param2* |Um ou mais campos ou parâmetros de campo. Por exemplo:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, [](parameters-declaration-microsoft-access-sql.md)consulte Parameters.|
+|*alinha* | Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos. |
 
 
 ## <a name="remarks"></a>Comentários
 
-Um procedimento SQL consiste em uma cláusula PROCEDURE (que especifica o nome do procedimento), uma lista opcional das definições de parâmetro e uma única instrução SQL. Por exemplo, o procedimento Get\_Part\_número pode executar uma consulta que recupera um número de peça especificado.
+Um procedimento SQL consiste em uma cláusula PROCEDURE (que especifica o nome do procedimento), uma lista opcional das definições de parâmetro e uma única instrução SQL. Por exemplo, o procedimento obter\_número\_de peça pode executar uma consulta que recupera um número de peça especificado.
 
 > [!NOTE]
-> - Se a cláusula incluir mais de uma definição de campo (isto é, pares de *param-datatype* ), separe-os com vírgulas.
+> - Se a cláusula incluir mais de uma definição de campo (isto é, pares de *param-datatype*), separe-os com vírgulas.
 > - A cláusula PROCEDURE deve ser seguida por uma instrução SQL (por exemplo, uma instrução [SELECT](select-statement-microsoft-access-sql.md) ou [UPDATE](update-statement-microsoft-access-sql.md)).
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo chama a consulta CategoryList e chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+Este exemplo nomeia a consulta CategoryList e chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
 
 ```vb
     Sub ProcedureX() 

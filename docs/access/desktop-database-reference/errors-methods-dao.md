@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4a6dc90d933330a897ddb84af1817d083100fb86
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293375"
 ---
 # <a name="errors-methods-dao"></a>Métodos de erros (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Errors.Refresh (DAO)](errors-refresh-method-dao.md)
+- [Método Errors. Refresh (DAO)](errors-refresh-method-dao.md)
 

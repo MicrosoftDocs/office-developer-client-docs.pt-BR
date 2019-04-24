@@ -1,5 +1,5 @@
 ---
-title: Stream propriedades, métodos e eventos (ADO)
+title: Propriedades, métodos e eventos do Stream (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b995fab9247347c434a0ffc01aeecc7389802e24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314424"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Stream propriedades, métodos e eventos (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do Stream (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriedades
 
-- [Propriedade charset](charset-property-ado.md)
+- [Propriedade CharSet](charset-property-ado.md)
 - [Propriedade EOS](eos-property-ado.md)
 - [Propriedade LineSeparator](lineseparator-property-ado.md)
 - [Propriedade Mode](mode-property-ado.md)

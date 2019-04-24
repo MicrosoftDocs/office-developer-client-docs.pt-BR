@@ -1,5 +1,5 @@
 ---
-title: Objeto Key (ADOX - referência de banco de dados da área de trabalho do Access)
+title: Objeto Key (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Key object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f56a90b7accd1b64c9a52e0a7cf5385f83fd10d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290749"
 ---
 # <a name="key-object-adox"></a>Objeto Key (ADOX)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa um campo de chave primária, estrangeira ou exclusiva de uma tabela de banco de dados.
 

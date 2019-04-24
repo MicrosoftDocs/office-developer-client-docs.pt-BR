@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bdd804c846316f2637bb9603043a44f13eae59a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295202"
 ---
 # <a name="cursortype-locktype-and-editmode-properties-example-vc"></a>Exemplo das propriedades CursorType, LockType e EditMode (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra a definição das propriedades [CursorType](cursortype-property-ado.md) e [LockType](locktype-property-ado.md) antes de abrir um [Recordset](recordset-object-ado.md). Ele também mostra o valor da propriedade [EditMode](editmode-property-ado.md) em diversas condições. A função EditModeOutput é necessária para que esse procedimento seja executado.
 

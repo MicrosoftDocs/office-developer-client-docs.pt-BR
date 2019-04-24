@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 60f5eeea11ca773eda42ddc5d1d92432f4bd4f9f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313605"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vc"></a>Exemplo dos métodos UpdateBatch e CancelBatch (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra o método [UpdateBatch](updatebatch-method-ado.md) em conjunto com o método [CancelBatch](cancelbatch-method-ado.md).
 
@@ -244,7 +244,7 @@ void PrintComError(_com_error &e)
 // EndUpdateBatchCpp 
 ```
 
-**UpdateBatchX.h**
+**UpdateBatchX. h**
 
 ```cpp 
  

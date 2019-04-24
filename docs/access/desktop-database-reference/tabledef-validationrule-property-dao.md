@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef.ValidationRule (DAO)
+title: Propriedade TableDef. ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 7dcd6f2c-45bc-a50b-727d-589371d5803f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196425(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 44329a4cc320e9adcc0612629bcc3fdcd179a1c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314879"
 ---
-# <a name="tabledefvalidationrule-property-dao"></a>Propriedade TableDef.ValidationRule (DAO)
+# <a name="tabledefvalidationrule-property-dao"></a>Propriedade TableDef. ValidationRule (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente em espaços de trabalho do Microsoft Access). **String** de leitura/gravação.
+Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente espaços de trabalho do Microsoft Access). **String** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -45,4 +45,4 @@ A propriedade **ValidationRule** de um objeto **Recordset** ou **TableDef** pode
 Para um objeto **TableDef** baseado em uma tabela vinculada, a propriedade **ValidationRule** herda a definição da propriedade **ValidationRule** da tabela base. Se a tabela base não oferecer suporte à validação, o valor dessa propriedade será uma sequência com comprimento zero ("").
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal de fora dos EUA, como uma vírgula (por exemplo, strRule = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro quando seu código tenta validar todos os dados. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), ocorrerá um erro quando seu código tenta validar quaisquer dados. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.

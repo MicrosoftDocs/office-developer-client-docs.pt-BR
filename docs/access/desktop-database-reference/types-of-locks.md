@@ -1,5 +1,5 @@
 ---
-title: Tipos de bloqueios (referência de banco de dados da área de trabalho do Access)
+title: Tipos de bloqueios (referência de banco de dados do Access)
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 47b212be1922f783889f1e5be436a616909dc5c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314158"
 ---
 # <a name="types-of-locks"></a>Tipos de bloqueio
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 
@@ -29,11 +29,11 @@ Muitos aplicativos buscam um número de linhas e depois precisam fazer atualiza�
 
 ## <a name="adlockoptimistic"></a>adLockOptimistic
 
-Indica que o provedor usa bloqueio otimista  bloqueando registros apenas quando você chama o método **Update**. Isso significa que existe uma possibilidade de os dados serem alterados por outro usuário entre o tempo em que você edita o registro e chama o **Update**, o que criará conflitos. Use esse tipo de bloqueio em situações em que as possibilidades de choque sejam baixas ou em que eles possam ser prontamente resolvidos.
+Indica que o provedor usa bloqueio otimista — bloqueando registros apenas quando você chama o método **Update**. Isso significa que existe uma possibilidade de os dados serem alterados por outro usuário entre o tempo em que você edita o registro e chama o **Update**, o que criará conflitos. Use esse tipo de bloqueio em situações em que as possibilidades de choque sejam baixas ou em que eles possam ser prontamente resolvidos.
 
 ## <a name="adlockpessimistic"></a>adLockPessimistic
 
-Indica bloqueio pessimista, registro por registro. O provedor faz o que é necessário para garantir a edição bem-sucedida de registros, normalmente bloqueando registros na fonte de dados imediatamente antes da edição. Evidentemente, isso significa que os registros ficam indisponíveis para outros usuários quando você começa a editar, até que você libere o bloqueio chamando **Update.** Use esse tipo de bloqueio em um sistema em que não é possível manter alterações concorrentes de dados, como em um sistema reserva.
+Indica bloqueio pessimista, registro por registro. O provedor faz o que é necessário para garantir a edição bem-sucedida de registros, normalmente bloqueando registros na fonte de dados imediatamente antes da edição. Evidentemente, isso significa que os registros ficam indisponíveis para outros usuários quando você começa a editar, até que você libere o bloqueio chamando  **Update.** Use esse tipo de bloqueio em um sistema em que não é possível manter alterações concorrentes de dados, como em um sistema reserva.
 
 ## <a name="adlockreadonly"></a>adLockReadOnly
 

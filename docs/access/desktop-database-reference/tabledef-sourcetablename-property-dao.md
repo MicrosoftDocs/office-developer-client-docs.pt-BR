@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef.SourceTableName (DAO)
+title: Propriedade TableDef. SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314256"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>Propriedade TableDef.SourceTableName (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>Propriedade TableDef. SourceTableName (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 Define ou retorna um valor que especifica o nome de uma tabela vinculada ou o nome da tabela base (somente em espaços de trabalho do Microsoft Access).
 
@@ -33,7 +33,7 @@ Define ou retorna um valor que especifica o nome de uma tabela vinculada ou o no
 
 ## <a name="remarks"></a>Comentários
 
-Essa definição de propriedade é somente leitura para uma tabela base e leitura/gravação para uma tabela vinculada ou um objeto não acrescentado à coleção. Para uma tabela base, a definição é uma cadeia de caracteres com comprimento zero ("").
+Essa definição de propriedade é somente leitura para uma tabela base  e leitura/gravação para uma tabela vinculada ou um objeto não acrescentado à coleção. Para uma tabela base, a definição é uma cadeia de caracteres com comprimento zero ("").
 
 ## <a name="example"></a>Exemplo
 

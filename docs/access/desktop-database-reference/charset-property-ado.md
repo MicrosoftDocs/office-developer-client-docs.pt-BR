@@ -1,5 +1,5 @@
 ---
-title: Propriedade Charset (ADO)
+title: Propriedade charset (ADO)
 TOCTitle: Charset property (ADO)
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca4640940c217fd81cac4ba1d8ffaf769b506fe0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296385"
 ---
-# <a name="charset-property-ado"></a>Propriedade Charset (ADO)
+# <a name="charset-property-ado"></a>Propriedade charset (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o conjunto de caracteres no qual o conteúdo de um texto [Stream](stream-object-ado.md) deve ser traduzido para armazenamento no buffer interno dos objetos Stream.
 
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
 
-Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para obter uma lista das sequências de conjunto de caracteres que é conhecida por um sistema, consulte as subchaves da HKEY\_CLASSES\_raiz\\MIME\\banco de dados\\Charset no registro do Windows.
+Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para obter uma lista de cadeias de caracteres de conjuntos de caracteres que são conhecidas por um sistema, consulte\_as\_subchaves\\do conjunto de dados MIME\\\\raiz de classes hKey no registro do Windows.
 
 ## <a name="remarks"></a>Comentários
 

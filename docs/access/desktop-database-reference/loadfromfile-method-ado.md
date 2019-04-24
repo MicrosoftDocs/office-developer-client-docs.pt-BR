@@ -1,5 +1,5 @@
 ---
-title: Método LoadFromFile (ADO)
+title: Método loadFromfile (ADO)
 TOCTitle: LoadFromFile method (ADO)
 ms:assetid: 33fd543f-bd24-9199-7540-2889b69221c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9316bc4302a559fa44082a0576595707157e9d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289882"
 ---
-# <a name="loadfromfile-method-ado"></a>Método LoadFromFile (ADO)
+# <a name="loadfromfile-method-ado"></a>Método loadFromfile (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Carrega o conteúdo de um arquivo existente para dentro de um [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. LoadFromFile *FileName*
+*Stream*. *Nome de arquivo* LoadFromFile
 
 ## <a name="parameters"></a>Parâmetros
 
 |Nome |Descrição|
 |:----|:----------|
-|*FileName* |Um valor **String** que contém o nome de um arquivo a ser carregado no **Stream**. *FileName* pode conter qualquer caminho e nome válidos no formato UNC. Se o arquivo especificado não existir, ocorrerá um erro em tempo de execução.|
+|*FileName* |Um valor **String** que contém o nome de um arquivo a ser carregado no **Stream**. *FileName* pode conter qualquer caminho e nome válidos em formato UNC. Se o arquivo especificado não existir, ocorrerá um erro em tempo de execução.|
 
 ## <a name="remarks"></a>Comentários
 

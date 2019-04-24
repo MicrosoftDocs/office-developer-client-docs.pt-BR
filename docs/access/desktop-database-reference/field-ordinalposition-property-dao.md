@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.OrdinalPosition (DAO)
+title: Propriedade Field. OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d45f0362831d91b83b3a2449affbbfb5ac2b4e51
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293032"
 ---
-# <a name="fieldordinalposition-property-dao"></a>Propriedade Field.OrdinalPosition (DAO)
+# <a name="fieldordinalposition-property-dao"></a>Propriedade Field. OrdinalPosition (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna a posição relativa de um objeto **[Field](field-object-dao.md)** em uma coleção **[Fields](fields-collection-dao.md)**.
+Define ou retorna a posição relativa de um objeto **[Field](field-object-dao.md)** em uma coleção **[Fields](fields-collection-dao.md)** . .
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -43,38 +43,42 @@ A disponibilidade da propriedade **OrdinalPosition** depende do objeto que cont�
 <thead>
 <tr class="header">
 <th><p>Se a coleção Fields pertencer a um</p></th>
-<th><p>
-OrdinalPosition será</p></th>
+<th><p>OrdinalPosition será</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto acrescentado está na posição ordinal count – 1, em que count é o número de objetos na coleção como especificado pela configuração da propriedade **[Count](containers-count-property-dao.md)**.
+Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto acrescentado está na contagem de posições ordinais – 1, onde contagem é o número de objetos na coleção como especificado pela configuração da propriedade **[Count](containers-count-property-dao.md)** .
 
-Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção. Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma selecionar \* consulta é determinada pelos valores de propriedade **OrdinalPosition** atuais.
+Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção. Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma \* consulta seleção é determinada pelos valores de propriedade **OrdinalPosition** atuais.
 
 Redefina, de forma permanente, a ordem na qual os campos são retornados nos recordsets pela definição da propriedade **OrdinalPosition** para qualquer número inteiro positivo.
 

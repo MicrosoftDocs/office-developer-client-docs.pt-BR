@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca0257beededcec9f082cb58992a1152c661a0ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294887"
 ---
 # <a name="database-methods-dao"></a>Métodos de banco de dados (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Database.Close (DAO)](database-close-method-dao.md)
-- [Método Database.CreateProperty (DAO)](database-createproperty-method-dao.md)
-- [Método Database.CreateQueryDef (DAO)](database-createquerydef-method-dao.md)
-- [Método Database.CreateRelation (DAO)](database-createrelation-method-dao.md)
-- [Método Database.CreateTableDef (DAO)](database-createtabledef-method-dao.md)
-- [Método Database.Execute (DAO)](database-execute-method-dao.md)
-- [Método Database.MakeReplica (DAO)](database-makereplica-method-dao.md)
-- [Método Database.NewPassword (DAO)](database-newpassword-method-dao.md)
-- [Método Database.OpenRecordset (DAO)](database-openrecordset-method-dao.md)
-- [Método Database.PopulatePartial (DAO)](database-populatepartial-method-dao.md)
-- [Método Database.Synchronize (DAO)](database-synchronize-method-dao.md)
+- [Método Database. Close (DAO)](database-close-method-dao.md)
+- [Método Database. createProperty (DAO)](database-createproperty-method-dao.md)
+- [Método Database. CreateQueryDef (DAO)](database-createquerydef-method-dao.md)
+- [Método Database. createRelation (DAO)](database-createrelation-method-dao.md)
+- [Método Database. createTableDef (DAO)](database-createtabledef-method-dao.md)
+- [Método Database. Execute (DAO)](database-execute-method-dao.md)
+- [Método Database. MakeReplica (DAO)](database-makereplica-method-dao.md)
+- [Método Database. NewPassword (DAO)](database-newpassword-method-dao.md)
+- [Método Database. OpenRecordset (DAO)](database-openrecordset-method-dao.md)
+- [Método Database. PopulatePartial (DAO)](database-populatepartial-method-dao.md)
+- [Método Database. Synchronize (DAO)](database-synchronize-method-dao.md)
 
 

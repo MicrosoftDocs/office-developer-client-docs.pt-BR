@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.AbsolutePosition (DAO)
+title: Propriedade Recordset2. AbsolutePosition (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4de869866e2aeb28032553be78bee7af16f60402
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307508"
 ---
-# <a name="recordset2absoluteposition-property-dao"></a>Propriedade Recordset2.AbsolutePosition (DAO)
+# <a name="recordset2absoluteposition-property-dao"></a>Propriedade Recordset2. AbsolutePosition (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna o número de registros relativos de um registro atual do objeto **Recordset2**.
 
@@ -36,13 +36,13 @@ Você pode usar a propriedade **AbsolutePosition** para posicionar o ponteiro do
 
 Como o valor da propriedade **AbsolutePosition** está baseado em zero (ou seja, uma definição de 0 refere-se ao primeiro registro do objeto **Recordset2**), não será possível definir um valor maior ou igual ao número de registros preenchidos, pois isso ocasionará um erro interceptável. Determine o número de registros preenchidos no objeto **Recordset2** por meio da verificação da definição da propriedade **RecordCount**. A definição máxima permitida da propriedade **AbsolutePosition** é o valor da propriedade **RecordCount** menos 1.
 
-Se não houver nenhum registro atual, como quando não há nenhum registro no objeto **Recordset2** , **AbsolutePosition** retorna – 1. Se o registro atual for excluído, o valor da propriedade **AbsolutePosition** não será definido, e ocorrerá um erro interceptável se ele for referenciado. Os novos registros serão adicionados ao final da sequência.
+Se não houver nenhum registro atual, como quando não há registros no objeto **Recordset2** , **AbsolutePosition** retornará – 1. Caso o registro atual seja excluído, o valor da propriedade **AbsolutePosition** não será definido e ocorrerá um erro interceptável se for mencionado. Os novos registros serão adicionados ao final da sequência.
 
 Você não deverá usar essa propriedade como um número de registro substituto. Os indicadores ainda são a forma recomendada de retenção e de retorno de uma determinada posição e são a única forma de posicionamento do registro atual em todos os tipos de objetos **Recordset2**. Em especial, a posição de um registro será alterada quando um ou vários registros precedentes forem excluídos. Também não existirá nenhuma garantia de que um registro terá a mesma posição absoluta, se o objeto **Recordset2** recriado novamente devido à ordem dos registros individuais em um objeto **Recordset** não for garantido, a não ser que seja criada com uma instrução SQL por meio da cláusula ORDER BY.
 
 > [!NOTE]
 > - A definição da propriedade **AbsolutePosition** como um valor maior que zero em um objeto **Recordset2** recentemente aberto, mas não preenchido, causará um erro interceptável. Preencha primeiro o objeto **Recordset2** com o método **MoveLast**.
-> - A propriedade **AbsolutePosition** não está disponível nos objetos de **Recordset2** do tipo somente encaminhamento ou nos objetos **Recordset2** abertos a partir de consultas passagem nos Microsoft Access banco de dados conectados ao mecanismo bancos de dados ODBC.
+> - A propriedade **AbsolutePosition** não está disponível em objetos **Recordset2** somente de encaminhamento – ou nos objetos **Recordset2** abertos a partir de consultas passagem em bancos de dados ODBC conectados ao mecanismo de banco de dados do Microsoft Access.
 
 ## <a name="example"></a>Exemplo
 

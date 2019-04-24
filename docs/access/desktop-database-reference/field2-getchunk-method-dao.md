@@ -1,5 +1,5 @@
 ---
-title: Método Field2.GetChunk (DAO)
+title: Método Campo2. getChunk (DAO)
 TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a4b850658ca4ab36b0d4f4cbed7266d39b4ff8d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292773"
 ---
-# <a name="field2getchunk-method-dao"></a>Método Field2.GetChunk (DAO)
+# <a name="field2getchunk-method-dao"></a>Método Campo2. getChunk (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Retorna todo ou parte do conteúdo de um objeto **Memo** ou **Long BinaryField2** na coleção **[Fields](fields-collection-dao.md)** de um objeto **[Recordset](recordset-object-dao.md)** .
+Retorna todo ou parte do conteúdo de um objeto **Memo** ou **Long BinaryField2** na coleção Fields **[](fields-collection-dao.md)** de um objeto **[Recordset](recordset-object-dao.md)** .
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . GetChunk (***deslocamento***, ***Bytes***)
+*expressão* . GetChunk (***deslocamento***, ***bytes***)
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -70,7 +70,7 @@ Os bytes retornados por **GetChunk** são atribuídos à variável. Use **GetChu
 
 Se offset for 0, **GetChunk** começará a copiar do primeiro byte do campo.
 
-Se numbytes for maior que o número de bytes em um campo, **GetChunk** retornará o número real de bytes restantes no campo.
+Se numBytes for maior do que o número de bytes no campo, **GetChunk** retornará o número real de bytes restantes no campo.
 
 > [!NOTE]
 > [!OBSERVAçãO] Use um campo **Memo** para texto e coloque apenas dados binários em campos **Long Binary**. De outra forma, serão gerados resultados indesejados.

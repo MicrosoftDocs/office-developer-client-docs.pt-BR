@@ -1,5 +1,5 @@
 ---
-title: Método - ActiveX Data Objects (ADO) Seek
+title: Método Seek-ActiveX Data Objects (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 321040a39b02f31f0265df6e91748df13c05032c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308789"
 ---
 # <a name="seek-method-ado"></a>Método Seek (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Pesquisa o índice de um [Recordset](recordset-object-ado.md) para localizar rapidamente a linha que corresponde aos valores especificados e altera a posição de linha atual para essa linha.
 
 ## <a name="syntax"></a>Sintaxe
 
-*conjunto de registros*. Seek*KeyValues*, *SeekOption*
+*Recordset*. Buscar** keyValues, *SeekOption*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,7 +33,7 @@ Pesquisa o índice de um [Recordset](recordset-object-ado.md) para localizar rap
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **Seek** junto com a propriedade [Index](index-property-ado.md) se o provedor subjacente oferecer suporte aos índices no objeto **Recordset**. Use o método **(adSeek)** [oferece suporte](supports-method-ado.md)para determinar se o provedor subjacente suporta **Seek**e o método **Supports(adIndex)** para determinar se o provedor oferece suporte a índices. (Por exemplo, o [OLE DB Provider for Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) oferece suporte a **Seek** e **Index**.)
+Use o método **Seek** junto com a propriedade [Index](index-property-ado.md) se o provedor subjacente oferecer suporte aos índices no objeto **Recordset**. Use o método [Supports](supports-method-ado.md)**(adSeek)** para determinar se o provedor subjacente oferece suporte ao método **Seek** e o método **Supports(adIndex)** para determinar se o provedor oferece suporte aos índices. (Por exemplo, o [OLE DB Provider for Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) oferece suporte a **Seek** e **Index**.)
 
 Se **Seek** não localizar a linha desejada, nenhum erro ocorrerá e a linha será posicionada no final do **Recordset**. Defina a propriedade **Index** para o índice desejado antes de executar este método.
 

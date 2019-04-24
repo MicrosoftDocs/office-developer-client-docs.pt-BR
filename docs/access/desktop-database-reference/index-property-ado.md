@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d436ec9102c4c75688b6c6ac973ca85e8c280d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291703"
 ---
 # <a name="index-property-ado"></a>Propriedade Index (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o nome do índice que está atualmente em vigor para um objeto [Recordset](recordset-object-ado.md).
 
@@ -43,7 +43,7 @@ Se o índice puder ser definido, a posição da linha atual poderá ser alterada
 
 Se o índice puder ser definido e a propriedade [LockType](locktype-property-ado.md) for **adLockPessimistic** ou **adLockOptimistic**, uma operação [UpdateBatch](updatebatch-method-ado.md) implícita será executada. Isso libera os grupos atuais e afetados. Qualquer filtro existente é liberado, e a posição da linha atual é alterada para a primeira linha do **Recordset** reordenado.
 
-A propriedade **Index** é usada em conjunto com o método [Seek](seek-method-ado.md). Se o provedorde base não oferecer suporte à propriedade **Index** e, consequentemente, ao método **Seek**, considere o uso do método [Find](find-method-ado.md). Determine se o objeto **Recordset** oferece suporte a índices com o método de **(adIndex)** [oferece suporte](supports-method-ado.md).
+A propriedade **Index** é usada em conjunto com o método [Seek](seek-method-ado.md). Se o provedorde base não oferecer suporte à propriedade **Index** e, consequentemente, ao método **Seek**, considere o uso do método [Find](find-method-ado.md). Determinar se o objeto **Recordset** oferece suporte a índices [](supports-method-ado.md)com o método Supports **(adIndex)** .
 
 A propriedade interna **Index** não está relacionada à propriedade [Optimize](optimize-property-dynamic-ado.md) dinâmica, embora as duas lidem com índices.
 

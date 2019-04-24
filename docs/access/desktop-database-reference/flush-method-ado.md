@@ -1,5 +1,5 @@
 ---
-title: Liberar o método - ActiveX Data Objects (ADO)
+title: Método Flush-ActiveX Data Objects (ADO)
 TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e2a55eb66c454d510d53083c495326548eda08af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292339"
 ---
 # <a name="flush-method-ado"></a>Método Flush (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Força que o com que o conteúdo do [Stream](stream-object-ado.md) remanescente no buffer do ADO vá para o objeto base com o qual o **Stream** está associado.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. Liberar
+*Stream*. Descarga
 
 ## <a name="remarks"></a>Comentários
 

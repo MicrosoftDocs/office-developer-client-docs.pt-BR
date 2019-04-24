@@ -1,5 +1,5 @@
 ---
-title: Propriedade UnderlyingValue (ADO)
+title: Propriedade underdependvalue (ADO)
 TOCTitle: UnderlyingValue property (ADO)
 ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6d1618a0cb310c1e564fe18289da6a2d35e91d0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313997"
 ---
-# <a name="underlyingvalue-property-ado"></a>Propriedade UnderlyingValue (ADO)
+# <a name="underlyingvalue-property-ado"></a>Propriedade underdependvalue (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 

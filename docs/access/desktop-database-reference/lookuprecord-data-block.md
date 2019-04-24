@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 920f0830a310452962eb5dd1c21be63215bf0f03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289788"
 ---
 # <a name="lookuprecord-data-block"></a>Bloco de dados Pesquisarregistro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um bloco de dados **PesquisarRegistro** executa um conjunto de ações em um registro específico.
 
 > [!NOTE]
-> [!OBSERVAçãO] O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados.
+> O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -35,26 +35,26 @@ A ação **PesquisarRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Em</p></td>
+<td><p>POL</p></td>
 <td><p>Sim</p></td>
-<td><p>Uma cadeia de caracteres que identifica o registro para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p><p><strong>Observação</strong>: O registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</p></td>
+<td><p>Uma cadeia de caracteres que identifica o registro a ser utilizado. O argumento <em>in</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p><p><strong>Observação</strong>: o registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
 <td><p>Não</p></td>
-<td><p>Uma expressão de cadeia de caracteres usada para restringir o intervalo de dados no qual o bloco de dados <strong>Pesquisarregistro</strong> é executada. Por exemplo, critérios costumam ser equivalentes à cláusula WHERE em uma expressão SQL, sem a palavra onde. Se os critérios forem omitidos, o bloco de dados <strong>Pesquisarregistro</strong> opera em todo o domínio especificado pelo argumento <em>em</em> . Qualquer campo que está incluído nos critérios também deve ser um campo no <em>In</em>.</p></td>
+<td><p>Uma expressão de cadeia de caracteres usada para restringir o intervalo de dados no qual o bloco de dados <strong>PesquisarRegistro</strong> opera. Por exemplo, os critérios geralmente são equivalentes à cláusula WHERE em uma expressão SQL, sem a palavra WHERE. Se os critérios forem omitidos, o bloco de dados <strong>pesquisarregistro</strong> operará em todo o domínio especificado pelo argumento <em>in</em> . Qualquer campo incluído nos critérios também deve ser um campo em <em>Em</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alias</p></td>
 <td><p>Não</p></td>
-<td><p>Uma cadeia de caracteres que fornece um nome alternativo para o registro especificado pelo argumento <em>em</em> . Frequentemente usado para reduzir o nome da tabela referências posteriores evitar possíveis referências ambíguas. Se o <em>Alias</em> não for especificado, o nome da tabela ou da consulta será usado como o alias.</p></td>
+<td><p>Uma cadeia de caracteres que fornece um nome alternativo para o registro especificado pelo argumento <em>in</em> . Comumente usado para reduzir o nome da tabela para subsequentes referências, evitando referências ambíguas. Se o <em>Alias</em> não for especificado, o nome da tabela ou da consulta será usado como o alias.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,13 +62,13 @@ A ação **PesquisarRegistro** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Se os critérios especificados pelos argumentos *no* e a *Condição Where* especifica mais de um registro, o bloco de dados **Pesquisarregistro** funcionará apenas no primeiro registro.
+Se os critérios especificados pelos argumentos *in* e *Where Condition* especificarem mais de um registro, o bloco de dados **pesquisarregistro** funcionará somente no primeiro registro.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação de SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornada para a macro ou o Visual Basic para a sub-rotina Applications (VBA) que chamou a macro de dados nomeada.
+O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornado para a macro ou a sub-rotina VBA (Visual Basic for Applications) chamada da macro de dados nomeada.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     RunDataMacro
@@ -85,7 +85,7 @@ O exemplo a seguir mostra como usar a ação de SetReturnVar para retornar um va
 
 <br/>
 
-O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento de macro de dados antes de alterar. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído atualmente atribuído a uma solicitação de serviço em aberto. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
+O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento antes de alterar a macro de dados. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído está atualmente atribuído a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
 
 ```vb
     /* Get the name of the technician  */
