@@ -12,53 +12,53 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327276"
 ---
-# <a name="pidtagattachmimesequence-canonical-property"></a><span data-ttu-id="6c704-103">Propriedade canônica PidTagAttachMimeSequence</span><span class="sxs-lookup"><span data-stu-id="6c704-103">PidTagAttachMimeSequence Canonical Property</span></span>
+# <a name="pidtagattachmimesequence-canonical-property"></a><span data-ttu-id="05a51-103">Propriedade canônica PidTagAttachMimeSequence</span><span class="sxs-lookup"><span data-stu-id="05a51-103">PidTagAttachMimeSequence Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6c704-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6c704-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="05a51-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05a51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6c704-105">Contém o número de sequência MIME de anexo de uma mensagem MIME.</span><span class="sxs-lookup"><span data-stu-id="6c704-105">Contains the MIME sequence number of a MIME message attachment.</span></span>
+<span data-ttu-id="05a51-105">Contém o número de sequência MIME de um anexo de mensagem MIME.</span><span class="sxs-lookup"><span data-stu-id="05a51-105">Contains the MIME sequence number of a MIME message attachment.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6c704-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="6c704-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6c704-107">PR_ATTACH_MIME_SEQUENCE</span><span class="sxs-lookup"><span data-stu-id="6c704-107">PR_ATTACH_MIME_SEQUENCE</span></span>  <br/> |
-|<span data-ttu-id="6c704-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="6c704-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6c704-109">0x3710</span><span class="sxs-lookup"><span data-stu-id="6c704-109">0x3710</span></span>  <br/> |
-|<span data-ttu-id="6c704-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="6c704-110">Data type:</span></span>  <br/> |<span data-ttu-id="6c704-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="6c704-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="6c704-112">Área:</span><span class="sxs-lookup"><span data-stu-id="6c704-112">Area:</span></span>  <br/> |<span data-ttu-id="6c704-113">Propriedades de anexo da mensagem</span><span class="sxs-lookup"><span data-stu-id="6c704-113">Message Attachment Properties</span></span>  <br/> |
+|<span data-ttu-id="05a51-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="05a51-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="05a51-107">PR_ATTACH_MIME_SEQUENCE</span><span class="sxs-lookup"><span data-stu-id="05a51-107">PR_ATTACH_MIME_SEQUENCE</span></span>  <br/> |
+|<span data-ttu-id="05a51-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="05a51-108">Identifier:</span></span>  <br/> |<span data-ttu-id="05a51-109">0x3710</span><span class="sxs-lookup"><span data-stu-id="05a51-109">0x3710</span></span>  <br/> |
+|<span data-ttu-id="05a51-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="05a51-110">Data type:</span></span>  <br/> |<span data-ttu-id="05a51-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="05a51-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="05a51-112">Área:</span><span class="sxs-lookup"><span data-stu-id="05a51-112">Area:</span></span>  <br/> |<span data-ttu-id="05a51-113">Propriedades de anexo de mensagem</span><span class="sxs-lookup"><span data-stu-id="05a51-113">Message Attachment Properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6c704-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="6c704-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="05a51-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="05a51-114">Remarks</span></span>
 
-<span data-ttu-id="6c704-115">Essa propriedade é usada para suporte MHTML.</span><span class="sxs-lookup"><span data-stu-id="6c704-115">This property is used for MHTML support.</span></span> <span data-ttu-id="6c704-116">Representa o número de sequência do anexo dentro do pai parte de várias partes do corpo MIME da mensagem MIME.</span><span class="sxs-lookup"><span data-stu-id="6c704-116">It represents the sequence number of the attachment within the parent MIME multipart body part of the MIME message.</span></span>
+<span data-ttu-id="05a51-115">Essa propriedade é usada para suporte a MHTML.</span><span class="sxs-lookup"><span data-stu-id="05a51-115">This property is used for MHTML support.</span></span> <span data-ttu-id="05a51-116">Ele representa o número de sequência do anexo dentro da parte do corpo de várias partes MIME pai da mensagem MIME.</span><span class="sxs-lookup"><span data-stu-id="05a51-116">It represents the sequence number of the attachment within the parent MIME multipart body part of the MIME message.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="6c704-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="6c704-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="05a51-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="05a51-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="6c704-118">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="6c704-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="05a51-118">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="05a51-118">Header files</span></span>
 
-<span data-ttu-id="6c704-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6c704-119">Mapidefs.h</span></span>
+<span data-ttu-id="05a51-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="05a51-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6c704-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="6c704-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="05a51-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="05a51-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6c704-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="6c704-121">Mapitags.h</span></span>
+<span data-ttu-id="05a51-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="05a51-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="6c704-122">Contém definições das propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="6c704-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="05a51-122">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="05a51-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6c704-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="6c704-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05a51-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="05a51-123">See also</span></span>
 
 
 
-[<span data-ttu-id="6c704-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="6c704-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="05a51-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="05a51-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6c704-125">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="6c704-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="05a51-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="05a51-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6c704-126">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="6c704-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="05a51-126">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="05a51-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6c704-127">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="6c704-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="05a51-127">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="05a51-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,20 +7,20 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
 description: Obtém o número de contas no enumerador.
-ms.openlocfilehash: dd4152a898bdaa96883bcd27ab3ec0d94e80fd90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322012"
 ---
-# <a name="iolkenumgetcount"></a><span data-ttu-id="86639-103">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="86639-103">IOlkEnum::GetCount</span></span>
+# <a name="iolkenumgetcount"></a><span data-ttu-id="bbcb7-103">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="bbcb7-103">IOlkEnum::GetCount</span></span>
 
-<span data-ttu-id="86639-104">Obtém o número de contas no enumerador.</span><span class="sxs-lookup"><span data-stu-id="86639-104">Gets the number of accounts in the enumerator.</span></span>
+<span data-ttu-id="bbcb7-104">Obtém o número de contas no enumerador.</span><span class="sxs-lookup"><span data-stu-id="bbcb7-104">Gets the number of accounts in the enumerator.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="86639-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="86639-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="bbcb7-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="bbcb7-105">Quick info</span></span>
 
-<span data-ttu-id="86639-106">Consulte [IOlkEnum](iolkenum.md).</span><span class="sxs-lookup"><span data-stu-id="86639-106">See [IOlkEnum](iolkenum.md).</span></span>
+<span data-ttu-id="bbcb7-106">Consulte [IOlkEnum](iolkenum.md).</span><span class="sxs-lookup"><span data-stu-id="bbcb7-106">See [IOlkEnum](iolkenum.md).</span></span>
   
 ```cpp
 HRESULT IOlkEnum::GetCount ( 
@@ -29,19 +29,19 @@ HRESULT IOlkEnum::GetCount (
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="86639-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="86639-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bbcb7-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bbcb7-107">Parameters</span></span>
 
-<span data-ttu-id="86639-108">_pulCount_</span><span class="sxs-lookup"><span data-stu-id="86639-108">_pulCount_</span></span>
+<span data-ttu-id="bbcb7-108">_pulCount_</span><span class="sxs-lookup"><span data-stu-id="bbcb7-108">_pulCount_</span></span>
   
-> <span data-ttu-id="86639-109">[out] Um ponteiro para o número de objetos que está sendo enumerado.</span><span class="sxs-lookup"><span data-stu-id="86639-109">[out] A pointer to the number of objects being enumerated.</span></span>
+> <span data-ttu-id="bbcb7-109">bota Um ponteiro para o número de objetos que estão sendo enumerados.</span><span class="sxs-lookup"><span data-stu-id="bbcb7-109">[out] A pointer to the number of objects being enumerated.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="86639-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="86639-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bbcb7-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="bbcb7-110">Return values</span></span>
 
-<span data-ttu-id="86639-111">S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="86639-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="bbcb7-111">S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="bbcb7-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="86639-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="86639-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bbcb7-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="bbcb7-112">See also</span></span>
 
-- [<span data-ttu-id="86639-113">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="86639-113">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)  
-- [<span data-ttu-id="86639-114">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="86639-114">IOlkEnum::Reset</span></span>](iolkenum-reset.md) 
-- [<span data-ttu-id="86639-115">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="86639-115">IOlkEnum::Skip</span></span>](iolkenum-skip.md)
+- [<span data-ttu-id="bbcb7-113">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="bbcb7-113">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)  
+- [<span data-ttu-id="bbcb7-114">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="bbcb7-114">IOlkEnum::Reset</span></span>](iolkenum-reset.md) 
+- [<span data-ttu-id="bbcb7-115">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="bbcb7-115">IOlkEnum::Skip</span></span>](iolkenum-skip.md)
 

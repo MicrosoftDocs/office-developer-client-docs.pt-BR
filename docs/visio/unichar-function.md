@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
 description: Retorna o caractere Unicode de um número.
-ms.openlocfilehash: 06f97717ee4d5965253b0da7cfd5c35faf0ca2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327340"
 ---
-# <a name="unichar-function"></a><span data-ttu-id="47bf6-103">Função UNICHAR</span><span class="sxs-lookup"><span data-stu-id="47bf6-103">UNICHAR Function</span></span>
+# <a name="unichar-function"></a><span data-ttu-id="8075c-103">Função UNICHAR</span><span class="sxs-lookup"><span data-stu-id="8075c-103">UNICHAR Function</span></span>
 
-<span data-ttu-id="47bf6-104">Retorna o caractere Unicode de um número.</span><span class="sxs-lookup"><span data-stu-id="47bf6-104">Returns the Unicode character from a number.</span></span> 
+<span data-ttu-id="8075c-104">Retorna o caractere Unicode de um número.</span><span class="sxs-lookup"><span data-stu-id="8075c-104">Returns the Unicode character from a number.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="47bf6-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="47bf6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8075c-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="8075c-105">Syntax</span></span>
 
-<span data-ttu-id="47bf6-106">UNICHAR (* * *número* * *)</span><span class="sxs-lookup"><span data-stu-id="47bf6-106">UNICHAR (** *number* ** )</span></span> 
+<span data-ttu-id="8075c-106">UNICHAR (\* \* *número* \* \*)</span><span class="sxs-lookup"><span data-stu-id="8075c-106">UNICHAR (\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="47bf6-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="47bf6-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="8075c-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="8075c-107">Parameters</span></span>
 
-|<span data-ttu-id="47bf6-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="47bf6-108">**Name**</span></span>|<span data-ttu-id="47bf6-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="47bf6-109">**Required/Optional**</span></span>|<span data-ttu-id="47bf6-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="47bf6-110">**Data Type**</span></span>|<span data-ttu-id="47bf6-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="47bf6-111">**Description**</span></span>|
+|<span data-ttu-id="8075c-108">**Nome**</span><span class="sxs-lookup"><span data-stu-id="8075c-108">**Name**</span></span>|<span data-ttu-id="8075c-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="8075c-109">**Required/Optional**</span></span>|<span data-ttu-id="8075c-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="8075c-110">**Data Type**</span></span>|<span data-ttu-id="8075c-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="8075c-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="47bf6-112">_number_</span><span class="sxs-lookup"><span data-stu-id="47bf6-112">_number_</span></span> <br/> |<span data-ttu-id="47bf6-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="47bf6-113">Required</span></span>  <br/> |<span data-ttu-id="47bf6-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="47bf6-114">**Integer**</span></span> <br/> |<span data-ttu-id="47bf6-115">Um número inteiro entre 1 e 65.535 (inclusive) ou a função retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="47bf6-115">An integer between 1 and 65,535 (inclusive), or the function returns an error.</span></span>  <br/> |
+| <span data-ttu-id="8075c-112">_number_</span><span class="sxs-lookup"><span data-stu-id="8075c-112">_number_</span></span> <br/> |<span data-ttu-id="8075c-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="8075c-113">Required</span></span>  <br/> |<span data-ttu-id="8075c-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="8075c-114">**Integer**</span></span> <br/> |<span data-ttu-id="8075c-115">Um número inteiro entre 1 e 65.535 (inclusive) ou a função retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="8075c-115">An integer between 1 and 65,535 (inclusive), or the function returns an error.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="47bf6-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="47bf6-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8075c-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="8075c-116">Remarks</span></span>
 
-<span data-ttu-id="47bf6-117">A cadeia de caracteres resultante é um caractere Unicode (dois caracteres).</span><span class="sxs-lookup"><span data-stu-id="47bf6-117">The resulting string is one Unicode character (two characters) in length.</span></span> 
+<span data-ttu-id="8075c-117">A cadeia de caracteres resultante é um caractere Unicode (dois caracteres).</span><span class="sxs-lookup"><span data-stu-id="8075c-117">The resulting string is one Unicode character (two characters) in length.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="47bf6-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="47bf6-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8075c-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8075c-118">Example</span></span>
 
-<span data-ttu-id="47bf6-119">UNICHAR(65)</span><span class="sxs-lookup"><span data-stu-id="47bf6-119">UNICHAR(65)</span></span> 
+<span data-ttu-id="8075c-119">UNICHAR (65)</span><span class="sxs-lookup"><span data-stu-id="8075c-119">UNICHAR(65)</span></span> 
   
-<span data-ttu-id="47bf6-120">Retorna um (letra latina A maiuscula)</span><span class="sxs-lookup"><span data-stu-id="47bf6-120">Returns A (Latin Capital Letter A)</span></span> 
+<span data-ttu-id="8075c-120">Retorna A (letra latina maiúscula A)</span><span class="sxs-lookup"><span data-stu-id="8075c-120">Returns A (Latin Capital Letter A)</span></span> 
   
 
