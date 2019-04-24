@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f49ea23ed7fef91bcb360483611af2ee60429934
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b43c1b96130052a05ac390f10f545a66fe72b7fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351160"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592966"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulário que um formulário está sendo fechado.
+Notifica o Visualizador de formulários de que um formulário está sendo fechado.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -33,7 +33,7 @@ HRESULT OnShutdown( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhuma
   
 ## <a name="return-value"></a>Valor de retorno
 
@@ -43,7 +43,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre as notificações do formulário, consulte [de envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Confira também
 

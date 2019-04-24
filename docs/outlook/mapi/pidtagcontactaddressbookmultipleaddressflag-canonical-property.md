@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 34f61f3ef64e5751f9be3df534c4379583447799
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fabb03d552f195c200b0ecbd8fd69f470c0e1fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344888"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propriedade canônica PidTagContactAddressBookMultipleAddressFlag
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592693"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um sinalizador que será TRUE quando o provedor oferece suporte a vários endereços de email por item de contato.
+Contém um sinalizador que é TRUE quando o provedor dá suporte a vários endereços de email por item de contato.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um sinalizador que será TRUE quando o provedor oferece suporte a vário
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for TRUE, o provedor não permite contatos sem endereços de email. Se for FALSE, o provedor mostra todos os contatos ou não terem um endereço de email primário. Somente o endereço de email primário será atendido. Esta é uma propriedade em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contatos.
+Se essa propriedade for TRUE, o provedor não permitirá contatos sem endereços de email. Se for FALSE, o provedor mostrará todos os contatos, tenha ou não um endereço de email principal. Somente o endereço de email principal será aceito. É uma propriedade em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

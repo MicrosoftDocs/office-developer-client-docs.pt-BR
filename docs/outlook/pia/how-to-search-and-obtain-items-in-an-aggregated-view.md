@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92f99069dae2976a00ac075f605754fe8704ae60
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342757"
 ---
 # <a name="search-and-obtain-items-in-an-aggregated-view"></a>Pesquisar e obter itens em um modo de exibição agregado
 
@@ -26,7 +26,7 @@ No exemplo de código a seguir, o método **GetItemsInView** verifica se a conta
 
 **GetItemsInView** pesquisa todas as pastas do tipo [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) do gerente do usuário atual marcadas como importantes. Depois de **GetItemsInView** chamar método de [Pesquisa](https://msdn.microsoft.com/library/bb610561\(v=office.15\)), todos os resultados de pesquisa que houver serão exibidos no Explorer, incluindo os itens de outras pastas e lojas que se encaixam nos critérios da pesquisa. **GetItemsInView** obtém um objeto** TableView** que contém este modo de exibição do Explorer dos resultados da pesquisa. Usando o método **GetTable** deste objeto **TableView**, **GetItemsInView** obtém um objeto **Table** que contém os itens agregados retornados da pesquisa. Por fim **GetItemsInView** exibe a coluna de assunto de cada linha do objeto **Table** que representa um item nos resultados da pesquisa.
 
-Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

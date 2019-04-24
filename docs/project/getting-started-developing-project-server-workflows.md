@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 735bbb04-a8c1-46c0-a346-42050f0ac9b1
 description: Os processos de gerenciamento de demanda no Project Server 2013 incluem fluxos de trabalho que o ajudarão a gerenciar propostas de projetos e análises de portfólios. Esta seção inclui artigos que mostram como criar fluxos de trabalho do Project Server.
 ms.openlocfilehash: 0a09022e63528f50ee4f0c8bd69bd6c34c5d8753
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344468"
 ---
 # <a name="getting-started-developing-project-server-workflows"></a>Introdução ao desenvolvimento de fluxos de trabalho do Project
 

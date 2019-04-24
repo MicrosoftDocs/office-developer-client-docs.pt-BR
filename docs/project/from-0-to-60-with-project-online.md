@@ -5,149 +5,149 @@ ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
-description: 'Um desenvolvedor de aplicativos pode personalizar um site Project Online (SharePoint hospedado) usando aplicativos autônomos e/ou complementos do projeto. Uma ampla gama de aplicativos é possível que variam de endereçamento às necessidades das pessoas envolvidas em um projeto para funções de suporte PMO, como um destes procedimentos:'
+description: 'Um desenvolvedor de aplicativos pode personalizar um site do Project online (hospedado no SharePoint) usando aplicativos autônomos e/ou suplementos do Project. É possível que O alcance de vários aplicativos seja de acordo com as necessidades de endereçamento dos envolvidos em um projeto para as funções de suporte de PMO, como qualquer um dos seguintes:'
 ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344405"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Introdução rápida ao Project Online
 
-Um desenvolvedor de aplicativos pode personalizar um site Project Online (SharePoint hospedado) usando aplicativos autônomos e/ou complementos do projeto. Uma ampla gama de aplicativos é possível que variam de endereçamento às necessidades das pessoas envolvidas em um projeto para funções de suporte PMO, como um destes procedimentos:
+Um desenvolvedor de aplicativos pode personalizar um site do Project online (hospedado no SharePoint) usando aplicativos autônomos e/ou suplementos do Project. É possível que O alcance de vários aplicativos seja de acordo com as necessidades de endereçamento dos envolvidos em um projeto para as funções de suporte de PMO, como qualquer um dos seguintes:
   
-- Entrada de dados de cartão de ponto simplificada para trabalhadores
-- Aprovação de cartão eficiente para supervisores
-- Supervisão de autorizações (compras e status) necessário para um projeto
+- Entrada de dados de cartão de timeSimplificada para trabalhadores
+- Aprovação de cartão de visita eficiente para supervisores
+- Supervisão de permissões (aquisição e status) necessárias para um projeto
 - Verificação de status/integridade dos projetos ativos
 - Relatório de problemas
-- Alterar o relatório de Status de gerenciamento
+- Relatório de status de gerenciamento de alterações
     
-Project Online inclui suporte de API para acomodar os cenários a seguintes:
+O Project online inclui suporte à API para acomodar os seguintes cenários:
   
-- Para um suplemento do Project (SharePoint) hospedado:
+- Para um suplemento hospedado do projeto (SharePoint):
     
-  - Código (JavaScript, HTML, CSS) que está hospedado no SharePoint Online
+  - Código (JavaScript, HTML, CSS) hospedado no SharePoint Online
   - Ativos que são baixados para o navegador e executados no SharePoint Online.  
-  - Lógica de negócios que esteja no JavaScript   
-  - Acesse os dados são como em/armazenados no Project Online ou do SharePoint (mas não estão limitado a):  
-  - Campos personalizados  
+  - Lógica de negócios que está em JavaScript   
+  - Acessar dados que estão armazenados no Project online ou no SharePoint, como (mas não está limitado a):  
+  - Custom fields (campos personalizados)  
   - Listas
     
-- Para um projeto (SharePoint) hospedado em provedor suplemento:
+- Para um suplemento hospedado pelo provedor do projeto (SharePoint):
     
-  - Código que existe em um site externo para o site do Project Online 
+  - Código existente em um site externo para o site do Project online 
   - Um site externo, que pode ser (mas não está limitado a):  
   - Outro site do SharePoint  
-  - Serviço/aplicativo Web baseado em qualquer plataforma  
-  - O site externo contém a lógica de negócios  
-  - O navegador é redirecionado do Project Online site externo com tokens de acesso ao Project Online  
-  - O site externo pode fazer chamadas para o SharePoint e o Project Online
+  - Aplicativo Web/serviço criado em qualquer plataforma  
+  - O site externo contém lógica comercial  
+  - O navegador é redirecionado do Project online para o site externo com tokens de acesso para o Project online  
+  - O site externo pode fazer chamadas para o SharePoint e o Project online
     
 - Para um suplemento externo/autônomo:
     
-  - Usuário executa um aplicativo no seu dispositivo
-  - Aplicativo autentica e chama APIs do Project Online diretamente
+  - O usuário executa um aplicativo no dispositivo
+  - O aplicativo autentica e chama as APIs do Project online diretamente
     
 
 |Tipo de aplicativo|Implementação da API|Ambiente de destino|Exemplos de aplicativos|
 |:-----|:-----|:-----|:-----|
-|Projeto hospedado  <br/> |JSOM (modelo de objeto do Java Script)  <br/> REST  <br/> |Browser  <br/> |Entrada de cartão de ponto  <br/> Aprovação de cartão de ponto  <br/> Status do projeto  <br/> Relatório de problemas  <br/> |
-|Provedor de projeto hospedado  <br/> |Biblioteca do cliente CSOM  <br/> |Site do Windows Azure/App  <br/> Ambiente de não-Windows (LÂMPADA, etc.)  <br/> |Validador de quadro de horários externo  <br/> Importador de projeto  <br/> |
-|Externa/autônomo  <br/> |REST  <br/> CSOM  <br/> |REST - qualquer plataforma  <br/> CSOM - todas as plataformas com suporte do .NET  <br/> |Entrada de cartão de ponto  <br/> Migração de projetos para um novo site  <br/> Alterar o Status de gerenciamento.  <br/> |
+|Projeto hospedado  <br/> |JSOM (modelo de objeto java script)  <br/> REST  <br/> |Navegador  <br/> |Entrada do cartão de um  <br/> Aprovação de cartão de visita  <br/> Status do projeto  <br/> Relatório de problemas  <br/> |
+|Provedor de projeto hospedado  <br/> |Biblioteca de cliente do CSOM  <br/> |Site/aplicativo do Azure  <br/> Ambiente não Windows (lâmpada etc.)  <br/> |Validador de quadro de horários externo  <br/> Importador de projeto  <br/> |
+|Externo/autônomo  <br/> |REST  <br/> CSOM  <br/> |RESTANTE-qualquer plataforma  <br/> CSOM-qualquer plataforma com suporte do .NET  <br/> |Entrada do cartão de um  <br/> Migração de projetos para um novo site  <br/> Status de gerenciamento de alterações.  <br/> |
    
-## <a name="what-does-it-take-to-start-developing-applications-for-project-online"></a>O que leva para começar a desenvolver aplicativos para o Project Online?
+## <a name="what-does-it-take-to-start-developing-applications-for-project-online"></a>O que é necessário para começar a desenvolver aplicativos para o Project online?
 
-Os itens comuns necessários para o desenvolvimento de aplicativos do Project Online são uma conta do Project Online e testam dados--projetos e informações relacionados ao projeto que incluem atribuições, tarefas, recursos e campos personalizados. Um ambiente de desenvolvimento necessário também, mas as especificações do ambiente de desenvolvimento dependem do tipo de aplicativo e a interface de API necessária para o aplicativo. As próximas seções descrevem as necessidades de desenvolvimento para as interfaces de API três.
+Os itens comuns necessários para o desenvolvimento de aplicativos do Project online são uma conta do Project online e dados de teste, projetos e informações relacionadas ao projeto que incluem atribuições, tarefas, recursos e campos personalizados. Um ambiente de desenvolvimento também é necessário, mas as especificações do ambiente de desenvolvimento dependem do tipo de aplicativo e da interface de API necessárias para o aplicativo. As próximas seções descrevem as necessidades de desenvolvimento para as três interfaces de API.
   
-A documentação de referência descreve o modelo de objeto que é comum para todas as interfaces de três, bem como um mapa de entidade que mostra as relações entre os componentes do modelo de objeto.
+A documentação de referência descreve o modelo de objeto que é comum para todas as três interfaces, bem como um mapa de entidade que mostra as relações entre os componentes do modelo de objeto.
   
-## <a name="project-hosted-add-in-development-environment"></a>Ambiente de desenvolvimento de suplemento do Project hospedado
+## <a name="project-hosted-add-in-development-environment"></a>Ambiente de desenvolvimento de suplementos hospedados do Project
 
-Um suplemento hospedado é um suplemento que reside no servidor e é baixado para um navegador para execução de tempo de execução. Suplementos hospedados podem usar as interfaces JSOM ou REST e escritos em JavaScript. Project Online fornece referências à biblioteca JSOM para execução de tempo de execução. Desenvolvimento considerando está em uma plataforma Windows, o acompanhamento de recursos necessários:
+Um suplemento hospedado é um suplemento que reside no servidor e é baixado para um navegador para execução em tempo de execução. Os suplementos hospedados podem usar as interfaces JSOM ou REST e são escritos em JavaScript. O Project online fornece referências à biblioteca JSOM para execução em tempo de execução. Supondo que o desenvolvimento esteja em uma plataforma do Windows, os recursos necessários são os seguintes:
   
-- O Visual Studio (preferencial) de 2015 ou Visual Studio 2013
+- Visual Studio 2015 (preferencial) ou Visual Studio 2013
     
 - Ferramentas de desenvolvimento do Office para Visual Studio
     
-- Idioma do JavaScript
+- Linguagem JavaScript
     
-Visite https://github.com/OfficeDev/Project-JSOM-Copy-Work-Packages para um aplicativo de amostra. 
+Visite https://github.com/OfficeDev/Project-JSOM-Copy-Work-Packages para obter um exemplo de aplicativo. 
   
-Você pode baixar e executar a amostra em algumas etapas simples:
+Você pode baixar e executar o exemplo em algumas etapas simples:
   
-1. Baixe e abra o aplicativo de amostra
+1. Baixe e abra o aplicativo de exemplo
     
-2. Atualizar o SiteURL na janela Propriedades
+2. Atualizar o SiteURL na janela de propriedades
     
-   Project Online examina o escopo de aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project Online. Se o acesso negado explicitamente em uma ou ambas as configurações, Project Online nega acesso às informações. Caso contrário, o acesso é concedido.
+   O Project online examina o escopo do aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project online. Se o acesso for explicitamente negado em uma ou ambas as configurações, o Project online negará o acesso às informações. Caso contrário, o acesso é concedido.
     
-3. Habilite [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) em seu site.  
+3. Habilite o [Sideload](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) no site.  
     
 4. Compile o projeto.
     
 5. Execute o projeto.
     
-## <a name="project-provider-hosted-add-in-development-environment"></a>Ambiente de desenvolvimento hospedado em provedor suplemento do Project
+## <a name="project-provider-hosted-add-in-development-environment"></a>Ambiente de desenvolvimento de suplementos hospedados pelo provedor de projeto
 
-Suplementos do provedor hospedado são aplicativos escritos e que residem em qualquer plataforma da web. Eles podem se conectar e executar operações de dados usando o REST (ou CSOM para plataformas de Microsoft) API. Qualquer idioma e um ambiente com suporte para a interface REST podem ser usados para desenvolvimento. 
+Os suplementos hospedados pelo provedor são aplicativos escritos e residentes em qualquer plataforma Web. Eles podem conectar e realizar operações de dados usando a API REST (ou CSOM para plataformas Microsoft). Todos os idiomas e ambientes que dão suporte à interface REST podem ser usados para desenvolvimento. 
   
-Um exemplo do ambiente de desenvolvimento do Windows para esse tipo de aplicativo inclui os seguintes itens:
+Um exemplo de ambiente de desenvolvimento do Windows para esse tipo de aplicativo inclui os seguintes itens:
   
--  O Visual Studio (preferencial) de 2015 ou Visual Studio 2013 
+-  Visual Studio 2015 (preferencial) ou Visual Studio 2013 
     
-- Ferramentas de desenvolvimento do Microsoft Office para Visual Studio (fornecidos com o Visual Studio 2015 Professional e Enterprise Edition)
+- Ferramentas de desenvolvimento do Microsoft Office para Visual Studio (fornecido com o Visual Studio 2015 Professional e Enterprise Editions)
     
-- .NET framework 4.0 ou mais recente
+- .NET Framework 4,0 ou mais recente
     
-- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas do CSOM) 
+- [Pacote SHAREPOINTONLINE CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas CSOM) 
     
-- Uma linguagem de programação, como c# 
+- Uma linguagem de programação, como C# 
     
-Visite https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations para trabalhar scripts de amostra. 
+Visite https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations exemplos de scripts de amostra. 
   
 Você pode executar o exemplo em algumas etapas:
   
-1. Baixe e abra o aplicativo de amostra
+1. Baixe e abra o aplicativo de exemplo
     
-2. Atualizar o SiteURL na janela Propriedades
+2. Atualizar o SiteURL na janela de propriedades
     
-   Project Online examina o escopo de aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project Online. Se o acesso negado explicitamente em uma ou ambas as configurações, Project Online nega acesso às informações. Caso contrário, o acesso é concedido.
+   O Project online examina o escopo do aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project online. Se o acesso for explicitamente negado em uma ou ambas as configurações, o Project online negará o acesso às informações. Caso contrário, o acesso é concedido.
     
-3. Habilite [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) em seu site. 
+3. Habilite o [Sideload](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) no site. 
     
 4. Compile o projeto.
     
 5. Execute o projeto.
     
-## <a name="externalstandalone-application-development-environment"></a>Ambiente de desenvolvimento de aplicativo externo/autônomo
+## <a name="externalstandalone-application-development-environment"></a>Ambiente de desenvolvimento de aplicativos externos/autônomos
 
-Um aplicativo autônomo pode chamar Project Online usando o modelo de objeto de lado do cliente (CSOM) ou o REST para se comunicar com o Project Online para criar, recuperar, atualizar e excluir informações residentes no servidor. Este é um aplicativo cliente autônomo que depende do nível de acesso de usuário para executar. 
+Um aplicativo autônomo pode chamar o Project online usando o modelo de objeto do lado do cliente (CSOM) ou o REST para se comunicar com o Project online para criar, recuperar, atualizar e excluir informações residentes no servidor. Este é um aplicativo cliente autônomo que depende do nível de acesso do usuário a ser executado. 
   
-Um exemplo do ambiente de desenvolvimento do Windows para esse tipo de aplicativo inclui os seguintes itens:
+Um exemplo de ambiente de desenvolvimento do Windows para esse tipo de aplicativo inclui os seguintes itens:
   
-- O Visual Studio (preferencial) de 2015 ou Visual Studio 2013 
+- Visual Studio 2015 (preferencial) ou Visual Studio 2013 
     
-- Ferramentas de desenvolvimento do Microsoft Office para Visual Studio (fornecidos com o Visual Studio 2015 Professional e Enterprise Edition)
+- Ferramentas de desenvolvimento do Microsoft Office para Visual Studio (fornecido com o Visual Studio 2015 Professional e Enterprise Editions)
     
-- .NET framework 4.0 ou mais recente
+- .NET Framework 4,0 ou mais recente
     
-- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas do CSOM) 
+- [Pacote SHAREPOINTONLINE CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas CSOM) 
     
-- Uma linguagem de programação, como c# 
+- Uma linguagem de programação, como C# 
     
-Visite https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields para um aplicativo de amostra. 
+Visite https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields para obter um exemplo de aplicativo. 
   
 Você pode executar o exemplo em algumas etapas:
   
-1. Baixar o aplicativo de amostra
+1. Baixar o aplicativo de exemplo
     
-2. Fazer algumas alterações de acessar o site do Project Online — o nome do site, a conta de usuário e senha.
+2. Faça algumas alterações para acessar seu site do Project online, o nome do site, a conta do usuário e a senha.
     
-   Certifique-se de que o usuário tem acesso a todos os projetos. Project Online usa as permissões de usuário para controlar o acesso às informações no repositório de dados.
+   Verifique se o usuário tem acesso a todos os projetos. O Project online usa permissões de usuário para controlar o acesso a informações no repositório de dados.
     
-3. Adicione o assembly do SharePoint as referências usando o Console do Gerenciador de pacotes do Nuget, disponível no menu Ferramentas, digitando o seguinte no console do Nuget: 
+3. Adicione o assembly do SharePoint às referências usando o console do Gerenciador de pacotes do NuGet, disponível no menu ferramentas, digitando o seguinte no console do NuGet: 
     
    `Install-Package Microsoft.SharePointOnline.CSOM`
 
@@ -157,16 +157,16 @@ Você pode executar o exemplo em algumas etapas:
     
 ## <a name="next-steps"></a>Próximas etapas
 
-Cada aplicativo de amostra possui um artigo para explicar os destaques dos trabalhando com a API de projeto individuais. Os artigos aparecem na lista a seguir, juntamente com alguns artigos que descrevem as relações de entidade, informações sobre o sistema de consulta e acessar os campos personalizados. 
+Cada aplicativo de exemplo tem um artigo para explicar os destaques do trabalho com a API de projeto individual. Os artigos aparecem na lista a seguir, juntamente com alguns artigos que descrevem as relações de entidade, as informações no sistema de consulta e o acesso a campos personalizados. 
   
-- [Desenvolvendo um aplicativo do Project Online usando o modelo de objeto do cliente](developing-a-project-online-application-using-the-client-side-object-model.md)
+- [Desenvolver um aplicativo do Project online usando o modelo de objeto do lado do cliente](developing-a-project-online-application-using-the-client-side-object-model.md)
     
-- [Desenvolvendo um suplemento Project Online usando o modelo de objeto JavaScript (JSOM)](developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md)
+- [Desenvolver um suplemento do Project online usando o modelo de objeto do JavaScript (JSOM)](developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md)
     
 - [Acessar campos personalizados da empresa no Project Online](accessing-project-online-enterprise-custom-fields.md)
     
 ## <a name="see-also"></a>Confira também
 
-Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
+Confira a documentação e exemplos relacionados ao desenvolvimento de aplicativos usando o CSOM e Project Online no [Portal de Desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
     
 

@@ -8,54 +8,54 @@ f1_keywords:
 - Vis_DSS.chm82251423
 localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
-description: Arredonda um número de 0 (zero), para o próximo número inteiro ou para a próxima instância do múltiplo.
-ms.openlocfilehash: f66b993e3ab48fd1abc685b7db5889d5bf24fbfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Arredonda um número para 0 (zero), para o próximo inteiro ou para a próxima instância de múltiplo.
+ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346176"
 ---
 # <a name="floor-function"></a>Função FLOOR
 
-Arredonda um número de 0 (zero), para o próximo número inteiro ou para a próxima instância do _vários_.
+Arredonda um número para 0 (zero), para o próximo inteiro ou para a próxima instância de _múltiplo_.
   
 ## <a name="syntax"></a>Sintaxe
 
-FLOOR (* * *número* * *, * * *vários* * *) 
+PISO (* * *número* * *, * * *múltiplo* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número a ser arredondado.  <br/> |
 | _vários_ <br/> |Obrigatório  <br/> |**Número** <br/> |O múltiplo para o qual arredondar.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
-Se _vários_ não for especificado, o número será arredondado para 0 do próximo número inteiro. 
+Se _múltiplo_ não for especificado, o número será arredondado para 0 até o próximo inteiro. 
   
- _Número_ e _vários_ devem ter o mesmo sinal ou um #NUM! erro será retornado. Se o _número_ ou o _múltiplo_ não puder ser convertida para um valor, um #VALUE! erro será retornado. Se o _número_ ou o _múltiplo_ for 0, o resultado é 0. 
+ _Número_ e _múltiplos_ devem ter os mesmos sinais ou um #NUM! será retornado. Se um ou _vários_ _números_ não puderem ser convertidos em um valor, um #VALUE! será retornado. Se um dos _números_ ou _vários_ for 0, o resultado será 0. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-FLOOR(3.7)
+PISO (3.7)
   
 Retornará 3.
   
 ## <a name="example-2"></a>Exemplo 2
 
-FLOOR(-3.7)
+FLOOR (-3,7)
   
 Retornará -3.
   
 ## <a name="example-3"></a>Exemplo 3
 
-FLOOR (3,7, 0,5)
+PISO (3.7, 0,5)
   
 Retornará 3,5.
   

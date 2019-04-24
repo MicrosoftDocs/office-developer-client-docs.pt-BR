@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d999852d-ce98-4c3c-a772-87f5db4aa04e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ec7c213d7eec9ab0ef5766442e3de59a24811d37
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345483"
 ---
 # <a name="pidlidcommonstart-canonical-property"></a>Propriedade canônica PidLidCommonStart
 
@@ -30,36 +30,36 @@ Representa a data de início e a hora de uma mensagem.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidCommonStart  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008516  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008516  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade indica a hora de início para um item. Ela deve ser menor ou igual ao valor da propriedade **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)).
+Esta propriedade indica a hora de início de um item. Ele deve ser menor ou igual ao valor da propriedade **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)).
   
-O valor dessa propriedade deve ser o equivalente de tempo Universal Coordenado (UTC) da propriedade **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)).
+O valor dessa propriedade deve ser o equivalente de tempo universal coordenado (UTC) da propriedade **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -69,7 +69,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

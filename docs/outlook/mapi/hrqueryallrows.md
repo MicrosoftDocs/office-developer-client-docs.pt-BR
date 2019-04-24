@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c165bcaedfc3dbab0c950d0674228b15dfeee958
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f09304f21180d9ebc2a1e1dcc54ebadd3622804
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348241"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -29,9 +29,9 @@ Recupera todas as linhas de uma tabela.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 HRESULT HrQueryAllRows(
@@ -46,46 +46,46 @@ HRESULT HrQueryAllRows(
 
 ## <a name="parameters"></a>Parâmetros
 
- _ptable_
+ _PTable_
   
-> [in] Ponteiro para a tabela MAPI do qual as linhas são recuperadas. 
+> no Ponteiro para a tabela MAPI da qual as linhas são recuperadas. 
     
  _ptaga_
   
-> [in] Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de propriedade marcas indicando colunas da tabela. Essas marcas são usadas para selecionar as colunas específicas a serem recuperadas. Se o parâmetro _ptaga_ for NULL, **HrQueryAllRows** recupera o conjunto de coluna inteira do modo de exibição de tabela atual passado no parâmetro _ptable_ . 
+> no Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que indicam as colunas da tabela. Essas marcas são usadas para selecionar as colunas específicas a serem recuperadas. Se o parâmetro _ptaga_ for NULL, **HrQueryAllRows** recuperará todo o conjunto de colunas do modo de exibição de tabela atual passado no parâmetro _PTable_ . 
     
  _pré-instalação_
   
-> [in] Ponteiro para uma estrutura [SRestriction](srestriction.md) que contém as restrições de recuperação. Se o parâmetro de _pré-instalação_ for NULL, **HrQueryAllRows** torna sem restrições. 
+> no Ponteiro para uma estrutura [SRestriction](srestriction.md) que contém restrições de recuperação. Se o parâmetro _Pres_ for NULL, **HrQueryAllRows** não fará nenhuma restrição. 
     
  _PSOs_
   
-> [in] Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) que identifica a ordem de classificação das colunas a serem recuperadas. Se o parâmetro _psos_ for NULL, a ordem de classificação padrão para a tabela será usada. 
+> no Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) identificando a ordem de classificação das colunas a serem recuperadas. Se o parâmetro _PSOs_ for NULL, a ordem de classificação padrão para a tabela será usada. 
     
  _crowsMax_
   
-> [in] Número máximo de linhas a serem recuperadas. Se o valor do parâmetro _crowsMax_ for zero, nenhum limite no número de linhas recuperadas é definido. 
+> no Número máximo de linhas a serem recuperadas. Se o valor do parâmetro _crowsMax_ for zero, nenhum limite no número de linhas recuperadas será definido. 
     
  _pprows_
   
-> [out] Ponteiro para um ponteiro para a estrutura [SRowSet](srowset.md) retornado que contém uma matriz de ponteiros para as linhas de tabela recuperadas. 
+> bota Ponteiro para um ponteiro para a estrutura [SRowSet](srowset.md) retornada que contém uma matriz de ponteiros para as linhas da tabela recuperadas. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada recuperado as linhas esperadas de uma tabela. 
+> A chamada recuperou as linhas esperadas de uma tabela. 
     
 MAPI_E_TABLE_TOO_BIG 
   
-> O número de linhas da tabela é maior que o número passado para o parâmetro _crowsMax_ . 
+> O número de linhas na tabela é maior do que o número passado para o parâmetro _crowsMax_ . 
     
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente ou um provedor de serviços não tem controle sobre o número de linhas **que HrQueryAllRows** tenta recuperar, diferente de, impondo uma restrição apontado pelo parâmetro _pré-instalação_ . O parâmetro _crowsMax_ não limitam a recuperação para um determinado número de linhas da tabela, mas em vez disso, define uma quantidade máxima de memória disponível para abrigar recuperadas todas as linhas. A única proteção contra estouro de memória enorme é o recurso de provisórias fornecido, definindo _crowsMax_. O retorno de erro MAPI_E_TABLE_TOO_BIG significa que a tabela contém muitas linhas seja mantido todo ao mesmo tempo na memória. 
+Um aplicativo cliente ou provedor de serviços não tem controle sobre o número de linhas que o **HrQueryAllRows** tenta recuperar, exceto por impor uma restrição apontada pelo parâmetro _Pres_ . O parâmetro _crowsMax_ não limita a recuperação a um determinado número de linhas de tabela, mas, em vez disso, define uma quantidade máxima de memória disponível para armazenar todas as linhas recuperadas. A única proteção contra estouro de memória maciça é o recurso stopgap fornecido pela configuração _crowsMax_. O erro de retorno MAPI_E_TABLE_TOO_BIG significa que a tabela contém muitas linhas a serem mantidas de uma só vez na memória. 
   
-Tabelas que são normalmente pequenas, como uma tabela de repositório de mensagens ou de uma tabela de provedor, geralmente podem ser com segurança recuperadas com **HrQueryAllRows**. Tabelas em risco de ser muito grande, como uma tabela de conteúdo ou até mesmo uma tabela de destinatários, devem ser percorridas nas subseções usando o método [IMAPITable:: QueryRows](imapitable-queryrows.md) . 
+As tabelas que são normalmente pequenas, como uma tabela de repositório de mensagens ou uma tabela de provedor, geralmente podem ser recuperadas com segurança com o **HrQueryAllRows**. As tabelas em risco de ser muito grande, como uma tabela de conteúdo ou mesmo uma tabela de destinatários, devem ser percorridas em subseções usando o método imApitable [:: QueryRows](imapitable-queryrows.md) . 
   
-Se houver qualquer tabela propriedades indefinidas quando **HrQueryAllRows** é chamado, são retornadas com o tipo de propriedade PT_NULL e o identificador de propriedade PROP_ID_NULL 
+Se qualquer propriedade da tabela estiver indefinida quando **HrQueryAllRows** for chamado, elas serão retornadas com o tipo de propriedade PT_NULL e o identificador de propriedade PROP_ID_NULL 
   
 

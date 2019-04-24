@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Retorna um ponto transformado em coordenadas locais no sistema de coordenadas de destino.
-ms.openlocfilehash: 444200801ebd984fb735b95de6d58d35e5160d1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358034"
 ---
 # <a name="loctoloc-function"></a>Função LOCTOLOC
 
@@ -26,13 +26,13 @@ LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _srcPoint_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
 | _srcRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
 | _dstRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

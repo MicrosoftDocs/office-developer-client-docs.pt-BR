@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cd1b54601c55e44ad2b9e1d2cea3d3fdd9e76017
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346589"
 ---
 # <a name="pidtaginferenceenabled-canonical-property"></a>Propriedade canônica PidTagInferenceEnabled
 
@@ -21,36 +21,36 @@ ms.locfileid: "25397944"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Propriedade controlando log inferência de Store.
+Propriedade Store controlando o log de inFerência.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_INFERENCES_ENABLED  <br/> |
 |Identificador:  <br/> |0x3439000  <br/> |
-|Tipo de dados:  <br/> |Boolean  <br/> |
-|Área:  <br/> |Armazenamento de mensagens  <br/> |
+|Tipo de dados:  <br/> |Booliano  <br/> |
+|Área:  <br/> |Repositório de mensagens  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Especifica as operações permitidas para os objetos do repositório de mensagem principal.
+> Especifica operações permitidas para os principais objetos do repositório de mensagens.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

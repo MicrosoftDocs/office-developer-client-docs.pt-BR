@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ca2f1c1dba52127808468ffaa505d0ef71c10d89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1b29a37920d65eff32bc84446f421ddb4c2fc0ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358475"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriedade canônica PidLidRemoteTransferSize
 
@@ -25,27 +25,27 @@ ms.locfileid: "22589410"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o tamanho de transferência, em bytes, para um item remoto.
+Indica o tamanho da transferência, em bytes, de um item remoto.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidRemoteXferSize  <br/> |
-|Propriedade definida:  <br/> |PSETID_Remote  <br/> |
-|ID de longo (LID):  <br/> |0x00008F05  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Remote  <br/> |
+|Long ID (LID):  <br/> |0x00008F05  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensagem remota  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

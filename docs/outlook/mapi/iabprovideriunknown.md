@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 742f934e980a2b8627c4e50088a9c23166d1cf6d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 301be39b71c0f04799037fa069cfe18953e216de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348822"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
@@ -25,23 +25,23 @@ ms.locfileid: "22582109"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece um método para fazer logon como um objeto de provedor de catálogo de endereços e um método para invalidar um objeto de provedor de catálogo de endereços.
+Fornece um método para fazer logon em um objeto de provedor de catálogo de endereços e um método para invalidar um objeto de provedor de catálogo de endereços.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Expostos pelo:  <br/> |Objetos do provedor de catálogo de endereços  <br/> |
-|Implementada por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Exposto por:  <br/> |Objetos do provedor de catálogo de endereços  <br/> |
+|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Chamado por:  <br/> |MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IABProvider  <br/> |
 |Tipo de ponteiro:  <br/> |LPABPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Logon](iabprovider-logon.md) <br/> |Estabelece uma conexão para uma sessão ativa.  <br/> |
-|[Shutdown](iabprovider-shutdown.md) <br/> |Cancela uma conexão para uma sessão ativa.  <br/> |
+|[Logon](iabprovider-logon.md) <br/> |Estabelece uma conexão com uma sessão ativa.  <br/> |
+|[Shutdown](iabprovider-shutdown.md) <br/> |Cancela uma conexão com uma sessão ativa.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

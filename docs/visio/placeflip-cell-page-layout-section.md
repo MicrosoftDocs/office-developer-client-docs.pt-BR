@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Determina como as formas de colocação são invertidas e/ou giradas em uma página quando a caixa de diálogo Configurar Layout é usada (na guia Design, do grupo Layout, clique em Refazer o Layout da Página e em Mais Opções de Layout).
-ms.openlocfilehash: fb16849c7a496a4277133c68453d94d6fd2e67f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1c31654782012b3536d35f3a12a923c2cc7a8f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346869"
 ---
 # <a name="placeflip-cell-page-layout-section"></a>Célula PlaceFlip (Seção Page Layout)
 
@@ -23,8 +23,8 @@ Determina como as formas de colocação são invertidas e/ou giradas em uma pág
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Padrão. Não inverter.  <br/> |**visLOFlipDefault** <br/> |
-|&amp;H1  <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
-|&amp;H2  <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
+|&amp;Semestre  <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
+|&amp;S2  <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |Inverter em incrementos de 90 graus.  <br/> |**visLOFlipRotate** <br/> |
 |&amp;H8  <br/> |Não inverter.  <br/> |**visLOFlipNone** <br/> |
    

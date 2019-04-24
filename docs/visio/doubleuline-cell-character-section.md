@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Determina se o intervalo de texto contém um sublinhado duplo abaixo dele.
-ms.openlocfilehash: d0a07d8c86bd7e9ed3eb14074dda164f82c92475
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357460"
 ---
 # <a name="doubleuline-cell-character-section"></a>Célula DoubleULine (Seção Character)
 
@@ -22,8 +22,8 @@ Determina se o intervalo de texto contém um sublinhado duplo abaixo dele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O texto contém sublinhado duplo abaixo dele.  <br/> |
-|FALSO  <br/> |O texto não contém sublinhado duplo abaixo dele.  <br/> |
+|TRUE  <br/> |O texto contém sublinhado duplo abaixo dele.  <br/> |
+|FALSE  <br/> |O texto não contém sublinhado duplo abaixo dele.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula DoubleULine pelo nome, a partir de out
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.DblUnderline [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char. DblUnderline [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula DoubleULine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

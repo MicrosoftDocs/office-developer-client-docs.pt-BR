@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9fb372e504eaeb55861b09c4151956fb102c08f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 279d6109e8c29de204c4fb58da51de84b4fbe183
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350873"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
@@ -25,34 +25,34 @@ ms.locfileid: "22577146"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que um cliente MAPI realizar o desligamento rápido do processo de cliente. 
+Permite que um cliente MAPI realize o desligamento rápido do processo do cliente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objeto [IMAPISession](imapisessioniunknown.md)  <br/> |
-|Implementada por:  <br/> |Subsistema MAPI  <br/> |
-|Chamado pelo:  <br/> |Cliente MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objeto [IMAPISession](imapisessioniunknown.md)  <br/> |
+|Implementado por:  <br/> |Subsistema MAPI  <br/> |
+|Chamado por:  <br/> |Cliente MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIClientShutdown  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPICLIENTSHUTDOWN  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |O subsistema MAPI para desligamento rápido de consultas suporte que é fornecido por provedores MAPI carregados.  <br/> |
-|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica a intenção do cliente MAPI para prosseguir com desligado.  <br/> |
-|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica a intenção do cliente MAPI para sair do processo de cliente imediatamente.  <br/> |
+|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Consulta o subsistema MAPI para obter suporte de desligamento rápido fornecido por provedores MAPI carregados.  <br/> |
+|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica a intenção do cliente MAPI para prosseguir com o desligamento.  <br/> |
+|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica a intenção de que o cliente MAPI saia imediatamente do processo do cliente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A finalidade do desligamento rápido é permitir que um cliente MAPI e qualquer provedor MAPI carregado com o qual o cliente MAPI tem uma sessão MAPI ativa para salvar os dados e configurações de MAPI. Isso permite que o cliente MAPI desconectar todas as referências externas e sair sem causar perda de dados. Um cliente MAPI que precisa para executar um desligamento rápido deve usar a interface de **IMAPIClientShutdown** . O cliente MAPI pode obter um ponteiro para essa interface chamando o método IUnknown:: QueryInterface em qualquer objeto [IMAPISession](imapisessioniunknown.md) . 
+O objetivo do desligamento rápido é permitir um cliente MAPI e qualquer provedor MAPI carregado com o qual o cliente MAPI tem uma sessão MAPI ativa para salvar as configurações e os dados de MAPI. Isso permite que o cliente MAPI Desconecte todas as referências externas e saia sem causar perda de dados. Um cliente MAPI que precisa executar o desligamento rápido deve usar a interface **IMAPIClientShutdown** . O cliente MAPI pode obter um ponteiro para esta interface chamando o método IUnknown:: QueryInterface em qualquer objeto [IMAPISession](imapisessioniunknown.md) . 
   
-Um cliente MAPI sempre inicia um desligamento rápido chamando o método **IMAPIClientShutdown::QueryFastShutdown** . O subsistema de MAPI responde à consulta do cliente MAPI verificando se os provedores de MAPI carregados suportam para desligamento rápido do cliente. O administrador pode usar as configurações do registro do Windows para ajudar a determinar o nível de suporte do provedor que é necessário para clientes MAPI prosseguir com o desligamento rápido. Para obter mais informações, consulte [Opções de usuário de desligamento Fast](fast-shutdown-user-options.md).
+Um cliente MAPI sempre inicia um desligamento rápido chamando o método **IMAPIClientShutdown:: QueryFastShutdown** . O subsistema MAPI responde à consulta do cliente MAPI verificando se os provedores de MAPI carregados dão suporte ao desligamento rápido do cliente. O administrador pode usar as configurações do registro do Windows para ajudar a determinar o nível de suporte do provedor necessário para que os clientes MAPI continuem com o desligamento rápido. Para obter mais informações, consulte [Opções de usuário](fast-shutdown-user-options.md)de desligamento rápido.
   
-Para prosseguir com o desligamento rápido, o cliente chama o método de **IMAPIClientShutdown::NotifyProcessShutdown** para indicar ao subsistema de MAPI a intenção para serem desligados. O cliente chama o método **IMAPIClientShutdown::DoFastShutdown** para indicar que o processo de cliente está deixando imediatamente. 
+Para continuar com o desligamento rápido, o cliente chama o método **IMAPIClientShutdown:: NotifyProcessShutdown** para indicar ao subsistema MAPI a intenção de desligar. O cliente chama o método **IMAPIClientShutdown::D ofastshutdown** para indicar que o processo do cliente está saindo imediatamente. 
   
-Para obter mais informações sobre o desligamento rápido, consulte [Visão geral rápida de desligamento](fast-shutdown-overview.md). Para obter informações sobre como executar o desligamento rápido com êxito, consulte [Práticas recomendadas para desligamento rápido](best-practices-for-fast-shutdown.md).
+Para obter mais informações sobre o desligamento rápido, consulte [visão geral](fast-shutdown-overview.md)de desligamento rápido. Para obter informações sobre como executar o desligamento rápido com êxito, consulte [práticas recomendadas para](best-practices-for-fast-shutdown.md)o desligamento rápido.
   
 ## <a name="see-also"></a>Confira também
 

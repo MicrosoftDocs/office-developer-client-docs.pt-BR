@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: cb5cb5a0169e716f7fcc7f596660bc0222c51c84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e616a76d9665b602184e88566384506fcce5697
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342172"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572155"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um objeto de fábrica de classe do formulário.
+Retorna um objeto Factory de classe para o formulário.
   
 ```cpp
 HRESULT CreateClassFactory(
@@ -39,33 +39,33 @@ HRESULT CreateClassFactory(
 
  _clsidForm_
   
-> [in] Um identificador de classe do formulário a ser criado pela fábrica de classe.
+> no Um identificador de classe para o formulário a ser criado pela fábrica de classes.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lppClassFactory_
   
-> [out] Um ponteiro para o objeto de classe de fábrica.
+> bota Um ponteiro para o objeto Factory de classe.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O objeto de classe de fábrica foi retornado.
+> O objeto Factory de classe foi retornado.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IMAPIFormFactory::CreateClassFactory** para obter um alocador de classe de um formulário específico. O alocador de classe é usado para criar instâncias de um formulário que processa mensagens de uma classe específica e controlar o acesso a essas instâncias. 
+Os visualizadores de formulários chamam o método **IMAPIFormFactory:: CreateClassFactory** para obter um alocador de classe para um formulário específico. A fábrica de classes é usada para criar instâncias de um formulário que manipula mensagens de uma classe específica e para controlar o acesso a essas instâncias. 
   
-O método **CreateClassFactory** é chamado pelo visualizadores de formulário para obter um objeto de fábrica de classe para servidores de formulário que implementar várias classes de mensagem. Esse método recebe um identificador de classe (CLSID) como um parâmetro. Com base no parâmetro, esse método pode determinar o tipo específico de objeto de fábrica de classe para retornar. 
+O método **CreateClassFactory** é chamado por visualizadores de formulários para obter um objeto Factory de classe para servidores de formulário que implementam várias classes de mensagens. Este método recebe um identificador de classe (CLSID) como um parâmetro. Com base nesse parâmetro, este método pode determinar o tipo de objeto de fábrica de classe específico a ser retornado. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você pode retornar da sua implementação **CreateClassFactory** o mesmo objeto de fábrica de classe em várias chamadas para o mesmo identificador de classe. Criando uma nova instância de fábrica de classe não é necessária. 
+Você pode retornar da implementação do **CreateClassFactory** o mesmo objeto de fábrica de classe em várias chamadas para o mesmo identificador de classe. Não é necessário criar uma nova instância de fábrica de classes. 
   
-Você pode ter uma implementação de fábrica de classe única que cria instâncias de fábrica de classe apropriado sob demanda ou várias implementações de fábrica de classe, uma para cada classe de mensagem.
+Você pode ter uma implementação de fábrica de classe única que cria instâncias de fábrica de classe apropriadas sob demanda ou várias implementações de fábrica de classes, uma para cada classe de mensagem.
   
 ## <a name="see-also"></a>Confira também
 

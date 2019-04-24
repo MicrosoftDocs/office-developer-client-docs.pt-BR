@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
-description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 08 de novembro de 2011'
+ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344503"
 ---
 # <a name="sorting-and-categorization"></a>Classificação e categorização
 
@@ -21,15 +21,15 @@ ms.locfileid: "22581528"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Classificar uma tabela coloca as linhas em uma ordem que faz sentido para seu visualizador. Por exemplo, um visualizador pode preferir ver o índice de conteúdo de uma pasta classificada por assunto da mensagem, para que todos os threads de uma conversa sejam juntos enquanto outro visualizador pode querer as mensagens classificadas pelo nome do remetente. Uma tabela instâncias recém-criadas não é necessariamente classificada em alguma ordem específica. 
+A classificação de uma tabela coloca linhas em uma ordem que faz sentido para o seu visualizador. Por exemplo, um visualizador pode preferir ver a tabela de conteúdo de uma pasta classificada por assunto da mensagem para que todos os threads de uma conversa estejam juntos enquanto outro visualizador possa querer as mensagens classificadas pelo nome do remetente. Uma tabela instanciada recentemente não é necessariamente classificada em uma ordem específica. 
   
-Existem dois tipos de classificação:
+Há dois tipos de classificação:
   
 - Classificação padrão
     
-- Categorizados classificação 
+- Classificação categorizada 
     
-Com a classificação padrão, todas as linhas são exibidas em uma lista plana usando uma ou mais colunas como uma chave de classificação. Com a classificação categorizada, as linhas são exibidas hierarquicamente com uma ou mais colunas como a chave de classificação. Em cada categoria, há uma linha de título especial que contém as seguintes colunas.
+Com a classificação padrão, todas as linhas são exibidas em uma lista simples usando uma ou mais colunas como uma chave de classificação. Com a classificação categorizada, as linhas são exibidas hierarquicamente com uma ou mais colunas como a chave de classificação. Em cada categoria, há uma linha de título especial que contém as seguintes colunas.
   
 - A coluna ou colunas que compõem a chave de classificação
     
@@ -43,17 +43,17 @@ Com a classificação padrão, todas as linhas são exibidas em uma lista plana 
     
 - **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
-Recuados sob a linha do cabeçalho são todas as linhas da tabela que contêm colunas com valores que correspondem a chave de classificação. Essas linhas são chamadas as linhas da folha. Linhas de folha contêm todas as colunas na coluna definir menos as colunas de chave de classificação. 
+O recuo sob a linha de título são todas as linhas da tabela que contêm colunas com valores que correspondem à chave de classificação. Essas linhas são chamadas de linhas de folha. As linhas de folha contêm todas as colunas no conjunto de colunas menos as colunas da chave de classificação. 
   
-Geralmente, os índices de conteúdo de pastas suportam a classificação categorizada além de classificar standard. Normalmente, os índices de conteúdo de contêineres do catálogo de endereços suportam a classificação apenas standard. 
+As tabelas de conteúdo das pastas com frequência oferecem suporte à classificação categorizada além da classificação padrão. As tabelas de conteúdo dos contêineres do catálogo de endereços normalmente oferecem suporte somente à classificação padrão. 
   
-Uma categoria pode ter dois estados: expandida e recolhida. Quando uma categoria está no estado recolhido, somente a linha do cabeçalho é retornada da [IMAPITable:: QueryRows](imapitable-queryrows.md). Quando uma categoria está no estado expandido, todas as linhas relacionadas à categoria são retornadas. Isso inclui a linha do cabeçalho e as linhas da folha. 
+Uma categoria pode ter dois Estados: recolhidas e expandidas. Quando uma categoria está no estado recolhida, somente a linha de título é retornada de [IMAPITable:: QueryRows](imapitable-queryrows.md). Quando uma categoria está no estado expandido, todas as linhas relacionadas à categoria são retornadas. Isso inclui a linha de título e as linhas de folha. 
   
-Cada categoria em um modo de exibição de tabela pode ser expandida ou recolhida de forma independente. Ou seja, não todas as categorias devem estar no mesmo estado ao mesmo tempo; Algumas categorias podem ser recolhidas, enquanto outras são expandidas. 
+Cada categoria em um modo de exibição de tabela pode ser expandida ou recolhida de forma independente. Ou seja, nem todas as categorias devem estar no mesmo estado ao mesmo tempo; algumas categorias podem ser recolhidas enquanto outras são expandidas. 
   
-O usuário de uma tabela categorizado decidirá como ele é exibido. Uma opção comum é usar um controle fornecido no SDK do Windows chamado controle treeview. Controles TreeView são caixas de listagem informações de suporte em uma estrutura de árvore. Linhas de título para categorias no estado expandido estão marcadas com um sinal de menos enquanto linhas do título para categorias no estado recolhido são marcadas com um sinal de adição. Expandida categorias são exibidas com as linhas da folha recuadas sob as linhas de título. 
+O usuário de uma tabela categorizada decide como ela é exibida. Uma opção comum é usar um controle fornecido no Windows SDK chamado de controle TreeView. Os controles TreeView são caixas de listagem que dão suporte a informações em uma estrutura do tipo árvore. As linhas de título para categorias no estado expandido são marcadas com um sinal de menos enquanto as linhas de título para categorias no estado recolhido são marcadas com um sinal de adição. As categorias expandidas são exibidas com as linhas de folha recuadas sob as linhas de título. 
   
-Para recolher e expandir uma categoria, um provedor de serviço ou um aplicativo cliente usa os seguintes [IMAPITable: IUnknown](imapitableiunknown.md) métodos: 
+Para recolher e expandir uma categoria, um aplicativo cliente ou provedor de serviços usa os seguintes métodos imApitable [: IUnknown](imapitableiunknown.md) : 
   
 - [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)
     
@@ -63,7 +63,7 @@ Para recolher e expandir uma categoria, um provedor de serviço ou um aplicativo
     
 - [IMAPITable::CollapseRow](imapitable-collapserow.md)
     
-Para obter mais informações sobre como classificar os threads de uma conversa consulte os seguintes tópicos:
+Para obter mais informações sobre como classificar os threads de uma conversa, consulte os seguintes tópicos:
   
 - [SSortOrder](ssortorder.md)
     
@@ -79,7 +79,7 @@ Para obter mais informações sobre como classificar os threads de uma conversa 
     
 - [ScCreateConversationIndex](sccreateconversationindex.md)
     
-- [Classificar tabelas depois de configurar colunas e restrições](sorting-tables-after-setting-columns-and-restrictions.md)
+- [Classificar tabelas após a definição de colunas e restrições](sorting-tables-after-setting-columns-and-restrictions.md)
     
 ## <a name="see-also"></a>Confira também
 

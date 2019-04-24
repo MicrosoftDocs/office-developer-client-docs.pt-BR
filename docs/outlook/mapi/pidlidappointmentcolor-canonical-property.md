@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1ea0830a06f303da8243f927e4a07cc744951ca9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345434"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Propriedade canônica PidLidAppointmentColor
 
@@ -30,14 +30,14 @@ Especifica a cor a ser usada ao exibir o calendário.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidApptColor  <br/> |
-|Propriedade definida:  <br/> |PSETID_Appointment  <br/> |
-|ID de longo (LID):  <br/> |0x00008214  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
+|Long ID (LID):  <br/> |0x00008214  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica a cor a ser usada ao exibir o calendário. Um cliente ou servidor deve definir esse valor para manter a compatibilidade com clientes mais antigos. Em vez disso, ele pode exibir o calendário baseado no valor da propriedade de **palavras-chave** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) como especificado em [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Quando definido, o valor deve ser um destes procedimentos.
+Esta propriedade especifica a cor a ser usada ao exibir o calendário. Um cliente ou servidor deve definir esse valor para compatibilidade com versões anteriores de clientes mais antigos. Em vez disso, ele pode exibir o calendário com base no **** valor da Propriedade Keywords ([PidNameKeywords](pidnamekeywords-canonical-property.md)) conforme especificado em [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Quando definido, o valor deve ser um dos seguintes.
   
 |**Valor**|**Color**|
 |:-----|:-----|
@@ -51,23 +51,23 @@ Esta propriedade especifica a cor a ser usada ao exibir o calendário. Um client
 |0x00000007  <br/> |Verde-oliva  <br/> |
 |0x00000008  <br/> |Roxo  <br/> |
 |0x00000009  <br/> |Azul-petróleo  <br/> |
-|0x0000000A  <br/> |Amarelo  <br/> |
+|Interrupção  <br/> |Amarelo  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -77,7 +77,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: Especifica uma localidade no documento de destino à qual vincular.
 ms.openlocfilehash: 092a53bd7c9d5adb77ed35f3e2ef53888bd6ebea
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349319"
 ---
 # <a name="subaddress-cell-hyperlinks-section"></a>Célula SubAddress (Seção Hyperlinks)
 
@@ -22,7 +22,7 @@ Especifica uma localidade no documento de destino à qual vincular.
   
 ## <a name="remarks"></a>Comentários
 
-Por exemplo, se a célula Address for "Drawing1.vsdx", a célula SubAddress pode especificar um nome de página como "Página-3". Se a célula Address for o arquivo do Microsoft Excel "Samples.xlsx", o valor dessa célula pode ser uma planilha ou um intervalo em uma planilha, como "Funções de planilha" ou "Sheet1! A1: D10 ". Se a célula Address for "https://www.microsoft.com/office/", o valor dessa célula pode ser uma âncora nomeada dentro do documento, como "soluções".
+Por exemplo, se a célula address for "Drawing1. vsdx", a célula subAddress poderá especificar um nome de página, como "página-3". Se a célula address for o arquivo do Microsoft Excel "Samples. xlsx", o valor dessa célula poderá ser uma planilha ou um intervalo em uma planilha, como "funções de planilha" ou "Planilha1! A1: D10 ". Se a célula address for "https://www.microsoft.com/office/", o valor dessa célula poderá ser uma âncora nomeada dentro do documento, como "soluções".
   
 Você pode também definir o valor da célula utilizando a caixa de diálogo **Hiperlinks** (no grupo **Links** da guia **Inserir**, clique em **Hyperlink**).
   
@@ -30,14 +30,14 @@ Para obter uma referência para a célula SubAddress pelo nome a partir de outra
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *nome* . Subendereço onde Hyperlink *. nome* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *nome* . SubEndereço onde Hyperlink *. Name* é o nome da linha  <br/> |
    
-Para obter uma referência para a célula **SubAddress** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a **** célula SubAddress pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionHyperlink** <br/> |
-| Índice da linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visHLinkSubAddress** <br/> |
    
 

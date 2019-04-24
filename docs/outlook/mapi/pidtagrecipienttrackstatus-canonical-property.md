@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 074bcf7c051b78bc32caf66502747e7fb1ab6b79
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355283"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriedade canônica PidTagRecipientTrackStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "25389887"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o status de resposta retornado pelo participante.
+Indica o status da resposta retornado pelo participante.
   
 |||
 |:-----|:-----|
@@ -36,40 +36,40 @@ Indica o status de resposta retornado pelo participante.
    
 ## <a name="remarks"></a>Comentários
 
-Se este valor não estiver definido, ele deve ser considerado respNone. Caso contrário, ele deverá ser um destes procedimentos:
+Se esse valor não for definido, deverá ser considerado respNone. Caso contrário, ele deve ser um dos seguintes:
   
-|**Status de resposta**|**Valor**|**Descrição**|
+|**Status da resposta**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |Nenhuma resposta é necessária para este objeto. Esse é o caso de objetos de compromisso e objetos de resposta de reunião.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |Esse valor em objeto de reunião do participante indica que o participante aceitou a reunião provisoriamente objeto request.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |Esse valor em objeto de reunião do participante indica que o participante aceitou a reunião objeto request.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |Esse valor em objeto de reunião do participante indica que o participante recusou a reunião objeto request.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |Nenhuma resposta é necessária para este objeto. Este é o caso de objetos de compromisso e objetos de resposta de reunião.  <br/> |
+|respTentative  <br/> |0x00000002  <br/> |Esse valor no objeto de reunião do participante indica que o participante aceitou provisoriamente o objeto de solicitação de reunião.  <br/> |
+|respAccepted  <br/> |0x00000003  <br/> |Esse valor no objeto de reunião do participante indica que o participante aceitou o objeto de solicitação de reunião.  <br/> |
+|respDeclined  <br/> |0x00000004  <br/> |Esse valor no objeto de reunião do participante indica que o participante recusou o objeto de solicitação de reunião.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dcbf8a323f5178a5a2e39d0963dd19415ab835bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342691"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>Propriedade canônica PidTagMemberRights
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397335"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um conjunto de bits que indicado os direitos deste membro em uma pasta ou caixa de correio.
+Contém um conjunto de bits que indicava os direitos desse membro em uma pasta ou caixa de correio.
   
 |||
 |:-----|:-----|
@@ -36,93 +36,93 @@ Contém um conjunto de bits que indicado os direitos deste membro em uma pasta o
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir os direitos de um membro em uma pasta. Esses direitos podem ser exibidos e modificados. Os seguintes valores são definidos para esta propriedade de direitos. 
+Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir os direitos de um membro em uma pasta. Esses direitos podem ser exibidos e modificados. Os seguintes valores são direitos definidos para esta propriedade. 
   
 frightsReadAny
   
-> Membro pode ler todas as mensagens.
+> O membro pode ler qualquer mensagem.
     
 frightsCreate
   
-> Membro pode criar mensagens.
+> O membro pode criar mensagens.
     
 frightsEditOwned
   
-> Membro pode editar a todas as mensagens pertencentes ao usuário.
+> O membro pode editar qualquer mensagem de Propriedade do usuário.
     
 frightsDeleteOwned
   
-> Membro pode excluir todas as mensagens pertencentes ao usuário.
+> O membro pode excluir qualquer mensagem de Propriedade do usuário.
     
 frightsEditAny
   
-> Membro pode editar qualquer mensagem.
+> O membro pode editar qualquer mensagem.
     
 frightsDeleteAny
   
-> Membro pode excluir qualquer mensagem.
+> O membro pode excluir qualquer mensagem.
     
 frightsCreateSubfolder
   
-> Membro pode criar subpastas da pasta.
+> O membro pode criar subpastas para a pasta.
     
 frightsOwner
   
-> Membro tem todos os direitos anteriores na pasta.
+> O membro tem todos os direitos anteriores na pasta.
     
 frightsContact
   
-> Membro pode ter seu nome aparecem como o contato na pasta.
+> O membro pode fazer com que seu nome apareça como o contato na pasta.
     
 frightsVisible
   
-> Membro consegue ver a pasta existe.
+> O membro pode ver se a pasta existe.
     
 rightsNone
   
-> Membro não tem direitos na pasta.
+> O membro não tem direitos na pasta.
     
 rightsReadOnly
   
-> Membro pode ler qualquer mensagem na pasta.
+> O membro pode ler qualquer mensagem na pasta.
     
 rightsReadWrite
   
-> Membro pode ler e gravar a qualquer mensagem na pasta.
+> O membro pode ler e gravar em qualquer mensagem na pasta.
     
 rightsAll
   
-> Membro tem todos os direitos anteriores na pasta.
+> O membro tem todos os direitos anteriores na pasta.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Trata as operações de pasta.
+> Controla as operações da pasta.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Trata a recuperação de listas de permissão de pastas que são armazenados no servidor.
+> Lida com a recuperação de listas de permissões de pastas armazenadas no servidor.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica os métodos para conexão e configuração de caixas de correio conforme representantes e interações com itens de mensagem e o calendário quando eles ajam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com itens de mensagens e calendários quando eles atuam em nome de outro usuário.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -133,7 +133,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

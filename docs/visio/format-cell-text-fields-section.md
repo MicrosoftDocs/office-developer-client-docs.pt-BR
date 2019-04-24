@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.
-ms.openlocfilehash: 767b658a9431dfab23d2df9bcfa6c83b52f48d75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346015"
 ---
 # <a name="format-cell-text-fields-section"></a>Célula Format (Seção Text Fields)
 
@@ -30,9 +30,9 @@ Para fazer referência à célula Format pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Fields.Format [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Fields. Format [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
-Para fazer referência à célula Format pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Format pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356690"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propriedade canônica PidTagRecipientNumberForAdvice
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595143"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa propriedade contém o número de telefone de um destinatário de mensagem a chamada para a execução física de uma mensagem de aviso.
+Esta propriedade contém o número de telefone do destinatário da mensagem para chamar o aviso da entrega física de uma mensagem.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Essa propriedade contém o número de telefone de um destinatário de mensagem a
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser usados em conjunto com a entrega um destino físico, ao invés de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega. Um exemplo é o número de telefone em uma folha de rosto de fax.
+Essas propriedades devem ser usadas em conjunto com a entrega para um destino físico, em vez de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega. Um exemplo é o número de telefone em uma folha de rosto de fax.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

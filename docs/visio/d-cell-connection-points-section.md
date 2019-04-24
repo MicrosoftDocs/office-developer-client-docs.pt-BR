@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.
-ms.openlocfilehash: 21c81c7a0a64c3016d8cff3b33d83ce785dc24eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7bd61b8bc7a1a3b765af738681d958e2c83ba05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345084"
 ---
 # <a name="d-cell-connection-points-section"></a>Célula D (Seção Connection Points)
 
@@ -24,13 +24,13 @@ Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.
 
 Para acessar a célula D, clique com o botão direito do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho. 
   
-Para fazer referência à célula D pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
+Para fazer referência à célula D pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Connections.D [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Connections. D [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
-Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

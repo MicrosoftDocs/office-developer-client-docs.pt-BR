@@ -1,5 +1,5 @@
 ---
-title: Eventos de notificação de MAPI
+title: Eventos de notificação MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8acf197f305373c082ef411732d631535201d488
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0d05672a0b136520216357cc85a6b7a125415759
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345847"
 ---
-# <a name="mapi-notification-events"></a>Eventos de notificação de MAPI
+# <a name="mapi-notification-events"></a>Eventos de notificação MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando os aplicativos cliente se registrar para fins de notificação de evento, eles devem especificar um ou mais eventos. Os eventos que eles podem especificar dependem do conjunto de eventos que suporta a fonte advise pretendido. Existem dez tipos de notificações de provedores de serviços e os clientes podem se inscrever para cada um representado por uma constante. Notificação de status de objeto é uma exceção. Notificação de status de objeto é uma notificação de MAPI interna; clientes não podem registrar para ele e provedores de serviços não é possível gerar a ele. A tabela a seguir descreve os tipos de eventos e os objetos de fonte de advise que ofereça suporte a eles. A constante de evento é incluída com o tipo de evento.
+Quando os aplicativos cliente se registram para notificação de eventos, eles devem especificar um ou mais eventos. Os eventos que eles podem especificar dependem do conjunto de eventos que a fonte de aviso pretendida oferece suporte. Há dez tipos de notificações que os clientes e provedores de serviço podem registrar, cada um representado por uma constante. Status o objeto Notification é uma exceção. Status o objeto Notification é uma notificação de MAPI interno; Os clientes não podem se registrar para os provedores de serviços e de ti não podem gerá-lo. A tabela a seguir descreve os tipos de eventos e os objetos de origem de aviso que podem oferecer suporte a eles. A constante do evento é incluída com o tipo de evento.
   
-|**Tipo de evento**|**Descrição**|**Aviso de objetos source**|
+|**Tipo de evento**|**Descrição**|**Informar objetos de origem**|
 |:-----|:-----|:-----|
-|Erro crítico ( _fnevCriticalError_)  <br/> |Um erro global ou evento ocorreu, como um desligamento de sessão em andamento.  <br/> |Sessão, todos os tipos de armazenamento de mensagens e objetos de catálogo de endereços, tabela, status  <br/> |
+|Erro crítico ( _fnevCriticalError_)  <br/> |Ocorreu um erro ou evento global, como um desligamento de sessão em andamento.  <br/> |Sessão, todos os tipos de repositório de mensagens e objetos do catálogo de endereços, tabela, status  <br/> |
 |Objeto modificado ( _fnevObjectModified_)  <br/> |Um objeto MAPI foi alterado.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Objeto criado ( _fnevObjectCreated_)  <br/> |Um objeto MAPI foi criado.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Objeto movido ( _fnevObjectMoved_)  <br/> |Um objeto MAPI foi movido.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Objeto excluído ( _fnevObjectDeleted_)  <br/> |Um objeto MAPI foi excluído.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Objeto copiado ( _fnevObjectCopied_)  <br/> |Um objeto MAPI foi copiado.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
-|Evento estendido ( _fnevExtended_)  <br/> |Ocorreu um evento interno definido por um provedor de serviço específico.  <br/> |Qualquer objeto de origem advise  <br/> |
-|Pesquisa concluída ( _fnevSearchComplete_)  <br/> |Uma operação de pesquisa foi concluída e os resultados da pesquisa estão disponíveis.  <br/> |Folders  <br/> |
-|Tabela modificada ( _fnevTableModified_)  <br/> |Informações em um objeto table MAPI foi alterada.  <br/> |Tabelas  <br/> |
-|Novo email ( _fnevNewMail_)  <br/> |Uma mensagem foi entregue e está aguardando para serem processados.  <br/> |Armazenamento de mensagens, pastas  <br/> |
+|Evento estendido ( _fnevExtended_)  <br/> |Um evento interno definido por um determinado provedor de serviços ocorreu.  <br/> |Qualquer objeto de origem de aviso  <br/> |
+|Pesquisa concluída ( _fnevSearchComplete_)  <br/> |Uma operação de pesquisa foi concluída e os resultados da pesquisa estão disponíveis.  <br/> |Pastas  <br/> |
+|Tabela modificada ( _fnevTableModified_)  <br/> |As informações em um objeto de tabela MAPI foram alteradas.  <br/> |Tabelas  <br/> |
+|Nova mensagem de email ( _fnevNewMail_)  <br/> |Uma mensagem foi entregue e está aguardando para ser processada.  <br/> |Repositório de mensagens, pastas  <br/> |
    
-O evento estendido é definido por um provedor de serviços para representar um evento que não pode ser coberto por qualquer um dos outros eventos predefinidos. Somente os clientes que saber antes de se registram que um provedor de serviços oferece suporte a um evento estendido podem se inscrever para o evento. Não é possível para os clientes determinar sem o conhecimento avançado, se um evento estendido oferece suporte a um provedor de serviços e, em caso afirmativo, como lidar com esse evento quando ele for recebido.
+O evento estendido é definido por um provedor de serviços para representar um evento que não pode ser coberto por nenhum dos outros eventos predefinidos. Somente os clientes que conhecem antes eles se registram que um provedor de serviços suporta um evento estendido pode se registrar para esse evento. Não é possível que os clientes determinem sem conhecimento avançado se um provedor de serviços oferecer suporte a um evento estendido e, em caso afirmativo, como lidar com esse evento quando ele for recebido.
   
 

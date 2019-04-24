@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: Alterna entre exibir ou não as alças de seleção da forma selecionada.
-ms.openlocfilehash: 8f812c2087870529cb65aa2e7d705171a5d4ca32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357236"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>Célula NoObjHandles (Seção Miscellaneous)
 
@@ -22,8 +22,8 @@ Alterna entre exibir ou não as alças de seleção da forma selecionada.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | As alças de seleção não são exibidas ao selecionar uma forma.  <br/> |
-| FALSO  <br/> | As alças de seleção são exibidas ao selecionar uma forma.  <br/> |
+| TRUE  <br/> | As alças de seleção não são exibidas ao selecionar uma forma.  <br/> |
+| FALSE  <br/> | As alças de seleção são exibidas ao selecionar uma forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

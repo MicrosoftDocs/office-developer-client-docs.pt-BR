@@ -1,22 +1,22 @@
 ---
-title: Elementos ('XML do Visio')
+title: Elementos (' Visio XML ')
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
-description: Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 2013.
-ms.openlocfilehash: 1bddf5191a726217db58dd2e064739e885b71232
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico lista os elementos no esquema XML do formato de arquivo do Visio 2013.
+ms.openlocfilehash: 19dc710c9a76938f7ed02dec9b2e8e3a7c48f5b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345637"
 ---
-# <a name="elements-visio-xml"></a>Elementos ('XML do Visio')
+# <a name="elements-visio-xml"></a>Elementos (' Visio XML ')
 
-Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 2013.
+Este tópico lista os elementos no esquema XML do formato de arquivo do Visio 2013.
   
 - [Elemento AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md)
     
@@ -28,13 +28,13 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Cell](cell-elementvisio-xml.md)
     
-- [Elemento Cell (Seção Action Tag)](cell-element-action-tag-sectionvisio-xml.md)
+- [Elemento Cell (seção Action tag)](cell-element-action-tag-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha Actions)](cell-element-actions-rowvisio-xml.md)
     
 - [Elemento Cell (Linha ArcTo)](cell-element-arcto-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Character)](cell-element-character-sectionvisio-xml.md)
+- [Elemento Cell (seção Character)](cell-element-character-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha Connection)](cell-element-connection-rowvisio-xml.md)
     
@@ -44,19 +44,19 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Cell (Linha EllipticalArcTo)](cell-element-ellipticalarcto-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Field)](cell-element-field-sectionvisio-xml.md)
+- [Elemento Cell (seção Field)](cell-element-field-sectionvisio-xml.md)
     
-- [Elemento Cell (Seção Fill Gradient)](cell-element-fill-gradient-sectionvisio-xml.md)
+- [Elemento Cell (seção Fill Gradient)](cell-element-fill-gradient-sectionvisio-xml.md)
     
-- [Elemento Cell (Seção Geometry)](cell-element-geometry-sectionvisio-xml.md)
+- [Elemento Cell (seção geometry)](cell-element-geometry-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha Hyperlink)](cell-element-hyperlink-rowvisio-xml.md)
     
 - [Elemento Cell (Linha InfiniteLine)](cell-element-infiniteline-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Layer)](cell-element-layer-sectionvisio-xml.md)
+- [Elemento Cell (seção Layer)](cell-element-layer-sectionvisio-xml.md)
     
-- [Elemento Cell (Seção Line Gradient)](cell-element-line-gradient-sectionvisio-xml.md)
+- [Elemento Cell (seção line Gradient)](cell-element-line-gradient-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha LineTo)](cell-element-lineto-rowvisio-xml.md)
     
@@ -64,7 +64,7 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Cell (Linha NURBSTo)](cell-element-nurbsto-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Paragraph)](cell-element-paragraph-sectionvisio-xml.md)
+- [Elemento Cell (seção Paragraph)](cell-element-paragraph-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha PolyLineTo)](cell-element-polylineto-rowvisio-xml.md)
     
@@ -78,17 +78,17 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Cell (Linha RelQuadBezTo)](cell-element-relquadbezto-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Scratch)](cell-element-scratch-sectionvisio-xml.md)
+- [Elemento Cell (seção Scratch)](cell-element-scratch-sectionvisio-xml.md)
     
-- [Elemento Cell (Seção Shape Data)](cell-element-shape-data-sectionvisio-xml.md)
+- [Elemento Cell (seção Shape Data)](cell-element-shape-data-sectionvisio-xml.md)
     
 - [Elemento Cell (Linha SplineKnot)](cell-element-splineknot-rowvisio-xml.md)
     
 - [Elemento Cell (Linha SplineStart)](cell-element-splinestart-rowvisio-xml.md)
     
-- [Elemento Cell (Seção Tabs)](cell-element-tabs-sectionvisio-xml.md)
+- [Elemento Cell (seção tabs)](cell-element-tabs-sectionvisio-xml.md)
     
-- [Elemento Cell (Seção User-defined Cells)](cell-element-user-defined-cells-sectionvisio-xml.md)
+- [Elemento Cell (seção User-defined Cells)](cell-element-user-defined-cells-sectionvisio-xml.md)
     
 - [Elemento ColorEntry](colorentry-element-colors_type-complextypevisio-xml.md)
     
@@ -236,7 +236,7 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Row (Seção Actions)](row-element-actions-sectionvisio-xml.md)
     
-- [Elemento Row (Seção Action Tag)](row-element-action-tag-sectionvisio-xml.md)
+- [Elemento Row (seção marca de ação)](row-element-action-tag-sectionvisio-xml.md)
     
 - [Elemento Row (Seção Character)](row-element-character-sectionvisio-xml.md)
     
@@ -246,9 +246,9 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Row (Seção Field)](row-element-field-sectionvisio-xml.md)
     
-- [Elemento Row (Seção Fill Gradient)](row-element-fill-gradient-sectionvisio-xml.md)
+- [Elemento Row (seção Fill Gradient)](row-element-fill-gradient-sectionvisio-xml.md)
     
-- [Elemento Row (Seção Geometry)](row-element-geometry-sectionvisio-xml.md)
+- [Elemento Row (seção geometry)](row-element-geometry-sectionvisio-xml.md)
     
 - [Elemento Row (Seção Hyperlink)](row-element-hyperlink-sectionvisio-xml.md)
     
@@ -260,7 +260,7 @@ Este tópico lista os elementos do esquema XML de formato de arquivo de Visio 20
     
 - [Elemento Row (Seção Scratch)](row-element-scratch-sectionvisio-xml.md)
     
-- [Elemento Row (Seção Shape Data)](row-element-shape-data-sectionvisio-xml.md)
+- [Elemento Row (Seção Dados da Forma)](row-element-shape-data-sectionvisio-xml.md)
     
 - [Elemento Row (Seção Tabs)](row-element-tabs-sectionvisio-xml.md)
     

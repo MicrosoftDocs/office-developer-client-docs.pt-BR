@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Representa o nome de um quadro a ser direcionado quando o aplicativo estiver aberto como um documento ativo em um aplicativo contêiner. O padrão é uma cadeia de caracteres vazia.
-ms.openlocfilehash: b94e5efd4a3fdf53e01f7518252852214a72c766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344846"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Célula Frame (Seção Hyperlinks)
 
@@ -26,14 +26,14 @@ Para fazer referência à célula Frame pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *nome* . Enquadrar onde Hyperlink.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *nome* . Quadro onde hiperlink.  *Name* é o nome da linha  <br/> |
    
 Para fazer referência à célula Frame pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionHyperlink** <br/> |
-| Índice da linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visHLinkFrame** <br/> |
    
 

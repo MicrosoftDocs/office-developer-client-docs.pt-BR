@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 815e0df8-5ebf-ef1b-d620-bce8abb69f1a
 description: Indica o idioma no qual as fórmulas das células foram criadas.
-ms.openlocfilehash: 669bde032daeda90b22cdab5d1758c6cbd4109d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1e5b92f01e97bc63003a4b195c159a50f61e77b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346498"
 ---
 # <a name="langid-cell-miscellaneous-section"></a>Célula LangID (Seção Miscellaneous)
 

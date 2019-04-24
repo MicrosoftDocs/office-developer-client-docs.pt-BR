@@ -1,5 +1,5 @@
 ---
-title: Hierarquia de contenção de objetos MAPI
+title: Hierarquia de confinamento de objeto MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 6350202eb22edc478f7738bebf6d7f0bc4684ee0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5faf3a3d4971b01509d0ff0cfa59451015ba205
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345813"
 ---
-# <a name="mapi-object-containment-hierarchy"></a>Hierarquia de contenção de objetos MAPI
+# <a name="mapi-object-containment-hierarchy"></a>Hierarquia de confinamento de objeto MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O relacionamento entre objetos Especifica as dependências de alguns objetos em outros objetos do access. Para um aplicativo cliente, acesso aos objetos determinados habilita o acesso a outras pessoas. Em alguns casos, o relacionamento entre objetos implementada por um provedor de serviços segue uma hierarquia lógica. Em outros casos, é arbitrário. 
+A relação de confinamento entre objetos especifica as dependências que alguns objetos têm em outros objetos para o Access. Para um aplicativo cliente, o acesso a determinados objetos permite o acesso a outras pessoas. Em alguns casos, a relação de confinamento entre objetos implementados por um provedor de serviços segue uma hierarquia lógica. Em outros casos, é arbitrária. 
   
-Um cliente deve obter acesso a um objeto de sessão MAPI para que ele possa usar muitos outros objetos (por exemplo, provedores de serviços e o catálogo de endereços MAPI).
+Um cliente deve obter acesso a um objeto de sessão MAPI antes de poder usar muitos outros objetos (por exemplo, provedores de serviço e o catálogo de endereços MAPI).
   
-Contenção de repositório de mensagem se baseia na relação hierárquica entre objetos no repositório de mensagem: o armazenamento de mensagens do objeto propriamente dito, pastas, mensagens e anexos. Logicamente, anexos estão contidos em mensagens, mensagens em pastas e pastas no repositório de mensagem. O relacionamento de contenção corresponde a essa hierarquia lógica. Para obter acesso a uma mensagem, por exemplo, um cliente deve primeiro acessar a pasta em que a mensagem está contida. Perfis e objetos de status são exemplos de uma relação de contenção mais arbitrário. Ambos desses objetos estão disponíveis através da sessão. 
+O contêiner de armazenamento de mensagens baseia-se na relação hierárquica entre os objetos no repositório de mensagens: o próprio objeto de repositório de mensagens, pastas, mensagens e anexos. Logicamente, os anexos estão contidos em mensagens, mensagens em pastas e pastas no repositório de mensagens. O relacionamento de confinamento corresponde a essa hierarquia lógica. Para obter acesso a uma mensagem, por exemplo, um cliente deve primeiro acessar a pasta na qual a mensagem está contida. Perfis e objetos de status são exemplos de uma relação de confinamento mais arbitrária. Esses dois objetos estão disponíveis através da sessão. 
   
-Com alguns objetos, contêineres fornecem o acesso único. Destinatários e anexos são exemplos de objetos que são totalmente dependentes de seus contêineres. O único acesso a um anexo ou um destinatário é por meio da mensagem à qual ele pertence. Outros objetos têm caminhos de acesso alternativo. Esses objetos são atribuídos identificadores binários, conhecidos como identificadores de entrada, pelos provedores de serviço que criá-los. Identificadores de entrada podem ser usados para acessar seus objetos diretamente, permitindo que os clientes ignorar a árvore de contenção. 
+Com alguns objetos, os contêineres fornecem o único acesso. Anexos e destinatários são exemplos de objetos totalmente dependentes de seus contêineres. O único acesso a um anexo ou destinatário é através da mensagem à qual ele pertence. Outros objetos têm caminhos de acesso alternativos. Esses objetos são atribuídos a identificadores binários, conhecidos como identificadores de entrada, pelos provedores de serviços que os criam. Os identificadores de entrada podem ser usados para acessar seus objetos diretamente, permitindo que os clientes ignorem a árvore de confinamento. 
   
-A ilustração a seguir mostra a hierarquia de contenção de MAPI. A sessão está na parte superior da árvore porque ele é através da sessão que um cliente obtiver acesso a todos os outros objetos. O próximo nível inclui a tabela de repositório de mensagens, um objeto table que lista as propriedades de todos os provedores de repositório de mensagem na sessão atual e o catálogo de endereços para fornecer acesso a todos os provedores de catálogo de endereços. O catálogo de tabela e endereço de repositório de mensagem são usadas para acessar os objetos implementados por provedores de serviço específico, mostrados a seguir, na ordem de contenção.
+A ilustração a seguir mostra a hierarquia de confinamento MAPI. A sessão está na parte superior da árvore porque é por meio da sessão que um cliente obtém acesso a todos os outros objetos. O próximo nível inclui a tabela de repositório de mensagens, um objeto Table que lista as propriedades de todos os provedores de repositórios de mensagens na sessão atual e o catálogo de endereços para fornecer acesso a todos os provedores de catálogo de endereços. A tabela de repositório de mensagens e o catálogo de endereços são usados para acessar os objetos implementados por provedores de serviços específicos, mostrados a seguir, em ordem de confinamento.
   
 **MAPI containment hierarchy**
   
-![Hierarquia de contenção de MAPI] (media/amapi_41.gif "Hierarquia de contenção de MAPI")
+![Hierarquia] de conFinamento MAPI (media/amapi_41.gif "Hierarquia") de conFinamento MAPI
   
 ## <a name="see-also"></a>Confira também
 
-- [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
+- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
 

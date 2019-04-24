@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: Contém um número que especifica o ângulo de direção oblíqua na aplicação do tipo de sombra padrão da página.
-ms.openlocfilehash: 4549ce7b5202b4649a925b04ea54c0d5df569599
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2eca29bbc735c7101ca82a2f26db30b2e344b8e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349060"
 ---
 # <a name="shdwobliqueangle-cell-page-properties-section"></a>Célula ShdwObliqueAngle (Seção Page Properties)
 
@@ -22,9 +22,9 @@ Contém um número que especifica o ângulo de direção oblíqua na aplicação
   
 ## <a name="remarks"></a>Comentários
 
-Um valor zero (0) nesta célula indica que a direção do ângulo é reta, para cima, e é medido no sentido horário.
+Um valor zero (0) nesta célula indica que a direção do ângulo é reta, para cima, e ele é medido no sentido horário.
   
- O ângulo descrito nesta célula é utilizado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma na página) é definida como padrão da página (**visFSTPageDefault** ), e o tipo de sombra é oblíquo. O tipo de sombra de página padrão é definido na célula ShdwType. 
+ O ângulo descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma na página) é definida como padrão da página (**visFSTPageDefault** ), e o tipo de sombra é oblíquo. O tipo de sombra padrão da página é definido na célula ShdwType. 
   
 Para configurar este comportamento para uma forma individual, use a célula ShapeShdwObliqueAngle na seção Fill Format.
   

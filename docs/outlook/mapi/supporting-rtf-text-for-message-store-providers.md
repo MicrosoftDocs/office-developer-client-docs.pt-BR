@@ -1,5 +1,5 @@
 ---
-title: Suporte a texto RTF para provedores do repositório de mensagens
+title: Suporte a texto RTF para provedores de repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3e65ebd3ea485ca54978d622e8aaf093dc5eff74
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dc1d8a5e237b7b34f3a57e9789e03e2f16237764
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349613"
 ---
-# <a name="supporting-rtf-text-for-message-store-providers"></a>Suporte a texto RTF para provedores do repositório de mensagens
+# <a name="supporting-rtf-text-for-message-store-providers"></a>Suporte a texto RTF para provedores de repositório de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Alguns aplicativos de cliente permitem que os usuários utilizem o formato Rich Text (RTF) texto em suas mensagens. Se sua mensagem armazenar as necessidades do provedor para dar suporte ao texto RTF em mensagens, ele precisa lidar com a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), além da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Basicamente, isso significa armazenar ambas as propriedades e certificando-se de que **PR_BODY** contém uma versão de texto sem formatação do texto em **PR_RTF_COMPRESSED**. A função [RTFSync](rtfsync.md) é útil para essa finalidade. 
+Alguns aplicativos cliente permitem que os usuários usem texto em formato Rich Text (RTF) em suas mensagens. Se o seu provedor de repositório de mensagens precisa suportar texto RTF em mensagens, ele precisa manipular a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), além da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Basicamente, isso significa armazenar as duas propriedades e certificar-se de que **PR_BODY** contém uma versão de texto sem formatação do texto no **PR_RTF_COMPRESSED**. A função [RTFSync](rtfsync.md) é útil para essa finalidade. 
   
-Há dois sinalizadores que podem ser definidos na propriedade de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do objeto repositório de mensagens que informam os clientes que eles podem esperar do provedor de repositório de mensagem com relação a **PR_BODY** e **PR_ RTF_COMPRESSED** propriedades em mensagens no repositório de mensagem. O sinalizador STORE_RTF_OK indica que o repositório pode gerar o valor da propriedade **PR_BODY** da propriedade **PR_RTF_COMPRESSED** dinamicamente, que libera os clientes da carga de sincronizá-los explicitamente. O sinalizador STORE_UNCOMPRESSED_RTF indica que o provedor de armazenamento de mensagens pode oferecer suporte a dados descompactados em **PR_RTF_COMPRESSED**.
+Há dois sinalizadores que podem ser definidos na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do objeto Message Store que informa aos clientes o que eles podem esperar do provedor de armazenamento de mensagens em relação ao **PR_BODY** e ao **PR_ RTF_COMPRESSED** Propriedades em mensagens no repositório de mensagens. O sinalizador STORE_RTF_OK indica que o repositório pode gerar o valor da propriedade **PR_BODY** da propriedade **PR_RTF_COMPRESSED** dinamicamente, o que alivia os clientes do ônus de sincronizá-los explicitamente. O sinalizador STORE_UNCOMPRESSED_RTF indica que o provedor de repositório de mensagens pode dar suporte a dados não compactados no **PR_RTF_COMPRESSED**.
   
-Provedores de armazenamento de mensagem que não têm suporte para texto RTF necessário excluir a propriedade **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) quando a propriedade **PR_BODY** é alterada para adequadamente interoperar com os aplicativos cliente que têm suporte para texto RTF . 
+Provedores de repositório de mensagens que não dão suporte a texto RTF precisam excluir a propriedade **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) quando a propriedade **PR_BODY** é alterada para interoperar corretamente com aplicativos clientes que oferecem suporte a texto RTF . 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

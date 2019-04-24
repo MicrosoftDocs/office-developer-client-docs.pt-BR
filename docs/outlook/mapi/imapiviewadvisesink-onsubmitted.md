@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351167"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579442"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulário que a mensagem atual tiver sido enviada para o spooler MAPI.
+Notifica o Visualizador de formulários que a mensagem atual foi enviada ao spooler MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -33,7 +33,7 @@ HRESULT OnSubmitted( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhuma
   
 ## <a name="return-value"></a>Valor de retorno
 
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Um objeto form chama o método **IMAPIViewAdviseSink::OnSubmitted** após uma chamada para [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) ter retornado com êxito. 
+Um objeto Form chama o método **IMAPIViewAdviseSink:: onenviar** após uma chamada para [IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md) foi retornada com êxito. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Após a chamada **OnSubmitted** , você pode continuar na pressuposição de que a mensagem foi atualizada. Atualize suas janelas para refletir quaisquer alterações que tenham ocorrido. 
+Após o cancelamento de **envio** ser chamado, você pode continuar supondo que a mensagem tenha sido atualizada. Atualize o Windows para refletir as alterações que ocorreram. 
   
-Para obter mais informações sobre as notificações do formulário, consulte [de envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Confira também
 

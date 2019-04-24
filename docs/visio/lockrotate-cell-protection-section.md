@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Trava as formas 2D para impedir que sejam giradas com a alça de rotação ou com o comando Girar 90° para a esquerda ou Girar 90° para a direita.
-ms.openlocfilehash: 450fe4786594472d018b705df4678fe636390ac3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348269"
 ---
 # <a name="lockrotate-cell-protection-section"></a>Célula LockRotate (Seção Protection)
 
@@ -22,8 +22,8 @@ Trava as formas 2D para impedir que sejam giradas com a alça de rotação ou co
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A forma não pode ser girada.  <br/> |
-| FALSO  <br/> | A forma pode ser girada (padrão).  <br/> |
+| TRUE  <br/> | A forma não pode ser girada.  <br/> |
+| FALSE  <br/> | A forma pode ser girada (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: eeeff110e5de592d491865079adfa187e5dfa194
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f22d30c1bc7c797834f58bcd1306b14ac2542c6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345133"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 
@@ -29,9 +29,9 @@ Procura a última ocorrência de um caractere em uma cadeia de caracteres termin
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 LPSTR SzFindLastCh(
@@ -44,18 +44,18 @@ LPSTR SzFindLastCh(
 
  _lpsz_
   
-> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisado. 
+> no Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisada. 
     
- _CH_
+ _CA_
   
-> [in] O caractere a ser pesquisado.
+> no O caractere a ser procurado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
- **SzFindLastCh** retorna um ponteiro para a última ocorrência do caractere na cadeia de caracteres. Se o caractere não ocorrer em qualquer lugar na cadeia de caracteres, ou se o parâmetro _lpsz_ é NULL, um valor NULL é retornado. 
+ **SzFindLastCh** retorna um ponteiro para a última ocorrência do caractere na cadeia de caracteres. Se o caractere não ocorrer em qualquer lugar na cadeia de caracteres ou se o parâmetro _lpsz_ for NULL, um valor NULL será retornado. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **SzFindLastCh** procura apenas; uma correspondência exata é sensível a maiusculas de minúsculas e diacríticos diferenças. Pesquisas nos formatos Unicode e DBCS são suportadas. 
+A função **SzFindLastCh** pesquisa apenas uma correspondência exata; é sensível às diferenças de maiúsculas e minúsculas. As pesquisas nos formatos Unicode e DBCS são suportadas. 
   
 

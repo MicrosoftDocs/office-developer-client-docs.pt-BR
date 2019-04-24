@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346603"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Propriedade canônica PidTagImplicitConversionProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571840"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de fazer a mensagem implícita conversões de texto.
+Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido de realizar conversões implícitas de texto de mensagem.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de fa
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for TRUE, o sistema de mensagens deve não execute nenhuma conversão de conteúdo na mensagem, a menos que seja solicitado explicitamente em uma base por destinatário com a propriedade **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Se essa propriedade for TRUE, o sistema de mensagens não deverá executar qualquer conversão de conteúdo na mensagem, a menos que seja explicitamente solicitado por destinatário com a propriedade **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

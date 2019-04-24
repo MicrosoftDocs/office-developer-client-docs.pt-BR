@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8cd211cc16b620ac47357271070e0b45b867bea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab21dcfb9011b675e3db4e4df29cb6ecafa6e7c6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348773"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém a pasta que foi estabelecida como pasta para o armazenamento de mensagens de recebimento de destino para mensagens recebidas de uma classe de mensagem especificada ou como padrão.
+Obtém a pasta que foi estabelecida como o destino para mensagens de entrada de uma classe de mensagem especificada ou como a pasta de recebimento padrão para o repositório de mensagens.
   
 ```cpp
 HRESULT GetReceiveFolder(
@@ -41,29 +41,29 @@ HRESULT GetReceiveFolder(
 
  _lpszMessageClass_
   
-> [in] Um ponteiro para uma classe de mensagem que está associado uma pasta de recebimento. Se o parâmetro _lpszMessageClass_ for definido como NULL ou como uma sequência vazia, **GetReceiveFolder** retorna o padrão recebem a pasta para o armazenamento de mensagens. 
+> no Um ponteiro para uma classe de mensagem associada a uma pasta de recebimento. Se o parâmetro _lpszMessageClass_ estiver definido como nulo ou uma cadeia de caracteres vazia, **GetReceiveFolder** retornará a pasta de recebimento padrão para o repositório de mensagens. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres passada-in e retornados. O seguinte sinalizador pode ser definido:
+> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas e retornadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> A cadeia de caracteres de classe de mensagem está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres de classe de mensagem é no formato ANSI.
+> A cadeia de caracteres da classe da mensagem está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres da classe da mensagem estará no formato ANSI.
     
  _lpcbEntryID_
   
-> [out] Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Pasta de recebimento de um ponteiro para um ponteiro para o identificador de entrada para os solicitados.
+> bota Um ponteiro para um ponteiro para o identificador de entrada da pasta receber solicitada.
     
  _lppszExplicitClass_
   
-> [out] Um ponteiro para um ponteiro para a classe de mensagem que explicitamente define como seu a pasta indicada por _lppEntryID_de pasta de recebimento. Esta classe de mensagem deve ser o mesmo que a classe no parâmetro _lpszMessageClass_ , ou uma classe base dessa classe. Passar NULL indica que a pasta indicada por _lppEntryID_ é o padrão receber a pasta para o armazenamento de mensagens. 
+> bota Um ponteiro para um ponteiro para a classe de mensagem que define explicitamente como sua pasta receber a pasta apontada pelo _lppEntryID_. Essa classe de mensagem deve ser igual à classe no parâmetro _lpszMessageClass_ ou a uma classe base dessa classe. Passar NULL indica que a pasta apontada por _lppEntryID_ é a pasta de recebimento padrão para o repositório de mensagens. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -71,27 +71,27 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore::GetReceiveFolder** obtém o identificador de entrada de uma pasta de recebimento, em uma pasta designada para receber mensagens de entrada de uma classe de mensagem específica. Os chamadores podem especificar uma classe de mensagem ou NULL no parâmetro _lpszMessageClass_ . Se _lpszMessageClass_ for NULL, **GetReceiveFolder** retorna os seguintes valores: 
+O método **IMsgStore:: GetReceiveFolder** Obtém o identificador de entrada de uma pasta de recebimento, uma pasta designada para receber mensagens de entrada de uma determinada classe de mensagem. Os chamadores podem especificar uma classe de mensagem ou nulo no parâmetro _lpszMessageClass_ . Se _lpszMessageClass_ for nulo, **GetReceiveFolder** retornará os seguintes valores: 
   
-- Em _lppszExplicitClass_, o nome da classe primeira base da classe de mensagem apontado pela _lpszMessageClass_ que definir explicitamente uma pasta de recebimento. 
+- No _lppszExplicitClass_, o nome da primeira classe base da classe de mensagem apontada por _lpszMessageClass_ que define explicitamente uma pasta de recebimento. 
     
-- Em _lppEntryID_, o identificador de entrada da pasta de recebimento para a classe base apontado pelo parâmetro _lppszExplicitClass_ . 
+- No _lppEntryID_, o identificador de entrada da pasta de recebimento da classe base indicada pelo parâmetro _lppszExplicitClass_ . 
     
-Por exemplo, suponha que a pasta de recebimento da classe de mensagem **IPM. Observação** tiver sido definida para a entrada identificador da caixa de entrada e **GetReceiveFolder** é chamado com o conteúdo de _lpszMessageClass_ definida como **IPM. Note.Phone**. Se **IPM. Note.Phone** não têm um explícitas recebe conjunto de pastas, **GetReceiveFolder** retorna o identificador de entrada da caixa de entrada no _lppEntryID_ e **IPM. Observação** em _lppszExplicitClass_.
+Por exemplo, suponha a pasta de recebimento da classe de mensagem **IPM. A observação** foi definida como o identificador de entrada da caixa de entrada e **GetReceiveFolder** é chamado com o conteúdo de _lpszMessageClass_ definido como **IPM. Note. Phone**. Se **IPM. Note. o telefone** não tem um conjunto de pastas de recebimento explícito, **GetReceiveFolder** retorna o identificador de entrada da caixa de entrada no _lppEntryID_ e **IPM. Nota** no _lppszExplicitClass_.
   
-Se o cliente chama **GetReceiveFolder** para uma classe de mensagem e não tiver definido uma pasta de recebimento para essa classe de mensagem, _lppszExplicitClass_ é uma cadeia de caracteres de comprimento zero, uma cadeia de caracteres em formato Unicode ou uma cadeia de caracteres, no formato ANSI dependendo se o cliente definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ . 
+Se o cliente chama **GetReceiveFolder** para uma classe de mensagem e não definiu uma pasta de recebimento para essa classe de mensagem, _lppszExplicitClass_ é uma cadeia de comprimento zero, uma cadeia de caracteres no formato Unicode ou uma cadeia de caracteres no formato ANSI, dependendo se o cliente define o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ . 
   
-Um padrão receber pasta, obtida passando NULL no parâmetro _lpszMessageClass_ , sempre existe para cada armazenamento de mensagens. 
+Uma pasta de recebimento padrão, obtida passando NULL no parâmetro _lpszMessageClass_ , sempre existe para cada repositório de mensagens. 
   
-Um cliente deve chamar a função [MAPIFreeBuffer](mapifreebuffer.md) quando isso é feito com o identificador de entrada retornado em _lppEntryID_ liberar a memória que contém esse identificador de entrada. Ele também deve chamar **MAPIFreeBuffer** quando isso é feito com a cadeia de caracteres de classe de mensagem retornada em _lppszExplicitClass_ liberar a memória que contém a cadeia de caracteres. 
+Um cliente deve chamar a função [MAPIFreeBuffer](mapifreebuffer.md) quando ele é feito com o identificador de entrada retornado em _lppEntryID_ para liberar a memória que contém esse identificador de entrada. Ele também deve chamar **MAPIFreeBuffer** quando ele é feito com a cadeia de caracteres de classe de mensagem retornada no _lppszExplicitClass_ para liberar a memória que retém essa cadeia de caracteres. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI usa o método **IMsgStore::GetReceiveFolder** para localizar a pasta de caixa de entrada.  <br/> |
+|MAPIFunctions. cpp  <br/> |GetInbox  <br/> |MFCMAPI usa o método **IMsgStore:: GetReceiveFolder** para localizar a pasta caixa de entrada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -102,5 +102,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

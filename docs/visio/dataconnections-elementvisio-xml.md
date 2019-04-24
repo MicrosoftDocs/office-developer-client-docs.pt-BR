@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: Contém os elementos DataConnection para o documento.
 ms.openlocfilehash: 5b1619253a2818f2a181d281c78a0445318ed6ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344489"
 ---
 # <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections ('Visio XML')
 
@@ -40,7 +40,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ### <a name="child-elements"></a>Elementos filho
 

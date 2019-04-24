@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1c670cd566e838104ae3d5480c2297f8632d899
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348556"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Propriedade canônica PidTagRulesTable
 
@@ -30,23 +30,23 @@ Contém uma tabela com todas as regras aplicadas a uma pasta.
 |Propriedades associadas:  <br/> |PR_RULES_TABLE  <br/> |
 |Identificador:  <br/> |0x3FE1  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Regras do lado servidor  <br/> |
+|Área:  <br/> |Regras no servidor  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade está presente em todos os objetos de pasta em um servidor do Exchange que têm regras. Valores incluídos nesta propriedade são usados para ler e modificar as regras. Você pode usar o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) com o identificador de interface **IID_IExchangeModifyTable** para obter uma [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) interface à tabela de regras em uma pasta. Você pode usar essa interface para ler e modificar as regras. 
+Esta propriedade está presente em todos os objetos Folder em um servidor Exchange que tenha regras. Os valores incluídos nessa propriedade são usados para leitura e modificação de regras. Você pode usar o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) com o identificador de interface **IID_IExchangeModifyTable** para obter uma interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) para a tabela de regras em uma pasta. Você pode usar essa interface para ler e modificar essas regras. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas. 
+> Contém definições de propriedades listadas como propriedades associadas. 
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

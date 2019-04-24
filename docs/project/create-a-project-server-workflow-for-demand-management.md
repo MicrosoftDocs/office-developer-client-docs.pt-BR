@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: Este artigo descreve como criar um fluxo de trabalho simples com o SharePoint Designer 2013.
 ms.openlocfilehash: bbefc5d30ccb508a24c32fe41e733e6e8187ecd9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355475"
 ---
 # <a name="create-a-project-server-workflow-for-demand-management"></a>Criar um fluxo de trabalho do Project Server para o Gerenciamento de Propostas
 
@@ -75,7 +75,7 @@ O procedimento detalhado a seguir inclui as mesmas etapas da seção [Como criar
 
 #### <a name="1-plan-and-design-the-workflow"></a>1. Planeje e projete o fluxo de trabalho.
 
-Um fluxo de trabalho do Project Server pode ser integrado a vários estágios e fases de um processo de gerenciamento de propostas. Uma vez que fluxos de trabalho podem ser complexos, é preciso compreender os requisitos de negócios e planejar um fluxo de trabalho cuidadosamente. Para obter um exemplo simples, crie um fluxo de trabalho de ramificação que usa o custo estimado de uma proposta de projeto para determinar se a proposta é aceita. Se o custo estimado for maior que US$ 25.000, rejeite a proposta. Caso contrário, aceite a proposta e crie o projeto.
+Um fluxo de trabalho do Project Server pode ser integrado a vários estágios e fases de um processo de gerenciamento de propostas. Como os fluxos de trabalho podem ser complexos, você deve compreender os requisitos de negócios e planejar um fluxo de trabalho com cuidado. Para obter um exemplo simples, projete um fluxo de trabalho de ramificação que use o custo estimado de uma proposta de projeto para determinar se a proposta será aceita. Se o custo estimado for maior que US$ 25.000, rejeite a proposta. Caso contrário, aceite a proposta e crie o projeto.
     
 Já que você pode usar o Visio 2013 e o SharePoint Designer 2013 para ajudar a projetar e criar fluxos de trabalho do Project Server 2013, fica mais fácil experimentar fluxos de trabalho do que com o Project Server 2010. O exemplo de design de fluxo de trabalho deste artigo é o igual ao do artigo [Criar um fluxo de trabalho ramificação](https://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx) do SDK do Project 2010. Você pode projetar e criar um fluxo de trabalho de teste em um computador remoto usando uma instância de teste do Project Web App, não sendo necessário criar fluxos de trabalho diretamente em um computador com o Project Server 2013. 
     
@@ -91,7 +91,7 @@ No Project Web App, examine as fases e estágio de fluxo de trabalho disponívei
         
 3. **Páginas de detalhes do projeto** Edite ou crie as PDPs que os estágios de fluxo de trabalho irão usar. Por exemplo, siga estas etapas: 
         
-    1. Escolha **Páginas de Detalhes do Projeto** na página Configurações do Servidor e então escolha a PDP **ProjectInformation**. 
+    1. Escolha **Páginas de Detalhes do Projeto** na página Configurações do Servidor e então escolha o PDP **ProjectInformation**. 
             
     2. Na guia **PÁGINA** da faixa de opções, no grupo **Editar**, escolha **Editar Página**.
             

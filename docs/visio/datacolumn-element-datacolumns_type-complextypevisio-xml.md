@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Define a aparência de uma coluna de dados na janela Dados Externos na interface de usuário do Visio, e qualifica os dados na coluna definindo o tipo de dados e a formatação.
 ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344818"
 ---
 # <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) ("XML do Visio")
 
@@ -36,7 +36,7 @@ Define a aparência de uma coluna de dados na janela **Dados Externos** na inter
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,15 +52,15 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Calendar  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |ID do Calendário da coluna de dados.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
+|Calendário  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |ID do Calendário da coluna de dados.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |xsd:string  <br/> |obrigatório  <br/> |Nome externo da coluna de dados. É exibido em títulos na janela **Dados Externos** e nos rótulos de gráficos de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
-|Currency  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |ID de Moeda da coluna de dados.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
+|Moeda  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |ID de Moeda da coluna de dados.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
 |DataType  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Tipo dos dados na coluna de dados.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
 |Degree  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica o grau (potência) das unidades, por exemplo ao quadrado ou ao cubo. O padrão (atributo ausente) é 1.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |DisplayOrder  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Define a posição de exibição da coluna de dados na janela **Dados Externos**, da coluna mais à esquerda (0) à coluna mais à direita (maior valor).  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Largura da coluna de dados na janela **Dados Externos**.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Hyperlink  <br/> |xsd:boolean  <br/> |opcional  <br/> |Define se a coluna de dados criará um hiperlink em uma forma quando a forma for vinculada a dados.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|Label  <br/> |xsd:string  <br/> |obrigatório  <br/> |Rótulo da coluna de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Hiperlink  <br/> |xsd:boolean  <br/> |opcional  <br/> |Define se a coluna de dados criará um hiperlink em uma forma quando a forma for vinculada a dados.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|Rótulo  <br/> |xsd:string  <br/> |obrigatório  <br/> |Rótulo da coluna de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
 |LangID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID de idioma da coluna de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Mapped  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se a coluna ficará visível na janela **Dados Externos**. True (1) para a coluna ficar visível; False (0) para a coluna não ficar visível. O padrão (atributo ausente) é a coluna ficar visível.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |Name  <br/> |xsd:string  <br/> |obrigatório  <br/> |Nome interno da coluna de dados. Usado como o nome da linha para o item de dados da forma (propriedade personalizada) adicionado a uma forma, quando a forma está vinculada a uma linha de dados.  <br/> |Valores do tipo xsd:string.  <br/> |

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: Indica o tipo de sombra padrão para uma página.
-ms.openlocfilehash: 1fc5c31a723d5d409110d94ff543a45dadabf264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342886"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>Célula ShdwType (Seção Page Properties)
 
@@ -23,14 +23,14 @@ Indica o tipo de sombra padrão para uma página.
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 | 1  <br/> | Simples  <br/> |**visFSTSimple** <br/> |
-| 2  <br/> | Oblíquo  <br/> |**visFSTOblique** <br/> |
-|3  <br/> |Interna  <br/> |**visFSTInner** <br/> |
+| duas  <br/> | Oblíqua  <br/> |**visFSTOblique** <br/> |
+|3D  <br/> |Inner  <br/> |**visFSTInner** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
- O tipo de sombra descrito nesta célula é utilizado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma individual na página) for definida como padrão da página (**visFSTPageDefault** ). 
+ O tipo de sombra descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma individual na página) é definida como padrão da página (**visFSTPageDefault** ). 
   
-Tipos de sombra simples são descritos como sombras deslocadas na interface do usuário (UI). Uma sombra simples dá o efeito da forma sendo sombreada em um plano paralelo localizado um pouco atrás dela. Sombras oblíquas são descritas como sombras oblíquas na interface de usuário e fornecer o efeito de uma sombra sendo convertida em um plano perpendicular à forma. 
+Os tipos de sombra simples são descritos como sombras deslocadas na interface do usuário (UI). Uma sombra simples dá o efeito na forma sendo sombreada em um plano paralelo localizado um pouco atrás dela. As sombras oblíquas são descritas como tal na UI e apresentam o efeito de uma sombra sendo moldada em um plano perpendicular à forma. 
   
 Para obter uma lista de tipos de sombra simples e oblíquas, consulte a lista **Estilo**, na guia **Sombras** da caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta **Configurar Página**). 
   

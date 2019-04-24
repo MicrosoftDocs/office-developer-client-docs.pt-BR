@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346575"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propriedade canônica PidTagInitialDetailsPane
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393863"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a página de um modelo de exibição para exibir o primeiro.
+Indica a página de um modelo de exibição a ser exibida primeiro.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Indica a página de um modelo de exibição para exibir o primeiro.
    
 ## <a name="remarks"></a>Comentários
 
-Ele deve estar presente em todos os objetos de catálogo de endereços em um servidor de nome serviço provedor NSPI (Interface) e deve ter um valor zero (0). Não deve ser definido para qualquer objeto em um catálogo de Endereços Offline.
+Ele deve estar presente em todos os objetos do catálogo de endereços em um servidor de interface de provedor de serviços de nome (NSPI) e deve ter o valor zero (0). Ele não deve ser definido para qualquer objeto em um catálogo de endereços offline.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

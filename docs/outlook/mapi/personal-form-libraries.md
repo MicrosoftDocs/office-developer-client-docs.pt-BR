@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c84665077f9c8e02647a4d348042515366b0c090
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348444"
 ---
 # <a name="personal-form-libraries"></a>Bibliotecas de formulários pessoais
 
@@ -21,11 +21,11 @@ ms.locfileid: "22581584"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como seu nome sugere, bibliotecas de formulários particulares contêm formulários de interesse para um usuário específico. Biblioteca de formulários particular do usuário é a biblioteca de formulários associada ao repositório de mensagem padrão identificado no perfil do usuário; cada perfil instalado em uma estação de trabalho pode usar um repositório separado padrão e, portanto, uma biblioteca de formulários particulares separado. Uma biblioteca de formulários particulares pode conter cópias das formas que também estão contidas em outras bibliotecas de formulários, além de outras formas.
+Como o nome sugere, as bibliotecas de formulários pessoais contêm formas de interesse para um usuário específico. A biblioteca de formulários pessoais de um usuário é a biblioteca de formulários associada ao repositório de mensagens padrão identificado no perfil do usuário; cada perfil instalado em uma estação de trabalho pode usar um repositório padrão separado e, portanto, uma biblioteca de formulários particulares separada. Uma biblioteca de formulários pessoais pode conter cópias de formulários que também estão contidas em outras bibliotecas de formulários, além de outros formulários.
   
-Uma biblioteca de formulários particular é implementada na tabela de conteúdo associados da pasta raiz no armazenamento de mensagens do usuário padrão — se que reside em um servidor ou localmente na estação de trabalho do usuário é irrelevante. Se o armazenamento de mensagens padrão do usuário é armazenado na estação de trabalho do usuário, bibliotecas de formulários particulares oferecem desempenho aprimorado, permitindo que aplicativos acessem os formulários localmente, em vez de pela rede. Ele também disponibiliza formulários para usuários trabalhando offline, que podem ocorrer quando os usuários desejam assumir suas formas com eles em computadores portáteis e são sem acesso a uma rede.
+Uma biblioteca de formulários pessoais é implementada na tabela de conteúdo associado da pasta raiz no repositório de mensagens padrão de um usuário, independentemente de ele residir em um servidor ou localmente na estação de trabalho do usuário. Se o repositório de mensagens padrão do usuário estiver armazenado na estação de trabalho do usuário, as bibliotecas de formulários pessoais oferecem um desempenho aprimorado, permitindo que os aplicativos acessem os formulários localmente, em vez de através da rede. Ele também disponibiliza os formulários aos usuários que trabalham offline, o que pode ocorrer quando os usuários desejam usar seus formulários em computadores portáteis e estão sem acesso a uma rede.
   
-As propriedades e implementação subjacente de entradas de biblioteca de formulários particulares incluem uma propriedade de "Contêiner ID" que identifica um contêiner de mestre que a entrada de local deve ser sincronizada com. Isso pode ser o identificador de uma pasta arbitrária que contém formulários. Isso é útil se você estiver usando um gerente de formulário personalizado que ofereça suporte a algum tipo de biblioteca de formulários de toda a organização; o gerente do formulário seria cuidam da sincronização de formulários armazenados na biblioteca de formulários particulares e a biblioteca de formulários de toda a organização. Isso provavelmente ocorrerá quando o Gerenciador de formulário foi carregado, mas pode acontecer teoricamente a qualquer momento.
+As propriedades e a implementação subjacente das entradas da biblioteca de formulários pessoais incluem uma propriedade "ID do contêiner" que identifica um contêiner mestre com o qual a entrada local deve ser sincronizada. Pode ser o identificador de uma pasta arbitrária que contém formulários. Isso é útil se você estiver usando um Gerenciador de formulários personalizado que oferece suporte a algum tipo de biblioteca de formulários em toda a organização; o gerente de formulários cuidaria da sincronização dos formulários armazenados na biblioteca de formulários pessoais e da biblioteca de formulários em toda a organização. Isso provavelmente aconteceria quando o Gerenciador de formulários foi carregado, mas pode, teoricamente, acontecer a qualquer momento.
   
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342767"
 ---
 # <a name="mtsid"></a>MTSID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22585679"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador de entrada x. 400 mensagem transporte MTS (sistema). 
+Contém um identificador de entrada MTS (sistema de transporte de mensagens) X. 400. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> Contagem de bytes na matriz descrito pelo membro **abEntry** . 
+> Contagem de bytes na matriz descrita pelo membro **abEntry** . 
     
  **abEntry**
   
@@ -53,9 +53,9 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MTSID** é usada somente para mapeamentos de x. 400 dos identificadores de entrada MAPI. Ela corresponde à estrutura de MAPI [FLATENTRY](flatentry.md) . 
+A estrutura **MTSID** é usada apenas para mapeamentos X. 400 de identificadores de entrada MAPI. Ela corresponde à estrutura [FLATENTRY](flatentry.md) MAPI. 
   
-Um identificador MTS tem o mesmo formato apresentado um identificador de entrada MAPI ou um valor de propriedade binária. Identificadores MTS podem ser particularmente útil para cancelamento de mensagens adiadas. 
+Um identificador MTS tem o mesmo formato que um identificador de entrada MAPI ou um valor de propriedade binária. Os identificadores MTS podem ser particularmente úteis para cancelar mensagens adiadas. 
   
 ## <a name="see-also"></a>Confira também
 

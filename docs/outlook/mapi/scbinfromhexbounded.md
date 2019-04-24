@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 813fab28e3e865c9f04f85c854b292ce7229dad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357495"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
@@ -29,9 +29,9 @@ Converte a parte especificada de uma representação de cadeia de caracteres de 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScBinFromHexBounded(
@@ -43,27 +43,27 @@ SCODE ScBinFromHexBounded(
 
 ## <a name="parameters"></a>Parâmetros
 
- _SZ_
+ _v_
   
-> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. Caracteres válidos incluem os caracteres hexadecimais 0 a 9 e os dois caracteres maiusculos e minúsculos a até f.
+> no Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. Os caracteres válidos incluem os caracteres hexadecimais de 0 a 9 e os caracteres maiúsculos e minúsculos de a a f.
     
  _pb_
   
-> [out] Ponteiro para o número binário retornado.
+> bota Ponteiro para o número binário retornado.
     
  _cb_
   
-> [in] Tamanho, em bytes, do parâmetro _pb_ . 
+> no Tamanho, em bytes, do parâmetro _PB_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> Conversão foi bem sucedida.
+> A conversão foi bem-sucedida.
     
 MAPI_E_CALL_FAILED
   
-> Caracteres inválidos encontrados.
+> Foram encontrados caracteres inVálidos.
     
 ## <a name="see-also"></a>Confira também
 

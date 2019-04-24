@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f5f31c480f31b01e53fec9651c8154765b581a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349494"
 ---
 # <a name="create-a-reminder-for-an-appointment-item"></a>Criar um lembrete para um item de compromisso
 
@@ -28,7 +28,7 @@ O Outlook fornece uma maneira de definir um lembrete para um compromisso usando 
 
 No exemplo de código a seguir, ReminderExample cria um lembrete em um compromisso particular para degustação de vinhos em Napa, Califórnia, e define o lembrete para ocorrer duas horas antes do início do compromisso. Primeiro, ReminderExample cria um objeto **AppointmentItem** do Outlook. Em seguida, define a propriedade [Sensitivity](https://msdn.microsoft.com/library/bb623503\(v=office.15\)) do item para [olPrivate](https://msdn.microsoft.com/library/bb645125\(v=office.15\)). Isso indica que o compromisso é um compromisso particular. Depois de definir outras propriedades do compromisso, como os horários de [Início](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) e [Fim](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), o ReminderExample define a propriedade [ReminderMinutesBeforeStart](https://msdn.microsoft.com/library/bb644528\(v=office.15\)) para indicar o número de minutos em que o lembrete aparecerá antes do início do compromisso. Nesse caso, ReminderMinutesBeforeStart é definida para 120 minutos (duas horas).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

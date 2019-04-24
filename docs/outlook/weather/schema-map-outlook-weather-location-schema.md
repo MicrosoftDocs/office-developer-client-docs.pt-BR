@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: Este tópico mostra a definição do esquema XML de localização do clima do Outlook.
 ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355136"
 ---
 # <a name="schema-map-outlook-weather-location-schema"></a>Mapa de esquema (Esquema de localização do clima do Outlook)
 

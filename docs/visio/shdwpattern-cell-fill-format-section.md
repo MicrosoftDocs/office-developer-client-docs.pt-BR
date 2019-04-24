@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: Determina o padrão de preenchimento da sombra de uma forma.
-ms.openlocfilehash: fd24a8d23d62436a6d81cf6b8049dcabe47db677
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349039"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>Célula ShdwPattern (Seção Fill Format)
 
@@ -22,7 +22,7 @@ Determina o padrão de preenchimento da sombra de uma forma.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Nenhum (preenchimento transparente)  <br/> |
+|,0  <br/> |Nenhum (preenchimento transparente)  <br/> |
 |1  <br/> |Cor do primeiro plano sólida  <br/> |
 |2 - 40  <br/> |Padrões variados  <br/> |
    

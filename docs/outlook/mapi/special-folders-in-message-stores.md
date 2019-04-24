@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 9462070e-1472-4e12-ba4e-e4ac60022892
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a5446ce30812b30b193e87484a7322d9ddf7d781
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae881f56695914627e8c2f6f61f143da91cd78a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344440"
 ---
 # <a name="special-folders-in-message-stores"></a>Pastas especiais em repositórios de mensagens
 
@@ -21,7 +21,7 @@ ms.locfileid: "22572708"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Pastas especiais, como a caixa de entrada, a caixa de saída e a pasta de resultados de pesquisa podem ser criadas com antecedência e protegidas pelo provedor de armazenamento de mensagem. Se as pastas não existirem, MAPI tentará criá-los no repositório de mensagem chamando a função [HrValidateIPMSubtree](hrvalidateipmsubtree.md) . Para obter mais informações, consulte [Pastas especiais de MAPI](mapi-special-folders.md).
+Pastas especiais como caixa de entrada, caixa de saída e pasta de resultados de pesquisa podem ser criadas antecipadamente e protegidas pelo provedor de armazenamento de mensagens. Se as pastas não existirem, o MAPI tentará criá-las no repositório de mensagens chamando a função [HrValidateIPMSubtree](hrvalidateipmsubtree.md) . Para obter mais informações, consulte [MAPI especial Folders](mapi-special-folders.md).
   
 ## <a name="see-also"></a>Confira também
 

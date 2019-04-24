@@ -7,19 +7,19 @@ localization_priority: Normal
 ms.assetid: 6f041970-780b-48b4-a277-20e8289134cd
 description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: 24a9fd4cdc25f206e8241a9b989724474f290318
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357005"
 ---
 # <a name="microsoft-project-2013-sdk-copyright-notice"></a>Aviso de direitos autorais do SDK do Microsoft Project 2013
 
-Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo. 
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização. 
   
-Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Não existe associação real ou qualquer ligação é intencionada ou deve ser inferida.
+Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
   
-Este documento não lhe dá nenhum direito legal a qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para fins de referência, internos. 
+Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. 
   
 © 2012 Microsoft Corporation. Todos os direitos reservados.
   

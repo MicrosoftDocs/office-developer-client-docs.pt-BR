@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f4af3f2fd094942c48e02849c60f3e46acb1a5f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348094"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
@@ -25,13 +25,13 @@ ms.locfileid: "25385561"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Força expedir de todas as notificações na fila. 
+Força a expedição de todas as notificações em fila. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 HRESULT HrDispatchNotifications(
@@ -43,13 +43,13 @@ HRESULT HrDispatchNotifications(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero. 
+> no Serve deve ser zero. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> Tem sido despachadas todas as notificações na fila.
+> Todas as notificações em fila foram despachadas.
     
 MAPI_E_USER_CANCEL
   
@@ -57,14 +57,14 @@ MAPI_E_USER_CANCEL
     
 MAPI_E_NOT_INITIALIZED
   
-> MAPI não foi inicializado.
+> O MAPI não foi inicializado.
     
 ## <a name="remarks"></a>Comentários
 
-A função **HrDispatchNotifications** faz com que o MAPI expedir todas as notificações que estão atualmente enfileiradas no mecanismo de notificação de MAPI sem esperar por uma expedição de mensagem. Isso pode ter um efeito vantajoso na utilização de memória. Para obter mais informações, consulte [forçando uma notificação](forcing-a-notification.md). 
+A função **HrDispatchNotifications** faz com que o MAPI envie todas as notificações que estão atualmente enfileiradas no mecanismo de notificação MAPI sem esperar por uma expedição de mensagem. Isso pode ter um efeito benéfico sobre a utilização da memória. Para obter mais informações, consulte [forçar uma notificação](forcing-a-notification.md). 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Alguns aplicativos Aguarde uma mensagem de notificação em um loop de tempo limite usando o Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) e funções [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) . Em todos exceto as plataformas mais rápidas, tais aplicativos podem sofrer baixo desempenho ou bloqueio par de notificações. Usando **HrDispatchNotifications** não apenas reduz o código, mas melhora o desempenho. 
+Alguns aplicativos esperam uma mensagem de notificação em um loop de tempo de espera usando as funções do Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) e do [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) . Em todas as plataformas, exceto as mais rápidas, esses aplicativos podem experimentar um desempenho ruim ou até mesmo bloqueio de notificações. O uso do **HrDispatchNotifications** não apenas reduz o código, mas melhora o desempenho. 
   
 

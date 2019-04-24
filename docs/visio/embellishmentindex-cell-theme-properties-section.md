@@ -1,32 +1,32 @@
 ---
-title: Célula EmbellishmentIndex (Seção Theme Properties)
+title: Célula EmbellishmentIndex (seção Theme Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
-description: Altera a aparência (ornamentos) das formas de organograma, recipientes, cronogramas e textos explicativos.
-ms.openlocfilehash: 93c12a3eed1c7298b37f143fc836ad90ec3b09ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Altera a aparência (ornamento) de textos explicativos, contêineres, linhas do plano e formas de organograma.
+ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19771791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345623"
 ---
-# <a name="embellishmentindex-cell-theme-properties-section"></a>Célula EmbellishmentIndex (Seção Theme Properties)
+# <a name="embellishmentindex-cell-theme-properties-section"></a>Célula EmbellishmentIndex (seção Theme Properties)
 
-Altera a aparência (ornamentos) das formas de organograma, recipientes, cronogramas e textos explicativos.
+Altera a aparência (ornamento) de textos explicativos, contêineres, linhas do plano e formas de organograma.
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **EmbellishmentIndex** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **EmbellishmentIndex** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | EmbellishmentIndex  <br/> |
    
-Para obter uma referência à célula **EmbellishmentIndex** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **EmbellishmentIndex** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

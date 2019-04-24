@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 91c1d9293108b96fde43b769c97ec673f82a8cb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 214d24bb0b0af525d5e2588c556c37cf720364a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342795"
 ---
 # <a name="gateway-mapping-responsibilities"></a>Responsabilidades de mapeamento do gateway
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando um gateway de reconhecimento de MAPI recebe uma mensagem contendo propriedades nomeadas em um dos conjuntos de propriedade especial é designados para conter as propriedades podem ser mapeados gateway, o gateway deve mapear todas as propriedades para o protocolo do destino do sistema de mensagens. Embora o MAPI recomenda que gateways manipular nomeadas todas as propriedades nos conjuntos de propriedade especial, gateways esperados para lidar com apenas dois: endereço e o tipo de endereço de email. Como as propriedades de tipo de endereço e o endereço de email diretamente afetam a transmissão de mensagens, é fundamental que os gateways suportam o mapeamento dessas duas propriedades. Porque as chaves de pesquisa consistem em tipo de endereço e o endereço de um usuário, eles também devem ser traduzidos se possível.
+Quando um gateway de reconhecimento MAPI recebe uma mensagem que contém propriedades nomeadas em um dos conjuntos de propriedades especiais designados para conter Propriedades do gateway-mapeáveis, o gateway deve mapear todas as propriedades para o protocolo do sistema de mensagens de destino. Embora a MAPI recomende que os gateways manipulem todas as propriedades nomeadas nos conjuntos de propriedades especiais, os gateways são esperados para lidar apenas com dois: endereço de email e tipo de endereço. Como o endereço de email e as propriedades de tipo de endereço afetam diretamente a transmissão de mensagens, é fundamental que os gateways ofereçam suporte ao mapeamento dessas duas propriedades. Como as chaves de pesquisa consistem em um tipo de endereço e endereço de um usuário, elas também devem ser traduzidas, se possível.
   
-Identificadores de entrada não deverão ser manipulados com frequência. Para habilitar o mapeamento de um identificador de entrada que se origina de um sistema de mensagens a um identificador de entrada que pode ser usado por outro sistema de mensagens, o gateway deve ser capaz de usar o formato dos dois sistemas. Porque a maioria dos gateways não estão cientes dos formatos de identificador de entrada, a tradução dos identificadores de entrada é rara.
+Os identificadores de entrada não devem ser manipulados com frequência. Para habilitar o mapeamento de um identificador de entrada que se origina em um sistema de mensagens para um identificador de entrada que pode ser usado por outro sistema de mensagens, o gateway deve ser capaz de usar o formato de ambos os sistemas. Como a maioria dos gateways não está ciente dos formatos de identificador de entrada, a conversão de identificadores de entrada é rara.
   
-Outra propriedade podem ser mapeada que não é esperada a serem convertidos frequentemente é o nome de exibição. Gateways devem armazenar nomes para exibição e transmiti-las, mas não necessariamente traduzi-los. 
+Outra propriedade mapeável que não deve ser traduzida com frequência é o nome de exibição. Os gateways devem armazenar nomes de exibição e transmiti-los, mas não necessariamente traduzi-los. 
   
 

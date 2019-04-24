@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm790
 localization_priority: Normal
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
-description: Representa o x-coordenadas do pino da forma (Centro de rotação) em relação à origem de seu pai.
-ms.openlocfilehash: 74e98732f1e0c44fa20c159070198ed4f98cee92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada x do pino da forma (centro de rotação) em relação à origem de seu pai.
+ms.openlocfilehash: de12b379d5f345209a468298174634ff4f9cd639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19772475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346750"
 ---
 # <a name="pinx-cell-shape-transform-section"></a>Célula PinX (Seção Shape Transform)
 
-Representa o *x* -coordenadas do pino da forma (Centro de rotação) em relação à origem de seu pai. 
+Representa a coordenada *x* do pino da forma (centro de rotação) em relação à origem de seu pai. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ Para fazer referência à célula PinX pelo nome a partir de outra fórmula ou d
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | PinX  <br/> |
+| Nome da célula:  <br/> | Células  <br/> |
    
 Para fazer referência à célula PinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 0d3f540a14c833e0ee0ed212f6f3b3b709d72ec0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9cc4e3ba77395e09a6b95e8381fa402fc3cdff61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356529"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591034"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cópias ou movimentações de mensagens de uma pasta para outra pasta.
+Copia ou move mensagens de uma pasta para outra.
   
 ```cpp
 HRESULT CopyMessages(
@@ -44,35 +44,35 @@ HRESULT CopyMessages(
 
  _lpSrcInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a pasta que contém as mensagens devem ser copiados ou movidos.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta que contém as mensagens a serem copiadas ou movidas.
     
  _lpSrcFolder_
   
-> [in] Um ponteiro para a pasta que contém as mensagens devem ser copiados ou movidos.
+> no Um ponteiro para a pasta que contém as mensagens a serem copiadas ou movidas.
     
  _lpMsgList_
   
-> [in] Um ponteiro para uma matriz de identificadores de entrada que identificam as mensagens devem ser copiados ou movidos. 
+> no Um ponteiro para uma matriz de identificadores de entrada que identificam as mensagens a serem copiadas ou movidas. 
     
  _lpDestInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a pasta de destino para as mensagens copiadas ou movidas.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta de destino para as mensagens copiadas ou movidas.
     
  _lpDestFolder_
   
-> [in] Um ponteiro para a pasta de destino para as mensagens copiadas ou movidas. Essa pasta deve ser aberta.
+> no Um ponteiro para a pasta de destino das mensagens copiadas ou movidas. Essa pasta deve ser aberta.
     
  _ulUIParam_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG está definido na _ulFlags_.
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido em _parâmetroulflags_.
     
  _lpProgress_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG está definido na _ulFlags_.
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido em _parâmetroulflags_.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a operação de cópia ou movimentação é realizada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam como a operação de cópia ou movimentação é realizada. Os seguintes sinalizadores podem ser definidos:
     
 MESSAGE_DIALOG 
   
@@ -80,7 +80,7 @@ MESSAGE_DIALOG
     
 MESSAGE_MOVE 
   
-> As mensagens devem ser movidas, em vez de copiados. Se MESSAGE_MOVE não estiver definida, as mensagens serão copiadas.
+> As mensagens devem ser movidas, em vez de copiadas. Se MESSAGE_MOVE não for definido, as mensagens serão copiadas.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -94,7 +94,7 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::CopyMessages** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagens podem chamar **IMAPISupport::CopyMessages** na sua implementação do [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar ou mover uma ou mais mensagens de uma pasta para outro. Como parte da chamada **IMAPISupport::CopyMessages** , o provedor de armazenamento de mensagens pode especificar que o MAPI deve exibir um indicador de progresso. 
+O método **IMAPISupport:: CopyMessages** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens podem chamar **IMAPISupport:: CopyMessages** em sua implementação de [IMAPIFolder:: CopyMessages](imapifolder-copymessages.md) para copiar ou mover uma ou mais mensagens de uma pasta para outra. Como parte da chamada **IMAPISupport:: CopyMessages** , o provedor de repositório de mensagens pode especificar que o MAPI deve exibir um indicador de progresso. 
   
 ## <a name="see-also"></a>Confira também
 

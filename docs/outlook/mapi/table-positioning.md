@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a0cbbc93-8074-4e86-b660-ee7bab910587
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f7b2baa8cd78fbb8ace72fd0edb7c77f4c02a4c8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 656f696c58e9b62e7e601d7f531870b8c385e862
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345651"
 ---
 # <a name="table-positioning"></a>Posicionamento de tabelas
 
@@ -21,7 +21,7 @@ ms.locfileid: "22583859"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A posição atual dentro de uma tabela sempre é indicada por um cursor. Não há um cursor para cada modo de exibição de uma tabela; seu valor é definido por implementador da tabela. Quando um provedor de cliente ou de serviço usando a tabela faz uma chamada para alterar a posição da tabela, o valor do cursor é redefinido. Posição de uma tabela pode ser alterada com:
+A posição atual dentro de uma tabela é sempre indicada por um cursor. Há um cursor para cada modo de exibição de uma tabela; o valor é definido pelo implementador da tabela. Quando um cliente ou provedor de serviço que usa a tabela faz uma chamada para alterar a posição da tabela, o valor do cursor é redefinido. A posição de uma tabela pode ser alterada com:
   
 - Um indicador.
     

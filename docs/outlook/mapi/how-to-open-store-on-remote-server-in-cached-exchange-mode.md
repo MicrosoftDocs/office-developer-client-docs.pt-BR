@@ -1,31 +1,31 @@
 ---
-title: Abra um repositório no servidor remoto, quando o Outlook estiver no modo cache do Exchange
+title: Abrir um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
-description: 'Última modificação: 25 de julho de 2012'
-ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+ms.openlocfilehash: 419c9ae734e8b58d0958970e7127b94d220b8382
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345945"
 ---
-# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Abra um repositório no servidor remoto, quando o Outlook estiver no modo cache do Exchange
+# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Abrir um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MDB_ONLINE** para abrir um armazenamento de mensagens no servidor remoto, quando o Microsoft Outlook 2010 ou o Microsoft Outlook 2013 estiver em modo cache do Exchange. 
+Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MDB_ONLINE** para abrir um repositório de mensagens no servidor remoto quando o microsoft Outlook 2010 ou o microsoft Outlook 2013 está no modo cache do Exchange. 
   
-Modo cache do Exchange permite que o Outlook 2010 e o Outlook 2013 para usar uma cópia local da caixa de correio de um usuário com o Outlook 2010 ou Outlook 2013 mantém uma conexão on-line para uma cópia remota da caixa de correio do usuário no servidor Exchange remoto. Quando o Outlook 2010 ou Outlook 2013 está em execução no modo cache do Exchange, por padrão, qualquer soluções MAPI que faça logon mesma sessão também estão conectadas ao repositório de mensagens armazenadas em cache. Todos os dados que são acessados e quaisquer alterações que são feitas são feitas em relação a cópia local da caixa de correio.
+O modo cache do Exchange permite que o Outlook 2010 e o Outlook 2013 usem uma cópia local da caixa de correio de um usuário enquanto o Outlook 2010 ou Outlook 2013 mantém uma conexão online com uma cópia remota da caixa de correio do usuário no servidor Exchange remoto. Quando o Outlook 2010 ou o Outlook 2013 é executado no modo cache do Exchange, por padrão, as soluções MAPI que fazem logon na mesma sessão também são conectadas ao repositório de mensagens em cache. Quaisquer dados que sejam acessados e quaisquer alterações feitas serão feitas em relação à cópia local da caixa de correio.
   
-Um provedor de cliente ou serviço pode substituir a conexão ao repositório de mensagem local e abra o repositório no servidor remoto, definindo o bit para **MDB_ONLINE** no parâmetro *ulFlags* ao chamar [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md). Depois que o repositório tiver sido aberto com êxito no servidor remoto para a sessão, você pode usar [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir itens ou pastas no repositório remoto. 
+Um cliente ou provedor de serviços pode substituir a conexão ao repositório de mensagens local e abrir o repositório no servidor remoto Configurando o bit para **MDB_ONLINE** no parâmetro *Parâmetroulflags* ao chamar [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md). Depois que o repositório for aberto com êxito no servidor remoto para essa sessão, você poderá usar o [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir itens ou pastas no repositório remoto. 
   
-Você não pode abrir um repositório do Exchange no modo de cache e no modo em cache não ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
+Não é possível abrir um repositório do Exchange no modo de cache e no modo não armazenado em cache ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
   
-O exemplo de código a seguir mostra como chamar **IMAPISession::OpenMsgStore** com o sinalizador **MDB_ONLINE** definido no parâmetro *ulFlags* para abrir o repositório padrão no servidor remoto. 
+O exemplo de código a seguir mostra como chamar **IMAPISession:: OpenMsgStore** com o sinalizador **MDB_ONLINE** definido no parâmetro *parâmetroulflags* para abrir o repositório padrão no servidor remoto. 
   
 ```cpp
 HRESULT HrRemoteMessageStore( 
@@ -91,6 +91,6 @@ HRESULT HrRemoteMessageStore(
 ## <a name="see-also"></a>Confira também
 
 - [Sobre as adições de MAPI](about-mapi-additions.md) 
-- [Constantes de MAPI](mapi-constants.md)
+- [Constantes MAPI](mapi-constants.md)
 - [Acessar o Store em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

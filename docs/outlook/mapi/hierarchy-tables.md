@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2a1461f0c7196cd425d9736f5837b742bedd4fb5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344569"
 ---
 # <a name="hierarchy-tables"></a>Tabelas de hierarquia
 
@@ -21,26 +21,26 @@ ms.locfileid: "22580751"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de hierarquia contém informações sobre as pastas em um armazenamento de mensagens ou os contêineres em um contêiner de catálogo de endereços. Cada linha de uma tabela de hierarquia contém um conjunto de colunas com informações sobre uma pasta ou contêiner de catálogo de endereços. Tabelas de hierarquias principalmente são usadas pelos clientes e implementadas por provedores de armazenamento de mensagem para mostrar uma árvore de pastas e subpastas e implementadas pelos provedores de catálogo de endereços para mostrar uma árvore de contêineres no catálogo de endereços. Contêineres que não podem conter subcontêineres, conforme indicado pela ausência do sinalizador AB_SUBCONTAINERS em suas propriedades **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), não implementam uma tabela de hierarquia.
+Uma tabela de hierarquia contém informações sobre as pastas em um repositório de mensagens ou os contêineres em um contêiner de catálogo de endereços. Cada linha de uma tabela de hierarquia contém um conjunto de colunas com informações sobre uma pasta ou contêiner de catálogo de endereços. As tabelas de hierarquia são usadas principalmente por clientes e implementadas por provedores de repositório de mensagens para mostrar uma árvore de pastas e subpastas e implementadas por provedores de catálogo de endereços para mostrar uma árvore de contêineres no catálogo de endereços. Contêineres que não podem conter sub-recipientes, conforme indicado pela ausência do sinalizador AB_SUBCONTAINERS em sua propriedade **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), não implementam uma tabela de hierarquia.
   
 Uma tabela de hierarquia pode ser acessada chamando:
   
-- [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md).
+- [IMAPIContainer::](imapicontainer-gethierarchytable.md)GetHierarchyTable.
     
-    - Ou -
+    - Ou
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) passando **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) como a marca de propriedade e IID_IMAPITable como o identificador de interface.
+- [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) passagem **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) como a marca de propriedade e IID_IMAPITable como o identificador de interface.
     
-Pastas e contêineres devem suportar ambas as técnicas para recuperar as propriedades de tabela. Ele é inaceitável para provedores de serviços oferecer suporte a apenas uma maneira de acessar nestas tabelas, pois clientes prevê que terá a opção. 
+Contêineres e pastas devem dar suporte a ambas as técnicas para recuperar propriedades da tabela. É inaceitável que os provedores de serviços só ofereçam suporte a uma maneira de acessar essas tabelas porque os clientes esperam ter a opção. 
   
 > [!IMPORTANT]
-> Provedores de armazenamento não há uma garantia honram especificada para tabelas de hierarquias de definir a ordem de classificação. 
+> Não é garantido que os provedores de repositório honram o conjunto de ordem de classificação especificado para tabelas de hierarquia. 
   
-A chamada para **IMAPIProp::OpenProperty** envolve acessando a tabela de hierarquia abrindo sua propriedade correspondente, **PR_CONTAINER_HIERARCHY**. Embora **PR_CONTAINER_HIERARCHY** não podem ser recuperadas por meio de uma pasta ou o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do contêiner, ele é incluído na matriz de marca de propriedade que é retornado pelo método [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
+A chamada para **IMAPIProp:: OpenProperty** envolve acessar a tabela de hierarquia abrindo sua propriedade correspondente, **PR_CONTAINER_HIERARCHY**. Embora o **PR_CONTAINER_HIERARCHY** não possa ser recuperado por meio de um método [IMAPIProp::](imapiprop-getprops.md) GetProps de pasta ou contêiner, ele é incluído na matriz de marca de propriedade que é retornada pelo método [IMAPIProp::](imapiprop-getproplist.md) getproplist. 
   
- **PR_CONTAINER_HIERARCHY** também pode ser usado para incluir ou excluir uma tabela de hierarquia de uma operação de cópia. Se um cliente especifica **PR_CONTAINER_HIERARCHY** no parâmetro *lpExcludeProps* para [IMAPIProp::CopyTo](imapiprop-copyto.md) em uma operação de cópia, a nova pasta ou o contêiner não dará suporte a tabela de hierarquia da pasta original ou do contêiner. 
+ **PR_CONTAINER_HIERARCHY** também pode ser usado para incluir ou excluir uma tabela de hierarquia de uma operação de cópia. Se um cliente especificar **PR_CONTAINER_HIERARCHY** no parâmetro *lpExcludeProps* para [IMAPIProp:: CopyTo](imapiprop-copyto.md) em uma operação de cópia, a nova pasta ou contêiner não dará suporte à tabela de hierarquia da pasta ou do contêiner original. 
   
-As seguintes propriedades formam o conjunto em uma tabela de hierarquia de colunas necessárias:
+As propriedades a seguir compõem o conjunto de colunas necessárias em uma tabela de hierarquia:
   
 |||
 |:-----|:-----|
@@ -49,23 +49,23 @@ As seguintes propriedades formam o conjunto em uma tabela de hierarquia de colun
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |**PR_STATUS** ([PidTagStatus](pidtagstatus-canonical-property.md))  <br/> |
    
- **PR_DISPLAY_NAME** contém o nome para o contêiner ou a pasta que deve aparecer na exibição da hierarquia. 
+ **PR_DISPLAY_NAME** contém o nome do contêiner ou pasta que deve aparecer na exibição da hierarquia. 
   
- **PR_ENTRYID** é o identificador de entrada associado a este contêiner ou a pasta. Espera-se para ser um identificador de entrada de longo prazo. Clientes e MAPI podem passar esse identificador de entrada para **OpenEntry** para abrir o contêiner ou a pasta e acessar seu conteúdo chamando [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md). 
+ **PR_ENTRYID** é o identificador de entrada associado a este contêiner ou pasta. Espera-se que seja um identificador de entrada de longo prazo. Os clientes e o MAPI podem passar esse identificador de entrada para **OpenEntry** para abrir o contêiner ou a pasta e exibir seu conteúdo chamando [IMAPIContainer::](imapicontainer-getcontentstable.md)getcontenttable. 
   
- **PR_DEPTH** é um valor numérico que indica o nível de recuo para este contêiner ou a pasta com zero sendo de nível superior. Mais aprofundado na hierarquia de um contêiner ou a pasta reside, quanto maior o valor de sua propriedade **PR_DEPTH** . Clientes usam a propriedade **PR_DEPTH** para exibir uma tabela de hierarquia apropriadamente, para que os usuários podem ver claramente relações pai/filho. Profundidade de contêiner ou a pasta é sempre em relação à contêiner ou implementando a tabela de hierarquia de pasta. 
+ **PR_DEPTH** é um valor numérico que indica o nível de recuo para este contêiner ou pasta com nenhum nível superior. Quanto mais profunda na hierarquia de um contêiner ou pasta residir, maior será o valor de sua propriedade **PR_DEPTH** . Os clientes usam a propriedade **PR_DEPTH** para exibir uma tabela de hierarquia apropriadamente para que os usuários possam ver claramente as relações pai e filho. A profundidade de contêiner ou pasta sempre é relativa ao contêiner ou à pasta que está implementando a tabela de hierarquia. 
   
- **PR_OBJECT_TYPE** sempre é definida como MAPI_ABCONT para tabelas de hierarquias de catálogo de endereços e MAPI_FOLDER para tabelas de hierarquias de pasta. 
+ **PR_OBJECT_TYPE** é sempre definido como MAPI_ABCONT para tabelas de hierarquia de catálogos de endereços e MAPI_FOLDER para tabelas de hierarquia de pastas. 
   
- **PR_DISPLAY_TYPE** é um valor numérico que se refere à como um contêiner ou a pasta é exibida na tabela de hierarquia. Ele é usado principalmente para fins de exibição para diferenciar visualmente os tipos de contêineres ou pastas. Mensagem muitos armazenar e ícones de uso de provedores de livro para os tipos de exibição diferentes de endereços. É o provedor de fornecer esses ícones; MAPI não fornecer padrões. 
+ **PR_DISPLAY_TYPE** é um valor numérico que se relaciona com o modo como um contêiner ou pasta é exibido na tabela de hierarquia. É usado principalmente para fins de exibição, para diferenciar visualmente entre tipos de contêineres ou pastas. Muitos provedores de repositório de mensagens e de catálogo de endereços usam ícones para os diferentes tipos de exibição. O provedor deve fornecer esses ícones; MAPI não fornece padrões. 
   
-MAPI define os valores de muitos para **PR_DISPLAY_TYPE**, alguns que são válidos para outras pessoas que são usados com os índices de hierarquia de contêineres do catálogo de endereços e pastas. Normalmente, **PR_DISPLAY_TYPE uma pasta** é definida para DT_FOLDER para indicar um ícone de pasta padrão, DT_FOLDER_LINK para indicar um ícone que representa um link para outra pasta ou DT_FOLDER_SPECIAL para indicar um ícone que é específico do aplicativo. DT_FOLDER_LINK é usado com pastas de resultados de pesquisa. 
+O MAPI define vários valores para **PR_DISPLAY_TYPE**, alguns válidos para pastas e outros usados com as tabelas de hierarquia de contêineres de catálogo de endereços. Normalmente, o **PR_DISPLAY_TYPE** de uma pasta é definido como DT_FOLDER para indicar um ícone de pasta padrão, DT_FOLDER_LINK para indicar um ícone que representa um link para outra pasta ou DT_FOLDER_SPECIAL para indicar um ícone específico do aplicativo. DT_FOLDER_LINK é usado com pastas de resultados de pesquisa. 
   
-Além destas colunas obrigatórias, tabelas de hierarquias de catálogo de endereços devem incluir a propriedade **PR_CONTAINER_FLAGS** . **PR_CONTAINER_FLAGS** indica vários atributos sobre um contêiner na hierarquia e é usado para diferenciar o contêiner de um do outro. 
+Além dessas colunas obrigatórias, as tabelas de hierarquia de catálogos de endereços devem incluir a propriedade **PR_CONTAINER_FLAGS** . **PR_CONTAINER_FLAGS** indica vários atributos sobre um contêiner na hierarquia e é usado para distinguir um contêiner de outro. 
   
-Uma propriedade opcional para tabelas de hierarquias de catálogo de endereços é a propriedade **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)).
+Uma propriedade opcional para tabelas de hierarquia de catálogos de endereços é a propriedade **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)).
   
-Tabelas de hierarquias de armazenamento de mensagens incluem essas propriedades em seu conjunto de coluna necessária:
+As tabelas de hierarquia de repositório de mensagens incluem essas propriedades no conjunto de colunas exigido:
   
 - **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))
     
@@ -75,7 +75,7 @@ Tabelas de hierarquias de armazenamento de mensagens incluem essas propriedades 
     
 - **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
     
-Provedores de catálogo de endereços devem suportar os seguintes métodos **IMAPITable** em suas implementações de tabela da hierarquia porque são necessárias para o catálogo de endereços integrada de MAPI: 
+Os provedores de catálogos de endereços **** devem oferecer suporte aos seguintes métodos imapitados em suas implementações de tabela de hierarquia porque são exigidos pelo catálogo de endereços integrados MAPI: 
   
 |||
 |:-----|:-----|

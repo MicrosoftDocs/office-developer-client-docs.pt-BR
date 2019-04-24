@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagOriginalAuthorEntryId Canonical Property
+title: Propriedade canônica PidTagOriginalAuthorEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 34654660-b003-42f5-9fcd-24ebaccd735d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 03dcc9a1f929bc6f99ca9e1dd9f75f3fb9c3dcb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 866c28bc08f669d18487c99c9a13bc7347b605fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22562964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356200"
 ---
-# <a name="pidtagoriginalauthorentryid-canonical-property"></a>Propriedade canônica PidTagOriginalAuthorEntryId Canonical Property
+# <a name="pidtagoriginalauthorentryid-canonical-property"></a>Propriedade canônica PidTagOriginalAuthorEntryId
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada do autor da primeira versão de uma mensagem, ou seja, a mensagem antes que está sendo encaminhada ou respondida.
+Contém o identificador de entrada do autor da primeira versão de uma mensagem, ou seja, a mensagem antes de ser encaminhada ou respondida.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ORIGINAL_AUTHOR_ENTRYID  <br/> |
 |Identificador:  <br/> |0x004C  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essa propriedade como o valor de **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Ele nunca é alterado quando a mensagem for encaminhada ou respondida. 
+Essa propriedade é uma das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essa propriedade com o valor de **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Ela nunca é alterada quando a mensagem é encaminhada ou respondida. 
   
-A propriedade autor original permite a preservação de informações de fora do domínio de mensagens local. Quando uma mensagem é recebida de outro domínio de mensagens, como a Internet, essa propriedade oferece uma maneira de garantir que as informações originais não serão perdido.
+A propriedade Author original permite preservar as informações de fora do domínio de mensagens local. Quando uma mensagem chega de outro domínio de mensagens, como a partir da Internet, essa propriedade oferece uma maneira de garantir que as informações originais não sejam perdidas.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

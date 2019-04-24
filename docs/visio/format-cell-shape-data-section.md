@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: Especifica a formatação de um item de dados da forma que pode ser uma sequência de caracteres, uma lista fixa, um número, uma lista variável, uma data ou hora, uma duração ou uma moeda.
-ms.openlocfilehash: 48342f21a107ff78fed2347fb679ed8199526056
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346022"
 ---
 # <a name="format-cell-shape-data-section"></a>Célula Format (Seção Shape Data)
 
@@ -24,13 +24,13 @@ Especifica a formatação de um item de dados da forma que pode ser uma sequênc
 
 |**Tipo de item de dados da forma**|**Valor**|**Conteúdo da célula Format**|
 |:-----|:-----|:-----|
-| Sequência de caracteres  <br/> | 0  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| String  <br/> | ,0  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
 | Lista fixa  <br/> | 1  <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
-| Número  <br/> | 2  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
-| Lista variável  <br/> | 4  <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
-| Data ou hora  <br/> | 5  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| Número  <br/> | duas  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| Lista variável  <br/> | quatro  <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
+| Data ou hora  <br/> | 0,5  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
 | Duração  <br/> | 6  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
-| Moeda  <br/> | 7  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| Moeda  <br/> | 178  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
    
 Um exemplo de especificação de uma figura de formatação apropriada para o tipo de dado é a figura de formatação "# #/4 UU" que formata o número 12,43 pol. como 12 2/4 POLEGADAS. Para obter mais informações sobre como especificar uma figura de formatação, consulte [Sobre figuras de formatação](about-format-pictures.md).
   
@@ -44,9 +44,9 @@ Para fazer referência à célula Format pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Prop.  *nome* . Formato onde Prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hélice.  *nome* . Formatar onde prop.  *Name* é o nome da linha  <br/> |
    
-Para fazer referência à célula Format pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Format pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

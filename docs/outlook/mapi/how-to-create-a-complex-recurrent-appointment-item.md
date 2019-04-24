@@ -9,48 +9,48 @@ api_type:
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344531"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>Criar um item de compromisso complexo de recorrência
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI pode ser usado para criar itens de compromisso recorrente.
+MAPI pode ser usado para criar itens de compromisso recorrentes.
   
-Para obter informações sobre como baixar, ler e executar o código do aplicativo MFCMAPI e projeto CreateOutlookItemsAddin referenciado neste tópico, consulte [instalar amostras usadas na seção deste](how-to-install-the-samples-used-in-this-section.md).
+Para obter informações sobre como baixar, exibir e executar o código do aplicativo MFCMAPI e o projeto do CreateOutlookItemsAddin referenciado neste tópico, consulte [install the Samples Used in this section](how-to-install-the-samples-used-in-this-section.md).
 
 ### <a name="to-create-an-appointment-item"></a>Para criar um item de compromisso
 
-1. Abra um armazenamento de mensagens. Para obter informações sobre como abrir um armazenamento de mensagens, consulte [Abrindo um armazenamento de mensagens](opening-a-message-store.md).
+1. Abra um repositório de mensagens. Para obter informações sobre como abrir um repositório de mensagens, consulte [abrir um repositório de mensagens](opening-a-message-store.md).
     
-2. Abra uma pasta de calendário no repositório de mensagem. Consulte **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
+2. Abra uma pasta de calendário no repositório de mensagens. ConFira **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
     
-3. Chame o método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) na pasta de calendário para criar o novo item de compromisso. 
+3. Chame o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) na pasta calendário para criar o novo item de compromisso. 
     
 4. Defina a propriedade **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) e outras propriedades necessárias para criar um compromisso recorrente.
     
 5. Salve o novo item de compromisso.
     
-O `AddAppointment` função no arquivo de origem Appointments.cpp do projeto CreateOutlookItemsAddin demonstra estas etapas. O `AddAppointment` função usa os parâmetros da caixa de diálogo **Adicionar compromisso** que é exibida quando você clicar em **Adicionar compromisso** no menu **Addins** no aplicativo de amostra MFCMAPI. O `DisplayAddAppointmentDialog` funcione no Appointments.cpp exibe a caixa de diálogo e passa os valores da caixa de diálogo para o `AddAppointment` função. O `DisplayAddAppointmentDialog` função não se relacionam diretamente para a criação de um item de compromisso usando MAPI, portanto, não está listado aqui. 
+A `AddAppointment` função no arquivo de origem compromissos. cpp do projeto CreateOutlookItemsAddin demonstra essas etapas. A `AddAppointment` função usa parâmetros da caixa de diálogo **Adicionar compromisso** que é exibida quando você clica em **Adicionar compromisso** no menu **AddIns** no aplicativo de exemplo MFCMAPI. A `DisplayAddAppointmentDialog` função em compromissos. cpp exibe a caixa de diálogo e passa valores da caixa de diálogo para a `AddAppointment` função. A `DisplayAddAppointmentDialog` função não está relacionada diretamente à criação de um item de compromisso usando MAPI, portanto, não está listada aqui. 
   
 > [!IMPORTANT]
-> O código no aplicativo MFCMAPI não garante que a pasta de **calendário** foi selecionada quando você clicar no comando **Adicionar compromisso** no menu **Addins** . Criando um item de compromisso em uma pasta diferente de **calendário** pode causar um comportamento indefinido. Certifique-se de que você selecionou a pasta de **calendário** antes de usar o comando **Adicionar compromisso** no aplicativo MFCMAPI. 
+> O código no aplicativo MFCMAPI não garante que a pasta **calendário** tenha sido selecionada quando você clicar no comando **Adicionar compromisso** no menu AddIns **** . A criação de um item de compromisso em uma pasta diferente da pasta **calendário** pode causar comportamento indefinido. Verifique se você selecionou a pasta **calendário** antes de usar o comando **Adicionar compromisso** no aplicativo MFCMAPI. 
   
-O `AddAppointment` método listado abaixo. Observe que o parâmetro _lpFolder_ passado para o `AddAppointment` método é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta onde o compromisso recorrente é criado. Dado o parâmetro _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . O método **CreateMessage** retorna um código de sucesso e um ponteiro para um ponteiro para uma interface **IMessage** . A maioria do `AddAppointment` o trabalho de especificação de propriedades em preparação para chamar o método [IMAPIProp::SetProps](imapiprop-setprops.md) lida com o código de função. Se a chamada para o método **SetProps** tiver êxito, o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) é chamado para confirmar as alterações para o repositório e criar um novo item de calendário. 
+O `AddAppointment` método está listado abaixo. Observe que o parâmetro _lpFolder_ passado para o `AddAppointment` método é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta onde o compromisso recorrente foi criado. Dado o parâmetro _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . O **** Método CreateMessage retorna um código de êxito e um ponteiro para um ponteiro para uma interface **IMessage** . A maior parte `AddAppointment` do código de função trata do trabalho de especificação de propriedades em preparação para chamar o método [IMAPIProp::](imapiprop-setprops.md) SetProps. Se a chamada para o **** método SetProps for bem-sucedida, o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) será chamado para confirmar as alterações no repositório e criar um novo item de calendário. 
   
-O `AddAppointment` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como eles são criados, consulte [Usando MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Porque as propriedades nomeadas usadas para itens de compromisso ocupam vários conjuntos de propriedade, deve ter cuidado ao construir parâmetros a serem passados para o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+A `AddAppointment` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como elas são criadas, consulte [usando o MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Como as propriedades nomeadas usadas para itens de compromisso ocupam vários conjuntos de propriedades, é necessário tomar cuidado ao criar parâmetros a serem passados para o método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
-O `AddAppointment` função usa várias funções de auxiliar para criar uma estrutura para diversas propriedades relacionados ao compromisso. O `BuildTimeZoneStruct` e `BuildTimeZoneDefinition` funções auxiliares são usadas para criar uma estrutura que especifica as propriedades relacionadas a zona de tempo. As propriedades relacionadas a zona de tempo são **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) e **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), e eles são abordados nas seções correspondentes do [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
+A `AddAppointment` função usa várias funções auxiliares para criar uma estrutura para várias propriedades relacionadas a compromisso. As `BuildTimeZoneStruct` funções `BuildTimeZoneDefinition` e auxiliares são usadas para criar uma estrutura que especifica as propriedades relacionadas ao fuso horário. As propriedades relacionadas ao fuso horário são **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **DispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) e **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)) e são discutidas nas seções correspondentes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
 
-O `BuildGlobalObjectID` função é usada para criar uma estrutura que especifica o **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) e propriedades de **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que são abordadas na seções correspondentes [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). A estrutura que especifica a propriedade **dispidApptRecur** é criada usando o `BuildWeeklyAppointmentRecurrencePattern` função. 
+A `BuildGlobalObjectID` função é usada para criar uma estrutura que especifica as propriedades **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) e **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que são discutidas no seções correspondentes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). A estrutura que especifica a propriedade **dispidApptRecur** é criada usando a `BuildWeeklyAppointmentRecurrencePattern` função. 
 
-Para obter informações sobre a estrutura criada pelo `BuildWeeklyAppointmentRecurrencePattern` função, consulte [A propriedade canônico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Observe que, enquanto uma grande variedade de padrões de recorrência de compromisso, são possíveis, o `BuildWeeklyAppointmentRecurrencePattern` função apenas cria um padrão de recorrência semanal do compromisso. Ele também usa vários valores codificadas, como o tipo de calendário (Gregoriano), o primeiro dia da semana (domingo) e número de modificados ou excluídos de instâncias (nenhum). Uma finalidade mais geral função de criação de padrão de recorrência de compromisso precisaria aceitar esses tipos de variáveis como parâmetros. 
+Para obter informações sobre a estrutura criada pela `BuildWeeklyAppointmentRecurrencePattern` função, consulte [Propriedade canônica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Observe que, embora uma grande variedade de padrões de recorrência de compromisso `BuildWeeklyAppointmentRecurrencePattern` seja possível, a função apenas cria um padrão de recorrência de compromisso semanal. Ele também usa vários valores embutidos em código, como o tipo de calendário (gregoriano), o primeiro dia da semana (domingo) e o número de instâncias modificadas ou excluídas (nenhuma). Uma função de criação de padrão de recorrência de compromisso mais geral precisaria aceitar esses tipos de variáveis como parâmetros. 
   
-O seguinte é a lista completa do `AddAppointment` função. 
+Veja a seguir a listagem completa da `AddAppointment` função. 
   
 ```cpp
 HRESULT AddAppointment(LPMAPIFOLDER lpFolder,

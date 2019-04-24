@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7513e361f4c1c1bcc93cc420f3a1987e0d817c54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9947558975098316a547abfaefcdf5e7d4cd2f41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346533"
 ---
 # <a name="ufromsz"></a>UFromSz
 
@@ -25,13 +25,13 @@ ms.locfileid: "22580499"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Converte uma cadeia de caracteres terminada em nulo de dígitos decimais em um inteiro não assinado. 
+Converte uma cadeia de caracteres decimal terminada em nulo em um inteiro não assinado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 UINT UFromSz(
@@ -43,16 +43,16 @@ UINT UFromSz(
 
  _lpsz_
   
-> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. O parâmetro _lpsz_ não deve exceder 65.536 caracteres. 
+> no Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. O parâmetro _lpsz_ não deve exceder 65536 caracteres. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
- **UFromSz** retorna um inteiro não assinado. Se a cadeia de caracteres não começa com pelo menos um dígito decimal, zero será retornado. 
+ **UFromSz** retorna um inteiro não assinado. Se a cadeia de caracteres não começar com pelo menos um dígito decimal, zero será retornado. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **UFromSz** interrompe convertendo quando atingir o primeiro caractere na cadeia de caracteres que não é um dígito decimal. Por exemplo, devido a cadeia de caracteres "55", **UFromSz** retorna o valor inteiro 55. Considerando a cadeia de caracteres "5a5b", a função retornará o valor de inteiro 5. Considerando a cadeia de caracteres "a5b5", **UFromSz** retornará zero. 
+A função **UFromSz** para de converter quando atinge o primeiro caractere na cadeia de caracteres que não é um dígito decimal. Por exemplo, dado a cadeia de caracteres "55", **UFromSz** retorna o valor inteiro 55. Dada a cadeia de caracteres "5a5b", a função retorna o valor inteiro 5. Dada a cadeia de caracteres "A5B5", **UFromSz** retorna zero. 
   
- **UFromSz** é sensível diferenças diacríticos. As cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de tamanho em _lpsz_ é em caracteres, não necessariamente bytes. 
+ **UFromSz** é sensível a diferenças diacrítico. As cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de tamanho no _lpsz_ está em caracteres, não necessariamente em bytes. 
   
 

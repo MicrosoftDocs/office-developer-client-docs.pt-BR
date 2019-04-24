@@ -1,32 +1,32 @@
 ---
-title: Célula QuickStyleFillMatrix (Seção Quick Style)
+title: Célula QuickStyleFillMatrix (seção Quick Style)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8513cf3f-42bd-4e76-bfa8-8bf12f0d1296
-description: Determina o estilo de preenchimento de estilos rápidos a forma herda o tema ativo, como um inteiro de 0 a 6.
-ms.openlocfilehash: b3e5d8dc4346b6f5d8f73b220f77978a21a680c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o estilo de preenchimento de estilo rápido que a forma herda do tema ativo, como um inteiro de 0-6.
+ms.openlocfilehash: fca0d9f8fe58fdc7c227e9c093b418ffef1ccb52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358713"
 ---
-# <a name="quickstylefillmatrix-cell-quick-style-section"></a>Célula QuickStyleFillMatrix (Seção Quick Style)
+# <a name="quickstylefillmatrix-cell-quick-style-section"></a>Célula QuickStyleFillMatrix (seção Quick Style)
 
-Determina o estilo de preenchimento de estilos rápidos a forma herda o tema ativo, como um inteiro de 0 a 6. 
+Determina o estilo de preenchimento de estilo rápido que a forma herda do tema ativo, como um inteiro de 0-6. 
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **QuickStyleFillMatrix** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **QuickStyleFillMatrix** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | QuickStyleFillMatrix  <br/> |
    
-Para obter uma referência à célula **QuickStyleFillMatrix** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **QuickStyleFillMatrix** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

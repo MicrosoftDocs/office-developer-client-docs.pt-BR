@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0bc4e19271e2747f5ffa8586b9f2ab226d6658b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355794"
 ---
 # <a name="how-do-i-outlook-2013-pia-reference"></a>Como faço para... (Referência do Outlook 2013 PIA)
 
@@ -64,7 +64,7 @@ A equipe da Documentação do Office dá as boas vindas aos seus exemplos de có
 [Anexos](attachments.md)
 
 - [Anexar um arquivo a um item de email](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
-- [Anexar um item de contato do Outlook a uma mensagem de email](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
+- [Anexar um item de Contato do Outlook a uma mensagem de email](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
 - [Limitar o tamanho de um anexo para uma mensagem de email do Outlook](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
 - [Modificar um anexo de uma mensagem de email do Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
 - [Remover os anexos de nível 2 de segurança de mensagens e salvá-los no disco por programação](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4e7d97f4b2043c9ca08e487e52d58fb534c7abef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf9a070e8f892cb7bd4668b3f92397070e5b2284
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342522"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>Propriedade canônica PidTagOriginallyIntendedRecipEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572652"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada do destinatário pretendido originalmente de uma mensagem encaminhada para automático.
+Contém o identificador de entrada do destinatário originalmente planejado de uma mensagem de encaminhamento automático.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o identificador de entrada do destinatário pretendido originalmente de 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço do destinatário pretendido originalmente da mensagem. Ele deve ser definido pelo agente de automática que encaminhou a mensagem.
+Esta propriedade é uma das propriedades de endereço para o destinatário de mensagem originalmente planejado. Ele deve ser definido pelo agente automático que encaminhou a mensagem.
   
-Essa propriedade corresponde ao atributo x. 400 relatório por destinatário.
+Essa propriedade corresponde ao atributo X. 400 Report por destinatário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

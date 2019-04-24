@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ed8e0b1c7a489411ed3ff0b455a91da6aec697c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345966"
 ---
 # <a name="install-mapi-header-files"></a>Instalar arquivos de cabeçalho MAPI
 

@@ -6,11 +6,11 @@ localization_priority: Normal
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: MFCMAPI fornece acesso às lojas MAPI para facilitar a investigação de problemas do Exchange e do Outlook e para fornecer suporte a desenvolvedores para o desenvolvimento de MAPI.
 ms.openlocfilehash: 8a300ad53918b22cc3de5554a1e3c29289cd9365
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345987"
 ---
 # <a name="create-an-outlook-profile-using-mfcmapi"></a>Criar um perfil do Outlook usando MFCMAPI
 

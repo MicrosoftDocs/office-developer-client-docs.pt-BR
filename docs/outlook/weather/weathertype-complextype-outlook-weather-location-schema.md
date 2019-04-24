@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
 description: Define os parâmetros sobre as condições meteorológicas para um local.
 ms.openlocfilehash: c3d640789cb68891878c3dca5210ab9dea280180
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355178"
 ---
 # <a name="weathertype-complextype-outlook-weather-location-schema"></a>weatherType complexType (Esquema de localização do clima do Outlook)
 

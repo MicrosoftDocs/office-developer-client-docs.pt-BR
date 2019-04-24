@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7cae156e29503c8b50755c99023805aa6d14e704
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d3ef8b61b6042d9c3e715168d9131a74facef000
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348066"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
@@ -25,13 +25,13 @@ ms.locfileid: "22573366"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Separa o identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens, no identificador de entrada desse objeto no repositório e o identificador de entrada da loja.
+Separa o identificador de entrada composta de um objeto, geralmente uma mensagem em um repositório de mensagens, no identificador de entrada desse objeto no repositório e no identificador de entrada da loja.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 HrDecomposeEID(
@@ -49,31 +49,31 @@ HrDecomposeEID(
 
  _psession_
   
-> [in] Ponteiro para a sessão em uso pelo aplicativo cliente. 
+> no Ponteiro para a sessão em uso pelo aplicativo cliente. 
     
  _cbEID_
   
-> [in] Tamanho, em bytes, do identificador de entrada compostos sejam separados. 
+> no Tamanho, em bytes, do identificador de entrada composta a ser separado. 
     
  _pEID_
   
-> [in] Ponteiro para o identificador de entrada compostos sejam separados. 
+> no Ponteiro para o identificador de entrada composta a ser separado. 
     
  _pcbStoreEID_
   
-> [out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagem que contém o objeto. Se o parâmetro _pEID_ aponta para um identificador de entrada noncompound, em seguida, o parâmetro _pcbStoreEID_ aponta para um valor de zero. 
+> bota Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagens que contém o objeto. Se o parâmetro _pEID_ apontar para um identificador de entrada não composta, o parâmetro _pcbStoreEID_ apontará para um valor igual a zero. 
     
  _ppStoreEID_
   
-> [out] Ponteiro para um ponteiro para o identificador retornado de entrada do repositório de mensagem que contém o objeto. Se o parâmetro _pEID_ aponta para um identificador de entrada noncompound, NULL é retornado no parâmetro _ppStoreEID_ . 
+> bota Ponteiro para um ponteiro para o identificador de entrada retornado do repositório de mensagens que contém o objeto. Se o parâmetro _pEID_ apontar para um identificador de entrada não composta, NULL será retornado no parâmetro _ppStoreEID_ . 
     
  _pcbMsgEID_
   
-> [out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto. Se o parâmetro _pEID_ aponta para um identificador de entrada noncompound, o parâmetro _pcbMsgEID_ é igual ao valor do parâmetro _cbEID_ . 
+> bota Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto. Se o parâmetro _pEID_ apontar para um identificador de entrada não composta, o parâmetro _pcbMsgEID_ será igual ao valor do parâmetro _cbEID_ . 
     
  _ppMsgEID_
   
-> [out] Ponteiro para um ponteiro para o identificador de entrada retornados do objeto. Se o parâmetro _pEID_ aponta para um identificador de entrada noncompound, _ppMsgEID_ aponta para um ponteiro para uma cópia do identificador de entrada noncompound. 
+> bota Ponteiro para um ponteiro para o identificador de entrada retornado do objeto. Se o parâmetro _pEID_ apontar para um identificador de entrada não composta, _ppMsgEID_ apontará para um ponteiro para uma cópia do identificador de entrada não composto. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -81,10 +81,10 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se o identificador especificado pelo parâmetro _pEID_ for composto, ele é dividido no identificador de entrada do objeto dentro de seu armazenamento de mensagens e o identificador de entrada da loja. Cadeias de caracteres de identificador de entrada noncompound simplesmente são copiadas. O identificador composto sejam separados é geralmente uma criada pela função [HrComposeEID](hrcomposeeid.md) . 
+Se o identificador especificado pelo parâmetro _pEID_ for composto, ele será dividido no identificador de entrada do objeto em seu repositório de mensagens e no identificador de entrada da loja. Cadeias de caracteres de identificador de entrada não compostos são simplesmente copiadas. O identificador composto a ser separado é normalmente um criado pela função [HrComposeEID](hrcomposeeid.md) . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A memória que contém o parâmetro _pEID_ é liberada após a conclusão bem-sucedida dessa função. A implementação de chamada é responsável por liberar memória para os parâmetros de saída. 
+A memória que mantém o parâmetro _pEID_ é liberada após a conclusão com êxito da função. A implementação de chamada é responsável por liberar memória para os parâmetros de saída. 
   
 

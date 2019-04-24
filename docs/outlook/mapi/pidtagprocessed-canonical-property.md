@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5d84e9cb693cbe732295ee1891b4219450eb09ae
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351433"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>Propriedade canônica PidTagProcessed
 
@@ -25,7 +25,7 @@ ms.locfileid: "25385022"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Defina como TRUE quando a solicitação de reunião foi processada.
+Defina como TRUE quando a solicitação de reunião tiver sido processada.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Defina como TRUE quando a solicitação de reunião foi processada.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade garante que as solicitações de reunião obtém processadas uma vez. O criador da solicitação deve definir essa propriedade como FALSE e o receptor deve defini-la como TRUE assim que a solicitação do calendário.
+Essa propriedade garante que as solicitações de reunião sejam processadas uma vez. O criador da solicitação deve definir essa propriedade como FALSE e o receptor deve defini-la como TRUE depois que a solicitação está no calendário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contato e objetos de lista de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para os objetos de contato e lista de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

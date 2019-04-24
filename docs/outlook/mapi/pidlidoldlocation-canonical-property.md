@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f985aecb3d685833f3f680adba96cd49a22b6cc0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345028"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>Propriedade canônica PidLidOldLocation
 
@@ -30,30 +30,30 @@ Indica o valor original da propriedade **dispidLocation** ([PidLidLocation](pidl
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidOldLocation  <br/> |
-|Propriedade definida:  <br/> |PSETID_Meeting  <br/> |
-|ID de longo (LID):  <br/> |0x00000028  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Meeting  <br/> |
+|Long ID (LID):  <br/> |0x00000028  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Reuniões  <br/> |
+|Área:  <br/> |Meetings  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade não é necessária.
+Esta propriedade não é obrigatória.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

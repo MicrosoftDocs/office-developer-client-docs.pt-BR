@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b9c2a1bbf519379c1735c489c2dcd3fcfb395a60
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346372"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>Propriedade canônica PidLidTimeZoneStruct
 
@@ -25,21 +25,21 @@ ms.locfileid: "25401612"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um stream que mapeie para o formato persistente de uma estrutura [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) , que descreve o fuso horário a ser usado para a hora de início e término de uma solicitação de reunião ou um compromisso recorrente. 
+Contém um Stream que mapeia para o formato persistente de uma estrutura [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) , que descreve o fuso horário a ser usado para a hora de início e de término de um compromisso recorrente ou uma solicitação de reunião. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTimeZoneStruct  <br/> |
-|Propriedade definida:  <br/> |PSETID_Appointment  <br/> |
-|ID de longo (LID):  <br/> |0x00008233  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
+|Long ID (LID):  <br/> |0x00008233  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Microsoft Office Outlook 2003, versões anteriores do Outlook e aplicativos que se baseiam em Collaboration Data Objects (CDO) 1.21 cujos usuários não executou a ferramenta de atualização de calendário fornecida pelo Outlook ou o Exchange Server armazenam a hora de início e a hora de término de um recorrente compromisso ou uma solicitação de reunião, como tempo relativo e armazene o fuso horário em que a solicitação de reunião ou compromisso é criada no **dispidTimeZoneStruct**. No entanto, esse esquema ignora que ao longo do tempo, as regras de fuso horário podem mudar, resultando em alguns compromissos e reuniões que os usuários agendado antes que as regras alteradas e ocorrerem em momentos incorretos. Usuários e administradores que não estejam executando o Windows Vista ou que não têm atualizações automáticas ativadas devem usar o calendário a alteração da Base de ferramentas que são fornecidas pelo Outlook ou o Exchange Server para ajustar o tempo de tais compromissos e solicitações de reunião. Para obter mais informações sobre essas ferramentas de REBASE de calendário e APIs que alterar a calendários base, consulte [About REBASE de calendários programaticamente para o horário de verão](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
+Microsoft Office Outlook 2003, versões anteriores do Outlook e aplicativos baseados em Collaboration Data Objects (CDO) 1,21 cujos usuários não executaram a ferramenta de atualização de calendário fornecida pelo Outlook ou pelo Exchange Server Store a hora de início e a hora de término de um compromisso recorrente ou solicitação de reunião como tempo relativo e armazene o fuso horário em que o compromisso ou solicitação de reunião é criado no **dispidTimeZoneStruct**. No enTanto, esse esquema ignora isso com o tempo, as regras de fuso horário podem ser alteradas, resultando em alguns compromissos e reuniões que os usuários agendados antes que as regras sejam alteradas e ocorram em horários incorretos. Os usuários e administradores que não estão executando o Windows Vista ou que não têm as atualizações automáticas ativadas devem usar as ferramentas de alteração de base de calendário fornecidas pelo Outlook ou pelo Exchange Server para ajustar o tempo desses compromissos e solicitações de reunião. Para obter mais informações sobre essas ferramentas e APIs de alteração da base de calendário, consulte sobre como rebasear calendários programaticamente [para horário de verão](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   
-Use o seguinte formato de pouca-endian durante a análise de um stream obtido a partir de **dispidTimeZoneStruct**ou quando mantendo a estrutura **TZREG** a um fluxo para comprometer à propriedade **dispidTimeZoneStruct** binário. 
+Use o seguinte formato little-endian ao analisar um Stream obtido do **dispidTimeZoneStruct**ou quando persistir a estrutura do **TZREG** em um Stream para confirmar a propriedade binária **dispidTimeZoneStruct** . 
   
 ```cpp
 long        lBias;           // offset from GMT
@@ -51,23 +51,23 @@ WORD        wDaylightYear;      // matches the stDaylightDate's wYear field
 SYSTEMTIME  stDaylightDate;  // time to switch to daylight time
 ```
 
-Essa propriedade for definida em uma série recorrente para especificar informações de fuso horário e especifica como converter os campos de hora entre hora local e o tempo Universal Coordenado (UTC).
+Essa propriedade é definida em uma série recorrente para especificar informações de fuso horário e especifica como converter campos de hora entre o horário local e o UTC (tempo Universal Coordenado).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -77,7 +77,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

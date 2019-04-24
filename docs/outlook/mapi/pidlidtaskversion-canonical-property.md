@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3ab77f25-ad11-4501-8d35-ef560c07e2f2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3daf8a04afc9cf47d808b46f2cee010e15a33cf9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356487"
 ---
 # <a name="pidlidtaskversion-canonical-property"></a>Propriedade canônica PidLidTaskVersion
 
@@ -30,32 +30,32 @@ Indica qual cópia é a atualização mais recente de uma tarefa.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskVersion  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008112  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008112  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Atualizações com versões menores que a tarefa são ignoradas. 
+As atualizações com versões menores do que a tarefa são ignoradas. 
   
-Quando a incorporação de uma tarefa em uma comunicação de tarefa, o cliente define a versão atual da tarefa incorporada na comunicação tarefa.
+Ao incorporar uma tarefa em uma comunicação de tarefa, o cliente define a versão atual da tarefa incorporada também na comunicação da tarefa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

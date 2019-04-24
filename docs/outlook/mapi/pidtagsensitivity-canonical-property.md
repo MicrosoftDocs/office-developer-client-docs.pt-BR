@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: eab8ce71d28a672d7069a1c16da5cd2cc2e149f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342501"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriedade canônica PidTagSensitivity
 
@@ -25,24 +25,24 @@ ms.locfileid: "25391735"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor que indica a opinião do remetente da mensagem da sensibilidade de uma mensagem.
+Contém um valor que indica a opinião do remetente da mensagem sobre a sensibilidade de uma mensagem.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SENSITIVITY  <br/> |
 |Identificador:  <br/> |0x0036  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os objetos de mensagem exponham essa propriedade.
+É recomendável que os objetos Message exponham essa propriedade.
   
 Essa propriedade pode ter exatamente um dos seguintes valores:
   
 SENSITIVITY_NONE 
   
-> A mensagem não tem nenhuma sensibilidade especial.
+> A mensagem não tem confidencialidade especial.
     
 SENSITIVITY_PERSONAL 
   
@@ -50,33 +50,33 @@ SENSITIVITY_PERSONAL
     
 SENSITIVITY_PRIVATE 
   
-> A mensagem é particular.
+> A mensagem é privada.
     
 SENSITIVITY_COMPANY_CONFIDENTIAL 
   
-> A mensagem é designada confidencial da empresa.
+> A mensagem é designada pela empresa.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -84,7 +84,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

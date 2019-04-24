@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Você pode usar operadores em fórmulas para executar operações aritméticas (adição, subtração, multiplicação etc.) ou comparações lógicas (maior que, menor que, igual a etc.). Além disso, pode controlar a ordem de avaliação em uma fórmula incluindo expressões entre parênteses. Use o operador E comercial para combinar (concatenar) cadeias de caracteres.
-ms.openlocfilehash: 3a14993ab317d19d0e4a8983e4714f587c235d57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f095df73f9bd1d6a876d975d262c9217c696fb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345280"
 ---
-# <a name="about-operators"></a>Sobre operadores
+# <a name="about-operators"></a>Sobre Operadores
 
 Você pode usar operadores em fórmulas para executar operações aritméticas (adição, subtração, multiplicação etc.) ou comparações lógicas (maior que, menor que, igual a etc.). Além disso, pode controlar a ordem de avaliação em uma fórmula incluindo expressões entre parênteses. Use o operador E comercial para combinar (concatenar) cadeias de caracteres.
   
@@ -24,41 +24,41 @@ O Microsoft Visio tenta converter automaticamente os tipos de dados quando uma o
   
 A tabela a seguir mostra exemplos de expressões e seus resultados.
   
-|**Expression**|**Resultado**|**Descrição**|
+|**Expressão**.|**Resultado**|**Descrição**|
 |:-----|:-----|:-----|
-| 2 \* 5 &amp; "centavos"  <br/> | "10 centavos"  <br/> | O &amp; operador (concatenação de cadeia de caracteres) necessita de argumentos de cadeia de caracteres, portanto o resultado numérico de 2 \* 5 seja automaticamente convertido para a cadeia de caracteres "10".  <br/> |
-| 5 \* "2"  <br/> | 10  <br/> | O \* operador (multiplicação) necessita de argumentos numéricos, de forma a cadeia de caracteres "2" seja automaticamente convertida para o número 2 equivalente.  <br/> |
-| 5 \* "sheep"  <br/> | 0  <br/> | O \* operador (multiplicação) necessita de argumentos numéricos, portanto, pois a cadeia de caracteres "sheep" não puder ser convertida para um número, o zero é utilizado como seu equivalente numérico.  <br/> |
+| 2 \* 5 &amp; "centavos"  <br/> | "10 centavos"  <br/> | O &amp; operador (concatenação de cadeia de caracteres) requer argumentos de cadeia de caracteres, \* portanto, o resultado numérico de 2 5 é convertido automaticamente na cadeia de caracteres "10".  <br/> |
+| 5 \* "2"  <br/> | 254  <br/> | O \* operador (multiplicação) requer argumentos numéricos, portanto, a cadeia de caracteres "2" é automaticamente convertida para o número 2 equivalente.  <br/> |
+| 5 \* "ovelha"  <br/> | ,0  <br/> | O \* operador (multiplicação) requer argumentos numéricos, portanto, porque a cadeia de caracteres "ovelha" não pode ser convertida para um número, zero é usado como seu equivalente numérico.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Operadores aritméticos
 
 Os operadores aritméticos executam operações em números. Os operadores de mais (+) e menos (-) podem ser utilizados sozinhos como operadores unários para determinar o sinal de um número. O operador de por cento (%) também é um operador unário e identifica o número como uma porcentagem.
   
-|**Operador**|**Action**|**Exemplo**|**Resultado**|
+|**Operator**|**Action**|**Exemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|
-| +  <br/> | Mais unário  <br/> | +37  <br/> | 37  <br/> |
+| +  <br/> | Mais unário  <br/> | + 37  <br/> | 37  <br/> |
 | -  <br/> | Menos unário  <br/> | -37  <br/> | -37  <br/> |
 | %  <br/> | Porcentagem unária  <br/> | 37%  <br/> | .37  <br/> |
-| ^  <br/> | Exponenciação  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplicação  <br/> | 5 \* 2  <br/> | 10  <br/> |
+| ^  <br/> | Exponencial  <br/> | 5 ^ 2  <br/> | 25  <br/> |
+| \*  <br/> | Multiplicação  <br/> | 5 \* 2  <br/> | 254  <br/> |
 | /  <br/> | Divisão  <br/> | 5 / 2  <br/> | 2.5  <br/> |
-| +  <br/> | Adição  <br/> | 5 + 2  <br/> | 7  <br/> |
-| -  <br/> | Subtração  <br/> | 5 - 2  <br/> | 3  <br/> |
+| +  <br/> | Adição  <br/> | 5 + 2  <br/> | 178  <br/> |
+| -  <br/> | Subtração  <br/> | 5 - 2  <br/> | 3D  <br/> |
    
 ## <a name="comparison-operators"></a>Operadores de comparação
 
 Os operadores de comparação são utilizados para a criação de expressões lógicas. Uma expressão lógica pode ser avaliada como VERDADEIRO ou FALSO.
   
-|**Operador**|**Alternativa**|**Action**|**Exemplo**|**Resultado**|
+|**Operator**|**Alternativas**|**Action**|**Exemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|:-----|
-| \>  <br/> | _GT_  <br/> | Maior que  <br/> | 5 \> 2  <br/> | VERDADEIRO  <br/> |
-| \<  <br/> | _LT_  <br/> | Menor que  <br/> | 5 \< 2  <br/> | FALSO  <br/> |
-| \>=  <br/> | _GE_  <br/> | Maior que ou igual a  <br/> | 5 \>= 2  <br/> | VERDADEIRO  <br/> |
-| \<=  <br/> | _LE_  <br/> | Menor que ou igual a  <br/> | 5 \<= 2  <br/> | FALSO  <br/> |
-| =  <br/> | _EQ_  <br/> | É igual a  <br/> | 5 = 2  <br/> | FALSO  <br/> |
-| \<\>  <br/> | _NE_  <br/> | É diferente de  <br/> | 5 \< \> 2  <br/> | VERDADEIRO  <br/> |
+| \>  <br/> | _GT_  <br/> | Maior que  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
+| \<  <br/> | _<_  <br/> | Menor que  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
+| \>=  <br/> | _PÁ_  <br/> | Maior que ou igual a  <br/> | 5 \>= 2  <br/> | TRUE  <br/> |
+| \<=  <br/> | _QUIVO_  <br/> | Menor que ou igual a  <br/> | 5 \<= 2  <br/> | FALSE  <br/> |
+| =  <br/> | _ESTÚDIO_  <br/> | É igual a  <br/> | 5 = 2  <br/> | FALSE  <br/> |
+| \<\>  <br/> | _PRÓXIMO_  <br/> | É diferente de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
    
-Os operadores de comparação simbólicos (\>, \<, e assim por diante) são a melhor escolha para a maioria das comparações. Os operadores alternativos (_GT_, _LT_e assim por diante) realizam uma comparação exata para os 15 dígitos de precisão Visio usa para armazenar os valores internamente.
+Os operadores de comparação simbólico\>( \<, e assim por diante) são a melhor opção para a maioria das comparações. Os operadores alternativos (_gt_, _lt_e assim por diante) realizam uma comparação exata com 15 dígitos inteiros de precisão que o Visio usa para armazenar valores internamente.
   
 Ao comparar valores arredondados ou calculados utilizando os operadores alternativos, FALSO pode ser retornado, quando para todos os objetivos práticos a expressão deveria ser avaliada como VERDADEIRO.
   
@@ -68,22 +68,22 @@ Quando operadores de comparação são utilizados para comparar cadeias de carac
 
 Quando uma fórmula contém mais de uma expressão, as expressões são avaliadas em ordem de acordo com a operação que está sendo executada. A tabela a seguir mostra a ordem de avaliação dos operadores no Visio.
   
-|**Order**|**Action**|**Operador**|
+|**Order**|**Action**|**Operator**|
 |:-----|:-----|:-----|
 |Primeiro  <br/> |Positivo  <br/> |+ (unário)  <br/> |
 ||Negativo  <br/> |- (unário)  <br/> |
 ||Por cento  <br/> |% (unário)  <br/> |
-|Segundo  <br/> |Exponenciação  <br/> |^  <br/> |
-|Terceiro  <br/> |Multiplicação  <br/> |\*  <br/> |
+|Segundo  <br/> |Exponencial  <br/> |^  <br/> |
+|Terceira  <br/> |Multiplicação  <br/> |\*  <br/> |
 ||Divisão  <br/> |/  <br/> |
-|Quarto  <br/> |Adição  <br/> |+  <br/> |
+|Etapa  <br/> |Adição  <br/> |+  <br/> |
 ||Subtração  <br/> |-  <br/> |
 |Quinto  <br/> |Concatenação de cadeia de caracteres  <br/> |&amp;  <br/> |
 |Sexto  <br/> |Maior que  <br/> |\>ou GT  <br/> |
 ||Maior que ou igual a  <br/> |\>= ou GE  <br/> |
 ||Menor que  <br/> |\<ou LT  <br/> |
 ||Menor que ou igual a  <br/> |\<= ou LE  <br/> |
-|Sétimo  <br/> |Igual  <br/> |= ou EQ  <br/> |
+|Sétimo  <br/> |Igual a  <br/> |= ou EQ  <br/> |
 ||Diferente  <br/> |\<\>ou NE  <br/> |
    
 Você pode alterar a ordem de avaliação incluindo expressões entre parênteses. O Visio avalia as expressões entre parênteses primeiro, da esquerda para a direita. Por exemplo:
@@ -98,10 +98,10 @@ Se as expressões entre parênteses estiverem aninhadas, a expressão no conjunt
 
 O operador E comercial retorna uma nova cadeia de caracteres. É possível criar palavras compostas e frases usando o operador E comercial. Use a sintaxe a seguir:
   
-"Sequência1" &amp; "string2"
+"seqüência1" &amp; "seqüência2"
   
  **Exemplo**
   
-"dog" &amp; "house" retorna "doghouse"
+"cachorro" &amp; "House" retorna "Doghouse"
   
 

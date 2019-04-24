@@ -8,11 +8,11 @@ ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Leia sobre o novo formato de arquivo no Visio 2013, explore alguns conceitos de alto nível para trabalhar programaticamente com o novo formato de arquivo do Visio 2013 e crie um aplicativo de console simples que examinará um arquivo do Visio 2013.
 localization_priority: Priority
 ms.openlocfilehash: 74c0f05a1db280386f3dc9dfd23da73a9b2daaf5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357271"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Introdução ao formato de arquivo do Visio (.vsdx)
 

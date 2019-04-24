@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4b610415089ff19165ffcabc9e13901ed63c907d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345834"
 ---
 # <a name="mapi-object-inheritance-hierarchy"></a>Hierarquia de herança de objeto MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Todas as interfaces implementadas por objetos MAPI basicamente herdem [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), a interface OLE que permite a comunicação entre objetos. A maioria das interfaces herde diretamente **IUnknown**, mas algumas herdarem de uma das duas interfaces de base: [IMAPIProp: IUnknown](imapipropiunknown.md) ou [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). A ilustração a seguir mostra a hierarquia de herança completa em MAPI.
+Todas as interfaces implementadas por objetos MAPI basicamente herdam de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), a interface OLE que permite que os objetos se comuniquem. A maioria das interfaces herda diretamente de **IUnknown**, mas algumas herdam de uma das duas interfaces base: [IMAPIProp: IUnknown](imapipropiunknown.md) ou [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). A ilustração a seguir mostra a hierarquia de herança completa em MAPI.
   
 **MAPI inheritance hierarchy**
   
@@ -29,5 +29,5 @@ Todas as interfaces implementadas por objetos MAPI basicamente herdem [IUnknown]
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md) 
 - [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-- [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
+- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
 

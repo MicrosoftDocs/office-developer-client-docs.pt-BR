@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f0b8b27eb65ef32f95d5529879dde2721e280e26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349515"
 ---
 # <a name="create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject"></a>Criar uma regra para atribuir categorias a itens de email com base em várias palavras utilizadas no assunto
 
@@ -31,7 +31,7 @@ As propriedades que você pode usar para acessar ou definir uma matriz são as s
 
 No exemplo a seguir o CreateTextAndCategoryRule usa o método CategoryExists para verificar os itens de email do usuário para qualquer categoria pelo nome "Office" ou "Outlook" no conjunto **categorias**. Se nenhuma categoria for encontrada, eles serão adicionados. O exemplo em seguida cria uma matriz de cadeias de caracteres que incluem "Office","Outlook" e "2007". Essa matriz representará condições para serem avaliadas. O CreateTextAndCategoryRule cria uma regra que atribui categorias examinando o assunto para qualquer uma das condições da matriz usando a propriedade **texto** do objeto **TextRuleCondition** e a propriedade[BodyOrSubject](https://msdn.microsoft.com/library/bb612744\(v=office.15\)) do conjunto [RuleConditions](https://msdn.microsoft.com/library/bb610965\(v=office.15\)). Se a condição é atendida, as categorias do Office e do Outlook são atribuídas para o item usando o método[AssignToCategory](https://msdn.microsoft.com/library/bb623146\(v=office.15\)) do objeto [RuleActions](https://msdn.microsoft.com/library/bb610113\(v=office.15\)).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importa a namespace **Microsoft.Office.Interop.Outlook**. A instrução**usando** não deve se situar antes de funções no exemplo de código mas deve ser adicionada antes da declaração classe pública. A seguinte linha de código mostra como fazer a importação e de tarefa em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importa a namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

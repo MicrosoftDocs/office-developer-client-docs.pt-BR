@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b1ebf5c-3355-4691-bf7b-164d0c411d0c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 526cb55ab8efd2ccd05c1ed5bc91b871ee5b8280
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1ddd8812962fa962f4f2958b5ef3d817f6d2142c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356655"
 ---
 # <a name="pidtagservertypedisplayname-canonical-property"></a>Propriedade canônica PidTagServerTypeDisplayName
 
@@ -21,14 +21,14 @@ ms.locfileid: "22566562"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a cadeia de caracteres Unicode para exibir na barra de status com esta propriedade.
+Especifica a cadeia de caracteres Unicode a ser exibida na barra de status com esta propriedade.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SERVER_TYPE_DISPLAY_NAME  <br/> |
 |Identificador:  <br/> |0x341D  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Comuns  <br/> |
+|Área:  <br/> |Comum  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -36,7 +36,7 @@ Especifica a cadeia de caracteres Unicode para exibir na barra de status com est
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

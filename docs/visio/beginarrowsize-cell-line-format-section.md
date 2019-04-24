@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: Determina o tamanho da ponta de seta no início da linha.
-ms.openlocfilehash: b38e4a0685fce6d7f4aea2192ed123665eacf40a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c1288ced747c4e16090013cc043b040f1fbb59c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346225"
 ---
 # <a name="beginarrowsize-cell-line-format-section"></a>Célula BeginArrowSize (Seção Line Format)
 
 Determina o tamanho da ponta de seta no início da linha.
   
-|**Valor**|**Size**|**Constante de automação**|
+|**Valor**|**Tamanho**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
-| 1  <br/> | Pequeno  <br/> |**visArrowSizeSmall** <br/> |
-| 2  <br/> | Médio  <br/> |**visArrowSizeMedium** <br/> |
-| 3  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
-| 4  <br/> | Muito grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5  <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+| ,0  <br/> | Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
+| 1  <br/> | Small  <br/> |**visArrowSizeSmall** <br/> |
+| duas  <br/> | Média  <br/> |**visArrowSizeMedium** <br/> |
+| 3D  <br/> | Large  <br/> |**visArrowSizeLarge** <br/> |
+| quatro  <br/> | Muito grande  <br/> |**visArrowSizeVeryLarge** <br/> |
+| 0,5  <br/> | Empréstimo  <br/> |**visArrowSizeJumbo** <br/> |
 | 6  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Comentários

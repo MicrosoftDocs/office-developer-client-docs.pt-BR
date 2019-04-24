@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345714"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propriedade canônica PidTagClientSubmitTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "25385834"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora que o remetente da mensagem enviada uma mensagem. 
+Contém a data e a hora em que o remetente da mensagem enviou uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém a data e hora que o remetente da mensagem enviada uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-O provedor de armazenamento define **PR_CLIENT_SUBMIT_TIME** até o momento em que o aplicativo cliente chamado [IMessage::SubmitMessage](imessage-submitmessage.md). 
+O provedor de repositório define **PR_CLIENT_SUBMIT_TIME** para o momento em que o aplicativo cliente chamado [IMessage:: SubmitMessage](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

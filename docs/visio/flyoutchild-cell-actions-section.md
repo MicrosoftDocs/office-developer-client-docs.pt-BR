@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: Determina se a linha é um menu de submenu filho da última linha acima da que não é filha de submenu.
-ms.openlocfilehash: 8a41721f91fa9632246e512cfd4ba1a2d871ece5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85524ea33258449f5c9ee0991ac9a64f8f0eebae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346148"
 ---
-# <a name="flyoutchild-cell-actions-section"></a>Célula FlyoutChildd (Seção Actions)
+# <a name="flyoutchild-cell-actions-section"></a>Célula FlyoutChild (Seção Actions)
 
 Determina se a linha é um menu de submenu filho da última linha acima da que não é filha de submenu. 
   
@@ -26,7 +26,7 @@ Para obter uma referência à célula FlyoutChild pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações de FlyoutChildwhere.  *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Ações Flyoutchildonde.  *Name* é o nome da linha de ações  <br/> |
    
 Para obter uma referência à célula FlyoutChild pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

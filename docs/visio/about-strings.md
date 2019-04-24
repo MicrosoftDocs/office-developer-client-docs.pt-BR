@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251826
 localization_priority: Normal
 ms.assetid: e1174d8f-70cb-4595-7906-889da15367db
-description: 'Fórmulas que podem conter cadeias de caracteres. Para formatar a saída de cadeia de caracteres, como em uma célula prompt, um valor de item de dados da forma ou um campo de texto, você deve especificar uma figura de formatação. Saída pode ser formatada como um par de unidade numérica, cadeia de caracteres, data / hora, duração ou uma moeda. Por exemplo, os uuformats de #/ 10 formato picture0 a unidade de número emparelhar 10,9 cm as10 9/10 centímetros.'
-ms.openlocfilehash: 1fd003ecd5c824042e97a40fa8374aeead254ddc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'As fórmulas podem conter sequências de caracteres. Para formatar a saída da sequência, como em uma célula de prompt, um valor de item de dados da forma ou um campo de texto, especifique uma figura de formatação. A saída pode ser formatada como um par de unidade numérica, uma sequência de caracteres, uma data ou hora, uma duração ou uma moeda. Por exemplo, o formato picture0 #/10 uuformats o par número da unidade, 10.9 cm As10 9/10 centímetros.'
+ms.openlocfilehash: aa95e11db387913edbb40292f7da6a0f4b8a5cf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345063"
 ---
-# <a name="about-strings"></a>Sobre cadeias de caracteres
+# <a name="about-strings"></a>Sobre Sequências de Caracteres
 
 As fórmulas podem conter sequências de caracteres. Para formatar a saída da sequência, como em uma célula de prompt, um valor de item de dados da forma ou um campo de texto, especifique uma figura de formatação. A saída pode ser formatada como um par de unidade numérica, uma sequência de caracteres, uma data ou hora, uma duração ou uma moeda. Por exemplo, a figura de formatação "0 #/10 uu" formata o par de unidade numérica 10,9 cm como "10 9/10 centímetros".
   
-Você pode usar figuras de formatação na célula **Format** da seção dados da forma e como um argumento para a função **FORMAT** ou **FORMATEX** . Quando você insere um campo de texto, figuras de formatação aparecem na lista de formatos na caixa de diálogo **campo** (guia**Inserir** ). 
+Você pode usar Format Pictures na célula **Format** da seção Shape data e como um argumento para a função **Format** ou **FORMATEX** . Quando você insere um campo de texto, as imagens de formatação são exibidas na lista de formatações da caixa de diálogo **Campo** (guia **Inserir**). 
   
 ## <a name="using-functions-to-format-strings"></a>Usando funções para formatar sequências de caracteres
 
-Em qualquer fórmula que resulta em uma cadeia de caracteres, incluindo fórmulas de campo de texto personalizado, você pode usar a função **FORMAT** ou **FORMATEX** . A função FORMAT retorna uma cadeia de caracteres da saída formatada. A função **FORMATEX** converte a entrada não digitada para as unidades que você escolher para o resultado formatado. 
+Em qualquer fórmula que seja resolvida como uma cadeia de caracteres, incluindo fórmulas de campos de texto personalizados, você pode usar a função **Format** ou **FORMATEX** . A função FORMAT retorna uma sequência de caracteres da saída formatada. A função **FORMATEX** converte entradas não digitadas nas unidades escolhidas para o resultado formatado. 
   
 ## <a name="displaying-formatted-shape-data"></a>Exibindo dados de forma formatados
 
@@ -32,7 +32,7 @@ Você pode formatar o valor exibido de um item de dados da forma inserindo uma i
   
 Por exemplo, a forma do cronograma de um projeto pode ter um item de dados da forma para medir o custo de um processo. Como padrão, o valor de um item de dados da forma é uma sequência de caracteres. Para formatar a sequência "1200", você pode inserir "$###,###.00" na célula Format de forma que os usuários possam visualizar uma moeda.
   
-Microsoft Visio utiliza as configurações na guia **moeda** , na caixa de diálogo **Personalizar formato** no item de **região e idioma** no painel de controle para determinar o símbolo de moeda e de milhar separador para exibir. (No **Painel de controle**, clique em **região e idioma**e, em seguida, clique em **Configurações adicionais**).
+O Microsoft Visio usa as configurações na guia **Moeda** na caixa de diálogo **Personalizar Formato** no item **Região e Idioma** no Painel de Controle para determinar o símbolo da moeda e o separador de milhar a ser exibido. No **painel de controle**, clique em **região e idioma**e, em seguida, clique em **configurações adicionais**.
   
 Para converter uma sequência de caracteres no valor de uma moeda, de forma que você possa efetuar cálculos com o valor, use a função CY.
   

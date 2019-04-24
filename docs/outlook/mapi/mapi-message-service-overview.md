@@ -1,5 +1,5 @@
 ---
-title: Visão geral do serviço de mensagem MAPI
+title: Visão geral do serviço de mensagens MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8973cdcee2b10346d0ba07033357b50f7e9a6a27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345974"
 ---
-# <a name="mapi-message-service-overview"></a>Visão geral do serviço de mensagem MAPI
+# <a name="mapi-message-service-overview"></a>Visão geral do serviço de mensagens MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um serviço de mensagem define um grupo de provedores de serviço relacionado, normalmente os provedores de serviços que funcionam com o mesmo sistema de mensagens. Enquanto os provedores de serviços de executam o trabalho de comunicação entre sistemas de mensagens e o subsistema MAPI, serviços de mensagem realizar o trabalho de interface entre o usuário e os provedores de serviços que funcionam com um sistema de mensagens comuns.  
+Um serviço de mensagens define um grupo de provedores de serviços relacionados, geralmente provedores de serviços que funcionam com o mesmo sistema de mensagens. Enquanto os provedores de serviços realizam o trabalho de comunicação entre sistemas de mensagens e o subsistema MAPI, os serviços de mensagens executam o trabalho de interface entre o usuário e os provedores de serviço que funcionam com um sistema de mensagens comum.  
   
-Serviços de mensagens existem para facilitar a instalação e configuração dos provedores de serviços para os usuários. Usuários nunca diretamente instalar ou configurar um provedor de serviços; o serviço de mensagem completamente trata a instalação e configuração de cada um dos provedores de serviços que pertencem ao serviço. Devido a esse recurso, os usuários não precisará estar familiarizado com os requisitos de configuração de provedor de serviço específico. 
+Os serviços de mensagens existem para facilitar a instalação e a configuração de provedores de serviços para os usuários. Os usuários nunca instalam ou configuram diretamente um provedor de serviços; o serviço de mensagens lida totalmente com a instalação e a configuração de cada um dos provedores de serviços que pertencem ao serviço. Devido a esse recurso, os usuários não precisam estar familiarizados com os requisitos de configuração específicos do provedor de serviços. 
   
-A figura a seguir mostra a relação entre dois serviços de mensagem e de um aplicativo cliente baseado em mensagens.
+A figura a seguir mostra a relação entre um aplicativo cliente baseado em mensagens e dois serviços de mensagens.
   
 **Message service installation and configuration**
   
-![Configuração e instalação do serviço de mensagem] (media/amapi_44.gif "Configuração e instalação do serviço de mensagem")
+![Instalação e configuração do serviço de mensagens] (media/amapi_44.gif "Instalação e configuração do serviço de mensagens")
   
-O usuário chama o código de instalação de cada serviço de mensagem para adicionar o serviço e seus provedores de serviço a um perfil. Em um dos serviços de mensagem mostrados na figura, há três provedores de serviços; o outro serviço de mensagem, há dois provedores de serviço. Em algum momento posterior após a instalação for concluída, geralmente no momento do logon, os provedores de serviços em cada serviço de mensagem são configurados. O código de configuração de cada serviço de mensagem lida com a configuração dos provedores no serviço.
+O usuário invoca o código de instalação de cada serviço de mensagens para adicionar o serviço e seus provedores de serviço a um perfil. Em um dos serviços de mensagens mostrados na figura, há três provedores de serviços; no outro serviço de mensagens, há dois provedores de serviços. Em algum momento posterior, após a conclusão da instalação, geralmente no momento do logon, os provedores de serviço em cada serviço de mensagens são configurados. O código de configuração em cada serviço de mensagens trata da configuração dos provedores no serviço.
   
-Quando um serviço de mensagem é instalado, o seu programa de instalação copia os arquivos necessários da origem de instalação no disco local do usuário e atualiza um arquivo de configuração, Mapisvc. O arquivo Mapisvc contém definições de configuração para todos os serviços de mensagens e provedores de serviços que podem ser instalados no computador. Ele é organizado nas seções hierárquicas, com links entre cada seção em cada nível. Seção de nível superior contém informações relevantes para o subsistema MAPI, como uma lista de todos os serviços de mensagens disponível e para a instalação da Ajuda online. O próximo nível tem seções para cada serviço de mensagem, com informações como o nome do arquivo DLL do serviço de mensagem e o nome da sua função de ponto de entrada de configuração. O terceiro nível tem seções com dados de configuração para cada provedor de serviço no serviço de mensagem. 
+Quando um serviço de mensagens é instalado, seu programa de instalação copia os arquivos necessários da origem de instalação para o disco local do usuário e atualiza um arquivo de configuração, MAPISVC. inf. O arquivo MAPISVC. inf contém definições de configuração para todos os serviços de mensagens e provedores de serviços que podem ser instalados no computador. Ele é organizado em seções hierárquicas, com links entre cada seção em cada nível. A seção no nível superior contém informações relevantes para o subsistema MAPI, como uma lista de todos os serviços de mensagens disponíveis e para a instalação da ajuda online. O próximo nível tem seções para cada serviço de mensagens, com informações como o nome de arquivo DLL do serviço de mensagens e o nome de sua função de ponto de entrada de configuração. O terceiro nível tem seções com dados de configuração para cada provedor de serviços no serviço de mensagens. 
   
-Para lidar com a configuração, um serviço de mensagem implementa uma função de ponto de entrada que seja compatível com um protótipo definido por MAPI e uma caixa de diálogo tabulada conhecido como uma folha de propriedades. MAPI chama a função do ponto de entrada para solicitações de cliente de serviço relacionados ao gerenciamento de perfil e o gerenciamento dos provedores de serviço no serviço de mensagem. Folhas de propriedade são usadas para exibir e alterar propriedades de configuração de provedor de serviço e de serviço de mensagem. 
+Para lidar com a configuração, um serviço de mensagens implementa uma função de ponto de entrada que é compatível com um protótipo definido por MAPI, e uma caixa de diálogo com guias conhecida como folha de propriedades. MAPI chama a função de ponto de entrada para atender às solicitações de cliente relacionadas ao gerenciamento de perfil e ao gerenciamento de provedores de serviços no serviço de mensagens. As folhas de propriedades são usadas para exibir e alterar as propriedades de configuração do provedor de serviço e serviço de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Arquitetura e os recursos MAPI](mapi-features-and-architecture.md)
+- [Recursos e arquitetura MAPI](mapi-features-and-architecture.md)
 

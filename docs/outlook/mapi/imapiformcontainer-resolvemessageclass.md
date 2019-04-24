@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: db4b8d99c960deb3de3d228b2bf9549738501bcc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0954d6f8b14b4088ece2ac276b045b6c163ed98
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342158"
 ---
 # <a name="imapiformcontainerresolvemessageclass"></a>IMAPIFormContainer::ResolveMessageClass
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576278"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Resolve uma classe de mensagem para o seu formulário em um contêiner de formulário e retorna um objeto de informações de formulário para nesse formulário.
+Resolve uma classe de mensagem para seu formulário em um contêiner de formulário e retorna um objeto de informações de formulário para esse formulário.
   
 ```cpp
 HRESULT ResolveMessageClass(
@@ -39,47 +39,47 @@ HRESULT ResolveMessageClass(
 
  _szMessageClass_
   
-> [in] Uma cadeia de caracteres que nomeia a classe de mensagem que está sendo resolvida. Nomes de classe de mensagem são sempre cadeias de caracteres ANSI, Unicode nunca.
+> no Uma cadeia de caracteres que nomeia a classe da mensagem que está sendo resolvida. Os nomes de classe de mensagem são sempre cadeias de caracteres ANSI, nunca Unicode.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a classe da mensagem for resolvida. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como a classe da mensagem é resolvida. O seguinte sinalizador pode ser definido:
     
 MAPIFORM_EXACTMATCH 
   
-> Apenas mensagem classe cadeias de caracteres que são uma correspondência exata devem ser resolvidas.
+> Somente as cadeias de caracteres de classe de mensagem que têm uma correspondência exata devem ser resolvidas.
     
  _ppforminfo_
   
-> [out] Um ponteiro para um ponteiro para o objeto de informações do formulário retornado.
+> bota Um ponteiro para um ponteiro para o objeto de informações do formulário retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> A classe de mensagem passada no parâmetro _szMessageClass_ não coincide com a classe de mensagem para qualquer formulário no contêiner do formulário. 
+> A classe de mensagem passada no parâmetro _szMessageClass_ não corresponde à classe de mensagem de nenhum formulário no contêiner de formulários. 
     
 ## <a name="remarks"></a>Comentários
 
-Aplicativos cliente chamam o método de **IMAPIFormContainer::ResolveMessageClass** para resolver uma classe de mensagem para um formulário dentro de um contêiner de formulário. O objeto de informações do formulário retornado no parâmetro _ppforminfo_ fornece mais acesso às propriedades do formulário com a classe de mensagem determinado. 
+Os aplicativos cliente chamam o método **IMAPIFormContainer:: ResolveMessageClass** para resolver uma classe de mensagem para um formulário dentro de um contêiner de formulários. O objeto de informações de formulário retornado no parâmetro _ppforminfo_ fornece acesso adicional às propriedades do formulário com a classe de mensagem determinada. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para resolver uma classe de mensagem para um formulário, passar o nome de classe de mensagem a ser resolvido (por exemplo, `IPM.HelpDesk.Software`). Para forçar a resolução para ser exato (ou seja, para evitar a resolução para uma classe base da classe de mensagem), o sinalizador MAPIFORM_EXACTMATCH pode ser passado no parâmetro _ulFlags_ . 
+Para resolver uma classe de mensagem para um formulário, passe o nome da classe da mensagem a ser resolvida (por exemplo `IPM.HelpDesk.Software`,). Para forçar a resolução a ser exata (ou seja, para impedir a resolução de uma classe base da classe Message), o sinalizador MAPIFORM_EXACTMATCH pode ser passado no parâmetro _parâmetroulflags_ . 
   
-O identificador de classe para a classe de mensagem resolvido é retornado como parte do objeto de informações de formulário. Não presuma que o identificador de classe existe na biblioteca do OLE até depois que você chama o método o [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
+O identificador de classe da classe de mensagem resolvida é retornado como parte do objeto de informações do formulário. Não presuma que o identificador de classe existe na biblioteca OLE até que você chame o método [IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md) ou [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMessageClass  <br/> |MFCMAPI usa o método **IMAPIFormContainer::ResolveMessageClass** para localizar um formulário que está associado uma classe de mensagem.  <br/> |
+|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnResolveMessageClass  <br/> |MFCMAPI usa o método **IMAPIFormContainer:: ResolveMessageClass** para localizar um formulário que é associado a uma classe de mensagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

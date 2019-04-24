@@ -1,5 +1,5 @@
 ---
-title: Texto formatado anexos de renderização de suporte
+title: Suporte a anexos de renderização de texto formatado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f03530f994fd13e7dc4c7eaa4124900c28e613b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350698"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>Suporte a texto formatado: anexos de renderização
 
@@ -21,20 +21,20 @@ ms.locfileid: "22580310"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo cliente que se importa onde em uma mensagem em seus respectivos anexos são renderizados define a propriedade de **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para esses anexos durante composição de mensagem. Um cliente que não está preocupado posicionamento de renderização deixa essa propriedade não definidas.
+Um aplicativo cliente que se preocupa com o local em que seus anexos são processados define a propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) desses anexos durante a composição da mensagem. Um cliente que não se preocupa com o posicionamento de renderização deixa essa propriedade desdefinida.
   
-Quando um cliente abre uma mensagem com anexos, ele tenta recuperar a propriedade **PR_RENDERING_POSITION** de cada anexo para determinar onde no texto da mensagem o anexo deve ser renderizado. Um cliente pode usar um dos métodos a seguir para recuperar **PR_RENDERING_POSITION**:
+Quando um cliente abre uma mensagem com anexos, ele tenta recuperar a propriedade **PR_RENDERING_POSITION** de cada anexo para determinar onde no texto da mensagem o anexo deve ser renderizado. Um cliente pode usar um dos seguintes métodos para recuperar o **PR_RENDERING_POSITION**:
   
-- [IMAPIProp::GetProps](imapiprop-getprops.md) no anexo abrir para recuperar a propriedade **PR_RENDERING_POSITION** . 
+- [IMAPIProp::](imapiprop-getprops.md) GetProps no anexo aberto para recuperar a propriedade **PR_RENDERING_POSITION** . 
     
-- [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) na mensagem de abrir para recuperar sua tabela de anexo. **PR_RENDERING_POSITION** é uma coluna necessária em todas as tabelas de anexo. Este é o método preferencial porque ele implica em um melhor desempenho. 
+- [IMessage::](imessage-getattachmenttable.md) GetAttachmentTable na mensagem aberta para recuperar sua tabela de anexos. **PR_RENDERING_POSITION** é uma coluna obrigatória em todas as tabelas de anexo. Esse é o método preferencial porque resulta em um melhor desempenho. 
     
-Repositórios de mensagem RTF reconhecimento podem escolher se deve retornar um valor preciso ou aproximado para **PR_RENDERING_POSITION**. Porque a mensagem repositórios recalcular o valor de **PR_RENDERING_POSITION** um anexo quando for solicitado para a propriedade **PR_BODY** da mensagem, alguns mensagem RTF reconhecimento armazena garantia apenas a precisão dos posições de renderização quando um cliente solicita primeiro **PR_BODY**. Repositórios de mensagem RTF reconhecimento têm permissão para fornecer a clientes com valores de posição de renderização aproximado para aprimorar o desempenho. Fornecer uma aproximado em vez de uma posição de renderização precisas economiza tempo e é suficiente para a maioria das situações. 
+Os repositórios de mensagens com reconhecimento de RTF podem escolher se desejam retornar um valor exato ou aproximado para **PR_RENDERING_POSITION**. Como os repositórios de mensagens recalculam o valor do **PR_RENDERING_POSITION** de um anexo quando é solicitado pela propriedade **PR_BODY** da mensagem, alguns repositórios de mensagens com reconhecimento de RTF só garantem a precisão das posições de renderização quando um cliente solicita primeiro para **PR_BODY**. Os repositórios de mensagens com reconhecimento de RTF têm permissão para fornecer aos clientes valores de posição de renderização aproximados para melhorar o desempenho. Fornecer uma posição de renderização aproximada e exata poupa tempo e é suficiente para a maioria das situações. 
   
-Repositórios de mensagem RTF reconhecimento devem basear seu aproximação no valor especificado pelo cliente responsável por criar o anexo. Embora todos os clientes devem definir **PR_RENDERING_POSITION**, provedores de armazenamento de mensagem devem estar preparados para lidar com a possibilidade de sua ausência. Quando o cliente não definida **PR_RENDERING_POSITION**, um armazenamento de mensagens poderá defini-la como -1 para indicar que a posição de renderização não está dentro do texto da mensagem. Anexos com uma posição de renderização de -1 podem ser exibidos em qualquer lugar dentro da mensagem, dependendo do cliente. Muitos clientes posicionar esses tipos de anexos na parte superior da mensagem.
+Os repositórios de mensagens com reconhecimento de RTF devem basear sua aproximação no valor especificado pelo cliente responsável pela criação do anexo. Embora todos os clientes devam definir o **PR_RENDERING_POSITION**, os provedores de repositórios de mensagens devem estar preparados para lidar com a possibilidade de sua ausência. Quando o cliente não define **PR_RENDERING_POSITION**, um repositório de mensagens pode defini-lo como-1 para indicar que a posição de renderização não está dentro do texto da mensagem. Anexos com uma posição de renderização de-1 podem ser exibidos em qualquer lugar dentro da mensagem, dependendo do cliente. Muitos clientes posicionam esses tipos de anexos na parte superior da mensagem.
   
-O grau de precisão para uma propriedade **PR_RENDERING_POSITION** depende se ou não um armazenamento de mensagens salva **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) uma mensagem e as propriedades de **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou somente **PR_RTF_COMPRESSED**. Se o cliente gera **PR_BODY** e o armazenamento de mensagens salva juntamente com o texto formatado, as posições de renderização será precisas. No entanto, se o armazenamento de mensagens deve gerar sua própria versão do **PR_BODY** porque ele salva somente **PR_RTF_COMPRESSED**, é provável que seja relativamente imprecisas as posições de renderização. Isso é devido às diferenças da maneira que os clientes e os provedores de armazenamento de mensagem geram a propriedade **PR_BODY** . 
+O grau de precisão para uma propriedade **PR_RENDERING_POSITION** depende se um repositório de mensagens salvará ou não as propriedades de uma mensagem de **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) e **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou somente **PR_RTF_COMPRESSED**. Se o cliente gerar **PR_BODY** e o repositório de mensagens salvá-lo junto com o texto formatado, as posições de renderização serão precisas. No enTanto, se o repositório de mensagens deve gerar sua própria versão do **PR_BODY** porque ele só salva **PR_RTF_COMPRESSED**, é provável que as posições de renderização sejam um pouco imprecisas. Isso ocorre devido às diferenças no modo como os clientes e os provedores de repositórios de mensagens geram a propriedade **PR_BODY** . 
   
-Para calcular um valor exato da **PR_RENDERING_POSITION** , um armazenamento de reconhecimento de RTF usa uma marca incorporada o texto formatado. A função do utilitário **RTFSync** pode ser chamada para realizar esse cálculo e atualizar posição de renderização de um anexo. Dependendo da quantidade de informações de estado disponíveis, o armazenamento de mensagens pode passar RTF_SYNC_BODY_CHANGED, RTF_SYNC_RTF_CHANGED ou ambos os valores para [RTFSync](rtfsync.md).
+Para calcular um valor **PR_RENDERING_POSITION** preciso, um repositório com reconhecimento de RTF usa uma marca incorporada no texto formatado. A função de utilitário **RTFSync** pode ser chamada para executar esse cálculo e atualizar a posição de renderização de um anexo. Dependendo da quantidade de informações de estado disponíveis, o repositório de mensagens pode passar RTF_SYNC_BODY_CHANGED, RTF_SYNC_RTF_CHANGED ou ambos os valores para [RTFSync](rtfsync.md).
   
 

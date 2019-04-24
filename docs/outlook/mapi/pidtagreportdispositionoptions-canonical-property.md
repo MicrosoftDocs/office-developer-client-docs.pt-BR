@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cefb7948071b37a5a91bb87cb96a29c23ba5f3cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346344"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Propriedade canônica PidTagReportDispositionOptions
 
@@ -23,7 +23,7 @@ ms.locfileid: "22580513"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mapas ao cabeçalho da disposição de MIME-opções para mensagens que solicitar confirmações. O valor dessa propriedade deve ser uma sequência vazia.
+Mapeia para o cabeçalho MIME de opções de disposição para mensagens que solicitam recebimentos. O valor dessa propriedade deve ser uma sequência de caracteres vazia.
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ Mapas ao cabeçalho da disposição de MIME-opções para mensagens que solicita
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

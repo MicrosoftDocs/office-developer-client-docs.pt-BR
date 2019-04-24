@@ -1,31 +1,31 @@
 ---
-title: elemento FLD (Text_Type complexType) ('Visio XML')
+title: elemento FLD (Text_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
-description: Indica um ponto de inserção do campo de texto para o elemento do campo correspondente.
+description: Indica um ponto de inserção de campo de texto para o elemento Field correspondente.
 ms.openlocfilehash: a7303697a9471dab68f5b1cf851f60d51650a84e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346211"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (Text_Type complexType) ('Visio XML')
+# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (Text_Type complexType) (' Visio XML ')
 
-Indica um ponto de inserção do campo de texto para o elemento do **campo** correspondente. 
+Indica um ponto de inserção de campo de texto para o elemento **Field** correspondente. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |página # XML, master. XML de #  <br/> |
+|**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Indica um ponto de inserção do campo de texto para o elemento do **campo** cor
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,8 +50,8 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |O índice baseado em zero do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O índices baseado em zero do elemento no seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

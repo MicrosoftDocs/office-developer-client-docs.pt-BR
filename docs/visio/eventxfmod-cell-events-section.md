@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm82251313
 localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
-description: Uma célula de evento que é avaliada quando a posição de uma forma ou orientação na página é transformado (XF).
-ms.openlocfilehash: 5884aabc11798ae0440fbfa024b9cc2f2418b9cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Uma célula de evento que é avaliada quando a posição ou a orientação de uma forma na página é transformada (XF).
+ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350971"
 ---
 # <a name="eventxfmod-cell-events-section"></a>Célula EventXFMod (Seção Events)
 

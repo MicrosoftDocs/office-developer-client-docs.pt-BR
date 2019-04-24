@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5237a5c2767920bdb604bfe86603cea4fca56b84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a5be98298ab1f9333ac1c223a6ef594e60dd86a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344433"
 ---
 # <a name="sproptagarray"></a>SPropTagArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de marcas de propriedade.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct _SPropTagArray
 
  **cValues**
   
-> Contagem de marcas de propriedade na matriz indicado pelo membro **aulPropTag** . 
+> Contagem de marcas de propriedade na matriz indicada pelo membro **aulPropTag** . 
     
  **aulPropTag**
   
@@ -55,13 +55,13 @@ typedef struct _SPropTagArray
 
 Uma marca de propriedade é um inteiro não assinado de 32 bits que consiste em duas partes: 
   
-- Um identificador nos superiores 16 bits.
+- Um identificador na ordem alta de 16 bits.
     
-- Um tipo nos ordem baixa 16 bits.
+- Um tipo na ordem baixa de 16 bits.
     
-O identificador é um valor numérico em um determinado intervalo. MAPI define os intervalos para os identificadores descrever o que a propriedade é usada para e quem é responsável por manter a ele. MAPI define restrições para cada um das marcas de propriedade ao qual ele oferece suporte no arquivo de cabeçalho Mapitags.h.
+O identificador é um valor numérico em um intervalo específico. MAPI define intervalos para identificadores para descrever o que a propriedade é usada e quem é responsável por mantê-la. MAPI define restrições para cada uma das marcas de propriedade que ele suporta no arquivo de cabeçalho Mapitags. h.
   
-O tipo indica o formato para o valor da propriedade. MAPI define as constantes para cada um dos tipos de propriedade que ele suporta no arquivo de cabeçalho Mapidefs.h. 
+O tipo indica o formato do valor da propriedade. MAPI define constantes para cada um dos tipos de propriedade que ele suporta no arquivo de cabeçalho mapidefs. h. 
   
 Para obter mais informações sobre marcas de propriedade e seus componentes, consulte um dos seguintes tópicos: 
   
@@ -71,7 +71,7 @@ Para obter mais informações sobre marcas de propriedade e seus componentes, co
   
 [Visão geral do tipo de propriedade MAPI](mapi-property-type-overview.md)
   
-Para obter uma lista completa dos tipos de propriedade de valor único e de valores múltiplos, consulte o apêndice, [tipos e identificadores de propriedade](property-identifiers-and-types.md). 
+Para obter uma lista completa dos tipos de propriedade de valor único e múltiplos valores, confira o apêndice, os identificadores de [propriedade e os tipos](property-identifiers-and-types.md). 
   
 ## <a name="see-also"></a>Confira também
 

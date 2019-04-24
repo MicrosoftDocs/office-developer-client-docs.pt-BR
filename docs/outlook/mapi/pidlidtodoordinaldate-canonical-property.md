@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b0c5e3019efeeb0b9788d81e8730e976bfcc9d75
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345273"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>Propriedade canônica PidLidToDoOrdinalDate
 
@@ -25,39 +25,39 @@ ms.locfileid: "25401584"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina a ordem de classificação dos objetos em uma lista de tarefas pendentes consolidada.
+Determina a ordem de classificação dos objetos em uma lista de tarefas consolidadas.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidToDoOrdinalDate  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x000085A0  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x000085A0  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando um objeto está sinalizado, essa propriedade deverá ser definida para a hora atual no tempo Universal Coordenado (UTC). 
+Quando um objeto é sinalizado, essa propriedade deve ser definida como a hora atual em tempo universal coordenado (UTC). 
   
-Se o cliente permite que o usuário reordenar tarefas dentro da lista de tarefas consolidada via arrastando ou outros mecanismos, eles podem usar qualquer algoritmo adequado para determinar o novo valor dessa propriedade para que a tarefa seja exibido no lugar correto quando essa propriedade é usada como um CL campo Ting.
+Se o cliente permitir que um usuário reordene tarefas dentro da lista de tarefas consolidadas por meio de arrastar ou outros mecanismos, eles poderão usar qualquer algoritmo adequado para determinar o novo valor dessa propriedade para que a tarefa seja exibida no local correto quando essa propriedade for usada como um sor campo de nota.
   
-Quando essa propriedade é usada para classificar os objetos e a classificação dos resultados em uma ligação, a propriedade **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) é usada como um separador de tie.
+Quando essa propriedade é usada para classificar objetos e a classificação resulta em um objeto tie, a propriedade **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) é usada como um desempate.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações relacionadas a sinalização.
+> Especifica as propriedades e operações relacionadas à sinalização.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -70,7 +70,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

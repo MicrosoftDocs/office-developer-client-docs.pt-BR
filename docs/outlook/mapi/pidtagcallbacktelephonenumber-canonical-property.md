@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9a05d8cbe24880d48e9f8efbeda5c8f2c8dae7d2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345686"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>Propriedade canônica PidTagCallbackTelephoneNumber
 
@@ -36,33 +36,33 @@ Contém um número de telefone que o destinatário da mensagem pode usar para ac
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades que fornece acesso a informações sobre um destinatário e identificação. Eles são definidos por destinatário e a organização do destinatário. 
+Essas propriedades são exemplos das propriedades que fornecem informações de identificação e acesso sobre um destinatário. Eles são definidos pelo destinatário e pela organização do destinatário. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contato e objetos de lista de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para os objetos de contato e lista de distribuição pessoal.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

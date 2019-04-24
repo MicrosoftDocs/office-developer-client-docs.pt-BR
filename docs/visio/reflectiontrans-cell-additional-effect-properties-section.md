@@ -1,32 +1,32 @@
 ---
-title: Célula ReflectionTrans (Seção Additional Effect Properties)
+title: Célula ReflectionTrans (seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1d155af5-b809-4367-b093-1218a1597656
-description: Determina a transparência de reflexo, como uma porcentagem de 0 a 100%.
-ms.openlocfilehash: 31f39a19313f1f1622282ea0704694bd612ef55f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina a transparência da reflexão, como uma porcentagem de 0 a 100%.
+ms.openlocfilehash: c8d4d83882a1e8eafcd93506f8f8b386828a89cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346484"
 ---
-# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Célula ReflectionTrans (Seção Additional Effect Properties)
+# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Célula ReflectionTrans (seção Additional Effect Properties)
 
-Determina a transparência de reflexo, como uma porcentagem de 0 a 100%. 
+Determina a transparência da reflexão, como uma porcentagem de 0 a 100%. 
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **ReflectionTrans** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **ReflectionTrans** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ReflectionTrans  <br/> |
    
-Para obter uma referência à célula **ReflectionTrans** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **ReflectionTrans** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

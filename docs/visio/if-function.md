@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251442
 localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
-description: Retorna ValorSeVerdadeiro se logicalexpression for TRUE. Caso contrário, ele retorna ValorSeFalso.
-ms.openlocfilehash: 55938e8bd78c02badb98f90665c5c26cdd70f3b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna valueiftrue se logicaly for TRUE. Caso contrário, retornará valueiffalse.
+ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344762"
 ---
 # <a name="if-function"></a>Função IF
 
-Retorna _ValorSeVerdadeiro_ se _logicalexpression_ for TRUE. Caso contrário, ele retorna _ValorSeFalso_.
+Retorna _valueiftrue_ se _logicaly_ for true. Caso contrário, retornará _valueiffalse_.
   
 ## <a name="syntax"></a>Sintaxe
 
-IF (* * *logicalexpression* * *, * * *ValorSeVerdadeiro* * *, * * *ValorSeFalso* * *) 
+IF (* * *LogicalName* * *, * * *valueiftrue* * *, * * *valueiffalse* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _logicalexpression_ <br/> |Obrigatório  <br/> |**String** <br/> |Expressão a ser avaliada.  <br/> |
-| _ValorSeVerdadeiro_ <br/> |Obrigatório  <br/> |**Varia** <br/> |O valor retornado se _logicalexpression_ for true.  <br/> |
-| _ValorSeFalso_ <br/> |Obrigatório  <br/> |**Varia** <br/> | O valor retornado se _logicalexpression_ for falso.  <br/> |
+| _valueiftrue_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Valor a ser retornado __ se logicalid for true.  <br/> |
+| _valueiffalse_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Valor a ser retornado __ se logicalid for false.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Varia
+Várias
   
 ## <a name="example"></a>Exemplo
 
-IF (altura \> 1,25 pol, 5, 7)
+SE (altura \> 1,25, 5, 7)
   
 Retorna 5 se a altura da forma for maior que 1,25 polegadas. Retorna 7 se a altura da forma for menor que ou igual a 1,25 polegadas.
   

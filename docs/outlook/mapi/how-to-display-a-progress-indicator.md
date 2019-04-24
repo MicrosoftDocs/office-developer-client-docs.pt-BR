@@ -8,78 +8,78 @@ api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 62549cbeea0044ceee8aa2e704b8a9bc271b7e8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7b0ce0ab75ffdce045ccde5bf6ea8a7da046f463
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345126"
 ---
 # <a name="display-a-progress-indicator"></a>Exibir um indicador de progresso
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para exibir um indicador de progresso, chame [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar os sinalizadores atuais definição. 
+Para exibir um indicador de progresso, chame [método imapiprogress:: GetFlags](imapiprogress-getflags.md) para recuperar a configuração de sinalizadores atual. 
   
 Se o sinalizador MAPI_TOP_LEVEL estiver definido, conclua as seguintes etapas:
   
-1. Defina uma variável igual ao número total de itens para processar na operação. Por exemplo, se você estiver copiando o conteúdo de uma pasta, esse valor será igual ao número de subpastas na pasta mais o número de mensagens. 
+1. Definir uma variável igual ao número total de itens a serem processados na operação. Por exemplo, se você estiver copiando o conteúdo de uma pasta, esse valor será igual ao número das subpastas na pasta mais o número de mensagens. 
     
-2. Defina uma variável igual a 1000, divididos pelo número de itens. 
+2. Definir uma variável igual a 1000 dividida pelo número de itens. 
     
-3. Se você está mostrando o andamento para subobjetos, chame o progresso método do objeto [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) e passar os seguintes valores para os três parâmetros: 
+3. Se você estiver mostrando o progresso de subobjetos, chame o método [método imapiprogress::](imapiprogress-setlimits.md) setlimits do objeto Progress e passe os seguintes valores para os três parâmetros: 
     
    - Defina o parâmetro _lpulMin_ como 0. 
     
-   - Defina o parâmetro _lpulMax_ a 1000. 
+   - Defina o parâmetro _lpulMax_ como 1000. 
     
-   - Defina o parâmetro _lpulFlags_ para MAPI_TOP_LEVEL. 
+   - Defina o parâmetro _lpulFlags_ como MAPI_TOP_LEVEL. 
     
-4. Para cada objeto a serem processados, conclua as seguintes etapas:
+4. Para cada objeto a ser processado, conclua as seguintes etapas:
     
-   1. Chame **IMAPIProgress::SetLimits** e passar os seguintes valores para os três parâmetros: 
+   1. Chame **método imapiprogress::** setlimits e passe os seguintes valores para os três parâmetros: 
       
-     - Defina o parâmetro _lpulMin_ à variável definida na etapa 2 multiplicado pelo item atual menos 1. 
+     - Defina o parâmetro _lpulMin_ para o conjunto de variáveis na etapa 2 multiplicado pelo item atual menos 1. 
       
-     - Defina o parâmetro _lpulMax_ à variável definida na etapa 2 multiplicado pelo objeto atual. 
+     - Defina o parâmetro _lpulMax_ para o conjunto de variáveis na etapa 2 multiplicado pelo objeto atual. 
       
      - Defina o parâmetro _lpulFlags_ como 0. 
       
-   2. Execute qualquer processamento deve ser feito neste objeto. Se este for um Subobjeto e você deseja exibir o progresso em subobjetos, passe um ponteiro para o objeto de andamento no parâmetro _lpProgress_ para o método. 
+   2. Execute qualquer processamento que deva ser feito nesse objeto. Se for um subobjeto e você quiser exibir o progresso em subobjetos, passe um ponteiro para o objeto Progress no parâmetro _lpProgress_ para o método. 
       
-   3. Chame [IMAPIProgress::Progress](imapiprogress-progress.md) e passar os seguintes valores para os três parâmetros: 
+   3. Chame [método imapiprogress::P rogress](imapiprogress-progress.md) e passe os seguintes valores para os três parâmetros: 
       
-     - Defina o parâmetro _ulValue_ à variável definida na etapa 2 multiplicado pelo objeto atual. 
+     - Defina o parâmetro _ulValue_ para o conjunto de variáveis na etapa 2 multiplicado pelo objeto atual. 
       
-     - Defina o parâmetro _ulCount_ ao objeto atual. 
+     - Defina o parâmetro _ulCount_ para o objeto atual. 
       
-     - Defina o parâmetro _ulTotal_ para a variável definida na etapa 1, o número total de objetos. 
+     - Defina o parâmetro _ulTotal_ para o conjunto de variáveis na etapa 1, o número total de objetos. 
     
 Se o sinalizador MAPI_TOP_LEVEL não estiver definido, conclua as seguintes etapas:
   
-1. Chame o progresso método do objeto [IMAPIProgress::GetMin](imapiprogress-getmin.md) para recuperar o valor mínimo para a exibição. 
+1. Chame o método [método imapiprogress:: GetMin](imapiprogress-getmin.md) do objeto Progress para recuperar o valor mínimo para a exibição. 
     
-2. Chame [IMAPIProgress::GetMax](imapiprogress-getmax.md) para recuperar o valor máximo da tela. 
+2. Chame [método imapiprogress:: GetMax](imapiprogress-getmax.md) para recuperar o valor máximo para a exibição. 
     
-3. Defina uma variável igual ao número total de objetos a serem processados. 
+3. Definir uma variável igual ao número total de objetos a serem processados. 
     
-4. Defina uma variável igual ao resultado da subtraindo o valor mínimo do valor máximo e, em seguida, dividindo pelo número total de objetos.
+4. Definir uma variável igual ao resultado de subtrair o valor mínimo do valor máximo e, em seguida, dividindo pelo número total de objetos.
     
-5. Para cada objeto a serem processados, conclua as seguintes etapas:
+5. Para cada objeto a ser processado, conclua as seguintes etapas:
     
-   1. Se seu provedor estiver mostrando o andamento para subobjetos, chame **IMAPIProgress::SetLimits** e passar os seguintes valores para os três parâmetros: 
+   1. Se seu provedor estiver mostrando o progresso de subobjetos, chame **método imapiprogress::** setlimits e passe os seguintes valores para os três parâmetros: 
       
-     - Defina o parâmetro _lpulMin_ para o valor mínimo além do item atual menos 1 multiplicado pela variável definida na etapa 4. 
+     - Defina o parâmetro _lpulMin_ para o valor mínimo mais o item atual menos 1 multiplicado pelo conjunto de variáveis na etapa 4. 
       
-     - Defina o parâmetro _lpulMax_ como o valor mínimo mais a unidade atual multiplicado pela variável definida na etapa 4. 
+     - Defina o parâmetro _lpulMax_ para o valor mínimo mais a unidade atual multiplicada pelo conjunto de variáveis na etapa 4. 
       
      - Defina o parâmetro _lpulFlags_ como 0. 
       
-   2. Execute qualquer processamento deve ser feito neste objeto. Se o objeto é um Subobjeto e seu provedor exibe o andamento para subobjetos, passe um ponteiro para o objeto de andamento no parâmetro _lpProgress_ para o método. 
+   2. Execute qualquer processamento que deva ser feito nesse objeto. Se o objeto for um subobjeto e o seu provedor exibir o andamento dos subobjetos, passe um ponteiro para o objeto Progress no parâmetro _lpProgress_ para o método. 
       
-   3. Chame [IMAPIProgress::Progress](imapiprogress-progress.md) e passar os seguintes valores para os três parâmetros: 
+   3. Chame [método imapiprogress::P rogress](imapiprogress-progress.md) e passe os seguintes valores para os três parâmetros: 
       
-     - Defina o parâmetro _ulValue_ a variável definida na etapa 2 multiplicado pelo objeto atual. 
+     - Defina o parâmetro _ulValue_ como Variable Set na etapa 2 multiplicado pelo objeto atual. 
       
      - Defina o parâmetro _ulCount_ como 0. 
       

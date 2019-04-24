@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 13683c47-2bc8-1345-ed0e-4175a06ea452
 ms.openlocfilehash: 0253bf261868ec335bcc295c479cdfc98da79490
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344601"
 ---
 # <a name="dataconnectiontype-complextype-visio-xml"></a>DataConnection_Type complexType ('Visio XML')
 

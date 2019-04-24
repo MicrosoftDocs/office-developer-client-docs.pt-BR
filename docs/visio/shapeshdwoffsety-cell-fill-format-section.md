@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ef200f41-7b69-1291-f9df-a7035239a033
 description: Determina a distância em unidades de página pela qual a sombra de uma forma está deslocada verticalmente da forma.
-ms.openlocfilehash: 669e15fd1badf9cf76decb117a9c4fb91e731271
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ae4347ba9009e88bbd181d4dd6e242e1fad53be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349137"
 ---
 # <a name="shapeshdwoffsety-cell-fill-format-section"></a>Célula ShapeShdwOffsetY (Seção Fill Format)
 

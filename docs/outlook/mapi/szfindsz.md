@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345742"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
@@ -29,9 +29,9 @@ Localiza a primeira ocorrência de uma subcadeia de caracteres terminada em nulo
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -44,18 +44,18 @@ LPSTR SzFindCh(
 
  _lpsz_
   
-> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisado. O parâmetro _lpsz_ não deve exceder 65.536 caracteres. 
+> no Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisada. O parâmetro _lpsz_ não deve exceder 65536 caracteres. 
     
  _lpszKey_
   
-> [in] Ponteiro para a subcadeia de caracteres terminada em nulo a ser pesquisado. O parâmetro _lpszKey_ não deve exceder 65.536 caracteres. 
+> no Ponteiro para a subcadeia de caracteres terminada em nulo a ser pesquisada. O parâmetro _lpszKey_ não deve exceder 65536 caracteres. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
- **SzFindSz** retorna um ponteiro para o primeiro caractere da primeira ocorrência da subcadeia de caracteres na cadeia de caracteres. Se a subcadeia de caracteres não ocorrer em qualquer lugar na cadeia de caracteres, se _lpszKey_ for maior do que _lpsz_, ou se o parâmetro for NULL, um valor NULL será retornado. 
+ **SzFindSz** retorna um ponteiro para o primeiro caractere da primeira ocorrência da subcadeia de caracteres na cadeia de caracteres. Se a subcadeia de caracteres não ocorrer em qualquer lugar na cadeia de caracteres, se _lpszKey_ for maior do que _lpsz_, ou se um dos parâmetros for NULL, um valor NULL será retornado. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **SzFindSz** procura apenas; uma correspondência exata é sensível a maiusculas de minúsculas e diacríticos diferenças. Pesquisas nos formatos Unicode e DBCS são suportadas. O limite de tamanho em ambos os parâmetros é em caracteres, não necessariamente bytes. 
+A função **SzFindSz** pesquisa apenas uma correspondência exata; é sensível às diferenças de maiúsculas e minúsculas. Pesquisas em formatos Unicode e DBCS são suportadas. O limite de tamanho em ambos os parâmetros é em caracteres, não necessariamente em bytes. 
   
 

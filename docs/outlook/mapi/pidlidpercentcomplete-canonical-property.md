@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 870b4e0edb360ac36525f94b0605af930eee8fa3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357971"
 ---
 # <a name="pidlidpercentcomplete-canonical-property"></a>Propriedade canônica PidLidPercentComplete
 
@@ -25,53 +25,53 @@ ms.locfileid: "25382593"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica que o progresso do usuário tornou-se em uma tarefa. 
+Indica o andamento que o usuário fez em uma tarefa. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidPercentComplete  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008102  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008102  <br/> |
 |Tipo de dados:  <br/> |PT_R8  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor dessa propriedade deve ser um número maior ou igual a 0,0 e menor ou igual a 1.0, onde 1.0 indica que o trabalho está concluído e 0,0 indica que o trabalho não tiver começado.
+O valor dessa propriedade deve ser um número maior ou igual a 0,0 e menor ou igual a 1,0, onde 1,0 indica que o trabalho foi concluído e 0,0 indica que o trabalho não foi iniciado.
   
-Para um objeto de mensagem sinalizados por vez, o valor dessa propriedade deve ser definido a 1,0 se o objeto está sinalizado concluído e deve ser definido como 0,0 caso contrário.
+Para um objeto Message sinalizado por hora, o valor dessa propriedade deve ser definido como 1,0 se o objeto for marcado como concluído e deve ser definido como 0,0 caso contrário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações relacionadas a sinalização.
+> Especifica as propriedades e operações relacionadas à sinalização.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -81,7 +81,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

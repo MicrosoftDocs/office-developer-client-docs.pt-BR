@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f4adbdfc041ebe5213c384db98343baa82af5b05
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4a0e7325618a38addefe562c8207066dfea620f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342539"
 ---
 # <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a>Propriedade canônica PidTagOriginallyIntendedRecipEmailAddress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572722"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o endereço de email do destinatário pretendido originalmente de uma mensagem de autoforwarded.
+Contém o endereço de email do destinatário originalmente planejado de uma mensagem de encaminhamento.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o endereço de email do destinatário pretendido originalmente de uma me
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades de endereço do destinatário pretendido originalmente da mensagem. Devem ser definidas pelo agente de automática que encaminhou a mensagem.
+Essas propriedades são exemplos das propriedades de endereço para o destinatário de mensagem originalmente planejado. Eles devem ser definidos pelo agente automático que encaminhou a mensagem.
   
-Essas propriedades correspondem ao atributo x. 400 relatório por destinatário.
+Essas propriedades correspondem ao atributo X. 400 relatório por destinatário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

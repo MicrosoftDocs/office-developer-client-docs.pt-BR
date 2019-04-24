@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 198e388f5cfb6ab0431e7b7a78b9a0be3d103597
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3e9318e396bf195ad701b92372a3136dee7fd0d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357719"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>Propriedade canônica PidTagDeliverTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582116"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora de quando a mensagem original foi entregue. 
+Contém a data e hora da entrega da mensagem original. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém a data e hora de quando a mensagem original foi entregue.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma propriedade por destinatário em um relatório de entrega que indica a hora em que a mensagem original foi entregue ao usuário mensagens para o qual o relatório de entrega está sendo gerado.
+Esta propriedade é uma propriedade por destinatário em um relatório de entrega que indica o momento em que a mensagem original foi entregue ao usuário de mensagens para o qual o relatório de entrega está sendo gerado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

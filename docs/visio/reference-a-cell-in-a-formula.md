@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0766ad21-0415-c23d-407c-497fb8f9aaca
 description: ''
-ms.openlocfilehash: cd7d26a6212a4d3010a28f199764dd87e0277a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ba8d9ed2a91418e1e01283e6a9f66254d42235e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348374"
 ---
-# <a name="reference-a-cell-in-a-formula"></a>Fazer referência de uma célula em uma fórmula
+# <a name="reference-a-cell-in-a-formula"></a>Fazer Referência a uma Célula na Fórmula
 
 1. Clique duas vezes na célula em que deseja colocar a referência e coloque o ponto de inserção no local que deseja na fórmula.
     

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Indica se a forma foi virada verticalmente.
-ms.openlocfilehash: 42ee740a13c3f447f5cd4a6caa9959189320a8af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44ea0341cda3655e8acc69e82e89acddac69b80d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346197"
 ---
 # <a name="flipy-cell-shape-transform-section"></a>Célula FlipY (Seção Shape Transform)
 
@@ -22,8 +22,8 @@ Indica se a forma foi virada verticalmente.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A forma foi virada verticalmente.  <br/> |
-| FALSO  <br/> | A forma não foi virada verticalmente.  <br/> |
+| TRUE  <br/> | A forma foi virada verticalmente.  <br/> |
+| FALSE  <br/> | A forma não foi virada verticalmente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

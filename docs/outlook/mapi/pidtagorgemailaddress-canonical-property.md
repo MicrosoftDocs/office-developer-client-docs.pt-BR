@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: daccc16e314be865c5f0f152a9a1b746e0978869
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342487"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Propriedade canônica PidTagOrgEmailAddress
 
@@ -25,12 +25,12 @@ ms.locfileid: "22575109"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o endereço de email da conta de email do originador.
+Contém o endereço de email da conta de email de origem.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
-|Identificador:  <br/> |TBD  <br/> |
+|Identificador:  <br/> |A definir  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Área:  <br/> |Endereço  <br/> |
    
@@ -38,13 +38,13 @@ Contém o endereço de email da conta de email do originador.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

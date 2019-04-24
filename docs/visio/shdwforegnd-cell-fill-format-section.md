@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ea153390-631d-79fd-c1ba-4c281239a24e
 description: Determina a cor utilizada para o primeiro plano (traço) do padrão de preenchimento de sombra projetada da forma.
-ms.openlocfilehash: f39109a296949d23142017661bb55f0708402d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 602df83dcb88d4137b0609f9a8b1084a40148a10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349102"
 ---
 # <a name="shdwforegnd-cell-fill-format-section"></a>Célula ShdwForegnd (Seção Fill Format)
 
@@ -24,7 +24,7 @@ Determina a cor utilizada para o primeiro plano (traço) do padrão de preenchim
 
 Para definir a cor, insira um número de 0 a 23, que serve como um índice para uma coleção de cores.
   
-Para inserir uma cor personalizada, use a função RGB ou HSL. O valor de uma cor personalizada é a cor RGB e RGB ( *r, g, b*), em vez de um número, será exibido na janela ShapeSheet. Quando usado em operações numéricas, as cores têm valores de 24 e acima. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência da cor do primeiro plano do padrão de preenchimento da sombra projetada da forma na célula ShdwForegndTrans.
   

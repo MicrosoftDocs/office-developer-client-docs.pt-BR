@@ -1,5 +1,5 @@
 ---
-title: Objetos implementada de MAPI
+title: Objetos implementados por MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,52 +8,52 @@ api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d212a86aae0503a5e02a5a7ecddb83db10a4d664
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86aa8451b5b127764134f1a3a905366fd014d0c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346849"
 ---
-# <a name="mapi-implemented-objects"></a>Objetos implementada de MAPI
+# <a name="mapi-implemented-objects"></a>Objetos implementados por MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI implementa vários objetos para uso por provedores de serviços e aplicativos cliente. O objeto de sessão permite aos clientes utilizarem serviços de sessão, para acessar tabelas e se comuniquem com provedores de serviço. O objeto de catálogo de endereços fornece clientes com acesso integrado para todos os provedores de catálogo de endereço diferente. 
+MAPI implementa vários objetos para uso por aplicativos cliente e provedores de serviço. O objeto Session permite que os clientes usem serviços de sessão, acessem tabelas e se comuniquem com provedores de serviços. O objeto catálogo de endereços fornece aos clientes acesso integrado a todos os diferentes provedores de catálogo de endereços. 
   
-MAPI fornece vários objetos de tabela e status para clientes usarem para exibição e informações do provedor de sessão e o serviço de monitoramento. Por exemplo, MAPI fornece uma tabela de perfil com informações sobre todos os perfis que estão instalados no computador e uma tabela de serviço de mensagem com informações sobre todos os serviços de mensagem no perfil atual. MAPI fornece três objetos diferentes status: uma que representa o subsistema de geral, um para o spooler MAPI e outro para o catálogo de endereços integrada. 
+O MAPI fornece vários objetos table e status para os clientes usarem para exibir e monitorar as informações de sessão e provedor de serviços. Por exemplo, o MAPI fornece uma tabela de perfil com informações sobre todos os perfis instalados no computador e uma tabela de serviço de mensagens com informações sobre todos os serviços de mensagens no perfil atual. MAPI fornece três objetos de status diferentes: um que representa o subsistema geral, um para o spooler MAPI e um para o catálogo de endereços integrado. 
   
-MAPI implementa quatro objetos diferentes para gerenciar a configuração de serviços de mensagens, provedores de serviços e perfis. Provedores de serviços e clientes usam a administração do provedor e objetos de seção perfil; Esses objetos habilitá-los configurar provedores de serviços e acessar propriedades de perfil. Os clientes usam apenas o serviço de mensagem e objetos de administração de perfil, os objetos que permitem a administração dos serviços de mensagem e perfis. 
+O MAPI implementa quatro objetos diferentes para gerenciar a configuração de serviços de mensagens, provedores de serviços e perfis. Os clientes e provedores de serviços usam a administração do provedor e os objetos da seção de perfil; esses objetos permitem que eles configurem provedores de serviço e propriedades de perfil de acesso. Os clientes usam somente objetos de serviço de mensagens e de administração de perfil, os objetos que oferecem suporte à administração de serviços e perfis de mensagem. 
   
-MAPI fornece dois objetos para provedores de serviço: um objeto de suporte e um objeto TNEF. Todos os provedores de serviços usam um ou mais objetos de suporte; Há quatro implementações de objeto de suporte de diferentes. MAPI fornece uma implementação para oferecer suporte a configuração, bem como implementações específicas para dar suporte ao catálogo de endereços, armazenamento de mensagens e provedores de transporte. O objeto TNEF é usado pelos provedores de transporte que suportam o TNEF Transport Neutral Encapsulation Format ().
+MAPI fornece dois objetos para provedores de serviço: um objeto support e um objeto TNEF. Todos os provedores de serviços usam um ou mais objetos de suporte; Há quatro implementações de objetos de suporte diferentes. O MAPI fornece uma implementação para suportar a configuração, bem como implementações específicas para suportar o catálogo de endereços, o repositório de mensagens e os provedores de transporte. O objeto TNEF é usado por provedores de transporte que dão suporte ao protocolo TNEF (Transport neutral Encapsulation Format).
   
-Dois objetos utilitário, dados da tabela e dados de propriedade, geralmente são usados pelos provedores de serviços. Objetos de dados de tabela ajudam na implementação de objetos table; Ajuda de objetos de dados de propriedade para o acesso à propriedade definido e o modo de exibição e ajuda na implementação do [IMAPIProp: IUnknown](imapipropiunknown.md), a interface de propriedade base. 
+Dois objetos utilitários, dados de tabela e dados de propriedade, geralmente são usados por provedores de serviços. Os objetos de dados da tabela ajudam na implementação de objetos table; os objetos de dados de propriedade ajudam a definir e exibir o acesso de propriedade e a ajuda na implementação de [IMAPIProp: IUnknown](imapipropiunknown.md), a interface de propriedade básica. 
   
-A tabela a seguir resume o objetivo de cada objeto que implementa de MAPI.
+A tabela a seguir resume a finalidade de cada objeto que a MAPI implementa.
   
 |**Objeto MAPI**|**Descrição**|
 |:-----|:-----|
-|Catálogo de endereços  <br/> |Fornece acesso ao modo de exibição integrado de informações do destinatário que pertence a todos os provedores de catálogo de endereços no perfil atual.  <br/> |
-|Administração do serviço de mensagem  <br/> |Fornece acesso a informações de serviço de mensagem para a configuração.  <br/> |
-|Administração de perfil  <br/> |Fornece acesso às informações de perfil de configuração.  <br/> |
-|Seção de perfil  <br/> |Uma parte de um perfil usado para descrever um serviço de mensagem específica ou de um provedor de serviços.  <br/> |
-|Dados de propriedade  <br/> |Mantém o acesso às propriedades e ajuda a implementar **IMAPIProp**.  <br/> |
-|Administração do provedor  <br/> |Oferece acesso a informações do provedor de serviço de configuração.  <br/> |
-|Sessão  <br/> |Representa uma conexão aos sistemas de mensagens subjacentes e fornece aos clientes acesso aos recursos MAPI.  <br/> |
-|Status  <br/> |Fornece acesso ao estado do subsistema de MAPI, o catálogo de endereços ou o spooler MAPI.  <br/> |
-|Suporte  <br/> |Ajuda a provedores de serviços de lidar com as solicitações do cliente.  <br/> |
-|Table  <br/> |Fornece acesso a um modo de exibição de resumo de dados de objeto no formato de linha e coluna, semelhante a uma tabela de banco de dados.  <br/> |
-|Dados da tabela  <br/> |Mantém o acesso a dados de tabela base e implementa objetos table.  <br/> |
-|TNEF  <br/> |Suporta o uso do TNEF Transport Neutral Encapsulation Format ().  <br/> |
+|Catálogo de endereços  <br/> |Fornece acesso à exibição integrada de informações de destinatário que pertencem a todos os provedores de catálogo de endereços no perfil ativo.  <br/> |
+|Administração do serviço de mensagens  <br/> |Fornece acesso às informações do serviço de mensagens para configuração.  <br/> |
+|Administração de perfis  <br/> |Fornece acesso a informações de perfil para configuração.  <br/> |
+|Seção Profile  <br/> |Uma parte de um perfil usado para descrever um determinado serviço de mensagens ou provedor de serviços.  <br/> |
+|Dados de propriedade  <br/> |Mantém o acesso às propriedades e ajuda a implementar o **IMAPIProp**.  <br/> |
+|Administração de provedor  <br/> |Fornece acesso a informações do provedor de serviços para configuração.  <br/> |
+|Sessão  <br/> |Representa uma conexão com sistemas de mensagens subjacentes e fornece aos clientes acesso a recursos MAPI.  <br/> |
+|Status  <br/> |Fornece acesso ao estado do subsistema MAPI, do catálogo de endereços ou do spooler MAPI.  <br/> |
+|Suporte  <br/> |Ajuda os provedores de serviços a lidar com as solicitações do cliente.  <br/> |
+|Tabela  <br/> |Fornece acesso a um modo de exibição de resumo dos dados de objeto em formato de linha e coluna, semelhante a uma tabela de banco de dados.  <br/> |
+|Dados de tabela  <br/> |Mantém o acesso aos dados da tabela base e implementa os objetos table.  <br/> |
+|TNEF  <br/> |Dá suporte ao uso do formato de encapsulamento neutro de transporte (TNEF).  <br/> |
    
-A ilustração a seguir mostra a relação entre os objetos que implementa MAPI, as interfaces do qual eles herdam e os componentes que usá-los. 
+A ilustração a seguir mostra a relação entre os objetos que o MAPI implementa, as interfaces das quais eles herdam e os componentes que os utilizam. 
   
 **Objects that MAPI implements**
   
-![Objetos que implementa MAPI] (media/amapi_68.gif "Objetos que implementa MAPI")
+![Objetos que o MAPI implementa] (media/amapi_68.gif "Objetos que o MAPI implementa")
   
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md)
-- [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
+- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
 

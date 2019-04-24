@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm795
 localization_priority: Normal
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
-description: Representa o y-coordenadas do pino da forma (Centro de rotação) em relação à origem de seu pai.
-ms.openlocfilehash: 7002415e813ae63dafb64f416079da2e6b170494
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada y do pino da forma (centro de rotação) em relação à origem de seu pai.
+ms.openlocfilehash: 17daf691e4802a93775bfd5272d2142ef33bd189
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346785"
 ---
 # <a name="piny-cell-shape-transform-section"></a>Célula PinY (Seção Shape Transform)
 
-Representa o *y* -coordenadas do pino da forma (Centro de rotação) em relação à origem de seu pai. 
+Representa a coordenada *y* do pino da forma (centro de rotação) em relação à origem de seu pai. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9b16cf3b8d0281ba8995058af6b18dbe22dcf592
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d598337a4a66b6345b2f7c827b62a2ccd8af366
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346358"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>Propriedade canônica PidTagReportDispositionMode
 
@@ -23,7 +23,7 @@ ms.locfileid: "22566114"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a disposição de recebimento de mensagens com solicitar confirmações. 
+Indica o descarte do recebimento de mensagens que solicitam recebimentos. 
   
 |||
 |:-----|:-----|
@@ -34,25 +34,25 @@ Indica a disposição de recebimento de mensagens com solicitar confirmações.
    
 ## <a name="remarks"></a>Comentários
 
-Os valores possíveis para essa propriedade são "manual-ação/MDN-enviadas-automaticamente" e "manual-ação/MDN-enviadas-manualmente".
+Os valores possíveis para essa propriedade são "manual-Action/MDN-sent-Automatic" e "manual-Action/MDN-sent-manual".
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

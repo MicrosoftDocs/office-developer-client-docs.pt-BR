@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula B com base na linha na qual está localizada.
-ms.openlocfilehash: 7d6f51d037be4852c6a101ad6e576a3a13488cb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346239"
 ---
 # <a name="b-cell-geometry-section"></a>Célula B (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula B com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|**Linha**|**Descrição**|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | *Y* -coordenadas do ponto de controle do arco.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *y* do ponto de controle de um arco.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A última espessura da B-spline racional não-uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | O primeiro nó de uma spline.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Um *y* -coordenadas de um ponto em uma linha infinita; juntamente com *x* -coordenada representada pela célula [A](a-cell-geometry-section.md) .  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Um *y* -coordenadas de um ponto em um elipse, juntamente com *x* -coordenada representada pela célula [A](a-cell-geometry-section.md) .  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Uma coordenada *y* de um ponto em uma linha infinita; emparelhado com a coordenada *x* representada pela [](a-cell-geometry-section.md) célula a.  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma coordenada *y* de um ponto em uma elipse; emparelhado com a coordenada *x* representada pela [](a-cell-geometry-section.md) célula a.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,8 +34,8 @@ Para fazer referência à célula B pelo nome, a partir de outra fórmula ou pro
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . B *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
-|| Geometria *i* . B1 (linhas InfiniteLine e Ellipse)  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . B *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
+|| Geometry *i* . B1 (linhas InfiniteLine e Ellipse)  <br/> |
    
 Para fazer referência à célula B pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 9c9c75d0ae4b9fe060d6717dfa11ad418cbb715b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2332c2a2f7eb46816eab5305b73344e25b2832d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342547"
 ---
 # <a name="folder-associated-information-tables"></a>Tabelas de informações associadas à pasta
 
@@ -21,29 +21,29 @@ ms.locfileid: "22564644"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI define o sinalizador MAPI_ASSOCIATED de vários componentes MAPI para usar quando lidando com as tabelas de informações associadas. Cada pasta em um repositório de mensagem deve ter uma tabela de conteúdo associado, juntamente com sua tabela de conteúdo padrão. Aplicativos cliente armazenam mensagens especiais na tabela de conteúdo associado de uma pasta para armazenar formulários e modos de exibição. Na verdade, para dar suporte a formulários e modos de exibição, seu provedor de armazenamento de mensagem deve implementar as tabelas de conteúdo associado.
+MAPI define o sinalizador MAPI_ASSOCIATED para vários componentes MAPI a serem usados ao lidar com tabelas de informações associadas. Cada pasta em um repositório de mensagens deve ter uma tabela de conteúdo associada junto com sua tabela de conteúdo padrão. Os aplicativos cliente armazenam mensagens especiais em uma tabela de conteúdo associada da pasta para conter formulários e exibições. Na verdade, para dar suporte a formulários e modos de exibição, seu provedor de repositório de mensagens deve implementar tabelas de conteúdo associadas.
   
-Para implementar as tabelas de conteúdo associado, seu provedor de armazenamento deve fazer o seguinte:
+Para implementar tabelas de conteúdo associadas, seu provedor de repositório deve fazer o seguinte:
   
-- Suporta o sinalizador MAPI_ASSOCIATED no método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) para que aplicativos cliente podem obter tabela de conteúdo associado da pasta no lugar do índice de conteúdo padrão. 
+- Suporte para o sinalizador MAPI_ASSOCIATED no método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable para que os aplicativos clientes possam obter a tabela de conteúdo associada da pasta em vez da tabela de conteúdo padrão. 
     
-- Suporta o sinalizador MAPI_ASSOCIATED no método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para que aplicativos cliente podem adicionar mensagens à tabela de conteúdo associado de uma pasta. 
+- Suporta o sinalizador MAPI_ASSOCIATED no método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) para que os aplicativos clientes possam adicionar mensagens à tabela de conteúdo associada de uma pasta. 
     
-- Defina o bit MAPI_ACCESS_CREATE_ASSOCIATED na propriedade **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) em objetos de pasta.
+- Defina o bit MAPI_ACCESS_CREATE_ASSOCIATED na propriedade **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) em objetos Folder.
     
-- Suporta o sinalizador DEL_ASSOCIATED no método [IMAPIFolder::EmptyFolder](imapifolder-emptyfolder.md) . 
+- Suporta o sinalizador DEL_ASSOCIATED no método [IMAPIFolder:: EmptyFolder](imapifolder-emptyfolder.md) . 
     
-- Defina o MSGFLAG_ASSOCIATED bit na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) para mensagens na tabela de conteúdo associado.
+- Defina o bit MSGFLAG_ASSOCIATED na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) para mensagens na tabela de conteúdo associado.
     
-- Expor e responder à propriedade **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) em pastas.
+- Expor e responder à propriedade **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) em Folders.
     
-- Manter a propriedade **PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) em pastas.
+- Mantenha a propriedade **PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) em Folders.
     
-Não há nenhum bit na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar se o seu provedor de armazenamento de mensagens oferece suporte a tabelas de conteúdo associado. Se o seu provedor de armazenamento de mensagem não oferecer suporte a eles, ele deverá retornar MAPI_E_NO_SUPPORT quando os aplicativos cliente chamam qualquer um dos métodos acima com o sinalizador MAPI_ASSOCIATED.
+Não há nenhum bit na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar se o seu provedor de repositório de mensagens oferece suporte a tabelas de conteúdo associadas. Se o seu provedor de repositório de mensagens não oferecer suporte a eles, ele deverá retornar MAPI_E_NO_SUPPORT quando os aplicativos cliente chamarem qualquer um dos métodos acima com o sinalizador MAPI_ASSOCIATED.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

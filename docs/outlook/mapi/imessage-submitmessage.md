@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 67c86f39898b4bd0c019b9b3095c9449e6e60b1b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 28786f483c4d2031c334d7b9697db7c5e627fe93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349228"
 ---
 # <a name="imessagesubmitmessage"></a>IMessage::SubmitMessage
 
@@ -37,43 +37,43 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores usadas para controlar como uma mensagem é enviada. O seguinte sinalizador pode ser definido:
+> no Bitmask dos sinalizadores usados para controlar como uma mensagem é enviada. O seguinte sinalizador pode ser definido:
     
 FORCE_SUBMIT 
   
-> MAPI deve enviar a mensagem imediatamente. Esse sinalizador não está atualmente em uso.
+> O MAPI deve enviar a mensagem imediatamente. Este sinalizador não está em uso no momento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_NO_RECIPIENTS 
   
-> Tabela de destinatário da mensagem está vazia.
+> A tabela de destinatários da mensagem está vazia.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::SubmitMessage** marca uma mensagem como pronto para ser transmitidos. MAPI passa mensagens para o sistema de mensagens subjacente na ordem em que estão marcados para envio. Devido a essa funcionalidade, uma mensagem pode ficar em um armazenamento de mensagens, por algum tempo antes que o sistema de mensagens subjacente pode assumir a responsabilidade para ele. A ordem de recebimento no destino está no controle do sistema de mensagens subjacentes e não necessariamente correspondem a ordem na qual as mensagens foram enviadas. 
+O método **IMessage:: SubmitMessage** marca uma mensagem como pronta para ser transmitida. MAPI transmite mensagens para o sistema de mensagens subjacente na ordem em que estão marcadas para envio. Por causa dessa funcionalidade, uma mensagem pode permanecer em um repositório de mensagens por algum tempo antes que o sistema de mensagens subjacente possa assumir a responsabilidade. A ordem de recebimento no destino é no controle do sistema de mensagens subjacente e não necessariamente corresponde à ordem em que as mensagens foram enviadas. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Chame o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem para salvá-lo e, em seguida, verifique a propriedade de **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem. Se o sinalizador MSGFLAG_RESEND estiver definido, chame [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit** atualiza o tipo de destinatário e a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) para todos os destinatários da mensagem de reenvio.
+Chame o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem para salvá-lo e, em seguida, verifique a propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem. Se o sinalizador MSGFLAG_RESEND estiver definido, chame [IMAPISupport::P reparesubmit](imapisupport-preparesubmit.md). O **PrepareSubmit** atualiza o tipo de destinatário e a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) para todos os destinatários na mensagem de reenvio.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando **SubmitMessage** retorna, todos os ponteiros para a mensagem e suas mensagens associadas subobjetos, pastas, anexos, fluxos, tabelas e assim por diante não estão mais válidos. MAPI não permite que quaisquer operações mais sobre esses ponteiros, exceto para chamar seus métodos **IUnknown:: Release** . MAPI destina-se a forma que depois é chamado **SubmitMessage** , você deve liberar a mensagem e todos os respectivos subobjetos. No entanto, se **SubmitMessage** retorna um valor de erro indicando informações ausentes ou inválidas, a mensagem permanecerá aberta e os ponteiros permanecem válidos. 
+Quando **SubmitMessage** retorna, todos os ponteiros para a mensagem e seus subobjetos associados mensagens, pastas, anexos, fluxos, tabelas e assim por diante não são mais válidos. O MAPI não permite nenhuma operação adicional nesses ponteiros, exceto para chamar seus métodos **IUnknown:: Release** . O MAPI é projetado de tal forma que, após a chamada de **SubmitMessage** , você deve liberar a mensagem e todos os subobjetos associados. No enTanto, se **SubmitMessage** retornar um valor de erro indicando informações ausentes ou inválidas, a mensagem permanecerá aberta e os ponteiros permanecerão válidos. 
   
-Para cancelar uma operação de envio, obtenha e armazenar um ponteiro para a propriedade de **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da mensagem antes que a mensagem é enviada. Porque o identificador de entrada da mensagem é invalidado depois que a mensagem foi enviada, é necessário para salvá-lo antes de chamar **SubmitMessage**. Para cancelar a enviar, aponte o parâmetro _lpEntryId_ para esse identificador de entrada e chamadas [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
+Para cancelar uma operação de envio, obtenha e armazene um ponteiro para a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da mensagem antes que a mensagem seja enviada. Como o identificador de entrada da mensagem é invalidado após o envio da mensagem, é necessário salvá-lo antes de chamar **SubmitMessage**. Para cancelar o envio, aponte o parâmetro _lpEntryId_ para este identificador de entrada e chame [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI usa o método **IMessage::SubmitMessage** para enviar a mensagem selecionada.  <br/> |
+|FolderDlg. cpp  <br/> |**CFolderDlg:: OnSubmitMessage** <br/> |MFCMAPI usa o método **IMessage:: SubmitMessage** para enviar a mensagem selecionada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -84,5 +84,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMessage : IMAPIProp](imessageimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

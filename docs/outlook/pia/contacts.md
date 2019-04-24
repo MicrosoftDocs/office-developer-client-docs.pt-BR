@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e8a524e6cd7fbc4fdb2818279a9975b0813de886
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350978"
 ---
 # <a name="contacts"></a>Contatos
 
@@ -32,5 +32,5 @@ Esta seção fornece exemplos de tópicos que envolvem contatos. Contatos repres
 - [Cartões de visita eletrônicos](electronic-business-cards.md)
 - [Email](mail.md)
 - [Destinatários](recipients.md)
-- [Como faço para... (Referência do Outlook 2013 PIA)](how-do-i-outlook-2013-pia-reference.md)
+- [Como faço para... (Referência do PIA do Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

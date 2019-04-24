@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: be11c536804682d1baec8188b6d7487c71d411e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348738"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566548"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Habilita o logoff ordenado o armazenamento de mensagens.
+Permite o logoff ordenada do repositório de mensagens.
   
 ```cpp
 HRESULT StoreLogoff(
@@ -37,57 +37,57 @@ HRESULT StoreLogoff(
 
  _lpulFlags_
   
-> [além, out] Uma bitmask dos sinalizadores que controla o logoff do repositório de mensagem. Na entrada, todos os sinalizadores definido para este parâmetro são mutuamente exclusivos; um chamador deve especificar somente um sinalizador por chamada. Sinalizadores a seguir são válidos na entrada:
+> [in, out] Uma bitmask de sinalizadores que controla o logoff do repositório de mensagens. Na entrada, todos os sinalizadores definidos para esse parâmetro são mutuamente exclusivos; um chamador deve especificar apenas um sinalizador por chamada. Os seguintes sinalizadores são válidos na entrada:
     
 LOGOFF_ABORT 
   
-> Qualquer atividade de provedor de transporte para este armazenamento de mensagens deve ser interrompida antes de fazer logoff. Controle é retornado para o chamador após a atividade foi interrompida. Se qualquer atividade de provedor de transporte está ocorrendo, não ocorrerá o logoff e não ocorrerá nenhuma alteração no comportamento dos provedores de transporte ou spooler de MAPI. Se a atividade de provedor de transporte está ociosa, o MAPI spooler libera o repositório. 
+> Qualquer atividade do provedor de transporte para esse repositório de mensagens deve ser interrompida antes do logoff. O controle é retornado ao chamador após a interrupção da atividade. Se alguma atividade de provedor de transporte estiver ocorrendo, o logoff não ocorrerá e não ocorrerá alteração no comportamento do spooler MAPI ou provedores de transporte. Se a atividade do provedor de transporte estiver ociosa, o spooler MAPI libera o repositório. 
     
 LOGOFF_NO_WAIT 
   
-> O armazenamento de mensagens não deve aguardar para mensagens de provedores de transporte antes de fechar. Mensagens de saída que estão prontas para serem enviados são enviadas. Se esse repositório contiver a caixa de entrada padrão, todas as mensagens de em processo são recebidas e, em seguida, recepção adicional é desabilitada. Quando todas as atividades estiver concluída, o MAPI spooler libera o repositório e controle imediatamente é retornado ao chamador. 
+> O repositório de mensagens não deve aguardar mensagens de provedores de transporte antes de fechar. São enviadas mensagens de saída prontas para envio. Se esse repositório contiver a caixa de entrada padrão, qualquer mensagem em andamento será recebida e, em seguida, a recepção estará desabilitada. Quando toda a atividade é concluída, o spooler MAPI libera o repositório e o controle é imediatamente retornado para o chamador. 
     
 LOGOFF_ORDERLY 
   
-> O armazenamento de mensagens não deve aguardar para obter informações de provedores de transporte antes de fechar. Mensagens que estão sendo processadas forem concluídas, mas nenhum novas mensagens forem processadas. Quando todas as atividades estiver concluída, o MAPI spooler libera o repositório e controle imediatamente é retornado para o provedor de armazenamento. 
+> O repositório de mensagens não deve aguardar informações de provedores de transporte antes de fechar. As mensagens que estão sendo processadas atualmente foram concluídas, mas nenhuma mensagem nova é processada. Quando toda a atividade é concluída, o spooler MAPI libera o repositório e o controle é imediatamente retornado ao provedor de repositório. 
     
 LOGOFF_PURGE 
   
-> O logoff deve funcionar o mesmo como se o sinalizador LOGOFF_NO_WAIT estiver definido, mas o [IXPLogon::FlushQueues](ixplogon-flushqueues.md) [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) método ou para os provedores de transporte adequado deve ser chamado. O sinalizador LOGOFF_PURGE retorna o controle para o chamador após a conclusão. 
+> O logoff deve funcionar da mesma forma que se o sinalizador LOGOFF_NO_WAIT estiver definido, mas o método [IXPLogon:: FlushQueues](ixplogon-flushqueues.md) ou [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) para os provedores de transporte apropriados deverá ser chamado. O sinalizador LOGOFF_PURGE retorna o controle para o chamador após a conclusão. 
     
 LOGOFF_QUIET 
   
-> Se qualquer atividade de provedor de transporte está ocorrendo, o logoff não deve ocorrer.
+> Se alguma atividade do provedor de transporte estiver ocorrendo, o logoff não deve ocorrer.
     
     The following flags are valid on output:
     
 LOGOFF_INBOUND 
   
-> Mensagens de entrada chegam no momento.
+> As mensagens de entrada estão chegando no momento.
     
 LOGOFF_OUTBOUND 
   
-> Mensagens de saída são no processo que está sendo enviada.
+> As mensagens de saída estão no processo de envio.
     
 LOGOFF_OUTBOUND_QUEUE 
   
-> Mensagens de saída estão pendentes (ou seja, eles são na caixa de saída).
+> As mensagens de saída estão pendentes (ou seja, elas estão na mensagem de saída).
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O logoff concluído com êxito.
+> O logoff foi concluído com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore::StoreLogoff** exerce controle sobre a interação da mensagem armazenar e provedores de transporte durante o processo de logoff. Chamar **StoreLogoff** é válida apenas para repositórios de mensagem que estão sendo usados somente pelo chamador. Por exemplo, quando dois clientes estão usando o mesmo armazenamento de mensagens e um deles chama **StoreLogoff**, o armazenamento de mensagens é liberado imediatamente e o controle é retornado para o cliente da chamada.
+O método **IMsgStore:: StoreLogoff** exerce controle sobre a interação do armazenamento de mensagens e dos provedores de transporte durante o processo de logoff. Chamar **StoreLogoff** é válido somente para repositórios de mensagens que estão sendo usados apenas pelo chamador. Por exemplo, quando dois clientes estão usando o mesmo repositório de mensagens e um deles chama **StoreLogoff**, o repositório de mensagens é lançado imediatamente e o controle é retornado ao cliente de chamada.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Salve os sinalizadores que são passados para **StoreLogoff** e passá-las quando você chama o método [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) . Não chame **StoreLogoffTransports** até que a contagem de referência da loja mensagem cai para zero. Várias chamadas para **StoreLogoffTransports** simplesmente substituem os sinalizadores salvos. 
+Salve os sinalizadores passados para **StoreLogoff** e passe-os quando chamar o método [IMAPISupport:: StoreLogoffTransports](imapisupport-storelogofftransports.md) . Não chame **StoreLogoffTransports** até que a contagem de referência do repositório de mensagens descarte para zero. Várias chamadas para **StoreLogoffTransports** simplesmente substituem os sinalizadores salvos. 
   
-Se nenhuma chamada foi feita para **StoreLogoff** antes da mensagem contagem de referência da loja chega a zero, defina o sinalizador LOGOFF_ABORT no parâmetro _ulFlags_ que você passa para **StoreLogoffTransports**.
+Se nenhuma chamada tiver sido feita ao **StoreLogoff** antes que a contagem de referência do repositório de mensagens atinja zero, defina o sinalizador LOGOFF_ABORT no parâmetro _parâmetroulflags_ que você passa para **StoreLogoffTransports**.
   
 ## <a name="see-also"></a>Confira também
 

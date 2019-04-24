@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 506b3d81-9c93-aeff-f5b2-3354ffd3e075
 description: Criar aplicativos seguros é um dos principais desafios dos desenvolvedores de soluções. Os usuários, administradores e desenvolvedores estão cada vez mais cientes do potencial de danos causados pela execução de código desconhecido que pode ser prejudicial para computadores. É mais importante do que nunca ajudar a garantir a integridade dos seus aplicativos.
 ms.openlocfilehash: 72b4a45faa46778b7a369cfe458ee4e0e9ea71bb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345021"
 ---
 # <a name="about-security-settings-and-running-code-in-visio-shapesheet"></a>Sobre as configurações de segurança e a execução de código no Visio (ShapeSheet)
 
@@ -34,7 +34,7 @@ Todas as configurações de segurança se aplicam a todo o Office e são definid
     
 Em versões anteriores do Visio, as configurações eram realizadas na caixa de diálogo **Segurança** e na guia **Segurança** da caixa diálogo **Opções** (menu **Ferramentas**). A partir do Office Visio 2007, essas caixas de diálogo foram eliminadas, e a partir do Microsoft Visio 2010, os menus e barras de ferramentas do Visio foram substituídos pela faixa de opções. 
   
-Para obter mais informações sobre as configurações na **Central de Confiabilidade** do Office, consulte [Notas de Segurança para os Desenvolvedores de Soluções do Microsoft Office](https://msdn.microsoft.com/pt-BR/library/aa433259.aspx).
+Para obter mais informações sobre as configurações na **Central de Confiabilidade** do Office, consulte [Notas de Segurança para os Desenvolvedores de Soluções do Microsoft Office](https://msdn.microsoft.com/en-us/library/aa433259.aspx).
   
  Para obter mais informações sobre código assinado digitalmente e fontes e editores confiáveis, procure por "assinatura de código" no MSDN, o site da Microsoft na Web para desenvolvedores. 
   

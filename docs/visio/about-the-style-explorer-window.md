@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: A janela Gerenciador de Estilo fornece aos desenvolvedores de formas uma maneira rápida de determinar quais as células de formas que herdam valores de um determinado estilo, ou o estilo do qual uma determinada célula herda seu valor.
-ms.openlocfilehash: 25af478b8ac4e35c7ae0b88bf69aad21d679da17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55800b692443bae3720b433e5a6178f2709d3675
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345343"
 ---
-# <a name="about-the-style-explorer-window"></a>Sobre a janela Gerenciador de Estilo
+# <a name="about-the-style-explorer-window"></a>Sobre a janela do Gerenciador de Estilo
 
 A janela **Gerenciador de Estilo** fornece aos desenvolvedores de formas uma maneira rápida de determinar quais as células de formas que herdam valores de um determinado estilo, ou o estilo do qual uma determinada célula herda seu valor. 
   
@@ -24,14 +24,14 @@ Os estilos são denominados coleções de atributos de formatação que você po
   
 Ao contrário das formas às quais você aplicou os atributos de formatação individualmente, as formas cuja formatação provém de um estilo não apenas garantem a consistência mas também reagem melhor quando são criadas, movidas, dimensionadas ou giradas. 
   
-A janela **Gerenciador de estilo** fornece as informações que você precisa entender melhor as implicações das alterações que faz nas formas. 
+A janela **Gerenciador de estilo** fornece as informações de que você precisa para entender melhor as implicações das alterações que você faz nas formas. 
   
 > [!NOTE]
 > Os valores das células que aparecem em preto na janela ShapeSheet são herdados; os que aparecem em azul são locais. 
   
 ## <a name="using-the-style-explorer-window"></a>Usando a janela Gerenciador de Estilo
 
-Para exibir a janela do **Gerenciador de estilo** , com a janela ShapeSheet ativa, na guia **Design de ferramentas do ShapeSheet** , no grupo **Exibir** , selecione **Gerenciador de estilo**. A janela **Gerenciador de estilo** é exibida encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuada ou combinada com outras disponíveis janelas ShapeSheet ancoradas, por exemplo, a janela **Rastreamento de fórmula** . A janela **Gerenciador de estilo** contém uma exibição em árvore de todos os estilos definidos no desenho atual. 
+Para exibir a janela **Gerenciador de estilo** , com a janela ShapeSheet ativa, na guia Design de ferramentas do **ShapeSheet** , no grupo **Exibir** , selecione **Gerenciador de estilo**. A janela **Gerenciador de estilo** aparece encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuada ou mesclada com outras janelas do ShapeSheet ancoradas disponíveis, por exemplo, a janela rastreamento de **fórmula** . A janela **Gerenciador de Estilo** contém um modo de exibição em árvore de todos os estilos definidos no desenho atual. 
   
 > [!NOTE]
 > Para obter informações sobre um estilo, clique com o botão direito do mouse no estilo na janela **Gerenciador de Estilo** para exibir sua ShapeSheet. 

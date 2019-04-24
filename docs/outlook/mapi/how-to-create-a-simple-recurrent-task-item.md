@@ -9,46 +9,46 @@ api_type:
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: be765915b729824b8c8b4209f125f354b02bad2b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345469"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Criar um item de tarefa simples de recorrência
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI pode ser usado para criar para criar itens de tarefa. Este tópico descreve como criar um item de tarefa recorrente simples.
+MAPI pode ser usado para criar itens de tarefa. Este tópico descreve como criar um item de tarefa recorrente simples.
   
-Para obter informações sobre como baixar, ler e executar o código do aplicativo MFCMAPI e projeto CreateOutlookItemsAddin referenciado neste tópico, consulte [instalar amostras usadas na seção deste](how-to-install-the-samples-used-in-this-section.md).
+Para obter informações sobre como baixar, exibir e executar o código do aplicativo MFCMAPI e o projeto do CreateOutlookItemsAddin referenciado neste tópico, consulte [install the Samples Used in this section](how-to-install-the-samples-used-in-this-section.md).
 
 ### <a name="to-create-a-task-item"></a>Para criar um item de tarefa
 
-1. Abra um armazenamento de mensagens. Para obter informações sobre como abrir um armazenamento de mensagens, consulte [Abrindo um armazenamento de mensagens](opening-a-message-store.md).
+1. Abra um repositório de mensagens. Para obter informações sobre como abrir um repositório de mensagens, consulte [abrir um repositório de mensagens](opening-a-message-store.md).
     
-2. Abra a pasta de tarefas no repositório de mensagem. Para obter mais informações, consulte **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
+2. Abra a pasta tarefas no repositório de mensagens. Para obter mais informações, consulte **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
     
-3. Chame o método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) na pasta de tarefas para criar o novo item de tarefa. 
+3. Chame o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) na pasta tarefas para criar o novo item de tarefa. 
     
-4. Defina a propriedade **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) e outras propriedades relacionados a tarefas necessárias para criar uma tarefa recorrente.
+4. Defina a propriedade **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) e outras propriedades relacionadas à tarefa necessárias para criar uma tarefa recorrente.
     
 5. Salve o novo item de tarefa.
     
-O `AddTask` função no arquivo de origem Tasks.cpp do projeto CreateOutlookItemsAddin demonstra estas etapas. O `AddTask` função usa os parâmetros da caixa de diálogo **Adicionar tarefa** é exibida quando você clicar em **Adicionar tarefa** no menu **Addins** no aplicativo de amostra MFCMAPI. O `DisplayAddTaskDialog` funcione no Tasks.cpp exibe a caixa de diálogo e passa os valores da caixa de diálogo para o `AddTask` função. O `DisplayAddTaskDialog` função não se relacionam diretamente para a criação de um item de tarefa usando MAPI, portanto, não está listado aqui. 
+A `AddTask` função no arquivo de origem Tasks. cpp do projeto CreateOutlookItemsAddin demonstra essas etapas. A `AddTask` função usa parâmetros da caixa de diálogo **Adicionar tarefa** que é exibida quando você clica em **Adicionar tarefa** no menu **AddIns** no aplicativo de exemplo MFCMAPI. A `DisplayAddTaskDialog` função em Tasks. cpp exibe a caixa de diálogo e passa valores da caixa de diálogo para `AddTask` a função. A `DisplayAddTaskDialog` função não está relacionada diretamente à criação de um item de tarefa usando MAPI, portanto, não está listada aqui. 
   
 > [!IMPORTANT]
-> O código no aplicativo MFCMAPI não garante que a pasta **tarefas** foi selecionada quando você clicar no comando **Adicionar tarefa** no menu **Addins** . Criando itens de tarefa em uma pasta diferente da pasta **tarefas** pode causar um comportamento indefinido. Certifique-se de que você selecionou a pasta de **tarefas** antes de usar o comando **Adicionar tarefa** no aplicativo MFCMAPI. 
+> O código no aplicativo MFCMAPI não garante que a pasta **tarefas** tenha sido selecionada quando você clicar no comando **Adicionar tarefa** no menu AddIns **** . A criação de itens de tarefa em uma pasta diferente da pasta **tarefas** pode causar comportamento indefinido. Verifique se você selecionou a pasta **tarefas** antes de usar o comando **Adicionar tarefa** no aplicativo do MFCMAPI. 
   
-O `AddTask` função está listada abaixo. Observe que o parâmetro _lpFolder_ passado para o `AddTask` função é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta onde a nova tarefa é criada. Dado o _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . O método **CreateMessage** retorna um código de sucesso e um ponteiro para um ponteiro para uma interface **IMessage** . A maioria do `AddTask` o trabalho de especificação de propriedades em preparação para chamar o método [IMAPIProp::SetProps](imapiprop-setprops.md) lida com o código de função. Se a chamada para o método **SetProps** tiver êxito, o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) é chamado para confirmar as alterações para o repositório e criar um novo item de tarefa. 
+A `AddTask` função está listada abaixo. Observe que o parâmetro _lpFolder_ passado para a `AddTask` função é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta na qual a nova tarefa é criada. Dada a _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . O **** Método CreateMessage retorna um código de êxito e um ponteiro para um ponteiro para uma interface **IMessage** . A maior parte `AddTask` do código de função trata do trabalho de especificação de propriedades em preparação para chamar o método [IMAPIProp::](imapiprop-setprops.md) SetProps. Se a chamada para o **** método SetProps for bem-sucedida, o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) será chamado para confirmar as alterações no repositório e criar um novo item de tarefa. 
   
-O `AddTask` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como eles são criados, consulte [Usando MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Porque as propriedades nomeadas usadas para itens de tarefa ocupam vários conjuntos de propriedade, deve ter cuidado ao construir parâmetros a serem passados para o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+A `AddTask` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como elas são criadas, consulte [usando o MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Como as propriedades nomeadas usadas para itens de tarefa ocupam vários conjuntos de propriedades, é necessário tomar cuidado ao criar parâmetros a serem passados para o método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
-O `AddTask` funcionar usa o `BuildWeeklyTaskRecurrencePattern` função auxiliar para criar uma estrutura que representa uma tarefa recorrente para a configuração da propriedade **dispidTaskRecur** . Para obter informações sobre a estrutura de recorrência da tarefa a `BuildWeeklyTaskRecurrencePattern` function compilações, consulte [Propriedades de canônico PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) e [PidLidRecurrencePattern canônico](pidlidrecurrencepattern-canonical-property.md). 
+A `AddTask` função usa a `BuildWeeklyTaskRecurrencePattern` função auxiliar para criar uma estrutura que representa uma recorrência de tarefa para a configuração da propriedade **dispidTaskRecur** . Para obter informações sobre a estrutura de recorrência de tarefa que a função cria, confira a `BuildWeeklyTaskRecurrencePattern` [Propriedade canônica PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) e a [Propriedade canônica PidLidRecurrencePattern](pidlidrecurrencepattern-canonical-property.md). 
 
-Observe que, enquanto uma grande variedade de padrões de recorrência, são possíveis, o `BuildWeeklyTaskRecurrencePattern` função apenas cria um padrão de recorrência semanal. Também é difícil codificados para um número de suposições, como o tipo de calendário (Gregoriano), o primeiro dia da semana (domingo) e o número de instâncias modificados ou excluídos (nenhum). Uma finalidade mais geral função de criação de padrão de recorrência precisaria aceitar esses tipos de variáveis como parâmetros. 
+Observe que, embora uma grande variedade de padrões de recorrência seja `BuildWeeklyTaskRecurrencePattern` possível, a função apenas cria um padrão de recorrência semanal. Também é codificado por várias suposições, como o tipo de calendário (gregoriano), o primeiro dia da semana (domingo) e o número de instâncias modificadas ou excluídas (nenhuma). Uma função de criação de padrão de recorrência de finalização mais geral precisaria aceitar esses tipos de variáveis como parâmetros. 
   
-O seguinte é a lista completa do `AddTask` função. 
+Veja a seguir a listagem completa da `AddTask` função. 
   
 ```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,

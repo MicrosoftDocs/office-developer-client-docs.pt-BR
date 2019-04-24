@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ae408b4f-dee3-484b-a19c-f472cfa95996
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e157fa640026d13362084b30ad73cdb66a0b35b5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342669"
 ---
 # <a name="pidtagsendinternetencoding-canonical-property"></a>Propriedade canônica PidTagSendInternetEncoding
 
@@ -25,7 +25,7 @@ ms.locfileid: "25392561"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask dos preferências de codificação. 
+Contém uma bitmask de preferências de codificação. 
   
 |||
 |:-----|:-----|
@@ -38,69 +38,69 @@ Contém uma bitmask dos preferências de codificação.
 
 Defina essa propriedade para indicar as opções de codificação usadas. 
   
-Essa propriedade contém os sinalizadores a seguir:
+Essa propriedade contém os seguintes sinalizadores:
   
 BODY_ENCODING_HTML 
   
-> Codifica o texto da mensagem em HTML. Esse sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME está definido. 
+> Codificar o texto da mensagem em HTML. Este sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME esteja definido. 
     
 BODY_ENCODING_TEXT_AND_HTML 
   
-> Codifica o texto da mensagem usando texto e HTML como alternativas de várias partes do Multipurpose Internet Mail Extensions (MIME). Esse sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME está definido. 
+> Codificar o texto da mensagem usando texto e HTML como Extensões multipropósito do Internet Mail Extensions (MIME). Este sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME esteja definido. 
     
 ENCODING_MIME 
   
-> Codifica a mensagem usando MIME. Se esse sinalizador não estiver definida, o MAPI codifica o texto da mensagem em texto sem formatação e os anexos em UUENCODE. 
+> Codifique a mensagem usando MIME. Se esse sinalizador não for definido, o MAPI codifica o texto da mensagem em texto sem formatação e os anexos no UUENCODe. 
     
 ENCODING_PREFERENCE 
   
-> Use os outros sinalizadores neste bitmask para determinar a codificação. Se esse sinalizador não estiver definida, MAPI deixa para o sistema de mensagens para tomar decisões de codificação. 
+> Use os outros sinalizadores nesta bitmask para determinar a codificação. Se esse sinalizador não for definido, o MAPI o deixará com o sistema de mensagens para tomar decisões de codificação. 
     
 MAC_ATTACH_ENCODING_APPLEDOUBLE 
   
-> Codifica anexos do Macintosh no modo duplo da Apple. Esse sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME está definido. 
+> Codificar anexos de Macintosh no modo duplo Apple. Este sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME esteja definido. 
     
 MAC_ATTACH_ENCODING_APPLESINGLE 
   
-> Codifica anexos no modo de único Apple do Macintosh. Esse sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME está definido. 
+> Codificar anexos de Macintosh no modo da Apple. Este sinalizador é ignorado, a menos que o sinalizador ENCODING_MIME esteja definido. 
     
 MAC_ATTACH_ENCODING_UUENCODE 
   
-> Codifica anexos no UUENCODE do Macintosh. Se o sinalizador ENCODING_MIME for definido, esse sinalizador será ignorado e será usada a codificação BinHex. 
+> Codificar anexos de Macintosh no UUENCODe. Se o sinalizador ENCODING_MIME estiver definido, esse sinalizador será ignorado e a codificação BinHex será usada em seu lugar. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -108,7 +108,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

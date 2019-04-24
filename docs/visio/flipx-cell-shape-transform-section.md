@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Indica se a forma foi virada horizontalmente.
-ms.openlocfilehash: fc014ff6c5a3650361d6afd478a5858f84fb5c47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346183"
 ---
 # <a name="flipx-cell-shape-transform-section"></a>Célula FlipX (Seção Shape Transform)
 
@@ -22,8 +22,8 @@ Indica se a forma foi virada horizontalmente.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A forma foi virada horizontalmente.  <br/> |
-| FALSO  <br/> | A forma não foi virada horizontalmente.  <br/> |
+| TRUE  <br/> | A forma foi virada horizontalmente.  <br/> |
+| FALSE  <br/> | A forma não foi virada horizontalmente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

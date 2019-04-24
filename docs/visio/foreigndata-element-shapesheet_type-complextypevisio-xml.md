@@ -1,31 +1,31 @@
 ---
-title: Elemento ForeignData (ShapeSheet_Type complexType) ('Visio XML')
+title: Elemento ForeignData (ShapeSheet_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
-description: Contém um BLOB codificado de MIME (Multipurpose Internet Mail Extensions) de dados de imagem, como dados OLE, bitmap ou metarquivo do Windows.
+description: Contém um BLOB codificado de MIME (Multipurpose Internet Mail Extensions) de dados de imagem, como metarquivo do Windows, bitmap ou dados OLE.
 ms.openlocfilehash: cce7665230fb9e68bf37002e1953944a5b8f8082
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346029"
 ---
-# <a name="foreigndata-element-shapesheettype-complextype-visio-xml"></a>Elemento ForeignData (ShapeSheet_Type complexType) ('Visio XML')
+# <a name="foreigndata-element-shapesheettype-complextype-visio-xml"></a>Elemento ForeignData (ShapeSheet_Type complexType) (' Visio XML ')
 
-Contém um BLOB codificado de MIME (Multipurpose Internet Mail Extensions) de dados de imagem, como dados OLE, bitmap ou metarquivo do Windows.
+Contém um BLOB codificado de MIME (Multipurpose Internet Mail Extensions) de dados de imagem, como metarquivo do Windows, bitmap ou dados OLE.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |página # XML, master. XML de #  <br/> |
+|**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,33 +36,33 @@ Contém um BLOB codificado de MIME (Multipurpose Internet Mail Extensions) de da
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contém os elementos que definem a uma forma em um **mestre**, **página**ou elemento de forma do grupo.  <br/> |
+|[Forma](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contém elementos que definem uma forma em um elemento **Master**, **Page** ou group shape.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Especifica uma relação a uma parte contendo os dados de imagem.  <br/> |
+|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Especifica uma relação com uma parte que contém os dados da imagem.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |XSD:Double  <br/> |opcional  <br/> |Especifica o nível de compactação aplicada ao arquivo. Este atributo só é significativo se os dados externos são um objeto estranho baseado em varredura, de como um arquivo GIF, JPG, PNG, TIFF ou DIB.  <br/> |Valores do tipo xsd:double.  <br/> |
-|CompressionType  <br/> |XSD:token  <br/> |opcional  <br/> |Especifica o tipo de compactação aplicada ao arquivo. Este atributo só é significativo se os dados externos são um objeto estranho baseado em varredura, de como um arquivo GIF, JPG, PNG, TIFF ou DIB  <br/> |Valores do tipo xsd:token.  <br/> |
-|ExtentX  <br/> |XSD:Double  <br/> |opcional  <br/> |Especifica a extensão horizontal do metarquivo. Este atributo só é significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ExtentY  <br/> |XSD:Double  <br/> |opcional  <br/> |Especifica a extensão vertical do metarquivo. Este atributo só é significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ForeignType  <br/> |XSD:token  <br/> |obrigatório  <br/> |Indica o tipo de Bitmap, objeto ou tinta metarquivo, EnhMetaFile.  <br/> |Valores do tipo xsd:token.  <br/> |
-|MappingMode  <br/> |XSD:unsignedShort  <br/> |opcional  <br/> |Especifica o modo de mapeamento de metarquivo. Este atributo só é significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |XSD:Double  <br/> |opcional  <br/> |Especifica a altura do objeto em unidades de página. Este atributo só é significativo se os dados externos são um objeto incorporado do OLE2.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ObjectType  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |Um indicador de inteiro do tipo de objeto. Usado quando o tipo estrangeiro é object.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |XSD:Double  <br/> |opcional  <br/> |Especifica a largura do objeto em unidades de página. Este atributo só é significativo se os dados externos são um objeto incorporado do OLE2.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ShowAsIcon  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Indica se deve mostrar ou não mostrar dados incorporados como um ícone.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|CompressionLevel  <br/> |xsd: Double  <br/> |opcional  <br/> |Especifica o nível de compactação aplicado ao arquivo. Este atributo só será significativo se os dados externos forem um objeto estrangeiro baseado em raster, como um arquivo DIB, JPG, PNG, TIFF ou GIF.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> |Especifica o tipo de compactação aplicada ao arquivo. Este atributo só será significativo se os dados externos forem um objeto estrangeiro baseado em raster, como um arquivo DIB, JPG, PNG, TIFF ou GIF  <br/> |Valores do tipo xsd:token.  <br/> |
+|ExtentX  <br/> |xsd: Double  <br/> |opcional  <br/> |Especifica a extensão horizontal do metarquivo. Este atributo só será significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|Extensão  <br/> |xsd: Double  <br/> |opcional  <br/> |Especifica a extensão vertical do metarquivo. Este atributo só será significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|ForeignType  <br/> |xsd:token  <br/> |obrigatório  <br/> |Indica o metarquivo, EnhMetaFile, bitmap, objeto ou tipo de tinta.  <br/> |Valores do tipo xsd:token.  <br/> |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Especifica o modo de mapeamento de metarquivo. Este atributo só será significativo se os dados externos forem um metarquivo.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
+|ObjectHeight  <br/> |xsd: Double  <br/> |opcional  <br/> |Especifica a altura do objeto em unidades de página. Esse atributo só será significativo se os dados externos forem um objeto incorporado OLE2.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Um indicador inteiro de tipo de objeto. Usado quando o tipo Foreign é Object.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ObjectWidth  <br/> |xsd: Double  <br/> |opcional  <br/> |Especifica a largura do objeto em unidades de página. Esse atributo só será significativo se os dados externos forem um objeto incorporado OLE2.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|{AsIc  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se os dados inseridos devem ser mostrados ou não como um ícone.  <br/> |Valores do tipo xsd:boolean.  <br/> |
    
 

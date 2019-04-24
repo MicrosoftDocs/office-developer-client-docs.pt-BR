@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f78e0ed939e190a9855ea4b040d18c01cfecc91d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357838"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22568494"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de uma ou mais estruturas de [SPropProblem](spropproblem.md) . 
+Contém uma matriz de uma ou mais estruturas [SPropProblem](spropproblem.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
@@ -45,15 +45,15 @@ typedef struct _SPropProblemArray
 
  **cProblem**
   
-> Contagem de estruturas de [SPropProblem](spropproblem.md) na matriz indicado pelo membro **aProblem** . 
+> Contagem de estruturas [SPropProblem](spropproblem.md) na matriz indicada pelo membro **aproblem** . 
     
  **aProblem**
   
-> Matriz de estruturas de **SPropProblem** , cada uma descrevendo um erro de propriedade. 
+> Matriz de estruturas **SPropProblem** , cada uma descrevendo um erro de propriedade. 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre como as estruturas **SPropProblem** e **SPropProblemArray** funcionam com erros relacionados às propriedades, consulte [Propriedades de chamada de MAPI](mapi-named-properties.md). 
+Para obter mais informações sobre como as estruturas **SPropProblem** e **SPropProblemArray** funcionam com erros relacionados a propriedades, consulte [MAPI Named Properties](mapi-named-properties.md). 
   
 ## <a name="see-also"></a>Confira também
 

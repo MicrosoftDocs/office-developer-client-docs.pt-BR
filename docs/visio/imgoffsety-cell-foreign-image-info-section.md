@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3b2991aa-4722-fe3b-39c5-02d38c4c7efc
 description: Determina a distância de deslocamento vertical do objeto em relação à origem de sua borda. O padrão é 0. Deslocar o objeto com a ferramenta Cortar irá alterar esse valor.
-ms.openlocfilehash: 2930aa092a2b776ceb0c9c4677f7e5da7f5dcdda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908972216a24370bc48990ddc99a36da9274d648
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344734"
 ---
 # <a name="imgoffsety-cell-foreign-image-info-section"></a>Célula ImgOffsetY (Seção Foreign Image Info)
 

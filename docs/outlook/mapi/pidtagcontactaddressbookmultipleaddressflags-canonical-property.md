@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b783a624ef5358a69d65dd52785b285db1a70df7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ecd795490d953f1aa237dfbd77585ba79c8b3234
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357929"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propriedade canônica PidTagContactAddressBookMultipleAddressFlags
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588668"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os sinalizadores que indicam se os provedores dará suporte a email vários endereços por item de contato.
+Contém sinalizadores que indicam se os provedores terão suporte para vários endereços de email por item de contato.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém os sinalizadores que indicam se os provedores dará suporte a email vár
    
 ## <a name="remarks"></a>Comentários
 
-Se os sinalizadores nessa propriedade forem TRUE, o provedor não inclui contatos sem endereços de email. Somente o endereço de email primário será atendido. Esta é uma propriedade em uma seção de perfil do catálogo de endereços de contatos.
+Se os sinalizadores nessa propriedade forem verdadeiros, o provedor não incluirá contatos sem endereços de email. Somente o endereço de email principal será aceito. Esta é uma propriedade em uma seção de perfil de catálogo de endereços de contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

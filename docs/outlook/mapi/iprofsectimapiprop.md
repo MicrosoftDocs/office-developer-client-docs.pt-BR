@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8152a9cad7623a077cd9df3f678a9ada56e3960
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 99ce944bec94a1e832f77fa8b0916ac1c76f6dc6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344790"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
@@ -25,21 +25,21 @@ ms.locfileid: "22577958"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Funciona com as propriedades dos objetos de seção de perfil. 
+Funciona com as propriedades dos objetos seção de perfil. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de seção de perfil  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Exposto por:  <br/> |Objetos de seção de perfil  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
 |Identificador de interface:  <br/> |IID_IProfSect  <br/> |
 |Tipo de ponteiro:  <br/> |LPPROFSECT  <br/> |
-|Modelo de transação:  <br/> |Nontransacted  <br/> |
+|Modelo de transação:  <br/> |Não-Transacted  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
-Essa interface não tem quaisquer métodos exclusivos.
+Esta interface não tem nenhum método exclusivo.
   
 |**Propriedades necessárias**|**Access**|
 |:-----|:-----|
@@ -48,37 +48,37 @@ Essa interface não tem quaisquer métodos exclusivos.
    
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A interface **IProfSect** não tem quaisquer métodos exclusivos de seu próprio, mas você pode chamar o perfil de métodos de [IMAPIProp](imapipropiunknown.md) da seção. Há algumas diferenças entre a implementação de **IProfSect** e outras implementações de **IMAPIProp**:
+A interface **IProfSect** não tem nenhum método exclusivo, mas você pode chamar os métodos [IMAPIProp](imapipropiunknown.md) da seção de perfil. Há algumas diferenças entre a implementação do **IProfSect** e outras implementações do **IMAPIProp**:
   
-- **IProfSect** não oferece suporte a um modelo de transação. 
+- **IProfSect** não dá suporte a um modelo de transação. 
     
-- **IProfSect** não oferece suporte a propriedades nomeadas. 
+- **IProfSect** não dá suporte a propriedades nomeadas. 
     
-- **IProfSect** reserva-se o intervalo de identificador 0x67F0 para 0x67ff para propriedades seguras. 
+- **IProfSect** reserva o intervalo de identificadores 0x67F0 para o 0x67ff para propriedades seguras. 
     
-Suporte a um modelo de transação não significa que todas as alterações feitas a seguir de uma seção de perfil chamadas para o [IMAPIProp::CopyProps](imapiprop-copyprops.md) e [IMAPIProp::CopyTo](imapiprop-copyto.md) métodos ocorrerem imediatamente. Chamadas para o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) êxito, mas não realmente salvar quaisquer alterações. 
+Não oferecer suporte a um modelo de transação significa que todas as alterações feitas em uma seção de perfil seguindo as chamadas para os métodos [IMAPIProp:: CopyProps](imapiprop-copyprops.md) e [IMAPIProp:: CopyTo](imapiprop-copyto.md) ocorrem imediatamente. As chamadas para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) são bem-sucedidas, mas não realmente salvam as alterações. 
   
-Para se proteger contra alterações que ocorrem prematuramente, provedores de serviços precisam fazer cópias das suas seções de perfil que são exibidas para usuários por meio de folhas de propriedades. Folhas de propriedades devem trabalhar com a cópia, em vez de seção perfil real. Quando o usuário clica no botão **Okey** para verificar se as alterações são precisas, as alterações podem ser salvas para a seção perfil real. 
+Para ser protegido contra alterações que ocorrem prematuramente, os provedores de serviços precisam fazer cópias de suas seções de perfil que são exibidas aos usuários por meio de folhas de propriedades. As folhas de propriedades devem funcionar com a cópia, em vez da seção real de perfil. Quando o usuário clica no botão **OK** para verificar se as alterações são precisas, as alterações podem ser salvas na seção perfil real. 
   
-Para implementar uma folha de propriedades por meio de uma seção de perfil copiado, use o procedimento a seguir:
+Para implementar uma folha de propriedades usando uma seção de perfil copiada, use o procedimento a seguir:
   
-1. Abra a seção de perfil chamando o método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) ou [IProviderAdmin::OpenProfileSection](iprovideradmin-openprofilesection.md) . 
+1. Abra a seção perfil chamando o método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) ou [IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md) . 
     
-2. Chamar a função [CreateIProp](createiprop.md) para recuperar um objeto de dados de propriedade — um objeto que dá suporte à interface **IPropData** . 
+2. Chame a função [CreateIProp](createiprop.md) para recuperar um objeto de dados de propriedade — um objeto que oferece suporte à interface **IPropData** . 
     
-3. Chame o método de [IMAPIProp::CopyTo](imapiprop-copyto.md) da seção perfil para copiar as propriedades que serão exibidas na folha de propriedades da seção de perfil para o objeto de dados de propriedade. 
+3. Chame o método [IMAPIProp:: CopyTo](imapiprop-copyto.md) da seção de perfil para copiar as propriedades que serão exibidas na folha de propriedades da seção perfil para o objeto de dados de propriedade. 
     
-4. Chame o método [IMAPISupport::DoConfigPropSheet](imapisupport-doconfigpropsheet.md) para solicitar que o provedor de serviço exibir uma folha de propriedades e passar um ponteiro para o objeto de dados de propriedade no parâmetro _lpConfigData_ . 
+4. Chame o método [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md) para solicitar que o provedor de serviços exiba uma folha de propriedades e passe um ponteiro para o objeto de dados de propriedade no parâmetro _lpConfigData_ . 
     
-5. Quando o usuário salva alterações às propriedades de configuração na folha de propriedades, chame o método [IMAPIProp::CopyTo](imapiprop-copyto.md) para copiar as propriedades do objeto de dados de propriedade voltar para a seção de perfil. 
+5. Quando o usuário salva as alterações nas propriedades de configuração na folha de propriedades, chame o método [IMAPIProp:: CopyTo](imapiprop-copyto.md) para copiar as propriedades do objeto de dados de propriedade de volta para a seção perfil. 
     
-As seções de perfil, ao contrário de outros objetos, não têm suporte a propriedades nomeadas. Os métodos [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) retornam MAPI_E_NO_SUPPORT se forem chamados em um objeto de seção de perfil. Se você usar o método [IMAPIProp::SetProps](imapiprop-setprops.md) para definir os identificadores de propriedade do intervalo acima 0x8000, o tipo de propriedade PT_ERROR será retornado. 
+Seções de perfil, ao contrário de outros objetos, não dão suporte a propriedades nomeadas. Os métodos [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp:: GETNAMESFROMIDS](imapiprop-getnamesfromids.md) retornam MAPI_E_NO_SUPPORT se forem chamados em um objeto section de perfil. Se você usar o método [IMAPIProp::](imapiprop-setprops.md) SetProps para definir identificadores de propriedade no intervalo acima de 0x8000, o tipo de propriedade PT_ERROR será retornado. 
   
-As seções de perfil reservam o intervalo de identificador 0x67F0 para 0x67FF para propriedades seguras. Provedores de serviços podem usar este intervalo para armazenar senhas e outras credenciais específicas do provedor. Propriedades nesse intervalo não são retornadas na lista completa de propriedades quando NULL é passada no parâmetro _lpPropTag_ do método [IMAPIProp::GetProps](imapiprop-getprops.md) , nem são retornados no parâmetro _lppPropTagArray_ do [ IMAPIProp::GetPropList](imapiprop-getproplist.md) método. Propriedades protegidas devem ser solicitadas especificamente por seus identificadores. 
+Seções de perfil Reserve o intervalo de identificadores 0x67F0 para 0x67FF para propriedades seguras. Os provedores de serviços podem usar esse intervalo para armazenar senhas e outras credenciais específicas do provedor. As propriedades neste intervalo não são retornadas na lista completa de propriedades quando NULL é passado no parâmetro _lpPropTag_ do método [IMAPIProp::](imapiprop-getprops.md) GetProps, nem são retornados no parâmetro _lppPropTagArray_ do [ Método IMAPIProp::](imapiprop-getproplist.md) Getproplist. As propriedades seguras devem ser solicitadas especificamente por seus identificadores. 
   
-MAPI fornece uma seção de perfil com MUID_PROFILE_INSTANCE constante codificadas como seu identificador e **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) como sua propriedade única. MAPI garante que o valor da propriedade **PR_SEARCH_KEY** sejam exclusivo entre todos os perfis criados. Use **PR_SEARCH_KEY** em vez de **PR_PROFILE_NAME** quando exclusividade é importante, porque é possível perfil excluída a ser seguidos por outro perfil com o mesmo nome. 
+O MAPI fornece uma seção de perfil com a constante codificada MUID_PROFILE_INSTANCE como seu identificador e **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) como sua única propriedade. O MAPI garante que o valor da propriedade **PR_SEARCH_KEY** será exclusivo entre todos os perfis criados. Use **PR_SEARCH_KEY** em vez de **PR_PROFILE_NAME** quando a exclusividade for importante, pois é possível que um perfil excluído seja seguido por outro perfil com o mesmo nome. 
   
-Para obter mais informações sobre como usar as seções de perfil, consulte [Administrando perfis e serviços de mensagem](administering-profiles-and-message-services.md).
+Para obter mais informações sobre como usar seções de perfil, consulte [Administração de perfis e serviços de mensagens](administering-profiles-and-message-services.md).
   
 ## <a name="see-also"></a>Confira também
 

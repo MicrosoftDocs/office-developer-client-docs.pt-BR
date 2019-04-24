@@ -5,23 +5,23 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
-description: 'Última modificação: 25 de julho de 2012'
-ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+ms.openlocfilehash: fab09d0c594bac1374973f523abe6ff0b9c09dd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344685"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obter o endereço de email de um item de contato
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico mostra como obter o valor de uma propriedade nomeada que representa o endereço de email de um item do Microsoft Outlook 2010 ou o contato do Microsoft Outlook 2013.
+Este tópico mostra como obter o valor de uma propriedade nomeada que representa o endereço de email de um item de contato do Microsoft Outlook 2010 ou do Microsoft Outlook 2013.
   
-Você pode associar até três endereços de email a um item de contato no Outlook 2010 e o Outlook 2013. Cada endereço de email corresponde a uma propriedade do objeto Outlook 2010 ou Outlook 2013 **ContactItem** nos modelos de objeto do Outlook 2010 e o Outlook 2013. Interna, para Outlook 2010 e Outlook 2013, o endereço de email também corresponde a uma propriedade nomeada de MAPI. Por exemplo, o primeiro endereço de email de um contato corresponde à propriedade **Email1Address** de **ContactItem** em modelos de objeto do Outlook 2010 e o Outlook 2013 e o [de nomeado interno Outlook 2010 e o Outlook 2013 Propriedade canônico de PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
+Você pode associar até três endereços de email com um item de contato no Outlook 2010 e no Outlook 2013. Cada endereço de email corresponde a uma propriedade do objeto **ContactItem** do Outlook 2010 ou do Outlook 2013 nos modelos de objeto do Outlook 2010 e Outlook 2013. Interno para o Outlook 2010 e o Outlook 2013, o endereço de email também corresponde a uma propriedade nomeada MAPI. Por exemplo, o primeiro endereço de email de um contato corresponde à propriedade **Email1Address** do **ContactItem** nos modelos de objeto do outlook 2010 e Outlook 2013, e o Outlook 2010 e o Outlook 2013 interno nomeado [ Propriedade canônica PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
   
-Para obter o valor de um endereço de email de um item de contato, você pode usar o objeto **PropertyAccessor** do modelo de objeto do Outlook 2010 ou Outlook 2013 ou primeiro usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade da propriedade nomeada e depois Especifica essa marca de propriedade em [IMAPIProp::GetProps](imapiprop-getprops.md) para obter o valor. Ao chamar **IMAPIProp::GetIDsFromNames**, especifique os valores apropriados para a estrutura [MAPINAMEID](mapinameid.md) apontado pelo parâmetro de entrada _lppPropNames_. O exemplo de código a seguir mostra como obter o primeiro endereço de email de um contato especificado, `lpContact`, usando **GetIDsFromNames** e **GetProps**. 
+Para obter o valor de um endereço de email de um item de contato, você pode usar o objeto **PropertyAccessor** do modelo de objeto do Outlook 2010 ou do Outlook 2013, ou primeiro usar o [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade da propriedade nomeada e, em seguida, Especifique essa marca de propriedade em [IMAPIProp::](imapiprop-getprops.md) GetProps para obter o valor. Ao chamar **IMAPIProp:: GetIDsFromNames**, especifique os valores apropriados para a estrutura [MAPINAMEID](mapinameid.md) indicada pelo parâmetro de entrada _lppPropNames_. O exemplo de código a seguir mostra como obter o primeiro endereço de email de um contato `lpContact`especificado, usando **GetIDsFromNames** e GetProps. **** 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

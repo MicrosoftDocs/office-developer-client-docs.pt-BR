@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe87de4466413e317edea5d358c9e4769d0c5593
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348878"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570979"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela notificações que foram definidas com uma chamada ao método [IABLogon::Advise](iablogon-advise.md) anteriormente. 
+Cancela as notificações que foram configuradas anteriormente com uma chamada para o método [IABLogon:: Advise](iablogon-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulConnection_
   
-> [in] O número de conexão associado a um registro de notificação ativo. Uma chamada anterior a **Advise** deve ter retornado o valor de _ulConnection_.
+> no O número de conexão associado a um registro de notificação ativo. Uma chamada anterior para **Advise** deve ter retornado o valor de _ulConnection_.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,13 +47,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método **Unadvise** para cancelar um registro de notificação para um contêiner, usuário ou objeto de lista de distribuição de mensagens. 
+MAPI chama o método **Unadvise** para cancelar um registro de notificação para um contêiner, usuário de mensagens ou objeto de lista de distribuição. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação dos **Unadvise** dependerá se você oferecer suporte a notificação com a Ajuda do MAPI ou manualmente. Se MAPI fornece seu suporte, chame o método de [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) para cancelar o registro. Se outro thread no processo de chamar o método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do coletor de eventos advise, ela pode ser atrasada até **OnNotify** ter retornado. 
+A implementação de **Unadvise** dependerá se você dá suporte à notificação com a ajuda do MAPI ou manualmente. Se o MAPI fornecer seu suporte, chame o método [IMAPISupport:: unsubscribe](imapisupport-unsubscribe.md) para cancelar o registro. Se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do coletor de aviso, ele poderá ser adiado **** até que OnNotify tenha sido retornado. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Notificação de evento em MAPI](event-notification-in-mapi.md). Para obter informações sobre como usar o [IMAPISupport: IUnknown](imapisupportiunknown.md) métodos para dar suporte a notificação, consulte [Suporte a notificação de evento](supporting-event-notification.md).
+Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). Para obter informações sobre como usar os métodos [IMAPISupport: IUnknown](imapisupportiunknown.md) para dar suporte à notificação, consulte [support Event Notification](supporting-event-notification.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12fefbe15491837878608540006e5dd7dc3033ea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351055"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de valores binários.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,17 +44,17 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> Contagem de valores na matriz apontado pelo membro **lpbin** . 
+> Contagem de valores na matriz apontada pelo membro **lpbin** . 
     
  **lpbin**
   
-> Ponteiro para uma matriz de estruturas de [SBinary](sbinary.md) que contém os valores binários. 
+> Ponteiro para uma matriz de estruturas [SBinary](sbinary.md) que mantém os valores binários. 
     
 ## <a name="remarks"></a>Comentários
 
 A estrutura **SBinaryArray** é usada para descrever as propriedades do tipo PT_MV_BINARY. 
   
-Para obter mais informações sobre PT_MV_BINARY, consulte a [Lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre o PT_MV_BINARY, confira [lista de tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 
