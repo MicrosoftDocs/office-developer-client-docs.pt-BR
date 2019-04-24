@@ -8,57 +8,57 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- função tempactiveref [excel 2007], função TempActiveRef12 [Excel 2007]
+- função tempactiveref [Excel 2007], função TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5c2e82dcaf9bf562048b5d2582ece1bd262b47eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58feee8f43e0f90f710c9e4387684dcb6d173a7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301565"
 ---
-# <a name="tempactivereftempactiveref12"></a><span data-ttu-id="fddb5-104">TempActiveRef/TempActiveRef12</span><span class="sxs-lookup"><span data-stu-id="fddb5-104">TempActiveRef/TempActiveRef12</span></span>
+# <a name="tempactivereftempactiveref12"></a><span data-ttu-id="24876-104">TempActiveRef/TempActiveRef12</span><span class="sxs-lookup"><span data-stu-id="24876-104">TempActiveRef/TempActiveRef12</span></span>
 
- <span data-ttu-id="fddb5-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fddb5-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="24876-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="24876-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="fddb5-106">Função da biblioteca de Framework que cria um temporário **XLOPER**/ **XLOPER12** contendo uma referência externa para bloco retangular de células na planilha ativa.</span><span class="sxs-lookup"><span data-stu-id="fddb5-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing an external reference to rectangular block of cells on the active sheet.</span></span> 
+<span data-ttu-id="24876-106">Função da biblioteca de estrutura que cria um **XLOPER XLOPER**/ \*\*\*\* temporário contendo uma referência externa para o bloco retangular de células na planilha ativa.</span><span class="sxs-lookup"><span data-stu-id="24876-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing an external reference to rectangular block of cells on the active sheet.</span></span> 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="fddb5-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="fddb5-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="24876-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="24876-107">Parameters</span></span>
 
- <span data-ttu-id="fddb5-108">_rwFirst_</span><span class="sxs-lookup"><span data-stu-id="fddb5-108">_rwFirst_</span></span>
+ <span data-ttu-id="24876-108">_rwFirst_</span><span class="sxs-lookup"><span data-stu-id="24876-108">_rwFirst_</span></span>
   
-<span data-ttu-id="fddb5-109">A linha de início da referência.</span><span class="sxs-lookup"><span data-stu-id="fddb5-109">The starting row of the reference.</span></span>
+<span data-ttu-id="24876-109">A linha inicial da referência.</span><span class="sxs-lookup"><span data-stu-id="24876-109">The starting row of the reference.</span></span>
   
- <span data-ttu-id="fddb5-110">_rwLast_</span><span class="sxs-lookup"><span data-stu-id="fddb5-110">_rwLast_</span></span>
+ <span data-ttu-id="24876-110">_rwLast_</span><span class="sxs-lookup"><span data-stu-id="24876-110">_rwLast_</span></span>
   
-<span data-ttu-id="fddb5-111">A linha final da referência.</span><span class="sxs-lookup"><span data-stu-id="fddb5-111">The ending row of the reference.</span></span>
+<span data-ttu-id="24876-111">A linha final da referência.</span><span class="sxs-lookup"><span data-stu-id="24876-111">The ending row of the reference.</span></span>
   
-<span data-ttu-id="fddb5-112">Argumentos de linha são baseada em zero, portanto, essa linha 1 é passada como 0.</span><span class="sxs-lookup"><span data-stu-id="fddb5-112">Row arguments are zero-based so that row 1 is passed as 0.</span></span> <span data-ttu-id="fddb5-113">No Microsoft Office Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser realizado por um inteiro do WORD.</span><span class="sxs-lookup"><span data-stu-id="fddb5-113">In Microsoft Office Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 65,535 = 2^16 - 1 and is the maximum value that can be taken by a WORD integer.</span></span> <span data-ttu-id="fddb5-114">Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1.</span><span class="sxs-lookup"><span data-stu-id="fddb5-114">Starting in Excel 2007 running a workbook, the maximum value is 1,048,575 = 2^20 - 1.</span></span> <span data-ttu-id="fddb5-115">RW é definido como um inteiro assinado de 32 bits em XLCALL. H.</span><span class="sxs-lookup"><span data-stu-id="fddb5-115">RW is defined as a 32-bit signed integer in XLCALL.H.</span></span>
+<span data-ttu-id="24876-112">Os argumentos de linha são baseados em zero, de forma que a linha 1 seja passada como 0.</span><span class="sxs-lookup"><span data-stu-id="24876-112">Row arguments are zero-based so that row 1 is passed as 0.</span></span> <span data-ttu-id="24876-113">No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser feito por um inteiro de palavra.</span><span class="sxs-lookup"><span data-stu-id="24876-113">In Microsoft Office Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 65,535 = 2^16 - 1 and is the maximum value that can be taken by a WORD integer.</span></span> <span data-ttu-id="24876-114">A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1.</span><span class="sxs-lookup"><span data-stu-id="24876-114">Starting in Excel 2007 running a workbook, the maximum value is 1,048,575 = 2^20 - 1.</span></span> <span data-ttu-id="24876-115">RW é definido como um inteiro assinado de 32 bits em XLCALL. 0.</span><span class="sxs-lookup"><span data-stu-id="24876-115">RW is defined as a 32-bit signed integer in XLCALL.H.</span></span>
   
- <span data-ttu-id="fddb5-116">_colFirst_</span><span class="sxs-lookup"><span data-stu-id="fddb5-116">_colFirst_</span></span>
+ <span data-ttu-id="24876-116">_colFirst_</span><span class="sxs-lookup"><span data-stu-id="24876-116">_colFirst_</span></span>
   
-<span data-ttu-id="fddb5-117">O número inicial de coluna da referência.</span><span class="sxs-lookup"><span data-stu-id="fddb5-117">The starting column number of the reference.</span></span>
+<span data-ttu-id="24876-117">O número da coluna inicial da referência.</span><span class="sxs-lookup"><span data-stu-id="24876-117">The starting column number of the reference.</span></span>
   
- <span data-ttu-id="fddb5-118">_colLast_</span><span class="sxs-lookup"><span data-stu-id="fddb5-118">_colLast_</span></span>
+ <span data-ttu-id="24876-118">_colLast_</span><span class="sxs-lookup"><span data-stu-id="24876-118">_colLast_</span></span>
   
-<span data-ttu-id="fddb5-119">O número de coluna final da referência.</span><span class="sxs-lookup"><span data-stu-id="fddb5-119">The ending column number of the reference.</span></span>
+<span data-ttu-id="24876-119">O número da coluna final da referência.</span><span class="sxs-lookup"><span data-stu-id="24876-119">The ending column number of the reference.</span></span>
   
-<span data-ttu-id="fddb5-120">Argumentos de coluna estão baseado em zero, portanto, uma coluna é passada como 0.</span><span class="sxs-lookup"><span data-stu-id="fddb5-120">Column arguments are zero-based so that column A is passed as 0.</span></span> <span data-ttu-id="fddb5-121">No Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é de 255 = 2 ^ 8 1 e é o valor máximo que pode ser realizado por um inteiro de bytes.</span><span class="sxs-lookup"><span data-stu-id="fddb5-121">In Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 255 = 2^8 - 1 and is the maximum value that can be taken by a BYTE integer.</span></span> <span data-ttu-id="fddb5-122">Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 16,383 = 2 ^ 14-1.</span><span class="sxs-lookup"><span data-stu-id="fddb5-122">Starting in Excel 2007 running a workbook, the maximum value is 16,383 = 2^14 - 1.</span></span> <span data-ttu-id="fddb5-123">COL é definido como um inteiro assinado de 32 bits em XLCALL. H.</span><span class="sxs-lookup"><span data-stu-id="fddb5-123">COL is defined as a 32-bit signed integer in XLCALL.H.</span></span>
+<span data-ttu-id="24876-120">Os argumentos de coluna são baseados em zero para que A coluna A seja passada como 0.</span><span class="sxs-lookup"><span data-stu-id="24876-120">Column arguments are zero-based so that column A is passed as 0.</span></span> <span data-ttu-id="24876-121">No Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 255 = 2 ^ 8-1 e é o valor máximo que pode ser feito por um inteiro de BYTE.</span><span class="sxs-lookup"><span data-stu-id="24876-121">In Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 255 = 2^8 - 1 and is the maximum value that can be taken by a BYTE integer.</span></span> <span data-ttu-id="24876-122">A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 16.383 = 2 ^ 14-1.</span><span class="sxs-lookup"><span data-stu-id="24876-122">Starting in Excel 2007 running a workbook, the maximum value is 16,383 = 2^14 - 1.</span></span> <span data-ttu-id="24876-123">COL é definido como um inteiro assinado de 32 bits em XLCALL. 0.</span><span class="sxs-lookup"><span data-stu-id="24876-123">COL is defined as a 32-bit signed integer in XLCALL.H.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="fddb5-124">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="fddb5-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="24876-124">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="24876-124">Return value</span></span>
 
-<span data-ttu-id="fddb5-125">Retorna uma referência de **xltypeRef** externo para bloco retangular de células passados.</span><span class="sxs-lookup"><span data-stu-id="fddb5-125">Returns an **xltypeRef** external reference to rectangular block of cells passed in.</span></span> 
+<span data-ttu-id="24876-125">Retorna uma referência externa **xltypeRef** para o bloco retangular de células passadas.</span><span class="sxs-lookup"><span data-stu-id="24876-125">Returns an **xltypeRef** external reference to rectangular block of cells passed in.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="fddb5-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="fddb5-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="24876-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="24876-126">Example</span></span>
 
-<span data-ttu-id="fddb5-127">Este exemplo usa a função **TempActiveRef12** para selecionar A105:C110 de células.</span><span class="sxs-lookup"><span data-stu-id="fddb5-127">This example uses the **TempActiveRef12** function to select cells A105:C110.</span></span> 
+<span data-ttu-id="24876-127">Este exemplo usa a função **TempActiveRef12** para selecionar as células A105: C110.</span><span class="sxs-lookup"><span data-stu-id="24876-127">This example uses the **TempActiveRef12** function to select cells A105:C110.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -70,9 +70,9 @@ short WINAPI TempActiveRefExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="fddb5-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="fddb5-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="24876-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="24876-128">See also</span></span>
 
 
 
-[<span data-ttu-id="fddb5-129">Funções na biblioteca de estrutura</span><span class="sxs-lookup"><span data-stu-id="fddb5-129">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="24876-129">Funções na biblioteca do Framework</span><span class="sxs-lookup"><span data-stu-id="24876-129">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

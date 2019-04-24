@@ -8,48 +8,48 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: Retorna o componente azul de uma cor. O valor de retorno é um inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
-ms.openlocfilehash: 6a86a0ee91054c89f2def95c0e3521508462bdaa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o componente azul de uma cor. O valor de retorno é um número inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
+ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297351"
 ---
-# <a name="blue-function"></a><span data-ttu-id="0a609-105">Função BLUE</span><span class="sxs-lookup"><span data-stu-id="0a609-105">BLUE Function</span></span>
+# <a name="blue-function"></a><span data-ttu-id="f3c54-105">Função BLUE</span><span class="sxs-lookup"><span data-stu-id="f3c54-105">BLUE Function</span></span>
 
-<span data-ttu-id="0a609-106">Retorna o componente azul de uma cor.</span><span class="sxs-lookup"><span data-stu-id="0a609-106">Returns the blue component of a color.</span></span> <span data-ttu-id="0a609-107">O valor de retorno é um inteiro no intervalo de 0 a 255, inclusive.</span><span class="sxs-lookup"><span data-stu-id="0a609-107">The return value is an integer in the range of 0 to 255, inclusive.</span></span> <span data-ttu-id="0a609-108">A função retornará 0 para uma entrada inválida.</span><span class="sxs-lookup"><span data-stu-id="0a609-108">The function returns 0 for invalid input.</span></span>
+<span data-ttu-id="f3c54-106">Retorna o componente azul de uma cor.</span><span class="sxs-lookup"><span data-stu-id="f3c54-106">Returns the blue component of a color.</span></span> <span data-ttu-id="f3c54-107">O valor de retorno é um número inteiro no intervalo de 0 a 255, inclusive.</span><span class="sxs-lookup"><span data-stu-id="f3c54-107">The return value is an integer in the range of 0 to 255, inclusive.</span></span> <span data-ttu-id="f3c54-108">A função retornará 0 para uma entrada inválida.</span><span class="sxs-lookup"><span data-stu-id="f3c54-108">The function returns 0 for invalid input.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="0a609-109">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0a609-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f3c54-109">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f3c54-109">Syntax</span></span>
 
-<span data-ttu-id="0a609-110">AZUL (* * *expressão* * *)</span><span class="sxs-lookup"><span data-stu-id="0a609-110">BLUE(** *expression* ** )</span></span> 
+<span data-ttu-id="f3c54-110">AZUL (\* \* *expressão* \* \*)</span><span class="sxs-lookup"><span data-stu-id="f3c54-110">BLUE(\*\* *expression* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="0a609-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="0a609-111">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="f3c54-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f3c54-111">Parameters</span></span>
 
-|<span data-ttu-id="0a609-112">**Name**</span><span class="sxs-lookup"><span data-stu-id="0a609-112">**Name**</span></span>|<span data-ttu-id="0a609-113">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="0a609-113">**Required/Optional**</span></span>|<span data-ttu-id="0a609-114">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="0a609-114">**Data Type**</span></span>|<span data-ttu-id="0a609-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0a609-115">**Description**</span></span>|
+|<span data-ttu-id="f3c54-112">**Nome**</span><span class="sxs-lookup"><span data-stu-id="f3c54-112">**Name**</span></span>|<span data-ttu-id="f3c54-113">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="f3c54-113">**Required/Optional**</span></span>|<span data-ttu-id="f3c54-114">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="f3c54-114">**Data Type**</span></span>|<span data-ttu-id="f3c54-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f3c54-115">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="0a609-116">_expressão_</span><span class="sxs-lookup"><span data-stu-id="0a609-116">_expression_</span></span> <br/> |<span data-ttu-id="0a609-117">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="0a609-117">Required</span></span>  <br/> |<span data-ttu-id="0a609-118">**String**</span><span class="sxs-lookup"><span data-stu-id="0a609-118">**String**</span></span> <br/> |<span data-ttu-id="0a609-119">Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.</span><span class="sxs-lookup"><span data-stu-id="0a609-119">An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result.</span></span>  <br/> |
+| <span data-ttu-id="f3c54-116">_expressão_</span><span class="sxs-lookup"><span data-stu-id="f3c54-116">_expression_</span></span> <br/> |<span data-ttu-id="f3c54-117">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="f3c54-117">Required</span></span>  <br/> |<span data-ttu-id="f3c54-118">**String**</span><span class="sxs-lookup"><span data-stu-id="f3c54-118">**String**</span></span> <br/> |<span data-ttu-id="f3c54-119">Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.</span><span class="sxs-lookup"><span data-stu-id="f3c54-119">An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0a609-120">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="0a609-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f3c54-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="f3c54-120">Return value</span></span>
 
-<span data-ttu-id="0a609-121">Inteiro</span><span class="sxs-lookup"><span data-stu-id="0a609-121">Integer</span></span>
+<span data-ttu-id="f3c54-121">Inteiro</span><span class="sxs-lookup"><span data-stu-id="f3c54-121">Integer</span></span>
   
-## <a name="example-1"></a><span data-ttu-id="0a609-122">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="0a609-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="f3c54-122">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="f3c54-122">Example 1</span></span>
 
-<span data-ttu-id="0a609-123">AZUL (Sheet.4! FillForegnd)</span><span class="sxs-lookup"><span data-stu-id="0a609-123">BLUE(Sheet.4!FillForegnd)</span></span>
+<span data-ttu-id="f3c54-123">AZUL (Sheet. 4! FillForegnd</span><span class="sxs-lookup"><span data-stu-id="f3c54-123">BLUE(Sheet.4!FillForegnd)</span></span>
   
-<span data-ttu-id="0a609-124">Retornará o componente azul da cor de primeiro plano do preenchimento de Sheet.4.</span><span class="sxs-lookup"><span data-stu-id="0a609-124">Returns the blue component of Sheet.4's fill foreground color.</span></span>
+<span data-ttu-id="f3c54-124">Retornará o componente azul da cor de primeiro plano do preenchimento de Sheet.4.</span><span class="sxs-lookup"><span data-stu-id="f3c54-124">Returns the blue component of Sheet.4's fill foreground color.</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="0a609-125">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="0a609-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="f3c54-125">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="f3c54-125">Example 2</span></span>
 
-<span data-ttu-id="0a609-126">BLUE(13)</span><span class="sxs-lookup"><span data-stu-id="0a609-126">BLUE(13)</span></span>
+<span data-ttu-id="f3c54-126">AZUL (13)</span><span class="sxs-lookup"><span data-stu-id="f3c54-126">BLUE(13)</span></span>
   
-<span data-ttu-id="0a609-127">Retornará 128 se o documento utilizar a paleta de cores padrão do Visio, sendo ciano a cor do índice 13.</span><span class="sxs-lookup"><span data-stu-id="0a609-127">Returns 128 if the document uses the default Visio color palette, where cyan is the color at index 13.</span></span>
+<span data-ttu-id="f3c54-127">Retornará 128 se o documento utilizar a paleta de cores padrão do Visio, sendo ciano a cor do índice 13.</span><span class="sxs-lookup"><span data-stu-id="f3c54-127">Returns 128 if the document uses the default Visio color palette, where cyan is the color at index 13.</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="0a609-128">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="0a609-128">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="f3c54-128">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="f3c54-128">Example 3</span></span>
 
-<span data-ttu-id="0a609-129">BLUE(RGB(10, 20, 30))</span><span class="sxs-lookup"><span data-stu-id="0a609-129">BLUE(RGB(10, 20, 30))</span></span>
+<span data-ttu-id="f3c54-129">BLUE(RGB(10, 20, 30))</span><span class="sxs-lookup"><span data-stu-id="f3c54-129">BLUE(RGB(10, 20, 30))</span></span>
   
-<span data-ttu-id="0a609-130">Retornará 30.</span><span class="sxs-lookup"><span data-stu-id="0a609-130">Returns 30.</span></span>
+<span data-ttu-id="f3c54-130">Retornará 30.</span><span class="sxs-lookup"><span data-stu-id="f3c54-130">Returns 30.</span></span>
   
 

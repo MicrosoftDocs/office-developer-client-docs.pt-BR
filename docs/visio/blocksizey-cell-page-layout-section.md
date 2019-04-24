@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm110
 localization_priority: Normal
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
-description: Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
-ms.openlocfilehash: 283723bf902c07cfb044ab73107491df3c170a4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+ms.openlocfilehash: 08f2012bb027267810c21ef253a0073bb42d3a96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297344"
 ---
-# <a name="blocksizey-cell-page-layout-section"></a><span data-ttu-id="75484-103">Célula BlockSizeY (Seção Page Layout)</span><span class="sxs-lookup"><span data-stu-id="75484-103">BlockSizeY Cell (Page Layout Section)</span></span>
+# <a name="blocksizey-cell-page-layout-section"></a><span data-ttu-id="13cfb-103">Célula BlockSizeY (Seção Page Layout)</span><span class="sxs-lookup"><span data-stu-id="13cfb-103">BlockSizeY Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="75484-104">Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Novo Layout de página**, e, em seguida, clique em **Mais opções de Layout**).</span><span class="sxs-lookup"><span data-stu-id="75484-104">Determines the vertical block size, the area in which each of your shapes must fit on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**).</span></span>
+<span data-ttu-id="13cfb-104">Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout da página** e clique em **mais opções de layout**).</span><span class="sxs-lookup"><span data-stu-id="13cfb-104">Determines the vertical block size, the area in which each of your shapes must fit on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="75484-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="75484-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="13cfb-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="13cfb-105">Remarks</span></span>
 
-<span data-ttu-id="75484-106">Também é possível definir esse valor na caixa de diálogo **Espaçamento de Layout e Direcionamento** (na guia **Design**, clique na seta do grupo **Configurar Página**, clique na guia **Layout e Direcionamento** e em **Espaçamento**).</span><span class="sxs-lookup"><span data-stu-id="75484-106">You can also set this value in the **Layout and Routing Spacing** dialog box (on the **Design** tab, click the arrow in the **Page Setup** group, click the **Layout and Routing** tab, and then click **Spacing**).</span></span>
+<span data-ttu-id="13cfb-106">Também é possível definir esse valor na caixa de diálogo **Espaçamento de Layout e Direcionamento** (na guia **Design**, clique na seta do grupo **Configurar Página**, clique na guia **Layout e Direcionamento** e em **Espaçamento**).</span><span class="sxs-lookup"><span data-stu-id="13cfb-106">You can also set this value in the **Layout and Routing Spacing** dialog box (on the **Design** tab, click the arrow in the **Page Setup** group, click the **Layout and Routing** tab, and then click **Spacing**).</span></span>
   
-<span data-ttu-id="75484-107">Para obter uma referência para a célula BlockSizeY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="75484-107">To get a reference to the BlockSizeY cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="13cfb-107">Para obter uma referência para a célula BlockSizeY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="13cfb-107">To get a reference to the BlockSizeY cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="75484-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="75484-108">Cell name:</span></span>  <br/> | <span data-ttu-id="75484-109">BlockSizeY</span><span class="sxs-lookup"><span data-stu-id="75484-109">BlockSizeY</span></span>  <br/> |
+| <span data-ttu-id="13cfb-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="13cfb-108">Cell name:</span></span>  <br/> | <span data-ttu-id="13cfb-109">BlockSizeY</span><span class="sxs-lookup"><span data-stu-id="13cfb-109">BlockSizeY</span></span>  <br/> |
    
-<span data-ttu-id="75484-110">Para obter uma referência para a célula BlockSizeY pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="75484-110">To get a reference to the BlockSizeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="13cfb-110">Para obter uma referência para a célula BlockSizeY pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="13cfb-110">To get a reference to the BlockSizeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="75484-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="75484-111">Section index:</span></span>  <br/> |<span data-ttu-id="75484-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="75484-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="75484-113">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="75484-113">Row index:</span></span>  <br/> |<span data-ttu-id="75484-114">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="75484-114">**visRowPageLayout**</span></span> <br/> |
-| <span data-ttu-id="75484-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="75484-115">Cell index:</span></span>  <br/> |<span data-ttu-id="75484-116">**visPLOBlockSizeY**</span><span class="sxs-lookup"><span data-stu-id="75484-116">**visPLOBlockSizeY**</span></span> <br/> |
+| <span data-ttu-id="13cfb-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="13cfb-111">Section index:</span></span>  <br/> |<span data-ttu-id="13cfb-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="13cfb-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="13cfb-113">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="13cfb-113">Row index:</span></span>  <br/> |<span data-ttu-id="13cfb-114">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="13cfb-114">**visRowPageLayout**</span></span> <br/> |
+| <span data-ttu-id="13cfb-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="13cfb-115">Cell index:</span></span>  <br/> |<span data-ttu-id="13cfb-116">**visPLOBlockSizeY**</span><span class="sxs-lookup"><span data-stu-id="13cfb-116">**visPLOBlockSizeY**</span></span> <br/> |
    
 

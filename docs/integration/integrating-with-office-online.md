@@ -1,20 +1,20 @@
 ---
-title: Integrando com o Office Online
+title: Integração com o Office Online
 manager: soliver
 ms.date: 05/20/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07cfa909-336f-466f-ab0a-acb642a78ba7
-description: Este conteúdo não está mais disponível neste local. Para continuar, consulte integração com o Office Online no GitHub.
-ms.openlocfilehash: 7b3fced36d0539ab0c51b03f1ebf3933f0ca225c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este conteúdo não está mais disponível neste local. Para continuar, confira integração com o Office Online no GitHub.
+ms.openlocfilehash: 8b8ec11e979b89e6f7175e67687743682025896a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299752"
 ---
-# <a name="integrating-with-office-online"></a><span data-ttu-id="592f9-104">Integrando com o Office Online</span><span class="sxs-lookup"><span data-stu-id="592f9-104">Integrating with Office Online</span></span>
+# <a name="integrating-with-office-online"></a><span data-ttu-id="3423c-104">Integração com o Office Online</span><span class="sxs-lookup"><span data-stu-id="3423c-104">Integrating with Office Online</span></span>
 
-<span data-ttu-id="592f9-105">Este conteúdo não está mais disponível neste local.</span><span class="sxs-lookup"><span data-stu-id="592f9-105">This content is no longer available at this location.</span></span> <span data-ttu-id="592f9-106">Para continuar, consulte [integração com o Office Online](https://wopi.readthedocs.org/en/latest/) no GitHub.</span><span class="sxs-lookup"><span data-stu-id="592f9-106">To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
+<span data-ttu-id="3423c-105">Este conteúdo não está mais disponível neste local.</span><span class="sxs-lookup"><span data-stu-id="3423c-105">This content is no longer available at this location.</span></span> <span data-ttu-id="3423c-106">Para continuar, confira [integração com o Office Online](https://wopi.readthedocs.org/en/latest/) no github.</span><span class="sxs-lookup"><span data-stu-id="3423c-106">To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
   
 

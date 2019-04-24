@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7e4ef528716f05d198862afa61947fd3993042d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298150"
 ---
-# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="8a45b-103">Objetos do provedor de catálogo de endereços MAPI</span><span class="sxs-lookup"><span data-stu-id="8a45b-103">MAPI address book provider objects</span></span>
+# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="2873e-103">Objetos do provedor de catálogo de endereços MAPI</span><span class="sxs-lookup"><span data-stu-id="2873e-103">MAPI address book provider objects</span></span>
   
-<span data-ttu-id="8a45b-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a45b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2873e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2873e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8a45b-105">Além do provedor padrão e objetos de logon, provedores de catálogo de endereços implementam contêineres do catálogo de endereços, listas de distribuição, mensagens usuários, tabelas, objetos de status e controles.</span><span class="sxs-lookup"><span data-stu-id="8a45b-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
+<span data-ttu-id="2873e-105">Além dos objetos de logon e provedor padrão, os provedores de catálogo de endereços implementam contêineres de catálogo de endereços, listas de distribuição, usuários de mensagens, tabelas, objetos de status e controles.</span><span class="sxs-lookup"><span data-stu-id="2873e-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
   
-<span data-ttu-id="8a45b-106">A ilustração a seguir mostra esses objetos, suas interfaces correspondentes e os componentes MAPI que usá-los.</span><span class="sxs-lookup"><span data-stu-id="8a45b-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
+<span data-ttu-id="2873e-106">A ilustração a seguir mostra esses objetos, suas interfaces correspondentes e os componentes MAPI que os utilizam.</span><span class="sxs-lookup"><span data-stu-id="2873e-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
   
-<span data-ttu-id="8a45b-107">![Objetos que implementam provedores do catálogo de endereços] (media/amapi_64.gif "Objetos que implementam provedores do catálogo de endereços")</span><span class="sxs-lookup"><span data-stu-id="8a45b-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
+<span data-ttu-id="2873e-107">![Objetos que os provedores de catálogo de endereços implementam] (media/amapi_64.gif "Objetos que os provedores de catálogo de endereços implementam")</span><span class="sxs-lookup"><span data-stu-id="2873e-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8a45b-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="8a45b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2873e-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="2873e-108">See also</span></span>
 
-- [<span data-ttu-id="8a45b-109">Objetos do provedor de serviço MAPI</span><span class="sxs-lookup"><span data-stu-id="8a45b-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="2873e-109">Objetos do provedor de serviços MAPI</span><span class="sxs-lookup"><span data-stu-id="2873e-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

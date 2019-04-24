@@ -1,36 +1,36 @@
 ---
-title: Valores de log para um campo para depuração
+title: Valores de log para um campo de depuração
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
-description: Quando estiver depurando um modelo de formulário do InfoPath, geralmente é útil fazer logon valores diretamente em um campo do formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. Os procedimentos a seguir mostram como criar um campo de várias linha e, em seguida, adicionar funções auxiliares para o código de formulário que permitem que você acesse os dados de depuração nesse campo.
-ms.openlocfilehash: f763e6b5d14fe5a5b4d9218af4acd0bc05a242af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar em log os valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. Os procedimentos a seguir mostram como criar um campo de várias linhas e, em seguida, adicionar funções auxiliares ao código de formulário que permite que você registre os dados de depuração nesse campo.
+ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303574"
 ---
-# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="bf555-104">Valores de log para um campo para depuração</span><span class="sxs-lookup"><span data-stu-id="bf555-104">Log values to a field for debugging</span></span>
+# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="f05b6-104">Valores de log para um campo de depuração</span><span class="sxs-lookup"><span data-stu-id="f05b6-104">Log values to a field for debugging</span></span>
 
-<span data-ttu-id="bf555-105">Quando estiver depurando um modelo de formulário do InfoPath, geralmente é útil fazer logon valores diretamente em um campo do formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário.</span><span class="sxs-lookup"><span data-stu-id="bf555-105">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form.</span></span> <span data-ttu-id="bf555-106">Os procedimentos a seguir mostram como criar um campo de várias linha e, em seguida, adicionar funções auxiliares para o código de formulário que permitem que você acesse os dados de depuração nesse campo.</span><span class="sxs-lookup"><span data-stu-id="bf555-106">The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
+<span data-ttu-id="f05b6-105">Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar em log os valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário.</span><span class="sxs-lookup"><span data-stu-id="f05b6-105">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form.</span></span> <span data-ttu-id="f05b6-106">Os procedimentos a seguir mostram como criar um campo de várias linhas e, em seguida, adicionar funções auxiliares ao código de formulário que permite que você registre os dados de depuração nesse campo.</span><span class="sxs-lookup"><span data-stu-id="f05b6-106">The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
   
-## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="bf555-107">Criar um campo de texto com várias linhas</span><span class="sxs-lookup"><span data-stu-id="bf555-107">Create a multi-line text field</span></span>
+## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="f05b6-107">Criar um campo de texto de várias linhas</span><span class="sxs-lookup"><span data-stu-id="f05b6-107">Create a multi-line text field</span></span>
 
-1. <span data-ttu-id="bf555-108">Adicionar um controle de **Caixa de texto** para o formulário e, em seguida, redimensioná-lo para que ele possa exibir várias linhas.</span><span class="sxs-lookup"><span data-stu-id="bf555-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
+1. <span data-ttu-id="f05b6-108">Adicionar um controle de **caixa de texto** ao formulário e redimensioná-lo para que ele possa exibir várias linhas.</span><span class="sxs-lookup"><span data-stu-id="f05b6-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
     
-2. <span data-ttu-id="bf555-109">Com o botão direito na caixa de texto, clique em **Propriedades de caixa de texto**e, em seguida, clique em caixa de seleção **várias linhas** na guia **Exibir** .</span><span class="sxs-lookup"><span data-stu-id="bf555-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
+2. <span data-ttu-id="f05b6-109">Clique com o botão direito do mouse na caixa de texto, clique em **Propriedades da caixa de texto**e clique na caixa de seleção de **várias linhas** na guia **Exibir** .</span><span class="sxs-lookup"><span data-stu-id="f05b6-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
     
-## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="bf555-110">Adicionar funções auxiliares para registrar informações de depuração para o campo</span><span class="sxs-lookup"><span data-stu-id="bf555-110">Add helper functions to log debug information to the field</span></span>
+## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="f05b6-110">Adicionar funções auxiliares para registrar informações de depuração no campo</span><span class="sxs-lookup"><span data-stu-id="f05b6-110">Add helper functions to log debug information to the field</span></span>
 
-1. <span data-ttu-id="bf555-111">Na guia **desenvolvedor** , clique em **Editor de código**e salve o modelo de formulário se você for solicitado.</span><span class="sxs-lookup"><span data-stu-id="bf555-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
+1. <span data-ttu-id="f05b6-111">Na guia **desenvolvedor** , clique em **Editor de código**e salve o modelo de formulário, se for solicitado.</span><span class="sxs-lookup"><span data-stu-id="f05b6-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
     
-2. <span data-ttu-id="bf555-112">No Editor de código, adicione as seguintes três funções de auxiliar à classe pública no arquivo de código de formulário.</span><span class="sxs-lookup"><span data-stu-id="bf555-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
+2. <span data-ttu-id="f05b6-112">No editor de códigos, adicione as seguintes três funções auxiliares à classe pública no arquivo de código de formulário.</span><span class="sxs-lookup"><span data-stu-id="f05b6-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
     
    > [!IMPORTANT]
-   > <span data-ttu-id="bf555-113">Certifique-se de que você atualizar o valor definido para o `debugFieldXpath` variável no `AddToDebugField` função para a expressão XPath correta para o campo vinculado ao controle que você criou no procedimento primeiro.</span><span class="sxs-lookup"><span data-stu-id="bf555-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
+   > <span data-ttu-id="f05b6-113">Verifique se você atualizou o valor definido para a `debugFieldXpath` variável na `AddToDebugField` função para a expressão XPath correta para o campo ligado ao controle que você criou no primeiro procedimento.</span><span class="sxs-lookup"><span data-stu-id="f05b6-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
   
     ```cs
         private void AddToDebugField(string valueToAdd)
@@ -76,11 +76,11 @@ ms.locfileid: "19765621"
     ```
 
 > [!NOTE] 
-> <span data-ttu-id="bf555-114">Quando usar o Visual Basic, adicione `Imports Microsoft.VisualBasic.Constants` às diretivas na parte superior do arquivo de código de formulário.</span><span class="sxs-lookup"><span data-stu-id="bf555-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
+> <span data-ttu-id="f05b6-114">Ao usar o Visual Basic, `Imports Microsoft.VisualBasic.Constants` adicione às diretivas na parte superior do arquivo de código de formulário.</span><span class="sxs-lookup"><span data-stu-id="f05b6-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
   
-## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="bf555-115">Testar a função AddToDebugField</span><span class="sxs-lookup"><span data-stu-id="bf555-115">Test the AddToDebugField function</span></span>
+## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="f05b6-115">Testar a função AddToDebugField</span><span class="sxs-lookup"><span data-stu-id="f05b6-115">Test the AddToDebugField function</span></span>
 
-1. <span data-ttu-id="bf555-116">Na guia **desenvolvedor** , clique em **Carregar o evento**e, em seguida, adicione a seguinte linha de código para o manipulador de eventos.</span><span class="sxs-lookup"><span data-stu-id="bf555-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
+1. <span data-ttu-id="f05b6-116">Na guia **desenvolvedor** , clique em **carregar evento**e, em seguida, adicione a seguinte linha de código ao manipulador de eventos.</span><span class="sxs-lookup"><span data-stu-id="f05b6-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("Form loaded");
@@ -90,7 +90,7 @@ ms.locfileid: "19765621"
     AddToDebugField("Form loaded")
    ```
 
-2. <span data-ttu-id="bf555-117">Na guia **desenvolvedor** , clique em **Exibir comutada evento**e, em seguida, adicione a seguinte linha de código para o manipulador de eventos.</span><span class="sxs-lookup"><span data-stu-id="bf555-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
+2. <span data-ttu-id="f05b6-117">Na guia **desenvolvedor** , clique em **Exibir evento alternado**e adicione a seguinte linha de código ao manipulador de eventos.</span><span class="sxs-lookup"><span data-stu-id="f05b6-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("View switched: " + this.CurrentView.ViewInfo.Name);
@@ -100,8 +100,8 @@ ms.locfileid: "19765621"
     AddToDebugField("View switched: " &amp; Me.CurrentView.ViewInfo.Name)
    ```
 
-3. <span data-ttu-id="bf555-118">Na guia **página inicial** , clique em **Visualizar**.</span><span class="sxs-lookup"><span data-stu-id="bf555-118">On the **Home** tab, click **Preview**.</span></span>
+3. <span data-ttu-id="f05b6-118">Na guia **página inicial** , clique em **Visualização**.</span><span class="sxs-lookup"><span data-stu-id="f05b6-118">On the **Home** tab, click **Preview**.</span></span>
     
-   <span data-ttu-id="bf555-119">O campo de depuração deve exibir duas entradas: um indicando que o formulário é carregado e outro que indica o nome do modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bf555-119">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view.</span></span> <span data-ttu-id="bf555-120">Estes exemplos usam manipuladores de eventos para os eventos que ocorrem conforme o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="bf555-120">These examples use event handlers for events that occur as the form is opened.</span></span> <span data-ttu-id="bf555-121">No entanto, depois que o formulário é carregado, você pode chamar o `AddToDebugField` função de outros manipuladores de eventos, além de qualquer outro código em execução no contexto do formulário.</span><span class="sxs-lookup"><span data-stu-id="bf555-121">However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
+   <span data-ttu-id="f05b6-119">O campo de depuração deve exibir duas entradas: uma indicando que o formulário está carregado e outro indicando o nome do modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="f05b6-119">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view.</span></span> <span data-ttu-id="f05b6-120">Estes exemplos usam manipuladores de eventos para eventos que ocorrem quando o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="f05b6-120">These examples use event handlers for events that occur as the form is opened.</span></span> <span data-ttu-id="f05b6-121">No enTanto, após o carregamento do formulário, você pode `AddToDebugField` chamar a função de outros manipuladores de eventos, além de qualquer outro código em execução no contexto do formulário.</span><span class="sxs-lookup"><span data-stu-id="f05b6-121">However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
   
 

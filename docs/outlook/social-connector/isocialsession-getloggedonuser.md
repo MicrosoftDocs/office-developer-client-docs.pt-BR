@@ -7,29 +7,29 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bd6bdaf6-52d5-4308-9c3d-869f6e1a6608
-description: Obtém uma interface ISocialProfile que representa o usuário conectado.
-ms.openlocfilehash: 05e645fa62441b8c9001cf3ec043add36b8593dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém uma interface Métodoisocialprofile que representa o usuário conectado.
+ms.openlocfilehash: 6c15d9d016f7445f8887f7d0fc87a1f36fb99b94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285389"
 ---
-# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="a7a80-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="a7a80-103">ISocialSession::GetLoggedOnUser</span></span>
+# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="f9dfc-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="f9dfc-103">ISocialSession::GetLoggedOnUser</span></span>
 
-<span data-ttu-id="a7a80-104">Obtém uma interface [ISocialProfile](isocialprofileisocialperson.md) que representa o usuário conectado.</span><span class="sxs-lookup"><span data-stu-id="a7a80-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
+<span data-ttu-id="f9dfc-104">Obtém uma interface [métodoisocialprofile](isocialprofileisocialperson.md) que representa o usuário conectado.</span><span class="sxs-lookup"><span data-stu-id="f9dfc-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a7a80-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a7a80-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f9dfc-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f9dfc-105">Parameters</span></span>
 
-<span data-ttu-id="a7a80-106">_resultado_</span><span class="sxs-lookup"><span data-stu-id="a7a80-106">_result_</span></span>
+<span data-ttu-id="f9dfc-106">_result_</span><span class="sxs-lookup"><span data-stu-id="f9dfc-106">_result_</span></span>
   
-> <span data-ttu-id="a7a80-107">[out] Uma interface **ISocialProfile** .</span><span class="sxs-lookup"><span data-stu-id="a7a80-107">[out] An **ISocialProfile** interface.</span></span> 
+> <span data-ttu-id="f9dfc-107">bota Uma interface **métodoisocialprofile** .</span><span class="sxs-lookup"><span data-stu-id="f9dfc-107">[out] An **ISocialProfile** interface.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="a7a80-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="a7a80-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9dfc-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="f9dfc-108">See also</span></span>
 
-- [<span data-ttu-id="a7a80-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a7a80-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="f9dfc-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f9dfc-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

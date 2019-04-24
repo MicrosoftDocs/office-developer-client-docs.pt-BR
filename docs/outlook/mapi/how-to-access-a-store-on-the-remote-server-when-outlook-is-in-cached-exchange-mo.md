@@ -1,29 +1,29 @@
 ---
-title: Acessar um repositório no servidor remoto, quando o Outlook estiver no modo cache do Exchange
+title: Acessar um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 'Modificado pela última vez: 02 de julho de 2012'
-ms.openlocfilehash: c7994366000e323cc7d14a9c3a02b5229c5f08e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 02 de julho de 2012'
+ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299437"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a><span data-ttu-id="5b39f-103">Acessar um repositório no servidor remoto, quando o Outlook estiver no modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="5b39f-103">Access a store on the remote server when Outlook is in Cached Exchange Mode</span></span>
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a><span data-ttu-id="1a427-103">Acessar um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="1a427-103">Access a store on the remote server when Outlook is in Cached Exchange Mode</span></span>
  
-<span data-ttu-id="5b39f-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5b39f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a427-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a427-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5b39f-105">Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MAPI_NO_CACHE** para abrir uma pasta ou uma mensagem em um armazenamento de mensagens no servidor remoto, quando o Microsoft Office Outlook está no modo cache do Exchange.</span><span class="sxs-lookup"><span data-stu-id="5b39f-105">This topic contains a code sample in C++ that shows how to use the **MAPI_NO_CACHE** flag to open a folder or a message on a message store on the remote server when Microsoft Office Outlook is in Cached Exchange Mode.</span></span> 
+<span data-ttu-id="1a427-105">Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MAPI_NO_CACHE** para abrir uma pasta ou uma mensagem em um repositório de mensagens no servidor remoto quando o Microsoft Office Outlook estiver no modo cache do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1a427-105">This topic contains a code sample in C++ that shows how to use the **MAPI_NO_CACHE** flag to open a folder or a message on a message store on the remote server when Microsoft Office Outlook is in Cached Exchange Mode.</span></span> 
   
-<span data-ttu-id="5b39f-106">Modo cache do Exchange permite que o Outlook para usar uma cópia local da caixa de correio de um usuário com o Outlook mantém uma conexão on-line para uma cópia remota da caixa de correio do usuário no servidor Exchange remoto.</span><span class="sxs-lookup"><span data-stu-id="5b39f-106">Cached Exchange Mode permits Outlook to use a local copy of a user's mailbox while Outlook maintains an online connection to a remote copy of the user's mailbox on the remote Exchange server.</span></span> <span data-ttu-id="5b39f-107">Quando o Outlook está em execução no modo cache do Exchange, por padrão, qualquer soluções MAPI que faça logon mesma sessão também estão conectadas ao repositório de mensagens armazenadas em cache.</span><span class="sxs-lookup"><span data-stu-id="5b39f-107">When Outlook is running in Cached Exchange Mode, by default, any MAPI solutions that log on to the same session are also connected to the cached message store.</span></span> <span data-ttu-id="5b39f-108">Todos os dados que são acessados e quaisquer alterações que são feitas são feitas em relação a cópia local da caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="5b39f-108">Any data that is accessed and any changes that are made are made against the local copy of the mailbox.</span></span>
+<span data-ttu-id="1a427-106">O modo cache do Exchange permite que o Outlook use uma cópia local da caixa de correio de um usuário enquanto o Outlook mantém uma conexão online com uma cópia remota da caixa de correio do usuário no servidor Exchange remoto.</span><span class="sxs-lookup"><span data-stu-id="1a427-106">Cached Exchange Mode permits Outlook to use a local copy of a user's mailbox while Outlook maintains an online connection to a remote copy of the user's mailbox on the remote Exchange server.</span></span> <span data-ttu-id="1a427-107">Quando o Outlook está sendo executado no modo cache do Exchange, por padrão, as soluções MAPI que fazem logon na mesma sessão também são conectadas ao repositório de mensagens em cache.</span><span class="sxs-lookup"><span data-stu-id="1a427-107">When Outlook is running in Cached Exchange Mode, by default, any MAPI solutions that log on to the same session are also connected to the cached message store.</span></span> <span data-ttu-id="1a427-108">Quaisquer dados que sejam acessados e quaisquer alterações feitas serão feitas em relação à cópia local da caixa de correio.</span><span class="sxs-lookup"><span data-stu-id="1a427-108">Any data that is accessed and any changes that are made are made against the local copy of the mailbox.</span></span>
   
-<span data-ttu-id="5b39f-109">Um provedor de cliente ou serviço pode substituir a conexão ao repositório de mensagem local e abrir uma mensagem ou uma pasta no repositório remoto definindo o bit para **MAPI_NO_CACHE** no parâmetro *ulFlags* ao chamar **[IMsgStore::OpenEntry](imsgstore-openentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="5b39f-109">A client or service provider can override the connection to the local message store and open a message or a folder on the remote store by setting the bit for **MAPI_NO_CACHE** in the  *ulFlags*  parameter when calling **[IMsgStore::OpenEntry](imsgstore-openentry.md)**.</span></span> 
+<span data-ttu-id="1a427-109">Um cliente ou um provedor de serviços pode substituir a conexão com o repositório de mensagens local e abrir uma mensagem ou uma pasta no repositório remoto Configurando o bit para **MAPI_NO_CACHE** no parâmetro *Parâmetroulflags* ao chamar **[IMsgStore:: OpenEntry](imsgstore-openentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="1a427-109">A client or service provider can override the connection to the local message store and open a message or a folder on the remote store by setting the bit for **MAPI_NO_CACHE** in the  *ulFlags*  parameter when calling **[IMsgStore::OpenEntry](imsgstore-openentry.md)**.</span></span> 
   
-<span data-ttu-id="5b39f-110">O exemplo de código a seguir mostra como chamar **IMsgStore::OpenEntry** com o sinalizador **MAPI_NO_CACHE** definido no parâmetro *ulFlags* para abrir a pasta raiz no armazenamento de mensagens remoto.</span><span class="sxs-lookup"><span data-stu-id="5b39f-110">The following code sample shows how to call **IMsgStore::OpenEntry** with the **MAPI_NO_CACHE** flag set in the  *ulFlags*  parameter to open the root folder on the remote message store.</span></span> 
+<span data-ttu-id="1a427-110">O exemplo de código a seguir mostra como chamar **IMsgStore:: OpenEntry** com o sinalizador **MAPI_NO_CACHE** definido no parâmetro *parâmetroulflags* para abrir a pasta raiz no repositório de mensagens remoto.</span><span class="sxs-lookup"><span data-stu-id="1a427-110">The following code sample shows how to call **IMsgStore::OpenEntry** with the **MAPI_NO_CACHE** flag set in the  *ulFlags*  parameter to open the root folder on the remote message store.</span></span> 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,11 +44,11 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-<span data-ttu-id="5b39f-111">Se você abriu o armazenamento de mensagens com o sinalizador **MDB_ONLINE** no servidor remoto, você não precisará usar o sinalizador **MAPI_NO_CACHE** .</span><span class="sxs-lookup"><span data-stu-id="5b39f-111">If you opened the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag.</span></span> 
+<span data-ttu-id="1a427-111">Se você abriu o repositório de mensagens com o sinalizador **MDB_ONLINE** no servidor remoto, não será necessário usar o sinalizador **MAPI_NO_CACHE** .</span><span class="sxs-lookup"><span data-stu-id="1a427-111">If you opened the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5b39f-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="5b39f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a427-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="1a427-112">See also</span></span>
 
-- [<span data-ttu-id="5b39f-113">Sobre as adições de MAPI</span><span class="sxs-lookup"><span data-stu-id="5b39f-113">About MAPI Additions</span></span>](about-mapi-additions.md) 
-- [<span data-ttu-id="5b39f-114">Abrir um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="5b39f-114">Open a Store on the Remote Server When Outlook is in Cached Exchange Mode</span></span>](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [<span data-ttu-id="5b39f-115">Gerenciar mensagens em um OST sem solicitar uma sincronização do modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="5b39f-115">Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode</span></span>](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [<span data-ttu-id="1a427-113">Sobre as adições de MAPI</span><span class="sxs-lookup"><span data-stu-id="1a427-113">About MAPI Additions</span></span>](about-mapi-additions.md) 
+- [<span data-ttu-id="1a427-114">Abrir o Store em um servidor remoto quando o Outlook estiver no modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="1a427-114">Open a Store on the Remote Server When Outlook is in Cached Exchange Mode</span></span>](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [<span data-ttu-id="1a427-115">Gerenciar mensagens em um OST sem solicitar uma sincronização do modo cache do Exchange</span><span class="sxs-lookup"><span data-stu-id="1a427-115">Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode</span></span>](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

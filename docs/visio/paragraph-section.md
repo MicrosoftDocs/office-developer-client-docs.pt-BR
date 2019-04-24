@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2c980903-4d41-a85f-7caa-52bd90b11f76
 description: Mostra os atributos de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores e alinhamento horizontal de parágrafos.
-ms.openlocfilehash: 612882e7e596bb1a9a58d06b8a3569d5b15404cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d4658305213380fd23dd5beece4fb72180ab562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302972"
 ---
-# <a name="paragraph-section"></a><span data-ttu-id="b1b05-103">Seção Paragraph</span><span class="sxs-lookup"><span data-stu-id="b1b05-103">Paragraph Section</span></span>
+# <a name="paragraph-section"></a><span data-ttu-id="d20a2-103">Seção Paragraph</span><span class="sxs-lookup"><span data-stu-id="d20a2-103">Paragraph Section</span></span>
 
-<span data-ttu-id="b1b05-104">Mostra os atributos de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores e alinhamento horizontal de parágrafos.</span><span class="sxs-lookup"><span data-stu-id="b1b05-104">Shows the paragraph formatting attributes for the shape's text, such as indents, line spacing, bullets, and horizontal alignment of paragraphs.</span></span>
+<span data-ttu-id="d20a2-104">Mostra os atributos de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores e alinhamento horizontal de parágrafos.</span><span class="sxs-lookup"><span data-stu-id="d20a2-104">Shows the paragraph formatting attributes for the shape's text, such as indents, line spacing, bullets, and horizontal alignment of paragraphs.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b1b05-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="b1b05-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d20a2-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="d20a2-105">Remarks</span></span>
 
-<span data-ttu-id="b1b05-106">Formatos de parágrafo podem ser definidos fazendo uma entrada em uma célula da seção **Paragraph** aplicando um estilo de texto ou inserindo valores na caixa de diálogo **texto** (na guia **página inicial** , clique o iniciador de caixa de diálogo do grupo **fonte** ).</span><span class="sxs-lookup"><span data-stu-id="b1b05-106">Paragraph formats can be set by making an entry in a **Paragraph** section cell by applying a text style, or by entering values in the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
+<span data-ttu-id="d20a2-106">Os formatos de parágrafo podem ser definidos fazendo uma entrada em uma célula de seção de **parágrafo** , aplicando um estilo de texto ou digitando valores na caixa de diálogo **texto** (na guia **página inicial** , clique no iniciador da caixa de diálogo no grupo **fonte** ).</span><span class="sxs-lookup"><span data-stu-id="d20a2-106">Paragraph formats can be set by making an entry in a **Paragraph** section cell by applying a text style, or by entering values in the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
   
-<span data-ttu-id="b1b05-107">Seção **Paragraph** não inclui células para configurações da guia.</span><span class="sxs-lookup"><span data-stu-id="b1b05-107">The **Paragraph** section does not include cells for tab settings.</span></span> <span data-ttu-id="b1b05-108">Para definir guias para texto de uma forma, use a caixa de diálogo de **texto** .</span><span class="sxs-lookup"><span data-stu-id="b1b05-108">To set tabs for a shape's text, use the **Text** dialog box.</span></span> 
+<span data-ttu-id="d20a2-107">A seção **Paragraph** não inclui células para configurações de tabulação.</span><span class="sxs-lookup"><span data-stu-id="d20a2-107">The **Paragraph** section does not include cells for tab settings.</span></span> <span data-ttu-id="d20a2-108">Para definir tabulações para um texto de forma, use a caixa de diálogo **Texto**.</span><span class="sxs-lookup"><span data-stu-id="d20a2-108">To set tabs for a shape's text, use the **Text** dialog box.</span></span> 
   
 

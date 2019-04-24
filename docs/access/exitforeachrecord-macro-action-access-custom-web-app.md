@@ -1,5 +1,5 @@
 ---
-title: Ação de Macro SairParaCadaRegistro (aplicativo da web personalizado do Access)
+title: Ação de macro SairParaCadaRegistro (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: ee0aec9b-cdb0-4204-8a15-7542d943f096
 description: Use a ação SairparaCadaRegistro para sair imediatamente de um bloco de dados ParaCadaRegistro.
-ms.openlocfilehash: dba71171914b7328bdd14246fbd46969b0d242bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4f2a5cd280b26471aa9cc1596b4d6269d059f94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302475"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="70cf6-103">Ação de Macro SairParaCadaRegistro (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="70cf6-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="9eaed-103">Ação de macro SairParaCadaRegistro (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="9eaed-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="70cf6-104">Use a ação **SairparaCadaRegistro** para sair imediatamente de um bloco de dados **[ParaCadaRegistro](foreachrecord-data-block-access-custom-web-app.md)**.</span><span class="sxs-lookup"><span data-stu-id="70cf6-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
+<span data-ttu-id="9eaed-104">Use a ação **SairparaCadaRegistro** para sair imediatamente de um bloco de dados **[ParaCadaRegistro](foreachrecord-data-block-access-custom-web-app.md)**.</span><span class="sxs-lookup"><span data-stu-id="9eaed-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="70cf6-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="70cf6-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="9eaed-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9eaed-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="70cf6-107">[!OBSERVAçãO] A ação **SairparaCadaRegistro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="70cf6-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
+> <span data-ttu-id="9eaed-107">[!OBSERVAçãO] A ação **SairparaCadaRegistro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="9eaed-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
   
 

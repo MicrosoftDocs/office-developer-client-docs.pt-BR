@@ -7,35 +7,35 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
-description: Obtém um string que representa os detalhes para a pessoa, como o primeiro nome, sobrenome e uma URL para uma imagem de perfil.
-ms.openlocfilehash: 158ce9b5c6a97ffff0325427ed07c74f518941d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém uma cadeia de caracteres que representa detalhes para a pessoa, como nome, sobrenome e URL de uma imagem de perfil.
+ms.openlocfilehash: 05cc2565ccd0688c7b8f4eccd6d8f42353d8743e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286140"
 ---
-# <a name="isocialpersongetdetails"></a><span data-ttu-id="1416a-103">ISocialPerson::GetDetails</span><span class="sxs-lookup"><span data-stu-id="1416a-103">ISocialPerson::GetDetails</span></span>
+# <a name="isocialpersongetdetails"></a><span data-ttu-id="b49f4-103">ISocialPerson::GetDetails</span><span class="sxs-lookup"><span data-stu-id="b49f4-103">ISocialPerson::GetDetails</span></span>
 
-<span data-ttu-id="1416a-104">Obtém um string que representa os detalhes para a pessoa, como o primeiro nome, sobrenome e uma URL para uma imagem de perfil.</span><span class="sxs-lookup"><span data-stu-id="1416a-104">Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture.</span></span> 
+<span data-ttu-id="b49f4-104">Obtém uma cadeia de caracteres que representa detalhes para a pessoa, como nome, sobrenome e URL de uma imagem de perfil.</span><span class="sxs-lookup"><span data-stu-id="b49f4-104">Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetDetails([out, retval] BSTR* details);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1416a-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="1416a-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b49f4-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b49f4-105">Parameters</span></span>
 
-<span data-ttu-id="1416a-106">_detalhes_</span><span class="sxs-lookup"><span data-stu-id="1416a-106">_details_</span></span>
+<span data-ttu-id="b49f4-106">_detalhes_</span><span class="sxs-lookup"><span data-stu-id="b49f4-106">_details_</span></span>
   
-> <span data-ttu-id="1416a-107">[out] Um valor de cadeia de caracteres XML que representa os detalhes de uma pessoa.</span><span class="sxs-lookup"><span data-stu-id="1416a-107">[out] An XML string value that represents the details for a person.</span></span>
+> <span data-ttu-id="b49f4-107">bota Um valor de sequência de caracteres XML que representa os detalhes de uma pessoa.</span><span class="sxs-lookup"><span data-stu-id="b49f4-107">[out] An XML string value that represents the details for a person.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1416a-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="1416a-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b49f4-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="b49f4-108">Remarks</span></span>
 
-<span data-ttu-id="1416a-109">A cadeia de caracteres retornada _detalhes_ XML deve estar em conformidade com a definição de esquema para a **pessoa**, conforme definido no esquema para fornecer extensibilidade de provedor do Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="1416a-109">The returned  _details_ XML string must comply with the schema definition for **person**, as defined in the schema for Outlook Social Connector (OSC) provider extensibility.</span></span>
+<span data-ttu-id="b49f4-109">A cadeia de caracteres XML de _detalhes_ retornados deve estar em conformidade com a definição de esquema para **Person**, conforme definido no esquema para a extensibilidade do provedor do Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="b49f4-109">The returned  _details_ XML string must comply with the schema definition for **person**, as defined in the schema for Outlook Social Connector (OSC) provider extensibility.</span></span>
   
-<span data-ttu-id="1416a-110">O OSC chamadas **GetDetails** se o provedor OSC oferece suporte armazenado em cache ou sincronização híbrido de amigos na rede social.</span><span class="sxs-lookup"><span data-stu-id="1416a-110">The OSC calls **GetDetails** if the OSC provider supports cached or hybrid synchronization of friends on the social network.</span></span> <span data-ttu-id="1416a-111">Quando o OSC inicialmente obtém atividades dos amigos para o usuário conectado, ele chama [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)e armazena informações de amigos em uma pasta de contatos específica à rede social, no repositório de Outlook padrão do usuário conectado .</span><span class="sxs-lookup"><span data-stu-id="1416a-111">When the OSC initially gets friends' activities for the logged on user, it calls [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md), and stores friends' information in a contacts folder specific to the social network, in the logged on user's default Outlook store.</span></span> <span data-ttu-id="1416a-112">Subsequentemente o OSC não chama **GetFriendsAndColleagues** ou **GetDetails** , a menos que o intervalo de atualização para o cache expirou.</span><span class="sxs-lookup"><span data-stu-id="1416a-112">Subsequently the OSC does not call **GetFriendsAndColleagues** or **GetDetails** unless the refresh interval for the cache has expired.</span></span> <span data-ttu-id="1416a-113">Para obter mais informações sobre como o OSC armazena informações de amigos em uma pasta de contatos, consulte [Sincronizando amigos e atividades](synchronizing-friends-and-activities.md).</span><span class="sxs-lookup"><span data-stu-id="1416a-113">For more information about how the OSC caches friends' information in a contacts folder, see [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).</span></span>
+<span data-ttu-id="b49f4-110">O OSC chamará **GetDetails** se o provedor OSC oferecer suporte à sincronização em cache ou híbrida de amigos na rede social.</span><span class="sxs-lookup"><span data-stu-id="b49f4-110">The OSC calls **GetDetails** if the OSC provider supports cached or hybrid synchronization of friends on the social network.</span></span> <span data-ttu-id="b49f4-111">Quando o OSC recebe inicialmente as atividades dos amigos para o usuário conectado, ele chama [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)e armazena informações dos amigos em uma pasta de contatos específica para a rede social, na loja do Outlook padrão do usuário conectado .</span><span class="sxs-lookup"><span data-stu-id="b49f4-111">When the OSC initially gets friends' activities for the logged on user, it calls [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md), and stores friends' information in a contacts folder specific to the social network, in the logged on user's default Outlook store.</span></span> <span data-ttu-id="b49f4-112">Subsequentemente, o OSC não chamará **GetFriendsAndColleagues** ou GetDetails, a menos que o intervalo de atualização do cache tenha expirado. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="b49f4-112">Subsequently the OSC does not call **GetFriendsAndColleagues** or **GetDetails** unless the refresh interval for the cache has expired.</span></span> <span data-ttu-id="b49f4-113">Para obter mais informações sobre como o OSC armazena em cache as informações de amigos em uma pasta contatos, consulte [sincronizaNdo amigos e atividades](synchronizing-friends-and-activities.md).</span><span class="sxs-lookup"><span data-stu-id="b49f4-113">For more information about how the OSC caches friends' information in a contacts folder, see [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1416a-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="1416a-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b49f4-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="b49f4-114">See also</span></span>
 
-- [<span data-ttu-id="1416a-115">ISocialPerson : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1416a-115">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
+- [<span data-ttu-id="b49f4-115">ISocialPerson : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b49f4-115">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
 
