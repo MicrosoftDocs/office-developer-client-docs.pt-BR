@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.
-ms.openlocfilehash: 767b658a9431dfab23d2df9bcfa6c83b52f48d75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346015"
 ---
-# <a name="format-cell-text-fields-section"></a><span data-ttu-id="1dd8f-103">Célula Format (Seção Text Fields)</span><span class="sxs-lookup"><span data-stu-id="1dd8f-103">Format Cell (Text Fields Section)</span></span>
+# <a name="format-cell-text-fields-section"></a><span data-ttu-id="cfdcf-103">Célula Format (Seção Text Fields)</span><span class="sxs-lookup"><span data-stu-id="cfdcf-103">Format Cell (Text Fields Section)</span></span>
 
-<span data-ttu-id="1dd8f-104">Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.</span><span class="sxs-lookup"><span data-stu-id="1dd8f-104">Specifies the formatting of a text field that is a string, a number, a date or time, a duration, or a currency.</span></span>
+<span data-ttu-id="cfdcf-104">Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.</span><span class="sxs-lookup"><span data-stu-id="cfdcf-104">Specifies the formatting of a text field that is a string, a number, a date or time, a duration, or a currency.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1dd8f-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="1dd8f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cfdcf-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="cfdcf-105">Remarks</span></span>
 
-<span data-ttu-id="1dd8f-p101">Se o valor da célula Type for 0, 2, 5, 6 ou 7 (cadeia de caracteres, número, data ou hora, duração ou moeda, respectivamente), especifique uma figura de formatação apropriada para o tipo de dados. Por exemplo, a figura de formatação "# #/4 UU" formata o número 12,43 pol. como 12 2/4 POLEGADAS. Para obter mais informações sobre como especificar uma figura de formatação, consulte [Sobre figuras de formatação](about-format-pictures.md).</span><span class="sxs-lookup"><span data-stu-id="1dd8f-p101">If the value of the Type cell is 0, 2, 5, 6, or 7 (string, number, date or time, duration, or currency, respectively), specify a format picture appropriate for the data type. For example, the format picture "# #/4 UU" formats the number 12.43 in. as 12 2/4 INCHES. For more information about specifying a format picture, see [About format pictures](about-format-pictures.md).</span></span>
+<span data-ttu-id="cfdcf-p101">Se o valor da célula Type for 0, 2, 5, 6 ou 7 (cadeia de caracteres, número, data ou hora, duração ou moeda, respectivamente), especifique uma figura de formatação apropriada para o tipo de dados. Por exemplo, a figura de formatação "# #/4 UU" formata o número 12,43 pol. como 12 2/4 POLEGADAS. Para obter mais informações sobre como especificar uma figura de formatação, consulte [Sobre figuras de formatação](about-format-pictures.md).</span><span class="sxs-lookup"><span data-stu-id="cfdcf-p101">If the value of the Type cell is 0, 2, 5, 6, or 7 (string, number, date or time, duration, or currency, respectively), specify a format picture appropriate for the data type. For example, the format picture "# #/4 UU" formats the number 12.43 in. as 12 2/4 INCHES. For more information about specifying a format picture, see [About format pictures](about-format-pictures.md).</span></span>
   
-<span data-ttu-id="1dd8f-p102">Um número (Tipo = 2) pode representar uma dimensão, uma grandeza escalar, um ângulo, uma data, uma hora ou uma moeda. Para garantir que um número de entrada seja sempre avaliado como uma data, hora ou moeda, utilize as funções DATETIME ou CY na célula Format em vez de uma figura de formatação.</span><span class="sxs-lookup"><span data-stu-id="1dd8f-p102">A number (Type = 2) can represent a dimension, scalar, angle, date, time, or currency. To ensure that an input number is always evaluated as a date, time, or currency, use the DATETIME or CY function in the Format cell instead of a format picture.</span></span>
+<span data-ttu-id="cfdcf-p102">Um número (Tipo = 2) pode representar uma dimensão, uma grandeza escalar, um ângulo, uma data, uma hora ou uma moeda. Para garantir que um número de entrada seja sempre avaliado como uma data, hora ou moeda, utilize as funções DATETIME ou CY na célula Format em vez de uma figura de formatação.</span><span class="sxs-lookup"><span data-stu-id="cfdcf-p102">A number (Type = 2) can represent a dimension, scalar, angle, date, time, or currency. To ensure that an input number is always evaluated as a date, time, or currency, use the DATETIME or CY function in the Format cell instead of a format picture.</span></span>
   
-<span data-ttu-id="1dd8f-112">Para fazer referência à célula Format pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-112">To get a reference to the Format cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cfdcf-112">Para fazer referência à célula Format pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-112">To get a reference to the Format cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="1dd8f-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-113">Cell name:</span></span>  <br/> | <span data-ttu-id="1dd8f-114">Fields.Format [ *i* ] onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="1dd8f-114">Fields.Format[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="cfdcf-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-113">Cell name:</span></span>  <br/> | <span data-ttu-id="cfdcf-114">Fields. Format [ *i* ] onde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="cfdcf-114">Fields.Format[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="1dd8f-115">Para fazer referência à célula Format pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-115">To get a reference to the Format cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cfdcf-115">Para fazer referência à célula Format pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-115">To get a reference to the Format cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="1dd8f-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-116">Section index:</span></span>  <br/> |<span data-ttu-id="1dd8f-117">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="1dd8f-117">**visSectionTextField**</span></span> <br/> |
-| <span data-ttu-id="1dd8f-118">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-118">Row index:</span></span>  <br/> |<span data-ttu-id="1dd8f-119">**visRowField** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="1dd8f-119">**visRowField** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="1dd8f-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="1dd8f-120">Cell index:</span></span>  <br/> |<span data-ttu-id="1dd8f-121">**visFieldFormat**</span><span class="sxs-lookup"><span data-stu-id="1dd8f-121">**visFieldFormat**</span></span> <br/> |
+| <span data-ttu-id="cfdcf-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-116">Section index:</span></span>  <br/> |<span data-ttu-id="cfdcf-117">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="cfdcf-117">**visSectionTextField**</span></span> <br/> |
+| <span data-ttu-id="cfdcf-118">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-118">Row index:</span></span>  <br/> |<span data-ttu-id="cfdcf-119">**visRowField** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="cfdcf-119">**visRowField** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="cfdcf-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="cfdcf-120">Cell index:</span></span>  <br/> |<span data-ttu-id="cfdcf-121">**visFieldFormat**</span><span class="sxs-lookup"><span data-stu-id="cfdcf-121">**visFieldFormat**</span></span> <br/> |
    
 

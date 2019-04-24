@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251442
 localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
-description: Retorna ValorSeVerdadeiro se logicalexpression for TRUE. Caso contrário, ele retorna ValorSeFalso.
-ms.openlocfilehash: 55938e8bd78c02badb98f90665c5c26cdd70f3b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna valueiftrue se logicaly for TRUE. Caso contrário, retornará valueiffalse.
+ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344762"
 ---
-# <a name="if-function"></a><span data-ttu-id="61200-104">Função IF</span><span class="sxs-lookup"><span data-stu-id="61200-104">IF Function</span></span>
+# <a name="if-function"></a><span data-ttu-id="e2375-104">Função IF</span><span class="sxs-lookup"><span data-stu-id="e2375-104">IF Function</span></span>
 
-<span data-ttu-id="61200-105">Retorna _ValorSeVerdadeiro_ se _logicalexpression_ for TRUE.</span><span class="sxs-lookup"><span data-stu-id="61200-105">Returns  _valueiftrue_ if  _logicalexpression_ is TRUE.</span></span> <span data-ttu-id="61200-106">Caso contrário, ele retorna _ValorSeFalso_.</span><span class="sxs-lookup"><span data-stu-id="61200-106">Otherwise, it returns  _valueiffalse_.</span></span>
+<span data-ttu-id="e2375-105">Retorna _valueiftrue_ se _logicaly_ for true.</span><span class="sxs-lookup"><span data-stu-id="e2375-105">Returns  _valueiftrue_ if  _logicalexpression_ is TRUE.</span></span> <span data-ttu-id="e2375-106">Caso contrário, retornará _valueiffalse_.</span><span class="sxs-lookup"><span data-stu-id="e2375-106">Otherwise, it returns  _valueiffalse_.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="61200-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="61200-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2375-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e2375-107">Syntax</span></span>
 
-<span data-ttu-id="61200-108">IF (* * *logicalexpression* * *, * * *ValorSeVerdadeiro* * *, * * *ValorSeFalso* * *)</span><span class="sxs-lookup"><span data-stu-id="61200-108">IF(** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** )</span></span> 
+<span data-ttu-id="e2375-108">IF (\* \* *LogicalName* \* \*, \* \* *valueiftrue* \* \*, \* \* *valueiffalse* \* \*)</span><span class="sxs-lookup"><span data-stu-id="e2375-108">IF(\*\* *logicalexpression* \*\*, \*\* *valueiftrue* \*\*, \*\* *valueiffalse* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="61200-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="61200-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e2375-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="e2375-109">Parameters</span></span>
 
-|<span data-ttu-id="61200-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="61200-110">**Name**</span></span>|<span data-ttu-id="61200-111">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="61200-111">**Required/Optional**</span></span>|<span data-ttu-id="61200-112">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="61200-112">**Data Type**</span></span>|<span data-ttu-id="61200-113">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="61200-113">**Description**</span></span>|
+|<span data-ttu-id="e2375-110">**Nome**</span><span class="sxs-lookup"><span data-stu-id="e2375-110">**Name**</span></span>|<span data-ttu-id="e2375-111">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="e2375-111">**Required/Optional**</span></span>|<span data-ttu-id="e2375-112">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="e2375-112">**Data Type**</span></span>|<span data-ttu-id="e2375-113">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="e2375-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="61200-114">_logicalexpression_</span><span class="sxs-lookup"><span data-stu-id="61200-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="61200-115">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="61200-115">Required</span></span>  <br/> |<span data-ttu-id="61200-116">**String**</span><span class="sxs-lookup"><span data-stu-id="61200-116">**String**</span></span> <br/> |<span data-ttu-id="61200-117">Expressão a ser avaliada.</span><span class="sxs-lookup"><span data-stu-id="61200-117">Expression to evaluate.</span></span>  <br/> |
-| <span data-ttu-id="61200-118">_ValorSeVerdadeiro_</span><span class="sxs-lookup"><span data-stu-id="61200-118">_valueiftrue_</span></span> <br/> |<span data-ttu-id="61200-119">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="61200-119">Required</span></span>  <br/> |<span data-ttu-id="61200-120">**Varia**</span><span class="sxs-lookup"><span data-stu-id="61200-120">**Varies**</span></span> <br/> |<span data-ttu-id="61200-121">O valor retornado se _logicalexpression_ for true.</span><span class="sxs-lookup"><span data-stu-id="61200-121">Value to return if  _logicalexpression_ is true.</span></span>  <br/> |
-| <span data-ttu-id="61200-122">_ValorSeFalso_</span><span class="sxs-lookup"><span data-stu-id="61200-122">_valueiffalse_</span></span> <br/> |<span data-ttu-id="61200-123">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="61200-123">Required</span></span>  <br/> |<span data-ttu-id="61200-124">**Varia**</span><span class="sxs-lookup"><span data-stu-id="61200-124">**Varies**</span></span> <br/> | <span data-ttu-id="61200-125">O valor retornado se _logicalexpression_ for falso.</span><span class="sxs-lookup"><span data-stu-id="61200-125">Value to return if  _logicalexpression_ is false.</span></span>  <br/> |
+| <span data-ttu-id="e2375-114">_logicalexpression_</span><span class="sxs-lookup"><span data-stu-id="e2375-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="e2375-115">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e2375-115">Required</span></span>  <br/> |<span data-ttu-id="e2375-116">**String**</span><span class="sxs-lookup"><span data-stu-id="e2375-116">**String**</span></span> <br/> |<span data-ttu-id="e2375-117">Expressão a ser avaliada.</span><span class="sxs-lookup"><span data-stu-id="e2375-117">Expression to evaluate.</span></span>  <br/> |
+| <span data-ttu-id="e2375-118">_valueiftrue_</span><span class="sxs-lookup"><span data-stu-id="e2375-118">_valueiftrue_</span></span> <br/> |<span data-ttu-id="e2375-119">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e2375-119">Required</span></span>  <br/> |<span data-ttu-id="e2375-120">**Vai**</span><span class="sxs-lookup"><span data-stu-id="e2375-120">**Varies**</span></span> <br/> |<span data-ttu-id="e2375-121">Valor a ser retornado __ se logicalid for true.</span><span class="sxs-lookup"><span data-stu-id="e2375-121">Value to return if  _logicalexpression_ is true.</span></span>  <br/> |
+| <span data-ttu-id="e2375-122">_valueiffalse_</span><span class="sxs-lookup"><span data-stu-id="e2375-122">_valueiffalse_</span></span> <br/> |<span data-ttu-id="e2375-123">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e2375-123">Required</span></span>  <br/> |<span data-ttu-id="e2375-124">**Vai**</span><span class="sxs-lookup"><span data-stu-id="e2375-124">**Varies**</span></span> <br/> | <span data-ttu-id="e2375-125">Valor a ser retornado __ se logicalid for false.</span><span class="sxs-lookup"><span data-stu-id="e2375-125">Value to return if  _logicalexpression_ is false.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="61200-126">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="61200-126">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e2375-126">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="e2375-126">Return value</span></span>
 
-<span data-ttu-id="61200-127">Varia</span><span class="sxs-lookup"><span data-stu-id="61200-127">Varies</span></span>
+<span data-ttu-id="e2375-127">Várias</span><span class="sxs-lookup"><span data-stu-id="e2375-127">Varies</span></span>
   
-## <a name="example"></a><span data-ttu-id="61200-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="61200-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e2375-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e2375-128">Example</span></span>
 
-<span data-ttu-id="61200-129">IF (altura \> 1,25 pol, 5, 7)</span><span class="sxs-lookup"><span data-stu-id="61200-129">IF(Height \> 1.25 in,5,7)</span></span>
+<span data-ttu-id="e2375-129">SE (altura \> 1,25, 5, 7)</span><span class="sxs-lookup"><span data-stu-id="e2375-129">IF(Height \> 1.25 in,5,7)</span></span>
   
-<span data-ttu-id="61200-p103">Retorna 5 se a altura da forma for maior que 1,25 polegadas. Retorna 7 se a altura da forma for menor que ou igual a 1,25 polegadas.</span><span class="sxs-lookup"><span data-stu-id="61200-p103">Returns 5 if the shape's height is greater than 1.25 inches. Returns 7 if the shape's height is less than or equal to 1.25 inches.</span></span>
+<span data-ttu-id="e2375-130">Retorna 5 se a altura da forma for maior que 1,25 polegadas.</span><span class="sxs-lookup"><span data-stu-id="e2375-130">Returns 5 if the shape's height is greater than 1.25 inches.</span></span> <span data-ttu-id="e2375-131">Retorna 7 se a altura da forma for menor que ou igual a 1,25 polegadas.</span><span class="sxs-lookup"><span data-stu-id="e2375-131">Returns 7 if the shape's height is less than or equal to 1.25 inches.</span></span>
   
 

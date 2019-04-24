@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a524a7eb40c33d6de2f64cd5373c9a39a8a1e3df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347807"
 ---
-# <a name="hrentryidfromsz"></a><span data-ttu-id="3eb8d-103">HrEntryIDFromSz</span><span class="sxs-lookup"><span data-stu-id="3eb8d-103">HrEntryIDFromSz</span></span>
+# <a name="hrentryidfromsz"></a><span data-ttu-id="3bfb6-103">HrEntryIDFromSz</span><span class="sxs-lookup"><span data-stu-id="3bfb6-103">HrEntryIDFromSz</span></span>
 
   
   
-<span data-ttu-id="3eb8d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3eb8d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3bfb6-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3bfb6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3eb8d-105">Recria um identificador de entrada de sua codificação ASCII.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-105">Recreates an entry identifier from its ASCII encoding.</span></span> 
+<span data-ttu-id="3bfb6-105">Recria um identificador de entrada da codificação ASCII.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-105">Recreates an entry identifier from its ASCII encoding.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3eb8d-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="3eb8d-106">Header file:</span></span>  <br/> |<span data-ttu-id="3eb8d-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="3eb8d-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="3eb8d-108">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="3eb8d-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3eb8d-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3eb8d-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3eb8d-110">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="3eb8d-110">Called by:</span></span>  <br/> |<span data-ttu-id="3eb8d-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="3eb8d-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="3bfb6-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="3bfb6-106">Header file:</span></span>  <br/> |<span data-ttu-id="3bfb6-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="3bfb6-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="3bfb6-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="3bfb6-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3bfb6-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3bfb6-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="3bfb6-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="3bfb6-110">Called by:</span></span>  <br/> |<span data-ttu-id="3bfb6-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="3bfb6-111">Client applications</span></span>  <br/> |
    
 ```cpp
 HRESULT HrEntryIDFromSz(
@@ -41,36 +41,36 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3eb8d-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3eb8d-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3bfb6-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3bfb6-112">Parameters</span></span>
 
- <span data-ttu-id="3eb8d-113">_SZ_</span><span class="sxs-lookup"><span data-stu-id="3eb8d-113">_sz_</span></span>
+ <span data-ttu-id="3bfb6-113">_v_</span><span class="sxs-lookup"><span data-stu-id="3bfb6-113">_sz_</span></span>
   
-> <span data-ttu-id="3eb8d-114">[in] Ponteiro para a cadeia de caracteres ASCII do qual criar um identificador de entrada.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-114">[in] Pointer to the ASCII string from which to create an entry identifier.</span></span> 
+> <span data-ttu-id="3bfb6-114">no Ponteiro para a cadeia de caracteres ASCII da qual criar um identificador de entrada.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-114">[in] Pointer to the ASCII string from which to create an entry identifier.</span></span> 
     
- <span data-ttu-id="3eb8d-115">_PCB_</span><span class="sxs-lookup"><span data-stu-id="3eb8d-115">_pcb_</span></span>
+ <span data-ttu-id="3bfb6-115">_PCB_</span><span class="sxs-lookup"><span data-stu-id="3bfb6-115">_pcb_</span></span>
   
-> <span data-ttu-id="3eb8d-116">[out] Ponteiro para o tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _ppentry_ .</span><span class="sxs-lookup"><span data-stu-id="3eb8d-116">[out] Pointer to the size, in bytes, of the entry identifier pointed to by the  _ppentry_ parameter.</span></span> 
+> <span data-ttu-id="3bfb6-116">bota Ponteiro para o tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _ppentry_ .</span><span class="sxs-lookup"><span data-stu-id="3bfb6-116">[out] Pointer to the size, in bytes, of the entry identifier pointed to by the  _ppentry_ parameter.</span></span> 
     
- <span data-ttu-id="3eb8d-117">_ppentry_</span><span class="sxs-lookup"><span data-stu-id="3eb8d-117">_ppentry_</span></span>
+ <span data-ttu-id="3bfb6-117">_ppentry_</span><span class="sxs-lookup"><span data-stu-id="3bfb6-117">_ppentry_</span></span>
   
-> <span data-ttu-id="3eb8d-118">[out] Ponteiro para um ponteiro para a estrutura [ENTRYID](entryid.md) retornado que contém o novo identificador de entrada.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-118">[out] Pointer to a pointer to the returned [ENTRYID](entryid.md) structure that contains the new entry identifier.</span></span> 
+> <span data-ttu-id="3bfb6-118">bota Ponteiro para um ponteiro para a estrutura [EntryID](entryid.md) retornada que contém o novo identificador de entrada.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-118">[out] Pointer to a pointer to the returned [ENTRYID](entryid.md) structure that contains the new entry identifier.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="3eb8d-119">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="3eb8d-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3bfb6-119">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3bfb6-119">Return value</span></span>
 
-<span data-ttu-id="3eb8d-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="3eb8d-120">S_OK</span></span>
+<span data-ttu-id="3bfb6-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="3bfb6-120">S_OK</span></span>
   
-> <span data-ttu-id="3eb8d-121">A recriação foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-121">The recreation was successful.</span></span>
+> <span data-ttu-id="3bfb6-121">A recreação foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-121">The recreation was successful.</span></span>
     
-<span data-ttu-id="3eb8d-122">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="3eb8d-122">MAPI_E_INVALID_ENTRYID</span></span>
+<span data-ttu-id="3bfb6-122">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="3bfb6-122">MAPI_E_INVALID_ENTRYID</span></span>
   
-> <span data-ttu-id="3eb8d-123">A identificação de entrada era inválida.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-123">The entry ID was invalid.</span></span>
+> <span data-ttu-id="3bfb6-123">A identificação de entrada era inválida.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-123">The entry ID was invalid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3eb8d-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="3eb8d-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3bfb6-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="3bfb6-124">Remarks</span></span>
 
-<span data-ttu-id="3eb8d-125">As funções **HrEntryIDFromSz** e [HrSzFromEntryID](hrszfromentryid.md) fornecem conversão entre a cadeia de caracteres e formatos binários de identificadores de entrada.</span><span class="sxs-lookup"><span data-stu-id="3eb8d-125">The **HrEntryIDFromSz** and [HrSzFromEntryID](hrszfromentryid.md) functions provide conversion between the string and binary formats of entry identifiers.</span></span> 
+<span data-ttu-id="3bfb6-125">As funções **HrEntryIDFromSz** e [HrSzFromEntryID](hrszfromentryid.md) fornecem conversão entre a cadeia de caracteres e os formatos binários de identificadores de entrada.</span><span class="sxs-lookup"><span data-stu-id="3bfb6-125">The **HrEntryIDFromSz** and [HrSzFromEntryID](hrszfromentryid.md) functions provide conversion between the string and binary formats of entry identifiers.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="3eb8d-126">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="3eb8d-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="3bfb6-126">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="3bfb6-126">Notes to callers</span></span>
 
-<span data-ttu-id="3eb8d-127">A função **HrEntryIDFromSz** aloca memória para a cadeia de caracteres ASCII usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="3eb8d-127">The **HrEntryIDFromSz** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
+<span data-ttu-id="3bfb6-127">A função **HrEntryIDFromSz** aloca memória para a cadeia de caracteres ASCII usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="3bfb6-127">The **HrEntryIDFromSz** function allocates memory for the ASCII string using the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
   
 

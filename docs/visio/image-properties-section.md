@@ -9,15 +9,15 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2a032f5f-1094-f536-cbd8-7e791b7fa55d
 description: Contém valores de gama, brilho, contraste, desfoque, nitidez e clareza para bitmaps (uma imagem formada por pixels) e aparece na janela ShapeSheet somente para esses objetos.
-ms.openlocfilehash: e35b9bacb3154d051249aa38113b78a6bb4e2a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32d16e7d7fb308c211c9493720d8a972202d1a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344741"
 ---
-# <a name="image-properties-section"></a><span data-ttu-id="a7486-103">Seção Image Properties</span><span class="sxs-lookup"><span data-stu-id="a7486-103">Image Properties Section</span></span>
+# <a name="image-properties-section"></a><span data-ttu-id="e8a90-103">Seção Image Properties</span><span class="sxs-lookup"><span data-stu-id="e8a90-103">Image Properties Section</span></span>
 
-<span data-ttu-id="a7486-104">Contém valores de gama, brilho, contraste, desfoque, nitidez e clareza para bitmaps (uma imagem formada por pixels) e aparece na janela ShapeSheet somente para esses objetos.</span><span class="sxs-lookup"><span data-stu-id="a7486-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
+<span data-ttu-id="e8a90-104">Contém valores de gama, brilho, contraste, desfoque, nitidez e clareza para bitmaps (uma imagem formada por pixels) e aparece na janela ShapeSheet somente para esses objetos.</span><span class="sxs-lookup"><span data-stu-id="e8a90-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
   
 
