@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 'Há várias maneiras de depurar um provedor de serviços do Outlook Social Connector (OSC):'
 ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281066"
 ---
 # <a name="debugging-a-provider"></a>Depurar um provedor
 

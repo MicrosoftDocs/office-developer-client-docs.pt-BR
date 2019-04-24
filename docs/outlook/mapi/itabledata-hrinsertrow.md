@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278803"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -38,11 +38,11 @@ HRESULT HrInsertRow(
 
  _uliRow_
   
-> [in] Um número de linha sequencial que representa uma linha específica. Após a linha que indica o número será colocada a nova linha. O parâmetro _uliRow_ pode conter os números de linha de 0 até n, onde n é o número total de linhas da tabela. Passando n _uliRow_ acrescenta a linha no final da tabela. 
+> no Um número de linha seqüencial que representa uma linha específica. A nova linha será colocada após a linha que o número indica. O parâmetro _uliRow_ pode conter números de linha de 0 a n, onde n é o número total de linhas na tabela. Passar n no _uliRow_ acrescenta a linha ao final da tabela. 
     
  _lpSRow_
   
-> [in] Um ponteiro para uma estrutura de [SRow](srow.md) que descreve a linha a ser inserido. 
+> no Um ponteiro para uma estrutura [SRow](srow.md) que descreve a linha a ser inserida. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,19 +52,19 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Uma linha que tem o mesmo valor para a coluna de seu índice, como a linha a ser inserido já existe na tabela.
+> Uma linha que tem o mesmo valor para sua coluna de índice à medida que a linha a ser inserida já existe na tabela.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData::HrInsertRow** insere uma linha em uma tabela em uma posição específica. A nova linha é inserida após a linha que está na posição especificada pelo parâmetro _uliRow_ . 
+O método **ITableData:: HrInsertRow** insere uma linha em uma tabela em uma posição específica. A nova linha é inserida após a linha que está na posição especificada pelo parâmetro _uliRow_ . 
   
-Se _uliRow_ for definido como o número de linhas na tabela, a nova linha é acrescentada ao final da tabela. 
+Se _uliRow_ estiver definido como o número de linhas na tabela, a nova linha será acrescentada ao final da tabela. 
   
-A propriedade que atua como a coluna de índice para a tabela deve ser incluída no membro **lpProps** da estrutura [SRow](srow.md) apontado pelo parâmetro _lpSRow_ . Esta propriedade index, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) é usada para identificar exclusivamente a linha para tarefas de manutenção futura.
+A propriedade que atua como a coluna de índice para a tabela deve ser incluída no membro **lpProps** da estrutura [SRow](srow.md) apontada pelo parâmetro _lpSRow_ . Essa propriedade index, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), é usada para identificar exclusivamente a linha para tarefas de manutenção futuras.
   
-As colunas de propriedades na estrutura de **SRow** não precisará ser na mesma ordem como as colunas de propriedades da tabela. 
+As colunas de propriedades na estrutura **SRow** não precisam estar na mesma ordem das colunas de propriedades na tabela. 
   
-Depois que a linha é inserida, as notificações são enviadas para todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamou o método da tabela [IMAPITable::Advise](imapitable-advise.md) para registrar para notificações. Nenhuma notificação é enviada se a linha inserida não está incluída no modo de exibição devido a uma restrição. 
+Depois que a linha é inserida, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método imApitable [:: Advise](imapitable-advise.md) da tabela para se registrarem para notificações. Nenhuma notificação será enviada se a linha inserida não estiver incluída no modo de exibição devido a uma restrição. 
   
 ## <a name="see-also"></a>Confira também
 

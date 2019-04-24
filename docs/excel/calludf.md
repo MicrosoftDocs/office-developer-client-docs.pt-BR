@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1d55f22de88b274d0403f81717d0fddefbea0219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 096f57335572c3788fdf129dd3bcf4a76cf62b01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304162"
 ---
 # <a name="calludf"></a>CallUDF
 
@@ -26,13 +26,13 @@ int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHan
 
 ## <a name="parameters"></a>Parâmetros
 
-_SessionId_
+_Identificação_da_sessão_
   
-> A identificação da sessão em que deseja que a chamada.
+> A ID da sessão na qual a chamada será feita.
     
 _XLLName_
   
-> O nome da XLL que contém a função definida pelo usuário.
+> O nome do XLL que contém a função definida pelo usuário.
     
 _UDFName_
   
@@ -40,11 +40,11 @@ _UDFName_
     
 _CallBackAddr_
   
-> A função que o conector deve chamar quando termina a função definida pelo usuário.
+> A função que o conector deve chamar quando a função definida pelo usuário estiver concluída.
     
 _pxAsyncHandle_
   
-> O identificador assíncrona usado pelo Excel e o conector para controlar a chamada pendente de função definida pelo usuário. O conector usa mais tarde quando a chamada for concluída, quando ele chama de volta para o Excel usando o ponteiro de função passados no argumento _CallBackAddr_ . 
+> O identificador assíncrono usado pelo Excel e o conector para rastrear a chamada de função definida pelo usuário pendente. O conector o utiliza posteriormente quando a chamada for concluída, quando ele chamar de volta para o Excel usando o ponteiro de função passado no argumento _CallBackAddr_ . 
     
 _ArgCount_
   
@@ -52,15 +52,15 @@ _ArgCount_
     
 _Parâmetro1_
   
-> Um valor para passar para a função definida pelo usuário. Repita este argumento para cada parâmetro indicado pelo _ArgCount_.
+> Um valor a ser passado para a função definida pelo usuário. Repita esse argumento para cada parâmetro indicado por _ArgCount_.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se a chamada UDF é iniciada com êxito; **xlHpcRetInvalidSessionId** se o argumento _SessionId_ é inválido; **xlHpcRetCallFailed** em outras falhas, incluindo o tempo limite. Se a chamada retornar qualquer código de erro (nada, exceto **xlHpcRetSuccess**), em seguida, Excel considera que a chamada UDF para ter falhado, invalida o _pxAsyncHandle_e não esperar que ocorra um retorno de chamada.
+**xlHpcRetSuccess** se a chamada UDF for iniciada com êxito; **xlHpcRetInvalidSessionId** se o argumento _SessionID_ for inválido; **xlHpcRetCallFailed** em outras falhas, incluindo o tempo limite. Se a chamada retornar qualquer código de erro (qualquer coisa exceto **xlHpcRetSuccess**), o Excel considerará a chamada UDF para ter falhado, invalidará o _pxAsyncHandle_e não esperará que um retorno de chamada ocorra.
   
 ## <a name="remarks"></a>Comentários
 
-Esta função executa de forma assíncrona.
+Essa função é executada de forma assíncrona.
   
 ## <a name="see-also"></a>Confira também
 

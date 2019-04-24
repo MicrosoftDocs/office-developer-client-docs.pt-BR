@@ -1,5 +1,5 @@
 ---
-title: Ação de Macro OpenPopup (aplicativo da web personalizado do Access)
+title: Ação de macro OpenPopup (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: Abre o modo de exibição especificado em uma janela pop-up.
-ms.openlocfilehash: 01e0086dc0b54837cf5f095ec6ac5701b5b0b219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2a8b67fcbf31c42f13b36f06d14d9d046be68c68
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308110"
 ---
-# <a name="openpopup-macro-action-access-custom-web-app"></a>Ação de Macro OpenPopup (aplicativo da web personalizado do Access)
+# <a name="openpopup-macro-action-access-custom-web-app"></a>Ação de macro OpenPopup (aplicativo Web personalizado do Access)
 
 Abre o modo de exibição especificado em uma janela pop-up.
   
@@ -23,23 +23,23 @@ Abre o modo de exibição especificado em uma janela pop-up.
   
 ## <a name="syntax"></a>Sintaxe
 
- **OpenPopup** (*Modo de exibição*, *onde =*, *Ordenar por*) 
+ **OpenPopup** (*Exibir*, *onde =*, *ordenar por*) 
   
 A ação **OpenPopup** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *View*  <br/> |O nome da exibição a ser aberto.  <br/> |
-| *Onde =*  <br/> |Uma cláusula SQL WHERE válida (sem a palavra onde) que restringe os registros no modo de exibição.  <br/> |
-| *Classificado Por*  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
+| *View*  <br/> |O nome do modo de exibição que será aberto.  <br/> |
+| *Onde =*  <br/> |Uma cláusula SQL WHERE válida (sem a palavra WHERE) que restringe os registros no modo de exibição.  <br/> |
+| *Classificado Por*  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento fica em branco.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A macro atual termina depois que a ação **OpenPopup** é processada. 
+A macro atual terminará quando a ação **OpenPopup** for processada. 
   
-Qualquer classificação ou filtragem aplicada pelo usuário é limpa quando a ação **OpenPopup** é chamada. 
+Qualquer classificação ou filtragem aplicada pelo usuário é desmarcada quando a ação **OpenPopup** é chamada. 
   
-O argumento *OrderBy* é o nome do campo ou dos campos nos quais você deseja classificar os registros. Quando você usa mais de um nome de campo, separe-os com vírgula (,). 
+O argumento *OrderBy* é o nome do campo ou dos campos nos quais você deseja classificar registros. Quando você usa mais de um nome de campo, separe-os com uma vírgula (,). 
   
 Quando você define o argumento *OrderBy* , os registros são classificados por padrão em ordem crescente. 
   

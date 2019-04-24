@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Você pode integrar seu aplicativos de terceiros da plataforma de aplicativos universais do Windows com o Word Mobile, Excel Mobile e PowerPoint Mobile. Os aplicativos universais são integrados com os aplicativos do Office por meio de contratos do seletor de arquivos do Windows, propriedades expando e contratos do Atualizador de Arquivos em Cache.
 ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299758"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Integração com o Office em aplicativos universais do Windows
 
@@ -35,7 +35,7 @@ A tabela a seguir descreve as propriedades que seu aplicativo precisa fornecer a
   
 Configure essas propriedades no conjunto de propriedades **System.ExpandoProperties**. 
   
-|**Propriedade**|**Descrição**|**Tipo**|**Exemplo**|
+|**Property**|**Descrição**|**Tipo**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |**AppDisplayName** <br/> |Nome do provedor a ser exibido para o usuário. Aparece em vários locais no Office, como na lista de documentos recentes.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |Para licenciamento, indique se o documento/local é Pessoal/Consumidor ou Trabalho/Negócios. Os valores permitidos são (pessoal) 1 e 2 (comercial). Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, use o valor "2" para comercial.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, o arquivo deverá ser marcado como 2, para comercial.  <br/> |

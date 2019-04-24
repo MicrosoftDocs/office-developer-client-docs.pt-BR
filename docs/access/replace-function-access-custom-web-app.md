@@ -1,36 +1,36 @@
 ---
-title: Substituir função (aplicativo da web personalizado do Access)
+title: Função Replace (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
-description: Substitui todas as ocorrências de um valor de cadeia de caracteres especificada por outro valor de cadeia de caracteres.
-ms.openlocfilehash: 09ba1f68973e9fb4ec8d860197509ec664e86376
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Substitui todas as ocorrências de um valor de cadeia de caracteres especificado por outro valor de cadeia de caracteres.
+ms.openlocfilehash: 678cf88fe66d65be454613ce2c615bb7cb8f66d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307998"
 ---
-# <a name="replace-function-access-custom-web-app"></a>Substituir função (aplicativo da web personalizado do Access)
+# <a name="replace-function-access-custom-web-app"></a>Função Replace (aplicativo Web personalizado do Access)
 
-Substitui todas as ocorrências de um valor de cadeia de caracteres especificada por outro valor de cadeia de caracteres.
+Substitui todas as ocorrências de um valor de cadeia de caracteres especificado por outro valor de cadeia de caracteres.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Substituir** (*TextExpression*, *padrão*, *substituição*) 
+ **Substitua** (*TextName*, *Pattern*, ** Replacement) 
   
-A função **Replace** contém os seguintes argumentos. 
+A função **replace** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A expressão de cadeia de caracteres a ser pesquisado.  <br/> |
-| *Pattern*  <br/> |A subcadeia de caracteres a ser localizado.  *Padrão* não pode ser uma cadeia de caracteres vazia ("").  <br/> |
+| *TextExpression*  <br/> |A expressão de cadeia de caracteres a ser pesquisada.  <br/> |
+| *Padrão de*  <br/> |A subcadeia de caracteres a ser localizada.  O *padrão* não pode ser uma cadeia de caracteres vazia ("").  <br/> |
 | *Replacement*  <br/> |A cadeia de caracteres de substituição.  <br/> |
    
 

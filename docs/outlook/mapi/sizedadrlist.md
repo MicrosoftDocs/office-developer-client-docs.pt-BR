@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c35a1eb54b29c04bc8eed453272b59aae0ea737e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282772"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma estrutura [ADRLIST](adrlist.md) com o nome especificado que contém um número especificado de estruturas [ADRENTRY](adrentry.md) . 
+Define uma estrutura [das ADRLIST](adrlist.md) com o nome especificado que contém um número especificado de estruturas [ADRENTRY](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
@@ -36,17 +36,17 @@ SizedADRLIST (_centries,_name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__centries_
+__cEntries_
   
-> Contagem de estruturas **ADRENTRY** a serem incluídos na nova estrutura **ADRLIST** . 
+> Contagem de estruturas **ADRENTRY** a serem incluídas na nova estrutura **das ADRLIST** . 
     
 __nome_
   
-> Nome para a nova estrutura **ADRLIST** . 
+> Nome para a nova estrutura **das ADRLIST** . 
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedADRLIST** permite definir uma lista de destinatários que possui limites explícitos quando os requisitos de tamanho da matriz são conhecidos. O código a seguir mostra como orientar o resultado da macro **SizedADRLIST** para um ponteiro de estrutura **ADRLIST** : 
+A macro **SizedADRLIST** permite definir uma lista de destinatários que tenha limites explícitos quando os requisitos de comprimento de matriz forem conhecidos. O código a seguir mostra como converter o resultado da macro **SizedADRLIST** para um ponteiro de estrutura **das ADRLIST** : 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

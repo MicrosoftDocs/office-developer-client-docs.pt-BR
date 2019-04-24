@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (Formato 1)
+title: xlfRegister (Formulário 1)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3cd2e5072c8602fe301028e69592220a8345c211
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303861"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (Formato 1)
 
@@ -78,7 +78,7 @@ Um argumento opcional que indica o tipo do ponto de entrada XLL. Em caso de omis
   
 |||||
 |:-----|:-----|:-----|:-----|
-| _Valor de pxMacroType_ <br/> |0  <br/> |1  <br/> |2  <br/> |
+| _Valor de pxMacroType_ <br/> |,0  <br/> |1  <br/> |duas  <br/> |
 |Pode ser chamada de uma planilha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Pode ser chamada de uma planilha de macro  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Pode ser chamada de uma definição de nome definido  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
@@ -135,7 +135,7 @@ A primeira tabela lista os tipos que têm suporte em todas as versões do Excel.
 |[signed] short [int]  <br/> |I  <br/> |M  <br/> |Inteiro assinado de 16 bits  <br/> |
 |[signed long] int  <br/> |J  <br/> |N  <br/> |Inteiro assinado de 32 bits  <br/> |
 |FP  <br/> ||K  <br/> |Estrutura de matriz do ponto flutuante  <br/> |
-|Array  <br/> ||O  <br/> |São passados três argumentos:<br/>– unsigned short int \*<br/>– unsigned short int \*<br/>– double []  <br/> |
+|Matriz  <br/> ||O  <br/> |São passados três argumentos:<br/>– unsigned short int \*<br/>– unsigned short int \*<br/>– double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
 |||R  <br/> |Referências de valores, matrizes e intervalos  <br/> |
    
@@ -278,14 +278,14 @@ A tabela a seguir lista as categorias padrão que ficam visíveis quando você e
 |**Número**|**Texto**|
 |:-----|:-----|
 |1  <br/> |Financeiro  <br/> |
-|2  <br/> |Data e Hora  <br/> |
-|3  <br/> |Matemática e Trigonometria  <br/> |
-|4  <br/> |Texto  <br/> |
-|5  <br/> |Lógica  <br/> |
+|duas  <br/> |Data e Hora  <br/> |
+|3D  <br/> |Matemática e Trigonometria  <br/> |
+|quatro  <br/> |Texto  <br/> |
+|0,5  <br/> |Lógica  <br/> |
 |6  <br/> |Procura e Referência  <br/> |
-|7  <br/> |Banco de dados  <br/> |
+|178  <br/> |Banco de dados  <br/> |
 |8  <br/> |Estatística  <br/> |
-|9  <br/> |Informações  <br/> |
+|241  <br/> |Informações  <br/> |
 |14  <br/> |Definido pelo Usuário  <br/> |
 ||Engenharia (a partir do Excel 2007)  <br/> |
 ||Cubo (a partir do Excel 2007)  <br/> |
@@ -294,10 +294,10 @@ Além disso, essas categorias também ficam visíveis quando você exibe a caixa
   
 |**Número**|**Texto**|
 |:-----|:-----|
-|10  <br/> |Comandos  <br/> |
+|254  <br/> |Comandos  <br/> |
 |11  <br/> |DDE/Externo  <br/> |
-|12  <br/> |Personalização  <br/> |
-|13  <br/> |Controle de macro  <br/> |
+|3,6  <br/> |Personalização  <br/> |
+|Treze  <br/> |Controle de macro  <br/> |
    
 ### <a name="example"></a>Exemplo
 

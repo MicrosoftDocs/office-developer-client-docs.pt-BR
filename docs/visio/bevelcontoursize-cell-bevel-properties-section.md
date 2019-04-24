@@ -1,32 +1,32 @@
 ---
-title: Célula BevelContourSize (Seção Bevel Properties)
+title: Célula BevelContourSize (seção chanfrar Propriedades)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
-description: Determina o tamanho de delimitação do bisel em pontos.
-ms.openlocfilehash: 1b7a83674492d5ea8d3fae8150e995fd8511eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tamanho da delimitação do bisel em pontos.
+ms.openlocfilehash: bb37c1a9990e1ee4bcca917f065b7872b8ae3bd7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285123"
 ---
-# <a name="bevelcontoursize-cell-bevel-properties-section"></a>Célula BevelContourSize (Seção Bevel Properties)
+# <a name="bevelcontoursize-cell-bevel-properties-section"></a>Célula BevelContourSize (seção chanfrar Propriedades)
 
-Determina o tamanho de delimitação do bisel em pontos. 
+Determina o tamanho da delimitação do bisel em pontos. 
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **BevelContourSize** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **BevelContourSize** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | BevelContourSize  <br/> |
    
-Para obter uma referência à célula **BevelContourSize** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **BevelContourSize** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

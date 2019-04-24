@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f76b44b3718f08eb68fc956ad4480d4327cb0656
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 72dddca5a8079374600e05b96a24cbbc25e7f7f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279553"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adiciona um provedor de serviço para o serviço de mensagem. 
+Adiciona um provedor de serviços ao serviço de mensagens. 
   
 ```cpp
 HRESULT CreateProvider(
@@ -40,37 +40,37 @@ HRESULT CreateProvider(
 
  _lpszProvider_
   
-> [in] Um ponteiro para o nome do provedor para adicionar.
+> no Um ponteiro para o nome do provedor a ser adicionado.
     
  _cValues_
   
-> [in] A contagem dos valores de propriedade apontado pelo parâmetro _lpProps_ . 
+> no A contagem de valores de propriedade apontados pelo parâmetro _lpProps_ . 
     
  _lpProps_
   
-> [in] Um ponteiro para uma matriz de valor de propriedade que descreve as propriedades do provedor para adicionar.
+> no Um ponteiro para uma matriz de valor de propriedade que descreve as propriedades do provedor a ser adicionado.
     
  _ulUIParam_
   
-> [in] Um identificador para a janela do pai de quaisquer caixas de diálogo ou windows esse método exibe. O parâmetro _ulUIParam_ é usado se o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Uma alça para a janela pai de qualquer caixa de diálogo ou Windows este método é exibido. O parâmetro _ulUIParam_ é usado se o sinalizador MAPI_DIALOG estiver definido no parâmetro _parâmetroulflags_ . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a adição do provedor. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam a adição de provedor. Os seguintes sinalizadores podem ser definidos:
     
-  - MAPI_DIALOG: Exibe uma caixa de diálogo para solicitar informações de configuração.
+  - MAPI_DIALOG: exibe uma caixa de diálogo para solicitar informações de configuração.
       
-  - MAPI_UNICODE: As propriedades de nome e a cadeia de caracteres do provedor estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estão no formato ANSI.
+  - MAPI_UNICODE: o nome do provedor e as propriedades de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estarão no formato ANSI.
     
  _lpUID_
   
-> [out] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo que representa o provedor para adicionar. 
+> bota Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo que representa o provedor a ser adicionado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O provedor foi adicionado com êxito ao serviço de mensagem.
+> O provedor foi adicionado com êxito ao serviço de mensagens.
     
 MAPI_E_USER_CANCEL 
   
@@ -78,9 +78,9 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProviderAdmin::CreateProvider** adiciona um provedor de serviço para o serviço de mensagem. O parâmetro _lpszProvider_ deve apontar para o nome de um provedor que pertence ao serviço de mensagem. **CreateProvider** não verifica se o nome corresponde ao nome de um provedor de serviço; Se o nome passado não corresponder a um nome de serviço, a chamada é bem-sucedida, mas os resultados serão imprevisíveis. A maioria dos serviços de mensagem não permita provedores a ser adicionado ou excluído enquanto o perfil estiver em uso. 
+O método **IProviderAdmin:: CreateProvider** adiciona um provedor de serviços ao serviço de mensagens. O parâmetro _lpszProvider_ deve apontar para o nome de um provedor que pertença ao serviço de mensagens. O **CreateProvider** não verifica se o nome corresponde ao nome de um provedor no serviço; Se o nome passado não corresponder a um nome de serviço, a chamada será bem-sucedida, mas os resultados serão imprevisíveis. A maioria dos serviços de mensagem não permite que os provedores sejam adicionados ou excluídos enquanto o perfil está em uso. 
   
-Afinal das informações disponíveis sobre o serviço provedor foi adicionada ao perfil do arquivo Mapisvc, **CreateProvider** chama a função de ponto de entrada do serviço de mensagem com o parâmetro _ulContext_ definido como MSG_SERVICE_ PROVIDER_CREATE. Se MAPI_DIALOG é definida no parâmetro de _ulFlags_ do método **CreateProvider** , os valores nos parâmetros _ulUIParam_ e _ulFlags_ também são passados para a função do ponto de entrada. Esses parâmetros adicionais habilitar o provedor de serviços para exibir sua folha de propriedades, de modo que o usuário pode digitar as definições de configuração. 
+Depois que todas as informações disponíveis sobre o provedor de serviços forem adicionadas ao perfil do arquivo MAPISVC. inf, **CreateProvider** chamará a função de ponto de entrada do serviço de mensagens com o parâmetro _ULCONTEXT_ definido como MSG_SERVICE_ PROVIDER_CREATE. Se MAPI_DIALOG for definido no parâmetro _parâmetroulflags_ do método **CreateProvider** , os valores nos parâmetros _ulUIParam_ e _parâmetroulflags_ também serão passados para a função de ponto de entrada. Esses parâmetros adicionais permitem que o provedor de serviços exiba sua folha de propriedades para que o usuário possa inserir definições de configuração. 
   
 ## <a name="see-also"></a>Confira também
 

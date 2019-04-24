@@ -1,5 +1,5 @@
 ---
-title: activityDetails elemento
+title: Elemento activityDetails
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,38 +7,38 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
-description: O elemento activityDetails armazena os dados brutos para um item de feed de atividade único. Cada item de feed de atividade deve ter seu próprio elemento activityDetails. Dados no elemento activityDetails referenciados nos modelos de atividade usando nomes de elementos.
-ms.openlocfilehash: c326017a038dff138d690b020a98972a08212690
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O elemento activityDetails armazena os dados brutos de um único item de feed de atividade. Cada item de feed de atividades deve ter seu próprio elemento activityDetails. Os dados no elemento activityDetails são referenciados em modelos de atividade usando elementos Name.
+ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281346"
 ---
-# <a name="activitydetails-element"></a>activityDetails elemento
+# <a name="activitydetails-element"></a>Elemento activityDetails
 
-O elemento **activityDetails** armazena os dados brutos para um item de feed de atividade único. Cada item de feed de atividade deve ter seu próprio elemento **activityDetails** . Dados no elemento **activityDetails** referenciados nos modelos de atividade usando **nomes** de elementos. Cada parte dos dados no elemento **activityDetails** deve ter um elemento **name** . 
+O elemento **activityDetails** armazena os dados brutos de um único item de feed de atividade. Cada item de feed de atividades deve ter seu próprio elemento **activityDetails** . Os dados no elemento **activityDetails** são referenciados em modelos de atividade usando elementos **Name** . Cada item de dados no elemento **activityDetails** deve ter um elemento **Name** . 
   
-A tabela a seguir descreve os elementos de seis que requer o elemento **activityDetails** . 
+A tabela a seguir descreve os seis elementos que o elemento **activityDetails** requer. 
   
 |**Elemento**|**Descrição**|
 |:-----|:-----|
-|**ownerID** <br/> |A ID do usuário na rede social que gerou essa atividade feed item.  <br/> |
-|**objectID** <br/> |Uma cadeia de caracteres exclusiva da atividade de alimentação item para detectar itens de feed de duplicata.  <br/> |
-|**ApplicationId** <br/> |Uma das duas identificações exclusivas que são usadas para corresponder a atividade feed item com seu modelo. Se você tiver vários aplicativos ou outros agrupamentos, isso pode ser usado como um organizador de modelo de primeiro nível.  <br/> |
-|**templateId** <br/> |A segunda identificação exclusiva que será usada para corresponder a atividade feed item com seu modelo. Isso pode ser usado como um organizador de modelo de segundo nível.  <br/> |
-|**publishDate** <br/> |A data e hora em que o item de feed de atividade foi publicado.  <br/> |
-|**templateVariables** <br/> |Os dados a serem usados em tokens para o modelo de itens de feed de atividade.  <br/> |
+|**ownerID** <br/> |A ID do usuário na rede social que gerou este item de feed de atividade.  <br/> |
+|**IDs** <br/> |Uma cadeia de caracteres exclusiva para o item de feed de atividade para detectar itens de feed duplicados.  <br/> |
+|**applicationId** <br/> |Uma de duas IDs exclusivas que são usadas para corresponder ao item de feed de atividades com seu modelo. Se você tiver vários aplicativos ou outros agrupamentos, isso poderá ser usado como organizador de modelos de primeira camada.  <br/> |
+|**templateId** <br/> |A segunda ID exclusiva usada para corresponder ao item de feed de atividades com seu modelo. Isso pode ser usado como organizador de modelos de segunda camada.  <br/> |
+|**publishDate** <br/> |A data e a hora em que o item de feed de atividade foi publicado.  <br/> |
+|**templateVariables** <br/> |Os dados a serem usados nos tokens para o modelo de item do feed de atividade.  <br/> |
    
-Para obter um exemplo de atividade feed XML, consulte [Exemplo de XML de Feed de atividade](activity-feed-xml-example.md)
+Para obter um exemplo de XML de feed de atividades, consulte [exemplo de XML de feed de atividades](activity-feed-xml-example.md)
   
 ## <a name="see-also"></a>Confira também
 
-- [Visão geral de XML para uma atividade Feed Item](overview-of-xml-for-an-activity-feed-item.md)  
-- [activityTemplateContainer elemento](activitytemplatecontainer-element.md)  
+- [Visão geral do XML para um item do feed de atividades](overview-of-xml-for-an-activity-feed-item.md)  
+- [Elemento activityTemplateContainer](activitytemplatecontainer-element.md)  
 - [Variáveis do modelo](template-variables.md) 
-- [Diretrizes para exibir adequadamente atividades](guidelines-for-properly-displaying-activities.md)  
+- [Diretrizes para exibir atividades de modo adequado](guidelines-for-properly-displaying-activities.md)  
 - [XML para atividades](xml-for-activities.md)  
-- [Esquema XML do Outlook Social Connector Provider](outlook-social-connector-provider-xml-schema.md)
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
+- [Esquema XML do provedor Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Desenvolvimento de um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

@@ -6,11 +6,11 @@ localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Encontre conteúdo de tutoriais, exemplos de código, documentação de SDK e de API, referências do VBA, treinamentos e artigos para desenvolver soluções e personalizar o Office.
 ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303119"
 ---
 # <a name="office-client-development"></a>Desenvolvimento do cliente do Office
 
@@ -42,9 +42,9 @@ Encontre conteúdo de tutoriais, exemplos de código, documentação de SDK e de
   
 - [InfoPath](infopath/infopath-home.md)
   
-- [Referência da biblioteca de objetos do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Referência da biblioteca de Objetos do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Referência de idioma do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
+- [Referência de linguagem do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
 - [Office compartilhado](shared/office-shared.md)
   

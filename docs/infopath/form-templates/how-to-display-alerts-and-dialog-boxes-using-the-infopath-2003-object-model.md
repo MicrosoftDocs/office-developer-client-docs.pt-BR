@@ -4,38 +4,38 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- modelos [InfoPath 2007], exibindo caixas de diálogo, alertas, de formulário de modelos de formulário compatíveis com 2003 do InfoPath, exibindo caixas de diálogo, exibindo em modelos de formulário compatíveis com o InfoPath 2003, caixas de diálogo, exibindo em compatíveis com o InfoPath 2003 modelos de formulário , Os modelos de formulário compatíveis com o InfoPath 2003, exibindo os alertas
+- modelos de formulário compatíveis com o InfoPath 2003, exibindo caixas de diálogo, modelos de formulário [InfoPath 2007], exibindo caixas de diálogo, alertas, exibindo em modelos de formulário compatíveis com o InfoPath 2003, exibindo em modelos de formulário compatíveis com o InfoPath 2003 , Modelos de formulário compatíveis com o InfoPath 2003, exibindo alertas
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
-description: Ao escrever código para estender a funcionalidade de um modelo de formulário que utiliza o modelo de objeto do InfoPath 2003, geralmente é útil fornecer ao usuário informações em uma caixa de diálogo.
-ms.openlocfilehash: 1cc0f4c7a6696eae2d3b7058898b4119cede79e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ao escrever código para estender a funcionalidade de um modelo de formulário que usa o modelo de objeto do InfoPath 2003, é sempre útil fornecer informações ao usuário em uma caixa de diálogo.
+ms.openlocfilehash: 12088747250037e53a3b7d8d0577936e30d6292c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303609"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Exibir alertas e caixas de diálogo usando o modelo de objeto do InfoPath 2003
 
-Ao escrever código para estender a funcionalidade de um modelo de formulário que utiliza o modelo de objeto do InfoPath 2003, geralmente é útil fornecer ao usuário informações em uma caixa de diálogo. Programaticamente exibir uma caixa de diálogo e os elementos de interface de usuário relacionados é realizada no InfoPath usando os métodos da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
+Ao escrever código para estender a funcionalidade de um modelo de formulário que usa o modelo de objeto do InfoPath 2003, é sempre útil fornecer informações ao usuário em uma caixa de diálogo. Exibir proGramaticamente uma caixa de diálogo e elementos de interface do usuário relacionados são obtidos no InfoPath usando os métodos da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
   
-## <a name="overview-of-the-uiobject-interface"></a>Visão geral da Interface UIObject
+## <a name="overview-of-the-uiobject-interface"></a>Visão geral da interface UIObject
 
-A interface de [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) fornece os seguintes métodos, os desenvolvedores de formulário podem usar para ter tipos diferentes de caixas de diálogo exibidas para os usuários do InfoPath conforme estiverem preenchendo um formulário. 
+A interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) fornece os seguintes métodos, que os desenvolvedores de formulários podem usar para ter diferentes tipos de caixas de diálogo exibidas aos usuários do InfoPath à medida que estão preenchendo um formulário. 
   
 |Nome|Descrição|
 |:-----|:-----|
-|[Alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Exibe uma caixa de mensagem simples que contém uma cadeia de caracteres da mensagem especificada. Esse método deve ser usado quando nenhuma entrada será necessária do usuário e apenas uma mensagem precisa ser exibido. A caixa de diálogo exibida está fechada clicando no botão **Okey** .  <br/> |
-|[Confirmar](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Exibe uma caixa de mensagem com botões para entrada de um usuário. O valor retornado é uma das seguintes constantes [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) enumerado.  <br/> |
-|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Define o nome de arquivo padrão para um formulário na caixa de diálogo **Salvar como** .  <br/> |
-|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Define o local inicial no qual a caixa de diálogo **Salvar como** começa naveguem quando ele é aberto.  <br/> |
+|[Avisar](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Exibe uma caixa de mensagem simples que contém uma sequência de caracteres de mensagem especificada. Este método deve ser usado quando nenhuma entrada é necessária do usuário e apenas uma mensagem precisa ser exibida. A caixa de diálogo exibida é fechada clicando no botão **OK** .  <br/> |
+|[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Exibe uma caixa de mensagem com botões para entrada de um usuário. O valor retornado é uma das constantes enumeradas [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) .  <br/> |
+|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Define o nome de arquivo padrão de um formulário na caixa de diálogo **salvar como** .  <br/> |
+|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Define o local inicial em que a caixa de diálogo **salvar como** começa a navegar quando é aberta.  <br/> |
 |[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Cria uma nova mensagem de email no aplicativo de email padrão, com o formulário atualmente aberto anexado à mensagem.  <br/> |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Exibe uma caixa de diálogo modal, com base nos argumentos posicionais e arquivo. HTML especificado. Este método deve ser usado se você deseja exibir mais do que uma simple mensagem ao usuário e você precisa obter alguns dados do usuário (ultrapassando a confirmação de simple que é fornecido pelo **Sim** | **Não** | **Cancelar** botões exibidos pelo método **Confirm** ).  <br/> |
-|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Exibe a caixa de diálogo interna do **Assinaturas digitais** .  <br/> |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Exibe uma caixa de diálogo modal, com base nos argumentos de posição e arquivo. html especificado. Este método deve ser usado se você quiser exibir mais de uma mensagem simples para o usuário e precisar obter alguns dados do usuário (além da confirmação simples fornecida pelo **Sim** ) | **Não** | Botões **Cancelar** exibidos pelo método **Confirm** ).  <br/> |
+|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Exibe a caixa de diálogo **assinaturas digitais** internas.  <br/> |
    
-## <a name="using-the-uiobject-interface"></a>Usando a Interface UIObject
+## <a name="using-the-uiobject-interface"></a>Usando a interface UIObject
 
-A interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) é acessada por meio da propriedade da [interface do usuário](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) da interface [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) , que por si só é acessado através do `thisXDocument` variável é inicializado no `_Startup` método da classe de código do formulário. O exemplo a seguir demonstra o uso de métodos [ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) e [alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
+A interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) é acessada por meio da propriedade [UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) da interface [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) , que é acessada por meio da `thisXDocument` variável que `_Startup` é inicializada no método da classe de código de formulário. O exemplo a seguir demonstra o uso dos métodos [ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) e [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
   
 ```cs
 thisXDocument.UI.ShowMailItem("someone@example.com","", "", 
@@ -49,9 +49,9 @@ thisXDocument.UI.ShowMailItem("someone@example.com", "", "", _
 thisXDocument.UI.Alert("The email message has been created.")
 ```
 
-## <a name="using-the-showmodaldialog-method"></a>Usando o método
+## <a name="using-the-showmodaldialog-method"></a>Usando o método ShowModalDialog
 
-Este exemplo demonstra como usar o método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) para exibir uma caixa de diálogo personalizada definida no show.html de arquivo HTML. 
+Este exemplo demonstra como usar o método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) da interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) para exibir uma caixa de diálogo personalizada definida no arquivo HTML show. html. 
   
 ```cs
 public void CTRL1_5_OnClick(DocActionEvent e)
@@ -72,7 +72,7 @@ End Sub
 
 ```
 
-Amostras do Visual c# e Visual Basic dependem de um arquivo HTML chamado "show.html" que define a caixa de diálogo que é chamada pelo [método](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) . Este arquivo HTML exibe alguns dados do formulário e mostra uma caixa de texto para o usuário preencher um valor. O valor na caixa de texto é retornado ao formulário, quando a caixa de diálogo é fechada. 
+Os exemplos do Visual C# e do Visual Basic dependem de um arquivo HTML chamado "show. html" que define a caixa de diálogo invocada pelo método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) . Este arquivo HTML exibe alguns dados do formulário e mostra uma caixa de texto para o usuário preencher um valor. O valor na TextBox é retornado ao formulário quando a caixa de diálogo é fechada. 
   
 ```html
 <HTML>
@@ -102,6 +102,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> [Método](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requer confiança total executar ou visualizar. Para obter mais informações, consulte [Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> O método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requer confiança total para executar ou Visualizar. Para obter mais informações, consulte [Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 

@@ -1,39 +1,39 @@
 ---
-title: Função Try_Parse (aplicativo da web personalizado do Access)
+title: Função Try_Parse (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
-description: Analisa um valor de texto para o tipo de dados especificado na cultura do aplicativo ou retorna Null se a conversão não é válida.
-ms.openlocfilehash: 3446e928d9772641f9aea7b956e142f995824b1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Analisa um valor de texto para o tipo de dados especificado na cultura do aplicativo ou retorna NULL se a conversão não for válida.
+ms.openlocfilehash: 5d201557607d2d18c36238d9658b705a6a49fda8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307795"
 ---
-# <a name="tryparse-function-access-custom-web-app"></a>Função Try_Parse (aplicativo da web personalizado do Access)
+# <a name="tryparse-function-access-custom-web-app"></a>Função Try_Parse (aplicativo Web personalizado do Access)
 
-Analisa um valor de texto para o tipo de dados especificado na cultura do aplicativo ou retorna Null se a conversão não é válida.
+Analisa um valor de texto para o tipo de dados especificado na cultura do aplicativo ou retorna NULL se a conversão não for válida.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Try_Parse** (*TextExpression*, *DataType*) 
+ **Try_Parse** (*Texté*, *DataType*) 
   
 A função **Try_Parse** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar em tipo de dados especificado.  <br/> |
-| *DataType*  <br/> |O tipo de dados no qual analisar *TextExpression* .  <br/> |
+| *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar o tipo de dados especificado.  <br/> |
+| *DataType*  <br/> |O tipo de dados no qual a *textName* será analisada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use **Try_Parse** apenas para a conversão de cadeia de caracteres, data/hora e tipos de número. Para conversões de tipo geral, continue a usar a **Converter**. 
+Use **Try_Parse** somente para conversão de cadeia de caracteres para tipos de data/hora e de número. Para conversões de tipo gerais, continue a usar **Convert**. 
   
 

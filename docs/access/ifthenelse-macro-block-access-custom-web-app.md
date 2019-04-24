@@ -1,5 +1,5 @@
 ---
-title: Se... Então... Bloco de Macro Else (aplicativo da web personalizado do Access)
+title: If... Then... Bloco de macro else (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: Você pode usar o bloco de macro Se para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão.
-ms.openlocfilehash: 8ac78ff0eaf22c1d821e306654ebfa8fac4ed34a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304260"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Se... Então... Bloco de Macro Else (aplicativo da web personalizado do Access)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Bloco de macro else (aplicativo Web personalizado do Access)
 
 Você pode usar o bloco de macro **Se** para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão. 
   
@@ -39,7 +39,7 @@ Para **Se** e ** Senão Se **, os seguintes argumentos são requeridos.
   
 |**Argumento da ação**|**Descrição**|
 |:-----|:-----|
-|**Expressão** <br/> |A condição que você deseja testar. Ela deve ser uma expressão que é avaliada como True ou False.  <br/> |
+|**Expressão** <br/> |A condição que você deseja testar. Deve ser uma expressão que avalia como True ou False.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

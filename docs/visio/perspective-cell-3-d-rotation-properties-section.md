@@ -1,32 +1,32 @@
 ---
-title: Célula Perspective (Seção 3-D Rotation Properties)
+title: Célula Perspective (seção 3-D Rotation Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e07d97a4-9896-4b88-9e76-5a1b3f133094
-description: Determina o ângulo de perspectiva de rotação de uma perspectiva, em graus (de 0 a 359.9)
-ms.openlocfilehash: 6ab087b07dceda6e8f02a3ddb49a50d6159366d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o ângulo de perspectiva de uma rotação de perspectiva, em graus (0 a 359,9)
+ms.openlocfilehash: 4cbefc2fa147a418fa792542e1dc57c39ab2490c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307767"
 ---
-# <a name="perspective-cell-3-d-rotation-properties-section"></a>Célula Perspective (Seção 3-D Rotation Properties)
+# <a name="perspective-cell-3-d-rotation-properties-section"></a>Célula Perspective (seção 3-D Rotation Properties)
 
-Determina o ângulo de perspectiva de rotação de uma perspectiva, em graus (de 0 a 359.9)
+Determina o ângulo de perspectiva de uma rotação de perspectiva, em graus (0 a 359,9)
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **perspectiva** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula **Perspective** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Perspectiva  <br/> |
    
-Para obter uma referência à célula **perspectiva** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **Perspective** pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

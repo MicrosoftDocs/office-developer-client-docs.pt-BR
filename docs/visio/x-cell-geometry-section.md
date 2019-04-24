@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm1135
 localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
-description: Representa um x-coordenadas em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada.
-ms.openlocfilehash: e5bc99d4f73d49741c4378009dfc2a883bb655ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa uma coordenada x em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada.
+ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285109"
 ---
-# <a name="x-cell-geometry-section"></a>Célula X Cell (Seção Geometry)
+# <a name="x-cell-geometry-section"></a>Célula X (Seção Geometry)
 
-Representa um *x* -coordenadas em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada. 
+Representa uma coordenada *x* em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada. 
   
-|**Row**|**Descrição**|
+|**Linha**|**Descrição**|
 |:-----|:-----|
-|[MoveTo](moveto-row-geometry-section.md) <br/> | Se a linha MoveTo for a primeira linha na seção, a célula X representará a *x* -coordenadas do primeiro vértice de um caminho. Se a linha MoveTo aparecer entre duas linhas, a célula X representará a *x* -coordenadas do primeiro vértice depois da quebra no caminho.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> | *X* -coordenadas do vértice final de um segmento de linha reta.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> | *X* -coordenadas do vértice final de um arco.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | *X* -coordenadas do vértice final de um arco elíptico.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | *X* -coordenadas do vértice final de uma polilinha.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | *X* -coordenadas do último ponto de controle de uma B-spline racional não-uniforme (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | *X* -coordenadas do segundo ponto de controle de uma spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | *X* -coordenadas de um ponto de controle.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto em uma linha infinita.  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | *X* -coordenadas do centro da elipse.  <br/> |
+|[MoveTo](moveto-row-geometry-section.md) <br/> | Se a linha MoveTo for a primeira linha na seção, a célula X representará a coordenada *X* do primeiro vértice de um caminho. Se a linha MoveTo aparecer entre duas linhas, a célula X representará a coordenada *X* do primeiro vértice depois da quebra no caminho.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> | A coordenada *x* do vértice final de um segmento de linha reta.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | A coordenada *x* do vértice final de um arco.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *x* do vértice final de um arco elíptico.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | A coordenada *x* do vértice final de uma polilinha.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A coordenada *x* do último ponto de controle de uma B-spline racional não-uniforme (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | A coordenada *x* do segundo ponto de controle de uma spline.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | A coordenada *x* de um ponto de controle.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Uma coordenada *x* de um ponto na linha infinita.  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | A coordenada *x* do centro da elipse.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -39,8 +39,8 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . X *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
-|| Geometria *i* . X1 (linhas InfiniteLine e Ellipse) onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . X *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
+|| Geometry *i* . X1 (linhas InfiniteLine e Ellipse) onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

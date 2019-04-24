@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e32157f41632b782fbacf87e0411c18d167b4279
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 02663570e3173bbd696af732e71f060d9dee49bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286625"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576677"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica que ocorreu uma alteração no status do Visualizador do formulário. 
+Indica que uma alteração ocorreu no status do Visualizador de formulários. 
   
 ```cpp
 HRESULT OnChange(
@@ -37,35 +37,35 @@ HRESULT OnChange(
 
  _ulDir_
   
-> [in] Uma bitmask dos sinalizadores que fornece informações sobre a alteração que ocorreu no visualizador e a resposta esperada no formulário. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que fornece informações sobre a alteração que ocorreu no visualizador e a resposta esperada no formulário. Os seguintes sinalizadores podem ser definidos:
     
 VCSTATUS_CATEGORY 
   
-> Há uma mensagem anterior ou seguinte em outra categoria. 
+> Há uma mensagem próxima ou anterior em outra categoria. 
     
 VCSTATUS_INTERACTIVE 
   
-> O formulário deve exibir uma interface do usuário. Se esse sinalizador não estiver definida, o formulário deve suprimir exibindo uma interface do usuário, mesmo em resposta a um verbo que geralmente faz com que uma interface de usuário a ser exibido. 
+> O formulário deve exibir uma interface do usuário. Se esse sinalizador não for definido, o formulário deve suprimir a exibição de uma interface de usuário, mesmo em resposta a um verbo que geralmente faz com que uma interface de usuário seja exibida. 
     
 VCSTATUS_MODAL 
   
-> O formulário deve ser modal para o Visualizador do formulário. 
+> O formulário deve ser modal no Visualizador de formulários. 
     
 VCSTATUS_NEXT 
   
-> Há uma mensagem próxima no Visualizador do formulário. 
+> Há uma próxima mensagem no Visualizador de formulários. 
     
 VCSTATUS_PREV 
   
-> Há uma mensagem anterior no Visualizador do formulário. 
+> Há uma mensagem anterior no Visualizador de formulários. 
     
 VCSTATUS_READONLY 
   
-> Excluir, enviar e mover as operações devem ser desabilitadas. 
+> As operações excluir, enviar e mover devem ser desabilitadas. 
     
 VCSTATUS_UNREAD 
   
-> Há uma mensagem não lida seguinte ou anterior no Visualizador do formulário.
+> Há uma mensagem não lida seguinte ou anterior no Visualizador de formulários.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -75,13 +75,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método **IMAPIFormAdviseSink::OnChange** para notificar o formulário sobre uma alteração no status do visualizador. Geralmente, a única alteração é a definição ou desmarcar o sinalizador VCSTATUS_NEXT ou VCSTATUS_PREVIOUS com base na presença ou ausência de uma mensagem seguinte ou anterior no visualizador. Da mesma forma, a objeto form, em seguida, habilita ou desabilita quaisquer ações seguinte ou anteriores, que ele oferece suporte. 
+Os visualizadores de formulários chamam o método **IMAPIFormAdviseSink::** OnChange para notificar o formulário sobre uma alteração no status de um visualizador. Normalmente, a única alteração é definir ou limpar o sinalizador VCSTATUS_NEXT ou VCSTATUS_PREVIOUS com base na presença ou ausência de uma mensagem seguinte ou anterior no visualizador. Portanto, o objeto Form, em seguida, habilita ou desabilita qualquer ação seguinte ou anterior aceita. 
   
-As configurações de VCSTATUS_MODAL e VCSTATUS_INTERACTIVE não é possível alterar em um contexto de modo de exibição após ele ter sido criado.
+As configurações do VCSTATUS_MODAL e do VCSTATUS_INTERACTIVE não podem ser alteradas em um contexto de exibição após sua criação.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação específica desse método depende completamente as especificações do formulário. A maioria dos objetos de formulário usar esse método para alterar sua interface do usuário (por exemplo, para habilitar ou desabilitar comandos de menu ou botões para coincidir com o parâmetro de sinalizadores de status do visualizador).
+A implementação específica desse método depende completamente das especificações do formulário. A maioria dos objetos de formulário usa esse método para alterar sua interface de usuário (por exemplo, para habilitar ou desabilitar comandos de menu ou botões para corresponder ao parâmetro de status de visualizador).
   
 ## <a name="see-also"></a>Confira também
 

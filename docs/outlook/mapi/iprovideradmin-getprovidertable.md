@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3ddfcdd95f0423ba92c37c434f18078eadf90d82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 843a61696def4398c22a244a7f3f66d7e5dc75ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279525"
 ---
 # <a name="iprovideradmingetprovidertable"></a>IProviderAdmin::GetProviderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594016"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela do provedor do serviço na mensagem, uma lista dos provedores de serviço no serviço de mensagem.
+Fornece acesso à tabela do provedor do serviço de mensagens, uma lista dos provedores de serviços no serviço de mensagens.
   
 ```cpp
 HRESULT GetProviderTable(
@@ -38,51 +38,51 @@ HRESULT GetProviderTable(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres retornada nas colunas da tabela provedor. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo das cadeias de caracteres retornadas nas colunas da tabela do provedor. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas são no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas estarão no formato ANSI.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela de provedor.
+> bota Um ponteiro para um ponteiro para a tabela de provedor.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A tabela de provedor foi retornada com êxito.
+> A tabela do provedor foi retornada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProviderAdmin::GetProviderTable** recupera um ponteiro para a tabela de provedor do serviço na mensagem, uma tabela que mantém o MAPI que contém informações sobre cada provedor de serviço no serviço de mensagem. 
+O método **IProviderAdmin::** getprovidertable recupera um ponteiro para a tabela do provedor do serviço de mensagens, uma tabela que o MAPI mantém que contém informações sobre cada provedor de serviços no serviço de mensagens. 
   
-Ao contrário da tabela de provedor retornada pelo método [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) , a tabela de provedor retornada pela **IProviderAdmin::GetProviderTable** pode incluir linhas adicionais que representam informações associadas a um ou mais dos os provedores de serviço no serviço de mensagem. Essas informações extras são adicionadas ao perfil com a palavra-chave "Seções" do arquivo Mapisvc. Quando um provedor tem seções perfil extra, ele armazena as estruturas de **MAPIUID** para estas seções na propriedade **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** é salvo na seção de perfil de serviço de mensagem. 
+Diferente da tabela de provedor retornada pelo método [IMsgServiceAdmin::](imsgserviceadmin-getprovidertable.md) getprovidertable, a tabela de provedor retornada por **IProviderAdmin::** getprovidertable pode incluir linhas adicionais que representam informações associadas a um ou mais dos os provedores de serviços no serviço de mensagens. Essas informações extras são adicionadas ao perfil com a palavra-chave "seções" do arquivo MAPISVC. inf. Quando um provedor tem seções de perfil extra, ele armazena as estruturas **MAPIUID** para essas seções na propriedade **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** é salvo na seção perfil de serviço de mensagens. 
   
-Os provedores que forem excluídos, ou estiverem em uso, foram marcados para exclusão, mas não são incluídos na tabela de provedor. As tabelas de provedor são estáticas, que significa subsequentes adições à ou exclusões do serviço de mensagem não serão refletidas na tabela. 
+Os provedores que foram excluídos ou estão em uso, mas que foram marcados para exclusão, não estão incluídos na tabela do provedor. As tabelas de provedor são estáticas, o que significa que adições ou exclusões subsequentes do serviço de mensagens não são refletidas na tabela. 
   
-Se o serviço de mensagem não tiver nenhum provedor, **IProviderAdmin::GetProviderTable** retornará uma tabela com zero linhas e o valor de retorno S_OK. 
+Se o serviço de mensagens não tiver provedores, **IProviderAdmin::** getprovidertable retornará uma tabela com zero linhas e o valor de retorno de S_OK. 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ afeta o formato das colunas retornado dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . 
   
-Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornadas pelo método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
   
-Para obter uma lista completa das colunas da tabela de provedor, consulte a [Tabela de provedor](provider-tables.md). 
+Para obter uma lista completa das colunas na tabela do provedor, consulte [tabela do provedor](provider-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar as linhas de uma tabela de provedor na ordem de transporte, classifica a tabela pela coluna **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
+Para recuperar as linhas de uma tabela de provedor em ordem de transporte, classifique a tabela pela coluna **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
   
-Para recuperar apenas as linhas que representam os provedores de serviços (sem incluindo qualquer linha extra), limite sua recuperação às linhas que possuem um valor de PT_ERROR na sua coluna **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
+Para recuperar somente as linhas que representam provedores de serviço (sem incluir nenhuma linha extra), limite a recuperação às linhas que têm um valor de PT_ERROR na coluna **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-| MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa o método **IProviderAdmin::GetProviderTable** para obter a tabela de provedores para renderizar em uma nova caixa de diálogo.  <br/> |
+| MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI usa o método **IProviderAdmin::** getprovidertable para obter a tabela de provedores para renderizar em uma nova caixa de diálogo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -101,5 +101,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

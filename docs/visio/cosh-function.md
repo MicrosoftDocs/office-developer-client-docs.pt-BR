@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: Retorna o cosseno hiperbólico de um ângulo.
-ms.openlocfilehash: dea8da40f72884b52dd6d845f9ed3d49f7310b3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49582ba4b441b3eea1f860c3109b8d8d632e07b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282933"
 ---
 # <a name="cosh-function"></a>Função COSH
 
@@ -26,13 +26,13 @@ COSH ( *ângulo*)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ângulo_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O ângulo do qual obter o hiperbólico.  <br/> |
+| _reto_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo do qual obter o hiperbólico.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função COSH usa radianos, a menos que você especifique uma unidade de medida diferente em *angle* . 
+A função COSH usa radianos, a menos que você especifique uma unidade de medida diferente em *Angle* . 
   
 ## <a name="example"></a>Exemplo
 

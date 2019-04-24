@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3d45c4722b6a0200ea3937ba606da0af5c793df2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f477c617533d66fc129c7192c9f86bb8a46afbb1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280277"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22581850"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera um valor que indica se o controle de botão está ativado ou desativado.
+Recupera um valor que indica se o controle de botão está habilitado ou desabilitado.
   
 ```cpp
 HRESULT GetState(
@@ -38,11 +38,11 @@ HRESULT GetState(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpulState_
   
-> [out] Um ponteiro para um valor que indica o estado do controle de botão. Pode ser retornado um dos seguintes valores:
+> bota Um ponteiro para um valor que indica o estado do controle de botão. Um dos valores a seguir pode ser retornado:
     
 MAPI_DISABLED 
   
@@ -50,19 +50,19 @@ MAPI_DISABLED
     
 MAPI_ENABLED 
   
-> O controle de botão é ativado e pode ser clicado.
+> O controle de botão está habilitado e pode ser clicado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O estado do controle botão foi recuperado com êxito.
+> O estado do controle de botão foi recuperado com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de serviços de implementam o método **IMAPIControl::GetState** para fornecer MAPI com o estado de um controle de botão. Se o botão estiver habilitado, ele pode responder a um clique do mouse ou pressionamento de tecla. Se ele estiver desabilitado, o botão aparece esmaecido e não responde a um clique do mouse ou pressionamento de tecla. 
+Os provedores de serviços implementam o método **IMAPIControl:: GetState** para fornecer MAPI com o estado de um controle de botão. Se o botão estiver habilitado, ele poderá responder a um clique do mouse ou pressionar tecla. Se estiver desabilitada, o botão aparecerá esmaecido e não responderá a um clique do mouse ou a um pressionamento de tecla. 
   
-Para obter mais informações sobre como implementar **GetState** e o outro [IMAPIControl: IUnknown](imapicontroliunknown.md) métodos, consulte a [Implementação do objeto de controle](control-object-implementation.md).
+Para obter mais informações sobre como implementar **GetState** e outros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , consulte [Control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -5,36 +5,36 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- dll genérico [excel 2007], funções, funções [Excel 2007], DLL genérico
+- dll genérica [Excel 2007], funções, funções [Excel 2007], DLL genérica
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3064e1a09ad8850e121da678f3702a6236574599
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304085"
 ---
 # <a name="functions-in-the-generic-dll"></a>Funções na DLL genérica
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A pasta `\EXAMPLES\GENERIC\` contém os arquivos de projeto do Microsoft Visual Studio e arquivos de código fonte que são necessários para compilar o exemplo GENERIC.xll DLL. Você pode usar este projeto como modelo para escrever seus próprios XLLs do Excel Microsoft. O código-fonte deste projeto demonstra muitos dos recursos da API C Excel. 
+A pasta `\EXAMPLES\GENERIC\` contém arquivos de projeto do Microsoft Visual Studio e arquivos de código-fonte que são necessários para compilar o exemplo de dll genérico. XLL. Você pode usar esse projeto como modelo para escrever seus próprios XLLs do Microsoft Excel. O código-fonte neste projeto demonstra muitos dos recursos da API do Excel C. 
   
-Quando você carrega GENERIC.xll, ele cria um novo menu **genérico** com quatro comandos: 
+Quando você carrega GENERIC. XLL, ele cria um novo menu **genérico** com quatro comandos: 
   
-- **Diálogo** - exibe uma caixa de diálogo do Microsoft Excel. 
+- **Dialog** : exibe uma caixa de diálogo do Microsoft Excel. 
     
-- **Festa** - move a seleção em torno até você pressionar a tecla **ESC** . 
+- **Dança** : move a seleção até você pressionar a tecla **ESC** . 
     
-- **Diálogo nativo** - exibe uma caixa de diálogo do Windows. 
+- **Diálogo nativo** – exibe uma caixa de diálogo do Windows. 
     
-- **Exit** - descarrega GENERIC.xll e remove o menu **genérico** . 
+- **Exit** -descarrega Generic. XLL e remove o menu **genérico** . 
     
-GENERIC.xll também fornece três funções de planilha, Func1, FuncSum e FuncFib, que pode ser usada sempre que GENERIC.xll é carregado. GENERIC.xll podem ser carregados usando o Gerenciador de suplemento ou ele será carregado se ele estava ativo no final da última sessão Excel normal.
+GENERIC. XLL também fornece três funções de planilha, func1, FuncSum e FuncFib, que podem ser usadas sempre que GENERIC. XLL for carregado. GENERIC. XLL pode ser carregado usando o Gerenciador de suplementos ou é carregado se estava ativo no final normal da última sessão do Excel.
   
-Esse projeto usa a biblioteca de framework (FRMWRK32.lib).
+Este projeto usa a biblioteca do Framework (FRMWRK32. lib).
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -64,5 +64,5 @@ Esse projeto usa a biblioteca de framework (FRMWRK32.lib).
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

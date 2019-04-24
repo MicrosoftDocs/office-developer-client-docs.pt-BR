@@ -1,52 +1,52 @@
 ---
-title: Função DateDiff (aplicativo da web personalizado do Access)
+title: Função DateDiff (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
-description: Retorna a contagem dos limites de parte da data especificada ultrapassados entre a data de início especificada e a data de término.
-ms.openlocfilehash: fe898ec5eb59cb341250cb0c0e2e35bc55d37eb3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna a contagem dos limites de parte de data especificados cruzados entre a data de início e a data de término especificadas.
+ms.openlocfilehash: 1cce8a501c5a57384372e681f903baa4f4c20bef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280718"
 ---
-# <a name="datediff-function-access-custom-web-app"></a>Função DateDiff (aplicativo da web personalizado do Access)
+# <a name="datediff-function-access-custom-web-app"></a>Função DateDiff (aplicativo Web personalizado do Access)
 
-Retorna a contagem dos limites de parte da data especificada ultrapassados entre a data de início especificada e a data de término.
+Retorna a contagem dos limites de parte de data especificados cruzados entre a data de início e a data de término especificadas.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
-**DateDiff** (*DatePart*, *StartDate*, *EndDate*) 
+**DateDiff** (*Datepart*, *StartDate*, *EndDate*) 
   
 A função **DateDiff** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *ParteDeData*  <br/> |É a parte da *StartDate* e *EndDate* que especifica o tipo de limite ultrapassado. Consulte a seção de comentários para a lista das configurações válidas.  <br/> |
-| *StartDate*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
-| *EndDate*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
+| *DatePart*  <br/> |É a parte de *StartDate* e *EndDate* que especifica o tipo de limite ultrapassado. Consulte a seção comentários para obter a lista de configurações válidas.  <br/> |
+| *StartDate*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
+| *EndDate*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A tabela a seguir lista todos os argumentos *DatePart* válidos. 
+A tabela a seguir lista todos os argumentos de *datepart* válidos. 
   
-|***ParteDeData***|
+|***DatePart***|
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |
 |**Mês** <br/> |
-|**DAYOFYEAR** <br/> |
+|**DayOfYear** <br/> |
 |**day** <br/> |
-|**semana** <br/> |
+|**útil** <br/> |
 |**hora** <br/> |
-|**minuto** <br/> |
-|**segundo** <br/> |
+|**inclusões** <br/> |
+|**secundária** <br/> |
 |**milissegundo** <br/> |
    
 

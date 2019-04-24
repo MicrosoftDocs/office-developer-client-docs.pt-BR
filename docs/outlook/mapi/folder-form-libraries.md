@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 62b7480e-b3eb-45fb-b74d-62f1dc918a53
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f95aa26d6104da657c6ae6ab0c449d45c073223a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec12cf567dbbd8c1710f835a3c19369dd3626fd4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281554"
 ---
 # <a name="folder-form-libraries"></a>Bibliotecas de formulários de pastas
 
@@ -21,9 +21,9 @@ ms.locfileid: "22580548"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Em alguns casos, talvez você queira associar um ou mais formulários uma pasta específica. Por exemplo, os funcionários em sua organização poderia ter uma pasta do relatório de andamento no seu armazenamento de mensagens pessoais para criação de relatórios de progresso de armazenamento. Como o relatório de andamento é específico para a pasta do relatório de andamento de cada usuário, ele pode não ser apropriado armazenar o formulário de relatório de progresso na biblioteca do formulário de todo o sistema. No entanto, uma cópia do formulário de relatório de andamento pode ser mantida na tabela associados de conteúdo da pasta do relatório de andamento de cada usuário. Isso impede que o usuário usando os formulários de relatório de andamento fora da pasta designada.
+Em alguns casos, talvez você queira associar um ou mais formulários a uma pasta específica. Por exemplo, os funcionários de sua organização podem ter uma pasta de relatórios de progresso no repositório de mensagens pessoais para criar e armazenar relatórios de progresso. Como o relatório de progresso é específico para a pasta de relatórios de progresso de cada usuário, talvez não seja apropriado armazenar o formulário de relatório de progresso na biblioteca de formulários de todo o sistema. No enTanto, uma cópia do formulário de relatório de progresso pode ser mantida na tabela de conteúdo associado da pasta de relatório de progresso de cada usuário. Isso restringe o usuário de usar formulários de relatório de progresso fora da pasta designada.
   
-Conceitualmente, há uma biblioteca de formulários de pasta para todas as pastas em um armazenamento de mensagens, mesmo se não há servidores de formulário são instalados nela. Bibliotecas de formulários pasta são implementadas como outras bibliotecas de formulários — eles são armazenados como tabelas de conteúdo associado na parte alternativo da pasta. Como as bibliotecas de formulários pasta estão contidas na pasta, eles são copiados juntamente com sua pasta pai nas operações de cópia.
+Conceitualmente, há uma biblioteca de formulários de pasta para cada pasta em um repositório de mensagens, mesmo se nenhum servidor de formulário estiver instalado nele. Bibliotecas de formulários de pasta são implementadas como outras bibliotecas de formulários, elas são armazenadas como tabelas de conteúdo associado na parte alternativa da pasta. Como as bibliotecas de formulários de pastas estão contidas na pasta, elas são copiadas junto com a pasta pai em operações de cópia.
   
 ## <a name="see-also"></a>Confira também
 

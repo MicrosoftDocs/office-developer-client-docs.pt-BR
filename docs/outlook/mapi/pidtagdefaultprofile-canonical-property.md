@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a315f1564f2980ad16ce2ba3da2308960f7d4b88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8295ae6904f503ca831a00c1f35ac08596b5358c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269997"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriedade canônica PidTagDefaultProfile
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578889"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se um perfil de usuário de mensagens é o perfil padrão MAPI.
+Contém TRUE se um perfil de usuário de mensagens é o perfil padrão MAPI.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Conterá TRUE se um perfil de usuário de mensagens é o perfil padrão MAPI.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade não é exibido como uma propriedade de qualquer objeto, mas apenas como uma coluna em uma tabela de perfil. Um aplicativo cliente pode usar o método [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) para designar o perfil padrão. 
+Essa propriedade não aparece como uma propriedade de qualquer objeto, mas somente como uma coluna em uma tabela de perfil. Um aplicativo cliente pode usar o método [IProfAdmin:: setdefaultprofile foi](iprofadmin-setdefaultprofile.md) para designar o perfil padrão. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

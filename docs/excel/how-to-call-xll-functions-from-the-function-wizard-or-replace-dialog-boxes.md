@@ -1,45 +1,45 @@
 ---
-title: Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir
+title: Chamar funções de XLL no assistente de função ou nas caixas de diálogo Substituir
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funções de XLL [excel 2007], chamada a partir de caixa de diálogo Substituir, substituir diálogo caixa chamando funções XLL [Excel 2007], o Assistente de função [Excel 2007], chamar funções XLL, as funções XLL [Excel 2007], chamando do Assistente de função
+- funções XLL [Excel 2007], chamar da caixa de diálogo substituir, caixa de diálogo Substituir [Excel 2007], chamar funções XLL, assistente de função [Excel 2007], chamar funções XLL, funções XLL [Excel 2007], chamar a partir do assistente de função
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7ebb33a5b98cebedfca7fb5923e62486bfd85696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304015"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Chamar funções de XLL no assistente de função ou nas caixas de diálogo Substituir
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel geralmente chama funções XLL durante o recálculo normal da pasta de trabalho ou parte dela, se o cálculo está sob o controle de uma macro. Lembre-se de que a função não poderá residir em uma fórmula de célula, mas pode ser parte de uma definição de intervalo nomeado ou uma expressão de formatação condicional.
+Normalmente, o Microsoft Excel chama funções XLL durante o recálculo normal da pasta de trabalho ou uma parte dela se o cálculo estiver sob o controle de uma macro. Lembre-se de que a função pode não residir em uma fórmula de célula, mas que pode fazer parte de uma definição de intervalo nomeado ou uma expressão de formatação condicional.
   
-Existem duas circunstâncias onde uma função pode ser chamada a partir de uma caixa de diálogo do Excel. Uma é a caixa de diálogo **Argumentos da função colar** , onde os usuários são capazes de construir um argumento de uma chamada de função por vez. O outro é quando as fórmulas estão sendo modificado e restabelecida pelo Excel na caixa de diálogo **Substituir** . Para a caixa de diálogo **Argumentos da função colar** , talvez você não queira sua função para executar normalmente. Isso pode ser porque ele leva muito tempo para executar e você não deseja diminuir o uso da caixa de diálogo. 
+Há duas circunstâncias nas quais uma função pode ser chamada a partir de uma caixa de diálogo do Excel. Um é a caixa de diálogo **colar argumentos da função** , onde os usuários podem criar uma chamada de função um argumento por vez. O outro é quando as fórmulas estão sendo modificadas e reinseridas pelo Excel na caixa de diálogo **substituir** . Para a caixa de diálogo **colar argumentos da função** , talvez você não queira que sua função seja executada normalmente. Isso pode ocorrer porque demora muito para executar e você não quer reduzir o uso da caixa de diálogo. 
   
-A caixa de diálogo **Colar função** e a caixa de diálogo **Substituir** tem o Windows classe nome **bosa_sdm_XL**n, onde n é um número. O Windows fornece uma função de API, **GetClassName**, que obtém esse nome a partir de um manipulador de Windows, um tipo de variável HWND. Ele também oferece outra função, **EnumWindows**, que chama uma função de chamada de retorno fornecido (dentro da sua DLL) uma vez para cada janela de nível superior que está aberta no momento.
+A caixa de diálogo **colar função** e a caixa de diálogo **substituir** têm o nome de classe Windows **bosa_sdm_XL**n, onde n é um número. O Windows fornece uma função de **** API, GetClassName, que obtém esse nome de uma alça do Windows, um tipo de variável HWND. Ele também fornece outra função, **EnumWindows**, que chama uma função de retorno de chamada fornecida (dentro da sua dll) uma vez para cada janela de nível superior que está aberta no momento.
   
-A função de retorno de chamada precisa executar somente as seguintes etapas:
+A função de retorno de chamada precisa executar apenas as seguintes etapas:
   
 1. Verifique se o pai dessa janela é a instância atual do Excel (caso haja várias instâncias em execução).
     
-2. Obtenha o nome da classe da alça passada pelo Windows.
+2. Obtenha o nome da classe do identificador passado pelo Windows.
     
-3. Verifique se o nome de classe é de n de **bosa_sdm_XL**o formulário.
+3. Verifique se o nome da classe tem o formato **bosa_sdm_XL**n.
     
-4. Se você precisar distinguir entre duas caixas de diálogo, verifique se o título da caixa de diálogo contém alguns texto de identificação. O título da janela é obtido usando a chamada de API do Windows **GetWindowText**.
+4. Se você precisar distinguir entre as duas caixas de diálogo, verifique se o título da caixa de diálogo contém algum texto de identificação. O título da janela é obtido usando a chamada da API do Windows **GetWindowText**.
     
-O código de C++ a seguir mostra uma classe e o retorno de chamada a serem passados para Windows que está executando estas etapas. Isso é chamado pelas funções do teste chamada especificamente para qualquer uma das caixas de diálogo em questão. 
+O código C++ a seguir mostra uma classe e o retorno de chamada a serem passados para o Windows que executa essas etapas. Isso é chamado pelas funções que chamam o teste especificamente para qualquer uma das caixas de diálogo preocupada. 
   
 > [!NOTE]
-> Títulos de janela de futuras versões do Excel podem alterar e invalidar este código. Observe também que a definição de **window_title_text** como **Nulo** tem o efeito de ignorando o título da janela na pesquisa de retorno de chamada. 
+> Os títulos de janelas das futuras versões do Excel podem mudar e invalidar esse código. Observe também que definir **window_title_text** como **nulo** tem o efeito de ignorar o título da janela na pesquisa de retorno de chamada. 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50
@@ -98,7 +98,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 }
 ```
 
-A caixa de diálogo **Colar função** não possui um título, portanto a função a seguir passa uma cadeia de caracteres do título de pesquisa de "", ou seja, uma cadeia de caracteres vazia para o retorno de chamada para indicar que a condição de correspondência é que a janela não deve ter um título. 
+A caixa de diálogo **colar função** não tem um título, portanto, a função seguinte passa uma cadeia de título de pesquisa "", ou seja, uma cadeia de caracteres vazia, para o retorno de chamada para indicar que a condição de correspondência é que a janela não deve ter um título. 
   
 ```cs
 bool called_from_paste_fn_dlg(void)

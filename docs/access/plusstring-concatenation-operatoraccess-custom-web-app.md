@@ -1,30 +1,30 @@
 ---
-title: + (Operador de concatenação de cadeia de caracteres) (Aplicativo da web personalizado do access)
+title: + (Operador de concatenação de cadeia de caracteres) (Aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 24fc83e6-5860-4890-a222-f322fc30a5f9
-description: No sinal de adição (+) é o operador de concatenação de cadeia de caracteres que permite a concatenação de cadeia de caracteres. Todos os outra manipulação de cadeia de caracteres é manipulada usando funções de cadeia de caracteres como subcadeia de caracteres.
-ms.openlocfilehash: 488744fc485f238b225635b1cdb7a3346dfc0830
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O sinal de adição (+) é o operador de concatenação de cadeia de caracteres que habilita a concatenação de cadeia de caracteres. Todas as outras manipulações de cadeia de caracteres são tratadas usando funções de cadeia de caracteres como SUBSTRING.
+ms.openlocfilehash: cb684e1484136f84934feed003f205e37512ffd7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308040"
 ---
-# <a name="-string-concatenation-operator-access-custom-web-app"></a>+ (Operador de concatenação de cadeia de caracteres) (aplicativo da web personalizado do Access)
+# <a name="-string-concatenation-operator-access-custom-web-app"></a>+ (Operador de concatenação de cadeia de caracteres) (aplicativo Web personalizado do Access)
 
-No sinal de adição (+) é o operador de concatenação de cadeia de caracteres que permite a concatenação de cadeia de caracteres. Todos os outra manipulação de cadeia de caracteres é manipulada usando funções de cadeia de caracteres como **subcadeia de caracteres**. 
+O sinal de adição (+) é o operador de concatenação de cadeia de caracteres que habilita a concatenação de cadeia de caracteres. Todas as outras manipulações de cadeia de caracteres são tratadas **** usando funções de cadeia de caracteres como SUBSTRING. 
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- *TextExpression* **+** *TextExpression* 
+ *Texté* **+** *Texté* 
   
- *TextExpression*  Qualquer expressão de texto válido. 
+ *Texté*  Qualquer expressão de texto válida. 
   
 

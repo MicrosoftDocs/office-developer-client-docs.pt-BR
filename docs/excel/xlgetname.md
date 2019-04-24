@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- função xlgetname [excel 2007]
+- função xlgetname [Excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350ae99baf088a36fa3e1159caa1805cdd623276
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303826"
 ---
 # <a name="xlgetname"></a>xlGetName
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Retorna o nome completo do arquivo e o caminho da DLL na forma de uma cadeia de caracteres.
+Retorna o caminho completo e o nome de arquivo da DLL na forma de uma cadeia de caracteres.
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
@@ -30,11 +30,11 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 
 ## <a name="parameters"></a>Parâmetros
 
-Essa função não tem argumentos.
+Esta função não tem argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna o nome de arquivo e caminho (**xltypeStr**). 
+Retorna o caminho e o nome do arquivo (**xltypeStr**). 
   
 ## <a name="example"></a>Exemplo
 

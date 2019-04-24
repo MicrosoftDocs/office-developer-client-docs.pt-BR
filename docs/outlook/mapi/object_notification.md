@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 876c8fc3667929e3c2e7403e71e6d392981d34f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279883"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
@@ -25,11 +25,11 @@ ms.locfileid: "22573352"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações sobre um objeto que sofreram uma alteração, tais como sendo copiado ou modificado.
+Contém informações sobre um objeto que passou por uma alteração, como copiado ou modificado.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _OBJECT_NOTIFICATION
@@ -60,11 +60,11 @@ typedef struct _OBJECT_NOTIFICATION
     
  **ulObjType**
   
-> Tipo de objeto afetado. Os tipos possíveis são:
+> Tipo de objeto afetado. Os tipos possíveis são os seguintes:
     
 MAPI_STORE 
   
-> Armazenamento de mensagens. 
+> Repositório de mensagens. 
     
 MAPI_ADDRBOOK 
   
@@ -72,7 +72,7 @@ MAPI_ADDRBOOK
     
 MAPI_FOLDER 
   
-> Pasta.
+> Ela.
     
 MAPI_ABCONT 
   
@@ -88,7 +88,7 @@ MAPI_MAILUSER
     
 MAPI_ATTACH 
   
-> Anexo.
+> Anexar.
     
 MAPI_DISTLIST 
   
@@ -96,15 +96,15 @@ MAPI_DISTLIST
     
 MAPI_PROFSECT 
   
-> Seção de perfil.
+> Seção Profile.
     
 MAPI_STATUS 
   
-> Objeto de status.
+> Objeto status.
     
 MAPI_SESSION 
   
-> Objeto da sessão.
+> Objeto Session.
     
  **cbParentID**
   
@@ -120,7 +120,7 @@ MAPI_SESSION
     
  **lpOldID**
   
-> Ponteiro para o identificador de entrada do objeto original. Esse ponteiro pode ser NULL se o evento não exigir um objeto original.
+> Ponteiro para o identificador de entrada do objeto original. Esse ponteiro pode ser nulo se o evento não exigir um objeto original.
     
  **cbOldParentID**
   
@@ -128,15 +128,15 @@ MAPI_SESSION
     
  **lpOldParentID**
   
-> Ponteiro para o identificador de entrada do pai do objeto original. Esse ponteiro pode ser NULL se o evento não exigir um objeto original.
+> Ponteiro para o identificador de entrada do pai do objeto original. Esse ponteiro pode ser nulo se o evento não exigir um objeto original.
     
  **lpPropTagArray**
   
-> Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém as marcas de propriedade identificando propriedades afetadas pelo evento. 
+> Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém as marcas de propriedade identificando as propriedades afetadas pelo evento. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **OBJECT_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **OBJECT_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como um dos seguintes tipos de eventos: 
+A estrutura **OBJECT_NOTIFICATION** é um dos membros da União de estruturas incluído no membro **info** da estrutura de [notificação](notification.md) . Quando o membro **info** de uma estrutura de **notificação** contém uma estrutura **OBJECT_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como um dos seguintes tipos de eventos: 
   
 - fnevObjectCreated
     
@@ -150,9 +150,9 @@ A estrutura **OBJECT_NOTIFICATION** é um dos membros da união de estruturas in
     
 - fnevSearchComplete
     
-O evento complete de pesquisa, representado pelo tipo de evento fnevSearchComplete, indica se a pesquisa inicial do domínio para a pasta de pesquisa de um foi concluída.
+O evento Search Complete, representado pelo tipo de evento fnevSearchComplete, indica que a pesquisa inicial do domínio de uma pasta de pesquisa foi concluída.
   
-Os seguintes membros que contêm informações sobre o objeto original são usados somente nos eventos de mover e copiar. 
+Os membros a seguir que contêm informações sobre o objeto original são usados somente nos eventos mover e copiar. 
   
 - **cbOldID**
     
@@ -164,19 +164,19 @@ Os seguintes membros que contêm informações sobre o objeto original são usad
     
 Esses membros não se aplicam aos outros tipos de eventos.
   
-Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
+|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [SPropTagArray](sproptagarray.md)
 

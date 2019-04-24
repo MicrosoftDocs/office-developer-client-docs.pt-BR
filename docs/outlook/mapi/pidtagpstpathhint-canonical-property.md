@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6b71feb6d5967eab3aa490a256825a2803381f40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286354"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propriedade canônica PidTagPstPathHint
 
@@ -23,7 +23,7 @@ ms.locfileid: "22569089"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece o nome de tabela (arquivo. pst) do armazenamento pessoal, que o usuário pode editar, para a caixa de diálogo de configuração. 
+Fornece o nome da tabela de armazenamento pessoal (arquivo. pst), que o usuário pode editar, para a caixa de diálogo de configuração. 
   
 |||
 |:-----|:-----|
@@ -34,25 +34,25 @@ Fornece o nome de tabela (arquivo. pst) do armazenamento pessoal, que o usuário
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) for usada em vez disso, a caixa de diálogo de configuração será aberto, mas o usuário não poderão para editar o caminho e muitas outras propriedades.
+Se a propriedade **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) for usada em vez disso, a caixa de diálogo de configuração será aberta, mas o usuário não poderá editar o caminho e muitas outras propriedades.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

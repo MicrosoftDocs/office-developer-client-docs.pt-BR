@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8f68de5e18d84c728241c188b932f99456f5be8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1bf02de914865e27c8c018aba8695c858888ae2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299458"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
@@ -29,9 +29,9 @@ Converte um número binário em uma representação de cadeia de caracteres de u
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 void HexFromBin(
@@ -45,15 +45,15 @@ void HexFromBin(
 
  _pb_
   
-> [in] Ponteiro para os dados binários a ser convertido. 
+> no Ponteiro para os dados binários a serem convertidos. 
     
  _cb_
   
-> [in] Tamanho, em bytes, dos dados binários apontado pelo parâmetro _pb_ . 
+> no Tamanho, em bytes, dos dados binários apontados pelo parâmetro _PB_ . 
     
- _SZ_
+ _v_
   
-> [out] Ponteiro para uma cadeia de ASCII terminada em nulo, que representa os dados binários em dígitos hexadecimais.
+> bota Ponteiro para uma cadeia de caracteres ASCII terminada em nulo que representa os dados binários em dígitos hexadecimais.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -61,6 +61,6 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A função **HexFromBin** usa um ponteiro para uma unidade de dados binários cujo tamanho é indicado pelo parâmetro _cb_ . Ele retorna na cadeia de caracteres _sz_ contido em (2 * _cb_) + 1 bytes de memória, uma representação dessas informações binárias em hexadecimais números. Se o valor de byte é 10 decimal, por exemplo, a cadeia de caracteres hexadecimal será 0A, um byte caso se converte na cadeia de caracteres de dois bytes. 
+A função **HexFromBin** usa um ponteiro para uma unidade de dados binários cujo tamanho é indicado pelo parâmetro _CB_ . Ele retorna na cadeia de caracteres _sz_ , dentro (2 * _CB_) + 1 bytes de memória, uma representação dessas informações binárias em números hexadecimais. Se o valor de byte for Decimal 10, por exemplo, a cadeia de caracteres hexadecimal será 0A, então um byte é convertido em dois bytes na cadeia de caracteres. 
   
 

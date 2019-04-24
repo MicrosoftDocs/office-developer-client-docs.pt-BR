@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e740e86fc25307457119aabf6e2aa0c42a9d69b9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4d38648f5e3084c8342fca8d18f0bd3efc915155
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280082"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
@@ -39,29 +39,29 @@ HRESULT CreateMessage(
 
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a nova mensagem. Identificadores de interface válidos incluem IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer e IID_IMAPIFolder. Passar NULL faz com que o provedor de armazenamento de mensagem retornar a interface de mensagem padrão, [IMessage: IMAPIProp](imessageimapiprop.md). 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a nova mensagem. Os identificadores de interface válidos incluem IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer e IID_IMAPIFolder. Passar NULL faz com que o provedor de repositório de mensagens retorne a interface de mensagens padrão, [IMessage: IMAPIProp](imessageimapiprop.md). 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a mensagem é criada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como a mensagem é criada. Os seguintes sinalizadores podem ser definidos:
     
 ITEMPROC_FORCE
   
-> Indica para o repositório de pasta particular (. PST) que a mensagem é qualificada para regras de processamento antes que o repositório notificará qualquer cliente escuta a partir da chegada da nova mensagem. Processamento apenas das regras se aplica às novas mensagens que são criadas em um servidor que não seja um Microsoft Exchange Server, pois o Exchange Server processa as regras para mensagens no servidor. Portanto, o provedor ou criar a mensagem de cliente deve passar por esse sinalizador em combinação com o salvamento de uma mensagem com [IMAPIPProp::SaveChanges](imapiprop-savechanges.md) usando NON_EMS_XP_SAVE, que indica que o servidor não é um servidor Exchange. 
+> Indica o repositório de pastas pessoais (PST) que a mensagem está qualificada para o processamento de regras antes que o repositório Notifique qualquer cliente de escuta da chegada da nova mensagem. O processamento de regras só se aplica a novas mensagens criadas em um servidor que não seja do Microsoft Exchange Server, pois o Exchange Server processa as regras para mensagens no servidor. Portanto, o provedor ou o cliente que cria a mensagem deve passar esse sinalizador em combinação com o salvamento de uma mensagem com [IMAPIPProp:: SaveChanges](imapiprop-savechanges.md) usando NON_EMS_XP_SAVE, que indica que o servidor não é um servidor Exchange. 
     
 MAPI_ASSOCIATED 
   
-> A mensagem a ser criado deve ser incluída na tabela de conteúdo associado no lugar do índice de conteúdo padrão. Mensagens associadas estão ocultos na interação do usuário.
+> A mensagem a ser criada deve ser incluída na tabela de conteúdo associado, em vez da tabela de conteúdo padrão. As mensagens associadas são ocultas da interação do usuário.
     
 MAPI_DEFERRED_ERRORS 
   
-> **CreateMessage** é permitido tenha êxito, mesmo se a operação de criação não foi totalmente concluída. Isso significa que a nova mensagem pode não estar disponível imediatamente ao chamador. 
+> **CreateMessage** tem permissão para ter êxito, mesmo que a operação de criação não tenha sido totalmente concluída. Isso significa que a nova mensagem pode não estar imediatamente disponível para o chamador. 
     
  _lppMessage_
   
-> [out] Um ponteiro para um ponteiro para a mensagem recém-criado.
+> bota Um ponteiro para um ponteiro para a mensagem recém-criada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -69,31 +69,31 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::CreateMessage** cria uma nova mensagem com conteúdo genérico ou associado e atribui um identificador de entrada. O identificador de entrada consiste em uma parte que representa o provedor de armazenamento de mensagem e uma parte que representa a mensagem individual. 
+O método **IMAPIFolder:: CreateMessage** cria uma nova mensagem com conteúdo genérico ou associado e atribui um identificador de entrada. O identificador de entrada consiste em uma parte que representa o provedor de armazenamento de mensagens e uma parte que representa a mensagem individual. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você pode escolher se deseja definir todas as propriedades de mensagem necessária no **CreateMessage** ou no método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem. Você não precisará disponibilizar essas propriedades até que uma gravação bem-sucedida tenha ocorrido. 
+Você pode escolher se deseja definir todas as propriedades de mensagem necessárias em **CreateMessage** ou no método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem. Você não precisa disponibilizar essas propriedades até que uma gravação bem-sucedida tenha ocorrido. 
   
-Para obter mais informações sobre como trabalhar com informações associadas, consulte [Folder-Associated tabelas de informações](folder-associated-information-tables.md) e [Conteúdo](contents-tables.md). 
+Para obter mais informações sobre como trabalhar com informações associadas, confira tabelas [de informações associadas a pastas](folder-associated-information-tables.md) e [tabelas de conteúdo](contents-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Alguns provedores de repositório de mensagem permitem o identificador de entrada da nova mensagem estejam disponíveis imediatamente após **CreateMessage** retorna; outros provedores de armazenamento de mensagem atrasam a sua disponibilidade até que a mensagem será salva. Porque nem todos os provedores de armazenamento de mensagem geram um identificador de entrada para uma nova mensagem, até que você tenha chamado o método de **IMAPIProp::SaveChanges** da mensagem, você pode ser capaz de acessar o identificador de entrada quando **CreateMessage** retorna. Além disso, a nova mensagem pode não ser incluída na tabela de conteúdo da pasta até que ocorra a salvar. 
+Alguns provedores de repositórios de mensagens permitem que o identificador de entrada da nova mensagem fique **** disponível imediatamente após o retorno de CreateMessage; outros provedores de repositórios de mensagens atrasam sua disponibilidade até que a mensagem seja salva. Como nem todos os provedores de repositório de mensagens geram um identificador de entrada para uma nova mensagem até que você tenha chamado o método **IMAPIProp:: SaveChanges** da mensagem, talvez não seja possível **** acessar o identificador de entrada quando CreateMessage retornar. Além disso, a nova mensagem pode não ser incluída na tabela de conteúdo da pasta até que o salvamento ocorra. 
   
-Espere o identificador de entrada atribuído à nova mensagem ser exclusivas não apenas no armazenamento da mensagem atual, mas bem provável em todos os repositórios de mensagem que estão abertos ao mesmo tempo. Uma exceção a essa regra ocorre quando várias entradas para um armazenamento de mensagens aparecem no perfil. Isso faz com que o armazenamento de mensagens a serem abertas várias vezes e os identificadores de entrada a ser duplicado. 
+Espere que o identificador de entrada atribuído à nova mensagem seja exclusivo, não apenas no repositório de mensagens atual, mas provavelmente em todos os repositórios de mensagens que estejam abertos ao mesmo tempo. Uma exceção a essa regra ocorre quando várias entradas de um repositório de mensagens aparecem no perfil. Isso faz com que o repositório de mensagens seja aberto várias vezes e identificadores de entrada sejam duplicados. 
   
-Para criar uma mensagem de saída, chame o método de **IMAPIFolder::CreateMessage** da pasta caixa de saída. 
+Para criar uma mensagem de saída, chame o método **IMAPIFolder:: CreateMessage** da pasta de saída. 
   
-Se você excluir uma pasta que contém uma nova mensagem antes que a mensagem será salva, os resultados são indefinidos.
+Se você excluir uma pasta que contenha uma nova mensagem antes da mensagem ser salva, os resultados serão indefinidos.
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolder::OnNewMessage  <br/> |MFCMAPI usa o método **IMAPIFolder::CreateMessage** para criar e salvar uma nova mensagem.  <br/> |
+|FolderDlg. cpp  <br/> |CFolder:: OnNewMessage  <br/> |MFCMAPI usa o método **IMAPIFolder:: CreateMessage** para criar e salvar uma nova mensagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -104,5 +104,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

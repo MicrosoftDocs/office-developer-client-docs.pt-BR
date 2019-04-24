@@ -1,55 +1,55 @@
 ---
-title: 'Passo a passo: Criar e depurar um modelo de formulário básico usando o modelo de objeto do InfoPath'
+title: 'Passo a passo: criar e depurar um modelo de formulário básico usando o modelo de objeto do InfoPath'
 manager: soliver
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
-- modelos de formulário [infopath 2007], passo a passo, modelos [InfoPath 2007], criando compatíveis com o InfoPath 2003, modelos de formulário compatíveis com o InfoPath 2003, passo a passo de formulário
+- modelos de formulário [InfoPath 2007], passo a passo, modelos de formulário [InfoPath 2007], criação de modelos de formulário compatíveis com o InfoPath 2003, o InfoPath 2003
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: Este tópico fornece um passo a passo de criação de um modelo de formulário de código gerenciado do InfoPath básico que funciona com o modelo de objeto do InfoPath 2003 compatíveis fornecido pelo namespace SemiTrust.
-ms.openlocfilehash: 3939cfcfdf2a8683fe614c5f49cc8b2719484ff7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico fornece um passo a passo para criar um modelo de formulário de código gerenciado do InfoPath básico que funciona com o modelo de objeto compatível com o InfoPath 2003 fornecido pelo namespace Microsoft. Office. Interop. InfoPath. SemiTrust.
+ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303196"
 ---
-# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Passo a passo: Criar e depurar um modelo de formulário básico usando o modelo de objeto do InfoPath
+# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Passo a passo: criar e depurar um modelo de formulário básico usando o modelo de objeto do InfoPath
 
-Este tópico fornece um passo a passo de criação de um modelo de formulário de código gerenciado do InfoPath básico que funciona com o modelo de objeto do InfoPath 2003 compatíveis fornecido pelo namespace [SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
+Este tópico fornece um passo a passo para criar um modelo de formulário de código gerenciado do InfoPath básico que funciona com o modelo de objeto compatível com o InfoPath 2003 fornecido pelo namespace [Microsoft. Office. Interop. InfoPath. SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
 ## <a name="hello-world"></a>Hello World
 
-O exemplo a seguir, você aprenderá como exibir uma caixa de diálogo alerta simples usando o método de [alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) do modelo de objeto compatível com o InfoPath 2003. 
+No exemplo a seguir, você aprenderá como exibir uma caixa de diálogo alerta simples usando o método de [alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) do modelo de objeto compatível com o InfoPath 2003. 
   
 ### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>Criar um novo modelo de formulário do InfoPath que funciona com o modelo de objeto compatível com o InfoPath 2003
 
-1. Crie um novo modelo de formulário que funciona com o modelo de objeto do InfoPath 2003 compatíveis, conforme descrito em [criar um formulário modelo usando o modelo de objeto do InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
+1. Crie um novo modelo de formulário que funcione com o modelo de objeto compatível com o InfoPath 2003, conforme descrito em [criar um modelo de formulário usando o modelo de objeto do infopath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
     
-2. Nome do projeto de modelo de formulário HelloWorld e salvá-lo. 
+2. Nomeie o projeto de modelo de formulário HelloWorld e salve-o. 
     
-   O sistema de projeto cria arquivos de projeto e de código e, depois, abre um modelo de formulário em branco no modo de design do InfoPath. Agora você está pronto para adicionar manipuladores de eventos.
+   O sistema do projeto cria arquivos de código e de projeto e, em seguida, abre um modelo de formulário em branco no modo de design do InfoPath. Agora você está pronto para adicionar manipuladores de eventos.
     
 ### <a name="add-a-button-with-an-onclick-event-handler"></a>Adicionar um botão com um manipulador de eventos OnClick
 
-1. Na seção de **controles** na guia **página inicial** , clique no controle de **botão** para inseri-lo no modo de exibição. 
+1. Na seção **controles** da guia **página inicial** , clique no controle **botão** para inseri-lo no modo de exibição. 
     
-2. Com o botão direito no controle e, em seguida, clique em **Propriedades do botão**.
+2. Clique com o botão direito do mouse no controle e clique em **Propriedades do botão**.
     
-3. Altere o **rótulo** para o alerta.
+3. Altere o **rótulo** para alerta.
     
-4. Altere a **ID** para AlertID.
+4. Altere a **ID** para Alertid.
     
-5. Clique em **Editar o código do formulário**.
+5. Clique em **Editar código de formulário**.
     
-   Um esqueleto de manipulador de evento para o evento [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) é criado e o foco é movido para o editor de código no Visual Studio 2012. Para obter mais informações sobre como trabalhar com manipuladores de eventos, consulte [Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+   Um esqueleto de manipulador de eventos [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) para o evento onclick é criado e o foco é movido para o editor de código no Visual Studio 2012. Para obter mais informações sobre como trabalhar com manipuladores de eventos, consulte [Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
    Agora você está pronto para adicionar código de formulário ao manipulador de eventos para o botão.
     
-### <a name="add-form-code-to-the-event-handler"></a>Adicione o código de formulário para o manipulador de eventos
+### <a name="add-form-code-to-the-event-handler"></a>Adicionar código de formulário ao manipulador de eventos
 
-1. No manipulador de eventos **OnClick** , digite o código a seguir: 
+1. No manipulador **** de eventos OnClick, digite o seguinte código: 
     
    ```cs
     thisXDocument.UI.Alert("Hello World!");
@@ -59,7 +59,7 @@ O exemplo a seguir, você aprenderá como exibir uma caixa de diálogo alerta si
     thisXDocument.UI.Alert("Hello World!")
    ```
 
-   Observe que é exibida uma lista de lista suspensa do Microsoft IntelliSense após digitar cada período em que a linha de código. O manipulador de eventos inteira deve se parecer com o seguinte:
+   Observe que uma lista suspensa do Microsoft IntelliSense é exibida após você digitar cada período na linha de código. O manipulador de eventos inteiro deve se parecer com o seguinte:
     
    ```cs
     [InfoPathEventHandler(MatchPath="AlertID", EventType=InfoPathEventType.OnClick)]
@@ -77,11 +77,11 @@ O exemplo a seguir, você aprenderá como exibir uma caixa de diálogo alerta si
    ```
 
    > [!NOTE]
-   > Como alternativa para o uso do método de **alerta** , você pode usar o método **MessageBox. show** do namespace **System.Windows.Forms** para exibir uma caixa de mensagem. Para isso, você deve adicionar uma referência para o assembly System.Windows.Forms, adicionar `using System.Windows.Forms;` ou `Imports System.Windows.Forms` às diretivas no início do seu arquivo de código e digite uma linha de código como o seguinte:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > Como alternativa ao uso do método **Alert** , você pode usar o método **MessageBox. show** do namespace **System. Windows. Forms** para exibir uma caixa de mensagem. Para fazer isso, você deve adicionar uma referência ao assembly System. Windows. Forms, adicionar `using System.Windows.Forms;` ou `Imports System.Windows.Forms` às diretivas no início do seu arquivo de código e, em seguida, digitar uma linha de código como a seguinte:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
-2. Alternar para a janela do modo de design do InfoPath e, em seguida, clique no botão **Visualizar** na guia **página inicial** . 
+2. Alterne para a janela modo de design do InfoPath e, em seguida, clique no botão **Visualizar** na guia **página inicial** . 
     
-3. Na janela de **visualização** , clique no botão de **alerta** . 
+3. Na janela de **Visualização** , clique no botão **alerta** . 
     
    Será exibida uma caixa de mensagem com o texto "Hello World!"
     
@@ -103,17 +103,17 @@ O exemplo a seguir, você aprenderá como exibir uma caixa de diálogo alerta si
     
 2. No menu **Depurar**, clique em **Iniciar Depuração** (ou pressione F5). 
     
-3. Na janela de **visualização** do InfoPath, clique no botão de **alerta** . 
+3. Na janela de **Visualização** do InfoPath, clique no botão **alerta** . 
     
-   O editor de código recebe o foco e a linha de ponto de interrupção é realçada.
+   O editor de código recebe o foco e a linha do ponto de interrupção é realçada.
     
 4. No menu **Depurar**, clique em **Ultrapassar** (ou pressione Shift+F8) para continuar a repassar o código. 
     
-   O código de método de **alerta** é executado e "Olá mundo!" alerta é exibida na janela de **visualização** do InfoPath. 
+   O código do método **Alert** é executado e o "Hello World!" o alerta é exibido na janela de **Visualização** do InfoPath. 
     
 ## <a name="getting-the-current-users-name"></a>Obtendo o nome do usuário atual
 
-Usando as classes do .NET Framework, você pode obter acesso à funcionalidade que não estava disponível facilmente no script. Neste exemplo, você vai aprender como usar as classes do .NET Framework para recuperar o nome do usuário atual.
+Usando as classes do .NET Framework, você pode obter acesso a funcionalidades que não estavam disponíveis no script. Neste exemplo, você aprenderá como usar as classes do .NET Framework para recuperar o nome do usuário atual.
   
 ### <a name="add-an-onload-event-handler"></a>Adicionar um manipulador de eventos OnLoad
 
@@ -121,19 +121,19 @@ Usando as classes do .NET Framework, você pode obter acesso à funcionalidade q
     
 2. Na guia **Exibir** , clique em **Mostrar campos**.
     
-3. Com o botão direito no nó **myFields** e, em seguida, clique em **Adicionar**.
+3. Clique com o botão **** direito do mouse no nó myFields e clique em **Adicionar**.
     
-4. Em **nome**, tipo de **funcionário**, em seguida, clique em **Okey**.
+4. Em **nome**, digite **funcionário**e clique em **OK**.
     
-5. Arraste o nó do **funcionário** para o modo de exibição. 
+5. Arraste o nó **Employee** para o modo de exibição. 
     
-6. Na guia **desenvolvedor** , clique **Em evento OnLoad**.
+6. Na guia **desenvolvedor** , clique **em carregar evento**.
     
-   Isso irá criar um manipulador de eventos para o evento [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , e o foco é movido para o editor de código. O código no manipulador de eventos será chamado sempre que o formulário é carregado. O próximo procedimento mostra como adicionar o código de formulário que recupera o nome do usuário para o manipulador de eventos. 
+   Isso criará um manipulador de eventos para o evento [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) e o foco será movido para o editor de código. O código neste manipulador de eventos será chamado cada vez que o formulário for carregado. O procedimento a seguir mostra como adicionar o código de formulário que recupera o nome do usuário para o manipulador de eventos. 
     
-### <a name="add-form-code"></a>Adicione o código de formulário
+### <a name="add-form-code"></a>Adicionar código de formulário
 
-1. No manipulador de eventos **OnLoad** , digite o código a seguir: 
+1. No manipulador de eventos **OnLoad** , digite o seguinte código: 
     
    ```cs
     // Store an XML DOM node as a local variable.
@@ -162,15 +162,15 @@ Usando as classes do .NET Framework, você pode obter acesso à funcionalidade q
     End If
    ```
 
-2. Compilar e visualize o formulário.
+2. Compilar e visualizar o formulário.
     
-   A caixa de texto de funcionário agora deve ser preenchida com seu nome de usuário. 
+   A caixa de texto do funcionário agora deve ser preenchida com seu nome de usuário. 
     
-Para obter informações sobre como implantar um modelo de formulário de código gerenciado, consulte [Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md). Para obter informações sobre o modelo de objeto do InfoPath e tarefas de programação comuns nos modelos de formulário de código gerenciado que funcionam com o modelo de objeto do InfoPath 2003 compatíveis, consulte [Compreendendo o modelo de objeto do InfoPath 2003](understanding-the-infopath-2003-object-model.md). 
+Para obter informações sobre como implantar um modelo de formulário de código gerenciado, consulte [implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md). Para obter informações sobre o modelo de objeto do InfoPath e tarefas comuns de programação em modelos de formulário de código gerenciado que funcionam com o modelo de objeto compatível com o InfoPath 2003, consulte underStanding [The infopath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
   
 ## <a name="see-also"></a>Confira também
 
 - [Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
-- [InfoPath 2003 compatível com modelos de objeto](infopath-2003-compatible-object-models.md)
+- [Modelos de objeto compatíveis com o InfoPath 2003](infopath-2003-compatible-object-models.md)
 - [Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

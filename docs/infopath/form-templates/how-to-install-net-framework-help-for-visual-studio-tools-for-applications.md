@@ -1,5 +1,5 @@
 ---
-title: Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications (VSTA)
+title: Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 69b293ac-8ddf-4ba6-92c8-37ed51358232
 description: Baixar e instalar uma cópia local da documentação de SDK do .NET Framework 2.0 e realizar as etapas necessárias para integrar essa documentação com o ambiente de desenvolvimento do Visual Studio 2012.
 ms.openlocfilehash: 9a9bad10e6e2fb585a8d134be4097277ef1bfc64
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300445"
 ---
 # <a name="install-local-net-framework-help-for-visual-studio-tools-for-applications"></a>Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications (VSTA)
 

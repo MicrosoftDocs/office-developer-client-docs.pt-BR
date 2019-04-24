@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 882638d5359154a56fa4438e7a62f213159f916d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a9bda8831f4a38b62d71a54115c40bb3374d97d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282730"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
@@ -27,7 +27,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLGROUPBOX](dtblgroupbox.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
@@ -42,7 +42,7 @@ _n_
     
 _u_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante de macro **SizedDtblGroupBox** como um ponteiro de estrutura **DTBLGROUPBOX** , execute a seguinte projeção: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblGroupBox** como um ponteiro de estrutura **DTBLGROUPBOX** , execute a seguinte conversão: 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

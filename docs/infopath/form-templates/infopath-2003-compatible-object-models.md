@@ -1,5 +1,5 @@
 ---
-title: Modelos de objeto compatíveis com o InfoPath 2003
+title: InfoPath 2003 compatível com modelos de objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: O Microsoft InfoPath foi desenvolvido como um aplicativo Component Object Model (COM) e expõe suas interfaces de programação para automação externa e script de modelo de formulário como interfaces COM.
 ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303518"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Modelos de objeto compatíveis com o InfoPath 2003
 

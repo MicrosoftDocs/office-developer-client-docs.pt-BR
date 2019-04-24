@@ -1,31 +1,31 @@
 ---
-title: Função Upper (aplicativo da web personalizado do Access)
+title: Função Upper (aplicativo da Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
-description: Retorna uma expressão de texto com dados de caractere minúsculo convertidos em maiusculas.
-ms.openlocfilehash: 4bcb1e75d7bbd63fdf7f5c285e76a6735b5d9922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma expressão de texto com dados de caracteres minúsculos convertidos em maiúsculas.
+ms.openlocfilehash: 831e633fbb588994091fb54dcf150ba306d7f670
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304211"
 ---
-# <a name="upper-function-access-custom-web-app"></a>Função Upper (aplicativo da web personalizado do Access)
+# <a name="upper-function-access-custom-web-app"></a>Função Upper (aplicativo da Web personalizado do Access)
 
-Retorna uma expressão de texto com dados de caractere minúsculo convertidos em maiusculas.
+Retorna uma expressão de texto com dados de caracteres minúsculos convertidos em maiúsculas.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Superior** (*TextExpression*) 
+ **Superior** (*TextName*) 
   
-A função **Upper** contém os seguintes argumentos. 
+A função **Upper** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|

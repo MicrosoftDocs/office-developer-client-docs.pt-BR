@@ -1,43 +1,43 @@
 ---
-title: Estrutura de fluxo de SkipBlock
+title: Estrutura de fluxo SkipBlock
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a3367a15374234658fd9d10f3c2a5f3a191c80e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282667"
 ---
-# <a name="skipblock-stream-structure"></a>Estrutura de fluxo de SkipBlock
+# <a name="skipblock-stream-structure"></a>Estrutura de fluxo SkipBlock
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma estrutura de fluxo de SkipBlock é um bloco de dados que começa com um número inteiro que especifica o tamanho da parte restante do bloco. Essa estrutura stream existe em um stream [FieldDefinition](fielddefinition-stream-structure.md) se a definição de campo está no formato PropDefV2. 
+Uma estrutura de fluxo SkipBlock é um bloco de dados que começa com um inteiro que especifica o comprimento da parte restante do bloco. Essa estrutura de fluxo existe em um fluxo de [FieldDefinition](fielddefinition-stream-structure.md) se a definição de campo estiver no formato PropDefV2. 
   
-A finalidade de uma estrutura de fluxo de SkipBlock depende de seu local relativo em uma série de como estruturas no elemento SkipBlocks dados de um stream FieldDefinition. A série de SkipBlocks deve conter pelo menos uma estrutura SkipBlock que finaliza a série e tem o elemento de dados de tamanho igual a 0. Se a primeira estrutura não é a estrutura de encerramento (ou seja, o elemento de dados de tamanho é maior que 0), Outlook pressupõe que a primeira estrutura Especifica o nome do campo em Unicode (UTF-16).
+A finalidade de uma estrutura de fluxo do SkipBlock depende de seu local relativo em uma série de estruturas semelhantes no elemento de dados SkipBlocks de um fluxo de FieldDefinition. A série SkipBlocks deve conter pelo menos uma estrutura SkipBlock que termine a série e tenha o elemento de dados de tamanho igual a 0. Se a primeira estrutura não for a estrutura de terminação (ou seja, o elemento de dados size for maior que 0), o Outlook presumirá que a primeira estrutura especifica o nome do campo em Unicode (UTF-16).
   
-Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, imediatamente após a outra na ordem especificada abaixo.
+Os elementos de dados neste fluxo são armazenados em uma ordem de byte little-endian, imediatamente após o outro na ordem especificada abaixo.
   
 - Tamanho: DWORD (4 bytes), o tamanho, em número de bytes, do elemento de dados de conteúdo.
     
-- Conteúdo: Uma matriz de bytes. A contagem dessa matriz é igual do elemento de dados de tamanho. O significado do elemento de dados de conteúdo depende do local da estrutura SkipBlock na série e a versão do Outlook. Se a primeira estrutura de SkipBlock não for a estrutura de encerramento, o Outlook considera a estrutura de SkipBlock primeira como a estrutura de fluxo de [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica o nome do campo em Unicode. 
+- Conteúdo: uma matriz de BYTE. A contagem dessa matriz é igual ao elemento de dados de tamanho. O significado do elemento de dados de conteúdo depende do local da estrutura SkipBlock da série e da versão do Outlook. Se a primeira estrutura SkipBlock não for a estrutura de terminação, o Outlook considerará a primeira estrutura SkipBlock como a estrutura de fluxo de [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica o nome do campo em Unicode. 
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Campos e itens do outlook](outlook-items-and-fields.md)
+[Campos e itens do Outlook](outlook-items-and-fields.md)
   
 [Estruturas de fluxo](stream-structures.md)
   
-[Estrutura de fluxo de FieldDefinition](fielddefinition-stream-structure.md)
+[Estrutura de fluxo FieldDefinition](fielddefinition-stream-structure.md)
   
-[Estrutura de fluxo de FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+[Estrutura de fluxo FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
 

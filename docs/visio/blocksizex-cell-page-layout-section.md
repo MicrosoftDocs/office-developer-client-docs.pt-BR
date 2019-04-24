@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm105
 localization_priority: Normal
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
-description: Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
-ms.openlocfilehash: 68ed13b85583326c25635049d7e85babe62d5eb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+ms.openlocfilehash: 8e4cee4b2059d9b8f2fe77c2d4902e67246eac2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309475"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>Célula BlockSizeX (Seção Page Layout)
 
-Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Refazer Layout da página **e clique em **Mais opções de Layout**).
+Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout da página **e, em seguida, clique em **mais opções de layout**.
   
 ## <a name="remarks"></a>Comentários
 

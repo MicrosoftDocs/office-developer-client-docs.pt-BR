@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: efc84e9c-7b1a-438a-9308-9a7e454c59b0
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e4ef4824e7554775b6730d3ff0ceb646a0d35bf4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f22aa5169e885aa17293a0ba7e49a7d5fc34d62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297904"
 ---
 # <a name="mapi-application-development"></a>Desenvolvimento de aplicativos MAPI
 
@@ -21,6 +21,6 @@ ms.locfileid: "22581206"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os tópicos nesta seção se aplicam aos desenvolvedores de aplicativos cliente e provedores de serviço. Esses tópicos são organizados em ordem de importância. Ou seja, tópicos que são essenciais para todos os programadores aparecem primeiro e últimos os tópicos que estão de importância mínima ou não se aplicam a todos os programadores aparecem.
+Os tópicos nesta seção se aplicam aos desenvolvedores de aplicativos cliente e provedores de serviços. Esses tópicos são organizados em ordem de importância. Ou seja, os tópicos que são críticos para todos os programadores aparecem primeiro e os tópicos que são de importância mínima ou não se aplicam a todos os programadores aparecem por último.
   
 

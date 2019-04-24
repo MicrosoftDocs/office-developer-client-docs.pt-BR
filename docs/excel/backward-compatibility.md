@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3e1368ef55b96be947527456e0f01918afec6663
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301677"
 ---
 # <a name="backward-compatibility"></a>Compatibilidade com versões anteriores
 

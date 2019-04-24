@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6d29e3ed-80a2-4879-a2a5-3855992bec1d
 description: Desenvolvedores trabalhando em projetos de código gerenciado do Microsoft InfoPath podem encontrar mais detalhes nos recursos a seguir.
 ms.openlocfilehash: 3f46ac3754a3cc09d1c6cabbbc6e2fec8d391701
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300452"
 ---
 # <a name="additional-resources-for-infopath-form-template-developers"></a>Recursos adicionais para desenvolvedores de modelos de formulário do InfoPath
 

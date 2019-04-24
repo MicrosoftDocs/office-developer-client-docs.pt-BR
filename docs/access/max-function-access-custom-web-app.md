@@ -1,5 +1,5 @@
 ---
-title: Max Function (aplicativo da web personalizado do Access)
+title: Função Max (aplicativo da Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b6e0b89f-4975-416d-9f7a-e15fa54d7ee1
 description: Retorna o valor máximo na expressão em uma consulta ou tabela.
-ms.openlocfilehash: 1baf5ee184104a377ded9053a085247d1675d58e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 443897b6d02873458c5dbb4ee9acdac1b6251364
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301761"
 ---
-# <a name="max-function-access-custom-web-app"></a>Max Function (aplicativo da web personalizado do Access)
+# <a name="max-function-access-custom-web-app"></a>Função Max (aplicativo da Web personalizado do Access)
 
 Retorna o valor máximo na expressão em uma consulta ou tabela.
   
@@ -23,12 +23,12 @@ Retorna o valor máximo na expressão em uma consulta ou tabela.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Max** (*Expressão*) 
+ **Máx** (*Expressão*) 
   
-A função **Max** contém os seguintes argumentos. 
+A função **máximo** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Expressão*  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados nesse campo. Operandos em *expressão* podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções SQL agregadas).  <br/> |
+| *Expressão*  <br/> |Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados desse campo. Os operandos na *expressão* podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).  <br/> |
    
 

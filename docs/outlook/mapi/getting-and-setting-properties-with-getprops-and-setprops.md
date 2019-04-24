@@ -9,16 +9,16 @@ api_type:
 ms.assetid: 309d2b3d-dc71-4222-b293-4bfc467b5429
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7d11f69c6da8560f5879ebc38498d852486bed8b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299395"
 ---
 # <a name="getting-and-setting-properties-with-getprops-and-setprops"></a>Obter e definir propriedades com GetProps e SetProps
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Sempre que possível, tente recuperar ou modificar uma propriedade com os métodos [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPIProp::SetProps](imapiprop-setprops.md) . A menos que a propriedade que você estiver trabalhando com for muito grande, esses métodos devem ser adequados. A outra alternativa é ler ou gravar em um stream com a interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . Fluxos podem manipular as propriedades muito grandes com êxito, mas são um maior consumo de recursos porque eles exigem as bibliotecas de COM. Use a interface **IStream** somente depois que a chamada para **IMAPIProp::GetProps** ou **IMAPIProp::SetProps** falha. 
+Sempre que possível, tente recuperar ou modificar uma propriedade com os métodos [IMAPIProp::](imapiprop-getprops.md) GetProps e [IMAPIProp::](imapiprop-setprops.md) SetProps. A menos que a propriedade com a qual você está trabalhando seja muito grande, esses métodos devem ser adequados. A outra alternativa é ler ou gravar em um Stream com a interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . Os fluxos podem lidar com as propriedades muito grandes, mas eles são mais demorados em recursos porque exigem as bibliotecas COM. Use a interface de **IStream** somente depois que a chamada para **IMAPIProp::** GetProps ou **IMAPIProp::** SetProps falhar. 
   
 

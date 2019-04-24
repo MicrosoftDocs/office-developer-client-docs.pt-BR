@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 91985d3dc8a7816c3da3215e505097c57c63e035
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309608"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576201"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Verifica o formulário para que as alterações feitas desde o último salvamento.
+Verifica se há alterações feitas desde o último salvamento no formulário.
   
 ```cpp
 HRESULT IsDirty( void );
@@ -33,7 +33,7 @@ HRESULT IsDirty( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhuma
   
 ## <a name="return-value"></a>Valor de retorno
 
@@ -43,11 +43,11 @@ S_OK
     
 S_FALSE 
   
-> O formulário não terá as alterações feitas desde que foi salvo pela última vez.
+> O formulário não tem alterações feitas desde que foi salvo pela última vez.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IPersistMessage::IsDirty** para determinar se a mensagem tem os dados. 
+Os visualizadores de formulários chamam o método **IPersistMessage:: IsDirty** para determinar se a mensagem tem dados não salvos. 
   
 ## <a name="see-also"></a>Confira também
 

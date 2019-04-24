@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280103"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584937"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Exclui todas as mensagens e subpastas de uma pasta sem excluir na pasta propriamente dita.
+Exclui todas as mensagens e subpastas de uma pasta sem excluir a própria pasta.
   
 ```cpp
 HRESULT EmptyFolder(
@@ -39,29 +39,29 @@ HRESULT EmptyFolder(
 
  _ulUIParam_
   
-> [in] Um identificador para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Uma alça para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _lpProgress_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a pasta será esvaziada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como a pasta é esvaziada. Os seguintes sinalizadores podem ser definidos:
     
 DEL_ASSOCIATED 
   
-> Exclui todas as subpastas, incluindo subpastas que contêm mensagens com conteúdo associado. O sinalizador DEL_ASSOCIATED tem significado apenas para a pasta de nível superior que a chamada atua no.
+> Exclui todas as subpastas, incluindo as subpastas que contêm mensagens com conteúdo associado. O sinalizador DEL_ASSOCIATED tem significado apenas para a pasta de nível superior na qual a chamada atua.
     
 DELETE_HARD_DELETE
   
-> Remove permanentemente todas as mensagens, incluindo aquelas excluída.
+> Remove permanentemente todas as mensagens, incluindo as excluídas de forma reversível.
     
 FOLDER_DIALOG 
   
-> Exibe um indicador de progresso enquanto continua a operação.
+> Exibe um indicador de progresso enquanto a operação prossegue.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -69,39 +69,39 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada foi bem-sucedida, mas a pasta não foi esvaziada completamente. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas a pasta não foi completamente esvaziada. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::EmptyFolder** exclui todo o conteúdo de uma pasta sem excluir na pasta propriamente dita. 
+O método **IMAPIFolder:: EmptyFolder** exclui todo o conteúdo de uma pasta sem excluir a pasta propriamente dita. 
   
-Durante uma chamada de **EmptyFolder** , as mensagens enviadas não são excluídas. 
+Durante uma chamada **EmptyFolder** , as mensagens enviadas não são excluídas. 
   
-Conteúdo de uma pasta associado incluem mensagens que são usadas para descrever o armazenamento de soluções personalizadas, regras, formulários personalizados e modos de exibição e também podem incluir as definições do formulário. 
+O conteúdo associado de uma pasta inclui mensagens usadas para descrever modos de exibição, regras, formulários personalizados e armazenamento de solução personalizada, e também pode incluir definições de formulário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Não chame o método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para mensagens na pasta que foram enviadas. Mensagens enviadas não são excluídas. 
+Não chame o método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para mensagens na pasta que foi enviada. As mensagens enviadas não são excluídas. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Espera esses valores de retorno sob as condições a seguintes.
+Espere estes valores de retorno sob as condições a seguir.
   
-|**Condição**|**Valor retornado**|
+|**Condition**|**Valor retornado**|
 |:-----|:-----|
-|**EmptyFolder** com êxito tem esvaziada a pasta.  <br/> |S_OK  <br/> |
-|**EmptyFolder** não pôde completamente esvazie a pasta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**EmptyFolder** não pôde concluir.  <br/> |Qualquer valor de erro  <br/> |
+|**EmptyFolder** esvaziar a pasta com êxito.  <br/> |S_OK  <br/> |
+|**EmptyFolder** não pôde esvaziar completamente a pasta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder** não pôde ser concluída.  <br/> |Qualquer valor de erro  <br/> |
    
-Quando **EmptyFolder** é impossível concluir, não presuma que foi feito nenhum trabalho. **EmptyFolder** podem ter sido capazes de excluir uma parte do conteúdo da pasta antes da ocorrência de erro. 
+Quando o **EmptyFolder** não puder ser concluído, não presuma que nenhum trabalho foi realizado. **EmptyFolder** pode ter sido possível excluir parte do conteúdo da pasta antes de encontrar o erro. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI usa o método **IMAPIFolder::EmptyFolder** para excluir o conteúdo da pasta especificada.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI usa o método **IMAPIFolder:: EmptyFolder** para excluir o conteúdo da pasta especificada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -112,7 +112,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Usar macros para lidar com erros](using-macros-for-error-handling.md)
+[Usando macros para tratamento de erros](using-macros-for-error-handling.md)
 

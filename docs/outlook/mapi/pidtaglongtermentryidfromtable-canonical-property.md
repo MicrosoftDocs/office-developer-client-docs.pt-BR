@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ddec060af73d61a4a39c59b35f0442d6b9b1db66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 574c7d305f105709aebcd41e30b034fbac1892a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278775"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>Propriedade canônica PidTagLongTermEntryIdFromTable
 
@@ -36,19 +36,19 @@ Obtém o identificador de entrada de longo prazo de um item.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade pode ser usada em uma tabela de conteúdo para obter o identificador de entrada de um item como um identificador de entrada de longo prazo, em vez de um identificador de entrada de curto prazo. Para obter informações sobre identificadores de longo prazo e a curto prazo, consulte **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Essa propriedade pode ser usada em uma tabela de conteúdo para obter o identificador de entrada de um item como um identificador de entrada de longo prazo em vez de um identificador de entrada de curto prazo. Para obter informações sobre identificadores de longo prazo e de curto prazo, consulte **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

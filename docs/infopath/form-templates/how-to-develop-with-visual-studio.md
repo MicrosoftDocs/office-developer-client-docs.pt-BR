@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Você pode aprimorar a funcionalidade de formulários do InfoPath estendendo-as com código gerenciado desenvolvido no Visual Studio 2012. Em seguida, você pode publicar os formulários com o código para bibliotecas de formulários no SharePoint Server 2013.
 ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300284"
 ---
 # <a name="develop-with-visual-studio"></a>Desenvolvimento com o Visual Studio
 

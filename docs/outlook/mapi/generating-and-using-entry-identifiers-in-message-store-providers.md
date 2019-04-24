@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 10634305130b0f465482cce025018d4929350513
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 005742eaaba81600be249d52e5d8098e9f286f17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299808"
 ---
 # <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Gerar e usar identificadores de entradas em provedores do repositório de mensagens
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando uma nova pasta ou mensagem é criada em um armazenamento de mensagens, o provedor de armazenamento de mensagem deve atribuir esse objeto em um identificador de entrada para que os aplicativos clientes podem se referir a ele. Provedores de armazenamento de mensagens podem reutilizar os identificadores de entrada de longo prazo expirado dos objetos excluídos ou criar novos identificadores. Não há nenhum requisito de uma forma ou outro para provedores de armazenamento de mensagem; No entanto, se ele for viável, um provedor de armazenamento de mensagem sempre deve gerar novos identificadores de entrada de longo prazo para novos objetos, em vez da reutilizando as antigas. Há problemas reutilizar os identificadores de entrada de curto prazo quando os objetos que se referem ao são excluídos.
+Quando uma nova pasta ou mensagem é criada em um repositório de mensagens, o provedor de armazenamento de mensagens precisa atribuir a esse objeto um identificador de entrada para que os aplicativos clientes possam consultá-lo. Os provedores de repositórios de mensagens podem reutilizar os identificadores de entrada de longo prazo dos objetos excluídos ou criar novos identificadores. Não há um requisito de uma maneira ou o outro para provedores de repositórios de mensagens; no entanto, se for viável, um provedor de repositório de mensagens sempre deverá gerar novos identificadores de entrada de longo prazo para novos objetos, em vez de usar os antigos. É preciso reutilizar identificadores de entrada de curto prazo quando os objetos aos quais eles se referem são excluídos.
   
-O motivo para essa exclusão é que os clientes podem armazenar em cache identificadores de entrada, às vezes por longos períodos de tempo. Se isso ocorrer e o provedor de armazenamento de mensagem reutilizar os identificadores de entrada, é possível para o identificador de entrada para se referir a um objeto diferente, quando o cliente abre o identificador de entrada que quando obteve seu primeiro o identificador de entrada. Se o provedor de armazenamento de mensagem não reutilizar os identificadores de entrada — ou pelo menos usa um esquema de geração de identificador de entrada que não se repete por um tempo muito longo — esse problema não é possível ocorrer.
+O motivo dessa exclusão é que os clientes podem armazenar em cache identificadores de entrada, às vezes por longos períodos de tempo. Se isso acontecer e o provedor do repositório de mensagens reutilizar identificadores de entrada, é possível que o identificador de entrada faça referência a um objeto diferente quando o cliente abre o identificador de entrada do que quando obteve o identificador de entrada pela primeira vez. Se o provedor do repositório de mensagens não reutilizar identificadores de entrada — ou pelo menos usa um esquema de geração de identificador de entrada que não se repete por um tempo muito longo — esse problema não pode ocorrer.
   
-Da mesma forma, os provedores de armazenamento de mensagem devem tentar preservar os identificadores de entrada para pastas e mensagens quando forem movidos no repositório de mensagem. Se o provedor de armazenamento de mensagens pode fazer isso, referências a objetos no repositório não tornarão inválidas quando o objeto é movido para um local diferente no repositório.
+Da mesma forma, os provedores de repositórios de mensagens devem tentar preservar identificadores de entrada para pastas e mensagens quando forem movidos no repositório de mensagens. Se o provedor de repositório de mensagens puder fazer isso, as referências a objetos no repositório não se tornarão inválidas quando o objeto for movido para um local diferente no repositório.
   
 ## <a name="see-also"></a>Confira também
 
-- [Recursos de armazenamento de mensagens](message-store-features.md)
+- [Recursos do repositório de mensagens](message-store-features.md)
 

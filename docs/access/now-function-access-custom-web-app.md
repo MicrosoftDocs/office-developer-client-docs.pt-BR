@@ -1,25 +1,25 @@
 ---
-title: Agora a função (aplicativo da web personalizado do Access)
+title: Função Now (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8842a555-d4c8-4528-b5f9-0ddf5691273d
-description: Retorna o valor de data e hora atual no fuso horário definido pelo aplicativo.
-ms.openlocfilehash: 721c0d2a872e0c4ec9ca75c963d5429a72fb2d3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o valor atual de data e hora no fuso horário definido pelo aplicativo.
+ms.openlocfilehash: 74b0a124e5715036146fedc9a6079d84a39ce84a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308096"
 ---
-# <a name="now-function-access-custom-web-app"></a>Agora a função (aplicativo da web personalizado do Access)
+# <a name="now-function-access-custom-web-app"></a>Função Now (aplicativo Web personalizado do Access)
 
-Retorna o valor de data e hora atual no fuso horário definido pelo aplicativo.
+Retorna o valor atual de data e hora no fuso horário definido pelo aplicativo.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -27,8 +27,8 @@ Retorna o valor de data e hora atual no fuso horário definido pelo aplicativo.
   
 ## <a name="remarks"></a>Comentários
 
-O resultado das **agora** função alterações somente quando a coluna que contém a fórmula for atualizada. Ele não é atualizado continuamente. 
+O resultado da função **Now** só é alterado quando a coluna que contém a fórmula é atualizada. Ele não é atualizado continuamente. 
   
-A função **hoje** retorna a mesma data, mas não é exata em relação aos recursos de tempo; o tempo retornado é sempre 12:00:00 AM e somente a data é atualizada. 
+A função **hoje** retorna a mesma data, mas não é preciso em relação ao tempo; o tempo retornado é sempre 12:00:00 e apenas a data é atualizada. 
   
 

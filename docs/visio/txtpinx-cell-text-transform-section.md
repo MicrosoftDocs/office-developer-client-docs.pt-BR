@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm1040
 localization_priority: Normal
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
-description: 'Determina o x-coordenadas do centro do bloco de texto de rotação em relação à origem da forma. A fórmula padrão é:'
-ms.openlocfilehash: df103557d103dbde7e4a1c8d67cabe37a0af9311
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Determina a coordenada x do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é:'
+ms.openlocfilehash: 836f5c807d0c0e53efc825f62f60429274282165
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282296"
 ---
 # <a name="txtpinx-cell-text-transform-section"></a>Célula TxtPinX (Seção Text Transform)
 
-Determina o *x* -coordenadas do centro do bloco de texto de rotação em relação à origem da forma. A fórmula padrão é: 
+Determina a coordenada *x* do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
   
-= A largura \* 0.5
+= Largura \* 0,5
   
 ## <a name="remarks"></a>Comentários
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2c49a17389a9bfc998f892e0becf96dca4cd773f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 353bc574ca5987d71faf4841744de30a3d6c3f19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309489"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
@@ -25,11 +25,11 @@ ms.locfileid: "22578714"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mapeia um valor inteiro enumeradas para um nome de exibição para o valor. 
+Mapeia um valor de número inteiro enumerado para um nome de exibição para esse valor. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -52,7 +52,7 @@ typedef struct _SMAPIFormPropEnumVal
     
 ## <a name="remarks"></a>Comentários
 
-Quando o usuário seleciona um nome de exibição a partir de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação de interface de [IMAPIProp](imapipropiunknown.md) que está associada ao formulário. 
+Quando um usuário seleciona um nome de exibição de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação da interface [IMAPIProp](imapipropiunknown.md) que está associada ao formulário. 
   
 ## <a name="see-also"></a>Confira também
 

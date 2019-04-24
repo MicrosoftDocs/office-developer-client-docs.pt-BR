@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 81f35f659342d6258d60f40b12bd0a3ac2dc20b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fac4978bef94650f85ac3179acd3858602f933ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279567"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588472"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Executa a resolução de nomes para uma ou mais entradas de destinatário.
+Executa a resolução de nome para uma ou mais entradas de destinatário.
   
 ```cpp
 HRESULT ResolveNames(
@@ -36,83 +36,83 @@ HRESULT ResolveNames(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpPropTagArray_
   
-> [in] Um ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade descrevendo as propriedades a serem incluídos na estrutura de [ADRLIST](adrlist.md) retornada pelo provedor. Para solicitar a conjunto de propriedades padrão do provedor, passe NULL no parâmetro _lpPropTagArray_ . 
+> no Um ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade descrevendo as propriedades a serem incluídas na estrutura [das ADRLIST](adrlist.md) retornada pelo provedor. Para solicitar o conjunto de propriedades padrão do provedor, passe NULL no parâmetro _lpPropTagArray_ . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo do texto em cadeias de caracteres retornadas. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla o tipo de texto nas cadeias de caracteres retornadas. Os seguintes sinalizadores podem ser definidos:
     
 EMS_AB_ADDRESS_LOOKUP
   
-> Somente as correspondências exatas proxy endereço serão encontradas; correspondências parciais são ignoradas. Esse sinalizador é suportado apenas o provedor de catálogo de endereços do Exchange.
+> Serão encontradas apenas as correspondências exatas de endereços de proxy. as correspondências parciais são ignoradas. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
     
 MAPI_CACHE_ONLY
   
-> Apenas o catálogo de endereços offline será usado para executar a resolução de nome. Por exemplo, você pode usar esse sinalizador para habilitar um aplicativo cliente para abrir a lista de endereços global (GAL) no modo cache do exchange e acessar uma entrada no catálogo de endereços do cache sem criar o tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas o provedor de catálogo de endereços do Exchange. 
+> Somente o catálogo de endereços offline será usado para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente Abra a lista de endereços global (GAL) no modo cache do Exchange e acesse uma entrada desse catálogo de endereços do cache sem criar tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange. 
     
 MAPI_UNICODE 
   
-> As propriedades de cadeia de caracteres retornada estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As propriedades de cadeia de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _lpAdrList_
   
-> [além, out] Na entrada, um ponteiro para uma estrutura **ADRLIST** que contém a lista de destinatários para ser resolvido. Na saída, um ponteiro para uma estrutura **ADRLIST** que contém os nomes resolvidos. 
+> [in, out] Na entrada, um ponteiro para uma estrutura **das ADRLIST** que contém a lista de destinatários a serem resolvidos. Na saída, um ponteiro para uma estrutura **das ADRLIST** que contém os nomes resolvidos. 
     
  _lpFlagList_
   
-> [além, out] Um ponteiro para uma matriz dos sinalizadores, cada sinalizador correspondente em uma estrutura de [ADRENTRY](adrentry.md) no parâmetro _lpAdrList_ , que fornece o status da operação de resolução de nome do destinatário. Os sinalizadores no parâmetro _lpFlagList_ estão na mesma ordem como as entradas de _lpAdrList_. Sinalizadores a seguir podem ser definidos:
+> [in, out] Um ponteiro para uma matriz de sinalizadores, cada sinalizador correspondente a uma estrutura [ADRENTRY](adrentry.md) no parâmetro _lpAdrList_ , que fornece o status da operação de resolução de nome para o destinatário. Os sinalizadores no parâmetro _lpFlagList_ estão na mesma ordem das entradas no _lpAdrList_. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_AMBIGUOUS 
   
-> O destinatário correspondente foi resolvido, mas não a um identificador exclusivo de entrada. Outros contêineres não devem tentar resolver o destinatário. 
+> O destinatário correspondente foi resolvido, mas não a um identificador de entrada exclusivo. Outros contêineres não devem tentar resolver esse destinatário. 
     
 MAPI_RESOLVED 
   
-> O destinatário correspondente a um identificador exclusivo de entrada foi resolvido. Outros contêineres não devem tentar resolver o destinatário. 
+> O destinatário correspondente foi resolvido para um identificador de entrada exclusivo. Outros contêineres não devem tentar resolver esse destinatário. 
     
 MAPI_UNRESOLVED 
   
-> A entrada correspondente não foi resolvida. Outros contêineres devem tentar resolver o destinatário.
+> A entrada correspondente não foi resolvida. Outros contêineres devem tentar resolver esse destinatário.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O processo de resolução de nomes foi bem-sucedida.
+> O processo de resolução de nomes foi bem-sucedido.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor de catálogo de endereços não oferece suporte a resolução de nomes em massa usando esse método.
+> O provedor de catálogo de endereços não dá suporte à resolução de nomes em massa usando esse método.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ResolveNames** tenta corresponder destinatários não resolvidos da matriz de entradas no parâmetro _lpAdrList_ para destinatários neste contêiner de catálogo de endereços. Um destinatário não resolvido geralmente tem apenas a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e, possivelmente, algumas outras propriedades. Um destinatário não resolvido não tem a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e seu sinalizador correspondente no parâmetro _lpFlagList_ estiver definido como MAPI_UNRESOLVED. Por outro lado, um destinatário resolvido sempre possui pelo menos a propriedade **PR_ENTRYID** plus várias outras propriedades como **PR_ADDRTYPE** ([ , **PR_DISPLAY_NAME**e **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) PidTagAddressType](pidtagaddresstype-canonical-property.md)).
+O **** método ResolveNames tenta coincidir destinatários não resolvidos da matriz de entradas no parâmetro _lpAdrList_ para destinatários neste contêiner de catálogo de endereços. Normalmente, um destinatário não resolvido tem apenas a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e, possivelmente, algumas outras propriedades. Um destinatário não resolvido não tem a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), e seu sinalizador correspondente no parâmetro _lpFlagList_ está definido como MAPI_UNRESOLVED. Por outro lado, um destinatário resolvido sempre tem pelo menos a propriedade **PR_ENTRYID** mais várias outras propriedades, como **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), **PR_DISPLAY_NAME**e **PR_ADDRTYPE** ([ PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   
-Resolução de nomes geralmente inicia quando um cliente chama o método [IAddrBook::ResolveName](iaddrbook-resolvename.md) . MAPI do Outlook responde ao chamar o método **ResolveNames** de cada contêiner de catálogo de endereços incluída no caminho de pesquisa de catálogo de endereços, especificado pela propriedade **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)). As entradas no parâmetro _lpAdrList_ incluir destinatários já resolvidos porque eles são nos contêineres para o qual MAPI já chamado **ResolveNames**, pois as entradas aparecem anteriormente no caminho de pesquisa. 
+A resolução de nome normalmente começa quando um cliente chama o método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . O MAPI do Outlook responde chamando **** o método ResolveNames de cada contêiner de catálogo de endereços incluído no caminho de pesquisa do catálogo de endereços, especificado pela propriedade **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)). As entradas no parâmetro _lpAdrList_ incluem destinatários já resolvidos porque estão em contêineres para os quais o MAPI já **** chamou ResolveNames, porque as entradas aparecem anteriormente no caminho de pesquisa. 
   
-Cada contêiner tenta resolver as entradas não resolvidas combinando o nome de exibição do destinatário com o nome de exibição de uma das suas entradas. Quando é encontrada uma correspondência exclusiva, **ResolveNames** adiciona a propriedade **PR_ENTRYID** e outras propriedades que estão incluídas no parâmetro _lpPropTagArray_ para a entrada correspondente na estrutura **ADRLIST** de saída. **ResolveNames** , em seguida, define a entrada no parâmetro _lpFlagList_ para MAPI_RESOLVED. O identificador de entrada armazenado na propriedade **PR_ENTRYID** pode ser curto ou longo prazo. 
+Cada contêiner tenta resolver as entradas não resolvidas combinando o nome de exibição do destinatário com o nome de exibição de uma de suas entradas. Quando uma correspondência exclusiva é encontrada, **ResolveNames** adiciona a propriedade **PR_ENTRYID** e outras propriedades que são incluídas no parâmetro _lpPropTagArray_ para a entrada correspondente na estrutura **das ADRLIST** de saída. **ResolveNames** define a entrada no parâmetro _lpFlagList_ como MAPI_RESOLVED. O identificador de entrada armazenado na propriedade **PR_ENTRYID** pode ser de curto ou de longo prazo. 
   
-Afinal dos contêineres na pesquisa caminho tentaram o processo de resolução de nome, MAPI abre uma caixa de diálogo, se possível, para solicitar ao usuário para ajudar a resolver conflitos restantes. 
+Após todos os contêineres no caminho de pesquisa terem tentado o processo de resolução de nomes, o MAPI abre uma caixa de diálogo, se possível, para solicitar ao usuário ajuda na resolução de qualquer conflito restante. 
   
-Os clientes também podem usar a estrutura **ADRLIST** retornada em chamadas para o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
+Os clientes também podem usar a estrutura **das ADRLIST** retornada em chamadas para o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você não é necessárias para dar suporte a resolução de nomes com o método **ResolveNames** . Em vez disso, ou Além disso, você pode oferecer suporte com a restrição de propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Se você decidir contam com a restrição de **PR_ANR** para resolução de nome, você pode retornar MAPI_E_NO_SUPPORT. Para obter mais informações, consulte [Implementando a resolução de nome](implementing-name-resolution.md).
+Não é necessário oferecer suporte à resolução de nomes com **** o método ResolveNames. Em vez disso, ou Adicionalmente, você pode dar suporte a ela com a restrição de propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Se você decidir confiar na restrição **PR_ANR** para resolução de nomes, poderá retornar MAPI_E_NO_SUPPORT. Para obter mais informações, consulte [implementaNdo resolução de nomes](implementing-name-resolution.md).
   
-Defina a entrada de sinalizador de um destinatário no parâmetro _lpFlagList_ para MAPI_UNRESOLVED se o destinatário não corresponder a qualquer um dos destinatários do contêiner. 
+Defina a entrada de sinalizador de um destinatário no parâmetro _lpFlagList_ como MAPI_UNRESOLVED se o destinatário não corresponder a qualquer um dos destinatários do contêiner. 
   
-Quando um destinatário corresponde a vários destinatários, defina seu sinalizador para MAPI_AMBIGUOUS e não altere sua estrutura **ADRENTRY** . 
+Quando um destinatário corresponder a vários destinatários, defina seu sinalizador como MAPI_AMBIGUOUS e não altere sua estrutura de **ADRENTRY** . 
   
-MAPI requer determinadas propriedades para os destinatários incluídos na lista de destinatários da mensagem. Você pode incluí-las na estrutura **ADRENTRY** como parte do processo de resolução de nome ou aguarde MAPI solicitá-los com chamadas para os métodos [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) e [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) . Você pode eliminar essas chamadas extras e melhorar o desempenho, incluindo as seguintes propriedades nas estruturas **ADRENTRY** de todos os destinatários resolvidos: 
+MAPI requer determinadas propriedades para destinatários incluídos na lista de destinatários de uma mensagem. Você pode incluí-los na estrutura **ADRENTRY** como parte do processo de resolução de nome ou aguardar o MAPI solicitá-los com chamadas para os métodos [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) e [IMAPISupport:: ExpandRecips](imapisupport-expandrecips.md) . Você pode eliminar essas chamadas extras e melhorar o desempenho, incluindo as seguintes propriedades nas estruturas **ADRENTRY** de todos os destinatários resolvidos: 
   
 - **PR_ADDRTYPE**
     
@@ -128,11 +128,11 @@ MAPI requer determinadas propriedades para os destinatários incluídos na lista
     
 - **PR_TRANSMITABLE_DISPLAY_NAME** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))
     
-Se algumas das propriedades no parâmetro _lpPropTagArray_ não estão disponíveis — normalmente porque a entrada de contêiner não dá suporte as propriedades e eles não são incluídos em membro **ADRENTRY** do destinatário na estrutura de **ADRLIST** — Defina o tipo de propriedade de cada propriedade não está disponível como PT_ERROR. 
+Se algumas das propriedades no parâmetro _lpPropTagArray_ não estiverem disponíveis, geralmente porque a entrada de contêiner não é compatível com as propriedades e elas não estão incluídas no membro **ADRENTRY** do destinatário na estrutura **das ADRLIST** , Defina o tipo de propriedade de cada propriedade não disponível como PT_ERROR. 
   
-Não remova todas as propriedades da estrutura de **ADRENTRY** do destinatário resolvido. 
+Não remova as propriedades da estrutura **ADRENTRY** de um destinatário resolvido. 
   
-Se você deve substituir em vez de modificar uma estrutura **ADRENTRY** , livre a estrutura original de **ADRENTRY** primeiro por chamar a função de [MAPIFreeBuffer](mapifreebuffer.md) e alocar a estrutura **ADRENTRY** com [de substituição MAPIAllocateBuffer](mapiallocatebuffer.md).
+Se você precisar substituir em vez de modificar uma estrutura **ADRENTRY** , libere primeiro a estrutura **ADRENTRY** original chamando a função [MAPIFreeBuffer](mapifreebuffer.md) e, em seguida, aloque a estrutura **ADRENTRY** de substituição com [ MAPIAllocateBuffer](mapiallocatebuffer.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -150,7 +150,7 @@ Se você deve substituir em vez de modificar uma estrutura **ADRENTRY** , livre 
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônico de PidTagAnr](pidtaganr-canonical-property.md)
+[Propriedade canônica PidTagAnr](pidtaganr-canonical-property.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4c327336-4ce0-490d-9016-945305f18b16
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a06c94cf2c46fef443d5a9d90cb9a305a3d0b073
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285130"
 ---
 # <a name="pidtaginternetcodepage-canonical-property"></a>Propriedade canônica PidTagInternetCodepage
 
@@ -25,7 +25,7 @@ ms.locfileid: "25389045"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a página de código usada para propriedades de **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) ou **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
+Indica a página de código usada para as propriedades **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)).
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Indica a página de código usada para propriedades de **PR_BODY_HTML** ([PidTag
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlUDF
 keywords:
-- função xlUDF [excel 2007]
+- função xlUDF [Excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8f45f800ca50d2a46792e7cf5e00ac25bd099e8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569334847c7612b86f6ddc967f159e2ef425cbbb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303812"
 ---
 # <a name="xludf"></a>xlUDF
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chama uma função definida pelo usuário (UDF). Essa função permite que uma DLL chamar o Visual Basic para funções definidas pelo usuário do Applications (VBA), funções de idioma de macro XLM e funções registradas contidas em outros complementos.
+Chama uma função definida pelo usuário (UDF). Essa função permite que uma DLL chame funções definidas pelo usuário do Visual Basic for Applications (VBA), funções de linguagem de macro XLM e funções registradas contidas em outros suplementos.
   
 ```cs
 Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
@@ -33,19 +33,19 @@ LPXLOPER12 pxArg1, ...);
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** ou **xltypeNum**)
   
-A referência da função que você deseja chamar. Isso pode ser uma referência de célula de planilha macro, o nome registrado da função como uma cadeia de caracteres ou a ID de registro da função. Para o suplemento funções XLL registradas usando **xlfRegister** ou **registrar** com o argumento _pxFunctionText_ fornecido, a ID pode ser obtida usando **xlfEvaluate** para pesquisar o nome. 
+A referência da função que você deseja chamar. Pode ser uma referência de célula de planilha de macro, o nome registrado da função como uma cadeia de caracteres ou a ID de registro da função. Para funções de suplemento XLL registradas usando **xlfRegister** ou **Register** com o argumento _pxFunctionText_ fornecido, a ID pode ser obtida usando o **xlfEvaluate** para pesquisar o nome. 
   
 _pxArg1,..._
   
-Zero ou mais argumentos para a função definida pelo usuário. Quando você chama essa função nas versões anteriores ao Excel 2007, o número máximo de argumentos adicionais que podem ser passados é 29, que é 30 incluindo _pxFnRef_. Iniciando no Excel 2007, esse limite é promovido a 254, que é 255 incluindo _pxFnRef_.
+Zero ou mais argumentos para a função definida pelo usuário. Quando você chama essa função em versões anteriores ao Excel 2007, o número máximo de argumentos adicionais que podem ser passados é 29, que é 30 incluindo _pxFnRef_. A partir do Excel 2007, esse limite é aumentado para 254, que é 255, incluindo _pxFnRef_.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna o valor que a função definida pelo usuário retornada.
+Retorna qualquer valor retornado pela função definida pelo usuário.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir executa **TestMacro** na planilha Macro1 na BOOK1. XLS. Certifique-se de que a macro estiver em uma planilha chamada Macro1. 
+O exemplo a seguir executa o **TestMacro** na planilha MACRO1 no BOOK1. XLS. Certifique-se de que a macro está em uma planilha chamada Macro1. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

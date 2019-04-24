@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Para acessar e manipular os dados XML em fontes de dados de modelo de formulário, muitos membros do modelo de objeto de código gerenciado fornecido pelo namespace Microsoft.Office.InfoPath criam ou podem receber uma instância da classe XPathNavigator do namespace System.Xml.XPath. Depois que você tiver acesso a um objeto XPathNavigator retornado por um membro do modelo de objeto do InfoPath, poderá usar as propriedades e os métodos da classe XPathNavigator para trabalhar com os dados.
 ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303546"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Trabalhar com as classes XPathNavigator e XPathNodeIterator
 

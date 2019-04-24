@@ -4,96 +4,96 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- modelos de formulário [InfoPath 2007], modelos de formulário [InfoPath 2007], visualização, depuração [InfoPath 2007], modelos de formulário de código gerenciado, modelos de formulário [InfoPath 2007], depuração, InfoPath 2007, depuração de depuração de visualização modelos de formulário [infopath 2007] modelos de formulário, o InfoPath 2007, visualização de modelos de formulário
+- Visualizando modelos de formulário [InfoPath 2007], modelos de formulário de depuração [InfoPath 2007], modelos de formulário [InfoPath 2007], visualização, depuração [InfoPath 2007], modelos de formulário de código gerenciado, modelos de formulário [InfoPath 2007], depuração, InfoPath 2007, depuração modelos de formulário, InfoPath 2007, visualizações de modelos de formulário
 localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
-description: Microsoft InfoPath com o Visual Studio 2012 permite a depuração executando código de formulário no modo de visualização. Quando você inicia a depuração de código de formulário, o projeto seja compilado e InfoPath exibe seu formulário na janela de visualização do InfoPath. Quando uma linha de código que tem um ponto de interrupção definido para ele for encontrado, o foco é movido para o editor de código. Quando você passar um ponto de interrupção, o foco volta para a janela de visualização. Depuração paradas quando você fecha a janela de visualização.
-ms.openlocfilehash: c33a7740d5f5dba1f8443f020007a2942bc0fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O Microsoft InfoPath com o Visual Studio 2012 permite a depuração executando o código de formulário no modo de visualização. Quando você inicia o código de formulário de depuração, seu projeto é compilado e o InfoPath exibe o formulário na janela de visualização do InfoPath. Quando uma linha de código que tem um ponto de interrupção definido para ela é encontrada, o foco é movido para o editor de código. Quando você continua após um ponto de interrupção, o foco é movido de volta para a janela de visualização. A depuração pára quando você fecha a janela de visualização.
+ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300431"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>Visualizar e depurar modelos de formulário do InfoPath com código
 
-Microsoft InfoPath com o Visual Studio 2012 permite a depuração executando código de formulário no modo de visualização. Quando você inicia a depuração de código de formulário, o projeto seja compilado e InfoPath exibe seu formulário na janela de visualização do InfoPath. Quando uma linha de código que tem um ponto de interrupção definido para ele for encontrado, o foco é movido para o editor de código. Quando você passar um ponto de interrupção, o foco volta para a janela de visualização. Depuração paradas quando você fecha a janela de visualização.
+O Microsoft InfoPath com o Visual Studio 2012 permite a depuração executando o código de formulário no modo de visualização. Quando você inicia o código de formulário de depuração, seu projeto é compilado e o InfoPath exibe o formulário na janela de visualização do InfoPath. Quando uma linha de código que tem um ponto de interrupção definido para ela é encontrada, o foco é movido para o editor de código. Quando você continua após um ponto de interrupção, o foco é movido de volta para a janela de visualização. A depuração pára quando você fecha a janela de visualização.
   
-Você também pode modificar as opções de formato do modelo de formulário para visualizar e depurar usando uma função de usuário específico, um arquivo de dados de amostra, ou especificando-se o domínio ao qual o formulário será publicado. 
+Você também pode modificar as opções de formulário do modelo de formulário para visualizar e depurar usando uma função de usuário específica, um arquivo de dados de exemplo ou especificando o domínio no qual o formulário será publicado. 
   
 > [!NOTE]
-> Não é possível depurar modelos de formulário depois que elas estejam implantadas em tempo de execução do Visual Studio 2012. Isso inclui os modelos de formulário que são compatíveis com o InfoPath, bem como aquelas que são compatíveis com o InfoPath e o navegador da Web usando o InfoPath Forms Services. No entanto, é possível fazer logon valores de um campo de código em tempo de execução para ajudá-lo com lógica de negócios de um modelo de formulário de depuração. Para obter informações sobre como fazer isso, consulte [Valores de Log para um campo para depuração](how-to-log-values-to-a-field-for-debugging.md). 
+> Não é possível depurar modelos de formulário depois que eles são implantados no tempo de execução do Visual Studio 2012. Isso inclui modelos de formulário que são compatíveis apenas com o InfoPath, bem como aqueles que são compatíveis com o InfoPath e o navegador da Web usando o InfoPath Forms Services. No enTanto, é possível registrar valores em um campo a partir do código em tempo de execução para ajudar na depuração da lógica de negócios de um modelo de formulário. Para obter informações sobre como fazer isso, consulte [registrar valores em um campo para depuração](how-to-log-values-to-a-field-for-debugging.md). 
   
-## <a name="debugging-in-preview-mode"></a>No modo de visualização de depuração
+## <a name="debugging-in-preview-mode"></a>Depuração no modo de visualização
 
-### <a name="to-debug-an-infopath-project-in-preview-mode"></a>Depurar um projeto do InfoPath no modo de visualização
+### <a name="to-debug-an-infopath-project-in-preview-mode"></a>Para depurar um projeto do InfoPath no modo de visualização
 
 1. Criar ou abrir um modelo de formulário de código gerenciado do InfoPath no Visual Studio 2012.
     
-2. Defina um ou mais pontos de interrupção em seu código de formulário no editor de código clicando na barra cinza à esquerda da linha de código onde deseja inserir um ponto de interrupção.
+2. Defina um ou mais pontos de interrupção no seu código de formulário no editor de código clicando na barra cinza à esquerda da linha de código onde você deseja inserir um ponto de interrupção.
     
     Um círculo vermelho é exibido e a linha de código é realçada para indicar que o tempo de execução será pausado nesse ponto de interrupção no seu código de formulário.
     
-3. No menu **Depurar** , clique em **Iniciar depuração**; ou pressione F5.
+3. No menu **depurar** , clique em **Iniciar Depuração**; ou pressione F5.
     
-    O projeto será compilado e o formulário é exibido na janela de visualização.
+    O projeto será compilado e o formulário será exibido na janela de visualização.
     
-4. Interagir com o formulário até encontrar uma linha de código que contém um ponto de interrupção.
+4. Interagir com o formulário até que uma linha de código contendo um ponto de interrupção seja encontrada.
     
     O foco retorna para o editor de código.
     
-5. No menu **Depurar** , clique em **continuar**; ou pressione F5.
+5. No menu **depurar** , clique em **continuar**; ou pressione F5.
     
-6. Quando tiver terminado de depuração, feche a janela de visualização; ou, no menu **Depurar** , clique em **Parar Depuração**.
+6. Ao concluir a depuração, feche a janela de visualização; ou no menu **depurar** , clique em **parar depuração**.
     
 > [!NOTE]
-> Para depurar um modelo de formulário de código gerenciado do InfoPath ao usar um membro de modelo de objeto que requer confiança total, você deve configurar seu modelo de formulário, conforme descrito em [Visualizar e modelos de formulário de depuração que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> Para depurar um modelo de formulário de código gerenciado do InfoPath ao usar um membro de modelo de objeto que exija confiança total, você deve configurar o modelo de formulário conforme descrito nos [modelos de formulário Visualizar e depurar que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
-## <a name="using-a-sample-data-file"></a>Usando um arquivo de dados de amostra
+## <a name="using-a-sample-data-file"></a>Usando um arquivo de dados de exemplo
 
-Por padrão, a depuração e visualização usa o arquivo de Template. XML que é criado quando um modelo de formulário é criado. Você pode criar seu próprio arquivo de dados e especificar para usá-la ao visualizar ou depuração usando um dos procedimentos a seguir. 
+Por padrão, a depuração e a visualização usam o arquivo template. XML que é criado quando um modelo de formulário é criado. Você pode criar seu próprio arquivo de dados e especificar para usá-lo ao visualizar ou depurar usando um dos procedimentos a seguir. 
   
-### <a name="to-specify-a-sample-data-file-to-use-while-debugging-or-previewing-in-visual-studio-tools-for-applications"></a>Para especificar um arquivo de dados de amostra para usar durante a depuração ou pré-visualizar no Visual Studio Tools for Applications
+### <a name="to-specify-a-sample-data-file-to-use-while-debugging-or-previewing-in-visual-studio-tools-for-applications"></a>Para especificar um arquivo de dados de exemplo a ser usado durante a depuração ou visualização no Visual Studio Tools for Applications
 
-1. Para exibir Template. XML, abra o modelo de formulário no modo de design do InfoPath.
+1. Para exibir o modelo. xml, abra o modelo de formulário no modo de design do InfoPath.
     
-2. Clique na guia **arquivo** , clique em **Salvar**, **Salvar o modelo de formulário como**e clique em **Arquivos de origem**.
+2. Clique na guia **arquivo** , clique em **salvar**, clique em **salvar modelo de formulário como**e, em seguida, clique em **arquivos de origem**.
     
-3. Salvar arquivos de modelo de formulário para uma pasta e abra o arquivo Template. XML em um editor de texto.
+3. Salve os arquivos de modelo de formulário em uma pasta e, em seguida, abra o arquivo template. xml em um editor de texto.
     
-4. Criar e salvar um arquivo com a mesma estrutura Template. XML com os dados de amostra que você deseja usar.
+4. Crie e salve um arquivo com a mesma estrutura que template. XML com os dados de exemplo que você deseja usar.
     
-5. Clique na guia **arquivo** e clique em **Opções de formulário** , na guia **informações** . 
+5. Clique na guia **Arquivo** e em **Opções de Formulário**. Depois, clique na guia **Informações**. 
     
-6. Clique na categoria de **visualização** da caixa de diálogo **Opções de formulário** e, em seguida, em **dados de amostra** , especifique o arquivo de dados de amostra que você criou na caixa **local do arquivo** . 
+6. Clique na categoria **Visualizar** da caixa de diálogo **Opções de formulário** e, em seguida, em dados de **exemplo** , especifique o arquivo de dados de exemplo que você criou na caixa local do **arquivo** . 
     
-## <a name="specifying-a-user-role-to-use-while-debugging-or-previewing"></a>Especificando uma função de usuário para uso durante a depuração ou pré-visualizar
+## <a name="specifying-a-user-role-to-use-while-debugging-or-previewing"></a>Especificando uma função de usuário a ser usada durante a depuração ou a visualização
 
-Se o formulário que você estiver trabalhando com tem funções de usuário definidas para ele, você poderá especificar uma função de usuário a ser usado durante a depuração ou visualizando o formulário. Para obter informações sobre como definir as funções de usuário, consulte a Ajuda do InfoPath para "função do usuário".
+Se o formulário com o qual você está trabalhando tiver funções de usuário definidas para ele, você poderá especificar uma função de usuário a ser usada durante a depuração ou visualização do formulário. Para obter informações sobre como definir funções de usuário, procure "função de usuário" na ajuda do InfoPath.
   
 > [!NOTE]
-> A opção para especificar uma função de usuário não estará disponível se a configuração de compatibilidade para o seu modelo de formulário está definida como **Formulário de navegador da Web**. Funções de usuário não são suportadas nos modelos de formulário abertos no navegador do InfoPath Forms Services. 
+> A opção para especificar uma função de usuário não estará disponível se a configuração de compatibilidade do modelo de formulário estiver definida como **formulário de navegador da Web**. Não há suporte para funções de usuário em modelos de formulário abertos no navegador a partir do InfoPath Forms Services. 
   
-### <a name="to-specify-a-role-to-use-while-debugging-or-previewing"></a>Para especificar uma função usar durante a depuração ou pré-visualizar
+### <a name="to-specify-a-role-to-use-while-debugging-or-previewing"></a>Para especificar uma função a ser usada durante a depuração ou a visualização
 
-1. Se você estiver trabalhando no Visual Studio 2012, alterne para o InfoPath designer.
+1. Se você estiver trabalhando no Visual Studio 2012, alterne para o designer do InfoPath.
     
-2. Clique na guia **arquivo** e clique em **Opções de formulário** , na guia **informações** . 
+2. Clique na guia **Arquivo** e em **Opções de Formulário**. Depois, clique na guia **Informações**. 
     
-3. Clique na categoria de **visualização** da caixa de diálogo **Opções de formulário** e especifique a função de usuário para usar na caixa de lista suspensa **Preview como** . 
+3. Clique na categoria **Visualizar** da caixa de diálogo **Opções de formulário** e, em seguida, especifique a função de usuário a ser usada na caixa de menu de **visualização como** . 
     
-## <a name="specifying-a-domain-to-use-while-debugging-or-previewing"></a>A especificação de um domínio para uso durante a depuração ou pré-visualizar
+## <a name="specifying-a-domain-to-use-while-debugging-or-previewing"></a>Especificando um domínio a ser usado durante a depuração ou visualização
 
-Você pode visualizar um formulário como se ele foi publicado para um domínio específico. Essa configuração se aplicará somente se o nível de segurança do modelo de formulário é definido explicitamente como **domínio**.
+Você pode visualizar um formulário como se ele tenha sido publicado em um domínio específico. Essa configuração só será aplicada se o nível de segurança do modelo de formulário estiver explicitamente definido como **Domain**.
   
-### <a name="to-specify-a-domain-to-use-while-debugging-or-previewing"></a>Para especificar um domínio a ser usado durante a depuração ou pré-visualizar
+### <a name="to-specify-a-domain-to-use-while-debugging-or-previewing"></a>Para especificar um domínio a ser usado durante a depuração ou visualização
 
-1. Se você estiver trabalhando no Visual Studio 2012, alterne para o InfoPath designer.
+1. Se você estiver trabalhando no Visual Studio 2012, alterne para o designer do InfoPath.
     
-2. Clique na guia **arquivo** e clique em **Opções de formulário** , na guia **informações** . 
+2. Clique na guia **Arquivo** e em **Opções de Formulário**. Depois, clique na guia **Informações**. 
     
-3. Clique na categoria de **visualização** da caixa de diálogo **Opções de formulário** e, em seguida, especifique o domínio a ser usado durante a visualização e depuração na caixa **domínio** . 
+3. Clique na categoria **Visualizar** da caixa de diálogo **Opções de formulário** e, em seguida, especifique o domínio a ser usado durante a visualização e a depuração na caixa **domínio** . 
     
-4. Clique na categoria de **segurança e confiança** da caixa de diálogo **Opções de formulários** , desmarque a caixa de seleção **determinar automaticamente o nível de segurança** e, em seguida, clique em **domínio**.
+4. Clique na categoria **segurança e confiança** da caixa de diálogo **Opções de formulários** , desmarque a caixa de seleção **determinar automaticamente o nível de segurança** e clique em **domínio**.
     
 

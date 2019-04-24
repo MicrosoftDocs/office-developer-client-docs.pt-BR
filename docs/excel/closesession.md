@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: af8f7398ed9d5edfbf1615930874a800d8835487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9186fb14c33d507b8c9ae709a67f1b43e6206d5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304134"
 ---
 # <a name="closesession"></a>CloseSession
 
@@ -26,13 +26,13 @@ int CloseSession(int SessionId)
 
 ## <a name="parameters"></a>Parâmetros
 
-_SessionId_
+_Identificação_da_sessão_
   
-> A identificação da sessão para fechar. Este valor deve corresponder o valor retornado pela [OpenSession](opensession.md).
+> A ID da sessão a ser fechada. Esse valor deve corresponder ao valor retornado por [OpenSession](opensession.md).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se a sessão é fechada; **xlHpcRetInvalidSessionId** se o argumento _SessionId_ é inválido; **xlHpcRetCallFailed** em outras falhas. 
+**xlHpcRetSuccess** se a sessão foi fechada; **xlHpcRetInvalidSessionId** se o argumento _SessionID_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
   
 ## <a name="see-also"></a>Confira também
 

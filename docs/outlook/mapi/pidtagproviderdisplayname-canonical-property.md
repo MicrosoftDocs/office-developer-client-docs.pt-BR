@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4629e4e932151978f551e4a89c6682a26a91eafe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41c255da456483695f43e06e4ae07cd1643d0733
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286478"
 ---
 # <a name="pidtagproviderdisplayname-canonical-property"></a>Propriedade canônica PidTagProviderDisplayName
 
@@ -32,19 +32,19 @@ Contém o nome de exibição de um provedor.
 |Propriedades associadas:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Identificador:  <br/> |0x3418  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
+|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

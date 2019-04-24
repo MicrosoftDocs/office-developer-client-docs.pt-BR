@@ -8,47 +8,47 @@ f1_keywords:
 - Vis_DSS.chm82251464
 localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
-description: Retorna um número inteiro entre 0 e 59 que representa o componente de minutos de datetime ou expression.
-ms.openlocfilehash: 7c35ec15f2cebd95bb09924ca94f20630c862360
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna um inteiro de 0 a 59 que representa o componente de minutos de DateTime ou expressão.
+ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283969"
 ---
 # <a name="minute-function-visioshapesheet"></a>Função MINUTE (VisioShapeSheet)
 
-Retorna um número inteiro entre 0 e 59 que representa o componente de minutos de *datetime* ou *expression* . 
+Retorna um inteiro de 0 a 59 que representa o componente de minutos de *DateTime* ou *expressão* . 
   
 ## <a name="syntax"></a>Sintaxe
 
-MINUTO (" *datetime* " |  *expressão*  [, *lcid* ]) 
+MINUTE (" *DateTime* " |  *expressão*  [, *LCID* ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
 | _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que gere data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Inteiro
   
 ## <a name="remarks"></a>Comentários
 
-O componente de data em _datetime_ e _expression_ é desconsiderado. 
+O componente de data em _DateTime_ e _expression_ é Descartado. 
   
-É feito nenhum arredondamento. Se _datetime_ estiver faltando ou não puder ser convertida para um resultado válido, a função retornará um erro. 
+Não é feito nenhum arredondamento. Se a _data/hora_ estiver ausente ou não puder ser convertida em um resultado válido, a função retornará um erro. 
   
 O valor retornado é formatado de acordo com o estilo de hora definido pelas Configurações Regionais atuais do sistema.
   
-A função MINUTE também aceita um valor de número único para _expression_ em que a parte decimal representa a fração de um dia desde a meia-noite. 
+A função MINUTE também aceita um valor de número único para _expressão_ em que a parte decimal representa a fração de um dia desde a meia-noite. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-MINUTE("07/07/99 13:45:24")
+MINUTE ("7/7/1999 13:45:24")
   
 Retornará 45.
   
@@ -60,7 +60,7 @@ Retornará 13.
   
 ## <a name="example-3"></a>Exemplo 3
 
-MINUTE(0.575)
+MINUTE (0.575)
   
 Retornará 48.
   

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d34c296d-e874-b5f3-9232-e1cfe01c7eab
 description: Contém uma linha e células para cada alça de controle definida para a forma.
-ms.openlocfilehash: 4e85ba0f59e27679e5c9928bc16ebe10ae302d09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0ca91803d866a3d11f255273c2e338d7e7dc74a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282975"
 ---
 # <a name="controls-section"></a>Seção Controls
 
@@ -22,6 +22,6 @@ Contém uma linha e células para cada alça de controle definida para a forma.
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir as alças de controle, na seção **controles** na janela ShapeSheet. Se a forma não tiver nenhum seção **Controls** , você pode inserir um na janela ShapeSheet. Com o botão direito na janela ShapeSheet, clique em **Inserir seção**e, em seguida, marque a caixa de seleção de **controles** . Para adicionar as alças de controle a uma seção **Controls** existente, do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
+Você pode definir as alças de controle na seção **controles** da janela ShapeSheet. Se a forma não tiver nenhuma seção **Controls** , você poderá inserir uma na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e marque a caixa de seleção **Controles**. Para adicionar alças de controle a uma seção **controles** existentes, clique com o botão direito do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
   
 

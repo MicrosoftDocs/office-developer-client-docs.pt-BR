@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e253aa6a701d565fbc61e8a0e0a6388f7199c000
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280124"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -42,87 +42,87 @@ HRESULT CopyMessages(
 
  _lpMsgList_
   
-> [in] Um ponteiro para uma matriz de estruturas [ENTRYLIST](entrylist.md) que identificam a mensagem ou mensagens para copiar ou mover. 
+> no Um ponteiro para uma matriz de [](entrylist.md) estruturas de ENTRYLIST que identificam a mensagem ou mensagens a serem copiadas ou movidas. 
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar a pasta de destino apontado pelo parâmetro _lpDestFolder_ . Passagem nula resulta em retornando a interface de pasta padrão, o provedor de serviços [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Os clientes devem passar NULL. Outros chamadores podem definir o parâmetro _lpInterface_ IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta de destino indicada pelo parâmetro _lpDestFolder_ . Passar resultados nulos no provedor de serviços retornando a interface de pasta padrão, [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Os clientes devem passar NULL. Outros chamadores podem definir o parâmetro _lpInterface_ como IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
     
  _lpDestFolder_
   
-> [in] Um ponteiro para a pasta aberta para receber as mensagens copiadas ou movidas.
+> no Um ponteiro para a pasta aberta para receber as mensagens copiadas ou movidas.
     
  _ulUIParam_
   
-> [in] Um identificador para a janela do pai de quaisquer caixas de diálogo ou windows esse método exibe. O parâmetro _ulUIParam_ é ignorado, a menos que o cliente define o sinalizador MESSAGE_DIALOG no parâmetro _ulFlags_ e transmite NULL no parâmetro _lpProgress_ . 
+> no Uma alça para a janela pai de qualquer caixa de diálogo ou Windows este método é exibido. O parâmetro _ulUIParam_ é ignorado, a menos que o cliente defina o sinalizador MESSAGE_DIALOG no parâmetro _PARÂMETROULFLAGS_ e passe nulo no parâmetro _lpProgress_ . 
     
  _lpProgress_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG está definido na _ulFlags_.
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido em _parâmetroulflags_.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a operação de cópia ou movimentação é realizada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam como a operação de cópia ou movimentação é realizada. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DECLINE_OK 
   
-> Informa o provedor de armazenamento de mensagem para retornar imediatamente MAPI_E_DECLINE_COPY se ele implementa **IMAPIFolder::CopyMessages** chamando o método [IMAPISupport::DoCopyTo](imapisupport-docopyto.md) ou [IMAPISupport::DoCopyProps](imapisupport-docopyprops.md) de suporte do objeto. 
+> Informa ao provedor de repositório de mensagens para retornar imediatamente o MAPI_E_DECLINE_COPY se ele implementar **IMAPIFolder:: CopyMessages** chamando o objeto support [IMAPISupport::D ocopyto](imapisupport-docopyto.md) ou [IMAPISupport::D método ocopyprops](imapisupport-docopyprops.md) . 
     
 MESSAGE_DIALOG 
   
-> Exibe um indicador de progresso conforme continua a operação.
+> Exibe um indicador de progresso à medida que a operação prossegue.
     
 MESSAGE_MOVE 
   
-> A mensagem ou mensagens deverão ser movidos, em vez de copiados. Se MESSAGE_MOVE não estiver definida, as mensagens serão copiadas.
+> A mensagem ou as mensagens devem ser movidas em vez de copiadas. Se MESSAGE_MOVE não for definido, as mensagens serão copiadas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A mensagem ou mensagens foram com êxito copiadas ou movidas.
+> A mensagem ou mensagens foram copiadas ou movidas com êxito.
     
 MAPI_E_DECLINE_COPY 
   
-> O provedor implemente esse método chamando um método de objeto de suporte e o chamador passou o sinalizador MAPI_DECLINE_OK.
+> O provedor implementa esse método chamando um método de objeto support e o chamador passou o sinalizador MAPI_DECLINE_OK.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada foi bem-sucedida, mas nem todas as entradas foram copiadas ou movidas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas nem todas as entradas foram copiadas ou movidas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::CopyMessages** copia ou mova mensagens para outra pasta. 
+O método **IMAPIFolder:: CopyMessages** copia ou move mensagens para outra pasta. 
   
-Mensagens que são abertas com leitura/gravação permissão pode ser movido ou copiado. 
+As mensagens abertas com permissão de leitura/gravação podem ser movidas ou copiadas. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se você estiver copiando mensagens para outro repositório de mensagens sem usar o método [IMAPISupport::CopyMessages](imapisupport-copymessages.md) , primeiro você deve chamar [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) com o sinalizador GENERATE_RECEIPT_ONLY definido. O armazenamento de recebimento de mensagens não é responsável por gerar relatórios de leitura para as mensagens copiadas ou movidas. Se você estiver chamando **IMAPISupport::CopyMessages** para implementar **IMAPIFolder::CopyMessages**, não for chamado **SetReadFlags**; MAPI irá chamá-lo. 
+Se você estiver copiando mensagens para outro repositório de mensagens sem usar o método [IMAPISupport:: CopyMessages](imapisupport-copymessages.md) , primeiro você deve chamar [IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md) com o sinalizador GENERATE_RECEIPT_ONLY definido. O repositório de mensagens de recebimento não é responsável por gerar relatórios de leitura para as mensagens copiadas ou movidas. Se você estiver chamando **IMAPISupport:: CopyMessages** para implementar **IMAPIFolder:: CopyMessages**, não chame **SetReadFlags**; O MAPI o chamará. 
   
-A implementação pode mover ou copiar as mensagens em qualquer ordem e gerar relatórios de status de leitura em qualquer ordem. Ou seja, você pode concluir copiem mensagens antes de gerar qualquer um dos relatórios de status de leitura ou enviar relatórios antes de sua implementação inicia a operação de cópia. No entanto, ler relatórios devem ser enviados para todas as mensagens a serem copiados, independentemente se a cópia é bem-sucedida.
+Sua implementação pode mover ou copiar as mensagens em qualquer ordem e gerar relatórios de status de leitura em qualquer ordem. Ou seja, você pode concluir a cópia de mensagens antes de gerar qualquer um dos relatórios de status de leitura ou enviar os relatórios antes que sua implementação inicie a operação de cópia. No enTanto, os relatórios de leitura devem ser enviados para que todas as mensagens sejam copiadas, independentemente da cópia ter sido bem-sucedida.
   
-Quando a operação de cópia ou movimentação envolve mais de uma mensagem, execute a operação como completamente. Não interrompa a operação prematuramente, a menos que ocorre uma falha que está fora de seu controle, como ficando sem memória, ficando sem espaço em disco ou corrupção no repositório de mensagem.
+Quando a operação de cópia ou movimentação envolve mais de uma mensagem, execute a operação o mais completo possível. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do seu controle, como a falta de memória, ficando sem espaço em disco ou corrupção no repositório de mensagens.
   
-Tente manter os identificadores de entrada entre as operações de movimentação ou cópia. Você também deve preservar identificadores de entrada, embora não seja obrigatório.
+Tente manter os identificadores de entrada nas operações de movimentação ou cópia. Você também deve preservar os identificadores de entrada, embora não seja necessário.
   
-Envie notificações quando você mover ou copiar mensagens para que os clientes seja informados de que suas chamadas para métodos de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) das mensagens podem falhar. 
+Enviar notificações quando você mover ou copiar mensagens para que os clientes sejam Forewarned que suas chamadas para as mensagens de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) podem falhar. 
   
-Não incluir o status da mensagem na cópia ou operação de movimentação. Mover ou copiar um status de mensagem muito afeta o desempenho.
+Não inclua o status de uma mensagem na operação de cópia ou movimentação. Mover ou copiar um status de mensagem afeta muito o desempenho.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Use **IMAPIFolder::CopyMessages** para preencher a pastas de resultados da pesquisa, onde as mensagens são frequentemente agrupadas por pasta pai. 
+Use **IMAPIFolder:: CopyMessages** para preencher as pastas de resultados de pesquisa, onde as mensagens são agrupadas com frequência pela pasta pai. 
   
-Espera esses valores de retorno sob as condições a seguintes.
+Espere estes valores de retorno sob as condições a seguir.
   
-|**Condição**|**Valor retornado**|
+|**Condition**|**Valor retornado**|
 |:-----|:-----|
-|**IMAPIFolder::CopyMessages** tem copiados ou movidos de cada mensagem com êxito.  <br/> |S_OK  <br/> |
-|**IMAPIFolder::CopyMessages** foi capaz de copiar ou mover todas as mensagens com êxito.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**IMAPIFolder::CopyMessages** não pôde concluir.  <br/> |Qualquer valor de erro  <br/> |
+|**IMAPIFolder:: CopyMessages** copiou ou moveu com êxito todas as mensagens.  <br/> |S_OK  <br/> |
+|**IMAPIFolder:: CopyMessages** não pôde copiar ou mover com êxito todas as mensagens.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**IMAPIFolder:: CopyMessages** não pôde ser concluída.  <br/> |Qualquer valor de erro  <br/> |
    
-Quando **IMAPIFolder::CopyMessages** é impossível concluir, não presuma que foi feito nenhum trabalho. **IMAPIFolder::CopyMessages** podem ter sido capaz de copiar ou mover uma ou mais mensagens antes da ocorrência de erro. 
+Quando o **IMAPIFolder:: CopyMessages** não consegue concluir, não presuma que nenhum trabalho foi realizado. **IMAPIFolder:: CopyMessages** pode ser capaz de copiar ou mover uma ou mais mensagens antes de encontrar o erro. 
   
 ## <a name="see-also"></a>Confira também
 

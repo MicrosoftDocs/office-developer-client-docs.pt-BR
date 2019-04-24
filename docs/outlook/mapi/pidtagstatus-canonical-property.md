@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: de2342ef4d3e9d06f198e06dc19c65b7b144624f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278789"
 ---
 # <a name="pidtagstatus-canonical-property"></a>Propriedade canônica PidTagStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387906"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask de 32 bits dos sinalizadores que definem o status de uma pasta.
+Contém um bitmask de 32 bits de sinalizadores que definem o status da pasta.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contém uma bitmask de 32 bits dos sinalizadores que definem o status de uma pas
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade para pastas é semelhante à propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para mensagens. Seus sinalizadores são fornecidos para o aplicativo cliente apenas e não afetam o armazenamento de mensagens. Os clientes podem usar ou ignorar essas configurações. O cliente também pode definir seus próprios valores para os bits podem ser definidos pelo cliente dessa propriedade.
+Essa propriedade para Folders é análoga à propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para mensagens. Seus sinalizadores são fornecidos apenas para o aplicativo cliente e não afetam o repositório de mensagens. Os clientes podem usar ou ignorar essas configurações. O cliente também pode definir seus próprios valores para os bits definíveis pelo cliente dessa propriedade.
   
-Um ou mais dos seguintes sinalizadores podem ser definido para a máscara de bits:
+Um ou mais dos seguintes sinalizadores podem ser definidos para a bitmask:
   
 FLDSTATUS_DELMARKED 
   
-> A pasta é marcada para exclusão. O aplicativo cliente define esse sinalizador.
+> A pasta está marcada para exclusão. O aplicativo cliente define esse sinalizador.
     
 FLDSTATUS_HIDDEN 
   
@@ -50,37 +50,37 @@ FLDSTATUS_HIDDEN
     
 FLDSTATUS_HIGHLIGHTED 
   
-> A pasta é realçada, por exemplo, a mostrada na ordem inversa vídeo.
+> A pasta é realçada, por exemplo, mostrada em vídeo inverso.
     
 FLDSTATUS_TAGGED 
   
 > A pasta está marcada.
     
-Provedores de armazenamento de mensagem definir essa propriedade em uma pasta para um ou mais desses valores e clientes interpretam o status conforme apropriado para seus aplicativos. Por exemplo, um cliente pode usar o status de pasta para diferenciar visualmente as pastas em uma tabela de hierarquia, exibindo pastas com o mesmo status da mesma maneira. Pastas realçadas possam ser exibidas nas pastas de vídeos, marcadas reversos pastas marcadas para exclusão podem ser exibidas com um ícone consistente e pastas ocultas podem estar oculta.
+Provedores de repositórios de mensagens defina essa propriedade em uma pasta como um ou mais desses valores e clientes interpretam o status conforme apropriado para seus aplicativos. Por exemplo, um cliente pode usar o status da pasta para diferenciar visualmente entre pastas em uma tabela de hierarquia, exibindo pastas com o mesmo status da mesma maneira. Pastas reAlçadas podem ser mostradas no vídeo inverso, pastas marcadas e pastas marcadas para exclusão podem ser exibidas com um ícone significativo e pastas ocultas podem ser ocultadas.
   
-Bits 16 a 31 ("0x10000" por meio de "0x80000000") dessa propriedade estarão disponíveis para uso pelo aplicativo cliente IPM. Todos os outros bits são reservados para uso pelo MAPI; aqueles não definidos na lista anterior devem ser definidas inicialmente como zero e não foi alteradas.
+Os bits 16 a 31 ("0x10000" por meio de "0x80000000") dessa propriedade estão disponíveis para uso pelo aplicativo cliente IPM. Todos os outros bits são reservados para uso por MAPI; os não definidos na lista anterior devem ser inicialmente definidos como zero e não alterados.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -88,7 +88,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

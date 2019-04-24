@@ -1,5 +1,5 @@
 ---
-title: Analisar a função (aplicativo da web personalizado do Access)
+title: Função Parse (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,33 +7,33 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09dee0ae-89b2-449c-a3c8-d6b270710b64
 description: Analisa um valor de texto e retorna seu valor em um determinado tipo usando a cultura do aplicativo.
-ms.openlocfilehash: fa3c453f1faeadca173aaace513ee5ba9115c5fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d664985ab1d7a7d33b99c52d5bab4aa714767e40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308054"
 ---
-# <a name="parse-function-access-custom-web-app"></a>Analisar a função (aplicativo da web personalizado do Access)
+# <a name="parse-function-access-custom-web-app"></a>Função Parse (aplicativo Web personalizado do Access)
 
 Analisa um valor de texto e retorna seu valor em um determinado tipo usando a cultura do aplicativo.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Analisar** (*TextExpression*, *DataType*) 
+ **Parse** (*Texté*, *DataType*) 
   
-A função **Analisar** contém os seguintes argumentos. 
+A função **Parse** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar em tipo de dados especificado.  <br/> |
+| *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar o tipo de dados especificado.  <br/> |
 | *DataType*  <br/> |Valor literal que representa o tipo de dados solicitado para o resultado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use a **Analisar** apenas para a conversão de cadeia de caracteres, data/hora e tipos de número. Para conversões de tipo geral, use a função **Converter** . Tenha em mente que há um determinado desempenho sobrecarga na análise o valor de cadeia de caracteres. 
+Use **Parse** somente para conversão de cadeia de caracteres para tipos de data/hora e de número. Para conversões de tipo gerais, use a função **Convert** . Tenha em mente que há uma certa sobrecarga de desempenho na análise do valor da cadeia de caracteres. 
   
 

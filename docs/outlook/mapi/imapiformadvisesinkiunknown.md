@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 68c2af0cd8d7ccddf6aa6017cfb830b196ac0771
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286601"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
@@ -25,29 +25,29 @@ ms.locfileid: "25392057"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que os servidores de formulário receber notificações de visualizadores de formulário. 
+Permite que os servidores de formulário recebam notificações de visualizadores de formulários. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de coletor de eventos de aviso de formulário  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Exposto por:  <br/> |Objetos de coletor de aviso de formulário  <br/> |
 |Implementado por:  <br/> |Servidores de formulário  <br/> |
-|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulários  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFormAdviseSink  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORMADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indica que ocorreu uma alteração no status do Visualizador do formulário.  <br/> |
-|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indica se o formulário pode lidar com a classe de mensagem da próxima mensagem para exibir.  <br/> |
+|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indica que uma alteração ocorreu no status do Visualizador de formulários.  <br/> |
+|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indica se o formulário pode manipular a classe de mensagem da próxima mensagem a ser exibida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Uso de servidores de formulário um formulário avise o objeto coletor de eventos para implementar **IMAPIFormAdviseSink** em vez de incluí-lo com seu objeto form. Portanto, os visualizadores de formulário devem esperar que uma chamada com Falha ao método de [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de um formulário para obter um ponteiro para esta interface. 
+Os servidores de formulário usam um objeto de coletor de aviso de formulário para implementar o **IMAPIFormAdviseSink** em vez de incluí-lo com o objeto Form. Portanto, os visualizadores de formulário devem esperar uma chamada com falha para o método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de um formulário para obter um ponteiro para esta interface. 
   
-Servidores de formulário chame o método de [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) do visualizador para registrar para notificações. Um ponteiro para sua implementação **IMAPIFormAdviseSink** é incluído como um parâmetro. 
+Os servidores de formulário chamam o método [IMAPIViewContext:: SetAdviseSink](imapiviewcontext-setadvisesink.md) de um visualizador para registrar notificações. Um ponteiro para a implementação do **IMAPIFormAdviseSink** está incluído como um parâmetro. 
   
 ## <a name="see-also"></a>Confira também
 

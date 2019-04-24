@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2988f1fc149bbfc2d724b62b12bd12ae4f4664a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286980"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573681"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela um registro de notificação que tenha estabelecido para uma entrada do catálogo de endereços.
+Cancela um registro de notificação estabelecido previamente para uma entrada do catálogo de endereços.
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulConnection_
   
-> [in] Um número de conexão que representa o registro a ser cancelada. O parâmetro _ulConnection_ deve conter um valor retornado por uma chamada anterior para o método [IAddrBook::Advise](iaddrbook-advise.md) . 
+> no Um número de conexão que representa o registro a ser cancelado. O parâmetro _ulConnection_ deve conter um valor retornado por uma chamada anterior para o método [IAddrBook:: Advise](iaddrbook-advise.md) . 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Clientes chame o método de **Unadvise** para parar de receber notificações sobre alterações em uma entrada de catálogo de endereço específica. Quando um registro de notificação for cancelado, as versões de provedor de catálogo de endereços seu ponteiro para o chamador do coletor de eventos de aviso. No entanto, a versão pode ocorrer durante a chamada **Unadvise** ou em algum momento posterior, se outro thread no processo de chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Quando uma notificação estiver em andamento, a versão foi adiada até que o método **OnNotify** retorna. 
+Os clientes chamam o método **Unadvise** para parar de receber notificações sobre alterações em uma entrada de catálogo de endereços específica. Quando um registro de notificação é cancelado, o provedor de catálogo de endereços libera o ponteiro para o coletor de aviso do chamador. No enTanto, o lançamento pode ocorrer durante a chamada a **Unadvise** ou, posteriormente, se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) . Quando uma notificação estiver em andamento, a versão será atrasada até o **** método OnNotify retornar. 
   
 ## <a name="see-also"></a>Confira também
 

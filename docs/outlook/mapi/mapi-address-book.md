@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14f9bff8dbf55456c37e70e1ae7a0c236471b6c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298114"
 ---
 # <a name="mapi-address-book"></a>Catálogo de endereços MAPI
 
@@ -21,36 +21,36 @@ ms.locfileid: "22587919"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O catálogo de endereços integrada é um objeto que implementa a MAPI para fornecer acesso a uma coleção integrada de informações de endereçamento de todos os provedores de catálogo de endereços no perfil. Com o catálogo de endereços, provedores de serviços e aplicativos cliente não precisará diferenciar entre os esquemas de endereçamento exclusivos de sistemas de mensagens. Em vez disso, elas podem consultar os endereços de quaisquer destinatários em qualquer sistema de mensagens, desde que o provedor de catálogo de endereços para o sistema de mensagens está instalado.
+O catálogo de endereços integrado é um objeto que o MAPI implementa para fornecer acesso a uma coleção integrada de informações de endereçamento de todos os provedores de catálogo de endereços no perfil. Com o catálogo de endereços, os aplicativos cliente e os provedores de serviços não precisam diferenciar entre os esquemas de endereçamento exclusivos dos sistemas de mensagens. Em vez disso, eles podem pesquisar os endereços de qualquer destinatário em qualquer sistema de mensagens, desde que o provedor de catálogo de endereços do sistema de mensagens esteja instalado.
   
-O catálogo de endereços pode ser acessado por meio de programação, sem a intervenção do usuário ou interativamente devido ao uso de caixas de diálogo comuns. MAPI inclui caixas de diálogo para exibir uma lista resumida das entradas no catálogo de endereços, informações detalhadas sobre um destinatário específico, um aviso quando um usuário cria um destinatário que não pode ser mapeado para um endereço exclusivo e um conjunto de formulários de modelo para a criação de novos destinatários.
+O catálogo de endereços pode ser acessado programaticamente, sem intervenção do usuário ou interativamente por meio do uso de caixas de diálogo comuns. MAPI inclui caixas de diálogo para exibir uma lista resumida das entradas no catálogo de endereços, informações detalhadas sobre um determinado destinatário, um aviso quando um usuário cria um destinatário que não pode ser mapeado para um endereço exclusivo e um conjunto de formulários de modelo para criar novos Eles.
   
-O catálogo de endereços MAPI é semelhante na estrutura a um armazenamento de mensagens estão organizados hierarquicamente. O catálogo de endereços fornece acesso a três tipos de objetos implementados por um fornecedor de catálogo de endereços:
+O catálogo de endereços MAPI é semelhante em estrutura a um repositório de mensagens, pois ele é organizado hierarquicamente. O catálogo de endereços fornece acesso a três tipos de objetos implementados por um provedor de catálogo de endereços:
   
-- Um objeto de contêiner de catálogo de endereços.
+- Abrir o contêiner de um objeto do catálogo de endereços.
     
-- Um objeto de lista de distribuição.
+- 0" não é um objeto de lista de distribuição.
     
 - Um objeto de usuário de mensagens.
     
-Cada um desses tipos de objetos é acessado através de seu identificador exclusivo de entrada que é atribuído pelo seu provedor de catálogo de endereços. 
+Cada um desses tipos de objetos é acessado por meio de seu identificador de entrada exclusivo que é atribuído pelo seu provedor de catálogo de endereços. 
   
-Contêineres de catálogo de endereços são semelhantes às pastas em que eles objetos de tipos diferentes de espera. Um contêiner de catálogo de endereços pode conter outros contêineres do catálogo de endereços, bem como objetos de usuário e a distribuição da lista de mensagens. Contêineres de catálogo de endereços são usados para organizar e armazenar objetos de catálogo de endereços.
+Os contêineres do catálogo de endereços são semelhantes às pastas nas quais eles contêm objetos de tipos diferentes. Um contêiner de catálogo de endereços pode conter outros contêineres de catálogo de endereços, bem como usuários de mensagens e de lista de distribuição. Os contêineres do catálogo de endereços são usados para organizar e armazenar objetos de catálogo de endereços.
   
-Para obter a aparência de integrado do catálogo de endereços, provedores de catálogo de endereços exponham zero, um ou mais dos seus contêineres de nível superior a MAPI que mescla-los e exibe os resultados em um único contêiner de nível superior. Provedores de catálogo de endereços podem optar por expor um conjunto de recipientes para um tipo de sessão e um conjunto diferente de mensagens para outra sessão. Também é possível para provedores de catálogo de endereços não ter nenhum recipientes de nível superior e expor somente uma lista de modelos que podem ser usados para criar os destinatários.
+Para obter a aparência integrada do catálogo de endereços, os provedores de catálogos de endereços expõem zero, um ou mais de seus contêineres de nível superior para MAPI que os mescla e exibe os resultados em um único contêiner de nível superior. Os provedores de catálogos de endereços podem optar por expor um conjunto de contêineres para um tipo de sessão de mensagens e um conjunto diferente para outra sessão. Também é possível que os provedores de catálogo de endereços não tenham contêineres de nível superior e exponham apenas uma lista de modelos que podem ser usados para criar destinatários.
   
-Os destinatários da mensagem são implementados com mensagens do usuário e objetos de lista de distribuição. Mensagens de usuários são destinatários individuais; as listas de distribuição são os destinatários do grupo. Cada usuário mensagens tem um endereço exclusivo de um determinado tipo manipulado por um sistema de mensagens específico. Uma lista de distribuição é um conjunto nomeado de destinatários. Listas de distribuição podem conter objetos de usuário de mensagens e outras listas de distribuição. Quando um usuário de um aplicativo cliente envia uma mensagem para uma lista de distribuição, a mensagem está sendo enviada para cada um dos membros de usuário mensagens da lista. 
+Os destinatários da mensagem são implementados com o usuário de mensagens e os objetos de lista de distribuição. Os usuários de mensagens são destinatários individuais; as listas de distribuição são destinatários de grupo. Cada usuário de sistema de mensagens tem um endereço exclusivo de um tipo específico tratado por um sistema de mensagens específico. Uma lista de distribuição é uma coleção nomeada de destinatários. As listas de distribuição podem conter objetos de usuário de mensagens e outras listas de distribuição. Quando um usuário de um aplicativo cliente envia uma mensagem para uma lista de distribuição, a mensagem é enviada a cada um dos membros do usuário de mensagens da lista. 
   
-Usuários de mensagens e listas de distribuição têm um conjunto de cinco propriedades que são conhecidas como as propriedades de endereço base. Essas são as propriedades necessárias e são descritas resumidamente como a seguir.
+Os usuários de mensagens e as listas de distribuição têm um conjunto de cinco propriedades conhecidas como as propriedades de endereço base. Essas são propriedades obrigatórias e são descritas brevemente da seguinte maneira.
   
-|**Propriedade endereço base**|**Descrição**|
+|**Propriedade de endereço base**|**Descrição**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Tipo de endereço do destinatário. Cada tipo de endereço segue um determinado formato e é usado com um sistema de mensagens específico.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nome para exibição para o destinatário.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Tipo de endereço do destinatário. Cada tipo de endereço segue um formato específico e é usado com um sistema de mensagens específico.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nome para exibição do destinatário.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Endereço do destinatário.  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificador de entrada usado para acessar o destinatário.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Tecla comparável binária usada para identificar o destinatário.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Chave semelhante binária usada para identificar o destinatário.  <br/> |
    
-MAPI define vários grupos de propriedades que são variações das propriedades de endereço base. Esses outros grupos descrevem mensagens de usuários e listas de distribuição em situações diferentes. Por exemplo, um grupo de propriedades descreve o remetente do representante de uma mensagem e o destinatário do representante de outro grupo.
+MAPI define muitos grupos de propriedades que são variações das propriedades de endereço base. Esses outros grupos descrevem os usuários de mensagens e as listas de distribuição em diferentes situações. Por exemplo, um grupo de propriedades descreve o remetente de representante de uma mensagem e outro grupo o destinatário do representante.
   
 

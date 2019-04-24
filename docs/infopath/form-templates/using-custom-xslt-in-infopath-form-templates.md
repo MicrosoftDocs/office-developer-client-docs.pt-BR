@@ -1,23 +1,23 @@
 ---
-title: Usar o XSLT personalizado em modelos de formulário do InfoPath
+title: Usando XSLT personalizado em modelos de formulário do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 32c80bcd-a5d6-af32-38ba-9ca9ff148b99
-description: Você pode criar a maioria dos elementos de modo de exibição, que você provavelmente precisa no Microsoft InfoPath form designer. Se você precisar de um elemento de exibição personalizada que InfoPath não pode criar para você, no entanto, você pode modificar manualmente o XSL Transformation (XSLT) que usa o InfoPath para gerar o modo de exibição. Para fazer isso, extrair o formulário em seus arquivos de componente usando exportar os arquivos de origem na guia Publicar do Microsoft Office Backstage e editar a transformação no seu editor XML preferido, como o bloco de notas ou o Microsoft Visual Studio.
-ms.openlocfilehash: 796115c99c81fc2a77812d91d317f5ce9ed54e5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Você pode criar a maior parte dos elementos de exibição que provavelmente precisará no designer de formulários do Microsoft InfoPath. No entanto, se você precisar de um elemento de exibição personalizado que o InfoPath não possa criar para você, poderá modificar manualmente a transformação em XSL (XSLT) que o InfoPath usa para gerar o modo de exibição. Para fazer isso, extraia o formulário em seus arquivos de componente usando exportar arquivos de origem na guia publicar do Microsoft Office Backstage e edite a transformação no editor de XML preferencial, como Microsoft Visual Studio ou bloco de notas.
+ms.openlocfilehash: a61980191dbedeec33b06ad8173ce50126fea781
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299899"
 ---
-# <a name="using-custom-xslt-in-infopath-form-templates"></a>Usar o XSLT personalizado em modelos de formulário do InfoPath
+# <a name="using-custom-xslt-in-infopath-form-templates"></a>Usando XSLT personalizado em modelos de formulário do InfoPath
 
-Você pode criar a maioria dos elementos de modo de exibição, que você provavelmente precisa no Microsoft InfoPath form designer. Se você precisar de um elemento de exibição personalizada que InfoPath não pode criar para você, no entanto, você pode modificar manualmente o XSL Transformation (XSLT) que usa o InfoPath para gerar o modo de exibição. Para fazer isso, extrair o formulário em seus arquivos de componente usando **Exportar arquivos de origem** , na guia **Publicar** do Microsoft Office Backstage e editar a transformação no seu editor XML preferido, como o bloco de notas ou o Microsoft Visual Studio. 
+Você pode criar a maior parte dos elementos de exibição que provavelmente precisará no designer de formulários do Microsoft InfoPath. No entanto, se você precisar de um elemento de exibição personalizado que o InfoPath não possa criar para você, poderá modificar manualmente a transformação em XSL (XSLT) que o InfoPath usa para gerar o modo de exibição. Para fazer isso, extraia o formulário em seus arquivos de componente usando **exportar arquivos de origem** na guia **publicar** do Microsoft Office Backstage e edite a transformação no editor de XML preferencial, como Microsoft Visual Studio ou bloco de notas. 
   
-Se você fazer alterações em uma transformação de modo de exibição fora do InfoPath e, em seguida, abra a exibição no modo de design e fazer alterações, o InfoPath substituirá as alterações feitas manualmente. Para manter o InfoPath substituam as alterações feitas, coloque essas alterações em um `<xsl:template>` elemento na transformação e o uso do `xd:preserve` modo, conforme mostrado aqui: 
+Se você fizer alterações em uma transformação de exibição fora do InfoPath e, em seguida, abrir o modo de exibição no modo de design e fizer alterações, o InfoPath substituirá as alterações feitas manualmente. Para impedir que o InfoPath substitua as alterações feitas, você deve colocar essas alterações em um `<xsl:template>` elemento na transformação e usar o `xd:preserve` modo, conforme mostrado aqui: 
   
 ```XML
 <xsl:template match="my:field1" mode="xd:preserve"> 
@@ -27,12 +27,12 @@ Se você fazer alterações em uma transformação de modo de exibição fora do
 </xsl:template>
 ```
 
-Para incluir o modelo no arquivo transformado, use o `<xsl:apply-templates>` elemento com o mesmo `xd:preserve` modo: 
+Para incluir o modelo no arquivo transformado, use `<xsl:apply-templates>` o elemento com o `xd:preserve` mesmo modo: 
   
 ```XML
 <xsl:apply-templates select="my:field1" mode="xd:preserve"/>
 ```
 
-Elementos e construções definidas dentro de modelos XSL com o `xd:preserve` modo não será exibido no ambiente de design do InfoPath. Em vez disso, o InfoPath marcará a seção personalizada com um controle rotulado **Preservar o bloco de código** com uma borda vermelha. Quando um usuário abre o formulário para preenchê-lo, as transformações XSL personalizadas são aplicadas e os controles de **Preservar o bloco de código** não serão exibida. 
+Elementos e construções definidos em modelos XSL com o `xd:preserve` modo não serão exibidos no ambiente de design do InfoPath. Em vez disso, o InfoPath marcará a seção personalizada com um controle rotulado como **preservar bloco de código** com uma borda vermelha. Quando um usuário abre o formulário para preenchê-lo, as transformações XSL personalizadas são aplicadas e os controles de **preservar bloco de código** não serão exibidos. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Célula YRulerOrigin (Seção Ruler &amp; Grid)
+title: Célula YRulerOrigin (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
 description: Especifica o ponto zero na régua do eixo y da página.
-ms.openlocfilehash: 143f372d66ee25e90608a9b2eb252a99e7bcc52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ead9ca453bfeb86f32a943950b297b9b629de95d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284962"
 ---
-# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Célula YRulerOrigin (Seção Ruler &amp; Grid)
+# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Célula YRulerOrigin (seção &amp; Ruler Grid)
 
 Especifica o ponto zero na régua do eixo y da página.
   
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à opção vertical **zero da régua** no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção de **zero da régua** vertical na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula YRulerOrigin pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ec5ad586d06be96a17ed2a56504e65ebb50afc19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 949d20d7158639a0b3e8e71f431b76edc048b38e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303021"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Propriedade canônica PidTagContactAddressTypes
 
@@ -25,7 +25,7 @@ ms.locfileid: "22569901"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de tipos de endereço de um contato.
+Contém uma lista de tipos de endereço para um contato.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contém uma lista de tipos de endereço de um contato.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

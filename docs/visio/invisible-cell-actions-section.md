@@ -8,13 +8,13 @@ f1_keywords:
 - vis_sdr.chm60046
 localization_priority: Normal
 ms.assetid: 070b4468-c907-b201-1633-1d3e10ecc2b2
-description: Indica se uma ação é visível em um menu de atalho ou marca de ação.
-ms.openlocfilehash: 8749b7d6db4a932b97c68ab5cf30b879a57d28f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indica se a ação ficará visível no menu de marca de ação ou atalho.
+ms.openlocfilehash: 69bc96e76f27a64d6e1443f045c27566f598c1db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297239"
 ---
 # <a name="invisible-cell-actions-section"></a>Célula Invisible (Seção Actions)
 
@@ -25,8 +25,8 @@ Indica se uma ação é visível em um menu de atalho ou marca de ação.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A ação não é visível no menu.  <br/> |
-|FALSO  <br/> |A ação é visível no menu (padrão).  <br/> |
+|TRUE  <br/> |A ação não é visível no menu.  <br/> |
+|FALSE  <br/> |A ação é visível no menu (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,7 +34,7 @@ Para obter uma referência para a célula Invisible pelo nome, de outra fórmula
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações de Invisiblewhere.  *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Ações Invisibleonde.  *Name* é o nome da linha de ações  <br/> |
    
 Para obter uma referência para a célula Invisible pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

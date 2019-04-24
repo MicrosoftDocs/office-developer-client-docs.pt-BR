@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: O modelo de segurança do Microsoft InfoPath baseia-se no modelo de segurança implementado pelo Internet Explorer. O modelo de segurança do Internet Explorer ajuda a proteger seu computador de operações perigosas usando níveis e zonas de segurança. Trabalhando em equipe com o modelo de segurança do Internet Explorer, o InfoPath oferece dois tipos de implantação de formulários que afetam como um formulário do InfoPath funciona nesse modelo de segurança.
 ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303770"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>Conceitos de segurança adicionais do formulário do InfoPath
 
@@ -108,15 +108,15 @@ A tabela a seguir resume as permissões padrão para cada método de implantaç�
 |:-----|:-----|:-----|
 ||**Baseado em URL** <br/> |**Baseado em URN** <br/> |**ActiveX marcado como não seguro para execução de script** <br/> |**Acesso de dados entre domínios** <br/> |**Nível de segurança do modelo de objeto** <br/> |
 |Sites restritos  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |
-|Internet  <br/> |X  <br/> ||Desabilitar  <br/> |Desabilitar  <br/> |2  <br/> |
-|Intranet local  <br/> |X  <br/> ||Desabilitar  <br/> |Prompt  <br/> |2  <br/> |
-|Sites confiáveis  <br/> |X  <br/> ||Prompt  <br/> |Habilitar  <br/> |2  <br/> |
-|Máquina Local  <br/> |X  <br/> |X  <br/> |Desabilitar  <br/> |Prompt  <br/> |2  <br/> |
-|Formulário totalmente confiável  <br/> |X (assinado por um Fornecedor Confiável)  <br/> |X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3  <br/> |
-|Formulário totalmente confiável  <br/> ||X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3  <br/> |
-|Restrito  <br/> ||X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2  <br/> |
-|Restrito  <br/> |X  <br/> ||Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2  <br/> |
-|Restrito  <br/> |X  <br/> |X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2  <br/> |
+|Internet  <br/> |X  <br/> ||Desabilitar  <br/> |Desabilitar  <br/> |duas  <br/> |
+|Intranet local  <br/> |X  <br/> ||Desabilitar  <br/> |Prompt  <br/> |duas  <br/> |
+|Sites confiáveis  <br/> |X  <br/> ||Prompt  <br/> |Habilitar  <br/> |duas  <br/> |
+|Máquina Local  <br/> |X  <br/> |X  <br/> |Desabilitar  <br/> |Prompt  <br/> |duas  <br/> |
+|Formulário totalmente confiável  <br/> |X (assinado por um Fornecedor Confiável)  <br/> |X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3D  <br/> |
+|Formulário totalmente confiável  <br/> ||X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3D  <br/> |
+|Restrito  <br/> ||X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
+|Restrito  <br/> |X  <br/> ||Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
+|Restrito  <br/> |X  <br/> |X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
    
 Para saber mais sobre as diretrizes gerais de segurança ao desenvolver formulários, confira [Diretrizes de segurança para desenvolver formulários do InfoPath](security-guidelines-for-developing-infopath-forms.md).
   

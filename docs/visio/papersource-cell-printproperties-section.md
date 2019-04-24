@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 771a2ab4-578d-51c3-fabd-138f7952bb11
 description: Determina a fonte de papel para a página.
-ms.openlocfilehash: f1dedf210dfe0dd8cac3d36fdec03fb497f6572c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb6e7daccb1743c43a30b34598e47187496e4aac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301460"
 ---
-# <a name="papersource-cell-printproperties-section"></a>Célula PaperSource (Seção Print Properties)
+# <a name="papersource-cell-printproperties-section"></a>Célula PaperSource (Seção PrintProperties)
 
 Determina a fonte de papel para a página. 
   
@@ -24,7 +24,7 @@ Determina a fonte de papel para a página.
 
 Essa configuração corresponde à configuração **Fonte de Papel** da caixa de diálogo **Configurar Impressão** (na guia **Design**, clique na seta **Configurar Página** e, na guia **Configurar Impressão**, clique em **Configurar**).
   
-Os valores numéricos dessa célula são mapeados de acordo com constantes (prefixadas com DMBIN) definidos para seleções de compartimento no arquivo wingdi do Microsoft Windows; Por exemplo, o valor 7 representa DMBIN_AUTO. 
+Os valores numéricos nesta célula mapeiam as constantes (prefixadas com DMBIN) definidas para seleções de bin no arquivo WinGDI. h do Microsoft Windows; por exemplo, o valor 7 representa DMBIN_AUTO. 
   
 Para obter uma referência para a célula PaperSource pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

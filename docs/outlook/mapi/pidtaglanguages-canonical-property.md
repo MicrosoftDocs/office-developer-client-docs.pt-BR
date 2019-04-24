@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 16d4e92d-d48e-4e06-9886-2d21f3d10640
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4cd001e8d919765df9003e89c3eb3e00cde3bf55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f3d8693644020dd77877db219b000f8f8c804376
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280391"
 ---
 # <a name="pidtaglanguages-canonical-property"></a>Propriedade canônica PidTagLanguages
 
@@ -25,30 +25,30 @@ ms.locfileid: "22580345"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de ASCII dos idiomas incorporadas em uma mensagem. 
+Contém uma lista ASCII dos idiomas que são incorporados em uma mensagem. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_LANGUAGES, PR_LANGUAGES_A, PR_LANGUAGES_W  <br/> |
 |Identificador:  <br/> |0x002F  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm uma sequência de códigos de país/região de dois caracteres que são separados por vírgulas. 
+Essas propriedades contêm uma sequência de códigos de país/região de dois caracteres separados por vírgulas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm82251477
 localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
-description: Retorna a coordenada x, y de um ponto no sistema de coordenadas do pai da forma.
-ms.openlocfilehash: a3f7afd3f9bc988a20526451a6d7d7081d27a2d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna as coordenadas x, y de um ponto no sistema de coordenadas do pai da forma.
+ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269941"
 ---
 # <a name="par-function"></a>Função PAR
 
@@ -22,21 +22,21 @@ Retorna as coordenadas _x, y_ de um ponto no sistema de coordenadas do pai da fo
   
 ## <a name="syntax"></a>Sintaxe
 
-PAR (* * *aponte* * *) 
+PAR (* * *ponto* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _ponto_ <br/> |Obrigatório  <br/> |**Número, Número** <br/> |As coordenadas do ponto do sistema de coordenadas da forma atual.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-No Microsoft Visio, um ponto é um valor único que incorpora um par de *x* e *y* -coordenadas. Se a forma estiver em um grupo, seu pai é o grupo. Se a forma não estiver em um grupo, seu pai é a página. 
+No Microsoft Visio, um ponto é um valor único que incorpora um par de coordenadas *x* e *y* . Se a forma estiver em um grupo, seu pai será o grupo. Se não estiver em um grupo, seu pai será a página. 
   
 ## <a name="example"></a>Exemplo
 
-PAR(PNT(PinX,PinY)) 
+PAR (PNT (PinX, PinY)) 
   
 Nesta expressão, PNT converte um par de coordenadas na forma atual em um ponto. Em seguida, PAR converte o ponto em um par de coordenadas em relação ao canto inferior esquerdo da página ou do grupo que contém a forma atual. 
   

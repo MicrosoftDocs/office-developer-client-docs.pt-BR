@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e50589b52f3e99bf2569a55bb7d3ca4f8247fd6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b5b9c42d944ad9d3ce92e99d08d29964944c8028
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282800"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
@@ -27,7 +27,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLEDIT](dtbledit.md) para
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
@@ -42,11 +42,11 @@ _n_
     
 _u_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblEdit** permite definir um controle de edição quando o número de caracteres enabled é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblEdit** permite definir um controle de edição quando o número de caracteres habilitados é conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante de macro **SizedDtblEdit** como um ponteiro de estrutura **DTBLEDIT** , execute a seguinte projeção: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblEdit** como um ponteiro de estrutura **DTBLEDIT** , execute a seguinte conversão: 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

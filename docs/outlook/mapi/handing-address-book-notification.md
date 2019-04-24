@@ -8,33 +8,33 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 122e50328272a4009e5a129233d449613817dfc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299500"
 ---
 # <a name="handing-address-book-notification"></a>Manipula notificações do catálogo de endereços
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notificações de catálogo de endereços permitem que um cliente saiba de eventos que ocorrem com qualquer entrada do catálogo de endereços ou como uma entrada específica. Você pode registrar para essas notificações por meio do catálogo de endereços MAPI chamando [IAddrBook::Advise](iaddrbook-advise.md) ou hierarquia de um contêiner catálogo de endereços ou de tabela de conteúdo chamando [IMAPITable::Advise](imapitable-advise.md). 
+As notificações do catálogo de endereços permitem que um cliente Aprenda eventos que ocorrem a qualquer entrada do catálogo de endereços ou a uma entrada específica. Você pode registrar essas notificações por meio do catálogo de endereços MAPI chamando [IAddrBook:: Advise](iaddrbook-advise.md) ou por meio de uma hierarquia de conteúdo do contêiner de catálogo de endereços ou tabela de conteúdo chamando IMAPITable [:: Advise](imapitable-advise.md). 
   
-Especifique o identificador de entrada de um contêiner de catálogo de endereços, lista de distribuição ou mensagens de usuário, se você está registrando para notificações em uma entrada específica e NULL se registrando para notificações de catálogo de endereços inteira. O identificador de entrada deve representar um usuário de mensagens ou a lista de distribuição em um contêiner de catálogo de endereços. **IAddrBook::Advise** examina esse identificador de entrada para determinar qual endereço do provedor de catálogo é responsável pelo objeto correspondente e encaminha a chamada ao método de [IABLogon::Advise](iablogon-advise.md) do provedor de catálogo de endereço apropriado. 
+Especifique o identificador de entrada de um contêiner de catálogo de endereços, lista de distribuição ou usuário de mensagens se você estiver se registrando para notificações em uma determinada entrada e nulo se estiver se registrando para notificações em todo o catálogo de endereços. O identificador de entrada deve representar um usuário de mensagens ou uma lista de distribuição em um contêiner de catálogo de endereços. **IAddrBook:: Advise** examina esse identificador de entrada para determinar qual provedor de catálogo de endereços é responsável pelo objeto correspondente e encaminha a chamada para o método [IABLogon:: Advise](iablogon-advise.md) do provedor de catálogo de endereços apropriado. 
   
-Os clientes podem se inscrever para os seguintes tipos de eventos de entradas do catálogo de endereços:
+Os clientes podem se registrar nos seguintes tipos de eventos nas entradas do catálogo de endereços:
   
 - Erro crítico
     
-- Qualquer um dos eventos de objeto (criado, modificado, excluído, movido ou copiadas)
+- Qualquer um dos eventos de objeto (criado, modificado, excluído, movido ou copiado)
     
 - Tabela modificada
     
-Normalmente, o registro ocorre apenas no conteúdo do recipiente de catálogo de endereços e tabelas de hierarquias. É rara que clientes registrar os objetos de usuário e a distribuição da lista de mensagens com nível inferior. Isso acontece porque:
+Normalmente, o registro ocorre somente no conteúdo do contêiner do catálogo de endereços e tabelas de hierarquia. É raro que os clientes sejam registrados com o usuário de sistema de mensagens de nível inferior e os objetos de lista de distribuição. Isso ocorre porque:
   
-- Muitos provedores de catálogo de endereços não dão suporte a notificações em suas mensagens de usuários e listas de distribuição.
+- Muitos provedores de catálogo de endereços não dão suporte a notificações em seus usuários de mensagens e listas de distribuição.
     
-- Notificações de tabela são suficientes para o controle de alterações e relatórios-las aos usuários.
+- As notificações de tabela são suficientes para controlar alterações e relatá-las aos usuários.
     
 

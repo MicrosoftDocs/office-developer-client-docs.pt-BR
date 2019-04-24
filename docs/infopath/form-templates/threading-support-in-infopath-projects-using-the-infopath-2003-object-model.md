@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: Os objetos COM são acessados por meio de montagens com interoperabilidade instaladas Microsoft.Office.Interop.InfoPath.dll Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll. O Microsoft InfoPath não dá suporte a chamadas feitas em vários threads. Isso inclui interfaces para objetos para Microsoft XML Core Services (MSXML) que são envoltas pelo namespace Microsoft.Office.Interop.InfoPath.SemiTrust (a maioria deles possui o prefixo IXMLDOM) e todas as interfaces são expostas pelo namespace Microsoft.Office.Interop.InfoPath.Xml, nenhum deles são threads seguros.
 ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299836"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Suporte a threading em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
 description: Retorna a hora representada por hora, minuto e segundo.
-ms.openlocfilehash: 4390e0cdccf0ae7798d5ada4329a28f72566ecac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5be55d7e63a70d15da49c68b924cc5b03c5ca88
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280994"
 ---
 # <a name="time-function-visioshapesheet"></a>Função TIME (VisioShapeSheet)
 
@@ -22,29 +22,29 @@ Retorna a hora representada por _hora_, _minuto_e _segundo_.
   
 ## <a name="syntax"></a>Sintaxe
 
-TEMPO (* * *hora* * *, * * *minuto* * *, * * *segundo* * *) 
+HORA (* * *hora* * *, * * *minuto* * *, * * *segundo* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _hora_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O componente de hora.  <br/> |
-| _minuto_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O componente de minuto.  <br/> |
-| _segundo_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O componente de segundo.  <br/> |
+| _hora_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O componente de hora.  <br/> |
+| _inclusões_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O componente de minuto.  <br/> |
+| _secundária_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O componente de segundo.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Numérico
+Numeric
   
 ## <a name="example-1"></a>Exemplo 1
 
-TIME(15,30,30)
+TEMPO (15, 30, 30)
   
 Retornará o valor que representa 15:30:30.
   
 ## <a name="example-2"></a>Exemplo 2
 
-FORMAT(TIME(15,30,30),"HH:mm")
+FORMATO (tempo (15, 30, 30), "HH: mm")
   
 Retornará o valor que representa 15:30.
   

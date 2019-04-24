@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 66dbe65a-b9fd-41d5-946f-ec8888363043
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5f0717c2a6def6f99f1e53217764e8820125b79d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283125"
 ---
 # <a name="pidtagcontainercontents-canonical-property"></a>Propriedade canônica PidTagContainerContents
 
@@ -25,24 +25,24 @@ ms.locfileid: "25392729"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um objeto table de conteúdo incorporado que fornece informações sobre um contêiner.
+Contém um objeto da tabela de conteúdo incorporado que fornece informações sobre um contêiner.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_CONTAINER_CONTENTS  <br/> |
 |Identificador:  <br/> |0x360F  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Container  <br/> |
+|Área:  <br/> |Contêiner  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser excluída em operações [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluída nas operações da [IMAPIProp::CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ele não pode ser recuperado com êxito pelo método [IMAPIProp::GetProps](imapiprop-getprops.md) ; seu conteúdo deve ser acessado pelo método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , solicitando o identificador de interface IID_IMAPITable. Provedores de serviços devem relatá-la para o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) se ele estiver definido, mas pode, opcionalmente, relatá-la ou não se não estiver definida. 
+Esta propriedade pode ser excluída nas operações de [IMAPIProp:: CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps; seu conteúdo deve ser acessado pelo método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , solicitando o identificador de interface IID_IMAPITable. Os provedores de serviços devem relatá-lo para o método [IMAPIProp::](imapiprop-getproplist.md) getproplist, se estiver definido, mas pode opcionalmente relatá-lo ou não se ele não estiver definido. 
   
-Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) . Para obter mais informações, consulte [As tabelas de conteúdo](contents-tables.md). 
+Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable. Para mais informações, confira [Tabelas de Conteúdo](contents-tables.md). 
   
-Essa propriedade, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) e **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) são semelhantes em uso. Várias propriedades MAPI fornecem acesso às tabelas: 
+Essa propriedade, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) e **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) são similares em uso. Várias propriedades MAPI fornecem acesso a tabelas: 
   
-|**Propriedade**|**Table**|
+|**Property**|**Table**|
 |:-----|:-----|
 |PidTagContainerContents  <br/> |Tabela de conteúdo  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Tabela de hierarquia  <br/> |
@@ -52,25 +52,25 @@ Essa propriedade, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagc
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -78,7 +78,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

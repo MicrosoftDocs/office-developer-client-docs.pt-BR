@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278944"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572106"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Exclui a várias linhas de tabela.
+Exclui várias linhas de tabela.
   
 ```cpp
 HRESULT HrDeleteRows(
@@ -39,35 +39,35 @@ HRESULT HrDeleteRows(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a exclusão. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controlam a exclusão. O seguinte sinalizador pode ser definido:
     
 TAD_ALL_ROWS 
   
-> Exclui todas as linhas da tabela e todos os modos de exibição correspondentes, enviar a notificação de TABLE_RELOAD única.
+> Exclui todas as linhas da tabela e de todos os modos de exibição correspondentes, enviando uma única notificação de TABLE_RELOAD.
     
  _lprowsetToDelete_
   
-> [in] Um ponteiro para um conjunto de linha que descreve as linhas a ser excluído. O parâmetro _lprowsetToDelete_ pode ser NULL se o sinalizador TAD_ALL_ROWS é definido no parâmetro _ulFlags_ . 
+> no Um ponteiro para um conjunto de linhas que descreve as linhas a serem excluídas. O parâmetro _lprowsetToDelete_ pode ser NULL se o sinalizador TAD_ALL_ROWS estiver definido no parâmetro _parâmetroulflags_ . 
     
  _cRowsDeleted_
   
-> [out] A contagem de linhas excluídas.
+> bota A contagem das linhas excluídas.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As linhas de tabela foram excluídas com êxito.
+> As linhas da tabela foram excluídas com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData::HrDeleteRows** localiza e remove as linhas de tabela que contêm as colunas que coincidem com a propriedade apontada para pelo membro de cada entrada de **aRow** na linha **lpProps** definir. Uma coluna de índice é usada para identificar cada linha; Essa coluna deve ter a mesma marca de propriedade, como a marca de propriedade passada no parâmetro _ulPropTagIndexColumn_ na chamada para a função [CreateTable](createtable.md) . 
+O método **ITableData:: HrDeleteRows** localiza e remove as linhas da tabela que contêm as colunas que correspondem à propriedade indicada pelo membro **lpProps** de cada entrada **aRow** no conjunto de linhas. Uma coluna de índice é usada para identificar cada linha; Essa coluna deve ter a mesma marca de propriedade que a marca de propriedade passada no parâmetro _ulPropTagIndexColumn_ na chamada para a [](createtable.md) função CreateTable. 
   
-O número de linhas que foram excluídas realmente é retornado no _cRowsDeleted_. Nenhum erro será retornado se uma ou mais linhas não pôde ser encontradas. 
+O número de linhas realmente excluídas é retornado em _cRowsDeleted_. Nenhum erro será retornado se não foi possível localizar uma ou mais linhas. 
   
-Depois que as linhas são excluídas, as notificações são enviadas para todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamou o método da tabela [IMAPITable::Advise](imapitable-advise.md) para registrar para notificações. 
+Depois que as linhas são excluídas, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método imApitable [:: Advise](imapitable-advise.md) a ser registrado para notificações. 
   
-A exclusão de linhas não reduz as colunas disponíveis para modos de exibição de tabela existente ou aberto subsequentemente modos de exibição de tabela, mesmo se as linhas excluídas são a última que têm valores para uma coluna específica.
+A exclusão de linhas não reduz as colunas disponíveis para os modos de exibição de tabelas existentes ou, subsequentemente, abrir modos de exibição de tabela, mesmo que as linhas excluídas sejam a última que tenham valores para uma coluna específica.
   
 ## <a name="see-also"></a>Confira também
 

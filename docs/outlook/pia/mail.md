@@ -1,5 +1,5 @@
 ---
-title: Email
+title: Correio
 TOCTitle: Mail
 ms:assetid: 7eddd53c-a598-4dc1-b555-fd3af1236402
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184619(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 871acb6d9b3905653a382e6548d74f0105d5a186
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303420"
 ---
 # <a name="mail"></a>Email
 
@@ -36,5 +36,5 @@ Esta seção fornece tarefas de exemplo que envolvem os itens de email. Um email
 - [Anexos](attachments.md)
 - [Pastas](folders.md)
 - [Destinatários](recipients.md)
-- [Como faço para... (Referência do Outlook 2013 PIA)](how-do-i-outlook-2013-pia-reference.md)
+- [Como faço para... (Referência do PIA do Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

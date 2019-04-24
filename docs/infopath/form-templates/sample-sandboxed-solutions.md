@@ -1,45 +1,45 @@
 ---
-title: Exemplos de soluções em área restrita
+title: Exemplo de soluções em modo seguro
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
-description: Este tópico fornece dois exemplos que mostram o tipo de código que você pode escrever em uma solução em área restrita do InfoPath e como publicar o modelo de formulário.
-ms.openlocfilehash: b0874e34d843850df55eee87d689ce0d01112635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico fornece dois exemplos que mostram o tipo de código que você pode escrever em uma solução de área restrita do InfoPath e como publicar o modelo de formulário.
+ms.openlocfilehash: 56a9a2a765100ef327790265c7cf734903268bed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303497"
 ---
-# <a name="sample-sandboxed-solutions"></a>Exemplos de soluções em área restrita
+# <a name="sample-sandboxed-solutions"></a>Exemplo de soluções em modo seguro
 
-Os formulários do InfoPath com código gerenciado podem ser publicados para a infraestrutura de solução em área restrita do SharePoint do InfoPath Designer. Este tópico fornece dois exemplos que mostram o tipo de código que você pode escrever em uma solução em área restrita do InfoPath e como publicar o modelo de formulário.
+Os formulários do InfoPath com código gerenciado podem ser publicados na infraestrutura de solução em área restrita do SharePoint a partir do InfoPath designer. Este tópico fornece dois exemplos que mostram o tipo de código que você pode escrever em uma solução de área restrita do InfoPath e como publicar o modelo de formulário.
   
-## <a name="example-1-sorting-data-in-an-order-form"></a>O exemplo 1: Classificar dados em um formulário de pedido
+## <a name="example-1-sorting-data-in-an-order-form"></a>Exemplo 1: classificar dados em um formulário de pedido
 
-Classificar dados em uma tabela de repetição é uma tarefa útil que você pode executar usando o código em um formulário do InfoPath. Para fazer isso, o código reordena os nós no documento XML subjacente que é exibido no formulário do InfoPath. Embora o cenário descrito neste tópico destina-se a publicação diretamente do InfoPath como uma solução em área restrita, ele também pode ser implantado como um modelo de formulário aprovados pelo administrador.
+Uma tarefa útil que você pode executar usando o código em um formulário do InfoPath é classificar dados em uma tabela de repetição. Para fazer isso, o código reordena os nós no documento XML subjacente que é exibido no formulário do InfoPath. Embora o cenário descrito neste tópico seja direcionado para publicação diretamente do InfoPath como uma solução de área restrita, ele também pode ser implantado como um modelo de formulário aprovado pelo administrador.
   
-Antes de começar, certifique-se de que você atende aos seguintes requisitos.
+Antes de começar, verifique se você atende aos seguintes requisitos.
   
-- Você é um administrador de conjunto de sites no site do SharePoint Server 2010 ou o SharePoint Foundation 2010 onde você deseja publicar o formulário.
+- Você é um administrador do conjunto de sites no site do SharePoint Server 2010 ou SharePoint Foundation 2010 onde você deseja publicar o formulário.
     
-- Verifique com o administrador do farm para certificar-se de que o serviço de código em modo seguro do Microsoft SharePoint Foundation está em execução no servidor. Para obter mais informações, consulte [Publicando formulários com código](publishing-forms-with-code.md).
+- Consulte o administrador do farm para verificar se o serviço de código em área restrita do Microsoft SharePoint Foundation está em execução no servidor. Para mais informações, consulte [publicAndo formulários com código](publishing-forms-with-code.md).
     
-- A linguagem de programação que você selecionou para o modelo de formulário é **c#** ou **Visual Basic** sem qualquer nome de versão anterior depois dela. Não há suporte para as versões compatíveis com o InfoPath 2007 e InfoPath 2003 compatíveis dos modelos de objeto e linguagens de programação para soluções em área restrita. Para obter mais informações sobre como especificar a linguagem de programação, consulte [Develop com o Visual Studio](how-to-develop-with-visual-studio.md).
+- A linguagem de programação que você selecionou para o modelo de formulário é **C#** ou **Visual Basic** sem qualquer nome de versão anterior. As versões compatíveis com o InfoPath 2007 e o InfoPath 2003 compatíveis com as linguagens de programação e modelos de objeto não têm suporte para soluções de área restrita. Para obter mais informações sobre como especificar a linguagem de programação, consulte [desenvolvimento com o Visual Studio](how-to-develop-with-visual-studio.md).
     
-Execute as seguintes etapas para criar um modelo de formulário que classifica os dados em um controle de **Tabela de repetição** no formulário. 
+Execute as etapas a seguir para criar um modelo de formulário que classifique os dados em um controle de **tabela de repetição** no formulário. 
   
-### <a name="to-create-a-form-template-that-programmatically-sorts-data-in-the-form"></a>Para criar um modelo de formulário que programaticamente classifica os dados do formulário
+### <a name="to-create-a-form-template-that-programmatically-sorts-data-in-the-form"></a>Para criar um modelo de formulário que classifica dados de forma programática no formulário
 
-1. Criar um novo modelo de formulário no InfoPath designer e adicionar um controle de **Tabela de repetição** ao formulário. O código de amostra para que esse exemplo classifica as linhas com base na primeira coluna da tabela, mas você pode modificar facilmente o código para trabalhar com qualquer coluna. 
+1. Crie um novo modelo de formulário no designer do InfoPath e adicione um controle de **tabela de repetição** ao formulário. O código de exemplo deste exemplo classifica as linhas com base na primeira coluna da tabela, mas você pode facilmente modificar o código para trabalhar com qualquer coluna. 
     
-2. Adicione um controle de **botão** ao formulário. O código para classificar a tabela será adicionado ao manipulador de eventos para o evento do botão **Clicked** , mas você também pode usar outro evento para essa finalidade. 
+2. Adicionar um controle de **botão** ao formulário. O código para classificar a tabela será adicionado ao manipulador de eventos para o evento clicado **** do botão, mas você também pode usar outro evento para essa finalidade. 
     
-3. Selecione o botão, clique na guia **Propriedades** e clique em **Código personalizado**. Se o seu formulário ainda não foi salvo ainda, você será solicitado a salvar a ele e, em seguida, o Editor de código será aberto com o cursor no manipulador de eventos do botão.
+3. Selecione o botão, clique na guia **Propriedades** e, em seguida, clique em **código personalizado**. Se o formulário ainda não tiver sido salvo, você será solicitado a salvá-lo e, em seguida, o editor de código será aberto com o cursor no manipulador de eventos do botão.
     
-4. Cole o seguinte código no manipulador de eventos do botão. O código coloca os elementos da primeira coluna em uma matriz, classifica a matriz e, em seguida, reordena a tabela com base em matriz classificada. Este código supõe que os dados sendo classificados dados de cadeia de caracteres.
+4. Cole o seguinte código no manipulador de eventos do botão. O código coloca os elementos da primeira coluna em uma matriz, classifica a matriz e, em seguida, reordena a tabela com base na matriz classificada. Esse código pressupõe que os dados que estão sendo classificados são dados de cadeia de caracteres.
     
    ```cs
     // Put the elements from the first column into an array.
@@ -133,74 +133,74 @@ Execute as seguintes etapas para criar um modelo de formulário que classifica o
         Me.NamespaceManager).InnerXml = newTableXML
    ```
 
-5. Publica seu formulário usando as seguintes etapas:
+5. Publique seu formulário usando as seguintes etapas:
     
-    1. Clique em **SharePoint Server** , na guia **Publicar** no Backstage. 
+    1. Clique em **SharePoint Server** na guia **publicar** no backstage. 
         
-    2. Insira a URL do site do SharePoint para publicar e, em seguida, clique em **Avançar**. 
+    2. Insira a URL do site do SharePoint para publicar e clique em **Avançar**. 
         
        > [!IMPORTANT]
-       > Você deve ser um administrador de conjunto de sites neste site para publicar esse modelo de formulário como uma solução em área restrita. 
+       > Você deve ser um administrador de conjunto de sites neste site para publicar este modelo de formulário como uma solução de área restrita. 
     
-    3. Selecione a **Biblioteca de formulários**e clique em **Avançar**.
+    3. Selecione **biblioteca de formulários**e clique em **Avançar**.
         
     4. Selecione **criar uma nova biblioteca de formulários**e clique em **Avançar**.
         
-    5. Insira o nome e as descrições para sua biblioteca de formulários e clique em **Avançar**.
+    5. Insira o nome e as descrições da sua biblioteca de formulários e clique em **Avançar**.
         
-    6. Clique em **Publicar**.
+    6. Clique em **publicar**.
     
 ## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Exemplo 2: Gerenciando fornecedores em uma lista do SharePoint
 
-Este exemplo envolve programação em relação ao modelo de objeto do Microsoft SharePoint Foundation 2010. Para fazer isso, você precisa estabelecer uma referência para o assembly Microsoft.SharePoint.dll que é instalado com uma cópia licenciada do SharePoint Server 2010.
+Este exemplo envolve a programação em relação ao modelo de objeto do Microsoft SharePoint Foundation 2010. Para fazer isso, você deve estabelecer uma referência ao assembly Microsoft. SharePoint. dll que é instalado com uma cópia licenciada do SharePoint Server 2010.
   
-Microsoft.SharePoint.Server.dll é instalado em C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI por padrão. Esta DLL deve ser incluído nos projetos em que o modelo de objeto programe o SharePoint. Para estabelecer uma referência para a Microsoft.SharePoint.dll em um projeto do Visual Studio 2012, abra o **Editor de código**e, em seguida, no menu **Ferramentas** , clique em **Adicionar referência** . Na caixa de diálogo **Adicionar referência** , clique na guia **Procurar** , especifique o local do arquivo Microsoft.SharePoint.dll e, em seguida, clique em **Okey**. Isso irá copiar a Microsoft.SharePoint.dll no diretório do projeto para que você possa usar membros de modelo de objeto do SharePoint Foundation 2010 em sua solução do InfoPath.
+Microsoft. SharePoint. Server. dll está instalado em C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI por padrão. Essa DLL deve estar incluída nos projetos em que você programar contra o modelo de objeto do SharePoint. Para estabelecer uma referência para o Microsoft. SharePoint. dll em um projeto do Visual Studio 2012, abra o **Editor de código**e, em seguida, clique em **Adicionar referência** no menu **ferramentas** . Na caixa de diálogo **Adicionar referência** , clique na guia **procurar** , especifique o local do arquivo Microsoft. SharePoint. dll e, em seguida, clique em **OK**. Isso copiará o Microsoft. SharePoint. dll no diretório do projeto para que você possa usar membros do modelo de objeto do SharePoint Foundation 2010 em sua solução do InfoPath.
   
-### <a name="designing-the-form-and-developing-the-code"></a>Projetando o formulário e o código de desenvolvimento
+### <a name="designing-the-form-and-developing-the-code"></a>Criando o formulário e desenvolvendo o código
 
-A partir de código em um formulário do InfoPath, você pode usar o modelo de objeto do SharePoint para criar itens nas listas de pesquisa. Isso é útil quando você preencher uma caixa de lista suspensa de uma lista do SharePoint e deseja adicionar novos valores a ele sem criar um formulário separado. Este exemplo usa uma caixa de combinação para mostrar todos os valores atualmente na lista e cria a lógica de programação para adicionar o valor à lista, se ainda não existir.
+A partir do código em um formulário do InfoPath, você pode usar o modelo de objeto do SharePoint para criar itens em listas de pesquisa. Isso é útil quando você preenche uma caixa suspensa de uma lista do SharePoint e deseja adicionar novos valores a ela sem criar um formulário separado. Este exemplo usa uma caixa de combinação para mostrar todos os valores atualmente na lista e cria uma lógica de programação para adicionar o valor à lista, caso ainda não exista.
   
-### <a name="to-create-a-form-template-that-can-add-new-items-to-a-combo-box-based-on-a-sharepoint-list"></a>Para criar um modelo de formulário que pode adicionar novos itens a uma caixa de combinação com base em uma lista do SharePoint
+### <a name="to-create-a-form-template-that-can-add-new-items-to-a-combo-box-based-on-a-sharepoint-list"></a>Para criar um modelo de formulário que possa adicionar novos itens a uma caixa de combinação com base em uma lista do SharePoint
 
-1. Criar uma lista personalizada simple em um servidor do SharePoint Server 2010 e nomeie-o MyList. O exemplo a seguir usa uma **Caixa de combinação** acoplada a campo **título** desta lista. 
+1. Crie uma lista personalizada simples em um servidor do SharePoint Server 2010 e nomeie-a como myList. O exemplo a seguir usa uma **caixa de combinação** acoplada ao campo de **título** desta lista. 
     
-2. Criar um novo **Formulário em branco** no InfoPath Designer, inserir um controle de **Caixa de combinação** em seu formulário e renomear o campo vinculado à caixa de combinação para myCombo.
+2. Criar um novo **formulário em branco** no designer do InfoPath, inserir um controle de **caixa de combinação** no formulário e renomear o campo associado à caixa de combinação para mycombo.
     
-3. Crie a conexão de dados para a lista que será usada para preencher a caixa de combinação usando as seguintes etapas:
+3. Crie a conexão de dados com a lista que será usada para preencher a caixa de combinação usando as seguintes etapas:
     
-    1. Na guia **dados** , clique no botão **De lista do SharePoint** no grupo **Obter dados externos** . 
+    1. Na guia **dados** , clique no botão **de lista do SharePoint** no grupo **obter dados externos** . 
         
-    2. Digite a URL para o site que contém a lista e clique em **Avançar**.
+    2. Insira a URL do site que contém a lista e clique em **Avançar**.
         
     3. Selecione a lista e clique em **Avançar**.
         
-    4. Selecione os campos que você deseja incluir, neste exemplo, selecione o título e a ID. Título contém os valores de pesquisa. Clique em **Avançar**.
+    4. Selecione os campos que você deseja incluir para este exemplo, selecione título e ID. Título contém os valores para pesquisa. Clique em **Avançar**.
         
     5. Clique em **Avançar** na tela a seguir. 
         
-    6. Nomeie a conexão de dados LookupList e clique em **Concluir**.
+    6. Nomeie a pesquisa de conexão de dados e clique em **concluir**.
     
-4. Preencha os valores na caixa de combinação da lista, usando as seguintes etapas:
+4. Preencha os valores na caixa de combinação da lista usando as seguintes etapas:
     
-    1. Marque a caixa de combinação que você criou na etapa 1.
+    1. Selecione a caixa de combinação que você criou na etapa 1.
         
-    2. Clique em **Editar escolhas** na guia **Propriedades de ferramentas de controle** da faixa de opções. 
+    2. Clique em **Editar opções** na guia **Propriedades de ferramentas de controle** da faixa de opções. 
         
-    3. Selecione **fazer as escolhas de uma fonte de dados externos**.
+    3. Selecione **obter opções de uma fonte de dados externa**.
         
-    4. Certifique-se de que a **fonte de dados** está definido como a conexão de dados que você criou na etapa 2. 
+    4. Certifique-se de que a **fonte de dados** está definida como a conexão de dados que você criou na etapa 2. 
         
-    5. Definir o valor e o nome de exibição para o título.
+    5. Definir o valor e o nome para exibição como título.
         
-    6. Na guia **formulários de navegador** , selecione **sempre** em **Postback configurações**e, em seguida, clique em **Okey** para fechar a caixa de diálogo de propriedades. 
+    6. Na guia **formulários do navegador** , selecione **sempre** em **configurações de postback**e, em seguida, clique em **OK** para fechar a caixa de diálogo Propriedades. 
     
-5. Certificar-se de que a caixa de combinação ainda está marcada e clique em **Evento alterado** na guia **desenvolvedor** da faixa de opções. 
+5. Certifique-se de que a caixa de combinação ainda esteja selecionada e, em seguida, clique em **alterar evento** na guia **desenvolvedor** da faixa de opções. 
     
-    Se o seu formulário ainda não foi salva, você precisará salvá-lo. E, em seguida, a janela do editor de código abre com o cursor no `myCombo_Changed` manipulador de eventos. 
+    Se o formulário ainda não tiver sido salvo, você será solicitado a salvá-lo. E, em seguida, a janela do editor de código abre com `myCombo_Changed` o cursor no manipulador de eventos. 
     
-6. Adicione uma referência para o assembly Microsoft.SharePoint.dll conforme descrito anteriormente neste tópico. Para obter mais informações sobre como fazer referência a assembly do Microsoft, consulte [Use membros do modelo de objeto do SharePoint](how-to-use-sharepoint-object-model-members.md).
+6. Adicione uma referência ao assembly Microsoft. SharePoint. dll conforme descrito anteriormente neste tópico. Para obter mais informações sobre como fazer referência ao assembly Microsoft. SharePoint, consulte [usar membros do modelo de objeto do SharePoint](how-to-use-sharepoint-object-model-members.md).
     
-7. Cole o seguinte código no `myCombo_Changed` manipulador de eventos. 
+7. Cole o seguinte código no manipulador `myCombo_Changed` de eventos. 
     
    ```cs
     // Use InfoPath OM's ServerInfo.SharePointSiteUrl property to programmatically
@@ -262,7 +262,7 @@ A partir de código em um formulário do InfoPath, você pode usar o modelo de o
     End Using
    ```
 
-8. O exemplo de código anterior depende do `GetDomValue` função auxiliar. Cole o seguinte código para o `GetDomValue` função auxiliar abaixo do `myCombo_Changed` função do manipulador de eventos. 
+8. O exemplo de código anterior depende da `GetDomValue` função auxiliar. Cole o código a seguir para `GetDomValue` a função auxiliar abaixo `myCombo_Changed` da função do manipulador de eventos. 
     
    ```cs
     private string GetDomValue(string XpathToGet)
@@ -277,23 +277,23 @@ A partir de código em um formulário do InfoPath, você pode usar o modelo de o
     End Function
    ```
 
-9. Publica seu formulário usando as seguintes etapas:
+9. Publique seu formulário usando as seguintes etapas:
     
-    1. Clique em **SharePoint Server** , na guia **Publicar** no Backstage. 
+    1. Clique em **SharePoint Server** na guia **publicar** no backstage. 
         
-    2. Insira a URL do site do SharePoint para publicar e, em seguida, clique em **Avançar**. 
+    2. Insira a URL do site do SharePoint para publicar e clique em **Avançar**. 
         
        > [!IMPORTANT]
-       > Você deve ser um administrador de conjunto de sites neste site para publicar esse modelo de formulário como uma solução em área restrita. 
+       > Você deve ser um administrador de conjunto de sites neste site para publicar este modelo de formulário como uma solução de área restrita. 
     
-    3. Selecione a **Biblioteca de formulários**e clique em **Avançar**.
+    3. Selecione **biblioteca de formulários**e clique em **Avançar**.
         
     4. Selecione **criar uma nova biblioteca de formulários**e clique em **Avançar**.
         
-    5. Insira o nome e descrição para a sua biblioteca de formulários e clique em **Avançar**.
+    5. Insira o nome e a descrição da sua biblioteca de formulários e clique em **Avançar**.
         
-    6. Clique em **Publicar**.
+    6. Clique em **publicar**.
         
-    7. Depois que o formulário seja publicado com êxito, abra o formulário da biblioteca de formulários e adicione um novo valor na caixa de combinação para testar o código. Quando você sai do campo de myCombo, o novo valor será gravado na lista do SharePoint. 
+    7. Depois que o formulário for publicado com êxito, abra o formulário na biblioteca de formulários e adicione um novo valor à caixa de combinação para testar o código. Quando você sair do campo myCombo, o novo valor será gravado na lista do SharePoint. 
     
 

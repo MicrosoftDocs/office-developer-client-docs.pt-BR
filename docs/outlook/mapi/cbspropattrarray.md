@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c65413a1e7157f7ff297b8f7f191a96361e410c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b69b597edc6a8b6986b73d2c9edff1c35d2a921b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280291"
 ---
 # <a name="cbspropattrarray"></a>CbSPropAttrArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22587583"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura de [SPropAttrArray](spropattrarray.md) existente. 
+Calcula o número de bytes em uma estrutura [SPropAttrArray](spropattrarray.md) existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropAttrArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lparray_
+ __LPArray_
   
 > Ponteiro para a estrutura **SPropAttrArray** existente. 
     

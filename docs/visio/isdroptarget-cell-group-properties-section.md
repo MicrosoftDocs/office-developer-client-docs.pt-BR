@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: Determina se a forma pode ser adicionada ao grupo sendo solta nele.
-ms.openlocfilehash: 326ead15bcdc72797853daee797d8f08d459a638
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297225"
 ---
 # <a name="isdroptarget-cell-group-properties-section"></a>Célula IsDropTarget (Seção Group Properties)
 
@@ -22,8 +22,8 @@ Determina se a forma pode ser adicionada ao grupo sendo solta nele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
-|FALSO  <br/> |A forma não pode ser solta no grupo.  <br/> |
+|TRUE  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
+|FALSE  <br/> |A forma não pode ser solta no grupo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

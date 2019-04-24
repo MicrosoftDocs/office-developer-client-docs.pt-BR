@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32777219-850b-9526-425f-bcb017c45093
 ms.openlocfilehash: d62513877dc2c441d521b20505f5849ea31a1a4a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282999"
 ---
 # <a name="actionsrowtype-complextype-visio-xml"></a>ActionsRow_Type complexType ('Visio XML')
 
@@ -56,6 +56,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

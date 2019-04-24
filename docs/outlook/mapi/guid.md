@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299514"
 ---
 # <a name="guid"></a>GUID
 
@@ -29,7 +29,7 @@ Descreve um identificador global exclusivo (GUID).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiguid.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiguid. h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -46,15 +46,15 @@ typedef struct _GUID
 
  **Data1**
   
-> Um valor de dados de inteiro longo não assinado.
+> Um valor de dados inteiro longo não assinado.
     
  **Data2**
   
-> Um valor de dados de inteiro não assinado de curta.
+> Um valor de dados inteiro curto não assinado.
     
  **Data3**
   
-> Um valor de dados de inteiro não assinado de curta.
+> Um valor de dados inteiro curto não assinado.
     
  **Data4**
   
@@ -62,19 +62,19 @@ typedef struct _GUID
     
 ## <a name="remarks"></a>Comentários
 
- Estruturas **GUID** são usadas na MAPI, da seguinte maneira: 
+ Estruturas **GUID** são usadas em MAPI da seguinte maneira: 
   
 - Nas estruturas [MAPIUID](mapiuid.md) que identificam exclusivamente os provedores de serviços. 
     
-- Para os identificadores de interface.
+- Para identificadores de interface.
     
-- Na propriedade define nomes de propriedades nomeadas. 
+- No conjunto de propriedades, os nomes das propriedades nomeadas. 
     
-Armazenamento de mensagens e o endereço de provedores de catálogo geram uma estrutura **GUID** para usar em sua estrutura **MAPIUID** . Passando o resultante **MAPIUID** para [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), esses provedores de serviço informam MAPI do seu identificador exclusivo.
+O repositório de mensagens e os provedores de catálogo de endereços geram uma estrutura **GUID** para usar em sua estrutura **MAPIUID** . Ao passar o **MAPIUID** resultante para [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), esses provedores de serviços informam o MAPI de seu identificador exclusivo.
   
-Além disso, eles são usados na implementação do Microsoft Remote Procedure Call (RPC) e o idioma de descrição de objeto (ODL). Para obter mais informações sobre esses usos, consulte o *Guia do programador do Microsoft RPC e referência*, *referência do programador do OLE* e *Dentro OLE*, *Second Edition* . 
+Além disso, eles são usados na implementação da RPC (chamada de procedimento remoto) da Microsoft e da linguagem de descrição de objeto (ODL). Para obter mais informações sobre esses usos, confira o *guia e referência do programador RPC da Microsoft*, *referência do programador do OLE* e *dentro do OLE*, *segunda edição* . 
   
-A estrutura **GUID** é definida na *referência do programador do Win32* . Valores específicos para estruturas **GUID** que são usados em MAPI são definidos no arquivo de cabeçalho MAPI Mapiguid.h. 
+A estrutura **GUID** é definida na *referência do programador do Win32* . Valores específicos para estruturas **GUID** usadas no MAPI são definidos no arquivo de cabeçalho MAPI Mapiguid. h. 
   
 ## <a name="see-also"></a>Confira também
 

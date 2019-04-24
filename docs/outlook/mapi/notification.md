@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0d427adde72c24d4ca879c7bd883af09c4ecad53
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a3235c2305d61318f482943167e5f307e5da0d70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280096"
 ---
 # <a name="notification"></a>NOTIFICATION
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações sobre um evento que ocorreu e os dados que foi afetados pelo evento.
+Contém informações sobre um evento que ocorreu e os dados afetados pelo evento.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct
@@ -54,15 +54,15 @@ typedef struct
     
  _fnevCriticalError_
   
-> Ocorreu um erro global, como uma sessão desligar em andamento. O membro **info** contém uma estrutura [ERROR_NOTIFICATION](error_notification.md) . 
+> Ocorreu um erro global, como uma sessão desligada em andamento. O membro **info** contém uma estrutura [ERROR_NOTIFICATION](error_notification.md) . 
     
  _fnevExtended_
   
-> Ocorreu um evento interno definido por um provedor de serviço específico. O membro **info** contém uma estrutura [EXTENDED_NOTIFICATION](extended_notification.md) . 
+> Um evento interno definido por um determinado provedor de serviços ocorreu. O membro **info** contém uma estrutura [EXTENDED_NOTIFICATION](extended_notification.md) . 
     
  _fnevNewMail_
   
-> Uma mensagem foi entregue ao receber a pasta para a classe de mensagem e está aguardando processamento apropriada. O membro **info** contém uma estrutura [NEWMAIL_NOTIFICATION](newmail_notification.md) . 
+> Uma mensagem foi entregue à pasta de recebimento apropriada para a classe de mensagem e está aguardando para ser processada. O membro **info** contém uma estrutura [NEWMAIL_NOTIFICATION](newmail_notification.md) . 
     
  _fnevObjectCopied_
   
@@ -82,25 +82,25 @@ typedef struct
     
  _fnevObjectMoved_
   
-> Um armazenamento de mensagens ou endereço livro objeto tiver sido movido. O membro **info** contém uma estrutura **OBJECT_NOTIFICATION** . 
+> Um objeto de repositório de mensagens ou de catálogo de endereços foi movido. O membro **info** contém uma estrutura **OBJECT_NOTIFICATION** . 
     
  _fnevSearchComplete_
   
-> Uma operação de pesquisa foi concluída e os resultados estarão disponíveis. O membro **info** contém uma estrutura **OBJECT_NOTIFICATION** . 
+> Uma operação de pesquisa foi concluída e os resultados estão disponíveis. O membro **info** contém uma estrutura **OBJECT_NOTIFICATION** . 
     
  _fnevTableModified_
   
-> Informações em uma tabela foi alterada. O membro **info** contém uma estrutura [TABLE_NOTIFICATION](table_notification.md) . 
+> As informações em uma tabela foram alteradas. O membro **info** contém uma estrutura [TABLE_NOTIFICATION](table_notification.md) . 
     
-**Info**
+**informações**
   
-> União de estruturas de notificação descrevendo os dados afetados para um determinado tipo de evento. A estrutura incluída no membro **info** depende do valor do membro **ulEventType** . 
+> União de estruturas de notificação descrevendo os dados afetados para um tipo específico de evento. A estrutura incluída no membro **info** depende do valor do membro **ulEventType** . 
     
 ## <a name="remarks"></a>Comentários
 
-Uma ou mais estruturas de **notificação** são passadas como parâmetros de entrada com cada chamada ao método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) um advise registrados do receptor. As estruturas de **notificação** contêm informações sobre as determinados eventos ocorridos e descrevem os objetos afetados. 
+Uma ou mais estruturas de **notificação** são passadas como parâmetros de entrada com cada chamada para o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) de um coletor de aviso registrado. As estruturas de **notificação** contêm informações sobre os eventos específicos que ocorreram e descrevem os objetos afetados. 
   
-Antes de clientes ou receber uma notificação de provedores de serviços podem usar a estrutura para processar o evento, eles devem verificar o tipo de evento, conforme indicado no membro **ulEventType** . Por exemplo, o exemplo de código que é mostrado aqui verifica a chegada de uma nova mensagem e ao detectar um evento desse tipo, imprime a classe de mensagem da mensagem. 
+Antes que os clientes ou provedores de serviços que recebem uma notificação podem usar a estrutura para processar o evento, eles devem verificar o tipo de evento conforme indicado no membro **ulEventType** . Por exemplo, o exemplo de código mostrado aqui verifica a chegada de uma nova mensagem e, após detectar um evento desse tipo, imprime a classe de mensagem da mensagem. 
   
 ```cpp
 if (pNotif -> ulEventType == fnevNewMail)
@@ -110,13 +110,13 @@ printf("%s\n", pNotif -> newmail.lpszMessageClass)
 
 ```
 
-Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
+|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

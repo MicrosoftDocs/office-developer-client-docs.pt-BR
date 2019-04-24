@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bd07475d-2aa4-4742-86dc-373f7d1b02ea
 description: Esta seção aborda como criar um suplemento de COM do InfoPath.
 ms.openlocfilehash: f9c515f84440d202c1ea28f1abdeda9f78144b80
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303798"
 ---
 # <a name="creating-infopath-projects-in-visual-studio"></a>Criar projetos do InfoPath no Visual Studio
 

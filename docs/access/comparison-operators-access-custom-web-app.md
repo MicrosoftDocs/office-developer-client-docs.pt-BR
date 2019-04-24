@@ -1,41 +1,41 @@
 ---
-title: Operadores de comparação (aplicativo da web personalizado do Access)
+title: Operadores de comparação (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e47e1182-e44b-43a2-8254-cc39a9ba1269
 description: ''
-ms.openlocfilehash: 14827c512d7d40d96f864108ad7e90de216d5f3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37e693e13da904999973774f8fc1737126a77f03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282240"
 ---
-# <a name="comparison-operators-access-custom-web-app"></a>Operadores de comparação (aplicativo da web personalizado do Access)
+# <a name="comparison-operators-access-custom-web-app"></a>Operadores de comparação (aplicativo Web personalizado do Access)
 
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [\<(Menor que) (Aplicativo da web personalizado do access)](less-thanaccess-custom-web-app.md)
+- [\<(Menor que) (Aplicativo Web personalizado do Access)](less-thanaccess-custom-web-app.md)
     
-- [\<= (Menor ou igual a) (aplicativo da web personalizado do Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
+- [\<= (Menor ou igual a) (aplicativo Web personalizado do Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [\<\>(Não é igual a) (Aplicativo da web personalizado do access)](not-equal-toaccess-custom-web-app.md)
+- [\<\>(Diferente de) (Aplicativo Web personalizado do Access)](not-equal-toaccess-custom-web-app.md)
     
-- [= (Igual a) (aplicativo da web personalizado do Access)](equalsequalsaccess-custom-web-app.md)
+- [= (Igual a) (aplicativo Web personalizado do Access)](equalsequalsaccess-custom-web-app.md)
     
-- [\>(Maior que) (Aplicativo da web personalizado do access)](greater-thanaccess-custom-web-app.md)
+- [\>(Maior que) (Aplicativo Web personalizado do Access)](greater-thanaccess-custom-web-app.md)
     
-- [\>Inglês (maior que ou igual a) (aplicativo da web personalizado do Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [\>= (Maior que ou igual a) (aplicativo Web personalizado do Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
-- [ENTRE (aplicativo da web personalizado do Access)](between-access-custom-web-app.md)
+- [BETWEEN (aplicativo Web personalizado do Access)](between-access-custom-web-app.md)
     
-- [EM (aplicativo da web personalizado do Access)](in-access-custom-web-app.md)
+- [IN (aplicativo Web personalizado do Access)](in-access-custom-web-app.md)
     
-- [COMO (aplicativo da web personalizado do Access)](like-access-custom-web-app.md)
+- [LIKE (aplicativo Web personalizado do Access)](like-access-custom-web-app.md)
     
 

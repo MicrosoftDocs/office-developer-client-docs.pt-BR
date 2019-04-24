@@ -1,5 +1,5 @@
 ---
-title: NÃO (aplicativo da web personalizado do Access)
+title: Não (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
 description: Nega uma entrada booleana.
-ms.openlocfilehash: e455a6fb73c014fca5360a5c048a0b10cdb06507
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b910613a7bf08c79c2f66a417b5faec4886cb8d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308131"
 ---
-# <a name="not-access-custom-web-app"></a>NÃO (aplicativo da web personalizado do Access)
+# <a name="not-access-custom-web-app"></a>Não (aplicativo Web personalizado do Access)
 
 Nega uma entrada booleana.
   
@@ -23,21 +23,21 @@ Nega uma entrada booleana.
   
 ## <a name="syntax"></a>Sintaxe
 
-[ **Não** ]  *BooleanExpression* 
+[ **Não** ]  *Valor booleano* 
   
-O operador **não** contém os seguintes argumentos. 
+O operador **não** contém os argumentos a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |Uma expressão de booleana válida.  <br/> |
+| *Valor booleano*  <br/> |Uma expressão Boolean válida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A tabela a seguir mostra os resultados da comparação de TRUE e FALSE valores usando o operador **não** . 
+A tabela a seguir mostra os resultados da comparação de valores TRUE e FALSE usando o operador **não** . 
   
-||**Not**|
+||**Sido**|
 |:-----|:-----|
-|**TRUE** <br/> |False  <br/> |
+|**VERDADEIRO** <br/> |False  <br/> |
 |**FALSE** <br/> |True  <br/> |
    
 

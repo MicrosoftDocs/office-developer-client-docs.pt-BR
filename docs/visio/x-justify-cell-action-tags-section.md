@@ -8,26 +8,26 @@ f1_keywords:
 - Vis_DSS.chm1026936
 localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
-description: O - deslocamento x do botão de marca de ação em relação ao ponto definido pelas células X e Y.
-ms.openlocfilehash: 043d7b198ae5a529c623545fb54ef5aa1d32217d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O deslocamento x do botão de marca de ação em relação ao ponto definido pelas células X e Y.
+ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284969"
 ---
 # <a name="x-justify-cell-action-tags-section"></a>Célula X Justify (Seção Action Tags)
 
-*X* -deslocamento do botão de marca de ação em relação ao ponto definido pelas células X e Y. 
+O deslocamento *x* do botão de marca de ação em relação ao ponto definido pelas células X e Y. 
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Justificado à esquerda (padrão).  <br/> |**visSmartTagXJustifyLeft** <br/> |
+| ,0  <br/> | Justificado à esquerda (padrão).  <br/> |**visSmartTagXJustifyLeft** <br/> |
 | 1  <br/> | Centralizado.  <br/> |**visSmartTagXJustifyCenter** <br/> |
-| 2  <br/> | Justificado à direita.  <br/> |**visSmartTagXJustifyRight** <br/> |
+| duas  <br/> | Justificado à direita.  <br/> |**visSmartTagXJustifyRight** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,14 +37,14 @@ Para fazer referência à célula X Justify pelo nome, de outra fórmula ou prog
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Marcas inteligentes.  *nome* . XJustify onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . XJustify onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula X Justify pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
-| Índice da linha:  <br/> |**visRowSmartTag** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visSmartTagXJustify** <br/> |
    
 

@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5636cad7cad23bb5114bdbd34aff48c3639773b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298122"
 ---
-# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Gerenciando a memória para as estruturas ADRLIST e SRowSet"
+# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Gerenciando memória para estruturas das ADRLIST e SRowSet "
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O requisito de alocar memória todos para um buffer sempre que possível, com uma única chamada **MAPIAllocateBuffer** não se aplica ao usar a lista de endereços ou estruturas **ADRLIST**e **SRowSet**ou conjunto de linhas. 
+O requisito para alocar toda a memória de um buffer sempre que possível com uma única chamada **MAPIAllocateBuffer** não se aplica ao usar a lista de endereços ou o **das ADRLIST**e o conjunto de linhas ou as estruturas **SRowSet**. 
   
-Essas duas estruturas são exceções às regras padrão de alocação e da liberação de memória. Elas contêm vários níveis de estruturas e são projetadas para permitir que membros individuais sejam adicionadas ou removidas. Portanto, cada propriedade deve ser uma alocação separada. 
+Essas duas estruturas são exceções às regras padrão para alocar e liberar memória. Eles contêm vários níveis de estruturas e foram projetados para permitir que membros individuais sejam adicionados ou removidos. Portanto, cada propriedade deve ser uma alocação separada. 
 
-Onde a maioria das estruturas são liberadas com uma chamada de **MAPIFreeBuffer**, cada entrada individual em uma estrutura **ADRLIST** ou **SRowSet** devem ser liberada com sua própria chamada para **MAPIFreeBuffer** ou uma única chamada para **FreeProws** ou ** FreePadrlist**. Para obter mais informações, consulte [MAPIFreeBuffer](mapifreebuffer.md), [ADRLIST](adrlist.md)e [SRowSet](srowset.md). 
+Onde a maioria das estruturas é liberada com uma chamada para **MAPIFreeBuffer**, cada entrada individual em uma estrutura **das ADRLIST** ou **SRowSet** deve ser liberada com sua própria chamada para **MAPIFreeBuffer** ou uma única chamada para **FreeProws** ou ** FreePadrlist**. Para obter mais informações, consulte [MAPIFreeBuffer](mapifreebuffer.md), [das ADRLIST](adrlist.md)e [SRowSet](srowset.md). 
 
-**FreeProws** e **FreePadrlist** são funções fornecidas pelo MAPI para simplificar o dispensando dessas estruturas de dados. Para obter mais informações, consulte [FreeProws](freeprows.md) e [FreePadrlist](freepadrlist.md). **FreePadrlist** libera a memória para a estrutura **ADRLIST** plus todos os respectivos memória para os membros de estrutura; **FreeProws** faz o mesmo para a estrutura **SRowSet** . 
+**FreeProws** e **FreePadrlist** são funções fornecidas pelo MAPI para simplificar a liberação dessas estruturas de dados. Para obter mais informações, consulte [FreeProws](freeprows.md) e [FreePadrlist](freepadrlist.md). **FreePadrlist** libera a memória da estrutura **das ADRLIST** mais toda a memória associada para os membros da estrutura; **FreeProws** faz o mesmo para a estrutura **SRowSet** . 
   
-O diagrama a seguir mostra o layout de uma estrutura de dados **ADRLIST** , indicando as alocações de memória separado necessárias. As caixas cinzas mostram a memória que pode ser alocada e lançada com uma chamada. 
+O diagrama a seguir mostra o layout de uma estrutura de dados do **das ADRLIST** , indicando as alocações de memória separadas necessárias. As caixas cinzas mostram a memória que pode ser alocada e liberada com uma chamada. 
   
 **ADRLIST memory allocation**
   
-![Alocação de memória ADRLIST] (media/amapi_52.gif "Alocação de memória ADRLIST")
+![Alocação de memória das ADRLIST] (media/amapi_52.gif "Alocação de memória das ADRLIST")
   
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciando memória nos MAPI](managing-memory-in-mapi.md)
+- [Gerenciando memória no MAPI](managing-memory-in-mapi.md)
 

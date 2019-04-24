@@ -1,5 +1,5 @@
 ---
-title: Agrupar e restringir tabelas em provedores do repositório de mensagens
+title: Agrupar e restringir tabelas em provedores de repositórios de mensagens
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,30 +8,30 @@ api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ec1c07a8d2c88680ebd94cf8ecd6901ed86ad100
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8a45a9fd0d40c16d110fd52be1ac1117e1dd4d04
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299409"
 ---
-# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Agrupar e restringir tabelas em provedores do repositório de mensagens
+# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Agrupar e restringir tabelas em provedores de repositórios de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aplicativos de cliente com frequência permitem aos usuários algum controle sobre como o conteúdo de uma pasta é exibido. Normalmente, um usuário pode optar por mensagens agrupados de acordo com o valor de uma ou mais propriedades de mensagem, ou pode optar por excluir mensagens que correspondem a determinados critérios. Isso é feito usando o [IMAPITable: IUnknown](imapitableiunknown.md) interface. Aplicativos cliente podem restringir as linhas retornadas da tabela para todos os critérios que o usuário especifica. Portanto, uma mensagem armazene as necessidades do provedor para implementar os seguintes métodos **IMAPITable** . 
+Os aplicativos cliente freqüentemente permitem que os usuários tenham controle sobre como o conteúdo de uma pasta é exibido. Normalmente, um usuário pode optar por ter mensagens agrupadas de acordo com o valor de uma ou mais propriedades de mensagem, ou pode optar por excluir mensagens que correspondam a determinados critérios. Isso é feito usando a interface [IMAPITable: IUnknown](imapitableiunknown.md) . Os aplicativos cliente podem restringir as linhas retornadas da tabela para qualquer critério especificado pelo usuário. Portanto, um provedor de repositório de mensagens precisa implementar os **** métodos IMAPITable a seguir. 
   
-|IMAPITable * * método * *|**Descrição**|
+|ImApitable * * método * *|**Descrição**|
 |:-----|:-----|
-|[IMAPITable::ExpandRow](imapitable-findrow.md) <br/> |Retorna a tabela linhas que coincidem com os critérios especificados.  <br/> |
-|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Retorna o conjunto de colunas em uma tabela ou o conjunto de colunas atualmente em uso.  <br/> |
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Retorna uma ou mais linhas de uma tabela, iniciando a partir de uma determinada posição.  <br/> |
-|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Aplica uma restrição a uma tabela para que as chamadas subsequentes **FindRow** retornam somente as linhas que coincidem com a restrição.  <br/> |
-|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Especifica quais colunas devem ser retornadas quando linhas são recuperadas da tabela.  <br/> |
+|[IMAPITable::ExpandRow](imapitable-findrow.md) <br/> |Retorna linhas de tabela que correspondem aos critérios especificados.  <br/> |
+|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Retorna o conjunto de colunas em uma tabela ou o conjunto de colunas usadas no momento.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Retorna uma ou mais linhas de uma tabela, começando a partir de uma determinada posição.  <br/> |
+|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Aplica uma restrição a uma tabela para que chamadas subsequentes para o **FindRow** retornem somente as linhas que correspondem à restrição.  <br/> |
+|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Especifica quais colunas devem ser retornadas quando as linhas são recuperadas da tabela.  <br/> |
    
-Restrições podem ser complexas para implementar; Para obter mais informações, consulte [Sobre restrições](about-restrictions.md). Para obter mais informações sobre como implementar as tabelas, consulte [As tabelas de MAPI](mapi-tables.md).
+As restrições podem ser complexas para implementar; para obter mais informações, consulte [about Restrictions](about-restrictions.md). Para obter mais informações sobre a implementação de tabelas, consulte [tabelas MAPI](mapi-tables.md).
   
 ## <a name="see-also"></a>Confira também
 

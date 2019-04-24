@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 98c3f33c5f9b4745787d6acb55d7afb230e23518
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c758ecd0134ca11ced6f771303896bd885a22c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278796"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 
@@ -25,29 +25,29 @@ ms.locfileid: "22564238"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa interface fornece funcionalidade de auxiliares ao executar uma replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
+Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
   
 |||
 |:-----|:-----|
-|Fornecido pelo  <br/> |Consulta em [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Fornecido por  <br/> |Consulta no [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interface:  <br/> |IID_IPSTX  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
 |**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtém informações estendidas sobre o último erro.  <br/> |
-|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtém a interface **[IOSTX](iostxiunknown.md)** associada.  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Define um repositório local para emular o Gerenciador de protocolo do Outlook para spool mensagens de saída para um servidor.  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
-| *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
+|**[GetSyncobject](ipstx-getsyncobject.md)** <br/> |Obtém a interface **[IOSTX](iostxiunknown.md)** associada.  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Define um repositório local para emular o Gerenciador de protocolos do Outlook para o spool de mensagens de saída para um servidor.  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -55,5 +55,5 @@ Essa interface fornece funcionalidade de auxiliares ao executar uma replicação
 
 [Sobre a API de replicação](about-the-replication-api.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

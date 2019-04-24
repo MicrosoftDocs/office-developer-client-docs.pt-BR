@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 87696ceea96bd2f51bfe5a0b062499946179c8b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ace31079c51aac169f6091af0cb363e7f05f0d14
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270144"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
@@ -29,9 +29,9 @@ Retorna um ponteiro de interface para a biblioteca de formulários local.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 MAPIOpenLocalFormContainer(
@@ -43,7 +43,7 @@ MAPIOpenLocalFormContainer(
 
  _ppfcnt_
   
-> [out] Ponteiro para um ponteiro para a interface de biblioteca de formulários locais.
+> bota Ponteiro para um ponteiro para a interface de biblioteca de formulários local.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -51,19 +51,19 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A interface para o qual um ponteiro é retornado pode ser usada por programas de instalação de terceiros para instalar formulários de aplicativo específico para a biblioteca sem o programa primeiro precisar fazer logon no MAPI. 
+A interface para a qual um ponteiro é retornado pode ser usada por programas de instalação de terceiros para instalar formulários específicos do aplicativo na biblioteca sem que o programa primeiro tenha que fazer logon no MAPI. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa o método **MAPIOpenLocalFormContainer** para abrir o contêiner de formulário local para renderizar em uma nova janela.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa o método **MAPIOpenLocalFormContainer** para abrir o contêiner de formulário local para renderizar em uma nova janela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

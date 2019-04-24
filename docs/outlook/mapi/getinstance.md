@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c4e5d2847b53988fb75e23fc6c4dfc386ea678f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 936a20c4236ab76e5acdb178737c3044d3f53bfe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299542"
 ---
 # <a name="getinstance"></a>GetInstance
 
@@ -29,9 +29,9 @@ Copia um valor dentro de uma propriedade de vários valores para uma propriedade
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIUTIL. H  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |MAPIUTIL. 0  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 VOID GetInstance(
@@ -45,15 +45,15 @@ VOID GetInstance(
 
  _pvalMv_
   
-> [in] Ponteiro para uma estrutura [SPropValue](spropvalue.md) definindo uma propriedade de valores múltiplos. 
+> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define uma propriedade de vários valores. 
     
  _pvalSv_
   
-> [in] Ponteiro para uma propriedade de valor único para receber dados. 
+> no Ponteiro para uma propriedade de valor único para receber dados. 
     
  _uliInst_
   
-> [in] O número de instância, ou seja, o elemento de matriz, do valor que está sendo copiado da estrutura de indicado pelo parâmetro _pvalMv_ . 
+> no O número da instância, ou seja, o elemento array, do valor que está sendo copiado da estrutura indicada pelo parâmetro _pvalMv_ . 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -61,6 +61,6 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se o valor copiado for muito grande para a memória alocada, a função **GetInstance** copia somente ponteiros em vez de alocar nova memória. 
+Se o valor copiado for muito grande para a memória alocada **** , a função getInstance só copiará os ponteiros em vez de alocar uma nova memória. 
   
 

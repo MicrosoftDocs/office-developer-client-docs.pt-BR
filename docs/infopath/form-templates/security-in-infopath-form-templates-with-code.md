@@ -4,16 +4,16 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- InfoPath 2007, segurança, modelos [InfoPath 2007], segurança de formulário de segurança [InfoPath 2007]
+- InfoPath 2007, segurança, segurança [InfoPath 2007], modelos de formulário [InfoPath 2007], segurança
 localization_priority: Normal
 ms.assetid: eb96d198-0003-4a19-9441-42eaa4eba15a
 description: Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.
-ms.openlocfilehash: abd92a3a8e883f5fcb56d24f05d9fd16bdd91c49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc0c490346ca25cce495c7a174cf8a0464c712fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303483"
 ---
 # <a name="security-in-infopath-form-templates-with-code"></a>Segurança nos modelos de formulário do InfoPath com código
 
@@ -27,6 +27,6 @@ Esta seção discute o modelo de segurança para modelos de formulário do Micro
     
 [Definir configurações de segurança para modelos de formulário com código](how-to-configure-security-settings-for-form-templates-with-code.md)
   
-> Descreve como definir configurações de segurança do .NET Framework para modelos de formulário de código gerenciado.
+> Descreve como definir as configurações de segurança do .NET Framework para modelos de formulário de código gerenciado.
     
 

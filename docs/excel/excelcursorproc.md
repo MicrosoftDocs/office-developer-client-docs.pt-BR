@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- função excelcursorproc [excel 2007]
+- função excelcursorproc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304092"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Quando uma caixa de diálogo restrita for exibida sobre a janela do Microsoft Excel, o cursor é um cursor ocupado sobre a janela do Excel. Este desvios **WndProc** mensagem WM_SETCURSOR digite mensagens do Windows e alterações de volta o cursor em uma seta normal. 
+Quando uma caixa de diálogo modal é exibida sobre a janela do Microsoft Excel, o cursor é um cursor ocupado sobre a janela do Excel. Essa WM_SETCURSOR de interceptação **WndProc** digita mensagens do Windows e altera o cursor de volta para uma seta normal. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -32,17 +32,17 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
  _hWndDlg_ (**HWND**)
   
-Contém um manipulador de Windows HWND da caixa de diálogo.
+Contém o identificador de janelas do HWND da caixa de diálogo.
   
- _mensagem_ (**UINT**)
+ _mensagem_ (**Uint**)
   
-A mensagem para responder aos.
+A mensagem a ser respondida.
   
- _wParam_ (**WPARAM**)
+ _wParam_ (**WParam**)
   
- _lParam_ (**LPARAM**)
+ _lParam_ (**LParam**)
   
-Os argumentos passados pelo Windows.
+Argumentos passados pelo Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
@@ -50,7 +50,7 @@ LRESULT: 0 se a mensagem foi tratada, caso contrário, o resultado retornado pel
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
   
 ## <a name="see-also"></a>Confira também
 

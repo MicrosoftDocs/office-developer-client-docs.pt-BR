@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 588747205ee3922fef7b107dc024f074a6ee527e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279626"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>Propriedade canônica PidTagListHelp
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387206"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor do campo de cabeçalho de uma mensagem de email extensões MIME (Multipurpose Internet) ajuda a lista.
+Contém o valor de um campo de cabeçalho da ajuda de lista de mensagens de MIME (Multipurpose Internet Mail Extensions).
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém o valor do campo de cabeçalho de uma mensagem de email extensões MIME 
    
 ## <a name="remarks"></a>Comentários
 
-Para gerar um campo de cabeçalho de lista-Help, clientes devem definir o valor de **PR_LIST_HELP** ou uma propriedade associada com o valor desejado. Os autores MIME devem copiar esse valor no campo de cabeçalho de lista-Help. 
+Para gerar um campo de cabeçalho List-Help, os clientes devem definir o valor de **PR_LIST_HELP** ou uma propriedade associada para o valor desejado. Os gravadores MIME devem copiar esse valor para o campo de cabeçalho List-help. 
   
-Para definir o valor dessas propriedades relacionadas ao servidor de lista, os clientes MIME devem gravar os campos de cabeçalho, conforme especificado na tabela a seguir:
+Para definir o valor dessas propriedades relacionadas ao servidor de lista, os clientes MIME devem gravar os campos de cabeçalho conforme especificado na tabela a seguir:
   
-|**Propriedade**|**Nome do campo de cabeçalho preferencial**|**Nome do campo de cabeçalho alternativo**|
+|**Property**|**Nome do campo de cabeçalho preferencial**|**Nome do campo de cabeçalho alternativo**|
 |:-----|:-----|:-----|
-|**PR_LIST_HELP** <br/> |Lista-Help  <br/> |X-lista-Help  <br/> |
+|**PR_LIST_HELP** <br/> |Lista-ajuda  <br/> |Lista de X-ajuda  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -72,7 +72,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

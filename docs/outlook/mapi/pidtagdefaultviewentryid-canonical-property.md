@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagDefaultViewEntryId Canonical
+title: Propriedade canônica Pidtagdefaultviewentryid Canonical
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6d284782de86b603e6bbe190931a85cd9196c88b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270011"
 ---
-# <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriedade canônica PidTagDefaultViewEntryId Canonical
+# <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriedade canônica Pidtagdefaultviewentryid Canonical
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada do modo de exibição da pasta padrão.
+Contém o identificador de entrada do modo de exibição padrão de uma pasta.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém o identificador de entrada do modo de exibição da pasta padrão.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é o identificador de entrada da exibição da pasta que deve ser definido como o modo de exibição inicial. A propriedade não precisa ser definida se o modo de exibição do "Normal" deve ser usado como o modo de exibição inicial.
+Esta propriedade é o identificador de entrada do modo de exibição de pasta que deve ser definido como o modo de exibição inicial. A propriedade não precisará ser definida se o modo de exibição "normal" for usado como o modo de exibição inicial.
   
-Um aplicativo cliente pode obter esta propriedade no momento em que ele abre a pasta e concretizar ganhos significativos de desempenho. Esta propriedade pode ser usada como um atalho para obter o modo de exibição padrão, em vez de abrir a tabela de conteúdo associado e o envio de uma restrição.
+Um aplicativo cliente pode obter essa propriedade no momento em que abre a pasta e obter ganhos significativos de desempenho. Essa propriedade pode ser usada como um atalho para obter o modo de exibição padrão, em vez de abrir a tabela de conteúdo associada e enviar uma restrição.
   
-Uma implementação do provedor de serviço do método [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) pode copiar essa propriedade quando ele copia pastas. 
+Uma implementação de provedor de serviços do método [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) pode copiar essa propriedade quando ele copia pastas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Trata as operações de pasta.
+> Controla as operações da pasta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

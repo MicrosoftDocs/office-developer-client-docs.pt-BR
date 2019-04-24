@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b0679c37b04b05f240d8cea1b777a430c66d18e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283167"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Propriedade canônica PidTagContactVersion
 
@@ -36,19 +36,19 @@ Contém a versão das informações de contato de um destinatário.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades que fornece acesso a informações sobre um destinatário e identificação. Essas propriedades são definidas por destinatário e a organização do destinatário.
+Esta propriedade é uma das propriedades que fornece informações de identificação e acesso sobre um destinatário. Essas propriedades são definidas pelo destinatário e pela organização do destinatário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

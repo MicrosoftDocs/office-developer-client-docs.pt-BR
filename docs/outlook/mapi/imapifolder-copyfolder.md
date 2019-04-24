@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 134a492dbc86dd0ce6b3795d5ae40b334c14d468
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d9c1e88b12baf50593212a3ae3c02907ce6617b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280175"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -44,39 +44,39 @@ HRESULT CopyFolder(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada da subpasta para copiar ou mover.
+> no Um ponteiro para o identificador de entrada da subpasta a ser copiado ou movido.
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a ser usado para acessar a pasta em que o parâmetro _lpDestFolder_ aponta para a interface. Passar NULL faz com que o provedor de serviços retornar a interface de pasta padrão, [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Os valores válidos para _lpInterface_ incluem IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer e IID_IMAPIFolder. 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta para a qual o parâmetro _lpDestFolder_ aponta. Passar NULL faz com que o provedor de serviços retorne a interface de pasta padrão, [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Os valores válidos para _lpInterface_ incluem IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer e IID_IMAPIFolder. 
     
  _lpDestFolder_
   
-> [in] Um ponteiro para a pasta aberta para receber a subpasta copiada ou movida.
+> no Um ponteiro para a pasta aberta para receber a subpasta copiada ou movida.
     
  _lpszNewFolderName_
   
-> [in] Um ponteiro para o nome da pasta no seu novo destino copiado ou movido. Se _lpszNewFolderName_ for definido como NULL, o nome da subpasta fonte é usado para o nome da pasta de destino. 
+> no Um ponteiro para o nome da pasta copiada ou movida em seu novo destino. Se _lpszNewFolderName_ estiver definido como nulo, o nome da subpasta de origem será usado para o nome da pasta de destino. 
     
  _ulUIParam_
   
-> [in] Um identificador para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG no parâmetro _ulFlags_ está definido. 
+> no Uma alça para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG no parâmetro _parâmetroulflags_ seja definido. 
     
  _lpProgress_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG está definido na _ulFlags_.
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido em _parâmetroulflags_.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a operação de cópia ou movimentação. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam a operação de cópia ou movimentação. Os seguintes sinalizadores podem ser definidos:
     
 COPY_SUBFOLDERS 
   
-> Todas as subpastas na subpasta a ser copiado também devem ser copiadas. Quando COPY_SUBFOLDERS não estiver definida para uma operação de cópia, somente a subpasta identificada pela _lpEntryID_ é copiada. Com uma operação de movimentação, o comportamento COPY_SUBFOLDERS é o padrão independentemente se o sinalizador está definido. 
+> Todas as subpastas na subpasta a serem copiadas também devem ser copiadas. Quando COPY_SUBFOLDERS não é definido para uma operação de cópia, somente a subpasta identificada por _lpEntryID_ é copiada. Com uma operação de movimentação, o comportamento COPY_SUBFOLDERS é o padrão, independentemente de o sinalizador ser definido. 
     
 FOLDER_DIALOG 
   
@@ -84,17 +84,17 @@ FOLDER_DIALOG
     
 FOLDER_MOVE 
   
-> A subpasta deve ser movido, em vez de copiados. Se FOLDER_MOVE não estiver definida, a subpasta será copiada.
+> A subpasta deve ser movida ao invés de ser copiada. Se FOLDER_MOVE não for definido, a subpasta será copiada.
     
 MAPI_DECLINE_OK 
   
-> Informa que o provedor de armazenamento de mensagem que se ele implementa **CopyFolder** chamando o método do objeto seu suporte de [IMAPISupport::DoCopyTo](imapisupport-docopyto.md) ou [IMAPISupport::DoCopyProps](imapisupport-docopyprops.md) , **CopyFolder** deve em vez disso imediatamente retornar MAPI_E_ DECLINE_COPY. 
+> Informa ao provedor de repositório de mensagens que se ele implementa **CopyFolder** chamando o IMAPISupport do seu objeto support [::D ocopyto](imapisupport-docopyto.md) ou [IMAPISupport::D método ocopyprops](imapisupport-docopyprops.md) , **CopyFolder** deve retornar imediatamente MAPI_E_ DECLINE_COPY. 
     
 MAPI_UNICODE 
   
-> O nome da pasta de destino está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome da pasta é no formato ANSI.
+> O nome da pasta de destino está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome da pasta estará no formato ANSI.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -102,63 +102,63 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e o provedor de armazenamento de mensagem não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e o provedor de armazenamento de mensagem suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e o provedor do repositório de mensagens não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e o provedor de repositório de mensagens oferece suporte somente a Unicode.
     
 MAPI_E_COLLISION 
   
-> O nome da pasta que está sendo movido ou copiadas é igual de uma subpasta na pasta de destino. O provedor de armazenamento de mensagem requer nomes de pasta exclusivo.
+> O nome da pasta que está sendo movida ou copiada é o mesmo que o de uma subpasta na pasta de destino. O provedor de repositório de mensagens requer nomes de pastas exclusivos.
     
 MAPI_E_DECLINE_COPY 
   
-> O provedor implemente esse método chamando um método de objeto de suporte e o chamador passou o sinalizador MAPI_DECLINE_OK.
+> O provedor implementa esse método chamando um método de objeto support e o chamador passou o sinalizador MAPI_DECLINE_OK.
     
 MAPI_E_FOLDER_CYCLE 
   
-> A pasta de origem direta ou indiretamente contém a pasta de destino. Significantes de trabalho talvez tenham sido realizadas antes que esta condição foi descoberta, para a pasta de origem e destino pode ser modificada parcialmente. 
+> A pasta de origem direta ou indiretamente contém a pasta de destino. Um trabalho significativo pode ter sido realizado antes que essa condição fosse descoberta, portanto, a pasta de origem e destino pode ser parcialmente modificada. 
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada foi bem-sucedida, mas nem todas as entradas foram copiadas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas nem todas as entradas foram copiadas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::CopyFolder** copia ou move uma subpasta de um local para outro. A subpasta a ser copiado ou movido é adicionada à pasta de destino como uma subpasta. 
+O método **IMAPIFolder:: CopyFolder** copia ou move uma subpasta de um local para outro. A subpasta que está sendo copiada ou movida é adicionada à pasta de destino como uma subpasta. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando a operação de cópia ou movimentação envolve mais de uma pasta, conforme indicado, definindo o sinalizador COPY_SUBFOLDERS, execute a operação como completamente para cada pasta. Em alguns casos, uma das pastas a ser movido ou copiadas não existe ou já foi mudou ou copiada em outros lugares. Não interrompa a operação prematuramente, a menos que ocorre uma falha que está fora de seu controle, como ficando sem memória, ficando sem espaço em disco ou corrupção no repositório de mensagem.
+Quando a operação de copiar ou mover envolve mais de uma pasta, conforme indicado pela definição do sinalizador COPY_SUBFOLDERS, execute a operação o mais completo possível para cada pasta. Às vezes, uma das pastas a serem movidas ou copiadas não existe ou já foi movida ou copiada em outro lugar. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do seu controle, como a falta de memória, ficando sem espaço em disco ou corrupção no repositório de mensagens.
   
-Tente reter todos os identificadores de entrada de mensagem nas mensagens copiadas. Você também deve tentar preservar os identificadores de entrada, mas ela não é necessária. 
+Tente reter todos os identificadores de entrada de mensagem nas mensagens copiadas. Você também deve tentar preservar os identificadores de entrada, mas isso não é necessário. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Espera esses valores de retorno sob as condições a seguintes.
+Espere estes valores de retorno sob as condições a seguir.
   
-|**Condição**|**Valor retornado**|
+|**Condition**|**Valor retornado**|
 |:-----|:-----|
-|**CopyFolder** tem copiados ou movidos de cada mensagem e a subpasta com êxito.  <br/> |S_OK  <br/> |
-|**CopyFolder** foi capaz de copiar ou mover cada mensagem e a subpasta com êxito.  <br/> |MAPI_W_PARTIAL_COMPLETION ou E_NOT_FOUND  <br/> |
-|**CopyFolder** não pôde concluir.  <br/> |Qualquer valor de erro, exceto E_NOT_FOUND  <br/> |
+|**CopyFolder** copiou ou moveu com êxito todas as mensagens e subpastas.  <br/> |S_OK  <br/> |
+|O **CopyFolder** não pôde copiar ou mover com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**CopyFolder** não pôde ser concluída.  <br/> |Qualquer valor de erro, exceto MAPI_E_NOT_FOUND  <br/> |
    
-Quando **CopyFolder** é impossível concluir, não presuma que foi feito nenhum trabalho. **CopyFolder** podem ter sido capaz de copiar ou mover um ou mais das mensagens e subpastas antes da ocorrência de erro. 
+Quando o **CopyFolder** não puder ser concluído, não presuma que nenhum trabalho foi realizado. O **CopyFolder** pode ter sido capaz de copiar ou mover uma ou mais mensagens e subpastas antes de encontrar o erro. 
   
-Se um identificador de entrada para uma pasta que não existe é passado _lpEntryID_, **CopyFolder** retorna MAPI_W_PARTIAL_COMPLETION ou E_NOT_FOUND, dependendo da implementação do armazenamento de mensagens. 
+Se um identificador de entrada para uma pasta que não existe é passado no _lpEntryID_, **CopyFolder** retorna MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do repositório de mensagens. 
   
-Dependendo do provedor de repositório de mensagem, o identificador de entrada da mensagem original pode ou não pode ser preservado na mensagem copiada. Você deve preservar os identificadores de entrada sempre que possível, mas não é um requisito. Geralmente, você pode depender os seguintes cenários:
+Dependendo do provedor de repositório de mensagens, o identificador de entrada da mensagem original pode ou não ser preservado na mensagem copiada. Você deve preservar os identificadores de entrada sempre que possível, mas não é um requisito. Em geral, você pode depender dos seguintes cenários:
   
-- Quando você move uma pasta entre dois tipos diferentes de repositórios de mensagem, o identificador de entrada é garantido para alterar.
+- Quando você move uma pasta entre dois tipos diferentes de repositórios de mensagens, o identificador de entrada é garantido para alteração.
     
-- Quando você move uma pasta entre dois armazenamentos de mensagem do mesmo tipo, o identificador de entrada quase sempre é alterado.
+- Quando você move uma pasta entre dois repositórios de mensagens do mesmo tipo, o identificador de entrada quase sempre é alterado.
     
-- Quando você move uma pasta para outro local no repositório de mensagem do mesmo, o identificador de entrada podem ou talvez não alterar, dependendo da mensagem o provedor de armazenamento.
+- Quando você move uma pasta para outro local no mesmo repositório de mensagens, o identificador de entrada pode ou não ser alterado, dependendo do provedor de armazenamento de mensagens.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI usa o método **IMAPIFolder::CopyFolder** para copiar pastas de um local para outro. MFCMAPI se lembra da pasta de origem durante a operação de cópia e realmente executa a cópia durante a operação de colar.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnPasteFolder  <br/> |MFCMAPI usa o método **IMAPIFolder:: CopyFolder** para copiar pastas de um local para outro. MFCMAPI memoriza a pasta de origem durante a operação de cópia e, na verdade, realiza a cópia durante a operação de colagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -167,5 +167,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

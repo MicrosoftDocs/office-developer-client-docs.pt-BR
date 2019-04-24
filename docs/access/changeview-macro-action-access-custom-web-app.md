@@ -1,21 +1,21 @@
 ---
-title: Ação de Macro ChangeView (aplicativo da web personalizado do Access)
+title: Ação de macro ChangeView (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
-description: Você pode usar a ação ChangeView para navegar entre os modos de exibição no lugar.
-ms.openlocfilehash: c420846074ef362d3388d40ed8700db0739b7ce0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Você pode usar a ação ChangeView para navegar entre modos de exibição no local.
+ms.openlocfilehash: 0c1e27c264a826d38ec2efbd5be9bc6237ad7437
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282310"
 ---
-# <a name="changeview-macro-action-access-custom-web-app"></a>Ação de Macro ChangeView (aplicativo da web personalizado do Access)
+# <a name="changeview-macro-action-access-custom-web-app"></a>Ação de macro ChangeView (aplicativo Web personalizado do Access)
 
-Você pode usar a ação **ChangeView** para navegar entre os modos de exibição no lugar. 
+Você pode usar a ação **ChangeView** para navegar entre modos de exibição no local. 
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
@@ -26,16 +26,16 @@ A ação **ChangeView** tem os seguintes argumentos.
   
 |**Argumento da ação**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
-|Table  <br/> |Sim  <br/> |O nome da tabela para abrir.  <br/> |
-|Exibir  <br/> |Sim  <br/> |O nome da exibição a ser aberto.  <br/> |
-|Onde  <br/> |Não  <br/> |Se estiver especificado, substitui a condição Where da fonte de registro de objeto.  <br/> |
-|Classificado Por  <br/> |Não  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
+|Tabela  <br/> |Sim  <br/> |O nome da tabela que será aberta.  <br/> |
+|Exibir  <br/> |Sim  <br/> |O nome do modo de exibição que será aberto.  <br/> |
+|Em que  <br/> |Não  <br/> |Se estiver especificado, substitui a condição Where da fonte de registro de objeto.  <br/> |
+|Classificado Por  <br/> |Não  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento fica em branco.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Qualquer classificação ou filtragem aplicada pelo usuário é limpa quando a ação **ChangeView** é chamada. 
+Qualquer classificação ou filtragem aplicada pelo usuário é desmarcada quando a ação **ChangeView** é chamada. 
   
-O argumento *OrderBy* é o nome do campo ou dos campos nos quais você deseja classificar os registros. Quando você usa mais de um nome de campo, separe-os com vírgula (,). 
+O argumento *OrderBy* é o nome do campo ou dos campos nos quais você deseja classificar registros. Quando você usa mais de um nome de campo, separe-os com uma vírgula (,). 
   
 Quando você define o argumento *OrderBy* , os registros são classificados por padrão em ordem crescente. 
   

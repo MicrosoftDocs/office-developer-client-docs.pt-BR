@@ -1,22 +1,22 @@
 ---
-title: Mod (aplicativo da web personalizado do Access)
+title: Mod (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 561dd741-ebbb-4661-95ea-39d342c32891
-description: Retorna o restante de um número dividido por outro.
-ms.openlocfilehash: 9cc75e9a61bedb2d9482693633ddbb4315fdb0dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o resto de um número dividido por outro.
+ms.openlocfilehash: 6756dd50f7e062b73d6ec9e1d9753f5b7f188058
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301705"
 ---
-# <a name="mod-access-custom-web-app"></a>Mod (aplicativo da web personalizado do Access)
+# <a name="mod-access-custom-web-app"></a>Mod (aplicativo Web personalizado do Access)
 
-Retorna o restante de um número dividido por outro.
+Retorna o resto de um número dividido por outro.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
@@ -25,8 +25,8 @@ Retorna o restante de um número dividido por outro.
 
  *dividendo* **Mod** *divisor* 
   
- *dividendo*  É a expressão numérica para dividi-la. 
+ *dividendo*  É a expressão numérica a ser dividida. 
   
- *Divisor*  É a expressão numérica pelo qual dividir o dividendo. 
+ *Divisor*  É a expressão numérica pela qual dividir o dividendo. 
   
 

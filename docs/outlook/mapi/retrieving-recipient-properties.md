@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a48c6a8e043062bc6b48e09934fded1dccb507b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38063cebe70b153decce6713ac5fc31d6916dbf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279588"
 ---
 # <a name="retrieving-recipient-properties"></a>Recuperar propriedades de destinatários
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para acessar uma ou mais propriedades de uma entrada de catálogo de endereços
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para acessar uma ou mais propriedades de uma entrada do catálogo de endereços
   
-1. Para cada entrada do catálogo de endereços de interesse, chame [IAddrBook::OpenEntry](iaddrbook-openentry.md), passando o identificador de entrada do destino da lista de distribuição ou de usuário de mensagens.
+1. Para cada entrada de catálogo de endereços de interesse, chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md), passando o identificador de entrada do usuário de mensagens de destino ou lista de distribuição.
     
-2. Siga um destes procedimentos:
+2. Em seguida, siga um destes procedimentos:
     
-   - Chame o usuário de mensagens ou um método de [IMAPIProp::GetProps](imapiprop-getprops.md) da lista de distribuição para cada entrada do catálogo de endereços de interesse, com uma lista das propriedades para recuperar um ou mais. 
+   - Chame o usuário de mensagens ou a lista de distribuição do método [IMAPIProp::](imapiprop-getprops.md) GetProps para cada entrada de catálogo de endereços de interesse, com uma lista de uma ou mais propriedades a serem recuperadas. 
     
-   - Chame [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), passando uma estrutura [ADRLIST](adrlist.md) que contém todas as propriedades para todas as entradas do catálogo de endereço desejado. Como uma chamada de **PrepareRecips** pode retornar informações de endereço de várias entradas do catálogo, é a estratégia preferível quando você está interessado em mais de um destinatário. 
+   - Call [IAddrBook::P reparerecips](iaddrbook-preparerecips.md), passando uma estrutura [das ADRLIST](adrlist.md) que contém todas as propriedades de todas as entradas do catálogo de endereços desejado. Como uma chamada a **PrepareRecips** pode retornar informações para várias entradas do catálogo de endereços, ela é a estratégia preferida quando você está interessado em mais de um destinatário. 
     
 

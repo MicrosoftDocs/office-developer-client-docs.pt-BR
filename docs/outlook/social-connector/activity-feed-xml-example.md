@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
 description: O exemplo XML neste tópico é uma feed de atividades de cadeia XML retornada para o Outlook Social Connector (OSC) depois de chamar o método ISocialSession2::GetActivitiesEx para uma rede social.
 ms.openlocfilehash: 6370b559c5160bfa48d32afa77715e9a7c126aab
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281329"
 ---
 # <a name="activity-feed-xml-example"></a>Exemplo de XML do feed de atividades
 

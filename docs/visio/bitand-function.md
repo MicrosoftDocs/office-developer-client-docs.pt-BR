@@ -8,28 +8,28 @@ f1_keywords:
 - Vis_DSS.chm82251398
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
-description: Retorna um número binário de 16 bits no qual cada bit for definido como 1 somente se o bit correspondente em númerobinário1 e númerobinário2 é 1. Caso contrário, o bit é definido como 0.
-ms.openlocfilehash: 0b501bb383596e3f2f39ea14f2cb9eb4bf40b25b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna um número binário de 16 bits em que cada bit é definido como 1 somente se o bit correspondente em ambos binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0.
+ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284466"
 ---
 # <a name="bitand-function"></a>Função BITAND
 
-Retorna um número binário de 16 bits no qual cada bit for definido como 1 somente se o bit correspondente em númerobinário1 e númerobinário2 é 1. Caso contrário, o bit é definido como 0. 
+Retorna um número binário de 16 bits em que cada bit é definido como 1 somente se o bit correspondente em ambos binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0. 
   
 ## <a name="syntax"></a>Sintaxe
 
-BITAND (* * *númerobinário1* * *, * * *númerobinário2* * *) 
+BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1 binários_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O primeiro número binário de 16 bits.  <br/> |
-| _binário 2_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O segundo número binário de 16 bits.  <br/> |
+| _Número1 binário_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro número binário de 16 bits.  <br/> |
+| _número2 binário_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O segundo número binário de 16 bits.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,7 +37,7 @@ BITAND (* * *númerobinário1* * *, * * *númerobinário2* * *)
   
 ## <a name="example"></a>Exemplo
 
-BITAND(12,6)
+BITAND (12, 6)
   
 Retornará 4. Se 12 = 0...01100 e 6 = 0...00110; consequentemente, BITAND(12,6) = 0...00100.
   

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: af85588e-8e83-5168-7a8c-d7e8b4af5c27
 description: Determina quando um conector salta.
-ms.openlocfilehash: 002f628841356ec8a22afbb9d4aeca8236058222
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28bf506b8d3729fefec438d259746661fd28586e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284085"
 ---
 # <a name="conlinejumpcode-cell-shape-layout-section"></a>Célula ConLineJumpCode (Seção Shape Layout)
 
@@ -22,19 +22,15 @@ Determina quando um conector salta.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |
-          Como especificado na página, no menu **Design**, clique na seta do grupo **Configurar Página** e na guia **Layout e Direcionamento** para ver as especificações da página.
-  <br/> |**visSLOJumpDefault** <br/> |
+|,0  <br/> |Como especificado na página, no menu **Design**, clique na seta do grupo **Configurar Página** e na guia **Layout e Direcionamento** para ver as especificações da página.  <br/> |**visSLOJumpDefault** <br/> |
 |1  <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
-|2  <br/> |Sempre  <br/> |**visSLOJumpAlways** <br/> |
-|3  <br/> |Outro conector salta  <br/> |**visSLOJumpOther** <br/> |
-|4  <br/> |
-          Nenhum conector salta
-  <br/> |**visSLOJumpNeither** <br/> |
+|duas  <br/> |Sempre  <br/> |**visSLOJumpAlways** <br/> |
+|3D  <br/> |Outro conector salta  <br/> |**visSLOJumpOther** <br/> |
+|quatro  <br/> |Nenhum conector salta  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode também definir o valor desta célula selecionando um conector dinâmico, clicando em **comportamento** , no grupo **Design** da forma na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **conector** . 
+Você também pode definir o valor dessa célula selecionando um conector dinâmico, clicando em **comportamento** no grupo **design da forma** na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **conector** . 
   
 Para obter uma referência para a célula ConLineJumpCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

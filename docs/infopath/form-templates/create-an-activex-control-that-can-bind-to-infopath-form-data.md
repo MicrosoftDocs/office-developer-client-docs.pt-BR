@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: Você pode hospedar os Controles ActiveX nos formulários do InfoPath que podem ser abertos no InfoPath editor. Esses controles podem preexistentes (com algumas restrições) ou podem ser escritos especificamente para InfoPath.
 ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300186"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Criar um controle ActiveX que pode associar-se a dados de formulário do InfoPath
 

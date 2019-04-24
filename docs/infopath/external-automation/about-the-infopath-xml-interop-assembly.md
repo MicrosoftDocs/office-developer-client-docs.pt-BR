@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fb28659b-8a71-4f43-9121-2c748fb2c5e1
 description: O assembly de interoperabilidade XML do InfoPath é fornecido a fim de permitir suporte para interoperabilidade entre o código gerenciado e o servidor de COM expostos pelo Microsoft XML Core Services (MSXML) em aplicativos externos que automatizam o InfoPath.
 ms.openlocfilehash: 8d47fb58c5133fa14ac78aa8fb29278b70c26abb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303777"
 ---
 # <a name="about-the-infopath-xml-interop-assembly"></a>Sobre o assembly de interoperabilidade do InfoPath XML
 

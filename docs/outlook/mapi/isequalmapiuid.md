@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0c72164cac8a37d0372ac93f4ed6d3face966ddb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 44e3613338c8932bc80dd1150392033dfa3cd050
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278730"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22566660"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Testa duas estruturas [MAPIUID](mapiuid.md) para determinar se eles contêm o mesmo identificador. 
+Testa duas estruturas [MAPIUID](mapiuid.md) para determinar se elas contêm o mesmo identificador. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**MAPIUID** <br/> |
    
 ```cpp
@@ -40,17 +40,17 @@ IsEqualMAPIUID(lpuid1, lpuid2)
 
  _lpuid1_
   
-> Ponteiro para a estrutura **MAPIUID** primeiro a ser testado. 
+> Ponteiro para a primeira estrutura **MAPIUID** a ser testada. 
     
  _lpuid2_
   
-> Ponteiro para a estrutura **MAPIUID** segundo a ser testado. 
+> Ponteiro para a segunda estrutura **MAPIUID** a ser testado. 
     
 ## <a name="remarks"></a>Comentários
 
-A macro **IsEqualMAPIUID** retorna TRUE se as duas estruturas **MAPIUID** contêm o mesmo identificador e FALSE se não tiverem. 
+A macro **IsEqualMAPIUID** retorna true se as duas estruturas **MAPIUID** contêm o mesmo identificador e false se não. 
   
-A macro **IsEqualMAPIUID** requer que o arquivo de cabeçalho Memory.h ser incluídos. 
+A macro **IsEqualMAPIUID** requer que o arquivo de cabeçalho Memory. h seja incluído. 
   
 ## <a name="see-also"></a>Confira também
 

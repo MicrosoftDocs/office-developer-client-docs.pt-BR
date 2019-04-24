@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d61bab07-acb3-433b-8783-c3fe110a5582
-description: Obtém um string que representa uma URL que é usada para apresentar um formulário baseado em navegador para o usuário durante a autenticação da web.
-ms.openlocfilehash: 343919f194b238fc519bb8f6d808b44a8ab6e7b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém uma cadeia de caracteres que representa uma URL que é usada para apresentar um formulário baseado em navegador ao usuário durante a autenticação da Web.
+ms.openlocfilehash: 83867282922ea136b9673609cc2ba2f1a206f6ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285375"
 ---
 # <a name="isocialsessiongetlogonurl"></a>ISocialSession::GetLogonUrl
 
-Obtém um string que representa uma URL que é usada para apresentar um formulário baseado em navegador para o usuário durante a autenticação da web.
+Obtém uma cadeia de caracteres que representa uma URL que é usada para apresentar um formulário baseado em navegador ao usuário durante a autenticação da Web.
   
 ```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
@@ -25,13 +25,13 @@ HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 
 ## <a name="parameters"></a>Parâmetros
 
-_URL_
+_url_
   
-> [out] Uma cadeia de caracteres que contém uma URL para o formulário usado na autenticação da web.
+> bota Uma cadeia de caracteres que contém uma URL para o formulário usado na autenticação da Web.
     
 ## <a name="remarks"></a>Comentários
 
-Depois que o formulário é apresentado ao usuário, o método [ISocialSession::LogonWeb](isocialsession-logonweb.md) é chamado com uma sequência vazia para o parâmetro _connectIn_ . 
+Depois que o formulário é apresentado ao usuário, o método [ISocialSession:: LogonWeb](isocialsession-logonweb.md) é chamado com uma cadeia de caracteres vazia __ para o parâmetro connectem. 
   
 ## <a name="see-also"></a>Confira também
 

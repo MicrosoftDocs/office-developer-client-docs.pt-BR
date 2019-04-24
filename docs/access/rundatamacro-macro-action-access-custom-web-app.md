@@ -1,22 +1,22 @@
 ---
-title: Ação de Macro ExecutarMacrodeDados (aplicativo da web personalizado do Access)
+title: Ação de macro RunDataMacro (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
-description: Você pode usar a ação ExecutarMacrodeDados para executar uma macro de dados independentes.
-ms.openlocfilehash: 55a0ff4c731dc517c5d71aa20d8e46c3b4ff4611
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Você pode usar a ação RunDataMacro para executar uma macro de dados autônomas.
+ms.openlocfilehash: 68c0e5a3837039bdab1165e686adb3bdf2a5b6f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304239"
 ---
-# <a name="rundatamacro-macro-action-access-custom-web-app"></a>Ação de Macro ExecutarMacrodeDados (aplicativo da web personalizado do Access)
+# <a name="rundatamacro-macro-action-access-custom-web-app"></a>Ação de macro RunDataMacro (aplicativo Web personalizado do Access)
 
-Você pode usar a ação **ExecutarMacrodeDados** para executar uma macro de dados independentes. 
+Você pode usar a ação **RunDataMacro** para executar uma macro de dados autônomas. 
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
@@ -31,7 +31,7 @@ A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
    
 ## <a name="remarks"></a>Comentários
 
-Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados requer parâmetros, caixas de texto aparecem onde você pode digitar nos argumentos.
+Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados exigir parâmetros, as caixas de texto aparecerão onde você pode digitar os argumentos.
   
 Quando você executa uma macro que contém a ação **ExecutarMacrodeDados** e ela alcançar a ação **ExecutarMacrodeDados**, o Access executará a macro de dados chamada. Após a conclusão da macro de dados chamada, o Access retornará à macro original e executará a próxima ação. 
   

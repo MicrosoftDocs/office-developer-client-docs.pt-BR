@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251478
 localization_priority: Normal
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
-description: Retorna a constante matemática pi, que é aproximadamente 3.1415926535898.
-ms.openlocfilehash: 8c4290e01e47d119a74c3131fe8c25f522c1f036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o PI de constante matemática, que é aproximadamente 3.1415926535898.
+ms.openlocfilehash: fccde47df34f3be92201427e46a2084f001e3cd1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269948"
 ---
 # <a name="pi-function"></a>Função PI
 
-Retorna a constante matemática *pi* , que é de aproximadamente 3.1415926535898. 
+Retorna o *PI* de constante matemática, que é aproximadamente 3.1415926535898. 
   
 ## <a name="syntax"></a>Sintaxe
 
 PI( )
   
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Número
   
 ## <a name="example"></a>Exemplo
 
-(14 pol / 2) ^ 2 \* PI) 
+(14 in/2) ^ 2 \* PI () 
   
 Retorna 153,9380 polegadas, a área de um círculo cujo diâmetro é 14 polegadas. 
   

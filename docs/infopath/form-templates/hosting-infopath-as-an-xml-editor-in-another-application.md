@@ -1,22 +1,22 @@
 ---
-title: Hospedar o InfoPath como um Editor de XML em outro aplicativo
+title: Hospedando o InfoPath como um editor de XML em outro aplicativo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
-description: O ambiente de edição de formulários do Microsoft InfoPath podem ser hospedado em um aplicativo personalizado do Windows, que permite aos desenvolvedores integrar o ambiente em aplicativos de linha de negócios de edição de formulários do InfoPath.
-ms.openlocfilehash: dd87cba7219b5647bd2b20dd67c6eb0f1811cc59
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: O ambiente de edição de formulário do Microsoft InfoPath pode ser hospedado em um aplicativo do Windows personalizado, que permite que os desenvolvedores integrem o ambiente de edição de formulários do InfoPath em aplicativos de linha de negócios.
+ms.openlocfilehash: b85e47d506b17982bb883c9d56ea13131807d1cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303686"
 ---
-# <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>Hospedar o InfoPath como um Editor de XML em outro aplicativo
+# <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>Hospedando o InfoPath como um editor de XML em outro aplicativo
 
-O ambiente de edição de formulários do Microsoft InfoPath podem ser hospedado em um aplicativo personalizado do Windows. Esse recurso permite aos desenvolvedores integrar o ambiente em aplicativos de linha de negócios de edição de formulários do InfoPath. Os desenvolvedores que criam aplicativos baseados em COM tradicionais podem usar o objeto de **InfoPathEditorObject** que está disponível pela referência a IPEDITOR. DLL e os desenvolvedores que criam a Microsoft. Aplicativos baseados em NET podem usar o assembly **Microsoft.Office.InfoPath.FormControl** , que fornece tipos gerenciados com base na interface COM. O IPEDITOR. DLL e assembly **Microsoft.Office.InfoPath.FormControl** são instalados, juntamente com o InfoPath no C:\Program Files\Microsoft Office\Office15 ou arquivos C:\Program (x86) \Microsoft Office\Office15 pasta. 
+O ambiente de edição de formulário do Microsoft InfoPath pode ser hospedado em um aplicativo do Windows personalizado. Este recurso permite que os desenvolvedores integrem o ambiente de edição de formulários do InfoPath em aplicativos de linha de negócios. Os desenvolvedores que escrevem aplicativos tradicionais baseados em COM podem usar o objeto **InfoPathEditorObject** que está disponível referenciando o IPEDITOR. DLL e desenvolvedores que escrevem o Microsoft. Os aplicativos baseados em rede podem usar o assembly **Microsoft. Office. InfoPath. FormControl** , que fornece tipos gerenciados baseados na interface com. O IPEDITOR. DLL e **Microsoft. Office. InfoPath. FormControl** estão instalados juntamente com o InfoPath na pasta C:\Arquivos de Programas\Microsoft Office\Office15 ou C:\Arquivos de programas (x86) \Microsoft Office\Office15. 
   
-O artigo MSDN, hospedando o ambiente de edição de formulário do InfoPath 2007 em um aplicativo de formulário personalizado do Windows, enfoca o objeto **FormControl** e como incorporá-la em seu personalizado. Aplicativos baseados em NET. O download associado ao artigo contém um aplicativo personalizado que fornece funções de .NET para replicar o ambiente devido ao uso COM **IOleCommandTargets**de edição de formulários do InfoPath.
+O artigo do MSDN, que hospeda o ambiente de edição de formulários do InfoPath 2007 em um aplicativo do Windows Form personalizado, se concentra no objeto **FormControl** e como incorporá-lo ao seu personalizado. Aplicativos baseados em rede. O download associado ao artigo contém um aplicativo personalizado que fornece funções do .NET para a replicação do ambiente de edição de formulários do InfoPath por meio do uso do COM **IOleCommandTargets**.
   
 

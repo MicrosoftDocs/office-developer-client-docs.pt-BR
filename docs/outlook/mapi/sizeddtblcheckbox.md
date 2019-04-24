@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282751"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
@@ -27,7 +27,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLCHECKBOX](dtblcheckbox.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
@@ -42,18 +42,18 @@ _n_
     
 _u_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblCheckBox** permite definir uma caixa de seleção quando o número de caracteres do rótulo é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblCheckBox** permite definir uma caixa de seleção quando o número de caracteres de rótulo é conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Para usar um ponteiro para a estrutura resultante de macro **SizedDtblCheckBox** como um ponteiro de estrutura **DTBLCHECKBOX** , execute a seguinte projeção: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblCheckBox** como um ponteiro de estrutura **DTBLCHECKBOX** , execute a seguinte conversão: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

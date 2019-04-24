@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c3c4ac10003aad8949de94e0f144410af10078b1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309566"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
@@ -41,27 +41,27 @@ HRESULTCopyProfile(
 
  _lpszOldProfileName_
   
-> [in] Um ponteiro para o nome do perfil para copiar.
+> no Um ponteiro para o nome do perfil a ser copiado.
     
  _lpszOldPassword_
   
-> [in] Um ponteiro para a senha do perfil para copiar.
+> no Um ponteiro para a senha do perfil a ser copiado.
     
  _lpszNewProfileName_
   
-> [in] Um ponteiro para o novo nome do perfil copiado.
+> no Um ponteiro para o novo nome do perfil copiado.
     
  _ulUIParam_
   
-> [in] Um identificador para a janela pai de todas as caixas de diálogo ou windows que esse método exibe.
+> no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o perfil é copiado. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como o perfil é copiado. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DIALOG 
   
-> Exibe uma caixa de diálogo que solicita ao usuário a senha correta do perfil para copiar. Se esse sinalizador não estiver definida, nenhuma caixa de diálogo é exibida.
+> Exibe uma caixa de diálogo que solicita ao usuário a senha correta do perfil a ser copiado. Se esse sinalizador não for definido, nenhuma caixa de diálogo será exibida.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -71,13 +71,13 @@ S_OK
     
 MAPI_E_ACCESS_DENIED 
   
-> O nome do novo perfil é igual de um perfil existente.
+> O novo nome do perfil é o mesmo de um perfil existente.
     
 MAPI_E_LOGON_FAILED 
   
-> A senha para o perfil copiar estiver incorreta, e uma caixa de diálogo não pôde ser exibida para o usuário para solicitar a senha correta porque MAPI_DIALOG não foi definido no parâmetro _ulFlags_ . 
+> A senha do perfil a ser copiada está incorreta e uma caixa de diálogo não pôde ser exibida para o usuário solicitar a senha correta porque MAPI_DIALOG não foi definido no parâmetro _parâmetroulflags_ . 
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
 > O perfil especificado não existe.
     
@@ -87,17 +87,17 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin::CopyProfile** faz uma cópia do perfil apontado pela _lpszOldProfileName_, dando a ele o nome apontada pela _lpszNewProfileName_. Copiar um perfil deixa a cópia com a mesma senha que o original.
+O método **IProfAdmin:: CopyProfile** faz uma cópia do perfil apontada pelo _lpszOldProfileName_, dando a ele o nome apontado por _lpszNewProfileName_. Copiar um perfil deixa a cópia com a mesma senha que o original.
   
-O nome do perfil original, sua senha e a cópia pode ter até 64 caracteres de comprimento e pode incluir os seguintes caracteres:
+O nome do perfil original, sua senha e a cópia podem ter até 64 caracteres de comprimento e podem incluir os seguintes caracteres:
   
-- Todos os caracteres alfanuméricos, incluindo o caractere de sublinhado e ênfase.
+- Todos os caracteres alfanuméricos, incluindo caracteres de ênfase e o caractere de sublinhado.
     
 - Espaços incorporados, mas não espaços à esquerda ou à direita.
     
-Senhas de perfil não são suportadas em todos os sistemas operacionais. Nos sistemas operacionais que não oferecem suporte a senhas de perfil, _lpszOldPassword_ pode ser NULL ou um ponteiro para uma cadeia de caracteres de comprimento zero. 
+As senhas de perfil não são suportadas em todos os sistemas operacionais. Em sistemas operacionais que não dão suporte a senhas de perfil, _lpszOldPassword_ pode ser NULL ou um ponteiro para uma sequência de comprimento zero. 
   
-Se _lpszOldPassword_ for definido como NULL, o perfil a ser copiado exige uma senha e o sinalizador MAPI_DIALOG está definido; uma caixa de diálogo que solicita ao usuário para fornecer a senha é exibida. Se uma senha é exigida, mas _lpszOldPassword_ for definido como nulo e o sinalizador MAPI_DIALOG não estiver definido, **CopyProfile** retorna MAPI_E_LOGON_FAILED. 
+Se _lpszOldPassword_ estiver definido como nulo, o perfil a ser copiado requer uma senha e o sinalizador MAPI_DIALOG é definido; é exibida uma caixa de diálogo solicitando que o usuário forneça a senha. Se uma senha for necessária, mas _lpszOldPassword_ estiver definida como nulo e o sinalizador MAPI_DIALOG não estiver definido, **CopyProfile** retornará MAPI_E_LOGON_FAILED. 
   
 ## <a name="see-also"></a>Confira também
 

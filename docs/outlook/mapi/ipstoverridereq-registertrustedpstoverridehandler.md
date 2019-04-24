@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
-description: 'Modificado em: 24 de fevereiro de 2013'
+description: 'Última modificação: 24 de fevereiro de 2013'
 ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279532"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393870"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicia o procedimento desbloqueando um arquivo de pastas particulares (. pst).
+Inicia o procedimento de desbloqueio para um arquivo de pastas particulares (. pst).
   
 ```cpp
 HRESULT RegisterTrustedPSTOverrideHandler (
@@ -39,11 +39,11 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
  _pwzDllPath_
   
-> [in] Um ponteiro para o caminho de uma biblioteca de vínculo dinâmico (DLL) de terceiros.
+> no Um ponteiro para o caminho de uma biblioteca de vínculo dinâmico (DLL) de terceiros.
     
  _pvClientData_
   
-> [in] Um ponteiro para dados de cliente, que serão passados pelo provedor de PST para chamadas subsequentes à função de HrTrustedPSTOverrideHandlerCallback da DLL. Esses dados do cliente podem ser usados pela DLL para auxiliar verificando se o PST deve ser desbloqueado.
+> no Um ponteiro para dados do cliente, que serão passados pelo provedor PST para chamadas subsequentes para a função HrTrustedPSTOverrideHandlerCallback da DLL. Esses dados de cliente podem ser usados pela DLL para ajudar a verificar se o PST deve ser desbloqueado.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -53,7 +53,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-A DLL especificada pelo parâmetro wzDllPath deve estar conectada usando um certificado digital. A DLL também deve exportar uma função com a seguinte assinatura.
+A DLL especificada pelo parâmetro wzDllPath deve ser assinada usando um certificado digital. A DLL também deve exportar uma função com a assinatura a seguir.
   
 ```
 extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstore, IUnknown *pOverride, LPVOID pvClientData)

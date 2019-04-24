@@ -6,19 +6,19 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 38ad6365-79df-4342-9b76-ca27b8ab8952
 description: Retorna uma cadeia de caracteres com o resultado da combinação de dois ou mais valores de cadeia de caracteres.
-ms.openlocfilehash: fc0de43e5e42cc1c39ee89cf76058b8039daf279
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: b8f52c292e64939f9464bc666ecc4bc341580f94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282289"
 ---
 # <a name="concat-function-access-custom-web-app"></a>Função Concat (aplicativo Web personalizado do Access)
 
 Retorna uma cadeia de caracteres com o resultado da combinação de dois ou mais valores de cadeia de caracteres.
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 

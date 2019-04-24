@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddedc2ca0785be2fe4850ec3cfdf979d1e5f2798
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285176"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propriedade canônica PidLidRemoteTransport
 
@@ -25,31 +25,31 @@ ms.locfileid: "22587114"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identifica que conta o item de cabeçalho está associado, principalmente para implementar o deixe POP na funcionalidade do servidor. 
+Identifica a conta à qual o item de cabeçalho está associado, principalmente para implementar a licença POP na funcionalidade do servidor. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas  <br/> |dispidRemoteXP  <br/> |
-|Propriedade definida:  <br/> |PSETID_Remote  <br/> |
-|ID de longo (LID):  <br/> |0x00008F03  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Remote  <br/> |
+|Long ID (LID):  <br/> |0x00008F03  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Mensagem remota  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é relevante somente em mensagens que têm uma classe de mensagem IPM. Remoto. Microsoft Outlook mantém um mapeamento de várias contas que estiver baixando os dados para um determinado repositório em uma mensagem de informações de associado de pasta (FAI), mas ele também pode manter essas informações no registro.
+Esta propriedade é relevante somente em mensagens que têm uma classe de mensagem IPM. Remota. O Microsoft Outlook mantém um mapeamento de várias contas que estão sendo baixadas para um determinado repositório em uma mensagem de informações associadas à pasta (FAI), mas também pode manter essas informações no registro.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

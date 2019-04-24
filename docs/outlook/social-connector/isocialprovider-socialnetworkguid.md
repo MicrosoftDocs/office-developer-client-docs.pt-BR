@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: Retorna um GUID que representa um identificador exclusivo para a rede social.
-ms.openlocfilehash: 5ff10d51fab03c3bca3eead52848088f2cd80bba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc96799ada773cc7260e156d3e2ab8423b73884b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285509"
 ---
 # <a name="isocialprovidersocialnetworkguid"></a>ISocialProvider::SocialNetworkGuid
 
@@ -23,13 +23,13 @@ Retorna um GUID que representa um identificador exclusivo para a rede social.
 [propget] HRESULT _stdcall SocialNetworkGuid([out, retval] GUID* guid);
 ```
 
-## <a name="property-value"></a>Property value
+## <a name="property-value"></a>Valor de propriedade
 
-Um ponteiro para um valor GUID que representa um identificador exclusivo para a rede social.
+Um ponteiro para um valor de GUID que representa um identificador exclusivo para a rede social.
   
 ## <a name="remarks"></a>Comentários
 
-O GUID deve ser imutável e não deve alterar, mesmo se altera a versão do provedor.
+O GUID deve ser imutável e não deve ser alterado, mesmo se a versão do provedor for alterada.
   
 ## <a name="see-also"></a>Confira também
 

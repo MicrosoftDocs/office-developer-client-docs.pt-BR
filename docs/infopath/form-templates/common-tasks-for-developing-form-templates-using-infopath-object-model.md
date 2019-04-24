@@ -1,27 +1,27 @@
 ---
-title: Tarefas comuns para o desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath
+title: Tarefas comuns para desenvolver modelos de formulário usando o modelo de objeto do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- modelos de formulário compatíveis com 2003 do InfoPath, tarefas comuns, modelos [InfoPath 2007], as tarefas comuns de desenvolvimento 2003 compatíveis de formulário
+- modelos de formulário compatíveis com o InfoPath 2003, tarefas comuns, modelos de formulário [InfoPath 2007], tarefas comuns para o desenvolvimento compatível com 2003
 localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
-description: Este tópico foi criado para ajudá-lo a encontrar rapidamente as respostas para perguntas comuns sobre como desenvolver modelos de formulário com código de formulário que funciona em relação o assembly SemiTrust.
-ms.openlocfilehash: 902df2e7ca27b0d7760ac01e3f6c2a0c45cd61d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico foi projetado para ajudá-lo a encontrar rapidamente as respostas para perguntas comuns sobre o desenvolvimento de modelos de formulário com código de formulário que funciona no assembly Microsoft. Office. Interop. InfoPath. SemiTrust.
+ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303756"
 ---
-# <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Tarefas comuns para o desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath
+# <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Tarefas comuns para desenvolver modelos de formulário usando o modelo de objeto do InfoPath
 
-Este tópico foi criado para ajudá-lo a encontrar rapidamente as respostas para perguntas comuns sobre como desenvolver modelos de formulário com código de formulário que funciona em relação o assembly **SemiTrust** . 
+Este tópico foi projetado para ajudá-lo a encontrar rapidamente as respostas para perguntas comuns sobre o desenvolvimento de modelos de formulário com código de formulário que funciona no assembly **Microsoft. Office. Interop. InfoPath. SemiTrust** . 
   
 ## <a name="projects-and-general-tasks"></a>Projetos e tarefas gerais
 
-Tarefas comuns executadas durante a criação e desenvolvimento de projetos.
+Tarefas comuns realizadas durante a criação e desenvolvimento de projetos.
   
 - [Criar um modelo de formulário usando o modelo de objeto do InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
     
@@ -31,33 +31,33 @@ Tarefas comuns executadas durante a criação e desenvolvimento de projetos.
     
 - [Adicionar e fazer referência a assemblies personalizados](how-to-add-and-reference-custom-assemblies.md)
     
-- [Passo a passo: Criando e depurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Passo a passo: Criando e dePurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
 ## <a name="programming-tasks"></a>Tarefas de programação
 
-Tarefas comuns executadas quando a programação de modelos de formulário de código gerenciado.
+Tarefas comuns executadas durante a programação de modelos de formulário de código gerenciado.
   
-- [Responder eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Responder a eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
     
 - [Trabalhar com modos de exibição usando o modelo de objeto do InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [Trabalhar com formulários do Windows usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Trabalhar com janelas de formulário usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
 - [Exibir alertas e caixas de diálogo usando o modelo de objeto do InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
-- [Lidar com erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Manipular erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
     
 - [Trabalhar com assinaturas digitais usando o modelo de objeto do InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
     
-- [Trabalhar com soluções do Office usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+- [Trabalhar com soluções offline usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
     
 - [Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
 ## <a name="data"></a>Data
 
-Tarefas comuns executadas quando estiver trabalhando com dados.
+Tarefas comuns realizadas durante o trabalho com dados.
   
-- [Acessar dados do aplicativo usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+- [Acessar dados de aplicativo usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
     
 - [Acessar fontes de dados externas usando o modelo de objeto do InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
     
@@ -65,7 +65,7 @@ Tarefas comuns executadas quando estiver trabalhando com dados.
     
 ## <a name="security-and-deployment"></a>Segurança e implantação
 
-Tarefas comuns e informações sobre segurança e implantando modelos de formulário de código gerenciado.
+Tarefas e informações comuns sobre segurança e implantação de modelos de formulário de código gerenciado.
   
 - [Sobre o modelo de segurança para modelos de formulário com código](about-the-security-model-for-form-templates-with-code.md)
     
@@ -77,5 +77,5 @@ Tarefas comuns e informações sobre segurança e implantando modelos de formul�
     
 ## <a name="see-also"></a>Confira também
 
-- [InfoPath 2003 compatível com modelos de objeto](infopath-2003-compatible-object-models.md)
+- [Modelos de objeto compatíveis com o InfoPath 2003](infopath-2003-compatible-object-models.md)
 

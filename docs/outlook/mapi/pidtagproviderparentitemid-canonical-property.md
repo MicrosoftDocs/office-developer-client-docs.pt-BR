@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d0ec4e793a5b7940802ee159c2e869695166ce93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f99cf38e65c75ce1ba74bf72d88e19f4fbfa03a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286443"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>Propriedade canônica PidTagProviderParentItemId
 
@@ -25,30 +25,30 @@ ms.locfileid: "22563279"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica um identificador para o pai de uma pasta ou um item em um repositório.
+Especifica um identificador para o pai de uma pasta ou um item de um repositório.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
 |Identificador:  <br/> |0x0EA4  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Provedores de armazenamento podem especificar um valor para essa propriedade para um pai de uma pasta ou um item, mas devem manter o valor os mesmos entre sessões. Provedores de armazenamento usam essa propriedade para identificar os resultados de pesquisa retornados de um mecanismo de pesquisa.
+Os provedores de repositório podem especificar um valor para essa propriedade para um pai de uma pasta ou um item, mas deve manter o valor o mesmo entre as sessões. Provedores de repositório Use essa propriedade para identificar os resultados de pesquisa retornados de um mecanismo de pesquisa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

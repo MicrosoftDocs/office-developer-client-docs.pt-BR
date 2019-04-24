@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb40e2c191056fe164c6a06bfdcf4b8e3d6eb92c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283195"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Propriedade canônica PidTagContactAddressBookStoreSupportMask
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565610"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtida com o repositório que contém a pasta Contatos.
+Contém a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtida do repositório que contém a pasta de contatos.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtag
    
 ## <a name="remarks"></a>Comentários
 
-O provedor de catálogo de endereços de contatos usa essa propriedade para avaliar a adequação dos recursos com suporte da loja. Esta é uma propriedade em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contatos.
+O provedor de catálogo de endereços de contatos usa essa propriedade para avaliar a adequação dos recursos com suporte do repositório. É uma propriedade em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

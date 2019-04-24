@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309482"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
@@ -29,7 +29,7 @@ Descreve um verbo MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,11 +47,11 @@ typedef struct
 
  **lVerb**
   
-> Código que representa o verbo que é passado para [IMAPIForm::DoVerb](imapiform-doverb.md). Verbos padrão são definidos no arquivo de cabeçalho Exchform.h.
+> Código que representa o verbo que é passado para [IMAPIForm::D overb](imapiform-doverb.md). Os verbos padrão são definidos no arquivo de cabeçalho Exchform. h.
     
  **szVerbname**
   
-> Nome para exibição do verbo como ele aparece no menu formulário.
+> Exibe o nome do verbo como ele aparece no menu formulário.
     
  **fuFlags**
   
@@ -63,11 +63,11 @@ typedef struct
     
  **ulFlags**
   
-> Sinalizador que indica o formato de nome para exibição da verbo. O seguinte sinalizador pode ser definido:
+> Sinalizador que indica o formato do nome de exibição do verbo. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> O nome de exibição está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome de exibição é no formato ANSI.
+> O nome para exibição está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome de exibição estará no formato ANSI.
     
 ## <a name="remarks"></a>Comentários
 

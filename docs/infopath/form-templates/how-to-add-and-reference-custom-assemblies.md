@@ -4,36 +4,36 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- modelo de objeto de modelos de formulário de 2003 compatíveis do InfoPath, usando assemblies personalizados, assemblies [InfoPath 2007], adição personalizada usando o InfoPath 2003
+- modelos de formulário compatíveis com o InfoPath 2003, usando assemblies personalizados, assemblies [InfoPath 2007], adicionando personalizado usando o modelo de objeto do InfoPath 2003
 localization_priority: Normal
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
-description: Quando você adiciona uma referência a um assembly personalizado em um projeto de modelo de formulário de código gerenciado, nesse assembly é incluído dentro do arquivo de modelo de formulário (. xsn) quando o projeto é compilado e publicado.
-ms.openlocfilehash: e182930ebe14b6f64d1b90509fe400cc1fb1b26e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Quando você adiciona uma referência a um assembly personalizado em um projeto de modelo de formulário de código gerenciado, esse assembly é incluído no arquivo de modelo de formulário (. xsn) quando seu projeto é compilado e publicado.
+ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303658"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>Adicionar e fazer referência a assemblies personalizados
 
-Quando você adiciona uma referência a um assembly personalizado em um projeto de modelo de formulário de código gerenciado, nesse assembly é incluído dentro do arquivo de modelo de formulário (. xsn) quando o projeto é compilado e publicado.
+Quando você adiciona uma referência a um assembly personalizado em um projeto de modelo de formulário de código gerenciado, esse assembly é incluído no arquivo de modelo de formulário (. xsn) quando seu projeto é compilado e publicado.
   
-## <a name="add-and-reference-a-custom-assembly"></a>Adicionar e fazer referência a um Assembly personalizado
+## <a name="add-and-reference-a-custom-assembly"></a>Adicionar e referenciar um assembly personalizado
 
-Para evitar um conflito com como o sistema de projeto do InfoPath gerencia arquivos que são adicionados ao arquivo de modelo de formulário, não copie qualquer assemblies personalizados que você deseja fazer referência para a pasta de nível superior de um projeto de modelo de formulário. Por padrão, este será um caminho no seguinte formato: < *unidade* >: \Users\ \Documents\InfoPath Projects\ *UserName* *NomeDoProjeto* 
+Para evitar um conflito com o modo como o sistema de projeto do InfoPath gerencia arquivos que são adicionados ao arquivo de modelo de formulário, não copie qualquer assembly personalizado que você deseja fazer referência à pasta de nível superior de um projeto de modelo de formulário. Por padrão, este será um caminho no seguinte formato: < *drive* >: \Users\ *username* \Documents\InfoPath Projects \ *ProjectName* 
   
-Se desejar mover assemblies personalizados que você faz referência a um local dentro da pasta do projeto, você deve criar uma subpasta na pasta do projeto principal e copie e assemblies personalizados de referência da subpasta. No entanto, lembre-se de que a criação de uma subpasta para assemblies referenciados não é necessário. Desde que um assembly referenciado não está localizado na pasta de nível superior do projeto, o sistema de projeto do InfoPath copiará o assembly para o arquivo de modelo de formulário (. xsn) quando o projeto é compilado e publicado.
+Se você deseja mover assemblies personalizados que você faz referência a um local dentro da pasta do projeto, você deve criar uma subpasta na pasta principal do projeto e, em seguida, copiar e fazer referência a assemblies personalizados dessa subpasta. No enTanto, lembre-se de que a criação de uma subpasta para assemblies referenciados não é necessária. Desde que um assembly referenciado não esteja localizado dentro da pasta de nível superior do projeto, o sistema de projeto do InfoPath copiará o assembly para o arquivo de modelo de formulário (. xsn) quando o projeto for compilado e publicado.
   
-### <a name="reference-a-custom-assembly-from-its-default-location"></a>Referência a um assembly personalizado do local padrão
+### <a name="reference-a-custom-assembly-from-its-default-location"></a>Fazer referência a um assembly personalizado do local padrão
 
 1. Abra o projeto de modelo de formulário no Visual Studio 2012.
     
 2. On the **Project** menu, click **Add Reference**.
     
-3. Clique na guia **Procurar** , localize especificar o assembly e clique em **Okey** para adicionar a referência. 
+3. Clique na guia **procurar** , localize e especifique o assembly e, em seguida, clique em **OK** para adicionar a referência. 
     
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 #### <a name="tasks"></a>Tarefas
 

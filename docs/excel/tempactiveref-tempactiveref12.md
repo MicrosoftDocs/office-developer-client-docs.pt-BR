@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- função tempactiveref [excel 2007], função TempActiveRef12 [Excel 2007]
+- função tempactiveref [Excel 2007], função TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5c2e82dcaf9bf562048b5d2582ece1bd262b47eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58feee8f43e0f90f710c9e4387684dcb6d173a7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301565"
 ---
 # <a name="tempactivereftempactiveref12"></a>TempActiveRef/TempActiveRef12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de Framework que cria um temporário **XLOPER**/ **XLOPER12** contendo uma referência externa para bloco retangular de células na planilha ativa. 
+Função da biblioteca de estrutura que cria um **XLOPER XLOPER**/ **** temporário contendo uma referência externa para o bloco retangular de células na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
@@ -34,31 +34,31 @@ LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 
  _rwFirst_
   
-A linha de início da referência.
+A linha inicial da referência.
   
  _rwLast_
   
 A linha final da referência.
   
-Argumentos de linha são baseada em zero, portanto, essa linha 1 é passada como 0. No Microsoft Office Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser realizado por um inteiro do WORD. Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. H.
+Os argumentos de linha são baseados em zero, de forma que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser feito por um inteiro de palavra. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. 0.
   
  _colFirst_
   
-O número inicial de coluna da referência.
+O número da coluna inicial da referência.
   
  _colLast_
   
-O número de coluna final da referência.
+O número da coluna final da referência.
   
-Argumentos de coluna estão baseado em zero, portanto, uma coluna é passada como 0. No Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é de 255 = 2 ^ 8 1 e é o valor máximo que pode ser realizado por um inteiro de bytes. Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 16,383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. H.
+Os argumentos de coluna são baseados em zero para que A coluna A seja passada como 0. No Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 255 = 2 ^ 8-1 e é o valor máximo que pode ser feito por um inteiro de BYTE. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 16.383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. 0.
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência de **xltypeRef** externo para bloco retangular de células passados. 
+Retorna uma referência externa **xltypeRef** para o bloco retangular de células passadas. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempActiveRef12** para selecionar A105:C110 de células. 
+Este exemplo usa a função **TempActiveRef12** para selecionar as células A105: C110. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -74,5 +74,5 @@ short WINAPI TempActiveRefExample(void)
 
 
 
-[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
+[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
 

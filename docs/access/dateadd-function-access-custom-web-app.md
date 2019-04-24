@@ -1,52 +1,52 @@
 ---
-title: Função DateAdd (aplicativo da web personalizado do Access)
+title: Função DateAdd (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
-description: Retorna uma data especificada com o intervalo de número especificado (inteiro positivo ou negativo) adicionada à parte dessa data data especificada.
-ms.openlocfilehash: a2baa58a2ccab7d030750d03d4fddb84e8eb8ff7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma data especificada com o intervalo de números especificado (inteiro positivo ou negativo) adicionado a uma parte de data especificada da data.
+ms.openlocfilehash: 7cfd68c4983eee22a5e542facd72ea083deb3184
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282177"
 ---
-# <a name="dateadd-function-access-custom-web-app"></a>Função DateAdd (aplicativo da web personalizado do Access)
+# <a name="dateadd-function-access-custom-web-app"></a>Função DateAdd (aplicativo Web personalizado do Access)
 
-Retorna uma data especificada com o intervalo de número especificado (inteiro positivo ou negativo) adicionada à parte dessa data data especificada.
+Retorna uma data especificada com o intervalo de números especificado (inteiro positivo ou negativo) adicionado a uma parte de data especificada da data.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
-**DateAdd** (*DatePart*, *número*, *Data*) 
+**DateAdd** (*Datepart*, *número*, *Data*) 
   
-A função **DateAdd** contém os seguintes argumentos. 
+A função **DateAdd** contém os argumentos a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *ParteDeData*  <br/> |A parte da *Data* à qual um número inteiro é adicionado. Consulte a seção de comentários para a lista das configurações válidas.  <br/> |
-| *Número*  <br/> |É uma expressão que possa ser resolvida para um número inteiro que é adicionado a um *DatePart* de *Data* . Se você especificar um valor com uma fração decimal, a fração será truncada.  <br/> |
-| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
+| *DatePart*  <br/> |A parte da *Data* à qual um número inteiro é adicionado. Consulte a seção comentários para obter a lista de configurações válidas.  <br/> |
+| *Número*  <br/> |É uma expressão que pode ser resolvida como um inteiro que é adicionado a *datepart* de *Data* . Se você especificar um valor com fração decimal, a fração será truncada.  <br/> |
+| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A tabela a seguir lista todos os argumentos *DatePart* válidos. 
+A tabela a seguir lista todos os argumentos de *datepart* válidos. 
   
-|***ParteDeData***|
+|***DatePart***|
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |
 |**Mês** <br/> |
-|**DAYOFYEAR** <br/> |
+|**DayOfYear** <br/> |
 |**day** <br/> |
-|**semana** <br/> |
+|**útil** <br/> |
 |**hora** <br/> |
-|**minuto** <br/> |
-|**segundo** <br/> |
+|**inclusões** <br/> |
+|**secundária** <br/> |
 |**milissegundo** <br/> |
    
 ## <a name="example"></a>Exemplo

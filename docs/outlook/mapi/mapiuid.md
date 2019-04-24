@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269920"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22587163"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma versão independente da ordem de byte de uma estrutura [GUID](guid.md) é utilizada para identificar exclusivamente um provedor de serviços. 
+Uma versão independente de ordem de bytes de uma estrutura [GUID](guid.md) usada para identificar exclusivamente um provedor de serviços. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macro relacionada:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
@@ -48,27 +48,27 @@ typedef struct _MAPIUID
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **MAPIUID** é uma estrutura **GUID** colocar em ordem de bytes de processador Intel®. 
+Uma estrutura **MAPIUID** é uma estrutura **GUID** colocada na ordem de byte do processador Intel ®. 
   
-MAPI cria **MAPIUID** estruturas de forma que torna muito rara para dois itens diferentes ter o mesmo identificador. Estruturas **MAPIUID** podem ser armazenadas como propriedades binárias ou como arquivos, sem relação com a ordem dos bytes do computador armazenando ou acessando as informações. 
+O MAPI cria estruturas **MAPIUID** de uma maneira que torna muito raro que dois itens diferentes tenham o mesmo identificador. As estruturas **MAPIUID** podem ser armazenadas como propriedades binárias ou como arquivos, sem considerar a ordenação de bytes do computador que armazena ou acessa as informações. 
   
- Estruturas **MAPIUID** são usadas: 
+ As estruturas **MAPIUID** são usadas: 
   
 - Para identificar uma seção de perfil.
     
-- Na entrada identificadores de mensagem armazenam em objetos de catálogo para identificar o provedor de serviços responsável de endereços.
+- Nos identificadores de entrada dos objetos de repositório de mensagens e de catálogo de endereços para identificar o provedor de serviços responsável.
     
-- Na propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) das mensagens.
+- Na propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de messages.
     
-Para gerar um identificador **MAPIUID** por uma chave de pesquisa, provedores de serviços de chamarem [IMAPISupport::NewUID](imapisupport-newuid.md).
+Para gerar um identificador de **MAPIUID** para uma chave de pesquisa, os provedores de serviços chamam [IMAPISupport:: NewUID](imapisupport-newuid.md).
   
-Quando um cliente transmite uma mensagem em uma rede, ele deve usar um formato de transmissão ou protocolo que não alterar a ordem de bytes de dados **MAPIUID** . 
+Quando um cliente transmite uma mensagem através de uma rede, ele deve usar um formato de protocolo ou de transmissão que não altere a ordem de bytes dos dados de **MAPIUID** . 
   
-Para obter mais informações sobre como as estruturas **MAPIUID** são usadas, consulte os tópicos a seguir: 
+Para obter mais informações sobre como as estruturas do **MAPIUID** são usadas, consulte os seguintes tópicos: 
   
-[Registrar identificadores exclusivos do provedor de serviços](registering-service-provider-unique-identifiers.md)
+[Registrando identificadores exclusivos do provedor de serviços](registering-service-provider-unique-identifiers.md)
   
-[Configurar um pedido de transporte](setting-transport-order.md)
+[Configuração da ordem de transporte](setting-transport-order.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7a6f8975-f052-39e9-9dbc-4698852fe5e1
 description: O fluxo de trabalho do documento é um recurso do Microsoft SharePoint Server 2010 e Microsoft SharePoint Foundation 2010 que permite definir um fluxo de trabalho e usá-lo em uma biblioteca de documentos. Cenários de fluxo de trabalho internos, como roteamento de um documento para aprovação ou coleta de feedback sobre um documento, são modelos de fluxo de trabalho comuns que podem ser personalizados para atender às suas necessidades específicas. Qualquer documento do Office pode ter um fluxo de trabalho associado a ele, mas também podem ser criados modelos de formulário do Microsoft InfoPath para que as informações sobre o fluxo de trabalho possam ser incorporadas ao modelo de formulário do InfoPath.
 ms.openlocfilehash: f34e01ad1e1b9851ee8281bc2580cb5d5d270c88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303462"
 ---
 # <a name="sharepoint-workflow-support-in-infopath-forms"></a>Suporte a fluxo de trabalho do SharePoint em formulários do InfoPath
 

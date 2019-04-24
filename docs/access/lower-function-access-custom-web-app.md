@@ -1,31 +1,31 @@
 ---
-title: Função LOWER (aplicativo da web personalizado do Access)
+title: Função Lower (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2607bdd-6694-4b37-983e-020e175d230a
-description: Retorna uma expressão de caractere após converter dados caracteres maiusculos em minúsculas.
-ms.openlocfilehash: a0cccdc524ab11e7126395278b70d7b765d0300c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma expressão Character após converter dados de caracteres maiúsculos em minúsculas.
+ms.openlocfilehash: 17d53706eb6c6089e9f7f99a4b26f10776b9cb08
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301810"
 ---
-# <a name="lower-function-access-custom-web-app"></a>Função LOWER (aplicativo da web personalizado do Access)
+# <a name="lower-function-access-custom-web-app"></a>Função Lower (aplicativo Web personalizado do Access)
 
-Retorna uma expressão de caractere após converter dados caracteres maiusculos em minúsculas.
+Retorna uma expressão Character após converter dados de caracteres maiúsculos em minúsculas.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Inferior** (*TextExpression*) 
+ **Menor** (*TextName*) 
   
-A função **minúscula** contém os seguintes argumentos. 
+A função **Lower** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 05312e62d6bcc1a4ddb2ece170a6c0c0bfbe5f3f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279647"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 
@@ -21,7 +21,7 @@ ms.locfileid: "22594072"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se um item foi sinalizado e, se estiver, a cor associada ao item sinalizado.
+Especifica se um item está sinalizado e, se for, a cor associada ao item sinalizado.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -38,11 +38,11 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _olNoFlagIcon_
   
-> Sem sinalizador foi associado ao item.
+> Nenhum sinalizador foi associado ao item.
     
  _olPurpleFlagIcon_
   
@@ -50,11 +50,11 @@ enum OlFlagIcon {
     
  _olOrangeFlagIcon_
   
-> Laranja foi associada ao item sinalizado.
+> O laranja foi associado ao item sinalizado.
     
  _olGreenFlagIcon_
   
-> Verde foi associado ao item sinalizado.
+> Green foi associado ao item sinalizado.
     
  _olYellowFlagIcon_
   
@@ -62,15 +62,15 @@ enum OlFlagIcon {
     
  _olBlueFlagIcon_
   
-> Azul foi associado ao item sinalizado.
+> Blue foi associado ao item sinalizado.
     
  _olRedFlagIcon_
   
-> Vermelho foi associado ao item sinalizado.
+> O vermelho foi associado ao item sinalizado.
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Propriedade canônico de PidTagFollowupIcon](pidtagfollowupicon-canonical-property.md)
+[Propriedade canônica PidTagFollowupIcon](pidtagfollowupicon-canonical-property.md)
 

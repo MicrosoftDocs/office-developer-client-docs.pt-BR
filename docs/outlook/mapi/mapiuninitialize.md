@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f95c86a137e7253f3445123c23f2dc0d76b6d87a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270025"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 
@@ -25,13 +25,13 @@ ms.locfileid: "22567388"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Diminui a contagem de referência, limpa e exclui por instância dados globais para a DLL de MAPI. 
+Decrementa a contagem de referência, limpa e exclui dados globais por instância da DLL MAPI. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 void MAPIUninitialize ( void );
@@ -39,7 +39,7 @@ void MAPIUninitialize ( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhum 
+Nenhuma 
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -47,11 +47,11 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente chama a função **MAPIUninitialize** para encerrar sua interação com MAPI, começado com uma chamada para a função [MAPIInitialize](mapiinitialize.md) . Após a chamada **MAPIUninitialize** , nenhuma outra chamada MAPI pode ser feita pelo cliente. 
+Um aplicativo cliente chama a função **MAPIUninitialize** para finalizar sua interação com MAPI, iniciado com uma chamada para a função [MAPIInitialize](mapiinitialize.md) . Após a chamada de **MAPIUninitialize** , nenhuma outra chamada MAPI pode ser feita pelo cliente. 
   
- **MAPIUninitialize** diminui a contagem de referência e a função **MAPIInitialize** correspondente incrementa a contagem de referência. Assim, o número de chamadas para uma função deve ser igual o número de chamadas para outro. 
+ **MAPIUninitialize** decrementa a contagem de referência, e a função **MAPIInitialize** correspondente incrementa a contagem de referência. Portanto, o número de chamadas para uma função deve ser igual ao número de chamadas para o outro. 
   
 > [!NOTE]
-> Você não pode chamar **MAPIInitialize** ou **MAPIUninitialize** de dentro de uma função do Win32 **DllMain** ou qualquer outra função que cria ou finaliza threads. Para obter mais informações, consulte [Usando objetos de Thread-Safe](using-thread-safe-objects.md). 
+> Você não pode chamar o **MAPIInitialize** ou o **MAPIUninitialize** de dentro de uma função **DllMain** do Win32 ou qualquer outra função que crie ou encerre threads. Para obter mais informações, consulte [usando objetos isentos de threads](using-thread-safe-objects.md). 
   
 

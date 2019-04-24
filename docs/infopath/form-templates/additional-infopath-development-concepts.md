@@ -1,31 +1,31 @@
 ---
-title: Conceitos de desenvolvimento adicionais do InfoPath
+title: Conceitos adicionais de desenvolvimento do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
-description: Esta seção fornece informações sobre conceitos adicionais de desenvolvimento do InfoPath e tarefas.
-ms.openlocfilehash: decec7d612e4cdd2be3d9717a1caba56830f04d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção fornece informações sobre conceitos e tarefas adicionais de desenvolvimento do InfoPath.
+ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300438"
 ---
-# <a name="additional-infopath-development-concepts"></a>Conceitos de desenvolvimento adicionais do InfoPath
+# <a name="additional-infopath-development-concepts"></a>Conceitos adicionais de desenvolvimento do InfoPath
 
-Esta seção fornece informações sobre conceitos adicionais de desenvolvimento do InfoPath e tarefas.
+Esta seção fornece informações sobre conceitos e tarefas adicionais de desenvolvimento do InfoPath.
   
 ## <a name="in-this-section"></a>Nesta seção
 
 [Sobre os componentes do modelo de formulário](about-form-template-components.md)
   
-> Descreve os componentes contidos em um arquivo. xsn do modelo de formulário do InfoPath.
+> Descreve os componentes contidos em um arquivo. xsn de modelo de formulário do InfoPath.
     
 [Sobre o suporte do InfoPath para tecnologias XML](about-infopath-support-for-xml-technologies.md)
   
-> Descreve o uso das tecnologias XML nos formulários do InfoPath.
+> Descreve o uso de tecnologias XML nos formulários do InfoPath.
     
 [Diretrizes para melhorar o desempenho dos formulários do InfoPath](guidelines-for-improving-the-performance-of-infopath-forms.md)
   
@@ -35,32 +35,32 @@ Esta seção fornece informações sobre conceitos adicionais de desenvolvimento
   
 > Descreve como trabalhar com arquivos de esquema XML nos formulários do InfoPath.
     
-[Usar o XSLT personalizado em modelos de formulário do InfoPath](using-custom-xslt-in-infopath-form-templates.md)
+[Usando XSLT personalizado em modelos de formulário do InfoPath](using-custom-xslt-in-infopath-form-templates.md)
   
-> Descreve como modificar o XSL Transformation (XSLT) que usa o InfoPath para gerar um modo de exibição em um formulário.
+> Descreve como modificar a transformação em XSL (XSLT) que o InfoPath usa para gerar um modo de exibição em um formulário.
     
-[Hospedar o InfoPath como um Editor de XML em outro aplicativo](hosting-infopath-as-an-xml-editor-in-another-application.md)
+[Hospedando o InfoPath como um editor de XML em outro aplicativo](hosting-infopath-as-an-xml-editor-in-another-application.md)
   
-> Fornece links para informações sobre como para o host do InfoPath como um editor de XML em outro aplicativo.
+> Fornece links para informações sobre como hospedar o InfoPath como um editor de XML em outro aplicativo.
     
-[Rich Text e Serviços Web](rich-text-and-web-services.md)
+[Rich Text e serviços Web](rich-text-and-web-services.md)
   
-> Descreve como vincular um controle de caixa de rich text para um elemento XML que é recuperado de um serviço Web.
+> Descreve como vincular um controle de caixa de Rich Text a um elemento XML que é recuperado de um serviço Web.
     
 [InfoPath, codificação RPC e serviços Web](infopath-rpc-encoding-and-web-services.md)
   
-> Descreve como criar um proxy do serviço Web para um serviço Web RPC/codificado.
+> Descreve como criar um serviço Web proxy para um serviço Web RPC/codificado.
     
 [Integrar um formulário do InfoPath a um banco de dados do Microsoft Access](integrate-an-infopath-form-with-a-microsoft-access-database.md)
   
 > Descreve como usar um banco de dados do Microsoft Access 2010 como uma fonte de dados.
     
-[Criar um controle ActiveX que pode associar-se a dados de formulário do InfoPath](create-an-activex-control-that-can-bind-to-infopath-form-data.md)
+[Criar um controle ActiveX que possa ser vinculado a dados de formulário do InfoPath](create-an-activex-control-that-can-bind-to-infopath-form-data.md)
   
-> Fornece informações sobre como criar os controles ActiveX que podem vincular dados de formulário do InfoPath.
+> Fornece informações sobre como criar controles ActiveX que podem ser vinculados a dados de formulário do InfoPath.
     
-[Habilitar a mesclagem personalizada de formulários do InfoPath](enable-custom-merging-of-infopath-forms.md)
+[Habilitar mesclagem personalizada de formulários do InfoPath](enable-custom-merging-of-infopath-forms.md)
   
-> Fornece informações sobre como usar o recurso de mesclagem de formulários do InfoPath.
+> Fornece informações sobre como usar o recurso mesclar formulários do InfoPath.
     
 

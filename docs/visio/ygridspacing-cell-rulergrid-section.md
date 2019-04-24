@@ -1,5 +1,5 @@
 ---
-title: Célula YGridSpacing (Seção Ruler &amp; Grid)
+title: Célula YGridSpacing (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: Especifica a distância entre as linhas verticais em uma grade fixa (YGridDensity = 0).
-ms.openlocfilehash: 638479719ee0649bf271403249e2cde2ddccf09c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc355b4e509494e9e7570122a8a3a7a3ce2e0588
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283426"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Célula YGridSpacing (Seção Ruler &amp; Grid)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Célula YGridSpacing (seção &amp; Ruler Grid)
 
 Especifica a distância entre as linhas verticais em uma grade fixa (YGridDensity = 0).
   
 ## <a name="remarks"></a>Comentários
 
-Corresponde ao vertical **Espaçamento mínimo** opção no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Corresponde à opção vertical **espaçaMento mínimo** na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula YGridSpacing pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

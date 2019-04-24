@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2d0a2945-54d7-417f-b5c6-2647c70263cf
-description: Obtém uma interface ISocialPerson com base em que o parâmetro userID.
-ms.openlocfilehash: 5769f4c41bb97f45ab722f1b3a3febe24c8a7ab2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém uma interface ISocialPerson com base no parâmetro userID.
+ms.openlocfilehash: b54e39b3712fb57d89d03787f1e5fa0ff50ff84a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285327"
 ---
 # <a name="isocialsessiongetperson"></a>ISocialSession::GetPerson
 
-Obtém uma interface [ISocialPerson](isocialpersoniunknown.md) com base em que o parâmetro _userID_ . 
+Obtém uma interface [ISocialPerson](isocialpersoniunknown.md) com base no parâmetro _userid_ . 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
@@ -25,17 +25,17 @@ HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** resul
 
 ## <a name="parameters"></a>Parâmetros
 
-_userId_
+_ID_
   
-> [in] Uma cadeia de caracteres que contém um endereço SMTP ou de ID de usuário de uma pessoa.
+> no Uma cadeia de caracteres que contém uma ID de usuário ou endereço SMTP de uma pessoa.
     
-_resultado_
+_result_
   
-> [out] Uma interface **ISocialPerson** . 
+> bota Uma interface **ISocialPerson** . 
     
 ## <a name="remarks"></a>Comentários
 
-O parâmetro _userID_ deve ser um endereço SMTP ou de ID de usuário. 
+O parâmetro _userid_ deve ser uma ID de usuário ou um endereço SMTP. 
   
 ## <a name="see-also"></a>Confira também
 

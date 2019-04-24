@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0872b1b9-c21f-4bba-8cf1-4b010d8d7fb6
 description: O esquema de provedor XML do Outlook Social Connector (OSC)define o formato de uma quantidade significativa de informações que passam de uma rede social através de um provedor do OSC da rede para o OSC.
 ms.openlocfilehash: 75809179131ce6c6b8bbe171d2670e59cebe3494
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281073"
 ---
 # <a name="developing-a-provider-with-the-osc-xml-schema"></a>Desenvolver um provedor com o esquema XML OSC
 
@@ -42,7 +42,7 @@ O esquema de provedor XML do Outlook Social Connector (OSC)define o formato de u
 
 - [Introdução ao desenvolvimento de um provedor de serviços do Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
-- [Modelos de exemplo OSC](osc-sample-templates.md)
+- [Modelos de exemplo do OSC](osc-sample-templates.md)
   
 - [Sequências de chamadas típicas de OSC](osc-typical-calling-sequences.md)
   

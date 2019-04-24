@@ -1,22 +1,22 @@
 ---
-title: Menor ou igual a (aplicativo da web personalizado do Access)
+title: Menor que ou igual a (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dc0dc67a-aadf-4a5c-9264-e8df1dcd183f
-description: Compara duas expressões. Quando você comparar expressões de não-nulo, o resultado será TRUE se o operando esquerdo possuir um valor menor que ou igual ao operando à direita; Caso contrário, o resultado é FALSE.
-ms.openlocfilehash: 632a9d295201cc6d35d8cf6e5ca00d0e15e0e63e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Compara duas expressões. Quando você compara expressões não nulas, o resultado é TRUE se o operando à esquerda tem um valor menor ou igual ao operando à direita; caso contrário, o resultado será FALSE.
+ms.openlocfilehash: 4a43c83024a7f5318faef25b4505c10246a5eabf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308215"
 ---
-# <a name="less-than-or-equal-to-access-custom-web-app"></a>Menor ou igual a (aplicativo da web personalizado do Access)
+# <a name="less-than-or-equal-to-access-custom-web-app"></a>Menor que ou igual a (aplicativo Web personalizado do Access)
 
-Compara duas expressões. Quando você comparar expressões de não-nulo, o resultado será TRUE se o operando esquerdo possuir um valor menor que ou igual ao operando à direita; Caso contrário, o resultado é FALSE.
+Compara duas expressões. Quando você compara expressões não nulas, o resultado é TRUE se o operando à esquerda tem um valor menor ou igual ao operando à direita; caso contrário, o resultado será FALSE.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
@@ -25,9 +25,9 @@ Compara duas expressões. Quando você comparar expressões de não-nulo, o resu
 
 `<= (Less Than or Equal To)`
 
-*expressão*  \<=  *expressão* 
+*expression*  \<=  *expression* 
   
-*expressão*  É qualquer expressão válida. Ambas as expressões devem ter tipos de dados implicitamente conversível. A conversão depende as regras de precedência de tipo de dados. 
+*expression* Trata-se de qualquer expressão válida. Ambas as expressões devem ter tipos de dados implicitamente conversíveis. A conversão depende das regras de precedência do tipo de dados. 
   
 ## <a name="return-type"></a>Tipo de retorno
 

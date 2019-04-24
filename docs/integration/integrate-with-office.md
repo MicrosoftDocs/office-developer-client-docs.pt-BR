@@ -7,11 +7,11 @@ ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: É possível fazer a integração com o Office para iOS, Office para Android, Office Online e Excel, PowerPoint ou Word Mobile em seus aplicativos e experiências baseadas na Web, permitindo que os usuários migrem sem problemas de soluções de terceiros para os aplicativos do Office.
 localization_priority: Priority
 ms.openlocfilehash: 332f61f2b7a551516e55e7c966c649a6ee5f7f80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303140"
 ---
 # <a name="integrate-with-office"></a>Integração com o Office
 

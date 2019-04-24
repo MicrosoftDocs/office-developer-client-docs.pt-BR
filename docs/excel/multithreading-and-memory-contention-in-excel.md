@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'Aplicável a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301635"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading e contenção de memória no Excel
 

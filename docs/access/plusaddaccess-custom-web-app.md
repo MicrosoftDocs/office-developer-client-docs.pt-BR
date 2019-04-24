@@ -1,34 +1,34 @@
 ---
-title: + (Adicionar) (Aplicativo da web personalizado do access)
+title: + Acrescenta (Aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8ba40adb-420a-4e5f-8858-d706da6cb497
-description: Adiciona dois números. Este operador de adição aritmética também pode adicionar um número, em dias, para uma data.
-ms.openlocfilehash: e62c7ff43080331a7be2ae041c1717fd3fb965e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Adiciona dois números. Esse operador aritmético de adição também pode adicionar um número, em dias, a uma data.
+ms.openlocfilehash: 93135f99832f517c3a0cdbd1e9c380fcce45a28e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308075"
 ---
-# <a name="-add-access-custom-web-app"></a>+ (Adicionar) (aplicativo da web personalizado do Access)
+# <a name="-add-access-custom-web-app"></a>+ (Adicionar) (aplicativo Web personalizado do Access)
 
-Adiciona dois números. Este operador de adição aritmética também pode adicionar um número, em dias, para uma data. 
+Adiciona dois números. Esse operador aritmético de adição também pode adicionar um número, em dias, a uma data. 
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
- *expressão*  +  *expressão* 
+ **  +  *expressão* de expressão 
   
- *expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico, exceto o tipo de dados **bit** . Não pode ser usado com os tipos de dados de data ou hora. 
+ *expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico, exceto o tipo de dados **bit** . Não pode ser usado com tipos de dados de data ou hora. 
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna o tipo de dados do argumento com a prioridade mais alta. 
+Retorna o tipo de dados do argumento com maior precedência. 
   
 

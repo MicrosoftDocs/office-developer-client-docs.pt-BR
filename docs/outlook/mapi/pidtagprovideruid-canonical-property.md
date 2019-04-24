@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cca22b466b1e0d2da9ca9cc009586df08316270c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286412"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Propriedade canônica PidTagProviderUid
 
@@ -25,32 +25,32 @@ ms.locfileid: "22581052"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma estrutura **MAPIUID** do provedor de serviços que está tratando a uma mensagem. 
+Contém uma estrutura **MAPIUID** do provedor de serviços que está tratando de uma mensagem. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificador:  <br/> |0x300C  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é computada pelo todos os provedores de serviço. Ele contém uma estrutura [MAPIUID](mapiuid.md) associada e geralmente codificadas, pelo provedor. Normalmente, ele é usado por um aplicativo cliente que está interessado em somente os contêineres de catálogo de endereços fornecidos por um provedor específico. 
+Esta propriedade é calculada por todos os provedores de serviços. Ele contém uma estrutura [MAPIUID](mapiuid.md) associada e, em geral, embutida em código, o provedor. Geralmente, ele é usado por um aplicativo cliente que está interessado apenas nos contêineres do catálogo de endereços fornecidos por um determinado provedor. 
   
-Essa propriedade será exibida apenas como uma entrada de coluna da tabela de provedor.
+Essa propriedade aparece somente como uma entrada de coluna na tabela do provedor.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

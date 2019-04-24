@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: Contém o nome do arquivo da interface do usuário do Microsoft Visio (.vsu) que define menus e aceleradores personalizados de um documento.
 ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282898"
 ---
 # <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>Elemento CustomMenusFile (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

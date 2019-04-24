@@ -1,5 +1,5 @@
 ---
-title: Fluxo do programa (aplicativo da web personalizado do Access)
+title: Fluxo do programa (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bfc3548e-f4e5-4e07-896e-6884269085e5
 description: ''
-ms.openlocfilehash: 215f5c36d8fbda4c37e1854e0a30b6e531845d15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eba94f7789ca8cb1cd809fdf3814f26e1d9bed27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308019"
 ---
-# <a name="program-flow-access-custom-web-app"></a>Fluxo do programa (aplicativo da web personalizado do Access)
+# <a name="program-flow-access-custom-web-app"></a>Fluxo do programa (aplicativo Web personalizado do Access)
 
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Bloco de Macro comentário (aplicativo da web personalizado do Access)](comment-macro-block-access-custom-web-app.md)
+- [Bloco de macro de comentário (aplicativo Web personalizado do Access)](comment-macro-block-access-custom-web-app.md)
     
-- [Se... Então... Bloco de Macro Else (aplicativo da web personalizado do Access)](ifthenelse-macro-block-access-custom-web-app.md)
+- [If... Then... Bloco de macro else (aplicativo Web personalizado do Access)](ifthenelse-macro-block-access-custom-web-app.md)
     
-- [Bloco de Macro grupo (aplicativo da web personalizado do Access)](group-macro-block-access-custom-web-app.md)
+- [Bloco de macro de grupo (aplicativo Web personalizado do Access)](group-macro-block-access-custom-web-app.md)
     
 

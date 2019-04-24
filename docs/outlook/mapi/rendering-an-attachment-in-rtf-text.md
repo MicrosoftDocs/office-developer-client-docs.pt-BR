@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5d8fc10f876408d616c5acefb664ba5d61c927a2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b2a1a23f073d05e85c8203826e3407c5ae193f19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22562971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280355"
 ---
 # <a name="rendering-an-attachment-in-rtf-text"></a>Renderizar um anexo em texto RTF
 
@@ -21,24 +21,24 @@ ms.locfileid: "22562971"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Formato Rich Text (RTF)-clientes cientes podem recuperar informações de posição de renderização do texto da mensagem RTF observando a seguinte sequência de escape na propriedade de **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) da mensagem:
+Os clientes que reconhecem Rich Text Format (RTF) podem recuperar informações de posição de renderização do texto da mensagem RTF procurando pela sequência de escape a seguir na propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) da mensagem:
   
  `\objattph`
   
- **Para localizar as informações de renderização em texto formatado**
+ **Para localizar informações de renderização em texto formatado**
   
-1. Chame **IMessage::GetAttachmentTable** para acessar a tabela de anexos da mensagem. Para obter mais informações, consulte [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
+1. Chame **IMessage::** GetAttachmentTable para acessar a tabela de anexos da mensagem. Para obter mais informações, consulte [IMessage::](imessage-getattachmenttable.md)GetAttachmentTable.
     
-2. Construa uma restrição de propriedade que limita a tabela de linhas que possuem **PR_RENDERING_POSITION** não é igual a -1. Para obter mais informações, consulte **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+2. Criar uma restrição de propriedade que limita a tabela a linhas que têm **PR_RENDERING_POSITION** diferente de-1. Para obter mais informações, consulte **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
     
-3. Chame **IMAPITable:: Restrict** para impor a restrição. Para obter mais informações, consulte [IMAPITable:: Restrict](imapitable-restrict.md).
+3. Call **IMAPITable:: Restrict** para impor a restrição. Para obter mais informações, consulte imApitable [:: Restrict](imapitable-restrict.md).
     
-4. Chame **IMAPITable:: SortTable** para classificar os anexos. Para obter mais informações, consulte [IMAPITable:: SortTable](imapitable-sorttable.md).
+4. Call **IMAPITable:: SortTable** para classificar os anexos. Para obter mais informações, consulte imApitable [:: SortTable](imapitable-sorttable.md).
     
-5. Chame **IMAPITable:: QueryRows** para recuperar as linhas apropriadas. Para obter mais informações, consulte [IMAPITable:: QueryRows](imapitable-queryrows.md).
+5. Call **IMAPITable:: QueryRows** para recuperar as linhas apropriadas. Para obter mais informações, consulte imApitable [:: QueryRows](imapitable-queryrows.md).
     
-6. Chame o método de **IMAPIProp::OpenProperty** da mensagem para recuperar **PR_RTF_COMPRESSED** com a interface **IStream** . Para obter mais informações, consulte [IMAPIProp::OpenProperty](imapiprop-openproperty.md) e **PR_RTF_COMPRESSED**.
+6. Chame o método **IMAPIProp:: OpenProperty** da mensagem para recuperar o **PR_RTF_COMPRESSED** com a interface **IStream** . Para obter mais informações, consulte [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) e **PR_RTF_COMPRESSED**.
     
-7. Examinar o fluxo, procurando por espaço reservado renderização, `\objattph`. O caractere seguinte este espaço reservado é o local para o próximo anexo na tabela classificada.
+7. Examine o fluxo, procurando o espaço reservado de renderização `\objattph`. O caractere após este espaço reservado é o local para o próximo anexo na tabela classificada.
     
 

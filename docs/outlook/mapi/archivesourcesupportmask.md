@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fc5e8eb74d79d0a30ae6a423772ce741dee4562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281589"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
@@ -25,33 +25,33 @@ ms.locfileid: "22563811"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se o Microsoft Office Outlook deve examinar as pastas em um repositório e arquivá-los automaticamente.
+Especifica se o Microsoft Office Outlook deve examinar pastas em um repositório e arquivá-los automaticamente.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Expostas no:  <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md) objeto  <br/> |
-|Criados por:  <br/> |Provedor de armazenamento  <br/> |
-|Acessado por:  <br/> |Outlook e outros clientes  <br/> |
+|Exposto em:  <br/> |[IMsgStore: objeto IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Criado por:  <br/> |Provedor de repositório  <br/> |
+|AcEssado por:  <br/> |Outlook e outros clientes  <br/> |
 |Tipo de propriedade:  <br/> |PT_LONG  <br/> |
-|Tipo de acesso:  <br/> |Somente leitura ou leitura/gravação, dependendo do provedor de repositório  <br/> |
+|Tipo de acesso:  <br/> |Somente leitura ou leitura/gravação dependendo do provedor de repositório  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fornecer qualquer funcionalidade loja, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válido para qualquer uma dessas propriedades passados para uma chamada [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::GetProps](imapiprop-getprops.md), o provedor de armazenamento também deve retornar o valor da propriedade correto. Provedores de armazenamento podem chamar [HrGetOneProp](hrgetoneprop.md) e [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
+Para fornecer qualquer uma das funcionalidades de armazenamento, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válida para qualquer uma dessas propriedades passadas para uma chamada [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::](imapiprop-getprops.md)GetProps, o provedor de repositório também deve retornar o valor de propriedade correto. Os provedores de repositório podem chamar o [HrGetOneProp](hrgetoneprop.md) e o [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
   
-Para recuperar o valor dessa propriedade, o cliente deve primeiro usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e especifique nesta marca de propriedade em [IMAPIProp::GetProps](imapiprop-getprops.md) para obter o valor. Ao chamar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) apontado pelo parâmetro de entrada _lppPropNames_:
+Para recuperar o valor dessa propriedade, o cliente deve primeiro usar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e, em seguida, especificar essa marca de propriedade em [IMAPIProp::](imapiprop-getprops.md) GetProps para obter o valor. Ao chamar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) indicada pelo parâmetro de entrada _lppPropNames_:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName:  <br/> |L "ArchiveSourceSupportMask"  <br/> |
+|Tipo. lpwstrName:  <br/> |L "ArchiveSourceSupportMask"  <br/> |
    
-Essa propriedade permite que os provedores de armazenamento especificar se o Outlook deve examinar as pastas em um repositório e arquivá-los automaticamente.
+Essa propriedade permite que os provedores de repositório especifiquem se o Outlook deve examinar pastas em um repositório e arquivá-los automaticamente.
   
-Por padrão, essa propriedade não está exposta em um repositório, o que significa que o Outlook pode examinar pastas no repositório. Se a propriedade é exposta, estes são os valores possíveis:
+Por padrão, essa propriedade não é exposta em um repositório, o que significa que o Outlook pode examinar pastas na loja. Se a propriedade for exposta, estes são os valores possíveis:
   
 ```cpp
 enum { 
@@ -63,14 +63,14 @@ enum {
 
 ASM_DEFAULT
   
-- O Outlook pode examinar pastas no repositório.
+- O Outlook pode examinar pastas na loja.
     
 ASM_DO_NOT_ARCHIVE
   
-- O Outlook não deve examinar as pastas no repositório.
+- O Outlook não deve verificar pastas na loja.
     
 ASM_CLIENT_DO_NOT_CHANGE
   
-- Não permitir que os clientes alterar essa propriedade no repositório. Observe que a constante **ASM_CLIENT_DO_NOT_CHANGE** é para referência futura e não está implementado no momento. No momento, um repositório pode impedir que os clientes alterem esse sinalizador por codificar o valor que o repositório retorna para essa propriedade. 
+- Não permita que os clientes alterem essa propriedade na loja. Observe que a constante **ASM_CLIENT_DO_NOT_CHANGE** é para referência futura e não está implementada no momento. Por enquanto, um repositório pode impedir que os clientes alterem esse sinalizador codificando o valor que o repositório retorna para esta propriedade. 
     
 

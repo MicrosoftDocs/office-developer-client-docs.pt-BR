@@ -1,5 +1,5 @@
 ---
-title: Objetos do provedor de serviço MAPI
+title: Objetos do provedor de serviços MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,48 +8,48 @@ api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0976e986a33d8b96366a84527f227bd05ef7845e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251602"
 ---
-# <a name="mapi-service-provider-objects"></a>Objetos do provedor de serviço MAPI
+# <a name="mapi-service-provider-objects"></a>Objetos do provedor de serviços MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de serviço implementar vários objetos. Alguns são usados principalmente pelos MAPI e alguns são usados por aplicativos do cliente. Alguns objetos são implementados por todos os tipos de provedores de serviços; o restante são específicos para um tipo de provedor único. A tabela a seguir descreve todos os objetos do provedor de serviço.
+Os provedores de serviços implementam muitos objetos. Alguns são usados principalmente por MAPI e outros são usados por aplicativos cliente. Alguns objetos são implementados por todos os tipos de provedores de serviços; o REST é específico para um único tipo de provedor. A tabela a seguir descreve todos os objetos do provedor de serviços.
   
-|**Objeto de provedor de serviço**|**Descrição**|
+|**Objeto provedor de serviços**|**Descrição**|
 |:-----|:-----|
-|Contêiner de catálogo de endereços  <br/> |Contém informações de destinatário para um provedor de catálogo de endereços no perfil ativo; provedores de catálogo de endereços podem ter um ou mais contêineres do catálogo de endereços.  <br/> |
-|Anexo  <br/> |Contém dados adicionais, como um arquivo ou objeto OLE, a ser associado uma mensagem.  <br/> |
+|Contêiner de catálogo de endereços  <br/> |Contém informações de destinatário para um provedor de catálogo de endereços no perfil ativo; os provedores de catálogo de endereços podem ter um ou mais contêineres de catálogo de endereços.  <br/> |
+|Anexo  <br/> |Contém dados adicionais, como um arquivo ou objeto OLE, a serem associados a uma mensagem.  <br/> |
 |Control  <br/> |Habilita ou desabilita um botão e inicia o processamento quando o botão é clicado.  <br/> |
-|Lista de distribuição  <br/> |Descreve um agrupamento de destinatários da mensagem individuais.  <br/> |
-|Folder  <br/> |Contém mensagens e outros contêineres de mensagem.  <br/> |
-|Logon  <br/> |As alças de solicitações de notificação e cliente de evento de provedor de serviço.  <br/> |
+|Lista de distribuição  <br/> |Descreve um agrupamento de destinatários de mensagens individuais.  <br/> |
+|Pasta  <br/> |Contém mensagens e outros contêineres de mensagem.  <br/> |
+|Logon  <br/> |Manipula as solicitações de eventos do provedor de serviços e as solicitações do cliente.  <br/> |
 |Usuário de mensagens  <br/> |Descreve um destinatário individual de uma mensagem.  <br/> |
-|Message  <br/> |Contém informações que podem ser enviadas para um ou mais destinatários.  <br/> |
-|Armazenamento de mensagens  <br/> |Atua como um banco de dados organizado hierarquicamente das mensagens.  <br/> |
-|Provider  <br/> |As alças de desligamento e inicialização do provedor de serviço.  <br/> |
-|Gancho spooler  <br/> |Realiza processamento especial em mensagens de entrada e saídas.  <br/> |
+|Mensagem  <br/> |Contém informações que podem ser enviadas para um ou mais destinatários.  <br/> |
+|Repositório de mensagens  <br/> |Atua como um banco de dados de mensagens hierarquicamente organizado.  <br/> |
+|Provedor  <br/> |Manipula a inicialização e o desligamento do provedor de serviço.  <br/> |
+|Conexão de spooler  <br/> |Realiza processamento especial em mensagens de entrada e saída.  <br/> |
 |Status  <br/> |Fornece acesso ao estado do provedor de serviços.  <br/> |
-|Table  <br/> |Fornece acesso a um modo de exibição de resumo de dados de objeto no formato de linha e coluna, semelhante a uma tabela de banco de dados.  <br/> |
+|Tabela  <br/> |Fornece acesso a um modo de exibição de resumo dos dados de objeto em formato de linha e coluna, semelhante a uma tabela de banco de dados.  <br/> |
    
-Todos os provedores de serviço implementam um objeto do provedor e um objeto de logon. Objetos do provedor são estritamente para escrituração contábil; eles são usados pelo MAPI para controlar os processos de inicialização e desligamento. Objetos de logon do serviço indiretamente algumas solicitações de cliente. Por exemplo, a mensagem armazenar solicitações para abrir objetos do repositório de mensagem e o registro de notificação alças do objeto de logon do provedor. 
+Todos os provedores de serviços implementam um objeto de provedor e um objeto de logon. Os objetos Provider são estritamente para escrituração de contador; Eles são usados pelo MAPI para controlar os processos de inicialização e desligamento. O serviço de objetos de logon algumas solicitações de clientes indiretamente. Por exemplo, o objeto de logon do provedor de repositório de mensagens manipula o registro de notificação e as solicitações para abrir objetos do repositório de mensagens. 
   
-Objetos de provedor e logon implementar uma interface diferente, dependendo do tipo de provedor de serviço que fornece a implementação. Implementa um provedor de armazenamento de mensagem do [IMSProvider: IUnknown](imsprovideriunknown.md) e [IMSLogon: IUnknown](imslogoniunknown.md) interfaces no seu provedor e objetos de logon, um endereço livro provedor implementa o [IABProvider: IUnknown](iabprovideriunknown.md) e [IABLogon: IUnknown](iablogoniunknown.md) interfaces e um provedor de transporte implementa o [IXPProvider: IUnknown](ixpprovideriunknown.md) e [IXPLogon: IUnknown](ixplogoniunknown.md) interfaces. 
+Os objetos Provider e logon implementam uma interface diferente dependendo do tipo de provedor de serviço que fornece a implementação. Um provedor de repositório de mensagens implementa as interfaces [IMSProvider: IUnknown](imsprovideriunknown.md) e [IMSLogon: IUnknown](imslogoniunknown.md) em seus objetos Provider e login, um provedor de catálogo de endereços implementa o [IABProvider: IUnknown](iabprovideriunknown.md) e [IABLogon: IUnknown](iablogoniunknown.md) interfaces, e um provedor de transporte implementa as interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) e [IXPLogon: IUnknown](ixplogoniunknown.md) . 
   
-Provedores de fora do gancho de mensagem implementar objetos de fora do gancho spooler ou objetos que filtrar mensagens de entrada e saídas.
+Os provedores de conexão de mensagens implementam objetos de conexão do spooler ou objetos que filtram mensagens de entrada e saída.
   
-Provedores de serviço geralmente usam apenas alguns objetos. Com mais frequência, eles usam um objeto de suporte a MAPI fornece para ajudar a implementar as solicitações do cliente. O objeto de suporte é personalizado para o tipo de provedor que está sendo usada. Para todos os provedores de serviço, o objeto de suporte inclui métodos para manipulação de notificação de evento, exibindo as propriedades de configuração, os objetos de abertura e tratamento de erros. O restante dos métodos são específicos para o seu uso; Há versões personalizadas para o catálogo de endereços, armazenamento de mensagens e provedores de transporte e para suporte de configuração. Por exemplo, o objeto de suporte de catálogo de endereços exibe detalhes e caixas de diálogo personalizadas de destinatário. O armazenamento de mensagens oferecem suporte a cópia do objeto suporta e mover as operações para mensagens e pastas. O objeto de suporte do provedor de transporte inclui métodos para facilitar a interação com o spooler MAPI. 
+Os provedores de serviços normalmente usam apenas alguns objetos. Com mais frequência, eles usam um objeto de suporte que o MAPI fornece para ajudar a implementar as solicitações do cliente. O objeto support é personalizado para o tipo de provedor que o está usando. Para todos os provedores de serviços, o objeto support inclui métodos para manipular a notificação de eventos, exibir propriedades de configuração, abrir objetos e tratamento de erros. O restante dos métodos é específico para seu uso; Há versões personalizadas para o catálogo de endereços, o repositório de mensagens e os provedores de transporte e para o suporte à configuração. Por exemplo, o objeto de suporte do catálogo de endereços exibe as caixas de diálogo detalhes e destinatário personalizado. O objeto de suporte do repositório de mensagens oferece suporte a operações de cópia e movimentação para pastas e mensagens. O objeto de suporte do provedor de transporte inclui métodos para facilitar a interação com o spooler MAPI. 
   
-Alguns provedores de serviço usam objetos de dados de dados e a propriedade table — objetos utilitário que implementa de MAPI. Objetos de dados de tabela habilite provedores de serviços gerenciar os dados subjacentes de uma tabela. Objetos de dados de propriedade habilite provedores de serviço definir o acesso do objeto e a propriedade. 
+Alguns provedores de serviços usam dados de tabela e objetos de dados de propriedade — objetos utilitários que o MAPI implementa. Os objetos de dados de tabela permitem que os provedores de serviços gerenciem os dados subjacentes de uma tabela. Os objetos de dados de propriedade permitem que os provedores de serviços definam acesso de objeto e propriedade. 
   
-Provedores de transporte que suportam o TNEF Transport Neutral Encapsulation Format () para transferir propriedades usam um objeto TNEF que implementa de MAPI para oferecer suporte a [ITnef: IUnknown](itnefiunknown.md) interface. Para obter mais informações, consulte [desenvolvendo um provedor de transporte TNEF-Enabled](developing-a-tnef-enabled-transport-provider.md). 
+Os provedores de transporte que oferecem suporte ao formato de encapsulamento de transporte neutro (TNEF) para a transferência de Propriedades usam um objeto TNEF que o MAPI implementa para dar suporte à interface [ITnef: IUnknown](itnefiunknown.md) . Para obter mais informações, consulte [desenvolvimento de um provedor de transporte habilitado para TNEF](developing-a-tnef-enabled-transport-provider.md). 
   
 ## <a name="see-also"></a>Confira também
 
@@ -70,5 +70,5 @@ Provedores de transporte que suportam o TNEF Transport Neutral Encapsulation For
 [IXPLogon : IUnknown](ixplogoniunknown.md)
 
 
-[Desenvolver um provedor de transporte habilitado por TNEF](developing-a-tnef-enabled-transport-provider.md)
+[Desenvolver um provedor de transporte habilitado para TNEF](developing-a-tnef-enabled-transport-provider.md)
 

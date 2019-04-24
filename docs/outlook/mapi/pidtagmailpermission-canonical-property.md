@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278869"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propriedade canônica PidTagMailPermission
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571189"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se o usuário de mensagens tem permissão para enviar e receber mensagens. 
+Contém TRUE se o usuário de mensagens tem permissão para enviar e receber mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Conterá TRUE se o usuário de mensagens tem permissão para enviar e receber me
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade não estiver definida, MAPI a tratará como tendo um valor TRUE. 
+Se essa propriedade não for definida, MAPI a tratará como tendo um valor TRUE. 
   
-Defina essa propriedade como FALSE em um diretório corporativo, onde algumas das entradas não são habilitados para email. 
+Defina essa propriedade como FALSE em um diretório corporativo onde algumas das entradas não são habilitadas para email. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

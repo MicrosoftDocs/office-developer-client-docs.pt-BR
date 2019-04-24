@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm110
 localization_priority: Normal
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
-description: Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
-ms.openlocfilehash: 283723bf902c07cfb044ab73107491df3c170a4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+ms.openlocfilehash: 08f2012bb027267810c21ef253a0073bb42d3a96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297344"
 ---
 # <a name="blocksizey-cell-page-layout-section"></a>Célula BlockSizeY (Seção Page Layout)
 
-Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Novo Layout de página**, e, em seguida, clique em **Mais opções de Layout**).
+Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout da página** e clique em **mais opções de layout**).
   
 ## <a name="remarks"></a>Comentários
 

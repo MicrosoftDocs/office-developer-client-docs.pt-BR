@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280051"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
@@ -21,7 +21,7 @@ ms.locfileid: "25392414"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Função de ponto de entrada de serviço de mensagem para um MAPI armazenar provedor para empacotar um repositório local baseado em PST como um repositório NST. 
+Função de ponto de entrada de serviço de mensagem para um provedor de repositório MAPI para encapsular um repositório local baseado em PST como um repositório NST. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -49,35 +49,35 @@ HRESULT NSTServiceEntry(
 
  **NSTServiceEntry** usa o protótipo de função **[MSGSERVICEENTRY](msgserviceentry.md)** . Para obter informações sobre seus parâmetros, consulte **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
 Para obter informações sobre valores de retorno, consulte **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
 ## <a name="remarks"></a>Comentários
 
-Ao usar o **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** para procurar o endereço desta função no Msmapi32, especifique "NSTServiceEntry" como o nome do procedimento. 
+Ao usar **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** para procurar o endereço dessa função em Msmapi32. dll, especifique "NSTServiceEntry" como o nome do procedimento. 
   
-Para usar a API de replicação, um provedor de repositório MAPI deve primeiro abrir e quebrar um repositório local baseado em PST chamando **[NSTServiceEntry](nstserviceentry.md)**. O provedor, em seguida, pode usar as interfaces principais da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)**, para realizar a replicação. 
+Para usar a API de replicação, um provedor de repositório MAPI deve primeiro abrir e encapsular um repositório local baseado em PST chamando **[NSTServiceEntry](nstserviceentry.md)**. O provedor pode usar as principais interfaces da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)**, para realizar a replicação. 
   
 Os comentários a seguir se aplicam a um repositório NST:
   
-- Não armazene qualquer informação na seção perfil global ao implementar um provedor MAPI que usa **NSTServiceEntry**. A seção perfil global é compartilhada por vários provedores e dados armazenados neste perfil podem ser substituídos. 
+- Não armazene nenhuma informação na seção perfil global ao implementar um provedor MAPI que usa o **NSTServiceEntry**. A seção de perfil global é compartilhada por vários provedores e dados armazenados nesse perfil podem ser substituídos. 
     
-- Somente os itens cujo existente carimbos de hora de modificação obtém seus carimbos atualizados quando elas forem salvas. 
+- Somente os itens com carimbos de data/hora de modificação existentes recebem seus carimbos atualizados quando são salvos. 
     
-- Verificação de conflito não ocorre automaticamente quando itens são salvos.
+- A verificação de conflitos não ocorre automaticamente quando os itens são salvos.
     
--  Detecção de duplicatas não ocorrerá quando os itens são salvos. 
+-  A detecção de duplicidades não ocorre quando os itens são salvos. 
     
--  O arquivo que representa a versão em cache do servidor é acrescentado com. NST. 
+-  O arquivo que representa a versão em cache do servidor é anexado. NST. 
     
-- Para obter um ponteiro para a seção perfil global, um serviço de mensagem chama **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** no objeto suporte usando **pbNSTGlobalProfileSectionGuid** , conforme definido abaixo: 
+- Para obter um ponteiro para a seção de perfil global, um serviço de mensagens chama **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** no objeto support usando **pbNSTGlobalProfileSectionGuid** conforme definido abaixo: 
     
   ```
   #define  pbNSTGlobalProfileSectionGuid "\x85\xED\x14\x23\x9D\xF7\x42\x66\x8B\xF2\xFB\xD4\xA5\x21\x29\x41"
   ```
 
-- Nesse caso, o objeto de suporte do serviço de mensagem deve assegurar que **IMAPISupport::OpenProfileSection** retorna a seção de perfil que é identificada pela propriedade **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** na seção perfil padrão. Para fazer esta seção de perfil, o objeto de suporte pode abrir a seção de perfil padrão, recuperar **PR_SERVICE_UID**e passar o resultado para **IMAPISupport::OpenProfileSection** para recuperar a seção de perfil global correto. Por sua vez, o objeto de suporte retorna um ponteiro para esta seção perfil global para o serviço de mensagem. 
+- Nesse caso, o objeto support do serviço de mensagens deve garantir que **IMAPISupport:: OpenProfileSection** retorna a seção de perfil identificada pela propriedade **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** na seção de perfil padrão. Para obter esta seção de perfil, o objeto de suporte pode abrir a seção de perfil padrão, recuperar **PR_SERVICE_UID**e passar o resultado para **IMAPISupport:: OpenProfileSection** para recuperar a seção de perfil global correta. O objeto support, por sua vez, retorna um ponteiro para esta seção de perfil global para o serviço de mensagens. 
     
 ## <a name="see-also"></a>Confira também
 

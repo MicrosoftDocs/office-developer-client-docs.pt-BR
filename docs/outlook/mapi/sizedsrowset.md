@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b8c70c8b13025f196fdebb2956939bec840a96f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282639"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura [SRowSet](srowset.md) nomeada que contém um número especificado de linhas. 
+Cria uma estrutura nomeada do [SRowSet](srowset.md) que contém um número especificado de linhas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
@@ -38,15 +38,15 @@ SizedSRowSet (_crow, _name)
 
 __galinha_
   
-> Contagem do número de linhas a serem incluídos na nova estrutura.
+> Contagem do número de linhas a serem incluídas na nova estrutura.
     
 __nome_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-Para usar a nova estrutura que é resultado da macro **SizedSRowSet** como um ponteiro para uma estrutura **SRowSet** , execute a seguinte projeção: 
+Para usar a nova estrutura que resulta da macro **SizedSRowSet** como um ponteiro para uma estrutura **SRowSet** , execute a seguinte conversão: 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

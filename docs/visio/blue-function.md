@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: Retorna o componente azul de uma cor. O valor de retorno é um inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
-ms.openlocfilehash: 6a86a0ee91054c89f2def95c0e3521508462bdaa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o componente azul de uma cor. O valor de retorno é um número inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
+ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297351"
 ---
 # <a name="blue-function"></a>Função BLUE
 
-Retorna o componente azul de uma cor. O valor de retorno é um inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
+Retorna o componente azul de uma cor. O valor de retorno é um número inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -26,23 +26,23 @@ AZUL (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Inteiro
   
 ## <a name="example-1"></a>Exemplo 1
 
-AZUL (Sheet.4! FillForegnd)
+AZUL (Sheet. 4! FillForegnd
   
 Retornará o componente azul da cor de primeiro plano do preenchimento de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-BLUE(13)
+AZUL (13)
   
 Retornará 128 se o documento utilizar a paleta de cores padrão do Visio, sendo ciano a cor do índice 13.
   

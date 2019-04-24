@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cce43301ac73a5646e263b2ab92700e57804637d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307774"
 ---
 # <a name="logging-on-to-mapi"></a>Fazer logon no MAPI
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aplicativos cliente faça logon no subsistema de MAPI chamando a função **MAPILogonEx** . Para obter mais informações, consulte [MAPILogonEx](mapilogonex.md). **MAPILogonEx** valida a seleção de perfil e a configuração de cada provedor de serviços no perfil. Uma vez configurado, o MAPI inicia os provedores de catálogo de endereços antes de iniciar os provedores de repositório de mensagem. Provedores de transporte são iniciadas quando seus serviços primeiro são necessários. 
+Os aplicativos cliente fazem logon no subsistema MAPI chamando a função **funçãomapilogonex** . Para obter mais informações, consulte [funçãomapilogonex](mapilogonex.md). **Funçãomapilogonex** valida a seleção de perfil e a configuração de cada provedor de serviços no perfil. Depois de configurado, o MAPI inicia os provedores de catálogo de endereços antes de iniciar os provedores de repositório de mensagens. Os provedores de transporte são iniciados quando seus serviços são exigidos pela primeira vez. 
   
 ## <a name="choose-a-profile"></a>Escolha um perfil
   
-- Passe em uma cadeia de caracteres que representa o nome do perfil no parâmetro _lpszProfileName_ para **MAPILogonEx**, ou …
+- Passe uma cadeia de caracteres que representa o nome do perfil no parâmetro _lpszProfileName_ para **funçãomapilogonex**ou...
     
-- Permitir que o usuário especificar o perfil passar NULL no parâmetro _lpszProfileName_ e definindo o sinalizador MAPI_LOGON_UI, ou … 
+- Permitir que o usuário especifique o perfil passando nulo no parâmetro _lpszProfileName_ e definindo o sinalizador MAPI_LOGON_UI ou... 
 
-- Selecione o perfil padrão passar NULL no parâmetro _lpszProfileName_ e definindo o sinalizador MAPI_USE_DEFAULT. 
+- Selecione o perfil padrão passando nulo no parâmetro _lpszProfileName_ e definindo o sinalizador MAPI_USE_DEFAULT. 
     
-Se você precisar de um perfil específico que não seja o perfil padrão, você deve salvar o seu nome em seu próprio banco de dados de configuração ou usar uma convenção de nomenclatura específica. MAPI não expõe os atributos de perfil que não seja o sinalizador de nome e padrão na tabela de perfil e o sinalizador de perfil padrão é reservado para mensagens de cliente e aplicativos de IPM relacionados.
+Se você precisar de um perfil específico que não seja o padrão, deverá salvar seu nome no seu próprio banco de dados de configuração ou usar uma Convenção de nomenclatura específica. MAPI não expõe nenhum atributo de perfil diferente do nome e sinalizador padrão na tabela de perfil, e o sinalizador de perfil padrão é reservado para o cliente de mensagens e aplicativos IPM relacionados.
   
-Clientes que forneçam perfil parcial ou informações de configuração de provedor para **MAPILogonEx** devem avisar o usuário para os dados adicionais, permitindo que uma caixa de diálogo a ser exibido. Se estiver faltando informações e **MAPILogonEx** não pode solicitar o usuário a fornecer a ele, o logon falhará. Clientes que faça a necessidade de entrada do usuário não podem suprimir a exibição da caixa de diálogo. 
+Os clientes que fornecem o perfil parcial ou as informações de configuração do provedor para **funçãomapilogonex** devem solicitar ao usuário os dados adicionais, permitindo que uma caixa de diálogo seja exibida. Se as informações estiverem ausentes e o **funçãomapilogonex** não puder solicitar que o usuário a forneça, o logon falhará. Os clientes que não precisam de entrada do usuário podem suprimir a exibição da caixa de diálogo. 
   
-Os sinalizadores **MAPILogonEx** usa para habilitar uma interface do usuário são mutuamente exclusivos; apenas um pode ser definido. Deixar esses sinalizadores não definidas suprime a exibição de uma interface de usuário, causando **MAPILogonEx** falhe se estiver faltando informações necessárias. Ou seja, se você desativar a interface de usuário e passa nulo para o parâmetro _lpszProfileName_ e não definir o sinalizador MAPI_USE_DEFAULT, **MAPILogonEx** falhará porque ele não é possível recuperar um nome de perfil. 
+Os sinalizadores que o **funçãomapilogonex** usa para habilitar uma interface do usuário são mutuamente exclusivos; somente um pode ser definido. Deixar esses sinalizadores desdefinidas suprime a exibição de uma interface do usuário, fazendo com que o **funçãomapilogonex** falhe se as informações necessárias estiverem ausentes. Ou seja, se você desabilitar a interface do usuário e passar NULL para o parâmetro _lpszProfileName_ e não definir o sinalizador MAPI_USE_DEFAULT, **funçãomapilogonex** falhará porque não é possível recuperar um nome de perfil. 
   
-A sessão que estabelece **MAPILogonEx** pode ser uma sessão de mensagens individual, uma sessão de mensagens compartilhada ou uma sessão nonmessaging. Sessões de mensagens individuais são privadas conexões entre o cliente e o subsistema MAPI e podem ser estabelecidas, definindo o sinalizador MAPI_NEW_SESSION na chamada a **MAPILogonEx**.
+A sessão que o **funçãomapilogonex** estabelece pode ser uma sessão de mensagens individual, uma sessão de mensagens compartilhada ou uma sessão de não-mensagens. As sessões de mensagens individuais são conexões privadas entre o cliente e o subsistema MAPI e podem ser estabelecidas Configurando o sinalizador MAPI_NEW_SESSION na chamada para **funçãomapilogonex**.
   
-Sessões de mensagens compartilhadas são conexões que vários clientes de mensagens podem usar. Sessões compartilhadas geralmente são estabelecidas para os clientes usam o mesmo perfil. Para estabelecer uma nova sessão como uma sessão compartilhada, defina o sinalizador MAPI_ALLOW_OTHERS. 
+Sessões de mensagens comPartilhadas são conexões que vários clientes de mensagens podem usar. As sessões comPartilhadas normalmente são estabelecidas para clientes que usam o mesmo perfil. Para estabelecer uma nova sessão como uma sessão compartilhada, defina o sinalizador MAPI_ALLOW_OTHERS. 
   
 ## <a name="use-an-existing-shared-session"></a>Usar uma sessão compartilhada existente
   
@@ -45,28 +45,28 @@ Sessões de mensagens compartilhadas são conexões que vários clientes de mens
     
 - Não defina o sinalizador MAPI_ALLOW_OTHERS.
     
-- Passe nulo para o parâmetro _lpszProfileName_ . 
+- Passe NULL para o parâmetro _lpszProfileName_ . 
     
-- Passe nulo para o parâmetro _lpszPassword_ . 
+- Passe NULL para o parâmetro _lpszPassword_ . 
     
-Sessões nonmessaging permitir que os clientes acessar o subsistema de MAPI, mas não permitir mensagens a ser enviado ou recebido. Configuração ou administração de aplicativos são exemplos de clientes que talvez seja necessário para estabelecer sessões nonmessaging. Para solicitar uma sessão nonmessaging, defina o sinalizador MAPI_NO_MAIL. Defina esse sinalizador fará logon seu cliente sem informar o spooler MAPI. Clientes que faça logon MAPI com esse sinalizador não podem esperar nunca receber relatórios de status de leitura.
+As sessões de não envio de mensagens permitem que os clientes acessem o subsistema MAPI, mas não permitem que as mensagens sejam enviadas ou recebidas. Os aplicativos de configuração ou administração são exemplos de clientes que podem precisar estabelecer sessões de não-mensagens. Para solicitar uma sessão de não-mensagens, defina o sinalizador MAPI_NO_MAIL. A configuração desse sinalizador faz o logon do cliente sem informar o spooler MAPI. Os clientes que fazem logon em MAPI com esse sinalizador não podem esperar nunca receber relatórios de status de leitura.
   
-O sinalizador MAPI_NO_MAIL só deve ser definido:
+O sinalizador MAPI_NO_MAIL deve ser definido somente:
   
-- Se o seu cliente não será enviar ou receber mensagens durante a sessão.
+- Se o cliente não enviará ou receberá mensagens durante a sessão.
     
-- Se seu cliente tem controle total sobre o conteúdo do perfil e mensagens são enviadas e recebidas usando ligação estreita repositório de mensagem e transporte provedores, como os provedores do Microsoft Exchange.
+- Se o cliente tem controle completo sobre o conteúdo do perfil e as mensagens são enviadas e recebidas usando o repositório de mensagens rigidamente acoplado e provedores de transporte, como os provedores do Microsoft Exchange.
     
-Um cliente de mensagens pode compartilhar uma sessão com um cliente nonmessaging. As características de um membro de uma sessão compartilhada não são afetadas pelas características de outros membros. Ou seja, se você fizer logon com o conjunto de sinalizadores MAPI_NO_MAIL e MAPI_ALLOW_OTHERS, um cliente de mensagens logon à sua sessão não tem efeito sobre a operação de seu cliente e vice-versa. O cliente de mensagens ainda será possível enviar e receber mensagens e seu cliente não estará.
+Um cliente de mensagens pode compartilhar uma sessão com um cliente que não seja de mensagens. As características de um membro de uma sessão compartilhada não são afetadas pelas características de outros membros. Ou seja, se você fizer logon com os sinalizadores MAPI_NO_MAIL e MAPI_ALLOW_OTHERS definidos, um cliente de mensagens que fizer logon na sua sessão não afetará a operação do cliente e vice-versa. O cliente de mensagens ainda poderá enviar e receber mensagens e seu cliente não.
   
-**MAPILogonEx** define alguns outros sinalizadores que podem ser definidos: 
+**Funçãomapilogonex** define alguns outros sinalizadores que você pode definir: 
   
-- MAPI_FORCE_DOWNLOAD indica que as mensagens de entrada devem ser baixadas antes **MAPILogonEx** retorna. Não defina esse sinalizador faz com que as mensagens a serem baixadas em segundo plano mais tarde. 
+- MAPI_FORCE_DOWNLOAD indica que as mensagens de entrada devem ser baixadas antes que o **funçãomapilogonex** retorne. A não definição desse sinalizador faz com que as mensagens sejam baixadas em segundo plano posteriormente. 
     
-- MAPI_SERVICE_UI_ALWAYS solicita que cada serviço de mensagem no perfil exibir uma caixa de diálogo de configuração.
+- O MAPI_SERVICE_UI_ALWAYS solicita que todos os serviços de mensagens no perfil exibam uma caixa de diálogo de configuração.
     
-- MAPI_NT_SERVICE indica que seu cliente é implementado como um serviço do Windows. Esse sinalizador deve ser definida se seu cliente for um serviço.
+- MAPI_NT_SERVICE indica que o cliente é implementado como um serviço do Windows. Esse sinalizador deverá ser definido se o cliente for um serviço.
     
-Com cada logon bem-sucedido, **MAPILogonEx** retorna um ponteiro para uma sessão MAPI. Você pode usar esse ponteiro para chamar os métodos da interface **IMAPISession** . Para obter mais informações, consulte [IMAPISession: IUnknown](imapisessioniunknown.md). Ponteiros de sessão, independentemente do tipo de sessão, são exclusivos para os clientes que recebem-las e não são válidos nas tarefas.
+Com cada logon bem-sucedido, **funçãomapilogonex** retorna um ponteiro para uma sessão MAPI. Você pode usar esse ponteiro para chamar os métodos da interface **IMAPISession** . Para obter mais informações, consulte [IMAPISession: IUnknown](imapisessioniunknown.md). Os ponteiros de sessão, independentemente do tipo de sessão, são exclusivos dos clientes que os recebem e não são válidos nas tarefas.
   
 

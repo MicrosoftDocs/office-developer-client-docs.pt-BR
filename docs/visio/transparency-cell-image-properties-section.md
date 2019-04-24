@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: Determina o nível de transparência para uma camada de cor.
-ms.openlocfilehash: 5537cbdcd49c66f3bc28a58051f6e2888a290cd3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: defe5307e57c433fcf85a4132939d08cb1ddec77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280973"
 ---
 # <a name="transparency-cell-image-properties-section"></a>Célula Transparency (Seção Image Properties)
 
@@ -22,9 +22,7 @@ Determina o nível de transparência para uma camada de cor.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,7 +32,7 @@ Para obter uma referência para a célula Transparency pelo nome a partir de out
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Transparency  <br/> |
+|Nome da célula:  <br/> |Transparência  <br/> |
    
 Para obter uma referência para a célula Transparency pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

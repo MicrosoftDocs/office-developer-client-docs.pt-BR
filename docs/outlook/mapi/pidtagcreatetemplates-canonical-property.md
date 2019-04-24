@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269934"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propriedade canônica PidTagCreateTemplates
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563356"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um objeto incorporado de tabela que contém os identificadores de entrada de modelo de caixa de diálogo. 
+Contém um objeto Table incorporado que contém identificadores de entrada de modelo de caixa de diálogo. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém um objeto incorporado de tabela que contém os identificadores de entrad
    
 ## <a name="remarks"></a>Comentários
 
-Para saber qual modelo de objetos que podem ser criados dentro de um contêiner, chame o método de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) nessa propriedade. O objeto resultante é a tabela único que oferece os identificadores de entrada para todos os modelos que você pode criar dentro do contêiner. 
+Para saber quais objetos de modelo podem ser criados dentro de um contêiner, chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) nessa propriedade. O objeto resultante é a tabela única que fornece os identificadores de entrada para todos os modelos que você pode criar dentro do contêiner. 
   
-Para criar os objetos do modelo, chame o método de **CreateEntry** do objeto container nos valores de coluna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da tabela único.
+Para criar os objetos de modelo, chame o método **createentry** do objeto Container nos valores de coluna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da tabela one-off.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

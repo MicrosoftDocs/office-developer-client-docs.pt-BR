@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: Determina a forma pai ao utilizar formas com alças de controle. Esta célula determina o comportamento de todas as formas na página de desenho.
-ms.openlocfilehash: a87ba7451d73af50de4a110ecdc12b3e23e14d5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a530c48156043bec0cd58d79aead1a403c17ddce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282905"
 ---
 # <a name="ctrlasinput-cell-page-layout-section"></a>Célula CtrlAsInput (Seção Page Layout)
 
@@ -22,8 +22,8 @@ Determina a forma pai ao utilizar formas com alças de controle. Esta célula de
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Define como pai a forma à qual a alça de controle está conectada.  <br/> |
-| FALSO  <br/> | O padrão. Define como pai a forma que contém a alça de controle.  <br/> |
+| TRUE  <br/> | Define como pai a forma à qual a alça de controle está conectada.  <br/> |
+| FALSE  <br/> | O padrão. Define como pai a forma que contém a alça de controle.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

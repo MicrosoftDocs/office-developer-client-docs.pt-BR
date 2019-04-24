@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Você pode personalizar o conjunto de permissões aplicado a um modelo de formulário de código gerenciado do InfoPath usando o snap-in de Configuração do .NET.
 ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300153"
 ---
 # <a name="configure-security-settings-for-form-templates-with-code"></a>Definir configurações de segurança para modelos de formulário com código
 

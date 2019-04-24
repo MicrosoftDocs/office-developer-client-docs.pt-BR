@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2ed71b5eef0c25a78d7c8ec695a756a02e796dbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de0c1181450c536dffd5a84242c17bd1dd612566
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270095"
 ---
 # <a name="mapiopenformmgr"></a>MAPIOpenFormMgr
 
@@ -25,13 +25,13 @@ ms.locfileid: "22586029"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre uma interface de [IMAPIFormMgr](imapiformmgriunknown.md) em um objeto de provedor de biblioteca de formulário no contexto de uma sessão existente. 
+Abre uma interface [IMAPIFormMgr](imapiformmgriunknown.md) em um objeto de provedor de biblioteca de formulários no contexto de uma sessão existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 MAPIOpenFormMgr(
@@ -44,11 +44,11 @@ MAPIOpenFormMgr(
 
  _pSession_
   
-> [in] Ponteiro para a sessão em uso pelo aplicativo cliente.
+> no Ponteiro para a sessão em uso pelo aplicativo cliente.
     
  _ppmgr_
   
-> [out] Ponteiro para a interface de **IMAPIFormMgr** retornado. 
+> bota Ponteiro para a interface **IMAPIFormMgr** retornada. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -56,19 +56,19 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Depois que um aplicativo cliente faz uma chamada para a função **MAPIOpenFormMgr** , a maioria das interações subsequentes relacionados a formulários ocorrem por meio do provedor de biblioteca de formulário ou uma interface retornados pelo provedor de biblioteca de formulário. A interface de **IMAPIFormMgr** permite que o cliente trabalhar com manipuladores de mensagens e executar resoluções entre as classes de mensagem e bibliotecas de formulários. 
+Depois que um aplicativo cliente faz uma chamada para a função **MAPIOpenFormMgr** , a maioria das interações relacionadas a formulários subsequentes acontece através do provedor de biblioteca de formulários ou de uma interface retornada pelo provedor de biblioteca de formulários. A interface **IMAPIFormMgr** permite que o cliente trabalhe com manipuladores de mensagens e execute resoluções entre classes de mensagens e bibliotecas de formulários. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg.cpp abre o Gerenciador de formulário para que um formulário pode ser selecionado.  <br/> |CMainDlg::OnSelectForm  <br/> |MFCMAPI usa o método **MAPIOpenFormMgr** para abrir o Gerenciador de formulário para que um formulário pode ser selecionado.  <br/> |
+|MainDlg. cpp abre o Gerenciador de formulários para que um formulário possa ser selecionado.  <br/> |CMainDlg:: OnSelectForm  <br/> |MFCMAPI usa o método **MAPIOpenFormMgr** para abrir o Gerenciador de formulários para que um formulário possa ser selecionado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

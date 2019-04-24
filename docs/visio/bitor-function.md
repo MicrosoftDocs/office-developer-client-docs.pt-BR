@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm82251400
 localization_priority: Normal
 ms.assetid: 1d0954c5-b2cb-6c5d-62b3-a68011cf0c85
-description: Retorna um número binário de 16 bits no qual cada bit for definido como 1 se o bit correspondente em binário Número1 ou Número2 binário é 1. O bit é definido como 0 somente se o bit correspondente for 0 em binário Núm1 e núm2 binário.
-ms.openlocfilehash: db9808f16b32776149abbddf882310c02268cec3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna um número binário de 16 bits em que cada bit é definido como 1 se o bit correspondente no número binário ou no número binário núm2 for 1. O bit é definido como 0 somente se o bit correspondente for 0 no Número1 binário e no número2 binário.
+ms.openlocfilehash: 13bda2c6c65557b1f8372432cf919b2aaf2d75de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303371"
 ---
 # <a name="bitor-function"></a>Função BITOR
 
-Retorna um número binário de 16 bits no qual cada bit for definido como 1 se o bit correspondente em *binário Número1* ou *número2 binário* é 1. O bit é definido como 0 somente se o bit correspondente for 0 em *binário Núm1* e *núm2 binário* . 
+Retorna um número binário de 16 bits em que cada bit é definido como 1 se o bit correspondente no número *binário* ou no número *binário núm2* for 1. O bit é definido como 0 somente se o bit correspondente for 0 no *Número1 binário* e no *número2 binário* . 
   
 ## <a name="syntax"></a>Sintaxe
 
-BITOR (* * *Número1 binário* * *, * * *binário 2* * *) 
+BITOR (* * *binário Número1* * *, * * *binário núm2* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1 binários_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O primeiro número binário de 16 bits.  <br/> |
-| _binário 2_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O segundo número binário de 16 bits.  <br/> |
+| _Número1 binário_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro número binário de 16 bits.  <br/> |
+| _número2 binário_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O segundo número binário de 16 bits.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Binário de 16 bits
   
 ## <a name="example"></a>Exemplo
 
-BITOR(12,6)
+BITOR (12, 6)
   
 Retornará 14. Se 12 = 0...01100 e 6 = 0...00110; consequentemente, BITOR(12,6) = 0...01110.
   

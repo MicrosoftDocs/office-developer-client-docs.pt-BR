@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7fd11650-fffa-1316-d302-3122ac5feb14
 description: Representa uma sequência de texto descritiva exibida como uma dica de ferramenta quando o usuário posiciona o ponteiro do mouse sobre a alça de controle de uma forma. O aplicativo inclui automaticamente a dica entre aspas na célula, mas as aspas não são exibidas na dica de ferramenta.
-ms.openlocfilehash: ff593ee95dc27ba7192ee31d35791127b666eac0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9b0c19aff5e3ab8a4c1e29d319eb42f7ee4a271
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307718"
 ---
 # <a name="tip-cell-controls-section"></a>Célula Tip (Seção Controls)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Tip pelo nome a partir de outra fórmula ou de
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Controles.  *nome* . Controles de Tipwhere.  *nome* é o nome da linha controles.  <br/> |
+| Nome da célula:  <br/> | Menores.  *nome* . Controles Tipwhere.  *Name* é o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula Tip pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

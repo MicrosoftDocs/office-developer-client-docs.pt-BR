@@ -5,25 +5,25 @@ ms.date: 06/04/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
-description: Office para iOS fornece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode integrar com o Office do seu aplicativo iOS passando os usuários de seu aplicativo para Office, e, em seguida, retornando-los ao seu aplicativo.
-ms.openlocfilehash: 66106c51706a9ab1cd0e36b51340e65ccb807902
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: O Office para iOS oferece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode fazer a integração com o Office a partir do seu aplicativo iOS, passando usuários do seu aplicativo para o Office e, em seguida, retornando-os ao seu aplicativo.
+ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299741"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Integração do Office com aplicativos do iOS
 
-Office para iOS fornece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode integrar com o Office do seu aplicativo iOS passando os usuários de seu aplicativo para Office, e, em seguida, retornando-los ao seu aplicativo.
+O Office para iOS oferece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode fazer a integração com o Office a partir do seu aplicativo iOS, passando usuários do seu aplicativo para o Office e, em seguida, retornando-os ao seu aplicativo.
   
-Você pode permitir que os usuários que estão executando o Office em um dispositivo iOS para abrir e editar arquivos armazenados no SharePoint ou OneDrive de qualquer aplicativo e, em seguida, rapidamente voltar para o aplicativo original quando eles terminar edição do arquivo. Para fazer isso, você passa arquivos para o Office via manipuladores de protocolo e você se certificar de que o Office é invocado de forma que o Office pode entender.
+Você pode habilitar os usuários que estão executando o Office em um dispositivo iOS para abrir e editar arquivos armazenados no SharePoint ou no OneDrive de qualquer aplicativo e, em seguida, retorná-los rapidamente ao aplicativo original quando eles terminaram de editar o arquivo. Para fazer isso, você passa arquivos para o Office por meio de identificadores de protocolo e garante que o Office será invocado de uma maneira que Office possa entender.
   
-Quando um usuário é feito editando um arquivo, eles podem escolher na seta para voltar no aplicativo do Office para fechar o documento e retornar para o aplicativo de armazenamento original, desde que você passa informações específicas para o aplicativo do Office quando ele é iniciado.
+Quando um usuário termina de editar um arquivo, ele pode escolher a seta para trás no aplicativo do Office para fechar o documento e retornar ao aplicativo de armazenamento original, desde que você passe informações específicas para o aplicativo do Office quando ele é iniciado.
   
-## <a name="verify-that-office-has-been-installed"></a>Verificar se o Office foi instalado
+## <a name="verify-that-office-has-been-installed"></a>Verifique se o Office foi instalado
 
-Seu aplicativo referência primeiro precisará verificar se um aplicativo específico do Office está instalado. Os seguintes aplicativos do Office podem ser instalados nos dispositivos de iOS para exibição e edição de documentos:
+O aplicativo de referência primeiramente precisará verificar se um aplicativo específico do Office está instalado. Os seguintes aplicativos do Office podem ser instalados em dispositivos iOS para visualização e edição de documentos:
   
 - Excel
     
@@ -33,22 +33,22 @@ Seu aplicativo referência primeiro precisará verificar se um aplicativo espec�
     
 - Word
     
-Use o método [canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html) para determinar se o seu aplicativo pode abrir o recurso. Esse método leva a URL para o recurso como um parâmetro e retorna **não** se o aplicativo que aceita a URL não estiver disponível. Se **canOpenURL** retornará **não**, você precisará solicitar ao usuário para instalar o Office.
+Use o método [canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html) para determinar se o aplicativo pode abrir o recurso. Este método obtém a URL do recurso como um parâmetro e retorna **não** se o aplicativo que aceita a URL não está disponível. Se **CanOpenURL** **não**retornar, você precisará solicitar que o usuário instale o Office.
   
-### <a name="prompt-the-user-to-install-office"></a>Solicita ao usuário para instalar o Office
+### <a name="prompt-the-user-to-install-office"></a>Solicitar que o usuário instale o Office
 
- Se um aplicativo específico do Office não estiver instalado, você pode usar um objeto [SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html) para renderizar iTunes app store em seu aplicativo e mostrar ao usuário o aplicativo do Office para instalar. A tabela a seguir lista o identificador do iTunes usar para invocar a cada aplicativo do Office no controlador de modo de exibição de produto do Kit de repositório. 
+ Se um determinado aplicativo do Office não estiver instalado, você poderá usar um objeto [SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html) para renderizar a iTunes App Store em seu aplicativo e mostrar ao usuário o aplicativo do Office a ser instalado. A tabela a seguir lista o identificador iTunes a ser usado para invocar cada aplicativo do Office no controlador de exibição de produto do kit de armazenamento. 
   
-|**Aplicativo do Office**|**Identificador iTunes**|
+|**Aplicativo do Office**|**identificador iTunes**|
 |:-----|:-----|
-|Excel  <br/> |[https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4) <br/> |
-|OneNote (iPhone)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4) <br/> |
-|PowerPoint  <br/> |[https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4) <br/> |
-|Word  <br/> |[https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4) <br/> |
+|Excel  <br/> |[https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp; UO = 4](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4) <br/> |
+|OneNote (iPhone)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp; UO = 4](https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4) <br/> |
+|PowerPoint  <br/> |[https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp; UO = 4](https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4) <br/> |
+|Word  <br/> |[https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp; UO = 4](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4) <br/> |
    
-## <a name="invoke-office"></a>Invocar o Office
+## <a name="invoke-office"></a>Usar o Office
 
-Quando o aplicativo do Office for instalado, o seu aplicativo referência pode chamar Office passando-se os seguintes detalhes: 
+Quando o aplicativo do Office estiver instalado, o aplicativo de referência poderá invocar Office passando os seguintes detalhes: 
   
 - Protocolo do Office
     
@@ -56,32 +56,32 @@ Quando o aplicativo do Office for instalado, o seu aplicativo referência pode c
     
 - URL
     
-- Protocolo Passback
+- Protocolo passback
     
-- Contexto de documento
+- Contexto do documento
     
 Formato de esquema:
   
  `<Office protocol><open mode>|u|<URL>|p|<passback protocol>|c|<document context>`
   
-O exemplo a seguir mostra uma solicitação para chamar um arquivo do Word para edição:
+O exemplo a seguir mostra uma solicitação para invocar um arquivo do Word para edição:
   
  `ms-word:ofe|u|https://contoso/Q4/budget.docx|p|clouddrive|c|folderviewQ4`
   
 ### <a name="office-protocols"></a>Protocolos do Office
 
-A tabela a seguir lista os protocolos para cada aplicativo do Office. 
+A tabela a seguir lista os protocolos de cada aplicativo do Office. 
   
-|**Application**|**Protocolo**|
+|**Aplicativo**|**Protocolo**|
 |:-----|:-----|
 |Excel  <br/> |ms-excel:  <br/> |
-|OneNote  <br/> |OneNote:  <br/> |
+|OneNote  <br/> |OneNote  <br/> |
 |PowerPoint  <br/> |ms-powerpoint:  <br/> |
 |Word  <br/> |ms-word:  <br/> |
    
 ### <a name="open-mode"></a>Modo de abertura
 
-Aplicativos do Office podem abrir arquivos diretamente no modo de exibição (ofv) ou Editar modo (ofe). Modo de edição é o padrão. 
+Aplicativos do Office podem abrir arquivos diretamente no modo de exibição (ofv) ou editar o modo (ofe). O modo de edição é o padrão. 
   
 Formato de esquema:
   
@@ -93,19 +93,19 @@ A URL inclui três partes:
   
 - A declaração de que o arquivo será aberto para edição (ofe)
     
-- O descritor de URL (| u |)
+- Descritor URL (| u |)
     
 - A URL
     
-A URL tem que ser codificada e deve ser um link direto para o arquivo (não um redirecionamento). Se a URL estiver em um formato Office não dá suporte ou o download simplesmente falhar, o Office não retornará o usuário ao aplicativo de chamada. 
+A URL deve ser codificadt e deve ser um link direto para o arquivo (não um redirecionamento). Se a URL está em um formato que não dá suporte a Office ou o download falhar o Office não vai retornar o usuário aplicativo solicitado. 
   
 Formato de esquema:
   
  `|u|<document URL>`
   
-### <a name="passback-protocol-optional"></a>Protocolo de Passback (opcional)
+### <a name="passback-protocol-optional"></a>Protocolo passback (opcional)
 
-Se desejar que o Office para retornar usuários ao seu aplicativo iOS quando escolherem na seta para voltar, o aplicativo de invocação precisará usar o protocolo passback, que inclui o descritor ' | p |' seguido pelo protocolo app (sem dois-pontos). Você precisará garantir que o seu aplicativo pode manipular corretamente a resposta do Office.
+Se quiser que o Office retorne usuários para seu aplicativo iOS quando eles escolherem a seta para a direita, o aplicativo de invocação precisará usar o protocolo passback, que inclui o descritor ' | p | ' seguido do protocolo de aplicativo (sem dois-pontos). Você precisará garantir que o aplicativo possa lidar corretamente com a resposta do Office.
   
 Formato de esquema:
   
@@ -113,7 +113,7 @@ Formato de esquema:
   
 ### <a name="document-context-optional"></a>Contexto de documento (opcional)
 
-Office não usa o contexto do documento, mas o aplicativo de referência talvez precisem quando Office passa de volta um usuário. Se desejar que o contexto do documento a ser retornado ao seu aplicativo, use o descritor ' | c |' seguido de contexto que deseja usar como uma cadeia de caracteres. Office não limitam o comprimento da cadeia de caracteres, além de quaisquer limites impostas pelo sistema operacional.
+O Office não usa o contexto do documento, mas o aplicativo de referência pode precisar dele quando o Office passar um usuário de volta. Se quiser que o contexto do documento seja retornado para seu aplicativo, use o descritor ' | c | ' seguido do contexto desejado como uma cadeia de caracteres. O Office não limita o tamanho da cadeia de caracteres, além de todos os limites impostos pelo sistema operacional.
   
 Formato de esquema:
   
@@ -121,7 +121,7 @@ Formato de esquema:
   
 ## <a name="return-users-to-the-referring-application"></a>Retornar usuários para o aplicativo de referência
 
-Por motivos de segurança, Office retorna apenas os usuários para o aplicativo de referência se o arquivo foi aberto com êxito. Quando o usuário escolhe regressivo seta para baixo, Office responde ao aplicativo de invocação com o protocolo passback, abra o carregamento de modo, URL, status pendente e contexto de documentos. O carregamento de status pendente usa o descritor | z |, e é Sim ou não.
+Por motivos de segurança, o Office só retornará os usuários para o aplicativo de referência se o arquivo for aberto com êxito. Quando o usuário escolhe a seta para trás, o Office responde ao aplicativo que está chamando com o protocolo passback, o modo de abertura, a URL, o status de upload pendente e o contexto do documento. O status de upload pendente usa o descritor | z | e é sim ou não.
   
 Formato de esquema:
   
@@ -132,7 +132,7 @@ Formato de esquema:
 
 - [método canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)
     
-- [Classe de UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)
+- [Classe UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)
     
 - [Objeto SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html)
     

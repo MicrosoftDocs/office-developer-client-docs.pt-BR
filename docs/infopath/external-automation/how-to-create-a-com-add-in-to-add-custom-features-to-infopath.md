@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: O Microsoft InfoPath é compatível com suplementos de COM para ampliar a experiência do usuário ao editar formulários. Embora o suporte para suplementos de COM tenha sido adicionado primeiro ao InfoPath, outros aplicativos do Office, como o Microsoft Office Word e o Microsoft Office Excel, oferecem suporte a suplementos de COM desde o Office 2000.
 ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303784"
 ---
 # <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Criar um suplemento de COM para adicionar recursos personalizados ao InfoPath
 
@@ -47,7 +47,7 @@ O nome da chave do registro corresponde ao **ProgIdAttribute** do suplemento e c
   
 |**Nome**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|**FriendlyName** <br/> |**Cadeia de caracteres** <br/> |O nome é exibido na caixa de diálogo **Suplementos de COM** e listado na página **Suplementos** da **Central de Confiabilidade**.  <br/> |
+|**FriendlyName** <br/> |**String** <br/> |O nome é exibido na caixa de diálogo **Suplementos de COM** e listado na página **Suplementos** da **Central de Confiabilidade**.  <br/> |
 |**Descrição** <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres exibida quando o suplemento é selecionado na **Central de Confiabilidade**.  <br/> |
 |**LoadBehavior** <br/> |**DWORD** <br/> |Especifica a maneira de carregamento do suplemento de COM. O valor pode ser uma combinação de 0, 1, 2, 8 e 16. Consulte a tabela abaixo para saber mais.  <br/> |
    
@@ -55,11 +55,11 @@ O valor **DWORD** para **LoadBehavior** deve conter um valor que descreve como o
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Desconectado. O suplemento é exibido como Inativo na caixa de diálogo **Suplemento de COM**.  <br/> |
+|,0  <br/> |Desconectado. O suplemento é exibido como Inativo na caixa de diálogo **Suplemento de COM**.  <br/> |
 |1  <br/> |Conectado. O suplemento é exibido como Ativo na caixa de diálogo **Suplemento de COM**.  <br/> |
-|2  <br/> |Carrega na Inicialização. O suplemento é carregado e conectado quando o aplicativo host inicia.  <br/> |
+|duas  <br/> |Carrega na Inicialização. O suplemento é carregado e conectado quando o aplicativo host inicia.  <br/> |
 |8  <br/> |Carrega por Demanda. O suplemento é carregado e conectado quando o aplicativo host exige, por exemplo, quando um usuário clica em um botão que utiliza a funcionalidade do suplemento.  <br/> |
-|16  <br/> |Conectar na primeira vez. O suplemento será carregado e conectado na primeira vez que o usuário executar o aplicativo host após registrar o suplemento.  <br/> |
+|dezesseis  <br/> |Conectar na primeira vez. O suplemento será carregado e conectado na primeira vez que o usuário executar o aplicativo host após registrar o suplemento.  <br/> |
    
 ## <a name="creating-a-managed-com-add-in-with-visual-studio-2005-or-visual-studio-2008"></a>Criar um suplemento de COM gerenciado com o Visual Studio 2005 ou Visual Studio 2008
 
@@ -204,6 +204,6 @@ private void InfoPathApplicationEvents_XDocumentBeforeSave(
 - [Criar suplementos de COM gerenciados do Office com o Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
 - [Trabalhar com os procedimentos de evento IDTExtensibility2](https://go.microsoft.com/fwlink/?LinkID=73471)
 - [Criar um suplemento de COM do Office com o Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
-- [Criar um suplemento de COM do Office usando o Visual C# .NET](https://support.microsoft.com/pt-BR/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Criar um suplemento de COM do Office usando o Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
 - [Criar suplementos do InfoPath 2007 usando as ferramentas do Visual Studio 2005 para o Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

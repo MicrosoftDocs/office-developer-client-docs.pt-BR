@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 89bcde81-4530-bd00-6e2e-fab7deec175b
 description: Mostra todas as camadas definidas para a página e as propriedades definidas para cada camada.
-ms.openlocfilehash: 36be01460351ae9934bc0c94910b252095fca1d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 058c8cbe2ee38a0ebc52935f7108d51ec4f2aef5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309468"
 ---
 # <a name="layers-section"></a>Seção Layers
 

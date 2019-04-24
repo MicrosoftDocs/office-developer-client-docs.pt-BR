@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 00ae0f4be9818e0e9e4562784b4d5bf44eefe308
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0fe21cea26c956f8a03a51e2f302b040fc89e751
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299493"
 ---
 # <a name="handling-a-transport-provider"></a>Manipular um provedor de transporte
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes se comuniquem com provedores de transporte por meio de objetos de status fornecidos por provedores de transporte e o spooler MAPI. Clientes acessam objetos de status chamando [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar a tabela de status. Objetos de status implementar o [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface, que tem métodos para configurando provedores, liberação de entrada e saída da mensagem filas, senhas de configuração e validação de estado. Para obter mais informações sobre objetos de status, consulte a [tabela de Status e objetos de Status](status-table-and-status-objects.md).
+Os clientes se comunicam com provedores de transporte por meio de objetos de status fornecidos por provedores de transporte e pelo spooler MAPI. Os clientes acessam objetos de status chamando [IMAPISession::](imapisession-getstatustable.md) getstatustable para recuperar a tabela status. Os objetos de status implementam a interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , que tem métodos para configurar provedores, liberar filas de mensagens de entrada e de saída, definir senhas e validação de estado. Para obter mais informações sobre objetos de status, consulte [tabela de status e objetos de status](status-table-and-status-objects.md).
 
 
-- [Enviar ou receber uma mensagem sob demanda](sending-or-receiving-a-message-on-demand.md): descreve como enviar ou receber uma mensagem sob demanda.
+- [Enviando ou recebendo uma mensagem sob demanda](sending-or-receiving-a-message-on-demand.md): descreve como enviar ou receber uma mensagem sob demanda.
     
-- [Ordem de transporte de configuração](setting-transport-order.md): descreve como definir a ordem de transporte.
+- [Configuração da ordem de transporte](setting-transport-order.md): descreve como definir a ordem de transporte.
     
-- [Reconfiguração de um provedor de transporte](reconfiguring-a-transport-provider.md): descreve como reconfigurar um provedor de transporte e as propriedades que estão disponíveis para definir.
+- [Reconfiguração de um provedor de transporte](reconfiguring-a-transport-provider.md): descreve como reconfigurar um provedor de transporte e quais propriedades estão disponíveis para definir.
     
 

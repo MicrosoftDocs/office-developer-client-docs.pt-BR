@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8861c8f86eaab6defb270b673e0ee200446aedb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282821"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
@@ -27,7 +27,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLCOMBOBOX](dtblcombobox.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
@@ -38,15 +38,15 @@ SizedDtblComboBox (n, u)
 
 _n_
   
-> Controle de edição de número de caracteres que podem ser inseridos na caixa de combinação. 
+> Número de caracteres que podem ser inseridos no controle de edição da caixa de combinação. 
     
 _u_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblComboBox** permite definir uma caixa de combinação quando o comprimento da cadeia de caracteres habilitados é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblComboBox** permite definir uma caixa de combinação quando o comprimento da cadeia de caracteres habilitada é conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante de macro **SizedDtblComboBox** como um ponteiro de estrutura **DTBLCOMBOBOX** , execute a seguinte projeção: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblComboBox** como um ponteiro de estrutura **DTBLCOMBOBOX** , execute a seguinte conversão: 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

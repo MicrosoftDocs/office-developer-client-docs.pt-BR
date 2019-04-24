@@ -1,5 +1,5 @@
 ---
-title: Anexos de MAPI
+title: Anexos MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: fd8075d2fddb7ada6803c869cbbd282c464e75bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 90fbec8b61499f383228823d69b041a21199a22e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297869"
 ---
-# <a name="mapi-attachments"></a>Anexos de MAPI
+# <a name="mapi-attachments"></a>Anexos MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Alguns provedores de armazenamento de mensagem permitem que os clientes associar informações adicionadas na forma de arquivos, objetos OLE, mensagens ou dados binários de mensagens. Essas informações adicionadas são chamadas de anexos da mensagem. Como anexos são criados, mantidos e acessados apenas por meio de suas mensagens, eles são considerados subobjetos de mensagem. Em vez de um identificador de entrada de acesso, anexos tem um conhecido número sequencial como um número de anexo. Esse número identifica exclusivamente o anexo dentro de sua mensagem, mas não necessariamente dentro do repositório de mensagem. Duas mensagens diferentes podem ter diferentes anexos com o mesmo número de anexo. Números de anexo somente são válidos desde que a mensagem é aberta e são armazenados na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
+Alguns provedores de repositórios de mensagens permitem que os clientes associem informações adicionadas na forma de arquivos, objetos OLE, mensagens ou dados binários com mensagens. Essa informação adicional é chamada de anexo de uma mensagem. Como os anexos são criados, mantidos e acessados apenas por meio de suas mensagens, eles são considerados subobjetos de mensagem. Em vez de ter um identificador de entrada para o Access, os anexos têm um número seqüencial conhecido como um número de anexo. Esse número identifica exclusivamente o anexo dentro de sua mensagem, mas não necessariamente dentro do repositório de mensagens. Duas mensagens diferentes podem ter anexos diferentes com o mesmo número de anexo. Os números de anexo só são válidos, contanto que a mensagem esteja aberta e sejam armazenadas na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
   
-Para acessar informações de resumo sobre todos os anexos da mensagem, clientes recuperam sua tabela de anexo. A tabela de anexo inclui informações que os clientes podem usar para acessar um anexo diretamente, como seu número de anexo e a chave do registro. Os clientes podem recuperar uma tabela de anexo por:
+Para acessar informações resumidas sobre todos os anexos de uma mensagem, os clientes recuperam sua tabela de anexos. A tabela de anexos inclui informações que os clientes podem usar para acessar diretamente um anexo, como seu número de anexo e chave de registro. Os clientes podem recuperar uma tabela de anexos:
   
-- Chamando **IMessage::GetAttachmentTable**. Para obter mais informações, consulte [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
+- Chamar **IMessage::** GetAttachmentTable. Para obter mais informações, consulte [IMessage::](imessage-getattachmenttable.md)GetAttachmentTable.
     
-- Chamando **IMAPIProp::OpenProperty**. Para obter mais informações, consulte [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+- Chamar **IMAPIProp:: OpenProperty**. Para obter mais informações, consulte [IMAPIProp:: OpenProperty](imapiprop-openproperty.md).
     
-Provedores de armazenamento de mensagem esperados para dar suporte a essas duas abordagens. A abordagem de **OpenProperty** requer que o chamador Especifica IID_IMAPITable como o identificador de interface e **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) como a marca de propriedade. **PR_MESSAGE_ATTACHMENTS** é uma propriedade de objeto de tabela que representa a tabela de anexos da mensagem. Provedores de armazenamento de mensagem são necessárias para definir **PR_MESSAGE_ATTACHMENTS** para cada mensagem e incluí-lo na matriz de marcas de propriedade retornado pelo método **IMAPIProp::GetPropList** . Para obter mais informações, consulte [IMAPIProp::GetPropList](imapiprop-getproplist.md).
+Espera-se que os provedores de repositório de mensagens ofereçam suporte a ambas as abordagens. A **** abordagem de OpenProperty requer que o chamador especifique IID_IMAPITable como o identificador de interface e **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) como a marca de propriedade. **PR_MESSAGE_ATTACHMENTS** é uma propriedade de objeto Table que representa a tabela de anexos de uma mensagem. Os provedores de repositório de mensagens são necessários para definir o **PR_MESSAGE_ATTACHMENTS** para cada mensagem e incluí-lo na matriz de marcas de propriedade retornadas do método **IMAPIProp::** getproplist. Para obter mais informações, consulte [IMAPIProp::](imapiprop-getproplist.md)getproplist.
   
  **PR_MESSAGE_ATTACHMENTS** pode ser usado: 
   
-- Com **IMAPIProp::OpenProperty** para acessar uma tabela de anexo ou destinatário. 
+- Com **IMAPIProp:: OpenProperty** para acessar uma tabela de anexos ou de destinatários. 
     
-- Com **IMAPIProp::CopyTo** ou **IMAPIProp::CopyProps** para excluir ou incluir anexos ao copiar. Para obter mais informações, consulte [IMAPIProp::CopyTo](imapiprop-copyto.md) e [IMAPIProp::CopyProps](imapiprop-copyprops.md).
+- Com **IMAPIProp:: CopyTo** ou **IMAPIProp:: CopyProps** para excluir ou incluir anexos ao copiar. Para obter mais informações, consulte [IMAPIProp:: CopyTo](imapiprop-copyto.md) e [IMAPIProp:: CopyProps](imapiprop-copyprops.md).
     
-- Uma restrição subobjeto para indicar que a restrição filho deve ser aplicadas aos anexos.
+- Em uma restrição de subobjeto para indicar que a restrição de filho deve se aplicar a anexos.
     
-Para obter mais informações, consulte [As tabelas de anexo](attachment-tables.md).
+Para obter mais informações, consulte [tabelas de anexo](attachment-tables.md).
   
 

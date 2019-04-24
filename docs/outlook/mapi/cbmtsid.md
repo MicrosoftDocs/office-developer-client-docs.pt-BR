@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2297f7fa17eb25752e0acec2a5287dfaef77e4af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c1d0d3a433c98b97d51d507885f6a83712456d4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281596"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [MTSID](mtsid.md) existente.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp

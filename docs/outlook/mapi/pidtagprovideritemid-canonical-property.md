@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286471"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Propriedade canônica PidTagProviderItemId
 
@@ -36,19 +36,19 @@ Especifica um identificador para uma pasta ou um item em um repositório.
    
 ## <a name="remarks"></a>Comentários
 
-Provedores de armazenamento podem especificar um valor para essa propriedade para uma pasta ou um item, mas devem manter o valor os mesmos entre sessões. Provedores de armazenamento usam essa propriedade para identificar os resultados de pesquisa retornados de um mecanismo de pesquisa.
+Os provedores de repositório podem especificar um valor para essa propriedade para uma pasta ou um item, mas devem manter o valor o mesmo entre as sessões. Provedores de repositório Use essa propriedade para identificar os resultados de pesquisa retornados de um mecanismo de pesquisa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

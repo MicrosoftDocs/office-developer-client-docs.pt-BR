@@ -1,5 +1,5 @@
 ---
-title: Exemplos de tarefas usando eventos do Outlook
+title: Amostras de tarefas usando eventos do Outlook
 TOCTitle: Sample tasks using Outlook events
 ms:assetid: efa18d44-43f3-4dd2-8390-fe228ed88971
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184651(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6009ea6ede1089d1c08342602681a127d53da151
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286305"
 ---
 # <a name="sample-tasks-using-outlook-events"></a>Exemplos de tarefas usando eventos do Outlook
 

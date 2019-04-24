@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm1021757
 localization_priority: Normal
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
-description: Retorna o caractere mais à esquerda ou caracteres em uma cadeia de caracteres de texto, com base no número de caracteres especificado.
-ms.openlocfilehash: 4e8deb3098ce6d217dcce0cae23d07ed723d9fb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna os caracteres mais à esquerda em uma sequência de caracteres de texto, com base no número de caracteres especificado.
+ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309461"
 ---
 # <a name="left-function-visioshapesheet"></a>Função LEFT (VisioShapeSheet)
 
-Retorna o caractere mais à esquerda ou caracteres em uma cadeia de caracteres de texto, com base no número de caracteres especificado.
+Retorna os caracteres mais à esquerda em uma sequência de caracteres de texto, com base no número de caracteres especificado.
   
 ## <a name="syntax"></a>Sintaxe
 
-ESQUERDA (* * *texto* * *, [, * * *num_chars_opt* * *]) 
+Left (* * *Text* * *, [, * * *num_chars_opt* * *]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
-| _num_chars_opt_ <br/> |Opcional  <br/> |**Numérico** <br/> |O número de caracteres a extrair.  <br/> |
+| _num_chars_opt_ <br/> |Opcional  <br/> |**Numeric** <br/> |O número de caracteres que deseja extrair.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -39,7 +39,7 @@ String
 
 O valor de _num_chars_opt_ deve ser maior ou igual a zero (0). 
   
-Se _num_chars_opt_ for maior que o comprimento do texto, esquerda retornará todo o texto. Se _num_chars_opt_ for omitido, presume-se a 1. 
+Se _num_chars_opt_ for maior do que o comprimento do texto, Left retornará todo o texto. Se _num_chars_opt_ for omitido, será considerado 1. 
   
 ## <a name="example"></a>Exemplo
 

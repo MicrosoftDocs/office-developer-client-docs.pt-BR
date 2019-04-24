@@ -1,31 +1,31 @@
 ---
-title: Elemento RowKeyValue (PrimaryKey_Type complexType) ('Visio XML')
+title: Elemento RowKeyValue (PrimaryKey_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
-description: Especifica o valor de uma chave primária para uma linha individual de um recordset.
+description: Especifica o valor de uma chave primária para uma linha individual de um Recordset.
 ms.openlocfilehash: 12d60bb0ccccdcd8c1790678cae4ad1e887e73b6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283500"
 ---
-# <a name="rowkeyvalue-element-primarykeytype-complextype-visio-xml"></a>Elemento RowKeyValue (PrimaryKey_Type complexType) ('Visio XML')
+# <a name="rowkeyvalue-element-primarykeytype-complextype-visio-xml"></a>Elemento RowKeyValue (PrimaryKey_Type complexType) (' Visio XML ')
 
-Especifica o valor de uma chave primária para uma linha individual de um recordset.
+Especifica o valor de uma chave primária para uma linha individual de um Recordset.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Recordsets.XML  <br/> |
+|**Partes do documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Especifica o valor de uma chave primária para uma linha individual de um record
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Especifica uma chave primária de um recordset.  <br/> |
+|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Especifica uma chave primária de um Recordset.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,9 +50,9 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|RowID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor exclusivo que identifica uma linha de um recordset.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Valor  <br/> |XSD: String  <br/> |obrigatório  <br/> |O valor da chave primária para esta linha do recordset.  <br/> |Valores do tipo xsd: String.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Um valor exclusivo que identifica uma linha de um Recordset.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Valor  <br/> |xsd:string  <br/> |obrigatório  <br/> |O valor da chave primária dessa linha do Recordset.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

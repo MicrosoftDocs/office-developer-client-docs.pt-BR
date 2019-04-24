@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db7dba67e7b71df6921ecd97189255a0ef7823a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309545"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588241"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de perfis, uma tabela que contém informações sobre todos os perfis disponíveis.
+Fornece acesso à tabela de perfil, uma tabela que contém informações sobre todos os perfis disponíveis.
   
 ```cpp
 HRESULT GetProfileTable(
@@ -38,13 +38,13 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> [in] Sempre nulo.
+> no Sempre nulo.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela de perfil.
+> bota Um ponteiro para um ponteiro para a tabela de perfis.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -52,21 +52,21 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin::GetProfileTable** fornece acesso à tabela de perfis, que contém uma linha para cada perfil disponível. Existem apenas duas colunas em cada linha: nome para exibição do perfil e um sinalizador que indica se o perfil é o padrão. 
+O método **IProfAdmin::** getprofiletable fornece acesso à tabela de perfis, que contém uma linha para cada perfil disponível. Há apenas duas colunas em cada linha: o nome de exibição do perfil e um sinalizador que indica se o perfil é o padrão. 
   
-Perfis que tenha sido excluída, ou que estão em uso, mas foram marcadas para exclusão, não são incluídos na tabela de perfil. A tabela de perfil é estática; subsequentes adições e exclusões de perfis não serão refletidas na tabela. 
+Os perfis excluídos ou que estão em uso, mas que foram marcados para exclusão, não estão incluídos na tabela de perfis. A tabela de perfil é estática; adições e exclusões subsequentes de perfis não são refletidas na tabela. 
   
-Se nenhum perfil existir, **GetProfileTable** retorna uma tabela com zero linhas. 
+Se não existir nenhum perfil **** , getprofiletable retornará uma tabela com zero linhas. 
   
-Para obter mais informações sobre a tabela de perfil, consulte [As tabelas de perfil](profile-tables.md). 
+Para obter mais informações sobre a tabela de perfil, consulte [tabelas de perfil](profile-tables.md). 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI usa o método **IProfAdmin::GetProfileTable** para obter a tabela de perfil para exibir em uma nova caixa de diálogo.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI usa o método **IProfAdmin::** getprofiletable para fazer com que a tabela de perfil seja exibida em uma nova caixa de diálogo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -79,5 +79,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

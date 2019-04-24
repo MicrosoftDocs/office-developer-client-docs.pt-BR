@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280068"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -41,37 +41,37 @@ HRESULT DeleteFolder(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada da subpasta para excluir.
+> no Um ponteiro para o identificador de entrada da subpasta a ser excluída.
     
  _ulUIParam_
   
-> [in] Um identificador para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Uma alça para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _lpProgress_
   
-> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado _lpProgress_, o provedor de armazenamento de mensagem exibe um indicador de progresso usando a implementação de objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG está definido na _ulFlags_.
+> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido em _parâmetroulflags_.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a exclusão da subpasta. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla a exclusão da subpasta. Os seguintes sinalizadores podem ser definidos:
     
 DEL_FOLDERS 
   
-> Todas as subpastas da subpasta apontado pela _lpEntryID_ devem ser excluídas. 
+> Todas as subpastas da subpasta indicada por _lpEntryID_ devem ser excluídas. 
     
 DEL_MESSAGES 
   
-> Todas as mensagens na subpasta apontado pela _lpEntryID_ devem ser excluídas. 
+> Todas as mensagens na subpasta indicada por _lpEntryID_ devem ser excluídas. 
     
 FOLDER_DIALOG 
   
-> Um indicador de progresso deve ser exibido enquanto continua a operação.
+> Um indicador de progresso deve ser exibido enquanto a operação prossegue.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -87,37 +87,37 @@ MAPI_E_HAS_MESSAGES
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada foi bem-sucedida, mas nem todas as entradas foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas nem todas as entradas foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::DeleteFolder** exclui uma subpasta. Por padrão, **DeleteFolder** opera somente em pastas vazias, mas você pode usá-lo com êxito em pastas não vazias definindo dois sinalizadores: DEL_FOLDERS e DEL_MESSAGES. Apenas pastas vazias ou pastas que definir sinalizadores DEL_FOLDERS tanto o DEL_MESSAGES na chamada **DeleteFolder** podem ser excluídas. DEL_FOLDERS habilita todas as subpastas da pasta a ser removida; DEL_MESSAGES habilita todas as mensagens da pasta a ser removida. 
+O método **IMAPIFolder::D eletefolder** exclui uma subpasta. Por padrão, o **DeleteFolder** funciona apenas em pastas vazias, mas você pode usá-lo com êxito em pastas não vazias Configurando dois sinalizadores: DEL_FOLDERS e DEL_MESSAGES. Somente pastas vazias ou pastas que definem os sinalizadores DEL_FOLDERS e DEL_MESSAGES na chamada **DeleteFolder** podem ser excluídas. O DEL_FOLDERS permite que todas as subpastas da pasta sejam removidas; DEL_MESSAGES habilita todas as mensagens da pasta a serem removidas. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando a operação de exclusão envolve mais de uma pasta, execute a operação como completamente para cada pasta. Em alguns casos, uma das pastas a ser excluído não existe ou foi movida ou copiada em outro local. Não interrompa a operação prematuramente, a menos que ocorre uma falha que está fora de seu controle, como ficando sem memória, ficando sem espaço em disco ou corrupção no repositório de mensagem.
+Quando a operação de exclusão envolver mais de uma pasta, execute a operação o mais completo possível para cada pasta. Às vezes, uma das pastas a serem excluídas não existe ou foi movida ou copiada em outro lugar. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do seu controle, como a falta de memória, ficando sem espaço em disco ou corrupção no repositório de mensagens.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Espera esses valores de retorno sob as condições a seguintes.
+Espere estes valores de retorno sob as condições a seguir.
   
-|**Condição**|**Valor retornado**|
+|**Condition**|**Valor retornado**|
 |:-----|:-----|
-|**DeleteFolder** excluiu com êxito cada mensagem e a subpasta.  <br/> |S_OK  <br/> |
-|**DeleteFolder** não pôde ser excluído com êxito a cada mensagem e a subpasta.  <br/> |MAPI_W_PARTIAL_COMPLETION ou E_NOT_FOUND  <br/> |
-|**DeleteFolder** não pôde concluir.  <br/> |Qualquer valor de erro, exceto E_NOT_FOUND  <br/> |
+|O **DeleteFolder** excluiu com êxito todas as mensagens e subpastas.  <br/> |S_OK  <br/> |
+|O **DeleteFolder** não pôde excluir com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** não pôde ser concluída.  <br/> |Qualquer valor de erro, exceto MAPI_E_NOT_FOUND  <br/> |
    
-Quando **DeleteFolder** é impossível concluir, não presuma que foi feito nenhum trabalho. **DeleteFolder** podem ter sido capazes de excluir uma ou mais das mensagens e subpastas antes da ocorrência de erro. 
+Quando o **DeleteFolder** não puder ser concluído, não presuma que nenhum trabalho foi realizado. O **DeleteFolder** pode ter sido capaz de excluir uma ou mais das mensagens e subpastas antes de encontrar o erro. 
   
-Se uma ou mais subpastas não podem ser excluídas, **DeleteFolder** retorna MAPI_W_PARTIAL_COMPLETION ou E_NOT_FOUND, dependendo da implementação do provedor de repositório de mensagem. 
+Se uma ou mais subpastas não puderem ser excluídas, **DeleteFolder** retornará MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do provedor de repositório de mensagens. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFolder::DeleteFolder** para excluir pastas.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFolder::D eletefolder** para excluir pastas.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -126,5 +126,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

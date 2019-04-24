@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
 description: O exemplo XML neste tópico é uma cadeia XML retornada para o Outlook Social Connector (OSC) depois de chamar o método ISocialProvider::GetCapabilities para uma rede social. O XML mostra como um provedor de OSC especifica seus recursos e os requisitos para a OSC.
 ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281227"
 ---
 # <a name="capabilities-xml-example"></a>Exemplo de XML de recursos
 

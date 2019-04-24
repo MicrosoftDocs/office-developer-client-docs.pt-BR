@@ -1,43 +1,43 @@
 ---
-title: Carregar o estado do status de leitura
+title: Carregar estado de status de leitura
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e8ad2acf019df3f07060c8e8c71a62afd3fca03c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282653"
 ---
-# <a name="upload-read-status-state"></a>Carregar o estado do status de leitura
+# <a name="upload-read-status-state"></a>Carregar estado de status de leitura
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Este tópico descreve o que acontece durante o carregamento ler o estado de status da máquina de estado de replicação. 
+ Este tópico descreve o que acontece durante o estado de upload de status de leitura da máquina de estado de replicação. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[UPREAD](upread.md)** <br/> |
-|Desse estado:  <br/> |[Carregar o estado da tabela](upload-table-state.md) <br/> |
-|Com esse estado:  <br/> |Carregar o estado da tabela  <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
+|Estrutura de dados relacionada:  <br/> |**[UPREAD](upread.md)** <br/> |
+|A partir deste Estado:  <br/> |[Carregar estado da tabela](upload-table-state.md) <br/> |
+|Para este Estado:  <br/> |Carregar estado da tabela  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente partindo de um estado para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Nesse estado inicia o carregamento do status de itens em uma pasta especificada em um estado de tabela anterior do carregamento leitura. Durante esse estado, o Outlook inicializa a estrutura de dados **UPREAD** associada com informações para os itens na pasta cujo status de leitura foi alterada. O cliente, em seguida, atualiza o status de leitura desses itens no servidor como sendo lidos ou não lidos. 
+Este estado inicia o carregamento do status de leitura dos itens em uma pasta especificada em um estado de tabela de carregamento anterior. Durante esse Estado, o Outlook Inicializa a estrutura de dados de **leitura** associada com informações para os itens na pasta cujo status de leitura foi alterado. O cliente atualiza o status de leitura desses itens no servidor como sendo lido ou não lido. 
   
-Quando for encerrada nesse estado, o Outlook limpa as informações internas sobre o status do item leitura, impedindo que o status de leitura do item que está sendo carregado novamente. Armazenamento local retorna para o estado da tabela de carregamento.
+Quando esse estado termina, o Outlook limpa as informações internas sobre o status de leitura do item, impedindo que o status de leitura do item seja carregado novamente. O repositório local retorna ao estado de carregamento da tabela.
   
 ## <a name="see-also"></a>Confira também
 
@@ -49,5 +49,5 @@ Quando for encerrada nesse estado, o Outlook limpa as informações internas sob
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

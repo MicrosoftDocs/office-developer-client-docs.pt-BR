@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: O Microsoft InfoPath continua oferecendo suporte a projetos de modelos de formulário criados com o Kit de Ferramentas do InfoPath 2003 do Microsoft Office para as ferramentas do Visual Studio .NET ou do Visual Studio 2005 do sistema Microsoft Office que possuem lógica que negócios escrita contra membros do namespace Microsoft.Office.Interop.InfoPath.SemiTrust. Os tópicos desta seção referem-se aos tipos e membros deste namespace, como o modelo de objeto compatível com InfoPath 2003, ou simplesmente o modelo de objeto do InfoPath 2003. O InfoPath também dá suporte a projetos de modelo de formulário criados no Microsoft Office InfoPath 2007 que usam o modelo de objeto compatível com o InfoPath 2003. Adicionalmente, você pode usar o InfoPath para criar novos projetos de modelos de formulário que usam o modelo de objeto compatível com o InfoPath 2003 para manter a compatibilidade com versões anteriores para usuários do Office InfoPath 2007. Todos os tópicos desta seção são específicos para a criação e o desenvolvimento de modelos de formulário que funcionam com o modelo de objeto compatível com o InfoPath 2003 fornecido pelo namespace Microsoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300361"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Desenvolver modelos de formulário usando o modelo de objeto do InfoPath 2003
 

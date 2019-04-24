@@ -7,21 +7,21 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
+description: Este documento é fornecido como está. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: c131cd896b281bcf28f69d555e837577544e4f59
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308103"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Aviso de direitos autorais de documentação do Office 2013
 
-Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo. 
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização. 
   
-Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Não existe associação real ou qualquer ligação é intencionada ou deve ser inferida.
+Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
   
-Este documento não lhe dá nenhum direito legal a qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para fins de referência, internos. 
+Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. 
   
 © 2013 Microsoft Corporation. Todos os direitos reservados.
   

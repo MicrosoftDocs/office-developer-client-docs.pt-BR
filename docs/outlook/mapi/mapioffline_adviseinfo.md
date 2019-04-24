@@ -8,22 +8,22 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 82869fa479ebe8a4d7b1881cec5d5c243b7d7957
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3cb110fdcbbd88e494c44ba2ed73cc26674638ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270032"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece informações para **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** para registrar o retorno de chamada para um objeto offline. 
+Fornece informações para **[IMAPIOfflineMgr:: avisar](imapiofflinemgr-advise.md)** para registrar retorno de chamada para um objeto offline. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte **IMAPIOfflineMgr::Advise**. 
+Consulte **IMAPIOfflineMgr:: Advise**. 
   
 ```cpp
 typedef struct 
@@ -39,26 +39,26 @@ typedef struct
 
 ## <a name="members"></a>Members
 
-_ulSize_: O tamanho do **MAPIOFFLINE_ADVISEINFO**. 
+_ulSize_: o tamanho de **MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken_: um token definido pelo cliente sobre um retorno de chamada. É o membro *ulClientToken* da estrutura **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** passado para **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
+_ulClientToken_: um token definido pelo cliente sobre um retorno de chamada. É o membro *ulClientToken* da estrutura **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** passada para **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)**. 
     
-_CallbackType_: tipo de retorno de chamada para fazer.
+_CallbackType_: tipo de retorno de chamada a ser feita.
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - O tipo de retorno de chamada é por notificação. Este é o único tipo com suporte de retorno de chamada.  *pCallback* deve indicar a interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+   - O tipo de retorno de chamada é por notificação. Este é o único tipo de retorno de chamada com suporte.  *pCallback* deve indicar a interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback_: Interface para usar o retorno de chamada. Esta é a implementação do cliente de **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+_pCallback_: interface a ser usada para retorno de chamada. Esta é a implementação do **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** do cliente. 
     
-_ulAdviseTypes_: os tipos de advise, conforme identificado pela condição para que informa. O único tipo com suporte é MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
+_ulAdviseTypes_: os tipos de aviso, conforme identificado pela condição de aconselhação. O único tipo com suporte é MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     
-_ulStateMask_: O único estado com suporte é MAPIOFFLINE_STATE_ALL.
+_ulStateMask_: o único estado com suporte é MAPIOFFLINE_STATE_ALL.
     
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 - [Sobre a API de estado offline](about-the-offline-state-api.md) 
-- [Constantes de MAPI](mapi-constants.md) 
+- [Constantes MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

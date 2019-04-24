@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4e8e2474d2adb882dd0ba43aeb0d8b05044a6ce6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 968f9e1dad3a233b31f0ce29d3ce935b1257948c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309496"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
@@ -25,11 +25,11 @@ ms.locfileid: "22592056"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma propriedade nomeada utilizada com um formulário. 
+Descreve uma propriedade nomeada usada com um formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormProp
@@ -52,7 +52,7 @@ typedef struct _SMAPIFormProp
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  **ulFlags**
   
@@ -60,27 +60,27 @@ typedef struct _SMAPIFormProp
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se MAPI_UNICODE não estiver definida, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se MAPI_UNICODE não for definido, as cadeias de caracteres estarão no formato ANSI.
     
  **nPropType**
   
-> Tipo da propriedade nomeado, com a palavra mais significativa definida como zero. 
+> Tipo da propriedade nomeada, com a palavra mais significativa definida como zero. 
     
  **nmid**
   
-> Nome da propriedade nomeada, que inclui uma estrutura **GUID** que identifica o valor da propriedade set e um numérico ou cadeia de caracteres que representa um nome de formulário e de identificador de interface. 
+> Nome da propriedade nomeada, que inclui uma estrutura **GUID** que identifica o conjunto de propriedades e um valor numérico ou de cadeia de caracteres que representa um identificador de interface e um nome de formulário. 
     
  **pszDisplayName**
   
-> Ponteiro para o nome para exibição da propriedade nomeada.
+> Ponteiro para o nome de exibição da propriedade nomeada.
     
  **nSpecialType**
   
-> Valor que descreve o tipo de dados incluídos no membro **u** . Os valores possíveis são: 
+> Valor que descreve o tipo de dados incluído no membro **u** . Os valores possíveis são os seguintes: 
     
 FPST_VANILLA 
   
-> O membro **u** não contiver uma enumeração. 
+> O membro **u** não contém uma enumeração. 
     
 FPST_ENUM_PROP 
   
@@ -88,23 +88,23 @@ FPST_ENUM_PROP
     
  **u**
   
-> União descrevendo a associação entre o nome e o número da propriedade nomeada. Usando algumas propriedades, o membro **u** está vazio. Com outras propriedades, ele é representado em uma estrutura que consiste dos seguintes membros: 
+> União descrevendo a associação entre o nome e o número da propriedade nomeada. Usando algumas propriedades, o membro **u** está vazio. Com outras propriedades, ela é representada em uma estrutura que consiste nos seguintes membros: 
     
  **nmidIdx**
   
-> A estrutura [MAPINAMEID](mapinameid.md) que contém o conjunto de propriedades e o identificador para a propriedade nomeada. 
+> A estrutura [MAPINAMEID](mapinameid.md) que contém o conjunto de propriedades e o identificador da propriedade nomeada. 
     
  **cfpevAvailable**
   
-> Contagem de estruturas de [SMAPIFormPropEnumVal](smapiformpropenumval.md) na matriz apontado pelo membro **pfpevAvailable** . 
+> Contagem de estruturas [SMAPIFormPropEnumVal](smapiformpropenumval.md) na matriz apontada pelo membro **pfpevAvailable** . 
     
  **pfpevAvailable**
   
-> Ponteiro para uma matriz de estruturas de **SMAPIFormPropEnumVal** , cada um dos quais mantém um valor para a propriedade nomeada. 
+> Ponteiro para uma matriz de estruturas **SMAPIFormPropEnumVal** , cada uma delas armazena um valor para a propriedade named. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura de **SMAPIFormProp** contém informações sobre uma propriedade de formulário usada como parte das definições de interface do [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contém uma marca que se aplica a união **u** que faz parte do **SMAPIFormProp**.
+A estrutura **SMAPIFormProp** contém informações sobre uma propriedade de formulário usada como parte das definições da interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contém uma marca que se aplica à União **u** que faz parte de **SMAPIFormProp**.
   
 ## <a name="see-also"></a>Confira também
 

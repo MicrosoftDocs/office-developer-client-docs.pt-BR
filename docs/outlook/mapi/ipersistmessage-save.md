@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309615"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397153"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Salva um formulário revisado na mensagem do qual ele foi carregado ou criado.
+Salva um formulário revisado de volta para a mensagem a partir da qual foi carregado ou criado.
   
 ```cpp
 HRESULT Save(
@@ -38,11 +38,11 @@ HRESULT Save(
 
  _pMessage_
   
-> [in] Um ponteiro para a mensagem.
+> no Um ponteiro para a mensagem.
     
  _fSameAsLoad_
   
-> [in] TRUE para indicar que a mensagem apontado por _pMessage_ é a mensagem a partir do qual o formulário foi carregado ou criado; Caso contrário, FALSE. 
+> no TRUE para indicar que a mensagem indicada por _PMessage_ é a mensagem a partir da qual o formulário foi carregado ou criado; caso contrário, FALSE. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,21 +52,21 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chame o método de **IPersistMessage::Save** para salvar um formulário revisado na mensagem do qual ele foi carregado ou criado. 
+Os visualizadores de formulários chamam o método **IPersistMessage:: Save** para salvar um formulário revisado de volta para a mensagem a partir da qual foi carregado ou criado. 
   
- **Salvar** só deve ser chamado quando o formulário está em seu estado [Normal](normal-state.md) . 
+ **Save** só deve ser chamado quando o formulário estiver em seu estado [normal](normal-state.md) . 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Não confirmar as alterações salvas; é até o chamador para confirmar as alterações. Nunca fazer alterações nas propriedades que pertencem a mensagem do formulário, exceto durante a chamada de **Salvar** . 
+Não confirmar as alterações salvas; o chamador deve confirmar as alterações. Nunca faça alterações nas propriedades que pertencem à mensagem do formulário, exceto durante a chamada de **salvamento** . 
   
-Se _fSameAsLoad_ for definido como TRUE, você pode salvar as alterações de mensagem existente do formulário. Se _fSameAsLoad_ estiver definida como FALSE, você deve copiar todas as propriedades da mensagem original na mensagem apontada pela _pMessage_ antes de salvar. Use o método de [IMAPIProp::CopyTo](imapiprop-copyto.md) da mensagem original para copiar as propriedades. 
+Se _fSameAsLoad_ estiver definido como true, você poderá salvar as alterações na mensagem existente do formulário. Se _fSameAsLoad_ estiver definido como false, você deverá copiar todas as propriedades da mensagem original para a mensagem indicada por _PMessage_ antes de executar Save. Use o método [IMAPIProp:: CopyTo](imapiprop-copyto.md) da mensagem original para copiar as propriedades. 
   
-Quando tiverem sido copiadas todas as propriedades, insira o estado de [NoScribble](noscribble-state.md) . Se nenhum erro ocorrer, retorne S_OK. Caso contrário, retornará o erro da ação com falha. 
+Quando todas as propriedades tiverem sido copiadas, insira [](noscribble-state.md) o estado norabisco. Se nenhum erro ocorrer, retorne S_OK. Caso contrário, retorne o erro da ação com falha. 
   
-Se **Salvar** é chamado quando o formulário estiver em qualquer estado que não seja Normal, retorne E_UNEXPECTED. 
+Se **Save** for chamado quando o formulário estiver em qualquer estado diferente de normal, retornar E_UNEXPECTED. 
   
-Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação sobre os métodos [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
+Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação nos métodos [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>Confira também
 

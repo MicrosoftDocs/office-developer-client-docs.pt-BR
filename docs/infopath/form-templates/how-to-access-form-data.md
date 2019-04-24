@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Quando você deseja estender a funcionalidade de um formulário do InfoPath, geralmente é necessário acessar programaticamente as informações sobre o documento XML subjacente do formulário, acessar os dados contidos no documento XML ou executar alguma ação nesse documento XML. O modelo de objeto do InfoPath oferece suporte ao acesso e à manipulação do documento XML subjacente de um formulário por meio do uso da classe XmlForm em associação com a classe XmlFormCollection.
 ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300207"
 ---
 # <a name="access-form-data"></a>Acessar dados de formulário
 

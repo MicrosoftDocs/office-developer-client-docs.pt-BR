@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb26c7f366ce6a262362001773e825c60d0e4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282828"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584727"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Solicita que o provedor de transporte imediatamente entrega todas as mensagens de entrada ou saídas pendentes.
+Solicita que o provedor de transporte entregue imediatamente todas as mensagens pendentes de entrada ou saída.
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,31 +40,31 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> [in] Um identificador para a janela pai de todas as caixas de diálogo ou windows que esse método exibe.
+> no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.
     
  _cbTargetTransport_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpTargetTransport_
   
-> [in] Reservado; deve ser NULL.
+> no Serve deve ser nulo.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como liberação de fila de mensagens é realizada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam como a liberação da fila de mensagens é realizada. Os seguintes sinalizadores podem ser definidos:
     
 FLUSH_DOWNLOAD 
   
-> A fila de mensagens de entrada ou filas devem ser liberadas.
+> A fila de mensagens de entrada ou filas deve ser liberada.
     
 FLUSH_FORCE 
   
-> O provedor de transporte deve processar a solicitação, se possível, mesmo se fazer isso é demorado. 
+> O provedor de transporte deve processar essa solicitação, se possível, mesmo que isso seja um tempo demorado. 
     
 FLUSH_NO_UI 
   
-> O provedor de transporte não deverá exibir uma interface do usuário.
+> O provedor de transporte não deve exibir uma interface de usuário.
     
 FLUSH_UPLOAD 
   
@@ -74,13 +74,13 @@ FLUSH_UPLOAD
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler chama o método de **IXPLogon::FlushQueues** para avisar o provedor de transporte que o spooler MAPI está prestes a começar o processamento de mensagens. O provedor de transporte deve chamar o método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para definir um bit apropriado para seu estado na propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) da sua linha de status. Depois de atualizar sua linha de status, o provedor de transporte deve retornar S_OK para a chamada **FlushQueues** . O MAPI spooler, em seguida, inicia o envio de mensagens, com a operação que está sendo sincronizada com o spooler MAPI. 
+O spooler MAPI chama o método **IXPLogon:: FlushQueues** para informar ao provedor de transporte que o spooler MAPI está prestes a iniciar o processamento de mensagens. O provedor de transporte deve chamar o método [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) para definir um bit apropriado para seu estado na propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sua linha de status. Depois de atualizar sua linha de status, o provedor de transporte deve retornar S_OK para a chamada **FlushQueues** . O spooler MAPI, em seguida, inicia o envio de mensagens, com a operação síncrona para o spooler MAPI. 
   
-Para suportar sua implementação do método [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) , o MAPI spooler chama **IXPLogon::FlushQueues** para todos os objetos de logon para provedores de transporte ativo que estão executando em uma sessão de perfil. Quando o método de **FlushQueues** de um provedor de transporte é chamado como resultado de uma chamada do aplicativo de cliente para **IMAPIStatus::FlushQueues**, o processamento da mensagem ocorre no cliente de forma assíncrona.
+Para dar suporte à sua implementação do método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) , o spooler MAPI chama **IXPLogon:: FlushQueues** para todos os objetos de logon para provedores de transporte ativos que estão sendo executados em uma sessão de perfil. Quando um método **FlushQueues** do provedor de transporte é chamado como resultado de uma chamada de aplicativo cliente para **IMAPIStatus:: FlushQueues**, o processamento da mensagem ocorre de forma assíncrona com o cliente.
   
 ## <a name="see-also"></a>Confira também
 

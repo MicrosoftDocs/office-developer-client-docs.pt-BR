@@ -11,11 +11,11 @@ api_type:
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a4ad72c147abebfe9863d19690bc9f27f00544a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282317"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Propriedade canônica PidTagSearchFolderTag
 
@@ -23,40 +23,40 @@ ms.locfileid: "25386919"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor usado para sincronizar essa mensagem definição com o contêiner de pasta de pesquisa correspondente.
+Contém o valor usado para sincronizar esta mensagem de definição com o contêiner de pasta de pesquisa correspondente.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_WB_SF_TAG  <br/> |
 |Identificador:  <br/> |0x6847  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Pesquisar  <br/> |
+|Área:  <br/> |Pesquisa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é alterada quando a mensagem de definição é alterada. Ele deve alterar cada iteração, mas talvez não seja exclusivo.
+Essa propriedade é alterada quando a mensagem de definição é alterada. Ele deve alterar cada iteração, mas pode não ser exclusivo.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
+> Especifica as propriedades e operações para manipular uma configuração de lista de pastas de pesquisa.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

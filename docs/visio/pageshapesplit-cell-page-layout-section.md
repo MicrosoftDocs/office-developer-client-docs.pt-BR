@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: Indica se as formas na página podem ser divididas automaticamente.
-ms.openlocfilehash: 7f1df0158cde6853c5518597c853cb56151eefbc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301481"
 ---
 # <a name="pageshapesplit-cell-page-layout-section"></a>Célula PageShapeSplit (Seção Page Layout)
 
@@ -22,16 +22,16 @@ Indica se as formas na página podem ser divididas automaticamente.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Não permite divisão automática de forma.  <br/> |**visPLOSplitNone** <br/> |
+|,0  <br/> |Não permite divisão automática de forma.  <br/> |**visPLOSplitNone** <br/> |
 |1  <br/> |Permite divisão automática de forma (padrão).  <br/> |**visPLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 A divisão automática de formas é habilitada ou desabilitada em três níveis diferentes: aplicativo, página e forma. Por padrão, a divisão é habilitada no aplicativo e na página. A configuração padrão para formas varia por tipo de desenho. 
   
-Para habilitar ou desabilitar a divisão no nível do aplicativo, use a configuração **Habilitar divisão de conector** na guia **Avançado** da caixa de diálogo **Opções do Visio** (clique no botão **Office** , clique em **Opções** do **Visio** guia e, em seguida, clique em **Avançado** ). 
+Para habilitar ou desabilitar a divisão no nível do aplicativo, use a **configuração Habilitar divisão de conector** na guia **avançado** da caixa de diálogo **Opções do Visio** (clique no botão **Office** , em **Opções** no **Visio** e, em seguida, clique em **avançado** . 
   
-Para habilitar ou desabilitar a divisão no nível de forma, consulte as células ShapeSplit e ShapeSplittable. 
+Para habilitar ou desabilitar a divisão no nível da forma, consulte as células ShapeSplit e ShapeSplittable. 
   
 Para obter uma referência para a célula PageShapeSplit pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

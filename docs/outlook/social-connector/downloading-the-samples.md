@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: Este tópico descreve como baixar os exemplos de código que acompanham esta documentação.
 ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281001"
 ---
 # <a name="downloading-the-samples"></a>Baixar exemplos
 

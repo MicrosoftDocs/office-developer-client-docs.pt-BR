@@ -1,43 +1,43 @@
 ---
-title: Carregar o estado da hierarquia
+title: Estado de hierarquia de upload
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f789f4d7bbaf585d0d80f2208c35313542dfc191
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286312"
 ---
-# <a name="upload-hierarchy-state"></a>Carregar o estado da hierarquia
+# <a name="upload-hierarchy-state"></a>Estado de hierarquia de upload
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Este tópico descreve o que acontece durante o estado de hierarquia de carregamento da máquina de estado de replicação. 
+ Este tópico descreve o que acontece durante o estado de hierarquia de upload da máquina de estado de replicação. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[UPHIER](uphier.md)** <br/> |
-|Desse estado:  <br/> |[Sincronizar o estado](synchronize-state.md) <br/> |
-|Com esse estado:  <br/> |[Carregar o estado de pasta](upload-folder-state.md), ou sincronizar o estado  <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
+|Estrutura de dados relacionada:  <br/> |**[UPHIER](uphier.md)** <br/> |
+|A partir deste Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Para este Estado:  <br/> |[Carregar o estado da pasta](upload-folder-state.md)ou sincronizar estado  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente de um estado de início para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Nesse estado inicia o carregamento de uma hierarquia de árvore de pastas que foi especificada na precedidos sincronizar o estado. O Outlook determina o número de pastas que foram criados ou modificados nessa hierarquia e inicializa *cEnt* em **UPHIER**. Além disso, o Outlook mantém uma contagem do número de pastas carregados com *iEnt* de outro membro. Para carregar a cada uma das pastas *cEnt* , o cliente move o armazenamento local para o estado da pasta de carregamento, retornando para o estado de hierarquia de carregamento quando termina o carregamento da pasta. 
+Este estado inicia o carregamento de uma hierarquia de árvore de pastas que foi especificada em um estado de sincronização anterior. O Outlook determina o número de pastas que foram criadas ou modificadas nessa hierarquia e inicializa a *centavos* no **UPHIER**. O Outlook também mantém uma contagem do número de pastas carregadas com outro membro *iEnt* . Para carregar cada uma das pastas de *centésimo* , o cliente move o repositório local para o estado de pasta de carregamento, retornando ao estado de hierarquia de carregamento quando o carregamento da pasta é concluído. 
   
-Quando o estado de hierarquia de carregamento for encerrada, armazenamento local retorna ao estado sincronizar.
+Quando o estado de hierarquia de upload termina, o repositório local retorna ao estado de sincronização.
   
 ## <a name="see-also"></a>Confira também
 
@@ -49,5 +49,5 @@ Quando o estado de hierarquia de carregamento for encerrada, armazenamento local
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

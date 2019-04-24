@@ -5,22 +5,22 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funções [excel 2007], api c chamada de dll ou xll
+- funções [Excel 2007], API c chamado de dll ou XLL
 localization_priority: Normal
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7935d86d1c0a460bcbec85157429d99242a73620
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6d2d3c824c482e3726cdaefa869393002a80f44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301649"
 ---
 # <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A API C fornece funções de retorno de chamada do Microsoft Excel 15 que só podem ser chamadas usando o **Excel4**, **Excel4v**, **Excel12**ou funções **Excel12v** (ou uma dessas funções indiretamente usando as funções de Framework **Excel **ou **Excel12f**). Isso significa que só pode ser chamados por um DLL ou XLL.
+A API C oferece 15 funções de retorno de chamada do Microsoft Excel que podem ser chamadas apenas usando as funções **Excel4**, **Excel4v**, **Excel12**ou **Excel12v** (ou por uma dessas funções usando indiretamente as funções de estrutura do **Excel **ou **Excel12f**). Isso significa que eles só podem ser chamados de uma DLL ou XLL.
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -66,5 +66,5 @@ A API C fornece funções de retorno de chamada do Microsoft Excel 15 que só po
 
 
 
-[C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+[Retorno de chamada da API de C: funções Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
 

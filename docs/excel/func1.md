@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- função Func1 [excel 2007]
+- função func1 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304078"
 ---
 # <a name="func1"></a>Func1
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função de planilha definida pelo usuário de exemplo demonstra o retorno de um valor de cadeia de caracteres estática. Quando GENERIC.xll é carregado, ele registra esta função para que ele possa ser chamado da planilha.
+Exemplo de função de planilha definida pelo usuário demonstra o retorno de um valor de cadeia de caracteres estática. Quando GENERIC. XLL é carregado, ele registra essa função para que ela possa ser chamada da planilha.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,17 +30,17 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>Parâmetros
 
- _px_ (**LPXLOPER**)
+ _PX_ (**LPXLOPER**)
   
-Este argumento será ignorado e serve apenas para o Microsoft Excel para chamar a função de gatilho.
+Esse argumento é ignorado e serve apenas para disparar o Microsoft Excel para chamar a função.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
- **LPXLOPER12**: sempre é a cadeia de caracteres "Func1"
+ **LPXLOPER12**: sempre a cadeia de caracteres "func1"
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
   
 ## <a name="see-also"></a>Confira também
 

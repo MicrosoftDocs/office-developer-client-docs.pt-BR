@@ -1,19 +1,19 @@
 ---
-title: Função Count (aplicativo da web personalizado do Access)
+title: Função Count (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: Retorna o número de registros em uma consulta ou tabela.
-ms.openlocfilehash: 300fcbfd2aa927dd19516355ae28eec2adadf521
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 98dbed393bf2f6dc401119f6c5dc7ab6b5ff7864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282233"
 ---
-# <a name="count-function-access-custom-web-app"></a>Função Count (aplicativo da web personalizado do Access)
+# <a name="count-function-access-custom-web-app"></a>Função Count (aplicativo Web personalizado do Access)
 
 Retorna o número de registros em uma consulta ou tabela.
   
@@ -24,16 +24,16 @@ Retorna o número de registros em uma consulta ou tabela.
 
 **Contagem** (*Expressão*) 
   
-A função **Count** contém os seguintes argumentos. 
+A função **Count** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Expressão*  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados que você deseja contar ou uma expressão que executa um cálculo usando os dados no campo. Operandos em *expressão* podem incluir o nome de um campo de tabela ou a função (que pode ser intrínseca ou definida pelo usuário, mas não outro SQL agregadas funções). Você pode contar qualquer tipo de dados, incluindo o texto.  <br/> |
+| *Expressão*  <br/> |Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja contar ou uma expressão que executa um cálculo usando os dados no campo. Os operandos na *expressão* podem incluir o nome de um campo de tabela ou função (que pode ser intrínseco ou definido pelo usuário, mas não outras funções de agregação SQL). É possível contar qualquer tipo de dados, inclusive texto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a contagem para contar o número de registros em uma consulta de base. Por exemplo, você poderia usar contar para contar o número de pedidos enviados para um determinado país ou região.
+Você pode usar Count para contar o número de registros em uma consulta de base. Por exemplo, você poderia usar Count para contar o número de pedidos enviados para um determinado país ou região.
   
-**Contagem** (\*) retorna o número de itens em um grupo. Isso inclui duplicatas e valores nulos. 
+**Contagem** (\*) retorna o número de itens em um grupo. Isso inclui valores nulos e duplicatas. 
   
 

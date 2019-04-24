@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: 'Os tópicos desta seção fornecem informações sobre como criar modelos de formulário que tenham lógica de negócios escrita em código gerenciado (Visual Basic ou C #) em relação aos membros do namespace Microsoft.Office.InfoPath.'
 ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303728"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Desenvolvimento de modelos de formulário do InfoPath com código
 

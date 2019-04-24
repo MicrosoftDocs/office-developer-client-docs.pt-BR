@@ -1,46 +1,46 @@
 ---
-title: Chamando de funções definidas pelo usuário a partir de DLLs
+title: Chamar funções definidas pelo usuário a partir de DLLs
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- UDFs [excel 2007], chamada a partir de dlls,-funções definidas pelo usuário [Excel 2007], chamada a partir de DLLs, DLLs [Excel 2007], chamar UDFs
+- UDFs [Excel 2007], chamadas de DLLs, funções definidas pelo usuário [Excel 2007], chamadas de DLLs, DLLs [Excel 2007], chamadas UDFs
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4e893cf1e54489610315dd5c5d57bd78c3c936d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301642"
 ---
-# <a name="calling-user-defined-functions-from-dlls"></a>Chamando de funções definidas pelo usuário a partir de DLLs
+# <a name="calling-user-defined-functions-from-dlls"></a>Chamar funções definidas pelo usuário a partir de DLLs
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chamando funções definidas pelo usuário (UDFs) a partir de uma planilha é tão simple quanto chamar funções internas: insira a função por meio de uma fórmula de célula. No entanto, da API do C, não há nenhuma códigos de funções predefinidas para uso com retornos de chamada. Para permitir que você chamar UDFs, a API C exporta uma função somente XLL, a função [xlUDF](xludf.md) . Argumento primeiro da função é o nome da função como uma cadeia de caracteres e argumentos subsequentes são aquelas que normalmente esperaria UDF. 
+Chamar funções definidas pelo usuário (UDFs) de uma planilha é tão simples quanto chamar funções internas: você insere a função por meio de uma fórmula de célula. No enTanto, a partir da API de C, não há códigos de função pré-definidos para usar com os retornos de chamada. Para permitir que você chame UDFs, a API C exporta uma função somente XLL, a função [xlUDF](xludf.md) . O primeiro argumento da função é o nome da função como uma cadeia de caracteres e os argumentos subsequentes são aqueles que o UDF normalmente esperaria. 
   
-Você pode obter uma lista dos comandos e atualmente XLL suplemento funções registradas, usando a função **xlfGetWorkspace** com o argumento 44. Isso retorna uma matriz de três colunas onde as colunas representam o seguinte: 
+Você pode obter uma lista de funções e comandos de suplemento XLL registrados atualmente usando a função **xlfGetWorkspace** com o argumento 44. Isso retorna uma matriz de três colunas onde as colunas representam o seguinte: 
   
-- O caminho completo e o nome da XLL
+- O caminho completo e o nome do XLL
     
-- O nome do comando conforme exportá-los de XLL ou UDF
+- O nome do UDF ou comando exportado do XLL
     
-- A cadeia de caracteres de retorno e o argumento de código
+- A cadeia de caracteres de código de retorno e argumento
     
 > [!NOTE]
-> O nome como exportá-los de XLL não pode ser o mesmo que o nome registrado pelo qual o Excel sabe o UDF ou o comando. 
+> O nome a ser exportado do XLL pode não ser igual ao nome registrado pelo qual o Excel conhece o UDF ou comando. 
   
-Começando no Excel 2007, as funções de ferramentas de análise (ATP) são totalmente integradas e a API C tem seus próprio enumerações para funções como o preço, **xlfPrice**. Nas versões anteriores, era necessário usar **xlUDF** para chamar essas funções. Se seu suplemento precisa trabalhar com o Excel 2003 e Excel 2007 ou versões posteriores, e ele usa essas funções, você deve detectar a versão atual e chamar a função da maneira apropriada. 
+A partir do Excel 2007, as funções de ferramentas de análise (ATP) são totalmente integradas e a API C tem suas próprias enumerações para funções como PRICE, **xlfPrice**. Em versões anteriores, você precisava usar o **xlUDF** para chamar essas funções. Se o suplemento precisar funcionar com o Excel 2003 e o Excel 2007 ou versões posteriores e usar essas funções, você deverá detectar a versão atual e chamar a função da maneira apropriada. 
   
 ## <a name="examples"></a>Exemplos
 
-O exemplo a seguir mostra a função **xlUDF** sendo usada para chamar a função de ATP **preço** quando a versão em execução do Excel 2003 ou anterior. Para obter informações sobre a configuração de uma variável de versão global, como **gExcelVersion12plus** neste exemplo, consulte [Compatibilidade com versões anteriores](backward-compatibility.md).
+O exemplo a seguir mostra a função **xlUDF** que está sendo usada para chamar o **preço** da função ATP quando a versão em execução do Excel for 2003 ou anterior. Para obter informações sobre a configuração de uma variável de versão global, como **gExcelVersion12plus** neste exemplo, consulte [compatibilidade com versões anteriores](backward-compatibility.md).
   
 > [!NOTE]
-> Este exemplo usa as funções de Framework **TempNum**, **TempStrConst** para configurar os argumentos e o Excel para chamar a API C. 
+> Este exemplo usa as funções de estrutura **TempNum**, **TempStrConst** para configurar os argumentos e o Excel para chamar a API de C. 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-Ainda é onde você está chamando uma função XLL que retorna um valor modificando um argumento no local, a função **xlUDF** retornará o valor através do endereço do resultado **XLOPER/XLOPER12**. Em outras palavras, o resultado é retornado como se por meio de uma instrução return normal. **XLOPER/XLOPER12** que corresponde ao argumento que é usado para o valor de retorno é não modificados. Por exemplo, considere os seguintes dois UDFs. 
+Onde você está chamando uma função XLL que retorna um valor modificando um argumento no local, a função **xlUDF** ainda retorna o valor pelo endereço do resultado **XLOPER/XLOPER12**. Em outras palavras, o resultado é retornado como se por meio de uma instrução de retorno normal. O **XLOPER/XLOPER12** que corresponde ao argumento que é usado para o valor de retorno não é modificado. Por exemplo, considere os dois UDFs a seguir. 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,13 +109,13 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-Quando **UDF\_2** chamadas **UDF\_1**, o valor de **pxArg** é inalterado após a chamada para **Excel12**e o valor retornado pela **UDF_1** está contido no **xRetVal**.
+Quando **o\_UDF 2** chama o **UDF\_1**, o valor de **pxArg** é inalterado após a chamada para **Excel12**, e o valor retornado por **UDF_1** está contido em **xRetVal**.
   
-Quando você está fazendo um grande número de chamadas para um UDF dessa maneira, você pode avaliar o nome da função pela primeira vez usando a [função xlfEvaluate](xlfevaluate.md). O número resultante, que é o mesmo que a ID de registro que é retornada pela função **xlfRegister** , pode ser passado no lugar do nome da função como o primeiro argumento para a função **xlUDF** . Isso permite que o Excel localizar e chamar a função mais rapidamente do que se ele deve procurar o nome da função a cada vez. 
+Ao fazer um grande número de chamadas para um UDF dessa forma, você pode avaliar o nome da função primeiro usando a [função xlfEvaluate](xlfevaluate.md). O número resultante, que é o mesmo que a ID de registro retornada pela função **xlfRegister** , pode ser passado no lugar do nome da função como o primeiro argumento para a função **xlUDF** . Isso permite que o Excel encontre e chame a função mais rapidamente do que se tiver que procurar o nome da função todas as vezes. 
   
 ## <a name="see-also"></a>Confira também
 
 - [Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
 - [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-- [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
+- [Introdução ao Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

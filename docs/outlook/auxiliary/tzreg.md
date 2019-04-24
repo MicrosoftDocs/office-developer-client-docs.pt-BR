@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
-description: Define quando inicia o horário de verão, quando o retorno para a hora padrão ocorre e é de horário de verão shift quantas horas.
-ms.openlocfilehash: 85812ab053d77c07f9360b6bf3a1faaf72cae573
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Define quando o horário de verão começa, quando ocorre o retorno do horário padrão e quantas horas o turno de horário de verão é.
+ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307837"
 ---
 # <a name="tzreg"></a>TZREG
 
-Define quando inicia o horário de verão, quando o retorno para a hora padrão ocorre e é de horário de verão shift quantas horas.
+Define quando o horário de verão começa, quando ocorre o retorno do horário padrão e quantas horas o turno de horário de verão é.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -31,35 +31,35 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _lBias_
   
-> O deslocamento de hora de Greenwich (GMT).
+> O deslocamento do horário de Greenwich (GMT).
     
 _lStandardBias_
   
-> O deslocamento de bias durante a hora padrão.
+> O deslocamento de diferença durante o horário padrão.
     
 _lDaylightBias_
   
-> O deslocamento de bias durante o horário de verão.
+> O deslocamento de diferença durante o horário de verão.
     
 _stStandardDate_
   
-> O tempo para alternar para a hora padrão.
+> O tempo para mudar para o horário padrão.
     
 _stDaylightDate_
   
-> O tempo para alternar para o horário de verão.
+> O tempo para mudar para o horário de verão.
     
 ## <a name="remarks"></a>Comentários
 
-Essa estrutura é semelhante ao **TIME_ZONE_INFORMATION**. Esta é a estrutura usada por clientes herdados para armazenar informações de fuso horário para reuniões recorrentes.
+Essa estrutura é semelhante a **TIME_ZONE_INFORMATION**. Esta é a estrutura usada por clientes herdados para armazenar informações de fuso horário para reuniões recorrentes.
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)  
 - [TZRULE](tzrule.md)
 

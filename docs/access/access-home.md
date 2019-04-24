@@ -1,16 +1,16 @@
 ---
 title: Access
-description: Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Access.
+description: Encontre conteúdos de instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Access.
 ms.date: 10/16/2018
 ms.audience: Developer
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 localization_priority: Priority
 ms.openlocfilehash: c32fec61ead1433581f528ebefff7b0f4b59df62
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279584"
 ---
 # <a name="access"></a>Access
 

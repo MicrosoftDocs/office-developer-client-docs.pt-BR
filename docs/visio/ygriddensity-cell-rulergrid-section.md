@@ -1,5 +1,5 @@
 ---
-title: Célula YGridDensity (Seção Ruler &amp; Grid)
+title: Célula YGridDensity (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Especifica o tipo de grade vertical a ser utilizada.
-ms.openlocfilehash: 4e0d1b1dc6f3da95b9328342e0398313b6c85eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307704"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (Seção Ruler &amp; Grid)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (seção &amp; Ruler Grid)
 
 Especifica o tipo de grade vertical a ser utilizada.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Fixa  <br/> |**visGridFixed** <br/> |
-|2  <br/> |Grande  <br/> |**visGridCoarse** <br/> |
-|4  <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
-|8  <br/> |Pequena  <br/> |**visGridFine** <br/> |
+|,0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
+|duas  <br/> |Grande  <br/> |**visGridCoarse** <br/> |
+|quatro  <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
+|8  <br/> |Funciona  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde ao **espaçamento da grade** vertical opção no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção espaçamento da **grade** vertical da caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula YGridDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

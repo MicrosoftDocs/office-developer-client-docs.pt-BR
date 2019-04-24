@@ -8,65 +8,65 @@ api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 91347f0c34b8d7b76e4e456397a1faa061f3b2c6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299445"
 ---
 # <a name="handling-mapi-forms"></a>Manipular formulários MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um formulário MAPI é um visualizador de uma mensagem de uma determinada classe. Clientes que permitem que seus usuários trabalhar com mensagens que pertencem a uma variedade de classes de mensagem devem ser escritos para lidar com uma variedade de formulários MAPI. Para lidar com vários formulários, os clientes implementam um componente conhecido como um visualizador de formulário que contém os três objetos a seguintes:
+Um formulário MAPI é um visualizador para uma mensagem de uma determinada classe. Os clientes que permitem que os usuários trabalhem com mensagens pertencentes a uma variedade de classes de mensagens devem ser escritos para lidar com uma variedade de formulários MAPI. Para lidar com vários formulários, os clientes implementam um componente conhecido como visualizador de formulários que contém os três objetos a seguir:
   
-- Um objeto de site de mensagem, que oferece suporte a [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) interface. 
+- Um objeto de site de mensagem, que oferece suporte à interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) . 
     
-- Um modo de exibição de aviso coletor de eventos, que suporta o [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) interface. 
+- Um coletor de aviso de exibição, que oferece suporte à interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) . 
     
-- Um objeto de contexto do modo de exibição, que oferece suporte a [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) interface. 
+- Um objeto de contexto View, que oferece suporte à interface [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) . 
     
-Cada um desses objetos é usado por um componente chamado o servidor de formulário que implementa a cada formulário, como manipular seu armazenamento e as notificações geradas pelos clientes para manipular o modo de exibição. Um outro componente, o provedor de biblioteca de formulário, implementa um gerente de formulário. O gerente do formulário administra as bibliotecas de formulários, qual armazenam arquivos executáveis do servidor de formulário. Este administração inclui carregar o servidor de formulário apropriada e manipular a comunicação inicial entre o servidor e o cliente.
+Cada um desses objetos é usado por um componente chamado servidor de formulário que implementa cada formulário, tratando seu armazenamento e as notificações geradas por clientes que lidam com o modo de exibição. Um outro componente, o provedor de biblioteca de formulários, implementa um gerente de formulários. O Gerenciador de formulários administra as bibliotecas de formulários, que armazenam arquivos executáveis do servidor de formulários. Essa administração inclui o carregamento do servidor de formulário apropriado e a manipulação da comunicação inicial entre o servidor e o cliente.
   
-O diagrama a seguir mostra a relação entre um cliente e as outras partes da arquitetura de formulário de MAPI.
+O diagrama a seguir mostra a relação entre um cliente e as outras partes da arquitetura de formulários MAPI.
   
 ## <a name="mapi-form-architecture"></a>MAPI form architecture
   
-![Arquitetura de formulário MAPI] (media/forms01.gif "Arquitetura de formulário MAPI")
+![Arquitetura de formulários MAPI] (media/forms01.gif "Arquitetura de formulários MAPI")
   
-Se estiver planejando lidar com formulários MAPI seu cliente, você usará o Gerenciador de formulário [IMAPIFormMgr: IUnknown](imapiformmgriunknown.md) interface para executar as cinco tarefas básicas: 
+Se o cliente planeja lidar com formulários MAPI, você usará a interface [IMAPIFormMgr: IUnknown](imapiformmgriunknown.md) do gerente de formulários para executar cinco tarefas básicas: 
   
-- Inicie o servidor de formulário MAPI apropriado quando uma mensagem é aberta ou composta.
+- Inicie o servidor de formulário MAPI apropriado quando uma mensagem for aberta ou redigida.
     
-- Exiba ícones dos servidores do formulário nas tabelas de conteúdo de pastas.
+- Exibir ícones de servidores de formulário nas tabelas de conteúdo das pastas.
     
-- Enviar e receber notificações de formulário. Para obter mais informações, consulte [enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md).
+- Enviar e receber notificações de formulário. Para obter mais informações, consulte [envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
     
-- Permitir que usuários instalar ou remover servidores de formulário de bibliotecas de formulários. Para obter mais informações, consulte a [manutenção de uma biblioteca de formulários](maintaining-a-form-library.md).
+- Permitir que os usuários instalem ou removam servidores de formulários de bibliotecas de formulários. Para obter mais informações, consulte [manutenção de uma biblioteca de formulários](maintaining-a-form-library.md).
     
-- Permitir que usuários associar os servidores de formulário específicas pastas.
+- Permitir que os usuários associem servidores de formulário a pastas particulares.
     
-Para acessar o Gerenciador de formulário, chame a função de [MAPIOpenFormMgr](mapiopenformmgr.md) uma vez durante a inicialização. 
+Para acessar o Gerenciador de formulários, chame a função [MAPIOpenFormMgr](mapiopenformmgr.md) uma vez durante a inicialização. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Implementando uma tela de formulário](implementing-a-form-viewer.md): descreve como implementar um visualizador de formulário usando um modo de exibição de aviso de coletor de eventos, um site de mensagem e um contexto de modo de exibição.
+- [Implementar um visualizador de formulários](implementing-a-form-viewer.md): descreve como implementar um visualizador de formulários usando um coletor de aviso de exibição, um site de mensagens e um contexto de exibição.
     
-- [Implementando verbos padrão do formulário](implementing-standard-form-verbs.md): descreve como implementar os verbos para os cliques de menu ou botão do usuário em formulários MAPI.
+- [Implementar verbos de formulário padrão](implementing-standard-form-verbs.md): descreve como implementar os verbos para o menu do usuário ou cliques de botão em formulários MAPI.
     
-- [Enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md): descreve como enviar e receber notificações de formulário.
+- [Enviar e receber notificações de formulário](sending-and-receiving-form-notifications.md): descreve como enviar e receber notificações de formulário.
     
-- [Mantendo uma biblioteca de formulários](maintaining-a-form-library.md): descreve como manter uma biblioteca que contém todas as informações importantes sobre um formulário.
+- [Manutenção de uma biblioteca de formulários](maintaining-a-form-library.md): descreve como manter uma biblioteca que contém todas as informações importantes sobre um formulário.
     
-- [Carregando uma mensagem em um formulário](loading-a-message-into-a-form.md): descreve como carregar uma mensagem em um formulário.
+- [Carregar uma mensagem em um formulário](loading-a-message-into-a-form.md): descreve como carregar uma mensagem em um formulário.
     
 - [Redigir uma nova mensagem usando um formulário](composing-a-new-message-by-using-a-form.md): descreve como redigir uma mensagem usando um formulário.
     
-- [Exibir ícones de formulário](displaying-form-icons.md): descreve as etapas para a exibição de um ícone com um formulário.
+- [Exibir ícones de formulário](displaying-form-icons.md): descreve as etapas para exibir um ícone com um formulário.
     
 ## <a name="see-also"></a>Confira também
 
 - [Formulários MAPI](mapi-forms.md)
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

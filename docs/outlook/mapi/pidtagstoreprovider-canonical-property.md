@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 02d2c30fede7e554910a1bedb01b79c488447bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6266c9293f54ce764c5b5b0e41d43767490abcf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278705"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>Propriedade canônica PidTagStoreProvider
 
@@ -25,32 +25,32 @@ ms.locfileid: "22595353"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma estrutura [MAPIUID](mapiuid.md) definido pelo provedor que indica o tipo de armazenamento de mensagens. 
+Contém uma estrutura [MAPIUID](mapiuid.md) definida pelo provedor que indica o tipo do repositório de mensagens. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_MDB_PROVIDER  <br/> |
 |Identificador:  <br/> |0x3414  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propriedades de identificação  <br/> |
+|Área:  <br/> |Propriedades de ID  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A estrutura [MAPIUID](mapiuid.md) identifica o tipo de armazenamento de mensagens. O valor é computado pelo provedores de armazenamento de mensagem em objetos de repositório de mensagem e é exclusivo para cada provedor. Normalmente, ele é usado para pesquisar pela tabela de repositório de mensagens para localizar um repositório do tipo desejado, como pastas públicas. 
+A estrutura [MAPIUID](mapiuid.md) identifica o tipo de repositório de mensagens. O valor é calculado por provedores de repositórios de mensagens em objetos do repositório de mensagens e é exclusivo para cada provedor. Normalmente, é usado para navegar pela tabela de repositórios de mensagens para localizar um repositório do tipo desejado, como pastas públicas. 
   
-Essa propriedade é semelhante à propriedade **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) para catálogos de endereços. 
+Essa propriedade é análoga à propriedade **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) para catálogos de endereços. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

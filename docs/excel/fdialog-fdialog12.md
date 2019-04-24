@@ -8,22 +8,22 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- função fdialog [excel 2007], função fDialog12 [Excel 2007]
+- função fdialog [Excel 2007], função fDialog12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 554b76d2d316110286e83158acfff33aa68e19c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58d0df500c38534ec1315d2dab1517c1f5272ad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304064"
 ---
 # <a name="fdialogfdialog12"></a>fDialog/fDialog12
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Definido pelo usuário comando de exemplo que demonstra como criar um UDD de Excel da Microsoft (caixa de diálogo definidas pelo usuário) dentro de uma DLL usando os recursos de caixa de diálogo do C API. Quando GENERIC.xll é carregado, ele cria um menu definidas pelo usuário, genérico, através do qual esse comando é acessado.
+Exemplo de comando definido pelo usuário que demonstra como criar uma UDD do Microsoft Excel (caixa de diálogo definida pelo usuário) dentro de uma DLL usando os recursos da caixa de diálogo na API C. Quando GENERIC. XLL é carregado, ele cria um menu definido pelo usuário, genérico, através do qual este comando é acessado.
   
 ```cs
 int WINAPI fDialog(void);
@@ -31,15 +31,15 @@ int WINAPI fDialog(void);
 
 ## <a name="parameters"></a>Parâmetros
 
-A função não assumir nenhum parâmetro.
+A função não utiliza parâmetros.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-A função sempre retornará 1.
+A função sempre retorna 1.
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
   
 ## <a name="see-also"></a>Confira também
 

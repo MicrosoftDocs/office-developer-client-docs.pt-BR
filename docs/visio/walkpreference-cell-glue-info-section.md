@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Determina se um ponto de extremidade de uma forma 1D será movido para um ponto de conexão horizontal ou vertical na forma à qual está colado, usando a cola dinâmica, quando a forma for movida para uma posição ambígua. Como padrão, ambos os pontos de extremidade da forma 1D são movidos para pontos de conexão horizontais.
-ms.openlocfilehash: cd64a67de6ec914ad1bde86cdac829f6c12cebe4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05f7ded3f7336dc2f8598e8d1e9edc501b511546
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285269"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>Célula WalkPreference (Seção Glue Info)
 
@@ -23,7 +23,7 @@ Determina se um ponto de extremidade de uma forma 1D será movido para um ponto 
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 | 1  <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão vertical e o ponto de extremidade é movido para um ponto de conexão horizontal (conexões de cima para o lado ou de baixo para o lado).  <br/> |**visWalkPrefBegNS** <br/> |
-| 2  <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão horizontal e o ponto final é movido para um ponto de conexão vertical (conexões do lado para cima ou do lado para baixo).  <br/> |**visWalkPrefEndNS** <br/> |
+| duas  <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão horizontal e o ponto final é movido para um ponto de conexão vertical (conexões do lado para cima ou do lado para baixo).  <br/> |**visWalkPrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

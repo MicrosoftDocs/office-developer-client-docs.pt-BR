@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlSheetNm
 keywords:
-- função xlsheetnm [excel 2007]
+- função xlsheetnm [Excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 815565d886b1aea203f6b3b9774325d6b534abd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d62be7ebef71547de3a903db4c1a030984b8640
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303868"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Retorna o nome de uma planilha ou folha de macro da sua ID de planilha interna contida em uma referência externa ou o nome da planilha atual se passar uma referência interna.
+Retorna o nome de uma planilha ou folha de macro de sua ID de folha interna contida em uma referência externa ou o nome da planilha atual se for passada uma referência interna.
   
 ```cs
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
@@ -32,19 +32,19 @@ Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
-Uma referência à planilha cujo nome desejado.
+Uma referência à planilha cujo nome você deseja obter.
   
-Se você estiver passando uma referência externa (**xltypeRef**), ele precisa conter apenas a ID da folha. As estruturas de dados que descrevem as células na planilha são ignoradas e não precisam ser fornecido. Se a ID estiver definida como zero, **xlSheetNm** retorna o nome da planilha atual. 
+Se você estiver passando uma referência externa (**xltypeRef**), ela precisará conter apenas a ID da planilha. As estruturas de dados que descrevem as células na planilha são ignoradas e não precisam ser fornecidas. Se a ID estiver definida como zero, **xlSheetNm** retornará o nome da planilha atual. 
   
-Se você estiver passando uma referência interna (**xltypeSef**), **xlSheetNm** retorna o nome da planilha atual. 
+Se você estiver passando uma referência interna (**xltypeSef**), **xlSheetNm** retornará o nome da planilha atual. 
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna o nome da planilha (**xltypeStr**) no formato `[Book1]Sheet1`.
+Retorna o nome da planilha (**xltypeStr**) no formulário `[Book1]Sheet1`.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir exibe o nome da planilha do qual a função foi chamada. A função funciona corretamente somente se chamado a partir de uma folha de macro durante a execução de um comando de macro XLM. Isso acontece porque ele chama **xlcAlert**, que podem ser feito apenas comandos e, em seguida, ele precisa ser chamado a partir de uma planilha em vez de uma caixa de diálogo, menu ou barra de comandos na ordem para **xlfCaller** retornar uma referência. 
+O exemplo a seguir exibe o nome da planilha a partir da qual a função foi chamada. A função funciona corretamente somente se for chamado a partir de uma planilha de macro durante a execução de uma macro de comando XLM. Isso ocorre porque ele chama **xlcAlert**, que somente os comandos podem fazer, e precisa ser chamado a partir de uma planilha em vez de uma caixa de diálogo, menu ou barra de comandos para que o **xlfCaller** retorne uma referência. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

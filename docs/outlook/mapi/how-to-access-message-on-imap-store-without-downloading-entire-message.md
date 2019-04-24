@@ -7,19 +7,19 @@ localization_priority: Normal
 ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 194131148cc36dfff791b4cfae01862e8bbef5cb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299073"
 ---
 # <a name="access-a-message-on-an-imap-store-without-downloading-the-entire-message"></a>Acessar uma mensagem em um repositório IMAP sem baixar a mensagem completa
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico mostra um exemplo de código em C++ que consultas a um armazenamento de mensagens para a interface **[IProxyStoreObject](iproxystoreobject.md)** e usa o ponteiro retornado e a função **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obter um ponteiro para um objeto de repositório IMAP que tenha sido desfeita. Usando esse repositório desfeito permite o acesso a uma mensagem em seu estado atual sem chamar um download de toda a mensagem. 
+Este tópico mostra um exemplo de código em C++ que consulta um repositório de mensagens para a interface **[IProxyStoreObject](iproxystoreobject.md)** e usa o ponteiro retornado e a função **[IProxyStoreObject:: UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obter um ponteiro para um objeto de repositório IMAP que tenha sido Não ajustado. Usar esse repositório desempacotado permite o acesso a uma mensagem em seu estado atual sem chamar um download de toda a mensagem. 
   
-Porque **UnwrapNoRef** não incrementa a contagem de referência para este novo ponteiro para o objeto de repositório desfeita, após chamar o **UnwrapNoRef**com êxito, você deve chamar [AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para manter a contagem de referência. 
+Como o **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de repositório não empacotado, após chamar **UnwrapNoRef**com êxito, você deve chamar [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para manter a contagem de referência. 
   
 ```cpp
 HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut) 

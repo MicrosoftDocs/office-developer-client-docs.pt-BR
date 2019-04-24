@@ -7,19 +7,19 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4af7fbe2-ee34-4a52-b55e-ce3983313b5e
 description: Retorna um valor numérico, arredondado ou truncado, para o comprimento ou precisão especificado.
-ms.openlocfilehash: 5a3df4a4ddd7aace5edf886db5988704e5dd6af3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 0afab8c3434aef58c4bb25aee22eefd95732797b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307956"
 ---
 # <a name="round-function-access-custom-web-app"></a>Função Round (aplicativo Web personalizado do Access)
 
 Retorna um valor numérico, arredondado ou truncado, para o comprimento ou precisão especificado.
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 

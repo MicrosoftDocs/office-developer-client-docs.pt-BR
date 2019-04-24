@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a8d4d575-7aa0-4542-91e2-322a6e400551
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5ef0da0c617bffc3820c7cd43f66ea07be2ad4a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e32ed3388e95d32a4857a933fb735d170dd71688
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283104"
 ---
 # <a name="saving-frequently-used-properties"></a>Salvar propriedades usadas com frequência
 
@@ -21,8 +21,8 @@ ms.locfileid: "22580457"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Melhorar o desempenho armazenando dados que leva tempo e recursos para recuperar e são acessados com frequência. Usar memória extra, em alguns casos, pode ser a melhor opção que repetido recuperações. Use cuidado e atendimento médico, ao criar um cache para armazenar esses dados. Tenha em mente que um cache criado de forma inadequada pode afetar negativamente o desempenho.
+Melhorar o desempenho armazenando dados que levam tempo e recursos a serem recuperados e acessados com frequência. O uso de memória extra pode ser uma opção melhor que recuperações repetidas. Tome cuidado ao criar um cache para armazenar esses dados. Tenha em mente que um cache mal projetado pode impactar negativamente o desempenho.
   
-Por exemplo, mais interpessoais clientes de mensagens (IPM) necessário exibir e abrir a subárvore IPM de pastas muitas vezes durante uma sessão típica. Você pode melhorar o desempenho, armazenando os identificadores de entrada para cada uma dessas pastas. 
+Por exemplo, a maioria dos clientes de mensagem interpessoa (IPM) precisa exibir e abrir a sub-árvore de pastas IPM de várias vezes durante uma sessão típica. Você pode melhorar o desempenho armazenando os identificadores de entrada de cada uma dessas pastas. 
   
 

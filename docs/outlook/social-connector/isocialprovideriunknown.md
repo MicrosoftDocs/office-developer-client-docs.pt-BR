@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: Representa uma instância de um provedor do Outlook Social Connector (OSC).
-ms.openlocfilehash: 912b2d92137febe80e0d97362e0a490f138b2e66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f28b8343d92b09455b6049f421b839efbda21c1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285481"
 ---
 # <a name="isocialprovider--iunknown"></a>ISocialProvider : IUnknown
 
@@ -23,22 +23,22 @@ Representa uma instância de um provedor do Outlook Social Connector (OSC).
 
 A tabela a seguir mostra os membros que estão disponíveis na interface **ISocialProvider** . 
   
-|**Name**|**Tipo de membro**|**Descrição**|
+|**Nome**|**Tipo de membro**|**Descrição**|
 |:-----|:-----|:-----|
-|[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Propriedade  <br/> |Retorna uma matriz de cadeias de caracteres que especifica as URLs do site para o provedor do OSC.  <br/> |
-|[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Método  <br/> |Obtém uma interface [ISocialSession](isocialsessioniunknown.md) configurada automaticamente.  <br/> |
-|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Método  <br/> |Obtém uma cadeia de caracteres que descreve os recursos do provedor.  <br/> |
-|[GetSession](isocialprovider-getsession.md) <br/> |Método  <br/> |Obtém uma interface [ISocialSession](isocialsessioniunknown.md) .  <br/> |
-|[GetStatusSettings](isocialprovider-getstatussettings.md) <br/> |Método  <br/> |Esse método não é suportado no momento.  <br/> |
-|[Load](isocialprovider-load.md) <br/> |Método  <br/> |Inicializa o provedor do OSC.  <br/> |
-|[SocialNetworkGuid](isocialprovider-socialnetworkguid.md) <br/> |Propriedade  <br/> |Retorna um GUID que representa um identificador exclusivo para a rede social.  <br/> |
-|[SocialNetworkIcon](isocialprovider-socialnetworkicon.md) <br/> |Propriedade  <br/> |Retorna uma matriz de bytes que representa o ícone para a rede social.  <br/> |
-|[SocialNetworkName](isocialprovider-socialnetworkname.md) <br/> |Propriedade  <br/> |Retorna uma string que representa o nome de rede social.  <br/> |
-|[Versão](isocialprovider-version.md) <br/> |Propriedade  <br/> |Retorna uma string que representa o número de versão do provedor para esta rede social.  <br/> |
+|[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Propriedade	  <br/> |Retorna uma matriz de cadeias de caracteres que especificam URLs de site para o provedor OSC.  <br/> |
+|[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Método		  <br/> |Obtém uma interface [ISocialSession](isocialsessioniunknown.md) configurada automaticamente.  <br/> |
+|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Método		  <br/> |Obtém uma cadeia de caracteres que descreve os recursos do provedor.  <br/> |
+|[GetSession](isocialprovider-getsession.md) <br/> |Método		  <br/> |Obtém uma interface [ISocialSession](isocialsessioniunknown.md) .  <br/> |
+|[GetStatusSettings](isocialprovider-getstatussettings.md) <br/> |Método		  <br/> |No momento, este método não tem suporte.  <br/> |
+|[Load](isocialprovider-load.md) <br/> |Método		  <br/> |Inicializa o provedor do OSC.  <br/> |
+|[SocialNetworkGuid](isocialprovider-socialnetworkguid.md) <br/> |Propriedade	  <br/> |Retorna um GUID que representa um identificador exclusivo para a rede social.  <br/> |
+|[SocialNetworkIcon](isocialprovider-socialnetworkicon.md) <br/> |Propriedade	  <br/> |Retorna uma matriz de bytes que representa o ícone da rede social.  <br/> |
+|[SocialNetworkName](isocialprovider-socialnetworkname.md) <br/> |Propriedade	  <br/> |Retorna uma cadeia de caracteres que representa o nome da rede social.  <br/> |
+|[Versão](isocialprovider-version.md) <br/> |Propriedade	  <br/> |Retorna uma cadeia de caracteres que representa o número de versão do provedor para esta rede social.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um provedor OSC deve implementar essa interface para se comunicar com o OSC.
+Um provedor de OSC deve implementar essa interface para se comunicar com o OSC.
   
 ## <a name="see-also"></a>Confira também
 

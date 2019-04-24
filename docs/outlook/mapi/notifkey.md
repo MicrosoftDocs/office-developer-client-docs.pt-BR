@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 36b8381e2bf98f5ddcb88a54b56f2b5c91b3b668
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280044"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
@@ -25,11 +25,11 @@ ms.locfileid: "22572596"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identifica exclusivamente uma conexão entre um coletor advise, uma fonte de advise e MAPI.
+Identifica exclusivamente uma conexão entre um coletor de aviso, uma fonte de aviso e MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,7 +44,7 @@ typedef struct
 
  **cb**
   
-> Contagem de bytes no membro **ab** . 
+> Contagem de bytes no membro **AB** . 
     
  **AB**
   
@@ -52,15 +52,15 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-Os métodos [Subscribe](imapisupport-subscribe.md) e [Notificar](imapisupport-notify.md) do [IMAPISupport](imapisupportiunknown.md) usam a estrutura **NOTIFKEY** para gerar notificações para o coletor de advise apropriado sobre a fonte advise apropriado. 
+Os métodos [Subscribe](imapisupport-subscribe.md) e [Notify](imapisupport-notify.md) do [IMAPISupport](imapisupportiunknown.md) usam a estrutura **NOTIFKEY** para gerar notificações para o coletor de aviso apropriado sobre a fonte de aviso apropriada. 
   
-Provedores de serviços geram chaves de notificação quando seu método **Advise** é chamado e eles desejam **inscrever-se** para lidar com o registro de notificação e o subsequentes envio de notificações de chamada. Uma chave de notificação pode ser o identificador de entrada da fonte de advise ou pode ser qualquer outro item de identificação, como uma constante. Por exemplo, um provedor de armazenamento de mensagem pode usar o caminho de uma pasta como sua chave de notificação. 
+Os provedores de serviços geram chaves de notificação quando o método **Advise** é chamado e querem chamar **inscrever-se** para lidar com o registro de notificação e o envio subsequente de notificações. Uma chave de notificação pode ser o identificador de entrada da fonte de aviso ou pode ser qualquer outro item de identificação, como uma constante. Por exemplo, um provedor de repositório de mensagens pode usar o caminho de uma pasta como sua chave de notificação. 
   
 A chave de notificação deve funcionar em vários processos. 
   
-Os requisitos de escopo para uma chave de notificação se parecem com aqueles para um identificador de entrada de longo prazo. No entanto, ao contrário de um identificador de entrada, uma chave de notificação deve ser binário-comparável. Normalmente, uma chave de notificação inclui um valor **GUID** definido pelo provedor de serviços seguido por outras informações específicas do provedor exclusivas ao objeto. 
+Os requisitos de escopo para uma chave de notificação se assemelham a um identificador de entrada de longo prazo. No enTanto, ao contrário de um identificador de entrada, uma chave de notificação deve ser comparável ao binário. Normalmente, uma chave de notificação inclui um valor de **GUID** definido pelo provedor de serviços seguido por outras informações específicas do provedor exclusivas para o objeto. 
   
-Para uma discussão sobre o uso da estrutura de **NOTIFKEY** para gerenciar as conexões entre receptores de advise e os objetos que geram notificações, consulte [Suporte a notificação de evento](supporting-event-notification.md). 
+Para obter uma discussão sobre o uso da estrutura **NOTIFKEY** para gerenciar as conexões entre os coletores de aviso e os objetos que geram notificações, consulte [support Event Notification](supporting-event-notification.md). 
   
 ## <a name="see-also"></a>Confira também
 

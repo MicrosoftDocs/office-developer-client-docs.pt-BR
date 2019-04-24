@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: O Microsoft InfoPath oferece suporte à migração de modelos de formulário de um local para outro, enviando-os como um anexo a uma mensagem de email e criando modelos de formulário de Confiança Total que são assinados ou instalados digitalmente.
 ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299850"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Níveis de segurança, implantação de email e modelos de formulário remotos
 
@@ -21,7 +21,7 @@ O Microsoft InfoPath oferece suporte à migração de modelos de formulário de 
 
 Os modelos de formulário podem ter um destes três níveis de segurança, dependendo de onde o formulário está localizado. Esses três níveis de segurança são descritos em detalhes nas seções a seguir. 
   
-### <a name="restricted"></a>Restrito
+### <a name="restricted"></a>Restricted
 
 O modo de segurança restrito não permite a comunicação fora do modelo de formulário. Este nível de segurança destina-se a evitar que formulários prejudiciais transmitam dados do seu computador para um invasor mal-intencionado. Ao executar neste modo de segurança, os seguintes recursos não funcionarão:
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: 'O Microsoft InfoPath dá suporte à associação de um controle de Caixa RTF em um formulário a um elemento XML que é recebido de um serviço Web, e ao envio de dados de um controle de caixa RTF para um elemento XML por meio de um serviço Web. O elemento deve seguir o formato Extensible HTML (XHTML). Por exemplo, o esquema de um elemento chamado MyRichTextElement que contenha RTF teria a seguinte definição de esquema XML:'
 ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299843"
 ---
 # <a name="rich-text-and-web-services"></a>Rich Text e Serviços Web
 

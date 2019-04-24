@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f87ac0be4d4fcbb1c1a3dd9d407de5461eb556bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e2d69a7d67d0a09f2155bcfc255c3e0bf8cb0ebe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286546"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>Propriedade canônica PidTagProfileType
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584272"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o tipo de armazenamento de informações.
+Contém o tipo de repositório de informações.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém o tipo de armazenamento de informações.
    
 ## <a name="remarks"></a>Comentários
 
-Os valores possíveis para essa propriedade são:
+Os valores possíveis para esta propriedade são:
   
-- 1 - usuário principal
+- 1-usuário principal
     
-- 2 - representante
+- 2-representante
     
-- 3 - armazenamento público
+- 3-repositório público
     
-- 4 - subscription
+- 4-Subscription
     
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Seção MapiSvc.inf [Mapeamentos do Arquivo de ajuda]
+title: Seção MapiSvc. inf [mapeamentos do arquivo de ajuda]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 91c69489e1a72c5cd702a3c4d0392220a89c38fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4760c9965975bb5d950e51b707d28bee647ef99a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269969"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>Seção MapiSvc.inf [Mapeamentos do Arquivo de ajuda]
+# <a name="mapisvcinf-help-file-mappings-section"></a>Seção MapiSvc. inf [mapeamentos do arquivo de ajuda]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[Help File Mappings]** contém entradas que cada um mapa de um serviço de mensagem para o arquivo que fornece ajuda para erros gerados pelo serviço. Entradas nesta seção usam o seguinte formato: 
+A seção **[help file Mappings]** contém entradas que cada mapa de um serviço de mensagens para o arquivo que fornece ajuda para erros gerados pelo serviço. As entradas nesta seção usam o seguinte formato: 
   
- **[Mapeamentos do arquivo de ajuda]** _nome do serviço de mensagem_  =   _Nome do arquivo de ajuda_
+ **[Mapeamentos do arquivo de ajuda]** _nome do serviço de mensagens_  =   _Nome do arquivo de ajuda_
   
-O nome do serviço de mensagem é o nome do serviço de mensagem instalado; o nome do arquivo de Ajuda é o nome do arquivo em que residem as informações de erro. O exemplo a seguir mostra uma seção **[Help File Mappings]** típica que contém as entradas para os três serviços: MAPI, o serviço de MsgService e o serviço MS. 
+O nome do serviço de mensagens é o nome do serviço de mensagens instalado; o nome do arquivo de ajuda é o nome do arquivo onde residem as informações de erro. O exemplo a seguir mostra uma seção típica **[mapeamentos de arquivos de ajuda]** que contém entradas para três serviços: MAPI, o serviço MsgService e o serviço MS. 
   
 ```cpp
 [Help File Mappings]

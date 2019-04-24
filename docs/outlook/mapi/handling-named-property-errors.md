@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f6c12973a3ee2f9842e74f6f01b94553659dc1ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98b6adbc3a31994768a78b389e16eb3a6ece34bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299367"
 ---
 # <a name="handling-named-property-errors"></a>Manipular erros de propriedade nomeados
   
@@ -33,7 +33,7 @@ Em alguns casos, um cliente faz uma chamada para **GetNamesFromIDs** que resulte
     
 - Defina o conte�do da contagem de estruturas de **MAPINAMEID** como zero. 
     
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 - [MAPI denominada propriedades](mapi-named-properties.md)
 

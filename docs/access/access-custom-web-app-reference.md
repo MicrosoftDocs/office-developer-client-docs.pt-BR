@@ -5,19 +5,19 @@ ms.date: 08/17/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8d696fa4-a6f2-4fb1-8662-a313bf0b5989
-ms.openlocfilehash: 4cc55fc13396c5af6a90e9428a0138fdd7b3d942
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 3f409155bf5a1e9d7f9ace68c003e48d8fc7097a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270228"
 ---
 # <a name="access-custom-web-app-reference"></a>Referência de aplicativo Web personalizado do Access
 
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Conceitos (aplicativo da web personalizado do Access)](concepts-access-custom-web-app.md)
     

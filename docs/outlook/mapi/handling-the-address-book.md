@@ -8,47 +8,47 @@ api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 7a72d0e90e6c28874f341fc9ba7af843a44c5da8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 464549732562a4a02d081dc5a4c5e573e38cbbce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299415"
 ---
 # <a name="handling-the-address-book"></a>Manipular um catálogo de endereços
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Manipulação de catálogo de endereços MAPI pode incluir extraindo entradas que será usado como destinatários da mensagem, modificando propriedades de destinatário, adicionando usuários mensagens ou listas de distribuição, criação de algo isolado e exibindo uma ou mais das caixas de diálogo comuns do endereço para permitir que usuários a procurar informações de endereço e fazer alterações.
+A manipulação do catálogo de endereços MAPI pode incluir a extração de entradas a serem usadas como destinatários de mensagens, modificação de propriedades de destinatários, adição de usuários de mensagens ou listas de distribuição, criação de uma ou mais caixas de diálogo de endereços comuns para permitir os usuários pesquisem informações de endereço e façam alterações.
 
 - [Abrir o catálogo de endereços](opening-the-address-book.md): descreve como usar o MAPI para abrir um catálogo de endereços.
     
-- [Exibir a caixa de diálogo endereço comuns](displaying-the-common-address-dialog-box.md): descreve como exibir contêineres do catálogo de endereço diferente.
+- [Exibir a caixa de diálogo endereço comum](displaying-the-common-address-dialog-box.md): descreve como exibir diferentes contêineres do catálogo de endereços.
     
-- [Abrindo um contêiner de catálogo de endereços](opening-an-address-book-container.md): descreve como abrir contêineres do catálogo de endereço diferente.
+- [Abrir um contêiner de catálogo de endereços](opening-an-address-book-container.md): descreve como abrir diferentes contêineres do catálogo de endereços.
     
-- [Definindo opções de catálogo de endereços](setting-address-book-options.md): descreve como definir as propriedades que descrevem as opções para usar o catálogo de endereços.
+- [Definindo opções do catálogo de endereços](setting-address-book-options.md): descreve como definir as propriedades que descrevem as opções de uso do catálogo de endereços.
     
-- [Criando um destinatário](creating-a-recipient.md): descreve como criar destinatários quando lidando com mensagens e adicionando entradas em contêineres de catálogo de endereços modificável.
+- [Creating a Recipient](creating-a-recipient.md): descreve como criar destinatários ao endereçar mensagens e adicionar entradas a contêineres de catálogos de endereços modificáveis.
     
-- [Criar uma lista de distribuição](creating-a-distribution-list.md): descreve como criar uma lista de distribuição para um contêiner pode ser modificado.
+- [Criar uma lista de distribuição](creating-a-distribution-list.md): descreve como criar uma lista de distribuição em um contêiner modificável.
     
-- [Copiando um destinatário](copying-a-recipient.md): descreve como copiar os destinatários de um contêiner para outra ou mesmo contêiner.
+- [Copiar um destinatário](copying-a-recipient.md): descreve como copiar destinatários de um contêiner para outro ou para o mesmo contêiner.
     
-- [Excluindo um destinatário](deleting-a-recipient.md): descreve como remover um ou mais entradas do catálogo de endereços de um contêiner pode ser modificado.
+- [Excluindo um destinatário](deleting-a-recipient.md): descreve como remover uma ou mais entradas do catálogo de endereços de um contêiner modificável.
     
-- [Preparando um destinatário](preparing-a-recipient.md): descreve como prepara destinatários, convertendo seus identificadores de entrada de curto prazo aos identificadores de entrada de longo prazo e, possivelmente, adicionar, alterar ou reordenar propriedades.
+- [Preparando um destinatário](preparing-a-recipient.md): descreve como preparar destinatários convertendo seus identificadores de entrada de curto prazo para identificadores de entrada de longo prazo e possivelmente adicionando, alterando ou reordenando Propriedades.
     
-- [Acessando os membros de uma lista de distribuição](accessing-the-members-of-a-distribution-list.md): descreve como acessar os membros de uma lista de distribuição.
+- [Acessar os membros de uma lista de distribuição](accessing-the-members-of-a-distribution-list.md): descreve como acessar os membros de uma lista de distribuição.
     
-- [Recuperando propriedades de destinatário](retrieving-recipient-properties.md): descreve como acessar uma ou mais propriedades de uma entrada de catálogo de endereço do destinatário.
+- [RecuperaNdo Propriedades do destinatário](retrieving-recipient-properties.md): descreve como acessar uma ou mais propriedades de uma entrada do catálogo de endereços do destinatário.
     
-- [Pesquisar o catálogo de endereços](searching-the-address-book.md): descreve os dois níveis de funcionalidade de pesquisa MAPI. 
+- [Pesquisando o catálogo de endereços](searching-the-address-book.md): descreve os dois níveis de funcionalidade de pesquisa MAPI. 
     
 - [Usando uma caixa de diálogo de pesquisa avançada](using-an-advanced-search-dialog-box.md): descreve como executar uma funcionalidade de pesquisa avançada em um contêiner de catálogo de endereços.
     
-- [Resolução de um nome de destinatário](resolving-a-recipient-name.md): descreve como resolver um nome de um catálogo de endereços.
+- [Resolvendo o nome de um destinatário](resolving-a-recipient-name.md): descreve como resolver um nome em um catálogo de endereços.
     
-- [Expandir listas de distribuição](expanding-distribution-lists.md): descreve como solicitar MAPI para expandir uma lista de distribuição.
+- [Expandir listas de distribuição](expanding-distribution-lists.md): descreve como solicitar o MAPI para expandir uma lista de distribuição.
     
 

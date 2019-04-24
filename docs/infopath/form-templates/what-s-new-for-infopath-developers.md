@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: O InfoPath foi projetado para facilitar a criação de aplicativos avançados baseados em formulários na plataforma do Microsoft SharePoint Server. O Microsoft InfoPath 2013 em conjunto com o Microsoft SharePoint Server 2013 e o InfoPath Forms Services têm muitos recursos para desenvolvedores. O InfoPath Forms Services, disponível no SharePoint Server 2013, permite implantar um modelo de formulário do InfoPath em um SharePoint Server para que usuários sem o cliente avançado do InfoPath possam abrir e preencher formulários do InfoPath em um navegador da Web.
 ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303189"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Novidades para desenvolvedores do InfoPath
 

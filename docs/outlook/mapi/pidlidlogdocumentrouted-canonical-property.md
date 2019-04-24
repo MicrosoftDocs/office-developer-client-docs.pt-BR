@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4c2a17e243807fb7517ce08040c6fc65b5f0df83
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280329"
 ---
 # <a name="pidlidlogdocumentrouted-canonical-property"></a>Propriedade canônica PidLidLogDocumentRouted
 
@@ -25,31 +25,31 @@ ms.locfileid: "25392347"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se o documento foi enviado para um destinatário da circulação durante o registro no diário.
+Indica se o documento foi enviado a um destinatário de roteamento durante o registro no diário.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidLogDocRouted  <br/> |
-|Propriedade definida:  <br/> |PSETID_Log  <br/> |
-|ID de longo (LID):  <br/> |0x00008710  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Log  <br/> |
+|Long ID (LID):  <br/> |0x00008710  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Diário  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
+> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para diários.
+> Especifica as propriedades e as operações que são permitidas para diários.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

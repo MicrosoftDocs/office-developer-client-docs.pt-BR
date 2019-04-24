@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: Contém a fórmula a ser executada quando o usuário escolhe um comando em um menu de atalho ou de ação de marca.
-ms.openlocfilehash: 123b05f9a08c4ffa656e08a51f019f888cf83ed4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6bc576982cad871804cbcbc5f3d9c6bceb558c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283062"
 ---
 # <a name="action-cell-actions-section"></a>Célula Action (Seção Actions)
 
@@ -31,7 +31,7 @@ Para fazer referência à célula Action pelo nome, de outra fórmula ou program
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Ações.  *nome* . Ação onde ações. *nome* é o nome da linha actions  <br/> |
+| Nome da célula:  <br/> | Ações.  *nome* . Ação na qual ações. *Name* é o nome da linha de ações  <br/> |
    
 Para fazer referência à célula Action pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -1,22 +1,22 @@
 ---
-title: Tipos ('XML do Visio')
+title: Tipos (' Visio XML ')
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
-description: Este tópico lista os tipos do esquema XML do formato de arquivo do Visio 2013.
-ms.openlocfilehash: 2ad7264340326745677387947bab4408e1c20648
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico lista os tipos no esquema XML do formato de arquivo do Visio 2013.
+ms.openlocfilehash: 1aef5ba241b74c434e54e296d93b3d5c98d5c163
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307711"
 ---
-# <a name="types-visio-xml"></a>Tipos ('XML do Visio')
+# <a name="types-visio-xml"></a>Tipos (' Visio XML ')
 
-Este tópico lista os tipos do esquema XML do formato de arquivo do Visio 2013.
+Este tópico lista os tipos no esquema XML do formato de arquivo do Visio 2013.
   
 - [Actions_Type complexType](actions_type-complextypevisio-xml.md)
     

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 description: Especifica a posição de uma parada de tabulação. A posição da tabulação não depende da escala do desenho. Se o desenho estiver em escala, a posição da tabulação será a mesma.
-ms.openlocfilehash: 06f3a9fd5cfdf78f5383e70f32f8514b0adab114
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef17b38d708103ca004594ba04ff5b8d1ada13bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307746"
 ---
 # <a name="position-cell-tabs-section"></a>Célula Position (Seção Tabs)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Position pelo nome a partir de outra fórmula 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Guias.  *ij* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Tabula.  *IJ* onde *i* e *j* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Position pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

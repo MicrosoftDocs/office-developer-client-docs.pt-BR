@@ -4,33 +4,33 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- modelos de formulário compatíveis com 2003 do InfoPath, solução de problemas, solucionando problemas de modelos de formulário [InfoPath 2007], modelos de formulário [InfoPath 2007], solução de problemas, solução de problemas [InfoPath 2007], modelos de formulário compatíveis com o InfoPath 2003
+- modelos de formulário compatíveis com o InfoPath 2003, solução de problemas, solução de problemas de modelos de formulário [InfoPath 2007], modelos de formulário [InfoPath 2007], solução de problemas, solução de problemas [InfoPath 2007], modelos de formulário compatíveis com o InfoPath 2003
 localization_priority: Normal
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
-description: Esta seção contém dicas para resolver problemas comuns que você pode encontrar ao criar o modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
-ms.openlocfilehash: 33cbf6de46402dc9d54fdd232b876a3e7eff0676
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção contém dicas para resolver problemas comuns que podem ocorrer durante a criação do modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
+ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303476"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>Solucionar problemas de modelos de formulário que usam o modelo de objeto do InfoPath
 
-Esta seção contém dicas para resolver problemas comuns que você pode encontrar ao criar o modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
+Esta seção contém dicas para resolver problemas comuns que podem ocorrer durante a criação do modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Modelos de formulário de solução de problemas que usam o modelo de objeto do InfoPath 2003 em tempo de execução](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): descreve a resolução de problemas que pode surgir enquanto você estiver criando e visualização do InfoPath gerenciado modelos de formulário de código que usam o compatíveis com o InfoPath 2003 modelo de objeto.
+[SolucionaNdo problemas de modelos de formulário que usam o modelo de objeto do InfoPath 2003 em tempo de execução](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): descreve problemas de solução de problemas que podem surgir enquanto você está criando e visualizando modelos de formulário de código gerenciado do InfoPath que usam o InfoPath 2003-compatível modelo de objeto.
     
-[Modelos de formulário de solução de problemas que usam o tempo de Design do InfoPath 2003 objeto modelo At](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): descreve a resolução de problemas que pode surgir enquanto estiver criando modelos de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
+[SolucionaNdo problemas de modelos de formulário que usam o modelo de objeto do InfoPath 2003 no tempo de design](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md): descreve problemas de solução de problemas que podem surgir enquanto você está projetando modelos de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
     
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
-[Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md): fornece informações sobre como implantar suas soluções, inclusive preocupações de segurança, bem como os problemas a serem considerados ao escolher um modelo de implantação.
+[Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md): fornece informações sobre a implantação de suas soluções, incluindo questões de segurança, bem como questões a serem consideradas ao escolher um modelo de implantação.
     
-[Lidar com erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md): explica como manipular erros em soluções de código gerenciado do InfoPath.
+[Manipular erros usando o modelo de objeto do infopath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md): explica como lidar com erros nas soluções de código gerenciado do InfoPath.
     
-[Tarefas comuns de desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md): perguntas frequentes de listas perguntas sobre como programar com o modelo de objeto do InfoPath 2003 compatíveis e fornece links para tópicos que podem ajudar a resolver problemas comuns.
+[Tarefas comuns para desenvolver modelos de formulário usando o modelo de objeto do infopath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md): lista perguntas frequentes sobre programação com o modelo de objeto compatível com o InfoPath 2003 e fornece links para tópicos que podem ajudar a resolver problemas comuns.
     
 

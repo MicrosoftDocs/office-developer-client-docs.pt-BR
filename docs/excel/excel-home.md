@@ -7,11 +7,11 @@ ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Excel.
 localization_priority: Priority
 ms.openlocfilehash: 8e83acd1420a36dbcbc1fdf2c730b3b6b3022f67
-ms.sourcegitcommit: b9814794fcc929f53892417f2b788f2a7931da87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31903800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304127"
 ---
 # <a name="develop-solutions-and-customize-excel"></a>Desenvolver soluções e personalizar o Excel.
 

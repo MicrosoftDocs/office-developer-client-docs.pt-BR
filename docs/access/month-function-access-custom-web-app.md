@@ -1,5 +1,5 @@
 ---
-title: Função Month (aplicativo da web personalizado do Access)
+title: Função month (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5df43594-a434-4fb7-8109-e5cf0401ae09
 description: Retorna um inteiro que representa o mês da data especificada.
-ms.openlocfilehash: 5e4a583a5a299456e57b90d7cef41a32b0a6ffba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ca7059a2fd6dad1f9790ad6f4eafe7affa014dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308138"
 ---
-# <a name="month-function-access-custom-web-app"></a>Função Month (aplicativo da web personalizado do Access)
+# <a name="month-function-access-custom-web-app"></a>Função month (aplicativo Web personalizado do Access)
 
 Retorna um inteiro que representa o mês da data especificada.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
  **Mês** (*Data*) 
   
-A função **Month** contém os seguintes argumentos. 
+A função **month** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
@@ -33,8 +33,8 @@ A função **Month** contém os seguintes argumentos.
    
 ## <a name="remarks"></a>Comentários
 
- **Mês** retorna o mesmo valor que **DatePart** (mês, data). 
+ **Month** retorna o mesmo valor que **datepart** (mês, Data). 
   
-Se *Data* contiver apenas uma parte do tempo, o valor de retorno é 1, o mês de base. 
+Se *Date* contiver apenas uma parte de hora, o valor de retorno será 1, o mês base. 
   
 

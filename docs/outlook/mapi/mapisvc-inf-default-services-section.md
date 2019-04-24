@@ -1,5 +1,5 @@
 ---
-title: Seção MapiSvc.inf [Serviços padrão]
+title: Seção MapiSvc. inf [serviços padrão]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: dec42f8d-0f5c-4665-b53a-11cbc58b8b76
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a7270bce12f6d91dbb5632f739f4644df866924d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7906a9a5e953332dba5c4776c63bb433a937a5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270067"
 ---
-# <a name="mapisvcinf-default-services-section"></a>Seção MapiSvc.inf [Serviços padrão]
+# <a name="mapisvcinf-default-services-section"></a>Seção MapiSvc. inf [serviços padrão]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[Padrão serviços]** lista todos os serviços de mensagem que são selecionados como serviços de mensagem padrão. Esses serviços de mensagem padrão são um subconjunto dos serviços de mensagem listadas na seção **[Services]** . Quando um programa de configuração do perfil cria um perfil padrão, os serviços de mensagem nesta seção são incluídos automaticamente. 
+A seção **[default Services]** lista todos os serviços de mensagem selecionados como serviços de mensagens padrão. Esses serviços de mensagens padrão são um subconjunto dos serviços de mensagens listados na seção **[serviços]** . Quando um programa de configuração de perfil cria um perfil padrão, os serviços de mensagem nesta seção são incluídos automaticamente. 
   
-As entradas de usam o mesmo formato como entradas na seção **[Services]** , como mostrado seguinte: 
+As entradas usam o mesmo formato que as entradas na seção **[serviços]** , conforme mostrado a seguir: 
   
- **[Padrão Services]**
+ **[Serviços padrão]**
   
- _nome da seção do serviço de mensagem_ =  _nome do serviço de mensagem_
+ __ =  nome da seção do serviço de mensagens nome do_serviço_
   
-As entradas a seguir seriam incluídas na seção **[Services Default]** para o Mapisvc mostrado na ilustração anterior: 
+As entradas a seguir seriam incluídas na seção **[default Services]** para o MAPISVC. inf mostrado na ilustração anterior: 
   
 ```cpp
 [Default Services]

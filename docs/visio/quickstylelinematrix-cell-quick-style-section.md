@@ -1,32 +1,32 @@
 ---
-title: Célula QuickStyleLineMatrix (Seção Quick Style)
+title: Célula QuickStyleLineMatrix (seção Quick Style)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b10221d-30f8-48f5-81ed-0283fdfc3e5d
-description: Determina o estilo de linha de estilos rápidos herda a forma, como um inteiro de 0 a 6.
-ms.openlocfilehash: 31d5c6e7c3e0e3f10847c44d5545b2687a7e99b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o estilo de linha de estilo rápido que a forma herda, como um inteiro de 0-6.
+ms.openlocfilehash: e04fc6328d40b0564364aa8feff971628360d813
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282583"
 ---
-# <a name="quickstylelinematrix-cell-quick-style-section"></a>Célula QuickStyleLineMatrix (Seção Quick Style)
+# <a name="quickstylelinematrix-cell-quick-style-section"></a>Célula QuickStyleLineMatrix (seção Quick Style)
 
-Determina o estilo de linha de estilos rápidos herda a forma, como um inteiro de 0 a 6. 
+Determina o estilo de linha de estilo rápido que a forma herda, como um inteiro de 0-6. 
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **QuickStyleLineMatrix** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **QuickStyleLineMatrix** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | QuickStyleLineMatrix  <br/> |
    
-Para obter uma referência à célula **QuickStyleLineMatrix** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **QuickStyleLineMatrix** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

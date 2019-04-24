@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d8c9fb0b24d8954fae75274bfbedca9d7c62de93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c414b9f8a1d70fd5eea94da326674a749ccefe2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297876"
 ---
 # <a name="mapi-entry-identifiers"></a>Identificadores de entrada MAPI
 
@@ -21,21 +21,21 @@ ms.locfileid: "22567857"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identificadores de entrada são partes de dados binários armazenados em uma estrutura [ENTRYID](entryid.md) que são usados para identificar exclusivamente e abrir um objeto MAPI. A maioria dos objetos MAPI têm identificadores de entrada. Identificadores de entrada para objetos são análogos aos nomes de arquivo para arquivos. No entanto, eles não são transmittable e não podem ser usados nos sistemas que não seja o sistema que eles se originou. 
+Os identificadores de entrada são partes de dados binários [](entryid.md) armazenados em uma estrutura ENTRYID usada para identificar exclusivamente e abrir um objeto MAPI. A maioria dos objetos MAPI têm identificadores de entrada. Os identificadores de entrada para objetos são análogos aos nomes de arquivo dos arquivos. No enTanto, eles não são transmitidos e não podem ser usados em sistemas diferentes do sistema em que foram originados. 
   
-## <a name="entry-identifiers"></a>Identificadores de entradas
+## <a name="entry-identifiers"></a>Identificadores de entrada
 
-Provedores de armazenamento de mensagem atribuir identificadores de entrada para repositórios de mensagem, pastas e mensagens; provedores de catálogo de endereços atribuí-las aos usuários mensagens, listas de distribuição e contêineres do catálogo de endereços. Identificadores de entrada também são usados para abrir um objeto representado por uma linha em uma tabela, como um objeto de status da tabela de status. Objetos armazenam seus identificadores de entrada em sua propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
+Os provedores de repositórios de mensagens atribuem identificadores de entrada a repositórios de mensagens, pastas e mensagens; os provedores de catálogo de endereços os atribuem aos contêineres do catálogo de endereços, listas de distribuição e usuários de mensagens. Os identificadores de entrada também são usados para abrir um objeto representado por uma linha em uma tabela, como um objeto de status na tabela de status. Os objetos armazenam seus identificadores de entrada na propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
   
-Enquanto os provedores de serviço criar, atribuir e examinar os identificadores de entrada, os aplicativos cliente usá-los somente como ferramentas para abertura de objetos. Para os clientes, os identificadores de entrada são opacos partes de dados binários em têm nada a ver com o sistema de mensagens subjacente. 
+Enquanto os provedores de serviços criam, atribuem e examinam identificadores de entrada, os aplicativos clientes os usam somente como ferramentas para abrir objetos. Para clientes, os identificadores de entrada são pedaços opacos de dados binários e não têm nada a ver com o sistema de mensagens subjacente. 
   
-Clientes chamar o método de [IMAPITable::QueryColumns](imapitable-querycolumns.md) de uma tabela para recuperar a coluna que contém a propriedade **PR_ENTRYID** ou um método do objeto [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar sua propriedade **PR_ENTRYID** . 
+Os clientes chamam o método [IMAPIProp::](imapiprop-getprops.md) GetProps de um objeto para recuperar sua propriedade **PR_ENTRYID** ou o método IMAPITable [:: QueryColumns](imapitable-querycolumns.md) da tabela para recuperar a coluna que contém a propriedade **PR_ENTRYID** . 
   
-Identificadores de entrada são passados como parâmetros para os métodos **OpenEntry** e **CompareEntryIDs** . Vários objetos MAPI implementam os métodos **OpenEntry** e **CompareEntryIDs** . Com **OpenEntry**, clientes podem abrir um objeto. Com **CompareEntryIDs**, os clientes podem comparar dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. Como os identificadores de entrada não são necessariamente binários comparável, os clientes devem compará-los pelo método **CompareEntryIDs** . 
+Os identificadores de entrada são passados como parâmetros para os métodos **OpenEntry** e **CompareEntryIDs** . Vários objetos MAPI implementam os métodos **OpenEntry** e **CompareEntryIDs** . Com o **OpenEntry**, os clientes podem abrir um objeto. Com o **CompareEntryIDs**, os clientes podem comparar dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. Como os identificadores de entrada não são necessariamente equivalentes a binários, os clientes devem compará-los pelo método **CompareEntryIDs** . 
   
-Clientes sempre devem passar identificadores de entrada naturalmente alinhadas em suas chamadas a provedores de serviços, porque embora provedores de serviços devem lidar com identificadores de entrada que são alinhados arbitrariamente, isso não é sempre o caso. Um endereço de memória naturalmente alinhado habilita o computador acessar qualquer tipo de dados suporta nesse endereço sem gerar uma falha de alinhamento. O fator de alinhamento natural é normalmente o mesmo fator de alinhamento usado pelo alocador de memória do sistema e geralmente tem 8 bytes.
+Os clientes devem sempre passar identificadores de entrada alinhados naturalmente em suas chamadas para os provedores de serviço, porque embora os provedores de serviços devam manipular identificadores de entrada que estão alinhados arbitrariamente, isso nem sempre é o caso. Um endereço de memória alinhado naturalmente permite que o computador acesse qualquer tipo de dados que oferece suporte a esse endereço sem gerar uma falha de alinhamento. O fator de alinhamento natural geralmente é o mesmo fator de alinhamento usado pelo alocador de memória do sistema e geralmente é de 8 bytes.
   
-Identificadores de entrada vêm em dois tipos: curto e longo prazo. Identificadores de entrada de curto prazo são mais rápidas construir, mas sua exclusividade é garantida somente durante a vigência da sessão atual na estação de trabalho atual. Identificadores de entrada de longo prazo tem um tempo de vida mais prolongado. Identificadores de entrada de curto prazo são usados principalmente para linhas nas tabelas e entradas nas caixas de diálogo, enquanto a longo prazo identificadores de entrada são usados para muitos objetos como mensagens, pastas e listas de distribuição.
+Os identificadores de entrada têm dois tipos: curto e de longo prazo. Identificadores de entrada de curto prazo são mais rápidos de construir, mas sua exclusividade é segura apenas na vida da sessão atual na estação de trabalho atual. Os identificadores de entrada de longo prazo têm um tempo de vida mais prolongado. Identificadores de entrada de curto prazo são usados principalmente para linhas em tabelas e entradas em caixas de diálogo, enquanto identificadores de entrada de longo prazo são usados para muitos objetos, como mensagens, pastas e listas de distribuição.
   
 ## <a name="see-also"></a>Confira também
 

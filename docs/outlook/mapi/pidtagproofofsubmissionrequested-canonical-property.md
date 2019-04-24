@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0617029fd13cf6968936c97faacedeb333ede9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286512"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Propriedade canônica PidTagProofOfSubmissionRequested
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589984"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma prova de ASN. 1 do valor de envio.
+Contém um valor de envio da prova ASN. 1.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma prova de ASN. 1 do valor de envio.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade corresponde a um atributo por mensagem de envelope de envio de x. 400.
+Essa propriedade corresponde a um envelope de envio por mensagem X. 400.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: Os comandos de menu para adicionar funções de manipulador de eventos em um projeto de modelo de formulário compatível com o modelo de objeto do InfoPath 2003 são essencialmente os mesmos que os dos outros tipos de modelos de formulário.
 ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303665"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath
 

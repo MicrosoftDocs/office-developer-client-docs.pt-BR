@@ -5,54 +5,54 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
-description: Qualquer administrador de conjunto de sites pode publicar formulários com código diretamente a partir do Assistente de publicação do InfoPath Designer para uma biblioteca de formulários no SharePoint. O código é executado em um ambiente de área restrita para que o código mal-intencionado não pode prejudicar o servidor. Isso é conhecido como uma solução alternativa de publicação ou publicar a infraestrutura de área restrita do SharePoint.
-ms.openlocfilehash: c25243a966bc1dc1a559ccf2ba58fabfadbd94a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Qualquer administrador de conjunto de sites pode publicar formulários com código diretamente do assistente de publicação do InfoPath designer para uma biblioteca de formulários no SharePoint. O código é executado em um ambiente de área restrita para que o código mal-intencionado não possa danificar o servidor. Isso é conhecido como publicação de uma solução em área restrita ou publicação na infraestrutura de área restrita do SharePoint.
+ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303504"
 ---
 # <a name="publishing-forms-with-code"></a>Publicar formulários com código
 
-Qualquer administrador de conjunto de sites pode publicar formulários com código diretamente a partir do Assistente de publicação do InfoPath Designer para uma biblioteca de formulários no SharePoint. O código é executado em um ambiente de área restrita para que o código mal-intencionado não pode prejudicar o servidor. Isso é conhecido como uma solução alternativa de publicação ou publicar a infraestrutura de área restrita do SharePoint.
+Qualquer administrador de conjunto de sites pode publicar formulários com código diretamente do assistente de publicação do InfoPath designer para uma biblioteca de formulários no SharePoint. O código é executado em um ambiente de área restrita para que o código mal-intencionado não possa danificar o servidor. Isso é conhecido como publicação de uma solução em área restrita ou publicação na infraestrutura de área restrita do SharePoint.
   
-InfoPath 2010 e o SharePoint Server 2010 também suportam soluções implantados pelo administrador. Designer de formulários publica formulários com código em um repositório local que posteriormente analisado e carregados por um administrador de farm do SharePoint. O código recebe confiança total e pode incorporar funcionalidade que exija privilégios elevados como e/s do arquivo.
+O InfoPath 2010 e o SharePoint Server 2010 também oferecem suporte a soluções implantadas pelo administrador. Um designer de formulários publica formulários com código em um repositório local que é revisado e carregado posteriormente por um administrador de farm do SharePoint. O código recebe confiança total e pode incorporar funcionalidades que exigem privilégios elevados, como e/s de arquivo.
   
-## <a name="comparing-sandboxed-and-administrator-approved-solutions"></a>Comparar as soluções de área restrita e aprovados pelo administrador
+## <a name="comparing-sandboxed-and-administrator-approved-solutions"></a>ComParando soluções de área restrita e aprovadas pelo administrador
 
-A tabela a seguir resume as diferenças entre a publicação de soluções em área restrita e aprovados pelo administrador. 
+A tabela a seguir resume as diferenças entre a publicação de soluções de área restrita e aprovada pelo administrador. 
   
-||**Soluções em área restrita**|**Soluções aprovados pelo administrador**|
+||**Soluções de área restrita**|**Soluções aprovadas pelo administrador**|
 |:-----|:-----|:-----|
-|**Permissões necessárias** <br/> |Podem ser publicadas por qualquer administrador de conjunto de sites.  <br/> |Podem ser implantados por um administrador de farm.  <br/> |
-|**Publicação** <br/> |Podem ser publicadas diretamente do InfoPath.  <br/> |Pode ser implantado usando a Administração Central ou a ferramenta de linha de comando stsadm.  <br/> |
-|**Protection** <br/> |Código é executado em um ambiente de área restrita. Isso ajuda a proteger o servidor de código mal-intencionado.  <br/> |Código pode ser executado com confiança total e acessar qualquer recurso no servidor.  <br/> |
-|**Uso recomendado** <br/> |Formulários que requerem apenas uma pequena quantidade de código.  <br/> |Formulários que contêm várias linhas de código.  <br/> |
+|**Permissões necessárias** <br/> |Pode ser publicado por qualquer administrador de conjunto de sites.  <br/> |Pode ser implantado por um administrador de farm.  <br/> |
+|**Publicação** <br/> |Pode ser publicado diretamente do InfoPath.  <br/> |O pode ser implantado usando a administração central ou a ferramenta de linha de comando Stsadm.  <br/> |
+|**Protection** <br/> |O código é executado em um ambiente de área restrita. Isso ajuda a proteger o servidor de código mal-intencionado.  <br/> |O código pode ser executado com confiança total e acessar qualquer recurso no servidor.  <br/> |
+|**Uso recomendado** <br/> |Formulários que exigem apenas uma pequena quantidade de código.  <br/> |Formulários que contêm muitas linhas de código.  <br/> |
    
-### <a name="publishing-form-templates-as-sandboxed-solutions"></a>Publicação de modelos de formulário como soluções em área restrita
+### <a name="publishing-form-templates-as-sandboxed-solutions"></a>Publicar modelos de formulário como soluções de área restrita
 
-Publicação de um formulário com código como uma solução alternativa não é diferente de qualquer outra forma de publicação para uma biblioteca de documentos. Basta usar o Assistente de publicação como de costume e seu formulário será carregado no servidor e vai operar da área restrita.
+Publicar um formulário com código como uma solução de área restrita não é diferente de publicar qualquer outro formulário em uma biblioteca de documentos. Basta usar o assistente de publicação normalmente e o formulário será carregado no servidor e funcionará na área restrita.
   
-Observe que não há determinadas restrições à implantação de seu formulário como uma solução em área restrita:
+Observe que há certas restrições para implantar seu formulário como uma solução de área restrita:
   
 - Deve ser um formulário do InfoPath.
     
-- Deve usar c# ou Visual Basic como a linguagem de programação.
+- O deve usar C# ou Visual Basic como linguagem de programação.
     
 - Não é possível enviar para conexões de dados de email.
     
-- Não podem ter propriedades promovido para conexões Web Parts.
+- Não é possível ter propriedades promovidas para conexões de parte para parte.
     
-- Não deve ter quaisquer conexões de dados ou controles de metadados gerenciados.
+- Não deve ter controles de metadados ou conexões de dados gerenciados.
     
-Para permitir que administradores do conjunto de sites usar soluções em área restrita em Microsoft SharePoint Server 2010 ou um servidor que executa o Microsoft SharePoint Foundation 2010, o administrador do farm deve iniciar o serviço de código de usuário do Windows SharePoint.
+Para permitir que os administradores de conjunto de sites usem soluções de área restrita no Microsoft SharePoint Server 2010 ou em um servidor que executa o Microsoft SharePoint Foundation 2010, o administrador do farm deve iniciar o serviço de código de usuário do Windows SharePoint.
   
 ### <a name="to-start-the-windows-sharepoint-user-code-service"></a>Para iniciar o serviço de código de usuário do Windows SharePoint
 
-1. Abra a Administração Central.
+1. Abra Administração Central.
     
-2. Em **Serviços do sistema**, clique em **Gerenciar serviços no servidor**.
+2. Em **Serviços do sistema**, clique em **gerenciar serviços no servidor**.
     
 3. Inicie o **serviço de código de usuário do Microsoft SharePoint Foundation**.
     
@@ -60,30 +60,30 @@ Para permitir que administradores do conjunto de sites usar soluções em área 
 
 1. Abra o modelo de formulário no designer do InfoPath.
     
-2. Clique na guia **arquivo** e, em seguida, clique em **SharePoint Server** , na guia **Publicar** no Backstage. 
+2. Clique na guia **arquivo** e, em seguida, clique em **SharePoint Server** na guia **publicar** no backstage. 
     
-3. Insira a URL do site do SharePoint para publicar e, em seguida, clique em **Avançar**. 
+3. Insira a URL do site do SharePoint para publicar e clique em **Avançar**. 
     
     > [!IMPORTANT]
-    > Você deve ser um administrador de conjunto de sites neste site para publicar esse modelo de formulário como uma solução em área restrita. 
+    > Você deve ser um administrador de conjunto de sites neste site para publicar este modelo de formulário como uma solução de área restrita. 
   
-4. Selecione a **Biblioteca de formulários**e clique em **Avançar**.
+4. Selecione **biblioteca de formulários**e clique em **Avançar**.
     
 5. Selecione **criar uma nova biblioteca de formulários**e clique em **Avançar**.
     
-6. Insira o nome e as descrições para sua biblioteca de formulários e clique em **Avançar**.
+6. Insira o nome e as descrições da sua biblioteca de formulários e clique em **Avançar**.
     
-7. Clique em **Publicar**.
+7. Clique em **publicar**.
     
-Por exemplo, soluções que demonstram cenários que são adequados para modelos de formulário publicados como soluções em área restrita, consulte [Exemplos de soluções em área restrita](sample-sandboxed-solutions.md).
+Por exemplos de soluções que demonstram cenários que são apropriados para modelos de formulário publicados como soluções de área restrita, consulte [Sample sandboxEd Solutions](sample-sandboxed-solutions.md).
   
-### <a name="publishing-form-templates-as-administrator-deployed-solutions"></a>Publicação de modelos de formulário como soluções implantados pelo administrador
+### <a name="publishing-form-templates-as-administrator-deployed-solutions"></a>Publicar modelos de formulário como soluções imPlantadas pelo administrador
 
-Publicar o formulário como um modelo aprovado pelo administrador recomenda-se o formulário tiver várias conexões de dados, se ele requer segurança de confiança total, ou se você precisar de um modelo de todo o farm.
+É recomendável publicar o formulário como um modelo aprovado pelo administrador se o formulário tiver muitas conexões de dados, se ele exigir segurança de confiança total ou se você precisar de um modelo de todo o farm.
   
-Há várias etapas que deve ser concluídas por um administrador do farm antes de uma solução implantados pelo administrador ficará disponível no SharePoint e você, como o desenvolvedor deve preparar a solução antes do administrador está envolvido.
+Há várias etapas que um administrador de farm deve concluir antes que uma solução implantada pelo administrador esteja disponível no SharePoint, e você como o desenvolvedor deve preparar a solução antes que o administrador seja envolvido.
   
-Primeiro, se o seu formulário será para ser implantado como confiança total, você deve definir o nível de segurança, conforme descrito no procedimento a seguir.
+Primeiro, se o formulário for implantado como confiança total, você deve definir o nível de segurança conforme descrito no procedimento a seguir.
   
 ### <a name="to-set-the-security-level-of-a-form-template-to-full-trust"></a>Para definir o nível de segurança de um modelo de formulário como confiança total
 
@@ -91,20 +91,20 @@ Primeiro, se o seu formulário será para ser implantado como confiança total, 
     
 2. Clique na guia **arquivo** , na guia **informações** , clique em **Opções de formulário**.
     
-3. Clique na categoria de **segurança e confiança** e, em seguida, desmarque a caixa de seleção **determinar automaticamente o nível de segurança** . 
+3. Clique na categoria **segurança e confiança** e desmarque a caixa de seleção **determinar automaticamente o nível de segurança** . 
     
-4. Selecione a **confiança total**.
+4. Selecione **confiança total**.
     
-Em seguida, publicá-lo usando o procedimento a seguir, mas, lembre-se de que não existem algumas diferenças de um procedimento de publicação padrão.
+Em seguida, publique o formulário usando o procedimento a seguir, mas saiba que há algumas diferenças de um procedimento de publicação padrão.
   
-### <a name="to-publish-an-administrator-deployed-solution"></a>Para publicar uma solução implantados pelo administrador
+### <a name="to-publish-an-administrator-deployed-solution"></a>Para publicar uma solução implantada pelo administrador
 
-1. Na primeira página do **Assistente de publicação**, especifique o local do site do SharePoint Server 2010 ou o SharePoint Foundation 2010 e clique em **Avançar**.
+1. Na primeira página do assistente de **publicação**, especifique o local do site do sharepoint Server 2010 ou sharepoint Foundation 2010 e clique em **Avançar**.
     
-2. InfoPath selecionará automaticamente a caixa de seleção de **modelo de formulário aprovados pelo administrador** na segunda página do assistente. Clique em **Avançar**.
+2. O InfoPath selecionará automaticamente a caixa de seleção **modelo de formulário aprovado pelo administrador** na segunda página do assistente. Clique em **Avançar**.
     
-3. A terceira página é exclusiva cenários implantados pelo administrador. Em vez de selecionar um servidor do SharePoint, publique o formulário em um repositório local. O administrador do SharePoint carregará o arquivo a partir deste local durante o processo de implantação do administrador.
+3. A terceira página é exclusiva para cenários implantados pelo administrador. Em vez de selecionar um SharePoint Server, publique o formulário em um repositório local. O administrador do SharePoint carregará o arquivo deste local durante o processo de implantação do administrador.
     
-4. Conclua as páginas restantes do **Assistente de publicação**.
+4. Preencha as páginas restantes do **Assistente de publicação**.
     
 

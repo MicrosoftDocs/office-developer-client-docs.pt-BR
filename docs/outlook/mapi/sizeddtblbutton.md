@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dc4d3a7a827e728dfd6725ac269350067d4530cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282758"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -29,7 +29,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLBUTTON](dtblbutton.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
@@ -44,7 +44,7 @@ SizedDtblButton (n, u)
     
  _u_
   
-> Nome para a nova estrutura.
+> Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
