@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292528"
 ---
 # <a name="fields-collection-dao"></a>Coleção Fields (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Uma coleção **Fields** contém todos os objetos **Field** armazenados de um objeto **Index**, **QueryDef**, **Recordset**, **Relation** ou **TableDef**.
+Uma coleção **Fields** contém todos os objetos **Field** armazenados de um objeto**Index**, **QueryDef**, **Recordset**, **Relation**, ou**TableDef**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -29,15 +29,15 @@ Para se referir a um objeto **Field** de uma coleção pelo número ordinal ou p
 
 **Fields**(0)
 
-**Campos** ("nome")
+**Fields**("nome")
 
-**Campos**\!\[nome\]
+**Fields**\!\[nome\]
 
-Com as mesmas formas de sintaxe, você também pode se referir à propriedade **Value** de um objeto **Field** criado e acrescentado à coleção **Fields**. O contexto da referência de campo determinará se você está se referindo ao objeto **Field** ou à propriedade **Value**do objeto **Field**.
+Com as mesmas formas de sintaxe, você também pode se referir à propriedade **Value** de um objeto **Field** criado e acrescentado à coleção **Fields**. O contexto da referência de campo determinará se você está se referindo ao objeto **Field** ou à propriedade **Value** do objeto **Field**.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo mostra quais propriedades são válidas para um objeto **Field** dependente no qual o **Field** reside (por exemplo, a coleção **Fields** de um **TableDef**, a coleção **Fields** de um **QueryDef** e assim por diante). O procedimento FieldOutput é exigido para que este procedimento seja executado.
+This example shows what properties are valid for a **Field** object depending on where the **Field** resides (for example, the **Fields** collection of a **TableDef**, the **Fields** collection of a **QueryDef**, and so forth). The FieldOutput procedure is required for this procedure to run.
 
 ```vb
     Sub FieldX() 
@@ -103,7 +103,7 @@ Este exemplo mostra quais propriedades são válidas para um objeto **Field** de
 
 <br/>
 
-Este exemplo usa o método **CreateField** para criar três **Fields** para um novo **TableDef**. Em seguida, ele exibe as propriedades daqueles objetos **Field** que são automaticamente definidos pelo método **CreateField**. (As propriedades cujos valores estão vazios no momento da criação do **Field** não são mostradas.)
+This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)
 
 ```vb
     Sub CreateFieldX() 
