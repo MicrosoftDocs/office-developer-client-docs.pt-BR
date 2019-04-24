@@ -6,29 +6,29 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a395ca32-c315-4cd2-b93c-43c74fa017ba
-description: Representa o nome do servidor da conta do SMTP.
-ms.openlocfilehash: 675538c4a9b14f1a7ef9754992b52162d727506d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa o nome do servidor da conta SMTP.
+ms.openlocfilehash: d93582d0be02155632f63be256401afc959f13fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328340"
 ---
-# <a name="propsmtpserver"></a><span data-ttu-id="b10fc-103">PROP_SMTP_SERVER</span><span class="sxs-lookup"><span data-stu-id="b10fc-103">PROP_SMTP_SERVER</span></span>
+# <a name="propsmtpserver"></a><span data-ttu-id="e56bd-103">PROP_SMTP_SERVER</span><span class="sxs-lookup"><span data-stu-id="e56bd-103">PROP_SMTP_SERVER</span></span>
 
-<span data-ttu-id="b10fc-104">Representa o nome do servidor da conta do SMTP.</span><span class="sxs-lookup"><span data-stu-id="b10fc-104">Represents the server name of the SMTP account.</span></span>
+<span data-ttu-id="e56bd-104">Representa o nome do servidor da conta SMTP.</span><span class="sxs-lookup"><span data-stu-id="e56bd-104">Represents the server name of the SMTP account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b10fc-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="b10fc-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="e56bd-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="e56bd-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b10fc-106">Identificador:</span><span class="sxs-lookup"><span data-stu-id="b10fc-106">Identifier:</span></span>  <br/> |<span data-ttu-id="b10fc-107">0x0200</span><span class="sxs-lookup"><span data-stu-id="b10fc-107">0x0200</span></span>  <br/> |
-|<span data-ttu-id="b10fc-108">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="b10fc-108">Property type:</span></span>  <br/> |<span data-ttu-id="b10fc-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b10fc-109">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="b10fc-110">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="b10fc-110">Property tag:</span></span>  <br/> |<span data-ttu-id="b10fc-111">0x0200001F</span><span class="sxs-lookup"><span data-stu-id="b10fc-111">0x0200001F</span></span>  <br/> |
-|<span data-ttu-id="b10fc-112">Access:</span><span class="sxs-lookup"><span data-stu-id="b10fc-112">Access:</span></span>  <br/> |<span data-ttu-id="b10fc-113">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="b10fc-113">Read-only</span></span>  <br/> |
+|<span data-ttu-id="e56bd-106">Identificador:</span><span class="sxs-lookup"><span data-stu-id="e56bd-106">Identifier:</span></span>  <br/> |<span data-ttu-id="e56bd-107">0x0200</span><span class="sxs-lookup"><span data-stu-id="e56bd-107">0x0200</span></span>  <br/> |
+|<span data-ttu-id="e56bd-108">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="e56bd-108">Property type:</span></span>  <br/> |<span data-ttu-id="e56bd-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="e56bd-109">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="e56bd-110">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="e56bd-110">Property tag:</span></span>  <br/> |<span data-ttu-id="e56bd-111">0x0200001F</span><span class="sxs-lookup"><span data-stu-id="e56bd-111">0x0200001F</span></span>  <br/> |
+|<span data-ttu-id="e56bd-112">Acesso:</span><span class="sxs-lookup"><span data-stu-id="e56bd-112">Access:</span></span>  <br/> |<span data-ttu-id="e56bd-113">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="e56bd-113">Read-only</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b10fc-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="b10fc-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e56bd-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="e56bd-114">See also</span></span>
 
-- [<span data-ttu-id="b10fc-115">Gerenciar o download de mensagens de contas POP3</span><span class="sxs-lookup"><span data-stu-id="b10fc-115">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
-- [<span data-ttu-id="b10fc-116">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="b10fc-116">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="e56bd-115">Gerenciar o download de mensagens de contas POP3</span><span class="sxs-lookup"><span data-stu-id="e56bd-115">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
+- [<span data-ttu-id="e56bd-116">Constantes (API de gerenciamento de contas)</span><span class="sxs-lookup"><span data-stu-id="e56bd-116">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

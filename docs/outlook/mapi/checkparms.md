@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffa1b596b2f60bce35f24df8a20326502be8165a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331798"
 ---
-# <a name="checkparms"></a><span data-ttu-id="2dfea-103">CheckParms</span><span class="sxs-lookup"><span data-stu-id="2dfea-103">CheckParms</span></span>
+# <a name="checkparms"></a><span data-ttu-id="7ffb2-103">CheckParms</span><span class="sxs-lookup"><span data-stu-id="7ffb2-103">CheckParms</span></span>
 
   
   
-<span data-ttu-id="2dfea-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2dfea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7ffb2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ffb2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2dfea-105">Chama uma função interna para validar os parâmetros de depuração em métodos do provedor de serviço chamados pelo MAPI.</span><span class="sxs-lookup"><span data-stu-id="2dfea-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
+<span data-ttu-id="7ffb2-105">Chama uma função interna para validar parâmetros de depuração nos métodos de provedor de serviços chamados por MAPI.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2dfea-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="2dfea-106">Header file:</span></span>  <br/> |<span data-ttu-id="2dfea-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="2dfea-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="2dfea-108">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="2dfea-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2dfea-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2dfea-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="2dfea-110">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="2dfea-110">Called by:</span></span>  <br/> |<span data-ttu-id="2dfea-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="2dfea-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="7ffb2-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="7ffb2-106">Header file:</span></span>  <br/> |<span data-ttu-id="7ffb2-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="7ffb2-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="7ffb2-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="7ffb2-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7ffb2-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7ffb2-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="7ffb2-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="7ffb2-110">Called by:</span></span>  <br/> |<span data-ttu-id="7ffb2-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="7ffb2-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT CheckParms(
@@ -40,24 +40,24 @@ HRESULT CheckParms(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2dfea-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="2dfea-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7ffb2-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="7ffb2-112">Parameters</span></span>
 
- <span data-ttu-id="2dfea-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="2dfea-113">_eMethod_</span></span>
+ <span data-ttu-id="7ffb2-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="7ffb2-113">_eMethod_</span></span>
   
-> <span data-ttu-id="2dfea-114">[in] Especifica o enumeração, o método para validar.</span><span class="sxs-lookup"><span data-stu-id="2dfea-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="7ffb2-114">no Especifica, por enumeração, o método a ser validado.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="2dfea-115">_Primeira_</span><span class="sxs-lookup"><span data-stu-id="2dfea-115">_First_</span></span>
+ <span data-ttu-id="7ffb2-115">_Primeira_</span><span class="sxs-lookup"><span data-stu-id="7ffb2-115">_First_</span></span>
   
-> <span data-ttu-id="2dfea-116">[in] Ponteiro para o primeiro argumento na pilha.</span><span class="sxs-lookup"><span data-stu-id="2dfea-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="7ffb2-116">no Ponteiro para o primeiro argumento na pilha.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2dfea-117">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="2dfea-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ffb2-117">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="7ffb2-117">Return value</span></span>
 
-<span data-ttu-id="2dfea-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="2dfea-118">S_OK</span></span> 
+<span data-ttu-id="7ffb2-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="7ffb2-118">S_OK</span></span> 
   
-> <span data-ttu-id="2dfea-119">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="2dfea-119">The call succeeded.</span></span>
+> <span data-ttu-id="7ffb2-119">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-119">The call succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="2dfea-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="2dfea-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ffb2-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="7ffb2-120">Remarks</span></span>
 
-<span data-ttu-id="2dfea-121">Ao contrário de macros [ValidateParms](validateparms.md) e [UlValidateParms](ulvalidateparms.md) , a macro **CheckParms** não realiza uma validação de parâmetro completo.</span><span class="sxs-lookup"><span data-stu-id="2dfea-121">In contrast to the [ValidateParms](validateparms.md) and [UlValidateParms](ulvalidateparms.md) macros, the **CheckParms** macro does not perform a full parameter validation.</span></span> <span data-ttu-id="2dfea-122">Parâmetros passados entre MAPI e o serviço provedores são consideradas corretas, portanto **CheckParms** executa apenas uma validação de depuração.</span><span class="sxs-lookup"><span data-stu-id="2dfea-122">Parameters passed between MAPI and service providers are assumed to be correct, so **CheckParms** performs a debug validation only.</span></span> 
+<span data-ttu-id="7ffb2-121">Ao contrário das macros [ValidateParms](validateparms.md) e [UlValidateParms](ulvalidateparms.md) , a macro **CheckParms** não realiza uma validação de parâmetro completa.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-121">In contrast to the [ValidateParms](validateparms.md) and [UlValidateParms](ulvalidateparms.md) macros, the **CheckParms** macro does not perform a full parameter validation.</span></span> <span data-ttu-id="7ffb2-122">Os parâmetros passados entre MAPI e provedores de serviço são considerados corretos, portanto, **CheckParms** executa apenas uma validação de depuração.</span><span class="sxs-lookup"><span data-stu-id="7ffb2-122">Parameters passed between MAPI and service providers are assumed to be correct, so **CheckParms** performs a debug validation only.</span></span> 
   
 
