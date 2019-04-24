@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
 description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: 6d01020fc4d4081e5f55de5f64f361ac3ae8a0b0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359882"
 ---
 # <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de direitos autorais da referência do provedor do Outlook Social Connector 2013
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1021860e-4c40-4c22-aa68-b568d046aaf7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a64008da93584529916a9303176bba0aa08d3fac
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357957"
 ---
 # <a name="pidlidtaskordinal-canonical-property"></a>Propriedade canônica PidLidTaskOrdinal
 
@@ -25,39 +25,39 @@ ms.locfileid: "25387731"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece uma ferramenta para tarefas de classificação personalizadas.
+Fornece um auxílio para tarefas de classificação personalizadas.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskOrdinal  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008123  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008123  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser deixada não definida. Se definido, seu valor deve ser maior que "0x800186A0" (-2,147,383,648) e menor que "0x7FFE7960" (2,147,383,648) e devem ser exclusivos entre tarefas na mesma pasta.
+Esta propriedade pode ser indefinida à esquerda. Se definido, o valor deve ser maior que "0x800186A0" (-2.147.383.648) e menor que "0x7FFE7960" (2.147.383.648) e deve ser exclusivo entre tarefas na mesma pasta.
   
-Sempre que o cliente define essa propriedade como um número menor do que o negativo do valor da propriedade **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) da pasta atual, o cliente deverá atualizar também **PR_ORDINAL_MOST** na pasta. 
+Sempre que o cliente define essa propriedade como um número menor que o negativo do valor atual da propriedade **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) da pasta, o cliente também deve atualizar **PR_ORDINAL_MOST** na pasta. 
   
-A propriedade **PR_ORDINAL_MOST** da pasta proporciona uma maneira eficiente para determinar um valor exclusivo algumas tarefas na mesma pasta. 
+A propriedade **PR_ORDINAL_MOST** da pasta fornece uma maneira eficiente de determinar um valor exclusivo entre tarefas na mesma pasta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas. 
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas. 
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

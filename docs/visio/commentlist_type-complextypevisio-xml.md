@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 76a41e59-d2cf-dd6a-0ac4-370c1aca4c01
 ms.openlocfilehash: af23616556cecdbfa1157a8d4c49de1ca4b2fd88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359413"
 ---
 # <a name="commentlisttype-complextype-visio-xml"></a>CommentList_Type complexType ('Visio XML')
 

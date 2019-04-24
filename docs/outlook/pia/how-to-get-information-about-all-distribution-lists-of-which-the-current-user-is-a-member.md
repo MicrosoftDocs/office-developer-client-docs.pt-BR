@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bbc87250ab77f662e0fc5a71f9857e734637dd2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349424"
 ---
 # <a name="get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member"></a>Obter informações sobre todas as listas de distribuição das quais o usuário atual participa
 
@@ -25,7 +25,7 @@ Este exemplo usa o método [GetMemberOfList()](https://msdn.microsoft.com/librar
 
 No exemplo a seguir, GetCurrentUserMembership chama o método **GetMemberOfList** para obter um conjunto [AddressEntries](https://msdn.microsoft.com/library/bb647650\(v=office.15\)) para todas as listas de distribuição das quais o usuário do Exchange é membro. Se o usuário não for membro de nenhuma lista de distribuição, **GetMemberOfList** retornará um conjunto **AddressEntries** com uma contagem de zero. O usuário conectado deve estar online para que **GetMemberOfList** retorne um conjunto **AddressEntries**. Caso contrário, **GetMemberOfList** retornará uma referência nula. GetCurrentUserMembership usa o método [GetExchangeUser()](https://msdn.microsoft.com/library/bb645260\(v=office.15\)), que retorna o objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) atual para testar se o usuário está online. Depois que as entradas de endereço são obtidas, o exemplo grava informações sobre cada uma das listas de distribuição do usuário para os ouvintes de rastreamento do conjunto [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

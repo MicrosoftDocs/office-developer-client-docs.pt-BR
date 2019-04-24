@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3176280de33bda01bfd09ebaafc31d326d455a3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 090a73ed908d2a647d00de27b93538a77766c258
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351258"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
@@ -25,13 +25,13 @@ ms.locfileid: "22575032"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Substitui [MAPIInitialize](mapiinitialize.md) quando somente o utilitário selecionar funções estão sendo usadas. 
+Substitui [MAPIInitialize](mapiinitialize.md) quando apenas as funções de utilitário são usadas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 SCODE ScInitMapiUtil(
@@ -43,19 +43,19 @@ SCODE ScInitMapiUtil(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam visando chamada e funções de funções, em vez de [MAPIInitialize](mapiinitialize.md), que chama o núcleo bem como utilitário do utilitário select de lançamento. Quando **ScInitMapiUtil** chama as funções do utilitário, ele também inicializa a memória necessária. 
+As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam para chamar e liberar funções do utilitário Select, em vez de [MAPIInitialize](mapiinitialize.md), que chama o núcleo, bem como funções utilitárias. Quando o **ScInitMapiUtil** chama funções de utilitário, ele também inicializa a memória necessária. 
   
-Quando o uso das funções que **ScInitMapiUtil** chamou estiver concluído, **DeinitMapiUtil** deve ser chamado explicitamente para liberá-los. Por outro lado, **MAPIInitialize** implicitamente chama **DeinitMapiUtil**. 
+Quando o uso das funções que o **ScInitMapiUtil** chamou estiver concluído, **DeinitMapiUtil** deverá ser explicitamente chamado para liberá-las. Por outro lado, **MAPIInitialize** chama implicitamente **DeinitMapiUtil**. 
   
 ## <a name="see-also"></a>Confira também
 

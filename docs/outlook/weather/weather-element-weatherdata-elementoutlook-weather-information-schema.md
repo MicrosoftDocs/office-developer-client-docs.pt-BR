@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Especifica as condições meteorológicas de um local.
 ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355143"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>Elemento weather (elemento weatherdata) (Esquema de informações sobre o clima do Outlook)
 

@@ -1,5 +1,5 @@
 ---
-title: Célula YRulerDensity (Seção Ruler &amp; Grid)
+title: Célula YRulerDensity (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: Especifica as subdivisões verticais da régua na página.
-ms.openlocfilehash: 4b5dcba7a5cb1a588f742b1c2ea6b430cb2af12c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357201"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Célula YRulerDensity (Seção Ruler &amp; Grid)
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Célula YRulerDensity (seção &amp; Ruler Grid)
 
 Especifica as subdivisões verticais da régua na página.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Fixa  <br/> |**visRulerFixed** <br/> |
+|,0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |Grande  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (padrão)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Pequena  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Funciona  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à opção vertical **Subdivisões** no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção de **subdivisões** verticais da caixa de diálogo **grade &amp; da régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula YRulerDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

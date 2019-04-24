@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 30dc3194-7480-4e7c-b731-4a171d652ee0
 description: No Project Server 2013, o modelo de objeto do JavaScript pode ser usado no Project Online para desenvolvimento móvel e local. Este tópico fornece uma visão geral breve do modelo de objeto JavaScript e descreve como criar uma página de aplicativo que recupera e itera por meio de projetos usando o modelo de objeto do JavaScript.
 ms.openlocfilehash: ec8a10e987276807dc4648bd8948b2285f76fd37
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360470"
 ---
 # <a name="getting-started-with-the-project-server-2013-javascript-object-model"></a>Introdução ao modelo de objeto do JavaScript do Project Server 2013
 

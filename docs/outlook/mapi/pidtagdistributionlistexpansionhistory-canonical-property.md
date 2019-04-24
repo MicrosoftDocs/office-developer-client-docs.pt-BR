@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a172fa1e04f1ea50c29955febda47be6e52663b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360750"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propriedade canônica PidTagDistributionListExpansionHistory
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588465"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um histórico mostrando como uma lista de distribuição foi expandida durante a transmissão de mensagem. 
+Contém um histórico mostrando como uma lista de distribuição foi expandida durante a transmissão de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um histórico mostrando como uma lista de distribuição foi expandida d
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade está disponível para receber os aplicativos cliente se o provedor de transporte tem defini-la. Ele também está disponível para o cliente de envio se o conteúdo da mensagem é retornado com um relatório. 
+Essa propriedade estará disponível para receber aplicativos cliente se o provedor de transporte o tiver definido. Também estará disponível para o cliente de envio se o conteúdo da mensagem for retornado por um relatório. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
 description: Contém a tabela de cor do documento.
 ms.openlocfilehash: bd46f58dfbb8a596717662b9a0524d59bb508270
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358755"
 ---
 # <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a>Elemento Colors (VisioDocument_Type complexType) ('Visio XML')
 
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

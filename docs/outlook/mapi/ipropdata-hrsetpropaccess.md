@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
-ms.openlocfilehash: d0054e54d56fbe1cc6d6d783ffcd6330d8ab2e6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e443302e49bad4a586b657a6de298dafbeefab4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348675"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 
@@ -34,7 +34,7 @@ HRESULT HrSetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpPropTagArray_
   
@@ -49,7 +49,7 @@ HRESULT HrSetPropAccess(
 |IPROP_READONLY, que indica que a propriedade n�o pode ser modificada.  <br/> |IPROP_CLEAN, que indica que a propriedade n�o foi modificada.  <br/> |
 |IPROP_READWRITE, que indica que a propriedade pode ser modificada.  <br/> |IPROP_DIRTY, que indica que a propriedade foi modificada.  <br/> |
    
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -63,7 +63,7 @@ MAPI_E_INVALID_PARAMETER
   
 > O par�metro  _rgulAccess_ cont�m uma combina��o de sinalizadores, como IPROP_READONLY e IPROP_READWRITE inv�lida. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O m�todo **IPropData::HrSetPropAccess** altera o n�vel de acesso e o status para as propriedades que s�o identificados pelas marcas de propriedade na estrutura [SPropTagArray](sproptagarray.md) apontado pelo par�metro  _lpPropTagArray_. Para cada propriedade, h� uma entrada correspondente na matriz  _rgulAccess_. A entrada pode ser definida como um sinalizador que indica o n�vel de acesso da propriedade e outro sinalizador que indica seu status. 
   
@@ -71,7 +71,7 @@ O m�todo **IPropData::HrSetPropAccess** altera o n�vel de acesso e o status 
 
 Use **HrSetPropAccess** para determinar quando um valor da propriedade espec�fica alterado e alterar o n�vel de acesso para uma ou mais das propriedades de um objeto. 
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 
 

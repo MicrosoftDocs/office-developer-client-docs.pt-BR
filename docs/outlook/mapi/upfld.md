@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8f7bdc5864c049d8db6f38e92a69c97b6f9dc73
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360477"
 ---
 # <a name="upfld"></a>UPFLD
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações de carregamento de uma pasta durante o [carregamento do estado da pasta](upload-folder-state.md).
+Informações para carregar uma pasta durante o estado de [pasta de carregamento](upload-folder-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -37,31 +37,31 @@ struct UPFLD
 
 _ulFlags_
   
->  [out] / [in] sinalizadores para determinar as ações apropriadas para a uplaod. 
+>  [out]/[in] flags para determinar as ações apropriadas para o uplaod. 
     
   - UPF_NEW
     
-    - [out] Pasta é nova.
+    - bota A pasta é nova.
     
   - UPF_MOD_PARENT
     
-    - [out] Pasta foi movida.
+    - bota A pasta foi movida.
     
   - UPF_MOD_PROPS
     
-    - [out] Propriedades da pasta foram modificadas.
+    - bota As propriedades da pasta foram modificadas.
     
   - UPF_DEL
     
-    - [out] Pasta foi excluída.
+    - bota A pasta foi excluída.
     
   - UPF_OK
     
-    - [in] Carregamento foi bem-sucedida. O cliente define esta após carregar as informações da pasta no servidor.
+    - no O upload foi bem-sucedido. O cliente define isso após carregar as informações da pasta no servidor.
     
 _pfld_
   
-> [out] O objeto de pasta aberta para carregar.
+> bota O objeto Folder aberto a ser carregado.
     
 _feid_
   

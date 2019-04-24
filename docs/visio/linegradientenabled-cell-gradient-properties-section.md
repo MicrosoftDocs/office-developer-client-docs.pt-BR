@@ -1,5 +1,5 @@
 ---
-title: Célula LineGradientEnabled (Seção Gradient Properties)
+title: Célula LineGradientEnabled (seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,31 +7,31 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
 description: Determina se um gradiente de linha está habilitado para uma linha ou borda de uma forma.
-ms.openlocfilehash: d78a94a25c0290bd5e58522c9a45955868f31b32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361135"
 ---
-# <a name="linegradientenabled-cell-gradient-properties-section"></a>Célula LineGradientEnabled (Seção Gradient Properties)
+# <a name="linegradientenabled-cell-gradient-properties-section"></a>Célula LineGradientEnabled (seção Gradient Properties)
 
 Determina se um gradiente de linha está habilitado para uma linha ou borda de uma forma. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Gradiente é exibida na linha ou a borda de uma forma.  <br/> |
-|FALSO  <br/> |Gradientes não são exibidas na linha ou a borda de uma forma.  <br/> |
+|TRUE  <br/> |Gradiente é exibido na linha ou borda de uma forma.  <br/> |
+|FALSE  <br/> |Gradientes não são exibidos na linha ou borda de uma forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **LineGradientEnabled** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **LineGradientEnabled** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LineGradientEnabled  <br/> |
    
-Para obter uma referência à célula **LineGradientEnabled** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **LineGradientEnabled** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

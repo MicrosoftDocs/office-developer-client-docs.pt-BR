@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f3e4f19ab43a3da7c4840d762d5131813c83d996
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361086"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>Propriedade canônica PidTagAttachSize
 
@@ -25,7 +25,7 @@ ms.locfileid: "25399743"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a soma, em bytes, dos tamanhos de todas as propriedades em um anexo. 
+Contém a soma, em bytes, dos tamanhos de todas as propriedades de um anexo. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém a soma, em bytes, dos tamanhos de todas as propriedades em um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que o anexo subobjetos exponham a propriedade **PR_ATTACH_SIZE** . A soma contida no **PR_ATTACH_SIZE** inclui o tamanho da propriedade **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) ou **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)). Apropriadamente, **PR_ATTACH_SIZE** é geralmente maior do que o conteúdo do anexo sozinho. 
+É recomendável que os subobjetos de anexo exponham a propriedade **PR_ATTACH_SIZE** . A soma contida no **PR_ATTACH_SIZE** inclui o tamanho da propriedade **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Da mesma forma, **PR_ATTACH_SIZE** geralmente é maior do que o conteúdo do anexo. 
   
-Essa propriedade pode ser usada para verificar o tamanho aproximado do anexo antes de executar uma transferência remota pelo modem e para exibir os indicadores de progresso quando salvar o anexo em disco. É especialmente útil com os objetos OLE anexados. 
+Essa propriedade pode ser usada para verificar o tamanho aproximado do anexo antes de executar uma transferência remota por modem e para exibir os indicadores de progresso ao salvar o anexo no disco. É particularmente útil com objetos OLE anexados. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-mapitags.h
+mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -67,7 +67,7 @@ mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

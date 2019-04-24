@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: Determina se uma visualização será salva sempre que um desenho for salvo.
-ms.openlocfilehash: 2ef5ea12669a7a6a2b37d599afd24635f7509ac2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91362d8a88cf6db2f4807c655a6d071ebbc731f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348325"
 ---
 # <a name="lockpreview-cell-document-properties-section"></a>Célula LockPreview (Seção Document Properties)
 
@@ -22,8 +22,8 @@ Determina se uma visualização será salva sempre que um desenho for salvo.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Não salvar uma visualização sempre que um desenho for salvo.  <br/> |
-| FALSO  <br/> | Salvar uma visualização sempre que um desenho for salvo.  <br/> |
+| TRUE  <br/> | Não salvar uma visualização sempre que um desenho for salvo.  <br/> |
+| FALSE  <br/> | Salvar uma visualização sempre que um desenho for salvo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

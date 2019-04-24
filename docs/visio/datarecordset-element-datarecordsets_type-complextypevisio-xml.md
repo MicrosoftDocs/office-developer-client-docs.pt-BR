@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: Armazena, formata, atualiza e expõe dados consultados de um banco de dados no Microsoft Visio.
 ms.openlocfilehash: e2baaeed38318f35d4bd4ce4269f71b6304b148f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360363"
 ---
 # <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>Elemento ConjuntoDeRegistrosDeDados (DataRecordSets_Type tipo complexo) 'Visio XML (')
 
@@ -36,7 +36,7 @@ Armazena, formata, atualiza e expõe dados consultados de um banco de dados no M
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 

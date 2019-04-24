@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251507
 localization_priority: Normal
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
-description: Retorna o valor de hora representado por datetime ou expressão, com base no idioma e região do sistema configurações.
-ms.openlocfilehash: e75607d19dc7062af717823c13f580cb44c9406b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o valor de tempo representado por DateTime ou expressão, com base nas configurações de idioma e região do sistema.
+ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361107"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>Função TIMEVALUE (VisioShapeSheet)
 
-Retorna o valor de hora representado por _datetime_ ou _expressão_, com base no idioma e região do sistema configurações.
+Retorna o valor de tempo representado por _DateTime_ ou _expressão_, com base nas configurações de idioma e região do sistema.
   
 ## <a name="syntax"></a>Sintaxe
 
-TIMEVALUE ("* * *datetime* * *" | * * *expressão* * * [, * * *lcid* * *]) 
+TIMEvalue ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**Varia** <br/> | Qualquer expressão que gere data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Qualquer expressão que gere data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Qualquer componente de data em _datetime_ ou _expression_ é desconsiderado. 
+Qualquer componente de data em _DateTime_ ou _expression_ é Descartado. 
   
-Se _datetime_ estiver faltando ou não puder ser convertida para um resultado válido, essa função retornará um #VALUE! erro. 
+Se a _data/hora_ estiver ausente ou não puder ser convertida em um resultado válido, essa função retornará um #VALUE! #NUM! 
   
-A função TIMEVALUE também aceita um valor de número único para _expression_ em que a parte decimal do resultado representa a fração de um dia desde a meia-noite. 
+A função TIMEvalue também aceita um valor de número único para _expressão_ em que a parte decimal do resultado representa a fração de um dia desde a meia-noite. 
   
 ## <a name="example-1"></a>Exemplo 1
 
@@ -60,13 +60,13 @@ Retornará o valor que representa 11:00.
   
 ## <a name="example-4"></a>Exemplo 4
 
-TIMEVALUE(0.6337)
+TIMEVALUE (0.6337)
   
 Retornará o valor que representa 15:12:32.
   
 ## <a name="example-5"></a>Exemplo 5
 
-TIMEVALUE("7:89")
+TIMEVALUE ("7:89")
   
 Retornará um erro de #VALUE!.
   

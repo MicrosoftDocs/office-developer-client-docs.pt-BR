@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f997b5-1f3c-ddff-41f2-af84960266ff
 ms.openlocfilehash: e447ceb6fc0e6b79ec6e62b5f3b73a32cec589d9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359021"
 ---
 # <a name="colorstype-complextype-visio-xml"></a>Colors_Type complexType ('Visio XML')
 

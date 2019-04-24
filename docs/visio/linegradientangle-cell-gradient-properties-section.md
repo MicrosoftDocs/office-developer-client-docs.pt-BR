@@ -1,32 +1,32 @@
 ---
-title: Célula LineGradientAngle (Seção Gradient Properties)
+title: Célula LineGradientAngle (seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
-description: Determina o ângulo do gradiente para um gradiente linear, de 0 a 359.9 graus linha.
-ms.openlocfilehash: 8db4c7ba4bd62bfae4ec3444aef832450363763b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o ângulo do gradiente de linha para um gradiente linear, de 0 a 359,9 graus.
+ms.openlocfilehash: fd806bc7c953dbd86abd95c8e6103ab9e6ee1a10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359260"
 ---
-# <a name="linegradientangle-cell-gradient-properties-section"></a>Célula LineGradientAngle (Seção Gradient Properties)
+# <a name="linegradientangle-cell-gradient-properties-section"></a>Célula LineGradientAngle (seção Gradient Properties)
 
-Determina o ângulo do gradiente para um gradiente linear, de 0 a 359.9 graus linha.
+Determina o ângulo do gradiente de linha para um gradiente linear, de 0 a 359,9 graus.
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **LineGradientAngle** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **LineGradientAngle** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LineGradientAngle  <br/> |
    
-Para obter uma referência à célula **LineGradientAngle** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **LineGradientAngle** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

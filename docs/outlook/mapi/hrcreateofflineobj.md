@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a34c441a473154a43a107b4236ccc259d327dba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348052"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Cria um objeto offline MAPI que é usado pelo provedor e repositório para notificar MAPI quando o objeto fica online e offline, 
+ Cria um objeto MAPI offline que é usado pelo provedor e pela loja para notificar o MAPI quando o objeto fica online e offline 
   
 |||
 |:-----|:-----|
-|Exportá-los por:  <br/> |Msmapi32  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
+|Exportado por:  <br/> |Msmapi32. dll  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(
@@ -39,15 +39,15 @@ IMAPIOfflineMgr** ppOffline
 
 _ulFlags_
   
-> [in] Ela deve ser 0.
+> no Deve ser 0.
     
 _pCreateInfo_
   
-> [in] Um ponteiro para uma estrutura **MAPIOFFLINE_CREATEINFO** que contém as informações necessárias para criar o objeto offline. 
+> no Um ponteiro para uma estrutura **MAPIOFFLINE_CREATEINFO** que contém as informações necessárias para criar o objeto offline. 
     
 _ppOffline_
   
-> [out] Um ponteiro para a interface **IMAPIOfflineMgr** . 
+> bota Um ponteiro para a interface **IMAPIOfflineMgr** . 
     
 ## <a name="return-value"></a>Valor retornado
 

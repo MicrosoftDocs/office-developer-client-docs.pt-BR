@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 55da942e59c619dd384bef58349aa3a00d4a6d8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 416486c3b06c485a1fa6525b54c37a6e0d23f56c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350922"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>Propriedade canônica PidTagBodyCrc
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571469"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de verificação (CRC) redundância cíclica no texto da mensagem.
+Contém um valor de CRC (verificação de redundância cíclica) no texto da mensagem.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém um valor de verificação (CRC) redundância cíclica no texto da mensag
    
 ## <a name="remarks"></a>Comentários
 
-O armazenamento de mensagens pode usar qualquer algoritmo CRC que gera um valor PT_LONG. Quando a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) tiver sido definida pela primeira vez e sempre que tiver sido modificada posteriormente, ele deverá calcular essa propriedade como parte do método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) .
+O repositório de mensagens pode usar qualquer algoritmo CRC que gere um valor PT_LONG. Ele deve calcular essa propriedade como parte do método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) quando a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) tiver sido definida pela primeira vez e sempre que ela tiver sido modificada subsequentemente.
   
-Um aplicativo cliente usa **PR_BODY_CRC** para auxiliar na comparação de cadeias de caracteres de texto de mensagem contidas em propriedades **PR_BODY** ou suas respectivas variantes. O uso desta propriedade, o cliente pode rapidez e facilidade detectar quando o texto da mensagem foi alterada. Ele pode aproveitar os ganhos significativos de desempenho usando **PR_BODY_CRC** em vez de obtendo **PR_BODY** de armazenamento de mensagens e comparando-os com uma versão local. 
+Um aplicativo cliente usa O **PR_BODY_CRC** para ajudar na comparação de cadeias de caracteres de texto de mensagem contidas nas propriedades **PR_BODY** ou em suas variantes. Usando essa propriedade, o cliente pode detectar de forma rápida e fácil quando o texto da mensagem tiver sido alterado. Ele pode obter ganhos de desempenho significativos usando o **PR_BODY_CRC** em vez de obter o **PR_BODY** do repositório de mensagens e compará-lo com uma versão local. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

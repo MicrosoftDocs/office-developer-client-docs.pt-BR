@@ -7,11 +7,11 @@ ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: Obtenha mais informações sobre problemas exibidos no log de telemetria sobre possíveis problemas de compatibilidade em produtos do Office.
 localization_priority: Priority
 ms.openlocfilehash: f0c2462662121ee6ec7944dde5a01e2964fc28cf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357502"
 ---
 # <a name="compatibility-issues-in-office"></a>Problemas de compatibilidade no Office
 
@@ -33,7 +33,7 @@ Essas mensagens podem aparecer se o documento contiver um controle que pode não
 |10000  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> ||Aviso: controles do Visual Basic 6.0  <br/> |O arquivo usa um controle do Visual Basic 6.0 que não funciona em versões de 64 bits do Office ou em versões de 32 bits do Office executadas em um dispositivo que usa um processador ARM. Substitua o controle um controle com suporte se quiser que ele esteja disponível para os aplicativos do Office nesses ambientes.  <br/> |
 |10001  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://msdn.microsoft.com/vbasic/ms788708.aspx) <br/> |Controles: controle do Visual Basic 6.0 em sistemas operacionais de 64 bits  <br/> |O arquivo usa um controle do Visual Basic 6.0 que não funciona em versões de 64 bits do Office. Arquivos de tempo de execução do Visual Basic 6.0 são de 32 bits e compatíveis apenas com sistemas operacionais de 32 bits ou com ambientes de emulação WOW.  <br/> |
 |10002  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://msdn.microsoft.com/vbasic/ms788708.aspx) <br/> |Controles: controles do Visual Basic 6.0 em um dispositivo com processador ARM  <br/> |O arquivo usa um controle do Visual Basic 6.0 que não funciona em dispositivos que usam um processador ARM.  <br/> |
-|10003  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://technet.microsoft.com/en-us/library/cc179181.aspx) <br/> |Controles: Controle de Calendário da Microsoft  <br/> |O arquivo usa o Controle de Calendário da Microsoft (Mscal.ocx), um recurso de versões anteriores do Access que não está disponível no Office 2013. O controle não funcionará porque ele não está instalado no computador host. Use outros controles de seletor de data como alternativa, como o **Controle de conteúdo de selecionador de data** (no Word 2013) ou o controle **Selecionador de data** do Windows (disponível nos Controles comuns do Windows).  <br/> Para saber mais, confira [Como substituir o controle de Calendário nos aplicativos do Access 2010](https://msdn.microsoft.com/library/dc6ba80d-b1fa-4596-b484-5e729cae4d70).  <br/> |
+|10003  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://technet.microsoft.com/pt-BR/library/cc179181.aspx) <br/> |Controles: Controle de Calendário da Microsoft  <br/> |O arquivo usa o Controle de Calendário da Microsoft (Mscal.ocx), um recurso de versões anteriores do Access que não está disponível no Office 2013. O controle não funcionará porque ele não está instalado no computador host. Use outros controles de seletor de data como alternativa, como o **Controle de conteúdo de selecionador de data** (no Word 2013) ou o controle **Selecionador de data** do Windows (disponível nos Controles comuns do Windows).  <br/> Para saber mais, confira [Como substituir o controle de Calendário nos aplicativos do Access 2010](https://msdn.microsoft.com/library/dc6ba80d-b1fa-4596-b484-5e729cae4d70).  <br/> |
 |10004  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://support.microsoft.com/kb/972129) <br/> |Componentes da Web do Office  <br/> |O arquivo usa um controle do Office Web Components (MSOWC.dll). O controle não funcionará porque o Office Web Components não estão instalado no seu computador e não está incluído no Office 2013. Para usar esse controle, instale o Office Web Components separadamente.  <br/> Para saber mais, confira [Encontrar documentação de programação e amostras do Office Web Components](https://support.microsoft.com/kb/319793) <br/> |
 |10005  <br/> |Office 2013  <br/> |Todo o Office 2013  <br/> |[Link](https://office.microsoft.com/en-us/access-help/embedded-object-and-activex-control-policy-settings-error-HA101825674.aspx?CTT=1) <br/> |Controles: controle ActiveX não registrado  <br/> |O arquivo usa controles ActiveX não registrados no computador host. Para usar o controle, registre-o no computador host.  <br/> |
    

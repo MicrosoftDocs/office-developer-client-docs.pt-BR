@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e265b646aa9942efafe8de352cc1d7939dec87a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ffd597ea8aa3104d54b57610aba3ac6bd044bf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358608"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Propriedade canônica PidTagInternetNntpPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592749"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mapeia para o cabeçalho do caminho de MIME.
+Mapeia para o cabeçalho de caminho MIME.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Mapeia para o cabeçalho do caminho de MIME.
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

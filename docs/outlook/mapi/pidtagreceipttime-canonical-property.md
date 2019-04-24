@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bd332943d8264ff909c1ec36f6b7c939d597acfd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359238"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriedade canônica PidTagReceiptTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590278"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora que é gerado um relatório de entrega.
+Contém a data e a hora em que um relatório de entrega é gerado.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém a data e hora que é gerado um relatório de entrega.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade deve ser definida pelo provedor de repositório de mensagem recebendo a mensagem original e gerar o relatório. 
+Essa propriedade deve ser definida pelo provedor de armazenamento de mensagens que recebe a mensagem original e gerando o relatório. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

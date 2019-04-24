@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4956ce33d00135c34193dec3df832c6878b2c6db
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360101"
 ---
 # <a name="pidlidreminderoverride-canonical-property"></a>Propriedade canônica PidLidReminderOverride
 
@@ -25,13 +25,13 @@ ms.locfileid: "25385957"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se o cliente deve respeitar os valores das propriedades **dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) e **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)).
+Especifica se o cliente deve respeitar os valores das propriedades **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) e **dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidReminderOverride  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x0000851C  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x0000851C  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
@@ -41,19 +41,19 @@ Um cliente pode usar os valores padrão no lugar dos valores das propriedades **
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.
+> Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

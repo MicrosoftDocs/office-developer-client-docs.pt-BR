@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 47458e2468215c6539ad07533c36564d37da8b96
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359915"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Propriedade canônica PidTagDelegatedByRule
 
@@ -32,15 +32,15 @@ Indica se a mensagem de uma pasta é delegada por uma regra.
 |Propriedades associadas:  <br/> |PR_DELEGATED_BY_RULE  <br/> |
 |Identificador:  <br/> |0x3FE3  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Status MAPI  <br/> |
+|Área:  <br/> |Status de MAPI  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com objetos de mensagem e calendário quando eles atuam em nome de outro usuário.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -48,13 +48,13 @@ Indica se a mensagem de uma pasta é delegada por uma regra.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
-> Fornece definições de tipo de dados
+> Fornece definições de tipos de dados
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

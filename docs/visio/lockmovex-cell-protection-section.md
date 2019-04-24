@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
 description: Protege a posição horizontal da forma para que ela não se mova horizontalmente.
-ms.openlocfilehash: 981f4f417e48f70d0693e30683c4351d0e53a758
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af0cee32370a540cd8d7aaf960cc0cbc27cc8f97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348262"
 ---
 # <a name="lockmovex-cell-protection-section"></a>Célula LockMoveX (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege a posição horizontal da forma para que ela não se mova horizontalment
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A posição horizontal está protegida.  <br/> |
-| FALSO  <br/> | A posição horizontal não está protegida.  <br/> |
+| TRUE  <br/> | A posição horizontal está protegida.  <br/> |
+| FALSE  <br/> | A posição horizontal não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

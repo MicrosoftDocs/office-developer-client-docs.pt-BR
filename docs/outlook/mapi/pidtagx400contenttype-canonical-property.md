@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fc120a863fb9a061381eac81be04e385831cf484
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af87dee0b5e598395fb59bc92f762582289aa828
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350712"
 ---
 # <a name="pidtagx400contenttype-canonical-property"></a>Propriedade canônica PidTagX400ContentType
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566786"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa propriedade contém o tipo de conteúdo para uma mensagem enviada.
+Esta propriedade contém o tipo de conteúdo de uma mensagem enviada.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Essa propriedade contém o tipo de conteúdo para uma mensagem enviada.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

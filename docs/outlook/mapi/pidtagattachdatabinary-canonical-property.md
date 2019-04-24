@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356543"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Propriedade canônica PidTagAttachDataBinary
 
@@ -25,7 +25,7 @@ ms.locfileid: "25390923"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os dados de anexo binário costumam ser acessados por meio da interface de vinculação e incorporação de objetos (OLE) **IStream** . 
+Contém dados de anexo binários normalmente acessados por meio da interface de vinculação e incorporação de objetos (OLE) **IStream** . 
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contém os dados de anexo binário costumam ser acessados por meio da interface 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém o anexo, quando o valor da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) é ATTACH_BY_VALUE, que é o método de anexo usual e a única pessoa que devem ser suportados. **PR_ATTACH_DATA_BIN** também contém um anexo OLE 1.0 **OLESTREAM** quando o valor de **PR_ATTACH_METHOD** é ATTACH_OLE. 
+Essa propriedade contém o anexo quando o valor da propriedade **PR_ATTACH_METHOD** ([PIDTAGATTACHMETHOD](pidtagattachmethod-canonical-property.md)) é ATTACH_BY_VALUE, que é o método de anexo usual e o único necessário para ter suporte. **PR_ATTACH_DATA_BIN** também mantém um anexo de **OLESTREAM** OLE 1,0 quando o valor de **PR_ATTACH_METHOD** for ATTACH_OLE. 
   
- Anexos de **OLESTREAM** podem ser copiados em um arquivo, chamando o método OLE **IStream::CopyTo** . O tipo de codificação de OLE pode ser determinado da propriedade **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+ Os anexos de **OLESTREAM** podem ser copiados em um arquivo chamando o método OLE **IStream:: CopyTo** . O tipo de codificação OLE pode ser determinado a partir da propriedade **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Para um anexo de arquivo de documento OLE, o provedor de armazenamento de mensagem deve responder a uma chamada [IMAPIProp::OpenProperty](imapiprop-openproperty.md) em **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) e, opcionalmente, pode responder a uma chamada em **PR_ATTACH_DATA_BIN **. Observe que **PR_ATTACH_DATA_BIN** e **PR_ATTACH_DATA_OBJ** compartilham o mesmo identificador de propriedade e, portanto, são duas representações da mesma propriedade. 
+Para um anexo de arquivo de documento OLE, o provedor do repositório de mensagens deve responder a uma chamada de [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) no **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) e, opcionalmente, responder a uma chamada no **PR_ATTACH_DATA_BIN **. Observe que **PR_ATTACH_DATA_BIN** e **PR_ATTACH_DATA_OBJ** compartilham o mesmo identificador de propriedade e, portanto, são duas rendições da mesma propriedade. 
   
-Para um objeto de armazenamento, como um arquivo composto no formato de arquivo de documento OLE 2.0, alguns provedores de serviços permitem que ele seja aberto com a interface do MAPI **IStreamDocfile** para melhorar o desempenho. Um provedor que ofereça suporte a **IStreamDocfile** deve expor no **PR_ATTACH_DATA_OBJ** e, opcionalmente, pode expor-lo em **PR_ATTACH_DATA_BIN**. 
+Para um objeto de armazenamento, como um arquivo composto no formato de DOCFILE OLE 2,0, alguns provedores de serviços permitem que ele seja aberto com a interface MAPI **IStreamDocfile** para melhorar o desempenho. Um provedor que dá suporte a **IStreamDocfile** deve expô-lo no **PR_ATTACH_DATA_OBJ** e pode, opcionalmente, expô-lo em **PR_ATTACH_DATA_BIN**. 
   
-Para obter mais informações sobre formatos e interfaces OLE, consulte [OLE e transferência de dados](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Para obter mais informações sobre interfaces e formatos OLE, consulte [OLE e transferência de dados](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ## <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

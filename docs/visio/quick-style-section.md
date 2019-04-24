@@ -1,25 +1,25 @@
 ---
-title: Seção Quick Style
+title: Seção Style rápido
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
-description: Mostra o estilo rápido atual formatação aplicados à forma, incluindo a cor da linha e estilo, cor de preenchimento e estilo, cor da sombra, efeitos, fonte e tipo de estilo de valores.
-ms.openlocfilehash: 7ca309a27559e688f3b4a458b69dad04b49f2f79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Mostra os valores de formatação de estilo rápido aplicados à forma, incluindo a cor e o estilo da linha, a cor e o estilo de preenchimento, a cor da sombra, os efeitos, a fonte e o tipo de estilo.
+ms.openlocfilehash: e56d14473077381d331574f0ab098beab0cbe50e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358839"
 ---
-# <a name="quick-style-section"></a>Seção Quick Style
+# <a name="quick-style-section"></a>Seção Style rápido
 
-Mostra o estilo rápido atual formatação aplicados à forma, incluindo a cor da linha e estilo, cor de preenchimento e estilo, cor da sombra, efeitos, fonte e tipo de estilo de valores. 
+Mostra os valores de formatação de estilo rápido aplicados à forma, incluindo a cor e o estilo da linha, a cor e o estilo de preenchimento, a cor da sombra, os efeitos, a fonte e o tipo de estilo. 
   
 ## <a name="remarks"></a>Comentários
 
-Você pode selecionar a forma e selecionar um novo estilo rápido de estilos rápidos (na guia **página inicial** , no grupo **Estilos de forma** , clique em **mais**e, em seguida, selecione outro estilo rápido da galeria).
+Você pode alterar o estilo rápido selecionando a forma e, em seguida, selecionando um novo estilo rápido (na guia **página inicial** , no grupo **estilos de forma** , clique em **mais**e selecione outro estilo rápido na Galeria).
   
 

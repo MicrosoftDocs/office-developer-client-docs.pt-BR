@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: Determina se a forma pode ser adicionada ao grupo sendo solta nele.
-ms.openlocfilehash: f2edfcb7cf9d21b2ecd97b335b07f30233903d5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8cb02a66f745530f12c7c8be56b9bdd771121b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360169"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>Célula IsDropSource (Seção Miscellaneous)
 
@@ -22,8 +22,8 @@ Determina se a forma pode ser adicionada ao grupo sendo solta nele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
-|FALSO  <br/> |A forma não pode ser adicionada ao grupo.  <br/> |
+|TRUE  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
+|FALSE  <br/> |A forma não pode ser adicionada ao grupo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

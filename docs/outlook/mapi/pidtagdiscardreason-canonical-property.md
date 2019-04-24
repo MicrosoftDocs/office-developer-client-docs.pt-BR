@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5004dc1f-6bd3-4764-b83c-d04d83161dba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8835b7234a209d5cb80a19593632380f6d83826
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 32c81474580dbe4948c40390dadd0445776ab825
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360841"
 ---
 # <a name="pidtagdiscardreason-canonical-property"></a>Propriedade canônica PidTagDiscardReason
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593155"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um motivo por que um agente de transferência de mensagem (MTA) tem descartado uma mensagem. 
+Contém um motivo pelo qual um agente de transferência de mensagem (MTA) descartou uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um motivo por que um agente de transferência de mensagem (MTA) tem desc
    
 ## <a name="remarks"></a>Comentários
 
-O motivo pelo qual contido nessa propriedade é usado em um relatório de não entrega da mensagem.
+O motivo contido nessa propriedade é usado em um relatório de não entrega para a mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

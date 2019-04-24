@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: Contém um elemento EventItem para cada evento ao qual um objeto deve responder.
 ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351048"
 ---
 # <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento EventList (VisioDocument_Type complexType) ('Visio XML')
 
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

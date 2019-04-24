@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a6caa322e1d266be1fe56aecd89736e757067758
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b6900cbacc2bea6c5519efdc4281ca98629b23bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355675"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>Propriedade canônica PidTagMessageSecurityLabel
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594366"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um rótulo de segurança de uma mensagem.
+Contém um rótulo de segurança para uma mensagem.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um rótulo de segurança de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade fornece a base nos quais a propriedade **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) protege uma mensagem. Sua associação com o conteúdo da mensagem é garantida pelo token.
+Essa propriedade fornece a base na qual a propriedade **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) protege uma mensagem. Sua associação com o conteúdo da mensagem é garantida pelo token.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

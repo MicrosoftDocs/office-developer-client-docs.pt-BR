@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm3015
 localization_priority: Normal
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
-description: Contém x e y-coordenadas do ponto de extremidade de um arco elíptico, x e y-coordenadas dos pontos de controle do arco, ângulo de x-eixo ao eixo principal da elipse e a razão entre os eixos principal e secundária da elipse.
-ms.openlocfilehash: 9a356429f14a20b72a8bd55689855e2954d4a807
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém as coordenadas x e y de um ponto de extremidade de um arco elíptico, as coordenadas x e y dos pontos de controle no arco, o ângulo do eixo x para o eixo principal da elipse e a proporção entre os eixos principal e secundário da elipse.
+ms.openlocfilehash: c6db7560a05652ca3bfcadb2fd4857ac39370562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345672"
 ---
 # <a name="ellipticalarcto-row-geometry-section"></a>Linha EllipticalArcTo (Seção Geometry)
 
-Contém *x* e *y* - coordenadas do ponto de extremidade do arco elíptico, *x* - e *y* -coordenadas dos pontos de controle do arco, ângulo do *x* -eixo ao eixo principal da elipse e proporção entre principal da elipse e secundária eixos r. 
+Contém as coordenadas *x* e *y* de um ponto de extremidade de um arco elíptico, as coordenadas *x* e *y* dos pontos de controle no arco, ângulo do eixo *x* para o eixo principal da elipse e a proporção entre o maior e o Mino da elipse. eixos r. 
   
 Uma linha EllipticalArcTo contém as células a seguir.
   
-|**Célula**|**Descrição**|
+|**Cell**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -coordenadas do vértice final em um arco.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -coordenadas do vértice final em um arco.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |*X* -coordenadas do ponto de controle do arco; um ponto do arco. O ponto de controle está localizado melhor sobre na metade entre exagerada vértices do arco. Caso contrário, o arco pode aumentar para um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -coordenadas do ponto de controle do arco.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |O ângulo do eixo de principal do arco em relação a *x* -o eixo de seu pai.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final em um arco.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final em um arco.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |A coordenada *x* do ponto de controle do arco; um ponto no arco. O ponto de controle é melhor localizado sobre a metade entre os vértices inicial e final do arco. Caso contrário, o arco pode chegar a um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |
+|[A.b.c.](b-cell-geometry-section.md) <br/> |A coordenada *y* do ponto de controle de um arco.  <br/> |
+|[Unidade](c-cell-geometry-section.md) <br/> |O ângulo do eixo principal do arco em relação ao eixo *x* de seu pai.  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |A razão entre os eixos principal e secundário de um arco. Apesar do significado comum dessas palavras, o eixo "principal" não precisa ser maior que o eixo "secundário". Logo, a razão não precisa ser maior que 1. Definir esta célula para um valor menor ou igual a 0, ou maior que 1000, pode ocasionar resultados imprevisíveis.  <br/> |
    
 

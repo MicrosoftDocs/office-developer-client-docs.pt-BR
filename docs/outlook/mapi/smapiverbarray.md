@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7cba5dce60ce15ddb12776d619143849298aac9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357474"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569460"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas de [SMAPIVerb](smapiverb.md) que descrevem os verbos MAPI. 
+Contém uma matriz de estruturas [SMAPIVerb](smapiverb.md) que descrevem os verbos MAPI. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
@@ -53,7 +53,7 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SMAPIVerbArray** é passada como um parâmetro no método [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) . 
+A estrutura **SMAPIVerbArray** é passada como um parâmetro no método [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) . 
   
 ## <a name="see-also"></a>Confira também
 

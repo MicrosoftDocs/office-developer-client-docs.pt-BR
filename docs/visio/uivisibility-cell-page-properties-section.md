@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Determina se o nome da página será exibido na interface do usuário.
-ms.openlocfilehash: dcb4a14ff89c7f5c77916e6b188aaf87e1711ab0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357215"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>Célula UIVisibility (Seção Page Properties)
 
@@ -22,17 +22,17 @@ Determina se o nome da página será exibido na interface do usuário.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Exibe o nome da página na interface do usuário (o padrão).  <br/> |**visUIVNormal** <br/> |
+|,0  <br/> |Exibe o nome da página na interface do usuário (o padrão).  <br/> |**visUIVNormal** <br/> |
 |1  <br/> |Não exibe o nome da página na interface do usuário.  <br/> |**visUIVHidden** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Definindo a célula UIVisibility como **visUIVHidden** impede que a página que aparecem em qualquer lugar na interface de usuário onde a cadeia de caracteres contendo o nome da página aparece. Por exemplo, a página não seria listada como uma opção no **Gerenciador de desenho** ou nas guias de página. A página permanece acessível, no entanto, se você usar caminhos de automação ou da interface do usuário que não inclua o nome da página, por exemplo, o comando **Imprimir** . 
+A definição da célula UIVisibility como **visUIVHidden** impede que a página seja exibida em qualquer parte da interface do usuário em que a cadeia de caracteres contendo o nome da página apareça. Por exemplo, a página não seria listada como uma opção no **Gerenciador de Desenho** nem nas guias de página. No entanto, a página permanecerá acessível se você usar caminhos de automação ou de interface do usuário que não incluem o nome da página, por exemplo, o comando **Imprimir** . 
   
  Essa célula é destinada ao uso com páginas de documento, e não com páginas de sobreposição de marcação, cuja célula UIVisibility é definida como **visUIVHidden** por padrão e não deve ser mudada. 
   
 > [!NOTE]
-> Para ocultar uma página do comando **Imprimir** do documento, torná-lo uma página de plano de fundo (a propriedade**Type** é **visTypeBackground** ) que não é usado como um plano de fundo por qualquer página (as formas em páginas são impressas quando uma página utilizá-lo como um plano de fundo é de plano de fundo impresso). Comando **Imprimir** do documento funciona somente com páginas indexadas e páginas de plano de fundo não estão indexadas. 
+> Para ocultar uma página do comando de **impressão** do documento, torne-a uma página de plano de fundo (a propriedade**Type** é **visTypeBackground** ) que não é usada como plano de fundo por nenhuma página (as formas nas páginas de plano de fundo são impressas quando uma página que a usa como plano de fundo é impresso). O comando **Imprimir** do documento só funciona com páginas indexadas e as páginas de plano de fundo não são indexadas. 
   
 Para obter uma referência para a célula UIVisibility pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

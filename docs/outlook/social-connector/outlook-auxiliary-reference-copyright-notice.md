@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
 description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: dddf23e19f4f53e21de33210f26cf254cb83a750
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359889"
 ---
 # <a name="outlook-auxiliary-reference-copyright-notice"></a>Aviso de direitos autorais da referência auxiliar do Outlook
 

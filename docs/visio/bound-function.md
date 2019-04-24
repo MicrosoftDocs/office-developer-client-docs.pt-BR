@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Restringe o valor de uma célula a um intervalo ou série de intervalos.
-ms.openlocfilehash: 2f6228828fee8fa1831bb0d3a714fca068808652
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348948"
 ---
 # <a name="bound-function"></a>Função BOUND
 
@@ -22,35 +22,33 @@ Restringe o valor de uma célula a um intervalo ou série de intervalos.
   
 ## <a name="syntax"></a>Sintaxe
 
-LIGADO (* * *valor* * *, * * *tipo* * *, * * *Ignorar* * *, * * *valor1* * *, * * *value2* * * * * * [, ignorar, value1(n), value2(n), …] * * *) 
+BOUND (* * *Value* * *, * * *Type* * *, * * *ignore* * *, * * *value1* * *, * * *value2* * * * * * [, ignorar (n), value1 (n), value2 (n),...] * * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O valor que está sendo restringido no momento.  <br/> |
-| _type_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Se a restrição é inclusive (0), exclusive (1) ou desativada (2).
-  <br/> |
-| _Ignorar_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | TRUE para ignorar o intervalo; FALSO para restringir o valor da célula ao intervalo.  <br/> |
-| _value1_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro valor de um intervalo.
-  <br/> |
-| _Value2_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O segundo valor de um intervalo.  <br/> |
+| _value_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O valor que está sendo restringido no momento.  <br/> |
+| _type_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Se a restrição é inclusive (0), exclusive (1) ou desativada (2).  <br/> |
+| _ignora_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | TRUE para ignorar o intervalo; FALSE para restringir o valor da célula ao intervalo.  <br/> |
+| _valor1_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro valor de um intervalo.  <br/> |
+| _value2_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O segundo valor de um intervalo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use a função BOUND para restringir uma célula valor a um limite superior e limite inferior, por exemplo, para controlar objetos que não devem ser alongados acima ou abaixo uma altura de mínima ou máxima. A restrição é possível incluir ou excluir o intervalo ou intervalos. Se o valor atual não seja restringido, defina o parâmetro _type_ para 2 (desabilitado). 
+Use a função BOUND para restringir o valor de uma célula a um limite superior ou inferior; por exemplo, para controlar objetos que não devem ser estendidos acima ou abaixo de uma altura mínima ou máxima. A restrição pode incluir ou excluir o intervalo ou intervalos. Se o valor atual não deve ser restrito, defina o parâmetro _Type_ como 2 (Disabled). 
   
-Você pode definir vários intervalos fornecendo várias ocorrências dos parâmetros _Ignorar_, _value1_e _value2_ . Use o parâmetro _Ignorar_ para desativar restrições através de um determinado intervalo. 
+Você pode definir vários intervalos fornecendo várias ocorrências dos parâmetros _ignore_, _value1_e _value2_ . Use o parâmetro _ignore_ para desabilitar as restrições por um intervalo específico. 
   
-A fórmula contendo a função BOUND não é substituída quando seu valor é alterado; em vez disso, ela é preservada e o novo valor é colocado no parâmetro _value_ . 
+A fórmula contendo a função BOUND não é substituída quando seu valor é alterado; em vez disso, a fórmula é preservada e o novo valor é colocado no parâmetro _Value_ . 
   
 ## <a name="example-1"></a>Exemplo 1
 
 Este exemplo utiliza a função BOUND para forçar uma alça de controle a ficar dentro da caixa de limite de uma forma. 
   
-Controls. X1 = BOUND (largura\*0,5, 0, FALSO, largura\*0, largura\*1)
+Controls. X1 = BOUND (largura\*0,5, 0, falso, largura\*0, largura\*1)
   
-Controls. y1 = BOUND (altura\*0,5, 0, FALSO, altura\*0, altura\*1)
+Controls. Y1 = BOUND (altura\*0,5, 0, falso, altura\*0, altura\*1)
   
 ## <a name="example-2"></a>Exemplo 2
 

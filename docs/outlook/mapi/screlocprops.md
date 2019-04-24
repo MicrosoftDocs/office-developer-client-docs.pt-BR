@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 241fac608552036e4706956cbe79524aaedacec9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360687"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 
@@ -25,13 +25,13 @@ ms.locfileid: "22576845"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ajusta os ponteiros em uma matriz de [SPropValue](spropvalue.md) depois que a matriz e seus dados foram copiadas ou movidos para um novo local. 
+Ajusta os ponteiros em uma matriz [SPropValue](spropvalue.md) após a matriz e seus dados terem sido copiados ou movidos para um novo local. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScRelocProps(
@@ -45,31 +45,31 @@ SCODE ScRelocProps(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cprop_
+ _cProp_
   
-> [in] Contagem de propriedades na matriz apontado pelo parâmetro _rgprop_ . 
+> no Contagem de propriedades na matriz apontada pelo parâmetro _rgprop_ . 
     
  _rgprop_
   
-> [in] Ponteiro para uma matriz de estruturas de [SPropValue](spropvalue.md) no qual ponteiros devem ser ajustadas. 
+> no Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) para as quais os ponteiros devem ser ajustados. 
     
  _pvBaseOld_
   
-> [in] Ponteiro para o endereço base original da matriz apontado pelo parâmetro _rgprop_ . 
+> no Ponteiro para o endereço base original da matriz apontada pelo parâmetro _rgprop_ . 
     
  _pvBaseNew_
   
-> [in] Ponteiro para o novo endereço base da matriz apontado pelo parâmetro _rgprop_ . 
+> no Ponteiro para o novo endereço base da matriz apontada pelo parâmetro _rgprop_ . 
     
  _PCB_
   
-> [além, out] Ponteiro opcional para o tamanho, em bytes, da matriz indicado pelo parâmetro _pvBaseNew_ . Se não for NULL, o parâmetro _pcb_ estiver definido como o número de bytes armazenado no parâmetro _pvD_ . 
+> [in, out] Ponteiro opcional para o tamanho, em bytes, da matriz indicada pelo parâmetro _pvBaseNew_ . Se não for nulo, o parâmetro _PCB_ será definido como o número de bytes armazenados no parâmetro _pvD_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> Ponteiros foram ajustados com êxito.
+> Os ponteiros foram ajustados com êxito.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -77,15 +77,15 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-A função **ScRelocProps** opera no pressuposto de que a matriz de valores de propriedade para o qual os ponteiros são ajustados foi originalmente alocado em uma única chamada semelhante a uma chamada para a função **ScCopyProps** . Se um aplicativo cliente ou um provedor de serviço está trabalhando com um valor de propriedade é construído a partir de blocos não contíguos de memória, ele deve usar [ScCopyProps](sccopyprops.md) para copiar as propriedades em vez disso. 
+A função **ScRelocProps** opera na pressuposição de que a matriz de valor de propriedade para a qual os ponteiros são ajustados foi originalmente alocada em uma única chamada semelhante a uma chamada para a função **ScCopyProps** . Se um aplicativo cliente ou provedor de serviços estiver trabalhando com um valor de propriedade criado a partir de blocos de memória não conjunta, ele deverá usar o [ScCopyProps](sccopyprops.md) para copiar propriedades. 
   
- **ScRelocProps** é usado para manter a validade dos ponteiros em uma matriz [SPropValue](spropvalue.md) . Para manter a validade dos ponteiros ao escrever essa matriz para e lê-lo a partir de um disco, execute as seguintes operações: 
+ **ScRelocProps** é usado para manter a validade de ponteiros em uma matriz [SPropValue](spropvalue.md) . Para manter a validade dos ponteiros ao gravar tal matriz e lê-lo em um disco, execute as seguintes operações: 
   
-1. Antes de gravar a matriz e os dados em um disco, chame **ScRelocProps** na matriz com o parâmetro _pvBaseNew_ apontando para algum valor padrão de zero, por exemplo. 
+1. Antes de gravar a matriz e os dados em um disco, chame **ScRelocProps** na matriz com o parâmetro _pvBaseNew_ apontando para um valor padrão zero, por exemplo. 
     
-2. Após ler a matriz e os dados de um disco, chame **ScRelocProps** a matriz com o parâmetro _pvBaseOld_ igual com o mesmo valor padrão usado na etapa 1. A matriz e os dados devem ser lido em um buffer criado com uma alocação simples. 
+2. Após ler a matriz e os dados de um disco, chame **ScRelocProps** na matriz com o parâmetro _pvBaseOld_ igual ao mesmo valor padrão usado na etapa 1. A matriz e os dados devem ser lidos em um buffer criado com uma única alocação. 
     
-3. O parâmetro _pcb_ **ScRelocProps** é opcional. 
+3. O parâmetro _PCB_ para **ScRelocProps** é opcional. 
     
 ## <a name="see-also"></a>Confira também
 

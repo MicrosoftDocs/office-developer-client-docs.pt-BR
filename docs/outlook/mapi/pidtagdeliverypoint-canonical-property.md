@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e18b08bcbd76cacf7dbb5b5fd36d80d5f266364d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360876"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Propriedade canônica PidTagDeliveryPoint
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580135"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a natureza da entidade funcional por meio do qual uma mensagem foi ou seria foi entregue ao destinatário. 
+Especifica a natureza da entidade funcional por meio da qual uma mensagem foi ou seria entregue ao destinatário. 
   
 |||
 |:-----|:-----|
@@ -40,31 +40,31 @@ Essa propriedade pode ter exatamente um dos seguintes valores:
   
 MAPI_MH_DP_ML 
   
-> Entregue a uma lista de distribuição, uma ponto de entrega que por sua vez pode distribuir a mensagem para vários destinatários.
+> Entregue a uma lista de distribuição, um ponto de entrega que, por sua vez, pode distribuir a mensagem para muitos destinatários.
     
 MAPI_MH_DP_MS 
   
-> Entregue a um armazenamento de mensagens em vez de diretamente para um destinatário.
+> Entregue a um repositório de mensagens, em vez de diretamente a um destinatário.
     
 MAPI_MH_DP_OTHER_AU 
   
-> Entregue a uma unidade de acesso (AU) que não seja uma unidade de acesso de entrega física (PDAU), como um sistema de FAX.
+> Entregue a uma unidade de acesso (AU) diferente da PDAU (unidade de acesso de entrega física), como um sistema de FAX.
     
 MAPI_MH_DP_PDAU 
   
-> Entregue a uma unidade de acesso de entrega física, como uma operadora de telefonia postal humana.
+> Entregue a uma unidade de acesso físico da entrega, como uma operadora postal humana.
     
 MAPI_MH_DP_PDS_PATRON 
   
-> Entregue a um sistema de entrega físico patron, como uma caixa de correio postal convencional.
+> Entregue a um sistema de entrega física Patron, como uma caixa postal convencional.
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> Entregue a um agente particulares do usuário (UA), como um cliente em um sistema de mensagens na empresa.
+> Entregue a um agente de usuário privado (UA), como um cliente em um sistema de mensagens interno.
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> Entregue a um agente de usuário público ou provedor de serviços públicos.
+> Entregue a um agente de usuário público ou um provedor de serviços públicos.
     
 O valor padrão é MAPI_MH_DP_PRIVATE_UA, ou seja, um cliente MAPI. 
   
@@ -72,13 +72,13 @@ O valor padrão é MAPI_MH_DP_PRIVATE_UA, ou seja, um cliente MAPI.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -86,7 +86,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

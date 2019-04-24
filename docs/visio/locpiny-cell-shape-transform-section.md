@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 'Representa o y-coordenadas do pino da forma (Centro de rotação) em relação à origem da forma. A fórmula padrão para determinar LocPinY é:'
-ms.openlocfilehash: 8d98906e8082af0fc54bc01fe3a8537b66ac56b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Representa a coordenada y do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinY é:'
+ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358041"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>Célula LocPinY (Seção Shape Transform)
 
-Representa o *y* -coordenadas do pino da forma (Centro de rotação) em relação à origem da forma. A fórmula padrão para determinar LocPinY é: 
+Representa a coordenada *y* do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinY é: 
   
-= A altura \* 0.5
+= Altura \* 0,5
   
 ## <a name="remarks"></a>Comentários
 

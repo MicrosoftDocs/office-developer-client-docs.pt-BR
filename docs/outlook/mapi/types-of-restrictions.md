@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356564"
 ---
 # <a name="types-of-restrictions"></a>Tipos de restrições
 
@@ -21,31 +21,31 @@ ms.locfileid: "22572442"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Há muitos tipos de restrições, alguns que se concentrem em colunas específicas. Todas as implementações de tabela esperadas para dar suporte a restrições nas colunas no conjunto atual de coluna. No entanto, para adicionar um valor, implementadores de tabela também podem oferecer suporte restrições com base nas propriedades do objeto que não estão atualmente no modo de exibição de tabela.
+Há muitos tipos de restrições, algumas que se concentram em colunas específicas. Todas as implementações de tabelas devem suportar restrições nas colunas no conjunto de colunas atual. No enTanto, para adicionar valor, os implementadores de tabela também podem suportar restrições com base nas propriedades de objeto que não estão atualmente no modo de exibição de tabela.
   
-Algumas restrições podem ser combinadas usando uma restrição que está executando uma operação de lógica **e**, **ou**ou **não** . Por exemplo, a propriedade maioria das restrições devem estar associadas com existir restrições usando **e** restrições. Há algumas exceções, como quando a propriedade usada na restrição de propriedade é a propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) ou quando ela é uma coluna necessária em uma tabela. Um cliente de criação de restrições para limitar o seu modo de exibição deve usar existir restrições com restrições de sua propriedade porque MAPI não especifica como provedores de serviços devem avaliar restrições de propriedade quando uma propriedade não existe. É razoável e recomendado que a restrição de falhar de provedores de serviço, mas não existem requisitos. 
+Algumas restrições podem ser combinadas usando uma restrição que executa uma operação lógica **and**, **or**ou **not** . Por exemplo, a maioria das restrições de propriedade deve ser associada a restrições Exists using **e** Restrictions. Há algumas exceções, como quando a propriedade usada na restrição de propriedade é a propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) ou quando é uma coluna obrigatória em uma tabela. Uma restrição de construção de cliente para limitar o modo de exibição deve usar restrições Exists com suas restrições de propriedade porque MAPI não especifica como os provedores de serviços devem avaliar as restrições de propriedade quando uma propriedade não existir. É razoável e recomendado que os provedores de serviços falham na restrição, mas não há nenhum requisito. 
   
-Uma restrição é definida usando a estrutura de dados [SRestriction](srestriction.md) que contém uma união de estruturas de restrição mais especializadas e um indicador do tipo de estrutura incluído na União. 
+Uma restrição é definida usando a estrutura de dados [SRestriction](srestriction.md) que contém uma União de estruturas de restrição mais especializadas e um indicador do tipo de estrutura incluído na União. 
   
-Cada as estruturas de restrição especializados na União representa um tipo diferente de restrição. Os tipos de restrições e suas estruturas de dados associados são:
+Cada uma das estruturas de restrição especializadas na União representa um tipo diferente de restrição. Os tipos de restrições e suas estruturas de dados associadas são:
   
-|**Tipo de restrição**|**Estrutura de dados associados**|**Descrição**|
+|**Tipo de restrição**|**Estrutura de dados associada**|**Descrição**|
 |:-----|:-----|:-----|
-|Comparar a propriedade  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |Compara duas propriedades do mesmo tipo.  <br/> |
-|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |Executa uma operação **AND** lógica em dois ou mais restrições.  <br/> |
-|**OU** <br/> |[SOrRestriction](sorrestriction.md) <br/> |Executa uma operação **OR** lógica em dois ou mais restrições.  <br/> |
-|**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |Executa uma operação **não é** lógica em dois ou mais restrições.  <br/> |
-|Content  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Localiza os dados especificados.  <br/> |
-|Propriedade  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Especifica um valor de propriedade específica como critérios de correspondência. Pode ser usado, por exemplo, para pesquisar por um determinado tipo de anexo.  <br/> |
-|Bitmask  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |Aplica uma máscara de bits para uma propriedade PT_LONG, geralmente para determinar se a determinado sinalizadores estão definidos.  <br/> |
-|Size  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Testa o tamanho de uma propriedade usando operadores relacionais padrão.  <br/> |
-|Existe  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Testa se um objeto tem um valor para uma propriedade.  <br/> |
-|Subobjeto  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |Usado para pesquisar o subobjetos ou objetos que não podem ser acessados com um identificador de entrada, como destinatários e anexos. Pode ser usado, por exemplo, para procurar mensagens para um destinatário específico.  <br/> |
-|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |Associa um objeto com um conjunto de propriedades nomeadas.  <br/> |
+|Propriedade Compare  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |Compara duas propriedades do mesmo tipo.  <br/> |
+|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |Executa uma operação **e** lógica em duas ou mais restrições.  <br/> |
+|**OU** <br/> |[SOrRestriction](sorrestriction.md) <br/> |Executa uma operação lógica **ou** em duas ou mais restrições.  <br/> |
+|**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |Executa uma operação **não** lógica em duas ou mais restrições.  <br/> |
+|Conteúdo  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Localiza dados especificados.  <br/> |
+|Propriedade	  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Especifica um determinado valor de propriedade como critérios de correspondência. Pode ser usado, por exemplo, para pesquisar um determinado tipo de anexo.  <br/> |
+|Mascara  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |Aplica um bitmask a uma propriedade PT_LONG, geralmente para determinar se determinados sinalizadores estão definidos.  <br/> |
+|Tamanho  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Testa o tamanho de uma propriedade usando operadores relacionais padrão.  <br/> |
+|Existente  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Testa se um objeto tem um valor para uma propriedade.  <br/> |
+|Subobjeto  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |Usada para pesquisar por subobjetos ou objetos que não podem ser acessados com um identificador de entrada, como destinatários e anexos. Pode ser usado, por exemplo, para procurar mensagens de um destinatário específico.  <br/> |
+|Comentário  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |Associa um objeto com um conjunto de propriedades nomeadas.  <br/> |
    
-Algumas restrições usam expressões regulares e MAPI oferece uma forma limitada de expressão regular a notação no estilo que é usada muitos aplicativos de texto.
+Algumas restrições usam expressões regulares e o MAPI oferece suporte a uma forma limitada de notação de expressão regular no estilo que é usado em muitos aplicativos de texto.
   
-A restrição de comentário é usada pelos clientes que salvar restrições em disco para manter informações específicas de aplicativo com a restrição. Por exemplo, um cliente a salvando o nome de uma propriedade nomeada usado em uma restrição de propriedade poderá fazer isso com uma restrição de comentário. Salvar o nome não é possível em uma restrição de propriedade; a estrutura de dados [SPropertyRestriction](spropertyrestriction.md) contém apenas a marca de propriedade. Restrições de comentário serão ignoradas pelo [IMAPITable:: Restrict](imapitable-restrict.md) em que eles não têm efeito sobre as linhas retornadas pela [IMAPITable:: QueryRows](imapitable-queryrows.md) após ter sido feita uma chamada **Restrict** . 
+A restrição de comentário é usada por clientes que salvam restrições no disco para manter as informações específicas do aplicativo com a restrição. Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazê-lo com uma restrição de comentário. Não é possível salvar o nome em uma restrição de propriedade; a estrutura de dados [SPropertyRestriction](spropertyrestriction.md) contém apenas a marca de propriedade. As restrições de comentário são ignoradas por imApitable [:: Restrict](imapitable-restrict.md) no que não têm efeito nas linhas retornadas por IMAPITable [:: QueryRows](imapitable-queryrows.md) após uma chamada **restrita** ter sido feita. 
   
 ## <a name="see-also"></a>Confira também
 

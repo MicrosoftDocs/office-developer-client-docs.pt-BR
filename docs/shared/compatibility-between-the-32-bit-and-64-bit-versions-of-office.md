@@ -6,11 +6,11 @@ ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Descubra como a versão de 32 bits do Office é compatível com a versão de 64 bits do Office.
 localization_priority: Priority
 ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359819"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilidade entre as versões de 32 bits e 64 bits do Office
 
@@ -25,7 +25,7 @@ O Visual Basic for Applications 7.0 (VBA 7) é lançado nas versões de 64 bits 
 > [!NOTE]
 > Por padrão, quando você instala uma versão de 64 bits do Office, também instala a versão de 32 bits junto com o sistema de 64 bits. Você deve selecionar explicitamente a opção de instalação da versão de 64 bits do Microsoft Office. 
   
-No VBA 7, você deve atualizar as instruções existentes da API do Windows (instruções **Declare**) para funcionar com a versão de 64 bits. Além disso, você deve atualizar os ponteiros de endereço e exibir alças de janela em tipos definidos pelo usuário que são usadas por estas instruções. Isso é discutido mais detalhadamente neste artigo, bem como os problemas de compatibilidade entre as versões de 32 bits e 64 bits e as soluções sugeridas.  
+No VBA 7, você deve atualizar as instruções existentes da API do Windows (instruções **Declare**) para trabalhar com a versão de 64 bits. Além disso, você deve atualizar os ponteiros de endereço e exibir alças de janela em tipos definidos pelo usuário que são usadas por estas instruções. Isso é discutido mais detalhadamente neste artigo, bem como os problemas de compatibilidade entre as versões de 32 bits e 64 bits e as soluções sugeridas. 
   
 ## <a name="comparing-32-bit-and-64-bit-systems"></a>Comparando os sistemas de 32 bits e 64 bits
 <a name="odc_office_Compatibility32bit64bit_Comparing32BitSystemsto64BitSystems"> </a>
@@ -67,7 +67,7 @@ Os processos de 64 bits nativos no Office não podem carregar binários de 32 bi
 A combinação de VBA e das bibliotecas de tipo oferece diversas funcionalidades para criar aplicativos do Office. No entanto, às vezes, você deve se comunicar diretamente com o sistema operacional do computador e outros componentes, como quando você gerencia memória ou processos, ao trabalhar com elementos de interface de usuário como janelas e controles, ou ao modificar o registro do Windows. Nessas situações, sua melhor opção é usar uma das funções externas incorporados em arquivos DLL. Para fazer isso no VBA, faça chamadas de API usando instruções **Declare**. 
   
 > [!NOTE]
-> A Microsoft fornece um arquivo Win32API.txt que contém 1.500 instruções Declare e uma ferramenta para copiar a instrução **Declare** que você desejar para o seu código. No entanto, essas instruções são para os sistemas de 32 bits e devem ser convertidas para 64 bits, usando as informações discutidas posteriormente neste artigo. As instruções **Declare** existentes não compilarão no VBA de 64 bits até que tenham sido marcadas como seguras para 64 bits, usando o atributo **PtrSafe**. Você pode localizar exemplos desse tipo de conversão no site de Jan Karel Pieterse, MVP de Excel: [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). O [Guia do usuário do Inspetor de compatibilidade de código do Office](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) é uma ferramenta útil para inspecionar a sintaxe de instruções **Declare** da API do atributo **PtrSafe**, se necessário, e o tipo de retorno apropriado. 
+> A Microsoft fornece um arquivo Win32API.txt que contém 1.500 instruções Declare e uma ferramenta para copiar a instrução **Declare** que você desejar para o seu código. No entanto, essas instruções são para os sistemas de 32 bits e devem ser convertidas para 64 bits, usando as informações discutidas posteriormente neste artigo. As instruções **Declare** existentes não compilarão no VBA de 64 bits até que tenham sido marcadas como seguras para 64 bits, usando o atributo **PtrSafe**. Você pode localizar exemplos desse tipo de conversão no site de Jan Karel Pieterse, MVP de Excel: [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). O [Guia do usuário do Inspetor de compatibilidade de código do Office](https://technet.microsoft.com/pt-BR/library/ee833946%28office.14%29.aspx) é uma ferramenta útil para inspecionar a sintaxe de instruções **Declare** da API do atributo **PtrSafe**, se necessário, e o tipo de retorno apropriado. 
   
 As instruções **Declare** são semelhantes ao seguinte, dependendo se você está chamando uma sub-rotina (que não tem valor de retorno) ou uma função (que tem um valor de retorno). 
   

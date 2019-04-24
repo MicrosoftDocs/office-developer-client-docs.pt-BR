@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f720160193613bbbb4bbd447f78c14e6e5378eb8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 97021128f92af0486af1ba3125c7843eaa357648
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350727"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
@@ -25,13 +25,13 @@ ms.locfileid: "22565652"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Procura uma propriedade especificada em uma propriedade definida.
+Procura por uma propriedade especificada em um conjunto de propriedades.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 LPSPropValue PpropFindProp(
@@ -45,35 +45,35 @@ LPSPropValue PpropFindProp(
 
  _rgprop_
   
-> [in] Matriz de estruturas de [SPropValue](spropvalue.md) que definem as propriedades a serem pesquisados. 
+> no Matriz de estruturas [SPropValue](spropvalue.md) que definem as propriedades a serem pesquisadas. 
     
- _cprop_
+ _cProp_
   
-> [in] Contagem de propriedades no conjunto de propriedade indicada pelo parâmetro _rgprop_ . 
+> no Contagem de propriedades no conjunto de propriedades indicado pelo parâmetro _rgprop_ . 
     
  _ulPropTag_
   
-> [in] Marca de propriedade para a propriedade pesquisar no conjunto de propriedades indicado pelo parâmetro _rgprop_ . 
+> no Marca de propriedade da propriedade a ser pesquisada no conjunto de propriedades indicado pelo parâmetro _rgprop_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
- **PpropFindProp** retorna uma estrutura de [SPropValue](spropvalue.md) definindo a propriedade que corresponda a propriedade input marca ou NULL se não houver nenhuma correspondência. 
+ **PpropFindProp** retorna uma estrutura [SPropValue](spropvalue.md) que define a propriedade que corresponde à marca da propriedade input ou NULL se não houver correspondência. 
   
 ## <a name="remarks"></a>Comentários
 
-Se a marca de propriedade determinado indica uma propriedade do tipo PT_UNSPECIFIED, a função **PpropFindProp** localiza uma correspondência apenas para o identificador de propriedade da marca. Caso contrário, ele encontra uma correspondência para a marca de propriedade inteira, incluindo o tipo de propriedade e retorna a propriedade identificada. 
+Se a marca de propriedade fornecida indicar uma propriedade do tipo PT_UNSPECIFIED, a função **PpropFindProp** localizará uma correspondência somente para o identificador de propriedade na marca. Caso contrário, ele encontrará uma correspondência para a marca de propriedade inteira, incluindo o tipo de propriedade e retornará a propriedade identificada. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI usa o método **PpropFindProp** para localizar propriedades em uma propriedade definidas que está sendo adicionado à lista.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: BuildDataItem  <br/> |MFCMAPI usa o método **PpropFindProp** para localizar Propriedades em um conjunto de propriedades que está sendo adicionado à lista.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

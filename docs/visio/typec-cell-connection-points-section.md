@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251723
 localization_priority: Normal
 ms.assetid: 2264d026-2041-3855-2b23-553ce67ae69d
-description: Especifica o tipo de ponto de conexão.
-ms.openlocfilehash: 12c953a160ab99aad007e9b2bb9089d651aee553
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o tipo de ponto de conexão.
+ms.openlocfilehash: a73554d9f3a3bce6a039689d2c0b192a1c5b69aa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359581"
 ---
 # <a name="type--c-cell-connection-points-section"></a>Célula Type / C (Seção Connection Points)
 
-Especifica o tipo de ponto de conexão.
+Determina o tipo de ponto de conexão.
   
 |**Valor**|**Tipo**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Para dentro  <br/> |**visCnnctTypeInward** <br/> |
+|,0  <br/> |Cilindro  <br/> |**visCnnctTypeInward** <br/> |
 |1  <br/> |Para fora  <br/> |**visCnnctTypeOutward** <br/> |
-|2  <br/> |DID &amp; para fora  <br/> |**visCnnctTypeInwardOutward** <br/> |
+|duas  <br/> |Para &amp; fora  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,7 +34,7 @@ Para obter uma referência para a célula Type / C pelo nome, a partir de outra 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Connections.Type [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Connections. Type [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Type / C pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -42,7 +42,7 @@ Para obter uma referência para a célula Type / C pelo índice, a partir de um 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionConnectionPts** <br/> |
 |Índice da linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCnnctType** (linhas não-estendidas) **visCnnctC** (linhas estendidas)  <br/> |
+|Índice da célula:  <br/> |**visCnnctType** (linhas não estendidas) **visCnnctC** (linhas estendidas)  <br/> |
    
 Para obter informações sobre linhas estendidas e não-estendidas, consulte a linha Conectar Pontos.
   

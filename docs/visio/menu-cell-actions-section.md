@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: Define o nome de um item de menu exibido em um menu de atalho ou de marca de ação para uma forma ou página.
-ms.openlocfilehash: 195af94c4c36bb3c29a4fadab3c68f8334742952
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360652"
 ---
 # <a name="menu-cell-actions-section"></a>Célula Menu (Seção Actions)
 
@@ -27,11 +27,11 @@ Define o nome de um item de menu exibido em um menu de atalho ou de marca de aç
 
 Para inserir um separador no menu acima desse item, use a célula BeginGroup. Para exibir o comando na parte inferior do menu, insira antes do nome o caractere de porcentagem (%) .
   
-Para obter uma referência para a célula Menu pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula menu pelo nome, a partir de outra fórmula ou programa que use a **** propriedade Cells, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações de Menuwhere.  *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Ações Menuonde.  *Name* é o nome da linha de ações  <br/> |
    
 Para obter uma referência para a célula Menu pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

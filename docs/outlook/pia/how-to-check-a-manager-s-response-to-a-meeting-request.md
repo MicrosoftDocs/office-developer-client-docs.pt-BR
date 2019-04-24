@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba54ba740182eaffc92a0e1932a6fbed1d3804c8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359707"
 ---
 # <a name="check-a-managers-response-to-a-meeting-request"></a>Verificar a resposta do gerente para uma solicitação de reunião
 
@@ -27,7 +27,7 @@ Para determinar se certo destinatário aceitou ou recusou uma reunião solicitad
 
 No exemplo de código a seguir, CheckManagerResponseStatus aceita um objeto **AppointmentItem** como um parâmetro. CheckManagerResponseStatus obtém o objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) chamando o método **GetExchangeUser** no usuário atual. CheckManagerResponseStatus obtém o objeto **ExchangeUser** associado ao gerente do usuário atual chamando o método **GetExchangeUserManager**. Usando o método [CompareEntryIDs (String, String)](https://msdn.microsoft.com/library/bb646919\(v=office.15\)) do objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)), o exemplo verifica se o objeto **Recipient** associado ao objeto **AppointmentItem** é o mesmo que o objeto **ExchangeUser** que representa o gerente do usuário. Se **CompareEntryIDs** retornar **true**, o gerente do usuário estará no conjunto **Recipients** e CheckManagerResponseStatus retornará **MeetingResponseStatus** do gerente. Se **CompareEntryIDs** retornar **false**, CheckManagerResponseStatus retornará uma referência nula.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

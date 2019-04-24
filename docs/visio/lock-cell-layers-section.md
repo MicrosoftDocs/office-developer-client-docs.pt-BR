@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: Especifica se as formas pertencentes à camada estão protegidas contra seleção ou edição.
-ms.openlocfilehash: f404fe15814de802f4f6bfcebfd2558cf10cc7eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d548a6f0fe0cac10d80d73c904739b2979ecf27f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359679"
 ---
 # <a name="lock-cell-layers-section"></a>Célula Lock (Seção Layers)
 
@@ -22,8 +22,8 @@ Especifica se as formas pertencentes à camada estão protegidas contra seleçã
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |As formas estão protegidas.  <br/> |
-|FALSO  <br/> |As formas não estão protegidas.  <br/> |
+|TRUE  <br/> |As formas estão protegidas.  <br/> |
+|FALSE  <br/> |As formas não estão protegidas.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula Lock pelo nome, a partir de outra fór
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers.Locked [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers. Locked [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Lock pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

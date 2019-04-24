@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351188"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -37,35 +37,35 @@ LPMAPIFORMADVISESINK pmvns
 
  _pmvns_
   
-> [in] Ponteiro para um formulário avise o objeto coletor de eventos ou nulo.
+> no Ponteiro para um objeto de coletor de aviso de formulário ou nulo.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O registro ou cancelamento de notificação de formulário foi bem-sucedida.
+> O registro ou cancelamento da notificação de formulário foi bem-sucedido.
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método de **IMAPIViewContext::SetAdviseSink** para registrar-se para aprender sobre alterações no Visualizador do formulário ou cancelar um registro prévio. Quando _pmvns_ estiver definido como nulo, o formulário deseja cancelar um registro. Quando o coletor de eventos de aviso de pontos de _pmvns_ para um formulário válido, o formulário quer registrar para notificações futuras. 
+Os objetos Form chamam o método **IMAPIViewContext:: SetAdviseSink** para registrar para saber mais sobre as alterações no Visualizador de formulários ou cancelar um registro anterior. Quando _pmvns_ é definido como nulo, o formulário deseja cancelar um registro. Quando o _pmvns_ aponta para um coletor de aviso de formulário válido, o formulário deseja se registrar para notificações futuras. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando o **SetAdviseSink** inclui um formulário ponteiro coletor de eventos de aviso, mantenha uma referência a ele até que a outra chamada **SetAdviseSink** é feita de cancelar a notificação. Envie uma notificação quando ocorre uma alteração no seu visualizador e ao carregar uma nova mensagem. 
+Quando o **SetAdviseSink** inclui um ponteiro de coletor de aviso de formulário, mantenha uma referência a ele até que outra chamada de **SetAdviseSink** seja feita para cancelar a notificação. Enviar uma notificação quando uma alteração ocorrer no seu visualizador e quando você estiver carregando uma nova mensagem. 
   
-Para obter mais informações, consulte [enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md).
+Para obter mais informações, consulte [envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implementa o método **IMAPIViewContext::SetAdviseSink** nessa função.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI implementa o método **IMAPIViewContext:: SetAdviseSink** nesta função.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

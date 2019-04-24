@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251471
 localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
-description: Abre um documento do Microsoft Visio, se não ainda estiver aberto e ativa a janela de documento.
-ms.openlocfilehash: 7d4778fc4641465e88303b8515365172fd8be0ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Abre um documento do Microsoft Visio, se ainda não estiver aberto, e ativa a janela do documento.
+ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360953"
 ---
 # <a name="openfile-function"></a>Função OPENFILE
 
-Abre um documento do Microsoft Visio, se não ainda estiver aberto e ativa a janela de documento.
+Abre um documento do Microsoft Visio, se ainda não estiver aberto, e ativa a janela do documento.
   
 ## <a name="syntax"></a>Sintaxe
 
- **OPENFILE** ( _"filename"_)
+ **OPENFILE** ( _"NomeArquivo"_)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _FileName_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome do arquivo, incluindo o caminho do arquivo que você deseja abrir.  <br/> |
+| _nomes_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome do arquivo, incluindo o caminho do arquivo, que você deseja abrir.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -42,6 +42,6 @@ Em versões anteriores do aplicativo Visio, essa função aparece como _OPENFILE
 
  `OPENFILE("C:/MyFile.vsdx")`
   
-Abre o arquivo especificado "MyFile.vsdx" em uma nova janela ou ativa a janela se o arquivo já está aberto. 
+Abre o arquivo especificado "MyFile. vsdx" em uma nova janela ou ativa a janela se o arquivo já estiver aberto. 
   
 

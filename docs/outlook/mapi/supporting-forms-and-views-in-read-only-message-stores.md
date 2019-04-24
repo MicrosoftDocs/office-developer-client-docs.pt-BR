@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b7ffe07278cfcbba95351f2720e427dd8500221
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350614"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Suporte a formulários e modos de exibição em repositórios de mensagens somente leitura
 
@@ -21,17 +21,17 @@ ms.locfileid: "22563349"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se seu provedor de armazenamento de mensagens permite que a permissão somente leitura para o mecanismo de armazenamento subjacente, os aplicativos cliente e o Gerenciador de formulário MAPI poderão realizar certas tarefas. Especificamente, os clientes não poderão adicionar ou modificar modos de exibição personalizados e o Gerenciador de formulário MAPI poderão instalar formulários nas tabelas de pastas do repositório de conteúdo associado.
+Se o seu provedor de repositório de mensagens permitir a permissão somente leitura para o mecanismo de armazenamento subjacente, os aplicativos cliente e o Gerenciador de formulários MAPI não poderão realizar certas coisas. Especificamente, os clientes não poderão adicionar ou modificar modos de exibição personalizados, e o Gerenciador de formulários MAPI não poderá instalar formulários nas tabelas de conteúdo associadas das pastas do repositório.
   
-Para muitos repositórios de mensagem de somente leitura, que pode não ser um problema. Se for esse o caso, o provedor de armazenamento de mensagem não precisa oferecer suporte a tabelas de conteúdo associado nisso. No entanto, se seu provedor de armazenamento de mensagem deve ser somente leitura e ele também deve oferecer suporte a um conjunto predefinido de formulários ou modos de exibição, será necessário dar suporte a tabelas de conteúdo associado.
+Para muitos repositórios de mensagens somente leitura, isso pode não ser um problema. Se esse for o caso, o provedor do repositório de mensagens não precisará dar suporte a tabelas de conteúdo associado. No enTanto, se o seu provedor de repositório de mensagens deve ser somente leitura e também deve oferecer suporte a um conjunto predefinido de modos de exibição ou formulários, ele precisará suportar tabelas de conteúdo associado.
   
-A estratégia mais comuns para fazer isso, porque os clientes e o Gerenciador de formulário MAPI não é possível instalar os modos de exibição ou formulários na mensagem armazenam sozinhos, é para o provedor de armazenamento de mensagem codificá--los para o repositório de mensagem. Isso significa que a tabela de conteúdo associados ou tabelas que contêm os modos de exibição ou formulários continuará a existir no repositório de mensagem quando ele é criado, antes de todos os clientes ou MAPI Gerenciador de formulário nunca acessá-lo. Em seguida, quando um cliente solicitar uma tabela de conteúdo associado ao fazer exibições personalizadas a partir de um formulário ou o Gerenciador de formulário MAPI solicita uma tabela de conteúdo associado à inicialização de um formulário, o provedor de armazenamento de mensagens pode fornecer uma. 
+A estratégia mais comum para fazer isso, porque os clientes e o Gerenciador de formulários MAPI não podem instalar os modos de exibição ou formulários no repositório de mensagens, são para o provedor de repositórios de mensagens para embutir o código no repositório de mensagens. Isso significa que a tabela de conteúdo associada ou as tabelas que contêm os modos de exibição ou formulários existirão no repositório de mensagens quando ele for criado, antes de qualquer cliente ou o Gerenciador de formulários MAPI, acessando-o. Em seguida, quando um cliente solicita uma tabela de conteúdo associado para obter modos de exibição personalizados de um formulário ou o Gerenciador de formulários MAPI solicita uma tabela de conteúdo associada para iniciar um formulário, o provedor de repositório de mensagens pode fornecer um. 
   
-Esse requisito que as tabelas de conteúdo associado deve ser criadas e preenchidas quando o armazenamento de mensagens em si é criado indica que o seu provedor de armazenamento de mensagem precisará obter informações sobre o formato das mensagens especiais que clientes e o formulário MAPI Gerenciador de usar para armazenar os modos de exibição e formulários. Cite empregar esses formatos dependerá o cliente e o Gerenciador de formulário MAPI que está sendo usado, portanto, uma descrição que eles não pode ser fornecida aqui.
+Esse requisito de que as tabelas de conteúdo associadas sejam criadas e preenchidas quando o próprio repositório de mensagens é criado implica que seu provedor de repositório de mensagens precisará obter informações sobre o formato das mensagens especiais que os clientes e o formulário MAPI Manager use para armazenar modos de exibição e formulários. O que esses formatos irão depender do cliente e do Gerenciador de formulários MAPI sendo usados, portanto, uma descrição deles não pode ser fornecida aqui.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Repositórios de mensagem de somente leitura](read-only-message-stores.md)
+[Repositórios de mensagens somente leitura](read-only-message-stores.md)
 

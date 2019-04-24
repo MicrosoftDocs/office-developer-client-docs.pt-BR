@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: cb9a2ba72ee9fd9c45aefe9d0797930a4871404a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22f98e52444b17c383737bffd1685df0fb7ba8bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349018"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579281"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre o objeto de status do provedor.
+Abre o objeto status do provedor.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que deve ser usada para acessar o objeto de status. Passar NULL retorna a interface de padrão do objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
+> no Um ponteiro para o identificador de interface (IID) que representa a interface que deve ser usada para acessar o objeto status. Passar NULL retorna a interface padrão do objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o objeto de status é aberto. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como o objeto status é aberto. O seguinte sinalizador pode ser definido:
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. Por padrão, os objetos são abertos com acesso somente leitura e os chamadores não devem presumir que foi concedida permissão de leitura/gravação.
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura, e os chamadores não devem supor que a permissão de leitura/gravação tenha sido concedida.
     
  _lpulObjType_
   
-> [out] Um ponteiro para o tipo de objeto aberto.
+> bota Um ponteiro para o tipo do objeto aberto.
     
  _lppEntry_
   
-> [out] Um ponteiro para um ponteiro para o objeto aberto.
+> bota Um ponteiro para um ponteiro para o objeto aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e o objeto de status tiver sido aberto.
+> A chamada foi bem-sucedida e o objeto status foi aberto.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de catálogo de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto seus status. Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporta, no mínimo, o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . Para obter mais informações, consulte [Implementação do objeto de Status](status-object-implementation.md).
+Os provedores de catálogos de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto status. Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporte, no mínimo, o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . Para mais informações, consulte [implementação do objeto de status](status-object-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

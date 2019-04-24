@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm82251465
 localization_priority: Normal
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
-description: Retorna o resto que resulta quando um número é dividido por um divisor.
-ms.openlocfilehash: 4e2ef7acf9dc04e788cb2b8a0ff737f12a79c61a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o resto (módulo) que resulta quando um número é dividido por um divisor.
+ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356991"
 ---
 # <a name="modulus-function"></a>Função MODULUS
 
-Retorna o resto que resulta quando um número é dividido por um divisor.
+Retorna o resto (módulo) que resulta quando um número é dividido por um divisor.
   
 ## <a name="syntax"></a>Sintaxe
 
-MODULUS (* * *número* * *, * * *divisor* * *) 
+MÓDULO (* * *número* * *, * * *divisor* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O dividendo.  <br/> |
 | _divisor_ <br/> |Obrigatório  <br/> |**Número** <br/> |O divisor.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 

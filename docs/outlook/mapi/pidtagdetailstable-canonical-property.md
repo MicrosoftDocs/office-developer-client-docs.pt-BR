@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1602d1753d9f7f6e6f407a85dab0a33255db7aae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74eae4a4ed742c3bb90496f5975ad7dac6ff798f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360834"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Propriedade canônica PidTagDetailsTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585784"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um objeto table de vídeo incorporado.
+Contém um objeto de tabela de exibição incorporado.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um objeto table de vídeo incorporado.
    
 ## <a name="remarks"></a>Comentários
 
-Passar essa propriedade para o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para o objeto retorna uma interface de [IMAPITable](imapitableiunknown.md) que permite a criação da tabela de exibição. MAPI usa esta tabela para exibir as folhas de propriedades para um objeto do catálogo de endereços em resposta a uma chamada [IAddrBook::Details](iaddrbook-details.md) . 
+Transmitir essa propriedade para o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para o objeto retorna uma interface IMAPITable que permite a criação da tabela de exibição. [](imapitableiunknown.md) MAPI usa esta tabela para exibir folhas de propriedades para um objeto de catálogo de endereços em resposta a uma chamada de [IAddrBook::D etails](iaddrbook-details.md) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

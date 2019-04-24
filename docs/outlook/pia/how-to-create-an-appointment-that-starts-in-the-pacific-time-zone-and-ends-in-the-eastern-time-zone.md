@@ -8,27 +8,27 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e9a1b9d5f65d8683c08821d4cf0851f599f32030
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349452"
 ---
 # <a name="create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone"></a>Criar um compromisso que começa no Fuso Horário do Pacífico e termina no Fuso Horário da Costa Leste dos EUA
 
-Ocasionalmente, um compromisso pode abranger um período de tempo durante o qual o usuário pode ter viajado para um fuso horário diferente quando o compromisso é iniciado. Este exemplo cria um compromisso que começa no Fuso Horário do Pacífico (UTC-8) e termina no Fuso Horário da Costa Leste dos EUA (UTC-5).
+Ocasionalmente, um compromisso pode se estender por um período de tempo durante o qual o usuário pode ter percorrido um fuso horário diferente do que quando o compromisso é iniciado. Este exemplo cria um compromisso que começa no fuso horário do Pacífico (UTC-8) e termina no fuso horário da costa leste (UTC-5).
 
 ## <a name="example"></a>Exemplo
 
-A amostra de código a seguir usa o objeto [TimeZones](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) que representa todos os fusos horários reconhecidos no Microsoft Windows. Também usa o objeto [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) para definir ou obter a propriedade [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) e a propriedade [EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) no objeto [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)).
+Este exemplo de código usa [](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) o objeto TimeZones que representa todos os fusos horários reconhecidos no Microsoft Windows. Também usa o objeto [timezone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) para definir ou obter a propriedade [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) e a propriedade [endtimezone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) no objeto [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) .
 
-O Outlook exibe todas as datas no horário local, que é expresso no fuso horário atual do usuário, controlado pelas configurações do usuário no Painel de Controle do Windows. O Outlook também define ou obtém propriedades, como [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) e [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), no horário local. Porém, o Outlook armazena valores de data e hora como Tempo Universal Coordenado (UTC) em vez de horário local. Se você examinar o valor interno de Appointment.Start usando o objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)), vai descobrir que o valor interno de data e hora é igual ao valor local de data e hora convertido para o valor de data e hora equivalente em UTC.
+O Outlook exibe todas as datas no horário local, que são expressas no fuso horário atual do usuário, controladas pelas configurações do usuário no painel de controle do Windows. O Outlook também define ou obtém Propriedades, como [início](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) e [fim](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), em hora local. No enTanto, o Outlook armazena valores de data e hora como UTC (tempo Universal Coordenado) em vez de horário local. Se você examinar o valor interno de compromisso. Start usando o objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) , você encontraria o valor de data e hora interna é igual ao valor de data e hora local convertido para o valor de data e hora UTC equivalente.
 
-O Outlook usa as informações de fuso horário para mapear o compromisso para a hora UTC correta quando o compromisso é salvo e para a hora local correta quando o item é exibido no calendário. A alteração de StartTimeZone afeta o valor de Appointment.Start, que é sempre expresso no fuso horário local, representado pela propriedade [CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\)) do objeto retornado por [TimeZones](https://msdn.microsoft.com/library/bb645170\(v=office.15\)). De modo semelhante, a alteração de EndTimeZone afeta o valor de Appointment.End, que é sempre expresso no fuso horário local, representado pela propriedade CurrentTimeZone do objeto retornado por Application.TimeZones.
+O Outlook usa as informações de fuso horário para mapear o compromisso para a hora UTC correta quando ele salva um compromisso e na hora local correta quando exibe o item no calendário. A alteração de StartTimeZone afeta o valor de compromisso. Start, que é sempre expresso no fuso horário local, representado pela propriedade [CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\)) do objeto retornado por TimeZones. [](https://msdn.microsoft.com/library/bb645170\(v=office.15\)) Da mesma forma, alterar o endTimeZone afeta o valor de compromisso. end, que é sempre expresso no fuso horário local, representado pela propriedade CurrentTimeZone do objeto retornado por Application. timeZones.
 
-É possível recuperar um TimeZone específico de um objeto TimeZones usando uma chave independente de localidade para o TimeZone no registro do Windows. As chaves TimeZone independentes de localidade são listadas sob a seguinte chave: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`.
+Você pode recuperar um TimeZone específico do objeto timeZones usando a chave independente de localidade para o fuso horário no registro do Windows. As chaves de fuso horário independentes de localidade estão listadas na `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`seguinte chave:.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionada antes da declaração de Classe pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 
 ```vb

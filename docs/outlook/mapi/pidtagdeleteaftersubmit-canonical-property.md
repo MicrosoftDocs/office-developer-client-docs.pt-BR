@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2708d89e2572e8820de0b525b4f53ccd309ae2a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359910"
 ---
 # <a name="pidtagdeleteaftersubmit-canonical-property"></a>Propriedade canônica PidTagDeleteAfterSubmit
 
@@ -25,44 +25,44 @@ ms.locfileid: "25383867"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se quiser que um aplicativo cliente MAPI para excluir a mensagem associada após o envio. 
+Contém TRUE se um aplicativo cliente deseja que o MAPI exclua a mensagem associada após o envio. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_DELETE_AFTER_SUBMIT  <br/> |
 |Identificador:  <br/> |0x0E01  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente usa essa propriedade com a propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) para controlar o que acontece a uma mensagem depois que ela é enviada. Um ou outro deve ser definido, mas não ambos. 
+Um aplicativo cliente usa essa propriedade com a propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) para controlar o que acontece a uma mensagem após ele ser enviado. Um deles deve ser definido, mas não ambos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Especifica as operações permitidas para os objetos do repositório de mensagem principal.
+> Especifica operações permitidas para os principais objetos do repositório de mensagens.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: Conheça as informações para ajudá-lo a criar projetos no Visual Studio usando os exemplos de código baseados em ASMX que estão inclusas nos tópicos de referência da Interface do Project Server (PSI).
 ms.openlocfilehash: 26ad2e388b7e7f6f19e028b47c7f6d1a3fbd020c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357071"
 ---
 # <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Pré-requisitos para exemplos de código baseados em ASMX no Project
 
@@ -387,7 +387,7 @@ Você pode verificar os resultados de exemplo de código de várias maneiras, po
     
 - Exibir os projetos publicados na página Centro de Projeto do Project Web App (`https://ServerName/ProjectServerName/projects.aspx`).
     
-- Exibir o log de fila no Project Web App. Abra a página de Configurações do servidor (escolha o ícone **Configurações** no canto superior direito) e escolha **Meus Trabalhos Enfileirados** na seção **Configurações Pessoais** (`https://ServerName/ProjectServerName/MyJobs.aspx`). Na lista suspensa **Exibir**, é possível classificar por status de trabalho. O status padrão será **Trabalhos em andamento e não concluídos na semana passada**. 
+- Exibir o log de fila no Project Web App. Abra a página Configurações do servidor (escolha o ícone **Configurações** no canto superior direito) e escolha **Meus Trabalhos Enfileirados** na seção **Configurações Pessoais** (`https://ServerName/ProjectServerName/MyJobs.aspx`). Na lista suspensa **Exibir**, é possível classificar por status de trabalho. O status padrão será **Trabalhos em andamento e não concluídos na semana passada**. 
     
 - Use a página Configurações do servidor no Project Web App (`https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para gerenciar todos os trabalhos enfileirados e excluir ou forçar o check-in de objetos empresariais. Você deve ter permissões administrativas para acessar esses links na página Configurações do servidor.
     
@@ -440,7 +440,7 @@ As configurações adicionais são gerenciadas pelo SharePoint Server 2013 para 
 
 - [Pré-requisitos para exemplos de código baseados em WCF no Project](prerequisites-for-wcf-based-code-samples-in-project.md)
 - [Usar representação com WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
-- [Visão geral da referência de PSI do Project](project-psi-reference-overview.md)
+- [Visão geral da referência da PSI do Project](project-psi-reference-overview.md)
 - [Central de desenvolvedores do SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

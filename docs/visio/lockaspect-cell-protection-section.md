@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: Protege a taxa de proporção da forma para que ela somente seja dimensionada proporcionalmente e não em uma dimensão única.
-ms.openlocfilehash: fb5736add65f548f06697077bc539ec7fac5feb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359637"
 ---
 # <a name="lockaspect-cell-protection-section"></a>Célula LockAspect (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege a taxa de proporção da forma para que ela somente seja dimensionada pr
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A taxa de proporção está protegida.  <br/> |
-| FALSO  <br/> | A taxa de proporção não está protegida.  <br/> |
+| TRUE  <br/> | A taxa de proporção está protegida.  <br/> |
+| FALSE  <br/> | A taxa de proporção não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

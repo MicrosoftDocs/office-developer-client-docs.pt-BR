@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4b850bf87be4024152ee808624ad93836b904897
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359693"
 ---
 # <a name="add-fields-to-a-view"></a>Adicionar campos a um modo de exibição
 
@@ -30,7 +30,7 @@ Para acessar o conjunto **ViewFields** de um modo de exibição, use a proprieda
 
 No exemplo de código a seguir, ModifyMeetingRequestsView recebe o objeto **TableView**, que representa todos os modos de exibição da Caixa de Entrada do usuário que sejam modos de exibição "Solicitações de Reunião". O exemplo, em seguida, usa o método **Add** para adicionar campos "Start" e "End" ao objeto **ViewFields** que corresponde ao objeto **TableView**. Ele também altera o rótulo do campo "From" para "Organized By". ModifyMeetingRequestsView salva o objeto **TableView** modificado.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -95,5 +95,5 @@ private void ModifyMeetingRequestsView()
 
 ## <a name="see-also"></a>Confira também
 
-- [Views](views.md)
+- [Modos de exibição](views.md)
 

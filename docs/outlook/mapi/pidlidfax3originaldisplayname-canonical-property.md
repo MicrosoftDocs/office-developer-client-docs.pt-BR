@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 13d0c431-7e46-4971-9b62-62e680a4cae9
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 72cb81a487c80244dbf3920bf3aa044290fff2db
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357593"
 ---
 # <a name="pidlidfax3originaldisplayname-canonical-property"></a>Propriedade canônica PidLidFax3OriginalDisplayName
 
@@ -25,35 +25,35 @@ ms.locfileid: "25396348"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o que outro endereço de fax do nome original para exibição do contato.
+Especifica o nome de exibição original do outro endereço de fax do contato.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidFax3OriginalDisplayName  <br/> |
-|Propriedade definida:  <br/> |PSETID_Address  <br/> |
-|ID de longo (LID):  <br/> |0x000080D4  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Address  <br/> |
+|Long ID (LID):  <br/> |0x000080D4  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, se houver, deve ser definida para o mesmo valor que a propriedade **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Essa propriedade, se presente, deve ser definida com o mesmo valor que a propriedade **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Determina se uma linha será desenhada em torno do limite do caminho.
-ms.openlocfilehash: 1e43072363461e6b8fcd511c70512f3bfef4504f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad3744ae8deb4ffb4dd2282e50590439c4b218a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357278"
 ---
 # <a name="noline-cell-geometry-section"></a>Célula NoLine (Seção Geometry)
 
@@ -22,8 +22,8 @@ Determina se uma linha será desenhada em torno do limite do caminho.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Uma linha não é desenhada em torno do limite do caminho que é o limite de uma região preenchida.  <br/> |
-| FALSO  <br/> | Uma linha é desenhada em torno do limite de um caminho.  <br/> |
+| TRUE  <br/> | Uma linha não é desenhada em torno do limite do caminho que é o limite de uma região preenchida.  <br/> |
+| FALSE  <br/> | Uma linha é desenhada em torno do limite de um caminho.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para fazer referência à célula NoLine pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . NoLine onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . NoLine onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula NoLine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

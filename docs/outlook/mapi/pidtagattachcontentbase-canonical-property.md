@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ec1db68d9168e7260a32aaf7708897df6124725a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360505"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>Propriedade canônica PidTagAttachContentBase
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398973"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o cabeçalho de base de conteúdo de anexo de uma mensagem de email extensões MIME (Multipurpose Internet).
+Contém o cabeçalho base de conteúdo de um anexo de mensagem MIME (Multipurpose Internet Mail Extensions).
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém o cabeçalho de base de conteúdo de anexo de uma mensagem de email exte
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são usadas para suporte MHTML. Eles representam o cabeçalho de base de conteúdo para a parte apropriada do corpo MIME. 
+Essas propriedades são usadas para suporte a MHTML. Eles representam o cabeçalho base de conteúdo para a parte apropriada do corpo MIME. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

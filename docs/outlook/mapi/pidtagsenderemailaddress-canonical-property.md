@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6e1531ac-489b-4224-921a-8fd13ace9497
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 82c0e386ab9231d1066dbdc4456c31031d2409c1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359161"
 ---
 # <a name="pidtagsenderemailaddress-canonical-property"></a>Propriedade canônica PidTagSenderEmailAddress
 
@@ -36,51 +36,51 @@ Contém o endereço de email do remetente da mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades de endereço do remetente da mensagem. Devem ser definidas pelo provedor de transporte de saída, que nunca deve propagar quaisquer valores existentes anteriormente.
+Essas propriedades são exemplos das propriedades de endereço para o remetente da mensagem. Eles devem ser definidos pelo provedor de transporte de saída, que nunca deve propagar nenhum valor existente anteriormente.
   
-Se nenhum provedor de transporte tem fornecido quaisquer propriedades de endereço do remetente, o MAPI spooler tenta preencher chamando o método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para um identificador de entrada. Se nenhum identificadores de entrada foram fornecidos, o MAPI spooler armazena "Desconhecido" em todas as propriedades de endereço de remetente do tipo PT_TSTRING. 
+Se nenhum provedor de transporte tiver fornecido Propriedades de endereço de remetente, o spooler MAPI tentará preenchê-las chamando o método [IMAPISession:: QueryIdentity](imapisession-queryidentity.md) para um identificador de entrada. Se nenhum identificador de entrada tiver sido fornecido, o spooler MAPI armazena "Unknown" em todas as propriedades de endereço de remetente do tipo PT_TSTRING. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para postagem objetos.
+> Especifica as propriedades e as operações que são permitidas para objetos post.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contato e objetos de lista de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para os objetos de contato e lista de distribuição pessoal.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
+> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -88,7 +88,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

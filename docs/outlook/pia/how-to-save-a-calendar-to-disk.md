@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b07df7458f80b751077358ac3c53ad41032d1080
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361044"
 ---
 # <a name="save-a-calendar-to-disk"></a>Salvar um calendário no disco
 
@@ -89,5 +89,5 @@ private void SaveCalendarToDisk(string calendarFileName)
 
 ## <a name="see-also"></a>Confira também
 
-- [Calendário](calendar.md)
+- [Calendar](calendar.md)
 

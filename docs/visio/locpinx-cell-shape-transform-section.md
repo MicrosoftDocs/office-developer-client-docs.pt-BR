@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm680
 localization_priority: Normal
 ms.assetid: b82feade-5793-8a6e-3ff4-69a4cbdd2cf9
-description: 'Representa o x-coordenadas do pino da forma (Centro de rotação) em relação à origem da forma. A fórmula padrão para determinar LocPinX é:'
-ms.openlocfilehash: 17f7b0fde9a54f6596f2f87f866d30b908e062b5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Representa a coordenada x do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinX é:'
+ms.openlocfilehash: 2eb5c328eed3c97652173670c426b83b8c358833
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358048"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>Célula LocPinX (Seção Shape Transform)
 
-Representa o *x* -coordenadas do pino da forma (Centro de rotação) em relação à origem da forma. A fórmula padrão para determinar LocPinX é: 
+Representa a coordenada *x* do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinX é: 
   
-= A largura \* 0.5
+= Largura \* 0,5
   
 ## <a name="remarks"></a>Comentários
 

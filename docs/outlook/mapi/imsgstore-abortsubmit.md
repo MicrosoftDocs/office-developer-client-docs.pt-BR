@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a176b51577c7d4616d988a0b28f2afcfb554e9f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1486730dfa2d76bf8e97439213851b195504962f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348815"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
@@ -39,17 +39,17 @@ AbortSubmit(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada da mensagem para remover da fila de saída. 
+> no Um ponteiro para o identificador de entrada da mensagem a ser removida da fila de saída. 
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -57,27 +57,27 @@ S_OK
     
 MAPI_E_NOT_IN_QUEUE 
   
-> A mensagem identificada pela _lpEntryID_ não está mais na fila de saída do armazenamento de mensagens, geralmente porque ele já foi enviado. 
+> A mensagem identificada por _lpEntryID_ não está mais na fila de saída do repositório de mensagens, geralmente porque já foi enviada. 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> A mensagem identificada pela _lpEntryID_ está bloqueada pelo spooler MAPI e a operação não pode ser interrompida. 
+> A mensagem identificada por _lpEntryID_ é bloqueada pelo spooler MAPI, e a operação não pode ser anulada. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore::AbortSubmit** tenta remover uma mensagem enviada de fila de saída do armazenamento de mensagens. 
+O método **IMsgStore:: AbortSubmit** tenta remover uma mensagem enviada da fila de saída do armazenamento de mensagens. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Depois que uma mensagem é enviada, anular o envio chamando **AbortSubmit** é a única ação que pode ser executada na mensagem. Não espera **AbortSubmit** sempre ter sucesso. Dependendo de como o sistema de mensagens subjacente é implementado, talvez não seja possível cancelar o envio da mensagem. 
+Depois que uma mensagem é enviada, a anulação do envio chamando **AbortSubmit** é a única ação que pode ser executada na mensagem. Não espere que o **AbortSubmit** sempre seja bem-sucedido. Dependendo de como o sistema de mensagens subjacente é implementado, talvez não seja possível cancelar o envio da mensagem. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa o método **IMsgStore::AbortSubmit** anular o envio da mensagem selecionada.  <br/> |
+|FolderDlg. cpp  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI usa o método **IMsgStore:: AbortSubmit** para anular o envio da mensagem selecionada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -88,5 +88,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

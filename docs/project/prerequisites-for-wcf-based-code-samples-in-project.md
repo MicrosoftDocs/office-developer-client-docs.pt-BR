@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: Conheça as informações para ajudá-lo a criar projetos no Visual Studio, usando os exemplos de código baseados em WCF que estão inclusos nos tópicos de referência da Interface do Project Server (PSI).
 ms.openlocfilehash: 2222e1b3651044c41f45e57481f80093aac67bdb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357143"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>Pré-requisitos para exemplos de código baseados em WCF no Project
 

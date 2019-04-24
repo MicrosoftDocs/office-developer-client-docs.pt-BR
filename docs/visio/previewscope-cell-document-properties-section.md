@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: Determina se o desenho conterá uma visualização. Se o seu desenho contiver uma visualização, ela determinará se irá exibir somente a primeira página ou todas as páginas do desenho.
-ms.openlocfilehash: 865da052f710481c146d3c2692ddf506018be789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34dbc9ac02032b2cb5cb6373c3c6361e3d822312
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356109"
 ---
 # <a name="previewscope-cell-document-properties-section"></a>Célula PreviewScope (Seção Document Properties)
 
@@ -22,13 +22,13 @@ Determina se o desenho conterá uma visualização. Se o seu desenho contiver um
   
 |**Valor**|**Escopo de visualização**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Primeira página  <br/> |**visDocPreviewScope1stPage** <br/> |
+| ,0  <br/> | Primeira página  <br/> |**visDocPreviewScope1stPage** <br/> |
 | 1  <br/> | Nenhum  <br/> |**visDocPreviewScopeNone** <br/> |
-| 2  <br/> | Todas as páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| duas  <br/> | Todas as páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na guia **Resumo** na caixa de diálogo **Propriedades** (clique no botão **Office** , clique na guia **informações** , clique em **Propriedades do documento**e, em seguida, clique em **Propriedades avançadas**).
+Você também pode definir esse valor na guia **Resumo** da caixa de diálogo **Propriedades** (clique no botão **Office** , clique na guia **informações** , em **Propriedades do documento**e em **Propriedades avançadas**).
   
 Para obter uma referência para a célula PreviewScope pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

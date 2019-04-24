@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351412"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
@@ -29,7 +29,7 @@ Descreve uma restrição de comentário, que é usada para anotar uma restriçã
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,7 +45,7 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Contagem de valores de propriedade na matriz apontado pelo membro **lpProp** . 
+> Contagem de valores de propriedade na matriz apontada pelo membro **lpProp** . 
     
  **lpRes**
   
@@ -53,15 +53,15 @@ typedef struct _SCommentRestriction
     
  **lpProp**
   
-> Ponteiro para uma matriz de estruturas de [SPropValue](spropvalue.md) , cada um contendo a marca de propriedade e o valor de uma propriedade nomeada. 
+> Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) , cada uma contendo a marca de propriedade e o valor de uma propriedade nomeada. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SCommentRestriction** associa um objeto junto com um conjunto de propriedades nomeadas. Restrições de comentário são Diferentemente de outras restrições, pois eles não são avaliados. Ou seja, eles são ignorados pelo método [IMAPITable:: Restrict](imapitable-restrict.md) . Não há nenhum efeito sobre as linhas retornadas pelo método [IMAPITable:: QueryRows](imapitable-queryrows.md) após ter sido feita uma chamada **IMAPITable:: Restrict** . 
+A estrutura **SCommentRestriction** associa um objeto junto a um conjunto de propriedades nomeadas. As restrições de comentário são diferentes de outras restrições porque elas não são avaliadas. Ou seja, eles são ignorados pelo método imApitable [:: Restrict](imapitable-restrict.md) . Não há efeito nas linhas retornadas pelo método imApitable [:: QueryRows](imapitable-queryrows.md) após uma chamada IMAPITable **:: Restrict** foi feita. 
   
-A estrutura de **SCommentRestriction** pode ser usada para manter informações específicas do aplicativo com uma restrição quando ele for salvo no disco. Por exemplo, um cliente a salvando o nome de uma propriedade nomeada usado em uma restrição de propriedade poderá fazer isso em uma estrutura **SCommentRestriction** . Salvar um nome de propriedade não é possível em uma restrição de propriedade, porque a estrutura de [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade. 
+A estrutura **SCommentRestriction** pode ser usada para manter as informações específicas do aplicativo com uma restrição quando salva no disco. Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazê-lo em uma estrutura **SCommentRestriction** . Não é possível salvar um nome de propriedade em uma restrição de propriedade porque a estrutura [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade. 
   
-Para obter mais informações sobre a estrutura de **SCommentRestriction** e restrições em geral, consulte [Sobre restrições](about-restrictions.md). 
+Para obter mais informações sobre a estrutura e as restrições do **SCommentRestriction** em geral, consulte [about Restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Confira também
 

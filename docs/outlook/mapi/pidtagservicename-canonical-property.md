@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359476"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propriedade canônica PidTagServiceName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592672"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de um serviço de mensagem conforme definido pelo usuário no arquivo Mapisvc.
+Contém o nome de um serviço de mensagens, conforme definido pelo usuário no arquivo MapiSvc. inf.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o nome de um serviço de mensagem conforme definido pelo usuário no arq
    
 ## <a name="remarks"></a>Comentários
 
-O nome contido nessas propriedades é específico para o serviço de mensagem. Ele proveniente da seção [serviços] em MAPISVC.
+O nome contido nessas propriedades é específico para o serviço de mensagens. Ele vem da seção [serviços] no MapiSvc. inf.
   
-Essas propriedades aparecem como uma coluna na tabela de serviço de mensagem e podem ser usadas para filtrar os serviços. Porque ele é usado para identificar e filtrar os serviços, o valor não deve ser localizado.
+Essas propriedades aparecem como uma coluna na tabela de serviço de mensagens e podem ser usadas para filtrar serviços. Como ele é usado para identificar e filtrar serviços, o valor não deve ser localizado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

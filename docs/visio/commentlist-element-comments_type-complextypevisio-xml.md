@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
 description: Especifica os comentários em um desenho.
 ms.openlocfilehash: 424eb10ab356fc2b7f07a1fae27a8e2715e3f2fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359427"
 ---
 # <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Elemento CommentList (Comments_Type complexType) ('Visio XML')
 
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

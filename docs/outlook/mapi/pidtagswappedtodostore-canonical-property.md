@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 41aa97a52176cf68775d6fd507d3d042888092cc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358902"
 ---
 # <a name="pidtagswappedtodostore-canonical-property"></a>Propriedade canônica PidTagSwappedToDoStore
 
@@ -25,46 +25,46 @@ ms.locfileid: "25393856"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina a necessidade para pós-transmitir processamento de um email.
+Determina a necessidade de processamento de pós-transmissão de um email.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |Identificador:  <br/> |0x0E2C  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for definida em uma mensagem de rascunho, seu valor deve ser definido como o valor da propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) da mensagem.
+Se essa propriedade for definida em uma mensagem de rascunho, o valor deve ser definido como o valor da propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) da mensagem.
   
-Para obter mais informações, consulte [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) seção "pós-transmitir processamento de uma mensagem sinalizado." 
+Para obter mais informações, consulte a seção [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) "processamento posterior de transmissão de uma mensagem sinalizada". 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações relacionadas a sinalização.
+> Especifica as propriedades e operações relacionadas à sinalização.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.
+> Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -72,7 +72,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

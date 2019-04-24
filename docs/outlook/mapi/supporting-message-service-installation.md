@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 328884e8758e679eb1c9d968547cba02c01d4d47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350628"
 ---
 # <a name="supporting-message-service-installation"></a>Suporte à instalação do serviço de mensagens
 
@@ -21,28 +21,28 @@ ms.locfileid: "22581990"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O programa de instalação para instalar o serviço de mensagem deve fazer o seguinte:
+O programa de instalação para instalar o serviço de mensagens deve fazer o seguinte:
   
-1. Copie os arquivos do serviço de mensagens, como o serviço de mensagem e o provedor de serviços de DLLs, de um CD ou disco, para uma unidade local na estação de trabalho. Os arquivos que precisam ser copiados dependem de seu serviço de mensagem. Normalmente, você irá copiar DLL pelo menos um.
+1. Copie arquivos de serviço de mensagens, como o serviço de mensagens e DLLs do provedor de serviços, de um CD ou disco para uma unidade local na estação de trabalho. Os arquivos que precisam ser copiados dependem do serviço de mensagens. Normalmente, você copiará pelo menos uma DLL.
     
-2. Adicione entradas para o arquivo de configuração Mapisvc. Para obter mais informações sobre como modificar esse arquivo para os provedores de serviços de suporte no seu serviço de mensagem, consulte o [Formato de arquivo do Mapisvc](file-format-of-mapisvc-inf.md).
+2. Adicione entradas ao arquivo de configuração MAPISVC. inf. Para obter mais informações sobre como modificar esse arquivo para oferecer suporte aos provedores de serviço em seu serviço de mensagens, confira o [formato de arquivo MapiSvc. inf](file-format-of-mapisvc-inf.md).
     
-3. Adicione entradas, conforme apropriado para o registro do sistema para serviços de mensagem. Para obter mais informações sobre como as entradas devem aparecer no registro do sistema, consulte [Instalando o subsistema de MAPI](installing-the-mapi-subsystem.md).
+3. Adicione entradas, conforme apropriado, ao registro do sistema para serviços de mensagens. Para obter mais informações sobre como as entradas devem aparecer no registro do sistema, consulte [instalando o subsistema MAPI](installing-the-mapi-subsystem.md).
     
-4. Crie um perfil padrão, caso ainda não exista usando um dos seguintes itens:
+4. Crie um perfil padrão se ainda não existir um usando um dos seguintes itens:
     
-  - O Assistente de perfil para criar um perfil usando a interação do usuário através de uma série de caixas de diálogo. Para obter mais informações sobre como usar o Assistente de perfil, consulte o [tópico Criando um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md).
+  - O assistente de perfil para criar um perfil usando a interação do usuário por meio de uma série de caixas de diálogo. Para obter mais informações sobre como usar o assistente de perfil, consulte [criando um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md).
     
-  - O painel de controle para criar um perfil usando a interação do usuário. O painel de controle oferece ao usuário mais flexibilidade do que o Assistente de perfil para configurar os serviços de mensagem e definir propriedades de perfil. 
+  - O painel de controle para criar um perfil usando a interação do usuário. O painel de controle oferece ao usuário mais flexibilidade do que o assistente de perfil para configurar os serviços de mensagens e as propriedades de perfil de configuração. 
     
-Coloque o programa de instalação em uma pasta pública designada. Isso é importante porque a maioria dos clientes de configuração, como o painel de controle, exigem que os usuários insiram o nome do diretório. O painel de controle invoca um programa de instalação quando um usuário clica no botão **Adicionar** , invoca a caixa de diálogo **Com disco** e especifica o caminho para o programa. O painel de controle executa o programa e chama a função de ponto de entrada do seu serviço de mensagem com o parâmetro _ulContext_ definido como MSG_SERVICE_INSTALL. 
+Coloque o programa de instalação em um diretório público designado. Isso é importante porque a maioria dos clientes de configuração, como o painel de controle, exige que os usuários insiram o nome do diretório. O painel de controle invoca um programa de instalação quando um usuário clica no botão **Adicionar** , invoca a caixa de diálogo **ter disco** e especifica o caminho para o programa. O painel de controle executa o programa e chama a função de ponto de entrada do serviço de mensagens com o parâmetro _ulContext_ definido como MSG_SERVICE_INSTALL. 
   
 > [!CAUTION]
-> Como os perfis são uma parte descartáveis da arquitetura do MAPI, certifique-se de que seu programa de instalação não armazene nada no perfil padrão que seria difícil de recriar. Não há nenhuma utilitários para recuperação de perfil, para mover os perfis de um computador para outro, para backup off-line ou para restauração individual ou global de cópias de backup. 
+> Como os perfis são uma parte inutilizável da arquitetura MAPI, certifique-se de que o programa de instalação não armazene nada no perfil padrão que seria difícil de recriá-lo. Não há utilitários para recuperação de perfil, para mover perfis de um computador para outro, para backup off-line ou para restauração individual ou global de cópias de backup. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Implementação do serviço de mensagem](message-service-implementation.md)
+[Implementação do serviço de mensagens](message-service-implementation.md)
 

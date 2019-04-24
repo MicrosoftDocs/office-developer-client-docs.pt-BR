@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: Contém todos os elementos DataRecordset do documento.
 ms.openlocfilehash: 7730e55f0025181db193a1e64226e879f9072e90
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360323"
 ---
 # <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets ('Visio XML')
 

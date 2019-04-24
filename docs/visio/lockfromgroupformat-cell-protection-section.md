@@ -6,16 +6,16 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: abd175af-ad4e-b84a-2687-2c9358653499
-ms.openlocfilehash: 95633ab7a4127564fef65062bcf328d4364ebd86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3daeb4704a33ba836cf82c9ab3517c6ca6be8db7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19772260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359588"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a>Célula LockFromGroupFormat (Seção Protection)
+# <a name="lockfromgroupformat-cell-protection-section"></a>Célula LockFromGroupFormat (Seção Proteção)
 
-Blocos de formato alterações a uma forma de grupo sejam propagadas para suas subformas enquanto ainda permite que os usuários formatar as formas selecionadas sub-recurso diretamente. 
+Bloqueia alterações no formato de uma forma de grupo para serem propagadas para suas subformas, enquanto ainda permite que os usuários formatem as subformas selecionadas diretamente. 
   
 O valor da célula LockFromGroupFormat corresponde à configuração da caixa de seleção **De formatação de grupo** na caixa de diálogo **Proteção**. 
   
@@ -27,9 +27,7 @@ Para referir-se à célula LockFromGroupFormat pelo nome de outra fórmula, ou a
 |:-----|:-----|
 |Nome da célula:  <br/> |LockFromGroupFormat  <br/> |
    
-Para referir-se à célula LockFromGroupFormat pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:
-
- 
+Para referir-se à célula LockFromGroupFormat pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

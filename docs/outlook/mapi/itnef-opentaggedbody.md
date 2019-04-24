@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348731"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
@@ -25,7 +25,7 @@ ms.locfileid: "25383737"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre uma interface de fluxo no texto de uma mensagem encapsulado.
+Abre uma interface de fluxo no texto de uma mensagem encapsulada.
   
 ```cpp
 HRESULT OpenTaggedBody(
@@ -39,43 +39,43 @@ HRESULT OpenTaggedBody(
 
  _lpMessage_
   
-> [in] Um ponteiro para a mensagem com a qual o stream está associado. Esta mensagem não é necessária para ser a mesma mensagem que é passada na chamada para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
+> no Um ponteiro para a mensagem à qual o Stream está associado. Esta mensagem não precisa ser a mesma mensagem que é passada na chamada para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a interface do fluxo é aberta. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como a interface de fluxo é aberta. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_CREATE 
   
-> Se uma propriedade não existir na mensagem atual, ele deve ser criado. Se a propriedade existir, os dados atuais na propriedade devem ser substituídos com os dados do fluxo de Transport-Neutral Encapsulation Format (TNEF). Quando uma implementação define o sinalizador MAPI_CREATE, ele também deve definir o sinalizador MAPI_MODIFY.
+> Se uma propriedade não existir na mensagem atual, ela deverá ser criada. Se a propriedade existir, os dados atuais da propriedade deverão ser substituídos pelos dados do fluxo TNEF (Transport-neutral Encapsulation Format). Quando uma implementação define o sinalizador MAPI_CREATE, ela também deve definir o sinalizador MAPI_MODIFY.
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. A interface padrão é somente leitura. MAPI_MODIFY deve ser definida sempre que MAPI_CREATE é definida.
+> Solicita permissão de leitura/gravação. A interface padrão é somente leitura. MAPI_MODIFY deve ser definido sempre que MAPI_CREATE estiver definido.
     
  _lppStream_
   
-> [out] Um ponteiro para um ponteiro para um objeto stream que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de passados-in encapsulado mensagem e que dá suporte à interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> bota Um ponteiro para um ponteiro para um objeto Stream que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) da mensagem encapsulada aprovada e que oferece suporte à interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de transporte, provedores de armazenamento de mensagem e gateways chame o método de **ITnef::OpenTaggedBody** para abrir uma interface de fluxo no texto de uma mensagem encapsulado (ou seja, um TNEF do objeto). 
+Provedores de transporte, provedores de repositórios de mensagens e gateways chamam o método **ITnef:: OpenTaggedBody** para abrir uma interface de fluxo no texto de uma mensagem encapsulada (ou seja, em um objeto TNEF). 
   
-Como parte do seu processamento, **OpenTaggedBody** insere ou analisa as marcas de anexo que indicam a posição de todos os anexos ou objetos OLE no texto da mensagem. As marcas de anexo são no seguinte formato: 
+Como parte do seu processamento, o **OpenTaggedBody** insere ou analisa marcas de anexo que indicam a posição de qualquer anexo ou objeto OLE no texto da mensagem. As marcas de anexo estão no seguinte formato: 
   
- **[[** o _nome do anexo_ **:** _n_ **no** _nome do contêiner de anexo_ **]]**
+ **[[** _nome do anexo_ **:** _n_ **no nome do contêiner de** _anexo_ **]]**
   
- _nome do anexo_ descreve o objeto de anexo;  _n_ é um número que identifica o anexo que faz parte de uma sequência, incrementar do valor passado no parâmetro _lpKey_ do [OpenTnefStream](opentnefstream.md) ou função [OpenTnefStreamEx](opentnefstreamex.md) ; e _o nome de contêiner de anexo_ descreve o componente físico onde o objeto de anexo reside. 
+ _nome do anexo_ descreve o objeto Attachment;  _n_ é um número que identifica o anexo que faz parte de uma sequência, incrementando do valor passado no parâmetro _LpKey_ da função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) ; e _nome do contêiner de anexo_ descreve o componente físico onde reside o objeto Attachment. 
   
- **OpenTaggedBody** lê o texto de mensagem e insere uma marca de anexo sempre que um objeto attachment aparecia originalmente no texto. O texto da mensagem original não é alterado. 
+ O **OpenTaggedBody** lê o texto da mensagem e insere uma marca de anexo em qualquer lugar em que um objeto Attachment apareceu originalmente no texto. O texto da mensagem original não é alterado. 
   
-Quando uma mensagem que tenha marcas é passada para um stream, as marcas serão perdidas e os objetos attachment contidos forem realocados na posição das marcas no stream.
+Quando uma mensagem que tem marcas é passada para um fluxo, as marcas são removidas e os objetos Attachment são realocados na posição das marcas no Stream.
   
 ## <a name="see-also"></a>Confira também
 
@@ -85,7 +85,7 @@ Quando uma mensagem que tenha marcas é passada para um stream, as marcas serão
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propriedade canônico de PidTagBody](pidtagbody-canonical-property.md)
+[Propriedade canônica PidTagBody](pidtagbody-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 63e3eca4e91e560a28d57f05250264d7e0592142
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a58e723113f70c10b5c8468f5bdd0d8d9014bd2c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351122"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
@@ -38,35 +38,35 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores que controla o tipo das cadeias de caracteres retornadas. O seguinte sinalizador pode ser definido:
+> no Bitmask dos sinalizadores que controlam o tipo das cadeias de caracteres retornadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _lppFormPrintSetup_
   
-> [out] Ponteiro para um ponteiro para uma estrutura que mantém as informações de impressão.
+> bota Ponteiro para um ponteiro para uma estrutura que contém as informações de impressão.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As informações de impressão foi recuperadas com êxito.
+> As informações de impressão foram recuperadas com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método **IMAPIViewContext::GetPrintSetup** para recuperar informações sobre a configuração da impressora antes de tentar imprimir a mensagem atual. 
+Os objetos Form chamam o método **IMAPIViewContext:: GetPrintSetup** para recuperar informações sobre a configuração da impressora antes de tentar imprimir a mensagem atual. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Aloca os membros **hDevMode** e **hDevName** da estrutura [FORMPRINTSETUP](formprintsetup.md) usando a função Win32 **GlobalAlloc**.
+Aloque os membros **hDevMode** e **HDevName** da estrutura [FORMPRINTSETUP](formprintsetup.md) usando a função **GlobalAlloc**do Win32.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você espera que os **campos hDevMode** e **hDevName** membros da estrutura **FORMPRINTSETUP** apontado pelo parâmetro _lppFormPrintSetup_ para ser cadeias de caracteres Unicode, defina _ulFlags_ como MAPI_UNICODE. Caso contrário, o **GetPrintSetup** retornará essas cadeias de caracteres em formato ANSI. 
+Se você espera que os membros **hDevMode** e **HDevName** da estrutura **FORMPRINTSETUP** apontados pelo parâmetro _lppFormPrintSetup_ como cadeias de caracteres Unicode, defina _parâmetroulflags_ como MAPI_UNICODE. Caso contrário, **GetPrintSetup** retornará essas cadeias de caracteres no formato ANSI. 
   
-Libere os membros **hDevMode** e **hDevName** da estrutura **FORMPRINTSETUP** chamando-se a função Win32 **GlobalFree**. Libere toda a estrutura **FORMPRINTSETUP** chamando [MAPIFreeBuffer](mapifreebuffer.md). 
+Libere os membros **hDevMode** e **HDevName** da estrutura **FORMPRINTSETUP** chamando a função Win32 **GlobalFree**. Libere toda a estrutura do **FORMPRINTSETUP** chamando [MAPIFreeBuffer](mapifreebuffer.md). 
   
 ## <a name="see-also"></a>Confira também
 

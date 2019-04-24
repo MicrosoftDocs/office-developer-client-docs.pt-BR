@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 94ec06c5-8d2f-dd27-1eed-1abaf93daba8
 description: Especifica a porcentagem pela qual a sombra de uma forma pode ser aumentada ou reduzida.
-ms.openlocfilehash: 0b6392030e7efc8ea36c8d728b99c9b82482840b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5862b61ca1f5df25ca97bf8742b9e20bf45091a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349158"
 ---
 # <a name="shapeshdwscalefactor-cell-fill-format-section"></a>Célula ShapeShdwScaleFactor (Seção Fill Format)
 
@@ -22,7 +22,7 @@ Especifica a porcentagem pela qual a sombra de uma forma pode ser aumentada ou r
   
 ## <a name="remarks"></a>Comentários
 
-Cada sombra possui um local de pino sombreado, que é um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro da forma, o local do pino sombreado seria o ponto no centro da sombra. Quando a aplicação da escala em sombras simples, a ampliação é centralizada no local do pino sombreado; Quando a aplicação da escala em sombras oblíquas, ampliação é aplicada na direção oblíqua. 
+Cada sombra possui um local de pino sombreado, que representa um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro dela, então o local do pino sombreado será o ponto no centro da sombra. Ao aplicar escala a sombras simples, a ampliação é centralizada no local de PIN sombreado; ao aplicar escala a sombras oblíquas, a ampliação é aplicada na direção oblíqua. 
   
 Para definir esse valor para todas as formas de uma página, use a célula ShdwScaleFactor na seção Page Properties.
   

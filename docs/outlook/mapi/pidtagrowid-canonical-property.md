@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8d58342e0460352bd9d260cb6e73de358cb2fc23
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359532"
 ---
 # <a name="pidtagrowid-canonical-property"></a>Propriedade canônica PidTagRowid
 
@@ -25,40 +25,40 @@ ms.locfileid: "25387717"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador exclusivo para um destinatário em uma tabela de destinatários ou a tabela de status.
+Contém um identificador exclusivo para um destinatário em uma tabela de tabela ou status de destinatário.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ROWID  <br/> |
 |Identificador:  <br/> |0x3000  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI comuns  <br/> |
+|Área:  <br/> |MAPI comum  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é um valor temporário que é válido apenas para a vida útil do objeto que contém a tabela. Ele é exibido como uma coluna da tabela, mas não está armazenado.
+Esta propriedade é um valor temporário que é válido somente para a vida do objeto que possui a tabela. Ele aparece como uma coluna da tabela, mas não está armazenado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

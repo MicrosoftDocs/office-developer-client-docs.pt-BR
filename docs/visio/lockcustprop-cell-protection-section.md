@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Estabelece se o usuário pode adicionar, excluir ou modificar dados da forma na interface do usuário (UI) usando a caixa de diálogo Definir Dados da Forma ou o menu de atalho para a janela Dados da Forma.
-ms.openlocfilehash: a88da9e4973f819b398b5bdeda434ede14640797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359603"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>Célula LockCustProp (Seção Protection)
 
@@ -22,12 +22,8 @@ Estabelece se o usuário pode adicionar, excluir ou modificar dados da forma na 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |
-          O comando **Definir Dados da Forma** no menu de atalho da janela **Dados da Forma** é desabilitado.
-  <br/> |
-|FALSO  <br/> |
-          O comando **Definir Dados da Forma** no menu de atalho da janela **Dados da Forma** é habilitado (padrão).
-  <br/> |
+|TRUE  <br/> |O comando **Definir Dados da Forma** no menu de atalho da janela **Dados da Forma** é desabilitado.  <br/> |
+|FALSE  <br/> |O comando **Definir Dados da Forma** no menu de atalho da janela **Dados da Forma** é habilitado (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

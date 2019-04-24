@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2d9a58ff05bb0da07762b9eafddef7303e8b9bc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357194"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592602"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fecha para baixo de um provedor de transporte de forma ordenada.
+Fecha um provedor de transporte de maneira ordenada.
   
 ```cpp
 HRESULT Shutdown (
@@ -37,17 +37,17 @@ HRESULT Shutdown (
 
  _lpulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito em desligar o provedor de transporte.
+> A chamada teve êxito ao desligar o provedor de transporte.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler chama o método **IXPProvider::Shutdown** antes de liberar um objeto de provedor de transporte. Antes de chamar o **desligamento**, MAPI libera todos os objetos de logon para um provedor.
+O spooler MAPI chama o método **IXPProvider:: Shutdown** antes de liberar um objeto de provedor de transporte. Antes de chamar **Shutdown**, MAPI libera todos os objetos de logon de um provedor.
   
 ## <a name="see-also"></a>Confira também
 

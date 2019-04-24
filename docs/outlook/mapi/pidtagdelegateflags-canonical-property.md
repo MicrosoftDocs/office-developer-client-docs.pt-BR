@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359896"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriedade canônica PidTagDelegateFlags
 
@@ -25,14 +25,14 @@ ms.locfileid: "25392274"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se um representante pode exibir objetos de mensagem privada do representante.
+Especifica se um representante pode exibir os objetos de mensagem privada do delegante.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificador:  <br/> |0x686B  <br/> |
 |Tipo de dados:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Mensagem definida de classe transmittable  <br/> |
+|Área:  <br/> |Transmissão definida pela classe da mensagem-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -40,28 +40,28 @@ Cada entrada dessa propriedade deve ser definida como um dos valores a seguir.
   
 |**Flag**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|HidePrivate  <br/> |0  <br/> |O representante não deve ser permitido para exibir objetos de mensagem privada.  <br/> |
-|ShowPrivate  <br/> |1  <br/> |O delegado deve ter permissão para exibir objetos de mensagem privada.  <br/> |
+|HidePrivate  <br/> |,0  <br/> |O representante não deve ter permissão para exibir objetos de mensagem privados.  <br/> |
+|Pessoal  <br/> |1  <br/> |O representante deve ter permissão para exibir objetos de mensagem privados.  <br/> |
    
-Essa propriedade deverá ser definida no objeto de informações do representante. O valor de "ShowPrivate" indica que o representante deseje tornar visíveis a objetos de mensagem privada. Esta preferência é aplicável a todas as pastas para o qual o representante tem uma função do revisor, autor ou editor.
+Essa propriedade deve ser definida no objeto delegate Information. O valor de "tudo privado" indica que o delegante deseja tornar os objetos de mensagens particulares visíveis. Essa preferência é aplicável a todas as pastas para as quais o representante tem uma função de revisor, autor ou editor.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com objetos de mensagem e calendário quando eles atuam em nome de outro usuário.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -69,7 +69,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

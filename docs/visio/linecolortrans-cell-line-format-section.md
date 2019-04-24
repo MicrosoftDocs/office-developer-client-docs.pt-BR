@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Determina o nível de transparência da cor da linha de uma forma.
-ms.openlocfilehash: 81c23b77c4663158819f9d5fe53765860183e039
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359294"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>Célula LineColorTrans (Seção Line Format)
 
@@ -22,9 +22,7 @@ Determina o nível de transparência da cor da linha de uma forma.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

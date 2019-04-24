@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: Protege a expressão contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, mover, dimensionamento, agrupar ou desagrupar as formas.
-ms.openlocfilehash: fd5fcfbe11eb054dfa625834640c0280cae96c3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Protege a expressão contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, movimentação, dimensionamento, agrupamento ou desagrupamento de formas.
+ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360190"
 ---
 # <a name="guard-function"></a>Função GUARD
 
-Protege a *expressão* contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, mover, dimensionamento, agrupar ou desagrupar as formas. 
+Protege a *expressão* contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, movimentação, dimensionamento, agrupamento ou desagrupamento de formas. 
   
 ## <a name="syntax"></a>Sintaxe
 
-GUARD (* * *expressão* * *) 
+PROTEÇÃO (* * *expressão* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
    

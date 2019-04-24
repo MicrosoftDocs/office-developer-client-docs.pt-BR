@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a067455f-c67e-4434-83bf-5acc320865d0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d1ebd7752dec05db112c6a8805244579cc9848f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c998d2c48ba1a17a08b591854896023373b6e83
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359462"
 ---
 # <a name="pidtagservices-canonical-property"></a>Propriedade canônica PidTagServices
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571700"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de identificadores de serviços de mensagem no perfil atual.
+Contém uma lista de identificadores de serviços de mensagens no perfil atual.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma lista de identificadores de serviços de mensagem no perfil atual.
    
 ## <a name="remarks"></a>Comentários
 
-Não use essa propriedade. Ele é reservado para uso pelo MAPI.
+Não use essa propriedade. É reservado para uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

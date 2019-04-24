@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ddcf32df716fe2b0a02655278ff0cd8d821de1f4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357803"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Propriedade canônica PidLidFlagRequest
 
@@ -30,32 +30,32 @@ Representa o status de uma solicitação de reunião.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidRequest  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008530  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008530  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Sinalizando  <br/> |
+|Área:  <br/> |Sinalização  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 No Microsoft Office Outlook, uma solicitação de reunião é um item de compromisso.
   
-Essa propriedade contém texto especificáveis de usuário a ser associado com o sinalizador e deve ser definida se o objeto de mensagem foi sinalizado ou concluído, mas não deve existir para um objeto de reuniões. Os clientes podem optar por não suporte para essa propriedade e sempre escrever "Acompanhamento" (traduzido para o idioma do usuário, se apropriado) como o valor da cadeia de caracteres quando essa propriedade deverá ser definida. Esta propriedade deve ser ignorada condicionalmente com base nos valores das propriedades **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) e **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)).
+Essa propriedade contém um texto que pode ser definido pelo usuário para ser associado ao sinalizador e deve ser definido se o objeto Message estiver sinalizado ou concluído, mas não deve existir para um objeto relacionado à reunião. Os clientes podem optar por não oferecer suporte a essa propriedade e sempre escrever "acompanhamento" (convertido no idioma do usuário, se apropriado) como o valor da cadeia de caracteres quando essa propriedade deve ser definida. Essa propriedade deve ser condicionalmente ignorada com base nos valores das propriedades **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações relacionadas a sinalização.
+> Especifica as propriedades e operações relacionadas à sinalização.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

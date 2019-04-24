@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: Determina os conectores aos quais você deseja adicionar saltos.
-ms.openlocfilehash: abb7208c2cfbd6b1423e091efc1d526f8b10b57d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b5b8c8f1de160a4dc766d30a5f518c5653c270b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361114"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>Célula LineJumpCode (Seção Page Layout)
 
@@ -22,12 +22,12 @@ Determina os conectores aos quais você deseja adicionar saltos.
   
 |**Valor**|**Conectores aos quais você deseja adicionar saltos**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Nenhum  <br/> |**visPLOJumpNone** <br/> |
+|,0  <br/> |Nenhum  <br/> |**visPLOJumpNone** <br/> |
 |1  <br/> |Linhas horizontais  <br/> |**visPLOJumpHorizontal** <br/> |
-|2  <br/> |Linhas verticais  <br/> |**visPLOJumpVertical** <br/> |
-|3  <br/> |Última linha circulada  <br/> |**visPLOJumpLastRouted** <br/> |
-|4  <br/> |Última linha exibida (primeira forma na *z* -ordem)  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|5  <br/> |Primeira linha exibida (forma no fim de a *z* -ordem)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|duas  <br/> |Linhas verticais  <br/> |**visPLOJumpVertical** <br/> |
+|3D  <br/> |Última linha circulada  <br/> |**visPLOJumpLastRouted** <br/> |
+|quatro  <br/> |Última linha exibida (primeira forma na ordem *z* )  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|0,5  <br/> |Primeira linha exibida (forma na parte inferior da ordem *z* )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

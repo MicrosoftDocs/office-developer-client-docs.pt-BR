@@ -1,5 +1,5 @@
 ---
-title: Célula XRulerOrigin (Seção Ruler &amp; Grid)
+title: Célula XRulerOrigin (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: Especifica o ponto zero na régua do eixo x da página.
-ms.openlocfilehash: 78fab70c8489ddcdfe450ef9f9fd88b6c5040211
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346449"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Célula XRulerOrigin (Seção Ruler &amp; Grid)
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Célula XRulerOrigin (seção &amp; Ruler Grid)
 
 Especifica o ponto zero na régua do eixo x da página.
   
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à opção horizontal **zero da régua** no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção de **zero da régua** horizontal na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula XRulerOrigin pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

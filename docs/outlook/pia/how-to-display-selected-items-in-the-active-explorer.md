@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b722bcb404f987a6f07a9fe305046ea6673dc231
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356382"
 ---
 # <a name="display-selected-items-in-the-active-explorer"></a>Exibir itens selecionados no Explorer ativo
 
@@ -25,7 +25,7 @@ Este exemplo mostra como usar a classe auxiliar OutlookItem para exibir convenie
 
 O objeto [Selection](https://msdn.microsoft.com/library/bb612099\(v=office.15\)) contém o conjunto de itens do Outlook atualmente escolhidos no explorador ativo do Outlook. Nem o explorador ativo, representado pelo [ActiveExplorer()](https://msdn.microsoft.com/library/bb647410\(v=office.15\)), nem o conjunto de itens escolhidos indica o tipo dos itens escolhidos. Normalmente, você teria que primeiro identificar o tipo de item e, em seguida, chamar o método **Display** específico para esse tipo. Como o método **Display** é comum para todos os objetos de itens do Outlook e a classe auxiliar OutlookItem inclui esse método, aproveite a classe auxiliar declarando uma instância do objeto OutlookItem, myItem e utilize myItem.Display para exibir cada item na seleção. Você pode ver a implementação da classe auxiliar OutlookItem em [Criar uma classe auxiliar para acessar membros de itens comuns do Outlook](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

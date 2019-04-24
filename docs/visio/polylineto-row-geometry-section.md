@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251757
 localization_priority: Normal
 ms.assetid: b78a993f-4165-438d-39cf-9461b2877f17
-description: Contém x e y-coordenadas do último ponto de uma polilinha e uma fórmula de polilinha.
-ms.openlocfilehash: 56cecb2eeaa1702461b1096fe468974f2f0b1f52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém as coordenadas x e y do último ponto de uma polilinha e uma fórmula de polilinha.
+ms.openlocfilehash: 13e5bd7138103094f0f00ad0512e33e9e6ad5e7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359826"
 ---
 # <a name="polylineto-row-geometry-section"></a>Linha PolylineTo (Seção Geometry)
 
-Contém *x* e *y* -coordenadas do último ponto de uma polilinha e uma fórmula de polilinha. 
+Contém as coordenadas *x* e *y* do último ponto de uma polilinha e uma fórmula de polilinha. 
   
 Uma linha PolylineTo contém as células a seguir.
   
-|**Célula**|**Descrição**|
+|**Cell**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -coordenadas do vértice final de uma polilinha.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -coordenadas do vértice final de uma polilinha.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final de uma polilinha.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final de uma polilinha.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |A fórmula da polilinha.  <br/> |
    
 ## <a name="remarks"></a>Comentários

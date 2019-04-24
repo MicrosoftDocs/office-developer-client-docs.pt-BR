@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74bba3ea9982838f0d010bbf106c1132df1c2c25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357320"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
@@ -29,9 +29,9 @@ Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 void MAPIDeInitIdle( void );
@@ -47,21 +47,21 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente ou um provedor de serviços deve chamar **MAPIDeInitIdle** quando ele não precisa mais o mecanismo de ociosidade, por exemplo, quando ele está prestes a parar o processamento. 
+Um aplicativo cliente ou provedor de serviços deve chamar **MAPIDeInitIdle** quando ele não precisar mais do mecanismo ocioso, por exemplo, quando estiver prestes a parar o processamento. 
   
-Todas as chamadas para [MAPIInitIdle](mapiinitidle.md) devem ser iguais por uma chamada subsequente para **MAPIDeInitIdle**ou o mecanismo de ocioso é deixado em execução para o aplicativo de chamada. 
+Cada chamada para [MAPIInitIdle](mapiinitidle.md) deve ser correspondida por uma chamada subsequente para **MAPIDeInitIdle**ou o mecanismo de ociosidade é deixado em execução para o aplicativo de chamada. 
   
-As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função [FNIDLE](fnidle.md) : 
+As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com rotinas ociosas com base no protótipo de função do [FNIDLE](fnidle.md) : 
   
-|**Função de rotina ociosa**|**Uso**|
+|**Função de rotina ociosa**|**Usage**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desativa ou ativa novamente uma rotina de ociosidade registrada sem removê-lo a partir do sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina de ociosidade ao sistema de MAPI, com ou sem ativá-lo.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desabilita ou habilita novamente uma rotina de ociosidade registrada sem removê-la do sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina ociosa ao sistema MAPI, com ou sem ativá-la.  <br/> |
 |**MAPIDeInitIdle** <br/> |Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
    
-Quando todas as tarefas de primeiro plano para a plataforma ficam ociosas, o mecanismo de ociosidade de MAPI chama a rotina de ocioso de prioridade mais alta que está pronta para executar. Não há nenhuma garantia de chamar ordem entre as rotinas de ociosidade da mesma prioridade. 
+Quando todas as tarefas de primeiro plano para a plataforma ficarem ociosas, o mecanismo de ociosidade de MAPI chamará a rotina de ociosidade de prioridade mais alta que está pronta para ser executada. Não há garantia de ordem de chamada entre rotinas ociosas da mesma prioridade. 
   
 

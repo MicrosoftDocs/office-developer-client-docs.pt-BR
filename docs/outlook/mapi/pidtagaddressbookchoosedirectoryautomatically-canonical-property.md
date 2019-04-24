@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359784"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Propriedade canônica PidTagAddressBookChooseDirectoryAutomatically
 
@@ -21,7 +21,7 @@ ms.locfileid: "22564938"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolher a lista de endereços global (GAL) mais apropriada ou pasta de contatos para a caixa de correio atual.
+Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolha a lista de endereços global (GAL) ou a pasta de contatos mais apropriada para a caixa de correio atual.
   
 |||
 |:-----|:-----|
@@ -32,17 +32,17 @@ Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolher a lista
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade corresponde à configuração da **Escolha automaticamente** na caixa de diálogo Opções do catálogo de endereços. Quando essa propriedade existe na seção de perfil IID_CAPONE_PROF e estiver definida como **true**, o catálogo de endereços diálogo não mais padrões para o contêiner especificado pelo método [SetDefaultDir](iaddrbook-setdefaultdir.md) , mas escolhe um catálogo de endereços que o Outlook 2010 ou Outlook 2013 considera apropriada para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de catálogo de endereços de terceiros. 
+Essa propriedade corresponde à opção **escolher automaticamente** na caixa de diálogo opções do catálogo de endereços. Quando essa propriedade existe na seção perfil do IID_CAPONE_PROF e é definida como **true**, a caixa de diálogo catálogo de endereços não é mais padrão para o contêiner especificado pelo método [SetDefaultDir](iaddrbook-setdefaultdir.md) , mas escolhe um catálogo de endereços que o Outlook 2010 ou o Outlook 2013 considera apropriado para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de catálogos de endereços de terceiros. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -52,7 +52,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Constantes MAPI](mapi-constants.md)
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b1ab1bd4eb6badc75065ce54d009e034f0fc2b29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afba7fa718a35d33966d45289461313e349ef2e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349571"
 ---
 # <a name="synccont"></a>SYNCCONT
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para sincronizar o conteúdo das pastas especificados em um armazenamento local com o servidor durante a [sincronizar o estado de conteúdo](synchronize-contents-state.md). Isso envolve apenas carregamento ou uma sincronização completa envolvendo um upload e download.
+Informações para sincronizar o conteúdo de pastas especificadas em um repositório local com o servidor durante o [estado de sincronização do conteúdo](synchronize-contents-state.md). Isso envolve apenas upload ou uma sincronização completa envolvendo um upload e, em seguida, um download.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -39,31 +39,31 @@ struct SYNCCONT
 
 _ulFlags_
   
-> [in] Sinalizadores para determinar o comportamento apropriado durante a sincronização.
+> no Sinalizadores para determinar o comportamento apropriado durante a sincronização.
     
   - UPC_OK
     
-  - [in] Carregar ou sincronização completa foi bem-sucedida. O cliente define isso após a sincronização de informações com o servidor.
+  - no O carregamento ou a sincronização completa foi bem-sucedido. O cliente define isso após sincronizar as informações com o servidor.
     
 _iEnt_
   
-> [out] Índice para controlar a sincronização de conteúdo no número de pastas especificadas pela _cEnt_.
+> bota Índice para controlar a sincronização do conteúdo no número de pastas especificado por _cento_.
     
 _cEnt_
   
-> [out] Número de pastas a serem replicadas.
+> bota Número de pastas a serem replicadas.
     
 _pvReserved_
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _ptagaReserved_
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _psosReserved_
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 ## <a name="see-also"></a>Confira também
 

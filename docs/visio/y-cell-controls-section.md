@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251282
 localization_priority: Normal
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
-description: Representa o y-coordenada que indica a localização da alça de controle de uma forma em coordenadas locais.
-ms.openlocfilehash: 8104ae6d647feb4e1b83474b63f40e243e5405e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada y que indica o local da alça de controle de uma forma em coordenadas locais.
+ms.openlocfilehash: 14aaa7aef7e7250baeb8ffb863244ece26a201e7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360148"
 ---
 # <a name="y-cell-controls-section"></a>Célula Y (Seção Controls)
 
-Representa o *y* -coordenada que indica a localização da alça de controle de uma forma em coordenadas locais. 
+Representa a coordenada *y* que indica o local da alça de controle de uma forma em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Controles.  *nome* . Controles de Ywhere.  *nome* é o nome da linha controles.  <br/> |
+| Nome da célula:  <br/> | Menores.  *nome* . Controles Yonde.  *Name* é o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
