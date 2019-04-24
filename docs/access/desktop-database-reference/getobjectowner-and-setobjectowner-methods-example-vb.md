@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292297"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="7fde2-102">Exemplo dos métodos GetObjectOwner e SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="7fde2-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="e3edf-102">Exemplo dos métodos GetObjectOwner e SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="e3edf-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
 
 
-<span data-ttu-id="7fde2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7fde2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e3edf-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3edf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7fde2-104">Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="7fde2-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="7fde2-105">Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo para o sistema).</span><span class="sxs-lookup"><span data-stu-id="7fde2-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="7fde2-106">O proprietário da tabela Categories é definido como Accounting.</span><span class="sxs-lookup"><span data-stu-id="7fde2-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="e3edf-104">Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="e3edf-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="e3edf-105">Este código pressupõe a existência do grupo acCounting (consulte o [exemplo dos métodos Append e ChangePassword de grupos e usuários (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo ao sistema).</span><span class="sxs-lookup"><span data-stu-id="e3edf-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="e3edf-106">O proprietário da tabela Categories é definido como Accounting.</span><span class="sxs-lookup"><span data-stu-id="e3edf-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```vb 
  

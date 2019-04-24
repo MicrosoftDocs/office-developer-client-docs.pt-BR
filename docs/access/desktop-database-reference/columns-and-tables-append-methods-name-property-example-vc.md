@@ -1,5 +1,5 @@
 ---
-title: Colunas e os métodos Append tabelas, exemplo da propriedade Name (VC + +)
+title: Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC + +)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fa9f903317e337b06afb4c2d0fdc1c3085df50d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296217"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="c7e82-102">Colunas e os métodos Append tabelas, exemplo da propriedade Name (VC + +)</span><span class="sxs-lookup"><span data-stu-id="c7e82-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="9e63a-102">Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC + +)</span><span class="sxs-lookup"><span data-stu-id="9e63a-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
 
 
-<span data-ttu-id="c7e82-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7e82-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e63a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e63a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c7e82-104">O código a seguir demonstra como criar uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="c7e82-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="9e63a-104">O código a seguir demonstra como criar uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="9e63a-104">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  

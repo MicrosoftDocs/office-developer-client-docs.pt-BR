@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314067"
 ---
-# <a name="understanding-the-customization-file"></a><span data-ttu-id="fd8e0-102">Noções básicas sobre o arquivo de personalização</span><span class="sxs-lookup"><span data-stu-id="fd8e0-102">Understanding the Customization File</span></span>
+# <a name="understanding-the-customization-file"></a><span data-ttu-id="5a148-102">Noções básicas sobre o arquivo de personalização</span><span class="sxs-lookup"><span data-stu-id="5a148-102">Understanding the Customization File</span></span>
 
 
-<span data-ttu-id="fd8e0-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd8e0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5a148-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a148-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fd8e0-104">Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) que contém um tipo e o parâmetro.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-104">Each section header in the customization file consists of square brackets (**\[\]**) containing a type and parameter.</span></span> <span data-ttu-id="fd8e0-105">Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-105">The four section types are indicated by the literal strings **connect**, **sql**, **userlist**, or **logs**.</span></span> <span data-ttu-id="fd8e0-106">O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-106">The parameter is the literal string, the default, a user-specified identifier, or nothing.</span></span>
+<span data-ttu-id="5a148-104">Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) contendo um tipo e parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5a148-104">Each section header in the customization file consists of square brackets (**\[\]**) containing a type and parameter.</span></span> <span data-ttu-id="5a148-105">Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**.</span><span class="sxs-lookup"><span data-stu-id="5a148-105">The four section types are indicated by the literal strings **connect**, **sql**, **userlist**, or **logs**.</span></span> <span data-ttu-id="5a148-106">O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.</span><span class="sxs-lookup"><span data-stu-id="5a148-106">The parameter is the literal string, the default, a user-specified identifier, or nothing.</span></span>
 
-<span data-ttu-id="fd8e0-107">Portanto, cada seção é marcada com um destes cabeçalhos de seção:</span><span class="sxs-lookup"><span data-stu-id="fd8e0-107">Therefore, each section is marked with one of the following section headers:</span></span>
+<span data-ttu-id="5a148-107">Portanto, cada seção é marcada com um destes cabeçalhos de seção:</span><span class="sxs-lookup"><span data-stu-id="5a148-107">Therefore, each section is marked with one of the following section headers:</span></span>
 
 ```text 
  
@@ -33,7 +33,7 @@ ms.locfileid: "28721882"
 [ logs                  ]
 ```
 
-<span data-ttu-id="fd8e0-108">Os cabeçalhos de seção possuem as seguintes partes.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-108">The section headers have the following parts.</span></span>
+<span data-ttu-id="5a148-108">Os cabeçalhos de seção possuem as seguintes partes.</span><span class="sxs-lookup"><span data-stu-id="5a148-108">The section headers have the following parts.</span></span>
 
 <table>
 <colgroup>
@@ -42,40 +42,39 @@ ms.locfileid: "28721882"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="fd8e0-109">Parte</span><span class="sxs-lookup"><span data-stu-id="fd8e0-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="fd8e0-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="fd8e0-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="5a148-109">Parte</span><span class="sxs-lookup"><span data-stu-id="5a148-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="5a148-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="5a148-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fd8e0-111"><strong>connect</strong></span><span class="sxs-lookup"><span data-stu-id="fd8e0-111"><strong>connect</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-112">Uma sequência de caracteres literal que modifica uma sequência de conexão.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-112">A literal string that modifies a connection string.</span></span></p></td>
+<td><p><span data-ttu-id="5a148-111"><strong>ao</strong></span><span class="sxs-lookup"><span data-stu-id="5a148-111"><strong>connect</strong></span></span></p></td>
+<td><p><span data-ttu-id="5a148-112">Uma sequência de caracteres literal que modifica uma sequência de conexão.</span><span class="sxs-lookup"><span data-stu-id="5a148-112">A literal string that modifies a connection string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fd8e0-113"><strong>sql</strong></span><span class="sxs-lookup"><span data-stu-id="fd8e0-113"><strong>sql</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-114">Uma sequência de caracteres literal que modifica uma sequência de comando.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-114">A literal string that modifies a command string.</span></span></p></td>
+<td><p><span data-ttu-id="5a148-113"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="5a148-113"><strong>sql</strong></span></span></p></td>
+<td><p><span data-ttu-id="5a148-114">Uma sequência de caracteres literal que modifica uma sequência de comando.</span><span class="sxs-lookup"><span data-stu-id="5a148-114">A literal string that modifies a command string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fd8e0-115"><strong>userlist</strong></span><span class="sxs-lookup"><span data-stu-id="fd8e0-115"><strong>userlist</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-116">Uma sequência de caracteres literal que modifica os direitos de acesso de um usuário específico.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-116">A literal string that modifies the access rights of a specific user.</span></span></p></td>
+<td><p><span data-ttu-id="5a148-115"><strong>UserList</strong></span><span class="sxs-lookup"><span data-stu-id="5a148-115"><strong>userlist</strong></span></span></p></td>
+<td><p><span data-ttu-id="5a148-116">Uma sequência de caracteres literal que modifica os direitos de acesso de um usuário específico.</span><span class="sxs-lookup"><span data-stu-id="5a148-116">A literal string that modifies the access rights of a specific user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fd8e0-117"><strong>logs</strong></span><span class="sxs-lookup"><span data-stu-id="fd8e0-117"><strong>logs</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-118">Uma sequência de caracteres literal que especifica um arquivo de log que registra erros operacionais.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-118">A literal string that specifies a log file recording operational errors.</span></span></p></td>
+<td><p><span data-ttu-id="5a148-117"><strong>logs</strong></span><span class="sxs-lookup"><span data-stu-id="5a148-117"><strong>logs</strong></span></span></p></td>
+<td><p><span data-ttu-id="5a148-118">Uma sequência de caracteres literal que especifica um arquivo de log que registra erros operacionais.</span><span class="sxs-lookup"><span data-stu-id="5a148-118">A literal string that specifies a log file recording operational errors.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fd8e0-119"><strong>default</strong></span><span class="sxs-lookup"><span data-stu-id="fd8e0-119"><strong>default</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-120">Uma sequência de caracteres literal usada quando nenhum identificador é especificado ou localizado.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-120">A literal string that is used if no identifier is specified or found.</span></span></p></td>
+<td><p><span data-ttu-id="5a148-119"><strong>default</strong></span><span class="sxs-lookup"><span data-stu-id="5a148-119"><strong>default</strong></span></span></p></td>
+<td><p><span data-ttu-id="5a148-120">Uma sequência de caracteres literal usada quando nenhum identificador é especificado ou localizado.</span><span class="sxs-lookup"><span data-stu-id="5a148-120">A literal string that is used if no identifier is specified or found.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fd8e0-121"><em>identifier</em></span><span class="sxs-lookup"><span data-stu-id="fd8e0-121"><em>identifier</em></span></span></p></td>
-<td><p><span data-ttu-id="fd8e0-122">Uma sequência de caracteres que corresponde a uma sequência de caracteres na sequência de <strong>conexão</strong> ou de <strong>comando</strong>.
-</span><span class="sxs-lookup"><span data-stu-id="fd8e0-122">A string that matches a string in the <strong>connect</strong> or <strong>command</strong> string.</span></span></p>
+<td><p><span data-ttu-id="5a148-121"><em>identificador</em></span><span class="sxs-lookup"><span data-stu-id="5a148-121"><em>identifier</em></span></span></p></td>
+<td><p><span data-ttu-id="5a148-122">Uma sequência de caracteres que corresponde a uma sequência de caracteres na sequência de <strong>conexão</strong> ou de <strong>comando</strong>.</span><span class="sxs-lookup"><span data-stu-id="5a148-122">A string that matches a string in the <strong>connect</strong> or <strong>command</strong> string.</span></span></p>
 <p></p>
 <ul>
-<li><p><span data-ttu-id="fd8e0-123">Use esta seção se o cabeçalho de seção contiver <strong>connect</strong> e a sequência identifier for localizada na sequência de conexão.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-123">Use this section if the section header contains <strong>connect</strong> and the identifier string is found in the connection string.</span></span></p></li>
-<li><p><span data-ttu-id="fd8e0-124">Use esta seção se o cabeçalho de seção contiver <strong>sql</strong> e a sequência identifier for localizada na sequência de comando.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-124">Use this section if the section header contains <strong>sql</strong> and the identifier string is found in the command string.</span></span></p></li>
-<li><p><span data-ttu-id="fd8e0-125">Use esta seção se o cabeçalho de seção contiver <strong>userlist</strong> e a sequência identifier corresponder a um identificador de seção <strong>connect</strong>.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-125">Use this section if the section header contains <strong>userlist</strong> and the identifier string matches a <strong>connect</strong> section identifier.</span></span></p></li>
+<li><p><span data-ttu-id="5a148-123">Use esta seção se o cabeçalho de seção contiver <strong>connect</strong> e a sequência identifier for localizada na sequência de conexão.</span><span class="sxs-lookup"><span data-stu-id="5a148-123">Use this section if the section header contains <strong>connect</strong> and the identifier string is found in the connection string.</span></span></p></li>
+<li><p><span data-ttu-id="5a148-124">Use esta seção se o cabeçalho de seção contiver <strong>sql</strong> e a sequência identifier for localizada na sequência de comando.</span><span class="sxs-lookup"><span data-stu-id="5a148-124">Use this section if the section header contains <strong>sql</strong> and the identifier string is found in the command string.</span></span></p></li>
+<li><p><span data-ttu-id="5a148-125">Use esta seção se o cabeçalho de seção contiver <strong>userlist</strong> e a sequência identifier corresponder a um identificador de seção <strong>connect</strong>.</span><span class="sxs-lookup"><span data-stu-id="5a148-125">Use this section if the section header contains <strong>userlist</strong> and the identifier string matches a <strong>connect</strong> section identifier.</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -83,19 +82,19 @@ ms.locfileid: "28721882"
 </table>
 
 
-<span data-ttu-id="fd8e0-p102">O **DataFactory** chama o manipulador, passando parâmetros cliente. O manipulador procura sequências de caracteres completas nesses parâmetros que correspondam aos identificadores nos cabeçalhos de seção apropriados. Se for encontrada uma correspondência, o conteúdo dessa seção será aplicado ao parâmetro cliente.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-p102">The **DataFactory** calls the handler, passing client parameters. The handler searches for whole strings in the client parameters that match identifiers in the appropriate section headers. If a match is found, the contents of that section are applied to the client parameter.</span></span>
+<span data-ttu-id="5a148-p102">O **DataFactory** chama o manipulador, passando parâmetros cliente. O manipulador procura sequências de caracteres completas nesses parâmetros que correspondam aos identificadores nos cabeçalhos de seção apropriados. Se for encontrada uma correspondência, o conteúdo dessa seção será aplicado ao parâmetro cliente.</span><span class="sxs-lookup"><span data-stu-id="5a148-p102">The **DataFactory** calls the handler, passing client parameters. The handler searches for whole strings in the client parameters that match identifiers in the appropriate section headers. If a match is found, the contents of that section are applied to the client parameter.</span></span>
 
-<span data-ttu-id="fd8e0-129">Uma seção específica é usada nas seguintes circunstâncias:</span><span class="sxs-lookup"><span data-stu-id="fd8e0-129">A particular section is used under the following circumstances:</span></span>
+<span data-ttu-id="5a148-129">Uma seção específica é usada nas seguintes circunstâncias:</span><span class="sxs-lookup"><span data-stu-id="5a148-129">A particular section is used under the following circumstances:</span></span>
 
-  - <span data-ttu-id="fd8e0-130">Uma seção de **Conectar** será usada se a parte de valor do cliente se conecta a palavra-chave de cadeia de caracteres, "\**Data Source = \* \* \* valor*", corresponder a um identificador de seção **Conectar** *.*</span><span class="sxs-lookup"><span data-stu-id="fd8e0-130">A **connect** section is used if the value part of the client connect string keyword, "\**Data Source=\*\*\*value*", matches a **connect** section identifier *.*</span></span>
+  - <span data-ttu-id="5a148-130">Uma seção **Connect** será usada se a parte de valor da palavra-chave cadeia de caracteres de conexão do cliente, "\**fonte de dados = \* \* \* valor*", corresponder a um identificador de seção **Connect** *.*</span><span class="sxs-lookup"><span data-stu-id="5a148-130">A **connect** section is used if the value part of the client connect string keyword, "\**Data Source=\*\*\*value*", matches a **connect** section identifier *.*</span></span>
 
-  - <span data-ttu-id="fd8e0-131">Uma seção **sql** será usada se a sequência de comando do cliente contiver uma sequência de caracteres que corresponda a um identificador de seção **sql**.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-131">An **sql** section is used if the client command string contains a string that matches an **sql** section identifier.</span></span>
+  - <span data-ttu-id="5a148-131">Uma seção **sql** será usada se a sequência de comando do cliente contiver uma sequência de caracteres que corresponda a um identificador de seção **sql**.</span><span class="sxs-lookup"><span data-stu-id="5a148-131">An **sql** section is used if the client command string contains a string that matches an **sql** section identifier.</span></span>
 
-  - <span data-ttu-id="fd8e0-132">Uma seção **connect** ou **sql** com um parâmetro padrão será usada se não houver nenhum identificador correspondente.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-132">A **connect** or **sql** section with a default parameter is used if there is no matching identifier.</span></span>
+  - <span data-ttu-id="5a148-132">Uma seção **connect** ou **sql** com um parâmetro padrão será usada se não houver nenhum identificador correspondente.</span><span class="sxs-lookup"><span data-stu-id="5a148-132">A **connect** or **sql** section with a default parameter is used if there is no matching identifier.</span></span>
 
-  - <span data-ttu-id="fd8e0-p103">Uma seção **userlist** será usada se o identificador da seção **userlist** corresponder a um identificador da seção **connect**. Em caso de correspondência, o conteúdo da seção **userlist** será aplicado à conexão administrada pela seção **connect**.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-p103">A **userlist** section is used if the **userlist** section identifier matches a **connect** section identifier. If there is a match, the contents of the **userlist** section are applied to the connection governed by the **connect** section.</span></span>
+  - <span data-ttu-id="5a148-p103">Uma seção **userlist** será usada se o identificador da seção **userlist** corresponder a um identificador da seção **connect**. Em caso de correspondência, o conteúdo da seção **userlist** será aplicado à conexão administrada pela seção **connect**.</span><span class="sxs-lookup"><span data-stu-id="5a148-p103">A **userlist** section is used if the **userlist** section identifier matches a **connect** section identifier. If there is a match, the contents of the **userlist** section are applied to the connection governed by the **connect** section.</span></span>
 
-  - <span data-ttu-id="fd8e0-135">Se a sequência de caracteres em uma sequência de conexão ou de comando não corresponder ao identificador de nenhum cabeçalho da seção **connect** ou **sql** e se não houver cabeçalho da seção **connect** ou **sql** com um parâmetro padrão, a sequência de caracteres do cliente será usada sem modificação.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-135">If the string in a connection or command string does not match the identifier in any **connect** or **sql** section header, and there is no **connect** or **sql** section header with a default parameter, then the client string is used without modification.</span></span>
+  - <span data-ttu-id="5a148-135">Se a sequência de caracteres em uma sequência de conexão ou de comando não corresponder ao identificador de nenhum cabeçalho da seção **connect** ou **sql** e se não houver cabeçalho da seção **connect** ou **sql** com um parâmetro padrão, a sequência de caracteres do cliente será usada sem modificação.</span><span class="sxs-lookup"><span data-stu-id="5a148-135">If the string in a connection or command string does not match the identifier in any **connect** or **sql** section header, and there is no **connect** or **sql** section header with a default parameter, then the client string is used without modification.</span></span>
 
-  - <span data-ttu-id="fd8e0-136">A seção **logs** será usada sempre que **DataFactory** estiver em operação.</span><span class="sxs-lookup"><span data-stu-id="fd8e0-136">The **logs** section is used whenever the **DataFactory** is in operation.</span></span>
+  - <span data-ttu-id="5a148-136">A seção **logs** será usada sempre que **DataFactory** estiver em operação.</span><span class="sxs-lookup"><span data-stu-id="5a148-136">The **logs** section is used whenever the **DataFactory** is in operation.</span></span>
 

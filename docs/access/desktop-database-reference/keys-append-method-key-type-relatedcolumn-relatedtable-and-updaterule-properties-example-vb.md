@@ -1,5 +1,5 @@
 ---
-title: Chaves de método de anexar, tipo de chave, exemplo das propriedades RelatedColumn (VB)
+title: Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9120fa718544a0d1d7a132b197517aac955f5fc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290628"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="44ecb-102">Exemplo das propriedades RelatedColumn do método Append, tipo de chave, chaves, RelatedTable e UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="44ecb-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="2ef97-102">Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RELATEDTABLE e UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="2ef97-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="44ecb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="44ecb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2ef97-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ef97-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="44ecb-104">O código a seguir demonstra como criar uma nova chave estrangeira.</span><span class="sxs-lookup"><span data-stu-id="44ecb-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="44ecb-105">Supõe que existem duas tabelas (**clientes** e **pedidos**).</span><span class="sxs-lookup"><span data-stu-id="44ecb-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="2ef97-104">O código a seguir demonstra como criar uma nova chave estrangeira.</span><span class="sxs-lookup"><span data-stu-id="2ef97-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="2ef97-105">Ele considera a existência de duas tabelas (**Customers** e **Orders**).</span><span class="sxs-lookup"><span data-stu-id="2ef97-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

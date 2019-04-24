@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9a0c4aaa451657f0b8afc3c7442ec02ff7f0de97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295552"
 ---
-# <a name="containers-properties-dao"></a><span data-ttu-id="3b734-102">Propriedades de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b734-102">Containers properties (DAO)</span></span>
+# <a name="containers-properties-dao"></a><span data-ttu-id="455ef-102">Propriedades de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="455ef-102">Containers properties (DAO)</span></span>
 
-<span data-ttu-id="3b734-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b734-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="455ef-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="455ef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3b734-104">Propriedade Containers.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b734-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
+- [<span data-ttu-id="455ef-104">Propriedade containers. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="455ef-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
 

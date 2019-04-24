@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f782db3db89b63496d9877249fdbf777dc64c9f5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291556"
 ---
-# <a name="indexes-collection-properties-methods-and-events-adox"></a><span data-ttu-id="c79ce-102">Propriedades, métodos e eventos da coleção Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c79ce-102">Indexes collection properties, methods, and events (ADOX)</span></span>
+# <a name="indexes-collection-properties-methods-and-events-adox"></a><span data-ttu-id="cd187-102">Propriedades, métodos e eventos da coleção Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cd187-102">Indexes collection properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="c79ce-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c79ce-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd187-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd187-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="c79ce-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="c79ce-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="cd187-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="cd187-104">Properties</span></span>
 
-- [<span data-ttu-id="c79ce-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="c79ce-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="c79ce-106">Propriedade item</span><span class="sxs-lookup"><span data-stu-id="c79ce-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="cd187-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="cd187-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="cd187-106">Propriedade Item</span><span class="sxs-lookup"><span data-stu-id="cd187-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="c79ce-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="c79ce-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="cd187-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="cd187-107">Methods</span></span>
 
-- [<span data-ttu-id="c79ce-108">Método (índices) append</span><span class="sxs-lookup"><span data-stu-id="c79ce-108">Append method (Indexes)</span></span>](append-method-adox-indexes.md)
-- [<span data-ttu-id="c79ce-109">Excluir método (coleções)</span><span class="sxs-lookup"><span data-stu-id="c79ce-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
-- [<span data-ttu-id="c79ce-110">O método Refresh</span><span class="sxs-lookup"><span data-stu-id="c79ce-110">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="cd187-108">Método Append (índices)</span><span class="sxs-lookup"><span data-stu-id="cd187-108">Append method (Indexes)</span></span>](append-method-adox-indexes.md)
+- [<span data-ttu-id="cd187-109">Método Delete (coleções)</span><span class="sxs-lookup"><span data-stu-id="cd187-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
+- [<span data-ttu-id="cd187-110">Método Refresh</span><span class="sxs-lookup"><span data-stu-id="cd187-110">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="c79ce-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="c79ce-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="cd187-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="cd187-111">Events</span></span>
 
-<span data-ttu-id="c79ce-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c79ce-112">None.</span></span>
+<span data-ttu-id="cd187-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="cd187-112">None.</span></span>
 

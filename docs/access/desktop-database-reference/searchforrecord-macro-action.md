@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314641"
 ---
-# <a name="searchforrecord-macro-action"></a><span data-ttu-id="c555a-102">Ação da macro ProcurarRegistro</span><span class="sxs-lookup"><span data-stu-id="c555a-102">SearchForRecord macro action</span></span>
+# <a name="searchforrecord-macro-action"></a><span data-ttu-id="4f958-102">Ação da macro ProcurarRegistro</span><span class="sxs-lookup"><span data-stu-id="4f958-102">SearchForRecord macro action</span></span>
 
 
-<span data-ttu-id="c555a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c555a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f958-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f958-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c555a-104">Você pode usar a ação **ProcurarRegistro** para procurar um registro em uma tabela, consulta, formulário ou relatório específico.</span><span class="sxs-lookup"><span data-stu-id="c555a-104">You can use the **SearchForRecord** action to search for a specific record in a table, query, form or report.</span></span>
+<span data-ttu-id="4f958-104">Você pode usar a ação **ProcurarRegistro** para procurar um registro em uma tabela, consulta, formulário ou relatório específico.</span><span class="sxs-lookup"><span data-stu-id="4f958-104">You can use the **SearchForRecord** action to search for a specific record in a table, query, form or report.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="c555a-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="c555a-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="4f958-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="4f958-105">Setting</span></span>
 
-<span data-ttu-id="c555a-106">A ação **ProcurarRegistro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="c555a-106">The **SearchForRecord** action has the following arguments.</span></span>
+<span data-ttu-id="4f958-106">A ação **ProcurarRegistro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="4f958-106">The **SearchForRecord** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -36,22 +36,22 @@ ms.locfileid: "28702107"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c555a-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="c555a-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="c555a-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="c555a-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="4f958-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="4f958-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="4f958-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="4f958-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c555a-109"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-109"><strong>Object Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-p101">Digite ou selecione o tipo de objeto de banco de dados que você está procurando. É possível selecionar <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong> ou <strong>Relatório</strong>.</span><span class="sxs-lookup"><span data-stu-id="c555a-p101">Enter or select the type of database object that you are searching in. You can select <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, or <strong>Report</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-109"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-109"><strong>Object Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-110">Digite ou selecione o tipo de objeto de banco de dados que você está procurando.</span><span class="sxs-lookup"><span data-stu-id="4f958-110">Enter or select the type of database object that you are searching in.</span></span> <span data-ttu-id="4f958-111">É possível selecionar <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong> ou <strong>Relatório</strong>.</span><span class="sxs-lookup"><span data-stu-id="4f958-111">You can select <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, or <strong>Report</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c555a-112"><strong>Nome do Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-112"><strong>Object Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-p102">Digite ou selecione o objeto específico que contenha o registro a ser pesquisado. A lista suspensa mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>.</span><span class="sxs-lookup"><span data-stu-id="c555a-p102">Enter or select the specific object that contains the record to search for. The drop-down list shows all database objects of the type you selected for the <strong>Object Type</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-112"><strong>Nome do objeto</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-112"><strong>Object Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-p102">Digite ou selecione o objeto específico que contenha o registro a ser pesquisado. A lista suspensa mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>.</span><span class="sxs-lookup"><span data-stu-id="4f958-p102">Enter or select the specific object that contains the record to search for. The drop-down list shows all database objects of the type you selected for the <strong>Object Type</strong> argument.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c555a-115"><strong>Record</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-115"><strong>Record</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-116">Especifique o ponto de início e a direção da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c555a-116">Specify the starting point and direction of the search.</span></span></p>
+<td><p><span data-ttu-id="4f958-115"><strong>Record</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-115"><strong>Record</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-116">Especifique o ponto de início e a direção da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="4f958-116">Specify the starting point and direction of the search.</span></span></p>
 <div class="tableSection">
 <table>
 <colgroup>
@@ -60,26 +60,26 @@ ms.locfileid: "28702107"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c555a-117">Configuração</span><span class="sxs-lookup"><span data-stu-id="c555a-117">Setting</span></span></p></th>
-<th><p><span data-ttu-id="c555a-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="c555a-118">Description</span></span></p></th>
+<th><p><span data-ttu-id="4f958-117">Configuração</span><span class="sxs-lookup"><span data-stu-id="4f958-117">Setting</span></span></p></th>
+<th><p><span data-ttu-id="4f958-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="4f958-118">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c555a-119"><strong>Previous</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-119"><strong>Previous</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-120">Pesquisa registros anteriores ao registro atual.</span><span class="sxs-lookup"><span data-stu-id="c555a-120">Search backward from the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-119"><strong>Previous</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-119"><strong>Previous</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-120">Pesquisa registros anteriores ao registro atual.</span><span class="sxs-lookup"><span data-stu-id="4f958-120">Search backward from the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c555a-121"><strong>Next</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-121"><strong>Next</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-122">Pesquisa registros posteriores ao registro atual.</span><span class="sxs-lookup"><span data-stu-id="c555a-122">Search forward from the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-121"><strong>Next</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-121"><strong>Next</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-122">Pesquisa registros posteriores ao registro atual.</span><span class="sxs-lookup"><span data-stu-id="4f958-122">Search forward from the current record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c555a-123"><strong>Primeira</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-123"><strong>First</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-p103">Pesquisa registros posteriores a partir do primeiro registro. Este é o valor padrão do argumento.</span><span class="sxs-lookup"><span data-stu-id="c555a-p103">Search forward from the first record. This is the default value for this argument.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-123"><strong>Primeira</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-123"><strong>First</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-124">Pesquisa registros posteriores a partir do primeiro registro.</span><span class="sxs-lookup"><span data-stu-id="4f958-124">Search forward from the first record.</span></span> <span data-ttu-id="4f958-125">Este é o valor padrão do argumento.</span><span class="sxs-lookup"><span data-stu-id="4f958-125">This is the default value for this argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c555a-126"><strong>Último</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-126"><strong>Last</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-127">Pesquisa registros anteriores a partir do último registro.</span><span class="sxs-lookup"><span data-stu-id="c555a-127">Search backward from the last record.</span></span></p></td>
+<td><p><span data-ttu-id="4f958-126"><strong>Último</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-126"><strong>Last</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-127">Pesquisa registros anteriores a partir do último registro.</span><span class="sxs-lookup"><span data-stu-id="4f958-127">Search backward from the last record.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -87,45 +87,45 @@ ms.locfileid: "28702107"
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c555a-128"><strong>Condição Onde</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-128"><strong>Where Condition</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-129">Insira os critérios para a pesquisa usando a mesma sintaxe como uma cláusula SQL WHERE, apenas sem a palavra &quot;onde&quot;.</span><span class="sxs-lookup"><span data-stu-id="c555a-129">Enter the criteria for the search using the same syntax as an SQL WHERE clause, only without the word &quot;WHERE&quot;.</span></span> <span data-ttu-id="c555a-130">Por exemplo,</span><span class="sxs-lookup"><span data-stu-id="c555a-130">For example,</span></span></p>
+<td><p><span data-ttu-id="4f958-128"><strong>Condição Onde</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-128"><strong>Where Condition</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-129">Insira os critérios da pesquisa usando a mesma sintaxe de uma cláusula WHERE do SQL, somente sem a palavra &quot;Where&quot;.</span><span class="sxs-lookup"><span data-stu-id="4f958-129">Enter the criteria for the search using the same syntax as an SQL WHERE clause, only without the word &quot;WHERE&quot;.</span></span> <span data-ttu-id="4f958-130">For example,</span><span class="sxs-lookup"><span data-stu-id="4f958-130">For example,</span></span></p>
 <p>`Description = "Beverages"`</p>
-<p><span data-ttu-id="c555a-131">Para criar um critério que inclui um valor de uma caixa de texto em um formulário, você deve criar uma expressão que concatena a primeira parte do critério com o nome da caixa de texto que contém o valor a ser procurado.</span><span class="sxs-lookup"><span data-stu-id="c555a-131">To create a criterion that includes a value from a text box on a form, you must create an expression that concatenates the first part of the criterion with the name of the text box containing the value for which to search.</span></span> <span data-ttu-id="c555a-132">Por exemplo, o seguinte critério pesquisará o campo Descrição para o valor na caixa de texto denominada Txtdescrição no formulário denominado frmCategories.</span><span class="sxs-lookup"><span data-stu-id="c555a-132">For example, the following criterion will search the Description field for the value in the text box named txtDescription on the form named frmCategories.</span></span> <span data-ttu-id="c555a-133">Observe o sinal de igualdade (<strong>=</strong>) no início da expressão e o uso de aspas simples (<strong>'</strong>) em ambos os lados da referência de caixa de texto:</span><span class="sxs-lookup"><span data-stu-id="c555a-133">Note the equal sign (<strong>=</strong>) at the beginning of the expression, and the use of single quotation marks (<strong>'</strong>) on either side of the text box reference:</span></span></p>
+<p><span data-ttu-id="4f958-131">Para criar um critério que inclua um valor de uma caixa de texto em um formulário, você deve criar uma expressão que concatena a primeira parte do critério com o nome da caixa de texto que contém o valor a ser pesquisado.</span><span class="sxs-lookup"><span data-stu-id="4f958-131">To create a criterion that includes a value from a text box on a form, you must create an expression that concatenates the first part of the criterion with the name of the text box containing the value for which to search.</span></span> <span data-ttu-id="4f958-132">Por exemplo, o critério a seguir pesquisará o campo Descrição para obter o valor da caixa de texto nomeada txtDescrição, no formulário frmCategorias.</span><span class="sxs-lookup"><span data-stu-id="4f958-132">For example, the following criterion will search the Description field for the value in the text box named txtDescription on the form named frmCategories.</span></span> <span data-ttu-id="4f958-133">Observe o sinal de igual<strong>=</strong>() no início da expressão e o uso de aspas simples (<strong>'</strong>) em qualquer lado da referência da caixa de texto:</span><span class="sxs-lookup"><span data-stu-id="4f958-133">Note the equal sign (<strong>=</strong>) at the beginning of the expression, and the use of single quotation marks (<strong>'</strong>) on either side of the text box reference:</span></span></p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="c555a-134">Comentários</span><span class="sxs-lookup"><span data-stu-id="c555a-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4f958-134">Comentários</span><span class="sxs-lookup"><span data-stu-id="4f958-134">Remarks</span></span>
 
-- <span data-ttu-id="c555a-135">Quando mais de um registro satisfizer os critérios do argumento **CondiçãoOnde**, os seguintes fatores determinarão o registro a ser localizado:</span><span class="sxs-lookup"><span data-stu-id="c555a-135">In cases where more than one record matches the criteria in the **Where Condition** argument, the following factors determine which record is found:</span></span>
+- <span data-ttu-id="4f958-135">Quando mais de um registro satisfizer os critérios do argumento **CondiçãoOnde**, os seguintes fatores determinarão o registro a ser localizado:</span><span class="sxs-lookup"><span data-stu-id="4f958-135">In cases where more than one record matches the criteria in the **Where Condition** argument, the following factors determine which record is found:</span></span>
     
-  - <span data-ttu-id="c555a-136">**Definição do argumento o registro** Consulte a tabela na seção configurações para obter mais informações sobre o argumento **registro** .</span><span class="sxs-lookup"><span data-stu-id="c555a-136">**The Record argument setting**See the table in the Settings section for more information about the **Record** argument.</span></span>
+  - <span data-ttu-id="4f958-136">**A configuração do argumento Record** Consulte a tabela na seção configurações para obter mais informações sobre o argumento **Record** .</span><span class="sxs-lookup"><span data-stu-id="4f958-136">**The Record argument setting**See the table in the Settings section for more information about the **Record** argument.</span></span>
     
-  - <span data-ttu-id="c555a-137">**A ordem de classificação dos registros** Por exemplo, se o argumento **registro** é definido como o **primeiro**, alterando a ordem de classificação dos registros pode alterar registro a ser localizado.</span><span class="sxs-lookup"><span data-stu-id="c555a-137">**The sort order of the records**For example, if the **Record** argument is set to **First**, changing the sort order of the records might change which record is found.</span></span>
+  - <span data-ttu-id="4f958-137">**A ordem de classificação dos registros** Por exemplo, se o argumento **Record** for definido como **primeiro**, a alteração da ordem de classificação dos registros poderá alterar o registro localizado.</span><span class="sxs-lookup"><span data-stu-id="4f958-137">**The sort order of the records**For example, if the **Record** argument is set to **First**, changing the sort order of the records might change which record is found.</span></span>
 
-- <span data-ttu-id="c555a-p106">O objeto especificado no argumento **NomeDeObjeto** deve ser aberto antes da execução dessa ação. Caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="c555a-p106">The object specified in the **Object Name** argument must be open before this action is run. Otherwise, an error occurs.</span></span>
+- <span data-ttu-id="4f958-p106">O objeto especificado no argumento **NomeDeObjeto** deve ser aberto antes da execução dessa ação. Caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="4f958-p106">The object specified in the **Object Name** argument must be open before this action is run. Otherwise, an error occurs.</span></span>
 
-- <span data-ttu-id="c555a-140">Se os critérios do argumento **CondiçãoOnde** não forem satisfeitos, não ocorrerão erros e o foco permanecerá no registro atual.</span><span class="sxs-lookup"><span data-stu-id="c555a-140">If the criteria in the **Where Condition** argument are not met, no error occurs and the focus remains on the current record.</span></span>
+- <span data-ttu-id="4f958-140">Se os critérios do argumento **CondiçãoOnde** não forem satisfeitos, não ocorrerão erros e o foco permanecerá no registro atual.</span><span class="sxs-lookup"><span data-stu-id="4f958-140">If the criteria in the **Where Condition** argument are not met, no error occurs and the focus remains on the current record.</span></span>
 
-- <span data-ttu-id="c555a-p107">Ao pesquisar o registro anterior ou o próximo, a pesquisa não será "concluída" quando alcançar o fim dos dados. Se não houver mais registros que atendam aos critérios, não ocorrerão erros e o foco permanecerá no registro atual. Para confirmar se uma correspondência foi encontrada, você pode inserir uma condição para a próxima ação e torná-la igual aos critérios do argumento **CondiçãoOnde**.</span><span class="sxs-lookup"><span data-stu-id="c555a-p107">When searching for the previous or next record, the search does not "wrap" when it reaches the end of the data. If there are no further records that match the criteria, no error occurs and the focus remains on the current record. To confirm that a match was found, you can enter a condition for the next action, and make the condition the same as the criteria in the **Where Condition** argument.</span></span>
+- <span data-ttu-id="4f958-p107">Ao pesquisar o registro anterior ou o próximo, a pesquisa não será "concluída" quando alcançar o fim dos dados. Se não houver mais registros que atendam aos critérios, não ocorrerão erros e o foco permanecerá no registro atual. Para confirmar se uma correspondência foi encontrada, você pode inserir uma condição para a próxima ação e torná-la igual aos critérios do argumento **CondiçãoOnde**.</span><span class="sxs-lookup"><span data-stu-id="4f958-p107">When searching for the previous or next record, the search does not "wrap" when it reaches the end of the data. If there are no further records that match the criteria, no error occurs and the focus remains on the current record. To confirm that a match was found, you can enter a condition for the next action, and make the condition the same as the criteria in the **Where Condition** argument.</span></span>
 
-- <span data-ttu-id="c555a-144">Para executar a ação **ProcurarRegistro** em um módulo do VBA, use o método **SearchForRecord** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="c555a-144">To run the **SearchForRecord** action in a VBA module, use the **SearchForRecord** method of the **DoCmd** object.</span></span>
+- <span data-ttu-id="4f958-144">Para executar a ação **ProcurarRegistro** em um módulo do VBA, use o método **SearchForRecord** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="4f958-144">To run the **SearchForRecord** action in a VBA module, use the **SearchForRecord** method of the **DoCmd** object.</span></span>
 
-- <span data-ttu-id="c555a-p108">A ação **ProcurarRegistro** é semelhante à ação **[EncontrarRegistro](findrecord-macro-action.md)**, mas **ProcurarRegistro** tem recursos de pesquisa mais avançados. A ação **EncontrarRegistro** é usada principalmente para localizar cadeias de caracteres, e ela duplica a funcionalidade da caixa de diálogo **Localizar**. A ação **ProcurarRegistro** usa critérios que são mais parecidos com os de um filtro ou de uma consulta SQL. A lista a seguir demonstra alguns procedimentos que você pode executar com a ação **ProcurarRegistro**:</span><span class="sxs-lookup"><span data-stu-id="c555a-p108">The **SearchForRecord** action is similar to the **[FindRecord](findrecord-macro-action.md)** action, but **SearchForRecord** has more powerful search features. The **FindRecord** action is primarily used for finding strings, and it duplicates the functionality of the **Find** dialog box. The **SearchForRecord** action uses criteria that are more like those of a filter or an SQL query. The following list demonstrates some things you can do with the **SearchForRecord** action:</span></span>
+- <span data-ttu-id="4f958-p108">A ação **ProcurarRegistro** é semelhante à ação **[EncontrarRegistro](findrecord-macro-action.md)**, mas **ProcurarRegistro** tem recursos de pesquisa mais avançados. A ação **EncontrarRegistro** é usada principalmente para localizar cadeias de caracteres, e ela duplica a funcionalidade da caixa de diálogo **Localizar**. A ação **ProcurarRegistro** usa critérios que são mais parecidos com os de um filtro ou de uma consulta SQL. A lista a seguir demonstra alguns procedimentos que você pode executar com a ação **ProcurarRegistro**:</span><span class="sxs-lookup"><span data-stu-id="4f958-p108">The **SearchForRecord** action is similar to the **[FindRecord](findrecord-macro-action.md)** action, but **SearchForRecord** has more powerful search features. The **FindRecord** action is primarily used for finding strings, and it duplicates the functionality of the **Find** dialog box. The **SearchForRecord** action uses criteria that are more like those of a filter or an SQL query. The following list demonstrates some things you can do with the **SearchForRecord** action:</span></span>
     
-  - <span data-ttu-id="c555a-149">É possível usar critérios complexos no argumento **CondiçãoOnde**; por exemplo:</span><span class="sxs-lookup"><span data-stu-id="c555a-149">You can use complex criteria in the **Where Condition** argument, such as</span></span>
+  - <span data-ttu-id="4f958-149">É possível usar critérios complexos no argumento **CondiçãoOnde**; por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4f958-149">You can use complex criteria in the **Where Condition** argument, such as</span></span>
         
     `Description = "Beverages" and CategoryID = 11`
     
-  - <span data-ttu-id="c555a-150">É possível fazer referência a campos localizados na fonte de registros de um formulário ou relatório, mas que não são exibidos no formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="c555a-150">You can refer to fields that are in the record source of a form or report but aren't displayed on the form or report.</span></span> <span data-ttu-id="c555a-151">No exemplo anterior, nem descrição nem CategoryID deve ser exibido no formulário ou relatório para os critérios trabalhar.</span><span class="sxs-lookup"><span data-stu-id="c555a-151">In the preceding example, neither Description nor CategoryID must be displayed on the form or report for the criteria to work.</span></span>
+  - <span data-ttu-id="4f958-150">É possível fazer referência a campos localizados na fonte de registros de um formulário ou relatório, mas que não são exibidos no formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="4f958-150">You can refer to fields that are in the record source of a form or report but aren't displayed on the form or report.</span></span> <span data-ttu-id="4f958-151">No exemplo anterior, nenhuma descrição ou CódigoDaCategoria deve ser exibido no formulário ou relatório para que os critérios funcionem.</span><span class="sxs-lookup"><span data-stu-id="4f958-151">In the preceding example, neither Description nor CategoryID must be displayed on the form or report for the criteria to work.</span></span>
     
-  - <span data-ttu-id="c555a-p110">Você pode usar operadores lógicos, como **\<**, **\>**, **E**, **OU** e **ENTRE**. A ação **EncontrarRegistro** localiza somente cadeias de caracteres que sejam iguais a, comecem com ou contenham a cadeia pesquisada.</span><span class="sxs-lookup"><span data-stu-id="c555a-p110">You can use logical operators, such as **\<**, **\>**, **AND**, **OR**, and **BETWEEN**. The **FindRecord** action only matches strings that equal, start with, or contain the string being searched for.</span></span>
+  - <span data-ttu-id="4f958-p110">Você pode usar operadores lógicos, como **\<**, **\>**, **E**, **OU** e **ENTRE**. A ação **EncontrarRegistro** localiza somente cadeias de caracteres que sejam iguais a, comecem com ou contenham a cadeia pesquisada.</span><span class="sxs-lookup"><span data-stu-id="4f958-p110">You can use logical operators, such as **\<**, **\>**, **AND**, **OR**, and **BETWEEN**. The **FindRecord** action only matches strings that equal, start with, or contain the string being searched for.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c555a-154">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c555a-154">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4f958-154">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4f958-154">Example</span></span>
 
-<span data-ttu-id="c555a-p111">Esta macro primeiro abre a tabela Categorias usando a ação **AbrirTabela**. A macro então usa a ação **ProcurarRegistro** para localizar o primeiro registro da tabela em que o campo Descrição é igual a "Bebidas".</span><span class="sxs-lookup"><span data-stu-id="c555a-p111">The following macro first opens the Categories table by using the **OpenTable** action. The macro then uses the **SearchForRecord** action to find the first record in the table where the Description field equals "Beverages."</span></span>
+<span data-ttu-id="4f958-p111">Esta macro primeiro abre a tabela Categorias usando a ação **AbrirTabela**. A macro então usa a ação **ProcurarRegistro** para localizar o primeiro registro da tabela em que o campo Descrição é igual a "Bebidas".</span><span class="sxs-lookup"><span data-stu-id="4f958-p111">The following macro first opens the Categories table by using the **OpenTable** action. The macro then uses the **SearchForRecord** action to find the first record in the table where the Description field equals "Beverages."</span></span>
 
 <table>
 <colgroup>
@@ -134,18 +134,18 @@ ms.locfileid: "28702107"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c555a-157">Ação</span><span class="sxs-lookup"><span data-stu-id="c555a-157">Action</span></span></p></th>
-<th><p><span data-ttu-id="c555a-158">Argumentos</span><span class="sxs-lookup"><span data-stu-id="c555a-158">Arguments</span></span></p></th>
+<th><p><span data-ttu-id="4f958-157">Ação</span><span class="sxs-lookup"><span data-stu-id="4f958-157">Action</span></span></p></th>
+<th><p><span data-ttu-id="4f958-158">Argumentos</span><span class="sxs-lookup"><span data-stu-id="4f958-158">Arguments</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c555a-159"><strong>OpenTable</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-159"><strong>OpenTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-160"><strong>Nome da tabela</strong>: categorias de<strong>modo de exibição</strong>: <strong>Modo DatasheetData</strong>: <strong>Editar</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-160"><strong>Table Name</strong>: Categories<strong>View</strong>: <strong>DatasheetData Mode</strong>: <strong>Edit</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-159"><strong>OpenTable</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-159"><strong>OpenTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-160"><strong>Nome da tabela</strong>: modo de<strong>exibição</strong>de categorias: <strong>DatasheetData modo</strong>: <strong>Editar</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-160"><strong>Table Name</strong>: Categories<strong>View</strong>: <strong>DatasheetData Mode</strong>: <strong>Edit</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c555a-161"><strong>SearchForRecord</strong></span><span class="sxs-lookup"><span data-stu-id="c555a-161"><strong>SearchForRecord</strong></span></span></p></td>
-<td><p><span data-ttu-id="c555a-162"><strong>Tipo de objeto</strong>: <strong>Nome TableObject</strong>: categorias de<strong>registro</strong>: <strong>FirstWhere condição</strong>: descrição = &quot;bebidas&quot;</span><span class="sxs-lookup"><span data-stu-id="c555a-162"><strong>Object Type</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>FirstWhere Condition</strong>: Description = &quot;Beverages&quot;</span></span></p></td>
+<td><p><span data-ttu-id="4f958-161"><strong>SearchForRecord</strong></span><span class="sxs-lookup"><span data-stu-id="4f958-161"><strong>SearchForRecord</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f958-162"><strong>Tipo de objeto</strong>: <strong>nome</strong>de tableobject:<strong>registro</strong>de categorias: <strong>FirstWhere condição</strong>: Descrição = &quot;bebidas&quot;</span><span class="sxs-lookup"><span data-stu-id="4f958-162"><strong>Object Type</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>FirstWhere Condition</strong>: Description = &quot;Beverages&quot;</span></span></p></td>
 </tr>
 </tbody>
 </table>

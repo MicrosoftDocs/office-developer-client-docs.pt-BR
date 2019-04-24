@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db9d4e9aef26967cdfe052ef37959d5aceff2b29
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301334"
 ---
-# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="e2d2d-102">Exemplo do método Refresh de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="e2d2d-102">Procedures Refresh method example (VB)</span></span>
+# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="4e187-102">Exemplo do método Refresh de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="4e187-102">Procedures Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="e2d2d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2d2d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4e187-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e187-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e2d2d-p101">O código a seguir mostra como atualizar a coleção [Procedures](procedures-collection-adox.md) de um [Catálogo](catalog-object-adox.md). Esse procedimento é necessário antes de acessar os objetos [Procedure](procedure-object-adox.md) do **Catálogo**.</span><span class="sxs-lookup"><span data-stu-id="e2d2d-p101">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="4e187-p101">O código a seguir mostra como atualizar a coleção [Procedures](procedures-collection-adox.md) de um [Catálogo](catalog-object-adox.md). Esse procedimento é necessário antes de acessar os objetos [Procedure](procedure-object-adox.md) do **Catálogo**.</span><span class="sxs-lookup"><span data-stu-id="4e187-p101">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

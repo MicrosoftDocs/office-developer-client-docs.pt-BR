@@ -1,5 +1,5 @@
 ---
-title: Método Connection.CreateQueryDef (DAO)
+title: Método Connection. CreateQueryDef (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295930"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a><span data-ttu-id="5af31-102">Método Connection.CreateQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="5af31-102">Connection.CreateQueryDef method (DAO)</span></span>
+# <a name="connectioncreatequerydef-method-dao"></a><span data-ttu-id="b5324-102">Método Connection. CreateQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="b5324-102">Connection.CreateQueryDef method (DAO)</span></span>
 
-<span data-ttu-id="5af31-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5af31-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5324-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5324-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5af31-104">Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="5af31-104">Creates a new **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="b5324-104">Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="b5324-104">Creates a new **[QueryDef](querydef-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5af31-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5af31-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5324-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b5324-105">Syntax</span></span>
 
-<span data-ttu-id="5af31-106">*expressão* . CreateQueryDef (***Name***, ***SQLText***)</span><span class="sxs-lookup"><span data-stu-id="5af31-106">*expression* .CreateQueryDef(***Name***, ***SQLText***)</span></span>
+<span data-ttu-id="b5324-106">*expressão* . CreateQueryDef (***nome***, SQLTEXT) \*\*\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="b5324-106">*expression* .CreateQueryDef(***Name***, ***SQLText***)</span></span>
 
-<span data-ttu-id="5af31-107">*expressão* Uma variável que representa um objeto de **Conexão** .</span><span class="sxs-lookup"><span data-stu-id="5af31-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="b5324-107">*expressão* Uma variável que representa um objeto **Connection** .</span><span class="sxs-lookup"><span data-stu-id="b5324-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="5af31-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="5af31-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b5324-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b5324-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,42 +41,42 @@ ms.locfileid: "28705929"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="5af31-109">Nome</span><span class="sxs-lookup"><span data-stu-id="5af31-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="5af31-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="5af31-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="5af31-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="5af31-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="5af31-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="5af31-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="b5324-109">Nome</span><span class="sxs-lookup"><span data-stu-id="b5324-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="b5324-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="b5324-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="b5324-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="b5324-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="b5324-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="b5324-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5af31-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="5af31-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="5af31-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="5af31-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="5af31-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="5af31-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="5af31-116">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo <strong>QueryDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="5af31-116">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>QueryDef</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="b5324-113"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="b5324-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="b5324-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="b5324-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b5324-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="b5324-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="b5324-116">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo <strong>QueryDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="b5324-116">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>QueryDef</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5af31-117"><em>SQLText</em></span><span class="sxs-lookup"><span data-stu-id="5af31-117"><em>SQLText</em></span></span></p></td>
-<td><p><span data-ttu-id="5af31-118">Opcional</span><span class="sxs-lookup"><span data-stu-id="5af31-118">Optional</span></span></p></td>
-<td><p><span data-ttu-id="5af31-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="5af31-119"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="5af31-p101">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que é uma instrução SQL definindo o <strong>QueryDef</strong>. Se você omitir esse argumento, será possível definir o <strong>QueryDef</strong> configurando sua propriedade <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> antes ou depois de acrescentá-lo a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="5af31-p101">A <strong>Variant</strong> (<strong>String</strong> subtype) that is an SQL statement defining the <strong>QueryDef</strong>. If you omit this argument, you can define the <strong>QueryDef</strong> by setting its <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> property before or after you append it to a collection.</span></span></p></td>
+<td><p><span data-ttu-id="b5324-117"><em>SqlText</em></span><span class="sxs-lookup"><span data-stu-id="b5324-117"><em>SQLText</em></span></span></p></td>
+<td><p><span data-ttu-id="b5324-118">Opcional</span><span class="sxs-lookup"><span data-stu-id="b5324-118">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b5324-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="b5324-119"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="b5324-120">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que é uma instrução SQL definindo o <strong>QueryDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="b5324-120">A <strong>Variant</strong> (<strong>String</strong> subtype) that is an SQL statement defining the <strong>QueryDef</strong>.</span></span> <span data-ttu-id="b5324-121">Se você omitir esse argumento, será possível definir o <strong>QueryDef</strong> configurando sua propriedade <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> antes ou depois de acrescentá-lo a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="b5324-121">If you omit this argument, you can define the <strong>QueryDef</strong> by setting its <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> property before or after you append it to a collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="5af31-122">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="5af31-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b5324-122">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="b5324-122">Return value</span></span>
 
-<span data-ttu-id="5af31-123">QueryDef</span><span class="sxs-lookup"><span data-stu-id="5af31-123">QueryDef</span></span>
+<span data-ttu-id="b5324-123">QueryDef</span><span class="sxs-lookup"><span data-stu-id="b5324-123">QueryDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5af31-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="5af31-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5324-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="b5324-124">Remarks</span></span>
 
-<span data-ttu-id="5af31-125">Em um espaço de trabalho do Microsoft Access, se você fornecer algo diferente de uma cadeia de caracteres de comprimento zero para o nome ao criar um **QueryDef**, o objeto **QueryDef** resultante será automaticamente acrescentado à coleção **[QueryDefs](querydefs-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="5af31-125">In a Microsoft Access workspace, if you provide anything other than a zero-length string for the name when you create a **QueryDef**, the resulting **QueryDef** object is automatically appended to the **[QueryDefs](querydefs-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="b5324-125">Em um espaço de trabalho do Microsoft Access, se você fornecer algo diferente de uma cadeia de caracteres de comprimento zero para o nome ao criar um **QueryDef**, o objeto **QueryDef** resultante será automaticamente acrescentado à coleção **[QueryDefs](querydefs-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="b5324-125">In a Microsoft Access workspace, if you provide anything other than a zero-length string for the name when you create a **QueryDef**, the resulting **QueryDef** object is automatically appended to the **[QueryDefs](querydefs-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="5af31-126">Se o objeto especificado pelo nome, já é um membro da coleção **QueryDefs** , ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="5af31-126">If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs.</span></span> <span data-ttu-id="5af31-127">Você pode criar um temporário **QueryDef** usando uma cadeia de caracteres de comprimento zero para o argumento nome quando você executar o método **CreateQueryDef** .</span><span class="sxs-lookup"><span data-stu-id="5af31-127">You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method.</span></span> <span data-ttu-id="5af31-128">Também é possível realizar isso configurando a propriedade **[Name](connection-name-property-dao.md)** de um **QueryDef** recém-criado como uma cadeia de caracteres de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="5af31-128">You can also accomplish this by setting the **[Name](connection-name-property-dao.md)** property of a newly created **QueryDef** to a zero-length string ("").</span></span> <span data-ttu-id="5af31-129">Objetos **QueryDef** temporários são úteis se você desejar usar repetidamente instruções SQL dinâmicas sem ter de criar novos objetos permanentes na coleção **QueryDefs**.</span><span class="sxs-lookup"><span data-stu-id="5af31-129">Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection.</span></span> <span data-ttu-id="5af31-130">Não é possível acrescentar um **QueryDef** temporário a qualquer coleção porque uma cadeia de caracteres de comprimento zero não é um nome válido para um objeto **QueryDef** permanente.</span><span class="sxs-lookup"><span data-stu-id="5af31-130">You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object.</span></span> <span data-ttu-id="5af31-131">Sempre é possível definir as propriedades **Name** e **SQL** do objeto **QueryDef** recém-criado e subsequentemente acrescentar o **QueryDef** à coleção **QueryDefs**.</span><span class="sxs-lookup"><span data-stu-id="5af31-131">You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.</span></span>
+<span data-ttu-id="b5324-126">Se o objeto especificado por name já for um membro da coleção **QueryDefs** , ocorrerá um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="b5324-126">If the object specified by name is already a member of the **QueryDefs** collection, a run-time error occurs.</span></span> <span data-ttu-id="b5324-127">Você pode criar um **QueryDef** temporário usando uma cadeia de caracteres de comprimento zero para o argumento Name quando você executa o método **CreateQueryDef** .</span><span class="sxs-lookup"><span data-stu-id="b5324-127">You can create a temporary **QueryDef** by using a zero-length string for the name argument when you execute the **CreateQueryDef** method.</span></span> <span data-ttu-id="b5324-128">Também é possível realizar isso configurando a propriedade **[Name](connection-name-property-dao.md)** de um **QueryDef** recém-criado como uma cadeia de caracteres de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="b5324-128">You can also accomplish this by setting the **[Name](connection-name-property-dao.md)** property of a newly created **QueryDef** to a zero-length string ("").</span></span> <span data-ttu-id="b5324-129">Objetos **QueryDef** temporários são úteis se você desejar usar repetidamente instruções SQL dinâmicas sem ter de criar novos objetos permanentes na coleção **QueryDefs**.</span><span class="sxs-lookup"><span data-stu-id="b5324-129">Temporary **QueryDef** objects are useful if you want to repeatedly use dynamic SQL statements without having to create any new permanent objects in the **QueryDefs** collection.</span></span> <span data-ttu-id="b5324-130">Não é possível acrescentar um **QueryDef** temporário a qualquer coleção porque uma cadeia de caracteres de comprimento zero não é um nome válido para um objeto **QueryDef** permanente.</span><span class="sxs-lookup"><span data-stu-id="b5324-130">You can't append a temporary **QueryDef** to any collection because a zero-length string isn't a valid name for a permanent **QueryDef** object.</span></span> <span data-ttu-id="b5324-131">Sempre é possível definir as propriedades **Name** e **SQL** do objeto **QueryDef** recém-criado e subsequentemente acrescentar o **QueryDef** à coleção **QueryDefs**.</span><span class="sxs-lookup"><span data-stu-id="b5324-131">You can always set the **Name** and **SQL** properties of the newly created **QueryDef** object and subsequently append the **QueryDef** to the **QueryDefs** collection.</span></span>
 
-<span data-ttu-id="5af31-132">Para executar a instrução SQL em um objeto **QueryDef**, use o método **[Execute](connection-execute-method-dao.md)** ou **[OpenRecordset](connection-openrecordset-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="5af31-132">To run the SQL statement in a **QueryDef** object, use the **[Execute](connection-execute-method-dao.md)** or **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span>
+<span data-ttu-id="b5324-132">Para executar a instrução SQL em um objeto **QueryDef**, use o método **[Execute](connection-execute-method-dao.md)** ou **[OpenRecordset](connection-openrecordset-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="b5324-132">To run the SQL statement in a **QueryDef** object, use the **[Execute](connection-execute-method-dao.md)** or **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="5af31-133">Usar um objeto **QueryDef** é a maneira preferencial de executar consultas passagem SQL com bancos de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="5af31-133">Using a **QueryDef** object is the preferred way to perform SQL pass-through queries with ODBC databases.</span></span>
+<span data-ttu-id="b5324-133">Usar um objeto **QueryDef** é a maneira preferencial de executar consultas passagem SQL com bancos de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="b5324-133">Using a **QueryDef** object is the preferred way to perform SQL pass-through queries with ODBC databases.</span></span>
 
-<span data-ttu-id="5af31-134">Para remover um objeto **QueryDef** de uma coleção **QueryDefs** em um banco de dados de mecanismo de banco de dados Microsoft Access, use o método **[Delete](fields-delete-method-dao.md)** na coleção.</span><span class="sxs-lookup"><span data-stu-id="5af31-134">To remove a **QueryDef** object from a **QueryDefs** collection in a Microsoft Access database engine database, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="b5324-134">Para remover um objeto **QueryDef** de uma coleção **QueryDefs** em um banco de dados de mecanismo de banco de dados Microsoft Access, use o método **[Delete](fields-delete-method-dao.md)** na coleção.</span><span class="sxs-lookup"><span data-stu-id="b5324-134">To remove a **QueryDef** object from a **QueryDefs** collection in a Microsoft Access database engine database, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 

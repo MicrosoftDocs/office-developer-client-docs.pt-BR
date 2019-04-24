@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c94ef7da07a9d68fe04dade18e1e54f8277ace6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291425"
 ---
-# <a name="indexnulls-property-example-vc"></a><span data-ttu-id="0947c-102">Exemplo da propriedade IndexNulls (VC++)</span><span class="sxs-lookup"><span data-stu-id="0947c-102">IndexNulls property example (VC++)</span></span>
+# <a name="indexnulls-property-example-vc"></a><span data-ttu-id="38c99-102">Exemplo da propriedade IndexNulls (VC++)</span><span class="sxs-lookup"><span data-stu-id="38c99-102">IndexNulls property example (VC++)</span></span>
 
 
-<span data-ttu-id="0947c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="0947c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="38c99-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38c99-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0947c-104">Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um objeto [Index](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="0947c-104">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="0947c-105">O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário.</span><span class="sxs-lookup"><span data-stu-id="0947c-105">The code creates a new index and sets the value of **IndexNulls** based on user input.</span></span> <span data-ttu-id="0947c-106">Em seguida, o **índice** é acrescentada à [tabela](table-object-adox.md) de **funcionários** no [catálogo](catalog-object-adox.md) *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="0947c-106">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="0947c-107">O novo **Index** é aplicado a um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**, e o **Recordset** é aberto.</span><span class="sxs-lookup"><span data-stu-id="0947c-107">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="0947c-108">Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado.</span><span class="sxs-lookup"><span data-stu-id="0947c-108">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="0947c-109">A exibição desse novo registro depende da definição da propriedade **IndexNulls**.</span><span class="sxs-lookup"><span data-stu-id="0947c-109">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
+<span data-ttu-id="38c99-104">Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um objeto [Index](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="38c99-104">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="38c99-105">O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário.</span><span class="sxs-lookup"><span data-stu-id="38c99-105">The code creates a new index and sets the value of **IndexNulls** based on user input.</span></span> <span data-ttu-id="38c99-106">Em seguida, o **índice** é acrescentado à tabela **Employees** [](table-object-adox.md) no catálogo *Northwind* [](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="38c99-106">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="38c99-107">O novo **Índice** é aplicado a um [Recordset](recordset-object-ado.md) com base na tabela **Employees** e o **Recordset** é aberto.</span><span class="sxs-lookup"><span data-stu-id="38c99-107">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="38c99-108">Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado.</span><span class="sxs-lookup"><span data-stu-id="38c99-108">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="38c99-109">A exibição desse novo registro depende da definição da propriedade **IndexNulls**.</span><span class="sxs-lookup"><span data-stu-id="38c99-109">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
 
 ```cpp 
  
@@ -216,7 +216,7 @@ void IndexNullsX(_bstr_t strSel)
 
 <br/>
 
-<span data-ttu-id="0947c-110">**IndexNullX.h**</span><span class="sxs-lookup"><span data-stu-id="0947c-110">**IndexNullX.h**</span></span>
+<span data-ttu-id="38c99-110">**IndexNullX. h**</span><span class="sxs-lookup"><span data-stu-id="38c99-110">**IndexNullX.h**</span></span>
 
 ```cpp
     // BeginIndexNullsH 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292045"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="66beb-102">Tratamento de erros em VBScript</span><span class="sxs-lookup"><span data-stu-id="66beb-102">Handling errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="ce152-102">Tratamento de erros em VBScript</span><span class="sxs-lookup"><span data-stu-id="ce152-102">Handling errors in VBScript</span></span>
 
 
-<span data-ttu-id="66beb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="66beb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ce152-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce152-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="66beb-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="66beb-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="66beb-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="66beb-106">Em outras palavras, é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="66beb-107">Em vez disso, use em VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-107">Instead, use in VBScript.</span></span> <span data-ttu-id="66beb-108">Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="66beb-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="ce152-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="ce152-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="ce152-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="ce152-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="ce152-106">Em outras palavras, não é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="ce152-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="ce152-107">Em vez disso, use no VBScript.</span><span class="sxs-lookup"><span data-stu-id="ce152-107">Instead, use in VBScript.</span></span> <span data-ttu-id="ce152-108">Em vez disso, use On Error Resume Next e, em seguida, verifique o **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="ce152-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  

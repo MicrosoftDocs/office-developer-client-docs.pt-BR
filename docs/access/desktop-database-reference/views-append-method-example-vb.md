@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3816e1699865b1e58c745e9fb466c37885833802
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312040"
 ---
-# <a name="views-append-method-example-vb"></a><span data-ttu-id="076cc-102">Exemplo do método Append de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="076cc-102">Views Append method example (VB)</span></span>
+# <a name="views-append-method-example-vb"></a><span data-ttu-id="485a9-102">Exemplo do método Append de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="485a9-102">Views Append method example (VB)</span></span>
 
 
-<span data-ttu-id="076cc-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="076cc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="485a9-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="485a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="076cc-104">O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](views-collection-adox.md) da coleção [Views](append-method-adox-views.md) para criar um novo modo de exibição na fonte de dados subjacente.</span><span class="sxs-lookup"><span data-stu-id="076cc-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
+<span data-ttu-id="485a9-104">O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](views-collection-adox.md) da coleção [Views](append-method-adox-views.md) para criar um novo modo de exibição na fonte de dados subjacente.</span><span class="sxs-lookup"><span data-stu-id="485a9-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
 
 ```vb 
  

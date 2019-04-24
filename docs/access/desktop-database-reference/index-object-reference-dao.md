@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 557e4a5330f535235ce3ba635c370ee1121f7ac2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291758"
 ---
-# <a name="index-object-reference-dao"></a><span data-ttu-id="b2cbc-102">Referência de objeto de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2cbc-102">Index object reference (DAO)</span></span>
+# <a name="index-object-reference-dao"></a><span data-ttu-id="f6775-102">Referência de objeto de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6775-102">Index object reference (DAO)</span></span>
 
-<span data-ttu-id="b2cbc-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2cbc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f6775-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6775-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b2cbc-104">Objeto Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2cbc-104">Index object (DAO)</span></span>](index-object-dao.md)
-- [<span data-ttu-id="b2cbc-105">Membros de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2cbc-105">Index members (DAO)</span></span>](index-members-dao.md)
-- [<span data-ttu-id="b2cbc-106">Propriedades de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2cbc-106">Index properties (DAO)</span></span>](index-properties-dao.md)
-- [<span data-ttu-id="b2cbc-107">Métodos de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2cbc-107">Index methods (DAO)</span></span>](index-methods-dao.md)
+- [<span data-ttu-id="f6775-104">Objeto Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6775-104">Index object (DAO)</span></span>](index-object-dao.md)
+- [<span data-ttu-id="f6775-105">Membros do índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6775-105">Index members (DAO)</span></span>](index-members-dao.md)
+- [<span data-ttu-id="f6775-106">Propriedades do índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6775-106">Index properties (DAO)</span></span>](index-properties-dao.md)
+- [<span data-ttu-id="f6775-107">Métodos index (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6775-107">Index methods (DAO)</span></span>](index-methods-dao.md)
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4a6dc90d933330a897ddb84af1817d083100fb86
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293375"
 ---
-# <a name="errors-methods-dao"></a><span data-ttu-id="2c6cd-102">Métodos de erros (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c6cd-102">Errors methods (DAO)</span></span>
+# <a name="errors-methods-dao"></a><span data-ttu-id="3e106-102">Métodos de erros (DAO)</span><span class="sxs-lookup"><span data-stu-id="3e106-102">Errors methods (DAO)</span></span>
 
-<span data-ttu-id="2c6cd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c6cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3e106-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e106-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2c6cd-104">Método Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c6cd-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
+- [<span data-ttu-id="3e106-104">Método Errors. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="3e106-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
 

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fba4258f8d816dbe35c323666ff925ce15194df3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295265"
 ---
-# <a name="cubedefs-collection-ado-md"></a><span data-ttu-id="ae2dd-102">Coleção CubeDefs (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ae2dd-102">CubeDefs collection (ADO MD)</span></span>
+# <a name="cubedefs-collection-ado-md"></a><span data-ttu-id="4e1ab-102">Coleção CubeDefs (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4e1ab-102">CubeDefs collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="ae2dd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae2dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4e1ab-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e1ab-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ae2dd-104">Contém os objetos [CubeDef](cubedef-object-ado-md.md) que representam um cubo de um catálogo multidimensional.</span><span class="sxs-lookup"><span data-stu-id="ae2dd-104">Contains the [CubeDef](cubedef-object-ado-md.md) objects that represent a cube from a multidimensional catalog.</span></span>
+<span data-ttu-id="4e1ab-104">Contém os objetos [CubeDef](cubedef-object-ado-md.md) que representam um cubo de um catálogo multidimensional.</span><span class="sxs-lookup"><span data-stu-id="4e1ab-104">Contains the [CubeDef](cubedef-object-ado-md.md) objects that represent a cube from a multidimensional catalog.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ae2dd-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="ae2dd-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e1ab-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="4e1ab-105">Remarks</span></span>
 
-<span data-ttu-id="ae2dd-p101">**CubeDefs** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="ae2dd-p101">**CubeDefs** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="4e1ab-p101">**CubeDefs** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="4e1ab-p101">**CubeDefs** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
 
-- <span data-ttu-id="ae2dd-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ae2dd-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+- <span data-ttu-id="4e1ab-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="4e1ab-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="ae2dd-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ae2dd-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+- <span data-ttu-id="4e1ab-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="4e1ab-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="ae2dd-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ae2dd-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+- <span data-ttu-id="4e1ab-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="4e1ab-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bb72b0a3d0e0b497b61925b05a2ee6b0c4b98960
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290871"
 ---
-# <a name="item-property-example-vc"></a><span data-ttu-id="5ef9a-102">Exemplo da propriedade Item (VC++)</span><span class="sxs-lookup"><span data-stu-id="5ef9a-102">Item property example (VC++)</span></span>
+# <a name="item-property-example-vc"></a><span data-ttu-id="2cc35-102">Exemplo da propriedade Item (VC++)</span><span class="sxs-lookup"><span data-stu-id="2cc35-102">Item property example (VC++)</span></span>
 
 
-<span data-ttu-id="5ef9a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ef9a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2cc35-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cc35-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5ef9a-p101">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção. O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="5ef9a-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="2cc35-104">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção.</span><span class="sxs-lookup"><span data-stu-id="2cc35-104">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="2cc35-105">O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="2cc35-105">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="5ef9a-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Em seguida, os campos do [Recordset](recordset-object-ado.md) retornado são acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="5ef9a-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="2cc35-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Em seguida, os campos do [Recordset](recordset-object-ado.md) retornado são acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="2cc35-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```cpp 
  
