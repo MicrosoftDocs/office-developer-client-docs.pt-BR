@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292703"
 ---
 # <a name="field2savetofile-method-dao"></a>Método Field2.SaveToFile (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Salva um anexo no disco.
 
-## <a name="version-information"></a>Version information
+## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . SaveToFile (***FileName***)
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -46,7 +46,7 @@ Versão adicionada: Access 2007
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -87,9 +87,9 @@ O trecho de código a seguir ilustra como usar o método **SaveToFile** para sal
 
 <br/>
 
-O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho da pasta especificada.
+O exemplo a seguir mostra como salvar os arquivos armazenados em um field de anexo para o caminho da pasta especificada.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

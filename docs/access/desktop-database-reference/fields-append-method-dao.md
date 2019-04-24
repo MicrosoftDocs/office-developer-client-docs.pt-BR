@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ec3cacbe1f1c7ac5d6bda16bdd47891dc58ebfe0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292584"
 ---
 # <a name="fieldsappend-method-dao"></a>Método Fields.Append (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Adiciona um novo objeto **[Field](field-object-dao.md)** à coleção **[Fields](fields-collection-dao.md)**.
+Adiciona um novo **[Field](field-object-dao.md)** à coleção**[Fields](fields-collection-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Acrescentar (***objeto***)
+*expressão* .Append(***Object***)
 
-*expressão* Uma variável que representa um objeto **Fields** .
+*expressão* Uma variável que representa um objeto **Fields**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Adiciona um novo objeto **[Field](field-object-dao.md)** à coleção **[Fields]
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -62,7 +62,7 @@ O objeto acrescentado torna-se um objeto persistente, armazenado em disco, até 
 
 A adição de um novo objeto ocorre imediatamente, mas você deve usar o método **Refresh** em qualquer outra coleção que possa ser afetada pelas alterações na estrutura do banco de dados.
 
-Se o objeto que você está acrescentando não estiver completo (como quando você não acrescentou um objeto **Field** a uma coleção **Fields** de um objeto **Index** antes de ele ser acrescentado a uma coleção **Indexes**) ou se as propriedades definidas em um ou mais objetos subordinados estiverem incorretas, a utilização do método **Append** causará um erro. Por exemplo, se você ainda não tiver especificado um tipo de campo e, então, tenta acrescentar o objeto **Field** à coleção **Fields** em um objeto **TableDef** , usar o método **Append** dispara um erro em tempo de execução.
+Se o objeto que você está acrescentando não estiver completo (como quando você não acrescentou um objeto **Field** a uma coleção **Fields** de um objeto **Index** antes de ele ser acrescentado a uma coleção **Indexes**) ou se as propriedades definidas em um ou mais objetos subordinados estiverem incorretas, a utilização do método **Append** causará um erro. Por exemplo, se você não especificou um tipo de campo e tentou acrescentar o objeto **Field** a uma coleção **Fields** em um objeto **TableDef**, a utilização do método **Append** aciona um erro em tempo de execução.
 
 ## <a name="example"></a>Exemplo
 
