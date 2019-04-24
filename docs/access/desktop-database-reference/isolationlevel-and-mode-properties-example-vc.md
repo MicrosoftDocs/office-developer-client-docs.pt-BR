@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2963ff5f8c8e791da8405a41884cbfa4f7ab54b2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291194"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="1c32c-102">Exemplo das propriedades IsolationLevel e Mode (VC++)</span><span class="sxs-lookup"><span data-stu-id="1c32c-102">IsolationLevel and Mode properties example (VC++)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="11b18-102">Exemplo das propriedades IsolationLevel e Mode (VC++)</span><span class="sxs-lookup"><span data-stu-id="11b18-102">IsolationLevel and Mode properties example (VC++)</span></span>
 
 
-<span data-ttu-id="1c32c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c32c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11b18-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11b18-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1c32c-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="1c32c-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="11b18-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="11b18-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```cpp 
  
@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 // EndIsolationLevelCpp 
 ```
 
-<span data-ttu-id="1c32c-105">**IsolationLevelX.h**</span><span class="sxs-lookup"><span data-stu-id="1c32c-105">**IsolationLevelX.h**</span></span>
+<span data-ttu-id="11b18-105">**IsolationLevelX. h**</span><span class="sxs-lookup"><span data-stu-id="11b18-105">**IsolationLevelX.h**</span></span>
 
 ```cpp 
  
