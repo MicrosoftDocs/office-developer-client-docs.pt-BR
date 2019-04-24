@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346351"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propriedade canônica PidTagReportDisposition
 
@@ -23,7 +23,7 @@ ms.locfileid: "22583628"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o status de recebimento de mensagens com solicitar confirmações. 
+Indica o status de recebimento das mensagens que solicitam recebimentos. 
   
 |||
 |:-----|:-----|
@@ -34,35 +34,35 @@ Indica o status de recebimento de mensagens com solicitar confirmações.
    
 ## <a name="remarks"></a>Comentários
 
-Estes são valores válidos:
+A seguir estão valores válidos:
   
-- "excluída"
+- excluídos
     
-- "processadas"
+- processa
     
-- "despachado"
+- expedidos
     
-- "negado"
+- recusa
     
 - "failed"
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

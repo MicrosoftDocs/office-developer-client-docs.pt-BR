@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a40046a26efe118e48cdca4749d2e99212bb8bfe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e856044a1b6345c4e495a75dfb7ca0defa52ceec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349592"
 ---
 # <a name="sync"></a>SYNC
 
@@ -41,48 +41,48 @@ struct SYNC
 
  _ulFlags_
   
-- [out] / [in] uma bitmask dos seguintes sinalizadores que modifica o comportamento durante a sincronização:
+- [out]/[in] um bitmask dos seguintes sinalizadores que modifica o comportamento durante a sincronização:
     
 - UPS_UPLOAD_ONLY
     
-  - [in] O cliente realizarão somente carregamento. Outlook retorna apenas pastas modificadas localmente.
+  - no O cliente executará o carregamento apenas. O Outlook retorna apenas as pastas modificadas localmente.
     
 - UPS_DNLOAD_ONLY
     
-  - [in] O cliente realizarão somente download. Outlook não deve limpar os bits de carregamento de pastas.
+  - no O cliente executará apenas o download. O Outlook não deve limpar bits de carregamento para pastas.
     
 - UPS_THESE_FOLDERS
     
-  - [in] O cliente será sincronizando um conjunto especificado de pastas com as IDs da entrada fornecida. Este sinalizador pode ser combinado com o **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** sinalizador. 
+  - no O cliente estará sincronizando um conjunto de pastas especificado com as IDs de entrada fornecidas. Esse sinalizador pode ser combinado com o sinalizador **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** . 
     
 - UPS_OK
     
-  - [out] Sincronização foi bem-sucedida. O cliente define esta após carregar ou conclui uma sincronização completa.
+  - bota A sincronização foi bem-sucedida. O cliente define isso após o carregamento ou uma sincronização completa ser concluída.
     
 - 
     
     > [!NOTE]
-    > Mesmo que o cliente pode carregar ou totalmente sincronizar (carregar e baixar) pastas e itens com a API de replicação, o cliente especifica *ulFlags* com apenas uma direção da replicação ao mesmo tempo — o **UPS_UPLOAD_ONLY** ou Sinalizador **UPS_DNLOAD_ONLY** . No caso de uma sincronização completa, o cliente primeiro faz um carregamento com o sinalizador **UPS_UPLOAD_ONLY** e, em seguida, um download com o sinalizador **UPS_DNLOAD_ONLY** . 
+    > Embora o cliente possa carregar ou sincronizar totalmente (carregar e baixar) pastas e itens com a API de replicação, o cliente especifica *parâmetroulflags* com apenas uma direção da replicação de cada vez, ou seja, o **UPS_UPLOAD_ONLY** ou Sinalizador **UPS_DNLOAD_ONLY** . No caso de uma sincronização completa, o cliente primeiro realiza um upload com o sinalizador **UPS_UPLOAD_ONLY** e, em seguida, um download com o sinalizador **UPS_DNLOAD_ONLY** . 
   
  _pwzPath_
   
-- [out] Caminho para o armazenamento local.
+- bota Caminho para o repositório local.
     
  _Reserved1_
   
-- Este membro é reservado para uso interno do Outlook e não é suportado.
+- Este membro é reservado para uso interno do Outlook e não tem suporte.
     
  _Reserved2_
   
-- Este membro é reservado para uso interno do Outlook e não é suportado.
+- Este membro é reservado para uso interno do Outlook e não tem suporte.
     
  *PEL* 
   
-- [in] Esta é a lista de IDs das pastas para sincronizar se **UPS_THESE_FOLDERS** tiver sido definida de entrada. Consulte mapidefs.h para a definição de tipo de **LPENTRYLIST**. 
+- no Esta é a lista de IDs de entrada das pastas a serem sincronizadas se **UPS_THESE_FOLDERS** tiver sido definido. Consulte mapidefs. h para a definição de tipo de **LPENTRYLIST**. 
     
  _pulFolderOptions_
   
-- [in] Isso é uma matriz das opções de pasta para pastas correspondentes no *pel* se **UPS_THESE_FOLDERS** tiver sido definida. Essas opções de pasta são usadas quando o carregamento de cada uma das pastas listadas no *pel* durante o [carregamento do estado da pasta](upload-folder-state.md). Para obter mais informações sobre opções de pasta, consulte **[UPFLD](upfld.md)**. 
+- no Esta é uma matriz de opções de pasta para pastas correspondentes no *PEL* se **UPS_THESE_FOLDERS** tiver sido definido. Essas opções de pasta são usadas ao carregar cada uma das pastas listadas em *PEL* durante o [estado de carregamento da pasta](upload-folder-state.md). Para obter mais informações sobre opções de pasta, consulte **[UPFLD](upfld.md)**. 
     
 ## <a name="see-also"></a>Confira também
 

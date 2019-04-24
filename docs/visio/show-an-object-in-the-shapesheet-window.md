@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82253246
 localization_priority: Normal
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
-description: Objetos do Microsoft Visio são armazenados internamente como um conjunto de fórmulas. Você pode exibir um objeto do Visio na janela ShapeSheet para ver e editar as fórmulas subjacentes que determinam sua aparência e comportamento.
-ms.openlocfilehash: c9fe1fe61c9a705367f675c0c969b9ce2db29101
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Os objetos do Microsoft Visio são armazenados internamente como um conjunto de fórmulas. É possível exibir um objeto do Visio na janela ShapeSheet para ver e editar as fórmulas subjacentes que determinam sua aparência e seu comportamento.
+ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342816"
 ---
-# <a name="show-an-object-in-the-shapesheet-window"></a>Mostrar um objeto na janela do ShapeSheet
+# <a name="show-an-object-in-the-shapesheet-window"></a>Mostrar um Objeto na Janela ShapeSheet
 
-Objetos do Microsoft Visio são armazenados internamente como um conjunto de fórmulas. Você pode exibir um objeto do Visio na janela ShapeSheet para ver e editar as fórmulas subjacentes que determinam sua aparência e comportamento.
+Os objetos do Microsoft Visio são armazenados internamente como um conjunto de fórmulas. É possível exibir um objeto do Visio na janela ShapeSheet para ver e editar as fórmulas subjacentes que determinam sua aparência e seu comportamento.
   
 Para obter detalhes sobre como mostrar um objeto específico na janela ShapeSheet, clique em um elemento na lista a seguir.
   
@@ -26,17 +26,17 @@ Para obter detalhes sobre como mostrar um objeto específico na janela ShapeShee
 
 1. Selecione o objeto.
     
-2. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , clique em **Mostrar ShapeSheet**.
+2. Na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md), clique em **Mostrar ShapeSheet**.
     
 ## <a name="show-a-master"></a>Mostrar um mestre
 
-Você pode acessar a janela ShapeSheet e editar fórmulas só para mestres em um personalizado ou estêncil do documento. A partir do Microsoft Office Visio 2003, você não pode editar mestres nos estênceis fornecidos com o produto do Visio.
+Você pode acessar a janela ShapeSheet e editar fórmulas somente para mestres em um estêncil de documento ou personalizado. Quando começar com Microsoft Office Visio 2003, você não pode editar mestres nos estênceis que acompanham o produto Visio.
   
 1. Na janela **Formas**, clique em **Mais Formas** e em **Abrir Estêncil**.
     
-2. Localize e selecione o estêncil que contém o mestre, clique na seta ao lado do botão **Abrir** , selecione uma opção de abertura da lista suspensa e clique em **Abrir**. 
+2. Localize e selecione o estêncil que contém o mestre, clique na seta ao lado do botão **abrir** , selecione uma opção de abertura na lista suspensa e clique em **abrir**. 
     
-    Se o estêncil já estiver aberto, com o botão direito na barra de título do estêncil e clique em **Editar Estêncil** no menu de atalho. 
+    Se o estêncil já estiver aberto, clique com o botão direito do mouse na barra de título do estêncil e, em seguida, clique em **Editar estêncil** no menu de atalho. 
     
 3. Clique com o botão direito do mouse no mestre sobre o estêncil, clique em **Editar Mestre** no menu de atalho e clique em **Editar Forma Mestra.**
     
@@ -50,13 +50,13 @@ Você pode acessar a janela ShapeSheet e editar fórmulas só para mestres em um
     
 ## <a name="show-a-document"></a>Mostrar um documento
 
-1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione **Janela do Gerenciador de desenho**.
+1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione janela do **Gerenciador de desenho**.
     
 2. No **Gerenciador de Desenho**, clique com o botão direito do mouse no documento e clique em **Mostrar ShapeSheet** no menu de atalho. 
     
 ## <a name="show-a-style"></a>Mostrar um estilo
 
-1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione **Janela do Gerenciador de desenho**.
+1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione janela do **Gerenciador de desenho**.
     
 2. No **Gerenciador de Desenho**, expanda a pasta **Estilos**. 
     

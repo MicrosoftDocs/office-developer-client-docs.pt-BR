@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aff805f7868ec0c2adc55ece94c45b76368ba6eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5b76f9daec89e9229fc7f81e1332c3075c951067
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348584"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583761"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Tiver terminado de processamento de todas as operações de Transport-Neutral Encapsulation Format (TNEF) que estão enfileiradas e em espera. 
+Conclui o processamento de todas as operações do formato de encapsulamento de transporte neutro (TNEF) que estão na fila e aguardando. 
   
 ```cpp
 HRESULT Finish(
@@ -39,41 +39,41 @@ HRESULT Finish(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpKey_
   
-> [out] Um ponteiro para a propriedade de chave **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de um anexo. O objeto de encapsulamento TNEF usa essa chave para coincidir com um anexo para sua tag de posicionamento de anexo em uma mensagem. Essa chave deve ser exclusivo para cada anexo.
+> bota Um ponteiro para a propriedade da chave **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de um anexo. O objeto de encapsulamento TNEF usa essa chave para corresponder a um anexo à sua marca de posicionamento de anexo em uma mensagem. Essa chave deve ser exclusiva para cada anexo.
     
  _lpProblem_
   
-> [out] Um ponteiro para um ponteiro para uma estrutura de [STnefProblemArray](stnefproblemarray.md) retornado. A estrutura **STnefProblemArray** indica quais propriedades, se houver, não foram codificadas adequadamente. Se NULL é passada no parâmetro _lpProblem_ , nenhuma matriz de problema da propriedade será retornado. 
+> bota Um ponteiro para um ponteiro para uma estrutura [STnefProblemArray](stnefproblemarray.md) retornada. A estrutura **STnefProblemArray** indica quais propriedades, se houver, não foram codificadas corretamente. Se NULL for passado no parâmetro _lpProblem_ , nenhuma matriz de problemas de propriedade será retornada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Chamada de gateways, o método **ITnef::Finish** para executar a codificação de todas as propriedades para a qual codificação foi solicitado em chamadas para os métodos [ITnef::AddProps](itnef-addprops.md) e [ITnef::SetProps](itnef-setprops.md) , provedores de armazenamento de mensagem e provedores de transporte. Se o objeto TNEF foi aberto com o sinalizador TNEF_ENCODE para a função [OpenTnefStreamEx](opentnefstreamex.md) ou [OpenTnefStream](opentnefstream.md) , o método **término** codifica as propriedades solicitadas no fluxo encapsulamento passado para esse objeto. Se o objeto TNEF foi aberto com o sinalizador TNEF_DECODE, o método **término** decodifica as propriedades do fluxo de TNEF e grava-os de volta à mensagem que pertencem. 
+Provedores de transporte, provedores de repositórios de mensagens e gateways chamam o método **ITnef:: Finish** para executar a codificação de todas as propriedades para as quais a codificação foi solicitada em chamadas para os métodos [ITnef::](itnef-addprops.md) addprops e [ITnef:](itnef-setprops.md) : SetProps. Se o objeto TNEF tiver sido aberto com o sinalizador TNEF_ENCODE para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) , o método **Finish** codificará as propriedades solicitadas no fluxo de encapsulamento passado para esse objeto. Se o objeto TNEF tiver sido aberto com o sinalizador TNEF_DECODE, o método **Finalize** decodificará as propriedades do fluxo TNEF e as gravará novamente na mensagem à qual pertencem. 
   
-Após a chamada de **término** , o ponteiro para o fluxo de encapsulamento aponta para o final dos dados TNEF. Se o provedor ou o gateway precisa usar os dados de fluxo TNEF após o **término** de chamada, ele deverá redefinir o ponteiro do fluxo ao início dos dados stream TNEF. 
+Após a chamada de **término** , o ponteiro para o fluxo de encapsulamento aponta para o final dos dados TNEF. Se o provedor ou gateway precisar usar os dados de fluxo TNEF após a chamada de **término** , ele deverá redefinir o ponteiro de fluxo para o início dos dados de fluxo TNEF. 
   
-A implementação de TNEF relata problemas de codificação de fluxo TNEF sem interromper o processamento de **término** . A estrutura de [STnefProblemArray](stnefproblemarray.md) retornada no parâmetro _lpProblem_ indica quais atributos TNEF ou propriedades MAPI, se houver, não pôde ser processadas. O valor retornado no membro **scode** um das estruturas **STnefProblem** contidos no **STnefProblemArray** indica que o problema específico. O provedor ou o gateway pode trabalhar no pressuposto de que todas as propriedades ou os atributos para os quais a **Concluir** , não retorna um relatório de problema foram processados com êxito. 
+A implementação TNEF relata os problemas de codificação de fluxo TNEF sem interromper o processo de **conclusão** . A estrutura [STnefProblemArray](stnefproblemarray.md) retornada no parâmetro _lpProblem_ indica quais atributos do TNEF ou propriedades MAPI, se houver, não puderam ser processados. O valor retornado no membro **SCODE** de uma das estruturas **STnefProblem** contidas no **STnefProblemArray** indica o problema específico. O provedor ou gateway pode funcionar na pressuposição de que todas as propriedades ou atributos para os quais **concluir** não retornar um relatório de problemas foram processados com êxito. 
   
-Se um provedor ou gateway não funciona com matrizes de problema, ele pode passar NULL em _lpProblem_; Nesse caso, a matriz nenhum problema é retornado. 
+Se um provedor ou gateway não funcionar com matrizes problemáticas, ele poderá passar NULL no _lpProblem_; Nesse caso, nenhum conjunto de problemas é retornado. 
   
-O valor retornado em _lpProblem_ é válido somente se a chamada Retorna S_OK. Quando for retornado S_OK, o provedor ou gateway deve verificar os valores retornados na estrutura **STnefProblemArray** . Se ocorrer um erro na chamada, a estrutura de **STnefProblemArray** não for preenchida e o gateway ou provedor de chamada não deve usar ou livre a estrutura. Se nenhum erro ocorrer na chamada, o provedor de chamada ou gateway deve liberar a memória para o **STnefProblemArray** chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+O valor retornado em _lpProblem_ é válido somente se a chamada retornar S_OK. Quando S_OK é retornado, o provedor ou gateway deve verificar os valores retornados na estrutura **STnefProblemArray** . Se ocorrer um erro na chamada, a estrutura **STnefProblemArray** não será preenchida e o provedor de chamadas ou o gateway não deverá usar ou liberar a estrutura. Se nenhum erro ocorrer na chamada, o provedor de chamada ou o gateway deve liberar a memória para o **STnefProblemArray** chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|CPP  <br/> |SaveToTNEF  <br/> |MFCMAPI usa o método **ITnef::Finish** para concluir o processamento do novo fluxo TNEF.  <br/> |
+|Arquivo. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa o método **ITnef:: Finish** para concluir o processamento do novo fluxo TNEF.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -94,5 +94,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [ITnef : IUnknown](itnefiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

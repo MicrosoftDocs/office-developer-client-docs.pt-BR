@@ -1,5 +1,5 @@
 ---
-title: Suporte a vários acesso do cliente para mensagens em repositórios de mensagens
+title: Suporte a várias mensagens de acesso para cliente em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 31885c64-edb2-4a87-8730-09f163dedd40
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b13fbb9f2807c9814fed5ba3bcca8fe73aaa7b01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 40bed9ccbe8073c8e9ea5176c9d4be8fe642b52d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350600"
 ---
-# <a name="supporting-multiple-client-access-to-messages-in-message-stores"></a>Suporte a vários acesso do cliente para mensagens em repositórios de mensagens
+# <a name="supporting-multiple-client-access-to-messages-in-message-stores"></a>Suporte a várias mensagens de acesso para cliente em repositórios de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-É possível para vários aplicativos de cliente abrir uma determinada mensagem simultaneamente. Provedores de armazenamento de mensagem não precisará Siga todas as regras específicas para administrando tal acesso. No entanto, se os aplicativos cliente modificar a mensagem e salvem suas alterações, o provedor de armazenamento deve ser compatíveis com as regras a seguir:
+É possível que vários aplicativos cliente abram uma determinada mensagem simultaneamente. Os provedores de repositórios de mensagens não precisam seguir regras específicas para o controle desse acesso. No enTanto, se os aplicativos cliente modificarem a mensagem e salvar suas alterações, o provedor de repositório deverá estar em conformidade com as seguintes regras:
   
-- Permitir que a primeira chamada ao método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) continuar como se fosse o único cliente que tem a mensagem aberto. 
+- Permita que a primeira chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) prossiga como se fosse o único cliente com a mensagem aberta. 
     
-- Sobre as chamadas subsequentes **SaveChanges** por outros clientes, o provedor de armazenamento de mensagem deve ignorar as alterações e retornar MAPI_E_OBJECT_CHANGED. 
+- Nas chamadas de **SaveChanges** subsequentes por outros clientes, o provedor de repositório de mensagens deve ignorar as alterações e retornar MAPI_E_OBJECT_CHANGED. 
     
-- Permitir aplicativos para responder a um código de retorno MAPI_E_OBJECT_CHANGED pela chamada **SaveChanges** novamente com o sinalizador FORCE_SAVE de cliente. Se um aplicativo cliente faz isso, o provedor de armazenamento de mensagem deve substituir as alterações anteriores com os novos. 
+- Permitir que os aplicativos cliente respondam a um código de retorno do MAPI_E_OBJECT_CHANGED chamando o **SaveChanges** novamente com o sinalizador FORCE_SAVE. Se um aplicativo cliente fizer isso, o provedor do repositório de mensagens deverá substituir as alterações anteriores pelas novas. 
     
-Como alternativa, o provedor de armazenamento de mensagens pode detectar o conflito e apresentar uma interface que permite que o usuário escolha se deseja manter a mensagem original, substituir a mensagem original com as alterações ou salvar as alterações de novas para outro local.
+Como alternativa, o provedor do repositório de mensagens pode detectar o conflito e apresentar uma interface que permite ao usuário escolher se deseja manter a mensagem original, sobrescrever a mensagem original com as novas alterações ou salvar as novas alterações em outro local.
   
 ## <a name="see-also"></a>Confira também
 

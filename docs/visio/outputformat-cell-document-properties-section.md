@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
 description: Determina o formato de saída do desenho. Normalmente, as páginas de desenho são formatadas para impressão (padrão); no entanto, é possível escolher outros formatos de saída.
-ms.openlocfilehash: 7103fa5c2bc721add3496b7a497989d6632d58f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09fa34095772936ab1c6a3025ed1884a533f55e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359280"
 ---
 # <a name="outputformat-cell-document-properties-section"></a>Célula OutputFormat (Seção Document Properties)
 
@@ -22,9 +22,9 @@ Determina o formato de saída do desenho. Normalmente, as páginas de desenho s�
   
 |**Valor**|**Formato de saída**|
 |:-----|:-----|
-| 0  <br/> | Impressão (padrão)  <br/> |
+| ,0  <br/> | Impressão (padrão)  <br/> |
 | 1  <br/> | Apresentação de slides do PowerPoint  <br/> |
-| 2  <br/> | Saída HTML ou GIF  <br/> |
+| duas  <br/> | Saída HTML ou GIF  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

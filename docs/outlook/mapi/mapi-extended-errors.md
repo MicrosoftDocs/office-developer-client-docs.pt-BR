@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5a9499e2a980cbc00eb11c5199bb7329b255c7b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5bffa0753e3d8c86e737a96cfd303be7bcd97f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351552"
 ---
 # <a name="mapi-extended-errors"></a>MAPI estendido erros
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3f03412c9ab639678c68016ec1a8eff937b6c1a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 208af28307a60615ecafda0992881c5df36aa56f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342186"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
@@ -25,28 +25,28 @@ ms.locfileid: "22590985"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gerencia formulários em bibliotecas de formulários. Esta interface é usado para criar bibliotecas de formulários do aplicativo específico. 
+Gerencia formulários em bibliotecas de formulários. Essa interface é usada para criar bibliotecas de formulários específicas de aplicativos. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de contêiner de formulário  <br/> |
-|Implementada por:  <br/> |Provedores de biblioteca de formulário  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Exposto por:  <br/> |Objetos contêiner de formulários  <br/> |
+|Implementado por:  <br/> |Provedores de biblioteca de formulários  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFormContainer  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORMCONTAINER  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[InstallForm](imapiformcontainer-installform.md) <br/> |Instala um formulário em um contêiner de formulário.  <br/> |
-|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Remove um determinado formulário de um contêiner de formulário.  <br/> |
-|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Resolve uma classe de mensagem para o seu formulário em um contêiner de formulário e retorna um objeto de informações de formulário para nesse formulário.  <br/> |
-|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Resolve um grupo de classes de mensagens para seus formulários em um contêiner de formulário e retorna uma matriz de formulário objetos de informações para esses formulários.  <br/> |
-|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Retorna uma matriz das propriedades usadas por todos os formulários instalados em um contêiner de formulário.  <br/> |
-|[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Retorna o nome de exibição de um contêiner de formulário.  <br/> |
-|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) contendo informações sobre o erro anterior que ocorrem ao objeto de contêiner do formulário.  <br/> |
+|[InstallForm](imapiformcontainer-installform.md) <br/> |Instala um formulário em um contêiner de formulários.  <br/> |
+|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Remove um formulário específico de um contêiner de formulários.  <br/> |
+|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Resolve uma classe de mensagem para seu formulário em um contêiner de formulário e retorna um objeto de informações de formulário para esse formulário.  <br/> |
+|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Resolve um grupo de classes de mensagem para seus formulários em um contêiner de formulário e retorna uma matriz de objetos de informações de formulário para esses formulários.  <br/> |
+|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Retorna uma matriz das propriedades usadas por todos os formulários instalados em um contêiner de formulários.  <br/> |
+|[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Retorna o nome de exibição de um contêiner de formulários.  <br/> |
+|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorre com o objeto contêiner de formulário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

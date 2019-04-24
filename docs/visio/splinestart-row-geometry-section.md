@@ -8,27 +8,27 @@ f1_keywords:
 - vis_sdr.chm3055
 localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
-description: Contém x e y-coordenadas do segundo ponto de controle de uma spline, seu segundo nó, seu primeiro nó, o último nó e o grau da spline.
-ms.openlocfilehash: 0944da12e6090fde41dc5927b5705e103d29f76d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém as coordenadas x e y para o segundo ponto de controle de uma spline, seu segundo nó, seu primeiro nó, o último nó e o grau da spline.
+ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358790"
 ---
 # <a name="splinestart-row-geometry-section"></a>Linha SplineStart (Seção Geometry)
 
-Contém *x* e *y* -coordenadas do segundo ponto de controle de uma spline, seu segundo nó, seu primeiro nó, o último nó e o grau da spline. 
+Contém as coordenadas *x* e *y* para o segundo ponto de controle de uma spline, seu segundo nó, seu primeiro nó, o último nó e o grau da spline. 
   
 Uma linha SplineStart contém as células a seguir.
   
-|**Célula**|**Descrição**|
+|**Cell**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -coordenadas do segundo ponto de controle de uma spline.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -coordenadas do segundo ponto de controle de uma spline.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do segundo ponto de controle de uma spline.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do segundo ponto de controle de uma spline.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |O segundo nó da spline.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |O primeiro nó de uma spline.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |O último nó de uma spline.  <br/> |
+|[A.b.c.](b-cell-geometry-section.md) <br/> |O primeiro nó de uma spline.  <br/> |
+|[Unidade](c-cell-geometry-section.md) <br/> |O último nó de uma spline.  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |O grau de uma spline (um inteiro de 1 a 25).  <br/> |
    
 ## <a name="remarks"></a>Comentários

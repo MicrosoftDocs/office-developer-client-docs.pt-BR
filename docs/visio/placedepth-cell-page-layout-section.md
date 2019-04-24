@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Determina o tipo de layout e o método pelo qual o desenho é analisado antes de o layout ser criado.
-ms.openlocfilehash: ab2c83a94c3dd03c1fdbf0c3ee187076406b2e84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346792"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>Célula PlaceDepth (Seção Page Layout)
 
@@ -22,10 +22,10 @@ Determina o tipo de layout e o método pelo qual o desenho é analisado antes de
   
 |**Valor**|**Profundidade do deslocamento para layouts verticais e horizontais**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Padrão da página  <br/> |**visPLOPlaceDepthDefault** <br/> |
+| ,0  <br/> | Padrão da página  <br/> |**visPLOPlaceDepthDefault** <br/> |
 | 1  <br/> | Médio  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| 2  <br/> | Profundo  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3  <br/> | Raso  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| duas  <br/> | Detalhadas  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3D  <br/> | Superficial  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

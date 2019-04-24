@@ -1,5 +1,5 @@
 ---
-title: Pastas especiais de MAPI
+title: Pastas especiais MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,51 +8,51 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 396a6c01d0b9cd867706a7dd4997bd6ddd7fd147
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357355"
 ---
-# <a name="mapi-special-folders"></a>Pastas especiais de MAPI
+# <a name="mapi-special-folders"></a>Pastas especiais MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI define algumas pastas que são especiais porque eles atuam funções predefinidas como pastas padrão para determinados tipos de mensagens. Nessas pastas especiais geralmente não podem ser excluídas e têm propriedades do identificador de entrada especial.
+O MAPI define algumas pastas que são especiais porque servem funções predefinidas como pastas padrão para determinados tipos de mensagens. Essas pastas especiais normalmente não podem ser excluídas e têm propriedades de identificador de entrada especiais.
   
-Há oito pastas especiais, alguns que fazem parte da subárvore interpessoais mensagens (IPM). MAPI cria essas pastas antes que um cliente recebe acesso ao seu armazenamento de mensagens, após o qual o cliente pode ser capaz de excluir as pastas, se necessário. Alguns provedores de armazenamento de mensagens permitem a exclusão, enquanto outros não. A tabela a seguir descreve essas pastas.
+Há oito pastas especiais, algumas que fazem parte da sub-árvore da mensagem interpessoal (IPM). O MAPI cria essas pastas antes de um cliente receber acesso ao repositório de mensagens, após o qual o cliente poderá excluir as pastas, se necessário. Alguns provedores de repositórios de mensagens permitem exclusão, enquanto outros não. A tabela a seguir descreve essas pastas.
   
 **Pastas MAPI**
 
 |**Folder**|**Descrição**|
 |:-----|:-----|
-|Pasta caixa de saída  <br/> |Contém mensagens de saída IPM.  <br/> |
-|Pasta de itens excluídos  <br/> |Contém IPM mensagens marcadas para exclusão.  <br/> |
+|Pasta de saída  <br/> |Contém mensagens de saída IPM.  <br/> |
+|pasta Itens Excluídos  <br/> |Contém mensagens IPM marcadas para exclusão.  <br/> |
 |Pasta Itens enviados  <br/> |Contém mensagens IPM que foram enviadas.  <br/> |
-|Pasta de raiz IPM  <br/> |Contém pastas para gerenciamento de mensagens IPM.  <br/> |
-|Pasta de recebimento  <br/> |Contém mensagens de entrada para uma classe de mensagem específica.  <br/> |
-|Pasta raiz de resultados de pesquisa  <br/> |Contém pastas para gerenciar os resultados da pesquisa.  <br/> |
-|Pasta de raiz comum modos de exibição  <br/> |Contém pastas para gerenciar modos de exibição para o armazenamento de mensagens.  <br/> |
-|Pasta raiz de modos de exibição de pessoal  <br/> |Contém pastas para gerenciar modos de exibição para um usuário específico.  <br/> |
+|Pasta raiz IPM  <br/> |Contém pastas para o gerenciamento de mensagens IPM.  <br/> |
+|Pasta receber  <br/> |Contém mensagens de entrada para uma determinada classe de mensagem.  <br/> |
+|Pasta raiz de resultados de pesquisa  <br/> |Contém pastas para gerenciar resultados de pesquisa.  <br/> |
+|Common – pasta raiz de modos de exibição  <br/> |Contém pastas para gerenciar modos de exibição para o repositório de mensagens.  <br/> |
+|Pasta raiz de exibições pessoais  <br/> |Contém pastas para o gerenciamento de modos de exibição para um usuário específico.  <br/> |
    
-As primeiras quatro pastas se relacionam com a subárvore IPM, uma árvore de pastas MAPI cria quando um armazenamento de mensagens é inicializado. Repositórios de mensagem padrão para clientes de mensagens interativos sempre incluem subárvore IPM pasta e as outras pastas especiais na sua hierarquia de pastas. Repositórios de mensagem padrão não são necessárias somente para oferecer suporte a pasta raiz de resultados da pesquisa, a pasta de raiz subárvore IPM, a pasta Itens excluídos e a pasta de recebimento. Para garantir que as pastas de subárvore IPM existam e sejam válidas, os clientes podem chamar a função de [HrValidateIPMSubtree](hrvalidateipmsubtree.md) . **HrValidateIPMSubtree** verifica as pastas e os recria se houver um problema. 
+As quatro primeiras pastas se relacionam com a sub-árvore IPM, uma árvore de pastas que o MAPI cria quando um repositório de mensagens é inicializado. Os repositórios de mensagens padrão para clientes de mensagens interativas sempre incluem a subárvore de pastas IPM e as outras pastas especiais em sua hierarquia de pastas. Os repositórios de mensagens não padrão são necessários apenas para oferecer suporte à pasta raiz de resultados de pesquisa, à pasta raiz de sub-árvore IPM, à pasta itens excluídos e à pasta receber. Para garantir que as pastas de sub-árvore IPM existam e sejam válidas, os clientes podem chamar a função [HrValidateIPMSubtree](hrvalidateipmsubtree.md) . **HrValidateIPMSubtree** verifica as pastas e as recria se houver um problema. 
   
-As pastas raiz para os resultados da pesquisa, modos de exibição comuns e exibições pessoais não são parte da subárvore IPM; Essas pastas são criadas na pasta raiz para o armazenamento de mensagens. A pasta raiz de resultados de pesquisa contém pastas que oferecem suporte a tabelas de conteúdo com as mensagens que satisfazem um conjunto de critérios de pesquisa. Embora os clientes têm permissão para criar pastas de resultados de pesquisa em qualquer pasta, a maioria dos clientes designar uma pasta raiz única para ser o pai de todos os resultados de pesquisa pastas criadas durante a sessão. 
+As pastas raiz dos resultados de pesquisa, modos de exibição comuns e modos de exibição pessoais não fazem parte da sub-árvore IPM; essas pastas são criadas na pasta raiz do repositório de mensagens. A pasta raiz de resultados de pesquisa contém pastas que dão suporte a tabelas de conteúdo com mensagens que atendem a um conjunto de critérios de pesquisa. Embora os clientes tenham permissão para criar pastas de resultados de pesquisa em qualquer pasta, a maioria dos clientes designa uma única pasta raiz como pai de todas as pastas de resultados de pesquisa criadas durante a sessão. 
   
-As pastas de raiz comum modos de exibição e pessoal contêm mensagens que descrevem os modos de exibição ou preferenciais maneiras de apresentar os dados de mensagens e pastas. Pasta raiz comum modos de exibição contém modos de exibição que os clientes podem ser usados com qualquer pasta no repositório de mensagem; a pasta de modos de exibição de pessoal contém modos de exibição que foram definidos por um usuário específico para uma pasta particular ou pastas.
+As pastas raiz de modos de exibição pessoais e modos de exibição pessoais contêm mensagens que descrevem modos de exibição ou maneiras preferidas de apresentar dados de mensagens e pastas. A pasta raiz de modos de exibição comuns contém modos de exibição que os clientes podem usar com qualquer pasta no repositório de mensagens; a pasta de modos de exibição pessoais contém modos de exibição que foram definidos por um usuário específico para uma ou mais pastas específicas.
   
-Os clientes que funcionam com mensagens IPM devem criar todas as pastas e mensagens sob a pasta de raiz subárvore IPM, em vez da pasta raiz do armazenamento de mensagens. Isso dá aos clientes não-IPM — os clientes que lidam com mensagens trocadas entre computadores ou entre as pessoas e computadores — uma maneira fácil para ocultar suas mensagens de clientes IPM. 
+Os clientes que trabalham com mensagens IPM devem criar todas as pastas e mensagens na pasta raiz da sub-árvore IPM, e não na pasta raiz do repositório de mensagens. Isso fornece clientes não-IPM, os clientes que lidam com mensagens trocadas entre computadores ou entre seres humanos e computadores, uma maneira fácil de ocultar suas mensagens de clientes IPM. 
   
-MAPI atribui a entrada especial propriedades de identificador para essas pastas especiais. Para obter uma lista dos identificadores de entrada de pasta especial, consulte [abrindo uma pasta de repositório de mensagem](opening-a-message-store-folder.md).
+MAPI atribui Propriedades de identificador de entrada especiais para essas pastas especiais. Para obter uma lista dos identificadores de entrada de pasta especial, confira [abrir uma pasta de repositório de mensagens](opening-a-message-store-folder.md).
   
 ### <a name="outlook-special-folders"></a>Pastas especiais do Outlook
 
-Pastas especiais do Outlook são identificadas por seu IDs que estão armazenados na pasta caixa de entrada e a pasta raiz para o armazenamento de mensagens de entrada.
+As pastas especiais do Outlook são identificadas por suas IDs de entrada que são armazenadas na pasta caixa de entrada e na pasta raiz do repositório de mensagens.
   
-|**Folder**|**Para definir a propriedade**|
+|**Folder**|**A propriedade a ser definida**|
 |:-----|:-----|
 |Calendário  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
 |Contatos  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |

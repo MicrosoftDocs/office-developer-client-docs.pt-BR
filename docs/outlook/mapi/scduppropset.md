@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8bbe8aa00ce446d228c23e1d474fa5140ae7b40a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77a376bba8d65737be84e2af62e65e0419d20957
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351265"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 
@@ -25,13 +25,13 @@ ms.locfileid: "22581976"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Duplica uma matriz de valores de propriedade em um único bloco de memória MAPI combinar as operações das funções [ScCopyProps](sccopyprops.md) e [ScCountProps](sccountprops.md) . 
+Duplica uma matriz de valor de propriedade em um único bloco de memória MAPI, combinando as operações das funções [ScCopyProps](sccopyprops.md) e [ScCountProps](sccountprops.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScDupPropset(
@@ -44,26 +44,26 @@ SCODE ScDupPropset(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cprop_
+ _cProp_
   
-> [in] Contagem de valores de propriedade na matriz indicado pelo parâmetro _rgprop_ . 
+> no Contagem de valores de propriedade na matriz indicada pelo parâmetro _rgprop_ . 
     
  _rgprop_
   
-> [in] Ponteiro para uma matriz de estruturas de [SPropValue](spropvalue.md) como definir os valores de propriedade a ser duplicado. 
+> no Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que define os valores de propriedade a serem duplicados. 
     
  _lpAllocateBuffer_
   
-> [in] Ponteiro para a função de [MAPIAllocateBuffer](mapiallocatebuffer.md) , para ser usado para alocar memória para a matriz duplicada. 
+> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória para a matriz duplicada. 
     
  _prgprop_
   
-> [out] Ponteiro para a posição inicial na memória em que a matriz retornada de duplicada de estruturas de **SPropValue** está armazenada. 
+> bota Ponteiro para a posição inicial na memória onde a matriz duplicada retornada de estruturas **SPropValue** é armazenada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b9a31fec93ec7fafc4d1565d63e4bc427ba4050e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347828"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
@@ -21,13 +21,13 @@ ms.locfileid: "22575711"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada do catálogo de endereços global para o serviço Exchange identificado pela _pEmsmdbUID_. O identificador de entrada retornados deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
+Retorna o identificador de entrada do catálogo de endereços global para o serviço do Exchange identificado por _pEmsmdbUID_. O identificador de entrada retornado deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |abhelp.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |abhelp. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 HRESULT HrGetGALFromEmsmdbUID(
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> [in] O conectado IMAPISession. Ele não pode ser NULL.
+> no O IMAPISession conectado. Ele não pode ser nulo.
     
  _pAddrBook_
   
-> [in] O catálogo de endereços usado para abrir o identificador de entrada. Ele não pode ser NULL.
+> no O catálogo de endereços usado para abrir o identificador de entrada. Ele não pode ser nulo.
     
  _pEmsmdbUID_
   
-> [in] Um ponteiro para uma **emsmdbUID** que identifica a GAL do serviço Exchange a ser recuperado. Se _pEmsmdbUID_ for NULL ou o UID zero, essa função obtém a GAL herdada do serviço do Exchange. 
+> no Um ponteiro para um **emsmdbUID** que identifica a GAL do serviço do Exchange a ser recuperado. Se _pEmsmdbUID_ for nulo ou a UID zero, essa função obterá a GAL herdada do serviço do Exchange. 
     
  _lpcbeid_
   
-> [out] Um ponteiro para a contagem de bytes do identificador de entrada da lista de endereços global.
+> bota Um ponteiro para o número de bytes do identificador de entrada da lista de endereços global.
     
  _lppeid_
   
-> [out] Um ponteiro para o identificador de entrada da lista de endereços global. Isso deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
+> bota Um ponteiro para o identificador de entrada da lista de endereços global. Isso deve ser liberado usando o [MAPIFreeBuffer](mapifreebuffer.md).
     
 

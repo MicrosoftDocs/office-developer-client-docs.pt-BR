@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a1ec71d7120eab220ee3b11d2a751fba51cee48e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45ef7ce9291376ac020035f0bde6172caf6cc01b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359420"
 ---
 # <a name="uphier"></a>UPHIER
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para a sincronização de uma hierarquia de pastas durante o [carregamento do estado de hierarquia](upload-hierarchy-state.md).
+Informações para sincronizar uma hierarquia de pastas durante o [estado de hierarquia de upload](upload-hierarchy-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -37,25 +37,25 @@ struct UPHIER
 
 _ulFlags_
   
-> [in] Sinalizadores para modificar o comportamento durante a sincronização de hierarquia de pastas.
+> no Sinalizadores para modificar o comportamento ao sincronizar a hierarquia de pastas.
     
   - UPH_OK
     
-    - [in] Carregamento foi bem-sucedida. O cliente define esta após carregar com êxito as informações para o servidor. Após a vejam esse sinalizador, Outlook limpa qualquer informação de escrituração contábil interna que indicado que na hierarquia de pastas precisava ser atualizada. 
+    - no O upload foi bem-sucedido. O cliente define isso após carregar as informações com êxito no servidor. Ao ver esse sinalizador, o Outlook limpa todas as informações de escrituração interna que indicaram que a hierarquia de pastas precisava ser atualizada. 
     
-    - O cliente passa o HRESULT, se o carregamento não foi bem-sucedida.
+    - O cliente passa o HRESULT se o upload não tiver sido bem-sucedido.
     
 _pstmReserved_
   
-> [out] Este membro é reservado para uso interno do Outlook e não é suportado.
+> bota Este membro é reservado para uso interno do Outlook e não tem suporte.
     
 _iEnt_
   
-> [out] Índice para controlar o número de pastas especificadas pela *cEnt* como sincronizar. 
+> bota Índice para controlar a sincronização do número de pastas especificado por *cento* . 
     
 _cEnt_
   
-> [out] Número de pastas que estão fora de sincronia.
+> bota Número de pastas que estão fora de sincronia.
     
 ## <a name="see-also"></a>Confira também
 

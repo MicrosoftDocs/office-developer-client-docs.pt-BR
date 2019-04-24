@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a76488f56f9d1eb1b344c01de2615627dd5d3ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350866"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584930"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O subsistema MAPI para desligamento rápido de consultas suporte que é fornecido por provedores MAPI carregados.
+Consulta o subsistema MAPI para obter suporte de desligamento rápido fornecido por provedores MAPI carregados.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> O subsistema de MAPI suporta o cliente MAPI para rápida desligamento.
+> O subsistema MAPI oferece suporte ao cliente MAPI para fazer desligamento rápido.
     
 MAPI_E_NO_SUPPORT
   
-> O provedor MAPI não suporta o cliente MAPI para rápida desligamento.
+> O provedor MAPI não dá suporte ao cliente MAPI para fazer desligamento rápido.
     
 ## <a name="remarks"></a>Comentários
 
-Se o subsistema de MAPI suporta o cliente MAPI rápida desligamento depende da configuração de registro do Windows do usuário ou o comportamento padrão do cliente MAPI para desligamento rápido. Ele também depende da capacidade dos provedores MAPI carregados para suportar o desligamento rápido. Para obter mais informações, consulte [Opções de usuário de desligamento Fast](fast-shutdown-user-options.md).
+Se o subsistema MAPI suporta o cliente MAPI para fazer o desligamento rápido depende da configuração do registro do Windows do usuário ou o comportamento padrão do cliente MAPI para o desligamento rápido. Também depende da capacidade dos provedores MAPI carregados suportar o desligamento rápido. Para obter mais informações, consulte [Opções de usuário](fast-shutdown-user-options.md)de desligamento rápido.
   
 ## <a name="see-also"></a>Confira também
 

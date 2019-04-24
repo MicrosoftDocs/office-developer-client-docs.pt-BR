@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350663"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propriedade canônica PidTagYCoordinate
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586708"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a coordenada y da posição inicial (o canto superior esquerdo) de um controle de caixa de diálogo, em unidades de diálogo padrão do Windows.
+Contém a coordenada y da posição inicial (o canto superior esquerdo) de um controle de caixa de diálogo, nas unidades de caixa de diálogo padrão do Windows.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém a coordenada y da posição inicial (o canto superior esquerdo) de um co
    
 ## <a name="remarks"></a>Comentários
 
-**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), essa propriedade, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) propriedades posicionar e dimensionar o controle.
+As propriedades **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), propriedade, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) são posicionadas e dimensionam o controle.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

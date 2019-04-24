@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2361d225c07d60fab40465b27ad393ca10f6d8eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9bd61739b14d0ec382a9d582689c1049fe89429b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360540"
 ---
 # <a name="updele"></a>UPDELE
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para itens que foram excluídos em um repositório local estendidas. Essas informações são usadas durante o [carregamento excluir o estado de status](upload-delete-status-state.md).
+Informações estendidas para itens que foram excluídos em um repositório local. Essas informações são usadas durante o [estado de status de exclusão de upload](upload-delete-status-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -40,35 +40,35 @@ struct UPDELE
 
 _ulFlags_
   
-> [out] / [in] sinalizadores para determinar o comportamento apropriado durante o carregamento.
+> [out]/[in] flags para determinar o comportamento apropriado durante o carregamento.
     
   - UPD_ASSOC
     
-    - [out] Item está associado.
+    - bota Item está associado.
     
   - UPD_MOV
     
-    - [out] Item foi movido check-out.
+    - bota O item foi movido para fora.
     
   - UPD_OK 
     
-    - [in] Carregamento foi bem-sucedida. O cliente define esta após carregar informações ao servidor.
+    - no O upload foi bem-sucedido. O cliente define isso após carregar informações no servidor.
     
   - UPD_MOVED
     
-    - [in] Item foi movido com êxito.
+    - no O item foi movido com êxito.
     
   - UPD_UPDATE
     
-    - [in] Item de fonte de marca como modificado.
+    - no Marcar o item de origem como modificado.
     
   - UPD_COMMIT
     
-    - [in] Confirme o estado de carregamento agora (entrada de 0).
+    - no Confirme o estado de carregamento agora (entrada 0).
     
 _skey_
   
-> [out] Chave de origem do item.
+> bota Chave de origem do item.
     
 _dwReserved_
   
@@ -76,19 +76,19 @@ _dwReserved_
     
 _binChg_
   
-> [out] Alterar chave de item de destino se o item foi movido.
+> bota Alterar chave de item de destino se o item foi movido.
     
 _binPcl_
   
-> [out] Alterar a lista de item de destino se o item foi movido.
+> bota Altere a lista de itens de destino se o item tiver sido movido.
     
 _skeyDst_
   
-> [out] Chave de origem do item de destino se o item foi movida.
+> bota Chave de origem do item de destino se o item foi movido.
     
 _pupmov_
   
-> [out] Informações da pasta de destino se o item foi movidas.
+> bota Informações da pasta de destino se o item foi movido.
     
 ## <a name="see-also"></a>Confira também
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a51547e6-8f0e-45f4-a341-3cfa735112c2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: dbc56b7334d3966696641a84f23a64ce3802e3e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 53bdba624ba759debba25bae78fb45b0f9d5247e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356634"
 ---
 # <a name="transport-provider-overview"></a>Visão geral do provedor de transporte
 
@@ -21,20 +21,20 @@ ms.locfileid: "22595269"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de transporte é uma biblioteca de vínculo dinâmico (DLL) que atua como um intermediário entre um ou mais sistemas de mensagens subjacentes e o subsistema de MAPI. Um sistema de mensagens é algum mecanismo específico pelo qual as mensagens são enviadas e recebidas. Alguns exemplos de sistemas de mensagens são:
+Um provedor de transporte é uma biblioteca de vínculo dinâmico (DLL) que atua como um intermediário entre o subsistema MAPI e um ou mais sistemas de mensagens subjacentes. Um sistema de mensagens é um mecanismo específico pelo qual as mensagens são enviadas e recebidas. Alguns exemplos de sistemas de mensagens são:
   
-- Um sistema de arquivos de rede compartilhado que o provedor de transporte grava as mensagens diretamente.
+- Um sistema de arquivos de rede compartilhado no qual o provedor de transporte grava mensagens diretamente.
     
 - Uma interface de rede TCP/IP que o provedor de transporte usa para se conectar a um servidor de mensagens.
     
-- Um serviço online que os usuários se conectam ao.
+- Um serviço online ao qual os usuários se conectam.
     
-- Um baseado em host mensagens ou office automation sistema.
+- Um sistema de mensagens ou de automação do Office baseado em host.
     
 - Um conjunto de chamadas de procedimento remoto para um servidor de mensagens.
     
-- Qualquer coisa que pode ser usado para transferir dados de um computador para outro.
+- Qualquer coisa que possa ser usada para transferir dados de um computador para outro.
     
-Um provedor de transporte DLL deve estar de acordo com a interface especificada por MAPI. Como um desenvolvedor de provedor de transporte, você implementará essa interface em termos de funcionalidade presente no sistema de mensagens.
+Uma DLL do provedor de transporte deve estar em conformidade com a interface especificada por MAPI. Como desenvolvedor de provedor de transporte, você implementará essa interface em termos da funcionalidade presente no sistema de mensagens.
   
 

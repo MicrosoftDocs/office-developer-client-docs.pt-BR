@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8ac6ee181d62647aeb5ae1b8ac1fc23b64ccf7c3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07ffd527d94dce4f040b577eedc6822020f95184
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342872"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Propriedade canônica PidTagServerConnectedIcon
 
@@ -28,7 +28,7 @@ Especifica o ícone exibido na barra de status.
 |Propriedades associadas:  <br/> |PR_SERVER_CONNECTED_ICON  <br/> |
 |Identificador:  <br/> |0x341E  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Comuns  <br/> |
+|Área:  <br/> |Comum  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -36,7 +36,7 @@ Especifica o ícone exibido na barra de status.
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

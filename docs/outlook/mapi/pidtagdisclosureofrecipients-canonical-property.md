@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b3a109f87ffc7c0e4c1860b779c9447596253a17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c047a5972ca475576a3325cef30ebc090a2b3fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360827"
 ---
 # <a name="pidtagdisclosureofrecipients-canonical-property"></a>Propriedade canônica PidTagDisclosureOfRecipients
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593442"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se a divulgação de destinatários é permitida.
+Contém TRUE se a divulgação de destinatários é permitida.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Conterá TRUE se a divulgação de destinatários é permitida.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

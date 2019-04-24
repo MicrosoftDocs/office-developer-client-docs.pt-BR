@@ -13,11 +13,11 @@ api_type:
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2a77ab1fcebd729f6463a3480f1b217cd6e6041c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355871"
 ---
 # <a name="pidlidfax3originalentryid-canonical-property"></a>Propriedade canônica PidLidFax3OriginalEntryId
 
@@ -25,35 +25,35 @@ ms.locfileid: "25391028"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o que outro endereço de fax de EntryID original do contato.
+Especifica a EntryID original do outro endereço de fax do contato.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidFax3OriginalEntryID  <br/> |
-|Propriedade definida:  <br/> |PSETID_Address  <br/> |
-|ID de longo (LID):  <br/> |0x000080D5  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Address  <br/> |
+|Long ID (LID):  <br/> |0x000080D5  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, se houver, deve especificar a EntryId único que corresponde a esse endereço de fax.
+Esta propriedade, se presente, deve especificar a EntryID única que corresponde a esse endereço de fax.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
+> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

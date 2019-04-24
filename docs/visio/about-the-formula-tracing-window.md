@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0cdacd4e-74dc-32c3-2eb2-219bf7fcb532
 description: A janela Rastreamento de Fórmula tem como objetivo fornecer aos desenvolvedores de formas informações sobre interdependências entre células — que incluem tanto as células dependentes (células que dependem de uma determinada célula) como as células precedentes (células das quais uma determinada célula depende).
 ms.openlocfilehash: f5f9d6a7ba3ab7049715d31342cfe7aa68ea053f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345305"
 ---
 # <a name="about-the-formula-tracing-window"></a>Sobre a janela Rastreamento de Fórmula
 

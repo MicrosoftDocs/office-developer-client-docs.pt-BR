@@ -1,5 +1,5 @@
 ---
-title: Obter informações de disponibilidade do gerente de um usuário do Exchange
+title: Obter informações de disponibilidade do gerenciador de um usuário do Exchange
 TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df3779a3b92368af75d152e662eedec1a30a97bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349480"
 ---
 # <a name="get-availability-information-for-an-exchange-users-manager"></a>Obter informações de disponibilidade do gerente de um usuário do Exchange
 
@@ -22,7 +22,7 @@ Este exemplo exibe o próximo intervalo de tempo de 60 minutos disponível no ca
 
 Este exemplo de código verifica se o usuário atual é um usuário do Exchange. Em caso afirmativo e se o usuário tiver um gerente, o código obterá informações do gerente chamando o método [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) e o método [GetExchangeUserManager ](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) do objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)). As informações do gerente estão contidas em um objeto **ExchangeUser** que inclui o cronograma de disponibilidade do gerente.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

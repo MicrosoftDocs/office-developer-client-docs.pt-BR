@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ff386e8b280eea5bcc5794a3080d9a61cefb20e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ba69b2a7aebaba16b0d856c1b012b637650f5eaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360862"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Propriedade canônica PidTagDeltaY
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592084"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a altura de um controle de caixa de diálogo em unidades de diálogo padrão do Windows. 
+Contém a altura de um controle de caixa de diálogo em unidades de caixa de diálogo padrão do Windows. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém a altura de um controle de caixa de diálogo em unidades de diálogo pad
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)) controlam a posição e dimensionar o controle de caixa de diálogo. 
+A **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e essa propriedade controlam a posição e o tamanho do controle da caixa de diálogo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

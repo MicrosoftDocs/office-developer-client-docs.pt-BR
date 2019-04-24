@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5a908b3543dff5cf011c9bd4d5d05b3a07004ead
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361079"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>Propriedade canônica PidTagAttachTag
 
@@ -25,7 +25,7 @@ ms.locfileid: "25400450"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador de objeto de ASN. 1 que especifica o aplicativo que forneceu um anexo. 
+Contém um identificador de objeto ASN. 1 especificando o aplicativo que forneceu um anexo. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém um identificador de objeto de ASN. 1 que especifica o aplicativo que for
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade identifica o aplicativo que gerou originalmente o anexo.
+Essa propriedade identifica o aplicativo que gerou originalmente o anexo.
   
- **Observação** As propriedades **PR_ATTACH_TAG** de **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) e não devem ser confundidas. Eles não são combinados ou relacionados. **PR_ATTACH_ENCODING** identifica o algoritmo usado para transformar os dados em um anexo. "Objeto" tem um significado muito mais geral do identificador de objeto do termo e na utilização de x. 400, que na programação orientado a objetos. 
+ **Observação** As propriedades **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) e **PR_ATTACH_TAG** não devem ser confundidas. Eles não estão emparelhados ou relacionados. **PR_ATTACH_ENCODING** identifica o algoritmo usado para transformar os dados em um anexo. "Objeto" tem um significado muito mais geral no identificador de objeto term e no uso X. 400, em relação à programação orientada a objeto. 
   
-Identificadores de objeto do objeto identificador sintaxe e exemplo forem definidos no MAPIOID. Arquivo de cabeçalho H. Valores para **PR_ATTACH_TAG** não estão limitados àqueles definidos no MAPIOID. H. 
+A sintaxe de identificador de objeto e os identificadores de objeto de exemplo são definidos no MAPIOID. Arquivo de cabeçalho H. Os valores para **PR_ATTACH_TAG** não estão limitados àqueles definidos no MAPIOID. 0. 
   
-Para obter informações completas sobre esses identificadores de objeto, consulte a documentação sobre ASN. 1, X.208 e 209. O identificador de objeto é encontrado no elemento de referência do aplicativo do ambiente do arquivo transferir corpo parte (FTBP). 
+Para obter informações completas sobre esses identificadores de objeto, consulte a documentação sobre ASN. 1, X. 208 e X. 209. O identificador de objeto é encontrado no elemento Application-Reference do ambiente de parte do corpo da transferência de arquivo (FTBP). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

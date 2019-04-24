@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 63493467-af55-fa62-6c39-6b5896895952
 description: Contém um valor arbitrário de cadeia de caracteres usado para fornecer informações adicionais sobre uma forma.
 ms.openlocfilehash: a21d92e6ff8683ed3e35e233c8cce3aee015e4a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344636"
 ---
 # <a name="data3-element-shapesheettype-complextype-visio-xml"></a>Elemento Data3 (ShapeSheet_Type complexType) ('Visio XML')
 
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

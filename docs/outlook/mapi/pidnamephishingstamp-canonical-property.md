@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355780"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propriedade canônica PidNamePhishingStamp
 
@@ -25,31 +25,31 @@ ms.locfileid: "25392939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor de mensagem que identifica e mensagens de marcas que são provavelmente phishing.
+Contém o valor de mensagem que identifica e marca as mensagens que provavelmente serão phishing.
   
 |||
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
-|Propriedade definida:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Conjunto de propriedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nome da propriedade:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensagens seguras  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifica e marca mensagens de email que foram projetadas para fazer com que os destinatários a divulgação de informações confidenciais (por exemplo, senhas e outras informações pessoais) para uma fonte não confiável.
+> Identifica e marca as mensagens de email que são projetadas para enganar os destinatários para divulgar informações confidenciais (como senhas e outras informações pessoais) para uma fonte não confiável.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

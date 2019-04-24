@@ -1,5 +1,5 @@
 ---
-title: Mapeamento dos atributos de email da Internet para propriedades MAPI
+title: Mapeamento de atributos de email da Internet para propriedades MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,30 +9,30 @@ api_type:
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c0a71cbd3b6cdbef091e75ade5d190369a4626a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355815"
 ---
-# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mapeamento dos atributos de email da Internet para propriedades MAPI
+# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mapeamento de atributos de email da Internet para propriedades MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este apêndice descreve como um provedor de transporte MAPI ou gateway reconhecimento de MAPI que se conecta à Internet deve traduzir entre os atributos de mensagem do protocolo de transporte de email simples (SMTP) e propriedades de mensagem MAPI. SMTP é o protocolo de mensagens usado em grande parte da Internet. SMTP define um conjunto de cabeçalhos de mensagem — o envelope da mensagem — e um formato de conteúdo da mensagem. SMTP está documentada em um conjunto de dois documentos, RFC 821 e RFC 822, que pode ser encontrado em um número de sites FTP e WWW na Internet.
+Este apêndice descreve como um provedor de transporte MAPI ou um gateway ciente de MAPI que se conecta à Internet deve converter entre propriedades de mensagem MAPI e atributos de mensagem SMTP (Simple Mail Transport Protocol). SMTP é o protocolo de mensagens usado em grande parte da Internet. O SMTP define um conjunto de cabeçalhos de mensagem — o envelope da mensagem — e um formato de conteúdo da mensagem. O SMTP está totalmente documentado em um conjunto de dois documentos, RFC 821 e RFC 822, que podem ser encontrados em vários sites FTP e WWW na Internet.
   
-Para obter informações sobre o protocolo SMTP usado para se comunicar com os agentes de email baseados em SMTP, consulte RFC 821, "Simple Mail Transfer Protocol," em [https://www.rfc-editor.org](https://www.rfc-editor.org).
+Para obter informações sobre o protocolo SMTP usado para se comunicar com agentes de email baseados em SMTP, consulte RFC 821, "Simple Mail Transfer Protocol [https://www.rfc-editor.org](https://www.rfc-editor.org)", em.
   
-Para cabeçalhos de mensagem padrão e endereçamento, consulte RFC 822, "Padrão para o formato de ARPA Internet Text Messages," em [https://www.rfc-editor.org](https://www.rfc-editor.org).
+Para endereçamento e cabeçalhos de mensagem padrão, consulte RFC 822, "Standard for the formato of ARPA Internet text messages [https://www.rfc-editor.org](https://www.rfc-editor.org)" em.
   
-Para MIME, consulte RFC 1521, "parte MIME (Multipurpose Internet Mail Extensions) um: mecanismos para especificando e descrevendo o formato dos corpos de mensagens da Internet," em [https://www.rfc-editor.org](https://www.rfc-editor.org).
+Para MIME, consulte RFC 1521, "MIME (Multipurpose Internet Mail Extensions) Part One: mecanismos para especificar e descrever o formato de corpos de mensagens na Internet," [https://www.rfc-editor.org](https://www.rfc-editor.org)em.
   
-O objetivo do mapeamento de atributos de mensagem SMTP para propriedades MAPI (e vice-versa) é garantir que todo o conteúdo das mensagens MAPI, além do que o que pode ser codificada atributos de mensagem SMTP nativos, pode ser trocado confiável entre diferente MAPI componentes que devem se comunicar pela Internet. Este documento baseia-se no trabalho já realizado em tais componentes na Microsoft. 
+O objetivo de mapear atributos de mensagens SMTP para propriedades MAPI (e vice-versa) é garantir que todo o conteúdo de mensagens MAPI, acima e acima, que possa ser codificada usando os atributos de mensagens SMTP nativos, possa ser trocado de forma confiável entre diferentes MAPI componentes que devem se comunicar pela Internet. Este documento baseia-se no trabalho já realizado nesses componentes da Microsoft. 
   
-Este documento pressupõe familiaridade com transportes MAPI, TNEF e SMTP mail. Ela se esforça para ser conciso em vez de muito claro.
+Este documento pressupõe familiaridade com transportes MAPI, TNEF e email SMTP. Ele se esforça para ser conciso, em vez de claro.
   
-Como uma convenção, "saída" refere-se para viagem de um UA compatível com MAPI ou MTA à Internet de email e "entrada" refere-se ao correio viajar da Internet para um componente MAPI.
+Como uma convenção, "saída" refere-se a emails de um UA ou MTA compatíveis com MAPI para a Internet, e "entrada" refere-se a emails da Internet para um componente MAPI.
   
 

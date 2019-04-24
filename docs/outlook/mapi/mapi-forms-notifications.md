@@ -1,5 +1,5 @@
 ---
-title: Notificações de formulários de MAPI
+title: Notificações de formulários MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 38011c02791688ce5b1c291a1355ccaececd43fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e9c10f78af6dff2e0d0c59d0bfe59be07dccd4b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351475"
 ---
-# <a name="mapi-forms-notifications"></a>Notificações de formulários de MAPI
+# <a name="mapi-forms-notifications"></a>Notificações de formulários MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registrando para e manipular notificações de objetos de formulário é um processo diferente para outros objetos MAPI. Aconselhe receptores de implementação de notificações de formulário seja o **IMAPIViewAdviseSink** ou interface **IMAPIFormAdviseSink** em vez de **IMAPIAdviseSink**. [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) e [IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md) ter vários métodos de cada um, um para cada um dos eventos possíveis que a correspondente de aviso de origem é capaz de gerar. Por exemplo, **IMAPIFormAdviseSink** tem dois métodos: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) para tratar uma alteração de status e a [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md) para exibir uma nova mensagem com o formulário correto a tela de formulário. 
+Registrar e lidar com notificações de objetos de formulário é um processo diferente de outros objetos MAPI. Avisar coletores para notificações de formulário implementam a interface **IMAPIViewAdviseSink** ou **IMAPIFormAdviseSink** , em vez de **IMAPIAdviseSink**. [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) e [IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md) têm vários métodos, um para cada um dos possíveis eventos que a fonte de aviso correspondente é capaz de gerar. Por exemplo, **IMAPIFormAdviseSink** tem dois métodos: [IMAPIFormAdviseSink::](imapiformadvisesink-onchange.md) OnChange para lidar com uma alteração no status do Visualizador de formulários e [IMAPIFormAdviseSink:: OnActivateNext](imapiformadvisesink-onactivatenext.md) para exibir uma nova mensagem com o formato correto. 
   
-A estratégia para formulários de manipulação de eventos é semelhante ao evento manipulação estratégia implementada no OLE. Os clientes não registrar para tipos de evento específicos como fazem para a maioria dos objetos MAPI. Pressupõe-se que Registrando para fins de notificação, eles podem receber qualquer tipo de evento que pode ser gerado pela fonte advise específico. Porque **IMAPIAdviseSink::OnNotify** deve ser escrita para lidar com todos os eventos registrados, implementá-la pode ser complexo para clientes que registram para muitos eventos diferentes. Porque o destino de objetos do coletor de eventos de aviso os métodos no formulário um único evento, a implementação desses métodos é mais simples. 
+A estratégia de manipulação de eventos para formulários é semelhante à estratégia de manipulação de eventos implementada no OLE. Os clientes não se registram para tipos de eventos específicos como eles fazem para a maioria dos objetos MAPI. A pressuposição é que o registro para notificação permite que eles recebam qualquer tipo de evento que possa ser gerado pela fonte de aviso específica. Como o **IMAPIAdviseSink:: OnNotify** deve ser escrito para lidar com todos os eventos registrados, implementá-lo pode ser complexo para clientes que se registram em vários eventos diferentes. Como os métodos no formulário aconselham que os objetos do coletor direcionem um único evento, a implementação desses métodos é mais simples. 
   
 

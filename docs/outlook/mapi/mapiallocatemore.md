@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0e6226dd0fc9c04070ed3d1dda1770f77fbc585c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 01980b2da735838eeffa9afa5a0d139b69e76d0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357313"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583005"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aloca um buffer de memória que é vinculado a outro buffer anteriormente alocado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Aloca um buffer de memória que está vinculado a outro buffer anteriormente alocado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE MAPIAllocateMore(
@@ -45,26 +45,26 @@ SCODE MAPIAllocateMore(
 
  _cbSize_
   
-> [in] Tamanho, em bytes, do buffer de novo a ser alocado. 
+> no Tamanho, em bytes, do novo buffer a ser alocado. 
     
  _lpObject_
   
-> [in] Ponteiro para um buffer MAPI existente alocado usando **MAPIAllocateBuffer**.
+> no Ponteiro para um buffer MAPI existente alocado usando **MAPIAllocateBuffer**.
     
  _lppBuffer_
   
-> [out] Ponteiro para o retornados recentemente alocado buffer.
+> bota Ponteiro para o buffer retornado e recentemente alocado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou um ponteiro para a memória solicitada.
+> A chamada teve êxito e retornou um ponteiro para a memória solicitada.
     
 ## <a name="remarks"></a>Comentários
 
-Processamento de chamadas durante **MAPIAllocateMore** , a implementação chamando adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de pares de byte. Em plataformas onde o acesso de inteiro longo é mais eficiente, o sistema operacional aloca o buffer de um endereço cujo tamanho em bytes é um múltiplo de quatro. 
+Durante o processamento de chamada **MAPIAllocateMore** , a implementação de chamada adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de byte par numerado. Nas plataformas nas quais o acesso inteiro longo é mais eficiente, o sistema operacional aloca o buffer em um endereço cujo tamanho em bytes é um múltiplo de quatro. 
   
-Passe o ponteiro de buffer especificado no parâmetro _lpObject_ para a função [MAPIFreeBuffer](mapifreebuffer.md) é a única maneira de liberar um buffer alocado com **MAPIAllocateMore** . O vínculo entre os buffers de memória alocada com [MAPIAllocateBuffer](mapiallocatebuffer.md) e **MAPIAllocateMore** permite **MAPIFreeBuffer** ao lançamento de ambos os buffers com uma única chamada. 
+A única maneira de liberar um buffer alocado com o **MAPIAllocateMore** é passar o ponteiro de buffer especificado no parâmetro _lpObject_ para a função [MAPIFreeBuffer](mapifreebuffer.md) . O link entre os buffers de memória alocados com o [MAPIAllocateBuffer](mapiallocatebuffer.md) e o **MAPIAllocateMore** permite que o **MAPIFreeBuffer** libere os dois buffers com uma única chamada. 
   
 

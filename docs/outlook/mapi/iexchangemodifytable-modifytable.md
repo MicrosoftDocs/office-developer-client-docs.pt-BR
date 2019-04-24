@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350838"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565904"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Atualiza um objeto table MAPI.
+Atualiza um objeto de tabela MAPI.
   
 ```cpp
 HRESULT ModifyTable( 
@@ -39,39 +39,39 @@ HRESULT ModifyTable(
 
  _ulFlags_
   
-> [in] Use um dos seguintes valores: 
+> no Use um dos seguintes valores: 
     
 0 (zero)
   
-> Use o valor do membro **ulRowFlags** da estrutura [ROWENTRY](rowentry.md) . 
+> Use o valor do membro **ulRowFlags** da estrutura de [transentry](rowentry.md) . 
     
 ACLTABLE_FREEBUSY
   
-> Define o novos direitos.
+> Define novos direitos.
     
 frightsFreeBusyDetailed
   
-> Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada das novas direitos de livre/ocupado.
+> Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada dos novos direitos de disponibilidade.
     
 frightsFreeBusySimple
   
-> Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição simple de novos direitos de livre/ocupado.
+> Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição simples de novos direitos de disponibilidade.
     
 ROWLIST_REPLACE
   
-> Substitua todas as linhas na tabela.
+> Substitua todas as linhas da tabela.
     
  _lpMods_
   
-> [in] Aponta para uma estrutura [ROWLIST](rowlist.md) que contém as propriedades para o objeto table. 
+> no Aponta para a estrutura de uma [lista](rowlist.md) que contém as propriedades do objeto Table. 
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI usa o método **IExchangeModifyTable::ModifyTable** para gravar uma regra modificada de volta à tabela de regras.  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI usa o método **IExchangeModifyTable:: modifytable** para gravar uma regra modificada novamente no índice de regras.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -84,5 +84,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [ROWLIST](rowlist.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

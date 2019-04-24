@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8637ef8036ccec79b82bcfff4a9f6d21fd5c2e11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342585"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Propriedade canônica PidTagOriginallyIntendedRecipientName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583789"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome codificado do destinatário pretendido originalmente de uma mensagem de autoforwarded.
+Contém o nome codificado do destinatário originalmente planejado de uma mensagem de encaminhamento.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o nome codificado do destinatário pretendido originalmente de uma mensa
    
 ## <a name="remarks"></a>Comentários
 
-A propriedade **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** deve ser definida pelo agente de automática que encaminhou a mensagem. 
+A propriedade **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** deve ser definida pelo agente automático que encaminhou a mensagem. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

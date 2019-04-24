@@ -8,50 +8,50 @@ api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 6f9ac5d9cef09ce6d4f3006ecc804db6291cae77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aa1a433e90eda24f1199783bc604e047deb03ecd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350607"
 ---
 # <a name="supporting-message-service-configuration"></a>Suporte à configuração do serviço de mensagens
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para suportar a configuração do serviço de mensagens, use o procedimento a seguir:
+Para oferecer suporte à configuração do serviço de mensagens, use o seguinte procedimento:
   
-1. Implemente uma função de ponto de entrada que está em conformidade com o protótipo [MSGSERVICEENTRY](msgserviceentry.md) . Funções de ponto de entrada de serviço de mensagem gerenciam o acesso aos dados de configuração e são chamadas nas seguintes circunstâncias: 
+1. Implementar uma função de ponto de entrada que está de acordo com o protótipo [MSGSERVICEENTRY](msgserviceentry.md) . As funções de ponto de entrada de serviço de mensagens gerenciam o acesso a dados de configuração e são chamadas nas seguintes circunstâncias: 
     
-   - Quando um cliente fizer logon em recuperar informações para configurar seu serviço de mensagem.
+   - Quando um cliente faz logon para recuperar informações para configurar o serviço de mensagens.
     
    - Quando um cliente deseja exibir ou alterar uma propriedade de configuração. 
     
-   Embora a maioria dos serviços de mensagem fornecerá funções de ponto de entrada, como deveriam, essas funções não são estritamente necessárias. Serviços de mensagens podem fornecer acesso aos dados de configuração de outras formas. No entanto, usando uma função de ponto de entrada padroniza e simplifica o processo de configuração.
+   Embora a maioria dos serviços de mensagens forneça funções de ponto de entrada, como deveriam, essas funções não são estritamente necessárias. Os serviços de mensagens podem fornecer acesso a dados de configuração de outras maneiras. No enTanto, o uso de uma função de ponto de entrada padroniza e simplifica o processo de configuração.
     
-   MAPI espera que todas as mensagens serviço entrada ponto funções para ser capaz de armazenar e recuperar as propriedades de seções perfil associados ao seu serviço de mensagem. Você pode oferecer suporte a essa funcionalidade interativamente, programaticamente, ou ambos interativamente e programaticamente.
+   O MAPI espera que todas as funções de ponto de entrada do serviço de mensagens possam armazenar e recuperar as propriedades das seções de perfil associadas ao serviço de mensagens. Você pode oferecer suporte a essa funcionalidade interativamente, programaticamente ou de forma interativa e proativa.
     
-   Para oferecer suporte à configuração interativa, fornecer uma folha de propriedades que exibe as propriedades envolvidas na configuração do seu serviço de mensagem. Como opção, também é possível oferecer folhas de propriedades para cada provedor configurável. Alguns serviços de mensagem restringem os usuários a um modo de exibição somente leitura das propriedades de configuração; outros serviços de mensagem permitem que os usuários façam alterações.
+   Para oferecer suporte à configuração interativa, forneça uma folha de propriedades que exibe as propriedades envolvidas na configuração do serviço de mensagens. Como opção, você também pode fornecer folhas de propriedades para cada provedor configurável. Alguns serviços de mensagens restringem os usuários a um modo de exibição somente leitura das propriedades de configuração; outros serviços de mensagens permitem que os usuários façam alterações.
     
-   Para oferecer suporte à configuração de programação, sua função de ponto de entrada de serviço de mensagem deve ser capaz de trabalhar sem intervenção do usuário. Se o seu serviço de mensagem pode ser chamado pelo Assistente de perfil, você deve suportar configuração programática. Se o seu serviço de mensagem não permitir que a própria a ser configurado usando o Assistente de perfil, você poderá escolher se deseja ou não oferecer suporte a configurações de programação.
+   Para oferecer suporte à configuração programática, a função de ponto de entrada do serviço de mensagens deve ser capaz de funcionar sem a intervenção do usuário. Se o seu serviço de mensagens puder ser chamado pelo assistente de perfil, você deverá oferecer suporte à configuração programática. Se o serviço de mensagens não permitir que ele próprio seja configurado usando o assistente de perfil, você poderá escolher se a configuração programática será ou não compatível.
     
-   Para obter mais informações sobre como suportar a configuração em uma entrada de serviço de mensagem ponto função, consulte [MSGSERVICEENTRY](msgserviceentry.md).
+   Para obter mais informações sobre como oferecer suporte à configuração em uma função de ponto de entrada do serviço de mensagens, consulte [MSGSERVICEENTRY](msgserviceentry.md).
     
-2. Publica o nome da sua função de ponto de entrada de serviço de mensagem no arquivo de configuração Mapisvc, incluindo a seguinte entrada na seção serviço de mensagem:
+2. Publique o nome da função de ponto de entrada do serviço de mensagens no arquivo de configuração MAPISVC. inf, incluindo a seguinte entrada na seção serviço de mensagens:
     
    `PR_SERVICE_ENTRY_NAME=<name of message service>`
     
-3. Crie um ou mais propriedade folha caixas de diálogo para exibir os dados de configuração.
+3. Crie uma ou mais caixas de diálogo de folha de propriedades para exibir dados de configuração.
     
-4. Se você quiser permitir que o Assistente de perfil configurar seu serviço de mensagem, execute as seguintes tarefas:
+4. Execute as seguintes tarefas se quiser permitir que o assistente de perfil configure o serviço de mensagens:
     
-   - Implemente uma função de ponto de entrada que está em conformidade com o protótipo [WIZARDENTRY](wizardentry.md) . 
+   - Implementar uma função de ponto de entrada que está de acordo com o protótipo [WIZARDENTRY](wizardentry.md) . 
     
-   - Implemente um procedimento de caixa de diálogo Windows padrão que está em conformidade com o protótipo [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
+   - Implemente um procedimento de caixa de diálogo padrão do Windows que esteja em conformidade com o protótipo [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
     
-   - Melhore sua função do ponto de entrada do serviço de mensagem para responder a eventos adicionais.
+   - Aprimore sua função de ponto de entrada do serviço de mensagens para responder a eventos adicionais.
     
 ## <a name="see-also"></a>Confira também
 
-- [Implementação do serviço de mensagem](message-service-implementation.md)
+- [Implementação do serviço de mensagens](message-service-implementation.md)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: Determina se as formas de colocação serão afastadas ao serem soltas próximas a uma outra forma de colocação na página de desenho.
-ms.openlocfilehash: e180ce679f280cbccbda80b67170f2f26473bd8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344370"
 ---
 # <a name="plowcode-cell-page-layout-section"></a>Célula PlowCode (Seção Page Layout)
 
@@ -22,12 +22,12 @@ Determina se as formas de colocação serão afastadas ao serem soltas próximas
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Não mover as formas  <br/> |**visPLOPlowNone** <br/> |
+|,0  <br/> |Não mover as formas  <br/> |**visPLOPlowNone** <br/> |
 |1  <br/> |Mover as formas  <br/> |**visPLOPlowAll** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na guia **Layout e roteamento** na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ), usando a caixa de seleção **Afastar outras formas ao soltar** . 
+Você também pode definir o valor dessa célula na guia **layout e roteamento** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ) usando a caixa de seleção **afastar outras formas ao soltar** . 
   
 Para obter uma referência para a célula PlowCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

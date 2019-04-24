@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8cb34360f5a0a3e67aca1ac53fe639724135f594
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 090a765fd6c758e5f146caa0e7f36276b052f69e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356872"
 ---
 # <a name="message-submission-model"></a>Modelo de envio de mensagens
 
@@ -21,18 +21,18 @@ ms.locfileid: "22584538"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Envio de mensagem é realizado através de uma série de chamadas do spooler MAPI para o provedor de transporte. As chamadas são sequenciadas da seguinte maneira:
+O envio da mensagem é realizado por uma série de chamadas do spooler MAPI para o provedor de transporte. As chamadas são sequenciadas da seguinte maneira:
   
-1. O MAPI spooler chama [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), passando um [IMessage: IMAPIProp](imessageimapiprop.md) instância, para começar o processo. 
+1. O spooler MAPI chama [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md), passando uma instância de [IMessage: IMAPIProp](imessageimapiprop.md) , para iniciar o processo. 
     
-2. O provedor de transporte, em seguida, coloca um valor de referência — um identificador definido pelo transporte usada em futuras referências a esta mensagem — no local referenciado na **SubmitMessage**.
+2. O provedor de transporte, em seguida, coloca um valor de referência — um identificador definido pelo transporte usado em referências futuras a essa mensagem, no local mencionado no **SubmitMessage**.
     
-3. O provedor de transporte acessa os dados de mensagem usando a instância **IMessage** passada. Para cada destinatário no passado **IMessage** para o qual ela aceita a responsabilidade, o provedor de transporte define a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) e, em seguida, retorna.
+3. O provedor de transporte acessa os dados da mensagem usando a instância do **IMessage** aprovada. Para cada destinatário no **IMessage** passado para o qual ele aceita responsabilidades, o provedor de transporte define a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) e, em seguida, retorna.
     
-4. Provedor de transporte que pode usar o método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar se ele reconhece quaisquer destinatários que não possam ser entregues, ou para criar um relatório de entrega padrão. **StatusRecips** é uma conveniência para provedores de transporte que determinou que alguns dos destinatários não podem ser entregues em ou que tenha recebido informações de entrega de seu sistema de mensagens subjacente que talvez o aplicativo cliente ou de usuário Encontre útil. 
+4. O provedor de transporte pode usar o método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) para indicar se ele reconhece qualquer destinatário que não possa ser entregue ou para criar um relatório de entrega padrão. **StatusRecips** é uma conveniência para provedores de transporte que determinaram que alguns dos destinatários não podem ser entregues ou que receberam informações de entrega de seu sistema de mensagens subjacente que o usuário ou aplicativo cliente pode ser útil. 
     
-5. Chamada do spooler MAPI para [IXPLogon::EndMessage](ixplogon-endmessage.md) é o final responsabilidade início da mensagem do spooler MAPI para o provedor de transporte. 
+5. A chamada do spooler MAPI para [IXPLogon:: endmessage](ixplogon-endmessage.md) é a responsabilidade final da entrega da mensagem do spooler MAPI para o provedor de transporte. 
     
-6. O MAPI spooler pode usar [IXPLogon::TransportNotify](ixplogon-transportnotify.md) para cancelar durante as chamadas **SubmitMessage** ou **EndMessage** de processamento de mensagens. 
+6. O MAPI spooler pode usar [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) para cancelar o processamento de mensagens durante as chamadas de **SubmitMessage** ou endmessage. **** 
     
 

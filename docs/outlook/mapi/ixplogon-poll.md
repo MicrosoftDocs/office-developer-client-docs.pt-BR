@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3426854e727ebce7a2ac2243491994ce0e066ac6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351608"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
@@ -37,17 +37,17 @@ HRESULT Poll(
 
  _lpulIncoming_
   
-> [out] Um valor que indica a existência de mensagens de entrada. Um valor diferente de zero indica que não existem mensagens de entrada.
+> bota Um valor que indica a existência de mensagens de entrada. Um valor diferente de zero indica que há mensagens de entrada.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler periodicamente chama o método **IXPLogon::Poll** se o provedor de transporte indica que ele deve ser sondado para novas mensagens, o qual o provedor passando o LOGON_SP_POLL sinalizar para a chamada para o [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) método no início de uma sessão. Se o provedor de transporte indica em resposta à chamada **votação** que há um ou mais mensagens de entrada disponíveis para ele ao processo, o MAPI spooler chama o método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir que o provedor de processo na primeira entrada Mensagem. O provedor de transporte indica mensagens de entrada, definindo o valor no parâmetro _lpulIncoming_ para um valor diferente de zero. 
+O spooler MAPI chama periodicamente o método **IXPLogon::P oll** se o provedor de transporte indicar que deve ser pesquisado para novas mensagens, que o provedor passa o sinalizador LOGON_SP_POLL para a chamada para o [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) método no início de uma sessão. Se o provedor de transporte indicar em resposta à **** chamada de sondagem de que há uma ou mais mensagens de entrada disponíveis para serem processadas, o spooler MAPI chama o método [IXPLogon:: StartMessage](ixplogon-startmessage.md) para permitir que o provedor processe a primeira entrada Mensagem. O provedor de transporte indica mensagens de entrada definindo o valor no parâmetro _lpulIncoming_ para um valor diferente de zero. 
   
 ## <a name="see-also"></a>Confira também
 

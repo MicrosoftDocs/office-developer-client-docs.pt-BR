@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3988596cc0b9c01d526354dabef3a6e7fdefc3b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c771f1d97305271b70102c148e62f30512974fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351069"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>Propriedade canônica PidTagServiceEntryName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583222"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome da função de ponto de entrada para a configuração de um serviço de mensagem.
+Contém o nome da função de ponto de entrada para configuração de um serviço de mensagens.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contém o nome da função de ponto de entrada para a configuração de um servi
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que implementadores de serviço de mensagem fornecem um ponto de entrada de serviço de mensagem, mas o ponto de entrada não é necessário. No entanto, o ponto de entrada deve ser fornecido somente se as propriedades de configuração relacionados existirem. Se essas propriedades não existirem, MAPI pressupõe que nenhum ponto de entrada é fornecido.
+É recomendável que os implementadores de serviço de mensagens forneçam um ponto de entrada de serviço de mensagens, mas o ponto de entrada não é necessário. No enTanto, o ponto de entrada deve ser fornecido somente se as propriedades de configuração relacionadas existirem. Se essas propriedades não existirem, MAPI pressupõe que nenhum ponto de entrada seja fornecido.
   
-A biblioteca de vínculo dinâmico (DLL) no qual a função do ponto de entrada aparece é nomeada pela propriedade **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
+A biblioteca de vínculo dinâmico (DLL) na qual a função de ponto de entrada aparece é nomeada pela propriedade **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
   
-Para obter mais informações sobre pontos de entrada de serviço de mensagem, consulte [Implementando uma função de ponto de entrada de provedor de serviço](implementing-a-service-provider-entry-point-function.md).
+Para obter mais informações sobre os pontos de entrada do serviço de mensagens, consulte [implementando uma função de ponto de entrada do provedor de serviços](implementing-a-service-provider-entry-point-function.md).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

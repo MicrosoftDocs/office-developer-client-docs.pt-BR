@@ -1,5 +1,5 @@
 ---
-title: Provedores de serviços MAPI
+title: Provedores de serviço MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,57 +8,57 @@ api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f931382e790da13e7d4a746e286d9dc176b7b6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb40891376ac511869ba157b675e53ee236b24ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346673"
 ---
-# <a name="mapi-service-providers"></a>Provedores de serviços MAPI
+# <a name="mapi-service-providers"></a>Provedores de serviço MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Existem três tipos comuns de provedores de serviços:
+Há três tipos comuns de provedores de serviços:
   
-- Provedores de catálogo de endereços.
+- Provedores de catálogos de endereços.
     
-- Provedores de armazenamento de mensagem.
+- Provedores do repositório de mensagens.
     
 - Provedores de transporte.
     
-Provedores de armazenamento de mensagens e catálogo de endereço têm muitas semelhanças. Eles registram um identificador exclusivo com MAPI empregados para construir identificadores de entrada para seus objetos. Eles fornecem uma hierarquia de objetos e propriedades que os clientes podem acessar e manipular. Para seus objetos de contêiner, eles suportam uma tabela de hierarquia e uma tabela de conteúdo. Eles suportam notificação de evento nestas tabelas e, opcionalmente, em objetos individuais para que os clientes podem ser informados sobre alterações que ocorrem durante a sessão. Quando operações ficam longas, eles podem exibir um indicador de progresso para informar ao usuário sobre o status da operação. Os clientes podem se comunicar com provedores de armazenamento de mensagens e catálogo de endereço qualquer MAPI indiretamente até usando o [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) e [IMAPISession: IUnknown](imapisessioniunknown.md) interfaces ou diretamente usando com uma das interfaces do provedor de serviço no tabela a seguir. 
+Os provedores de catálogo de endereços e de repositório de mensagens têm muitas semelhanças. Eles registram um identificador exclusivo com MAPI que eles usam para construir identificadores de entrada para seus objetos. Eles fornecem uma hierarquia de objetos e propriedades que os clientes podem acessar e manipular. Para seus objetos contêiner, eles dão suporte a uma tabela de hierarquia e a uma tabela de conteúdo. Eles dão suporte à notificação de eventos nessas tabelas e, opcionalmente, em objetos individuais para que os clientes possam ser informados sobre alterações que ocorrem durante a sessão. Quando as operações se tornam longas, elas podem exibir um indicador de progresso para informar o usuário sobre o status da operação. Os clientes podem se comunicar com o catálogo de endereços e os provedores de repositórios de mensagens indiretamente por meio de MAPI usando as interfaces [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) e [IMAPISession: IUnknown](imapisessioniunknown.md) ou diretamente usando uma das interfaces de provedor de serviços no tabela a seguir. 
   
-|**Interfaces do provedor de catálogo de endereços**|**Interfaces do provedor de repositório de mensagem**|
+|**Interfaces do provedor de catálogo de endereços**|**Interfaces do provedor de repositório de mensagens**|
 |:-----|:-----|
 |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) <br/> |
 |[IDistList : IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) <br/> |
 |[IMailUser : IMAPIProp](imailuserimapiprop.md) <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 | <br/> |[IAttach : IMAPIProp](iattachimapiprop.md) <br/> |
    
-Provedores de transporte diferem dos provedores de armazenamento mensagens e catálogo de endereço da maneira que se comunicam com MAPI e com clientes. Provedores de transporte normalmente Aguarde MAPI-los solicitar informações ao invés de iniciar a comunicação. Ao contrário de outros provedores, provedores de transporte não suportam uma variedade de objetos e tabelas que costumam ser acessadas pelos clientes. No entanto, eles têm suporte para um objeto de status, conforme faça todos os provedores de serviço e publicar suas propriedades da tabela de status. Enquanto os provedores de armazenamento de mensagens e catálogo de endereço chamarem o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar os identificadores exclusivos para construir seus identificadores de entrada, chamarem o método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) para ThisDocument provedores de transporte Registre os identificadores exclusivos, bem como tipos de endereço de assumindo a responsabilidade para a entrega de mensagens específicas. 
+Os provedores de transporte diferem dos provedores de catálogo de endereços e de repositório de mensagens no modo como se comunicam com MAPI e com clientes. Geralmente, os provedores de transporte esperam por MAPI solicitar informações em vez de iniciar a comunicação. Diferentemente dos outros provedores, os provedores de transporte não dão suporte a uma variedade de objetos e tabelas que são comumente acessados por clientes. No enTanto, eles dão suporte a um objeto status, como todos os provedores de serviço e publica suas propriedades na tabela de status. Enquanto o catálogo de endereços e os provedores de repositório de mensagens chamam o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) para registrar identificadores exclusivos para construir seus identificadores de entrada, os provedores de transporte chamam o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) para Registre os identificadores exclusivos, bem como os tipos de endereço para assumir a responsabilidade da entrega de mensagens específicas. 
   
-Seu provedor de serviços deve ter os três arquivos de cabeçalho: um arquivo de cabeçalho público e dois arquivos internos. Use o arquivo de cabeçalho público para a configuração e para documentar as propriedades e seus valores. Incluir em um dos arquivos de cabeçalho interno todos os necessário pública MAPI cabeçalhos; Este arquivo de cabeçalho deve ser incluído em todos os seus arquivos de origem de provedor de serviço. Use o outro arquivo interno para definir os identificadores de recurso.
+Seu provedor de serviços deve ter três arquivos de cabeçalho: um arquivo de cabeçalho público e dois arquivos internos. Use o arquivo de cabeçalho público para configuração e para documentar Propriedades e seus valores. Inclua um dos arquivos de cabeçalho internos todos os cabeçalhos MAPI públicos necessários; Esse arquivo de cabeçalho deve ser incluído em todos os arquivos de origem do provedor de serviços. Use o outro arquivo interno para definir identificadores de recurso.
   
-Catálogo de endereços, armazenamento de mensagens e provedores de transporte executam as seguintes tarefas:
+Catálogo de endereços, repositório de mensagens e provedores de transporte execute as seguintes tarefas:
   
-- Fornece uma função de ponto de entrada. 
+- Forneça uma função de ponto de entrada. 
     
-- Fornece um provedor e o objeto de logon para lidar com o logon e inicialização. 
+- Forneça um provedor e um objeto de logon para manipular o logon e a inicialização. 
     
-- Se o provedor pertence a um serviço de mensagem, fornece uma função de ponto de entrada de serviço de mensagens. 
+- Se o provedor pertencer a um serviço de mensagens, forneça uma função de ponto de entrada do serviço de mensagens. 
     
-- Suporte a configuração por meio da implementação de uma folha de propriedades.
+- Suporte à configuração implementando uma folha de propriedades.
     
-- Um objeto de status de implementar e oferecer suporte a tabela de status. 
+- Implemente um objeto status e dê suporte à tabela status. 
     
-- Alça desligado.
+- Controle de desligamento.
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Conceitos MAPI](mapi-concepts.md)
+[Conceitos de MAPI](mapi-concepts.md)
 

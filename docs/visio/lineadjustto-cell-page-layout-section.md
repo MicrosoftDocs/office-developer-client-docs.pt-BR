@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: Determina quais conectores dinâmicos são alinhados uns sobre os outros.
-ms.openlocfilehash: 13540f9dc5e6e6861d3f3679bcf49204d553397a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4fb32c0fcb488173324ea597edc2c9d13f6bfca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359308"
 ---
 # <a name="lineadjustto-cell-page-layout-section"></a>Célula LineAdjustTo (Seção Page Layout)
 
 Determina quais conectores dinâmicos são alinhados uns sobre os outros.
   
-|**Valor**|**Ajuste**|**Constante de automação**|
+|**Valor**|**Just**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustToDefault** <br/> |
+|,0  <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustToDefault** <br/> |
 |1  <br/> |Linhas próximas umas das outras  <br/> |**visPLOLineAdjustToAll** <br/> |
-|2  <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3  <br/> |Linhas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|duas  <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3D  <br/> |Linhas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

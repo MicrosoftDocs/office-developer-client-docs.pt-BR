@@ -7,45 +7,45 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 91cde601-dca9-4737-afe1-bdf76638dfe3
 description: Retorna um valor Boolean que indica se uma forma tem um tema aplicado a ela.
-ms.openlocfilehash: 4311780d8686b5792e999c204ec182d23efb723c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49f53eaaacbdc86a633703d6ef847e38097f5122
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357509"
 ---
 # <a name="isthemed-function"></a>Função ISTHEMED
 
 Retorna um valor Boolean que indica se uma forma tem um tema aplicado a ela. 
   
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Informações sobre a versão
 
 Version Added: Visio 2013
  
   
 ## <a name="syntax"></a>Sintaxe
 
- **ISTHEMED** ()
+ **** Isthemeed ()
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 Booliano
   
 ## <a name="remarks"></a>Comentários
 
 > [!NOTE]
-> A função **ISTHEMED** no Visio 2013 substitui a função **CELLISTHEMED** das versões anteriores do Visio. 
+> A **** função isthemes no Visio 2013 substitui a função **CELLISTHEMED** de versões anteriores do Visio. 
   
-O **ISTHEMED** funcionar permite atribuir partes adequadas de formatação de um tema a uma forma, mas manter a capacidade de substituir a outras partes do tema formatação com a formatação aplicada manualmente. Se você subsequentemente reaplicar o tema, qualquer formatação manual será substituída e forma leva em toda a formatação do tema. 
+A **** função isthemes permite que você atribua partes apropriadas da formatação de um tema a uma forma, mas mantenha a capacidade de substituir outras partes da formatação do tema pela formatação aplicada manualmente. Se você reaplicar o tema subsequentemente, qualquer formatação manual será substituída e a forma assumirá toda a formatação do tema. 
   
- **ISTHEMED** é avaliada como TRUE se a célula [ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md) na forma for maior que 0. Se esta célula for igual a 0, **ISTHEMED** avalie como FALSE. O tema do DocumentSheet e PageSheet não afetará o valor da função **ISTHEMED** usado em um ShapeSheet. Somente se a função **ISTHEMED** aparecerá no PageSheet faz questão de tema da página. 
+ **** Isthemes é avaliado como true se a célula [ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md) na forma for maior que 0. Se essa célula for igual a 0, isTHEMEs será avaliada como FALSE. **** O tema do DocumentSheet e do PageSheet não afetará o valor da **** função isthemes usada em um ShapeSheet. Somente se a **** função isthemes aparecer no PageSheet o tema da página é importante. 
   
 ## <a name="example"></a>Exemplo
 
 ||||
 |:-----|:-----|:-----|
-|Célula  <br/> |Fórmula  <br/> |Resultado  <br/> |
-|Char.Font  <br/> |IF(ISTHEMED(), THEMEVAL(), FONT("Calibri"))  <br/> |Se a forma tiver um com tema aplicado a ele, o texto da forma aceita a formatação do tema de fonte. Se a forma não estiver com temas, o texto da forma é formatado com a fonte "Calibri".  <br/> |
-|LineColor  <br/> |IF (ISTHEMED, RGB (255, 0, 0), RGB (0, 255, 0))  <br/> |Se a forma tiver um com tema aplicado a ela, a cor da linha da forma é vermelho. Se a forma não estiver com temas, a cor da linha da forma é verde.  <br/> |
+|Cell  <br/> |Fórmula  <br/> |Resultado  <br/> |
+|Fonte Char.  <br/> |IF (isTHEMEed (), THEMEVAL (), FONT ("Calibri"))  <br/> |Se a forma tiver um temas aplicada a ela, o texto da forma aceitará a formatação de fonte do tema. Se a forma não tiver temas, o texto da forma será formatado com a fonte "Calibri".  <br/> |
+|LineColor  <br/> |SE (ISTHEMEED, RGB (255, 0, 0), RGB (0, 255, 0))  <br/> |Se a forma tiver um tema aplicada a ela, a cor da linha da forma será vermelha. Se a forma não tiver temas, a cor da linha da forma será verde.  <br/> |
    
 

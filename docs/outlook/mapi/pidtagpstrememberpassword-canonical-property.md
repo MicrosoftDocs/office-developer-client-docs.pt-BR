@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e747034d64d83105de6413fe7546235cabb5d491
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4688c706629368be0c2a56490020a0cab17c5bf1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356488"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>Propriedade canônica PidTagPstRememberPassword
 
@@ -23,7 +23,7 @@ ms.locfileid: "22585469"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se deve se lembrar da senha no perfil.
+Determina se a senha deve ser lembrada no perfil.
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ Determina se deve se lembrar da senha no perfil.
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

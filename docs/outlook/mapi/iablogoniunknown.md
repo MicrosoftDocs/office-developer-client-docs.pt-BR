@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4421fcde6ccd2f2ac6245927d9d5d63ddc5200af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fc8615fcd984623ae9c17c45fb7b51a4498a723b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348829"
 ---
 # <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
@@ -25,35 +25,35 @@ ms.locfileid: "22573513"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recursos de acessos em um provedor de catálogo de endereços.
+Acessa recursos em um provedor de catálogo de endereços.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de logon do catálogo de endereços  <br/> |
-|Implementada por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Exposto por:  <br/> |Objetos de logon do catálogo de endereços  <br/> |
+|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Chamado por:  <br/> |MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IABLogon  <br/> |
 |Tipo de ponteiro:  <br/> |LPABLOGON  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[GetLastError](iablogon-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de provedor de catálogo de endereços anterior.  <br/> |
+|[GetLastError](iablogon-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior do provedor de catálogo de endereços.  <br/> |
 |[Fazer logoff](iablogon-logoff.md) <br/> |Inicia o processo de logoff.  <br/> |
-|[OpenEntry](iablogon-openentry.md) <br/> |Abre um contêiner, o usuário ou lista de distribuição de mensagens e retorna um ponteiro para uma implementação de interface para fornecer mais acesso.  <br/> |
+|[OpenEntry](iablogon-openentry.md) <br/> |Abre um contêiner, um usuário de mensagens ou uma lista de distribuição e retorna um ponteiro para uma implementação de interface para fornecer acesso adicional.  <br/> |
 |[CompareEntryIDs](iablogon-compareentryids.md) <br/> |Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.  <br/> |
-|[Aviso](iablogon-advise.md) <br/> |Registra o chamador para receber notificações de eventos especificados que afetam um contêiner, o usuário ou lista de distribuição de mensagens.  <br/> |
-|[Unadvise](iablogon-unadvise.md) <br/> |Cancela notificações que foram definidas com uma chamada ao método **Advise** anteriormente.  <br/> |
-|[OpenStatusEntry](iablogon-openstatusentry.md) <br/> |Abre o objeto de status do provedor.  <br/> |
-|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Abre uma entrada do destinatário que possui dados que residem em um provedor de catálogo de endereço de host.  <br/> |
-|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retorna uma tabela de modelos únicos para a criação de destinatários a ser adicionado à lista de destinatários de uma mensagem de saída.  <br/> |
+|[Utilizar](iablogon-advise.md) <br/> |Registra o chamador para receber notificações de eventos específicos que afetam um contêiner, usuário de mensagens ou lista de distribuição.  <br/> |
+|[Cancelar](iablogon-unadvise.md) <br/> |Cancela as notificações que foram configuradas anteriormente com uma chamada para o método **Advise** .  <br/> |
+|[OpenStatusEntry](iablogon-openstatusentry.md) <br/> |Abre o objeto status do provedor.  <br/> |
+|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Abre uma entrada de destinatário que tem dados residindo em um provedor de catálogo de endereços de host.  <br/> |
+|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retorna uma tabela de modelos únicos para a criação de destinatários a serem adicionados à lista de destinatários de uma mensagem de saída.  <br/> |
 |[PrepareRecips](iablogon-preparerecips.md) <br/> |Prepara uma lista de destinatários para uso posterior pelo sistema de mensagens.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações gerais sobre os métodos da interface **IABLogon** , consulte [Implementando Logon do provedor de serviço](implementing-service-provider-logon.md).
+Para obter informações gerais sobre os métodos da interface **IABLogon** , consulte [Implementing Service Provider logon](implementing-service-provider-logon.md).
   
 ## <a name="see-also"></a>Confira também
 

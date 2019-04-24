@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 783b8972c29b80e1005f0d55e00487dd0e2757b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 167710243c61a7226375b88977c94ff4a517c1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356557"
 ---
 # <a name="types-of-client-applications"></a>Tipos de aplicativos cliente
 
@@ -21,30 +21,30 @@ ms.locfileid: "22572057"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Existem basicamente dois tipos de clientes de mensagens: aqueles que lidam com interpessoais mensagens (IPM) e aqueles que trata as mensagens de comunicação entre processos (CPI). Dentre os tipos, aplicativos de cliente de mensagens podem ser categorizados da seguinte maneira:
+Há principalmente dois tipos de clientes de mensagens: aqueles que tratam de mensagens interpessoais (IPM) e aqueles que lidam com mensagens de comunicação entre processos (IPC). Nesses tipos, os aplicativos clientes de mensagens podem ser categorizados da seguinte maneira:
   
-- Entre duas pessoas
+- Pessoa para pessoa
     
-- Pessoa-para-machine
+- Pessoa para máquina
     
-- Máquina-para-pessoa
+- Máquina para pessoa
     
-- Máquina para
+- Máquina para máquina
     
 - Mistura de pessoas e máquinas
     
-Aplicativos entre duas pessoas envolve uma pessoa iniciando a troca de mensagens e responder de outra pessoa. Esta categoria de aplicativos inclui aplicativos de email tradicional, bem como mais estruturadas trocas como aprovação de roteamento ou despesa do documento.
+Os aplicativos de pessoa para pessoa envolvem uma pessoa que inicia a troca de mensagens e outra pessoa respondendo. Essa categoria de aplicativos inclui aplicativos de email tradicionais, bem como trocas mais estruturadas, como roteamento de documentos ou aprovação de despesas.
   
-Aplicativos de pessoa-para-machine envolve uma pessoa iniciando a troca de mensagens e uma máquina que estão respondendo. Esta categoria inclui aplicativos que usam o email para, por exemplo, enviar uma consulta de banco de dados ou inscrever-se em uma lista de endereçamento.
+Os aplicativos de pessoa para máquina envolvem uma pessoa que inicia a troca de mensagens e uma máquina respondendo. Esta categoria inclui aplicativos que usam email para, por exemplo, enviar uma consulta de banco de dados ou inscrever-se em uma lista de endereçamento.
   
-Aplicativos de máquina-para-pessoa envolve uma máquina iniciando a troca de mensagens e uma pessoa respondendo. Esta categoria inclui aplicativos que distribuem documentos como feeds de notícias e pesquisas de opinião.
+Os aplicativos de máquina a pessoa envolvem uma máquina que inicia a troca de mensagens e uma pessoa respondendo. Esta categoria inclui aplicativos que distribuem documentos, como News feeds e pesquisas de opinião.
   
-Aplicativos de máquina para envolve uma máquina iniciando a troca de mensagens e uma máquina que estão respondendo. Esta categoria inclui aplicativos como replicação de diretório e monitoramento e banco de dados de link pulsação.
+Os aplicativos de máquina para máquina envolvem uma máquina que inicia o Exchange de mensagens e uma máquina respondendo. Esta categoria inclui aplicativos como monitoramento de pulsação de link e replicação de diretório e banco de dados.
   
-A categoria final, uma mistura de pessoas e máquinas, envolve um cenário mais complexo. Esta categoria inclui aplicativos que não necessariamente transmitir mensagens entre os remetentes e destinatários. Em vez disso, eles podem publicá-los diretamente em uma pasta pública ou para um fórum do site da web compatíveis com um armazenamento de mensagens. As mensagens podem ser consumidas por demanda por outros leitores, um administrador ou um agente de software.
+A categoria final, uma mistura de pessoas e máquinas, envolve um cenário mais complexo. Esta categoria inclui aplicativos que não necessariamente transmitem mensagens entre remetentes e destinatários. Em vez disso, eles podem lançá-los diretamente em uma pasta pública ou em um fórum de site da Web suportado por um repositório de mensagens. As mensagens podem ser consumidas por demanda por outros leitores, um administrador ou um agente de software.
   
-Se você estiver escrevendo um aplicativo entre duas pessoas, aplicativos de máquina-para-pessoa ou um aplicativo que envia mensagens para fóruns públicos, projete seu aplicativo para enviar e receber mensagens IPM. Se você estiver escrevendo um pessoa-para-machine ou máquina para o aplicativo, ele pode ser projetado para enviar e receber mensagens de CPI. Qualquer aplicativo que requer a interação de um usuário humano deve oferecer suporte a mensagens IPM. Aplicativos que envolvem pessoas e máquinas em uma variedade de cenários com frequência devem oferecer suporte a mensagens CPI e de IPM. A única diferença entre as duas classes é que mensagens IPM em um repositório de mensagem são visíveis para usuários de clientes de mensagens, enquanto mensagens CPI geralmente não estão visíveis para os usuários do aplicativo cliente. 
+Se você estiver escrevendo um aplicativo de pessoa para pessoa, um aplicativo de máquina para pessoa ou um aplicativo que publica mensagens em fóruns públicos, projete seu aplicativo para enviar e receber mensagens IPM. Se você estiver escrevendo um aplicativo de pessoa para máquina ou máquina para máquina, ele pode ser projetado para enviar e receber mensagens de IPC. Qualquer aplicativo que exija a interação de um usuário humano deve suportar mensagens IPM. Os aplicativos que envolvem pessoas e máquinas em uma variedade de cenários freqüentemente devem oferecer suporte a mensagens IPM e IPC. A única diferença real entre as duas classes é que as mensagens IPM em um repositório de mensagens são visíveis para os usuários de clientes de mensagens, enquanto as mensagens de IPC geralmente não são visíveis para os usuários do aplicativo cliente. 
   
-Em vez de limitando suas mensagens para os recursos fornecidos pelo superclasse MAPI, IPM e CPI, você pode personalizar e aprimorar essas classes criando novas subclasses IPM ou CPI. Criar subclasses mensagem envolve a criação de novas classes de mensagem que herde a superclasse. Por exemplo, se seu aplicativo entre duas pessoas especializada em gerenciamento de relacionamento do cliente, você pode subclasse superclasse IPM definindo uma IPM. Denota de classe e crie propriedades que descrevem um cliente. Além de oferecer suporte a essas propriedades personalizadas, sua IPM. Mensagens de denota herdará as propriedades suportadas por todas as mensagens IPM.
+Em vez de limitar suas mensagens aos recursos fornecidos pelas superclasses MAPI, IPM e IPC, você pode personalizar e aprimorar essas classes criando novas subclasses IPM ou IPC. Criar subclasses de mensagens envolve o inventting novas classes de mensagens que herdam das superclasses. Por exemplo, se o seu aplicativo de pessoa a pessoa é especializado no gerenciamento de relacionamento com o cliente, você pode subclassar a superclasse IPM definindo uma IPM. Classe Contact. Customer e criar propriedades que descrevem um cliente. Além de oferecer suporte a essas propriedades personalizadas, sua IPM. Contact. Customer messages herdará as propriedades suportadas por todas as mensagens IPM.
   
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
 description: Especifica propriedades usadas para identificar os autores e comentários em um desenho.
 ms.openlocfilehash: d82125cc5d795f0cb4455a5c10be1abf001e1198
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359392"
 ---
 # <a name="comments-element-commentstype-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) ('Visio XML')
 
@@ -40,7 +40,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum
+Nenhum.
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,6 +51,6 @@ Nenhum
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhuma.
   
 

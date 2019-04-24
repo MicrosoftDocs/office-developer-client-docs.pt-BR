@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 28e7874d1e61c0a4fe0ad702f206ca03a9a1096a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae124cb94cff5be0a655386d31f1bf2c82f66a85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351587"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575872"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica que o MAPI spooler tem uma mensagem para o provedor de transporte fornecer.
+Indica que o spooler MAPI tem uma mensagem para o provedor de transporte fornecer.
   
 ```cpp
 HRESULT SubmitMessage(
@@ -40,79 +40,79 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a mensagem é enviada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como a mensagem é enviada. O seguinte sinalizador pode ser definido:
     
 BEGIN_DEFERRED 
   
-> O MAPI spooler está chamando um provedor de transporte com uma mensagem que foi adiada anteriormente. O identificador de entrada da mensagem é o mesmo quando ele foi adiado. A mensagem foi adiada passando seu identificador de entrada volta para o MAPI spooler usando o método [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) com o sinalizador NOTIFY_SENTDEFERRED. 
+> O spooler MAPI está chamando um provedor de transporte com uma mensagem que foi adiada anteriormente. O identificador de entrada da mensagem é o mesmo que quando ela foi adiada. A mensagem foi adiada passando seu identificador de entrada de volta para o spooler MAPI usando o método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) com o sinalizador NOTIFY_SENTDEFERRED. 
     
  _lpMessage_
   
-> [in] Um ponteiro para um objeto de mensagem (representando a entrega da mensagem) que tem a permissão de leitura/gravação, que o provedor de transporte usa para acessar e manipular a mensagem. Este objeto permanecerá válido até depois que o provedor de transporte retorna de uma chamada subsequente ao método [IXPLogon::EndMessage](ixplogon-endmessage.md) . 
+> no Um ponteiro para um objeto Message (representando a mensagem a ser entregue) que tem permissão de leitura/gravação, que o provedor de transporte usa para acessar e manipular essa mensagem. Este objeto permanece válido até que o provedor de transporte retorne de uma chamada subsequente para o método [IXPLogon:: endmessage](ixplogon-endmessage.md) . 
     
  _lpulMsgRef_
   
-> [out] Um ponteiro para uma variável em que o provedor de transporte retornará o valor de referência atribuído a esta mensagem. O MAPI spooler passa esse valor de referência em chamadas subsequentes para esta mensagem. O MAPI spooler inicializa o valor como 0 antes de retorná-lo para o provedor de transporte.
+> bota Um ponteiro para uma variável na qual o provedor de transporte retorna o valor de referência atribuído a essa mensagem. O spooler MAPI passa esse valor de referência em chamadas subsequentes para esta mensagem. O spooler MAPI Inicializa o valor como 0 antes de devolvê-lo ao provedor de transporte.
     
  _lpulReturnParm_
   
-> [out] Um ponteiro para uma variável que corresponde ao valor de erro MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR retornado por **SubmitMessage**.
+> bota Um ponteiro para uma variável que corresponde ao valor de erro MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR retornado por **SubmitMessage**.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BUSY 
   
-> O provedor de transporte não pode manipular a mensagem, porque ele está executando outra operação. Um provedor deve usar esse valor de retorno para indicar que nenhum processamento ocorreu e que o MAPI spooler não deve chamar **EndMessage**. O MAPI spooler tentará a chamada **SubmitMessage** novamente mais tarde. 
+> O provedor de transporte não pode lidar com a mensagem porque está executando outra operação. Um provedor deve usar esse valor de retorno para indicar que nenhum processamento ocorreu e que o spooler MAPI não deve chamar **endmessage**. O spooler MAPI tentará executar a chamada **SubmitMessage** novamente mais tarde. 
     
 MAPI_E_CANCEL 
   
-> Embora o provedor de transporte solicitado que o MAPI spooler reenviar a mensagem em uma chamada anterior de **SpoolerNotify** , condições alterou e não deve ser reenviada a mensagem. O MAPI spooler irão lidar com algo diferente. 
+> Embora o provedor de transporte solicitou que o spooler MAPI reenvie a mensagem em uma chamada anterior do **SpoolerNotify** , as condições foram alteradas, e a mensagem não deve ser enviada novamente. O spooler MAPI será ativado para lidar com outra coisa. 
     
 MAPI_E_NETWORK_ERROR 
   
-> Um erro de rede impediu a conclusão bem-sucedida da operação. O parâmetro _lpulReturnParm_ deve ser definido como o número de segundos que decorrerá antes que o MAPI spooler reenvia a mensagem. 
+> Um erro de rede impediu a conclusão bem-sucedida da operação. O parâmetro _lpulReturnParm_ deve ser definido como o número de segundos decorridos antes de o spooler MAPI reenviar a mensagem. 
     
 MAPI_E_NOT_ME 
   
-> O provedor de transporte não pode manipular esta mensagem. O MAPI spooler deve tentar localizar o outro provedor de transporte para ele. Um provedor deve usar esse valor de retorno para indicar que nenhum processamento ocorreu e que o MAPI spooler não deve chamar **EndMessage**.
+> O provedor de transporte não pode lidar com esta mensagem. O spooler MAPI deve tentar localizar outro provedor de transporte para ele. Um provedor deve usar esse valor de retorno para indicar que nenhum processamento ocorreu e que o spooler MAPI não deve chamar **endmessage**.
     
 MAPI_E_WAIT 
   
-> Um problema temporário impede que o provedor de transporte tratamento da mensagem. O parâmetro _lpulReturnParm_ deve ser definido como o número de segundos que decorrerá antes que o MAPI spooler reenvia a mensagem. 
+> Um problema temporário impede que o provedor de transporte trate a mensagem. O parâmetro _lpulReturnParm_ deve ser definido como o número de segundos decorridos antes de o spooler MAPI reenviar a mensagem. 
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler chama o método de **IXPLogon::SubmitMessage** quando ele tem uma mensagem para o provedor de transporte fornecer. A mensagem será passada para o provedor de transporte usando o parâmetro _lpMessage_ . 
+O spooler MAPI chama o método **IXPLogon:: SubmitMessage** quando ele tem uma mensagem para que o provedor de transporte seja entregue. A mensagem é passada para o provedor de transporte usando o parâmetro _lpMessage_ . 
   
-Se o provedor está pronto para aceitar a mensagem, ela deve retornar um valor de referência usando o parâmetro _lpulMsgRef_ , o objeto passado, de processo e retornar o valor apropriado (geralmente S_OK). Se o provedor não está preparado para lidar com a transferência, ele deverá retornar um valor de erro e, opcionalmente, MAPI outro valor de retorno no _lpulReturnParm_ para indicar quanto tempo o MAPI spooler deve aguardar antes de reenviar a mensagem. 
+Se o provedor estiver pronto para aceitar a mensagem, ele deverá retornar um valor de referência usando o parâmetro _lpulMsgRef_ , processar o objeto passado e retornar o valor apropriado (geralmente S_OK). Se o provedor não estiver preparado para lidar com a transferência, ele deverá retornar um valor de erro e, opcionalmente, outro valor de retorno MAPI em _lpulReturnParm_ para indicar quanto tempo o spooler MAPI deve aguardar antes de reenviar a mensagem. 
   
-Implementação de um provedor de transporte deste método pode fazer o seguinte:
+A implementação de um provedor de transporte desse método pode fazer o seguinte:
   
-- Colocar a mensagem em uma fila interna para aguardar a transmissão, possivelmente copiar a mensagem para o armazenamento local e retornar.
+- Coloque a mensagem em uma fila interna para aguardar a transmissão, possivelmente copiando a mensagem para o armazenamento local e retornar.
     
-- Tente executar a transmissão real e retornar quando a transmissão for concluído com sucesso ou não.
+- Tente executar a transmissão real e retornar quando a transmissão for concluída, com êxito ou sem êxito.
     
-- Determine se deseja enviar a mensagem após a verificação do recurso envolvidos. Nesse caso, se o recurso estiver disponível, o provedor pode bloquear o recurso, preparar a mensagem e enviá-la. Se o recurso estiver ocupado, o provedor pode preparar a mensagem e adiar enviando para um momento posterior.
+- Determine se deseja enviar a mensagem após verificar o recurso envolvido. Nesse caso, se o recurso for gratuito, o provedor poderá bloquear o recurso, preparar a mensagem e enviá-la. Se o recurso estiver ocupado, o provedor poderá preparar a mensagem e adiar o envio para um momento posterior.
     
-A técnica preferida para transmissão de mensagens depende do provedor de transporte e o número esperado de processos competindo por recursos do sistema. 
+A técnica preferida para transmissão de mensagens depende do provedor de transporte e do número esperado de processos competindo por recursos do sistema. 
   
-Durante uma chamada de **SubmitMessage** , o provedor de transporte controla a transferência de dados de mensagem do objeto de mensagem. No entanto, o provedor de transporte deve atribuir um valor de referência para a mensagem, ao qual ele retorna um ponteiro em _lpulMsgRef_, antes de transferir os dados. Ele então porque a qualquer momento durante o processo, o MAPI spooler pode chamar o método de [IXPLogon::TransportNotify](ixplogon-transportnotify.md) com o sinalizador NOTIFY_CANCEL_MESSAGE definido para sinalizar o provedor que deve liberar todos os objetos e interromper a transferência de mensagem. 
+Durante uma chamada **SubmitMessage** , o provedor de transporte controla a transferência de dados de mensagem do objeto Message. No enTanto, o provedor de transporte deve atribuir um valor de referência à mensagem, para a qual ele retorna um ponteiro no _lpulMsgRef_, antes da transferência de dados. Ele faz isso porque em qualquer momento durante o processo, o spooler MAPI pode chamar o método [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) com o sinalizador NOTIFY_CANCEL_MESSAGE definido para sinalizar ao provedor que ele deve liberar qualquer objeto aberto e interromper a transferência de mensagens. 
   
-O provedor de transporte não deve enviar todas as propriedades nontransmittable da mensagem. Quando encontrar uma propriedade inexistente, ele deverá ir para processar a propriedade next. O provedor deve fazer todos os esforços para não exibir informações do destinatário MAPI_P1 como parte do conteúdo da mensagem transmitida; o provedor deve usar essas informações de destinatário apenas para fins de endereçamento. Destinatários de MAPI_P1 são gerados internamente destinatários que são usados para reenviar mensagens; eles não devem ser transmitidos. Em vez disso, use os outros destinatários para transmitir informações do destinatário. A finalidade dessa organização é permitir que os destinatários de reenvio para ver a tabela de destinatários mesma exata como os destinatários originais.
+O provedor de transporte não deve enviar nenhuma propriedade não transmittable da mensagem. Quando encontra essa propriedade, ela deve ir para processar a próxima propriedade. O provedor deve fazer com que todos os esforços não exibam informações de destinatário do MAPI_P1 como parte do conteúdo da mensagem transmitida; o provedor deve usar essas informações de destinatário somente para fins de endereçamento. Os destinatários do MAPI_P1 são destinatários gerados internamente que são usados para reenviar mensagens; Eles não devem ser transmitidos. Em vez disso, use outros destinatários para transmitir informações do destinatário. A finalidade dessa organização é permitir que os destinatários reenviem para ver a mesma tabela de destinatários que os destinatários originais.
   
-Durante uma chamada de **SubmitMessage** , o MAPI spooler processa os métodos de objetos que estão abertos durante a transferência da mensagem e processa todos os anexos. Esse processamento pode levar muito tempo. Provedores de transporte podem chamar o método [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) para o MAPI spooler frequentemente durante o processamento para liberar o tempo da CPU para outras tarefas do sistema. 
+Durante uma chamada **SubmitMessage** , o spooler MAPI processa os métodos para objetos que são abertos durante a transferência da mensagem e processa todos os anexos. Esse processamento pode levar muito tempo. Os provedores de transporte podem chamar o método [IMAPISupport:: SpoolerYield](imapisupport-spooleryield.md) para o spooler MAPI com frequência durante esse processamento para liberar o tempo de CPU para outras tarefas do sistema. 
   
-Todos os destinatários da mensagem são visíveis na tabela de destinatário da mensagem que o MAPI spooler originalmente passado. O provedor de transporte deve processar somente os destinatários que pode manipular — com base no tipo de endereço, o identificador de entrada ou ambos — e que ainda não tem sua propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) definida como TRUE. Se **PR_RESPONSIBILITY** já estiver definida como TRUE, a outro provedor de transporte manipulou que o destinatário. Quando o provedor conclui o processamento suficiente de um destinatário para determinar se ele pode lidar com as mensagens para que o destinatário, ele deve definir a propriedade **PR_RESPONSIBILITY** de que o do destinatário como TRUE na mensagem passada. Geralmente, o provedor torna essa determinação após a conclusão da entrega da mensagem. 
+Todos os destinatários da mensagem estão visíveis na tabela de destinatários da mensagem que o spooler MAPI originalmente aprovou. O provedor de transporte deve processar somente os destinatários que podem lidar com base no identificador de entrada, tipo de endereço ou ambos — e que ainda não têm sua propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) definida como true. Se **PR_RESPONSIBILITY** já estiver definido como true, outro provedor de transporte tratou esse destinatário. Quando o provedor concluir o processamento suficiente de um destinatário para determinar se ele pode lidar com mensagens desse destinatário, deverá definir a propriedade **PR_RESPONSIBILITY** desse destinatário como true na mensagem passada. Normalmente, o provedor faz essa determinação após a conclusão da entrega da mensagem. 
   
-Normalmente, o provedor de transporte não retorna de uma chamada de **SubmitMessage** até que ele seja concluída a transferência de dados de mensagem. Se nenhum erro será retornado, a próxima chamada do spooler MAPI para o provedor é uma chamada ao método [IXPLogon::EndMessage](ixplogon-endmessage.md) . 
+Normalmente, o provedor de transporte não retorna de uma chamada **SubmitMessage** até que conclua a transferência de dados da mensagem. Se nenhum erro for retornado, a próxima chamada do spooler MAPI ao provedor será uma chamada para o método [IXPLogon:: endmessage](ixplogon-endmessage.md) . 
   
-Se **SubmitMessage** retornará um erro, o MAPI spooler libera a mensagem no processo sem salvar as alterações. Se o provedor de transporte requer alterações de mensagem a ser salvo, ele deve chamar o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) na mensagem de antes retornando. 
+Se **SubmitMessage** retornar um erro, o spooler MAPI libera a mensagem em processo sem salvar as alterações. Se o provedor de transporte exigir que as alterações de mensagem sejam salvas, ele deverá chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem antes de retornar. 
   
-Em caso de erros que ocorrem devido a problemas de transporte, o MAPI spooler mantém a mensagem, mas ele atrasa reenviar a mensagem para o provedor de transporte com base no valor retornado no _lpulReturnParm_. O provedor de transporte deve preencher esse valor se o seu valor de retorno de **SubmitMessage** é MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR. Se ocorrer uma condição de erro grave, o provedor de transporte deve chamar o método [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) com o sinalizador NOTIFY_CRITICAL_ERROR. 
+No caso de erros que ocorrem por causa de problemas de transporte, o spooler MAPI retém a mensagem, mas atrasa o reenvio da mensagem para o provedor de transporte com base no valor retornado em _lpulReturnParm_. O provedor de transporte deve preencher esse valor se o valor de retorno de **SubmitMessage** for MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR. Se ocorrer uma condição de erro grave, o provedor de transporte deverá chamar o método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) com o sinalizador NOTIFY_CRITICAL_ERROR. 
   
 ## <a name="see-also"></a>Confira também
 

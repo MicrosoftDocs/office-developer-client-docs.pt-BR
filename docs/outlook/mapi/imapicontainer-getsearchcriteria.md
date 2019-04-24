@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7845238722ce81b84210b6f4fc33f9df0abacc07
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349291"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
@@ -40,73 +40,73 @@ HRESULT GetSearchCriteria(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo das cadeias de caracteres no passado. O seguinte sinalizador pode ser definido:
+> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _lppRestriction_
   
-> [out] Um ponteiro para um ponteiro para uma estrutura [SRestriction](srestriction.md) que define os critérios de pesquisa. Se um aplicativo cliente transmite NULL no parâmetro _lppRestriction_ , **obter GetSearchCriteria** não retorna uma estrutura **SRestriction** . 
+> bota Um ponteiro para um ponteiro para uma estrutura [SRestriction](srestriction.md) que define os critérios de pesquisa. Se um aplicativo cliente passar nulo no parâmetro _lppRestriction_ , **GetSearchCriteria** não retornará uma estrutura **SRestriction** . 
     
  _lppContainerList_
   
-> [out] Um ponteiro para um ponteiro para uma matriz de identificadores de entrada que representam os contêineres a serem incluídos na pesquisa. Se um cliente transmite NULL no parâmetro _lppContainerList_ , **obter GetSearchCriteria** não retorna uma matriz de identificadores de entrada. 
+> bota Um ponteiro para um ponteiro para uma matriz de identificadores de entrada que representam contêineres a serem incluídos na pesquisa. Se um cliente passar nulo no parâmetro _lppContainerList_ , **GetSearchCriteria** não retornará uma matriz de identificadores de entrada. 
     
  _lpulSearchState_
   
-> [out] Um ponteiro para uma bitmask dos sinalizadores usados para indicar o estado atual da pesquisa. Se um cliente transmite NULL no parâmetro _lpulSearchState_ , **obter GetSearchCriteria** não retorna nenhuma sinalizadores. Sinalizadores a seguir podem ser definidos: 
+> bota Um ponteiro para uma bitmask de sinalizadores usados para indicar o estado atual da pesquisa. Se um cliente passar nulo no parâmetro _lpulSearchState_ , **GetSearchCriteria** não retornará nenhum sinalizador. Os seguintes sinalizadores podem ser definidos: 
     
 SEARCH_FOREGROUND 
   
-> A pesquisa deve ser executado em alta prioridade em relação a outras pesquisas. Se esse sinalizador não estiver definida, a pesquisa é executado com prioridade normal em relação a outras pesquisas.
+> A pesquisa deve ser executada com prioridade alta em relação a outras pesquisas. Se esse sinalizador não for definido, a pesquisa será executada em prioridade normal em relação a outras pesquisas.
     
 SEARCH_REBUILD 
   
-> A pesquisa está no modo intensivo da CPU de sua operação, tentar localizar mensagens que correspondem aos critérios. Se esse sinalizador não estiver definida, a parte de intensivo da CPU da operação de pesquisa é sobre. Esse sinalizador tem significado apenas se a pesquisa estiver ativa (ou seja, se o sinalizador SEARCH_RUNNING está definido).
+> A pesquisa está no modo de CPU intensa de sua operação, tentando localizar mensagens que correspondam aos critérios. Se esse sinalizador não for definido, a parte intensiva da CPU da operação da pesquisa será sobre. Esse sinalizador tem significado somente se a pesquisa estiver ativa (ou seja, se o sinalizador SEARCH_RUNNING estiver definido).
     
 SEARCH_RECURSIVE 
   
-> A pesquisa está procurando nos contêineres especificados e todos os seus contêineres filho para entradas correspondentes. Se esse sinalizador não estiver definida, somente os contêineres explicitamente incluídos na última chamada para o método [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) estão sendo pesquisados. 
+> A pesquisa está procurando por contêineres especificados e todos os seus contêineres filhos para entradas correspondentes. Se esse sinalizador não estiver definido, somente os contêineres incluídos explicitamente na última chamada para o método [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) estão sendo pesquisados. 
     
 SEARCH_RUNNING 
   
-> A pesquisa está ativa e a tabela de conteúdo do contêiner está sendo atualizada para refletir as alterações no repositório de mensagem ou o catálogo de endereços. Se esse sinalizador não estiver definida, a pesquisa está inativa e a tabela de conteúdo é estática.
+> A pesquisa está ativa e a tabela de conteúdo do contêiner está sendo atualizada para refletir as alterações no repositório de mensagens ou no catálogo de endereços. Se esse sinalizador não for definido, a pesquisa estará inativa e a tabela de conteúdo será estática.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Os critérios de pesquisa foi obtida com êxito.
+> Os critérios de pesquisa foram obtidos com êxito.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 MAPI_E_NOT_INITIALIZED 
   
-> Critérios de pesquisa nunca estabelecidos para o contêiner.
+> Os critérios de pesquisa nunca foram estabelecidos para o contêiner.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIContainer::GetSearchCriteria** obtém os critérios de pesquisa para um contêiner que suporta pesquisas, geralmente, uma pasta de resultados de pesquisa. Você pode criar critérios de pesquisa chamando o método de **IMAPIContainer::SetSearchCriteria** de um contêiner. 
+O método **IMAPIContainer:: GetSearchCriteria** Obtém os critérios de pesquisa para um contêiner que oferece suporte a pesquisas, normalmente uma pasta de resultados de pesquisa. Você cria critérios de pesquisa chamando o método **IMAPIContainer:: SetSearchCriteria** do contêiner. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Contêineres de catálogo de endereços, talvez seja necessário dar suporte ao **obter GetSearchCriteria** somente se eles oferecem as capacidades de pesquisa avançada associadas com a propriedade **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Para obter mais informações sobre como implementar o recurso de pesquisa avançada para contêineres do catálogo de endereços, consulte [Implementando a pesquisa avançada](implementing-advanced-searching.md).
+Os contêineres do catálogo de endereços podem precisar de suporte para o **GetSearchCriteria** somente se eles fornecerem os recursos de pesquisa avançada associados à propriedade **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Para obter mais informações sobre como implementar o recurso de pesquisa avançada para contêineres do catálogo de endereços, consulte [implementação de pesquisa avançada](implementing-advanced-searching.md).
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando tiver terminado com as estruturas de dados apontadas pelos parâmetros _lppRestriction_ e _lppContainerList_ , chame [MAPIFreeBuffer](mapifreebuffer.md) uma vez para cada estrutura ser liberada. 
+Quando você tiver concluído as estruturas de dados apontadas pelos parâmetros _lppRestriction_ e _LppContainerList_ , chame [MAPIFreeBuffer](mapifreebuffer.md) uma vez para cada estrutura a ser liberada. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa o método **IMAPIContainer::GetSearchCriteria** para obter os critérios de pesquisa de uma pasta para exibir.  <br/> |
+|HierarchyTableDlg. cpp  <br/> |CHierarchyTableDlg:: OnEditSearchCriteria  <br/> |MFCMAPI usa o método **IMAPIContainer:: GetSearchCriteria** para obter critérios de pesquisa de uma pasta a ser exibida.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -123,5 +123,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

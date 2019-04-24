@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: Especifica o local para o qual informar o clima.
 ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355206"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>Elemento weather (elemento weatherdata) (Esquema de localização do clima do Outlook)
 

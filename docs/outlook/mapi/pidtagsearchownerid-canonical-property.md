@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: da7d757516ac47fbe74b9fec23ade41579e04e60
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 331a56ae26cfe50a1889334dd30f1f83e90a5ae0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359483"
 ---
 # <a name="pidtagsearchownerid-canonical-property"></a>Propriedade canônica PidTagSearchOwnerId
 
@@ -21,17 +21,17 @@ ms.locfileid: "22592630"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a ID de processo do processo que está enviando notificações para o indexador sobre objetos pronto para indexação.
+Contém a ID do processo que está enviando notificações ao indexador sobre objetos prontos para indexação.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SEARCH_OWNER_ID  <br/> |
-|Expostos pelo:  <br/> |Objeto de repositório de mensagem  <br/> |
+|Exposto por:  <br/> |Objeto do repositório de mensagens  <br/> |
 |Identificador:  <br/> |0x3419  <br/> |
 |Tipo de propriedade:  <br/> |PT_LONG  <br/> |
 |Marca de propriedade:  <br/> |0x34190003  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 

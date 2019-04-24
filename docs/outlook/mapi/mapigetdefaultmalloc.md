@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 148695dd-d886-4a06-9cfe-749059ae91ed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cb0630ba30f8d3d7ae38c165c5da60bbc12077c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 635f22c97ed27889245becbebb990ab3995b70b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345770"
 ---
 # <a name="mapigetdefaultmalloc"></a>MAPIGetDefaultMalloc
 
@@ -29,9 +29,9 @@ Recupera o endereço da função de alocação de memória MAPI padrão.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 LPMALLOC MAPIGetDefaultMalloc( );

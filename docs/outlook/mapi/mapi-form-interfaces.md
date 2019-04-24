@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f37d398167e8210a2fd67ff08e63572eb6c9db9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f207f9550c61ad69fd1fc560cdb2084b7bb56c6f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351538"
 ---
 # <a name="mapi-form-interfaces"></a>Interfaces de formulário MAPI
 
@@ -25,21 +25,21 @@ MAPI define as seguintes interfaces relacionadas aos formulários.
   
 |**Nome da interface**|**Descrição**|
 |:-----|:-----|
-|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula a objetos de formulário e trata comandos de objeto do formulário.  <br/> |
-|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Determina se o objeto de formulário pode manipular a próxima mensagem e altera o estado anterior ou seguinte do objeto form.  <br/> |
-|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Oferece suporte à instalação, desinstalação e resolução de servidores de formulário contra um contêiner de formulário específico.  <br/> |
-|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Suporta o uso de servidores de formulário configurável de tempo de execução.  <br/> |
-|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite que aplicativos de cliente trabalhar com propriedades que são específicas para uma classe de mensagem.  <br/> |
-|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite que os aplicativos de cliente obter mais informações sobre servidores de formulário, ativa a servidores de formulário e instala os servidores de formulário no sistema de mensagens.  <br/> |
-|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Usado para manipular mensagens associadas com objetos de formulário.  <br/> |
-|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica os aplicativos cliente que ocorreu um evento no objeto form.  <br/> |
-|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Usada para responder aos comandos próximo, anterior e excluir o objeto form.  <br/> |
-|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Usado para salvar, inicializar e carregar os objetos de formulário de e para armazenamento de mensagens.  <br/> |
+|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula objetos Form e manipula comandos do objeto Form.  <br/> |
+|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Determina se o objeto Form pode manipular a mensagem seguinte e altera o estado seguinte ou anterior do objeto Form.  <br/> |
+|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Oferece suporte à instalação, à desinstalação e à resolução de servidores de formulário em um contêiner de formulário específico.  <br/> |
+|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Dá suporte ao uso de servidores de formulário de tempo de execução configuráveis.  <br/> |
+|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite que os aplicativos cliente trabalhem com propriedades específicas de uma classe de mensagem.  <br/> |
+|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite que os aplicativos cliente obtenham informações sobre os servidores de formulário, ativa os servidores de formulário e instala os servidores de formulário no sistema de mensagens.  <br/> |
+|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Usado para manipular mensagens associadas a objetos de formulário.  <br/> |
+|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica os aplicativos clientes de que um evento ocorreu no objeto Form.  <br/> |
+|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Usado para responder a comandos Next, Previous e Delete no objeto Form.  <br/> |
+|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Usado para salvar, inicializar e carregar objetos de formulário de e para o armazenamento de mensagens.  <br/> |
    
-Para obter mais informações sobre os métodos das interfaces do formulário MAPI, consulte a documentação para essas interfaces. Você não precisará implementar todas as interfaces de formulário MAPI para criar um formulário personalizado. Um formulário em si só requer que você implementar a **IPersistMessage**, **IMAPIForm**, e **IMAPIFormAdviseSink** interfaces. Além disso, também é uma boa ideia implementar **IMAPIFormFactory** e **IMAPIFormInfo**. **IMAPIFormFactory** é útil para fins de conformidade de OLE e **IMAPIFormInfo** permite que os aplicativos de cliente bem escrito tornar o melhor uso dos seus formulários. 
+Para obter mais informações sobre os métodos das interfaces de formulário MAPI, consulte a documentação dessas interfaces. Você não precisa implementar todas as interfaces de formulário MAPI para criar um formulário personalizado. Um formulário em si requer apenas que você implemente as interfaces **IPersistMessage**, **IMAPIForm**e **IMAPIFormAdviseSink** . Além disso, também é uma boa ideia implementar o **IMAPIFormFactory** e o **IMAPIFormInfo**. O **IMAPIFormFactory** é útil para conformidade com OLE e o **IMAPIFormInfo** permite que aplicativos clientes bem escritos usem melhor o uso de seus formulários. 
   
 > [!NOTE]
-> Rigor, **IMAPIFormAdviseSink** é uma interface opcional. No entanto, é altamente recomendável que você implemente-la em seus servidores do formulário. Esta interface é fundamental para a interação eficiente entre clientes de mensagens e servidores de formulário, especialmente quando várias mensagens do seu servidor de formulário classe de mensagem estão sendo resolvido com. 
+> Estritamente falando, **IMAPIFormAdviseSink** é uma interface opcional. No enTanto, é altamente recomendável que você o implemente nos seus servidores de formulário. Essa interface é crítica para uma interação eficiente entre clientes de mensagens e servidores de formulário, especialmente quando várias mensagens da classe de mensagens do seu servidor de formulário são lidas com o. 
   
 ## <a name="see-also"></a>Confira também
 

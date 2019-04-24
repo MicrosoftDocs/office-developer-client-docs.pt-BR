@@ -9,19 +9,19 @@ localization_priority: Normal
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
 description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: e9b6b00609d4a3dda2a389957614ac93f9f7bacd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359861"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Aviso de direitos autorais da referência do desenvolver do Outlook
 
 Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo. 
   
-Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Não existe associação real ou qualquer ligação é intencionada ou deve ser inferida.
+Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Nenhuma associação ou conexão real tem a finalidade ou deve ser deduzida.
   
-Este documento não lhe dá nenhum direito legal a qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para fins de referência, internos. 
+Este documento não fornece a você quaisquer direitos legais a qualquer propriedade intelectual sobre qualquer produto da Microsoft. Você pode copiar e usar o presente documento internamente, para fins de referência. 
   
 © 2013 Microsoft Corporation. Todos os direitos reservados.
   

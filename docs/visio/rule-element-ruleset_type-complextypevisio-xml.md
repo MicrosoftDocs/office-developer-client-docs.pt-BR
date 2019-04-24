@@ -1,5 +1,5 @@
 ---
-title: Elemento de regra (RuleSet_Type complexType) ('Visio XML')
+title: Elemento Rule (RuleSet_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: Representa uma regra de validação única em um conjunto de regras de validação de diagrama.
 ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358797"
 ---
-# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Elemento de regra (RuleSet_Type complexType) ('Visio XML')
+# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Elemento Rule (RuleSet_Type complexType) (' Visio XML ')
 
 Representa uma regra de validação única em um conjunto de regras de validação de diagrama.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation.XML  <br/> |
+|**Partes do documento** <br/> |Validation. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Representa uma regra de validação única em um conjunto de regras de validaç�
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Conjunto de regras](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Representa um conjunto de regras de validação de diagrama.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Representa um conjunto de regras de validação de diagrama.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,13 +53,13 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Category  <br/> |XSD: String  <br/> |opcional  <br/> |Especifica o texto exibido na coluna **categoria** da janela questões. O padrão é uma cadeia de caracteres vazia.  <br/> |Valores do tipo xsd: String.  <br/> |
-|Descrição  <br/> |XSD: String  <br/> |opcional  <br/> |Especifica a descrição da regra de validação que aparece na interface do usuário. O padrão é "Desconhecido".  <br/> |Valores do tipo xsd: String.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo para a regra de validação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Ignorado  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Especifica se a regra de validação no momento é ignorada. O padrão é False.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|NameU  <br/> |XSD: String  <br/> |obrigatório  <br/> |Especifica o nome universal da regra de validação.  <br/> |Valores do tipo xsd: String.  <br/> |
-|RuleTarget  <br/> |XSD:int  <br/> |opcional  <br/> |Especifica o tipo de objeto ao qual se aplica a regra de validação.  <br/> |Valores do tipo xsd:int.  <br/> |
+|Categoria  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o texto exibido na coluna **categoria** da janela questões. O padrão é uma cadeia de caracteres vazia.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Descrição  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica a descrição da regra de validação que aparece na interface do usuário. O padrão é "desconhecido".  <br/> |Valores do tipo xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da regra de validação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Ignorado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se a regra de validação é ignorada no momento. O padrão é False.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |obrigatório  <br/> |Especifica o nome universal da regra de validação.  <br/> |Valores do tipo xsd:string.  <br/> |
+|RuleTarget  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o tipo de objeto ao qual a regra de validação se aplica.  <br/> |Valores do tipo xsd:int.  <br/> |
    
 

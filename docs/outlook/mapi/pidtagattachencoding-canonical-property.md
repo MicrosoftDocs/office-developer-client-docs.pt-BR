@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4bda4783012a3a5cd50d9c0aea6a37ccd238b660
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345490"
 ---
 # <a name="pidtagattachencoding-canonical-property"></a>Propriedade canônica PidTagAttachEncoding
 
@@ -38,29 +38,29 @@ Contém um identificador de objeto ASN. 1 que especifica a codificação de um a
 
 Esta propriedade identifica o algoritmo usado para transformar os dados em um anexo.
   
- **Observação** Não devem ser confundidas os **PR_ATTACH_ENCODING** e as propriedades de **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). Eles não são combinados ou relacionados. **PR_ATTACH_TAG** identifica o aplicativo que gerou originalmente o anexo. "Objeto" tem um significado muito mais geral no identificador de objeto de termos e em x. 400, que na programação orientado a objetos. 
+ **Observação** As propriedades **PR_ATTACH_ENCODING** e **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) não devem ser confundidas. Eles não estão emparelhados ou relacionados. **PR_ATTACH_TAG** identifica o aplicativo que gerou originalmente o anexo. "Objeto" tem um significado muito mais geral no identificador de objeto term e em X. 400, em relação à programação orientada a objeto. 
   
-Identificadores de objeto do objeto identificador sintaxe e exemplo forem definidos no MAPIOID. Arquivo de cabeçalho H. Valores para **PR_ATTACH_ENCODING** não estão limitados àqueles definidos no MAPIOID. H. Por exemplo, arquivos de Macintosh anexados podem usar um identificador, como MacBinary. 
+A sintaxe de identificador de objeto e os identificadores de objeto de exemplo são definidos no MAPIOID. Arquivo de cabeçalho H. Os valores para **PR_ATTACH_ENCODING** não estão limitados àqueles definidos no MAPIOID. 0. Por exemplo, arquivos de Macintosh anexados podem usar um identificador como MacBinary. 
   
-Para obter informações completas sobre esses identificadores de objeto, consulte a documentação sobre ASN. 1, X.208 e 209. O identificador de objeto é encontrado no elemento de referência do aplicativo do ambiente FTBP (arquivo transferir corpo parte). 
+Para obter informações completas sobre esses identificadores de objeto, consulte a documentação sobre ASN. 1, X. 208 e X. 209. O identificador de objeto é encontrado no elemento de referência de aplicativo do ambiente FTBP (parte de corpo de transferência de arquivo). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

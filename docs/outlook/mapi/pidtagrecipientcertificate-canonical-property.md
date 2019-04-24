@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 464db3d360f6e872ac28f8d7cbec842d8b521f7e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356711"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriedade canônica PidTagRecipientCertificate
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585112"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o certificado de ASN. 1 de um destinatário de mensagem para uso em um relatório.
+Contém o certificado ASN de um destinatário de mensagem para uso em um relatório.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o certificado de ASN. 1 de um destinatário de mensagem para uso em um r
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma cópia da propriedade de **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) do destinatário para uso em um relatório. Ele pode ser usado para provar ao originador que o destinatário realmente recebeu a mensagem, que um relatório de entrega não necessariamente indica.
+Esta propriedade é uma cópia da propriedade **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) do destinatário para uso em um relatório. Ele pode ser usado para provar ao originador de que o destinatário realmente recebeu a mensagem, o que um relatório de entrega não necessariamente indica.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

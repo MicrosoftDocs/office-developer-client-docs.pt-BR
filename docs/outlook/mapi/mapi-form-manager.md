@@ -1,5 +1,5 @@
 ---
-title: Gerenciador de formulário MAPI
+title: Gerenciador de formulários MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3059183103ca2552505486b5ec54366729ae4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351447"
 ---
-# <a name="mapi-form-manager"></a>Gerenciador de formulário MAPI
+# <a name="mapi-form-manager"></a>Gerenciador de formulários MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um gerente de formulário é um objeto que implementa a interface [IMAPIFormMgr](imapiformmgriunknown.md) . A maioria das organizações usará o Gerenciador de formulário fornecido com MAPI, conhecido como o Gerenciador de formulário padrão. No entanto, uma organização pode substituir o Gerenciador de formulário padrão por um gerente de formulário personalizado, se desejado. O gerente do formulário cuida de localizar os formulários dentro de bibliotecas de formulários, carregando formulários em resposta às solicitações dos usuários e instalando formulários para a biblioteca de formulários particulares, biblioteca de formulários de pasta ou biblioteca de formulários local para um usuário. 
+Um gerente de formulários é um objeto que implementa a interface [IMAPIFormMgr](imapiformmgriunknown.md) . A maioria das organizações usará o Gerenciador de formulários fornecido com MAPI, chamado de Gerenciador de formulários padrão. No enTanto, uma organização pode substituir o Gerenciador de formulários padrão por um gerente de formulário personalizado, se desejado. O gerente de formulários cuida da localização de formulários nas bibliotecas de formulários, carregando formulários em resposta às solicitações do usuário e instalando formulários na biblioteca de formulários local, na biblioteca de formulários de pastas ou na biblioteca de formulários pessoais de um usuário. 
   
-Para um usuário interagir com uma mensagem, uma instância do servidor de formulário para a classe de mensagem da mensagem deve ser criada e ativada para exibir a mensagem e realizar a operação solicitada na mensagem. Conforme descrito no tópico [MAPI bibliotecas de formulários](mapi-form-libraries.md), a implementação de um formulário pode existir em vários locais diferentes (bibliotecas de formulários) e não há nenhuma garantia de que um formulário ou o seu servidor será disponível localmente ou em uma execução de estado quando um usuário deseja interagir com ele. O gerente do formulário cuida dos detalhes de localização e ativando o formulário.
+Para que um usuário interaja com uma mensagem, uma instância do servidor de formulário da classe Message da mensagem deve ser criada e ativada para exibir a mensagem e realizar a operação solicitada na mensagem. Conforme descrito no tópico [bibliotecas de formulários MAPI](mapi-form-libraries.md), a implementação de um formulário pode existir em vários locais diferentes (bibliotecas de formulários) e não há garantia de que um formulário ou seu servidor estará localmente disponível ou em um estado de execução quando um usuário quiser interagir com ele. O gerente de formulários cuida dos detalhes da localização e ativação do formulário.
   
-Clientes usam os serviços fornecidos pelo gerente de formulário para localizar e ativar formulários. A interface **IMAPIFormMgr** é implementada pelo gerente de formulário e é chamada pelos clientes para acessar seus serviços. O Gerenciador de formulário é um componente essencial porque ele oculta quase todos os detalhes de localização e ativando formulários de clientes de mensagem. 
+Os clientes usam os serviços fornecidos pelo gerente de formulários para localizar e ativar formulários. A interface **IMAPIFormMgr** é implementada pelo Gerenciador de formulários e é chamada por clientes para acessar seus serviços. O Gerenciador de formulários é um componente essencial porque oculta quase todos os detalhes de encontrar e ativar formulários de clientes de mensagens. 
   
-Ao carregar os servidores de formulário, o gerente do formulário padrão carrega o formulário da biblioteca de formulários primeira em que se encontra uma implementação para a classe de mensagem do formulário. O Gerenciador de formulário padrão pesquisará as bibliotecas de formulários na seguinte ordem:
+Ao carregar servidores de formulário, o Gerenciador de formulários padrão carrega o formulário a partir da primeira biblioteca de formulários na qual uma implementação da classe de mensagem do formulário é encontrada. O Gerenciador de formulários padrão pesquisa as bibliotecas de formulários na seguinte ordem:
   
-1. Biblioteca de formulários locais do usuário. Esta biblioteca de formulários é pesquisada primeiro porque ele fornece o acesso mais rápido a implementação de um formulário, se a implementação estiver instalada na biblioteca de formulários local.
+1. A biblioteca de formulários local do usuário. Esta biblioteca de formulários é pesquisada primeiro porque fornece o acesso mais rápido à implementação de um formulário se a implementação estiver instalada na biblioteca de formulários local.
     
-2. A biblioteca de formulários de pasta do contêiner da mensagem — a pasta na qual a mensagem está sendo carregada é armazenada.
+2. A biblioteca de formulários de pasta do contêiner da mensagem — a pasta na qual a mensagem que está sendo carregada está armazenada.
     
-3. Biblioteca de formulários particular do usuário.
+3. A biblioteca de formulários pessoais do usuário.
     
-Um gerente de formulário personalizado pode pesquisar as bibliotecas de formulário disponível em qualquer ordem, ou pode implementar outras bibliotecas de formulários, como uma biblioteca de formulários de toda a organização. Para obter mais detalhes sobre as bibliotecas de formulários, consulte [Bibliotecas de formulários de MAPI](mapi-form-libraries.md). 
+Um gerente de formulário personalizado pode pesquisar as bibliotecas de formulários disponíveis em qualquer ordem, ou pode implementar outras bibliotecas de formulários, como uma biblioteca de formulários em toda a organização. Para obter mais detalhes sobre bibliotecas de formulários, consulte [bibliotecas de formulários MAPI](mapi-form-libraries.md). 
   
 ## <a name="see-also"></a>Confira também
 

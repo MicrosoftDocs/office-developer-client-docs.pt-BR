@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: Protege a forma impedindo-a de ser excluída.
-ms.openlocfilehash: 00229dcabf45d2a3435039ffe05fd7eb4de75808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359602"
 ---
 # <a name="lockdelete-cell-protection-section"></a>Célula LockDelete (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege a forma impedindo-a de ser excluída.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A forma não pode ser excluída.  <br/> |
-| FALSO  <br/> | A forma pode ser excluída.  <br/> |
+| TRUE  <br/> | A forma não pode ser excluída.  <br/> |
+| FALSE  <br/> | A forma pode ser excluída.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

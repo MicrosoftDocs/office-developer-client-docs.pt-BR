@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 20831901567f177ada70a6cea94db0537786db94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aa2170bf4bedfb441ad4808f774f6f71d5caf85e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348633"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571434"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Envia uma notificação para uma linha da tabela.
+Envia uma notificação para uma linha de tabela.
   
 ```cpp
 HRESULT HrNotify(
@@ -39,25 +39,25 @@ HRESULT HrNotify(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _cValues_
   
-> [in] A contagem dos valores de propriedade na estrutura [SPropValue](spropvalue.md) apontado pelo parâmetro _lpSPropValue_ . 
+> no A contagem de valores de propriedade na estrutura [SPropValue](spropvalue.md) apontada pelo parâmetro _lpSPropValue_ . 
     
  _lpSPropValue_
   
-> [in] Um ponteiro para uma estrutura **SPropValue** que descreve os valores das colunas na linha destino. 
+> no Um ponteiro para uma estrutura **SPropValue** que descreve os valores das colunas na linha de destino. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData::HrNotify** envia uma notificação de TABLE_ROW_MODIFIED para a linha que corresponde a linha descrita pelas propriedades apontadas pelo parâmetro _lpSPropValue_ . **HrNotify** envia a notificação independentemente se ocorreram alterações na linha. Todos os clientes e provedores de serviços que têm modos de exibição da tabela e tem chamado [IMAPITable::Advise](imapitable-advise.md) para registrar para notificações nos seus modos de exibição recebem essa notificação. 
+O método **ITableData:: HrNotify** envia uma notificação TABLE_ROW_MODIFIED para a linha que corresponde à linha descrita pelas propriedades apontadas pelo parâmetro _lpSPropValue_ . O **HrNotify** envia a notificação independentemente de ocorrerem alterações na linha. Todos os clientes e provedores de serviço que possuem modos de exibição da tabela e chamaram imApitable [:: Advise](imapitable-advise.md) para registrar notificações em seus modos de exibição recebem esta notificação. 
   
 ## <a name="see-also"></a>Confira também
 

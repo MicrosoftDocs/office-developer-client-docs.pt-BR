@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4845c413232938319d2c6013d334137ebd2a8716
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358601"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Propriedade canônica PidTagInternetMailOverrideFormat
 
@@ -25,7 +25,7 @@ ms.locfileid: "25384931"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o método de codificação e a inclusão de HTML para anexos que devem ser definidas em mensagens de saída.
+Indica o método de codificação e a inclusão de HTML para anexos que devem ser definidos no email de saída.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Indica o método de codificação e a inclusão de HTML para anexos que devem se
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações sobre as partes sub-recurso em que essa propriedade é dividida, consulte [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
+Para obter informações sobre as subpartes nas quais essa propriedade é quebrada, consulte [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

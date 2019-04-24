@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b9244e28337c74487562ec235f246559a49a390d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350915"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 
@@ -25,22 +25,22 @@ ms.locfileid: "22573800"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Implementa um objeto de coletor de eventos advise para tratamento de notificação. Um ponteiro para um objeto de coletor de eventos advise é passado em uma chamada ao método **Advise** de um provedor de serviços, o mecanismo usado para registrar a notificação. 
+Implementa um objeto de coletor de aviso para manipular notificações. Um ponteiro para um objeto de coletor de aviso é passado em uma chamada para o método **Advise** de um provedor de serviços, o mecanismo usado para registrar-se para notificação. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de coletor de eventos de aviso  <br/> |
-|Implementada por:  <br/> |Aplicativos cliente e MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Avisar objetos do coletor  <br/> |
+|Implementado por:  <br/> |Aplicativos cliente e MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIAdviseSink  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a uma notificação, executando uma ou mais tarefas. As tarefas realizadas dependem do tipo de evento e o objeto que gera a notificação.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a uma notificação executando uma ou mais tarefas. As tarefas realizadas dependem do tipo de evento e do objeto que gera a notificação.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

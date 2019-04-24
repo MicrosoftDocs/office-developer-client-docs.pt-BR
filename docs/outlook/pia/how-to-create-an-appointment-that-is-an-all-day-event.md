@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5065395afe39247f8113bc5223b0e3e403a02fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349473"
 ---
 # <a name="create-an-appointment-that-is-an-all-day-event"></a>Criar um compromisso que é um evento de dia inteiro
 

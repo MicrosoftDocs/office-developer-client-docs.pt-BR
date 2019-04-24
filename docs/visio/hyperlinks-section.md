@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251381
 localization_priority: Normal
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
-description: Contém as células para criar vários saltos entre uma forma ou um site e outra página de desenho, outro arquivo ou página de desenho.
+description: Contém as células para a criação de vários saltos entre uma forma ou uma página de desenho e outra página de desenho, outro arquivo ou um site.
 ms.openlocfilehash: 42979a6b0f1b3dff6e950959d33a803263d9b046
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344797"
 ---
 # <a name="hyperlinks-section"></a>Seção Hyperlinks
 
-Contém as células para criar vários saltos entre uma forma ou um site e outra página de desenho, outro arquivo ou página de desenho.
+Contém as células para a criação de vários saltos entre uma forma ou uma página de desenho e outra página de desenho, outro arquivo ou um site.
   
 ## <a name="remarks"></a>Comentários
 

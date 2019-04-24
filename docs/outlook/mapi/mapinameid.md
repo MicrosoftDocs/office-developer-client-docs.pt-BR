@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f0ff4d8beb9c9d82d685630a35aefebaf7de71fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: baec750a460b3ba9becd2e1dddf967705424ac4e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357187"
 ---
 # <a name="mapinameid"></a>MAPINAMEID
 
@@ -29,7 +29,7 @@ Descreve uma propriedade nomeada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _MAPINAMEID
@@ -49,7 +49,7 @@ typedef struct _MAPINAMEID
 
  **lpguid**
   
-> Ponteiro para uma estrutura [GUID](guid.md) definindo uma determinada propriedade definido; Este membro não pode ser NULL. Os valores válidos são: 
+> Ponteiro para uma estrutura [GUID](guid.md) que define um determinado conjunto de propriedades; Este membro não pode ser nulo. Os valores válidos são os seguintes: 
     
 PS_PUBLIC_STRINGS
   
@@ -63,29 +63,29 @@ Um valor definido pelo cliente
   
 > 
     
- **ulKind**
+ **Uikindda**
   
-> Descrevendo o tipo de valor no membro do **tipo** de valor. Os valores válidos são: 
+> Valor que descreve o tipo de valor no membro do **tipo** . Os valores válidos são os seguintes: 
     
 MNID_ID 
   
-> O **tipo** de membro contém um valor integer que representa o nome da propriedade. 
+> O **tipo** membro contém um valor inteiro que representa o nome da propriedade. 
     
 MNID_STRING 
   
-> O **tipo** de membro contém uma cadeia de caracteres Unicode que representa o nome da propriedade. 
+> O **tipo** member contém uma cadeia de caracteres Unicode que representa o nome da propriedade. 
     
  **Tipo**
   
-> União descrevendo o nome da propriedade nomeada. O nome pode ser um valor inteiro, armazenados em **lID**, ou uma cadeia de caracteres Unicode, armazenado em **lpwstrName**.
+> União descrevendo o nome da propriedade nomeada. O nome pode ser um valor inteiro, armazenado em **tampa**ou uma cadeia de caracteres Unicode, armazenado em **lpwstrName**.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MAPINAMEID** é usada para descrever as propriedades de propriedades nomeadas que têm identificadores 0x8000 acima. Um conjunto de propriedades é uma parte importante de uma propriedade nomeada. Por exemplo, PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE são conjuntos de propriedades definidos pelo MAPI. 
+A estrutura **MAPINAMEID** é usada para descrever propriedades nomeadas propriedades que têm identificadores sobre 0x8000. Um conjunto de propriedades é uma parte importante de uma propriedade nomeada. Por exemplo, PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE são conjuntos de propriedades definidos por MAPI. 
   
-Propriedades nomeadas permitem que os clientes definir propriedades personalizadas em um namespace maior que o disponíveis no intervalo de identificador de propriedade definida pelo MAPI. Os nomes de propriedade não podem ser usados para obter valores de propriedade diretamente; eles primeiro devem ser mapeados para os identificadores de propriedade por meio do método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Para objetos específicos, como mensagens, MAPI reserva um intervalo de identificadores de propriedade de propriedades personalizadas. Portanto, para esses objetos, clientes não precisam usar propriedades nomeadas e pode salvar o associado sobrecarga. 
+As propriedades nomeadas permitem que os clientes definam Propriedades personalizadas em um namespace maior do que o disponível no intervalo de identificador de propriedade definida por MAPI. Os nomes de propriedade não podem ser usados para obter valores de propriedade diretamente; Eles devem ser mapeados primeiro para os identificadores de propriedade por meio do método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Para determinados objetos como mensagens, MAPI reserva um intervalo de identificadores de propriedade para propriedades personalizadas. Portanto, para esses objetos, os clientes não precisam usar propriedades nomeadas e podem salvar a sobrecarga associada. 
   
-Para obter mais informações sobre propriedades nomeadas, consulte [Propriedades chamado](mapi-named-properties.md).
+Para obter mais informações sobre propriedades nomeadas, consulte [propriedades nomeadas](mapi-named-properties.md).
   
 ## <a name="see-also"></a>Confira também
 

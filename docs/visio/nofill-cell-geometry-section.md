@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Indica se um caminho pode ser preenchido.
-ms.openlocfilehash: 3f5bab76fc38b6e82aeaeee45b75bd733afdbd26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357250"
 ---
 # <a name="nofill-cell-geometry-section"></a>Célula NoFill (Seção Geometry)
 
@@ -22,8 +22,8 @@ Indica se um caminho pode ser preenchido.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | O caminho não é preenchido mesmo se outros caminhos da forma forem preenchidos.  <br/> |
-| FALSO  <br/> | O preenchimento da forma é aplicado ao caminho, mesmo se não estiver fechado.  <br/> |
+| TRUE  <br/> | O caminho não é preenchido mesmo se outros caminhos da forma forem preenchidos.  <br/> |
+| FALSE  <br/> | O preenchimento da forma é aplicado ao caminho, mesmo se não estiver fechado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para fazer referência à célula NoFill pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . NoFill onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . NoFill onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula NoFill pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

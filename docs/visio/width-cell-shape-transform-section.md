@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 992ae9d8-ea15-0f5c-ccd6-e4c536099692
 description: 'Contém a largura da forma selecionada em unidades de desenho. A fórmula padrão para determinar a largura de uma forma 1D é:'
-ms.openlocfilehash: 55e77c5ccfca2425a8a2985564448e0f656aebbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c99f4669f3b27390a5b8e9062d6085a5a9db54e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351216"
 ---
 # <a name="width-cell-shape-transform-section"></a>Célula Width (Seção Shape Transform)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula Width pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Width  <br/> |
+| Nome da célula:  <br/> | Largura  <br/> |
    
 Para fazer referência à célula Width pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

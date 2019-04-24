@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0985ed0c5d4482bb22f46bdc9198afc343c61e5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7417ddeb814cafb954d5ab80a6dae771fd0f7a79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357432"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
@@ -29,9 +29,9 @@ Compara dois valores de propriedade para determinar se eles são iguais.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 LONG LPropCompareProp(
@@ -44,30 +44,30 @@ LONG LPropCompareProp(
 
  _lpSPropValueA_
   
-> [in] Ponteiro para uma estrutura [SPropValue](spropvalue.md) definindo o primeiro valor de propriedade a ser comparada. 
+> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define o valor da primeira propriedade a ser comparada. 
     
  _lpSPropValueB_
   
-> [in] Ponteiro para uma estrutura **SPropValue** definindo o segundo valor da propriedade a ser comparada. 
+> no Ponteiro para uma estrutura **SPropValue** que define o segundo valor de propriedade a ser comparado. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
  **LPropCompareProp** retorna um dos seguintes valores para a maioria dos tipos de propriedade: 
   
-- Menor do que zero se o valor indicado pelo parâmetro _lpSPropValueA_ é menor do que indicado pelo parâmetro _lpSPropValueB_ . 
+- Menor que zero se o valor indicado pelo parâmetro _lpSPropValueA_ for menor que o indicado pelo parâmetro _lpSPropValueB_ . 
     
-- Maior do que zero se o valor indicado pelo _lpSPropValueA_ é maior do que indicado pelo _lpSPropValueB_.
+- Maior que zero se o valor indicado por _lpSPropValueA_ for maior que o indicado por _lpSPropValueB_.
     
-- Zero se o valor indicado pelo _lpSPropValueA_ equivale ao valor indicado pelo _lpSPropValueB_. 
+- Zero se o valor indicado por _lpSPropValueA_ igual ao valor indicado por _lpSPropValueB_. 
     
-Para tipos de propriedade que não tenham nenhuma intrínsecas pedidos, como Boolean ou tipos de erro, a função **LPropCompareProp** retorna um valor indefinido se os dois valores de propriedade não são iguais. Esse valor indefinido é diferente de zero e consistente em chamadas. 
+Para tipos de propriedade que não têm ordenação intrínseca, como tipos Boolean ou de erro, a função **LPropCompareProp** retornará um valor indefinido se os dois valores de propriedade não forem iguais. Esse valor indefinido é diferente de zero e consiste em chamadas. 
   
 ## <a name="remarks"></a>Comentários
 
-Use a função de **LPropCompareProp** somente se os tipos de duas propriedades a serem comparadas são iguais. 
+Use a função **LPropCompareProp** somente se os tipos das duas propriedades a serem comparadas forem os mesmos. 
   
-Antes de chamar **LPropCompareProp**, um aplicativo cliente ou um provedor de serviços deve recuperar as propriedades para comparação com uma chamada ao método [IMAPIProp::GetProps](imapiprop-getprops.md) . Quando um cliente ou provedor chamadas **LPropCompareProp**, a função examina primeiro as marcas de propriedade para certificar-se de que a comparação dos valores de propriedade é válida. A função compara os valores de propriedade, retornando um valor apropriado. 
+Antes de chamar **LPropCompareProp**, um aplicativo cliente ou provedor de serviços deve recuperar primeiro as propriedades para comparação com uma chamada para o método [IMAPIProp::](imapiprop-getprops.md) GetProps. Quando um cliente ou provedor chama **LPropCompareProp**, a função primeiro examina as marcas de propriedade para garantir que a comparação dos valores de propriedade é válida. A função, em seguida, compara os valores de propriedade, retornando um valor apropriado. 
   
-Se os valores de propriedade são diferentes, **LPropCompareProp** determina qual é o maior. As propriedades que compara **LPropCompareProp** não precisará pertencem ao mesmo objeto. 
+Se os valores da propriedade forem diferentes, **LPropCompareProp** determinará qual deles é maior. As propriedades que o **LPropCompareProp** compara não precisam pertencer ao mesmo objeto. 
   
 

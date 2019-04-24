@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: Especifica a porcentagem de aumento ou redução da sombra de uma forma.
-ms.openlocfilehash: 99bc48f5332830512e1f5c2f6d93c70b67197c03
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9175e9a1148779524fdce96ff18eac22fe8dd421
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342879"
 ---
 # <a name="shdwscalefactor-cell-page-properties-section"></a>Célula ShdwScaleFactor (Seção Page Properties)
 
@@ -22,9 +22,9 @@ Especifica a porcentagem de aumento ou redução da sombra de uma forma.
   
 ## <a name="remarks"></a>Comentários
 
-Cada sombra possui um local de pino sombreado, que é um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro da forma, o local do pino sombreado seria o ponto no centro da sombra. Quando a aplicação da escala em sombras simples, a ampliação é centralizada no local do pino sombreado; Quando a aplicação da escala em sombras oblíquas, ampliação é aplicada na direção oblíqua. 
+Cada sombra possui um local de pino sombreado, que representa um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro dela, então o local do pino sombreado será o ponto no centro da sombra. Ao aplicar escala a sombras simples, a ampliação é centralizada no local de PIN sombreado; ao aplicar escala a sombras oblíquas, a ampliação é aplicada na direção oblíqua. 
   
- Esta porcentagem é utilizada quando o tipo de sombra para uma forma é definido como padrão da página (célula ShapeShdwType igual a * * visFSTPageDefault * *). 
+ Essa porcentagem é usada quando o tipo de sombra de uma forma está definido como padrão da página (célula ShapeShdwType equivale a * * visFSTPageDefault * *). 
   
 Para configurar este comportamento para uma forma individual, use a célula ShapeShdwScaleFactor na seção Fill Format.
   

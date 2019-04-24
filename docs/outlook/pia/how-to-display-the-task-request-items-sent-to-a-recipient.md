@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9ab5e830003fbfb64b44fc9e0d813c7a7c5163bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357418"
 ---
 # <a name="display-the-task-request-items-sent-to-a-recipient"></a>Exibir os itens de solicitação de tarefas enviados para um destinatário
 
@@ -25,7 +25,7 @@ Este exemplo mostra como exibir todos os itens da solicitação de tarefas que e
 
 Um objeto [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)) representa uma solicitação para atribuir uma tarefa a outro usuário. O **TaskRequestItem** é criado quando o item é recebido na Caixa de Entrada do destinatário. No exemplo de código a seguir, ShowTaskRequests filtra a Caixa de Entrada de um destinatário, cria um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) e insere uma linha para cada item para o qual o valor da propriedade [MessageClass](https://msdn.microsoft.com/library/bb610592\(v=office.15\)) é igual a **IPM.TaskRequest**. O assunto de cada tarefa na pasta Caixa de Entrada do destinatário é então gravado nos ouvintes de rastreamento do conjunto [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3fcfd00f71a308dce625e6636edbe647f3d7258a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350852"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propriedade canônica PidLidReminderSignalTime
 
@@ -25,35 +25,35 @@ ms.locfileid: "25393387"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o ponto no tempo quando um lembrete passa do pendentes para atrasados.
+Especifica o momento em que um lembrete se transição de pendente para vencido.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidReminderNextTime  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008560  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008560  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade deve ser definida se a propriedade **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) for TRUE. Os clientes devem definir o valor no tempo Universal Coordenado (UTC).
+Essa propriedade deve ser definida se a propriedade **dispidReminderSet** ([PIDLIDREMINDERSET](pidlidreminderset-canonical-property.md)) for true. Os clientes devem definir o valor em tempo universal coordenado (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.
+> Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

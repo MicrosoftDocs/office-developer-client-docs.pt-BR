@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bbe277092b450a4254e02d00d2cf54e35ec6be44
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355654"
 ---
 # <a name="pidtagoriginaldeliverytime-canonical-property"></a>Propriedade canônica PidTagOriginalDeliveryTime
 
@@ -25,40 +25,40 @@ ms.locfileid: "25391369"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma cópia da data de entrega e a hora em um segmento da mensagem original. 
+Contém uma cópia da data e hora de entrega da mensagem original em um thread. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ORIGINAL_DELIVERY_TIME  <br/> |
 |Identificador:  <br/> |0x0055  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é copiada da propriedade **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) original em subsequente responder ou encaminhar operações e usada em relatórios de leitura e nonread. Notificações de entrega usam a propriedade **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)).
+Essa propriedade é copiada da **PR_MESSAGE_DELIVERY_TIME** original ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) em operações de resposta ou encaminhamento subsequentes e usada nos relatórios de leitura e não leitura. Os relatórios de entrega usam a propriedade **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) em vez disso.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

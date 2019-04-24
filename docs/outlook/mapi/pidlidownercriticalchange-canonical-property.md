@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b79aa2b7-b6e0-46dc-89f1-f801a6b5737a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: afc3c93e56c8beda9cb04c79164790b2246de983
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357943"
 ---
 # <a name="pidlidownercriticalchange-canonical-property"></a>Propriedade canônica PidLidOwnerCriticalChange
 
@@ -25,35 +25,35 @@ ms.locfileid: "25395767"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a data e hora em que uma solicitação de reunião foi enviada pelo organizador.
+Especifica a data e a hora em que uma solicitação de reunião foi enviada pelo organizador.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |LID_OWNER_CRITICAL_CHANGE  <br/> |
-|Propriedade definida:  <br/> |PSETID_Meeting  <br/> |
-|ID de longo (LID):  <br/> |0x0000001A  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Meeting  <br/> |
+|Long ID (LID):  <br/> |0x0000001A  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Reuniões  <br/> |
+|Área:  <br/> |Meetings  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor deve ser especificado no tempo Universal Coordenado (UTC).
+O valor deve ser especificado no tempo universal coordenado (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cbad4b903592f83fc7d72fde21f149c9835f2e23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 534f4da15bba5f38bec4cde91206694f8691cbc6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342242"
 ---
 # <a name="fnidle"></a>FNIDLE
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma rotina de ociosidade chamada pelo mecanismo de ociosidade de MAPI periodicamente de acordo com a prioridade. 
+Define uma rotina ociosa que o mecanismo de ociosidade de MAPI chama periodicamente de acordo com prioridade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Função definido implementada por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
-|Função definido chamada pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Função definida implementada por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
+|Função definida chamada por:  <br/> |MAPI  <br/> |
 |Tipo de ponteiro correspondente:  <br/> |PFNIDLE  <br/> |
    
 ```cpp
@@ -42,35 +42,35 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 
  _lpvContext_
   
-> [in] Ponteiro para um bloco de memória que MAPI passa para a rotina ociosa horário ele chama a ele. Esse ponteiro é passado para o mecanismo de ociosidade de MAPI no parâmetro _pvIdleParam_ por [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Os dados no bloco de memória poderá fornecer contexto para a chamada para a rotina ociosa, como o objeto a ser operado, ou o estado atual de uma operação demorada.
+> no Ponteiro para um bloco de memória que o MAPI passa para a rotina de ociosidade cada vez que o chama. Esse ponteiro é passado para o mecanismo de ociosidade de MAPI no parâmetro _pvIdleParam_ por [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Os dados no bloco de memória podem fornecer contexto para a chamada à rotina ociosa, como qual objeto operar ou o estado atual de uma operação demorada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-FALSO 
+FALSE 
   
-> Uma rotina de ociosidade com o protótipo **FNIDLE** deve sempre retornam FALSE. 
+> Uma rotina ociosa com o protótipo **FNIDLE** sempre deve retornar false. 
     
 ## <a name="remarks"></a>Comentários
 
-A funcionalidade específica de rotina ociosa é determinada Implementando o aplicativo cliente ou provedor de serviços. 
+A funcionalidade específica da rotina ociosa é determinada pela implementação do aplicativo cliente ou provedor de serviços. 
   
-O cliente ou o provedor deverá limitar o tempo de execução de cada estado de uma rotina de ocioso. Cada estado deve realizar uma quantidade mínima de processamento, atualize o estado atual nos dados de contexto apontados pela _lpvContext_e retornar ao mecanismo de ociosidade de MAPI. 
+O cliente ou provedor deve limitar o tempo de execução de cada Estado de uma rotina ociosa. Cada Estado deve realizar uma quantidade mínima de processamento, atualizar o estado atual nos dados de contexto apontados pelo _lpvContext_e retornar ao mecanismo de ociosidade de MAPI. 
   
-O cliente ou o provedor deve chamar a função MAPI [MAPIInitIdle](mapiinitidle.md) para que ele possa registrar sua própria rotina ociosa com uma chamada para a função [FtgRegisterIdleRoutine](ftgregisteridleroutine.md) . 
+O cliente ou provedor deve chamar a função MAPI [MAPIInitIdle](mapiinitidle.md) antes de poder registrar sua própria rotina ociosa com uma chamada para a função [FtgRegisterIdleRoutine](ftgregisteridleroutine.md) . 
   
-As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função FNIDLE: 
+As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com rotinas ociosas com base no protótipo de função do FNIDLE: 
   
-|**Função de rotina ociosa**|**Uso**|
+|**Função de rotina ociosa**|**Usage**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desativa ou ativa novamente uma rotina de ociosidade registrada sem removê-lo a partir do sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina de ociosidade ao sistema de MAPI, com ou sem ativá-lo.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desabilita ou habilita novamente uma rotina de ociosidade registrada sem removê-la do sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina ociosa ao sistema MAPI, com ou sem ativá-la.  <br/> |
 |[MAPIDeInitIdle](mapideinitidle.md) <br/> |Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
    
-**ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** tomar como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** aceitam como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
   
-Quando todas as tarefas de primeiro plano para a plataforma ficam ociosas, o mecanismo de ociosidade de MAPI chama a rotina de ocioso de prioridade mais alta que está pronta para executar. Não há nenhuma garantia de chamar ordem entre as rotinas de ociosidade da mesma prioridade. 
+Quando todas as tarefas de primeiro plano para a plataforma ficarem ociosas, o mecanismo de ociosidade de MAPI chamará a rotina de ociosidade de prioridade mais alta que está pronta para ser executada. Não há garantia de ordem de chamada entre rotinas ociosas da mesma prioridade. 
   
 

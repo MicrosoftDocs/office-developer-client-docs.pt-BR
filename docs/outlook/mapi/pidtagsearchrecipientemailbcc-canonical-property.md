@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5b0db4b3bc7903aae74fa7275d3e27e22d628514
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359154"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propriedade canônica PidTagSearchRecipientEmailBcc
 
@@ -21,7 +21,7 @@ ms.locfileid: "25387745"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição dos destinatários abordados na linha **Cco** mensagens não enviadas no repositório. 
+Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição de destinatários tratados na linha **Cco** de mensagens não enviadas na loja. 
   
 ## 
 
@@ -30,36 +30,36 @@ Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de 
 |Propriedades associadas:  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificador:  <br/> |0x0EA8  <br/> |
 |Tipo de propriedade:  <br/> |PT_UNICODE  <br/> |
-|Access:  <br/> |Pesquisar  <br/> |
+|Acesso:  <br/> |Pesquisa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade só é relevante para mensagens no repositório que não tem sido enviadas, porque as mensagens que tenham sido enviadas ou recebidas não contêm informações Cco.
+Essa propriedade só é relevante para mensagens no repositório que não foram enviadas, porque as mensagens que foram enviadas ou recebidas não contêm informações Cco.
   
 > [!NOTE]
-> Nesta marca de restrição de MAPI, usada durante a pesquisa de endereços de email ou nomes de exibição para o qual a mensagem será enviada como uma cópia carbono oculta, não pode ser definida no arquivo de cabeçalho para download que você possui atualmente. Você pode adicioná-la ao seu código usando o seguinte valor: >`#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
+> Essa marca de restrição MAPI, usada durante a pesquisa de endereços de email ou nomes de exibição para os quais a mensagem será enviada como uma cópia oculta, pode não ser definida no arquivo de cabeçalho baixável que você tem no momento. Você pode adicioná-lo ao seu código usando o seguinte valor: >`#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Microsoft Exchange Server.
+> Fornece referências para as especificações de protocolo do Microsoft Exchange Server relacionadas.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
+> Especifica as propriedades e operações para manipular uma configuração de lista de pastas de pesquisa.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -67,7 +67,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

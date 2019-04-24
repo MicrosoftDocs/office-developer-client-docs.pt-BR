@@ -1,57 +1,57 @@
 ---
-title: Definir a ordem de resolução de listas de endereços de forma programática
+title: Definir a ordem de resolução de listas de endereços via programação
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Modificado pela última vez: 06 de julho de 2012'
+description: 'Última modificação: 06 de julho de 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345956"
 ---
-# <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Definir a ordem de resolução de listas de endereços de forma programática
+# <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Definir a ordem de resolução de listas de endereços via programação
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo de código em C++ que programaticamente define a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos.
+Este tópico contém um exemplo de código em C++ que define programaticamente a ordem das listas de endereços pelas quais os destinatários em mensagens de email e participantes nas solicitações de reunião são resolvidos.
   
-Na MAPI, cada perfil pode oferecer suporte a várias listas de endereços e cada lista de endereços reside no seu próprio contêiner. MAPI oferece suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface do que permite que você defina um novo caminho de pesquisa no perfil que será usado para resolução de nome. Para usar o método **IAddrBook::SetSearchPath** , você precisará definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especifique a matriz como a *lpSearchPath*  Use o parâmetro. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente. 
+No MAPI, cada perfil pode dar suporte a várias listas de endereços, e cada lista de endereços reside em seu próprio contêiner. O MAPI dá suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface que permite definir um novo caminho de pesquisa no perfil usado para resolução de nomes. Para usar o método **IAddrBook:: SetSearchPath** , você precisa definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especificar a matriz como o *lpSearchPath*  Construtor. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente. 
   
-O exemplo de código define a ordem de resolução nas etapas a seguir:
+O exemplo de código define a ordem de resolução nas seguintes etapas:
   
-1. Inicializa `numANR` ao número de contêineres para corresponder e especifica os nomes e a ordem de resolução das listas de endereço desejado em um `ANROrder` matriz. 
+1. Inicializa `numANR` como o número de contêineres a ser correspondido e especifica os nomes e a ordem de resolução das listas de endereços `ANROrder` desejadas em uma matriz. 
     
-2. Inicializa MAPI usando a função **MAPIInitialize** . 
+2. Inicializa o MAPI usando a função **MAPIInitialize** . 
     
-3.  Faça logon em MAPI e permite ao usuário escolher um perfil. 
+3.  Faz logon no MAPI e permite que o usuário escolha um perfil. 
     
 4.  Obtém um ponteiro para o catálogo de endereços da sessão atual. 
     
 5. Abre o catálogo de endereços.
     
-6. Abre o contêiner para a raiz do catálogo de endereços.
+6. Abre o contêiner para o catálogo de endereços raiz.
     
-7. Abre a tabela de hierarquia do contêiner de catálogo de endereços raiz.
+7. Abre a tabela de hierarquia do contêiner do catálogo de endereços raiz.
     
-8. Obtém a lista de endereço contêineres do catálogo na hierarquia.
+8. Obtém a lista de contêineres de catálogo de endereços na hierarquia.
     
-9. Procura as identificações de entrada das listas de endereços desejado, comparando os nomes das listas de endereço desejado no `ANROrder` aos nomes existentes na hierarquia de catálogo de endereços. 
+9. Procura as identificações de entrada das listas de endereços desejadas comparando os nomes das listas `ANROrder` de endereços desejadas com os nomes existentes na hierarquia do catálogo de endereços. 
     
-10. Define as IDs da entrada apropriado à matriz **SRowSet** `pNewRows`.
+10. Define as IDs de entrada apropriadas para **** a matriz SRowSet `pNewRows`,.
     
-11. Chamará e passará `pNewRows` como o parâmetro *lpSearchPath* para **IAddrBook::SetSearchPath** para definir o caminho de pesquisa. 
+11. Chama e passa `pNewRows` como o parâmetro *lpSearchPath* para **IAddrBook:: SetSearchPath** para definir o caminho de pesquisa. 
     
-12. Limpa os ponteiros e buffers internos.
+12. Limpa os buffers internos e os ponteiros.
     
-13. Efetua logoff de MAPI.
+13. Faz logoff do MAPI.
     
 14. Uninitalizes MAPI.
     
-Este exemplo de código usa listas de endereços que estão disponíveis na instalação padrão do Microsoft Office Outlook: **Todos os contatos**, **Todos os grupos**e **Contatos**. Você deve executar a amostra depois que o Outlook é iniciado e está sendo executado em um perfil inicializado. O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes são em inglês). Ele não é projetado para funcionar em implantações multilíngue, por exemplo, a pasta **Contatos** localizada para um usuário executando um build não são em inglês do Outlook. 
+Este exemplo de código usa listas de endereços que estão disponíveis na instalação padrão do Microsoft Office Outlook: **todos os contatos**, **todos os grupos**e **contatos**. Você deve executar o exemplo depois que o Outlook for iniciado e estiver em execução em um perfil inicializado. O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes estão em inglês). Ele não foi projetado para funcionar em implantações multilíngues, por exemplo, a pasta de **contatos** localizada para um usuário que esteja executando uma compilação do Outlook que não esteja em inglês. 
   
 ```cpp
 #include "stdafx.h" 

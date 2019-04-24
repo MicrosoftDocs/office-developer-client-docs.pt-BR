@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5908069f5fa887fd9d2e3f8c0df75f2e3d69515c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ca42e91528cdb7e61ae3620989c4a89966db1061
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349277"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579533"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna a tabela de destinatário da mensagem.
+Retorna a tabela de destinatários da mensagem.
   
 ```cpp
 HRESULT GetRecipientTable(
@@ -38,19 +38,19 @@ HRESULT GetRecipientTable(
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores que controla o retorno da tabela. Sinalizadores a seguir podem ser definidos:
+> no Bitmask dos sinalizadores que controlam o retorno da tabela. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **GetRecipientTable** retornar com êxito, possivelmente antes que a tabela é totalmente disponível para o cliente da chamada. Se a tabela não estiver disponível, fazendo uma chamada subsequente a ele pode causar um erro. 
+> Permite **** que GetRecipientTable seja retornado com êxito, possivelmente antes que a tabela esteja totalmente disponível para o cliente de chamada. Se a tabela não estiver disponível, fazer uma chamada subsequente para ela pode causar um erro. 
     
 MAPI_UNICODE 
   
-> Colunas de cadeia de caracteres devem estar no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres devem estar no formato ANSI.
+> As colunas de cadeia de caracteres devem estar no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres devem estar no formato ANSI.
     
  _lppTable_
   
-> [out] Ponteiro para um ponteiro para a tabela de destinatários.
+> bota Ponteiro para um ponteiro para a tabela de destinatários.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -60,25 +60,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::GetRecipientTable** retorna um ponteiro para a tabela de destinatário da mensagem, que inclui informações sobre todos os destinatários da mensagem. Não há uma linha para cada destinatário. 
+O método **IMessage::** GetRecipientTable Retorna um ponteiro para a tabela de destinatários da mensagem, que inclui informações sobre todos os destinatários da mensagem. Há uma linha para cada destinatário. 
   
-Tabelas de destinatários têm outra coluna definir dependendo se a mensagem foi enviada. Para obter uma lista completa das colunas em uma tabela de destinatário, consulte [Tabelas do destinatário](recipient-tables.md).
+As tabelas de destinatários têm um conjunto de colunas diferente, dependendo se a mensagem foi enviada. Para obter uma lista completa das colunas em uma tabela de destinatários, consulte [tabelas de destinatários](recipient-tables.md).
   
-Algumas tabelas destinatários oferecem suporte a uma ampla variedade de restrições; outros não. Suporte a restrições depende da implementação do provedor de repositório de mensagem. 
+Algumas tabelas de destinatários dão suporte a uma ampla variedade de restrições; outros não. O suporte para restrições depende da implementação do provedor de repositório de mensagens. 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ afeta as seguintes chamadas para a tabela de destinatários: 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta as seguintes chamadas para a tabela de destinatários: 
   
-- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de coluna. 
+- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de colunas. 
     
 - [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar linhas. 
     
-- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
+- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
     
-Definindo as solicitações de sinalizador Unicode que as informações de quaisquer colunas de cadeia de caracteres retornada dessas chamadas estar no formato Unicode. No entanto, porque nem todos os provedores de armazenamento de mensagem oferecem suporte a Unicode, defina esse sinalizador é apenas uma solicitação.
+Definir o sinalizador Unicode solicita que as informações de qualquer coluna de cadeia de caracteres retornada dessas chamadas estejam no formato Unicode. No enTanto, como nem todos os provedores de repositórios de mensagens dão suporte a Unicode, a configuração desse sinalizador é apenas uma solicitação.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode alterar uma tabela de destinatário, enquanto ela está aberta chamando o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** adiciona destinatários, exclui destinatários ou modifica as propriedades do destinatário. 
+Você pode alterar uma tabela de destinatários enquanto ela estiver aberta chamando o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . O **ModifyRecipients** adiciona destinatários, exclui destinatários ou modifica as propriedades do destinatário. 
   
 ## <a name="see-also"></a>Confira também
 

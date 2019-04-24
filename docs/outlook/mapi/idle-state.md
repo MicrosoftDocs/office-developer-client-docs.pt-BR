@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3db4ead7e2485bbbae82f2a07659c934b394d6d5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351181"
 ---
 # <a name="idle-state"></a>Estado ocioso
 
@@ -25,17 +25,17 @@ ms.locfileid: "22591797"
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_IDLE** <br/> |
-|Estrutura de dados relacionados:  <br/> | *None*  <br/> |
-|Desse estado:  <br/> | *Não aplicável*  <br/> |
-|Com esse estado:  <br/> |[Sincronizar o estado](synchronize-state.md) <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_IDLE** <br/> |
+|Estrutura de dados relacionada:  <br/> | *None*  <br/> |
+|A partir deste Estado:  <br/> | *Não aplicável*  <br/> |
+|Para este Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente partindo de um estado para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Nada acontece nesse estado. Um repositório local está nesse estado antes de replicação é iniciada e após a conclusão da replicação.
+Nada acontece nesse estado. Um repositório local está nesse estado antes que A replicação seja iniciada e após a conclusão da replicação.
   
 ## <a name="see-also"></a>Confira também
 
@@ -47,5 +47,5 @@ Nada acontece nesse estado. Um repositório local está nesse estado antes de re
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

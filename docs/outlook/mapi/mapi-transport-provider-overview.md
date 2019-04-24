@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b193e819-749e-4642-8afc-dbc47b17b617
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 244dae4d3413587b7a37e93328998b153fb8ece3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20b03f7c52ec86d1fb554bf69c53947c3dda4f36
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357341"
 ---
 # <a name="mapi-transport-provider-overview"></a>Visão geral do provedor de transporte MAPI
 
@@ -21,12 +21,12 @@ ms.locfileid: "22585329"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de transporte tratar recepção e transmissão de mensagens e implementam a segurança, se necessário. Eles também cuidam de qualquer pré-processamento necessário e tarefas de pós-processamento. Não há provedor de transporte normalmente uma para cada sistema de mensagens ativas.
+Os provedores de transporte lidam com a transmissão e recepção de mensagens e implementam a segurança, se necessário. Eles também cuidam de todas as tarefas de pré-processamento e de pré-processamento necessárias. Normalmente, há um provedor de transporte para cada sistema de mensagens ativas.
   
-Aplicativos cliente se comunicar com o provedor de transporte por meio de um provedor de armazenamento de mensagem. 
+Os aplicativos cliente se comunicam com o provedor de transporte por meio de um provedor de repositório de mensagens. 
   
-Provedores de transporte registram com MAPI para lidar com um ou mais tipos de entradas de destinatário específicos. Quando uma mensagem está pronta para ser enviada, MAPI deve determinar qual provedor de transporte deve lidar com a transmissão. Dependendo do tipo de destinatário, MAPI, até mesmo, pode chamar após a mais de um provedor de transporte. Se um provedor de transporte indisponível for a única pessoa que pode lidar com o destinatário, a transmissão de mensagens será adiada até que uma conexão com esse provedor pode ser restabelecida.
+Os provedores de transporte se registram com MAPI para lidar com um ou mais tipos específicos de entradas de destinatário. Quando uma mensagem está pronta para ser enviada, o MAPI deve determinar qual provedor de transporte deve lidar com a transmissão. Dependendo do tipo de destinatário, o MAPI pode até chamar mais de um provedor de transporte. Se um provedor de transporte não disponível for o único que pode lidar com o destinatário, a transmissão da mensagem será adiada até que uma conexão com esse provedor possa ser restabelecida.
   
-Alguns sistemas de mensagens são sistemas seguros; todos os usuários possíveis precisarão inserir um conjunto de credenciais válidas antes de acesso é permitido. MAPI impede o acesso não autorizado a tais sistemas de mensagens seguros fazendo com que o provedor de transporte validar as credenciais no momento do logon. 
+Alguns sistemas de mensagens são sistemas seguros; todos os usuários em potencial precisam inserir um conjunto de credenciais válidas antes que o acesso seja permitido. O MAPI impede o acesso não autorizado a esses sistemas de mensagens seguras, fazendo com que o provedor de transporte valide credenciais no momento do logon. 
   
 

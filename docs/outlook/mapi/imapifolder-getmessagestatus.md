@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 621c20376cc671a2ff9d1406bfb6248846e1bc81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350950"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583264"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém o status associado a uma mensagem em uma pasta particular (por exemplo, se a mensagem é marcada para exclusão).
+Obtém o status associado a uma mensagem em uma pasta específica (por exemplo, se a mensagem está marcada para exclusão).
   
 ```cpp
 HRESULT GetMessageStatus(
@@ -40,19 +40,19 @@ HRESULT GetMessageStatus(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada da mensagem cujo status é obtido.
+> no Um ponteiro para o identificador de entrada da mensagem cujo status é obtido.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpulMessageStatus_
   
-> [out] Um ponteiro para um ponteiro para uma bitmask dos sinalizadores que indicam o status da mensagem. Bits de 0 a 15 são reservados e devem ser zero; bits 16 a 31 estarão disponíveis para uso específico de implementação. Sinalizadores a seguir podem ser definidos:
+> bota Um ponteiro para um ponteiro para uma bitmask de sinalizadores que indicam o status da mensagem. Os bits de 0 a 15 são reservados e devem ser zero; os bits 16 a 31 estão disponíveis para uso específico da implementação. Os seguintes sinalizadores podem ser definidos:
     
 MSGSTATUS_DELMARKED 
   
@@ -60,25 +60,25 @@ MSGSTATUS_DELMARKED
     
 MSGSTATUS_HIDDEN 
   
-> A mensagem não será exibido. 
+> A mensagem não deve ser exibida. 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> A mensagem deve ser exibida realçado.
+> A mensagem deve ser exibida em destaque.
     
 MSGSTATUS_REMOTE_DELETE 
   
-> A mensagem foi marcada para exclusão na loja remota de mensagens sem baixar no cliente local.
+> A mensagem foi marcada para exclusão no armazenamento remoto de mensagens sem baixar para o cliente local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> A mensagem foi marcada para download a partir do armazenamento de mensagens remoto no cliente local.
+> A mensagem foi marcada para download no repositório de mensagens remotas para o cliente local.
     
 MSGSTATUS_TAGGED 
   
-> A mensagem foram marcada para uma finalidade definida pelo cliente.
+> A mensagem foi marcada para uma finalidade definida pelo cliente.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -86,20 +86,20 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::GetMessageStatus** retorna o status de uma mensagem. Status da mensagem é armazenado na propriedade de **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da mensagem. 
+O método **IMAPIFolder:: GetMessageStatus** retorna o status de uma mensagem. O status da mensagem é armazenado na propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da mensagem. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Como os bits de status da mensagem estiver definidos, desmarcados e usados dependem completamente a implementação, exceto que os bits de 0 a 15 são reservados e devem ser zero. Se você armazenar mensagens na subárvore IPM, MAPI reserva bits 16 a 31 para uso por clientes IPM. Se você armazenar mensagens em outros subárvores, você pode usar o bits 16 a 31 para fins de seus próprios.
+Como os bits de status de mensagem são definidos, limpos e usados dependem completamente da sua implementação, exceto pelo fato de que os bits 0 a 15 são reservados e devem ser zero. Se você armazenar mensagens na sub-árvore IPM, o MAPI reserva bits 16 a 31 para uso por clientes IPM. Se você armazenar mensagens em outras subárvores, poderá usar bits de 16 a 31 para suas próprias finalidades.
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa o método **IMAPIFolder::GetMessageStatus** para obter o status da mensagem próximo a ser exibido.  <br/> |
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal e OpenMessageModal  <br/> |MFCMAPI usa o método **IMAPIFolder::GetMessageStatus** para obter o status da mensagem a ser exibido para passar para a tela de formulário, que é CMyMAPIFormViewer ou [IMAPISession:: ShowForm](imapisession-showform.md).  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetNextMessage  <br/> |MFCMAPI usa o método **IMAPIFolder:: GetMessageStatus** para obter o status da próxima mensagem a ser exibida.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal e OpenMessageModal  <br/> |MFCMAPI usa o método **IMAPIFolder:: GetMessageStatus** para obter o status da mensagem a ser exibida para passar para o Visualizador de formulários, que é CMyMAPIFormViewer ou [IMAPISession:: formulário](imapisession-showform.md).  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -114,5 +114,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

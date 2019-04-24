@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: Determina o espaço vazio horizontal entre todos os conectores e as formas na página de desenho.
-ms.openlocfilehash: 75f7e8150711421138a01175be34003d124e88ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358930"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>Célula LineToNodeX (Seção Page Layout)
 

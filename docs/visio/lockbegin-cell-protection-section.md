@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: Protege o ponto inicial (BeginX, BeginY) de uma forma 1D para uma localização específica.
-ms.openlocfilehash: c9b9a0e9b69de9b76d78ca7cebfb69116bd2fb72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359644"
 ---
 # <a name="lockbegin-cell-protection-section"></a>Célula LockBegin (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege o ponto inicial (BeginX, BeginY) de uma forma 1D para uma localização 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | O ponto inicial está protegido.  <br/> |
-| FALSO  <br/> | O ponto inicial não está protegido.  <br/> |
+| TRUE  <br/> | O ponto inicial está protegido.  <br/> |
+| FALSE  <br/> | O ponto inicial não está protegido.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

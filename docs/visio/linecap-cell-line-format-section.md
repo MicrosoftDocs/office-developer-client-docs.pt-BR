@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: Indica se as terminações da linha são arredondadas, quadradas ou estendidas.
-ms.openlocfilehash: 1bd427801e6d95ce6167fa9681da2c567307f072
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44de4bff87fd3d121dfce9eec934ec39bc61065a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359315"
 ---
 # <a name="linecap-cell-line-format-section"></a>Célula LineCap (Seção Line Format)
 
@@ -22,9 +22,9 @@ Indica se as terminações da linha são arredondadas, quadradas ou estendidas.
   
 |**Valor**|**Estilo do fim de linha**|
 |:-----|:-----|
-|0  <br/> |Arredondado  <br/> |
+|,0  <br/> |Arredondado  <br/> |
 |1  <br/> |Quadrado  <br/> |
-|2  <br/> |Estendido  <br/> |
+|duas  <br/> |Estendida  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

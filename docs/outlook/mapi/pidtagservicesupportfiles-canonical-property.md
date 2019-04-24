@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5165867e46d3d86d65932e7ae432b446efbd8fff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3753177552d45e32e53ae192a9dfae15b601afcc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359469"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>Propriedade canônica PidTagServiceSupportFiles
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589123"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista dos arquivos que pertencem ao serviço de mensagem.
+Contém uma lista dos arquivos que pertencem ao serviço de mensagens.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém uma lista dos arquivos que pertencem ao serviço de mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Usando uma caixa de diálogo no miniaplicativo do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagem. Por exemplo, o usuário pode obter os nomes de todas as bibliotecas de vínculos dinâmicos (DLLs) que pertencem ao serviço. O usuário pode então seek detalhes adicionais sobre os arquivos especificados, como os nomes e números de versão de todas as DLLs. O MAPI usa a essas propriedades para criar uma lista de arquivos de suporte em uma caixa de diálogo para seleção de usuário de mensagens.
+Usando uma caixa de diálogo no miniaplicativo do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagens. Por exemplo, o usuário pode obter os nomes de todas as DLLs (bibliotecas de vínculo dinâmico) que pertencem ao serviço. O usuário pode então buscar detalhes adicionais sobre os arquivos especificados, como os nomes e números de versão de todas as DLLs. O MAPI usa as propriedades a seguir para criar uma lista de arquivos de suporte em uma caixa de diálogo para a seleção de usuários de mensagens.
   
-MAPI funciona somente com nomes de arquivo e outras cadeias de caracteres passada para ele, no conjunto de caracteres do Active Directory Service Interfaces (ANSI). Aplicativos cliente que usam nomes de arquivo em um conjunto de caracteres do fabricante do equipamento original (OEM) devem convertê-los para ANSI antes de chamar MAPI.
+MAPI funciona somente com nomes de Filee outras cadeias de caracteres passadas para ele, no conjunto de caracteres de interfaces de serviço do Active Directory (ANSI). Aplicativos clientes que usam nomes de FileNames em um conjunto de caracteres OEM (fabricante original de equipamento) devem convertê-los para ANSI antes de chamar MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

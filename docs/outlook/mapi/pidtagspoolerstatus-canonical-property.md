@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 426d26cae147faf3f843ac547de9d205d766ac44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348206"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propriedade canônica PidTagSpoolerStatus
 
@@ -25,36 +25,36 @@ ms.locfileid: "22588570"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o status da mensagem com base nas informações que está disponíveis para o spooler MAPI.
+Contém o status da mensagem com base nas informações que estão disponíveis para o spooler MAPI.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SPOOLER_STATUS  <br/> |
 |Identificador:  <br/> |0x0E10  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é computada pelo MAPI em objetos de mensagem.
+Esta propriedade é calculada por MAPI em objetos de mensagem.
   
-Essa propriedade é exibida no somente mensagens de entrada e está reservada em todos os outros casos. Indica se uma mensagem foi entregue ao local final ou se um provedor de fora do gancho mensagens potencialmente excluiu a mensagem enquanto reencaminhamento-lo.
+Essa propriedade aparece somente em mensagens de entrada e é reservada em todos os outros casos. Ele indica se uma mensagem foi entregue ou não ao seu local final ou se um provedor de conexão de mensagens possivelmente excluiu a mensagem ao reroteá-la.
   
-Aplicativos cliente nunca devem definir essa propriedade. Para uma mensagem de entrada, um provedor de cliente ou serviço pode chamar [IMAPIProp::GetProps](imapiprop-getprops.md) sobre esta propriedade para determinar o status da mensagem. O valor S_OK indica que a mensagem foi entregue com êxito para o armazenamento de mensagens. O valor MAPI_E_OBJECT_DELETED indica que a mensagem foi excluída e nunca foi comprometida com o repositório. 
+Os aplicativos cliente nunca devem definir essa propriedade. Para uma mensagem de entrada, um cliente ou um provedor de serviços pode chamar [IMAPIProp::](imapiprop-getprops.md) GetProps nessa propriedade para determinar o status da mensagem. O valor S_OK indica que a mensagem foi entregue com êxito ao repositório de mensagens. O valor MAPI_E_OBJECT_DELETED indica que a mensagem foi excluída e nunca foi confirmada no repositório. 
   
-Provedores de armazenamento de mensagem devem oferecer suporte a essa propriedade em mensagens, tabelas de destinatários e a tabela de fila de saída. Clientes e provedores devem poder definir colunas na tabela de fila de saída e restringir com base nessa propriedade.
+Os provedores de repositório de mensagens devem oferecer suporte a essa propriedade em mensagens, tabelas de destinatários e na tabela de fila de saída. Os clientes e provedores devem ser capazes de definir colunas na tabela de fila de saída e restringir com base nessa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

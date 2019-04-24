@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 38d357fa87a8781173be118fdd2cd26f57e814df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345252"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Propriedade canônica PidTagReturnedMessageid
 
@@ -23,7 +23,7 @@ ms.locfileid: "22583621"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se a mensagem original é sendo retornada com um relatório de nonread.
+Contém TRUE se a mensagem original está sendo retornada com um relatório não lido.
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ Conterá TRUE se a mensagem original é sendo retornada com um relatório de non
    
 ## <a name="remarks"></a>Comentários
 
-Um provedor de transporte de x. 400 define essa propriedade no relatório não lido.
+Um provedor de transporte X. 400 define essa propriedade no relatório não lido.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -54,7 +54,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

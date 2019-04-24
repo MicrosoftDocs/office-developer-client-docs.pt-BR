@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 804bd23a148b942fd4580d1e3465fc1f65ff5978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357439"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
@@ -25,13 +25,13 @@ ms.locfileid: "22591349"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que chamadas MAPI para ativar um controle de botão opcional em uma caixa de diálogo Catálogo de endereços. Normalmente, esse botão é um botão de **detalhes** . 
+Define uma função de retorno de chamada que MAPI chama para ativar um controle de botão opcional em uma caixa de diálogo de catálogo de endereços. Este botão é geralmente um botão de **detalhes** . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Função definido implementada por:  <br/> |Provedores de serviços  <br/> |
-|Função definido chamada pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Função definida implementada por:  <br/> |Provedores de serviços  <br/> |
+|Função definida chamada por:  <br/> |MAPI  <br/> |
    
 ```cpp
 SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
@@ -47,35 +47,35 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> [in] Alça das janelas de pai para todas as caixas de diálogo ou windows que exibe essa função.
+> no Identificador das janelas pai de qualquer caixa de diálogo ou Windows essa função é exibida.
     
  _lpvContext_
   
-> [in] Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando chamadas de MAPI-lo. Esse valor pode representar um endereço de significância ao aplicativo cliente. Geralmente, para código C++, _lpvContext_ representa um ponteiro para um objeto C++. 
+> no Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de importância para o aplicativo cliente. Normalmente, para o código C++, _lpvContext_ representa um ponteiro para um objeto c++. 
     
  _cbEntryID_
   
-> [in] Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpSelection_ . 
+> no Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpSelection_ . 
     
  _lpSelection_
   
-> [in] Ponteiro para o identificador de entrada definindo a seleção na caixa de diálogo.
+> no Ponteiro para o identificador de entrada que define a seleção na caixa de diálogo.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Aplicativos cliente chamam uma função de retorno de chamada com base em protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo detalhes. O cliente passa um ponteiro para a função de retorno de chamada em chamadas para o método [IAddrBook::Details](iaddrbook-details.md) . 
+Os aplicativos cliente chamam uma função de retorno de chamada com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O cliente passa um ponteiro para a função de retorno de chamada em chamadas para o método [IAddrBook::D etails](iaddrbook-details.md) . 
   
-Provedores de serviços de chamarem uma função de fora do gancho, com base em protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo detalhes. O provedor passa um ponteiro para essa função gancho em chamadas para o método [IMAPISupport::Details](imapisupport-details.md) . 
+Os provedores de serviços chamam uma função de Hook com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O provedor passa um ponteiro para essa função de gancho em chamadas para o método [IMAPISupport::D etails](imapisupport-details.md) . 
   
 Em ambos os casos, quando a caixa de diálogo é exibida e o usuário escolhe o botão definido, MAPI chama **LPFNBUTTON**. 
   

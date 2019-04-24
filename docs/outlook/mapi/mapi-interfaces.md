@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ca3752e8f7e910994811dec85cc2f1b00e184661
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4f5d6a5d2dbb48a86363896bf14b61ed28118330
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346680"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -23,32 +23,32 @@ ms.locfileid: "22584804"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A documentação para cada interface consiste em uma seção introdutória que inclui uma breve descrição do objetivo da interface seguido de uma tabela que contém as seguintes informações.
+A documentação de cada interface consiste em uma seção introdutória que inclui uma breve descrição da finalidade da interface, seguida de uma tabela que contém as informações a seguir.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |O arquivo de cabeçalho onde a interface é definida e que deve ser incluído quando você compila seu código-fonte.  <br/> |
-|Expostos pelo:  <br/> |O objeto que expõe a interface.  <br/> |
-|Implementado por:  <br/> |Uma lista dos componentes que oferecem uma implementação da interface.  <br/> |
-|Chamado por:  <br/> |Uma lista dos componentes que geralmente chame os métodos da interface.  <br/> |
-|Identificador de interface:  <br/> |O identificador de interface GUID.  <br/> |
+|Arquivo de cabeçalho:  <br/> |O arquivo de cabeçalho onde a interface é definida e que deve ser incluída quando você compila o código-fonte.  <br/> |
+|Exposto por:  <br/> |O objeto que expõe a interface.  <br/> |
+|Implementado por:  <br/> |Uma lista dos componentes que fornecem uma implementação da interface.  <br/> |
+|Chamado por:  <br/> |Uma lista dos componentes que normalmente chamam os métodos da interface.  <br/> |
+|Identificador de interface:  <br/> |O GUID do identificador de interface.  <br/> |
 |Tipo de ponteiro:  <br/> |O tipo de ponteiro para o objeto que expõe a interface.  <br/> |
-|Modelo de transação:  <br/> |Para interfaces derivado do [IMAPIProp](imapipropiunknown.md). Se nontransacted, as alterações entrem em vigor imediatamente; Se transacionadas, as alterações não entrarão em vigor até que [IMAPIProp::SaveChanges](imapiprop-savechanges.md) seja chamado.  <br/> |
+|Modelo de transação:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Se não realizadas, as alterações terão efeito imediatamente; se transacionado, as alterações não entrarão em vigor até que [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) seja chamado.  <br/> |
    
-A primeira tabela a seguir é outra tabela que lista todos os métodos dessa interface na ordem vtable. Uma vtable é uma matriz de indicadores de função criado pelo compilador que contém um ponteiro de função para cada método de um objeto MAPI. Os métodos são listados na mesma ordem em que eles são declarados. Métodos herdados de outras interfaces não são mostrados na tabela a ordem Vtable, mas podem ser usados da mesma forma, conforme documentado na interface do que as define.
+A seguir, a primeira tabela é outra tabela que lista todos os métodos dessa interface em ordem vtable. Uma vtable é uma matriz de ponteiros de função criado pelo compilador que contém um ponteiro de função para cada método de um objeto MAPI. Os métodos estão listados na mesma ordem em que são declarados. Os métodos herdados de outras interfaces não são mostrados na tabela de pedidos vtable, mas podem ser usados da mesma maneira como documentados na interface que os define.
   
-Após cada tópico interface, os métodos da interface estão documentados, em seguida, em ordem alfabética. Para cada método, a documentação inclui uma instrução de finalidade breve, um bloco de sintaxe e as informações a seguir.
+Após cada tópico de interface, os métodos da interface são documentados em ordem alfabética. Para cada método, a documentação inclui uma instrução de curto objetivo, um bloco de sintaxe e as informações a seguir.
   
 |**Título**|**Conteúdo**|
 |:-----|:-----|
-|Parâmetros  <br/> |Uma descrição de cada parâmetro do método.  <br/> |
-|Valor retornado  <br/> |Uma descrição dos valores exclusivos que o método pode ser retornado. Estes são os valores que os chamadores devem verificar se há em seu código.  <br/> |
-|Comentários  <br/> |Uma descrição do porque e como o método é usado.  <br/> |
-|Consulte também  <br/> |Referências cruzadas para outros tópicos nesta referência.  <br/> |
+|Parâmetros  <br/> |Uma descrição de cada parâmetro no método.  <br/> |
+|Valor de retorno  <br/> |Uma descrição dos valores exclusivos que o método pode retornar. Estes são os valores que os chamadores devem verificar no código.  <br/> |
+|Comentários  <br/> |Uma descrição do porquê e como o método é usado.  <br/> |
+|Confira também  <br/> |Referências cruzadas para outros tópicos nesta referência.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Refer�ncia MAPI (em ingl�s)](mapi-reference.md)
+[Referencia MAPI](mapi-reference.md)
 

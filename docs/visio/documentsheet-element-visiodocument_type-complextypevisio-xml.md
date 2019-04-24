@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: Especifica uma estrutura DocumentSheet.
 ms.openlocfilehash: a2594e0325cc2743036a03998eb7ac71ed2183c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356361"
 ---
 # <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) ('Visio XML')
 

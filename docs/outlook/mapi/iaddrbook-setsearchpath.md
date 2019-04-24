@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349305"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571756"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define um novo caminho de pesquisa no perfil que é usado para o processo de resolução de nome. 
+Define um novo caminho de pesquisa no perfil usado para o processo de resolução de nomes. 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -38,11 +38,11 @@ HRESULT SetSearchPath(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpSearchPath_
   
-> [in] Um ponteiro para a estrutura de [SRowSet](srowset.md) usada para armazenar o caminho de pesquisa. A primeira propriedade para cada membro **aRow** em **SRowSet** deve ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> no Um ponteiro para a estrutura [SRowSet](srowset.md) usada para manter o caminho de pesquisa. A primeira propriedade para cada membro de **aRow** em **SRowSet** deve ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,13 +52,13 @@ S_OK
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> Um dos contêineres descritos na estrutura de **SRowSet** não incluiu sua propriedade **PR_ENTRYID** . 
+> Um dos contêineres descritos na estrutura **SRowSet** não inclui a propriedade **PR_ENTRYID** . 
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de serviços e clientes chame o método de **SetSearchPath** para salvar as alterações feitas na ordem de pesquisa do contêiner que é usado para resolver nomes com o método [IAddrBook::ResolveName](iaddrbook-resolvename.md) . O caminho de pesquisa é salvo entre instâncias de uma sessão. 
+Os clientes e os provedores de serviços chamam o método **SetSearchPath** para salvar as alterações feitas na ordem de pesquisa do contêiner usada para resolver nomes com o método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . O caminho de pesquisa é salvo entre as instâncias de uma sessão. 
   
-Clientes e provedores não precisará chamar o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que as alterações de caminho de pesquisa permanente. 
+Os clientes e provedores não precisam chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para tornar as alterações no caminho de pesquisa permanentes. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Clientes e provedores não precisará chamar o método [IMAPIProp::SaveChanges](
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

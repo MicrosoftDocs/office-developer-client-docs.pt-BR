@@ -9,19 +9,19 @@ localization_priority: Normal
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
 description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: 30e772b2b086e44c92e1da206f0968201fd490fb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355101"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Aviso de direitos autorais da referência do desenvolver do Outlook
 
-Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo. 
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização. 
   
-Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Não existe associação real ou qualquer ligação é intencionada ou deve ser inferida.
+Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
   
-Este documento não lhe dá nenhum direito legal a qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para fins de referência, internos. 
+Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. 
   
 © 2013 Microsoft Corporation. Todos os direitos reservados.
   

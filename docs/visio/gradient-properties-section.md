@@ -1,25 +1,25 @@
 ---
-title: Seção Gradient Properties
+title: Seção Propriedades de gradiente
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99380333-9bb2-4aad-87ef-4f7f5f594dcd
-description: Mostra as propriedades de qualquer linha ou preenchimento de gradiente efeitos de cor aplicadas à forma. Esta seção também inclui as células que controlam se gradiente de uma forma gira com a forma ou se a forma pressupõe um gradiente aplicado quando agrupado com relação às outras formas.
-ms.openlocfilehash: 471cfca5a3dc09984073f81c1f945a1e5d4504af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Mostra as propriedades de qualquer efeito de preenchimento ou cor de linha de gradiente aplicado à forma. Esta seção também inclui células que controlam se o gradiente da forma gira com a forma ou se a forma assume um gradiente aplicado quando agrupado com outras formas.
+ms.openlocfilehash: e0eed4508a366c772cb9830e0fe53b57faa84c43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360218"
 ---
-# <a name="gradient-properties-section"></a>Seção Gradient Properties
+# <a name="gradient-properties-section"></a>Seção Propriedades de gradiente
 
-Mostra as propriedades de qualquer linha ou preenchimento de gradiente efeitos de cor aplicadas à forma. Esta seção também inclui as células que controlam se gradiente de uma forma gira com a forma ou se a forma pressupõe um gradiente aplicado quando agrupado com relação às outras formas. 
+Mostra as propriedades de qualquer efeito de preenchimento ou cor de linha de gradiente aplicado à forma. Esta seção também inclui células que controlam se o gradiente da forma gira com a forma ou se a forma assume um gradiente aplicado quando agrupado com outras formas. 
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir configurações de gradiente na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **preenchimento** > **Opções de preenchimento** > **preenchimento** > **preenchimento gradual**). 
+**** > **** > **** Você pode definir as configurações de gradiente na caixa de diálogo **Formatar forma** (**estilos** >  > de forma**inicial** > preenchimento**Gradient**de preenchimento). 
   
 

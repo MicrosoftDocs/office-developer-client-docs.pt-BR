@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f6707c49c70804aeb757119aa411ca4059e378eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356039"
 ---
 # <a name="pidlidappointmentreplyname-canonical-property"></a>Propriedade canônica PidLidAppointmentReplyName
 
@@ -25,23 +25,23 @@ ms.locfileid: "25387976"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o usuário quem última respondeu à solicitação de reunião ou reunião atualizar o objeto.
+Especifica o último usuário que respondeu à solicitação de reunião ou ao objeto de atualização de reunião.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidApptReplyName  <br/> |
-|Propriedade definida:  <br/> |PSETID_Appointment  <br/> |
-|ID de longo (LID):  <br/> |0x00008230  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
+|Long ID (LID):  <br/> |0x00008230  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Reuniões  <br/> |
+|Área:  <br/> |Meetings  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade só é definida para um delegator quando um delegado respondido. O valor é igual à propriedade **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o repositório do representante. Essa propriedade não tem significado para o organizador. Para obter detalhes sobre **PR_MAILBOX_OWNER_NAME**, consulte protocolo do objeto especificado em [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)de armazenamento.
+Esta propriedade só é definida para um delegante quando um representante responder. O valor é igual à propriedade **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o repositório do representante. Esta propriedade não tem significado para o organizador. Para obter detalhes sobre o **PR_MAILBOX_OWNER_NAME**, consulte o protocolo de objeto de armazenamento especificado em [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -49,15 +49,15 @@ Essa propriedade só é definida para um delegator quando um delegado respondido
     
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 90900b2af87f06928f22eb321c7c0f620a9a2844
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345826"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>Propriedade canônica PidTagAttachmentHidden
 
@@ -25,7 +25,7 @@ ms.locfileid: "25401381"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se um anexo está oculto do usuário final.
+Indica se um anexo está oculto para o usuário final.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Indica se um anexo está oculto do usuário final.
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

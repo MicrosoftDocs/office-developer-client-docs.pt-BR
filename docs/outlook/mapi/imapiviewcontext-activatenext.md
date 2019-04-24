@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6613e4168fea6536b1df873da12f2c215be515bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5b10f744e3033aab63820e4cd5e414f4c01c27cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351153"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ativa a mensagem anterior ou seguinte na ordem de exibição. 
+Ativa a mensagem seguinte ou anterior no modo de exibição. 
   
 ```cpp
 HRESULT ActivateNext(
@@ -36,31 +36,31 @@ LPCRECT prcPosRect
 
 _ulDir_
   
-> [in] Sinalizadores de status oferecendo informações sobre a mensagem a ser ativada. Configurações de sinalizador válidos são:
+> no Sinalizadores de status fornecendo informações sobre a mensagem a ser ativada. As configurações de sinalizador válidas são:
     
-  - VCDIR_CATEGORY: O Visualizador deve ativar uma mensagem em outra categoria do modo de exibição. A mensagem a ser ativada é: 
+  - VCDIR_CATEGORY: o visualizador deve ativar uma mensagem em outra categoria do modo de exibição. A mensagem a ser ativada é: 
         
-    - A primeira mensagem na categoria próxima modo de exibição se esse sinalizador for ed **ou**com VCDIR_NEXT. 
+    - A primeira mensagem na próxima categoria de exibição se esse sinalizador estiver **ou**Ed com VCDIR_NEXT. 
         
-    - A última mensagem da categoria do modo de exibição anterior se esse sinalizador for **OR**ed com VCDIR_PREV e a categoria anterior é expandida. 
+    - A última mensagem na categoria modo de exibição anterior se esse sinalizador estiver **ou**Ed com VCDIR_PREV e a categoria anterior estiver expandida. 
         
-    - A primeira mensagem na categoria exibir anterior se esse sinalizador for **OR**ed com VCDIR_PREV e a categoria anterior não será expandida. Nesse caso, a categoria anterior passa por expansão automática. 
+    - A primeira mensagem na categoria modo de exibição anterior se esse sinalizador for **ou**Ed com VCDIR_PREV e a categoria anterior não estiver expandida. Nesse caso, a categoria anterior passa pela expansão automática. 
         
-  - VCDIR_DELETE: O Visualizador deve ativar a mensagem anterior ou seguinte porque a mensagem atual foi excluída. 
+  - VCDIR_DELETE: o visualizador deve ativar a mensagem seguinte ou anterior porque a mensagem atual foi excluída. 
         
-  - VCDIR_MOVE: O Visualizador deve ativar a mensagem anterior ou seguinte porque a mensagem atual foi movida. 
+  - VCDIR_MOVE: o visualizador deve ativar a mensagem seguinte ou anterior porque a mensagem atual foi movida. 
         
-  - VCDIR_NEXT: O Visualizador deve ativar a próxima mensagem na ordem de exibição. 
+  - VCDIR_NEXT: o visualizador deve ativar a próxima mensagem na ordem de exibição. 
         
-  - VCDIR_PREV: O Visualizador deve ativar a mensagem anterior na ordem de exibição. 
+  - VCDIR_PREV: o visualizador deve ativar a mensagem anterior na ordem de exibição. 
         
-  - VCDIR_UNREAD: O Visualizador deve ativar a mensagem não lida seguinte ou anterior na ordem de exibição. 
+  - VCDIR_UNREAD: o visualizador deve ativar a mensagem não lida seguinte ou anterior no modo de exibição. 
     
 _prcPosRect_
   
-> [in] Ponteiro para um Windows **Retangular** estruturar contendo o tamanho e a posição da janela a ser usado para exibir a mensagem ativada. 
+> no Ponteiro para uma estrutura de **Rect** do Windows contendo o tamanho e a posição da janela a ser usada para exibir a mensagem ativada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -72,29 +72,29 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método de **IMAPIViewContext::ActivateNext** para alterar o que mensagem é exibida ao usuário. O valor passado no parâmetro _ulDir_ indica qual mensagem deve ser ativado e, em alguns casos, o motivo. Os sinalizadores VCDIR_NEXT e VCDIR_PREVIOUS correspondem aos usuários, escolha o comando **próximo** ou **anterior** em um modo de exibição, respectivamente. Essas operações geralmente correspondem ao mover para cima ou para baixo uma mensagem na lista do Visualizador de formulário de mensagens. 
+Os objetos Form chamam o método **IMAPIViewContext:: ActivateNext** para alterar qual mensagem é exibida para o usuário. O valor passado no parâmetro _ulDir_ indica qual mensagem deve ser ativada e, em alguns casos, por quê. Os sinalizadores VCDIR_NEXT e VCDIR_PREVIOUS correspondem aos usuários que escolhem o comando **próximo** ou **anterior** em um modo de exibição, respectivamente. Essas operações geralmente correspondem à movimentação de uma mensagem para cima ou para baixo na lista de mensagens do Visualizador de formulários. 
   
-Os sinalizadores VCDIR_DELETE e VCDIR_MOVE são definidos por [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) e [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) métodos, respectivamente. Implementações desses métodos chamar **ActivateNext** com direção apropriada e, em seguida, executam a operação solicitada na mensagem se a chamada **ActivateNext** não falhou. Visualizadores de formulário normalmente habilitar usuários especificar a direção para mover-se na lista de mensagens. 
+Os sinalizadores VCDIR_DELETE e VCDIR_MOVE são definidos pelos métodos [IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md) e [IMAPIMessageSite:: MoveMessage](imapimessagesite-movemessage.md) , respectivamente. As implementações desses métodos chamam **ActivateNext** com a direção apropriada e, em seguida, executam a operação solicitada na mensagem se a chamada **ActivateNext** não falhar. Geralmente, os visualizadores de formulários permitem que os usuários especifiquem a direção da movimentação na lista de mensagens. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação dos [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) torna a mensagem anterior ou seguinte na pasta, dependendo do valor da _ulDir_, a mensagem atual. Após **ActivateNext** retorna, chame [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) para obter um ponteiro para a mensagem recentemente ativada. 
+Sua implementação do [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) faz a mensagem seguinte ou anterior na pasta, dependendo do valor de _ulDir_, a mensagem atual. Após o **ActivateNext** retornar, chame [IMAPIMessageSite:: GetMessage](imapimessagesite-getmessage.md) para obter um ponteiro para a mensagem recentemente ativada. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se **ActivateNext** retorna S_FALSE, ou se uma mensagem atual não estiver presente, execute o procedimento de desligamento normal que deve incluir a chamar o método de [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) do seu formulário. Se for exibida uma mensagem seguinte ou anterior, use o retângulo de janela passado no parâmetro _prcPosRect_ para exibi-la. 
+Se **ActivateNext** retornar S_FALSE, ou se uma mensagem atual não estiver presente, execute o procedimento de desligamento normal que deve incluir a chamada do método [IMAPIForm:: ShutdownForm](imapiform-shutdownform.md) do seu formulário. Se uma mensagem seguinte ou anterior for exibida, use o retângulo da janela passado no parâmetro _prcPosRect_ para exibi-la. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa o método **IMAPIViewContext::ActivateNext** nessa função.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: ActivateNext  <br/> |MFCMAPI implementa o método **IMAPIViewContext:: ActivateNext** nesta função.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
-- [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+- [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

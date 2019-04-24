@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fc50166674ee7b9699ef8e29c5ff1e54db705ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349501"
 ---
 # <a name="create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern"></a>Criar um compromisso recorrente anual que usa um padrão YearNth
 
@@ -25,13 +25,13 @@ Este exemplo mostra como criar um compromisso para o qual o padrão de recorrên
 
 Se você quiser criar um compromisso anual com recorrência em um determinado dia da semana durante um mês específico (por exemplo, a primeira segunda-feira em junho), você deve usar recorrências YearNth. Para definir uma recorrência YearNth, primeiro você deve definir a propriedade [RecurrenceType](https://msdn.microsoft.com/library/bb623463\(v=office.15\)) do objeto [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)) como olRecursYearNth. Depois, defina a propriedade [DayOfWeekMask](https://msdn.microsoft.com/library/bb609163\(v=office.15\)) para especificar em que dia da semana o compromisso deve se repetir, e o a propriedade [Instance](https://msdn.microsoft.com/library/bb645269\(v=office.15\)) para especificar a n-ésima ocorrência do dia da semana especificado (por exemplo, a terceira terça-feira) durante um mês especificado para o padrão anual.
 
-Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações. Essa prática aplica o objeto **AppointmentItem** recorrente, além de qualquer objeto [Exception](https://msdn.microsoft.com/library/bb610440\(v=office.15\)) ou [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)). Para liberar uma referência no Visual Basic, defina esse objeto existente como Nothing. Em C\#, libere explicitamente a memória para esse objeto.
+Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações. Essa prática aplica o objeto **AppointmentItem** recorrente e a qualquer objeto [Exception](https://msdn.microsoft.com/library/bb610440\(v=office.15\)) ou [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)). Para liberar uma referência no Visual Basic, defina esse objeto existente como Nothing. Em C\#, libere explicitamente a memória para esse objeto.
 
 Observe que mesmo após liberar sua referência e tentar obter uma nova referência, se ainda houver uma referência ativa (mantida por outro suplemento ou pelo Outlook) para um dos objetos acima, sua nova referência continuará a apontar para uma cópia desatualizada do objeto. Portanto, é importante liberar suas referências assim que seu compromisso recorrente terminar.
 
 No exemplo de código a seguir, RecurringYearNthAppointment cria um compromisso com um padrão de recorrência de YearNth. RecurringYearNthAppointment primeiro cria um compromisso recorrente criando um objeto [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)). Em seguida, ele recebe o padrão de recorrência do compromisso usando o método [GetRecurrencePattern()](https://msdn.microsoft.com/library/bb652582\(v=office.15\)). Em seguida, ele define as seguintes propriedades RecurrencePattern: RecurrenceType, DayOfWeekMask, [MonthOfYear](https://msdn.microsoft.com/library/bb610515\(v=office.15\)), [Instance](https://msdn.microsoft.com/library/bb645269\(v=office.15\)), [Occurrences](https://msdn.microsoft.com/library/bb611303\(v=office.15\)), [Duration](https://msdn.microsoft.com/library/bb644889\(v=office.15\)), [PatternStartDate](https://msdn.microsoft.com/library/bb624492\(v=office.15\)), [StartTime](https://msdn.microsoft.com/library/bb646324\(v=office.15\)) e [EndTime](https://msdn.microsoft.com/library/bb644544\(v=office.15\)). A propriedade MonthOfYear pode levar um valor numérico de 1 a 12, onde cada número representa o mês correspondente. Quando as propriedades estão definidas, RecurringYearNthAppointment salva o compromisso e o exibe com o padrão "Ocorre na primeira segunda-feira de junho de 1/6/2007 até 6/6/2016 de 14:00 a 17:00."
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

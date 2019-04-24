@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: 'Uma função executa uma única tarefa bem definida. A maioria das funções assume vários argumentos como entrada. Embora o tipo e o número de argumentos dependam da função, todas as funções têm uma mesma sintaxe geral:'
-ms.openlocfilehash: 21cf02d1bb3d6a33daa10ba62efc29c5b35a11cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14995b0f7e3c1cc8346d47965038902b8ca4e8bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345056"
 ---
-# <a name="about-functions"></a>Sobre funções
+# <a name="about-functions"></a>Sobre Funções
 
 Uma função executa uma única tarefa bem definida. A maioria das funções assume vários argumentos como entrada. Embora o tipo e o número de argumentos dependam da função, todas as funções têm uma mesma sintaxe geral:
   
- **Função (** _Argumento1_, _Argumento2_,...  _argumentN_ [, _argumentoA_ |  _argumento_ **])**
+ **Função (** _argument1_, _argument2_,...  _argumenton_ [, argumento _argumento_ |  __ **])**
   
 |**Elemento de sintaxe**|**Descrição**|
 |:-----|:-----|
@@ -28,13 +28,13 @@ Uma função executa uma única tarefa bem definida. A maioria das funções ass
 | ,  <br/> | Os argumentos são separados por uma vírgula.  <br/> |
 | ...  <br/> | Usado somente para notação; não inclui uma função.  <br/> |
 | [ ]  <br/> | Argumento opcional. Usado somente para notação; não inclui uma função.  <br/> |
-| |  <br/> | Uma escolha; Você pode incluir _argumentoA_ ou _argumento_. Usado somente para notação; não inclui uma função.  <br/> |
+| |  <br/> | Uma opção; Você pode incluir _argumentoum_ ou _argumento_. Usado somente para notação; não inclui uma função.  <br/> |
    
 Muitas funções utilizadas em fórmulas são semelhantes àquelas usadas em programas de planilha eletrônica: matemáticas, como SUM ou SQRT; trigonométricas, como SIN ou COS; ou lógicas, como IF ou NOT. Várias outras funções são exclusivas do Microsoft Office Visio, como GUARD, GRAVITA e RUNADDON.
   
 Para obter mais informações sobre funções específicas, consulte a Referência do ShapeSheet.
   
 > [!NOTE]
->  Determinadas funções aparecem em fórmulas geradas pelo Visio, mas não são mostradas na caixa de diálogo **Editar fórmula** ou descritas nesta referência porque eles são reservados para uso interno e não devem ser usados em outras fórmulas. A seguir estão exemplos: ELLIPSE_THETA, ELLIPSE_ECC, _ UCON_C1 e SHAPEMIN. 
+>  Determinadas funções aparecem em fórmulas geradas pelo Visio, mas não são mostradas na caixa de diálogo **Editar fórmula** ou descritas nesta referência porque são reservadas para uso interno e não devem ser usadas em outras fórmulas. Veja alguns exemplos: ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 e _SHAPEMIN. 
   
 

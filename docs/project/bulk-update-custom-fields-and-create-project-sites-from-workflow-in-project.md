@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Para ajudar os clientes a aproveitar ao máximo o Project Online e melhorar a flexibilidade e a extensibilidade dos nossos serviços, adicionamos dois métodos ao modelo de objeto no lado do cliente que você pode usar em aplicativos e fluxos de trabalho do Project Online.
 ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355317"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Fazer atualizações em massa de campos personalizados e criar sites de projeto com base em um fluxo de trabalho no Project Online
 
@@ -77,8 +77,8 @@ O fluxo de trabalho completo final é semelhante e este:
     
     |Nome|Tipo|Valor|
     |:-----|:-----|:-----|
-    |Accept  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
-    |Content-Type  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
+    |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
     ![Adicionar um cabeçalho Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adicionar um cabeçalho Accept")
   
@@ -123,17 +123,17 @@ O fluxo de trabalho completo final é semelhante e este:
   
        |Nome|Tipo|Valor|
        |:-----|:-----|:-----|
-       |customFieldDictionary(0)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(0)/Key  <br/> |Cadeia de caracteres  <br/> |Custom\_ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary(0)/Value  <br/> |Cadeia de caracteres  <br/> |Entry\_b9a2fd69279de411940f00155d3c8201;#Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary(0)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.String  <br/> |
-       |customFieldDictionary(1)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(1)/Key  <br/> |Cadeia de caracteres  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary(1)/Value  <br/> |Cadeia de caracteres  <br/> |90,5  <br/> |
+       |customFieldDictionary(0)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(0)/Key  <br/> |String  <br/> |Custom\_ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary(0)/Value  <br/> |String  <br/> |Entry\_b9a2fd69279de411940f00155d3c8201;#Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary(0)/ValueType  <br/> |String  <br/> |Edm.String  <br/> |
+       |customFieldDictionary(1)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(1)/Key  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary(1)/Value  <br/> |String  <br/> |90,5  <br/> |
        |customFieldDictionary(1)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary(2)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(2)/Key  <br/> |Cadeia de caracteres  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary(2)/Value  <br/> |Cadeia de caracteres  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary(2)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(2)/Key  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
        |customFieldDictionary(2)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.DateTime  <br/> |
    
        ![Dicionário que define atualizações de campos personalizados](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dicionário que define atualizações de campos personalizados")
@@ -198,8 +198,8 @@ Adicionamos o método **CreateProjectSite** para que você possa escolher quando
     
     |Nome|Tipo|Valor|
     |:-----|:-----|:-----|
-    |Accept  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
-    |Content-Type  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
+    |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
     ![Adicionar um cabeçalho Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adicionar um cabeçalho Accept")
   
@@ -217,7 +217,7 @@ Adicionamos o método **CreateProjectSite** para que você possa escolher quando
   
 ## <a name="see-also"></a>Confira também
 
-- [Tarefas de programação de projeto](project-programming-tasks.md)
+- [Tarefas de programação do Project](project-programming-tasks.md)
 - [Modelo de objeto no lado do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md)
 - [Fluxos de trabalho no SharePoint 2013](https://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
     

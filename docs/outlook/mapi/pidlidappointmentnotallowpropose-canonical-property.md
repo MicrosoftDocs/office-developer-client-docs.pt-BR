@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa9aacd8a1d75ed4c14a980e162a68c47995a55c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356354"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>Propriedade canônica PidLidAppointmentNotAllowPropose
 
@@ -25,35 +25,35 @@ ms.locfileid: "25385414"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se os participantes não poderão propor uma nova data/hora para a reunião.
+Indica se os participantes não têm permissão para propor uma nova data/hora para a reunião.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidApptNotAllowPropose  <br/> |
-|Propriedade definida:  <br/> |PSETID_Appointment  <br/> |
-|ID de longo (LID):  <br/> |0x0000825A  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
+|Long ID (LID):  <br/> |0x0000825A  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Reuniões  <br/> |
+|Área:  <br/> |Meetings  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um valor falso, ou a ausência dessa propriedade indica que os participantes poderão propor uma nova data/hora.
+Um valor FALSE ou a ausência dessa propriedade indica que os participantes têm permissão para propor uma nova data/hora.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

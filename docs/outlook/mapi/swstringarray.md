@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ff69981e83d42e439936a3e4be47eabfd811b310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349550"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de cadeias de caracteres que são usadas para descrever uma p
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -44,15 +44,15 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Contagem de cadeias de caracteres na matriz apontado pelo membro **lppszW** . 
+> Contagem de cadeias de caracteres na matriz apontada pelo membro **lppszW** . 
     
  **lppszW**
   
-> Ponteiro para uma matriz de cadeias de caracteres Unicode null-encerrada.
+> Ponteiro para uma matriz de cadeias de caracteres Unicode de término nulo.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre PT_MV_UNICODE, consulte [Tipos de propriedade](property-types.md).
+Para obter mais informações sobre o PT_MV_UNICODE, consulte [tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 

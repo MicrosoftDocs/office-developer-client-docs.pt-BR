@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: Retorna um valor de moeda.
-ms.openlocfilehash: ea7696e7628939466730b9c054a706a7a9fa264e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65c88d69669e2fa7f708402d9d50dfe035456edb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344986"
 ---
 # <a name="cy-function"></a>Função CY
 
@@ -26,26 +26,26 @@ CY (* * *valor* * *, * * *cyID* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Opcional  <br/> |**Número ou Cadeia de caracteres** <br/> |Um número ou uma cadeia de caracteres que inclui formatação específica de moeda. Se não especificado, o valor de moeda é formatado de acordo com o estilo de moeda nas configurações de região e idioma do sistema.  <br/> |
-| _cyID_ <br/> |Opcional  <br/> |**Número** <br/> |Uma identificação de moeda numérica ou uma sequência de três caracteres entre aspas para a abreviação ISO 4217.  <br/> |
+| _value_ <br/> |Opcional  <br/> |**Número ou Cadeia de caracteres** <br/> |Um número ou uma cadeia de caracteres que inclui formatação específica da moeda. Se não for especificado, o valor de moeda é formatado de acordo com o estilo de moeda nas configurações de idioma e região do sistema.  <br/> |
+| _cyID_ <br/> |Opcional  <br/> |**Número** <br/> |Uma ID de moeda numérica ou uma cadeia de caracteres entre aspas de três caracteres para a abreviação ISO 4217.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para especificar uma moeda diferente, você deve incluir um válido _cyID_. Para obter uma lista, consulte [sobre constantes de moeda](about-currency-constants.md).
+Para especificar uma moeda diferente, você deve incluir um _cyID_válido. Para obter uma lista, consulte [Sobre constantes de moeda](about-currency-constants.md).
   
-Se o _valor_ é incompatível com o tipo de moeda designado, ou se um argumento inválido, como "não é um número" for especificado, um #VALUE! erro será retornado. Se o _valor_ for maior que 922.337.203.685.477,5807 ou menor que-922.337.203.685.477,5808, um #VALUE! erro será retornado. 
+Se o _valor_ for incompatível com o tipo de moeda designada ou se um argumento inválido, como "não um número", for especificado, um #VALUE! será retornado. Se o _valor_ for maior que 922337203685477,5807 ou menor que-922337203685477,5808, um #VALUE! será retornado. 
   
-Para obter uma precisão maior com valores de moeda muito elevados que incluam frações de uma unidade, como 3,6 trilhões, use os argumentos de cadeia de caracteres de _valor_.
+Para maior precisão com valores de moeda muito grandes que incluem frações de uma unidade, como 3.600.000.000.000, use argumentos de cadeia de caracteres para _Value_.
   
-Especificar um inválido _cyID_ retornará um erro. 
+A especificação de um _cyID_ inválido retorna um erro. 
   
 ## <a name="example-1"></a>Exemplo 1
 
 No caso das configurações de Região e Idioma do usuário, especifique dólares dos Estados Unidos:
   
-CY(999998.993)
+CY (999998.993)
   
 Retornará $999.998,99
   

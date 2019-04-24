@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 80c11dd3-775b-4c66-afc2-b31d7bbcad9f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 743779a815274ae00fae7bacfe9755fc574f38be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 136b2470c91c3a92fe5c15a51de1c22bac57981f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360764"
 ---
 # <a name="pidtagdistributionlistexpansionprohibited-canonical-property"></a>Propriedade canônica PidTagDistributionListExpansionProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563671"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de Expandindo listas de distribuição.
+Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido de expandir listas de distribuição.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de Ex
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

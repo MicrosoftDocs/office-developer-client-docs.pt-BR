@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2044fc52370bdadd5c7f01debbd02c88dd881715
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349417"
 ---
 # <a name="get-information-about-stores-in-a-profile"></a>Obter informações sobre repositórios em um perfil
 
@@ -25,7 +25,7 @@ Este exemplo mostra como acessar e enumerar repositórios em um perfil.
 
 Você pode usar o conjunto [Stores](https://msdn.microsoft.com/library/bb622944\(v=office.15\)) para enumerar os repositórios de um determinado perfil. O conjunto **Stores** disponibiliza membros que expõem informações sobre cada objeto [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)), como quando um objeto **Store** é adicionado ou quando um objeto **Store** está prestes a ser removido no perfil atual. No exemplo de código a seguir, EnumerateStores recebe o objeto **Stores** que representa repositórios no perfil atual e enumera esses repositórios. EnumerateStores examina cada objeto **Store** no conjunto **Stores**. Se a propriedade [IsDataFileStore](https://msdn.microsoft.com/library/bb624116\(v=office.15\)) retornar **true**, indicando que é um repositório .pst ou .ost, as propriedades [DisplayName](https://msdn.microsoft.com/library/bb612209\(v=office.15\)) e [FilePath](https://msdn.microsoft.com/library/bb646113\(v=office.15\)) serão gravadas para os ouvintes de rastreamento no conjunto [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

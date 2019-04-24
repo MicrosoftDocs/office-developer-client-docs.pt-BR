@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 843eed06f30dcca530cf4306c9e03bbffbb05af5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5043a614ccd94994fe86838f15aa1a43f22733e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357327"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
@@ -25,13 +25,13 @@ ms.locfileid: "22581283"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um objeto de administração do perfil. 
+Cria um objeto de administração de perfil. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 HRESULT MAPIAdminProfiles(
@@ -44,25 +44,25 @@ HRESULT MAPIAdminProfiles(
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores indicando opções para a função de entrada de serviço. 
+> no Bitmask de sinalizadores que indicam opções para a função de entrada de serviço. 
     
  _lppProfAdmin_
   
-> [out] Ponteiro para um ponteiro para o novo objeto de administração do perfil.
+> bota Ponteiro para um ponteiro para o novo objeto de administração de perfil.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI usa o método **MAPIAdminProfiles** para obter o objeto de administração do perfil.  <br/> |
+|MAPIObjects. cpp  <br/> |CMapiObjects:: GetProfAdmin  <br/> |MFCMAPI usa o método **MAPIAdminProfiles** para obter o objeto de administração de perfil.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -71,5 +71,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IProfAdmin::CreateProfile](iprofadmin-createprofile.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

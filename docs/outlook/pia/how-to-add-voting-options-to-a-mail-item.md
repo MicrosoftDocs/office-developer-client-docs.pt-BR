@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359721"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>Adicionar opções de votação a um item de email
 
@@ -28,7 +28,7 @@ As opções de votação nas mensagens são usadas para fornecer aos destinatár
 
 No exemplo a seguir, OrderPizza cria opções de votação em uma nova mensagem de email. OrderPizza primeiro cria um **MailItem** e, em seguida, define a propriedade **VotingOptions** como “Queijo; Cogumelo; Linguiça; Combinação; Combinação de vegetais”, e a propriedade [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) para “Pedido de pizza”. Quando a mensagem "Pedido de pizza" é enviada, as opções de votação são exibidas para os destinatários. Para cada resposta recebida, a escolha do destinatário será computada na página **Acompanhamento** da mensagem na pasta Itens Enviados do remetente.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

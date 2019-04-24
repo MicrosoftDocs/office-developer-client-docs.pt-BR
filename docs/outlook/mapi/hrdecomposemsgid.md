@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 828d7ebcbceead02441165e3af92ec7b47d9f001
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bff73ee5cf02680a2376106e21e0c743b995d336
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348087"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
@@ -25,13 +25,13 @@ ms.locfileid: "22564623"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Separa a representação ASCII do identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens para o identificador de entrada desse objeto no repositório e o identificador de entrada da loja. 
+Separa a representação ASCII do identificador de entrada composta de um objeto, geralmente uma mensagem em um repositório de mensagens, no identificador de entrada desse objeto no repositório e no identificador de entrada da loja. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 HrDecomposeMsgID(
@@ -48,27 +48,27 @@ HrDecomposeMsgID(
 
  _psession_
   
-> [in] Ponteiro para a sessão em uso pelo aplicativo cliente. 
+> no Ponteiro para a sessão em uso pelo aplicativo cliente. 
     
  _szMsgID_
   
-> [in] A cadeia de caracteres representando o identificador de entrada do objeto. 
+> no A cadeia de caracteres que representa o identificador de entrada do objeto. 
     
  _pcbStoreEID_
   
-> [out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagem que contém o objeto. Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound cadeia de caracteres, em seguida, os pontos de parâmetro _pcbStoreEID_ como zero. 
+> bota Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagens que contém o objeto. Se o parâmetro _szMsgID_ apontar para uma cadeia de caracteres de identificador de entrada não composta, o parâmetro _pcbStoreEID_ apontará para zero. 
     
  _ppStoreEID_
   
-> [out] Ponteiro para um ponteiro para o identificador retornado de entrada do repositório de mensagem que contém o objeto. Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, NULL é retornado no parâmetro _ppStoreEID_ . 
+> bota Ponteiro para um ponteiro para o identificador de entrada retornado do repositório de mensagens que contém o objeto. Se o parâmetro _szMsgID_ apontar para um identificador de entrada não composta, NULL será retornado no parâmetro _ppStoreEID_ . 
     
  _pcbMsgEID_
   
-> [out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto dentro de seu armazenamento. Se o parâmetro _szMsgID_ aponta para uma cadeia de caracteres do identificador de entrada noncompound, o parâmetro _pcbMsgEID_ é igual ao valor do parâmetro _cbEID_ . 
+> bota Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto dentro de seu repositório. Se o parâmetro _szMsgID_ apontar para uma cadeia de caracteres de identificador de entrada não composta, o parâmetro _pcbMsgEID_ será igual ao valor do parâmetro _cbEID_ . 
     
  _ppMsgEID_
   
-> [out] Ponteiro para um ponteiro para a cadeia de caracteres de identificador retornado de entrada do objeto dentro de seu armazenamento. Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, _ppMsgEID_ aponta para um ponteiro para uma cópia convertida do identificador de entrada noncompound. 
+> bota Ponteiro para um ponteiro para a cadeia de caracteres de identificador de entrada retornada do objeto dentro de seu repositório. Se o parâmetro _szMsgID_ apontar para um identificador de entrada não composta, _ppMsgEID_ apontará para um ponteiro para uma cópia convertida do identificador de entrada não composta. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -76,7 +76,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se o identificador especificado pelo parâmetro _szMsgID_ for composto, ele é convertido de ASCII e dividido o identificador de entrada do objeto dentro de seu armazenamento de mensagens e o identificador de entrada da loja. Cadeias de caracteres de identificador de entrada noncompound simplesmente são convertidas e copiadas. A cadeia de caracteres de identificador compostos sejam separados é geralmente uma criada pela função [HrComposeMsgID](hrcomposemsgid.md) . 
+Se o identificador especificado pelo parâmetro _szMsgID_ for composto, ele será convertido de ASCII e dividido no identificador de entrada do objeto no repositório de mensagens e no identificador de entrada da loja. Cadeias de caracteres de identificador de entrada não compostos são apenas convertidos e copiados. A cadeia de caracteres de identificador composto a ser separada é normalmente uma criada pela função [HrComposeMsgID](hrcomposemsgid.md) . 
   
 Chamar a função **HrDecomposeMsgID** é equivalente a chamar a função [HrEntryIDFromSz](hrentryidfromsz.md) e, em seguida, a função [HrDecomposeEID](hrdecomposeeid.md) . 
   

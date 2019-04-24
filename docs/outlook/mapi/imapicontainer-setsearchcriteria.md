@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 93fb82c6274a1703376d7a9e15f37088e132dc23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a6168e8fced2fff3a7f9d273e47ed2410ac4c010
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350964"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585889"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Estabelece os critérios de pesquisa para o contêiner.
+Estabelece critérios de pesquisa para o contêiner.
   
 ```cpp
 HRESULT SetSearchCriteria(
@@ -39,89 +39,89 @@ HRESULT SetSearchCriteria(
 
  _lpRestriction_
   
-> [in] Um ponteiro para uma estrutura [SRestriction](srestriction.md) que define os critérios de pesquisa. Se NULL é passada no parâmetro _lpRestriction_ , os critérios de pesquisa que foram usados mais recentemente para este contêiner são usados novamente. NULL não deve ser passado no _lpRestriction_ para a pesquisa primeira em um contêiner. 
+> no Um ponteiro para uma estrutura [SRestriction](srestriction.md) que define os critérios de pesquisa. Se NULL for passado no parâmetro _lpRestriction_ , os critérios de pesquisa que foram usados mais recentemente para este contêiner serão usados novamente. NULL não deve ser passado no _lpRestriction_ para a primeira pesquisa em um contêiner. 
     
  _lpContainerList_
   
-> [in] Um ponteiro para uma matriz de identificadores de entrada que representam os contêineres a serem incluídos na pesquisa. Se um cliente transmite NULL no parâmetro _lpContainerList_ , os identificadores de entrada usados mais recentemente para este contêiner de pesquisa são usados para a nova pesquisa. Um cliente não deve passar NULL no _lpContainerList_ para a pesquisa primeira em um contêiner. 
+> no Um ponteiro para uma matriz de identificadores de entrada que representam contêineres a serem incluídos na pesquisa. Se um cliente passa nulo no parâmetro _lpContainerList_ , os identificadores de entrada usados mais recentemente para pesquisar esse contêiner são usados para a nova pesquisa. Um cliente não deve passar nulo no _lpContainerList_ para a primeira pesquisa em um contêiner. 
     
  _ulSearchFlags_
   
-> [in] Uma bitmask dos sinalizadores que controlam como a pesquisa é realizada. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam como a pesquisa é realizada. Os seguintes sinalizadores podem ser definidos:
     
 BACKGROUND_SEARCH 
   
-> A pesquisa deve ser executado com prioridade normal em relação a outras pesquisas. Esse sinalizador não pode ser definida simultaneamente como o sinalizador FOREGROUND_SEARCH.
+> A pesquisa deve ser executada em prioridade normal em relação a outras pesquisas. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador FOREGROUND_SEARCH.
     
 FOREGROUND_SEARCH 
   
-> A pesquisa deve ser executado em alta prioridade em relação a outras pesquisas. Esse sinalizador não pode ser definida simultaneamente como o sinalizador BACKGROUND_SEARCH.
+> A pesquisa deve ser executada com prioridade alta em relação a outras pesquisas. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador BACKGROUND_SEARCH.
     
 NON_CONTENT_INDEXED_SEARCH
   
-> A pesquisa não deve usar a indexação de conteúdo para encontrar as entradas correspondentes. Esse sinalizador só é válida para repositórios do Exchange.
+> A pesquisa não deve usar a indexação de conteúdo para localizar entradas correspondentes. Este sinalizador só é válido para repositórios do Exchange.
     
 RECURSIVE_SEARCH 
   
-> A pesquisa deve incluir os contêineres especificados no parâmetro _lpContainerList_ e todos os seus contêineres filho. Esse sinalizador não pode ser definida simultaneamente como o sinalizador SHALLOW_SEARCH. 
+> A pesquisa deve incluir os contêineres especificados no parâmetro _lpContainerList_ e todos os seus contêineres filhos. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador SHALLOW_SEARCH. 
     
 RESTART_SEARCH 
   
-> A pesquisa deve ser iniciada se esta for a primeira chamada para **definir SetSearchCriteria**ou reiniciada se a pesquisa está inativa. Esse sinalizador não pode ser definida simultaneamente como o sinalizador STOP_SEARCH.
+> A pesquisa deve ser iniciada se esta for a primeira chamada para **SetSearchCriteria**ou reiniciada se a pesquisa estiver inativa. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador STOP_SEARCH.
     
 SHALLOW_SEARCH 
   
-> A pesquisa deve parecer apenas nos contêineres especificados no parâmetro _lpContainerList_ para entradas correspondentes. Esse sinalizador não pode ser definida simultaneamente como o sinalizador RECURSIVE_SEARCH. 
+> A pesquisa deve procurar somente nos contêineres especificados no parâmetro _lpContainerList_ para entradas correspondentes. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador RECURSIVE_SEARCH. 
     
 STOP_SEARCH 
   
-> A pesquisa deve ser interrompida. Esse sinalizador não pode ser definida simultaneamente como o sinalizador RESTART_SEARCH.
+> A pesquisa deve ser interrompida. Este sinalizador não pode ser definido ao mesmo tempo que o sinalizador RESTART_SEARCH.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Os critérios de pesquisa foi definida com êxito.
+> Os critérios de pesquisa foram definidos com êxito.
     
 MAPI_E_TOO_COMPLEX 
   
-> O provedor de serviços não suporta os critérios de pesquisa especificado.
+> O provedor de serviços não oferece suporte aos critérios de pesquisa especificados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIContainer::SetSearchCriteria** estabelece critérios de pesquisa para um contêiner que suporta pesquisas, geralmente, uma pasta de resultados de pesquisa. Uma pasta de resultados de pesquisa contém links para as mensagens que atendam aos critérios de pesquisa; as mensagens reais ainda são armazenadas em seus locais originais. Os dados somente exclusivos que estão contidos em uma pasta de resultados de pesquisa são sua tabela de conteúdo. A tabela de conteúdo de uma pasta de resultados de pesquisa tem o conteúdo mesclado o armazenamento de mensagens depois que tiver sido aplicada a restrição de pesquisa. 
+O método **IMAPIContainer:: SetSearchCriteria** estabelece critérios de pesquisa para um contêiner que oferece suporte a pesquisas, normalmente uma pasta de resultados de pesquisa. Uma pasta de resultados de pesquisa contém links para as mensagens que atendem aos critérios de pesquisa; as mensagens reais ainda são armazenadas em seus locais originais. Os únicos dados exclusivos que estão contidos em uma pasta de resultados de pesquisa é sua tabela de conteúdo. A tabela de conteúdo de uma pasta de resultados de pesquisa tem o conteúdo mesclado do repositório de mensagens após a restrição de pesquisa ter sido aplicada. 
   
-Uma operação de pesquisa funciona somente nesta tabela mescladas conteúdo; ele não procura por meio de outras pastas de resultados de pesquisa. Os resultados da pesquisa retornam somente as mensagens que correspondem aos critérios de pesquisa; a hierarquia de pastas não será retornada.
+Uma operação de pesquisa funciona somente nesta tabela de conteúdo mesclado; Ele não pesquisa por outras pastas de resultados de pesquisa. Os resultados da pesquisa retornam apenas as mensagens que correspondem aos critérios de pesquisa; a hierarquia de pastas não é retornada.
   
-Controle é retornado ao cliente quando a conclusão da pesquisa.
+O controle é retornado ao cliente quando a pesquisa foi concluída.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Contêineres de catálogo de endereços estabelecer critérios de pesquisa aplicando restrições ao suas tabelas de conteúdo. Para obter mais informações sobre os critérios de pesquisa e contêineres do catálogo de endereços, consulte [Implementando a pesquisa avançada](implementing-advanced-searching.md).
+Os contêineres do catálogo de endereços estabelecem critérios de pesquisa aplicando restrições às tabelas de conteúdo. Para obter mais informações sobre critérios de pesquisa e contêineres do catálogo de endereços, consulte [implementaNdo pesquisa avançada](implementing-advanced-searching.md).
   
-Você deve suportar open, copiar, mover e excluir operações em todas as mensagens em pastas de resultados da pesquisa, não na pasta de resultados de pesquisa em si. Não permitir que as mensagens sejam criados dentro ou copiados para uma pasta de resultados de pesquisa. 
+Você deve oferecer suporte a operações abrir, copiar, mover e excluir nas mensagens dentro das pastas de resultados de pesquisa, e não na própria pasta de resultados de pesquisa. Não permite que as mensagens sejam criadas dentro ou copiadas para uma pasta de resultados de pesquisa. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para pesquisar os destinatários da mensagem, defina _lpRestriction_ para apontar para uma restrição subobjeto com o membro **ulSubObject** na estrutura de [SSubRestriction](ssubrestriction.md) definida como **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Para procurar anexos, defina o membro **ulSubObject** como **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Defina o membro **lpRes** para apontar para uma restrição de propriedade que descreve os critérios de pesquisa para os destinatários ou anexos. 
+Para procurar destinatários de mensagens, defina _lpRestriction_ para apontar para uma restrição de subobjeto com o membro **UlSubObject** na estrutura [SSubRestriction](ssubrestriction.md) definida como **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Para procurar anexos, defina o membro **ulSubObject** como **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Defina o membro **lpRes** para apontar para uma restrição de propriedade que descreve os critérios de pesquisa para os destinatários ou anexos. 
   
-Por exemplo, para procurar anexos de arquivo com a extensão .mss, defina **ulSubObject** **PR_MESSAGE_ATTACHMENTS** e **lpRes** para uma restrição de propriedade que corresponda **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md) ) com. mss.
+Por exemplo, para procurar anexos de arquivo com a extensão. MSS, defina **ulSubObject** como **PR_MESSAGE_ATTACHMENTS** e **lpRes** como uma restrição de propriedade que corresponda a **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md) ) com. MSS.
   
-Definir o sinalizador FOREGROUND_SEARCH no parâmetro _ulSearchFlags_ pode causar uma diminuição no desempenho do sistema. 
+Definir o sinalizador FOREGROUND_SEARCH no parâmetro _ulSearchFlags_ pode causar uma redução no desempenho do sistema. 
   
-Você pode usar **definir SetSearchCriteria** para alterar os critérios de pesquisa de uma pesquisa já está em andamento. Você pode especificar novas restrições, novas listas de pastas a serem pesquisadas e uma nova prioridade de pesquisa, como atualizar uma pesquisa para uma prioridade mais alta. Alterações na ordem de prioridade de pesquisa não farão com que uma pesquisa existente reiniciar, mas podem outras alterações aos critérios de pesquisa. 
+Você pode usar o **SetSearchCriteria** para alterar os critérios de pesquisa de uma pesquisa já em andamento. Você pode especificar novas restrições, novas listas de pastas a serem pesquisadas e uma nova prioridade de pesquisa, como atualizar uma pesquisa para uma prioridade mais alta. As alterações na prioridade de pesquisa não fazem com que uma pesquisa existente seja reiniciada, mas outras alterações nos critérios de pesquisa podem. 
   
-Quando você estiver por meio do uso de uma pasta de resultados de pesquisa, você pode excluir a pasta ou deixá-lo a permanecer abertas para uso posterior. Se você excluir a pasta de resultados de pesquisa, somente os links de mensagem serão excluídos. As mensagens reais permanecem em suas pastas pai. 
+Quando você usa uma pasta de resultados de pesquisa, você pode excluir a pasta ou deixá-la permanecer aberta para uso posterior. Se você excluir a pasta de resultados de pesquisa, somente os links de mensagens serão excluídos. As mensagens reais permanecem em suas pastas pai. 
   
-Para obter mais informações sobre as pastas de resultados da pesquisa, consulte [Pastas de pesquisa de MAPI](mapi-search-folders.md). 
+Para obter mais informações sobre pastas de resultados de pesquisa, consulte [pastas de pesquisa MAPI](mapi-search-folders.md). 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa o método **IMAPIContainer::SetSearchCriteria** para gravar os critérios de pesquisa para uma pasta depois que um usuário tenha editado-lo.  <br/> |
+|HierarchyTableDlg. cpp  <br/> |CHierarchyTableDlg:: OnEditSearchCriteria  <br/> |MFCMAPI usa o método **IMAPIContainer:: SetSearchCriteria** para gravar critérios de pesquisa para uma pasta após o usuário ter editado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -144,5 +144,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

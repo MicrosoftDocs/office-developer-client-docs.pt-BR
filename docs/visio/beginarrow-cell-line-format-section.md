@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
 description: Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu primeiro vértice. Insira um número de 0 a 45, utilize a função USE com o nome de um fim de linha personalizado ou use a caixa de diálogo Linha.
-ms.openlocfilehash: c6d5a66d76cfea61b1c9923c5b904dadec5495f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf5a512dabd0e6296b83fa7bfd2a2a6134143d50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346232"
 ---
 # <a name="beginarrow-cell-line-format-section"></a>Célula BeginArrow (Seção Line Format)
 
@@ -22,7 +22,7 @@ Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| 0  <br/> | Sem ponta de seta.  <br/> |
+| ,0  <br/> | Sem ponta de seta.  <br/> |
 | 1 - 45  <br/> | Estilos de ponta de seta variados correspondentes a entradas indexadas na caixa de diálogo **Linha**.  <br/> |
    
 ## <a name="remarks"></a>Comentários

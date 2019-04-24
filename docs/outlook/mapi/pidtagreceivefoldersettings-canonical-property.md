@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c8bd8c7fb2ff5a030cd96e4c3ac2bbb4b6b16ce5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8590e357252089aaa49a71d443037b9b9ed77ee4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356739"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Propriedade canônica PidTagReceiveFolderSettings
 
@@ -25,34 +25,34 @@ ms.locfileid: "22571455"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma tabela de uma mensagem repositório receberão as configurações de pasta.
+Contém uma tabela de configurações da pasta de recebimento de um repositório de mensagens.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identificador:  <br/> |0x3415  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
+|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser excluída em operações [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluída nas operações da [IMAPIProp::CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ele não pode ser recuperado com êxito pelo método [IMAPIProp::GetProps](imapiprop-getprops.md) ; seu conteúdo deve ser acessado pelo método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , solicitando a interface com o identificador IID_IMAPITable. Provedores de serviços devem relatá-la para o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) se ele estiver definido, mas pode, opcionalmente, relatá-la ou não se não estiver definida. 
+Esta propriedade pode ser excluída nas operações de [IMAPIProp:: CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps; seu conteúdo deve ser acessado pelo método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , solicitando a interface com identificador IID_IMAPITable. Os provedores de serviços devem relatá-lo para o método [IMAPIProp::](imapiprop-getproplist.md) getproplist, se estiver definido, mas pode opcionalmente relatá-lo ou não se ele não estiver definido. 
   
-Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Para obter mais informações, consulte as [Tabelas de pasta de recebimento](receive-folder-tables.md).
+Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Para obter mais informações, consulte [receber tabelas de pastas](receive-folder-tables.md).
   
-Essa propriedade contém uma tabela de mapeamento das pastas de recebimento para o armazenamento de mensagens. Chamar **OpenProperty** sobre esta propriedade é equivalente a chamar **GetReceiveFolderTable** no armazenamento de mensagens. 
+Esta propriedade contém uma tabela de mapeamentos das pastas de recebimento para o repositório de mensagens. Chamar **OpenProperty** nessa propriedade é equivalente a chamar **GetReceiveFolderTable** no repositório de mensagens. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

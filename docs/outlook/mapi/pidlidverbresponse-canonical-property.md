@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 474df017954618e6411494454c1405445563b862
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360554"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>Propriedade canônica PidLidVerbResponse
 
@@ -25,35 +25,35 @@ ms.locfileid: "25386989"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a opção de votação que um participante selecionado.
+Especifica a opção de votação que um Respondente selecionou.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidVerbResponse  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008524  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008524  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade normalmente é definida como um dos valores delimitados contidos na propriedade **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) no qual um participante votações.
+Essa propriedade normalmente é definida como um dos valores delimitados contidos na propriedade **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) em que os votos de pesquisa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
+> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

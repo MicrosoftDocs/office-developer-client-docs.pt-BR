@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1033809
 localization_priority: Normal
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
-description: Chama uma macro em um Microsoft Visual Basic para o project Applications (VBA).
-ms.openlocfilehash: e3dd989956ce9c5f795ae3ef0d8535ab2776d6d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Chama uma macro em um projeto do Microsoft Visual Basic for Applications (VBA).
+ms.openlocfilehash: 77045bd67fe9be9aab14e73199b33b93c6d70c2c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355710"
 ---
 # <a name="runmacro-function"></a>Função RUNMACRO
 
-Chama uma macro em um Microsoft Visual Basic para o project Applications (VBA). 
+Chama uma macro em um projeto do Microsoft Visual Basic for Applications (VBA). 
   
 ## <a name="syntax"></a>Sintaxe
 
-RUNMACRO (* * *macroname* * * [, * * *nomeProj_opc* * *]) 
+RunMacro (* * *macroname* * * [, * * *projname_opt* * *]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _macroname_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome da macro a ser chamada.  <br/> |
-| _nomeProj_opc_ <br/> |Opcional  <br/> |**String** <br/> | O projeto que contém a macro.  <br/> |
+| _nomedamacro_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome da macro a ser chamada.  <br/> |
+| _projname_opt_ <br/> |Opcional  <br/> |**String** <br/> | O projeto que contém a macro.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se um projeto for especificado, o Microsoft Visio verifica todos os documentos abertos para a um que contêm chamadas e _nomeProj_opc_ _macroname_ no projeto. Se _nomeProj_opc_ for omitido ou nulo (""), _macroname_ será considerado no projeto VBA do documento que contém a fórmula RUNMACRO sendo avaliada. 
+Se um projeto for especificado, o Microsoft Visio examinará todos os documentos abertos que contenham _projname_opt_ e chamará _nomedamacro_ nesse projeto. Se _projname_opt_ for omitido ou nulo ("") __ , macroname será considerado no projeto VBA do documento que contém a fórmula ExecutarMacro que está sendo avaliada. 
   
-A função RUNMACRO difere da função CALLTHIS não passe uma referência para a forma que contém a fórmula sendo avaliada para _macroname_. Assim como CALLTHIS, a função RUNMACRO não exige uma referência para _nomeProj_opc_ para ligar para ele. 
+A função RUNMACRO difere da função CALLTHIS, pois ela não passa uma referência para a forma que possui a fórmula que está sendo avaliada como _nomedamacro_. Como CALLTHIS, a função RUNMACRO não exige uma referência a _projname_opt_ para chamá-la. 
   
  O código VBA, que é invocado quando a instância do Visio avalia uma função RUNMACRO em uma fórmula, não deve fechar o documento que contém a célula que está usando a função, uma vez que ocorrerá um erro de aplicativo e o Visio será fechado. 
   

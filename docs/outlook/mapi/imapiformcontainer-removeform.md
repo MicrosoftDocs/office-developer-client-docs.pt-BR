@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1a1d11db538d9b5368d80962e44b9eab38b490d2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e53c0cbd9946ff04516594a7ce99fdc2daf4ff4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355738"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575648"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove um determinado formulário de um contêiner de formulário.
+Remove um formulário específico de um contêiner de formulários.
   
 ```cpp
 HRESULT RemoveForm(
@@ -37,25 +37,25 @@ HRESULT RemoveForm(
 
  _szMessageClass_
   
-> [in] Uma cadeia de caracteres que nomeia a classe de mensagem do formulário a ser removido do contêiner do formulário. Nomes de classe de mensagem são sempre cadeias de caracteres ANSI, Unicode nunca.
+> no Uma cadeia de caracteres que nomeia a classe de mensagem do formulário a ser removido do contêiner de formulários. Os nomes de classe de mensagem são sempre cadeias de caracteres ANSI, nunca Unicode.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> A classe de mensagem passada no parâmetro _szMessageClass_ não coincide com a classe de mensagem de qualquer formulário no contêiner do formulário. 
+> A classe de mensagem passada no parâmetro _szMessageClass_ não corresponde à classe de mensagem de qualquer formulário no contêiner de formulários. 
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFormContainer::RemoveForm** para excluir um formulário de um contêiner de formulário.  <br/> |
+|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFormContainer:: RemoveForm** para excluir um formulário de um contêiner de formulários.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -64,5 +64,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

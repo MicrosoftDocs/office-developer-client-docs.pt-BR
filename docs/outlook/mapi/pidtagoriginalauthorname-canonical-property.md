@@ -13,11 +13,11 @@ api_type:
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bb62f3a44c9f17070db969683891fb2e2d62eb5e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355773"
 ---
 # <a name="pidtagoriginalauthorname-canonical-property"></a>Propriedade canônica PidTagOriginalAuthorName
 
@@ -25,7 +25,7 @@ ms.locfileid: "25392701"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de exibição do autor da primeira versão de uma mensagem, ou seja, a mensagem antes que está sendo encaminhada ou respondida.
+Contém o nome de exibição do autor da primeira versão de uma mensagem, ou seja, a mensagem antes de ser encaminhada ou respondida.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém o nome de exibição do autor da primeira versão de uma mensagem, ou se
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essas propriedades para o valor da **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Ele nunca é alterado quando a mensagem for encaminhada ou respondida.
+Essas propriedades são exemplos das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essas propriedades com o valor de **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Ela nunca é alterada quando a mensagem é encaminhada ou respondida.
   
-As propriedades de autor original permitem preservação de informações de fora do domínio de mensagens local. Quando uma mensagem é recebida de outro domínio de mensagens, como da Internet, essas propriedades fornecem uma maneira de garantir que as informações originais não sejam perdidas.
+As propriedades de autor originais permitem a preservação de informações de fora do domínio de mensagens local. Quando uma mensagem chega de outro domínio de mensagens, como a partir da Internet, essas propriedades fornecem uma maneira de garantir que as informações originais não sejam perdidas.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

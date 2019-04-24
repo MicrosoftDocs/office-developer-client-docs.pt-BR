@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a119cf1446600153e433c4aae99037d9810015c0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342480"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propriedade canônica PidTagMemberName
 
@@ -25,7 +25,7 @@ ms.locfileid: "25390888"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de exibição de um membro da tabela de lista (ACL) do controle do access.
+Contém o nome de exibição de um membro da tabela de lista de controle de acesso (ACL).
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém o nome de exibição de um membro da tabela de lista (ACL) do controle d
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são usadas pelo [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) interface para exibir o nome de um membro de uma tabela ACL, que é uma pessoa ou função com direitos explícitos em uma pasta ou caixa de correio. 
+Essas propriedades são usadas pela interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) para exibir o nome de um membro de uma tabela ACL, que é uma pessoa ou função com direitos explícitos em uma pasta ou caixa de correio. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Trata a recuperação de listas de permissão de pastas que são armazenados no servidor.
+> Lida com a recuperação de listas de permissões de pastas armazenadas no servidor.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -69,7 +69,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

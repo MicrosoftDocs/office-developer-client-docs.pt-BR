@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 7ba58cc87b0eefe6c6ff70994d887d7f83e713b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7fef84b7519c7a9d6373198283e903fba4fd0780
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345805"
 ---
 # <a name="mapi-objects-and-properties"></a>Propriedades e objetos MAPI
 
@@ -21,9 +21,9 @@ ms.locfileid: "22592399"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Algumas propriedades são compatíveis com muitos tipos diferentes de objetos. As propriedades a seguir são exemplos de propriedades que são utilizadas por vários objetos:
+Algumas propriedades são suportadas por muitos tipos diferentes de objetos. As propriedades a seguir são exemplos de propriedades que são usadas por vários objetos:
   
-- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) é um identificador binário usado para abrir os objetos.
+- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) é um identificador binário usado para abrir objetos.
     
 - **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) é uma constante usada para identificar o tipo de objeto.
     
@@ -37,19 +37,19 @@ Outras propriedades fazem sentido para um único tipo de objeto. As propriedades
     
 - **PR_ATTACH_SIZE** ([PidTagAttachSize](pidtagattachsize-canonical-property.md)) é um inteiro usado para armazenar o número de bytes em um anexo.
     
-Ainda outras propriedades são aplicáveis somente para um único tipo de objeto em um determinado estado. Propriedades desse tipo são geralmente propriedades da mensagem. Quando uma mensagem é criada pela primeira vez, seu conjunto de propriedades é muito pequeno. Como ele é enviado por um cliente para um destinatário por meio do sistema de mensagens, aumenta o número de propriedades necessárias para descrever a mensagem. Algumas dessas propriedades adicionadas aparecem apenas na mensagem conforme ele está sendo entregue enquanto outras pessoas aparecem apenas na mensagem, conforme ele está sendo enviado. Mensagens também têm propriedades que estão associadas a classe às quais eles pertencem. Mensagens de relatório, por exemplo, têm propriedades que não são suportadas pelo mensagens de outras classes, como mensagens de nota. 
+Outras propriedades ainda são aplicáveis apenas para um único tipo de objeto em um determinado estado. Propriedades desse tipo são normalmente Propriedades de mensagem. Quando uma mensagem é criada pela primeira vez, seu conjunto de propriedades é muito pequeno. Como ele é enviado por um cliente para um destinatário através do sistema de mensagens, o número de propriedades necessárias para descrever a mensagem aumenta. Algumas dessas propriedades adicionadas aparecem apenas na mensagem à medida que elas são entregues enquanto outras são exibidas apenas na mensagem à medida que ele é enviado. As mensagens também têm propriedades associadas à classe à qual pertencem. Mensagens de relatório, por exemplo, têm propriedades que não são suportadas por mensagens de outras classes, como mensagens de observação. 
   
-Cada objeto tem algumas propriedades necessárias e pode ou não ter outras propriedades opcionais. Propriedades necessárias são propriedades devem existir em um objeto antes do objeto pode ser salva com êxito com seu método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Clientes ou provedores de serviço usando um objeto podem depender a disponibilidade das propriedades necessárias após a chamada **SaveChanges** . Ou seja, eles podem ser certeza de que uma chamada para o método [IMAPIProp::GetProps](imapiprop-getprops.md) do objeto ou o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para recuperar essas propriedades terá êxito. 
+Cada objeto tem algumas propriedades necessárias e pode ou não ter outras propriedades opcionais. As propriedades obrigatórias são propriedades que devem existir em um objeto antes que o objeto possa ser salvo com êxito com o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Os clientes ou provedores de serviços que usam um objeto podem depender da disponibilidade das propriedades necessárias após a chamada **SaveChanges** . Ou seja, eles podem ter certeza de que uma chamada para o método [IMAPIProp:](imapiprop-getprops.md) : GetProps ou [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do objeto para recuperar essas propriedades será bem-sucedida. 
   
-Propriedades opcionais são propriedades que, dependendo do implementador do objeto, pode ou não podem ser suportadas por um objeto. Um provedor de cliente ou de serviço usando o objeto não pode esperar propriedades opcionais esteja disponível por meio dos métodos **GetProps** ou **OpenProperty** e seja definida como valores válidos. 
+Propriedades opcionais são propriedades que, dependendo do implementador do objeto, podem ou não ser suportados por um objeto. Um provedor de serviços ou cliente que usa o objeto não pode esperar que as propriedades opcionais estejam disponíveis por meio dos métodos getProps ou **OpenProperty** e sejam definidas como valores válidos. **** 
   
-Para uma lista ou propriedades em esta referência, consulte [Propriedades MAPI](mapi-properties.md). Descrições das propriedades pertencentes a cada da mensagem armazenam e objetos de catálogo de endereços que podem ser encontrados na discussão de interface de padrão do objeto. Por exemplo, as propriedades da pasta são discutidas com **IMAPIFolder** e mensagens de propriedades de usuário são abordadas com **IMailUser**. Propriedades da mensagem, incluindo propriedades de mensagem do relatório, são descritas com **IMessage** e em [Visão geral das propriedades de mensagem](message-properties-overview.md). Propriedades que pertencem a cada um dos tipos diferentes de tabelas são descritas no tópico apropriado de [Tabelas de MAPI](mapi-tables.md) . Por exemplo, as propriedades da tabela de hierarquia são descritas nas [Tabelas de hierarquia](hierarchy-tables.md). Propriedades que pertencem aos servidores de formulário são descrevendo na [Escolha de propriedade definida um formulário](choosing-a-form-s-property-set.md).
+Para uma lista ou propriedades na referência this, consulte [MAPI Properties](mapi-properties.md). As descrições das propriedades pertencentes a cada um dos objetos repositório de mensagens e catálogo de endereços podem ser encontradas na discussão da interface padrão do objeto. Por exemplo, as propriedades de pasta são discutidas com o **IMAPIFolder** e as propriedades do usuário de mensagens são discutidas com o **IMailUser**. As propriedades de mensagens, incluindo as propriedades do relatório de mensagens, são descritas com **IMessage** e na [mensagem de visão geral de propriedades](message-properties-overview.md). As propriedades pertencentes a cada um dos diferentes tipos de tabelas são descritas no tópico [tabelas MAPI](mapi-tables.md) apropriadas. Por exemplo, as propriedades da tabela hierarquia são descritas em [tabelas de hierarquia](hierarchy-tables.md). As propriedades pertencentes a servidores de formulário são descrevem como [escolher o conjunto de propriedades de um formulário](choosing-a-form-s-property-set.md).
   
-Quando um cliente ou serviço provedor chama um método do objeto **GetProps** para recuperar várias de suas propriedades e uma dessas propriedades não estiver disponível, **GetProps** retorna o aviso MAPI_W_ERRORS_RETURNED. A chamada é considerada seja bem sucedido, pois algumas das propriedades foram retornadas. Quando um cliente ou chamadas de provedor de serviço **OpenProperty** e a propriedade de destino estiver indisponível, o método falhar com o erro E_NOT_FOUND. É importante verificar se uma propriedade solicitada é retornada antes de tentar trabalhar com ele. 
+Quando um cliente ou provedor de serviços chama o método **** GetProps de um objeto para recuperar várias de suas propriedades e uma dessas propriedades não está disponível, GetProps Retorna o aviso MAPI_W_ERRORS_RETURNED. **** A chamada é considerada com êxito porque algumas das propriedades foram retornadas. Quando um cliente ou provedor de serviços **** chama OpenProperty e a propriedade target não está disponível, o método falha com o erro MAPI_E_NOT_FOUND. É importante verificar se uma propriedade solicitada é retornada antes de tentar trabalhar com ela. 
   
-Dependendo do objeto, o provedor de serviços, fornecendo a implementação e a propriedade, uma propriedade pode ter permissão somente leitura ou leitura/gravação. Permissão de leitura/gravação permite que um provedor de cliente ou serviço que usa a propriedade para alterar seu valor; permissão somente leitura permite que apenas o provedor de serviços ao qual pertence o objeto fazer alterações. 
+Dependendo do objeto, o provedor de serviços que fornece a implementação e a propriedade, uma propriedade pode ter permissão de leitura/gravação ou somente leitura. A permissão de leitura/gravação permite que um cliente ou provedor de serviços usando a propriedade altere seu valor; a permissão somente leitura permite que apenas o provedor de serviços que possui o objeto faça alterações. 
   
-Para saber exatamente quais propriedades estão definidas para um objeto, chame [IMAPIProp::GetPropList](imapiprop-getproplist.md). O método **GetPropList** permite que um chamador Descubra o que há disponível antes da tentativa de abrir uma propriedade potencialmente inexistente. Como não há nenhum conjunto padrão das propriedades que oferecem suporte a todos os objetos de um tipo específico, é impossível de adivinhar ou não um objeto oferece suporte a uma propriedade específica. Chamar **GetPropList** elimina as suposições. 
+Para descobrir exatamente quais propriedades estão atualmente definidas para um objeto, chame [IMAPIProp::](imapiprop-getproplist.md)getproplist. O **** método getproplist permite que um chamador descubra o que está disponível antes de uma tentativa de abrir uma propriedade potencialmente não existente ser feita. Como não há um conjunto padrão de propriedades que todos os objetos de um tipo específico oferecem suporte, é impossível adivinhar se um objeto suporta ou não uma determinada propriedade. Chamar **** getproplist elimina o trabalho de adivinhação. 
   
 ## <a name="see-also"></a>Confira também
 

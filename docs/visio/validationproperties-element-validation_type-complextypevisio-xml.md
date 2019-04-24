@@ -1,31 +1,31 @@
 ---
-title: Elemento ValidationProperties (Validation_Type complexType) ('Visio XML')
+title: Elemento Validationproperties (Validation_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
-description: Encapsula as propriedades relacionadas a validação do documento.
+description: Encapsula as propriedades relacionadas à validação do documento.
 ms.openlocfilehash: 9eccb85bd7463411d81c867eda3216d6c9a207f2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355955"
 ---
-# <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Elemento ValidationProperties (Validation_Type complexType) ('Visio XML')
+# <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Elemento Validationproperties (Validation_Type complexType) (' Visio XML ')
 
-Encapsula as propriedades relacionadas a validação do documento.
+Encapsula as propriedades relacionadas à validação do documento.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation.XML  <br/> |
+|**Partes do documento** <br/> |Validation. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Encapsula as propriedades relacionadas a validação do documento.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Validação](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Armazena informações sobre a validação de diagrama do documento.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Armazena informações sobre a validação de diagrama do documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,9 +50,9 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |XSD: DateTime  <br/> |obrigatório  <br/> |A data e hora em que o documento foi validado última.  <br/> |Valores do tipo xsd: DateTime.  <br/> |
-|ShowIgnored  <br/> |XSD:Boolean  <br/> |obrigatório  <br/> |Especifica se deve mostrar questões ignoradas de validação na janela questões.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> |A data e hora em que o documento foi validado pela última vez.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
+|Não ignorado  <br/> |xsd:boolean  <br/> |obrigatório  <br/> |Especifica se os problemas de validação ignorados devem ser mostrados na janela problemas.  <br/> |Valores do tipo xsd:boolean.  <br/> |
    
 

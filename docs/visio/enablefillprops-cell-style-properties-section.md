@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
 description: Determina se um estilo inclui propriedades de preenchimento.
-ms.openlocfilehash: 399af4b9d1a2245ea7a9b91ebbf036eb122f15bd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55191cb28d5777f7fb65a3a1e4be890e6dda4e8b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345560"
 ---
 # <a name="enablefillprops-cell-style-properties-section"></a>Célula EnableFillProps (Seção Style Properties)
 
@@ -22,8 +22,8 @@ Determina se um estilo inclui propriedades de preenchimento.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Incluir propriedades de preenchimento.  <br/> |
-|FALSO  <br/> |Excluir propriedades de preenchimento.  <br/> |
+|TRUE  <br/> |Incluir propriedades de preenchimento.  <br/> |
+|FALSE  <br/> |Excluir propriedades de preenchimento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

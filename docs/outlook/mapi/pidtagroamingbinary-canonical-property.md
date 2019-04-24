@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ead7c9c33c92240ba5e458b68635b766caaa9760
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359560"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>Propriedade canônica PidTagRoamingBinary
 
@@ -21,7 +21,7 @@ ms.locfileid: "25401668"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um fluxo de mensagens associado a uma subclasse do **IPM. Configuração** classe. 
+Contém um fluxo de mensagens associado a uma subclasse de **IPM. **Classe de configuração. 
   
 |||
 |:-----|:-----|
@@ -32,29 +32,29 @@ Contém um fluxo de mensagens associado a uma subclasse do **IPM. Configuração
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém o fluxo de dados associado a um **IPM. Configuração** mensagem de classe de mensagem. O formato do fluxo depende de classe da mensagem. Por exemplo, uma mensagem do tipo de classe **IPM. Configuration.Autocomplete** seria formatada como um [fluxo de AutoCompletar](autocomplete-stream.md).
+Esta propriedade contém o fluxo de dados associado a um **IPM. **Mensagem de classe da mensagem de configuração. O formato do fluxo depende da classe da mensagem. Por exemplo, uma mensagem de tipo de classe **IPM. A configuração. AutoComplete** será formatada como um [fluxo de preenchimento automático](autocomplete-stream.md).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Microsoft Exchange Server.
+> Fornece referências para as especificações de protocolo do Microsoft Exchange Server relacionadas.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica o local e as propriedades de dados de configuração de cliente e servidor, como listas de categoria compartilhada e o horário de trabalho.
+> Especifica o local e as propriedades dos dados de configuração de cliente e de servidor, como listas de categorias compartilhadas e horários de trabalho.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

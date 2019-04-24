@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Retorna a raiz quadrada de um número.
-ms.openlocfilehash: 020a286c3e652c7b135a1013cee61e7b39cc9b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349354"
 ---
 # <a name="sqrt-function"></a>Função SQRT
 
@@ -26,21 +26,21 @@ SQRT (* * *número* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O número cuja raiz quadrada você deseja localizar.  <br/> |
+| _number_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número cuja raiz quadrada você deseja localizar.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Numérico
+Numeric
   
 ## <a name="remarks"></a>Comentários
 
-Se _Núm_ for negativo, a função SQRT retornará o valor de erro #NUM!. 
+Se _núm_ for negativo, a função sqrt retornará o valor de erro #NUM!. 
   
 ## <a name="example"></a>Exemplo
 
-SQRT(2) 
+RAIZ (2) 
   
 Retorna 1,4142. 
   

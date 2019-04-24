@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 49cb500279540317059cde2d9baba28fcbf06165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0aa77ced9d0c242dcafb84ca1e1a60d02db9504a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357446"
 ---
 # <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
@@ -25,22 +25,22 @@ ms.locfileid: "22574108"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicializa um objeto de provedor de transporte e desliga o objeto quando ele não é mais necessária.
+Inicializa um objeto de provedor de transporte e desliga o objeto quando ele não é mais necessário.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Expostos pelo:  <br/> |Objetos do provedor de transporte  <br/> |
-|Implementada por:  <br/> |Provedores de transporte  <br/> |
-|Chamado pelo:  <br/> |O MAPI spooler  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Exposto por:  <br/> |Objetos do provedor de transporte  <br/> |
+|Implementado por:  <br/> |Provedores de transporte  <br/> |
+|Chamado por:  <br/> |O spooler MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IXPProvider  <br/> |
 |Tipo de ponteiro:  <br/> |LPXPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Shutdown](ixpprovider-shutdown.md) <br/> |Fecha para baixo de um provedor de transporte de forma ordenada.  <br/> |
-|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Estabelece uma sessão em que um aplicativo cliente faz logon em um provedor de transporte.  <br/> |
+|[Shutdown](ixpprovider-shutdown.md) <br/> |Fecha um provedor de transporte de maneira ordenada.  <br/> |
+|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Estabelece uma sessão na qual um aplicativo cliente faz logon em um provedor de transporte.  <br/> |
    
 

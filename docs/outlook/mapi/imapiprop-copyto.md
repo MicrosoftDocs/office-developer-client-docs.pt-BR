@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f76b0a5482647fe3e181a36d7dcd8cb60ffc8985
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356389"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
@@ -25,7 +25,7 @@ ms.locfileid: "25388578"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia ou move todas as propriedades, exceto especificamente propriedades excluídas.
+Copia ou move todas as propriedades, exceto as propriedades especificamente excluídas.
   
 ```cpp
 HRESULT CopyTo(
@@ -45,39 +45,39 @@ HRESULT CopyTo(
 
  _ciidExclude_
   
-> [in] A contagem de interfaces a serem excluídos quando as propriedades são copiadas ou movidas.
+> no A contagem de interfaces a serem excluídas quando as propriedades são copiadas ou movidas.
     
  _rgiidExclude_
   
-> [in] Uma matriz de identificadores de interface (IIDs) que especificam as interfaces que não devem ser usados quando informações complementares são copiadas ou movidas para o objeto de destino.
+> no Uma matriz de identificadores de interface (IIDs) que especificam interfaces que não devem ser usadas quando as informações suplementares são copiadas ou movidas para o objeto de destino.
     
  _lpExcludeProps_
   
-> [in] Um ponteiro para uma matriz de marca de propriedade que identifica as marcas de propriedade que devem ser excluídas da cópia ou a operação de movimentação. Passando o parâmetro _lpExcludeProps_ **Nulo** indica que todas as propriedades do objeto devem ser copiadas ou movidas. **CopyTo** retorna MAPI_E_INVALID_PARAMETER quando o membro **cValues** da estrutura [SPropProblemArray](spropproblemarray.md) apontado pela _lpExcludeProps_ estiver definido como 0. 
+> no Um ponteiro para uma matriz de marca de propriedade que identifica as marcas de propriedade que devem ser excluídas da operação de cópia ou movimentação. Passar **NULL** no parâmetro _lpExcludeProps_ indica que todas as propriedades do objeto devem ser copiadas ou movidas. **CopyTo** retorna MAPI_E_INVALID_PARAMETER quando o membro **CValues** da estrutura [SPropProblemArray](spropproblemarray.md) apontada por _lpExcludeProps_ é definida como 0. 
     
  _ulUIParam_
   
-> [in] Um identificador para a janela pai do indicador de progresso. 
+> no Uma alça para a janela pai do indicador de progresso. 
     
  _lpProgress_
   
-> [in] Um ponteiro para uma implementação do indicador de progresso. Se **Nulo** é passado no parâmetro _lpProgress_ , MAPI fornece a implementação de andamento. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ . 
+> no Um ponteiro para uma implementação de indicador de progresso. Se **NULL** for passado no parâmetro _lpProgress_ , MAPI fornecerá a implementação de progresso. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar o objeto apontado pelo parâmetro _lpDestObj_ . O parâmetro _lpInterface_ não deve ser **nula**.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o objeto apontado pelo parâmetro _lpDestObj_ . O parâmetro _lpInterface_ não deve ser **nulo**.
     
  _lpDestObj_
   
-> [in] Um ponteiro para o objeto para receber as propriedades copiadas ou movidas.
+> no Um ponteiro para o objeto para receber as propriedades copiadas ou movidas.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a operação de cópia ou movimentação. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam a operação de cópia ou movimentação. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_DECLINE_OK 
   
-> Se **CopyTo** chama o método [IMAPISupport::DoCopyTo](imapisupport-docopyto.md) para lidar com a cópia ou a operação de movimentação, ele em vez disso, deve retornar imediatamente com o valor de erro MAPI_E_DECLINE_COPY. O sinalizador MAPI_DECLINE_OK é definido por MAPI para limitar a recursão. Os clientes não definir esse sinalizador. 
+> Se **CopyTo** chamar o método [IMAPISupport::D ocopyto](imapisupport-docopyto.md) para manipular a operação de cópia ou movimentação, ele deverá retornar imediatamente com o valor de erro MAPI_E_DECLINE_COPY. O sinalizador MAPI_DECLINE_OK é definido por MAPI para limitar a recursividade. Os clientes não definem esse sinalizador. 
     
 MAPI_DIALOG 
   
@@ -85,25 +85,25 @@ MAPI_DIALOG
     
 MAPI_MOVE 
   
-> **CopyTo** deve realizar uma operação de movimentação, em vez de uma operação de cópia. Quando esse sinalizador não estiver definida, **CopyTo** executa uma operação de cópia. 
+> **CopyTo** deve executar uma operação de movimentação em vez de uma operação de cópia. Quando esse sinalizador não é definido, **CopyTo** executa uma operação de cópia. 
     
 MAPI_NOREPLACE 
   
-> Propriedades existentes no objeto de destino não devem ser substituídas. Quando esse sinalizador não estiver definida, **CopyTo** substitui as propriedades existentes. 
+> As propriedades existentes no objeto de destino não devem ser substituídas. Quando esse sinalizador não é definido, **CopyTo** substitui as propriedades existentes. 
     
  _lppProblems_
   
-> [além, out] Na entrada, um ponteiro para um ponteiro para uma estrutura **SPropProblemArray** ; Caso contrário, **null**, indicando sem a necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **CopyTo** retorna informações detalhadas sobre erros no copiando uma ou mais propriedades. 
+> [in, out] Na entrada, um ponteiro para um ponteiro para uma estrutura **SPropProblemArray** ; caso contrário, **NULL**, indicando que não há necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **CopyTo** retornará informações detalhadas sobre erros ao copiar uma ou mais propriedades. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As propriedades foi copiadas ou movidas com êxito.
+> As propriedades foram copiadas ou movidas com êxito.
     
 MAPI_E_COLLISION 
   
-> Não é possível copiar um Subobjeto porque um Subobjeto com o mesmo nome para exibição — especificado pela propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) — já existe no objeto de destino. 
+> Um subobjeto não pode ser copiado porque um subobjeto com o mesmo nome de exibição, especificado pela propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), já existe no objeto de destino. 
     
 MAPI_E_DECLINE_COPY 
   
@@ -111,25 +111,25 @@ MAPI_E_DECLINE_COPY
     
 MAPI_E_FOLDER_CYCLE 
   
-> O objeto de origem executando a operação de cópia ou movimentação direta ou indiretamente contém o objeto de destino. Trabalho significativo pode ter sido executado antes que esta condição foi descoberta, para que os objetos de origem e destino podem ser modificados parcialmente. 
+> O objeto de origem executando a operação copiar ou mover direta ou indiretamente contém o objeto de destino. Um trabalho significativo pode ter sido realizado antes da descoberta dessa condição, portanto, os objetos de origem e de destino podem ser parcialmente modificados. 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> Não há suporte para a interface identificada pelo parâmetro _lpInterface_ pelo objeto de destino. 
+> A interface identificada pelo parâmetro _lpInterface_ não é suportada pelo objeto de destino. 
     
 MAPI_E_NO_ACCESS 
   
-> Foi feita uma tentativa de acessar um objeto para o qual o chamador tem permissões insuficientes. Esse erro será retornado se o objeto de destino é o mesmo que o objeto de origem.
+> Foi feita uma tentativa de acessar um objeto para o qual o chamador tem permissões insuficientes. Esse erro será retornado se o objeto de destino for o mesmo que o objeto de origem.
     
-Os seguintes valores podem ser retornados na estrutura de **SPropProblemArray** , mas não como valores de retorno para **CopyTo**. Os seguintes erros se aplicam a uma única propriedade:
+Os valores a seguir podem ser retornados na estrutura **SPropProblemArray** , mas não como valores de retorno para **CopyTo**. Os seguintes erros se aplicam a uma única propriedade:
   
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e **CopyTo** não oferece suporte a Unicode, ou MAPI_UNICODE não foi definido e **CopyTo** suporta somente Unicode. 
+> O sinalizador MAPI_UNICODE foi definido e **CopyTo** não dá suporte a Unicode, ou o MAPI_UNICODE não foi definido e o **CopyTo** suporta apenas Unicode. 
     
 MAPI_E_COMPUTED 
   
-> A propriedade não pode ser modificada pelo chamador porque ele é uma propriedade somente leitura, computada pelo proprietário do objeto de destino. Esse erro não é grave; o chamador deve permitir que a operação de cópia continuar.
+> A propriedade não pode ser modificada pelo chamador porque é uma propriedade somente leitura, calculada pelo proprietário do objeto de destino. Esse erro não é grave; o chamador deve permitir que a operação de cópia continue.
     
 MAPI_E_INVALID_TYPE 
   
@@ -141,57 +141,57 @@ MAPI_E_UNEXPECTED_TYPE
     
 ## <a name="remarks"></a>Comentários
 
-Por padrão, o método **IMAPIProp::CopyTo** copia ou move todas as propriedades do objeto atual a um objeto de destino. **CopyTo** é usado quando um objeto deve ser copiado ou movido exatamente, com todos ou a maioria de suas propriedades intactas. 
+Por padrão, o método **IMAPIProp:: CopyTo** copia ou move todas as propriedades do objeto atual para um objeto de destino. **CopyTo** é usado quando um objeto deve ser copiado ou movido exatamente, com todas ou a maioria de suas propriedades intacta. 
   
-Qualquer subobjetos no objeto de origem automaticamente estão incluídos na operação e são copiados ou movidos na íntegra. Por padrão, **CopyTo** substitui quaisquer propriedades no objeto de destino que corresponde às propriedades do objeto de origem. Se qualquer uma das propriedades movidas ou copiadas já existir no objeto de destino, as propriedades existentes são sobrescritas por novas propriedades, exceto se o sinalizador MAPI_NOREPLACE estiver definido no parâmetro _ulFlags_ . As informações existentes no objeto de destino que não será substituído são permanecem inalteradas. 
+Todos os subobjetos no objeto de origem são automaticamente incluídos na operação e são copiados ou movidos completamente. Por padrão, **CopyTo** substitui quaisquer propriedades no objeto de destino que correspondam às propriedades do objeto de origem. Se qualquer uma das propriedades copiadas ou movidas já existir no objeto de destino, as propriedades existentes serão sobrescritas pelas novas propriedades, a menos que o sinalizador MAPI_NOREPLACE seja definido no parâmetro _parâmetroulflags_ . As informações existentes no objeto de destino que não estão sobrescritas são deixadas inalteradas. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você pode fornecer uma implementação total de **CopyTo** ou baseiam-se na implementação de MAPI fornece em seu objeto de suporte. Se você quiser usar a implementação de MAPI, chame **IMAPISupport::DoCopyTo**. No entanto, se você delega o processamento para **DoCopyTo** e você é passadas o sinalizador MAPI_DECLINE_OK, evitar a chamada de suporte e retornar MAPI_E_DECLINE_COPY em vez disso. MAPI chamará com esse sinalizador para evitar a recursão possível que pode acontecer quando as pastas são copiadas. 
+Você pode fornecer uma implementação completa de **CopyTo** ou depender da implementação que a MAPI fornece em seu objeto support. Se você quiser usar a implementação MAPI, chame **IMAPISupport::D ocopyto**. No enTanto, se você fizer o **** processamento de representante para docopyto e passar o sinalizador MAPI_DECLINE_OK, evite a chamada de suporte e retorne MAPI_E_DECLINE_COPY. O MAPI chamará com esse sinalizador para evitar a possível recursão que pode ocorrer quando pastas são copiadas. 
   
-Como a operação de cópia pode ser demorada, você deve exibir um indicador de progresso. Use a implementação de [IMAPIProgress](imapiprogressiunknown.md) passada no parâmetro _lpProgress_ , se houver uma. Se _lpProgress_ for **nula**, chame o método de [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) para usar a implementação de MAPI. 
+Como a operação de cópia pode ser demorada, você deve exibir um indicador de progresso. Use a implementação [método imapiprogress](imapiprogressiunknown.md) passada no parâmetro _lpProgress_ , se houver um. Se _lpProgress_ for **NULL**, chame o método [IMAPISupport::D OPROGRESSDIALOG](imapisupport-doprogressdialog.md) para usar a implementação MAPI. 
   
-Não tente definir quaisquer propriedades conhecidas de somente leitura no objeto de destino; retorne MAPI_E_NO_ACCESS em vez disso.
+Não tente definir nenhuma propriedade somente leitura conhecida no objeto de destino; em vez disso, retorne MAPI_E_NO_ACCESS.
   
-Os objetos de origem e destino devem usar as mesmas interfaces. Retorne MAPI_E_INVALID_PARAMETER se _lpInterface_ não estiver definida. 
+Os objetos de origem e destino devem usar as mesmas interfaces. Retornar MAPI_E_INVALID_PARAMETER se _lpInterface_ não estiver definido. 
   
-Retorne MAPI_E_INTERFACE_NOT_SUPPORTED se todas as interfaces conhecidas serão excluídas.
+Retornar MAPI_E_INTERFACE_NOT_SUPPORTED se todas as interfaces conhecidas forem excluídas.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Não definir o sinalizador MAPI_DECLINE_OK; MAPI usa em suas chamadas para implementações de **CopyTo** do provedor de repositório de mensagem. 
+Não defina o sinalizador MAPI_DECLINE_OK; MAPI usa-o em suas chamadas para implementações **CopyTo** de provedor de repositório de mensagens. 
   
-Porque as operações de movimentação e cópia podem demorar, você deve solicitar a exibição de um indicador de progresso, definindo o sinalizador MAPI_DIALOG. Você pode definir o parâmetro _lpProgress_ à sua implementação do **IMAPIProgress**, se você tiver um, ou como **Nulo**. Se _lpProgress_ for **nula**, **CopyTo** usará o indicador de progresso padrão que fornece de MAPI. 
+Como as operações de cópia e movimentação podem demorar um pouco, você deve solicitar a exibição de um indicador de progresso Configurando o sinalizador MAPI_DIALOG. Você pode definir o parâmetro _lpProgress_ para sua implementação do **método imapiprogress**, se você tiver um, ou como **nulo**. Se _lpProgress_ for **NULL**, **CopyTo** usará o indicador de progresso padrão que o MAPI fornece. 
   
-Você pode suprimir a exibição de um indicador de progresso, não definindo o sinalizador MAPI_DIALOG. **CopyTo** irá ignorar os parâmetros _ulUIParam_ e _lpProgress_ e não exibirá o indicador. 
+Você pode suprimir a exibição de um indicador de progresso não definindo o sinalizador MAPI_DIALOG. **CopyTo** ignorará os parâmetros _ulUIParam_ e _lpProgress_ e não exibirá o indicador. 
   
- **CopyTo** possível denunciar global e individual ou erros que ocorrem com uma ou mais propriedades. Esses erros individuais são colocados em uma estrutura **SPropProblemArray** . Você pode suprimir relatório no nível de propriedade passando **Nulo**, em vez de um ponteiro válido, para o parâmetro de estrutura de matriz de problema de propriedade de erros. 
+ **CopyTo** pode relatar erros globais e individuais, ou erros que ocorrem com uma ou mais propriedades. Esses erros individuais são colocados em uma estrutura **SPropProblemArray** . Você pode suprimir o relatório de erros no nível da propriedade passando **NULL**, em vez de um ponteiro válido, para o parâmetro da estrutura da matriz do problema da propriedade. 
   
-Se você desejar receber informações sobre erros, passe um ponteiro de estrutura de **SPropProblemArray** válido no parâmetro _lppProblems_ . Quando **CopyTo** Retorna S_OK, verifique se há erros possíveis com as propriedades individuais na estrutura. Quando **CopyTo** retornará um erro, nenhuma informação é retornada na estrutura **SPropProblemArray** . Em vez disso, chame [IMAPIProp::GetLastError](imapiprop-getlasterror.md) para recuperar informações de erro detalhadas. 
+Se você quiser receber informações sobre erros, passe um ponteiro de estrutura **SPropProblemArray** válido no parâmetro _lppProblems_ . Quando **CopyTo** retornar S_OK, verifique possíveis erros com propriedades individuais na estrutura. Quando **CopyTo** retorna um erro, nenhuma informação é retornada na estrutura **SPropProblemArray** . Em vez disso, chame [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) para recuperar informações de erro detalhadas. 
   
-Se **CopyTo** Retorna S_OK, livre a estrutura de **SPropProblemArray** retornada ao chamar a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Se **CopyTo** retornar S_OK, libere a estrutura **SPropProblemArray** retornada chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Se você copiar propriedades que são exclusivas para o tipo de objeto de origem, certifique-se de que o objeto de destino é do mesmo tipo. **CopyTo** não impede que você associar propriedades que geralmente pertencem a um tipo de objeto com outro tipo de objeto. Cabe a você copie as propriedades que fazem sentido para o objeto de destino. Por exemplo, você não deve copiar propriedades da mensagem para um contêiner de catálogo de endereços. 
+Se você copiar propriedades que são exclusivas para o tipo de objeto de origem, você deve garantir que o objeto de destino seja do mesmo tipo. **CopyTo** não impede que você associe propriedades que normalmente pertencem a um tipo de objeto com outro tipo de objeto. Você pode copiar propriedades que fazem sentido para o objeto de destino. Por exemplo, você não deve copiar as propriedades de mensagem para um contêiner de catálogo de endereços. 
   
-Para garantir que você copie entre os objetos do mesmo tipo, verifique se o objeto de origem e destino são do mesmo tipo, por comparando ponteiros de objeto ou chamar [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx). Defina o identificador de interface apontado pela _lpInterface_ para a interface padrão para o objeto de origem. Além disso, certifique-se de que o tipo de objeto ou a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) é o mesmo para os dois objetos. Por exemplo, se você copiar de uma mensagem, defina _lpInterface_ IID_IMessage e o **PR_OBJECT_TYPE** para ambos os objetos para MAPI_MESSAGE. 
+Para garantir que você copie entre objetos do mesmo tipo, verifique se o objeto de origem e destino são do mesmo tipo, comparando ponteiros de objeto ou chamando [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx). Defina o identificador de interface apontado por _lpInterface_ para a interface padrão do objeto de origem. Além disso, certifique-se de que o tipo de objeto ou a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) seja a mesma dos dois objetos. Por exemplo, se você copiar de uma mensagem, defina _lpInterface_ como IID_IMessage e o **PR_OBJECT_TYPE** para ambos os objetos como MAPI_MESSAGE. 
   
-Se um ponteiro inválido é passado no parâmetro _lpDestObj_ , os resultados serão imprevisíveis. 
+Se um ponteiro inválido for passado no parâmetro _lpDestObj_ , os resultados serão imprevisíveis. 
   
-Excluindo propriedades em uma chamada **CopyTo** pode ser útil. Por exemplo, alguns objetos têm propriedades que são específicas para uma única instância do objeto, a data e hora da entrega da mensagem. Para evitar copiando o tempo de entrega da mensagem quando você copia a mensagem para uma pasta diferente, especifique **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) na matriz propriedade tag exclude. Para excluir a lista de destinatários da mensagem, adicione a propriedade **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) à matriz exclude. Para excluir anexos da mensagem, adicione a propriedade **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) à matriz.
+Excluir propriedades em uma chamada **CopyTo** pode ser útil. Por exemplo, alguns objetos têm propriedades específicas para uma única instância do objeto, como data e hora da entrega da mensagem. Para evitar a cópia do tempo de entrega de uma mensagem quando você copia a mensagem para uma pasta diferente, especifique **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) na marca de propriedade Exclude array. Para excluir a lista de destinatários de uma mensagem, adicione a propriedade **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) à matriz Exclude. Para excluir os anexos de uma mensagem, adicione a propriedade **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) à matriz.
   
-Impedir da mesma forma, as cópias ou movimentações de uma pasta ou da tabela de hierarquia ou conteúdo do contêiner de catálogo de endereços, incluindo **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([ PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) na propriedade tag Excluir matriz.
+Da mesma forma, evite a cópia ou a movimentação de uma pasta ou hierarquia de um contêiner de catálogo de endereços ou uma tabela de conteúdo incluindo **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([ PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) na marca Property Exclude array.
   
-Para excluir propriedades da cópia ou operação de movimentação, inclua suas marcas de propriedade no parâmetro _lpExcludeProps_ . Se você passar os resultados da macro **PROP_TAG** para criar uma marca de propriedade de um identificador específico na matriz de marca de propriedade, todas as propriedades com esse identificador não serão excluídas. Por exemplo, a seguinte entrada na matriz de marca de propriedade faz com que todas as propriedades com um identificador do 0x8002 sejam excluídos, independentemente do tipo: 
+Para excluir propriedades da operação de cópia ou movimentação, inclua suas marcas de propriedade no parâmetro _lpExcludeProps_ . Se você passar os resultados da macro **PROP_TAG** para criar uma marca de propriedade a partir de um identificador específico na matriz de marca de propriedade, todas as propriedades com esse identificador serão excluídas. Por exemplo, a seguinte entrada na matriz de marca de propriedade faz com que todas as propriedades com um identificador de 0x8002 sejam excluídas, independentemente do tipo: 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
 A marca de propriedade **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) não pode ser incluída na matriz _lpExcludeProps_ . 
   
-A utilidade do recurso **CopyTo** para excluindo interfaces talvez não é tão óbvia como a utilidade dos excluindo propriedades. Você pode excluir uma interface quando você copia a um objeto que não tem conhecimento de um grupo de propriedades. Por exemplo, se você copiar propriedades de uma pasta em um anexo, as únicas propriedades que o anexo pode trabalhar com são as propriedades genéricas disponíveis com qualquer implementação [IMAPIProp](imapipropiunknown.md) . Excluindo [IMAPIFolder](imapifolderimapicontainer.md) da operação de cópia, o anexo não receberá qualquer uma das propriedades de pasta mais específicas. 
+A utilidade do recurso **CopyTo** para excluir interfaces talvez não seja tão óbvia quanto a utilidade de excluir propriedades. Você pode excluir uma interface ao copiar para um objeto que não tenha conhecimento de um grupo de propriedades. Por exemplo, se você copiar propriedades de uma pasta para um anexo, as únicas propriedades com as quais o anexo pode trabalhar são as propriedades genéricas disponíveis em qualquer implementação do [IMAPIProp](imapipropiunknown.md) . Ao excluir [IMAPIFolder](imapifolderimapicontainer.md) da operação de cópia, o anexo não receberá nenhuma das propriedades de pasta mais específicas. 
   
-Quando você usa o parâmetro _rgiidExclude_ para excluir uma interface, ele também exclui todas as interfaces derivadas essa interface. Por exemplo, excluir [IMAPIContainer](imapicontainerimapiprop.md) faz com que pastas ou contêineres de catálogo de endereços a serem excluídos, dependendo do tipo de provedor. Não exclua **IMAPIProp** ou [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) porque tantas interfaces derivam deles. 
+Quando você usa o parâmetro _rgiidExclude_ para excluir uma interface, ele também exclui todas as interfaces derivadas dessa interface. Por exemplo, a exclusão de [IMAPIContainer](imapicontainerimapiprop.md) faz com que as pastas ou contêineres do catálogo de endereços sejam excluídos, dependendo do tipo de provedor. Não exclua **IMAPIProp** ou [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , pois muitas interfaces derivam deles. 
   
-Ignorar MAPI_E_COMPUTED erros retornados na estrutura de **SPropProblemArray** no parâmetro _lppProblems_ . 
+Ignore os erros de MAPI_E_COMPUTED retornados na estrutura **SPropProblemArray** no parâmetro _lppProblems_ . 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -199,8 +199,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|CPP  <br/> |LoadFromMSG  <br/> |MFCMAPI usa o método **IMAPIProp::CopyTo** para copiar as propriedades de um arquivo. msg a um objeto [IMAPIMessageSite](imapimessagesiteiunknown.md) .  <br/> |
-|FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI usa o método **IMAPIProp::CopyTo** para copiar propriedades de uma mensagem de origem para uma mensagem de destino durante uma operação de colar.  <br/> |
+|Arquivo. cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI usa o método **IMAPIProp:: CopyTo** para copiar as propriedades de um arquivo. msg para um objeto [IMAPIMessageSite](imapimessagesiteiunknown.md) .  <br/> |
+|FolderDlg. cpp  <br/> |CFolderDlg:: HandlePaste  <br/> |MFCMAPI usa o método **IMAPIProp:: CopyTo** para copiar as propriedades de uma mensagem de origem para uma mensagem de destino durante uma operação de colagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

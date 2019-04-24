@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c25888353857f9233ba487661f5f27d64cd678cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361177"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Propriedade canônica PidTagTnefUnprocessedProps
 
@@ -25,30 +25,30 @@ ms.locfileid: "22577426"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Serializa propriedades ao filtrar TNEF Transport Neutral Encapsulation Format ().
+Serializa as propriedades ao filtrar o formato de encapsulamento neutro de transporte (TNEF).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Identificador:  <br/> |0x0E9C  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Usada pelo Microsoft Outlook e Outlook Web Access (OWA) para salvar o TNEF original em casos onde o TNEF contém propriedades nomeadas que não podem ser criadas no repositório.
+Usado pelo Microsoft Outlook e pelo Outlook Web Access (OWA) para salvar o TNEF original em casos em que o TNEF contém propriedades nomeadas que não podem ser criadas no repositório.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

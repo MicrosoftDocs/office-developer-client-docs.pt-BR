@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: Retorna um número específico de caracteres de uma cadeia de caracteres de texto, começando na posição especificada, com base no número de caracteres especificado.
-ms.openlocfilehash: 96e697211ebf6ea61ddf0b749d8e1259f2a1e53d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360659"
 ---
 # <a name="mid-function-visioshapesheet"></a>Função MID (VisioShapeSheet)
 
@@ -22,17 +22,17 @@ Retorna um número específico de caracteres de uma cadeia de caracteres de text
   
 ## <a name="syntax"></a>Sintaxe
 
-MID (* * *texto* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *) 
+MID (* * *Text* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
-| _Núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do primeiro caractere a ser extraído. O primeiro caractere na cadeia de caracteres de texto está na posição 1.  <br/> |
+| _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do primeiro caractere a ser extraído. O primeiro caractere na cadeia de caracteres de texto está na posição 1.  <br/> |
 | _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres a retornar.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -40,13 +40,13 @@ String
 
 Se *Núm_inicial* for: 
   
-- Maior que o comprimento de *text* , MID retornará "" (texto vazio). 
+- Maior do que o comprimento de *Text* , mid retornará "" (texto vazio). 
     
-- Menor que o comprimento do *texto* , mas se *start_num* mais *num_chars* ultrapassarem o comprimento de *text* , MID retornará os caracteres até o final do *texto* . 
+- Menor que o comprimento do *texto* , mas *Núm_inicial* mais *Núm_caract* excede o comprimento do *texto* , mid retorna os caracteres até o final do *texto* . 
     
-- Menor que 1, MID retornará o valor de erro #VALUE! 
+- Menos de 1, MID retornará o #VALUE! valor de erro. 
     
-Se *num_chars* for negativo, MID retornará o #VALUE! valor de erro. 
+Se *Núm_caract* for negativo, mid retornará o #VALUE! valor de erro. 
   
 ## <a name="example"></a>Exemplo
 

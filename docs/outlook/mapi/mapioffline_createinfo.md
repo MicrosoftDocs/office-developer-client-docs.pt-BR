@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ffac4328401b8afbc07eb650ea6c08da5f9c51b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a9b11b134f5d4a32a5a55008f557821d74b474bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357124"
 ---
 # <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
 
@@ -21,7 +21,7 @@ ms.locfileid: "22594492"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura é usada com [HrCreateOfflineObj](hrcreateofflineobj.md).
+Essa estrutura é usada com o [HrCreateOfflineObj](hrcreateofflineobj.md).
   
 ```cpp
 typedef struct
@@ -47,7 +47,7 @@ typedef struct
     
  **ulCreateFlags**
   
-> Ela deve ser 0.
+> Deve ser 0.
     
  **pwszProfileName**
   
@@ -59,24 +59,24 @@ typedef struct
     
 |||
 |:-----|:-----|
-|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |O objeto offline é capaz de entrar no modo offline.  <br/> |
-|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |O objeto offline é capaz de modo online.  <br/> |
+|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |O objeto offline é capaz de ficar offline.  <br/> |
+|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |O objeto offline é capaz de entrar online.  <br/> |
    
  **pGUID**
   
-> Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline a partir de outros objetos offline. GUID_GlobalState refere-se ao objeto offline global que objetos podem usar como um objeto pai.
+> Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline de outros objetos offline. GUID_GlobalState refere-se ao objeto offline global que os objetos podem usar como um objeto pai.
     
  **pInstance**
   
-> Ponteiro para GUID que identifica exclusivamente esse objeto offline. Ele é usado para eliminar a ambiguidade este objetos offline dentre outros objetos.
+> Ponteiro para o GUID que identifica exclusivamente este objeto offline. Ela é usada para desambiguar esses objetos offline de outros objetos.
     
  **pParent**
   
-> Ponteiro para o objeto offline que é o pai deste objeto offline e cujas alterações herdarão esse objeto offline.
+> Ponteiro para objeto offline que é o pai deste objeto offline e cujas alterações esse objeto offline herdará.
     
  **pMAPISupport**
   
->  Identifica o objeto de suporte MAPI que que usará esse objeto offline. Por exemplo, se esse objeto offline é usado para rastrear um repositório offline e estado online, em seguida, isso é os repositórios de suportam ao objeto. No entanto, caso se trate de um objeto offline para um objeto com nenhum objeto de suporte, ela pode ser NULL. 
+>  Identifica o objeto de suporte MAPI que usará este objeto offline. Por exemplo, se este objeto offline é usado para controlar o estado offline e online de um repositório, este é o objeto de suporte de armazenamento. No enTanto, se este for um objeto offline para um objeto sem nenhum objeto support, ele poderá ser nulo. 
     
  **pAggregateInfo**
   
@@ -84,7 +84,7 @@ typedef struct
     
  **pConnectInfo**
   
-> Deve ser nula.
+> Deve ser nulo.
     
 ## <a name="see-also"></a>Confira também
 

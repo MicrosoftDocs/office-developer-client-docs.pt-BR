@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: Determina se o aplicativo dispõe as formas com base em uma grade de página interna e invisível quando você configura o layout na caixa de diálogo Configurar Layout. (Na guia Design, no grupo Layout, clique em Refazer o Layout da Página e clique em Opções de Layout).
-ms.openlocfilehash: 3371767343132219ebc38134b93afd1da46c7a45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345553"
 ---
 # <a name="enablegrid-cell-page-layout-section"></a>Célula EnableGrid (Seção Page Layout)
 
@@ -22,8 +22,8 @@ Determina se o aplicativo dispõe as formas com base em uma grade de página int
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Utilizar a grade de página interna.  <br/> |
-|FALSO  <br/> |Não utilizar a grade de página interna.  <br/> |
+|TRUE  <br/> |Utilizar a grade de página interna.  <br/> |
+|FALSE  <br/> |Não utilizar a grade de página interna.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 299627fe-8fbc-43e9-95aa-daf5c6e31ffb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fb10dee53e2c07449ffc17d3455707f74771ba3f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e3b409d4f3556a2ed08ba0e9a5576524fe1d2ef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358468"
 ---
 # <a name="pidlidremotesearchkey-canonical-property"></a>Propriedade canônica PidLidRemoteSearchKey
 
@@ -25,27 +25,27 @@ ms.locfileid: "22593344"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a tecla de pesquisa de um item remoto.
+Indica a chave de pesquisa de um item remoto.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidRemoteSearchKey  <br/> |
-|Propriedade definida:  <br/> |PSETID_Remote  <br/> |
-|ID de longo (LID):  <br/> |0x00008F06  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Remote  <br/> |
+|Long ID (LID):  <br/> |0x00008F06  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Mensagem remota  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

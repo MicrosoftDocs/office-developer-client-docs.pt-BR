@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 225c0813139a74b735b5b8a3d5a729e630cd3511
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09331e1201b6f6e45bb9e26e618ee59e67efbf8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356256"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propriedade canônica PidTagOriginalAuthorSearchKey
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563335"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a chave de pesquisa do autor da primeira versão de uma mensagem, ou seja, a mensagem antes que está sendo encaminhada ou respondida.
+Contém a chave de pesquisa do autor da primeira versão de uma mensagem, ou seja, a mensagem antes de ser encaminhada ou respondida.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém a chave de pesquisa do autor da primeira versão de uma mensagem, ou sej
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essa propriedade como o valor da propriedade[PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md) **PR_SENDER_SEARCH_KEY**. Ele nunca é alterado quando a mensagem for encaminhada ou respondida. 
+Essa propriedade é uma das propriedades de endereço para o autor de uma mensagem. No primeiro envio da mensagem, o aplicativo cliente deve definir essa propriedade como o valor da propriedade **PR_SENDER_SEARCH_KEY**[PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md) . Ela nunca é alterada quando a mensagem é encaminhada ou respondida. 
   
-As propriedades de autor original permitem preservação de informações de fora do domínio de mensagens local. Quando uma mensagem é recebida de outro domínio de mensagens, como da Internet, essas propriedades fornecem uma maneira de garantir que as informações originais não sejam perdidas.
+As propriedades de autor originais permitem a preservação de informações de fora do domínio de mensagens local. Quando uma mensagem chega de outro domínio de mensagens, como a partir da Internet, essas propriedades fornecem uma maneira de garantir que as informações originais não sejam perdidas.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

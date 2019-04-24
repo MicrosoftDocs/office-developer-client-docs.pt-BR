@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 120749ca-a740-4a57-bc70-529e238f4415
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2411b105f685b31d8158dfc20f368ba1bdbb5792
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 81dc4e9dda28f4c0a4ea83afdd5cb28bae5b40dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351489"
 ---
 # <a name="mapi-form-libraries"></a>Bibliotecas de formulários MAPI
 
@@ -21,12 +21,12 @@ ms.locfileid: "22584643"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para ajudar a organizar os servidores de formulário e disponibilizá-los facilmente para os aplicativos cliente, a arquitetura de formulário MAPI inclui bibliotecas de formulários, que oferece suporte a instalação, administração, replicação e uso de servidores do formulário.
+Para ajudar a organizar os servidores de formulários e torná-los facilmente disponíveis para os aplicativos cliente, a arquitetura de formulários MAPI inclui bibliotecas de formulários que dão suporte à instalação, administração, replicação e uso de servidores de formulário.
   
-Bibliotecas de formulários são repositórios de servidores de formulário e informações de configuração sobre cada um deles que o Gerenciador de formulário usa ao carregar os servidores do formulário. 
+Bibliotecas de formulários são repositórios de informações de configuração e servidores de formulário que o gerente de formulários usa ao carregar servidores de formulário. 
   
 > [!NOTE]
-> No início do histórico de MAPI, bibliotecas de formulários eram chamadas de "registros". Dessa forma, o termo "Registro" tem persistente em alguns relacionados à forma MAPI interfaces, propriedades, entradas do arquivo de configuração e assim por diante. Se a interface do seu aplicativo exige o uso de um destes termos, você deve usar o termo "library" exclusivamente. 
+> No início do histórico de MAPI, as bibliotecas de formulários eram chamadas de "registros". Por causa disso, o termo "registro" persiste em algumas interfaces MAPI relacionadas a formulários, propriedades, entradas de arquivo de configuração e assim por diante. Se a interface do aplicativo exigir o uso de um desses termos, você deverá usar o termo "library" exclusivamente. 
   
 ## <a name="see-also"></a>Confira também
 

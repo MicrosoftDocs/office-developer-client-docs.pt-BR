@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2dd9f002401f8de52a9ad187b7e5850d47caf8a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6bec29aa0e88e0224f9cd6049553f2df6379e23d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344643"
 ---
 # <a name="rtfwcsinfo"></a>RTF_WCSINFO
 
@@ -21,7 +21,7 @@ ms.locfileid: "22587380"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura permite que você especifique informações para descompactar o corpo da mensagem em compactado Rich Text Format (RTF) e, opcionalmente, retornará o fluxo de corpo em seu formato nativo.
+Essa estrutura permite que você especifique informações para descompactar o corpo de uma mensagem no formato Rich Text (RTF) compactado e, opcionalmente, retornar o fluxo do corpo em seu formato nativo.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -35,7 +35,7 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _size_
   
@@ -43,21 +43,21 @@ typedef struct {
     
  _ulFlags_
   
-> Esse é o bitmask dos sinalizadores de opção para a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Os sinalizadores de opção com suporte são: 
+> Esta é a bitmask dos sinalizadores de opção para a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Os sinalizadores de opção com suporte são: 
     
 |||
 |:-----|:-----|
-|MAPI_MODIFY  <br/> |Isso indica se o cliente pretende gravar a interface de fluxo ajustado que será retornada.  <br/> |
-|STORE_UNCOMPRESSED_RTF  <br/> |Isso indica se o RTF descompactado deveria ser gravado para o fluxo indicados pelo ponteiro _lpCompressedRTFStream_ da função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) .  <br/> |
-|MAPI_NATIVE_BODY  <br/> |Isso indica se o fluxo de descompactados também é convertido em corpo nativo antes de retornar o fluxo. Esse sinalizador não pode ser combinado com o sinalizador **MAPI_MODIFY** .  <br/> |
+|MAPI_MODIFY  <br/> |Isso indica se o cliente pretende gravar a interface de fluxo encapsulada retornada.  <br/> |
+|STORE_UNCOMPRESSED_RTF  <br/> |Isso indica se o RTF descompactado deve ser gravado no fluxo que é apontado pelo ponteiro _lpCompressedRTFStream_ da função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) .  <br/> |
+|MAPI_NATIVE_BODY  <br/> |Isso indica se o fluxo descompactado também é convertido no corpo nativo antes de retornar o fluxo. Este sinalizador não pode ser combinado com o sinalizador **MAPI_MODIFY** .  <br/> |
    
  _ulInCodePage_
   
-> Esse é o valor de página de código da mensagem. Normalmente, esse valor é obtido da [Propriedade canônico de PidTagInternetCodepage](pidtaginternetcodepage-canonical-property.md) na mensagem. Esse valor é usado apenas quando o sinalizador **MAPI_NATIVE_BODY** é passado _ulFlags_. Caso contrário, este valor será ignorado.
+> Este é o valor da página de código da mensagem. Normalmente, esse valor é obtido da [Propriedade canônica PidTagInternetCodepage](pidtaginternetcodepage-canonical-property.md) na mensagem. Esse valor é usado apenas quando o sinalizador **MAPI_NATIVE_BODY** é passado em _parâmetroulflags_. Caso contrário, esse valor será ignorado.
     
  _ulOutCodePage_
   
-> Esse é o valor de página de código do fluxo descompactado retornado desejado. Se isso for definido como um valor diferente de zero, a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) converte o fluxo para a página de código especificada. Se isso for definido como um valor de zero, MAPI decide qual página de código a ser usado. Esse valor é usado somente quando o sinalizador **MAPI_NATIVE_BODY** é transmitido em _ulFlags_e o formato do corpo não for RTF. Caso contrário, este valor será ignorado.
+> Este é o valor da página de código do Stream descompactado retornado que você deseja. Se for definido como um valor diferente de zero, a função [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) converte o Stream na página de código especificada. Se for definido como um valor zero, MAPI decide qual página de código usar. Esse valor é usado somente quando o sinalizador **MAPI_NATIVE_BODY** é passado em _parâmetroulflags_, e o formato do corpo não é RTF. Caso contrário, esse valor será ignorado.
     
 ## <a name="see-also"></a>Confira também
 

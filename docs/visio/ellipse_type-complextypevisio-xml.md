@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67dc78e-6639-e32f-4909-945001659d30
 ms.openlocfilehash: f9b82e9c34ee4a520f318e7c8fa1ffd8b0797d6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345658"
 ---
 # <a name="ellipsetype-complextype-visio-xml"></a>Ellipse_Type complexType ('Visio XML')
 
@@ -56,6 +56,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

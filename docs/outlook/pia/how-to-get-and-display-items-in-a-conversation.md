@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fcfe76632c2fda742a85a571d655569dc2fcd33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349459"
 ---
 # <a name="get-and-display-items-in-a-conversation"></a>Obter e exibir itens em uma conversa
 
@@ -24,7 +24,7 @@ No exemplo de código a seguir, DemoConversation obtém um objeto [MailItem](htt
 
 O exemplo, em seguida, enumera cada item na **Table** e chama EnumerateConversation em cada item para acessar os nós filhos de cada item. EnumerateConversation usa um objeto **Conversation** e obtém os nós filhos usando o método [GetChildren (Object)](https://msdn.microsoft.com/library/ff184854\(v=office.15\)). EnumerateConversation é chamado recursivamente até que não haja mais nós filho. Cada item de conversa é exibido ao usuário.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

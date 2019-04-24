@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d7886d08c21e8fff9aceb3437ecb6bbbd970ed7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e478c9e8978125a37691ee5bd97fa9f1cbce077
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348689"
 ---
 # <a name="ipropdatahrsetobjaccess"></a>IPropData::HrSetObjAccess
 
@@ -33,7 +33,7 @@ HRESULT HrSetObjAccess(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulAccess_
   
@@ -47,13 +47,13 @@ IPROP_READWRITE
   
 > Define o n�vel de acesso do objeto como leitura/grava��o.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
 > N�vel de acesso do objeto foi definido com �xito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O m�todo **IPropData::HrSetObjAccess** define o n�vel de acesso para um objeto inteiro, em vez de propriedades individuais. **HrSetObjAccess** pode ser usado para alterar o n�vel de acesso estabelecido quando o objeto foi criado. 
   
@@ -65,7 +65,7 @@ Para criar um objeto com propriedades que ser�o somente leitura para clientes,
   
 Voc� tamb�m pode usar **HrSetObjAccess** para impedir que os clientes criem novas propriedades. 
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 
 

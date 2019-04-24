@@ -18,11 +18,11 @@ localization_priority: Normal
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
 description: Veja uma visão geral da referência da Interface do Project Server (PSI), como usar a interface ASMX e interface WCF do PSI, informações sobre os códigos de erro do Project Server e uma referência para o serviço OData do ProjectData.
 ms.openlocfilehash: 27b2eb27d62ec1abdb1a835b5d874e211e7e793e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357033"
 ---
 # <a name="project-2013-programming-references"></a>Referências de programação do Project 2013
 

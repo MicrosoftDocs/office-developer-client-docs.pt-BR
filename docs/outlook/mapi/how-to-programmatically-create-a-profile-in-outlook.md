@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object.
 ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345938"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>Criar um perfil no Outlook de forma programática
 
@@ -27,11 +27,11 @@ Em MAPI, você pode atualizar um perfil configurando a propriedade **PR_PROFILE_
     
 2. Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section. 
     
-   Isso pode ser difícil na MAPI do Outlook, já que nas versões a partir da 2010 não existe mais a seção de perfil global. Para encontrar a seção de Perfil, localize a propriedade PR_EMSMDB_SECTION_UID (0x3D150102). O valor será que o GUID da seção de perfil persistente em formato binário, que será usado nas etapas subsequentes. Você precisará lembrar desse valor. 
+   This can be difficult in Outlook�s MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value. 
     
-3. Adicione a propriedade **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**. 
+3. Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**. 
     
-4. Defina a propriedade **0x6641001F** no repositório e a seção **emsuid** para todos os provedores. 
+4. Set the property **0x6641001F** on the store and the **emsuid** section for all providers. 
     
 5. Defina a propriedade **PR_DISPLAY_NAME**. 
     

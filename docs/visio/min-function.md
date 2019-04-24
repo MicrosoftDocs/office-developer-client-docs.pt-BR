@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm82251463
 localization_priority: Normal
 ms.assetid: b945b7c2-153f-2fc3-b768-1e975254ddf5
-description: Retorna o menor número de uma lista. Significa menor mais próximo ao infinito negativo.
-ms.openlocfilehash: a0de95875ea43259d1bd1da19c3e7a4af2ae0f9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o menor número de uma lista. O menor significa mais próximo do infinito negativo.
+ms.openlocfilehash: 7c9eb1a8d4ce30e7ab9253c2864ecd38474e8ff6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360645"
 ---
 # <a name="min-function"></a>Função MIN
 
-Retorna o menor número de uma lista. Significa menor mais próximo ao infinito negativo.
+Retorna o menor número de uma lista. O menor significa mais próximo do infinito negativo.
   
 ## <a name="syntax"></a>Sintaxe
 
-MIN (* * *Número1* * *, * * *número2* * *,..., * * *numberN* * *) 
+mín (* * *número1* * *, * * *núm2* * *,..., * * *numbern* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1_ <br/> |Obrigatório  <br/> |**Varia** <br/> |O primeiro número na lista.  <br/> |
-| _Número2_ <br/> |Opcional  <br/> |**Varia** <br/> | O segundo número na lista.  <br/> |
-| _numberN_ <br/> |Opcional  <br/> |**Varia** <br/> |O enésimo número na lista.  <br/> |
+| _número1_ <br/> |Obrigatório  <br/> |**Vai** <br/> |O primeiro número na lista.  <br/> |
+| _número2_ <br/> |Opcional  <br/> |**Vai** <br/> | O segundo número na lista.  <br/> |
+| _numerada_ <br/> |Opcional  <br/> |**Vai** <br/> |O enésimo número na lista.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Varia
+Várias
   
 ## <a name="example"></a>Exemplo
 

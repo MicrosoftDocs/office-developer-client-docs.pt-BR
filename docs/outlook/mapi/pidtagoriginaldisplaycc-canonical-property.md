@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f48d723c-3ad8-4617-952a-ba5216b2129c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9eb90d353705434803ff617ff2b355c7c96359b7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355619"
 ---
 # <a name="pidtagoriginaldisplaycc-canonical-property"></a>Propriedade canônica PidTagOriginalDisplayCc
 
@@ -25,40 +25,40 @@ ms.locfileid: "25401528"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os nomes para exibição de qualquer destinatários de cópia carbono (CC) da mensagem original.
+Contém os nomes de exibição de todos os destinatários de cópia carbono (CC) da mensagem original.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ORIGINAL_DISPLAY_CC, PR_ORIGINAL_DISPLAY_CC_A, PR_ORIGINAL_DISPLAY_CC_W  <br/> |
 |Identificador:  <br/> |0x0073  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm uma lista separada por ponto e vírgula. Ele é fornecido pela MAPI e é copiado diretamente do **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) quando uma entrega ou o relatório de não entrega ou uma leitura ou nonread relatório é gerado. Essa propriedade pode estar presente em outras mensagens, conforme definido pelas suas classes de mensagens.
+Essas propriedades contêm uma lista separada por ponto-e-vírgula. Ele é fornecido por MAPI e é copiado diretamente do **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) quando um relatório de entrega ou não entrega ou um relatório de leitura ou não leitura é gerado. Essa propriedade pode estar presente em outras mensagens, conforme definido por suas classes de mensagens.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

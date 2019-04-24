@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: Especifica se as formas pertencentes à camada podem ser impressas.
-ms.openlocfilehash: cd5b2830ba8bd20cb435cdc2bca4bd55fd5a5438
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9a1dca6d45b53c02ff0ed29f921c352fc947630
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356179"
 ---
 # <a name="print-cell-layers-section"></a>Célula Print (Seção Layers)
 
@@ -22,8 +22,8 @@ Especifica se as formas pertencentes à camada podem ser impressas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |As formas podem ser impressas.  <br/> |
-|FALSO  <br/> |As formas não podem ser impressas.  <br/> |
+|TRUE  <br/> |As formas podem ser impressas.  <br/> |
+|FALSE  <br/> |As formas não podem ser impressas.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula Print pelo nome a partir de outra fór
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers.Print [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers. Print [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Print pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

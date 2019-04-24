@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f93ee653c9365488432c4e797b171a199c30107
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c565c088fd4ef7d5df141bf770c560f79535998
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349298"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583712"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada do contêiner que é designado como o catálogo de endereços pessoal (PAB).
+Retorna o identificador de entrada do contêiner designado como o catálogo de endereços pessoal (PAB).
   
 ```cpp
 HRESULT GetPAB(
@@ -38,13 +38,13 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> [out] Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Um ponteiro para um ponteiro para o identificador de entrada do PAB. O parâmetro _lppEntryID_ contém zero se nenhum contêiner foi designada como o PAB. 
+> bota Um ponteiro para um ponteiro para o identificador de entrada do PAB. O parâmetro _lppEntryID_ contém zero se nenhum contêiner tiver sido designado como o PAB. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -52,15 +52,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Clientes chamar o método **GetPAB** para recuperar o identificador de entrada do contêiner designado como o PAB. Se um PAB não tiver sido estabelecido no perfil, MAPI selecionará como o PAB o primeiro contêiner na hierarquia de catálogo de endereços que permite modificações. 
+Os clientes chamam o método **GetPAB** para recuperar o identificador de entrada do contêiner designado como PAB. Se um PAB não foi estabelecido no perfil, MAPI seleciona como o PAB o primeiro contêiner na hierarquia de catálogo de endereços que permite modificações. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa o método **GetPAB** para obter a ID do catálogo de endereços pessoal do usuário.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI usa o método **GetPAB** para obter a ID para o catálogo de endereços pessoal do usuário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -75,5 +75,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3bcad4c236f71390f7a048eb66860720e9180e06
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c035780d3d790d94551860a418401e63da1c2151
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348045"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
@@ -25,13 +25,13 @@ ms.locfileid: "22582039"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma cadeia de caracteres ASCII que representa um identificador de compostos de entrada para um objeto, geralmente em uma mensagem em um armazenamento de mensagens. 
+Cria uma cadeia de caracteres ASCII representando um identificador de entrada composto para um objeto, geralmente uma mensagem em um repositório de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
    
 ```cpp
 HrComposeMsgID(
@@ -48,27 +48,27 @@ HrComposeMsgID(
 
  _psession_
   
-> [in] Ponteiro para a sessão em uso pelo aplicativo cliente. 
+> no Ponteiro para a sessão em uso pelo aplicativo cliente. 
     
  _cbStoreRecordKey_
   
-> [in] Tamanho, em bytes, da chave do registro do repositório de mensagem que contém a mensagem ou outro objeto. Se o parâmetro _cbStoreRecordKey_ é passado zero, os pontos de parâmetro _pszMsgID_ para uma cópia do identificador de entrada é convertido em texto. 
+> no Tamanho, em bytes, da chave de registro do repositório de mensagens que contém a mensagem ou outro objeto. Se zero for passado no parâmetro _cbStoreRecordKey_ , o parâmetro _pszMsgID_ apontará para uma cópia do identificador de entrada convertido em texto. 
     
  _pStoreRecordKey_
   
-> [in] Ponteiro para a chave de registro do repositório de mensagem que contém a mensagem ou outro objeto. 
+> no Ponteiro para a chave de registro do repositório de mensagens que contém a mensagem ou outro objeto. 
     
  _cbMsgEID_
   
-> [in] Tamanho, em bytes, do identificador de entrada de mensagem ou outro objeto. 
+> no Tamanho, em bytes, do identificador de entrada da mensagem ou de outro objeto. 
     
  _pMsgEID_
   
-> [in] Ponteiro para o identificador de entrada do objeto. 
+> no Ponteiro para o identificador de entrada do objeto. 
     
  _pszMsgID_
   
-> [out] Ponteiro para a cadeia de caracteres ASCII retornado. Se o parâmetro _cbStoreRecordKey_ for maior do que zero, os pontos de parâmetro _pszMsgID_ a um identificador de entrada compostos convertidos em texto. Se _cbStoreRecordKey_ for zero, _pszMsgID_ pontos a um identificador de entrada noncompound é convertido em texto. 
+> bota Ponteiro para a cadeia de caracteres ASCII retornada. Se o parâmetro _cbStoreRecordKey_ for maior que zero, o parâmetro _pszMsgID_ apontará para um identificador de entrada composto convertido em texto. Se _cbStoreRecordKey_ for zero, _pszMsgID_ apontará para um identificador de entrada não composto convertido em texto. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -76,10 +76,10 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se a mensagem ou outro objeto para o qual está sendo criado o identificador de entrada compostos residir em um armazenamento de mensagens, a sequência identifier é criada do identificador de entrada do objeto e a chave do registro da loja. Se o objeto não estiver em um repositório, ou seja, se o número de bytes para a chave de registro do repositório passado no parâmetro _cbStoreRecordKey_ for zero, o identificador de entrada do objeto é simplesmente copiado e convertido em uma cadeia de caracteres. 
+Se a mensagem ou outro objeto para o qual o identificador de entrada composta estiver sendo criado residir em um repositório de mensagens, a cadeia de caracteres do identificador será criada a partir do identificador de entrada do objeto e da chave de registro da loja. Se o objeto não estiver em um repositório, ou seja, se a contagem de bytes para a chave do registro de repositório passada no parâmetro _cbStoreRecordKey_ for zero, o identificador de entrada do objeto será simplesmente copiado e convertido em uma cadeia de caracteres. 
   
 Chamar a função **HrComposeMsgID** é equivalente a chamar a função [HrComposeEID](hrcomposeeid.md) e, em seguida, a função [HrSzFromEntryID](hrszfromentryid.md) . 
   
- **HrComposeMsgID** permite que os aplicativos de cliente trabalhar com objetos em repositórios de vários devido ao uso de identificadores de entrada compostos. Um aplicativo pode chamar a função [HrDecomposeMsgID](hrdecomposemsgid.md) para dividir o identificador de entrada compostos em seus constituintes originais. 
+ O **HrComposeMsgID** permite que os aplicativos cliente trabalhem com objetos em vários repositórios por meio do uso de identificadores de entrada compostos. Um aplicativo pode chamar a função [HrDecomposeMsgID](hrdecomposemsgid.md) para dividir o identificador de entrada composta em seus constituintes originais. 
   
 

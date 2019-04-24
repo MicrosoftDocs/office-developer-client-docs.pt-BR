@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5ae0c9f123ade599ca9bc1d3bdea3e9c89cfbc16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 385660889c40e5f59dfc015ad92ce6a1398ab0cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351321"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
@@ -25,13 +25,13 @@ ms.locfileid: "22594143"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica onde em um segmento de mensagem uma mensagem pertence. 
+Indica em que local da mensagem um segmento de mensagem pertence. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScCreateConversationIndex(
@@ -46,24 +46,24 @@ SCODE ScCreateConversationIndex(
 
  _cbParent_
   
-> [in] Contagem de bytes no índice de conversa pai.
+> no Contagem de bytes no índice de conversa pai.
     
  _lpbParent_
   
-> [in] Ponteiro para bytes no índice de conversa pai. Isso pode ser NULL se _cbParent_ for zero. 
+> no Ponteiro para bytes no índice de conversa pai. Isso pode ser NULL se _cbParent_ for zero. 
     
  _lpcbIndex_
   
-> [out] Ponteiro para a contagem de bytes no índice da nova conversa retornado pela chamada. 
+> bota Ponteiro para a contagem de bytes no novo índice de conversa retornado pela chamada. 
     
  _lppbIndex_
   
-> [out] Ponteiro para um ponteiro para o novo índice de conversação retornado pela chamada.
+> bota Ponteiro para um ponteiro para o novo índice de conversa retornado pela chamada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 

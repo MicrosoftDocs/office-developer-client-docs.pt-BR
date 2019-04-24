@@ -1,32 +1,32 @@
 ---
-title: Célula ReflectionDist (Seção Additional Effect Properties)
+title: Célula ReflectionDist (seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 858a3191-420a-4065-9180-ebd8503d1eef
-description: Determina a distância que uma reflexão é deslocada de uma forma, em pontos de 0,0 como 100,0.
-ms.openlocfilehash: 35cbafdf3bde350fb20035228646a3f65b49e141
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina a distância em que um reflexo é deslocado de uma forma, em pontos de 0,0 a 100,0.
+ms.openlocfilehash: cc0aca484a77602b78523819cd4f01d78a9ff86f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348381"
 ---
-# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Célula ReflectionDist (Seção Additional Effect Properties)
+# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Célula ReflectionDist (seção Additional Effect Properties)
 
-Determina a distância que uma reflexão é deslocada de uma forma, em pontos de 0,0 como 100,0. 
+Determina a distância em que um reflexo é deslocado de uma forma, em pontos de 0,0 a 100,0. 
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **ReflectionDist** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **ReflectionDist** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ReflectionDist  <br/> |
    
-Para obter uma referência à célula **ReflectionDist** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **ReflectionDist** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

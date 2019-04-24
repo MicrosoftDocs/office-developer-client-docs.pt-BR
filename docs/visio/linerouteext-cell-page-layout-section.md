@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: Determina a aparência padrão de todos os conectores em uma página de desenho.
-ms.openlocfilehash: 21da283f2d9ab43837b8fe4127840e89ea9d9949
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358979"
 ---
 # <a name="linerouteext-cell-page-layout-section"></a>Célula LineRouteExt (Seção Page Layout)
 
@@ -22,9 +22,9 @@ Determina a aparência padrão de todos os conectores em uma página de desenho.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Padrão (reto)  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | Reto  <br/> |**visLORouteExtStraight** <br/> |
-| 2  <br/> | Curvado  <br/> |**visLORouteExtNURBS** <br/> |
+| ,0  <br/> | Padrão (reto)  <br/> |**visLORouteExtDefault** <br/> |
+| 1  <br/> | Estreita  <br/> |**visLORouteExtStraight** <br/> |
+| duas  <br/> | Curvo  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

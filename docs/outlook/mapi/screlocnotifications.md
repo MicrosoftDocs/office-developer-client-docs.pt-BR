@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4117558d27d64444cdac62651584fe6cfe8ff061
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 81da4b77f0d2162a1119b7945b1e0ceb87ba9fb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360708"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583964"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ajusta um ponteiro dentro de uma matriz de notificação de evento especificado. 
+Ajusta um ponteiro dentro de uma matriz de notificação de eventos especificada. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScRelocNotifications(
@@ -45,27 +45,27 @@ SCODE ScRelocNotifications(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cntf_
+ _CNTF_
   
-> [in] Contagem de estruturas de [notificação](notification.md) na matriz indicado pelo parâmetro _rgntf_ . 
+> no Contagem de estruturas de [notificação](notification.md) na matriz indicada pelo parâmetro _rgntf_ . 
     
  _rgntf_
   
-> [in] Ponteiro para a matriz de estruturas de **notificação** , definindo as notificações de evento dentro do qual um ponteiro deve ser ajustada. 
+> no Ponteiro para a matriz de estruturas de **notificação** definindo notificações de eventos em que um ponteiro deve ser ajustado. 
     
  _pvBaseOld_
   
-> [in] Ponteiro para o endereço base original da matriz indicado pelo parâmetro _rgntf_ . 
+> no Ponteiro para o endereço base original da matriz indicada pelo parâmetro _rgntf_ . 
     
  _pvBaseNew_
   
-> [in] A posição na qual **ScRelocNotifications** grava o novo endereço base da matriz indicado pelo parâmetro _rgntf_ . 
+> no O local para o qual o **ScRelocNotifications** grava o novo endereço base da matriz indicada pelo parâmetro _rgntf_ . 
     
  _PCB_
   
-> [out] Ponteiro para o tamanho, em bytes, da matriz indicado pelo parâmetro _pvBaseNew_ . 
+> bota Ponteiro para o tamanho, em bytes, da matriz indicada pelo parâmetro _pvBaseNew_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -77,7 +77,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-O parâmetro _pcb_ para a função **ScRelocNotifications** é opcional. 
+O parâmetro _PCB_ para a função **ScRelocNotifications** é opcional. 
   
 ## <a name="see-also"></a>Confira também
 

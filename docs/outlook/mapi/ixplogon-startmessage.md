@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d9235da7e7ec6ec244ee1a75f4795e9c77ec28bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00273d5572fa0c12a9501a1620db11ea087fd5d1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351594"
 ---
 # <a name="ixplogonstartmessage"></a>IXPLogon::StartMessage
 
@@ -39,41 +39,41 @@ HRESULT StartMessage(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpMessage_
   
-> [in] Um ponteiro para um objeto de mensagem (representando a mensagem de entrada) que tem permissão de leitura/gravação, que é usado pelo provedor de transporte para acessar e manipular a mensagem. Este objeto permanecerá válido até depois que o provedor de transporte retornará da chamada para **IXPLogon::StartMessage**.
+> no Um ponteiro para um objeto Message (representando a mensagem de entrada) que tem permissão de leitura/gravação, que é usada pelo provedor de transporte para acessar e manipular essa mensagem. Este objeto permanece válido até que o provedor de transporte retorne da chamada para **IXPLogon:: StartMessage**.
     
  _lpulMsgRef_
   
-> [out] Um ponteiro para um valor de referência atribuído à mensagem. O MAPI spooler inicializa esse valor como 1 antes que ele retorna o ponteiro para o provedor de transporte.
+> bota Um ponteiro para um valor de referência atribuído à mensagem. O spooler MAPI inicializa esse valor como 1 antes de retornar o ponteiro para o provedor de transporte.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler chama o método **IXPLogon::StartMessage** para iniciar a transferência de uma mensagem de entrada do provedor de transporte para o spooler MAPI. Antes do provedor de transporte começa a usar a mensagem apontada pela _lpMessage_, ele deve armazenar uma referência de mensagem no parâmetro _lpulMsgRef_ para uso potencial por uma chamada ao método [IXPLogon::TransportNotify](ixplogon-transportnotify.md) . 
+O spooler MAPI chama o método **IXPLogon:: StartMessage** para iniciar a transferência de uma mensagem de entrada do provedor de transporte para o spooler MAPI. Antes de o provedor de transporte começar a usar a mensagem indicada pelo _lpMessage_, ele deve armazenar uma referência de mensagem no parâmetro _lpulMsgRef_ para uso potencial por uma chamada para o método [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) . 
   
-Durante uma chamada de **StartMessage** , o MAPI spooler processa métodos para objetos abertos durante a transferência da mensagem, e também processa todos os anexos. Esse processamento pode levar muito tempo. Provedores de transporte podem chamar a função de retorno de chamada [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) para o MAPI spooler frequentemente durante o processamento para liberar o tempo da CPU para outras tarefas do sistema. 
+Durante uma chamada **StartMessage** , o spooler MAPI processa os métodos para objetos abertos durante a transferência da mensagem e também processa qualquer anexo. Esse processamento pode levar muito tempo. Os provedores de transporte podem chamar a função de retorno de chamada [IMAPISupport:: SpoolerYield](imapisupport-spooleryield.md) para o spooler MAPI com frequência durante esse processamento para liberar o tempo de CPU para outras tarefas do sistema. 
   
-Todos os destinatários na tabela de destinatário que cria um provedor de transporte para a mensagem devem conter todas as propriedades obrigatórias de endereçamento. Se necessário, o provedor pode construir um destinatário personalizado para representar um destinatário específico. No entanto, se o provedor pode gerar uma entrada do destinatário que inclui mais informações, ele deve fazer isso. Por exemplo, se um provedor de transporte tem informações suficientes sobre formato de destinatário de um provedor catálogo de endereços que ele pode construir um identificador de entrada válida para um destinatário para esse formato, ele deve construir o identificador de entrada.
+Todos os destinatários na tabela de destinatários que o provedor de transporte cria para a mensagem devem conter todas as propriedades de endereçamento necessárias. Se necessário, o provedor pode construir um destinatário personalizado para representar um determinado destinatário. No enTanto, se o provedor puder produzir uma entrada de destinatário que inclua mais informações, ele deverá fazer isso. Por exemplo, se um provedor de transporte tiver informações suficientes sobre o formato de destinatário de um provedor de catálogo de endereços que possa criar um identificador de entrada válido para um destinatário desse formato, ele deverá criar o identificador de entrada.
   
-Se todas as propriedades nontransmittable são recebidas, o provedor de transporte não deve armazená-los na nova mensagem. No entanto, o provedor de transporte deve armazenar todas as propriedades transmittable, que ele recebe na nova mensagem.
+Se qualquer propriedade não-transmittable for recebida, o provedor de transporte não deverá armazená-las na nova mensagem. No enTanto, o provedor de transporte deve armazenar todas as propriedades de transmittable recebidas na nova mensagem.
   
-Se a mensagem de entrada é um relatório de entrega ou um relatório de não entrega e o provedor de transporte é possível utilizar o método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para gerar o relatório a partir da mensagem original, o provedor, em si, deve popular a mensagem com as propriedades adequadas. No entanto, o provedor de transporte não pode definir a propriedade de **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da mensagem.
+Se a mensagem de entrada for um relatório de entrega ou um relatório de não entrega e o provedor de transporte não puder usar o método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) para gerar o relatório a partir da mensagem original, o provedor deverá preencher a mensagem com as propriedades adequadas. No enTanto, o provedor de transporte não pode definir a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da mensagem.
   
-Para salvar a mensagem de entrada no armazenamento de mensagens MAPI apropriado após o processamento, o provedor de transporte chama o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Se o provedor de transporte não tem todas as mensagens a serem passados para o spooler MAPI, ele pode interromper a mensagem de entrada, retornando da chamada **StartMessage** sem chamar **SaveChanges**.
+Para salvar a mensagem de entrada no repositório de mensagens MAPI apropriado após o processamento, o provedor de transporte chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Se o provedor de transporte não tiver nenhuma mensagem para passar para o spooler MAPI, ele poderá interromper a mensagem de entrada retornando da chamada **StartMessage** sem chamar **SaveChanges**.
   
-Todos os objetos que o provedor de transporte abre durante uma chamada de **StartMessage** devem ser liberados antes de retornar. No entanto, o provedor não deve liberar o objeto de mensagem que o MAPI spooler originalmente passado no parâmetro _lpMessage_ . 
+Todos os objetos que o provedor de transporte abre durante uma chamada de **StartMessage** devem ser liberados antes de retornar. No enTanto, o provedor não deve liberar o objeto Message que o spooler MAPI aprovou originalmente no parâmetro _lpMessage_ . 
   
-Se **StartMessage** retornará um erro, a mensagem no processo for lançada sem ter que as alterações foram salvas e serão perdida. Nesse caso, o provedor de transporte deve passar o sinalizador NOTIFY_CRITICAL_ERROR com uma chamada para o método [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) e chame o método [IXPLogon::Poll](ixplogon-poll.md) para notificar o MAPI spooler que ele está em uma condição de erro grave. 
+Se **StartMessage** retornar um erro, a mensagem em processo será lançada sem que as alterações sejam salvas e perdidas. Nesse caso, o provedor de transporte deve passar o sinalizador NOTIFY_CRITICAL_ERROR com uma chamada para o método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) e chamar o método [IXPLogon::P oll](ixplogon-poll.md) para NOTIFICAr o spooler MAPI de que ele está em uma condição de erro grave. 
   
-Para obter mais informações, consulte [interagindo com o Spooler de MAPI](interacting-with-the-mapi-spooler.md). 
+Para obter mais informações, consulte [interagindo com o spooler MAPI](interacting-with-the-mapi-spooler.md). 
   
 ## <a name="see-also"></a>Confira também
 

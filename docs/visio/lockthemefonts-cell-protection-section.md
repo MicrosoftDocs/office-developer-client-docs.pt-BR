@@ -1,37 +1,37 @@
 ---
-title: Célula LockThemeFonts (Seção Protection)
+title: Célula LockThemeFonts (seção Protection)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1ce8b52c-b6c1-4764-b4ec-00c7efb8929d
-description: Impede que a célula FontIndex na linha de propriedades do tema que está sendo alterada aplicando um novo tema. Não impede que usuários editando manualmente esse valor na ShapeSheet.
-ms.openlocfilehash: b90ffe4c5555df017bb0506a78351514c954ec39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Impede que a célula FontIndex na linha de propriedades do tema seja alterada aplicando um novo tema. Não impede que os usuários editem manualmente esse valor no ShapeSheet.
+ms.openlocfilehash: b3bd21c1dcd8c8c13d843c50cb29edcc5b8c4999
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358090"
 ---
-# <a name="lockthemefonts-cell-protection-section"></a>Célula LockThemeFonts (Seção Protection)
+# <a name="lockthemefonts-cell-protection-section"></a>Célula LockThemeFonts (seção Protection)
 
-Impede que a célula **FontIndex** na linha de **Propriedades do tema** que está sendo alterada aplicando um novo tema. Não impede que usuários editando manualmente esse valor na ShapeSheet. 
+Impede que a célula **FontIndex** na linha de **Propriedades do tema** seja alterada aplicando um novo tema. Não impede que os usuários editem manualmente esse valor no ShapeSheet. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A célula **FontIndex** não pode ser alterada de seu valor atual, a menos que alterado na ShapeSheet diretamente.  <br/> |
-|FALSO  <br/> |A célula **FontIndex** pode ser alterada de seu valor atual, quando o tema é alterado.  <br/> |
+|TRUE  <br/> |A célula **FontIndex** não pode ser alterada de seu valor atual, a menos que seja alterada diretamente na ShapeSheet.  <br/> |
+|FALSE  <br/> |A célula **FontIndex** pode ser alterada de seu valor atual quando o tema é alterado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **LockThemeFonts** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **LockThemeFonts** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LockThemeFonts  <br/> |
    
-Para obter uma referência à célula **LockThemeFonts** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **LockThemeFonts** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc4abf1a-c08c-4462-9d7c-6af506dc07c9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: faba91d813d27f7ea45e978724ce0d4707803cba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b53dd9aaaf18dba5c7e33e0bc7d984de757634a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358769"
 ---
 # <a name="scuncfromlocalpath"></a>ScUNCFromLocalPath
 
@@ -25,13 +25,13 @@ ms.locfileid: "22590103"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Localiza um equivalente universal de nomenclatura do caminho UNC (convenção) para o caminho local fornecido.
+Localiza uma contraparte de caminho de convenção universal de nomenclatura (UNC) para o caminho local fornecido.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE ScUNCFromLocalPath(
@@ -45,21 +45,21 @@ SCODE ScUNCFromLocalPath(
 
  _szLocal_
   
-> [in] Um caminho no formato [ _unidade:_]\[ _caminho_] de um arquivo ou diretório.
+> no Um caminho no formato [ _unidade:_]\[ _caminho_] de um arquivo ou diretório.
     
  _szUNC_
   
-> [out] Um caminho no formato \\[ _servidor_]\[ _compartilhar_]\[ _caminho_] do arquivo ou diretório para o parâmetro _szLocal_ da mesma. 
+> bota \\Um caminho no formato [ _Server_]\[ _share_]\[ _caminho_] do mesmo arquivo ou diretório que o parâmetro _szLocal_ . 
     
  _cchUNC_
   
-> [in] Tamanho do buffer da cadeia de caracteres de saída.
+> no Tamanho do buffer para a cadeia de caracteres de saída.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> O equivalente do caminho UNC foi localizado com êxito.
+> O equivalente ao caminho UNC foi localizado com êxito.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -71,7 +71,7 @@ MAPI_E_TOO_BIG
     
 S_FALSE
   
-> O caminho local já foi uma cadeia de caracteres UNC.
+> O caminho local já era uma cadeia de caracteres UNC.
     
 ## <a name="see-also"></a>Confira também
 

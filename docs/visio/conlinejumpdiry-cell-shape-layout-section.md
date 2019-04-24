@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Determina a direção dos saltos de linha que ocorrem em um conector dinâmico vertical para uma forma.
-ms.openlocfilehash: 2d0c0964b52c9afbccc9cb507024825434702b6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342739"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>Célula ConLineJumpDirY (Seção Shape Layout)
 
@@ -22,13 +22,13 @@ Determina a direção dos saltos de linha que ocorrem em um conector dinâmico v
   
 |**Valor**|**Direção do salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Padrão da página  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Esquerda  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2  <br/> | Direita  <br/> |**visLOJumpDirYRight** <br/> |
+| ,0  <br/> | Padrão da página  <br/> |**visLOJumpDirYDefault** <br/> |
+| 1  <br/> | Esquerdo  <br/> |**visLOJumpDirYLeft** <br/> |
+| duas  <br/> | À direita  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para definir o padrão direção vertical para *todos os* conector salta em uma página, utilize a célula PageLineJumpDirY na seção Page Layout. 
+Para definir a direção vertical padrão para *todos os* saltos de conectores em uma página, use a célula PageLineJumpDirY na seção Page Layout. 
   
 Para fazer referência à célula ConLineJumpDirY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   

@@ -8,13 +8,13 @@ f1_keywords:
 - vis_sdr.chm1090
 localization_priority: Normal
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
-description: Contém o valor do item de dados da forma inserido na caixa de diálogo Definir Dados da Forma.
-ms.openlocfilehash: 5b373149360167585fc5a143ce9458703e219045
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém o valor do item de dados de forma conforme inserido na caixa de diálogo Dados da Forma.
+ms.openlocfilehash: 40d9e7fdd92ac8fa800a146ea45bbcd002ace87b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355969"
 ---
 # <a name="value-cell-shape-data-section"></a>Célula Value (Seção Shape Data)
 
@@ -28,9 +28,9 @@ Para obter uma referência para a célula Value pelo nome, a partir de outra fó
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Prop.  *Nome* . Valor onde Prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hélice.  *Nome* . Valor em que prop.  *Name* é o nome da linha  <br/> |
    
-Para obter uma referência para a célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

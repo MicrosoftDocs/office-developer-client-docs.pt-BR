@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7177b2f0f709939b7580fa7abb87490073bb00c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 513ec0db4e99e687d8aeb9e1d6acdef73df4d158
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351286"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição de propriedade de comparação, qual testa duas propriedades usando um operador relacional. 
+Descreve uma restrição de propriedade comparar, que testa duas propriedades usando um operador relacional. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SComparePropsRestriction
@@ -43,21 +43,21 @@ typedef struct _SComparePropsRestriction
 
 **RelOp**
   
-> Operador relacional a ser usado para comparar as duas propriedades. Os valores possíveis são:
+> Operador relacional a ser usado para comparar as duas propriedades. Os valores possíveis são os seguintes:
     
-  - RELOP_GE: A comparação é feita com base no primeiro um valor maior ou igual.
+  - RELOP_GE: a comparação é feita com base em um valor maior ou igual a um primeiro.
       
-  - RELOP_GT: A comparação é feita com base em um valor maior de primeiro.
+  - RELOP_GT: a comparação é feita com base em um primeiro valor maior.
       
-  - RELOP_LE: A comparação é feita com base no primeiro um valor menor ou igual.
+  - RELOP_LE: a comparação é feita com base em um valor menor ou igual a.
       
-  - RELOP_LT: A comparação é feita com base em um valor menor de primeiro.
+  - RELOP_LT: a comparação é feita com base em um primeiro valor menor.
       
-  - RELOP_NE: A comparação é feita com base nos valores desiguais.
+  - RELOP_NE: a comparação é feita com base em valores desiguais.
       
-  - RELOP_RE: A comparação é feita com base em como valores (expressão regular).
+  - RELOP_RE: a comparação é feita com base nos valores LIKE (expressão regular).
       
-  - RELOP_EQ: A comparação é feita com base nos valores iguais.
+  - RELOP_EQ: a comparação é feita com base em valores iguais.
     
 **ulPropTag1**
   
@@ -65,17 +65,17 @@ typedef struct _SComparePropsRestriction
     
 **ulPropTag2**
   
-> Marca de propriedade da segunda propriedade a ser comparada.
+> Marca de propriedade da segunda Propriedade a ser comparada.
     
 ## <a name="remarks"></a>Comentários
 
-A ordem de comparação é _(1) (operador relacional) de marca de propriedade (marca de propriedade 2)_. As propriedades a serem comparadas devem ser do mesmo tipo. Faz com que tentando comparar propriedades de diferentes tipos de MAPI ou o provedor de serviços para retornar o valor de erro MAPI_E_TOO_COMPLEX do método [IMAPITable](imapitableiunknown.md) ao qual a estrutura é passada como um parâmetro. 
+A ordem de comparação é _(marca de propriedade 1) (operador relacional) (marca de propriedade 2)_. As propriedades a serem comparadas devem ser do mesmo tipo. Tentar comparar propriedades de tipos diferentes faz com que o MAPI ou o provedor de serviços retorne o valor de erro [](imapitableiunknown.md) MAPI_E_TOO_COMPLEX do método IMAPITable para o qual a estrutura é passada como um parâmetro. 
   
-O resultado de uma restrição de valor de propriedade de comparação é indefinido quando uma ou ambas as propriedades não existem. Quando um cliente exige comportamento bem definido para uma restrição tal e não é certeza se a propriedade existe (por exemplo, não é uma coluna obrigatória de uma tabela) deve criar uma restrição de **e** para ingressar a restrição de propriedade comparar com um existe restrição. Use uma estrutura de [SExistRestriction](sexistrestriction.md) para definir a restrição existe e uma estrutura de [SAndRestriction](sandrestriction.md) para definir a restrição **AND** . 
+O resultado de uma restrição de valor de propriedade Compare é indefinido quando uma ou ambas as propriedades não existem. Quando um cliente requer um comportamento bem definido para tal restrição e não tem certeza se a propriedade existe, (por exemplo, não é uma coluna obrigatória de uma tabela), deve criar uma restrição para **** ingressar na restrição de propriedade Compare com uma existente restrição. Use uma estrutura [SExistRestriction](sexistrestriction.md) para definir a restrição existir e uma estrutura [SAndRestriction](sandrestriction.md) para definir a restrição **e** . 
   
-As propriedades especificadas nos membros **ulPropTag1** e **ulPropTag2** podem ser valores múltiplos se o provedor de serviços lhe fornecer apoio. 
+As propriedades especificadas nos membros **ulPropTag1** e **ulPropTag2** podem ter vários valores se o provedor de serviços oferecer suporte a ela. 
   
-Para obter mais informações sobre a estrutura de **SComparePropsRestriction** e restrições em geral, consulte [Sobre restrições](about-restrictions.md).
+Para obter mais informações sobre a estrutura e as restrições do **SComparePropsRestriction** em geral, consulte [about Restrictions](about-restrictions.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cfe3eaa7a1d849fa5b192c83af0eb153b3f90ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d03a8b7eb39c819b865ae24189bbcf04dacbbe8b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346610"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Propriedade canônica PidTagIncompleteCopy
 
@@ -25,26 +25,26 @@ ms.locfileid: "22588976"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se esta mensagem for uma cópia incompleta de outra mensagem.
+Contém TRUE se essa mensagem é uma cópia incompleta de outra mensagem.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identificador:  <br/> |0x0035  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Propriedades da mensagem  <br/> |
+|Área:  <br/> |Propriedades gerais da mensagem  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

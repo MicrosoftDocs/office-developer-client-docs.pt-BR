@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cbaaed9069c9f8e9a26d739e614038033d136669
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5014fb5cec04a2e4e9dcb5878098283fbb230bd3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350740"
 ---
 # <a name="pidtagpstpasswordsznew-canonical-property"></a>Propriedade canônica PidTagPstPasswordSzNew
 
@@ -23,7 +23,7 @@ ms.locfileid: "22576215"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a nova senha a ser usada para acesso futuro para o repositório de pasta pessoal.
+Contém a nova senha a ser usada para acesso futuro ao repositório de pastas pessoais.
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ Contém a nova senha a ser usada para acesso futuro para o repositório de pasta
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

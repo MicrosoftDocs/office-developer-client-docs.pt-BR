@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a48d8248878c64de827bb09030073e6becba3024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f50c0eb9e3af68e206eaa5bcc51cefa923c30f72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348696"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571196"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre um objeto de status.
+Abre um objeto status.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) para o objeto de status abrir. Passar NULL indica que a interface padrão para o objeto é retornada (no caso, a interface [IMAPIStatus](imapistatusimapiprop.md) ). O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface apropriada para o objeto. 
+> no Um ponteiro para o identificador de interface (IID) do objeto status a ser aberto. Passar NULL indica que a interface padrão para o objeto é retornada (neste caso, a interface [IMAPIStatus](imapistatusimapiprop.md) ). O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface apropriada para o objeto. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o objeto de status é aberto. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como o objeto status é aberto. O seguinte sinalizador pode ser definido:
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. Por padrão, são criados objetos com permissão somente leitura e aplicativos cliente não devem funcionar no pressuposto de que você recebeu permissão de leitura/gravação. 
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são criados com permissão somente leitura, e os aplicativos cliente não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida. 
     
  _lpulObjType_
   
-> [out] Um ponteiro para o tipo de objeto aberto.
+> bota Um ponteiro para o tipo do objeto aberto.
     
  _lppEntry_
   
-> [out] Um ponteiro para o ponteiro para o objeto aberto.
+> bota Um ponteiro para o ponteiro para o objeto aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de armazenamento de mensagem implementam o método **IMSLogon::OpenStatusEntry** para abrir um objeto de status. Este objeto de status é usado para permitir que os clientes chamar métodos [IMAPIStatus](imapistatusimapiprop.md) . Por exemplo, os clientes podem usar o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para reconfigurar a sessão de logon do repositório de mensagem ou o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para validar o estado da sessão de logon do repositório de mensagem. 
+Os provedores de repositórios de mensagens implementam o método **IMSLogon:: OpenStatusEntry** para abrir um objeto status. Esse objeto status é usado para permitir que os clientes chamem métodos [IMAPIStatus](imapistatusimapiprop.md) . Por exemplo, os clientes podem usar o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para reconfigurar a sessão de logon do repositório de mensagens ou o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) para validar o estado da sessão de logon do repositório de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 

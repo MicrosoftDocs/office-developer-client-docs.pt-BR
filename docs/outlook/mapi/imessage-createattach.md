@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f534912377aadb3c342030fc02fce26693857476
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351111"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
@@ -40,23 +40,23 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> [in] Ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a mensagem. Passagem nula resulta em interface padrão ou **IMessage**, a mensagem que está sendo retornada. 
+> no Ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a mensagem. Passar resultados nulos na interface padrão da mensagem, ou **IMessage**, sendo retornado. 
     
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores que controla como o anexo é criado. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores que controla como o anexo é criado. O seguinte sinalizador pode ser definido:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **CreateAttach** retornar com êxito, possivelmente antes que o anexo seja totalmente acessível para o cliente da chamada. Se o anexo não está acessível, fazendo uma chamada subsequente a ele pode resultar em um erro. 
+> Permite **** que CreateAttach seja retornado com êxito, possivelmente antes que o anexo fique totalmente acessível ao cliente de chamada. Se o anexo não estiver acessível, fazer uma chamada subsequente para ele pode resultar em um erro. 
     
  _lpulAttachmentNum_
   
-> [out] Ponteiro para um número de índice que identifica o anexo recém-criado. Esse número é válido somente quando a mensagem é aberta e é a base para a propriedade de **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.
+> bota Ponteiro para um número de índice que identifica o anexo recém-criado. Esse número é válido somente quando a mensagem é aberta e é a base para a propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.
     
  _lppAttach_
   
-> [out] Ponteiro para um ponteiro para o objeto de abrir anexo.
+> bota Ponteiro para um ponteiro para o objeto Attachment aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -66,9 +66,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::CreateAttach** cria um novo anexo em uma mensagem. O novo anexo e as propriedades que são definidas para ele, não estão disponíveis até que um cliente tenha chamado o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) do anexo e o método de **IMAPIProp::SaveChanges** da mensagem. 
+O método **IMessage:: CreateAttach** cria um novo anexo em uma mensagem. O novo anexo e as propriedades que são definidas para ele não estão disponíveis até que um cliente tenha chamado o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) do anexo e o método **IMAPIProp:: SaveChanges** da mensagem. 
   
-O número de anexo apontado pela _lpulAttachmentNum_ é exclusivo e válido somente dentro do contexto da mensagem. Ou seja, dois anexos em duas mensagens diferentes podem ter o mesmo número enquanto dois anexos na mesma mensagem não é possível. 
+O número de anexo apontado por _lpulAttachmentNum_ é exclusivo e válido apenas dentro do contexto da mensagem. Ou seja, dois anexos em duas mensagens diferentes podem ter o mesmo número enquanto dois anexos na mesma mensagem não podem. 
   
 ## <a name="see-also"></a>Confira também
 

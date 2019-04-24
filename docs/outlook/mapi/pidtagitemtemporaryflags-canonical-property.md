@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8066de8e-2b77-4bac-8df3-e64b03ee42b9
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ec092e6cc6174e156dbfe7784143c9d74715eef7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357698"
 ---
 # <a name="pidtagitemtemporaryflags-canonical-property"></a>Propriedade canônica PidTagItemTemporaryflags
 
@@ -25,40 +25,40 @@ ms.locfileid: "25392967"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um sinalizador que indica que uma mensagem foi lida, mas não está marcada como lidos.
+Contém um sinalizador que indica que uma mensagem foi lida, mas não está marcada como lida.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ITEM_TMPFLAGS  <br/> |
 |Identificador:  <br/> |0x1097  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada na pasta de pesquisa de mensagens não lidas do Outlook para controlar as mensagens que tenham sido lidas sem realmente marcá-las como lidos, qual remover da pasta. Quando as alterações de modo de exibição, essa propriedade é removida e o item está marcado como lidos. Essa propriedade não será sincronizado com o servidor Exchange.
+Essa propriedade é usada na pasta de pesquisa de mensagens não lidas do Outlook para controlar quais mensagens foram lidas sem realmente marcá-las como lidas, o que as removeria da pasta. Quando o modo de exibição altera essa propriedade é removido e o item é marcado como lido. Esta propriedade não será sincronizada com o Exchange Server.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Trata as operações de pasta.
+> Controla as operações da pasta.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

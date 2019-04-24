@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: A chave para controlar ações de forma é gravar fórmulas que definam o comportamento desejado. É possível editar uma fórmula de célula para alterar o valor da célula e, como resultado, modificar um determinado comportamento da forma. Por exemplo, a célula Height da seção Shape Transform contém uma fórmula que pode ser alterada para modificar a altura da forma.
-ms.openlocfilehash: 7df5ffe4d3dc32bcd5209bde353c39a92c7d422b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344454"
 ---
-# <a name="about-formulas"></a>Sobre fórmulas
+# <a name="about-formulas"></a>Sobre Fórmulas
 
 A chave para controlar ações de forma é gravar fórmulas que definam o comportamento desejado. É possível editar uma fórmula de célula para alterar o valor da célula e, como resultado, modificar um determinado comportamento da forma. Por exemplo, a célula Height da seção Shape Transform contém uma fórmula que pode ser alterada para modificar a altura da forma.
   
@@ -30,7 +30,7 @@ Uma fórmula sempre começa com um sinal de igual, inserido automaticamente, e p
   
 - Números
     
-- Coordenadas
+- Refere
     
 - Valores booleanos
     
@@ -38,7 +38,7 @@ Uma fórmula sempre começa com um sinal de igual, inserido automaticamente, e p
     
 - Funções
     
-- Sequências de caracteres
+- Cadeias de caracteres
     
 - Referências de célula
     

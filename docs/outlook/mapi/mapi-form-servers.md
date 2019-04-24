@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c95f6a1d4d50dd6552c6e786d17c40da14f3f3c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351482"
 ---
 # <a name="mapi-form-servers"></a>Servidores de formulário MAPI
 
@@ -21,36 +21,36 @@ ms.locfileid: "22569922"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Da perspectiva do usuário, o formulário é geralmente uma folha de propriedades para uma mensagem ou um formulário de entrada de dados que permite que os usuários insiram as informações estruturadas. No entanto, pode ser qualquer interface do usuário que está associado uma classe de mensagem. Do ponto de vista do programador, um formulário consiste em:
+Da perspectiva do usuário, um formulário é geralmente uma folha de propriedades para uma mensagem ou um formulário de entrada de dados que permite que os usuários insiram informações estruturadas. No enTanto, pode ser qualquer interface do usuário associada a uma classe de mensagem. Do ponto de vista de um programador, um formulário consiste em:
   
-- Um tipo de mensagem MAPI com seu próprio classe da mensagem e o identificador OLE.
+- Um tipo de mensagem MAPI com sua própria classe de mensagem e identificador OLE.
     
-- O arquivo executável que implementa o servidor do formulário.
+- O arquivo executável que implementa o servidor de formulário.
     
-- Uma coleção de propriedades MAPI — personalizados ou caso contrário — que usa o servidor de formulário. Alguns ou todos esses podem estar disponíveis para clientes de mensagens para uso.
+- Uma coleção de propriedades MAPI, personalizada ou não, que o servidor de formulário usa. Alguns ou todos eles podem estar disponíveis para os clientes de mensagens para uso.
     
-- O arquivo de configuração que descreve o formulário e é usado pelo Gerenciador do formulário.
+- O arquivo de configuração que descreve o formulário e é usado pelo Gerenciador de formulários.
     
-Como os formulários são objetos [IMessage](imessageimapiprop.md) , eles exibem propriedades e o comportamento é consistente com objetos de mensagem MAPI. No entanto, como formulários podem ter uma renderização de exibição que é específico do aplicativo, controles e propriedades personalizadas, as interfaces MAPI que o uso de formulários estão genéricas para permitir que qualquer tipo de interface que é necessária. A definição real de um formulário é armazenada em uma biblioteca de formulários, que é abordada posteriormente nesta seção. 
+Como os formulários são objetos [IMessage](imessageimapiprop.md) , eles exibem as propriedades e o comportamento que são consistentes com os objetos de mensagem MAPI. No enTanto, como os formulários podem ter propriedades personalizadas, controles e uma renderização de exibição específica do aplicativo, as interfaces MAPI que os formulários usam são genéricas o suficiente para permitir qualquer tipo de interface necessário. A definição real de um formulário é armazenada em uma biblioteca de formulários, que é abordada posteriormente nesta seção. 
   
 > [!NOTE]
-> Mais precisamente, todas as mensagens são instâncias de formulários MAPI. No entanto, é geralmente mais fácil pensar formulários personalizados como casos especiais de mensagens, desde formulários para redigir e leitura de mensagens de email típica é mais comumente usadas formulários. O mesmo status de qualquer outra mensagem de formulários do fato de que todas as mensagens são realmente apenas oferece de formulários personalizados no sistema de MAPI. 
+> Mais precisamente, todas as mensagens são instâncias de formulários MAPI. No enTanto, geralmente é mais fácil pensar em formulários personalizados como casos especiais de mensagens, já que os formulários para compor e ler mensagens de email típicas são os formulários mais comumente usados. O fato de que todas as mensagens são, na verdade, apenas os formulários personalizados dão o mesmo status de qualquer outra mensagem no sistema MAPI. 
   
-Cada formulário tem um conjunto de propriedades, algumas das quais estão visíveis na interface do usuário do formulário. Geralmente, as propriedades são comparadas aos campos na interface de usuário do formulário. Por exemplo, um formulário de pedido de compra pode ter os campos do Item, descrição, preço, imposto e Subtotal. Esses campos são simplesmente visuais renderizações de propriedades de formulário, os mesmos nomes. Clientes averiguar quais propriedades são suportadas por uma classe de mensagem específica por meio do método [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md) , que é implementado pelo gerente de formulário de MAPI. 
+Todo formulário tem um conjunto de propriedades, alguns dos quais estão visíveis na interface do usuário do formulário. Normalmente, as propriedades são correspondidas aos campos na interface do usuário do formulário. Por exemplo, um formulário de ordem de compra pode ter os campos item, descrição, Price, Tax e subTotal. Esses campos são apenas processamentos visuais de propriedades de formulário de mesmo nome. Os clientes determinam quais propriedades são suportadas por uma determinada classe de mensagens por meio do método [IMAPIFormInfo:: CalcFormPropSet](imapiforminfo-calcformpropset.md) , que é implementado pelo Gerenciador de formulários MAPI. 
   
-Como mensagens básicas, formulários MAPI podem conter todas as propriedades de mensagem padrão como remetente, destinatário, e quando a mensagem foi enviada. Formulários também podem conter qualquer número de propriedades personalizadas que são específicas para o formulário. Por exemplo um formulário de "Relatório de Bug" pode conter propriedades personalizadas para o tipo de Bug, gravidade do Bug e versão do produto.
+Como as mensagens básicas, os formulários MAPI podem conter todas as propriedades de mensagem padrão, como o remetente, o destinatário desejado e quando a mensagem foi enviada. Formulários também podem conter qualquer número de propriedades personalizadas que são específicas para o formulário. Por exemplo, um formulário "relatório de erros" pode conter Propriedades personalizadas para tipo de bug, severidade de bug e versão do produto.
   
-Para criar um formulário, você deve implementar um servidor de formulário. O servidor de formulário é o arquivo executável que é carregado quando um cliente de mensagens precisa para exibir uma mensagem que é o tipo suportado pelo servidor de formulário. Por sua vez, o servidor de formulário cria objetos de formulário conforme o necessário para exibir mensagens específicas e manipular interações do usuário com essas mensagens.
+Para criar um formulário, você deve implementar um servidor de formulários. O servidor de formulário é o arquivo executável que é carregado quando um cliente de mensagens precisa exibir uma mensagem que é o tipo suportado pelo servidor de formulários. O servidor de formulário, por sua vez, cria objetos de formulário, conforme necessário, para exibir mensagens específicas e lidar com as interações do usuário com essas mensagens.
   
-Cada servidor do formulário tem um arquivo de configuração associado a ela. Esse arquivo contém informações que descrevem o servidor de formulário em benefício o gerente do formulário. O Gerenciador de formulário usa essas informações ao instalar o servidor de formulário em uma biblioteca de formulários.
+Todos os servidores de formulário têm um arquivo de configuração associado a ele. Este arquivo contém informações que descrevem o servidor de formulário para obter o benefício do Gerenciador de formulários. O gerente de formulários usa essas informações ao instalar o servidor de formulário em uma biblioteca de formulários.
   
-Para obter detalhes sobre como criar as partes de um formulário, consulte [Desenvolvimento de servidores de formulário de MAPI](developing-mapi-form-servers.md).
+Para obter detalhes sobre como criar as partes de um formulário, consulte [developING MAPI Form Servers](developing-mapi-form-servers.md).
   
-Servidores de formulário aderem para o modelo COM (Component Object). Servidores de formulário são executados como executáveis autônomo, e não como servidores na proc. Para obter mais informações, consulte a seção de serviços de objetos ActiveX e COM no SDK do Windows.
+Os servidores de formulário aderem ao modelo de objeto de componente (COM). Os servidores de formulário são executados como executáveis autônomos, não como servidores em processamento. Para obter mais informações, consulte a seção serviços de objeto COM e ActiveX no SDK do Windows.
   
-Um identificador exclusivo de classe (CLSID) identifica a cada servidor do formulário. Sempre existe um mapeamento individual entre um identificador de classe e sua classe de mensagem. Isso significa, no entanto, se um servidor de formulário só pode trabalhar com mensagens da classe de uma mensagem. Se nenhum servidor do formulário está disponível para uma mensagem de uma determinada classe de serviço, o gerente de formulário que está sendo usado deverá tentar localizar um servidor de formulário para uma classe de mensagem acima na hierarquia de classe da mensagem; o Gerenciador de formulário padrão fornecido com o SDK do Windows faz isso. Desses servidores de formulário provavelmente será capaz de renderizar apenas um subconjunto das propriedades da mensagem (aqueles suportados pelo superclasse), mas ele será melhor do que nada. O que acontece quando nenhum servidor de formulário correspondente for encontrado em todos os é um detalhe da implementação específico para o gerente do formulário que está sendo usado; o Gerenciador de formulário padrão não abrem mensagens quando isso acontece.
+Um identificador de classe exclusivo (CLSID) identifica cada servidor de formulário. Sempre há um mapeamento de um-para-um entre um identificador de classe e sua classe de mensagem. No entanto, isso não significa que um servidor de formulário só possa funcionar com mensagens de uma classe de mensagem. Se nenhum servidor de formulário estiver disponível para atender a uma mensagem de uma determinada classe, o Gerenciador de formulários que está sendo usado deve tentar localizar um servidor de formulário para uma classe de mensagem superior na hierarquia de classe de mensagem; o Gerenciador de formulários padrão fornecido com o Windows SDK faz isso. Esse servidor de formulário provavelmente será capaz de renderizar apenas um subconjunto das propriedades da mensagem (os que têm suporte na superclasse), mas será melhor do que Nothing. O que acontece quando nenhum servidor de formulário correspondente é encontrado em todos é um detalhe de implementação específico para o Gerenciador de formulários que está sendo usado; o Gerenciador de formulários padrão não abrirá mensagens quando isso acontecer.
   
-Para obter mais informações, consulte [Classes de mensagem MAPI](mapi-message-classes.md).
+Para obter mais informações, consulte [MAPI Message classes](mapi-message-classes.md).
   
 ## <a name="see-also"></a>Confira também
 

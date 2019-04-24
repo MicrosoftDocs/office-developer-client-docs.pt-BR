@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351391"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -25,21 +25,21 @@ ms.locfileid: "22564560"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso às propriedades muitos que estão associados aos usuários de mensagens. A interface de **IMailUser** é implementada por objetos de usuário de mensagens. **IMailUser** herde a [IMAPIProp: IUnknown](imapipropiunknown.md) interface e não possui exclusivos métodos sua própria conta. 
+Fornece acesso a várias propriedades que estão associadas a usuários de mensagens. A interface **IMailUser** é implementada por objetos de usuário de mensagens. O **IMailUser** herda da interface [IMAPIProp: IUnknown](imapipropiunknown.md) e não tem métodos exclusivos próprios. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de usuário de mensagens  <br/> |
-|Implementada por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objetos do usuário de mensagens  <br/> |
+|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMailUser  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAILUSER  <br/> |
-|Modelo de transação:  <br/> |Transacionadas  <br/> |
+|Modelo de transação:  <br/> |Transact  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
-Essa interface não tem quaisquer métodos exclusivos.
+Esta interface não tem nenhum método exclusivo.
   
 |**Propriedades necessárias**|**Access**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ Essa interface não tem quaisquer métodos exclusivos.
    
 ## <a name="remarks"></a>Comentários
 
-Cinco das propriedades necessárias são conhecidos como as propriedades de um endereço base para destinatários:
+Cinco das propriedades necessárias são conhecidas como as propriedades de endereço base para destinatários:
   
 - **PR_ADDRTYPE**
     
@@ -66,15 +66,15 @@ Cinco das propriedades necessárias são conhecidos como as propriedades de um e
     
 - **PR_SEARCH_KEY**
     
-Essas propriedades serão consideradas especiais porque muitos outros grupos de propriedades semelhantes se baseiam neste grupo base. Os outros grupos são usados para descrever um destinatário em várias funções, tais como uma mensagem original ou delegar o remetente. Para obter mais informações sobre essas propriedades e como usá-las, consulte [Tipos de endereço de MAPI](mapi-address-types.md).
+Essas propriedades são consideradas especiais porque muitos outros grupos de propriedades semelhantes são criados sobre esse grupo base. Os outros grupos são usados para descrever um destinatário em várias funções, como o remetente original ou delegado da mensagem. Para obter mais informações sobre essas propriedades e como usá-las, confira [tipos de endereço MAPI](mapi-address-types.md).
   
-Mensagens de usuários podem exibir uma coleção de suas propriedades, oferecendo suporte a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** é uma tabela de exibição que descreve o layout de uma caixa de diálogo detalhes ou uma página de propriedades com guias que exibe informações de propriedade do destinatário. MAPI cria detalhes caixas de diálogo quando um cliente chama o método [IAddrBook::Details](iaddrbook-details.md) . 
+Os usuários de mensagens podem exibir uma coleção de suas propriedades ao suportar a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** é uma tabela de exibição que descreve o layout de uma caixa de diálogo de detalhes ou uma página de propriedades com guias que exibe informações sobre as propriedades do destinatário. MAPI cria caixas de diálogo detalhes quando um cliente chama o método [IAddrBook::D etails](iaddrbook-details.md) . 
   
-Objetos de usuário de mensagens podem ter outras propriedades opcionais associadas a eles. MAPI define várias propriedades que fornecem informações adicionais sobre um usuário de mensagens de endereçamento. Todas essas propriedades são cadeias de caracteres. A lista a seguir mostra mais comumente usadas propriedades:
+Os objetos do usuário de mensagens podem ter outras propriedades opcionais associadas a eles. O MAPI define muitas propriedades que fornecem informações de endereçamento adicionais sobre um usuário de mensagens. Todas essas propriedades são cadeias de caracteres. A lista a seguir mostra as propriedades mais comumente usadas:
   
 - **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
     
-- **PR_ASSISTANT** ([Pidtagassistant de MAPI](pidtagassistant-canonical-property.md)) 
+- **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) 
     
 - **PR_BUSINESS_TELEPHONE_NUMBER** ([PidTagBusinessTelephoneNumber](pidtagbusinesstelephonenumber-canonical-property.md)) 
     
@@ -86,7 +86,7 @@ Objetos de usuário de mensagens podem ter outras propriedades opcionais associa
     
 - **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-Para obter uma lista completa das propriedades, consulte [Mapeamento canônico nomes de propriedade para nomes de MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Para obter uma lista completa das propriedades, consulte [mapeamento de nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
 ## <a name="see-also"></a>Confira também
 

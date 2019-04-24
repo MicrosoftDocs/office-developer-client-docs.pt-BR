@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 44ecf095ad24dd266dc5f603ace9c7b9f21c1b41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348661"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22574824"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Insere uma nova linha de tabela, possivelmente, substituindo uma linha existente.
+Insere uma nova linha de tabela, possivelmente substituindo uma linha existente.
   
 ```cpp
 HRESULT HrModifyRow(
@@ -37,7 +37,7 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> [in] Um ponteiro para uma estrutura de [SRow](srow.md) que descreve a linha a ser adicionado ou substituir uma linha existente. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** da estrutura **SRow** deve conter uma coluna de índice, o mesmo valor que foi especificado no parâmetro _ulPropTagIndexColumn_ na chamada para o [CreateTable ](createtable.md)função. 
+> no Um ponteiro para uma estrutura [SRow](srow.md) que descreve a linha a ser adicionada ou para substituir uma linha existente. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** da estrutura **SRow** deve conter a coluna de índice, o mesmo valor que foi especificado no parâmetro _UlPropTagIndexColumn_ na chamada para o CreateTable [ ](createtable.md)função. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,17 +47,17 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> A linha no passado não tem uma coluna de índice.
+> A linha passada não tem uma coluna de índice.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData::HrModifyRow** insere a linha descrita pela estrutura **SRow** apontada pelo parâmetro _lpSRow_ . Se uma linha que tem o mesmo valor para a coluna de seu índice como a linha que aponta de _lpSRow_ para já existe na tabela, linha existente será substituída. Se não há nenhuma linha que corresponde o um incluída na estrutura de **SRow** , **HrModifyRow** adiciona a linha no final da tabela. 
+O método **ITableData:: HrModifyRow** insere a linha descrita pela estrutura **SRow** indicada pelo parâmetro _lpSRow_ . Se uma linha que tem o mesmo valor para sua coluna de índice como a linha à qual _lpSRow_ aponta já existir na tabela, a linha existente será substituída. Se não existir nenhuma linha que coincida com a incluída na estrutura **SRow** , **HrModifyRow** adicionará a linha ao final da tabela. 
   
-Todos os modos de exibição da tabela são modificados para incluir a linha apontada pela _lpSRow_. No entanto, se um modo de exibição tiver uma restrição vigentes que exclui a linha, talvez não seja visível para o usuário. 
+Todos os modos de exibição da tabela são modificados para incluir a linha indicada por _lpSRow_. No enTanto, se um modo de exibição tiver uma restrição no lugar que exclua a linha, ele pode não estar visível para o usuário. 
   
-As colunas na linha apontado pela _lpSRow_ não precisará ser na mesma ordem como as colunas na tabela. O chamador também pode incluir como propriedades de colunas que não estão atualmente na tabela. Para modos de exibição existentes, **HrModifyRow** disponibiliza essas novas colunas, mas não inclui-los no conjunto atual de coluna. Para futuras exibições, **HrModifyRow** inclui as novas colunas no conjunto de colunas. 
+As colunas na linha apontadas por _lpSRow_ não precisam estar na mesma ordem das colunas da tabela. O chamador também pode incluir as propriedades de colunas que não estão na tabela no momento. Para modos de exibição existentes, o **HrModifyRow** torna essas novas colunas disponíveis, mas não as inclui no conjunto de colunas atual. Para modos de exibição futuros, o **HrModifyRow** inclui as novas colunas no conjunto de colunas. 
   
-Após **HrModifyRow** adiciona a linha, as notificações são enviadas para todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamou o método da tabela [IMAPITable::Advise](imapitable-advise.md) para registrar para notificações. 
+Depois que o **HrModifyRow** adiciona a linha, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método IMAPITable [:: Advise](imapitable-advise.md) da tabela para se registrarem para notificações. 
   
 ## <a name="see-also"></a>Confira também
 

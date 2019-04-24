@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
 description: 'Vários modelos de provedores em C++, C# e Visual Basic acompanham a Referência do Provedor do Outlook Social Connector 2013. É possível baixar os modelos em Outlook Social Connector 2013: modelos de provedor.'
 ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355114"
 ---
 # <a name="osc-sample-templates"></a>Modelos de exemplo do OSC
 

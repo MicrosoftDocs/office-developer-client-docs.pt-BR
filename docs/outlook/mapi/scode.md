@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 7f8ede3761ca10589c686e2ec4fac18fbe00fb2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4208f51af44055b03c65b51c9b3d94e947dc9b68
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351237"
 ---
 # <a name="scode"></a>SCODE
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um valor de status de 32 bits que é usado para descrever um erro ou aviso. 
+Um valor de status de 32 bits usado para descrever um erro ou aviso. 
   
 ```cpp
 typedef ULONG SCODE;
@@ -36,20 +36,20 @@ O tipo de dados **SCODE** é o mesmo que o tipo de dados [HRESULT](hresult.md) .
   
 Um valor **SCODE** é dividido em quatro campos: 
   
-- Um código de gravidade bit único que é definido como 0 para indicar êxito e 1 para indicar falha.
+- Um código de severidade de bit único que é definido como 0 para indicar êxito e 1 para indicar falha.
     
 - Um campo reservado de 11 bits
     
-- Um código de instalações de 4 bits que indica a área responsável pelo erro ou aviso.
+- Um código de recurso de 4 bits que indica a área responsável pelo erro ou aviso.
     
-- Um erro de 16 bits ou código de aviso que descreve o problema que está causando o erro ou aviso.
+- Um erro de 16 bits ou um código de aviso que descreve o problema que está causando o erro ou aviso.
     
-Muitas das funções MAPI e métodos retornam valores **SCODE** definidos como tipos de dados **HRESULT** , assim como as funções e os métodos OLE. OLE define várias macros que podem ser usadas para converter entre um **SCODE** e um **HRESULT**.
+Muitos dos métodos e funções MAPI retornam valores de **SCODE** definidos como tipos de dados **HRESULT** como os métodos e funções OLE. O OLE define várias macros que podem ser usadas para converter entre um **SCODE** e um **HRESULT**.
   
 > [!NOTE]
-> Em MAPI de 64 bits, **SCODE** ainda é um valor de 32 bits. 
+> No MAPI de 64 bits, **SCODE** ainda é um valor de 32 bits. 
   
-Para obter mais informações sobre como o MAPI usa o tipo de dados **SCODE** , consulte o [Tratamento de erros](error-handling-in-mapi.md). Para obter mais informações sobre o OLE e o tipo de dados **SCODE** , consulte a *referência do programador do OLE* . 
+Para saber mais sobre como o MAPI usa o tipo de dados **SCODE** , confira [tratamento de erros](error-handling-in-mapi.md). Para obter mais informações sobre OLE e o tipo de dados **SCODE** , consulte a *referência do programador de OLE* . 
   
 ## <a name="see-also"></a>Confira também
 

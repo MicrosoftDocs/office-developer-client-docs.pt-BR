@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: Determina se o texto está formatado como tachado.
-ms.openlocfilehash: 2b25d1d9b00d062214c02c3fc7b14569b43a5110
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a58123814a4782c279a36d202e1293ec222ef93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349333"
 ---
 # <a name="strikethru-cell-character-section"></a>Célula Strikethru (Seção Character)
 
@@ -22,8 +22,8 @@ Determina se o texto está formatado como tachado.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O texto está formatado como tachado.  <br/> |
-|FALSO  <br/> |O texto não está formatado como tachado.  <br/> |
+|TRUE  <br/> |O texto está formatado como tachado.  <br/> |
+|FALSE  <br/> |O texto não está formatado como tachado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula Strikethru pelo nome a partir de outra
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.Strikethru [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char. Strikethru [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Strikethru pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

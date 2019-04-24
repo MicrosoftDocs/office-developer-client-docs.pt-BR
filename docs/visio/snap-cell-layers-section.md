@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c1b24e45-6f08-686b-b53d-e85fb9087a50
 description: Determina se outras formas podem ser ajustadas a formas atribuídas à camada. Formas atribuídas à camada podem ser ajustadas a outras formas, mas o contrário não ocorre.
-ms.openlocfilehash: 7fc684afb67d0454ea5907c08f4f7644d97c7f74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87e7e7500469fb7f8c7fdd4771a0225d0e4fc993
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359805"
 ---
 # <a name="snap-cell-layers-section"></a>Célula Snap (Seção Layers)
 
@@ -22,8 +22,8 @@ Determina se outras formas podem ser ajustadas a formas atribuídas à camada. F
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Outras formas podem ser ajustadas a formas na camada.  <br/> |
-|FALSO  <br/> |Outras formas não podem ser ajustadas a formas na camada.  <br/> |
+|TRUE  <br/> |Outras formas podem ser ajustadas a formas na camada.  <br/> |
+|FALSE  <br/> |Outras formas não podem ser ajustadas a formas na camada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula Snap pelo nome a partir de outra fórm
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers.Snap [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers. snap [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Snap pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

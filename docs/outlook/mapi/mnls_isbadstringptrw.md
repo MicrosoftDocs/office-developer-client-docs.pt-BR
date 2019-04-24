@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 293a0700-b950-4fc2-a2e5-148d6c846384
-description: 'Modificado pela última vez: 20 de fevereiro de 2012'
+description: 'Última modificação: 20 de fevereiro de 2012'
 ms.openlocfilehash: 0e64df38afdb8ecce35eb0151d36dde3da35f0a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356851"
 ---
 # <a name="mnlsisbadstringptrw"></a>MNLS_IsBadStringPtrW
 
@@ -21,7 +21,7 @@ ms.locfileid: "25398735"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Verifica se um ponteiro para uma cadeia de caracteres longa é válido.
+Verifica se um ponteiro para uma cadeia de caracteres larga é válido.
   
 ```cpp
 BOOL MNLS_IsBadStringPtrW(
@@ -33,18 +33,18 @@ BOOL MNLS_IsBadStringPtrW(
 
  _lpsz_
   
-> [in] Um ponteiro para a cadeia de caracteres longa.
+> no Um ponteiro para a cadeia de caracteres largos.
     
  _ucchMax_
   
-> [in] O comprimento máximo da cadeia de caracteres em caracteres, incluindo o terminador.
+> no O tamanho máximo da cadeia de caracteres em caracteres incluindo o terminador.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um Boolean que será true se a cadeia de caracteres é defeituoso.
+Retorna um Boolean que será true se a cadeia de caracteres for inválida.
   
 ## <a name="remarks"></a>Comentários
 
-Essa função distribui [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Para obter mais informações, consulte [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
+Essa função envolve [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Para obter mais informações, consulte [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
   
 

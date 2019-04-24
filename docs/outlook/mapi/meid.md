@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Modificado pela última vez: 03 de julho de 2012'
-ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 03 de julho de 2012'
+ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356970"
 ---
 # <a name="meid"></a>MEID
 
@@ -36,19 +36,19 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _abFlags_
   
-> Identificador de entrada de 4 bytes do item do Outlook. Para obter mais informações sobre identificadores de entrada MAPI, consulte **[ENTRYID](entryid.md)**. 
+> identificador de entrada de 4 bytes para o item do Outlook. Para obter mais informações sobre identificadores de entrada MAPI **[](entryid.md)**, consulte EntryID. 
     
  _muid_
   
-> GUID que identifica o provedor de armazenamento. Consulte mapidefs.h para a definição de tipo de **MAPIUID**. 
+> GUID que identifica o provedor de repositório. Consulte mapidefs. h para a definição de tipo de **MAPIUID**. 
     
  _espaço reservado_
   
-> Este membro é reservado para uso interno do Outlook e não é suportado.
+> Este membro é reservado para uso interno do Outlook e não tem suporte.
     
  _ltidFld_
   
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SYNC](sync.md)
+[SINCRONIZAÇÃO](sync.md)
   
 [UPMSG](upmsg.md)
 

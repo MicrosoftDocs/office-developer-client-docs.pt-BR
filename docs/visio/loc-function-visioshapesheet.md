@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251455
 localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
-description: Obtém um ponto definido nas coordenadas locais da um forma e retorna o ponto equivalente expressado nas coordenadas locais da forma associada à fórmula.
-ms.openlocfilehash: 196e2c92ea6ab410b6ecca9767b68605e4eb4d30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Usa um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expresso nas coordenadas locais da forma associada à fórmula.
+ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344426"
 ---
 # <a name="loc-function-visioshapesheet"></a>Função LOC (VisioShapeSheet)
 
-Obtém um ponto definido nas coordenadas locais da um forma e retorna o ponto equivalente expressado nas coordenadas locais da forma associada à fórmula. 
+Usa um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expresso nas coordenadas locais da forma associada à fórmula. 
   
 ## <a name="syntax"></a>Sintaxe
 
-LOC (* * *aponte* * *) 
+LOC (* * *ponto* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _ponto_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto definido nas coordenadas locais de uma forma.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -40,7 +40,7 @@ As coordenadas locais são medidas do canto inferior esquerdo do retângulo de s
   
 ## <a name="example"></a>Exemplo
 
-LOC (PNT (Sheet. 5! LocPinX, Sheet. 5! LocPinY)) 
+LOC (PNT (Sheet. 5! LocPinX, sheet. 5! LocPinY)) 
   
 Nesta expressão, PNT converte um conjunto de coordenadas locais em Sheet.5 para um ponto. (Sheet.5 é uma outra forma na mesma página de desenho.) Em seguida, LOC converte esse ponto para um ponto equivalente no sistema de coordenadas locais da forma atual, em relação ao canto inferior esquerdo do retângulo de seleção da forma atual. 
   

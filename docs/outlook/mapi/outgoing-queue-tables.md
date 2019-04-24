@@ -1,5 +1,5 @@
 ---
-title: Tabelas de filas de saída
+title: Tabelas de fila de saída
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,30 +8,30 @@ api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c5f136a0d26b7519bc1b7b3d8f448f5f382767ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4bf935f58fb20460bbf6baf4b1434be1f3ab8156
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348500"
 ---
-# <a name="outgoing-queue-tables"></a>Tabelas de filas de saída
+# <a name="outgoing-queue-tables"></a>Tabelas de fila de saída
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de fila de saída contém informações sobre todas as mensagens de saída para um armazenamento de mensagens. Provedores de armazenamento de mensagem implementam tabelas de fila de saída para o MAPI spooler usar. Repositórios que não têm suporte para o envio ou recebimento de mensagens não precisa implementar nesta tabela. 
+Uma tabela de fila de saída contém informações sobre todas as mensagens de saída de um repositório de mensagens. Os provedores de repositório de mensagens implementam tabelas de fila de saída para o spooler MAPI a ser usado. Os repositórios que não dão suporte ao envio ou recebimento de mensagens não precisam implementar essa tabela. 
   
-Para acessar uma tabela de fila de saída, o MAPI spooler chama o método [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
+Para acessar uma tabela de fila de saída, o spooler MAPI chama o método [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
   
-Não há um requisito para que as mensagens sejam preprocessadas e enviadas para o provedor de transporte na mesma ordem em que foram enviadas pelo aplicativo cliente. O MAPI spooler foi projetado para aceitar mensagens de armazenamento de mensagens em ordem crescente de tempo de envio. Devido a esse requisito, pode haver algumas atraso antes de algumas mensagens aparecem na tabela de fila de saída. 
+Há um requisito de que as mensagens sejam preprocessadas e enviadas ao provedor de transporte na mesma ordem em que foram enviadas pelo aplicativo cliente. O MAPI spooler é projetado para aceitar mensagens do repositório de mensagens em ordem crescente de tempo de envio. Devido a esse requisito, pode haver um atraso antes de algumas mensagens aparecerem na tabela de fila de saída. 
   
-Repositórios de mensagem seja devem permitir a classificação na tabela de fila de saída para que o MAPI spooler pode classificar as mensagens por hora de envio, ou a ordem de classificação padrão deve ser por hora de envio de em ordem crescente. 
+Os repositórios de mensagens devem permitir a classificação na tabela de fila de saída para que o spooler MAPI possa classificar as mensagens por hora de envio ou a ordem de classificação padrão deve ser em tempo de envio em ordem crescente. 
   
 A tabela de fila de saída deve enviar notificações quando o conteúdo da fila é alterado.
   
-As seguintes propriedades compõem a coluna necessária definida nas tabelas de fila de saída:
+As propriedades a seguir compõem o conjunto de colunas necessárias nas tabelas de fila de saída:
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ As seguintes propriedades compõem a coluna necessária definida nas tabelas de 
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Para obter mais informações sobre como a tabela de fila de saída é usada, consulte [Enviando mensagens por provedores de repositório de mensagem usando](sending-messages-by-using-message-store-providers.md).
+Para obter mais informações sobre como a tabela de fila de saída é usada, consulte [enviando mensagens usando provedores de repositório de mensagens](sending-messages-by-using-message-store-providers.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 980ac82c6f7fcb5771a6013b3fb033b0bdfd05e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349312"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
@@ -42,59 +42,59 @@ HRESULT CreateOneOff(
 
  _lpszName_
   
-> [in] Um ponteiro para o valor da propriedade de **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) do destinatário. O parâmetro _lpszName_ pode ser NULL. 
+> no Um ponteiro para o valor da propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) do destinatário. O parâmetro _lpszName_ pode ser NULL. 
     
  _lpszAdrType_
   
-> [in] Um ponteiro para o tipo de endereço do destinatário, como FAX ou SMTP. O parâmetro _lpszAdrType_ não pode ser NULL. 
+> no Um ponteiro para o tipo de endereço do destinatário, como FAX ou SMTP. O parâmetro _lpszAdrType_ não pode ser nulo. 
     
  _lpszAddress_
   
-> [in] Um ponteiro para o endereço do destinatário. O parâmetro _lpszAddress_ não pode ser NULL. 
+> no Um ponteiro para o endereço do destinatário. O parâmetro _lpszAddress_ não pode ser nulo. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que afeta o destinatário único. Sinalizadores a seguir podem ser definidos:
+> no Uma máscara de bits de sinalizadores que afeta o destinatário one-off. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_SEND_NO_RICH_INFO 
   
-> O destinatário não pode manipular o conteúdo da mensagem formatada. Se MAPI_SEND_NO_RICH_INFO for definido, o MAPI define a propriedade de **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) do destinatário como FALSE. Se MAPI_SEND_NO_RICH_INFO não estiver definida, o MAPI define essa propriedade como TRUE, a menos que o endereço do destinatário mensagens apontado pela _lpszAddress_ é interpretado como um endereço de Internet. Nesse caso, MAPI define **PR_SEND_RICH_INFO** como FALSE. 
+> O destinatário não pode lidar com o conteúdo de mensagens formatados. Se MAPI_SEND_NO_RICH_INFO for definido, MAPI definirá a propriedade **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) do destinatário como false. Se MAPI_SEND_NO_RICH_INFO não for definido, MAPI definirá essa propriedade como TRUE, a menos que o endereço de email do destinatário apontado por _lpszAddress_ seja interpretado como um endereço de Internet. Nesse caso, o MAPI define **PR_SEND_RICH_INFO** como false. 
     
 MAPI_UNICODE 
   
-> O nome para exibição, tipo de endereço e endereço estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estão no formato ANSI.
+> O nome de exibição, o tipo de endereço e o endereço estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estarão no formato ANSI.
     
  _lpcbEntryID_
   
-> [out] Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Um ponteiro para um ponteiro para o identificador de entrada para o destinatário único.
+> bota Um ponteiro para um ponteiro para o identificador de entrada para o destinatário one-off.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O identificador de entrada únicos foi criado com êxito.
+> O identificador de entrada one-off foi criado com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-Clientes chamar o método **CreateOneOff** para criar um identificador de entrada para um destinatário único — um destinatário que não pertençam a qualquer um dos contêineres de qualquer um dos provedores de catálogo de endereços atualmente carregado. Destinatários únicos podem ter qualquer tipo de endereço que é suportado por um dos provedores de catálogo de endereços ativo para a sessão. 
+Os clientes chamam o método **CreateOneOff** para criar um identificador de entrada para um destinatário one-off, que não pertence a nenhum contêiner de qualquer um dos provedores de catálogo de endereços carregados no momento. Os destinatários únicos podem ter qualquer tipo de endereço que seja suportado por um dos provedores de catálogos de endereços ativos da sessão. 
   
-Destinatários únicos normalmente são criados com um modelo para seus tipos de endereço específica. O provedor de catálogo de endereços que suporta o tipo de endereço fornece o modelo. Um usuário de um aplicativo cliente inserir as informações relevantes para o modelo.
+Os destinatários únicos são normalmente criados com um modelo para o seu tipo de endereço específico. O provedor de catálogo de endereços que oferece suporte ao tipo de endereço fornece o modelo. Um usuário de um aplicativo cliente insere as informações relevantes no modelo.
   
-MAPI suporta as sequências de caracteres Unicode para o nome para exibição, tipo de endereço e os parâmetros de endereço de **CreateOneOff**.
+O MAPI oferece suporte a cadeias de caracteres Unicode para o nome de exibição, tipo de endereço e parâmetros de endereço de **CreateOneOff**.
   
-O sinalizador MAPI_SEND_NO_RICH_INFO controla se o texto formatado no formato Rich Text (RTF) é enviado junto com cada mensagem. O TNEF Transport Neutral Encapsulation Format () — é usado para transmitir um formato de texto formatado — é enviada pelo maioria dos provedores de transporte, independentemente de como o destinatário define sua propriedade **PR_SEND_RICH_INFO** . Isso não é um problema para clientes que funcionam com interpessoais emails de mensagens. No entanto, porque o TNEF geralmente é utilizado para enviar propriedades personalizadas para classes de mensagem personalizada, não oferece suporte à pode ser um problema para clientes baseados no formulário ou clientes que requerem propriedades personalizadas de MAPI. Para obter mais informações, consulte [Envio de mensagens com TNEF](sending-messages-with-tnef.md).
+O sinalizador MAPI_SEND_NO_RICH_INFO controla se o texto formatado no formato Rich Text (RTF) é enviado junto com cada mensagem. O formato de encapsulamento neutro de transporte (TNEF) — um formato que é usado para transmitir texto formatado — é enviado pela maioria dos provedores de transporte, independentemente de como o destinatário define sua propriedade **PR_SEND_RICH_INFO** . Isso não é um problema para clientes de mensagens que trabalham com mensagens interpessoais. No enTanto, como o TNEF geralmente é usado para enviar propriedades personalizadas para classes de mensagens personalizadas, não o suporte para ela pode ser um problema para clientes baseados em formulário ou clientes que exigem propriedades MAPI personalizadas. Para obter mais informações, consulte [enviando mensagens com TNEF](sending-messages-with-tnef.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa o método **CreateOneOff** para criar uma identificação de entrada para um endereço que não for encontrado em qualquer catálogo de endereços.  <br/> |
+|Mapiabfunctions. cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa o método **CreateOneOff** para criar uma ID de entrada para um endereço que não é encontrado em nenhum catálogo de endereços.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -105,5 +105,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

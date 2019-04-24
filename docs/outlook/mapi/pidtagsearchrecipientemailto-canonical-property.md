@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d254df132db5542ce5235c1c3ab42ea768399f0a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358916"
 ---
 # <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propriedade canônica PidTagSearchRecipientEmailTo
 
@@ -21,7 +21,7 @@ ms.locfileid: "25382614"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição dos destinatários que serão abordados na linha **para** das mensagens no repositório. 
+Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição de destinatários tratados na linha **para** de mensagens no repositório. 
   
 ## 
 
@@ -30,32 +30,32 @@ Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de 
 |Propriedades associadas:  <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
 |Identificador:  <br/> |0x0EA6  <br/> |
 |Tipo de propriedade:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Pesquisar  <br/> |
+|Área:  <br/> |Pesquisa  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 > [!NOTE]
-> Nesta marca de restrição de MAPI, usada quando você procurar endereços de email ou exibe nomes para o qual a mensagem é enviada, não poderão ser definida no arquivo de cabeçalho para download que você possui atualmente. Você pode adicioná-la ao seu código usando o seguinte valor: >`#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
+> Essa marca de restrição MAPI, usada quando você pesquisa endereços de email ou nomes de exibição para os quais a mensagem é enviada, não pode ser definida no arquivo de cabeçalho baixável que você tem atualmente. Você pode adicioná-lo ao seu código usando o seguinte valor: >`#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
   
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Microsoft Exchange Server.
+> Fornece referências para as especificações de protocolo do Microsoft Exchange Server relacionadas.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
+> Especifica as propriedades e operações para manipular uma configuração de lista de pastas de pesquisa.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -63,7 +63,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

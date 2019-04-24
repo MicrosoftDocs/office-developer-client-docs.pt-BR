@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8f4e62a8eb1b5e61cb0223c66b921e15ab9423b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55cba4f7cfb3fa8035117348b10ab1d6d3082710
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358111"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
@@ -29,7 +29,7 @@ Contém uma lista de atributos para propriedades de um objeto.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
@@ -49,7 +49,7 @@ typedef struct
     
  **aPropAttr**
   
-> Uma matriz de atributos de propriedade. Os valores válidos para os atributos são:
+> Uma matriz de atributos de propriedade. Os valores válidos para atributos são os seguintes:
     
     - PROPATTR_MANDATORY
     
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SPropAttrArray** é utilizada pelos objetos de dados de propriedade que implementam o [IPropData: IMAPIProp](ipropdataimapiprop.md) interface. Ele também é usado pela implementação do MAPI do [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) ou seja com base no armazenamento estruturado. 
+A estrutura **SPropAttrArray** é usada por objetos de dados de propriedade que implementam a interface [IPropData: IMAPIProp](ipropdataimapiprop.md) . Ele também é usado pela implementação de MAPI do [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) que se baseia no armazenamento estruturado. 
   
 ## <a name="see-also"></a>Confira também
 

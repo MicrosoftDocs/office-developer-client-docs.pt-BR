@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: bf6386ae3a7d835c8748e332235d8737c7a502e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70f61ef553350f08eed96c1ee4e9ab790359d1fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348934"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589466"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre um contêiner, o usuário ou lista de distribuição de mensagens e retorna um ponteiro para uma implementação de interface para fornecer mais acesso.
+Abre um contêiner, um usuário de mensagens ou uma lista de distribuição e retorna um ponteiro para uma implementação de interface para fornecer acesso adicional.
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,39 +42,39 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada do contêiner, mensagens de usuário ou lista de distribuição para abrir.
+> no Um ponteiro para o identificador de entrada do contêiner, usuário de mensagens ou lista de distribuição a ser aberto.
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar o objeto aberto. Passar NULL retorna o identificador de interface de padrão do objeto. Para contêineres, a interface padrão é [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). O padrão de interfaces para objetos de catálogo de endereços estão [IDistList: IMAPIContainer](idistlistimapicontainer.md) para obter uma lista de distribuição e [IMailUser: IMAPIProp](imailuserimapiprop.md) para um usuário de mensagens. 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o objeto Open. Passar nulo retorna o identificador da interface padrão do objeto. Para contêineres, a interface padrão é [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). As interfaces padrão para os objetos do catálogo de endereços são [IDistList: IMAPIContainer](idistlistimapicontainer.md) para uma lista de distribuição e [IMailUser: IMAPIProp](imailuserimapiprop.md) para um usuário de mensagens. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o objeto é aberto. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controla como o objeto é aberto. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que o objeto seja aberto com as permissões de rede máximo permitidas para o usuário e o acesso do aplicativo de cliente máximo. Por exemplo, se o cliente tem a permissão de leitura/gravação, o objeto deve ser aberto com permissão de leitura/gravação; Se o cliente tem a permissão somente leitura, o objeto deve ser aberto com permissão somente leitura.
+> Solicita que o objeto seja aberto com as permissões de rede máximas permitidas para o usuário e o acesso ao aplicativo cliente máximo. Por exemplo, se o cliente tiver permissão de leitura/gravação, o objeto deverá ser aberto com permissão de leitura/gravação; Se o cliente tiver permissão somente leitura, o objeto deverá ser aberto com permissão somente leitura.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que o método **OpenEntry** retornar com êxito, possivelmente antes que o cliente da chamada acessou totalmente o objeto. Se o objeto não é acessado, fazendo uma chamada do objeto subsequente pode gerar um erro. 
+> Permite que o método **OpenEntry** seja retornado com êxito, possivelmente antes que o cliente de chamada tenha acessado o objeto completamente. Se o objeto não for acessado, fazer uma chamada de objeto subsequente poderá gerar um erro. 
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. Por padrão, os objetos são abertos com acesso somente leitura e os clientes não devem presumir que foi concedida permissão de leitura/gravação.
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura e os clientes não devem supor que a permissão de leitura/gravação tenha sido concedida.
     
  _lpulObjType_
   
-> [out] Um ponteiro para o tipo de objeto aberto.
+> bota Um ponteiro para o tipo do objeto aberto.
     
  _lppUnk_
   
-> [out] Um ponteiro para um ponteiro para o objeto aberto.
+> bota Um ponteiro para um ponteiro para o objeto aberto.
     
 ## <a name="remarks"></a>Comentários
 
@@ -84,29 +84,29 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> O usuário tem permissões insuficientes para abrir o objeto ou foi feita uma tentativa de abrir um objeto de somente leitura com permissão de leitura/gravação.
+> O usuário tem permissões insuficientes para abrir o objeto ou foi feita uma tentativa de abrir um objeto somente leitura com permissão de leitura/gravação.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> O identificador de entrada especificado pelo _lpEntryID_ não representa um objeto. 
+> O identificador de entrada especificado por _lpEntryID_ não representa um objeto. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O identificador de entrada no parâmetro _lpEntryID_ não tem um formato reconhecido pelo provedor de catálogo de endereços. 
+> O identificador de entrada no parâmetro _lpEntryID_ não é de um formato reconhecido pelo provedor de catálogo de endereços. 
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método de **OpenEntry** para abrir um contêiner, o usuário ou lista de distribuição de mensagens. 
+MAPI chama o método **OpenEntry** para abrir um contêiner, usuário de mensagens ou lista de distribuição. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Antes de MAPI chama seu método de **OpenEntry** , ele determina que o identificador de entrada no parâmetro _lpEntryID_ pertence a você e não a outro provedor. MAPI realiza isso mediante correspondentes a estrutura [MAPIUID](mapiuid.md) do identificador de entrada com o **MAPIUID** que você registrou chamando o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) na inicialização. 
+Antes de o MAPI chamar o método **OpenEntry** , ele determina que o identificador de entrada no parâmetro _lpEntryID_ pertence a você e não a outro provedor. O MAPI faz isso combinando a estrutura [MAPIUID](mapiuid.md) no identificador de entrada com o **MAPIUID** que você registrou chamando o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) na inicialização. 
   
-Abra o objeto como somente leitura, exceto se o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS estiver definido no parâmetro _ulFlags_ . Se você não permitir a modificação do objeto solicitada, não abre o objeto nisso e retornar MAPI_E_NO_ACCESS. 
+Abra o objeto como somente leitura, a menos que o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS esteja definido no parâmetro _parâmetroulflags_ . Se você não permitir modificações para o objeto solicitado, não abra o objeto e retorne MAPI_E_NO_ACCESS. 
   
-Se o MAPI transmite NULL para _lpEntryID_, abra o contêiner de raiz na sua hierarquia de contêiner.
+Se MAPI passar NULL para _lpEntryID_, abra o contêiner raiz na sua hierarquia de contêineres.
   
-O objeto que você está sendo solicitado para abrir pode ser um objeto copiado de outro provedor. Nesse caso, ele dará suporte a propriedade **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Se o objeto dá suporte a essa propriedade, chame o método de [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para vincular ao código para essa entrada no provedor estrangeira, passando o parâmetro _lpTemplateID_ e de 0 a ulTemplateFlags _ **PR_TEMPLATEID** _parâmetro. **IMAPISupport::OpenTemplateID** passa essas informações para o provedor externo em uma chamada ao método de [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) do provedor estrangeira. Se **IMAPISupport::OpenTemplateID** gera um erro, geralmente porque o provedor estrangeiro está indisponível ou não foi incluído no perfil, tente continuar tratando-se a entrada não acoplada como somente leitura. Para obter mais informações sobre a abertura de entradas do catálogo de endereço estrangeiro, consulte [atuando como um provedor de catálogo de endereço de Host](acting-as-a-host-address-book-provider.md).
+O objeto que você está sendo solicitado a abrir pode ser um objeto copiado de outro provedor. Nesse caso, ele dará suporte à propriedade **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Se o objeto não oferecer suporte a essa propriedade, chame o método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) para vincular ao código para esta entrada no provedor estrangeiro, passando **PR_TEMPLATEID** no parâmetro _lpTemplateID_ e 0 no _ulTemplateFlags _parâmetro. **IMAPISupport:: OpenTemplateID** passa essas informações para o provedor estrangeiro em uma chamada para o método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) do provedor estrangeiro. Se **IMAPISupport:: OpenTemplateID** gerar um erro, geralmente porque o provedor estrangeiro não está disponível ou não está incluído no perfil, tente continuar tratando a entrada não associada como somente leitura. Para obter mais informações sobre como abrir entradas do catálogo de endereços estrangeiros, consulte [atuando como um provedor de catálogo de endereços de host](acting-as-a-host-address-book-provider.md).
   
 ## <a name="see-also"></a>Confira também
 

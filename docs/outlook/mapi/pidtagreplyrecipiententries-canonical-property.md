@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 000132f052abb666ae844ec7d21b59c85ab43613
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355052"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>Propriedade canônica PidTagReplyRecipientEntries
 
@@ -25,7 +25,7 @@ ms.locfileid: "25400961"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de tamanho dos identificadores de entrada para destinatários que devem receber uma resposta.
+Contém uma matriz dimensionada de identificadores de entrada para destinatários que devem receber uma resposta.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contém uma matriz de tamanho dos identificadores de entrada para destinatários
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém uma estrutura [FLATENTRYLIST](flatentrylist.md) e não é uma propriedade de valores múltiplos. 
+Esta propriedade contém uma estrutura [FLATENTRYLIST](flatentrylist.md) e não é uma propriedade com vários valores. 
   
-Quando essa propriedade não estiver presente, uma resposta é enviada apenas para o usuário identificado pela propriedade **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Quando isso e as propriedades de **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) são definidas, a resposta é enviada para todos os destinatários identificados por essas duas propriedades. Um provedor de transporte usa essas propriedades para substituir a lógica de resposta comum.
+Quando essa propriedade não está presente, uma resposta é enviada somente para o usuário identificado pela propriedade **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Quando essa e as propriedades **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) são definidas, a resposta é enviada a todos os destinatários identificados por essas duas propriedades. Um provedor de transporte usa essas propriedades para substituir a lógica de resposta usual.
   
-Se essa propriedade ou a propriedade **PR_REPLY_RECIPIENT_NAMES** estiver definida, a outra propriedade deve ser definida também. Essas propriedades devem conter o mesmo número de destinatários, e eles devem armazená-los na mesma ordem. Falha para observar esses requisitos pode causar resultados imprevisíveis. 
+Se essa propriedade ou a propriedade **PR_REPLY_RECIPIENT_NAMES** estiver definida, a outra propriedade também deverá ser definida. Essas propriedades devem conter o mesmo número de destinatários, e devem contê-los na mesma ordem. A falha ao observar esses requisitos pode causar resultados imprevisíveis. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em mensagens de email.
+> Especifica as propriedades e as operações que são permitidas em mensagens de email.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

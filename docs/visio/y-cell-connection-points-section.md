@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_SDR.chm1175
 localization_priority: Normal
 ms.assetid: 3af6c949-d6a0-9560-54d7-b01a2ad99960
-description: Representa o y-coordenadas de um ponto de conexão em coordenadas locais.
-ms.openlocfilehash: 270ae98789e29ca170f260aa70e951d4b2af2962
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada y de um ponto de conexão em coordenadas locais.
+ms.openlocfilehash: b408dc3c07e7bd28c0530b09f649453b4f08c770
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360127"
 ---
 # <a name="y-cell-connection-points-section"></a>Célula Y (Seção Connection Points)
 
-Representa o *y* -coordenadas de um ponto de conexão em coordenadas locais. 
+Representa a coordenada *y* de um ponto de conexão em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Connections.Y *i* onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Connections. ** Y onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

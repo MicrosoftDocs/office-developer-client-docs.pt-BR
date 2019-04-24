@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9efafbac55a2925e04b533e7c08388c026540dff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357299"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A função de **MAPICrashRecovery** verifica que o estado do arquivo de pastas particulares (. PST) ou o arquivo de pastas Offline (OST) a memória compartilhada. Se a memória estiver em um estado consistente, a função **MAPICrashRecovery** move os dados em disco e impede que o maior acesso de leitura ou gravação até que o processo é encerrado. 
+A função **MAPICrashRecovery** verifica o estado do arquivo de pastas particulares (PST) ou da memória compartilhada do arquivo de pastas offline (OST). Se a memória estiver em um estado consistente, a função **MAPICrashRecovery** moverá os dados para o disco e impedirá o acesso de leitura ou gravação adicional até que o processo seja encerrado. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Exportá-los por:  <br/> |olmapi32.dll  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
+|Exportado por:  <br/> |olmapi32. dll  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 void MAPICrashRecovery(ULONG ulFlags);
@@ -41,19 +41,19 @@ void MAPICrashRecovery(ULONG ulFlags);
 
 _ulFlags_
   
-> [in] Sinalizadores usados para controlar como a recuperação de travamento MAPI é executada. Sinalizadores a seguir podem ser definidos:
+> no Sinalizadores usados para controlar como a recuperação de falha MAPI é executada. Os seguintes sinalizadores podem ser definidos:
     
-   - **MAPICRASH\_recuperar**: se o PSTs ou OSTs estiverem em um estado consistente, mover os dados em disco e bloquear o PSTs ou OSTs para impedir o acesso de leitura ou gravação.
+   - **Recuperação\_de MAPICRASH**: se o PSTs ou o OSTs estiverem em um estado consistente, mova os dados para o disco e bloqueie os PSTs ou OSTs para evitar acesso de leitura ou gravação.
     
-   - **MAPICRASH\_continuar**: desbloquear o PSTs ou OSTs para depuração. Após uma chamada bem sucedida para **MAPICrashRecovery** com o sinalizador **MAPICRASH_RECOVER** , chamar **MAPICrashRecovery** com o **MAPICRASH\_continuar** sinalizador para permitir depuração continuar. 
+   - **MAPICRASH\_continuar**: Desbloqueie os PSTs ou OSTs para depuração. Após uma chamada bem-sucedida para **MAPICrashRecovery** com o sinalizador **MAPICRASH_RECOVER** , chame **MAPICrashRecovery** com o **sinalizador\_MAPICRASH continue** para permitir a depuração continuar. 
     
-   - **MAPICRASH\_SYSTEM_SHUTDOWN**: se o PSTs ou OSTs estiverem em um estado consistente, mover os dados em disco e bloquear o PSTs ou OSTs para impedir o acesso de leitura ou gravação. O PSTs ou OSTs não podem ser desbloqueados usando **MAPICRASH\_continuar**. Deve ser usado em combinação com **MAPICRASH\_recuperar**. 
+   - **MAPICRASH\_SYSTEM_SHUTDOWN**: se o PSTs ou o OSTs estiverem em um estado consistente, mova os dados para o disco e bloqueie o PSTs ou OSTs para impedir o acesso de leitura ou gravação. PSTs ou OSTs não podem ser desbloqueados usando o **MAPICRASH\_continue**. Deve ser usado em combinação com **a\_recuperação do MAPICRASH**. 
     
 ## <a name="remarks"></a>Comentários
 
-O byte superior (0xFF000000) é reservado para sinalizadores de recuperação de travamento específico do provedor.
+O byte superior (0xFF000000) é reservado para sinalizadores de recuperação de pane específicos do provedor.
   
-Chamar **MAPICrashRecovery** com o **MAPICRASH\_recuperar** e os sinalizadores **MAPICRASH_SYSTEM_SHUTDOWN** em resposta à mensagem **WM_ENDSESSION** . 
+Chame **MAPICrashRecovery** com os **sinalizadores\_MAPICRASH Recover** e **MAPICRASH_SYSTEM_SHUTDOWN** em resposta à mensagem **WM_ENDSESSION** . 
   
 ## <a name="see-also"></a>Confira também
 
