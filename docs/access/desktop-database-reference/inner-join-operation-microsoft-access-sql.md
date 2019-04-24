@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291397"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Operação INNER JOIN (Microsoft Access SQL)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
-Combina registros de duas tabelas, sempre que houver valores correspondentes em um campo comum.
+Combina registros de duas tabelas sempre que houver valores correspondentes em um campo comum.
 
 ## <a name="syntax"></a>Sintaxe
 
-DA *tabela 1* INNER JOIN *Tabela2* na *tabela 1*. *field1* *compopr Tabela2*. *Field2*
+FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*
 
 A operação INNER JOIN contém as seguintes partes:
 
@@ -47,16 +47,16 @@ A operação INNER JOIN contém as seguintes partes:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabela1</em>, <em>compopr2</em></p></td>
-<td><p>Os nomes das tabelas nas quais os registros são combinados.</p></td>
+<td><p><em>tabela1</em>, <em>tabela2</em></p></td>
+<td><p>Os nomes das tabelas das quais os registros são combinados.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>campo1</em>, <em>campo2</em></p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
 <td><p>Os nomes dos campos unidos. Caso não sejam numéricos, os campos deverão ser do mesmo tipo e conter o mesmo tipo de dados, mas não é necessário que tenham o mesmo nome.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>compopr</em></p></td>
-<td><p>Qualquer operador de comparação relacional: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; ou &quot; &lt; &gt;.&quot;</p></td>
+<td><p><em>oprcomp</em></p></td>
+<td><p>Qualquer operador de comparação relacional: &quot;=&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=&quot; &quot; &gt; =&quot; ou &quot; &lt; &gt;.&quot;</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,11 +68,11 @@ A operação INNER JOIN contém as seguintes partes:
 
 É possível usar a INNER JOIN nas tabelas Departamentos e Funcionários para selecionar todos os funcionários de um departamento. Em contrapartida, para selecionar todos os departamentos (mesmo se não houver funcionários atribuídos a eles) todos os funcionários (mesmo que alguns não estejam atribuídos ao departamento), é possível usar uma operação [LEFT JOIN ou RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) para criar uma junção externa.
 
-Se você tentar juntar campos contendo dados de objeto OLE ou Memorando, ocorrerá um erro.
+Se você tentar inserir campos com dados de Memorando ou Objeto OLE, ocorrerá um erro.
 
-É possível juntar pares de campos numéricos ou de tipos semelhantes. Por exemplo, você poderá juntar os campos Numeração Automática e Longo, pois eles são de tipos semelhantes. No entanto, não é possível juntar campos de tipo simples com duplos.
+Você pode juntar quaisquer dois campos numéricos de tipos semelhantes. Por exemplo, você pode juntar os campos Numeração Automática e Longo porque eles são tipos semelhantes. No entanto, você não pode juntar os tipos de campos Único e Duplo.
 
-O seguinte exemplo mostra como você poderá unir as tabelas Categorias e Produtos no campo CategoryID:
+O exemplo a seguir mostra como você pode unir as tabelas Categorias e Produtos no campo ID de Categoria:
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -80,23 +80,23 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-No exemplo anterior, CategoryID é o campo associado, mas não está incluído na saída da consulta porque ele não está incluído na instrução [SELECT](select-statement-microsoft-access-sql.md) . Para incluir o campo associado, inclua o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.
+No exemplo anterior, a ID de Categoria é o campo de junção, mas não é incluída na saída de consulta porque não está incluída na instrução [SELECT](select-statement-microsoft-access-sql.md). Para incluir o campo de junção, insira o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.
 
-é possível juntar também diversas cláusulas ON em uma instrução de JUNÇÃO, usando a seguinte sintaxe:
+Você também pode vincular várias cláusulas ON em uma instrução de JOIN, usando a seguinte sintaxe:
 
-Selecione os *campos* da *tabela 1* INNER JOIN de Diante *Tabela2* *tabela 1*. *field1* *compopr* *Tabela2*. *field1* E, na *tabela 1*. *Field2* *compopr* *Tabela2*. *field2*) OU, na *tabela 1*. *Field3* *compopr* *Tabela2*. *field3*) \];
+SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];
 
-É possível também aninhar instruções JOIN utilizando a seguinte sintaxe:
+Também é possível aninhar instruções JOIN usando a seguinte sintaxe:
 
-Selecione os *campos* da *tabela 1* INNER JOIN (*Tabela2* INNER JOIN \[( \] *Tabela3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN...) \] Em *Tabela3*. *Field3* *compopr* *tablex*. *fieldx*) \] Em *Tabela2*. *Field2* *compopr* *Tabela3*. *field3*) NA *tabela 1*. *field1* *compopr* *Tabela2*. *field2*;
+SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;
 
-Uma LEFT JOIN ou uma RIGHT JOIN poderá ser aninhada dentro de uma INNER JOIN, mas a INNER JOIN não poderá ser aninhada dentro de uma LEFT JOIN ou de uma RIGHT JOIN.
+Uma LEFT JOIN ou RIGHT JOIN pode estar aninhada em uma INNER JOIN, mas INNER JOIN não pode estar aninhada dentro de uma LEFT JOIN ou RIGHT JOIN.
 
 ## <a name="example"></a>Exemplo
 
 Esse exemplo cria duas equijunções: uma entre as tabelas Pedidos e Detalhes do Pedido, e outra entre as tabelas Pedidos e Funcionários. Isso é necessário, pois a tabela Funcionários não inclui os dados de vendas e a tabela Detalhes do Pedido não inclui dados de funcionários. A consulta vai criar uma lista de funcionários e o total de suas vendas.
 
-Este exemplo chama o procedimento EnumFields, que pode ser localizado no exemplo da instrução SELECT.
+Este exemplo chama o procedimento EnumFields, que você pode encontrar no exemplo de instrução SELECT.
 
 ```vb
     Sub InnerJoinX() 

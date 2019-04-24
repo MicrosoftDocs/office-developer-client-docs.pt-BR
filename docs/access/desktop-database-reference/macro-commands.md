@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: e0454b876b8d81d929252b1561ecb881afe230c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289795"
 ---
 # <a name="macro-commands"></a>Comandos de macro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Ação da macro CancelarEvento](cancelevent-macro-action.md)
-- [Ação da macro Eco](echo-macro-action.md)
-- [Ação da macro AbrirMódulodoVisualBasic](openvisualbasicmodule-macro-action.md)
-- [Ação da macro RemoverTodasVariáveisTemporárias](removealltempvars-macro-action.md)
-- [Ação da macro RemoverVariávelTemporária](removetempvar-macro-action.md)
-- [Ação da macro ExecutarCódigo](runcode-macro-action.md)
-- [Ação da macro ExecutarMacrodeDados](rundatamacro-macro-action.md)
-- [Ação da macro ExecutarMacro](runmacro-macro-action.md)
-- [Ação da macro ExecutarComandodeMenu](runmenucommand-macro-action.md)
-- [Ação da macro DefinirVariávelTemporária](settempvar-macro-action.md)
-- [Ação da macro PassoÚnico](singlestep-macro-action.md)
-- [Ação da macro IniciarNovoFluxoDeTrabalho](startnewworkflow-macro-action.md)
-- [Ação da macro PararTodasMacros](stopallmacros-macro-action.md)
-- [Ação da macro PararMacro](stopmacro-macro-action.md)
-- [Ação de macro Tarefasdefluxodetrabalho](workflowtasks-macro-action.md)
+- [Ação de macro CancelEvent](cancelevent-macro-action.md)
+- [Ação de macro eco](echo-macro-action.md)
+- [Ação de macro OpenVisualBasicModule](openvisualbasicmodule-macro-action.md)
+- [Ação de macro RemoveAllTempVars](removealltempvars-macro-action.md)
+- [Ação de macro RemoveTempVar](removetempvar-macro-action.md)
+- [Ação de macro RunCode](runcode-macro-action.md)
+- [Ação de macro RunDataMacro](rundatamacro-macro-action.md)
+- [Ação de macro RunMacro](runmacro-macro-action.md)
+- [Ação de macro RunMenuCommand](runmenucommand-macro-action.md)
+- [Ação de macro SetTempVar](settempvar-macro-action.md)
+- [Ação de macro SingleStep](singlestep-macro-action.md)
+- [Ação de macro StartNewWorkflow](startnewworkflow-macro-action.md)
+- [Ação de macro StopAllMacros](stopallmacros-macro-action.md)
+- [Ação de macro StopMacro](stopmacro-macro-action.md)
+- [Ação de macro WorkflowTasks](workflowtasks-macro-action.md)
 

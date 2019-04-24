@@ -1,5 +1,5 @@
 ---
-title: LEFT JOIN, RIGHT JOIN operações (Microsoft Access SQL)
+title: Operações LEFT JOIN RIGHT JOIN (SQL do Microsoft Access)
 TOCTitle: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198084(v=office.15)
@@ -10,21 +10,21 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: c6e37cd68d586e39a06fd650ccb453f35477253f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290142"
 ---
-# <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN, RIGHT JOIN operações (Microsoft Access SQL)
+# <a name="left-join-right-join-operations-microsoft-access-sql"></a>Operações LEFT JOIN RIGHT JOIN (SQL do Microsoft Access)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Combina registros da tabela de origem quando usados em qualquer cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Sintaxe
 
-DA *tabela 1* \[ esquerda | DIREITA \] JOIN *Tabela2* em *table1.field1* *compopr table2.field2*
+FROM *table1* \[ LEFT | RIGHT \] JOIN *table2* ON *table1.field1* *compopr table2.field2*
 
 As operações LEFT JOIN e RIGHT JOIN têm estas partes:
 
@@ -41,16 +41,16 @@ As operações LEFT JOIN e RIGHT JOIN têm estas partes:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabela1</em>, <em>compopr2</em></p></td>
-<td><p>Os nomes das tabelas nas quais os registros são combinados.</p></td>
+<td><p><em>tabela1</em>, <em>tabela2</em></p></td>
+<td><p>Os nomes das tabelas das quais os registros são combinados.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>campo1</em>, <em>campo2</em></p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
 <td><p>Os nomes dos campos unidos. Os campos devem ser do mesmo tipo de dados e conter o mesmo tipo de dados, mas não precisam ter o mesmo nome.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>compopr</em></p></td>
-<td><p>Qualquer operador de comparação relacional: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; ou &quot; &lt; &gt;.&quot;</p></td>
+<td><p><em>oprcomp</em></p></td>
+<td><p>Qualquer operador de comparação relacional: &quot;=&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=&quot; &quot; &gt; =&quot; ou &quot; &lt; &gt;.&quot;</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,9 +62,9 @@ Use a operação LEFT JOIN para criar uma junção externa esquerda. As junçõe
 
 Use uma operação RIGHT JOIN para criar uma junção externa direita. As junções externas direitas incluem todos os registros da segunda de duas tabelas (a da direita), mesmo se não houver valores correspondentes para registros na primeira tabela (à esquerda).
 
-Por exemplo, você poderia usar LEFT JOIN com as tabelas Departamentos (esquerda) e Funcionários (direita) para selecionar todos os departamentos, incluindo os que não tiverem funcionários atribuídos a eles. Para selecionar todos os funcionários, incluindo os não atribuídos a um departamento, você usaria RIGHT JOIN.
+Por exemplo, você poderia usar LEFT JOIN com as tabelas Departamentos (à esquerda) e Funcionários (direita) para selecionar todos os departamentos, inclusive aqueles que não têm funcionários atribuídos a eles. Para selecionar todos os funcionários, inclusive aqueles que não estão atribuídos a um departamento, você usaria RIGHT JOIN.
 
-O exemplo a seguir mostra como você poderia unir as tabelas Categorias e Produtos no campo CategoryID. A consulta produz uma lista de todas as categorias, incluindo as que não contêm produtos:
+O exemplo a seguir mostra como você pode unir as tabelas Categorias e Produtos no campo ID de Categoria: A consulta produz uma lista de todas as categorias, inclusive aquelas que não contêm produtos:
 
 ```sql
 SELECT CategoryName, 
@@ -73,22 +73,22 @@ FROM Categories LEFT JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-Neste exemplo, CategoryID é o campo unido, mas não é incluído nos resultados da consulta porque não está incluído na instrução [SELECT](select-statement-microsoft-access-sql.md). Para incluir o campo associado, digite o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.
+Neste exemplo, CategoryID é o campo unido, mas não é incluído nos resultados da consulta porque não está incluído na instrução [SELECT](select-statement-microsoft-access-sql.md). Para incluir o campo unido, insira o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.
 
 > [!NOTE]
-> - [!OBSERVAçãO] Para criar uma consulta que inclua somente registros nos quais os dados dos campos unidos sejam iguais, use uma operação [INNER JOIN](inner-join-operation-microsoft-access-sql.md).
-> - Uma LEFT JOIN ou uma RIGHT JOIN podem ser aninhadas em uma INNER JOIN, mas uma INNER JOIN não pode ser aninhada em uma LEFT JOIN ou em uma RIGHT JOIN. Consulte a discussão sobre aninhamento no tópico sobre INNER JOIN para saber como aninhar junções em outras junções.
-> - Você pode vincular várias cláusulas ON. Consulte a discussão sobre vinculação de cláusulas no tópico sobre INNER JOIN para ver como isso é feito.
-> - Se você tentar juntar campos contendo dados de objeto OLE ou Memorando, ocorrerá um erro.
+> - Para criar uma consulta que inclua somente registros nos quais os dados dos campos unidos sejam iguais, use uma operação [INNER JOIN](inner-join-operation-microsoft-access-sql.md).
+> - Uma LEFT JOIN ou RIGHT JOIN pode estar aninhada em uma INNER JOIN, mas INNER JOIN não pode estar aninhada em uma LEFT JOIN ou RIGHT JOIN. Veja a discussão de aninhamento no tópico INNER JOIN para ver como aninhar junções dentro de outras junções.
+> - Você pode vincular várias cláusulas ON. Veja a discussão sobre vinculação de cláusula no tópico INNER JOIN para ver como fazer isso.
+> - Se você tentar inserir campos com dados de Memorando ou Objeto OLE, ocorrerá um erro.
 
 ## <a name="example"></a>Exemplo
 
 Este exemplo:
-- Considera a existência de campos de nome de departamento e a identificação do departamento hipotéticos em uma tabela Funcionários. Observe que esses campos não existem realmente na tabela Funcionários do banco de dados da Northwind.
+- Pressupõe a existência de campos de Nomes de Departamento e IDs de departamento hipotéticos em uma tabela de Funcionários. Observe que esses campos, na verdade, não existem na tabela de Funcionários do banco de dados do Northwind.
 
-- Seleciona todos os departamentos, incluindo aqueles sem funcionários.
+- Seleciona todos os departamentos, inclusive os que não têm os funcionários.
 
-- Chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+- Chama um procedimento EnumFields, que pode ser encontrado no exemplo de declaração SELECT.
 
 
 ```vb

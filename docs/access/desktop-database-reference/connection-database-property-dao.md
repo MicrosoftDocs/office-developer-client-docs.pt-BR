@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7033c612642aa3ae6ce6c6175560438c893cde6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295916"
 ---
 # <a name="connectiondatabase-property-dao"></a>Propriedade Connection.Database (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Banco de dados
+*expressão* .Database
 
-*expressão* Uma variável que representa um objeto de **Conexão** .
+*expressão* Uma variável que representa um objeto **Connection**.
 
 ## <a name="remarks"></a>Comentários
 
