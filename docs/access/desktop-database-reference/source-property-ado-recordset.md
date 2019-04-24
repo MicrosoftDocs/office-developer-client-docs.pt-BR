@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26f41181f1233931f24ff091b3009dfa7a5d6ff3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306404"
 ---
 # <a name="source-property-ado-recordset"></a>Propriedade Source (Recordset do ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica a fonte de dados de um objeto [Recordset](recordset-object-ado.md).
 
@@ -31,7 +31,7 @@ Utilize a propriedade **Source** para especificar uma fonte de dados para um obj
 
 Se você definir a propriedade **Source** para um objeto **Command**, a propriedade [ActiveConnection](activeconnection-property-ado.md) do objeto **Recordset** herdará o valor da propriedade **ActiveConnection** para o objeto **Command** especificado. Entretanto, a leitura da propriedade **Source** não retornará o objeto **Command**; em vez disso, retornará a propriedade [CommandText](commandtext-property-ado.md) do objeto **Command** para o qual você definiu a propriedade **Source**.
 
-Se a propriedade **Source** é uma instrução SQL, um procedimento armazenado ou um nome de tabela, você pode otimizar o desempenho, passando o argumento adequado *Options* com a chamada do método [Open](open-method-ado-recordset.md) .
+Se a propriedade **Source** for uma instrução SQL, um procedimento armazenado ou um nome de tabela, será possível otimizar o desempenho enviando o argumento adequado *Options* com a chamada do método [Open](open-method-ado-recordset.md).
 
 A propriedade **Source** é leitura/gravação para objetos **Recordset** fechados e somente leitura para objetos **Recordset** abertos.
 

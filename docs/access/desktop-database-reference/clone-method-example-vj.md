@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 314cf74e1213d48bf9a12beeb90d06ce021a95a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296322"
 ---
 # <a name="clone-method-example-vj"></a>Exemplo do método Clone (VJ++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.
 

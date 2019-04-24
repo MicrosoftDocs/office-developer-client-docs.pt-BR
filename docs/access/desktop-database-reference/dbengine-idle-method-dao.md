@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine.Idle (DAO)
+title: Método DBEngine. Idle (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7a84e3cc4b35886a12b2e6b4cf92b7483fea293a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294327"
 ---
-# <a name="dbengineidle-method-dao"></a>Método DBEngine.Idle (DAO)
+# <a name="dbengineidle-method-dao"></a>Método DBEngine. Idle (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Suspende o processamento de dados, habilitando o mecanismo de banco de dados do Microsoft Access a concluir tarefas pendentes, como otimização de memória ou tempo limite da página (somente espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Ocioso (***ação***)
+*expressão* . Idle (***ação***)
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
@@ -52,7 +52,7 @@ Suspende o processamento de dados, habilitando o mecanismo de banco de dados do 
 <td><p><em>Action</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Especifica a ação a ser tomada. Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong>.</p></td>
+<td><p>Especifica a ação a ser tomada. Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>

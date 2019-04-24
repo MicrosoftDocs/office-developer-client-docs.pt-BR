@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8482df5ca2fab110e5b1a77fe227c5f0c583d893
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296014"
 ---
-# <a name="configuring-rds-on-windows-2000"></a>Configurando o RDS no Windows 2000
+# <a name="configuring-rds-on-windows-2000"></a>Configuração do RDS no Windows 2000
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Se tiver dificuldades para fazer com que o RDS funcione corretamente depois de fazer a atualização para o Windows 2000, siga as etapas a seguir para solucionar o problema.
 
-1.  Certifique-se de que o serviço de publicação na World Wide Web é executado primeiro navegando até https://*server* usando o Internet Explorer. Se você não puder acessar o servidor Web dessa forma, vá para um prompt de comando e digite o seguinte comando, "NET START W3SVC".
+1.  Certifique-se de que o serviço de publicação na World Wide Web esteja sendo executado primeiro navegando até o*servidor* https://usando o Internet Explorer. Se você não puder acessar o servidor Web dessa forma, vá para um prompt de comando e digite o seguinte comando, "NET START W3SVC".
 
-2.  No menu Iniciar, selecione Executar. Digite msdfmap.ini e clique em OK para abrir o arquivo msdfmap.ini no Bloco de Notas. Verifique o \[conectar padrão\] seção e se o parâmetro de acesso é definido como NOACCESS, altere-o para somente leitura.
+2.  No menu Iniciar, selecione Executar. Digite msdfmap.ini e clique em OK para abrir o arquivo msdfmap.ini no Bloco de Notas. Verifique a \[seção Connect\] default e, se o parâmetro Access estiver definido como NoAccess, altere-o para ReadOnly.
 
-3.  Usando o utilitário RegEdit, navegue até "HKEY\_LOCAL\_máquina\\SOFTWARE\\Microsoft\\DataFactory\\HandlerInfo" e verifique se **HandlerRequired** está definido como 0 e **DefaultHandler** é "" (nulo cadeia de caracteres).
+3.  Usando o utilitário RegEdit, navegue até "software\_\\da\_máquina\\local da\\Microsoft datafactory\\HandlerInfo" e certifique-se de que **HandlerRequired** esteja definido como 0 e defaulthandler seja "" (nulo **** Cadeia de caracteres).
     
     > [!NOTE]
     > [!OBSERVAçãO] Se você fizer quaisquer alterações nesta seção do Registro, deverá parar e reiniciar o Serviço de Publicação na World Wide Web, inserindo os seguintes comandos em um prompt de comando: "NET STOP W3SVC" e "NET START W3SVC".
 
-4.  Usando o utilitário RegEdit, navegue no registro para "HKEY\_LOCAL\_máquina\\sistema\\CurrentControlSet\\serviços\\W3SVC\\parâmetros\\ADCLaunch" e verifique se há uma chave **chamado Rdsserver**. Se não houver, crie-a.
+4.  Usando o utilitário RegEdit, navegue no registro para "HKEY\_local\_Machine\\System\\CurrentControlSet\\Services\\W3SVC\\Parameters\\ADCLaunch" e verifique se há uma chave chamada ** RDSServer.** datafactory. Se não houver, crie-a.
 
-5.  Usando o Gerenciador de serviços de Internet, vá para o site padrão e exibir as propriedades da raiz virtual MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
+5.  Usando o Gerenciador de serviços de Internet, vá para o site padrão e exiba as propriedades da raiz virtual do MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
 
 Certifique-se de tentar reiniciar o servidor se as alterações não parecerem solucionar o problema em um primeiro momento.
 

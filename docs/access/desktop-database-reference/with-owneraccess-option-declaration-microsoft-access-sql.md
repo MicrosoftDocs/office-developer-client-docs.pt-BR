@@ -1,5 +1,5 @@
 ---
-title: COM a declaração OWNERACCESS OPTION (Microsoft Access SQL)
+title: Declaração WITH OWNERACCESS OPTION (Microsoft Access SQL)
 TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
@@ -14,22 +14,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0882f143f13f6bd6d66c894f242a9cd50ebf9489
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302503"
 ---
-# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>COM a declaração OWNERACCESS OPTION (Microsoft Access SQL)
+# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>Declaração WITH OWNERACCESS OPTION (Microsoft Access SQL)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Em um ambiente de vários usuários com um grupo de trabalho seguro, use essa declaração com uma consulta para fornecer ao usuário que executa a consulta as mesmas permissões do proprietário da consulta.
 
 ## <a name="syntax"></a>Sintaxe
 
-*SQLStatement* COM OWNERACCESS OPTION
+** SQLStatement OPÇÃO WITH OWNERACCESS
 
 ## <a name="remarks"></a>Comentários
 

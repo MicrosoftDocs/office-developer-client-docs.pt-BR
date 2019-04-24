@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine.RegisterDatabase (DAO)
+title: Método DBEngine. RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294222"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine.RegisterDatabase (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine. RegisterDatabase (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Insere as informações de conexão para uma fonte de dados ODBC no Registro do Windows. O driver ODBC precisa das informações de conexão quando a fonte de dados ODBC é aberta durante uma sessão.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . RegisterDatabase (***Dsn***, ***Driver***, ***silenciosa***, ***atributos***)
+*expressão* . RegisterDatabase (***DSN***, ***Driver***, ***silencioso***, ***atributos***)
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
@@ -52,7 +52,7 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 <td><p><em>DSN</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>O nome usado no método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Ele se refere a um bloco de informações descritivas sobre a fonte de dados. Por exemplo, se a fonte de dados for um banco de dados remoto ODBC, ele poderá ser o nome do servidor.</p></td>
+<td><p>o nome usado no método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Ele se refere a um bloco de informações descritivas sobre a fonte de dados. Por exemplo, se a fonte de dados for um banco de dados remoto ODBC, ele poderá ser o nome do servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -64,7 +64,7 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 <td><p><em>Silenciosa</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong> se você não quiser exibir as caixas de diálogo de driver ODBC que solicita informações específicas do driver; ou <strong>False</strong> se você deseja exibir as caixas de diálogo do driver ODBC. Se silenciosa for <strong>True</strong>, atributos devem conter todas as informações necessárias específicas do driver ou as caixas de diálogo serão exibidas mesmo assim.</p></td>
+<td><p><strong>True</strong> se você não quiser exibir as caixas de diálogo do driver ODBC que solicitam as informações específicas do driver; ou <strong>False</strong> se você desejar exibir as caixas de diálogo do driver ODBC. Se silencioso for <strong>verdadeiro</strong>, os atributos deverão conter todas as informações específicas do driver necessárias ou as caixas de diálogo serão exibidas de qualquer forma.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>

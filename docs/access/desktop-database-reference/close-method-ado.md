@@ -1,5 +1,5 @@
 ---
-title: Feche o método - ActiveX Data Objects (ADO)
+title: Método Close-ActiveX Data Objects (ADO)
 TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 269a782e85fab1e5dc47cd32f2e2c11306e11470
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296308"
 ---
 # <a name="close-method-ado"></a>Método Close (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Fecha um objeto aberto e quaisquer objetos dependentes.
 
 ## <a name="syntax"></a>Sintaxe
 
-*objeto*. Fechar
+*objeto*. Fechado
 
 ## <a name="remarks"></a>Comentários
 
-Utilize o método **Close** para fechar um objeto [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) e liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, defina a variável de objeto para *Nothing* (no Visual Basic) após fechar o objeto.
+Utilize o método **Close** para fechar um objeto [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) e liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, defina a variável de objeto como *Nothing* (no Visual Basic) após fechar o objeto.
 
 **Connection**
 

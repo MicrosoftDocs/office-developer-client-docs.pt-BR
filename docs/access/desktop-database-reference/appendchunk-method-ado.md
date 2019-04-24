@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 89a75ebe8a3fe704c4f755a0f744eac4d068ec0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297022"
 ---
 # <a name="appendchunk-method-ado"></a>Método AppendChunk (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Acrescenta dados a um objeto [Field](field-object-ado.md) ou [Parameter](parameter-object-ado.md) de dados binários ou de texto longos.
 
 ## <a name="syntax"></a>Sintaxe
 
-*objeto.* AppendChunk *dados*
+*objeto.* *Dados* AppendChunk
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,7 +33,7 @@ Acrescenta dados a um objeto [Field](field-object-ado.md) ou [Parameter](paramet
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **AppendChunk** em um objeto **Field** ou **Parameter** preenchê-lo com dados binários longos ou caracteres. Em situações em que a memória do sistema é limitada, você pode usar o método **AppendChunk** para manipular valores longos em partes, e não em sua totalidade.
+Use the **AppendChunk** method on a **Field** or **Parameter** object to fill it with long binary or character data. In situations where system memory is limited, you can use the **AppendChunk** method to manipulate long values in portions rather than in their entirety.
 
 ### <a name="field"></a>Campo
 

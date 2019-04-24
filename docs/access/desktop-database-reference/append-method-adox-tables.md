@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d2bf2479c2a34291f245783ebaecd75ba31d2ac8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297071"
 ---
 # <a name="append-method-adox-tables"></a>Método Append (Tabelas do ADOX)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Adiciona um novo objeto [Table](table-object-adox.md) à coleção [Tables](tables-collection-adox.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Tabelas*. Acrescentar*tabela*
+*Tabelas*. Anexar*tabela*
 
 ## <a name="parameters"></a>Parâmetros
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f892349d2ddb9c8fc5063d3fbec37ca9ef0d469f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292479"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Exemplo das propriedades Filter e RecordCount (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo abrir um **conjunto de registros** na tabela editores no banco de dados ***Pubs*** . Em seguida, ele usa a propriedade [Filter](filter-property-ado.md) para limitar o número de registros visíveis aos editores de um(a) determinado(a) país/região. A propriedade **RecordCount** é usada para mostrar a diferença entre os conjuntos de registros filtrados e não filtrados.
+Este exemplo abre um **Recordset** na tabela Publishers do banco de dados ***Pubs***. Em seguida, ele usa a propriedade [Filter](filter-property-ado.md) para limitar o número de registros visíveis aos editores de um(a) determinado(a) país/região. A propriedade **RecordCount** é usada para mostrar a diferença entre os conjuntos de registros filtrados e não filtrados.
 
 ```vb 
  

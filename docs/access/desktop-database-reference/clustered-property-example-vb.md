@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 75556927bc5d3e10526da6a45bfe1e4f6d8abea2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296266"
 ---
 # <a name="clustered-property-example-vb"></a>Exemplo da propriedade Clustered (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra a propriedade [Clustered](clustered-property-adox.md) de um [índice](index-object-adox.md). Observe que os bancos de dados Microsoft Jet não aceita índices agrupados, portanto, este exemplo retornará **False** para a propriedade **Clustered** de todos os índices no banco de dados *Northwind* .
+Este exemplo demonstra a propriedade [Clustered](clustered-property-adox.md) de um [Index](index-object-adox.md). Observe que os bancos de dados Microsoft Jet não oferecem suporte a índices agrupados. Portanto, esse exemplo retornará **False** para a propriedade **Clustered** de todos os índices do banco de dados *Northwind*.
 
 ```vb 
  

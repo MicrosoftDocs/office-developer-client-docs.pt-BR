@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6495c70f64930e1b335c603f13e720ad581203a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296980"
 ---
 # <a name="attributes-property-ado"></a>Propriedade Attributes (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 ## <a name="attributes-property"></a>Propriedade Attributes
@@ -46,5 +46,5 @@ Use a propriedade **Attributes** para definir ou retornar características de ob
 
 Quando vários atributos são definidos, é possível somar as constantes adequadas. A definição do valor de propriedade para uma soma, incluindo constantes incompatíveis, provocará um erro.
 
-**Uso de serviço de dados remotos** Essa propriedade não está disponível em um objeto de **Conexão** do cliente.
+**Uso do Remote Data Service** Esta propriedade não está disponível em um objeto **Connection** do lado do cliente.
 

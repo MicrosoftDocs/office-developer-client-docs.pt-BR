@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database.QueryTimeout (DAO)
+title: Propriedade Database. QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f47d6c51079bf36cb7e1ca596a3476f1a7219c5d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294734"
 ---
-# <a name="databasequerytimeout-property-dao"></a>Propriedade Database.QueryTimeout (DAO)
+# <a name="databasequerytimeout-property-dao"></a>Propriedade Database. QueryTimeout (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Define ou retorna um valor que especifica o número de segundos a serem aguardados antes de ocorrer um erro de tempo limite quando uma consulta é executada em uma fonte de dados ODBC.
@@ -26,7 +26,7 @@ Define ou retorna um valor que especifica o número de segundos a serem aguardad
 
 *expressão* . QueryTimeout
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Database** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +38,7 @@ Quando você usa **QueryTimeout** com um objeto **[Connection](connection-object
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa as propriedades **ODBCTimeout** e **QueryTimeout** para mostrar como a configuração de **QueryTimeout** em um objeto **Database** define a configuração padrão de **ODBCTimeout** em quaisquer objetos **QueryDef** criados a partir do objeto **Database**.
+Este exemplo usa as propriedades **ODBCTimeout** e **QueryTimeout** para mostrar como a definição **QueryTimeout** em um objeto **Database** configura a definição **ODBCTimeout** padrão em quaisquer objetos **QueryDef** criados a partir do objeto **Database**.
 
 ```vb 
 Sub ODBCTimeoutX() 

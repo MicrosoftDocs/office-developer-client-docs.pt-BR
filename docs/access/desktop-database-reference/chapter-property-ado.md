@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4f4efc2ffab9f7996b2d805658b985badbaf87e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296392"
 ---
 # <a name="chapter-property-ado"></a>Propriedade Chapter (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
  
-Obtém ou configura um objeto **Chapter** do OLE DB de/em um objeto **ADORecordsetConstruction**. Quando você usa **colocar\_capítulo** para definir o objeto de **capítulo** , um subconjunto de linhas seja transformado em um objeto **Recordset** do ADO. Isso define o capítulo atual do objeto **Rowset**. Leitura/gravação.
+Obtém ou configura um objeto **Chapter** do OLE DB de/em um objeto **ADORecordsetConstruction**. Quando você usa **o\_Chapter** para definir o objeto **Chapter** , um subconjunto de linhas é transformado em um objeto **Recordset** do ADO. Isso define o capítulo atual do objeto **Rowset**. Leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-Get HRESULT\_capítulo (\[check-out, retval\] longo\* plChapter);
+HRESULT obter\_capítulo (\[out, retval\] Long\* plChapter);
 
-Colocar HRESULT\_capítulo (\[na\] lChapter longo);
+Módulo HRESULT\_put (\[em\] Long lChapter);
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,9 +33,9 @@ Colocar HRESULT\_capítulo (\[na\] lChapter longo);
 |*plChapter* |Ponteiro para o identificador de um capítulo.|
 |*LChapter* |Identificador de um capítulo.|
 
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
+Este método de propriedade retorna os valores HRESULT padrão, incluindo\_S OK E\_o e falha.
 
 ## <a name="applies-to"></a>Aplica-se a
 

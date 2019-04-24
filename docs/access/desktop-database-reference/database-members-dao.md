@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294922"
 ---
 # <a name="database-members-dao"></a>Membros do banco de dados (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto Database representa um banco de dados aberto.
 
@@ -76,7 +76,7 @@ Um objeto Database representa um banco de dados aberto.
 <td><p>Sincroniza as alterações em uma réplica parcial com a réplica completa, limpa todos os registros na réplica parcial e preenche novamente a réplica parcial com base nos filtros da réplica atual. (Apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-synchronize-method-dao.md">Sincronizar</a></strong></p></td>
+<td><p><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></p></td>
 <td><p>Sincroniza duas réplicas. (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 </tbody>
@@ -107,7 +107,7 @@ Um objeto Database representa um banco de dados aberto.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Retorna o objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde ao banco de dados (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -119,8 +119,8 @@ Um objeto Database representa um banco de dados aberto.
 <td><p>Define ou retorna um valor de 16 bytes que identifica exclusivamente a Design Mestre em um conjunto de réplicas (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
+<td><p><strong><a href="database-name-property-dao.md">Nome</a></strong></p></td>
+<td><p>Retorna o nome do objeto especificado. Somente leitura <strong>cadeia de caracteres</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">Propriedades</a></strong></p></td>
@@ -156,7 +156,7 @@ Um objeto Database representa um banco de dados aberto.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Retorna um valor que indica se um objeto aceita transactions. <strong>Boolean</strong> somente leitura.</p></td>
+<td><p>Retorna um valor que indica se um objeto tem suporte em transações. <strong>Boolean</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>

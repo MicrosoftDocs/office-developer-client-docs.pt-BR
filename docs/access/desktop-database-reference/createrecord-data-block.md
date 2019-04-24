@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 63e189143e77f9fcc42fa8d48c3ebfb2feda6633
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295349"
 ---
 # <a name="createrecord-data-block"></a>Bloco de dados CriarRegistro
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar o bloco de dados **CriarRegistro** para criar um novo registro na tabela especificada.
 
 > [!NOTE]
-> [!OBSERVAçãO] O bloco de dados **CriarRegistro** está disponível somente em Macros de Dados.
+> O bloco de dados **CriarRegistro** está disponível somente em Macros de Dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -36,7 +36,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -60,7 +60,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 
 O registro criado por **CriarRegistro** se torna automaticamente o registro atual.
 
-Após a instrução **CriarRegistro** , você pode inserir um bloco de comandos que executará antes o novo registro é submetido. As ações a seguir estão disponíveis em bloco de dados **CriarRegistro**.
+Após **** a instrução CreateRecord, você pode inserir um bloco de comandos que será executado antes que o novo registro seja confirmado. As ações a seguir estão disponíveis em bloco de dados **CriarRegistro**.
 
 <table>
 <colgroup>
@@ -77,7 +77,7 @@ Após a instrução **CriarRegistro** , você pode inserir um bloco de comandos 
 <td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">Se... Então... Instrução de macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Then... Instrução de macro else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
@@ -95,7 +95,7 @@ Você pode usar uma instrução **Se...Então...Senão** para executar operaçõ
 
 Para cancelar a criação de um registro, use a ação **CancelarAlteraçãodeRegistro**. Dessa forma, as alterações não são atribuídas e o bloco de dados **CriarRegistro** é encerrado.
 
-Quando o novo registro for atribuído, você poderá usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o registro. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do registro mais recentemente criado.
+Quando o novo registro for atribuído, você poderá usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o registro. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do Registro criado mais recentemente.
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field.SourceField (DAO)
+title: Propriedade Field. SourceField (DAO)
 TOCTitle: SourceField Property
 ms:assetid: e5750d6c-4078-7bbb-9356-f9207c4e8028
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 249dabfa13bac6973cea4bd69e0867292c4a6967
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292990"
 ---
-# <a name="fieldsourcefield-property-dao"></a>Propriedade Field.SourceField (DAO)
+# <a name="fieldsourcefield-property-dao"></a>Propriedade Field. SourceField (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que indica o nome do campo que é a fonte de dados original de um objeto **Field**. **String** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . SourceField
+*expressão* . Propriedades SourceField
 
 *expressão* Uma variável que representa um objeto **Field** .
 

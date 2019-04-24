@@ -1,5 +1,5 @@
 ---
-title: Método Relation.CreateField (DAO)
+title: Método relation. CreateField (DAO)
 TOCTitle: CreateField Method
 ms:assetid: bc60c91e-acef-1c90-7303-12f77cce15b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae322277dd1d357aceb3f9129110dded705f9eca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307055"
 ---
-# <a name="relationcreatefield-method-dao"></a>Método Relation.CreateField (DAO)
+# <a name="relationcreatefield-method-dao"></a>Método relation. CreateField (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Microsoft Access apenas).
+Cria um novo objeto **[Field](field-object-dao.md)** (apenas espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . CreateField (***nome***, ***tipo***, ***tamanho***)
 
-*expressão* Uma variável que representa um objeto **Relation** .
+*expressão* Uma variável que representa um objeto **relation** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -45,10 +45,10 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>
+<td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes de <strong>campo</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
@@ -68,15 +68,15 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 
 ## <a name="return-value"></a>Valor de retorno
 
-Field
+Campo
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar o método **CreateField** para criar um novo campo, bem como especificar o nome, o tipo de dados e o tamanho do campo. Se omitir uma ou mais dessas partes opcionais quando usar **CreateField**, você poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto à coleção. Depois de acrescentar o novo objeto, você poderá alterar algumas, mas não todas as configurações de propriedade. Consulte os tópicos individuais de propriedade para obter mais informações.
+Você pode usar o método **CreateField** para criar um novo campo, bem como especificar o nome, o tipo dos dados e o tamanho do campo. Se você omitir uma ou mais das partes opcionais ao utilizar **CreateField**, poderá usar uma instruções de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto a uma coleção. Depois de acrescentar o novo objeto, será possível alterar algumas, mas não todas as suas configurações de propriedade. Consulte os tópicos de propriedade individuais para obter mais detalhes.
 
-Os argumentos de tipo e tamanho se aplicam somente aos objetos de **campo** em um objeto **TableDef** . Esses argumentos são ignorados quando um objeto **Field** é associado com um objeto **Index** ou **Relation**.
+Os argumentos Type e Size aplicam-se somente aos objetos **Field** em um objeto **TableDef** . Esses argumentos serão ignorados quando o objeto **Field** for associado a um objeto **Index** ou **Relation**.
 
-Se name fizer referência a um objeto que já é um membro da coleção, ocorrerá um erro de tempo de execução quando você usa o método **[Append](fields-append-method-dao.md)** .
+Se Name se referir a um objeto que já é um membro da coleção, ocorrerá um erro em tempo de execução quando você usar o método **[Append](fields-append-method-dao.md)** .
 
-Para remover um objeto **Field** de uma coleção **Fields**, use o método **[Delete](fields-delete-method-dao.md)** na coleção. Você não pode excluir um objeto **Field** de uma coleção **Fields** do objeto **TableDef** depois de criar um índice que faz referência ao campo.
+Para remover um objeto **Field** de uma coleção **Fields**, use o método **[Delete](fields-delete-method-dao.md)** na coleção. Não é possível excluir um objeto **Field** de uma coleção **Fields** do objeto **TableDef** depois de criar um index que faça referência ao campo.
 

@@ -1,5 +1,5 @@
 ---
-title: Método Clear - ActiveX Data Objects (ADO)
+title: Método Clear-ActiveX Data Objects (ADO)
 TOCTitle: Clear method (ADO)
 ms:assetid: 5d51f42c-147b-1fcf-d05b-123e5714ecb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b0d76480bdb5d5a3ab258e103a00707af303a4d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296357"
 ---
 # <a name="clear-method-ado"></a>Método Clear (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Remove todos os objetos **Error** da coleção **Errors**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Erros*. Limpar
+*Erros*. Claras
 
 ## <a name="remarks"></a>Comentários
 

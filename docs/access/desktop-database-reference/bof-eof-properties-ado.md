@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296784"
 ---
 # <a name="bof-eof-properties-ado"></a>Propriedades BOF, EOF (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 **BOF**  Indica que a posição do registro atual é antes do primeiro registro em um objeto [Recordset](recordset-object-ado.md).
 
@@ -54,38 +54,38 @@ Esta tabela mostra quais métodos **Move** são permitidos com diferentes combin
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>Métodos MoveFirst,<br />
+<th><p>MoveFirst<br />
 MoveLast</p></th>
-<th><p>MovePrevious,<br />
+<th><p>MovePrevious<br />
 Mover &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext,<br />
+<th><p>MoveNext<br />
 Mover &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = verdadeiro,</strong><br />
-<strong>EOF = False</strong></p></td>
+<td><p><strong>BOF = true,</strong><br />
+<strong>EOF = falso</strong></p></td>
 <td><p>Permitido</p></td>
-<td><p>Erro</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>EOF = True</strong></p></td>
+<td><p><strong>BOF = false,</strong><br />
+<strong>EOF = true</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
-<td><p>Erro</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ambas <strong>Verdadeiras</strong></p></td>
 <td><p>Erro</p></td>
-<td><p>Erro</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Erro</p></td>
 </tr>
 <tr class="even">
@@ -118,9 +118,9 @@ A tabela a seguir mostra o que acontece às configurações de propriedade de **
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Métodos MoveFirst</strong>, <strong>MoveLast</strong></p></td>
-<td><p>Defina como <strong>True</strong></p></td>
-<td><p>Defina como <strong>True</strong></p></td>
+<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p>Configurada como <strong>Verdadeiro</strong></p></td>
+<td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
@@ -128,13 +128,13 @@ A tabela a seguir mostra o que acontece às configurações de propriedade de **
 <td><p>Nenhuma alteração</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mova</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>mover</strong> &lt; 0</p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mova</strong> &gt; 0</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p><strong>MoveNext</strong>, <strong>mover</strong> &gt; 0</p></td>
+<td><p>Sem alteração</p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 </tr>
 </tbody>

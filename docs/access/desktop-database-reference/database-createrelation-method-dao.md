@@ -1,5 +1,5 @@
 ---
-title: Método Database.CreateRelation (DAO)
+title: Método Database. createRelation (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294950"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Método Database.CreateRelation (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Método Database. createRelation (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de trabalho do Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateRelation (***nome***, ***tabela***, ***ForeignTable***, ***atributos***)
+*expressão* . CreateRelation (***Name***, ***Table***, ***ForeignTable***, ***Attributes***)
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Database** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -49,10 +49,10 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Relation</strong>.</p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes de <strong>relações</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Table</em></p></td>
@@ -70,7 +70,7 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 <td><p><em>Atributos</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a propriedade <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> para obter detalhes.</p></td>
+<td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a <strong><a href="field-attributes-property-dao.md"></a></strong> propriedade Attributes para obter detalhes.</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +88,7 @@ Se omitir uma ou mais dessas partes opcionais quando usar o método **CreateRela
 
 Antes de poder usar o método **[Append](fields-append-method-dao.md)** em um objeto **Relation**, você deve acrescentar os objetos **[Field](field-object-dao.md)** apropriados para definir as tabelas de relações entre chaves primária e estrangeira.
 
-Se name fizer referência a um objeto que já é um membro da coleção, ou se os nomes de objeto de **campos** fornecidos na coleção **Fields** subordinada forem inválidos, ocorrerá um erro de tempo de execução quando você usa o método **Append** .
+Se Name se referir a um objeto que já é um membro da coleção ou se os nomes de objeto **Field** fornecidos na coleção de **campos** subordinados forem inválidos, ocorrerá um erro em tempo de execução quando você usar o método **Append** .
 
 Você não pode estabelecer ou manter uma relação entre uma tabela replicada e uma tabela local.
 
@@ -96,7 +96,7 @@ Para remover um objeto **Relation** da coleção **[Relations](relations-collect
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre **TableDef** de Funcionários e um novo **TableDef** chamado Departamentos. Este exemplo também demonstra como criar um novo objeto **Relation** também cria qualquer objeto **Indexes** necessários na tabela externa (o Índice DepartmentsEmployees na tabela Funcionários).
+Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre o **TableDef** Employees e o novo **TableDef** denominado Departments. Este exemplo demonstra ainda como a criação de um novo **Relation** também criará os **Indexes** necessários na tabela externa (o índice DepartmentsEmployees na tabela Employees).
 
 ```vb
     Sub CreateRelationX() 

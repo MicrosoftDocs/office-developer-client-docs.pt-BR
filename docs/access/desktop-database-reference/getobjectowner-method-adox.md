@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 948464534f9bbfbea50c8eba2c926dea9cb9bcac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292255"
 ---
 # <a name="getobjectowner-method-adox"></a>Método GetObjectOwner (ADOX)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna o proprietário de um objeto em um [Catálogo](catalog-object-adox.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Proprietário* = *catálogo*. GetObjectOwner (*ObjectName*, *ObjectType* \[,*ObjectTypeId*\])
+** = *Catálogo*de proprietário. GetObjectOwner (*objectname*, *objecttype* \[,**\]objecttypeid)
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -34,7 +34,7 @@ Retorna um valor **String** que especifica o [Nome](name-property-adox.md) do [U
 |:--------|:----------|
 |*ObjectName* |Um valor **String** que especifica o nome do objeto para o qual o usuário deve ser retornado.|
 |*ObjectType* |Um valor **Long** que pode ser uma das constantes [ObjectTypeEnum](objecttypeenum.md), que especifica o tipo do objeto cujo proprietário deve ser obtido.|
-|*ObjectTypeId* |Opcional. Um valor **Variant** que especifica o GUID referente a um tipo de objeto de provedor não definido pela especificação OLE DB. Este parâmetro é obrigatório se *ObjectType* estiver definida como **adPermObjProviderSpecific**; Caso contrário, ele não é usado.|
+|*ObjectTypeid* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
 
 ## <a name="remarks"></a>Comentários
 

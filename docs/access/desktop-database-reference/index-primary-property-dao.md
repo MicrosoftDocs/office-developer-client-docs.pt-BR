@@ -1,5 +1,5 @@
 ---
-title: Propriedade Index.Primary (DAO)
+title: Propriedade index. Primary (DAO)
 TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: da0d28a5599dadc9432b38ab6155e53e884e4838
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291751"
 ---
-# <a name="indexprimary-property-dao"></a>Propriedade Index.Primary (DAO)
+# <a name="indexprimary-property-dao"></a>Propriedade index. Primary (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que indica se um objeto **[Index](index-object-dao.md)** representa um índice de chave primária de uma tabela (somente em espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Principal
+*expressão* . Principalmente
 
-*expressão* Uma variável que representa um objeto **Index** .
+*expressão* Uma variável que representa um objeto **index** .
 
 ## <a name="remarks"></a>Comentários
 

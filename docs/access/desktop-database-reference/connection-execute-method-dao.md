@@ -1,5 +1,5 @@
 ---
-title: Método Execute (DAO)
+title: Método Connection. Execute (DAO)
 TOCTitle: Execute Method
 ms:assetid: d6140d4e-fa14-6455-525e-49d8aab3dff7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8140dbe9bc0c68d467c011d77bc0c00cec7ad560
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295909"
 ---
-# <a name="connectionexecute-method-dao"></a>Método Execute (DAO)
+# <a name="connectionexecute-method-dao"></a>Método Connection. Execute (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Executa uma consulta de ação ou executa uma instrução SQL no objeto especificado.
 
@@ -24,7 +24,7 @@ Executa uma consulta de ação ou executa uma instrução SQL no objeto especifi
 
 *expressão* . Executar (***consulta***, ***Opções***)
 
-*expressão* Uma variável que representa um objeto de **Conexão** .
+*expressão* Uma variável que representa um objeto **Connection** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -71,7 +71,7 @@ Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptione
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -121,9 +121,9 @@ O método **Execute** só será válido para consultas de ação. Se você usar 
 
 Use a propriedade **RecordsAffected** do objeto **Connection**, **Database** ou **QueryDef** para determinar o número de registros afetados pelo método **Execute** mais recente. Por exemplo, **RecordsAffected** contém o número de registros excluídos, atualizados ou inseridos na execução de uma consulta de ação. Quando você usar o método **Execute** para executar uma consulta, a propriedade **RecordsAffected** do objeto **QueryDef** é definida como o número de registros afetados.
 
-Em um espaço de trabalho do Microsoft Access, se você fornecer uma instrução SQL sintaticamente correta e se tiver as permissões apropriadas, o método **Execute** não falhará  mesmo se nem uma única linha puder ser modificada ou excluída. Dessa forma, sempre use a opção **dbFailOnError** ao utilizar o método **Execute** para executar uma consulta de atualização ou de exclusão. Essa opção gera um erro de tempo de execução e reverte todas as alterações bem-sucedidas caso qualquer um dos registros afetados esteja bloqueado ou não possa ser atualizado ou excluído.
+Em um espaço de trabalho do Microsoft Access, se você fornecer uma instrução SQL sintaticamente correta e tiver as permissões apropriadas, o método **Execute** não falhará  mesmo que uma única linha possa ser modificada ou excluída. Portanto, sempre use a opção **dbFailOnError** quando empregar o método **Execute** para executar uma consulta atualização ou exclusão. Essa opção gera um erro em tempo de execução e devolve todas as alterações bem-sucedidas se qualquer um dos registros afetados estiver protegido e não puder ser atualizado ou excluído.
 
-Em versões anteriores do mecanismo de banco de dados Microsoft Jet, as instruções SQL foram automaticamente inseridas em transações implícitas. Se parte de uma instrução executada com **dbFailOnError** tiver falhado, a instrução inteira é revertida. Para aprimorar o desempenho, essas transações implícitas foram removidas a partir da versão 3.5. Se você estiver atualizando um código DAO mais antigo, considere o uso de transações explícitas em torno de instruções **Execute**.
+Em versões anteriores do mecanismo de banco de dados do Microsoft Jet, instruções SQL foram automaticamente incorporadas a transações implícitas. Se parte de uma instrução executada com o **dbFailOnError** tiver falhado, a instrução inteira será devolvida. Para melhorar o desempenho, essas transações implícitas foram removidas a partir da versão 3.5. Se estiver atualizando código DAO antigo, considere o uso de transações explícitas envolvendo instruções **Execute**.
 
 Para obter melhor desempenho em um espaço de trabalho do Microsoft Access, especialmente em um ambiente multiusuário, aninhe o método **Execute** em uma transação. Use o método **BeginTrans** no atual objeto **Workspace**, em seguida use o método **Execute** e conclua a transação usando o método **CommitTrans** no **Workspace**. Isso salvará as alterações em disco e liberará quaisquer proteções durante a execução da consulta.
 

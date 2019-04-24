@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291856"
 ---
 # <a name="importsharepointlist-macro-action"></a>Ação da macro ImportarListadoSharePoint
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 É possível usar a ação **ImportarListadoSharePoint** para importar ou vincular dados de um site do Microsoft SharePoint Foundation.
 
@@ -47,8 +47,8 @@ A ação **ImportarListadoSharePoint** tem os seguintes argumentos.
 <td><p><strong>Tipo de transferência</strong></p></td>
 <td><p>Selecione o tipo de transferência.</p>
 <ul>
-<li><p>Selecione <strong>importação</strong> para copiar os dados do SharePoint Foundation em uma tabela no Microsoft Access. Atualizações para os dados no Access não afetam os dados no SharePoint Foundation. Da mesma forma, as atualizações para os dados no SharePoint Foundation não afetam os dados no Access.</p></li>
-<li><p>Selecione o <strong>Link</strong> para criar uma tabela vinculada no Access com links para os dados no SharePoint Foundation. Atualizações para os dados no Access serão refletidas no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation serão refletidas no Access.</p></li>
+<li><p>Selecione <strong>importar</strong> para copiar os dados do SharePoint Foundation em uma tabela no Microsoft Access. As atualizações dos dados no Access não afetam os dados no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation não afetam os dados no Access.</p></li>
+<li><p>Selecione <strong>vincular</strong> para criar uma tabela vinculada no Access que vincule aos dados no SharePoint Foundation. As atualizações dos dados no Access são refletidas no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation são refletidas no Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -92,11 +92,11 @@ A ação **ImportarListadoSharePoint** tem os seguintes argumentos.
     
   1. Abra a lista no SharePoint Foundation.
     
-  2. Se o modo de exibição desejado não for mostrado, clique na seta suspensa **Modo de Exibição** e selecione o modo de exibição desejado.
+  2. Se o modo de exibição desejado não for exibido, clique na seta suspensa **Modo de Exibição** e selecione o modo de exibição desejado.
     
   3. Clique na seta suspensa **Modo de Exibição** e selecione **Modificar este Modo de Exibição**.O endereço na barra de endereços do navegador contém os GUIDs da lista e do modo de exibição. O GUID da lista vem depois de **List=** e o do modo de exibição, depois de **View=**. No entanto, no endereço, cada caractere **{** (chave esquerda) é representado pela cadeia de caracteres **%7B**, cada caractere **-** (hífen) é representado pela cadeia de caracteres **%2D** e cada caractere **}** (chave direita) é representado pela cadeia de caracteres **%7D**. Por exemplo:
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Antes de poder usar os GUIDs do endereço como argumentos nesta ação de macro, você deve substituir cada sequência **% 7B** com o caractere **{** , substituir cada **% 2D** da cadeia de caracteres com o **-** caractere e substituir cada sequência **% 7 D** com o caractere **}** . Não inclua o caractere **&** (E comercial) que vem depois da cadeia de caracteres **%7D** no GUID da lista.
+  Antes de poder usar os GUIDs do endereço como argumentos nesta ação de macro, você deve substituir cada cadeia de caracteres **% 7B** pelo caractere **{** , substituir cada cadeia de caracteres **% 2D** pelo **-** caractere e substituir cada cadeia de caracteres **% 7D** por **}** caractere. Não inclua o caractere **&** (E comercial) que vem depois da cadeia de caracteres **%7D** no GUID da lista.
 

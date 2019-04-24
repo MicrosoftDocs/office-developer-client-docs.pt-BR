@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ebbfeb303bb575928f09858db5d3a34cf2171ce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300753"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Campos fornecidos pelo provedor e registros
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Quando um objeto [Record](record-object-ado.md) é aberto, sua origem pode ser a linha atual de um [Recordset](recordset-object-ado.md) aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
 
@@ -24,7 +24,7 @@ Se **Record** for aberto a partir de um **Recordset**, a coleção **Fields** co
 
 O provedor pode inserir campos adicionais que funcionem como características complementares de **Record**. Como resultado, um **Record** poderá ter campos exclusivos que não façam parte de **Recordset** como um todo ou qualquer **Record** derivado de outra linha de **Recordset**.
 
-Por exemplo, todas as linhas de um **Recordset** derivado de uma fonte de dados de email talvez tenha colunas, tais como de fazer e da entidade. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
+Por exemplo, todas as linhas de um **Recordset** derivadas de uma fonte de dados de email podem ter colunas como from, to e Subject. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
 
 Embora o objeto **Record** e a linha atual de **Recordset** tenham os mesmos campos, eles são diferentes, pois os objetos **Record** e **Recordset** possuem métodos e propriedades diferentes.
 
@@ -96,12 +96,12 @@ Um *conjunto de registros de recurso* consiste nas seguintes colunas.
 <tr class="even">
 <td><p>RESOURCE_CONTENTTYPE</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica o uso provável do documento — por exemplo, um advogado do breve. Isso poderá corresponder ao modelo do Office usado para criar o documento.&quot;&quot;</p></td>
+<td><p>Indica o provável uso do documento —  por exemplo, o depoimento de um advogado. Isso pode corresponder ao modelo do Office usado para criar o documento.&quot;&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica o tipo MIME do documento, que indica o formato como &quot;texto/html&quot;.'</p></td>
+<td><p>Indica o tipo MIME do documento, indicando o formato como &quot;text/html.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

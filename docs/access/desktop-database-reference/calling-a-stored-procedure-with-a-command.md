@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6578dbfc50ae8ffeaa31f49b694b37ba5fd534e8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296707"
 ---
 # <a name="calling-a-stored-procedure-with-a-command"></a>Chamada de um procedimento armazenado com um comando
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você também pode usar um comando ao chamar um procedimento armazenado. O código a seguir chama um procedimento armazenado no banco de dados de exemplo Northwind, chamado CustOrdersOrders, definido como segue:
 

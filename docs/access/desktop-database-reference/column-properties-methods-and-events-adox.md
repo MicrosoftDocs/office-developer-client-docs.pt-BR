@@ -1,5 +1,5 @@
 ---
-title: Coluna propriedades, métodos e eventos (ADOX)
+title: Propriedades, métodos e eventos da coluna (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3cfb6eaf-399a-1678-45bd-6fe692d8bd81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 13310d816208f1faf54873142a67471f12a12006
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296238"
 ---
-# <a name="column-properties-methods-and-events-adox"></a>Coluna propriedades, métodos e eventos (ADOX)
+# <a name="column-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos da coluna (ADOX)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
@@ -30,7 +30,7 @@ ms.locfileid: "28709905"
 - [Coleção Properties](properties-collection-ado.md)
 - [Propriedade RelatedColumn](relatedcolumn-property-adox.md)
 - [Propriedade SortOrder](sortorder-property-adox.md)
-- [Propriedade Type (Column)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
+- [Propriedade Type (coluna)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
 ## <a name="methods"></a>Métodos
 
