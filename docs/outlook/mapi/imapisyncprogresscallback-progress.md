@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b44337a4bc9615558ac6337e99ea206ba063b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341255"
 ---
-# <a name="imapisyncprogresscallbackprogress"></a><span data-ttu-id="22061-103">IMAPISyncProgressCallback::Progress</span><span class="sxs-lookup"><span data-stu-id="22061-103">IMAPISyncProgressCallback::Progress</span></span>
+# <a name="imapisyncprogresscallbackprogress"></a><span data-ttu-id="2aa65-103">IMAPISyncProgressCallback::Progress</span><span class="sxs-lookup"><span data-stu-id="2aa65-103">IMAPISyncProgressCallback::Progress</span></span>
 
   
   
-<span data-ttu-id="22061-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="22061-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2aa65-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2aa65-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="22061-105">Atualiza o status na caixa de diálogo Enviar/receber.</span><span class="sxs-lookup"><span data-stu-id="22061-105">Updates the status in the Send/Receive dialog.</span></span> <span data-ttu-id="22061-106">O provedor de armazenamento periodicamente chama essa função.</span><span class="sxs-lookup"><span data-stu-id="22061-106">The store provider periodically calls this function.</span></span>
+<span data-ttu-id="2aa65-105">Atualiza o status na caixa de diálogo enviar/receber.</span><span class="sxs-lookup"><span data-stu-id="2aa65-105">Updates the status in the Send/Receive dialog.</span></span> <span data-ttu-id="2aa65-106">O provedor de repositórios chama periodicamente essa função.</span><span class="sxs-lookup"><span data-stu-id="2aa65-106">The store provider periodically calls this function.</span></span>
   
 ```cpp
 HRESULT Progress(
@@ -35,29 +35,29 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="22061-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="22061-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2aa65-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="2aa65-107">Parameters</span></span>
 
- <span data-ttu-id="22061-108">**pwczsProgress**</span><span class="sxs-lookup"><span data-stu-id="22061-108">**pwczsProgress**</span></span>
+ <span data-ttu-id="2aa65-108">**pwczsProgress**</span><span class="sxs-lookup"><span data-stu-id="2aa65-108">**pwczsProgress**</span></span>
   
-> <span data-ttu-id="22061-109">Um ponteiro para uma cadeia de caracteres que exibe a etapa de andamento atual.</span><span class="sxs-lookup"><span data-stu-id="22061-109">A pointer to a string that displays the current progress step.</span></span> <span data-ttu-id="22061-110">Pode ser NULL para atualizar progresso.</span><span class="sxs-lookup"><span data-stu-id="22061-110">It can be NULL to update progress.</span></span>
+> <span data-ttu-id="2aa65-109">Um ponteiro para uma cadeia de caracteres que exibe a etapa de progresso atual.</span><span class="sxs-lookup"><span data-stu-id="2aa65-109">A pointer to a string that displays the current progress step.</span></span> <span data-ttu-id="2aa65-110">Pode ser nulo para atualizar o andamento.</span><span class="sxs-lookup"><span data-stu-id="2aa65-110">It can be NULL to update progress.</span></span>
     
- <span data-ttu-id="22061-111">**ulIndex**</span><span class="sxs-lookup"><span data-stu-id="22061-111">**ulIndex**</span></span>
+ <span data-ttu-id="2aa65-111">**ulIndex**</span><span class="sxs-lookup"><span data-stu-id="2aa65-111">**ulIndex**</span></span>
   
-> <span data-ttu-id="22061-112">A posição atual em andamento.</span><span class="sxs-lookup"><span data-stu-id="22061-112">The current position in progress.</span></span>
+> <span data-ttu-id="2aa65-112">A posição atual em andamento.</span><span class="sxs-lookup"><span data-stu-id="2aa65-112">The current position in progress.</span></span>
     
- <span data-ttu-id="22061-113">**ulIndexMax**</span><span class="sxs-lookup"><span data-stu-id="22061-113">**ulIndexMax**</span></span>
+ <span data-ttu-id="2aa65-113">**ulIndexMax**</span><span class="sxs-lookup"><span data-stu-id="2aa65-113">**ulIndexMax**</span></span>
   
-> <span data-ttu-id="22061-114">O índice que indica o progresso completo.</span><span class="sxs-lookup"><span data-stu-id="22061-114">The index indicating complete progress.</span></span>
+> <span data-ttu-id="2aa65-114">O índice que indica o progresso completo.</span><span class="sxs-lookup"><span data-stu-id="2aa65-114">The index indicating complete progress.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="22061-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="22061-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2aa65-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="2aa65-115">Return value</span></span>
 
-<span data-ttu-id="22061-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="22061-116">S_OK</span></span> 
+<span data-ttu-id="2aa65-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="2aa65-116">S_OK</span></span> 
   
-> <span data-ttu-id="22061-117">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="22061-117">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="2aa65-117">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="2aa65-117">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="22061-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="22061-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2aa65-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="2aa65-118">See also</span></span>
 
 
 
-[<span data-ttu-id="22061-119">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="22061-119">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
+[<span data-ttu-id="2aa65-119">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2aa65-119">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
 

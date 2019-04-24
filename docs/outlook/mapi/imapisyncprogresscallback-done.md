@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d397e12b8b24c5031e6e6d89d98134d487a815b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341269"
 ---
-# <a name="imapisyncprogresscallbackdone"></a><span data-ttu-id="8d8aa-103">IMAPISyncProgressCallback::Done</span><span class="sxs-lookup"><span data-stu-id="8d8aa-103">IMAPISyncProgressCallback::Done</span></span>
+# <a name="imapisyncprogresscallbackdone"></a><span data-ttu-id="0462a-103">IMAPISyncProgressCallback::Done</span><span class="sxs-lookup"><span data-stu-id="0462a-103">IMAPISyncProgressCallback::Done</span></span>
 
   
   
-<span data-ttu-id="8d8aa-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8d8aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0462a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0462a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="8d8aa-105">Informa o Microsoft Outlook que a sincronização estiver concluída.</span><span class="sxs-lookup"><span data-stu-id="8d8aa-105">Informs Microsoft Outlook that synchronization is complete.</span></span> 
+ <span data-ttu-id="0462a-105">Informa ao Microsoft Outlook que a sincronização foi concluída.</span><span class="sxs-lookup"><span data-stu-id="0462a-105">Informs Microsoft Outlook that synchronization is complete.</span></span> 
   
 ```cpp
 HRESULT Done(
@@ -34,25 +34,25 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8d8aa-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="8d8aa-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0462a-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="0462a-106">Parameters</span></span>
 
- <span data-ttu-id="8d8aa-107">**hThreadDoneEvent**</span><span class="sxs-lookup"><span data-stu-id="8d8aa-107">**hThreadDoneEvent**</span></span>
+ <span data-ttu-id="0462a-107">**hThreadDoneEvent**</span><span class="sxs-lookup"><span data-stu-id="0462a-107">**hThreadDoneEvent**</span></span>
   
-> <span data-ttu-id="8d8aa-108">Um evento que é passado voltar para permitir que o Microsoft Outlook fechar o identificador.</span><span class="sxs-lookup"><span data-stu-id="8d8aa-108">An event that is passed back to allow Microsoft Outlook to close the handle.</span></span> <span data-ttu-id="8d8aa-109">Pode ser NULL.</span><span class="sxs-lookup"><span data-stu-id="8d8aa-109">It can be NULL.</span></span>
+> <span data-ttu-id="0462a-108">Um evento que é passado de volta para permitir que o Microsoft Outlook feche a alça.</span><span class="sxs-lookup"><span data-stu-id="0462a-108">An event that is passed back to allow Microsoft Outlook to close the handle.</span></span> <span data-ttu-id="0462a-109">Pode ser nulo.</span><span class="sxs-lookup"><span data-stu-id="0462a-109">It can be NULL.</span></span>
     
- <span data-ttu-id="8d8aa-110">**hResult**</span><span class="sxs-lookup"><span data-stu-id="8d8aa-110">**hResult**</span></span>
+ <span data-ttu-id="0462a-110">**And**</span><span class="sxs-lookup"><span data-stu-id="0462a-110">**hResult**</span></span>
   
-> <span data-ttu-id="8d8aa-111">Um HRESULT indicando o status final do andamento.</span><span class="sxs-lookup"><span data-stu-id="8d8aa-111">An HRESULT indicating final status of the progress.</span></span>
+> <span data-ttu-id="0462a-111">Um HRESULT que indica o status final do progresso.</span><span class="sxs-lookup"><span data-stu-id="0462a-111">An HRESULT indicating final status of the progress.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8d8aa-112">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="8d8aa-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0462a-112">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="0462a-112">Return value</span></span>
 
-<span data-ttu-id="8d8aa-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="8d8aa-113">S_OK</span></span> 
+<span data-ttu-id="0462a-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="0462a-113">S_OK</span></span> 
   
-> <span data-ttu-id="8d8aa-114">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="8d8aa-114">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="0462a-114">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="0462a-114">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8d8aa-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="8d8aa-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0462a-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="0462a-115">See also</span></span>
 
 
 
-[<span data-ttu-id="8d8aa-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="8d8aa-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
+[<span data-ttu-id="0462a-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0462a-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341262"
 ---
-# <a name="imapisupportunsubscribe"></a><span data-ttu-id="5a237-103">IMAPISupport::Unsubscribe</span><span class="sxs-lookup"><span data-stu-id="5a237-103">IMAPISupport::Unsubscribe</span></span>
+# <a name="imapisupportunsubscribe"></a><span data-ttu-id="b4ea7-103">IMAPISupport::Unsubscribe</span><span class="sxs-lookup"><span data-stu-id="b4ea7-103">IMAPISupport::Unsubscribe</span></span>
 
   
   
-<span data-ttu-id="5a237-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5a237-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b4ea7-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b4ea7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5a237-105">Cancels the responsibility for sending notifications that was previously established with a call to the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method.</span><span class="sxs-lookup"><span data-stu-id="5a237-105">Cancels the responsibility for sending notifications that was previously established with a call to the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method.</span></span> 
+<span data-ttu-id="b4ea7-105">Cancels the responsibility for sending notifications that was previously established with a call to the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-105">Cancels the responsibility for sending notifications that was previously established with a call to the [IMAPISupport::Subscribe](imapisupport-subscribe.md) method.</span></span> 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -33,35 +33,35 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5a237-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="5a237-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b4ea7-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b4ea7-106">Parameters</span></span>
 
- <span data-ttu-id="5a237-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="5a237-107">_ulConnection_</span></span>
+ <span data-ttu-id="b4ea7-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="b4ea7-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="5a237-108">[in] O n�mero de conex�o diferente de zero que representa o registro de notifica��o que tenha estabelecido por meio de **IMAPISupport::Subscribe**.</span><span class="sxs-lookup"><span data-stu-id="5a237-108">[in] The nonzero connection number that represents the notification registration previously established through **IMAPISupport::Subscribe**.</span></span>
+> <span data-ttu-id="b4ea7-108">[in] O n�mero de conex�o diferente de zero que representa o registro de notifica��o que tenha estabelecido por meio de **IMAPISupport::Subscribe**.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-108">[in] The nonzero connection number that represents the notification registration previously established through **IMAPISupport::Subscribe**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5a237-109">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="5a237-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b4ea7-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="b4ea7-109">Return value</span></span>
 
-<span data-ttu-id="5a237-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="5a237-110">S_OK</span></span> 
+<span data-ttu-id="b4ea7-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="b4ea7-110">S_OK</span></span> 
   
-> <span data-ttu-id="5a237-111">O registro de notifica��o foi cancelado.</span><span class="sxs-lookup"><span data-stu-id="5a237-111">The notification registration was canceled.</span></span>
+> <span data-ttu-id="b4ea7-111">O registro de notifica��o foi cancelado.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-111">The notification registration was canceled.</span></span>
     
-<span data-ttu-id="5a237-112">E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="5a237-112">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="b4ea7-112">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="b4ea7-112">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="5a237-113">O n�mero de conex�o passado no par�metro  _ulConnection_ n�o existe.</span><span class="sxs-lookup"><span data-stu-id="5a237-113">The connection number passed in the  _ulConnection_ parameter does not exist.</span></span> 
+> <span data-ttu-id="b4ea7-113">O n�mero de conex�o passado no par�metro  _ulConnection_ n�o existe.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-113">The connection number passed in the  _ulConnection_ parameter does not exist.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="5a237-114">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="5a237-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4ea7-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="b4ea7-114">Remarks</span></span>
 
-<span data-ttu-id="5a237-p101">O m�todo **IMAPISupport::Unsubscribe** � implementado para todos os objetos de suporte de provedor de servi�o. Provedores de servi�os de chamarem **Unsubscribe** para cancelar um registro de notifica��o configurado anteriormente pelo **Subscribe**. **Unsubscribe** cancela o registro, liberando o ponteiro de coletor de eventos advise passado na chamada **Subscribe**.</span><span class="sxs-lookup"><span data-stu-id="5a237-p101">The **IMAPISupport::Unsubscribe** method is implemented for all service provider support objects. Service providers call **Unsubscribe** to cancel a notification registration previously set up by **Subscribe**. **Unsubscribe** cancels the registration by releasing the advise sink pointer passed in the **Subscribe** call.</span></span> 
+<span data-ttu-id="b4ea7-p101">O m�todo **IMAPISupport::Unsubscribe** � implementado para todos os objetos de suporte de provedor de servi�o. Provedores de servi�os de chamarem **Unsubscribe** para cancelar um registro de notifica��o configurado anteriormente pelo **Subscribe**. **Unsubscribe** cancela o registro, liberando o ponteiro de coletor de eventos advise passado na chamada **Subscribe**.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-p101">The **IMAPISupport::Unsubscribe** method is implemented for all service provider support objects. Service providers call **Unsubscribe** to cancel a notification registration previously set up by **Subscribe**. **Unsubscribe** cancels the registration by releasing the advise sink pointer passed in the **Subscribe** call.</span></span> 
   
-<span data-ttu-id="5a237-p102">Generally, the advise sink's **IUnknown::Release** method is called during the **Unsubscribe** call. However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span><span class="sxs-lookup"><span data-stu-id="5a237-p102">Generally, the advise sink's **IUnknown::Release** method is called during the **Unsubscribe** call. However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
+<span data-ttu-id="b4ea7-p102">Generally, the advise sink's **IUnknown::Release** method is called during the **Unsubscribe** call. However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span><span class="sxs-lookup"><span data-stu-id="b4ea7-p102">Generally, the advise sink's **IUnknown::Release** method is called during the **Unsubscribe** call. However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5a237-120">Ver tamb�m</span><span class="sxs-lookup"><span data-stu-id="5a237-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b4ea7-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="b4ea7-120">See also</span></span>
 
 
 
-[<span data-ttu-id="5a237-121">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="5a237-121">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="b4ea7-121">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="b4ea7-121">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="5a237-122">IMAPISupport::Subscribe</span><span class="sxs-lookup"><span data-stu-id="5a237-122">IMAPISupport::Subscribe</span></span>](imapisupport-subscribe.md)
+[<span data-ttu-id="b4ea7-122">IMAPISupport::Subscribe</span><span class="sxs-lookup"><span data-stu-id="b4ea7-122">IMAPISupport::Subscribe</span></span>](imapisupport-subscribe.md)
   
-[<span data-ttu-id="5a237-123">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="5a237-123">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="b4ea7-123">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="b4ea7-123">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
