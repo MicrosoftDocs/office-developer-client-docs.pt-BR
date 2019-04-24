@@ -1,5 +1,5 @@
 ---
-title: Detalhes do HelloData (referência de banco de dados da área de trabalho do Access)
+title: HelloData detalhes (referência do banco de dados de área de trabalho do Access)
 TOCTitle: HelloData details
 ms:assetid: db51e15c-1b5b-c64a-2f84-34dd0e78c6cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78b04b74d4e2b8d9c215235d6e7ccebed4fa2ef2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291996"
 ---
 # <a name="hellodata-details"></a>Detalhes do HelloData
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O aplicativo HelloData passa por todas as operações básicas de um aplicativo típico do ADO: obter, examinar, editar e atualizar dados. Ao iniciar o aplicativo, clique no primeiro botão, **Get Data**. Isso executará a sub-rotina GetData().
 
@@ -27,9 +27,9 @@ GetData coloca uma cadeia de caracteres de conexão válida em uma variável de 
 
 Use uma instrução **OnError** do Visual Basic para atribuir um manipular de erros. Para obter mais informações sobre o tratamento de erros no ADO, consulte o [Capítulo 6: tratamento de erros](chapter-6-error-handling.md). Um novo objeto **Connection** é criado e a propriedade **CursorLocation** é definida como **adUseClient**, pois o exemplo HelloData cria um *Recordset desconectado*. Isto significa que depois que os dados forem encontrados na fonte de dados, a conexão física com a fonte de dados será interrompida, mas você poderá continuar trabalhando com os dados, que serão armazenados localmente em cache no seu objeto **Recordset**.
 
-Depois que a conexão for aberta, atribua uma cadeia de caracteres SQL a uma variável (sSQL). Em seguida, criar uma instância de um novo objeto **Recordset** , m\_oRecordset1. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando sSQL como a origem do **Recordset**. Para ajudar o ADO a determinar que a cadeia de caracteres SQL que você passou como fonte de **Recordset** é uma definição textual de um comando, você passará **adCmdText** no argumento final do método **Open** de **Recordset**. Essa linha também define o **LockType** e o **CursorType** associados ao **Recordset**.
+Depois que a conexão for aberta, atribua uma cadeia de caracteres SQL a uma variável (sSQL). Em seguida, crie **** uma instância de um\_novo objeto recordset, m oRecordset1. Na próxima linha de código, abra o **Recordset** sobre a **conexão**existente, passando. Na próxima linha de código, abra o **Recordset** sobre a **conexão**existente, passando sSQL como a origem do **Recordset**. Para ajudar o ADO a determinar que a cadeia de caracteres SQL que você passou como fonte de **Recordset** é uma definição textual de um comando, você passará **adCmdText** no argumento final do método **Open** de **Recordset**. Essa linha também define o **LockType** e o **CursorType** associados ao **Recordset**.
 
-A próxima linha do código iguala as propriedades **MarshalOptions** e **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados à camada intermediária (ou servidor web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
+A próxima linha do código iguala as propriedades **MarshalOptions** e **adMarshalModifiedOnly**. **Marshaloptions** indica quais registros devem ser empacotados para a camada intermediária (ou servidor Web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar o **adMarshalModifiedOnly** com um cursor do lado do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), apenas os registros modificados no cliente são gravados novamente na camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
 
 Em seguida, desconecte o **Recordset** igualando as propriedades **ActiveConnection** e **Nothing**. Para obter mais informações, consulte [Desconectando e reconectando o Recordset](disconnecting-and-reconnecting-the-recordset.md) no Capítulo 5: atualizando e mantendo a persistência de dados.
 
@@ -61,7 +61,7 @@ As alterações só serão aplicadas à fonte de dados quando você clicar no qu
 
 ## <a name="updatedata"></a>UpdateData
 
-Inicialmente, UpdateData remove o filtro que foi aplicado ao **Recordset**. O código remove e redefine como a **fonte de dados** para o Microsoft acoplado DataGrid no formulário para que o **Recordset** não filtrado aparece na grade.
+Inicialmente, UpdateData remove o filtro que foi aplicado ao **Recordset**. O código remove e redefine como a **fonte** de sistema para o DataGrid associado da Microsoft no formulário para que o **Recordset** não filtrado apareça na grade.
 
 Em seguida, o código verifica se você pode retroceder no **Recordset** usando o método **Supports** com o argumento **adMovePrevious**.
 
@@ -69,13 +69,13 @@ A rotina move-se para o primeiro registro usando o método **MoveFirst** e exibe
 
 Em seguida, um novo objeto **Connection** é criado e usado para restabelecer uma conexão com a fonte de dados. Para reconectar o **Recordset** à fonte de dados, o novo **Connection** é definido como **ActiveConnection** no **Recordset**. Para enviar as atualizações para o servidor, o código chama o método **UpdateBatch** no **Recordset**.
 
-Se a atualização em lote for bem-sucedida, uma variável sinalizadora de nível de módulo, estiver definida como True. Mais adiante, isto servirá para lembrá-lo de limpar todas as alterações feitas no banco de dados.
+Se a atualização em lote tiver êxito, uma variável de sinalizador de nível de módulo, será definida como true. Mais adiante, isto servirá para lembrá-lo de limpar todas as alterações feitas no banco de dados.
 
 Finalmente, o código volta ao primeiro registro do **Recordset** e exibe os valores originais e atuais. Os valores são os mesmos após a chamada de **UpdateBatch**.
 
 Para obter informações mais detalhadas sobre a atualização de dados, inclusive o que fazer se os dados no servidor forem alterados enquanto o seu **Recordset** estiver desconectado, consulte o [Capítulo 5: atualizando e mantendo a persistência de dados](chapter-5-updating-and-persisting-data.md).
 
-## <a name="formunload"></a>Formulário\_Unload
+## <a name="formunload"></a>Descarregamento de formulário\_
 
-O formulário\_sub-rotina Unload é importante por vários motivos. Primeiro, porque este é um aplicativo de amostra, o formulário\_Unload limpa as alterações feitas no banco de dados antes de sair do aplicativo. Em segundo lugar, o código mostra como o método **Execute** pode ser usado para executar um comando diretamente a partir de um objeto **Connection** aberto. Finalmente, ele mostra um exemplo de execução de uma consulta não-linha retorne (uma consulta atualização) em relação à fonte de dados.
+A sub-rotina\_de descarregamento de formulários é importante por vários motivos. Primeiro, como este é um aplicativo de exemplo,\_o descarregamento de formulários limpa as alterações feitas no banco de dados antes do aplicativo sair. Em segundo lugar, o código mostra como o método **Execute** pode ser usado para executar um comando diretamente a partir de um objeto **Connection** aberto. Finalmente, ele mostra um exemplo da execução de uma consulta à fonte de dados sem retorno de linhas (uma consulta UPDATE).
 

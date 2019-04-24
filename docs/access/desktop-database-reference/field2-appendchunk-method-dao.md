@@ -1,5 +1,5 @@
 ---
-title: Método Field2.AppendChunk (DAO)
+title: Método Campo2. AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292878"
 ---
-# <a name="field2appendchunk-method-dao"></a>Método Field2.AppendChunk (DAO)
+# <a name="field2appendchunk-method-dao"></a>Método Campo2. AppendChunk (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Acrescenta dados de uma expressão de cadeia de caracteres em um objeto **Field2** Memo ou Long Binary em um **[Recordset](recordset-object-dao.md)**.
 
@@ -28,7 +28,7 @@ Acrescenta dados de uma expressão de cadeia de caracteres em um objeto **Field2
 
 *expressão* . AppendChunk (***Val***)
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="parameters"></a>Parâmetros
 

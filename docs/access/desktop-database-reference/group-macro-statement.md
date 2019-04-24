@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2dc25621a49d8fd23078a926d6ec6c5de54e54d9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292108"
 ---
 # <a name="group-macro-statement"></a>Instrução de macro Grupo
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-A instrução **grupo** permite que você especifique um bloco de ações em uma macro que você pode expandir ou recolher.
+A instrução **Group** permite que você especifique um bloco de ações em uma macro que você pode expandir ou recolher.
 
 ## <a name="setting"></a>Configuração
 
@@ -33,7 +33,7 @@ A ação **Grupo** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>

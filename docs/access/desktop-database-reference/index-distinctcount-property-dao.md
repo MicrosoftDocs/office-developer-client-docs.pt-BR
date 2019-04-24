@@ -1,5 +1,5 @@
 ---
-title: Propriedade Index.DistinctCount (DAO)
+title: Propriedade index. DistinctCount (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3264ea010db12f3fee6c16bd82fb19ed9bda1992
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291842"
 ---
-# <a name="indexdistinctcount-property-dao"></a>Propriedade Index.DistinctCount (DAO)
+# <a name="indexdistinctcount-property-dao"></a>Propriedade index. DistinctCount (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que indica o número de valores exclusivos para o objeto **[Index](index-object-dao.md)** que estão incluídos na tabela associada (apenas espaços de trabalho do Microsoft Access).
 
@@ -28,7 +28,7 @@ Retorna um valor que indica o número de valores exclusivos para o objeto **[Ind
 
 *expressão* . DistinctCount
 
-*expressão* Uma variável que representa um objeto **Index** .
+*expressão* Uma variável que representa um objeto **index** .
 
 ## <a name="remarks"></a>Comentários
 

@@ -14,26 +14,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296854"
 ---
 # <a name="before-change-macro-event"></a>Evento da macro Antes da Alteração
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **Antes de Alterar** ocorre quando um registro é alterado, mas antes da alteração ser submetida.
 
 > [!NOTE]
-> [!OBSERVAçãO] O evento **Antes de Alterar** está disponível somente em Macros de Dados.
+> O evento **Antes de Alterar** está disponível somente em Macros de Dados.
 
 ## <a name="remarks"></a>Comentários
 
 Use o evento **Antes de Alterar** para executar qualquer ação que você deseja que ocorra antes da alteração de um registro. O **Antes de Alterar** é comumente usado para executar validação e criar mensagens de erro personalizadas.
 
-Você pode usar a função **atualizado ("*Nome do campo*")** para determinar se um campo foi alterada. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
+Você pode usar a função **Updated ("*nome do campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -91,15 +91,15 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 <tbody>
 <tr class="odd">
 <td><p>Fluxo do programa</p></td>
-<td><p><a href="comment-macro-statement.md">Instrução de macro comentário</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Fluxo do programa</p></td>
-<td><p><a href="group-macro-statement.md">Instrução de macro grupo</a></p></td>
+<td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fluxo do programa</p></td>
-<td><p><a href="if-then-else-macro-block.md">Se... Então... Bloco de macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Bloco de macro If...Then...Else</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloco de dados</p></td>
@@ -107,27 +107,27 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 </tr>
 <tr class="odd">
 <td><p>Ação de dados</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Ação de macro Limparerrodemacro</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Ação da macro LimparErrodeMacro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ação de dados</p></td>
-<td><p><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></p></td>
+<td><p><a href="onerror-macro-action.md">Ação da macro AoOcorrerErro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ação de dados</p></td>
-<td><p><a href="raiseerror-macro-action.md">Ação de macro Gerarerro</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Ação da macro GerarErro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ação de dados</p></td>
-<td><p><a href="setfield-macro-action.md">Ação de macro Definircampo</a></p></td>
+<td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ação de dados</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Ação da macro DefinirVarLocal</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ação de dados</p></td>
-<td><p><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Ação da macro PararMacro</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +143,7 @@ Uma macra de dados vazia é exibida no designer de macros.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo de código a seguir usa o evento **Antes de alterar** para validar os campos de Status. Um erro será exibido se houver um valor incorreto no campo Resolução.
+O exemplo de código a seguir usa o evento **antes de alterar** para validar os campos de status. Um erro será exibido se houver um valor incorreto no campo Resolução.
 
 ```vb 
  
@@ -178,9 +178,9 @@ Para exibir este exemplo no designer de macros, siga estas etapas.
 
 2.  Na guia **Tabela**, no grupo **Antes de Eventos**, clique em **Antes de Alterar**.
 
-3.  Selecione o código no exemplo de código a seguir e pressione **CTRL + C** para copiá-lo na área de transferência.
+3.  Selecione o código no exemplo de código a seguir e pressione **Ctrl + C** para copiá-lo para a área de transferência.
 
-4.  Ative a janela do designer de macro e, em seguida, pressione **CTRL + V**.
+4.  Ative a janela do designer de macros e pressione **Ctrl + V**.
 
 
 
@@ -228,9 +228,9 @@ Para exibir este exemplo no designer de macros, siga estas etapas.
 </DataMacros>
 ```
 
-O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento de macro de dados antes de alterar. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído atualmente atribuído a uma solicitação de serviço em aberto. Se isso for verdadeiro, então o evento antes de alterar for cancelado e o registro não será atualizado.
+O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento antes de alterar a macro de dados. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído está atualmente atribuído a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* Get the name of the technician  */

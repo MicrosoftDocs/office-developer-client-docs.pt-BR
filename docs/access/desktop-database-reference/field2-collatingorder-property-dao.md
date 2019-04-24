@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.CollatingOrder (DAO)
+title: Propriedade Campo2. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: cb1d6fc9-a2a6-54c2-abf5-48b609e38738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02711fbbf39b058bb88e9568716169825ae4a923
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292864"
 ---
-# <a name="field2collatingorder-property-dao"></a>Propriedade Field2.CollatingOrder (DAO)
+# <a name="field2collatingorder-property-dao"></a>Propriedade Campo2. CollatingOrder (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que especifica a sequência da ordem de classificação no texto para comparação ou classificação da sequência (apenas espaços de trabalho do Microsoft Access). **Long** somente leitura.
 
@@ -25,7 +25,7 @@ Retorna um valor que especifica a sequência da ordem de classificação no text
 
 *expressão* . CollatingOrder
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +38,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordem de classificação</p></th>
 </tr>
 </thead>
@@ -105,15 +105,15 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Paradox International</p></td>
+<td><p>International Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPDXNor</strong></p></td>
-<td><p>Paradox em norueguês ou dinamarquês</p></td>
+<td><p>Norueguês ou dinamarquês Paradox</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXSwe</strong></p></td>
-<td><p>Paradox em sueco ou finlandês</p></td>
+<td><p>Sueco ou finlandês Paradox</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPolish</strong></p></td>
@@ -157,35 +157,40 @@ A disponibilidade da propriedade **CollatingOrder** depende do objeto que conté
 <thead>
 <tr class="header">
 <th><p>Se a coleção Fields pertencer a</p></th>
-<th><p>CollatingOrder será</p></th>
+<th><p>Então CollatingOrder é</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>Objeto <strong>Relation</strong></p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi recentemente compactado.
+A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
 
 As configurações das propriedades **CollatingOrder** e **Attributes** de um objeto **Field2** em uma coleção **Fields** de um objeto **Index** determinam a sequência e a direção da ordem de classificação em um índice. Entretanto, você não pode definir uma ordem de agrupamento para um índice individual  você pode defini-la apenas para uma tabela inteira.
 

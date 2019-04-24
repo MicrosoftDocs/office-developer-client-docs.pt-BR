@@ -1,5 +1,5 @@
 ---
-title: Método Fields. (DAO)
+title: Método Fields. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8200d8ec7b10f33fe8bc1ef9faea122d3ff65409
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292556"
 ---
-# <a name="fieldsdelete-method-dao"></a>Método Fields. (DAO)
+# <a name="fieldsdelete-method-dao"></a>Método Fields. Delete (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields-collection-dao.md)**.
 
@@ -28,7 +28,7 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 
 *expressão* . Excluir (***nome***)
 
-*expressão* Uma variável que representa um objeto **Fields** .
+*expressão* Uma variável que representa um **** objeto Fields.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -49,7 +49,7 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>O campo a ser excluído.</p></td>

@@ -1,5 +1,5 @@
 ---
-title: Método Recordset.FindPrevious (DAO)
+title: Método Recordset. FindPrevious (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: 62f26b0b-f3f1-a6fe-e84d-f93623e1f7f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194940(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bbd678c460ed6c54a38e76faa2a2492cfd4e3384
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300487"
 ---
-# <a name="recordsetfindprevious-method-dao"></a>Método Recordset.FindPrevious (DAO)
+# <a name="recordsetfindprevious-method-dao"></a>Método Recordset. FindPrevious (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access ).
+Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -75,8 +75,8 @@ Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direç�
 <thead>
 <tr class="header">
 <th><p>Método Find</p></th>
-<th><p>Inicia pesquisa em</p></th>
-<th><p>Direção da pesquisa</p></th>
+<th><p>Começa a pesquisa em</p></th>
+<th><p>Direção de pesquisa</p></th>
 </tr>
 </thead>
 <tbody>
@@ -93,12 +93,12 @@ Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direç�
 <tr class="odd">
 <td><p><strong>FindNext</strong></p></td>
 <td><p>Registro atual</p></td>
-<td><p>Fim do conjunto de registros</p></td>
+<td><p>Final do recordset</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FindPrevious</strong></p></td>
 <td><p>Registro atual</p></td>
-<td><p>Início do conjunto de registros</p></td>
+<td><p>Início do recordset</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,8 +119,8 @@ Você deve usar o formato de data americano (mês-dia-ano) ao pesquisar campos c
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Se os critérios é composta por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço \> " & lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar Chame o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+Se os critérios forem compostos de uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strSQL = "PRICE \> " & lngPrice e lngPrice = 125, 50), ocorrerá um erro quando você tentar chamar o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 
 > [!NOTE]
-> - Para melhor desempenho, os *critérios* devem estar em um formato "*campo* = *valor*" onde o *campo* é um campo indexado na tabela base ou "*campo* como *prefixo*" onde o *campo* é um campo indexado na tabela base e *prefixo* é uma cadeia de caracteres de pesquisa do prefixo (por exemplo, "ART *").
+> - Para obter um melhor desempenho, os *critérios* devem estar no formato "** = *valor*do campo" onde *campo* é um campo indexado na tabela base subjacente ou "*campo* como *prefixo*" onde *campo* é um campo indexado na tabela base subjacente e o *prefixo* é uma cadeia de caracteres de pesquisa de prefixo (por exemplo, "Art *").
 > - Em geral, para tipos equivalentes de pesquisa, o método **Seek** fornece melhor desempenho que os métodos **Find**. Isso significa que os objetos **Recordset** tipo tabela sozinhos podem atender às suas necessidades.
