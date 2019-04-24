@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Determina se uma forma é redimensionada ou girada dinamicamente à medida que é manipulada.
-ms.openlocfilehash: 043571243fe3698561bee8632e7fd18db04c9330
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e332546c1fc5dfc71dfa3b72ea5a58bfef59dc7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340982"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>Célula NoLiveDynamics (Seção Miscellaneous)
 
@@ -22,8 +22,8 @@ Determina se uma forma é redimensionada ou girada dinamicamente à medida que �
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Não atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
-| FALSO  <br/> | Atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
+| TRUE  <br/> | Não atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
+| FALSE  <br/> | Atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

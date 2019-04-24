@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5380b6541e609c17a9005c3390c6d5db06155306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bf072aba27c90b7cea80c464e17fafb47524b695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342081"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567241"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma matriz das propriedades que usa um grupo de formulários.
+Retorna uma matriz das propriedades usadas por um grupo de formulários.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -39,45 +39,45 @@ HRESULT CalcFormPropSet(
 
  _pfrminfoarray_
   
-> [in] Um ponteiro para uma matriz de objetos de informações de formulário que identificam os formulários para o qual retornar propriedades.
+> no Um ponteiro para uma matriz de objetos de informação de formulário que identificam os formulários para os quais retornar propriedades.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a matriz de propriedade no parâmetro _ppResults_ é retornada. Sinalizadores a seguir podem ser definidos: 
+> no Uma bitmask de sinalizadores que controla como a matriz de propriedades no parâmetro _ppResults_ é retornada. Os seguintes sinalizadores podem ser definidos: 
     
 FORMPROPSET_INTERSECTION 
   
-> A matriz retornada contém a interseção de propriedades do formulário.
+> A matriz retornada contém a interseção das propriedades do formulário.
     
 FORMPROPSET_UNION 
   
-> A matriz retornada contém a união de propriedades do formulário.
+> A matriz retornada contém a União das propriedades do formulário.
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas na matriz estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas na matriz estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _ppResults_
   
-> [out] Um ponteiro para um ponteiro para a estrutura de [SMAPIFormPropArray](smapiformproparray.md) retornado, que contém as propriedades que usam os formulários. 
+> bota Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada, que contém as propriedades que os formulários utilizam. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Visualizadores de formulário chamar o método **IMAPIFormMgr::CalcFormPropSet** para obter uma matriz das propriedades que usa um grupo de formulários. **CalcFormPropSet** leva a uma interseção ou uma união de propriedade desses formulários define, dependendo do sinalizador definido no parâmetro _ulFlags_ e ele retorna uma estrutura **SMAPIFormPropArray** que contém o grupo resultante de Propriedades. 
+Os visualizadores de formulários chamam o método **IMAPIFormMgr:: CalcFormPropSet** para obter uma matriz das propriedades usadas por um grupo de formulários. O **CalcFormPropSet** utiliza uma interseção ou uma União desses conjuntos de propriedades de formulários, dependendo do sinalizador definido no parâmetro _parâmetroulflags_ e retorna uma estrutura **SMAPIFormPropArray** que contém o grupo resultante de Propriedades. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ , todas as cadeias de caracteres devem ser retornadas como sequências de caracteres Unicode. Provedores de biblioteca de formulário que não oferecem suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres deverão ser retornadas como cadeias de caracteres Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
   
 ## <a name="see-also"></a>Confira também
 

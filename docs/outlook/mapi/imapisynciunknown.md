@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4d46152136f3806c79f0dd454ed9fd41fc845721
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341276"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
@@ -25,22 +25,22 @@ ms.locfileid: "22589081"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Oferece um mecanismo para sincronização de email em vez de usar a API de transporte. Esta interface é exposto em um objeto de repositório. Usando essa interface e [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), um provedor de transporte pode oferecer melhor progresso e mensagens de erro do que aqueles que aparecem na caixa de diálogo Enviar/receber no Microsoft Outlook.
+Fornece um mecanismo para sincronizar email, em vez de usar a API de transporte. Essa interface é exposta em um objeto Store. Usando esta interface e [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), um provedor de transporte pode fornecer melhores mensagens de progresso e de erro do que aqueles que aparecem na caixa de diálogo enviar/receber no Microsoft Outlook.
   
-A caixa de saída é ainda no armazenamento padrão. Outlook continuará usem as APIs de transporte para enviar emails, porque a mensagem de saída não pode ser no armazenamento externo.
+A saída ainda está no repositório padrão. O Outlook continuará a usar as APIs de transporte para enviar emails, pois a mensagem de saída não pode estar no repositório externo.
   
 |||
 |:-----|:-----|
-|Expostos pelo:  <br/> |Provedores de armazenamento e de transporte  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
-|Chamado pelo:  <br/> |Provedores de armazenamento e de transporte  <br/> |
+|Exposto por:  <br/> |Provedores de armazenamento e transporte  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Provedores de armazenamento e transporte  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISync  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado por provedores de armazenamento de mensagem. Esse método é chamado pelo Outlook 2010 e o Outlook 2013 para iniciar a sincronização.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado por provedores de repositório de mensagens. Este método é chamado pelo Outlook 2010 e pelo Outlook 2013 para iniciar a sincronização.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

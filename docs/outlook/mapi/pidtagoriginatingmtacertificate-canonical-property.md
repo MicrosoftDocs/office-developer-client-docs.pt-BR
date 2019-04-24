@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e2f4b1fda57eb74e0573834c6e8fb443acf7ab12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340933"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propriedade canônica PidTagOriginatingMtaCertificate
 
@@ -36,21 +36,21 @@ Contém um identificador para o agente de transferência de mensagem (MTA) que o
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, se definido, está disponível em mensagens enviadas na pasta Itens enviados.
+Essa propriedade, se definida, está disponível em mensagens enviadas na pasta Itens enviados.
   
-Essa propriedade corresponde ao atributo x. 400 relatório-message.
+Essa propriedade corresponde ao atributo X. 400 relatório por mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

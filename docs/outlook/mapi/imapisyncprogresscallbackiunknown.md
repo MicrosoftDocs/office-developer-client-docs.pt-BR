@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 33d811af0fc9e06902750075ba39bfb6ca88903f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 54f61eb1bf111601e8b2c889b0d2890d0c10d63b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341234"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
@@ -25,23 +25,23 @@ ms.locfileid: "22593708"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Passa o provedor de armazenamento como um campo na estrutura MAPISIB durante uma chamada para [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). O provedor de armazenamento usa essa interface para fornecer comentários para o Microsoft Outlook sobre o status da sincronização.
+Passa o provedor de repositório como um campo na estrutura MAPISIB durante uma chamada para [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). O provedor de repositório usa essa interface para fornecer comentários ao Microsoft Outlook sobre o status da sincronização.
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> ||
-|Expostos pelo:  <br/> |Outlook  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
-|Chamado pelo:  <br/> |Provedores de armazenamento  <br/> |
+|Exposto por:  <br/> |Outlook  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Provedores de repositório  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |O provedor de armazenamento periodicamente chama esta função para atualizar o status na caixa de diálogo Enviar/receber.  <br/> |
-|[Erro](imapisyncprogresscallback-error.md) <br/> |Se forem encontrados erros durante a sincronização, o provedor de armazenamento chama esta função para fornecer detalhes que são exibidos na caixa de diálogo Enviar/receber.  <br/> |
-|[Feito](imapisyncprogresscallback-done.md) <br/> |O provedor de armazenamento chama esta função para informe ao Outlook sincronização foi concluída.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |O provedor de repositório chama periodicamente essa função para atualizar o status na caixa de diálogo enviar/receber.  <br/> |
+|[Error](imapisyncprogresscallback-error.md) <br/> |Se forem encontrados erros durante a sincronização, o provedor de repositório chamará essa função para fornecer detalhes que são exibidos na caixa de diálogo enviar/receber.  <br/> |
+|[Feito](imapisyncprogresscallback-done.md) <br/> |O provedor de repositório chama essa função para informar ao Outlook que a sincronização foi concluída.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

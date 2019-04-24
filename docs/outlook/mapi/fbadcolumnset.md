@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341003"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -25,13 +25,13 @@ ms.locfileid: "22575095"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os testes a validade de uma coluna de tabela definida para usam por um provedor de serviço em uma chamada subsequente ao método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+Testa a validade de um conjunto de colunas da tabela para uso por um provedor de serviços em uma chamada subsequente para o método imApitable [::](imapitable-setcolumns.md) SetColumns. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 ULONG FBadColumnSet(
@@ -43,20 +43,20 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [in] Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade definindo as colunas da tabela para validar. 
+> no Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que definem as colunas da tabela a serem validadas. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> O conjunto de coluna especificada é inválido. 
+> O conjunto de colunas especificado é inválido. 
     
-FALSO 
+FALSE 
   
-> O conjunto de coluna especificada é válido.
+> O conjunto de colunas especificado é válido.
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadColumnSet** trata as colunas do tipo PT_ERROR como inválida e colunas do tipo PT_NULL como válido. 
+A função **FBadColumnSet** trata as colunas do tipo PT_ERROR como inválidas e as colunas do tipo PT_NULL como válidas. 
   
 

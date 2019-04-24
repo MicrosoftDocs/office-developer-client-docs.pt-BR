@@ -1,37 +1,37 @@
 ---
-title: Célula ClippingPath (Seção Foreign Image Info)
+title: Célula ClippingPath (seção Foreign Image Info)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0ec70417-5b23-45af-95a0-1b26f6791699
-description: Contém uma referência para a geometria do caminho que uma imagem limitada por.
-ms.openlocfilehash: 9f1c159e303c1d7bc3467c36756a422a3f325c7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém uma referência à geometria do caminho para o qual uma imagem está limitada.
+ms.openlocfilehash: cfbbb3ca7294f751f088df7c3284bf6461270af7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341857"
 ---
-# <a name="clippingpath-cell-foreign-image-info-section"></a>Célula ClippingPath (Seção Foreign Image Info)
+# <a name="clippingpath-cell-foreign-image-info-section"></a>Célula ClippingPath (seção Foreign Image Info)
 
-Contém uma referência para a geometria do caminho que uma imagem limitada por. 
+Contém uma referência à geometria do caminho para o qual uma imagem está limitada. 
   
 ## <a name="remarks"></a>Comentários
 
-Se a célula **ClippingPath** aponta para um caminho válido, a imagem é cortada para que a imagem é processada dentro do caminho. Se a célula **ClippingPath** está vazia ou contém uma entrada inválida, em seguida, a imagem será processada com um clipe retangular, usando os valores de deslocamento e escala. 
+Se a célula **ClippingPath** apontar para um caminho válido, a imagem será recortada para que a imagem seja renderizada dentro do caminho. Se a célula **ClippingPath** estiver vazia ou contiver uma entrada inválida, a imagem será renderizada com um clipe retangular, usando os valores de Scale e offset. 
   
 > [!NOTE]
-> Somente os caminhos definidos por uma seção [Geometry](geometry-section.md) na ShapeSheet da imagem são entradas válidas para a célula **ClippingPath** . Referências entre planilhas não podem ser usadas para definir um caminho de recorte de imagem. 
+> Somente caminhos definidos por uma seção [Geometry](geometry-section.md) no ShapeSheet da imagem são entradas válidas para a célula **ClippingPath** . Referências de folha cruzada não podem ser usadas para definir um caminho de recorte de imagem. 
   
-Para fazer referência à célula **ClippingPath** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **ClippingPath** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ClippingPath  <br/> |
    
-Para obter uma referência à célula **ClippingPath** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **ClippingPath** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
@@ -41,22 +41,22 @@ Para obter uma referência à célula **ClippingPath** pelo índice a partir de 
    
 ## <a name="example"></a>Exemplo
 
-Você pode alterar a forma de contorno de uma imagem para uma elipse fazendo o seguinte:
+Você pode alterar a forma de limite de uma imagem para uma elipse fazendo o seguinte:
   
-- Insira a imagem para a tela de desenho.
+- Insira a imagem na tela de desenho.
     
-- A imagem do mouse em e selecione **Mostrar ShapeSheet**.
+- Clique com o botão direito do mouse na imagem e selecione **Mostrar ShapeSheet**.
     
-- Com o botão direito em qualquer lugar na ShapeSheet e selecione **Inserir seção**.
+- Clique com o botão direito do mouse em qualquer lugar na ShapeSheet e selecione **Inserir seção**.
     
-- Na caixa de diálogo **Inserir seção** , selecione a **geometria** e clique em **Okey**.
+- Na caixa de diálogo **Inserir seção** , selecione **geometria** e clique em **OK**.
     
-- Na seção Geometry novo (por exemplo, "Geometry2"), exclua apenas uma fila.
+- Na nova seção Geometry (por exemplo, "Geometry2"), exclua todas exceto uma linha.
     
-- Com o botão direito na linha restante e clique em **Alterar tipo de linha**.
+- Clique com o botão direito do mouse na linha restante e clique em **alterar tipo de linha**.
     
-- Na caixa de diálogo **Alterar tipo de linha** , selecione **Elipse** e clique em **Okey**.
+- Na caixa de diálogo **alterar tipo de linha** , selecione **elipse** e clique em **OK**.
     
-- Na seção **Foreign Image** , defina a fórmula para a célula **ClippingPath** para `="Geometry2.Path"` e aceite a fórmula. 
+- Na seção **imagem estrangeira** , defina a fórmula da célula **ClippingPath** como `="Geometry2.Path"` e aceite a fórmula. 
     
 

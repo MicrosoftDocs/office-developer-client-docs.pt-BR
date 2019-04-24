@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a5c2fd1d3b18ceb5aec1ca71ed3f9a28dec2db89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340940"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propriedade canônica PidTagOriginatorAndDistributionListExpansionHistory
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570195"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações sobre o remetente de uma mensagem e um histórico de expansão de lista de distribuição.
+Contém informações sobre um originador de mensagens e um histórico de expansão de lista de distribuição.
   
 |||
 |:-----|:-----|
@@ -42,13 +42,13 @@ Essa propriedade é usada na geração de relatórios.
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

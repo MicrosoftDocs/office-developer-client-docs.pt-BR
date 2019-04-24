@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Contém o número da fonte utilizada para formatar o texto com caracteres asiáticos. Os números de fonte variam de acordo com as fontes instaladas em seu sistema.
-ms.openlocfilehash: 1fbaa0b27a0c639519c302129142dcefe5708115
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341326"
 ---
 # <a name="asianfont-cell-character-section"></a>Célula AsianFont (Seção Character)
 
@@ -30,7 +30,7 @@ Para fazer referência à célula AsianFont pelo nome, a partir de outra fórmul
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.AsianFont [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char. AsianFont [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula AsianFont pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

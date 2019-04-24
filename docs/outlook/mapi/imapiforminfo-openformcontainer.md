@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342088"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590418"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para o contêiner de formulário na qual um determinado formulário está instalado.
+Retorna um ponteiro para o contêiner de formulários no qual um determinado formulário é instalado.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,13 +37,13 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> [out] Um ponteiro para um ponteiro para o objeto de contêiner do formulário retornado.
+> bota Um ponteiro para um ponteiro para o objeto contêiner Form retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

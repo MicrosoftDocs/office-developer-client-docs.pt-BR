@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251391
 localization_priority: Normal
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
-description: Retorna verdadeiro (1) se todas as expressões lógicas fornecidas forem TRUE. Se qualquer uma das expressões lógicas for FALSE ou 0, a função AND retorna FALSE (0).
-ms.openlocfilehash: 27b2ef97ef1d0afde37596b18674c6de26355a1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna TRUE (1) se todas as expressões lógicas fornecidas são TRUE. Se qualquer uma das expressões lógicas for FALSE ou 0, a função e retornará FALSE (0).
+ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341556"
 ---
 # <a name="and-function"></a>Função E
 
-Retorna verdadeiro (1) se todas as expressões lógicas fornecidas forem TRUE. Se qualquer uma das expressões lógicas for FALSE ou 0, a função AND retorna FALSE (0).
+Retorna TRUE (1) se todas as expressões lógicas fornecidas são TRUE. Se qualquer uma das expressões lógicas for FALSE ou 0, a função e retornará FALSE (0).
   
 ## <a name="syntax"></a>Sintaxe
 
-E (* * *expression1 lógica* * *, * * *expression2 lógica* * *,..., * * *lógicaN* * *) 
+AND (* * *logical expression1* * *, * * *logical expression2* * *,..., * * *expressão lógican* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão lógica_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor. Qualquer expressão avaliada como um valor diferente de zero é considerada VERDADEIRO.  <br/> |
    

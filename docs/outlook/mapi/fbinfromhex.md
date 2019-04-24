@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 87a470c1c682225eb1deefba9ccc8c12fbdc49c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55c7deec9d29ae22a07b2f5ccd1c832d56782c03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341640"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -29,9 +29,9 @@ Converte uma representação de cadeia de caracteres de um número hexadecimal e
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 BOOL FBinFromHex(
@@ -42,23 +42,23 @@ BOOL FBinFromHex(
 
 ## <a name="parameters"></a>Parâmetros
 
- _SZ_
+ _v_
   
-> [in] Ponteiro para a cadeia de ASCII terminada em nulo a ser convertido. Não é uma cadeia de caracteres Unicode. Caracteres válidos incluem os caracteres hexadecimais zero através de tanto quanto nove caracteres maiusculos e minúsculos A até F.
+> no Ponteiro para a cadeia de caracteres ASCII terminada em nulo para conversão. Não é uma cadeia de caracteres Unicode. Os caracteres válidos incluem os caracteres hexadecimais de zero a nove e os caracteres maiúsculos e minúsculos de A a F.
     
  _pb_
   
-> [out] Ponteiro para o número binário retornado.
+> bota Ponteiro para o número binário retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> A cadeia de caracteres com êxito foi convertida em um número binário. 
+> A cadeia de caracteres foi convertida com êxito em um número binário. 
     
-FALSO 
+FALSE 
   
-> A cadeia de caracteres de entrada contém caracteres inválidos de hexadecimais ASCII.
+> A cadeia de caracteres de entrada contém caracteres hexadecimais ASCII inválidos.
     
 ## <a name="see-also"></a>Confira também
 

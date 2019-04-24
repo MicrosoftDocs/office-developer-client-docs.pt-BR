@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm1026934
 localization_priority: Normal
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
-description: Y-coordenar posição nas coordenadas locais da forma, em torno da qual é colocado o botão de marca de ação.
-ms.openlocfilehash: 641c868703c6e4b0b7e749f68813b5869b5728c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: A posição da coordenada y nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.
+ms.openlocfilehash: 02797a849a262cb506f4617aadaccedabccdab77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341319"
 ---
 # <a name="y-cell-action-tags-section"></a>Célula Y (Seção Action Tags)
 
-*Y* -coordenar posição nas coordenadas locais da forma, em torno da qual é colocado o botão de marca de ação. 
+A posição da coordenada *y* nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado. 
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
@@ -31,14 +31,14 @@ Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Marcas inteligentes.  *nome* . Y onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . Y onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
-| Índice da linha:  <br/> |**visRowSmartTag** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visSmartTagY** <br/> |
    
 

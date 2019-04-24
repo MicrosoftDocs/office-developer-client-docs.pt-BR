@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251397
 localization_priority: Normal
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
-description: Retorna o ângulo entre o vetor representado por x, y e a direção da x-eixo. O resultado é um número na unidade atual de medida para ângulos.
-ms.openlocfilehash: dfd62ce628a3a46ff14b3ffc3f07074a39c66e14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o ângulo entre o vetor representado por x, y e a direção do eixo x. O resultado é um número na unidade de medida atual para ângulos.
+ms.openlocfilehash: 906c024f2a78d6e11c1bbf770c14d04299cadca8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341479"
 ---
 # <a name="atan2-function"></a>Função ATAN2
 
-Retorna o ângulo entre o vetor representado por *x, y* e a direção da *x* -eixo. O resultado é um número na unidade atual de medida para ângulos. 
+Retorna o ângulo entre o vetor representado por *x, y* e a direção do eixo *x* . O resultado é um número na unidade de medida atual para ângulos. 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -26,32 +26,32 @@ ATAN2 (* * *y* * *, * * *x* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _y_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |_Y_-valor do ponto.  <br/> |
-| _x_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |_X_-o valor do ponto.  <br/> |
+| _y_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O valor _y_do ponto.  <br/> |
+| _x_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O valor _x_do ponto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O arco tangente é o ângulo medido no sentido anti-horário do positivo *x* -eixo para uma linha que intercepta a origem (0,0) e o ponto representado por *x* e *y* . No Microsoft Visio, ATAN2(0,0) retornará 0. Para forçar o resultado de ATAN2 para uma medida angular diferente, use as funções DEG ou RAD. 
+O arco tangente é medido no sentido anti-horário do eixo *x* positivo para uma linha que cruza a origem (0, 0) e o ponto representado por *x* e *y* . No Microsoft Visio, ATAN2(0,0) retornará 0. Para forçar o resultado de ATAN2 para uma medida angular diferente, utilize as funções DEG ou RAD. 
   
-A função ATAN2 é a antifunção da função TAN. A função ATAN2 retorna o ângulo cujo ângulo é igual a *y* dividido por *x* . Se ATAN2 (*y, x*) representando um ângulo no triângulo, *y* é o "lado oposto" e *x* é o "lado adjacente", portanto, a função poderia ser gravada como ATAN2. 
+A função ATAN2 é a antifunção da função TAN. A função ATAN2 retorna o ângulo cujo ângulo é igual a *y* dividido por *x* . Se ATAN2 (*y, x*) representar um ângulo em um triângulo à direita, *y* será o "lado oposto" e *x* será o "lado adjacente", para que a função possa ser gravada como ATAN2 (oposto, adjacente). 
   
 ## <a name="example-1"></a>Exemplo 1
 
-ATAN2(1.25,2.25)
+ATAN2 (1,25, 2,25)
   
 Retorna 29,0456 graus.
   
 ## <a name="example-2"></a>Exemplo 2
 
-ATAN2(1,SQRT(3))
+ATAN2 (1, SQRT (3))
   
 Retorna 30 graus.
   
 ## <a name="example-3"></a>Exemplo 3
 
-ATAN2(1,1)
+ATAN2 (1, 1)
   
 Retorna 45 graus.
   

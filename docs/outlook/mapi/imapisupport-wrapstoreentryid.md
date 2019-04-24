@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b3850da2917dbf463590643b9e7ba8420f4ea219
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341283"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576054"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Converte o identificador de entrada interna do repositório de uma mensagem para um identificador de entrada no formato padrão MAPI.
+Converte um identificador de entrada interna do repositório de mensagens em um identificador de entrada no formato padrão do MAPI.
   
 ```cpp
 HRESULT WrapStoreEntryID(
@@ -40,19 +40,19 @@ LPENTRYID FAR * lppWrappedEntry
 
  _cbOrigEntry_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpOrigEntry_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpOrigEntry_ . 
     
  _lpOrigEntry_
   
-> [in] Um ponteiro para o identificador de entrada privada para o armazenamento de mensagens.
+> no Um ponteiro para o identificador de entrada particular para o repositório de mensagens.
     
  _lpcbWrappedEntry_
   
-> [out] Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ . 
+> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ . 
     
  _lppWrappedEntry_
   
-> [out] Um ponteiro para um ponteiro para o identificador de entrada com quebra.
+> bota Um ponteiro para um ponteiro para o identificador de entrada com quebra.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -62,15 +62,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::WrapStoreEntryID** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços usam **WrapStoreEntryID** para gerar um identificador de entrada para um armazenamento de mensagens que distribui o identificador de entrada interna da loja MAPI. 
+O método **IMAPISupport:: WrapStoreEntryID** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços usam o **WrapStoreEntryID** para que o MAPI gere um identificador de entrada para um repositório de mensagens que quebra o identificador de entrada interna da loja. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando um cliente chama o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do armazenamento de suas mensagens recuperar sua propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) e seu armazenamento de mensagens usa um identificador de entrada em um formato privado, **WrapStoreEntryID de chamada **e retornar o identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ . 
+Quando um cliente chama o método [IMAPIProp::](imapiprop-getprops.md) GetProps do repositório de mensagens para recuperar sua propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), e seu repositório de mensagens usa um identificador de entrada em um formato privado, chame **WrapStoreEntryID **e retornar o identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ . 
   
-Chamadas para os métodos [IMSProvider::Logon](imsprovider-logon.md) e [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) sempre obtenham o identificador de entrada privada da loja; a versão com quebra é usada apenas entre aplicativos cliente e de MAPI. 
+As chamadas para os métodos [IMSProvider:: logon](imsprovider-logon.md) e [IMSLogon:: CompareEntryIDs](imslogon-compareentryids.md) sempre obtêm o identificador de entrada privada da loja; a versão empacotada é usada somente entre aplicativos clientes e MAPI. 
   
-Libere a memória para o identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ usando a função [MAPIFreeBuffer](mapifreebuffer.md) quando tiver terminado de usar o identificador de entrada. 
+Libere a memória para o identificador de entrada apontado pelo parâmetro _lppWrappedEntry_ usando a função [MAPIFreeBuffer](mapifreebuffer.md) quando você terminar de usar o identificador de entrada. 
   
 ## <a name="see-also"></a>Confira também
 

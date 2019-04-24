@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 50937e29-eaa1-0cd0-53cc-dc17e7793e55
 description: Indica se um item é verificado no menu de atalho ou marca de ação.
-ms.openlocfilehash: 7c5bcdbfe5b7d8e796af49c8da6ef0fc233e3d62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 870823f28d802e7cafa81efbe5617f27b6714885
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341843"
 ---
 # <a name="checked-cell-actions-section"></a>Célula Checked (Seção Actions)
 
@@ -25,12 +25,8 @@ Indica se um item é verificado no menu de atalho ou marca de ação.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |
-          A marca de seleção é exibida.
-  <br/> |
-|FALSO  <br/> |
-          A marca de seleção não é exibida (padrão).
-  <br/> |
+|TRUE  <br/> |A marca de seleção é exibida.  <br/> |
+|FALSE  <br/> |A marca de seleção não é exibida (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +34,7 @@ Para obter uma referência para a célula Checked pelo nome, de outra fórmula o
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Verificado onde ações. *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Check-in de ações. *Name* é o nome da linha de ações  <br/> |
    
 Para obter uma referência para a célula Checked pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

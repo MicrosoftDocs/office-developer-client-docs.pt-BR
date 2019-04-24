@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Controla a largura da fonte. O valor padrão para esta célula é 100%.
-ms.openlocfilehash: fedbc0aec23320d03ca358f34babda56eaab31e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341626"
 ---
 # <a name="scale-cell-character-section"></a>Célula Scale (Seção Character)
 
@@ -30,7 +30,7 @@ Para obter uma referência para a célula Scale pelo nome a partir de outra fór
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.FontScale [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char. FontScale [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Scale pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

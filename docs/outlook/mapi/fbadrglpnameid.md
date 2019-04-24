@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341031"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
@@ -25,13 +25,13 @@ ms.locfileid: "22588143"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida uma matriz de estruturas que descrevem propriedades nomeadas e verifica sua alocação. 
+Valida uma matriz de estruturas que descrevem as propriedades nomeadas e verifica sua alocação. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 BOOL FBadRglpNameID(
@@ -44,24 +44,24 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> [in] Ponteiro para uma matriz de estruturas [MAPINAMEID](mapinameid.md) descrevendo as propriedades nomeadas. 
+> no Ponteiro para uma matriz de estruturas [MAPINAMEID](mapinameid.md) descrevendo as propriedades nomeadas. 
     
  _cNames_
   
-> [in] Contagem de estruturas de propriedade nomeada na matriz apontado pelo parâmetro _lppNameId_ . 
+> no Contagem de estruturas de propriedade nomeadas na matriz apontada pelo parâmetro _lppNameId_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Um ou mais das estruturas de nome de propriedade especificado são inválido. 
+> Uma ou mais das estruturas de nome de propriedade especificadas são inválidas. 
     
-FALSO 
+FALSE 
   
-> As estruturas de nome de propriedade especificado são válidas.
+> As estruturas de nome de propriedade especificadas são válidas.
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadRglpNameID** pode ser usada ao configurar para uma chamada para [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
+A função **FBadRglpNameID** pode ser usada ao configurar uma chamada para [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). 
   
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3d729e2a12ee19ee3aa4ded71263697eb739f154
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eb3e0d5a96121f63166da2025743b7ef89f4ecf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340961"
 ---
 # <a name="fbadrestriction"></a>FBadRestriction
 
@@ -25,13 +25,13 @@ ms.locfileid: "22566303"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida uma restrição usada para limitar a um modo de exibição de tabela. 
+Valida uma restrição usada para limitar um modo de exibição de tabela. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 ULONG FBadRestriction(
@@ -41,22 +41,22 @@ ULONG FBadRestriction(
 
 ## <a name="parameters"></a>Parâmetros
 
- _lpres_
+ _lpRes_
   
-> [in] Uma estrutura de [SRestriction](srestriction.md) definindo a restrição a ser validado. 
+> no Uma estrutura [SRestriction](srestriction.md) que define a restrição a ser validada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> A restrição especificada, ou uma ou mais das suas subrestrictions, são inválido. 
+> A restrição especificada, ou uma ou mais de suas subrestrições, é inválida. 
     
-FALSO 
+FALSE 
   
-> A restrição especificada e todos os seus subrestrictions são válidos.
+> A restrição especificada e todas as suas subrestriçãos são válidas.
     
 ## <a name="remarks"></a>Comentários
 
-Depois que uma restrição é validada, ela poderá ser passada em chamadas para o método [IMAPITable:: Restrict](imapitable-restrict.md) para restringir a tabela para determinadas linhas, para o método [IMAPITable:: FindRow](imapitable-findrow.md) para localizar uma linha da tabela e para os métodos do [IMAPIContainer](imapicontainerimapiprop.md) interface para realizar uma restrição em um objeto container. 
+Depois que uma restrição é validada, ela pode ser transmitida em chamadas para o método imApitable [:: Restrict](imapitable-restrict.md) para restringir a tabela a determinadas linhas, para o método IMAPITable: [: FindRow](imapitable-findrow.md) para localizar uma linha de tabela e para métodos do [IMAPIContainer](imapicontainerimapiprop.md) interface para executar uma restrição em um objeto Container. 
   
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: Determina a espessura da linha de uma forma. Defina a espessura inserindo um número com uma unidade de medida válida.
-ms.openlocfilehash: a5207607d90ef6a79dcb3acc191521b73e2cdf54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341808"
 ---
 # <a name="lineweight-cell-line-format-section"></a>Célula LineWeight (Seção Line Format)
 
@@ -24,7 +24,7 @@ Determina a espessura da linha de uma forma. Defina a espessura inserindo um nú
 
 Você também pode definir o valor da célula LineWeight na caixa de diálogo **Linha** (na guia **Página Inicial**, no grupo **Forma**, clique em **Linha**, aponte para **Espessura** e clique em **Mais Linhas**).
   
-Se a unidade de medida não for inserida, a unidade de medida de texto especificado na caixa de diálogo **Opções do Visio** é usada (clique na guia **arquivo** e, em seguida, clique em **Opções**). Espessura da linha é independente da escala do desenho. Se o desenho estiver em escala, a espessura da linha permanece o mesmo. 
+Se a unidade de medida não for inserida, a unidade de medida do texto especificado na caixa de diálogo **Opções do Visio** será usada (clique na guia **arquivo** e em **Opções**). A espessura da linha não depende da escala do desenho. Se o desenho estiver dimensionado, a espessura será a mesma. 
   
 Para fazer referência à célula IsDropSource pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

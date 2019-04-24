@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: Determina se a página de desenho ficará centralizada verticalmente na página impressa.
-ms.openlocfilehash: 2fde1d6301d7b9de4540cd12f21e5af01d7a6239
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 858bf41c74fdcbd82d271a379df7c5816a7796fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771512"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341913"
 ---
 # <a name="centery-cell-print-properties-section"></a>Célula CenterY (Seção Print Properties)
 
@@ -22,8 +22,8 @@ Determina se a página de desenho ficará centralizada verticalmente na página 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Centraliza a página de desenho verticalmente na página impressa.  <br/> |
-| FALSO  <br/> | Não centraliza a página de desenho verticalmente na página impressa (o padrão).  <br/> |
+| TRUE  <br/> | Centraliza a página de desenho verticalmente na página impressa.  <br/> |
+| FALSE  <br/> | Não centraliza a página de desenho verticalmente na página impressa (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para fazer referência à célula CenterY pelo nome a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | CenterY  <br/> |
+| Nome da célula:  <br/> | Centro  <br/> |
    
 Para fazer referência à célula CenterY pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
-ms.openlocfilehash: b907552c2346292a6b14baf16481b6b40cc80fc4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341584"
 ---
 # <a name="a-cell-geometry-section"></a>Célula A (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|**Linha**|**Descrição**|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | A distância do ponto médio de um arco até o ponto médio de sua corda.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | *X* -coordenadas do ponto de controle do arco, um ponto do arco. O ponto de controle está localizado melhor sobre na metade entre exagerada vértices do arco. Caso contrário, o arco pode aumentar para um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *x* do ponto de controle do arco, um ponto no arco. O ponto de controle é melhor localizado sobre a metade entre os vértices inicial e final do arco. Caso contrário, o arco pode chegar a um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |
 |[PolylineTo](polylineto-row-geometry-section.md) <br/> | A fórmula da polilinha.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | O penúltimo nó da B-spline racional não-uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | O segundo nó da spline.  <br/> |
 |[SplineKnot](splineknot-row-geometry-section.md) <br/> | Um dos nós da spline (exceto o último ou os dois primeiros).  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto em uma linha infinita, juntamente com *y* -coordenada representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto na elipse; juntamente com *y* -coordenada representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Uma coordenada *x* de um ponto na linha infinita; emparelhado com a coordenada *y* representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma coordenada *x* de um ponto na elipse; emparelhado com a coordenada *y* representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,8 +37,8 @@ Para fazer referência à célula A pelo nome, a partir de outra fórmula ou pro
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . Um *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
-|| Geometria *i* . A1 (linhas InfiniteLine e Ellipse) onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . A *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
+|| Geometry *i* . A1 (linhas InfiniteLine e Ellipse) onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula A pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -50,10 +50,10 @@ Para fazer referência à célula A pelo índice a partir de um programa, use a 
 | Índice da célula:  <br/> |**visBow **(linha ArcTo)  <br/> |
 ||**visControlX** (EllipticalArcTo row)  <br/> |
 ||**visControlY** (linha EllipticalArcTo)  <br/> |
-||**visPolylineData **(linha Polyline)  <br/> |
-||**visNURBSKnot **(linha NURBSTO)  <br/> |
-||**visSplineKnot **(linhas SplineStart e SplineKnot)  <br/> |
-||**visInfiniteLineX2 **(linha InfiniteLine)  <br/> |
-||**visEllipseMajorX **(linha Ellipse)  <br/> |
+||**visPolylineData** (Linha Polyline)  <br/> |
+||**visNURBSKnot** (Linha NURBSto)  <br/> |
+||**visSplineKnot** (Linhas SplineStart e SplineKnot)  <br/> |
+||**visInfiniteLineX2** (Linha InfiniteLine)  <br/> |
+||**visEllipseMajorX** (Linha Ellipse)  <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b3b6b5ca0b06fc55a60e035ffd9118391cab8f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ca436bc83d5170d55475c1dd9702a9d54e4b9d5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341052"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
@@ -30,8 +30,8 @@ Valida todas as cadeias de caracteres em uma matriz de cadeias de caracteres Uni
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 BOOL FBadRglpszW(
@@ -44,19 +44,19 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> [in] Ponteiro para uma matriz de cadeias de caracteres de Unicode terminada em nulo. 
+> no Ponteiro para uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. 
     
  _cStrings_
   
-> [in] Contagem de cadeias de caracteres na matriz apontado pelo parâmetro _lppszW_ . 
+> no Contagem de cadeias de caracteres na matriz apontada pelo parâmetro _lppszW_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Um ou mais das cadeias de caracteres na matriz especificada são inválidos. 
+> Uma ou mais cadeias de caracteres na matriz especificada são inválidas. 
     
-FALSO 
+FALSE 
   
 > As cadeias de caracteres na matriz especificada são válidas.
     

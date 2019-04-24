@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 description: Indica se um caminho será exibido na página de desenho.
-ms.openlocfilehash: ad4d9cf1aa3e541f512bc09ffc38cf03204b3c94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd42b069e6796b107aafaea3080f6970c4f678c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341080"
 ---
 # <a name="noshow-cell-geometry-section"></a>Célula NoShow (Seção Geometry)
 
@@ -22,8 +22,8 @@ Indica se um caminho será exibido na página de desenho.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | O traço e o preenchimento do caminho representados pela seção estão ocultos.  <br/> |
-| FALSO  <br/> | O traço e o preenchimento do caminho são exibidos.  <br/> |
+| TRUE  <br/> | O traço e o preenchimento do caminho representados pela seção estão ocultos.  <br/> |
+| FALSE  <br/> | O traço e o preenchimento do caminho são exibidos.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -31,7 +31,7 @@ Para fazer referência à célula NoShow pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . NoShow onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . NoShow onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula NoShow pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

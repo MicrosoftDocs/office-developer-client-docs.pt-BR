@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 273796430cb2ed1badd96ddb9c8fae8b251e5802
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 159a25347cd64b44f42dbb5052425ebb67894a9b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341122"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Propriedade canônica PidTagServiceInstallId
 
@@ -36,19 +36,19 @@ A ID do componente do provedor.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades podem ser usadas como o parâmetro do componente de uma chamada de **MsiProvideQualifiedComponent** para instalar o provedor. 
+Essas propriedades podem ser usadas como o parâmetro Component de uma chamada **MsiProvideQualifiedComponent** para instalar o provedor. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

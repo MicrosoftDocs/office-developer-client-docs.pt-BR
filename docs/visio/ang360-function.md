@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: Normaliza o intervalo de um ângulo.
-ms.openlocfilehash: 01092e06b55c73953417fe7d0fa1c9f74d668922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 017dd89bd3b814c10422cd32eea1ee7e343eaf50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341486"
 ---
 # <a name="ang360-function"></a>Função ANG360
 
@@ -22,17 +22,17 @@ Normaliza o intervalo de um ângulo para ser 0 \<= resultado \< 2PI radianos (0 
   
 ## <a name="syntax"></a>Sintaxe
 
-ANG360 (* * *ângulo* * *) 
+ANG360 (* * *Angle* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ângulo_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O ângulo a ser normalizado.  <br/> |
+| _reto_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo a ser normalizado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se o *ângulo* não for especificado, usando as unidades angulares, ela será interpretada como radianos. Se o *ângulo* não puder ser convertida para um valor, um #VALUE! erro será retornado. 
+Se *Angle* não for especificado usando unidades angulares, será interpretado como radianos. Se o *ângulo* não puder ser convertido em um valor, um #VALUE! será retornado. 
   
 ## <a name="example-1"></a>Exemplo 1
 
@@ -48,7 +48,7 @@ Retorna 2,7664 rad.
   
 ## <a name="example-3"></a>Exemplo 3
 
-ANG360(45)
+ANG360 (45)
   
 Retorna 58,31 graus (1,0177 rad).
   

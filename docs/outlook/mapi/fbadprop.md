@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2fbff399e088edaf3ad864f0ec7fecda3af6bc8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: d899c8af541da231b015f6178eb7bc8f0ffd86e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341038"
 ---
 # <a name="fbadprop"></a>FBadProp
 

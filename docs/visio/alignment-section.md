@@ -9,15 +9,15 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b8ef9c25-acd0-fc55-e35a-b8924af5dac4
 description: Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada.  A seção Alignment aparece somente para formas coladas a guias.
-ms.openlocfilehash: d4216a2663b975f1762db3917cb0a223bb3abb3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a24775be5d9e034b7636b7740b4e5ecbe80f3c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341507"
 ---
 # <a name="alignment-section"></a>Seção Alignment
 
-Indica o alinhamento de uma forma com relação a guia ou a guia aponte para o qual a forma está colada. Seção **Alignment** aparece somente para formas que estejam coladas às guias. 
+Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada. A seção **Alignment** aparece apenas para as formas coladas às guias. 
   
 

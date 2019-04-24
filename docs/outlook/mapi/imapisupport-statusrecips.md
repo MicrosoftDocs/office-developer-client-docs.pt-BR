@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 39d8786bf558ade4599d69e0a764f87fe60d99f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341766"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563839"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gera os relatórios de entrega e de não entrega.
+Gera relatórios de entrega e não entrega.
   
 ```cpp
 HRESULT StatusRecips(
@@ -38,11 +38,11 @@ LPADRLIST lpRecipList
 
  _lpMessage_
   
-> [in] Um ponteiro para a mensagem para o qual o relatório deve ser gerado.
+> no Um ponteiro para a mensagem para a qual o relatório deve ser gerado.
     
  _lpRecipList_
   
-> [in] Um ponteiro para uma estrutura [ADRLIST](adrlist.md) que descreve os destinatários da mensagem apontado pela _lpMessage_.
+> no Um ponteiro para uma estrutura [das ADRLIST](adrlist.md) que descreve os destinatários da mensagem indicada por _lpMessage_.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,21 +52,21 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> Chamada bem-sucedida, mas não existem opções destinatários para esse tipo de destinatário. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi concluída de modo geral, mas não há opções de destinatário para esse tipo de destinatário. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::StatusRecips** é implementado para objetos de suporte do provedor de transporte. Provedores de transporte chamarem **StatusRecips** para solicitar que enviam MAPI em um relatório de entrega ou não entrega a um conjunto de um ou mais dos destinatários de uma mensagem. 
+O método **IMAPISupport:: StatusRecips** é implementado para objetos de suporte do provedor de transporte. Os provedores de transporte chamam o **StatusRecips** para solicitar que o MAPI envie um relatório de entrega ou de não-entrega para um conjunto de um ou mais destinatários de uma mensagem. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-É possível chamar **StatusRecips** várias vezes durante o processamento de uma mensagem. No entanto, se você chamar **StatusRecips** para uma mensagem aberta, fazer o melhor para coletar todas as informações de entrega e de não entrega para os destinatários da mensagem e chame **StatusRecips** para essa lista de destinatários. Um único ponto de conjunto é importante, porque várias chamadas **StatusRecips** para um destinatário podem resultar em vários relatórios idênticos que estão sendo enviados. 
+Você pode chamar **StatusRecips** várias vezes durante o processamento de uma mensagem. No enTanto, se você chamar **StatusRecips** para uma mensagem aberta, faça o melhor para coletar todas as informações de entrega e de não entrega para os destinatários da mensagem e chame **StatusRecips** para essa lista de destinatários. Um único ponto de coleção é importante, porque várias chamadas **StatusRecips** para um destinatário podem resultar em vários relatórios idênticos sendo enviados. 
   
-Armazena propriedades relacionadas a entrega da mensagem ou não de entrega na estrutura **ADRLIST** indicada pelo parâmetro _lpRecipList_ . Para obter uma lista completa de propriedades obrigatórios e opcionais de relatórios de entrega e NDRs, consulte [Propriedades de mensagem de relatório necessárias](required-report-message-properties.md) e [Propriedades de mensagem opcional do relatório](optional-report-message-properties.md). 
+Armazenar propriedades relacionadas à entrega de mensagens ou à não entrega na estrutura **das ADRLIST** indicada pelo parâmetro _lpRecipList_ . Para obter uma lista completa de propriedades obrigatórias e opcionais para relatórios de entrega e relatórios de não-entrega, consulte [Required Report Message Properties](required-report-message-properties.md) e [optional Report Message Properties](optional-report-message-properties.md). 
   
-Alocar memória para a estrutura **ADRLIST** no _lpRecipList_ usando as funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIAllocateMore](mapiallocatemore.md) . MAPI libera a memória chamando-se a função [MAPIFreeBuffer](mapifreebuffer.md) somente se **StatusRecips** for bem-sucedido. 
+Alocar memória para a estrutura **das ADRLIST** no _lpRecipList_ usando as funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIAllocateMore](mapiallocatemore.md) . MAPI libera a memória chamando a função [MAPIFreeBuffer](mapifreebuffer.md) somente se o **StatusRecips** for bem-sucedido. 
   
-Para obter uma visão geral dos relatórios de entrega e de não entrega, consulte [As mensagens de relatório de MAPI](mapi-report-messages.md).
+Para obter uma visão geral de relatórios de entrega e não entrega, consulte [MAPI Report messages](mapi-report-messages.md).
   
 ## <a name="see-also"></a>Confira também
 

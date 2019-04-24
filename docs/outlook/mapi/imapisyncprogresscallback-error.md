@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341304"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594982"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece detalhes que são exibidos na caixa de diálogo Enviar/receber. Se forem encontrados erros durante a sincronização, o provedor de armazenamento chama essa função.
+Fornece detalhes que são exibidos na caixa de diálogo enviar/receber. Se forem encontrados erros durante a sincronização, o provedor de repositório chamará essa função.
   
 ```cpp
 HRESULT Error(
@@ -36,7 +36,7 @@ HRESULT Error(
 
 ## <a name="parameters"></a>Parâmetros
 
- **hResult**
+ **And**
   
 > O HRESULT do erro ou aviso.
     
@@ -48,7 +48,7 @@ HRESULT Error(
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

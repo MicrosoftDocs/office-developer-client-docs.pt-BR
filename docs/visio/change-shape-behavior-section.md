@@ -1,30 +1,30 @@
 ---
-title: Seção Change Shape Behavior
+title: Seção alterar comportamento da forma
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
-description: Determina as propriedades que são transferidas do antiga forma a forma de substituição durante uma operação de substituição. Os valores das células na seção comportamento da forma de alteração do mestre forma da substituição são lidos durante a operação de substituição de forma.
-ms.openlocfilehash: 3b4b3cac37b8415309a2433c19c2b420fd652df7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina as propriedades que são transferidas da forma antiga para a forma de substituição durante uma operação de substituição. Os valores das células na seção alterar comportamento da forma da forma mestre da substituição são lidos durante a operação de substituição da forma.
+ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341920"
 ---
-# <a name="change-shape-behavior-section"></a>Seção Change Shape Behavior
+# <a name="change-shape-behavior-section"></a>Seção alterar comportamento da forma
 
-Determina as propriedades que são transferidas do antiga forma a forma de substituição durante uma operação de substituição. Os valores das células na seção **Comportamento da forma de alteração** do mestre forma da substituição são lidos durante a operação de substituição de forma. 
+Determina as propriedades que são transferidas da forma antiga para a forma de substituição durante uma operação de substituição. Os valores das células na seção **alterar comportamento da forma** da forma mestre da substituição são lidos durante a operação de substituição da forma. 
   
 ## <a name="remarks"></a>Comentários
 
-Definindo as células na seção **Alterar o comportamento de forma** , você pode garantir que certas propriedades da forma de substituição permanecem inalteradas durante a operação de substituição. Propriedades que não são protegidas são atualizadas com os valores de forma local da forma antigo durante a operação. 
+Ao definir as células na seção **alterar comportamento da forma** , você pode garantir que determinadas propriedades da forma de substituição permaneçam inalteradas durante a operação de substituição. As propriedades que não estão protegidas são atualizadas com os valores de forma local da forma antiga durante a operação. 
   
-Você pode alterar a substituição configurações de comportamento de um mestre de forma editando o mestre de forma (na janela **formas** , com o botão direito na forma, aponte para **Editar mestre**e clique em **Editar forma mestra**) e alterando os valores da [ ReplaceCopyCells](replacecopycells-cell-change-shape-behavior-section.md), [ReplaceLockFormat](replacelockformat-cell-change-shape-behavior-section.md), [ReplaceLockShapeData](replacelockshapedata-cell-change-shape-behavior-section.md)e [ReplaceLockText](replacelocktext-cell-change-shape-behavior-section.md) células na ShapeSheet do mestre. 
+Você pode alterar as configurações de comportamento de substituição de uma forma mestre editando a forma mestra (na janela **formas** , clique com o botão direito do mouse na forma, aponte para **Editar mestre**e clique em **Editar forma do mestre**) e alterar os valores da [ ReplaceCopyCells](replacecopycells-cell-change-shape-behavior-section.md), [ReplaceLockFormat](replacelockformat-cell-change-shape-behavior-section.md), [ReplaceLockShapeData](replacelockshapedata-cell-change-shape-behavior-section.md)e [ReplaceLockText](replacelocktext-cell-change-shape-behavior-section.md) células no ShapeSheet do mestre. 
   
 > [!NOTE]
-> Você não pode alterar os comportamentos de substituição de forma das formas que estão incluídos com os estênceis internos no Microsoft Visio 2013. Para modificar os comportamentos de substituição de forma das formas internas do Visio, crie um novo estêncil e adicione a forma que você deseja modificar para o novo estêncil. 
+> Não é possível alterar os comportamentos de substituição de forma das formas incluídas com os estênceis internos do Microsoft Visio 2013. Para modificar os comportamentos de substituição de forma das formas internas do Visio, crie um novo estêncil e adicione a forma que você deseja modificar para o novo estêncil. 
   
 

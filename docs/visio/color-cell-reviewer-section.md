@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60032
 localization_priority: Normal
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
-description: Um valor RGB que representa a cor atribuída à marcação do revisor de um documento.
-ms.openlocfilehash: a8771bb35cfc1b57990f24e1a0a3d677f9cffc0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Um valor RGB que representa a cor atribuída à marcação de um revisor de documento.
+ms.openlocfilehash: d9df6605ca6c8a22353978b9483989ecfc08130d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341815"
 ---
 # <a name="color-cell-reviewer-section"></a>Célula Color (Seção Reviewer)
 
-Um valor RGB que representa a cor atribuída à marcação do revisor de um documento. 
+Um valor RGB que representa a cor atribuída à marcação de um revisor de documento. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -30,7 +30,7 @@ Para fazer referência à célula Color pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Reviewer. Color [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Reviewer. Color [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Color pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

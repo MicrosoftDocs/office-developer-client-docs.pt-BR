@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 943dab0141581adc32c184b0042a063a4ec05c3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340996"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -25,13 +25,13 @@ ms.locfileid: "22582879"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida uma marca de propriedade especificado. 
+Valida uma marca de propriedade especificada. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 ULONG FBadPropTag(
@@ -43,21 +43,21 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> [in] A marca de propriedade a ser validado.
+> no A marca de propriedade a ser validada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> A marca de propriedade especificado não é uma marca de propriedade MAPI válida. 
+> A marca de propriedade especificada não é uma marca de propriedade MAPI válida. 
     
-FALSO 
+FALSE 
   
-> A marca de propriedade especificado é uma marca de propriedade MAPI válida.
+> A marca de propriedade especificada é uma marca de propriedade MAPI válida.
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadPropTag** valida a marca de propriedade especificado com base nas definições de MAPI. Ele faz sures que o tipo de propriedade é um dos tipos definidos pelo MAPI e que o identificador de propriedade é definido para ser desse tipo. 
+A função **FBadPropTag** valida a marca de propriedade especificada com base nas definições de MAPI. Ele garante que o tipo de propriedade é um dos tipos definidos por MAPI e que o identificador de propriedade é definido para ser daquele tipo. 
   
 ## <a name="see-also"></a>Confira também
 

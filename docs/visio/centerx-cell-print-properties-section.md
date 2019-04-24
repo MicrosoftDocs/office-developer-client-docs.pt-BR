@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: Determina se a página de desenho ficará centralizada horizontalmente na página impressa.
-ms.openlocfilehash: a12b60f7d183a27d938bd18a1f571ef01af455d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 13b05ed71248a3f8fada947fca6b203c6ab19c6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341892"
 ---
 # <a name="centerx-cell-print-properties-section"></a>Célula CenterX (Seção Print Properties)
 
@@ -22,8 +22,8 @@ Determina se a página de desenho ficará centralizada horizontalmente na págin
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Centraliza a página de desenho horizontalmente na página impressa.  <br/> |
-| FALSO  <br/> | Não centraliza a página de desenho horizontalmente na página impressa (o padrão).  <br/> |
+| TRUE  <br/> | Centraliza a página de desenho horizontalmente na página impressa.  <br/> |
+| FALSE  <br/> | Não centraliza a página de desenho horizontalmente na página impressa (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

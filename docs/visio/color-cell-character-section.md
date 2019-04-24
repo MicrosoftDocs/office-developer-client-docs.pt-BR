@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Determina a cor utilizada no texto da forma.
-ms.openlocfilehash: ef07f4165882e08a2292e4ee549f8807fe8403e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a27d957781ca9a784e7ab9d5c1ce4f533b9a55ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341836"
 ---
 # <a name="color-cell-character-section"></a>Célula Color (Seção Character)
 
@@ -24,7 +24,7 @@ Determina a cor utilizada no texto da forma.
 
 Para definir a cor, insira um número de 0 a 23.
   
-Para inserir uma cor personalizada, use a função RGB ou HSL. O valor de uma cor personalizada é a cor RGB e RGB ( *r, g, b*), em vez de um número, será exibido na janela ShapeSheet. Quando usado em operações numéricas, as cores têm valores de 24 e acima. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência da cor do texto na célula Transparency.
   
@@ -32,7 +32,7 @@ Para fazer referência à célula Color pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.Color [ *i* ] onde *i* = < 1 >, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Char. Color [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
    
 Para fazer referência à célula Color pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

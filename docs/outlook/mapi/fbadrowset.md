@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e86e9fbf4901b5944775886f38db1ba12c4b122d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 49e6c8254cbd527635685c3f974da57ee3ac82a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341017"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
@@ -25,13 +25,13 @@ ms.locfileid: "22590957"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida todas as linhas de tabela incluídas em um conjunto de linhas da tabela.
+Valida todas as linhas de tabela incluídas em um conjunto de linhas de tabela.
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 BOOL FBadRowSet(
@@ -43,17 +43,17 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> [in] Ponteiro para uma estrutura [SRowSet](srowset.md) que identifica a linha definida para ser validado. Se o ponteiro for NULL, a estrutura é inválida. 
+> no Ponteiro para uma estrutura [SRowSet](srowset.md) identificando o conjunto de linhas a ser validado. Se o ponteiro for NULL, a estrutura é inválida. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Uma linha do conjunto de linha especificada é inválida ou linha do próprio conjunto é inválida. 
+> Uma linha do conjunto de linhas especificado é inválida ou o próprio conjunto de linhas é inválido. 
     
-FALSO 
+FALSE 
   
-> As linhas do conjunto de linha especificada e a linha definida em si são válidos.
+> As linhas do conjunto de linhas especificado e o próprio conjunto de linhas são válidas.
     
 ## <a name="see-also"></a>Confira também
 

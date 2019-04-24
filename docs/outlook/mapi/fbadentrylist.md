@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 113628ef5487bc66a07d1367c938ed178a8e32ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 21ed5a23b96dabdd594547109ecb1e6c048a4844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341066"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
@@ -25,13 +25,13 @@ ms.locfileid: "22582907"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida uma lista dos identificadores de entrada MAPI. 
+Valida uma lista de identificadores de entrada MAPI. 
   
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 BOOL FBadEntryList(
@@ -43,20 +43,20 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> [in] Ponteiro para uma estrutura [ENTRYLIST](entrylist.md) que contém uma matriz de identificadores de entrada a ser validado. 
+> no Ponteiro para uma [](entrylist.md) estrutura ENTRYLIST que contém uma matriz de identificadores de entrada a ser validada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Um ou mais dos identificadores de entrada listada são inválidos. 
+> Um ou mais dos identificadores de entrada listados são inválidos. 
     
-FALSO 
+FALSE 
   
-> Todos os identificadores de entrada listada são válidos.
+> Todos os identificadores de entrada listados são válidos.
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadEntryList** determina se a lista de identificadores de entrada foi gerada corretamente. Um exemplo de um identificador inválido é aquele para o qual memória foi alocada incorretamente ou um identificador de um tamanho incorreto. 
+A função **FBadEntryList** determina se a lista de identificadores de entrada foi gerada corretamente. Um exemplo de um identificador inválido é aquele para o qual a memória foi alocada incorretamente ou um identificador de tamanho incorreto. 
   
 

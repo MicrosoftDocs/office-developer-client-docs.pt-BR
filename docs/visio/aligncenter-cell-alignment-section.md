@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7d4416b2-429b-713e-61dc-8b2ead0e6053
 description: Determina a posição horizontal, em relação à origem de seu pai, de uma guia vertical ou ponto de guia ao qual o centro horizontal da forma está alinhado.
-ms.openlocfilehash: 342385dc2d08efd95e8dbad9d96ab59b2133ed7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6249c994299582d52a7f54a0c75370851dfad498
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341542"
 ---
 # <a name="aligncenter-cell-alignment-section"></a>Célula AlignCenter (Seção Alignment)
 

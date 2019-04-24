@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Determina se um usuário é solicitado a inserir os dados da forma quando uma instância é criada ou a forma é duplicada ou copiada.
-ms.openlocfilehash: 94e84be4bef5c8c13d5c8ef5108ab89b71f251b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341437"
 ---
 # <a name="ask-cell-shape-data-section"></a>Célula Ask (Seção Shape Data)
 
@@ -22,12 +22,8 @@ Determina se um usuário é solicitado a inserir os dados da forma quando uma in
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |
-          Solicita ao usuário inserir dados da forma na caixa de diálogo **Definir Dados da Forma**.
-  <br/> |
-|FALSO  <br/> |
-          Não solicita ao usuário inserir dados.
-  <br/> |
+|TRUE  <br/> |Solicita ao usuário inserir dados da forma na caixa de diálogo **Definir Dados da Forma**.  <br/> |
+|FALSE  <br/> |Não solicita ao usuário inserir dados.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,7 +33,7 @@ Para fazer referência à célula Ask pelo nome, a partir de outra fórmula ou p
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Prop. *nome* . Verificar onde Prop.  *nome* é o nome da linha de propriedade personalizada.  <br/> |
+|Nome da célula:  <br/> |Hélice. *nome* . Verifique onde prop.  *Name* é o nome da linha de propriedade personalizada.  <br/> |
    
 Para fazer referência à célula Ask pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

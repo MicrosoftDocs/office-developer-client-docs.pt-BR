@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: Determina a posição vertical, em relação à origem de seu pai, de uma guia horizontal ou ponto de guia ao qual a borda superior da forma está alinhada.
-ms.openlocfilehash: 399514aa95897348238008715ee92694d57bad96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a52527b8a0ef6398f475b3d6241e03afa6cd697b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341514"
 ---
 # <a name="aligntop-cell-alignment-section"></a>Célula AlignTop (Seção Alignment)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: Protege um grupo impedindo-o de ser desagrupado.
-ms.openlocfilehash: 4d09d514a3fff8ada40c67eb9cd9537539a1039a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19772265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341789"
 ---
 # <a name="lockgroup-cell-protection-section"></a>Célula LockGroup (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege um grupo impedindo-o de ser desagrupado.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O grupo não pode ser desagrupado.  <br/> |
-|FALSO  <br/> |O grupo pode ser desagrupado.  <br/> |
+|TRUE  <br/> |O grupo não pode ser desagrupado.  <br/> |
+|FALSE  <br/> |O grupo pode ser desagrupado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

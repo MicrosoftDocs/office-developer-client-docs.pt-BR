@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341262"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
@@ -33,29 +33,29 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulConnection_
   
 > [in] O n�mero de conex�o diferente de zero que representa o registro de notifica��o que tenha estabelecido por meio de **IMAPISupport::Subscribe**.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
 > O registro de notifica��o foi cancelado.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
 > O n�mero de conex�o passado no par�metro  _ulConnection_ n�o existe. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O m�todo **IMAPISupport::Unsubscribe** � implementado para todos os objetos de suporte de provedor de servi�o. Provedores de servi�os de chamarem **Unsubscribe** para cancelar um registro de notifica��o configurado anteriormente pelo **Subscribe**. **Unsubscribe** cancela o registro, liberando o ponteiro de coletor de eventos advise passado na chamada **Subscribe**. 
   
 Generally, the advise sink's **IUnknown::Release** method is called during the **Unsubscribe** call. However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns. 
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 
 

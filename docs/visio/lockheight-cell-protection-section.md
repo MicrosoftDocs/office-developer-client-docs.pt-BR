@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: Protege a altura da forma para que ela não seja alterada quando a forma for dimensionada.
-ms.openlocfilehash: f6afe6037ff3d0810cc532bbc18bb749ee589bb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341773"
 ---
 # <a name="lockheight-cell-protection-section"></a>Célula LockHeight (Seção Protection)
 
@@ -22,8 +22,8 @@ Protege a altura da forma para que ela não seja alterada quando a forma for dim
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | A altura está protegida.  <br/> |
-| FALSO  <br/> | A altura não está protegida.  <br/> |
+| TRUE  <br/> | A altura está protegida.  <br/> |
+| FALSE  <br/> | A altura não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

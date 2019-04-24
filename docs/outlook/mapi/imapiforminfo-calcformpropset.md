@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7d0c044caf430c944d8912d050e4dbaba659c8b5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b62c21348da71c1ee863f70d6e6a549a5d10003
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342123"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582494"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para o conjunto completo de propriedades que usa um formulário.
+Retorna um ponteiro para o conjunto completo de propriedades que um formulário usa.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -38,33 +38,33 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo de cadeias de caracteres retornada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  _ppFormPropArray_
   
-> [out] Um ponteiro para um ponteiro para a estrutura de [SMAPIFormPropArray](smapiformproparray.md) retornado. 
+> bota Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o método de **IMAPIFormInfo::CalcFormPropSet** durante a criação de saída de depuração para os objetos de informações do formulário.  <br/> |
+|MFCOutput. cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o método **IMAPIFormInfo:: CalcFormPropSet** ao gravar saída de depuração para objetos de informações de formulário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -75,5 +75,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b44337a4bc9615558ac6337e99ea206ba063b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341255"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592126"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Atualiza o status na caixa de diálogo Enviar/receber. O provedor de armazenamento periodicamente chama essa função.
+Atualiza o status na caixa de diálogo enviar/receber. O provedor de repositórios chama periodicamente essa função.
   
 ```cpp
 HRESULT Progress(
@@ -39,7 +39,7 @@ HRESULT Progress(
 
  **pwczsProgress**
   
-> Um ponteiro para uma cadeia de caracteres que exibe a etapa de andamento atual. Pode ser NULL para atualizar progresso.
+> Um ponteiro para uma cadeia de caracteres que exibe a etapa de progresso atual. Pode ser nulo para atualizar o andamento.
     
  **ulIndex**
   
@@ -53,7 +53,7 @@ HRESULT Progress(
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

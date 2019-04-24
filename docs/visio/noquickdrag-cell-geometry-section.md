@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8491f459-9de2-8e75-5532-7d3bd0986734
 description: Determina se uma forma pode ser selecionada ou arrastada quando o usuário clica na área preenchida definida pela seção Geometry.
-ms.openlocfilehash: 7d4ffd876d8676af885b8f750fecf6f6d0deaa9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d60268685d93ae88abb2840f62b093db1e688c2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341059"
 ---
 # <a name="noquickdrag-cell-geometry-section"></a>Célula NoQuickDrag (Seção Geometry)
 
@@ -26,7 +26,7 @@ Para obter uma referência à célula NoQuickDrag pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Geometria *i* . NoQuickDrag, onde * i * - < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Geometry *i* . NoQuickDrag, onde * i *-<1>, 2, 3...  <br/> |
    
 Para obter uma referência à célula NoQuickDrag pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

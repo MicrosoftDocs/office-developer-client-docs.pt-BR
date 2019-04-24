@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: Você pode adicionar, mostrar, ocultar e excluir seções no ShapeSheet.
 ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341670"
 ---
 # <a name="add-show-hide-or-delete-a-section"></a>Adicionar, mostrar, ocultar ou excluir uma seção
 
@@ -25,7 +25,7 @@ Você pode adicionar, mostrar, ocultar e excluir seções no ShapeSheet.
   
 ### <a name="to-add-a-section"></a>Para adicionar uma seção
 
-1. Clique na janela ShapeSheet para ativá-la.
+1. Clique na janela ShapeSheet para torná-la ativa.
     
 2. Siga um destes procedimentos:
     

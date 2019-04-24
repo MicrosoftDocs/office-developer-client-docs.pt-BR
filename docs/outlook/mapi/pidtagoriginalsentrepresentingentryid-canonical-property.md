@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ece3df57-47f3-4d27-854f-b511c920ac75
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: eaf91472794c5188a63897bccaa900c4882407bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341752"
 ---
 # <a name="pidtagoriginalsentrepresentingentryid-canonical-property"></a>Propriedade canônica PidTagOriginalSentRepresentingEntryId
 
@@ -25,42 +25,42 @@ ms.locfileid: "25395221"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada do usuário mensagens em nome do qual a mensagem original foi enviada.
+Contém o identificador de entrada do usuário de mensagens em cujo nome a mensagem original foi enviada.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_ENTRYID  <br/> |
 |Identificador:  <br/> |0x005E  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço de remetente de uma mensagem original representado. Ele é usado em um segmento de conversação.
+Essa propriedade é uma das propriedades de endereço do remetente original representado de uma mensagem. Ele é usado em um thread de conversa.
   
-Um aplicativo cliente enviar uma mensagem em nome de outro cliente deve definir essa propriedade como o valor da propriedade **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) no primeiro envio da mensagem. Depois de definido, ela nunca deve ser alterada.
+Um aplicativo cliente enviando uma mensagem em nome de outro cliente deve definir essa propriedade como o valor da propriedade **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) no primeiro envio da mensagem. Uma vez definido, ele nunca deve ser alterado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

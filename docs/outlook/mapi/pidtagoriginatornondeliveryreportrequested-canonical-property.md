@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 227ceb468c54cea98519057b2f837a4aee84820c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341955"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propriedade canônica PidTagOriginatorNonDeliveryReportRequested
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387213"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se o remetente da mensagem solicitar um relatório de não entrega para um destinatário específico.
+Contém TRUE se um remetente de mensagem solicitar um relatório de não entrega para um destinatário específico.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém TRUE se o remetente da mensagem solicitar um relatório de não entrega 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para direcionar o sistema de mensagens no tratamento de mensagens não entregues. Nesse caso, a mensagem também forneça primeiro a propriedade **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) definida como FALSE.
+Essa propriedade é usada para direcionar o sistema de mensagens no tratamento de mensagens não entregues. Nesse caso, a mensagem também deve fornecer a propriedade **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) definida como false.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

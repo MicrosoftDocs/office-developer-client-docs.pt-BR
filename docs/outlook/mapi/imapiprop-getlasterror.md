@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f67dbb4d883f2f66099f2e2b9bc06b6c35b98236
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8c31cbf0472d3d64c7327fcfc80480ef27a1638e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342046"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 
@@ -37,13 +37,13 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _hResult_
+ _And_
   
-> [in] Um identificador para o código de erro gerado na chamada do método anterior.
+> no Um identificador para o código de erro gerado na chamada do método anterior.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que indica o formato para o texto retornado na estrutura **MAPIERROR** apontada pela _lppMAPIError_. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que indica o formato do texto retornado na estrutura **MAPIERROR** indicada por _lppMAPIError_. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
@@ -51,35 +51,35 @@ MAPI_UNICODE
     
  _lppMAPIError_
   
-> [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhuma informação de erro para retornar. 
+> bota Um ponteiro para um ponteiro para a estrutura **MAPIERROR** que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver informações de erro a serem retornadas. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As informações de erro foi retornadas.
+> As informações de erro foram retornadas.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIProp::GetLastError** fornece informações sobre uma chamada de método anterior que falharam. Clientes podem fornecer aos usuários informações detalhadas sobre o erro, incluindo os dados da estrutura de **MAPIERROR** em uma caixa de diálogo. 
+O método **IMAPIProp:: GetLastError** fornece informações sobre uma chamada de método anterior que falhou. Os clientes podem fornecer a seus usuários informações detalhadas sobre o erro incluindo os dados da estrutura **MAPIERROR** em uma caixa de diálogo. 
   
-Todas as implementações de **GetLastError** fornecido pelo MAPI são implementações ANSI, exceto para a implementação de [IAddrBook](iaddrbookimapiprop.md) . O método **GetLastError** incluído **IAddrBook** oferece suporte a Unicode. 
+Todas as implementações do **GetLastError** fornecidas pelo MAPI são implementações ANSI, exceto a implementação do [IAddrBook](iaddrbookimapiprop.md) . O **** método GetLastError incluído no **IAddrBook** oferece suporte a Unicode. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Os detalhes de um controle remoto de transporte do provedor de implementação deste método e Cite mensagens que esse método retorna o provedor de transporte, porque as condições de erro específicas que levam a vários valores de HRESULT será diferentes para transporte diferentes provedores.
+Os detalhes da implementação de um provedor de transporte remoto desse método e as mensagens que esse método retorna são até o provedor de transporte, porque as condições de erro específicas que levam a vários valores HRESULT serão diferentes para diferentes transporte provedores.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar a estrutura **MAPIERROR** apontada pelo parâmetro _lppMAPIError_ , se **GetLastError** fornece um, apenas se o valor de retorno é S_OK. Às vezes **GetLastError** não pode determinar o que o último erro foi ou não tem nada mais a ser relatado sobre o erro. Nessa situação, um ponteiro como NULL é retornado em _lppMAPIError_ , em vez disso. 
+Você pode usar a estrutura **MAPIERROR** apontada pelo parâmetro _lppMAPIError_ , se GetLastError fornecer um, somente se o valor de retorno for S_OK. **** Às **** vezes, GetLastError não pode determinar qual é o último erro ou não tem mais a relatar sobre o erro. Nessa situação, um ponteiro para nulo é retornado em _lppMAPIError_ em vez disso. 
   
-Para liberar a memória para a estrutura **MAPIERROR** , chame a função de [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar a memória da estrutura **MAPIERROR** , chame a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Para obter mais informações sobre o método **GetLastError** , consulte [MAPI estendido erros](mapi-extended-errors.md).
+Para obter mais informações sobre **** o método GetLastError, consulte [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -94,5 +94,5 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MAPI estendido erros](mapi-extended-errors.md)
+[Erros estendidos de MAPI](mapi-extended-errors.md)
 

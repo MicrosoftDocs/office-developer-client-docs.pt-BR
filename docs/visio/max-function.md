@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm82251462
 localization_priority: Normal
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
-description: Retorna o maior número de uma lista. Maior significa mais próximo ao infinito positivo.
-ms.openlocfilehash: 29fa485ddcb7f7c86efa176f8b6e2458fa97af22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o maior número de uma lista. O maior significa mais próximo do infinito positivo.
+ms.openlocfilehash: ed8afbcba7f4fbf60c77f6a281389132a12a8a55
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341661"
 ---
 # <a name="max-function"></a>Função MAX
 
-Retorna o maior número de uma lista. Maior significa mais próximo ao infinito positivo.
+Retorna o maior número de uma lista. O maior significa mais próximo do infinito positivo.
   
 ## <a name="syntax"></a>Sintaxe
 
-MAX (* * *Número1* * *, * * *número2* * *,..., * * *numberN* * *) 
+MAX (* * *número1* * *, * * *núm2* * *,..., * * *numbern* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1_ <br/> |Obrigatório  <br/> |**Varia** <br/> |O primeiro número na lista.  <br/> |
-| _Número2_ <br/> |Opcional  <br/> |**Varia** <br/> | O segundo número na lista.  <br/> |
-| _numberN_ <br/> |Opcional  <br/> |**Varia** <br/> |O enésimo número na lista.  <br/> |
+| _número1_ <br/> |Obrigatório  <br/> |**Vai** <br/> |O primeiro número na lista.  <br/> |
+| _número2_ <br/> |Opcional  <br/> |**Vai** <br/> | O segundo número na lista.  <br/> |
+| _numerada_ <br/> |Opcional  <br/> |**Vai** <br/> |O enésimo número na lista.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Varia
+Várias
   
 ## <a name="example"></a>Exemplo
 

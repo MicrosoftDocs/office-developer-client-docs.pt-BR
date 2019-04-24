@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ef3bc973e12bd5630cc00b3c512b748d4a16e86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341619"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
@@ -25,21 +25,21 @@ ms.locfileid: "22570909"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **IAttach** não possui exclusivos métodos sua própria conta. Para obter mais informações sobre como usar os anexos, consulte [As tabelas de anexo](attachment-tables.md)e [Anexos de MAPI](mapi-attachments.md) . 
+Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **IAttach** não tem métodos exclusivos próprios. Para obter mais informações sobre como usar anexos, consulte [MAPI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de anexo  <br/> |
-|Implementada por:  <br/> |Provedores de armazenamento de mensagem  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objetos Attachment  <br/> |
+|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IAttachment  <br/> |
 |Tipo de ponteiro:  <br/> |LPATTACH  <br/> |
-|Modelo de transação:  <br/> |Transacionadas  <br/> |
+|Modelo de transação:  <br/> |Transact  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
-Essa interface não tem quaisquer métodos exclusivos.
+Esta interface não tem nenhum método exclusivo.
   
 |**Propriedades necessárias**|**Access**|
 |:-----|:-----|

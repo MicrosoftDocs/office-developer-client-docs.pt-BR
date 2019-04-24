@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
 description: 'Representa o ângulo de rotação atual da forma em relação ao pai. A fórmula padrão para determinar o ângulo de rotação de uma forma 1D é: =ATAN2(EndY-BeginY,EndX-BeginX).'
-ms.openlocfilehash: ff052c5b254f9b49a97f5d362a4643e16a27b85d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85f64c6111b492940d278a5558508a2dea6b1e1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341465"
 ---
 # <a name="angle-cell-shape-transform-section"></a>Célula Angle (Seção Shape Transform)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Angle pelo nome, a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Angle  <br/> |
+| Nome da célula:  <br/> | Ângulo  <br/> |
    
 Para fazer referência à célula Angle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

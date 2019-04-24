@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: de9b5e377840b1fbfa3b6dd73fd952c0c72efeb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8b49d0b80102f6295f3f717fb123a6581854d5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341115"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
 
@@ -25,11 +25,11 @@ ms.locfileid: "22580639"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve as informações relacionadas a um evento que é específico do provedor de serviço. 
+Descreve informações relacionadas a um evento que é específico do provedor de serviços. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _EXTENDED_NOTIFICATION
@@ -45,37 +45,37 @@ typedef struct _EXTENDED_NOTIFICATION
 
  **ulEvent**
   
-> Código de evento estendidas que é definido pelo provedor.
+> Código de evento estendido definido pelo provedor.
     
  **cb**
   
-> Contagem de bytes nos parâmetros específicos do evento apontado pela **pbEventParameters**. 
+> Contagem de bytes nos parâmetros específicos de eventos apontados por **pbEventParameters**. 
     
  **pbEventParameters**
   
-> Ponteiro para os parâmetros de eventos específicos. O tipo de parâmetros que são usados depende do valor do membro **ulEvent** ; Esses parâmetros são documentados pelo provedor que emitiu o evento. 
+> Ponteiro para parâmetros específicos do evento. Os tipos de parâmetros usados dependem do valor do membro **ulEvent** ; esses parâmetros são documentados pelo provedor que emitiu o evento. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **EXTENDED_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **EXTENDED_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido para _fnevExtended_.
+A estrutura **EXTENDED_NOTIFICATION** é um dos membros da União de estruturas incluído no membro **info** da estrutura de [notificação](notification.md) . Quando o membro **info** de uma estrutura de **notificação** contém uma estrutura **EXTENDED_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como _fnevExtended_.
   
-O evento estendido é definido por um provedor de serviços para representar um tipo de alteração que não pode ser coberto por qualquer um dos outros eventos predefinidos. Somente os clientes que saber antes de se registram que um provedor de serviços oferece suporte a um evento estendido podem se inscrever para o evento. Não é possível para os clientes determinar sem o conhecimento avançado, se um evento estendido oferece suporte a um provedor de serviços. Se um provedor de serviços oferece suporte a um evento estendido, ele mostra como lidar com esse evento quando ele for recebido.
+O evento estendido é definido por um provedor de serviços para representar um tipo de alteração que não pode ser abrangido por nenhum dos outros eventos predefinidos. Somente os clientes que conhecem antes eles se registram que um provedor de serviços suporta um evento estendido pode se registrar para esse evento. Não é possível para os clientes determinarem sem conhecimento avançado se um provedor de serviços oferecer suporte a um evento estendido. Se um provedor de serviços oferecer suporte a um evento estendido, mostrará como lidar com esse evento quando ele for recebido.
   
-Uma notificação estendida é enviada da sessão quando um cliente fizer logoff. Registre-se para essa notificação chamando [IMAPISession::Advise](imapisession-advise.md) com o parâmetro _lpEntryID_ definido como NULL e o parâmetro _cbEntryID_ definido como zero. 
+Uma notificação estendida é enviada pela sessão quando um cliente faz logoff. Registre-se para esta notificação chamando [IMAPISession:: Advise](imapisession-advise.md) com o parâmetro _lpEntryID_ definido como NULL e o parâmetro _cbEntryID_ definido como zero. 
   
-Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar os métodos [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
+|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar os métodos [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

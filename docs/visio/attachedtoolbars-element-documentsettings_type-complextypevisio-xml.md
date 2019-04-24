@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
 description: Uma interface do usuário do Microsoft Visio (VSU) codificada por MIME (Multipurpose Internet Mail Extensions) representando barras de ferramentas personalizadas.
 ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341360"
 ---
 # <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento AttachedToolbars (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

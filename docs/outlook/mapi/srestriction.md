@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5f8a76cb317ac9bf1b6a4dc4a92b6d6f0098e1d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2a6d273495df52adb83393dc5549b0872c8f6f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341738"
 ---
 # <a name="srestriction"></a>SRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22577398"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve um filtro para limitar o modo de exibição de uma tabela às linhas específicas. 
+Descreve um filtro para limitar o modo de exibição de uma tabela para linhas particulares. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -57,19 +57,19 @@ typedef struct _SRestriction
 
  **RT**
   
-> O tipo de restrição. Os valores possíveis são: 
+> O tipo de restrição. Os valores possíveis são os seguintes: 
     
 RES_AND 
   
-> Uma restrição **AND** , que se aplica a uma operação de **AND** bit a bit a uma restrição. 
+> Uma restrição **and** , que aplica uma operação **e** bit a bit a uma restrição. 
     
 RES_BITMASK 
   
-> Uma restrição de bitmask que se aplica a uma máscara de bits para um valor de propriedade.
+> Uma restrição de bitmask, que aplica um bitmask a um valor de propriedade.
     
 RES_COMMENT 
   
-> Uma restrição de comentário, que associa um comentário uma restrição.
+> Uma restrição de comentário, que associa um comentário com uma restrição.
     
 RES_COMPAREPROPS 
   
@@ -77,35 +77,35 @@ RES_COMPAREPROPS
     
 RES_CONTENT 
   
-> Uma restrição de conteúdo, que procura um valor de propriedade para conteúdo específico.
+> Uma restrição de conteúdo, que pesquisa um valor de propriedade para conteúdo específico.
     
 RES_EXIST 
   
-> Uma restrição da lista, que determina se uma propriedade é suportada.
+> Uma restrição exist, que determina se há suporte para uma propriedade.
     
 RES_NOT 
   
-> Uma **não** restrição, que se aplica a uma operação **não é** lógica para uma restrição. 
+> Uma restrição **not** , que aplica uma operação **não** lógica a uma restrição. 
     
 RES_OR 
   
-> Uma restrição **ou** , que se aplica a uma operação **OR** lógica para uma restrição. 
+> Uma restrição **ou** , que aplica uma operação **ou** lógica a uma restrição. 
     
 RES_PROPERTY 
   
-> Uma restrição de propriedade, que determina se um valor da propriedade corresponde a um determinado valor.
+> Uma restrição de propriedade, que determina se um valor de propriedade corresponde a um valor específico.
     
 RES_SIZE 
   
-> Uma restrição de tamanho, que determina se um valor de propriedade é de um determinado tamanho.
+> Uma restrição de tamanho, que determina se um valor de propriedade é um tamanho específico.
     
 RES_SUBRESTRICTION 
   
-> Uma restrição de objeto sub, que se aplica a uma restrição de anexos ou os destinatários de uma mensagem.
+> Uma restrição de subobjeto, que aplica uma restrição aos anexos ou destinatários de uma mensagem.
     
  **res**
   
-> União de estruturas de restrição descrevendo o filtro a ser aplicado. A estrutura específica incluída no membro **rec** depende do valor do membro **rt** . O mapeamento entre o tipo de restrição e a estrutura está listado na tabela a seguir. 
+> União de estruturas de restrição descrevendo o filtro a ser aplicado. A estrutura específica incluída no membro **res** depende do valor do membro **RT** . O mapeamento entre o tipo de restrição e a estrutura está listado na tabela a seguir. 
     
 |||
 |:-----|:-----|
@@ -124,9 +124,9 @@ RES_SUBRESTRICTION
    
 ## <a name="remarks"></a>Comentários
 
-Os clientes usar uma estrutura **SRestriction** para limitar o número e tipo de linhas no seu modo de exibição de uma tabela e procurar mensagens específicas em uma pasta. Para impor a limitação em uma tabela, os clientes chamam [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md). Para impor a limitação em uma pasta, clientes chamar o método de [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) da pasta. 
+Os clientes usam uma estrutura **SRestriction** para limitar o número e o tipo de linhas no modo de exibição de uma tabela e procurar mensagens específicas em uma pasta. Para impor a limitação em uma tabela, os clientes chamam [IMAPITable:: Restrict](imapitable-restrict.md) ou IMAPITable [:: FindRow](imapitable-findrow.md). Para impor a limitação em uma pasta, os clientes chamam o método [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) da pasta. 
   
-Para obter informações sobre como usar as restrições com tabelas, consulte [Sobre restrições](about-restrictions.md). 
+Para obter informações sobre como usar restrições com tabelas, consulte [about Restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Confira também
 

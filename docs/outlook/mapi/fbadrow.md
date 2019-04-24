@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 23b4ed78f4b65a5af4c2f3e11fa770030fe4eeee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 153bcbfd87ea9e85d834cba2fd9028e98fa25750
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340954"
 ---
 # <a name="fbadrow"></a>FBadRow
 
@@ -30,8 +30,8 @@ Valida uma linha em uma tabela.
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 ULONG FBadRow(
@@ -43,15 +43,15 @@ ULONG FBadRow(
 
  _lprow_
   
-> [in] Ponteiro para uma estrutura [SRow](srow.md) que identifica a linha a ser validado. 
+> no Ponteiro para uma estrutura [SRow](srow.md) identificando a linha a ser validada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
 > A linha especificada é inválida.
     
-FALSO 
+FALSE 
   
 > A linha especificada é válida.
     

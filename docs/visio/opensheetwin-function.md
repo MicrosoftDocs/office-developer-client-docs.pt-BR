@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b574a99d-08f4-29e4-c40a-eb0770580ed5
 description: Abre a janela ShapeSheet em uma nova janela.
-ms.openlocfilehash: 609dce37429c899a68f485a07adeeb9479a442c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c68ab1e0c9d52514dff16b7b1b4adbd8789d3e85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340128"
 ---
 # <a name="opensheetwin-function"></a>Função OPENSHEETWIN
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 708e77e4df097f5a0de008e09808ffcbc0289f61
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341647"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Propriedade canônica PidTagProfileName
 
@@ -36,23 +36,23 @@ Contém o nome do perfil.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são calculadas por provedores de serviços. Implementação de um provedor da função **ServiceEntry** pode utilizar essas propriedades para descobrir o nome do perfil. 
+Essas propriedades são computadas por provedores de serviços. A implementação de um provedor da função de **entrada** pode usar essas propriedades para descobrir o nome do perfil. 
   
-Aplicativos cliente podem usar essas propriedades como uma alternativa conveniente para obter o nome do perfil examinando a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) na linha de tabela de status do subsistema MAPI.
+Os aplicativos cliente podem usar essas propriedades como uma alternativa conveniente para obter o nome do perfil examinando a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) na linha da tabela de status do subsistema de MAPI.
   
-Essas propriedades podem não ser exclusivas longo do tempo, por exemplo onde um perfil é excluído e recriado mais tarde com o mesmo nome. MAPI fornece uma propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalmente exclusiva em uma seção de perfil codificadas chamada **MUID_PROFILE_INSTANCE.**
+Essas propriedades podem não ser exclusivas ao longo do tempo, por exemplo, onde um perfil é excluído e posteriormente recriado com o mesmo nome. O MAPI fornece uma propriedade totalmente exclusiva do **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) em uma seção de perfil embutida chamada **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
