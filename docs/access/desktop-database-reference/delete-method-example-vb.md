@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 606089736a7b3b9bc40f86374fd129268c181b10
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294054"
 ---
-# <a name="delete-method-example-vb"></a><span data-ttu-id="42c4a-102">Exemplo do método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="42c4a-102">Delete method example (VB)</span></span>
+# <a name="delete-method-example-vb"></a><span data-ttu-id="b4030-102">Exemplo do método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="b4030-102">Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="42c4a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="42c4a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b4030-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4030-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="42c4a-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="42c4a-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="b4030-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b4030-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

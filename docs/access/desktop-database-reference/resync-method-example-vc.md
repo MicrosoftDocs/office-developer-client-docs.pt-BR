@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c84619b1c4fe971eef65c00712bac1b94cbeea6e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306556"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="61dd7-102">Exemplo do método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="61dd7-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="08063-102">Exemplo do método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="08063-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="61dd7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="61dd7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08063-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08063-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61dd7-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="61dd7-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="08063-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="08063-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

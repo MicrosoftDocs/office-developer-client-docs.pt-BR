@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1e37d72754531fc4dd51427eefb355a057d08073
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306395"
 ---
-# <a name="startnewworkflow-macro-action"></a><span data-ttu-id="d9b3d-102">Ação da macro IniciarNovoFluxoDeTrabalho</span><span class="sxs-lookup"><span data-stu-id="d9b3d-102">StartNewWorkflow macro action</span></span>
+# <a name="startnewworkflow-macro-action"></a><span data-ttu-id="52303-102">Ação da macro IniciarNovoFluxoDeTrabalho</span><span class="sxs-lookup"><span data-stu-id="52303-102">StartNewWorkflow macro action</span></span>
 
 
-<span data-ttu-id="d9b3d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9b3d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52303-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52303-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d9b3d-104">Você pode usar a ação **IniciarNovoFluxoDeTrabalho** para iniciar um novo fluxo de trabalho para um item em uma lista vinculada do Microsoft SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-104">You can use the **StartNewWorkflow** action to start a new workflow for an item in a linked Microsoft SharePoint Foundation list.</span></span>
+<span data-ttu-id="52303-104">Você pode usar a ação **IniciarNovoFluxoDeTrabalho** para iniciar um novo fluxo de trabalho para um item em uma lista vinculada do Microsoft SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="52303-104">You can use the **StartNewWorkflow** action to start a new workflow for an item in a linked Microsoft SharePoint Foundation list.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="d9b3d-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="d9b3d-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="52303-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="52303-105">Setting</span></span>
 
-<span data-ttu-id="d9b3d-106">A ação **IniciarNovoFluxoDeTrabalho** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-106">The **StartNewWorkflow** action has the following argument.</span></span>
+<span data-ttu-id="52303-106">A ação **IniciarNovoFluxoDeTrabalho** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="52303-106">The **StartNewWorkflow** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -36,26 +36,26 @@ ms.locfileid: "28698152"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d9b3d-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="d9b3d-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="d9b3d-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="d9b3d-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="52303-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="52303-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="52303-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="52303-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d9b3d-109"><strong>Número de registro</strong></span><span class="sxs-lookup"><span data-stu-id="d9b3d-109"><strong>Record Number</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9b3d-110">A posição do item na lista do SharePoint Foundation, começando com <strong>1</strong> para o primeiro item na lista, <strong>2</strong> para o segundo item, e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-110">The position of the item in the SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="d9b3d-111">Você também pode inserir uma expressão para este argumento.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-111">You can also enter an expression for this argument.</span></span></p></td>
+<td><p><span data-ttu-id="52303-109"><strong>Número de registro</strong></span><span class="sxs-lookup"><span data-stu-id="52303-109"><strong>Record Number</strong></span></span></p></td>
+<td><p><span data-ttu-id="52303-110">A posição do item na lista do SharePoint Foundation, começando com <strong>1</strong> para o primeiro item da lista, <strong>2</strong> para o segundo item e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="52303-110">The position of the item in the SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="52303-111">Você também pode inserir uma expressão para esse argumento.</span><span class="sxs-lookup"><span data-stu-id="52303-111">You can also enter an expression for this argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d9b3d-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="d9b3d-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="52303-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="52303-112">Remarks</span></span>
 
-  - <span data-ttu-id="d9b3d-p102">A ação **IniciarNovoFluxoDeTrabalho** abre a caixa de diálogo **Iniciar Novo Fluxo de Trabalho**. Essa caixa de diálogo exibe todos os fluxos de trabalho disponíveis para o item especificado. Um fluxo de trabalho deve ser definido para a lista do SharePoint Foundation para que você possa iniciá-lo usando esta ação.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-p102">The **StartNewWorkflow** action opens the **Start New Workflow** dialog box. This dialog box displays all workflows that are available for the specified item. A workflow must be defined for the list in SharePoint Foundation before you can start it using this action.</span></span>
+  - <span data-ttu-id="52303-p102">A ação **IniciarNovoFluxoDeTrabalho** abre a caixa de diálogo **Iniciar Novo Fluxo de Trabalho**. Essa caixa de diálogo exibe todos os fluxos de trabalho disponíveis para o item especificado. Um fluxo de trabalho deve ser definido para a lista do SharePoint Foundation para que você possa iniciá-lo usando esta ação.</span><span class="sxs-lookup"><span data-stu-id="52303-p102">The **StartNewWorkflow** action opens the **Start New Workflow** dialog box. This dialog box displays all workflows that are available for the specified item. A workflow must be defined for the list in SharePoint Foundation before you can start it using this action.</span></span>
 
-  - <span data-ttu-id="d9b3d-p103">A ação **IniciarNovoFluxoDeTrabalho** pode ser usada somente depois de uma lista vinculada do SharePoint ter sido aberta e selecionada. Para abrir e selecionar a lista vinculada, use a ação **AbrirTabela**. Se a lista já estiver aberta, use a ação **SelecionarObjeto** para selecioná-la.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-p103">The **StartNewWorkflow** action can only be used after a linked SharePoint list has been opened and selected. To open and select the linked list, use the **OpenTable** action. If the list is already open, use the **SelectObject** action to select it.</span></span>
+  - <span data-ttu-id="52303-p103">A ação **IniciarNovoFluxoDeTrabalho** pode ser usada somente depois de uma lista vinculada do SharePoint ter sido aberta e selecionada. Para abrir e selecionar a lista vinculada, use a ação **AbrirTabela**. Se a lista já estiver aberta, use a ação **SelecionarObjeto** para selecioná-la.</span><span class="sxs-lookup"><span data-stu-id="52303-p103">The **StartNewWorkflow** action can only be used after a linked SharePoint list has been opened and selected. To open and select the linked list, use the **OpenTable** action. If the list is already open, use the **SelectObject** action to select it.</span></span>
 
-  - <span data-ttu-id="d9b3d-119">A ação **IniciarNovoFluxoDeTrabalho** tem o mesmo efeito de clicar com o botão direito do mouse em qualquer célula de uma lista vinculada do SharePoint enquanto ela está aberta no modo Folha de Dados, apontar para **Fluxo de Trabalho** e clicar em **Iniciar Novo Fluxo de Trabalho**.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-119">The **StartNewWorkflow** action has the same effect as right-clicking any cell in a linked SharePoint list while it is open in Datasheet view, pointing to **Workflow**, and then clicking **Start New Workflow**.</span></span>
+  - <span data-ttu-id="52303-119">A ação **IniciarNovoFluxoDeTrabalho** tem o mesmo efeito de clicar com o botão direito do mouse em qualquer célula de uma lista vinculada do SharePoint enquanto ela está aberta no modo Folha de Dados, apontar para **Fluxo de Trabalho** e clicar em **Iniciar Novo Fluxo de Trabalho**.</span><span class="sxs-lookup"><span data-stu-id="52303-119">The **StartNewWorkflow** action has the same effect as right-clicking any cell in a linked SharePoint list while it is open in Datasheet view, pointing to **Workflow**, and then clicking **Start New Workflow**.</span></span>
 
-  - <span data-ttu-id="d9b3d-120">Para executar a ação **IniciarNovoFluxoDeTrabalho** em um módulo do VBA, use o método **StartNewWorkflow** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="d9b3d-120">To run the **StartNewWorkflow** action in a VBA module, use the **StartNewWorkflow** method of the **DoCmd** object.</span></span>
+  - <span data-ttu-id="52303-120">Para executar a ação **IniciarNovoFluxoDeTrabalho** em um módulo do VBA, use o método **StartNewWorkflow** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="52303-120">To run the **StartNewWorkflow** action in a VBA module, use the **StartNewWorkflow** method of the **DoCmd** object.</span></span>
 

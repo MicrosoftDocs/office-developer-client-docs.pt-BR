@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295314"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="01c06-102">Criação e execução de um comando simples</span><span class="sxs-lookup"><span data-stu-id="01c06-102">Creating and executing a simple command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="5ca6f-102">Criação e execução de um comando simples</span><span class="sxs-lookup"><span data-stu-id="5ca6f-102">Creating and executing a simple command</span></span>
 
 
-<span data-ttu-id="01c06-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="01c06-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5ca6f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ca6f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="01c06-p101">Apesar de não ser uma utilização comum do objeto **Command**, o código a seguir mostra o método básico de utilização do objeto **Command** para executar um comando junto a uma fonte de dados. Nesse caso, trata-se de um comando de retorno de linha, então ele retorna os resultados da execução do comando em um objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="01c06-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="5ca6f-p101">Apesar de não ser uma utilização comum do objeto **Command**, o código a seguir mostra o método básico de utilização do objeto **Command** para executar um comando junto a uma fonte de dados. Nesse caso, trata-se de um comando de retorno de linha, então ele retorna os resultados da execução do comando em um objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="5ca6f-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -79,11 +79,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="01c06-106">O comando a ser executado é especificado com a propriedade **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="01c06-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="5ca6f-106">O comando a ser executado é especificado com a propriedade **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="5ca6f-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="01c06-107">Vários exemplos desta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados.</span><span class="sxs-lookup"><span data-stu-id="01c06-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="01c06-108">Para evitar a redundância, ela é listada somente uma vez:</span><span class="sxs-lookup"><span data-stu-id="01c06-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="5ca6f-107">Vários exemplos nesta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados.</span><span class="sxs-lookup"><span data-stu-id="5ca6f-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="5ca6f-108">Para evitar redundância, ela é listada apenas uma vez:</span><span class="sxs-lookup"><span data-stu-id="5ca6f-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

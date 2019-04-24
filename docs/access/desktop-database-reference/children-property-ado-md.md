@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 27d69e760b65a917270b0851743c108692c601e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296364"
 ---
-# <a name="children-property-ado-md"></a><span data-ttu-id="84859-102">Propriedade Children (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="84859-102">Children property (ADO MD)</span></span>
+# <a name="children-property-ado-md"></a><span data-ttu-id="382b3-102">Propriedade Children (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="382b3-102">Children property (ADO MD)</span></span>
 
 
-<span data-ttu-id="84859-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="84859-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="382b3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="382b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="84859-104">Retorna uma coleção de [Members](members-collection-ado-md.md) dos quais o [Member](member-object-ado-md.md) atual é o pai na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="84859-104">Returns a [Members](members-collection-ado-md.md) collection for which the current [Member](member-object-ado-md.md) is the parent in the hierarchy.</span></span>
+<span data-ttu-id="382b3-104">Retorna uma coleção de [Members](members-collection-ado-md.md) dos quais o [Member](member-object-ado-md.md) atual é o pai na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="382b3-104">Returns a [Members](members-collection-ado-md.md) collection for which the current [Member](member-object-ado-md.md) is the parent in the hierarchy.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="84859-105">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="84859-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="382b3-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="382b3-105">Return values</span></span>
 
-<span data-ttu-id="84859-106">Retorna uma coleção **Members** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="84859-106">Returns a **Members** collection and is read-only.</span></span>
+<span data-ttu-id="382b3-106">Retorna uma coleção **Members** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="382b3-106">Returns a **Members** collection and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="84859-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="84859-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="382b3-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="382b3-107">Remarks</span></span>
 
-<span data-ttu-id="84859-p101">A propriedade **Children** contém uma coleção **Members** da qual o **Member** atual é o pai hierárquico. Os objetos **Member** no nível de folha não têm membros filho na coleção **Members**. Essa propriedade só é suportada em objetos **Member** pertencentes a um objeto [Level](level-object-ado-md.md). Ocorre um erro quando essa propriedade é referenciada em objetos **Member** pertencentes a um objeto [Position](position-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="84859-p101">The **Children** property contains a **Members** collection for which the current **Member** is the hierarchical parent. Leaf level **Member** objects have no child members in the **Members** collection. This property is only supported on **Member** objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
+<span data-ttu-id="382b3-p101">A propriedade **Children** contém uma coleção **Members** da qual o **Member** atual é o pai hierárquico. Os objetos **Member** no nível de folha não têm membros filho na coleção **Members**. Essa propriedade só é suportada em objetos **Member** pertencentes a um objeto [Level](level-object-ado-md.md). Ocorre um erro quando essa propriedade é referenciada em objetos **Member** pertencentes a um objeto [Position](position-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="382b3-p101">The **Children** property contains a **Members** collection for which the current **Member** is the hierarchical parent. Leaf level **Member** objects have no child members in the **Members** collection. This property is only supported on **Member** objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
 

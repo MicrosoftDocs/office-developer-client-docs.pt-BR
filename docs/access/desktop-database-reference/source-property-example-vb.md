@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e14eeee7c8ea31cf21b045b1d355d7a30ddf96b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306402"
 ---
-# <a name="source-property-example-vb"></a><span data-ttu-id="b1378-102">Exemplo da propriedade Source (VB)</span><span class="sxs-lookup"><span data-stu-id="b1378-102">Source property example (VB)</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="23d9c-102">Exemplo da propriedade Source (VB)</span><span class="sxs-lookup"><span data-stu-id="23d9c-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="b1378-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1378-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23d9c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23d9c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1378-104">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="b1378-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="23d9c-104">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="23d9c-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

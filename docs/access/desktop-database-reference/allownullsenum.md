@@ -1,5 +1,5 @@
 ---
-title: AllowNullsEnum (referência de banco de dados da área de trabalho do Access)
+title: AllowNullsEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c184253551fa3f974de1840d47654af597881cb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297162"
 ---
-# <a name="allownullsenum"></a><span data-ttu-id="0c32b-102">AllowNullsEnum</span><span class="sxs-lookup"><span data-stu-id="0c32b-102">AllowNullsEnum</span></span>
+# <a name="allownullsenum"></a><span data-ttu-id="acd87-102">AllowNullsEnum</span><span class="sxs-lookup"><span data-stu-id="acd87-102">AllowNullsEnum</span></span>
 
-<span data-ttu-id="0c32b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c32b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="acd87-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="acd87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0c32b-104">Especifica se os registros com valores nulos são indexados.</span><span class="sxs-lookup"><span data-stu-id="0c32b-104">Specifies whether records with null values are indexed.</span></span>
+<span data-ttu-id="acd87-104">Especifica se os registros com valores nulos são indexados.</span><span class="sxs-lookup"><span data-stu-id="acd87-104">Specifies whether records with null values are indexed.</span></span>
 
 <br/>
 
@@ -30,31 +30,31 @@ ms.locfileid: "28701428"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0c32b-105">Constante</span><span class="sxs-lookup"><span data-stu-id="0c32b-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="0c32b-106">Valor</span><span class="sxs-lookup"><span data-stu-id="0c32b-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="0c32b-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="0c32b-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="acd87-105">Constant</span><span class="sxs-lookup"><span data-stu-id="acd87-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="acd87-106">Valor</span><span class="sxs-lookup"><span data-stu-id="acd87-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="acd87-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="acd87-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0c32b-108"><strong>adIndexNullsAllow</strong></span><span class="sxs-lookup"><span data-stu-id="0c32b-108"><strong>adIndexNullsAllow</strong></span></span></p></td>
-<td><p><span data-ttu-id="0c32b-109">0</span><span class="sxs-lookup"><span data-stu-id="0c32b-109">0</span></span></p></td>
-<td><p><span data-ttu-id="0c32b-p101">O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, a entrada será inserida no índice.</span><span class="sxs-lookup"><span data-stu-id="0c32b-p101">The index does allow entries in which the key columns are null. If a null value is entered in a key column, the entry is inserted into the index.</span></span></p></td>
+<td><p><span data-ttu-id="acd87-108"><strong>adIndexNullsAllow</strong></span><span class="sxs-lookup"><span data-stu-id="acd87-108"><strong>adIndexNullsAllow</strong></span></span></p></td>
+<td><p><span data-ttu-id="acd87-109">,0</span><span class="sxs-lookup"><span data-stu-id="acd87-109">0</span></span></p></td>
+<td><p><span data-ttu-id="acd87-p101">O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, a entrada será inserida no índice.</span><span class="sxs-lookup"><span data-stu-id="acd87-p101">The index does allow entries in which the key columns are null. If a null value is entered in a key column, the entry is inserted into the index.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c32b-112"><strong>adIndexNullsDisallow</strong></span><span class="sxs-lookup"><span data-stu-id="0c32b-112"><strong>adIndexNullsDisallow</strong></span></span></p></td>
-<td><p><span data-ttu-id="0c32b-113">1</span><span class="sxs-lookup"><span data-stu-id="0c32b-113">1</span></span></p></td>
-<td><p><span data-ttu-id="0c32b-p102">Padrão. O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="0c32b-p102">Default. The index does not allow entries in which the key columns are null. If a null value is entered in a key column, an error will occur.</span></span></p></td>
+<td><p><span data-ttu-id="acd87-112"><strong>adIndexNullsDisallow</strong></span><span class="sxs-lookup"><span data-stu-id="acd87-112"><strong>adIndexNullsDisallow</strong></span></span></p></td>
+<td><p><span data-ttu-id="acd87-113">1</span><span class="sxs-lookup"><span data-stu-id="acd87-113">1</span></span></p></td>
+<td><p><span data-ttu-id="acd87-p102">Padrão. O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="acd87-p102">Default. The index does not allow entries in which the key columns are null. If a null value is entered in a key column, an error will occur.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0c32b-117"><strong>adIndexNullsIgnore</strong></span><span class="sxs-lookup"><span data-stu-id="0c32b-117"><strong>adIndexNullsIgnore</strong></span></span></p></td>
-<td><p><span data-ttu-id="0c32b-118">2</span><span class="sxs-lookup"><span data-stu-id="0c32b-118">2</span></span></p></td>
-<td><p><span data-ttu-id="0c32b-p103">O índice não insere entradas que contenham chaves nulas. Se for inserido um valor nulo em uma coluna chave, a entrada será ignorada e não ocorrerá nenhum erro.</span><span class="sxs-lookup"><span data-stu-id="0c32b-p103">The index does not insert entries containing null keys. If a null value is entered in a key column, the entry is ignored and no error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="acd87-117"><strong>adIndexNullsIgnore</strong></span><span class="sxs-lookup"><span data-stu-id="acd87-117"><strong>adIndexNullsIgnore</strong></span></span></p></td>
+<td><p><span data-ttu-id="acd87-118">duas</span><span class="sxs-lookup"><span data-stu-id="acd87-118">2</span></span></p></td>
+<td><p><span data-ttu-id="acd87-p103">O índice não insere entradas que contenham chaves nulas. Se for inserido um valor nulo em uma coluna chave, a entrada será ignorada e não ocorrerá nenhum erro.</span><span class="sxs-lookup"><span data-stu-id="acd87-p103">The index does not insert entries containing null keys. If a null value is entered in a key column, the entry is ignored and no error occurs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c32b-121"><strong>adIndexNullsIgnoreAny</strong></span><span class="sxs-lookup"><span data-stu-id="0c32b-121"><strong>adIndexNullsIgnoreAny</strong></span></span></p></td>
-<td><p><span data-ttu-id="0c32b-122">4</span><span class="sxs-lookup"><span data-stu-id="0c32b-122">4</span></span></p></td>
-<td><p><span data-ttu-id="0c32b-p104">O índice não insere entradas onde alguma coluna chave contenha um valor nulo. Em um índice com uma chave de várias colunas, se for inserido um valor nulo em alguma coluna, a entrada será ignorada e não ocorrerá nenhum erro.</span><span class="sxs-lookup"><span data-stu-id="0c32b-p104">The index does not insert entries where some key column has a null value. For an index having a multi-column key, if a null value is entered in some column, the entry is ignored and no error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="acd87-121"><strong>adIndexNullsIgnoreAny</strong></span><span class="sxs-lookup"><span data-stu-id="acd87-121"><strong>adIndexNullsIgnoreAny</strong></span></span></p></td>
+<td><p><span data-ttu-id="acd87-122">quatro</span><span class="sxs-lookup"><span data-stu-id="acd87-122">4</span></span></p></td>
+<td><p><span data-ttu-id="acd87-p104">O índice não insere entradas onde alguma coluna chave contenha um valor nulo. Em um índice com uma chave de várias colunas, se for inserido um valor nulo em alguma coluna, a entrada será ignorada e não ocorrerá nenhum erro.</span><span class="sxs-lookup"><span data-stu-id="acd87-p104">The index does not insert entries where some key column has a null value. For an index having a multi-column key, if a null value is entered in some column, the entry is ignored and no error occurs.</span></span></p></td>
 </tr>
 </tbody>
 </table>
