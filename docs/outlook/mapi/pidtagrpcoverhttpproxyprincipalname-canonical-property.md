@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d18308d93956809ec1fc3003f2d414aba24d4689
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331217"
 ---
 # <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Propriedade canônica PidTagRpcOverHttpProxyPrincipalName
 
@@ -21,7 +21,7 @@ ms.locfileid: "25393821"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome principal do servidor proxy usado pelo Microsoft Outlook para se conectar ao Microsoft Exchange Server usando uma chamada de procedimento remoto (RPC) sobre HTTP (Hypertext Transfer Protocol).
+Contém o nome da entidade de segurança do servidor proxy usado pelo Microsoft Outlook para se conectar ao Microsoft Exchange Server usando uma RPC (chamada de procedimento remoto) sobre HTTP (Hypertext Transfer Protocol).
   
 ## 
 
@@ -34,29 +34,29 @@ Contém o nome principal do servidor proxy usado pelo Microsoft Outlook para se 
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e as operações permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Fornecer notificações para provedores do repositório de mensagens
+title: Fornecer notificações para provedores de repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3722893ae57a108b338725e46c975e92c0f8ff72
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a28e6e6f008517a6b1c2c82dfa391b478963880f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328466"
 ---
-# <a name="providing-notifications-for-message-store-providers"></a>Fornecer notificações para provedores do repositório de mensagens
+# <a name="providing-notifications-for-message-store-providers"></a>Fornecer notificações para provedores de repositórios de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Embora as notificações são opcionais, eles são uma parte muito importante de um provedor de armazenamento de mensagem de boas. Aplicativos cliente e o MAPI spooler contam com notificações do provedor de repositório de mensagem para obter um bom desempenho ao enviar mensagens de saída ou o recebimento de mensagens de entrada. Clientes e o MAPI spooler podem funcionar sem receber notificações do provedor de armazenamento de mensagem, mas não será capazes de informar os usuários das alterações no repositório de mensagem sem eles. Normalmente, isso significa que os usuários não poderão ver o que uma nova mensagem chegou até seu cliente Avançar abre o armazenamento de mensagens pasta de recebimento.
+Enquanto as notificações são opcionais, elas são uma parte muito importante de um bom provedor de armazenamento de mensagens. Os aplicativos cliente e o spooler MAPI dependem de notificações do provedor de repositórios de mensagens para obter um bom desempenho ao enviar mensagens de saída ou receber mensagens de entrada. Os clientes e o spooler MAPI podem funcionar sem receber notificações do provedor de armazenamento de mensagens, mas não poderão informar os usuários sobre alterações no repositório de mensagens sem eles. Normalmente, isso significa que os usuários não conseguirão ver se uma nova mensagem chegou até que o cliente seguinte Abra a pasta de recebimento do repositório de mensagens.
   
-Os clientes se registrar para notificações chamando o método [IMsgStore::Advise](imsgstore-advise.md) . O cliente passa em uma [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface, uma bitmask que indica que tipo de notificações, o cliente está interessado em receber, e uma **EntryID** que indica qual objeto na mensagem de armazenar o **Advise** solicitação se aplica a. Quando ocorrem eventos de relevantes no objeto (por exemplo, quando uma nova mensagem chega na pasta de recebimento no repositório de mensagem), o provedor de armazenamento de mensagem ou o próprio objeto deve chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para todos os ** IMAPIAdviseSink** objetos que foram registrados para esse tipo de evento. 
+Os clientes se registram para notificações chamando o método [IMsgStore:: Advise](imsgstore-advise.md) . O cliente passa uma interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) , uma bitmask que indica o tipo de notificação que o cliente está interessado em receber e uma **EntryID** que indica qual objeto da mensagem armazena o **aviso** a solicitação se aplica ao. Quando eventos relevantes ocorrem no objeto (por exemplo, quando uma nova mensagem chega na pasta receber no repositório de mensagens), o provedor de armazenamento de mensagens ou o próprio objeto deve chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) para todos os ** Objetos IMAPIAdviseSink** registrados para esse tipo de evento. 
   
-Mesmo que sua mensagem armazenar o provedor notifica nunca outros componentes MAPI das alterações no armazenamento da mensagem, que ele ainda deve implementar **IMsgStore::Advise** para retornar MAPI_E_NO_SUPPORT. Isso informa que outros componentes para não esperar que o provedor de armazenamento de notificações da mensagem. 
+Mesmo que seu provedor de repositório de mensagens nunca notifique outros componentes MAPI de alterações no repositório de mensagens, ele ainda deve implementar **IMsgStore:: Advise** para retornar MAPI_E_NO_SUPPORT. Isso informa outros componentes para não esperar notificações do provedor de armazenamento de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

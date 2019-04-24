@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 61991972fdf8674a9ffd2b790e26c7fa669df357
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328858"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
@@ -37,7 +37,7 @@ LPSSortOrderSet FAR * lppSortCriteria
 
  _lppSortCriteria_
   
-> [out] Ponteiro para um ponteiro para a estrutura de [SSortOrderSet](ssortorderset.md) mantendo a ordem de classificação atual. 
+> bota Ponteiro para um ponteiro para a estrutura [SSortOrderSet](ssortorderset.md) que contém a ordem de classificação atual. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento que impede que a operação de recuperação de ordem de classificação seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Outra operação está em andamento, o que impede a inicialização da operação de recuperação da ordem de classificação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::QuerySortOrder** recupera a ordem de classificação atual para uma tabela. Ordens de classificação são descritas com uma estrutura [SSortOrderSet](ssortorderset.md) . 
+O método imApitable **:: QuerySortOrder** recupera a ordem de classificação atual para uma tabela. As ordens de classificação são descritas com uma estrutura [SSortOrderSet](ssortorderset.md) . 
   
 - O membro **cSorts** da estrutura **SSortOrderSet** pode ser definido como zero se: 
     
-- A tabela está sem classificação.
+- A tabela não está classificada.
     
-- Não há nenhuma informação sobre como a tabela é classificada.
+- Não há informações sobre como a tabela é classificada.
     
-- A estrutura de **SSortOrderSet** não é apropriada para descrever a ordem de classificação. 
+- A estrutura **SSortOrderSet** não é adequada para descrever a ordem de classificação. 
     
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se uma chamada for feita para o seu método [IMAPITable:: SortTable](imapitable-sorttable.md) com uma estrutura **SSortOrderSet** contendo zero colunas na chave de classificação, remova a ordem de classificação atual e aplicar a ordem padrão, se houver uma. Em chamadas subsequentes para **QuerySortOrder**, você pode escolher se deseja retornar zero ou mais colunas para a chave de classificação. Você pode retornar mais colunas que estão no modo de exibição presente.
+Se for feita uma chamada para o método imApitable [:: SortTable](imapitable-sorttable.md) com uma estrutura **SSortOrderSet** que contenha zero colunas na chave de classificação, remova a ordem de classificação atual e aplique a ordem padrão, se houver uma. Em chamadas subsequentes para **QuerySortOrder**, você pode escolher se deseja retornar zero ou mais colunas para a chave de classificação. Você pode retornar mais colunas do que no modo de exibição atual.
   
-Para obter mais informações sobre a classificação, consulte [classificação e categorização](sorting-and-categorization.md).
+Para obter mais informações sobre classificação, consulte [classificação e categorização](sorting-and-categorization.md).
   
 ## <a name="see-also"></a>Confira também
 

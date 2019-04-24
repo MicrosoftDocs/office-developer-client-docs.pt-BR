@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu último vértice.
-ms.openlocfilehash: fa37e4896fdab0f2e8fee6d94aa38c72519a7e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328900"
 ---
 # <a name="endarrow-cell-line-format-section"></a>Célula EndArrow (Seção Line Format)
 
@@ -22,7 +22,7 @@ Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Sem ponta de seta.  <br/> |
+|,0  <br/> |Sem ponta de seta.  <br/> |
 |1 - 45  <br/> |Estilos de ponta de seta variados correspondentes a entradas indexadas na caixa de diálogo **Linha**.  <br/> |
    
 ## <a name="remarks"></a>Comentários

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c2d8eaf627f789c3e862a83d71e4ca2e3e55e1e0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327955"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>Propriedade canônica PidTagInternetReturnPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "25388200"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor do campo de cabeçalho do caminho de retorno de uma mensagem email extensões MIME (Multipurpose Internet). O endereço de email do remetente da mensagem.
+Contém o valor de um campo de cabeçalho de retorno de caminho de retorno da mensagem de MIME (Multipurpose Internet Mail Extensions). O endereço de email do remetente da mensagem.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém o valor do campo de cabeçalho do caminho de retorno de uma mensagem ema
    
 ## <a name="remarks"></a>Comentários
 
-Para recuperar o valor dessa propriedade, primeiro use [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e especifique nesta marca de propriedade em [IMAPIProp::GetProps](imapiprop-getprops.md) para obter o valor. Ao chamar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) apontado pelo parâmetro de entrada _lppPropNames_:
+Para recuperar o valor dessa propriedade, primeiro use [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e, em seguida, especifique essa marca de propriedade em [IMAPIProp::](imapiprop-getprops.md) GetProps para obter o valor. Ao chamar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) indicada pelo parâmetro de entrada _lppPropNames_:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName:  <br/> |L "retorno-path"  <br/> |
+|Tipo. lpwstrName:  <br/> |L "Return-Path"  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Constantes MAPI](mapi-constants.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

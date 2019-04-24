@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 36d1518764985c4783d967e263ca5c05d63f935f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1ad209ff127a34d7da5ca8dbe1f4a6656d32876
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328921"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
@@ -37,7 +37,7 @@ BOOKMARK bkPosition
 
  _bkPosition_
   
-> [in] O indicador para ser liberada, criados chamando o método [IMAPITable::CreateBookmark](imapitable-createbookmark.md) . 
+> no O indicador a ser liberado, criado chamando o método [IMAPITable:: CreateBookmark](imapitable-createbookmark.md) . 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -51,11 +51,11 @@ MAPI_E_INVALID_BOOKMARK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::FreeBookmark** libera um indicador que não é mais necessária. O indicador não é mais válido após essa chamada. Sempre que uma tabela é liberada da memória, todos seus indicadores associadas também sejam liberados. 
+O método imApitable **:: FreeBookmark** libera um indicador que não é mais necessário. O indicador não é mais válido após esta chamada. Sempre que uma tabela é liberada da memória, todos os indicadores associados também são lançados. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se o chamador passa uma dos três indicadores predefinidos no parâmetro _bkPosition_ , ignore a solicitação e retornar S_OK. 
+Se o chamador transmitir um dos três indicadores predefinidos no parâmetro _bkPosition_ , ignore a solicitação e retorne S_OK. 
   
 ## <a name="see-also"></a>Confira também
 

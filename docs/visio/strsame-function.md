@@ -8,31 +8,31 @@ f1_keywords:
 - Vis_DSS.chm82251786
 localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
-description: Determina se as cadeias de caracteres são os mesmos. Retornará TRUE se eles forem iguais e FALSO se forem diferentes.
-ms.openlocfilehash: 5365ce6e679f708a47f4bcbdebbc4cabb13a2aee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina se as cadeias de caracteres são as mesmas. Retorna TRUE se forem iguais e FALSE se não estiverem.
+ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329838"
 ---
 # <a name="strsame-function"></a>Função STRSAME
 
-Determina se as cadeias de caracteres são os mesmos. Retornará TRUE se eles forem iguais e FALSO se forem diferentes. 
+Determina se as cadeias de caracteres são as mesmas. Retorna TRUE se forem iguais e FALSE se não estiverem. 
   
 ## <a name="syntax"></a>Sintaxe
 
-STRSAME ("* * *sequência1* * *","* * *sequência2* * *", * * *ignoreCase* * *) 
+STRSAME ("* * *seqüência1* * *", "* * *seqüência2* * *", * * *IgnoreCase* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Sequência1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira cadeia a ser comparada.  <br/> |
-| _Sequência2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda cadeia a ser comparada.  <br/> |
+| _string1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira cadeia a ser comparada.  <br/> |
+| _string2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda cadeia a ser comparada.  <br/> |
 | _ignoreCase_ <br/> |Opcional  <br/> |**Boolean** <br/> |VERDADEIRO para ignorar a utilização de maiúsculas e minúsculas e FALSO para comparar a utilização. O padrão é FALSO.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Booliano
   
@@ -42,13 +42,13 @@ Para comparar cadeias de caracteres multibyte ou para fazer comparações usando
   
 ## <a name="example-1"></a>Exemplo 1
 
-STRSAME("gato","cachorro")
+STRSAME ("gato", "cachorro")
   
 Retornará FALSO.
   
 ## <a name="example-2"></a>Exemplo 2
 
-STRSAME("gato","gato")
+STRSAME ("gato", "gato")
   
 Retornará VERDADEIRO.
   
@@ -60,7 +60,7 @@ Retornará VERDADEIRO.
   
 ## <a name="example-4"></a>Exemplo 4
 
-STRSAME("gato","GATO")
+STRSAME ("gato", "gato")
   
 Retornará FALSO.
   

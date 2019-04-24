@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1886987515f3cafe38418960baa4b6fd89e3b6f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329488"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -25,19 +25,19 @@ ms.locfileid: "22590796"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Executa operações nas mensagens e subpastas em uma pasta.
+Realiza operações nas mensagens e subpastas em uma pasta.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objetos de pasta  <br/> |
-|Implementada por:  <br/> |Provedores de armazenamento de mensagem  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente e MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objetos Folder  <br/> |
+|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFolder  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFOLDER  <br/> |
-|Modelo de transação:  <br/> |Nontransacted  <br/> |
+|Modelo de transação:  <br/> |Não-Transacted  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ Executa operações nas mensagens e subpastas em uma pasta.
 |[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtém o status associado a uma mensagem em uma pasta específica.  <br/> |
 |[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Define o status associado a uma mensagem.  <br/> |
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Define a ordem de classificação padrão para a tabela de conteúdo de uma pasta.  <br/> |
-|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Exclui todas as mensagens e subpastas de uma pasta sem excluir na pasta propriamente dita.  <br/> |
+|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Exclui todas as mensagens e subpastas de uma pasta sem excluir a própria pasta.  <br/> |
    
 |**Propriedades necessárias**|**Access**|
 |:-----|:-----|

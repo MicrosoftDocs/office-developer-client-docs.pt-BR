@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e66fe8d3621c122ccc19bdde169f20f7d47a148d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331854"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propriedade canônica PidTagTransmittableDisplayName
 
@@ -25,7 +25,7 @@ ms.locfileid: "25396880"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome para exibição do destinatário em uma forma segura não pode ser alterado.
+Contém o nome de exibição de um destinatário em um formulário seguro que não pode ser alterado.
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contém o nome para exibição do destinatário em uma forma segura não pode se
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser implementadas por todos os provedores de catálogo de endereços. Elas contêm a versão do nome de exibição do destinatário que é transmitido com a mensagem. Essas propriedades não tem o mesmo valor que a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) para a maioria dos provedores de catálogo de endereços. Provedores que não têm um nome de exibição seguro retornar o nome de exibição de alterações PT_ERROR e MAPI adicionando o nome entre aspas.
+Essas propriedades devem ser implementadas por todos os provedores de catálogo de endereços. Eles contêm a versão do nome de exibição do destinatário que é transmitida com a mensagem. Para a maioria dos provedores de catálogo de endereços, essas propriedades têm o mesmo valor que a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Os provedores que não têm um nome de exibição seguro retornam PT_ERROR e MAPI altera o nome de exibição adicionando aspas ao redor do nome.
   
-Um aplicativo cliente pode usar essa propriedade para impedir que a alteração ou "falsificação" de entradas. Um exemplo de falsificação está transmitindo Carlos Grilo como (o que um Guy) de John Doe.
+Um aplicativo cliente pode usar essa propriedade para impedir a alteração ou "falsificação" de entradas. Um exemplo de falsificação é transmitir John Doe como John (o que é uma pessoa) Doe.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Trata a comunicação do cliente com um servidor de nome serviço provedor NSPI (Interface).
+> Lida com as comunicações de um cliente com um servidor de interface de provedor de serviços de nome (NSPI).
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -80,7 +80,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

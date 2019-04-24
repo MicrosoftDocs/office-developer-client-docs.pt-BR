@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce78c6873f3a1dc034ae33f3c9e965ef8f2f1815
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e2ce756baaefef7bd0028e746b1dbe10756365e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329034"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563776"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Expande uma categoria de tabela recolhida, adicionando a folha ou linhas de cabeçalho de nível inferior que pertencem à categoria para o modo de exibição de tabela.
+Expande uma categoria de tabela recolhida, adicionando as linhas de título de folha ou de nível inferior pertencentes à categoria para o modo de exibição de tabela.
   
 ```cpp
 HRESULT ExpandRow(
@@ -42,63 +42,63 @@ ULONG FAR * lpulMoreRows
 
  _cbInstanceKey_
   
-> [in] A contagem de bytes na propriedade PR_INSTANCE_KEY apontado pelo parâmetro _pbInstanceKey_ . 
+> no A contagem de bytes na propriedade PR_INSTANCE_KEY indicada pelo parâmetro _pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
+> no Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
     
  _ulRowCount_
   
-> [in] O número máximo de linhas a serem retornadas no parâmetro _lppRows_ . 
+> no O número máximo de linhas a serem retornadas no parâmetro _lppRows_ . 
     
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _lppRows_
   
-> [out] Um ponteiro para uma estrutura [SRowSet](srowset.md) recebendo as linhas primeira (até _ulRowCount_) que foram inseridas em um modo de exibição de tabela como resultado da expansão. Essas linhas são inseridas após a linha de título identificada pelo parâmetro _pbInstanceKey_ . O parâmetro _lppRows_ pode ser NULL se o parâmetro _ulRowCount_ for zero. 
+> bota Um ponteiro para uma estrutura [SRowSet](srowset.md) recebendo as primeiras (até _ulRowCount_) linhas que foram inseridas no modo de exibição de tabela como resultado da expansão. Essas linhas são inseridas após a linha de título identificada pelo parâmetro _pbInstanceKey_ . O parâmetro _lppRows_ pode ser NULL se o parâmetro _ulRowCount_ for zero. 
     
  _lpulMoreRows_
   
-> [out] Um ponteiro para o número total de linhas que foram adicionados ao modo de exibição de tabela.
+> bota Um ponteiro para o número total de linhas que foram adicionadas ao modo de exibição de tabela.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
 > A categoria foi expandida com êxito.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
 > A linha identificada pelo parâmetro _pbInstanceKey_ não existe. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::ExpandRow** expande uma categoria de tabela recolhida, adicionando a folha ou linhas de cabeçalho de nível inferior que pertencem à categoria para o modo de exibição de tabela. Um limite no número de linhas a serem retornados no parâmetro _lppRows_ pode ser especificado no parâmetro _ulRowCount_ . Quando _ulRowCount_ estiver definida como um valor maior que zero e uma ou mais linhas são retornadas no conjunto de linha apontado pela _lppRows_, defina a posição do indicador que bookmark_current é movido para a linha imediatamente após a última linha a linha.
+O método imApitable **:: ExpandRow** expande uma categoria de tabela recolhida, adicionando a folha ou linhas de título de nível inferior que pertencem à categoria para o modo de exibição de tabela. Um limite para o número de linhas a serem retornadas no parâmetro _lppRows_ pode ser especificado no parâmetro _ulRowCount_ . Quando _ulRowCount_ é definido como um valor maior que zero e uma ou mais linhas são retornadas no conjunto de linhas apontado por _lppRows_, a posição do indicador BOOKMARK_CURRENT é movida para a linha imediatamente após a última linha no conjunto de linhas.
   
-Quando _ulRowCount_ estiver definida como zero, solicitando que zero folha ou linhas de título de nível inferior adicionadas à categoria ou zero linhas são retornadas porque não há nenhuma folha ou linhas de cabeçalho de nível inferior na categoria, a posição do BOOKMARK_CURRENT é definida como a linha seguindo a linha identificada pela _pbInstanceKey_. 
+Quando _ulRowCount_ é definido como zero, solicitar que as linhas de título de nível inferior ou folha zero sejam adicionadas à categoria ou linhas zero são retornadas porque não há linhas de título de folha ou de nível inferior na categoria, a posição de BOOKMARK_CURRENT é definida como a linha após a linha identificada por _pbInstanceKey_. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Sem gere notificações em linhas que são adicionadas a um modo de exibição de tabela devido à expansão de categoria.
+Não gerar notificações em linhas que são adicionadas a um modo de exibição de tabela devido à expansão de categoria.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-O número de linhas no conjunto de linha apontado pelo parâmetro _lppRows_ não pode ser igual ao número de linhas que realmente foram adicionados à tabela, todo o conjunto de folha ou heading linhas para a categoria de nível inferior. Podem ocorrer erros, como memória insuficiente ou o número de linhas na categoria exceder o número especificado no parâmetro _ulRowCount_ . Em ambos os casos, BOOKMARK_CURRENT será posicionada na última linha retornada. Para recuperar imediatamente o restante das linhas da categoria, chame [IMAPITable:: QueryRows](imapitable-queryrows.md).
+O número de linhas no conjunto de linhas apontado pelo parâmetro _lppRows_ pode não ser igual ao número de linhas que foram realmente adicionadas à tabela, a todo o conjunto de linhas de título de folha ou de nível inferior para a categoria. Podem ocorrer erros, como memória insuficiente ou o número de linhas na categoria excedendo o número especificado no parâmetro _ulRowCount_ . Em ambos os casos, BOOKMARK_CURRENT será posicionado na última linha retornada. Para recuperar imediatamente o restante das linhas da categoria, chame imApitable [:: QueryRows](imapitable-queryrows.md).
   
-Não espera receber uma notificação de tabela quando seu estado de mudar de uma categoria. Você pode manter um cache local de linhas que podem ser atualizados com cada chamada **ExpandRow** ou **CollapseRow** . 
+Não espera receber uma notificação de tabela quando uma categoria altera seu estado. Você pode manter um cache local de linhas que podem ser atualizadas com todas as chamadas **ExpandRow** ou **CollapseRow** . 
   
 Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI usa o método **IMAPITable::ExpandRow** para expandir uma categoria de tabela recolhida.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa o método imApitable **:: ExpandRow** para expandir uma categoria de tabela recolhida.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -109,5 +109,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

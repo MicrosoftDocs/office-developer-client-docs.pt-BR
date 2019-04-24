@@ -1,35 +1,35 @@
 ---
-title: Usando um provedor de armazenamento com quebra PST
+title: Usar um provedor do repositório PST encapsulado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
-description: 'Modificado pela última vez: 03 de julho de 2012'
-ms.openlocfilehash: e74ccd44797bb5629bfe4f390b099771c6932a9b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 03 de julho de 2012'
+ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329684"
 ---
-# <a name="using-a-wrapped-pst-store-provider"></a>Usando um provedor de armazenamento com quebra PST
+# <a name="using-a-wrapped-pst-store-provider"></a>Usar um provedor do repositório PST encapsulado
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Antes de poder usar um provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra, você deve inicializar e configurar o provedor de repositórios de PST com quebra. Depois que o provedor de repositórios de PST com quebra estiver configurado, você deve implementar funções para que o spooler MAPI e MAPI podem fazer logon no provedor de armazenamento de mensagem. Para obter mais informações sobre inicializar e fazer logon em um provedor de armazenamento de PST com quebra, consulte [inicializar um provedor de repositório PST quebrado automaticamente](initializing-a-wrapped-pst-store-provider.md) e [Registro em log em um provedor de repositório PST quebrado automaticamente](logging-on-to-a-wrapped-pst-store-provider.md).
+Antes de poder usar um provedor de repositório de arquivos de pastas particulares (PST), você deve inicializar e configurar o provedor de repositório PST encapsulado. Após a configuração do provedor de repositório PST encapsulado, você deve implementar as funções para que o MAPI e o spooler MAPI possam fazer logon no provedor de armazenamento de mensagens. Para obter mais informações sobre como inicializar e fazer logon em um provedor de repositório PST encapsulado, consulte [inicializar um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md) e [fazer logon em um provedor de repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md).
   
-A interface de **[IMAPISupport::IUnknown](imapisupportiunknown.md)** fornece implementações para tarefas que são executadas por mensagem provedores de armazenamento. Essa interface deve ser quebrada para o Sample quebradas PST Store Provider trabalhar. A função **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** requer a implementação especial. Todas as outras funções podem passar seus parâmetros para o objeto de base com quebra. 
+A interface **[IMAPISupport:: IUnknown](imapisupportiunknown.md)** fornece implementações para tarefas comumente executadas por provedores de repositório de mensagens. Essa interface deve ser encapsulada para que o provedor de repositório PST encapsulado de exemplo funcione. A função **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** requer uma implementação especial. Todas as outras funções podem passar seus parâmetros para o objeto wrapped subjacente. 
   
-Neste tópico, a função **IMAPISupport::OpenProfileSection** é demonstrada usando um exemplo de código a partir do provedor de repositório de PST quebrado automaticamente amostra. O exemplo implementa um provedor de PST com quebra que se destina a ser usado em conjunto com a API de replicação. Para obter mais informações sobre baixando e instalando o provedor de repositórios de PST quebrado automaticamente amostra, consulte [Instalando o provedor de repositórios de PST quebrado automaticamente amostra](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de replicação, consulte [Sobre o API de replicação](about-the-replication-api.md).
+Neste tópico, a função **IMAPISupport:: OpenProfileSection** é demonstrada usando um exemplo de código do provedor de repositório PST encapsulado de amostra. O exemplo implementa um provedor de PST encapsulado destinado a ser usado em conjunto com a API de replicação. Para obter mais informações sobre como baixar e instalar o exemplo de provedor de repositório PST encapsulado, consulte [instalando o provedor de repositório PST encapsulado de amostra](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de replicação, consulte [About The Replication API](about-the-replication-api.md).
   
-Quando terminar de usar um provedor de armazenamento com quebra PST, você deve desligar adequadamente o provedor de repositórios de PST com quebra. Para obter mais informações, consulte [Sendo pressionada um quebradas PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md).
+Ao concluir o uso de um provedor de repositório PST encapsulado, você deve desligar corretamente o provedor de repositório PST encapsulado. Para obter mais informações, consulte desLigamento [de um provedor de armazenamento PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md).
   
-## <a name="open-profile-section-routine"></a>Rotina de seção perfil aberta
+## <a name="open-profile-section-routine"></a>Rotina abrir seção de perfil
 
-A função **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** abre uma seção do perfil atual. A função requer manipulação especial na implementação do provedor de repositório PST com quebra. Quando o `pgNSTGlobalProfileSectionGuid` é solicitada, a função retornará a seção de perfil que é armazenado em cache. 
+A função **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** abre uma seção do perfil atual. A função requer tratamento especial na implementação do provedor de repositório PST encapsulado. Quando a `pgNSTGlobalProfileSectionGuid` solicitação é solicitada, a função retorna a seção de perfil armazenada em cache. 
   
-### <a name="csupportopenprofilesection-example"></a>Exemplo de CSupport::OpenProfileSection()
+### <a name="csupportopenprofilesection-example"></a>Exemplo de CSupport:: OpenProfileSection ()
 
 ```cpp
 STDMETHODIMP CSupport::OpenProfileSection( 
@@ -56,9 +56,9 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre o exemplo de provedor do repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalar o provedor do repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
-- [Iniciar um provedor do repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
-- [Fazer logon em um provedor do repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Desativar um provedor do repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Sobre o exemplo de provedor de repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalando o provedor de repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
+- [Inicializando um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
+- [Fazer logon em um provedor de repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [DesLigamento de um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
 

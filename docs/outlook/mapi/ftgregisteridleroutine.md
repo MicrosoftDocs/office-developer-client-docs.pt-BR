@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b45b80f09efbd4f05aabc2c868d5bd8eb5fa4cce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327990"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adiciona uma rotina ociosa [FNIDLE](fnidle.md) baseada em função para o sistema MAPI. 
+Adiciona uma rotina de ociosidade baseada na função [FNIDLE](fnidle.md) ao sistema MAPI. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 FTG FtgRegisterIdleRoutine(
@@ -45,81 +45,81 @@ FTG FtgRegisterIdleRoutine(
 
 _pfnIdle_
   
-> [in] Um ponteiro para a rotina ocioso. 
+> no Um ponteiro para a rotina de ociosidade. 
     
 _pvIdleParam_
   
-> [in] Um ponteiro para um bloco de memória que o mecanismo de ociosidade deve passar como um parâmetro para a rotina ociosa quando ele chama a ele. 
+> no Um ponteiro para um bloco de memória que o mecanismo de ociosidade deve passar como um parâmetro para a rotina ociosa quando ele chama. 
     
 _priIdle_
   
-> [in] A prioridade inicial para a rotina ociosa. Prioridades possíveis para rotinas definidos na implementação são maior ou menor do que zero, mas não a zero. A prioridade zero é reservada para um evento de usuário, como um clique do mouse ou de uma mensagem WM_PAINT. Prioridades maiores do que zero representam tarefas em segundo plano que têm uma prioridade maior que eventos do usuário e são enviadas como parte do loop de bomba de mensagem padrão do Windows. Prioridades menor do que zero representa ociosa tarefas a serem executadas somente durante o tempo ocioso de bomba de mensagem. Exemplos de prioridades são os seguintes: 1 para o envio de primeiro plano, 2 para inserção de energia-Editar caractere e 3 para baixar novas mensagens.
+> no A prioridade inicial para a rotina ociosa. As prioridades possíveis para rotinas definidas pela implementação são maiores ou menores que zero, mas não zero. A prioridade zero é reservada para um evento de usuário, como um clique do mouse ou uma mensagem WM_PAINT. As prioridades maiores do que zero representam tarefas em segundo plano que têm uma prioridade maior do que os eventos do usuário e são despachadas como parte do loop de bomba de mensagem padrão do Windows. Prioridades com menos de zero representam tarefas ociosas que só são executadas durante o tempo ocioso do bombeamento de mensagens. Exemplos de prioridades são: 1 para envio de primeiro plano, 2 para inserção de caracteres de edição de energia e 3 para baixar novas mensagens.
     
 _csecIdle_
   
-> [in] O valor de tempo inicial, em centésimos de segundos, a serem usados em especificar parâmetros de rotina ociosos. O significado de valor de tempo inicial varia, dependendo do que é passado no parâmetro _iroIdle_ . O significado pode ser um destes procedimentos: 
+> no O valor inicial de tempo, em centésimos de segundo, a ser usado na especificação de parâmetros de rotina ociosa. O significado do valor de tempo inicial varia, dependendo do que é passado no parâmetro _iroIdle_ . O significado pode ser um dos seguintes: 
     
-  - O período mínimo de ociosidade do usuário que deve transcorrer antes de MAPI mecanismo ocioso chama a rotina ociosa pela primeira vez, se o sinalizador FIROWAIT for definido na _iroIdle_. Após esse tempo, o mecanismo de ociosidade pode chamar a rotina ociosa sempre que for necessário. 
+  - O período mínimo de inatividade do usuário que deve decorrer antes de o mecanismo de ociosidade de MAPI chamar a rotina de ociosidade pela primeira vez, se o sinalizador FIROWAIT estiver definido no _iroIdle_. Após esse tempo, o mecanismo de ociosidade pode chamar a rotina de ociosidade com a frequência necessária. 
     
-  - O intervalo mínimo entre as chamadas para a rotina ociosa, se o sinalizador FIROINTERVAL for definido na _iroIdle_. 
+  - O intervalo mínimo entre as chamadas para a rotina ociosa, se o sinalizador FIROINTERVAL estiver definido no _iroIdle_. 
     
 _iroIdle_
   
-> [in] A bitmask dos sinalizadores usados para definir as opções iniciais para a rotina ociosa. Sinalizadores a seguir podem ser definidos:
+> no A bitmask dos sinalizadores usados para definir as opções iniciais da rotina ociosa. Os seguintes sinalizadores podem ser definidos:
     
   FIRONOADJUSTMENT
     
-  > Use esse sinalizador para especificar que o timer de ociosidade de rotina não deve ser ajustado para suspensão ou continuar. O comportamento padrão sem esse sinalizador é que o tempo de espera é excluído ao calcular o tempo decorrido. Se FIRONOADJUSTMENT é passado, em seguida, o tempo de inatividade é incluído, ao calcular o tempo decorrido.
+  > Use este sinalizador para especificar que o timer de rotina ociosa não deve ser ajustado para Sleep ou resume. O comportamento padrão sem esse sinalizador é que o tempo de suspensão é excluído ao calcular o tempo decorrido. Se FIRONOADJUSTMENT for passado, o tempo de espera será incluído no cálculo do tempo decorrido.
       
   FIRODISABLED
     
-  > A rotina de ociosidade deve ser desabilitada quando registrado. A ação padrão é permitir a rotina ociosa quando **FtgRegisterIdleRoutine** registra a ele. 
+  > A rotina ociosa deve ser desabilitada quando for registrada. A ação padrão é habilitar a rotina de ociosidade quando o **FtgRegisterIdleRoutine** o registra. 
       
   FIROINTERVAL 
     
-  > O tempo especificado pelo parâmetro _csecIdle_ é o intervalo mínimo entre sucessivas chamadas para a rotina ociosa. 
+  > O tempo especificado pelo parâmetro _csecIdle_ é o intervalo mínimo entre chamadas sucessivas para a rotina ociosa. 
       
   FIROONCEONLY 
     
-  > Obsoleto. Não a use. 
+  > Obsoleto. Não usar. 
       
   FIROPERBLOCK 
     
-  > Obsoleto. Não a use. 
+  > Obsoleto. Não usar. 
       
   FIROWAIT 
     
-  > O tempo especificado pelo parâmetro _csecIdle_ é o período mínimo de ociosidade do usuário que deve transcorrer antes que a rotina ociosa chamada pelo mecanismo de ociosidade de MAPI pela primeira vez. Após esse tempo, o mecanismo de ociosidade pode chamar a rotina ociosa sempre que for necessário. 
+  > O tempo especificado pelo parâmetro _csecIdle_ é o período mínimo de inatividade do usuário que deve decorrer antes de o mecanismo de ociosidade de MAPI chamar a rotina de ociosidade pela primeira vez. Após esse tempo, o mecanismo de ociosidade pode chamar a rotina de ociosidade com a frequência necessária. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-A função de **FtgRegisterIdleRoutine** retornará uma marca de função que identifica a rotina ociosa que foi adicionada ao sistema de MAPI. Se **FtgRegisterIdleRoutine** não é possível registrar a rotina ociosa para o aplicativo cliente ou o provedor de serviço, por exemplo devido a problemas de memória, ele retornará NULL. 
+A função **FtgRegisterIdleRoutine** retorna uma marca de função identificando a rotina de ociosidade que foi adicionada ao sistema MAPI. Se o **FtgRegisterIdleRoutine** não puder registrar a rotina de ociosidade para o aplicativo cliente ou provedor de serviços, por exemplo, por causa de problemas de memória, ele retornará NULL. 
   
 ## <a name="remarks"></a>Comentários
 
-As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função [FNIDLE](fnidle.md) . 
+As funções a seguir lidam com o mecanismo de ociosidade de MAPI e com rotinas ociosas com base no protótipo de função [FNIDLE](fnidle.md) . 
   
-|**Função de rotina ociosa**|**Uso**|
+|**Função de rotina ociosa**|**Usage**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desativa ou ativa novamente uma rotina de ociosidade registrada sem removê-lo a partir do sistema MAPI.  <br/> |
-|**FtgRegisterIdleRoutine** <br/> |Adiciona uma rotina de ociosidade ao sistema de MAPI, com ou sem ativá-lo.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Desabilita ou habilita novamente uma rotina de ociosidade registrada sem removê-la do sistema MAPI.  <br/> |
+|**FtgRegisterIdleRoutine** <br/> |Adiciona uma rotina ociosa ao sistema MAPI, com ou sem ativá-la.  <br/> |
 |[MAPIDeInitIdle](mapideinitidle.md) <br/> |Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
    
-**ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** tomar como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** aceitam como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
   
-Quando todas as tarefas de primeiro plano para a plataforma ficam ociosas, o mecanismo de ociosidade de MAPI chama a rotina de ocioso de prioridade mais alta que está pronta para executar. Não há nenhuma garantia de chamar ordem entre as rotinas de ociosidade da mesma prioridade. 
+Quando todas as tarefas de primeiro plano para a plataforma ficarem ociosas, o mecanismo de ociosidade de MAPI chamará a rotina de ociosidade de prioridade mais alta que está pronta para ser executada. Não há garantia de ordem de chamada entre rotinas ociosas da mesma prioridade. 
   
-O exemplo a seguir é um exemplo de como usar o sinalizador FIRONOADJUSTMENT no parâmetro _iroIdle_ . 
+Veja a seguir um exemplo de como usar o sinalizador FIRONOADJUSTMENT no parâmetro _iroIdle_ . 
   
-1. Registre uma rotina de ociosidade com um atraso de 5 minutos.
+1. Registrar uma rotina ociosa com atraso de 5 minutos.
     
-2. Hibernação/suspensão o computador após 1 minuto (4 minutos deixado no cronômetro).
+2. Hibernar/dormir o computador após 1 minuto (4 minutos restantes no temporizador).
     
-3. Reinicie o computador 10 minutos mais tarde.
+3. ReTome o computador 10 minutos mais tarde.
     
-O comportamento padrão, sem FIRONOADJUSTMENT, é que você ainda terá que aguardar 4 minutos mais para sua rotina executar. Ou seja, seu timer foi ajustada para permitir quanto tempo o computador estava suspenso. No entanto, se você passar FIRONOADJUSTMENT sua rotina ociosa será executado imediatamente porque decorridos mais de 5 minutos de tempo real.
+O comportamento padrão, sem o FIRONOADJUSTMENT, é que você ainda precisa aguardar mais 4 minutos para que a rotina seja executada. Ou seja, o cronômetro foi ajustado para permitir por quanto tempo o computador estava em suspensão. No enTanto, se você passar FIRONOADJUSTMENT sua rotina de ociosidade será executada imediatamente porque decorrido mais de cinco minutos de tempo real.
   
 

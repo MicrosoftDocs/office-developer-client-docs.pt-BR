@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
-description: Especifica se deve usar a autenticação de senha de segurança (SPA) para a conta de SMTP.
-ms.openlocfilehash: a0bd944f4534f1a18021d1cbf6a1d224e60f9568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica se é para usar a autenticação de senha segura (SPA) para a conta SMTP.
+ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328333"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 
-Especifica se deve usar a autenticação de senha de segurança (SPA) para a conta de SMTP.
+Especifica se é para usar a autenticação de senha segura (SPA) para a conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -25,14 +25,14 @@ Especifica se deve usar a autenticação de senha de segurança (SPA) para a con
 |Identificador:  <br/> |0x0207  <br/> |
 |Tipo de propriedade:  <br/> |PT_DWORD  <br/> |
 |Marca de propriedade:  <br/> |0x02070003  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um meio de valor zero não usar SPA, caso contrário, use SPA.
+Um valor zero significa não usar SPA, caso contrário, use SPA.
   
 ## <a name="see-also"></a>Confira também
 
 - [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

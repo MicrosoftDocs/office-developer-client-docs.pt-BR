@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 870fbf2228206253261124907d6bd420f95fb7c1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331427"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>Propriedade canônica PidTagReportTag
 
@@ -25,7 +25,7 @@ ms.locfileid: "25384840"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor binário marca que o sistema de mensagens deve copiar a qualquer relatório gerado para a mensagem. 
+Contém um valor de marca binária que o sistema de mensagens deve copiar para qualquer relatório gerado para a mensagem. 
   
 |||
 |:-----|:-----|
@@ -40,25 +40,25 @@ Essa propriedade, como a propriedade **PR_SUBJECT_IPM** ([PidTagSubjectMessageId
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em mensagens de email.
+> Especifica as propriedades e as operações que são permitidas em mensagens de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

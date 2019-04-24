@@ -1,5 +1,5 @@
 ---
-title: Recuperar identidade principal e do provedor
+title: Recuperar a identidade principal e do provedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: da11cf684c4bdcfb94d33791ed7c61d2e322e1a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f59695eca2af71dd592c5b3a755d021ac53b3e31
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328634"
 ---
-# <a name="retrieving-primary-and-provider-identity"></a>Recuperar identidade principal e do provedor
+# <a name="retrieving-primary-and-provider-identity"></a>Recuperar a identidade principal e do provedor
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de serviços, geralmente provedores de catálogo de endereços, tem a opção de fornecer uma identidade que pode ser usada para representar a sessão em uma variedade de situações. Três propriedades descrevem a identidade de um provedor:
+Provedores de serviços, geralmente provedores de catálogos de endereços, têm a opção de fornecer uma identidade que pode ser usada para representar a sessão em uma variedade de situações. Três propriedades descrevem a identidade de um provedor:
   
 - **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) 
     
@@ -29,24 +29,24 @@ Provedores de serviços, geralmente provedores de catálogo de endereços, tem a
     
 - **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) 
     
-Essas propriedades são definidas para o identificador de entrada, nome para exibição e a chave de pesquisa do objeto identidade correspondente, que normalmente é um usuário de mensagens. Provedores de forneçam de uma identidade também definir o sinalizador STATUS_PRIMARY_IDENTITY em suas propriedades **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+Essas propriedades são definidas para o identificador de entrada, o nome de exibição e a chave de pesquisa do objeto Identity correspondente, que normalmente é um usuário de mensagens. Os provedores que fornecem uma identidade também definem o sinalizador STATUS_PRIMARY_IDENTITY em sua propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
   
-Dependendo das suas necessidades, você pode usar a identidade de um determinado provedor ou a identidade principal para a sessão. Você pode usar a identidade de um provedor também para fins de exibição ou para recuperar as propriedades, como **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH**, se definida, que contém o caminho para arquivos usados ou criado pelo provedor. Recupere a propriedade **PR_RESOURCE_PATH** para o provedor fornecendo a identidade principal quando você deseja localizar os arquivos que pertencem ao usuário da sessão. 
+Dependendo das suas necessidades, você poderá usar uma identidade de provedor específica ou a identidade principal da sessão. Você pode usar a identidade de um provedor também para fins de exibição ou para recuperar propriedades, como **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH**, se definido, contém o caminho para os arquivos usados ou criados pelo provedor. Recupere a propriedade **PR_RESOURCE_PATH** para o provedor que fornece a identidade principal quando você deseja localizar arquivos que pertencem ao usuário da sessão. 
   
  **Para recuperar a identidade de um provedor específico**
   
-1. Chame [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para acessar a tabela de status. 
+1. Chame [IMAPISession::](imapisession-getstatustable.md) getstatustable para acessar a tabela status. 
     
-2. Construa uma restrição usando uma estrutura de [SPropertyRestriction](spropertyrestriction.md) para corresponder à coluna **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) com o nome do provedor especificado. 
+2. Criar uma restrição usando uma estrutura [SPropertyRestriction](spropertyrestriction.md) para corresponder à coluna **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) com o nome do provedor especificado. 
     
-3. Chame [IMAPITable:: FindRow](imapitable-findrow.md) para localizar linha do provedor. Identidade do provedor será armazenada na coluna **PR_IDENTITY_ENTRYID** , se ela existir. 
+3. Call [IMAPITable:: FindRow](imapitable-findrow.md) para localizar a linha do provedor. A identidade do provedor será armazenada na coluna **PR_IDENTITY_ENTRYID** , se existir. 
     
- **Para recuperar a identidade principal para uma sessão**
+ **Para recuperar a identidade principal de uma sessão**
   
-- Chame [IMAPISession::QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** baseia a identidade de sessão na existência do valor STATUS_PRIMARY_IDENTITY na coluna **PR_RESOURCE_FLAGS** para uma das linhas da tabela de status. Se nenhuma das linhas de status tiver esse valor definido, **QueryIdentity** atribui a identidade para o primeiro provedor de serviços que define as propriedades PR_IDENTITY três. Se nenhum provedor de serviço fornece uma identidade, **QueryIdentity** retorna MAPI_W_NO_SERVICE. Quando isso acontece, você deverá criar uma cadeia de caracteres para representar um usuário genérico que pode servir como a identidade principal. 
+- Chamar [IMAPISession:: QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** baseia a identidade da sessão na existência do valor STATUS_PRIMARY_IDENTITY na coluna **PR_RESOURCE_FLAGS** para uma das linhas na tabela status. Se nenhuma das linhas de status tiver esse valor definido, **QueryIdentity** atribuirá identidade ao provedor de serviços inicial que define as três propriedades de PR_IDENTITY. Se nenhum provedor de serviços fornecer uma identidade, **QueryIdentity** retornará MAPI_W_NO_SERVICE. Quando isso acontece, você deve criar uma cadeia de caracteres para representar um usuário genérico que possa servir como a identidade principal. 
     
- **Para definir explicitamente a identidade principal para uma sessão**
+ **Para definir explicitamente a identidade principal de uma sessão**
   
-- Chame [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md). Passe o **MAPIUID** para o provedor de serviço de destino. 
+- Chamar [IMsgServiceAdmin:: SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md). Passe o **MAPIUID** para o provedor de serviço de destino. 
     
 

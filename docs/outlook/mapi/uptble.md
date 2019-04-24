@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b2523c149d98dacf9ad321a4a443382a39753fd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d0b440f01aad7078ed76cd37d36c5ad506215438
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329705"
 ---
 # <a name="uptble"></a>UPTBLE
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para carregar o conteúdo de uma pasta durante o [estado da tabela de carregar](upload-table-state.md)estendidas.
+Informações estendidas para carregar o conteúdo de uma pasta durante o [estado de carregamento da tabela](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -35,31 +35,31 @@ struct UPTBLE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _iEntMod_
   
->  [out] Índice para controlar o carregamento _cEntMod_ número de itens de novos ou modificados. 
+>  bota Index para acompanhar o carregamento do número _cEntMod_ de itens novos ou modificados. 
     
  _cEntMod_
   
->  [out] Número de itens de novos ou modificados na pasta. 
+>  bota Número de itens novos ou modificados na pasta. 
     
  _iEntRead_
   
->  [out] Índice para acompanhar carregando o número de _cEntRead_ ler itens. 
+>  bota Index para acompanhar o carregamento do número de itens de leitura _cEntRead_ . 
     
  _cEntRead_
   
->  [out] Número de itens de leitura na pasta. 
+>  bota Número de itens lidos na pasta. 
     
  _iEntDel_
   
->  [out] Itens excluídos do índice para rastrear carregando o número de _cEntDel_ . 
+>  bota Index para acompanhar o carregamento do número de itens excluídos do _cEntDel_ . 
     
  _cEntDel_
   
->  [out] Número de itens excluídos na pasta. 
+>  bota Número de itens excluídos na pasta. 
     
 ## <a name="see-also"></a>Confira também
 

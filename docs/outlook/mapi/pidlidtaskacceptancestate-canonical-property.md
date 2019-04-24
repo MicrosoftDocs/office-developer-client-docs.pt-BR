@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b42be4b42d085aba8999a8c3f1a780ed972fa136
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331287"
 ---
 # <a name="pidlidtaskacceptancestate-canonical-property"></a>Propriedade canônica PidLidTaskAcceptanceState
 
@@ -30,10 +30,10 @@ Indica o estado de aceitação da tarefa.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskDelegValue  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x0000812A  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x0000812A  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -41,26 +41,26 @@ A tabela a seguir mostra os valores possíveis para essa propriedade.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |A tarefa não é atribuída.  <br/> |
-|0x00000001  <br/> |Status de aceitação da tarefa é desconhecido.  <br/> |
-|0x00000002  <br/> |O destinatário da tarefa aceitou a tarefa. Esse valor é definido quando o cliente processa a aceitação de uma tarefa.  <br/> |
-|0x00000003  <br/> |O destinatário da tarefa rejeitada a tarefa. Esse valor é definido quando o cliente processa uma rejeição de tarefa.  <br/> |
+|0x00000000  <br/> |A tarefa não foi atribuída.  <br/> |
+|0x00000001  <br/> |O status de aceitação da tarefa é desconhecido.  <br/> |
+|0x00000002  <br/> |O destinatário da tarefa aceitou a tarefa. Esse valor é definido quando o cliente processa uma aceitação de tarefa.  <br/> |
+|0x00000003  <br/> |O destinatário da tarefa rejeitou a tarefa. Esse valor é definido quando o cliente processa uma rejeição de tarefa.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -70,7 +70,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

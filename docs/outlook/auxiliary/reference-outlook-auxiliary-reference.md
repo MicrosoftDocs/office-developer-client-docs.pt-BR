@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: aaea2c76-b373-419c-9782-240e32c5e1e0
-description: Esta seção inclui conteúdo de referência para as seguintes APIs na referência de auxiliar do Outlook 2013.
-ms.openlocfilehash: c2df2acfd23f59802c4f305b282e2b8fff4dd66c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção inclui conteúdo de referência para as seguintes APIs na referência auxiliar do Outlook 2013.
+ms.openlocfilehash: 2c5e2c1991b127fa2619cb32d5d488455cba9025
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328298"
 ---
 # <a name="reference-outlook-auxiliary-reference"></a>Referência (referência auxiliar do Outlook)
 
-Esta seção inclui conteúdo de referência para as seguintes APIs na referência de auxiliar do Outlook 2013.
+Esta seção inclui conteúdo de referência para as seguintes APIs na referência auxiliar do Outlook 2013.
 
 - [Referência de API de gerenciamento de contas](account-management-api-reference.md)
     

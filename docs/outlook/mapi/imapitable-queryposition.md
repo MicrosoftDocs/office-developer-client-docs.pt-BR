@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328865"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584335"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera a posição da linha de tabela atual do cursor, com base em um valor fracionário.
+Recupera a posição de linha atual da tabela do cursor, com base em um valor fracionário.
   
 ```cpp
 HRESULT QueryPosition(
@@ -39,39 +39,39 @@ ULONG FAR * lpulDenominator
 
  _lpulRow_
   
-> [out] Ponteiro para o número da linha atual. O número da linha é baseado em zero; a primeira linha da tabela é zero. 
+> bota Ponteiro para o número da linha atual. O número da linha é baseado em zero; a primeira linha da tabela é zero. 
     
  _lpulNumerator_
   
-> [out] Ponteiro para o numerador da fração identifica a posição da tabela.
+> bota Ponteiro para o numerador da fração que identifica a posição da tabela.
     
  _lpulDenominator_
   
-> [out] Ponteiro para o denominador da fração identifica a posição da tabela. O parâmetro _lpulDenominator_ não pode ser zero. 
+> bota Ponteiro para o denominador da fração que identifica a posição da tabela. O parâmetro _lpulDenominator_ não pode ser zero. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O método retornados valores válidos em _lpulRow_, _lpulNumerator_e _lpulDenominator_.
+> O método retornou valores válidos em _lpulRow_, _lpulNumerator_e _lpulDenominator_.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::QueryPosition** determina a posição da linha atual e retorna o número de linha atual e um valor fracionário indicando sua posição relativa ao final da tabela. MAPI define a linha atual como a próxima linha a ser lido. 
+O método imApitable **:: QueryPosition** determina a posição da linha atual e retorna o número da linha atual e um valor fracionário que indica sua posição relativa ao final da tabela. MAPI define a linha atual como a próxima linha a ser lida. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Não é necessário retornar o número exato de linhas na tabela para o parâmetro _lpulDenominator_ ; pode ser uma aproximação. 
+Você não precisa retornar o número exato de linhas na tabela para o parâmetro _lpulDenominator_ ; pode ser uma aproximação. 
   
-Se você não puder determinar a linha atual, retorne um valor 0xFFFFFFFF em _lpulRow_.
+Se você não puder determinar a linha atual, retorne um valor de 0xFFFFFFFF no _lpulRow_.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar **QueryPosition** para posicionar uma caixa de rolagem em uma barra de rolagem. Por exemplo, em uma tabela que contém a 100 linhas, se **QueryPosition** retorna um valor de 75 no parâmetro _lpulNumerator_ , 100 no parâmetro _lpulDenominator_ e 75 no parâmetro _lpulRow_ , você pode posicionar a caixa de rolagem 3/4 de a maneira como entre a barra de rolagem. 
+Você pode usar o **QueryPosition** para posicionar uma caixa de rolagem em uma barra de rolagem. Por exemplo, em uma tabela contendo 100 linhas, se **QueryPosition** retornar um valor de 75 no parâmetro _lpulNumerator_ , 100 no parâmetro _LpulDenominator_ e 75 no parâmetro _lpulRow_ , você poderá posicionar a caixa de rolagem 3/4 de a maneira pela barra de rolagem. 
   
-Não confie no valor do _lpulDenominator_ sendo o número de linhas da tabela. **QueryPosition** sempre não pode identificar a linha exata que o cursor é posicionado sobre. 
+Não confie no valor no _lpulDenominator_ como o número de linhas na tabela. **QueryPosition** não pode sempre identificar a linha exata em que o cursor está posicionado. 
   
-Uma chamada para **QueryPosition** pode envolver grandes quantidades de memória, especialmente para tabelas categorizadas grandes. Se o parâmetro _lpulRow_ é definido como 0xFFFFFFFF, muita memória era necessária para **QueryPosition** determinar a linha atual. Chame o método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) para posicionar a tabela na linha identificadas pelos parâmetros _lpulNumerator_ e _lpulDenominator_ . No entanto, não sempre espera **SeekRowApprox** para estabelecer a mesma linha **que QueryPosition** teria se memória não tivesse sido um fator como a posição atual. 
+Uma chamada para **QueryPosition** pode envolver grandes quantidades de memória, particularmente para grandes tabelas categorizadas. Se o parâmetro _lpulRow_ for definido como 0xFFFFFFFF, muita memória era necessária para o **QueryPosition** para determinar a linha atual. Chame o método imApitable [:: SeekRowApprox](imapitable-seekrowapprox.md) para posicionar a tabela na linha identificada pelos parâmetros _lpulNumerator_ e _lpulDenominator_ . No enTanto, nem sempre espere **SeekRowApprox** estabelecer como a posição atual o mesmo **QueryPosition** de linha teria se a memória não tivesse sido um fator. 
   
 ## <a name="see-also"></a>Confira também
 

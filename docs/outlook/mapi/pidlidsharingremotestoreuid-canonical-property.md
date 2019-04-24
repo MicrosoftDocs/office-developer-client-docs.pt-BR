@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bf1376e1efe23aa59aa9a70c1f0accdeac92d250
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331301"
 ---
 # <a name="pidlidsharingremotestoreuid-canonical-property"></a>Propriedade canônica PidLidSharingRemoteStoreUid
 
@@ -25,31 +25,31 @@ ms.locfileid: "25392912"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a representação de cadeia de caracteres hexadecimais do valor da propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) na pasta compartilhada. Esta é uma propriedade de uma mensagem de compartilhamento.
+Especifica a representação de cadeia de caracteres hexadecimal do valor da propriedade **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) na pasta compartilhada. Esta é uma propriedade de uma mensagem de compartilhamento.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidSharingRemoteStoreUid  <br/> |
-|Propriedade definida:  <br/> |PSETID_Sharing  <br/> |
-|ID de longo (LID):  <br/> |0x00008A48  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Sharing  <br/> |
+|Long ID (LID):  <br/> |0x00008A48  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Sharing  <br/> |
+|Área:  <br/> |Compartilhamento  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Compartilha pastas de caixa de correio entre clientes.
+> Compartilha pastas de caixa de correio entre os clientes.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

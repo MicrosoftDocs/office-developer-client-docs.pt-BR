@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 09d0ee3be704dc55452b615a23ac9cf20d9254d8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331357"
 ---
 # <a name="pidlidnotecolor-canonical-property"></a>Propriedade canônica PidLidNoteColor
 
@@ -25,19 +25,19 @@ ms.locfileid: "25389586"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a cor de plano de fundo sugerido da anotação. 
+Especifica a cor de plano de fundo sugerida da nota. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidNoteColor  <br/> |
-|Propriedade definida:  <br/> |PSETID_Note  <br/> |
-|ID de longo (LID):  <br/> |0x00008B00  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Note  <br/> |
+|Long ID (LID):  <br/> |0x00008B00  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Notas Autoadesivas  <br/> |
+|Área:  <br/> |Notas auto-adesivas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade deve ser uma das entradas na tabela a seguir:
+Essa propriedade deve ser uma das entradas da tabela a seguir:
   
 |**Valor**|**Color**|
 |:-----|:-----|
@@ -49,19 +49,19 @@ Esta propriedade deve ser uma das entradas na tabela a seguir:
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em notas.
+> Especifica as propriedades e as operações que são permitidas nas anotações.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -71,7 +71,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

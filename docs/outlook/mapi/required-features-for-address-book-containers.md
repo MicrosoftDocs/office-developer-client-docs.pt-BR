@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abdbd9030e0ea053d39b49ecc76a78821be9df82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328704"
 ---
 # <a name="required-features-for-address-book-containers"></a>Recursos necessários para contêineres do catálogo de endereços
 
@@ -21,22 +21,22 @@ ms.locfileid: "22577209"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A maioria dos provedores de catálogo de endereços oferecem suporte a pelo menos um contêiner, alguns deles pode ser modificado. Contêineres de catálogo de endereços podem fornecer conteúdo e tabelas de hierarquias, recursos de pesquisa e resolução de nomes. Contêineres modificáveis permitem a exclusão de entradas como mensagens de usuários, listas de distribuição, ou outros contêineres e a adição de entradas a partir de entradas em outros contêineres ou modelos únicos.
+A maioria dos provedores de catálogos de endereços oferece suporte a pelo menos um contêiner, alguns deles modificáveis. Os contêineres do catálogo de endereços podem fornecer conteúdo e tabelas de hierarquia, recursos de pesquisa e resolução de nomes. Os contêineres modificáveis permitem a exclusão de entradas, como usuários de mensagens, listas de distribuição ou outros contêineres e a adição de entradas de entradas em outros contêineres ou de modelos únicos.
   
-A tabela a seguir descreve os recursos necessários de provedores de catálogo de endereços que tenham contêineres, modificáveis ou somente leitura, e como implementá-las.
+A tabela a seguir descreve os recursos que são necessários para provedores de catálogo de endereços que possuem contêineres, modificáveis ou somente leitura e como você os implementa.
   
 |**Recurso**|**Como implementar**|
 |:-----|:-----|
-|Usuários de mensagens do Access  <br/> |Implemente o método [IABLogon::OpenEntry](iablogon-openentry.md) . Para obter mais informações, consulte [Abertura entradas do catálogo de endereços](opening-address-book-entries.md).  <br/> |
-|Comparar mensagens de usuários  <br/> |Implemente o método [IABLogon::CompareEntryIDs](iablogon-compareentryids.md) . Para obter mais informações, consulte [Comparando entradas do catálogo de endereços](comparing-address-book-entries.md).  <br/> |
-|Criar usuários de mensagens  <br/> |1. fornece uma lista de modelos de criação de uma tabela único, oferecendo suporte a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Para obter mais informações, consulte [Implementando uma tabela únicos do contêiner](implementing-a-container-one-off-table.md).  <br/> 2. implemente o método [IABContainer::CreateEntry](iabcontainer-createentry.md) . Para obter mais informações, consulte [Adicionar entradas do catálogo de endereços](adding-address-book-entries.md).  <br/> |
-|Copiar mensagens de usuários  <br/> |Implemente o método [IABContainer::CopyEntries](iabcontainer-copyentries.md) . Para obter mais informações, consulte [Copiando entradas do catálogo de endereços](copying-address-book-entries.md).  <br/> |
-|Remover mensagens de usuários  <br/> |Implemente o método [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) . Para obter mais informações, consulte [Removendo entradas do catálogo de endereços](removing-address-book-entries.md).  <br/> |
-|Forneça as informações de resumo sobre as mensagens de usuários  <br/> |Suporte à propriedade **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) do contêiner. Para obter mais informações, consulte [As tabelas de conteúdo](contents-tables.md).  <br/> |
-|Fornecer informações detalhadas sobre os usuários de mensagens  <br/> |Suporte à propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) em usuários e listas de distribuição de mensagens. Para obter mais informações, consulte [Exibindo informações de destinatário](displaying-recipient-information.md) e [Tabelas de exibição](display-tables.md).  <br/> |
-|Fornecer informações detalhadas sobre um contêiner  <br/> |Suporte à propriedade **PR_DETAILS_TABLE** no contêiner. Para obter mais informações, consulte [Exibindo informações de destinatário](displaying-recipient-information.md) e [Tabelas de exibição](display-tables.md).  <br/> |
-|Fornecer uma lista hierárquica dos contêineres  <br/> |Suporte à propriedade **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) do contêiner. Para obter mais informações, consulte as [Tabelas de hierarquias](hierarchy-tables.md).  <br/> |
-|Suporte a mensagens propriedades de usuário  <br/> |Implementar o [IMailUser: IMAPIProp](imailuserimapiprop.md) interface.  <br/> |
-|Resolver nomes ambíguos  <br/> | Suporte a restrição de propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)).  <br/>  Opcionalmente, implemente o método [IABContainer:: ResolveNames](iabcontainer-resolvenames.md) . Para obter mais informações, consulte [Implementando a resolução de nome](implementing-name-resolution.md).  <br/> |
+|Usuários de mensagens de acesso  <br/> |Implemente o método [IABLogon:: OpenEntry](iablogon-openentry.md) . Para obter mais informações, consulte [abrir entradas do catálogo de endereços](opening-address-book-entries.md).  <br/> |
+|Comparar usuários de mensagens  <br/> |Implemente o método [IABLogon:: CompareEntryIDs](iablogon-compareentryids.md) . Para obter mais informações, consulte comparando [entradas do catálogo de endereços](comparing-address-book-entries.md).  <br/> |
+|Criar usuários de mensagens  <br/> |1. forneça uma lista de modelos de criação em uma tabela única, com suporte para a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Para obter mais informações, consulte [Implementing a container one-off Table](implementing-a-container-one-off-table.md).  <br/> 2. implemente o método [IABContainer:: createentry](iabcontainer-createentry.md) . Para obter mais informações, consulte [adicionando entradas do catálogo de endereços](adding-address-book-entries.md).  <br/> |
+|Copiar usuários de mensagens  <br/> |Implemente o método [IABContainer:: CopyEntries](iabcontainer-copyentries.md) . Para obter mais informações, consulte [copiaNdo entradas do catálogo de endereços](copying-address-book-entries.md).  <br/> |
+|Remover usuários de mensagens  <br/> |Implemente o método [IABContainer::D eleteentries](iabcontainer-deleteentries.md) . Para obter mais informações, consulte [removeNdo entradas do catálogo de endereços](removing-address-book-entries.md).  <br/> |
+|Fornecer informações de resumo sobre usuários de mensagens  <br/> |Suporta a propriedade container **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)). Para mais informações, confira [Tabelas de Conteúdo](contents-tables.md).  <br/> |
+|Fornecer informações detalhadas sobre usuários de mensagens  <br/> |Suporta a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) em usuários de mensagens e listas de distribuição. Para obter mais informações, consulte [exibiNdo informações do destinatário](displaying-recipient-information.md) e [Exibir tabelas](display-tables.md).  <br/> |
+|Fornecer informações detalhadas sobre um contêiner  <br/> |Oferecer suporte à propriedade **PR_DETAILS_TABLE** no contêiner. Para obter mais informações, consulte [exibiNdo informações do destinatário](displaying-recipient-information.md) e [Exibir tabelas](display-tables.md).  <br/> |
+|Fornecer uma lista hierárquica de contêineres  <br/> |Suporta a propriedade container **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)). Para obter mais informações, consulte [tabelas de hierarquia](hierarchy-tables.md).  <br/> |
+|Suporte a propriedades de usuários de mensagens  <br/> |Implemente a interface [IMailUser: IMAPIProp](imailuserimapiprop.md)  <br/> |
+|Resolver nomes ambíguos  <br/> | Suporta a restrição de propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)).  <br/>  Opcionalmente, implemente o método [IABContainer:: ResolveNames](iabcontainer-resolvenames.md) . Para obter mais informações, consulte [implementaNdo resolução de nomes](implementing-name-resolution.md).  <br/> |
    
 

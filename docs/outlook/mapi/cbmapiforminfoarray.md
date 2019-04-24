@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 57544507d47a846831293e80337f500efd9ed717
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f0f820de17e6acc445489a3116164d2521564c12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331611"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22586540"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura [SMAPIFormInfoArray](smapiforminfoarray.md) existente que contém um número de objetos de informações do formulário especificado. 
+Calcula o número de bytes em uma estrutura existente do [SMAPIFormInfoArray](smapiforminfoarray.md) que contém um número especificado de objetos de informações de formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
 |Estrutura relacionada:  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
@@ -40,7 +40,7 @@ CbMAPIFormInfoArray (_c)
 
  __c_
   
-> Contagem de objetos de informações do formulário na estrutura **SMAPIFormInfoArray** existente. 
+> Contagem de objetos de informações de formulário na estrutura **SMAPIFormInfoArray** existente. 
     
 ## <a name="see-also"></a>Confira também
 

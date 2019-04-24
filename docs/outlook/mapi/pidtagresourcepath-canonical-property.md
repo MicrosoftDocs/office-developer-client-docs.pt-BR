@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a00abec7627eb12e23e7b76f5d0900514d710ffb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 32d150e508f5c208e15d5ee5f0b8c800a1e597f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330167"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>Propriedade canônica PidTagResourcePath
 
@@ -32,27 +32,27 @@ Contém um caminho para o servidor do provedor de serviços.
 |Propriedades associadas:  <br/> |PR_RESOURCE_PATH, PR_RESOURCE_PATH_A, PR_RESOURCE_PATH_W  <br/> |
 |Identificador:  <br/> |0x3E07  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Status MAPI  <br/> |
+|Área:  <br/> |Status de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O caminho contido nessas propriedades representa a sugestão de caminho onde o usuário pode localizar recursos. A definição dessas propriedades é específico do provedor. Por exemplo, um aplicativo de agendamento usa essas propriedades para especificar o local sugerido para seus arquivos de aplicativo de agendamento.
+O caminho contido nessas propriedades representa o caminho sugerido onde o usuário pode encontrar recursos. A definição dessas propriedades é específica do provedor. Por exemplo, um aplicativo de agendamento usa essas propriedades para especificar o local sugerido para seus arquivos de aplicativo de agendamento.
   
-O perfil de usuário de mensagens fornece essas propriedades como conveniência para que um aplicativo cliente não precisa solicitar ao usuário de mensagens de um caminho de rede ou uma letra de unidade de rede.
+O perfil de usuário de mensagens fornece essas propriedades como conveniência para que um aplicativo cliente não precise solicitar ao usuário de mensagens um caminho de rede ou uma letra de unidade de rede.
   
-MAPI funciona somente com nomes de arquivo no conjunto de caracteres American National Standards Institute (ANSI). Aplicativos que usam os nomes de arquivo em um conjunto de caracteres do fabricante do equipamento original (OEM) devem convertê-los para ANSI antes de chamar MAPI.
+O MAPI funciona somente com nomes de fileno conjunto de caracteres ANSI (American National Standards Institute). Os aplicativos que usam nomes de FileNames em um conjunto de caracteres OEM (fabricante original do equipamento) devem convertê-los para ANSI antes de chamar MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

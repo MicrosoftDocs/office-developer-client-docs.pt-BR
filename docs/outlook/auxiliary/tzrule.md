@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
 description: Especifica as informações de uma regra de fuso horário sobre quando começa o horário de verão e o ano em que essa regra de fuso horário entrou em vigor.
 ms.openlocfilehash: 71ede7c0061a058c2dd85c7b9b36c42583a6bb84
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328613"
 ---
 # <a name="tzrule"></a>TZRULE
 

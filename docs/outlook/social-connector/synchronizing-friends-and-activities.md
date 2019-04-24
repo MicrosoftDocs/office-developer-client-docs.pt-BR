@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: O Outlook Connector Social (OSC) dá suporte à exibição de informações de uma rede social sobre uma pessoa no Cartão de Visita ou no Painel de Pessoas do Outlook. O SharePoint Server, o SharePoint Workspace, o cliente Lync e todos os aplicativos cliente do Office com suporte para informações de presença também incluem suporte ao Cartão de Visita.
 ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329198"
 ---
 # <a name="synchronizing-friends-and-activities"></a>Sincronizar amigos e atividades
 
@@ -119,7 +119,7 @@ A tabela a seguir resume os intervalos de sincronização para informações de 
   
 |**Modo de sincronização para pessoas**|**Onde o intervalo de atualização é definido**|**Tempo mínimo padrão antes da atualização**|**Substituição da política de grupo**|
 |:-----|:-----|:-----|:-----|
-|Em cache  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **NetContactSyncInterval** <br/> |
+|Cache  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **NetContactSyncInterval** <br/> |
 |Em cache  <br/> |Elemento **contactSyncRestartInterval** no XML de **recursos**  <br/> |30 minutos se **contactSyncRestartInterval** não estiver definido  <br/> |Valor do Registro do Windows **contactSyncRestartInterval** <br/> |
 |Sob demanda  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **OnlineSearchExpiryTime** <br/> |
    

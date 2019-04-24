@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
-ms.openlocfilehash: 64b0c0501a6ef4471f97e82b231ef430681f1306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e36cf12b7a5b1643f5a0ec97223030718195a7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331588"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
@@ -34,7 +34,7 @@ HRESULT HrGetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lppPropTagArray_
   
@@ -49,13 +49,13 @@ HRESULT HrGetPropAccess(
 |IPROP_READONLY, que indica que a propriedade n�o pode ser modificada.  <br/> |IPROP_CLEAN, que indica que a propriedade n�o foi modificada.  <br/> |
 |IPROP_READWRITE, que indica que a propriedade pode ser modificada.  <br/> |IPROP_DIRTY, que indica que a propriedade foi modificada.  <br/> |
    
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
 > Os sinalizadores de status e o n�vel de acesso para as propriedades foram retornados com �xito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O m�todo **IPropData::HrGetPropAccess** recupera um conjunto de sinalizadores que indica o n�vel de acesso e o status de uma ou mais propriedades. 
   
@@ -73,7 +73,7 @@ Se uma propriedade tiver sido modificada, seu sinalizador IPROP_DIRTY � defini
   
 Se uma propriedade n�o foi modificada ou exclu�da, somente o sinalizador IPROP_READONLY ou IPROP_READWRITE ser� definido. 
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 
 

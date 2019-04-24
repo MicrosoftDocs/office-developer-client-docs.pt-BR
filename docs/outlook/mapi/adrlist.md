@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 87b91b66807ce79533029a8d5b5c4956bc4d5ce9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 319c932862615e063a02ffac07e5541b1b20ac7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330238"
 ---
 # <a name="adrlist"></a>ADRLIST
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve as propriedades de zero ou mais que pertencem a um ou mais destinatários. 
+Descreve zero ou mais propriedades que pertencem a um ou mais destinatários. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbADRLIST](cbadrlist.md), [CbNewADRLIST](cbnewadrlist.md), [CbNewADRLIST](cbnewadrlist.md) <br/> |
    
 ```cpp
@@ -47,27 +47,27 @@ typedef struct _ADRLIST
     
 **aEntries**
   
-> Matriz de estruturas [ADRENTRY](adrentry.md) , uma estrutura de cada destinatário. 
+> Matriz de estruturas [ADRENTRY](adrentry.md) , uma estrutura para cada destinatário. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **ADRLIST** contém uma ou mais estruturas **ADRENTRY** , cada uma delas descreve as propriedades de um destinatário. Um destinatário pode ser não resolvido. Isso significa que ele está faltando um identificador de entrada na sua matriz de valores de propriedade. Um destinatário resolvido significa que o **PR\_ENTRYID** propriedade ([PidTagEntryId](pidtagentryid-canonical-property.md)) esteja incluída. Geralmente, destinatários resolvidos também têm um email a propriedade **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) de endereços. No entanto, o endereço de email não é necessário. Estruturas **ADRLIST** são usadas, por exemplo, para descrever a lista de destinatários para uma mensagem de saída e por MAPI para exibir as entradas no catálogo de endereços. 
+Uma estrutura **das ADRLIST** contém uma ou mais estruturas **ADRENTRY** , cada uma descrevendo as propriedades de um destinatário. Um destinatário pode ser não resolvido. Isso significa que não há um identificador de entrada em sua matriz de valores de propriedade. Um destinatário resolvido significa que a **propriedade\_PR EntryID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) está incluída. Normalmente, os destinatários resolvidos também têm um endereço de email a propriedade **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)). No enTanto, o endereço de email não é necessário. As estruturas **das ADRLIST** são usadas, por exemplo, para descrever a lista de destinatários para uma mensagem de saída e por MAPI para exibir as entradas no catálogo de endereços. 
   
-Estruturas **ADRLIST** assemelhar [SRowSet](srowset.md) estruturas as estruturas usadas para representar as linhas em tabelas. Na verdade, essas duas estruturas foram projetadas para que possa ser usados de forma intercambiável. Ambos contêm uma matriz de estruturas que descrevem um grupo de propriedades e uma contagem dos valores na matriz. Enquanto na estrutura de **ADRLIST** , a matriz contém estruturas [ADRENTRY](adrentry.md) , na estrutura de **SRowSet** a matriz contém estruturas [SRow](srow.md) . Estruturas **ADRENTRY** e estruturas de **SRow** são idênticas em layout. Como **ADRLIST** e **SRowSet** estruturas seguem as mesmas regras de alocação, uma estrutura **SRowSet** que é recuperada no índice de conteúdo de um contêiner de catálogo de endereços pode ser convertida em uma estrutura **ADRLIST** e usada como está. 
+Estruturas **das ADRLIST** se assemelham a estruturas [SRowSet](srowset.md) as estruturas usadas para representar linhas em tabelas. Na verdade, essas duas estruturas são projetadas para que possam ser usadas de forma intercambiável. Ambas contêm uma matriz de estruturas que descreve um grupo de propriedades e uma contagem dos valores na matriz. Enquanto na estrutura **das ADRLIST** , a matriz contém estruturas [ADRENTRY](adrentry.md) , na estrutura **SRowSet** , a matriz contém estruturas [SRow](srow.md) . Estruturas **ADRENTRY** e estruturas **SRow** são idênticas no layout. Como as estruturas **das ADRLIST** e **SRowSet** seguem as mesmas regras de alocação, uma estrutura **SRowSet** que é recuperada da tabela de conteúdo de um contêiner de catálogo de endereços pode ser convertida para uma estrutura **das ADRLIST** e usada como está. 
   
-A ilustração a seguir mostra o layout de uma estrutura **ADRLIST** . 
+A ilustração a seguir mostra o layout de uma estrutura **das ADRLIST** . 
   
 **ADRLIST components**
   
-![Componentes ADRLIST] (media/amapi_18.gif "Componentes ADRLIST")
+![Componentes do das ADRLIST] (media/amapi_18.gif "Componentes do das ADRLIST")
   
-As partes **ADRENTRY** e [SPropValue](spropvalue.md) em uma estrutura **ADRLIST** devem ser alocadas e liberadas independentemente das outras partes. Ou seja, cada estrutura **SPropValue** deve ser alocada individualmente depois que a memória para a estrutura de **ADRENTRY** foi alocada e liberada antes que a estrutura **ADRENTRY** é liberada. Essa independência na manipulação de memória permite que os destinatários e propriedades de destinatário individuais livremente sejam adicionados ou excluídos da lista de endereços. 
+As partes **ADRENTRY** e [SPropValue](spropvalue.md) em uma estrutura **das ADRLIST** devem ser alocadas e liberadas independentemente das outras partes. Ou seja, cada estrutura **SPropValue** deve ser alocada individualmente após a memória para a estrutura **ADRENTRY** ter sido alocada e liberada antes da liberação da estrutura **ADRENTRY** . Essa independência no tratamento de memória permite que os destinatários e as propriedades de destinatário individuais sejam adicionados ou excluídos livremente da lista de endereços. 
   
-As funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIFreeBuffer](mapifreebuffer.md) devem ser usadas para alocar e liberar a estrutura **ADRLIST** e todas as suas partes. 
+As funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIFreeBuffer](mapifreebuffer.md) devem ser usadas para alocar e liberar a estrutura do **das ADRLIST** e todas as suas partes. 
   
-Se uma lista de destinatários é muito grande para caber na memória, clientes podem chamar o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) para trabalhar com um subconjunto da lista. Os clientes não devem usar as caixas de diálogo comuns do endereço livro nesta situação. 
+Se uma lista de destinatários for muito grande para caber na memória, os clientes podem chamar o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) para trabalhar com um subconjunto da lista. Os clientes não devem usar as caixas de diálogo comuns do catálogo de endereços nessa situação. 
   
-Para obter mais informações sobre como alocar memória para as estruturas **ADRENTRY** , consulte [Gerenciar memória para ADRLIST e estruturas de SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
+Para obter mais informações sobre como alocar memória para estruturas **ADRENTRY** , consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b0332fb81dadb0f10ab6f55fae317349ab9b8d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec73a456f87b18905c180803d26720ef09254c7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327892"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Propriedade canônica PidTagIpmOutboxEntryId
 
@@ -25,30 +25,30 @@ ms.locfileid: "22584874"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta de caixa de saída de mensagem padrão interpessoais (IPM). 
+Contém o identificador de entrada da pasta de saída padrão de mensagem interpessoal (IPM). 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_IPM_OUTBOX_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E2  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Pasta  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Mensagens de saída são geralmente criadas na pasta caixa de saída. Emails interpessoais emails devem ser colocados nesta pasta para envio. 
+As mensagens de saída normalmente são criadas na pasta de saída. As mensagens interpessoais devem ser colocadas nesta pasta para envio. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

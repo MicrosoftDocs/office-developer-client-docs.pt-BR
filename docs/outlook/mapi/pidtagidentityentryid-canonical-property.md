@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 61a9d403-e0e5-45c3-8d18-4d53207ab927
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8810b6c39b909ebaa612496824150499cd15165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 099df2211e87e253ab1be520378b3a2b2ca7d4c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327927"
 ---
 # <a name="pidtagidentityentryid-canonical-property"></a>Propriedade canônica PidTagIdentityEntryId
 
@@ -32,27 +32,27 @@ Contém o identificador de entrada para a identidade de um provedor de serviços
 |Propriedades associadas:  <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |Identificador:  <br/> |0x3E01  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Status MAPI  <br/> |
+|Área:  <br/> |Status de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade não é exibido como uma propriedade em qualquer objeto, mas apenas como uma coluna em uma tabela de status. Ele é parte da identidade do provedor de serviços expondo a linha da tabela de status. Normalmente, a identidade do provedor refere-se a sua conta no servidor, mas pode se referir a qualquer representação que o provedor define dentro do sistema de mensagens. 
+Essa propriedade não aparece como uma propriedade em qualquer objeto, mas somente como uma coluna em uma tabela de status. Ele faz parte da identidade do provedor de serviços que expõe a linha da tabela de status. A identidade do provedor geralmente se refere à sua conta no servidor, mas pode se referir a qualquer representação que o provedor define no sistema de mensagens. 
   
-Esta propriedade é geralmente definida para o identificador de entrada do catálogo de endereço apropriado. 
+Este propriedade é normalmente definido para o identificador de entrada do catálogo de endereços apropriado. 
   
-Um provedor de serviços que forneçam qualquer uma das propriedades identity deve fornecer aos todos eles. Os provedores que pertencem ao mesmo serviço de mensagem devem expor os mesmos valores para as propriedades de identidade. 
+Um provedor de serviços que forneça qualquer uma das propriedades de identidade deve fornecer todos eles. Os provedores que pertencem ao mesmo serviço de mensagens devem expor os mesmos valores para as propriedades de identidade. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -63,7 +63,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

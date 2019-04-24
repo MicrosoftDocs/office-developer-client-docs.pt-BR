@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: Especifica propriedades usadas para identificar um comentário em um desenho.
 ms.openlocfilehash: 79d15b95f986826a4848c2dfbb003255d3482134
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329534"
 ---
 # <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) ('Visio XML')
 
@@ -54,7 +54,7 @@ Nenhum.
 |:-----|:-----|:-----|:-----|:-----|
 |AuthorID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Um valor exclusivo que identifica o comentário em uma página de desenho.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Date  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> |Especifica quando um comentário foi criado.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
+|Data  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> |Especifica quando um comentário foi criado.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
 |Done  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica o estado atual do comentário.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |EditDate  <br/> |xsd:dateTime  <br/> |opcional  <br/> |Especifica quando um comentário foi alterado pela última vez.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
 |PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Um valor que identifica a página de desenho em que o comentário está ativo.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |

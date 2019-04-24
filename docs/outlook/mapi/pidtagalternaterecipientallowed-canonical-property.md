@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0faeb12ee54ec5d1c584bacd51590b157035f4fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327983"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>Propriedade canônica PidTagAlternateRecipientAllowed
 
@@ -25,7 +25,7 @@ ms.locfileid: "25385953"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se o remetente permite o encaminhamento automático desta mensagem. 
+Contém TRUE se o remetente permitir o encaminhamento automático dessa mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Conterá TRUE se o remetente permite o encaminhamento automático desta mensagem
    
 ## <a name="remarks"></a>Comentários
 
-Se o encaminhamento automático não é permitido ou nenhum destinatário alternativo foi designado, um relatório de não entrega deve ser gerado. 
+Se o encaminhamento automático não for permitido ou se nenhum destinatário alternativo tiver sido designado, um relatório de não entrega deve ser gerado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
+> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
+> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

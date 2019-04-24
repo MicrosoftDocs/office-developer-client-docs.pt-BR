@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 26628646-7948-4341-aaef-5c476a857a52
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c5956974ab38e1d2e891945083d26f1dced23284
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ebcc1c8fc2d72b832199704fd63bbde89af68e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331812"
 ---
 # <a name="cbnewflatmtsidlist"></a>CbNewFLATMTSIDLIST
 
@@ -25,11 +25,11 @@ ms.locfileid: "22578056"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que deve ser alocada para uma nova estrutura [FLATMTSIDLIST](flatmtsidlist.md) que contém várias estruturas [MTSID](mtsid.md) de um tamanho especificado. 
+Calcula o número de bytes que devem ser alocados para uma nova estrutura [FLATMTSIDLIST](flatmtsidlist.md) que contém várias estruturas [MTSID](mtsid.md) de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewFLATMTSIDIDLIST (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __cb_
+ __CB_
   
-> Contagem de bytes nas estruturas **MTSID** a serem incluídos na nova estrutura **FLATMTSIDLIST** . 
+> Contagem de bytes nas estruturas **MTSID** a serem incluídas na nova estrutura **FLATMTSIDLIST** . 
     
 ## <a name="see-also"></a>Confira também
 

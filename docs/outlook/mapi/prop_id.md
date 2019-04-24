@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6ddaced5-49bb-41fe-95da-4e3300883bf7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e1846b4be93bf6300ea89a9ae3133fbba82b344e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 228ea91969b35a1608dd6b3378b751312aa9c665
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328571"
 ---
 # <a name="propid"></a>PROP_ID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22573121"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de propriedade de uma marca de propriedade especificado.
+Retorna o identificador de propriedade de uma marca de propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -44,9 +44,9 @@ PROP_ID (ulPropTag)
     
 ## <a name="remarks"></a>Comentários
 
-A marca de cada propriedade contém o tipo de propriedade da palavra de ordem baixa (0 a 15 bits) e o identificador de propriedade da palavra de ordem alta (16 a 31 bits). A macro **PROP_ID** extrai o identificador de propriedade e a coloca em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos com zeros. 
+Cada marca de propriedade contém o tipo de propriedade na palavra de ordem inferior (bits 0 a 15) e o identificador de propriedade na palavra de ordem alta (bits 16 a 31). A macro **PROP_ID** extrai o identificador de propriedade e coloca-o em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
   
-A macro **PROP_ID** pode ser usada, por exemplo, para recuperar um identificador a serem passados para [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera o nome da propriedade associado a um identificador para uma propriedade nomeada. 
+A macro **PROP_ID** pode ser usada, por exemplo, para recuperar um identificador para passar para o [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera o nome da propriedade associada a um identificador de uma propriedade nomeada. 
   
 ## <a name="see-also"></a>Confira também
 

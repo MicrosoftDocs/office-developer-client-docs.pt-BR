@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 896cfa2bf8a1b33fd6dee09649853b71618f31be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c6b56a786ea794587e140c9555cc88cd862b489
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329306"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Propriedade canônica PidTagNonReceiptNotificationRequested
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582781"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se o remetente da mensagem Maria notificação de não-recebimento por um destinatário específico.
+Contém TRUE se um remetente da mensagem desejar notificação de não confirmação para um destinatário especificado.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém TRUE se o remetente da mensagem Maria notificação de não-recebimento 
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade contém FALSE e a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) conterá TRUE, o provedor de serviços pode substituir a propriedade **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** e gerar um relatório de falha na entrega. 
+Se essa propriedade contiver FALSE e a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) contiver true, o provedor de serviços poderá substituir a propriedade **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** e gerar um notificação de falha na entrega. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

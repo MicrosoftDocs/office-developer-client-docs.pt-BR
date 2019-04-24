@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 723affa054cb35a9cc7a2ee28e051e3b9a6d04e0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329397"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>Propriedade canônica PidTagMessageSubmissionId
 
@@ -25,7 +25,7 @@ ms.locfileid: "25401661"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador de sistema (MTS) de transferência de mensagem para o agente de transferência de mensagem (MTA).
+Contém um identificador MTS (sistema de transferência de mensagens) para o MTA (agente de transferência de mensagens).
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém um identificador de sistema (MTS) de transferência de mensagem para o a
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é retornada por MTA após a conclusão bem-sucedida do envio da mensagem. Qualquer contato futuro com o MTA sobre essa mensagem, como o solicitante cancelamento, usa o identificador MTS nessa propriedade.
+Essa propriedade é retornada pelo MTA após a conclusão bem-sucedida do envio de mensagens. Qualquer contato futuro com o MTA referente a essa mensagem, como solicitar o cancelamento, usa o identificador MTS nessa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
+> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

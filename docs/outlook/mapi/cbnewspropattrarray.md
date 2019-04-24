@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c085e3e4-5d1e-42ab-8c44-2c326c032aea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8bcb650a7aef357be155c177c38bc39cac3fa2c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 365348a4eb3440d1f284a39cfce019cf4f89f915
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331959"
 ---
 # <a name="cbnewspropattrarray"></a>CbNewSPropAttrArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22575249"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que deve ser alocada para uma nova estrutura de [SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade. 
+Calcula o número de bytes que devem ser alocados para uma nova estrutura [SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
@@ -40,7 +40,7 @@ CbNewSPropAttrArray (_cattr)
 
  __cattr_
   
-> Contagem de atributos de propriedade a ser incluído na nova estrutura **SPropAttrArray** . 
+> Contagem de atributos de propriedade a serem incluídos na nova estrutura **SPropAttrArray** . 
     
 ## <a name="see-also"></a>Confira também
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 14bb31ae9aebbb6441948b5756b426508107c9f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331399"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriedade canônica PidTagResolveMethod
 
@@ -25,48 +25,48 @@ ms.locfileid: "25394899"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor de resolução de conflito de uma pasta.
+Contém um valor de resolução de conflito da pasta.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_RESOLVE_METHOD  <br/> |
 |Identificador:  <br/> |0x3FE7  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Status MAPI  <br/> |
+|Área:  <br/> |Status de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade na pasta que contém a mensagem de resolução de conflito indicará como resolver o conflito. Essa propriedade não é necessária. No entanto, se ele estiver definido, os sinalizadores que não seja a seguir não devem estar presentes:
+Essa propriedade na pasta que contém a mensagem de resolução de conflitos indicará como resolver o conflito. Esta propriedade não é obrigatória. No enTanto, se estiver definido, os sinalizadores diferentes dos seguintes não devem estar presentes:
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0X00000000)  <br/> |Conflito resolver mensagem deve ser gerada.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0X00000001)  <br/> |Substitua a mensagem de destino com alterações atuais que está sendo aplicadas.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0X00000002)  <br/> |Não envie mensagem de notificação de conflito quando gerando conflito resolver a mensagem na pasta pública.  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |A mensagem de resolução de conflitos deve ser gerada.  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Sobrescrever mensagem de destino com as alterações atuais aplicadas.  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Não enviar mensagem de notificação de conflito ao gerar a mensagem de resolução de conflitos na pasta pública.  <br/> |
    
-Um cliente ou servidor não deve gerar uma mensagem de conflito resolve para mensagens associadas. Essas mensagens devem ser resolvidas usando semântica **RESOLVE_METHOD_LAST_WRITER_WINS** . 
+Um cliente ou servidor não deve gerar uma mensagem de resolução de conflitos para mensagens associadas. Essas mensagens devem ser resolvidas usando a semântica **RESOLVE_METHOD_LAST_WRITER_WINS** . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
-> Trata-se de sincronização de dados de objeto de mensagens entre um servidor e um cliente.
+> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,57 +1,57 @@
 ---
-title: Célula ReplaceLockFormat (Seção Change Shape Behavior)
+title: Célula ReplaceLockFormat (seção Change Shape Behavior)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6973e2e6-7e7f-48ba-95b3-37c959f6ffb1
-description: Indica se os valores das células especificadas em uma forma mestra substituir os valores (incluindo valores locais) de uma forma que está sendo substituído durante uma operação de substituição de forma. Se a célula ReplaceLockFormat de uma forma mestra é definida como verdadeiro (1), os valores de formatação do mestre substituir todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.
-ms.openlocfilehash: bf1e28353cc1e2d737a7d7a6dcd90caf14e19dc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indica se os valores das células especificadas em uma forma mestre substituirão os valores (incluindo valores locais) de uma forma que está sendo substituída durante uma operação de substituição de forma. Se a célula ReplaceLockFormat de uma forma mestre for definida como TRUE (1), os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.
+ms.openlocfilehash: 88af22accb7a80640e7553338dae1af48934f246
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329887"
 ---
-# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Célula ReplaceLockFormat (Seção Change Shape Behavior)
+# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Célula ReplaceLockFormat (seção Change Shape Behavior)
 
-Indica se os valores das células especificadas em uma forma mestra substituir os valores (incluindo valores locais) de uma forma que está sendo substituído durante uma operação de substituição de forma. Se a célula **ReplaceLockFormat** de uma forma mestra é definida como verdadeiro (1), os valores de formatação do mestre substituir todos os valores correspondentes de uma forma que está sendo substituído pelo mestre. 
+Indica se os valores das células especificadas em uma forma mestre substituirão os valores (incluindo valores locais) de uma forma que está sendo substituída durante uma operação de substituição de forma. Se a célula **ReplaceLockFormat** de uma forma mestre for definida como true (1), os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestra for definida como TRUE, os valores de formatação do mestre substituir todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.  <br/> |
-|FALSO  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestra for definida como FALSE, a forma de substituição contém os valores de formatação locais da forma antigo após a operação de substituição.  <br/> |
+|TRUE  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestre for definida como true, os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.  <br/> |
+|FALSE  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestre estiver definida como false, a forma de substituição conterá os valores de formatação local da forma antiga após a operação de substituição.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A célula **ReplaceLockFormat** determina se a forma mestra substitui os valores de formatação locais das células nas seções a seguir durante uma operação de substituição de forma: 
+A célula **ReplaceLockFormat** determina se a forma mestre substituirá os valores de formatação local das células nas seções a seguir durante uma operação de substituição de forma: 
   
 - Seção **Fill Format** 
     
-- Seção **Line Format** 
+- Seção **line Format** 
     
-- Seção de **Estilos Rápidos** 
+- Seção **Style rápido** 
     
-- Seção de **Propriedades do tema** 
+- Seção **Theme Properties** 
     
-- Seção **Propriedades de gradiente** 
+- Seção **Propriedades** de gradiente 
     
-- Seção **Propriedades de bisel** 
+- Seção de **Propriedades de bisel** 
     
-- Seção de **Propriedades de efeito adicionais** 
+- Seção **Additional Effect Properties** 
     
-- Seção de **Paradas de gradiente de linha** 
+- Seção paradas de gradiente de **linha** 
     
-- Seção de **Paradas de gradiente de preenchimento** 
+- Seção **Fill gradientout** 
     
-Para fazer referência à célula **ReplaceLockFormat** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **ReplaceLockFormat** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ReplaceLockFormat  <br/> |
    
-Para obter uma referência à célula **ReplaceLockFormat** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **ReplaceLockFormat** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

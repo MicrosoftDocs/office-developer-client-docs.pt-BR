@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0eb92008e7eff00388e85c5badbdc97a4c6dda12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331721"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Propriedade canônica PidTagContactAddressBookDisplayNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "22574438"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de nomes de exibição para os usuários no catálogo de endereços de contatos de mensagens.
+Contém uma lista de nomes de exibição para usuários de mensagens no catálogo de endereços de contatos.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma lista de nomes de exibição para os usuários no catálogo de ender
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são definidas pelo usuário e a organização do usuário.
+Essas propriedades são definidas pelo usuário e pela organização do usuário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

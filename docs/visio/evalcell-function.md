@@ -6,35 +6,35 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
-description: Utiliza uma referência a uma célula que contém uma função personalizada, bem como um ou mais pares nome-valor para passar para a função personalizada como argumentos (opcional). Retorna o resultado calculado da função personalizada dado os argumentos e valores especificados.
-ms.openlocfilehash: 03094f644edb29f990f3dda50b0cb4c35e1b07a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém uma referência a uma célula que contém uma função personalizada, bem como um ou mais pares nome-valor para passar para a função personalizada como argumentos (opcional). Retorna o resultado calculado da função personalizada, dado os argumentos e valores especificados.
+ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329068"
 ---
 # <a name="evalcell-function"></a>Função EVALCELL
 
-Utiliza uma referência a uma célula que contém uma função personalizada, bem como um ou mais pares nome-valor para passar para a função personalizada como argumentos (opcional). Retorna o resultado calculado da função personalizada dado os argumentos e valores especificados.
+Obtém uma referência a uma célula que contém uma função personalizada, bem como um ou mais pares nome-valor para passar para a função personalizada como argumentos (opcional). Retorna o resultado calculado da função personalizada, dado os argumentos e valores especificados.
   
 ## <a name="syntax"></a>Sintaxe
 
-EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* * *],...) 
+EVALCELL (* * *cellRef* * *, [* * *arg1name, arg1* * *], [* * *arg2Name, arg2* * *],...) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellRef_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência para a célula que contém a função personalizada. Referências entre planilhas são permitidas.  <br/> |
-| _arg1Name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do primeiro argumento a ser passado para a função personalizada. Espaços são permitidos.  <br/> |
-| _arg1_ <br/> |Opcional  <br/> |**Varia** <br/> |Valor do parâmetro _arg1_ .  <br/> |
-| _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do segundo argumento a serem passados para a função personalizada. São permitidos espaços.  <br/> |
-| _arg2_ <br/> |Opcional  <br/> |**Varia** <br/> |Valor do parâmetro _arg2_ .  <br/> |
+| _cellRef_ <br/> |Obrigatório  <br/> |**String** <br/> |A referência à célula que contém a função personalizada. Referências cruzadas são permitidas.  <br/> |
+| _arg1name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do primeiro argumento a ser passado para a função personalizada. Espaços são permitidos.  <br/> |
+| _arg1_ <br/> |Opcional  <br/> |**Vai** <br/> |O valor do parâmetro _arg1_ .  <br/> |
+| _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do segundo argumento a ser passado para a função personalizada. Espaços são permitidos.  <br/> |
+| _arg2_ <br/> |Opcional  <br/> |**Vai** <br/> |O valor do parâmetro _arg2_ .  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 

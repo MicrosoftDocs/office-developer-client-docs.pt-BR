@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a3343381709b7ce3370ba481ad8dbb935c7d4165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 778ff8f36478740e5ee23ba439db1e328eca2e06
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328809"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586946"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Suspende o processamento até que um ou mais operações assíncronas em andamento na tabela forem concluídas.
+Suspende o processamento até que uma ou mais operações assíncronas em andamento na tabela tenham sido concluídas.
   
 ```cpp
 HRESULT WaitForCompletion(
@@ -39,15 +39,15 @@ ULONG FAR * lpulTableStatus
 
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _ulTimeout_
   
-> [in] Número máximo de milissegundos de espera para a operação assíncrona ou a conclusão das operações. Para esperar indefinidamente até que ocorra de conclusão, defina _ulTimeout_ como 0xFFFFFFFF. 
+> no Número máximo de milissegundos para aguardar a conclusão da operação ou operações assíncronas. Para esperar indefinidamente até a conclusão ocorrer, defina _ulTimeout_ como 0xFFFFFFFF. 
     
  _lpulTableStatus_
   
-> [além, out] Na entrada, um ponteiro válido ou nulo. Na saída, se _lpulTableStatus_ for um ponteiro válido, ela aponta para o status mais recente da tabela. Se _lpulTableStatus_ for NULL, nenhuma informação de status será retornada. Se **WaitForCompletion** retorna um valor HRESULT bem sucedido, o conteúdo de _lpulTableStatus_ é indefinido. 
+> [in, out] Na entrada, um ponteiro válido ou nulo. Na saída, se _lpulTableStatus_ for um ponteiro válido, apontará para o status mais recente da tabela. Se _lpulTableStatus_ for NULL, nenhuma informação de status será retornada. Se **WaitForCompletion** retornar um valor de HRESULT sem êxito, o conteúdo de _lpulTableStatus_ será indefinido. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,15 +57,15 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> A tabela não oferece suporte ao aguardar a conclusão de operações assíncronas.
+> A tabela não dá suporte à espera para a conclusão de operações assíncronas.
     
 MAPI_E_TIMEOUT 
   
-> A operação assíncrona ou operações não foram concluída no tempo especificado.
+> A operação assíncrona ou as operações não foram concluídas no tempo especificado.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::WaitForCompletion** suspende o processamento até que tenha concluído a qualquer operação assíncrona em andamento no momento para a tabela. **WaitForCompletion** pode permitir que as operações assíncronas para totalmente concluída ou a ser executada para um determinado número de milissegundos, conforme indicado pela _ulTimeout_, antes da interrupção. Para detectar operações assíncronas em andamento, chame o método [IMAPITable::GetStatus](imapitable-getstatus.md) . 
+O método imApitable **:: WaitForCompletion** suspende o processamento até que qualquer operação assíncrona atualmente em andamento para a tabela tenha sido concluída. **WaitForCompletion** pode permitir que as operações assíncronas sejam totalmente concluídas ou sejam executadas por um determinado número de milissegundos, conforme indicado por _ulTimeout_, antes de ser interrompido. Para detectar operações assíncronas em andamento, chame o método imApitable [:: GetStatus](imapitable-getstatus.md) . 
   
 ## <a name="see-also"></a>Confira também
 

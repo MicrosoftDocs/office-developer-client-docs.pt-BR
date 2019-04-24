@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: de50616664048af6b931a09df7c65461e9ee3399
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331777"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>Propriedade canônica PidLidAppointmentRecur
 
@@ -25,47 +25,47 @@ ms.locfileid: "25393366"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica as datas e horas quando uma série recorrente ocorre usando um dos padrões de recorrência e intervalos que são especificados nas [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões de recorrência e intervalos especificados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidApptRecur  <br/> |
-|Propriedade definida:  <br/> |PSETID_Appointment  <br/> |
-|ID de longo (LID):  <br/> |0x00008216  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
+|Long ID (LID):  <br/> |0x00008216  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica as datas e horas quando uma série recorrente ocorre usando um dos padrões de recorrência e intervalos detalhado no [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). O valor dessa propriedade também contém informações sobre exceções excluídas e modificadas; informações sobre como datas, assunto, local e várias outras propriedades de exceções. Os dados binários nessa propriedade recorrentes dos itens do calendário são armazenados como a estrutura de **AppointmentRecurrencePattern** . Essa propriedade não deve existir nos itens de calendário de única instância. 
+Esta propriedade especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões de recorrência e intervalos detalhados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). O valor dessa propriedade também contém informações sobre exceções modificadas e excluídas; informações como datas, assunto, local e várias outras propriedades de exceções. Os dados binários dessa propriedade para itens de calendário recorrentes são armazenados como a estrutura **AppointmentRecurrencePattern** . Esta propriedade não deve existir em itens de calendário de instância única. 
   
-Há algumas limitações à recorrências:
+Há algumas limitações para recorrências:
   
-- Várias instâncias não devem iniciar no mesmo dia.
+- Várias instâncias não devem começar no mesmo dia.
     
-- Ocorrências não devem ser sobrepostos. Especificamente, uma exceção que modifica a data de início de uma instância da série recorrente deve ocorrer em uma data que é após o fim da instância anterior e o início da próxima instância da série recorrente. O mesmo é true se as instâncias anteriores ou próximas da série recorrente são exceções.
+- As ocorrências não devem se sobrepor. Especificamente, uma exceção que modifica a data de início de uma instância na série recorrente deve ocorrer em uma data que seja após o final da instância anterior e o início da próxima instância na série recorrente. O mesmo é verdadeiro se as instâncias anterior ou seguinte na série recorrente são exceções.
     
-O agendamento de uma série recorrente é determinado pelo seu padrão de recorrência e o intervalo.
+A agenda de uma série recorrente é determinada por seu padrão e intervalo de recorrência.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.
+> Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -75,7 +75,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

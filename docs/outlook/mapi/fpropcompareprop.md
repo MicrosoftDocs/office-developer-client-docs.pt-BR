@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: adccbaf65adec2c517c4890f722198e8262092cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7726811467324242037ec11a69ae0b1b123d7f21
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328067"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
@@ -27,9 +27,9 @@ Compara dois valores de propriedade usando um operador relacional especificado.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 BOOL FPropCompareProp(
@@ -43,30 +43,30 @@ BOOL FPropCompareProp(
 
 _lpSPropValue1_
   
-> [in] Ponteiro para uma estrutura [SPropValue](spropvalue.md) definindo o valor da propriedade primeiro para comparação. 
+> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define o valor da primeira propriedade para comparação. 
     
 _ulRelOp_
   
-> [in] O operador relacional a ser usado na comparação. Para valores permitidos, consulte a estrutura [SComparePropsRestriction](scomparepropsrestriction.md) . 
+> no O operador relacional a ser usado na comparação. Para valores permitidos, consulte a estrutura [SComparePropsRestriction](scomparepropsrestriction.md) . 
     
 _lpSPropValue2_
   
-> [in] Ponteiro para uma estrutura **SPropValue** definindo o valor da propriedade segundo para comparação. 
+> no Ponteiro para uma estrutura **SPropValue** que define o segundo valor de propriedade para comparação. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Os valores de propriedade satisfazer o objeto relation especificado. 
+> Os valores de propriedade satisfazem a relação especificada. 
     
-FALSO 
+FALSE 
   
-> Os valores de propriedade não atenderem a relação especificada.
+> Os valores de propriedade não satisfazem a relação especificada.
     
 ## <a name="remarks"></a>Comentários
 
-O método de comparação depende os tipos de propriedade especificados nas definições de propriedade [SPropValue](spropvalue.md) . As funções **FPropCompareProp** e [FPropContainsProp](fpropcontainsprop.md) podem ser usadas para preparar restrições para gerar uma tabela. 
+O método Comparison depende dos tipos de propriedade especificados nas definições da propriedade [SPropValue](spropvalue.md) . As funções **FPropCompareProp** e [FPropContainsProp](fpropcontainsprop.md) podem ser usadas para preparar restrições para a geração de uma tabela. 
   
-A ordem de comparação é _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Se os tipos de propriedade dos valores de propriedade a ser comparada não coincidirem, a função **FPropCompareProp** retorna FALSE. 
+A ordem de comparação é _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Se os tipos de propriedade dos valores de propriedade a serem comparados não corresponderem, a função **FPropCompareProp** retornará false. 
   
 

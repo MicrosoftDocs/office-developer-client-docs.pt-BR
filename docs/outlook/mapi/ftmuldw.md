@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c823a4e3d08d9082a3b5ac5c4bd8169612caa16e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 27ec919d720e1089d6e102f20485d936c9dc9808
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327997"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583992"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Multiplica um inteiro de 64 bits não assinado por um inteiro não assinado de 32 bits.
+Multiplica um inteiro de 64 bits não assinado por um inteiro de 32 bits não assinado.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 FILETIME FtMulDw(
@@ -44,14 +44,14 @@ FILETIME FtMulDw(
 
  _Multiplicador_
   
-> [in] Uma palavra dupla que contém o multiplicador de inteiro não assinado de 32 bits. 
+> no Uma palavra dupla que contém o multiplicador inteiro de 32 bits não assinado. 
     
  _Multiplicand_
   
-> [in] Uma estrutura [FILETIME](filetime.md) que contém o inteiro não assinado de 64 bits seja multiplicado pelo valor no parâmetro _multiplicador_ . 
+> no Uma estrutura [FILETIME](filetime.md) que contém o inteiro de 64 bits não assinado a ser multiplicado pelo valor no parâmetro multiplicador __ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-A função **FtMulDw** retorna uma estrutura **FILETIME** que contém o produto dos dois valores inteiros. Os dois parâmetros de entrada permanecem inalterados. 
+A função **FtMulDw** retorna uma estrutura **FILETIME** que contém o produto dos dois números inteiros. Os dois parâmetros de entrada permanecem inalterados. 
   
 

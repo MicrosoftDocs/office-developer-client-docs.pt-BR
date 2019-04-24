@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbc990a8c962883aa07987b200d1d2fd55434f93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328823"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
@@ -39,29 +39,29 @@ LONG FAR * lplRowsSought
 
  _bkOrigin_
   
-> [in] O indicador que identifica a posição inicial para a operação de busca. Um indicador pode ser criado usando o método [IMAPITable::CreateBookmark](imapitable-createbookmark.md) ou um dos seguintes valores predefinidos pode ser passado. 
+> no O indicador que identifica a posição inicial da operação de busca. Um indicador pode ser criado usando o método imApitable [:: CreateBookmark](imapitable-createbookmark.md) ou um dos seguintes valores predefinidos pode ser passado. 
     
 BOOKMARK_BEGINNING 
   
-> Inicia a operação de seek desde o início da tabela. 
+> Inicia a operação de busca desde o início da tabela. 
     
 BOOKMARK_CURRENT 
   
-> Inicia a operação de busca da linha da tabela onde o cursor está localizado. 
+> Inicia a operação Seek da linha na tabela onde o cursor está localizado. 
     
 BOOKMARK_END 
   
-> Inicia a operação de seek a partir do final da tabela. 
+> Inicia a operação de busca a partir do final da tabela. 
     
  _lRowCount_
   
-> [in] A contagem de assinado do número de linhas para mover, iniciando a partir do indicador identificado pelo parâmetro _bkOrigin_ . 
+> no A contagem assinada do número de linhas a serem movidas, começando pelo indicador identificado pelo parâmetro _bkOrigin_ . 
     
  _lplRowsSought_
   
-> [out] Se _lRowCount_ for um ponteiro nos pontos de entrada, _lplRowsSought_ para o número de linhas que foram processados na operação seek válido, no sinal de que indica a direção da pesquisa, para frente ou para trás. Se _lRowCount_ for negativo, _lplRowsSought_ for negativo. 
+> bota Se _lRowCount_ for um ponteiro válido na entrada, _lplRowsSought_ apontará para o número de linhas que foram processadas na operação Seek, o sinal que indica a direção da pesquisa, para frente ou para trás. Se _lRowCount_ for negativo, _lplRowsSought_ será negativo. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -69,7 +69,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento que impede que a operação que buscam linha seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Há outra operação em andamento que impede a inicialização da operação de busca de linha. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_INVALID_BOOKMARK 
   
@@ -77,39 +77,39 @@ MAPI_E_INVALID_BOOKMARK
     
 MAPI_W_POSITION_CHANGED 
   
-> A chamada foi bem-sucedida, mas o indicador especificado no parâmetro _bkOrigin_ não mais é definido na mesma linha como ele era quando ele foi usado por último. Se o indicador não tiver sido usado, ele não está mais na mesma posição como era quando ele foi criado. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas o indicador especificado no parâmetro _bkOrigin_ não é mais definido na mesma linha que estava quando foi usado pela última vez. Se o indicador não tiver sido usado, ele não estará mais na mesma posição que tinha quando foi criado. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::SeekRow** estabelece uma nova posição BOOKMARK_CURRENT para o cursor. O parâmetro _lRowCount_ indica o número de linhas que move o cursor e a direção da movimentação. 
+O método imApitable **:: SeekRow** estabelece uma nova posição de BOOKMARK_CURRENT para o cursor. O parâmetro _lRowCount_ indica o número de linhas que o cursor move e a direção da movimentação. 
   
-Se a posição resultante for além da última linha da tabela, o cursor é posicionado depois da última linha. Se a posição resultante for antes da primeira linha da tabela, o cursor é posicionado no início da primeira linha. 
+Se a posição resultante estiver além da última linha da tabela, o cursor será posicionado após a última linha. Se a posição resultante for anterior à primeira linha da tabela, o cursor será posicionado no início da primeira linha. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se a linha apontada pela _bkOrigin_ não existe mais na tabela, e não será possível estabelecer uma nova posição para o indicador, retorne MAPI_E_INVALID_BOOKMARK. Se a linha apontada pela _bkOrigin_ não existe mais e é possível estabelecer uma nova posição para o indicador, retorne MAPI_W_POSITION_CHANGED. 
+Se a linha indicada por _bkOrigin_ não existir mais na tabela e você não puder estabelecer uma nova posição para o indicador, retorne MAPI_E_INVALID_BOOKMARK. Se a linha indicada por _bkOrigin_ não existir mais e você puder estabelecer uma nova posição para o indicador, retorne MAPI_W_POSITION_CHANGED. 
   
-Um indicador apontando para uma linha que estiver recolhida sem o modo de exibição de tabela ainda pode ser usado. Se o chamador tenta mover o cursor para tal um indicador, mova o cursor para a próxima linha visível e retornar MAPI_W_POSITION_CHANGED. 
+Um indicador apontando para uma linha recolhida do modo de exibição de tabela ainda pode ser usado. Se o chamador tentar mover o cursor para esse indicador, mova o cursor para a próxima linha visível e retorne MAPI_W_POSITION_CHANGED. 
   
-Você pode mover indicadores posições recolhidas fora do modo de exibição, no momento do uso ou no momento em que a linha é recolhida. Se um indicador for movido no momento em que a linha estiver recolhida, lembre um pouco indicador que indica se o indicador tiver movido desde o último usá-las ou, se ele nunca tiver sido usado, desde sua criação.
+Você pode mover indicadores de posições recolhidas de modo de exibição, no momento do uso ou no momento em que a linha é recolhida. Se um indicador for movido no momento em que a linha estiver recolhida, mantenha um bit no indicador que indica se o indicador foi movido desde o último uso ou, se nunca tiver sido usado, desde sua criação.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para indicar uma movimentação com versões anteriores para **SeekRow**, passe um valor negativo em _lRowCount_. Para pesquisar até o início da tabela, passe zero em _lRowCount_ e o valor BOOKMARK_BEGINNING em _bkOrigin_. 
+Para indicar uma movimentação para trás para o **SeekRow**, passe um valor negativo em _lRowCount_. Para pesquisar até o início da tabela, passe zero no _lRowCount_ e o valor BOOKMARK_BEGINNING no _bkOrigin_. 
   
-Se houver muitas linhas da tabela, a operação **SeekRow** pode ser lenta. Desempenho também pode ser afetado se você precisar de uma contagem de linhas a serem retornados no conteúdo do parâmetro _lplRowsSought_ . 
+Se houver muitas linhas na tabela, a operação **SeekRow** poderá ser lenta. O desempenho também pode ser afetado se você precisar que uma contagem de linhas seja retornada no conteúdo do parâmetro _lplRowsSought_ . 
   
- **SeekRow** retorna o número de linhas realmente pesquisadas por meio, positivo ou negativo, na variável apontada pela _lRowCount_. Em uma operação comum, ele deve retornar o mesmo valor para _lplRowsSought_ conforme passados para a _lRowCount_, a menos que a pesquisa atingido o início ou fim da tabela. 
+ **SeekRow** retorna o número de linhas realmente pesquisadas, positivas ou negativas, na variável indicada por _lRowCount_. Na operação comum, ele deve retornar o mesmo valor para _lplRowsSought_ conforme passado para _lRowCount_, a menos que a pesquisa tenha alcançado o início ou o fim da tabela. 
   
-Não defina _lRowCount_ para um número maior que 50. Para buscar por meio de um número maior de linhas, use o método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) . 
+Não defina _lRowCount_ para um número maior que 50. Para buscar um número maior de linhas, use o método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProcessor.cpp  <br/> |CMAPIProcessor::ProcessMailboxTable  <br/> |MFCMAPI usa o método **IMAPITable::SeekRow** para localizar o início da tabela antes do processamento.  <br/> |
+|MAPIProcessor. cpp  <br/> |CMAPIProcessor::P rocessMailboxTable  <br/> |MFCMAPI usa o método imApitable **:: SeekRow** para localizar o início da tabela antes do processamento.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -126,5 +126,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

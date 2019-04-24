@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2e1cff8148815c3e03b92e4d57d1c6a303943c9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e9aee3280edbed60e97ef6e00e61f3086f6f07ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330139"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Propriedade canônica PidTagResourceMethods
 
@@ -25,30 +25,30 @@ ms.locfileid: "22578161"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask dos sinalizadores que indicam os métodos na interface do **IMAPIStatus** que são compatíveis com o objeto de status. 
+Contém uma bitmask de sinalizadores que indicam os métodos na interface **IMAPIStatus** que são compatíveis com o objeto status. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_RESOURCE_METHODS  <br/> |
 |Identificador:  <br/> |0x3E02  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Status MAPI  <br/> |
+|Área:  <br/> |Status de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade indica que os métodos de implementação de um objeto status de **IMAPIStatus** são suportados. Objetos de status são permitidos para retornar MAPI_E_NO_SUPPORT de métodos não suportados. 
+Essa propriedade indica qual dos métodos na implementação de **IMAPIStatus** de um objeto status são suportados. Os objetos de status têm permissão para retornar MAPI_E_NO_SUPPORT de métodos sem suporte. 
   
-Clientes usam status **PR_RESOURCE_METHODS** propriedade de um objeto para evitar fazer chamadas para os métodos sem suporte. Se o sinalizador que corresponde a um determinado método for definido, o método existe e pode ser chamado. Se esse sinalizador estiver desmarcada, o método não deve ser chamado. 
+Os clientes usam a propriedade **PR_RESOURCE_METHODS** de um objeto status para evitar fazer chamadas para métodos sem suporte. Se o sinalizador que corresponde a um determinado método for definido, o método existirá e poderá ser chamado. Se esse sinalizador for claro, o método não deverá ser chamado. 
   
-Os objetos de status implementadas pelo suporte a MAPI os seguintes métodos:
+Os objetos de status implementados pelo MAPI dão suporte aos seguintes métodos:
   
-|**Objeto de status**|**Métodos com suporte**|
+|**Objeto status**|**Métodos com suporte**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |**ValidateState** apenas  <br/> |
-|Catálogo de endereços MAPI  <br/> |**ValidateState** apenas  <br/> |
+|Subsistema MAPI  <br/> |**ValidateState** somente  <br/> |
+|Catálogo de endereços MAPI  <br/> |**ValidateState** somente  <br/> |
 |Spooler MAPI  <br/> |**ValidateState** e **FlushQueues** <br/> |
    
-Um ou mais dos seguintes sinalizadores podem ser definido em **PR_RESOURCE_METHODS**:
+Um ou mais dos seguintes sinalizadores podem ser definidos no **PR_RESOURCE_METHODS**:
   
 STATUS_CHANGE_PASSWORD 
   
@@ -56,27 +56,27 @@ STATUS_CHANGE_PASSWORD
     
 STATUS_FLUSH_QUEUES 
   
-> Indica que o método [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) é suportado. 
+> Indica que há suporte para o método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) . 
     
 STATUS_SETTINGS_DIALOG 
   
-> Indica que o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) é suportado. 
+> Indica que há suporte para o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) . 
     
 STATUS_VALIDATE_STATE 
   
-> Indica que o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) é suportado. 
+> Indica que o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) é suportado. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -84,7 +84,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

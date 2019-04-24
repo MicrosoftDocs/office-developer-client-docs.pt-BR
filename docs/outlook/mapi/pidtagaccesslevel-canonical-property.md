@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5138f5d255f6a90d2891fe2cf5ce92513463fa31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331994"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Propriedade canônica PidTagAccessLevel
 
@@ -25,7 +25,7 @@ ms.locfileid: "25389796"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o nível de acesso do cliente para o objeto.
+Indica o nível de acesso do cliente ao objeto.
   
 |||
 |:-----|:-----|
@@ -36,34 +36,34 @@ Indica o nível de acesso do cliente para o objeto.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é somente leitura para o cliente. Ele deve ser um dos seguintes valores:
+Essa propriedade é somente leitura para o cliente. Deve ser um dos seguintes valores:
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |0x00000000  <br/> |Somente leitura  <br/> |
-|0x00000001  <br/> |Modify  <br/> |
+|0x00000001  <br/> |Modificar  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

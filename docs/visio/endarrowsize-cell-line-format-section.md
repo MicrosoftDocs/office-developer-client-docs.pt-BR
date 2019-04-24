@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
 description: Determina o tamanho da ponta de seta no final da linha.
-ms.openlocfilehash: e03871c75857297634300c2eee091de2d0144903
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 768a2b2adb05248049377eaee07194cdb89ed810
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328982"
 ---
 # <a name="endarrowsize-cell-line-format-section"></a>Célula EndArrowSize (Seção Line Format)
 
 Determina o tamanho da ponta de seta no final da linha.
   
-|**Valor**|**Size**|**Constante de automação**|
+|**Valor**|**Tamanho**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
-|1  <br/> |Pequeno  <br/> |**visArrowSizeSmall** <br/> |
-|2  <br/> |Médio  <br/> |**visArrowSizeMedium** <br/> |
-|3  <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
-|4  <br/> |Extra grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-|5  <br/> |Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+|,0  <br/> |Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
+|1  <br/> |Small  <br/> |**visArrowSizeSmall** <br/> |
+|duas  <br/> |Média  <br/> |**visArrowSizeMedium** <br/> |
+|3D  <br/> |Large  <br/> |**visArrowSizeLarge** <br/> |
+|quatro  <br/> |Extra grande  <br/> |**visArrowSizeVeryLarge** <br/> |
+|0,5  <br/> |Empréstimo  <br/> |**visArrowSizeJumbo** <br/> |
 |6  <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Comentários

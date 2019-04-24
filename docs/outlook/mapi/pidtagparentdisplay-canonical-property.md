@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 910a62a660ea17992aa391d7453919d9fbb53c86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7aef4c1d83672033662502ad0950b7bac9f58c52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331511"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>Propriedade canônica PidTagParentDisplay
 
@@ -32,25 +32,25 @@ Contém o nome de exibição da pasta onde uma mensagem foi encontrada durante u
 |Propriedades associadas:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A, PR_PARENT_DISPLAY_W  <br/> |
 |Identificador:  <br/> |0x0E05  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades não está em qualquer objeto. Eles só podem aparecer na tabela de conteúdo de uma pasta de resultados de pesquisa.
+Essas propriedades não estão em nenhum objeto. Eles só podem aparecer na tabela de conteúdo de uma pasta de resultados de pesquisa.
   
-Essas propriedades e **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) não estão relacionados entre si. Eles pertencem ao contextos completamente diferentes.
+Essas propriedades e **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) não estão relacionadas entre si. Eles pertencem a contextos totalmente diferentes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

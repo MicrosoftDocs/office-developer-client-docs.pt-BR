@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c90b569414c1710cc1065fdb4fd72738e265ebff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d80c73aef780a0da39f3939f71462488a067de5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328375"
 ---
 # <a name="removepreprocessinfo"></a>RemovePreprocessInfo
 
@@ -25,13 +25,13 @@ ms.locfileid: "22588829"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove preprocessada informações escritas por uma função [PreprocessMessage](preprocessmessage.md) com base em uma mensagem. 
+Remove informações preprocessadas gravadas por uma função baseada em [PreprocessMessage](preprocessmessage.md) de uma mensagem. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Função definido implementada por:  <br/> |Provedores de transporte  <br/> |
-|Função definido chamada pelo:  <br/> |Spooler MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Função definida implementada por:  <br/> |Provedores de transporte  <br/> |
+|Função definida chamada por:  <br/> |Spooler MAPI  <br/> |
    
 ```cpp
 HRESULT RemovePreprocessInfo(
@@ -43,18 +43,18 @@ HRESULT RemovePreprocessInfo(
 
  _lpMessage_
   
-> [in] Ponteiro para a mensagem pré-processado do qual as informações são a ser removido.
+> no Ponteiro para a mensagem pré processada da qual as informações serão removidas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> Informações pré-processado foi removidas com êxito.
+> As informações preprocessadas foram removidas com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI spooler chama uma função com base em **RemovePreprocessInfo**. Um provedor de transporte registra a função **RemovePreprocessInfo** com base ao mesmo tempo em que ele registra a função de **PreprocessMessage** com base em paralelo em uma chamada ao método [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
+O spooler MAPI chama uma função com base no **RemovePreprocessInfo**. Um provedor de transporte registra a função baseada em **RemovePreprocessInfo** ao mesmo tempo em que registra a função do **PreprocessMessage** em paralelo em uma chamada para o método [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
   
-Uma imagem de renderização adequado para a transmissão de fax é um exemplo de informação pré-processado escrito por uma função definida pelo protótipo de função [PreprocessMessage](preprocessmessage.md). O MAPI spooler geralmente chama uma função de **RemovePreprocessInfo** após enviar uma mensagem que contém informações pré-processado. 
+Uma renderização de imagem adequada para transmissão de fax é um exemplo de informações preprocessadas gravadas por uma função definida pelo protótipo de função [PreprocessMessage](preprocessmessage.md). O spooler MAPI normalmente chama uma função **RemovePreprocessInfo** após enviar uma mensagem que contém informações preprocessadas. 
   
 

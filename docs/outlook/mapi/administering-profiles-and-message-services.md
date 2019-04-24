@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e64241008a4adde4431b2c9683199294f21e396
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330230"
 ---
 # <a name="administering-profiles-and-message-services"></a>Administrar perfis e serviços de mensagens
 
@@ -21,60 +21,60 @@ ms.locfileid: "22587541"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Perfil e a mensagem de administração do serviço pode envolver a criação de novos perfis, excluindo perfis antigos e modificar o conteúdo de perfis existentes, alterando os serviços de mensagem e os provedores de serviço contidos neles. Nem todos os clientes suportam administração do serviço de perfil e a mensagem como recursos padrão. Alguns clientes têm nada mais fazer com os perfis de permitir que os usuários selecionem um momento de logon.
+O perfil e a administração do serviço de mensagens podem envolver a criação de novos perfis, a exclusão de perfis antigos e a modificação do conteúdo de perfis existentes alterando os serviços de mensagens e provedores de serviços contidos neles. Nem todos os clientes dão suporte à administração de perfis e serviços de mensagens como recursos padrão. Alguns clientes não têm mais a ver com perfis do que permitem que os usuários selecionem um no momento do logon.
   
-Caso você ofereça suporte a administração do serviço de perfil ou mensagem, as chances são que você usará as seguintes interfaces que são implementadas pelo MAPI:
+Se você oferecer suporte à administração de perfil ou serviço de mensagens, é provável que você use as seguintes interfaces implementadas por MAPI:
   
-- [IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md) para administrar um serviço de mensagem em um perfil, acessível através do [IMAPISession::AdminServices](imapisession-adminservices.md) ou [IProfAdmin::AdminServices](iprofadmin-adminservices.md). Clientes de mensagens normalmente chama **IMAPISession** durante a configuração de clientes ou clientes que não enviar ou receber mensagens, chame **IProfAdmin**. Sempre que possível, chame o método de **IProfAdmin** porque ele não faz com que o serviço de mensagem a ser iniciado. Para obter mais informações sobre como usar a interface **IMsgServiceAdmin** , consulte os seguintes tópicos: [Configurar um serviço de mensagem](configuring-a-message-service.md), [copiando um serviço de mensagem](copying-a-message-service.md)e [Excluindo um serviço de mensagem](deleting-a-message-service.md).
+- [IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md) para administrar um serviço de mensagens em um perfil, acessível por meio de [IMAPISession: adminservices](imapisession-adminservices.md) ou [IProfAdmin:: adminservices](iprofadmin-adminservices.md). Os clientes de mensagens normalmente chamam o **IMAPISession** de clientes de configuração, ou clientes que não enviam ou recebem mensagens, chamam **IProfAdmin**. Sempre que possível, chame o método **IProfAdmin** porque ele não faz com que o serviço de mensagem seja iniciado. Para obter mais informações sobre como usar a interface **IMsgServiceAdmin** , consulte os seguintes tópicos: Configurando [um serviço de mensagens](configuring-a-message-service.md), [copiando um serviço de mensagens](copying-a-message-service.md)e excluindo [um serviço de mensagens](deleting-a-message-service.md).
     
-- [IProfAdmin: IUnknown](iprofadminiunknown.md) para administrar um perfil, acessado por meio da função [MAPIAdminProfiles](mapiadminprofiles.md) . Para obter mais informações sobre como usar a interface **IProfAdmin** , consulte os seguintes tópicos: [criação de um perfil usando código de sinalizador](creating-a-profile-by-using-custom-code.md), [copiando um perfil](copying-a-profile.md), [exclusão de um perfil](deleting-a-profile.md), [encontrando um nome de perfil](finding-a-profile-name.md)e [configuração um Perfil padrão](setting-a-default-profile.md).
+- [IProfAdmin: IUnknown](iprofadminiunknown.md) para administrar um perfil, acessível através da função [MAPIAdminProfiles](mapiadminprofiles.md) . Para obter mais informações sobre como usar a interface **IProfAdmin** , consulte os seguintes tópicos: [criando um perfil usando código personalizado](creating-a-profile-by-using-custom-code.md), [copiando](copying-a-profile.md)um perfil, excluindo um [perfil](deleting-a-profile.md), [encontrando um nome de perfil](finding-a-profile-name.md)e [definindo um Perfil padrão](setting-a-default-profile.md).
     
-- [IProfSect: IMAPIProp](iprofsectimapiprop.md) para manter as propriedades em uma seção de perfil, acessada por meio do método [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) ou [IProviderAdmin::OpenProfileSection](iprovideradmin-openprofilesection.md) . Para obter mais informações sobre as seções de perfil, consulte [Perfis MAPI](mapi-profiles.md).
+- [IProfSect: IMAPIProp](iprofsectimapiprop.md) para manter as propriedades em uma seção de perfil, acessível através do método [IMAPISession:: OpenProfileSection](imapisession-openprofilesection.md) ou [IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md) . Para obter mais informações sobre seções de perfil, consulte [MAPI](mapi-profiles.md)Profiles.
     
-- [IProviderAdmin: IUnknown](iprovideradminiunknown.md) para administrar os provedores de serviços em um serviço de mensagem, acessível através do [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md). Para obter mais informações sobre como usar a interface **IProviderAdmin** , consulte [adicionando ou excluindo provedores em um serviço de mensagem](adding-or-deleting-providers-in-a-message-service.md).
+- [IProviderAdmin: IUnknown](iprovideradminiunknown.md) para administrar os provedores de serviço em um serviço de mensagens, acessível através de [IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md). Para obter mais informações sobre como usar a interface **IProviderAdmin** , confira [Adicionar ou excluir provedores em um serviço de mensagens](adding-or-deleting-providers-in-a-message-service.md).
     
-Tenha cuidado no seu suporte da administração do serviço de perfil e mensagem. Não há nenhuma proteções para proteger contra adversamente para modificar um perfil que está em uso. MAPI pode impedir a exclusão de um perfil em uso, mas não pode impedir a exclusão de cada serviço de mensagem nela. Se você excluir cada serviço de mensagem em um perfil, todos os provedores de serviço nesses serviços irá parar causando assim resultados imprevisíveis ocorra.
+Tenha cuidado ao dar suporte à administração de perfis e serviços de mensagens. Não há garantias de proteção contra a modificação adversa de um perfil que está em uso. O MAPI pode impedir a exclusão de um perfil em uso, mas não pode impedir a exclusão de todos os serviços de mensagens. Se você excluir todos os serviços de mensagens em um perfil, todos os provedores de serviços desses serviços serão interrompidos, fazendo com que ocorram resultados imprevisíveis.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criação de um perfil](creating-a-profile.md)
+[Criar um perfil](creating-a-profile.md)
   
 > Descreve como criar um perfil.
     
-[Copiando um perfil](copying-a-profile.md)
+[Copiar um perfil](copying-a-profile.md)
   
 > Descreve como copiar um perfil.
     
-[Exclusão de um perfil](deleting-a-profile.md)
+[Excluir um perfil](deleting-a-profile.md)
   
 > Descreve como excluir um perfil.
     
-[Definir um perfil padrão](setting-a-default-profile.md)
+[ConFigurando um perfil padrão](setting-a-default-profile.md)
   
 > Descreve como definir um perfil padrão.
     
-[Localizando um nome de perfil](finding-a-profile-name.md)
+[Localizar um nome de perfil](finding-a-profile-name.md)
   
-> Descreve como localizar um nome de um perfil.
+> Descreve como localizar o nome de um perfil.
     
-[Adição de um serviço de mensagem](adding-a-message-service.md)
+[Adicionar um serviço de mensagens](adding-a-message-service.md)
   
-> Descreve como adicionar um serviço de mensagem.
+> Descreve como adicionar um serviço de mensagens.
     
-[Configurando um serviço de mensagem](configuring-a-message-service.md)
+[ConFigurando um serviço de mensagens](configuring-a-message-service.md)
   
-> Descreve como configurar um serviço de mensagem.
+> Descreve como configurar um serviço de mensagens.
     
-[Copiar um serviço de mensagem](copying-a-message-service.md)
+[Copiar um serviço de mensagens](copying-a-message-service.md)
   
-> Descreve como copiar um serviço de mensagem para um perfil.
+> Descreve como copiar um serviço de mensagens para um perfil.
     
-[Excluindo um serviço de mensagem](deleting-a-message-service.md)
+[Excluir um serviço de mensagens](deleting-a-message-service.md)
   
-> Descreve como excluir um serviço de mensagem.
+> Descreve como excluir um serviço de mensagens.
     
-[Adicionando ou excluindo provedores em um serviço de mensagem](adding-or-deleting-providers-in-a-message-service.md)
+[Adicionar ou excluir provedores em um serviço de mensagens](adding-or-deleting-providers-in-a-message-service.md)
   
-> Descreve como adicionar ou excluir provedores em um serviço de mensagem.
+> Descreve como adicionar ou excluir provedores em um serviço de mensagens.
     
 

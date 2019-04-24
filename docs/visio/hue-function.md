@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
 description: Retorna o valor do componente de matiz de uma cor.
-ms.openlocfilehash: 2a532e305eb7cbabc5ba07dcace6c07a337e7743
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39fdd160f5cd792e95930a3e7c7cea3c37ed16c1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329908"
 ---
 # <a name="hue-function"></a>Função HUE
 
@@ -26,13 +26,13 @@ MATIZ (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma expressão que é avaliada para uma cor.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
@@ -40,13 +40,13 @@ O valor retornado é um número entre 0 e 239, inclusive. A entrada é um índic
   
 ## <a name="example-1"></a>Exemplo 1
 
-MATIZ (Sheet.4! FillForegnd)
+MATIZ (planilha. 4! FillForegnd
   
 Retornará a matiz da cor de preenchimento de primeiro plano de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-HUE(7)
+MATIZ (7)
   
 Retornará 120 se o documento utilizar a paleta de cores padrão do Microsoft Visio, sendo ciano a cor do índice 7.
   

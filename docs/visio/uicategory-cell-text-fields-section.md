@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: Determina a categoria de um campo inserido em versões do Visio anteriores à versão Visio 2000.
-ms.openlocfilehash: fc060ac1533732749d10e1855dc3841602051520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331196"
 ---
 # <a name="uicategory-cell-text-fields-section"></a>Célula UICategory (Seção Text Fields)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula UICategory pelo nome, a partir de outra fórmu
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Fields.UICat [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Fields. UICat [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula UICategory pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28eafc29a9d711b7d98444ebb330df1145f86628
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa30a1b07f2b1f3c9ca837b5ddda629b3d8737f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329334"
 ---
 # <a name="pidtagnondeliveryreportfromname-canonical-property"></a>Propriedade canônica PidTagNonDeliveryReportFromName
 
@@ -25,32 +25,32 @@ ms.locfileid: "22591433"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se definido em um relatório de não entrega, denotará o nome de enviar com falha-como usuário.
+Se definido em um relatório de não entrega, indica o nome do usuário enviado com falha.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_NDR_FROM_NAME  <br/> |
 |Identificador:  <br/> |0x6905  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331882"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Propriedade canônica PidTagContentLength
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572799"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um tamanho de mensagem, em bytes, passadas para um aplicativo cliente ou o provedor de serviços para determinar se uma mensagem de que o comprimento pode ser entregues. 
+Contém um tamanho de mensagem, em bytes, passado para um aplicativo cliente ou provedor de serviços para determinar se uma mensagem desse tamanho pode ser entregue. 
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contém um tamanho de mensagem, em bytes, passadas para um aplicativo cliente ou
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

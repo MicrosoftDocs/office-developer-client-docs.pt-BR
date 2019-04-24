@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f8396ca84192e485d33fb5a96f641361b717584
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328191"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592196"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Força todas as mensagens aguardando para ser enviado ou recebido para ser carregadas ou baixadas imediatamente. Os objetos de status que implementam provedores de transporte e o objeto de status do MAPI spooler suportam este método.
+Força todas as mensagens aguardando para serem enviadas ou recebidas para serem carregadas ou baixadas imediatamente. O objeto de status do spooler MAPI e os objetos de status que os provedores de transporte implementam dão suporte a esse método.
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,23 +40,23 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> [in] Um identificador para a janela pai de todas as caixas de diálogo ou windows que esse método exibe.
+> no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.
     
  _cbTargetTransport_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpTargetTransport_ . O parâmetro _cbTargetTransport_ é definido somente em chamadas para objeto de status do MAPI spooler. Para chamadas a um provedor de transporte, o parâmetro _cbTargetTransport_ é definido como 0. 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpTargetTransport_ . O parâmetro _cbTargetTransport_ é definido somente em chamadas para o objeto status do spooler MAPI. Para chamadas para um provedor de transporte, o parâmetro _cbTargetTransport_ é definido como 0. 
     
  _lpTargetTransport_
   
-> [in] Um ponteiro para o identificador de entrada do provedor de transporte que seja a liberar seus filas de mensagens. O parâmetro _lpTargetTransport_ é definido somente em chamadas para objeto de status do MAPI spooler. Para chamadas a um provedor de transporte, o parâmetro _lpTargetTransport_ é definido como NULL. 
+> no Um ponteiro para o identificador de entrada do provedor de transporte que deve liberar suas filas de mensagens. O parâmetro _lpTargetTransport_ é definido somente em chamadas para o objeto status do spooler MAPI. Para chamadas para um provedor de transporte, o parâmetro _lpTargetTransport_ é definido como nulo. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla a operação de liberação. Sinalizadores a seguir podem ser definidos:
+> no Uma bitmask de sinalizadores que controlam a operação de liberação. Os seguintes sinalizadores podem ser definidos:
     
 FLUSH_ASYNC_OK 
   
-> A operação de liberação pode ocorrer assincronamente. Esse sinalizador se aplica somente ao objeto de status do spooler MAPI. 
+> A operação de liberação pode ocorrer de forma assíncrona. Este sinalizador se aplica somente ao objeto status do spooler MAPI. 
     
 FLUSH_DOWNLOAD 
   
@@ -64,11 +64,11 @@ FLUSH_DOWNLOAD
     
 FLUSH_FORCE 
   
-> A operação de liberação deve ocorrer independentemente, apesar da possibilidade de que uma diminuição no desempenho. Esse sinalizador deve ser definida quando um provedor de transporte assíncrono está programado.
+> A operação de liberação deve ocorrer independentemente da chance de uma redução no desempenho. Esse sinalizador deve ser definido quando um provedor de transporte assíncrono é direcionado.
     
 FLUSH_NO_UI 
   
-> O objeto status não deverá exibir um indicador de progresso.
+> O objeto status não deve exibir um indicador de progresso.
     
 FLUSH_UPLOAD 
   
@@ -82,35 +82,35 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento. ele deve ter permissão para concluir ou ele deve ser interrompido, antes que esta operação pode ser iniciada.
+> Outra operação está em andamento; Ele deve ter permissão para ser concluído ou deve ser interrompido antes que essa operação possa ser iniciada.
     
 MAPI_E_NO_SUPPORT 
   
-> O objeto status não suporta essa operação, conforme indicado pela ausência do sinalizador STATUS_FLUSH_QUEUES na propriedade de **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto status.
+> O objeto status não oferece suporte a essa operação, conforme indicado pela ausência do sinalizador STATUS_FLUSH_QUEUES na propriedade **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto status.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIStatus::FlushQueues** solicita que o spooler MAPI ou um provedor de transporte imediatamente enviar todas as mensagens na fila de saída ou recebe todas as mensagens da fila de entrada. **FlushQueues** é implementado apenas pelo objeto de status de spooler MAPI e por objetos de status que suprimentos de provedores de transporte. 
+O método **IMAPIStatus:: FlushQueues** solicita que o spooler MAPI ou um provedor de transporte envie imediatamente todas as mensagens na fila de saída ou receba todas as mensagens da fila de entrada. **FlushQueues** é implementada apenas pelo objeto de status do spooler MAPI e por objetos de status que os provedores de transporte fornecem. 
   
-MAPI_E_BUSY devem ser retornadas para solicitações assíncronas, para que os clientes possam continuar o trabalho. 
+MAPI_E_BUSY deve ser retornado para solicitações assíncronas para que os clientes possam continuar a trabalhar. 
   
-Por padrão, **FlushQueues** é uma operação síncrona; controle não retorna ao chamador até que a liberação foi concluída. Somente a liberação operação executada pelo spooler MAPI pode ser assíncrona; os clientes solicitam esse comportamento, definindo o sinalizador FLUSH_ASYNC_OK. 
+Por padrão, **FlushQueues** é uma operação síncrona; o controle não retorna ao chamador até que a liberação tenha sido concluída. Somente a operação de liberação executada pelo spooler MAPI pode ser assíncrona; Os clientes solicitam esse comportamento definindo o sinalizador FLUSH_ASYNC_OK. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Implementação do provedor de um transporte remoto **FlushQueues** define bits na propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) na linha de status do objeto logon para controlar como as filas são liberadas. Se um visualizador remoto passa na sinalizar FLUSH_UPLOAD, o método **FlushQueues** deve definir os bits STATUS_INBOUND_ENABLED e STATUS_INBOUND_ACTIVE. Se um visualizador remoto passa na sinalizar FLUSH_DOWNLOAD, o método **FlushQueues** deve definir os bits STATUS_OUTBOUND_ENABLED e STATUS_OUTBOUND_ACTIVE. **FlushQueues** , em seguida, deve retornar S_OK. O MAPI spooler então iniciarão as ações apropriadas para carregar e baixar mensagens. 
+A implementação de um provedor de transporte remoto do **FlushQueues** define bits na propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) na linha de status do objeto de logon para controlar como as filas são liberadas. Se um visualizador remoto passar no sinalizador FLUSH_UPLOAD, o método **FlushQueues** deverá definir os bits do STATUS_INBOUND_ENABLED e do STATUS_INBOUND_ACTIVE. Se um visualizador remoto passar no sinalizador FLUSH_DOWNLOAD, o método **FlushQueues** deverá definir os bits do STATUS_OUTBOUND_ENABLED e do STATUS_OUTBOUND_ACTIVE. **FlushQueues** deve retornar S_OK. O spooler MAPI iniciará as ações apropriadas para carregar e baixar mensagens. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Uma chamada para o objeto de status do MAPI spooler é uma diretiva para transferir todas as mensagens de ou o provedor de transporte adequado. Quando você chama o objeto de status de um provedor transporte individual, somente as mensagens desse provedor serão afetadas.
+Uma chamada para o objeto de status MAPI spooler é uma diretiva para transferir todas as mensagens de ou para o provedor de transporte apropriado. Quando você chama o objeto status de um provedor de transporte individual, somente as mensagens desse provedor são afetadas.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
-[Propriedade canônico de PidTagStatusCode](pidtagstatuscode-canonical-property.md)
+[Propriedade canônica PidTagStatusCode](pidtagstatuscode-canonical-property.md)
   
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

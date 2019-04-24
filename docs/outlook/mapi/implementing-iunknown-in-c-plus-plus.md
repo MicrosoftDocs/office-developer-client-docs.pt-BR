@@ -9,19 +9,19 @@ api_type:
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330174"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implementar interface IUnknown em C++
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Implementar os métodos [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) em C++ é razoavelmente simple. Após algum validação padrão dos parâmetros que sejam passados, uma implementação de **QueryInterface** verifica o identificador da interface solicitada contra a lista das interfaces com suporte. Se o identificador solicitado for entre aqueles que têm suporte, **AddRef** é chamado e o ponteiro **this** é retornado. Se o identificador solicitado não estiver ligado a lista com suporte, o ponteiro de saída é definido como nulo e o valor MAPI_E_INTERFACE_NOT_SUPPORTED será retornado. 
+A implementação dos métodos [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) no C++ é muito simples. Após algumas validações padrão dos parâmetros passados, uma implementação de **QueryInterface** verifica o identificador da interface solicitada em relação à lista de interfaces suportadas. Se o identificador solicitado estiver entre eles com suporte, **AddRef** será chamado e **** o ponteiro será retornado. Se o identificador solicitado não estiver na lista com suporte, o ponteiro de saída será definido como nulo e o valor MAPI_E_INTERFACE_NOT_SUPPORTED será retornado. 
   
-O exemplo de código a seguir mostra como você pode implementar **QueryInterface** em C++ para um objeto de status, um objeto que é uma subclasse do [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface. **IMAPIStatus** herda de **IUnknown** através de [IMAPIProp: IUnknown](imapipropiunknown.md). Portanto, se um chamador pedir para qualquer uma dessas interfaces, o ponteiro **this** pode ser retornado porque as interfaces estão relacionadas por meio de herança. 
+O exemplo de código a seguir mostra como você pode implementar **QueryInterface** no C++ para um objeto status, um objeto que é uma subclasse da interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . **IMAPIStatus** herda de **IUnknown** a [IMAPIProp: IUnknown](imapipropiunknown.md). Portanto, se um chamador solicitar qualquer uma dessas interfaces, o ponteiro **** pode ser retornado porque as interfaces estão relacionadas através de herança. 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-O exemplo de código a seguir mostra como implementar os métodos **AddRef** e **Release** para o `CMyMAPIObject` objeto. Como implementar **AddRef** e **Release** seja simples, muitos provedores de serviço escolher implementá-las embutida. As chamadas para as funções de Win32 **InterlockedIncrement** e **InterlockedDecrement** garantem a segurança do thread. A memória para o objeto é liberada pelo destrutor, o que é chamado quando o método **versão** exclui o objeto. 
+O exemplo de código a seguir mostra como implementar os métodos **AddRef** e **Release** para `CMyMAPIObject` o objeto. Como a implementação de **AddRef** e **Release** é direta, muitos provedores de serviço optam por implementá-los embutidos. As chamadas para as funções do Win32 **InterlockedIncrement** e **InterlockedDecrement** garantem a segurança do thread. A memória do objeto é liberada pelo destruidor, que é chamado quando o método **Release** exclui o objeto. 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()
@@ -67,6 +67,6 @@ ULONG CMyMAPIObject::Release()
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
-- [Implementando a Interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementar a interface IUnknown](implementing-the-iunknown-interface.md)
 

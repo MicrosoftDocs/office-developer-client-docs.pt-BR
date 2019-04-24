@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 53226daafd1c0a53f96db5af3432d6f34738fd93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30ed8053c9c3d77f4831da37ddd2456ad0564a5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331889"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Propriedade canônica PidTagContentIntegrityCheck
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585805"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de verificação de integridade do conteúdo de ASN. 1 que permite que um remetente da mensagem proteger o conteúdo da mensagem do divulgação para destinatários não autorizados.
+Contém um valor de verificação de integridade de conteúdo ASN. 1 que permite que um remetente de mensagem proteja o conteúdo da mensagem contra divulgação para destinatários não autorizados.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um valor de verificação de integridade do conteúdo de ASN. 1 que perm
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade oferece para não-recusa do conteúdo da mensagem. Em conjunto com **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), ele garante que o conteúdo de uma mensagem chega ao seu destino inalterado.
+Essa propriedade fornece o conteúdo de mensagens não recusadas. Em conjunto com o **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), ele garante que o conteúdo de uma mensagem chega ao seu destino inalterado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

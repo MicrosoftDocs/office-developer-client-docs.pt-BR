@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: acec07df0b72685cf9ec6b21499c730b72f58c59
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328109"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicializa a um provedor de catálogo de endereços para a operação. 
+Inicializa um provedor de catálogo de endereços para operação. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Implementada por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Chamado por:  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT ABProviderInit(
@@ -49,27 +49,27 @@ HRESULT ABProviderInit(
 
  _hInstance_
   
-> [in] A instância de biblioteca de vínculo dinâmico do provedor de catálogo de endereços (DLL) que MAPI usado quando vinculado. 
+> no A instância da biblioteca de vínculo dinâmico (DLL) do provedor do catálogo de endereços que o MAPI usou quando se vinculou. 
     
  _lpMalloc_
   
-> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE **IMalloc** . Talvez seja necessário usar esse método de alocação ao trabalhar com certas interfaces como **IStream**o provedor de catálogo de endereços. 
+> no Ponteiro para um objeto de alocador de memória expondo a interface **IMalloc** do OLE. O provedor de catálogo de endereços pode precisar usar esse método de alocação ao trabalhar com determinadas interfaces, como **IStream**. 
     
  _lpAllocateBuffer_
   
-> [in] Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , que será usada onde exigidos pelo MAPI para alocar memória. 
+> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado onde o MAPI deve alocar memória. 
     
  _lpAllocateMore_
   
-> [in] Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , que será usada onde exigidos pelo MAPI para alocar memória adicional. 
+> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , a ser usado, onde o MAPI deve alocar memória adicional. 
     
  _lpFreeBuffer_
   
-> [in] Ponteiro para a função de [MAPIFreeBuffer](mapifreebuffer.md) , para ser usada onde exigidos pelo MAPI para liberar memória. 
+> no Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , a ser usado onde o MAPI deve liberar memória. 
     
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores. O seguinte sinalizador pode ser definido:
     
 MAPI_NT_SERVICE 
   
@@ -77,39 +77,39 @@ MAPI_NT_SERVICE
     
  _ulMAPIVer_
   
-> [in] Número de versão da interface do provedor de serviço (SPI) que MAPI. Usa a DLL. Para o número da versão atual, consulte o MAPISPI. Arquivo de cabeçalho H. 
+> no Número da versão da interface do provedor de serviços (SPI) que o MAPI. DLL usa. Para o número da versão atual, consulte o MAPISPI. Arquivo de cabeçalho H. 
     
  _lpulProviderVer_
   
-> [out] Ponteiro para o número de versão da SPI que usa esse provedor de catálogo de endereços. 
+> bota Ponteiro para o número da versão do SPI que este provedor de catálogo de endereços usa. 
     
  _lppABProvider_
   
-> [out] Ponteiro para um ponteiro para o objeto de provedor de catálogo de endereços inicializada.
+> bota Ponteiro para um ponteiro para o objeto do provedor de catálogo de endereços inicializado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
+> A chamada teve êxito e retornou o valor ou valores esperados. 
     
 MAPI_E_VERSION 
   
-> A versão EDA sendo usada pelo MAPI não é compatível com o SPI sendo usado por este provedor.
+> A versão SPI que está sendo usada pelo MAPI não é compatível com o SPI que está sendo usado por este provedor.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama a função do ponto de entrada **ABProviderInit** ao inicializar um provedor de catálogo de endereços seguindo um logon do cliente. 
+MAPI chama a função de ponto de entrada **ABProviderInit** para inicializar um provedor de catálogo de endereços após um logon do cliente. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Um provedor de catálogo de endereços deve implementar **ABProviderInit** como uma função de ponto de entrada na DLL do provedor. A implementação deve se basear no protótipo de função **ABPROVIDERINIT** , também especificado em MAPISPI. H. MAPI define **ABPROVIDERINIT** para usar o MAPI inicialização chamada tipo padrão, STDMAPIINITCALLTYPE, que faz com que o **ABProviderInit** a seguir a convenção de chamada CDECL. 
+Um provedor de catálogo de endereços deve implementar **ABProviderInit** como uma função de ponto de entrada na DLL do provedor. A implementação deve ser baseada no protótipo de função **ABPROVIDERINIT** , também especificado em MAPISPI. 0. MAPI define **ABPROVIDERINIT** para usar o tipo de chamada de inicialização MAPI padrão, STDMAPIINITCALLTYPE, que faz com que o **ABPROVIDERINIT** siga a Convenção de chamada do cdecl. 
   
-Um provedor pode ser inicializado várias vezes, como resultado que aparecem em vários perfis em uso simultâneo ou do que aparecem mais de uma vez no mesmo perfil. Porque o objeto de provedor contém contexto, **ABProviderInit** deve retornar um objeto de provedor diferente em _lppABProvider_ para cada inicialização, mesmo para várias inicializações no mesmo processo. 
+Um provedor pode ser inicializado várias vezes, como resultado da apresentação de vários perfis em uso simultâneo ou de ser exibido mais de uma vez no mesmo perfil. Como o objeto Provider contém contexto, **ABProviderInit** deve retornar um objeto Provider diferente no _lppABProvider_ para cada inicialização, mesmo para várias inicializações no mesmo processo. 
   
-O provedor de catálogo de endereços deve usar as funções apontadas pela _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ para a maioria dos alocação de memória e desalocação. Em particular, o provedor deve usar essas funções para alocar memória para uso por aplicativos do cliente, ao chamar interfaces de objeto, como [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md). Se o provedor de espera-se também usar o alocador de memória OLE, ele deve chamar o método **AddRef** do objeto alocador apontado pelo parâmetro _lpMalloc_ . 
+O provedor de catálogo de endereços deve usar as funções apontadas por _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ para a maior parte da alocação de memória e desalocação. Em particular, o provedor deve usar essas funções para alocar memória para uso por aplicativos cliente ao chamar interfaces de objeto, como [IMAPIProp::](imapiprop-getprops.md) GetProps e IMAPITable [:: QueryRows](imapitable-queryrows.md). Se o provedor também espera usar o alocador de memória OLE, ele deve chamar o método **IUnknown:: AddRef** do objeto de alocador apontado pelo parâmetro _lpMalloc_ . 
   
-Para obter mais informações sobre como escrever **ABProviderInit**, consulte [Implementando uma função de ponto de entrada do endereço livro provedor](implementing-an-address-book-provider-entry-point-function.md). Para obter mais informações sobre as funções de ponto de entrada, consulte [Implementando uma função de ponto de entrada do serviço provedor](implementing-a-service-provider-entry-point-function.md). 
+Para saber mais sobre como escrever **ABProviderInit**, confira [a implementação de uma função de ponto de entrada do provedor de catálogo de endereços](implementing-an-address-book-provider-entry-point-function.md). Para obter mais informações sobre funções de ponto de entrada, consulte [implementando uma função de ponto de entrada do provedor de serviços](implementing-a-service-provider-entry-point-function.md). 
   
 ## <a name="see-also"></a>Confira também
 

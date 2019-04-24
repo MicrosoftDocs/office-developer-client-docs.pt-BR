@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 description: Mostra a formatação de caracteres aplicada a um intervalo de texto no bloco de texto da forma.
-ms.openlocfilehash: 48bda5eb798f439e2616b2b910d7ec5ac719d060
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 349bdc42485aa511011aeb85a43f1ab3e4ea853d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329808"
 ---
 # <a name="style-cell-character-section"></a>Célula Style (Seção Character)
 
 Mostra a formatação de caracteres aplicada a um intervalo de texto no bloco de texto da forma.
   
-|**Style**|**Valor**|**Constante de automação**|
+|**Estilo**|**Valor**|**Constante de automação**|
 |:-----|:-----|:-----|
-| Negrito  <br/> | &amp;H1  <br/> |**visBold** <br/> |
-| Itálico  <br/> | &amp;H2  <br/> |**visItalic** <br/> |
+| Negrito  <br/> | &amp;Semestre  <br/> |**visBold** <br/> |
+| Itálico  <br/> | &amp;S2  <br/> |**visItalic** <br/> |
 | Sublinhado  <br/> | &amp;H4  <br/> |**visUnderLine** <br/> |
 | Caixa alta  <br/> | &amp;H8  <br/> |**visSmallCaps** <br/> |
    
@@ -31,13 +31,13 @@ Mostra a formatação de caracteres aplicada a um intervalo de texto no bloco de
 
 A célula Style conterá informações de formatação aplicada a um subintervalo de texto de uma forma se a seção Characters contiver diversas linhas. Caso contrário, ela conterá informações de formatação para todo o texto da forma.
   
-O valor representa um número binário em que cada bit indica um estilo de caractere. Por exemplo, um valor de 3 representa o texto formatado em itálico e negrito. Se o valor do estilo for 0, o texto é simples ou não formatado. Você pode testar para um determinado formato utilizando Boolean BIT\* funções. Consulte a documentação de programação para obter detalhes sobre essas funções.
+O valor representa um número binário no qual cada bit indica um estilo de caractere. Por exemplo, um valor de 3 representa o texto formatado em itálico e negrito. Se o valor da célula Style for 0, o texto não terá formatação. Você pode testar um formato específico usando funções de BIT\* Boolean. Consulte a documentação de programação para obter detalhes sobre essas funções.
   
 Para fazer referência à célula Style pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char.Style [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char. Style [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Style pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -51,7 +51,7 @@ Para fazer referência à célula Style pelo índice, a partir de um programa, u
   
 Suponha que a célula Color na primeira linha da seção Character de uma forma esteja definida para esta fórmula:
   
-= IF(BITAND(Char.Style,1)=1,4,3)
+= SE (BITAND (Char. Style, 1) = 1, 4, 3)
   
 Então, se o primeiro caractere do texto da forma for negrito, o texto abrangido pela primeira linha de propriedades da seção Character será azul (4); caso contrário, ele será verde (3). Esse exemplo supõe que as cores padrão estejam sendo usadas.
   

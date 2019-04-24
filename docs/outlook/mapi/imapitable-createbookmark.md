@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329005"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
@@ -37,13 +37,13 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> [out] Ponteiro para o valor retornado indicador de 32 bits. Este indicador posteriormente pode ser passado em uma chamada ao método [IMAPITable::SeekRow](imapitable-seekrow.md) . 
+> bota Aponta para o valor de indicador de 32 bits retornado. Este indicador pode ser passado posteriormente em uma chamada para o método imApitable [:: SeekRow](imapitable-seekrow.md) . 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
@@ -51,21 +51,21 @@ MAPI_E_UNABLE_TO_COMPLETE
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::CreateBookmark** marca uma posição tabela criando um valor chamado um indicador. Um indicador pode ser usado para retornar à posição identificada pelo indicador. A posição marcado pelo indicador está associada com o objeto nesse objeto row na tabela. 
+O método imApitable **:: CreateBookmark** marca uma posição de tabela criando um valor chamado indicador. Um indicador pode ser usado para retornar à posição identificada pelo indicador. A posição com indicador é associada ao objeto nessa linha na tabela. 
   
-Indicadores não são suportados em tabelas de anexo e implementações de tabela de anexo do **CreateBookmark** retornam MAPI_E_NO_SUPPORT. 
+Não há suporte para indicadores em tabelas de anexos e implementações de tabelas **** de anexos de MAPI_E_NO_SUPPORT de retorno de CreateBookmark. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Devido a despesa com a memória de manter as posições de cursor com marcadores, limite o número de indicadores que você pode criar. Quando você chegar a esse número, retorne MAPI_E_UNABLE_TO_COMPLETE de todas as chamadas subsequentes aos **CreateBookmark**.
+Por causa da despesa de memória de manter posições de cursor com indicadores, limite o número de indicadores que você pode criar. Quando chegar a esse número, retorne MAPI_E_UNABLE_TO_COMPLETE de todas as chamadas **** subsequentes para CreateBookmark.
   
-Em alguns casos, um indicador aponta para uma linha que não está mais no modo de exibição de tabela. Se um chamador usar tal um indicador, mova o cursor para a próxima linha visível e parar lá. 
+Às vezes, um indicador aponta para uma linha que não está mais no modo de exibição de tabela. Se um chamador usar esse indicador, mova o cursor para a próxima linha visível e pare lá. 
   
-Quando o chamador tenta usar um indicador que está apontando para uma linha arquvo porque ele ter sido recolhido, retorne MAPI_W_POSITION_CHANGED depois de mover o indicador. Você pode reposicionar o indicador para a próxima linha visível no momento ou quando o recolhimento ocorre no método **SetCollapseState** . Se você mover o indicador no momento em que a linha estiver recolhida, você deverá manter um pouco no indicador que indica exatamente quando o indicador foi movido: desde que use sua última ou se nunca tiver sido usado desde sua criação. 
+Quando o chamador tenta usar um indicador que aponta para uma linha não visível porque foi recolhido, retorne MAPI_W_POSITION_CHANGED após mover o indicador. Você pode reposicionar o indicador para a próxima linha visível no momento ou quando o recolhimento ocorre no método setCollapsestate. **** Se você mover o indicador no momento em que a linha estiver recolhida, deverá manter um bit no indicador que indica exatamente quando o indicador foi movido: desde o último uso ou se ele nunca tiver sido usado desde sua criação. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **CreateBookmark** aloca memória para o indicador que ele cria. Libere os recursos para o indicador chamando o método [IMAPITable::FreeBookmark](imapitable-freebookmark.md) . 
+ **CreateBookmark** aloca memória para o indicador que cria. Libere os recursos para o indicador chamando o método [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) . 
   
 ## <a name="see-also"></a>Confira também
 

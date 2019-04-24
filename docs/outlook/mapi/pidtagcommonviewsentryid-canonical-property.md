@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7449e59227b147d34c2329175d0251dbb9c427b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e22b8905901f16606614ac918896f3afe0093752
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331742"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>Propriedade canônica PidTagCommonViewsEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22581339"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta de exibição comuns predefinidos. 
+Contém o identificador de entrada da pasta de modo de exibição comum predefinida. 
   
 |||
 |:-----|:-----|
@@ -36,34 +36,34 @@ Contém o identificador de entrada da pasta de exibição comuns predefinidos.
    
 ## <a name="remarks"></a>Comentários
 
-A pasta de exibição comuns contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidas por um usuário de mensagens. Essas pastas, que não são visíveis na hierarquia de mensagem interpessoais (IPM), podem conter várias especificadores de exibição, cada uma delas armazenada como uma mensagem. Um aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e disponibilizá-los ambos. 
+A pasta de modo de exibição comum contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidos por um usuário de mensagens. Essas pastas, que não estão visíveis na hierarquia de mensagens interpessoais (IPM), podem conter vários especificadores de exibição, cada um armazenado como uma mensagem. Um aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e torná-los disponíveis. 
   
-Para obter mais informações sobre modos de exibição, consulte [Exibir pastas](mapi-view-folders.md).
+Para obter mais informações sobre modos de [exibição](mapi-view-folders.md), consulte View Folders.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Propriedade canônica PidTagDefaultViewEntryId Canonical](pidtagdefaultviewentryid-canonical-property.md)
+[Propriedade canônica Pidtagdefaultviewentryid Canonical](pidtagdefaultviewentryid-canonical-property.md)
   
 [Propriedade canônica PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

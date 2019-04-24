@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6fe724d70ac86b1c51e72f243ef9255dd452be9c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330090"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propriedade canônica PidTagScheduleInfoAutoAcceptAppointments
 
@@ -25,30 +25,30 @@ ms.locfileid: "25386884"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se um cliente ou servidor automaticamente deve responder a todas as solicitações de reunião para o recurso ou participante.
+Contém TRUE se um cliente ou servidor deve responder automaticamente a todas as solicitações de reunião do participante ou recurso.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Identificador:  <br/> |0x686D  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Informações de disponibilidade  <br/> |
+|Área:  <br/> |Disponibilidade  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Ao responder, a resposta deve ser aceitação, a menos que uma restrição adicional que é especificado pela **PR_SCHDINFO_DISALLOW_ ou **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) OVERLAPPING_APPTS** propriedades ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) for atingido. Um valor falso ou a ausência dessa propriedade indica que um cliente ou servidor deve não aceitar automaticamente solicitações de reunião. Isso não é uma propriedade necessária.
+Ao responder, a resposta deve ser aceita, a menos que uma restrição adicional especificada pelo **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) ou **PR_SCHDINFO_DISALLOW_ OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) Propriedades é atendida. Um valor FALSE ou a ausência dessa propriedade indica que um cliente ou servidor não deve aceitar automaticamente solicitações de reunião. Essa não é uma propriedade obrigatória.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -56,13 +56,13 @@ Ao responder, a resposta deve ser aceitação, a menos que uma restrição adici
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

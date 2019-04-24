@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: Determina a quantidade de espaço inserido antes de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o primeiro parágrafo em um bloco de texto, da célula TopMargin.
-ms.openlocfilehash: d33a10220499020ba1a1acedf5782fdb78925c07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9890910a11990bb5be7fe3ee4af95e578c8d9799
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329880"
 ---
 # <a name="spbefore-cell-paragraph-section"></a>Célula SpBefore (Seção Paragraph)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula SpBefore pelo nome a partir de outra fórmula 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para.SpBefore [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para. antes de [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula SpBefore pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

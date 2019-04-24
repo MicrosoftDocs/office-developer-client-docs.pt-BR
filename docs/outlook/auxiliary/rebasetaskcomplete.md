@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: Relata a conclusão da alteração programática de compromissos.
 ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328319"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
@@ -66,7 +66,7 @@ _pError_
     
 ## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
+S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 

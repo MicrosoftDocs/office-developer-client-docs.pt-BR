@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
 description: Este tópico descreve alguns cenários que você deve testar em relação à instalação e à desinstalação de um provedor do Conector Social do Outlook (OSC).
 ms.openlocfilehash: 9c811683097a08b9f6e575d4ea2fee29cdd545d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329159"
 ---
 # <a name="testing-deployment"></a>Testar a implantação
 

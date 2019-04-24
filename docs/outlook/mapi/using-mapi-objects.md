@@ -9,35 +9,35 @@ api_type:
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d732efe5276f4756f43b4aca46e1c33d6f103844
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329671"
 ---
 # <a name="using-mapi-objects"></a>Usar objetos MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Clientes e provedores de serviço usam objetos MAPI chamando os métodos em suas implementações de interface. Isso é a única maneira que os objetos MAPI podem ser usados; métodos que são implementados por um objeto fora de uma interface MAPI não são acessíveis publicamente. Como todas as interfaces de um objeto estão relacionadas por meio de herança, o usuário de um objeto pode chamar métodos na interface base ou uma das interfaces herdadas conforme se eles pertencem a mesma interface. 
+Os clientes e provedores de serviço usam objetos MAPI chamando os métodos em suas implementações de interface. Essa é a única maneira que os objetos MAPI podem ser usados; os métodos que são implementados por um objeto fora de uma interface MAPI não são acessíveis publicamente. Como todas as interfaces de um objeto estão relacionadas por meio da herança, o usuário de um objeto pode chamar métodos na interface base ou em uma das interfaces herdadas, como se elas pertencem à mesma interface. 
   
-Quando o usuário de um objeto deseja fazer uma chamada para um método e esse objeto implementa várias interfaces relacionadas por meio de herança, o usuário não precisa saber ao qual interface o método pertence. O usuário pode chamar qualquer um dos métodos em qualquer uma das interfaces com um único ponteiro para o objeto. Por exemplo, a ilustração a seguir mostra como um aplicativo cliente usa um objeto folder. Objetos de pasta implementar o [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) interface, que herda de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) indiretamente até [IMAPIProp: IUnknown](imapipropiunknown.md) e [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). Um cliente pode chamar um dos métodos **IMAPIProp** , como [IMAPIProp::GetProps](imapiprop-getprops.md)e uma do [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) métodos, como [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), da mesma maneira com o mesmo ponteiro de objeto. Um cliente não está ciente ou afetados pelo fato de que essas chamadas pertencem a interfaces diferentes.
+Quando o usuário de um objeto quiser fazer uma chamada para um método e esse objeto implementar várias interfaces relacionadas através da herança, o usuário não precisará saber qual interface o método pertence. O usuário pode chamar qualquer um dos métodos em qualquer uma das interfaces com um único ponteiro para o objeto. Por exemplo, a ilustração a seguir mostra como um aplicativo cliente usa um objeto Folder. Os objetos Folder implementam a interface [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) , que herda de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) indiretamente por meio de [IMAPIProp: IUnknown](imapipropiunknown.md) e [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). Um cliente pode chamar um dos métodos **IMAPIProp** , como [IMAPIProp::](imapiprop-getprops.md)GetProps e um dos métodos [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) , como [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md), da mesma maneira que o mesmo ponteiro de objeto. Um cliente não está ciente ou é afetado pelo fato de que essas chamadas pertencem a interfaces diferentes.
   
 **Client use of a folder object**
   
-![Usar o cliente de um objeto folder] (media/amapi_40.gif "Usar o cliente de um objeto folder")
+![Uso do cliente de um objeto Folder] (media/amapi_40.gif "Uso do cliente de um objeto Folder")
   
-Essas chamadas traduzem em código de forma diferente, dependendo se o cliente fazendo as chamadas é gravado em C ou C++. Antes de qualquer chamada para um método pode ser feita, um ponteiro para a implementação de interface deve ser recuperado. Ponteiros de interface podem ser obtidos das seguintes maneiras:
+Essas chamadas são traduzidas em código de forma diferente, dependendo se o cliente que está fazendo as chamadas é escrito em C ou C++. Antes que qualquer chamada para um método possa ser feita, um ponteiro para a implementação da interface deve ser recuperado. Os ponteiros de interface podem ser obtidos das seguintes maneiras:
   
 - Chamar um método em um objeto diferente.
     
-- Chamar uma função API.
+- Chamar uma função de API.
     
-- Chamar o método de [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) no objeto de destino. 
+- Chamando o método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) no objeto de destino. 
     
-MAPI fornece vários métodos e funções da API que retornam ponteiros para implementações de interface. Por exemplo, os clientes podem chamar o método [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) para recuperar um ponteiro para um objeto table que fornece acesso às informações do provedor de repositório de mensagens por meio do [IMAPITable: IUnknown](imapitableiunknown.md) interface. Provedores de serviços podem chamar a função de API [CreateTable](createtable.md) para recuperar um ponteiro para um objeto de dados de tabela. Quando não há nenhuma função ou o método disponível e clientes ou provedores de serviço já tem um ponteiro para um objeto, eles podem chamar o método do objeto **QueryInterface** para recuperar um ponteiro para outro de implementações de interface do objeto. 
+MAPI fornece vários métodos e funções de API que retornam ponteiros para implementações de interface. Por exemplo, os clientes podem chamar o método [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) para recuperar um ponteiro para um objeto Table que fornece acesso a informações do provedor de repositórios de mensagens por meio da interface IMAPITable [: IUnknown](imapitableiunknown.md) . Os provedores de serviços podem chamar a [](createtable.md) função CreateTable da API para recuperar um ponteiro para um objeto Table Data. Quando não há função ou método disponível e clientes ou provedores de serviço já têm um ponteiro para um objeto, eles podem chamar o método **QueryInterface** do objeto para recuperar um ponteiro para outra das implementações de interface do objeto. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
+- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
 

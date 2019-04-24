@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 994041d050df56fd3fa3c0e599542e05a202ad65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329425"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573135"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o nome de exibição de um contêiner de formulário.
+Retorna o nome de exibição de um contêiner de formulários.
   
 ```cpp
 HRESULT GetDisplay(
@@ -38,29 +38,29 @@ HRESULT GetDisplay(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo da cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> A cadeia de caracteres retornada está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres é no formato ANSI.
+> A cadeia de caracteres retornada está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres estará no formato ANSI.
     
  _pszDisplayName_
   
-> [out] Um ponteiro para uma cadeia de caracteres que contém o nome de exibição do contêiner do formulário.
+> bota Um ponteiro para uma cadeia de caracteres que contém o nome de exibição do contêiner de formulários.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI usa o método **IMAPIFormContainer::GetDisplay** para obter o nome do contêiner formulário quando ele for processada CFormContainerDlg.  <br/> |
+|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: CFormContainerDlg  <br/> |MFCMAPI usa o método **IMAPIFormContainer:: getdisplay** para obter o nome do contêiner de formulário quando ele renderiza CFormContainerDlg.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -69,5 +69,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5a4d25651423c697ffed713f82f41d7a5584bcfa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329495"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22564595"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura de [SPropTagArray](sproptagarray.md) existente. 
+Calcula o número de bytes em uma estrutura [SPropTagArray](sproptagarray.md) existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropTagArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lparray_
+ __LPArray_
   
 > Ponteiro para a estrutura **SPropTagArray** existente. 
     

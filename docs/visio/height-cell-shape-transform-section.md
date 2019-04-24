@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: Determina a altura da forma em unidades de desenho.
-ms.openlocfilehash: c9f6282e9a2be161a4338043925d88cee672d5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f08fec0ec09e4ba77296495defc91b0f1f3a4c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329985"
 ---
 # <a name="height-cell-shape-transform-section"></a>Célula Height (Seção Shape Transform)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Height pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Height  <br/> |
+| Nome da célula:  <br/> | Altura  <br/> |
    
 Para fazer referência à célula Height pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

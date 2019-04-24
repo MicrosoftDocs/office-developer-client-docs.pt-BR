@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ee2e9e7f73e03e0a201a5ff41ea6e37a78c668a1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fd29afc93bc952bb619dfac752fae232bf7991cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327845"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriedade canônica PidTagIpmSentMailEntryId
 
@@ -25,30 +25,30 @@ ms.locfileid: "22569572"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta Itens enviados mensagem interpessoais padrão (IPM). 
+Contém o identificador de entrada da pasta Itens enviados padrão de mensagem interpessoa (IPM). 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E4  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Pasta  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Após ter sido enviada, interpessoais emails geralmente são colocados na pasta Itens enviados. Um cliente pode usar essa propriedade para definir a propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) em uma mensagem enviada. 
+Após serem enviadas, as mensagens interpessoais geralmente são colocadas na pasta Itens enviados. Um cliente pode usar essa propriedade para definir a propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) em uma mensagem enviada. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

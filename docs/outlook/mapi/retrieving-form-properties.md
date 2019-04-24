@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 9dec5ad6-af34-4c5e-848b-5c3909d0c0a1
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a6636b6298fcf565a297ed5df8a885c43c279c2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 023d2cf312438b1e4b6a90c57e1ead7d606d7727
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328648"
 ---
 # <a name="retrieving-form-properties"></a>Recuperar propriedades do formulário
 
@@ -21,7 +21,7 @@ ms.locfileid: "22583845"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para emitir uma consulta que é significativa para um tipo de mensagem personalizado, um aplicativo que precisa saber as propriedades esperados sobre a mensagem. Para obter uma lista de propriedades que usa uma classe de mensagem personalizada, um aplicativo cliente consulta o Gerenciador de formulário MAPI. O gerente do formulário obtém essas informações do arquivo de configuração de formulário apropriada para que os aplicativos cliente podem usar essas informações sem a sobrecarga de ativação do servidor de formulário em si. Para fazer isso, o aplicativo cliente chama o método [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) da seguinte maneira: 
+Para emitir uma consulta que seja significativa para um tipo de mensagem personalizada, um aplicativo precisa saber as propriedades esperadas nessa mensagem. Para obter uma lista de propriedades que uma classe de mensagem personalizada usa, um aplicativo cliente consulta o Gerenciador de formulários MAPI. O gerente de formulários obtém essas informações do arquivo de configuração de formulário apropriado para que os aplicativos clientes possam usar essas informações sem a sobrecarga de ativar o próprio servidor de formulário. Para fazer isso, o aplicativo cliente chama o método [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) da seguinte maneira: 
   
 ```cpp
 IMAPIFormInfo *pfrminf = NULL;
@@ -29,11 +29,11 @@ hr = pfrmmgr->ResolveMessageClass("IPM.Demo", 0L, NULL, &amp;pfrminf);
 
 ```
 
-Observe que o terceiro argumento para **ResolveMessageClass** é a pasta que contém a tabela de conteúdo associado que a consulta buscarão para servidores de formulário. NADA indica que o Gerenciador de formulário deve pesquisar todos os contêineres do formulário disponível. Se a consulta deve ser executado em uma pasta particular, é melhor incluir o ponteiro de [IMAPIFolder](imapifolderimapicontainer.md) apropriado em vez disso. 
+Observe que o terceiro argumento para **ResolveMessageClass** é a pasta que contém a tabela de conteúdo associada que a consulta pesquisará para servidores de formulário. NULL indica que o gerente de formulários deve pesquisar todos os contêineres de formulário disponíveis. Se a consulta for executada em uma determinada pasta, é melhor incluir o ponteiro [IMAPIFolder](imapifolderimapicontainer.md) apropriado. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Interações do servidor de formulário](form-server-interactions.md)
+[InterAções do servidor de formulário](form-server-interactions.md)
 

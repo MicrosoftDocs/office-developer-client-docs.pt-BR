@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331973"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriedade canônica PidTagContentCorrelator
 
@@ -36,19 +36,19 @@ Contém um valor que o remetente da mensagem pode usar para corresponder a um re
    
 ## <a name="remarks"></a>Comentários
 
-O conteúdo da cadeia de caracteres binário é definido pela origem da mensagem. Se o conjunto em uma mensagem de saída, esta propriedade deve ser copiado em todos os relatórios gerados em resposta à mensagem.
+O conteúdo da cadeia de caracteres binária é definido pelo originador da mensagem. Se definido em uma mensagem de saída, essa propriedade deve ser copiada em todos os relatórios gerados em resposta à mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

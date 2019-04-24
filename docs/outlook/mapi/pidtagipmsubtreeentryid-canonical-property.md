@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ade74b13811445c39c73f778b6de49b67b59093b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 815685696dfc93bb6241f608ca0157e87e758e7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327852"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Propriedade canônica PidTagIpmSubtreeEntryId
 
@@ -25,30 +25,30 @@ ms.locfileid: "22587555"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da raiz da subárvore pasta interpessoais mensagens (IPM) na árvore de pastas do armazenamento de mensagens. 
+Contém o identificador de entrada da raiz da subárvore da pasta de mensagens interpessoais (IPM) na árvore de pastas do repositório de mensagens. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E0  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Pasta  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade representa a raiz da hierarquia IPM. Clientes IPM não deverá exibir quaisquer pastas que não são subpastas da pasta representada por esta propriedade.
+Esta propriedade representa a raiz da hierarquia IPM. Os clientes IPM não devem exibir pastas que não sejam subpastas da pasta representada por essa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Receber mensagens usando provedores do repositório de mensagens
+title: Recebendo mensagens usando provedores de repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,46 +8,46 @@ api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c93a4b56489c2bfb458e2e1cd872073e64d9998a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328445"
 ---
-# <a name="receiving-messages-by-using-message-store-providers"></a>Receber mensagens usando provedores do repositório de mensagens
+# <a name="receiving-messages-by-using-message-store-providers"></a>Recebendo mensagens usando provedores de repositórios de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de armazenamento de mensagem não precisa suportar envios de mensagem de entrada (ou seja, oferecem suporte para o repositório provedor de provedores de transporte e o MAPI spooler para usar a mensagem como um ponto de entrega de mensagens). No entanto, se o seu provedor de armazenamento de mensagens não oferece suporte a envios de mensagem de entrada, ele não pode ser usado como o armazenamento de mensagens padrão.
+Os provedores de repositórios de mensagens não precisam suportar envios de mensagens de entrada (ou seja, oferecem suporte à capacidade de provedores de transporte e ao spooler MAPI para usar o provedor de armazenamento de mensagens como um ponto de entrega para mensagens). No enTanto, se o seu provedor de repositório de mensagens não oferecer suporte a envios de mensagens de entrada, ele não poderá ser usado como o repositório de mensagens padrão.
   
-Para oferecer suporte a envios de mensagem de entrada, seu provedor de armazenamento de mensagem deve fazer o seguinte:
+Para dar suporte a envios de mensagens de entrada, seu provedor de repositório de mensagens deve fazer o seguinte:
   
-- Suporte aos métodos [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) e [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) para que aplicativos clientes possam encontrar as mensagens de entrada. 
+- Suporte para os métodos [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) e [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) para que os aplicativos clientes possam encontrar mensagens de entrada. 
     
-- Suporte ao método [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) para que o MAPI spooler pode informar o provedor de armazenamento de mensagem que uma nova mensagem chegou. 
+- Suporta o método [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md) para que o spooler MAPI possa informar ao provedor de repositório de mensagens que uma nova mensagem chegou. 
     
-- Implementar notificações para que os clientes podem se inscrever para fins de notificação de mensagem nova. As notificações são opcionais, mas seu provedor deve implementá-las.
+- Implementar notificações para que os clientes possam se registrar para notificação de nova mensagem. As notificações são opcionais, mas o provedor deve implementá-las.
     
-A sequência de chamadas de método que ocorre quando uma mensagem de entrada é entregue a um armazenamento de mensagens é da seguinte maneira:
+A sequência de chamadas de método que ocorre quando uma mensagem de entrada é entregue a um repositório de mensagens é da seguinte maneira:
   
-1. O MAPI spooler chama [IMsgStore::OpenEntry](imsgstore-openentry.md) com a caixa de entrada [EntryID](entryid.md) para obter uma interface [IMAPIFolder](imapifolderimapicontainer.md) . 
+1. O spooler MAPI chama [IMsgStore:: OpenEntry](imsgstore-openentry.md) com a EntryID [](entryid.md) da caixa de entrada para obter uma interface [IMAPIFolder](imapifolderimapicontainer.md) . 
     
-2. O MAPI spooler chama [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para obter um novo objeto de mensagem. 
+2. O spooler MAPI chama [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) para obter um novo objeto Message. 
     
-3. O MAPI spooler passa o objeto de mensagem para o provedor de transporte.
+3. O spooler MAPI transmite o objeto Message para o provedor de transporte.
     
-4. O provedor de transporte preenche as propriedades da mensagem com dados de sistema de mensagens subjacente e chama o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) do objeto de mensagem. 
+4. O provedor de transporte preenche as propriedades da mensagem com dados do sistema de mensagens subjacente e chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) do objeto Message. 
     
-5. O provedor de armazenamento de mensagem usa seu método de notificação para informar aos clientes registrados que uma nova mensagem chegou.
+5. O provedor de repositório de mensagens usa seu método de notificação para informar aos clientes registrados que uma nova mensagem chegou.
     
-6. O MAPI spooler chama o método de [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) do armazenamento de mensagens. 
+6. O spooler MAPI chama o método [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md) do repositório de mensagens. 
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

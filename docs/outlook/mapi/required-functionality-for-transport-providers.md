@@ -1,5 +1,5 @@
 ---
-title: Funcionalidade exigida para provedores de transporte
+title: Funcionalidade necessária para provedores de transporte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: dc1189df1b8ad8f8e613d6813681ed3f4148b122
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f9768d47cf740bdf50b439ee3af4b0d2a191602
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328683"
 ---
-# <a name="required-functionality-for-transport-providers"></a>Funcionalidade exigida para provedores de transporte
+# <a name="required-functionality-for-transport-providers"></a>Funcionalidade necessária para provedores de transporte
 
   
   
@@ -23,14 +23,14 @@ ms.locfileid: "22580492"
   
 Cada provedor de transporte MAPI deve:
   
-- Siga as diretrizes gerais para trabalhar com os outros provedores de serviços e MAPI. Para obter mais informações, consulte [O desenvolvimento de aplicativos MAPI](mapi-application-development.md) e [Provedores de serviços de MAPI](mapi-service-providers.md).
+- Siga as diretrizes gerais para trabalhar com MAPI e outros provedores de serviços. Para obter mais informações, consulte [MAPI Application Development](mapi-application-development.md) and [MAPI Service Providers](mapi-service-providers.md).
     
-- Ter sua função de inicialização de [XPProviderInit](xpproviderinit.md) de seu provedor de transporte são expostos DLL para MAPI. 
+- Ter sua DLL do provedor de transporte expõe para MAPI sua função de inicialização [XPProviderInit](xpproviderinit.md) . 
     
-- Expor para MAPI sua implementação do [IXPProvider: IUnknown](ixpprovideriunknown.md) e [IXPLogon: IUnknown](ixplogoniunknown.md) interfaces. 
+- Expor a MAPI sua implementação das interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) e [IXPLogon: IUnknown](ixplogoniunknown.md) . 
     
-- Expor para aplicativos cliente e MAPI sua implementação do [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface. Para obter mais informações sobre como implementar **IMAPIStatus**, consulte o [Status de implementação de objeto](status-object-implementation.md). 
+- Expor a MAPI e aplicativos cliente sua implementação da interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Para obter mais informações sobre a implementação de **IMAPIStatus**, consulte [status Object Implementation](status-object-implementation.md). 
     
-- Implemente uma caixa de diálogo de folha de propriedade para a configuração. Para obter mais informações sobre como implementar folhas de propriedades, consulte [Implementação da folha de propriedade](property-sheet-implementation.md).
+- Implementar uma caixa de diálogo de folha de propriedades para configuração. Para obter mais informações sobre a implementação de folhas de propriedades, consulte [implementação da folha de propriedades](property-sheet-implementation.md).
     
 

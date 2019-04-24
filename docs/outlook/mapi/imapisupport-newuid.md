@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 244087c41e33e470c42434e9d57cee7317bcb78c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330195"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571686"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma nova estrutura [MAPIUID](mapiuid.md) a ser usado como um identificador exclusivo. 
+Cria uma nova estrutura [MAPIUID](mapiuid.md) a ser usada como um identificador exclusivo. 
   
 ```cpp
 HRESULT NewUID(
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::NewUID** é implementado para todos os objetos de suporte. Provedores de serviço e serviços de mensagem chamada **NewUID** sempre que precisam gerar um identificador exclusivo de longo prazo. Uma mensagem armazenar provedor, por exemplo, talvez chamada **NewUID** para obter um **MAPIUID** para colocar na propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de uma mensagem recém-criado.
+O método **IMAPISupport:: NewUID** é implementado para todos os objetos de suporte. Os provedores de serviço e os serviços de mensagens chamam o **NewUID** sempre que precisam gerar um identificador único de longo prazo. Um provedor de repositório de mensagens, por exemplo, pode chamar **NewUID** para obter um **MAPIUID** a ser colocado na propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de uma mensagem recém-criada.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Não confunda a estrutura **MAPIUID** que você registre na hora do logon com as estruturas de **MAPIUID** que o método **NewUID** cria. A estrutura **MAPIUID** que você registre quando você chama o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) representa seu catálogo de endereços ou mensagem armazenar provedor para MAPI e é usado para distinguir os identificadores de entrada que criar provedores diferentes. Essa estrutura **MAPIUID** deve ser codificadas e não é obtida por meio de uma chamada para **NewUID**.
+Não confunda a estrutura **MAPIUID** que você registra no momento do logon com as estruturas **MAPIUID** que o método **NewUID** cria. A estrutura **MAPIUID** que você registra ao chamar o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) representa seu catálogo de endereços ou provedor de repositório de mensagens para MAPI e é usado para distinguir identificadores de entrada criados por provedores diferentes. Essa estrutura **MAPIUID** deve ser codificada e não obtida por meio de uma chamada para **NewUID**.
   
 ## <a name="see-also"></a>Confira também
 

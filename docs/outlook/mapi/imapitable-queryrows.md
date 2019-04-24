@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 179d76b56c1ba9b40768c691d0b1555377f7adb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 26d6ffe66a5e7749c9d8c4e5210e9f72de808932
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328866"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595045"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma ou mais linhas de uma tabela, começando à meia posição atual do cursor.
+Retorna uma ou mais linhas de uma tabela, começando na posição atual do cursor.
   
 ```cpp
 HRESULT QueryRows(
@@ -39,21 +39,21 @@ LPSRowSet FAR * lppRows
 
  _lRowCount_
   
-> [in] Número máximo de linhas a ser retornado.
+> no Número máximo de linhas a serem retornadas.
     
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores que controlam como as linhas são retornadas. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores que controlam como as linhas são retornadas. O seguinte sinalizador pode ser definido:
     
 TBL_NOADVANCE 
   
-> Impede que o cursor avançando como resultado de recuperação de linha. Se o sinalizador TBL_NOADVANCE estiver definido, os pontos de cursor à primeira linha é retornada. Se o sinalizador TBL_NOADVANCE não estiver definido, o cursor aponta para a linha após a última linha retornada.
+> Impede que o cursor avança como resultado da recuperação de linha. Se o sinalizador TBL_NOADVANCE estiver definido, o cursor apontará para a primeira linha retornada. Se o sinalizador TBL_NOADVANCE não estiver definido, o cursor apontará para a linha após a última linha retornada.
     
  _lppRows_
   
-> [out] Ponteiro para um ponteiro para uma estrutura [SRowSet](srowset.md) reter as linhas de tabela. 
+> bota Ponteiro para um ponteiro para uma estrutura [SRowSet](srowset.md) que contém as linhas da tabela. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -61,7 +61,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento que impede que a operação de recuperação de linha seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Outra operação está em andamento, o que impede a inicialização da operação de recuperação de linha. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_INVALID_PARAMETER 
   
@@ -69,55 +69,55 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable:: QueryRows** obtém uma ou mais linhas de dados de uma tabela. O valor do parâmetro _IRowCount_ afeta o ponto de partida para a recuperação. Se _IRowCount_ for positivo, as linhas são lidas em uma direção sequencial, começando na posição atual. Se _IRowCount_ for negativo, **QueryRows** redefine o ponto de partida movendo para trás o número de linhas indicado. Depois que o cursor é redefinido, linhas são lidas em ordem sequencial. 
+O método imApitable **:: QueryRows** Obtém uma ou mais linhas de dados de uma tabela. O valor do parâmetro _IRowCount_ afeta o ponto de partida da recuperação. Se _IRowCount_ for positivo, as linhas são lidas em uma direção de encaminhamento, começando na posição atual. Se _IRowCount_ for negativo, **QueryRows** redefine o ponto de partida movendo para trás o número indicado de linhas. Após o cursor ser redefinido, as linhas são lidas na ordem de encaminhamento. 
   
-O membro de **pássaros** na estrutura [SRowSet](srowset.md) apontado pelo parâmetro _lppRows_ indica o número de linhas retornadas. Se zero linhas são retornadas: 
+O membro de **galinha** na estrutura [SRowSet](srowset.md) apontada pelo parâmetro _lppRows_ indica o número de linhas retornadas. Se forem retornadas zero linhas: 
   
-- O cursor já foi posicionado no início da tabela e o valor de _IRowCount_ for negativo. - Ou - 
+- O cursor já estava posicionado no início da tabela e o valor de _IRowCount_ é negativo. Ou 
     
-- O cursor já foi posicionado no final da tabela e o valor de _IRowCount_ for positivo. 
+- O cursor já estava posicionado no final da tabela e o valor de _IRowCount_ é positivo. 
     
-O número de colunas e seus ordenação é o mesmo para cada linha. Se não existir uma propriedade para uma linha ou não há um erro ao ler uma propriedade, a estrutura de **SPropValue** para a propriedade na linha contém os seguintes valores: 
+O número de colunas e sua ordenação são os mesmos para cada linha. Se uma propriedade não existir para uma linha ou se houver um erro de leitura de uma propriedade, a estrutura **SPropValue** da propriedade na linha conterá os seguintes valores: 
   
 - PT_ERROR para o tipo de propriedade no membro **ulPropTag** . 
     
-- E_NOT_FOUND para o membro de **valor** . 
+- MAPI_E_NOT_FOUND para o membro **Value** . 
     
-Memória usada para as estruturas de [SPropValue](spropvalue.md) no conjunto de linha apontado pelo parâmetro _lppRows_ deve ser alocada separadamente e liberada para cada linha. Use [MAPIFreeBuffer](mapifreebuffer.md) para liberar as estruturas de valor de propriedade e liberar a linha definido. Quando uma chamada para **QueryRows** retornará zero, no entanto, indicando o início ou fim da tabela, apenas a estrutura de **SRowSet** em si precisa ser liberada. Para obter mais informações sobre como alocar e liberar memória em uma estrutura **SRowSet** , consulte [Gerenciando memória para ADRLIST e estruturas de SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
+A memória usada para as estruturas [SPropValue](spropvalue.md) no conjunto de linhas apontado pelo parâmetro _lppRows_ deve ser alocada separadamente e liberada para cada linha. Use [MAPIFreeBuffer](mapifreebuffer.md) para liberar as estruturas de valor da propriedade e liberar o conjunto de linhas. No entanto, quando uma chamada a **QueryRows** retorna zero, indicando o início ou o fim da tabela, somente a estrutura do **SRowSet** precisa ser liberada. Para obter mais informações sobre como alocar e liberar memória em uma estrutura do **SRowSet** , consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-As linhas que são retornadas e a ordem na qual eles são retornados dependem ou não chamadas bem-sucedidas tem sofridas [IMAPITable:: Restrict](imapitable-restrict.md) e [IMAPITable:: SortTable](imapitable-sorttable.md). **Restrict** filtra linhas da exibição, causando **QueryRows** retornar somente as linhas que coincidem com os critérios especificados na restrição. **SortTable** estabelece um padrão ou categorizados a ordem de classificação, que afetam a sequência de linhas retornadas por **QueryRows**. As linhas retornadas são na ordem especificada na estrutura [SSortOrderSet](ssortorderset.md) passada para **SortTable**.
+As linhas que são retornadas e a ordem em que são retornadas dependem de se as chamadas bem-sucedidas foram feitas ou não a imApitable [:: Restrict](imapitable-restrict.md) e IMAPITable [:: SortTable](imapitable-sorttable.md). **Restringir** as linhas de filtro do modo de exibição, fazendo com que o **QueryRows** retorne apenas as linhas que correspondam aos critérios especificados na restrição. **SortTable** estabelece uma ordem de classificação padrão ou categorizada, afetando a sequência de linhas retornadas por **QueryRows**. As linhas retornadas estão na ordem especificada na estrutura [SSortOrderSet](ssortorderset.md) passada para **SortTable**.
   
-As colunas são retornadas para cada linha e a ordem na qual eles são retornados dependem se ou não uma chamada bem sucedida foi feita para [IMAPITable::SetColumns](imapitable-setcolumns.md). **SetColumns** estabelece um conjunto de colunas, especificando as propriedades a serem incluídos nas colunas na tabela e a ordem em que eles devem ser incluídos. Se foi feita uma chamada **SetColumns** , as colunas específicas de cada linha e a ordem das colunas correspondem a coluna definir especificada na chamada. Se nenhuma chamada **SetColumns** tiverem sido feita, a tabela retorna seu conjunto de coluna padrão. 
+As colunas retornadas para cada linha e a ordem em que são retornadas dependem de uma chamada bem-sucedida ter sido feita ou não para [IMAPITable::](imapitable-setcolumns.md)SetColumns. **** SetColumns estabelece um conjunto de colunas, especificando as propriedades a serem incluídas em colunas na tabela e a ordem em que elas devem ser incluídas. Se uma **** chamada SetColumns tiver sido feita, as colunas específicas em cada linha e a ordem dessas colunas corresponderão ao conjunto de colunas especificado na chamada. Se nenhuma **** chamada SetColumns tiver sido feita, a tabela retornará seu conjunto de colunas padrão. 
   
-Se nenhuma dessas chamadas foi feita, **QueryRows** retorna todas as linhas na tabela. Cada linha contém a coluna padrão definida na ordem padrão. 
+Se nenhuma dessas chamadas tiver sido feita, **QueryRows** retornará todas as linhas da tabela. Cada linha contém o conjunto de colunas padrão na ordem padrão. 
   
-Quando o conjunto de colunas estabelecido em uma chamada para [IMAPITable::SetColumns](imapitable-setcolumns.md) inclui colunas definidas como PR_NULL, a matriz de [SPropValue](spropvalue.md) dentro do conjunto de linhas retornada nos _lppRows_ irá conter slots vazios. 
+Quando o conjunto de colunas estabelecido em uma chamada para imApitable [::](imapitable-setcolumns.md) SetColumns inclui colunas definidas como PR_NULL, a matriz [SPropValue](spropvalue.md) dentro do conjunto de linhas retornado em _lppRows_ conterá Slots vazios. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você pode permitir que um chamador solicitar uma coluna sem suporte a serem incluídos no conjunto de colunas. Quando isso ocorre, coloque PT_ERROR na parte de tipo de propriedade da marca de propriedade e E_NOT_FOUND no valor da propriedade para a coluna sem suporte. 
+Você pode permitir que um chamador solicite a inclusão de uma coluna sem suporte no conjunto de colunas. Quando isso ocorre, coloque PT_ERROR na parte de tipo de propriedade da marca de propriedade e MAPI_E_NOT_FOUND no valor da propriedade para a coluna sem suporte. 
   
-Trate a contagem de linhas como uma solicitação ao invés um requisito. Você pode retornar em qualquer lugar do zero linhas, se não houver nenhuma linha na direção da consulta, para o número solicitado. 
+Tratar a contagem de linhas como uma solicitação, e não um requisito. Você pode retornar em qualquer lugar de zero linhas, se não houver linhas na direção da consulta, para o número solicitado. 
   
-Retorne somente as linhas que o usuário verá quando linhas são solicitadas a partir de um modo de exibição de tabela categorizados, permitindo que o chamador para tornar as suposições válidas sobre o escopo dos dados e evitar trabalho extra. 
+Retornar somente as linhas que o usuário verá quando as linhas são solicitadas de um modo de exibição de tabela Categorizado, permitindo que o chamador faça suposições válidas sobre o escopo dos dados e evite o trabalho extra. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Geralmente você acabará com quantas linhas você especificou no parâmetro _lRowCount_ . No entanto, quando os limites de memória ou implementação são um problema ou a operação atinge o início ou fim da tabela prematuramente, **QueryRows** vai retornar menos linhas do que o solicitado. 
+Normalmente, você terminará com quantas linhas forem especificadas no parâmetro _lRowCount_ . No enTanto, quando os limites de memória ou implementação são um problema ou quando a operação atinge o início ou o fim da tabela prematuramente, o **QueryRows** retornará menos linhas do que o solicitado. 
   
-Se **QueryRows** retornar MAPI_E_BUSY, chame o método [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) e repetir a chamada para **QueryRows** quando a operação assíncrona seja concluída. 
+Se **QueryRows** retornar MAPI_E_BUSY, chame o método IMAPITable [:: WaitForCompletion](imapitable-waitforcompletion.md) e repita a chamada para **QueryRows** quando a operação assíncrona estiver concluída. 
   
-Ao chamar **QueryRows**, lembre-se de que o tempo de notificações assíncronas poderão causar o conjunto de linhas que você obtenha volta de **QueryRows** não para representar com precisão os dados subjacentes. Por exemplo, uma chamada para **QueryRows** seguinte de tabela de conteúdo de uma pasta da linha excluída a ser retornado na linha fará com que a exclusão de uma mensagem, mas antes do recebimento da notificação correspondente é definido. Aguarde sempre uma notificação chegar antes de atualizar o modo de exibição do usuário dos dados. 
+Ao chamar **QueryRows**, lembre-se de que o tempo das notificações assíncronas pode fazer com que o conjunto de linhas obtido de volta do **QueryRows** não represente precisamente os dados subjacentes. Por exemplo, uma chamada para **QueryRows** para a tabela de conteúdo de uma pasta após a exclusão de uma mensagem, mas antes do recebimento da notificação correspondente fará com que a linha excluída seja retornada no conjunto de linhas. Sempre espere uma notificação chegar antes de atualizar o modo de exibição do usuário dos dados. 
   
-Para obter mais informações sobre como recuperar linhas de tabelas, consulte [Recuperando dados de linhas da tabela](retrieving-data-from-table-rows.md).
+Para obter mais informações sobre como recuperar linhas de tabelas, consulte [recuperaNdo dados de linhas de tabela](retrieving-data-from-table-rows.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa o método **IMAPITable:: QueryRows** para recuperar linhas da tabela para carregar no modo de exibição.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa o método imApitable **:: QueryRows** para recuperar linhas na tabela para carregar no modo de exibição.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -144,5 +144,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

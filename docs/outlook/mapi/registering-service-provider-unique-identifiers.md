@@ -1,5 +1,5 @@
 ---
-title: Registrar identificadores exclusivos do provedor de serviços
+title: Registrando identificadores exclusivos do provedor de serviços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,48 +8,48 @@ api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f4acbb06f85a88a6c057da263ae95e09f72e0bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328396"
 ---
-# <a name="registering-service-provider-unique-identifiers"></a>Registrar identificadores exclusivos do provedor de serviços
+# <a name="registering-service-provider-unique-identifiers"></a>Registrando identificadores exclusivos do provedor de serviços
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Catálogo de endereços, armazenamento de mensagens e provedores de transporte usam um identificador exclusivo, conhecido como um [MAPIUID](mapiuid.md) para registrar para objetos de vários tipos de serviço. Um **MAPIUID** é um identificador de 16 bytes que contenha um GUID. Você pode criar um **MAPIUID** usando o procedimento a seguir: 
+O catálogo de endereços, o repositório de mensagens e os provedores de transporte usam um identificador exclusivo conhecido como [MAPIUID](mapiuid.md) para registrar os objetos de serviço de vários tipos. Um **MAPIUID** é um identificador de 16 bytes que contém um GUID. Você pode criar um **MAPIUID** usando o procedimento a seguir: 
   
-1. Defina uma constante.
+1. Definir uma constante.
     
-2. Invocar o Visual Studio*Criar GUID** ferramenta. 
+2. Invocar a ferramenta*Create GUID** do Visual Studio. 
     
-Por exemplo, um provedor de catálogo de endereços pode incluir a seguinte constante em um arquivo de cabeçalho para definir um **MAPIUID**:
+Por exemplo, um provedor de catálogo de endereços pode incluir a constante a seguir em um arquivo de cabeçalho para definir um **MAPIUID**:
   
  `#define AB_UID_PROVIDER { 0Xe3, 0x3c, 0x67, 0xa0, \ 0xc8, 0x1f, 0x11, 0xce, \ 0xb2, 0xe4, 0x0, 0xaa, \ 0x0, 0x51, 0xe, 0x3b }`
   
- **Para registrar um MAPIUID se seu provedor for um provedor de repositório de catálogo ou mensagem de endereço**
+ **Para registrar um MAPIUID se o seu provedor for um catálogo de endereços ou provedor de repositório de mensagens**
   
-1. Chame [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
+1. Chamar [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md).
     
-2. Registrar um **MAPIUID** para cada logon do objeto que você instancia e incluir este **MAPIUID** nos primeiros 16 bytes do membro de cada identificador de entrada que você criar **ab** . MAPI usa estruturas **MAPIUID** para associar objetos de provedores de serviços. Quando a chamadas de cliente que o método [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir um objeto, MAPI examina a parte **MAPIUID** do identificador de entrada, estabelecendo uma correspondência contra o registrados **MAPIUID**, para determinar qual objeto logon deve receber a abrir solicitação.
+2. Registre um **MAPIUID** para cada objeto de logon que você instancia e inclua esse **MAPIUID** nos primeiros 16 bytes do membro **AB** de cada identificador de entrada que você criar. MAPI usa estruturas **MAPIUID** para associar objetos com provedores de serviço. Quando um cliente chama o método [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir um objeto, o MAPI examina a parte **MAPIUID** do identificador de entrada, fazendo a correspondência com base no **MAPIUID**registrado, para determinar qual objeto de logon deve receber a abertura pedir.
     
-3. Se seu provedor for um transporte, registre uma ou mais estruturas **MAPIUID** quando seu método de **IXPLogon::AddressTypes** chamadas de MAPI. MAPI usa as estruturas **MAPIUID** registradas por provedores de transporte para atribuir a responsabilidade de entrega da mensagem. 
+3. Se seu provedor for um transporte, registre uma ou mais estruturas **MAPIUID** quando o MAPI chamar o método **IXPLogon:: AddressTypes** . MAPI usa as estruturas **MAPIUID** registradas por provedores de transporte para atribuir responsabilidade para entrega de mensagens. 
     
-Embora os provedores de serviço geralmente registrar um único **MAPIUID**, você pode registrar várias estruturas de **MAPIUID** . Se seu catálogo de endereços ou mensagem armazenar provedor suporta vários objetos de logon, talvez, permitindo que um usuário para adicionar mais de uma instância do provedor de ao seu perfil, você talvez queira implementar um **MAPIUID** de diferentes para cada objeto de logon. Existem alguns outros motivos para dar suporte a mais de um **MAPIUID**:
+Embora os provedores de serviços normalmente registrem um único **MAPIUID**, você pode registrar várias estruturas do **MAPIUID** . Se o seu catálogo de endereços ou provedor de mensagens suportar vários objetos de logon, talvez por permitir que um usuário adicione mais de uma instância do seu provedor ao seu perfil, talvez você queira implementar um **MAPIUID** diferente para cada objeto de logon. Há alguns outros motivos para suportar mais de um **MAPIUID**:
   
-- Você deve oferecer suporte a mais de uma versão do seu provedor e os identificadores de entrada devem representam a versão apropriada. Atribua um **MAPIUID** de diferentes para cada versão. 
+- Você deve dar suporte a mais de uma versão de seu provedor e os identificadores de entrada devem representar a versão apropriada. Atribua um **MAPIUID** diferente para cada versão. 
     
-- Você deseja distinguir entre os tipos de objetos que você ofereça suporte. Por exemplo, um provedor de catálogo de endereços talvez queira registrar um **MAPIUID** para usar os identificadores de entrada dos seus objetos de usuário de mensagens e um **MAPIUID** diferente a ser usado para listas de distribuição. 
+- Você deseja distinguir entre os tipos de objetos com suporte. Por exemplo, um provedor de catálogo de endereços pode querer registrar um **MAPIUID** para usar nos identificadores de entrada de seus objetos de usuário de mensagens e um **MAPIUID** diferente para usar para listas de distribuição. 
     
-Quando houver vários objetos de logon que estão ativos simultaneamente, faz sentido ter estruturas **MAPIUID** exclusivas para cada um deles. Isso aumenta a precisão com a qual o MAPI faz a correspondência de identificadores de entrada com provedores de serviços e salva algum trabalho. Quando cada objeto de logon tem seu próprio identificador exclusivo, MAPI pode garantir que qualquer solicitação rotas a um objeto de logon podem ser administradas por esse objeto. Quando os objetos de logon compartilham **MAPIUID** estruturas, MAPI encaminha a solicitação para o primeiro objeto de logon que é identificado pelo **MAPIUID**. Se um dos seus objetos logon recebe uma solicitação que não pode ser processada porque não processa o identificador de entrada, passa a solicitação de logon no seu próximo objeto logon antes de retornar um erro.
+Quando há vários objetos de logon simultaneamente ativos, faz sentido ter estruturas **MAPIUID** exclusivas para cada um. Isso aumenta a precisão com a qual o MAPI corresponde a identificadores de entrada para os provedores de serviço e salva algum trabalho. Quando cada objeto de logon tem seu próprio identificador exclusivo, o MAPI pode garantir que qualquer solicitação que ele roteia para um objeto de logon possa ser tratada por esse objeto. Quando os objetos de logon compartilham estruturas do **MAPIUID** , o MAPI encaminha a solicitação para o primeiro objeto de logon identificado pelo **MAPIUID**. Se um dos seus objetos de logon receber uma solicitação que ele não pode processar porque ele não lida com o identificador de entrada, passe a solicitação para o seu próximo objeto de logon antes de retornar um erro.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Implementação de Logon do provedor de serviço](implementing-service-provider-logon.md)
+[Implementar o logon do provedor de serviços](implementing-service-provider-logon.md)
 

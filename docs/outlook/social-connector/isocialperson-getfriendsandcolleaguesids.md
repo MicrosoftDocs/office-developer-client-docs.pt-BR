@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 68b9b5d7-a4d0-4925-adc1-c0e3cda9be16
-description: Esse método não é suportado no momento.
-ms.openlocfilehash: b41f64416f612863f2d0410a85fe74f9a2394741
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: No momento, este método não tem suporte.
+ms.openlocfilehash: 7d79bb745c73e54e2d6f65accd55f854b234266f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331627"
 ---
 # <a name="isocialpersongetfriendsandcolleaguesids"></a>ISocialPerson::GetFriendsAndColleaguesIDs
 
-Esse método não é suportado no momento. 
+No momento, este método não tem suporte. 
   
 ```cpp
 HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* friendsIDs);

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 47a62b331ff9f1c96576d42797ebb23ed61cd362
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329026"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
@@ -39,35 +39,35 @@ LPADRBOOK FAR * lppAdrBook
 
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar o catálogo de endereços. Valores válidos são NULL, indicando que a interface de catálogo de endereços padrão [IAddrBook](iaddrbookimapiprop.md)e IID_IAddrBook.
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o catálogo de endereços. Os valores válidos são nulos, que indicam a interface do catálogo de endereços padrão [IAddrBook](iaddrbookimapiprop.md)e IID_IAddrBook.
     
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _lppAdrBook_
   
-> [out] Um ponteiro para um ponteiro para o catálogo de endereços.
+> bota Um ponteiro para um ponteiro para o catálogo de endereços.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Acesso ao catálogo de endereços foi fornecido.
+> O acesso ao catálogo de endereços foi fornecido.
     
 MAPI_W_ERRORS_RETURNED 
   
-> A chamada foi bem-sucedida, mas um ou mais provedores de catálogo de endereços não pôde ser carregados. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas não foi possível carregar um ou mais provedores de catálogo de endereços. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::OpenAddressBook** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de mensagem de ligação geralmente estreita armazenam e provedores de transporte, chame **OpenAddressBook** para obter acesso ao catálogo de endereços. O ponteiro **IAddrBook** retornado pode ser usado para uma variedade de tarefas do catálogo de endereços, incluindo a abertura de contêineres de catálogo de endereço, Localizando usuários mensagens e exibindo caixas de diálogo de endereço. 
+O método **IMAPISupport:: OpenAddressBook** é implementado para todos os objetos de suporte do provedor de serviços. Provedores de serviços, normalmente armazenamento de mensagens rigidamente acoplado e provedores de transporte, chamam **OpenAddressBook** para obter acesso ao catálogo de endereços. O ponteiro **IAddrBook** retornado pode ser usado para uma variedade de tarefas do catálogo de endereços, incluindo a abertura de contêineres do catálogo de endereços, a localização de usuários de mensagens e a exibição de caixas de diálogo de endereço. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **OpenAddressBook** pode retornar MAPI_W_ERRORS_RETURNED se ele não é possível carregar um ou mais dos provedores de catálogo de endereços no perfil atual. Esse valor é um aviso e a chamada devem ser tratados como bem sucedida. Mesmo que todos os provedores de catálogo de endereços Falha ao carregar, **OpenAddressBook** ainda tiver êxito, retornando MAPI_W_ERRORS_RETURNED e um ponteiro **IAddrBook** no parâmetro _lppAdrBook_ . Como **OpenAddressBook** sempre retorna um ponteiro **IAddrBook** válido, você deve liberá-lo quando terminar de utilizá-lo. 
+ **OpenAddressBook** pode retornar MAPI_W_ERRORS_RETURNED se não for possível carregar um ou mais dos provedores de catálogo de endereços no perfil atual. Este valor é um aviso e você deve tratar a chamada como bem-sucedida. Mesmo que todos os provedores de catálogos de endereços não sejam carregados, o **OpenAddressBook** ainda terá êxito, retornando MAPI_W_ERRORS_RETURNED e um apontador **IAddrBook** no parâmetro _lppAdrBook_ . Como **OpenAddressBook** sempre retorna um ponteiro **IAddrBook** válido, você deve liberá-lo quando terminar de usá-lo. 
   
-Se um ou mais provedores de catálogo de endereços Falha ao carregar, chame [IMAPISupport::GetLastError](imapisupport-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores que não é carregado. 
+Se um ou mais provedores de catálogos de endereços não foram carregados, chame [IMAPISupport:: GetLastError](imapisupport-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores que não foram carregados. 
   
 ## <a name="see-also"></a>Confira também
 

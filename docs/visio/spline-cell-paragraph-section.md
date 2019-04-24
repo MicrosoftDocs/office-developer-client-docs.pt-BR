@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: Determina a distância entre uma linha do texto e a próxima, expressa em porcentagem, sendo 100% a altura da linha de um texto.
-ms.openlocfilehash: f2f290564d49a056bc3366707b25a7991f8c4401
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82b2604a62608c0cc4333892d678b1eb886a9c7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329859"
 ---
 # <a name="spline-cell-paragraph-section"></a>Célula SpLine (Seção Paragraph)
 
@@ -22,9 +22,9 @@ Determina a distância entre uma linha do texto e a próxima, expressa em porcen
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| \>0  <br/> | Espaçamento absoluto, independentemente do tamanho da fonte  <br/> |
-| =0  <br/> | Definir sólido (espaçamento = 100% do tamanho da fonte)  <br/> |
-| \<0  <br/> | Uma porcentagem do tamanho da fonte (por exemplo, -120% produz 120% de espaçamento)  <br/> |
+| \>,0  <br/> | Espaçamento absoluto, independentemente do tamanho da fonte  <br/> |
+| = 0  <br/> | Definir sólido (espaçamento = 100% do tamanho da fonte)  <br/> |
+| \<,0  <br/> | Uma porcentagem do tamanho da fonte (por exemplo, -120% produz 120% de espaçamento)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -32,7 +32,7 @@ Para fazer referência à célula SpLine pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Parágrafo. SpLine [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Comparar. SpLine [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula SpLine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

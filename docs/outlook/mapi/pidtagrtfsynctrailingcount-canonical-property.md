@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 67093cf456db9df5f9e939bdda9d2e44f248dadc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331231"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Propriedade canônica PidTagRtfSyncTrailingCount
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397916"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma contagem dos caracteres ignorável que aparecem após os caracteres significativos da mensagem.
+Contém uma contagem dos caracteres ignorable que aparecem após os caracteres significativos da mensagem.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém uma contagem dos caracteres ignorável que aparecem após os caracteres 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma propriedade auxiliar de formato de texto Rich (RFT). Essas propriedades são usadas pela função [RTFSync](rtfsync.md) e não se destina a ser usado diretamente por aplicativos do cliente. 
+Esta propriedade é uma propriedade auxiliar do formato Rich Text (RFT). Essas propriedades são usadas pela função [RTFSync](rtfsync.md) e não devem ser usadas diretamente por aplicativos cliente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
+> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

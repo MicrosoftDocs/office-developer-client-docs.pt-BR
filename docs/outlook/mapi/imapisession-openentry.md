@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 10992fdf53c416c473b90b5748b9c5fa4f65cffc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329411"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
@@ -42,98 +42,98 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada do objeto a ser aberto.
+> no Um ponteiro para o identificador de entrada do objeto a ser aberto.
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar o objeto aberto. Passar NULL retorna a interface de padrão do objeto. Por exemplo, se o objeto a ser aberto for uma mensagem, a interface padrão é [IMessage](imessageimapiprop.md); para pastas, ele é [IMAPIFolder](imapifolderimapicontainer.md). As interfaces padrão para objetos de catálogo de endereços são [IDistList](idistlistimapicontainer.md) para obter uma lista de distribuição e [IMailUser](imailuserimapiprop.md) para um usuário de mensagens. 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o objeto aberto. Passar NULL retorna a interface padrão do objeto. Por exemplo, se o objeto a ser aberto for uma mensagem, a interface padrão será [IMessage](imessageimapiprop.md); para pastas, é [IMAPIFolder](imapifolderimapicontainer.md). As interfaces padrão dos objetos do catálogo de endereços são [IDistList](idistlistimapicontainer.md) para uma lista de distribuição e o [IMailUser](imailuserimapiprop.md) para um usuário de mensagens. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o objeto é aberto. Sinalizadores a seguir podem ser usados:
+> no Uma bitmask de sinalizadores que controla como o objeto é aberto. Os seguintes sinalizadores podem ser usados:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que o objeto seja aberto usando as permissões de rede máximo permitidas para o usuário e o acesso do aplicativo de cliente máximo. Por exemplo, se o cliente tem a permissão de leitura/gravação, o objeto deve ser aberto com permissão de leitura/gravação; Se o cliente tem a permissão somente leitura, o objeto deve ser aberto com permissão somente leitura. 
+> Solicita que o objeto seja aberto usando as permissões de rede máximas permitidas para o usuário e o acesso ao aplicativo cliente máximo. Por exemplo, se o cliente tiver permissão de leitura/gravação, o objeto deverá ser aberto com permissão de leitura/gravação; Se o cliente tiver permissão somente leitura, o objeto deverá ser aberto com permissão somente leitura. 
     
 MAPI_CACHE_OK
   
-> Use todos os meios, incluindo os catálogos de endereços offline, para executar a resolução de nomes.
+> Use todos os meios, incluindo catálogos de endereços offline, para executar a resolução de nomes.
     
 MAPI_CACHE_ONLY
   
-> Use somente o catálogo de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente para abrir a lista de endereços global (GAL) no modo cache do exchange e acessar uma entrada no catálogo de endereços do cache sem criar o tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas o provedor de catálogo de endereços do Exchange.
+> Use apenas o catálogo de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente Abra a lista de endereços global (GAL) no modo cache do Exchange e acesse uma entrada desse catálogo de endereços do cache sem criar tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **OpenEntry** retornar com êxito, possivelmente antes do objeto é totalmente disponível para o cliente da chamada. Se o objeto não estiver disponível, fazendo uma chamada do objeto subsequente pode causar um erro. 
+> Permite que o **OpenEntry** seja retornado com êxito, possivelmente antes que o objeto esteja totalmente disponível para o cliente de chamada. Se o objeto não estiver disponível, fazer uma chamada de objeto subsequente pode causar um erro. 
     
 MAPI_MODIFY 
   
-> Permissão de leitura/gravação solicitações. Por padrão, os objetos são abertos com permissão somente leitura e os clientes não devem funcionar no pressuposto que tem permissão de leitura/gravação. 
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com permissão somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação é concedida. 
     
 MAPI_NO_CACHE
   
-> Não use o catálogo de endereços offline para executar a resolução de nome. Esse sinalizador é suportado apenas o provedor de catálogo de endereços do Exchange.
+> Não use o catálogo de endereços offline para executar a resolução de nomes. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
     
 SHOW_SOFT_DELETES
   
-> Mostrar itens que estão marcados como suaves excluídos (ou seja, eles estão na retenção de item excluído fase de tempo).
+> Mostrar os itens atualmente marcados como excluídos de forma reversível (ou seja, eles estão na fase de tempo de retenção de itens excluídos).
     
  _lpulObjType_
   
-> [out] Um ponteiro para o tipo de objeto aberto.
+> bota Um ponteiro para o tipo do objeto aberto.
     
  _lppUnk_
   
-> [out] Um ponteiro para um ponteiro para o objeto aberto.
+> bota Um ponteiro para um ponteiro para o objeto aberto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O objeto tiver sido aberto com êxito.
+> O objeto foi aberto com êxito.
     
 MAPI_E_NO_ACCESS 
   
-> Foi feita uma tentativa para modificar um objeto somente leitura ou foi feita uma tentativa de acessar um objeto para o qual o usuário tem permissões insuficientes.
+> Foi feita uma tentativa de modificar um objeto somente leitura ou uma tentativa de acessar um objeto para o qual o usuário tem permissões insuficientes.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
-> Não há um objeto associado com o identificador de entrada passado no parâmetro _lpEntryID_ . 
+> Não há um objeto associado ao identificador de entrada passado no parâmetro _lpEntryID_ . 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O identificador de entrada passado no parâmetro _lpEntryID_ está em um formato não reconhecível. Esse valor geralmente é retornado se o provedor de serviço que contém o objeto não estiver aberto. 
+> O identificador de entrada passado no parâmetro _lpEntryID_ está em um formato irreconhecível. Esse valor normalmente é retornado se o provedor de serviço que contém o objeto não estiver aberto. 
     
 ## <a name="remarks"></a>Comentários
 
-O abre do método **IMAPISession::OpenEntry** uma mensagem armazenar ou endereços de objeto de catálogo, retornando um ponteiro para uma interface que pode ser usado para acessar o objeto. 
+O método **IMAPISession:: OpenEntry** abre um objeto de repositório de mensagens ou de catálogo de endereços, retornando um ponteiro para uma interface que pode ser usada para acessar o objeto. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
 > [!IMPORTANT]
-> Ao abrir entradas da pasta em um repositório público, como pastas e mensagens, use [IMsgStore::OpenEntry](imsgstore-openentry.md) em vez de **IMAPISession::OpenEntry**. Isso garante que funcionam de pastas públicas corretamente quando várias contas do Exchange são definidas em um perfil. 
+> Ao abrir entradas de pasta em um armazenamento público, como pastas e mensagens, use [IMsgStore:: OpenEntry](imsgstore-openentry.md) em vez de **IMAPISession:: OpenEntry**. Isso garante que as pastas públicas funcionem corretamente quando várias contas do Exchange são definidas em um perfil. 
   
-Chame **IMAPISession::OpenEntry** somente quando você não souber que tipo de objeto que você está abrindo. Se você souber que você está abrindo uma pasta ou uma mensagem, chame [IMsgStore::OpenEntry](imsgstore-openentry.md). Se você souber que você está abrindo um contêiner de catálogo de endereços, um usuário de mensagens ou uma lista de distribuição, chame [IAddrBook::OpenEntry](iaddrbook-openentry.md). Esses métodos mais específicos são mais rápidos do que **IMAPISession::OpenEntry**. 
+Call **IMAPISession:: OpenEntry** somente quando você não sabe qual tipo de objeto você está abrindo. Se você tiver certeza de que está abrindo uma pasta ou uma mensagem, chame [IMsgStore:: OpenEntry](imsgstore-openentry.md). Se você tiver certeza de que está abrindo um contêiner de catálogo de endereços, um usuário de mensagens ou uma lista de distribuição, chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md). Esses métodos mais específicos são mais rápidos do que **IMAPISession:: OpenEntry**. 
   
-MAPI abre todos os objetos com permissão somente leitura, a menos que você defina o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS no parâmetro _ulFlags_ . A definição de uma desses sinalizadores não garante a um tipo específico de acesso; as permissões são concedidas dependem do provedor de serviços, o nível de acesso e o objeto. Para determinar o nível de acesso do objeto aberto, recupere sua propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+MAPI abre todos os objetos com permissão somente leitura, a menos que você defina o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS no parâmetro _parâmetroulflags_ . A definição de um desses sinalizadores não garante um tipo de acesso específico; as permissões concedidas dependem do provedor de serviços, o nível de acesso e o objeto. Para determinar o nível de acesso do objeto aberto, recupere sua propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Chamar **IMAPISession::OpenEntry** e configuração _lpEntryID_ para apontar para o identificador de entrada de um armazenamento de mensagens é igual ao chamar o método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) com o sinalizador MDB_NO_DIALOG definido. As configurações de sinalizador também são equivalentes, exceto que a solicitação de permissão de leitura/gravação com **OpenMsgStore**, você deve definir o sinalizador MDB_WRITE em vez de MAPI_MODIFY. 
+Chamar **IMAPISession:: OpenEntry** e setting _lpEntryID_ para apontar para o identificador de entrada de um repositório de mensagens é o mesmo que chamar o método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) com o sinalizador MDB_NO_DIALOG definido. As configurações de sinalizador também são equivalentes, exceto para solicitar permissão de leitura/gravação com o **OpenMsgStore**, você deve definir o sinalizador MDB_WRITE em vez de MAPI_MODIFY. 
   
-Verifica o valor retornado no parâmetro _lpulObjType_ para determinar se o tipo de objeto retornado é esperado. Se o tipo de objeto não é do tipo esperado, converta o ponteiro do parâmetro _lppUnk_ para um ponteiro do tipo apropriado. Por exemplo, se você está abrindo uma pasta, converta os _lppUnk_ para um ponteiro do tipo LPMAPIFOLDER. 
+Verifique o valor retornado no parâmetro _lpulObjType_ para determinar se o tipo de objeto retornado é o esperado. Se o tipo de objeto não for o tipo que você esperava, converta o ponteiro do parâmetro _lppUnk_ para um ponteiro do tipo apropriado. Por exemplo, se você estiver abrindo uma pasta, converta _lppUnk_ para um ponteiro do tipo LPMAPIFOLDER. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI usa o método **IMAPISession::OpenEntry** para abrir um objeto.  <br/> |
+|MAPIFunctions. cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI usa o método **IMAPISession:: OpenEntry** para abrir um objeto.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -156,5 +156,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

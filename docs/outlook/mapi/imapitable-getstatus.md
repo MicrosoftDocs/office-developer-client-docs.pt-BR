@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cda3de1719ec1b7cfca1a9ecdad7bc3b59a8b17d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec305fc872d1bf1718592dabdd230617d50d3f54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328893"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571146"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o status e o tipo da tabela.
+Retorna o tipo e o status da tabela.
   
 ```cpp
 HRESULT GetStatus(
@@ -38,83 +38,83 @@ ULONG FAR * lpulTableType
 
  _lpulTableStatus_
   
-> [out] Ponteiro para um valor que indica o status da tabela. Pode ser retornado um dos seguintes valores:
+> bota Ponteiro para um valor que indica o status da tabela. Um dos valores a seguir pode ser retornado:
     
 TBLSTAT_COMPLETE 
   
-> Nenhuma operações estejam em andamento.
+> Nenhuma operação está em andamento.
     
 TBLSTAT_QCHANGED 
   
-> O conteúdo da tabela expectantly foram alteradas. Esse valor de status não será retornado para que as alterações resultantes das operações de classificação ou restrição.
+> O conteúdo da tabela tem expectantly alterado. Esse valor de status não é retornado para alterações resultantes de operações de classificação ou restrição.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Ocorreu um erro durante uma operação [IMAPITable:: Restrict](imapitable-restrict.md) . 
+> Ocorreu um erro durante uma operação imApitable [:: Restrict](imapitable-restrict.md) . 
     
 TBLSTAT_RESTRICTING 
   
-> Uma operação **IMAPITable:: Restrict** está em andamento. 
+> Uma operação imApitable **:: Restrict** está em andamento. 
     
 TBLSTAT_SETCOL_ERROR 
   
-> Ocorreu um erro durante uma operação de [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+> Ocorreu um erro durante uma operação imApitable [::](imapitable-setcolumns.md) SetColumns. 
     
 TBLSTAT_SETTING_COLS 
   
-> Uma operação **IMAPITable::SetColumns** está em andamento. 
+> Uma operação imApitable **::** SetColumns está em andamento. 
     
 TBLSTAT_SORT_ERROR 
   
-> Ocorreu um erro durante uma operação [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+> Ocorreu um erro durante uma operação imApitable [:: SortTable](imapitable-sorttable.md) . 
     
 TBLSTAT_SORTING 
   
-> Uma operação **IMAPITable:: SortTable** está em andamento. 
+> Uma operação imApitable **:: SortTable** está em andamento. 
     
  _lpulTableType_
   
-> [out] Ponteiro para um valor que indica o tipo de tabela. Um dos seguintes tipos de três tabela pode ser retornado:
+> bota Ponteiro para um valor que indica o tipo da tabela. Um dos três tipos de tabela a seguir pode ser retornado:
     
 TBLTYPE_DYNAMIC 
   
-> O conteúdo da tabela é dinâmico; as linhas e os valores de coluna podem alterar como as alterações de dados subjacente.
+> O conteúdo da tabela é dinâmico; os valores de linhas e colunas podem ser alterados à medida que os dados subjacentes são alterados.
     
 TBLTYPE_KEYSET 
   
-> As linhas dentro da tabela são corrigidas, mas os valores das colunas dentro nessas linhas são dinâmicos e podem alterar como as alterações de dados subjacente.
+> As linhas dentro da tabela são corrigidas, mas os valores das colunas dentro dessas linhas são dinâmicos e podem ser alterados à medida que os dados subjacentes são alterados.
     
 TBLTYPE_SNAPSHOT 
   
-> A tabela é estática e seu conteúdo não é alterados quando os dados subjacentes forem alterados.
+> A tabela é estática, e seu conteúdo não é alterado quando os dados subjacentes são alterados.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Status da tabela foi retornado com êxito.
+> O status da tabela foi retornado com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPTable::GetStatus** recupera informações sobre o tipo e o status atual de uma tabela. 
+O método **imaptable:: GetStatus** recupera informações sobre o tipo de tabela e o status atual. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar **GetStatus** junto com três outros métodos **IMAPITable** para monitorar o status dessas operações e determinar o efeito sobre a tabela. Chame **GetStatus** depois de fazer uma das seguintes chamadas **IMAPITable** : 
+Você pode usar **GetStatus** em conjunto com três outros **** métodos IMAPITable para monitorar o status dessas operações e determinar o efeito sobre a tabela. Chame **GetStatus** após fazer uma das seguintes chamadas **** IMAPITable: 
   
-- [IMAPITable:: Restrict](imapitable-restrict.md) para definir uma restrição. 
+- [IMAPITable:: strict](imapitable-restrict.md) para definir uma restrição. 
     
 - [IMAPITable:: SortTable](imapitable-sorttable.md) para estabelecer uma ordem de classificação. 
     
-- [IMAPITable::SetColumns](imapitable-setcolumns.md) para definir um conjunto de coluna. 
+- [IMAPITable::](imapitable-setcolumns.md) SetColumns para definir um conjunto de colunas. 
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI usa o método **IMAPITable::GetStatus** para informar o status de uma tabela.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: GetStatus  <br/> |MFCMAPI usa o método imApitable **:: GetStatus** para relatar o status de uma tabela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -129,5 +129,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

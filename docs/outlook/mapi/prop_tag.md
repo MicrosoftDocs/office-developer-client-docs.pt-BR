@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cbead0a9953ae5106e1fcc7d07d965d4dc7bacb9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ab4e4e9e51849037a91a071f16294cfdf10870c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328564"
 ---
 # <a name="proptag"></a>PROP_TAG
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma marca de propriedade criada pela combinação de um tipo de propriedade especificado e o identificador. 
+Retorna uma marca de propriedade criada combinando um tipo de propriedade especificado e um identificador. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -46,16 +46,16 @@ _ulPropID_
     
 ## <a name="remarks"></a>Comentários
 
-O **PROP\_marca** macro cria uma marca de propriedade para uma propriedade do tipo _ulPropType_ e o identificador especificado em _ulPropID_. Por exemplo, uma marca de propriedade para um identificador de entrada pode ser criada usando a macro **PROP_TAG** da seguinte maneira: 
+A macro de **marca prop\_** cria uma marca de propriedade para uma propriedade do tipo _ulPropType_ e o identificador especificado em _ulPropID_. Por exemplo, uma marca de propriedade para um identificador de entrada pode ser criada usando a macro **PROP_TAG** da seguinte maneira: 
   
 ```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)
 
 ```
 
-Os 16 bits de ordem baixa da marca de propriedade retornados contêm o tipo da propriedade PT_BINARY, e as ordem alta 16 bits contêm o identificador de propriedade, 0xFFFF.
+Os 16 bits de ordem inferior da marca Property retornada contêm o tipo de propriedade, PT_BINARY e os 16 bits de ordem alta contêm o identificador de propriedade, 0xFFFF.
   
-Para obter mais informações sobre marcas de propriedade, consulte [Marcas de propriedade de MAPI](mapi-property-tags.md).
+Para obter mais informações sobre as marcas de propriedade, consulte [MAPI Property Tags](mapi-property-tags.md).
   
 ## <a name="see-also"></a>Confira também
 

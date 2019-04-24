@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328788"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592931"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulário que um novo ou uma mensagem existente foi carregada em um formulário.
+Notifica o Visualizador de formulários de que uma mensagem nova ou existente foi carregada em um formulário.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -33,7 +33,7 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhuma
   
 ## <a name="return-value"></a>Valor de retorno
 
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Objetos de formulário chame o método de **IMAPIViewAdviseSink::OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método o [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
+Os objetos Form chamam o método **IMAPIViewAdviseSink:: OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) . 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Libere o ponteiro ativo ao objeto form porque não há mais aponta para o visualizador anteriormente era visualização da mensagem. 
+Libere o ponteiro ativo para o objeto Form porque ele não aponta mais para a mensagem que seu visualizador estava exibindo anteriormente. 
   
-Para obter mais informações sobre as notificações do formulário, consulte [de envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Confira também
 

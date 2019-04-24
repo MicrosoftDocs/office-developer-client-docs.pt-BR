@@ -6,29 +6,29 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12797c2ed96ba2db493b5cf425423ffe97fc7a5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331581"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de hash do repositório
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como parte de um MAPI Uniform Resource Locator (URL), um provedor de armazenamento envia um número de hash de repositório para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O manipulador de protocolo MAPI usa esse número de hash de repositório para identificar um repositório. Em geral, um provedor de armazenamento calcula o número de hash de armazenamento com base em assinatura de mapeamento do repositório, se o repositório tem a propriedade **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida na seção perfil global. Caso contrário, o provedor de armazenamento usa o ID de entrada do repositório. O algoritmo para calcular o número de hash de repositório deve minimizar ambiguidades em repositórios de identificação. 
+Como parte de uma URL MAPI, um provedor de armazenamento envia um número de hash do repositório para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O manipulador de protocolo MAPI usa esse número de hash do repositório para identificar um repositório. Em geral, um provedor de repositório calcula o número de hash do repositório com base na assinatura de mapeamento de repositório, se o repositório tiver a propriedade **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida na seção global Profile. Caso contrário, o provedor da loja usará a ID de entrada da loja. O algoritmo para calcular o número de hash do repositório deve minimizar as ambigüidades que identificam os repositórios. 
   
-Este tópico descreve um algoritmo que o Microsoft Office Outlook usa para calcular o número de hash um repositório com base na ID de assinatura ou entrada de mapeamento do repositório e o nome do arquivo de repositório. 
+Este tópico descreve um algoritmo que o Microsoft Office Outlook usa para calcular um número de hash do repositório com base na assinatura de mapeamento de repositório ou na ID de entrada e no nome do arquivo de repositório. 
   
-O blob binário a ser codificada é o PR_ENTRYID do repositório na maioria dos casos, mas para repositórios em cache do Exchange, públicos e privados, o blob binário devem estar o PR_MAPPING_SIGNATURE, localizado no perfil.
+O blob binário a ser codificado é o PR_ENTRYID da loja na maioria dos casos, mas para repositórios do Exchange em cache, público e privado, o blob binário deve ser o PR_MAPPING_SIGNATURE, encontrado no perfil.
   
-Após calcular o hash de blob binário de um repositório pasta pública, mas antes de hash-no caminho OST, a constante 0x2E505542, que representa a cadeia de caracteres ". PUB", é hash para garantir que ele seja exclusivo, que é, distinto de hash privada da loja.
+Após calcular o hash para o blob binário de um armazenamento de pasta pública, mas antes de hash-no caminho do OST, a constante 0x2E505542, que representa a cadeia de caracteres ". PUB ", é codificada para garantir que seja exclusiva, ou seja, distinta do hash do armazenamento particular.
   
-O código de suporte culls os bits relevantes do perfil do, que pode ser usado para determinar se um repositório é pública ou privada, se ele é armazenado em cache, e o caminho para o OST. Para incorporar este código em um projeto, chamar a função ComputeStoreHash, que toma como entrada o ponteiro de sessão, bem como PR\_ENTRYID, PR\_SERVICE_UID e PR\_MDB_PROVIDER da mensagem armazenar tabela. O restante das informações necessárias ele obtém do perfil. Para a saída, essa função retornará o hash conforme computadas de PR\_MAPPING_SIGNATURE se o armazenamento for um armazenamento em cache do Exchange ou o hash conforme computadas de PR\_ENTRYID.
+O código de suporte escolhe os bits relevantes do perfil, que podem ser usados para determinar se um repositório é público ou privado, se estiver armazenado em cache, e o caminho para o OST. Para incorporar esse código em um projeto, chame a função ComputeStoreHash, que usa como a entrada do ponteiro de sessão, bem como\_PR EntryID,\_PR SERVICE_UID e PR\_MDB_PROVIDER da tabela do repositório de mensagens. O restante das informações necessárias é do perfil. Para saída, essa função retorna o hash como calculado a partir de\_PR MAPPING_SIGNATURE se o repositório for um repositório do Exchange em cache ou o hash como computado\_de PR EntryID.
   
 > [!NOTE]
-> A função de suporte de HrEmsmdbUIDFromStore é um [Várias contas do Exchange](using-multiple-exchange-accounts.md)-ciente substituição para usando pbGlobalProfileSectionGuid para abrir a seção de perfil para uma caixa de correio do Exchange. 
+> A função de suporte do HrEmsmdbUIDFromStore é uma substituição com reconhecimento de [contas do Exchange](using-multiple-exchange-accounts.md)para usar o pbGlobalProfileSectionGuid para abrir a seção de perfil de uma caixa de correio do Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> A função de HrEmsmdbUIDFromStore funciona sem realmente abrir o repositório, isso significa que uma abordagem de finalidade geral boa. No entanto, se já tiver um ponteiro para o objeto store, você também pode recuperar o perfil da seção GUID diretamente do armazenamento de mensagens, lendo a propriedade PR_EMSMDB_SECTION_UID. 
+> A função HrEmsmdbUIDFromStore funciona sem realmente abrir o repositório, portanto, é uma boa abordagem de uso geral. No enTanto, se você já tiver um ponteiro para o objeto Store, também poderá recuperar o GUID da seção de perfil diretamente do repositório de mensagens lendo a propriedade PR_EMSMDB_SECTION_UID. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
+- [Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
 - [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 

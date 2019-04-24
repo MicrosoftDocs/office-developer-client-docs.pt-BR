@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ea4b90bf1190fd71701f82d43aaee384c7987ed0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331308"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>Propriedade canônica PidTagRpcOverHttpProxyAuthScheme
 
@@ -32,38 +32,38 @@ Representa o protocolo de autenticação a ser usado para esse perfil.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser definida para a autenticação básica ou autenticação NT LAN Manager (NTLM). Os valores possíveis para essa propriedade são os seguintes.
+Essa propriedade pode ser definida para autenticação básica ou autenticação NTLM (NT LAN Manager). Os valores possíveis para esta propriedade são os seguintes.
   
-|**Name**|**Valor**|**Descrição**|
+|**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
 |**ROHAUTH_BASIC** <br/> |0x1  <br/> |Autenticação básica  <br/> |
 |**ROHAUTH_NTLM** <br/> |0x2  <br/> |Autenticação NTLM  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

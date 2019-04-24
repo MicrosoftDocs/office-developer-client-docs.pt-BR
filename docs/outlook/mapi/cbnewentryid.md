@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329502"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22574451"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que deve ser alocada para uma nova estrutura [ENTRYID](entryid.md) de um tamanho especificado. 
+Calcula o número de bytes que devem ser alocados para uma nova [](entryid.md) estrutura ENTRYID de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __cb_
+ __CB_
   
-> Contagem de bytes no identificador de entrada a serem armazenados na nova estrutura **ENTRYID** . 
+> Contagem de bytes no identificador de entrada a ser armazenado na nova estrutura **EntryID** . 
     
 ## <a name="see-also"></a>Confira também
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 71178f1a531bd381387e0aa7fbacb02d4431a401
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b13bf3bdd8392efc42ad189e48dffad8636f0708
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328885"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
@@ -38,13 +38,13 @@ ULONG FAR * lpulCount
 
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _lpulCount_
   
-> [out] Ponteiro para o número de linhas da tabela.
+> bota Ponteiro para o número de linhas na tabela.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -52,39 +52,39 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento que impede que a operação de recuperação de contagem de linha seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Outra operação está em andamento, o que impede a inicialização da operação de recuperação de contagem de linhas. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_NO_SUPPORT 
   
-> A tabela não é possível calcular o número de linhas.
+> A tabela não pode calcular o número de linhas.
     
 MAPI_W_APPROX_COUNT 
   
-> A chamada foi bem-sucedida, mas uma contagem de linhas aproximada foi retornada porque o número exato de linhas não pôde ser determinado possivelmente devido a restrições de memória. Para testar esse aviso, use a macro **HR_FAILED** . Consulte [usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas uma contagem de linhas aproximada foi retornada porque a contagem de linhas exata não pôde ser determinada possivelmente devido a restrições de memória. Para testar esse aviso, use a macro **HR_FAILED** . Consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::GetRowCount** recupera o número total de linhas em uma tabela. 
+O método imApitable **:: GetRowCount** recupera o número total de linhas em uma tabela. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se você não puder determinar a contagem de exato de linhas da tabela, retorno MAPI_W_APPROX_COUNT e uma linha aproximada contagem no conteúdo do parâmetro _lpulCount_ . 
+Se você não puder determinar a contagem exata da linha da tabela, retorne MAPI_W_APPROX_COUNT e uma contagem de linha aproximada no conteúdo do parâmetro _lpulCount_ . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Usar **GetRowCount** para descobrir quantas linhas uma tabela contém antes de fazer uma chamada para o método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar os dados. Se houver menos de vinte linhas na tabela, é seguro chamar **QueryPosition** para recuperar a tabela inteira. Se houver mais de vinte linhas da tabela, considere a possibilidade de várias chamadas para **QueryPosition** e limitar o número de linhas recuperadas em cada chamada. 
+Use **GetRowCount** para descobrir quantas linhas uma tabela é mantida antes de fazer uma chamada para o método IMAPITable [:: QueryRows](imapitable-queryrows.md) para recuperar os dados. Se houver menos de vinte linhas na tabela, é seguro chamar o **QueryPosition** para recuperar a tabela inteira. Se houver mais de vinte linhas na tabela, considere fazer várias chamadas para **QueryPosition** e limitar o número de linhas recuperadas em cada chamada. 
   
-Algumas tabelas não suportam **GetRowCount** e retornar MAPI_E_NO_SUPPORT. Se não há suporte para **GetRowCount** , pode ser uma alternativa chamada [IMAPITable::QueryPosition](imapitable-queryposition.md). Com os resultados do **QueryPosition**, você pode determinar a relação entre a linha atual e a última linha. 
+Algumas tabelas não dão suporte **** a GetRowCount e retornam MAPI_E_NO_SUPPORT. Se **GetRowCount** não for suportado, uma alternativa pode ser chamar IMAPITable [:: QueryPosition](imapitable-queryposition.md). Com os resultados de **QueryPosition**, você pode determinar a relação entre a linha atual e a última linha. 
   
-Quando **GetRowCount** retorna MAPI_E_BUSY porque ele é temporariamente não é possível recuperar uma contagem de linha, chame o método de [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) . Quando **WaitForCompletion** retorna, repita a chamada para **GetRowCount**. Outra maneira para detectar se uma operação assíncrona está em andamento é chamar o método [IMAPITable::GetStatus](imapitable-getstatus.md) e verifique o conteúdo do parâmetro _lpulTableState_ . 
+Quando **GetRowCount** Retorna MAPI_E_BUSY porque é temporariamente impossível recuperar uma contagem de linha, chame o método [IMAPITable:: WaitForCompletion](imapitable-waitforcompletion.md) . Quando **WaitForCompletion** retornar, repita a chamada para **GetRowCount**. Outra maneira de detectar se uma operação assíncrona está em andamento é chamar o método imApitable [:: GetStatus](imapitable-getstatus.md) e verificar o conteúdo do parâmetro _lpulTableState_ . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa o método **IMAPITable::GetRowCount** para determinar quantas linhas estão na tabela de origem, portanto, é possível alocar memória para realizar a cópia.  <br/> |
+|MAPIFunctions. cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa o método imApitable **:: GetRowCount** para determinar quantas linhas estão na tabela de origem para que a memória possa ser alocada para executar a cópia.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -101,5 +101,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

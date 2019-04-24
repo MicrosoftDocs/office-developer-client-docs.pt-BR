@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7605739dd6d0f0205a1a4f09eb8c45d235c0c179
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329733"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriedade canônica PidTagMessageCcMe
 
@@ -25,46 +25,46 @@ ms.locfileid: "25389768"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se este usuário mensagens especificamente é nomeado como um destinatário de cópia carbono (CC) da mensagem e não faz parte de uma lista de distribuição. 
+Contém TRUE se esse usuário de mensagens é especificamente chamado como destinatário de cópia carbono (CC) desta mensagem e não faz parte de uma lista de distribuição. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_MESSAGE_CC_ME  <br/> |
 |Identificador:  <br/> |0x0058  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade oferece uma maneira conveniente para determinar se o nome de usuário aparece explicitamente na lista de destinatários de cópia carbono, sem o exame todas as entradas na lista. 
+Essa propriedade oferece uma maneira conveniente de determinar se o nome de usuário aparece explicitamente na lista de destinatários de cópia carbono, sem examinar todas as entradas na lista. 
   
-Essa propriedade também contribuem para o tratamento automatizado de mensagens recebidas no momento da confirmação. Em opção do provedor de transporte, essa propriedade contém FALSE ou não estiver definida, se o usuário de mensagens não estiver listado diretamente na tabela de destinatário. 
+Essa propriedade também auxilia a manipulação automatizada de mensagens recebidas no momento da confirmação. Na opção do provedor de transporte, essa propriedade conterá FALSE ou não será definida se o usuário de mensagens não estiver listado diretamente na tabela de destinatários. 
   
-Entrega de mensagem resultante da expansão de lista de distribuição ou uma designação de cópia oculta não faz com que essa propriedade ser definida. O destinatário deve ser nomeado explicitamente. 
+A entrega de mensagens resultante da expansão da lista de distribuição ou de uma designação de cópia oculta não faz com que essa propriedade seja definida. O destinatário deve ser nomeado explicitamente. 
   
-As mensagens não enviadas geralmente não definir essa propriedade, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). Se eles estiverem presentes em mensagens que o usuário pode acessar em repositórios de mensagem pública, em particular de outros usuários repositórios, nos arquivos em disco, ou incorporado dentro de outras mensagens recebidas, geralmente contêm os valores aos quais foram definidos a última vez que um provedor de transporte entregue a mensagem. 
+As mensagens não enviadas geralmente não definem essa propriedade, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). Se estiverem presentes nas mensagens que o usuário pode acessar em repositórios de mensagens públicas, em repositórios privados de outros usuários, em arquivos no disco ou incorporado dentro de outras mensagens recebidas, eles geralmente contêm os valores para os quais foram definidos na última vez que um provedor de transporte entregue a mensagem. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -72,7 +72,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

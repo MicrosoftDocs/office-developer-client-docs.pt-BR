@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
-description: Especifica se deve usar a autenticação da conta de SMTP.
-ms.openlocfilehash: 8839118f905ef4f93d878567539c2831e38c3f7e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica se é para usar a autenticação da conta SMTP.
+ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328312"
 ---
 # <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
 
-Especifica se deve usar a autenticação da conta de SMTP.
+Especifica se é para usar a autenticação da conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -25,14 +25,14 @@ Especifica se deve usar a autenticação da conta de SMTP.
 |Identificador:  <br/> |0x0203  <br/> |
 |Tipo de propriedade:  <br/> |PT_DWORD  <br/> |
 |Marca de propriedade:  <br/> |0x02030003  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um meio de valor zero não usar a autenticação, caso contrário, use a autenticação.
+Um valor zero significa não usar a autenticação, caso contrário, use a autenticação.
   
 ## <a name="see-also"></a>Confira também
 
 - [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

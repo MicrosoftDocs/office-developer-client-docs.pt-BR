@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: fdca2f65c73c0db0fa0b7d59b8d49b218aeb2330
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8950623308e85de1d239deb322f65ee867a33ca0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328417"
 ---
 # <a name="recipient-tables"></a>Tabelas de destinatários
 
@@ -21,9 +21,9 @@ ms.locfileid: "22565085"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Tabela de destinatário contém informações sobre todos os destinatários de uma mensagem. Tabelas de destinatários de implementar provedores de armazenamento de mensagens e aplicativos cliente usá-los. Clientes acessar uma tabela de destinatário fazendo uma chamada ao método [IMessage::GetRecipientTable](imessage-getrecipienttable.md) ou se o provedor de armazenamento de mensagem lhe fornecer apoio, para o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . Os clientes acessar tabelas de destinatários com **OpenProperty** especificando **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) para a marca de propriedade e IID_IMAPITable para o identificador de interface. Podem ser feitas alterações em uma tabela de destinatário, chamando o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
+A tabela de destinatários contém informações sobre todos os destinatários de uma mensagem. Os provedores de repositórios de mensagens implementam tabelas de destinatários e aplicativos cliente os usam. Os clientes acessam uma tabela de destinatários fazendo uma chamada para o método [IMessage::](imessage-getrecipienttable.md) GetRecipientTable ou, se o provedor de repositório de mensagens oferecer suporte, para o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . Os clientes acessam **** tabelas de destinatários com OpenProperty especificando **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) para a marca de propriedade e IID_IMAPITable para o identificador de interface. As alterações em uma tabela de destinatários podem ser feitas chamando o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . 
   
-Tabelas de destinatários têm outra coluna definir dependendo se a mensagem foi enviada. As seguintes propriedades compõem a coluna necessária definida nas tabelas de destinatário:
+As tabelas de destinatários têm um conjunto de colunas diferente, dependendo se a mensagem foi enviada. As propriedades a seguir compõem o conjunto de colunas necessárias nas tabelas de destinatários:
   
 - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
@@ -41,15 +41,15 @@ As propriedades opcionais são:
     
 - **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
     
-Mensagens enviadas devem incluir essas propriedades adicionais em seu conjunto de coluna necessária:
+As mensagens enviadas devem incluir essas propriedades adicionais no conjunto de colunas exigido:
   
 - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 - **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-Dependendo da implementação de um provedor, colunas adicionais, como **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) e [ENTRYID](entryid.md), podem ser na tabela.
+Dependendo da implementação de um provedor, colunas adicionais, como **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) e EntryID [](entryid.md), podem estar na tabela.
   
-Provedor de armazenamento de qualquer mensagem que ofereça suporte a transmissão de mensagens — conforme indicado pelo sendo definido na propriedade de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do provedor definido o bit STORE_SUBMIT_OK — deve oferecer suporte a um determinado conjunto de restrições na implementação de um destinatário de tabela. **E**, **ou**, existir e restrições de propriedade estão entre os tipos de restrições que deveriam estar disponíveis para os usuários da tabela de destinatário. Somente os operadores iguais e não iguais precisam oferecer suporte a restrição de propriedade. Essas restrições devem trabalhar com as seguintes propriedades:
+Qualquer provedor de repositório de mensagens que ofereça suporte à transmissão de mensagens, conforme indicado pelo bit de STORE_SUBMIT_OK que está sendo definido na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do provedor, deve oferecer suporte a um determinado conjunto de restrições em uma implementação de tabela de destinatários. As restrições de **e**, **ou**, existem e propriedades estão entre os tipos de restrições que devem estar disponíveis para os usuários da tabela de destinatários. Apenas operadores iguais e não iguais precisam ter suporte na restrição de propriedade. Essas restrições devem funcionar com as seguintes propriedades:
   
 - **PR_ADDRTYPE**
     

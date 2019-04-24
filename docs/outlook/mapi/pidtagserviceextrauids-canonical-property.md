@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0deb1b34a437d47ab53cdb2e13cda006d9116f65
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0fb688e2a845186224c1802f9df2ac537d5bb4d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328725"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>Propriedade canônica PidTagServiceExtraUids
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570118"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam as seções de perfil adicionais para o serviço de mensagem. 
+Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam seções de perfil adicionais para o serviço de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam as seçõe
    
 ## <a name="remarks"></a>Comentários
 
-Novas seções de perfil podem ser criadas para cada filtro de mensagens. Quando as informações sobre o serviço de mensagem deve ser copiado para outro perfil, é importante copiar as seções de perfil adicionais para os filtros também. Um provedor de serviço que usa as seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil em **PR_SERVICE_EXTRA_UIDS**, que permite o MAPI copiar as informações do serviço de mensagem adicionais.
+Novas seções de perfil podem ser criadas para cada filtro de mensagem. Quando as informações sobre o serviço de mensagens são copiadas para outro perfil, é importante também copiar as seções de perfil adicionais para os filtros. Um provedor de serviços que usa seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil no **PR_SERVICE_EXTRA_UIDS**, que permite que o MAPI copie as informações adicionais do serviço de mensagens.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

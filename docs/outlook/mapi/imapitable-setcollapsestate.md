@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 51c239897e5e225a0765f78404526e2836371f30
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7351457dc5b72cfc4a7ef9f91e9d33a80ca98c39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328830"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567899"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recriará o estado atual de expandidos ou recolhido de uma tabela categorizado usando os dados que foi salvo por uma chamada anterior para o método [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) . 
+Recria o estado atual expandido ou recolhido de uma tabela categorizada usando dados que foram salvos por uma chamada anterior para o método [IMAPITable::](imapitable-getcollapsestate.md) getcollapsestate. 
   
 ```cpp
 HRESULT SetCollapseState(
@@ -40,53 +40,53 @@ BOOKMARK FAR * lpbkLocation
 
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _cbCollapseState_
   
-> [in] Contagem de bytes na estrutura apontado pelo parâmetro _pbCollapseState_ . 
+> no Contagem de bytes na estrutura apontada pelo parâmetro _pbCollapseState_ . 
     
  _pbCollapseState_
   
-> [in] Ponteiro para as estruturas contendo os dados necessários para recriar o modo de exibição de tabela.
+> no Ponteiro para as estruturas que contêm os dados necessários para reconstruir o modo de exibição de tabela.
     
  _lpbkLocation_
   
-> [out] Ponteiro para um indicador que identifica a linha da tabela na qual o estado recolhido ou expandido deve ser recriado. Este indicador e a chave de instância passada no parâmetro _lpbInstanceKey_ na chamada a [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identificam a mesma linha. 
+> bota Ponteiro para um indicador identificando a linha na tabela na qual o estado recolhido ou expandido deve ser recriado. Este indicador e a chave de instância passada no parâmetro _lpbInstanceKey_ na chamada para IMAPITable [::](imapitable-getcollapsestate.md) getcollapsestate identificam a mesma linha. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O estado da tabela categorizado foi reconstruído com êxito.
+> O estado da tabela categorizada foi reconstruído com êxito.
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento que impede que a operação seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Outra operação está em andamento, o que impede a inicialização da operação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> A tabela não pôde concluir a recriação o modo de exibição recolhido ou expandido.
+> A tabela não pôde concluir a reconstrução da exibição recolhida ou expandida.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::SetCollapseState** restabelece o estado expandido ou recolhido do modo de exibição de tabela. **SetCollapseState** e **GetCollapseState** funcionam juntas da seguinte maneira: 
+O método imApitable **::** setcollapsestate restabelece o estado expandido ou recolhido do modo de exibição de tabela. **** Setcollapsestate e **** getcollapsestate funcionam juntos da seguinte maneira: 
   
-1. Quando o estado de uma tabela categorizado está prestes a ser alterada, [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) é chamado para salvar todos os dados referentes ao estado anterior a alteração. 
+1. Quando o estado de uma tabela categorizada está prestes a mudar, [IMAPITable::](imapitable-getcollapsestate.md) getcollapsestate é chamado para salvar todos os dados pertencentes ao estado anterior à alteração. 
     
-2. Para restaurar o modo de exibição da tabela ao seu estado salvo, **SetCollapseState** é chamado. Os dados salvos pelo **GetCollapseState** são passados para **SetCollapseState**. **SetCollapseState** é capaz de usar esses dados para restaurar o estado. 
+2. Para restaurar o modo de exibição da tabela para seu estado salvo **** , setcollapsestate é chamado. Os dados salvos por **** getcollapsestate são passados para **** setcollapsestate. **** Setcollapsestate é capaz de usar esses dados para restaurar o estado. 
     
-3. **SetCollapseState** retorna um indicador que identifica a mesma linha como a chave de instância passada como entrada para **GetCollapseState**como um parâmetro de saída.
+3. **** Setcollapsestate retorna como um parâmetro de saída um indicador que identifica a mesma linha que a chave de instância passada como entrada para getcollapsestate. ****
     
 Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md). 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você é responsável por verificar que a ordem de classificação e restrições forem exatamente iguais como estavam no momento da chamada **GetCollapseState** . Se uma alteração foi feita, **SetCollapseState** não deve ser chamado porque os resultados podem ser imprevisíveis. Isso pode acontecer se, por exemplo, um cliente chama **GetCollapseState** e **SortTable** para alterar a chave de classificação antes de chamar **SetCollapseState**. Para estar seguro, verifique se os dados salvos ainda são válidos antes de prosseguir com a restauração. 
+Você é responsável por verificar se a ordem de classificação e as restrições são exatamente iguais às que foram no momento da chamada getCollapsestate. **** Se uma alteração tiver sido feita, **** setcollapsestate não deverá ser chamado porque os resultados podem ser imprevisíveis. Isso pode acontecer se, por exemplo, um cliente chama **** getcollapsestate e **SortTable** para alterar a chave de classificação antes de **** chamar setcollapsestate. Para ser seguro, verifique se os dados salvos ainda são válidos antes de prosseguir com a restauração. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para chamar **SetCollapseState**, você anteriormente deve ter chamado **GetCollapseState**. A ordem de classificação estabelecer as categorias deve ser o mesmo para os dois métodos. Se as ordens de classificação forem diferentes, os resultados da operação **SetCollapseState** serão imprevisíveis. 
+Para chamar **** setcollapsestate, você deve ter chamado getcollapsestate anteriormente. **** A ordem de classificação que estabelece as categorias deve ser a mesma para os dois métodos. Se as ordens de classificação forem diferentes, os resultados **** da operação setcollapsestate serão imprevisíveis. 
   
 ## <a name="see-also"></a>Confira também
 

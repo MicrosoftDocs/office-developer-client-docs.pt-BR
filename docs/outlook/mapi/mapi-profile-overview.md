@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e196800b717ce2528da4b9871bad7425f3a2c326
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328158"
 ---
 # <a name="mapi-profile-overview"></a>Visão geral do perfil MAPI
 
@@ -21,29 +21,29 @@ ms.locfileid: "25385624"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um perfil é uma coleção de informações sobre os serviços de mensagens e provedores de serviços que um usuário de um aplicativo cliente quer esteja disponível durante uma determinada sessão MAPI. Cada usuário tenha pelo menos um perfil; muitos usuários manter vários. Por exemplo, um usuário pode ter um perfil para trabalhar com um serviço de repositório de mensagens baseado em servidor e outro perfil para trabalhar com um serviço de repositório de mensagem no computador local. Um usuário talvez queira acessar um conjunto de sistemas de mensagens usando os serviços de transporte adequado para a parte do dia e outro conjunto para o restante do dia. Perfis fornecem uma maneira flexível para selecionar combinações de serviços do sistema de mensagens. 
+Um perfil é uma coleção de informações sobre os serviços de mensagens e provedores de serviços que um usuário de um aplicativo cliente deseja que esteja disponível durante uma sessão MAPI específica. Todos os usuários têm pelo menos um perfil; muitos usuários mantêm vários. Por exemplo, um usuário pode ter um perfil para trabalhar com um serviço de armazenamento de mensagens baseado em servidor e outro perfil para trabalhar com um serviço de armazenamento de mensagens no computador local. Um usuário pode querer acessar um conjunto de sistemas de mensagens usando os serviços de transporte apropriados por parte do dia e outro conjunto para o resto do dia. Os perfis fornecem uma maneira flexível de selecionar combinações de serviços do sistema de mensagens. 
   
-Perfis podem ter até 64 caracteres alfanuméricos os nomes de comprimento. Os nomes podem incluir espaços incorporados, o sublinhado e ênfase caracteres e não podem conter espaços à esquerda ou à direita. 
+Os perfis podem ter nomes de até 64 caracteres alfanuméricos de comprimento. Os nomes podem incluir caracteres de destaque, sublinhado e espaços incorporados e não podem incluir espaços à esquerda ou à direita. 
   
-Perfis são organizados hierarquicamente e divididos em seções, com uma seção para cada serviço de mensagem e uma seção para cada provedor de serviços em um serviço. As seções relacionadas são vinculadas, tornando mais fácil navegar as informações. Cada seção contém uma série de entradas MAPI ou um aplicativo cliente usa para configuração.
+Os perfis são organizados hierarquicamente e divididos em seções, com uma seção para cada serviço de mensagens e uma seção para cada provedor de serviços em um serviço. As seções relacionadas são vinculadas, facilitando a navegação nas informações. Cada seção contém uma série de entradas que o MAPI ou um aplicativo cliente usa para configuração.
   
-As entradas incluídas em um perfil variam de serviço de mensagem para o serviço de mensagem. Algumas das entradas comuns incluem o seguinte:
+As entradas incluídas em um perfil variam de serviço de mensagens para serviço de mensagens. Algumas das entradas comuns incluem o seguinte:
   
-- O nome de cada serviço de mensagem ou o provedor de serviços.
+- O nome de cada serviço de mensagens ou provedor de serviços.
     
-- O nome de DLLs que contêm os provedores de serviço e serviços de mensagem.
+- O nome das DLLs que contêm provedores de serviço e serviços de mensagens.
     
-- O nome da função do ponto de entrada do serviço de cada mensagem.
+- O nome da função de ponto de entrada de cada serviço de mensagens.
     
-- Uma lista dos provedores de serviços que constituem cada serviço de mensagem.
+- Uma lista dos provedores de serviços que compõem cada serviço de mensagens.
     
-Perfis podem ser criados no momento da instalação, quando o MAPI ou um serviço de mensagem for carregado em um computador, ou a qualquer momento posterior. MAPI fornece o Assistente de perfil para administração de perfil. 
+Os perfis podem ser criados no momento da instalação, quando MAPI ou um serviço de mensagens é carregado em um computador ou em qualquer momento posterior. MAPI fornece o assistente de perfil para administração de perfil. 
   
-O Assistente de perfil é um aplicativo que cria novos perfis com uma quantidade mínima de trabalho. O assistente usa valores padrão para configurações sempre que possível, economizando esforço e tempo dos usuários. Os usuários inserem valores somente quando absolutamente necessário. Para obter mais informações, consulte o [tópico Criando um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md). Você também pode usar a ferramenta de personalização do Office para criar um novo perfil. Para obter mais informações, consulte [Office Customization Tool](https://go.microsoft.com/fwlink/?LinkId=123000).
+O assistente de perfil é um aplicativo que cria novos perfis com uma quantidade mínima de trabalho. O assistente usa valores padrão para as configurações sempre que possível, poupando tempo e esforço dos usuários. Os usuários inserem valores somente quando é absolutamente necessário. Para obter mais informações, consulte [criando um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md). Você também pode usar a ferramenta de personalização do Office para criar um novo perfil. Para obter mais informações, consulte [Ferramenta de Personalização do Office](https://go.microsoft.com/fwlink/?LinkId=123000).
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Arquitetura e os recursos MAPI](mapi-features-and-architecture.md)
+[Recursos e arquitetura MAPI](mapi-features-and-architecture.md)
 

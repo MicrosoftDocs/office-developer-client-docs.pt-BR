@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 413d302b-e973-4cb8-acc9-47da8959881c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6a45dbeafbc89e4d1b77476a1c957a84235cd971
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328767"
 ---
 # <a name="pidlidfax2displayname-canonical-property"></a>Propriedade canônica PidLidFax2DisplayName
 
@@ -30,26 +30,26 @@ Especifica o nome de exibição do endereço de fax residencial do contato.
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidFax2DisplayName  <br/> |
-|Propriedade definida:  <br/> |PSETID_Address  <br/> |
-|ID de longo (LID):  <br/> |0x000080C0  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Address  <br/> |
+|Long ID (LID):  <br/> |0x000080C0  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
+> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

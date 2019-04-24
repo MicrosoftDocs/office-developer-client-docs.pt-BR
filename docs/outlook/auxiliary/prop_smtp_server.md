@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a395ca32-c315-4cd2-b93c-43c74fa017ba
-description: Representa o nome do servidor da conta do SMTP.
-ms.openlocfilehash: 675538c4a9b14f1a7ef9754992b52162d727506d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa o nome do servidor da conta SMTP.
+ms.openlocfilehash: d93582d0be02155632f63be256401afc959f13fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328340"
 ---
 # <a name="propsmtpserver"></a>PROP_SMTP_SERVER
 
-Representa o nome do servidor da conta do SMTP.
+Representa o nome do servidor da conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -25,10 +25,10 @@ Representa o nome do servidor da conta do SMTP.
 |Identificador:  <br/> |0x0200  <br/> |
 |Tipo de propriedade:  <br/> |PT_UNICODE  <br/> |
 |Marca de propriedade:  <br/> |0x0200001F  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

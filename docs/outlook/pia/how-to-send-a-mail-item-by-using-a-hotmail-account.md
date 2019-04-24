@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 008f66ff1a43f90e756900c467ba6c086829b769
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331161"
 ---
 # <a name="send-a-mail-item-by-using-a-hotmail-account"></a>Enviar um item de email usando uma conta do Hotmail
 
@@ -27,7 +27,7 @@ Um perfil define uma ou mais contas de email e cada conta de email é associada 
 
 No exemplo de código a seguir, uma mensagem é criada com um itinerário anexado e, em seguida, enviada usando uma conta do Windows Live Hotmail. A conta de email do Hotmail é usada como o objeto **Account** no perfil do usuário. O exemplo de código, em seguida, define a propriedade SendUsingAccount para essa conta e chama o método [Send ()](https://msdn.microsoft.com/library/bb644139\(v=office.15\)) do objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

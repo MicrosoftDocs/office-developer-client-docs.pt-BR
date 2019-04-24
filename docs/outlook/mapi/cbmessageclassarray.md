@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c135a5bf5c1a697ddf2b2c85c6d81d6289f6a9e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329593"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569607"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura [SMessageClassArray](smessageclassarray.md) existente que contém um número especificado de ponteiros de cadeia de caracteres para classes de mensagens. 
+Calcula o número de bytes em uma estrutura existente do [SMessageClassArray](smessageclassarray.md) que contém um número especificado de ponteiros de cadeia de caracteres para classes de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
@@ -40,7 +40,7 @@ CbMessageClassArray (_c)
 
  __c_
   
-> Contagem dos ponteiros para as classes de mensagens que estão incluídos no existente **SMessageClassArray**.
+> Contagem de ponteiros para classes de mensagens incluídas no **SMessageClassArray**existente.
     
 ## <a name="see-also"></a>Confira também
 

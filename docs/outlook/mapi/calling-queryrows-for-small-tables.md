@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 34975677bedccf3f9111985d371e21d482b45584
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b38dcc485e75f94ccf4f4c3c8c9a57d314465a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331622"
 ---
 # <a name="calling-queryrows-for-small-tables"></a>Chamar QueryRows para tabelas pequenas
 
@@ -21,8 +21,8 @@ ms.locfileid: "22589333"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ao recuperar linhas de uma pequena tabela, chame [IMAPITable:: QueryRows](imapitable-queryrows.md) em vez de primeira criando uma restrição. Criar uma restrição afeta o desempenho, pois o provedor deve primeiro criar uma tabela, encontre as linhas correspondentes na tabela original e copie as linhas para a nova tabela. Se o número total de linhas da tabela for menor do que 100, é provavelmente mais efetiva ler todas as linhas e então chamar [IMAPITable:: FindRow](imapitable-findrow.md) para localizar a linha apropriada. Essa é uma estratégia de particularmente boa se essa informação é necessária somente ocasionalmente. 
+Ao recuperar linhas de uma tabela pequena, chame imApitable [:: QueryRows](imapitable-queryrows.md) em vez de primeiro criar uma restrição. A criação de uma restrição impacta o desempenho porque o provedor deve primeiro criar uma tabela, localizar as linhas correspondentes na tabela original e, em seguida, copiar as linhas para a nova tabela. Se o número total de linhas na tabela for menor que 100, provavelmente será mais eficaz ler todas as linhas e, em seguida, chamar imApitable [:: FindRow](imapitable-findrow.md) para localizar a linha apropriada. Essa é uma estratégia particularmente boa se essas informações são necessárias apenas ocasionalmente. 
   
-O tempo adequado para usar uma restrição é quando as informações restritas ou filtradas serão usadas por um período maior de tempo ou usadas frequentemente. Por exemplo, se você sempre precisa de um modo de exibição com mensagens não lidas, uma restrição é a chamada adequada para usar.
+O momento apropriado para usar uma restrição é quando as informações restritas ou filtradas serão usadas por um período de tempo maior ou quando usadas com frequência. Por exemplo, se você sempre precisa de um modo de exibição com mensagens não lidas, uma restrição é a chamada adequada a ser usada.
   
 

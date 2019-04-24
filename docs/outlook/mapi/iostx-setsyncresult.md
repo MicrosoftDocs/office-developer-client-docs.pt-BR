@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f8982bafc0678378ae46dc31a9417cc11bb695a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 78ccf72f17ec350d77f2d22d0e6d2fa7c3d97543
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332141"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
@@ -37,11 +37,11 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  [in] O resultado da sincronização. 
+>  no O resultado da sincronização. 
     
 ## <a name="remarks"></a>Comentários
 
-Chame **IOSTX::SetSyncResult** antes de chamar **IOSTX::SyncEnd** para informar o armazenamento local do resultado da sincronização. 
+Call **IOSTX:: SetSyncResult** antes de chamar **IOSTX:: SyncEnd** para informar o repositório local do resultado da sincronização. 
   
 ## <a name="see-also"></a>Confira também
 

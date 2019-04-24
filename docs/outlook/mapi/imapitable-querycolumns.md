@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328879"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593743"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma lista das colunas da tabela.
+Retorna uma lista de colunas da tabela.
   
 ```cpp
 HRESULT QueryColumns(
@@ -38,7 +38,7 @@ LPSPropTagArray FAR * lpPropTagArray
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores que indica qual coluna conjunto deve ser retornada. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores que indica o conjunto de colunas que deve ser retornado. O seguinte sinalizador pode ser definido:
     
 TBL_ALL_COLUMNS 
   
@@ -46,43 +46,43 @@ TBL_ALL_COLUMNS
     
  _lpPropTagArray_
   
-> [out] Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém as marcas de propriedade para a coluna definido. 
+> bota Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém as marcas de propriedade para o conjunto de colunas. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O conjunto de coluna foi retornado com êxito.
+> O conjunto de colunas foi retornado com êxito.
     
 MAPI_E_BUSY 
   
-> Outra operação é em andamento que impeça a coluna definida a operação de recuperação seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
+> Outra operação está em andamento, o que impede a inicialização da operação de recuperação do conjunto de colunas. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::QueryColumns** pode ser chamado para recuperar: 
+O método imApitable **:: QueryColumns** pode ser chamado para recuperar: 
   
-- Coluna padrão definido para uma tabela.
+- A coluna padrão definida para uma tabela.
     
-- A coluna atual definido para uma tabela, conforme estabelecido por uma chamada ao método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+- A coluna atual definida para uma tabela, conforme estabelecida por uma chamada para o método imApitable [::](imapitable-setcolumns.md) SetColumns. 
     
-- A coluna completa definidas para uma tabela, as colunas que estão disponíveis, mas não necessariamente parte do conjunto atual.
+- A coluna completa definida para uma tabela, as colunas que estão disponíveis, mas não necessariamente fazem parte do conjunto atual.
     
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você não definir o sinalizador TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** retorna padrão uma tabela ou conjunto de coluna atual, dependendo se a tabela foi afetada por uma chamada para **IMAPITable::SetColumns**. **SetColumns** altera o sentido e seleção de colunas no conjunto de colunas de uma tabela. 
+Se você não definir o sinalizador TBL_ALL_COLUMNS, imApitable **:: QueryColumns** retorna o conjunto de colunas padrão ou atual da tabela, dependendo se a tabela foi afetada por uma chamada a IMAPITable **::** SetColumns. **** SetColumns altera a ordem e a seleção de colunas no conjunto de colunas de uma tabela. 
   
-Se você definir o sinalizador TBL_ALL_COLUMNS, **QueryColumns** retorna todas as colunas que são capazes de sendo no conjunto de coluna da tabela. 
+Se você definir o sinalizador TBL_ALL_COLUMNS, **QueryColumns** retornará todas as colunas que forem capazes de estar no conjunto de colunas da tabela. 
   
 Libere a memória para a matriz de marca de propriedade apontada pelo parâmetro _lpPropTagArray_ chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa o método **IMAPITable::QueryColumns** para recuperar a coluna atual, definido para uma tabela para que o usuário possa ser editado.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa o método imApitable **:: QueryColumns** para recuperar o conjunto de colunas atual para uma tabela para que o usuário possa editá-lo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -97,5 +97,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

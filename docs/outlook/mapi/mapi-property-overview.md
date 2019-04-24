@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 40a71592e658110dab81c9bcb4aec97f9930d014
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 99887bab2b576e6e6c05414ee9daf1bd6e8d0463
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328198"
 ---
 # <a name="mapi-property-overview"></a>Visão geral da propriedade MAPI
 
@@ -21,29 +21,29 @@ ms.locfileid: "22576474"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma propriedade é um atributo de um objeto MAPI. As propriedades descrevem algo sobre o objeto, como a linha de assunto de uma mensagem ou o tipo de endereço de um usuário de mensagens. MAPI define várias propriedades, algumas para descrever muitos objetos e alguns que são adequadas somente para um objeto de um determinado tipo. Clientes e provedores de serviços podem estender o conjunto do MAPI de propriedades predefinidas criando novas e propriedades personalizadas. Os clientes podem definir propriedades para descrever novas classes de mensagem, e provedores de serviços podem definir propriedades para expor recursos exclusivos de seu sistema de mensagens.
+Uma propriedade é um atributo de um objeto MAPI. As propriedades descrevem algo sobre o objeto, como a linha de assunto de uma mensagem ou o tipo de endereço de um usuário de mensagens. MAPI define muitas propriedades, algumas para descrever muitos objetos e alguns que são apropriados somente para um objeto de um tipo específico. Os clientes e provedores de serviço podem estender o conjunto de propriedades predefinidas do MAPI, criando novas propriedades personalizadas. Os clientes podem definir propriedades para descrever novas classes de mensagens, e os provedores de serviços podem definir propriedades para expor os recursos exclusivos do sistema de mensagens.
   
-Propriedades podem ser persistente ou temporária. Propriedades que persistem a cada sessão podem ser armazenadas com os dados dos seus objetos ou no perfil. Propriedades temporárias existem apenas para a duração da sessão atual. 
+As propriedades podem ser persistentes ou temporárias. As propriedades que persistem de sessão para sessão podem ser armazenadas com os dados de seus objetos ou no perfil. As propriedades temporárias existem somente para a duração da sessão atual. 
   
-Clientes e provedores de serviços podem mostrar propriedades aos usuários com uma tabela ou em uma folha de propriedades. Tabelas oferecem aos usuários uma exibição somente leitura de algumas das propriedades que pertencem a vários objetos. Os dados são exibidos em formato de linha e coluna, com cada linha representa um objeto e cada uma propriedade de coluna. Folhas de propriedades são caixas de diálogo com guias que exibem as propriedades relacionadas para um único objeto. Folhas de propriedades podem fornecer somente leitura ou acesso de leitura/gravação aos dados. Se um usuário tem permissão para fazer alterações é até o implementador da folha de propriedades.
+Os clientes e provedores de serviços podem mostrar propriedades para os usuários com uma tabela ou uma folha de propriedades. As tabelas fornecem aos usuários uma exibição somente leitura de algumas das propriedades pertencentes a vários objetos. Os dados são exibidos em formato de linha e coluna, com cada linha representando um objeto e cada coluna uma propriedade. As folhas de propriedades são caixas de diálogo com guias que exibem propriedades relacionadas de um único objeto. As folhas de propriedades podem fornecer acesso somente leitura ou leitura/gravação aos dados. Se um usuário tem permissão para fazer alterações é até o implementador da folha de propriedades.
   
-A interface [IMAPIProp](imapipropiunknown.md) é o principal para trabalhar com propriedades. Todos os objetos que oferecem suporte a propriedades implementam **IMAPIProp**. **IMAPIProp** inclui métodos para recuperar valores de propriedade, copiando propriedades, as alterações e salvar essas alterações, o mapeamento entre os nomes de propriedade e seus identificadores e recuperar informações sobre um erro anterior. 
+A interface [IMAPIProp](imapipropiunknown.md) é a interface principal para trabalhar com propriedades. Todos os objetos que suportam Propriedades implementam **IMAPIProp**. **IMAPIProp** inclui métodos para recuperar valores de propriedade, copiar propriedades, fazer alterações e salvar essas alterações, mapeamento entre nomes de propriedades e seus identificadores e recuperar informações sobre um erro anterior. 
   
-Existem diversas estruturas de dados para descrever propriedades e informações sobre propriedades. As estruturas usadas com mais frequência são o [SPropValue](spropvalue.md) e a estrutura de [SPropTagArray](sproptagarray.md) . A estrutura **SPropValue** contém as três partes das informações que descrevem uma propriedade: 
+Há várias estruturas de dados para descrever Propriedades e informações sobre propriedades. As estruturas mais comumente usadas são a estrutura [SPropValue](spropvalue.md) e a estrutura [SPropTagArray](sproptagarray.md) . A estrutura **SPropValue** contém as três informações que descrevem uma propriedade: 
   
-- Dados, ou o valor da propriedade.
+- Dados ou valor da propriedade.
     
-- Tipo de dados do valor da propriedade, como um inteiro ou booleano. 
+- Tipo de dados do valor da propriedade, como Integer ou Boolean. 
     
-- Valor numérico dentro de um intervalo específico que identificam exclusivamente a propriedade e o componente responsável por manter a ele. Por exemplo, há um intervalo para armazenar o conteúdo de propriedades definidas pelo MAPI e outro intervalo para armazenar as propriedades de conteúdo da mensagem é definido por um cliente para uma classe de mensagem personalizada de mensagem. 
+- Valor numérico dentro de um intervalo específico que identifica exclusivamente a propriedade e o componente responsável por mantê-lo. Por exemplo, há um intervalo para armazenar as propriedades de conteúdo de mensagens definidas por MAPI e outro intervalo para armazenar as propriedades de conteúdo de mensagens definidas por um cliente para uma classe de mensagens personalizada. 
     
-O tipo de propriedade e o identificador são combinados em um único componente chamado a marca de propriedade. As marcas de propriedade são constantes que podem ser usadas facilmente se referir à propriedade. Marcas de propriedade para propriedades definidas pelo MAPI são incluídas na MAPITAGS. Arquivo de cabeçalho H e no membro de uma estrutura de **SPropValue** **ulPropTag** . Provedores de serviços e clientes usam marcas de propriedade para identificar, recuperar e atualizar as propriedades correspondentes. 
+O tipo de propriedade e o identificador são combinados em um único componente chamado de marca de propriedade. As marcas de propriedade são constantes que podem ser usadas para referir-se facilmente à propriedade. As marcas de propriedade para propriedades definidas por MAPI estão incluídas no MAPITAGS. Arquivo de cabeçalho H e no membro **ulPropTag** de uma estrutura **SPropValue** . Os clientes e provedores de serviços usam marcas de propriedade para identificar, recuperar e atualizar as propriedades correspondentes. 
   
-A estrutura **SPropTagArray** é uma matriz contada das marcas de propriedade. Muitos dos métodos na **IMAPIProp** e outras interfaces usam uma estrutura de **SPropTagArray** para descrição das propriedades. 
+A estrutura **SPropTagArray** é uma matriz contada de marcas de propriedade. Muitos dos métodos no **IMAPIProp** e outras interfaces usam uma estrutura **SPropTagArray** para descrever as propriedades. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Conceitos MAPI](mapi-concepts.md)
+[Conceitos de MAPI](mapi-concepts.md)
 

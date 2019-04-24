@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5df5c253-f491-7039-ce00-e66417590bb2
 description: ''
-ms.openlocfilehash: 46feb04453025824c2d24358bf82b8e967cba84e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc97a64da977d20d3c76f3d3a083268b4c93bbb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328934"
 ---
 # <a name="enter-an-empty-formula"></a>Inserir uma fórmula vazia
 
@@ -23,6 +23,6 @@ ms.locfileid: "19771821"
 2. Pressione DELETE e ENTER.
     
 > [!NOTE]
-> Tente fazer isso em uma célula **Scratch** depois de inserir uma fórmula local. A célula é revertida para No Formula porque não há nenhuma fórmula para herdar do mestre. 
+> Experimente isso em uma célula **Scratch** após inserir uma fórmula local. A célula reverte para ' sem fórmula ', porque não há fórmulas a serem herdadas do mestre. 
   
 

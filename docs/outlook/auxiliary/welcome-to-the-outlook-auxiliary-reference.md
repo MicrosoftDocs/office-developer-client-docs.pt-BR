@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
 description: A referência auxiliar do Outlook contém conteúdo conceitual e documentação de referência de quatro conjuntos de APIs, amostras de código e uma instalação redistribuível que permite aos desenvolvedores de a extensão e integração com o Outlook. APIs nesta referência são expostas pelo Outlook para extensibilidade, fora do modelo de objeto do Outlook.
 ms.openlocfilehash: 445d35c12e4c8984d47adcef3ecf50ebd881875b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328972"
 ---
 # <a name="welcome-to-the-outlook-auxiliary-reference"></a>Bem-vindo à referência auxiliar do Outlook
 

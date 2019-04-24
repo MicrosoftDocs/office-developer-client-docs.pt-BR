@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e6a180ceb325a705ebf226bb728c52cce7396490
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328951"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595297"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recolhe uma categoria de tabela expandida, removendo qualquer títulos de nível inferior e linhas da folha que pertencem à categoria da visualização de tabela.
+Recolhe uma categoria de tabela expandida, removendo quaisquer títulos de nível inferior e linhas de folha pertencentes à categoria do modo de exibição de tabela.
   
 ```cpp
 HRESULT CollapseRow(
@@ -40,51 +40,51 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> [in] A contagem de bytes na propriedade PR_INSTANCE_KEY apontado pelo parâmetro _pbInstanceKey_ . 
+> no A contagem de bytes na propriedade PR_INSTANCE_KEY indicada pelo parâmetro _pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
+> no Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
     
  _ulFlags_
   
-> Reservado; deve ser zero.
+> Serve deve ser zero.
     
  _lpulRowCount_
   
-> [out] Um ponteiro para o número total de linhas que estão sendo removidos do modo de exibição de tabela.
+> bota Um ponteiro para o número total de linhas que estão sendo removidas do modo de exibição de tabela.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A operação de recolher teve êxito.
+> A operação de recolhimento foi bem-sucedida.
     
-E_NOT_FOUND 
+MAPI_E_NOT_FOUND 
   
 > A linha identificada pelo parâmetro _pbInstanceKey_ não existe. 
     
 MAPI_E_INVALID_ENTRYID 
   
-> A linha identificada pelo parâmetro _pbInstanceKey_ não existe. Esse erro é uma alternativa ao E_NOT_FOUND; provedores de serviços podem retornar qualquer deles. 
+> A linha identificada pelo parâmetro _pbInstanceKey_ não existe. Este erro é uma alternativa ao MAPI_E_NOT_FOUND; os provedores de serviços podem retornar um. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPITable::CollapseRow** recolhe uma categoria de tabela e a remove do modo de exibição de tabela. As linhas são contraídas começando na linha identificada pela propriedade **PR_INSTANCE_KEY** apontada pelo parâmetro _pbInstanceKey_ . O número de linhas que foram removidos do modo de exibição é retornado no conteúdo do parâmetro _lpulRowCount_ . 
+O método imApitable **:: CollapseRow** recolhe uma categoria de tabela e a remove da exibição de tabela. As linhas são recolhidas começando pela linha identificada pela propriedade **PR_INSTANCE_KEY** indicada pelo parâmetro _pbInstanceKey_ . O número de linhas que são removidas do modo de exibição é retornado no conteúdo do parâmetro _lpulRowCount_ . 
   
-Notificações nunca são geradas para as linhas de tabela que são removidas de um modo de exibição como resultado de uma operação de recolher. 
+As notificações nunca são geradas para linhas de tabela que são removidas de um modo de exibição como resultado de uma operação de recolhimento. 
   
-Quando uma linha que é definida por um indicador é recolhida fora do modo de exibição, o indicador é movido para apontar para a próxima linha visível. 
+Quando uma linha definida por um indicador é recolhida da exibição, o indicador é movido para apontar para a próxima linha visível. 
   
 Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI usa o método **IMAPITable::CollapseRow** para recolher uma categoria de tabela.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa o método imApitable **:: CollapseRow** para recolher uma categoria de tabela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -105,5 +105,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

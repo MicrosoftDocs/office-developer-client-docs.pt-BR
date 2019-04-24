@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: fd5b2ed23eba30cbe861a20c4fd100cb8ea1aeb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 364914df1c5897241dfeb89cce2cc3c62018ce24
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332148"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568837"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Finaliza a sincronização no estado atual e sai desse estado.
+Termina a sincronização no estado atual e sai desse Estado.
   
 ```cpp
 HRESULT SyncEnd();
@@ -33,7 +33,7 @@ HRESULT SyncEnd();
 
 ## <a name="remarks"></a>Comentários
 
-O cliente deve chamar **IOSTX::SyncEnd** para cada chamada ao [IOSTX::SyncBeg](iostx-syncbeg.md). A estrutura de dados correspondente contém informações para indicar se o cliente foi concluída com êxito o estado atual para que o Outlook pode limpar o seu estado interno.
+O cliente deve chamar **IOSTX:: SyncEnd** para cada chamada para [IOSTX:: SyncBeg](iostx-syncbeg.md). A estrutura de dados correspondente contém informações para indicar se o cliente concluiu com êxito o estado atual para que o Outlook possa limpar seu estado interno.
   
 ## <a name="see-also"></a>Confira também
 

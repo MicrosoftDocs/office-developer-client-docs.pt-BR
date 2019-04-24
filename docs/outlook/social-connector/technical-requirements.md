@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: Este tópico descreve os idiomas com suporte de programação, método e a visibilidade COM e requisitos de método de retorno e os detalhes da extensibilidade DLL do provedor Outlook Social Connector (OSC).
 ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329152"
 ---
 # <a name="technical-requirements"></a>Requisitos técnicos
 

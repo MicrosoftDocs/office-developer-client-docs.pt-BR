@@ -7,66 +7,66 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
-description: Este tópico lista as principais alterações no Outlook Social Connector 2013 (OSC). Apresenta uma comparação dos recursos disponíveis entre o Outlook Social Connector 2013 e Outlook Social Connector 1.1.
-ms.openlocfilehash: bdd7f7998f34a0ad096964050543f3f687bd0841
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este tópico lista as principais alterações no Outlook Social Connector 2013 (OSC). Ele apresenta uma comparação dos recursos disponíveis entre o Outlook Social Connector 2013 e o Outlook Social Connector 1,1.
+ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329110"
 ---
 # <a name="whats-new-for-providers"></a>Novidades para provedores
 
-Este tópico lista as principais alterações no Outlook Social Connector 2013 (OSC). Apresenta uma comparação dos recursos disponíveis entre o Outlook Social Connector 2013 e Outlook Social Connector 1.1. Também descreve os membros de interface e os elementos XML que foram adicionados, alterados ou preteridos. 
+Este tópico lista as principais alterações no Outlook Social Connector 2013 (OSC). Ele apresenta uma comparação dos recursos disponíveis entre o Outlook Social Connector 2013 e o Outlook Social Connector 1,1. Também descreve membros de interface e elementos XML que foram adicionados, alterados ou preteridos. 
   
-No Office 2013, o OSC funciona com não apenas Outlook, mas também SharePoint Server, SharePoint Workspace, cliente do Lync e todos os outro Office aplicativos cliente que oferecem suporte a informações de presença e o cartão de visita. Um provedor OSC pode representar atualizações de informações sociais na guia **What's NEW** no painel de pessoas do Outlook, bem como no cartão de visita. 
+No Office 2013, o OSC funciona com não apenas o Outlook, mas também o SharePoint Server, o SharePoint Workspace, o cliente do Lync e todos os outros aplicativos cliente do Office que dão suporte a informações de presença e ao cartão de visita. Um provedor do OSC pode trazer as atualizações de informações sociais na guia **What ' s New** no painel de pessoas do Outlook, bem como no cartão de visita. 
   
-Alguns grandes alterações no Outlook Social Connector 2013 incluem o seguinte: 
+Algumas alterações importantes no Outlook Social Connector 2013 incluem o seguinte: 
   
-- Se um provedor suporta mostrando as atividades, o provedor sempre sincroniza atividades sob demanda e não depende mais atividades armazenadas em cache anteriormente. Isso significa que o provedor armazena atividades de amigos e não-amigos na memória para exibir as atividades mais atuais.
+- Se um provedor oferecer suporte à exibição de atividades, o provedor sempre sincronizará as atividades sob demanda e não mais se redepender de atividades previamente armazenadas em cache. Isso significa que o provedor armazena atividades de amigos e não amigos na memória para exibir mais atividades atuais.
     
-- Por motivos de segurança, os provedores que se comunicam com servidores pela Internet devem usar o protocolo HTTPS (Hypertext Transfer Protocol (HTTP) com a camada de soquete seguro (SSL)). Caso contrário, há um risco de endereços de email, atividades de redes sociais e outro usuário dados são interceptados ou expostos em trânsito.
+- Por motivos de segurança, os provedores que se comunicam com servidores pela Internet devem usar o protocolo HTTPS (Hypertext Transfer Protocol (HTTP) com Secure Socket Layer (SSL)). Caso contrário, há um risco de que endereços de email, atividades de rede social e outros dados de usuário sejam interceptados ou expostos enquanto estiverem em trânsito.
     
-- Se você tiver os provedores que funcionam com uma versão anterior do Outlook, para suportar o Office 2013, você deverá atualizar o pacote de instalação. Consulte a [Lista de verificação de instalação](installation-checklist.md) para obter mais informações. 
+- Se você tiver provedores que funcionam com uma versão anterior do Outlook, para oferecer suporte ao Office 2013, você deve atualizar o pacote de instalação. Consulte a [lista de verificação de instalação](installation-checklist.md) para obter mais informações. 
     
-A tabela a seguir mostra a disponibilidade dos vários recursos no Outlook Social Connector 2013 em comparação com o Outlook Social Connector 1.1.
+A tabela a seguir mostra a disponibilidade de vários recursos no Outlook Social Connector 2013 em comparação com o conector social do Outlook 1,1.
   
-|**Recurso**|**Outlook Social Connector 2013**|**Outlook Social Connector 1.1**|
+|**Recurso**|**Outlook Social Connector 2013**|**Outlook Social Connector 1,1**|
 |:-----|:-----|:-----|
-|Interface do usuário final  <br/> |SharePoint Server, SharePoint Workspace, cliente do Lync, cartão de visita em todos os aplicativos de cliente do Office e o painel de pessoas no Outlook  <br/> |Painel de pessoas no Outlook  <br/> |
+|Interface de usuário final  <br/> |SharePoint Server, SharePoint Workspace, Lync Client, cartão de contato em todos os aplicativos clientes do Office e no painel de pessoas no Outlook  <br/> |Painel de pessoas no Outlook  <br/> |
 |Autenticação básica  <br/> |Sim  <br/> |Sim  <br/> |
 |Autenticação baseada em formulários  <br/> |Sim  <br/> |Sim  <br/> |
-|Cache de autenticação  <br/> |Sim  <br/> |Sim  <br/> |
-|Armazenar em cache sync para amigos à pasta Contatos padrão  <br/> |Sim  <br/> |Sim  <br/> |
-|Sincronização de atividades em cache para amigos à pasta oculta de **news feed**  <br/> |Não  <br/> |Sim  <br/> |
-|Sincronização sob demanda (imagem, nome, título) de amigos e amigos na rede  <br/> |Sim  <br/> |Sim  <br/> |
-|Sincronização de atividades sob demanda de amigos e amigos na rede  <br/> |Sim  <br/> |Sim  <br/> |
-|Siga na rede  <br/> |Sim  <br/> |Sim  <br/> |
-|Não seguem na rede  <br/> |Sim  <br/> |Sim  <br/> |
-|Visite a página de perfil de usuário  <br/> |Por meio de um link  <br/> |Por meio de um emblema de rede  <br/> |
-|Observando as configurações de privacidade em uma rede social (por exemplo, exibir perfil e atividades de não-amigos que permitem a visualização de como)  <br/> |Sim  <br/> |Sim  <br/> |
-|Endereços de email com hash passadas para o provedor  <br/> |Sim  <br/> |Sim  <br/> |
+|Autenticação em cache  <br/> |Sim  <br/> |Sim  <br/> |
+|Sincronização em cache para amigos na pasta contatos no repositório padrão  <br/> |Sim  <br/> |Sim  <br/> |
+|Sincronização de atividades em cache para amigos na pasta de **News Feed** oculta  <br/> |Não  <br/> |Sim  <br/> |
+|Sincronização sob demanda (imagem, nome, título) para amigos e não amigos na rede  <br/> |Sim  <br/> |Sim  <br/> |
+|Sincronização de atividades sob demanda para amigos e não amigos na rede  <br/> |Sim  <br/> |Sim  <br/> |
+|Acompanhar na rede  <br/> |Sim  <br/> |Sim  <br/> |
+|Não acompanhar na rede  <br/> |Sim  <br/> |Sim  <br/> |
+|Página visitar perfil de usuário  <br/> |Por meio de um link  <br/> |Por um crachá de rede  <br/> |
+|Observar as configurações de privacidade na rede social (por exemplo, exibir perfil e atividades de não-amigos que permitem a visualização de tais)  <br/> |Sim  <br/> |Sim  <br/> |
+|Endereços de email com hash passados ao provedor  <br/> |Sim  <br/> |Sim  <br/> |
 
 <a name="OlSocialConnector_Changes"> </a>
 
-## <a name="changes-from-the-previous-version-of-osc-provider-extensibility"></a>Alterações da versão anterior de extensibilidade do provedor OSC
+## <a name="changes-from-the-previous-version-of-osc-provider-extensibility"></a>Alterações da versão anterior da extensibilidade do provedor OSC
 
-A tabela a seguir mostra os membros que foram adicionados ou preteridos da interface correspondente.
+A tabela a seguir mostra os membros que foram adicionados ou substituídos da interface correspondente.
   
-|**Interface e o membro**|**Comment**|
+|**Interface e membro**|**Comment**|
 |:-----|:-----|
-|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Obsoleto no conector Social do Outlook 2013. Observe que **ISocialSession::GetActivities** também foi preterido desde o Outlook Social Connector 1.1.  <br/> Para sincronizar os feeds de atividades, você deve implementar o método [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) . Defina **dynamicActivitiesLookupEx** como **true**, que solicitará que o OSC chamada **ISocialSession2::GetActivitiesEx** em vez disso.  <br/> |
+|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |PreTerido no Outlook Social Connector 2013. Observe que **ISocialSession:: getactivities** também foi preterido desde o Outlook Social Connector 1,1.  <br/> Para sincronizar feeds de atividades, você deve implementar o método [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md) . Defina **dynamicActivitiesLookupEx** como **true**, que solicitará que o OSC chame **ISocialSession2:: GetActivitiesEx** em vez disso.  <br/> |
    
-A tabela a seguir mostra os elementos de esquema que foram alterados.
+A tabela a seguir mostra os elementos do esquema que foram alterados.
   
-|**Elemento de esquema**|**Comment**|
+|**Elemento Schema**|**Comment**|
 |:-----|:-----|
-|**capabilities** <br/> |Adicionado no Outlook Social Connector 2013: **allowChangesToAutoConfigure** elemento.  <br/> Reduzidos no Outlook Social Connector 2013: **cacheActivities** elemento.  <br/> |
-|**person** <br/> |Adicionado no Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **Cidade do endereço comercial**, **businessCountryOrRegion**, **businessState**, **businessZip**, **setores**, **interesses**, ** local**, elementos **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **habilidades**, **escolas**e **site** .  <br/> |
+|**poderosos** <br/> |Adicionado ao Outlook Social Connector 2013: elemento **allowChangesToAutoConfigure** .  <br/> PreTerido no Outlook Social Connector 2013: elemento **cacheActivities** .  <br/> |
+|**person** <br/> |Adicionado ao Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessstate**, **businessZip**, **indústrias**, **interesses**, ** local**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherstate**, **otherZip**, **Skills**, **escolas**e elementos de **site** .  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 - [XML para recursos](xml-for-capabilities.md)
 - [XML para amigos](xml-for-friends.md)
-- [Introdução ao desenvolvimento de um Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [Introdução ao desenvolvimento de um provedor de serviços do Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

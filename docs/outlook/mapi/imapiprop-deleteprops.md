@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a0d86b9b0342beea6b33db0219cb5889d2e63f03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5bfef87baa2dffa4605f9a7afa3833024f514430
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328944"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
@@ -34,43 +34,43 @@ HRESULT DeleteProps(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpPropTagArray_
   
-> [in] Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades a ser excluído. O membro **cValues** da estrutura [SPropTagArray](sproptagarray.md) apontado pela _lpPropTagArray_ não deve ser zero e o parâmetro _lpPropTagArray_ em si não deve ser NULL. 
+> no Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades a serem excluídas. O membro **cValues** da estrutura [SpropTagArray](sproptagarray.md) apontada por _lpPropTagArray_ não deve ser zero e o parâmetro _LPPROPTAGARRAY_ propriamente dito não deve ser nulo. 
     
  _lppProblems_
   
-> [além, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; Caso contrário, NULL, que indica que não há nenhuma necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DeleteProps** retorna informações detalhadas sobre erros ao excluir uma ou mais propriedades. 
+> [in, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; caso contrário, NULL, que indica que não há necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DeleteProps** retornará informações detalhadas sobre erros na exclusão de uma ou mais propriedades. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Propriedades foram excluídas com êxito.
+> As propriedades foram excluídas com êxito.
     
 MAPI_E_NO_ACCESS 
   
-> O chamador não tem permissões suficientes para excluir as propriedades.
+> O chamador tem permissões insuficientes para excluir propriedades.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIProp::DeleteProps** remove uma ou mais propriedades do objeto atual. 
+O método **IMAPIProp::D eleteprops** remove uma ou mais propriedades do objeto atual. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você não precisará permitir propriedades a ser excluído de todos os objetos. Se o objeto não é modificável, retorne MAPI_E_NO_ACCESS do método **DeleteProps** . 
+Você não precisa permitir que as propriedades sejam excluídas de todos os objetos. Se o objeto não for modificável, retorne MAPI_E_NO_ACCESS do método **DeleteProps** . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você não precisará definir o tipo de propriedade para cada marca de propriedade da matriz de marca de propriedade apontado pelo parâmetro _lpPropTagArray_ . Tipos de propriedade serão ignorados; somente os identificadores de propriedade são usados. 
+Você não precisa definir o tipo de propriedade para cada marca de propriedade na matriz de marca de propriedade apontada pelo parâmetro _lpPropTagArray_ . Os tipos de propriedade são ignorados; somente os identificadores de propriedade são usados. 
   
-Lembre-se de que alguns objetos não permita modificação e que esses objetos retornam MAPI_E_NO_ACCESS do método **DeleteProps** . Permitir que outros objetos, algumas propriedades a ser excluído, mas não para outras. Quando há um problema ao excluir apenas algumas das propriedades, **DeleteProps** Retorna S_OK. Se você tiver passado um ponteiro válido no parâmetro _lppProblems_ , **DeleteProps** definirá o ponteiro em uma estrutura de **SPropProblemArray** que contém informações detalhadas sobre os problemas com cada propriedade. Por exemplo, se você estiver excluindo todas as propriedades de uma mensagem e há um problema com um ou mais dos seus respectivos anexos, a estrutura de **SPropProblemArray** irá conter uma entrada para o **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments ](pidtagmessageattachments-canonical-property.md)) propriedade. 
+Lembre-se de que alguns objetos não permitem modificações e que esses objetos retornam MAPI_E_NO_ACCESS do método **DeleteProps** . Outros objetos permitem que algumas propriedades sejam excluídas, mas não outras. Quando há um problema ao excluir apenas algumas das propriedades, **DeleteProps** retorna S_OK. Se você tiver passado um ponteiro válido no parâmetro _lppProblems_ , **DeleteProps** definirá o ponteiro para uma estrutura **SPropProblemArray** que contenha informações detalhadas sobre os problemas com cada propriedade. Por exemplo, se você estiver excluindo todas as propriedades de uma mensagem e houver um problema com um ou mais de seus anexos, a estrutura **SPropProblemArray** conterá uma entrada para o **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments ](pidtagmessageattachments-canonical-property.md)) propriedade. 
   
-A estrutura apontada pela _lppProblems_ só será válida se **DeleteProps** Retorna S_OK. Se **DeleteProps** retornará um erro, não tente usar a estrutura **SPropProblemArray** . Em vez disso, chame o método do objeto [IMAPIProp::GetLastError](imapiprop-getlasterror.md) para obter mais informações sobre o erro. 
+A estrutura indicada por _lppProblems_ só será válida se **DeleteProps** retornar S_OK. Se **DeleteProps** retornar um erro, não tente usar a estrutura **SPropProblemArray** . Em vez disso, chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) para obter mais informações sobre o erro. 
   
-Libere a estrutura de **SPropProblemArray** retornada ao chamar a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libere a estrutura **SPropProblemArray** retornada chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -78,7 +78,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa o método **IMAPIProp::DeleteProps** para excluir uma propriedade de um objeto.  <br/> |
+|MAPIFunctions. cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa o método **IMAPIProp::D eleteprops** para excluir uma propriedade de um objeto.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -9,36 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Retorna o seno de um ângulo.
-ms.openlocfilehash: 19504f2f19b8523e0f081dbba0359986a940762b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328578"
 ---
 # <a name="sin-function-visioshapesheet"></a>Função SIN (VisioShapeSheet)
 
-Retorna o seno de um ângulo.
-    
- 
+Retorna o seno de um ângulo. 
   
 ## <a name="syntax"></a>Sintaxe
 
-SIN (* * *ângulo* * *) 
+SIN (* * *Angle* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ângulo_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O ângulo do qual obter o seno.  <br/> |
+| _reto_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo do qual obter o seno.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
-A função SIN usa radianos, a menos que você especifique uma unidade de medida diferente em _angle_.
+A função SIN usa radianos, a menos que você especifique uma unidade de medida diferente em _Angle_.
   
 ## <a name="example"></a>Exemplo
 

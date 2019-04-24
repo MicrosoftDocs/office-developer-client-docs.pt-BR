@@ -1,5 +1,5 @@
 ---
-title: Suplementos do Painel de Tarefas para Project
+title: Suplementos do painel de tarefas para Project
 manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 44712b7c-aead-433d-8c0e-76407264166c
 description: O Project Standard 2013 e o Project Professional 2013 são compatíveis com o painel de tarefas Suplementos do Office. Você pode usar os suplementos do painel de tarefas para integrar projetos, tarefas, recursos e exibir dados de um projeto com outros aplicativos de cliente do Office 2013, aplicativos do SharePoint, Web Parts, outras páginas da Web e dados externos.
 ms.openlocfilehash: 26942cab1d1b127872a230a46fbc6242ab27b754
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330013"
 ---
 # <a name="task-pane-add-ins-for-project"></a>Suplementos do Painel de Tarefas para Project
 

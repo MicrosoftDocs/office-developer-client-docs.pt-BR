@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dee1de19ed61fa4f8edab69152315d77545b01b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331693"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de valores de tempo.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -44,15 +44,15 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Contagem de valores na matriz apontado pelo membro **lpat** . 
+> Contagem de valores na matriz apontada pelo membro **lpat** . 
     
  **lpat**
   
-> Ponteiro para uma matriz de valores de tempo do aplicativo. 
+> Ponteiro para uma matriz de valores de tempo de aplicativo. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SAppTimeArray** é usada para definir as propriedades do tipo PT_MV_APPTIME. Para obter mais informações sobre PT_MV_APPTIME, consulte a [Lista de tipos de propriedade](property-types.md).
+A estrutura **SAppTimeArray** é usada para definir propriedades do tipo PT_MV_APPTIME. Para obter mais informações sobre o PT_MV_APPTIME, confira [lista de tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 

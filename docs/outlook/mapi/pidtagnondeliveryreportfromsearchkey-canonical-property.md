@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0355977b119698fcf2575ec3806878a4ab0c7c39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329369"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>Propriedade canônica PidTagNonDeliveryReportFromSearchKey
 
@@ -25,32 +25,32 @@ ms.locfileid: "22569399"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se definido em um relatório de não entrega, denota a chave de pesquisa de envio com falha-como usuário.
+Se definido em um relatório de não entrega, indica a chave de pesquisa do usuário de envio com falha.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_NDR_FROM_SEARCH_KEY  <br/> |
 |Identificador:  <br/> |0x6906  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328543"
 ---
 # <a name="property-names-and-property-sets"></a>Nomes de propriedades e conjuntos de propriedades
 
@@ -23,13 +23,13 @@ ms.locfileid: "25391651"
   
 O nome de cada propriedade nomeada tem duas partes:
   
-- Um identificador global exclusivo ou GUID, que especifica um conjunto de propriedades.
+- Um identificador global exclusivo, ou GUID, que especifica um conjunto de propriedades.
     
-- Uma cadeia de caracteres Unicode ou o valor numérico de 32 bits. 
+- Uma cadeia de caracteres Unicode ou um valor numérico de 32 bits. 
     
-Nomes de propriedades nomeadas são descritos usando uma estrutura [MAPINAMEID](mapinameid.md) . Essa estrutura contém um membro do conjunto de propriedade, um membro para especificar o nome no formato numérico ou cadeia de caracteres e para identificar qual formato é usado. Como o conjunto de propriedades é parte do nome da propriedade, não é opcional. MAPI definiu vários conjuntos de propriedade para uso por clientes e provedores de serviço, mas se um conjunto existente de propriedade for inadequado, um novo conjunto de propriedades pode ser definido. Clientes e provedores de serviços podem definir seus próprios conjuntos de propriedade chamando [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) função. Normalmente, esses conjuntos de propriedade são criados para os aplicativos cliente personalizados. 
+Os nomes das propriedades nomeadas são descritos usando uma estrutura [MAPINAMEID](mapinameid.md) . Esta estrutura contém um membro de conjunto de propriedades, um membro para especificar o nome em formato numérico ou de cadeia de caracteres e um membro para identificar qual formato é usado. Como o conjunto de propriedades é parte do nome da propriedade, ele não é opcional. O MAPI definiu vários conjuntos de propriedades para uso por clientes e provedores de serviço, mas se um conjunto de propriedades existente for inapropriado, um novo conjunto de propriedades poderá ser definido. Os clientes e provedores de serviços podem definir seus próprios conjuntos de propriedades chamando [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) função. Normalmente, esses conjuntos de propriedades são criados para aplicativos cliente personalizados. 
   
-Conjuntos de propriedades do MAPI são representados por constantes a seguir:
+Os conjuntos de propriedades de MAPI são representados pelas seguintes constantes:
   
 PS_MAPI
   
@@ -45,9 +45,9 @@ PS_ROUTING_DISPLAY_NAME
   
 PS_ROUTING_ENTRYID
   
-O conjunto de propriedades PS_MAPI está reservado; ele é usado pelos provedores de serviços para gerar nomes de propriedades com identificadores abaixo do intervalo de propriedade nomeada. O conjunto de propriedades PS_PUBLIC_STRINGS é usado pelos clientes para propriedades nomeadas das mensagens IPM. Como propriedades nomeadas no conjunto de propriedades PS_PUBLIC_STRINGS aparecem na interface de usuário do cliente, mensagens arquvo, tais como aqueles que pertencem à classe de mensagem CPI devem evitar a criação de chamada propriedades com este conjunto de propriedades. Em vez disso, eles devem criar propriedades no intervalo de específicas de classe de mensagem, 0x6800 por meio de 0x7FFF.
+O conjunto de propriedades PS_MAPI é reservado; Ele é usado por provedores de serviços para gerar nomes para propriedades com identificadores abaixo do intervalo de propriedades nomeados. O conjunto de propriedades PS_PUBLIC_STRINGS é usado por clientes para propriedades nomeadas de mensagens IPM. Como as propriedades nomeadas no conjunto de propriedades PS_PUBLIC_STRINGS aparecem na interface de usuário de um cliente, as mensagens não visíveis, como as que pertencem à classe de mensagens de IPC, devem evitar a criação de propriedades nomeadas com esse conjunto de propriedades. Em vez disso, eles devem criar propriedades no intervalo específico de classe de mensagem, 0x6800 a 0x7FFF.
   
-Os outros conjuntos de propriedade espera propriedades nomeadas descrevendo os destinatários que geralmente são membros de uma lista de roteamento. Propriedades nesses conjuntos de propriedade que contém o mesmo tipo de informações como as propriedades que estão associadas com propriedades da lista de destinatários, são compreendidas por gateways para exigir o mapeamento para um sistema de mensagens de destino. Como há cinco tipos de informações para descrição das propriedades, MAPI definiu cinco conjuntos de propriedade diferentes. Um cliente enviando uma mensagem que deve incluir um endereço e o tipo de endereço para seus membros da lista roteamento atribui uma propriedade nomeada para cada membro na PS_ROUTING_EMAIL_ADDRESSES e a propriedade PS_ROUTING_ADDRTYPE define. Isso garante que o endereço e o tipo de endereço permaneçam viáveis quando enviado para um sistema de mensagens externo.
+A outra propriedade define as propriedades nomeadas que descrevem destinatários que normalmente são membros de uma lista de circulação. Contendo o mesmo tipo de informação que as propriedades associadas às propriedades da lista de destinatários, as propriedades nesses conjuntos de propriedades são compreendidas pelos gateways para exigir o mapeamento de um sistema de mensagens de destino. Como há cinco tipos de informações para descrever as propriedades, o MAPI definiu cinco conjuntos de propriedades diferentes. Um cliente que envia uma mensagem que deve incluir um endereço e tipo de endereço para seus membros da lista de circulação atribui uma propriedade nomeada para cada membro nos conjuntos de propriedades PS_ROUTING_EMAIL_ADDRESSES e PS_ROUTING_ADDRTYPE. Isso garante que o endereço e o tipo de endereço permaneçam viáveis quando enviados para um sistema de mensagens externas.
   
 ## <a name="see-also"></a>Confira também
 

@@ -1,5 +1,5 @@
 ---
-title: Célula XRulerDensity (Seção Ruler &amp; Grid)
+title: Célula XRulerDensity (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c11717c5-eb0e-e4fa-5a91-c62ecc048635
 description: Especifica as subdivisões horizontais da régua na página.
-ms.openlocfilehash: 633b2e54ca77216fd20ead00f047283c54f8164d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f459e5d1d19580201f1404ac2d1ae53c824293f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331847"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Célula XRulerDensity (Seção Ruler &amp; Grid)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Célula XRulerDensity (seção &amp; Ruler Grid)
 
 Especifica as subdivisões horizontais da régua na página.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Fixa  <br/> |**visRulerFixed** <br/> |
+|,0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |Grande  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (padrão)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Pequena  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Funciona  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à opção horizontal **Subdivisões** no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção horizontal **subdivisões** da caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula XRulerDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
