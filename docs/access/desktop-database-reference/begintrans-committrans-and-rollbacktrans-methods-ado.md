@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d9dc28bd64966e85d16ee2d8cb62fdebc3ba942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296868"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Estes métodos de transação gerenciam o processamento das transações em um objeto [Connection](connection-object-ado.md) da seguinte forma:
 
@@ -28,7 +28,7 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 
 ## <a name="syntax"></a>Sintaxe
 
-*nível* = *objeto*. BeginTrans()
+** = *objeto*Level. BeginTrans ()
 
 *objeto*. BeginTrans
 
@@ -51,7 +51,7 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 Use esses métodos com um objeto **Connection** quando desejar salvar ou cancelar uma série de alterações feitas na fonte de dados como uma única unidade. Por exemplo, para transferir dinheiro entre contas, subtraia um valor de uma conta e acrescente o mesmo valor à outra. Se uma das duas atualizações falhar, as contas ficarão desequilibradas. A realização dessas alterações em uma transação aberta garante que todas as alterações, ou nenhuma delas, ocorram.
 
 > [!NOTE]
-> [!OBSERVAçãO] Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade definido pelo provedor **Transação DDL** aparece no conjunto de [Propriedades](properties-collection-ado.md) do objeto de **Conexão** , indicando que o provedor oferece suporte às transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
+> [!OBSERVAçãO] Nem todos os provedores oferecem suporte a transações. Verifique se o **DDL de transação** de propriedade definido pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection** , indicando que o provedor dá suporte a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
 
 Depois que você chamar o método **BeginTrans**, o provedor não confirmará mais instantaneamente as alterações feitas até que **CommitTrans** ou **RollbackTrans** seja chamado para finalizar a transação.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef.ReplicaFilter (DAO)
+title: Propriedade TableDef. ReplicaFilter (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba296701faebb32696741a742b7fe01660b74c46
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302783"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a>Propriedade TableDef.ReplicaFilter (DAO)
+# <a name="tabledefreplicafilter-property-dao"></a>Propriedade TableDef. ReplicaFilter (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor em um objeto **[TableDef](tabledef-object-dao.md)** em uma réplica parcial que indica qual subconjunto de registros foi replicado nessa tabela a partir de uma réplica completa. (Somente em espaços de trabalho do Microsoft Access).
 
@@ -51,7 +51,7 @@ A configuração ou o valor de retorno é um **String** ou **Boolean** que indic
 <td><p>Os critérios aos quais um registro em uma tabela de réplicas parciais deve atender para ser replicado a partir de uma réplica completa.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>True</strong></p></td>
+<td><p><strong>Verdadeiro</strong></p></td>
 <td><p>Replica todos os registros.</p></td>
 </tr>
 <tr class="odd">

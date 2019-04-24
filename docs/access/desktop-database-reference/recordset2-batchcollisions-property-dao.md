@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.BatchCollisions (DAO)
+title: Propriedade Recordset2. BatchCollisions (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 07d6c25f-baf5-f7d6-d225-0447e0f78fe6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844993(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ea75da06c0db4eeb4e846bacfddc9f125c03fc84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307487"
 ---
-# <a name="recordset2batchcollisions-property-dao"></a>Propriedade Recordset2.BatchCollisions (DAO)
+# <a name="recordset2batchcollisions-property-dao"></a>Propriedade Recordset2. BatchCollisions (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -37,5 +37,5 @@ Se você definir a propriedade [**Bookmark**](recordset2-bookmark-property-dao.m
 
 Depois que os registros de colisão forem corrigidos, você poderá chamar o método **Update** do modo de lotes novamente. Nesse ponto, o DAO tentará outra atualização em lotes e a propriedade **BatchCollisions** refletirá novamente o conjunto de registros que falharam na segunda tentativa. Qualquer registro que foi bem-sucedido na tentativa anterior não será enviado para a tentativa atual porque agora possui a propriedade **[RecordStatus](recordset2-recordstatus-property-dao.md)** de dbRecordUnmodified. Esse processo poderá continuar enquanto ocorrem colisões ou até que você desista das atualizações e feche o conjunto de resultados.
 
-Essa matriz é recriada sempre que você executar um método **Update** no modo em lote.
+Essa matriz será recriada toda vez que for executado o método **Update** do modo de lotes.
 

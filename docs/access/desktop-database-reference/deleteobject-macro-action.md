@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: dae5718e7b4cb609cb50bd65ee6e2486f4ebaab6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294026"
 ---
 # <a name="deleteobject-macro-action"></a>Ação da macro ExcluirObjeto
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExcluirObjeto** para excluir um objeto de banco de dados especificado.
 
@@ -49,7 +49,7 @@ A ação **ExcluirObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto</strong></p></td>
-<td><p>O nome do objeto a ser excluído. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Object Type</strong>. Se você deixar a caixa <strong>Tipo de objeto</strong> , deixe esta caixa em branco também. Se você executar uma macro que contém a ação <strong>ExcluirObjeto</strong> em um banco de dados biblioteca, o Microsoft Office Access 2007 primeiro procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do objeto que será excluído. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, deixe este argumento em branco também. Se você executar uma macro que contém a ação <strong>ExcluirObjeto</strong> em um banco de dados biblioteca, o Microsoft Office Access 2007 primeiro procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 </tbody>
 </table>

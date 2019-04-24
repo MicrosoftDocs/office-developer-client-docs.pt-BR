@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 01ba59ce0898068788adb9269b3203794d1f31d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306472"
 ---
 # <a name="showtoolbar-macro-action"></a>Ação da macro MostrarBarraDeFerramentas
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **MostrarBarraDeFerramentas** para exibir ou ocultar um grupo de comandos na guia **Suplementos**.
 
@@ -46,11 +46,11 @@ A ação **MostrarBarraDeFerramentas** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da barra de ferramentas</strong></p></td>
-<td><p>O nome do grupo de comando na guia <strong>Suplementos</strong> que você deseja exibir ou ocultar. A caixa <strong>Nome da barra de ferramentas</strong> na seção <strong>Argumentos da ação</strong> do painel do construtor de Macro mostra todos os grupos disponíveis que podem ser afetados por essa ação. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>MostrarBarraDeFerramentas</strong> em um banco de dados biblioteca, o Access pesquisará o grupo com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do grupo de comandos na guia <strong>Suplementos</strong> a ser exibido ou ocultado. A caixa <strong>Nome da Barra de Ferramentas</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todos os grupos disponíveis e que possam ser afetados por esta ação. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>MostrarBarraDeFerramentas</strong> em um banco de dados biblioteca, o Access pesquisará o grupo com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Especifica para exibir ou ocultar o grupo e em quais modos de exibição para exibir ou ocultar a ele. O padrão é <strong>Sim</strong> (Mostrar grupo sempre). Você pode selecionar <strong>Sim</strong> para exibir o grupo em todos os horários, <strong>Onde apropriado</strong> para exibir o grupo somente quando o formulário apropriado ou relatório estiver ativo, ou <strong>não</strong> para ocultar o grupo em todas as ocasiões.</p></td>
+<td><p>Especifica se o grupo deve ser exibido ou ocultado e em quais modos de exibição isso ocorrerá. O padrão é <strong>Sim</strong> (sempre mostrar o grupo). Você pode selecionar <strong>Sim</strong> para exibir o grupo em todos os momentos, <strong>onde apropriado</strong> para exibir o grupo somente quando o formulário ou relatório apropriado estiver ativo, ou <strong>não</strong> para ocultar o grupo o tempo todo.</p></td>
 </tr>
 </tbody>
 </table>

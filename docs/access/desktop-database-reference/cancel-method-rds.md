@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 35322ec058d31f92288fd06a4e8434a4256c2d74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296644"
 ---
 # <a name="cancel-method-rds"></a>Método Cancel (RDS)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cancela a execução de uma chamada de método assíncrona pendente.
 
 ## <a name="syntax"></a>Sintaxe
 
-O *RDS*. *DataControl*. Cancelar
+*RDS*. *DataControl*. Cancelar
 
 ## <a name="remarks"></a>Comentários
 

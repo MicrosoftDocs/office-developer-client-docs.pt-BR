@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7825d55c6f0c2f900f61a325265dce048f965e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308278"
 ---
 # <a name="xml-persistence-format"></a>Formato de persistência de XML
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="xml-persistence-format"></a>Formato de persistência XML
 
@@ -66,7 +66,7 @@ O esquema mostra as declarações de espaços de nomes, a seção de esquema e a
 
 As definições de esquema estão em conformidade com a especificação de Dados XML e são capazes de ser totalmente validadas (embora a validação não ocorrerá no Internet Explorer 5). Você pode visualizar essa especificação em [Nota W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). Os Dados XML são o único formato de esquema suportado para a persistência **Recordset** no momento.
 
-A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia, mas o `<rs:data>` marcas devem estar presentes. Sem dados, você poderia escrever simplesmente como a forma abreviada de marca `<rs:data>`. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
+A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia `<rs:data>` , mas as marcas devem estar presentes. Sem dados, você pode escrever a marca de forma abreviada `<rs:data>`como simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
 
 ## <a name="xml-persistence-format"></a>Formato de persistência XML
 
@@ -116,5 +116,5 @@ O esquema mostra as declarações de espaços de nomes, a seção de esquema e a
 
 As definições de esquema estão em conformidade com a especificação de Dados XML e são capazes de ser totalmente validadas (embora a validação não ocorrerá no Internet Explorer 5). Você pode visualizar essa especificação em [Nota W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). Os Dados XML são o único formato de esquema suportado para a persistência **Recordset** no momento.
 
-A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia, mas o `<rs:data>` marcas devem estar presentes. Sem dados, você poderia escrever simplesmente como a forma abreviada de marca `<rs:data>`. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
+A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia `<rs:data>` , mas as marcas devem estar presentes. Sem dados, você pode escrever a marca de forma abreviada `<rs:data>`como simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
 

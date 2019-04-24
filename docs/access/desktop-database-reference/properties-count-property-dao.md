@@ -1,5 +1,5 @@
 ---
-title: Propriedade Properties.Count (DAO)
+title: Propriedade Properties. Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192069(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e7b0b0e2c6e04426ffa33e2c3e5d08e4f1db419c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301271"
 ---
-# <a name="propertiescount-property-dao"></a>Propriedade Properties.Count (DAO)
+# <a name="propertiescount-property-dao"></a>Propriedade Properties. Count (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a propriedade **Count** para determinar o número de itens em uma coleção especificada. **Long** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Contagem
+*expressão* . Desconto
 
 *expressão* Uma variável que representa um objeto **Properties** .
 
@@ -36,5 +36,5 @@ Você pode usar a propriedade **Count** para determinar o número de itens em um
 - [Coleção Properties](properties-collection-dao.md)
 - [Membros de Properties](properties-members-dao.md)
 - [Objeto Properties (VBA do Access)](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- [Membros Properties (VBA do Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
+- [Propriedades Membros (VBA do Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

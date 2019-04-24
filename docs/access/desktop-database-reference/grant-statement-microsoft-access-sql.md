@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4357099f8bcb9b2308b5cda3543949765b8c3420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292129"
 ---
 # <a name="grant-statement-microsoft-access-sql"></a>Instrução GRANT (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Concede privilégios específicos a um usuário ou grupo existente.
 
 ## <a name="syntax"></a>Sintaxe
 
-GRANT {*privilégio*\[, *privilégios*,... \]} Diante {tabela *tabela* | OBJETO *objeto*|
+Grant {*privilégio*\[, *privilégio*,... \]} Em { *tabela* Table | *Objeto* Object|
 
-CONTAINER *contêiner* } TO {*authorizationname*\[, *authorizationname*, … \]}
+*Contêiner* contêiner} para {*authorizationname*\[, *authorizationname*,... \]}
 
 A instrução GRANT tem estas partes:
 
@@ -45,11 +45,11 @@ A instrução GRANT tem estas partes:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>privilege</em></p></td>
-<td><p>O privilégio ou privilégios a serem concedidos. Privilégios são especificados com as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
+<td><p><em>mínimo</em></p></td>
+<td><p>O privilégio ou os privilégios a serem concedidos. Os privilégios são especificados usando as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tablename</em></p></td>
+<td><p><em>TableName</em></p></td>
 <td><p>Nenhum nome de tabela válido.</p></td>
 </tr>
 <tr class="odd">
@@ -57,7 +57,7 @@ A instrução GRANT tem estas partes:
 <td><p>Isso pode incluir qualquer objeto não-tabela. Uma consulta armazenada (visualização ou procedimento) é um exemplo.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>container</em></p></td>
+<td><p><em>contêiner</em></p></td>
 <td><p>O nome de um contêiner válido.</p></td>
 </tr>
 <tr class="odd">

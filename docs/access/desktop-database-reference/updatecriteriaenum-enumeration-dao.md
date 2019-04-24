@@ -1,5 +1,5 @@
 ---
-title: Enumeração UpdateCriteriaEnum (DAO)
+title: Enumeração de UpdateCriteriaEnum (DAO)
 TOCTitle: UpdateCriteriaEnum Enumeration
 ms:assetid: 1f83a0c6-bdc8-9c3e-380b-524f611f6476
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e27eb1bdfb9b393df76af8bdf54bc7f05fd82c2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306367"
 ---
-# <a name="updatecriteriaenum-enumeration-dao"></a>Enumeração UpdateCriteriaEnum (DAO)
+# <a name="updatecriteriaenum-enumeration-dao"></a>Enumeração de UpdateCriteriaEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Usada com o método **UpdateOptions** para especificar como uma atualização em lotes é construída.
 
@@ -37,12 +37,12 @@ Usada com o método **UpdateOptions** para especificar como uma atualização em
 <tbody>
 <tr class="odd">
 <td><p>dbCriteriaAllCols</p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Usa a(s) coluna(s) chave e todas as colunas da cláusula where.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbCriteriaDeleteInsert</p></td>
-<td><p>16</p></td>
+<td><p>dezesseis</p></td>
 <td><p>Usa um par de instruções DELETE e INSERT para cada linha modificada.</p></td>
 </tr>
 <tr class="odd">
@@ -52,7 +52,7 @@ Usada com o método **UpdateOptions** para especificar como uma atualização em
 </tr>
 <tr class="even">
 <td><p>dbCriteriaModValues</p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Usa a(s) coluna(s) chave e todas as colunas atualizadas na cláusula where.</p></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: Enumeração RecordStatusEnum (DAO)
+title: Enumeração de RecordStatusEnum (DAO)
 TOCTitle: RecordStatusEnum Enumeration
 ms:assetid: bf4492f2-8d8f-f10f-7a3c-d6296d2ce96b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb7bffaf91db9e1170702d2e36393da669dbe0c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309231"
 ---
-# <a name="recordstatusenum-enumeration-dao"></a>Enumeração RecordStatusEnum (DAO)
+# <a name="recordstatusenum-enumeration-dao"></a>Enumeração de RecordStatusEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Usada com a propriedade **RecordStatus** para indicar o status de atualização do registro atual, se ele fizer parte de uma atualização em lotes.
 
@@ -37,12 +37,12 @@ Usada com a propriedade **RecordStatus** para indicar o status de atualização 
 <tbody>
 <tr class="odd">
 <td><p>dbRecordDBDeleted</p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>O registro foi excluído localmente e no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRecordDeleted</p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>O registro foi excluído, mas ainda não foi excluído do banco de dados.</p></td>
 </tr>
 <tr class="odd">
@@ -52,12 +52,12 @@ Usada com a propriedade **RecordStatus** para indicar o status de atualização 
 </tr>
 <tr class="even">
 <td><p>dbRecordNew</p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>O registro foi inserido com o método <strong>AddNew</strong>, mas ainda não foi inserido no banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRecordUnmodified</p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>(Padrão) O registro não foi modificado ou foi atualizado com êxito.</p></td>
 </tr>
 </tbody>

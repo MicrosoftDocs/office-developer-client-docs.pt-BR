@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f82ace31a991a6700417d4c0d66bf775fcb7b26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293774"
 ---
 # <a name="document-object-dao"></a>Objeto Document (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O objeto **Document** inclui informações sobre uma instância de um objeto. O objeto pode ser um banco de dados, uma tabela, uma consulta ou uma relação salva (apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).
 
@@ -32,20 +32,20 @@ Cada objeto **Container** tem uma coleção **Documents** que contém objetos **
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Document</p></th>
-<th><p>Container</p></th>
+<th><p>Documento</p></th>
+<th><p>Contêiner</p></th>
 <th><p>Contém informações sobre</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Banco de dados</p></td>
-<td><p>Databases</p></td>
+<td><p>Bancos de dados</p></td>
 <td><p>Banco de dados salvo</p></td>
 </tr>
 <tr class="even">
 <td><p>Tabela ou consulta</p></td>
-<td><p>Tables</p></td>
+<td><p>Tabelas</p></td>
 <td><p>Tabela ou consulta salva</p></td>
 </tr>
 <tr class="odd">
@@ -75,9 +75,9 @@ Como um objeto **Document** corresponde a um objeto existente, você não poder�
 
 - **Documents**(0)
 
-- **Documentos** ("*nome*")
+- **Documentos** ("*Name*")
 
-- **Documentos**\!\[*nome*\]
+- ****\!\[*Nome* dos documentos\]
 
 ## <a name="example"></a>Exemplo
 

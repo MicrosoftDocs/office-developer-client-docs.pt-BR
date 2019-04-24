@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.Bookmarkable (DAO)
+title: Propriedade Recordset2. Bookmarkable (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 26b8b60255b4e50a2288dedb8e27906476926e8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307452"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Propriedade Recordset2.Bookmarkable (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Propriedade Recordset2. Bookmarkable (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Retorna um valor que indica se um objeto **Recordset** oferece suporte a indicadores, que você pode definir utilizando a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)**.
+Retorna um valor que indica se um objeto **Recordset** suporta indicadores, que você pode definir usando a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -33,9 +33,9 @@ Retorna um valor que indica se um objeto **Recordset** oferece suporte a indicad
 
 ## <a name="remarks"></a>Comentários
 
-Verifique a configuração da propriedade **Bookmarkable** de um objeto **Recordset** antes de tentar definir ou verificar a propriedade **Bookmark**.
+Verifique a definição da propriedade **Bookmarkable** de um objeto **Recordset** antes de você tentar definir ou verificar a propriedade **Bookmark**.
 
-Em objetos **Recordset** inteiramente baseado em tabelas de mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é True e você pode usar indicadores. Entretanto, outros produtos de banco de dados podem não aceitar indicadores. Por exemplo, você não pode usar indicadores em nenhum objeto **Recordset** com base em uma tabela vinculada Paradox que não tenha nenhuma chave primária.
+Para objetos **Recordset** com base em tabelas do mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é true, e você pode usar indicadores. No entanto, outros produtos do banco de dados podem não oferecer suporte aos marcadores. Por exemplo, não será possível usar os indicadores em qualquer objeto **Recordset** com base em uma tabela do Paradox vinculada que não tem chave primária.
 
 ## <a name="example"></a>Exemplo
 

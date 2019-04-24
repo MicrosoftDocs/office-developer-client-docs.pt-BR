@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d1fb13d04691b7bf5e0aafcc484cfc4f471e1e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295489"
 ---
 # <a name="copyobject-macro-action"></a>Ação da macro CopiarObjeto
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **CopiarObjeto** para copiar o objeto de banco de dados especificado para um banco de dados do Access diferente ou para o mesmo banco de dados ou o projeto do Access com um novo nome. Por exemplo, é possível executar cópia ou backup de um objeto existente em outro banco de dados ou rapidamente criar um objeto semelhante com algumas alterações.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="setting"></a>Configuração
 
@@ -45,9 +45,7 @@ A ação **CopiarObjeto** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Banco de Dados de Destino</strong></p></td>
-<td><p>Um caminho e nome de arquivo válidos para o banco de dados de destino. Insira o caminho e nome de arquivo na caixa <strong>Banco de Dados de Destino</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe este argumento em branco se desejar selecionar o banco de dados atual. 
-
-</p><p><strong>Observação</strong>: este argumento só está disponível no ambiente de banco de dados do Access. Ao usar essa ação em um ambiente de projeto do Access (. adp), o argumento de banco de dados de destino deve estar em branco.</p>
+<td><p>Um caminho e nome de arquivo válidos para o banco de dados de destino. Insira o caminho e nome de arquivo na caixa <strong>Banco de Dados de Destino</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe este argumento em branco se desejar selecionar o banco de dados atual.</p><p><strong>Observação</strong>: este argumento só está disponível no ambiente de banco de dados do Access. Ao usar esta ação em um ambiente de projeto do Access (.adp), o argumento Banco de Dados de Destino precisa estar em branco.</p>
 <p>Se você executar uma macro que contém a ação <strong>CopiarObjeto</strong> em um banco de dados biblioteca e deixar este argumento em branco, o Microsoft Office Access 2007 copiará o objeto para o banco de dados biblioteca.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +58,7 @@ A ação **CopiarObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto de Origem</strong></p></td>
-<td><p>O nome do objeto a ser copiado. Na caixa <strong>Nome do objeto de origem</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Tipo de objeto de origem</strong> . Na caixa <strong>Nome do objeto de origem</strong> , clique no objeto a ser copiado. Se você deixar vazio o argumento de <strong>Tipo de objeto de origem</strong> , deixe este argumento também em branco. Se você executar uma macro que contém a ação <strong>CopiarObjeto</strong> em um banco de dados biblioteca, o Access procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do objeto que será copiado. A caixa <strong>Nome do Objeto de Origem</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Tipo do Objeto de Origem</strong>. Na caixa <strong>Nome do Objeto de Origem</strong>, clique no objeto que será copiado. Se você deixar o argumento <strong>Tipo do Objeto de Origem</strong> em branco, deixe este argumento em branco também. Se você executar uma macro que contém a ação <strong>CopiarObjeto</strong> em um banco de dados biblioteca, o Access procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 </tbody>
 </table>

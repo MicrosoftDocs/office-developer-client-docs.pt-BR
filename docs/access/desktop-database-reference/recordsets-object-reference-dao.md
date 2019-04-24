@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 36cbc4746284842656bf66d0bb7f50fd889c499a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309315"
 ---
 # <a name="recordsets-object-reference-dao"></a>Referência de objeto Recordsets (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 - [Coleção Recordsets (DAO)](recordsets-collection-dao.md)
 - [Membros de Recordsets (DAO)](recordsets-members-dao.md)

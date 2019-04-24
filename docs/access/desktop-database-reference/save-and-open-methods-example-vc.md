@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54fb42ade164ce49cd09ce5a71b342342026a0a2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308971"
 ---
 # <a name="save-and-open-methods-example-vc"></a>Exemplo dos métodos Save e Open (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Estes três exemplos demonstram como os métodos [Save](save-method-ado.md) e **Open** podem ser utilizados em conjunto.
 

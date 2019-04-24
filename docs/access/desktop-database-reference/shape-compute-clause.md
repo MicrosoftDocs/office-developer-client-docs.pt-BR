@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306451"
 ---
 # <a name="shape-compute-clause"></a>Cláusula de cálculo de forma
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma cláusula COMPUTE de forma gera um **Recordset** pai, cujas colunas consistem em uma referência ao **Recordset** filho; colunas opcionais cujo conteúdo são colunas de capítulo, colunas novas ou colunas calculadas, ou o resultado da execução de funções agregadas no **Recordset** filho ou em um **Recordset** com formato anterior; e todas as colunas do **Recordset** filho listado na cláusula BY opcional.
 
@@ -47,7 +47,7 @@ As partes dessa cláusula são as seguintes:
 
 - *child-alias*
 
-  - Um alias usado para se referir ao **Recordset** retornado pelo *filho-command.* O *alias de filhos* for exigida na lista de colunas na cláusula COMPUTE e define a relação entre os objetos **Recordset** pai e filho.
+  - Um alias usado para se referir ao **Recordset** retornado por *child-command.* O *child-alias* é necessário na lista de colunas na cláusula COMPUTE e define a relação entre os objetos **Recordset** pai e filho.
 
 - *appended-column-list*
 
@@ -55,7 +55,7 @@ As partes dessa cláusula são as seguintes:
 
 - *grp-field-list*
 
-  - Uma lista de colunas nos objetos **Recordset** pai e filho que especifica o modo de agrupamento das linhas no filho. Para cada coluna na *grp--lista de campos,* há uma coluna correspondente nos objetos **Recordset** pai e filho. Para cada linha no **Recordset**pai, as colunas de *lista de campos grp* têm valores exclusivos e o filho **Recordset** referenciado da linha pai consiste exclusivamente filho linhas cuja *lista de campos grp* colunas têm os mesmos valores que o linha pai.
+  - Uma lista de colunas nos objetos **Recordset** pai e filho que especifica o modo de agrupamento das linhas no filho. Para cada coluna em *grp-field-list,* há uma coluna correspondente nos objetos **Recordset** pai e filho. Para cada linha no **Recordset** pai, são exibidos valores exclusivos nas colunas *grp-field-list*, e o **Recordset** filho referenciado pela linha pai consiste apenas em linhas filho cujas colunas *grp-field-list* têm os mesmos valores da linha pai.
 
 Se a cláusula BY for incluída, as linhas do **Recordset** filho serão agrupadas com base nas colunas na cláusula COMPUTE. O **Recordset** pai conterá uma linha para cada grupo de linhas no **Recordset** filho.
 
@@ -70,9 +70,9 @@ Por exemplo:
 
 Independentemente do modo de formação do **Recordset** pai (usando COMPUTE ou APPEND), ele conterá uma coluna de capítulo usada para relacioná-lo a um **Recordset** filho. Se você desejar, o **Recordset** pai também poderá conter colunas com agregados (SUM, MIN, MAX etc.) nas linhas filho. Os objetos **Recordset** pai e filho podem conter colunas com uma expressão na linha de **Recordset**, bem como colunas novas e inicialmente vazias.
 
-## <a name="operation"></a>Operação
+## <a name="operation"></a>Operation
 
-O *comando filho* é emitida para o provedor, que retorna um **Recordset**filho.
+*child-command* é emitido para o provedor, que retorna um **Recordset** filho.
 
 A cláusula COMPUTE especifica as colunas do **Recordset** pai, que pode ser uma referência ao **Recordset** filho, um ou mais agregados, uma expressão calculada ou novas colunas. Se houver uma cláusula BY, as colunas definidas por ela também serão acrescentadas ao **Recordset** pai. A cláusula BY especifica o modo de agrupamento do **Recordset** filho.
 
@@ -88,7 +88,7 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>População</p></th>
+<th><p>Populaciona</p></th>
 </tr>
 </thead>
 <tbody>
@@ -98,12 +98,12 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 <td><p>700.000</p></td>
 </tr>
 <tr class="even">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Medford</p></td>
 <td><p>200.000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Portland</p></td>
 <td><p>400.000</p></td>
 </tr>
@@ -120,10 +120,10 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500.000</p></td>
+<td><p>US$ 500.000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Corvallis</p></td>
 <td><p>300.000</p></td>
 </tr>
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-O comando abre um **Recordset** com formato de dois níveis. O nível do pai é um **conjunto de registros** de gerado com uma coluna agregada (SUM(rs.population)), uma coluna que faz referência a **Recordset** (rs) filho e uma coluna para agrupamento do **Recordset** (estado) filho. Nível filho é o **conjunto de registros** retornado por uma coluna para agrupamento do **Recordset** (estado) filho, uma coluna que faz referência a **Recordset** (rs) filho e o comando de consulta (). Nível filho é o **conjunto de registros** retornados pelo comando consulta (selecione \* de demografia).
+O comando abre um **Recordset** com formato de dois níveis. O nível pai é um **Recordset** gerado com uma coluna de agregação (Sum (RS. população)), uma coluna que faz referência ao **Recordset** filho (RS) e uma coluna para agrupar o **Recordset** filho (State). O nível filho é o **Recordset** retornado pelo comando de consulta (), uma coluna que faz referência ao **Recordset** filho (RS) e uma coluna para agrupar o **Recordset** filho (estado). O nível filho é o **Recordset** retornado pelo comando de consulta (selecione \* de demográficos).
 
 As linhas de detalhes do **Recordset** filho serão agrupadas por estado, mas sem nenhuma ordem específica, ou seja, os grupos não estarão em ordem alfabética ou numérica. Se desejar ordenar o **Recordset** pai, você poderá usar o método **Sort** de **Recordset** para ordenar o **Recordset** pai.
 
@@ -159,31 +159,31 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <thead>
 <tr class="header">
 <th><p>SUM (rs.Population)</p></th>
-<th><p>rs</p></th>
-<th><p>State</p></th>
+<th><p>RS</p></th>
+<th><p>Estado</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1,300,000</p></td>
+<td><p>1,3 milhões</p></td>
 <td><p>Referência ao filho1</p></td>
 <td><p>CA</p></td>
 </tr>
 <tr class="even">
-<td><p>1,200,000</p></td>
+<td><p>1,2 milhões</p></td>
 <td><p>Referência ao filho2</p></td>
 <td><p>WA</p></td>
 </tr>
 <tr class="odd">
-<td><p>1,100,000</p></td>
+<td><p>1,1 milhões</p></td>
 <td><p>Referência ao filho3</p></td>
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Filho1**
+**Child1**
 
 <table>
 <colgroup>
@@ -195,7 +195,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>População</p></th>
+<th><p>Populaciona</p></th>
 </tr>
 </thead>
 <tbody>
@@ -213,7 +213,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 </table>
 
 
-**Filho2**
+**Child2**
 
 <table>
 <colgroup>
@@ -225,7 +225,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>População</p></th>
+<th><p>Populaciona</p></th>
 </tr>
 </thead>
 <tbody>
@@ -237,13 +237,13 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500.000</p></td>
+<td><p>US$ 500.000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Filho3**
+**Child3**
 
 <table>
 <colgroup>
@@ -255,22 +255,22 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>População</p></th>
+<th><p>Populaciona</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Medford</p></td>
 <td><p>200.000</p></td>
 </tr>
 <tr class="even">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Portland</p></td>
 <td><p>400.000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>OU</p></td>
 <td><p>Corvallis</p></td>
 <td><p>300.000</p></td>
 </tr>

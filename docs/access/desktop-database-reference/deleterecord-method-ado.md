@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d6ecd408bc2141ef9ff4bec8f6469a70e09bbe1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293991"
 ---
 # <a name="deleterecord-method-ado"></a>Método DeleteRecord (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Exclui a entidade representada por um [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Registro*. **ExcluirRegistro * * * fonte*, *assíncrono*
+*Record*. **DeleteRecord * * * Source*, *Async*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -35,9 +35,9 @@ Exclui a entidade representada por um [Record](record-object-ado.md).
 
 As operações no objeto representado por esse **Record** podem falhar após a conclusão desse método. Depois de chamar **DeleteRecord**, o **Record** deve ser fechado porque o comportamento do **Record** pode ficar imprevisível dependendo de quando o provedor atualiza o **Record** com a fonte de dados.
 
-Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), os resultados dessa operação não serão refletidos imediatamente no **Recordset**. Atualize o **Recordset** fechando e abrindo-o novamente, ou os métodos **Recordset** [Requery](requery-method-ado.md), ou [Update](update-method-ado.md) e [Resync](resync-method-ado.md) executá-lo.
+Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), os resultados dessa operação não serão refletidos imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo-o ou executando o **Recordset** [](requery-method-ado.md)Requery ou os métodos [Update](update-method-ado.md) e resync. [](resync-method-ado.md)
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
 
 

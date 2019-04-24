@@ -1,5 +1,5 @@
 ---
-title: Propriedade DBEngine.DefaultUser (DAO)
+title: Propriedade DBEngine. defaultUser (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c29f9663ce3591fe5b1633239e8ec0d8866ee16a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294341"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>Propriedade DBEngine.DefaultUser (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>Propriedade DBEngine. defaultUser (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define o nome de usuário utilizado para criar o **Workspace** padrão quando ele é inicializado. **String** de leitura/gravação.
 
@@ -33,7 +33,7 @@ Define o nome de usuário utilizado para criar o **Workspace** padrão quando el
 
 ## <a name="remarks"></a>Comentários
 
-A configuração para **DefaultUser** é um tipo de dados de cadeia de caracteres. Ele pode ser de 1 a 20 caracteres longos no Microsoft Access e espaços de trabalho podem incluir caracteres alfabéticos, caracteres acentuados, números, espaços e símbolos, exceto para: "(aspas), / (barra), \\ (barra invertida), \[ \] (colchetes) ,: (dois-pontos), | (pipe), \< (menos-sinal), \> (maior-sinal), + (sinal de adição,) = (sinal de igual), (ponto e vírgula), (vírgula)? (ponto de interrogação), \* (asterisco), levando espaços e caracteres de controle (ASCII 00 a ASCII 31).
+A configuração para **DefaultUser** é um tipo de dados de cadeia de caracteres. Ele pode ter de 1 a 20 caracteres nos espaços de trabalho do Microsoft Access e pode incluir caracteres alfabéticos, caracteres acentuados, números, espaços e símbolos, exceto: "(aspas),/(barra \\ invertida), (barra invertida \[ \] ), (colchetes) ,: (dois pontos), | (pipe), \< (sinal de menor que), \> (sinal de maior que), + (sinal de mais), = (sinal de igual),; (ponto-e-vírgula),, (vírgula),? (ponto de interrogação \* ), (asterisco), espaços à esquerda e caracteres de controle (ASCII 00 a ASCII 31).
 
 
 > [!NOTE]

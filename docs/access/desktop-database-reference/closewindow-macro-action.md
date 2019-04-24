@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4397846abdc0d10b6bfa0e6a1eb5c0c435fc862a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296287"
 ---
 # <a name="closewindow-macro-action"></a>Ação da macro FecharJanela
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **fecharJanela** para fechar uma guia de documento especificada do Access ou a guia do documento ativo se nenhuma estiver especificada.
+Você pode usar a ação **fecharJanela** para fechar uma guia de documento do Access especificada ou a guia do documento ativo se nenhum for especificado.
 
 ## <a name="setting"></a>Configuração
 
@@ -43,9 +43,7 @@ A ação **FecharJanela** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de Objeto</strong></p></td>
-<td><p>O tipo de objeto cuja guia de documento você deseja fechar. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Para selecionar a guia de documento ativa, deixe este argumento em branco. 
-
-</p>
+<td><p>O tipo de objeto cuja guia de documento você deseja fechar. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Para selecionar a guia de documento ativa, deixe este argumento em branco.</p>
 
 > [!NOTE]
 > Se você estiver fechando um módulo no Editor do Visual Basic, use **Módulo** no argumento **Tipo de Objeto**.

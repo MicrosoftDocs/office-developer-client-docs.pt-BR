@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe60c12a85eff0dd8f796f9affeef71979dac580
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301208"
 ---
 # <a name="property-members-dao"></a>Membros de propriedade (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto Property representa uma característica interna ou definida pelo usuário de um objeto DAO.
 
@@ -40,7 +40,7 @@ Um objeto Property representa uma característica interna ou definida pelo usuá
 <td><p>Retorna um valor que indica se um objeto <strong><a href="property-object-dao.md">Property</a></strong> foi herdado de um objeto base.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="property-name-property-dao.md">Nome</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">

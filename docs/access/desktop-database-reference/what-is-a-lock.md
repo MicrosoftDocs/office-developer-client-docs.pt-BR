@@ -1,5 +1,5 @@
 ---
-title: O que é um bloqueio? (Referência de banco de dados da área de trabalho do access)
+title: O que é um bloqueio? (Referência do banco de dados do Access Desktop)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5e503fd15d9864cc6ab007de031493e321622246
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306759"
 ---
 # <a name="what-is-a-lock"></a>O que é um Bloqueio?
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Bloqueio é o processo pelo qual um DBMS restringe o acesso a uma linha em um ambiente com vários usuários. Quando uma linha ou coluna é bloqueada exclusivamente, outros usuários não têm permissão para acessar os dados bloqueados até que o bloqueio seja liberado. Isso garante que dois usuários não possam atualizar a mesma coluna simultaneamente em uma linha.
 
@@ -33,7 +33,7 @@ Não há suporte para a configuração **adLockPessimistic** se a propriedade [C
 
 A propriedade **LockType** é de leitura/gravação quando o **Recordset** está fechado e somente leitura quando está aberto.
 
-Esta seção inclui o seguinte tópico:
+Esta seção inclui o tópico a seguir:
 
 - [Tipos de bloqueios](types-of-locks.md)
 

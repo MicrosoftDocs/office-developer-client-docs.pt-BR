@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cdb32bb8ff9bb6e0556a87de0efe82cd919dbe2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295181"
 ---
 # <a name="cursortype-property-ado"></a>Propriedade CursorType (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o tipo do cursor utilizado em um objeto [Recordset](recordset-object-ado.md).
 
@@ -49,7 +49,7 @@ A planilha a seguir mostra as funcionalidades do provedor (identificadas por con
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>none</p></td>
+<td><p>nenhuma</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -72,5 +72,5 @@ A planilha a seguir mostra as funcionalidades do provedor (identificadas por con
 
 A propriedade **CursorType** será leitura/gravação quando o **Recordset** estiver fechado e somente leitura quando ele estiver aberto.
 
-**Uso de serviço de dados remotos** Quando usado em um objeto Recordset do lado do cliente, a propriedade **CursorType** pode ser definida apenas como **adOpenStatic**.
+**Uso do Remote Data Service** Quando usado em um objeto Recordset do lado do cliente, **** a propriedade CursorType pode ser definida apenas como **adOpenStatic**.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306444"
 ---
 # <a name="shape-append-clause"></a>Cláusula Shape Append
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A cláusula APPEND do comando shape acrescenta uma ou mais colunas a um **Recordset**. Em geral, essas colunas referem-se a capítulos, que se referem a um **Recordset** filho .
 
@@ -34,7 +34,7 @@ As partes dessa cláusula são as seguintes:
 
 - *parent-command*
 
-- Zero ou uma das opções a seguir (você pode omitir o *parent-command* completamente):
+- Zero ou um dos itens a seguir (você pode omitir *parent-command* completamente):
     
   - Um comando de provedor entre chaves ("{}") que retorna um objeto **Recordset**. O comando é emitido para o provedor de dados subjacente, e sua sintaxe depende dos requisitos desse provedor. Em geral, será usada a linguagem SQL, embora o ADO não exija nenhuma linguagem de consulta específica.
     
@@ -84,7 +84,7 @@ As partes dessa cláusula são as seguintes:
 
 - *parent-column*
 
-  - Uma coluna em **Recordset** retornada pelo *parent-command.*
+  - Uma coluna em **Recordset** retornada por *parent-command.*
 
 - *child-column*
 
@@ -100,8 +100,8 @@ As partes dessa cláusula são as seguintes:
 
 
 > [!NOTE]
-> - A cláusula _"parent-column TO filho-column"_ na verdade é uma lista, onde cada relação definida é separada por uma vírgula.
-> - [!OBSERVAçãO] A cláusula após a palavra-chave APPEND na verdade é uma lista, na qual cada cláusula é separada por uma vírgula e define uma outra coluna a ser acrescentada ao pai.
+> - A cláusula _"Parent-Column to Child-Column"_ na verdade é uma lista, onde cada relação definida é separada por uma vírgula.
+> - A cláusula após a palavra-chave APPEND na verdade é uma lista, na qual cada cláusula é separada por uma vírgula e define uma outra coluna a ser acrescentada ao pai.
 
 
 
@@ -114,21 +114,21 @@ Quando você construir os comandos de provedor a partir da entrada do usuário c
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-FORMA irá executar dois comandos: selecione \* de t1 e (selecione \* do t2 relacionar k1 para k2). Se o usuário emitir um comando composto contendo vários comandos de provedor separados por ponto-e-vírgula, SHAPE não conseguirá diferenciar. Portanto, no comando SHAPE a seguir,
+A forma executará dois comandos: \* selecione de T1 e ( \* selecione de T2 relacionar K1 para K2). Se o usuário emitir um comando composto contendo vários comandos de provedor separados por ponto-e-vírgula, SHAPE não conseguirá diferenciar. Portanto, no comando SHAPE a seguir,
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-Executa de forma selecionar \* de t1; Descartar tabela t1 e (selecione \* do t2 relacionar k1 para k2), não percebendo que t1 da tabela de recebimento é uma separado e neste comando perigoso, caso, o provedor. Os aplicativos devem sempre validar a entrada do usuário para impedir possíveis ataques de hacker como esse.
+A forma executa Select \* from T1; descartar tabela T1 e \* (selecione de T2 relacionar K1 para K2), não percebendo que a tabela de descarte T1 é separada e, nesse caso, um comando de provedor perigoso. Os aplicativos devem sempre validar a entrada do usuário para impedir possíveis ataques de hacker como esse.
 
 Esta seção inclui os seguintes tópicos:
 
-- [Operação dos comandos sem parâmetros](operation-of-non-parameterized-commands.md)
+- [Operação de comandos não parametrizados](operation-of-non-parameterized-commands.md)
 
-- [Operação dos comandos parametrizados](operation-of-parameterized-commands.md)
+- [Operação de comandos parametrizados](operation-of-parameterized-commands.md)
 
 - [Comandos híbridos](hybrid-commands.md)
 
-- [Cláusulas COMPUTE de intervenção de forma](intervening-shape-compute-clauses.md)
+- [Cláusulas de cálculo da forma interveniente](intervening-shape-compute-clauses.md)

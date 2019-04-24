@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d30ff9146146bb0457a5aa383b2b720a4fdaeb78
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292318"
 ---
 # <a name="formal-shape-grammar"></a>Gramática formal de forma
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Esta é a gramática formal para a criação de qualquer comando shape:
 
   - Os termos gramaticais necessários são sequências de caracteres de texto delimitadas por colchetes angulares ("\<\>").
 
-  - Os termos opcionais são delimitados por colchetes ("\[ \]").
+  - Os termos opcionais são delimitados por colchetes\[ \]("").
 
   - As alternativas são indicadas por vírgula ("|").
 
   - As alternativas de repetição são indicadas por reticências ("...").
 
-  - *Alpha* indica uma cadeia de caracteres de letras alfabéticas.
+  - *Alpha* indica uma sequência de caracteres de letras alfabéticas.
 
-  - *Digit* indica uma cadeia de caracteres de números.
+  - *Digit* indica uma sequência de caracteres de números.
 
-  - *Unicode-digit* indica uma cadeia de caracteres de dígitos unicode.
+  - *Unicode-digit* indica uma sequência de caracteres de dígitos unicode.
 
 Todos os outros termos são literais.
 
@@ -49,48 +49,48 @@ Todos os outros termos são literais.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;comando Shape&gt;</p></td>
-<td><p>FORMA [&lt;tabela-exp&gt; [[como] &lt;alias&gt;]] [&lt;ação de forma&gt;]</p></td>
+<td><p>&lt;forma-comando&gt;</p></td>
+<td><p>Forma [&lt;Table-exp&gt; [[as] &lt;alias&gt;]] [&lt;forma-ação&gt;]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;tabela-exp&gt;</p></td>
-<td><p>{&lt;texto de comando do provedor&gt;} |<br />
-(&lt;comando shape&gt;) |<br />
-TABELA &lt;nome entre aspas&gt; |<br />
+<td><p>{&lt;Provider-Command-Text&gt;} |<br />
+(&lt;forma-comando&gt;) |<br />
+TABELA &lt;-nome entre aspas&gt; |<br />
 &lt;nome entre aspas&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;ação da forma&gt;</p></td>
-<td><p>APPEND &lt;lista de campos com alias&gt; |</p>
-<p>COMPUTE &lt;lista de campos de alias&gt; [BY &lt;lista de campos&gt;]</p></td>
+<td><p>&lt;forma-ação&gt;</p></td>
+<td><p>ACRESCENTAR &lt;com alias-lista de campos&gt; |</p>
+<p>COMPUTE &lt;alias-Field-List&gt; [by &lt;field-list]&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;lista de campos com alias&gt;</p></td>
-<td><p>&lt;campo alias&gt; [, &lt;campo alias … &gt;]</p></td>
+<td><p>&lt;alias-lista de campos&gt;</p></td>
+<td><p>&lt;alias-Field&gt; [, &lt;aliasd-Field... &gt;]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;campo de alias&gt;</p></td>
-<td><p>&lt;campo-exp&gt; [[como] &lt;alias&gt;]</p></td>
+<td><p>&lt;alias-Field&gt;</p></td>
+<td><p>&lt;Field-exp&gt; [[as] &lt;alias&gt;]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;campo-exp&gt;</p></td>
+<td><p>&lt;Field-exp&gt;</p></td>
 <td><p>(&lt;relation-exp&gt;) |</p>
-<p>&lt;exp calculada&gt; |</p>
+<p>&lt;calculado-exp&gt; |</p>
 <p>&lt;Aggregate-exp&gt; |</p>
 <p>&lt;New-exp&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;relation_exp&gt;</p></td>
-<td><p>&lt;tabela-exp&gt; [[como] &lt;alias&gt;]</p>
-<p>&lt;tabela-exp&gt; [[como] &lt;alias&gt;]</p></td>
+<td><p>&lt;Table-exp&gt; [[as] &lt;alias&gt;]</p>
+<p>&lt;Table-exp&gt; [[as] &lt;alias&gt;]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;lista de cond Relation&gt;</p></td>
-<td><p>&lt;Relation-cond&gt; [, &lt;relation-cond&gt;…]</p></td>
+<td><p>&lt;relation-cond-List&gt;</p></td>
+<td><p>&lt;relation-cond&gt; [, &lt;relation-cond&gt;...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Relation-cond&gt;</p></td>
-<td><p>&lt;nome do campo&gt; para &lt;filho-ref&gt;</p></td>
+<td><p>&lt;relation-cond&gt;</p></td>
+<td><p>&lt;campo-nome&gt; para &lt;filho-ref&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;filho-ref&gt;</p></td>
@@ -99,68 +99,68 @@ TABELA &lt;nome entre aspas&gt; |<br />
 </tr>
 <tr class="odd">
 <td><p>&lt;param-ref&gt;</p></td>
-<td><p>&lt;número&gt;</p></td>
+<td><p>&lt;série&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;lista de campos&gt;</p></td>
-<td><p>&lt;nome do campo&gt; [, &lt;nome do campo&gt;]</p></td>
+<td><p>&lt;campo-nome&gt; [, &lt;nome&gt;do campo]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;Aggregate-exp&gt;</p></td>
-<td><p>Soma (&lt;nome qualificado de campo&gt;) |</p>
-<p>AVG (&lt;nome qualificado de campo&gt;) |</p>
-<p>MIN (&lt;nome qualificado de campo&gt;) |</p>
-<p>MAX (&lt;nome qualificado de campo&gt;) |</p>
-<p>CONTAGEM (&lt;qualificado-alias&gt; | &lt;nome qualificado&gt;) |</p>
-<p>DESVPAD (&lt;nome qualificado de campo&gt;) |</p>
-<p>QUALQUER (&lt;nome qualificado de campo&gt;)</p></td>
+<td><p>SUM (&lt;Qualified-Field-Name&gt;) |</p>
+<p>Méd (&lt;Qualified-Field-Name&gt;) |</p>
+<p>MIN (&lt;Qualified-Field-Name&gt;) |</p>
+<p>MAX (&lt;Qualified-Field-Name&gt;) |</p>
+<p>Count (&lt;Qualified-alias&gt; | &lt;Qualified-name&gt;) |</p>
+<p>Desv (&lt;Qualified-Field-Name&gt;) |</p>
+<p>QUALQUER (&lt;Qualified-Field-Name&gt;)</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;exp calculada&gt;</p></td>
-<td><p>CALC(&lt;expression&gt;)</p></td>
+<td><p>&lt;calculado-exp&gt;</p></td>
+<td><p>CALC (&lt;expressão&gt;)</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;nome qualificado de campo&gt;</p></td>
-<td><p>&lt;alias&gt;. [&lt;alias&gt;…] &lt;nome do campo&gt;</p></td>
+<td><p>&lt;qualified-Field-Name&gt;</p></td>
+<td><p>&lt;alias&gt;. [&lt;alias&gt;...] &lt;nome do campo&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;alias&gt;</p></td>
+<td><p>&lt;alternativos&gt;</p></td>
 <td><p>&lt;nome entre aspas&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;nome do campo&gt;</p></td>
-<td><p>&lt;nome citados&gt; [[como] &lt;alias&gt;]</p></td>
+<td><p>&lt;quot-name&gt; [[as] &lt;alias&gt;]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;nome entre aspas&gt;</p></td>
-<td><p>&quot;&lt;cadeia de caracteres&gt;&quot; |</p>
-<p>'&lt;cadeia de caracteres&gt;' |</p>
-<p>[&lt;cadeia de caracteres&gt;] |</p>
-<p>&lt;nome&gt;</p></td>
+<td><p>&quot;&lt;sequência&gt;&quot; |</p>
+<p>'&lt;cadeia&gt;de caracteres ' |</p>
+<p>[&lt;cadeia&gt;de caracteres] |</p>
+<p>&lt;tdomínio&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;nome qualificado&gt;</p></td>
-<td><p>alias [.alias...]</p></td>
+<td><p>&lt;qualified-Name&gt;</p></td>
+<td><p>alias [. alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;nome&gt;</p></td>
-<td><p>alfa [alfa | dígito | _ | # |: |...]</p></td>
+<td><p>&lt;tdomínio&gt;</p></td>
+<td><p>Alpha [Alpha | digit | _ | # |: |...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;número&gt;</p></td>
-<td><p>Dígito [dígito …]</p></td>
+<td><p>&lt;série&gt;</p></td>
+<td><p>digit [dígito...]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;New-exp&gt;</p></td>
-<td><p>NOVO &lt;tipo de campo&gt; [(&lt;número&gt; [, &lt;número&gt;])]</p></td>
+<td><p>Novo &lt;campo-tipo&gt; [(&lt;número&gt; [, &lt;número&gt;])]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;tipo de campo&gt;</p></td>
 <td><p>Um tipo de dados ADO ou OLE DB.</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;cadeia de caracteres&gt;</p></td>
-<td><p>Unicode-char [unicode-char...]</p></td>
+<td><p>&lt;sequência&gt;</p></td>
+<td><p>Unicode-Char [Unicode-Char...]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;expressão&gt;</p></td>

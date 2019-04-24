@@ -1,5 +1,5 @@
 ---
-title: Fluxo de programa (referência de banco de dados da área de trabalho do Access)
+title: Fluxo do programa (referência do banco de dados do Access)
 TOCTitle: Program flow
 ms:assetid: 1ca43854-f15b-45f8-a227-eaa8e1aec75f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123920(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b966e020531e4d651387a65a23898cdb3e9e22ff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301285"
 ---
 # <a name="program-flow"></a>Fluxo do programa
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 - [Bloco de macro If...Then...Else](if-then-else-macro-block.md)
 - [Instrução de macro Comentário](comment-macro-statement.md)

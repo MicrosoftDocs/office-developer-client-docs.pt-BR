@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26eaa93a1abbb3778a2735d50dd5022edb3023d9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306220"
 ---
-# <a name="using-ado-with-microsoft-visual-basic"></a>Usando o ADO com o Microsoft Visual Basic
+# <a name="using-ado-with-microsoft-visual-basic"></a>Uso do ADO com o Microsoft Visual Basic
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A configuração de um projeto ADO e a criação de um código ADO é semelhante quando você usa o Visual Basic ou o Visual Basic for Applications. Este tópico aborda o uso do ADO com o Visual Basic e o Visual Basic for Applications e indica as diferenças.
 
-## <a name="referencing-the-ado-library"></a>Referenciando a biblioteca ADO
+## <a name="referencing-the-ado-library"></a>Fazendo referência à biblioteca do ADO
 
 A biblioteca ADO deve ser referenciada pelo seu projeto.
 
@@ -56,7 +56,7 @@ Você pode usar o ADO facilmente com o Visual Basic for Applications, por meio d
 
 Para criar uma variável de automação e uma instância de um objeto para essa variável, você pode usar dois métodos: **Dim** ou **CreateObject**.
 
-### <a name="dim"></a>Dim
+### <a name="dim"></a>Ofuscar
 
 Use a palavra-chave **New** com **Dim** para declarar e instanciar objetos ADO em uma única etapa:
 
@@ -74,7 +74,7 @@ Set conn = New ADODB.Connection
 ```
 
 > [!NOTE]
-> Ele não é necessário usar explicitamente ADODB progid com a instrução **Dim** , supondo que você referenciou corretamente a biblioteca ADO em seu projeto. Entretanto, sua utilização garante a ausência de conflitos de nomeação com outras bibliotecas.
+> Não é necessário usar explicitamente o ProgID ADODB com a instrução **Dim** , supondo que você tenha referenciado corretamente a biblioteca do ADO em seu projeto. Entretanto, sua utilização garante a ausência de conflitos de nomeação com outras bibliotecas.
 > 
 > Por exemplo, se você incluir referências a ADO e a DAO no mesmo projeto, inclua um qualificador para especificar qual modelo de objeto será usado ao instanciar objetos **Recordset**, como no código a seguir:  
 > 
@@ -105,9 +105,9 @@ A instanciação de objetos com o método **CreateObject** geralmente é mais le
 
 ## <a name="handling-events"></a>Manipular eventos
 
-Para lidar com eventos do ADO no Microsoft Visual Basic, você deve declarar uma variável de nível de módulo usando a palavra-chave **WithEvents** . É possível declarar a variável somente como parte de um módulo de classe e é necessário declará-la no nível do módulo. Para uma abordagem mais completa sobre manipulação de eventos do ADO, consulte [Capítulo 7: eventos do ADO manipulação](chapter-7-handling-ado-events.md).
+Para manipular eventos do ADO no Microsoft Visual Basic, você deve declarar uma variável no nível do módulo usando a palavra-chave **WithEvents** . A variável pode ser declarada apenas como parte de um módulo de classe e deve ser declarada no nível de módulo. Para obter uma discussão mais completa sobre o tratamento de eventos do ADO, consulte o [capítulo 7: manipulação de eventos do ADO](chapter-7-handling-ado-events.md).
 
 ## <a name="visual-basic-examples"></a>Exemplos do Visual Basic
 
-Vários exemplos de Visual Basic são incluídos com a documentação do ADO. Para obter mais informações, consulte [exemplos de código ADO no Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
+Vários exemplos de Visual Basic são incluídos com a documentação do ADO. Para obter mais informações, consulte [exemplos de código do ADO no Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

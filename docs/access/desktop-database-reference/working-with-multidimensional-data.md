@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 67b22219fdbbec8bf518b7be0fabd9a6adfbcf7f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306038"
 ---
 # <a name="working-with-multidimensional-data"></a>Como trabalhar com dados multidimensionais
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Um *conjunto de células* é o resultado de uma consulta de dados multidimensionais. Ele consiste de uma coleção de eixos, em geral não mais do que quatro eixos e usualmente dois ou três. Um *eixo* é uma coleção de membros de uma ou mais dimensões, que é usada para localizar ou filtrar valores específicos em um cubo.
+Um *conjunto de células* é o resultado de uma consulta em dados multidimensionais. Ele consiste de uma coleção de eixos, em geral não mais do que quatro eixos e usualmente dois ou três. Um *eixo* é uma coleção de membros de uma ou mais dimensões, que é usada para localizar ou filtrar valores específicos em um cubo.
 
-Uma *posição* é um ponto em um eixo. Para um eixo que consiste de uma única dimensão, essas posições são um subconjunto dos membros da dimensão. Se um eixo consistir em mais de uma dimensão, cada posição é uma entidade composta, que tem partes *n* onde *n* é o número de dimensões orientada ao longo do eixo. Cada parte da posição é um membro de uma dimensão constituinte.
+Uma *posição* é um ponto ao longo de um eixo. Para um eixo que consiste de uma única dimensão, essas posições são um subconjunto dos membros da dimensão. Se um eixo consiste de mais de uma dimensão, cada posição é uma entidade composta, que tem *n* partes, em que *n* é o número de dimensões orientadas ao longo daquele eixo. Cada parte da posição é um membro de uma dimensão constituinte.
 
 Por exemplo, se as dimensões Geografia e Produto de um cubo que contém dados de vendas estiverem orientadas ao longo do eixo x de um conjunto de células, uma posição ao longo desse eixo pode conter os membros "Estados Unidos" e "Computadores". Nesse exemplo, determinar uma posição ao longo do eixo x requer que os membros de cada dimensão estejam orientados ao longo do eixo.
 
-Uma *célula* é um objeto posicionado na interseção de coordenadas de eixo. Cada célula tem várias informações a ela associadas, inclusive os próprios dados, uma sequência de caracteres formatada (a forma a ser exibida dos dados da célula) e o valor ordinal da célula. (Cada célula tem um valor ordinal único no conjunto de células. O valor ordinal da primeira célula no conjunto de células é zero, enquanto a célula mais à esquerda da segunda linha de um conjunto de células com oito colunas teria um valor ordinal igual a oito.)
+Uma *célula* é um objeto posicionado na interseção de coordenadas do eixo. Cada célula tem várias informações a ela associadas, inclusive os próprios dados, uma sequência de caracteres formatada (a forma a ser exibida dos dados da célula) e o valor ordinal da célula. (Cada célula tem um valor ordinal único no conjunto de células. O valor ordinal da primeira célula no conjunto de células é zero, enquanto a célula mais à esquerda da segunda linha de um conjunto de células com oito colunas teria um valor ordinal igual a oito.)
 
 Por exemplo, um cubo tem as seis dimensões a seguir (observe que esse esquema de cubo difere ligeiramente do exemplo dado em [Visão geral de esquemas e dados multidimensionais](overview-of-multidimensional-schemas-and-data.md)):
 

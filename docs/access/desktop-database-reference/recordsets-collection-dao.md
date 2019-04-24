@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309295"
 ---
 # <a name="recordsets-collection-dao"></a>Coleção Recordsets (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção **Recordsets** contém todos os objetos **Recordset** abertos em um objeto **Connection** ou **Database**.
 
@@ -32,12 +32,12 @@ Para se referir a um objeto **Recordset** de uma coleção pelo número ordinal 
 
 - **Recordsets**(0)
 
-- **Conjuntos de registros** ("nome")
+- **Recordsets** ("Name")
 
-- **Conjuntos de registros**\!\[nome\]
+- **Nome do Recordsets**\!\[\]
 
 > [!NOTE]
-> [!OBSERVAçãO] É possível abrir um objeto **Recordset** a partir do mesmo banco de dados ou fonte de dados mais de uma vez criando nomes duplicados na coleção **Recordsets**. Você deve atribuir objetos **Recordsets** para variáveis de objetos e referenciá-los por nome de variável.
+> [!OBSERVAçãO] Você pode abrir um objeto **Recordset** na mesma fonte de dados ou banco de dados mais de uma vez, criando nomes duplicados na coleção **Recordsets**. É preciso atribuir objetos **Recordset** a variáveis de objeto e referir-se a eles pelo nome da variável.
 
 ## <a name="example"></a>Exemplo
 

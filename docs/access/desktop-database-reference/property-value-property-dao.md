@@ -1,5 +1,5 @@
 ---
-title: Propriedade Property.Value (DAO)
+title: Propriedade Property. Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 26e47b3a-4f70-27b5-2498-b44ce4dfc99f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191905(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3e7c79fe12b3b7bfe98e0c7547f4ed2d12b148ba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301166"
 ---
-# <a name="propertyvalue-property-dao"></a>Propriedade Property.Value (DAO)
+# <a name="propertyvalue-property-dao"></a>Propriedade Property. Value (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna o valor de um objeto. **Variant** de leitura/gravação.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a53b7170568c535ed2321a902796af2f942f6808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306948"
 ---
 # <a name="relations-members-dao"></a>Membros de relações (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção Relations contém objetos Relation armazenados de um objeto Database (somente bancos de dados de mecanismo de banco de dados do Microsoft Access).
 
@@ -36,7 +36,7 @@ Uma coleção Relations contém objetos Relation armazenados de um objeto Databa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Acrescentar</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Acrescido</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong>Relation</strong> à coleção <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="even">

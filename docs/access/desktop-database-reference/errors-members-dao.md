@@ -1,5 +1,5 @@
 ---
-title: Membros de erros (DAO)
+title: Erros de Membros (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78e4f74c353990a07ff8c84fa8d984c169d62db9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293382"
 ---
-# <a name="errors-members-dao"></a>Membros de erros (DAO)
+# <a name="errors-members-dao"></a>Erros de Membros (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção Errors contém todos os objetos Error armazenados, cada um dos quais pertence a uma única operação envolvendo o DAO.
 

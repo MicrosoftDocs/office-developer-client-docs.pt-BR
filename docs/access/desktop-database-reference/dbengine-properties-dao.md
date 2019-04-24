@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 926b56db56c990e1f2da18efc07bbd7c5fe12650
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294229"
 ---
 # <a name="dbengine-properties-dao"></a>Propriedades DBEngine (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade DBEngine.DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
-- [Propriedade DBEngine.DefaultType (DAO)](dbengine-defaulttype-property-dao.md)
-- [Propriedade DBEngine.DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
-- [Propriedade DBEngine.Errors (DAO)](dbengine-errors-property-dao.md)
-- [Propriedade DBEngine.IniPath (DAO)](dbengine-inipath-property-dao.md)
-- [Propriedade LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
-- [Propriedade DBEngine.Properties (DAO)](dbengine-properties-property-dao.md)
-- [Propriedade DBEngine (DAO)](dbengine-version-property-dao.md)
-- [Propriedade DBEngine.Workspaces (DAO)](dbengine-workspaces-property-dao.md)
+- [Propriedade DBEngine. defaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
+- [Propriedade DBEngine. defaultType (DAO)](dbengine-defaulttype-property-dao.md)
+- [Propriedade DBEngine. defaultUser (DAO)](dbengine-defaultuser-property-dao.md)
+- [Propriedade DBEngine. Errors (DAO)](dbengine-errors-property-dao.md)
+- [Propriedade DBEngine. IniPath (DAO)](dbengine-inipath-property-dao.md)
+- [Propriedade DBEngine. LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
+- [Propriedade DBEngine. Properties (DAO)](dbengine-properties-property-dao.md)
+- [Propriedade DBEngine. Version (DAO)](dbengine-version-property-dao.md)
+- [Propriedade DBEngine. Workspaces (DAO)](dbengine-workspaces-property-dao.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.Requery (DAO)
+title: Método Recordset2. reQuery (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 44f573d179c26677fc801dac82e0deecc3874fb1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307207"
 ---
-# <a name="recordset2requery-method-dao"></a>Método Recordset2.Requery (DAO)
+# <a name="recordset2requery-method-dao"></a>Método Recordset2. reQuery (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Atualiza os dados em um objeto **[Recordset](recordset-object-dao.md)** executando novamente a consulta na qual o objeto se baseia.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Requery (***novadefiniçãodaconsulta***)
+*expressão* . RepetirConsulta (***NewQueryDef***)
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
@@ -49,7 +49,7 @@ Atualiza os dados em um objeto **[Recordset](recordset-object-dao.md)** executan
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Novadefiniçãodaconsulta</em></p></td>
+<td><p><em>NewQueryDef</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Representa o valor da propriedade <strong>Name</strong> de um objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
@@ -60,17 +60,17 @@ Atualiza os dados em um objeto **[Recordset](recordset-object-dao.md)** executan
 
 ## <a name="remarks"></a>Comentários
 
-Use esse método para verificar se um **Recordset** contém os dados mais recentes. Esse método preenche novamente o **Recordset** atual usando os parâmetros consulta atual ou (em um espaço de trabalho do Microsoft Access) os novos parâmetros fornecidos pelo argumento novadefiniçãodaconsulta.
+Use esse método para verificar se um **Recordset** contém os dados mais recentes. Esse método preenche novamente o **Recordset** atual usando os parâmetros de consulta atuais ou (em um espaço de trabalho do Microsoft Access) os novos fornecidos pelo argumento newquerydef.
 
-Se você não especificar um argumento novadefiniçãodaconsulta, o **Recordset** será preenchido novamente com base na mesma definição de consulta e os parâmetros usados para preencher originalmente o **Recordset**. Qualquer alteração nos dados de base será refletida durante esse repreenchimento. Se você não usou **QueryDef** para criar o **Recordset**, o **Recordset** é recriado do zero.
+Se você não especificar um argumento newquerydef, o **Recordset** será preenchido novamente com base na mesma definição de consulta e nos parâmetros usados para preencher originalmente o **Recordset**. Qualquer alteração nos dados de base será refletida durante esse repreenchimento. Se você não usou **QueryDef** para criar o **Recordset**, o **Recordset** é recriado do zero.
 
-Se você especificar um **QueryDef** original no argumento novadefiniçãodaconsulta, em seguida, o **Recordset** é consultado novamente usando os parâmetros especificados por **QueryDef**. Qualquer alteração nos dados de base será refletida durante esse repreenchimento. Para refletir as alterações para os valores de parâmetro de consulta no **Recordset**, você deve fornecer o argumento novadefiniçãodaconsulta.
+Se você especificar o **QueryDef** original no argumento newquerydef, o **Recordset** será consultado novamente usando os parâmetros especificados por **QueryDef**. Qualquer alteração nos dados de base será refletida durante esse repreenchimento. Para refletir as alterações nos valores de parâmetro de consulta no **Recordset**, você deve fornecer o argumento newquerydef.
 
 Se você especificar um **QueryDef** diferente do originalmente utilizado para criar o **Recordset**, o **Recordset** será recriado do zero.
 
 Quando você usa **Requery**, o primeiro registro no **Recordset** torna-se o registro atual.
 
-Você não pode usar o método **Requery** nos objetos **Recordset** do tipo dynaset ou instantâneo cuja propriedade **[Restartable](recordset2-restartable-property-dao.md)** está definida como **False**. No entanto, se você fornecer o argumento opcional novadefiniçãodaconsulta, a propriedade **Restartable** será ignorada.
+Você não pode usar o método **Requery** nos objetos **Recordset** do tipo dynaset ou instantâneo cuja propriedade **[Restartable](recordset2-restartable-property-dao.md)** está definida como **False**. No enTanto, se você fornecer o argumento newquerydef opcional **** , a Propriedade Restartable será ignorada.
 
 Se as configurações das propriedades **[BOF](recordset2-bof-property-dao.md)** e **[EOF](recordset2-eof-property-dao.md)** do objeto **Recordset** forem **True** após a utilização do método **Requery**, a consulta não retornará nenhum registro, e o **Recordset** não conterá nenhum dado.
 

@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.Seek (DAO)
+title: Método Recordset2. Seek (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9510faab9035f2b2cbcccae0a8ddefa484a95cb1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307186"
 ---
-# <a name="recordset2seek-method-dao"></a>Método Recordset2.Seek (DAO)
+# <a name="recordset2seek-method-dao"></a>Método Recordset2. Seek (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Localiza o registro em um objeto **Recordset** do tipo tabela indexada que satisfaz os critérios especificados para o índice atual e torna esse registro o registro atual (somente espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Seek (***comparação***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
+*expressão* . Seek (***comparação***, ***key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
@@ -54,7 +54,7 @@ Localiza o registro em um objeto **Recordset** do tipo tabela indexada que satis
 <td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um ou mais valores correspondentes a campos no índice atual do objeto <strong>Recordset</strong>, como especificado pela configuração de sua propriedade <strong>Index</strong>. Você pode usar até 13 argumentos principais.</p></td>
+<td><p>Um ou mais valores correspondentes a campos no índice atual do objeto <strong>Recordset</strong>, como especificado pela configuração de sua propriedade <strong>Index</strong>. Você pode usar até 13 argumentos key.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,23 +64,23 @@ Localiza o registro em um objeto **Recordset** do tipo tabela indexada que satis
 
 Você deve definir o índice atual com a propriedade **Index** antes de usar **Seek**. Se o índice identificar um campo de chave não exclusiva, **Seek** localiza o primeiro registro que satisfaz os critérios.
 
-O método **Seek** pesquisa por meio de campos de chave especificados e localiza o primeiro registro que satisfaz os critérios especificados por comparação e key1. Uma vez encontrado, ele transformará o registro em atual e definirá a propriedade **NoMatch** como **False**. Se o método **Seek** falhar em localizar uma correspondência, a propriedade **NoMatch** será definida como **True** e o registro atual ficará indefinido.
+O método **Seek** pesquisa os campos de chave especificados e localiza o primeiro registro que satisfaz os critérios especificados por Comparison e key1. Depois de encontrado, ela torna atual aquele registro e define a propriedade **NoMatch** como **False**. Se o método **Seek** falhar ao localizar uma correspondência, a propriedade **NoMatch** será definida como **True**, e o registro atual será indefinido.
 
-Se a comparação é igual (=), maior ou igual (\>=), ou maior que (\>), **Seek** começará no início do índice e encaminham pesquisas.
+Se Comparison for igual a (=), maior ou igual a\>(=) ou maior que (\>), **Seek** começará no início do índice e pesquisará para frente.
 
-Se a comparação é menor que (\<) ou menor ou igual (\<=), **Seek** começará no final do índice e procura para trás. No entanto, se houver entradas de índice duplicadas no final do índice, **Seek** começará em uma entrada arbitrária entre as duplicadas e então pesquisará de trás para frente.
+Se Comparison for menor que (\<) ou menor que ou igual a\<(=), **Seek** começará no final do índice e pesquisará para trás. Entretanto, se houver entradas de índice duplicadas no final do índice, **Seek** começará em uma entrada arbitrária entre as duplicatas e pesquisará para trás.
 
-Você deve especificar valores para todos os campos definidos no índice. Se você usar **Seek** com um índice de várias colunas e se não especificar um valor de comparação para todos os campos do índice, então não poderá usar o operador igual a (=) na comparação. Isso acontece porque alguns dos campos critérios (key2 key3 e assim por diante) serão definido como nulo, o que provavelmente não corresponderá. Dessa forma, o operador igual a só funcionará corretamente se você tiver um registro que seja todo **null**, exceto a chave que você esteja procurando. É recomendável que você use o maior ou igual (\>=) operador em vez disso.
+Você deve especificar valores para todos os campos definidos no índice. Se você utilizar **Seek** com um índice de várias colunas e não especificar um valor de comparação para cada campo no índice, não será possível usar o operador igual (=) na comparação. Isso acontece porque alguns dos campos de critério (key2, key3 e assim por diante) terão como padrão Null, que provavelmente não terá correspondência. Portanto, o operador igual funcionará de modo correto somente se você tiver um registro que seja todo **null**, exceto a chave que você está procurando. É recomendável que você use o operador maior que ou igual\>a (=) em vez disso.
 
-O argumento key1 deve ser do mesmo tipo de dados de campo do campo correspondente no índice atual. Por exemplo, se o índice atual se refere a um campo numérico (por exemplo, Employee ID), key1 deve ser numérico. Da mesma forma, se o índice atual se refere a um campo de texto (por exemplo, o sobrenome), key1 deve ser uma cadeia de caracteres.
+O argumento key1 deve ter o mesmo tipo de dados de campo que o campo correspondente no índice atual. Por exemplo, se o índice atual se referir a um campo número (como o código do funcionário), key1 deverá ser numérico. Da mesma forma, se o índice atual se referir a um campo de texto (como sobrenome), key1 deverá ser uma cadeia de caracteres.
 
-Não precisa ser um registro atual quando você usar **Seek**.
+Não deve haver um registro atual quando você utilizar **Seek**.
 
 Você pode usar a coleção **[Indexes](indexes-collection-dao.md)** para enumerar os índices existentes.
 
-Para localizar um registro em um **Recordset** do tipo dynaset ou instantâneo que satisfaça uma condição específica que não seja convertida por índices existentes, use os métodos **[Find](recordset2-findfirst-method-dao.md)**. Para incluir todos os registros, e não apenas aqueles que satisfaçam a uma condição específica, use os métodos **[Move](recordset-movefirst-method-dao.md)** para se mover de registro em registro.
+Para localizar um registro em um **Recordset** do tipo dynaset ou instantâneo que atenda a uma condição específica não coberta por índices existentes, use os métodos **[Find](recordset2-findfirst-method-dao.md)**. Para incluir todos os registros, não apenas aqueles que atendem a uma condição específica, use os métodos **[Move](recordset-movefirst-method-dao.md)** para mover de um registro para outro.
 
-Você não pode usar o método **Seek** em uma tabela vinculada porque não pode abrir tabelas vinculadas como objetos **Recordset** do tipo tabela. No entanto, se você usar o método **[OpenDatabase](dbengine-opendatabase-method-dao.md)** para abrir diretamente um banco de dados ISAM (não ODBC) não instalado, poderá usar **Seek** em tabelas naquele banco de dados.
+Você não pode usar o método **Seek** em uma tabela vinculada porque não é possível abrir tabelas vinculadas como objetos **Recordset** do tipo tabela. Contudo, se você utilizar o método **[OpenDatabase](dbengine-opendatabase-method-dao.md)** para abrir diretamente um banco de dados (não-ODBC) ISAM instalável, poderá usar **Seek** nas tabelas naquele banco de dados.
 
 ## <a name="example"></a>Exemplo
 
@@ -146,7 +146,7 @@ Este exemplo demonstra o método **Seek** ao permitir que o usuário procure um 
 
 <br/>
 
-Este exemplo usa a propriedade **NoMatch** para determinar se **Seek** e **FindFirst** foram bem-sucedidos e, se não foram, fornece os comentários adequados. Os procedimentos SeekMatch e FindMatch são necessários para executar esse procedimento.
+Este exemplo usa a propriedade **NoMatch** para determinar se um **Seek** e um **FindFirst** foram bem-sucedidos e, em caso negativo, para fornecer os comentários apropriados. Os procedimentos SeekMatch e FindMatch são exigidos para que esse procedimento seja executado.
 
 ```vb
     Sub NoMatchX() 

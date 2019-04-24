@@ -1,5 +1,5 @@
 ---
-title: Membros de Relation (DAO)
+title: Membros da relação (DAO)
 TOCTitle: Relation Members
 ms:assetid: 9ee36e7d-3825-1de8-65fb-64bbcada847c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307034"
 ---
-# <a name="relation-members-dao"></a>Membros de Relation (DAO)
+# <a name="relation-members-dao"></a>Membros da relação (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto Relation representa uma relação entre campos nas tabelas ou consultas (apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).
 
@@ -37,7 +37,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> (espaços de trabalho do Microsoft Access apenas).</p></td>
+<td><p>Cria um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,7 +70,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <td><p>Define ou retorna o nome da tabela externa em uma relação (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="relation-name-property-dao.md">Nome</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">

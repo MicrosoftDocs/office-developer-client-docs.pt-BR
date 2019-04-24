@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 675dd1f671bd70d8272e303708bf951bbcee1a47
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295461"
 ---
 # <a name="count-property-example-vb"></a>Exemplo da propriedade Count (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções do banco de dados do ***funcionário*** . A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira para enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.
+Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções no banco de dados ***Employee***. A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira de enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.
 
 ```vb 
  

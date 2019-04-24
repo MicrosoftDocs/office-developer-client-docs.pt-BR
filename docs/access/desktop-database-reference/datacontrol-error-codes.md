@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 387f37e180d346c09cf3dadbf66f665cb83dbd0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294540"
 ---
 # <a name="datacontrol-error-codes"></a>Códigos de erro do DataControl
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A tabela abaixo lista os códigos de erro do objeto [RDS.DataControl](datacontrol-object-rds.md), mostrando a conversão decimal positiva dos dois bytes inferiores, a conversão decimal negativa do código de erro completo e os valores hexadecimais.
 
@@ -82,14 +82,14 @@ A tabela abaixo lista os códigos de erro do objeto [RDS.DataControl](datacontro
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Esta página acessa dados em outro domínio. Você deseja permitir isso? Para evitar essa mensagem no Internet Explorer, você pode adicionar um site seguro à zona Sites confiáveis na guia <strong>segurança</strong> da caixa de diálogo <strong>Opções da Internet</strong> .</p></td>
+<td><p>Esta página acessa dados em outro domínio. Você quer permitir isso? Para evitar essa mensagem no Internet Explorer, você pode adicionar um site seguro à zona de sites confiáveis na guia <strong>segurança</strong> da caixa de diálogo <strong>Opções da Internet</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Versão do cliente RDS inválida — O cliente é mais recente do que o servidor.</p></td>
+<td><p>Versão de cliente RDS inVálida — o cliente é mais recente do que o servidor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

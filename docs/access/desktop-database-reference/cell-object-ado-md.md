@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7bb2a479789a8c5bd1825b6cb04e602e0b829dfb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296546"
 ---
 # <a name="cell-object-ado-md"></a>Objeto Cell (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa os dados na interseção de coordenadas de eixo contidos em um conjunto de células.
 

@@ -1,5 +1,5 @@
 ---
-title: Membros de DBEngine (DAO)
+title: Membros DBEngine (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294278"
 ---
-# <a name="dbengine-members-dao"></a>Membros de DBEngine (DAO)
+# <a name="dbengine-members-dao"></a>Membros DBEngine (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O objeto DBEngine é de nível superior no modelo de objeto DAO.
 
@@ -45,10 +45,10 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copia e compacta um banco de dados fechado e dá a você a opção de alterar sua versão, ordem de agrupamento e criptografia. (espaços de trabalho do Microsoft Access apenas).</p></td>
+<td><p>Copia e compacta um banco de dados fechado e oferece a opção de alterar sua versão, ordem de agrupamento e criptografia. (Somente em espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-createdatabase-method-dao.md">Método CreateDatabase</a></strong></p></td>
+<td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
 <td><p>Cria um novo objeto <strong><a href="database-object-dao.md">Database</a></strong>, salva o banco de dados no disco e retorna um objeto <strong>Database</strong> aberto (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
@@ -56,13 +56,13 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 <td><p>Cria um novo objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">Ocioso</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">Estado</a></strong></p></td>
 <td><p>Suspende o processamento de dados, habilitando o mecanismo de banco de dados do Microsoft Access a concluir tarefas pendentes, como otimização de memória ou tempo limite da página (somente espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
 <td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Abre um objeto <strong><a href="connection-object-dao.md">Connection</a></strong> em uma fonte de dados ODBC (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">

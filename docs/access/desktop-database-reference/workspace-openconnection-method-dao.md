@@ -1,5 +1,5 @@
 ---
-title: Método Workspace.OpenConnection (DAO)
+title: Método Workspace. OpenConnection (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 9d97f298-a2d5-3b91-2efd-57f06fbd4654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70bdded6c149aa7aff405c769ba4462a46c20dfd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308334"
 ---
-# <a name="workspaceopenconnection-method-dao"></a>Método Workspace.OpenConnection (DAO)
+# <a name="workspaceopenconnection-method-dao"></a>Método Workspace. OpenConnection (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . OpenConnection (***nome***, ***Opções***, ***ReadOnly***, ***Conecte-se***)
+*expressão* . OpenConnection (***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
 *expressão* Uma variável que representa um objeto **Workspace** .
 
@@ -43,7 +43,7 @@ ms.locfileid: "28714959"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
@@ -64,7 +64,7 @@ ms.locfileid: "28714959"
 <td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma cadeia de caracteres de conexão ODBC. Consulte a propriedade <strong><a href="connection-connect-property-dao.md">Connect</a></strong> para os elementos específicos e a sintaxe dessa cadeia de caracteres. Um antecedendo &quot;ODBC; &quot; é necessário.</p></td>
+<td><p>Uma cadeia de caracteres de conexão ODBC. Consulte a propriedade <strong><a href="connection-connect-property-dao.md">Connect</a></strong> para os elementos específicos e a sintaxe dessa cadeia de caracteres. Um &quot;ODBC precedida; &quot; é necessário.</p></td>
 </tr>
 </tbody>
 </table>
@@ -78,9 +78,9 @@ Connection
 
 Use o método **OpenConnection** para estabelecer uma conexão com uma fonte de dados ODBC a partir de um espaço de trabalho ODBCDirect. O método **OpenConnection** é semelhante mas não igual a **OpenDatabase**. A principal diferença é que **OpenConnection** está disponível em um espaço de trabalho ODBCDirect.
 
-Se você especificar um nome registrado de fonte de dados do ODBC (DSN) no argumento conectar, em seguida, o argumento nome pode ser qualquer cadeia de caracteres válida e também fornecerá a propriedade **Name** para o objeto de **Conexão** . Se um DSN válido não está incluído no argumento conectar, em seguida, nome deve se referir a um DSN ODBC válido, que também será a propriedade **Name** . Se nem nome nem conectar contém um DSN válido, o Gerenciador de driver ODBC pode ser definido (via o argumento options) para solicitar ao usuário as informações de conexão necessárias. O DSN é fornecido pela solicitação e depois fornece a propriedade **Name**.
+Se você especificar um nome de fonte de dados ODBC (DSN) registrado no argumento Connect, o argumento Name poderá ser qualquer cadeia de caracteres válida e também fornecerá a propriedade **Name** para o objeto **Connection** . Se um DSN válido não for incluído no argumento Connect, Name deve se referir a um DSN ODBC válido, que também será a propriedade **Name** . Se nem Name nem Connect contiverem um DSN válido, o Gerenciador de driver ODBC poderá ser definido (através do argumento Options) para solicitar ao usuário as informações de conexão necessárias. O DSN é fornecido pela solicitação e depois fornece a propriedade **Name**.
 
-O argumento options determina se e quando solicitar que o usuário estabeleça a conexão e se a conexão será aberta de forma assíncrona ou não. Você pode usar uma das constantes a seguir.
+O argumento Options determina se e quando solicitar que o usuário estabeleça a conexão e se a conexão será ou não aberta de forma assíncrona. Você pode usar uma das constantes a seguir.
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ O argumento options determina se e quando solicitar que o usuário estabeleça a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -100,7 +100,7 @@ O argumento options determina se e quando solicitar que o usuário estabeleça a
 </tr>
 <tr class="even">
 <td><p><strong>dbDriverPrompt</strong></p></td>
-<td><p>O Gerenciador de driver ODBC exibe a caixa de diálogo <strong>Fontes de Dados ODBC</strong>, que mostra quaisquer informações relevantes fornecidas em <em>dbname</em> ou <em>connect</em>. A sequência de conexão é composta pelo DSN que o usuário seleciona via caixas de diálogo ou, se o usuário não especificar um DSN, pelo DSN padrão.</p></td>
+<td><p>O Gerenciador de Driver ODBC exibe a caixa de diálogo <strong>Fontes de Dados ODBC</strong>, que exibe quaisquer informações relevantes fornecidas em <em>dbname</em> ou <em>connect</em>. A cadeia de caracteres de conexão é formada pelo DSN que o usuário seleciona por meio das caixas de diálogo. Se o usuário não especificar um DSN, o DSN padrão será usado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDriverComplete</strong></p></td>
@@ -123,7 +123,7 @@ O argumento options determina se e quando solicitar que o usuário estabeleça a
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **OpenConnection** com diferentes parâmetros para abrir três objetos **Connection** diferentes.
+Este exemplo usa o método **OpenConnection** com parâmetros diferentes para abrir três objetos **Connection** diferentes.
 
 ```vb 
 Sub OpenConnectionX() 

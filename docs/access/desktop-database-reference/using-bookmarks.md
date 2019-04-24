@@ -1,5 +1,5 @@
 ---
-title: Usando indicadores (referência de banco de dados da área de trabalho do Access)
+title: Usando indicadores (referência de banco de dados de área de trabalho do Access)
 TOCTitle: Using Bookmarks
 ms:assetid: fe6333ef-c9d9-1e84-2252-d27edc676e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 469d8a0cc9b644fe434770d51c21d8210c8038d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306304"
 ---
 # <a name="using-bookmarks"></a>Uso de marcadores
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Frequentemente é útil retornar diretamente a um registro específico depois de ter percorrido o **Recordset** sem precisar rolar por cada registro e comparar valores. Por exemplo, se você tentar pesquisar um registro usando o método **Find** mas a pesquisa não retornar nenhum registro, você será colocado automaticamente em alguma extremidade do **Recordset**. Se o provedor oferecer suporte, poderão ser usados indicadores para marcar seu lugar antes de usar o método **Find**, de forma que você pode retornar ao local. Um indicador é um valor do tipo **Variant** que identifica de maneira exclusiva um registro em um objeto **Recordset**.
 

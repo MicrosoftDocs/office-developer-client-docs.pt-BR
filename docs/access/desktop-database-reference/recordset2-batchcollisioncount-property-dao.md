@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.BatchCollisionCount (DAO)
+title: Propriedade Recordset2. BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 997dfbb3-673c-8813-f51b-ab8d95093c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 33650b9fdbaf7fbc9266c8c778199e1138cd5b21
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307480"
 ---
-# <a name="recordset2batchcollisioncount-property-dao"></a>Propriedade Recordset2.BatchCollisionCount (DAO)
+# <a name="recordset2batchcollisioncount-property-dao"></a>Propriedade Recordset2. BatchCollisionCount (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -35,7 +35,7 @@ Depois que os registros da colisão forem corrigidos, um método **Update** do m
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo utiliza a propriedade **BatchCollisionCount** e o método **Update** para demonstrar a atualização em lote em que qualquer colisão é resolvida forçando a atualização em lote.
+Este exemplo usa a propriedade **BatchCollisionCount** e o método **Update** para demonstrar as atualizações em lotes nas quais as colisões foram solucionadas pela imposição da atualização em lotes.
 
 ```vb 
 Sub BatchX() 

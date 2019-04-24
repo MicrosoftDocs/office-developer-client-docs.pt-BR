@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae8341151c7bf7d90585794061647ba33a5c4ea7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305898"
 ---
 # <a name="using-ado-for-internet-publishing"></a>Uso do ADO para Publicação de Internet
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 
-[O OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) mostra um exemplo específico de acesso a dados heterogêneos com o ADO. Embora os exemplos desta seção será específicos usando o Internet Publishing Provider, os princípios demonstrados devem ser semelhantes ao usar o ADO com outros provedores de dados heterogêneos, como um provedor de um armazenamento de email.
+[O OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) mostra um exemplo específico de acesso a dados heterogêneos com o ADO. Enquanto os exemplos nesta seção serão específicos para usar o provedor de publicação na Internet, os princípios demonstrados devem ser semelhantes ao usar o ADO com outros provedores para dados heterogêneos, como um provedor para um repositório de email.
 
 ## <a name="urls"></a>URLs
 
@@ -45,4 +45,4 @@ Vários objetos ADO foram aprimorados para funcionar junto com objetos **Record*
 
 ## <a name="see-also"></a>Confira também
 
-- [Tópicos de cenário de publicação na Internet](internet-publishing-scenario.md)
+- [Tópicos do cenário de publicação na Internet](internet-publishing-scenario.md)

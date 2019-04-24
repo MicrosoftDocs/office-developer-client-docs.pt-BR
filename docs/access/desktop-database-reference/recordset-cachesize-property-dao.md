@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset.CacheSize (DAO)
+title: Propriedade Recordset. caChesize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: 8632f5fb-6e5d-5a3e-1bd7-81e1270e9531
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196807(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 369ff9192bb592c96e17920c9771c10b70dc233b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300592"
 ---
-# <a name="recordsetcachesize-property-dao"></a>Propriedade Recordset.CacheSize (DAO)
+# <a name="recordsetcachesize-property-dao"></a>Propriedade Recordset. caChesize (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna o número de registros recuperados de uma fonte de dados ODBC que serão armazenados em cache localmente. **Long** de leitura/gravação.
+Define ou retorna vários registros recuperados de uma fonte de dados ODBC que serão armazenados em cache localmente. **Long** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CacheSize
+*expressão* . Ches
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
@@ -45,7 +45,7 @@ Para forçar uma atualização em todos os dados armazenados, defina a proprieda
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros em uma tabela vinculada duas vezes. Em seguida, enumeram-se os registros duas vezes com um cache de 50 registros. O exemplo exibe então as estatísticas de desempenho das execuções sem cache e com cache por meio da tabela vinculada.
+Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros vinculados à tabela duas vezes. Em seguida, enumera os registros duas vezes com um cache de 50 registros. Depois, exemplo exibe as estatísticas de desempenho das execuções com cache e sem cache por meio da tabela vinculada.
 
 ```vb
     Sub ClientServerX3() 

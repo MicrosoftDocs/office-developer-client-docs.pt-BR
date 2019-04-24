@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum (referência de banco de dados da área de trabalho do Access)
+title: RecordStatusEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a83de7730224c5ecd5080c795d38cf2e9a3305a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309377"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o status de um registro com relação a atualizações de batch e outras operações em massa.
 
@@ -30,7 +30,7 @@ Especifica o status de um registro com relação a atualizações de batch e out
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -98,7 +98,7 @@ Especifica o status de um registro com relação a atualizações de batch e out
 </tr>
 <tr class="odd">
 <td><p><strong>adRecOK</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Indica que o registro foi atualizado com êxito.</p></td>
 </tr>
 <tr class="even">
@@ -130,9 +130,9 @@ Especifica o status de um registro com relação a atualizações de batch e out
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
-AdoEnums.RecordStatus.
+AdoEnums. RecordStatus.
 
 Pacote: **com.ms.wfc.data**
 
@@ -142,63 +142,63 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CANCELED</p></td>
+<td><p>AdoEnums. RecordStatus. canCELAdo</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.CANTRELEASE</p></td>
+<td><p>AdoEnums. RecordStatus. CANTRELEASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CONCURRENCYVIOLATION</p></td>
+<td><p>AdoEnums. RecordStatus. CONCURRENCYVIOLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.DBDELETED</p></td>
+<td><p>AdoEnums. RecordStatus. DBDELETED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.DELETED</p></td>
+<td><p>AdoEnums. RecordStatus. DELETED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.INTEGRITYVIOLATION</p></td>
+<td><p>AdoEnums. RecordStatus. INTEGRITYVIOLATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.INVALID</p></td>
+<td><p>AdoEnums. RecordStatus. INVALID</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</p></td>
+<td><p>AdoEnums. RecordStatus. MAXCHANGESEXCEEDED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.MODIFIED</p></td>
+<td><p>AdoEnums. RecordStatus. MODIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MULTIPLECHANGES</p></td>
+<td><p>AdoEnums. RecordStatus. MULTIPLECHANGES</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.NEW</p></td>
+<td><p>AdoEnums. RecordStatus. NEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OBJECTOPEN</p></td>
+<td><p>AdoEnums. RecordStatus. objectOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.OK</p></td>
+<td><p>AdoEnums. RecordStatus. OK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OUTOFMEMORY</p></td>
+<td><p>AdoEnums. RecordStatus. OUTOFMEMORY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.PENDINGCHANGES</p></td>
+<td><p>AdoEnums. RecordStatus. PENDINGCHANGES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.PERMISSIONDENIED</p></td>
+<td><p>AdoEnums. RecordStatus. PERMISSIONDENIED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.SCHEMAVIOLATION</p></td>
+<td><p>AdoEnums. RecordStatus. SCHEMAVIOLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.UNMODIFIED</p></td>
+<td><p>AdoEnums. RecordStatus. unMODIFIED</p></td>
 </tr>
 </tbody>
 </table>

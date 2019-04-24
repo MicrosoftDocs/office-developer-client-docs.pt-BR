@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fe61a3368813ba3420920909f818beee2029d993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308677"
 ---
 # <a name="setmenuitem-macro-action"></a>Ação da macro DefinirItemDoMenu
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use a ação **DefinirItemDoMenu** para definir o estado de itens de menu (habilitado ou desabilitado, selecionado ou não selecionado) em menus personalizados ou globais, na guia **Suplementos**.
 
@@ -45,7 +45,7 @@ A ação **DefinirItemDoMenu** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Índice de menu</strong></p></td>
-<td><p>O índice do menu que contém o comando para o qual você deseja definir o estado. Insira um valor inteiro, começando com 0, para o índice do menu desejado no menu personalizado ou global. Insira o valor de índice na caixa de <strong>Índice de Menu</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. O índice está em relação à posição do menu da macro do menu para o menu personalizado ou global (a posição desta ação <strong>AdicionarMenu</strong> da macro do menu, contado a partir de 0). A exibição do menu pode ser um pouco diferente, porque você pode usar expressões condicionais da macro do menu para ocultar ou exibir itens de menu personalizado. Este é um argumento obrigatório. Se você seleciona um menu com este argumento e deixar os argumentos <strong>Índice de comando</strong> e <strong>Índice de subcomando</strong> em branco, é possível habilitar ou desabilitar o nome do menu propriamente dito. No entanto, você não pode selecionar ou desmarcar um nome de menu (o Access ignora as configurações da <strong>seleção</strong> e <strong>desmarque o</strong> do argumento <strong>sinalizador</strong> para nomes de menu).</p></td>
+<td><p>O índice do menu que contém o comando para o qual você deseja definir o estado. Insira um valor inteiro, começando em 0, para o índice do menu desejado no menu personalizado ou global. Insira o valor de índice na caixa <strong>Índice de Menu</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O índice é relativo à posição do menu na macro de menu do menu personalizado ou global (a posição da ação <strong>AdicionarMenu</strong> desse menu na macro de menu, contando de 0). A exibição do menu pode ser ligeiramente diferente, porque você pode usar expressões condicionais na macro de menu para ocultar ou exibir itens de menu personalizado. Este é um argumento obrigatório. Se você selecionar um menu com este argumento e deixar em branco os argumentos <strong>Índice de comando</strong> e <strong>Índice de subcomando</strong>, o próprio nome do menu poderá ser habilitado ou desabilitado. Não é possível, entretanto, selecionar ou desmarcar um nome de menu (o Access ignora as configurações <strong>Marcar</strong> e <strong>Desmarcar</strong> do argumento <strong>Sinalizador</strong> para nomes de menu).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Índice de comando</strong></p></td>

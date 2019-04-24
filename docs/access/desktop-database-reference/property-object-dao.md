@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e26bc59221b4ff55c943b6a9a0c87ac5c0dd936b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301187"
 ---
 # <a name="property-object-dao"></a>Objeto Property (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto **Property** representa uma característica interna ou definida pelo usuário de um objeto DAO.
 
@@ -53,16 +53,16 @@ Para referir-se a um objeto **Property** incorporado em uma coleção pelo núme
 
 - * objeto ***. Propriedades**(0)
 
-- *objeto ***. Propriedades**("* nome *")
+- *objeto ***. Propriedades**("* Name *")
 
-- *objeto ***. Propriedades**\!* nome *\]
+- *objeto ***. Nome das propriedades**\!**\]
 
 Para uma propriedade incorporada, você também pode usar esta sintaxe:
 
 - *objeto*. *nome*
 
 > [!NOTE]
-> Para uma propriedade definida pelo usuário, você deve usar o objeto *completo ***. Propriedades**("* nome *") sintaxe.
+> Para uma propriedade definida pelo usuário, você deve usar o *objeto completo ***. Propriedades**("* Name *") sintaxe.
 
 Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.
 

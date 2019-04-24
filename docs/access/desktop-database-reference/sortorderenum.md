@@ -1,5 +1,5 @@
 ---
-title: SortOrderEnum (referência de banco de dados da área de trabalho do Access)
+title: SortOrderEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c953e1f6cd6f0a508260e838295f25aa1996844
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306458"
 ---
 # <a name="sortorderenum"></a>SortOrderEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a sequência de classificação de uma coluna indexada.
 
@@ -30,7 +30,7 @@ Especifica a sequência de classificação de uma coluna indexada.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -43,7 +43,7 @@ Especifica a sequência de classificação de uma coluna indexada.
 </tr>
 <tr class="even">
 <td><p><strong>adSortDescending</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>A sequência de classificação da coluna é decrescente.</p></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5051cfd74f2a745ee430f2ed8a20445d2f9965f3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306752"
 ---
 # <a name="removetempvar-macro-action"></a>Ação da macro RemoverVariávelTemporária
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 
@@ -44,7 +44,7 @@ A ação **RemoverVariávelTemporária** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
+<td><p><strong>Nome</strong></p></td>
 <td><p>Insira o nome da variável temporária que deseja remover.</p></td>
 </tr>
 </tbody>
@@ -83,17 +83,17 @@ A macro a seguir demonstra como criar uma variável temporária, usá-la em uma 
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Definirvariáveltemporária</strong></p></td>
-<td><p><strong>Nome</strong>: MINHAVARIÁVEL<strong>expressão</strong>: CaixaDeEntrada (&quot;Insira um número diferente de zero.&quot;)</p></td>
+<td><p><strong>DefinirVariávelTemporária</strong></p></td>
+<td><p><strong>Name</strong>: minhavar<strong>expressão</strong>: InputBox (&quot;Insira um número diferente de zero)&quot;.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Varstemp]! [MINHAVARIÁVEL] &lt; &gt;0</p></td>
+<td><p>[TempVars]! Minhavar &lt; &gt;0</p></td>
 <td><p><strong>CaixaDeMensagem</strong></p></td>
-<td><p><strong>Mensagem</strong>: =&quot;você digitou &quot; &amp; [Varstemp]! [MINHAVARIÁVEL] &amp; &quot;. &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
+<td><p><strong>Mensagem</strong>: =&quot;você inseriu &quot; &amp; [TempVars]! Minhavar &amp; &quot;. &quot; <strong>Aviso sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Removervariáveltemporária</strong></p></td>
+<td><p><strong>RemoverVariávelTemporária</strong></p></td>
 <td><p><strong>Nome</strong>: MinhaVar</p></td>
 </tr>
 </tbody>

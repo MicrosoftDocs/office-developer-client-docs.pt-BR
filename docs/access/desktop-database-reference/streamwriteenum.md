@@ -1,5 +1,5 @@
 ---
-title: StreamWriteEnum (referência de banco de dados da área de trabalho do Access)
+title: StreamWriteEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: StreamWriteEnum
 ms:assetid: b4356999-d7a8-abfa-f6a8-6c2dd04b9257
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 87144e5409fb54cf0cb8f59ad4d593ab05d694a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308474"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se um separador de linha está anexado à string gravada em um objeto [Stream](stream-object-ado.md).
 
@@ -38,7 +38,7 @@ Especifica se um separador de linha está anexado à string gravada em um objeto
 <tbody>
 <tr class="odd">
 <td><p><strong>adWriteChar</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Padrão. Grava a sequência de texto especificada (especificada por parâmetro <em>Data</em>) no objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -50,7 +50,7 @@ Especifica se um separador de linha está anexado à string gravada em um objeto
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

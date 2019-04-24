@@ -1,5 +1,5 @@
 ---
-title: Enumeração QueryDefTypeEnum (DAO)
+title: Enumeração de QueryDefTypeEnum (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ef030ff22bd323fbbb9b080c84878f98c587fcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300914"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>Enumeração QueryDefTypeEnum (DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>Enumeração de QueryDefTypeEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Usada com a propriedade **Type** para especificar o tipo do objeto **QueryDef**.
 
@@ -52,7 +52,7 @@ Usada com a propriedade **Type** para especificar o tipo do objeto **QueryDef**.
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
-<td><p>16</p></td>
+<td><p>dezesseis</p></td>
 <td><p>Consulta de tabela de referência cruzada</p></td>
 </tr>
 <tr class="odd">
@@ -77,7 +77,7 @@ Usada com a propriedade **Type** para especificar o tipo do objeto **QueryDef**.
 </tr>
 <tr class="odd">
 <td><p>dbQSelect</p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Consulta seleção</p></td>
 </tr>
 <tr class="even">

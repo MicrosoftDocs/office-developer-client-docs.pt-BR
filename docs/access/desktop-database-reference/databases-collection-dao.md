@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294642"
 ---
 # <a name="databases-collection-dao"></a>Coleção Databases (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Uma coleção **Databases** contém todos os objetos **Database** abertos que foram abertos ou criados em um objeto **Workspace**.
+Uma coleção **Databases** contém todos os objetos **Database** abertos ou criados em um objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -28,14 +28,14 @@ Em um espaço de trabalho do Microsoft Access, a configuração da propriedade *
 
 Para fazer referência a um objeto **Database** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-- **Databases**(0)
+- **Bancos de dados** ,0
 
-- **Bancos de dados** ("*nome*")
+- **Bancos de dados** ("*Name*")
 
-- **Bancos de dados**\!\[*nome*\]
+- ****\!\[*Nome* do banco de dados\]
 
 > [!NOTE]
-> [!OBSERVAçãO] Você pode abrir a mesma fonte de dados ou banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e referir-se a eles pelo nome da variável.
+> [!OBSERVAçãO] Você pode abrir a mesma fonte de dados ou o mesmo banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e fazer referência a eles por nome de variável.
 
 ## <a name="example"></a>Exemplo
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a5fc1c284ee7aae77c4fb067ad57d50200119594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294497"
 ---
 # <a name="datafactory-customization"></a>Personalização de DataFactory
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O RDS (Remote Data Service) oferece uma forma de acesso fácil aos dados em um sistema cliente/servidor de três camadas. Um controle de dados de cliente especifica os parâmetros da sequência de conexão e da sequência de comando para executar uma consulta em uma fonte de dados remota, ou parâmetros da sequência de conexão e do objeto [Recordset](recordset-object-ado.md) para executar uma atualização.
 
@@ -37,4 +37,4 @@ Consulte os tópicos a seguir para obter mais informações sobre como personali
 - [Seção UserList do arquivo de personalização](customization-file-userlist-section.md)
 - [Seção Logs do arquivo de personalização](customization-file-logs-section.md)
 - [Configurações necessárias do cliente](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [Como escrever o seu próprio manipulador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Escrevendo seu próprio manipulador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

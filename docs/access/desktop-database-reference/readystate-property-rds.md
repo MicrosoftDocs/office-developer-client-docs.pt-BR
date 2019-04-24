@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 71dd674e90e2438c616f0973c4f9948f1b20b1f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300816"
 ---
 # <a name="readystate-property-rds"></a>Propriedade ReadyState (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o progresso de um objeto [DataControl](datacontrol-object-rds.md) à medida que ele recupera dados em seu objeto [Recordset](recordset-object-ado.md).
 
@@ -46,8 +46,7 @@ Define ou retorna um dos seguintes valores.
 </tr>
 <tr class="odd">
 <td><p><strong>adcReadyStateComplete</strong></p></td>
-<td><p>Todas as linhas recuperadas pela consulta atual foram armazenadas no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e estão disponíveis para uso.
- Este estado também é possível se uma operação for anulada devido a um erro ou se o objeto <strong>Recordset</strong> não for inicializado.</p></td>
+<td><p>Todas as linhas recuperadas pela consulta atual foram armazenadas no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e estão disponíveis para uso. Este estado também é possível se uma operação for anulada devido a um erro ou se o objeto <strong>Recordset</strong> não for inicializado.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,5 +58,5 @@ Define ou retorna um dos seguintes valores.
 
 Utilize o evento [onReadyStateChange](onreadystatechange-event-rds.md) para monitorar as alterações da propriedade **ReadyState** durante uma operação de consulta assíncrona. Esse procedimento é mais eficiente do que verificar periodicamente o valor da propriedade.
 
-Se ocorrer um erro durante uma operação assíncrona, a propriedade **ReadyState** será alterada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) será alterada de **adStateExecuting** para **adStateClosed**e o **conjunto de registros** propriedade [Value](value-property-ado.md) do objeto permanecerá como *Nothing*.
+Se ocorrer um erro durante uma operação assíncrona, **** a propriedade ReadyState será alterada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) será alterada de **adStateExecuting** para **adStateClosed**e o **Recordset** Propriedade [valor](value-property-ado.md) do objeto permanece *Nothing*.
 

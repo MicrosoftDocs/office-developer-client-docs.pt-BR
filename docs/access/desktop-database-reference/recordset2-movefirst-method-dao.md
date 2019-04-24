@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.MoveFirst (DAO)
+title: Método Recordset2. MoveFirst (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a54658e1259a49a1c92facf988076e6b6e1dd961
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309657"
 ---
-# <a name="recordset2movefirst-method-dao"></a>Método Recordset2.MoveFirst (DAO)
+# <a name="recordset2movefirst-method-dao"></a>Método Recordset2. MoveFirst (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Move para o primeiro registro em um objeto **Recordset** especificado e torna esse registro o atual.
+Move o primeiro registro em um objeto **Recordset** especificado e torna esse registro o atual.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Métodos MoveFirst
+*expressão* . MoveFirst
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
@@ -37,9 +37,9 @@ Quando você abre um **Recordset**, o primeiro registro é o atual, e a propried
 
 Se o primeiro ou o último registro já for o atual quando você usar **MoveFirst** ou **MoveLast**, o registro atual não será alterado.
 
-Se o recordset se refere a um tipo tabela **Recordset** (somente espaços de trabalho do Microsoft Access), o movimento segue o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
+Se Recordset se refere a um **Recordset** do tipo tabela (somente espaços de trabalho do Microsoft Access), o movimento segue o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
 
-Você não pode usar os métodos **MoveFirst**, **MoveLast**e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento.
+Você não pode usar os métodos **MoveFirst**, MoveLast e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento. ****
 
 Para mover a posição do registro atual em um número específico de registros do objeto **Recordset** para frente ou para trás, use o método **Move**.
 

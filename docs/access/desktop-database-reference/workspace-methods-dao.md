@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 719109081cf92c267625dceb241b12173c15d3c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305877"
 ---
 # <a name="workspace-methods-dao"></a>Métodos de espaço de trabalho (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Workspace.BeginTrans (DAO)](workspace-begintrans-method-dao.md)
-- [Método Workspace.Close (DAO)](workspace-close-method-dao.md)
-- [Método Workspace.CommitTrans (DAO)](workspace-committrans-method-dao.md)
-- [Método Workspace.CreateDatabase (DAO)](workspace-createdatabase-method-dao.md)
-- [Método Workspace.OpenConnection (DAO)](workspace-openconnection-method-dao.md)
-- [Método Workspace.OpenDatabase (DAO)](workspace-opendatabase-method-dao.md)
-- [Método Workspace.Rollback (DAO)](workspace-rollback-method-dao.md)
+- [Método Workspace. BeginTrans (DAO)](workspace-begintrans-method-dao.md)
+- [Método Workspace. Close (DAO)](workspace-close-method-dao.md)
+- [Método Workspace. CommitTrans (DAO)](workspace-committrans-method-dao.md)
+- [Método Workspace. createDatabase (DAO)](workspace-createdatabase-method-dao.md)
+- [Método Workspace. OpenConnection (DAO)](workspace-openconnection-method-dao.md)
+- [Método Workspace. OpenDatabase (DAO)](workspace-opendatabase-method-dao.md)
+- [Método Workspace. Rollback (DAO)](workspace-rollback-method-dao.md)
 

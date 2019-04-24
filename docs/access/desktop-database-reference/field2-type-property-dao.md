@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field2.Type (DAO)
+title: Propriedade Campo2. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 057d6ec9-b72c-cee6-005a-6d916e3dda29
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292661"
 ---
-# <a name="field2type-property-dao"></a>Propriedade Field2.Type (DAO)
+# <a name="field2type-property-dao"></a>Propriedade Campo2. Type (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tipo
+*expressão* . Escreva
 
-*expressão* Uma variável que representa um objeto **Field2** .
+*expressão* Uma variável que representa um objeto **campo2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -40,7 +40,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -51,7 +51,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binária</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -63,7 +63,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="odd">
 <td><p><strong>dbChar</strong></p></td>
-<td><p>Caractere</p></td>
+<td><p>Char</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -83,7 +83,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Flutuante</p></td>
+<td><p>Ponto</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -111,7 +111,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>Único</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
@@ -119,7 +119,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Time</p></td>
+<td><p>Hora</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset.LastModified (DAO)
+title: Propriedade Recordset. LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 232a87b1d34cacccaeb7c380ec522f5ba1def028
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300494"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Propriedade Recordset.LastModified (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Propriedade Recordset. LastModified (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
-Retorna um indicador mostrando o mais recentemente adicionado ou alterado o registro.
+Retorna um indicador que indica o registro adicionado ou alterado mais recentemente.
 
 ## <a name="syntax"></a>Sintaxe
 

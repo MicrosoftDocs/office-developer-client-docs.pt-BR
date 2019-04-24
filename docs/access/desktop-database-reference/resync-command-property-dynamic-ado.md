@@ -1,5 +1,5 @@
 ---
-title: Propriedade Resync Command dinâmica (ADO)
+title: Propriedade dinâmica de comando Resync (ADO)
 TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa1fe05e6aa7edf04ad74864eb30a03403323c8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306577"
 ---
-# <a name="resync-command-dynamic-property-ado"></a>Propriedade Resync Command dinâmica (ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Propriedade dinâmica de comando Resync (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica uma cadeia de caracteres de comando, fornecida pelo usuário, que o método [Resync](resync-method-ado.md) emite para atualizar os dados na tabela chamada na propriedade dinâmica [Tabela exclusiva](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md).
 
@@ -26,7 +26,7 @@ Define ou retorna um valor **String** que é uma sequência de comandos.
 
 ## <a name="remarks"></a>Comentários
 
-O objeto [Recordset](recordset-object-ado.md) é o resultado de um operação JOIN executada em diversas tabelas base. As linhas afetadas dependem do parâmetro *AffectRecords* do método [Resync](resync-method-ado.md) . O método **Resync** padrão é executado se as propriedades [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) e **Resync Command** não estiverem definidas.
+O objeto [Recordset](recordset-object-ado.md) é o resultado de um operação JOIN executada em diversas tabelas base. As linhas afetadas dependem do parâmetro *AffectRecords* do método [Resync](resync-method-ado.md). O método **Resync** padrão é executado se as propriedades [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) e **Resync Command** não estiverem definidas.
 
 A sequência de comandos da propriedade **Resync Command** é um comando com parâmetros ou um procedimento armazenado que identifica com exclusividade a linha que está sendo atualizada e retorna uma única linha contendo o mesmo número e ordem de colunas da linha a ser atualizada. A sequência de comandos contém um parâmetro para cada coluna de chave primária na **Unique Table**; caso contrário, um erro em tempo de execução será retornado. Os parâmetros são preenchidos automaticamente com os valores da chave primária da linha a ser atualizada.
 
@@ -77,5 +77,5 @@ Aqui estão dois exemplos baseados no SQL:
 
 Mais uma vez, a **Unique Table** é *Orders* e sua chave-primária, *OrderID*, está parametrizada.
 
-**Resync Command** é uma propriedade dinâmica acrescentada à coleção **Properties** do objeto [Recordset](properties-collection-ado.md) quando a propriedade [CursorLocation](cursorlocation-property-ado.md) estiver configurada como **adUseClient**.
+**Resync Command** é uma propriedade dinâmica acrescentada à coleção [Properties](properties-collection-ado.md) do objeto **Recordset** quando a propriedade [CursorLocation](cursorlocation-property-ado.md) estiver configurada como **adUseClient**.
 

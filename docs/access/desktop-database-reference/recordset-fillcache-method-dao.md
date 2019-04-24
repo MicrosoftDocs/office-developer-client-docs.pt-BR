@@ -1,5 +1,5 @@
 ---
-title: Método Recordset.FillCache (DAO)
+title: Método Recordset. FillCache (DAO)
 TOCTitle: FillCache Method
 ms:assetid: d171b939-b904-c6bd-6217-68bc2814e282
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4ef268a821d65732e0a54776872387f62c67e999
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706587"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300515"
 ---
-# <a name="recordsetfillcache-method-dao"></a>Método Recordset.FillCache (DAO)
+# <a name="recordsetfillcache-method-dao"></a>Método Recordset. FillCache (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Preenche parcial ou totalmente um cache local de um objeto **Recordset** que contém dados de uma fonte de dados ODBC conectada ao mecanismo de banco de dados do Microsoft Access (somente bancos de dados ODBC conectados ao mecanismo de banco de dados do Microsoft Access).
+Preenche todo ou uma parte do cache local para um objeto **Recordset** que contém dados de uma fonte de dados ODBC conectada ao mecanismo de banco de dados do Microsoft Access (apenas bancos de dados ODBC conectados ao mecanismo de banco de dados do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . FillCache (***linhas***, ***StartBookmark***)
+*expressão* . FillCache (***linhas***, ***startbookmark criarem***)
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
@@ -48,13 +48,13 @@ Preenche parcial ou totalmente um cache local de um objeto **Recordset** que con
 <td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica o número de linhas a ser armazenado no cache. Se você omitir esse argumento, o valor será determinado pela configuração da propriedade <strong><a href="recordset-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica o número de linhas a ser armazenado no cache. Se você omitir esse argumento, o valor será determinado pela <strong><a href="recordset-cachesize-property-dao.md"></a></strong> configuração da propriedade CacheSize.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>StartBookmark</em></p></td>
+<td><p><em>Startbookmark criarem</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que especifica um indicador. O cache é preenchido começando pelo registro indicado por esse indicador. Se você omitir esse argumento, o cache será preenchido começando do registro indicado pela propriedade <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que especifica um indicador. O cache é preenchido começando pelo registro indicado por esse indicador. Se você omitir esse argumento, o cache será preenchido a partir do registro indicado pela propriedade <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,23 +62,23 @@ Preenche parcial ou totalmente um cache local de um objeto **Recordset** que con
 
 ## <a name="remarks"></a>Comentários
 
-Fazer cache melhora o desempenho de um aplicativo que recupera dados de um servidor remoto. Cache é um espaço na memória local que conserva os dados recuperados mais recentemente do servidor; isso pressupõe que os dados provavelmente serão solicitados de novo enquanto o aplicativo estiver sendo executado. Quando um usuário solicita dados, o mecanismo do banco de dados do Microsoft Access verifica os dados primeiramente no cache em vez de recuperá-los do servidor, o que leva mais tempo. O cache não salva dados que não sejam provenientes de uma fonte de dados ODBC.
+O armazenamento em cache aumenta o desempenho de um aplicativo que recupera dados de um servidor remoto. Um cache é o espaço na memória local que mantém os dados recuperados mais recentemente do servidor; isso indica que provavelmente os dados serão solicitados novamente durante a execução do aplicativo. Quando um usuário solicita dados, o mecanismo de banco de dados do Microsoft Access verifica esses dados no cache primeiro em vez de recuperá-los do servidor, o que leva mais tempo. O cache não salva dados que não são provenientes de uma fonte de dados ODBC.
 
-Em vez de esperar que o cache seja preenchido com registros enquanto eles são recuperados, você pode usar o método **FillCache** para preencher explicitamente o cache a qualquer momento. Essa é uma maneira mais rápida de preencher o cache porque **FillCache** recupera vários registros de uma vez, e não um de cada vez. Por exemplo, enquanto você exibe cada tela de registros, seu aplicativo usa **FillCache** para recuperar a próxima tela de registros para exibição.
+Em vez de aguardar que o cache seja preenchido com registros à medida que eles são recuperados, você pode usar o método **FillCache** para preencher explicitamente o cache a qualquer momento. Esse é um modo mais rápido de preencher o cache porque **FillCache** recupera vários registros de uma vez, e não um por vez. Por exemplo, enquanto você exibe cada tecla cheia de registros, seu aplicativo usa **FillCache** para recuperar a próxima tela cheia de registros para exibição.
 
-Qualquer fonte de dados ODBC conectada ao mecanismo de banco de dados do Microsoft Access que você acessa com objetos **Recordset** pode ter um cache local. Para criar o cache, abra um objeto **Recordset** a partir da fonte de dados remota e, em seguida, defina as propriedades **CacheSize** e **CacheStart** do **Recordset**.
+Qualquer fonte de dados ODBC conectada ao mecanismo de banco de dados do Microsoft Access que você acessa com os objetos **Recordset** pode ter um cache local. Para criar o cache, abra um objeto **Recordset** na fonte de dados remota e, em seguida, defina as propriedades **CacheSize** e **CacheStart** do **Recordset**.
 
-Se linhas e startbookmark criam um intervalo de registros que é parcialmente ou totalmente fora do intervalo dos registros especificados pelas propriedades **CacheSize** e **CacheStart** , a parte do recordset fora deste intervalo será ignorada e não será carregada para o cache.
+Se Rows e startbookmark criarem criar um intervalo de registros que está parcialmente ou totalmente fora do intervalo de registros especificado pelas propriedades **** CacheSize e **CacheStart** , a parte do Recordset fora desse intervalo será ignorada e não será carregada no cache.
 
-Se **FillCache** solicitar mais registros do que o número restante na fonte de dados remota, o mecanismo de banco de dados do Microsoft Access recuperará apenas os registros restantes e não ocorrerá um erro.
+Se **FillCache** solicitar mais registros do que o número restante na fonte de dados remota, o mecanismo do banco de dados do Microsoft Access irá recuperar somente os registros restantes, e não ocorrerá nenhum erro.
 
 > [!NOTE]
-> - Registros recuperados do cache não refletem alterações concorrentes que outros usuários fazem nos dados de origem.
-> - **FillCache** recupera apenas registros para os quais não foi feito cache. Para forçar uma atualização de todos os dados com cache, defina a propriedade **CacheSize** do **Recordset** para 0, redefina-a de acordo com o tamanho do cache que você originalmente solicitou e, em seguida, use **FillCache**.
+> - Os registros recuperados do cache não refletem as alterações simultâneas que outros usuários fizeram na fonte de dados.
+> - O **FillCache** recupera apenas os registros não armazenados em cache. Para forçar uma atualização de todos os dados em cache, defina a propriedade **CacheSize** do **Recordset** como 0, redefina-a para o tamanho do cache solicitado originalmente e use **FillCache**.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros em uma tabela vinculada duas vezes. Em seguida, enumeram-se os registros duas vezes com um cache de 50 registros. O exemplo exibe então as estatísticas de desempenho das execuções sem cache e com cache por meio da tabela vinculada.
+Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros vinculados à tabela duas vezes. Em seguida, enumera os registros duas vezes com um cache de 50 registros. Depois, exemplo exibe as estatísticas de desempenho das execuções com cache e sem cache por meio da tabela vinculada.
 
 ```vb
     Sub ClientServerX3() 

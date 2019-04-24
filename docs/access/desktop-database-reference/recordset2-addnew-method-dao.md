@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.AddNew (DAO)
+title: Método Recordset2. AddNew (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 49a69b5e8603e72faaba480ea9069d3668bd6de1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307494"
 ---
-# <a name="recordset2addnew-method-dao"></a>Método Recordset2.AddNew (DAO)
+# <a name="recordset2addnew-method-dao"></a>Método Recordset2. AddNew (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
  
 Cria um novo registro para um objeto **Recordset2** atualizável.
 
@@ -49,11 +49,11 @@ A posição do novo registro depende do tipo do **Recordset2**:
 O registro que era o atual antes de você usar o **AddNew** continuará sendo o atual. Se desejar tornar o novo registro atual, você poderá definir a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)** para o indicador identificado pela configuração da propriedade **[LastModified](recordset2-lastmodified-property-dao.md)**.
 
 > [!NOTE]
-> [!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro na fonte de dados subjacente. Caso contrário, ocorrerá um erro "Permissão negada" na chamada ao método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access.
+> [!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deverá haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para executar esse procedimento.
+Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para a execução deste procedimento.
 
 ```vb
     Sub AddNewX() 

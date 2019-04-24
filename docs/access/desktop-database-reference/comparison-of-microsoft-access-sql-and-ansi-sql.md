@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296049"
 ---
-# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparação entre Microsoft Access SQL e ANSI SQL
+# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparação entre o Microsoft Access SQL e o ANSI SQL
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No entanto, certos recursos do ANSI SQL não são implementados no Microsoft Access SQL. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
+O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No enTanto, determinados recursos SQL ANSI não são implementados no SQL do Microsoft Access. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
 
 ## <a name="major-differences"></a>Principais diferenças
 
@@ -26,7 +26,7 @@ O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível co
 
 - **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-  *expr1* \[Não\] **entre** *valor1* **e** *valor2*
+  *expr1* \[Não\] **entre** *value1* **e** *value2*
     
   No Microsoft Access SQL, *value1* pode ser maior que *value2*; no ANSI SQL, *value1* deve ser igual ou menor que *value2.*
 
@@ -74,7 +74,7 @@ O Microsoft Access SQL fornece os seguintes recursos avançados:
 
 - A declaração [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definição de consulta de parâmetro.
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Recursos do ANSI SQL não são suportados no Microsoft Access SQL
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Recursos ANSI SQL não suportados no Microsoft Access SQL
 
 O Microsoft Access SQL não fornece suporte ao seguintes recursos do ANSI SQL:
 

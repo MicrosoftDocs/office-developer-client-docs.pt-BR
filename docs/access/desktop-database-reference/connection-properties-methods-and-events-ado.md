@@ -1,5 +1,5 @@
 ---
-title: Propriedades de Conexão, métodos e eventos (ADO)
+title: Propriedades, métodos e eventos de conexão (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: e78329a4-0b90-9ae5-f3d7-e56815a396fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e1fa956a5045e9678c45c74a160e3bb80e78e627
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295839"
 ---
-# <a name="connection-properties-methods-and-events-ado"></a>Propriedades de Conexão, métodos e eventos (ADO)
+# <a name="connection-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos de conexão (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
@@ -40,14 +40,14 @@ ms.locfileid: "28721525"
 - [Métodos BeginTrans, CommitTrans e RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Método Cancel](cancel-method-ado.md)
 - [Método Close](close-method-ado.md)
-- [Executar o método (Conexão ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Método Execute (conexão ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Método Open (Connection do ADO)](open-method-ado-connection.md)
 - [Método OpenSchema](openschema-method-ado.md)
 
 
 ## <a name="events"></a>Eventos
 
-- [Eventos eventos BeginTransComplete, CommitTransComplete e RollbackTransComplete](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
+- [Eventos BeginTransComplete, CommitTransComplete e RollbackTransComplete](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
 - [Eventos ConnectComplete e Disconnect](connectcomplete-and-disconnect-events-ado.md)
 - [Evento ExecuteComplete](executecomplete-event-ado.md)
 - [Evento InfoMessage](infomessage-event-ado.md)

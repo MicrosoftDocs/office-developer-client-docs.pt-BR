@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb1998d47717c488356b9cd84d2779b540b23956
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297001"
 ---
 # <a name="appendix-d-ado-samples"></a>Apêndice D: Exemplo do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O Windows SDK contém diversos aplicativos de exemplo que demonstram o uso do código ADO e RDS. Esses exemplos destinam-se a ajudá-lo a aprender a usar o ADO e RDS, mas não se destinam a serem implementados nos servidores de produção.
 
 > [!NOTE]
 > [!OBSERVAçãO] Empresas, nomes e dados usados nos exemplos são fictícios, a menos que indicado de outra forma.
 
-Para localizar os exemplos do ADO, navegue para a pasta de raiz do SDK do Windows, como c:\\Program Files\\Microsoft SDKs\\Windows\\v 6.0. Navegue até as amostras de\\dataaccess\\subpasta do ADO. Para começar com os aplicativos de exemplo do ADO e RDS, abra o default.htm a partir das pastas de exemplos do ADO e RDS, respectivamente. Esses arquivos descrevem cada aplicativo de exemplo disponível e explica como configurar e executar os exemplos, como procurar pelo código-fonte de exemplo.
+Para localizar os exemplos do ADO, navegue até a pasta raiz do Windows SDK, como C\\: arquivos\\de programas\\Microsoft\\SDKs Windows v 6.0. Em seguida, navegue até\\a subpasta de exemplos de acesso DataAccess\\do ADO. Para começar com os aplicativos de exemplo do ADO e RDS, abra o default.htm a partir das pastas de exemplos do ADO e RDS, respectivamente. Esses arquivos descrevem cada aplicativo de exemplo disponível e explica como configurar e executar os exemplos, como procurar pelo código-fonte de exemplo.
 
 A documentação ADO contém também exemplos de código em vários idiomas, que são incluídos como tópicos dentro dessa ajuda online. Para obter mais informações sobre esses exemplos, consulte [Exemplos de código ADO](ado-code-examples.md).
 

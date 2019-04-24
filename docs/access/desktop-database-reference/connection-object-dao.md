@@ -1,5 +1,5 @@
 ---
-title: Objeto de Conexão (DAO)
+title: Objeto Connection (DAO)
 TOCTitle: Connection Object
 ms:assetid: f469b04e-2539-6b53-31f2-85fe22fcc2fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 73ede9cae5246db3d802125b0f7c4e6df5347930
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295860"
 ---
-# <a name="connection-object-dao"></a>Objeto de Conexão (DAO)
+# <a name="connection-object-dao"></a>Objeto Connection (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 > [!NOTE]
 > [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.

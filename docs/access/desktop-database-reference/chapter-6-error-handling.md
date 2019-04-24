@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296406"
 ---
 # <a name="chapter-6-error-handling"></a>Capítulo 6: Tratamento de erros
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O ADO usa vários métodos para notificar um aplicativo sobre os erros ocorridos. Este capítulo aborda os tipos de erros que podem ocorrer quando você usa o ADO e como seu aplicativo é notificado. No final, ele apresenta sugestões sobre como tratar esses erros.
 
-## <a name="how-does-ado-report-errors"></a>Como ADO relata os erros?
+## <a name="how-does-ado-report-errors"></a>Como o ADO relata os erros?
 
 O ADO notifica-o sobre erros de diversas maneiras:
 
@@ -44,4 +44,4 @@ As seções a seguir descrevem cada um desses métodos de notificação em mais 
 - [Informações de erro relacionado ao campo](field-related-error-information.md)
 - [Informações de erro relacionado ao conjunto de registros](recordset-related-error-information.md)
 - [Antecipação de erros](anticipating-errors.md)
-- [Tratando erros em outros idiomas (ADO)](handling-errors-in-other-languages.md)
+- [Tratamento de erros em outros idiomas (ADO)](handling-errors-in-other-languages.md)

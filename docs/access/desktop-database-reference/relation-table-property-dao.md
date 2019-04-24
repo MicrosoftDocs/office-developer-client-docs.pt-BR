@@ -1,5 +1,5 @@
 ---
-title: Propriedade Relation.Table (DAO)
+title: Propriedade relation. Table (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 91a3262d92350618c2385013983020669b28ea5c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306990"
 ---
-# <a name="relationtable-property-dao"></a>Propriedade Relation.Table (DAO)
+# <a name="relationtable-property-dao"></a>Propriedade relation. Table (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o nome de uma tabela primária do objeto **[Relation](relation-object-dao.md)**. Isso deve ser igual à definição da propriedade **[Name](connection-name-property-dao.md)** de um objeto **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** (somente em espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tabela
+*expressão* . Configurável
 
-*expressão* Uma variável que representa um objeto **Relation** .
+*expressão* Uma variável que representa um objeto **relation** .
 
 ## <a name="remarks"></a>Comentários
 

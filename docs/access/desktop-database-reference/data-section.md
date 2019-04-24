@@ -1,5 +1,5 @@
 ---
-title: Seção de dados (referência de banco de dados da área de trabalho do Access)
+title: Seção data (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1b8e3baf4d147edcc739e59933da4697c08cdef0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295041"
 ---
 # <a name="data-section"></a>Seção de dados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A seção de dados define os dados do conjunto de linhas, juntamente com quaisquer atualizações, inserções ou exclusões pendentes. A seção de dados pode conter zero ou mais linhas. E pode conter apenas dados de um conjunto de linhas no qual a linha é definida pelo esquema. Além disso, como já foi dito, as colunas sem dados podem ser omitidas. Se um atributo ou subelemento for usado na seção de dados e essa construção não tiver sido definida na seção de esquema, ela será ignorada silenciosamente.
 
-## <a name="string"></a>Sequência de caracteres
+## <a name="string"></a>String
 
 Os caracteres XML reservados em dados de texto devem ser substituídos por entidades de caracteres adequadas. Por exemplo, no nome de empresa "Joe's Garage", o caractere de aspa simples deve ser substituído por uma entidade. A linha real teria esta aparência:
 
@@ -28,17 +28,17 @@ Os caracteres XML reservados em dados de texto devem ser substituídos por entid
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Os seguintes caracteres são reservados em XML e devem ser substituídos por entidades de caracteres: {', ", &,\<,\>}.
+Os seguintes caracteres são reservados em XML e devem ser substituídos por entidades de caracteres: {', ",\<&\>,,}.
 
-## <a name="binary"></a>Binário
+## <a name="binary"></a>Binary
 
 Dados binários são codificados em bin.hex (ou seja, um byte mapeia para dois caracteres, um caractere por nibble).
 
 ## <a name="datetime"></a>DateTime
 
-A variante VT\_formato de data não é suportado diretamente pelos tipos de dados de dados XML. O formato correto datas com uma data e a hora de componente é aaaa-mm-dd**T**hh.
+O formato de\_data de Variant VT não é suportado diretamente pelos tipos de dados de dados XML. O formato correto para datas com um componente de data e hora é aaaa-mm-dd**T**hh:mm:ss.
 
-Para obter mais informações sobre formatos de data especificados por XML, consulte [W3C Xmldatahttp nota](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
+Para obter mais informações sobre formatos de data especificados por XML, consulte [W3C XMLDATA Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 
 Quando a especificação XML-Data define dois tipos de dados equivalentes (por exemplo, i4 == int), o ADO grava o nome amigável, mas lê ambos.
 

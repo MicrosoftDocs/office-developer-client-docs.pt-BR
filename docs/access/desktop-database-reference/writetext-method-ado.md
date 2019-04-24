@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308264"
 ---
 # <a name="writetext-method-ado"></a>Método WriteText (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Grava uma sequência de texto especificada em um objeto [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. WriteText*dados*, *Opções*
+*Stream*. *Dados*WriteText, *Opções*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Dados* |Um valor **String** que contém o texto em caracteres a ser gravado.|
+|*Data* |Um valor **String** que contém o texto em caracteres a ser gravado.|
 |*Options* |Opcional. Um valor [StreamWriteEnum](streamwriteenum.md) que especifica se um caractere separador de linha deve ser gravado no final da sequência especificada.|
 
 ## <a name="remarks"></a>Comentários

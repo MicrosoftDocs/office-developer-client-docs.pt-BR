@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6be2aba5ab072e40193aff11ab6be54ba6c94f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302601"
 ---
 # <a name="workspaces-members-dao"></a>Membros de espaços de trabalho (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção Workspaces contém todos os objetos Workspace ativos e não-ocultos do objeto DBEngine. (Objetos Workspace ocultos não são acrescentados à coleção e referenciados pela variável à qual são atribuídos.)
 
@@ -36,7 +36,7 @@ Uma coleção Workspaces contém todos os objetos Workspace ativos e não-oculto
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Acrescentar</a></strong></p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Acrescido</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong>Workspace</strong> à coleção <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="even">

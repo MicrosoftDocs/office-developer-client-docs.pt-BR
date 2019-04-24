@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: adcc8a2a9462509f4b37d2dbdaf824387ae52a26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309169"
 ---
 # <a name="runsavedimportexport-macro-action"></a>Ação da macro ExecutarImportaçãoOuExportaçãoSalva
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExecutarImportaçãoOuExportaçãoSalva** para executar uma especificação de importação ou exportação salva e criada com o Assistente de Importação ou com o Assistente de Exportação.
 
@@ -65,5 +65,5 @@ A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.
 
 - Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.
 
-- Se o salva de importação ou exportação especificação que você escolher para o argumento **Salvo importar exportar nome** é excluído depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro será executada: does do **a especificação com o índice especificado não existe. Especifica um índice diferente. ' * * * especificação nome * * * '.**
+- Se a especificação de importação ou exportação salva que você escolher para o argumento **Saved Import Export Name** for excluída após a criação da macro, o Access exibirá a seguinte mensagem de erro quando a macro for executada: **a especificação com o índice especificado faz Não existe. Especifique um índice diferente. ' * * * * * nome da especificação [* * * * '.**
 

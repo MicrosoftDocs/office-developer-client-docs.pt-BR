@@ -8,33 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fd952cc09f410752f3eb7b5963059f8d6ee7c2c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302482"
 ---
 # <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>Eventos WillChangeField e FieldChangeComplete (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **WillChangeField** é chamado antes que uma operação pendente altere o valor de um ou mais objetos [Field](field-object-ado.md) em [Recordset](recordset-object-ado.md). O evento **FieldChangeComplete** é chamado depois que o valor de um ou mais objetos **Field** tiver sido alterado.
 
 ## <a name="syntax"></a>Sintaxe
 
-De*cFields*, *campos*, de WillChangeField *adStatus*, *pRecordset*
+WillChangeField*cFields*, *Fields*, *adStatus*, precaboset **
 
-FieldChangeComplete*cFields*, *campos*, *pError*, *adStatus*, *pRecordset*
+FieldChangeComplete*cFields*, *Fields*, *perror*, *adStatus*, precaboset **
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*cFields* |Um **Long** que indica o número de objetos **Field** em *Fields*.|
-|*Fields* |Para **WillChangeField**, o parâmetro *campos* é uma matriz de **variantes** que contém os objetos **Field** com os valores originais. <br/><br/>Para **FieldChangeComplete**, o parâmetro *campos* é uma matriz de **variantes** que contém os objetos **Field** com os valores alterados.|
+|*Fields* |Para **WillChangeField**, o parâmetro *Fields* é uma matriz de **Variants** que contém os objetos **Field** com os valores originais. <br/><br/>
+Para **FieldChangeComplete**, o parâmetro *Fields* é uma matriz de **Variants** que contém os objetos **Field** com os valores alterados.|
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **WillChangeField** for chamado, esse parâmetro será definido como **adStatusOK** se a operação que provocou o evento tiver sido bem-sucedida. Será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente. <br/><br/>Quando **FieldChangeComplete** for cancelado, esse parâmetro será definido como **adStatusOK** se a operação que provocou o evento tiver sido bem-sucedida ou como **adStatusErrorsOccurred** se a operação tiver falhado. <br/><br/>Antes que **WillChangeField** seja retornado, configure esse parâmetro como **adStatusCancel** para solicitar o cancelamento da operação pendente. <br/><br/>Antes que **FieldChangeComplete** seja retornado, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
-|*pRecordset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
+|*precaboset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 

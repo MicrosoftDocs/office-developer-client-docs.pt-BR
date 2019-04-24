@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ac1a2c8a603fb74b56d71f73605455ecdbc87035
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308691"
 ---
 # <a name="setfilter-macro-action"></a>Ação da macro DefinirFiltro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **DefinirFiltro** para aplicar um filtro aos registros na folha de dados, formulário, relatório ou tabela ativa.
 
@@ -42,14 +42,14 @@ A ação **DefinirFiltro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do Filtro</p></td>
-<td><p>Se for fornecido, o nome de uma consulta ou de um filtro salvo como consulta. Este argumento ou o argumento WhereCondition é necessário em um banco de dados do cliente. Um banco de dados da web, esse argumento não está disponível.</p></td>
+<td><p>Se for fornecido, o nome de uma consulta ou de um filtro que foi salvo como uma consulta. Esse argumento ou o argumento CondiçãoWhere são obrigatórios em um banco de dados cliente. Em um banco de dados da Web, esse argumento não está disponível.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
-<td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, formulário, relatório ou tabela. Um banco de dados da web, este argumento será necessário.</p></td>
+<td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, formulário, relatório ou tabela. Em um banco de dados da Web, esse argumento é necessário.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nome do Controle</p></td>
+<td><p>Nome do controle</p></td>
 <td><p>Se for fornecido, o nome do controle que corresponde ao subformulário ou ao subrelatório a ser filtrado. Se estiver em branco, o objeto atual será filtrado.</p></td>
 </tr>
 </tbody>
@@ -70,9 +70,9 @@ Em um banco de dados da Web, para aplicar um filtro automaticamente quando o obj
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação Definirfiltro para filtrar o formulário no qual a macro é definida.
+O exemplo a seguir mostra como usar a ação SetFilter para filtrar o formulário em que a macro está definida.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenForm

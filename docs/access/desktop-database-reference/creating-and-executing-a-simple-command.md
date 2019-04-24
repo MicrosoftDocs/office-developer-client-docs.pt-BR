@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295314"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Criação e execução de um comando simples
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Apesar de não ser uma utilização comum do objeto **Command**, o código a seguir mostra o método básico de utilização do objeto **Command** para executar um comando junto a uma fonte de dados. Nesse caso, trata-se de um comando de retorno de linha, então ele retorna os resultados da execução do comando em um objeto **Recordset**.
 
@@ -83,7 +83,7 @@ O comando a ser executado é especificado com a propriedade **CommandText**.
 
 
 > [!NOTE]
-> Vários exemplos desta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados. Para evitar a redundância, ela é listada somente uma vez:
+> Vários exemplos nesta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados. Para evitar redundância, ela é listada apenas uma vez:
 
 ```vb 
  

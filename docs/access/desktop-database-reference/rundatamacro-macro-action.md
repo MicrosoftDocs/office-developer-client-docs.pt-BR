@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 32945f0822682a9432d75ed1ac59117dde3cc0e9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306808"
 ---
 # <a name="rundatamacro-macro-action"></a>Ação da macro ExecutarMacrodeDados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExecutarMacrodeDados** para executar uma macro.
 
@@ -41,7 +41,7 @@ A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>Nome</p></td>
 <td><p>O nome da macro de dados a ser executada.</p></td>
 </tr>
 </tbody>
@@ -50,19 +50,19 @@ A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a ação **ExecutarMacrodeDados** em macros, denominados macros de dados e os seguintes eventos de macro: **[evento de macro após exclusão](after-delete-macro-event.md)**, **[evento de macro após inserir](after-insert-macro-event.md)** e **[evento de macro após atualizar](after-update-macro-event.md)**.
+Você pode usar a ação **RunDataMacro** em macros, macros de dados nomeadas e nos seguintes eventos de macro: evento de macro após **[exclusão](after-delete-macro-event.md)**, evento de macro após **[Inserir](after-insert-macro-event.md)** e **[evento de macro após atualização](after-update-macro-event.md)**.
 
-O nome da macro de dados deve incluir a tabela à qual ele está conectado (por exemplo, **comentários**, não apenas **AddComment**).
+O nome da macro de dados deve incluir a tabela à qual está anexada (por exemplo, **comentários. AddComment**, não apenas **AddComment**).
 
-Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados requer parâmetros, caixas de texto aparecem onde você pode digitar nos argumentos.
+Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados exigir parâmetros, as caixas de texto aparecerão onde você pode digitar os argumentos.
 
 Quando você executa uma macro que contém a ação **ExecutarMacrodeDados** e ela alcançar a ação **ExecutarMacrodeDados**, o Access executará a macro de dados chamada. Após a conclusão da macro de dados chamada, o Access retornará à macro original e executará a próxima ação.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como passar um parâmetro a uma macro de dados nomeada. A macro de dados da tabela tblServiceRequests dmGetCurrentServiceRequest é chamada usando a ação ExecutarMacrodeDados. Quando o dmGetCurrentServiceRequest for concluído, a variável CurrentServiceRequest retornados a macro de dados está escrita à caixa de texto txtCurrentSR do formulário.
+O exemplo a seguir mostra como passar um parâmetro para uma macro de dados nomeada. A macro de dados dmGetCurrentServiceRequest da tabela tblServiceRequests é chamada usando a ação RunDataMacro. Quando o dmGetCurrentServiceRequest é concluído, a variável CurrentServiceRequest retornada a macro de dados é gravada na caixa de texto txtCurrentSR.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     RunDataMacro
