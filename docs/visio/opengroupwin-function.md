@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251472
 localization_priority: Normal
 ms.assetid: 856ece39-18a4-766a-0dd9-7e888b8b78a5
-description: Abre o grupo na janela de grupo. Se o objeto não for um grupo, essa função não faz nada.
-ms.openlocfilehash: 690c0addeaf4a32735d8526522d2d7500e5fc126
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Abre o grupo na janela de grupo. Se o objeto não for um grupo, essa função não fará nada.
+ms.openlocfilehash: 67d5f055408d5dd887a6bbf052b34726986a1220
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360967"
 ---
-# <a name="opengroupwin-function"></a><span data-ttu-id="20b5c-104">Função OPENGROUPWIN</span><span class="sxs-lookup"><span data-stu-id="20b5c-104">OPENGROUPWIN Function</span></span>
+# <a name="opengroupwin-function"></a><span data-ttu-id="ef59a-104">Função OPENGROUPWIN</span><span class="sxs-lookup"><span data-stu-id="ef59a-104">OPENGROUPWIN Function</span></span>
 
-<span data-ttu-id="20b5c-105">Abre o grupo na janela de grupo.</span><span class="sxs-lookup"><span data-stu-id="20b5c-105">Opens the group in the group window.</span></span> <span data-ttu-id="20b5c-106">Se o objeto não for um grupo, essa função não faz nada.</span><span class="sxs-lookup"><span data-stu-id="20b5c-106">If the object is not a group, this function does nothing.</span></span>
+<span data-ttu-id="ef59a-105">Abre o grupo na janela de grupo.</span><span class="sxs-lookup"><span data-stu-id="ef59a-105">Opens the group in the group window.</span></span> <span data-ttu-id="ef59a-106">Se o objeto não for um grupo, essa função não fará nada.</span><span class="sxs-lookup"><span data-stu-id="ef59a-106">If the object is not a group, this function does nothing.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="20b5c-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="20b5c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ef59a-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ef59a-107">Syntax</span></span>
 
-<span data-ttu-id="20b5c-108">OPENGROUPWIN( )</span><span class="sxs-lookup"><span data-stu-id="20b5c-108">OPENGROUPWIN( )</span></span>
+<span data-ttu-id="ef59a-108">OPENGROUPWIN( )</span><span class="sxs-lookup"><span data-stu-id="ef59a-108">OPENGROUPWIN( )</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="20b5c-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="20b5c-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef59a-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="ef59a-109">Remarks</span></span>
 
-<span data-ttu-id="20b5c-p103">Em versões anteriores do Visio, essa função aparece como _OPENGROUPWIN. As versões 4.0 e posteriores do Visio aceitam os dois estilos.</span><span class="sxs-lookup"><span data-stu-id="20b5c-p103">In earlier versions of Visio, this function appears as _OPENGROUPWIN. Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="ef59a-p103">Em versões anteriores do Visio, essa função aparece como _OPENGROUPWIN. As versões 4.0 e posteriores do Visio aceitam os dois estilos.</span><span class="sxs-lookup"><span data-stu-id="ef59a-p103">In earlier versions of Visio, this function appears as _OPENGROUPWIN. Visio versions 4.0 and later accept either style.</span></span> 
   
 

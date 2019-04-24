@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: cb9a2ba72ee9fd9c45aefe9d0797930a4871404a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22f98e52444b17c383737bffd1685df0fb7ba8bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349018"
 ---
-# <a name="iablogonopenstatusentry"></a><span data-ttu-id="062c1-103">IABLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="062c1-103">IABLogon::OpenStatusEntry</span></span>
+# <a name="iablogonopenstatusentry"></a><span data-ttu-id="c9ffa-103">IABLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="c9ffa-103">IABLogon::OpenStatusEntry</span></span>
 
   
   
-<span data-ttu-id="062c1-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="062c1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c9ffa-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c9ffa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="062c1-105">Abre o objeto de status do provedor.</span><span class="sxs-lookup"><span data-stu-id="062c1-105">Opens the provider's status object.</span></span>
+<span data-ttu-id="c9ffa-105">Abre o objeto status do provedor.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-105">Opens the provider's status object.</span></span>
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,47 +36,47 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="062c1-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="062c1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c9ffa-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c9ffa-106">Parameters</span></span>
 
- <span data-ttu-id="062c1-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="062c1-107">_lpInterface_</span></span>
+ <span data-ttu-id="c9ffa-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="c9ffa-107">_lpInterface_</span></span>
   
-> <span data-ttu-id="062c1-108">[in] Um ponteiro para o identificador de interface (IID) que representa a interface que deve ser usada para acessar o objeto de status.</span><span class="sxs-lookup"><span data-stu-id="062c1-108">[in] A pointer to the interface identifier (IID) that represents the interface that must be used to access the status object.</span></span> <span data-ttu-id="062c1-109">Passar NULL retorna a interface de padrão do objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="062c1-109">Passing NULL returns the object's standard interface, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).</span></span>
+> <span data-ttu-id="c9ffa-108">no Um ponteiro para o identificador de interface (IID) que representa a interface que deve ser usada para acessar o objeto status.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-108">[in] A pointer to the interface identifier (IID) that represents the interface that must be used to access the status object.</span></span> <span data-ttu-id="c9ffa-109">Passar NULL retorna a interface padrão do objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="c9ffa-109">Passing NULL returns the object's standard interface, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).</span></span>
     
- <span data-ttu-id="062c1-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="062c1-110">_ulFlags_</span></span>
+ <span data-ttu-id="c9ffa-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c9ffa-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="062c1-111">[in] Uma bitmask dos sinalizadores que controla como o objeto de status é aberto.</span><span class="sxs-lookup"><span data-stu-id="062c1-111">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="062c1-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="062c1-112">The following flag can be set:</span></span>
+> <span data-ttu-id="c9ffa-111">no Uma bitmask de sinalizadores que controla como o objeto status é aberto.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-111">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="c9ffa-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="c9ffa-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="062c1-113">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="062c1-113">MAPI_MODIFY</span></span> 
+<span data-ttu-id="c9ffa-113">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="c9ffa-113">MAPI_MODIFY</span></span> 
   
-> <span data-ttu-id="062c1-114">Permissão de leitura/gravação solicitações.</span><span class="sxs-lookup"><span data-stu-id="062c1-114">Requests read/write permission.</span></span> <span data-ttu-id="062c1-115">Por padrão, os objetos são abertos com acesso somente leitura e os chamadores não devem presumir que foi concedida permissão de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="062c1-115">By default, objects are opened with read-only access, and callers should not assume that read/write permission has been granted.</span></span>
+> <span data-ttu-id="c9ffa-114">Solicita permissão de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-114">Requests read/write permission.</span></span> <span data-ttu-id="c9ffa-115">Por padrão, os objetos são abertos com acesso somente leitura, e os chamadores não devem supor que a permissão de leitura/gravação tenha sido concedida.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-115">By default, objects are opened with read-only access, and callers should not assume that read/write permission has been granted.</span></span>
     
- <span data-ttu-id="062c1-116">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="062c1-116">_lpulObjType_</span></span>
+ <span data-ttu-id="c9ffa-116">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="c9ffa-116">_lpulObjType_</span></span>
   
-> <span data-ttu-id="062c1-117">[out] Um ponteiro para o tipo de objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="062c1-117">[out] A pointer to the type of the opened object.</span></span>
+> <span data-ttu-id="c9ffa-117">bota Um ponteiro para o tipo do objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-117">[out] A pointer to the type of the opened object.</span></span>
     
- <span data-ttu-id="062c1-118">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="062c1-118">_lppEntry_</span></span>
+ <span data-ttu-id="c9ffa-118">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="c9ffa-118">_lppEntry_</span></span>
   
-> <span data-ttu-id="062c1-119">[out] Um ponteiro para um ponteiro para o objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="062c1-119">[out] A pointer to a pointer to the opened object.</span></span>
+> <span data-ttu-id="c9ffa-119">bota Um ponteiro para um ponteiro para o objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-119">[out] A pointer to a pointer to the opened object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="062c1-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="062c1-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c9ffa-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c9ffa-120">Return value</span></span>
 
-<span data-ttu-id="062c1-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="062c1-121">S_OK</span></span> 
+<span data-ttu-id="c9ffa-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="c9ffa-121">S_OK</span></span> 
   
-> <span data-ttu-id="062c1-122">A chamada foi bem-sucedida e o objeto de status tiver sido aberto.</span><span class="sxs-lookup"><span data-stu-id="062c1-122">The call succeeded and the status object has been opened.</span></span>
+> <span data-ttu-id="c9ffa-122">A chamada foi bem-sucedida e o objeto status foi aberto.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-122">The call succeeded and the status object has been opened.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="062c1-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="062c1-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c9ffa-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="c9ffa-123">Remarks</span></span>
 
-<span data-ttu-id="062c1-124">Provedores de catálogo de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto seus status.</span><span class="sxs-lookup"><span data-stu-id="062c1-124">Address book providers implement the **OpenStatusEntry** method to grant access to their status object.</span></span> <span data-ttu-id="062c1-125">Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporta, no mínimo, o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) .</span><span class="sxs-lookup"><span data-stu-id="062c1-125">All address book providers are required to implement a status object that supports, at a minimum, the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method.</span></span> <span data-ttu-id="062c1-126">Para obter mais informações, consulte [Implementação do objeto de Status](status-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="062c1-126">For more information, see [Status Object Implementation](status-object-implementation.md).</span></span>
+<span data-ttu-id="c9ffa-124">Os provedores de catálogos de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto status.</span><span class="sxs-lookup"><span data-stu-id="c9ffa-124">Address book providers implement the **OpenStatusEntry** method to grant access to their status object.</span></span> <span data-ttu-id="c9ffa-125">Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporte, no mínimo, o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) .</span><span class="sxs-lookup"><span data-stu-id="c9ffa-125">All address book providers are required to implement a status object that supports, at a minimum, the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method.</span></span> <span data-ttu-id="c9ffa-126">Para mais informações, consulte [implementação do objeto de status](status-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="c9ffa-126">For more information, see [Status Object Implementation](status-object-implementation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="062c1-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="062c1-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c9ffa-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="c9ffa-127">See also</span></span>
 
 
 
-[<span data-ttu-id="062c1-128">IMAPIStatus : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="062c1-128">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
+[<span data-ttu-id="c9ffa-128">IMAPIStatus : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="c9ffa-128">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
   
-[<span data-ttu-id="062c1-129">IMAPIStatus::SettingsDialog</span><span class="sxs-lookup"><span data-stu-id="062c1-129">IMAPIStatus::SettingsDialog</span></span>](imapistatus-settingsdialog.md)
+[<span data-ttu-id="c9ffa-129">IMAPIStatus::SettingsDialog</span><span class="sxs-lookup"><span data-stu-id="c9ffa-129">IMAPIStatus::SettingsDialog</span></span>](imapistatus-settingsdialog.md)
   
-[<span data-ttu-id="062c1-130">IMAPIStatus::ValidateState</span><span class="sxs-lookup"><span data-stu-id="062c1-130">IMAPIStatus::ValidateState</span></span>](imapistatus-validatestate.md)
+[<span data-ttu-id="c9ffa-130">IMAPIStatus::ValidateState</span><span class="sxs-lookup"><span data-stu-id="c9ffa-130">IMAPIStatus::ValidateState</span></span>](imapistatus-validatestate.md)
   
-[<span data-ttu-id="062c1-131">IABLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="062c1-131">IABLogon : IUnknown</span></span>](iablogoniunknown.md)
+[<span data-ttu-id="c9ffa-131">IABLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c9ffa-131">IABLogon : IUnknown</span></span>](iablogoniunknown.md)
 

@@ -1,25 +1,25 @@
 ---
-title: Seção Quick Style
+title: Seção Style rápido
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
-description: Mostra o estilo rápido atual formatação aplicados à forma, incluindo a cor da linha e estilo, cor de preenchimento e estilo, cor da sombra, efeitos, fonte e tipo de estilo de valores.
-ms.openlocfilehash: 7ca309a27559e688f3b4a458b69dad04b49f2f79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Mostra os valores de formatação de estilo rápido aplicados à forma, incluindo a cor e o estilo da linha, a cor e o estilo de preenchimento, a cor da sombra, os efeitos, a fonte e o tipo de estilo.
+ms.openlocfilehash: e56d14473077381d331574f0ab098beab0cbe50e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358839"
 ---
-# <a name="quick-style-section"></a><span data-ttu-id="d8f12-103">Seção Quick Style</span><span class="sxs-lookup"><span data-stu-id="d8f12-103">Quick Style Section</span></span>
+# <a name="quick-style-section"></a><span data-ttu-id="847c1-103">Seção Style rápido</span><span class="sxs-lookup"><span data-stu-id="847c1-103">Quick Style Section</span></span>
 
-<span data-ttu-id="d8f12-104">Mostra o estilo rápido atual formatação aplicados à forma, incluindo a cor da linha e estilo, cor de preenchimento e estilo, cor da sombra, efeitos, fonte e tipo de estilo de valores.</span><span class="sxs-lookup"><span data-stu-id="d8f12-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
+<span data-ttu-id="847c1-104">Mostra os valores de formatação de estilo rápido aplicados à forma, incluindo a cor e o estilo da linha, a cor e o estilo de preenchimento, a cor da sombra, os efeitos, a fonte e o tipo de estilo.</span><span class="sxs-lookup"><span data-stu-id="847c1-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d8f12-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="d8f12-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="847c1-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="847c1-105">Remarks</span></span>
 
-<span data-ttu-id="d8f12-106">Você pode selecionar a forma e selecionar um novo estilo rápido de estilos rápidos (na guia **página inicial** , no grupo **Estilos de forma** , clique em **mais**e, em seguida, selecione outro estilo rápido da galeria).</span><span class="sxs-lookup"><span data-stu-id="d8f12-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
+<span data-ttu-id="847c1-106">Você pode alterar o estilo rápido selecionando a forma e, em seguida, selecionando um novo estilo rápido (na guia **página inicial** , no grupo **estilos de forma** , clique em **mais**e selecione outro estilo rápido na Galeria).</span><span class="sxs-lookup"><span data-stu-id="847c1-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
   
 
