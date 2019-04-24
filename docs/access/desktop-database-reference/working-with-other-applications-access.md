@@ -8,19 +8,19 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b3ad3158e8826e3144a9918382266abad16c8e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306010"
 ---
-# <a name="working-with-other-applications-access"></a><span data-ttu-id="6d72a-102">Trabalhando com outros aplicativos (Access)</span><span class="sxs-lookup"><span data-stu-id="6d72a-102">Working with other applications (Access)</span></span>
+# <a name="working-with-other-applications-access"></a><span data-ttu-id="cd998-102">Trabalhando com outros aplicativos (Access)</span><span class="sxs-lookup"><span data-stu-id="cd998-102">Working with other applications (Access)</span></span>
 
-<span data-ttu-id="6d72a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d72a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd998-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd998-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6d72a-104">Automação com o Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="6d72a-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
-- [<span data-ttu-id="6d72a-105">Usar ADO (ActiveX Data Objects)</span><span class="sxs-lookup"><span data-stu-id="6d72a-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
-- [<span data-ttu-id="6d72a-106">Usar o Microsoft Access como um servidor DDE</span><span class="sxs-lookup"><span data-stu-id="6d72a-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
+- [<span data-ttu-id="cd998-104">Automação com o Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="cd998-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
+- [<span data-ttu-id="cd998-105">Usar ADO (ActiveX Data Objects)</span><span class="sxs-lookup"><span data-stu-id="cd998-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
+- [<span data-ttu-id="cd998-106">Usar o Microsoft Access como um servidor DDE</span><span class="sxs-lookup"><span data-stu-id="cd998-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
 
 
 

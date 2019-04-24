@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset.LockEdits (DAO)
+title: Propriedade Recordset. LockEdits (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 54f91dea98f4f47057eb673a0fae08c8ac2b6f1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300459"
 ---
-# <a name="recordsetlockedits-property-dao"></a><span data-ttu-id="11058-102">Propriedade Recordset.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="11058-102">Recordset.LockEdits property (DAO)</span></span>
+# <a name="recordsetlockedits-property-dao"></a><span data-ttu-id="e5520-102">Propriedade Recordset. LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="e5520-102">Recordset.LockEdits property (DAO)</span></span>
 
-<span data-ttu-id="11058-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="11058-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5520-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5520-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="11058-104">Define ou retorna um valor que indica o tipo de bloqueio ativo durante a edição.</span><span class="sxs-lookup"><span data-stu-id="11058-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
+<span data-ttu-id="e5520-104">Define ou retorna um valor que indica o tipo de bloqueio ativo durante a edição.</span><span class="sxs-lookup"><span data-stu-id="e5520-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="11058-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="11058-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e5520-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e5520-105">Syntax</span></span>
 
-<span data-ttu-id="11058-106">*expressão* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="11058-106">*expression* .LockEdits</span></span>
+<span data-ttu-id="e5520-106">*expressão* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="e5520-106">*expression* .LockEdits</span></span>
 
-<span data-ttu-id="11058-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="11058-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="e5520-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="e5520-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="11058-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="11058-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5520-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="e5520-108">Remarks</span></span>
 
-<span data-ttu-id="11058-109">O valor de configuração ou de retorno indica o tipo de bloqueio, conforme especificado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="11058-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
+<span data-ttu-id="e5520-109">O valor de configuração ou de retorno indica o tipo de bloqueio, conforme especificado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="e5520-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -41,37 +41,37 @@ ms.locfileid: "28707707"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="11058-110">Valor</span><span class="sxs-lookup"><span data-stu-id="11058-110">Value</span></span></p></th>
-<th><p><span data-ttu-id="11058-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="11058-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="e5520-110">Valor</span><span class="sxs-lookup"><span data-stu-id="e5520-110">Value</span></span></p></th>
+<th><p><span data-ttu-id="e5520-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="e5520-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11058-112">True</span><span class="sxs-lookup"><span data-stu-id="11058-112">True</span></span></p></td>
-<td><p><span data-ttu-id="11058-p101">Padrão. Bloqueio pessimista ativo. A página que contém o registro que você estiver editando será bloqueada assim que for chamado o método Edit.</span><span class="sxs-lookup"><span data-stu-id="11058-p101">Default. Pessimistic locking is in effect. The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
+<td><p><span data-ttu-id="e5520-112">True</span><span class="sxs-lookup"><span data-stu-id="e5520-112">True</span></span></p></td>
+<td><p><span data-ttu-id="e5520-p101">Padrão. Bloqueio pessimista ativo. A página que contém o registro que você estiver editando será bloqueada assim que for chamado o método Edit.</span><span class="sxs-lookup"><span data-stu-id="e5520-p101">Default. Pessimistic locking is in effect. The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11058-116">False</span><span class="sxs-lookup"><span data-stu-id="11058-116">False</span></span></p></td>
-<td><p><span data-ttu-id="11058-117">Bloqueio otimista está em vigor para edição.</span><span class="sxs-lookup"><span data-stu-id="11058-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="11058-118">A página que contém o registro não está protegida até que o método de atualização é executado.</span><span class="sxs-lookup"><span data-stu-id="11058-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
+<td><p><span data-ttu-id="e5520-116">False</span><span class="sxs-lookup"><span data-stu-id="e5520-116">False</span></span></p></td>
+<td><p><span data-ttu-id="e5520-117">Bloqueio otimista ativo para edição.</span><span class="sxs-lookup"><span data-stu-id="e5520-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="e5520-118">A página que contém o registro não é bloqueada até que o método Update seja executado.</span><span class="sxs-lookup"><span data-stu-id="e5520-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="11058-119">Use a propriedade **LockEdits** com os objetos **[Recordset](recordset-object-dao.md)** atualizáveis.</span><span class="sxs-lookup"><span data-stu-id="11058-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
+<span data-ttu-id="e5520-119">Use a propriedade **LockEdits** com os objetos **[Recordset](recordset-object-dao.md)** atualizáveis.</span><span class="sxs-lookup"><span data-stu-id="e5520-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
 
-<span data-ttu-id="11058-p103">Se uma página estiver bloqueada, nenhum outro usuário poderá editar registros na mesma página. Se você definir **LockEdits** como **True** e outro usuário já tiver bloqueado a página, ocorrerá um erro quando você usar o método **Edit**. Os outros usuários poderão ler os dados das páginas bloqueadas.</span><span class="sxs-lookup"><span data-stu-id="11058-p103">If a page is locked, no other user can edit records on the same page. If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method. Other users can read data from locked pages.</span></span>
+<span data-ttu-id="e5520-p103">Se uma página estiver bloqueada, nenhum outro usuário poderá editar registros na mesma página. Se você definir **LockEdits** como **True** e outro usuário já tiver bloqueado a página, ocorrerá um erro quando você usar o método **Edit**. Os outros usuários poderão ler os dados das páginas bloqueadas.</span><span class="sxs-lookup"><span data-stu-id="e5520-p103">If a page is locked, no other user can edit records on the same page. If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method. Other users can read data from locked pages.</span></span>
 
-<span data-ttu-id="11058-p104">Se você definir a propriedade **LockEdits** como **False** e mais tarde usar o método **Update** ao mesmo tempo que outro usuário bloquear a página, ocorrerá um erro. Para ver as alterações feitas no seu registro pelo outro usuário, use o método **[Move](recordset-move-method-dao.md)** com 0 como argumento; no entanto, se você fizer isso, perderá todas as suas alterações.</span><span class="sxs-lookup"><span data-stu-id="11058-p104">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs. To see the changes made to your record by another user, use the **[Move](recordset-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
+<span data-ttu-id="e5520-p104">Se você definir a propriedade **LockEdits** como **False** e mais tarde usar o método **Update** ao mesmo tempo que outro usuário bloquear a página, ocorrerá um erro. Para ver as alterações feitas no seu registro pelo outro usuário, use o método **[Move](recordset-move-method-dao.md)** com 0 como argumento; no entanto, se você fizer isso, perderá todas as suas alterações.</span><span class="sxs-lookup"><span data-stu-id="e5520-p104">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs. To see the changes made to your record by another user, use the **[Move](recordset-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
 
-<span data-ttu-id="11058-p105">Durante o trabalho com o mecanismo do banco de dados do Microsoft Access conectado a fontes de dados ODBC, a propriedade **LockEdits** será definida sempre como **False** ou bloqueio otimista. O mecanismo de dados do Microsoft Access não tem controle sobre os mecanismos de bloqueio usados nos servidores de bancos de dados externos.</span><span class="sxs-lookup"><span data-stu-id="11058-p105">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking. The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
+<span data-ttu-id="e5520-p105">Durante o trabalho com o mecanismo do banco de dados do Microsoft Access conectado a fontes de dados ODBC, a propriedade **LockEdits** será definida sempre como **False** ou bloqueio otimista. O mecanismo de dados do Microsoft Access não tem controle sobre os mecanismos de bloqueio usados nos servidores de bancos de dados externos.</span><span class="sxs-lookup"><span data-stu-id="e5520-p105">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking. The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="11058-127">Você pode predefinir o valor da **LockEdits** quando você primeiro abre o **Recordset** , definindo o argumento lockedits do método **[OpenRecordset](connection-openrecordset-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="11058-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="11058-128">Definir o argumento lockedits como **dbPessimistic** definirá a propriedade **LockEdits** como **True**e lockedits de configuração para qualquer outro valor definirá a propriedade **LockEdits** como **False**.</span><span class="sxs-lookup"><span data-stu-id="11058-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
+> <span data-ttu-id="e5520-127">Você pode predefinir o valor de **LockEdits** quando abrir o **Recordset** pela primeira vez, definindo o argumento LockEdits do método **[OpenRecordset](connection-openrecordset-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="e5520-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="e5520-128">A definição do argumento lockedits como **dbPessimistic** definirá a propriedade **LockEdits** como **True** e a definição de lockedits como qualquer outro valor definirá a propriedade **LockEdits** como **False**.</span><span class="sxs-lookup"><span data-stu-id="e5520-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="11058-129">Exemplo</span><span class="sxs-lookup"><span data-stu-id="11058-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e5520-129">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e5520-129">Example</span></span>
 
-<span data-ttu-id="11058-p107">Este exemplo demonstra o bloqueio pessimista pela definição da propriedade **LockEdits** como **True** e depois demonstra o bloqueio otimista pela definição da propriedade **LockEdits** como False. Além disso, demonstra qual tipo de tratamento de erros será necessário em um ambiente de banco de dados multiusuário para modificar um campo. As funções PessimisticLock e OptimisticLock são necessárias para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="11058-p107">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False. It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field. The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
+<span data-ttu-id="e5520-p107">Este exemplo demonstra o bloqueio pessimista pela definição da propriedade **LockEdits** como **True** e depois demonstra o bloqueio otimista pela definição da propriedade **LockEdits** como False. Além disso, demonstra qual tipo de tratamento de erros será necessário em um ambiente de banco de dados multiusuário para modificar um campo. As funções PessimisticLock e OptimisticLock são necessárias para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="e5520-p107">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False. It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field. The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
 
 ```vb
     Sub LockEditsX() 

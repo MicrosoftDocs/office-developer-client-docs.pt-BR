@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d262c7282db187ebd47ce3f57273507e900b2e9a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306423"
 ---
-# <a name="version-property-example-vc"></a><span data-ttu-id="e95e8-102">Exemplo da propriedade Version (VC++)</span><span class="sxs-lookup"><span data-stu-id="e95e8-102">Version property example (VC++)</span></span>
+# <a name="version-property-example-vc"></a><span data-ttu-id="a2fcb-102">Exemplo da propriedade Version (VC++)</span><span class="sxs-lookup"><span data-stu-id="a2fcb-102">Version property example (VC++)</span></span>
 
 
-<span data-ttu-id="e95e8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e95e8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a2fcb-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2fcb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e95e8-p101">Este exemplo utiliza a propriedade [Version](version-property-ado.md) de um objeto [Connection](connection-object-ado.md) para exibir a versão atual do ADO. Ele também utiliza várias propriedades dinâmicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="e95e8-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="a2fcb-p101">Este exemplo utiliza a propriedade [Version](version-property-ado.md) de um objeto [Connection](connection-object-ado.md) para exibir a versão atual do ADO. Ele também utiliza várias propriedades dinâmicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="a2fcb-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="e95e8-106">o nome e a versão do DBMS atual.</span><span class="sxs-lookup"><span data-stu-id="e95e8-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="a2fcb-106">o nome e a versão do DBMS atual.</span><span class="sxs-lookup"><span data-stu-id="a2fcb-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="e95e8-107">a versão do OLE DB.</span><span class="sxs-lookup"><span data-stu-id="e95e8-107">OLE DB version.</span></span>
+  - <span data-ttu-id="a2fcb-107">a versão do OLE DB.</span><span class="sxs-lookup"><span data-stu-id="a2fcb-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="e95e8-108">o nome e a versão do provedor.</span><span class="sxs-lookup"><span data-stu-id="e95e8-108">provider name and version.</span></span>
+  - <span data-ttu-id="a2fcb-108">o nome e a versão do provedor.</span><span class="sxs-lookup"><span data-stu-id="a2fcb-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="e95e8-109">a versão do ODBC.</span><span class="sxs-lookup"><span data-stu-id="e95e8-109">ODBC version.</span></span>
+  - <span data-ttu-id="a2fcb-109">a versão do ODBC.</span><span class="sxs-lookup"><span data-stu-id="a2fcb-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="e95e8-110">o nome e a versão do driver do ODBC.</span><span class="sxs-lookup"><span data-stu-id="e95e8-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="a2fcb-110">o nome e a versão do driver do ODBC.</span><span class="sxs-lookup"><span data-stu-id="a2fcb-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

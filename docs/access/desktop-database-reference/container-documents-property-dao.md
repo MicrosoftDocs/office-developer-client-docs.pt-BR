@@ -1,5 +1,5 @@
 ---
-title: Propriedade Container.Documents (DAO)
+title: Propriedade Container. Documents (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fc77ea29cdc5f1d21e8b180fd85b5b61f703a67d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295657"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="4aa45-102">Propriedade Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="4aa45-102">Container.Documents property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="1b01e-102">Propriedade Container. Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b01e-102">Container.Documents property (DAO)</span></span>
 
 
-<span data-ttu-id="4aa45-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4aa45-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b01e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b01e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4aa45-p101">Retorna uma coleção **Documents** que contém todos os documentos armazenados no objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="4aa45-p101">Returns a **Documents** collection that contains all of the documents stored in the specified object. Read-only.</span></span>
+<span data-ttu-id="1b01e-104">Retorna uma coleção **Documents** que contém todos os documentos armazenados no objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="1b01e-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="1b01e-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1b01e-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4aa45-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4aa45-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1b01e-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1b01e-106">Syntax</span></span>
 
-<span data-ttu-id="4aa45-107">*expressão* . Documentos</span><span class="sxs-lookup"><span data-stu-id="4aa45-107">*expression* .Documents</span></span>
+<span data-ttu-id="1b01e-107">*expressão* . Documentos</span><span class="sxs-lookup"><span data-stu-id="1b01e-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="4aa45-108">*expressão* Uma variável que representa um objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="4aa45-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="1b01e-108">*expressão* Uma variável que representa um objeto **container** .</span><span class="sxs-lookup"><span data-stu-id="1b01e-108">*expression* A variable that represents a **Container** object.</span></span>
 
