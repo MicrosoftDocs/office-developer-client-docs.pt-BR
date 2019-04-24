@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm82251758
 localization_priority: Normal
 ms.assetid: 7e47acfe-5ec0-3689-eb89-0168f596a739
-description: Contém os x e y-coordenadas, a posição do segundo ao último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura e a fórmula para uma B-spline racional não-uniforme (NURBS).
-ms.openlocfilehash: d0c10e1da519ac98a582da9214033fb8aad5b53e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém as coordenadas x e y, a posição do segundo para o último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura e a fórmula de uma B-spline racional não-uniforme (NURBS).
+ms.openlocfilehash: a5fc83f9581277580d076c2a850bfe937602aef0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361016"
 ---
-# <a name="nurbsto-row-geometry-section"></a><span data-ttu-id="f42b8-103">Linha NURBSTo (Seção Geometry)</span><span class="sxs-lookup"><span data-stu-id="f42b8-103">NURBSTo Row (Geometry Section)</span></span>
+# <a name="nurbsto-row-geometry-section"></a><span data-ttu-id="4a964-103">Linha NURBSTo (Seção Geometry)</span><span class="sxs-lookup"><span data-stu-id="4a964-103">NURBSTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="f42b8-104">Contém os *x* e *y* -coordenadas, a posição do segundo ao último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura e a fórmula para uma B-spline racional não-uniforme (NURBS).</span><span class="sxs-lookup"><span data-stu-id="f42b8-104">Contains the  *x*  - and  *y*  -coordinates, position of the second to last knot, position of the last weight, position of the first knot, position of the first weight, and the formula for a nonuniform rational B-spline (NURBS).</span></span> 
+<span data-ttu-id="4a964-104">Contém as coordenadas *x* e *y* , a posição do segundo para o último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura e A fórmula de uma B-spline racional não-uniforme (NURBS).</span><span class="sxs-lookup"><span data-stu-id="4a964-104">Contains the  *x*  - and  *y*  -coordinates, position of the second to last knot, position of the last weight, position of the first knot, position of the first weight, and the formula for a nonuniform rational B-spline (NURBS).</span></span> 
   
-<span data-ttu-id="f42b8-105">Uma linha NURBSTo contém as células a seguir.</span><span class="sxs-lookup"><span data-stu-id="f42b8-105">A NURBSTo row contains the following cells.</span></span>
+<span data-ttu-id="4a964-105">Uma linha NURBSTo contém as células a seguir.</span><span class="sxs-lookup"><span data-stu-id="4a964-105">A NURBSTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="f42b8-106">**Célula**</span><span class="sxs-lookup"><span data-stu-id="f42b8-106">**Cell**</span></span>|<span data-ttu-id="f42b8-107">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f42b8-107">**Description**</span></span>|
+|<span data-ttu-id="4a964-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="4a964-106">**Cell**</span></span>|<span data-ttu-id="4a964-107">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4a964-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f42b8-108">X</span><span class="sxs-lookup"><span data-stu-id="f42b8-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-109">*X* -coordenadas do último ponto de controle de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-109">The  *x*  -coordinate of the last control point of a NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-110">Y</span><span class="sxs-lookup"><span data-stu-id="f42b8-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-111">*Y* -coordenadas do último ponto de controle de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-111">The  *y*  -coordinate of the last control point of a NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-112">A</span><span class="sxs-lookup"><span data-stu-id="f42b8-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-113">O penúltimo nó de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-113">The second to the last knot of the NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-114">B</span><span class="sxs-lookup"><span data-stu-id="f42b8-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-115">A última espessura de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-115">The last weight of the NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-116">C</span><span class="sxs-lookup"><span data-stu-id="f42b8-116">C</span></span>](c-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-117">O primeiro nó de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-117">The first knot of the NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-118">D</span><span class="sxs-lookup"><span data-stu-id="f42b8-118">D</span></span>](d-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-119">A primeira espessura de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-119">The first weight of the NURBS.</span></span>  <br/> |
-|[<span data-ttu-id="f42b8-120">E</span><span class="sxs-lookup"><span data-stu-id="f42b8-120">E</span></span>](e-cell-geometry-section.md) <br/> |<span data-ttu-id="f42b8-121">Uma fórmula NURBS.</span><span class="sxs-lookup"><span data-stu-id="f42b8-121">A NURBS formula.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-108">X</span><span class="sxs-lookup"><span data-stu-id="4a964-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-109">A coordenada *x* do último ponto de controle de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-109">The  *x*  -coordinate of the last control point of a NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-110">Y</span><span class="sxs-lookup"><span data-stu-id="4a964-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-111">A coordenada *y* do último ponto de controle de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-111">The  *y*  -coordinate of the last control point of a NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-112">A</span><span class="sxs-lookup"><span data-stu-id="4a964-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-113">O penúltimo nó de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-113">The second to the last knot of the NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-114">A.b.c.</span><span class="sxs-lookup"><span data-stu-id="4a964-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-115">A última espessura de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-115">The last weight of the NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-116">Unidade</span><span class="sxs-lookup"><span data-stu-id="4a964-116">C</span></span>](c-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-117">O primeiro nó de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-117">The first knot of the NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-118">D</span><span class="sxs-lookup"><span data-stu-id="4a964-118">D</span></span>](d-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-119">A primeira espessura de uma NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-119">The first weight of the NURBS.</span></span>  <br/> |
+|[<span data-ttu-id="4a964-120">E</span><span class="sxs-lookup"><span data-stu-id="4a964-120">E</span></span>](e-cell-geometry-section.md) <br/> |<span data-ttu-id="4a964-121">Uma fórmula NURBS.</span><span class="sxs-lookup"><span data-stu-id="4a964-121">A NURBS formula.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f42b8-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="f42b8-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a964-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="4a964-122">Remarks</span></span>
 
-<span data-ttu-id="f42b8-p101">Uma NURBS é um meio comum de representar matematicamente uma curva. Crie uma NURBS com a ferramenta **Forma Livre**.</span><span class="sxs-lookup"><span data-stu-id="f42b8-p101">NURBS is a common way to represent a curve mathematically. You can create a NURBS with the **Freeform** tool.</span></span> 
+<span data-ttu-id="4a964-p101">Uma NURBS é um meio comum de representar matematicamente uma curva. Crie uma NURBS com a ferramenta **Forma Livre**.</span><span class="sxs-lookup"><span data-stu-id="4a964-p101">NURBS is a common way to represent a curve mathematically. You can create a NURBS with the **Freeform** tool.</span></span> 
   
 

@@ -1,57 +1,57 @@
 ---
-title: Definir a ordem de resolução de listas de endereços de forma programática
+title: Definir a ordem de resolução de listas de endereços via programação
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Modificado pela última vez: 06 de julho de 2012'
+description: 'Última modificação: 06 de julho de 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345956"
 ---
-# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="dfad7-103">Definir a ordem de resolução de listas de endereços de forma programática</span><span class="sxs-lookup"><span data-stu-id="dfad7-103">Programmatically set the resolution order for address lists</span></span>
+# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="b2862-103">Definir a ordem de resolução de listas de endereços via programação</span><span class="sxs-lookup"><span data-stu-id="b2862-103">Programmatically set the resolution order for address lists</span></span>
   
-<span data-ttu-id="dfad7-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dfad7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b2862-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b2862-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="dfad7-105">Este tópico contém um exemplo de código em C++ que programaticamente define a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos.</span><span class="sxs-lookup"><span data-stu-id="dfad7-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
+<span data-ttu-id="b2862-105">Este tópico contém um exemplo de código em C++ que define programaticamente a ordem das listas de endereços pelas quais os destinatários em mensagens de email e participantes nas solicitações de reunião são resolvidos.</span><span class="sxs-lookup"><span data-stu-id="b2862-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
   
-<span data-ttu-id="dfad7-106">Na MAPI, cada perfil pode oferecer suporte a várias listas de endereços e cada lista de endereços reside no seu próprio contêiner.</span><span class="sxs-lookup"><span data-stu-id="dfad7-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="dfad7-107">MAPI oferece suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface do que permite que você defina um novo caminho de pesquisa no perfil que será usado para resolução de nome.</span><span class="sxs-lookup"><span data-stu-id="dfad7-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="dfad7-108">Para usar o método **IAddrBook::SetSearchPath** , você precisará definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especifique a matriz como a *lpSearchPath*  Use o parâmetro.</span><span class="sxs-lookup"><span data-stu-id="dfad7-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="dfad7-109">A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente.</span><span class="sxs-lookup"><span data-stu-id="dfad7-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
+<span data-ttu-id="b2862-106">No MAPI, cada perfil pode dar suporte a várias listas de endereços, e cada lista de endereços reside em seu próprio contêiner.</span><span class="sxs-lookup"><span data-stu-id="b2862-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="b2862-107">O MAPI dá suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface que permite definir um novo caminho de pesquisa no perfil usado para resolução de nomes.</span><span class="sxs-lookup"><span data-stu-id="b2862-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="b2862-108">Para usar o método **IAddrBook:: SetSearchPath** , você precisa definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especificar a matriz como o *lpSearchPath*  Construtor.</span><span class="sxs-lookup"><span data-stu-id="b2862-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="b2862-109">A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente.</span><span class="sxs-lookup"><span data-stu-id="b2862-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
   
-<span data-ttu-id="dfad7-110">O exemplo de código define a ordem de resolução nas etapas a seguir:</span><span class="sxs-lookup"><span data-stu-id="dfad7-110">The code sample sets the resolution order in the following steps:</span></span>
+<span data-ttu-id="b2862-110">O exemplo de código define a ordem de resolução nas seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="b2862-110">The code sample sets the resolution order in the following steps:</span></span>
   
-1. <span data-ttu-id="dfad7-111">Inicializa `numANR` ao número de contêineres para corresponder e especifica os nomes e a ordem de resolução das listas de endereço desejado em um `ANROrder` matriz.</span><span class="sxs-lookup"><span data-stu-id="dfad7-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
+1. <span data-ttu-id="b2862-111">Inicializa `numANR` como o número de contêineres a ser correspondido e especifica os nomes e a ordem de resolução das listas de endereços `ANROrder` desejadas em uma matriz.</span><span class="sxs-lookup"><span data-stu-id="b2862-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
     
-2. <span data-ttu-id="dfad7-112">Inicializa MAPI usando a função **MAPIInitialize** .</span><span class="sxs-lookup"><span data-stu-id="dfad7-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
+2. <span data-ttu-id="b2862-112">Inicializa o MAPI usando a função **MAPIInitialize** .</span><span class="sxs-lookup"><span data-stu-id="b2862-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
     
-3.  <span data-ttu-id="dfad7-113">Faça logon em MAPI e permite ao usuário escolher um perfil.</span><span class="sxs-lookup"><span data-stu-id="dfad7-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
+3.  <span data-ttu-id="b2862-113">Faz logon no MAPI e permite que o usuário escolha um perfil.</span><span class="sxs-lookup"><span data-stu-id="b2862-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
     
-4.  <span data-ttu-id="dfad7-114">Obtém um ponteiro para o catálogo de endereços da sessão atual.</span><span class="sxs-lookup"><span data-stu-id="dfad7-114">Gets a pointer to the address book from the current session.</span></span> 
+4.  <span data-ttu-id="b2862-114">Obtém um ponteiro para o catálogo de endereços da sessão atual.</span><span class="sxs-lookup"><span data-stu-id="b2862-114">Gets a pointer to the address book from the current session.</span></span> 
     
-5. <span data-ttu-id="dfad7-115">Abre o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="dfad7-115">Opens the Address Book.</span></span>
+5. <span data-ttu-id="b2862-115">Abre o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="b2862-115">Opens the Address Book.</span></span>
     
-6. <span data-ttu-id="dfad7-116">Abre o contêiner para a raiz do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="dfad7-116">Opens the container for the root Address Book.</span></span>
+6. <span data-ttu-id="b2862-116">Abre o contêiner para o catálogo de endereços raiz.</span><span class="sxs-lookup"><span data-stu-id="b2862-116">Opens the container for the root Address Book.</span></span>
     
-7. <span data-ttu-id="dfad7-117">Abre a tabela de hierarquia do contêiner de catálogo de endereços raiz.</span><span class="sxs-lookup"><span data-stu-id="dfad7-117">Opens the hierarchy table of the root address book container.</span></span>
+7. <span data-ttu-id="b2862-117">Abre a tabela de hierarquia do contêiner do catálogo de endereços raiz.</span><span class="sxs-lookup"><span data-stu-id="b2862-117">Opens the hierarchy table of the root address book container.</span></span>
     
-8. <span data-ttu-id="dfad7-118">Obtém a lista de endereço contêineres do catálogo na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="dfad7-118">Gets the list of address book containers in the hierarchy.</span></span>
+8. <span data-ttu-id="b2862-118">Obtém a lista de contêineres de catálogo de endereços na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="b2862-118">Gets the list of address book containers in the hierarchy.</span></span>
     
-9. <span data-ttu-id="dfad7-119">Procura as identificações de entrada das listas de endereços desejado, comparando os nomes das listas de endereço desejado no `ANROrder` aos nomes existentes na hierarquia de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="dfad7-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
+9. <span data-ttu-id="b2862-119">Procura as identificações de entrada das listas de endereços desejadas comparando os nomes das listas `ANROrder` de endereços desejadas com os nomes existentes na hierarquia do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="b2862-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
     
-10. <span data-ttu-id="dfad7-120">Define as IDs da entrada apropriado à matriz **SRowSet** `pNewRows`.</span><span class="sxs-lookup"><span data-stu-id="dfad7-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
+10. <span data-ttu-id="b2862-120">Define as IDs de entrada apropriadas para \*\*\*\* a matriz SRowSet `pNewRows`,.</span><span class="sxs-lookup"><span data-stu-id="b2862-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
     
-11. <span data-ttu-id="dfad7-121">Chamará e passará `pNewRows` como o parâmetro *lpSearchPath* para **IAddrBook::SetSearchPath** para definir o caminho de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dfad7-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
+11. <span data-ttu-id="b2862-121">Chama e passa `pNewRows` como o parâmetro *lpSearchPath* para **IAddrBook:: SetSearchPath** para definir o caminho de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="b2862-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
     
-12. <span data-ttu-id="dfad7-122">Limpa os ponteiros e buffers internos.</span><span class="sxs-lookup"><span data-stu-id="dfad7-122">Cleans up internal buffers and pointers.</span></span>
+12. <span data-ttu-id="b2862-122">Limpa os buffers internos e os ponteiros.</span><span class="sxs-lookup"><span data-stu-id="b2862-122">Cleans up internal buffers and pointers.</span></span>
     
-13. <span data-ttu-id="dfad7-123">Efetua logoff de MAPI.</span><span class="sxs-lookup"><span data-stu-id="dfad7-123">Logs off from MAPI.</span></span>
+13. <span data-ttu-id="b2862-123">Faz logoff do MAPI.</span><span class="sxs-lookup"><span data-stu-id="b2862-123">Logs off from MAPI.</span></span>
     
-14. <span data-ttu-id="dfad7-124">Uninitalizes MAPI.</span><span class="sxs-lookup"><span data-stu-id="dfad7-124">Uninitalizes MAPI.</span></span>
+14. <span data-ttu-id="b2862-124">Uninitalizes MAPI.</span><span class="sxs-lookup"><span data-stu-id="b2862-124">Uninitalizes MAPI.</span></span>
     
-<span data-ttu-id="dfad7-125">Este exemplo de código usa listas de endereços que estão disponíveis na instalação padrão do Microsoft Office Outlook: **Todos os contatos**, **Todos os grupos**e **Contatos**.</span><span class="sxs-lookup"><span data-stu-id="dfad7-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="dfad7-126">Você deve executar a amostra depois que o Outlook é iniciado e está sendo executado em um perfil inicializado.</span><span class="sxs-lookup"><span data-stu-id="dfad7-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="dfad7-127">O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes são em inglês).</span><span class="sxs-lookup"><span data-stu-id="dfad7-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="dfad7-128">Ele não é projetado para funcionar em implantações multilíngue, por exemplo, a pasta **Contatos** localizada para um usuário executando um build não são em inglês do Outlook.</span><span class="sxs-lookup"><span data-stu-id="dfad7-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
+<span data-ttu-id="b2862-125">Este exemplo de código usa listas de endereços que estão disponíveis na instalação padrão do Microsoft Office Outlook: **todos os contatos**, **todos os grupos**e **contatos**.</span><span class="sxs-lookup"><span data-stu-id="b2862-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="b2862-126">Você deve executar o exemplo depois que o Outlook for iniciado e estiver em execução em um perfil inicializado.</span><span class="sxs-lookup"><span data-stu-id="b2862-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="b2862-127">O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes estão em inglês).</span><span class="sxs-lookup"><span data-stu-id="b2862-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="b2862-128">Ele não foi projetado para funcionar em implantações multilíngues, por exemplo, a pasta de **contatos** localizada para um usuário que esteja executando uma compilação do Outlook que não esteja em inglês.</span><span class="sxs-lookup"><span data-stu-id="b2862-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
   
 ```cpp
 #include "stdafx.h" 
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="dfad7-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="dfad7-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b2862-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="b2862-129">See also</span></span>
 
-- [<span data-ttu-id="dfad7-130">Sobre como definir a ordem de resolução de listas de endereços no Outlook</span><span class="sxs-lookup"><span data-stu-id="dfad7-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [<span data-ttu-id="b2862-130">Sobre como definir a ordem de resolução de listas de endereços no Outlook</span><span class="sxs-lookup"><span data-stu-id="b2862-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

@@ -9,36 +9,36 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: Determina se as formas são localizadas quando copiadas entre documentos.
-ms.openlocfilehash: 47593802e412c1871685f7218dd2a810bc2bc469
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddd6041ec6531652deb38a0c16be2c741bac91a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344570"
 ---
-# <a name="localizemerge-cell-miscellaneous-section"></a><span data-ttu-id="d3340-103">Célula LocalizeMerge (Seção Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="d3340-103">LocalizeMerge Cell (Miscellaneous Section)</span></span>
+# <a name="localizemerge-cell-miscellaneous-section"></a><span data-ttu-id="cf448-103">Célula LocalizeMerge (Seção Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="cf448-103">LocalizeMerge Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="d3340-104">Determina se as formas são localizadas quando copiadas entre documentos.</span><span class="sxs-lookup"><span data-stu-id="d3340-104">Determines whether shapes are localized when copied between documents.</span></span>
+<span data-ttu-id="cf448-104">Determina se as formas são localizadas quando copiadas entre documentos.</span><span class="sxs-lookup"><span data-stu-id="cf448-104">Determines whether shapes are localized when copied between documents.</span></span>
   
-|<span data-ttu-id="d3340-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="d3340-105">**Value**</span></span>|<span data-ttu-id="d3340-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d3340-106">**Description**</span></span>|
+|<span data-ttu-id="cf448-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="cf448-105">**Value**</span></span>|<span data-ttu-id="cf448-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cf448-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="d3340-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="d3340-107">TRUE</span></span>  <br/> | <span data-ttu-id="d3340-108">Localiza uma forma para o idioma do documento de destino.</span><span class="sxs-lookup"><span data-stu-id="d3340-108">Localize a shape in the language of the destination document.</span></span>  <br/> |
-| <span data-ttu-id="d3340-109">FALSO</span><span class="sxs-lookup"><span data-stu-id="d3340-109">FALSE</span></span>  <br/> | <span data-ttu-id="d3340-110">Não localiza uma forma com base no idioma do documento de destino (o padrão).</span><span class="sxs-lookup"><span data-stu-id="d3340-110">Do not localize a shape based on the language of the destination document (the default).</span></span>  <br/> |
+| <span data-ttu-id="cf448-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="cf448-107">TRUE</span></span>  <br/> | <span data-ttu-id="cf448-108">Localiza uma forma para o idioma do documento de destino.</span><span class="sxs-lookup"><span data-stu-id="cf448-108">Localize a shape in the language of the destination document.</span></span>  <br/> |
+| <span data-ttu-id="cf448-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="cf448-109">FALSE</span></span>  <br/> | <span data-ttu-id="cf448-110">Não localiza uma forma com base no idioma do documento de destino (o padrão).</span><span class="sxs-lookup"><span data-stu-id="cf448-110">Do not localize a shape based on the language of the destination document (the default).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d3340-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="d3340-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf448-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="cf448-111">Remarks</span></span>
 
-<span data-ttu-id="d3340-112">Para fazer referência à célula LocalizeMerge pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="d3340-112">To get a reference to the LocalizeMerge cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cf448-112">Para fazer referência à célula LocalizeMerge pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="cf448-112">To get a reference to the LocalizeMerge cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d3340-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="d3340-113">Cell name:</span></span>  <br/> | <span data-ttu-id="d3340-114">LocalizeMerge</span><span class="sxs-lookup"><span data-stu-id="d3340-114">LocalizeMerge</span></span>  <br/> |
+| <span data-ttu-id="cf448-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="cf448-113">Cell name:</span></span>  <br/> | <span data-ttu-id="cf448-114">LocalizeMerge</span><span class="sxs-lookup"><span data-stu-id="cf448-114">LocalizeMerge</span></span>  <br/> |
    
-<span data-ttu-id="d3340-115">Para fazer referência à célula LocalizeMerge pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="d3340-115">To get a reference to the LocalizeMerge cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cf448-115">Para fazer referência à célula LocalizeMerge pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="cf448-115">To get a reference to the LocalizeMerge cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d3340-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="d3340-116">Section index:</span></span>  <br/> |<span data-ttu-id="d3340-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d3340-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="d3340-118">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="d3340-118">Row index:</span></span>  <br/> |<span data-ttu-id="d3340-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="d3340-119">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="d3340-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="d3340-120">Cell index:</span></span>  <br/> |<span data-ttu-id="d3340-121">**visObjLocalizeMerge**</span><span class="sxs-lookup"><span data-stu-id="d3340-121">**visObjLocalizeMerge**</span></span> <br/> |
+| <span data-ttu-id="cf448-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="cf448-116">Section index:</span></span>  <br/> |<span data-ttu-id="cf448-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cf448-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="cf448-118">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="cf448-118">Row index:</span></span>  <br/> |<span data-ttu-id="cf448-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="cf448-119">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="cf448-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="cf448-120">Cell index:</span></span>  <br/> |<span data-ttu-id="cf448-121">**visObjLocalizeMerge**</span><span class="sxs-lookup"><span data-stu-id="cf448-121">**visObjLocalizeMerge**</span></span> <br/> |
    
 

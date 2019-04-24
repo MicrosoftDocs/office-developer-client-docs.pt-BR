@@ -8,22 +8,22 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 057a1ff38ed3809ce03bce8f820f1d16eea7fb46
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c9d2ec7f1970e3d1cadb65ab9af360b5c01c6844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360484"
 ---
-# <a name="updel"></a><span data-ttu-id="a6c40-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="a6c40-103">UPDEL</span></span>
+# <a name="updel"></a><span data-ttu-id="576f1-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="576f1-103">UPDEL</span></span>
 
   
   
-<span data-ttu-id="a6c40-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a6c40-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="576f1-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="576f1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a6c40-105">Informações para itens que foram excluídos em um repositório local.</span><span class="sxs-lookup"><span data-stu-id="a6c40-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="a6c40-106">Essas informações são usadas durante o [carregamento excluir o estado de status](upload-delete-status-state.md).</span><span class="sxs-lookup"><span data-stu-id="a6c40-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
+<span data-ttu-id="576f1-105">Informações para itens que foram excluídos em um repositório local.</span><span class="sxs-lookup"><span data-stu-id="576f1-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="576f1-106">Essas informações são usadas durante o [estado de status de exclusão de upload](upload-delete-status-state.md).</span><span class="sxs-lookup"><span data-stu-id="576f1-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a6c40-107">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="a6c40-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="576f1-107">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="576f1-107">Quick info</span></span>
 
 ```cpp
 struct UPDEL 
@@ -33,23 +33,23 @@ struct UPDEL
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="a6c40-108">Members</span><span class="sxs-lookup"><span data-stu-id="a6c40-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="576f1-108">Membros</span><span class="sxs-lookup"><span data-stu-id="576f1-108">Members</span></span>
 
- <span data-ttu-id="a6c40-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="a6c40-109">_pupde_</span></span>
+ <span data-ttu-id="576f1-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="576f1-109">_pupde_</span></span>
   
->  <span data-ttu-id="a6c40-110">[out] Vetor de [UPDELE](updele.md) entradas.</span><span class="sxs-lookup"><span data-stu-id="a6c40-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
+>  <span data-ttu-id="576f1-110">bota Vetor de entradas de [UPDELE](updele.md) .</span><span class="sxs-lookup"><span data-stu-id="576f1-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
     
- <span data-ttu-id="a6c40-111">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="a6c40-111">_cEnt_</span></span>
+ <span data-ttu-id="576f1-111">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="576f1-111">_cEnt_</span></span>
   
-> <span data-ttu-id="a6c40-112">[out] Número de entradas em *pupde* .</span><span class="sxs-lookup"><span data-stu-id="a6c40-112">[out] Number of entries in  *pupde*  .</span></span> 
+> <span data-ttu-id="576f1-112">bota Número de entradas no *pupde* .</span><span class="sxs-lookup"><span data-stu-id="576f1-112">[out] Number of entries in  *pupde*  .</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="a6c40-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="a6c40-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="576f1-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="576f1-113">See also</span></span>
 
 
 
-[<span data-ttu-id="a6c40-114">Sobre a API de replicação</span><span class="sxs-lookup"><span data-stu-id="a6c40-114">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="576f1-114">Sobre a API de replicação</span><span class="sxs-lookup"><span data-stu-id="576f1-114">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="a6c40-115">Sobre a máquina de estado de replicação</span><span class="sxs-lookup"><span data-stu-id="a6c40-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="576f1-115">Sobre a máquina de estado de replicação</span><span class="sxs-lookup"><span data-stu-id="576f1-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="a6c40-116">Constantes de MAPI</span><span class="sxs-lookup"><span data-stu-id="a6c40-116">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="576f1-116">Constantes de MAPI</span><span class="sxs-lookup"><span data-stu-id="576f1-116">MAPI Constants</span></span>](mapi-constants.md)
 

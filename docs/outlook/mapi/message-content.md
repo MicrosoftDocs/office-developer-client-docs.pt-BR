@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c4d2439c06da292c9cc72c1506a1ae4d10c6704f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356998"
 ---
-# <a name="message-content"></a><span data-ttu-id="8ad50-103">Conteúdo da mensagem</span><span class="sxs-lookup"><span data-stu-id="8ad50-103">Message Content</span></span>
+# <a name="message-content"></a><span data-ttu-id="8ece5-103">Conteúdo da mensagem</span><span class="sxs-lookup"><span data-stu-id="8ece5-103">Message Content</span></span>
 
   
   
-<span data-ttu-id="8ad50-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ad50-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8ece5-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ece5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8ad50-105">Há duas codificações possíveis para o conteúdo da mensagem: um usando MIME, o outro usando uuencode.</span><span class="sxs-lookup"><span data-stu-id="8ad50-105">There are two possible encodings for the message content: one using MIME, the other using uuencode.</span></span> <span data-ttu-id="8ad50-106">MIME é a codificação preferencial.</span><span class="sxs-lookup"><span data-stu-id="8ad50-106">MIME is the preferred encoding.</span></span> <span data-ttu-id="8ad50-107">Além disso, o MAPI define uma propriedade por destinatário, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que determina se ou não informações TNEF devem ser incluídas em uma mensagem de saída.</span><span class="sxs-lookup"><span data-stu-id="8ad50-107">In addition, MAPI defines a per-recipient property, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), which governs whether or not TNEF information should be included in an outgoing message.</span></span> <span data-ttu-id="8ad50-108">Portanto, há um total de quatro maneiras de codificação de conteúdo da mensagem:</span><span class="sxs-lookup"><span data-stu-id="8ad50-108">So there are a total of four ways of encoding message content:</span></span>
+<span data-ttu-id="8ece5-105">Há duas codificações possíveis para o conteúdo da mensagem: uma usando MIME, a outra usando Uuencode.</span><span class="sxs-lookup"><span data-stu-id="8ece5-105">There are two possible encodings for the message content: one using MIME, the other using uuencode.</span></span> <span data-ttu-id="8ece5-106">MIME é a codificação preferencial.</span><span class="sxs-lookup"><span data-stu-id="8ece5-106">MIME is the preferred encoding.</span></span> <span data-ttu-id="8ece5-107">Além disso, o MAPI define uma propriedade por destinatário, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que controla se as informações de TNEF devem ou não ser incluídas em uma mensagem de saída.</span><span class="sxs-lookup"><span data-stu-id="8ece5-107">In addition, MAPI defines a per-recipient property, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), which governs whether or not TNEF information should be included in an outgoing message.</span></span> <span data-ttu-id="8ece5-108">Portanto, há um total de quatro maneiras de codificar o conteúdo da mensagem:</span><span class="sxs-lookup"><span data-stu-id="8ece5-108">So there are a total of four ways of encoding message content:</span></span>
   
-- <span data-ttu-id="8ad50-109">MIME com TNEF</span><span class="sxs-lookup"><span data-stu-id="8ad50-109">MIME with TNEF</span></span>
+- <span data-ttu-id="8ece5-109">MIME com TNEF</span><span class="sxs-lookup"><span data-stu-id="8ece5-109">MIME with TNEF</span></span>
     
-- <span data-ttu-id="8ad50-110">MIME sem TNEF</span><span class="sxs-lookup"><span data-stu-id="8ad50-110">MIME without TNEF</span></span>
+- <span data-ttu-id="8ece5-110">MIME sem TNEF</span><span class="sxs-lookup"><span data-stu-id="8ece5-110">MIME without TNEF</span></span>
     
-- <span data-ttu-id="8ad50-111">UUENCODE com TNEF</span><span class="sxs-lookup"><span data-stu-id="8ad50-111">uuencode with TNEF</span></span>
+- <span data-ttu-id="8ece5-111">uuencode com TNEF</span><span class="sxs-lookup"><span data-stu-id="8ece5-111">uuencode with TNEF</span></span>
     
-- <span data-ttu-id="8ad50-112">UUENCODE sem TNEF</span><span class="sxs-lookup"><span data-stu-id="8ad50-112">uuencode without TNEF</span></span>
+- <span data-ttu-id="8ece5-112">uuencode sem TNEF</span><span class="sxs-lookup"><span data-stu-id="8ece5-112">uuencode without TNEF</span></span>
     
-<span data-ttu-id="8ad50-113">Como escolher MIME ou uuencode para mensagens de saída não for especificado.</span><span class="sxs-lookup"><span data-stu-id="8ad50-113">How to choose MIME or uuencode for outbound messages is not specified.</span></span>
+<span data-ttu-id="8ece5-113">Como escolher MIME ou UUENCODE para mensagens de saída não é especificado.</span><span class="sxs-lookup"><span data-stu-id="8ece5-113">How to choose MIME or uuencode for outbound messages is not specified.</span></span>
   
-<span data-ttu-id="8ad50-114">As seguintes propriedades são excluídas dos TNEF: **PR_SENDER_\***, **PR_ATTACH_DATA_\***, **PR_BODY**.</span><span class="sxs-lookup"><span data-stu-id="8ad50-114">The following properties are excluded from TNEF: **PR_SENDER_\***, **PR_ATTACH_DATA_\***, **PR_BODY**.</span></span> <span data-ttu-id="8ad50-115">Todas as outras propriedades de mensagem transmittable estão incluídas no fluxo TNEF.</span><span class="sxs-lookup"><span data-stu-id="8ad50-115">All other transmittable message properties are included in the TNEF stream.</span></span>
+<span data-ttu-id="8ece5-114">As propriedades a seguir são excluídas do TNEF: **\*PR_SENDER_**, **PR_ATTACH_DATA_\***, **PR_BODY**.</span><span class="sxs-lookup"><span data-stu-id="8ece5-114">The following properties are excluded from TNEF: **PR_SENDER_\***, **PR_ATTACH_DATA_\***, **PR_BODY**.</span></span> <span data-ttu-id="8ece5-115">Todas as outras propriedades de mensagens de transmittable estão incluídas no fluxo TNEF.</span><span class="sxs-lookup"><span data-stu-id="8ece5-115">All other transmittable message properties are included in the TNEF stream.</span></span>
   
-<span data-ttu-id="8ad50-116">As sugestões a seguir servem para fornecer uma lista de parâmetros que a implementação pode decidir como oferecer suporte a:</span><span class="sxs-lookup"><span data-stu-id="8ad50-116">The following suggestions are intended to provide a list of parameters that the implementation can decide how to support:</span></span>
+<span data-ttu-id="8ece5-116">As sugestões a seguir destinam-se a fornecer uma lista de parâmetros que a implementação pode decidir como oferecer suporte:</span><span class="sxs-lookup"><span data-stu-id="8ece5-116">The following suggestions are intended to provide a list of parameters that the implementation can decide how to support:</span></span>
   
-- <span data-ttu-id="8ad50-117">Se deseja codificar usando MIME ou uuencode para mensagens de saída: booleano.</span><span class="sxs-lookup"><span data-stu-id="8ad50-117">Whether to encode using MIME or uuencode for outbound messages: boolean.</span></span>
+- <span data-ttu-id="8ece5-117">Se deve ser codificada usando MIME ou UUENCODE para mensagens de saída: Boolean.</span><span class="sxs-lookup"><span data-stu-id="8ece5-117">Whether to encode using MIME or uuencode for outbound messages: boolean.</span></span>
     
-- <span data-ttu-id="8ad50-118">Conjunto a ser usado para mensagens de saída de caracteres: cadeia de caracteres (copiado diretamente para o parâmetro charset) ou enumeração (traduzido internamente como cadeia de caracteres do conjunto de caracteres).</span><span class="sxs-lookup"><span data-stu-id="8ad50-118">Character set to use for outbound messages: string (copied directly to charset parameter) or enumeration (translated internally to charset string).</span></span>
+- <span data-ttu-id="8ece5-118">Conjunto de caracteres a ser usado para mensagens de saída: cadeia de caracteres (copiado diretamente para o parâmetro charset) ou enumeração (traduzido internamente para a cadeia de caracteres charset).</span><span class="sxs-lookup"><span data-stu-id="8ece5-118">Character set to use for outbound messages: string (copied directly to charset parameter) or enumeration (translated internally to charset string).</span></span>
     
 

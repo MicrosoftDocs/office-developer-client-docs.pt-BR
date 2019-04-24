@@ -1,5 +1,5 @@
 ---
-title: Obter informações de disponibilidade do gerente de um usuário do Exchange
+title: Obter informações de disponibilidade do gerenciador de um usuário do Exchange
 TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df3779a3b92368af75d152e662eedec1a30a97bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349480"
 ---
-# <a name="get-availability-information-for-an-exchange-users-manager"></a><span data-ttu-id="1bcc0-102">Obter informações de disponibilidade do gerente de um usuário do Exchange</span><span class="sxs-lookup"><span data-stu-id="1bcc0-102">Get availability information for an Exchange user's manager</span></span>
+# <a name="get-availability-information-for-an-exchange-users-manager"></a><span data-ttu-id="ab246-102">Obter informações de disponibilidade do gerente de um usuário do Exchange</span><span class="sxs-lookup"><span data-stu-id="ab246-102">Get availability information for an Exchange user's manager</span></span>
 
-<span data-ttu-id="1bcc0-103">Este exemplo exibe o próximo intervalo de tempo de 60 minutos disponível no calendário para o gerente de um usuário.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-103">This example displays the next free 60-minute time slot in the calendar for a user's manager.</span></span>
+<span data-ttu-id="ab246-103">Este exemplo exibe o próximo intervalo de tempo de 60 minutos disponível no calendário para o gerente de um usuário.</span><span class="sxs-lookup"><span data-stu-id="ab246-103">This example displays the next free 60-minute time slot in the calendar for a user's manager.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1bcc0-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1bcc0-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ab246-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="ab246-104">Example</span></span>
 
-<span data-ttu-id="1bcc0-105">Este exemplo de código verifica se o usuário atual é um usuário do Exchange.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-105">This code sample checks whether the current user is an Exchange user.</span></span> <span data-ttu-id="1bcc0-106">Em caso afirmativo e se o usuário tiver um gerente, o código obterá informações do gerente chamando o método [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) e o método [GetExchangeUserManager ](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) do objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="1bcc0-106">If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) object.</span></span> <span data-ttu-id="1bcc0-107">As informações do gerente estão contidas em um objeto **ExchangeUser** que inclui o cronograma de disponibilidade do gerente.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-107">The manager's information is contained in an **ExchangeUser** object that includes the manager's Free/Busy schedule.</span></span>
+<span data-ttu-id="ab246-105">Este exemplo de código verifica se o usuário atual é um usuário do Exchange.</span><span class="sxs-lookup"><span data-stu-id="ab246-105">This code sample checks whether the current user is an Exchange user.</span></span> <span data-ttu-id="ab246-106">Em caso afirmativo e se o usuário tiver um gerente, o código obterá informações do gerente chamando o método [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) e o método [GetExchangeUserManager ](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) do objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="ab246-106">If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) object.</span></span> <span data-ttu-id="ab246-107">As informações do gerente estão contidas em um objeto **ExchangeUser** que inclui o cronograma de disponibilidade do gerente.</span><span class="sxs-lookup"><span data-stu-id="ab246-107">The manager's information is contained in an **ExchangeUser** object that includes the manager's Free/Busy schedule.</span></span>
 
-<span data-ttu-id="1bcc0-108">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-108">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="1bcc0-109">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-109">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="1bcc0-110">As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="1bcc0-110">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="ab246-108">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="ab246-108">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="ab246-109">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="ab246-109">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="ab246-110">As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="ab246-110">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -122,7 +122,7 @@ private void GetManagerOpenInterval()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1bcc0-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="1bcc0-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab246-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="ab246-111">See also</span></span>
 
-- [<span data-ttu-id="1bcc0-112">Usuários do Exchange</span><span class="sxs-lookup"><span data-stu-id="1bcc0-112">Exchange users</span></span>](exchange-users.md)
+- [<span data-ttu-id="ab246-112">Usuários do Exchange</span><span class="sxs-lookup"><span data-stu-id="ab246-112">Exchange users</span></span>](exchange-users.md)
 

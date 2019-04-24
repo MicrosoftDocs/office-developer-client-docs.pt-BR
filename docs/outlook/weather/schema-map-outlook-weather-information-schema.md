@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
 description: Este tópico mostra a definição do esquema XML de informações sobre o clima do Outlook.
 ms.openlocfilehash: f2e91775b0fe0d9e9d1cfebe572ebc4aa6fa3e56
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355108"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="20aaf-103">Mapa de esquema (Esquema de informações sobre o clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="20aaf-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="30023-103">Mapa de esquema (Esquema de informações sobre o clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="30023-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="20aaf-104">Este tópico mostra a definição do esquema XML de informações sobre o clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="20aaf-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="30023-104">Este tópico mostra a definição do esquema XML de informações sobre o clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="30023-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
