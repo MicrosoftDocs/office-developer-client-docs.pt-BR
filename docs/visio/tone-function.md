@@ -6,35 +6,35 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
-description: Modifica a cor diminuindo sua saturação pelo valor especificado no parâmetro int.
-ms.openlocfilehash: be89764c849299288963c272f8ffb2d5d728f270
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Modifica a cor reduzindo sua saturação pelo valor especificado no parâmetro int.
+ms.openlocfilehash: c3352d4c15671244d0fc4701f2c26b4e0c2ea54d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335683"
 ---
-# <a name="tone-function"></a><span data-ttu-id="061ce-103">Função TONE</span><span class="sxs-lookup"><span data-stu-id="061ce-103">TONE Function</span></span>
+# <a name="tone-function"></a><span data-ttu-id="57327-103">Função TONE</span><span class="sxs-lookup"><span data-stu-id="57327-103">TONE Function</span></span>
 
-<span data-ttu-id="061ce-104">Modifica a cor diminuindo sua saturação pelo valor especificado no parâmetro _int_ .</span><span class="sxs-lookup"><span data-stu-id="061ce-104">Modifies the color by decreasing its saturation by the amount specified in the  _int_ parameter.</span></span> 
+<span data-ttu-id="57327-104">Modifica a cor reduzindo sua saturação pelo valor especificado no parâmetro _int_ .</span><span class="sxs-lookup"><span data-stu-id="57327-104">Modifies the color by decreasing its saturation by the amount specified in the  _int_ parameter.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="061ce-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="061ce-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="57327-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="57327-105">Syntax</span></span>
 
-<span data-ttu-id="061ce-106">TOM (* * *cor* * *, * * *int* * *)</span><span class="sxs-lookup"><span data-stu-id="061ce-106">TONE(** *color* **, ** *int* ** )</span></span> 
+<span data-ttu-id="57327-106">Tom (\* \* *cor* \* \*, \* \* *int* \* \*)</span><span class="sxs-lookup"><span data-stu-id="57327-106">TONE(\*\* *color* \*\*, \*\* *int* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="061ce-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="061ce-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="57327-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="57327-107">Parameters</span></span>
 
-|<span data-ttu-id="061ce-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="061ce-108">**Name**</span></span>|<span data-ttu-id="061ce-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="061ce-109">**Required/Optional**</span></span>|<span data-ttu-id="061ce-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="061ce-110">**Data Type**</span></span>|<span data-ttu-id="061ce-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="061ce-111">**Description**</span></span>|
+|<span data-ttu-id="57327-108">**Nome**</span><span class="sxs-lookup"><span data-stu-id="57327-108">**Name**</span></span>|<span data-ttu-id="57327-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="57327-109">**Required/Optional**</span></span>|<span data-ttu-id="57327-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="57327-110">**Data Type**</span></span>|<span data-ttu-id="57327-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="57327-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="061ce-112">_color_</span><span class="sxs-lookup"><span data-stu-id="061ce-112">_color_</span></span> <br/> |<span data-ttu-id="061ce-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="061ce-113">Required</span></span>  <br/> |<span data-ttu-id="061ce-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="061ce-114">**Numeric**</span></span> <br/> |<span data-ttu-id="061ce-115">O índice de cores do Microsoft Visio ou o valor RGB da cor.</span><span class="sxs-lookup"><span data-stu-id="061ce-115">The Microsoft Visio color index or RGB value of the color.</span></span>  <br/> |
-| <span data-ttu-id="061ce-116">_int_</span><span class="sxs-lookup"><span data-stu-id="061ce-116">_int_</span></span> <br/> |<span data-ttu-id="061ce-117">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="061ce-117">Required</span></span>  <br/> |<span data-ttu-id="061ce-118">**Integer**</span><span class="sxs-lookup"><span data-stu-id="061ce-118">**Integer**</span></span> <br/> |<span data-ttu-id="061ce-p101">O valor pelo qual a saturação da cor será reduzida. Pode ser positivo ou negativo.</span><span class="sxs-lookup"><span data-stu-id="061ce-p101">The amount by which to decrease the saturation of the color. Can be positive or negative.</span></span>  <br/> |
+| <span data-ttu-id="57327-112">_color_</span><span class="sxs-lookup"><span data-stu-id="57327-112">_color_</span></span> <br/> |<span data-ttu-id="57327-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="57327-113">Required</span></span>  <br/> |<span data-ttu-id="57327-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="57327-114">**Numeric**</span></span> <br/> |<span data-ttu-id="57327-115">O índice de cores do Microsoft Visio ou o valor RGB da cor.</span><span class="sxs-lookup"><span data-stu-id="57327-115">The Microsoft Visio color index or RGB value of the color.</span></span>  <br/> |
+| <span data-ttu-id="57327-116">_int_</span><span class="sxs-lookup"><span data-stu-id="57327-116">_int_</span></span> <br/> |<span data-ttu-id="57327-117">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="57327-117">Required</span></span>  <br/> |<span data-ttu-id="57327-118">**Integer**</span><span class="sxs-lookup"><span data-stu-id="57327-118">**Integer**</span></span> <br/> |<span data-ttu-id="57327-119">O valor pelo qual a saturação da cor será reduzida.</span><span class="sxs-lookup"><span data-stu-id="57327-119">The amount by which to decrease the saturation of the color.</span></span> <span data-ttu-id="57327-120">Pode ser positivo ou negativo.</span><span class="sxs-lookup"><span data-stu-id="57327-120">Can be positive or negative.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="061ce-121">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="061ce-121">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="57327-121">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="57327-121">Return value</span></span>
 
- <span data-ttu-id="061ce-122">**RGB**</span><span class="sxs-lookup"><span data-stu-id="061ce-122">**RGB**</span></span>
+ <span data-ttu-id="57327-122">**RGB**</span><span class="sxs-lookup"><span data-stu-id="57327-122">**RGB**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="061ce-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="061ce-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="57327-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="57327-123">Remarks</span></span>
 
-<span data-ttu-id="061ce-124">Os limites superiores e inferiores de saturação são 0 e 240, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="061ce-124">The upper and lower limits of saturation are 0 and 240 respectively.</span></span> <span data-ttu-id="061ce-125">Não há nenhum limite do tamanho do inteiro, que você pode passar para o parâmetro _int_ , mas saturação nunca excede esses limites.</span><span class="sxs-lookup"><span data-stu-id="061ce-125">There is no limit on the size of the integer you can pass for the  _int_ parameter, but saturation never exceeds these limits.</span></span> 
+<span data-ttu-id="57327-124">Os limites superior e inferior de saturação são, respectivamente, 0 e 240.</span><span class="sxs-lookup"><span data-stu-id="57327-124">The upper and lower limits of saturation are 0 and 240 respectively.</span></span> <span data-ttu-id="57327-125">Não há limite para o tamanho do inteiro que você pode passar para o parâmetro _int_ , mas a saturação nunca excede esses limites.</span><span class="sxs-lookup"><span data-stu-id="57327-125">There is no limit on the size of the integer you can pass for the  _int_ parameter, but saturation never exceeds these limits.</span></span> 
   
 

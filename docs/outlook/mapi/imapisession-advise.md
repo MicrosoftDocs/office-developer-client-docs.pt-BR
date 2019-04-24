@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 704a556b97f5fd90989641a17afe5a11d127e51b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d5d87d7be9cb3524445107e975a298d4afd5bf98
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338616"
 ---
-# <a name="imapisessionadvise"></a><span data-ttu-id="d2c2b-103">IMAPISession::Advise</span><span class="sxs-lookup"><span data-stu-id="d2c2b-103">IMAPISession::Advise</span></span>
+# <a name="imapisessionadvise"></a><span data-ttu-id="404a2-103">IMAPISession::Advise</span><span class="sxs-lookup"><span data-stu-id="404a2-103">IMAPISession::Advise</span></span>
 
   
   
-<span data-ttu-id="d2c2b-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d2c2b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="404a2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="404a2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d2c2b-105">Registra para receber notificações de eventos especificados que afetam a sessão.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-105">Registers to receive notification of specified events that affect the session.</span></span>
+<span data-ttu-id="404a2-105">Registra para receber notificações de eventos específicos que afetam a sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-105">Registers to receive notification of specified events that affect the session.</span></span>
   
 ```cpp
 HRESULT Advise(
@@ -37,126 +37,126 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d2c2b-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="d2c2b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="404a2-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="404a2-106">Parameters</span></span>
 
- <span data-ttu-id="d2c2b-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="d2c2b-107">_cbEntryID_</span></span>
+ <span data-ttu-id="404a2-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="404a2-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="d2c2b-108">[in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="d2c2b-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="404a2-108">no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="404a2-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="d2c2b-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="d2c2b-109">_lpEntryID_</span></span>
+ <span data-ttu-id="404a2-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="404a2-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="d2c2b-110">[in] Um ponteiro para o identificador de entrada do catálogo de endereços ou objeto de repositório de mensagem notificações sobre quais devem ser geradas ou nulo, o que indica que o cliente está registrando para receber notificações de eventos que afetam apenas a sessão.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-110">[in] A pointer to the entry identifier of the address book or message store object about which notifications should be generated, or NULL, which indicates that the client is registering to receive notifications about events that affect only the session.</span></span> 
+> <span data-ttu-id="404a2-110">no Um ponteiro para o identificador de entrada do objeto do catálogo de endereços ou do repositório de mensagens sobre quais notificações devem ser geradas, ou NULL, que indica que o cliente está se registrando para receber notificações sobre eventos que afetam apenas a sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-110">[in] A pointer to the entry identifier of the address book or message store object about which notifications should be generated, or NULL, which indicates that the client is registering to receive notifications about events that affect only the session.</span></span> 
     
- <span data-ttu-id="d2c2b-111">_ulEventMask_</span><span class="sxs-lookup"><span data-stu-id="d2c2b-111">_ulEventMask_</span></span>
+ <span data-ttu-id="404a2-111">_ulEventMask_</span><span class="sxs-lookup"><span data-stu-id="404a2-111">_ulEventMask_</span></span>
   
-> <span data-ttu-id="d2c2b-112">[in] Uma máscara de valores que indicam os tipos de eventos de notificação que o cliente está interessado em e deve ser incluído no registro.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-112">[in] A mask of values that indicate the types of notification events that the client is interested in and should be included in the registration.</span></span> <span data-ttu-id="d2c2b-113">Se _lpEntryID_ for NULL, MAPI registra automaticamente o cliente para eventos de erros críticos que afetam apenas a sessão.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-113">If  _lpEntryID_ is NULL, MAPI automatically registers the client for critical error events that affect only the session.</span></span> <span data-ttu-id="d2c2b-114">Quando _lpEntryID_ aponta para um identificador de entrada, os seguintes valores são válidos para o parâmetro _ulEventMask_ :</span><span class="sxs-lookup"><span data-stu-id="d2c2b-114">When  _lpEntryID_ points to an entry identifier, the following values are valid for the  _ulEventMask_ parameter:</span></span> 
+> <span data-ttu-id="404a2-112">no Uma máscara de valores que indica os tipos de eventos de notificação em que o cliente está interessado e deve ser incluído no registro.</span><span class="sxs-lookup"><span data-stu-id="404a2-112">[in] A mask of values that indicate the types of notification events that the client is interested in and should be included in the registration.</span></span> <span data-ttu-id="404a2-113">Se _lpEntryID_ for NULL, MAPI registrará automaticamente o cliente para eventos de erro críticos que afetam apenas a sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-113">If  _lpEntryID_ is NULL, MAPI automatically registers the client for critical error events that affect only the session.</span></span> <span data-ttu-id="404a2-114">Quando o _lpEntryID_ aponta para um identificador de entrada, os seguintes valores são válidos para o parâmetro _ulEventMask_ :</span><span class="sxs-lookup"><span data-stu-id="404a2-114">When  _lpEntryID_ points to an entry identifier, the following values are valid for the  _ulEventMask_ parameter:</span></span> 
     
-<span data-ttu-id="d2c2b-115">fnevCriticalError</span><span class="sxs-lookup"><span data-stu-id="d2c2b-115">fnevCriticalError</span></span> 
+<span data-ttu-id="404a2-115">fnevCriticalError</span><span class="sxs-lookup"><span data-stu-id="404a2-115">fnevCriticalError</span></span> 
   
-> <span data-ttu-id="d2c2b-116">Registradores para notificações sobre erros graves, como as de memória insuficiente.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-116">Registers for notifications about severe errors, such as insufficient memory.</span></span>
+> <span data-ttu-id="404a2-116">Registra para notificações sobre erros graves, como memória insuficiente.</span><span class="sxs-lookup"><span data-stu-id="404a2-116">Registers for notifications about severe errors, such as insufficient memory.</span></span>
     
-<span data-ttu-id="d2c2b-117">fnevExtended</span><span class="sxs-lookup"><span data-stu-id="d2c2b-117">fnevExtended</span></span> 
+<span data-ttu-id="404a2-117">fnevExtended</span><span class="sxs-lookup"><span data-stu-id="404a2-117">fnevExtended</span></span> 
   
-> <span data-ttu-id="d2c2b-118">Registradores notificações sobre eventos específicos a um catálogo de endereços particular ou mensagem de provedor de armazenamento e sobre sessão desligado.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-118">Registers for notifications about events specific to a particular address book or message store provider and about session shut down.</span></span>
+> <span data-ttu-id="404a2-118">Registra para notificações sobre eventos específicos de um determinado catálogo de endereços ou provedor de mensagens sobre o desligamento de sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-118">Registers for notifications about events specific to a particular address book or message store provider and about session shut down.</span></span>
     
-<span data-ttu-id="d2c2b-119">fnevNewMail</span><span class="sxs-lookup"><span data-stu-id="d2c2b-119">fnevNewMail</span></span> 
+<span data-ttu-id="404a2-119">fnevNewMail</span><span class="sxs-lookup"><span data-stu-id="404a2-119">fnevNewMail</span></span> 
   
-> <span data-ttu-id="d2c2b-120">Registradores para notificações sobre a chegada de novas mensagens.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-120">Registers for notifications about the arrival of new messages.</span></span> 
+> <span data-ttu-id="404a2-120">Registra as notificações sobre a chegada de novas mensagens.</span><span class="sxs-lookup"><span data-stu-id="404a2-120">Registers for notifications about the arrival of new messages.</span></span> 
     
-<span data-ttu-id="d2c2b-121">fnevObjectCreated</span><span class="sxs-lookup"><span data-stu-id="d2c2b-121">fnevObjectCreated</span></span> 
+<span data-ttu-id="404a2-121">fnevObjectCreated</span><span class="sxs-lookup"><span data-stu-id="404a2-121">fnevObjectCreated</span></span> 
   
-> <span data-ttu-id="d2c2b-122">Registradores para notificações sobre a criação de um novo objeto.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-122">Registers for notifications about the creation of a new object.</span></span>
+> <span data-ttu-id="404a2-122">Registra as notificações sobre a criação de um novo objeto.</span><span class="sxs-lookup"><span data-stu-id="404a2-122">Registers for notifications about the creation of a new object.</span></span>
     
-<span data-ttu-id="d2c2b-123">fnevObjectCopied</span><span class="sxs-lookup"><span data-stu-id="d2c2b-123">fnevObjectCopied</span></span>
+<span data-ttu-id="404a2-123">fnevObjectCopied</span><span class="sxs-lookup"><span data-stu-id="404a2-123">fnevObjectCopied</span></span>
   
-> <span data-ttu-id="d2c2b-124">Registradores para notificações sobre um objeto que está sendo copiada.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-124">Registers for notifications about an object being copied.</span></span>
+> <span data-ttu-id="404a2-124">Registra para notificações sobre um objeto que está sendo copiado.</span><span class="sxs-lookup"><span data-stu-id="404a2-124">Registers for notifications about an object being copied.</span></span>
     
-<span data-ttu-id="d2c2b-125">fnevObjectDeleted</span><span class="sxs-lookup"><span data-stu-id="d2c2b-125">fnevObjectDeleted</span></span>
+<span data-ttu-id="404a2-125">fnevObjectDeleted</span><span class="sxs-lookup"><span data-stu-id="404a2-125">fnevObjectDeleted</span></span>
   
-> <span data-ttu-id="d2c2b-126">Registradores para notificações sobre um objeto que está sendo excluído.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-126">Registers for notifications about an object being deleted.</span></span>
+> <span data-ttu-id="404a2-126">Registra as notificações sobre um objeto que está sendo excluído.</span><span class="sxs-lookup"><span data-stu-id="404a2-126">Registers for notifications about an object being deleted.</span></span>
     
-<span data-ttu-id="d2c2b-127">fnevObjectModified</span><span class="sxs-lookup"><span data-stu-id="d2c2b-127">fnevObjectModified</span></span>
+<span data-ttu-id="404a2-127">fnevObjectModified</span><span class="sxs-lookup"><span data-stu-id="404a2-127">fnevObjectModified</span></span>
   
-> <span data-ttu-id="d2c2b-128">Registradores para notificações sobre um objeto que está sendo modificado.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-128">Registers for notifications about an object being modified.</span></span>
+> <span data-ttu-id="404a2-128">Registra para notificações sobre um objeto que está sendo modificado.</span><span class="sxs-lookup"><span data-stu-id="404a2-128">Registers for notifications about an object being modified.</span></span>
     
-<span data-ttu-id="d2c2b-129">fnevObjectMoved</span><span class="sxs-lookup"><span data-stu-id="d2c2b-129">fnevObjectMoved</span></span>
+<span data-ttu-id="404a2-129">fnevObjectMoved</span><span class="sxs-lookup"><span data-stu-id="404a2-129">fnevObjectMoved</span></span>
   
-> <span data-ttu-id="d2c2b-130">Registradores para notificações sobre um objeto que está sendo movido.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-130">Registers for notifications about an object being moved.</span></span>
+> <span data-ttu-id="404a2-130">Registra as notificações sobre um objeto que está sendo movido.</span><span class="sxs-lookup"><span data-stu-id="404a2-130">Registers for notifications about an object being moved.</span></span>
     
-<span data-ttu-id="d2c2b-131">fnevSearchComplete</span><span class="sxs-lookup"><span data-stu-id="d2c2b-131">fnevSearchComplete</span></span>
+<span data-ttu-id="404a2-131">fnevSearchComplete</span><span class="sxs-lookup"><span data-stu-id="404a2-131">fnevSearchComplete</span></span>
   
-> <span data-ttu-id="d2c2b-132">Registradores para notificações sobre a conclusão de uma operação de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-132">Registers for notifications about the completion of a search operation.</span></span>
+> <span data-ttu-id="404a2-132">Registra as notificações sobre a conclusão de uma operação de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="404a2-132">Registers for notifications about the completion of a search operation.</span></span>
     
- <span data-ttu-id="d2c2b-133">_lpAdviseSink_</span><span class="sxs-lookup"><span data-stu-id="d2c2b-133">_lpAdviseSink_</span></span>
+ <span data-ttu-id="404a2-133">_lpAdviseSink_</span><span class="sxs-lookup"><span data-stu-id="404a2-133">_lpAdviseSink_</span></span>
   
-> <span data-ttu-id="d2c2b-134">[in] Um ponteiro para um objeto de coletor de eventos advise para receber as notificações subsequentes.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-134">[in] A pointer to an advise sink object to receive the subsequent notifications.</span></span> <span data-ttu-id="d2c2b-135">Este objeto de coletor de eventos advise deve já foram alocado.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-135">This advise sink object must have already been allocated.</span></span>
+> <span data-ttu-id="404a2-134">no Um ponteiro para um objeto de coletor de aviso para receber as notificações subsequentes.</span><span class="sxs-lookup"><span data-stu-id="404a2-134">[in] A pointer to an advise sink object to receive the subsequent notifications.</span></span> <span data-ttu-id="404a2-135">Este objeto de coletor de aviso deve já ter sido alocado.</span><span class="sxs-lookup"><span data-stu-id="404a2-135">This advise sink object must have already been allocated.</span></span>
     
- <span data-ttu-id="d2c2b-136">_lpulConnection_</span><span class="sxs-lookup"><span data-stu-id="d2c2b-136">_lpulConnection_</span></span>
+ <span data-ttu-id="404a2-136">_lpulConnection_</span><span class="sxs-lookup"><span data-stu-id="404a2-136">_lpulConnection_</span></span>
   
-> <span data-ttu-id="d2c2b-137">[out] Um ponteiro para um número diferente de zero que representa a conexão entre o chamador avise o objeto coletor de eventos e a sessão.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-137">[out] A pointer to a nonzero number that represents the connection between the caller's advise sink object and the session.</span></span>
+> <span data-ttu-id="404a2-137">bota Um ponteiro para um número diferente de zero que representa a conexão entre o objeto de coletor de aviso do chamador e a sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-137">[out] A pointer to a nonzero number that represents the connection between the caller's advise sink object and the session.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d2c2b-138">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="d2c2b-138">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="404a2-138">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="404a2-138">Return value</span></span>
 
-<span data-ttu-id="d2c2b-139">S_OK</span><span class="sxs-lookup"><span data-stu-id="d2c2b-139">S_OK</span></span> 
+<span data-ttu-id="404a2-139">S_OK</span><span class="sxs-lookup"><span data-stu-id="404a2-139">S_OK</span></span> 
   
-> <span data-ttu-id="d2c2b-140">O registro foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-140">The registration was successful.</span></span>
+> <span data-ttu-id="404a2-140">O registro foi bem-sucedido.</span><span class="sxs-lookup"><span data-stu-id="404a2-140">The registration was successful.</span></span>
     
-<span data-ttu-id="d2c2b-141">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="d2c2b-141">MAPI_E_INVALID_ENTRYID</span></span> 
+<span data-ttu-id="404a2-141">MAPI_E_INVALID_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="404a2-141">MAPI_E_INVALID_ENTRYID</span></span> 
   
-> <span data-ttu-id="d2c2b-142">O identificador de entrada apontado pela _lpEntryID_ não representa um identificador de entrada válida.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-142">The entry identifier pointed to by  _lpEntryID_ does not represent a valid entry identifier.</span></span> 
+> <span data-ttu-id="404a2-142">O identificador de entrada apontado por _lpEntryID_ não representa um identificador de entrada válido.</span><span class="sxs-lookup"><span data-stu-id="404a2-142">The entry identifier pointed to by  _lpEntryID_ does not represent a valid entry identifier.</span></span> 
     
-<span data-ttu-id="d2c2b-143">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="d2c2b-143">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="404a2-143">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="404a2-143">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="d2c2b-144">O provedor de serviços para o identificador de entrada apontado pela _lpEntryID_ responsável não suporta o tipo de eventos especificado no parâmetro _ulEventMask_ ou não oferece suporte a notificação.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-144">The service provider responsible for the entry identifier pointed to by  _lpEntryID_ either does not support the type of events specified in the  _ulEventMask_ parameter or does not support notification.</span></span> 
+> <span data-ttu-id="404a2-144">O provedor de serviços responsável pelo identificador de entrada apontado pelo _lpEntryID_ não oferece suporte ao tipo de eventos especificado no parâmetro _ulEventMask_ ou não dá suporte à notificação.</span><span class="sxs-lookup"><span data-stu-id="404a2-144">The service provider responsible for the entry identifier pointed to by  _lpEntryID_ either does not support the type of events specified in the  _ulEventMask_ parameter or does not support notification.</span></span> 
     
-<span data-ttu-id="d2c2b-145">MAPI_E_UNKNOWN_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="d2c2b-145">MAPI_E_UNKNOWN_ENTRYID</span></span> 
+<span data-ttu-id="404a2-145">MAPI_E_UNKNOWN_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="404a2-145">MAPI_E_UNKNOWN_ENTRYID</span></span> 
   
-> <span data-ttu-id="d2c2b-146">O identificador de entrada apontado pela _lpEntryID_ não pode ser manipulado por qualquer um dos provedores de serviços no perfil.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-146">The entry identifier pointed to by  _lpEntryID_ cannot be handled by any of the service providers in the profile.</span></span> 
+> <span data-ttu-id="404a2-146">O identificador de entrada indicado pelo _lpEntryID_ não pode ser manipulado por nenhum dos provedores de serviços no perfil.</span><span class="sxs-lookup"><span data-stu-id="404a2-146">The entry identifier pointed to by  _lpEntryID_ cannot be handled by any of the service providers in the profile.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="d2c2b-147">Comentários</span><span class="sxs-lookup"><span data-stu-id="d2c2b-147">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="404a2-147">Comentários</span><span class="sxs-lookup"><span data-stu-id="404a2-147">Remarks</span></span>
 
-<span data-ttu-id="d2c2b-148">O método **IMAPISession::Advise** estabelece uma conexão entre o chamador do objeto de coletor de eventos, a sessão e, opcionalmente, um provedor de serviços de aviso.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-148">The **IMAPISession::Advise** method establishes a connection between the caller's advise sink object, the session and, optionally, a service provider.</span></span> <span data-ttu-id="d2c2b-149">Essa conexão é usado para enviar notificações para o coletor de advise quando um ou mais eventos especificados no parâmetro _ulEventMask_ ocorrem ao objeto apontado pela _lpEntryID_.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-149">This connection is used to send notifications to the advise sink when one or more events specified in the  _ulEventMask_ parameter occur to the object pointed to by  _lpEntryID_.</span></span> <span data-ttu-id="d2c2b-150">Quando _lpEntryID_ for NULL, o objeto de destino é a sessão e notificações serão enviadas somente para erros críticos e eventos estendidos.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-150">When  _lpEntryID_ is NULL, the target object is the session and notifications are sent only for critical errors and extended events.</span></span> 
+<span data-ttu-id="404a2-148">O método **IMAPISession:: Advise** estabelece uma conexão entre o objeto de coletor de aviso do chamador, a sessão e, opcionalmente, um provedor de serviços.</span><span class="sxs-lookup"><span data-stu-id="404a2-148">The **IMAPISession::Advise** method establishes a connection between the caller's advise sink object, the session and, optionally, a service provider.</span></span> <span data-ttu-id="404a2-149">Essa conexão é usada para enviar notificações para o coletor de avisos quando um ou mais eventos especificados no parâmetro _ulEventMask_ ocorrem ao objeto apontado por _lpEntryID_.</span><span class="sxs-lookup"><span data-stu-id="404a2-149">This connection is used to send notifications to the advise sink when one or more events specified in the  _ulEventMask_ parameter occur to the object pointed to by  _lpEntryID_.</span></span> <span data-ttu-id="404a2-150">Quando _lpEntryID_ é nulo, o objeto de destino é a sessão e as notificações são enviadas somente para erros críticos e eventos estendidos.</span><span class="sxs-lookup"><span data-stu-id="404a2-150">When  _lpEntryID_ is NULL, the target object is the session and notifications are sent only for critical errors and extended events.</span></span> 
   
-<span data-ttu-id="d2c2b-151">Quando _lpEntryID_ aponta para um identificador de entrada válida, MAPI chama o método **Advise** do objeto de logon que pertence ao provedor de serviços responsável.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-151">When  _lpEntryID_ points to a valid entry identifier, MAPI calls the **Advise** method of the logon object that belongs to the responsible service provider.</span></span> <span data-ttu-id="d2c2b-152">Por exemplo, se _lpEntryID_ aponta para o identificador de entrada de uma lista de distribuição, MAPI chama o método de [IABLogon::Advise](iablogon-advise.md) do provedor de catálogo de endereço apropriado.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-152">For example, if  _lpEntryID_ points to the entry identifier of a distribution list, MAPI calls the appropriate address book provider's [IABLogon::Advise](iablogon-advise.md) method.</span></span> 
+<span data-ttu-id="404a2-151">Quando o _lpEntryID_ aponta para um identificador de entrada válido, o MAPI chama o método **Advise** do objeto de logon que pertence ao provedor de serviços responsável.</span><span class="sxs-lookup"><span data-stu-id="404a2-151">When  _lpEntryID_ points to a valid entry identifier, MAPI calls the **Advise** method of the logon object that belongs to the responsible service provider.</span></span> <span data-ttu-id="404a2-152">Por exemplo, se _lpEntryID_ apontar para o identificador de entrada de uma lista de distribuição, o MAPI chamará o método [IABLogon:: Advise](iablogon-advise.md) do provedor de catálogo de endereços apropriado.</span><span class="sxs-lookup"><span data-stu-id="404a2-152">For example, if  _lpEntryID_ points to the entry identifier of a distribution list, MAPI calls the appropriate address book provider's [IABLogon::Advise](iablogon-advise.md) method.</span></span> 
   
-<span data-ttu-id="d2c2b-153">Para enviar uma notificação, o provedor de serviços ou o MAPI chama o método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do coletor de eventos registrados advise.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-153">To send a notification, either the service provider or MAPI calls the registered advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method.</span></span> <span data-ttu-id="d2c2b-154">Um dos parâmetros para **OnNotify**, uma estrutura de notificação, contém informações que descrevem o evento específico.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-154">One of the parameters to **OnNotify**, a notification structure, contains information that describes the specific event.</span></span>
+<span data-ttu-id="404a2-153">Para enviar uma notificação, o provedor de serviços ou MAPI chama o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do coletor de avisos registrado.</span><span class="sxs-lookup"><span data-stu-id="404a2-153">To send a notification, either the service provider or MAPI calls the registered advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method.</span></span> <span data-ttu-id="404a2-154">Um dos parâmetros para **OnNotify**, uma estrutura de notificação, contém informações que descrevem o evento específico.</span><span class="sxs-lookup"><span data-stu-id="404a2-154">One of the parameters to **OnNotify**, a notification structure, contains information that describes the specific event.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="d2c2b-155">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="d2c2b-155">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="404a2-155">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="404a2-155">Notes to callers</span></span>
 
-<span data-ttu-id="d2c2b-156">Nos sistemas que oferecem suporte a vários threads de execução, a chamada para **OnNotify** também pode ocorrer em qualquer segmento a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-156">On systems that support multiple threads of execution, the call to **OnNotify** can also occur on any thread at any time.</span></span> <span data-ttu-id="d2c2b-157">Se você precisar de garantia de que as notificações ocorrerá apenas em um momento específico em um determinado thread, chame a função de [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) para gerar o objeto coletor de eventos advise que você passa para o método **Advise** .</span><span class="sxs-lookup"><span data-stu-id="d2c2b-157">If you need assurance that notifications will occur only at a particular time on a particular thread, call the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function to generate the advise sink object that you pass to the **Advise** method.</span></span> 
+<span data-ttu-id="404a2-156">Em sistemas que dão suporte a vários threads de execução, \*\*\*\* a chamada para OnNotify também pode ocorrer em qualquer thread a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="404a2-156">On systems that support multiple threads of execution, the call to **OnNotify** can also occur on any thread at any time.</span></span> <span data-ttu-id="404a2-157">Se você precisar de garantia de que as notificações ocorrerão apenas em um determinado momento em um thread específico, chame a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) para gerar o objeto de coletor de aviso que você passa para o método **Advise** .</span><span class="sxs-lookup"><span data-stu-id="404a2-157">If you need assurance that notifications will occur only at a particular time on a particular thread, call the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function to generate the advise sink object that you pass to the **Advise** method.</span></span> 
   
-<span data-ttu-id="d2c2b-158">Para determinar quando um cliente tiverem feito logoff, registre-se para notificações no seu provedor de serviço chamando **Advise** com _lpEntryID_ definido como NULL e _cbEntryID_ definida como 0.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-158">To determine when a client has logged off, register for notifications in your service provider by calling **Advise** with  _lpEntryID_ set to NULL and  _cbEntryID_ set to 0.</span></span> <span data-ttu-id="d2c2b-159">Quando o logoff ocorre, você receberá uma notificação fnevExtended.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-159">When the logoff occurs, you will receive an fnevExtended notification.</span></span> 
+<span data-ttu-id="404a2-158">Para determinar quando um cliente fez logoff, registre-se para notificações no seu provedor de serviços chamando **avisar** com _lpEntryID_ definido como nulo e _cbEntryID_ definido como 0.</span><span class="sxs-lookup"><span data-stu-id="404a2-158">To determine when a client has logged off, register for notifications in your service provider by calling **Advise** with  _lpEntryID_ set to NULL and  _cbEntryID_ set to 0.</span></span> <span data-ttu-id="404a2-159">Quando o logoff ocorrer, você receberá uma notificação fnevExtended.</span><span class="sxs-lookup"><span data-stu-id="404a2-159">When the logoff occurs, you will receive an fnevExtended notification.</span></span> 
   
-<span data-ttu-id="d2c2b-160">Depois que uma chamada para **Advise** teve sucesso e antes de [IMAPISession::Unadvise](imapisession-unadvise.md) tiver sido chamado para cancelar o registro, libere seu objeto de coletor de eventos advise a menos que tenha um uso específico de longo prazo para ele.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-160">After a call to **Advise** has succeeded and before [IMAPISession::Unadvise](imapisession-unadvise.md) has been called to cancel the registration, release your advise sink object unless you have a specific long-term use for it.</span></span> 
+<span data-ttu-id="404a2-160">Após uma chamada a **Advise** ter sido bem-sucedida e antes de [IMAPISession:: Unadvise](imapisession-unadvise.md) foi chamado para cancelar o registro, libere seu objeto de coletor de aviso, a menos que você tenha um uso específico de longo prazo para ele.</span><span class="sxs-lookup"><span data-stu-id="404a2-160">After a call to **Advise** has succeeded and before [IMAPISession::Unadvise](imapisession-unadvise.md) has been called to cancel the registration, release your advise sink object unless you have a specific long-term use for it.</span></span> 
   
-<span data-ttu-id="d2c2b-161">Para obter uma visão geral do processo de notificação, consulte [Notificação de evento em MAPI](event-notification-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="d2c2b-161">For an overview of the notification process, see [Event Notification in MAPI](event-notification-in-mapi.md).</span></span> 
+<span data-ttu-id="404a2-161">Para obter uma visão geral do processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="404a2-161">For an overview of the notification process, see [Event Notification in MAPI](event-notification-in-mapi.md).</span></span> 
   
-<span data-ttu-id="d2c2b-162">Para obter mais informações sobre como manipular notificações, consulte [Manipulação de notificações](handling-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="d2c2b-162">For more information about handling notifications, see [Handling Notifications](handling-notifications.md).</span></span> 
+<span data-ttu-id="404a2-162">Para obter mais informações sobre como lidar com notificações, consulte [Handling Notifications](handling-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="404a2-162">For more information about handling notifications, see [Handling Notifications](handling-notifications.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="d2c2b-163">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="d2c2b-163">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="404a2-163">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="404a2-163">MFCMAPI reference</span></span>
 
-<span data-ttu-id="d2c2b-164">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-164">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="404a2-164">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="404a2-164">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="d2c2b-165">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="d2c2b-165">**File**</span></span>|<span data-ttu-id="d2c2b-166">**Function**</span><span class="sxs-lookup"><span data-stu-id="d2c2b-166">**Function**</span></span>|<span data-ttu-id="d2c2b-167">**Comment**</span><span class="sxs-lookup"><span data-stu-id="d2c2b-167">**Comment**</span></span>|
+|<span data-ttu-id="404a2-165">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="404a2-165">**File**</span></span>|<span data-ttu-id="404a2-166">**Função**</span><span class="sxs-lookup"><span data-stu-id="404a2-166">**Function**</span></span>|<span data-ttu-id="404a2-167">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="404a2-167">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d2c2b-168">BaseDialog.cpp</span><span class="sxs-lookup"><span data-stu-id="d2c2b-168">BaseDialog.cpp</span></span>  <br/> |<span data-ttu-id="d2c2b-169">CBaseDialog::OnNotificationsOn</span><span class="sxs-lookup"><span data-stu-id="d2c2b-169">CBaseDialog::OnNotificationsOn</span></span>  <br/> |<span data-ttu-id="d2c2b-170">MFCMAPI usa o método **IMAPISession::Advise** para registrar para notificações contra a sessão.</span><span class="sxs-lookup"><span data-stu-id="d2c2b-170">MFCMAPI uses the **IMAPISession::Advise** method to register for notifications against the session.</span></span>  <br/> |
+|<span data-ttu-id="404a2-168">BaseDialog. cpp</span><span class="sxs-lookup"><span data-stu-id="404a2-168">BaseDialog.cpp</span></span>  <br/> |<span data-ttu-id="404a2-169">CBaseDialog:: onNotification</span><span class="sxs-lookup"><span data-stu-id="404a2-169">CBaseDialog::OnNotificationsOn</span></span>  <br/> |<span data-ttu-id="404a2-170">MFCMAPI usa o método **IMAPISession:: Advise** para registrar notificações em relação à sessão.</span><span class="sxs-lookup"><span data-stu-id="404a2-170">MFCMAPI uses the **IMAPISession::Advise** method to register for notifications against the session.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d2c2b-171">Confira também</span><span class="sxs-lookup"><span data-stu-id="d2c2b-171">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="404a2-171">Confira também</span><span class="sxs-lookup"><span data-stu-id="404a2-171">See also</span></span>
 
 
 
-[<span data-ttu-id="d2c2b-172">IABLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="d2c2b-172">IABLogon::Advise</span></span>](iablogon-advise.md)
+[<span data-ttu-id="404a2-172">IABLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="404a2-172">IABLogon::Advise</span></span>](iablogon-advise.md)
   
-[<span data-ttu-id="d2c2b-173">HrThisThreadAdviseSink</span><span class="sxs-lookup"><span data-stu-id="d2c2b-173">HrThisThreadAdviseSink</span></span>](hrthisthreadadvisesink.md)
+[<span data-ttu-id="404a2-173">HrThisThreadAdviseSink</span><span class="sxs-lookup"><span data-stu-id="404a2-173">HrThisThreadAdviseSink</span></span>](hrthisthreadadvisesink.md)
   
-[<span data-ttu-id="d2c2b-174">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="d2c2b-174">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="404a2-174">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="404a2-174">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="d2c2b-175">IMAPISession::Unadvise</span><span class="sxs-lookup"><span data-stu-id="d2c2b-175">IMAPISession::Unadvise</span></span>](imapisession-unadvise.md)
+[<span data-ttu-id="404a2-175">IMAPISession::Unadvise</span><span class="sxs-lookup"><span data-stu-id="404a2-175">IMAPISession::Unadvise</span></span>](imapisession-unadvise.md)
   
-[<span data-ttu-id="d2c2b-176">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d2c2b-176">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="404a2-176">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="404a2-176">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="d2c2b-177">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="d2c2b-177">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="404a2-177">MFCMAPI como exemplo de código</span><span class="sxs-lookup"><span data-stu-id="404a2-177">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="d2c2b-178">Notificações de eventos no MAPI</span><span class="sxs-lookup"><span data-stu-id="d2c2b-178">Event Notification in MAPI</span></span>](event-notification-in-mapi.md)
+[<span data-ttu-id="404a2-178">Notificação de evento no MAPI</span><span class="sxs-lookup"><span data-stu-id="404a2-178">Event Notification in MAPI</span></span>](event-notification-in-mapi.md)
 

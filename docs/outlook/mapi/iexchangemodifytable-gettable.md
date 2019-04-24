@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87c60f424e08eea011bb643041196ca9445a3aa1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336614"
 ---
-# <a name="iexchangemodifytablegettable"></a><span data-ttu-id="449c3-103">IExchangeModifyTable::GetTable</span><span class="sxs-lookup"><span data-stu-id="449c3-103">IExchangeModifyTable::GetTable</span></span>
+# <a name="iexchangemodifytablegettable"></a><span data-ttu-id="380b5-103">IExchangeModifyTable::GetTable</span><span class="sxs-lookup"><span data-stu-id="380b5-103">IExchangeModifyTable::GetTable</span></span>
 
   
   
-<span data-ttu-id="449c3-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="449c3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="380b5-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="380b5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="449c3-105">Retorna um ponteiro para uma interface para um objeto table MAPI.</span><span class="sxs-lookup"><span data-stu-id="449c3-105">Returns a pointer to an interface for a MAPI table object.</span></span>
+<span data-ttu-id="380b5-105">Retorna um ponteiro para uma interface de um objeto MAPI da tabela.</span><span class="sxs-lookup"><span data-stu-id="380b5-105">Returns a pointer to an interface for a MAPI table object.</span></span>
   
 ```cpp
 HRESULT GetTable( 
@@ -35,42 +35,42 @@ HRESULT GetTable(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="449c3-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="449c3-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="380b5-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="380b5-106">Parameters</span></span>
 
- <span data-ttu-id="449c3-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="449c3-107">_ulFlags_</span></span>
+ <span data-ttu-id="380b5-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="380b5-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="449c3-108">[in] Reservado; deve ser 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="449c3-108">[in] Reserved; must be 0 (zero).</span></span>
+> <span data-ttu-id="380b5-108">no Serve deve ser 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="380b5-108">[in] Reserved; must be 0 (zero).</span></span>
     
-<span data-ttu-id="449c3-109">ACLTABLE_FREEBUSY</span><span class="sxs-lookup"><span data-stu-id="449c3-109">ACLTABLE_FREEBUSY</span></span>
+<span data-ttu-id="380b5-109">ACLTABLE_FREEBUSY</span><span class="sxs-lookup"><span data-stu-id="380b5-109">ACLTABLE_FREEBUSY</span></span>
   
-> <span data-ttu-id="449c3-110">Define o novos direitos.</span><span class="sxs-lookup"><span data-stu-id="449c3-110">Sets new rights.</span></span>
+> <span data-ttu-id="380b5-110">Define novos direitos.</span><span class="sxs-lookup"><span data-stu-id="380b5-110">Sets new rights.</span></span>
     
-<span data-ttu-id="449c3-111">frightsFreeBusyDetailed</span><span class="sxs-lookup"><span data-stu-id="449c3-111">frightsFreeBusyDetailed</span></span>
+<span data-ttu-id="380b5-111">frightsFreeBusyDetailed</span><span class="sxs-lookup"><span data-stu-id="380b5-111">frightsFreeBusyDetailed</span></span>
   
-> <span data-ttu-id="449c3-112">Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada das novas direitos de livre/ocupado.</span><span class="sxs-lookup"><span data-stu-id="449c3-112">When ACLTABLE_FREEBUSY is passed, provides a detailed display of new free/busy rights.</span></span>
+> <span data-ttu-id="380b5-112">Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada dos novos direitos de disponibilidade.</span><span class="sxs-lookup"><span data-stu-id="380b5-112">When ACLTABLE_FREEBUSY is passed, provides a detailed display of new free/busy rights.</span></span>
     
-<span data-ttu-id="449c3-113">frightsFreeBusySimple</span><span class="sxs-lookup"><span data-stu-id="449c3-113">frightsFreeBusySimple</span></span>
+<span data-ttu-id="380b5-113">frightsFreeBusySimple</span><span class="sxs-lookup"><span data-stu-id="380b5-113">frightsFreeBusySimple</span></span>
   
-> <span data-ttu-id="449c3-114">Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição simple de novos direitos de livre/ocupado.</span><span class="sxs-lookup"><span data-stu-id="449c3-114">When ACLTABLE_FREEBUSY is passed, provides a simple display of new free/busy rights.</span></span>
+> <span data-ttu-id="380b5-114">Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição simples de novos direitos de disponibilidade.</span><span class="sxs-lookup"><span data-stu-id="380b5-114">When ACLTABLE_FREEBUSY is passed, provides a simple display of new free/busy rights.</span></span>
     
- <span data-ttu-id="449c3-115">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="449c3-115">_lppTable_</span></span>
+ <span data-ttu-id="380b5-115">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="380b5-115">_lppTable_</span></span>
   
-> <span data-ttu-id="449c3-116">[out] Aponta para um [IMAPITable: IUnknown](imapitableiunknown.md) interface que contém o objeto table.</span><span class="sxs-lookup"><span data-stu-id="449c3-116">[out] Points to a [IMAPITable : IUnknown](imapitableiunknown.md) interface containing the table object.</span></span> 
+> <span data-ttu-id="380b5-116">bota Aponta para uma interface imApitable [: IUnknown](imapitableiunknown.md) contendo o objeto Table.</span><span class="sxs-lookup"><span data-stu-id="380b5-116">[out] Points to a [IMAPITable : IUnknown](imapitableiunknown.md) interface containing the table object.</span></span> 
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="449c3-117">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="449c3-117">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="380b5-117">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="380b5-117">MFCMAPI reference</span></span>
 
-<span data-ttu-id="449c3-118">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="449c3-118">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="380b5-118">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="380b5-118">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="449c3-119">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="449c3-119">**File**</span></span>|<span data-ttu-id="449c3-120">**Function**</span><span class="sxs-lookup"><span data-stu-id="449c3-120">**Function**</span></span>|<span data-ttu-id="449c3-121">**Comment**</span><span class="sxs-lookup"><span data-stu-id="449c3-121">**Comment**</span></span>|
+|<span data-ttu-id="380b5-119">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="380b5-119">**File**</span></span>|<span data-ttu-id="380b5-120">**Função**</span><span class="sxs-lookup"><span data-stu-id="380b5-120">**Function**</span></span>|<span data-ttu-id="380b5-121">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="380b5-121">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="449c3-122">RulesDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="449c3-122">RulesDlg.cpp</span></span>  <br/> |<span data-ttu-id="449c3-123">CRulesDlg::OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="449c3-123">CRulesDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="449c3-124">MFCMAPI usa o método **IExchangeModifyTable::GetTable** para obter uma tabela de regras.</span><span class="sxs-lookup"><span data-stu-id="449c3-124">MFCMAPI uses the **IExchangeModifyTable::GetTable** method to get a table of rules.</span></span>  <br/> |
+|<span data-ttu-id="380b5-122">RulesDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="380b5-122">RulesDlg.cpp</span></span>  <br/> |<span data-ttu-id="380b5-123">CRulesDlg:: OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="380b5-123">CRulesDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="380b5-124">MFCMAPI usa o método **IExchangeModifyTable:: GetTable** para obter uma tabela de regras.</span><span class="sxs-lookup"><span data-stu-id="380b5-124">MFCMAPI uses the **IExchangeModifyTable::GetTable** method to get a table of rules.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="449c3-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="449c3-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="380b5-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="380b5-125">See also</span></span>
 
 
 
-[<span data-ttu-id="449c3-126">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="449c3-126">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
+[<span data-ttu-id="380b5-126">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="380b5-126">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
 
 
-[<span data-ttu-id="449c3-127">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="449c3-127">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="380b5-127">MFCMAPI como exemplo de código</span><span class="sxs-lookup"><span data-stu-id="380b5-127">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
