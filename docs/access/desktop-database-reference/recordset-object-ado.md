@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 636681cf8e0c20f078387b21974141a9cb66cfcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300473"
 ---
 # <a name="recordset-object-ado"></a>Objeto Recordset (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa o conjunto completo de registros de uma tabela base ou os resultados de um comando executado. Sempre que for adequado, o objeto **Recordset** fará referência somente a um único registro do conjunto como o registro atual.
 
@@ -36,7 +36,7 @@ Existem quatro tipos de cursores diferentes definidos no ADO:
 
   - **Cursor apenas de avanço**  permite somente o avanço do **Recordset**. Não serão visíveis adições, alterações ou exclusões dos outros usuários. Isso melhora o desempenho em situações nas quais você precisar fazer somente uma única passagem em um **Recordset**.
 
-Defina a propriedade [CursorType](cursortype-property-ado.md) antes de abrir o **Recordset** para escolher o tipo de cursor ou passar um argumento *CursorType* com o método [Open](open-method-ado-recordset.md) . Alguns provedores não suportam todos os tipos de cursores. Verifique a documentação do provedor. Se você não especificar um tipo de cursor, o ADO abrirá o cursor apenas de avanço por padrão.
+Defina a propriedade [CursorType](cursortype-property-ado.md) antes de abrir o **Recordset** para escolher o tipo de cursor ou passar um argumento *CursorType* com o método [Open](open-method-ado-recordset.md). Alguns provedores não suportam todos os tipos de cursores. Verifique a documentação do provedor. Se você não especificar um tipo de cursor, o ADO abrirá o cursor apenas de avanço por padrão.
 
 Se a propriedade [CursorLocation](cursorlocation-property-ado.md) está definida como **adUseClient** para abrir um **Recordset**, a propriedade **UnderlyingValue** nos objetos [Field](field-object-ado.md) não estará disponível no objeto **Recordset** retornado. Quando usada com alguns provedores (como o Microsoft ODBC Provider for OLE DB em conjunto com o Microsoft SQL Server), permite criar objetos **Recordset** de forma independente de um objeto [Connection](connection-object-ado.md) definido anteriormente por meio da passagem de uma sequência de conexão com o método **Open**. O ADO ainda criará um objeto [Connection](connection-object-ado.md), mas não atribuirá esse objeto a uma variável de objeto. No entanto, se você está abrindo vários objetos **Recordset** na mesma conexão, deverá criar e abrir, de forma explícita, um objeto **Connection**; isso atribuirá o objeto **Connection** a uma variável de objeto. Se você não usar essa variável de objeto ao abrir os objetos **Recordset**, o ADO criará um novo objeto **Connection** para cada novo **Recordset**, ainda que você passe a mesma sequência de conexão.
 

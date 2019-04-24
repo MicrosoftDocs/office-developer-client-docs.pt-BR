@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68583b1ee211802a3cade63e85f0f62bbf3cb686
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308502"
 ---
 # <a name="status-property-example-field-vb"></a>Exemplo da propriedade Status (Field) (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O exemplo a seguir abre um documento a partir de uma pasta leitura/gravação utilizando o [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). A propriedade [Status](status-property-ado-field.md) de um objeto [Field](field-object-ado.md) do [Record](record-object-ado.md) será definida primeiramente como **adFieldPendingInsert** e, em seguida, atualizada como **adFieldOk**.
 

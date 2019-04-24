@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d492463a79d4422404c19e72f72f30bcd4797a22
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302538"
 ---
 # <a name="workspacename-property-dao"></a>Propriedade Workspace.Name (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna ou define o nome do objeto especificado. **String** de leitura/gravação se o objeto não foi acrescentado a uma coleção. **String** somente leitura se o objeto foi acrescentado a uma coleção.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Nome
+*expressão* . Tdomínio
 
 *expressão* Uma variável que representa um objeto **Workspace** .
 

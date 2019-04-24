@@ -1,5 +1,5 @@
 ---
-title: Método Workspace.BeginTrans (DAO)
+title: Método Workspace. BeginTrans (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: aa7c3bf8-fb08-9360-5998-4bf3f721ecbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c143d91c3dfe786c3245c2b67768c57379869e75
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302545"
 ---
-# <a name="workspacebegintrans-method-dao"></a>Método Workspace.BeginTrans (DAO)
+# <a name="workspacebegintrans-method-dao"></a>Método Workspace. BeginTrans (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Inicia uma nova transação. **Database** de leitura/gravação.
 
@@ -60,7 +60,7 @@ Nos espaços de trabalho ODBC, quando você usa **CommitTrans**, seu cursor pode
 
 O exemplo a seguir mostra como usar uma transação em um espaço de trabalho de Data Access Objects (DAO).
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Sub TransferFunds()

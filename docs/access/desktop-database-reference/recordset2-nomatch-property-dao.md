@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.NoMatch (DAO)
+title: Propriedade Recordset2. noMatch (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c3168dcce9fb13d057380e7a1a4ef89f8814e02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309391"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2.NoMatch (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2. noMatch (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica se um registro específico foi encontrado usando o método **[Seek](recordset2-seek-method-dao.md)** ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access).
 
@@ -28,7 +28,7 @@ Indica se um registro específico foi encontrado usando o método **[Seek](recor
 
 ## <a name="remarks"></a>Comentários
 
-Quando você abrir ou criar um objeto **[Recordset](recordset-object-dao.md)**, sua propriedade **NoMatch** será definida como **False**.
+Quando você abrir ou criar um objeto **[Recordset](recordset-object-dao.md)**, a propriedade **NoMatch** será definida como **False**.
 
 Para localizar um registro, use o método **Seek** em um **Recordset** do tipo tabela ou um dos métodos **Find** em um objeto **Recordset** do tipo dynaset ou instantâneo. Verifique a definição da propriedade **NoMatch** para verificar se o registro foi encontrado.
 
@@ -39,7 +39,7 @@ Se o método **Seek** ou **Find** não for bem-sucedido e a propriedade **NoMatc
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a propriedade **NoMatch** para determinar se **Seek** e **FindFirst** foram bem-sucedidos e, se não foram, fornece os comentários adequados. Os procedimentos SeekMatch e FindMatch são necessários para executar esse procedimento.
+Este exemplo usa a propriedade **NoMatch** para determinar se um **Seek** e um **FindFirst** foram bem-sucedidos e, em caso negativo, para fornecer os comentários apropriados. Os procedimentos SeekMatch e FindMatch são exigidos para que esse procedimento seja executado.
 
 ```vb
     Sub NoMatchX() 

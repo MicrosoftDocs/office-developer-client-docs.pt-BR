@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f9fdf9dd5908b65ae3b6f6ce5a44eba07e4d9bb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308803"
 ---
 # <a name="searchdirectionenum"></a>SearchDirectionEnum
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a direção de uma pesquisa de registro em um [Recorset](recordset-object-ado.md).
 
@@ -49,7 +49,7 @@ Especifica a direção de uma pesquisa de registro em um [Recorset](recordset-ob
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -59,15 +59,15 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.SearchDirection.BACKWARD</p></td>
+<td><p>AdoEnums. SearchDirection. BACKWARD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.SearchDirection.FORWARD</p></td>
+<td><p>AdoEnums. SearchDirection. FORWARD</p></td>
 </tr>
 </tbody>
 </table>

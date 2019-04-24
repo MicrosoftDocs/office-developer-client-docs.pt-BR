@@ -1,5 +1,5 @@
 ---
-title: Cursores estáticos (referência de banco de dados da área de trabalho do Access)
+title: Cursores estáticos (referência do banco de dados do Access Desktop)
 TOCTitle: Static cursors
 ms:assetid: 1acf7fc5-fb12-e59e-f480-dde378a29c53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2eb019a6fc960d58771ff5ab0de7dca547c55f1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308537"
 ---
 # <a name="static-cursors"></a>Cursores estáticos
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O cursor estático sempre exibe o conjunto de resultados como ele era antes de o cursor ser aberto pela primeira vez. Dependendo da implementação, cursores estáticos são somente leitura ou de leitura/gravação, e fornecem rolamento de avanço e de recuo, O cursor estático geralmente não detecta alterações feitas em associações, pedidos, valores ou valores do conjunto de resultados depois que o cursor é aberto. Os cursores estáticos podem detectar suas próprias atualizações, exclusões e inserções, apesar de não serem solicitados a fazê-lo.
 

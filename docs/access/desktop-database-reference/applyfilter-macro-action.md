@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296994"
 ---
 # <a name="applyfilter-macro-action"></a>Ação da macro AplicarFiltro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AplicarFiltro** para aplicar um filtro, uma consulta ou uma cláusula SQL WHERE a uma tabela, um formulário ou um relatório para restringir ou classificar os registros da tabela, ou os registros da tabela ou consulta subjacente do formulário ou relatório. Para relatórios, é possível usar esta ação somente em uma macro especificada pela propriedade de evento **AoAbrir** do relatório.
 
@@ -45,21 +45,19 @@ A ação **AplicarFiltro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do Filtro</p></td>
-<td><p>O nome de um filtro ou uma consulta que restringe ou classifica os registros da tabela, formulário ou relatório. Você pode inserir o nome de uma consulta existente ou um filtro que foi salvo como uma consulta na caixa <strong>Nome do filtro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do <strong>Construtor de macros</strong> .</p><p><strong>Observação</strong>: quando você estiver usando essa ação para aplicar um filtro de servidor, o argumento Nome do filtro deve estar em branco.</p></td>
+<td><p>O nome de um filtro ou consulta que restringe ou classifica os registros da tabela, do formulário ou do relatório. Você pode inserir o nome de uma consulta existente ou de um filtro que tenha sido salvo como uma consulta na caixa <strong>nome do filtro</strong> na seção <strong>argumentos da ação</strong> do painel <strong>Construtor</strong> de macros.</p><p><strong>Observação</strong>: quando você estiver usando esta ação para aplicar um filtro de servidor, o argumento Nome do filtro deverá ficar em branco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
-<td><p>Uma cláusula SQL WHERE válida (sem a palavra WHERE) ou uma expressão que restringe os registros da tabela, do formulário ou do relatório. 
-
-</p>
-<p><b>Observação</b>: em uma expressão condição onde argumento, o lado esquerdo da expressão normalmente contém um nome de campo da tabela ou consulta base para o formulário ou relatório. Normalmente, o lado direito da expressão contém os critérios que você deseja aplicar a este campo para restringir ou classificar os registros. Por exemplo, os critérios podem ser o nome de um controle em outro formulário que contém o valor que você deseja que os registros no primeiro formulário devem corresponder. O nome do controle deve ser totalmente qualificado, por exemplo:</p>
-<p><strong>Formulários</strong>! <em>formname</em>! <em>controlname</em> Nomes de campo devem ser circundados por aspas duplas e os literais de cadeia de caracteres devem ser circundados por aspas simples. O comprimento máximo do argumento Condição Where é 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE maior, use o método <strong>ApplyFilter</strong> do objeto <strong>DoCmd</strong> no Visual Basic para módulo Applications (VBA). Você pode inserir instruções cláusula SQL WHERE de até 32.768 caracteres no VBA.</p></td>
+<td><p>Uma cláusula SQL WHERE válida (sem a palavra WHERE) ou uma expressão que restringe os registros da tabela, do formulário ou do relatório.</p>
+<p><b>Observação</b>: em uma expressão de argumento condição onde, o lado esquerdo da expressão normalmente contém um nome de campo da tabela ou consulta base para o formulário ou relatório. O lado direito da expressão normalmente contém os critérios que você deseja aplicar a esse campo para restringir ou classificar os registros. Por exemplo, os critérios podem ser o nome de um controle em outro formulário que contém o valor com o qual você deseja que os registros do primeiro formulário correspondam. O nome do controle deve ser totalmente qualificado, por exemplo:</p>
+<p><strong>Formulários</strong>! <em>FormName</em>! <em>ControlName</em> Os nomes de campo devem ser circundados por aspas duplas e os literais de cadeia de caracteres devem ser circundados por aspas simples. A extensão máxima do argumento Condição Onde é de 255 caracteres. Se precisar usar uma cláusula SQL WHERE mais extensa, use o método <strong>ApplyFilter</strong> do objeto <strong>DoCmd</strong> em um módulo do VBA (Visual Basic for Applications). Você pode inserir instruções de cláusula SQL WHERE de até 32.768 caracteres no VBA.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> [!OBSERVAçãO] Use o argumento Nome do Filtro se você já tiver definido um filtro que forneça os dados apropriados. É possível usar o argumento Condição Onde para inserir diretamente os critérios de restrição. Se você usar ambos os argumentos, o Microsoft Office Access 2007 aplicará a cláusula WHERE aos resultados do filtro. Use um dos argumentos, ou ambos.
+> [!OBSERVAçãO] Use o argumento Nome do Filtro se você já tiver definido um filtro que forneça os dados apropriados. É possível usar o argumento Where Condition para inserir diretamente os critérios de restrição. Se você usar ambos os argumentos, o Microsoft Office Access 2007 aplicará a cláusula WHERE aos resultados do filtro. Use um dos argumentos, ou ambos.
 
 ## <a name="remarks"></a>Comentários
 
@@ -77,9 +75,9 @@ Quando você salvar uma tabela ou um formulário, o Access salvará todo filtro 
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação AplicarFiltro para filtrar o formulário de frmFoods conforme ele é aberto.
+O exemplo a seguir mostra como usar a ação AplicarFiltro para filtrar o formulário frmFoods quando ele é aberto.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenForm

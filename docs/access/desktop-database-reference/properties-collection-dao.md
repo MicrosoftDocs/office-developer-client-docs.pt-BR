@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715512"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301278"
 ---
 # <a name="properties-collection-dao"></a>Coleção Properties (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção **Properties** contém todos os objetos **[Property](property-object-dao.md)** de uma instância específica de um objeto.
 
@@ -33,18 +33,18 @@ Além das propriedades internas, você também poderá criar e adicionar suas pr
 
 Para fazer referência a um objeto **Property** interno em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-- objeto. **Propriedades** (0)
+- objeções. **Propriedades** de ,0
 
-- objeto. **Propriedades** ("nome")
+- objeções. **Propriedades** de ("Name")
 
-- objeto. **Propriedades** \! \[nome\]
+- objeções. **Propriedades** de \! \[nome\]
 
-Para uma propriedade incorporada, você também pode usar esta sintaxe:
+Para uma propriedade interna, é possível usar esta sintaxe:
 
 - Object.Name
 
 > [!NOTE]
-> Para uma propriedade definida pelo usuário, você deve usar o objeto completo. **Propriedades** sintaxe ("nome").
+> Para uma propriedade definida pelo usuário, você deve usar o objeto completo. **Propriedades** de ("Name") sintaxe.
 
 Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.
 
@@ -91,7 +91,7 @@ Este exemplo cria uma propriedade definida pelo usuário para o banco de dados a
 
 <br/>
 
-Este exemplo tenta definir o valor de uma propriedade definida pelo usuário. Se a propriedade não existir, ele usará o método **CreateProperty** para criar e definir o valor da nova propriedade. O procedimento SetProperty é exigido para a execução deste procedimento.
+Este exemplo tenta definir o valor de uma propriedade definida pelo usuário. Se a propriedade não existir, será usado o método **CreateProperty** para criar e definir o valor da nova propriedade. O procedimento SetProperty é exigido para a execução deste procedimento.
 
 ```vb
     Sub CreatePropertyX() 

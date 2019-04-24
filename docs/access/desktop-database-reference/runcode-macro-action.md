@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 646c1393cc798c1f827e6ceaebf46bfe7c87bcbd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306829"
 ---
 # <a name="runcode-macro-action"></a>Ação da macro ExecutarCódigo
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use a ação **ExecutarCódigo** para chamar um procedimento Function do VBA(Visual Basic for Applications).
 
@@ -42,7 +42,7 @@ A ação **ExecutarCódigo** tem o argumento a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da função</strong></p></td>
-<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: banco de dados de um acesso (. mdb ou. accdb), clique no botão <strong>Construir</strong> para usar o construtor de expressões para selecionar uma função para este argumento. Clique na função desejada na lista no construtor de expressões.</p></td>
+<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: em um banco de dados do Access (. mdb ou. accdb), clique no botão <strong>construir</strong> para usar o construtor de expressões para selecionar uma função para esse argumento. Na lista do Construtor de Expressões, clique na função desejada.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ Você deve incluí-los entre parênteses, mesmo que o procedimento Function não
 
 `TestFunction()`
 
-Ao contrário de nomes de função definida pelo usuário usados para configurações de propriedade de evento, o nome da função no argumento **Nome da função** não começa com um sinal de igualdade (**=**).
+Diferentemente dos nomes de função definidos pelo usuário usados nas configurações da propriedade de evento, o nome da função no argumento **nome da função** não**=** começa com um sinal de igual ().
 
 O Access ignora o valor de retorno da função.
 

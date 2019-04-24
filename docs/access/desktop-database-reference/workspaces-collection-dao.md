@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c615be9e92a936486c15377514c2b695f68bb5b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308320"
 ---
 # <a name="workspaces-collection-dao"></a>Coleção Workspaces (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção **Workspaces** contém todos os objetos **Workspace** ativos e não-ocultos do objeto **DBEngine**. (Objetos **Workspace** ocultos não são acrescentados à coleção e referenciados pela variável à qual são atribuídos.)
 
@@ -25,15 +25,15 @@ Uma coleção **Workspaces** contém todos os objetos **Workspace** ativos e nã
 
 Use o objeto **Workspace** para gerenciar a sessão atual ou para iniciar uma sessão adicional.
 
-Quando você primeiro consultar ou usa um objeto **Workspace** , você cria o espaço de trabalho padrão, DBEngine.Workspaces(0) automaticamente. As configurações das propriedades **nome** e **nome de usuário** do espaço de trabalho padrão são "\#espaço de trabalho padrão\#" e "Admin", respectivamente. Se a segurança estiver ativada, a configuração da propriedade **UserName** é o nome do usuário que fez logon.
+Quando você se referir ou usar um objeto **Workspace** pela primeira vez, crie automaticamente o espaço de trabalho padrão, DBEngine. Workspaces (0). As configurações das propriedades **Name** e **username** do espaço de trabalho padrão são "\#espaço de\#trabalho padrão" e "administrador", respectivamente. Se a segurança estiver ativada, a configuração da propriedade **UserName** é o nome do usuário que fez logon.
 
 Você pode criar novos objetos **Workspace** com o método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Depois de criar um novo objeto **Workspace**, você deve acrescentá-lo à coleção **Workspaces** se precisar fazer referência a ele a partir da coleção **Workspaces**. Você pode, no entanto, usar um objeto **Workspace** recém-criado sem acrescentá-lo à coleção **Workspaces**.
 
 Para fazer referência a um objeto **Workspace** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-**DBEngine**. **Espaços de trabalho** (0)
+**DBEngine**. **Espaços de trabalho** ,0
 
-**DBEngine**. **Espaços de trabalho** ("nome")
+**DBEngine**. **Espaços de trabalho** ("Name")
 
 **DBEngine**. **Espaços de trabalho** \! \[nome\]
 
@@ -80,7 +80,7 @@ End Sub
 
 <br/>
 
-Este exemplo usa o método **CreateWorkspace** para criar um espaço de trabalho do Microsoft Access e um espaço de trabalho do ODBCDirect. Em seguida, listam-se as propriedades dos dois tipos de espaços de trabalho.
+Este exemplo usa o método **CreateWorkspace** para criar um espaço de trabalho Microsoft Access. Em seguida, ele lista as propriedades dos dois tipos de espaço de trabalho.
 
 ```vb 
 Sub CreateWorkspaceX() 

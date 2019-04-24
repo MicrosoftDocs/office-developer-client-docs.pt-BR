@@ -1,5 +1,5 @@
 ---
-title: Método TableDef.CreateProperty (DAO)
+title: Método TableDef. createProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 8a92cc64-414e-f33c-1c3e-d1b62c1688c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3018bf8cc9a62cb866b35992e25ecb1f8f41514f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308418"
 ---
-# <a name="tabledefcreateproperty-method-dao"></a>Método TableDef.CreateProperty (DAO)
+# <a name="tabledefcreateproperty-method-dao"></a>Método TableDef. createProperty (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuário (somente espaços de trabalho do Microsoft Access).
+Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuário (apenas espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -45,7 +45,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Name</em></p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Property</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Property</strong>.</p></td>
@@ -54,7 +54,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 <td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante que define o tipo de dados do novo objeto <strong>Property</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para obter tipos de dados válidos.</p></td>
+<td><p>Uma constante que define o tipo de dados do novo objeto <strong>Property</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para tipos de dados válidos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Value</em></p></td>
@@ -66,7 +66,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 <td><p><em>DDL</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo<strong>booleano</strong> ) que indica se é ou não a <strong>propriedade</strong> de um objeto DDL. O padrão é <strong>False</strong>. Se DDL for <strong>True</strong>, os usuários não podem alterar ou excluir esse objeto de <strong>propriedade</strong> , a menos que tenham permissão <strong>dbSecWriteDef</strong> .</p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>Boolean</strong>) que indica se <strong>Property</strong> é ou não um objeto DDL. O padrão é <strong>False</strong>. Se DDL for <strong>true</strong>, os usuários não poderão alterar ou excluir este objeto <strong>Property</strong> , a menos que tenham permissão <strong>dbSecWriteDef</strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,19 +74,19 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 
 ## <a name="return-value"></a>Valor de retorno
 
-Propriedade
+Propriedade	
 
 ## <a name="remarks"></a>Comentários
 
-Você pode criar um objeto **Property** definido pelo usuário somente na coleção **[Properties](properties-collection-dao.md)** de um objeto que é persistente.
+Você pode criar um objeto **Property** definido pelo usuário na coleção **[Properties](properties-collection-dao.md)** de um objeto que é persistente.
 
-Se omitir uma ou mais dessas partes opcionais quando usar **CreateProperty**, você poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto à coleção. Depois de acrescentar o objeto, você poderá alterar algumas, mas não todas as configurações de propriedade. Consulte os tópicos de propriedade de **Name**, **Type** e **Value** para obter mais detalhes.
+Se você omitir uma ou mais das partes opcionais ao utilizar **CreateProperty**, poderá usar uma instruções de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto a uma coleção. Depois de acrescentar o objeto, você poderá alterar algumas, mas não todas, as configurações de propriedade. Consulte os tópicos de propriedade **Name**, **Type** e **Value** para obter mais detalhes.
 
-Se name fizer referência a um objeto que já é um membro da coleção, ocorrerá um erro de tempo de execução quando você usa o método **[Append](fields-append-method-dao.md)** .
+Se Name se referir a um objeto que já é um membro da coleção, ocorrerá um erro em tempo de execução quando você usar o método **[Append](fields-append-method-dao.md)** .
 
 Para remover um objeto **Property** definido pelo usuário da coleção, use o método **[Delete](fields-delete-method-dao.md)** na coleção **[Properties](properties-collection-dao.md)**. Não é possível excluir propriedades internas.
 
 > [!NOTE]
-> Se você omitir o argumento DDL, o padrão é False (não-DDL). Porque nenhuma propriedade DDL correspondente é exposta, você deve excluir e recriar um objeto de **propriedade** que você deseja alterar de DDL para não-DDL.
+> Se você omitir o argumento DDL, ele será padronizado como false (não-DDL). Como nenhuma propriedade DDL correspondente é exposta, você deve excluir e recriar um objeto **Property** que você deseja alterar de DDL para não-DDL.
 
 

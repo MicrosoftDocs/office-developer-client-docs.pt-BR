@@ -1,5 +1,5 @@
 ---
-title: ConnectPromptEnum (referência de banco de dados da área de trabalho do Access)
+title: ConnectPromptEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54643a66316d7f534553c20ecc3aafdf755fb857
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295664"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se uma caixa de diálogo deve ser exibida para avisar sobre parâmetros ausentes ao abrir uma conexão para uma fonte de dados.
 
@@ -30,7 +30,7 @@ Especifica se uma caixa de diálogo deve ser exibida para avisar sobre parâmetr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -43,24 +43,24 @@ Especifica se uma caixa de diálogo deve ser exibida para avisar sobre parâmetr
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Avisar se mais informações forem necessárias.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>Avisar se mais informações forem necessárias, mas se os parâmetros opcionais não forem permitidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptNever</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Nunca avisar.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -70,21 +70,21 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ConnectPrompt.ALWAYS</p></td>
+<td><p>AdoEnums. ConnectPrompt. ALWAYs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectPrompt.COMPLETE</p></td>
+<td><p>AdoEnums. ConnectPrompt. COMPLETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectPrompt.COMPLETEREQUIRED</p></td>
+<td><p>AdoEnums. ConnectPrompt. COMPLETEREQUIRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectPrompt.NEVER</p></td>
+<td><p>AdoEnums. ConnectPrompt. NEVEr</p></td>
 </tr>
 </tbody>
 </table>

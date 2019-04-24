@@ -1,5 +1,5 @@
 ---
-title: Propriedade Update Resync dinâmica (ADO)
+title: Atualizar a propriedade dinâmica (ADO) de resincronização
 TOCTitle: Update Resync dynamic property (ADO)
 ms:assetid: 0af9cfd2-8042-65c9-cec6-77d2e7a88ad9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 653291ade258d602d7ec523dcac7e9fe51dd91fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308341"
 ---
-# <a name="update-resync-dynamic-property-ado"></a>Propriedade Update Resync dinâmica (ADO)
+# <a name="update-resync-dynamic-property-ado"></a>Atualizar a propriedade dinâmica (ADO) de resincronização
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se o método [UpdateBatch](updatebatch-method-ado.md) é seguido por uma operação de método [Resync](resync-method-ado.md) implícita e, em caso positivo, o escopo dessa operação.
 
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
 
-Define ou retorna uma ou mais do [ADCPROP\_UPDATERESYNC\_ENUM](adcprop-updateresync-enum.md) valores.
+Define ou retorna um ou mais dos valores [de\_enumeração\_ADCPROP UPDATERESYNC](adcprop-updateresync-enum.md) .
 
 ## <a name="remarks"></a>Comentários
 
-Os valores de ADCPROP\_UPDATERESYNC\_ENUM pode ser combinado, exceto para adresyncall, que já representa a combinação do restante dos valores.
+Os valores de enumeração\_ADCPROP\_UPDATERESYNC podem ser combinados, exceto para adResyncAll que já representa a combinação do restante dos valores.
 
 A constante **adResyncConflicts** armazena os valores de ressincronização como valores de base, mas não substitui as alterações pendentes.
 

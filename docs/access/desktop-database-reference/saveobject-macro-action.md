@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cf6fe02616134f864a0e07092951ab9cf49aadbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308929"
 ---
 # <a name="saveobject-macro-action"></a>Ação da macro SalvarObjeto
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especificado ou, se nenhum estiver especificado, o objeto ativo. Em alguns casos, pode também salvar o objeto ativo com um novo nome (tem o mesmo efeito do comando **Salvar como** na **Barra de Ferramentas de Acesso Rápido**).
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="setting"></a>Configuração
 
@@ -49,7 +49,7 @@ A ação **SalvarObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto</strong></p></td>
-<td><p>O nome do objeto a ser salvo. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Object Type</strong>. Se você deixar vazio o argumento de <strong>Tipo de objeto</strong> , você pode deixar este argumento em branco para salvar o objeto ativo ou, em alguns casos, insira um novo nome neste argumento para salvar o objeto ativo com esse nome. Se digitar um novo nome, você deverá cumprir as convenções de nomeação padrão para objetos do Microsoft Access.</p></td>
+<td><p>O nome do objeto a ser salvo. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos do banco de dados, do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>. Se deixar em branco o argumento <strong>Tipo de objeto</strong>, você poderá deixar este argumento em branco para salvar o objeto ativo ou, em alguns casos, digitar um novo nome neste argumento para salvar o objeto ativo com esse nome. Se digitar um novo nome, você deverá cumprir as convenções de nomeação padrão para objetos do Microsoft Access.</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,14 +63,14 @@ Deixar em branco o argumento **Tipo de Objeto** e inserir um novo nome no argume
 
 > [!NOTE]
 > [!OBSERVAçãO] A ação **SalvarObjeto** não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:
-> - Um formulário no modo formulário ou modo de folha de dados
-> - Um relatório no modo Visualizar impressão
+> - Um formulário no modo formulário ou no modo folha de de de os
+> - Um relatório em Visualizar impressão
 > - Um módulo
-> - Um modo de exibição do servidor no modo de folha de dados ou no modo Visualizar impressão
-> - Página no modo de exibição de página de acesso a um dado
-> - Uma tabela no modo folha de dados ou no modo Visualizar impressão
-> - Uma consulta no modo folha de dados ou visualizar impressão
-> - Um procedimento armazenado no modo folha de dados ou no modo Visualizar impressão
+> - Um modo de exibição do servidor no modo folha de de ou visualização de impressão
+> - Uma página de acesso A dados no modo de página
+> - Uma tabela no modo folha de ou visualização de impressão
+> - Uma consulta no modo folha de ou Visualizar impressão
+> - Um procedimento armazenado no modo folha de de ou visualização de impressão
 
 A ação **SalvarObjeto**, esteja ela carregada em uma macro em execução no banco de dados atual ou em um banco de dados biblioteca, sempre salva o objeto especificado ou o objeto ativo do banco de dados em que o objeto foi criado.
 

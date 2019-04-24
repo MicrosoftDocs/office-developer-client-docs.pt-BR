@@ -1,5 +1,5 @@
 ---
-title: Método Recordset.CancelUpdate (DAO)
+title: Método Recordset. CancelUpdate (DAO)
 TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5950154d8896678889af01254104a2ac0dfef4cc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300676"
 ---
-# <a name="recordsetcancelupdate-method-dao"></a>Método Recordset.CancelUpdate (DAO)
+# <a name="recordsetcancelupdate-method-dao"></a>Método Recordset. CancelUpdate (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cancela quaisquer atualizações pendentes para um objeto **[Recordset](recordset-object-dao.md)**.
+Cancela as atualizações pendentes para um objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -52,7 +52,7 @@ Cancela quaisquer atualizações pendentes para um objeto **[Recordset](recordse
 <td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Defina como um dos valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Observação</strong>: os valores de <EM>dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> são válidos somente se a atualização em lotes está habilitado.</p>
+<td><p>Defina como um dos valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Observação</strong>: os valores <EM>dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> são válidos somente se a atualização em lotes estiver habilitada.</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +61,7 @@ Cancela quaisquer atualizações pendentes para um objeto **[Recordset](recordse
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar o método **CancelUpdate** para cancelar atualizações pendentes que resultam de uma operação **[Edit](recordset-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)**. Por exemplo, se um usuário invocar o método **Edit** ou **AddNew** e não tiver invocado ainda o método **Update**, **CancelUpdate** cancela quaisquer alterações feitas depois que **Edit** ou **AddNew** tiver sido invocado.
+Você pode usar o método **CancelUpdate** para cancelar atualizações pendentes que resultam de uma operação **[Edit](recordset-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)**. Por exemplo, se um usuário invocar o método **Edit** ou **AddNew** e não tiver invocado ainda o método **Update**, **CancelUpdate** cancelará quaisquer alterações feitas depois que **Edit** ou **AddNew** tiver sido invocado.
 
 Verifique a propriedade **[EditMode](recordset-editmode-property-dao.md)** do **Recordset** para determinar se existe uma operação pendente que possa ser cancelada.
 

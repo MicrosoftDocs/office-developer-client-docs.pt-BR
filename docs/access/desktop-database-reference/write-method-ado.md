@@ -1,5 +1,5 @@
 ---
-title: Escrever o método - ActiveX Data Objects (ADO)
+title: Método Write-ActiveX Data Objects (ADO)
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c6f4bba55ec3a32d206d3a7bfd001e96cd94923e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302461"
 ---
 # <a name="write-method-ado"></a>Método Write (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Grava dados binários em um objeto [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. Gravar*Buffer*
+*Stream*. *Buffer* de gravação
 
 ## <a name="parameters"></a>Parâmetros
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos RDS (referência de banco de dados da área de trabalho do Access)
+title: Métodos RDS (referência de banco de dados de área de trabalho do Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6797cb36821f99a2ec5aadf6e1c1c6fbedc5f3c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300886"
 ---
 # <a name="rds-methods"></a>Métodos RDS
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -27,7 +27,7 @@ ms.locfileid: "28699950"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Método</th>
+<th>Método		</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ ms.locfileid: "28699950"
 <td><p>Cria um <strong>Recordset</strong> vazio e desconectado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">Métodos MoveFirst, MoveLast, MoveNext e MovePrevious</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, moVelast, MoveNext, MovePrevious</a></p></td>
 <td><p>Move para o primeiro, o último, o próximo ou o registro anterior em um objeto <strong>Recordset</strong> especificado.</p></td>
 </tr>
 <tr class="odd">
@@ -64,7 +64,7 @@ ms.locfileid: "28699950"
 </tr>
 <tr class="odd">
 <td><p><a href="reset-method-rds.md">Reset</a></p></td>
-<td><p>Executa a classificação ou a filtragem em um cliente <strong>Recordset</strong>, com base nas propriedades especificadas classificar e filtrar.</p></td>
+<td><p>Executa a classificação ou a filtragem em um <strong>Recordset</strong> de cliente, com base nas propriedades de classificação e filtragem especificadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="submitchanges-method-rds.md">SubmitChanges</a></p></td>

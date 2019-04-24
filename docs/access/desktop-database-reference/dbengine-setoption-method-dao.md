@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine (DAO)
+title: Método DBEngine. setOption (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294194"
 ---
-# <a name="dbenginesetoption-method-dao"></a>Método DBEngine (DAO)
+# <a name="dbenginesetoption-method-dao"></a>Método DBEngine. setOption (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Substitui temporariamente os valores para as chaves do mecanismo de banco de dados do Microsoft Access no Registro do Windows (somente espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . SetOption (***opção***, o ***valor***)
+*expressão* . SetOption (***opção***, ***valor***)
 
 *expressão* Uma expressão que retorna um objeto **DBEngine** .
 
@@ -49,7 +49,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Option</em></p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Uma constante como descrita em Comentários.</p></td>
@@ -58,7 +58,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 <td><p><em>Value</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>O valor que você deseja definir para option.</p></td>
+<td><p>O valor para o qual você deseja definir a opção.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 
 ## <a name="remarks"></a>Comentários
 
-Cada constante refere-se a chave do registro correspondente no caminho HKEY\_LOCAL\_máquina\\SOFTWARE\\Microsoft\\Office\\12.0\\mecanismo de conectividade do Access\\mecanismos\\bem (ou seja, **dbSharedAsyncDelay** corresponde à tecla HKEY\_LOCAL\_máquina\\SOFTWARE\\Microsoft\\Office\\12.0\\mecanismo de conectividade do Access\\mecanismos\\ACE \\SharedAsyncDelay, e assim por diante).
+Cada constante se refere à chave do registro correspondente no caminho HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\12,0\\Access Connectivity\\Engines\\, ACE (ou seja, **dbSharedAsyncDelay** corresponde à chave hKey\_local\_Machine\\software\\Microsoft\\Office\\12,0\\Access Connectivity Engines\\\\Ace \\SharedAsyncDelay e assim por diante).
 
 <table>
 <colgroup>
@@ -75,7 +75,7 @@ Cada constante refere-se a chave do registro correspondente no caminho HKEY\_LOC
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

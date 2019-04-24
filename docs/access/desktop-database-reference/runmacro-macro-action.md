@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d9e86fb7d60af94d6ecde71b2a857a3cc5b9bcb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306850"
 ---
 # <a name="runmacro-macro-action"></a>Ação da macro ExecutarMacro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExecutarMacro** para executar uma macro. A macro pode estar em um grupo de macros.
 
@@ -50,7 +50,7 @@ A ação **ExecutarMacro** tem os argumentos a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da Macro</strong></p></td>
-<td><p>O nome da macro a ser executada. Caixa <strong>Nome da Macro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as macros (e grupos de macro) no banco de dados atual. Se a macro estiver em um grupo de macros, ela é listada sob o nome do grupo de macros na lista como <em>nomedogrupodemacros</em>. <em>macroname</em>. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</p></td>
+<td><p>O nome da macro a ser executada. A caixa <strong>nome da macro</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todas as macros (e grupos de macros) no banco de dados atual. Se a macro estiver em um grupo de macros, ela será listada sob o nome do grupo de macros na lista como <em>macrogroupname</em>. <em>nomedamacro</em>. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Contagem de repetição</strong></p></td>

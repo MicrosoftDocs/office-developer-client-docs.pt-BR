@@ -1,5 +1,5 @@
 ---
-title: CommandTypeEnum (referência de banco de dados da área de trabalho do Access)
+title: CommandTypeEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9114128771d4753265208dada763ac0c9f796d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296112"
 ---
 # <a name="commandtypeenum"></a>CommandTypeEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica como um argumento de comando deve ser interpretado.
 
@@ -30,7 +30,7 @@ Especifica como um argumento de comando deve ser interpretado.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -48,12 +48,12 @@ Especifica como um argumento de comando deve ser interpretado.
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Avalia o <strong>CommandText</strong> como um nome de tabela cujas colunas são todas retornadas por uma consulta SQL gerada internamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCmdStoredProc</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Avalia o <strong>CommandText</strong> como um nome de procedimento armazenado.</p></td>
 </tr>
 <tr class="odd">
@@ -69,13 +69,13 @@ Especifica como um argumento de comando deve ser interpretado.
 <tr class="odd">
 <td><p><strong>adCmdTableDirect</strong></p></td>
 <td><p>512</p></td>
-<td><p>Avalia o <strong>CommandText</strong> como um nome de tabela cujas colunas são todas retornadas. Usado somente com <strong>Recordset</strong> ou <strong>Requery</strong> . Para usar o método <a href="seek-method-ado.md">Seek</a> , o <strong>Recordset</strong> deve ser aberto com <strong>adCmdTableDirect</strong>. Esse valor não pode ser combinado com o valor  <strong>adAsyncExecute </strong><a href="executeoptionenum.md">ExecuteOptionEnum</a>.</p></td>
+<td><p>Avalia o <strong>CommandText</strong> como um nome de tabela cujas colunas são todas retornadas. Utilizado com <strong>Recordset.Open</strong> ou <strong>Requery</strong> apenas. Para utilizar o método <a href="seek-method-ado.md">Seek</a>, o <strong>Recordset</strong> deve ser aberto com <strong>adCmdTableDirect</strong>. Esse valor não pode ser combinado com o valor  <strong>adAsyncExecute </strong><a href="executeoptionenum.md">ExecuteOptionEnum</a>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -85,30 +85,30 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. CommandType. unESPECIFICADO</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.TEXT</p></td>
+<td><p>AdoEnums. CommandType. TEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.TABLE</p></td>
+<td><p>AdoEnums. CommandType. TABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
+<td><p>AdoEnums. CommandType. STOREDPROC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
+<td><p>AdoEnums. CommandType. UNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.FILE</p></td>
+<td><p>AdoEnums. CommandType. FILE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
+<td><p>AdoEnums. CommandType. TABLEDIRECT</p></td>
 </tr>
 </tbody>
 </table>

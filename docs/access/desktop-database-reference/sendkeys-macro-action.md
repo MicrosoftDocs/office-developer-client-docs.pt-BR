@@ -12,27 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308747"
 ---
 # <a name="sendkeys-macro-action"></a>Ação da macro EnviarSequênciaDeCaracteres
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Observação sobre segurança" alt="Security note" /><strong>Observação de segurança</strong></th>
+<th><img src="media/access-alert-security.gif" title="Observação de segurança" alt="Security note" /><strong>Observação de Segurança</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      Avoid using the <strong>SendKeys</strong> statement or an AutoKeys macro with sensitive or confidential information. A malicious user could intercept the keystrokes and compromise the security of your computer and data.
-</td>
+<td>Avoid using the <strong>SendKeys</strong> statement or an AutoKeys macro with sensitive or confidential information. A malicious user could intercept the keystrokes and compromise the security of your computer and data.</td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +57,7 @@ A ação **EnviarSequênciaDeCaracteres** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pressionamentos de teclas</strong></p></td>
+<td><p><strong>Pressionamentos</strong></p></td>
 <td><p>Os pressionamentos de teclas a serem processados pelo Access ou pelo aplicativo. Insira-os na caixa <strong>Pressionamentos de Teclas</strong> na seção <strong> Argumentos da Ação</strong> do painel Construtor de Macros. Você pode digitar até 255 caracteres. Este é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">

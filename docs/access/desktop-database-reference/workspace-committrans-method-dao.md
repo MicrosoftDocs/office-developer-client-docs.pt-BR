@@ -1,5 +1,5 @@
 ---
-title: Método Workspace.CommitTrans (DAO)
+title: Método Workspace. CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 52af229f03b7ea10510f3e580ba2c4e12784e461
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306031"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Método Workspace.CommitTrans (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Método Workspace. CommitTrans (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Encerra a transação atual e salva as alterações.
 
@@ -45,7 +45,7 @@ Encerra a transação atual e salva as alterações.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Option</em></p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Em um espaço de trabalho do Microsoft Access, você pode incluir a constante <strong>dbForceOSFlush</strong> com <strong>CommitTrans</strong>. Isso força o mecanismo de banco de dados para retirar imediatamente todas as atualizações do disco, em vez de armazená-las em cache temporariamente. Sem utilizar essa opção, um usuário pode obter de volta o controle logo depois de o programa de aplicativo chamar <strong>CommitTrans</strong>, desligar o computador e não ter os dados gravados no disco. Utilizar essa opção pode afetar o desempenho do aplicativo; ela é útil em situações na qual o computador pode ser desligado antes de as atualizações no cache serem salvas no disco.</p></td>
@@ -88,7 +88,7 @@ Nos espaços de trabalho ODBC, quando você usa **CommitTrans**, seu cursor pode
 
 O exemplo a seguir mostra como usar uma transação em um espaço de trabalho de Data Access Objects (DAO).
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb

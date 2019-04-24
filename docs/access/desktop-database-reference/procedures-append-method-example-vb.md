@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e1df7d4914a247dac6f96a3709f0930bceea0ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301369"
 ---
 # <a name="procedures-append-method-example-vb"></a>Exemplo do método Append de procedimentos (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](procedures-collection-adox.md) da coleção [Procedures](append-method-adox-procedures.md) para criar um novo procedimento na fonte de dados subjacente.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Relation.PartialReplica (DAO)
+title: Propriedade relation. PartialReplica (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192692(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fef48902b806f13947ae4b81728af4c5704c2b8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307011"
 ---
-# <a name="relationpartialreplica-property-dao"></a>Propriedade Relation.PartialReplica (DAO)
+# <a name="relationpartialreplica-property-dao"></a>Propriedade relation. PartialReplica (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor em um objeto **Relation**, indicando se essa relação deverá ser considerada durante o preenchimento de uma réplica parcial a partir de uma réplica completa. (somente em banco de dados do mecanismo de banco de dados do Microsoft Access). **Boolean** de leitura/gravação.
 
@@ -28,7 +28,7 @@ Define ou retorna um valor em um objeto **Relation**, indicando se essa relaçã
 
 *expressão* . PartialReplica
 
-*expressão* Uma expressão que retorna um objeto **Relation** .
+*expressão* Uma expressão que retorna um objeto **relation** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +38,7 @@ Essa propriedade permite replicar os dados da réplica completa para a réplica 
 
 Para replicar todos os pedidos da região da Califórnia, indique se a relação entre as tabelas Pedidos e Clientes estará ativa durante a replicação. Assim que você tiver criado uma réplica parcial, as próximas etapas serão preenchidas com todos os pedidos da região da Califórnia:
 
-1.  Defina a propriedade **ReplicaFilter** no objeto de clientes **TableDef** para "região = 'CA'".
+1.  Defina a propriedade **ReplicaFilter** no objeto **TableDef** dos clientes como "Region =" AC "".
 
 2.  Defina o valor da propriedade **PartialReplica** como **True** no objeto **Relation**, que corresponde à relação entre Pedidos e Clientes.
 
@@ -46,9 +46,9 @@ Para replicar todos os pedidos da região da Califórnia, indique se a relação
     
 
 > [!NOTE]
-> [!OBSERVAçãO] Quando você definir um filtro para réplica ou uma relação de réplicas, esteja ciente de que os registros da réplica parcial que não satisfizerem os critérios de restrição serão removidos da réplica parcial, mas não da réplica completa. Por exemplo, suponha que você definir a propriedade **ReplicaFilter** em clientes **TableDef** da réplica parcial para "região = 'CA'" e preencher o banco de dados, em seguida, novamente. Isso inserirá ou atualizará todos os registros dos clientes da Califórnia. 
+> [!OBSERVAçãO] Quando você definir um filtro para réplica ou uma relação de réplicas, esteja ciente de que os registros da réplica parcial que não satisfizerem os critérios de restrição serão removidos da réplica parcial, mas não da réplica completa. Por exemplo, suponha que você tenha definido a propriedade **ReplicaFilter** em **TableDef** de Clientes na réplica parcial como "Region = 'CA'" e depois tenha preenchido novamente o banco de dados. Isso inserirá ou atualizará todos os registros dos clientes da Califórnia. 
 > 
-> Se você redefinir, em seguida, a propriedade **ReplicaFilter** para "região = 'FL'" e re-preencher o banco de dados, todos os registros da região da Califórnia da réplica parcial serão removidos e todos os registros de clientes baseados em Flórida serão inseridos da réplica completa. Nenhum registro será excluído da réplica completa. 
+> Se você redefinir depois a propriedade **ReplicaFilter** como "Region = 'FL'" e preencher novamente o banco de dados, todos os registros da região da Califórnia na réplica parcial serão removidos e todos os registros dos clientes da Flórida serão inseridos na réplica completa. Nenhum registro será excluído da réplica completa. 
 >
 > Antes de definir a propriedade **ReplicaFilter** ou a propriedade **PartialReplica**, é uma boa ideia sincronizar a réplica parcial na qual você está definindo essas propriedades na réplica completa. Isso garantirá que as alterações pendentes na réplica parcial serão mescladas na réplica completa antes de quaisquer registros serem removidos da réplica parcial.
 

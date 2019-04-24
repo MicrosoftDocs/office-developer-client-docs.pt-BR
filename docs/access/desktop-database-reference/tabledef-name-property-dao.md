@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5b4152311d988068eb0ea9ed96f561ee73da625
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308390"
 ---
 # <a name="tabledefname-property-dao"></a>Propriedade TableDef.Name (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Retorna ou define o nome do objeto especificado. **String** de leitura/gravação.
+Retorna ou define o nome do objeto especificado. **Cadeia de caracteres** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Nome
+*expressão* . Tdomínio
 
 *expressão* Uma variável que representa um objeto **TableDef** .
 

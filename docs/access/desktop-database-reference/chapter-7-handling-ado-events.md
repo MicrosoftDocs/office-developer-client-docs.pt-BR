@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7357cc60a3bddbf96c2abae39fecfb7107025e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296399"
 ---
 # <a name="chapter-7-handling-ado-events"></a>Capítulo 7: Manipulação de eventos do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O modelo de evento ADO oferece suporte a determinadas operações ADO síncronas e assíncronas que emitem *eventos*, ou notificações, antes de a operação começar ou depois de ela ser concluída. Um evento geralmente é uma chamada a uma rotina do manipulador de eventos que você define no aplicativo.
 
@@ -32,4 +32,4 @@ Este capítulo aborda os seguintes tópicos:
 - [Tipos de eventos](types-of-events.md)
 - [Parâmetros de eventos](event-parameters.md)
 - [Como os manipuladores de eventos funcionam juntos](how-event-handlers-work-together.md)
-- [Instanciação de eventos do ADO por linguagem (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Instanciação de eventos do ADO por idioma (ADO)](ado-event-instantiation-by-language-ado.md)

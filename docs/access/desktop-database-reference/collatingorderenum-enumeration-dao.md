@@ -1,5 +1,5 @@
 ---
-title: Enumeração CollatingOrderEnum (DAO)
+title: Enumeração de CollatingOrderEnum (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eae8c2a4bead84f76f8aaf07412da7f70e086000
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296259"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a>Enumeração CollatingOrderEnum (DAO)
+# <a name="collatingorderenum-enumeration-dao"></a>Enumeração de CollatingOrderEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a sequência da ordem de classificação no texto, para comparação ou classificação de sequências de caracteres.
 

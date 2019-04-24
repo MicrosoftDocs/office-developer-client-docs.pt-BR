@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f6d7e8f64f6b14ea699006fc0461cdf0ded2a06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308481"
 ---
 # <a name="stream-object-ado"></a>Objeto Stream (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa um fluxo de dados ou texto binário.
 
 ## <a name="remarks"></a>Comentários
 
-Em hierarquias estruturada em árvore como um sistema de arquivos ou um sistema de email, um [registro](record-object-ado.md) pode ter um fluxo de binário padrão de bits associados a ele que contém o conteúdo do arquivo ou email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
+Em hierarquias estruturadas em árvore, como um sistema de arquivos ou um sistema de email, um [registro](record-object-ado.md) pode ter um fluxo binário padrão de bits associado a ele que contenha o conteúdo do arquivo ou o email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
 
   - A partir de uma URL que aponta para um objeto (geralmente um arquivo) que contenha dados binários ou de texto. Esse objeto pode ser um documento simples, um objeto **Record** que representa um documento estruturado ou uma pasta.
 

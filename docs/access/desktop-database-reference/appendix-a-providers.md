@@ -1,5 +1,5 @@
 ---
-title: 'Apêndice A: Provedores'
+title: 'Apêndice A: provedores'
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: b3f92279-8d66-ad59-71c4-c0448168125a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297057"
 ---
 # <a name="appendix-a-providers"></a>Apêndice A: Provedores
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Esta seção descreve três tipos de provedores: provedores de dados, provedores de serviços e componentes de serviço. Os provedores enquadram-se em duas categorias: os que fornecem dados e os que fornecem serviços. Um *provedor de dados* possui seus próprios dados e os exibe em um formulário tabular para seu aplicativo. Um *provedor de serviços* encapsula um serviço gerando e consumindo dados, aumentando recursos em aplicativos do ADO. Um provedor de serviços também pode ser definido posteriormente como um *componente de serviço*, que deverá trabalhar juntamente com outros provedores ou componentes de serviços.
@@ -50,15 +50,15 @@ Os detalhes de cada um dos provedores de dados atualmente disponíveis na Micros
 <tbody>
 <tr class="odd">
 <td><p>Bancos de dados ODBC</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Provedor Microsoft OLE DB para ODBC</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Serviço de Indexação da Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Provedor Microsoft OLE DB para Serviço de Indexação Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Serviço do Active Directory da Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Provedor Microsoft OLE DB para Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bancos de dados do Microsoft Jet</p></td>
@@ -66,15 +66,15 @@ Os detalhes de cada um dos provedores de dados atualmente disponíveis na Micros
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Provedor Microsoft OLE DB para SQL Server</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bancos de dados Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Provedor Microsoft OLE DB para Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Microsoft OLE DB Provider for Oracle</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Publicação na Internet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider para Publicação de Internet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -104,5 +104,5 @@ Para obter mais informações sobre provedores, consulte a documentação do Mic
 
 ## <a name="provider-commands"></a>Comandos do provedor
 
-Para cada provedor listado aqui, se seus aplicativos permitir que os usuários insiram as instruções SQL que os comandos do provedor, você deve sempre validar a entrada do usuário e ser cuidadoso de phishing possíveis usando a instrução SQL potencialmente perigosa, como, como parte do entrada do usuário.
+Para cada provedor listado aqui, se seus aplicativos permitir que os usuários insiram instruções SQL como os comandos do provedor, você deve sempre validar a entrada do usuário e ser vigilante de possíveis ataques de hackers usando uma instrução SQL potencialmente perigosa, como, por exemplo, como parte do entrada do usuário.
 

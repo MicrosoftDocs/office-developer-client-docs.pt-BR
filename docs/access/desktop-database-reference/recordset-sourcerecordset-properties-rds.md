@@ -1,5 +1,5 @@
 ---
-title: Propriedades Recordset, SourceRecordset (RDS)
+title: Recordset, propriedades de SourceRecordset (RDS)
 TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f83ab385b1fab511ab71ea9ff3456fe466efa17c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307585"
 ---
-# <a name="recordset-sourcerecordset-properties-rds"></a>Propriedades Recordset, SourceRecordset (RDS)
+# <a name="recordset-sourcerecordset-properties-rds"></a>Recordset, propriedades de SourceRecordset (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o objeto **Recordset** retornado de um objeto corporativo personalizado.
 
@@ -24,7 +24,7 @@ Indica o objeto **Recordset** retornado de um objeto corporativo personalizado.
 
 *DataControl*. SourceRecordset = *Recordset*
 
-*Recordset* = *DataControl*. Conjunto de registros
+** = *DataControl*do Recordset. Conectado
 
 ## <a name="parameters"></a>Parâmetros
 

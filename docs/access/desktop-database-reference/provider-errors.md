@@ -1,5 +1,5 @@
 ---
-title: Erros do provedor (referência de banco de dados da área de trabalho do Access)
+title: Erros do provedor (referência do banco de dados do Access Desktop)
 TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301124"
 ---
 # <a name="provider-errors"></a>Erros do provedor
 
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 Quando ocorre um erro do provedor, é retornado um erro em tempo de execução de -2147467259. Quando você receber esse erro, verifique a coleção **Errors** do objeto **Connection** ativo, que conterá um ou mais erros descrevendo o que aconteceu.
 

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306843"
 ---
 # <a name="transfersqldatabase-macro-action"></a>Ação da macro TransferirBancoDeDadosSQL
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** para transferir um banco de dados do Microsoft SQL Server 7.0 ou posterior para outro banco de dados SQL Server 7.0 ou posterior. Para obter mais informações sobre como transferir um banco de dados, consulte a documentação do SQL Server.
+Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** para transferir um banco de dados do Microsoft SQL Server 7.0 ou posterior para outro banco de dados SQL Server 7.0 ou posterior. Para obter mais informações sobre a transferência de um banco de dados, consulte a documentação do SQL Server.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
+> Essa ação não será permitida se o banco de dados não for confiável.
 
 ## <a name="setting"></a>Configuração
 
@@ -44,19 +44,19 @@ A ação **TransferirBancoDeDadosSQL** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Servidor</strong></p></td>
 <td><p>O nome do servidor de banco de dados do SQL Server 7.0 ou posterior no qual você está copiando.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Database</strong></p></td>
+<td><p><strong>Banco de dados</strong></p></td>
 <td><p>O nome do novo banco de dados a ser criado no servidor de destino.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Usar conexão confiável</strong></p></td>
-<td><p>Especifica se há ou não é uma conexão confiável ao SQL Server. Se definido como <strong>Sim</strong>, não há uma conexão confiável e os argumentos de <strong>logon</strong> e <strong>senha</strong> não são necessários. Se definido como <strong>não</strong>, o <strong>logon</strong> e a <strong>senha</strong> de argumentos é necessário. O padrão é <strong>Sim</strong>. Quando você usa uma conexão confiável, a segurança do SQL Server se integra com a segurança do sistema operacional Windows para fornecer um logon único com a rede e o banco de dados.</p></td>
+<td><p>Especifica se há ou não uma conexão confiável para o SQL Server. Se definido como <strong>Sim</strong>, isso indicará que há uma conexão confiável e os argumentos <strong>Logon</strong> e <strong>Senha</strong> não serão exigidos. Se definido como <strong>Não</strong>, os argumentos <strong>Logon</strong> e <strong>Senha</strong> serão exigidos. O padrão é <strong>Sim</strong>. Quando você usa uma conexão confiável, a segurança do SQL Server integra-se com a segurança do sistema operacional Windows para fornecer um logon único para a rede e o banco de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Logon</strong></p></td>
+<td><p><strong>Faça</strong></p></td>
 <td><p>O nome do logon no servidor de destino.</p></td>
 </tr>
 <tr class="odd">

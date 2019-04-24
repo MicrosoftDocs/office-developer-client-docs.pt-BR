@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.RecordStatus (DAO)
+title: Propriedade Recordset2. RecordStatus (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 178872a9-e361-f277-627d-f91b01ceb6d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae3dc5ba640b4b24a7400fc9e467978777ef6fcc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309363"
 ---
-# <a name="recordset2recordstatus-property-dao"></a>Propriedade Recordset2.RecordStatus (DAO)
+# <a name="recordset2recordstatus-property-dao"></a>Propriedade Recordset2. RecordStatus (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -33,7 +33,7 @@ Quando um usuário alterar um registro, a propriedade **RecordStatus** desse reg
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações de um **Recordset** local são controladas durante a atualização em lotes. A função RecordStatusOutput é necessária para executar esse procedimento.
+Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações para um **Recordset** local são controladas durante uma atualização em lote. A função RecordStatusOutput é exigida para que este procedimento seja executado.
 
 ```vb 
 Sub RecordStatusX() 

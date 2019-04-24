@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8652aa2c028350aab79cdf101cba189026b9a5ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295139"
 ---
 # <a name="customization-file-connect-section"></a>Seção Connect do arquivo de personalização
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O comportamento padrão do manipulador é negar todas as conexões. A seção **connect** especifica exceções a esse comportamento. Por exemplo, se todas as seções **connect** estivessem ausentes ou vazias, nenhuma conexão seria estabelecida por padrão.
 
@@ -62,8 +62,7 @@ Uma entrada de sequência de substituição de conexão tem este formato:
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRight</em></strong></p></td>
-<td><p>Um dos seguintes direitos de acesso:
-</p>
+<td><p>Um dos seguintes direitos de acesso:</p>
 <p></p>
 <ul>
 <li><p><strong>NoAccess</strong> — o usuário não pode acessar a fonte de dados.</p></li>
@@ -76,5 +75,5 @@ Uma entrada de sequência de substituição de conexão tem este formato:
 </table>
 
 
-Se você quiser permitir que qualquer conexão (desabilitando o comportamento padrão do manipulador), defina a entrada de acesso na seção **Conectar padrão** e exclua ou comente qualquer outra **Conectar** *identificador de* seção.
+Se você quiser permitir qualquer conexão (em vigor, desabilitando o comportamento padrão do manipulador), defina a entrada de acesso na seção **Connect default** como e exclua ou comente qualquer outra seção **** *identificador* de conexão.
 

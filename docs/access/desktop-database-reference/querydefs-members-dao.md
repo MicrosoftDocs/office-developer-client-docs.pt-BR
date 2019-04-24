@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5f77697bbf0f9231500f325545c0e6ccd9c45fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301019"
 ---
 # <a name="querydefs-members-dao"></a>Membros de QueryDefs (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Uma coleção QueryDefs contém todos os objetos QueryDef de um objeto Database em um banco de dados do mecanismo de banco de dados do Microsoft Access.
 
@@ -36,7 +36,7 @@ Uma coleção QueryDefs contém todos os objetos QueryDef de um objeto Database 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Acrescentar</a></strong></p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Acrescido</a></strong></p></td>
 <td><p>Adiciona um novo <strong>QueryDef</strong> à coleção <strong>QueryDefs</strong>.</p></td>
 </tr>
 <tr class="even">

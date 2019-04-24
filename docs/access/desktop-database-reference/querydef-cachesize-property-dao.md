@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef.CacheSize (DAO)
+title: Propriedade QueryDef. caChesize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: a84d990e-8180-daa3-7640-47d2be8fd28b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821397(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d826781bd668cff0a61c655e55834512a289c17
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301089"
 ---
-# <a name="querydefcachesize-property-dao"></a>Propriedade QueryDef.CacheSize (DAO)
+# <a name="querydefcachesize-property-dao"></a>Propriedade QueryDef. caChesize (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna o número de registros recuperados de uma fonte de dados ODBC que serão armazenados em cache localmente. **Long** de leitura/gravação.
+Define ou retorna vários registros recuperados de uma fonte de dados ODBC que serão armazenados em cache localmente. **Long** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CacheSize
+*expressão* . Ches
 
 *expressão* Uma variável que representa um objeto **QueryDef** .
 

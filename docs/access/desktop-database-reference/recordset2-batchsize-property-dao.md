@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2.BatchSize (DAO)
+title: Propriedade Recordset2. BatchSize (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: fa7f12f6-36c8-5aad-31d2-668cfe46f9f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837054(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f615823f99e2fdaa50a051d89a90c8f85a6ec841
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307466"
 ---
-# <a name="recordset2batchsize-property-dao"></a>Propriedade Recordset2.BatchSize (DAO)
+# <a name="recordset2batchsize-property-dao"></a>Propriedade Recordset2. BatchSize (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -27,11 +27,11 @@ ms.locfileid: "28711270"
 
 ## <a name="remarks"></a>Comentários
 
-A propriedade **BatchSize** determina o tamanho em lote utilizado ao enviar as instruções para o servidor em uma atualização em lote. O valor da propriedade determina o número de instruções enviadas para o servidor em um buffer de comando. Por padrão, 15 instruções são enviadas para o servidor em cada lote. Essa propriedade pode ser alterada em qualquer momento. Se um banco de dados não aceitar lote de instruções, você poderá definir essa propriedade como 1, fazendo com que cada instrução seja enviada separadamente.
+A propriedade **BatchSize** determina o tamanho do lote usado durante o envio de instruções para o servidor em uma atualização em lotes. O valor da propriedade determina o número de instruções enviadas para o servidor em um buffer de comando. Por padrão, 15 instruções são enviados para o servidor em cada lote. Essa propriedade pode ser alterada a qualquer momento. Se um servidor do banco de dados não oferecer suporte ao lote de instruções, você poderá definir essa propriedade como 1, o que fará com que cada instrução seja enviada separadamente.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa as propriedades **BatchSize** e **UpdateOptions** para controlar os aspectos de qualquer atualização em lote para o objeto Recordset especificado.
+Este exemplo usa as propriedades **BatchSize** e **UpdateOptions** para controlar os aspectos de qualquer atualização em lotes para o objeto Recordset especificado.
 
 ```vb
 Sub BatchSizeX() 

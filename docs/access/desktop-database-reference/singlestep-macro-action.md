@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9e934b290472dc4bb0ad8619b2ada6992b4215c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308628"
 ---
 # <a name="singlestep-macro-action"></a>Ação da macro PassoÚnico
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use a ação **PassoAPasso** para pausar a execução da macro e abrir a caixa de diálogo **Macro Passo a Passo**.
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 399836158084f07b30b06a9fb099da74527d0cb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308649"
 ---
 # <a name="shape-commands-in-general"></a>Comandos de forma em geral
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O data shaping define as colunas de um **Recordset** com formato, as relações entre as entidades representadas pelas colunas e o modo de preenchimento de **Recordset** com dados.
 
@@ -39,11 +39,11 @@ Um **Recordset** com formato pode consistir nos seguintes tipos de colunas.
 <td><p>Campos de um <strong>Recordset</strong> retornados por um comando de consulta para um provedor de dados, uma tabela ou um <strong>Recordset</strong> com formato anterior.</p></td>
 </tr>
 <tr class="even">
-<td><p>chapter</p></td>
+<td><p>módulo</p></td>
 <td><p>Uma referência a outro <strong>Recordset</strong>, denominado <em>capítulo</em>. As colunas de capítulo permitem definir uma relação <em>parent-child</em> em que <em>parent</em> representa o <strong>Recordset</strong> contendo a coluna de capítulo, e <em>child</em> é o <strong>Recordset</strong> representado pelo capítulo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>aggregate</p></td>
+<td><p>todo</p></td>
 <td><p>O valor da coluna é derivado executando uma <em>função de agregação</em> em todas as linhas ou em uma coluna de todas as linhas de um <strong>Recordset</strong> filho. (Consulte Funções agregadas no tópico <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Funções agregadas, a função CALC e a palavra-chave NEW</a>.)</p></td>
 </tr>
 <tr class="even">
@@ -51,7 +51,7 @@ Um **Recordset** com formato pode consistir nos seguintes tipos de colunas.
 <td><p>O valor da coluna é derivado do cálculo de uma expressão do Visual Basic for Application nas colunas na mesma linha do <strong>Recordset</strong>. A expressão é o argumento para a função CALC. (Consulte Expressão calculada no tópico <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Funções agregadas, a função CALC e a palavra-chave NEW</a> e em <a href="visual-basic-for-applications-functions.md">Funções do Visual Basic for Applications</a>.)</p></td>
 </tr>
 <tr class="odd">
-<td><p>new</p></td>
+<td><p>Novo</p></td>
 <td><p>Campos fabricados vazios, que podem ser preenchidos posteriormente com dados. A coluna é definida com a palavra-chave NEW. (Consulte Palavra-chave NEW no tópico <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Funções agregadas, a função CALC e a palavra-chave NEW</a>.)</p></td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ Um comando shape pode conter uma cláusula especificando um comando de consulta 
 
 Os comandos shape podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
-Comandos Shape podem ser aninhados. Ou seja, o *parent-command* *filho-command* próprio poderá ou um outro comando shape.
+Os comandos shape podem ser aninhados, ou seja, *parent-command* ou *child-command* pode ser um outro comando shape.
 
 O provedor de forma sempre retorna um cursor do cliente, mesmo quando o usuário especifica o local de cursor **adUseServer**.
 
@@ -74,5 +74,5 @@ Para obter informações precisas sobre comandos shape sintaticamente corretos, 
 
 ## <a name="see-also"></a>Confira também
 
-- [Emitindo comandos para o provedor de dados adjacente](issuing-commands-to-the-underlying-data-provider.md)
+- [Emissão de comandos para o provedor de dados subjacente](issuing-commands-to-the-underlying-data-provider.md)
 

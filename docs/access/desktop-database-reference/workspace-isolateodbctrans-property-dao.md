@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace.IsolateODBCTrans (DAO)
+title: Propriedade Workspace. IsolateODBCTrans (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836924(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 781679dfbd4050cfde219802db4cd9e1544d83ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302510"
 ---
-# <a name="workspaceisolateodbctrans-property-dao"></a>Propriedade Workspace.IsolateODBCTrans (DAO)
+# <a name="workspaceisolateodbctrans-property-dao"></a>Propriedade Workspace. IsolateODBCTrans (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Define ou retorna um valor que indica se vários transactiond, que envolvem o mesmo mecanismo do banco de dados do Microsoft Access conectado à fonte de dados ODBC, estão isolados (somente em espaços de trabalho do Microsoft Access).
 

@@ -1,5 +1,5 @@
 ---
-title: Método ConvertToString (RDS)
+title: Método ConvertTostring (RDS)
 TOCTitle: ConvertToString method (RDS)
 ms:assetid: dc6381e4-98c8-badc-ad8c-87c70574a8a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2c589339eb838f944ce4443c19a787eafb01c3dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295510"
 ---
-# <a name="converttostring-method-rds"></a>Método ConvertToString (RDS)
+# <a name="converttostring-method-rds"></a>Método ConvertTostring (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 Converte um [Recordset](recordset-object-ado.md) em uma sequência MIME que representa os dados do conjunto de registros.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataFactory*. ConvertToString (*Recordset*)
+** Datafactory. ConvertTostring (*Recordset*)
 
 ## <a name="parameters"></a>Parâmetros
 

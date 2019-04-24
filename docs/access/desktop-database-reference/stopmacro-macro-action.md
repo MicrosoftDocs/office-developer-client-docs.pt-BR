@@ -8,37 +8,37 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe319e0f7a811d3bcd3b2fc18c4a3d951187fbe8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308495"
 ---
 # <a name="stopmacro-macro-action"></a>Ação da macro PararMacro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **PararMacro** para interromper a macro em execução no momento.
 
 ## <a name="setting"></a>Configuração
 
-A ação **PararMacro** não tem nenhum argumento.
+A ação **PararMacro** não tem argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Geralmente você usa esta ação quando uma condição torna necessário para interromper a macro. Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação. Quando a expressão for avaliada como **True** (– 1), o Microsoft Access interrompe a macro.
+Normalmente, você usa esta ação quando uma condição torna necessário parar a macro. Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação. Quando a expressão é avaliada como **true** (– 1), o Microsoft Access interrompe a macro.
 
-Por exemplo, você pode criar uma macro que abre um formulário mostrando os totais de ordem de diário para a data inserida em uma caixa de diálogo personalizada. Você poderia usar uma expressão condicional para certificar-se de que o controle de **Data do pedido** na caixa de diálogo contém uma data válida. Caso contrário, a ação **MessageBox** pode exibir uma mensagem de erro e a ação **PararMacro** pode interromper a macro.
+Por exemplo, você pode criar uma macro que abre um formulário mostrando os totais de pedidos diários da data inserida em uma caixa de diálogo personalizada. Você pode usar uma expressão condicional para ter certeza de que o controle de **data da ordem** na caixa de diálogo contém uma data válida. Caso contrário, a ação **MessageBox** poderá exibir uma mensagem de erro e a ação **PararMacro** poderá interromper a macro.
 
-Se a macro tiver usado as ações **eco** ou **DefinirAvisos** para desativar o eco ou a exibição de mensagens do sistema desativado, a ação **PararMacro** automaticamente os ativará.
+Se a macro tiver usado as ações **eco** ou SetWarnings para ativar o eco ou a exibição de mensagens do sistema, a ação **PararMacro** as ativará automaticamente. ****
 
 Esta ação não está disponível em um módulo VBA (Visual Basic for Applications).
 
 ## <a name="example"></a>Exemplo
 
-A macro a seguir demonstra o uso da ação **AoOcorrerErro** . Neste exemplo, a ação **AoOcorrerErro** Especifica que o Access executa um macro chamada Manipuladorerro quando ocorre um erro de tratamento de erros personalizado. Quando ocorre um erro, submacro CatchErrors é chamado. Se o número do erro for 2102, será exibida uma mensagem específica e execução da macro é interrompida. Caso contrário, será exibida uma mensagem descrevendo o erro e a macro é pausada para que você possa realizar a solução de problemas adicionais. A macro Manipuladorerro exibe uma caixa de mensagem que faz referência ao objeto **MacroError** para exibir informações sobre o erro.
+A macro a seguir demonstra o uso da ação **AoOcorrerErro** . Neste exemplo, a ação **AoOcorrerErro** especifica que o Access executa uma macro de tratamento de erros personalizada chamada ErrorHandler quando ocorre um erro. Quando ocorre um erro, a submacro CatchErrors é chamada. Se o número de erro for 2102, uma mensagem específica é exibida e a execução da macro é interrompida. Caso contrário, uma mensagem descrevendo o erro é exibida e a macro é pausada para que você possa executar a solução de problemas adicional. A macro ErrorHandler exibe uma caixa de mensagem que se refere ao objeto **MacroError** para exibir informações sobre o erro.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

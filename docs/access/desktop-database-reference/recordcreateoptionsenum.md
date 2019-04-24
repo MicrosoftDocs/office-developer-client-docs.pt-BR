@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bc0d378428c00882c49f7783892ca2bf4d4638c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300690"
 ---
 # <a name="recordcreateoptionsenum"></a>RecordCreateOptionsEnum
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se um **Record** existente deve ser aberto ou um novo **Record** criado para o método [Open](record-object-ado.md) do objeto [Record](open-method-ado-record.md). Os valores podem ser combinados com um operador AND.
 
@@ -42,7 +42,7 @@ Especifica se um **Record** existente deve ser aberto ou um novo **Record** cria
 </tr>
 <tr class="even">
 <td><p><strong>adCreateNonCollection</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Cria um novo <strong>Record</strong> do tipo <a href="recordtypeenum.md">adSimpleRecord</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -69,7 +69,7 @@ Especifica se um **Record** existente deve ser aberto ou um novo **Record** cria
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

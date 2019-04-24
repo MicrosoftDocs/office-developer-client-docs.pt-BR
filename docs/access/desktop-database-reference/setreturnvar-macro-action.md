@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e0c849fc507d535807bc088e667acd74410ddd8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308670"
 ---
 # <a name="setreturnvar-macro-action"></a>Ação da macro DefinirVardeRetorno
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-A ação **SetReturnVar** cria uma variável de retorno e o configura para um valor específico.
+A ação **SetReturnVar** cria uma variável de retorno e a define como um valor específico.
 
 > [!NOTE]
-> A ação de **SetReturnVar** está disponível somente em Macros de dados.
+> A ação **SetReturnVar** está disponível somente em macros de dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -35,21 +35,21 @@ A ação **SetReturnVar** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>Nome</p></td>
 <td><p>Sim</p></td>
 <td><p>Uma cadeia de caracteres que especifica o nome da variável.</p></td>
 </tr>
 <tr class="even">
 <td><p>Expressão</p></td>
 <td><p>Sim</p></td>
-<td><p>Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igual (=). Você pode clicar no botão <strong>Construir</strong> para usar o <strong>Construtor de expressões</strong> para definir este argumento.</p></td>
+<td><p>Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igualdade (=). Você pode clicar no botão <strong>construir</strong> para usar o <strong>Construtor de expressões</strong> para definir esse argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,21 +57,21 @@ A ação **SetReturnVar** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é a variável que pode ser usado por macros que chamar uma macro de dados usando a ação **ExecutarMacrodeDados** .
+A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro** .
 
-Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro chamada pode ser usada em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, você poderia usar a variável usando a seguinte sintaxe:
+Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, poderia usar a variável usando a seguinte sintaxe:
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-A ação **SetReturnVar** pode ser usada somente em macros de dados nomeada. Ele não está disponível em macros de dados que estejam anexadas a um evento de macro de dados.
+A ação **SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ele não está disponível em macros de dados anexadas a um evento de macro de dados.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação de SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornada para a macro ou o Visual Basic para a sub-rotina Applications (VBA) que chamou a macro de dados nomeada.
+O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornado para a macro ou a sub-rotina VBA (Visual Basic for Applications) chamada da macro de dados nomeada.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     RunDataMacro

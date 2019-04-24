@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 96ddc7fc1a93543f0eea2b42a3d423ec25a00636
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300900"
 ---
 # <a name="record-object-ado"></a>Objeto Record (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa uma linha de um [Recordset](recordset-object-ado.md) ou do provedor de dados ou um objeto retornado pelo provedor de dados semi-estruturado, como um arquivo ou diretório.
 
@@ -33,7 +33,7 @@ O objeto **Record** também pode ser usado pelos provedores de dados semi-estrut
 
 O objeto **Record** também representa uma forma alternativa de navegar hierarquicamente nos dados organizados. É possível criar um objeto **Record** para representar a raiz de uma subárvore em uma estrutura em árvore grande e os novos objetos **Record** podem ser abertos para representar nós filhos.
 
-Um recurso (por exemplo, um arquivo ou um diretório) pode ser identificado exclusivamente por uma URL absoluta. Um objeto [Connection](connection-object-ado.md) será criado e definido de forma implícita como o objeto **Record**, quando o **Record** for aberto com uma URL absoluta. Um objeto **Connection** pode ser definido de forma implícita como o objeto **Record** por meio da propriedade [ActiveConnection](activeconnection-property-ado.md). Os arquivos e diretórios acessíveis através do objeto de **Conexão** definem o *contexto* no qual as operações de **registro** podem ocorrer.
+Um recurso (por exemplo, um arquivo ou um diretório) pode ser identificado exclusivamente por uma URL absoluta. Um objeto [Connection](connection-object-ado.md) será criado e definido de forma implícita como o objeto **Record**, quando o **Record** for aberto com uma URL absoluta. Um objeto **Connection** pode ser definido de forma implícita como o objeto **Record** por meio da propriedade [ActiveConnection](activeconnection-property-ado.md). Os arquivos e os diretórios acessíveis por meio do objeto **Connection** definem o *contexto* no qual as operações **Record** podem ocorrer.
 
 A modificação dos dados e os métodos de navegação no objeto **Record** também aceitam uma URL relativa, que localiza um recurso usando uma URL absoluta ou o contexto do objeto **Connection** como um ponto de partida.
 

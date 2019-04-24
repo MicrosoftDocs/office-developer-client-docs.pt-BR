@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3c98d8795bb7039c0ae158414401dc5d754066f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295496"
 ---
 # <a name="copydatabasefile-macro-action"></a>Ação da macro CopiarArquivoDeBancodeDados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **CopiarArquivoDeBancodeDados** para fazer uma cópia do banco de dados atual do Microsoft SQL Server 7.0 ou versões posteriores conectado ao projeto do Access. Access desanexa o banco de dados atual e, em seguida, anexa-o ao servidor de destino. Para obter mais informações sobre como desanexar e anexar um banco de dados, consulte a documentação do SQL Server.
+Você pode usar a ação **CopiarArquivoDeBancodeDados** para fazer uma cópia do banco de dados atual do Microsoft SQL Server 7.0 ou versões posteriores conectado ao projeto do Access. O Access desanexa o banco de dados atual e anexa-o ao servidor de destino. Para obter mais informações sobre como desanexar e anexar um banco de dados, consulte a documentação do SQL Server.
 
 > [!NOTE]
 > [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
@@ -50,9 +50,7 @@ A ação **CopiarArquivoDeBancodeDados** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Desconectar Todos os Usuários</strong></p></td>
-<td><p>Especifica se o Access deve ou não remover os usuários do banco de dados. Se estiver definido como <strong>Sim</strong>, quaisquer usuários conectados ao banco de dados atual serão desconectados para que a operação de banco de dados de cópia possa prosseguir. Se estiver definido como <strong>Não</strong> e um ou mais usuários estiverem conectados ao banco de dados, a operação de banco de dados de cópia falhará. O padrão é <strong>Não</strong>. 
-
-</p><p><strong>Aviso</strong>: desconectar usuários de um banco de dados, sem aviso adequado pode levar à perda de dados.</p></td>
+<td><p>Especifica se o Access deve ou não remover os usuários do banco de dados. Se estiver definido como <strong>Sim</strong>, quaisquer usuários conectados ao banco de dados atual serão desconectados para que a operação de banco de dados de cópia possa prosseguir. Se estiver definido como <strong>Não</strong> e um ou mais usuários estiverem conectados ao banco de dados, a operação de banco de dados de cópia falhará. O padrão é <strong>Não</strong>.</p><p><strong>Aviso</strong>: desconectar usuários de um banco de dados sem aviso adequado pode levar a uma perda de dados.</p></td>
 </tr>
 </tbody>
 </table>

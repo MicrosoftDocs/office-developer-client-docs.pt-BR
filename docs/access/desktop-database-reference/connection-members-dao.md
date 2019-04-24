@@ -1,5 +1,5 @@
 ---
-title: Membros de Conexão (DAO)
+title: Membros de conexão (DAO)
 TOCTitle: Connection Members
 ms:assetid: 94fc60ee-b6f2-cf08-b008-ed51bf7e7f8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295902"
 ---
-# <a name="connection-members-dao"></a>Membros de Conexão (DAO)
+# <a name="connection-members-dao"></a>Membros de conexão (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 > [!NOTE]
 > [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access. Um objeto Connection representa uma conexão com um banco de dados ODBC (apenas espaços de trabalho ODBCDirect).
@@ -74,7 +74,7 @@ ms.locfileid: "28703899"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">Conecte-se</a></strong></p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Define ou retorna um valor que fornece informações sobre a origem de uma conexão aberta. <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
@@ -82,7 +82,7 @@ ms.locfileid: "28703899"
 <td><p>Retorna o objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a essa conexão (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="connection-name-property-dao.md">Nome</a></strong></p></td>
 <td><p>Retorna o nome de um <strong><a href="connection-object-dao.md">Connection</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -107,11 +107,11 @@ ms.locfileid: "28703899"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Retorna um valor que indica se um objeto aceita transactions. <strong>Boolean</strong> somente leitura.</p></td>
+<td><p>Retorna um valor que indica se um objeto tem suporte em transações. <strong>Boolean</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Retorna um valor que indica se você pode alterar o objeto DAO. <strong>Boolean</strong> somente leitura. Somente leitura.</p></td>
+<td><p>Retorna um valor que indica se você pode alterar um objeto DAO. <strong>Boolean</strong> somente leitura.Somente leitura.</p></td>
 </tr>
 </tbody>
 </table>

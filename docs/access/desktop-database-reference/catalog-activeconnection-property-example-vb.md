@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f2e409a7d158ba04e79d300eaacf9edf8cf5622
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296616"
 ---
 # <a name="catalog-activeconnection-property-example-vb"></a>Exemplo da propriedade ActiveConnection de catálogo (VB)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Configurar a propriedade [ActiveConnection](activeconnection-property-adox.md) como uma conexão válida e aberta "abre" o catálogo. É possível acessar os objetos de esquema contidos em um catálogo aberto.
 

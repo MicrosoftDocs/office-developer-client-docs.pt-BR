@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f3ef598ad50747d99ca884043e03ebfabfef8f63
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308992"
 ---
 # <a name="runsql-macro-action"></a>Ação da macro ExecutarSQL
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **ExecutarSQL** para executar uma consulta ação Access usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
+Você pode usar a ação **ExecutarSQL** para executar uma consulta ação de acesso usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
 
 > [!NOTE]
 > [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
@@ -80,7 +80,7 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Acrescentar</p></td>
+<td><p>Append</p></td>
 <td><p>INSERT INTO</p></td>
 </tr>
 <tr class="odd">
@@ -89,7 +89,7 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 </tr>
 <tr class="even">
 <td><p>Criar tabela</p></td>
-<td><p>SELECIONE … EM</p></td>
+<td><p>SELECIONAR... ÀS</p></td>
 </tr>
 <tr class="odd">
 <td><p>Atualizar</p></td>

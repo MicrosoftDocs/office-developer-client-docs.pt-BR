@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2.CopyQueryDef (DAO)
+title: Método Recordset2. CopyQueryDef (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8a643dae0b67cf4f2a2a0148619d9a8f4df7e6f0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307361"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a>Método Recordset2.CopyQueryDef (DAO)
+# <a name="recordset2copyquerydef-method-dao"></a>Método Recordset2. CopyQueryDef (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
-Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **QueryDef** usado para criar o objeto **[Recordset](recordset-object-dao.md)** representado por um espaço reservado recordset (somente espaços de trabalho do Microsoft Access). .
+Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **QueryDef** usado para criar o objeto **[Recordset](recordset-object-dao.md)** representado pelo espaço reservado Recordset (apenas espaços de trabalho do Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -37,15 +37,15 @@ QueryDef
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar o método **CopyQueryDef** para criar um novo **QueryDef** que seja uma duplicata do **QueryDef** usado para criar o **Recordset**.
+Você pode usar o método **CopyQueryDef** para criar um novo **QueryDef** que é uma duplicata do **QueryDef** utilizado para criar o **Recordset**.
 
-Se não foi usado um **QueryDef** para criar esse **Recordset**, ocorrerá um erro. Você deve primeiramente abrir um **Recordset** com o método **OpenRecordset** antes de usar o método **CopyQueryDef**.
+Ocorre um erro se um **QueryDef** não foi usado para criar esse **Recordset**. Você deve primeiro abrir um **Recordset** com o método **OpenRecordset** antes de usar o método **CopyQueryDef**.
 
-Esse método é útil quando você cria um objeto **Recordset** a partir de um **QueryDef** e passa o **Recordset** para uma função, e a função deve recriar o equivalente SQL da consulta, por exemplo, para modificá-lo de alguma maneira.
+Esse método é útil quando você cria um objeto **Recordset** de um **QueryDef** e transmite o **Recordset** para uma função, e a função deve recriar o equivalente SQL da consulta, por exemplo, para modificá-la de alguma forma.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **CopyQueryDef** para criar uma cópia de um **QueryDef** a partir de um **Recordset** existente e modifica a cópia adicionando uma cláusula à propriedade SQL. Quando você cria um **QueryDef** permanente, espaços, ponto-e-vírgulas ou alimentações de linha podem ser adicionados à propriedade SQL; esses caracteres adicionais devem ser removidos antes da adição de qualquer cláusula à instrução SQL.
+Este exemplo usa o método **CopyQueryDef** para criar uma cópia de um **QueryDef** a partir de um **Recordset** existente e modifica a cópia adicionando uma cláusula à propriedade SQL. Quando você cria um **QueryDef** permanente, espaços, ponto-e-vírgulas ou preenchimentos de linha podem ser adicionados à propriedade SQL; esses caracteres extra devem ser removidos antes de uma nova cláusula ser acrescentada à instrução SQL.
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -72,7 +72,7 @@ Este exemplo usa o método **CopyQueryDef** para criar uma cópia de um **QueryD
 
 <br/>
 
-Este exemplo mostra um possível uso do CopyQueryNew().
+Este exemplo mostra um uso possível de CopyQueryNew().
 
 ```vb
 Sub CopyQueryDefX() 

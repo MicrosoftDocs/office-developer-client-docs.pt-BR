@@ -1,5 +1,5 @@
 ---
-title: Método Query (RDS - referência de banco de dados da área de trabalho do Access)
+title: Método Query (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92c72bf78f8f01a675038f63b065aceb6869fcd0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301110"
 ---
 # <a name="query-method-rds"></a>Método Query (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Utiliza uma sequência de consulta SQL válida para retornar um [Recordset](recordset-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-Definir o*Recordset* = *DataFactory*. Consulta (*Conexão*, *consulta*)
+Define*Recordset* = ** datafactory. Consulta (*conexão*, *consulta*)
 
 ## <a name="parameters"></a>Parâmetros
 

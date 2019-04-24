@@ -1,5 +1,5 @@
 ---
-title: Objetos RDS (referência de banco de dados da área de trabalho do Access)
+title: Objetos RDS (referência de banco de dados de área de trabalho do Access)
 TOCTitle: RDS objects
 ms:assetid: f675369d-26da-fd96-6a52-4a333be57bef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f6d0d5ffe65c138b49752f5690b911899b4a91a8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300879"
 ---
 # <a name="rds-objects"></a>Objetos RDS
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -32,7 +32,7 @@ ms.locfileid: "28703122"
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<td><p>Vincula uma consulta de dados do <strong>Recordset</strong> a um ou mais controles (por exemplo, uma caixa de texto, o controle de grade ou uma caixa de combinação) para exibir os dados do <strong>Recordset</strong> em uma página da Web.</p></td>
+<td><p>Vincula um <strong>conjunto de registros</strong> de consulta de dados a um ou mais controles (por exemplo, uma caixa de texto, um controle de grade ou uma caixa de combinação) para exibir os dados do <strong>Recordset</strong> em uma página da Web.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b706ffed14fdb440f3c3192c7c36015343f2e134
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300921"
 ---
 # <a name="raiseerror-macro-action"></a>Ação da macro GerarErro
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 A ação **GerarErro** cria uma exceção que pode ser lidada pela ação de macro **[AoOcorrerErro](onerror-macro-action.md)**.
 
@@ -35,7 +35,7 @@ A ação **GerarErro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -65,7 +65,7 @@ Para ver a tabela **USysApplicationLog**, siga estas etapas:
 
 1.  Clique no menu **arquivo** e, em seguida, clique em **Opções**.
 
-2.  Na caixa de diálogo **Opções do Access**, clique na guia **Banco de Dados Atual**.
+2.  Na caixa de diálogo **Opções do Access**, clique na guia **Bancos de Dados Atual**.
 
 3.  Na seção **Navegação**, clique em **Opções de Navegação**.
 
@@ -75,9 +75,9 @@ Para ver a tabela **USysApplicationLog**, siga estas etapas:
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento de macro de dados antes de alterar. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído atualmente atribuído a uma solicitação de serviço em aberto. Se isso for verdadeiro, então o evento antes de alterar for cancelado e o registro não será atualizado.
+O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento antes de alterar a macro de dados. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído está atualmente atribuído a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* Get the name of the technician  */

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301012"
 ---
 # <a name="read-readtext-write-and-writetext-methods-example-vb"></a>Exemplo dos métodos Read, ReadText, Write e WriteText (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra como ler o conteúdo de uma caixa de texto em para dentro de um [Stream](stream-object-ado.md) de texto de um **Stream** binário. Outras propriedades e métodos mostrados incluem [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) e [SetEOS](seteos-method-ado.md).
 

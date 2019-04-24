@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296630"
 ---
 # <a name="cancelevent-macro-action"></a>Ação da macro CancelarEvento
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **CancelarEvento** para cancelar o evento que ativou o acesso ao executar a macro que contém essa ação. O nome da macro é a configuração de uma propriedade de evento como **AntesDeAtualizar**, **AoAbrir**, **OnUnload** ou **OnPrint**.
+Você pode usar a ação **CancelarEvento** para cancelar o evento que causou o acesso para executar a macro que contém essa ação. O nome da macro é a configuração de uma propriedade de evento como **AntesDeAtualizar**, **AoAbrir**, **OnUnload** ou **OnPrint**.
 
 ## <a name="setting"></a>Configuração
 
@@ -55,7 +55,7 @@ Os eventos a seguir podem ser cancelados pala ação **CancelarEvento**.
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filtro</strong></p></td>
+<td><p><strong>Filter</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
@@ -90,7 +90,7 @@ Para executar a ação **CancelarEvento** em um módulo do VBA (Visual Basic for
 
 ## <a name="example"></a>Exemplo
 
- Validar dados usando uma macro
+Validar dados usando uma macro
 
 A macro de validação a seguir verifica os códigos postais inseridos em um formulário Fornecedores. Ela mostra o uso das ações **PararMacro**, **CaixadeMensagem**, **CancelarEvento** e **IrParaControle**. Uma expressão condicional verifica o país/região e o código postal inseridos em um registro do formulário. Se o código postal não estiver no formato certo para o país/região, a macro exibirá uma caixa de mensagem e cancelará o salvamento do registro. Ela retornará o controle de Código Postal, em que será possível corrigir o erro. Essa macro deve ser anexada à propriedade **AntesdeAtualizar** do formulário Fornecedores.
 
@@ -111,17 +111,15 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([CountryRegion])</p></td>
+<td><p>IsNull ([CountryRegion])</p></td>
 <td><p>PararMacro</p></td>
 <td><p></p></td>
 <td><p>Se PaísRegião for <strong>Nulo</strong>, o código postal não poderá ser validado.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Paísregião] No (&quot;França&quot;,&quot;Itália&quot;,&quot;Espanha&quot;) e Compr ([CEP]) &lt; &gt; 5</p></td>
+<td><p>CountryRegion In (&quot;França&quot;,&quot;Itália&quot;,&quot;Espanha&quot;) e compr ([CEP]) &lt; &gt; 5</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal precisa ter 5 caracteres. 
-
- Alarme sonoro: <strong>Sim</strong> tipo: <strong>informação</strong> título: erro de CEP</p></td>
+<td><p>Mensagem: O código postal precisa ter 5 caracteres. Alarme sonoro: <strong>Sim</strong> tipo: título da <strong>informação</strong> : erro de código postal</p></td>
 <td><p>Se o código postal não tiver 5 caracteres, exiba uma mensagem.</p></td>
 </tr>
 <tr class="odd">
@@ -132,16 +130,14 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p>IrParaControle</p></td>
+<td><p>GoToControl</p></td>
 <td><p>Nome do Controle: CEP</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[Paísregião] No (&quot;Austrália&quot;,&quot;Cingapura&quot;) e Compr ([CEP]) &lt; &gt; 4</p></td>
+<td><p>CountryRegion In (&quot;Austrália&quot;,&quot;Cingapura&quot;) e compr ([CEP]) &lt; &gt; 4</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal precisa ter 4 caracteres. 
-
- Alarme sonoro: <strong>Sim</strong> tipo: <strong>informação</strong> título: erro de CEP</p></td>
+<td><p>Mensagem: O código postal precisa ter 4 caracteres. Alarme sonoro: <strong>Sim</strong> tipo: título da <strong>informação</strong> : erro de código postal</p></td>
 <td><p>Se o código postal não tiver 4 caracteres, exiba uma mensagem.</p></td>
 </tr>
 <tr class="even">
@@ -152,14 +148,14 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p>IrParaControle</p></td>
+<td><p>GoToControl</p></td>
 <td><p>Nome do Controle: CEP</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([Paísregião] = &quot;Canadá&quot;) E ([CEP] não igual a&quot;[A-Z] [0-9] [A-Z] [0-9] [A-Z] [0-9]&quot;)</p></td>
+<td><p>([CountryRegion] = &quot;Canadá&quot;) E ([código postal] não like&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal não é válido. Exemplo de código canadense: H1J 1C3 alarme sonoro: <strong>Sim</strong> tipo: <strong>informação</strong> título: erro de código Postal</p></td>
+<td><p>Mensagem: O código postal é inválido. Exemplo de código canadense: H1J 1C3 beep: <strong>Yes</strong> Type: tipo de <strong>informação</strong> : erro de código postal</p></td>
 <td><p>Se o código postal não estiver correto para Canadá, exiba uma mensagem. (Exemplo de código de Canadá: H1J 1C3)</p></td>
 </tr>
 <tr class="odd">

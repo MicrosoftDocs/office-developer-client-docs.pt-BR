@@ -1,5 +1,5 @@
 ---
-title: Método Reset (RDS - referência de banco de dados da área de trabalho do Access)
+title: Método Reset (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Reset method (RDS)
 ms:assetid: 169ebd1e-6071-613e-c065-3af060167456
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 898045bcfdd3fb2483954155319e6aab3d0ebc7f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306640"
 ---
 # <a name="reset-method-rds"></a>Método Reset (RDS)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Executa a classificação ou a filtragem em um **Recordset** de cliente, com base nas propriedades de classificação e filtragem especificadas.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Redefinição (*valor*)
+*DataControl*. Redefinir (*valor*)
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,5 +37,5 @@ As propriedades [SortColumn](sortcolumn-property-rds.md), [SortDirection](sortdi
 
 Se houver alterações nos dados originais que ainda não foram submetidas, o método **Reset** falhará. Primeiro, utilize o método [SubmitChanges](submitchanges-method-rds.md) para salvar quaisquer alterações em um **Recordset** de leitura/gravação e, em seguida, utilize o método **Reset** para classificar ou filtrar os registros.
 
-Se você quiser executar mais de um filtro no seu conjunto de linhas, você pode usar o opcional argumento *booleano* com o método **Reset** . O exemplo a seguir mostra como fazer isso:
+Se você deseja executar mais de um filtro em seu conjunto de linhas, poderá utilizar o argumento opcional *Boolean* com o método **Reset**. O exemplo a seguir mostra como fazer isso:
 
