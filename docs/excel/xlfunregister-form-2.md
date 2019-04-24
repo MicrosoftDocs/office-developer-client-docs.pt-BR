@@ -7,58 +7,58 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister (Form 2)
 keywords:
-- xlfunregister [excel 2007]
+- xlfunregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e0154e380b65b8c57e7e96a98ef131e26b49e203
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310161"
 ---
-# <a name="xlfunregister-form-2"></a><span data-ttu-id="c809a-104">xlfUnregister (Formulário 2)</span><span class="sxs-lookup"><span data-stu-id="c809a-104">xlfUnregister (Form 2)</span></span>
+# <a name="xlfunregister-form-2"></a><span data-ttu-id="3be7a-104">xlfUnregister (Formulário 2)</span><span class="sxs-lookup"><span data-stu-id="3be7a-104">xlfUnregister (Form 2)</span></span>
 
-<span data-ttu-id="c809a-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c809a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="3be7a-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="3be7a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="c809a-106">Pode ser chamado a partir de um comando DLL ou XLL próprio foi chamado pelo Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="c809a-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="c809a-107">Isso é equivalente a chamar **cancela o registro** de uma folha de macro do Excel XLM.</span><span class="sxs-lookup"><span data-stu-id="c809a-107">This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet.</span></span> 
+<span data-ttu-id="3be7a-106">Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="3be7a-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="3be7a-107">Isso equivale a chamar **Unregister** de uma folha de macro XLM do Excel.</span><span class="sxs-lookup"><span data-stu-id="3be7a-107">This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet.</span></span> 
   
-<span data-ttu-id="c809a-108">**xlfUnregister** pode ser chamado de duas formas:</span><span class="sxs-lookup"><span data-stu-id="c809a-108">**xlfUnregister** can be called in two forms:</span></span> 
+<span data-ttu-id="3be7a-108">**xlfUnregister** pode ser chamado de duas formas:</span><span class="sxs-lookup"><span data-stu-id="3be7a-108">**xlfUnregister** can be called in two forms:</span></span> 
   
-- <span data-ttu-id="c809a-109">Formulário 1: Cancela o registro de um comando individual ou uma função.</span><span class="sxs-lookup"><span data-stu-id="c809a-109">Form 1: Unregisters an individual command or function.</span></span>
+- <span data-ttu-id="3be7a-109">Formulário 1: cancela o registro de um comando ou função individual.</span><span class="sxs-lookup"><span data-stu-id="3be7a-109">Form 1: Unregisters an individual command or function.</span></span>
     
-- <span data-ttu-id="c809a-110">Formulário 2: Descarrega e desativa um XLL.</span><span class="sxs-lookup"><span data-stu-id="c809a-110">Form 2: Unloads and deactivates an XLL.</span></span>
+- <span data-ttu-id="3be7a-110">Formulário 2: descarrega e desativa um XLL.</span><span class="sxs-lookup"><span data-stu-id="3be7a-110">Form 2: Unloads and deactivates an XLL.</span></span>
     
-<span data-ttu-id="c809a-111">Chamado no formulário 2, essa função força um DLL ou código do recurso a ser descarregado completamente.</span><span class="sxs-lookup"><span data-stu-id="c809a-111">Called in Form 2, this function forces a DLL or code resource to be unloaded completely.</span></span> <span data-ttu-id="c809a-112">Ele cancela o registro de todas as funções em uma DLL, mesmo se eles estão atualmente em uso por outra macro, não importa qual a contagem de uso.</span><span class="sxs-lookup"><span data-stu-id="c809a-112">It unregisters all of the functions in a DLL, even if they are currently in use by another macro, no matter what the use count.</span></span> <span data-ttu-id="c809a-113">Essa função chama **xlAutoClose**e, em seguida, cancela o registro de todas as funções na DLL.</span><span class="sxs-lookup"><span data-stu-id="c809a-113">This function calls **xlAutoClose**, and then unregisters all the functions in the DLL.</span></span>
+<span data-ttu-id="3be7a-111">Chamado no formato 2, essa função força uma DLL ou recurso de código a ser descarregado completamente.</span><span class="sxs-lookup"><span data-stu-id="3be7a-111">Called in Form 2, this function forces a DLL or code resource to be unloaded completely.</span></span> <span data-ttu-id="3be7a-112">Ele cancela o registro de todas as funções em uma DLL, mesmo que estejam atualmente em uso por outra macro, independentemente da contagem de uso.</span><span class="sxs-lookup"><span data-stu-id="3be7a-112">It unregisters all of the functions in a DLL, even if they are currently in use by another macro, no matter what the use count.</span></span> <span data-ttu-id="3be7a-113">Essa função chama **xlAutoClose**e, em seguida, cancela o registro de todas as funções na dll.</span><span class="sxs-lookup"><span data-stu-id="3be7a-113">This function calls **xlAutoClose**, and then unregisters all the functions in the DLL.</span></span>
   
 ```cs
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c809a-114">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c809a-114">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3be7a-114">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3be7a-114">Parameters</span></span>
 
-<span data-ttu-id="c809a-115">_pxModuleText_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="c809a-115">_pxModuleText_ (**xltypeStr**)</span></span>
+<span data-ttu-id="3be7a-115">_pxModuleText_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="3be7a-115">_pxModuleText_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="c809a-116">O nome da DLL.</span><span class="sxs-lookup"><span data-stu-id="c809a-116">The name of the DLL.</span></span>
+<span data-ttu-id="3be7a-116">O nome da DLL.</span><span class="sxs-lookup"><span data-stu-id="3be7a-116">The name of the DLL.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="c809a-117">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c809a-117">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="3be7a-117">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3be7a-117">Property value/Return value</span></span>
 
-<span data-ttu-id="c809a-118">Se tiver êxito, retornará **TRUE** (**xltypeBool**).</span><span class="sxs-lookup"><span data-stu-id="c809a-118">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="c809a-119">Se for bem sucedida, retornará **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="c809a-119">If unsuccessful, returns **FALSE**.</span></span>
+<span data-ttu-id="3be7a-118">Se bem-sucedido, retorna **true** (**xltypeBool**).</span><span class="sxs-lookup"><span data-stu-id="3be7a-118">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="3be7a-119">Se não tiver êxito, retornará **false**.</span><span class="sxs-lookup"><span data-stu-id="3be7a-119">If unsuccessful, returns **FALSE**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c809a-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="c809a-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3be7a-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="3be7a-120">Remarks</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="c809a-121">Não chame essa forma da função da sua implementação do [xlAutoClose](xlautoclose.md) em uma tentativa de cancelar o registro de todos os recursos da DLL com chamada de uma função simples.</span><span class="sxs-lookup"><span data-stu-id="c809a-121">Do not call this form of the function from your implementation of the [xlAutoClose](xlautoclose.md) in an attempt to unregister all of the DLL's resources with one simple function call.</span></span> <span data-ttu-id="c809a-122">Isso leva a chamada recursiva de **xlAutoClose** e um estouro de pilha.</span><span class="sxs-lookup"><span data-stu-id="c809a-122">This leads to recursive calling of **xlAutoClose** and a stack overflow.</span></span> 
+> <span data-ttu-id="3be7a-121">Não chame esse formato da função de sua implementação do [xlAutoClose](xlautoclose.md) em uma tentativa de cancelar o registro de todos os recursos da dll com uma única chamada de função simples.</span><span class="sxs-lookup"><span data-stu-id="3be7a-121">Do not call this form of the function from your implementation of the [xlAutoClose](xlautoclose.md) in an attempt to unregister all of the DLL's resources with one simple function call.</span></span> <span data-ttu-id="3be7a-122">Isso leva à chamada recursiva de **xlAutoClose** e de um estouro de pilha.</span><span class="sxs-lookup"><span data-stu-id="3be7a-122">This leads to recursive calling of **xlAutoClose** and a stack overflow.</span></span> 
   
-### <a name="remember-to-delete-names"></a><span data-ttu-id="c809a-123">Lembre-se de excluir nomes</span><span class="sxs-lookup"><span data-stu-id="c809a-123">Remember to delete names</span></span>
+### <a name="remember-to-delete-names"></a><span data-ttu-id="3be7a-123">Lembre-se de excluir nomes</span><span class="sxs-lookup"><span data-stu-id="3be7a-123">Remember to delete names</span></span>
 
-<span data-ttu-id="c809a-124">Se você especificou o argumento _pxFunctionText_ de **xlfRegister**, ao registrar a DLL as funções e comandos, você deve explicitamente excluir os nomes chamando **xlfSetName** para cada um, omitindo o segundo argumento para que o função não aparece mais no Assistente de função.</span><span class="sxs-lookup"><span data-stu-id="c809a-124">If you specified the  _pxFunctionText_ argument to **xlfRegister**, when registering the DLL's functions and commands, you must explicitly delete the names by calling **xlfSetName** for each one, omitting the second argument so that the function no longer appears in the Function Wizard.</span></span> <span data-ttu-id="c809a-125">Para obter mais informações, consulte [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).</span><span class="sxs-lookup"><span data-stu-id="c809a-125">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
+<span data-ttu-id="3be7a-124">Se você especificou o argumento _pxFunctionText_ como **xlfRegister**, ao registrar as funções e os comandos da dll, deverá excluir explicitamente os nomes chamando **xlfSetName** para cada um, omitindo o segundo argumento para que o a função não é mais exibida no assistente de função.</span><span class="sxs-lookup"><span data-stu-id="3be7a-124">If you specified the  _pxFunctionText_ argument to **xlfRegister**, when registering the DLL's functions and commands, you must explicitly delete the names by calling **xlfSetName** for each one, omitting the second argument so that the function no longer appears in the Function Wizard.</span></span> <span data-ttu-id="3be7a-125">Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).</span><span class="sxs-lookup"><span data-stu-id="3be7a-125">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c809a-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="c809a-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3be7a-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="3be7a-126">See also</span></span>
 
-- [<span data-ttu-id="c809a-127">xlfRegister (Form 1)</span><span class="sxs-lookup"><span data-stu-id="c809a-127">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
-- [<span data-ttu-id="c809a-128">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="c809a-128">xlfRegisterId</span></span>](xlfregisterid.md)
-- [<span data-ttu-id="c809a-129">xlfUnregister (Formulário 1)</span><span class="sxs-lookup"><span data-stu-id="c809a-129">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
-- [<span data-ttu-id="c809a-130">Funções XLM essenciais e úteis para a API de C</span><span class="sxs-lookup"><span data-stu-id="c809a-130">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+- [<span data-ttu-id="3be7a-127">xlfRegister (Formulário 1)</span><span class="sxs-lookup"><span data-stu-id="3be7a-127">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
+- [<span data-ttu-id="3be7a-128">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="3be7a-128">xlfRegisterId</span></span>](xlfregisterid.md)
+- [<span data-ttu-id="3be7a-129">xlfUnregister (Formulário 1)</span><span class="sxs-lookup"><span data-stu-id="3be7a-129">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
+- [<span data-ttu-id="3be7a-130">Funções XLM essenciais e úteis para a API C</span><span class="sxs-lookup"><span data-stu-id="3be7a-130">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 

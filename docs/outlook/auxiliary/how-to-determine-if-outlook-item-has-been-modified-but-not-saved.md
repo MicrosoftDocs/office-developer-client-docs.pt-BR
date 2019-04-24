@@ -1,5 +1,5 @@
 ---
-title: Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)
+title: Determinar se um item do Outlook foi modificado, mas não salvo (referência do Outlook auxiliar)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 65fba557-5fb0-42de-8715-eccda1f3c648
 description: Este tópico mostra como usar a identificação de expedição de dispidFDirty para chamar a propriedade correspondente em um item do Outlook, para ver se o item foi modificado e não foi salvo.
 ms.openlocfilehash: e66a23983a3cc19a7cb51d4b4c3b2c1cee58a793
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317637"
 ---
-# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a><span data-ttu-id="67ff3-103">Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)</span><span class="sxs-lookup"><span data-stu-id="67ff3-103">Determine if an Outlook item has been modified but not saved (Outlook Auxiliary Reference)</span></span>
+# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a><span data-ttu-id="1832a-103">Determinar se um item do Outlook foi modificado, mas não salvo (referência do Outlook auxiliar)</span><span class="sxs-lookup"><span data-stu-id="1832a-103">Determine if an Outlook item has been modified but not saved (Outlook Auxiliary Reference)</span></span>
 
-<span data-ttu-id="67ff3-104">Este tópico mostra como usar a identificação de expedição de **dispidFDirty** para chamar a propriedade correspondente em um item do Outlook, para ver se o item foi modificado e não foi salvo.</span><span class="sxs-lookup"><span data-stu-id="67ff3-104">This topic shows how to use the **dispidFDirty** dispatch ID to invoke the corresponding property on an Outlook item, to see whether the item has been modified and has not been saved.</span></span> 
+<span data-ttu-id="1832a-104">Este tópico mostra como usar a identificação de expedição de **dispidFDirty** para chamar a propriedade correspondente em um item do Outlook, para ver se o item foi modificado e não foi salvo.</span><span class="sxs-lookup"><span data-stu-id="1832a-104">This topic shows how to use the **dispidFDirty** dispatch ID to invoke the corresponding property on an Outlook item, to see whether the item has been modified and has not been saved.</span></span> 
   
-<span data-ttu-id="67ff3-105">Dado um objeto de item, você pode usar o método [IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) para obter um ponteiro de interface [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) .</span><span class="sxs-lookup"><span data-stu-id="67ff3-105">Given an item object, you can use the [IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) method to obtain an [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface pointer.</span></span> <span data-ttu-id="67ff3-106">A função no tópico `FIsItemDirty` aceita um ponteiro **IDispatch** , _pdisp_, como um parâmetro de entrada.</span><span class="sxs-lookup"><span data-stu-id="67ff3-106">The function in the topic `FIsItemDirty` accepts an **IDispatch** pointer,  _pdisp_, as an input parameter.</span></span>  <span data-ttu-id="67ff3-107">`FIsItemDirty` chama o método [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) , especificando a **dispidFDirty** como o argumento para o parâmetro  _dispIdMember_ e os sinalizadores  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` para  _wFlags_, para verificar se o item foi modificado.</span><span class="sxs-lookup"><span data-stu-id="67ff3-107">`FIsItemDirty` calls the [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) method, specifying **dispidFDirty** as the argument for the  _dispIdMember_ parameter, and the flags  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` for  _wFlags_, to verify whether the item has been modified.</span></span>  <span data-ttu-id="67ff3-108">`FIsItemDirty`Retorna um valor booleano (**True** para indicar que o item possui alterações não salvas; caso contrário, **False**).</span><span class="sxs-lookup"><span data-stu-id="67ff3-108">`FIsItemDirty` returns a Boolean value (**True** to indicate that the item has unsaved changes; otherwise, **False**).</span></span>
+<span data-ttu-id="1832a-105">Dado um objeto de item, você pode usar o método [IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) para obter um ponteiro de interface [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) .</span><span class="sxs-lookup"><span data-stu-id="1832a-105">Given an item object, you can use the [IUnknown::QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) method to obtain an [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface pointer.</span></span> <span data-ttu-id="1832a-106">A função no tópico `FIsItemDirty` aceita um ponteiro **IDispatch** , _pdisp_, como um parâmetro de entrada.</span><span class="sxs-lookup"><span data-stu-id="1832a-106">The function in the topic `FIsItemDirty` accepts an **IDispatch** pointer,  _pdisp_, as an input parameter.</span></span>  <span data-ttu-id="1832a-107">`FIsItemDirty` chama o método [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) , especificando a **dispidFDirty** como o argumento para o parâmetro  _dispIdMember_ e os sinalizadores  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` para  _wFlags_, para verificar se o item foi modificado.</span><span class="sxs-lookup"><span data-stu-id="1832a-107">`FIsItemDirty` calls the [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) method, specifying **dispidFDirty** as the argument for the  _dispIdMember_ parameter, and the flags  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` for  _wFlags_, to verify whether the item has been modified.</span></span>  <span data-ttu-id="1832a-108">`FIsItemDirty`Retorna um valor Boolean (**true** para indicar que o item possui alterações não salvas; caso contrário, **false**).</span><span class="sxs-lookup"><span data-stu-id="1832a-108">`FIsItemDirty` returns a Boolean value (**True** to indicate that the item has unsaved changes; otherwise, **False**).</span></span>
   
 ```cpp
 bool FIsItemDirty(IDispatch *pdisp)
@@ -44,7 +44,7 @@ bool FIsItemDirty(IDispatch *pdisp)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="67ff3-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="67ff3-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1832a-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="1832a-109">See also</span></span>
 
-- [<span data-ttu-id="67ff3-110">Constantes (Outlook exportados APIs)</span><span class="sxs-lookup"><span data-stu-id="67ff3-110">Constants (Outlook exported APIs)</span></span>](constants-outlook-exported-apis.md)
+- [<span data-ttu-id="1832a-110">Constantes (Outlook exportados APIs)</span><span class="sxs-lookup"><span data-stu-id="1832a-110">Constants (Outlook exported APIs)</span></span>](constants-outlook-exported-apis.md)
 

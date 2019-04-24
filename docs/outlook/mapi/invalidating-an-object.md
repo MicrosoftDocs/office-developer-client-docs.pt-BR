@@ -1,5 +1,5 @@
 ---
-title: Invalidar um objeto
+title: Invalidando um objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 7d601cee-ffc4-4c7c-8006-40b717dee247
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2346ec8541e1a8b7f5ea198722833447f9f5a289
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bf7ef15ccfd9cd015771785bda9d6ad79415736b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317196"
 ---
-# <a name="invalidating-an-object"></a><span data-ttu-id="563f2-103">Invalidar um objeto</span><span class="sxs-lookup"><span data-stu-id="563f2-103">Invalidating an Object</span></span>
+# <a name="invalidating-an-object"></a><span data-ttu-id="36c00-103">Invalidando um objeto</span><span class="sxs-lookup"><span data-stu-id="36c00-103">Invalidating an Object</span></span>
 
   
   
-<span data-ttu-id="563f2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="563f2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="36c00-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="36c00-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="563f2-105">Como parte do processo de encerramento do seu provedor, talvez você queira invalidar um objeto.</span><span class="sxs-lookup"><span data-stu-id="563f2-105">As part of your provider's shutdown process, you might want to invalidate an object.</span></span> <span data-ttu-id="563f2-106">A invalidação de um objeto envolve a substituição seu vtable com uma vtable que contém implementações para os três métodos **IUnknown** : **QueryInterface**, **AddRef**e **Release**.</span><span class="sxs-lookup"><span data-stu-id="563f2-106">Invalidating an object involves replacing its vtable with a vtable that contains implementations for the three **IUnknown** methods: **AddRef**, **Release**, and **QueryInterface**.</span></span> <span data-ttu-id="563f2-107">Invalide um objeto chamando [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), um método que está incluído no objeto de suporte de cada um dos três tipos de provedor comuns.</span><span class="sxs-lookup"><span data-stu-id="563f2-107">Invalidate an object by calling [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), a method that is included in the support object of each of the three common provider types.</span></span> <span data-ttu-id="563f2-108">Provedores geralmente fazer essa chamada na implementação do método de **Logoff** do objeto seus logon.</span><span class="sxs-lookup"><span data-stu-id="563f2-108">Providers typically make this call in the implementation of their logon object's **Logoff** method.</span></span> 
+<span data-ttu-id="36c00-105">Como parte do processo de desligamento do provedor, talvez você queira invalidar um objeto.</span><span class="sxs-lookup"><span data-stu-id="36c00-105">As part of your provider's shutdown process, you might want to invalidate an object.</span></span> <span data-ttu-id="36c00-106">A invalidação de um objeto envolve a substituição de uma vtable com uma vtable que contém implementações para os três métodos **IUnknown** : **AddRef**, **Release**e **QueryInterface**.</span><span class="sxs-lookup"><span data-stu-id="36c00-106">Invalidating an object involves replacing its vtable with a vtable that contains implementations for the three **IUnknown** methods: **AddRef**, **Release**, and **QueryInterface**.</span></span> <span data-ttu-id="36c00-107">Invalidar um objeto chamando [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md), um método que está incluído no objeto support de cada um dos três tipos de provedor comuns.</span><span class="sxs-lookup"><span data-stu-id="36c00-107">Invalidate an object by calling [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), a method that is included in the support object of each of the three common provider types.</span></span> <span data-ttu-id="36c00-108">Geralmente, os provedores fazem essa chamada na implementação do método **logoff** do objeto de logon.</span><span class="sxs-lookup"><span data-stu-id="36c00-108">Providers typically make this call in the implementation of their logon object's **Logoff** method.</span></span> 
   
-<span data-ttu-id="563f2-109">A invalidação de um objeto dá MAPI a responsabilidade ultimate para liberar a memória associada ao objeto.</span><span class="sxs-lookup"><span data-stu-id="563f2-109">Invalidating an object gives MAPI the ultimate responsibility for freeing the memory associated with an object.</span></span> <span data-ttu-id="563f2-110">Você pode liberar todos os recursos conectados com um objeto e em seguida, chame **MakeInvalid** para invalidar todos os métodos em seus interfaces herdadas.</span><span class="sxs-lookup"><span data-stu-id="563f2-110">You can free all of the resources connected with an object and then call **MakeInvalid** to invalidate all of the methods in its inherited interfaces.</span></span> <span data-ttu-id="563f2-111">Chamadas para qualquer um desses métodos retornará MAPI_E_INVALID_OBJECT.</span><span class="sxs-lookup"><span data-stu-id="563f2-111">Calls to any of these methods will return MAPI_E_INVALID_OBJECT.</span></span> <span data-ttu-id="563f2-112">O uso de **MakeInvalid** é uma opção que muitos provedores de serviço optar por ignorar.</span><span class="sxs-lookup"><span data-stu-id="563f2-112">Using **MakeInvalid** is an option that many service providers choose to ignore.</span></span> 
+<span data-ttu-id="36c00-109">A invalidação de um objeto dá ao MAPI a responsabilidade final de liberar a memória associada a um objeto.</span><span class="sxs-lookup"><span data-stu-id="36c00-109">Invalidating an object gives MAPI the ultimate responsibility for freeing the memory associated with an object.</span></span> <span data-ttu-id="36c00-110">Você pode liberar todos os recursos conectados a um objeto e, em seguida, chamar **MakeInvalid** para invalidar todos os métodos em suas interfaces herdadas.</span><span class="sxs-lookup"><span data-stu-id="36c00-110">You can free all of the resources connected with an object and then call **MakeInvalid** to invalidate all of the methods in its inherited interfaces.</span></span> <span data-ttu-id="36c00-111">As chamadas para qualquer um desses métodos retornarão MAPI_E_INVALID_OBJECT.</span><span class="sxs-lookup"><span data-stu-id="36c00-111">Calls to any of these methods will return MAPI_E_INVALID_OBJECT.</span></span> <span data-ttu-id="36c00-112">O uso do **MakeInvalid** é uma opção que muitos provedores de serviço optam por ignorar.</span><span class="sxs-lookup"><span data-stu-id="36c00-112">Using **MakeInvalid** is an option that many service providers choose to ignore.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="563f2-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="563f2-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="36c00-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="36c00-113">See also</span></span>
 
 
 
-[<span data-ttu-id="563f2-114">Encerrando um provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="563f2-114">Shutting Down a Service Provider</span></span>](shutting-down-a-service-provider.md)
+[<span data-ttu-id="36c00-114">Desligar um provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="36c00-114">Shutting Down a Service Provider</span></span>](shutting-down-a-service-provider.md)
 

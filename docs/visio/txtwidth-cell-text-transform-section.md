@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: 'Determina a largura do bloco de texto. A fórmula padrão é:'
-ms.openlocfilehash: ecba66aaf1f7eeb6d16c6b0d4c6569aed051910f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315999"
 ---
-# <a name="txtwidth-cell-text-transform-section"></a><span data-ttu-id="9795f-104">Célula TxtWidth (Seção Text Transform)</span><span class="sxs-lookup"><span data-stu-id="9795f-104">TxtWidth Cell (Text Transform Section)</span></span>
+# <a name="txtwidth-cell-text-transform-section"></a><span data-ttu-id="3f886-104">Célula TxtWidth (Seção Text Transform)</span><span class="sxs-lookup"><span data-stu-id="3f886-104">TxtWidth Cell (Text Transform Section)</span></span>
 
-<span data-ttu-id="9795f-p102">Determina a largura do bloco de texto. A fórmula padrão é:</span><span class="sxs-lookup"><span data-stu-id="9795f-p102">Determines the width of the text block. The default formula is:</span></span>
+<span data-ttu-id="3f886-105">Determina a largura do bloco de texto.</span><span class="sxs-lookup"><span data-stu-id="3f886-105">Determines the width of the text block.</span></span> <span data-ttu-id="3f886-106">A fórmula padrão é:</span><span class="sxs-lookup"><span data-stu-id="3f886-106">The default formula is:</span></span>
   
-<span data-ttu-id="9795f-107">= A largura \* 1</span><span class="sxs-lookup"><span data-stu-id="9795f-107">= Width \* 1</span></span>
+<span data-ttu-id="3f886-107">= Largura \* 1</span><span class="sxs-lookup"><span data-stu-id="3f886-107">= Width \* 1</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9795f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="9795f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f886-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="3f886-108">Remarks</span></span>
 
-<span data-ttu-id="9795f-109">Para fazer referência à célula TxtWidth pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="9795f-109">To get a reference to the TxtWidth cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3f886-109">Para fazer referência à célula TxtWidth pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="3f886-109">To get a reference to the TxtWidth cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="9795f-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="9795f-110">Cell name:</span></span>  <br/> | <span data-ttu-id="9795f-111">TxtWidth</span><span class="sxs-lookup"><span data-stu-id="9795f-111">TxtWidth</span></span>  <br/> |
+| <span data-ttu-id="3f886-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="3f886-110">Cell name:</span></span>  <br/> | <span data-ttu-id="3f886-111">TxtWidth</span><span class="sxs-lookup"><span data-stu-id="3f886-111">TxtWidth</span></span>  <br/> |
    
-<span data-ttu-id="9795f-112">Para fazer referência à célula TxtWidth pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="9795f-112">To get a reference to the TxtWidth cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3f886-112">Para fazer referência à célula TxtWidth pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="3f886-112">To get a reference to the TxtWidth cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="9795f-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="9795f-113">Section index:</span></span>  <br/> |<span data-ttu-id="9795f-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="9795f-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="9795f-115">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="9795f-115">Row index:</span></span>  <br/> |<span data-ttu-id="9795f-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="9795f-116">**visRowTextXForm**</span></span> <br/> |
-| <span data-ttu-id="9795f-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="9795f-117">Cell index:</span></span>  <br/> |<span data-ttu-id="9795f-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="9795f-118">**visXFormWidth**</span></span> <br/> |
+| <span data-ttu-id="3f886-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="3f886-113">Section index:</span></span>  <br/> |<span data-ttu-id="3f886-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3f886-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="3f886-115">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="3f886-115">Row index:</span></span>  <br/> |<span data-ttu-id="3f886-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="3f886-116">**visRowTextXForm**</span></span> <br/> |
+| <span data-ttu-id="3f886-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="3f886-117">Cell index:</span></span>  <br/> |<span data-ttu-id="3f886-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="3f886-118">**visXFormWidth**</span></span> <br/> |
    
 

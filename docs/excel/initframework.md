@@ -7,38 +7,38 @@ ms.topic: reference
 f1_keywords:
 - InitFramework
 keywords:
-- função initframework [excel 2007]
+- função initframework [Excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2d7e3286d794d6f21da9ef83ca44d18ec242c063
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34fe8f4a606956b90a0d005b0bc523cea460153f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310679"
 ---
-# <a name="initframework"></a><span data-ttu-id="01498-104">InitFramework</span><span class="sxs-lookup"><span data-stu-id="01498-104">InitFramework</span></span>
+# <a name="initframework"></a><span data-ttu-id="a463b-104">InitFramework</span><span class="sxs-lookup"><span data-stu-id="a463b-104">InitFramework</span></span>
 
- <span data-ttu-id="01498-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="01498-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="a463b-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a463b-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="01498-106">Função da biblioteca de Framework que inicializa a biblioteca de Framework, que simplesmente inicializa temporário **XLOPER**/ **XLOPER12** estruturas de dados de memória, dispensando qualquer memória que já foi alocada.</span><span class="sxs-lookup"><span data-stu-id="01498-106">Framework library function that initializes the Framework library, which simply initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
+<span data-ttu-id="a463b-106">Função da biblioteca da estrutura que inicializa a biblioteca do Framework, que simplesmente inicializa as estruturas de dados de memória do**XLOPER12** de **XLOPER**/ temporários, liberando qualquer memória que já tenha sido alocada.</span><span class="sxs-lookup"><span data-stu-id="a463b-106">Framework library function that initializes the Framework library, which simply initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
   
 ```cs
 short WINAPI InitFramework(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="01498-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="01498-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a463b-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a463b-107">Parameters</span></span>
 
-<span data-ttu-id="01498-108">Essa função não usa argumentos.</span><span class="sxs-lookup"><span data-stu-id="01498-108">This function takes no arguments.</span></span>
+<span data-ttu-id="a463b-108">Essa função não usa argumentos.</span><span class="sxs-lookup"><span data-stu-id="a463b-108">This function takes no arguments.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="01498-109">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="01498-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a463b-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="a463b-109">Return value</span></span>
 
-<span data-ttu-id="01498-110">Essa função não retorna um valor.</span><span class="sxs-lookup"><span data-stu-id="01498-110">This function does not return a value.</span></span>
+<span data-ttu-id="a463b-110">Essa função não retorna um valor.</span><span class="sxs-lookup"><span data-stu-id="a463b-110">This function does not return a value.</span></span>
   
-## <a name="example"></a><span data-ttu-id="01498-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="01498-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a463b-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="a463b-111">Example</span></span>
 
-<span data-ttu-id="01498-112">Este exemplo usa a função **InitFramework** para liberar memória temporária todos.</span><span class="sxs-lookup"><span data-stu-id="01498-112">This example uses the **InitFramework** function to free all temporary memory.</span></span> 
+<span data-ttu-id="a463b-112">Este exemplo usa a função **InitFramework** para liberar toda a memória temporária.</span><span class="sxs-lookup"><span data-stu-id="a463b-112">This example uses the **InitFramework** function to free all temporary memory.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -50,9 +50,9 @@ short WINAPI InitFrameworkExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="01498-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="01498-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a463b-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="a463b-113">See also</span></span>
 
 
 
-[<span data-ttu-id="01498-114">Funções na biblioteca de estrutura</span><span class="sxs-lookup"><span data-stu-id="01498-114">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="a463b-114">Funções na biblioteca do Framework</span><span class="sxs-lookup"><span data-stu-id="a463b-114">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

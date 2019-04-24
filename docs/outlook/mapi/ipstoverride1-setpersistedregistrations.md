@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificação: 08 de novembro de 2011'
+ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315474"
 ---
-# <a name="ipstoverride1setpersistedregistrations"></a><span data-ttu-id="55dd9-103">IPSTOVERRIDE1::SetPersistedRegistrations</span><span class="sxs-lookup"><span data-stu-id="55dd9-103">IPSTOVERRIDE1::SetPersistedRegistrations</span></span>
+# <a name="ipstoverride1setpersistedregistrations"></a><span data-ttu-id="dff06-103">IPSTOVERRIDE1::SetPersistedRegistrations</span><span class="sxs-lookup"><span data-stu-id="dff06-103">IPSTOVERRIDE1::SetPersistedRegistrations</span></span>
 
-<span data-ttu-id="55dd9-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="55dd9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dff06-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dff06-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="55dd9-105">Registra os arquivos de pastas particulares (. pst) para desbloqueio automático, evitando mais chamadas para o HrTrustedPSTOverrideHandlerCallback.</span><span class="sxs-lookup"><span data-stu-id="55dd9-105">Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.</span></span>
+<span data-ttu-id="dff06-105">Registra arquivos de pastas particulares (. pst) para desbloqueio automático, evitando mais chamadas para o HrTrustedPSTOverrideHandlerCallback.</span><span class="sxs-lookup"><span data-stu-id="dff06-105">Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.</span></span>
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -31,34 +31,34 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="55dd9-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="55dd9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="dff06-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="dff06-106">Parameters</span></span>
 
-<span data-ttu-id="55dd9-107">_pmval_</span><span class="sxs-lookup"><span data-stu-id="55dd9-107">_pmval_</span></span>
+<span data-ttu-id="dff06-107">_pmval_</span><span class="sxs-lookup"><span data-stu-id="dff06-107">_pmval_</span></span>
   
-> <span data-ttu-id="55dd9-108">[in] Uma estrutura de [SPropValue](spropvalue.md) que contém um ponteiro para o caminho da biblioteca de vínculo dinâmico (DLL) para registrar.</span><span class="sxs-lookup"><span data-stu-id="55dd9-108">[in] An [SPropValue](spropvalue.md) structure that contains a pointer to the path of the dynamic-link library (DLL) to register.</span></span> <span data-ttu-id="55dd9-109">A estrutura tem as seguintes características:</span><span class="sxs-lookup"><span data-stu-id="55dd9-109">The structure has the following characteristics:</span></span> 
+> <span data-ttu-id="dff06-108">no Uma estrutura [SPropValue](spropvalue.md) que contém um ponteiro para o caminho da biblioteca de vínculo dinâmico (DLL) a ser registrada.</span><span class="sxs-lookup"><span data-stu-id="dff06-108">[in] An [SPropValue](spropvalue.md) structure that contains a pointer to the path of the dynamic-link library (DLL) to register.</span></span> <span data-ttu-id="dff06-109">A estrutura tem as seguintes características:</span><span class="sxs-lookup"><span data-stu-id="dff06-109">The structure has the following characteristics:</span></span> 
     
-   - <span data-ttu-id="55dd9-110">Um ulPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span><span class="sxs-lookup"><span data-stu-id="55dd9-110">A ulPropTag of [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span></span>
+   - <span data-ttu-id="dff06-110">Uma ulPropTag do [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span><span class="sxs-lookup"><span data-stu-id="dff06-110">A ulPropTag of [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span></span>
     
-   - <span data-ttu-id="55dd9-111">Uma propriedade de valor de MVszW é definida como uma matriz de cadeias de caracteres Unicode terminada em nulo.</span><span class="sxs-lookup"><span data-stu-id="55dd9-111">An MVszW value property that is set to an array of null-terminated Unicode character strings.</span></span> <span data-ttu-id="55dd9-112">Para obter mais informações, consulte o tópico de [SWStringArray](swstringarray.md) .</span><span class="sxs-lookup"><span data-stu-id="55dd9-112">For more information see the [SWStringArray](swstringarray.md) topic.</span></span> 
+   - <span data-ttu-id="dff06-111">Uma propriedade de valor MVszW que é definida como uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo.</span><span class="sxs-lookup"><span data-stu-id="dff06-111">An MVszW value property that is set to an array of null-terminated Unicode character strings.</span></span> <span data-ttu-id="dff06-112">Para obter mais informações, consulte o tópico [SWStringArray](swstringarray.md) .</span><span class="sxs-lookup"><span data-stu-id="dff06-112">For more information see the [SWStringArray](swstringarray.md) topic.</span></span> 
     
 > [!NOTE]
-> <span data-ttu-id="55dd9-113">O SPropValue é armazenado em uma propriedade MAPI no intervalo de interno do PST.</span><span class="sxs-lookup"><span data-stu-id="55dd9-113">The SPropValue is stored in a MAPI property in the PST's internal range.</span></span> <span data-ttu-id="55dd9-114">Essa propriedade está inacessível aos aplicativos comuns de MAPI.</span><span class="sxs-lookup"><span data-stu-id="55dd9-114">This property is inaccessible to ordinary MAPI applications.</span></span> 
+> <span data-ttu-id="dff06-113">O SPropValue é armazenado em uma propriedade MAPI no intervalo interno do PST.</span><span class="sxs-lookup"><span data-stu-id="dff06-113">The SPropValue is stored in a MAPI property in the PST's internal range.</span></span> <span data-ttu-id="dff06-114">Esta propriedade está inacessível para aplicativos MAPI comuns.</span><span class="sxs-lookup"><span data-stu-id="dff06-114">This property is inaccessible to ordinary MAPI applications.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="55dd9-115">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="55dd9-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dff06-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="dff06-115">Return value</span></span>
 
-<span data-ttu-id="55dd9-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="55dd9-116">S_OK</span></span> 
+<span data-ttu-id="dff06-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="dff06-116">S_OK</span></span> 
   
-> <span data-ttu-id="55dd9-117">A chamada de função foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="55dd9-117">The function call was successful.</span></span>
+> <span data-ttu-id="dff06-117">A chamada de função foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="dff06-117">The function call was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="55dd9-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="55dd9-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dff06-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="dff06-118">Remarks</span></span>
 
-<span data-ttu-id="55dd9-119">Os registros persistentes podem afetar negativamente o desempenho de aplicativos, como o Outlook e Windows Desktop Search, que PSTs ser aberto.</span><span class="sxs-lookup"><span data-stu-id="55dd9-119">Persisted registrations may adversely affect the performance of applications, such as Outlook and Windows Desktop Search, that open PSTs.</span></span> <span data-ttu-id="55dd9-120">Considere o efeito no desempenho ao usar ou expandindo o uso dos registros persistentes.</span><span class="sxs-lookup"><span data-stu-id="55dd9-120">Consider the performance effect when using or expanding the usage of persisted registrations.</span></span>
+<span data-ttu-id="dff06-119">Os registros persistentes podem afetar adversamente o desempenho de aplicativos, como o Outlook e o Windows Desktop Search, que abriram PSTs.</span><span class="sxs-lookup"><span data-stu-id="dff06-119">Persisted registrations may adversely affect the performance of applications, such as Outlook and Windows Desktop Search, that open PSTs.</span></span> <span data-ttu-id="dff06-120">Considere o efeito de desempenho ao usar ou expandir o uso de registros persistentes.</span><span class="sxs-lookup"><span data-stu-id="dff06-120">Consider the performance effect when using or expanding the usage of persisted registrations.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="55dd9-121">Esse método é implementado apenas para Unicode.</span><span class="sxs-lookup"><span data-stu-id="55dd9-121">This method is implemented for Unicode only.</span></span> <span data-ttu-id="55dd9-122">Além disso, ele preventivamente falhará se qualquer um dos caminhos na matriz não têm uma extensão de nome de arquivo de. dll.</span><span class="sxs-lookup"><span data-stu-id="55dd9-122">Further, it will preemptively fail if any of the paths in the array do not have a file name extension of .dll.</span></span> 
+> <span data-ttu-id="dff06-121">Este método é implementado apenas para Unicode.</span><span class="sxs-lookup"><span data-stu-id="dff06-121">This method is implemented for Unicode only.</span></span> <span data-ttu-id="dff06-122">Além disso, ele falhará preventivamente se qualquer um dos caminhos na matriz não tiver uma extensão de nome de arquivo. dll.</span><span class="sxs-lookup"><span data-stu-id="dff06-122">Further, it will preemptively fail if any of the paths in the array do not have a file name extension of .dll.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="55dd9-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="55dd9-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dff06-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="dff06-123">See also</span></span>
 
-- [<span data-ttu-id="55dd9-124">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="55dd9-124">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md) 
-- [<span data-ttu-id="55dd9-125">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="55dd9-125">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+- [<span data-ttu-id="dff06-124">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="dff06-124">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md) 
+- [<span data-ttu-id="dff06-125">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="dff06-125">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 

@@ -1,41 +1,41 @@
 ---
-title: Função de log (aplicativo da web personalizado do Access)
+title: Função log (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
-description: Retorna o logaritmo natural ou o logaritmo de base determinado, da expressão especificada.
-ms.openlocfilehash: 5004b2b32e89a9d68364d271e8b94d72b012a62c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o logaritmo natural ou o logaritmo da base fornecida, da expressão especificada.
+ms.openlocfilehash: e2cfd1cf4ad3c1bf44778737faa0f697333f5234
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311085"
 ---
-# <a name="log-function-access-custom-web-app"></a><span data-ttu-id="94a89-103">Função de log (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="94a89-103">Log Function (Access custom web app)</span></span>
+# <a name="log-function-access-custom-web-app"></a><span data-ttu-id="43169-103">Função log (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="43169-103">Log Function (Access custom web app)</span></span>
 
-<span data-ttu-id="94a89-104">Retorna o logaritmo natural ou o logaritmo de base determinado, da expressão especificada.</span><span class="sxs-lookup"><span data-stu-id="94a89-104">Returns the natural logarithm, or the logarithm of the given base, of the specified expression.</span></span>
+<span data-ttu-id="43169-104">Retorna o logaritmo natural ou o logaritmo da base fornecida, da expressão especificada.</span><span class="sxs-lookup"><span data-stu-id="43169-104">Returns the natural logarithm, or the logarithm of the given base, of the specified expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="94a89-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="94a89-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="43169-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="43169-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="94a89-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="94a89-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="43169-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="43169-107">Syntax</span></span>
 
- <span data-ttu-id="94a89-108">**Log** (*NumericExpression* , [ *Base* ])</span><span class="sxs-lookup"><span data-stu-id="94a89-108">**Log** (*NumericExpression*  , [  *Base*  ])</span></span> 
+ <span data-ttu-id="43169-108">**Log** (*Numericname* , [ *base* ])</span><span class="sxs-lookup"><span data-stu-id="43169-108">**Log** (*NumericExpression*  , [  *Base*  ])</span></span> 
   
-<span data-ttu-id="94a89-109">A função de **Log** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="94a89-109">The **Log** function contains the following arguments.</span></span> 
+<span data-ttu-id="43169-109">A função **log** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="43169-109">The **Log** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="94a89-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="94a89-110">**Argument name**</span></span>|<span data-ttu-id="94a89-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="94a89-111">**Description**</span></span>|
+|<span data-ttu-id="43169-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="43169-110">**Argument name**</span></span>|<span data-ttu-id="43169-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="43169-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="94a89-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="94a89-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="94a89-113">O número positivo para o qual você deseja obter o logaritmo.</span><span class="sxs-lookup"><span data-stu-id="94a89-113">The positive number for which you want the logarithm.</span></span>  <br/> |
-| <span data-ttu-id="94a89-114">*Base*</span><span class="sxs-lookup"><span data-stu-id="94a89-114">*Base*</span></span>  <br/> |<span data-ttu-id="94a89-115">A base do logaritmo.</span><span class="sxs-lookup"><span data-stu-id="94a89-115">The base of the logarithm.</span></span> <span data-ttu-id="94a89-116">Se for omitido, a função **Log** retorna o logaritmo natural.</span><span class="sxs-lookup"><span data-stu-id="94a89-116">If omitted, the **Log** function returns the natural logarithm.</span></span>  <br/> |
+| <span data-ttu-id="43169-112">*Numericé*</span><span class="sxs-lookup"><span data-stu-id="43169-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="43169-113">O número positivo cujo logaritmo você deseja obter.</span><span class="sxs-lookup"><span data-stu-id="43169-113">The positive number for which you want the logarithm.</span></span>  <br/> |
+| <span data-ttu-id="43169-114">*Base*</span><span class="sxs-lookup"><span data-stu-id="43169-114">*Base*</span></span>  <br/> |<span data-ttu-id="43169-115">A base do logaritmo.</span><span class="sxs-lookup"><span data-stu-id="43169-115">The base of the logarithm.</span></span> <span data-ttu-id="43169-116">Se for omitido, a função **log** retornará o logaritmo natural.</span><span class="sxs-lookup"><span data-stu-id="43169-116">If omitted, the **Log** function returns the natural logarithm.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="94a89-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="94a89-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43169-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="43169-117">Remarks</span></span>
 
-<span data-ttu-id="94a89-118">A função **Log10** é semelhante, mas sempre retorna o logaritmo comum, que significa que o logaritmo de base 10.</span><span class="sxs-lookup"><span data-stu-id="94a89-118">The function **Log10** is similar, but always returns the common logarithm, meaning the logarithm for the base 10.</span></span> 
+<span data-ttu-id="43169-118">A função **log10** é semelhante, mas sempre retorna o logaritmo comum, significando o logaritmo de base 10.</span><span class="sxs-lookup"><span data-stu-id="43169-118">The function **Log10** is similar, but always returns the common logarithm, meaning the logarithm for the base 10.</span></span> 
   
-<span data-ttu-id="94a89-119">O logaritmo natural é o logaritmo de base e, onde f é uma constante irrational aproximadamente igual a 2.718281828.</span><span class="sxs-lookup"><span data-stu-id="94a89-119">The natural logarithm is the logarithm to the base e, where e is an irrational constant approximately equal to 2.718281828.</span></span>
+<span data-ttu-id="43169-119">O logaritmo natural é o logaritmo para a base e, onde e é uma constante Irrational aproximadamente igual a 2,718281828.</span><span class="sxs-lookup"><span data-stu-id="43169-119">The natural logarithm is the logarithm to the base e, where e is an irrational constant approximately equal to 2.718281828.</span></span>
   
 

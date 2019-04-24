@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 7fec6b6236d26789a3ec9abee7d2ae1c620f89b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 391ea3ef4f44db2a9d007241232f58db27647ba2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321711"
 ---
-# <a name="imapiforminfosaveform"></a><span data-ttu-id="4c6e3-103">IMAPIFormInfo::SaveForm</span><span class="sxs-lookup"><span data-stu-id="4c6e3-103">IMAPIFormInfo::SaveForm</span></span>
+# <a name="imapiforminfosaveform"></a><span data-ttu-id="244d2-103">IMAPIFormInfo::SaveForm</span><span class="sxs-lookup"><span data-stu-id="244d2-103">IMAPIFormInfo::SaveForm</span></span>
 
   
   
-<span data-ttu-id="4c6e3-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4c6e3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="244d2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="244d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4c6e3-105">Salva uma descrição de um determinado formulário em um arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-105">Saves a description of a particular form in a configuration file.</span></span>
+<span data-ttu-id="244d2-105">Salva uma descrição de um formulário específico em um arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="244d2-105">Saves a description of a particular form in a configuration file.</span></span>
   
 ```cpp
 HRESULT SaveForm(
@@ -33,43 +33,43 @@ HRESULT SaveForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4c6e3-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="4c6e3-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="244d2-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="244d2-106">Parameters</span></span>
 
- <span data-ttu-id="4c6e3-107">_szFileName_</span><span class="sxs-lookup"><span data-stu-id="4c6e3-107">_szFileName_</span></span>
+ <span data-ttu-id="244d2-107">_szFileName_</span><span class="sxs-lookup"><span data-stu-id="244d2-107">_szFileName_</span></span>
   
-> <span data-ttu-id="4c6e3-108">[in] Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário onde a respectiva descrição é salva.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-108">[in] A string that names the form's description message file where its description is saved.</span></span> <span data-ttu-id="4c6e3-109">Este nome de arquivo deve ter a extensão .fdm.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-109">This file name must have the .fdm extension.</span></span>
+> <span data-ttu-id="244d2-108">no Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário, onde sua descrição é salva.</span><span class="sxs-lookup"><span data-stu-id="244d2-108">[in] A string that names the form's description message file where its description is saved.</span></span> <span data-ttu-id="244d2-109">Esse nome de arquivo deve ter a extensão. FDM.</span><span class="sxs-lookup"><span data-stu-id="244d2-109">This file name must have the .fdm extension.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4c6e3-110">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="4c6e3-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="244d2-110">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="244d2-110">Return value</span></span>
 
-<span data-ttu-id="4c6e3-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="4c6e3-111">S_OK</span></span> 
+<span data-ttu-id="244d2-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="244d2-111">S_OK</span></span> 
   
-> <span data-ttu-id="4c6e3-112">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-112">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="244d2-112">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="244d2-112">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="4c6e3-113">MAPI_E_EXTENDED_ERROR</span><span class="sxs-lookup"><span data-stu-id="4c6e3-113">MAPI_E_EXTENDED_ERROR</span></span> 
+<span data-ttu-id="244d2-113">MAPI_E_EXTENDED_ERROR</span><span class="sxs-lookup"><span data-stu-id="244d2-113">MAPI_E_EXTENDED_ERROR</span></span> 
   
-> <span data-ttu-id="4c6e3-114">Não foi possível gravar o arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-114">The configuration file could not be written.</span></span> <span data-ttu-id="4c6e3-115">Para obter a estrutura [MAPIERROR](mapierror.md) que está associada com o erro, chame o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="4c6e3-115">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
+> <span data-ttu-id="244d2-114">Não foi possível gravar o arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="244d2-114">The configuration file could not be written.</span></span> <span data-ttu-id="244d2-115">Para obter a estrutura [MAPIERROR](mapierror.md) associada ao erro, chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="244d2-115">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
     
-<span data-ttu-id="4c6e3-116">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="4c6e3-116">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="244d2-116">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="244d2-116">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="4c6e3-117">**SaveForm** provavelmente foi chamado para salvar um formulário no contêiner local do formulário.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-117">**SaveForm** was probably called to save a form in the local form container.</span></span> <span data-ttu-id="4c6e3-118">**SaveForm** não é suportado no contêiner do local do formulário.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-118">**SaveForm** is not supported on the local form container.</span></span> 
+> <span data-ttu-id="244d2-117">**SaveForm** provavelmente foi chamado para salvar um formulário no contêiner de formulário local.</span><span class="sxs-lookup"><span data-stu-id="244d2-117">**SaveForm** was probably called to save a form in the local form container.</span></span> <span data-ttu-id="244d2-118">Não há suporte para **SaveForm** no contêiner de formulários local.</span><span class="sxs-lookup"><span data-stu-id="244d2-118">**SaveForm** is not supported on the local form container.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="4c6e3-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="4c6e3-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="244d2-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="244d2-119">Remarks</span></span>
 
-<span data-ttu-id="4c6e3-120">Aplicativos cliente chamam o método de **IMAPIFormInfo::SaveForm** para salvar uma descrição do formulário atual no arquivo que tenha o nome de arquivo fornecido.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-120">Client applications call the **IMAPIFormInfo::SaveForm** method to save a description of the current form in the file that has the given file name.</span></span> <span data-ttu-id="4c6e3-121">**SaveForm** cria um arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-121">**SaveForm** creates a configuration file.</span></span> 
+<span data-ttu-id="244d2-120">Os aplicativos cliente chamam o método **IMAPIFormInfo:: SaveForm** para salvar uma descrição do formulário atual no arquivo com o nome de arquivo especificado.</span><span class="sxs-lookup"><span data-stu-id="244d2-120">Client applications call the **IMAPIFormInfo::SaveForm** method to save a description of the current form in the file that has the given file name.</span></span> <span data-ttu-id="244d2-121">**SaveForm** cria um arquivo de configuração.</span><span class="sxs-lookup"><span data-stu-id="244d2-121">**SaveForm** creates a configuration file.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="4c6e3-122">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="4c6e3-122">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="244d2-122">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="244d2-122">Notes to callers</span></span>
 
-<span data-ttu-id="4c6e3-123">Você pode reinstalar formulários selecionando-os em uma lista de mensagens descritor de formulário em uma caixa de diálogo que compõem a exibição de provedores de biblioteca.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-123">You can reinstall forms by selecting them from a list of form descriptor messages in a dialog box that form library providers display.</span></span> <span data-ttu-id="4c6e3-124">A extensão recomendada para mensagens de descritor de formulário é .fdm.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-124">The recommended extension for form descriptor messages is .fdm.</span></span>
+<span data-ttu-id="244d2-123">Você pode reinstalar formulários selecionando-os em uma lista de mensagens do descritor de formulários em uma caixa de diálogo que os provedores de biblioteca de formulários exibem.</span><span class="sxs-lookup"><span data-stu-id="244d2-123">You can reinstall forms by selecting them from a list of form descriptor messages in a dialog box that form library providers display.</span></span> <span data-ttu-id="244d2-124">A extensão recomendada para mensagens do descritor de formulários é. FDM.</span><span class="sxs-lookup"><span data-stu-id="244d2-124">The recommended extension for form descriptor messages is .fdm.</span></span>
   
-<span data-ttu-id="4c6e3-125">Chamar o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) se **SaveForm** retorna MAPI_E_EXTENDED_ERROR e verificar a estrutura **MAPIERROR** retornada para determinar a condição que causou o erro.</span><span class="sxs-lookup"><span data-stu-id="4c6e3-125">Call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if **SaveForm** returns MAPI_E_EXTENDED_ERROR, and check the returned **MAPIERROR** structure to determine the condition that caused the error.</span></span> 
+<span data-ttu-id="244d2-125">Chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) se **SaveForm** retornar MAPI_E_EXTENDED_ERROR e marque a estrutura de **MAPIERROR** retornada para determinar a condição que causou o erro.</span><span class="sxs-lookup"><span data-stu-id="244d2-125">Call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if **SaveForm** returns MAPI_E_EXTENDED_ERROR, and check the returned **MAPIERROR** structure to determine the condition that caused the error.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4c6e3-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="4c6e3-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="244d2-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="244d2-126">See also</span></span>
 
 
 
-[<span data-ttu-id="4c6e3-127">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="4c6e3-127">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
+[<span data-ttu-id="244d2-127">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="244d2-127">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
   
-[<span data-ttu-id="4c6e3-128">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="4c6e3-128">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="244d2-128">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="244d2-128">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="4c6e3-129">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="4c6e3-129">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
+[<span data-ttu-id="244d2-129">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="244d2-129">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
 

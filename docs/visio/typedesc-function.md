@@ -8,28 +8,28 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: Retorna uma cadeia de caracteres que descreve o tipo de um objeto interno.
-ms.openlocfilehash: ee00341042e0d36e5f9cd9fde42622f904f4c3ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma cadeia de caracteres que descreve o tipo interno de um objeto.
+ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316412"
 ---
-# <a name="typedesc-function"></a><span data-ttu-id="582e5-103">Função TYPEDESC</span><span class="sxs-lookup"><span data-stu-id="582e5-103">TYPEDESC Function</span></span>
+# <a name="typedesc-function"></a><span data-ttu-id="b35d7-103">Função TYPEDESC</span><span class="sxs-lookup"><span data-stu-id="b35d7-103">TYPEDESC Function</span></span>
 
-<span data-ttu-id="582e5-104">Retorna uma cadeia de caracteres que descreve o tipo de um objeto interno.</span><span class="sxs-lookup"><span data-stu-id="582e5-104">Returns a string that describes an object's internal type.</span></span> 
+<span data-ttu-id="b35d7-104">Retorna uma cadeia de caracteres que descreve o tipo interno de um objeto.</span><span class="sxs-lookup"><span data-stu-id="b35d7-104">Returns a string that describes an object's internal type.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="582e5-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="582e5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b35d7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b35d7-105">Syntax</span></span>
 
-<span data-ttu-id="582e5-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="582e5-106">TYPEDESC ()</span></span>
+<span data-ttu-id="b35d7-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="b35d7-106">TYPEDESC ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="582e5-107">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="582e5-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="b35d7-107">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="b35d7-107">Return value</span></span>
 
-<span data-ttu-id="582e5-108">String</span><span class="sxs-lookup"><span data-stu-id="582e5-108">String</span></span>
+<span data-ttu-id="b35d7-108">String</span><span class="sxs-lookup"><span data-stu-id="b35d7-108">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="582e5-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="582e5-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b35d7-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="b35d7-109">Remarks</span></span>
 
-<span data-ttu-id="582e5-110">A tabela a seguir relaciona cadeias de caracteres descritivas para objetos internos.</span><span class="sxs-lookup"><span data-stu-id="582e5-110">The following table lists descriptive strings for internal objects.</span></span>
+<span data-ttu-id="b35d7-110">A tabela a seguir relaciona cadeias de caracteres descritivas para objetos internos.</span><span class="sxs-lookup"><span data-stu-id="b35d7-110">The following table lists descriptive strings for internal objects.</span></span>
   
 

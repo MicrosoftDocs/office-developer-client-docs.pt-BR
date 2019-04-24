@@ -1,5 +1,5 @@
 ---
-title: Exibir a caixa de diálogo Escolher Nomes para resolver os destinatários
+title: Exibir a caixa de diálogo Selecionar Nomes para resolver destinatários
 TOCTitle: Display the Select Names dialog box to resolve recipients
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646055(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f92891188e7c317465ce70fede1dedca7f6344fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316062"
 ---
-# <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a><span data-ttu-id="09f7d-102">Exibir a caixa de diálogo Escolher Nomes para resolver os destinatários</span><span class="sxs-lookup"><span data-stu-id="09f7d-102">Display the Select Names dialog box to resolve recipients</span></span>
+# <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a><span data-ttu-id="e51cf-102">Exibir a caixa de diálogo Escolher Nomes para resolver os destinatários</span><span class="sxs-lookup"><span data-stu-id="e51cf-102">Display the Select Names dialog box to resolve recipients</span></span>
 
-<span data-ttu-id="09f7d-103">Este exemplo tenta resolver os destinatários fornecidos pelo parâmetro *recips* e exibe a caixa de diálogo **Escolher nomes** do Outlook para cada destinatário ambíguo que não pode ser resolvido.</span><span class="sxs-lookup"><span data-stu-id="09f7d-103">This example attempts to resolve the recipients provided by the *recips* parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.</span></span>
+<span data-ttu-id="e51cf-103">Este exemplo tenta resolver os destinatários fornecidos pelo parâmetro *recips* e exibe a caixa de diálogo **Escolher nomes** do Outlook para cada destinatário ambíguo que não pode ser resolvido.</span><span class="sxs-lookup"><span data-stu-id="e51cf-103">This example attempts to resolve the recipients provided by the *recips* parameter, and displays the Outlook **Select Names** dialog box for each recipient that is ambiguous and cannot be resolved.</span></span>
 
-## <a name="example"></a><span data-ttu-id="09f7d-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="09f7d-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e51cf-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e51cf-104">Example</span></span>
 
-<span data-ttu-id="09f7d-105">Este exemplo de código chama o objeto [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a caixa de diálogo **Selecionar Nomes**, que mostra o catálogo de endereços do Outlook.</span><span class="sxs-lookup"><span data-stu-id="09f7d-105">This code sample calls the [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) object to display the **Select Names** dialog box which shows the Outlook address book.</span></span> <span data-ttu-id="09f7d-106">Por meio dessa caixa de diálogo, o usuário pode selecionar um nome do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="09f7d-106">Through this dialog box, the user can select a name from the address book.</span></span> <span data-ttu-id="09f7d-107">Se o nome não for resolvido, o destinatário será removido de recips.</span><span class="sxs-lookup"><span data-stu-id="09f7d-107">If the name is not resolved, the recipient will be removed from recips.</span></span> <span data-ttu-id="09f7d-108">Se o nome for resolvido, o exemplo de código retornará o objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) do destinatário para recips.</span><span class="sxs-lookup"><span data-stu-id="09f7d-108">If the name is resolved, then the code sample will return the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object of the recipient to recips.</span></span>
+<span data-ttu-id="e51cf-105">Este exemplo de código chama o objeto [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a caixa de diálogo **Selecionar Nomes**, que mostra o catálogo de endereços do Outlook.</span><span class="sxs-lookup"><span data-stu-id="e51cf-105">This code sample calls the [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) object to display the **Select Names** dialog box which shows the Outlook address book.</span></span> <span data-ttu-id="e51cf-106">Por meio dessa caixa de diálogo, o usuário pode selecionar um nome do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="e51cf-106">Through this dialog box, the user can select a name from the address book.</span></span> <span data-ttu-id="e51cf-107">Se o nome não for resolvido, o destinatário será removido de recips.</span><span class="sxs-lookup"><span data-stu-id="e51cf-107">If the name is not resolved, the recipient will be removed from recips.</span></span> <span data-ttu-id="e51cf-108">Se o nome for resolvido, o exemplo de código retornará o objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) do destinatário para recips.</span><span class="sxs-lookup"><span data-stu-id="e51cf-108">If the name is resolved, then the code sample will return the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object of the recipient to recips.</span></span>
 
-<span data-ttu-id="09f7d-109">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="09f7d-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="09f7d-110">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="09f7d-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="09f7d-111">As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="09f7d-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="e51cf-109">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="e51cf-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="e51cf-110">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="e51cf-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="e51cf-111">As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="e51cf-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -106,7 +106,7 @@ private void ResolveRecipients(Outlook.Recipients recips)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="09f7d-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="09f7d-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e51cf-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="e51cf-112">See also</span></span>
 
-- [<span data-ttu-id="09f7d-113">Destinatários</span><span class="sxs-lookup"><span data-stu-id="09f7d-113">Recipients</span></span>](recipients.md)
+- [<span data-ttu-id="e51cf-113">Destinatários</span><span class="sxs-lookup"><span data-stu-id="e51cf-113">Recipients</span></span>](recipients.md)
 
