@@ -1,31 +1,31 @@
 ---
-title: Aviso de direitos autorais do SDK do Visio
+title: Notificação de direitos autorais do SDK do Visio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb478151-4afc-9a06-42a2-1defa54a3c4a
-description: Este documento é providedas-é. Informações e exibições existentes neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. O risco de usá-lo é responsabilidade sua.
+description: Este documento é fornecido na forma em que se encontra. As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
 ms.openlocfilehash: 2faffee253779cbc2c6fde0716db1ff46b1583bc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322320"
 ---
-# <a name="visio-sdk-copyright-notice"></a>Aviso de direitos autorais do SDK do Visio
+# <a name="visio-sdk-copyright-notice"></a>Notificação de direitos autorais do SDK do Visio
 
-Este documento é fornecido "como-é". Informações e exibições existentes neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. O risco de usá-lo é responsabilidade sua. 
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização. 
   
-Alguns exemplos citados neste documento são fornecidos apenas para ilustração e são fictícios. Nenhuma associação ou conexão é intencional ou deve ser inferida.
+Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
   
-Este documento não fornece a você nenhum direito legal sobre qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para interna fins de consulta. 
+Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. 
   
 © 2012 Microsoft Corporation. Todos os direitos reservados.
   
-Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, do SQL Server, Visio, Visual Basic, Visual c#, Visual C++, Visual Studio, Win32, Windows PowerShell, Windows, Windows Server e Windows Vista são marcas comerciais do grupo de empresas da Microsoft.
+Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server e Windows Vista são marcas comerciais do grupo de empresas Microsoft.
   
-Todas as demais marcas comerciais são propriedade de seus respectivos donos.
+Todas as outras marcas comerciais são propriedade dos respectivos donos.
   
 

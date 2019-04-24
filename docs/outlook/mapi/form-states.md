@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 195a82bfcc163ee01d2d42c71e79a8f5c9c620e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 61d20ff7010151a82c53cafc69270e6925796a5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327514"
 ---
 # <a name="form-states"></a>Estados de formulários
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Objetos de formulário podem estar em um dos cinco estados distintos, dependendo do que métodos tiverem sido chamados neles e se ocorreu algum erro na execução desses métodos. Os estados são descritos nos tópicos a seguir:
+Os objetos Form podem estar em um dos cinco Estados distintos, dependendo de quais métodos foram chamados neles e se algum erro ocorreu na execução desses métodos. Os Estados são descritos nos seguintes tópicos:
   
 - [Estado não inicializado](uninitialized-state.md)
     
 - [Estado normal](normal-state.md)
     
-- [Estado de NoScribble](noscribble-state.md)
+- [Estado noRabisco](noscribble-state.md)
     
-- [Estado de HandsOffAfterSave](handsoffaftersave-state.md)
+- [Estado HandsOffAfterSave](handsoffaftersave-state.md)
     
-- [Estado de HandsOffFromNormal](handsofffromnormal-state.md)
+- [Estado HandsOffFromNormal](handsofffromnormal-state.md)
     
-Os estados estão relacionadas principalmente até o status dos dados no objeto form. Os diferentes estados refletem se os dados precisam ser salvo, se o objeto de formulário deve permitir modificações aos dados, e que o ponto no processo de salvar os dados que o formulário está nesse. Sendo assim, o formulário Estados e transições entre elas têm mais a ver com a implementação do seu servidor de formulário do [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos que qualquer outra de interface. É muito útil para implementação adequada das interfaces de formulário de MAPI que seu servidor do formulário deve implementar o conhecimento desses estados. 
+Os Estados se relacionam principalmente com o status dos dados no objeto Form. Os diferentes Estados refletem se os dados precisam ser salvos, se o objeto Form deve permitir modificações nos dados e o ponto no processo de salvar os dados em que o formulário está. Assim, os Estados e as transições de formulário entre eles têm mais a fazer com a implementação do seu servidor de formulário de métodos de interface [IPersistMessage: IUnknown](ipersistmessageiunknown.md) do que outros. O conhecimento desses Estados é muito útil para a implementação adequada das interfaces de formulário MAPI que seu servidor de formulários deve implementar. 
   
-Os tópicos desta seção descrevem os diversos estados, juntamente com as ações permitidas que causam transições para outros estados. Qualquer transições não listadas nos tópicos não são permitidas. Se os objetos de formulário fizer não autorizadas transições entre estados, elas não serão se comportam das maneiras que os clientes de mensagens esperam e podem causar comportamento imprevisível do objeto de cliente ou formulário.
+Os tópicos desta seção descrevem os vários Estados, juntamente com as ações permitidas que causam transições para outros Estados. As transições não listadas nos tópicos não são permitidas. Se os objetos de formulário fizerem transições não permitidas entre Estados, elas não se comportarão de maneiras que os clientes de mensagens esperam e possam causar comportamento de cliente ou de formulário imprevisível.
   
 > [!NOTE]
-> Algumas transições de estado dependem de informações nos estados anteriores. Seu servidor de formulário provavelmente terá de implementar um sinalizador em seus objetos de formulário para indicar se os valores das propriedades da mensagem foram alterados para facilitar posteriores alterações de estado. 
+> Algumas transições de estado dependem das informações de Estados anteriores. O servidor de formulário provavelmente terá que implementar um sinalizador em seus objetos Form para indicar se os valores das propriedades da mensagem foram alterados para facilitar as alterações de estado posteriores. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

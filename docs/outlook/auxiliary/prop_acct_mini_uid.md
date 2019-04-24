@@ -6,38 +6,38 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
-description: Retorna um identificador de conta que seja exclusivo entre perfis do Outlook.
-ms.openlocfilehash: 9b2e30c0f57a54af219e68a8c2fe91e5dba4ddbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna um identificador de conta exclusivo nos perfis do Outlook.
+ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327626"
 ---
 # <a name="propacctminiuid"></a>PROP_ACCT_MINI_UID
 
-Retorna um identificador de conta que seja exclusivo entre perfis do Outlook.
+Retorna um identificador de conta exclusivo nos perfis do Outlook.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0003  <br/> |
 |Tipo de propriedade:  <br/> |PT_LONG  <br/> |
 |Marca de propriedade:  <br/> |0x00030003  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Obtenha essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md). Se o cliente tentar definir essa propriedade, essa propriedade retornará **E_OLK_PROP_READ_ONLY**. 
+Use essa propriedade por meio [IOlkAccount::GetProp](iolkaccount-getprop.md). Se o cliente tentar definir essa propriedade, essa propriedade retornará **E_OLK_PROP_READ_ONLY**. 
   
-Essa propriedade é diferente do [PROP_ACCT_ID](prop_acct_id.md) em que seu valor identifica exclusivamente a conta dentro e fora do perfil no qual a conta foi criada, enquanto **PROP_ACCT_ID** é exclusiva somente entre todas as contas em que um único perfil em que a conta foi criada. Quando uma mensagem com essas propriedades se movimenta em um segundo computador com um perfil diferente do Outlook e um conjunto diferente de contas, **PROP_ACCT_MINI_UID** podem identificar exclusivamente a conta original no perfil original. No entanto, **PROP_ACCT_ID** possivelmente podem entrar em conflito com uma conta no perfil do segundo computador. 
+Essa propriedade é diferente de [PROP_ACCT_ID](prop_acct_id.md) , pois seu valor identifica exclusivamente a conta dentro e fora do perfil no qual a conta foi criada, enquanto **PROP_ACCT_ID** é exclusiva somente entre todas as contas dentro de um perfil em que a conta foi criada. Quando uma mensagem com essas propriedades é móvel para um segundo computador com um perfil do Outlook diferente e um conjunto diferente de contas, o **PROP_ACCT_MINI_UID** pode identificar exclusivamente a conta original no perfil original. No enTanto, **PROP_ACCT_ID** pode possivelmente entrar em conflito com uma conta no perfil do segundo computador. 
   
 ## <a name="see-also"></a>Confira também
 
 - [PROP_ACCT_ID](prop_acct_id.md)  
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md) 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

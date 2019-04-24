@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: Dos três tipos de aplicativo que você pode criar para o Project Online (hospedado automaticamente, hospedado pelo provedor e hospedado pelo SharePoint), o aplicativo hospedado pelo SharePoint é o mais simples de criar e implantar.
 ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325873"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Criar um suplemento do Project Server hospedado pelo SharePoint
 
@@ -1223,7 +1223,7 @@ O aplicativo **QuickStatus** é um exemplo relativamente simples de como gravar 
 
 - [Tarefas de programação do Project Server](project-programming-tasks.md)
 - [Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
-- [Gerenciar atualizações de tarefas no Project Web App](https://technet.microsoft.com/pt-BR/library/hh767481%28v=office.14%29.aspx)
+- [Gerenciar atualizações de tarefas no Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
 - [Criar ações personalizadas para implantação com Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

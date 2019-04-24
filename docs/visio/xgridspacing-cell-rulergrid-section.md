@@ -1,5 +1,5 @@
 ---
-title: Célula XGridSpacing (Seção Ruler &amp; Grid)
+title: Célula XGridSpacing (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: Especifica a distância entre as linhas horizontais em uma grade fixa (XGridDensity = 0).
-ms.openlocfilehash: 5f461d02dae1574fe2b186b43166ef14d8251df2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05b68a9721dbfc9c03402d384d976c42ef05b134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327318"
 ---
-# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Célula XGridSpacing (Seção Ruler &amp; Grid)
+# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Célula XGridSpacing (seção &amp; Ruler Grid)
 
 Especifica a distância entre as linhas horizontais em uma grade fixa (XGridDensity = 0).
   
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde ao horizontal **Espaçamento mínimo** opção no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
+Esta célula corresponde à opção horizontal **espaçaMento mínimo** na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
   
 Para obter uma referência para a célula XGridSpacing pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

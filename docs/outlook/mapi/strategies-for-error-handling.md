@@ -1,5 +1,5 @@
 ---
-title: Estratégias para lidar com erros
+title: Estratégias para tratamento de erros
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: be941efd-04b3-48d0-9b9c-8195ad2bb58d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: b0ec3ada71a3e604ea71c5d386f1ff0466132081
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e76ae3f292d8348b9dc64cb54bffae96b96e871
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327213"
 ---
-# <a name="strategies-for-error-handling"></a>Estratégias para lidar com erros
+# <a name="strategies-for-error-handling"></a>Estratégias para tratamento de erros
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como os métodos de interface são virtuais, não é possível saber, como um chamador, o conjunto completo de valores que pode ser retornado de qualquer uma chamada. Uma implementação de um método pode retornar cinco valores; outro pode retornar oito. As entradas de referência na documentação de MAPI listam alguns valores que podem ser retornadas para cada método; Estes são os valores que seu provedor de cliente ou serviço pode procurar e manipular porque eles têm um significado especial. Outros valores podem ser retornados, mas porque eles não são significativos, código especial para lidar com aqueles não é necessário. Uma verificação simple para o sucesso ou falha é adequada.
+Como os métodos de interface são virtuais, não é possível saber, como um chamador, o conjunto completo de valores que podem ser retornados de qualquer uma das chamadas. Uma implementação de um método pode retornar cinco valores; outra pode retornar oito. As entradas de referência na lista de documentação MAPI têm alguns valores que podem ser retornados para cada método; Estes são os valores que o cliente ou provedor de serviços pode verificar e lidar porque têm significados especiais. Outros valores podem ser retornados, mas por não serem significativos, não é necessário código especial para lidar com eles. Uma simples verificação de sucesso ou falha é adequada.
   
-Alguns métodos da interface retornam avisos. Se um método que chama o provedor de cliente ou serviço pode retornar um aviso, use a macro **HR_FAILED** para testar o valor de retorno em vez de uma verificação para zero ou diferente de zero. Avisos, embora diferente de zero, diferem dos códigos de erro em que não têm alto estará definido o bit definido. Se seu provedor de cliente ou serviço não usar a macro, é provável que um aviso pode ser errado para uma falha. 
+Alguns métodos de interface retornam avisos. Se um método que seu cliente ou provedor de serviços chamar puder retornar um aviso, use a macro **HR_FAILED** para testar o valor de retorno em vez de uma verificação de zero ou zero. Os avisos, embora não nulo, diferem dos códigos de erro, pois eles não têm o conjunto de bits alto. Se o cliente ou provedor de serviços não usar a macro, é provável que um aviso possa ser confundido para uma falha. 
   
-Embora a maioria dos métodos de interface e funções retornam valores HRESULT, algumas funções retornam valores longos não assinados. Além disso, alguns métodos usados no ambiente de MAPI COM são provenientes e retornam valores de erro COM em vez de valores de erro MAPI. Tenha em mente as seguintes diretrizes ao fazer chamadas:
+Embora a maioria dos métodos e funções de interface retornem valores HRESULT, algumas funções retornam valores Long não assinados. Além disso, alguns métodos usados no ambiente MAPI são provenientes do COM e retornam valores de erro COM em vez de valores de erro MAPI. Tenha em mente as seguintes diretrizes ao fazer chamadas:
   
-- Nunca dependa ou usar os valores de retorno de **AddRef** ou **IUnknown:: Release**. Esses valores de retorno são para fins de diagnóstico apenas. 
+- Nunca confie ou use os valores de retorno de **IUnknown:: AddRef** ou **IUnknown:: Release**. Esses valores de retorno são apenas para fins de diagnóstico. 
     
-- **IUnknown:: QueryInterface** sempre retorna erros COM genéricos, onde o recurso é FACILITY_NULL ou FACILITY_RPC, em vez de erros MAPI. 
+- **IUnknown:: QueryInterface** sempre retorna erros com genéricos onde o recurso é FACILITY_NULL ou FACILITY_RPC, em vez de erros de MAPI. 
     
-- Todos os outros métodos de interface retornam erros de interface MAPI com um recurso de FACILITY_ITF ou FACILITY_RPC ou FACILITY_NULL.
+- Todos os outros métodos de interface retornam erros de interface MAPI com um recurso de erros do FACILITY_ITF ou do FACILITY_RPC ou do FACILITY_NULL.
     
-Quando uma chamada for feita para um método de MAPI sem suporte, uma das quatro possíveis erros pode ser retornada: 
+Quando uma chamada é feita para um método MAPI sem suporte, um dos quatro possíveis erros pode ser retornado: 
   
 MAPI_E_NO_SUPPORT
   

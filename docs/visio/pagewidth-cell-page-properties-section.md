@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b98c5bf3-10c8-7299-2836-3906d6a9135d
 description: Determina a largura da página impressa em unidades de desenho.
-ms.openlocfilehash: e03696c8f1c921c930d3563e9c73ef4ae613a7c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d887cb4335d2725101db54ba2b1483ccf01cff4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327367"
 ---
 # <a name="pagewidth-cell-page-properties-section"></a>Célula PageWidth (Seção Page Properties)
 
@@ -22,7 +22,7 @@ Determina a largura da página impressa em unidades de desenho.
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir a largura da página na guia **Tamanho da página** da caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ) ou redimensionar manualmente a página com o mouse. Para fazer isso, arraste a borda da página, mantendo pressionada a tecla CTRL. 
+Você também pode definir a largura da página na **guia Tamanho da página** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ) ou redimensionando manualmente a página com o mouse. Para fazer isso, mantenha pressionada a tecla CTRL e arraste a borda da página. 
   
 Para obter uma referência para a célula PageWidth pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

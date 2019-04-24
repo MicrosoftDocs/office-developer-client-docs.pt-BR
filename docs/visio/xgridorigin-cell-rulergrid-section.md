@@ -1,5 +1,5 @@
 ---
-title: Célula XGridOrigin (Seção Ruler &amp; Grid)
+title: Célula XGridOrigin (seção &amp; Ruler Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: Especifica a coordenada horizontal da origem da grade.
-ms.openlocfilehash: 0cc6ff10f9bb4ba7ee0a13a48cb55b7dcd0fa013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee58ea7d950dd7e422f8a60a13bac8aa4ed353a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322306"
 ---
-# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Célula XGridOrigin (Seção Ruler &amp; Grid)
+# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Célula XGridOrigin (seção &amp; Ruler Grid)
 
 Especifica a coordenada horizontal da origem da grade.
   
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à **origem da grade** horizontal opção no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** . 
+Esta célula corresponde à opção **origem da grade** horizontal na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** . 
   
 Para obter uma referência para a célula XGridOrigin pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
 description: Obtém o número de contas no enumerador.
-ms.openlocfilehash: dd4152a898bdaa96883bcd27ab3ec0d94e80fd90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322012"
 ---
 # <a name="iolkenumgetcount"></a>IOlkEnum::GetCount
 
@@ -33,11 +33,11 @@ HRESULT IOlkEnum::GetCount (
 
 _pulCount_
   
-> [out] Um ponteiro para o número de objetos que está sendo enumerado.
+> bota Um ponteiro para o número de objetos que estão sendo enumerados.
     
 ## <a name="return-values"></a>Valores de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="see-also"></a>Confira também
 

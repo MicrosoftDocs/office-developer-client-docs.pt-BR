@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: Relata o andamento da enumeração e alteração programática de compromissos.
 ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326450"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 

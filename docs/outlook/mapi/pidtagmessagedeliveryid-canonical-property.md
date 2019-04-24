@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325813"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriedade canônica PidTagMessageDeliveryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584734"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador de sistema (MTS) de transferência de mensagem para uma mensagem entregue para um aplicativo cliente.
+Contém um identificador MTS (sistema de transferência de mensagens) para uma mensagem entregue a um aplicativo cliente.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contém um identificador de sistema (MTS) de transferência de mensagem para uma
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

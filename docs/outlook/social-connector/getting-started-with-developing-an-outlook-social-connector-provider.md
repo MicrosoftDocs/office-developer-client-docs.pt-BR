@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: A Referência para Provedores do Outlook Social Connector (OSC) descreve como desenvolver um provedor do OSC usando a extensibilidade de provedores do OSC.
 ms.openlocfilehash: 24f8eabe33103f53e848f055b72fd402bc5dd89a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327157"
 ---
 # <a name="getting-started-with-developing-an-outlook-social-connector-provider"></a>Introdução ao desenvolvimento de um provedor do Outlook Social Connector
 
@@ -43,7 +43,7 @@ Esta seção apresenta uma visão geral do OSC, fala sobre como um provedor de O
 
 - [Modelos de exemplo do OSC](osc-sample-templates.md)
   
-- [Sequências de chamadas típicas de OSC](osc-typical-calling-sequences.md)
+- [Sequências de chamada típicas do OSC](osc-typical-calling-sequences.md)
   
 - [Desenvolver um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
 description: Inicializa o gerente de conta para uso.
 ms.openlocfilehash: 5a643a4636251afc98750be8acf47cd3bdab3847
-ms.sourcegitcommit: b361919ae2d3ac000d9fcaa3030713df7062ecd4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322033"
 ---
 # <a name="iolkaccountmanagerinit"></a>IOlkAccountManager::Init
 

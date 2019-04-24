@@ -1,37 +1,37 @@
 ---
-title: Célula BevelContourColor (Seção Bevel Properties)
+title: Célula BevelContourColor (seção chanfrar Propriedades)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
-description: Determina a cor do bisel delimitação no valor RGB ou conforme determinada pelo tema ativo.
-ms.openlocfilehash: 89b90f804ce1ccd8511dc0160f1ca2c94546596e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina a cor da delimitação do bisel no valor RGB ou conforme determinado pelo tema ativo.
+ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327143"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Célula BevelContourColor (Seção Bevel Properties)
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Célula BevelContourColor (seção chanfrar Propriedades)
 
-Determina a cor do bisel delimitação no valor RGB ou conforme determinada pelo tema ativo.
+Determina a cor da delimitação do bisel no valor RGB ou conforme determinado pelo tema ativo.
   
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **BevelContourColor** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **BevelContourColor** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | BevelContourColor  <br/> |
    
-Para obter uma referência à célula **BevelContourColor** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **BevelContourColor** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice da linha:  <br/> |**visRowBevelProperties** <br/> |
-| Índice da célula:  <br/> |**VIS BevelContourColor** <br/> |
+| Índice da célula:  <br/> |**Vis BevelContourColor** <br/> |
    
 

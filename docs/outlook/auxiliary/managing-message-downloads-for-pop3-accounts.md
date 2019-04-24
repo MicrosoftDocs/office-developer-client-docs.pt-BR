@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b4218aa6-1591-49db-9782-f286135fc79a
 description: Esta seção descreve como o provedor POP3 do Outlook usa o histórico de listagem de ID exclusiva (UIDL) em uma conta POP3 para identificar mensagens que o provedor tem baixado ou excluído do servidor POP3, para evitar que a mesma mensagem seja baixada mais de uma vez.
 ms.openlocfilehash: 35c50d83c317ebefa52fd9bfcb348c8411a06f25
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322243"
 ---
 # <a name="managing-message-downloads-for-pop3-accounts"></a>Gerenciar o download de mensagens de contas POP3
 

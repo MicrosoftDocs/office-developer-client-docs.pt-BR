@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 45263396e69852a9ae17ff6fce284663bdf2fb07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e797a80cf8659baa7ca935f94b3ab65c200530a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325666"
 ---
 # <a name="wrapstoreentryid"></a>WrapStoreEntryID
 
@@ -25,13 +25,13 @@ ms.locfileid: "22585133"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Converte o identificador de entrada interna do repositório de uma mensagem para um identificador de entrada mais utilizável pelo sistema de mensagens. 
+Converte um identificador de entrada interna do repositório de mensagens em um identificador de entrada mais utilizável pelo sistema de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 WrapStoreEntryID(
@@ -48,31 +48,31 @@ WrapStoreEntryID(
 
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
+> As cadeias de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
     
  _szDLLName_
   
-> [in] O nome do provedor de armazenamento de mensagem DLL. 
+> no O nome da DLL do provedor de repositório de mensagens. 
     
  _cbOrigEntry_
   
-> [in] Tamanho, em bytes, do identificador de entrada original para o armazenamento de mensagens. 
+> no Tamanho, em bytes, do identificador de entrada original para o repositório de mensagens. 
     
  _lpOrigEntry_
   
-> [in] Ponteiro para uma estrutura [ENTRYID](entryid.md) que contém o identificador de entrada original. 
+> no Ponteiro para uma [](entryid.md) estrutura ENTRYID que contém o identificador de entrada original. 
     
  _lpcbWrappedEntry_
   
-> [out] Ponteiro para o tamanho, em bytes, de um novo identificador de entrada. 
+> bota Ponteiro para o tamanho, em bytes, do novo identificador de entrada. 
     
  _lppWrappedEntry_
   
-> [out] Ponteiro para um ponteiro para uma estrutura **ENTRYID** que contém o novo identificador de entrada. 
+> bota Ponteiro para um ponteiro para uma **** estrutura ENTRYID que contém o novo identificador de entrada. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -80,10 +80,10 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Um objeto de repositório de mensagem mantém um identificador interno de entrada que é significativo apenas para coresident de provedores de serviço com esse armazenamento de mensagens. Para outros componentes de mensagens, MAPI fornece uma versão com quebra do identificador interno de entrada que torna reconhecível conforme que pertencem ao repositório de mensagem. Provedores de serviços de coresident devem sempre ser dada o identificador de entrada de repositório desfeita da mensagem original; aplicativos cliente devem sempre ser dada a versão com quebra, que é, em seguida, pode ser usada em qualquer lugar no domínio de mensagens e em outros domínios. 
+Um objeto do repositório de mensagens mantém um identificador de entrada interno que é significativo apenas para os provedores de serviços coresidentes com o repositório de mensagens. Para outros componentes de mensagens, o MAPI fornece uma versão encapsulada do identificador de entrada interna que o torna reconhecível como pertencente ao repositório de mensagens. Os provedores de serviço de coresidente devem sempre receber o identificador de entrada de repositório de mensagens não wrapped original; os aplicativos cliente devem sempre ter a versão empacotada, que pode ser usada em qualquer lugar no domínio de mensagens e em outros domínios. 
   
-Um provedor de serviços pode quebrar um identificador de entrada do repositório de mensagem usando a função **WrapStoreEntryID** ou o método [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md) , que chama a função **WrapStoreEntryID** . O provedor deve quebrar o identificador de entrada ao expor **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) do armazenamento de mensagens propriedade ou gravá-lo em uma seção de perfil e ao expor **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) propriedade. Um identificador de entrada do repositório de mensagem é disposto MAPI ao responder a uma chamada [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . 
+Um provedor de serviços pode encapsular um identificador de entrada de repositório de mensagens usando a função **WrapStoreEntryID** ou o método [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md) , que chama a função **WrapStoreEntryID** . O provedor deve encapsular o identificador de entrada ao expor a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) do repositório de mensagens ou gravá-lo em uma seção de perfil e ao expor o **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) Propriedades. O MAPI divide um identificador de entrada de repositório de mensagens ao responder a uma chamada a [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . 
   
-Quando um aplicativo cliente passa um identificador de entrada do repositório de mensagem com quebra para MAPI, por exemplo em uma chamada de [IMAPISession::OpenEntry](imapisession-openentry.md) , MAPI ou não, o identificador de entrada para utilizá-lo para chamar um método de provedor, como [IMSProvider::Logon](imsprovider-logon.md) ou [ IMSProvider::CompareStoreIDs](imsprovider-comparestoreids.md). 
+Quando um aplicativo cliente passa um identificador de entrada de repositório de mensagens quebrado para MAPI, por exemplo, em uma chamada a [IMAPISession:: OpenEntry](imapisession-openentry.md) , o MAPI desenvolve o identificador de entrada antes de usá-lo para chamar um método de provedor como [IMSProvider:: logon](imsprovider-logon.md) ou [ IMSProvider:: CompareStoreIDs](imsprovider-comparestoreids.md). 
   
 

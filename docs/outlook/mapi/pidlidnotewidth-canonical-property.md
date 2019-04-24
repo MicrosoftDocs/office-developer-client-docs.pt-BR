@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 20788f40-a7a4-44f7-8e43-efd3a34e6b10
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e217a7f8ced3438908974cfaf11c0454d9856976
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326184"
 ---
 # <a name="pidlidnotewidth-canonical-property"></a>Propriedade canônica PidLidNoteWidth
 
@@ -25,35 +25,35 @@ ms.locfileid: "25386758"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a largura da janela de mensagem visíveis em pixels. 
+Especifica a largura da janela da mensagem visível em pixels. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidNoteWidth  <br/> |
-|Propriedade definida:  <br/> |PSETID_Note  <br/> |
-|ID de longo (LID):  <br/> |0x00008B02  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Note  <br/> |
+|Long ID (LID):  <br/> |0x00008B02  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Nota  <br/> |
+|Área:  <br/> |Nota auto-adesiva  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Este valor deve ser maior do que zero.
+Esse valor deve ser maior que zero.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em notas.
+> Especifica as propriedades e as operações que são permitidas nas anotações.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

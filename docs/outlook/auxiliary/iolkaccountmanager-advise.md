@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
-description: Registra um cliente com o Gerenciador de contas para notificações sobre todas as contas.
-ms.openlocfilehash: 1fb697fef44b9ed32888527c3c9e467be69ba4c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Registra um cliente com o gerente de contas para notificações sobre todas as contas.
+ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322194"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
-Registra um cliente com o Gerenciador de contas para notificações sobre todas as contas.
+Registra um cliente com o gerente de contas para notificações sobre todas as contas.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT IOlkAccountManager::Advise (  
@@ -33,11 +33,11 @@ HRESULT IOlkAccountManager::Advise (
 
 _pNotify_
   
-> [in] Uma interface [IOlkAccountNotify](iolkaccountnotify.md) que o gerente de conta será usado para enviar notificações para o cliente. 
+> no Uma interface [IOlkAccountNotify](iolkaccountnotify.md) que o gerente de contas usará para enviar notificações ao cliente. 
     
 _pdwCookie_
   
-> [out] Um cookie que [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) usará ao remover o registro para a conta. 
+> bota Um cookie que [IOlkAccountManager:: Unadvise](iolkaccountmanager-unadvise.md) será usado ao remover o registro da conta. 
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -45,10 +45,10 @@ _pdwCookie_
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
 |E_INVALIDARG  <br/> |Um argumento inválido foi fornecido.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)  
 - [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)
 

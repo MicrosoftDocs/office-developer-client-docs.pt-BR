@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3c1bfccf635b96dd0744d888e69b4af5b8df0fa2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bdc57a6e951e54640fe3c638977c6a5f16986e68
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322355"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587864"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Exibe uma caixa de diálogo que mostra detalhes sobre uma entrada de catálogo de endereço específica.
+Exibe uma caixa de diálogo que mostra detalhes sobre uma entrada de catálogo de endereços específica.
   
 ```cpp
 HRESULT Details(
@@ -45,51 +45,51 @@ HRESULT Details(
 
  _lpulUIParam_
   
-> [out] Um ponteiro para a alça para a janela pai da caixa de diálogo retornado.
+> bota Um ponteiro para a alça da janela pai da caixa de diálogo retornada.
     
  _lpfnDismiss_
   
-> [in] Um ponteiro para uma função com base no [DISMISSMODELESS](dismissmodeless.md) protótipo ou nulo. Este membro só se aplica a versão sem janela restrita da caixa de diálogo, conforme indicado pelo sinalizador DIALOG_SDI sendo definido. MAPI chama a função **DISMISSMODELESS** quando o usuário descarte a caixa de diálogo sem janela restrita endereço informando um cliente que está chamando **IMAPISupport::Details** que a caixa de diálogo não está mais ativa. 
+> no Um ponteiro para uma função com base no protótipo [DISMISSMODELESS](dismissmodeless.md) ou nulo. Este membro se aplica apenas à versão sem janela restrita da caixa de diálogo, conforme indicado pelo sinalizador DIALOG_SDI que está sendo definido. MAPI chama a função **DISMISSMODELESS** quando o usuário ignora a caixa de diálogo de endereço sem restrições, informando um cliente que está chamando **IMAPISupport::D etails** que a caixa de diálogo não está mais ativa. 
     
  _lpvDismissContext_
   
-> [in] Um ponteiro para informações de contexto para passar para a função **DISMISSMODELESS** apontado pelo parâmetro _lpfnDismiss_ . Esse parâmetro se aplica somente à versão da caixa de diálogo sem janela restrita, incluindo o sinalizador DIALOG_SDI no parâmetro _ulFlags_ . 
+> no Um ponteiro para informações de contexto a serem passadas para a função **DISMISSMODELESS** apontada pelo parâmetro _lpfnDismiss_ . Esse parâmetro se aplica apenas à versão sem janela restrita da caixa de diálogo, incluindo o sinalizador DIALOG_SDI no parâmetro _parâmetroulflags_ . 
     
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada para o qual os detalhes são exibidos.
+> no Um ponteiro para o identificador de entrada para o qual os detalhes são exibidos.
     
  _lpfButtonCallback_
   
-> [in] Um ponteiro para uma função com base no protótipo de função [LPFNBUTTON](lpfnbutton.md) . Uma função **LPFNBUTTON** adiciona um botão para a caixa de diálogo detalhes. 
+> no Um ponteiro para uma função com base no protótipo de função [LPFNBUTTON](lpfnbutton.md) . Uma função **LPFNBUTTON** adiciona um botão à caixa de diálogo detalhes. 
     
  _lpvButtonContext_
   
-> [in] Um ponteiro para dados usados como um parâmetro para a função especificada pelo parâmetro _lpfButtonCallback_ . 
+> no Um ponteiro para dados usados como um parâmetro para a função especificada pelo parâmetro _lpfButtonCallback_ . 
     
  _lpszButtonText_
   
-> [in] Um ponteiro para uma cadeia de caracteres que contém o texto a ser aplicado ao botão adicionado se esse botão é extensível. O parâmetro _lpszButtonText_ deve ser NULL se um botão extensível não é necessária. 
+> no Um ponteiro para uma cadeia de caracteres que contém o texto a ser aplicado ao botão adicionado se esse botão é extensível. O parâmetro _lpszButtonText_ deve ser NULL se um botão extensível não for necessário. 
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo do texto para o parâmetro _lpszButtonText_ . O seguinte sinalizador pode ser definido: 
+> no Uma bitmask de sinalizadores que controla o tipo de texto para o parâmetro _lpszButtonText_ . O seguinte sinalizador pode ser definido: 
     
 DIALOG_MODAL
   
-> Exiba a versão modal da caixa de diálogo endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_SDI.
+> Exibe a versão modal da caixa de diálogo endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_SDI.
     
 DIALOG_SDI
   
->  Exiba a versão sem janela restrita da caixa de diálogo endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_MODAL. 
+>  Exibe a versão sem janela restrita da caixa de diálogo de endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_MODAL. 
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -99,7 +99,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::Details** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **detalhes** para exibir uma caixa de diálogo que fornece detalhes sobre uma determinada entrada no catálogo de endereços. Os parâmetros _lpfButtonCallback_, _lpvButtonContext_e _lpszButtonText_ podem ser usados para adicionar um botão de cliente definido para a caixa de diálogo. Quando o botão é clicado, o MAPI chama a função de retorno de chamada apontada pela _lpfButtonCallback_, passando o identificador de entrada do botão e os dados em _lpvButtonContext_. Se um botão extensível não for necessário, _lpszButtonText_ deve ser NULL. 
+O método **IMAPISupport::D etails** é implementado para objetos de suporte do provedor de catálogo de endereços. Os provedores de catálogo de endereços chamam **detalhes** para exibir uma caixa de diálogo que fornece detalhes sobre uma entrada específica no catálogo de endereços. Os parâmetros _lpfButtonCallback_, _lpvButtonContext_e _lpszButtonText_ podem ser usados para adicionar um botão definido pelo cliente à caixa de diálogo. Quando o botão é clicado, MAPI chama a função de retorno de chamada indicada por _lpfButtonCallback_, passando o identificador de entrada do botão e os dados no _lpvButtonContext_. Se um botão extensível não for necessário, _lpszButtonText_ deverá ser nulo. 
   
 ## <a name="see-also"></a>Confira também
 

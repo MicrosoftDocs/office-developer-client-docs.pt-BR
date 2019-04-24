@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 910f0297-d588-2048-f308-03f3c2389bba
 description: Retorna o último caractere ou caracteres em uma cadeia de caracteres de texto, com base no número de caracteres especificado.
-ms.openlocfilehash: e35cc4918809d5f134f9519c01cb3c93407258e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: faf14ef55b34e51bac11129d6857e381d07357c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326723"
 ---
 # <a name="right-function-visioshapesheet"></a>Função RIGHT (VisioShapeSheet)
 
@@ -22,16 +22,16 @@ Retorna o último caractere ou caracteres em uma cadeia de caracteres de texto, 
   
 ## <a name="syntax"></a>Sintaxe
 
-DIREITA (* * *texto* * * [, * * *num_chars_opt* * *]) 
+Right (* * *Text* * * [, * * *num_chars_opt* * *]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obrigatório  <br/> |**String** <br/> | A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
 | _num_chars_opt_ <br/> |Opcional  <br/> |**Número** <br/> |O número de caracteres que deseja extrair. O padrão é 1.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -39,7 +39,7 @@ String
 
 O valor de _num_chars_opt_ deve ser maior ou igual a zero (0). 
   
-Se _num_chars_opt_ for maior que o comprimento do texto, direita retorna todo o texto. Se _num_chars_opt_ for omitido, presume-se a 1. 
+Se _num_chars_opt_ for maior do que o comprimento do texto, Right retornará todo o texto. Se _num_chars_opt_ for omitido, será considerado 1. 
   
 ## <a name="example"></a>Exemplo
 

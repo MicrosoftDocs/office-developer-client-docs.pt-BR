@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326611"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Propriedade canônica PidTagAutoForwarded
 
@@ -25,40 +25,40 @@ ms.locfileid: "25386359"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se o cliente solicita um campo de cabeçalho X-MS-Exchange-organização-AutoForwarded.
+Contém TRUE se o cliente solicitar um campo de cabeçalho X-MS-Exchange-Organization-autoForwarded.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_AUTO_FORWARDED  <br/> |
 |Identificador:  <br/> |0x0005  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Relatório geral  <br/> |
+|Área:  <br/> |Relatórios gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for definida como FALSE ou não utilizado, nenhum campo de cabeçalho X-MS-Exchange-organização-AutoForwarded será criado.
+Se essa propriedade for definida como FALSE ou não usada, nenhum campo de cabeçalho X-MS-Exchange-Organization-autoForwarded será criado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Define cada propriedade que é usada nos objetos que são descritos por prefixado MS-OXO documentos.
+> Define cada propriedade que é usada nos objetos descritos por documentos do MS-OXO-prefixados.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

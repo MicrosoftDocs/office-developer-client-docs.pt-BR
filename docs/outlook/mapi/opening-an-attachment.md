@@ -8,48 +8,48 @@ api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 768528c59d7aa5888c0d0427f86b8be8e1d33669
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 39da1e02622d81cd12a2d4673b827d49bf418128
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326170"
 ---
 # <a name="opening-an-attachment"></a>Abrir um anexo
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abertura de um anexo envolve a exibição de seus dados. Por exemplo, quando um anexo de arquivo é aberto, o conteúdo do arquivo é exibido. Enquanto as mensagens e pastas são abertas usando seus identificadores de entrada, anexos abertos usando seus números de anexo — **PR_ATTACH_NUM** propriedades. Para obter mais informações, consulte **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Números de anexo estão disponíveis por meio da tabela de anexos da mensagem.
+Abrir um anexo envolve a exibição dos dados. Por exemplo, quando um anexo de arquivo é aberto, o conteúdo do arquivo é exibido. Enquanto as mensagens e pastas são abertas usando seus identificadores de entrada, os anexos são abertos usando seus números de anexo — **PR_ATTACH_NUM** Propriedades. Para obter mais informações, consulte **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Os números de anexo estão disponíveis por meio da tabela de anexos de uma mensagem.
   
 ### <a name="to-open-all-attachments-in-a-message"></a>Para abrir todos os anexos em uma mensagem
   
-1. Chame o método de [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) da mensagem para acessar sua tabela de anexo. 
+1. Chame o método [IMessage::](imessage-getattachmenttable.md) GetAttachmentTable da mensagem para acessar sua tabela de anexos. 
     
 2. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas na tabela. 
     
 3. Para cada linha: 
     
-    1. Abra o anexo passando o número de anexo representado na coluna **PR_ATTACH_NUM** em uma chamada ao método de **IMessage::OpenAttach** da mensagem. Para obter mais informações, consulte [IMessage::OpenAttach](imessage-openattach.md). **OpenAttach** retorna um ponteiro para uma implementação **IAttach** que fornece acesso às propriedades de anexo. 
+    1. Abra o anexo passando o número de anexo representado na coluna **PR_ATTACH_NUM** em uma chamada para o método **IMessage:: OpenAttach** da mensagem. Para obter mais informações, consulte [IMessage:: OpenAttach](imessage-openattach.md). **OpenAttach** retorna um ponteiro para uma implementação de **IAttach** que fornece acesso às propriedades de anexo. 
         
-    2. Chame o método de **IMAPIProp::GetProps** do anexo para recuperar sua propriedade **PR_ATTACH_METHOD** . Para obter mais informações, consulte [IMAPIProp::GetProps](imapiprop-getprops.md) e **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)).
+    2. Chame o método **IMAPIProp::** GetProps do anexo para recuperar sua propriedade **PR_ATTACH_METHOD** . Para obter mais informações, consulte [IMAPIProp::](imapiprop-getprops.md) GetProps e **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)).
         
-    3. Se **PR_ATTACH_METHOD** for definido como ATTACH_BY_REF_ONLY, chame **IMAPIProp::GetProps** para recuperar a propriedade **PR_ATTACH_PATHNAME** . Para obter mais informações, consulte **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)).
+    3. Se **PR_ATTACH_METHOD** estiver definido como ATTACH_BY_REF_ONLY, chame **IMAPIProp::** GetProps para recuperar a propriedade **PR_ATTACH_PATHNAME** . Para obter mais informações, consulte **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)).
         
-    4. Se **PR\_ATTACH_METHOD** estiver definida como ANEXAR\_BY_VALUE, chame **IMAPIProp::OpenProperty** para abrir o **PR\_ATTACH_DATA_BIN** propriedade com a interface **IStream** . Consulte o código de amostra seguindo este procedimento. Para obter mais informações, consulte [IMAPIProp::OpenProperty](imapiprop-openproperty.md) e **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)).
+    4. Se **PR\_ATTACH_METHOD** for definido como Attach\_BY_VALUE, chame **IMAPIProp:: OpenProperty** para abrir a **propriedade\_PR ATTACH_DATA_BIN** com a interface **IStream** . Consulte o exemplo de código após este procedimento. Para obter mais informações, consulte [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) e **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)).
         
-    5. Se **PR_ATTACH_METHOD** for definido como ATTACH_OLE e o anexo é um objeto OLE 2: 
+    5. Se **PR_ATTACH_METHOD** estiver definido como ATTACH_OLE e o anexo for um objeto OLE 2: 
         
-        1. Chamar **IMAPIProp::OpenProperty** para abrir o **PR\_ATTACH_DATA_OBJ** propriedade com a interface **IStreamDocfile** . Tente usar essa interface porque ele é uma implementação do **IStream** garantido para trabalhar com armazenamento estruturado com o mínimo de sobrecarga. Para obter mais informações, consulte **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).
+        1. Chame **IMAPIProp:: OpenProperty** para abrir a **propriedade\_PR ATTACH_DATA_OBJ** com a interface **IStreamDocfile** . Tente usar esta interface porque é uma implementação de **IStream** garantido para funcionar com o armazenamento estruturado com a menor quantidade de sobrecarga. Para obter mais informações, consulte **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).
             
-        2. Se a chamada **OpenProperty** falhar, chame novamente para recuperar a propriedade **PR_ATTACH_DATA_BIN** com a interface **IStreamDocfile** . 
+        2. Se a **** chamada OpenProperty falhar, chame-a novamente para recuperar a propriedade **PR_ATTACH_DATA_BIN** com a interface **IStreamDocfile** . 
             
-        3. Se essa segunda chamada **OpenProperty** falhar, tente novamente para chamar **OpenProperty** para recuperar **PR_ATTACH_DATA_OBJ**. No entanto, em vez de especificar **IStreamDocfile**, especifique a interface de **IStorage** . 
+        3. Se essa segunda **** chamada OpenProperty falhar, tente novamente chamar **OpenProperty** para recuperar o **PR_ATTACH_DATA_OBJ**. No enTanto, em vez de especificar **IStreamDocfile**, especifique a interface **IStorage** . 
     
-4. Se **PR_ATTACH_METHOD** for definido como ATTACH_EMBEDDED_MSG, não é incomum que o valor da **PR_ATTACH_DATA_OBJ** para conter um erro. Isso acontece porque você e o implementador tabela não têm como concordam com o tipo de objeto a ser retornado. Para recuperar um ponteiro para a mensagem anexada, abra o anexo usando **IMessage::OpenAttach**. Acesse os dados do anexo chamando o método **IMAPIProp::OpenProperty** . Para obter mais informações, consulte [IMessage::OpenAttach](imessage-openattach.md) e [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+4. Se **PR_ATTACH_METHOD** for definido como ATTACH_EMBEDDED_MSG, não é incomum que o valor de **PR_ATTACH_DATA_OBJ** contenha um erro. Isso ocorre porque você e o implementador de tabelas não têm como concordar com o tipo de objeto a ser retornado. Para recuperar um ponteiro para a mensagem anexada, abra o anexo usando **IMessage:: OpenAttach**. Em seguida, acesse os dados de anexo chamando o método **IMAPIProp:: OpenProperty** . Para obter mais informações, consulte [IMessage:: OpenAttach](imessage-openattach.md) e [IMAPIProp:: OpenProperty](imapiprop-openproperty.md).
     
-Você pode solicitar que um anexo é aberto no modo somente leitura ou de leitura/gravação. Somente leitura é o modo padrão e vários provedores de armazenamento de mensagem abrir todos os anexos neste modo independente os clientes solicitam. Passe o sinalizador MAPI_BEST_ACCESS para solicitar que o provedor de armazenamento de mensagem conceder o nível mais alto de acesso, ele pode e recuperá-propriedade **PR_ACCESS_LEVEL** do anexo aberto para determinar o nível de acesso que realmente foi concedido. Para obter mais informações, consulte **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+Você pode solicitar que um anexo seja aberto em modo de leitura/gravação ou somente leitura. Somente leitura é o modo padrão, e muitos provedores de repositórios de mensagens abrem todos os anexos desse modo, independentemente do que os clientes solicitam. Passe o sinalizador MAPI_BEST_ACCESS para solicitar que o provedor do repositório de mensagens conceda o nível mais alto de acesso que ele pode e, em seguida, recupere a propriedade **PR_ACCESS_LEVEL** do anexo aberto para determinar o nível de acesso que foi realmente concedido. Para obter mais informações, consulte **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-O exemplo a seguir mostra como abrir os dados em um anexo **PR\_ATTACH_DATA_BIN** propriedade. Ele aloca ponteiros para dois fluxos: uma para o arquivo e outra para o anexo. A função **OpenStreamOnFile** abre o fluxo de arquivos no modo somente leitura. A chamada **IMAPIProp::OpenProperty** método do anexo abre o fluxo de anexos no modo de leitura/gravação. Para obter mais informações, consulte **PR_ATTACH_DATA_BIN**, [OpenStreamOnFile](openstreamonfile.md)e [IMAPIProp::OpenProperty](imapiprop-openproperty.md). O código copia do fluxo de arquivo para o fluxo de anexos e libera os dois fluxos.
+O exemplo a seguir mostra como abrir os dados na propriedade **PR\_ATTACH_DATA_BIN** de um anexo. Ele aloca ponteiros para dois fluxos: um para o arquivo e um para o anexo. A função **OpenStreamOnFile** abre o fluxo de arquivos no modo somente leitura. A chamada para o método **IMAPIProp:: OpenProperty** do anexo abre o fluxo de anexos no modo de leitura/gravação. Para obter mais informações, consulte **PR_ATTACH_DATA_BIN**, [OpenStreamOnFile](openstreamonfile.md)e [IMAPIProp:: OpenProperty](imapiprop-openproperty.md). O código então copia do fluxo de arquivo para o fluxo de anexos e libera ambos os fluxos.
   
 ```cpp
 LPSTREAM pStreamFile, pStreamAtt;

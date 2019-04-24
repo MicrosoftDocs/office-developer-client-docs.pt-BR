@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm840
 localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
-description: Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo inclui automaticamente o texto do aviso de aspas () para indicar que ela é uma cadeia de caracteres de texto. Se você digitar um sinal de igual (=) e omite as aspas, você pode inserir uma fórmula nesta célula que avalia o aplicativo.
-ms.openlocfilehash: a7f8757af3e324a89f49bf5d19185b7a22173ff5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo inclui automaticamente o texto do prompt entre aspas () para indicar que se trata de uma cadeia de caracteres de texto. Se você digitar um sinal de igual (=) e omitir as aspas, é possível inserir uma fórmula na célula avaliada pelo aplicativo.
+ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326884"
 ---
 # <a name="prompt-cell-user-defined-cells-section"></a>Célula Prompt (Seção User-Defined Cells)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Prompt pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Usuário.  *Nome* . Where prompt do usuário.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Utilizador.  *Nome* . Avisar onde usuário.  *Name* é o nome da linha  <br/> |
    
 Para fazer referência à célula Prompt pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

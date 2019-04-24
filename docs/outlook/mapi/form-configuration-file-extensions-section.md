@@ -1,5 +1,5 @@
 ---
-title: Seção do arquivo de configuração de formulários [Extensões]
+title: Seção do arquivo de configuração de formulários [extensões]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,38 +8,38 @@ api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 459c5f5a34421583141028cd9accad5e242d31ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96682dd2bdfedc42ea13c6985cb834f0adffd4df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327297"
 ---
-# <a name="form-configuration-file-extensions-section"></a>Seção do arquivo de configuração de formulários [Extensões]
+# <a name="form-configuration-file-extensions-section"></a>Seção do arquivo de configuração de formulários [extensões]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[Extensions]** lista os atributos estendidos do formulário, geralmente um conjunto nomeado de propriedade, que são atributos além dos básicos listados na seção **[descrição]** do arquivo de configuração de formulário. Os atributos estendidos são retornadas de chamadas para o método **GetProps** do objeto **IMAPIFormInfo** com alto definido o bit definido na marca de propriedade de propriedades. Aplicativos cliente podem determinar os atributos estendidos de um formulário, se houver, recuperando essas marcas. Para fazer isso, os clientes chamar o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) , passando nos nomes de propriedades do formulário e chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) para obter as propriedades. 
+A seção **[Extensions]** lista os atributos estendidos do formulário, geralmente um conjunto de propriedades nomeadas, que são qualquer atributo além dos básicos listados na seção **[Description]** do arquivo de configuração de formulário. Os atributos estendidos são propriedades retornadas de **** chamadas para o método GetProps do objeto **IMAPIFormInfo** com o bit alto definido na marca da propriedade. Os aplicativos cliente podem determinar os atributos estendidos de um formulário, se houver, recuperando essas marcas. Para fazer isso, os clientes chamam o método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) , passando os nomes das propriedades do formulário e chamar o método [IMAPIProp::](imapiprop-getprops.md) GetProps para obter as propriedades. 
   
- **[Extensions]**
+ **Das**
   
- **Extensão.** _sequência1_ =  _sequência2_
+ **Extensões.** _seqüência1_ =  _seqüência2_
   
-Cada seção de propriedade de extensão define um atributo de extensão usando MAPI denominada a sintaxe da propriedade. O tipo de propriedade deve ser PT_LONG ou PT_STRING8. Conjuntos de propriedades que contém as cadeias de caracteres nomeadas não são suportados. O formato da seção **[extensão]** é: 
+Cada seção de propriedades de extensão define um atributo de extensão usando a sintaxe da propriedade nomeada MAPI. O tipo de propriedade deve ser PT_LONG ou PT_STRING8. Não há suporte para conjuntos de propriedades que contenham cadeias de caracteres nomeadas. O formato da seção **[Extension]** é: 
   
- **[Extensão.** _Sequência2_ **]**
+ **Extensões.** _seqüência2_ **]**
   
  **Tipo** =  _inteiro_
   
- **NmidPropset** =  _guid_
+ **** =  _GUID_ NmidPropset
   
- **Opção NmidInteger** =  _inteiro_
+ **NmidInteger** =  _inteiro_
   
- **Valor** =  _cadeia de caracteres_ |  _inteiro_
+ **Valor** =  __ |  _inteiro_ da cadeia de caracteres
   
-Um exemplo de uma seção **[Extensions]** e uma seção relacionada subsequente é mostrado a seguir. 
+Um exemplo de uma seção **[Extensions]** e uma seção relacionada subsequentes são mostrados a seguir. 
   
 ```
 [Extensions]

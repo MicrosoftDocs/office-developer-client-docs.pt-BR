@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
 description: Abre uma sessão MAPI e mantém uma referência à sessão para o gerente de conta.
 ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322173"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
@@ -36,7 +36,7 @@ _ppmsess_
     
 ## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
+S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 

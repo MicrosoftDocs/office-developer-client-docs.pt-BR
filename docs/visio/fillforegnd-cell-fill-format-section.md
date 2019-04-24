@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7548a480-4dce-45e0-281b-f6f8bdf05c0b
 description: Determina a cor usada para o primeiro plano (traço) do padrão de preenchimento da forma.
-ms.openlocfilehash: 27126457963e4e55419b0cac5baf1eab08fe3cc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 352fecf8d99069cfb5ebd72d295284dc03446364
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322502"
 ---
 # <a name="fillforegnd-cell-fill-format-section"></a>Célula FillForegnd (Seção Fill Format)
 
@@ -24,7 +24,7 @@ Determina a cor usada para o primeiro plano (traço) do padrão de preenchimento
 
 Para definir a cor, insira um número de 0 a 23.
   
-Para inserir uma cor personalizada, use a função RGB ou HSL. O valor de uma cor personalizada é a cor RGB e RGB ( *r, g, b*), em vez de um número, será exibido na janela ShapeSheet. Quando usado em operações numéricas, as cores têm valores de 24 e acima. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência de preenchimento do primeiro plano na célula FillForegndTrans.
   

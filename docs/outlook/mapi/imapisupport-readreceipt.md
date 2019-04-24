@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: e785d42639d51dab154a0bde239f858a92ddd143
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1915004847fdfd27c97656223866aaab9d3e59c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326303"
 ---
 # <a name="imapisupportreadreceipt"></a>IMAPISupport::ReadReceipt
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588619"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gera uma leitura ou relatório nonread para uma mensagem.
+Gera um relatório de leitura ou não lido para uma mensagem.
   
 ```cpp
 HRESULT ReadReceipt(
@@ -39,19 +39,19 @@ LPMESSAGE FAR * lppEmptyMessage
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como o leitura ou nonread relatório é gerado. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como o relatório de leitura ou não lido é gerado. O seguinte sinalizador pode ser definido:
     
 MAPI_NON_READ 
   
-> É gerado um relatório de nonread. Se MAPI_NON_READ não estiver definida, é gerado um relatório de leitura.
+> Um relatório não lido é gerado. Se MAPI_NON_READ não for definido, um relatório de leitura é gerado.
     
  _lpReadMessage_
   
-> [in] Um ponteiro para a mensagem sobre o qual o relatório deve ser gerado.
+> no Um ponteiro para a mensagem sobre a qual o relatório deve ser gerado.
     
  _lppEmptyMessage_
   
-> [além, out] Na entrada, _lppEmptyMessage_ aponta para um ponteiro para uma mensagem vazia. Na saída, _lppEmptyMessage_ aponta para um ponteiro para a mensagem de relatório. 
+> [in, out] Na entrada, _lppEmptyMessage_ aponta para um ponteiro para uma mensagem vazia. Na saída, _lppEmptyMessage_ aponta para um ponteiro para a mensagem de relatório. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,29 +61,29 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::ReadReceipt** é implementado apenas para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **ReadReceipt** para instruir o MAPI para gerar uma leitura ou relatório nonread da mensagem apontado pelo parâmetro _lpReadMessage_ . 
+O método **IMAPISupport:: ReadReceipt** é implementado apenas para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam o **ReadReceipt** para instruir o MAPI a gerar um relatório de leitura ou não leitura para a mensagem indicada pelo parâmetro _lpReadMessage_ . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
 Chame **ReadReceipt** quando a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) estiver definida e uma das seguintes condições for verdadeira:
   
-- A mensagem foi lido.
+- A mensagem foi lida.
     
 - A mensagem foi movida.
     
 - A mensagem foi copiada.
     
-- Método de [IMessage::SetReadFlag](imessage-setreadflag.md) da mensagem foi chamado. 
+- O método [IMessage:: SetReadFlag](imessage-setreadflag.md) da mensagem foi chamado. 
     
-Não chame **ReadReceipt** quando uma mensagem é excluída. 
+Não chama **ReadReceipt** quando uma mensagem é excluída. 
   
-Uma leitura ou relatório nonread deverão ser enviado apenas uma vez para uma mensagem. Manter um registro de status de leitura da mensagem e não envie vários relatórios de uma única mensagem.
+Um relatório de leitura ou de não leitura deve ser enviado apenas uma vez para uma mensagem. Acompanhar o status de leitura de uma mensagem e não enviar vários relatórios para uma única mensagem.
   
-Se o parâmetro _lppEmptyMessage_ aponta para uma mensagem de relatório válido quando MAPI retorna da **ReadReceipt**, chame o método de [IMessage::SubmitMessage](imessage-submitmessage.md) para enviar a mensagem e solte o ponteiro chamando seu **IUnknown:s:Release **método. 
+Se o parâmetro _lppEmptyMessage_ apontar para uma mensagem de relatório válida quando o MAPI retornar de **ReadReceipt**, chame o método [IMessage:: SubmitMessage](imessage-submitmessage.md) para enviar a mensagem e, em seguida, solte o ponteiro chamando seu **IUnknown: s: Release **método. 
   
-Se **ReadReceipt** falhar, a mensagem deve ser liberada sem ser enviada. Se você armazenar status de leitura da mensagem, você pode tentar gerar o relatório nonread ou leitura mais tarde. 
+Se o **ReadReceipt** falhar, a mensagem deverá ser liberada sem ser enviada. Se você armazenar o status de leitura da mensagem, poderá tentar gerar o relatório de leitura ou de não leitura mais tarde. 
   
-Você pode ocultar ou exibir relatórios de leitura e nonread gerados pelo repositórios em suas pastas. Armazenando relatórios de leitura e nonread em pastas ocultas permite implementar maior segurança.
+Você pode ocultar ou exibir os relatórios de leitura e não leitura gerados por lojas em suas pastas. O armazenamento de relatórios de leitura e não leitura em pastas ocultas permite que você implemente segurança mais rígida.
   
 ## <a name="see-also"></a>Confira também
 
@@ -93,7 +93,7 @@ Você pode ocultar ou exibir relatórios de leitura e nonread gerados pelo repos
   
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[Propriedade canônico de PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
+[Propriedade canônica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

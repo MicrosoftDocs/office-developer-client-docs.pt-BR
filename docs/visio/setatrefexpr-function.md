@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm1027317
 localization_priority: Normal
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
-description: Armazena um valor que é definido por meio de uma ação na interface do usuário (UI) ou automação.
-ms.openlocfilehash: c664717afcc2b81e55495fd1957a86ef1b021d0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Armazena um valor definido por meio de uma ação na interface do usuário ou automação.
+ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326002"
 ---
 # <a name="setatrefexpr-function"></a>Função SETATREFEXPR
 
-Armazena um valor que é definido por meio de uma ação na interface do usuário (UI) ou automação.
+Armazena um valor definido por meio de uma ação na interface do usuário ou automação.
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -26,9 +26,9 @@ SETATREFEXPR ([* * *expr_opt* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |Opcional  <br/> |**Varia** <br/> |Uma expressão que é substituída pelo valor ou expressão que está sendo atribuído à célula referenciada na função SETATREF. Se não foi indicado, seu valor inicial é 0 (zero).  <br/> |
+| _expr_opt_ <br/> |Opcional  <br/> |**Vai** <br/> |Uma expressão substituída pelo valor ou expressão atribuída à célula referenciada na função SETATREF. Se não for indicado, seu valor inicial será 0 (zero).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -50,9 +50,9 @@ User.GridX =2 pol
   
 User.GridY =2 pol
   
-PinX = INT (SETATREFEXPR () /User.GridX +.5)\*User. GridX
+PinX = INT (SETATREFEXPR ()/User.GridX + 0,5)\*User. gradex
   
-PinY = INT (SETATREFEXPR () /User.GridY +.5)\*User. GridY
+PinY = INT (SETATREFEXPR ()/User.GridY + 0,5)\*User. GridY
   
 ## <a name="example-3"></a>Exemplo 3
 

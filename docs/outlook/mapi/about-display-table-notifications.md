@@ -1,5 +1,5 @@
 ---
-title: Sobre notificações de tabela de exibição
+title: Sobre a exibição de notificações de tabela
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,47 +8,47 @@ api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 487a5dbcdefe901b514083ee910972354574bd82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326408"
 ---
-# <a name="about-display-table-notifications"></a>Sobre notificações de tabela de exibição
+# <a name="about-display-table-notifications"></a>Sobre a exibição de notificações de tabela
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notificações em uma tabela de exibição são enviadas pelo provedor de serviços responsável por criar a tabela de exibição MAPI. MAPI registra para essas notificações chamando o método de [IMAPITable::Advise](imapitable-advise.md) uma exibição da tabela e especificando o evento modificada da tabela. 
+As notificações em uma tabela de exibição são enviadas pelo provedor de serviços responsável pela criação da tabela de exibição para MAPI. O MAPI registra para essas notificações chamando o método imApitable [:: Advise](imapitable-advise.md) da tabela de exibição e especificando o evento de tabela modificada. 
   
-Assim como acontece com todas as notificações de tabela exibir notificações de tabela incluem uma estrutura [TABLE_NOTIFICATION](table_notification.md) . Somente o **ulTableEvent** e os membros de **propIndex** desta estrutura são significativos; os outros membros são ignorados. O membro **ulTableEvent** é definido como TABLE_ROW_MODIFIED e o membro **propIndex** é definido como o valor da coluna **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) na linha correspondente. MAPI responde à notificação chamando o método [IMAPIProp::GetProps](imapiprop-getprops.md) para a propriedade exibida no controle e exibindo o novo valor. 
+Como em todas as notificações de tabela, as notificações de tabela de exibição incluem uma estrutura [TABLE_NOTIFICATION](table_notification.md) . Somente os membros **ulTableEvent** e **propIndex** dessa estrutura são significativos; os outros membros são ignorados. O membro **ulTableEvent** é definido como TABLE_ROW_MODIFIED e o membro **propIndex** é definido como o valor da coluna **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) na linha correspondente. O MAPI responde à notificação chamando o método [IMAPIProp::](imapiprop-getprops.md) GetProps para a propriedade exibida no controle e exibindo o novo valor. 
   
-Notificações de tabela de exibição podem ser usadas por um provedor de serviços para coordenar mudanças para controles relacionados na caixa de diálogo. Por exemplo, se a implementação de interface de propriedade precisa atualizar um ou mais campos na caixa de diálogo — talvez em resposta a um outro controle que definiu o sinalizador DT_SET_IMMEDIATE em sua propriedade **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) — ele pode gerar uma notificação de tabela de exibição. Exibir uma notificação de tabela alertando a implementação de interface de propriedade que o valor de um ou mais controles precisa ser lidos novamente devido a uma alteração seja feita ou uma ocorrência do evento externo. 
+As notificações de tabela de exibição podem ser usadas por um provedor de serviços para coordenar alterações em controles relacionados na caixa de diálogo. Por exemplo, se a implementação da interface de propriedade precisa atualizar um ou mais campos na caixa de diálogo, talvez em resposta a outro controle que tenha definido o sinalizador DT_SET_IMMEDIATE em sua propriedade **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) — Ele pode gerar uma notificação de exibição de tabela. Uma notificação de tabela de exibição pode alertar a implementação de interface de propriedade que o valor de um ou mais controles precisa ser relido devido a uma alteração que está sendo feita ou a um evento externo que ocorre. 
   
 Um provedor de serviços pode emitir notificações de tabela de exibição por:
   
-- Chamando [ITableData::HrNotify](itabledata-hrnotify.md), se a tabela de exibição foi criada com um objeto de dados de tabela.
+- Chamar [ITableData:: HrNotify](itabledata-hrnotify.md), se a tabela de exibição foi criada com um objeto Table Data.
     
-    - Ou -
+    - Ou
     
-- Usando seu próprio código, se a tabela de exibição foi criada com a implementação do provedor **IMAPITable** . 
+- Usando seu próprio código, se a tabela de exibição foi criada com a implementação **** IMAPITable do provedor. 
     
-MAPI responde para exibir as notificações de tabela quando necessário por releitura o valor de um controle a partir da implementação de interface de propriedade. A tabela a seguir descreve os detalhes ao redor como MAPI manipula notificações para tipos específicos de controles.
+MAPI responde a exibir notificações de tabela quando necessário, relendo o valor de um controle da implementação da interface de propriedade. A tabela a seguir descreve os detalhes em torno de como o MAPI lida com notificações para tipos específicos de controles.
   
-|**Control**|**Ação de MAPI**|
+|**Control**|**Ação MAPI**|
 |:-----|:-----|
-|Botão  <br/> |Chama [IMAPIProp::OpenProperty](imapiprop-openproperty.md)para recuperar o objeto de controle por meio da propriedade representado pelo membro **ulPRControl** da estrutura [DTBLBUTTON](dtblbutton.md) se a chamada teve falhou anteriormente. Chama [IMAPIControl::GetState](imapicontrol-getstate.md) para determinar se o botão deve ser habilitado e habilita ou desabilita o botão de acordo do objeto controle.  <br/> |
-|Caixa de seleção  <br/> |Rereads o valor para o membro **ulPRPropertyName** .  <br/> |
-|Caixa de combinação  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLCOMBOBOX](dtblcombobox.md) . Rereads todas as linhas, incluindo o valor para o membro **ulPRPropertyName**.  <br/> |
-|Caixa de listagem drop-down  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLDDLBX](dtblddlbx.md) e rereads todas as linhas. Chama [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar os valores para as propriedades armazenadas em membros **ulPRSetProperty** e o **ulPRDisplayProperty** .  <br/> |
-|EDIT  <br/> |Rereads a propriedade e exibe novamente.  <br/> |
+|Botão  <br/> |Chama [IMAPIProp:: OpenProperty](imapiprop-openproperty.md)para recuperar o objeto de controle por meio da propriedade representada pelo membro **UlPRControl** da estrutura [DTBLBUTTON](dtblbutton.md) se a chamada tiver falhado anteriormente. Chama o IMAPIControl do objeto de controle [:: GetState](imapicontrol-getstate.md) para determinar se o botão deve ser habilitado e habilita ou desabilita o botão adequadamente.  <br/> |
+|Caixa de seleção  <br/> |Relê o valor para o membro **ulPRPropertyName** .  <br/> |
+|Caixa de combinação  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLCOMBOBOX](dtblcombobox.md) . Relê todas as linhas, incluindo o valor do membro **ulPRPropertyName**.  <br/> |
+|Caixa de listagem suspensa  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLDDLBX](dtblddlbx.md) e relê todas as linhas. Chama [IMAPIProp::](imapiprop-getprops.md) GetProps para recuperar os valores das propriedades armazenadas nos membros **ulPRDisplayProperty** e **ulPRSetProperty** .  <br/> |
+|Editar  <br/> |Relê a propriedade e reexibe.  <br/> |
 |Caixa de grupo  <br/> |Ignora a notificação.  <br/> |
 |Rótulo  <br/> |Ignora a notificação.  <br/> |
-|Caixa de listagem de seleção vários  <br/> |Se uma das colunas é um identificador de entrada, atualiza a caixa de listagem. Objeto correspondente não está fechado ou recarregado.  <br/> |
-|Caixa de listagem de seleção única  <br/> |Lê a propriedade set, tentando identificá-lo.  <br/> |
-|Caixa de listagem com valores múltiplos  <br/> |Rereads a propriedade e preenche a caixa de listagem.  <br/> |
-|Página com guias  <br/> |Não há nenhuma notificação para este controle; tudo é estático.  <br/> |
-|Botão de opção  <br/> |Rereads a propriedade que está associado com o botão e é armazenada no membro **ulPropTag** da estrutura [DTBLRADIOBUTTON](dtblradiobutton.md) e faz com que a seleção apropriada com os controles.  <br/> |
+|Caixa de listagem de seleção múltipla  <br/> |Se uma das colunas for um identificador de entrada, atualizará a caixa de listagem. O objeto correspondente não é fechado ou recarregado.  <br/> |
+|Caixa de listagem de seleção única  <br/> |Lê a propriedade Set, tentando identificá-la.  <br/> |
+|Caixa de listagem de vários valores  <br/> |Relê a propriedade e preenche novamente a caixa de listagem.  <br/> |
+|Página com guias  <br/> |Não há notificações para este controle; Tudo é estático.  <br/> |
+|Botão de opção  <br/> |Relê a propriedade que está associada ao botão e é armazenada no membro **ulPropTag** da estrutura [DTBLRADIOBUTTON](dtblradiobutton.md) e faz a seleção apropriada com os controles.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

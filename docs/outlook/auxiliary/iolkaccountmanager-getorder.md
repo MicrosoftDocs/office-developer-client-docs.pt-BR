@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
-description: Obtém a ordenação da categoria especificada das contas.
-ms.openlocfilehash: d05e354e25d49a51b3d3f8f053c2b39dc37b333f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtém a ordenação da categoria de contas especificada.
+ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322026"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
-Obtém a ordenação da categoria especificada das contas.
+Obtém a ordenação da categoria de contas especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -34,7 +34,7 @@ HRESULT IOlkAccountManager::GetOrder (
 
 _pclsidCategory_
   
-> [in] A ID de classe de categoria para o qual deseja obter a ordem. O valor deve ser uma das seguintes opções:
+> no A ID de classe de categoria para a qual obter o pedido. O valor deve ser uma das seguintes opções:
     
    - CLSID_OlkMail
     
@@ -44,26 +44,26 @@ _pclsidCategory_
     
 _pcAccts_
   
->  [out] O número de contas. 
+>  bota O número de contas. 
     
 _prgAccts_
   
-> [out] Um ponteiro para uma matriz de contas.
+> bota Um ponteiro para uma matriz de contas.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
+|S_OK  <br/> |A chamada teve êxito  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais argumentos são inválidos.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Antes de chamar este método, o chamador aloca apenas uma matriz ponteiro *prgAccts* , mas não há memória para a matriz nos quais pontos *prgAccts* . Depois que esse método retorna, o chamador deve usar [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) para liberar a memória alocada para *prgAccts* . 
+Antes de chamar esse método, o chamador aloca apenas um ponteiro de matriz *prgAccts* , mas não há memória para a matriz na qual *prgAccts* aponta. Após o método retornar, o chamador deverá usar [IOlkAccountManager:: freememory](iolkaccountmanager-freememory.md) para liberar a memória alocada para o *prgAccts* . 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)  
 - [IOlkAccountManager::SetOrder](iolkaccountmanager-setorder.md)
 

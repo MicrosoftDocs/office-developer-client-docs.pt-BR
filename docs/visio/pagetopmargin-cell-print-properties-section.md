@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2ba0fd22-65a6-6cb6-da00-08f391705544
 description: Especifica a margem superior da página impressa.
-ms.openlocfilehash: 1b7be63e3f21365231120c602d8edfe1dc727f88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff2bffffed39c5571386e792d2ffc8d20d6b291e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327360"
 ---
 # <a name="pagetopmargin-cell-print-properties-section"></a>Célula PageTopMargin (Seção Print Properties)
 

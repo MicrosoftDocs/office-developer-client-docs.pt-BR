@@ -1,5 +1,5 @@
 ---
-title: Gravar um visualizador de hierarquia
+title: Criar um visualizador de hierarquia
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,47 +8,47 @@ api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 6ff394c95dfa3166d39dcba4b0c577dcfac7b8d8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f6ebd20afc3b8d029fa7c632c55982862664055
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325638"
 ---
-# <a name="writing-a-hierarchy-viewer"></a>Gravar um visualizador de hierarquia
+# <a name="writing-a-hierarchy-viewer"></a>Criar um visualizador de hierarquia
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um visualizador de hierarquia é um componente de interface do usuário que é usado para exibir a pasta e o endereço de tabelas de hierarquias de contêiner de catálogo. Visualizadores de hierarquia podem exibir os membros da hierarquia em níveis diferentes, expandindo e firmando contrato cada nível sob demanda.
+Um visualizador de hierarquia é um componente de interface de usuário usado para exibir as tabelas de hierarquia de contêiner de pasta e catálogo de endereços. Os visualizadores de hierarquia podem exibir membros da hierarquia em diferentes níveis, expandindo e contratando cada nível sob demanda.
   
-A propriedade container, **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)), controla o nível no qual um membro de hierarquia é exibido. Entradas que representam os contêineres do catálogo de endereços de nível superior ou pastas têm sua propriedade **PR_DEPTH** definida como zero. O valor dessa propriedade é incrementado sequencialmente para entradas nos níveis sequenciais. Ou seja, quando o usuário seleciona um contêiner de nível superior para expandir e exibir todos os contêineres com **PR_DEPTH** é definida como 1. Quando um usuário expande um desses subcontêineres, exibir os contêineres com **PR_DEPTH** definido como 2 e assim por diante. 
+A propriedade container, **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)), controla o nível no qual um membro de hierarquia é exibido. As entradas que representam recipientes ou pastas de catálogo de endereços de nível superior têm a propriedade **PR_DEPTH** definida como zero. O valor dessa propriedade é incrementalmente em sequência para entradas em níveis sequenciais. Ou seja, quando um usuário seleciona um contêiner de nível superior para expandir, exiba todos os contêineres com **PR_DEPTH** definido como 1. Quando um usuário expande um desses sub-recipientes, exibe os contêineres com **PR_DEPTH** definido como 2 e assim por diante. 
   
-Visualizadores de hierarquia oferecem suporte a um intervalo diferente de Profundidades. Você pode limitar o visualizador a apenas um ou dois níveis, ou você pode oferecer suporte a vários níveis, se a exibição de uma hierarquia expansiva é uma prioridade. 
+Os visualizadores de hierarquia dão suporte a um intervalo diferente de profundidades. Você pode limitar o seu visualizador a apenas um ou dois níveis, ou pode dar suporte a vários níveis, se a exibição de uma hierarquia de baixo for uma prioridade. 
   
 O catálogo de endereços fornece um visualizador de hierarquia para os recipientes de nível superior no catálogo de endereços. 
   
  **Para acessar a tabela de hierarquia de catálogo de endereços**
   
-1. Chame [IAddrBook::OpenEntry](iaddrbook-openentry.md), passando um identificador de entrada nulo, para abrir o contêiner de raiz do catálogo de endereços.
+1. Chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md), passando um identificador de entrada nulo, para abrir o contêiner raiz do catálogo de endereços.
     
-2. Chame o método de [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) do contêiner raiz para acessar a tabela de hierarquia do catálogo de endereços MAPI. 
+2. Chame o método [IMAPIContainer::](imapicontainer-gethierarchytable.md) GetHierarchyTable do contêiner raiz para acessar a tabela de hierarquia do catálogo de endereços MAPI. 
     
- **Para acessar a tabela de hierarquia do armazenamento de mensagens padrão**
+ **Para acessar a tabela de hierarquia do repositório de mensagens padrão**
   
-1. Chame [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) para acessar a tabela de repositório de mensagens. 
+1. Chame [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) para acessar a tabela do repositório de mensagens. 
     
-2. Construa uma restrição usando a estrutura de [SPropertyRestriction](spropertyrestriction.md) para limitar a tabela de somente as linhas que possuem uma propriedade de **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) definida como TRUE. 
+2. Crie uma restrição usando a estrutura [SPropertyRestriction](spropertyrestriction.md) para limitar a tabela apenas às linhas que têm uma propriedade **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) definida como true. 
     
-3. Chame [IMAPITable:: FindRow](imapitable-findrow.md), passando-lhe o **SPropertyRestriction**, para localizar a linha que representa o armazenamento de mensagens padrão. 
+3. Call [IMAPITable:: FindRow](imapitable-findrow.md), passando-o **SPropertyRestriction**para localizar a linha que representa o repositório de mensagens padrão. 
     
-4. Chame [IMAPISession::OpenEntry](imapisession-openentry.md), passando na propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da linha do armazenamento de mensagens padrão da tabela de repositório de mensagem.
+4. Chame [IMAPISession:: OpenEntry](imapisession-openentry.md), passando a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da linha do repositório de mensagens padrão na tabela do repositório de mensagens.
     
-5. Chame o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do armazenamento de mensagens para recuperar a propriedade **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+5. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do repositório de mensagens para recuperar a propriedade **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
-6. Chame o método de [IMsgStore::OpenEntry](imsgstore-openentry.md) do armazenamento de mensagens, passando a propriedade **PR_IPM_SUBTREE_ENTRYID** , para abrir a pasta raiz do subárvore IPM do armazenamento de mensagens. 
+6. Chame o método [IMsgStore:: OpenEntry](imsgstore-openentry.md) do repositório de mensagens, passando a propriedade **PR_IPM_SUBTREE_ENTRYID** , para abrir a pasta raiz da sub-árvore IPM do repositório de mensagens. 
     
-7. Chame o método de [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) da pasta raiz IPM para acessar sua tabela de hierarquia. 
+7. Chame o método [IMAPIContainer::](imapicontainer-gethierarchytable.md) GetHierarchyTable da pasta raiz IPM para acessar sua tabela de hierarquia. 
     
 

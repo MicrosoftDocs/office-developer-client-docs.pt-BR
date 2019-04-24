@@ -1,5 +1,5 @@
 ---
-title: Seção do arquivo de configuração de formulários [Plataformas]
+title: Seção do arquivo de configuração de formulários [plataformas]
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7439de5b91cefe89eba2f9395595d4a7c8ca3ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327507"
 ---
-# <a name="form-configuration-file-platforms-section"></a>Seção do arquivo de configuração de formulários [Plataformas]
+# <a name="form-configuration-file-platforms-section"></a>Seção do arquivo de configuração de formulários [plataformas]
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[plataformas]** lista o conjunto completo de plataformas suportadas por este formulário. Cada entrada de plataforma consiste o prefixo **plataforma.** _cadeia de caracteres_, onde a _cadeia de caracteres_ é um código de cadeia de caracteres arbitrária para a plataforma. Cada sequência corresponde à entrada de **CPU** de um seções **[plataformas]** individuais. Cada entrada em uma seção **[plataformas]** define uma _cadeia de caracteres de plataforma_ que faz referência a um subsequentes **[Platform.** _cadeia de caracteres de plataforma_ seção de **]** , conforme mostrado aqui. 
+A seção **[plataformas]** lista o conjunto completo de plataformas suportadas por esse formulário. Cada entrada de plataforma consiste na plataforma de prefixo **.** _cadeia_de caracteres, onde _cadeia_ de caracteres é um código de cadeia de caracteres arbitrário para a plataforma. Cada cadeia de caracteres corresponde à entrada de **CPU** de uma individual **[Platforms]** seções. Cada entrada em uma seção **[Platforms]** define uma _cadeia de caracteres de plataforma_ que faz referência a um subseqüente **[Platform.** _cadeia de caracteres de plataforma_ **]** como mostrado aqui. 
   
-A seção **[plataformas]** lista o conjunto completo de plataformas suportadas por este formulário. Cada entrada de plataforma consiste o prefixo **plataforma.** _cadeia de caracteres_, onde a _cadeia de caracteres_ é um código de cadeia de caracteres arbitrária para a plataforma. Cada sequência corresponde à entrada de **CPU** de um seções **[plataformas]** individuais. Cada entrada em uma seção **[plataformas]** define uma _cadeia de caracteres de plataforma_ que faz referência a um subsequentes **[Platform.** _cadeia de caracteres de plataforma_ seção de **]** , conforme mostrado aqui. 
+A seção **[plataformas]** lista o conjunto completo de plataformas suportadas por esse formulário. Cada entrada de plataforma consiste na plataforma de prefixo **.** _cadeia_de caracteres, onde _cadeia_ de caracteres é um código de cadeia de caracteres arbitrário para a plataforma. Cada cadeia de caracteres corresponde à entrada de **CPU** de uma individual **[Platforms]** seções. Cada entrada em uma seção **[Platforms]** define uma _cadeia de caracteres de plataforma_ que faz referência a um subseqüente **[Platform.** _cadeia de caracteres de plataforma_ **]** como mostrado aqui. 
   
-**[Plataformas]**
+**Plataformas**
   
-**Plataforma**. _cadeia de caracteres_ =  _cadeia de caracteres de plataforma_
+**Platform**. __ =  _cadeia_ de caracteres de plataforma de cadeia
   
-A seguir está um exemplo de uma seção **[plataformas]** . 
+Veja a seguir um exemplo de uma seção **[Platforms]** . 
   
 ```cpp
 [Platforms]
@@ -36,43 +36,43 @@ Platform.2 = Win95
 
 ```
 
-Cada **[Platform.** _cadeia de caracteres de plataforma_ seção de **]** contém as duas entradas necessárias, **CPU** e **OSVersion**. A entrada de **CPU** Especifica o processador e a entrada de **OSVersion** Especifica o sistema operacional. Os valores válidos de **CPU** são descritos na tabela a seguir. 
+Cada **[Platform.** _cadeia de caracteres de plataforma_ **]** contém as duas entradas obrigatórias, **CPU** e **OSVersion**. A entrada de **CPU** especifica o processador e a entrada **OSVersion** especifica o sistema operacional. Valores de **CPU** válidos são descritos na tabela a seguir. 
   
 |**Entrada de CPU**|**Processador**|
 |:-----|:-----|
-|Ix86  <br/> |Intel 80 x86 e processadores Pentium da série, bem como processadores de equivalentes da AMD, Cyrix, NextGen e outros fabricantes.  <br/> |
-|MIPS  <br/> |Processadores MIPS R4000 da série.  <br/> |
-|AXP  <br/> |Processador de equipamento Corporation Alpha AXP digital.  <br/> |
+|Ix86  <br/> |Processadores Intel 80x86 e Pentium Series, bem como processadores equivalentes do AMD, Cyrix, NextGen e outros fabricantes.  <br/> |
+|SEQÜENCIA  <br/> |Processadores da série MIPS R4000.  <br/> |
+|AXP  <br/> |Processador Digital Equipment Corporation Alpha AXP.  <br/> |
 |PPC  <br/> |Processadores da série Motorola Power PC.  <br/> |
-|M68  <br/> |Processadores Mororola 68 x 00 da série.  <br/> |
+|M68  <br/> |Processadores da série mororola 68x00.  <br/> |
    
-Os valores válidos de **OSVersion** são descritos na tabela a seguir. 
+Os valores de **OSVersion** válidos são descritos na tabela a seguir. 
   
 |**Entrada de OSVersion**|**Sistema Operacional**|
 |:-----|:-----|
-|Win 3.1  <br/> |Windows 3.1 e Windows para grupos de trabalho 3.11.  <br/> |
-|WinNT3.5  <br/> |Windows NT 3.5 ou inferior.  <br/> |
+|Win 3.1  <br/> |Windows 3,1 e Windows para Workgroups 3,11.  <br/> |
+|WinNT 3.5  <br/> |Windows NT 3,5 ou inferior.  <br/> |
 |Win95  <br/> |Windows 95.  <br/> |
-|Winnt 4.0  <br/> |Windows NT 4.0.  <br/> |
-|Mac7  <br/> |Sistema 7 para Macintosh.  <br/> |
+|WinNT 4.0  <br/> |Windows NT 4,0.  <br/> |
+|Mac7  <br/> |Sistema Macintosh 7.  <br/> |
    
-Além disso, o **[Platform.** _cadeia de caracteres de plataforma_ seção **]** deve conter uma entrada de um **arquivo** ou o **LinkTo** . A entrada de **arquivo** lista formulário server arquivo executável do aplicativo que a biblioteca de formulários mantém e carrega em um novo subdiretório no cache de disco quando o formulário for aberto. Se uma entrada de **LinkTo** for usada em vez disso, ele contém o nome de uma cadeia de caracteres de plataforma diferente da qual as informações do **arquivo** são obtidas. Isso é útil se uma versão de um formulário oferece suporte a várias plataformas. 
+Além disso, o **[Platform.** _cadeia de caracteres de plataforma_ **]** seção deve conter uma entrada de **arquivo** ou **linkto** . A entrada de **arquivo** lista o arquivo executável do aplicativo do servidor de formulário que a biblioteca de formulários mantém e carrega em um novo subdiretório no cache de disco quando o formulário é iniciado. Se for **** usada uma entrada de linkto, ela conterá o nome de uma cadeia de caracteres de plataforma diferente da qual as informações do **arquivo** foram realizadas. Isso será útil se uma versão de um formulário oferecer suporte a várias plataformas. 
   
-A entrada **do registro** é utilizada sempre que a entrada de **arquivo** é usada, ele identifica a chave do registro para a biblioteca de formulários, onde o arquivo executável para o aplicativo de servidor do formulário está armazenado. As cadeias de caracteres precedidas por uma barra invertida (\) são colocadas na raiz do registro. As cadeias de caracteres não precedidas por uma barra invertida são colocadas na HKEY_CLASSES_ROOT\CLSID\ _GUID_\ chave do registro, onde _GUID_ é o **GUID** do formulário. Os caracteres "%d" podem ser usados para indicar o nome do caminho do diretório do qual o arquivo de configuração de formulário foi lido. Isso é útil para especificar outros arquivos com nomes de caminhos em relação ao arquivo de configuração de formulário. Entradas de **Vários arquivos** ou **do registro** podem ser especificadas usando o arquivo ou do registro como um prefixo seguido de qualquer outro texto. O formato para o **[Platform.** _cadeia de caracteres de plataforma_ seção **]** é: 
+A entrada **do registro** é usada sempre que a entrada de **arquivo** é usada, ela identifica a chave do registro para a biblioteca de formulários, onde o arquivo executável do aplicativo do servidor de formulário está armazenado. Cadeias de caracteres precedidas por uma barra invertida (\) são colocadas na raiz do registro. Cadeias de caracteres não precedidas por uma barra invertida são colocadas na chave HKEY_CLASSES_ROOT\CLSID\ _GUID_\ do registro, onde _GUID_ é o **GUID** do formulário. Os caracteres "% d" podem ser usados para indicar o nome do caminho do diretório a partir do qual o arquivo de configuração de formulário foi lido. Isso é útil para especificar outros arquivos com Pathnames relativos ao arquivo de configuração de formulário. **Várias** entradas de arquivo ou **registro** podem ser especificadas usando o arquivo ou registro como um prefixo seguido por qualquer outro texto. O formato para o **[Platform.** _cadeia de caracteres de plataforma_ **]** seção é: 
   
-- **[Platform.** _cadeia de caracteres de plataforma_ **]**
+- **Plataforma.** _cadeia de caracteres de plataforma_ **]**
     
-- **CPU** =  _cadeia de caracteres_
+- **** =  _Cadeia de caracteres_ de CPU
     
-- **OSVersion** =  _cadeia de caracteres_
+- **** =  _Cadeia de caracteres_ OSVersion
     
-- **Arquivo** =  _caminho_
+- **** =  _Caminho_ do arquivo
     
-- **LinkTo** =  _cadeia de caracteres_
+- **** Cadeia de caracteres linkto__  =  
     
-- **Registro** =  _cadeia de caracteres_
+- **** =  _Cadeia de caracteres_ do registro
   
-A seguir estão dois exemplos **[Platform.** _cadeia de caracteres de plataforma_ **]** seções, um usando a entrada de **arquivo** e um usando a entrada **LinkTo** . 
+A seguir estão dois exemplos de **[Platform.** _cadeia de caracteres de plataforma_ **]** , uma usando a entrada de **arquivo** e outra usando a entrada **linkto** . 
   
 ```cpp
 [Platform.NTx86]
@@ -87,6 +87,6 @@ LinkTo = NTx86
 
 ```
 
-O **[Platform.** _cadeia de caracteres de plataforma_ seção **]** é ignorada quando a adição de um formulário para a biblioteca de formulários locais, quando supõe-se que o instalador colocou os arquivos que constitui o manipulador de classe de mensagem no armazenamento local disponível quando nomeados na seção do manipulador no registro do OLE e tiver feito o registro OLE no registro do sistema. 
+O **[Platform.** _cadeia de caracteres de plataforma_ **]** seção é ignorada ao adicionar um formulário à biblioteca de formulários local, quando presume-se que o instalador colocou os arquivos constituting o manipulador de classe de mensagem no armazenamento local disponível como nomeado na seção do manipulador no registro OLE e fez o registro OLE no registro do sistema. 
   
 

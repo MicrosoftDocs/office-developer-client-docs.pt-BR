@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 078dfcc7c24870cf95a2a4b2385c34fbeb64fac0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326849"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriedade canônica PidTagJunkThreshold
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387108"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o quão agressivamente emails de entrada devem ser enviada para a pasta Lixo eletrônico.
+Indica o quão agressivamente as mensagens de entrada devem ser enviadas para a pasta lixo eletrônico.
   
 |||
 |:-----|:-----|
@@ -36,36 +36,36 @@ Indica o quão agressivamente emails de entrada devem ser enviada para a pasta L
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade corresponde à alta / baixa / nenhuma configuração de filtro. Um valor de "0xFFFFFFFF" indica que a filtragem de spam não deve ser aplicada, no entanto, listas de bloqueio ainda devem ser aplicadas. Um valor igual a "0x80000000" indica que todos os emails de spam, exceto as mensagens de remetentes na lista de remetentes confiáveis ou enviadas aos destinatários na lista de destinatários confiáveis. Valores são:
+Essa propriedade corresponde à configuração de filtro alto/baixo/nenhuma. Um valor de "0xFFFFFFFF" indica que a filtragem de spam não deve ser aplicada, mas listas de bloqueios ainda devem ser aplicadas. Um valor de "0x80000000" indica que todos os emails são spam, exceto as mensagens dos remetentes na lista de remetentes confiáveis ou enviados para os destinatários na lista de destinatários confiáveis. Os valores para isso são os seguintes:
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0xFFFFFFFF  <br/> |Nenhuma filtragem de spam  <br/> |
+|0xFFFFFFFF  <br/> |Sem filtragem de spam  <br/> |
 |0x00000006  <br/> |Filtragem de spam baixa  <br/> |
-|0x00000003  <br/> |Filtragem de spam de alta  <br/> |
+|0x00000003  <br/> |Filtragem alta de spam  <br/> |
 |0x80000000  <br/> |Somente listas confiáveis  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
+> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

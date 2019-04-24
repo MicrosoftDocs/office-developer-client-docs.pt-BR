@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 38b60180ae7c417bf34998e72f96b353ace02859
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ee0ff8d32436f71020be2cdc91d6677bd4ec8e43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325652"
 ---
 # <a name="xpproviderinit"></a>XPProviderInit
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592532"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicializa a um provedor de transporte para a operação.
+Inicializa um provedor de transporte para operação.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
-|Implementada por:  <br/> |Provedores de transporte  <br/> |
-|Chamado pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Implementado por:  <br/> |Provedores de transporte  <br/> |
+|Chamado por:  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT XPProviderInit(
@@ -51,27 +51,27 @@ HRESULT XPProviderInit(
 
  _hInstance_
   
-> [in] A instância de biblioteca de vínculo dinâmico do provedor de transporte (DLL) que MAPI usada quando ele carregado a DLL.
+> no A instância da biblioteca de vínculo dinâmico (DLL) do provedor de transporte que o MAPI usou quando carregou a DLL.
     
  _lpMalloc_
   
-> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE **IMalloc** . Talvez seja necessário usar esse método de alocação ao trabalhar com certas interfaces como **IStream**o provedor de transporte. 
+> no Ponteiro para um objeto de alocador de memória expondo a interface **IMalloc** do OLE. O provedor de transporte pode precisar usar esse método de alocação quando estiver trabalhando com determinadas interfaces, como **IStream**. 
     
  _lpAllocateBuffer_
   
-> [in] Ponteiro para a função de [MAPIAllocateBuffer](mapiallocatebuffer.md) , para ser usado para alocar memória. 
+> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória. 
     
  _lpAllocateMore_
   
-> [in] Ponteiro para a função de [MAPIAllocateMore](mapiallocatemore.md) , para ser usado para alocar memória adicional. 
+> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , a ser usado para alocar memória adicional. 
     
  _lpFreeBuffer_
   
-> [in] Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , que será usada para liberar memória. 
+> no Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , a ser usado para liberar memória. 
     
  _ulFlags_
   
-> [in] Bitmask dos sinalizadores. O seguinte sinalizador pode ser definido:
+> no Bitmask de sinalizadores. O seguinte sinalizador pode ser definido:
     
 MAPI_NT_SERVICE 
   
@@ -79,39 +79,39 @@ MAPI_NT_SERVICE
     
  _ulMAPIVer_
   
-> [in] Número de versão da interface de provedor do serviço (SPI) que usa MAPI. dll. Para o número da versão atual, consulte o arquivo de cabeçalho Mapispi.h. 
+> no Número da versão da interface do provedor de serviços (SPI) que MAPI. dll usa. Para o número da versão atual, confira o arquivo de cabeçalho Mapispi. h. 
     
  _lpulProviderVer_
   
-> [out] Ponteiro para o número de versão da SPI que usa esse provedor de transporte. 
+> bota Ponteiro para o número da versão do SPI que este provedor de transporte usa. 
     
  _lppXPProvider_
   
-> [out] Ponteiro para um ponteiro para o objeto de provedor de transporte inicializada.
+> bota Ponteiro para um ponteiro para o objeto do provedor de transporte inicializado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
+> A chamada teve êxito e retornou o valor ou valores esperados. 
     
 MAPI_E_VERSION 
   
-> A versão EDA sendo usada pelo MAPI não é compatível com o SPI sendo usado por este provedor.
+> A versão SPI que está sendo usada pelo MAPI não é compatível com o SPI que está sendo usado por este provedor.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama a função do ponto de entrada **XPProviderInit** ao inicializar um provedor de transporte seguindo um logon do cliente. **XPProviderInit** é chamado uma vez para cada provedor de transporte especificado no perfil do cliente. 
+MAPI chama a função de ponto de entrada **XPProviderInit** para inicializar um provedor de transporte após um logon de cliente. **XPProviderInit** é chamado uma vez para cada provedor de transporte especificado no perfil do cliente. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Um provedor de transporte deve implementar **XPProviderInit** como uma função de ponto de entrada na DLL do provedor. A implementação deve se basear no protótipo de função **XPPROVIDERINIT** , também especificado em Mapispi.h. MAPI define **XPPROVIDERINIT** para usar o MAPI inicialização chamada tipo padrão, STDMAPIINITCALLTYPE, que faz com que o **XPProviderInit** a seguir a convenção de chamada CDECL. Uma vantagem da convenção CDECL é que chamadas podem ser tentadas, mesmo se o número de chamada de parâmetros não coincide com o número de parâmetros definidos. 
+Um provedor de transporte deve implementar **XPProviderInit** como uma função de ponto de entrada na DLL do provedor. A implementação deve ser baseada no protótipo de função **XPPROVIDERINIT** , também especificado em Mapispi. h. MAPI define **XPPROVIDERINIT** para usar o tipo de chamada de inicialização MAPI padrão, STDMAPIINITCALLTYPE, que faz com que o **XPPROVIDERINIT** siga a Convenção de chamada do cdecl. Uma vantagem do CDECL é que as chamadas podem ser tentadas mesmo se o número de parâmetros de chamada não corresponder ao número de parâmetros definidos. 
   
-Um provedor pode ser inicializado várias vezes como resultado que aparecem em vários perfis em uso simultâneo ou do que aparecem mais de uma vez no mesmo perfil. Porque o objeto de provedor contém contexto, **XPProviderInit** deve retornar um objeto de provedor diferente em _lppXPProvider_ para cada inicialização, mesmo para várias inicializações no mesmo processo. 
+Um provedor pode ser inicializado várias vezes como resultado de aparecer em vários perfis em uso simultâneo ou de ser exibido mais de uma vez no mesmo perfil. Como o objeto Provider contém contexto, **XPProviderInit** deve retornar um objeto Provider diferente no _lppXPProvider_ para cada inicialização, mesmo para várias inicializações no mesmo processo. 
   
-O provedor de transporte deve usar as funções apontadas pela _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ para a maioria dos alocação de memória e desalocação. Em particular, o provedor deve usar essas funções para alocar memória para uso por aplicativos do cliente, ao chamar interfaces de objeto, como [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md). Se o provedor de espera-se também usar o alocador de memória OLE, ele deve chamar o método **AddRef** do objeto alocador apontado pelo parâmetro _lpMalloc_ . 
+O provedor de transporte deve usar as funções apontadas por _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ para a maioria da alocação de memória e desalocação. Em particular, o provedor deve usar essas funções para alocar memória para uso por aplicativos cliente ao chamar interfaces de objeto, como [IMAPIProp::](imapiprop-getprops.md) GetProps e IMAPITable [:: QueryRows](imapitable-queryrows.md). Se o provedor também espera usar o alocador de memória OLE, ele deve chamar o método **IUnknown:: AddRef** do objeto de alocador apontado pelo parâmetro _lpMalloc_ . 
   
-Para obter mais informações sobre como escrever **XPProviderInit**, consulte [inicializar o provedor de transporte](initializing-the-transport-provider.md). Para obter mais informações sobre funções de ponto de entrada, consulte [Implementando uma função de ponto de entrada do serviço provedor](implementing-a-service-provider-entry-point-function.md). 
+Para obter mais informações sobre a gravação de **XPProviderInit**, consulte [inicializando o provedor de transporte](initializing-the-transport-provider.md). Para obter mais informações sobre funções de ponto de entrada, consulte [implementando uma função de ponto de entrada do provedor de serviços](implementing-a-service-provider-entry-point-function.md). 
   
 ## <a name="see-also"></a>Confira também
 

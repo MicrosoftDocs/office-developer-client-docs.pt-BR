@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 81b7b0c235f610e7aaa0c17ecd1760df5d382552
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 92067b5badfb2aab40f3b3735a164bc09321702c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322399"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
@@ -25,36 +25,36 @@ ms.locfileid: "22587968"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que o subsistema MAPI informar um provedor MAPI do desligamento rápido de um cliente MAPI, para que o provedor MAPI possa atender ao desligamento.
+Permite que o subsistema MAPI informe um provedor MAPI do desligamento rápido de um cliente MAPI, para que o provedor MAPI possa responder ao desligamento.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objetos do provedor: [IXPProvider](ixpprovideriunknown.md), [IABProvider](iabprovideriunknown.md)ou [IMSProvider](imsprovideriunknown.md) <br/> |
-|Implementada por:  <br/> |Provedor MAPI  <br/> |
-|Chamado pelo:  <br/> |Subsistema MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objetos do provedor: [IXPProvider](ixpprovideriunknown.md), [IABProvider](iabprovideriunknown.md)ou [IMSProvider](imsprovideriunknown.md) <br/> |
+|Implementado por:  <br/> |Provedor MAPI  <br/> |
+|Chamado por:  <br/> |Subsistema MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIProviderShutdown  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIPROVIDERSHUTDOWN  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Suporte a consultas o provedor MAPI para o desligamento rápido.  <br/> |
-|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indica o provedor MAPI que um cliente MAPI irá fazer um rápido desligamento, para que o provedor pode executar ações para evitar a perda de dados.  <br/> |
-|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indica o provedor MAPI que o cliente MAPI está deixando imediatamente, para que o provedor MAPI persistirá alterações para evitar a perda de dados.  <br/> |
+|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Consulta o provedor MAPI para obter suporte para desligamento rápido.  <br/> |
+|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indica ao provedor MAPI que um cliente MAPI fará um desligamento rápido, para que o provedor possa realizar ações para evitar a perda de dados.  <br/> |
+|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indica ao provedor MAPI que o cliente MAPI está saindo imediatamente, para que o provedor MAPI persista as alterações para evitar a perda de dados.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Desligamento rápido permite que um cliente MAPI sair seu processo de dentro de um curto período de tempo, espera-se após o cliente e carregado provedores MAPI tem salvado dados e configurações de MAPI. O cliente MAPI sempre inicia um desligamento rápido e deve consultar o subsistema MAPI para suporte de desligamento rápido dos provedores MAPI carregados. Um administrador pode definir o registro do Windows no nível do usuário para especificar o nível de suporte do provedor que é necessário para permitir que o desligamento rápido de todos os clientes MAPI. Para obter mais informações sobre as configurações do registro, consulte [Opções de usuário de desligamento Fast](fast-shutdown-user-options.md). No entanto, para o desligamento rápido ocorra com êxito sem perda de dados, provedores MAPI devem implementar a interface de **IMAPIProviderShutdown** . 
+O desligamento rápido permite que um cliente MAPI saia do processo dentro de um curto período de tempo, espero que o cliente e os provedores MAPI carregados tenham salvado as configurações e os dados MAPI. O cliente MAPI sempre inicia um desligamento rápido e deve consultar o subsistema MAPI para obter suporte de desligamento rápido dos provedores MAPI carregados. Um administrador pode definir o registro do Windows no nível do usuário para especificar o nível de suporte do provedor que é necessário para permitir o desligamento rápido de todos os clientes MAPI. Para obter mais informações sobre as configurações do registro, consulte [Opções do usuário](fast-shutdown-user-options.md)de desligamento rápido. No enTanto, para que o desligamento rápido ocorra com êxito sem perda de dados, os provedores MAPI devem implementar a interface **IMAPIProviderShutdown** . 
   
-Um provedor MAPI que precisa suportar desligamento rápido do cliente deve retornar S_OK no subsistema de MAPI no método **IMAPIProviderShutdown::QueryFastShutdown** . Quando o subsistema de MAPI subsequentemente chama os métodos **IMAPIProviderShutdown::NotifyProcessShutdown** e **IMAPIProviderShutdown::DoFastShutdown** , o provedor MAPI deve levar ações necessárias para salvar as configurações de MAPI e dados e Prepare para sair do cliente. 
+Um provedor MAPI que precisa dar suporte ao desligamento rápido do cliente deve retornar S_OK ao subsistema MAPI no método **IMAPIProviderShutdown:: QueryFastShutdown** . Quando o subsistema MAPI chama os métodos **IMAPIProviderShutdown:: NotifyProcessShutdown** e **IMAPIProviderShutdown::D ofastshutdown** , o provedor MAPI deve tomar as ações necessárias para salvar as configurações e os dados de MAPI e Prepare-se para a saída do cliente. 
   
-Provedores MAPI que não é necessário para suportar o desligamento rápido do cliente ainda devem implementar a interface **IMAPIProviderShutdown** e têm o método **IMAPIProviderShutdown::QueryFastShutdown** retornar MAPI_E_NO_SUPPORT. Para o Outlook como um cliente MAPI, isso faz com que o Outlook esperar por todas as referências externas ser liberada antes de sair. 
+Os provedores MAPI que não precisam dar suporte ao desligamento rápido do cliente ainda devem implementar a interface **IMAPIProviderShutdown** e fazer com que o método **IMAPIProviderShutdown:: QUERYFASTSHUTDOWN** retorne MAPI_E_NO_SUPPORT. Para o Outlook como um cliente MAPI, isso faz com que o Outlook espere que todas as referências externas sejam liberadas antes de sair. 
   
-Dependendo do registro do Windows do usuário configuração para fast desligamento, não Implementando a interface de **IMAPIProviderShutdown** não necessariamente impede que um desligamento rápido de cliente. 
+Dependendo da configuração do registro do Windows do usuário para desligamento rápido, não implementar a interface **IMAPIProviderShutdown** não necessariamente impede um desligamento rápido do cliente. 
   
-Para obter mais informações sobre o processo de desligamento rápido, consulte [Visão geral rápida de desligamento](fast-shutdown-overview.md). Para obter informações sobre como realizar o desligamento rápido com êxito, consulte [Best Practices for desligamento rápido](best-practices-for-fast-shutdown.md).
+Para obter mais informações sobre o processo de desligamento rápido, consulte [visão geral](fast-shutdown-overview.md)de desligamento rápido. Para obter informações sobre como executar o desligamento rápido com êxito, consulte [práticas recomendadas para](best-practices-for-fast-shutdown.md)o desligamento rápido.
   
 ## <a name="see-also"></a>Confira também
 

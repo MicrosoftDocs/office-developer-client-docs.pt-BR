@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d246fc0cfc60d0a2b9ff12ee70eae2366cf9b53a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2da3f6851e45a70dcd4604396a85430c539a830
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322390"
 ---
 # <a name="imapisecuremessagegetbasemessage"></a>IMAPISecureMessage::GetBaseMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594835"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera subjacente [IMessage: IMAPIProp](imessageimapiprop.md) que esta [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) é encapsular. 
+Recupera o [IMessage subjacente: IMAPIProp](imessageimapiprop.md) que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando. 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -37,13 +37,13 @@ HRESULT GetBaseMessage(
 
  _ppmsg_
   
-> [out] Um objeto de mensagem segura.
+> bota Um objeto Message seguro.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

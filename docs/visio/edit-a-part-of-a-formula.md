@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
 description: ''
-ms.openlocfilehash: c382edb21e8c8e4f6561f6e34a8fe28c3907af61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 213436da43ef66bc85b0caf6bef20fb9972edc19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327353"
 ---
 # <a name="edit-a-part-of-a-formula"></a>Editar uma parte de uma fórmula
 
@@ -22,7 +22,7 @@ ms.locfileid: "19771784"
     
 2. Na célula ou na barra de fórmula, edite a fórmula usando as técnicas da tabela a seguir.
     
-|**To**|**Faça isso**|
+|**To**|**Faça isto**|
 |:-----|:-----|
 | Inserir o ponto de inserção  <br/> | Clique onde deseja que o ponto de inserção seja exibido.  <br/> |
 | Mover o ponto de inserção  <br/> | Pressione a tecla de seta à esquerda ou à direita.  <br/> |
@@ -35,6 +35,6 @@ ms.locfileid: "19771784"
 | Selecionar até o final  <br/> | Pressione SHIFT+END.  <br/> |
 | Selecionar até o começo  <br/> | Pressione SHIFT+HOME.  <br/> |
 | Substituir o texto selecionado  <br/> | Digite o novo texto.  <br/> |
-| Excluir o texto selecionado  <br/> | Pressione DELETE. Ou, na guia **página inicial** , clique em **Recortar**.  <br/> |
+| Excluir o texto selecionado  <br/> | Pressione DELETE. Ou na guia **página inicial** , clique **** em Recortar.  <br/> |
    
 

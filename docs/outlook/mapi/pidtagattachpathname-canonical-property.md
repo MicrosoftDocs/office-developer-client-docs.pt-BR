@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 05df7fe04f511de9310edc7a8ef09130e6354ad2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327227"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Propriedade canônica PidTagAttachPathname
 
@@ -25,7 +25,7 @@ ms.locfileid: "25389166"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o caminho totalmente qualificado e o nome de um anexo.
+Contém o caminho e o nome de arquivo totalmente qualificados de um anexo.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém o caminho totalmente qualificado e o nome de um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que o anexo subobjetos exponham essas propriedades. Defini-las indica que os dados do anexo não estão incluídos com a mensagem, mas estão disponíveis em um servidor de arquivos comuns. Estas propriedades são necessárias em conjunto com qualquer um dos sinalizadores **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam o anexo pela referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY_REF_ SOMENTE**. 
+É recomendável que os subobjetos de anexo exponham essas propriedades. Configurá-los indica que os dados de anexo não estão incluídos na mensagem, mas estão disponíveis em um servidor de arquivos comum. Essas propriedades são necessárias em conjunto com qualquer um dos sinalizadores **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam o anexo por referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY_REF_ SOMENTE**. 
   
-Cada diretório ou o nome de arquivo é restrito a um nome de oito caracteres mais uma extensão de três caracteres. O caminho geral é restrito aos 256 caracteres. Para uma plataforma que ofereça suporte a nomes extensos de arquivos, defina essas propriedades e o **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Cada diretório ou nome de arquivo é restrito a um nome de oito caracteres mais uma extensão de três caracteres. O caminho geral é restrito a 256 caracteres. Para uma plataforma que suporte nomes de filelong, defina essas propriedades e **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
-Aplicativos cliente devem usar uma convenção de nomenclatura universal (UNC) na maioria dos casos, quando o arquivo é compartilhado e deve usar um caminho absoluto quando o arquivo for local.
+Os aplicativos cliente devem usar uma Convenção de nomenclatura universal (UNC) na maioria dos casos em que o arquivo é compartilhado e deve usar um caminho absoluto quando o arquivo é local.
   
-MAPI funciona somente com caminhos e nomes de arquivo ANSI do conjunto de caracteres. Clientes que usam os caminhos e nomes de arquivo em um conjunto de caracteres OEM deverá convertê-los para ANSI antes de chamar MAPI. 
+O MAPI funciona somente com caminhos e nomes de fileset no conjunto de caracteres ANSI. Os clientes que usam caminhos e nomes de nome em um conjunto de caracteres OEM devem convertê-los para ANSI antes de chamar MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades das mensagens codificadas direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

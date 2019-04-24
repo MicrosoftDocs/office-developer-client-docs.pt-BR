@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: Obtém o nome de um perfil de conta.
 ms.openlocfilehash: d725f309a29b026395e2795a49d31b45a4a49562
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322103"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 

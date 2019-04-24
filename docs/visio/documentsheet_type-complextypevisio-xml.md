@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 57af2ed5-7d89-9538-e51b-0bc70f067b40
 ms.openlocfilehash: a1f51ef6f0340b4430860eabde3ad778e923fed0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326135"
 ---
 # <a name="documentsheettype-complextype-visio-xml"></a>DocumentSheet_Type complexType ('Visio XML')
 
@@ -65,7 +65,7 @@ Nenhum.
 |:-----|:-----|:-----|:-----|:-----|
 |IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
 |IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
-|Nome  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|Name  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
 |UniqueID  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
    

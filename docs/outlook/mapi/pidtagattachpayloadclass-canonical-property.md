@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc4de217-8241-45e7-9e97-8f0c1b16691a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6a84e51325fcb60c54c2f6b42af0c26a0efd3382
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327234"
 ---
 # <a name="pidtagattachpayloadclass-canonical-property"></a>Propriedade canônica PidTagAttachPayloadClass
 
@@ -25,7 +25,7 @@ ms.locfileid: "25396614"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor de um campo de cabeçalho X-carga-classe de MIME.
+Contém o valor de um campo de cabeçalho MIME X-Payload-Class.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém o valor de um campo de cabeçalho X-carga-classe de MIME.
    
 ## <a name="remarks"></a>Comentários
 
-Para definir o valor dessas propriedades, os clientes MIME devem gravar um campo de cabeçalho X-carga de classe uma entidade MIME que vai ser analisada como um anexo.
+Para definir o valor dessas propriedades, os clientes MIME devem gravar um campo de cabeçalho X-Payload-Class em uma entidade MIME que será analisada como um anexo.
   
-Leitores MIME devem copiar esse valor de campo de cabeçalho com o valor da propriedade correspondente. Leitores MIME devem ignorar este campo de cabeçalho quando ele aparecer em uma entidade MIME é analisada como uma mensagem ou o corpo da mensagem, e não como um anexo.
+Leitores MIME devem copiar esse valor de campo de cabeçalho para o valor da propriedade correspondente. Leitores MIME devem ignorar esse campo de cabeçalho quando ele aparecer em uma entidade MIME que é analisada como um corpo de mensagem ou mensagem, em vez de um anexo.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

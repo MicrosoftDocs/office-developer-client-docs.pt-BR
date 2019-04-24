@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 6b57ed45e067ce2debd40e033d386ad2b5ae895a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2280ae9271ca73af33f395bf9e41a9ee8fa62f96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327521"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
@@ -21,7 +21,7 @@ ms.locfileid: "22568515"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica os status de acompanhamento diferentes para uma mensagem.
+Especifica os diferentes status de acompanhamento de uma mensagem.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -34,7 +34,7 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _flwupNone_
   
@@ -42,19 +42,19 @@ enum FollowUpStatus {
     
  _flwupComplete_
   
-> A mensagem foi concluída.
+> A mensagem está concluída.
     
  _flwupMarked_
   
-> A mensagem é marcada para acompanhamento.
+> A mensagem está marcada para acompanhamento.
     
  _flwupMAX_
   
-> O número de status diferentes com suporte para acompanhamento.
+> O número de status diferentes suportados para acompanhamento.
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Propriedade canônico de PidTagFlagStatus](pidtagflagstatus-canonical-property.md)
+[Propriedade canônica PidTagFlagStatus](pidtagflagstatus-canonical-property.md)
 

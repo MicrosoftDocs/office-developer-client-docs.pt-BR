@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327276"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Propriedade canônica PidTagAttachMimeSequence
 
@@ -25,30 +25,30 @@ ms.locfileid: "22587716"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o número de sequência MIME de anexo de uma mensagem MIME.
+Contém o número de sequência MIME de um anexo de mensagem MIME.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
 |Identificador:  <br/> |0x3710  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Propriedades de anexo da mensagem  <br/> |
+|Área:  <br/> |Propriedades de anexo de mensagem  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para suporte MHTML. Representa o número de sequência do anexo dentro do pai parte de várias partes do corpo MIME da mensagem MIME.
+Essa propriedade é usada para suporte a MHTML. Ele representa o número de sequência do anexo dentro da parte do corpo de várias partes MIME pai da mensagem MIME.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

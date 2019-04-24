@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f
 description: Recupera ou define a ID de entrada do catálogo de endereços da conta.
 ms.openlocfilehash: 2352f64b46e9884e95b7bf1f3693321f7cd224ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326429"
 ---
 # <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 

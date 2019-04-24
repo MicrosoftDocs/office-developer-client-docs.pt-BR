@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d2b66a8e-2e28-4c32-af95-38d345c7bbd7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: faa061ae323dd744d12e4f9abec713c71379feba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ff93ed9353d58ef6b68823bebf8b5b27a0df6e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322418"
 ---
 # <a name="imapiprovidershutdowndofastshutdown"></a>IMAPIProviderShutdown::DoFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563468"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o provedor MAPI que o cliente MAPI está deixando imediatamente, para que o provedor MAPI persistirá alterações para evitar a perda de dados.
+Indica ao provedor MAPI que o cliente MAPI está saindo imediatamente, para que o provedor MAPI persista as alterações para evitar a perda de dados.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,7 +35,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> O provedor MAPI está pronto para o cliente MAPI sair imediatamente. 
+> O provedor MAPI está pronto para que o cliente MAPI saia imediatamente. 
     
 ## <a name="see-also"></a>Confira também
 

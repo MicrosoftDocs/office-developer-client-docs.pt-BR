@@ -1,5 +1,5 @@
 ---
-title: FillGradient_Type complexType ('Visio XML')
+title: FillGradient_Type complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
 ms.openlocfilehash: 6ae61b730a59c5f8e6acae3b7a4c5cb8e0298f91
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322467"
 ---
-# <a name="fillgradienttype-complextype-visio-xml"></a>FillGradient_Type complexType ('Visio XML')
+# <a name="fillgradienttype-complextype-visio-xml"></a>FillGradient_Type complexType (' Visio XML ')
 
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Extensão de base** <br/> |Section_Type  <br/> |
+|**Base da extensão** <br/> |Section_Type  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -44,7 +44,7 @@ ms.locfileid: "25388739"
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 

@@ -1,24 +1,24 @@
 ---
-title: Função de idioma
+title: Função LANGUAGE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
-description: Permite que operações de comparação entre as representações de idioma diferente. Melhor, ele é usado para conversão de valores de marcas (47 BCP) de idiomas do Internet Engineering Task Force para valores de id (LCID) da localidade.
-ms.openlocfilehash: 6a05a850f5908ac5a4f6a4a72b2ce56b4c98f137
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Permite operações de comparação entre diferentes representações de idioma. Ele é melhor usado para converter os valores de marcas de idioma (BCP 47) de engenharia da Internet para valores de ID de localidade (LCID).
+ms.openlocfilehash: 9c2dc96cefe7a1cfcd06947dcc54453dcef276fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327815"
 ---
-# <a name="language-function"></a>Função de idioma
+# <a name="language-function"></a>Função LANGUAGE
 
-Permite que operações de comparação entre as representações de idioma diferente. Melhor, ele é usado para conversão de valores de marcas (47 BCP) de idiomas do Internet Engineering Task Force para valores de id (LCID) da localidade.
+Permite operações de comparação entre diferentes representações de idioma. Ele é melhor usado para converter os valores de marcas de idioma (BCP 47) de engenharia da Internet para valores de ID de localidade (LCID).
   
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Informações sobre a versão
 
 Version Added: Visio 2013
  
@@ -29,11 +29,11 @@ Version Added: Visio 2013
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _lcid_or_bcp47_ <br/> |Obrigatório  <br/> |**String** <br/> |O valor para o idioma LCID ou 47 BCP.  <br/> |
+| _lcid_or_bcp47_ <br/> |Obrigatório  <br/> |**String** <br/> |O valor LCID ou BCP 47 para o idioma.  <br/> |
    
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 Inteiro
   
@@ -41,10 +41,10 @@ Inteiro
 
  `LANGUAGE("en-us")`
   
-Retorna um valor de '1033'.
+Retorna um valor de ' 1033 '.
   
  `LANGUAGE("es-es")`
   
-Retorna um valor de '3082'.
+Retorna um valor de ' 3082 '.
   
 

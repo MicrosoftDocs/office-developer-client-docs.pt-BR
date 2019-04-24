@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: Determina se o texto conterá uma linha acima dele.
-ms.openlocfilehash: 3ceb0f5bcb6f66098938e49ea5f176921d0c9808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327045"
 ---
 # <a name="overline-cell-character-section"></a>Célula Overline (Seção Character)
 
@@ -22,8 +22,8 @@ Determina se o texto conterá uma linha acima dele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O texto contém uma linha acima dele.  <br/> |
-|FALSO  <br/> |O texto não contém uma linha acima dele.  <br/> |
+|TRUE  <br/> |O texto contém uma linha acima dele.  <br/> |
+|FALSE  <br/> |O texto não contém uma linha acima dele.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula Overline pelo nome a partir de outra f
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.Overline [ *i* ] onde *i* = < 1 >, 2. 3...  <br/> |
+|Nome da célula:  <br/> |Char. sobreposta [ *i* ] onde *i* = <1>, 2. 3...  <br/> |
    
 Para obter uma referência para a célula Overline pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

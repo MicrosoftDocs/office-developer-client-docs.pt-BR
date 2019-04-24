@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 11007fa18a57e296472c28f86480cb71b780e568
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ca3c5e7a0d1b4a6ac09dcfcc7db10ec76ecb224
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325778"
 ---
 # <a name="working-with-large-columns"></a>Trabalhar com colunas grandes
 
@@ -21,11 +21,11 @@ ms.locfileid: "22593029"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Colunas com dados de propriedade de cadeia de caracteres ou binário podem ser grandes, possivelmente muitos milhares de bytes de comprimento. Porque geralmente é impraticável incluindo uma ou mais colunas com centenas de bytes em um modo de exibição, MAPI permite implementadores de tabela truncar o valor com mais frequência para 255 bytes e com menos frequência 510 bytes. Sempre que possível, implementadores de tabela devem incluir o valor completo de uma propriedade em uma coluna de tabela. A alternativa recomendada é incluir apenas os primeiros 255 bytes.
+Colunas com dados de propriedades binárias ou cadeias de caracteres podem ser grandes, possivelmente muitos milhares de bytes de comprimento. Como a inclusão de uma ou mais colunas com centenas de bytes em um modo de exibição é geralmente impraticável, a MAPI permite que os implementadores de tabela truncar o valor, com mais frequência de 255 bytes e menos vezes para 510 bytes. Sempre que possível, os implementadores de tabela devem incluir o valor total de uma propriedade em uma coluna de tabela. A alternativa recomendada é incluir somente os primeiros 255 bytes.
   
-Os clientes não podem souber com antecedência se uma tabela que estejam usando trunca colunas grandes. Eles devem supõem que uma coluna representa uma propriedade truncada se o comprimento da coluna é 255 ou 510 bytes. Se necessário, os clientes podem diretamente recuperar o valor completo de uma coluna truncado do objeto chamando o método do objeto [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+Os clientes não podem saber com antecedência se uma tabela que está usando trunca colunas grandes. Eles devem assumir que uma coluna representa uma propriedade truncada se o comprimento da coluna for 255 ou 510 bytes. Se necessário, os clientes podem recuperar diretamente o valor completo de uma coluna truncada do objeto chamando o método [IMAPIProp::](imapiprop-getprops.md) GetProps do objeto. 
   
-Clientes criando restrições com propriedades de grandes devem estar cientes de que ele esteja o implementador tabela como para como essas restrições operar. Alguns implementadores de tabela permitem que as restrições que são compiladas com uma coluna truncada se baseie no tamanho truncado, enquanto outros baseá-lo em todo o valor. 
+Os clientes que têm restrições de criação com propriedades grandes devem estar cientes de que ele está no implementador de tabelas e como essas restrições operam. Alguns implementadores de tabela permitem que as restrições criadas com uma coluna truncada sejam baseadas no tamanho truncado enquanto outras a baseiam em todo o valor. 
   
 ## <a name="see-also"></a>Confira também
 

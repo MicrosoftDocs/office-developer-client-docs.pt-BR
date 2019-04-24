@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6a3d0d79d190b318d36fd9be8a3ec39d6aa7ad29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 087d38face72e1e067350b1959b37313ebbd7c44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326289"
 ---
 # <a name="mviprop"></a>MVI_PROP
 
@@ -29,7 +29,7 @@ Define o MVI_FLAG para uma propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -38,17 +38,17 @@ MVI_PROP (tag)
 
 ## <a name="parameters"></a>Parâmetros
 
- _marca_
+ _identificador_
   
 > A marca de propriedade a ser modificada.
     
 ## <a name="remarks"></a>Comentários
 
-O MVI_FLAG combina a configuração da MV_FLAG, que identifica uma propriedade como valores múltiplos e MV_INSTANCE, solicitando que uma propriedade de valores múltiplos exibida em uma tabela em várias linhas. O tipo de propriedade da propriedade afetado é modificado, mas o identificador permanecerá inalterado. 
+O MVI_FLAG combina a configuração de MV_FLAG, identificando uma propriedade como de múltiplos valores e MV_INSTANCE, solicitando que uma propriedade de vários valores seja exibida em uma tabela em várias linhas. O tipo de propriedade da propriedade afetada é modificada, mas o identificador permanece inalterado. 
   
-Por exemplo, quando a macro MVI_PROP é aplicada a uma propriedade do tipo PT_FLOAT, seu tipo é alterado para PT_MV_FLOAT. Quando incluído em uma tabela, várias linhas são usadas para representar a propriedade que tem uma linha para cada valor. As propriedades das outras colunas são repetidas. 
+Por exemplo, quando a macro MVI_PROP é aplicada a uma propriedade do tipo PT_FLOAT, seu tipo é alterado para PT_MV_FLOAT. Quando incluída em uma tabela, várias linhas são usadas para representar a propriedade que tem uma linha para cada valor. As propriedades das outras colunas são repetidas. 
   
-Para obter mais informações sobre esses sinalizadores, consulte [Visão geral do tipo de propriedade de MAPI](mapi-property-type-overview.md) e [trabalhar com vários valores de colunas](working-with-multivalued-columns.md).
+Para obter mais informações sobre esses sinalizadores, consulte [MAPI Property Type Overview](mapi-property-type-overview.md) e [Working with multivalued Columns](working-with-multivalued-columns.md).
   
 ## <a name="see-also"></a>Confira também
 

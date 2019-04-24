@@ -10,13 +10,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 'Modificado pela última vez: 20 de setembro de 2017'
+description: 'Última modificação: 20 de setembro de 2017'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326940"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
@@ -35,25 +35,25 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 
 ## <a name="parameters"></a>Parâmetros
 
- _pmsg_
+ _pMsg_
   
-> [in] Ponteiro para a mensagem para converter. Consulte mapidefs.h para a definição de tipo de **LPMESSAGE**.
+> no Ponteiro para a mensagem a ser convertida. Consulte mapidefs. h para a definição de tipo de **lpMessage**.
     
- _pstm_
+ _pStm_
   
-> [out] Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para o fluxo de saída. 
+> bota Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para saída do Stream. 
     
  _ulFlags_
   
->  [in] Sinalizadores que indicam ações específicas para o conversor: 
+>  no Sinalizadores que indicam ações específicas para o conversor: 
     
 CCSF_8BITHEADERS
   
-> O conversor deve permitir que os cabeçalhos de 8 bits.
+> O conversor deve permitir cabeçalhos de 8 bits.
     
 CCSF_EMBEDDED_MESSAGE
   
-> Informações não enviados/enviadas é persistente no não enviadas X.
+> As informações enviadas/não enviadas são mantidas em X-não enviadas.
     
 CCSF_GLOBAL_MESSAGE
   
@@ -61,41 +61,41 @@ CCSF_GLOBAL_MESSAGE
     
 CCSF_INCLUDE_BCC
   
-> Os destinatários Cco da mensagem MAPI devem ser incluídos no fluxo de MIME.
+> Os destinatários Cco da mensagem MAPI devem ser incluídos no fluxo MIME.
     
 CCSF_NO_MSGID
   
-> Não inclua o campo de Id de mensagem em mensagens de saída.
+> Não inclua o campo Message-ID em mensagens de saída.
     
 CCSF_NOHEADERS
   
-> O conversor deve ignorar os cabeçalhos da mensagem externo.
+> O conversor deve ignorar os cabeçalhos da mensagem externa.
     
 CCSF_PLAIN_TEXT_ONLY
   
-> O conversor apenas deve enviar texto sem formatação.
+> O conversor deve apenas enviar texto sem formatação.
     
 CCSF_SMTP
   
-> O conversor está sendo passado como uma mensagem SMTP. Esse sinalizador sempre deve ser definido.
+> O conversor é passado uma mensagem SMTP. Esse sinalizador deve sempre ser definido.
     
 CCSF_USE_RTF
   
-> O conversor deve converter de HTML para o formato RTF na mensagem MIME.
+> O conversor deve converter HTML em formato RTF na mensagem MIME.
     
 CCSF_USE_TNEF
   
-> O conversor deve usar o formato TNEF Transport Neutral Encapsulation Format () na mensagem MIME.
+> O conversor deve usar o formato TNEF (Transport neutral Encapsulation Format) na mensagem MIME.
     
 ## <a name="return-values"></a>Valor de retorno
 
 E_INVALIDARG
   
-> Sinalizadores inválidos foram passados ou *pmsg* ou *pstm* é nulo. 
+> Sinalizadores inVálidos foram passados ou *pMsg* ou *pStm* é nulo. 
     
 ## <a name="remarks"></a>Comentários
 
-Suporte apenas para os tipos de mensagem padrão do Outlook.
+Com suporte apenas para tipos de mensagem padrão do Outlook.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -103,8 +103,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -126,9 +126,9 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
   
-[Propriedade canônico de PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
+[Propriedade canônica PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[Propriedade canônica PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Propriedade can�nico de PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
 [Constantes de MAPI](mapi-constants.md)

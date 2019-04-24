@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
-description: Define o valor da propriedade conta especificada.
-ms.openlocfilehash: 2bb8a323f5f3399b9eac1cfdf9ac18faddfdb259
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Define o valor da propriedade de conta especificada.
+ms.openlocfilehash: 94134cee7886177ab840a6caff7d70d65bf9d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322250"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
-Define o valor da propriedade conta especificada.
+Define o valor da propriedade de conta especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SetProp(  
@@ -33,25 +33,25 @@ HRESULT IOlkAccount::SetProp(
 
 _dwProp_
   
-> [in] A marca de propriedade da propriedade conta para definir.
+> no A marca de propriedade da propriedade Account a ser definida.
     
 _pVar_
   
-> [in] O valor da propriedade especificada.
+> no O valor da propriedade especificada.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada do método foi bem-sucedida.  <br/> |
-|E_INVALIDARG  <br/> |Uma marca de propriedade inválido foi especificada.  <br/> |
+|E_INVALIDARG  <br/> |Uma marca de propriedade inválida foi especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para salvar as alterações para o valor das propriedades de conta. 
+Use [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) para salvar alterações no valor das propriedades da conta. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md) 
 - [IOlkAccount::GetProp](iolkaccount-getprop.md)
 

@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm60072
 localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
-description: Especifica o percentual de ampliação da página de desenho na página impressa.
-ms.openlocfilehash: 1713e88f06dc93a2806e64cae3d7af20c9df1fc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica a porcentagem de ampliação da página de desenho na página da impressora.
+ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326709"
 ---
 # <a name="scalex-cell-print-properties-section"></a>Célula ScaleX (Seção Print Properties)
 
-Especifica o percentual de ampliação da página de desenho na página impressa.
+Especifica a porcentagem de ampliação da página de desenho na página da impressora.
   
 ## <a name="remarks"></a>Comentários
 
-Esse valor é usado somente quando o valor da célula OnPage for FALSE. As células ScaleX e ScaleY sempre têm o mesmo valor, que corresponde ao valor na configuração **Ajustar** da guia **Configurar impressão** , na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ). 
+Esse valor é usado somente quando a célula OnPage está definida como FALSO. As células ScaleX e ScaleY sempre têm o mesmo valor, que corresponde ao valor da configuração **ajustar para** , na guia **Configurar impressão** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ). 
   
 Para obter uma referência para a célula ScaleX pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

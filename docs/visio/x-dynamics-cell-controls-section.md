@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm1145
 localization_priority: Normal
 ms.assetid: 9757dfb4-6d37-0517-17fe-7593ff12bbfe
-description: Representa o x-coordenadas para o ponto de ancoragem de uma alça de controle em coordenadas locais.
-ms.openlocfilehash: 9dee2381c15ed2817df9f89ebc830cf31bf64c1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada x do ponto de ancoragem de uma alça de controle em coordenadas locais.
+ms.openlocfilehash: 7aef1fe779ae9b862e88eccf0112eb8696377858
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322299"
 ---
 # <a name="x-dynamics-cell-controls-section"></a>Célula X Dynamics (Seção Controls)
 
-Representa o *x* -coordenadas para o ponto de ancoragem de uma alça de controle em coordenadas locais. 
+Representa a coordenada *x* do ponto de ancoragem de uma alça de controle em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -28,7 +28,7 @@ Para fazer referência à célula X Dynamics pelo nome a partir de outra fórmul
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Controles.  *nome* . Controles de XDynwhere.  *nome* é o nome da linha controles.  <br/> |
+| Nome da célula:  <br/> | Menores.  *nome* . Controles XDynwhere.  *Name* é o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula X Dynamics pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

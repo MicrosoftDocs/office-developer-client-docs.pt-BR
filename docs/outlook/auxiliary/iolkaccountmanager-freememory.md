@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: Libera memória alocada pela interface IOlkAccountManager.
-ms.openlocfilehash: 85ba4d0d47eb5c879fa562e3147860533ef59f23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e680e1e26d6c9b12c2dd4a7d48df4dbeae14154
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322054"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 
@@ -20,7 +20,7 @@ Libera memória alocada pela interface [IOlkAccountManager](iolkaccountmanager.m
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT IOlkAccountManager::FreeMemory (  
@@ -30,17 +30,17 @@ HRESULT IOlkAccountManager::FreeMemory (
 
 ## <a name="parameters"></a>Parâmetros
 
-_VP_
+_PV_
   
-> [in] Um ponteiro para a memória para liberar.
+> no Um ponteiro para a memória a ser liberado.
     
 ## <a name="return-values"></a>Valores de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Use esse método para liberar memória alocada pelo [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
+Use este método para liberar a memória alocada por [IOlkAccountManager:: GetOrder](iolkaccountmanager-getorder.md).
   
 ## <a name="see-also"></a>Confira também
 

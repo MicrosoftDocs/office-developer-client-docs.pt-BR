@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 52003a4e-1b61-2965-5204-6601652dd15b
 description: Retorna o carimbo da conta que entregou a mensagem.
 ms.openlocfilehash: c5da45268cefbe09588fdcfcda32e4e7a4be9d5f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327724"
 ---
 # <a name="pidlidinternetaccountstamp"></a>PidLidInternetAccountStamp
 

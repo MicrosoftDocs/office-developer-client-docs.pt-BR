@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326240"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569509"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve as informações que se relacionam com a chegada de uma nova mensagem. 
+Descreve informações relacionadas à chegada de uma nova mensagem. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -53,7 +53,7 @@ typedef struct _NEWMAIL_NOTIFICATION
     
  **lpEntryID**
   
-> Ponteiro para o identificador de entrada da mensagem chegar recentemente.
+> Ponteiro para o identificador de entrada da mensagem recém-criada.
     
  **cbParentID**
   
@@ -61,43 +61,43 @@ typedef struct _NEWMAIL_NOTIFICATION
     
  **lpParentID**
   
-> Ponteiro para o identificador de entrada da pasta de recebimento da mensagem que acabou de chegar.
+> Ponteiro para o identificador de entrada da pasta de recebimento da mensagem recém-criada.
     
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para descrever o formato das propriedades de cadeia de caracteres incluído na mensagem. O seguinte sinalizador pode ser definido:
+> Bitmask dos sinalizadores usados para descrever o formato das propriedades de cadeia de caracteres incluídas na mensagem. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
     
  **lpszMessageClass**
   
-> Ponteiro para a classe de mensagem da mensagem chegar recentemente. 
+> Ponteiro para a classe de mensagem da mensagem que chegou recentemente. 
     
  **ulMessageFlags**
   
-> Bitmask dos sinalizadores que descreve o estado atual da mensagem chegar recentemente. O membro **ulMessageFlags** é uma cópia de propriedade de **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem.
+> Bitmask de sinalizadores que descreve o estado atual da mensagem que acabou de chegar. O membro **ulMessageFlags** é uma cópia da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **NEWMAIL_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **NEWMAIL_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como _fnevNewMail._
+A estrutura **NEWMAIL_NOTIFICATION** é um dos membros da União de estruturas incluído no membro **info** da estrutura de [notificação](notification.md) . Quando o membro **info** de uma estrutura de **notificação** contém uma estrutura **NEWMAIL_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como _fnevNewMail._
   
-MAPI usa a estrutura **NEWMAIL_NOTIFICATION** somente como um membro da estrutura de **notificação** , que mantém informações sobre um evento de notificação para o coletor de eventos advise. 
+MAPI usa a estrutura **NEWMAIL_NOTIFICATION** somente como membro da estrutura de **notificação** , que contém informações sobre um evento de notificação para o coletor de aviso. 
   
-Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
+|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
 

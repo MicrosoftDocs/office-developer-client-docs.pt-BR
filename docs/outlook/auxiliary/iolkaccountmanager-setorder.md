@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
-description: Modifica a ordenação da categoria especificada das contas.
-ms.openlocfilehash: fcb27404471c9b551320027b0ed6979926ad3d58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Modifica a ordenação da categoria especificada de contas.
+ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322040"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
-Modifica a ordenação da categoria especificada das contas.
+Modifica a ordenação da categoria especificada de contas.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT SetOrder(
@@ -35,7 +35,7 @@ HRESULT SetOrder(
 
 _pclsidCategory_
   
-> [in] A ID de classe de categoria para o qual definir a ordem. O valor deve ser uma das seguintes opções:
+> no A ID de classe de categoria para a qual definir a ordem. O valor deve ser uma das seguintes opções:
     
    - CLSID_OlkAddressBook
     
@@ -43,27 +43,27 @@ _pclsidCategory_
     
 _cAccts_
   
-> [in] O número de contas.
+> no O número de contas.
     
 _rgAccts_
   
-> [in] Uma matriz de IDs de conta. O tamanho da matriz é _cAccts_.
+> no Uma matriz de IDs de conta. O tamanho da matriz é _cAccts_.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_ACCT_WRONG_SORT_ORDER  <br/> |Nova ordem de classificação tem um número diferente de contas que a ordem de classificação antigo.  <br/> |
+|E_ACCT_WRONG_SORT_ORDER  <br/> |A nova ordem de classificação tem um número diferente de contas da ordem de classificação antiga.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais argumentos são inválidos.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O chamador aloca memória para o ponteiro de matriz _prgAccts_ , bem como para a matriz nos quais pontos _prgAccts_ . 
+O chamador aloca memória para o ponteiro de matriz _prgAccts_ , bem como para a matriz na qual _prgAccts_ aponta. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)  
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
 

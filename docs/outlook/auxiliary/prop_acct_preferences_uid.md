@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
 description: Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta.
 ms.openlocfilehash: 97f1a858c8f58e13b72b8d5f052b35359581b718
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327633"
 ---
 # <a name="propacctpreferencesuid"></a>PROP_ACCT_PREFERENCES_UID
 

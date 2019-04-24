@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 34f19e279c86e0c0856d242cf2aa13d744d46f13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325799"
 ---
 # <a name="working-with-multivalued-columns"></a>Trabalhar com colunas com vários valores
 
@@ -21,21 +21,21 @@ ms.locfileid: "22572939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma coluna de valores múltiplos contém os dados de uma propriedade de vários valores, que é uma propriedade que tem uma matriz de valores do tipo base, em vez de um único valor. Porque nenhuma das tabelas inclui vários valores de propriedades em seus conjuntos de coluna padrão, vários valores de propriedades são incluídas em uma tabela somente se solicitado pelo usuário da tabela. 
+Uma coluna com vários valores contém os dados de uma propriedade com vários valores, que é uma propriedade que tem uma matriz de valores do tipo base em vez de um único valor. Como nenhuma das tabelas inclui propriedades com vários valores em seus conjuntos de colunas padrão, as propriedades com vários valores serão incluídas em uma tabela somente se o usuário da tabela a solicitar. 
   
-Colunas de valores múltiplos podem ser exibidas nas tabelas:
+Colunas com vários valores podem ser exibidas em tabelas:
   
-- Em uma única linha, com todos os valores de propriedade que aparecem na instância única coluna. Este é o padrão.
+- Em uma única linha, com todos os valores de propriedade que aparecem na instância de coluna única. Este é o padrão.
     
-    - Ou -
+    - Ou
     
-- Em uma série de linhas, com uma linha para cada um dos valores de propriedade. Cada valor exclusivo aparece na coluna na sua própria linha com daí sendo conforme o número de linhas daí é valores na propriedade multivalorado. Cada linha tem um valor exclusivo para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), mas os mesmos valores para as outras colunas. Se uma linha contiver mais de uma coluna com vários valores, por exemplo, duas colunas com _M_ e _N_ valores respectivamente, em seguida, _M\*N_ instâncias da linha aparecem na tabela. 
+- Em uma série de linhas, com uma linha para cada valor de propriedade. Cada valor exclusivo é exibido na coluna em sua própria linha, com o mesmo número de linhas que há valores na propriedade multivalued. Cada linha tem um valor exclusivo para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), mas os mesmos valores para as outras colunas. Se uma linha contiver mais de uma coluna com vários valores, por exemplo, duas colunas com valores _M_ e _N_ respectivamente, _M\*N_ instâncias da linha aparecerão na tabela. 
     
-Um usuário de tabela solicita o tipo de fora do padrão de exibição chamando o método [IMAPITable::SetColumns](imapitable-setcolumns.md) com o sinalizador MVI_FLAG definido no tipo de propriedade da coluna de valores múltiplos. O sinalizador MVI_FLAG é uma constante definida como resultado de combinar os sinalizadores MV_FLAG e MV_INSTANCE com uma operação **OR** lógica. Além do que está sendo usado em **SetColumns**, MVI_FLAG pode também ser passado para [IMAPITable:: SortTable](imapitable-sorttable.md) no parâmetro _lpSortCriteria_ and [IMAPITable:: Restrict](imapitable-restrict.md) no membro **ulPropTag** a _lpRestriction_ Use o parâmetro. Quando passado a MVI_FLAG, **SortTable** da mesma forma realiza a **SetColumns**, adicionando uma linha para cada valor na coluna multivalorada e classificação nos valores único nas instâncias. Uma linha é adicionada para cada valor. 
+Um usuário de tabela solicita o tipo de exibição não padrão chamando o método imApitable [::](imapitable-setcolumns.md) SetColumns com o sinalizador MVI_FLAG definido no tipo de propriedade da coluna de vários valores. O sinalizador MVI_FLAG é uma constante definida como resultado da combinação dos sinalizadores MV_FLAG e MV_INSTANCE com uma operação **ou** lógica. Além de ser usado em setColumns, MVI_FLAG também pode ser passado para imApitable [:: SortTable](imapitable-sorttable.md) no _parâmetro LpSortCriteria_ e [IMAPITable:](imapitable-restrict.md) : Restrict no membro **ulPropTag** do _lpRestriction_ **** Construtor. Quando passamos o MVI_FLAG **** , SortTable é executado de forma semelhante a SetColumns, adicionando uma linha para cada valor na coluna de vários valores e classificando os valores únicos nas instâncias. **** Uma linha é adicionada para cada valor. 
   
- **Restrict**, no entanto, não expandir a coluna de valores múltiplos em linhas computadas adicionais. Uma coluna de valores múltiplos com o conjunto de MVI_FLAG instrui o provedor de serviços para usar essa coluna na restringindo a tabela. Se houver um valor de propriedade na restrição, ele deve ser uma marca de propriedade de valor único idêntica ao que seria retornada pela [IMAPITable:: QueryRows](imapitable-queryrows.md) da coluna. 
+ No entanto, a **restrição**não expande a coluna de vários valores em linhas computadas adicionais. Uma coluna com vários valores com o conjunto MVI_FLAG instrui o provedor de serviços a usar essa coluna ao restringir a tabela. Se houver um valor de propriedade na restrição, ele deve ser uma marca de propriedade de valor único idêntica à que seria retornada por imApitable [:: QueryRows](imapitable-queryrows.md) para a coluna. 
   
-Implementadores de tabela apenas requeridos para suportar o tipo de padrão de exibição e podem retornar o valor MAPI_E_TOO_COMPLEX quando um chamador solicita a outra alternativa. A capacidade de suportar os dois tipos de exibição é mais importante para a implementação de tabelas de conteúdo de pasta de provedores de armazenamento de mensagem. 
+Os implementadores de tabela são necessários apenas para suportar o tipo de exibição padrão e podem retornar o valor MAPI_E_TOO_COMPLEX quando um chamador solicita a outra alternativa. A capacidade de suportar ambos os tipos de exibição é mais importante para os provedores de repositório de mensagens que estão implementando tabelas de conteúdo da pasta. 
   
 ## <a name="see-also"></a>Confira também
 

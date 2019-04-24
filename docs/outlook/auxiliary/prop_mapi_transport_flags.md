@@ -6,37 +6,37 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
-description: Representa as configurações de transporte que o Outlook usa para determinar as tarefas necessárias de sincronização e desabilitar os elementos de interface (UI) do usuário que a conta não oferece suporte.
-ms.openlocfilehash: 95b61ea994557be76303f8b9b0541353b6ed13f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa as configurações de transporte que o Outlook usa para determinar as tarefas de sincronização necessárias e para desabilitar os elementos da interface do usuário que a conta não suporta.
+ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326478"
 ---
 # <a name="propmapitransportflags"></a>PROP_MAPI_TRANSPORT_FLAGS
 
-Representa as configurações de transporte que o Outlook usa para determinar as tarefas necessárias de sincronização e desabilitar os elementos de interface (UI) do usuário que a conta não oferece suporte.
+Representa as configurações de transporte que o Outlook usa para determinar as tarefas de sincronização necessárias e para desabilitar os elementos da interface do usuário que a conta não suporta.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x2010  <br/> |
 |Tipo de propriedade:  <br/> |PT_BINARY  <br/> |
 |Marca de propriedade:  <br/> |0x20100102  <br/> |
-|Access:  <br/> |Leitura/gravação  <br/> |
+|Acesso:  <br/> |Leitura/gravação  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
+Obter ou definir essa propriedade usando [IOlkAccount:: GetProp](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
   
-Retorna **MAPIACCT_SEND_ONLY** se a conta só pode enviar mensagens, mas não pode receber mensagens. Nesse caso, Outlook desabilita a interface do usuário que não se aplica a esse tipo de contas (por exemplo, a interface do usuário para **Envio/recebimento**).
+Retorna **MAPIACCT_SEND_ONLY** se a conta só puder enviar mensagens, mas não puder receber mensagens. Nesse caso, o Outlook desabilita a IU que não se aplica a esse tipo de conta (por exemplo, a interface do usuário para **Enviar/receber**).
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md)  
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

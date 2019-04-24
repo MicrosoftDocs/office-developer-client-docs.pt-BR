@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7190065c687524302bae362a2e25d3848e17d1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327269"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -25,13 +25,13 @@ ms.locfileid: "22570433"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Procura uma marca de propriedade fornecida em uma interface de [IMAPIProp](imapipropiunknown.md) ou um derivado do **IMAPIProp**, como [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Procura uma determinada marca de propriedade em uma interface do [IMAPIProp](imapipropiunknown.md) ou uma interface derivada de **IMAPIProp**, como [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 BOOL FPropExists(
@@ -44,24 +44,24 @@ BOOL FPropExists(
 
  _pobj_
   
-> [in] Ponteiro para a interface **IMAPIProp** ou derivados **IMAPIProp** dentro do qual procurar a marca de propriedade. 
+> no Ponteiro para a interface **IMAPIProp** ou a interface derivada de **IMAPIProp** dentro da qual procurar a marca da propriedade. 
     
  _ulPropTag_
   
-> [in] Marca de propriedade a ser procurado.
+> no Marca de propriedade para a qual Pesquisar.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Foi encontrada uma correspondência para a marca de propriedade fornecida. 
+> Uma correspondência para a marca de propriedade fornecida foi encontrada. 
     
-FALSO 
+FALSE 
   
-> Não foi encontrada uma correspondência para a marca de propriedade fornecida.
+> Uma correspondência para a marca de propriedade fornecida não foi encontrada.
     
 ## <a name="remarks"></a>Comentários
 
-Se a marca de propriedade no parâmetro _ulPropTag_ tiver tipo PT_UNSPECIFIED, a função **FPropExists** procura por uma correspondência com base apenas no identificador de propriedade. Caso contrário, a correspondência diferencia para a marca de propriedade inteira, incluindo o tipo. 
+Se a marca de propriedade no parâmetro _ulPropTag_ tiver o tipo PT_UNSPECIFIED, a função **FPropExists** procurará uma correspondência com base apenas no identificador de propriedade. Caso contrário, a correspondência é para a marca de propriedade inteira, incluindo o tipo. 
   
 

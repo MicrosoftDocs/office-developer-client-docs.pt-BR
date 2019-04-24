@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 70b00dd9-78d6-eb0f-b5c1-686eb397cf4b
 description: Contém informações de identificação sobre cada revisor de documento.
-ms.openlocfilehash: 9a31df37670ddf3d263f3d9b03289b938fed7a25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4bed2efa738dba1ccb4a7649f1762d7dedbd6e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326835"
 ---
 # <a name="reviewer-section"></a>Seção Reviewer
 

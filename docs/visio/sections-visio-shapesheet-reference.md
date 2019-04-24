@@ -1,19 +1,19 @@
 ---
-title: Seções (referência de ShapeSheet do Visio)
+title: Seções (referência da ShapeSheet do Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
-ms.openlocfilehash: f08441035eee81c8e5b4059626759c68e74f9d70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326030"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>Seções (referência de ShapeSheet do Visio)
+# <a name="sections-visio-shapesheet-reference"></a>Seções (referência da ShapeSheet do Visio)
 
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -31,9 +31,9 @@ ms.locfileid: "19772849"
     
 - [Seção Annotation](annotation-section.md)
     
-- [Seção Bevel Properties](bevel-properties-section.md)
+- [Seção de propriedades de bisel](bevel-properties-section.md)
     
-- [Seção Change Shape Behavior](change-shape-behavior-section.md)
+- [Seção alterar comportamento da forma](change-shape-behavior-section.md)
     
 - [Seção Character](character-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "19772849"
     
 - [Seção Glue Info](glue-info-section.md)
     
-- [Seção Gradient Properties](gradient-properties-section.md)
+- [Seção Propriedades de gradiente](gradient-properties-section.md)
     
 - [Seção Group Properties](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "19772849"
     
 - [Seção Line Format](line-format-section.md)
     
-- [Seção Line Gradient](line-gradient-section.md)
+- [Seção line Gradient](line-gradient-section.md)
     
 - [Seção Miscellaneous](miscellaneous-section.md)
     
@@ -83,11 +83,11 @@ ms.locfileid: "19772849"
     
 - [Seção Protection](protection-section.md)
     
-- [Seção Quick Style](quick-style-section.md)
+- [Seção Style rápido](quick-style-section.md)
     
 - [Seção Reviewer](reviewer-section.md)
     
-- [Régua &amp; seção grade](rulergrid-section.md)
+- [Seção &amp; Ruler Grid](rulergrid-section.md)
     
 - [Seção Scratch](scratch-section.md)
     

@@ -1,5 +1,5 @@
 ---
-title: Texto formatado Gateway responsabilidades de suporte
+title: Suporte a responsabilidades de gateway de texto formatado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d369093589ffad03bf087b02905c443cf6f46c34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d5c3480018be399a85ee0bfda7ce1ff9b701cecc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327416"
 ---
 # <a name="supporting-formatted-text-gateway-responsibilities"></a>Suporte a texto formatado: responsabilidades do gateway
 
@@ -21,32 +21,32 @@ ms.locfileid: "22564266"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Lidar com formato Rich Text para mensagens de saída, gateways**
+ **Para lidar com o formato Rich Text para mensagens de saída, gateways**
   
-1. Recupere somente as propriedades da mensagem **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) a partir do armazenamento de mensagem. A principal vantagem em recuperar apenas a propriedade **PR_RTF_COMPRESSED** é que o texto da mensagem não precisa ser enviadas entre máquinas se o gateway e o armazenamento de mensagens existirem em máquinas diferentes. 
+1. Recupere somente a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) de uma mensagem do repositório de mensagens. A principal vantagem em recuperar apenas a propriedade **PR_RTF_COMPRESSED** é que o texto da mensagem não precisará ser enviado entre as máquinas se o gateway e o repositório de mensagens existirem em máquinas diferentes. 
     
-2. Gerar o texto da mensagem de texto formatado ou chamando-se a função de biblioteca RTF **HrTextFromCompressedRTFStream** ou, se a mensagem é armazenada localmente, **RTFSync**. O sinalizador RTF_SYNC_RTF_CHANGED deve ser definido na chamada a **RTFSync**. Para obter mais informações, consulte [RTFSync](rtfsync.md).
+2. Gere o texto da mensagem do texto formatado chamando a função de biblioteca RTF **HrTextFromCompressedRTFStream** ou, se a mensagem for armazenada localmente, **RTFSync**. O sinalizador RTF_SYNC_RTF_CHANGED deve ser definido na chamada a **RTFSync**. Para obter mais informações, consulte [RTFSync](rtfsync.md).
     
-3. Fazer quaisquer modificações irreversíveis o texto da mensagem, como o descarte de caracteres não suportados. 
+3. Faça quaisquer modificações irreversível no texto da mensagem, como descartar os caracteres sem suporte. 
     
-4. Certifique-se de que **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) e todas as propriedades de auxilliary RTF são definidos ou ausente.
+4. Certifique-se de que o **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) e todas as propriedades RTF auxilliary estão definidas ou ausentes.
     
-5. Se quaisquer modificações foram feitas, chame **RTFSync** com o conjunto de sinalizadores de RTF_SYNC_RTF_CHANGED e RTF_SYNC_BODY_CHANGED. **RTFSync** recalcule as propriedades de auxilliary RTF do texto modificado. 
+5. Se alguma modificação tiver sido feita, chame **RTFSync** com os sinalizadores RTF_SYNC_RTF_CHANGED e RTF_SYNC_BODY_CHANGED definidos. **RTFSync** recalculará as propriedades auxilliary rtf do texto modificado. 
     
-6. Fazer quaisquer modificações reversable o texto da mensagem, como a inserção de espaços reservados de anexo e executar conversões de página de código não destrutiva.
+6. Faça quaisquer modificações revertidas no texto da mensagem, como inserir espaços reservados de anexo e executar conversões de página de código não destrutivas.
     
 7. Envie a mensagem.
     
- **Lidar com formato Rich Text para mensagens de entrada, gateways**
+ **Para lidar com o formato Rich Text para mensagens de entrada, gateways**
   
-1. Reverte quaisquer modificações de texto de mensagem que foram feitas diretamente antes que a mensagem foi enviada. 
+1. Reverte quaisquer modificações de texto de mensagem feitas diretamente antes da mensagem ser enviada. 
     
-2. Se a mensagem contém propriedades de **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) e o **PR_RTF_COMPRESSED** , chame **RTFSync** . 
+2. Chame **RTFSync** se a mensagem contiver as propriedades **PR_RTF_COMPRESSED** e **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). 
     
-3. Atualize a mensagem no repositório de mensagem com a propriedade **PR_RTF_COMPRESSED** se a mensagem contivê-lo; Atualizar com a propriedade **PR_BODY** somente se **PR_RTF_COMPRESSED** não estiver presente. 
+3. Atualize a mensagem no repositório de mensagens com a propriedade **PR_RTF_COMPRESSED** se a mensagem contiver; atualização com a propriedade **PR_BODY** somente se **PR_RTF_COMPRESSED** estiver ausente. 
     
-4. Descarte **PR_BODY** se a mensagem contiver essa propriedade e a **PR_RTF_COMPRESSED**.
+4. DesCartar **PR_BODY** se a mensagem contiver essa propriedade e **PR_RTF_COMPRESSED**.
     
-Gateways chame **RTFSync** para evitar a transmissão de texto da mensagem e o texto formatado se o armazenamento de mensagens estiver em uma máquina diferente. Se o gateway for local, ele pode definir ambas as propriedades e permitir o armazenamento de mensagens realizar essa sincronização. 
+Os gateways chamam **RTFSync** para evitar a transmissão do texto da mensagem e o texto formatado se o repositório de mensagens estiver em um computador diferente. Se o gateway for local, ele poderá definir ambas as propriedades e permitir que o repositório de mensagens realize a sincronização. 
   
 

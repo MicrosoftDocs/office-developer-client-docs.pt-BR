@@ -7,34 +7,34 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
 description: Retorna o accountsendstamp.
-ms.openlocfilehash: 948855f32ecd83334e2ab2af0926fedb0e6d7f84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d860a117e4ab5470f84ff1807cb6246cd852d24b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327605"
 ---
 # <a name="propacctsendstamp"></a>PROP_ACCT_SEND_STAMP
 
-Retorna o carimbo de conta "Enviar".
+Retorna o carimbo "enviar" da conta.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x000E  <br/> |
 |Tipo de propriedade:  <br/> |PT_UNICODE  <br/> |
 |Marca de propriedade:  <br/> |0x000E001F  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Obtenha essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md). Se o cliente tentar definir essa propriedade, essa propriedade retornará **E_OLK_PROP_READ_ONLY**. 
+Use essa propriedade por meio [IOlkAccount::GetProp](iolkaccount-getprop.md). Se o cliente tentar definir essa propriedade, essa propriedade retornará **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md)  
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

@@ -1,31 +1,31 @@
 ---
-title: Elemento PublishedPage (PublishSettings_Type complexType) ('Visio XML')
+title: Elemento PublishedPage (PublishSettings_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
-description: Especifica se uma página de desenho é exibida no navegador usando os serviços do Visio no Microsoft SharePoint Server 2013.
+description: Especifica se uma página de desenho é visível no navegador usando os serviços do Visio no Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326793"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Elemento PublishedPage (PublishSettings_Type complexType) ('Visio XML')
+# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Elemento PublishedPage (PublishSettings_Type complexType) (' Visio XML ')
 
-Especifica se uma página de desenho é exibida no navegador usando os serviços do Visio no Microsoft SharePoint Server 2013.
+Especifica se uma página de desenho é visível no navegador usando os serviços do Visio no Microsoft SharePoint Server 2013.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Especifica se uma página de desenho é exibida no navegador usando os serviços
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,8 +50,8 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |O identificador de uma página de desenho.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O identificador de uma página de desenho.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

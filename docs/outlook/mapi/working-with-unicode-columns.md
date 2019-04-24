@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ffeee38920bf1c864b93e6513913c140cb658d8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 76d1afb750dc81b889ca8e5eb3639145c061bfc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325568"
 ---
 # <a name="working-with-unicode-columns"></a>Trabalhar com colunas Unicode
 
@@ -21,9 +21,9 @@ ms.locfileid: "22595304"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cadeias de caracteres nas tabelas podem ser representadas usando caracteres padrão de 8 bits, que são o tipo de propriedade PT_STRING8, ou caracteres Unicode de 16 bits, que são do tipo de propriedade PT_UNICODE. Implementadores de tabela são livres para escolher se ou não suas tabelas suportam a cadeias de caracteres Unicode. Como Unicode adiciona o valor para clientes e provedores de serviços, estendendo o conjunto de recursos, recomenda-se o suporte a Unicode sempre que possível. 
+As cadeias de caracteres em tabelas podem ser representadas usando caracteres padrão de 8 bits, que são tipo de propriedade PT_STRING8 ou caracteres Unicode de 16 bits, que são do tipo de propriedade PT_UNICODE. Os implementadores de tabela são livres para escolher se as tabelas ou não oferecem suporte a cadeias de caracteres Unicode. Como o Unicode adiciona valor para os clientes e provedores de serviços, estendendo o conjunto de recursos, suporte a Unicode sempre que possível é recomendado. 
   
-Muitos métodos de tabela aceitam um sinalizador que determina se ou não os valores de propriedade de cadeia de caracteres esperados Unicode. Na entrada, especificar o sinalizador MAPI_UNICODE indica o implementador da tabela que todos os valores de propriedade de cadeia de caracteres passados com a chamada são cadeias de caracteres Unicode e tem tipos de propriedade de PT_UNICODE. Na saída, esse sinalizador indica que todos os valores de propriedade de cadeia de caracteres retornada devem ser cadeias de caracteres Unicode, se possível. Se o sinalizador tem um significado para entrada ou saída depende do método. Implementadores de tabela que não oferecem suporte a Unicode e são passados o sinalizador MAPI_UNICODE retornam o valor MAPI_E_BAD_CHAR_WIDTH.
+Muitos métodos Table aceitam um sinalizador que determina se os valores de propriedade de cadeia de caracteres devem ou não ser Unicode. Na entrada, especificar o sinalizador MAPI_UNICODE indica ao implementador de tabelas que todos os valores de propriedade de cadeia de caracteres passados com a chamada são cadeias de caracteres Unicode e têm tipos de propriedade de PT_UNICODE. Na saída, esse sinalizador indica que todos os valores de propriedade de cadeia de caracteres retornados devem ser cadeias de caracteres Unicode, se possível. Se o sinalizador tem um significado para entrada ou saída depende do método. Os implementadores de tabelas que não oferecem suporte a Unicode e são passados para o sinalizador MAPI_UNICODE retornam o valor MAPI_E_BAD_CHAR_WIDTH.
   
 ## <a name="see-also"></a>Confira também
 

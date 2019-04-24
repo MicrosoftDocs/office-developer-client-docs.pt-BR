@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327241"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Propriedade canônica PidTagAttachMimeTag
 
@@ -25,7 +25,7 @@ ms.locfileid: "25389096"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações de formatação sobre um anexo de email extensões MIME (Multipurpose Internet). 
+Contém informações de formatação sobre um anexo MIME (Multipurpose Internet Mail Extensions). 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém informações de formatação sobre um anexo de email extensões MIME (M
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiver o valor **OID_MIMETAG**, o provedor de transporte deve examinar essas propriedades para determinar como o anexo é formatado. 
+Se a propriedade **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiver o valor **OID_MIMETAG**, o provedor de transporte deverá examinar essas propriedades para determinar como o anexo será formatado. 
   
-Essas propriedades são copiadas no parâmetro tipo de conteúdo do cabeçalho da entrada de MIME. A composição da cadeia de caracteres é definida no documento RFC 1521. O formato é tipo/subtipo, como binário do aplicativo ou texto/simples. 
+Essas propriedades são copiadas do parâmetro Content-Type do cabeçalho MIME de entrada. A composição da cadeia de caracteres é definida no documento RFC 1521. O formato é Type/SubType, como Application/Binary ou text/plain. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades das mensagens codificadas direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

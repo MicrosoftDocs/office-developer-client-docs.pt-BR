@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae00fd0711b8fcae01db6a89da7607d79d8757c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7645208e6a0256957deb3a71ba3e04ad125a6b61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326891"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584356"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica um catálogo de endereços MAPI opcional que usa de MAPI conversor de MIME para resolver endereços ambíguos ao converter uma mensagem MAPI para um fluxo MIME.
+Especifica um catálogo de endereços MAPI opcional que o conversor MAPI para MIME usa para resolver endereços ambíguos ao converter uma mensagem MAPI em um fluxo MIME.
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
@@ -36,26 +36,26 @@ LPADRBOOK pab);
 
  _PAB_
   
-> [in] Ponteiro para uma [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) interface a ser usado na MAPI para conversão de MIME. Defina esse parâmetro como **null** quando não precisar mais o catálogo de endereços; Isso libera a interface e redefine o conversor para não usar qualquer catálogo de endereços. 
+> no Ponteiro para uma interface [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) a ser usada na conversão de MAPI para MIME. Defina esse parâmetro como **nulo** quando não precisar mais do catálogo de endereços; Isso libera a interface e redefine o conversor para não usar qualquer catálogo de endereços. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> A chamada de função é bem-sucedida.
+> A chamada de função foi bem-sucedida.
     
 ## <a name="remarks"></a>Comentários
 
-Convertendo um MAPI mensagem para o fluxo de MIME geralmente não exige o registro em log em um perfil MAPI. Entretanto, a especificação de um catálogo de endereços MAPI para conversão requer logon a um perfil para obter o catálogo de endereços.
+A conversão de uma mensagem MAPI em fluxo MIME geralmente não requer o logon em um perfil MAPI. No enTanto, a especificação de um catálogo de endereços MAPI para conversão exige logon em um perfil para obter o catálogo de endereços.
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

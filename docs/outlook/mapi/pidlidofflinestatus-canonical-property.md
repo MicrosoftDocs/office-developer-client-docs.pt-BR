@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326296"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propriedade canônica PidLidOfflineStatus
 
@@ -30,34 +30,34 @@ Determina o estado de um arquivo de documento em um servidor que implementa [MS-
 |||
 |:-----|:-----|
 |Propriedades associadas  <br/> |dispidOfflineStatus  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x000085B9  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x000085B9  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A tabela a seguir mostra os possíveis valores dessa propriedade.
+A tabela a seguir mostra os valores possíveis dessa propriedade.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Documento não está com check-out.  <br/> |
-|1  <br/> |Documento está com check-out para o usuário atual.  <br/> |
-|2  <br/> |Documento não está com check-out, mas o usuário atual tem uma cópia do arquivo salvo para edição no computador atual.  <br/> |
+|,0  <br/> |Não foi feito o check-out do documento.  <br/> |
+|1  <br/> |O documento está com check-out para o usuário atual.  <br/> |
+|duas  <br/> |Não foi feito o check-out do documento, mas o usuário atual tem uma cópia do arquivo salvo para edição no computador atual.  <br/> |
    
-Essa propriedade é calculada localmente e não é enviada para um servidor a qualquer momento, a menos que um usuário arrasta o item para outra conta. Nesse caso, ela será tratada como uma propriedade personalizada definida pelo usuário.
+Essa propriedade é calculada localmente e não é enviada a um servidor a qualquer momento, a menos que um usuário arraste o item para outra conta. Nesse caso, ele é tratado como uma propriedade personalizada definida pelo usuário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

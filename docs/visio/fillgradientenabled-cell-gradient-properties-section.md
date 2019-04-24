@@ -1,37 +1,37 @@
 ---
-title: Célula FillGradientEnabled (Seção Gradient Properties)
+title: Célula FillGradientEnabled (seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
-description: Determina se um gradiente do preenchimento está habilitado para esta forma.
-ms.openlocfilehash: 20a38d4c45af163bc00364a45dc31269bf97251f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina se um gradiente de preenchimento está habilitado para esta forma.
+ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322488"
 ---
-# <a name="fillgradientenabled-cell-gradient-properties-section"></a>Célula FillGradientEnabled (Seção Gradient Properties)
+# <a name="fillgradientenabled-cell-gradient-properties-section"></a>Célula FillGradientEnabled (seção Gradient Properties)
 
-Determina se um gradiente do preenchimento está habilitado para esta forma. 
+Determina se um gradiente de preenchimento está habilitado para esta forma. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Preenchimento de gradiente é exibido na forma.  <br/> |
-|FALSO  <br/> |Preenchimentos de gradiente não são exibidos na forma.  <br/> |
+|TRUE  <br/> |O preenchimento gradual é exibido na forma.  <br/> |
+|FALSE  <br/> |Os preenchimentos de gradiente não são exibidos na forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula **FillGradientEnabled** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula **FillGradientEnabled** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | FillGradientEnabled  <br/> |
    
-Para obter uma referência à célula **FillGradientEnabled** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula **FillGradientEnabled** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

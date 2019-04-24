@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 99377d63b4b5cf8731809446b70770f0c24231ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326282"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592112"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o MAPI spooler de uma alteração no status ou uma solicitação de serviço. 
+Notifica o spooler MAPI sobre uma alteração no status ou uma solicitação de serviço. 
   
 ```cpp
 HRESULT SpoolerNotify(
@@ -38,7 +38,7 @@ LPVOID lpvData
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que indica o tipo de notificação. Provedores de transporte podem definir todos os sinalizadores, exceto NOTIFY_NEWMAIL_RECEIVED; apenas NOTIFY_NEWMAIL_RECEIVED e NOTIFY_READTOSEND são válidos para provedores de armazenamento de mensagem. Sinalizadores a seguir são válidos para o parâmetro _ulFlags_ : 
+> no Uma bitmask de sinalizadores que indica o tipo de notificação. Os provedores de transporte podem definir todos os sinalizadores, exceto NOTIFY_NEWMAIL_RECEIVED; somente NOTIFY_NEWMAIL_RECEIVED e NOTIFY_READTOSEND são válidos para provedores de repositórios de mensagens. Os seguintes sinalizadores são válidos para o parâmetro _parâmetroulflags_ : 
     
 NOTIFY_CONFIG_CHANGE 
   
@@ -46,43 +46,43 @@ NOTIFY_CONFIG_CHANGE
     
 NOTIFY_CRITICAL_ERROR 
   
-> Um erro irreparável ocorreu para o provedor de transporte. Como NOTIFY_SENTDEFERRED e o NOTIFY_CRITICAL_ERROR usam o parâmetro _lpvData_ para chamadas de provedor de transporte, esses sinalizadores são mutuamente exclusivos. 
+> Ocorreu um erro irrecuperável no provedor de transporte. Como NOTIFY_SENTDEFERRED e NOTIFY_CRITICAL_ERROR usam o parâmetro _lpvData_ para chamadas de provedor de transporte, esses sinalizadores são mutuamente exclusivos. 
     
 NOTIFY_CRITSEC 
   
-> Solicita uma seção crítica para o provedor de transporte. O parâmetro _lpvData_ é indefinido e deve ser nula. 
+> Solicita uma seção crítica para o provedor de transporte. O parâmetro _lpvData_ está indefinido e deve ser nulo. 
     
 NOTIFY_NEWMAIL 
   
-> O MAPI spooler deve baixar quaisquer mensagens recebidas recentemente no próximo horário disponível. O parâmetro _lpvData_ é indefinido e deve ser definido como NULL. 
+> O spooler MAPI deve baixar mensagens recebidas recentemente no próximo horário disponível. O parâmetro _lpvData_ está indefinido e deve ser definido como nulo. 
     
 NOTIFY_NEWMAIL_RECEIVED 
   
-> Uma nova mensagem foi recebida no repositório de mensagem. O parâmetro _lpvData_ aponta para uma estrutura [NEWMAIL_NOTIFICATION](newmail_notification.md) que descreve a mensagem. Esse sinalizador é usado para provedores de armazenamento de mensagem que estejam intimamente ligadas a provedores de transporte e é ignorada se o provedor de repositório está conectado com o sinalizador MAPI_NO_MAIL definido. 
+> Uma nova mensagem foi recebida no repositório de mensagens. O parâmetro _lpvData_ aponta para uma estrutura [NEWMAIL_NOTIFICATION](newmail_notification.md) que descreve a mensagem. Esse sinalizador é usado para provedores de repositório de mensagens que estão rigidamente acoplados a provedores de transporte e é ignorado se o provedor de repositório estiver conectado com o sinalizador MAPI_NO_MAIL definido. 
     
 NOTIFY_NONCRIT 
   
-> Libera uma seção crítica que foi obtida com uma chamada anterior a **SpoolerNotify** com _ulFlags_ definido como NOTIFY_CRITSEC. O parâmetro _lpvData_ é indefinido e deve ser definido como NULL. 
+> Libera uma seção crítica obtida com uma chamada anterior para **SpoolerNotify** com _PARÂMETROULFLAGS_ definido como NOTIFY_CRITSEC. O parâmetro _lpvData_ está indefinido e deve ser definido como nulo. 
     
 NOTIFY_READYTOSEND 
   
-> O provedor de repositórios de transporte ou de mensagem está pronto para enviar mensagens. O parâmetro _lpvData_ é indefinido e deve ser definido como NULL. 
+> O provedor de armazenamento de mensagens ou de transporte está pronto para enviar mensagens. O parâmetro _lpvData_ está indefinido e deve ser definido como nulo. 
     
 NOTIFY_SENTDEFERRED 
   
-> Uma mensagem adiada anteriormente agora deve ser enviada e o provedor de transporte deve ser notificado quando a mensagem está pronta para ser entregues por meio de uma chamada ao método [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) . O identificador de entrada da mensagem adiada está contido em uma estrutura de [SBinary](sbinary.md) apontada pela _lpvData_. Como NOTIFY_SENTDEFERRED e o NOTIFY_CRITICAL_ERROR usam o parâmetro _lpvData_ , esses sinalizadores são mutuamente exclusivos. 
+> Uma mensagem adiada anteriormente deve ser enviada agora e o provedor de transporte deve ser notificado quando a mensagem estiver pronta para ser entregue usando uma chamada para o método [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) . O identificador de entrada da mensagem adiada está contido em uma estrutura [SBinary](sbinary.md) indicada por _lpvData_. Como tanto NOTIFY_SENTDEFERRED quanto NOTIFY_CRITICAL_ERROR usam o parâmetro _lpvData_ , esses sinalizadores são mutuamente exclusivos. 
     
  _lpvData_
   
-> [in] Um ponteiro para os dados associados aplicáveis a uma notificação. O parâmetro _lpvData_ aponta para dados válido somente quando os seguintes sinalizadores estão definidos (_lpvData_ é NULL quando _ulFlags_ estiver definido como os outros tipos de notificação): 
+> no Um ponteiro para dados associados aplicáveis a uma notificação. O parâmetro _lpvData_ aponta para dados válidos somente quando os seguintes sinalizadores são definidos (_lpvData_ é nulo quando _parâmetroulflags_ é definido como os outros tipos de notificação): 
     
-|**configuração de _ulFlags_**|**valor de _lpvData_**|
+|**configuração _parâmetroulflags_**|**valor _lpvData_**|
 |:-----|:-----|
 |NOTIFY_CRITICAL_ERROR  <br/> |Informações sobre o erro.  <br/> |
-|NOTIFY_NEWMAIL_RECEIVED  <br/> |Uma estrutura **NEWMAIL_NOTIFICATION** que contém informações sobre a mensagem entregue recentemente.  <br/> |
-|NOTIFY_SENTDEFERRED  <br/> |Uma estrutura de **SBinary** que contém o identificador de entrada de mensagem adiada.  <br/> |
+|NOTIFY_NEWMAIL_RECEIVED  <br/> |Uma estrutura **NEWMAIL_NOTIFICATION** que contém informações sobre a mensagem recentemente entregue.  <br/> |
+|NOTIFY_SENTDEFERRED  <br/> |Uma estrutura **SBinary** que contém o identificador de entrada da mensagem adiada.  <br/> |
    
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -90,31 +90,31 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::SpoolerNotify** é implementado para mensagem armazenar e objetos de suporte do provedor de transporte. Esses provedores chamarem **SpoolerNotify** para notificar o MAPI spooler de uma alteração no status ou uma solicitação de serviço. **SpoolerNotify** é chamado principalmente pelos provedores de transporte e pode ser chamado a qualquer momento durante a sessão. 
+O método **IMAPISupport:: SpoolerNotify** é implementado para os objetos de repositório de mensagens e de suporte do provedor de transporte. Esses provedores chamam **SpoolerNotify** para notificar o spooler MAPI sobre uma alteração no status ou uma solicitação de serviço. **SpoolerNotify** é chamado principalmente por provedores de transporte e pode ser chamado a qualquer momento durante a sessão. 
   
 ## <a name="notes-to-transport-providers"></a>Observações para provedores de transporte
 
-Se você tiver alterado sua configuração de provedor de transporte, chame **SpoolerNotify** e defina _ulFlags_ como NOTIFY_CONFIG_CHANGED. **SpoolerNotify** responde chamando o método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) a consulta para uma alteração de tipos de endereço com suporte. 
+Se você tiver alterado a configuração do provedor de transporte, chame **SpoolerNotify** e defina _parâmetroulflags_ como NOTIFY_CONFIG_CHANGED. **SpoolerNotify** responde chamando o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) para consultar uma alteração nos tipos de endereço com suporte. 
   
-Se você precisar de uma seção crítica para garantir o processamento ininterrupto, chame **SpoolerNotify** com _ulFlags_ definido como NOTIFY_CRITSEC. Defina esse sinalizador informa o MAPI spooler que ele não deve chamar os métodos [IXPLogon::Idle](ixplogon-idle.md) e [IXPLogon::Poll](ixplogon-poll.md) . Enquanto uma seção crítica aberto, retorne MAPI_E_BUSY sempre que o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) é chamado. Quando você terminar com a seção crítica, fazer outra chamada para **SpoolerNotify** com _ulFlags_ definido como NOTIFY_NONCRIT. 
+Se você precisar de uma seção crítica para garantir o processamento sem interrupção, chame **SpoolerNotify** com _PARÂMETROULFLAGS_ definido como NOTIFY_CRITSEC. A definição desse sinalizador informa ao spooler MAPI que ele não deve chamar os métodos [IXPLogon:: Idle](ixplogon-idle.md) e [IXPLogon::P oll](ixplogon-poll.md) . Embora você tenha uma seção crítica aberta, retorne MAPI_E_BUSY sempre que o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) for chamado. Ao concluir a seção crítica, faça outra chamada para **SpoolerNotify** com _PARÂMETROULFLAGS_ definido como NOTIFY_NONCRIT. 
   
-Por exemplo, se seu provedor de transporte remoto estiver no processo de carregamento de mensagens, você precisará permitir que o usuário insira um número de telefone para estabelecer a conexão remota. Antes de você percorrer o procedimento da caixa de diálogo, você deve declarar uma seção crítica. Quando o usuário fechar a caixa de diálogo, encerrando o procedimento da caixa de diálogo, você deve liberar a seção crítica.
+Por exemplo, se o seu provedor de transporte remoto estiver no processo de carregamento de mensagens, talvez seja necessário permitir que um usuário insira um número de telefone para estabelecer a conexão remota. Antes de executar um loop no procedimento da caixa de diálogo, você deve declarar uma seção crítica. Quando o usuário fechar a caixa de diálogo, terminando o procedimento da caixa de diálogo, você deverá liberar a seção crítica.
   
-Quando você definir _ulFlags_ como NOTIFY_CRITICAL_ERROR, o spooler MAPI não faz nenhuma chamada adicional para o provedor, exceto ao liberá-la. Se você chamar **SpoolerNotify** com NOTIFY_CRITICAL_ERROR definir a partir dos métodos [IXPLogon::StartMessage](ixplogon-startmessage.md) ou [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) , retornar com um valor de erro apropriado do **StartMessage** ou * * SubmitMessage * * chamada imediatamente após a chamada **SpoolerNotify** . 
+Quando você define _parâmetroulflags_ como NOTIFY_CRITICAL_ERROR, o spooler MAPI não faz mais chamadas para o provedor, exceto para liberá-lo. Se você chamar **SpoolerNotify** com NOTIFY_CRITICAL_ERROR definido dos métodos [IXPLogon:: StartMessage](ixplogon-startmessage.md) ou [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) , retorne com um valor de erro apropriado da chamada **StartMessage** ou * * SubmitMessage * * imediatamente após a chamada **SpoolerNotify** . 
   
-Se o seu provedor de transporte recuperados de uma condição que anteriormente deixá-lo falhar, chame **SpoolerNotify** com _ulFlags_ definido como NOTIFY_READYTOSEND. Esse sinalizador indica que o provedor está pronto para lidar com as mensagens novamente. 
+Se o seu provedor de transporte for recuperado de uma condição que anteriormente causou a falha, chame **SpoolerNotify** com _PARÂMETROULFLAGS_ definido como NOTIFY_READYTOSEND. Esse sinalizador indica que o provedor está pronto novamente para lidar com as mensagens. 
   
-## <a name="notes-to-message-store-providers"></a>Observações para provedores de armazenamento de mensagens
+## <a name="notes-to-message-store-providers"></a>Observações para provedores de repositórios de mensagens
 
-Chame **SpoolerNotify**, passando o sinalizador NOTIFY_READYTOSEND _ulFlags_, antes de fazer a chamada primeira para [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md) no **IMessage::SubmitMessage**. Essa chamada para **SpoolerNotify** deve ser feita apenas uma vez por sessão. 
+Chame **SpoolerNotify**, passando o sinalizador NOTIFY_READYTOSEND no _parâmetroulflags_, antes de fazer sua primeira chamada para [IMAPISupport::P Reparesubmit](imapisupport-preparesubmit.md) no **IMessage:: SubmitMessage**. Essa chamada para **SpoolerNotify** precisa ser feita apenas uma vez por sessão. 
   
-Se o seu provedor de armazenamento de mensagem está intimamente ligado com um transporte provedor e você chamar **SpoolerNotify** com _ulFlags_ definido para NOTIFY_NEWMAIL_RECEIVED, o MAPI spooler abre a nova mensagem e inicia o processamento a nova função de gancho de mensagem. Quando o processamento estiver concluído, o MAPI spooler chama o método de [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) para informar sua própria mensagem nova. 
+Se o seu provedor de repositório de mensagens estiver rigidamente acoplado a um provedor de transporte e você chamar **SpoolerNotify** com _PARÂMETROULFLAGS_ definido como NOTIFY_NEWMAIL_RECEIVED, o spooler MAPI abrirá a nova mensagem e começará a processar a nova função de gancho de mensagem. Quando o processamento estiver concluído, o spooler MAPI chama o método [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md) para informá-lo sobre sua própria mensagem nova. 
   
-Para obter mais informações sobre como chamar **SpoolerNotify**, consulte qualquer um dos seguintes tópicos:
+Para obter mais informações sobre como chamar o **SpoolerNotify**, consulte qualquer um dos seguintes tópicos:
   
-- [Implementar método FlushQueues](implementing-the-flushqueues-method.md)
+- [Implementar o método FlushQueues](implementing-the-flushqueues-method.md)
     
-- [Interagir com um spooler MAPI](interacting-with-the-mapi-spooler.md)
+- [Interagir com o spooler MAPI](interacting-with-the-mapi-spooler.md)
     
 - [Modelo de recebimento de mensagens](message-reception-model.md)
     

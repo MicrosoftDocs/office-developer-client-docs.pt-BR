@@ -1,5 +1,5 @@
 ---
-title: Mapa de esquema ('Visio XML')
+title: Mapa de esquema (' Visio XML ')
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: Este tópico mostra a definição de esquema XML para o formato de arquivo do Visio 2013.
 ms.openlocfilehash: 5332659d4365fe609d4eb8af5c1a87b108b1baee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326541"
 ---
-# <a name="schema-map-visio-xml"></a>Mapa de esquema ('Visio XML')
+# <a name="schema-map-visio-xml"></a>Mapa de esquema (' Visio XML ')
 
 Este tópico mostra a definição de esquema XML para o formato de arquivo do Visio 2013.
   

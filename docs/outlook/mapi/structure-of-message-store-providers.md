@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 58b6771c6bdae91ad0e496189258e4745de5bc84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eda62a4cd31e0de695d52391a6717e7a0f5ea581
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327200"
 ---
 # <a name="structure-of-message-store-providers"></a>Estrutura de provedores do armazenamento de mensagens
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de armazenamento de mensagem, quando ele está em execução na memória, é um [IMSProvider: IUnknown](imsprovideriunknown.md) interface. A interface de **IMSProvider** permite que o cliente aplicativos e o spooler MAPI fazer logon e logoff de armazenamento de mensagens. As interfaces que aplicativos cliente e o MAPI spooler usam para acessar mensagens no armazenamento de mensagens e pastas são interfaces [IMSLogon](imslogoniunknown.md) e [IMsgStore](imsgstoreimapiprop.md) . Estas interfaces geralmente são criados quando o armazenamento de mensagens é primeiro fazer logon, embora o ponto de entrada da mensagem [MSProviderInit](msproviderinit.md) armazenar DLL também pode criá-los. 
+Um provedor de armazenamento de mensagens, quando está em execução na memória, é uma interface [IMSProvider: IUnknown](imsprovideriunknown.md) . A interface **IMSProvider** permite que os aplicativos cliente e o spooler MAPI façam logon e logoff no repositório de mensagens. As interfaces que os aplicativos clientes e o spooler MAPI usam para acessar pastas e mensagens no repositório de mensagens são interfaces [IMSLogon](imslogoniunknown.md) e [IMsgStore](imsgstoreimapiprop.md) . Essas interfaces normalmente são criadas quando o repositório de mensagens é conectado pela primeira vez, embora o ponto de entrada [MSProviderInit](msproviderinit.md) da dll do repositório de mensagens também possa criá-las. 
   
-Como as interfaces **IMSLogon** e **IMsgStore** compartilham alguns métodos, talvez seja mais fácil criar um objeto de classe que herda de duas interfaces. Você também pode implementar estas interfaces nos objetos separados e grave funções de auxiliar internas para sua DLL que implementam os métodos compartilhados que podem ser chamados depois dos métodos nas interfaces **IMSLogon** e **IMsgStore** . 
+Como as interfaces **IMSLogon** e **IMsgStore** compartilham alguns métodos, pode ser mais fácil criar um objeto Class que herda de ambas as interfaces. Você também pode implementar essas interfaces em objetos separados e escrever funções auxiliares internas à sua DLL que implementam os métodos compartilhados que podem ser chamados dos métodos nas interfaces **IMSLogon** e **IMsgStore** . 
   
-A ilustração a seguir mostra uma estrutura de tópicos de alto nível da hierarquia do objeto dentro de um armazenamento de mensagens em execução.
+A ilustração a seguir mostra uma estrutura de tópicos de alto nível da hierarquia de objetos em um repositório de mensagens em execução.
   
 **Message store object hierarchy**
   
-![Hierarquia de objetos de armazenamento de mensagens] (media/storeobj.gif "Hierarquia de objetos de armazenamento de mensagens")
+![Hierarquia do objeto do repositório de mensagens] (media/storeobj.gif "Hierarquia do objeto do repositório de mensagens")
   
 ## <a name="see-also"></a>Confira também
 

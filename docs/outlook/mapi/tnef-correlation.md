@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
 description: 'Última modificação: 12 de março de 2013'
-ms.openlocfilehash: 5b5af5cee7c58eb300e4020c763431fd96bdd295
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d601bb2bbc65e21c5bc83179cc29e53ddd33876
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327394"
 ---
 # <a name="tnef-correlation"></a>Correlação de TNEF
 
@@ -21,10 +21,10 @@ ms.locfileid: "22563755"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Alguns sistemas de mensagens realizar uma verificação de correlação em qualquer fluxo Transport-Neutral Encapsulation Format (TNEF) anexado a uma mensagem de entrada para verificar que o fluxo TNEF na verdade pertencer a mensagem. Isso envolve a correspondência com o valor de algum campo no cabeçalho da mensagem de entrada com uma cópia do valor armazenado na algumas propriedade no stream TNEF. Valores que são provavelmente exclusivos para cada mensagem, como números de identificação de mensagem, geralmente são usados para isso. O transporte ou um gateway que criou o fluxo TNEF é responsável por escolhendo um valor apropriado no cabeçalho da mensagem e fazer uma cópia em uma propriedade adequada antes de codificação de propriedades da mensagem de saída no fluxo TNEF. Gateways ou transportes que recebem a mensagem podem extrair dessa propriedade do stream TNEF e verificar que seu valor corresponde ao valor do campo correspondente do cabeçalho na mensagem de entrada.
+Alguns sistemas de mensagens realizam uma verificação de correlação em qualquer fluxo de formato de encapsulamento de transporte neutro (TNEF) anexado a uma mensagem de entrada para verificar se o fluxo TNEF faz parte do fato pertence a essa mensagem. Isso envolve a correspondência do valor de algum campo no cabeçalho da mensagem de entrada com uma cópia do valor armazenado em alguma propriedade no fluxo TNEF. Os valores que são supostamente exclusivos para cada mensagem, como números de ID de mensagem, são normalmente usados para isso. O transporte ou gateway que criou o fluxo TNEF é responsável por escolher um valor apropriado do cabeçalho da mensagem e colocar uma cópia em uma propriedade apropriada antes de codificar as propriedades da mensagem de saída no fluxo TNEF. Gateways ou transportes que recebem a mensagem podem então extrair essa propriedade do fluxo TNEF e verificar se o valor corresponde ao valor do campo de cabeçalho correspondente na mensagem de entrada.
   
-Se os valores não coincidirem, o gateway ou transporte deve descartar o fluxo TNEF e apenas o envelope de mensagem nativo do processo. Essas verificações são recomendável porque os clientes de email não baseado em MAPI podem anexar um arquivo que contém um fluxo TNEF de uma mensagem antiga para um encaminhamento ou até mesmo uma mensagem não relacionada; Se não estiver marcado, tal erro pode causar perda de texto da mensagem.
+Se os valores não corresponderem, o gateway ou transporte deverá descartar o fluxo TNEF e processar apenas o envelope de mensagem nativo. Essas verificações são prudentes porque clientes de email não baseados em MAPI podem anexar um arquivo que contém um fluxo TNEF de uma mensagem antiga para uma mensagem de encaminhamento ou até mesmo uma inrelacionada; Se não for selecionada, tal erro poderá causar a perda de texto da mensagem.
   
-O valor do campo de cabeçalho escolhido deve ser exclusivo à mensagem. Há nenhum campo de cabeçalho fixa para todos os sistemas de mensagens, como sistemas de mensagens diferentes utilizam campos de cabeçalho diferente, mas normalmente, o sistema de mensagens atribui um identificador exclusivo para a mensagem que é adequada para essa finalidade. Por exemplo, sistemas de SMTP usam geralmente cabeçalho MessageID, enquanto os sistemas de x. 400 geralmente usam o atributo IM_THIS_IPM.
+O valor do campo de cabeçalho escolhido deve ser exclusivo da mensagem. Não há nenhum campo de cabeçalho fixo para todos os sistemas de mensagens porque diferentes sistemas de mensagens usam diferentes campos de cabeçalho, mas geralmente o sistema de mensagens atribui um identificador exclusivo à mensagem que é adequada para essa finalidade. Por exemplo, os sistemas SMTP normalmente usam o cabeçalho MessageID, enquanto os sistemas X. 400 normalmente usam o atributo IM_THIS_IPM.
   
 

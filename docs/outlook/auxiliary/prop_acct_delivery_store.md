@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
 description: Representa a identificação de entrada do repositório de entrega padrão para a conta.
-ms.openlocfilehash: 72c5325e70a6e8b42ee433d8d674c2b2ea0c8398
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d803c539ec99da4d7fb31063f48237788f3ac3d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327668"
 ---
 # <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
 
@@ -20,23 +20,23 @@ Representa a identificação de entrada do repositório de entrega padrão para 
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0018  <br/> |
 |Tipo de propriedade:  <br/> |PT_BINARY  <br/> |
 |Marca de propriedade:  <br/> |0x00180102  <br/> |
-|Access:  <br/> |Leitura/gravação  <br/> |
+|Acesso:  <br/> |Leitura/gravação  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
+Obter ou definir essa propriedade usando [IOlkAccount:: GetProp](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
   
-Um dos efeitos colaterais do definindo um repositório como repositório de entrega padrão para uma conta é que ao iniciar o Outlook, o Outlook cria as pastas de pesquisa para esse repositório se elas existirem e listar o repositório na barra de tarefas pendentes.
+Um dos efeitos colaterais da configuração de um repositório como o repositório de entrega padrão para uma conta é que, ao iniciar o Outlook, o Outlook cria pastas de pesquisa para esse repositório, caso ainda não existam, e liste o repositório na barra de tarefas pendentes.
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md)
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

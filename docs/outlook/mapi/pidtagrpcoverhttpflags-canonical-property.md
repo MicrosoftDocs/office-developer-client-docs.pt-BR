@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cf1f3b4d72426fb5f80decdc074a622b140657c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327444"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriedade canônica PidTagRpcOverHttpFlags
 
@@ -21,7 +21,7 @@ ms.locfileid: "25388263"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém as configurações em um perfil usado pelo Microsoft Office Outlook para se conectar ao Microsoft Exchange Server usando uma chamada de procedimento remoto (RPC) sobre HTTP (Hypertext Transfer Protocol).
+Contém as configurações em um perfil usado pelo Microsoft Office Outlook para se conectar ao Microsoft Exchange Server usando uma RPC (chamada de procedimento remoto) sobre protocolo HTTP (Hypertext Transfer Protocol).
   
 |||
 |:-----|:-----|
@@ -32,43 +32,43 @@ Contém as configurações em um perfil usado pelo Microsoft Office Outlook para
    
 ## <a name="remarks"></a>Comentários
 
-A propriedade **PR_ROH_FLAGS** é armazenada na seção perfil Global de um perfil de Messaging Application Programming Interface (MAPI). O valor de **PR_ROH_FLAGS** é uma bitmask que é composta de um ou mais dos seguintes sinalizadores. 
+A propriedade **PR_ROH_FLAGS** é armazenada na seção de perfil global de um perfil MAPI (Messaging Application Programming Interface). O valor de **PR_ROH_FLAGS** é uma bitmask composta de um ou mais dos seguintes sinalizadores. 
   
-|**Name**|**Valor**|**Descrição**|
+|**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Conecte-se ao servidor do Exchange usando RPC sobre HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Conecte-se ao servidor do Exchange usando apenas o Secure Socket Layer (SSL).  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Conecte-se ao servidor Exchange usando RPC sobre HTTP.  <br/> |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Conecte-se ao Exchange Server usando Secure Socket Layer (SSL) somente.  <br/> |
 |**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Autenticar mutuamente a sessão durante a conexão usando SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Em redes rápidas, conecte usando HTTP primeiro. Em seguida, conecte usando TCP/IP.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |Em redes lentas, conecte usando HTTP primeiro. Em seguida, conecte usando TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Em redes rápidas, conecte-se usando HTTP primeiro. Em seguida, conecte-se usando TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |Em redes lentas, conectar usando HTTP primeiro. Em seguida, conecte-se usando TCP/IP.  <br/> |
    
-Por exemplo, para definir o **PR_ROH_FLAGS** propriedade ativem RPC sobre HTTP, para exigir SSL e para especificar que o protocolo HTTP deve ser usado pela primeira vez em conexões lentas, defina o valor da propriedade **PR_ROH_FLAGS** como `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` que é igual a 0x23. 
+Por exemplo, para definir a propriedade **PR_ROH_FLAGS** para ativar o RPC sobre http, para exigir SSL e para especificar que o protocolo http deve ser usado primeiro em conexões lentas, defina o valor da propriedade **PR_ROH_FLAGS** como `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` sendo igual a 0x23. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -76,7 +76,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

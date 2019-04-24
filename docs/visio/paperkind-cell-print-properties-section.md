@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2c9616f-a144-eb99-54b6-b53745c7b4d6
 description: Especifica o tipo de papel no qual a página será impressa.
-ms.openlocfilehash: 03659553ab32afd20d1a5a40b85a8bbf107dbb08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 694aa1fb8b52f5ae323c47e9aab8715b4a48dfb0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327059"
 ---
 # <a name="paperkind-cell-print-properties-section"></a>Célula PaperKind (Seção Print Properties)
 
@@ -22,9 +22,9 @@ Especifica o tipo de papel no qual a página será impressa.
   
 ## <a name="remarks"></a>Comentários
 
-Essa configuração corresponde à configuração de **Tamanho do papel** na caixa de diálogo **Configurar impressão** (na guia **Design** , clique na seta **Configurar página** e, em seguida, na guia **Configurar impressão** , clique no botão **Configurar** ). 
+Essa configuração corresponde à configuração **tamanho do papel** da caixa de diálogo **Configurar impressão** (na guia **design** , clique na seta **Configurar página** e, na guia **Configurar impressão** , clique no botão **Configurar** ). 
   
-Os valores numéricos dessa célula são mapeados de acordo com constantes (prefixadas com DMPAPER) definidas para seleções de papel no arquivo wingdi Microsoft Windows. 
+Os valores numéricos nesta célula são mapeados como constantes (prefixadas com DMPAPER) definidas para seleções de papel no arquivo WinGDI. h do Microsoft Windows. 
   
 Para obter uma referência para a célula PaperKind pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

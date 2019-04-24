@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: Obter a instância ProjectContext atual; recuperar e iterar sobre o conjunto de projetos publicados no servidor. criar, recuperar, conferir e excluir um projeto usando o modelo de objeto do JavaScript do Project Server; e alterar as propriedades do projeto.
 ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322663"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Criar, recuperar, atualizar e excluir projetos usando o Project Server JavaScript
 

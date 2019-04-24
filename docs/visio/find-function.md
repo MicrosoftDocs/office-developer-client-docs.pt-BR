@@ -8,50 +8,50 @@ f1_keywords:
 - Vis_DSS.chm60101
 localization_priority: Normal
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
-description: Localiza uma cadeia de texto contida na outra cadeia de caracteres de texto e retorna a posição inicial da cadeia de texto que você está procurando em relação à sua posição na cadeia de texto que o contém.
-ms.openlocfilehash: e29e8e89418f0162cae0ec9904c2205218e799ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Localiza uma cadeia de caracteres de texto contida em outra cadeia de caracteres de texto e retorna a posição inicial da cadeia de caracteres de texto que você está procurando em relação à sua posição na cadeia de caracteres de texto que a contém.
+ms.openlocfilehash: 40d65af25d89774c1bdf7b235cf653dbb61dd1c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322495"
 ---
 # <a name="find-function"></a>Função FIND
 
-Localiza uma cadeia de texto contida na outra cadeia de caracteres de texto e retorna a posição inicial da cadeia de texto que você está procurando em relação à sua posição na cadeia de texto que o contém.
+Localiza uma cadeia de caracteres de texto contida em outra cadeia de caracteres de texto e retorna a posição inicial da cadeia de caracteres de texto que você está procurando em relação à sua posição na cadeia de caracteres de texto que a contém.
   
 ## <a name="syntax"></a>Sintaxe
 
-ENCONTRE (* * *texto_procurado* * *, * * *No_texto* * *, [* * *Núm_inicial* * *], [* * *ignore_case* * *]) 
+Find (* * *texto_procurado* * *, * * *no_texto* * *, [* * *Núm_inicial* * *], [* * *ignore_case* * *]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _texto_procurado_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
+| _Texto_procurado_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
 | _format_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres que contém o texto a ser localizado.  <br/> |
-| _Núm_inicial_ <br/> |Opcional  <br/> |**Número** <br/> |O caractere a partir do qual iniciar a pesquisa. O primeiro caractere em _No_texto_ é 1. Se _Núm_inicial_ estiver ausente, será considerado como 1.  <br/> |
+| _núm_inicial_ <br/> |Opcional  <br/> |**Número** <br/> |O caractere para início da pesquisa. O primeiro caractere em _no_texto_ é 1. Se _Núm_inicial_ estiver faltando, será considerado 1.  <br/> |
 | _ignore_case_ <br/> |Opcional  <br/> |**Boolean** <br/> |Por padrão, a função FIND distingue maiúsculas e minúsculas. Para que a função FIND ignore maiúsculas e minúsculas, defina este argumento como TRUE.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
-Se várias correspondências forem encontradas, a função Localizar retorna a posição inicial da primeira correspondência na cadeia de caracteres. O argumento _texto_procurado_ não considera qualquer caractere como curinga. 
+Se vários valores correspondentes forem localizados, a função FIND retornará a posição inicial do primeiro valor correspondente na cadeia de caracteres. O argumento _texto_procurado_ não considera nenhum caractere como curingas. 
   
 Se _texto_procurado_:
   
--  Estiver vazio (""), procurar coincide com o primeiro caractere na sequência de pesquisa (ou seja, o caractere numerado _Núm_inicial_ ou 1). 
+-  Estiver vazio (""), FIND corresponde ao primeiro caractere na cadeia de caracteres de pesquisa (ou seja, o caractere numerado _Núm_inicial_ ou 1). 
     
-- Não aparece em _within_text_, FIND retornará o #VALUE! valor de erro. 
+- Não aparecer em _no_texto_, localizar retorna o #VALUE! valor de erro. 
     
 Se _Núm_inicial_:
   
-- Não for maior que zero (0), FIND retornará o valor de erro #VALUE! 
+- Não é maior que zero (0), FIND retorna o #VALUE! valor de erro. 
     
-- É maior que o comprimento de _No_texto_, Find retornará o #VALUE! valor de erro. 
+- É maior que o comprimento de _no_texto_, FINDreturns o #VALUE! valor de erro. 
     
 ## <a name="example"></a>Exemplo
 

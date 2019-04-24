@@ -1,5 +1,5 @@
 ---
-title: Recursos incompatíveis com gerentes de formulário
+title: Recursos não suportados por gerentes de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a84c0a93f80080b71f6049e73f0a0094c38c28ef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e31eacaae54968fbdbd9fe0345130a8d09c3509f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326373"
 ---
-# <a name="capabilities-not-supported-by-form-managers"></a>Recursos incompatíveis com gerentes de formulário
+# <a name="capabilities-not-supported-by-form-managers"></a>Recursos não suportados por gerentes de formulário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os seguintes recursos não são suportados pelo gerente de formulário padrão por motivos de desempenho, mas podem ser suportados pelos gerentes de formulário personalizado.
+Os recursos a seguir não são suportados pelo Gerenciador de formulários padrão por motivos de desempenho, mas podem ser suportados por gerentes de formulários personalizados.
   
-- Uma hierarquia que permite que os formulários a serem agrupadas ou categorizados em toda uma biblioteca de formulários. Uma biblioteca de formulários é um banco de dados de arquivo simples de formulários.
+- Uma hierarquia que permite que os formulários sejam agrupados ou categorizados em uma biblioteca de formulários. Uma biblioteca de formulários é um banco de dados de arquivo simples de formulários.
     
-- Controle de acesso para categorias de formulários, correspondente às classes de mensagem ou superclasse.
+- Controle de acesso para categorias de formulários, correspondentes a classes de mensagens ou superclasses.
     
-- Suporte para várias versões de idioma do mesmo formulário em uma biblioteca de formulário simples.
+- Suporte para versões de vários idiomas do mesmo formulário em uma única biblioteca de formulários.
     
-Esses são os problemas de implementação. Não há nada para impedir que um gerente de formulário personalizado com a implementação desses recursos.
+Estes são problemas de implementação. Não há nada para impedir que um gerente de formulário personalizado implemente esses recursos.
   
-A arquitetura de formulário MAPI não oferece suporte a vários gerentes de formulário executando simultaneamente. Embora MAPI ofereça suporte a vários provedores de armazenamento de mensagem simultâneas, provedores de transporte e provedores de catálogo de endereços, somente um Gerenciador de formulário simples é suportado.
+A arquitetura de formulário MAPI não dá suporte a vários gerentes de formulários executados simultaneamente. Embora o MAPI dê suporte a vários provedores de repositório de mensagens simultâneos, provedores de transporte e provedores de catálogo de endereços, só há suporte para um único Gerenciador de formulários.
   
-Porque o Gerenciador de apenas um formulário pode estar em execução ao mesmo tempo, se você implementar um gerente de formulário personalizado, você terá a reimplementação qualquer funcionalidade do Gerenciador de formulário padrão que você precisa. Porque seu gerente de formulário personalizado inteiramente substituirá o Gerenciador de formulário padrão, os recursos do Gerenciador de formulário padrão só estará disponíveis a menos que eles são duplicados em seu gerente de formulário personalizado.
+Como apenas um gerente de formulário pode ser executado ao mesmo tempo, se você implementar um gerente de formulário personalizado, será necessário reimplementar qualquer funcionalidade do Gerenciador de formulários padrão que você precisa. Como o gerente de formulário personalizado substituirá totalmente o Gerenciador de formulários padrão, os recursos do Gerenciador de formulários padrão não estarão disponíveis, a menos que sejam duplicados no seu gerente de formulário personalizado.
   
 ## <a name="see-also"></a>Confira também
 

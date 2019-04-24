@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322159"
 ---
 # <a name="about-mapi-additions"></a>Sobre as adições de MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adições de MAPI são APIs que pertencem à Messaging Application Programming Interface (MAPI), como tipos de dados, funções e propriedades, que foram anteriormente não expostas e documentadas como parte da referência do programador de MAPI. Elas incluem as seguintes definições e propriedades.
+As adições de MAPI são APIs que pertencem à MAPI (Messaging Application Programming Interface), como tipos de dados, funções e propriedades, que anteriormente não foram expostas e documentadas como parte da referência do programador MAPI. Eles incluem as seguintes definições e propriedades.
   
-## <a name="constant-definitions"></a>Definições de constantes
+## <a name="constant-definitions"></a>Definições constantes
 
 - **[Constantes MAPI adicionais](mapi-constants.md)**
   
@@ -39,7 +39,7 @@ Adições de MAPI são APIs que pertencem à Messaging Application Programming I
     
 ## <a name="properties"></a>Propriedades
 
-Geralmente, as seguintes propriedades são expostas pelos objetos de mensagem.
+As propriedades a seguir são geralmente expostas por objetos de mensagem.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ Geralmente, as seguintes propriedades são expostas pelos objetos de mensagem.
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-As seguintes propriedades são expostas pelos objetos de tabela de conteúdo de catálogo de endereço.
+As propriedades a seguir são expostas pelos objetos da tabela de conteúdo do catálogo de endereços.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-As seguintes propriedades expostas pelos objetos de contêiner de catálogo de endereços.
+As propriedades a seguir são expostas por objetos contêiner de catálogo de endereços.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,13 +91,13 @@ As seguintes propriedades expostas pelos objetos de contêiner de catálogo de e
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-As seguintes propriedades são expostas pelos objetos de pasta.
+As propriedades a seguir são expostas por objetos Folder.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
 - **[PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md)**
     
-As seguintes propriedades expostas pelos objetos de usuário de mensagens.
+As propriedades a seguir são expostas por objetos de usuário de mensagens.
   
 - **[PR_ASSISTANT_TELEPHONE_NUMBER_W](pidtagassistanttelephonenumber-canonical-property.md)**
     
@@ -189,7 +189,7 @@ As seguintes propriedades expostas pelos objetos de usuário de mensagens.
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-As seguintes propriedades são expostas pelos objetos de seção de perfil.
+As propriedades a seguir são expostas por objetos seção de perfil.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ As seguintes propriedades são expostas pelos objetos de seção de perfil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-As seguintes propriedades são expostas pelos objetos de repositório.
+As propriedades a seguir são expostas por objetos Store.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ As seguintes propriedades são expostas pelos objetos de repositório.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-As seguintes propriedades expostas pelos objetos store e são usadas em elementos específicos de um email no repositório de pesquisa.
+As propriedades a seguir são expostas por objetos Store e são usados na pesquisa de elementos específicos de um email na loja.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     

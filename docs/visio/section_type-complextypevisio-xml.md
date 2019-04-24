@@ -1,5 +1,5 @@
 ---
-title: Section_Type complexType ('Visio XML')
+title: Section_Type complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2f8e855f-064c-d286-560f-9f89e7fce7b7
 ms.openlocfilehash: 35cd638d36f4ddd1d90e0c312e65626f7d8b0bff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326093"
 ---
-# <a name="sectiontype-complextype-visio-xml"></a>Section_Type complexType ('Visio XML')
+# <a name="sectiontype-complextype-visio-xml"></a>Section_Type complexType (' Visio XML ')
 
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Extensão de base** <br/> |Nenhum  <br/> |
+|**Base da extensão** <br/> |Nenhum  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -64,22 +64,22 @@ ms.locfileid: "25384294"
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Célula](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
-|[Row](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> ||
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
+|[Linha](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> ||
 |[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|DEL  <br/> |XSD:Boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
-|IX  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> ||Valores do tipo xsd: String.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> ||Valores do tipo xsd:string.  <br/> |
    
 

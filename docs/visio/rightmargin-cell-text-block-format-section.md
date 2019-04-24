@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: Determina a distância entre a borda direita do bloco de texto e o texto contido nele. O padrão é 0,1 polegada.
-ms.openlocfilehash: 57fdb320395a9a6562983a0148b37c4a70a9a9b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a9d2406792e9e57c6acd0e4291b624633e70dcb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326772"
 ---
 # <a name="rightmargin-cell-text-block-format-section"></a>Célula RightMargin (Seção Text Block Format)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322369"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
@@ -42,27 +42,27 @@ HRESULT DoConfigPropsheet(
 
  _ulUIParam_
   
-> [in] Uma alça para a janela pai da folha de propriedades.
+> no Uma alça para a janela pai da folha de propriedades.
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
  _lpszTitle_
   
-> [in] Um ponteiro para o título da folha de propriedades.
+> no Um ponteiro para o título da folha de propriedades.
     
  _lpDisplayTable_
   
-> [in] Um ponteiro para a tabela de exibição que descreve os controles para que ele apareça na folha de propriedades.
+> no Um ponteiro para a tabela de exibição que descreve os controles a serem exibidos na folha de propriedades.
     
  _lpConfigData_
   
-> [in] Um ponteiro para a implementação de [IMAPIProp](imapipropiunknown.md) a ser usado para acessar as propriedades de configuração a ser exibida na folha de propriedades. 
+> no Um ponteiro para a implementação [IMAPIProp](imapipropiunknown.md) a ser usada para acessar as propriedades de configuração a serem exibidas na folha de propriedades. 
     
  _ulTopPage_
   
-> [in] Um índice baseado em zero à página padrão superior da folha de propriedades.
+> no Um índice com base em zero para a página superior padrão da folha de propriedades.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -72,13 +72,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::DoConfigPropsheet** é implementado para todos os objetos de suporte. **DoConfigPropSheet** fornece uma interface de usuário padrão para exibir as propriedades de provedores de serviço e serviços de mensagem. Você deve usar essa caixa de diálogo padrão para todas as exibições da propriedade de configuração para que os usuários se beneficiam de uma interface consistente do Windows. 
+O método **IMAPISupport::D oconfigpropsheet** é implementado para todos os objetos de suporte. O **DoConfigPropSheet** fornece uma interface de usuário padrão para exibir as propriedades de provedores de serviços e serviços de mensagens. Você deve usar essa caixa de diálogo padrão para todas as propriedades de configuração exibidas para que os usuários beneficiem-se de uma interface do Windows consistente. 
   
-Provedores de serviços de chamarem **DoConfigPropSheet** como parte de sua implementação do método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou com um botão usado para exibir detalhes em Propriedades. Serviços de mensagem chamar **DoConfigPropSheet** de seu função de ponto de entrada de serviço de mensagem. 
+Os provedores de serviços chamam **DoConfigPropSheet** como parte de sua implementação do método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou de um botão usado para exibir detalhes sobre as propriedades. Os serviços de mensagem chamam **DoConfigPropSheet** de sua função de ponto de entrada de serviço de mensagens. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode criar a tabela de exibição apontada pelo parâmetro _lpDisplayTable_ chamando a função [BuildDisplayTable](builddisplaytable.md) ou com código personalizado. 
+Você pode criar a tabela de exibição indicada pelo parâmetro _lpDisplayTable_ chamando a função [BuildDisplayTable](builddisplaytable.md) ou com código personalizado. 
   
 ## <a name="see-also"></a>Confira também
 

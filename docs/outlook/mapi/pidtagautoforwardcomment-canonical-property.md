@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 12bf24cc120a628559d1523405e27bbad3f1f8f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b0b55b5a769ea47c622e3e29e873afb1220dd5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326625"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriedade canônica PidTagAutoForwardComment
 
@@ -25,26 +25,26 @@ ms.locfileid: "22591755"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um comentário adicionado pelo agente de encaminhamento automático.
+Contém um Comentário adicionado pelo agente de encaminhamento automático.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_AUTO_FORWARD_COMMENT, PR_AUTO_FORWARD_COMMENT_A, PR_AUTO_FORWARD_COMMENT_W  <br/> |
 |Identificador:  <br/> |0x0004  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Relatório geral  <br/> |
+|Área:  <br/> |Relatórios gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

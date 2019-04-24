@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 139526937380273703a96f91f2bae02a79debc76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322117"
 ---
 # <a name="about-restrictions"></a>Sobre restrições
 
@@ -21,13 +21,13 @@ ms.locfileid: "22586449"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma restrição é uma maneira para limitar o número de linhas em um modo de exibição somente as linhas com valores de colunas que correspondem a critérios específicos. Há muitas oportunidades diferentes para o uso de restrições com tabelas. Aplicativos cliente podem usar a restrições, por exemplo, para filtrar uma tabela de conteúdo para mensagens enviadas por uma pessoa específica, para pesquisar por linhas que não oferecem suporte a uma propriedade ou tem definido uma propriedade para um valor específico ou para procurar por destinatários duplicados dentro um Mensagem. 
+Uma restrição é uma maneira de limitar o número de linhas em um modo de exibição apenas às linhas com valores para colunas que correspondem a critérios específicos. Há várias oportunidades diferentes de usar restrições com tabelas. Os aplicativos cliente podem usar restrições, por exemplo, para filtrar uma tabela de conteúdo para mensagens enviadas por uma determinada pessoa, procurar linhas que não dão suporte a uma propriedade ou definir uma propriedade para um valor específico ou procurar destinatários duplicados em um Mensagem. 
   
-Os métodos [IMAPITable:: Restrict](imapitable-restrict.md) e [IMAPITable:: FindRow](imapitable-findrow.md) são usados para definir restrições em uma tabela. **Restrict** aplica a restrição à tabela sem recuperar qualquer linha. Para recuperar apenas aquelas que atendam a restrição de linhas, uma chamada subsequente para [IMAPITable:: QueryRows](imapitable-queryrows.md) ou um método semelhante é necessária. **FindRow** aplica a restrição e recupera a primeira linha da tabela que corresponde aos critérios. **FindRow** aplica uma restrição temporária, que está no existência apenas para a duração da chamada, enquanto **Restrict** aplica uma restrição mais permanente. 
+Os métodos imApitable: [: Restrict](imapitable-restrict.md) e IMAPITable [:: FindRow](imapitable-findrow.md) são usados para definir restrições em uma tabela. **Restrict** aplica a restrição à tabela sem recuperar nenhuma linha. Para recuperar apenas as linhas que atendem à restrição, uma chamada subsequente para imApitable [:: QueryRows](imapitable-queryrows.md) ou um método semelhante é necessária. **FindRow** aplica a restrição e recupera a primeira linha na tabela que corresponde aos critérios. **FindRow** aplica uma restrição temporária, que está em existência somente pela duração da chamada, enquanto restrict **** aplica uma restrição mais permanente. 
   
-Alguns clientes podem construir uma restrição usando colunas não na coluna atual definidas. Suporte de tal uma restrição é opcional e implementadores de tabela que dão suporte ao agregam valor, particularmente para tabelas de conteúdo. Implementadores de tabela que não têm suporte podem retornar o valor MAPI_E_TOO_COMPLEX de uma chamada **Restrict** ou o valor de E_NOT_FOUND de uma chamada **FindRow** . 
+Alguns clientes podem criar uma restrição usando colunas que não estão no conjunto de colunas atual. O suporte a uma restrição é opcional e os implementadores de tabela que suportam o valor agregado, especialmente para tabelas de conteúdo. Os implementadores de tabela que não oferecem suporte a ele podem retornar o valor MAPI_E_TOO_COMPLEX de uma chamada **restrita** ou o valor de MAPI_E_NOT_FOUND de uma chamada **FindRow** . 
   
-Os clientes devem estar cientes de que, mesmo se o provedor oferece suporte a restrições em colunas não no conjunto coluna atual, elas receberão um melhor desempenho geral, especificando as colunas que pretendem usar em suas restrições com [IMAPITable::SetColumns](imapitable-setcolumns.md) .
+Os clientes devem estar cientes de que, mesmo que o provedor não tenha restrições de suporte em colunas que não estejam no conjunto de colunas atual, eles terão um desempenho melhor, especificando as colunas que pretendem usar em suas restrições com imApitable [::](imapitable-setcolumns.md) SetColumns .
   
 ## <a name="see-also"></a>Confira também
 

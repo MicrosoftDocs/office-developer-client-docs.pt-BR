@@ -9,11 +9,11 @@ ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Última modificação: 9 de março de 2015'
 localization_priority: Priority
 ms.openlocfilehash: 74f321d2c6c8b5159191d4dcdb62e0db21132435
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326459"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Compilar aplicativos MAPI em plataformas de 32 bits e 64 bits
 

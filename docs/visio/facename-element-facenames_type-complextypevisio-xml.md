@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: Contém informações sobre uma fonte.
 ms.openlocfilehash: 4c8f047d655be167dc058b3e29ac62161887ce99
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322600"
 ---
 # <a name="facename-element-facenamestype-complextype-visio-xml"></a>Elemento FaceName (FaceNames_Type complexType) ('Visio XML')
 

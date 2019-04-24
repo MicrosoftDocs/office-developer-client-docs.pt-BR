@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: Exclui a conta especificada.
-ms.openlocfilehash: 1c0b246af10dac1af9c61f368d082a92c7b3616a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e39b7b9af57f64dd124e1bf836db68664709b8c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322208"
 ---
 # <a name="iolkaccountmanagerdeleteaccount"></a>IOlkAccountManager::DeleteAccount
 
@@ -20,7 +20,7 @@ Exclui a conta especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT IOlkAccountManager::DeleteAccount (  
@@ -32,18 +32,18 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 _dwAcctID_
   
-> [in] A ID de conta da conta a ser excluído.
+> no A ID da conta a ser excluída.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |A conta especificada não foi encontrada.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+|S_OK  <br/> |A chamada teve êxito  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |A conta especificada não pode ser encontrada.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)  
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)  
 - [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)
 

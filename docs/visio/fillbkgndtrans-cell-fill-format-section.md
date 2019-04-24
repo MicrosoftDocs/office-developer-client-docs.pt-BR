@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Determina o nível de transparência para a cor do plano de fundo (preenchimento) do padrão de preenchimento da forma.
-ms.openlocfilehash: c8dcec8cc0bdb87700bb85754298ec4755bae7d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 64c5d09fb18f089769e025893b9fac8b1878fca1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322481"
 ---
 # <a name="fillbkgndtrans-cell-fill-format-section"></a>Célula FillBkgndTrans (Seção Fill Format)
 
@@ -22,9 +22,7 @@ Determina o nível de transparência para a cor do plano de fundo (preenchimento
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|
-          0 - 100
-  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

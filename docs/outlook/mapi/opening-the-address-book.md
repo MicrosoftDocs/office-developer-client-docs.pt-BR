@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 62a4e6a09570cc3d71b0797ed7fff162d05ee416
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d1a7e8e1d9debd7eb715bbe4958657c000f1e6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326163"
 ---
 # <a name="opening-the-address-book"></a>Abrir o catálogo de endereços
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Chamar [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) para abrir o catálogo de endereços integrada e recuperar um ponteiro para MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) interface. Os métodos da interface **IAddrBook** podem ser usados para acessar as entradas em todos os contêineres de cada um dos provedores de catálogo de endereços no perfil. 
+Chame [IMAPISession:: OpenAddressBook](imapisession-openaddressbook.md) para abrir o catálogo de endereços integrado e recuperar um ponteiro para a interface MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) . Os métodos da interface **IAddrBook** podem ser usados para acessar entradas em todos os contêineres de cada um dos provedores de catálogo de endereços no perfil. 
   
-**OpenAddressBook** pode retornar um aviso, MAPI_W_ERRORS_RETURNED, para indicar que houve problemas com um ou mais dos provedores de catálogo de endereços. Clientes Interactive devem chamar [IMAPISession::GetLastError](imapisession-getlasterror.md) para recuperar informações de erro adicionais e exibir a hora de informações retornadas na primeira ligarem **OpenAddressBook** e retorna um aviso. 
+**OpenAddressBook** pode retornar um aviso, MAPI_W_ERRORS_RETURNED, para indicar que houve problemas com um ou mais dos provedores de catálogo de endereços. Os clientes interAtivos devem chamar [IMAPISession:: GetLastError](imapisession-getlasterror.md) para recuperar informações de erro adicionais e exibir as informações retornadas na primeira vez que chamarem **OpenAddressBook** e retornará um aviso. 
   
-Os clientes não-interativos devem ignore o aviso e prossiga como se o método foi bem-sucedido. A interface de **IAddrBook** retornada é válida independentemente se all, alguns ou nenhum dos provedores de catálogo de endereços no perfil estão sendo executados. Portanto, tanto interativos e clientes sempre devem se lembrar liberar o ponteiro **IAddrBook** quando a sessão será encerrada. 
+Os clientes não interativos devem ignorar o aviso e prosseguir como se o método fosse bem-sucedido. A interface **IAddrBook** retornada é válida independentemente de todos, alguns ou nenhum dos provedores de catálogo de endereços no perfil estão em execução. Portanto, os clientes interativos e não interativos devem sempre se lembrar de liberar o ponteiro do **IAddrBook** quando a sessão terminar. 
   
 

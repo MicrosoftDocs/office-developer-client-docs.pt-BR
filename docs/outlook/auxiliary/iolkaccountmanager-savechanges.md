@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
-description: Salva as alterações para a conta especificada.
-ms.openlocfilehash: 87b513659b632e88697fb63d1aeccccb77ed9fd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Salva as alterações na conta especificada.
+ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322019"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
-Salva as alterações para a conta especificada.
+Salva as alterações na conta especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT IOlkAccountManager::SaveChanges (  
@@ -33,7 +33,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 _dwAcctID_
   
-> [in] A ID de conta para salvar. 
+> no A ID da conta a ser salva. 
     
 _dwFlags_
   
@@ -43,16 +43,16 @@ _dwFlags_
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |A conta especificada não foi encontrada.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+|S_OK  <br/> |A chamada teve êxito  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |A conta especificada não pode ser encontrada.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Após alterar o valor das propriedades de conta usando [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccountManager::SaveChanges** ou [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) salve as alterações. 
+Após alterar o valor das propriedades da conta usando [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccountManager:: SaveChanges** ou [IOlkAccount::](iolkaccount-savechanges.md) SaveChanges para salvar essas alterações. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md) 
 - [IOlkAccount::SaveChanges](iolkaccount-savechanges.md)
 

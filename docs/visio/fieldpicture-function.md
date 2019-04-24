@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251592
 localization_priority: Normal
 ms.assetid: df88c55f-c098-dd4c-bf53-c7d7b60cf719
-description: Retorna uma cadeia de caracteres de figura de formatação que coincida com o código de formato de campo de texto interno do Microsoft Visio.
-ms.openlocfilehash: 1528cefd65ed0c7c1dde02fa390babf26442b4d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna uma cadeia de caracteres de imagem de formato que corresponde ao código de formato de campo de texto interno do Microsoft Visio.
+ms.openlocfilehash: 1ab24c602c7975cf6be22a564a8b9ee9aa0d6f46
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322544"
 ---
 # <a name="fieldpicture-function"></a>Função FIELDPICTURE
 
-Retorna uma cadeia de caracteres de figura de formatação que coincida com o código de formato de campo de texto interno do Microsoft Visio.
+Retorna uma cadeia de caracteres de imagem de formato que corresponde ao código de formato de campo de texto interno do Microsoft Visio.
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -26,11 +26,11 @@ FIELDPICTURE (* * *código* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _code_ <br/> |Obrigatório  <br/> |**Número** <br/> | Um código de formato de campo de texto.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -40,7 +40,7 @@ As sequências de caracteres de figura de formatação são utilizadas na funç�
   
 ## <a name="example"></a>Exemplo
 
-FIELDPICTURE(0) 
+FIELDPICTURE (0) 
   
 Retorna a cadeia de caracteres de figura de formatação "esc(0)", a qual especifica um número com uma posição decimal e uma descrição de unidade em minúsculas quando utilizada na função FORMAT. 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
 description: Representa uma estrutura ACCT_BIN que contém a UID de uma conta do Exchange.
 ms.openlocfilehash: 6bb529da82cc24e41ddc70c5031f84050a2ece25
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326548"
 ---
 # <a name="propmapiemsmdbuid"></a>PROP_MAPI_EMSMDB_UID
 

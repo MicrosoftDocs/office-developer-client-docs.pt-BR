@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8ebaea7fb6888e51ee1ef658db53dcf3050644da
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325610"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>Propriedade canônica PidTagMessageDeliveryTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397342"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora quando uma mensagem foi entregue. 
+Contém a data e hora da entrega de uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém a data e hora quando uma mensagem foi entregue.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade descreve o tempo que a mensagem foi armazenada no servidor, ao invés do tempo de download quando o provedor de transporte copiado a mensagem do servidor para o armazenamento local.
+Esta propriedade descreve a hora em que a mensagem foi armazenada no servidor, em vez do tempo de download quando o provedor de transporte copiou a mensagem do servidor para o repositório local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 504e10efa4f540d64469f6aaab22b3f9e9e1157d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9ce3452bbc2d3297cc67168835a9387235746a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325589"
 ---
 # <a name="writing-an-automated-client"></a>Gravar um cliente automatizado
 
@@ -21,18 +21,18 @@ ms.locfileid: "22582550"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo cliente automatizado é um aplicativo que executa autônomo, não exibindo nenhuma interface de usuário.
+Um aplicativo cliente automatizado é um aplicativo que executa o autônomo, não exibindo nenhuma interface do usuário.
   
- Por padrão, muitos métodos de interface MAPI mostram uma interface do usuário. Todos esses métodos têm os sinalizadores que permitem que um cliente permitir ou suprimir essa exibição. Embora o MAPI espera provedores de serviços para honram esses sinalizadores, existem alguns provedores que sempre não atendem a essas expectativas. Um motivo legítimo não respeitar os sinalizadores é a dependência do provedor de serviços em um outro serviço que não permita a supressão de interface do usuário. Se você estiver desenvolvendo um cliente automatizado, preste bastante atenção para os provedores de serviços que você está usando e como eles são configurados. Não presuma que todas as suas chamadas a fim de suprimir uma interface de usuário poderão ser bem-sucedidas. 
+ Por padrão, muitos métodos de interface MAPI mostram uma interface de usuário. Todos esses métodos têm sinalizadores que permitem que um cliente permita ou suprima essa exibição. Embora o MAPI espere que os provedores de serviços obedeçam a esses sinalizadores, há alguns provedores que nem sempre atendem a essas expectativas. Uma razão legítima para não honrar os sinalizadores é a confiança do provedor de serviços em outro serviço que não permite a supressão da interface do usuário. Se você estiver desenvolvendo um cliente automatizado, preste atenção cuidadosa aos provedores de serviços que está usando e como eles estão configurados. Não presuma que todas as suas chamadas para suprimir uma interface do usuário serão bem-sucedidas. 
   
-Clientes automatizados devem ter as informações necessárias para a configuração correta de cada um dos serviços de mensagem disponíveis no perfil. Há duas maneiras de fornecer informações de configuração no momento do logon:
+Os clientes automatizados devem ter as informações necessárias disponíveis para a configuração adequada de cada um dos serviços de mensagens no perfil. Há duas maneiras de fornecer informações de configuração no momento do logon:
   
 - O provedor de serviços pode recuperar informações do perfil.
     
-- O provedor de serviços pode solicitar informações do usuário. 
+- O provedor de serviços pode solicitar informações ao usuário. 
     
-Desde que a segunda opção não estiver disponível para os clientes automatizados, esses clientes devem usar a primeira opção. Clientes devem configurar seus perfis cuidadosamente para garantir que esta opção sempre funciona.
+Como a segunda opção não está disponível para clientes automatizados, esses clientes devem usar a primeira opção. Os clientes devem configurar seus perfis com cuidado para garantir que essa opção funcione sempre.
   
-Clientes automatizados sempre defina o sinalizador MAPI_NO_MAIL na chamada da função [MAPILogonEx](mapilogonex.md) para iniciar uma sessão MAPI. 
+Os clientes automatizados sempre definem o sinalizador MAPI_NO_MAIL na chamada de função [funçãomapilogonex](mapilogonex.md) para iniciar uma sessão MAPI. 
   
 

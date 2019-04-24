@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
 description: Especifica o accountsendstamp secundário de uma mensagem.
 ms.openlocfilehash: 3aa88a1fd5a73cc4ae2e990e6dad0697083bb694
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327710"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 

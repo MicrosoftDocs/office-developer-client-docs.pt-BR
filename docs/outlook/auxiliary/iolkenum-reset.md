@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd822240-a895-65da-6a0e-76657c15a69e
 description: Redefine o enumerador para o início.
-ms.openlocfilehash: 8bf18e4e4b1eebad48cedb86c9b0113aeb590558
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80be2ac522954ece0aa17dd9a6842c091522b98b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322180"
 ---
 # <a name="iolkenumreset"></a>IOlkEnum::Reset
 
@@ -28,7 +28,7 @@ HRESULT IOlkEnum::Reset ();
 
 ## <a name="return-values"></a>Valores de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="see-also"></a>Confira também
 

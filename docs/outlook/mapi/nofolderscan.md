@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3416bc50e4628df2be09f9fe1a22d19530bcdff8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fc5f5a42e2b1e57374ff80a9333b927cc8dba120
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326261"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 
@@ -21,36 +21,36 @@ ms.locfileid: "22578049"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se o Microsoft Office Outlook deve verificar as pastas de contatos em um repositório.
+Especifica se o Microsoft Office Outlook deve examinar pastas de contatos em um repositório.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Expostas no:  <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md) objeto  <br/> |
-|Criados por:  <br/> |Provedor de armazenamento  <br/> |
-|Acessado por:  <br/> |Outlook e outros clientes  <br/> |
+|Exposto em:  <br/> |[IMsgStore: objeto IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Criado por:  <br/> |Provedor de repositório  <br/> |
+|AcEssado por:  <br/> |Outlook e outros clientes  <br/> |
 |Tipo de propriedade:  <br/> |PT_LONG  <br/> |
-|Tipo de acesso:  <br/> |Somente leitura ou leitura/gravação, dependendo do provedor de repositório  <br/> |
+|Tipo de acesso:  <br/> |Somente leitura ou leitura/gravação dependendo do provedor de repositório  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fornecer qualquer funcionalidade loja, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válido para qualquer uma dessas propriedades passados para uma chamada [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::GetProps](imapiprop-getprops.md), o provedor de armazenamento também deve retornar o valor da propriedade correto. Provedores de armazenamento podem chamar [HrGetOneProp](hrgetoneprop.md) e [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
+Para fornecer qualquer uma das funcionalidades de armazenamento, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válida para qualquer uma dessas propriedades passadas para uma chamada [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::](imapiprop-getprops.md)GetProps, o provedor de repositório também deve retornar o valor de propriedade correto. Os provedores de repositório podem chamar o [HrGetOneProp](hrgetoneprop.md) e o [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
   
-Para recuperar o valor dessa propriedade, o cliente deve primeiro usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e especifique nesta marca de propriedade em [IMAPIProp::GetProps](imapiprop-getprops.md) para obter o valor. Ao chamar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) apontado pelo parâmetro de entrada _lppPropNames_:
+Para recuperar o valor dessa propriedade, o cliente deve primeiro usar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obter a marca de propriedade e, em seguida, especificar essa marca de propriedade em [IMAPIProp::](imapiprop-getprops.md) GetProps para obter o valor. Ao chamar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), especifique os seguintes valores para a estrutura [MAPINAMEID](mapinameid.md) indicada pelo parâmetro de entrada _lppPropNames_:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName:  <br/> |L "NoFolderScan"  <br/> |
+|Tipo. lpwstrName:  <br/> |L "NoFolderScan"  <br/> |
    
-Essa propriedade oferece uma maneira de provedores de armazenamento especificar como o Outlook não para examinar as pastas de contatos no repositório de para evitar a diminuição do desempenho. Ele é usado nas operações de mala direta durante o qual o Outlook verifica a presença e o valor dessa propriedade antes de iniciar a varredura.
+Esta propriedade oferece uma maneira de os provedores de loja especificarem para que o Outlook não examine as pastas de contatos no repositório para evitar a degradação de desempenho. É usado em operações de mala direta durante as quais o Outlook verifica a presença e o valor dessa propriedade antes de iniciar a verificação.
   
-Por padrão, essa propriedade não está exposta em um repositório, o que significa que o Outlook pode examinar a pasta de contatos no repositório. Se a propriedade é exposta, estes são os valores possíveis:
+Por padrão, essa propriedade não é exposta em um repositório, o que significa que o Outlook pode verificar a pasta de contatos no repositório. Se a propriedade for exposta, estes são os valores possíveis:
   
-- Zero (0): Outlook pode executar a verificação.
+- Zero (0): o Outlook pode realizar a verificação.
     
-- Valor diferente de zero: o Outlook não deve examinar as pastas de contatos no repositório.
+- Valor diferente de zero: o Outlook não deve examinar pastas de contatos na loja.
     
 

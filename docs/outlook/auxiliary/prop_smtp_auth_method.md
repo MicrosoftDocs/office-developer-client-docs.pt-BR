@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
-description: Especifica o método de autenticação a ser usado para a conta de SMTP.
-ms.openlocfilehash: 0c52f1eeca8f7ac3e63cccf712dd672c2247be6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica o método de autenticação a ser usado para a conta SMTP.
+ms.openlocfilehash: bb5adeb1fe73ed8b7ab69ca584215b44e1a9e4b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326499"
 ---
 # <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
 
-Especifica o método de autenticação a ser usado para a conta de SMTP.
+Especifica o método de autenticação a ser usado para a conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -25,20 +25,20 @@ Especifica o método de autenticação a ser usado para a conta de SMTP.
 |Identificador:  <br/> |0x0208  <br/> |
 |Tipo de propriedade:  <br/> |PT_DWORD  <br/> |
 |Marca de propriedade:  <br/> |0x02080003  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor é uma bitmask das seguintes constantes. Consulte [constantes (API de gerenciamento de conta)](constants-account-management-api.md) para seus valores. 
+O valor é uma bitmask das constantes a seguir. ConFira [constantes (API de gerenciamento de contas)](constants-account-management-api.md) para seus valores. 
   
-- **SMTP_AUTH_SAME_AS_POP** significa usando as mesmas credenciais como meu servidor de email de entrada, conforme fornecido pela [PROP_INET_USER](prop_inet_user.md) e [PROP_INET_PASSWORD](prop_inet_password.md).
+- **SMTP_AUTH_SAME_AS_POP** significa usar as mesmas credenciais que meu servidor de email de entrada, conforme fornecido por [PROP_INET_USER](prop_inet_user.md) e [PROP_INET_PASSWORD](prop_inet_password.md).
     
-- **SMTP_AUTH_USER_PASS** significa utilizando as credenciais conforme fornecido pela [PROP_SMTP_USER](prop_smtp_user.md) e [PROP_SMTP_PASSWORD](prop_smtp_password.md).
+- **SMTP_AUTH_USER_PASS** significa usar as credenciais conforme fornecido por [PROP_SMTP_USER](prop_smtp_user.md) e [PROP_SMTP_PASSWORD](prop_smtp_password.md).
     
-- **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa solicitando que o usuário para fazer logon no servidor de email de entrada antes de enviar email. 
+- **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa solicitar que o usuário faça logon no servidor de email de entrada antes de enviar email. 
     
 ## <a name="see-also"></a>Confira também
 
 - [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)  
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

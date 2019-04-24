@@ -1,31 +1,31 @@
 ---
-title: Elemento FaceNames (VisioDocument_Type complexType) ('Visio XML')
+title: Elemento FaceNames (VisioDocument_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
-description: Contém uma coleção de elementos de FaceName.
+description: Contém uma coleção de elementos FaceName.
 ms.openlocfilehash: 5d6f2ffbf54dd04e744e85909fbc8a6bd4a387a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322579"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) ('Visio XML')
+# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (' Visio XML ')
 
-Contém uma coleção de elementos de **FaceName** . 
+Contém uma coleção de elementos **FaceName**. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Contém uma coleção de elementos de **FaceName** .
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 

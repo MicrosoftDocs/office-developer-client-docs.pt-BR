@@ -1,5 +1,5 @@
 ---
-title: Preparando-se para o lançamento de um provedor OSC
+title: Preparando-se para liberar um provedor do OSC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,46 +7,46 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
-description: Esta seção sugere os testes, que você pode fazer antes de liberar seu provedor do Outlook Social Connector (OSC).
-ms.openlocfilehash: 5caf4144a8daed31d30c9ecbcf9cf21c2300ed8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta seção sugere testes que você pode fazer antes de liberar seu provedor do Outlook Social Connector (OSC).
+ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327150"
 ---
-# <a name="getting-ready-to-release-an-osc-provider"></a>Preparando-se para o lançamento de um provedor OSC
+# <a name="getting-ready-to-release-an-osc-provider"></a>Preparando-se para liberar um provedor do OSC
 
-Esta seção sugere os testes, que você pode fazer antes de liberar seu provedor do Outlook Social Connector (OSC). Você pode iniciar consultando os tópicos desta seção e realizar alguns desses testes durante seu desenvolvimento e as fases de teste, mas você deve concluir estes testes quando que você solta. 
+Esta seção sugere testes que você pode fazer antes de liberar seu provedor do Outlook Social Connector (OSC). Você pode começar a fazer referência aos tópicos desta seção e a executar alguns desses testes durante suas fases de desenvolvimento e teste, mas você deve ter concluído esses testes no momento da liberação. 
 
-Esses testes verificam a funcionalidade básica da sua implementação das interfaces do provedor do OSC com relação aos recursos que você especificar para o provedor do OSC. Além disso, mesmo que o OSC é um recurso compartilhado por vários aplicativos de cliente do Office, esses testes usam o Outlook como o cliente para testar a funcionalidade fundamental. Você deve determinar se outros testes são necessários para recursos específicos para o seu provedor.
+Esses testes verificam a funcionalidade básica da sua implementação das interfaces do provedor OSC com relação aos recursos que você especificar para o provedor do OSC. Além disso, mesmo que o OSC seja um recurso compartilhado por vários aplicativos cliente do Office, esses testes usam o Outlook como cliente para testar a funcionalidade fundamental. Você deve determinar se outros testes são necessários para os recursos específicos do provedor.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Implantação de teste](testing-deployment.md): descreve os cenários, você deve ser testado em torno de instalação e desinstalação de um provedor OSC.
+- [Testing Deployment](testing-deployment.md): descreve os cenários em que você deve testar a instalação e desinstalação de um provedor do OSC.
     
-- [Recursos de teste, a autenticação e a configuração](testing-capabilities-authentication-and-configuration.md): descreve os testes para obtenção de recursos e cenários em torno Configurando uma conta e autenticação de um usuário para uma rede social.
+- [Recursos de teste, autenticação e configuração](testing-capabilities-authentication-and-configuration.md): descreve os testes para obter recursos e cenários sobre como configurar uma conta e autenticar um usuário para uma rede social.
     
-- [Stop-seguir pessoas e testando seguir](testing-following-and-stop-following-persons.md): descreve os cenários para testar a capacidade do provedor OSC para adicionar uma pessoa como um amigo, ou para remover um amigo da rede social. 
+- [Teste a seguir e pare as pessoas a seguir](testing-following-and-stop-following-persons.md): descreve cenários para testar a capacidade do provedor do OSC de adicionar uma pessoa como amigo ou remover um amigo da rede social. 
     
-- [Testando amigos](testing-friends.md): descreve os testes e cenários para verificar que o provedor do OSC apropriadamente retorna dados de amigos e não-amigos, onde aplicável, dependendo do modo de sincronização que o provedor oferece suporte.
+- [TestAndo amigos](testing-friends.md): descreve testes e cenários para verificar se o provedor do OSC retorna adequadamente dados de amigos e não amigos, quando aplicável, dependendo do modo de sincronização que o provedor suporta.
     
-- [Atividades de teste](testing-activities.md): descreve os testes e cenários para verificar que o provedor do OSC apropriadamente retorna atividades de amigos e não-amigos, onde aplicável, dependendo do modo de sincronização que o provedor oferece suporte.
+- [Atividades de teste](testing-activities.md): descreve testes e cenários para verificar se o provedor do OSC retorna adequadamente as atividades de amigos e não amigos, quando aplicável, dependendo do modo de sincronização que o provedor suporta.
     
-## <a name="reference"></a>Referência
+## <a name="reference"></a>Referências
 
 - [Referência do provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
-- [Modelos de amostra do OSC](osc-sample-templates.md)
+- [Modelos de exemplo do OSC](osc-sample-templates.md)
   
-- [Sequências de chamadas comuns do OSC](osc-typical-calling-sequences.md)
+- [Sequências de chamada típicas do OSC](osc-typical-calling-sequences.md)
   
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
+- [Desenvolver um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)
   
-- [Depurando um provedor](debugging-a-provider.md)
+- [Depurar um provedor](debugging-a-provider.md)
   
-- [Implantando um provedor](deploying-a-provider.md)
+- [Implantar um provedor](deploying-a-provider.md)
   
 

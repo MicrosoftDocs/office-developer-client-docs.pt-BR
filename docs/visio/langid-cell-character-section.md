@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c68289b8-ef45-9e1e-12ae-6613587e4990
 description: Indica o idioma no qual o texto foi inserido.
-ms.openlocfilehash: e503abb2365635fa25a4dbec54b7fe3da4043fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1f244d6d8e31201576a9a88ace9701814b0e0a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326919"
 ---
 # <a name="langid-cell-character-section"></a>Célula LangID (Seção Character)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char.LangID [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char. LangID [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
