@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: fb633977fcc1b39fc2a5c0bb69523bc93c193695
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293207"
 ---
 # <a name="exportwithformatting-macro-action"></a>Ação da macro ExportarcomFormatação
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **ExportarcomFormatação** para gerar a saída dos dados do objeto de banco de dados do Microsoft Access especificado (uma folha de dados, um formulário, um relatório, um módulo ou uma página de acesso a dados) para vários formatos de saída.
 
@@ -43,7 +43,7 @@ A ação **ExportarcomFormatação** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de Objeto</strong></p></td>
-<td><p>O tipo de objeto que contém os dados para gerar saída. Clique em <strong>Tabela</strong> (para uma folha de dados de tabela), <strong>Consulta</strong> (para uma folha de dados de consulta), <strong>Formulário</strong> (para um formulário ou uma folha de dados de formulário), <strong>Relatório</strong>, <strong>Módulo</strong>, <strong>Modo de Exibição de Servidor</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Não é possível gerar saída de uma macro. Se desejar gerar saída do objeto ativo, selecione seu tipo com este argumento, mas deixe o argumento <strong>Nome do Objeto</strong> em branco. Esse é um argumento obrigatório. O padrão é <strong>Tabela</strong>.  </p></td>
+<td><p>O tipo de objeto que contém os dados para gerar saída. Clique em <strong>Tabela</strong> (para uma folha de dados de tabela), <strong>Consulta</strong> (para uma folha de dados de consulta), <strong>Formulário</strong> (para um formulário ou uma folha de dados de formulário), <strong>Relatório</strong>, <strong>Módulo</strong>, <strong>Modo de Exibição de Servidor</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Não é possível gerar saída de uma macro. Se desejar gerar saída do objeto ativo, selecione seu tipo com este argumento, mas deixe o argumento <strong>Nome do Objeto</strong> em branco. Esse é um argumento obrigatório. O padrão é <strong>Tabela</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto</strong></p></td>
@@ -51,14 +51,14 @@ A ação **ExportarcomFormatação** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Formato de Saída</strong></p></td>
-<td><p>O tipo de formato que será usado para gerar saída dos dados. Você pode selecionar a <strong>Pasta de trabalho binária do Excel (*. xlsb)</strong>, <strong>do Excel 97 - pasta de trabalho do Excel 2003 (*. xls)</strong>, a <strong>Pasta de trabalho do Excel (*. xlsx)</strong>, <strong>HTML (*. htm; *. HTML)</strong>, <strong>Pasta de trabalho do Microsoft Excel 5.0/95 (*. xls)</strong>, <strong>Formato PDF (*. PDF)</strong>, <strong> Formato Rich Text (RTF)</strong>, <strong>arquivos de texto (*. txt)</strong>ou <strong>formato XPS (*. XPS)</strong>. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
+<td><p>O tipo de formato que será usado para gerar saída dos dados. Você pode selecionar <strong>Pasta de Trabalho do Excel 97 - Excel 2003 (*.xls)</strong>, <strong>Pasta de Trabalho Binária do Excel (*.xlsb)</strong>, <strong>Pasta de Trabalho do Excel (*.xlsx)</strong>, <strong>HTML (*.htm; *.html)</strong>, <strong>Pasta de Trabalho do Microsoft Excel 5.0/95 (*.xls)</strong>, <strong>Formato PDF (*.pdf)</strong>, <strong>Formato Rich Text (*.rtf)</strong>, <strong>Arquivos de Texto (*.txt)</strong> ou <strong>Formato XPS (*.xps)</strong>. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Arquivo de Saída</strong></p></td>
-<td><p>O arquivo no qual você deseja gerar saída dos dados, incluindo o caminho completo. É possível incluir a extensão de nome de arquivo padrão para o formato de saída selecionado com o argumento <strong>Formato de Saída</strong>, mas ela não é obrigatória. Se você deixar o argumento <strong>Arquivo de Saída</strong> em branco, o Access solicitará um nome de arquivo de saída.  </p></td>
+<td><p><strong>Arquivo de saída</strong></p></td>
+<td><p>O arquivo de destino da saída dos dados, incluindo o caminho completo. Você pode incluir a extensão de nome de arquivo padrão para o formato de saída selecionado com o argumento <strong>Formato de Saída</strong>, mas ele não é obrigatório. Se você deixar o argumento <strong>Arquivo de Saída</strong> em branco, o Access solicitará um nome de arquivo de saída.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AutoIniciar</strong></p></td>
+<td><p><strong>Início Automático</strong></p></td>
 <td><p>Especifica se o software apropriado deverá ser iniciado imediatamente após a execução da ação <strong>ExportarcomFormatação</strong>, com o arquivo especificado pelo argumento <strong>Arquivo de Saída</strong> aberto.</p></td>
 </tr>
 <tr class="even">
@@ -67,11 +67,11 @@ A ação **ExportarcomFormatação** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Codificação</strong></p></td>
-<td><p>O tipo de formato de codificação de caracteres usado para gerar saída de texto ou de dados HTML. Você pode selecionar <strong>MS-DOS</strong>, <strong>Unicode</strong> ou <strong>Unicode (UTF-8)</strong>. A configuração de argumento <strong>MS-DOS</strong> está disponível somente para arquivos de texto. Se você deixar este argumento em branco, o Access gerará saída dos dados usando a codificação padrão do Windows para arquivos de texto e a codificação de sistema padrão para arquivos HTML.  </p></td>
+<td><p>O tipo de formato de codificação de caracteres usado para gerar saída de texto ou de dados HTML. Você pode selecionar <strong>MS-DOS</strong>, <strong>Unicode</strong> ou <strong>Unicode (UTF-8)</strong>. A configuração de argumento <strong>MS-DOS</strong> está disponível somente para arquivos de texto. Se você deixar este argumento em branco, o Access gerará saída dos dados usando a codificação padrão do Windows para arquivos de texto e a codificação de sistema padrão para arquivos HTML.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Qualidade da Saída</strong></p></td>
-<td><p>Selecione <strong>Imprimir</strong> para otimizar a saída para impressão ou <strong>Tela</strong> para otimizar a saída para exibição em tela.</p></td>
+<td><p>Selecione <strong>Imprimir</strong> para otimizar a saída para impressão ou <strong>Tela</strong> para otimizar a saída para exibição na tela.</p></td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ As regras a seguir se aplicam ao usar a ação **ExportarcomFormatação** para 
 
   - É possível gerar saída dos dados em folhas de dados de tabela, de consulta e de formulário. No arquivo de saída, todos os campos da folha de dados aparecem da mesma maneira que no Access, com a exceção dos campos que contêm objetos OLE. As colunas dos campos de objetos OLE são incluídas no arquivo de saída, mas os campos ficam em branco.
 
-  - Para um controle que está acoplado a um campo Sim/não (um botão de alternância, botão de opção ou caixa de seleção), o arquivo de saída exibe o valor – 1 (Sim) ou 0 (não).
+  - Para um controle que é ligado a um campo Sim/Não (um botão de alternância, um botão de opções ou uma caixa de seleção), o arquivo de saída exibe o valor -1 (Sim) ou 0 (Não).
 
   - Para uma caixa de texto ligada a um campo de hiperlink, o arquivo de saída exibe o hiperlink para todos os formatos de saída com exceção de texto MS-DOS (nesse caso, o hiperlink é exibido como texto normal).
 

@@ -14,24 +14,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: d78a6c043e99af1ca50ca798b94088400fd09f0d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287864"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>Declaração PARAMETERS (Microsoft Access SQL)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Declara o nome e o tipo dos dados de cada parâmetro em uma consulta de parâmetro.
 
 ## <a name="syntax"></a>Sintaxe
 
-PARÂMETROS de *tipo de dados de nome* \[, *nome datatype* \[,...\]\]
+PARAMETERS *nomear tipo de dados* \[, *nomear tipo de dados* \[, …\]\]
 
-A declaração PARAMETERS contém estas partes:
+A declaração PARAMETERS tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ A declaração PARAMETERS contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -63,13 +63,13 @@ Para consultas executadas regularmente, você pode usar uma declaração PARAMET
 
 A declaração PARAMETERS é opcional, mas, quando incluso, precede qualquer outra instrução, incluindo [SELECT](select-statement-microsoft-access-sql.md).
 
-Se a declaração incluir mais de um parâmetro, separe-os com vírgulas. O exemplo a seguir inclui dois parâmetros:
+Se a declaração inclui mais de um parâmetro, separe-os com vírgulas. O exemplo a seguir inclui dois parâmetros:
 
 ```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-Você pode usar o *nome* , mas não *datatype* em uma cláusula [onde](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) . O exemplo a seguir espera que dois parâmetros sejam fornecidos e, em seguida, aplicar os critérios na tabela Pedidos:
+Você pode usar *name* mas não *datatype* em uma cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql). O exemplo a seguir espera que dois parâmetros sejam fornecidos e, em seguida, aplicar os critérios na tabela Pedidos:
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -82,9 +82,9 @@ AND OrderDate >= [Beginning date];
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo requer que o usuário forneça um cargo e, em seguida, use aquele cargo como o critério para a consulta.
+Este exemplo exige que o usuário forneça um cargo e use este cargo como critério para a consulta.
 
-Ele chama o procedimento EnumFields, que pode ser encontrado no exemplo a [instrução SELECT](select-statement-microsoft-access-sql.md) .
+Ele é chamado procedimento EnumFields, o qual você pode encontrar no exemplo da [instrução SELECT](select-statement-microsoft-access-sql.md).
 
 ```vb
     Sub ParametersX() 
