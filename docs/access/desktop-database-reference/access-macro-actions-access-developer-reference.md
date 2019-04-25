@@ -1,5 +1,5 @@
 ---
-title: Ações de macro do Access (referência de desenvolvedor do Access)
+title: Ações de macro do Access (Referência para Desenvolvedores do Access)
 TOCTitle: Access macro actions
 ms:assetid: bea73e66-2fd7-41a0-af62-c246c088a2ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ccf94d51160aebcae8644def4433ace4f369b205
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280619"
 ---
-# <a name="access-macro-actions-access-developer-reference"></a>Ações de macro do Access (referência de desenvolvedor do Access)
+# <a name="access-macro-actions-access-developer-reference"></a>Ações de macro do Access (Referência para Desenvolvedores do Access)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 - [Objetos ADP](adp-objects.md)
 - [Ações de dados](data-actions.md)
