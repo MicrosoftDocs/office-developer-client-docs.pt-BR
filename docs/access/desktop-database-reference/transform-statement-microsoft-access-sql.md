@@ -1,5 +1,5 @@
 ---
-title: TRANSFORMAR instrução (Microsoft Access SQL)
+title: Instrução TRANSFORM (Microsoft Access SQL)
 TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
@@ -12,23 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314039"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a><span data-ttu-id="f1fe5-102">TRANSFORMAR instrução (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="f1fe5-102">TRANSFORM statement (Microsoft Access SQL)</span></span>
+# <a name="transform-statement-microsoft-access-sql"></a><span data-ttu-id="7ee8a-102">Instrução TRANSFORM (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="7ee8a-102">TRANSFORM Statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="f1fe5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1fe5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ee8a-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ee8a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f1fe5-104">Cria uma consulta de tabela de referência cruzada.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-104">Creates a crosstab query.</span></span>
+<span data-ttu-id="7ee8a-104">Cria uma consulta de tabela de referência cruzada.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-104">Creates a crosstab query.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f1fe5-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f1fe5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7ee8a-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="7ee8a-105">Syntax</span></span>
 
-<span data-ttu-id="f1fe5-106">TRANSFORMAR *aggfunctionselectstatement* PIVOT *pivotfield* \[pol (*valor1*\[, *value2*\[,... \]\])\]</span><span class="sxs-lookup"><span data-stu-id="f1fe5-106">TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[, *value2*\[, …\]\])\]</span></span>
+<span data-ttu-id="7ee8a-106">TRANSFORM *aggfunctionselectstatement* PIVOT *campo dinâmico* \[IN (*valor1*\[, *valor2*\[, …\]\])\]</span><span class="sxs-lookup"><span data-stu-id="7ee8a-106">TRANSFORM aggfunction selectstatement
+    PIVOT pivotfield [IN (value1[, value2[, …]])]</span></span>
 
-<span data-ttu-id="f1fe5-107">A instrução TRANSFORM contém estas partes:</span><span class="sxs-lookup"><span data-stu-id="f1fe5-107">The TRANSFORM statement has these parts:</span></span>
+<span data-ttu-id="7ee8a-107">A instrução TRANSFORM tem as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="7ee8a-107">The TRANSFORM statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -37,41 +38,41 @@ ms.locfileid: "28711956"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f1fe5-108">Parte</span><span class="sxs-lookup"><span data-stu-id="f1fe5-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="f1fe5-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="f1fe5-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="7ee8a-108">Sair</span><span class="sxs-lookup"><span data-stu-id="7ee8a-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="7ee8a-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="7ee8a-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1fe5-110"><em>aggfunction</em></span><span class="sxs-lookup"><span data-stu-id="f1fe5-110"><em>aggfunction</em></span></span></p></td>
-<td><p><span data-ttu-id="f1fe5-111">Uma <a href="sql-aggregate-functions-sql.md">função de agregação de SQL</a> que funciona em dados selecionados.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-111">An <a href="sql-aggregate-functions-sql.md">SQL aggregate function</a> that operates on the selected data.</span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-110"><em>aggfunction</em></span><span class="sxs-lookup"><span data-stu-id="7ee8a-110"><em>aggfunction</em></span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-111">Uma <a href="sql-aggregate-functions-sql.md">função de agregação de SQL</a> que funciona em dados selecionados.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-111">An <a href="sql-aggregate-functions-sql.md">SQL aggregate function</a> that operates on the selected data.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1fe5-112"><em>selectstatement</em></span><span class="sxs-lookup"><span data-stu-id="f1fe5-112"><em>selectstatement</em></span></span></p></td>
-<td><p><span data-ttu-id="f1fe5-113">Uma instrução <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-113">A <a href="select-statement-microsoft-access-sql.md">SELECT</a> statement.</span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-112"><em>selectstatement</em></span><span class="sxs-lookup"><span data-stu-id="7ee8a-112">AS <em>selectstatement</em></span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-113">Uma instrução <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-113">A <a href="select-statement-microsoft-access-sql.md">SELECT</a> statement.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1fe5-114"><em>pivotfield</em></span><span class="sxs-lookup"><span data-stu-id="f1fe5-114"><em>pivotfield</em></span></span></p></td>
-<td><p><span data-ttu-id="f1fe5-115">O campo ou expressão que deseja usar para criar títulos de colunas no conjunto de resultados da consulta.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-115">The field or expression you want to use to create column headings in the query's result set.</span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-114"><em>campo dinâmico</em></span><span class="sxs-lookup"><span data-stu-id="7ee8a-114"><em>PivotField</em></span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-115">O campo ou expressão que deseja usar para criar títulos de colunas no conjunto de resultados da consulta.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-115">The field or expression you want to use to create column headings in the query's result set.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1fe5-116"><em>value1</em>, <em>value2</em></span><span class="sxs-lookup"><span data-stu-id="f1fe5-116"><em>value1</em>, <em>value2</em></span></span></p></td>
-<td><p><span data-ttu-id="f1fe5-117">Valores fixos usados para criar títulos de colunas.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-117">Fixed values used to create column headings.</span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-116"><em>valor1</em>, <em>valor2</em></span><span class="sxs-lookup"><span data-stu-id="7ee8a-116"><em>value1</em>, <em>value2</em></span></span></p></td>
+<td><p><span data-ttu-id="7ee8a-117">Valores fixos usados para criar títulos de coluna.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-117">Fixed values used to create column headings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a><span data-ttu-id="f1fe5-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="f1fe5-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ee8a-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="7ee8a-118">Remarks</span></span>
 
-<span data-ttu-id="f1fe5-119">Ao resumir dados utilizando uma consulta de tabela de referência cruzada, você seleciona valores de campos ou expressões especificados como títulos de colunas para que seja possível exibir dados em um formato mais compacto do que o formato da consulta de seleção.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-119">When you summarize data using a crosstab query, you select values from specified fields or expressions as column headings so you can view data in a more compact format than with a select query.</span></span>
+<span data-ttu-id="7ee8a-119">Ao resumir dados utilizando uma consulta de tabela de referência cruzada, você seleciona valores de campos ou expressões especificados como títulos de colunas para que seja possível exibir dados em um formato mais compacto do que o formato da consulta de seleção.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-119">When you summarize data using a crosstab query, you select values from specified fields or expressions as column headings so you can view data in a more compact format than with a select query.</span></span>
 
-<span data-ttu-id="f1fe5-p101">TRANSFORM é opcional, mas, quando incluso, é a primeira instrução em uma sequência SQL. Ela precede uma instrução SELECT que especifica os campos utilizados como títulos de linha e uma cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica o agrupamento de linhas. Opcionalmente, você pode incluir outras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifica critérios adicionais de seleção ou classificação. Você também pode usar subconsultas como predicados  especificamente, aqueles na cláusula WHERE  em uma consulta de tabela de referência cruzada.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-p101">TRANSFORM is optional but when included is the first statement in an SQL string. It precedes a SELECT statement that specifies the fields used as row headings and a [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) clause that specifies row grouping. Optionally, you can include other clauses, such as [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), that specify additional selection or sorting criteria. You can also use subqueries as predicates — specifically, those in the WHERE clause — in a crosstab query.</span></span>
+<span data-ttu-id="7ee8a-p101">TRANSFORM é opcional, mas, quando incluso, é a primeira instrução em uma sequência SQL. Ela precede uma instrução SELECT que especifica os campos utilizados como títulos de linha e uma cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica o agrupamento de linhas. Opcionalmente, você pode incluir outras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifica critérios adicionais de seleção ou classificação. Você também pode usar subconsultas como predicados  especificamente, aqueles na cláusula WHERE  em uma consulta de tabela de referência cruzada.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-p101">TRANSFORM is optional but when included is the first statement in an SQL string. It precedes a SELECT statement that specifies the fields used as row headings and a [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) clause that specifies row grouping. Optionally, you can include other clauses, such as [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), that specify additional selection or sorting criteria. You can also use subqueries as predicates — specifically, those in the WHERE clause — in a crosstab query.</span></span>
 
-<span data-ttu-id="f1fe5-p102">Os valores retornados em *pivotfield* são utilizados como títulos de colunas no conjunto de resultados da consulta. Por exemplo, dinamizar as figuras de vendas no mês de vendas, em um consulta de tabela de referência cruzada cria 12 colunas. Você pode restringir *pivotfield* para criar títulos de valores fixos (*value1*, *value2* ) listados na cláusula IN opcional. Também é possível incluir valores fixos que não têm nenhum dado para criar colunas adicionais.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-p102">The values returned in *pivotfield* are used as column headings in the query's result set. For example, pivoting the sales figures on the month of the sale in a crosstab query would create 12 columns. You can restrict *pivotfield* to create headings from fixed values (*value1*, *value2* ) listed in the optional IN clause. You can also include fixed values for which no data exists to create additional columns.</span></span>
+<span data-ttu-id="7ee8a-p102">Os valores retornados em *pivotfield* são usados como títulos de coluna no conjunto de resultados da consulta. Por exemplo, dinamizar as estimativas de vendas no mês de vendas em uma consulta de tabela de referência cruzada cria 12 colunas. Você pode restringir *pivotfield* para criar títulos de valores fixos (*valor1*, *valor2*) listados na cláusula IN opcional. Você também pode incluir valores fixos para o qual não há nenhum dado para criar colunas adicionais.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-p102">The values returned in *pivotfield* are used as column headings in the query's result set. For example, pivoting the sales figures on the month of the sale in a crosstab query would create 12 columns. You can restrict *pivotfield* to create headings from fixed values (*value1*, *value2* ) listed in the optional IN clause. You can also include fixed values for which no data exists to create additional columns.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f1fe5-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f1fe5-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7ee8a-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7ee8a-128">Example</span></span>
 
-<span data-ttu-id="f1fe5-p103">Este exemplo usa a cláusula SQL TRANSFORM para criar uma consulta entre guias, mostrando o número de pedidos feitos por cada cliente em cada trimestre de 1994. A função SQLTRANSFORMOutput é necessária para a execução desse procedimento.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-p103">This example uses the SQL TRANSFORM clause to create a crosstab query showing the number of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="7ee8a-p103">Este exemplo usa a cláusula SQL TRANSFORM para criar uma consulta entre guias, mostrando o número de pedidos feitos por cada cliente em cada trimestre de 1994. A função SQLTRANSFORMOutput é necessária para a execução desse procedimento.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-p103">This example uses the SQL TRANSFORM clause to create a crosstab query showing the number of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub TransformX1() 
@@ -109,7 +110,7 @@ ms.locfileid: "28711956"
 
 <br/>
 
-<span data-ttu-id="f1fe5-p104">Este exemplo usa a cláusula SQL TRANSFORM para criar uma consulta entre guias um pouco mais complexa, mostrando o valor total em dólar dos pedidos feitos por cada cliente em cada trimestre de 1994. A função SQLTRANSFORMOutput é necessária para a execução desse procedimento.</span><span class="sxs-lookup"><span data-stu-id="f1fe5-p104">This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="7ee8a-p104">Este exemplo usa a cláusula SQL TRANSFORM para criar uma consulta entre guias um pouco mais complexa, mostrando o valor total em dólar dos pedidos feitos por cada cliente em cada trimestre de 1994. A função SQLTRANSFORMOutput é necessária para a execução desse procedimento.</span><span class="sxs-lookup"><span data-stu-id="7ee8a-p104">This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub TransformX2() 

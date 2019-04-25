@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 2ff1dc5aab4d56ab43e2cde030956a8514d926bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314347"
 ---
-# <a name="tabledef-object-reference-dao"></a><span data-ttu-id="4e2d7-102">Referência de objeto TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e2d7-102">TableDef object reference (DAO)</span></span>
+# <a name="tabledef-object-reference-dao"></a><span data-ttu-id="33842-102">Referência de objeto TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="33842-102">TableDef Object Reference (DAO)</span></span>
 
-<span data-ttu-id="4e2d7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e2d7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="33842-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33842-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4e2d7-104">Objeto TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e2d7-104">TableDef object (DAO)</span></span>](tabledef-object-dao.md)
-- [<span data-ttu-id="4e2d7-105">Membros de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e2d7-105">TableDef members (DAO)</span></span>](tabledef-members-dao.md)
-- [<span data-ttu-id="4e2d7-106">Propriedades de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e2d7-106">TableDef properties (DAO)</span></span>](tabledef-properties-dao.md)
-- [<span data-ttu-id="4e2d7-107">Métodos de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e2d7-107">TableDef methods (DAO)</span></span>](tabledef-methods-dao.md)
+- [<span data-ttu-id="33842-104">Objeto de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="33842-104">TableDef object (DAO)</span></span>](tabledef-object-dao.md)
+- [<span data-ttu-id="33842-105">Membros de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="33842-105">TableDef members (DAO)</span></span>](tabledef-members-dao.md)
+- [<span data-ttu-id="33842-106">Propriedades de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="33842-106">TableDef properties (DAO)</span></span>](tabledef-properties-dao.md)
+- [<span data-ttu-id="33842-107">Métodos de TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="33842-107">TableDef methods (DAO)</span></span>](tabledef-methods-dao.md)
 
