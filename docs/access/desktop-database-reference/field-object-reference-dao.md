@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3e1c3586d06c877517be1c8006a756ce7bc9a075
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293025"
 ---
-# <a name="field-object-reference-dao"></a><span data-ttu-id="f4128-102">Referência de objeto de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4128-102">Field object reference (DAO)</span></span>
+# <a name="field-object-reference-dao"></a><span data-ttu-id="11b3c-102">Referência de objeto de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="11b3c-102">Field Object Reference (DAO)</span></span>
 
-<span data-ttu-id="f4128-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f4128-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11b3c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11b3c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f4128-104">Objeto Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4128-104">Field object (DAO)</span></span>](field-object-dao.md)
-- [<span data-ttu-id="f4128-105">Membros do campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4128-105">Field members (DAO)</span></span>](field-members-dao.md)
-- [<span data-ttu-id="f4128-106">Propriedades do campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4128-106">Field properties (DAO)</span></span>](field-properties-dao.md)
-- [<span data-ttu-id="f4128-107">Métodos de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4128-107">Field methods (DAO)</span></span>](field-methods-dao.md)
+- [<span data-ttu-id="11b3c-104">Objeto de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="11b3c-104">Field object (DAO)</span></span>](field-object-dao.md)
+- [<span data-ttu-id="11b3c-105">Membros de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="11b3c-105">Field members (DAO)</span></span>](field-members-dao.md)
+- [<span data-ttu-id="11b3c-106">Propriedades do campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="11b3c-106">Field properties (DAO)</span></span>](field-properties-dao.md)
+- [<span data-ttu-id="11b3c-107">Métodos de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="11b3c-107">Field methods (DAO)</span></span>](field-methods-dao.md)
 
