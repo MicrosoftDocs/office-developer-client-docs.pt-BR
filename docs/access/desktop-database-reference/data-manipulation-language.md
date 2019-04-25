@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c0cfc490bf2028f53c307396d4be2dceadf0794c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295055"
 ---
 # <a name="data-manipulation-language-microsoft-access-sql"></a>Linguagem de manipulação de dados (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 - [Instrução DELETE](delete-statement-microsoft-access-sql.md)
 - [Instrução EXECUTE](execute-statement-microsoft-access-sql.md)

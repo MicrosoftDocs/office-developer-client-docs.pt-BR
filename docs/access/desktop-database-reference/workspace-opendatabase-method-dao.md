@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302580"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Método Workspace.OpenDatabase (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-dao.md)** e retorna uma referência ao objeto **[Database](database-object-dao.md)** que o representa.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . OpenDatabase (***nome***, ***Opções***, ***ReadOnly***, ***Conecte-se***)
+*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -47,11 +47,11 @@ Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>CadeiaDeCaracteres</strong></p></td>
-<td><p>O nome de um arquivo de banco de dados existente no mecanismo de banco de dados do Microsoft Access ou o DSN (Nome da fonte de dados) de uma fonte de dados ODBC. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter mais informações sobre a configuração desse valor.  </p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>O nome de um arquivo de banco de dados existente no mecanismo de banco de dados do Microsoft Access ou o DSN (Nome da fonte de dados) de uma fonte de dados ODBC. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter mais informações sobre a configuração desse valor.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opções</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para o banco de dados, como especificado em Comentários.</p></td>
@@ -78,7 +78,7 @@ Banco de dados
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar os valores a seguir para o argumento options.
+Você pode usar os seguintes valores para o argumento de opções.
 
 <table>
 <colgroup>
@@ -87,17 +87,17 @@ Você pode usar os valores a seguir para o argumento options.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuração</p></th>
+<th><p>Setting</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>True</strong></p></td>
+<td><p><strong>Verdadeiro</strong></p></td>
 <td><p>Abre o banco de dados no modo exclusivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>False</strong></p></td>
+<td><p><strong>Falso</strong></p></td>
 <td><p>(Padrão) Abre o banco de dados no modo compartilhado.</p></td>
 </tr>
 </tbody>
@@ -107,18 +107,18 @@ Você pode usar os valores a seguir para o argumento options.
 
 Quando você abre um banco de dados, ele é automaticamente adicionado à coleção **Databases**.
 
-Algumas considerações se aplicam quando se usa dbname:
+Algumas considerações se aplicam ao usar o dbname:
 
 - Se ela se referir a um banco de dados que já foi aberto para acesso por outro usuário, ocorrerá um erro.
 
 - Se ela não se referir a um banco de dados existente ou validar o nome da fonte de dados ODBC, ocorrerá um erro.
 
-- Se for uma cadeia de caracteres de comprimento zero ("") e *Conecte-se* for "ODBC;", uma caixa de diálogo listando todos os registrados nomes de fonte de dados ODBC é exibida para que o usuário possa selecionar um banco de dados.
+- Se for uma cadeia de caracteres de comprimento zero ("") e *conectar* for "ODBC" , será exibida uma caixa de diálogo listando todos os nomes de fonte de dados ODBC registrados para que o usuário possa selecionar um banco de dados.
 
 Para fechar um banco de dados e, desse modo, remover o objeto **Database** da coleção **Databases**, use o método **[Close](connection-close-method-dao.md)** no objeto.
 
 > [!NOTE]
-> [!OBSERVAçãO] Ao acessar uma fonte de dados ODBC conectada ao mecanismo do banco de dados do Microsoft, você pode aprimorar o desempenho do aplicativo, abrindo um objeto **Database** conectado à fonte de dados ODBC, em vez de vincular objetos **[TableDef](tabledef-object-dao.md)** individuais para especificar tabelas na fonte de dados ODBC.
+> Ao acessar uma fonte de dados ODBC conectada ao mecanismo do banco de dados do Microsoft, você pode aprimorar o desempenho do aplicativo, abrindo um objeto **Database** conectado à fonte de dados ODBC, em vez de vincular objetos  **[TableDef](tabledef-object-dao.md)** individuais para especificar tabelas na fonte de dados ODBC.
 
 ## <a name="example"></a>Exemplo
 

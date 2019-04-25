@@ -1,5 +1,5 @@
 ---
-title: Ação da macro DefinirValor
+title: Ação da macro SetValue
 TOCTitle: SetValue macro action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306815"
 ---
-# <a name="setvalue-macro-action"></a>Ação da macro DefinirValor
+# <a name="setvalue-macro-action"></a>Ação da macro SetValue
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Você pode usar a ação **DefinirValor** para definir o valor de um campo do Microsoft Access, o controle ou a propriedade em um formulário, uma folha de dados do formulário ou um relatório.
+Você pode usar a ação **SetValue** para definir o valor de um campo do Microsoft Access, o controle ou a propriedade em um formulário, uma folha de dados do formulário ou um relatório.
 
 > [!NOTE]
-> - Você não pode usar a ação **DefinirValor** para definir o valor de uma propriedade que retorna um objeto do Access.
-> - [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> - Não é possível usar uma ação **SetValue** para definir o valor de uma propriedade do Access que retorna um objeto.
+> - Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
-A ação **DefinirValor** tem os seguintes argumentos.
+A ação **SetValue** tem os seguintes argumentos.
 
 <table>
 <colgroup>
@@ -42,46 +42,46 @@ A ação **DefinirValor** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Item</strong></p></td>
-<td><p>O nome do campo, controle ou a propriedade cujo valor você deseja definir. Insira o nome de campo, controle ou propriedade na caixa de <strong>Item</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Você deve usar a sintaxe completa para se referir a este item, como <em>controlname</em> (para um controle no formulário ou relatório do qual a macro foi chamada) ou <strong>formulários</strong>! <em>formname</em>! <em>controlname</em>. Este é um argumento obrigatório.</p></td>
+<td><p>O nome do campo, controle ou propriedades cujo valor você deseja definir. Insira o nome de campo, controle ou propriedades na caixa <strong>Item</strong> na seção <strong>Argumentos da Ação</strong> no painel do Construtor de Macros. Você deve usar a sintaxe completa para fazer referência a esse item, como <em>controlname</em> (para um controle no formulário ou relatório de onde o macro foi chamado) ou <strong>Forms</strong>!<em>formname</em>!<em>controlname</em>. Este é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Expressão</strong>.</p></td>
-<td><p>A expressão que Access usa para definir o valor deste item. Você sempre deve usar a sintaxe completa para se referir a quaisquer objetos na expressão. Por exemplo, para aumentar o valor em um controle salário em um formulário Employees em 10 por cento, use Forms! Funcionários! Salário * 1.1. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: você não deve usar um sinal de igual (=) antes da expressão neste argumento. Se fizer isso, o Access avalia a expressão e, em seguida, usa esse valor como a expressão neste argumento. Isso pode gerar resultados inesperados se a expressão for uma cadeia de caracteres.</p>
-<p>Por exemplo, se você digitar <strong> = &quot;sequência1&quot; </strong> para este argumento, o Access primeiro avalia a expressão como Sequência1. Em seguida, ele usa String1 como a expressão neste argumento, esperando encontrar um controle ou a propriedade chamada String1 no formulário ou relatório que chamou a macro.</p></td>
+<td><p>A expressão Access usa para definir o valor para esse item. Você sempre deve usar a sintaxe completa para referir-se a quaisquer objetos na expressão. Por exemplo, para aumentar o valor em um controle de Salário em um formulário de Funcionários em 10%, use 1.1Forms!Employees!Salary*1.1. Este é um argumento obrigatório.</p><p><strong>OBSERVAÇÃO</strong>: Você não deve usar um sinal de igual (=) antes da expressão nesse argumento. Nesse caso, o Access avalia a expressão e usa esse valor como a expressão nesse argumento. Isso pode produzir resultados inesperados se a expressão for uma cadeia de caracteres.</p>
+<p>Por exemplo, se você digitar <strong>=&quot;String1&quot;</strong> para esse argumento, o Access primeiro avalia a expressão como String1. Em seguida, ele usa a String1 como a expressão nesse argumento, esperando encontrar um controle ou propriedade denominada String1 no formulário ou relatório que chamou o macro.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Em um banco de dados do Access (. mdb ou. accdb), clique no botão **Construir** para usar o construtor de expressões para criar uma expressão para um desses argumentos.
+> Em um banco de dados do Access (.mdb ou .accdb), clique no botão **Build** para usar o Construtor de Expressões para criar uma expressão para qualquer um desses argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar esta ação para definir um valor para um campo ou controle em um formulário, uma folha de dados do formulário ou um relatório. Você também pode definir o valor para quase todas as propriedades do relatório, formulário e controle em qualquer modo. Para descobrir se uma determinada propriedade pode ser definida usando uma macro e quais modos de exibição pode ser definida, consulte o tópico de ajuda para essa propriedade no Editor do Visual Basic.
+Você pode usar essa ação para definir um valor para um campo ou controle em um formulário, uma folha de dados do formulário ou um relatório. Você também pode definir o valor de quase todas as propriedades de controle, do formulário e do relatório em qualquer modo de exibição. Para saber se uma propriedade em particular pode ser definida usando um macro e em quais modos de exibição podem ser definidas, consulte o tópico de Ajuda para essa propriedade no Editor do Visual Basic.
 
-Você também pode definir o valor de um campo na tabela de base de um formulário, mesmo se o formulário não contiver um controle acoplado ao campo. Use a sintaxe **formulários**\!*formname*\!*fieldname* na caixa de **Item** para definir o valor desse campo. Você também pode consultar a um campo da tabela base de um relatório usando a sintaxe **relatórios**\!*reportname*\!*fieldname*, mas deve haver um controle no relatório acoplado a esse campo ou o campo deve ser referido em um controle calculado no relatório.
+Você também pode definir o valor para um campo em uma tabela subjacente, mesmo que a forma não contenha um controle associado ao campo. Usa a sintaxe **Forms**\!*formname*\!*fieldname* na caixa **Item** para definir o valor para tal campo. Você também pode referir um campo na tabela subjacente do relatório usando a sintaxe **Reports**\!*reportname*\!*fieldname*, mas deve haver um controle no relatório associado a esse campo ou o campo deve ser referenciado em um controle calculado no relatório.
 
-Se você definir o valor de um controle em um formulário, a ação **DefinirValor** não aciona as regras de validação de nível de formulário do controle, mas ela acionará as regras de validação de nível de tabela do campo base se o controle é um controle acoplado. A ação **DefinirValor** também aciona o recálculo, mas o recálculo pode não acontecer imediatamente. Para acionar um redesenho imediato e forçar a conclusão do recálculo, use a ação **RedesenharObjeto** . O valor definido em um controle usando a ação **DefinirValor** também não é afetado por uma máscara de entrada definida do controle ou propriedade de **máscara de entrada** do campo de base.
+Se você definir o valor do controle no formulário, a ação **SetValue** não dispara regras de validação de nível de formulário de controle, mas aciona regras de validação de nível de tabela do campo subjacente se o controle for um controle associado. A ação **SetValue** também aciona um recálculo, mas o recálculo pode não ocorrer imediatamente. Para acionar a repintura imediata e forçar o recálculo até a conclusão, use a ação **RepaintObject**. O valor definido em um controle usando a ação **SetValue** também não é afetado por uma máscara de entrada definida na propriedade **InputMask** do campo subjacente ou do controle.
 
-Para alterar o valor de um controle, você pode usar a ação **DefinirValor** em uma macro especificada pela propriedade de evento **AfterUpdate** do controle. No entanto, você não pode usar a ação **DefinirValor** em uma macro especificada pela propriedade de evento **BeforeUpdate** de um controle para alterar o valor do controle (embora você pode usar a ação **DefinirValor** para alterar o valor de outros controles). Você também pode usar a ação **DefinirValor** em uma macro especificada pela propriedade **BeforeUpdate** ou **AfterUpdate** de um formulário para alterar o valor de quaisquer controles no registro atual.
+Para alterar o valor de um controle, você pode usar a ação **SetValue** em um macro especificado pela propriedade do evento **AfterUpdate** do controle. No entanto, é possível usar a ação **SetValue** em um macro especificado pela propriedade do evento **BeforeUpdate** do controle para alterar o valor do controle (embora você possa usar a ação **SetValue** para alterar o valor dos outros controles). Você também pode usar a ação **SetValue** em um macro especificado pela propriedade **BeforeUpdate** ou **AfterUpdate** de um formulário para alterar o valor de todos os controles do atual registro.
 
 > [!NOTE]
-> Você não pode usar a ação **DefinirValor** para definir o valor dos controles a seguir:
-> - Controles vinculados e controles calculados em relatórios.
+> Não é possível usar a ação **SetValue** para definir o valor dos controles a seguir:
+> - Controles associados e os controles calculados em relatórios.
 > - Controles calculados em formulários.
 
 > [!TIP]
-> Você pode usar a ação **DefinirValor** para ocultar ou mostrar um formulário no modo formulário. Insira **Forms**! *formname * * *. Visível** na caixa de **Item** e **não** ou **Sim** na caixa **expressão** . A definição da propriedade **visível** do formulário uma janela restrita como **não** oculta o formulário e o torna sem janela restrita. Configuração da propriedade como **Sim** exibe o formulário e o torna restrito novamente.
+> Você pode usar a ação **SetValue** para mostrar ou ocultar um formulário no modo de exibição Formulário. Insira **Forms**!*formname***.Visible** na caixa **Item** box, e **Não** ou **Sim** na caixa **Expressão**. Definir uma propriedade modal **Visível** do formulário para **Não** oculta o formulário e o torna sem restrição. Definir a propriedade para **Sim** exibe o formulário e o torna restrito novamente.
 
-Alterando o valor da ou adicionando novos dados em um controle usando a ação **DefinirValor** em uma macro não aciona eventos como **BeforeUpdate**, **BeforeInsert**ou **Change** que ocorrem quando você altera ou insere dados nesses controles através do interface do usuário. Esses eventos também não ocorrem se você definir o valor do controle usando um Visual Basic para módulo Applications (VBA).
+Alterar o valor de ou adicionar novos dados em um controle usando a ação**SetValue** em um macro não dispara, eventos como **BeforeUpdate**, **BeforeInsert**, ou **Change** que ocorrem quando você altera ou insere dados em um desses controles na interface do usuário. Esses eventos também não ocorrerem se você definir o valor do controle usando um módulo do Visual Basic for Applications (VBA).
 
-Esta ação não está disponível em um módulo do VBA. Defina o valor diretamente no VBA.
+Essa ação não está disponível em um módulo do VBA. Defina o valor diretamente no VBA.
 
 ## <a name="example"></a>Exemplo
 
-**Definir o valor de um controle usando uma macro**
+**Definir o valor de um controle usando um macro**
 
-A macro a seguir abre o formulário Adicionar produtos com um botão no formulário Suppliers. Ela mostra o uso do **eco**, **fecharJanela**, **AbrirFormulário**, **DefinirValor**e **GoToControl** ações. A ação **DefinirValor** define o controle de SupplierID no formulário produtos como o fornecedor atual no formulário fornecedores. A ação **GoToControl** , em seguida, move o foco para o campo CategoryID, onde você pode começar a inserir dados para o novo produto. Essa macro deve ser anexada ao botão Adicionar produtos no formulário fornecedores.
+O macro a seguir abre o formulário Adicionar Produtos de um botão no formulário de Fornecedores. Mostra o uso das ações **Echo**, **CloseWindow**, **OpenForm**, **SetValue** e **GoToControl** actions. A ação **SetValue** define o controle SupplierID no formulário de Produtos dos fornecedores atuais no formulário Fornecedores. A ação **GoToControl** move o foco para o campo CategoryID, onde você pode começar a inserir dados do novo produto. Esse macro deve estar anexado ao botão Adicionar Produtos no formulário de Fornecedores.
 
 <table>
 <colgroup>
@@ -99,28 +99,28 @@ A macro a seguir abre o formulário Adicionar produtos com um botão no formulá
 <tbody>
 <tr class="odd">
 <td><p><strong>Echo</strong></p></td>
-<td><p><strong>Eco no</strong>: <strong>não</strong></p></td>
-<td><p>Pare a atualização da tela enquanto a macro é executada.</p></td>
+<td><p><strong>Echo On</strong>: <strong>No</strong></p></td>
+<td><p>Interrompe a atualização de tela quando macro é executado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FecharJanela</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>Nome FormObject</strong>: lista de produto para <strong>Salvar</strong>: <strong>não</strong></p></td>
-<td><p>Feche o formulário de lista de produtos.</p></td>
+<td><p><strong>CloseWindow</strong></p></td>
+<td><p><strong>Object Type</strong>: <strong>FormObject Name</strong>: Product List <strong>Save</strong>: <strong>No</strong></p></td>
+<td><p>Fecha o Formulário de Lista de Produtos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nome do formulário</strong>: produtos <strong>modo de exibição</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></p></td>
-<td><p>Abra o formulário Products.</p></td>
+<td><p><strong>Form Name</strong>: Products <strong>View</strong>: <strong>FormData Mode</strong>: <strong>AddWindow Mode</strong>: <strong>Normal</strong></p></td>
+<td><p>Abre o formulário de produtos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SetValue</strong></p></td>
-<td><p><strong>Item</strong>: [formulários]! [Produtos]! [SupplierID] <strong>Expressão</strong>: SupplierID</p></td>
-<td><p>Defina o controle de SupplierID como o fornecedor atual no formulário fornecedores.</p></td>
+<td><p><strong>Item</strong>: [Forms]![Products]![SupplierID] <strong>Expression</strong>: SupplierID</p></td>
+<td><p>Define o controle SupplierID para o fornecedor atual no formulário de Fornecedores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nome do controle</strong>: CategoryID</p></td>
-<td><p>Vá para o controle CategoryID.</p></td>
+<td><p><strong>Control Name</strong>: CategoryID</p></td>
+<td><p>Vai para o controle CategoryID.</p></td>
 </tr>
 </tbody>
 </table>

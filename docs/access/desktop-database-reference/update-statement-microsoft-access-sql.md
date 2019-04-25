@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6a0404c21b308f6e389ee5577cc212763e660774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306241"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>Instrução UPDATE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria uma consulta de atualização que altera os valores nos campos em uma tabela especificada com base em critérios específicos.
 
 ## <a name="syntax"></a>Sintaxe
 
-ATUALIZAÇÃO *tabela* SET *newvalue* onde *critérios*;
+UPDATE *table* SET *newvalue* WHERE *criteria*;
 
-A instrução UPDATE contém estas partes:
+A instrução UPDATE tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -39,14 +39,14 @@ A instrução UPDATE contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table</em></p></td>
-<td><p>O nome da tabela que contém os dados que você deseja modificar.</p></td>
+<td><p>Nome da tabela contendo dados que você deseja modificar.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>newvalue</em></p></td>
@@ -62,9 +62,9 @@ A instrução UPDATE contém estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-UPDATE é especialmente útil quando você deseja alterar muitos registros ou quando os registros que deseja alterar estão em várias tabelas.
+UPDATE é especialmente útil quando você deseja alterar muitos registros ou quando os registros que você deseja alterar estão em várias tabelas.
 
-Você pode alterar vários campos ao mesmo tempo. O exemplo a seguir aumenta os valores Total de Pedidos em 10% e os valores Frete em 3% para transportadoras no Reino Unido:
+Você pode alterar vários campos ao mesmo tempo. O próximo exemplo aumenta os valores de Order Amount em 10% e os valores de Freight em 3% para transportadores do Reino Unido:
 
 ```sql
 UPDATE Orders 
@@ -76,16 +76,13 @@ WHERE ShipCountry = 'UK';
 
 > [!IMPORTANT]
 - UPDATE não gerar um conjunto de resultados. Além disso, depois de atualizar registros utilizando uma consulta de atualização, você não poderá desfazer a operação. Se você quiser saber quais registros foram atualizados, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de atualização.
-- Sempre faça cópias de backup dos dados. Se você atualizar registros erroneamente, será possível recuperá-los das cópias de backup.
-
+- Mantenha cópias de backup de seus dados em todos os momentos. Se você atualizar os registros errados, poderá recuperá-los das cópias de backup.
 
 
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo altera os valores no campo Gerente para 5 em todos os registros de funcionários que têm atualmente valores 2 em  Gerente.
-
-
+Este exemplo altera os valores no campo ReportsTo para 5 em todos os registros de funcionários que atualmente têm valores de ReportsTo 2.
 
 ```vb
     Sub UpdateX() 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: b9e2a69f6952feb892de736e7ff3c3ca94e9da64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307179"
 ---
 # <a name="recordsetoptionenum-enumeration-dao"></a>Enumeração RecordsetOptionEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Usada com o método **OpenRecordset** para especificar as características de um novo objeto **Recordset**.
+Usado com o método **OpenRecordset** para especificar as características de um novo objeto **Recordset**.
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ Usada com o método **OpenRecordset** para especificar as características de um
 <tr class="odd">
 <td><p>dbDenyRead</p></td>
 <td><p>2</p></td>
-<td><p>Impede que outros usuários leiam registros do conjunto de registros (somente tipo tabela).</p></td>
+<td><p>Impede que outros usuários leiam registros do Conjunto de Registros (somente tipo tabela).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbDenyWrite</p></td>

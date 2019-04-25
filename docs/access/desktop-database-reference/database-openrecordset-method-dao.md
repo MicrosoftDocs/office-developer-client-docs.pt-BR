@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294831"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Método Database.OpenRecordset (DAO)
 
-**Aplica-se a:** Access 2013 | Office 2013
+**Se aplica ao:** Access 2013, Office 2013
 
-Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleção **Recordsets**.
+Cria um novo objeto **[Conjunto de registros](recordset-object-dao.md)** e o acrescenta à coleção **Conjuntos de registros**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . OpenRecordset (_**nome**_, _**tipo**_, _**Opções**_, _**LockEdit**_)
+*expressão* .OpenRecordset(_**Nome**_, _**Tipo**_, _**Opções**_, _**LockEdit**_)
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Banco de dados**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -52,27 +52,27 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 <td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </p></td>
+<td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p><p><strong>Observação</strong>: se você abrir um <strong>Recordset</strong> em um espaço de trabalho do Microsoft Access e você não especificar um tipo, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo tabela, se possível. Se você especificar uma consulta ou tabela vinculada, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo dynaset.</p>
+<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p><p><strong>Observação</strong>: Se você abrir um <strong>Conjunto de Registros</strong> em um espaço de trabalho do Microsoft Access e não especificar um tipo, o <strong>OpenRecordset</strong> criará uma tabela do tipo <strong>Conjunto de Registros</strong>, se possível. If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opções</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p><p><strong>Observação</strong>: as constantes <strong>dbConsistent</strong> e <strong>dbInconsistent</strong> são mutuamente exclusivos e usando os dois causará um erro. Também fornecer um argumento LockEdit quando opções usa a constante <strong>dbReadOnly</strong> causará um erro.</p>
+<td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p><p><strong>Observação</strong>: As constantes <strong>dbConsistent</strong> e <strong>dbInconsistent</strong> são mutuamente exclusivas e usar ambas causará um erro. Fornecer um argumento LockEdit quando Opções usa a constante <strong>dbReadOnly</strong> também causará um erro.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>LockEdit</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</p><p><strong>Observação</strong>: você pode usar <strong>dbReadOnly</strong> no argumento Options ou o argumento LockedEdit, mas não ambos. Se você usá-lo para ambos os argumentos, ocorrerá um erro em tempo de execução.</p>
+<td><p>Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</p><p><strong>Observação</strong>: É possível usar <strong>dbReadOnly</strong> tanto no argumento Opções ou quanto no LockedEdit, mas não em ambos. Se usá-la para ambos argumentos, ocorrerá um erro de tempo de execução.</p>
 </td>
 </tr>
 </tbody>
@@ -81,31 +81,31 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 
 ## <a name="return-value"></a>Valor de retorno
 
-Recordset
+Conjunto de Registros
 
 ## <a name="remarks"></a>Comentários
 
-Normalmente, se o usuário obtém esse erro ao atualizar um registro, seu código deve atualizar o conteúdo dos campos e recuperar os valores modificados recentemente. Se o erro ocorrer ao excluir um registro, seu código poderá exibir os dados do novo registro para o usuário e uma mensagem indicando que os dados foram alterados recentemente. Nesse momento, seu código pode solicitar uma confirmação de que o usuário ainda deseja excluir o registro.
+Normalmente, se o usuário receber este erro durante a atualização de um registro, seu código deverá atualizar o conteúdo dos campos e recuperar os valores modificados recentemente. Se o erro ocorrer durante a exclusão de um registro, o código poderá exibir os novos dados de registro para o usuário e uma mensagem indicando que os dados foram alterados recentemente. Nesse momento, seu código pode solicitar uma confirmação de que o usuário ainda deseja excluir o registro.
 
-Você também deverá usar a constante **dbSeeChanges** se abrir um **Recordset** em um espaço de trabalho ODBC conectado ao mecanismo de banco de dados do Microsoft Access em uma tabela do Microsoft SQL Server 6.0 (ou posterior), que tenha uma coluna IDENTITY; caso contrário, ocorrerá um erro.
+Você também deve usar a constante **dbSeeChanges** se for abrir um **Recordset** em um espaço de trabalho ODBC conectado ao mecanismo do banco de dados do Microsoft Access versus uma tabela do Microsoft SQL Server 6.0 (ou posterior) com uma coluna IDENTIDADE, caso contrário pode resultar em um erro.
 
-Abrir mais de um **Recordset** em uma fonte de dados ODBC pode falhar porque a conexão está ocupada com uma chamada **OpenRecordset** anterior. Uma forma de contornar essa situação é preencher totalmente o **Recordset** usando o método **MoveLast** assim que o **Recordset** for aberto.
+Abrir mais de um  **Recordset** em uma origem de dados ODBC pode falhar porque a conexão está ocupada com uma chamada **OpenRecordset** anterior. Uma maneira de evitar isso é preenchendo completamente o **Recordset** usando o método **MoveLast** assim que o **Recordset** for aberto.
 
-Fechar um **Recordset** com o método **[Close](connection-close-method-dao.md)** o exclui automaticamente da coleção **Recordsets**.
+Fechar o **Recordset** com o método **[Close](connection-close-method-dao.md)** o exclui automaticamente da coleção de **Recordsets**.
 
 
 > [!NOTE]
-> Se a *fonte* refere-se a uma instrução SQL composto por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar abrir o **Recordset**. Isso ocorre porque durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o SQL aceita apenas caracteres decimais EUA.
+> Se a *fonte* se referir a uma instrução SQL composta por uma sequência concatenada e com um valor não inteiro, e se os parâmetros do sistema especificarem um caractere decimal não-EUA, como uma vírgula (por exemplo, strSQL = "PRICE &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar abrir o **Conjunto de Registros**. Isso se deve ao fato de que, durante a concatenação, o número é convertido em uma cadeia de caracteres usando o caractere decimal padrão do seu sistema, e o SQL aceita apenas caracteres decimais americanos.
 
-**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) . UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
+**Link fornecido pela** comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum wiki e ajuda principal do Microsoft Access.
 
-- [Transferência de dados do Access para o Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
+- [Transferir os dados do Access para Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.
+O exemplo a seguir mostra como abrir um Conjunto de Registros baseado em uma consulta de parâmetro.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido pela** [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Dim dbs As DAO.Database
@@ -127,7 +127,7 @@ O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de par
 
 <br/>
 
-O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma consulta.
+O exemplo a seguir mostra como abrir um Conjunto de Registros baseado em uma tabela ou uma consulta.
 
 ```vb 
     Dim dbs As DAO.Database
@@ -145,7 +145,7 @@ O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma c
 
 <br/>
 
-O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL (Structured Query Language).
+O exemplo a seguir mostra como abrir um Conjunto de Registros baseado em uma instrução de linguagem SQL (SQL).
 
 ```vb
     Dim dbs As DAO.Database
@@ -161,7 +161,7 @@ O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL
 
 <br/>
 
-O exemplo a seguir mostra como abrir uma propriedade Filter para determinar que registros incluir em um Recordset aberto subsequentemente.
+O exemplo a seguir mostra como usar a propriedade do Filtro para determinar que registros incluir em um Recordset aberto subsequentemente.
 
 ```vb
     Dim dbs As DAO.Database

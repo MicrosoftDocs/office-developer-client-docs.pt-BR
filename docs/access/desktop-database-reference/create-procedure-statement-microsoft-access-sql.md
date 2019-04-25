@@ -10,45 +10,44 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: f223e164bd36a6a1a76140a28dd57cd2005e4a20
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295398"
 ---
 # <a name="create-procedure-statement-microsoft-access-sql"></a>Instrução CREATE PROCEDURE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao**: Access 2013, Office 2013 
 
 Cria um procedimento armazenado.
 
 > [!NOTE]
-> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não oferece suporte ao uso de CREATE PROCEDURE nem de nenhuma instrução DDL, com os bancos de dados cujos mecanismos sejam diferentes do Microsoft Jet.
+> O mecanismo de banco de dados do Microsoft Access não oferece suporte ao uso de CREATE PROCEDURE nem de nenhuma instrução DDL, com os bancos de dados cujos mecanismos sejam diferentes do Microsoft Jet.
 
 ## <a name="syntax"></a>Sintaxe
 
-CREATE PROCEDURE *procedimento* \[ *param1 datatype*\[, *param2 datatype*\[,... \] \] Como sqlstatement
+CREATE PROCEDURE *procedure* \[*param1 datatype*\[, *param2 datatype*\[, …\]\] AS sqlstatement
 
-A instrução PROCEDURE INDEX contém estas partes:
+A instrução CREATE PROCEDURE tem as seguintes partes:
 
-|Parte|Descrição|
+|Sair|Descrição|
 |:---|:----------|
-|*procedimento*|Um nome para o procedimento. Ele deve seguir as convenções de nomenclatura padrão.|
-|*param1*, *param2*|De 1 a 255 nomes de campo ou parâmetros. Por exemplo:
-<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, consulte [PARAMETERS](parameters-declaration-microsoft-access-sql.md).|
-|*tipo de dados*|Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos.|
-|*sqlstatement*|Uma instrução SQL como SELECT, UPDATE, DELETE, INSERT, CREATE TABLE, DROP TABLE e assim por diante.|
+|*procedure*|Um nome para o procedimento. Ele deve seguir as convenções de nomenclatura padrão.|
+|*param1*, *param2*|De um a 255 nomes ou parâmetros de campo. Por exemplo:<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, consulte [PARAMETERS](parameters-declaration-microsoft-access-sql.md).|
+|*datatype*|Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos.|
+|*sqlstatement*|Uma instrução SQL, como SELECT, UPDATE, DELETE, INSERT, CREATE TABLE, DROP TABLE e assim por diante.|
 
 
 ## <a name="remarks"></a>Comentários
 
-Um procedimento SQL consiste em uma cláusula PROCEDURE que especifica o nome do procedimento, uma lista opcional de definições de parâmetros e uma instrução SQL única.
+Um procedimento SQL consiste em uma instrução PROCEDURE que especifica o nome do procedimento, uma lista opcional de definições de parâmetros e uma única instrução SQL.
 
-Um nome de procedimento não pode ser o mesmo de uma tabela existente.
+O nome de um procedimento não pode ser igual ao nome de uma tabela existente.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo chama a consulta CategoryList e chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+Este exemplo chama a consulta CategoryList e o procedimento EnumFields, o que pode ser localizado no exemplo da instrução SELECT.
 
 ```vb
     Sub ProcedureX() 

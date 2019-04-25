@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293235"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>Instrução EXECUTE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Utilizada para chamar a execução de um procedimento.
 
 ## <a name="syntax"></a>Sintaxe
 
-EXECUTAR o *procedimento* \[ *param1*\[, *param2*\[,...\]\]
+EXECUTE *procedimento* \[*param1*\[, *param2*\[, …\]\]
 
-A instrução EXECUTE tem estas partes:
+A instrução EXECUTE tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ A instrução EXECUTE tem estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>procedure</em></p></td>
-<td><p>O nome do procedimento que deve ser executado.</p></td>
+<td><p><em>procedimento</em></p></td>
+<td><p>O nome do procedimento a ser executado.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>param1, param2, …</em></p></td>
-<td><p>Valores dos parâmetros definidos pelo procedimento.</p></td>
+<td><p>Valores para os parâmetros definidos pelo procedimento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ A instrução EXECUTE tem estas partes:
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo chama a consulta CategoryList e chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+Este exemplo chama a consulta CategoryList e o procedimento EnumFields, o que pode ser localizado no exemplo da instrução SELECT.
 
 ```vb
     Sub ProcedureX() 

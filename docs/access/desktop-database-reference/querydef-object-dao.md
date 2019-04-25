@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301054"
 ---
 # <a name="querydef-object-dao"></a>Objeto QueryDef (DAO)
 
-**Aplica-se a:** Access 2013 | Office 2013 
+**Se aplica a:** Access 2013 | Office 2013 
 
-Um objeto **QueryDef** é uma definição armazenada de uma consulta em um banco de dados do mecanismo de banco de dados do Microsoft Access ou uma definição temporária de uma consulta em um espaço de trabalho ODBCDirect.
+Um objeto **QueryDef** é uma definição armazenada de uma consulta em um banco de dados do mecanismo de banco de dados do Microsoft Access.
 
 ## <a name="remarks"></a>Comentários
 
@@ -44,25 +44,25 @@ Você pode pensar em um objeto **QueryDef** permanente em um espaço de trabalho
 
 A forma preferida de usar o dialeto SQL nativo de um mecanismo de banco de dados externo acessado pelo mecanismo de banco de dados do Microsoft Access é por meio dos objetos **QueryDef**. Por exemplo, você pode criar uma consulta do Microsoft SQL Server e armazená-la em um objeto **QueryDef**. Quando você precisar usar uma consulta SQL de um mecanismo de banco de dados que são seja do Microsoft Access, forneça uma sequência de propriedade **Connect** que aponte para a fonte de dados externa. As consultas com propriedades **Connect** válidas ignoram o mecanismo de banco de dados do Microsoft Access e transmitem a consulta diretamente para o servidor de banco de dados externo para processamento.
 
-Para criar um novo objeto **QueryDef**, use o método **CreateQueryDef**. Em um espaço de trabalho do Microsoft Access, se você fornecer uma cadeia de caracteres para o argumento nome ou se você definir explicitamente a propriedade **Name** do novo objeto **QueryDef** em uma cadeia de comprimento não – zero, você criará um **QueryDef** permanente que será automaticamente ser acrescentado à coleção **QueryDefs** e salvo no disco. Fornecendo uma cadeia de caracteres de comprimento zero como o argumento nome ou explicitamente definir a propriedade **Name** como uma cadeia de caracteres de comprimento zero resultará em um objeto **QueryDef** temporário.
+Para criar um novo objeto **QueryDef**, use o método **CreateQueryDef**. No espaço de trabalho do Microsoft Access, se você fornecer uma cadeia de caracteres para o argumento name ou se você definir explicitamente a propriedade **name** do novo objeto **QueryDef** a uma cadeia de caracteres de comprimento não zero, você criará um **QueryDef** permanente que será acrescentado automaticamente ao conjunto **QueryDefs** e salvo no disco. Fornecer uma cadeia de carateres de comprimento zero, como argumento name ou definir explicitamente a propriedade**name** como uma cadeia de caracteres de comprimento zero resultará em um objeto **QueryDef** temporário.
 
-Para referir-se a um objeto **QueryDef** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
+Para fazer referência a um objeto **QueryDef** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
 QueryDefs(0)
 
 QueryDefs("name")
 
-QueryDefs\! \[ nome\]
+QueryDefs\!\[ name\]
 
-Você pode se referir a objetos **QueryDef** temporários somente pelas variáveis de objeto que foram atribuídas a eles.
+Você pode consultar objetos **QueryDef** temporários apenas pelas variáveis de objeto atribuído a eles.
 
-**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) . UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
+**Link fornecido pela** comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
 
-- [Consultas: Documento SQL para o Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [Consultas: Documento SQL para Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo cria um novo objeto **QueryDef** e o acrescenta à coleção **QueryDefs** do objeto **Database** Northwind. Em seguida, ele enumera a coleção **QueryDefs** e a coleção **Properties** do novo **QueryDef**.
+Este exemplo cria um novo objeto **QueryDef** e acrescenta-o à coleção **QueryDefs** do objeto **Database** Northwind. Em seguida, são enumeradas a coleção **QueryDefs** e a coleção **Properties** do novo **QueryDef**.
 
 ```vb
     Sub QueryDefX() 
@@ -170,7 +170,7 @@ Este exemplo usa o método **CreateQueryDef** para criar e executar um **QueryDe
 
 O exemplo a seguir mostra como substituir a instrução Structured Query Language (SQL) em uma consulta salva.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     ‘To change the Where clause in a saved query  

@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307228"
 ---
 # <a name="recordset2-object-dao"></a>Objeto Recordset2 (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Um objeto **Recordset2** representa os registros em uma tabela de base ou os registros resultantes da execução de uma consulta.
+Um objeto **Recordset2** representa os registros em uma tabela base ou os registros resultantes da execução de uma consulta.
 
 ## <a name="remarks"></a>Comentários
 
@@ -26,9 +26,9 @@ Um objeto **Recordset2** contém as mesmas propriedades e os mesmo métodos que 
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como navegar entre um Recordset que contém um campo de valor múltiplos.
+O exemplo a seguir mostra como navegar em um Recordset que contém um campo com valores múltiplos.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido** pela [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ O exemplo a seguir mostra como navegar entre um Recordset que contém um campo d
 
 <br/>
 
-O exemplo a seguir mostra como navegar entre os arquivos em um campo de anexo. O tipo de arquivo e o nome do arquivo de cada anexo é impresso na janela Immediate.
+O exemplo a seguir mostra como navegar os arquivos em um campo de anexo. O tipo de arquivo e o nome de cada anexo é impressa na janela imediata.
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ O exemplo a seguir mostra como navegar entre os arquivos em um campo de anexo. O
 
 <br/>
 
-O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.
+O exemplo a seguir mostra como adicionar arquivos de um caminho de uma pasta especificada para um campo anexo.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especif
 
 <br/>
 
-O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho da pasta especificada.
+O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo para o caminho da pasta especificada.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de ane
 
 <br/>
 
-O exemplo a seguir mostra como excluir um arquivo armazenado em um campo de anexo.
+O exemplo a seguir mostra como excluir um arquivo armazenado em um campo anexo.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

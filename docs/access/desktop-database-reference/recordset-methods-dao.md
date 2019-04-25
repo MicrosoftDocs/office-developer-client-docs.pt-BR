@@ -1,5 +1,5 @@
 ---
-title: Métodos Recordset (DAO)
+title: Métodos do conjunto de registros (DAO)
 TOCTitle: Methods
 ms:assetid: 8b713eda-b076-4190-b2f5-ff1ce522e2bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125237(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: bf064212e71019f303b6fa7e9bb9360306dfa3c8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300480"
 ---
-# <a name="recordset-methods-dao"></a>Métodos Recordset (DAO)
+# <a name="recordset-methods-dao"></a>Métodos do conjunto de registros (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 - [Método Recordset.AddNew (DAO)](recordset-addnew-method-dao.md)
 - [Método Recordset.Cancel (DAO)](recordset-cancel-method-dao.md)
@@ -37,9 +37,9 @@ ms.locfileid: "28706315"
 - [Método Recordset.MoveLast (DAO)](recordset-movelast-method-dao.md)
 - [Método Recordset.MoveNext (DAO)](recordset-movenext-method-dao.md)
 - [Método Recordset.MovePrevious (DAO)](recordset-moveprevious-method-dao.md)
-- [Método NextRecordset (DAO)](recordset-nextrecordset-method-dao.md)
+- [Método Recordset.NextRecordset (DAO)](recordset-nextrecordset-method-dao.md)
 - [Método Recordset.OpenRecordset (DAO)](recordset-openrecordset-method-dao.md)
-- [Método Requery (DAO)](recordset-requery-method-dao.md)
+- [Método Recordset.Requery (DAO)](recordset-requery-method-dao.md)
 - [Método Recordset.Seek (DAO)](recordset-seek-method-dao.md)
 - [Método Recordset.Update (DAO)](recordset-update-method-dao.md)
 

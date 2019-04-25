@@ -1,5 +1,5 @@
 ---
-title: Coleção TableDefs (DAO)
+title: Conjunto TableDefs (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314172"
 ---
-# <a name="tabledefs-collection-dao"></a>Coleção TableDefs (DAO)
+# <a name="tabledefs-collection-dao"></a>Conjunto TableDefs (DAO)
 
-**Aplica-se a:** Access 2013 | Office 2013
+**Se aplica a:** Access 2013 | Office 2013
 
-Uma coleção **TableDefs** contém todos os objetos **TableDef** armazenados em um banco de dados (espaços de trabalho do Microsoft Access apenas).
+Um conjunto **TableDefs** contém todos os objetos **TableDef** armazenados em banco de dados (espaços de trabalho do Microsoft Access somente).
 
 ## <a name="remarks"></a>Comentários
 
@@ -26,19 +26,19 @@ Manipula-se a definição de uma tabela usando um objeto **TableDef** e seus mé
 
 A coleção padrão de um objeto **Database** é a coleção **TableDefs**.
 
-Para fazer referência a um objeto **TableDef** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
+Para referir-se a um objeto **TableDef** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-**TableDefs** (0)
+**TableDefs**(0)
 
-**TableDefs** ("nome")
+**TableDefs**("nome")
 
 **TableDefs**\!\[nome\]
 
-**Links fornecidos por** a comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
+**Links fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
 
-  - [Re vinculador Multi-back-ends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [Re-Vincular Back-ends Múltiplos](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [Permuta/revinculação entre LIVE, teste e dados locais](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [Trocar/Re-vincular Entre AO VIVO, TESTE e Dados LOCAIS](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
 ## <a name="example"></a>Exemplo
 
@@ -95,7 +95,7 @@ Este exemplo cria um novo objeto **TableDef** e o acrescenta à coleção **Tabl
 
 <br/>
 
-Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.
+Este exemplo cria um novo objeto **TableDef** no banco de dados da Northwind.
 
 ```vb 
 Sub CreateTableDefX() 

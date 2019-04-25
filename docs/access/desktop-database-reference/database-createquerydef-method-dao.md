@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294978"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Método Database.CreateQueryDef (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
+Crie um novo objeto **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateQueryDef (***Name***, ***SQLText***)
+*expression* .CreateQueryDef(***Name***, ***SQLText***)
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto **Database**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -48,13 +48,13 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 <td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo <strong>QueryDef</strong>.</p></td>
+<td><p>Um <strong>Variant</strong> (<strong>String</strong> subtype) que exclusivamente nomeia a nova <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>SQLText</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que é uma instrução SQL definindo o <strong>QueryDef</strong>. Se você omitir esse argumento, será possível definir o <strong>QueryDef</strong> configurando sua propriedade <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> antes ou depois de acrescentá-lo a uma coleção.</p></td>
+<td><p>Um <strong>Variant</strong> (<strong>String</strong> subtype) que é uma instrução SQL definindo o <strong>QueryDef</strong>. Se você omitir esse argumento, será possível definir o <strong>QueryDef</strong> configurando sua propriedade <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> antes ou depois de acrescentá-lo a uma coleção.</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ QueryDef
 
 Em um espaço de trabalho do Microsoft Access, se você fornecer algo diferente de uma cadeia de caracteres de comprimento zero para o nome ao criar um **QueryDef**, o objeto **QueryDef** resultante será automaticamente acrescentado à coleção **[QueryDefs](querydefs-collection-dao.md)**.
 
-Se o objeto especificado pelo nome, já é um membro da coleção **QueryDefs** , ocorrerá um erro de tempo de execução. Você pode criar um temporário **QueryDef** usando uma cadeia de caracteres de comprimento zero para o argumento nome quando você executar o método **CreateQueryDef** . Também é possível realizar isso configurando a propriedade **[Name](querydef-name-property-dao.md)** de um **QueryDef** recém-criado como uma cadeia de caracteres de comprimento zero (""). 
+Se o objeto especificado por name já for um membro da coleção **QueryDefs**, ocorrerá um erro de tempo de execução. Você pode criar um **QueryDef** temporário usando uma cadeia de caracteres de comprimento zero para o argumento name quando executar o método **CreateQueryDef**. Também é possível realizar isso configurando a propriedade **[Name](querydef-name-property-dao.md)** de um **QueryDef** recém-criado como uma cadeia de caracteres de comprimento zero (""). 
 
 Objetos **QueryDef** temporários são úteis se você desejar usar repetidamente instruções SQL dinâmicas sem ter de criar novos objetos permanentes na coleção **QueryDefs**. Não é possível acrescentar um **QueryDef** temporário a qualquer coleção porque uma cadeia de caracteres de comprimento zero não é um nome válido para um objeto **QueryDef** permanente. Sempre é possível definir as propriedades **Name** e **SQL** do objeto **QueryDef** recém-criado e subsequentemente acrescentar o **QueryDef** à coleção **QueryDefs**.
 
@@ -135,7 +135,7 @@ Este exemplo usa o método **CreateQueryDef** para criar e executar um **QueryDe
 
 <br/>
 
-Este exemplo usa os métodos **CreateQueryDef** e **OpenRecordset** e a propriedade **SQL** para fazer uma consulta à tabela de títulos no banco de dados Pubs de amostra do Microsoft SQL Server e retornar o título e o identificador de título do livro com maior volume de vendas. O exemplo, em seguida, faz uma consulta à tabela de autores e instrui o usuário a enviar um cheque-bônus para cada autor com base em sua participação (o bônus total é de $1.000 e cada autor deve receber um percentual dessa quantia).
+Este exemplo usa os métodos **CreateQueryDef** e **OpenRecordset** e a propriedade **SQL** para consultar a tabela de títulos no banco de dados de exemplo Pubs do Microsoft SQL Server e retornar o título e o identificador de título do livro mais vendido. Em seguida, o exemplo consulta a tabela de autores e instrui o usuário a enviar um cheque de bonificação para cada autor com base na sua participação nos direitos autorais (o total do prêmio é de $ 1.000 e cada autor receberá uma porcentagem dessa quantia).
 
 ```vb 
 Sub ClientServerX2() 
@@ -203,9 +203,9 @@ End Sub
 
 <br/>
 
-O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta denominada **' MyQuery '** é criada com dois parâmetros, denominados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta é definida como uma instrução Structured Query Language (SQL) que define os parâmetros.
+O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta chamada **myQuery** é criada com dois parâmetros, chamados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta está definida como uma declaração de linguagem SQL que define os parâmetros.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()

@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 828bccfad83320d27f9473d532ab86f73b2fde98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314144"
 ---
 # <a name="transaction-statement-microsoft-access-sql"></a>Instrução TRANSACTION (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Usada para iniciar e concluir transações explícitas.
+Usado para iniciar e concluir transações explícitas.
 
 ## <a name="syntax"></a>Sintaxe
 
 **Iniciar uma nova transação**:
 
-BEGIN TRANSACTION
+INICIAR TRANSAÇÃO
 
-**Conclude uma transação, confirmando que tudo funciona executado durante a transação**:
+**Conclui uma transação ao confirmar todo o trabalho executado durante a transação**:
 
-Confirmar \[transação | TRABALHO\]
+CONFIRMAR \[TRANSAÇÃO | TRABALHO\]
 
-**Conclude uma transação, cancelando todo o trabalho executado durante a transação**:
+**Conclui uma transação ao reverter todo o trabalho executado durante a transação**:
 
-REVERSÃO \[transação | TRABALHO\]
+REVERSÃO \[TRANSAÇÃO | TRABALHO\]
 
 ## <a name="remarks"></a>Comentários
 
-As transações não são iniciadas automaticamente. Para iniciar uma transação, você deve ativá-la explicitamente, utilizando BEGIN TRANSACTION.
+As transações não são iniciadas automaticamente. Para iniciar uma transação, faça isso explicitamente usando BEGIN TRANSACTION.
 
-As transações podem ser aninhadas em até cinco níveis de profundidade. Para iniciar uma transação aninhada, use BEGIN TRANSACTION dentro do contexto de uma transação existente.
+É possível aninhar transações até cinco níveis de profundidade. Para iniciar uma transação aninhada, use BEGIN TRANSACTION no contexto de uma transação existente.
 
-As transações não são aceitas em tabelas vinculadas.
+Transações não são compatíveis com tabelas vinculadas.
 

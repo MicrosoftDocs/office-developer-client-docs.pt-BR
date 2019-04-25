@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284796"
 ---
 # <a name="recordsetmove-method-dao"></a>Método Recordset.Move (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Move a posição do registro atual em um objeto **[Recordset](recordset-object-dao.md)**.
+Move a posição do registro atual em um objeto **[Conjunto de registros](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Move (***linhas***, ***StartBookmark***)
+*expressão* .Move (***Linhas***, ***StartBookmark***)
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expressão* Uma variável que representa um objeto **Conjunto de registros**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,23 +42,23 @@ Move a posição do registro atual em um objeto **[Recordset](recordset-object-d
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Rows</em></p></td>
+<td><p><em>Linhas</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>O número de linhas que a posição será movida. Se rows for maior que 0, a posição será movida para frente (em direção ao final do arquivo). Se rows for menor que 0, a posição será movida para trás (em direção ao início do arquivo).</p></td>
+<td><p>O número de linhas que a posição vai mover. Se a quantidade de linhas for maior que 0, a posição será movida para a frente (em direção ao final do arquivo). Se a quantidade de linhas for menor que 0, a posição será movida para trás (em direção ao início do arquivo).</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um valor identificando um indicador. Se você especificar startbookmark, Move começará relativo a esse indicador. Caso contrário, Move começará a partir do registro atual.</p></td>
+<td><p>Um valor que identifica um marcador. Se você especificar startbookmark, a movimentação será iniciada em relação a este marcador. Caso contrário, Move começará a partir do registro atual.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,16 +66,16 @@ Move a posição do registro atual em um objeto **[Recordset](recordset-object-d
 
 ## <a name="remarks"></a>Comentários
 
-Se você usar **Move** para posicionar o ponteiro do registro atual antes do primeiro registro, o ponteiro do registro atual se moverá para o início do arquivo. Se o **Recordset** não contiver registros e sua propriedade **[BOF](recordset-bof-property-dao.md)** for **True**, a utilização desse método para mover para trás causará um erro.
+Se você utilizar **Move** para posicionar o ponteiro do registro atual antes do primeiro registro, o ponteiro do registro atual será movido para o início do arquivo. Se o **Recordset** não contiver nenhum registro e sua propriedade **[BOF](recordset-bof-property-dao.md)** for **True**, utilizar esse método para mover para trás causará um erro.
 
-Se você usar **Move** para posicionar o ponteiro do registro atual depois do último registro, a posição do ponteiro do registro atual se moverá para o fim do arquivo. Se o **Recordset** não contiver registros e sua propriedade **[EOF](recordset-eof-property-dao.md)** for **True**, a utilização desse método para mover para frente causará um erro.
+Se você utilizar **Move** para posicionar o ponteiro do registro atual depois do último registro, a posição do ponteiro do registro atual será movida para o final do arquivo. Se o **Recordset** não contiver nenhum registro e sua propriedade **[EOF](recordset-eof-property-dao.md)** for **True**, utilizar esse método para mover para frente causará um erro.
 
-Se a propriedade **BOF** ou **EOF** for **True** e você tentar usar o método **Move** sem um indicador válido, ocorrerá um erro em tempo de execução.
+Se a propriedade **BOF** ou **EOF** for **True** e você tentar usar o método **Move** sem um indicador válido, ocorrerá um erro de tempo de execução.
 
 > [!NOTE]
-> - Quando você usa **Move** em um objeto **Recordset** do tipo somente para encaminhamento, o argumento rows deve ser um inteiro positivo e não são permitidos indicadores. Isso significa que você pode mover apenas para a frente.
-> - Para definir o primeiro registro, o último, o próximo ou o anterior como o registro atual em um **Recordset**, use o método **MoveFirst**, **MoveLast**, **MoveNext** ou **MovePrevious**.
-> - Usar **Move** com rows igual a 0 é uma maneira fácil de recuperar os dados subjacentes do registro atual. Isso será útil se você desejar se certificar de que o registro atual tem os dados mais recentes das tabelas base. Também cancelará quaisquer chamadas pendentes de **[Edit](recordset2-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)**.
+> - Quando você usa **Move** em um objeto **Recordset** tipo somente encaminhamento, o argumento rows deve ser um inteiro positivo, e os indicadores não são permitidos. Isso significa que você só poderá mover para frente.
+> - Para tornar o primeiro, o último, o anterior ou o próximo registro em um **Recordset** o registro atual, use o método **MoveFirst**, **MoveLast**, **MoveNext** ou **MovePrevious**.
+> - Utilizar **Move** com linhas iguais a 0 é um modo fácil de recuperar dados de base para o registro atual. Isso é útil se você quiser confirmar se o registro atual tem os dados mais recentes a partir das tabelas base. Isso também poderá cancelar qualquer chamada **[Edit](recordset2-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)** pendente.
 
 
 ## <a name="example"></a>Exemplo

@@ -1,5 +1,5 @@
 ---
-title: SELECIONE. EM instrução (Microsoft Access SQL)
+title: Instrução SELECT.INTO (SQL do Microsoft Access)
 TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fd7152eaa7dd29f6d0bf5621d1b8b8b6f648673c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308719"
 ---
-# <a name="selectinto-statement-microsoft-access-sql"></a>SELECIONE. EM instrução (Microsoft Access SQL)
+# <a name="selectinto-statement-microsoft-access-sql"></a>Instrução SELECT.INTO (SQL do Microsoft Access)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria uma consulta criar tabela.
 
 ## <a name="syntax"></a>Sintaxe
 
-Selecione *field1*\[, *field2*\[,... \] \] Em *nova tabela* \[na *externaldatabase* \] da *fonte*
+SELECT *field1*\[, *field2*\[, …\]\] INTO *newtable* \[IN *externaldatabase*\] FROM *source*
 
 A instrução SELECT... INTO contém estas partes:
 
@@ -33,14 +33,14 @@ A instrução SELECT... INTO contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>field1</em>, <em>field2</em></p></td>
-<td><p>O nome dos campos a serem copiados para a nova tabela.</p></td>
+<td><p>O nome dos campos a ser copiado para a nova tabela.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>newtable</em></p></td>
@@ -48,10 +48,10 @@ A instrução SELECT... INTO contém estas partes:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>O caminho para um banco de dados externo. Para obter a descrição do caminho, consulte a cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
+<td><p>O caminho para um banco de dados externo. Para obter a descrição do caminho, consulte a cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>fonte</em></p></td>
+<td><p><em>source</em></p></td>
 <td><p>O nome da tabela existente da qual os registros são selecionados. Pode ser uma ou várias tabelas ou uma consulta.</p></td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ A instrução SELECT... INTO contém estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar as consultas criar tabela para arquivar registros, fazer cópias de backup das tabelas ou fazer cópias para exportar para outros bancos de dados ou para usar como base de relatórios que exibem dados em um determinado período de tempo. Por exemplo, você gerar um relatório Vendas Mensais por Região, executando a mesma consulta criar tabela a cada mês.
+Você pode usar as consultas criar tabela para arquivar registros, fazer cópias de backup de suas tabelas ou fazer cópias a serem exportadas para outro banco de dados ou usadas como base para relatórios que exibam dados de um período específico. Por exemplo, você pode produzir um relatório de Vendas mensais por região executando a mesma consulta criar tabela todo mês.
 
 > [!NOTE]
 > - Talvez você queira definir a chave primária para a nova tabela. Quando você cria a tabela, os campos na nova tabela herdam o tipo de dados e o tamanho do campo para cada campo nas tabelas subjacentes da consulta, mas nenhuma outra propriedade do campo ou da tabela é transferida.
@@ -71,7 +71,7 @@ Você pode usar as consultas criar tabela para arquivar registros, fazer cópias
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo seleciona todos os registros na tabela Funcionários e copia-os para uma nova tabela chamada Emp Backup.
+Este exemplo seleciona todos os registros na tabela de Funcionários e copia em uma nova tabela chamada Emp Backup.
 
 ```vb
     Sub SelectIntoX() 
