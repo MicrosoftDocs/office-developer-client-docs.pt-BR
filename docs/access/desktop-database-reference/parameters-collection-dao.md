@@ -1,5 +1,5 @@
 ---
-title: Coleção Parameters (DAO)
+title: Coleção de parâmetros (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287892"
 ---
-# <a name="parameters-collection-dao"></a>Coleção Parameters (DAO)
+# <a name="parameters-collection-dao"></a>Coleção de parâmetros (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Uma coleção **Parameters** contém todos os objetos **Parameter** de um objeto **QueryDef**.
+Uma coleção de**Parâmetros** contêm todos os objetos de**Parâmetro** de um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ A coleção **Parameters** fornece informações apenas sobre parâmetros existe
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo demonstra os objetos **Parameter** e a coleção **Parameters**, criando um **QueryDef** temporário e recuperando dados com base nas alterações feitas em **Parameters** do objeto **QueryDef**. O procedimento ParametersChange é exigido para que este procedimento seja executado.
+Este exemplo demonstra objetos **Parameter** e a coleção **Parameters** criando uma **QueryDef** temporária e recuperando dados com base em alterações feitas aos objetos **Parameters** do objeto **QueryDef**. O procedimento ParametersChange é exigido para a execução deste procedimento.
 
 ```vb
     Sub ParameterX() 
@@ -94,9 +94,9 @@ Este exemplo demonstra os objetos **Parameter** e a coleção **Parameters**, cr
 
 <br/>
 
-O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta denominada **' MyQuery '** é criada com dois parâmetros, denominados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta é definida como uma instrução Structured Query Language (SQL) que define os parâmetros.
+O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta chamada **myQuery** é criada com dois parâmetros, chamados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta está definida como uma declaração de linguagem SQL que define os parâmetros.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta denom
 
 <br/>
 
-O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção Parameters é usada para definir o parâmetro Organization da consulta myActionQuery antes que a consulta é executada.
+O exemplo a seguir mostra como executar uma consulta parâmetro. A coleção de Parâmetros é usada para configurar o parâmetro de Organização da consulta myActionQuery antes da execução da consulta.
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -150,7 +150,7 @@ O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção 
 
 <br/>
 
-O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.
+O exemplo a seguir mostra como abrir um Conjunto de registros baseado em uma consulta parâmetro.
 
 ```vb
     Dim dbs As DAO.Database

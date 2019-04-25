@@ -1,7 +1,7 @@
 ---
 title: Ocultar a faixa de opções quando o Access for iniciado
 TOCTitle: Hide the ribbon when Access starts
-description: Como carregar uma faixa de opções personalizada que oculta todas as guias internas no Access 2013.
+description: Este tópico descreve como carregar uma faixa de opções personalizada que oculta todas as guias internas no Access 2013.
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
@@ -9,23 +9,23 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 4ce9327790f620ba9163f5cdbe7b5c8900de4341
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291934"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Ocultar a faixa de opções quando o Access for iniciado
 
-**Aplica-se a:** Access 2013 | Office 2013
+**Aplica-se ao:** Access 2013 | Office 2013
 
 Por padrão, o Microsoft Access não oferece um método para ocultar a faixa de opções. Este tópico descreve como carregar uma faixa de opções personalizada que oculta todas as guias internas.
 
 Para carregar a faixa de opções personalizada quando o Access for iniciado, você deverá armazenar suas configurações em uma tabela chamada **USysRibbons**.
 
-A tabela **USysRibbons** deve ser criada com o uso de nomes de coluna específica para as personalizações de faixa de opções a serem implementadas. 
+A tabela **USysRibbons** deve ser criada usando nomes de coluna específicos para que as personalizações da faixa de opções sejam implementadas. 
 
-A tabela a seguir lista as configurações a serem usadas na criação da tabela **USysRibbons**.
+A tabela a seguir lista as configurações para usar ao criar a tabela **USysRibbons**.
 
 <table>
 <colgroup>
@@ -49,14 +49,14 @@ A tabela a seguir lista as configurações a serem usadas na criação da tabela
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Memorando</p></td>
-<td><p>Contém a extensibilidade da faixa de opções XML (RibbonX) que define a personalização da faixa de opções.</p></td>
+<td><p>Contém o XML de extensibilidade da Faixa de Opções (RibbonX) que define a personalização da faixa de opções.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-A tabela a seguir lista as configurações de personalização da faixa de opções a serem armazenadas na tabela **USysRibbons**.
+A tabela a seguir lista as configurações de personalização da faixa de opções a ser armazenada na tabela **USysRibbons**.
 
 |Nome da coluna|Valor|
 |:----------|:----|
@@ -64,7 +64,7 @@ A tabela a seguir lista as configurações de personalização da faixa de opç�
 |**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
 
 
-## <a name="apply-a-custom-ribbon-when-access-starts"></a>Aplicar uma faixa de opções personalizada ao iniciar o Access
+## <a name="apply-a-custom-ribbon-when-access-starts"></a>Aplicar uma faixa de opções personalizada quando o Access iniciar
 
 Para aplicar uma faixa de opções personalizada de forma que ela esteja disponível quando o aplicativo for iniciado, use o seguinte procedimento:
 
@@ -72,13 +72,13 @@ Para aplicar uma faixa de opções personalizada de forma que ela esteja dispon�
 
 2.  Feche e então reinicie o aplicativo.
 
-3.  Escolha o **Botão do Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102")e escolha **Opções do Access**.
+3.  Escolha o **Botão Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102"), e escolha **Opções de Acesso**.
 
-4.  Escolha a opção de **Banco de dados atual** e em seguida, na seção **Opções de barra de ferramentas e faixa de opções** , escolha a lista **Nome da faixa de opções** e selecione **HideTheRibbon**.
+4.  Escolha a opção **Banco de Dados Atual** e, em seguida, na seção **Opções da Faixa de Opções e da Barra de Ferramentas**, escolha a lista **Nome da Faixa de Opções** e selecione **HideTheRibbon**.
 
 5.  Feche e então reinicie o aplicativo.
 
 > [!NOTE]
-> [!OBSERVAçãO] Para saber mais sobre a interface do usuário da faixa de opções em outros aplicativos do Office, consulte [Visão geral da faixa de opções do Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> Para saber mais sobre a interface do usuário da faixa de opções em outros aplicativos do Office, consulte [Visão geral da faixa de opções do Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 
