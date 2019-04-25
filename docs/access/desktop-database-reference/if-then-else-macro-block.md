@@ -1,5 +1,5 @@
 ---
-title: Bloco de macro If...Then...Else
+title: Bloco de macro Se...Então...Senão
 TOCTitle: If...Then...Else macro block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291891"
 ---
-# <a name="ifthenelse-macro-block"></a>Bloco de macro If...Then...Else
+# <a name="ifthenelse-macro-block"></a>Bloco de macro Se...Então...Senão
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Você pode usar o bloco de macro **Se** para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão.
 
@@ -33,7 +33,7 @@ Você pode usar o bloco de macro **Se** para executar condicionalmente um grupo 
 
 ## <a name="setting"></a>Configuração
 
-Para **se** e **Senão se**, os argumentos a seguir são necessários.
+Para ambos **Se** e ** Senão Se**, os seguintes argumentos são requeridos.
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ Para **se** e **Senão se**, os argumentos a seguir são necessários.
 <tbody>
 <tr class="odd">
 <td><p><strong>Expressão</strong>.</p></td>
-<td><p>A condição que você deseja testar. Ela deve ser uma expressão que é avaliada como True ou False.</p></td>
+<td><p>A condição que você deseja testar. Deve ser uma expressão que avalia como True ou False.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ Você pode adicionar a quantidade necessária de **Senão Se** a um bloco Se.
 
 Clique em **Adicionar Senão** para inserir um bloco **Senão** adicional. Nesse caso, as ações inseridas abaixo de **Senão** formam o bloco **Senão**, que será executado somente se as ações acima não forem executadas. É possível adicionar um único bloco **Senão** a um bloco **Se**.
 
-No exemplo de código a seguir, as ações de macro no primeiro bloco executados se o valor da \[Status\] for maior que 0. Se o valor da \[Status\] não for maior do que 0, a expressão que segue **Senão se** é avaliada. As ações de macro no bloco **Senão se** executados se o valor da \[Status\] for igual a 0. Finalmente, se nem o primeiro bloco, nem o segundo forem executados, as ações no bloco **Senão** serão executadas.
+No exemplo de código a seguir, as ações de macro no primeiro bloco serão executadas se o valor de\[Status\] for maior que 0. Se o valor de \[Status\] não for maior que 0, a expressão após **Senão Se** será avaliada. As ações de macro no bloco**Senão Se** serão executadas se o valor de \[Status\] for igual a 0. Finalmente, se nem o primeiro bloco, nem o segundo forem executados, as ações no bloco **Senão** serão executadas.
 
 ```vb
     If [Status] > 0 Then 
@@ -77,7 +77,7 @@ No exemplo de código a seguir, as ações de macro no primeiro bloco executados
     End If
 ```
 
-Você pode aninhar blocos **Se**. Considere o aninhamento do bloco **Se** em um bloco **Se** se você deseja avaliar uma segunda expressão, quando a primeira expressão tiver o valor True. No exemplo de código a seguir, o bloco de **se** inner só é executado quando o valor da \[Status\] é ambos maior que 0 *e* maior que 100.
+Você pode aninhar blocos **Se**. Considere o aninhamento do bloco **Se** em um bloco **Se** se você deseja avaliar uma segunda expressão, quando a primeira expressão tiver o valor True. No exemplo de código a seguir, o bloco interno **Se** somente será executado quando o valor de \[Status\] for maior que 0 *e* maior que 100.
 
 ```vb
     If [Status] > 0 Then 

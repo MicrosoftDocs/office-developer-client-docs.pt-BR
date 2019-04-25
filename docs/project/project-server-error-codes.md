@@ -15,11 +15,11 @@ ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Este tópico inclui tabelas de códigos de erro da Interface do servidor do projeto (PSI) no Project Server 2013. As tabelas são organizadas por área funcional e intervalo de códigos de erro.
 localization_priority: Priority
 ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301474"
 ---
 # <a name="project-server-error-codes"></a>Códigos de erro do Project Server
 
@@ -156,7 +156,7 @@ Processos do Project Server 2013 e métodos PSI têm números de código de erro
 |GeneralInvalidObject = 20009  <br/> |O objeto não é válido.  <br/> |
 |GeneralSecurityAccessDenied = 20010  <br/> |O acesso foi negado por causa das permissões de segurança.  <br/> |
 |GeneralInvalidOperation = 20011  <br/> |A operação não é válida.  <br/> |
-|GeneralInvalidCharacters = 20012  <br/> |Alguns caracteres não são válidos. Além do caractere de tabulação, os caracteres a seguir não são válidos em um nome de projeto: \ / " : ; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Alguns caracteres não são válidos. Além do caractere de tabulação, os caracteres a seguir não são válidos em um nome de projeto: `\ / " : ; < > | , . ' ? * #` <br/> |
 |GeneralNameTooLong = 20013  <br/> |O nome é muito longo.  <br/> |
 |GeneralNameCannotBeBlank = 20014  <br/> |O nome não pode ficar em branco. Não use uma cadeia de caracteres nula ou vazia.  <br/> |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |A tentativa de operação em um valor somente leitura não é válida.  <br/> |

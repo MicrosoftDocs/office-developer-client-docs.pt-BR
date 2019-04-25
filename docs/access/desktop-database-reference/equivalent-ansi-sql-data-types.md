@@ -1,5 +1,5 @@
 ---
-title: Tipo de dados ANSI SQL equivalentes
+title: Tipo de dados equivalentes ao ANSI SQL
 TOCTitle: Equivalent ANSI SQL data types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293508"
 ---
-# <a name="equivalent-ansi-sql-data-types"></a>Tipo de dados ANSI SQL equivalentes
+# <a name="equivalent-ansi-sql-data-types"></a>Tipo de dados equivalentes ao ANSI SQL
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-A tabela a seguir lista os tipos de dados ANSI SQL, seus tipos de dados SQL do mecanismo de banco de dados do Microsoft Access e seus sinônimos válidos. Ela também lista os tipos de dados Microsoft SQL Server™ equivalentes.
+A tabela a seguir lista os tipos de dados ANSI SQL, seus tipos de dados equivalentes do mecanismo SQL do banco de dados do Microsoft Access e seus sinônimos válidos. Ele também lista os tipos de dados equivalentes do Microsoft SQL Server™.
 
 <table>
 <colgroup>
@@ -35,9 +35,8 @@ A tabela a seguir lista os tipos de dados ANSI SQL, seus tipos de dados SQL do m
 <thead>
 <tr class="header">
 <th><p>Tipo de dados ANSI SQL</p></th>
-<th><p>Tipo de dados do Microsoft Access SQL</p></th>
-<th><p>
-Sinônimo</p></th>
+<th><p>Tipos de dados do Microsoft Access SQL</p></th>
+<th><p>Sinônimos</p></th>
 <th><p>Tipo de dados do Microsoft SQL Server</p></th>
 </tr>
 </thead>
@@ -45,7 +44,7 @@ Sinônimo</p></th>
 <tr class="odd">
 <td><p>BIT, BIT VARYING</p></td>
 <td><p>BINARY (consulte Observações)</p></td>
-<td><p>VARBINARY, BINÁRIO VARIANTE BIT VARIADOS</p></td>
+<td><p>VARBINARY, BINARY VARYING BIT VARYING</p></td>
 <td><p>BINARY, VARBINARY</p></td>
 </tr>
 <tr class="even">
@@ -68,14 +67,14 @@ Sinônimo</p></th>
 </tr>
 <tr class="odd">
 <td><p>Sem suporte</p></td>
-<td><p>MONEY</p></td>
-<td><p>CURRENCY</p></td>
-<td><p>MONEY</p></td>
+<td><p>DINHEIRO</p></td>
+<td><p>MOEDA</p></td>
+<td><p>DINHEIRO</p></td>
 </tr>
 <tr class="even">
 <td><p>DATE, TIME, TIMESTAMP</p></td>
 <td><p>DATETIME</p></td>
-<td><p>DATE, TIME (consulte Observações)</p></td>
+<td><p>DATA, HORA (Consulte Observações)</p></td>
 <td><p>DATETIME</p></td>
 </tr>
 <tr class="odd">
@@ -109,33 +108,33 @@ Sinônimo</p></th>
 <td><p>SMALLINT</p></td>
 </tr>
 <tr class="even">
-<td><p>INTEGER</p></td>
-<td><p>INTEGER</p></td>
+<td><p>INTEIRO</p></td>
+<td><p>INTEIRO</p></td>
 <td><p>LONG, INT, INTEGER4</p></td>
-<td><p>INTEGER</p></td>
+<td><p>INTEIRO</p></td>
 </tr>
 <tr class="odd">
-<td><p>INTERVAL</p></td>
+<td><p>INTERVALO</p></td>
 <td><p>Sem suporte</p></td>
 <td><p></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
 <td><p>Sem suporte</p></td>
-<td><p>IMAGE</p></td>
+<td><p>IMAGEM</p></td>
 <td><p>LONGBINARY, GENERAL, OLEOBJECT</p></td>
-<td><p>IMAGE</p></td>
+<td><p>IMAGEM</p></td>
 </tr>
 <tr class="odd">
 <td><p>Sem suporte</p></td>
-<td><p>TEXTO (consulte Observações)</p></td>
+<td><p>TEXTO (Consulte Observações)</p></td>
 <td><p>LONGTEXT, LONGCHAR, MEMO, NOTE, NTEXT (consulte Observações)</p></td>
-<td><p>TEXT</p></td>
+<td><p>TEXTO</p></td>
 </tr>
 <tr class="even">
 <td><p>CHARACTER, CHARACTER VARYING, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING</p></td>
 <td><p>CHAR (consulte Observações)</p></td>
-<td><p>Text (n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (consulte Observações)</p></td>
+<td><p>TEXTO(n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (consulte Observações)</p></td>
 <td><p>CHAR, VARCHAR, NCHAR, NVARCHAR</p></td>
 </tr>
 </tbody>

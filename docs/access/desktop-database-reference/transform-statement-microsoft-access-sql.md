@@ -1,5 +1,5 @@
 ---
-title: TRANSFORMAR instrução (Microsoft Access SQL)
+title: Instrução TRANSFORM (Microsoft Access SQL)
 TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314039"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a>TRANSFORMAR instrução (Microsoft Access SQL)
+# <a name="transform-statement-microsoft-access-sql"></a>Instrução TRANSFORM (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria uma consulta de tabela de referência cruzada.
 
 ## <a name="syntax"></a>Sintaxe
 
-TRANSFORMAR *aggfunctionselectstatement* PIVOT *pivotfield* \[pol (*valor1*\[, *value2*\[,... \]\])\]
+TRANSFORM *aggfunctionselectstatement* PIVOT *campo dinâmico* \[IN (*valor1*\[, *valor2*\[, …\]\])\]
 
-A instrução TRANSFORM contém estas partes:
+A instrução TRANSFORM tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ A instrução TRANSFORM contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -51,12 +51,12 @@ A instrução TRANSFORM contém estas partes:
 <td><p>Uma instrução <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>pivotfield</em></p></td>
+<td><p><em>campo dinâmico</em></p></td>
 <td><p>O campo ou expressão que deseja usar para criar títulos de colunas no conjunto de resultados da consulta.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>value1</em>, <em>value2</em></p></td>
-<td><p>Valores fixos usados para criar títulos de colunas.</p></td>
+<td><p><em>valor1</em>, <em>valor2</em></p></td>
+<td><p>Valores fixos usados para criar títulos de coluna.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Ao resumir dados utilizando uma consulta de tabela de referência cruzada, você
 
 TRANSFORM é opcional, mas, quando incluso, é a primeira instrução em uma sequência SQL. Ela precede uma instrução SELECT que especifica os campos utilizados como títulos de linha e uma cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica o agrupamento de linhas. Opcionalmente, você pode incluir outras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifica critérios adicionais de seleção ou classificação. Você também pode usar subconsultas como predicados  especificamente, aqueles na cláusula WHERE  em uma consulta de tabela de referência cruzada.
 
-Os valores retornados em *pivotfield* são utilizados como títulos de colunas no conjunto de resultados da consulta. Por exemplo, dinamizar as figuras de vendas no mês de vendas, em um consulta de tabela de referência cruzada cria 12 colunas. Você pode restringir *pivotfield* para criar títulos de valores fixos (*value1*, *value2* ) listados na cláusula IN opcional. Também é possível incluir valores fixos que não têm nenhum dado para criar colunas adicionais.
+Os valores retornados em *pivotfield* são usados como títulos de coluna no conjunto de resultados da consulta. Por exemplo, dinamizar as estimativas de vendas no mês de vendas em uma consulta de tabela de referência cruzada cria 12 colunas. Você pode restringir *pivotfield* para criar títulos de valores fixos (*valor1*, *valor2*) listados na cláusula IN opcional. Você também pode incluir valores fixos para o qual não há nenhum dado para criar colunas adicionais.
 
 ## <a name="example"></a>Exemplo
 

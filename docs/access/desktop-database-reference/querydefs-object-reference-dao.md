@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c532ed1062fd7ceb4c078c6715947414f7ed0dbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300907"
 ---
 # <a name="querydefs-object-reference-dao"></a>Referência de objeto QueryDefs (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 - [Coleção QueryDefs (DAO)](querydefs-collection-dao.md)
-- [Membros de QueryDefs (DAO)](querydefs-members-dao.md)
+- [Membros QueryDefs (DAO)](querydefs-members-dao.md)
 - [Propriedades QueryDefs (DAO)](querydefs-properties-dao.md)
-- [Métodos de QueryDefs (DAO)](querydefs-methods-dao.md)
+- [Métodos QueryDefs (DAO)](querydefs-methods-dao.md)
 

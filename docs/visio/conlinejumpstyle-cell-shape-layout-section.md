@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251655
 localization_priority: Normal
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
-description: Determina o estilo de saltos de linha em um conector dinâmico.
-ms.openlocfilehash: d3e27ddb6689fb5635674b3c4a8462fe587bce7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Determina o estilo de salto da linha para os saltos de linha em um conector dinâmico.
+ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360057"
 ---
 # <a name="conlinejumpstyle-cell-shape-layout-section"></a>Célula ConLineJumpStyle (Seção Shape Layout)
 
-Determina o estilo de saltos de linha em um conector dinâmico.
+Determina o estilo de salto da linha para os saltos de linha em um conector dinâmico.
   
 |**Valor**|**Estilo de salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
 |0  <br/> |Padrão da página  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |Arco  <br/> |**visLOJumpStyleArc** <br/> |
-|2  <br/> |Intervalo  <br/> |**visLOJumpStyleGap** <br/> |
+|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2  <br/> |Lacuna  <br/> |**visLOJumpStyleGap** <br/> |
 |3  <br/> |Quadrado  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |Triangle  <br/> |**visLOJumpStyleTriangle** <br/> |
+|4  <br/> |Triângulo  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5  <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
 |6  <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |
 |7  <br/> |5 lados  <br/> |**visLOJumpStyle4Point** <br/> |
@@ -36,19 +36,19 @@ Determina o estilo de saltos de linha em um conector dinâmico.
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOJumpStyle** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOJumpStyle** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode também definir o valor desta célula selecionando um conector dinâmico, clicando em **comportamento** , no grupo **Design** da forma na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **conector** . 
+Também é possível definir o valor desta célula selecionando um conector dinâmico, clicando em **Comportamento**, no grupo **Design da Forma**, na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **Conector**. 
   
-Para obter uma referência para a célula ConLineJumpStyle pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
+Para obter uma referência à célula ConLineJumpStyle por nome de outra fórmula ou de um programa que utiliza a propriedade **CellsU**, use: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |ConLineJumpStyle  <br/> |
    
-Para obter uma referência para a célula ConLineJumpStyle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência à célula ConLineJumpStyle por índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 

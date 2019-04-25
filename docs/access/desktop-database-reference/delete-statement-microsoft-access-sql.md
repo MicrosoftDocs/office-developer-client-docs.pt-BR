@@ -1,5 +1,5 @@
 ---
-title: Exclua a instrução (Microsoft Access SQL)
+title: Instrução DELETE (Microsoft Access SQL)
 TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294040"
 ---
-# <a name="delete-statement-microsoft-access-sql"></a>Exclua a instrução (Microsoft Access SQL)
+# <a name="delete-statement-microsoft-access-sql"></a>Instrução DELETE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria uma consulta de exclusão que remove os registros de uma ou mais tabelas listadas na cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) que atenda à cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Sintaxe
 
-Excluir \[ *tabela*. \* \] Da *tabela* onde *critérios*
+DELETE \[*table*.\*\] FROM *table* WHERE *criteria*
 
-A instrução DELETE tem estas partes:
+A instrução DELETE tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ A instrução DELETE tem estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -51,7 +51,7 @@ A instrução DELETE tem estas partes:
 <td><p>O nome da tabela da qual os registros são excluídos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>criteria</em></p></td>
+<td><p><em>critério</em></p></td>
 <td><p>Uma expressão que determina quais registros serão excluídos.</p></td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ A instrução DELETE tem estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-DELETE é especialmente útil quando você desejar excluir muitos registros.
+DELETE é especialmente útil quando você deseja excluir vários registros.
 
 Para eliminar uma tabela inteira do banco de dados, você pode usar o método **Execute** com uma instrução [DROP](drop-statement-microsoft-access-sql.md). Se você excluir a tabela, contudo, a estrutura será perdida. Do contrário, quando você usar DELETE, somente os dados serão excluídos; a estrutura da tabela e todas as propriedades da tabela, como os atributos e os índices de campos, permanecerão intactos.
 
@@ -70,13 +70,11 @@ Uma consulta de exclusão exclui registros inteiros, não apenas dados em campos
 
 > [!IMPORTANT]
 > - Depois de remover registros utilizando uma consulta de exclusão, você não poderá desfazer a operação. Se você quiser saber quais registros foram excluídos, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de exclusão.
-> - Sempre faça cópias de backup dos dados. Se você excluir registros erroneamente, será possível recuperá-los das cópias de backup.
+> - Mantenha cópias de backup de seus dados em todos os momentos. Se você excluir os registros errados, poderá recuperá-los das cópias de backup.
 
 ## <a name="example"></a>Exemplo
 
 Este exemplo exclui todos os registros de funcionários cujo cargo é Trainee. Quando a cláusula FROM inclui apenas uma tabela, não é necessário listar o nome da tabela na instrução DELETE.
-
-
 
 ```vb
     Sub DeleteX() 
