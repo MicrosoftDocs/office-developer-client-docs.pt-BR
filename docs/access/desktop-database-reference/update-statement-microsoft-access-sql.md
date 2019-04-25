@@ -14,23 +14,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6a0404c21b308f6e389ee5577cc212763e660774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306241"
 ---
-# <a name="update-statement-microsoft-access-sql"></a><span data-ttu-id="6c7cd-102">Instrução UPDATE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="6c7cd-102">UPDATE statement (Microsoft Access SQL)</span></span>
+# <a name="update-statement-microsoft-access-sql"></a><span data-ttu-id="4b5e7-102">Instrução UPDATE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="4b5e7-102">UPDATE Statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="6c7cd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6c7cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4b5e7-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b5e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6c7cd-104">Cria uma consulta de atualização que altera os valores nos campos em uma tabela especificada com base em critérios específicos.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-104">Creates an update query that changes values in fields in a specified table based on specified criteria.</span></span>
+<span data-ttu-id="4b5e7-104">Cria uma consulta de atualização que altera os valores nos campos em uma tabela especificada com base em critérios específicos.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-104">Creates an update query that changes values in fields in a specified table based on specified criteria.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6c7cd-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="6c7cd-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b5e7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4b5e7-105">Syntax</span></span>
 
-<span data-ttu-id="6c7cd-106">ATUALIZAÇÃO *tabela* SET *newvalue* onde *critérios*;</span><span class="sxs-lookup"><span data-stu-id="6c7cd-106">UPDATE *table* SET *newvalue* WHERE *criteria*;</span></span>
+<span data-ttu-id="4b5e7-106">UPDATE *table* SET *newvalue* WHERE *criteria*;</span><span class="sxs-lookup"><span data-stu-id="4b5e7-106">UPDATE *table*
+    SET *newvalue*
+    WHERE *criteria*;</span></span>
 
-<span data-ttu-id="6c7cd-107">A instrução UPDATE contém estas partes:</span><span class="sxs-lookup"><span data-stu-id="6c7cd-107">The UPDATE statement has these parts:</span></span>
+<span data-ttu-id="4b5e7-107">A instrução UPDATE tem as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="4b5e7-107">The UPDATE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,32 +41,32 @@ ms.locfileid: "28717227"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="6c7cd-108">Parte</span><span class="sxs-lookup"><span data-stu-id="6c7cd-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="6c7cd-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="6c7cd-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="4b5e7-108">Sair</span><span class="sxs-lookup"><span data-stu-id="4b5e7-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="4b5e7-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="4b5e7-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6c7cd-110"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="6c7cd-110"><em>table</em></span></span></p></td>
-<td><p><span data-ttu-id="6c7cd-111">O nome da tabela que contém os dados que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-111">The name of the table containing the data you want to modify.</span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-110"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="4b5e7-110"><em>table</em></span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-111">Nome da tabela contendo dados que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-111">The name of the table containing the data you want to modify.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6c7cd-112"><em>newvalue</em></span><span class="sxs-lookup"><span data-stu-id="6c7cd-112"><em>newvalue</em></span></span></p></td>
-<td><p><span data-ttu-id="6c7cd-113">Uma expressão que determina o valor a ser inserido em um determinado campo nos registros atualizados.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-113">An expression that determines the value to be inserted into a particular field in the updated records.</span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-112"><em>newvalue</em></span><span class="sxs-lookup"><span data-stu-id="4b5e7-112"><em>newValue</em></span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-113">Uma expressão que determina o valor a ser inserido em um determinado campo nos registros atualizados.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-113">An expression that determines the value to be inserted into a particular field in the updated records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6c7cd-114"><em>criteria</em></span><span class="sxs-lookup"><span data-stu-id="6c7cd-114"><em>criteria</em></span></span></p></td>
-<td><p><span data-ttu-id="6c7cd-p101">Uma expressão que determina quais registros serão atualizados. Somente os registros que atendem à expressão são atualizados.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-p101">An expression that determines which records will be updated. Only records that satisfy the expression are updated.</span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-114"><em>criteria</em></span><span class="sxs-lookup"><span data-stu-id="4b5e7-114"><em>criteria</em></span></span></p></td>
+<td><p><span data-ttu-id="4b5e7-115">Uma expressão que determina quais registros serão atualizados.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-115">An expression that determines which records will be updated.</span></span> <span data-ttu-id="4b5e7-116">Somente os registros que atendem à expressão são atualizados.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-116">Only records that satisfy the expression are updated.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="6c7cd-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="6c7cd-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4b5e7-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="4b5e7-117">Remarks</span></span>
 
-<span data-ttu-id="6c7cd-118">UPDATE é especialmente útil quando você deseja alterar muitos registros ou quando os registros que deseja alterar estão em várias tabelas.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-118">UPDATE is especially useful when you want to change many records or when the records that you want to change are in multiple tables.</span></span>
+<span data-ttu-id="4b5e7-118">UPDATE é especialmente útil quando você deseja alterar muitos registros ou quando os registros que você deseja alterar estão em várias tabelas.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-118">UPDATE is especially useful when you want to change many records or when the records that you want to change are in multiple tables.</span></span>
 
-<span data-ttu-id="6c7cd-p102">Você pode alterar vários campos ao mesmo tempo. O exemplo a seguir aumenta os valores Total de Pedidos em 10% e os valores Frete em 3% para transportadoras no Reino Unido:</span><span class="sxs-lookup"><span data-stu-id="6c7cd-p102">You can change several fields at the same time. The following example increases the Order Amount values by 10 percent and the Freight values by 3 percent for shippers in the United Kingdom:</span></span>
+<span data-ttu-id="4b5e7-p102">Você pode alterar vários campos ao mesmo tempo. O próximo exemplo aumenta os valores de Order Amount em 10% e os valores de Freight em 3% para transportadores do Reino Unido:</span><span class="sxs-lookup"><span data-stu-id="4b5e7-p102">You can change several fields at the same time. The following example increases the Order Amount values by 10 percent and the Freight values by 3 percent for shippers in the United Kingdom:</span></span>
 
 ```sql
 UPDATE Orders 
@@ -75,17 +77,14 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-- <span data-ttu-id="6c7cd-p103">UPDATE não gerar um conjunto de resultados. Além disso, depois de atualizar registros utilizando uma consulta de atualização, você não poderá desfazer a operação. Se você quiser saber quais registros foram atualizados, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de atualização.</span><span class="sxs-lookup"><span data-stu-id="6c7cd-p103">UPDATE does not generate a result set. Also, after you update records using an update query, you cannot undo the operation. If you want to know which records were updated, first examine the results of a select query that uses the same criteria, and then run the update query.</span></span>
-- <span data-ttu-id="6c7cd-p104">Sempre faça cópias de backup dos dados. Se você atualizar registros erroneamente, será possível recuperá-los das cópias de backup.
-</span><span class="sxs-lookup"><span data-stu-id="6c7cd-p104">Maintain backup copies of your data at all times. If you update the wrong records, you can retrieve them from your backup copies.</span></span>
+- <span data-ttu-id="4b5e7-p103">UPDATE não gerar um conjunto de resultados. Além disso, depois de atualizar registros utilizando uma consulta de atualização, você não poderá desfazer a operação. Se você quiser saber quais registros foram atualizados, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de atualização.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-p103">UPDATE does not generate a result set. Also, after you update records using an update query, you cannot undo the operation. If you want to know which records were updated, first examine the results of a select query that uses the same criteria, and then run the update query.</span></span>
+- <span data-ttu-id="4b5e7-124">Mantenha cópias de backup de seus dados em todos os momentos.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-124">Maintain backup copies of your data at all times.</span></span> <span data-ttu-id="4b5e7-125">Se você atualizar os registros errados, poderá recuperá-los das cópias de backup.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-125">If you update the wrong records, you can retrieve them from your backup copies.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="6c7cd-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="6c7cd-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4b5e7-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4b5e7-126">Example</span></span>
 
-<span data-ttu-id="6c7cd-127">Este exemplo altera os valores no campo Gerente para 5 em todos os registros de funcionários que têm atualmente valores 2 em  Gerente.
-
-</span><span class="sxs-lookup"><span data-stu-id="6c7cd-127">This example changes values in the ReportsTo field to 5 for all employee records that currently have ReportsTo values of 2.</span></span>
+<span data-ttu-id="4b5e7-127">Este exemplo altera os valores no campo ReportsTo para 5 em todos os registros de funcionários que atualmente têm valores de ReportsTo 2.</span><span class="sxs-lookup"><span data-stu-id="4b5e7-127">This example changes values in the ReportsTo field to 5 for all employee records that currently have ReportsTo values of 2.</span></span>
 
 ```vb
     Sub UpdateX() 

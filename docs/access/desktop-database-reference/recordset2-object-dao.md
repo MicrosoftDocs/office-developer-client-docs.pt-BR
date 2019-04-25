@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307228"
 ---
-# <a name="recordset2-object-dao"></a><span data-ttu-id="9f3ce-102">Objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9f3ce-102">Recordset2 object (DAO)</span></span>
+# <a name="recordset2-object-dao"></a><span data-ttu-id="e494d-102">Objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e494d-102">Recordset2 object (DAO)</span></span>
 
-<span data-ttu-id="9f3ce-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f3ce-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e494d-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e494d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9f3ce-104">Um objeto **Recordset2** representa os registros em uma tabela de base ou os registros resultantes da execução de uma consulta.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="e494d-104">Um objeto **Recordset2** representa os registros em uma tabela base ou os registros resultantes da execução de uma consulta.</span><span class="sxs-lookup"><span data-stu-id="e494d-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9f3ce-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="9f3ce-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e494d-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="e494d-105">Remarks</span></span>
 
-<span data-ttu-id="9f3ce-p101">Um objeto **Recordset2** contém as mesmas propriedades e os mesmo métodos que o objeto **[Recordset](recordset-object-dao.md)**. O objeto **Recordset2** contém uma nova propriedade, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, que oferece suporte a tipos de campo de vários valores.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
+<span data-ttu-id="e494d-p101">Um objeto **Recordset2** contém as mesmas propriedades e os mesmo métodos que o objeto **[Recordset](recordset-object-dao.md)**. O objeto **Recordset2** contém uma nova propriedade, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, que oferece suporte a tipos de campo de vários valores.</span><span class="sxs-lookup"><span data-stu-id="e494d-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9f3ce-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9f3ce-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e494d-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e494d-108">Example</span></span>
 
-<span data-ttu-id="9f3ce-109">O exemplo a seguir mostra como navegar entre um Recordset que contém um campo de valor múltiplos.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="e494d-109">O exemplo a seguir mostra como navegar em um Recordset que contém um campo com valores múltiplos.</span><span class="sxs-lookup"><span data-stu-id="e494d-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="9f3ce-110">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="9f3ce-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="e494d-110">**Código de exemplo fornecido** pela [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="e494d-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ ms.locfileid: "28718340"
 
 <br/>
 
-<span data-ttu-id="9f3ce-111">O exemplo a seguir mostra como navegar entre os arquivos em um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="9f3ce-112">O tipo de arquivo e o nome do arquivo de cada anexo é impresso na janela Immediate.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="e494d-111">O exemplo a seguir mostra como navegar os arquivos em um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="e494d-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="e494d-112">O tipo de arquivo e o nome de cada anexo é impressa na janela imediata.</span><span class="sxs-lookup"><span data-stu-id="e494d-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ ms.locfileid: "28718340"
 
 <br/>
 
-<span data-ttu-id="9f3ce-113">O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="e494d-113">O exemplo a seguir mostra como adicionar arquivos de um caminho de uma pasta especificada para um campo anexo.</span><span class="sxs-lookup"><span data-stu-id="e494d-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ ms.locfileid: "28718340"
 
 <br/>
 
-<span data-ttu-id="9f3ce-114">O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho da pasta especificada.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="e494d-114">O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo para o caminho da pasta especificada.</span><span class="sxs-lookup"><span data-stu-id="e494d-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ ms.locfileid: "28718340"
 
 <br/>
 
-<span data-ttu-id="9f3ce-115">O exemplo a seguir mostra como excluir um arquivo armazenado em um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="9f3ce-115">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="e494d-115">O exemplo a seguir mostra como excluir um arquivo armazenado em um campo anexo.</span><span class="sxs-lookup"><span data-stu-id="e494d-115">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long
