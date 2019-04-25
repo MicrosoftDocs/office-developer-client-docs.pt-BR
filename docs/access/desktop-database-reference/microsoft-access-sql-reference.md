@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a08e91bfc1172c0a06a8c39eb9221d7f810c8f89
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289049"
 ---
-# <a name="microsoft-access-sql-reference"></a><span data-ttu-id="75e9e-102">Referência do Microsoft Access SQL</span><span class="sxs-lookup"><span data-stu-id="75e9e-102">Microsoft Access SQL reference</span></span>
+# <a name="microsoft-access-sql-reference"></a><span data-ttu-id="8bd3a-102">Referência do Microsoft Access SQL</span><span class="sxs-lookup"><span data-stu-id="8bd3a-102">Microsoft Access SQL reference</span></span>
 
-<span data-ttu-id="75e9e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="75e9e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8bd3a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bd3a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="75e9e-104">Visão geral sobre a referência do SQL Access</span><span class="sxs-lookup"><span data-stu-id="75e9e-104">Overview of the Access SQL reference</span></span>](overview-of-the-access-sql-reference.md)
-- [<span data-ttu-id="75e9e-105">Idioma de definição de dados (DDL)</span><span class="sxs-lookup"><span data-stu-id="75e9e-105">Data definition language (DDL)</span></span>](data-definition-language.md)
-- [<span data-ttu-id="75e9e-106">Linguagem de manipulação de dados</span><span class="sxs-lookup"><span data-stu-id="75e9e-106">Data manipulation language</span></span>](data-manipulation-language.md)
-- [<span data-ttu-id="75e9e-107">Configurações de registro do Windows para fontes de dados externas</span><span class="sxs-lookup"><span data-stu-id="75e9e-107">Windows registry settings for external data sources</span></span>](windows-registry-settings-for-external-data-sources.md)
+- [<span data-ttu-id="8bd3a-104">Visão geral da referência do Access SQL</span><span class="sxs-lookup"><span data-stu-id="8bd3a-104">Overview of the Access SQL reference</span></span>](overview-of-the-access-sql-reference.md)
+- [<span data-ttu-id="8bd3a-105">Linguagem de definição de dados (DDL)</span><span class="sxs-lookup"><span data-stu-id="8bd3a-105">Data Definition Language (DDL)</span></span>](data-definition-language.md)
+- [<span data-ttu-id="8bd3a-106">Linguagem de manipulação de dados</span><span class="sxs-lookup"><span data-stu-id="8bd3a-106">Data Manipulation Language</span></span>](data-manipulation-language.md)
+- [<span data-ttu-id="8bd3a-107">Configurações de registro do Windows para fontes de dados externos</span><span class="sxs-lookup"><span data-stu-id="8bd3a-107">Windows registry settings for external data sources</span></span>](windows-registry-settings-for-external-data-sources.md)
 
