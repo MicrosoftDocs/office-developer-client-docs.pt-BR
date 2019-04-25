@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica uma coleção de propriedades relacionadas.
 ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/24/2019
 ms.locfileid: "32326079"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento section (Sheet_Type complexType) (' Visio XML ')
@@ -70,7 +70,7 @@ O atributo **N** deste elemento **Section** deve ser um de um conjunto limitado 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|Ações  <br/> |Uma coleção de propriedades que são usadas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção Actions](actions-section.md) <br/> |
+|Actions  <br/> |Uma coleção de propriedades que são usadas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção Actions](actions-section.md) <br/> |
 |ActionTag  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção de marca de ação](action-tag-section.md) <br/> |
 |Conexões  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** .  <br/> ||
 |Controles  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** .  <br/> |[Seção Controls](controls-section.md) <br/> |
