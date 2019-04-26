@@ -8,20 +8,20 @@ f1_keywords:
 - Vis_DSS.chm82253221
 localization_priority: Normal
 ms.assetid: 8bca3efa-1f0d-6f60-537c-c9f976737dcf
-description: Retorna o texto do campo empresa das propriedades de um documento.
-ms.openlocfilehash: 5c857b400192bb97586ac9cea08cee7ee251793e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Retorna o texto do campo Empresa das propriedades de um documento.
+ms.openlocfilehash: c8a33c5cc82353b887d2fc7da358270e124c21ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359338"
 ---
-# <a name="company-function"></a><span data-ttu-id="61592-103">Função COMPANY</span><span class="sxs-lookup"><span data-stu-id="61592-103">COMPANY Function</span></span>
+# <a name="company-function"></a><span data-ttu-id="a09cd-103">Função EMPRESA</span><span class="sxs-lookup"><span data-stu-id="a09cd-103">COMPANY Function</span></span>
 
-<span data-ttu-id="61592-104">Retorna o texto do campo **empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="61592-104">Returns the text from the **Company** field of a document's properties.</span></span> 
+<span data-ttu-id="a09cd-104">Retorna o texto do campo **Empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="a09cd-104">Returns the text from the **Author** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="61592-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="61592-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a09cd-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a09cd-105">Syntax</span></span>
 
-<span data-ttu-id="61592-106">() DA EMPRESA</span><span class="sxs-lookup"><span data-stu-id="61592-106">COMPANY ()</span></span>
+<span data-ttu-id="a09cd-106">EMPRESA ()</span><span class="sxs-lookup"><span data-stu-id="a09cd-106">COMPANY ()</span></span>
   
 
