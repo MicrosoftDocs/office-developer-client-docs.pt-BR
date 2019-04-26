@@ -1,5 +1,5 @@
 ---
-title: Propriedades de Recordset (DAO)
+title: Propriedades Recordset (DAO)
 TOCTitle: Properties
 ms:assetid: 37114a17-3737-4995-b35d-dd64c75b5ed2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
@@ -8,50 +8,50 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: dc5329b9c320a98076c4dad88c4681cdd10fba7e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300403"
 ---
-# <a name="recordset-properties-dao"></a><span data-ttu-id="a9607-102">Propriedades de Recordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-102">Recordset properties (DAO)</span></span>
+# <a name="recordset-properties-dao"></a><span data-ttu-id="76933-102">Propriedades Recordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-102">Recordset properties (DAO)</span></span>
 
-<span data-ttu-id="a9607-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9607-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76933-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76933-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a9607-104">Propriedade Recordset.AbsolutePosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-104">Recordset.AbsolutePosition property (DAO)</span></span>](recordset-absoluteposition-property-dao.md)
-- [<span data-ttu-id="a9607-105">Propriedade Recordset.BatchCollisionCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-105">Recordset.BatchCollisionCount property (DAO)</span></span>](recordset-batchcollisioncount-property-dao.md)
-- [<span data-ttu-id="a9607-106">Propriedade Recordset.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-106">Recordset.BatchCollisions property (DAO)</span></span>](recordset-batchcollisions-property-dao.md)
-- [<span data-ttu-id="a9607-107">Propriedade Recordset.BatchSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-107">Recordset.BatchSize property (DAO)</span></span>](recordset-batchsize-property-dao.md)
-- [<span data-ttu-id="a9607-108">Propriedade Recordset.BOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-108">Recordset.BOF property (DAO)</span></span>](recordset-bof-property-dao.md)
-- [<span data-ttu-id="a9607-109">Propriedade Recordset.Bookmark (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-109">Recordset.Bookmark property (DAO)</span></span>](recordset-bookmark-property-dao.md)
-- [<span data-ttu-id="a9607-110">Propriedade Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-110">Recordset.Bookmarkable property (DAO)</span></span>](recordset-bookmarkable-property-dao.md)
-- [<span data-ttu-id="a9607-111">Propriedade Recordset.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-111">Recordset.CacheSize property (DAO)</span></span>](recordset-cachesize-property-dao.md)
-- [<span data-ttu-id="a9607-112">Propriedade Recordset.CacheStart (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-112">Recordset.CacheStart property (DAO)</span></span>](recordset-cachestart-property-dao.md)
-- [<span data-ttu-id="a9607-113">Propriedade Recordset.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-113">Recordset.Connection property (DAO)</span></span>](recordset-connection-property-dao.md)
-- [<span data-ttu-id="a9607-114">Propriedade Recordset.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-114">Recordset.DateCreated property (DAO)</span></span>](recordset-datecreated-property-dao.md)
-- [<span data-ttu-id="a9607-115">Propriedade Recordset.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-115">Recordset.EditMode property (DAO)</span></span>](recordset-editmode-property-dao.md)
-- [<span data-ttu-id="a9607-116">Propriedade Recordset.EOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-116">Recordset.EOF property (DAO)</span></span>](recordset-eof-property-dao.md)
-- [<span data-ttu-id="a9607-117">Propriedade Recordset.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-117">Recordset.Fields property (DAO)</span></span>](recordset-fields-property-dao.md)
-- [<span data-ttu-id="a9607-118">Propriedade Recordset.Filter (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-118">Recordset.Filter property (DAO)</span></span>](recordset-filter-property-dao.md)
-- [<span data-ttu-id="a9607-119">Propriedade Recordset.Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-119">Recordset.Index property (DAO)</span></span>](recordset-index-property-dao.md)
-- [<span data-ttu-id="a9607-120">Propriedade Recordset.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-120">Recordset.LastModified property (DAO)</span></span>](recordset-lastmodified-property-dao.md)
-- [<span data-ttu-id="a9607-121">Propriedade Recordset.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-121">Recordset.LastUpdated property (DAO)</span></span>](recordset-lastupdated-property-dao.md)
-- [<span data-ttu-id="a9607-122">Propriedade Recordset.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-122">Recordset.LockEdits property (DAO)</span></span>](recordset-lockedits-property-dao.md)
-- [<span data-ttu-id="a9607-123">Propriedade Recordset.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-123">Recordset.Name property (DAO)</span></span>](recordset-name-property-dao.md)
-- [<span data-ttu-id="a9607-124">Propriedade Recordset.NoMatch (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-124">Recordset.NoMatch property (DAO)</span></span>](recordset-nomatch-property-dao.md)
-- [<span data-ttu-id="a9607-125">Propriedade Recordset.PercentPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-125">Recordset.PercentPosition property (DAO)</span></span>](recordset-percentposition-property-dao.md)
-- [<span data-ttu-id="a9607-126">Propriedade Recordset.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-126">Recordset.Properties property (DAO)</span></span>](recordset-properties-property-dao.md)
-- [<span data-ttu-id="a9607-127">Propriedade RecordCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-127">Recordset.RecordCount property (DAO)</span></span>](recordset-recordcount-property-dao.md)
-- [<span data-ttu-id="a9607-128">Propriedade Recordset.RecordsetType (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-128">Recordset.RecordsetType property (DAO)</span></span>](recordset-recordsettype-property-dao.md)
-- [<span data-ttu-id="a9607-129">Propriedade Recordset.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-129">Recordset.RecordStatus property (DAO)</span></span>](recordset-recordstatus-property-dao.md)
-- [<span data-ttu-id="a9607-130">Propriedade Recordset.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-130">Recordset.Restartable property (DAO)</span></span>](recordset-restartable-property-dao.md)
-- [<span data-ttu-id="a9607-131">Propriedade Recordset.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-131">Recordset.Sort property (DAO)</span></span>](recordset-sort-property-dao.md)
-- [<span data-ttu-id="a9607-132">Propriedade Recordset.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-132">Recordset.StillExecuting property (DAO)</span></span>](recordset-stillexecuting-property-dao.md)
-- [<span data-ttu-id="a9607-133">Propriedade Recordset.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-133">Recordset.Transactions property (DAO)</span></span>](recordset-transactions-property-dao.md)
-- [<span data-ttu-id="a9607-134">Propriedade Recordset.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-134">Recordset.Type property (DAO)</span></span>](recordset-type-property-dao.md)
-- [<span data-ttu-id="a9607-135">Propriedade Recordset.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-135">Recordset.Updatable property (DAO)</span></span>](recordset-updatable-property-dao.md)
-- [<span data-ttu-id="a9607-136">Propriedade Recordset.UpdateOptions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-136">Recordset.UpdateOptions property (DAO)</span></span>](recordset-updateoptions-property-dao.md)
-- [<span data-ttu-id="a9607-137">Propriedade Recordset.ValidationRule (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-137">Recordset.ValidationRule property (DAO)</span></span>](recordset-validationrule-property-dao.md)
-- [<span data-ttu-id="a9607-138">Propriedade Recordset.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9607-138">Recordset.ValidationText property (DAO)</span></span>](recordset-validationtext-property-dao.md)
+- [<span data-ttu-id="76933-104">Propriedade Recordset.AbsolutePosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-104">Recordset.AbsolutePosition property (DAO)</span></span>](recordset-absoluteposition-property-dao.md)
+- [<span data-ttu-id="76933-105">Propriedade Recordset.BatchCollisionCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-105">Recordset.BatchCollisionCount property (DAO)</span></span>](recordset-batchcollisioncount-property-dao.md)
+- [<span data-ttu-id="76933-106">Propriedade Recordset.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-106">Recordset.BatchCollisions property (DAO)</span></span>](recordset-batchcollisions-property-dao.md)
+- [<span data-ttu-id="76933-107">Propriedade Recordset.BatchSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-107">Recordset.BatchSize property (DAO)</span></span>](recordset-batchsize-property-dao.md)
+- [<span data-ttu-id="76933-108">Propriedade Recordset.BOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-108">Recordset.BOF property (DAO)</span></span>](recordset-bof-property-dao.md)
+- [<span data-ttu-id="76933-109">Propriedade Recordset.Bookmark (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-109">Recordset.Bookmark property (DAO)</span></span>](recordset-bookmark-property-dao.md)
+- [<span data-ttu-id="76933-110">Propriedade Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-110">Recordset.Bookmarkable property (DAO)</span></span>](recordset-bookmarkable-property-dao.md)
+- [<span data-ttu-id="76933-111">Propriedade Recordset.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-111">Recordset.CacheSize property (DAO)</span></span>](recordset-cachesize-property-dao.md)
+- [<span data-ttu-id="76933-112">Propriedade Recordset.CacheStart (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-112">Recordset.CacheStart property (DAO)</span></span>](recordset-cachestart-property-dao.md)
+- [<span data-ttu-id="76933-113">Propriedade Recordset.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-113">Recordset.Connection property (DAO)</span></span>](recordset-connection-property-dao.md)
+- [<span data-ttu-id="76933-114">Propriedade Recordset.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-114">Recordset.DateCreated property (DAO)</span></span>](recordset-datecreated-property-dao.md)
+- [<span data-ttu-id="76933-115">Propriedade Recordset.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-115">Recordset.EditMode property (DAO)</span></span>](recordset-editmode-property-dao.md)
+- <span data-ttu-id="76933-116">[Propriedade Recordset.EOF (DAO)](recordset-eof-property-dao.md)</span><span class="sxs-lookup"><span data-stu-id="76933-116">[](recordset-eof-property-dao.md)Recordset.EOF Property (DAO)</span></span>
+- [<span data-ttu-id="76933-117">Propriedade Recordset.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-117">Recordset.Fields property (DAO)</span></span>](recordset-fields-property-dao.md)
+- <span data-ttu-id="76933-118">[Propriedade Recordset.Filter (DAO)](recordset-filter-property-dao.md)</span><span class="sxs-lookup"><span data-stu-id="76933-118">[](recordset-filter-property-dao.md)Recordset.Filter Property (DAO)</span></span>
+- [<span data-ttu-id="76933-119">Propriedade Recordset.Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-119">Recordset.Index property (DAO)</span></span>](recordset-index-property-dao.md)
+- [<span data-ttu-id="76933-120">Propriedade Recordset.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-120">Recordset.LastModified property (DAO)</span></span>](recordset-lastmodified-property-dao.md)
+- [<span data-ttu-id="76933-121">Propriedade Recordset.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-121">Recordset.LastUpdated property (DAO)</span></span>](recordset-lastupdated-property-dao.md)
+- [<span data-ttu-id="76933-122">Propriedade Recordset.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-122">Recordset.LockEdits property (DAO)</span></span>](recordset-lockedits-property-dao.md)
+- [<span data-ttu-id="76933-123">Propriedade Recordset.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-123">Recordset.Name property (DAO)</span></span>](recordset-name-property-dao.md)
+- [<span data-ttu-id="76933-124">Propriedade Recordset.NoMatch (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-124">Recordset.NoMatch property (DAO)</span></span>](recordset-nomatch-property-dao.md)
+- [<span data-ttu-id="76933-125">Propriedade Recordset.PercentPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-125">Recordset.PercentPosition property (DAO)</span></span>](recordset-percentposition-property-dao.md)
+- [<span data-ttu-id="76933-126">Propriedade Recordset.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-126">Recordset.Properties property (DAO)</span></span>](recordset-properties-property-dao.md)
+- <span data-ttu-id="76933-127">[Propriedade Recordset.RecordCount (DAO)](recordset-recordcount-property-dao.md)</span><span class="sxs-lookup"><span data-stu-id="76933-127">[](recordset-recordcount-property-dao.md)Recordset.RecordCount Property (DAO)</span></span>
+- [<span data-ttu-id="76933-128">Propriedade Recordset.RecordsetType (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-128">Recordset.RecordsetType Property (DAO)</span></span>](recordset-recordsettype-property-dao.md)
+- [<span data-ttu-id="76933-129">Propriedade Recordset.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-129">Recordset.RecordStatus property (DAO)</span></span>](recordset-recordstatus-property-dao.md)
+- [<span data-ttu-id="76933-130">Propriedade Recordset.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-130">Recordset.Restartable property (DAO)</span></span>](recordset-restartable-property-dao.md)
+- [<span data-ttu-id="76933-131">Propriedade Recordset.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-131">Recordset.Sort property (DAO)</span></span>](recordset-sort-property-dao.md)
+- [<span data-ttu-id="76933-132">Propriedade Recordset.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-132">Recordset.StillExecuting property (DAO)</span></span>](recordset-stillexecuting-property-dao.md)
+- [<span data-ttu-id="76933-133">Propriedade Recordset.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-133">Recordset.Transactions property (DAO)</span></span>](recordset-transactions-property-dao.md)
+- [<span data-ttu-id="76933-134">Propriedade Recordset.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-134">Recordset.Type property (DAO)</span></span>](recordset-type-property-dao.md)
+- [<span data-ttu-id="76933-135">Propriedade Recordset.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-135">Recordset.Updatable property (DAO)</span></span>](recordset-updatable-property-dao.md)
+- [<span data-ttu-id="76933-136">Propriedade Recordset.UpdateOptions (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-136">Recordset.UpdateOptions property (DAO)</span></span>](recordset-updateoptions-property-dao.md)
+- [<span data-ttu-id="76933-137">Propriedade Recordset.ValidationRule (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-137">Recordset.ValidationRule property (DAO)</span></span>](recordset-validationrule-property-dao.md)
+- [<span data-ttu-id="76933-138">Propriedade Recordset.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="76933-138">Recordset.ValidationText property (DAO)</span></span>](recordset-validationtext-property-dao.md)
 
 

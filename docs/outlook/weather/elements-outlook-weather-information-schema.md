@@ -1,5 +1,5 @@
 ---
-title: Elementos (esquema de informações de clima do Outlook)
+title: Elementos (Esquema de Informações Meteorológicas do Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45fbc451-06f0-133d-9818-55574e202091
-description: Este tópico lista os elementos do esquema XML de informações de clima do Outlook.
-ms.openlocfilehash: 6964b4493e287b85a690311e7adb2c9e1e3d7c8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Este tópico lista os elementos no esquema XML de Informações Meteorológicas do Outlook.
+ms.openlocfilehash: 2c04fce7c3b4da405e141f7acc1d0ae6faa3dd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361169"
 ---
-# <a name="elements-outlook-weather-information-schema"></a><span data-ttu-id="724fc-103">Elementos (esquema de informações de clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="724fc-103">Elements (Outlook Weather Information Schema)</span></span>
+# <a name="elements-outlook-weather-information-schema"></a><span data-ttu-id="43215-103">Elementos (Esquema de Informações Meteorológicas do Outlook)</span><span class="sxs-lookup"><span data-stu-id="43215-103">weatherdata element (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="724fc-104">Este tópico lista os elementos do esquema XML de informações de clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="724fc-104">This topic lists the elements in the Outlook Weather Information XML schema.</span></span>
+<span data-ttu-id="43215-104">Este tópico lista os elementos no esquema XML de Informações Meteorológicas do Outlook.</span><span class="sxs-lookup"><span data-stu-id="43215-104">This topic lists the elements in the Outlook Weather Information XML schema.</span></span>
   
-- [<span data-ttu-id="724fc-105">elemento atual</span><span class="sxs-lookup"><span data-stu-id="724fc-105">current element</span></span>](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [<span data-ttu-id="43215-105">elemento atual</span><span class="sxs-lookup"><span data-stu-id="43215-105">current element</span></span>](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [<span data-ttu-id="724fc-106">elemento da previsão</span><span class="sxs-lookup"><span data-stu-id="724fc-106">forecast element</span></span>](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [<span data-ttu-id="43215-106">elemento de previsão</span><span class="sxs-lookup"><span data-stu-id="43215-106">forecast element</span></span>](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [<span data-ttu-id="724fc-107">elemento do clima</span><span class="sxs-lookup"><span data-stu-id="724fc-107">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
+- [<span data-ttu-id="43215-107">elemento meteorológico</span><span class="sxs-lookup"><span data-stu-id="43215-107">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
     
-- [<span data-ttu-id="724fc-108">elemento de dados do clima</span><span class="sxs-lookup"><span data-stu-id="724fc-108">weatherdata element</span></span>](weatherdata-element-outlook-weather-information-schema.md)
+- [<span data-ttu-id="43215-108">elemento de dados do clima</span><span class="sxs-lookup"><span data-stu-id="43215-108">weatherdata element</span></span>](weatherdata-element-outlook-weather-information-schema.md)
     
 
