@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0b7ffe39-ee6c-71eb-355c-9bb4660260f1
 description: Contém uma fórmula de gatilho, gerada pelo aplicativo, que determina se o ponto inicial de uma forma 1D deve ser movido para manter sua conexão com outra forma.
-ms.openlocfilehash: 5dec179f1847c30c6ef563d866360b6dd31a1d88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: b401d349119337016a96b5fffbc26f7be2891864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360351"
 ---
-# <a name="begtrigger-cell-glue-info-section"></a>Célula BegTrigger (Seção Glue Info)
+# <a name="begtrigger-cell-glue-info-section"></a>Célula BegTrigger (Seção Informações de associação)
 
 Contém uma fórmula de gatilho, gerada pelo aplicativo, que determina se o ponto inicial de uma forma 1D deve ser movido para manter sua conexão com outra forma.
   
@@ -35,7 +35,7 @@ Para fazer referência à célula BegTrigger pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowGroup** <br/> |
-| Índice da célula:  <br/> |**visBegTrigger** <br/> |
+| Índice de linha:  <br/> |**visRowGroup** <br/> |
+| Índice de célula:  <br/> |**visBegTrigger** <br/> |
    
 

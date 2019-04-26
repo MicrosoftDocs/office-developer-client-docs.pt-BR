@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: Contém o número da fonte utilizada para formatar o texto composto de caracteres de script complexos. Os números de fonte variam de acordo com as fontes instaladas em seu sistema.
-ms.openlocfilehash: 0aae3a22be26f206763f18107eaced74f1078503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359378"
 ---
-# <a name="complexscriptfont-cell-character-section"></a>Célula ComplexScriptFont (Seção Character)
+# <a name="complexscriptfont-cell-character-section"></a>Célula ComplexScriptFont (Seção Caractere)
 
 Contém o número da fonte utilizada para formatar o texto composto de caracteres de script complexos. Os números de fonte variam de acordo com as fontes instaladas em seu sistema. 
   
 ## <a name="remarks"></a>Comentários
 
-Tamanhos de fonte de script complexo são listados na guia **fonte** da caixa de diálogo **texto** (clique na seta na **fonte** de grupo na guia **página inicial** ). Esta lista é exibida somente se você tiver adicionado um idioma que contém caracteres asiáticos ou de script complexo, na caixa de diálogo **Preferências de idioma do Microsoft Office** . (Clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Office**, clique em **Ferramentas do Microsoft Office**e clique em **Preferências de idioma do Microsoft Office**.
+Tamanhos de fonte de script complexos são listados na guia **Fonte** na caixa de diálogo **Texto** (clique na seta no grupo **Fonte** na guia **Início**). Essa lista só é exibida se você tiver adicionado um idioma que contenha caracteres Asiáticos ou de script complexo, na caixa de diálogo **Preferências de Idioma do Microsoft Office**. (Clique em **Iniciar**, em **Todos os programas**, em **Microsoft Office**, em **Ferramentas do Microsoft Office** e em **Preferências de Idioma do Microsoft Office**.
   
-O número 0 (zero) significa que nenhuma fonte for especificada. A fonte latina ou fontes padrão são usadas.
+O número 0 (zero) significa que não há fontes especificadas. A fonte latina ou fontes padrão são usadas.
   
-Para obter uma referência para a célula ComplexScriptFont pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
+Para obter uma referência à célula ComplexScriptSize pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.ComplexScriptFont [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char.ComplexScriptFont[ *i*  ]           onde  *i*  = <1>, 2, 3...  <br/> |
    
-Para obter uma referência para a célula ComplexScriptFont pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
+Para obter uma referência à célula ComplexScriptFont pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-|Índice da linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCharacterComplexScriptFont** <br/> |
+|Índice de linha:  <br/> |**visRowCharacter** +  *i*           onde  *i*  = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visCharacterComplexScriptFont** <br/> |
    
 

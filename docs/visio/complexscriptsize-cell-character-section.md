@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f58687d7-2ba4-ff77-0bcc-3106867d89de
 description: O tamanho da fonte utilizada para formatar o texto composto de caracteres de scripts complexos.
-ms.openlocfilehash: 4867ab57fa59b3a5e76598108fbb92b9bbab7913
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 38b01c4a0142c7eca2923ee9b13963eaa1a62830
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359336"
 ---
-# <a name="complexscriptsize-cell-character-section"></a>Célula ComplexScriptSize (Seção Character)
+# <a name="complexscriptsize-cell-character-section"></a>Célula ComplexScriptSize (Seção Caracteres)
 
 O tamanho da fonte utilizada para formatar o texto composto de caracteres de scripts complexos. 
   
 ## <a name="remarks"></a>Comentários
 
-Tamanhos de fonte de script complexo são listados na guia **fonte** da caixa de diálogo **texto** (clique na seta na **fonte** de grupo na guia **página inicial** ). Esta lista é exibida somente se você tiver adicionado um idioma que contém caracteres asiáticos ou de script complexo, na caixa de diálogo **Preferências de idioma do Microsoft Office** . (Clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Office**, clique em **Ferramentas do Microsoft Office**e clique em **Preferências de idioma do Microsoft Office**.
+Tamanhos de fonte de script complexos são listados na guia **Fonte** na caixa de diálogo **Texto** (clique na seta no grupo **Fonte** na guia **Início**). Essa lista só é exibida se você tiver adicionado um idioma que contenha caracteres Asiáticos ou de script complexo, na caixa de diálogo **Preferências de Idioma do Microsoft Office**. (Clique em **Iniciar**, em **Todos os programas**, em **Microsoft Office**, em **Ferramentas do Microsoft Office** e em **Preferências de Idioma do Microsoft Office**.
   
 Você pode inserir esse valor como um tamanho de ponto explícito ou como um percentual. Se você especificar um percentual, o valor é baseado no valor da célula Size. O valor padrão 0 (zero) significa 100%. 
   
-Para obter uma referência para a célula ComplexScriptFont pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
+Para obter uma referência à célula ComplexScriptSize pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.ComplexScriptSize [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char.ComplexScriptSize[ *i*  ]           onde  *i*  = <1>, 2, 3...  <br/> |
    
-Para obter uma referência para a célula ComplexScriptSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
+Para obter uma referência à célula ComplexScriptSize pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-|Índice da linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCharacterComplexScriptSize** <br/> |
+|Índice de linha:  <br/> |**visRowCharacter** +  *i*           onde  *i*  = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visCharacterComplexScriptSize** <br/> |
    
 

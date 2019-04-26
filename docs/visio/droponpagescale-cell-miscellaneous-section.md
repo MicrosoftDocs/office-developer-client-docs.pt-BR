@@ -8,14 +8,14 @@ f1_keywords:
 - vis_sdr.chm60042
 localization_priority: Normal
 ms.assetid: 8927f811-7d8e-ed54-9eec-b86a781168dd
-ms.openlocfilehash: a586cca497e1ba04848142917a84c3aa8a25d081
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 17c597df3d9e7e741d902fd566cc9a5de1f31ea0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359658"
 ---
-# <a name="droponpagescale-cell-miscellaneous-section"></a>Célula DropOnPageScale (Seção Miscellaneous)
+# <a name="droponpagescale-cell-miscellaneous-section"></a>Célula DropOnPageScale (Seção Diversos)
 
 Contém o percentual da escala de uma forma quando colocada na página de desenho.
   
@@ -25,9 +25,9 @@ Nos seguintes casos, o Visio coloca as formas em escala para que apareçam adequ
   
 - Quando formas sem medida são colocadas em desenhos com escala.
     
-- Quando formas com medida são colocadas em desenhos sem escala.
+- Quando as formas medidas são colocadas em desenhos não dimensionados.
     
-O percentual da célula DropOnPageScale indica o fator pelo qual o Visio dimensionado de forma, acima (\>100) ou para baixo (\<100). Você pode usar esse número como um fator ao calcular valores codificados. 
+A porcentagem na célula DropOnPageScale indica o fator pelo qual o Visio escalou a forma, seja para cima (\>100) ou para baixo (\<100). Você pode usar esse número como um fator ao calcular valores codificados. 
   
 Esse valor é 100% para formas com medida em desenhos com escala ou formas sem medida em desenhos sem escala. 
   
@@ -42,7 +42,7 @@ Para fazer referência à célula DropOnPageScale pelo índice a partir de um pr
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visObjDropOnPageScale** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visObjDropOnPageScale** <br/> |
    
 

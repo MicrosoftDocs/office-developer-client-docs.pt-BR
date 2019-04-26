@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 description: Contém a data e a hora em que o comentário foi editado pela última vez.
-ms.openlocfilehash: 4b6e7ea70302b10728d82f36ad0db39077af9523
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 60fd726db1056075f96519050cffa67c76977126
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360337"
 ---
-# <a name="date-cell-annotation-section"></a>Célula Date (Seção Annotation)
+# <a name="date-cell-annotation-section"></a>Célula Data (Seção de anotação)
 
 Contém a data e a hora em que o comentário foi editado pela última vez. 
   
 > [!NOTE]
-> Esta célula é utilizada para acompanhamento comentários somente quando abrir um arquivo. vsd no Microsoft Visio 2013 ou ao salvar um arquivo. vsdx no formato de arquivo. vsd. Ele não é usado para rastreamento de comentários em documentos. vsdx no Visio 2013. 
+> Essa célula é usada para rastrear comentários somente ao abrir um arquivo .vsd no Microsoft Visio 2013 ou ao salvar um arquivo .vsdx no formato de arquivo .vsd. Não é usada para rastrear comentários em documentos .vsdx no Visio 2013. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -31,14 +31,14 @@ Para fazer referência à célula Date pelo nome a partir de outra fórmula ou d
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Annotation.Date [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Annotation.Date [  *i*  ]           onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Date pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionAnnotation** <br/> |
-| Índice da linha:  <br/> |**visRowAnnotation** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visAnnotationDate** <br/> |
+| Índice de linha:  <br/> |**visRowAnnotation ** +  *i*            onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visAnnotationDate** <br/> |
    
 

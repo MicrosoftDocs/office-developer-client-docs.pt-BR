@@ -14,16 +14,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314564"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Subconsultas SQL (Microsoft Access SQL)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Uma subconsulta é uma instrução [SELECT](select-statement-microsoft-access-sql.md) aninhada dentro de uma instrução SELECT, [SELECT…INTO](select-into-statement-microsoft-access-sql.md), [INSERT…INTO](insert-into-statement-microsoft-access-sql.md), [DELETE](delete-statement-microsoft-access-sql.md) ou [UPDATE](update-statement-microsoft-access-sql.md) ou dentro de outra subconsulta.
 
@@ -31,11 +31,11 @@ Uma subconsulta é uma instrução [SELECT](select-statement-microsoft-access-sq
 
 Você pode usar três formas de sintaxe para criar uma subconsulta:
 
-*comparação* \[ANY | TODOS OS | Alguns\] (*sqlstatement*)
+*comparison* \[ANY | ALL | SOME\] (*sqlstatement*)
 
-*expressão* \[Não\] em (*sqlstatement*)
+*expression* \[NOT\] IN (*sqlstatement*)
 
-\[NÃO\] EXISTS (*sqlstatement*)
+\[NOT\] EXISTS (*sqlstatement*)
 
 Uma subconsulta contém estas partes:
 
@@ -46,13 +46,13 @@ Uma subconsulta contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>comparison</em></p></td>
+<td><p><em>comparação</em></p></td>
 <td><p>Uma expressão e uma operador de comparação que compara a expressão com os resultados da subconsulta.</p></td>
 </tr>
 <tr class="even">
@@ -112,7 +112,7 @@ Algumas subconsultas são permitidas em consultas de de tabela de referência cr
 
 ## <a name="example"></a>Exemplo
 
-This example lists the name and contact of every customer who placed an order in the second quarter of 1995. Ele chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+This example lists the name and contact of every customer who placed an order in the second quarter of 1995. Ele chama o procedimento EnumFields, o qual você pode encontrar no exemplo da instrução SELECT.
 
 ```vb
     Sub SubQueryX() 

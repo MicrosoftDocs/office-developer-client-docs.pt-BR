@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm270
 localization_priority: Normal
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
-description: Determina a escala do desenho selecionada na caixa de diálogo Configurar Página (clique na seta Configurar Página na guia Página Inicial).
-ms.openlocfilehash: b93bd95a30fe5a8a5de15a8e5ea104279cf1bcda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Determina a escala de desenho selecionada na caixa de diálogo Configurar Página (clique na seta Configurar Página na guia Início).
+ms.openlocfilehash: d1c1c00ffe025c566646a1f8b9fe034732ad86a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359686"
 ---
-# <a name="drawingscaletype-cell-page-properties-section"></a>Célula DrawingScaleType (Seção Page Properties)
+# <a name="drawingscaletype-cell-page-properties-section"></a>Célula DrawingScaleType (Seção Propriedades da página)
 
-Determina a escala do desenho selecionada na caixa de diálogo **Configurar Página** (clique na seta **Configurar Página** na guia **Página Inicial**). 
+Determina a escala de desenho selecionada na caixa de diálogo **Configurar Página** (clique na seta **Configurar Página** na guia **Início**). 
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
@@ -26,23 +26,23 @@ Determina a escala do desenho selecionada na caixa de diálogo **Configurar Pág
 | 1  <br/> | Escala arquitetônica  <br/> |**visArchitectural** <br/> |
 | 2  <br/> | Escala de engenharia civil  <br/> |**visEngineering** <br/> |
 | 3  <br/> | Escala personalizada  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | Métrica  <br/> |**visScaleMetric** <br/> |
+| 4  <br/> | Indicador  <br/> |**visScaleMetric** <br/> |
 | 5  <br/> | Escala de engenharia mecânica  <br/> |**visScaleMechanical** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula DrawingScaleType pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
+Para obter uma referência à célula DrawingScaleType pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | DrawingScaleType  <br/> |
    
-Para obter uma referência para a célula DrawingScaleType pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência à célula DrawingScaleType pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPage** <br/> |
-| Índice da célula:  <br/> |**visPageDrawScaleType** <br/> |
+| Índice de linha:  <br/> |**visRowPage** <br/> |
+| Índice de célula:  <br/> |**visPageDrawScaleType** <br/> |
    
 

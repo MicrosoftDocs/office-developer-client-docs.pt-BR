@@ -1,48 +1,48 @@
 ---
-title: Conceitos (ShapeSheet do Visio)
+title: Conceitos (Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 'Esta página contém links para tópicos de visão geral sobre a programabilidade no Visio. Clique nos links abaixo ou usar o sumário para navegar para os seguintes tópicos:'
-ms.openlocfilehash: b385eb3228b015a1dca3df9defa5579e3d7da533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'Esta página de navegação contém links para tópicos de visão geral sobre programação no Visio. Clique nos links abaixo ou use o índice para navegar para os seguintes tópicos:'
+ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358615"
 ---
-# <a name="concepts-visio-shapesheet"></a>Conceitos (ShapeSheet do Visio)
+# <a name="concepts-visio-shapesheet"></a>Conceitos (Visio ShapeSheet)
 
-Esta página contém links para tópicos de visão geral sobre a programabilidade no Visio. Clique nos links abaixo ou usar o sumário para navegar para os seguintes tópicos:
+Esta página de navegação contém links para tópicos de visão geral sobre programação no Visio. Clique nos links abaixo ou use o sumário para navegar para os seguintes tópicos:
   
 - [Sobre referências de célula](about-cell-references.md)
     
-- [Sobre constantes de moeda](about-currency-constants.md)
+- [Sobre as Constantes da moeda](about-currency-constants.md)
     
-- [Sobre valores de data, hora e duração](about-date-time-and-duration-values.md)
+- [Sobre Valores de data, hora e duração](about-date-time-and-duration-values.md)
     
-- [Sobre valores de erros](about-error-values.md)
+- [Sobre Valores de erro](about-error-values.md)
     
-- [Sobre a formatação de imagens](about-format-pictures.md)
+- [Sobre Formatação de imagens](about-format-pictures.md)
     
-- [Sobre fórmulas](about-formulas.md)
+- [Sobre Fórmulas](about-formulas.md)
     
-- [Sobre funções](about-functions.md)
+- [Sobre Funções](about-functions.md)
     
-- [Sobre operadores](about-operators.md)
+- [Sobre Operadores](about-operators.md)
     
 - [Sobre as configurações de segurança e a execução de código no Visio](about-security-settings-and-running-code-in-visio-shapesheet.md)
     
-- [Sobre Sequências de Caracteres](about-strings.md)
+- [Sobre cadeias de caracteres](about-strings.md)
     
-- [Sobre a janela Rastreamento de Fórmula](about-the-formula-tracing-window.md)
+- [Sobre a Janela de rastreamento de fórmulas](about-the-formula-tracing-window.md)
     
-- [Sobre a planilha ShapeSheet](about-the-shapesheet-spreadsheet.md)
+- [Sobre a Planilha ShapeSheet](about-the-shapesheet-spreadsheet.md)
     
-- [Sobre a Janela Gerenciador de Estilo](about-the-style-explorer-window.md)
+- [Sobre a Janela do gerenciador de estilo](about-the-style-explorer-window.md)
     
 - [Sobre as Unidades de Medida](about-units-of-measure-visio-shapesheet-reference.md)
     
