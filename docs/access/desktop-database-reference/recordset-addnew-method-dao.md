@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 79c8691fcea7cf04bac7d6cd05711730b510e215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300641"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Método Recordset.AddNew (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cria um novo registro para um objeto **[Recordset](recordset-object-dao.md)** atualizável.
+Cria um novo registro para um objeto do **[Conjunto de Registro](recordset-object-dao.md)** atualizável.
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . AddNew
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expressão* Uma variável que representa um objeto do **Conjunto de registros**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -37,10 +37,10 @@ Use o método **AddNew** para criar e adicionar um novo registro no objeto **Rec
 Depois de modificar o novo registro, use o método **[Update](recordset-update-method-dao.md)** para salvar as alterações e adicionar o registro ao **Recordset**. Não haverá alterações no banco de dados até você usar o método **Update**.
 
 > [!NOTE]
-> [!OBSERVAçãO] Se você emitir um **AddNew** e então executar qualquer operação que mova para outro registro, mas sem usar **Update**, suas alterações serão perdidas sem aviso. Além disso, se você fechar o **Recordset** ou encerrar o procedimento que declara o **Recordset** ou seu objeto **[Database](database-object-dao.md)**, o novo registro será descartado sem aviso.
+> Se você emitir um **AddNew** e então executar qualquer operação que mova para outro registro, mas sem usar **Update**, suas alterações serão perdidas sem aviso. Além disso, se você fechar o **Recordset** ou encerrar o procedimento que declara o **Recordset** ou seu objeto **[Database](database-object-dao.md)**, o novo registro será descartado sem aviso.
 
 > [!NOTE]
-> [!OBSERVAçãO] Quando você usa **AddNew** em um espaço de trabalho do Microsoft Access e o mecanismo de banco de dados tem de criar uma nova página para conter o registro atual, o bloqueio de página será pessimista. Se o novo registro se ajustar a uma página existente, o bloqueio de página será otimista.
+> Quando você usa **AddNew** em um espaço de trabalho do Microsoft Access e o mecanismo de banco de dados tem de criar uma nova página para conter o registro atual, o bloqueio de página será pessimista. Se o novo registro se ajustar a uma página existente, o bloqueio de página será otimista.
 
 Se você não tiver se movido para o último registro do seu **Recordset**, os registros adicionados a tabelas base por outros processos poderão ser incluídos caso tenham sido posicionados além do registro atual. No entanto, se você adicionar um registro ao seu próprio **Recordset**, o registro ficará visível no **Recordset** e será incluído na tabela subjacente onde se tornará visível para todos os objetos novos do **Recordset**.
 
@@ -53,11 +53,11 @@ A posição do novo registro depende do tipo de **Recordset**.
 O registro que era o atual quando você usou o **AddNew** permanece atual. Se você quiser tornar o novo registro atual, poderá definir a propriedade **[Bookmark](recordset-bookmark-property-dao.md)** como o indicador identificado pela configuração da propriedade **[LastModified](recordset-lastmodified-property-dao.md)**.
 
 > [!NOTE]
-> [!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro na fonte de dados subjacente. Caso contrário, ocorrerá um erro "Permissão negada" na chamada ao método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access.
+> Para adicionar, editar ou excluir um registro, deverá haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para executar esse procedimento.
+Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para a execução deste procedimento.
 
 ```vb
     Sub AddNewX() 

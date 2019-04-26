@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef (DAO)
+title: Método QueryDef.Execute (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302958"
 ---
-# <a name="querydefexecute-method-dao"></a>Método QueryDef (DAO)
+# <a name="querydefexecute-method-dao"></a>Método QueryDef.Execute (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Executa uma instrução SQL no objeto especificado.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Executar (***Opções***)
+*expression* .Execute(***Options***)
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* uma variável que representa um objeto **QueryDef**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,14 +42,14 @@ Executa uma instrução SQL no objeto especificado.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opções</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -60,7 +60,7 @@ Executa uma instrução SQL no objeto especificado.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para opções.
+Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** como opções.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptione
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -111,10 +111,10 @@ Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptione
 
 
 > [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
+> O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 > [!NOTE]
-> [!OBSERVAçãO] As constantes **dbConsistent** e **dbInconsistent** são mutuamente exclusivas. Você pode usar uma ou outra, as não ambas em uma determinada instância de **OpenRecordset**. Usar **dbConsistent** e **dbInconsistent** causará um erro.
+> As constantes **dbConsistent** e **dbInconsistent** são mutuamente exclusivas. Você pode usar uma ou a outra, mas não ambas, em uma determinada instância de **OpenRecordset**. Usar **dbConsistent** e **dbInconsistent** ao mesmo tempo causa um erro.
 
 Use a propriedade **[RecordsAffected](querydef-recordsaffected-property-dao.md)** do objeto **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** para determinar o número de registros afetados pelo método **[Execute](querydef-execute-method-dao.md)** mais recente. Por exemplo, **RecordsAffected** contém o número de registros excluídos, atualizados ou inseridos ao executar uma consulta ação. Quando você usa o método **Execute** para executar uma consulta, a propriedade **RecordsAffected** do objeto **QueryDef** é definida como o número de registros afetados.
 
@@ -243,9 +243,9 @@ Este exemplo demonstra o método **Execute** quando executado de um objeto **Que
 
 <br/>
 
-O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção Parameters é usada para definir o parâmetro Organization da consulta myActionQuery antes que a consulta é executada.
+O exemplo a seguir mostra como executar uma consulta de parâmetro. O conjunto de parâmetros é usado para configurar o parâmetro de organização da consulta myActionQuery antes da execução da consulta.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Sub ExecParameterQuery()

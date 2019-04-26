@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: e54f8c51787e51785bdaacaecd28a8d24e2cb5b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300424"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Propriedade Recordset.NoMatch (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Indica se um registro específico foi encontrado usando o método **[Seek](recordset-seek-method-dao.md)** ou um dos métodos **[Find](recordset-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access).
+Indica se um registro em particular foi localizado usando o método **[Seek](recordset-seek-method-dao.md)** ou um dos métodos **[Find](recordset-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access)
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . NoMatch
+*expressão* .NoMatch
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expressão* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
-Quando você abrir ou criar um objeto **[Recordset](recordset-object-dao.md)**, sua propriedade **NoMatch** será definida como **False**.
+Quando você abrir ou criar um objeto **[Recordset](recordset-object-dao.md)**, a propriedade **NoMatch** será definida como **False**.
 
 Para localizar um registro, use o método **Seek** em um **Recordset** do tipo tabela ou um dos métodos **Find** em um objeto **Recordset** do tipo dynaset ou instantâneo. Verifique a definição da propriedade **NoMatch** para verificar se o registro foi encontrado.
 
@@ -40,12 +40,12 @@ Se o método **Seek** ou **Find** não for bem-sucedido e a propriedade **NoMatc
 
 
 > [!NOTE]
-> [!OBSERVAçãO] O uso de qualquer um dos métodos **[Move](recordset-movefirst-method-dao.md)** em um objeto **Recordset** não afetará a definição da propriedade **NoMatch**.
+> O uso de qualquer um dos métodos **[Move](recordset-movefirst-method-dao.md)** em um objeto **Recordset** não afetará a definição da propriedade **NoMatch**.
 
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a propriedade **NoMatch** para determinar se **Seek** e **FindFirst** foram bem-sucedidos e, se não foram, fornece os comentários adequados. Os procedimentos SeekMatch e FindMatch são necessários para executar esse procedimento.
+Este exemplo usa a propriedade **NoMatch** para determinar se um **Seek** e um **FindFirst** foram bem-sucedidos e, em caso negativo, para fornecer os comentários apropriados. Os procedimentos SeekMatch e FindMatch são exigidos para que esse procedimento seja executado.
 
 ```vb
     Sub NoMatchX() 
@@ -170,7 +170,7 @@ Este exemplo usa a propriedade **NoMatch** para determinar se **Seek** e **FindF
 
 O exemplo a seguir mostra como usar o método Seek para localizar um registro em uma tabela vinculada.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub TestSeek()

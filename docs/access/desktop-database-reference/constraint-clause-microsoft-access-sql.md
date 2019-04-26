@@ -1,5 +1,5 @@
 ---
-title: Cláusula CONSTRAINT (Microsoft Access SQL)
+title: Cláusula de RESTRIÇÃO (Microsoft Access SQL)
 TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
@@ -14,34 +14,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 356620376658bb927c690056f4de9a01554aa47e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295643"
 ---
-# <a name="constraint-clause-microsoft-access-sql"></a>Cláusula CONSTRAINT (Microsoft Access SQL)
+# <a name="constraint-clause-microsoft-access-sql"></a>Cláusula de RESTRIÇÃO (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Uma restrição é semelhante a um índice, embora possa ser usada para estabelecer uma relação com outra tabela.
 
 Use a cláusula CONSTRAINT em instruções [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) e [CREATE TABLE](create-table-statement-microsoft-access-sql.md) para criar ou excluir restrições. Existem dois tipos de cláusula CONSTRAINT: uma para criação de uma restrição em um campo único e outra para criação de mais de um campo.
 
 > [!NOTE]
-> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não suporta o uso de CONSTRAINT ou de nenhuma das instruções DDL (Data Definition Language) com bancos de dados do mecanismo de bancos de dados de terceiros. Use os métodos DAO **criar** .
+> O mecanismo de banco de dados do Microsoft Access não suporta o uso de CONSTRAINT ou de nenhuma das instruções DDL (Data Definition Language) com bancos de dados do mecanismo de bancos de dados de terceiros. Em vez disso, utilize os métodos DAO **Criar**.
 
 ## <a name="syntax"></a>Sintaxe
 
-### <a name="single-field-constraint"></a>Restrição de campo único
+### <a name="single-field-constraint"></a>Restrição de campo único:
 
-O *nome* da restrição {chave primária | EXCLUSIVO | NOT NULL | REFERENCES *foreigntable* \[(*foreignfield1, foreignfield2*)\] \[ON UPDATE CASCADE | Definir NULL\] \[ON DELETE CASCADE | Definir NULL\]}
+RESTRIÇÃO*nome* {CHAVE PRIMÁRIA | EXCLUSIVA | NÃO NULO | REFERÊNCIAS *tabelaestrangeira* \[(*campoestrangeiro1, campoestrangeiro2*)\] \[A ATUALIZAR CASCATA | DEFINIR NULO \] \[A DELETAR CASCATA | DEFINIR NULO \]}
 
-### <a name="multiple-field-constraint"></a>Restrição de vários campos
+### <a name="multiple-field-constraint"></a>Restrição de vários campos:
 
-O *nome* da restrição {chave primária (*primary1*\[, *primary2* \[,... \]\]) | EXCLUSIVO (*unique1*\[, *unique2* \[,... \]\]) | NOT NULL (*notnull1*\[, *notnull2* \[,... \]\]) | CHAVE estrangeira \[nenhum índice\] (*ref1*\[, *ref2* \[,... \] \]) REFERENCES *foreigntable* \[(*foreignfield1* \[, *foreignfield2* \[,... \] \])\] \[ON UPDATE CASCADE | Definir NULL\] \[ON DELETE CASCADE | Definir NULL\]}
+RESTRIÇÃO*nome* {CHAVE PRIMÁRIA (*primária1*\[, *primária2* \[, …\]\]) | EXCLUSIVA (*exclusiva1*\[, *exclusiva2* \[, …\]\]) | NÃO NULO (*nãonulo1*\[, *nãonulo2* \[, …\]\]) | CHAVE ESTRANGEIRA \[NENHUM ÍNDICE\] (*ref1*\[, *ref2* \[, …\]\]) REFERÊNCIAS *tabelaestrangeira* \[(*campoestrangeiro1* \[, *campoestrangeiro2* \[, …\]\])\] \[A ATUALIZAR CASCATA | DEFINIR NULO\] \[A DELETAR CASCATA | DEFINIR NULO\]}
 
-A cláusula CONSTRAINT possui as seguintes partes:
+A cláusula CONSTRAINT tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -50,38 +50,38 @@ A cláusula CONSTRAINT possui as seguintes partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>name</em></p></td>
-<td><p>O nome da restrição que será criada.</p></td>
+<td><p>O nome da restrição a ser criada.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>primary1</em>, <em>primary2</em></p></td>
+<td><p><em>primária1</em>, <em>primária2</em></p></td>
 <td><p>O nome do campo ou dos campos que será designado como a chave primária.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>unique1</em>, <em>unique2</em></p></td>
-<td><p>O nome do campo ou dos campos que será designado como uma chave exclusiva.</p></td>
+<td><p><em>exclusiva1</em>, <em>exclusiva2</em></p></td>
+<td><p>O nome dos campos que serão designados como uma chave exclusiva.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>notnull1, notnull2</em></p></td>
-<td><p>O nome do campo ou dos campos restrito a valores não-nulos.</p></td>
+<td><p><em>nãonulo1, nãonulo2</em></p></td>
+<td><p>O nome dos campos restritos a valores não nulos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ref1</em>, <em>ref2</em></p></td>
 <td><p>O nome de um campo ou campos de chave estrangeira que se refere a campos em outra tabela.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>foreigntable</em></p></td>
+<td><p><em>tabelaestrangeira</em></p></td>
 <td><p>O nome da tabela externa que contém o campo ou os campos especificado por <em>foreignfield</em>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>foreignfield1</em>, <em>foreignfield2</em></p></td>
-<td><p>O nome do campo ou dos campos em <em>foreigntable</em> especificados por <em>ref1</em>, <em>ref2</em>. Omita essa cláusula se o campo referido for a chave primária de <em>foreigntable</em>.</p></td>
+<td><p><em>campoestrangeiro1</em>, <em>campoestrangeiro2</em></p></td>
+<td><p>O nome dos campos em <em>tabelaestrangeira</em> especificados por <em>ref1</em>, <em>ref2</em>. Você poderá omitir essa cláusula se o campo de referência for a chave primária de <em>tabelaestrangeira</em>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,28 +89,28 @@ A cláusula CONSTRAINT possui as seguintes partes:
 
 ## <a name="remarks"></a>Comentários
 
-Use a sintaxe de restrição de campo único na cláusula de definição de campo de uma instrução ALTER TABLE ou CREATE TABLE imediatamente depois da especificação do tipo de dados de campo.
+Use a sintaxe para uma restrição de campo único na cláusula de definição de campo de uma instrução ALTER TABLE ou CREATE TABLE, imediatamente após a especificação do tipo de dado do campo.
 
 Use a sintaxe de restrição de vários campos sempre que usar a palavra reservada CONSTRAINT fora da cláusula de definição de campo em uma instrução de ALTER TABLE ou CREATE TABLE.
 
-Pelo uso de CONSTRAINT, você pode designar um campo como um dos seguintes tipos de restrições:
+Com CONSTRAINT, você pode designar um campo como um dos seguintes tipos de restrições:
 
-- Use a palavra reservada UNIQUE para designar um campo como uma chave exclusiva. Isso significa que nenhum dos dois registros na tabela pode ter o mesmo valor nesse campo. Você pode restringir qualquer campo ou lista de campos como exclusivo. Se uma restrição de vários campos for designada como uma chave exclusiva, os valores combinados de todos os campos no índice devem ser exclusivos, mesmo se dois ou mais registros tiverem o mesmo valor em apenas um dos campos.
+- Você pode usar a palavra reservada UNIQUE para designar um campo como uma chave exclusiva. Isso significa que nenhum registro da tabela terá o mesmo valor nesse campo. Você pode restringir qualquer campo ou lista de campos como exclusivo. Se uma restrição de campos múltiplos for designada como uma chave exclusiva, os valores combinados de todos os campos no índice deverão ser exclusivos, mesmo que dois ou mais registros tenham o mesmo valor em apenas um dos campos.
 
-- Use as palavras reservadas PRIMARY KEY para designar um campo ou conjunto de campos em uma tabela como uma chave primária. Todos os valores na chave primária devem ser exclusivos e não **Nulos** e pode existir somente uma chave primária para uma tabela.
+- Você pode usar as palavras reservadas PRIMARY KEY para designar um campo ou um conjunto de campos em uma tabela como chave primária. Todos os valores de chave primária devem ser exclusivos e não **nulos**, e pode haver apenas uma chave primária em uma tabela.
     
   > [!NOTE]
-  > [!OBSERVAçãO] Não defina uma restrição PRIMARY KEY em uma tabela que já tenha uma chave primária; isso pode ocasionar um erro.
+  > Não defina uma restrição PRIMARY KEY em uma tabela que já tem uma chave primária; se você fizer isso, ocorrerá um erro.
 
 - Use as palavras reservadas FOREIGN KEY para designar um campo como uma chave estrangeira. Se a chave primária da tabela externa for composta de mais de um campo, use uma definição de restrição de campo múltiplo, listando todos os campos de referência, o nome da tabela externa e os nomes dos campos referenciados na tabela externa, na mesma ordem em que estão listados os campos de referência. Se o campo ou os campos de referência forem a chave primária da tabela externa, não será necessário especificar os campos referenciados. Por padrão, o mecanismo de banco de dados se comporta como se a chave primária da tabela externa fosse os campos referenciados. As restrições da chave estrangeira definem ações específicas que serão executadas quando for alterado um valor de chave primária correspondente:
 
-- Você pode especificar as ações que serão executadas na tabela externa baseada em uma ação correspondente executada em uma chave primária na tabela em que CONSTRAINT está definida. Por exemplo, considere a seguinte definição da tabela Customers:
+- É possível especificar as ações a serem executadas na tabela estrangeira com base em uma ação correspondente realizada em uma chave primária na tabela em que CONSTRAINT é definida. Por exemplo, considere a seguinte definição da tabela Customers (Clientes):
     
   ``` sql
     CREATE TABLE Customers (CustId INTEGER PRIMARY KEY, CLstNm NCHAR VARYING (50))
   ```
     
-  Considere a seguinte definição da tabela Orders, que define a relação da chave estrangeira ao fazer referência à chave primária da tabela Customers:
+  Considere a seguinte definição da tabela Orders (Pedidos), que define uma relação de chave estrangeira que faz referência à chave primária da tabela Customers:
     
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE CASCADE ON DELETE CASCADE
@@ -122,9 +122,9 @@ Pelo uso de CONSTRAINT, você pode designar um campo como um dos seguintes tipos
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE SET NULL ON DELETE SET NULL
   ```
     
-  A cláusula ON UPDATE SET NULL significa que, se um identificador de cliente (CustId) for atualizado na tabela Customer, os valores da chave estrangeira correspondentes na tabela Orders serão automaticamente definidos como NULL. De forma semelhante, a cláusula ON DELETE SET NULL significa que, se um cliente for excluído da tabela Customer, todas as chaves estrangeiras correspondentes na tabela Orders serão definidas automaticamente como NULL.
+  A cláusula ON UPDATE SET NULL significa que, se o identificador do cliente (CustId) for atualizado na tabela Customer, os valores de chave estrangeira correspondentes na tabela Orders serão definidos automaticamente como NULL. Da mesma forma, a cláusula ON DELETE SET NULL significa que, se um cliente for excluído na tabela Customer, todas as chaves estrangeiras correspondentes na tabela Orders serão definidas automaticamente como NULL.
 
-Para impedir a criação automática de índices das chaves estrangeiras, use o modificador NO INDEX. Essa forma de definição da chave estrangeira deve ser usada somente nos casos em que os valores de índice resultantes forem duplicados com frequência. Quando os valores de um índice de chave estrangeira forem duplicados com frequência, o uso de um índice pode ser menos eficiente do que simplesmente examinar a tabela. A manutenção desse tipo de índice com linhas inseridas e excluídas da tabela, prejudica o desempenho e não traz nenhum benefício.
+Para impedir a criação automática de índices para chaves estrangeiras, é possível usar o modificador NO INDEX. Essa forma de definição de chave estrangeira deve ser usada somente em casos em que os valores de índice resultantes seriam duplicados com frequência. Nos casos em que os valores de um índice de chave estrangeira são duplicados com frequência, o uso de um índice pode ser menos eficaz do que simplesmente executar uma verificação de tabela. Manter esse tipo de índice, com linhas inseridas e excluídas da tabela, reduz o desempenho e não oferece benefícios.
 
 ## <a name="example"></a>Exemplo
 

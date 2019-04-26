@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c23772c54f2f980b8d10d4afc352687935840752
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294832"
 ---
 # <a name="database-object-dao"></a>Objeto de banco de dados (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Um objeto **Database** representa um banco de dados aberto.
+Um objeto de **Banco de dados** representa um banco de dados aberto.
 
 ## <a name="remarks"></a>Comentários
 
@@ -64,7 +64,7 @@ Quando você usa um dos métodos de transação (**BeginTrans**, **CommitTrans**
 
 
 > [!NOTE]
-> [!OBSERVAçãO] Você pode abrir a mesma fonte de dados ou banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e referir-se a eles pelo nome da variável.
+> Você pode abrir a mesma fonte de dados ou o mesmo banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e fazer referência a eles por nome de variável.
 
 
 

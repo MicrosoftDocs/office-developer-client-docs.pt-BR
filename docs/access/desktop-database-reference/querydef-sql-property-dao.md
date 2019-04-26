@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c51f0da8541cf0ba2790827c58a0b017bd6ed875
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300977"
 ---
 # <a name="querydefsql-property-dao"></a>Propriedade QueryDef.SQL (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Define ou retorna a instrução SQL que define a consulta executada por um objeto **[QueryDef](querydef-object-dao.md)**.
+Define ou retorna a instrução SQL, que define a consulta executada por um objeto **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . SQL
+*expressão* .SQL
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -38,10 +38,10 @@ A sintaxe SQL usada em uma consulta deve estar de acordo com o dialeto SQL do me
 
 Se a instrução SQL incluir os parâmetros da consulta, defina-os antes da execução. Até que você reinicie os parâmetros, os mesmos valores de parâmetro serão aplicados toda vez que a consulta for executada.
 
-Em um espaço de trabalho do Microsoft Access, o uso de um objeto **QueryDef** é a forma preferencial de executar as operações passagem SQL no mecanismo do banco de dados do Microsoft Access conectado às fontes de dados ODBC. Definindo a propriedade **[Connect](querydef-connect-property-dao.md)** do objeto de **QueryDef** para uma fonte de dados ODBC, você pode usar o SQL não – – – database do Microsoft Access na consulta a serem passados para o servidor externo. Por exemplo, use as instruções TRANSACT SQL (com os bancos de dados do Microsoft SQL Server ou do Sybase SQL Server), que o mecanismo do banco de dados do Microsoft Access poderia, de outra forma, não processar.
+Em um espaço de trabalho do Microsoft Access, o uso de um objeto **QueryDef** é a forma preferencial de executar as operações passagem SQL no mecanismo do banco de dados do Microsoft Access conectado às fontes de dados ODBC. Ao definir a propriedade **Connect** do objeto **[QueryDef](querydef-connect-property-dao.md)** para uma fonte de dados ODBC, você pode usar um banco de dados SQL que não seja do Microsoft Access na consulta, e irá para o servidor externo. Por exemplo, use as instruções TRANSACT SQL (com os bancos de dados do Microsoft SQL Server ou do Sybase SQL Server), que o mecanismo do banco de dados do Microsoft Access poderia, de outra forma, não processar.
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal de fora dos EUA, como uma vírgula (por exemplo, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), ocorrerá um erro quando você tentar executar o objeto **QueryDef** na Microsoft Mecanismo de banco Access. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+> Se você definir a propriedade como uma cadeia concatenada de caracteres com um valor não inteiro, e os parâmetros do sistema especificarem um caractere decimal não-padrão dos EUA, como uma vírgula (por exemplo, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50` ), ocorrerá um erro quando você tentar executar o objeto **QueryDef** em um banco de dados do mecanismo de banco de dados do Microsoft Access. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 
 ## <a name="example"></a>Exemplo
 
@@ -126,7 +126,7 @@ Este exemplo usa o método **CopyQueryDef** para criar uma cópia de um **QueryD
 
 <br/>
 
-Este exemplo mostra um possível uso do CopyQueryNew(). 
+Este exemplo mostra um possível uso de CopyQueryNew(). 
      
 ```vb
     Sub CopyQueryDefX() 
@@ -186,7 +186,7 @@ Este exemplo mostra um possível uso do CopyQueryNew().
 
 <br/>
 
-Este exemplo usa os métodos **CreateQueryDef** e **OpenRecordset** e a propriedade **SQL** para fazer uma consulta à tabela de títulos no banco de dados Pubs de amostra do Microsoft SQL Server e retornar o título e o identificador de título do livro com maior volume de vendas. O exemplo, em seguida, faz uma consulta à tabela de autores e instrui o usuário a enviar um cheque-bônus para cada autor com base em sua participação (o bônus total é de $1.000 e cada autor deve receber um percentual dessa quantia).
+Este exemplo usa os métodos **CreateQueryDef** e **OpenRecordset** e a propriedade **SQL** para consultar a tabela de títulos no banco de dados de exemplo Pubs do Microsoft SQL Server e retornar o título e o identificador de título do livro mais vendido. Em seguida, o exemplo consulta a tabela de autores e instrui o usuário a enviar um cheque de bonificação para cada autor com base na sua participação nos direitos autorais (o total do prêmio é de $ 1.000 e cada autor receberá uma porcentagem dessa quantia).
 
 ```vb
     Sub ClientServerX2() 
@@ -254,9 +254,9 @@ Este exemplo usa os métodos **CreateQueryDef** e **OpenRecordset** e a propried
 
 <br/>
 
-O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta denominada **' MyQuery '** é criada com dois parâmetros, denominados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta é definida como uma instrução Structured Query Language (SQL) que define os parâmetros.
+O exemplo a seguir mostra como criar uma consulta parâmetro. Uma consulta chamada **myQuery** é criada com dois parâmetros, chamados Param1 e Param2. Para fazer isso, a propriedade SQL da consulta está definida como uma declaração de linguagem SQL que define os parâmetros.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
