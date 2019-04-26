@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294943"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Método Database.CreateTableDef (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de trabalho do Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateTableDef (***nome***, ***atributos***, ***SourceTableName***, ***Conecte-se***)
+*expressão* .CreateTableDef(***Nome***, ***Atributos***, ***SourceTableName***, ***Conectar***)
 
-*expressão* Uma variável que representa um objeto de **banco de dados** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de t
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessário/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -52,25 +52,25 @@ Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de t
 <td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>TableDef</strong>.</p></td>
+<td><p>Uma<strong>Variante</strong> (<strong>Cadeia</strong> subtipo) que exclusivamente nomeia o novo objeto de <strong>QueryDef</strong>. Consulte a propriedade de <strong><a href="tabledef-name-property-dao.md">Nome</a></strong> para obter detalhes sobre nomes válidos de <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante ou combinação de constantes que indica uma ou mais características do novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> para obter mais informações.</p></td>
+<td><p>Uma constante ou uma combinação de constantes que indicam uma ou mais características do novo objeto de<strong>TableDef</strong>. Consulte a propriedade de <strong><a href="tabledef-attributes-property-dao.md">Atributos</a></strong> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>SourceTableName</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém o nome de uma tabela em um banco de dados externo, que é a fonte original dos dados. A cadeia de caracteres source torna-se a configuração de propriedade <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> do novo objeto <strong>TableDef</strong>.</p></td>
+<td><p>Uma<strong>Variante</strong> (<strong>cadeia</strong> subtipo) que contém o nome de uma tabela em um banco de dados externo à fonte de dados original. A cadeia de caracteres de origem torna-se a configuração de propriedade <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> do novo objeto <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém informações sobre a fonte de um banco de dados aberto, um banco de dados usando em uma consulta passagem ou uma tabela vinculada. Consulte a propriedade <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> para obter mais informações sobre cadeias de caracteres de conexão válidas.</p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém informações sobre a fonte de um banco de dados aberto, um banco de dados usando em uma consulta passagem ou uma tabela vinculada. Consulte a propriedade <strong><a href="tabledef-connect-property-dao.md">Conectar</a></strong> para obter mais informações sobre as cadeias de caracteres de conexão válidas.</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,13 +84,13 @@ TableDef
 
 Se omitir uma ou mais dessas partes opcionais quando usar o método **CreateTableDef**, você poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto à coleção. Depois de acrescentar o objeto, você poderá alterar algumas, mas não todas as suas propriedades. Consulte os tópicos de propriedade individuais para obter mais detalhes.
 
-Se name fizer referência a um objeto que já é um membro da coleção ou se você especificar uma propriedade inválida no objeto **TableDef** ou **[campo](field-object-dao.md)** que você está anexando, ocorrerá um erro de tempo de execução quando você usa o método **[Append](tabledefs-append-method-dao.md)** . Além disso, não é possível acrescentar um objeto **TableDef** à coleção **TableDefs** até que se defina ao menos um **Field** para o objeto **TableDef**.
+Se o nome fizer referência a um objeto que já é um membro da coleção ou se for especificada uma propriedade inválida no objeto **TableDef** ou **[Field](field-object-dao.md)** que você está acrescentando, ocorrerá um erro em tempo de execução quando você usar o método **[Acrescentar](tabledefs-append-method-dao.md)**. Além disso, não é possível acrescentar um objeto **TableDef** à coleção **TableDefs** até que se defina ao menos um **Field** para o objeto **TableDef**.
 
 Para remover um objeto **TableDef** da coleção **[TableDefs](tabledefs-collection-dao.md)**, use o método **[Delete](tabledefs-delete-method-dao.md)** na coleção.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.
+Este exemplo cria um novo objeto **TableDef** no banco de dados da Northwind.
 
 ```vb
     Sub CreateTableDefX() 
@@ -155,7 +155,7 @@ Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.
 
 <br/>
 
-Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros em uma tabela vinculada duas vezes. Em seguida, enumeram-se os registros duas vezes com um cache de 50 registros. O exemplo exibe então as estatísticas de desempenho das execuções sem cache e com cache por meio da tabela vinculada.
+Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros vinculados à tabela duas vezes. Em seguida, enumera os registros duas vezes com um cache de 50 registros. Depois, exemplo exibe as estatísticas de desempenho das execuções com cache e sem cache por meio da tabela vinculada.
 
 ```vb
     Sub ClientServerX3() 
