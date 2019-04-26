@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3543d882e0584c35c88a5475032d9fe5505f516c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303231"
 ---
 # <a name="querydefs-collection-dao"></a>Coleção QueryDefs (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao**: Access 2013, Office 2013 
 
-Uma coleção **QueryDefs** contém todos os objetos **QueryDef** de um objeto **Database** em um banco de dados do mecanismo de banco de dados do Microsoft Access.
+Uma coleção **QueryDefs** contém todos objetos **QueryDef** de um objeto de **Banco de dados** em um banco de dados do mecanismo de banco de dados do Microsoft Access.
 
 ## <a name="remarks"></a>Comentários
 
-Para criar um novo objeto **QueryDef**, use o método **CreateQueryDef**. Em um espaço de trabalho do Microsoft Access, se você fornecer uma cadeia de caracteres para o argumento nome ou se você definir explicitamente a propriedade **Name** do novo objeto **QueryDef** em uma cadeia de comprimento não – zero, você criará um **QueryDef** permanente que será automaticamente ser acrescentado à coleção **QueryDefs** e salvo no disco. Fornecendo uma cadeia de caracteres de comprimento zero como o argumento nome ou explicitamente definir a propriedade **Name** como uma cadeia de caracteres de comprimento zero resultará em um objeto **QueryDef** temporário.
+Para criar um novo objeto **QueryDef**, use o método **CreateQueryDef**. No espaço de trabalho do Microsoft Access, se você fornecer uma cadeia de caracteres para o argumento nome ou se você definir explicitamente a propriedade **Nome** do novo objeto **QueryDef** a uma cadeia de caracteres de comprimento não zero, você criará um **QueryDef** permanente que será acrescentado automaticamente à coleção **QueryDefs** e salvo no disco. Fornecer uma cadeia de caracteres de comprimento zero, como o argumento nome ou definir explicitamente a propriedade**Nome** como uma cadeia de caracteres de comprimento zero resultará em um objeto **QueryDef** temporário.
 
-Para referir-se a um objeto **QueryDef** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
+Para fazer referência a um objeto **QueryDef** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-**QueryDefs** (0)
+**QueryDefs**(0)
 
-**QueryDefs** ("nome")
+**QueryDefs**("nome")
 
 **QueryDefs**\!\[nome\]
 
-Você pode se referir a objetos **QueryDef** temporários somente pelas variáveis de objeto que foram atribuídas a eles.
+Você pode consultar objetos **QueryDef** temporários apenas pelas variáveis de objeto atribuído a eles.
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo cria um novo objeto **QueryDef** e o acrescenta à coleção **QueryDefs** do objeto **Database** Northwind. Em seguida, ele enumera a coleção **QueryDefs** e a coleção **Properties** do novo **QueryDef**.
+Este exemplo cria um novo objeto **QueryDef** e acrescenta-o à coleção **QueryDefs** do objeto **Database** Northwind. Em seguida, são enumeradas a coleção **QueryDefs** e a coleção **Properties** do novo **QueryDef**.
 
 ```vb
     Sub QueryDefX() 
@@ -142,9 +142,9 @@ Este exemplo usa o método **CreateQueryDef** para criar e executar um **QueryDe
 
 <br/>
 
-O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção Parameters é usada para definir o parâmetro Organization da consulta myActionQuery antes que a consulta é executada.
+O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção de Parâmetros é usada para configurar o parâmetro de Organização da consulta myActionQuery antes da execução da consulta.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido pela** [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -171,7 +171,7 @@ O exemplo a seguir mostra como executar uma consulta de parâmetro. A coleção 
 
 <br/>
 
-O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.
+O exemplo a seguir mostra como abrir um Conjunto de registros baseado em uma consulta parâmetro.
 
 ```vb
     Dim dbs As DAO.Database

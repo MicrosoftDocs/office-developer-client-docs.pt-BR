@@ -1,5 +1,5 @@
 ---
-title: Propriedades de Recordset (DAO)
+title: Propriedades Recordset (DAO)
 TOCTitle: Properties
 ms:assetid: 37114a17-3737-4995-b35d-dd64c75b5ed2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: dc5329b9c320a98076c4dad88c4681cdd10fba7e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300403"
 ---
-# <a name="recordset-properties-dao"></a>Propriedades de Recordset (DAO)
+# <a name="recordset-properties-dao"></a>Propriedades Recordset (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 - [Propriedade Recordset.AbsolutePosition (DAO)](recordset-absoluteposition-property-dao.md)
 - [Propriedade Recordset.BatchCollisionCount (DAO)](recordset-batchcollisioncount-property-dao.md)
@@ -41,7 +41,7 @@ ms.locfileid: "28707364"
 - [Propriedade Recordset.NoMatch (DAO)](recordset-nomatch-property-dao.md)
 - [Propriedade Recordset.PercentPosition (DAO)](recordset-percentposition-property-dao.md)
 - [Propriedade Recordset.Properties (DAO)](recordset-properties-property-dao.md)
-- [Propriedade RecordCount (DAO)](recordset-recordcount-property-dao.md)
+- [Propriedade Recordset.RecordCount (DAO)](recordset-recordcount-property-dao.md)
 - [Propriedade Recordset.RecordsetType (DAO)](recordset-recordsettype-property-dao.md)
 - [Propriedade Recordset.RecordStatus (DAO)](recordset-recordstatus-property-dao.md)
 - [Propriedade Recordset.Restartable (DAO)](recordset-restartable-property-dao.md)

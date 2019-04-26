@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295426"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrução CREATE INDEX (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Cria um novo índice em uma tabela existente.
 
 > [!NOTE]
-> Para diferentes do Microsoft Access em bancos de dados, o mecanismo de banco de dados do Microsoft Access não suporta o uso de CREATE INDEX (exceto para criar um índice de falsos em uma tabela vinculada ODBC) ou qualquer uma das instruções data definition language (DDL). Use os métodos DAO **criar** . Confira mais informações na seção Comentários.
+> Para bancos de dados de mecanismo de banco de dados não Microsoft Access, o mecanismo de banco de dados Microsoft Access não fornece suporte ao uso de CREATE INDEX (exceto para criar um pseudo índice em uma tabela ODBC vinculada) nem de nenhuma instrução de linguagem de definição de dados (DDL). Em vez disso, utilize os métodos DAO **Criar**. Para mais informações, consulte a seção Comentários.
 
 ## <a name="syntax"></a>Sintaxe
 
-CRIAR \[ UNIQUE \] índice *índice* Diante *tabela* (*campo* \[ASC | DESC\]\[, *campo* \[ASC | DESC\],... \]) \[WITH {principal | DISALLOW NULL | IGNORE NULL}\]
+CREATE \[ UNIQUE \] INDEX *índice* ON *tabela* (*campo* \[ASC|DESC\]\[, *campo* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]
 
-A instrução CREATE INDEX contém estas partes:
+A instrução CREATE INDEX tem as seguintes partes:
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ A instrução CREATE INDEX contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -50,7 +50,7 @@ A instrução CREATE INDEX contém estas partes:
 <td><p>O nome do índice a ser criado.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>table</em></p></td>
+<td><p><em>tabela</em></p></td>
 <td><p>O nome da tabela existente que conterá o índice.</p></td>
 </tr>
 <tr class="odd">
@@ -63,22 +63,22 @@ A instrução CREATE INDEX contém estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-Para proibir valores duplicados no campo ou nos campos indexados de diferentes registros, use a palavra reservada UNIQUE.
+Para proibir valores duplicados nos campos indexados de registros diferentes, use a palavra reservada UNIQUE.
 
-Na cláusula opcional WITH, você pode impor regras de validação de dados. É possível:
+Na cláusula opcional WITH, você pode aplicar regras de validação de dados. Você pode:
 
-- Proibir entradas nulas no campo ou nos campos indexados de novos registros, utilizando a opção DISALLOW NULL.
+- Proibir entradas nulas nos campos indexados de novos registros, usando a opção DISALLOW NULL.
 
-- Impedir que os registros com valores **Null** no campo ou nos campos indexados sejam incluídos no índice, utilizando a opção IGNORE NULL.
+- Impedir que registros com valores **Null** nos campos indexados sejam incluídos no índice, usando a opção IGNORE NULL.
 
 - Designar o campo ou os campos indexados como a chave primária, utilizando a palavra reservada PRIMARY. Isso implica que a chave seja exclusiva, para que você possa omitir a palavra reservada UNIQUE.
 
-Você pode usar CREATE INDEX para criar um índice de falsos em uma tabela vinculada em uma fonte de dados ODBC, como o Microsoft SQL Server, que ainda não tiver um índice. Você não precisa ter permissão nem acessar o servidor remoto para criar um pseudo índice, e o banco de dados remoto não está ciente de e não foi afetado pelo pseudo índice. Você utiliza a mesma sintaxe para ambas as tabelas vinculadas e nativas. A criação de um pseudo índice em uma tabela, que pode ser somente leitura, pode ser especialmente útil.
+Você pode usar CREATE INDEX para criar um pseudo índice em uma tabela vinculada em uma fonte de dados ODBC, como o Microsoft SQL Server, que ainda não tem um índice. Não é necessário ter permissão ou acesso ao servidor remoto para criar um pseudoíndice, e o banco de dados remoto reconhece a presença do pseudoíndice e não é afetado por ele. Use a mesma sintaxe para tabelas vinculadas e nativas. Pode ser especialmente útil criar um pseudoíndice em uma tabela que normalmente seria somente leitura.
 
 Também é possível usar a instrução [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) para adicionar um índice de único arquivo ou de vários arquivos a uma tabela, e a instrução ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) para remover um índice criado com ALTER TABLE ou CREATE INDEX.
 
 > [!NOTE]
-> [!OBSERVAçãO] Não use a palavra reservada PRIMARY ao criar um novo índice em uma tabela que já tem uma chave primária; caso contrário, ocorrerá um erro.
+> Não use a palavra reservada PRIMARY ao criar um novo índice em uma tabela que já tem uma chave primária; se você fizer isso, ocorrerá um erro.
 
 ## <a name="example"></a>Exemplo
 

@@ -1,5 +1,5 @@
 ---
-title: Palavras reservadas SQL (referência de banco de dados da área de trabalho do Access)
+title: Palavras reservadas SQL (referência do banco de dados da área de trabalho do Access)
 TOCTitle: SQL reserved words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845663(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 43fa81fa2f175c7b67c5de4cfda5158cc067bbac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308558"
 ---
 # <a name="sql-reserved-words"></a>Palavras reservadas SQL
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de dados Microsoft Access para uso em instruções SQL. 
+A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de dados do Microsoft Access para uso nas instruções SQL. 
 
-- As palavras na lista que não estiverem em letra maiúscula também são palavras reservadas por outros aplicativos. Consequentemente, os tópicos de Ajuda individuais para essas palavras fornecem descrições gerais que não se concentram no uso do SQL.
+- As palavras na lista que não estão escritas totalmente em letras maiúsculas também são reservadas por outros aplicativos. Consequentemente, os tópicos individuais de Ajuda para essas palavras fornecem descrições gerais que não se resumem ao uso de SQL.
 
-- Palavras seguidas por um asterisco (*) são reservadas, mas possuem atualmente não faz sentido no contexto de uma instrução SQL do Microsoft Access (por exemplo, o **nível** e **TableID**). 
+- As palavras seguidas por um asterisco (*) são reservadas, mas atualmente não têm sentido no contexto de uma instrução SQL do Microsoft Access (por exemplo, **Level** e **TableID**). 
 
 - As palavras que não estão sublinhadas não têm explicações vinculadas.
 
@@ -43,7 +43,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="sql-subqueries-microsoft-access-sql.md">ANY</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="alter-table-statement-microsoft-access-sql.md">ADICIONAR</a></p></td>
+<td><p><a href="alter-table-statement-microsoft-access-sql.md">ADD</a></p></td>
 <td><p>ARE</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></p></td>
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Méd</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></p></td>
@@ -87,20 +87,20 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">COMEÇAR</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">BEGIN</a></p></td>
 <td><p>COLLATION</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Entre</a></strong></p></td>
-<td><p><a href="alter-table-statement-microsoft-access-sql.md">COLUNA</a></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Between</a></strong></p></td>
+<td><p><a href="alter-table-statement-microsoft-access-sql.md">COLUMN</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">BINÁRIO</a></p></td>
-<td><p><a href="transaction-statement-microsoft-access-sql.md">CONFIRMAR</a></p></td>
+<td><p><a href="sql-data-types.md">BINARY</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">COMMIT</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="sql-data-types.md">BIT</a></p></td>
-<td><p><a href="create-table-statement-microsoft-access-sql.md">COMPOSIÇÃO DE COMPACTAÇÃO</a></p></td>
+<td><p><a href="create-table-statement-microsoft-access-sql.md">COMP, COMPRESSION</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>BIT_LENGTH</p></td>
@@ -112,7 +112,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="odd">
 <td><p>BOTH</p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">RESTRIÇÃO, RESTRIÇÕES</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, CONSTRAINTS</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
@@ -123,7 +123,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p>CONTAINS</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">EM CASCATA</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">CASCADE</a></p></td>
 <td><p>CONVERT</p></td>
 </tr>
 <tr class="odd">
@@ -132,7 +132,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR, CHARACTER</a> — Consulte TEXT</p></td>
-<td><p><a href="sql-data-types.md">CONTADOR</a></p></td>
+<td><p><a href="sql-data-types.md">COUNTER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
@@ -140,7 +140,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">MOEDA</a></p></td>
+<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>CHECK</p></td>
@@ -175,8 +175,8 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">BANCO DE DADOS</a></p></td>
-<td><p><a href="create-index-statement-microsoft-access-sql.md">NÃO PERMITIR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">DATABASE</a></p></td>
+<td><p><a href="create-index-statement-microsoft-access-sql.md">DISALLOW</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">DATE</a> — Consulte DATETIME</p></td>
@@ -220,7 +220,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <tbody>
 <tr class="odd">
 <td><p><strong>Eqv</strong></p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">EXTERNA</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">FOREIGN</a></p></td>
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
@@ -231,7 +231,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">Cláusula FROM</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-subqueries-microsoft-access-sql.md">EXISTE</a></p></td>
+<td><p><a href="sql-subqueries-microsoft-access-sql.md">EXISTS</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">GENERAL</a> — Consulte LONGBINARY</p></td>
 </tr>
 <tr class="odd">
@@ -240,7 +240,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p>FALSE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GRUPO</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>FETCH</p></td>
@@ -271,7 +271,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">IDENTIDADE</a></p></td>
+<td><p><a href="sql-data-types.md">IDENTITY</a></p></td>
 <td><p>INPUT</p></td>
 </tr>
 <tr class="even">
@@ -283,11 +283,11 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-index-statement-microsoft-access-sql.md">IGNORAR</a></p></td>
+<td><p><a href="create-index-statement-microsoft-access-sql.md">IGNORE</a></p></td>
 <td><p><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">IMAGEM</a></p></td>
+<td><p><a href="sql-data-types.md">IMAGE</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INT, INTEGER, INTEGER4</a> — Consulte LONG</p></td>
 </tr>
 <tr class="even">
@@ -295,12 +295,12 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a> — Consulte BYTE</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">Em</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">In</a></strong></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — Consulte SHORT</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></p></td>
-<td><p><a href="equivalent-ansi-sql-data-types.md">INTERVALO</a></p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">INTERVAL</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
@@ -311,7 +311,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><strong>Is</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="inner-join-operation-microsoft-access-sql.md">INTERNA</a></p></td>
+<td><p><a href="inner-join-operation-microsoft-access-sql.md">INNER</a></p></td>
 <td><p>ISOLATION</p></td>
 </tr>
 </tbody>
@@ -331,7 +331,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">CHAVE</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">KEY</a></p></td>
 <td><p>LOWER</p></td>
 </tr>
 <tr class="odd">
@@ -343,15 +343,15 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">À ESQUERDA</a></p></td>
+<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">MEMO</a> — Consulte LONGTEXT</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nível</strong>*</p></td>
+<td><p><strong>Level</strong>*</p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Min</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Como</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Like</a></strong></p></td>
 <td><p>MINUTE</p></td>
 </tr>
 <tr class="even">
@@ -359,7 +359,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><strong>Mod</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">Longas</a></p></td>
+<td><p><a href="sql-data-types.md">LONG</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">MONEY</a> — Consulte CURRENCY</p></td>
 </tr>
 <tr class="even">
@@ -383,8 +383,8 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="equivalent-ansi-sql-data-types.md">NACIONAL</a></p></td>
-<td><p><strong>Externa</strong>*</p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">NATIONAL</a></p></td>
+<td><p><strong>Outer</strong>*</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></p></td>
@@ -400,7 +400,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></p></td>
-<td><p><a href="parameters-declaration-microsoft-access-sql.md">PARÂMETROS</a></p></td>
+<td><p><a href="parameters-declaration-microsoft-access-sql.md">PARAMETERS</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">NULL</a></p></td>
@@ -412,7 +412,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a> — Consulte DECIMAL</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">%</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">PERCENT</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></p></td>
@@ -432,18 +432,18 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="odd">
 <td><p>OPEN</p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">PRINCIPAL</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">PRIMARY</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPÇÃO</a></p></td>
+<td><p><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPTION</a></p></td>
 <td><p>PRIVILEGES</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Or</strong></p></td>
-<td><p><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDIMENTO</a></p></td>
+<td><p><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDURE</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDEM</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER</a></p></td>
 <td><p>PUBLIC</p></td>
 </tr>
 </tbody>
@@ -463,7 +463,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p>SMALLDATETIME</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">REFERÊNCIAS</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">REFERENCES</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a> — Consulte SHORT</p></td>
 </tr>
 <tr class="odd">
@@ -472,14 +472,14 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 </tr>
 <tr class="even">
 <td><p><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></p></td>
-<td><p><a href="sql-subqueries-microsoft-access-sql.md">ALGUNS</a></p></td>
+<td><p><a href="sql-subqueries-microsoft-access-sql.md">SOME</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">Certo</a></p></td>
-<td><p>ESPAÇO</p></td>
+<td><p><a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT</a></p></td>
+<td><p>SPACE</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">REVERSÃO</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">ROLLBACK</a></p></td>
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
@@ -503,15 +503,15 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p>SUBSTRING</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-statement-microsoft-access-sql.md">DEFINIR</a></p></td>
+<td><p><a href="update-statement-microsoft-access-sql.md">SET</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Sum</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="sql-data-types.md">CURTO</a></p></td>
+<td><p><a href="sql-data-types.md">SHORT</a></p></td>
 <td><p>SYSNAME</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-data-types.md">ÚNICO</a></p></td>
+<td><p><a href="sql-data-types.md">SINGLE</a></p></td>
 <td><p>SYSTEM_USER</p></td>
 </tr>
 <tr class="odd">
@@ -539,11 +539,11 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-table-statement-microsoft-access-sql.md">TEMPORÁRIO</a></p></td>
+<td><p><a href="create-table-statement-microsoft-access-sql.md">TEMPORARY</a></p></td>
 <td><p>UPPER</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sql-data-types.md">TEXTO</a></p></td>
+<td><p><a href="sql-data-types.md">TEXT</a></p></td>
 <td><p>USAGE</p></td>
 </tr>
 <tr class="odd">
@@ -551,16 +551,16 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="equivalent-ansi-sql-data-types.md">CARIMBO DE HORA</a></p></td>
+<td><p><a href="equivalent-ansi-sql-data-types.md">TIMESTAMP</a></p></td>
 <td><p>USING</p></td>
 </tr>
 <tr class="odd">
 <td><p>TIMEZONE_HOUR</p></td>
-<td><p><a href="sql-data-types.md">VALOR</a></p></td>
+<td><p><a href="sql-data-types.md">VALUE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TIMEZONE_MINUTE</p></td>
-<td><p><a href="insert-into-statement-microsoft-access-sql.md">VALORES</a></p></td>
+<td><p><a href="insert-into-statement-microsoft-access-sql.md">VALUES</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">TINYINT</a></p></td>
@@ -571,7 +571,7 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — Consulte BINARY</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">Início</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">TOP</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a> — Consulte TEXT</p></td>
 </tr>
 <tr class="even">
@@ -579,11 +579,11 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="transaction-statement-microsoft-access-sql.md">TRANSAÇÃO</a></p></td>
-<td><p><a href="constraint-clause-microsoft-access-sql.md">VARIANTE</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">TRANSACTION</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">VARYING</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="transform-statement-microsoft-access-sql.md">TRANSFORMAR</a></p></td>
+<td><p><a href="transform-statement-microsoft-access-sql.md">TRANSFORM</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
@@ -603,11 +603,11 @@ A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de 
 <td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="union-operation-microsoft-access-sql.md">UNIÃO</a></p></td>
-<td><p><a href="transaction-statement-microsoft-access-sql.md">TRABALHO</a></p></td>
+<td><p><a href="union-operation-microsoft-access-sql.md">UNION</a></p></td>
+<td><p><a href="transaction-statement-microsoft-access-sql.md">WORK</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="constraint-clause-microsoft-access-sql.md">EXCLUSIVO</a></p></td>
+<td><p><a href="constraint-clause-microsoft-access-sql.md">UNIQUE</a></p></td>
 <td><p><strong>Xor</strong></p></td>
 </tr>
 <tr class="odd">

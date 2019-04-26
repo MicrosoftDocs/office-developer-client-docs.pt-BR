@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: Cria uma dependência de referência de célula.
-ms.openlocfilehash: 07c0d79668230cbf2b1e8d51b50e67835c87e2f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360226"
 ---
 # <a name="dependson-function"></a>Função DEPENDSON
 
@@ -22,13 +22,13 @@ Cria uma dependência de referência de célula.
   
 ## <a name="syntax"></a>Sintaxe
 
-DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...]) 
+DEPENDSON(** *cellref* ** [, ** *cellref2* **,...]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _CellRef_ <br/> |Obrigatório  <br/> |**String** <br/> |A referência da primeira célula.  <br/> |
+| _cellref_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira referência de célula.  <br/> |
 | _cellref2_ <br/> |Opcional  <br/> |**String** <br/> |A referência da segunda célula.  <br/> |
    
 ## <a name="remarks"></a>Comentários

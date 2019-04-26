@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 45bd5ed6-2f13-6555-362a-5982595a0ac9
 description: Executa o evento padrão associado ao objeto.
-ms.openlocfilehash: 2dc3dd3a9622acf2e61e2d5bd070a8ea3263380d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: f24befc1cab5ef28cbd69d6ad20b35a6e7eba512
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360281"
 ---
 # <a name="defaultevent-function"></a>Função DEFAULTEVENT
 
@@ -28,12 +28,12 @@ DEFAULTEVENT( )
 
 A tabela a seguir lista o evento padrão associado a vários objetos.
   
-|**Object**|**Evento padrão**|
+|**Objeto**|**Evento padrão**|
 |:-----|:-----|
 |Forma  <br/> |Editar texto.  <br/> |
-|Grupo  <br/> |Nada a fazer.  <br/> |
+|Grupo  <br/> |Não faça nada.  <br/> |
 |OLE  <br/> |Executar verbo primário.  <br/> |
-|Outro  <br/> |Nada a fazer.  <br/> |
+|Outros  <br/> |Nada a fazer.  <br/> |
    
 Em versões anteriores do Visio, essa função aparece como _DEFAULTEVENT e o evento padrão para um grupo é abrir uma janela de grupo. 
   

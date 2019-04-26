@@ -8,47 +8,47 @@ f1_keywords:
 - Vis_DSS.chm82251416
 localization_priority: Normal
 ms.assetid: 154d76a2-81f5-d8b1-b665-26dbae5da615
-description: Retorna um inteiro, de 1 a 366, representando o dia sequencial do ano em datetime ou expression. A função DAYOFYEAR utiliza o calendário gregoriano.
-ms.openlocfilehash: 2fd80a2554c268d276deaa524a9d98eebc6a48d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Retorna um inteiro, de 1 a 366, que representa o dia sequencial do ano em data e hora ou expressão. A função DAYOFYEAR usa o calendário Gregoriano.
+ms.openlocfilehash: 30c0331a57282baee97e81689b6a8f362581b8f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360288"
 ---
 # <a name="dayofyear-function"></a>Função DAYOFYEAR
 
-Retorna um inteiro, de 1 a 366, representando o dia sequencial do ano em _datetime_ ou _expression_. A função DAYOFYEAR utiliza o calendário gregoriano.
+Retorna um inteiro, de 1 a 366, que representa o dia sequencial do ano em   _ data e hora_ ou  _expressão_. A função DAYOFYEAR usa o calendário Gregoriano.
   
 ## <a name="syntax"></a>Sintaxe
 
-DAYOFYEAR ("* * *datetime* * *" | * * *expressão* * * [, * * *lcid* * *]) 
+DAYOFYEAR(" ** *datetime* ** "| ** *expressão* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica o identificador de local para ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Inteiro
   
 ## <a name="remarks"></a>Comentários
 
-Qualquer componente de hora em _datetime_ ou _expression_ é desconsiderado. 
+Qualquer componente de tempo em _datetime_ ou _expression_ é descartado. 
   
-O resultado corresponde à 1º de janeiro a 31 de dezembro. É feito nenhum arredondamento. Se _datetime_ estiver faltando ou não puder ser interpretada como uma data ou hora válida, a função retornará um erro. 
+O resultado corresponde de 1 de janeiro a 31 de dezembro. Não é feito nenhum arredondamento. Se _datetime_ estiver ausente ou não puder ser interpretado como uma data ou hora válida, a função retornará um erro. 
   
-A função DAYOFYEAR também aceita um valor de número único para _expression_ em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899. 
+A função DAYOFYEAR também aceita um único valor numérico para  _expressão_ em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899. 
   
 ## <a name="example-1"></a>Exemplo 1
 
 DAYOFYEAR("30 de maio de 1997 13:45:24")
   
-Retornará 150.
+Retorna 150.
   
 ## <a name="example-2"></a>Exemplo 2
 
@@ -58,7 +58,7 @@ Retornará 157.
   
 ## <a name="example-3"></a>Exemplo 3
 
-DAYOFYEAR(35580.6337)
+DAYOFYEAR (35580.6337)
   
 Retornará 150.
   

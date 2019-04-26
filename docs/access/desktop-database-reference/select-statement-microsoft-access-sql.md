@@ -1,5 +1,5 @@
 ---
-title: Instrução SELECT (Microsoft Access SQL)
+title: Declaração SELECT (SQL do Microsoft Access)
 TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
@@ -10,21 +10,21 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314634"
 ---
-# <a name="select-statement-microsoft-access-sql"></a>Instrução SELECT (Microsoft Access SQL)
+# <a name="select-statement-microsoft-access-sql"></a>Declaração SELECT (SQL do Microsoft Access)
 
-**Aplica-se a:** Access 2013 | Office 2013
+**Aplica-se ao:** Access 2013 | Office 2013
 
 Instrui o mecanismo de banco de dados do Microsoft Access a retornar informações do banco de dados como um conjunto de registros.
 
 ## <a name="syntax"></a>Sintaxe
 
-Selecione \[ *predicado* \] { \*  |  *tabela*.\*  |  \[ *tabela*. \] *field1* \[como *alias1* \] \[, \[ *tabela*. \] *field2* \[como *alias2* \] \[,... \] \]} De *tableexpression* \[,... \] \[Na *externaldatabase* \] \[onde … \]\[Agrupar por … \]\[HAVING … \]\[ORDER BY … \]\[Com OWNERACCESS OPTION\]
+SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] \[, \[*table*.\]*field2* \[AS *alias2*\] \[, …\]\]} FROM *tableexpression* \[, …\] \[IN *externaldatabase*\] \[WHERE… \] \[GROUP BY… \] \[HAVING… \] \[ORDER BY… \] \[WITH OWNERACCESS OPTION\]
 
 A declaração SELECT tem as seguintes partes:
 
@@ -42,7 +42,7 @@ A declaração SELECT tem as seguintes partes:
 <tbody>
 <tr class="odd">
 <td><p><em>predicate</em></p></td>
-<td><p>Um dos seguintes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. O predicado é usado para restringir o número de registros retornados. Se nenhum for especificado, o padrão é ALL.  </p></td>
+<td><p>Um dos seguintes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. O predicado é usado para restringir o número de registros retornados. Se nenhum for especificado, o padrão é ALL.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -66,7 +66,7 @@ A declaração SELECT tem as seguintes partes:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>O nome do banco de dados que contém as tabelas em <em>tableexpression</em> se elas não estiverem no banco de dados atual.</p></td>
+<td><p>O nome do banco de dados contendo as tabelas em <em>tableexpression</em>, caso não estejam no banco de dados atual.</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ A declaração SELECT tem as seguintes partes:
 
 ## <a name="remarks"></a>Comentários
 
-Para executar essa operação, o mecanismo de banco de dados Microsoft Jet procura a tabela ou tabelas especificadas, extrai as colunas escolhidas, seleciona linhas que atendam a critério e classifica ou agrupa as linhas resultantes na ordem especificada.
+Para executar esta operação, o mecanismo do banco de dados do Microsoft Jet pesquisa na tabela ou tabelas especificadas, extrai as colunas escolhidas, seleciona linhas que correspondam ao critério e classifica ou agrupa as linhas resultantes na ordem especificada.
 
 Declarações SELECT não alteram os dados no banco de dados.
 
@@ -82,7 +82,7 @@ SELECT é normalmente a primeira palavra em uma declaração SQL. A maior parte 
 
 A sintaxe mínima para uma declaração SELECT é:
 
-Selecione os *campos* de *tabela*
+SELECT *fields* FROM *table*
 
 Você pode usar um asterisco (\*) para selecionar todos os campos em uma tabela. O exemplo a seguir seleciona todos os campos na tabela de Funcionários:
 
@@ -114,7 +114,7 @@ AS HeadCount FROM Employees;
 
 Você pode usar as outras cláusulas em uma declaração SELECT para restringir e organizar melhor os seus dados retornados. Para saber mais, consulte o tópico de Ajuda para a cláusula que você está usando.
 
-**Links fornecidos por** a comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
+**Links fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
 
 - [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 

@@ -1,5 +1,5 @@
 ---
-title: Evento da macro Após Atualização
+title: Evento de macro Após Atualização
 TOCTitle: After Update macro event
 ms:assetid: 5213793b-8301-0f18-3a12-4e3764c879ac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193905(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a96b46fcc78c4f93887e487f52091a77da6c0d2f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297183"
 ---
-# <a name="after-update-macro-event"></a>Evento da macro Após Atualização
+# <a name="after-update-macro-event"></a>Evento de macro Após Atualização
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **After Update** ocorre após a alteração de um registro.
 
 > [!NOTE]
-> [!OBSERVAçãO] O evento **After Update** só está disponível em Macros de Dados.
+> O evento **After Update** só está disponível em Macros de Dados.
 
 ## <a name="remarks"></a>Comentários
 
 Use o evento **After Update** para executar todas as ações que você deseja que ocorram quando um registro for alterado. Os usos comuns para **After Insert** incluem impor regras comerciais, atualização de um total agregado e envio de notificações.
 
-Você pode usar a função **Updated("*Field Name*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
+Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
 
 ```vb 
  
@@ -43,7 +43,7 @@ End If
  
 ```
 
-Você pode acessar um valor anterior em um campo utilizando a sintaxe a seguir.
+Você pode usar o acesso ao valor anterior em um campo usando a sintaxe a seguir.
 
 `[Old].[Field Name]`
 
@@ -62,22 +62,22 @@ A tabela a seguir lista comandos de macro que podem ser usados no evento **After
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo de comando</p></th>
+<th><p>Tipo de Comando</p></th>
 <th><p>Comando</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Fluxo do programa</p></td>
-<td><p><a href="comment-macro-statement.md">Instrução de macro comentário</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Fluxo do programa</p></td>
-<td><p><a href="group-macro-statement.md">Instrução de macro grupo</a></p></td>
+<td><p>Fluxo do Programa</p></td>
+<td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Fluxo do programa</p></td>
-<td><p><a href="if-then-else-macro-block.md">Se... Então... Bloco de macro Else</a></p></td>
+<td><p>Fluxo do Programa</p></td>
+<td><p><a href="if-then-else-macro-block.md">Bloco de macro Se... Então... Senão</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloco de dados</p></td>
@@ -93,58 +93,58 @@ A tabela a seguir lista comandos de macro que podem ser usados no evento **After
 </tr>
 <tr class="odd">
 <td><p>Bloco de dados</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloco de dados Pesquisarregistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Bloco de dados PesquisarRegistro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">Ação de macro Cancelaralteraçãoderegistro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Ação de macro CancelarAlteraçãodeRegistro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Ação de macro Limparerrodemacro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Ação de macro LimparErrodaMacro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="deleterecord-macro-action.md">Ação de macro ExcluirRegistro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">Ação de macro SairParaCadaRegistro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">Ação de macro SairparaCadaRegistro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="logevent-macro-action.md">Ação de macro RegistrarEvento</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="raiseerror-macro-action.md">Ação de macro Gerarerro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="raiseerror-macro-action.md">Ação de macro GerarErro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="rundatamacro-macro-action.md">Ação de macro ExecutarMacrodeDados</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="sendemail-macro-action.md">Ação de macro EnviarEmail</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="setfield-macro-action.md">Ação de macro Definircampo</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="setfield-macro-action.md">Ação de macro DefinirCampo</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="stopallmacros-macro-action.md">Ação de macro PararTodasMacros</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
+<td><p>Ação de Dados</p></td>
 <td><p><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></p></td>
 </tr>
 </tbody>
@@ -163,7 +163,7 @@ Uma macro de dados vazia é exibida no designer de macros.
 
 O exemplo de código a seguir usa o evento **After Update** para executar uma macro de dados nomeada que adiciona um registro à tabela Comentário sempre que o status de um problema for atualizado.
 
-**Clique aqui para exibir uma cópia da macro que você pode colar no Designer de Macros.**
+**Clique aqui para exibir uma cópia de macro que você pode colar no Designer de Macros.**
 
 Para exibir este exemplo no designer de macros, use estas etapas:
 
