@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 9f73dfc49a6ec99b726a052c588c032783010081
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307522"
 ---
-# <a name="recordsetupdate-method-dao"></a><span data-ttu-id="a88f1-102">Método Recordset.Update (DAO)</span><span class="sxs-lookup"><span data-stu-id="a88f1-102">Recordset.Update method (DAO)</span></span>
+# <a name="recordsetupdate-method-dao"></a><span data-ttu-id="69904-102">Método Recordset.Update (DAO)</span><span class="sxs-lookup"><span data-stu-id="69904-102">Recordset.Update Method (DAO)</span></span>
 
-<span data-ttu-id="a88f1-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a88f1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69904-103">**Aplica-se ao**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69904-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a88f1-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a88f1-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="69904-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="69904-104">Syntax</span></span>
 
-<span data-ttu-id="a88f1-105">*expressão* . Atualização (***UpdateType***, ***Force***)</span><span class="sxs-lookup"><span data-stu-id="a88f1-105">*expression* .Update(***UpdateType***, ***Force***)</span></span>
+<span data-ttu-id="69904-105">*expressão* .Update(***UpdateType***, ***Forçar***)</span><span class="sxs-lookup"><span data-stu-id="69904-105">*expression* .Update(***UpdateType***, ***Force***)</span></span>
 
-<span data-ttu-id="a88f1-106">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="a88f1-106">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="69904-106">*expressão* Uma variável que representa um objeto **Conjunto de registros**.</span><span class="sxs-lookup"><span data-stu-id="69904-106">*expression*  A variable that represents a **Recordset** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="a88f1-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a88f1-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="69904-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="69904-107">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -35,55 +35,55 @@ ms.locfileid: "28721665"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a88f1-108">Nome</span><span class="sxs-lookup"><span data-stu-id="a88f1-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="a88f1-109">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="a88f1-109">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="a88f1-110">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="a88f1-110">Data type</span></span></p></th>
-<th><p><span data-ttu-id="a88f1-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="a88f1-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="69904-108">Nome</span><span class="sxs-lookup"><span data-stu-id="69904-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="69904-109">Necessário/opcional</span><span class="sxs-lookup"><span data-stu-id="69904-109">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="69904-110">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="69904-110">Data type</span></span></p></th>
+<th><p><span data-ttu-id="69904-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="69904-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a88f1-112"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="a88f1-112"><em>UpdateType</em></span></span></p></td>
-<td><p><span data-ttu-id="a88f1-113">Opcional</span><span class="sxs-lookup"><span data-stu-id="a88f1-113">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a88f1-114"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="a88f1-114"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="a88f1-115">Uma constante <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> indicando o tipo de atualização, como especificado em Configurações (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="a88f1-115">A <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> constant indicating the type of update, as specified in Settings (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="69904-112"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="69904-112"><em>UpdateType</em></span></span></p></td>
+<td><p><span data-ttu-id="69904-113">Opcional</span><span class="sxs-lookup"><span data-stu-id="69904-113">Optional</span></span></p></td>
+<td><p><span data-ttu-id="69904-114"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="69904-114"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="69904-115">Uma constante <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> indicando o tipo de atualização, como especificado em Configurações (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="69904-115">A <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> constant indicating the type of update, as specified in Settings (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a88f1-116"><em>Force</em></span><span class="sxs-lookup"><span data-stu-id="a88f1-116"><em>Force</em></span></span></p></td>
-<td><p><span data-ttu-id="a88f1-117">Opcional</span><span class="sxs-lookup"><span data-stu-id="a88f1-117">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a88f1-118"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="a88f1-118"><strong>Boolean</strong></span></span></p></td>
-<td><p><span data-ttu-id="a88f1-p101">Um valor <strong>Boolean</strong> indicando se é preciso impor ou não as alterações ao banco de dados, independentemente de os dados subjacentes terem sido alterados por outro usuário desde a chamada <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong> ou <strong><a href="recordset-edit-method-dao.md">Edit</a></strong>. Se for <strong>True</strong>, as alterações serão impostas e as alterações feitas por outros usuários serão simplesmente substituídas. Se for <strong>False</strong> (padrão), as alterações feitas por outro usuário enquanto a atualização estiver pendente causarão uma falha na atualização para as alterações que estiverem em conflito. Nenhum erro ocorrerá, mas as propriedades <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> e <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> indicarão o número de conflitos e as linhas afetadas por conflitos, respectivamente (somente espaços de trabalho ODBCDirect).  </span><span class="sxs-lookup"><span data-stu-id="a88f1-p101">A <strong>Boolean</strong> value indicating whether or not to force the changes into the database, regardless of whether the underlying data has been changed by another user since the <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong>, or <strong><a href="recordset-edit-method-dao.md">Edit</a></strong> call. If <strong>True</strong>, the changes are forced and changes made by other users are simply overwritten. If <strong>False</strong> (default), changes made by another user while the update is pending will cause the update to fail for those changes that are in conflict. No error occurs, but the <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> and <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> properties will indicate the number of conflicts and the rows affected by conflicts, respectively (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="69904-116"><em>Força</em></span><span class="sxs-lookup"><span data-stu-id="69904-116"><em>Force</em></span></span></p></td>
+<td><p><span data-ttu-id="69904-117">Opcional</span><span class="sxs-lookup"><span data-stu-id="69904-117">Optional</span></span></p></td>
+<td><p><span data-ttu-id="69904-118"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="69904-118"><strong>Boolean</strong></span></span></p></td>
+<td><p><span data-ttu-id="69904-p101">Um valor <strong>Boolean</strong> indicando se é preciso impor ou não as alterações ao banco de dados, independentemente de os dados subjacentes terem sido alterados por outro usuário desde a chamada <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong> ou <strong><a href="recordset-edit-method-dao.md">Edit</a></strong>. Se for <strong>True</strong>, as alterações serão impostas e as alterações feitas por outros usuários serão simplesmente substituídas. Se for <strong>False</strong> (padrão), as alterações feitas por outro usuário enquanto a atualização estiver pendente causarão uma falha na atualização para as alterações que estiverem em conflito. Nenhum erro ocorrerá, mas as propriedades <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> e <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> indicarão o número de conflitos e as linhas afetadas por conflitos, respectivamente (somente espaços de trabalho ODBCDirect).  </span><span class="sxs-lookup"><span data-stu-id="69904-p101">A <strong>Boolean</strong> value indicating whether or not to force the changes into the database, regardless of whether the underlying data has been changed by another user since the <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong>, or <strong><a href="recordset-edit-method-dao.md">Edit</a></strong> call. If <strong>True</strong>, the changes are forced and changes made by other users are simply overwritten. If <strong>False</strong> (default), changes made by another user while the update is pending will cause the update to fail for those changes that are in conflict. No error occurs, but the <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> and <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> properties will indicate the number of conflicts and the rows affected by conflicts, respectively (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="a88f1-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="a88f1-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69904-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="69904-123">Remarks</span></span>
 
-<span data-ttu-id="a88f1-124">Use **Update** para salvar o registro atual e quaisquer alterações feitas nele.</span><span class="sxs-lookup"><span data-stu-id="a88f1-124">Use **Update** to save the current record and any changes you've made to it.</span></span>
+<span data-ttu-id="69904-124">Use **Update** para salvar o registro atual e todas as alterações feitas nele.</span><span class="sxs-lookup"><span data-stu-id="69904-124">Use **Update** to save the current record and any changes you've made to it.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a88f1-125">[!IMPORTANTE] As alterações do registro atual serão perdidas se:</span><span class="sxs-lookup"><span data-stu-id="a88f1-125">Changes to the current record are lost if:</span></span>
-> - <span data-ttu-id="a88f1-126">Você utilizar os métodos **Edit** ou **AddNew** e mover para outro registro sem primeiro usar **Update**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-126">You use the **Edit** or **AddNew** method, and then move to another record without first using **Update**.</span></span>
-> - <span data-ttu-id="a88f1-127">Você utilizar **Edit** ou **AddNew** e, em seguida, usar **Edit** ou **AddNew** novamente sem primeiro usar **Update**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-127">You use **Edit** or **AddNew**, and then use **Edit** or **AddNew** again without first using **Update**.</span></span>
-> - <span data-ttu-id="a88f1-128">Você definir a propriedade **[Bookmark](recordset-bookmark-property-dao.md)** para outro registro.</span><span class="sxs-lookup"><span data-stu-id="a88f1-128">You set the **[Bookmark](recordset-bookmark-property-dao.md)** property to another record.</span></span>
-> - <span data-ttu-id="a88f1-129">Você fechar o **Recordset** sem usar primeiro **Update**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-129">You close the **Recordset** without first using **Update**.</span></span>
-> - <span data-ttu-id="a88f1-130">Você cancelar a operação **Edit** utilizando **[CancelUpdate](recordset-cancelupdate-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-130">You cancel the **Edit** operation by using **[CancelUpdate](recordset-cancelupdate-method-dao.md)**.</span></span>
+> <span data-ttu-id="69904-125">As alterações do registro atual serão perdidas se:</span><span class="sxs-lookup"><span data-stu-id="69904-125">Changes to the current record are lost if:</span></span>
+> - <span data-ttu-id="69904-126">Você utilizar os métodos **Edit** ou **AddNew** e mover para outro registro sem primeiro usar **Update**.</span><span class="sxs-lookup"><span data-stu-id="69904-126">You use the **Edit** or **AddNew** method, and then move to another record without first using **Update**.</span></span>
+> - <span data-ttu-id="69904-127">Você utilizar **Edit** ou **AddNew** e, em seguida, usar **Edit** ou **AddNew** novamente sem primeiro usar **Update**.</span><span class="sxs-lookup"><span data-stu-id="69904-127">You use **Edit** or **AddNew**, and then use **Edit** or **AddNew** again without first using **Update**.</span></span>
+> - <span data-ttu-id="69904-128">Você definir a propriedade **[Bookmark](recordset-bookmark-property-dao.md)** para outro registro.</span><span class="sxs-lookup"><span data-stu-id="69904-128">You set the **[Bookmark](recordset-bookmark-property-dao.md)** property to another record.</span></span>
+> - <span data-ttu-id="69904-129">Você fechar o **Recordset** sem usar primeiro **Update**.</span><span class="sxs-lookup"><span data-stu-id="69904-129">You close the **Recordset** without first using **Update**.</span></span>
+> - <span data-ttu-id="69904-130">Você cancelar a operação **Edit** utilizando **[CancelUpdate](recordset-cancelupdate-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="69904-130">You cancel the **Edit** operation by using **[CancelUpdate](recordset-cancelupdate-method-dao.md)**.</span></span>
 
-<span data-ttu-id="a88f1-p102">Para editar um registro, use o método **Edit** para copiar o conteúdo do registro atual para um buffer de cópia. Se você não usar **Edit** primeiro, ocorrerá um erro ao usar **Update** ou tentar alterar um valor de campo.</span><span class="sxs-lookup"><span data-stu-id="a88f1-p102">To edit a record, use the **Edit** method to copy the contents of the current record to the copy buffer. If you don't use **Edit** first, an error occurs when you use **Update** or attempt to change a field's value.</span></span>
+<span data-ttu-id="69904-p102">Para editar um registro, use o método **Edit** para copiar o conteúdo do registro atual para um buffer de cópia. Se você não usar **Edit** primeiro, ocorrerá um erro ao usar **Update** ou tentar alterar um valor de campo.</span><span class="sxs-lookup"><span data-stu-id="69904-p102">To edit a record, use the **Edit** method to copy the contents of the current record to the copy buffer. If you don't use **Edit** first, an error occurs when you use **Update** or attempt to change a field's value.</span></span>
 
-<span data-ttu-id="a88f1-133">Em um espaço de trabalho ODBCDirect, você pode fazer atualizações em lote, desde que a biblioteca de cursores aceite atualizações em lote, e o **Recordset** tenha sido aberto com a opção de bloqueio de lote otimista.</span><span class="sxs-lookup"><span data-stu-id="a88f1-133">In an ODBCDirect workspace, you can do batch updates, provided the cursor library supports batch updates, and the **Recordset** was opened with the optimistic batch locking option.</span></span>
+<span data-ttu-id="69904-133">Em um espaço de trabalho ODBCDirect, você pode fazer atualizações em lote, desde que a biblioteca de cursores aceite atualizações em lote, e o **Recordset** tenha sido aberto com a opção de bloqueio de lote otimista.</span><span class="sxs-lookup"><span data-stu-id="69904-133">In an ODBCDirect workspace, you can do batch updates, provided the cursor library supports batch updates, and the **Recordset** was opened with the optimistic batch locking option.</span></span>
 
-<span data-ttu-id="a88f1-134">Em um espaço de trabalho do Microsoft Access, quando a configuração da propriedade **LockEdits** do objeto **Recordset** é **True** (bloqueado de forma pessimista) em um ambiente de vários usuários, o registro permanece bloqueado desde o momento em que **Edit** é usado até que o método **Update** seja executado ou a edição seja cancelada.</span><span class="sxs-lookup"><span data-stu-id="a88f1-134">In a Microsoft Access workspace, when the **Recordset** object's **LockEdits** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the **Update** method is executed or the edit is canceled.</span></span> <span data-ttu-id="a88f1-135">Se a configuração da propriedade **LockEdits** é **False** (bloqueado de forma otimista), o registro é bloqueado e comparado ao registro pré-editado antes de ser atualizado no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="a88f1-135">If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it is updated in the database.</span></span> 
+<span data-ttu-id="69904-134">Em um espaço de trabalho do Microsoft Access, quando a configuração da propriedade **LockEdits** do objeto **Recordset** é **True** (bloqueado de forma pessimista) em um ambiente de vários usuários, o registro permanece bloqueado desde o momento em que **Edit** é usado até que o método **Update** seja executado ou a edição seja cancelada.</span><span class="sxs-lookup"><span data-stu-id="69904-134">In a Microsoft Access workspace, when the **Recordset** object's **LockEdits** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the **Update** method is executed or the edit is canceled.</span></span> <span data-ttu-id="69904-135">Se a configuração da propriedade **LockEdits** é **False** (bloqueado de forma otimista), o registro é bloqueado e comparado ao registro pré-editado antes de ser atualizado no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="69904-135">If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it is updated in the database.</span></span> 
 
-<span data-ttu-id="a88f1-136">Se o registro foi alterado desde o uso do método **Edit**, a operação **Update** falhará.</span><span class="sxs-lookup"><span data-stu-id="a88f1-136">If the record has changed since you used the **Edit** method, the **Update** operation fails.</span></span> <span data-ttu-id="a88f1-137">Os bancos de dados ODBC e ISAM instalável conectados ao mecanismo de banco de dados do Microsoft Access sempre utilizam bloqueio otimista.</span><span class="sxs-lookup"><span data-stu-id="a88f1-137">Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span> <span data-ttu-id="a88f1-138">Para continuar a operação **Update** com suas alterações, use o método **Update** novamente.</span><span class="sxs-lookup"><span data-stu-id="a88f1-138">To continue the **Update** operation with your changes, use the **Update** method again.</span></span> <span data-ttu-id="a88f1-139">Para reverter para o registro como o outro usuário alterou, atualize o registro atual por meio de movimentação 0.</span><span class="sxs-lookup"><span data-stu-id="a88f1-139">To revert to the record as the other user changed it, refresh the current record by using Move 0.</span></span>
+<span data-ttu-id="69904-136">Se o registro foi alterado desde o uso do método **Edit**, a operação **Update** falhará.</span><span class="sxs-lookup"><span data-stu-id="69904-136">If the record has changed since you used the **Edit** method, the **Update** operation fails.</span></span> <span data-ttu-id="69904-137">Os bancos de dados ODBC e ISAM instalável conectados ao mecanismo de banco de dados do Microsoft Access sempre utilizam bloqueio otimista.</span><span class="sxs-lookup"><span data-stu-id="69904-137">Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span> <span data-ttu-id="69904-138">Para continuar a operação **Update** com suas alterações, use o método **Update** novamente.</span><span class="sxs-lookup"><span data-stu-id="69904-138">To continue the **Update** operation with your changes, use the **Update** method again.</span></span> <span data-ttu-id="69904-139">Para reverter para o registro de acordo com o que outro usuário tenha alterado, atualize o registro atual usando Mover 0.</span><span class="sxs-lookup"><span data-stu-id="69904-139">To revert to the record as the other user changed it, refresh the current record by using Move 0.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a88f1-p105">[!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro na fonte de dados subjacente. Caso contrário, ocorrerá um erro de "Permissão negada" na chamada ao método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access ou um erro de "Argumento inválido" ocorrerá na chamada a **Update** em um espaço de trabalho ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="a88f1-p105">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **AddNew**, **Delete**, or **Edit** method call in a Microsoft Access workspace, or an "Invalid argument" error will occur on the **Update** call in an ODBCDirect workspace.</span></span>
+> <span data-ttu-id="69904-p105">Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro, na fonte de dados de base. Se não houver, um erro "Permissão negada" ocorrerá na chamada do método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access, ou um erro "Argumento inválido" ocorrerá na chamada **Update** em um espaço de trabalho ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="69904-p105">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **AddNew**, **Delete**, or **Edit** method call in a Microsoft Access workspace, or an "Invalid argument" error will occur on the **Update** call in an ODBCDirect workspace.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a88f1-142">Exemplo</span><span class="sxs-lookup"><span data-stu-id="a88f1-142">Example</span></span>
+## <a name="example"></a><span data-ttu-id="69904-142">Exemplo</span><span class="sxs-lookup"><span data-stu-id="69904-142">Example</span></span>
 
-<span data-ttu-id="a88f1-143">Este exemplo demonstra o método **Update** em conjunto com o método **Edit**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-143">This example demonstrates the **Update** method in conjunction with **Edit** method.</span></span>
+<span data-ttu-id="69904-143">Este exemplo demonstra o método **Update** em conjunto com o método **Edit**.</span><span class="sxs-lookup"><span data-stu-id="69904-143">This example demonstrates the **Update** method in conjunction with **Edit** method.</span></span>
 
 ```vb
     Sub UpdateX() 
@@ -144,7 +144,7 @@ ms.locfileid: "28721665"
 
 <br/>
 
-<span data-ttu-id="a88f1-144">Este exemplo demonstra o método **Update** em conjunto com o método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="a88f1-144">This example demonstrates the **Update** method in conjunction with the **AddNew** method.</span></span>
+<span data-ttu-id="69904-144">Este exemplo demonstra o método **Update** em conjunto com o método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="69904-144">This example demonstrates the **Update** method in conjunction with the **AddNew** method.</span></span>
 
 ```vb
     Sub UpdateX2() 
@@ -193,7 +193,7 @@ ms.locfileid: "28721665"
 
 <br/>
 
-<span data-ttu-id="a88f1-145">Este exemplo usa a propriedade **BatchCollisionCount** e o método **Update** para demonstrar a atualização em lote onde todas as colisões são resolvidas pela imposição da atualização em lote.</span><span class="sxs-lookup"><span data-stu-id="a88f1-145">This example uses the **BatchCollisionCount** property and the **Update** method to demonstrate batch updating where any collisions are resolved by forcing the batch update.</span></span>
+<span data-ttu-id="69904-145">Este exemplo usa a propriedade **BatchCollisionCount** e o método **Update** para demonstrar a atualização em lote onde todas as colisões são resolvidas pela imposição da atualização em lote.</span><span class="sxs-lookup"><span data-stu-id="69904-145">This example uses the **BatchCollisionCount** property and the **Update** method to demonstrate batch updating where any collisions are resolved by forcing the batch update.</span></span>
 
 ```vb 
 Sub BatchX() 
@@ -263,7 +263,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="a88f1-p106">Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="a88f1-p106">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
+<span data-ttu-id="69904-p106">Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="69904-p106">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
 
 ```vb
     Sub AddNewX() 
