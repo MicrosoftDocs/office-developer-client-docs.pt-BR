@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: Contém linhas que descrevem itens de menu em um menu de atalho ou marca de ação de uma forma ou página.
 ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/26/2019
 ms.locfileid: "32356417"
 ---
 # <a name="row-element-actions-section-visio-xml"></a>Elemento Row (seção Actions) (' Visio XML ')
