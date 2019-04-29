@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a9b8efcf-edc0-ad99-deae-21df16c58807
 description: Retorna a largura do texto redigido em uma forma.
 ms.openlocfilehash: 43848bba4d24a0c31a3a084d123cd56140bf0709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422030"
 ---
 # <a name="textwidth-function"></a>Função TEXTWIDTH
 
@@ -26,14 +26,14 @@ TextWIDTH (* * *shapename! O texto* * * * * *[, MaximumWidth]* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _shapename! o texto_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
-| _MaximumWidth_ <br/> |Opcional  <br/> |**Numeric** <br/> |A largura máxima de um bloco de texto.  <br/> |
+| _shapename! o texto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
+| _MaximumWidth_ <br/> |Opcional  <br/> |**Numérica** <br/> |A largura máxima de um bloco de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

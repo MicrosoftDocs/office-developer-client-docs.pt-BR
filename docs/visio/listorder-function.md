@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 55ffcfa8-57fd-dbce-e551-8584660e33fa
 description: Retorna a posição baseada em 1 da forma na lista.
 ms.openlocfilehash: 21f2057c4027735902a127ef16f94d6ed3f69568
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335701"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423927"
 ---
 # <a name="listorder-function"></a>Função LISTORDER
 

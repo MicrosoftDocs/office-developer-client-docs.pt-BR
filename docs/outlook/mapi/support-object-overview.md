@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 55d8a9c78ae5132eaa8cf0f0aec5b252ef83b926
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327164"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433609"
 ---
 # <a name="support-object-overview"></a>Visão geral do objeto support
 

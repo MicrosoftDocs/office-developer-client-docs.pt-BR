@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7
 description: Retorna o valor da expressão especificada para a potência especificada.
 ms.openlocfilehash: 15d69ba97b1195f0dc39baaa52575154ef6d46ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423990"
 ---
 # <a name="power-function-access-custom-web-app"></a>Função Power (aplicativo Web personalizado do Access)
 

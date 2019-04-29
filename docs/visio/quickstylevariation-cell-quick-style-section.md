@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: Determina se as fórmulas e os valores de texto, linha e cor de preenchimento devem ser substituídos (ou uma combinação dessas propriedades) usando as cores que contrastam com o plano de fundo do diagrama. O valor é um bit a bit ou de 0, 1, 2, 4 e 8.
 ms.openlocfilehash: 736e2287c00c24774ef8b677613235d642697f4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433791"
 ---
 # <a name="quickstylevariation-cell-quick-style-section"></a>Célula QuickStyleVariation (seção Quick Style)
 
@@ -23,8 +23,8 @@ Determina se as fórmulas e os valores de texto, linha e cor de preenchimento de
 |,0  <br/> |Não altere o texto, a linha ou a cor de preenchimento de uma forma (ou qualquer combinação dessas propriedades) para permanecer visível em relação à cor de plano de fundo específica de um tema.  <br/> |
 |1  <br/> |Não altere o texto, a linha ou a cor de preenchimento de uma forma (ou qualquer combinação dessas propriedades) para permanecer visível em relação à cor de plano de fundo específica de um tema.  <br/> |
 |duas  <br/> |Alterar a cor do texto de uma forma, se necessário, para permanecer visível em relação à cor de plano de fundo determinada de um tema.  <br/> |
-|quatro  <br/> |Altera a cor da linha de uma forma, se necessário, para permanecer visível em relação à cor de plano de fundo dada de um tema.  <br/> |
-|8  <br/> |Alterar a cor de preenchimento de uma forma, se necessário, para permanecer visível em relação à cor de plano de fundo determinada de um tema.  <br/> |
+|4   <br/> |Altera a cor da linha de uma forma, se necessário, para permanecer visível em relação à cor de plano de fundo dada de um tema.  <br/> |
+|8   <br/> |Alterar a cor de preenchimento de uma forma, se necessário, para permanecer visível em relação à cor de plano de fundo determinada de um tema.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -43,7 +43,7 @@ Para obter uma referência para a célula **QuickStyleVariation** pelo índice a
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowQuickStyleProperties** <br/> |
+|Índice de linha:  <br/> |**visRowQuickStyleProperties** <br/> |
 |Índice da célula:  <br/> |**visQuickStyleVariation** <br/> |
    
 

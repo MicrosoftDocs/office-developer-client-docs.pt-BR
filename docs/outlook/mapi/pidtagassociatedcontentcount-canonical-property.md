@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339918"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421316"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriedade canônica PidTagAssociatedContentCount
 
@@ -32,7 +32,7 @@ Contém a contagem de itens na tabela de conteúdo associada da pasta.
 |Propriedades associadas:  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificador:  <br/> |0x3617  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

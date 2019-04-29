@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
 description: Modifica a ordenação da categoria especificada de contas.
 ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422856"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 

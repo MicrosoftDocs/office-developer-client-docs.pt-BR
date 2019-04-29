@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b98c5bf3-10c8-7299-2836-3906d6a9135d
 description: Determina a largura da página impressa em unidades de desenho.
 ms.openlocfilehash: 6d887cb4335d2725101db54ba2b1483ccf01cff4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327367"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434267"
 ---
 # <a name="pagewidth-cell-page-properties-section"></a>Célula PageWidth (Seção Page Properties)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula PageWidth pelo índice a partir de um 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPage** <br/> |
-|Índice da célula:  <br/> |**visPageWidth** <br/> |
+|Índice de linha:  <br/> |**visRowPage** <br/> |
+|Índice de célula:  <br/> |**visPageWidth** <br/> |
    
 

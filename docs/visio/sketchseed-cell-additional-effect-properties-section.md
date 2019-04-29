@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Representa um valor de randomização usado para determinar a geometria de um efeito de esboço, como um inteiro positivo. O valor da célula SketchSeed é criado aleatoriamente quando um efeito de esboço é aplicado à forma.
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315145"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434393"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>Célula SketchSeed (seção Additional Effect Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **SketchSeed** pelo índice a partir d
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
 | Índice da célula:  <br/> |**visSketchSeed** <br/> |
    
 

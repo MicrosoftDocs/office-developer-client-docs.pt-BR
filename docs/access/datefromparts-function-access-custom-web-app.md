@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: Retorna um valor de data para o ano, mês e dia especificados.
 ms.openlocfilehash: 7d47fe93d1990365f1db5885a3ea8fc056aabb9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423220"
 ---
 # <a name="datefromparts-function-access-custom-web-app"></a>Função DateFromParts (aplicativo Web personalizado do Access)
 

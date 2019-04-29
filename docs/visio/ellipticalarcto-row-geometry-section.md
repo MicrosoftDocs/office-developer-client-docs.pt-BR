@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
 description: Contém as coordenadas x e y de um ponto de extremidade de um arco elíptico, as coordenadas x e y dos pontos de controle no arco, o ângulo do eixo x para o eixo principal da elipse e a proporção entre os eixos principal e secundário da elipse.
 ms.openlocfilehash: c6db7560a05652ca3bfcadb2fd4857ac39370562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345672"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421400"
 ---
 # <a name="ellipticalarcto-row-geometry-section"></a>Linha EllipticalArcTo (Seção Geometry)
 
@@ -22,7 +22,7 @@ Contém as coordenadas *x* e *y* de um ponto de extremidade de um arco elíptico
   
 Uma linha EllipticalArcTo contém as células a seguir.
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final em um arco.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final em um arco.  <br/> |

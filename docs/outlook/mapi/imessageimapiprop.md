@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332869"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432496"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
@@ -52,7 +52,7 @@ Gerencia mensagens, anexos e destinatários.
    
 As propriedades a seguir são necessárias em mensagens em algum momento durante o ciclo de vida. A maioria das propriedades somente leitura é definida pelo provedor de armazenamento de mensagens quando um cliente chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de uma mensagem. Outras propriedades somente leitura são definidas pelo provedor de transporte. 
   
-|**Propriedades necessárias para mensagens de todas as classes**|**Access**|
+|**Propriedades necessárias para mensagens de todas as classes**|**Acesso**|
 |:-----|:-----|
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |Somente leitura  <br/> |
@@ -102,7 +102,7 @@ As propriedades a seguir são somente leitura para clientes, com exceção de **
 |Propriedades **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propriedades para destinatários da mensagem**|**Access**|**Obrigatório ou opcional**|
+|**Propriedades para destinatários da mensagem**|**Acesso**|**Obrigatório ou opcional**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Somente leitura  <br/> |Obrigatório  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Leitura/gravação  <br/> |Obrigatório  <br/> |

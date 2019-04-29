@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
 description: Retorna TRUE (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
 ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337209"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433504"
 ---
 # <a name="or-function"></a>Função OR
 
@@ -26,11 +26,11 @@ ou (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logical
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
-| _logicalexpression2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
-| _logicalexpressionN_ <br/> |Obrigatório  <br/> |**String** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression2_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpressionN_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: df98bcca-152b-49f2-b4e1-35d68008fb8f
 description: Retorna o último dia do mês antes ou o número de meses especificado.
 ms.openlocfilehash: 87a837069be223fdd2f9c809d706782e0955e2aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302553"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437452"
 ---
 # <a name="eomonth-function-access-custom-web-app"></a>Função FIMMÊS (aplicativo Web personalizado do Access)
 

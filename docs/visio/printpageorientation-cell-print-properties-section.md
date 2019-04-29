@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Determina se a página será impressa na orientação retrato ou paisagem.
 ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315180"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434862"
 ---
 # <a name="printpageorientation-cell-print-properties-section"></a>Célula PrintPageOrientation (Seção Print Properties)
 
@@ -41,7 +41,7 @@ Para fazer referência à célula PrintPageOrientation pelo índice a partir de 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesPageOrientation** <br/> |
    
 

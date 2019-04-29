@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 94a16356-68ad-4c47-04f9-b7a81e99e61d
 description: Retorna um número inteiro que coincida com a versão principal do aplicativo Microsoft Visio ativo no momento.
 ms.openlocfilehash: 6f7f19fd0e59b1d808300c3d9fbe39eedee2ef4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357824"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434106"
 ---
 # <a name="version-function"></a>Função VERSION
 

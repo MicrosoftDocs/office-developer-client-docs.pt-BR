@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: Você pode usar o bloco de macro Se para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão.
 ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304260"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434491"
 ---
 # <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Bloco de macro else (aplicativo Web personalizado do Access)
 
@@ -33,13 +33,13 @@ Else
 End If
 ```
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 Para **Se** e ** Senão Se **, os seguintes argumentos são requeridos. 
   
 |**Argumento da ação**|**Descrição**|
 |:-----|:-----|
-|**Expressão** <br/> |A condição que você deseja testar. Deve ser uma expressão que avalia como True ou False.  <br/> |
+|**Expressão**. <br/> |A condição que você deseja testar. Deve ser uma expressão que avalia como True ou False.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

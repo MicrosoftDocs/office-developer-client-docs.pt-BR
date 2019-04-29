@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
 description: Especifica o método de autenticação a ser usado para a conta SMTP.
 ms.openlocfilehash: bb5adeb1fe73ed8b7ab69ca584215b44e1a9e4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326499"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434638"
 ---
 # <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
 

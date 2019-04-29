@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 94e412f2f542298adcedf4414c19b5303330cf2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434596"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 

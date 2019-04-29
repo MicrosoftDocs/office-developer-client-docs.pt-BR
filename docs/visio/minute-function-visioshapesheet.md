@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
 description: Retorna um inteiro de 0 a 59 que representa o componente de minutos de DateTime ou expressão.
 ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283969"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436563"
 ---
 # <a name="minute-function-visioshapesheet"></a>Função MINUTE (VisioShapeSheet)
 
@@ -26,10 +26,10 @@ MINUTE (" *DateTime* " |  *expressão*  [, *LCID* ])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

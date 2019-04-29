@@ -9,11 +9,11 @@ api_type:
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 329841a49154763a3e73a234e28def149719cb08
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435975"
 ---
 # <a name="required-properties-for-all-messages"></a>Propriedades necessárias para todas as mensagens
 
@@ -23,7 +23,7 @@ ms.locfileid: "32328718"
   
 A tabela a seguir descreve as propriedades que os clientes podem esperar para definir ou ver suporte em mensagens de todas as classes.
   
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**PR_CREATION_TIME** [Propriedade canônica PidTagCreationTime](pidtagcreationtime-canonical-property.md) ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Definido por provedores de repositório de mensagens em mensagens de saída.  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |Definido por provedores de repositório de mensagens em mensagens de saída.  <br/> |

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: efa2d6ab9edbd50634093b5185ef9036689f1379
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339386"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433595"
 ---
 # <a name="setting-transport-order"></a>Configuração da ordem de transporte
 

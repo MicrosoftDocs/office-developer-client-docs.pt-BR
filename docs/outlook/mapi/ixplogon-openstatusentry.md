@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d9e09de1064a0ae034bb3618f0e5b3719a82c163
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356025"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435898"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 

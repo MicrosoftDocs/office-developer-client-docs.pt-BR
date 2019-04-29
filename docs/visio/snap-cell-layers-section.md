@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c1b24e45-6f08-686b-b53d-e85fb9087a50
 description: Determina se outras formas podem ser ajustadas a formas atribuídas à camada. Formas atribuídas à camada podem ser ajustadas a outras formas, mas o contrário não ocorre.
 ms.openlocfilehash: 87e7e7500469fb7f8c7fdd4771a0225d0e4fc993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359805"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434841"
 ---
 # <a name="snap-cell-layers-section"></a>Célula Snap (Seção Layers)
 
@@ -22,7 +22,7 @@ Determina se outras formas podem ser ajustadas a formas atribuídas à camada. F
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Outras formas podem ser ajustadas a formas na camada.  <br/> |
+|VERDADEIRO  <br/> |Outras formas podem ser ajustadas a formas na camada.  <br/> |
 |FALSE  <br/> |Outras formas não podem ser ajustadas a formas na camada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para obter uma referência para a célula Snap pelo índice, a partir de um prog
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice da linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visLayerSnap** <br/> |
    
 

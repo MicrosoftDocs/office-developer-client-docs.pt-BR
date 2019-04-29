@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: Determina o ajuste a um grupo ou a formas no grupo.
 ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317896"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421442"
 ---
 # <a name="issnaptarget-cell-group-properties-section"></a>Célula IsSnapTarget (Seção Group Properties)
 
@@ -22,7 +22,7 @@ Determina o ajuste a um grupo ou a formas no grupo.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Permite ajustar a formas no grupo.  <br/> |
+|VERDADEIRO  <br/> |Permite ajustar a formas no grupo.  <br/> |
 |FALSE  <br/> |Permite ajustar somente ao grupo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para obter uma referência para a célula IsSnapTarget pelo índice a partir de 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowGroup** <br/> |
-|Índice da célula:  <br/> |**visGroupIsSnapTarget** <br/> |
+|Índice de linha:  <br/> |**visRowGroup** <br/> |
+|Índice de célula:  <br/> |**visGroupIsSnapTarget** <br/> |
    
 

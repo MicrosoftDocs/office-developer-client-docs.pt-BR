@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: As seções a seguir descrevem cenários de solução de problemas comuns que você pode encontrar ao criar e depurar modelos de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003 fornecido pelo Microsoft. Office. Interop. InfoPath. SemiTrust namespace.
 ms.openlocfilehash: 106f12602bae86d85c2a7d2f920f59d50326c908
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436521"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-design-time"></a>Solucionar problemas de modelos de formulário que usam o modelo de objeto do InfoPath no tempo de design
 

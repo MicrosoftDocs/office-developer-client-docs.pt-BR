@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a5cde2ca-f343-4a6e-b5d9-a1b78b3cd240
 description: Determina o tamanho de um efeito de borda suave, em pontos de 0, 0 a 100, 0. Se a célula SoftEdgesSize tiver um valor de 0, a forma não terá bordas suaves.
 ms.openlocfilehash: e749fefde8e0358cbf4ab8388a61ad703c7d52ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334535"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435912"
 ---
 # <a name="softedgessize-cell-additional-effect-properties-section"></a>Célula SoftEdgesSize (seção Additional Effect Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **SoftEdgesSize** pelo índice a parti
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
 | Índice da célula:  <br/> |**visSoftEdgesSize** <br/> |
    
 

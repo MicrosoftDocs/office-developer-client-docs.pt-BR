@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 92c7a09d9d608ac31920d49b20f78bedd26f5fcd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317105"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421218"
 ---
 # <a name="ipm-subtree"></a>SubÁrvore IPM
 

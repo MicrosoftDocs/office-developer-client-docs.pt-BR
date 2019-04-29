@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: Determina a distância entre a borda direita do bloco de texto e o texto contido nele. O padrão é 0,1 polegada.
 ms.openlocfilehash: 7a9d2406792e9e57c6acd0e4291b624633e70dcb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326772"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433518"
 ---
 # <a name="rightmargin-cell-text-block-format-section"></a>Célula RightMargin (Seção Text Block Format)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula RightMargin pelo índice a partir de um progra
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowText** <br/> |
+| Índice de linha:  <br/> |**visRowText** <br/> |
 | Índice da célula:  <br/> |**visTxtBlkRightMargin** <br/> |
    
 

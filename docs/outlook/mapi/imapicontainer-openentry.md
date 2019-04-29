@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9598e0c90c16db14cdc3a46d2b2ae74e0d9a9300
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286929"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423633"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 

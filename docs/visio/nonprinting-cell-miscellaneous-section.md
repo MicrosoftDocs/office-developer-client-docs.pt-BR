@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: Alterna entre imprimir ou não a forma selecionada.
 ms.openlocfilehash: c3e1fc1b2d91fa4808f8ea89c904218c2236f5b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437256"
 ---
 # <a name="nonprinting-cell-miscellaneous-section"></a>Célula NonPrinting (Seção Miscellaneous)
 
@@ -22,7 +22,7 @@ Alterna entre imprimir ou não a forma selecionada.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Impressão desativada, mas a forma será exibida na janela de desenho.  <br/> |
+| VERDADEIRO  <br/> | Impressão desativada, mas a forma será exibida na janela de desenho.  <br/> |
 | FALSE  <br/> | Impressão ativada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para fazer referência à célula NonPrinting pelo índice a partir de um progra
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visNonPrinting** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visNonPrinting** <br/> |
    
 

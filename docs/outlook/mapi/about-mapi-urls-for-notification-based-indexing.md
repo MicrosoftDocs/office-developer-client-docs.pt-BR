@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Última modificação: 08 de novembro de 2011'
 ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422478"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Sobre URLs MAPI para indexação baseada em notificação
 
@@ -23,7 +23,7 @@ Quando um provedor de armazenamento notifica um indexador de que um objeto está
 
 A tabela a seguir descreve as várias partes de uma URL típica.
 
-|Parte | Descrição|
+|Sair | Descrição|
 |:----|:-----------|  
 |*Identifica* |O identificador de segurança do usuário atual.| 
 |*StoreDisplayName* |Uma cadeia de caracteres que especifica o nome de exibição do usuário no repositório.|
@@ -79,10 +79,10 @@ WCHAR  wszProviderItemID
 
 O provedor de repositório deve gravar esses valores no BLOB na ordem mostrada. A tabela a seguir descreve cada campo do BLOB.
 
-|Parte | Descrição|
+|Sair | Descrição|
 |:----|:-----------|  
 |*dwVersion* |Esta é a versão dos dados que estão sendo enviados. No momento, esse valor é 1.|
-|*dwFlags* |Reservado para uso futuro. No momento, esse valor deve ser 0.|
+|*dwFlags* |Reserved for future use. No momento, esse valor deve ser 0.|
 |*cbProfileName* |O tamanho do nome do perfil, em bytes. Essas informações são úteis para que o manipulador de protocolo MAPI saiba qual perfil usar ao indexar o item.|
 |*wszProfileName* |Cadeia de caracteres Unicode terminada em nulo que contém o nome do perfil.|
 |*cbProviderItemID* |Tamanho da ID do item do provedor, em bytes. O provedor de repositório deve enviar somente a ID de item de provedor para pastas, para evitar a abertura de pastas adicionais para obter essas informações.|

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 353bc574ca5987d71faf4841744de30a3d6c3f19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435408"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 

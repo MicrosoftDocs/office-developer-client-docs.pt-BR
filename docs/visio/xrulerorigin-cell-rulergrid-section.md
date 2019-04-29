@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: Especifica o ponto zero na régua do eixo x da página.
 ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346449"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435324"
 ---
 # <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Célula XRulerOrigin (seção &amp; Ruler Grid)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula XRulerOrigin pelo índice, a partir de
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowRulerGrid** <br/> |
+|Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
 |Índice da célula:  <br/> |**visXRulerOrigin** <br/> |
    
 
