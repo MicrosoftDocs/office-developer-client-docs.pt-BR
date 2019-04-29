@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Determina a direção dos saltos de linha que ocorrem em um conector dinâmico vertical para uma forma.
 ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404768"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>Célula ConLineJumpDirY (Seção Shape Layout)
 
@@ -41,7 +41,7 @@ Para fazer referência à célula ConLineJumpDirY pelo índice a partir de um pr
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-| Índice da célula:  <br/> |**visSLOJumpDirY** <br/> |
+| Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+| Índice de célula:  <br/> |**visSLOJumpDirY** <br/> |
    
 

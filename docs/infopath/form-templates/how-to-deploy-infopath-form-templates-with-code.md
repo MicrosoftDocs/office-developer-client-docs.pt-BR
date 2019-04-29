@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: O código de formulário para um modelo de formulário de código gerenciado do InfoPath é compilado como um assembly que é executado no Common Language Runtime (CLR). Isso significa que sempre que você precisar fazer alterações no código de formulário, será necessário abrir o projeto no Visual Studio 2012, fazer alterações no editor de código, recompilar o modelo de formulário e, em seguida, reimplantar o modelo de formulário. Além disso, como o assembly privado de um modelo de formulário de código gerenciado é executado em um domínio de aplicativo CLR hospedado, as configurações de segurança para formulários que exigem confiança total diferem de forma diferente de modelos de formulário que não exigem confiança total.
 ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303623"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406896"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>Implantar modelos de formulário do InfoPath com código
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5e2ce756baaefef7bd0028e746b1dbe10756365e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329034"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415163"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: da186e6804fc3d3c820551fee66519a2ff76f0db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351384"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415772"
 ---
 # <a name="ifoldersupport--iunknown"></a>IFolderSupport : IUnknown
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: decdd8fc-2184-4d97-b918-3ef6ab1ab40b
 description: Determina se uma cadeia de caracteres específica corresponde a um padrão especificado. Um padrão pode incluir caracteres regulares e caracteres curinga. Durante a correspondência de padrões, os caracteres regulares devem corresponder exatamente aos caracteres especificados na sequência de caracteres. No enTanto, os caracteres curinga podem ser correspondidos com fragmentos arbitrários da cadeia de caracteres. O uso de caracteres curinga torna o operador LIKE mais flexível do que o uso dos operadores de comparação de cadeia de caracteres = e! =.
 ms.openlocfilehash: 02d1e4f8fc61335e828a1f77579c14b1c7577485
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406112"
 ---
 # <a name="like-access-custom-web-app"></a>LIKE (aplicativo Web personalizado do Access)
 
@@ -29,7 +29,7 @@ O operador **like** contém os seguintes argumentos
   
 |**Nome do argumento**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
-| *Expressão*  <br/> |Sim  <br/> |Uma expressão válida.  <br/> |
+| *Expressão*.  <br/> |Sim  <br/> |Uma expressão válida.  <br/> |
 | *Padrão de*  <br/> |Sim  <br/> |A cadeia de caracteres específica a ser pesquisada na *expressão* . Pode incluir caracteres curinga. Consulte os comentários para obter uma lista de caracteres curinga válidos.  <br/> |
 | *EscapeChar*  <br/> |Não  <br/> |Um caractere colocado na frente de um caractere curinga para indicar que o caractere curinga deve ser interpretado como um caractere regular e não como um caractere curinga.  *EscapeChar* é uma expressão Character que não tem default e deve ser avaliada como apenas um caractere.  <br/> |
    

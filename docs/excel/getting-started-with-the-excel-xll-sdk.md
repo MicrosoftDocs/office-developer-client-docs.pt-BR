@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ba7b5817-f22f-4187-8a5f-316f0fbcb9d2
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 20b103075e8633080663311e8d17ac94ef23971c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304029"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417186"
 ---
 # <a name="getting-started-with-the-excel-xll-sdk"></a>Introdução ao Excel XLL SDK
 

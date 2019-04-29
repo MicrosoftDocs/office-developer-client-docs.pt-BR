@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
 description: Retorna um inteiro, de 1 a 7, representando o dia da semana em DateTime ou expressão.
 ms.openlocfilehash: 7c5d467d8c6ff14b99b64b8b0462d21d0b769998
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404803"
 ---
 # <a name="weekday-function-visioshapesheet"></a>Função WEEKDAY (VisioShapeSheet)
 
@@ -26,11 +26,11 @@ WEEKDAY ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Qualquer expressão que gere data e hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérica** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

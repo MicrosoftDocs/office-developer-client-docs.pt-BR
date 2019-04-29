@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: Instâncias de variáveis de modelo (representadas por um elemento templateVariable) especificam os dados de um item de feed de atividade em um modelo de atividade.
 ms.openlocfilehash: 9b37665488f0f1e2bd205fb7d4a5d2201697d7c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404369"
 ---
 # <a name="template-variables"></a>Variáveis do modelo
 

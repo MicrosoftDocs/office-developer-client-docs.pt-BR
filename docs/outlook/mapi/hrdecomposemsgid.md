@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bff73ee5cf02680a2376106e21e0c743b995d336
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404432"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 

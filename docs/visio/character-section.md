@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f5afe93a-9217-a9ec-76ce-daf12afbb0f7
 description: Mostra os atributos de formatação do texto da forma, como fonte, cor, estilo de texto, diferenciação entre maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.
 ms.openlocfilehash: 4ff7dfce0ec25f3db0738bc63014f2cf4321ac2e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416836"
 ---
 # <a name="character-section"></a>Seção Character
 

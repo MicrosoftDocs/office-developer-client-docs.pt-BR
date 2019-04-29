@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: Retorna o componente vermelho de uma cor.
 ms.openlocfilehash: e8c6115ac0441b25ce8333485828e8ef0f615459
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359980"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415520"
 ---
 # <a name="red-function"></a>Função RED
 
@@ -26,7 +26,7 @@ VERMELHO (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    

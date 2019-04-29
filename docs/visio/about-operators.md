@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Você pode usar operadores em fórmulas para executar operações aritméticas (adição, subtração, multiplicação etc.) ou comparações lógicas (maior que, menor que, igual a etc.). Além disso, pode controlar a ordem de avaliação em uma fórmula incluindo expressões entre parênteses. Use o operador E comercial para combinar (concatenar) cadeias de caracteres.
 ms.openlocfilehash: 4f095df73f9bd1d6a876d975d262c9217c696fb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345280"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406126"
 ---
 # <a name="about-operators"></a>Sobre Operadores
 
@@ -27,29 +27,29 @@ A tabela a seguir mostra exemplos de expressões e seus resultados.
 |**Expressão**.|**Resultado**|**Descrição**|
 |:-----|:-----|:-----|
 | 2 \* 5 &amp; "centavos"  <br/> | "10 centavos"  <br/> | O &amp; operador (concatenação de cadeia de caracteres) requer argumentos de cadeia de caracteres, \* portanto, o resultado numérico de 2 5 é convertido automaticamente na cadeia de caracteres "10".  <br/> |
-| 5 \* "2"  <br/> | 254  <br/> | O \* operador (multiplicação) requer argumentos numéricos, portanto, a cadeia de caracteres "2" é automaticamente convertida para o número 2 equivalente.  <br/> |
+| 5 \* "2"  <br/> | 10   <br/> | O \* operador (multiplicação) requer argumentos numéricos, portanto, a cadeia de caracteres "2" é automaticamente convertida para o número 2 equivalente.  <br/> |
 | 5 \* "ovelha"  <br/> | ,0  <br/> | O \* operador (multiplicação) requer argumentos numéricos, portanto, porque a cadeia de caracteres "ovelha" não pode ser convertida para um número, zero é usado como seu equivalente numérico.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Operadores aritméticos
 
 Os operadores aritméticos executam operações em números. Os operadores de mais (+) e menos (-) podem ser utilizados sozinhos como operadores unários para determinar o sinal de um número. O operador de por cento (%) também é um operador unário e identifica o número como uma porcentagem.
   
-|**Operator**|**Action**|**Exemplo**|**Resultado**|
+|**Operador**|**Action**|**Exemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 | +  <br/> | Mais unário  <br/> | + 37  <br/> | 37  <br/> |
 | -  <br/> | Menos unário  <br/> | -37  <br/> | -37  <br/> |
 | %  <br/> | Porcentagem unária  <br/> | 37%  <br/> | .37  <br/> |
 | ^  <br/> | Exponencial  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplicação  <br/> | 5 \* 2  <br/> | 254  <br/> |
+| \*  <br/> | Multiplicação  <br/> | 5 \* 2  <br/> | 10   <br/> |
 | /  <br/> | Divisão  <br/> | 5 / 2  <br/> | 2.5  <br/> |
-| +  <br/> | Adição  <br/> | 5 + 2  <br/> | 178  <br/> |
+| +  <br/> | Adição  <br/> | 5 + 2  <br/> | 7   <br/> |
 | -  <br/> | Subtração  <br/> | 5 - 2  <br/> | 3D  <br/> |
    
 ## <a name="comparison-operators"></a>Operadores de comparação
 
 Os operadores de comparação são utilizados para a criação de expressões lógicas. Uma expressão lógica pode ser avaliada como VERDADEIRO ou FALSO.
   
-|**Operator**|**Alternativas**|**Action**|**Exemplo**|**Resultado**|
+|**Operador**|**Alternativas**|**Action**|**Exemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|:-----|
 | \>  <br/> | _GT_  <br/> | Maior que  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _<_  <br/> | Menor que  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
@@ -68,7 +68,7 @@ Quando operadores de comparação são utilizados para comparar cadeias de carac
 
 Quando uma fórmula contém mais de uma expressão, as expressões são avaliadas em ordem de acordo com a operação que está sendo executada. A tabela a seguir mostra a ordem de avaliação dos operadores no Visio.
   
-|**Order**|**Action**|**Operator**|
+|**Order**|**Action**|**Operador**|
 |:-----|:-----|:-----|
 |Primeiro  <br/> |Positivo  <br/> |+ (unário)  <br/> |
 ||Negativo  <br/> |- (unário)  <br/> |

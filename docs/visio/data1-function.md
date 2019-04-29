@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
 description: Retorna o texto da caixa dados 1 na caixa de diálogo nome da forma para uma forma (na guia desenvolvedor, clique em nome da forma), como uma cadeia de caracteres.
 ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416269"
 ---
 # <a name="data1-function"></a>Função DATA1
 

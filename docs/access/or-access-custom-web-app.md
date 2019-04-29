@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
 description: Combina duas condições. Retorna TRUE quando uma das duas condições é true.
 ms.openlocfilehash: ffa605d2403c5aa8396d89f78d0bb7dd11343540
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414757"
 ---
 # <a name="or-access-custom-web-app"></a>OU (aplicativo Web personalizado do Access)
 

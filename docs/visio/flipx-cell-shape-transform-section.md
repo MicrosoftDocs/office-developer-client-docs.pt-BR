@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Indica se a forma foi virada horizontalmente.
 ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346183"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415947"
 ---
 # <a name="flipx-cell-shape-transform-section"></a>Célula FlipX (Seção Shape Transform)
 
@@ -22,7 +22,7 @@ Indica se a forma foi virada horizontalmente.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | A forma foi virada horizontalmente.  <br/> |
+| VERDADEIRO  <br/> | A forma foi virada horizontalmente.  <br/> |
 | FALSE  <br/> | A forma não foi virada horizontalmente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,7 +38,7 @@ Para fazer referência à célula FlipX pelo índice a partir de um programa, us
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowXFormOut** <br/> |
+| Índice de linha:  <br/> |**visRowXFormOut** <br/> |
 | Índice da célula:  <br/> |**visXFormFlipX** <br/> |
    
 

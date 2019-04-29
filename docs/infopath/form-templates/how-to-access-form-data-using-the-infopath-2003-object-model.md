@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: Quando você deseja estender a funcionalidade de um formulário do InfoPath, geralmente é necessário acessar programaticamente as informações sobre o documento XML subjacente do formulário, acessar os dados contidos no documento XML ou executar alguma ação nesse documento XML. O modelo de objeto do InfoPath oferece suporte ao acesso e à manipulação do documento XML subjacente de um formulário por meio do uso da interface XDocument em associação à interface XDocumentsCollection.
 ms.openlocfilehash: 803122c6c377686a85f11cf48b76876c056f2ec1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303672"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416472"
 ---
 # <a name="access-form-data-using-the-infopath-2003-object-model"></a>Acessar dados de formulário usando o modelo de objeto do InfoPath 2003
 
@@ -32,8 +32,8 @@ A interface **XDocumentsCollection** fornece os seguintes métodos e propriedade
 |Método [NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx)  <br/> |Cria um novo formulário com base em um modelo de formulário existente.  <br/> |
 |Método [NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx)  <br/> |Cria um novo formulário do InfoPath usando os dados XML e o modelo de formulário especificados.  <br/> |
 |Método [Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx)  <br/> |Abre o formulário especificado.  <br/> |
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Retorna uma contagem do número de objetos **XDocument** contidos na coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Retorna uma referência ao objeto **XDocument** especificado.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Retorna uma contagem do número de objetos **XDocument** contidos na coleção.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Retorna uma referência ao objeto **XDocument** especificado.  <br/> |
    
 ## <a name="overview-of-the-xdocument-interface"></a>Visão geral da interface XDocument
 

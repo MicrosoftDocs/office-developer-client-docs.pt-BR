@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb221974-2f1a-edb0-477b-39a3c4a64c56
 description: Representa a coordenada y do ponto de ancoragem de uma alça de controle em coordenadas locais. O ponto de ancoragem é utilizado para esticar durante a dinâmica.
 ms.openlocfilehash: 13d463ebccd9cc7a23641a036dc5dd967513b07f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404824"
 ---
 # <a name="y-dynamics-cell-controls-section"></a>Célula Y Dynamics (Seção Controls)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula Y Dynamics pelo índice, a partir de um progra
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionControls** <br/> |
-| Índice da linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCtlYDyn** <br/> |
    
 

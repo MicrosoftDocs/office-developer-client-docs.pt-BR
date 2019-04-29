@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
 description: Determina se um gradiente de linha está habilitado para uma linha ou borda de uma forma.
 ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361135"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416374"
 ---
 # <a name="linegradientenabled-cell-gradient-properties-section"></a>Célula LineGradientEnabled (seção Gradient Properties)
 
@@ -20,7 +20,7 @@ Determina se um gradiente de linha está habilitado para uma linha ou borda de u
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Gradiente é exibido na linha ou borda de uma forma.  <br/> |
+|VERDADEIRO  <br/> |Gradiente é exibido na linha ou borda de uma forma.  <br/> |
 |FALSE  <br/> |Gradientes não são exibidos na linha ou borda de uma forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -36,7 +36,7 @@ Para obter uma referência para a célula **LineGradientEnabled** pelo índice a
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowGradientProperties** <br/> |
+| Índice de linha:  <br/> |**visRowGradientProperties** <br/> |
 | Índice da célula:  <br/> |**visLineGradientEnabled** <br/> |
    
 

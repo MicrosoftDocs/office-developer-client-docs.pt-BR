@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: cd0a890b-5a8b-42c0-abdd-5ce28aff1ba1
 description: Esta seção discute o modelo de objeto para soluções de código gerenciado do InfoPath e descreve tarefas de programação comuns.
 ms.openlocfilehash: 0c07201475bb7bfe24182faf61cc1bf6df733709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299778"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416654"
 ---
 # <a name="understanding-the-infopath-2003-object-model"></a>Compreender o modelo de objeto do InfoPath 2003
 

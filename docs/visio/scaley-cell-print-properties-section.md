@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 02835aff-455b-ffeb-d53b-28387b6ce361
 description: Especifica a porcentagem de ampliação da página de desenho na página da impressora.
 ms.openlocfilehash: 0f8e86675a039002b60438eac7df92f4a2b13b98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406987"
 ---
 # <a name="scaley-cell-print-properties-section"></a>Célula ScaleY (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula ScaleY pelo índice, a partir de um pr
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+|Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 |Índice da célula:  <br/> |**visPrintPropertiesScaleY** <br/> |
    
 

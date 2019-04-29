@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e8156ff1-c540-44b8-8b69-ba4d54883260
 description: Determina a direção do gradiente de preenchimento. Um gradiente pode ser linear, radial, retangular ou seguir um caminho.
 ms.openlocfilehash: 53aad056c7fc1674e00e142fd72a10134103b390
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406714"
 ---
 # <a name="fillgradientdir-cell-gradient-properties-section"></a>Célula FillGradientDir (seção Gradient Properties)
 
@@ -28,7 +28,7 @@ Determina a direção do gradiente de preenchimento. Um gradiente pode ser linea
 |,0  <br/> |Gradiente linear. A célula **FillGradientAngle** determina a direção do gradiente.  <br/> |
 |1-7  <br/> |Gradientes radiais. O gradiente se estende para cima em um círculo a partir de um ponto central.  <br/> |
 |8-12  <br/> |Gradientes retangulares. O gradiente estende-se como uma linha direcional de uma origem com um esmaecimento de forma retangular.  <br/> |
-|Treze  <br/> |Gradiente de caminho.  <br/> |
+|13   <br/> |Gradiente de caminho.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -43,7 +43,7 @@ Para obter uma referência para a célula **FillGradientDir** pelo índice a par
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowGradientProperties** <br/> |
+| Índice de linha:  <br/> |**visRowGradientProperties** <br/> |
 | Índice da célula:  <br/> |**visFillGradientDir** <br/> |
    
 

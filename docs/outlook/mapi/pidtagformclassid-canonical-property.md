@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7e3ee8abcf15c8b7697a29e844d838891fe22310
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316258"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404754"
 ---
 # <a name="pidtagformclassid-canonical-property"></a>Propriedade canônica PidTagFormClassId
 

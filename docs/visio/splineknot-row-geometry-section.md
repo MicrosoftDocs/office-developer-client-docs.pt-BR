@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9fbae27d-4f1b-c5f7-aacb-16f359331e83
 description: Contém as coordenadas x e y para o ponto de controle de uma spline e o nó de uma spline.
 ms.openlocfilehash: 432b714772d96e0ab0861bbfb62075258404e607
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407414"
 ---
 # <a name="splineknot-row-geometry-section"></a>Linha SplineKnot (Seção Geometry)
 
@@ -22,7 +22,7 @@ Contém as coordenadas *x* e *y* para o ponto de controle de uma spline e o nó 
   
 Uma linha SplineKnot contém as células a seguir.
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |A coordenada *x* de um ponto de controle.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* de um ponto de controle.  <br/> |

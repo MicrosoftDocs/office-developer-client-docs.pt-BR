@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
 description: Retorna a contagem dos limites de parte de data especificados cruzados entre a data de início e a data de término especificadas.
 ms.openlocfilehash: 1cce8a501c5a57384372e681f903baa4f4c20bef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415611"
 ---
 # <a name="datediff-function-access-custom-web-app"></a>Função DateDiff (aplicativo Web personalizado do Access)
 

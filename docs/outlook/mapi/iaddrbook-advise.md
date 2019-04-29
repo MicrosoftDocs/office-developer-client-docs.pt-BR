@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7abafafd3d4bd9618d85a7dac34e4556545167bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406273"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
@@ -111,7 +111,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Event
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[NOTIFICATION](notification.md)
+[Notifica](notification.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

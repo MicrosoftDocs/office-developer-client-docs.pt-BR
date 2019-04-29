@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: de0c1181450c536dffd5a84242c17bd1dd612566
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270095"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418047"
 ---
 # <a name="mapiopenformmgr"></a>MAPIOpenFormMgr
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9eac3b8c-532c-4312-935d-fe8b63bcaf75
 description: Recupera valores do tema ativo.
 ms.openlocfilehash: ba95b8a920174ee44c0349d7227258d3ee8a843c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326681"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415751"
 ---
 # <a name="themeval-function"></a>Função THEMEVAL
 
@@ -29,7 +29,7 @@ Version Added: Visio 2013
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _"theme_value"_ <br/> |Opcional  <br/> |**String** <br/> |O nome de uma célula na definição de tema para obter um valor.  <br/> |
 | _default_ <br/> |Opcional  <br/> |Vários  <br/> |Um valor padrão se o documento não tiver temas (não há definição de tema).  <br/> |

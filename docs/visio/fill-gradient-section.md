@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: Mostra os valores de cor do gradiente de preenchimento aplicado à forma.
 ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405461"
 ---
 # <a name="fill-gradient-section"></a>Seção Fill Gradient
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: Obtém uma cadeia de caracteres que representa uma coleção de atividades de cada um dos usuários especificados pelo parâmetro hashedAddresses.
 ms.openlocfilehash: be29d0226eb137b1ad8ed025acfe3f4958efa85f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336446"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404334"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 

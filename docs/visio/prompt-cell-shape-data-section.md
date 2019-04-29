@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 42f42d73-a00c-ca93-adc9-4f8869b9cd42
 description: Especifica um texto descritivo ou de instruções que aparece como uma dica quando o mouse está pausado sobre um valor na janela Dados da Forma.
 ms.openlocfilehash: 4ecb7eb5a1e775d2f3f5271476ef45cdf020d7c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326814"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405482"
 ---
 # <a name="prompt-cell-shape-data-section"></a>Célula Prompt (Seção Shape Data)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula Prompt pelo índice a partir de um programa, u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice da linha:  <br/> |**visRowProp +** *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowProp +** *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCustPropsPrompt** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: Especifica a distância entre as linhas verticais em uma grade fixa (YGridDensity = 0).
 ms.openlocfilehash: fc355b4e509494e9e7570122a8a3a7a3ce2e0588
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417459"
 ---
 # <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Célula YGridSpacing (seção &amp; Ruler Grid)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula YGridSpacing pelo índice, a partir de
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowRulerGrid** <br/> |
+|Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
 |Índice da célula:  <br/> |**visYGridSpacing** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Determina se um conector pode fazer o roteamento verticalmente por uma forma.
 ms.openlocfilehash: 62f8bfa0fdfb5c483836f344e8b784dc9092fded
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326513"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417515"
 ---
 # <a name="shapepermeabley-cell-shape-layout-section"></a>Célula ShapePermeableY (Seção Shape Layout)
 
@@ -22,7 +22,7 @@ Determina se um conector pode fazer o roteamento verticalmente por uma forma.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Permitir que os conectores façam o roteamento verticalmente por uma forma.  <br/> |
+|VERDADEIRO  <br/> |Permitir que os conectores façam o roteamento verticalmente por uma forma.  <br/> |
 |FALSE  <br/> |Não permitir que os conectores façam o roteamento verticalmente por uma forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula ShapePermeableY pelo índice, a partir
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOPermY** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOPermY** <br/> |
    
 

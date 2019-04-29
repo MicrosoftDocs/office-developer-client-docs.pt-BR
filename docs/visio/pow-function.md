@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c6519c55-5f98-ed0d-95b1-5443d0d23c0b
 description: Retorna um número elevado à potência de um expoente.
 ms.openlocfilehash: 7a1102aa13f54d7e323247b83af3732ebb63acf4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406308"
 ---
 # <a name="pow-function"></a>Função POW
 
@@ -26,7 +26,7 @@ POW (* * *número* * *, * * *expoente* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número a ser elevada a potência de um expoente.  <br/> |
 | _expoente_ <br/> |Obrigatório  <br/> |**Número** <br/> |O expoente.  <br/> |

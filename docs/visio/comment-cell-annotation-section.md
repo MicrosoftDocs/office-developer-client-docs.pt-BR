@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: Contém o texto que aparece em um comentário.
 ms.openlocfilehash: fd9dce2618c0b8c967b794b0beea8b772a231003
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415527"
 ---
 # <a name="comment-cell-annotation-section"></a>Célula de Comentários (Seção de Anotação)
 

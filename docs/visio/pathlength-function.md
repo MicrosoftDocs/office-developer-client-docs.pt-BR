@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: Retorna o tamanho do caminho definido na seção Geometry especificada.
 ms.openlocfilehash: e4f90c2bb886f54164bedab5f8d78fc528758414
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344412"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405846"
 ---
 # <a name="pathlength-function"></a>Função PATHLENGTH
 
@@ -29,9 +29,9 @@ PATHLENGTH (* * *seção* * * * * *[, segmento]* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
 | _segmento_ <br/> |Opcional  <br/> |**Integer** <br/> |O segmento baseado em 1 do caminho a ser medido.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

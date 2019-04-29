@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a556eadc-9ee6-7a29-ca05-6250b612790c
 description: Protege as células de formatação de uma forma para garantir que elas usem aspectos apropriados do tema atual.
 ms.openlocfilehash: c20d43f9d03296a3c529a6c8f59cf27489dcdc51
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326751"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404943"
 ---
 # <a name="themeguard-function"></a>Função THEMEGUARD
 

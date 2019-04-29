@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4daeddd7-3f0c-4178-ae8d-f74814090d40
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 418056f7222d5ab05f43a3661c1811bf2ae15be8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342109"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405111"
 ---
 # <a name="imapiforminfomakeiconfrombinary"></a>IMAPIFormInfo::MakeIconFromBinary
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b3ac1b2cf8335c5e0953fdcf61b2b5d466fbb724
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405657"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cc1547ad7d881b707825630f96987d4c40ad4863
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315299"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416899"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 

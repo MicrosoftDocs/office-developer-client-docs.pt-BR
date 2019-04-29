@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: Contém as coordenadas x e y, direção horizontal e vertical e o tipo de um ponto de conexão único em uma forma. As coordenadas dos pontos de conexão são medidas na origem da forma. Uma forma contém uma linha Connection Points para cada ponto de conexão.
 ms.openlocfilehash: 301ea4fb446d9acafd4b59af388c3e7b2d419e20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415506"
 ---
 # <a name="connection-points-row-connection-points-section"></a>Linha Connection Points (Seção Connection Points)
 

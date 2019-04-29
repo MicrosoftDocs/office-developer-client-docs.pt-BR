@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ca7e6621-f39b-64dd-3594-41d74da21a94
 description: Armazena o valor de formatação local de uma forma quando você aplica um tema para que você possa restaurar a formatação local se o usuário remover o tema subsequentemente.
 ms.openlocfilehash: 628e246f91172f136dd1a70807fca2abc1ff5bdd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332211"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404285"
 ---
 # <a name="themerestore-function"></a>Função THEMERESTORE
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
 description: Determina o componente y para o vetor de alinhamento obrigatório de um ponto de conexão correspondente. Ela também é utilizada para orientar o segmento anexado de um conector dinâmico. Essa célula assume um valor de ponto flutuante.
 ms.openlocfilehash: b0dc3c9f7e1a9e87b2ecdace21c8fa1658b1388d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332582"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417088"
 ---
 # <a name="diry--b-cell-connection-points-section"></a>Célula DirY / B (Seção Connection Points)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula DirY / B pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionConnectionPts** <br/> |
-|Índice da linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visCnnctDirY** (linhas não estendidas)           **visCnnctB** (linhas estendidas)  <br/> |
    
 Para obter informações sobre linhas estendidas e não-estendidas, consulte a linha Conectar Pontos.

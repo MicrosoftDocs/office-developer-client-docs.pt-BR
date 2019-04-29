@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9410f78f-a3da-d48a-b6bf-8b53d50b03bc
 description: Contém as células que controlam as configurações de roteamento de conector e posicionamento de forma.
 ms.openlocfilehash: 172a2dae3bd5a316b5f1462a0580e7a86b17d216
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415380"
 ---
 # <a name="shape-layout-section"></a>Seção Shape Layout
 

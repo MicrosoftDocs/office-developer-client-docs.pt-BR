@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 82e951a161445513a05ba78a06387d556fb8bc7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328697"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416199"
 ---
 # <a name="required-report-message-properties"></a>Propriedades obrigatórias da mensagem de relatório
 
@@ -23,7 +23,7 @@ ms.locfileid: "32328697"
   
 A tabela a seguir descreve as propriedades que os clientes podem esperar que confiram suporte em mensagens de relatório.
   
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**PR_ORIGINAL_DISPLAY_BCC** ([PidTagOriginalDisplayBcc](pidtagoriginaldisplaybcc-canonical-property.md))  <br/> **PR_ORIGINAL_DISPLAY_CC** ([PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md))  <br/> **PR_ORIGINAL_DISPLAY_TO** ([PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md))  <br/> |Definido por criador de relatórios, geralmente MAPI.  <br/> |
 |||

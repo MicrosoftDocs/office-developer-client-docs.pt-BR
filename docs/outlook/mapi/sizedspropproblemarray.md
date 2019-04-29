@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b3818e5e1429c7e2b7d5f7533db733ba29e672c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418110"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 

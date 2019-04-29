@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ff2911bd-9615-fc7d-eb03-0502debaa645
 description: Esse membro é um espaço reservado e não tem suporte.
 ms.openlocfilehash: 1af36304b41799a6ab08e741b7022a0d4043f7df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319345"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406924"
 ---
 # <a name="ifreebusysupportplaceholder6"></a>IFreeBusySupport::Placeholder6
 

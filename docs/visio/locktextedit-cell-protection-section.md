@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Protege o texto de uma forma impedindo-o de ser editado.
 ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404495"
 ---
 # <a name="locktextedit-cell-protection-section"></a>Célula LockTextEdit (Seção Protection)
 
@@ -22,7 +22,7 @@ Protege o texto de uma forma impedindo-o de ser editado.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O texto não pode ser editado.  <br/> |
+|VERDADEIRO  <br/> |O texto não pode ser editado.  <br/> |
 | FALSE  <br/> | O texto pode ser editado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para obter uma referência para a célula LockTextEdit pelo índice a partir de 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowLock** <br/> |
+| Índice de linha:  <br/> |**visRowLock** <br/> |
 | Índice da célula:  <br/> |**visLockTextEdit** <br/> |
    
 

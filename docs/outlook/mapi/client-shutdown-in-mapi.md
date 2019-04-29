@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: 'Última modificação: 26 de junho de 2012'
 ms.openlocfilehash: f2d41ad36472f39e434e3f17757559ada5e08fbd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334850"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405132"
 ---
 # <a name="client-shutdown-in-mapi"></a>Desligamento do cliente em MAPI 
   

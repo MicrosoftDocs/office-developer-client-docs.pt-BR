@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
 description: Retorna o resultado da expressão como uma cadeia de caracteres formatada de acordo com o formatPicture.
 ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404649"
 ---
 # <a name="format-function"></a>Função FORMAT
 
@@ -26,14 +26,14 @@ Formato (* * *expressão* * *, "* * *formatPicture* * *")
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
-| _formatPicture_ <br/> |Obrigatório  <br/> |**String** <br/> |A imagem de formato usada para formatar a cadeia de caracteres.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
+| _formatPicture_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A imagem de formato usada para formatar a cadeia de caracteres.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

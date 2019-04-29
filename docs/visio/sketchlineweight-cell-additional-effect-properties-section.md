@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
 description: Determina a espessura adicional adicionada à espessura da linha como resultado de um efeito de esboço, em pontos de 0 a 50. A espessura da linha de uma forma aumenta conforme o valor da célula SketchLineWeight aumenta.
 ms.openlocfilehash: 0ee71bbaec59f5c79b72314b08478f8028b4e0ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404509"
 ---
 # <a name="sketchlineweight-cell-additional-effect-properties-section"></a>Célula SketchLineWeight (seção Additional Effect Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **SketchLineWeight** pelo índice a pa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
 | Índice da célula:  <br/> |**visSketchLineWeight** <br/> |
    
 

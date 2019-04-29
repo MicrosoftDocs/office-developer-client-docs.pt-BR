@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: O Microsoft InfoPath com o Visual Studio 2012 permite a depuração executando o código de formulário no modo de visualização. Quando você inicia o código de formulário de depuração, seu projeto é compilado e o InfoPath exibe o formulário na janela de visualização do InfoPath. Quando uma linha de código que tem um ponto de interrupção definido para ela é encontrada, o foco é movido para o editor de código. Quando você continua após um ponto de interrupção, o foco é movido de volta para a janela de visualização. A depuração pára quando você fecha a janela de visualização.
 ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300431"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405237"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>Visualizar e depurar modelos de formulário do InfoPath com código
 

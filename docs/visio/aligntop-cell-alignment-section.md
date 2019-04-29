@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: Determina a posição vertical, em relação à origem de seu pai, de uma guia horizontal ou ponto de guia ao qual a borda superior da forma está alinhada.
 ms.openlocfilehash: a52527b8a0ef6398f475b3d6241e03afa6cd697b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341514"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406693"
 ---
 # <a name="aligntop-cell-alignment-section"></a>Célula AlignTop (Seção Alignment)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula AlignTop pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowAlign** <br/> |
+| Índice de linha:  <br/> |**visRowAlign** <br/> |
 | Índice da célula:  <br/> |**visAlignTop** <br/> |
    
 

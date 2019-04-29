@@ -9,11 +9,11 @@ api_type:
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 72dc73b6ed8519be2d8010544fdd5dc5b7b0f759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417417"
 ---
 # <a name="implementing-a-container-one-off-table"></a>Implementar uma tabela de um contêiner
 

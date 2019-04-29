@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
 description: Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338420"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420203"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>Célula AvenueSizeY (Seção Page Layout)
 
@@ -37,7 +37,7 @@ Para obter uma referência para a célula AvenueSizeY pelo índice a partir de u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOAvenueSizeY** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Determina o alinhamento horizontal do texto no bloco de texto da forma.
 ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360176"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414736"
 ---
 # <a name="halign-cell-paragraph-section"></a>Célula HAlign (Seção Paragraph)
 
@@ -26,7 +26,7 @@ Determina o alinhamento horizontal do texto no bloco de texto da forma.
 | 1  <br/> | Centro  <br/> |**visHorzCenter** <br/> |
 | duas  <br/> | Alinhar à direita  <br/> |**visHorzRight** <br/> |
 | 3D  <br/> | Justificar  <br/> |**visHorzJustify** <br/> |
-| quatro  <br/> | Forçar justificado  <br/> |**visHorzForce** <br/> |
+| 4   <br/> | Forçar justificado  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -45,7 +45,7 @@ Para fazer referência à célula HAlign pelo índice a partir de um programa, u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice da linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visHorzAlign** <br/> |
    
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 02fcaf25-42b5-4584-95c6-d44a3d035128
 description: Obtém uma matriz de bytes que contém o recurso de imagem para a pessoa.
 ms.openlocfilehash: 755e2138378136a3c1d810a1957923f4e8db721d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331651"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406707"
 ---
 # <a name="isocialpersongetpicture"></a>ISocialPerson::GetPicture
 

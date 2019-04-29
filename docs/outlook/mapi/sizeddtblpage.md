@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f14b8d7a9a73997f797f9cfa26a2e574222e839e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282654"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407442"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 

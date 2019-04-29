@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: Ao trabalhar com um modelo de formulário do InfoPath, você pode escrever código para acessar os modos de exibição do formulário e, em seguida, executar uma variedade de ações nos dados que os modos de exibição contêm. O modelo de objeto do InfoPath fornecido pelo namespace Microsoft. Office. InfoPath oferece suporte ao acesso aos modos de exibição de um formulário por meio do uso dos membros da classe View.
 ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406294"
 ---
 # <a name="work-with-views"></a>Trabalhar com modos de exibição
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c77acb5226361ce31a7f6b1694de7fe23f8dd71b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415268"
 ---
 # <a name="entryid"></a>ENTRYID
 
@@ -77,7 +77,7 @@ A **** estrutura ENTRYID é usada por provedores de repositório de mensagens e 
   
 - Repositórios de mensagens
     
-- Pastas
+- Folders
     
 - Mensagens
     

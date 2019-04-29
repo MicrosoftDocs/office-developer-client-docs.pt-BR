@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Determina o valor da unidade de página na escala de desenho atual. A escala de desenho da página representa a razão da unidade de página mostrada na célula PageScale em relação à unidade de desenho mostrada na célula DrawingScale.
 ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339449"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405531"
 ---
 # <a name="pagescale-cell-page-properties-section"></a>Célula PageScale (Seção Page Properties)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula PageScale pelo índice, a partir de um
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPage** <br/> |
-|Índice da célula:  <br/> |**visPageScale** <br/> |
+|Índice de linha:  <br/> |**visRowPage** <br/> |
+|Índice de célula:  <br/> |**visPageScale** <br/> |
    
 

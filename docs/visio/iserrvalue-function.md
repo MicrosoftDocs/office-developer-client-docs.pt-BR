@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: 'Retorna TRUE se o valor de cellreference for o tipo de erro #VALUE, onde um argumento na fórmula é do tipo errado. A função ISERRVALUE é usada em expressões lógicas que se referem a outra célula.'
 ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317882"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404425"
 ---
 # <a name="iserrvalue-function"></a>Função ISERRVALUE
 
@@ -26,9 +26,9 @@ ISERRVALUE (* * *cellreference* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obrigatório  <br/> |**String** <br/> |Referência a uma célula.  <br/> |
+| _cellreference_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Referência a uma célula.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

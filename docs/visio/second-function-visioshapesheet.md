@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Retorna um inteiro, 0 a 59, que representa o componente de segundos de DateTime ou expressão.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332785"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404873"
 ---
 # <a name="second-function-visioshapesheet"></a>Função SECOND (VisioShapeSheet)
 
@@ -26,11 +26,11 @@ SEGUNDO ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que gere data e hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |O identificador de localidade a ser usado na avaliação de um _DateTime_não local. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que produza uma data e hora.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérica** <br/> |O identificador de localidade a ser usado na avaliação de um _DateTime_não local. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

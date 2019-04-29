@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 065c6977-c737-a4f4-effa-0fd2c98e8bbf
 description: Contém as informações para uma única marca de ação associada a uma forma ou página. Uma forma ou página contém uma linha Smart Tags para cada marca de ação.
 ms.openlocfilehash: 1c1591fd2d2cacfbfb350a542e6601cb2f6fbfd6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404705"
 ---
 # <a name="smart-tags-row-action-tags-section"></a>Linha Smart Tags (Seção Action Tags)
 
@@ -25,7 +25,7 @@ Contém as informações para uma única marca de ação associada a uma forma o
   
 As linhas Smart Tags são denominadas SmartTags. *nome* e contém as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-action-tags-section.md) <br/> |A posição da coordenada *x* de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
 |[Y](y-cell-action-tags-section.md) <br/> |A posição da coordenada *y* de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
@@ -39,7 +39,7 @@ As linhas Smart Tags são denominadas SmartTags. *nome* e contém as células a 
    
 ## <a name="remarks"></a>Comentários
 
- É possível adicionar tantas linhas SmartTags.  *nomear* linhas conforme necessário, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar uma marca de ação a uma seção Smart Tags existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
+ É possível adicionar tantas linhas SmartTags.  *name* quantas forem necessárias, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar uma marca de ação a uma seção Smart Tags existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
 É possível fazer referência a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir nomes significativos às linhas Smart Tags. *nome* , clique na linha e, em seguida, digite um nome, como *tamanho* , por exemplo, para criar o nome da linha marcas inteligentes. Size. Você pode fazer referência à célula Description usando Smart Tags.Size.Description. 
   

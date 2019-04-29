@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Determina se a marcação é exibida na janela de desenho.
 ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416402"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>Célula ViewMarkup (Seção Document Properties)
 
@@ -22,7 +22,7 @@ Determina se a marcação é exibida na janela de desenho.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |A marcação é exibida no desenho.  <br/> |
+|VERDADEIRO  <br/> |A marcação é exibida no desenho.  <br/> |
 |FALSE  <br/> |A marcação não é exibida (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -44,7 +44,7 @@ Para obter uma referência para a célula ViewMarkup pelo índice, a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowDoc** <br/> |
+|Índice de linha:  <br/> |**visRowDoc** <br/> |
 |Índice da célula:  <br/> |**visDocViewMarkup** <br/> |
    
 

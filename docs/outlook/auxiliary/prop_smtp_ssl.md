@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f46e8aa3-d2c2-45a2-93fe-1c40107fbf16
 description: Especifica se o protocolo SSL (Secure Socket Layer) deve ser usado para a conta SMTP.
 ms.openlocfilehash: 64856322ec0afce80777417f781c22b927ed5e2d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328305"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407071"
 ---
 # <a name="propsmtpssl"></a>PROP_SMTP_SSL
 

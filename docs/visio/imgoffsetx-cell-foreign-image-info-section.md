@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c079fb10-4db7-4657-75d2-2fb953c86670
 description: Determina a distância de deslocamento horizontal do objeto em relação à origem de sua borda. O padrão é 0. Deslocar o objeto com a ferramenta Cortar irá alterar esse valor.
 ms.openlocfilehash: d9b3e97a07bc1cadc0276905c4199861ab0590ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335403"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405230"
 ---
 # <a name="imgoffsetx-cell-foreign-image-info-section"></a>Célula ImgOffsetX (Seção Foreign Image Info)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula ImgOffsetX pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowForeign** <br/> |
+| Índice de linha:  <br/> |**visRowForeign** <br/> |
 | Índice da célula:  <br/> |**visFrgnImgOffsetX** <br/> |
    
 

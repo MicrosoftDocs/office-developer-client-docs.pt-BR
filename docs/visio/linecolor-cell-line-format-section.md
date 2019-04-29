@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d857b48b-9a3d-a1e1-5ad2-6816a492c8ab
 description: Determina a cor da linha da forma.
 ms.openlocfilehash: d0b4ebee6d96bc67c9ca45e8a6194cb91ed6c7f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359301"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416934"
 ---
 # <a name="linecolor-cell-line-format-section"></a>Célula LineColor (Seção Line Format)
 
@@ -39,7 +39,7 @@ Para obter uma referência para a célula LineColor pelo índice a partir de um 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowLine** <br/> |
-|Índice da célula:  <br/> |**visLineColor** <br/> |
+|Índice de linha:  <br/> |**visRowLine** <br/> |
+|Índice de célula:  <br/> |**visLineColor** <br/> |
    
 

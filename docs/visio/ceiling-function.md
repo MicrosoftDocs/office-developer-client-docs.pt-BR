@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
 description: Arredonda um número para fora de 0 (zero) para a próxima instância de múltiplo. Se múltiplo não for especificado, o número será arredondado para longe de 0 até o próximo inteiro.
 ms.openlocfilehash: 449f17d1b68c116cccb2635723a3f6277d0ac2a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337223"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404124"
 ---
 # <a name="ceiling-function"></a>Função CEILING
 
@@ -26,7 +26,7 @@ TETO (* * *número* * *, * * *múltiplo* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número a ser arredondado.  <br/> |
 | _vários_ <br/> |Obrigatório  <br/> |**Número** <br/> |O múltiplo a ser arredondado.  <br/> |

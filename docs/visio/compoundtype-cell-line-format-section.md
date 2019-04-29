@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3e2a88ad-d92c-4550-8da3-fa7fdd032e73
 description: Determina o tipo composto da linha de uma forma.
 ms.openlocfilehash: 120975e419656234266cb8151b2fa37ef19602e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359364"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407169"
 ---
 # <a name="compoundtype-cell-line-format-section"></a>Célula CompoundType (Seção Formato da linha)
 

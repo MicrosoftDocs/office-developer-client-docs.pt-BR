@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 544aaaace18a9d26972e6484803b63a1ee7060fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317280"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416297"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
