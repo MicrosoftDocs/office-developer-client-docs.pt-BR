@@ -13,23 +13,23 @@ api_type:
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 91440d619c8ad8a64b2bac7463a26d9c196a3c0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339726"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439265"
 ---
-# <a name="sdoublearray"></a><span data-ttu-id="1c93d-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="1c93d-103">SDoubleArray</span></span>
+# <a name="sdoublearray"></a><span data-ttu-id="918c2-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="918c2-103">SDoubleArray</span></span>
 
   
   
-<span data-ttu-id="1c93d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c93d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="918c2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="918c2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1c93d-105">Contém uma matriz de duplicatas usada para descrever uma propriedade do tipo PT_MV_DOUBLE.</span><span class="sxs-lookup"><span data-stu-id="1c93d-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
+<span data-ttu-id="918c2-105">Contém uma matriz de duplicatas usada para descrever uma propriedade do tipo PT_MV_DOUBLE.</span><span class="sxs-lookup"><span data-stu-id="918c2-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1c93d-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="1c93d-106">Header file:</span></span>  <br/> |<span data-ttu-id="1c93d-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="1c93d-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="918c2-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="918c2-106">Header file:</span></span>  <br/> |<span data-ttu-id="918c2-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="918c2-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -40,26 +40,26 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="1c93d-108">Members</span><span class="sxs-lookup"><span data-stu-id="1c93d-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="918c2-108">Members</span><span class="sxs-lookup"><span data-stu-id="918c2-108">Members</span></span>
 
- <span data-ttu-id="1c93d-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="1c93d-109">**cValues**</span></span>
+ <span data-ttu-id="918c2-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="918c2-109">**cValues**</span></span>
   
-> <span data-ttu-id="1c93d-110">Contagem de valores na matriz apontada pelo membro **lpdbl** .</span><span class="sxs-lookup"><span data-stu-id="1c93d-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
+> <span data-ttu-id="918c2-110">Contagem de valores na matriz apontada pelo membro **lpdbl** .</span><span class="sxs-lookup"><span data-stu-id="918c2-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
     
- <span data-ttu-id="1c93d-111">**lpdbl**</span><span class="sxs-lookup"><span data-stu-id="1c93d-111">**lpdbl**</span></span>
+ <span data-ttu-id="918c2-111">**lpdbl**</span><span class="sxs-lookup"><span data-stu-id="918c2-111">**lpdbl**</span></span>
   
-> <span data-ttu-id="1c93d-112">Ponteiro para uma matriz de valores Double.</span><span class="sxs-lookup"><span data-stu-id="1c93d-112">Pointer to an array of double values.</span></span>
+> <span data-ttu-id="918c2-112">Ponteiro para uma matriz de valores Double.</span><span class="sxs-lookup"><span data-stu-id="918c2-112">Pointer to an array of double values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1c93d-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="1c93d-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="918c2-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="918c2-113">Remarks</span></span>
 
-<span data-ttu-id="1c93d-114">Para obter mais informações sobre o PT_MV_DOUBLE, confira [lista de tipos de propriedade](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="1c93d-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="918c2-114">Para obter mais informações sobre o PT_MV_DOUBLE, confira [lista de tipos de propriedade](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="918c2-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1c93d-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="1c93d-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="918c2-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="918c2-115">See also</span></span>
 
 
 
-[<span data-ttu-id="1c93d-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="1c93d-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="918c2-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="918c2-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="1c93d-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="1c93d-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="918c2-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="918c2-117">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -8,27 +8,27 @@ localization_priority: Normal
 ms.assetid: b6e0b89f-4975-416d-9f7a-e15fa54d7ee1
 description: Retorna o valor máximo na expressão em uma consulta ou tabela.
 ms.openlocfilehash: 443897b6d02873458c5dbb4ee9acdac1b6251364
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301761"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419734"
 ---
-# <a name="max-function-access-custom-web-app"></a><span data-ttu-id="5a423-103">Função Max (aplicativo da Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="5a423-103">Max Function (Access custom web app)</span></span>
+# <a name="max-function-access-custom-web-app"></a><span data-ttu-id="5b869-103">Função Max (aplicativo da Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="5b869-103">Max Function (Access custom web app)</span></span>
 
-<span data-ttu-id="5a423-104">Retorna o valor máximo na expressão em uma consulta ou tabela.</span><span class="sxs-lookup"><span data-stu-id="5a423-104">Returns the maximum value in the expression in a query or table.</span></span>
+<span data-ttu-id="5b869-104">Retorna o valor máximo na expressão em uma consulta ou tabela.</span><span class="sxs-lookup"><span data-stu-id="5b869-104">Returns the maximum value in the expression in a query or table.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="5a423-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="5a423-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="5b869-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="5b869-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="5a423-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5a423-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5b869-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5b869-107">Syntax</span></span>
 
- <span data-ttu-id="5a423-108">**Máx** (*Expressão*)</span><span class="sxs-lookup"><span data-stu-id="5a423-108">**Max** (*Expression*)</span></span> 
+ <span data-ttu-id="5b869-108">**Máx** (*Expressão*)</span><span class="sxs-lookup"><span data-stu-id="5b869-108">**Max** (*Expression*)</span></span> 
   
-<span data-ttu-id="5a423-109">A função **máximo** contém o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="5a423-109">The **Max** function contains the following argument.</span></span> 
+<span data-ttu-id="5b869-109">A função **máximo** contém o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="5b869-109">The **Max** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="5a423-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="5a423-110">**Argument name**</span></span>|<span data-ttu-id="5a423-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5a423-111">**Description**</span></span>|
+|<span data-ttu-id="5b869-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="5b869-110">**Argument name**</span></span>|<span data-ttu-id="5b869-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5b869-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="5a423-112">*Expressão*</span><span class="sxs-lookup"><span data-stu-id="5a423-112">*Expression*</span></span>  <br/> |<span data-ttu-id="5a423-113">Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados desse campo.</span><span class="sxs-lookup"><span data-stu-id="5a423-113">A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="5a423-114">Os operandos na *expressão* podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).</span><span class="sxs-lookup"><span data-stu-id="5a423-114">Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
+| <span data-ttu-id="5b869-112">*Expressão*</span><span class="sxs-lookup"><span data-stu-id="5b869-112">*Expression*</span></span>  <br/> |<span data-ttu-id="5b869-113">Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados desse campo.</span><span class="sxs-lookup"><span data-stu-id="5b869-113">A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="5b869-114">Os operandos na *expressão* podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).</span><span class="sxs-lookup"><span data-stu-id="5b869-114">Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
    
 

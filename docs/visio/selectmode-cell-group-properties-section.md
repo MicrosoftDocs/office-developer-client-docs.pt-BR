@@ -10,38 +10,38 @@ localization_priority: Normal
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
 description: Determina como selecionar uma forma de grupo e seus membros.
 ms.openlocfilehash: 82f9e2806d1131a0acfd064f585c681fef0f209f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435359"
 ---
-# <a name="selectmode-cell-group-properties-section"></a><span data-ttu-id="3227b-103">Célula SelectMode (Seção Group Properties)</span><span class="sxs-lookup"><span data-stu-id="3227b-103">SelectMode Cell (Group Properties Section)</span></span>
+# <a name="selectmode-cell-group-properties-section"></a><span data-ttu-id="bc9b4-103">Célula SelectMode (Seção Group Properties)</span><span class="sxs-lookup"><span data-stu-id="bc9b4-103">SelectMode Cell (Group Properties Section)</span></span>
 
-<span data-ttu-id="3227b-104">Determina como selecionar uma forma de grupo e seus membros.</span><span class="sxs-lookup"><span data-stu-id="3227b-104">Determines how you select a group shape and its members.</span></span>
+<span data-ttu-id="bc9b4-104">Determina como selecionar uma forma de grupo e seus membros.</span><span class="sxs-lookup"><span data-stu-id="bc9b4-104">Determines how you select a group shape and its members.</span></span>
   
-|<span data-ttu-id="3227b-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="3227b-105">**Value**</span></span>|<span data-ttu-id="3227b-106">**Modo de seleção**</span><span class="sxs-lookup"><span data-stu-id="3227b-106">**Selection mode**</span></span>|<span data-ttu-id="3227b-107">**Constante de automação**</span><span class="sxs-lookup"><span data-stu-id="3227b-107">**Automation constant**</span></span>|
+|<span data-ttu-id="bc9b4-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-105">**Value**</span></span>|<span data-ttu-id="bc9b4-106">**Modo de seleção**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-106">**Selection mode**</span></span>|<span data-ttu-id="bc9b4-107">**Constante de automação**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-107">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="3227b-108">,0</span><span class="sxs-lookup"><span data-stu-id="3227b-108">0</span></span>  <br/> |<span data-ttu-id="3227b-109">Selecionar somente a forma de grupo.</span><span class="sxs-lookup"><span data-stu-id="3227b-109">Select the group shape only.</span></span>  <br/> |<span data-ttu-id="3227b-110">**visGrpSelModeGroupOnly**</span><span class="sxs-lookup"><span data-stu-id="3227b-110">**visGrpSelModeGroupOnly**</span></span> <br/> |
-|<span data-ttu-id="3227b-111">1</span><span class="sxs-lookup"><span data-stu-id="3227b-111">1</span></span>  <br/> |<span data-ttu-id="3227b-112">Selecionar primeiro a forma de grupo.</span><span class="sxs-lookup"><span data-stu-id="3227b-112">Select the group shape first.</span></span>  <br/> |<span data-ttu-id="3227b-113">**visGrpSelModeGroup1st**</span><span class="sxs-lookup"><span data-stu-id="3227b-113">**visGrpSelModeGroup1st**</span></span> <br/> |
-|<span data-ttu-id="3227b-114">duas</span><span class="sxs-lookup"><span data-stu-id="3227b-114">2</span></span>  <br/> |<span data-ttu-id="3227b-115">Selecionar primeiro os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="3227b-115">Select the members of the group first.</span></span>  <br/> |<span data-ttu-id="3227b-116">**visGrpSelModeMembers1st**</span><span class="sxs-lookup"><span data-stu-id="3227b-116">**visGrpSelModeMembers1st**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-108">,0</span><span class="sxs-lookup"><span data-stu-id="bc9b4-108">0</span></span>  <br/> |<span data-ttu-id="bc9b4-109">Selecionar somente a forma de grupo.</span><span class="sxs-lookup"><span data-stu-id="bc9b4-109">Select the group shape only.</span></span>  <br/> |<span data-ttu-id="bc9b4-110">**visGrpSelModeGroupOnly**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-110">**visGrpSelModeGroupOnly**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-111">1</span><span class="sxs-lookup"><span data-stu-id="bc9b4-111">1</span></span>  <br/> |<span data-ttu-id="bc9b4-112">Selecionar primeiro a forma de grupo.</span><span class="sxs-lookup"><span data-stu-id="bc9b4-112">Select the group shape first.</span></span>  <br/> |<span data-ttu-id="bc9b4-113">**visGrpSelModeGroup1st**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-113">**visGrpSelModeGroup1st**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-114">duas</span><span class="sxs-lookup"><span data-stu-id="bc9b4-114">2</span></span>  <br/> |<span data-ttu-id="bc9b4-115">Selecionar primeiro os membros do grupo.</span><span class="sxs-lookup"><span data-stu-id="bc9b4-115">Select the members of the group first.</span></span>  <br/> |<span data-ttu-id="bc9b4-116">**visGrpSelModeMembers1st**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-116">**visGrpSelModeMembers1st**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3227b-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="3227b-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc9b4-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="bc9b4-117">Remarks</span></span>
 
-<span data-ttu-id="3227b-118">Você também pode definir esse valor na caixa de diálogo **comportamento** (com a forma de grupo selecionada, na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **design da forma** , clique em **comportamento**e, em seguida, clique em um modo na lista **seleção** em **grupo Comportamento** ).</span><span class="sxs-lookup"><span data-stu-id="3227b-118">You can also set this value in the **Behavior** dialog box (with the group shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click a mode in the **Selection** list under **Group Behavior** ).</span></span> 
+<span data-ttu-id="bc9b4-118">Você também pode definir esse valor na caixa de diálogo **comportamento** (com a forma de grupo selecionada, na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **design da forma** , clique em **comportamento**e, em seguida, clique em um modo na lista **seleção** em **grupo Comportamento** ).</span><span class="sxs-lookup"><span data-stu-id="bc9b4-118">You can also set this value in the **Behavior** dialog box (with the group shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click a mode in the **Selection** list under **Group Behavior** ).</span></span> 
   
-<span data-ttu-id="3227b-119">Para obter uma referência para a célula SelectMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="3227b-119">To get a reference to the SelectMode cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="bc9b4-119">Para obter uma referência para a célula SelectMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-119">To get a reference to the SelectMode cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3227b-120">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="3227b-120">Cell name:</span></span>  <br/> |<span data-ttu-id="3227b-121">SelectMode</span><span class="sxs-lookup"><span data-stu-id="3227b-121">SelectMode</span></span>  <br/> |
+|<span data-ttu-id="bc9b4-120">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-120">Cell name:</span></span>  <br/> |<span data-ttu-id="bc9b4-121">SelectMode</span><span class="sxs-lookup"><span data-stu-id="bc9b4-121">SelectMode</span></span>  <br/> |
    
-<span data-ttu-id="3227b-122">Para obter uma referência para a célula SelectMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="3227b-122">To get a reference to the SelectMode cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="bc9b4-122">Para obter uma referência para a célula SelectMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-122">To get a reference to the SelectMode cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3227b-123">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="3227b-123">Section index:</span></span>  <br/> |<span data-ttu-id="3227b-124">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3227b-124">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="3227b-125">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="3227b-125">Row index:</span></span>  <br/> |<span data-ttu-id="3227b-126">**visRowGroup**</span><span class="sxs-lookup"><span data-stu-id="3227b-126">**visRowGroup**</span></span> <br/> |
-|<span data-ttu-id="3227b-127">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="3227b-127">Cell index:</span></span>  <br/> |<span data-ttu-id="3227b-128">**visGroupSelectMode**</span><span class="sxs-lookup"><span data-stu-id="3227b-128">**visGroupSelectMode**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-123">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-123">Section index:</span></span>  <br/> |<span data-ttu-id="bc9b4-124">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-124">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-125">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-125">Row index:</span></span>  <br/> |<span data-ttu-id="bc9b4-126">**visRowGroup**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-126">**visRowGroup**</span></span> <br/> |
+|<span data-ttu-id="bc9b4-127">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="bc9b4-127">Cell index:</span></span>  <br/> |<span data-ttu-id="bc9b4-128">**visGroupSelectMode**</span><span class="sxs-lookup"><span data-stu-id="bc9b4-128">**visGroupSelectMode**</span></span> <br/> |
    
 
