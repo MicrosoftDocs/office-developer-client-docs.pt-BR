@@ -13,11 +13,11 @@ api_type:
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326583"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433525"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -58,14 +58,14 @@ typedef struct _SPropValue
     
 |**Tipo de propriedade**|**Valor**|**Tipo de dados do valor**|
 |:-----|:-----|:-----|
-|PT_I2 ou PT_SHORT  <br/> |**crio** <br/> |short int  <br/> |
+|PT_I2 ou PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
 |PT_I4 ou PT_LONG (assinado)  <br/> |**Esq** <br/> |Longas  <br/> |
 |PT_I4 ou PT_LONG (não assinado)  <br/> |**UL** <br/> |ULONG  <br/> |
 |PT_R4 ou PT_FLOAT  <br/> |**FLT** <br/> |float  <br/> |
 |PT_R8 ou PT_DOUBLE  <br/> |**ao duas vezes** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**a.b.c.** <br/> |int curto não assinado  <br/> |
-|PT_CURRENCY  <br/> |**cur** <br/> |[MOEDA](currency.md) <br/> |
-|PT_APPTIME  <br/> |**por** <br/> |duplo  <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |int curto não assinado  <br/> |
+|PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
+|PT_APPTIME  <br/> |**por** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
 |PT_BINARY  <br/> |**Bno** <br/> |BYTE [matriz]  <br/> |

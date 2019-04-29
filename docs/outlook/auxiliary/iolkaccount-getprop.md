@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
 description: Obtém o valor da propriedade de conta especificada.
 ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433735"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 

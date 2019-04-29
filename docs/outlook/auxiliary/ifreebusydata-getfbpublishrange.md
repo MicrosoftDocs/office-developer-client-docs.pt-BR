@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
 description: Obtém um intervalo de tempo pré-definido para uma enumeração de blocos de disponibilidade de dados de um usuário.
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317525"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430074"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 

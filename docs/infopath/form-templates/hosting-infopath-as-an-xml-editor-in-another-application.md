@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
 description: O ambiente de edição de formulário do Microsoft InfoPath pode ser hospedado em um aplicativo do Windows personalizado, que permite que os desenvolvedores integrem o ambiente de edição de formulários do InfoPath em aplicativos de linha de negócios.
 ms.openlocfilehash: b85e47d506b17982bb883c9d56ea13131807d1cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422576"
 ---
 # <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>Hospedando o InfoPath como um editor de XML em outro aplicativo
 

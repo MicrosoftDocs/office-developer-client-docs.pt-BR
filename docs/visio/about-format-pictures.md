@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: df4c1c70-8b41-c046-7415-643188af0e06
 description: Uma figura de formatação é utilizada para determinar como um valor é exibido. Por exemplo, é possível controlar o número de dígitos exibidos à direita ou à esquerda de um ponto decimal ou se uma cadeia de caracteres será exibida em letras maiúsculas ou minúsculas.
 ms.openlocfilehash: 7043c9819f41ec2c08345c84010328be75677918
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436815"
 ---
 # <a name="about-format-pictures"></a>Sobre Figuras de Formatação
 

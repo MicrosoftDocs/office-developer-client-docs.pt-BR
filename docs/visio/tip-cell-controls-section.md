@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7fd11650-fffa-1316-d302-3122ac5feb14
 description: Representa uma sequência de texto descritiva exibida como uma dica de ferramenta quando o usuário posiciona o ponteiro do mouse sobre a alça de controle de uma forma. O aplicativo inclui automaticamente a dica entre aspas na célula, mas as aspas não são exibidas na dica de ferramenta.
 ms.openlocfilehash: b9b0c19aff5e3ab8a4c1e29d319eb42f7ee4a271
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424858"
 ---
 # <a name="tip-cell-controls-section"></a>Célula Tip (Seção Controls)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula Tip pelo índice, a partir de um programa, use
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionControls** <br/> |
-| Índice da linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCtlTip** <br/> |
    
 

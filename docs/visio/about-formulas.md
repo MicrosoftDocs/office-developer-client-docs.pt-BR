@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: A chave para controlar ações de forma é gravar fórmulas que definam o comportamento desejado. É possível editar uma fórmula de célula para alterar o valor da célula e, como resultado, modificar um determinado comportamento da forma. Por exemplo, a célula Height da seção Shape Transform contém uma fórmula que pode ser alterada para modificar a altura da forma.
 ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344454"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426258"
 ---
 # <a name="about-formulas"></a>Sobre Fórmulas
 

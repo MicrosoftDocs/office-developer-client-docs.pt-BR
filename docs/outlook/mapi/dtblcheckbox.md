@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ed0bbe986f374648e2ee85f3a0d2dfe7bc392e0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436829"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 

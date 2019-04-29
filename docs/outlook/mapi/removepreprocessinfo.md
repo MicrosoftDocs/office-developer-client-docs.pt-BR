@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d80c73aef780a0da39f3939f71462488a067de5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328375"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432944"
 ---
 # <a name="removepreprocessinfo"></a>RemovePreprocessInfo
 

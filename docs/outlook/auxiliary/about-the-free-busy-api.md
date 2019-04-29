@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 17c5e44e-ae56-8de7-3579-90171d996411
 description: A API de disponibilidade permite que os provedores de email forneçam informações de status de disponibilidade para contas de usuário especificadas em um intervalo de tempo especificado.
 ms.openlocfilehash: 1bcd191b57238771ede6f035216fe3997e82e03a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317007"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433756"
 ---
 # <a name="about-the-freebusy-api"></a>Sobre a API do serviço de disponibilidade
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Determina o formato de um campo inserido em versões do Visio anteriores à versão Visio 2000.
 ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337139"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426363"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>Célula UIFormat (Seção Text Fields)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula UIFormat pelo índice, a partir de um programa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTextField** <br/> |
-| Índice da linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visFieldUIFormat** <br/> |
    
 
