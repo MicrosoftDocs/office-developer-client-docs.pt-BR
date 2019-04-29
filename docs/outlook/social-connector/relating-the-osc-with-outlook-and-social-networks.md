@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f33705cc-8add-42be-9d9f-f4e9245d83f5
 description: O Outlook Social Connector (OSC) pode ser exibido no cartão de contato do Office e nas atividades do Outlook, no status ou nas atualizações de foto de um colega de funcionários, amigo ou pessoa à qual você está associado.
 ms.openlocfilehash: 0ee9451e64f12e8ba371c1ba91a1379cff257313
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329251"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428008"
 ---
 # <a name="relating-the-osc-with-outlook-and-social-networks"></a>Relacionar o OSC ao Outlook e a redes sociais
 
@@ -21,7 +21,7 @@ O Outlook Social Connector (OSC) pode ser exibido no cartão de contato do Offic
   
 Para dar suporte ao compartilhamento de funcionalidade nos aplicativos cliente do Office, o mecanismo principal do OSC é implementado como parte de um componente compartilhado do Office e o painel de pessoas é implementado como um suplemento do Outlook. Para usar o OSC, um usuário do Office deve ter instalado o Outlook nesse computador cliente e configurar o Outlook com um perfil, para que o OSC possa armazenar em cache contatos em uma pasta de contatos. 
   
-Um provedor OSC é uma DLL COM (Component Object Model) que permite ao OSC acessar os dados da rede social de uma maneira que seja independente das APIs de cada rede social. Uma DLL de provedor OSC deve ser instalada localmente em um computador cliente. O provedor OSC de uma rede social conecta o OSC, que faz parte do Outlook, com a rede social na Internet.
+Um provedor de OSC é um Component Object Model (COM) DLL que permite o OSC acessar dados de redes sociais de forma independente das APIs de cada rede social. Uma DLL de provedor OSC deve ser instalada localmente em um computador cliente. O provedor OSC de uma rede social conecta o OSC, que faz parte do Outlook, com a rede social na Internet.
   
 Um provedor de OSC deve implementar um conjunto de interfaces, definido como parte da extensibilidade do provedor OSC, para se comunicar com o OSC. A extensibilidade do provedor OSC está disponível como uma plataforma aberta.
   

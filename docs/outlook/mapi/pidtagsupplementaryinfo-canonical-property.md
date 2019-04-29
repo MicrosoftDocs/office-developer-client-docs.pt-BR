@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: de9635fa77cd0c282723e0f76eabd6bc0d0dbab9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339344"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429751"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Propriedade canônica PidTagSupplementaryInfo
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: db9a8232-25c5-7087-2ae9-50470d0cf16e
 description: Determina o espaço vazio vertical entre todos os conectores na página de desenho.
 ms.openlocfilehash: e98c3e05ffb1739f9b2739ce4e0ee8012afe2266
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358962"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428470"
 ---
 # <a name="linetoliney-cell-page-layout-section"></a>Célula LineToLineY (Seção Page Layout)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula LineToLineY pelo índice a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOLineToLineY** <br/> |
    
 

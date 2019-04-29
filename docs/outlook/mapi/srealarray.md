@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8439d6609ebece75699a1150a9d0c1a41277fd52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429870"
 ---
 # <a name="srealarray"></a>SRealArray
 

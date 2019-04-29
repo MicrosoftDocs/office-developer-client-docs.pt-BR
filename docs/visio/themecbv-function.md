@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
 description: Retorna um valor RGB ou um inteiro que representa um índice na paleta de cores do documento, onde a cor (número) passada como um argumento foi modificada pelo valor de tonalidade ou sombreamento especificado, armazenado nas configurações de gradiente do tema ativo.
 ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332260"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429135"
 ---
 # <a name="themecbv-function"></a>Função THEMECBV
 
@@ -29,7 +29,7 @@ Version Added: Visio 2013
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obrigatório  <br/> |**Número** <br/> |Um número que representa um índice na paleta de cores do documento.  <br/> |
 | _gradient_stop_number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O limite de gradiente (tonalidade ou sombreamento) armazenado nas configurações de gradiente do tema ativo a ser aplicado à cor.  <br/> |
