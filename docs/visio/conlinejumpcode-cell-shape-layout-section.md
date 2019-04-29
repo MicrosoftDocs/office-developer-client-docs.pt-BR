@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: af85588e-8e83-5168-7a8c-d7e8b4af5c27
 description: Determina quando um conector salta.
 ms.openlocfilehash: 28bf506b8d3729fefec438d259746661fd28586e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421617"
 ---
 # <a name="conlinejumpcode-cell-shape-layout-section"></a>Célula ConLineJumpCode (Seção Shape Layout)
 
@@ -26,11 +26,11 @@ Determina quando um conector salta.
 |1  <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
 |duas  <br/> |Sempre  <br/> |**visSLOJumpAlways** <br/> |
 |3D  <br/> |Outro conector salta  <br/> |**visSLOJumpOther** <br/> |
-|quatro  <br/> |Nenhum conector salta  <br/> |**visSLOJumpNeither** <br/> |
+|4   <br/> |Nenhum conector salta  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula selecionando um conector dinâmico, clicando em **comportamento** no grupo **design da forma** na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **conector** . 
+Também é possível definir o valor desta célula selecionando um conector dinâmico, clicando em **Comportamento**, no grupo **Design da Forma**, na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clicando na guia **Conector**. 
   
 Para obter uma referência para a célula ConLineJumpCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -43,7 +43,7 @@ Para obter uma referência para a célula ConLineJumpCode pelo índice a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOJumpCode** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOJumpCode** <br/> |
    
 

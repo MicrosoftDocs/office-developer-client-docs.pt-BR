@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 214d24bb0b0af525d5e2588c556c37cf720364a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422751"
 ---
 # <a name="gateway-mapping-responsibilities"></a>Responsabilidades de mapeamento do gateway
 

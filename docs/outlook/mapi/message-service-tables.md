@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c644e89511033234aa45c5f82738e4c471ef646d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356907"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422492"
 ---
 # <a name="message-service-tables"></a>Tabelas de serviço de mensagens
 

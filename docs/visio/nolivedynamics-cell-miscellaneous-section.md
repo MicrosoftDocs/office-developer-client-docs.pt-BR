@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Determina se uma forma é redimensionada ou girada dinamicamente à medida que é manipulada.
 ms.openlocfilehash: e332546c1fc5dfc71dfa3b72ea5a58bfef59dc7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340982"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421477"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>Célula NoLiveDynamics (Seção Miscellaneous)
 
@@ -22,7 +22,7 @@ Determina se uma forma é redimensionada ou girada dinamicamente à medida que �
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Não atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
+| VERDADEIRO  <br/> | Não atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
 | FALSE  <br/> | Atualizar dinamicamente a forma à medida que é manipulada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para fazer referência à célula NoLiveDynamics pelo índice a partir de um pro
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visNoLiveDynamics** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visNoLiveDynamics** <br/> |
    
 

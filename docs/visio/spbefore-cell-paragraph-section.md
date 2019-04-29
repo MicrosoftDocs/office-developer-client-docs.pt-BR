@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: Determina a quantidade de espaço inserido antes de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o primeiro parágrafo em um bloco de texto, da célula TopMargin.
 ms.openlocfilehash: 9890910a11990bb5be7fe3ee4af95e578c8d9799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329880"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425754"
 ---
 # <a name="spbefore-cell-paragraph-section"></a>Célula SpBefore (Seção Paragraph)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula SpBefore pelo índice, a partir de um programa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice da linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visSpaceBefore** <br/> |
    
 

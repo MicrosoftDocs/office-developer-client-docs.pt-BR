@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: Determina se esta forma de colocação será movida ao soltar outra forma de colocação próxima a esta forma na página de desenho.
 ms.openlocfilehash: 6e155103f7bfc70a78826297f441fc9ce78942ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423892"
 ---
 # <a name="shapeplowcode-cell-shape-layout-section"></a>Célula ShapePlowCode (Seção Shape Layout)
 
@@ -43,7 +43,7 @@ Para obter uma referência para a célula ShapePlowCode pelo índice, a partir d
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOPlowCode** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOPlowCode** <br/> |
    
 

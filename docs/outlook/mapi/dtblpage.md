@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6f3d98a3133d79f78f4eb676d49ec85ef5a359f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423997"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 

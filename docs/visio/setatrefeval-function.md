@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
 description: Usado no parâmetro def_expressão da função SETATREF para indicar que def_expressão deve ser avaliada antes de atribuir ao parâmetro Reference em SETATREF.
 ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326156"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432979"
 ---
 # <a name="setatrefeval-function"></a>Função SETATREFEVAL
 
@@ -26,7 +26,7 @@ SETATREFEVAL (* * *expr* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expr_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Uma expressão que é avaliada quando a função SETATREF redireciona _def_expressão_ para outra célula.  <br/> |
    

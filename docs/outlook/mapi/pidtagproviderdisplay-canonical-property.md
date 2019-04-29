@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 58db944720817491420f2bcb1774e51e3842b4a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286464"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421589"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Propriedade canônica PidTagProviderDisplay
 

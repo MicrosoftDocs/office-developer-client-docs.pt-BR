@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: 'Determina a largura da imagem do objeto dentro de sua borda. A fórmula padrão é:'
 ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344720"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422828"
 ---
 # <a name="imgwidth-cell-foreign-image-info-section"></a>Célula ImgWidth (Seção Foreign Image Info)
 
@@ -37,7 +37,7 @@ Para fazer referência à célula ImgWidth pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowForeign** <br/> |
+| Índice de linha:  <br/> |**visRowForeign** <br/> |
 | Índice da célula:  <br/> |**visFrgnImgWidth** <br/> |
    
 

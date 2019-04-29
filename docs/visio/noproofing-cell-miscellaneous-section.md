@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
 description: Determina se a ortografia é automaticamente corrigida e se os erros de ortografia são exibidos para a forma selecionada. Obtém um valor booliano.
 ms.openlocfilehash: 8d7eebcc349c54db3cd48d6c5fa3c8fa6f4f760e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431250"
 ---
 # <a name="noproofing-cell-miscellaneous-section"></a>Célula noProofing (seção Miscellaneous)
 
@@ -20,7 +20,7 @@ Determina se a ortografia é automaticamente corrigida e se os erros de ortograf
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |A ortografia não é automaticamente corrigida e os erros de ortografia não são exibidos para a forma selecionada.  <br/> |
+|VERDADEIRO  <br/> |A ortografia não é automaticamente corrigida e os erros de ortografia não são exibidos para a forma selecionada.  <br/> |
 |FALSE  <br/> |A ortografia é automaticamente corrigida e os erros de ortografia são exibidos para a forma selecionada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -36,7 +36,7 @@ Para fazer referência à célula noProofing pelo índice a partir de um program
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowMisc** <br/> |
-|Índice da célula:  <br/> |**visObjNoProofing** <br/> |
+|Índice de linha:  <br/> |**visRowMisc** <br/> |
+|Índice de célula:  <br/> |**visObjNoProofing** <br/> |
    
 

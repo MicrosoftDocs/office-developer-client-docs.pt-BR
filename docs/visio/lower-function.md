@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
 description: Retorna uma cadeia de caracteres convertida em minúsculas.
 ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421239"
 ---
 # <a name="lower-function"></a>Função LOWER
 
@@ -26,13 +26,13 @@ INFERIOR (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Uma cadeia de caracteres, uma referência de célula ou uma expressão: o resultado é convertido em uma cadeia, que é depois convertida em minúsculas.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
 description: Você pode adicionar novas linhas, alterar o tipo de linhas existentes ou excluir linhas no ShapeSheet no Microsoft Visio.
 ms.openlocfilehash: 385d1040527f8c4322fb1f158c1de2deb0e6f59c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338757"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425082"
 ---
 # <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Adicionar, alterar ou excluir linhas no ShapeSheet
 

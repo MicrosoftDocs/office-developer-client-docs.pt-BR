@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 169add60-06b1-4e17-b577-a67cc6c0987c
 description: Compara duas expressões. Quando você compara expressões não nulas, o resultado é TRUE se o operando à esquerda tem um valor menor do que o operando à direita; caso contrário, o resultado será FALSE.
 ms.openlocfilehash: 6a13c038bc72e9c4f4be7dc730a3ebed2c197869
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311092"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424284"
 ---
 # <a name="less-than-access-custom-web-app"></a>Menor que (aplicativo Web personalizado do Access)
 

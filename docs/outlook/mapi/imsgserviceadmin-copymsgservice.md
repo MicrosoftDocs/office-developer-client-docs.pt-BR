@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 72b4ab1fec10b2e91c7609af6644a54d29ed5e02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309965"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432118"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 

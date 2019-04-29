@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indica se o desenho é impresso em um número específico de páginas.
 ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439601"
 ---
 # <a name="onpage-cell-print-properties-section"></a>Célula OnPage (Seção Print Properties)
 
@@ -22,7 +22,7 @@ Indica se o desenho é impresso em um número específico de páginas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Ajustar a página de desenho a um número definido de páginas da impressora.  <br/> |
+|VERDADEIRO  <br/> |Ajustar a página de desenho a um número definido de páginas da impressora.  <br/> |
 |FALSE  <br/> |Não ajusta a página de desenho a um número definido de páginas impressas (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula OnPage pelo índice a partir de um pro
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+|Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 |Índice da célula:  <br/> |**visPrintPropertiesOnPage** <br/> |
    
 

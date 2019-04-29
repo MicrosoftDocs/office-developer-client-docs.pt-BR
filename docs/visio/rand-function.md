@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: Retorna um número de ponto flutuante aleatório de 0,0 a 1,0. Ele retorna um número diferente cada vez que a função é avaliada, que é uma vez por minuto de acordo com o relógio do sistema.
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360001"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424522"
 ---
 # <a name="rand-function"></a>Função RAND
 
@@ -26,7 +26,7 @@ RAND( )
   
 ### <a name="return-value"></a>Valor de retorno
 
-Ponto
+Flutuação
   
 ## <a name="remarks"></a>Comentários
 

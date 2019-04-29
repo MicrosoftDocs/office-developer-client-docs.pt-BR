@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b3862ea539907bb0570a0e845b09a15e7bed0507
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425196"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 

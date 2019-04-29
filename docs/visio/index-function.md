@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
 description: Retorna a subcadeia de caracteres no índice de local baseado em zero na lista delimitada por delimitador. Ou, se o índice estiver fora do intervalo, retorna uma cadeia de caracteres vazia ou o token opcional fornecido como o argumento errorvalue.
 ms.openlocfilehash: 11362ed984a489682d57f007300e60de548ddf11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344727"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431572"
 ---
 # <a name="index-function"></a>Função INDEX
 
@@ -26,10 +26,10 @@ Index (* * *index* * *, "* * *list* * *" [, [* * ** delimitador * *] [, [* * *er
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _índice_ <br/> |Obrigatório  <br/> |**Número** <br/> |A localização que deseja encontrar.  <br/> |
-| _lista_ <br/> |Obrigatório  <br/> |**String** <br/> |A lista na qual deseja fazer a pesquisa.  <br/> |
+| _list_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A lista na qual deseja fazer a pesquisa.  <br/> |
 | _delimitador_ <br/> |Opcional  <br/> |**String** <br/> | A cadeia de caracteres a ser usada como um delimitador na _lista_. Uma __ cadeia de caracteres de delimitador pode ter mais de um caractere e incluir caracteres multibyte. O padrão é um ponto-e-vírgula.  <br/> |
 | _errorvalue_ <br/> |Opcional  <br/> |**Número** <br/> | Um valor especificado pelo usuário para retornar se o índice estiver fora do intervalo. O padrão é uma cadeia de caracteres vazia.  <br/> |
    

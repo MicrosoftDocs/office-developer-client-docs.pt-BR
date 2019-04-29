@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 73d905028f8f62ad8cbb9da9b1ad61b8cab1065e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340072"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422023"
 ---
 # <a name="mapi-progress-objects"></a>Objetos Progress de MAPI
 

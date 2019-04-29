@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 29677ce74f405e8ca03f1639f3d98288532e9653
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287011"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424613"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 

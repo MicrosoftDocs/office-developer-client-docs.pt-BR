@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b6900cbacc2bea6c5519efdc4281ca98629b23bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425670"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>Propriedade canônica PidTagMessageSecurityLabel
 

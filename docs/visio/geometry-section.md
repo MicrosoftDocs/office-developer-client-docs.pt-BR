@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
 description: Contém linhas que listam as coordenadas das vértices para as linhas e arcos que compõem a forma.
 ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423906"
 ---
 # <a name="geometry-section"></a>Seção Geometry
 
@@ -26,7 +26,7 @@ A geometria de uma forma pode ser expressa em várias seções de **geometria** 
 
 A seção **Geometry** contém os seguintes tipos de linha. Para obter mais detalhes, consulte os tópicos sobre linhas. 
   
-|**Linha**|**Descrição**|
+|**Row**|**Descrição**|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |Move para uma coordenada.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |Desenha uma linha para uma coordenada.  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3064e1a09ad8850e121da678f3702a6236574599
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420595"
 ---
 # <a name="functions-in-the-generic-dll"></a>Funções na DLL genérica
 

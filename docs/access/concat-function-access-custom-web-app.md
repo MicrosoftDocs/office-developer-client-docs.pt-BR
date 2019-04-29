@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 38ad6365-79df-4342-9b76-ca27b8ab8952
 description: Retorna uma cadeia de caracteres com o resultado da combinação de dois ou mais valores de cadeia de caracteres.
 ms.openlocfilehash: b8f52c292e64939f9464bc666ecc4bc341580f94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282289"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423269"
 ---
 # <a name="concat-function-access-custom-web-app"></a>Função Concat (aplicativo Web personalizado do Access)
 

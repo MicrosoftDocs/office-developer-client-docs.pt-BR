@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: Retorna um valor de moeda.
 ms.openlocfilehash: 65c88d69669e2fa7f708402d9d50dfe035456edb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433553"
 ---
 # <a name="cy-function"></a>Função CY
 
@@ -26,7 +26,7 @@ CY (* * *valor* * *, * * *cyID* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _value_ <br/> |Opcional  <br/> |**Número ou Cadeia de caracteres** <br/> |Um número ou uma cadeia de caracteres que inclui formatação específica da moeda. Se não for especificado, o valor de moeda é formatado de acordo com o estilo de moeda nas configurações de idioma e região do sistema.  <br/> |
 | _cyID_ <br/> |Opcional  <br/> |**Número** <br/> |Uma ID de moeda numérica ou uma cadeia de caracteres entre aspas de três caracteres para a abreviação ISO 4217.  <br/> |

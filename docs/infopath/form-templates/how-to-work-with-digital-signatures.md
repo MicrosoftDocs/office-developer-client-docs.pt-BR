@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: O modelo de objeto do namespace Microsoft. Office. InfoPath fornece recursos para trabalhar com assinaturas digitais programaticamente.
 ms.openlocfilehash: ea657f80f6e38a06a91e19c245eadc203c7c580c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303581"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425572"
 ---
 # <a name="work-with-digital-signatures"></a>Trabalhar com assinaturas digitais
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
 description: Retorna um inteiro de 1 a 12 que representa um mês.
 ms.openlocfilehash: 71ecc7992839c871780e9b703377db37279246e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431971"
 ---
 # <a name="month-function-visioshapesheet"></a>Função MONTH (VisioShapeSheet)
 
@@ -26,10 +26,10 @@ MONTH ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
