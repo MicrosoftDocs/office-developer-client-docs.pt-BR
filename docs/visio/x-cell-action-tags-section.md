@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
 description: A posição da coordenada x nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.
 ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335765"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431110"
 ---
 # <a name="x-cell-action-tags-section"></a>Célula X (Seção Action Tags)
 
@@ -31,7 +31,7 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> |SmartTags. *nome* . X em que SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> |SmartTags. *nome* . X em que SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

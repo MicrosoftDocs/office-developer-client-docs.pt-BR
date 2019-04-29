@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
 description: Retorna uma data e hora com base em um ano especificado, mês, dia e hora.
 ms.openlocfilehash: ee995d346ca27e683f342cf3f611c1147997d24e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282137"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422086"
 ---
 # <a name="datewithtimefromparts-function-access-custom-web-app"></a>Função DateWithTimeFromParts (aplicativo Web personalizado do Access)
 

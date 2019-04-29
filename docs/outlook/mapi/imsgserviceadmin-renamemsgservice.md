@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2f0f1fb94ea36512bbc40df8a4877e89d2613a25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309979"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422100"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 

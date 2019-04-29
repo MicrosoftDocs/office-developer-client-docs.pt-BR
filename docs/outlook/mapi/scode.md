@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4208f51af44055b03c65b51c9b3d94e947dc9b68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351237"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430130"
 ---
 # <a name="scode"></a>SCODE
 

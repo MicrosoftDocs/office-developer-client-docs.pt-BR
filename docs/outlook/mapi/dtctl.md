@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2a2ca1fba5dceb45b41c2f25a96e163f02c41440
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339407"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421498"
 ---
 # <a name="dtctl"></a>DTCTL
 

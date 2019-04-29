@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3537de44-8d6f-4bd9-bf8c-fa851fc007b9
 description: Indica se o texto da forma ignorará a rotação da forma em 3D. Não se aplica à rotação 2D.
 ms.openlocfilehash: fc8cf2fac431645876c7f81ed9864cb6c2036169
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422037"
 ---
 # <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>Célula KeepTextFlat (seção 3-D Rotation Properties)
 
@@ -22,7 +22,7 @@ Indica se o texto da forma ignorará a rotação da forma em 3D. Não se aplica 
 
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O texto da forma não gira com a geometria da forma.  <br/> |
+|VERDADEIRO  <br/> |O texto da forma não gira com a geometria da forma.  <br/> |
 |FALSE  <br/> |O texto da forma é transformado para girar com a geometria da forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,7 +38,7 @@ Para obter uma referência para a célula **KeepTextFlat** pelo índice a partir
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRow3DRotationProperties** <br/> |
+|Índice de linha:  <br/> |**visRow3DRotationProperties** <br/> |
 |Índice da célula:  <br/> |**visKeepTextFlat** <br/> |
    
 

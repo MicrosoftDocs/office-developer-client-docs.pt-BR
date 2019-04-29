@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8dbcb871-e133-4c98-91bd-b3a00b93bc0b
 description: Retorna o valor de data atual no fuso horário definido pelo aplicativo
 ms.openlocfilehash: 46acc3776653d7b37b2c73776a0caec3e480e551
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422121"
 ---
 # <a name="today-function-access-custom-web-app"></a>Função hoje (aplicativo Web personalizado do Access)
 

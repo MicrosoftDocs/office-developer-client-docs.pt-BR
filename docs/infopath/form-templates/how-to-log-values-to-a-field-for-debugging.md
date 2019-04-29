@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar em log os valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. Os procedimentos a seguir mostram como criar um campo de várias linhas e, em seguida, adicionar funções auxiliares ao código de formulário que permite que você registre os dados de depuração nesse campo.
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303574"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431810"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>Valores de log para um campo de depuração
 

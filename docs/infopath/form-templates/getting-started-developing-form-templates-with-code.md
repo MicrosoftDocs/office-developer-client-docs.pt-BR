@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: Esta seção fornece informações sobre como começar a criar modelos de formulário de código gerenciado que funcionam com o modelo de objeto do InfoPath fornecido por membros do namespace Microsoft. Office. InfoPath.
 ms.openlocfilehash: 59167533eba6dd3537b6c5c0170ef32b795b02cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303700"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437984"
 ---
 # <a name="getting-started-developing-form-templates-with-code"></a>Introdução ao desenvolvimento de modelos de formulário com código
 

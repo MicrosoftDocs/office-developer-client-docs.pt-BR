@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c44457ca-997a-5315-44dd-4218e4203550
 description: Indica o raio do arco de arredondamento aplicado onde dois segmentos contíguos de um caminho se encontram. Por exemplo, o arredondamento pode ser utilizado nos cantos de um retângulo. Para definir o arredondamento, insira um valor com unidades de medida (um par de unidades numéricas).
 ms.openlocfilehash: d64d3266e3dd2b0a3998955efe271aab04905fbf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358576"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427007"
 ---
 # <a name="rounding-cell-line-format-section"></a>Célula Rounding (Seção Line Format)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula Rounding pelo índice, a partir de um 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowLine** <br/> |
-|Índice da célula:  <br/> |**visLineRounding** <br/> |
+|Índice de linha:  <br/> |**visRowLine** <br/> |
+|Índice de célula:  <br/> |**visLineRounding** <br/> |
    
 

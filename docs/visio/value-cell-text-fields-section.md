@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: Contém a função para um campo.
 ms.openlocfilehash: d5a09dd0d59341125db897484f74addff22328de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320199"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430942"
 ---
 # <a name="value-cell-text-fields-section"></a>Célula Value (Seção Text Fields)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula Value pelo índice, a partir de um programa, u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionTextField** <br/> |
-|Índice da linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visFieldCell** <br/> |
    
 

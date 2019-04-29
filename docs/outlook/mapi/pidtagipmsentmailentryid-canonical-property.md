@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fd29afc93bc952bb619dfac752fae232bf7991cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437319"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriedade canônica PidTagIpmSentMailEntryId
 
@@ -32,7 +32,7 @@ Contém o identificador de entrada da pasta Itens enviados padrão de mensagem i
 |Propriedades associadas:  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E4  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

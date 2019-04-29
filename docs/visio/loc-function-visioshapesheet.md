@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
 description: Usa um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expresso nas coordenadas locais da forma associada à fórmula.
 ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422422"
 ---
 # <a name="loc-function-visioshapesheet"></a>Função LOC (VisioShapeSheet)
 
@@ -26,13 +26,13 @@ LOC (* * *ponto* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ponto_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto definido nas coordenadas locais de uma forma.  <br/> |
+| _ponto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Um ponto definido nas coordenadas locais de uma forma.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

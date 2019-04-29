@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 524b52026010b9a06d5822b48b7c04bbf90a113e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348920"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423955"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 

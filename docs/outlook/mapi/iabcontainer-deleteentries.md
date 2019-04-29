@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e3b238129e55e03da33ef3af75ecce7e73fbad03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339379"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425593"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 

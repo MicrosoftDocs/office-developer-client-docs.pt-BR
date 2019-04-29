@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431705"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 

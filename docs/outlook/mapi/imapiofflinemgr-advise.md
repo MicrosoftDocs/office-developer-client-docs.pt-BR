@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3ca7fdc39da8d3ee8ecf6f0f253284df10a392e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321424"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426916"
 ---
 # <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
 

@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423703"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propriedade canônica PidTagReportDisposition
 
@@ -34,7 +34,7 @@ Indica o status de recebimento das mensagens que solicitam recebimentos.
    
 ## <a name="remarks"></a>Comentários
 
-A seguir estão valores válidos:
+A seguir, os valores válidos:
   
 - excluídos
     

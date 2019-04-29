@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
 ms.openlocfilehash: 9e443302e49bad4a586b657a6de298dafbeefab4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437851"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 

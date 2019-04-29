@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea95a90c-4729-4689-a6f4-31dfccf37b9b
 description: Determina o índice de cores da variação de tema ativa na página, como um inteiro.
 ms.openlocfilehash: 7582b779fb5be6bdf3528da137b1b08b8cd9c01a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431768"
 ---
 # <a name="variationcolorindex-cell-theme-properties-section"></a>Célula VariationColorIndex (seção Theme Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **VariationColorIndex** pelo índice a
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowThemeProperties** <br/> |
+| Índice de linha:  <br/> |**visRowThemeProperties** <br/> |
 | Índice da célula:  <br/> |**visVariationColorIndex** <br/> |
    
 

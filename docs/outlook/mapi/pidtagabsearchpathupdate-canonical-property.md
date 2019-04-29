@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 86258711d7cc6bc1933102f7579bb46339a138de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426587"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Propriedade canônica PidTagAbSearchPathUpdate
 

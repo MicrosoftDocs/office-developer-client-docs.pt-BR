@@ -6,11 +6,11 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9171b1b2-470e-428f-a026-e348d28d9dc2
 ms.openlocfilehash: 169257af588f5a6cf561304bb79c2d7e704d7287
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282261"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420980"
 ---
 # <a name="concepts-access-custom-web-app"></a>Conceitos (aplicativo da web personalizado do Access)
 

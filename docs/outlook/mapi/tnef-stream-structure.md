@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7e77c043e4f152740af9bdb2b8fb5b7bedece1c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327381"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430200"
 ---
 # <a name="tnef-stream-structure"></a>Estrutura de fluxo TNEF
 
@@ -31,7 +31,7 @@ A chave é um inteiro não assinado de 16 bits sem sinal, que significa o valor 
   
 A implementação TNEF usa identificadores de atributo para mapear atributos para suas propriedades MAPI correspondentes. Um identificador de atributo é um inteiro não assinado de 32 bits composto por dois valores de palavra. A palavra de ordem alta indica o tipo de dados, como cadeia de caracteres ou binário, e a palavra de ordem inferior identifica o atributo específico. Os tipos de dados na palavra de ordem alta são:
   
-|**Tipo**|**Valor**|
+|**Type**|**Valor**|
 |:-----|:-----|
 |atpTriples  <br/> |0x0000  <br/> |
 |atpString  <br/> |0x0001  <br/> |

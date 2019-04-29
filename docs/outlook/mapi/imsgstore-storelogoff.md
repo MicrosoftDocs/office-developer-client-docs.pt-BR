@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: be11c536804682d1baec8188b6d7487c71d411e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348738"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424333"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 

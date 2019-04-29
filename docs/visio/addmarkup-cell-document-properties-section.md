@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indica se as marcações do documento estão sendo revisadas.
 ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338630"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427630"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>Célula AddMarkup (Seção Document Properties)
 
@@ -22,7 +22,7 @@ Indica se as marcações do documento estão sendo revisadas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O documento está sendo revisado.  <br/> |
+|VERDADEIRO  <br/> |O documento está sendo revisado.  <br/> |
 |FALSE  <br/> |O documento não está sendo revisado (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -45,7 +45,7 @@ Para fazer referência à célula AddMarkup pelo índice a partir de um programa
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowDoc** <br/> |
+|Índice de linha:  <br/> |**visRowDoc** <br/> |
 |Índice da célula:  <br/> |**visDocAddMarkup** <br/> |
    
 

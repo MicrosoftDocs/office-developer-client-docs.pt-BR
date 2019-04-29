@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
 description: Determina o tamanho do bloco vertical, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
 ms.openlocfilehash: 08f2012bb027267810c21ef253a0073bb42d3a96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297344"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427399"
 ---
 # <a name="blocksizey-cell-page-layout-section"></a>Célula BlockSizeY (Seção Page Layout)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula BlockSizeY pelo índice a partir de um
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOBlockSizeY** <br/> |
    
 

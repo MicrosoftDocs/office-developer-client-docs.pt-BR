@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
 description: Determina o ângulo de rotação atual do bloco de texto em relação ao eixo x da forma. O padrão é 0 grau.
 ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280734"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432167"
 ---
 # <a name="txtangle-cell-text-transform-section"></a>Célula TxtAngle (Seção Text Transform)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula TxtAngle pelo índice, a partir de um programa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowTextXForm** <br/> |
+| Índice de linha:  <br/> |**visRowTextXForm** <br/> |
 | Índice da célula:  <br/> |**visXFormAngle** <br/> |
    
 

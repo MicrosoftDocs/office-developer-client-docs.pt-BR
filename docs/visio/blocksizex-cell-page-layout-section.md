@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
 description: Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
 ms.openlocfilehash: 8e4cee4b2059d9b8f2fe77c2d4902e67246eac2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309475"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424186"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>Célula BlockSizeX (Seção Page Layout)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula BlockSizeX pelo índice a partir de um
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOBlockSizeX** <br/> |
    
 

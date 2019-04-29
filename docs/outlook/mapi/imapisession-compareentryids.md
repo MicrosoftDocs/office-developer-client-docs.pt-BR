@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4dfde82aa843072168288f4e0b0084dfccd5cd2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427812"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 

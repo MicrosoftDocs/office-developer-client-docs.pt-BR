@@ -9,11 +9,11 @@ api_type:
 ms.assetid: fbfe2303-b7bc-456b-b746-37f4f4e3eff7
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0680c84caf52badb446fed8d31c68a26b06f4d1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355724"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431278"
 ---
 # <a name="local-form-libraries"></a>Bibliotecas de formulários locais
 

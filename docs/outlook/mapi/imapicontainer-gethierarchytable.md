@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: efc7f7a2fa703004afe361d766e0209ba40ffe46
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286936"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426195"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 

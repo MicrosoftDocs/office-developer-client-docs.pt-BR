@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426349"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriedade canônica PidTagIpmWastebasketEntryId
 
@@ -32,7 +32,7 @@ Contém o identificador de entrada da pasta itens excluídos padrão de mensagem
 |Propriedades associadas:  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E3  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

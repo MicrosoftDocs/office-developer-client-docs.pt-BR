@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d14a735c-0278-922f-7823-79adf6cb1e64
 description: Retorna o ponto representado pelas coordenadas x e y como um único valor.
 ms.openlocfilehash: c0a12aa18f4c766ea1f5b0fa1d827804d766713c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322348"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435709"
 ---
 # <a name="pnt-function"></a>Função PNT
 
@@ -26,7 +26,7 @@ PNT (* * *x, y* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _x, y_ <br/> |Obrigatório  <br/> |**Número, Número** <br/> |As coordenadas do ponto do sistema de coordenadas da forma atual.  <br/> |
    

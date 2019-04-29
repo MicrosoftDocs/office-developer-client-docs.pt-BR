@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Determina o nível de transparência para a cor do plano de fundo (preenchimento) do padrão de preenchimento da forma.
 ms.openlocfilehash: 64c5d09fb18f089769e025893b9fac8b1878fca1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423206"
 ---
 # <a name="fillbkgndtrans-cell-fill-format-section"></a>Célula FillBkgndTrans (Seção Fill Format)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula FillBkgndTrans pelo índice a partir d
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowFill** <br/> |
+|Índice de linha:  <br/> |**visRowFill** <br/> |
 |Índice da célula:  <br/> |**visFillBkgndTrans** <br/> |
    
 

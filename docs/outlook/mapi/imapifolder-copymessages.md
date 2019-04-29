@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424452"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -116,7 +116,7 @@ Use **IMAPIFolder:: CopyMessages** para preencher as pastas de resultados de pes
   
 Espere estes valores de retorno sob as condições a seguir.
   
-|**Condition**|**Valor retornado**|
+|**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |**IMAPIFolder:: CopyMessages** copiou ou moveu com êxito todas as mensagens.  <br/> |S_OK  <br/> |
 |**IMAPIFolder:: CopyMessages** não pôde copiar ou mover com êxito todas as mensagens.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

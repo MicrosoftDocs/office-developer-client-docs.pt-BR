@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fe87de4466413e317edea5d358c9e4769d0c5593
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424074"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
 description: Confirma as alterações no objeto Account gravando no repositório do registro.
 ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425831"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 

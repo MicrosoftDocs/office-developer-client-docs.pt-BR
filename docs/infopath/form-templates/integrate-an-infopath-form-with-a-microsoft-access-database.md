@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: O Microsoft InfoPath dá suporte ao uso de um banco de dados do Microsoft Access 2010 como a fonte de dados primária para um formulário, ou como uma fonte de dados secundária para um formulário ou controle. Este artigo explica como usar um banco de dados do Access 2010 como uma fonte de dados.
 ms.openlocfilehash: dbc39e0d0908214904d77b8955f3d231f0bfb20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303511"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423108"
 ---
 # <a name="integrate-an-infopath-form-with-a-microsoft-access-database"></a>Integrar um formulário do InfoPath a um banco de dados do Microsoft Access
 

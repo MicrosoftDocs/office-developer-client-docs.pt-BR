@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Retorna um ponto transformado em coordenadas locais no sistema de coordenadas de destino.
 ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358034"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427483"
 ---
 # <a name="loctoloc-function"></a>Função LOCTOLOC
 
@@ -26,15 +26,15 @@ LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
-| _srcRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
-| _dstRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
+| _srcPoint_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
+| _srcRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
+| _dstRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

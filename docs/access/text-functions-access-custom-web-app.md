@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31bda053-637f-4e1c-b9e0-817e5c3c5170
 ms.openlocfilehash: cc911f9598b9c5586b5be727d28195ab5f2662cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307858"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426986"
 ---
 # <a name="text-functions-access-custom-web-app"></a>Funções de texto (aplicativo da Web personalizado do Access)
 

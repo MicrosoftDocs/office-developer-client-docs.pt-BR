@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtém um enumerador para as contas da categoria ou tipo específico.
 ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423045"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 

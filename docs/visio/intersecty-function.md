@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: Retorna a coordenada y (no sistema de coordenadas locais) do ponto em que duas linhas fazem interseção.
 ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335256"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426097"
 ---
 # <a name="intersecty-function"></a>Função INTERSECTY
 
@@ -26,7 +26,7 @@ INTERSECTX (* * *X1* * *, * * *Y1* * *, * * *angle1* * *, * * *X2* * *, * * *Y2*
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _X1_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _x_de um ponto na primeira linha.  <br/> |
 | _a1_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _y_de um ponto na primeira linha.  <br/> |

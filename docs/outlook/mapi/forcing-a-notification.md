@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 54eaf9e67da1b520896122c937508a90700a0b84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328095"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433280"
 ---
 # <a name="forcing-a-notification"></a>Forçar uma notificação
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: Executa um verbo para o objeto OLE.
 ms.openlocfilehash: c339d03a00afdf7f777bb0624ddb8fa75f277e05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435659"
 ---
 # <a name="dooleverb-function"></a>Função DOOLEVERB
 
@@ -26,9 +26,9 @@ DOOLEVERB ("* * *verbo* * *")
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _verbo_ <br/> |Obrigatório  <br/> |**String** <br/> |O verbo a ser executado.  <br/> |
+| _verbo_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O verbo a ser executado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

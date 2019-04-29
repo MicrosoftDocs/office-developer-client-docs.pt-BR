@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 77892ec7-4c6a-78a5-5af4-5b6be7709e77
 description: Determina a direção dos saltos de linha em conectores dinâmicos horizontais na página de desenho para a qual uma direção de salto local não foi aplicada.
 ms.openlocfilehash: 4e1213990877e1260cc8cecd5a55beda4592a844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283734"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431005"
 ---
 # <a name="pagelinejumpdirx-cell-page-layout-section"></a>Célula PageLineJumpDirX (Seção Page Layout)
 
@@ -39,7 +39,7 @@ Para fazer referência à célula PageLineJumpDirX pelo índice a partir de um p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOJumpDirX** <br/> |
    
 

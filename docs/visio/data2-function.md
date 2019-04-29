@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1edb72af-52ce-eb21-080d-2eb516300ff7
 description: Retorna o texto da caixa dados 2 na caixa de diálogo nome da forma para uma forma (na guia desenvolvedor, clique em nome da forma), como uma cadeia de caracteres.
 ms.openlocfilehash: 6545fc285d7b70d134491620fcb763086e75195a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421022"
 ---
 # <a name="data2-function"></a>Função DATA2
 

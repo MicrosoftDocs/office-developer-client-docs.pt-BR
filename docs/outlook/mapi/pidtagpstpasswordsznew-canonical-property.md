@@ -11,11 +11,11 @@ api_type:
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5014fb5cec04a2e4e9dcb5878098283fbb230bd3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350740"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430319"
 ---
 # <a name="pidtagpstpasswordsznew-canonical-property"></a>Propriedade canônica PidTagPstPasswordSzNew
 

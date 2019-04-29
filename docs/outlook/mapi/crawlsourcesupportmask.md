@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cc3fcedb73b4acbd85529615d857403b4c268f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333044"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420910"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: Indica se as formas na página podem ser divididas automaticamente.
 ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422016"
 ---
 # <a name="pageshapesplit-cell-page-layout-section"></a>Célula PageShapeSplit (Seção Page Layout)
 
@@ -44,7 +44,7 @@ Para obter uma referência para a célula PageShapeSplit pelo índice, a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOSplit** <br/> |
    
 

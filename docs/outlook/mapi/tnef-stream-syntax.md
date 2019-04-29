@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 12d2a92ff80897456707c7ab8af8f704605c85d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339631"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423024"
 ---
 # <a name="tnef-stream-syntax"></a>Sintaxe de fluxo TNEF
 

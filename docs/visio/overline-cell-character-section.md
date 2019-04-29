@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: Determina se o texto conterá uma linha acima dele.
 ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431642"
 ---
 # <a name="overline-cell-character-section"></a>Célula Overline (Seção Character)
 
@@ -22,7 +22,7 @@ Determina se o texto conterá uma linha acima dele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O texto contém uma linha acima dele.  <br/> |
+|VERDADEIRO  <br/> |O texto contém uma linha acima dele.  <br/> |
 |FALSE  <br/> |O texto não contém uma linha acima dele.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para obter uma referência para a célula Overline pelo índice a partir de um p
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-|Índice da linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visCharacterOverline** <br/> |
    
 

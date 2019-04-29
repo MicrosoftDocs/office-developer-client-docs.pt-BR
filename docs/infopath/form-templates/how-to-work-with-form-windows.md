@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: Ao trabalhar de forma programática com um formulário do InfoPath, você pode escrever código para acessar o Windows do formulário e, em seguida, personalizar alguns dos itens que eles contêm. O modelo de objeto do InfoPath fornecido pelo namespace Microsoft. Office. InfoPath oferece suporte ao acesso a janelas de um formulário por meio do uso da classe Window em associação com a classe WindowCollection.
 ms.openlocfilehash: 018357519e27629c29b2611bd0a88b8d64f0a1eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303553"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431061"
 ---
 # <a name="work-with-form-windows"></a>Trabalhar com janelas de formulários
 
@@ -36,8 +36,8 @@ A [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollecti
   
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Obtém uma contagem do número de objetos [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contidos na coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Obtém uma referência para o objeto [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) especificado.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Obtém uma contagem do número de objetos [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contidos na coleção.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Obtém uma referência para o objeto [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) especificado.  <br/> |
    
 ## <a name="overview-of-the-window-class"></a>Visão geral da classe Window
 

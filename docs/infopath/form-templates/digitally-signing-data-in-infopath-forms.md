@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: Uma assinatura digital é uma marca de autenticação eletrônica, baseada em criptografia e segura em uma macro ou em um documento. Uma assinatura digital válida confirma que os dados originados do signatário não foram alterados desde que foi assinado. Quando documentos ou determinados dados nos documentos são assinados, a assinatura é calculada e adicionada ao documento. Dessa forma, as assinaturas sempre irão viajar com os dados assinados.
 ms.openlocfilehash: 6c1f5a1c14c15bc88839dc44d9a5a595d8b52893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300242"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425096"
 ---
 # <a name="digitally-signing-data-in-infopath-forms"></a>Assinar digitalmente dados em formulários do InfoPath
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5f2abb1a-fcf5-4d06-9576-34a50e21c911
 description: Representa o número de porta da conta SMTP.
 ms.openlocfilehash: 8ef40bf426787074470a503a98e031c6ceac5c2d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326422"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431866"
 ---
 # <a name="propsmtpport"></a>PROP_SMTP_PORT
 

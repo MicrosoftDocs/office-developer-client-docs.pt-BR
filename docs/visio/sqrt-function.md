@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Retorna a raiz quadrada de um número.
 ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349354"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425019"
 ---
 # <a name="sqrt-function"></a>Função SQRT
 
@@ -26,9 +26,9 @@ SQRT (* * *número* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número cuja raiz quadrada você deseja localizar.  <br/> |
+| _number_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número cuja raiz quadrada você deseja localizar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

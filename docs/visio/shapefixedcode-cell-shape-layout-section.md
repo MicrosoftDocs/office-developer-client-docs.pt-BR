@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: Especifica o comportamento de posicionamento de uma forma de colocação.
 ms.openlocfilehash: eae44a0579129fbe8da1c0cc8c37318beb024563
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325729"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431740"
 ---
 # <a name="shapefixedcode-cell-shape-layout-section"></a>Célula ShapeFixedCode (Seção Shape Layout)
 
@@ -48,7 +48,7 @@ Para obter uma referência para a célula ShapeFixedCode pelo índice, a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOFixedCode** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOFixedCode** <br/> |
    
 

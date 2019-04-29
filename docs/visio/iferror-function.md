@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 232fa528-2375-90be-8e18-7a064ce1345e
 description: Retorna o resultado avaliado de uma expressão primária, se ela não for avaliada como um erro. Caso contrário, retornará o valor avaliado de uma expressão alternativa.
 ms.openlocfilehash: 7b9b42b5c7e7053bae862ddadf17e65015d8ecc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344811"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431173"
 ---
 # <a name="iferror-function"></a>Função IFERROR
 
@@ -29,10 +29,10 @@ SEERRO (* * *expressão primária* * *, * * *expressão alternativa* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão principal_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira expressão a ser avaliada.  <br/> |
-| _expressão alternativa_ <br/> |Obrigatório  <br/> |**String** <br/> |A expressão alternativa a ser avaliada caso a expressão principal resulte em erro.  <br/> |
+| _expressão principal_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A primeira expressão a ser avaliada.  <br/> |
+| _expressão alternativa_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A expressão alternativa a ser avaliada caso a expressão principal resulte em erro.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

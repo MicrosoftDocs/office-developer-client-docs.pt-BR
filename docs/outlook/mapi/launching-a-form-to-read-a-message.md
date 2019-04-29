@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 439927dc78941f086c025d77c76236497d3f4a15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425929"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>Iniciar um formulário para ler uma mensagem
 
