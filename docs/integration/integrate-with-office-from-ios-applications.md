@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: O Office para iOS oferece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode fazer a integração com o Office a partir do seu aplicativo iOS, passando usuários do seu aplicativo para o Office e, em seguida, retornando-os ao seu aplicativo.
 ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299741"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413847"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Integração do Office com aplicativos do iOS
 

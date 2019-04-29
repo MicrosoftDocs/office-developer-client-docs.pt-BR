@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f1d1895cc6f9e65929781cb0e966873d2bce197c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345854"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423374"
 ---
 # <a name="mapi-messages"></a>Mensagens MAPI
 

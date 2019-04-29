@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: Para formatar um número como uma moeda, utilize a função CY e passe uma constante opcional para especificar a moeda de que país/região será utilizada. As constantes de moeda podem ser especificadas como o número de identificação correspondente a um país/uma região ou como uma cadeia de caracteres (entre aspas duplas) correspondente a uma abreviatura de três caracteres ISO 4217.
 ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344583"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421792"
 ---
 # <a name="about-currency-constants"></a>Sobre constantes de moeda
 
@@ -29,15 +29,15 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | ,0  <br/> | SISTEMA  <br/> | Utiliza configurações de sistema  <br/> |
 | 1  <br/> | XXX  <br/> | Formata como um número  <br/> |
 | 2 - 9  <br/> | Reserved  <br/> |
-| 254  <br/> | EUR  <br/> | Símbolo  <br/> |
-| 11  <br/> | AMERICANOS  <br/> | Dólar americano  <br/> |
-| 3,6  <br/> | ATS  <br/> | Xelim austríaco  <br/> |
-| Treze  <br/> | AUD  <br/> | Dólar australiano  <br/> |
-| 14  <br/> | BEF  <br/> | Franco belga  <br/> |
-| 15  <br/> | PROJETOS  <br/> | Dólar canadense  <br/> |
-| dezesseis  <br/> | CHF  <br/> | Franco suíço  <br/> |
-| 17.07.06  <br/> | CNY  <br/> | Yuan chinês  <br/> |
-| anos  <br/> | DEM  <br/> | Marco alemão  <br/> |
+| 10   <br/> | EUR  <br/> | Símbolo  <br/> |
+| 11   <br/> | AMERICANOS  <br/> | Dólar americano  <br/> |
+| 12  <br/> | ATS  <br/> | Xelim austríaco  <br/> |
+| 13   <br/> | AUD  <br/> | Dólar australiano  <br/> |
+| 14   <br/> | BEF  <br/> | Franco belga  <br/> |
+| 15   <br/> | PROJETOS  <br/> | Dólar canadense  <br/> |
+| 16   <br/> | CHF  <br/> | Franco suíço  <br/> |
+| 17   <br/> | CNY  <br/> | Yuan chinês  <br/> |
+| 18   <br/> | DEM  <br/> | Marco alemão  <br/> |
 | 19  <br/> | DKK  <br/> | Coroa dinamarquesa  <br/> |
 | 508  <br/> | ESP  <br/> | Peseta espanhola  <br/> |
 | 21  <br/> | FIM  <br/> | Marco finlandês  <br/> |

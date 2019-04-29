@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
 description: O deslocamento x do botão de marca de ação em relação ao ponto definido pelas células X e Y.
 ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284969"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414120"
 ---
 # <a name="x-justify-cell-action-tags-section"></a>Célula X Justify (Seção Action Tags)
 
@@ -37,7 +37,7 @@ Para fazer referência à célula X Justify pelo nome, de outra fórmula ou prog
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . XJustify onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . XJustify onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula X Justify pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -45,6 +45,6 @@ Para fazer referência à célula X Justify pelo índice, a partir de um program
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
 | Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visSmartTagXJustify** <br/> |
+| Índice de célula:  <br/> |**visSmartTagXJustify** <br/> |
    
 

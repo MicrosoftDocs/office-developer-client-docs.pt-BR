@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
 description: Abre um documento do Microsoft Visio, se ainda não estiver aberto, e ativa a janela do documento.
 ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360953"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419573"
 ---
 # <a name="openfile-function"></a>Função OPENFILE
 
@@ -26,9 +26,9 @@ Abre um documento do Microsoft Visio, se ainda não estiver aberto, e ativa a ja
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _nomes_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome do arquivo, incluindo o caminho do arquivo, que você deseja abrir.  <br/> |
+| _nomes_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O nome do arquivo, incluindo o caminho do arquivo, que você deseja abrir.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

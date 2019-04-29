@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
 description: 'O OSC chama o método ISocialProvider:: GetCapabilities para determinar os recursos do provedor do OSC para uma rede social.'
 ms.openlocfilehash: 9d504fb64368a6910feaa38f0ef19ed631b4d4e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420574"
 ---
 # <a name="getting-activities"></a>Obter atividades
 

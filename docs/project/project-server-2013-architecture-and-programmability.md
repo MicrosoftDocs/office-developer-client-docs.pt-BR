@@ -17,11 +17,11 @@ localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
 description: Os artigos desta seção descrevem a arquitetura geral da solução Enterprise Project Management (EPM), que combina o Project Professional 2013, o Project Server 2013, o Project Web App e o SharePoint Server 2013.
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413784"
 ---
 # <a name="project-server-2013-architecture-and-programmability"></a>Arquitetura e programação do Project Server 2013
 

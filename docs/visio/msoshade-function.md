@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 905cd1cc-14d3-5d37-89c4-f8461a03dda2
 description: Modifica a cor reduzindo a luminosidade pelo percentual especificado.
 ms.openlocfilehash: 207893552c7378589d4a648bf29ed88fcfd15224
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283707"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414491"
 ---
 # <a name="msoshade-function"></a>Função MSOSHADE
 
@@ -29,7 +29,7 @@ MSOSHADE (* * *cor* * *, * * *-deltaLum* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obrigatório  <br/> |**RGB** <br/> |O valor de cor RGB (vermelho, verde, azul) padrão ou a referência a uma cor.  <br/> |
 | _-deltaLum_ <br/> |Obrigatório  <br/> |**Integer** <br/> |A alteração percentual em direção ao branco (-100%) ou preto (100%) do valor de _cor_ .  <br/> |

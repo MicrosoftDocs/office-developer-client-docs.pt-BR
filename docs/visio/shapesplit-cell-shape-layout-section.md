@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: Indica se esta forma pode dividir formas que sejam divisíveis.
 ms.openlocfilehash: 46b42e9be070b54095d3e9a5c247d63be6348f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423556"
 ---
 # <a name="shapesplit-cell-shape-layout-section"></a>Célula ShapeSplit (Seção Shape Layout)
 
@@ -48,7 +48,7 @@ Para fazer referência à célula ShapeSplit pelo índice, a partir de um progra
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-| Índice da célula:  <br/> |**visSLOSplit** <br/> |
+| Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+| Índice de célula:  <br/> |**visSLOSplit** <br/> |
    
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3a3d54ac9485cc3915d3606bb84b4f3191d1ca5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270074"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419643"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
@@ -56,7 +56,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Files**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiProgress. h e MapiProgress. cpp  <br/> |Não aplicável  <br/> |Se a configuração método imapiprogress estiver habilitada, o MFCMAPI passará uma implementação do **método imapiprogress** para todas as funções que MFCMAPI invocas que aceitam uma implementação.  <br/> |
+|MapiProgress. h e MapiProgress. cpp  <br/> |Não se aplica  <br/> |Se a configuração método imapiprogress estiver habilitada, o MFCMAPI passará uma implementação do **método imapiprogress** para todas as funções que MFCMAPI invocas que aceitam uma implementação.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

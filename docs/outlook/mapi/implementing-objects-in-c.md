@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6026e697cc31545bf7ef518fcbd33ea8db48af5d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310183"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414939"
 ---
 # <a name="implementing-objects-in-c"></a>Implementar objetos em C
 

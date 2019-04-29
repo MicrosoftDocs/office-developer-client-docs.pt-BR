@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351391"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436591"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -41,7 +41,7 @@ Fornece acesso a várias propriedades que estão associadas a usuários de mensa
 
 Esta interface não tem nenhum método exclusivo.
   
-|**Propriedades necessárias**|**Access**|
+|**Propriedades necessárias**|**Acesso**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Leitura/gravação  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Leitura/gravação  <br/> |

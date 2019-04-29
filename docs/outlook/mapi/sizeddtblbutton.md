@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421911"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 

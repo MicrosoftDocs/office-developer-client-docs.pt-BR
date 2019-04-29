@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
 description: Determina a quantidade de randomização da linha da forma a partir da geometria da forma ao usar um efeito de esboço, como uma porcentagem do comprimento de uma seção. Se o valor da célula SketchLineChange for definido como 0%, a geometria da linha da forma corresponderá à geometria da forma. Se o valor for 100%, a geometria da linha da forma não seguirá a geometria da forma.
 ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419503"
 ---
 # <a name="sketchlinechange-cell-additional-effect-properties-section"></a>Célula SketchLineChange (seção Additional Effect Properties)
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula **SketchLineChange** pelo índice a pa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
 | Índice da célula:  <br/> |**visSketchLineChange** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Determina o nível de transparência da cor da linha de uma forma.
 ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359294"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414435"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>Célula LineColorTrans (Seção Line Format)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula LineColorTrans pelo índice a partir d
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowLine** <br/> |
-|Índice da célula:  <br/> |**visLineColorTrans** <br/> |
+|Índice de linha:  <br/> |**visRowLine** <br/> |
+|Índice de célula:  <br/> |**visLineColorTrans** <br/> |
    
 

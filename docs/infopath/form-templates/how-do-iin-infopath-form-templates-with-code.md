@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: da678213-fae0-4854-8194-762866600100
 description: Use os links deste tópico para encontrar rapidamente as respostas para suas perguntas de programação mais frequentes sobre como trabalhar com modelos de formulário de código gerenciado do InfoPath.
 ms.openlocfilehash: 6fb2c565413b2dff67287bf659d8137306bd2860
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419496"
 ---
 # <a name="how-do-iin-infopath-form-templates-with-code"></a>Como faço para... Nos modelos de formulário do InfoPath com código
 

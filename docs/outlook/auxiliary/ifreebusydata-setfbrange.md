@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
 description: Define o intervalo de tempo para uma enumeração de blocos de disponibilidade de dados de um usuário.
 ms.openlocfilehash: 4647453acb0e530521aa808f7f017e3e311644bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317473"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421659"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 

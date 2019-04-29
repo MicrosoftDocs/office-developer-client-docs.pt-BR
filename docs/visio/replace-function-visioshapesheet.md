@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: Substitui parte de uma sequência de caracteres de texto, baseada no número de caracteres especificado, por uma sequência de caracteres de texto diferente.
 ms.openlocfilehash: 75a156d720ca276e75fccf932124ae905e4350b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320157"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414351"
 ---
 # <a name="replace-function-visioshapesheet"></a>Função REPLACE (VisioShapeSheet)
 
@@ -26,16 +26,16 @@ REPLACE (* * *texto_antigo* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *, 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _iguais_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
+| _iguais_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
 | _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do caractere em _texto_antigo_ que você deseja substituir por _novo_texto_. O primeiro caractere na cadeia é a posição 1.  <br/> |
 | _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres em _texto_antigo_ que você deseja substituir  <br/> |
-| _novo_texto_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto que substituirá os caracteres em _texto_antigo_.  <br/> |
+| _novo_texto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O texto que substituirá os caracteres em _texto_antigo_.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

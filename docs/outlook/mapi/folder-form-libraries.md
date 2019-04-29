@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 62b7480e-b3eb-45fb-b74d-62f1dc918a53
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ec12cf567dbbd8c1710f835a3c19369dd3626fd4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414281"
 ---
 # <a name="folder-form-libraries"></a>Bibliotecas de formulários de pastas
 

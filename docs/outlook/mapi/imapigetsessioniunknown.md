@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0b861a11b6bc1d590225a0c99b20f8be38edfd2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321578"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436647"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 95a2b7b9bac11404817fb6848d58c45251c141f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309671"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414239"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>Pastas de caixa de correio e caixa de saída em repositórios de mensagens
 

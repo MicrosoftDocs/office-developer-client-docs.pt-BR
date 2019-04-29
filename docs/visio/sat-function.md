@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: Retorna o valor do componente de saturação de uma cor.
 ms.openlocfilehash: 3b3fd8e13ca9af4f0aea00d2f78c7b5c27be1932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318995"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415002"
 ---
 # <a name="sat-function"></a>Função SAT
 
@@ -26,7 +26,7 @@ SAT (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a52f4bcd-6e17-4623-a469-53be1f2758b1
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ae8e553cf2e19ae1ba06ca09aad84eae9f7d1238
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333072"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415044"
 ---
 # <a name="copying-mapi-properties"></a>Copiar propriedades MAPI
 

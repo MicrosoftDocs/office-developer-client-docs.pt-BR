@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
 description: Exibe a caixa de diálogo Configurações da conta ou Adicionar nova conta.
 ms.openlocfilehash: ecf5242fa4f224516e12e667ab66fd0adfe4a25d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322061"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415030"
 ---
 # <a name="iolkaccountmanagerdisplayaccountlist"></a>IOlkAccountManager::DisplayAccountList
 

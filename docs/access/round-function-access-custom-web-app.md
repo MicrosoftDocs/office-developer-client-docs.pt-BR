@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4af7fbe2-ee34-4a52-b55e-ce3983313b5e
 description: Retorna um valor numérico, arredondado ou truncado, para o comprimento ou precisão especificado.
 ms.openlocfilehash: 0afab8c3434aef58c4bb25aee22eefd95732797b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307956"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413742"
 ---
 # <a name="round-function-access-custom-web-app"></a>Função Round (aplicativo Web personalizado do Access)
 

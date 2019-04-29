@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Indica se um caminho pode ser preenchido.
 ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357250"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415016"
 ---
 # <a name="nofill-cell-geometry-section"></a>Célula NoFill (Seção Geometry)
 
@@ -22,7 +22,7 @@ Indica se um caminho pode ser preenchido.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | O caminho não é preenchido mesmo se outros caminhos da forma forem preenchidos.  <br/> |
+| VERDADEIRO  <br/> | O caminho não é preenchido mesmo se outros caminhos da forma forem preenchidos.  <br/> |
 | FALSE  <br/> | O preenchimento da forma é aplicado ao caminho, mesmo se não estiver fechado.  <br/> |
    
 ## <a name="remarks"></a>Comentários

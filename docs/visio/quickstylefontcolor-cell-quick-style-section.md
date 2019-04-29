@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 31c56d08-19ea-4b8b-8be7-42e1c736fbca
 description: Determina a cor da fonte dos estilos rápidos que o texto de uma forma herda do tema ativo, como um inteiro de 0-1.
 ms.openlocfilehash: bd645383df02260fcf6a2045764d9a1b44126090
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415023"
 ---
 # <a name="quickstylefontcolor-cell-quick-style-section"></a>Célula QuickStyleFontColor (seção Quick Style)
 
@@ -37,7 +37,7 @@ Para obter uma referência para a célula **QuickStyleFontColor** pelo índice a
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowQuickStyleProperties** <br/> |
+| Índice de linha:  <br/> |**visRowQuickStyleProperties** <br/> |
 | Índice da célula:  <br/> |**visQuickStyleFontColor** <br/> |
    
 

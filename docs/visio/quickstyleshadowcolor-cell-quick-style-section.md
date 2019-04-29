@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0a80959f-941f-451c-9049-dc661ff4930f
 description: Determina a cor do tema que a sombra de uma forma usa, como um inteiro de 0 a 7.
 ms.openlocfilehash: b623eee89d214bade2706b12fcb344eccd8814b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360029"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414953"
 ---
 # <a name="quickstyleshadowcolor-cell-quick-style-section"></a>Célula QuickStyleShadowColor (seção Quick Style)
 
@@ -25,10 +25,10 @@ Determina a cor do tema que a sombra de uma forma usa, como um inteiro de 0 a 7.
 |1  <br/> |A cor da sombra da forma é herdeira da cor do tema claro.  <br/> |
 |duas  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 1.  <br/> |
 |3D  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 2.  <br/> |
-|quatro  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 3.  <br/> |
-|0,5  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 4.  <br/> |
-|6  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 5.  <br/> |
-|178  <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 6.  <br/> |
+|4   <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 3.  <br/> |
+|5   <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 4.  <br/> |
+|6   <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 5.  <br/> |
+|7   <br/> |A cor da sombra da forma é herdeira da cor do tema ênfase 6.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -43,7 +43,7 @@ Para obter uma referência para a célula **QuickStyleShadowColor** pelo índice
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowQuickStyleProperties** <br/> |
+| Índice de linha:  <br/> |**visRowQuickStyleProperties** <br/> |
 | Índice da célula:  <br/> |**visQuickStyleShadowColor** <br/> |
    
 

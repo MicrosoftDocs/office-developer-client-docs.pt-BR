@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0a685e081d319c43daa583d95d163677e81f2480
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339687"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413665"
 ---
 # <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Correlação de TNEF em gateways e transportes SMTP
 

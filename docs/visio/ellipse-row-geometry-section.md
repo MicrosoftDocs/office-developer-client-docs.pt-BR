@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 183fb303-4acb-a486-7b97-f11f7ae3978f
 description: Contém as coordenadas x e y do ponto central da elipse e dois pontos na elipse.
 ms.openlocfilehash: 5121ba0c7bf97eaeaaf8a438dd40eccddada4362
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421827"
 ---
 # <a name="ellipse-row-geometry-section"></a>Linha Ellipse (Seção Geometry)
 
@@ -22,7 +22,7 @@ Contém as coordenadas *x* e *y* do ponto central da elipse e dois pontos na eli
   
 Uma linha Ellipse contém as células a seguir.
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do ponto central.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do ponto central.  <br/> |

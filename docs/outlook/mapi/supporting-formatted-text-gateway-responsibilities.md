@@ -9,11 +9,11 @@ api_type:
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d5c3480018be399a85ee0bfda7ce1ff9b701cecc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327416"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419426"
 ---
 # <a name="supporting-formatted-text-gateway-responsibilities"></a>Suporte a texto formatado: responsabilidades do gateway
 

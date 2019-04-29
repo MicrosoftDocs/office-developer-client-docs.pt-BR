@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: Este tópico fornece um passo a passo para criar um modelo de formulário de código gerenciado do InfoPath básico que funciona com o modelo de objeto compatível com o InfoPath 2003 fornecido pelo namespace Microsoft. Office. Interop. InfoPath. SemiTrust.
 ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303196"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414337"
 ---
 # <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Passo a passo: criar e depurar um modelo de formulário básico usando o modelo de objeto do InfoPath
 

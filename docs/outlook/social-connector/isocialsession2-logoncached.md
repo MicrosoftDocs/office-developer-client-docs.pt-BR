@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: Faz logon no site de rede social usando credenciais armazenadas em cache.
 ms.openlocfilehash: b79c692c01022dd10ecb8d4085f0aedb28a810c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336502"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436619"
 ---
 # <a name="isocialsession2logoncached"></a>ISocialSession2::LogonCached
 
@@ -33,7 +33,7 @@ _userName_
   
 > no Uma cadeia de caracteres que contém o nome de usuário.
     
-_la_
+_senha_
   
 > no Uma cadeia de caracteres que contém a senha do usuário.
     

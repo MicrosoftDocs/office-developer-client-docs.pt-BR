@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: Chama um procedimento em um projeto do Microsoft Visual Basic for Applications (VBA).
 ms.openlocfilehash: 7e0f0bafa39d6c1eb1fd39535506981c937ce8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337237"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413812"
 ---
 # <a name="callthis-function"></a>Função CALLTHIS
 
@@ -26,10 +26,10 @@ CALLTHIS ("* * *procedimento* * *", ["* * *project* * *"], [* * *arg1* * *, * * 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _procedimento_ <br/> |Obrigatório  <br/> |**String** <br/> | O nome do procedimento a ser chamado.  <br/> |
-| _projeto_ <br/> |Opcional  <br/> |**String** <br/> |O projeto que contém o procedimento.  <br/> |
+| _procedimento_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O nome do procedimento a ser chamado.  <br/> |
+| _projecto_ <br/> |Opcional  <br/> |**String** <br/> |O projeto que contém o procedimento.  <br/> |
 | _ARG_ <br/> |Opcional  <br/> |**Número, Cadeia de Caracteres, Data ou Moeda** <br/> |Passados como parâmetros para o procedimento.  <br/> |
    
 ## <a name="remarks"></a>Comentários

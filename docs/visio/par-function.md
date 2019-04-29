@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: Retorna as coordenadas x, y de um ponto no sistema de coordenadas do pai da forma.
 ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269941"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414505"
 ---
 # <a name="par-function"></a>Função PAR
 
@@ -26,7 +26,7 @@ PAR (* * *ponto* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _ponto_ <br/> |Obrigatório  <br/> |**Número, Número** <br/> |As coordenadas do ponto do sistema de coordenadas da forma atual.  <br/> |
    
