@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: Especifica a margem direita da página impressa.
 ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33440007"
 ---
 # <a name="pagerightmargin-cell-print-properties-section"></a>Célula PageRightMargin (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula PageRightMargin pelo índice a partir de um pr
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesRightMargin** <br/> |
    
 

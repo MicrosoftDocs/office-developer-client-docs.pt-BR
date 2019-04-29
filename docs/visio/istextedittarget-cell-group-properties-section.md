@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Determina a atribuição de texto de um grupo.
 ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314914"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432643"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>Célula IsTextEditTarget (Seção Group Properties)
 
@@ -22,7 +22,7 @@ Determina a atribuição de texto de um grupo.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O texto é adicionado à forma do grupo.  <br/> |
+|VERDADEIRO  <br/> |O texto é adicionado à forma do grupo.  <br/> |
 |FALSE  <br/> |O texto é adicionado à forma do grupo no início da ordem de empilhamento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula IsTextEditTarget pelo índice a partir
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowGroup** <br/> |
-|Índice da célula:  <br/> |**visGroupIsTextEditTarget** <br/> |
+|Índice de linha:  <br/> |**visRowGroup** <br/> |
+|Índice de célula:  <br/> |**visGroupIsTextEditTarget** <br/> |
    
 

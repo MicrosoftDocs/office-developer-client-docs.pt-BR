@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0edea0ea-58dd-15da-6d4f-185d40133452
 description: Determina o hiperlink padrão de uma forma ou página. Defina o valor desta célula para VERDADEIRO para atribuir um hiperlink como o padrão.
 ms.openlocfilehash: 9991bd0e241c5dfd4fda65aeff8b6cc203ad3458
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360274"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434351"
 ---
 # <a name="default-cell-hyperlinks-section"></a>Célula Padrão (Seção Hyperlinks)
 

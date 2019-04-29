@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: Indica se a célula referenciada contém uma fórmula local.
 ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433287"
 ---
 # <a name="localformulaexists-function"></a>Função LOCALFORMULAEXISTS
 
@@ -26,9 +26,9 @@ LOCALFORMULAEXISTS (* * *cellref* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Obrigatório  <br/> |**String** <br/> | A célula cuja presença de fórmula você deseja verificar.  <br/> |
+| _cellref_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | A célula cuja presença de fórmula você deseja verificar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

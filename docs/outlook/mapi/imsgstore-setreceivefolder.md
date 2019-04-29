@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: efa5d60098fd5f16328669249a8445a124d9878b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317336"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434085"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412692"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 

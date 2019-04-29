@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
 description: Esta seção discute os assemblies de interoperabilidade principal e de interoperabilidade XML do Microsoft InfoPath e como seus tipos e membros são usados para automatizar o InfoPath de aplicativos externos usando código gerenciado.
 ms.openlocfilehash: b6618dbe838446555920bf9e79c07712bc66fdda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434253"
 ---
 # <a name="automating-infopath-from-other-applications"></a>Automatizar o InfoPath de outros aplicativos
 

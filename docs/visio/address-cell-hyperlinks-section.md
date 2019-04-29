@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: Especifica uma URL, um nome de arquivo ou um caminho UNC para o qual ir.
 ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438033"
 ---
 # <a name="address-cell-hyperlinks-section"></a>Célula Address (Seção Hyperlinks)
 

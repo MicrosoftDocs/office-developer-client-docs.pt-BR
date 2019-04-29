@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
 description: Armazena um valor definido por meio de uma ação na interface do usuário ou automação.
 ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326002"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439048"
 ---
 # <a name="setatrefexpr-function"></a>Função SETATREFEXPR
 
@@ -26,7 +26,7 @@ SETATREFEXPR ([* * *expr_opt* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expr_opt_ <br/> |Opcional  <br/> |**Vai** <br/> |Uma expressão substituída pelo valor ou expressão atribuída à célula referenciada na função SETATREF. Se não for indicado, seu valor inicial será 0 (zero).  <br/> |
    

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
 description: Determina o tamanho da profundidade do bisel em pontos.
 ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315775"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438495"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>Célula BevelDepthSize (seção chanfrar Propriedades)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **BevelDepthSize** pelo índice a part
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowBevelProperties** <br/> |
+| Índice de linha:  <br/> |**visRowBevelProperties** <br/> |
 | Índice da célula:  <br/> |**visBevelDepthSize** <br/> |
    
 

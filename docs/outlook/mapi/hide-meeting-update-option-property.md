@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ac7c891fa05560231a257f9bd52ccbbfe564b49d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299507"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412097"
 ---
 # <a name="hide-meeting-update-option-property"></a>Ocultar propriedade de opção de atualização de reunião
 

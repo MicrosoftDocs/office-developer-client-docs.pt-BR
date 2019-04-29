@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: Especifica a margem inferior da página.
 ms.openlocfilehash: f546d89b8761c6c1b7340af69d2b48f16c180767
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334409"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438593"
 ---
 # <a name="pagebottommargin-cell-print-properties-section"></a>Célula PageBottomMargin (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula PageBottomMargin pelo índice a partir de um p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesBottomMargin** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
 description: Especifica a porcentagem de ampliação da página de desenho na página da impressora.
 ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326709"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410207"
 ---
 # <a name="scalex-cell-print-properties-section"></a>Célula ScaleX (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula ScaleX pelo índice, a partir de um pr
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+|Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 |Índice da célula:  <br/> |**visPrintPropertiesScaleX** <br/> |
    
 

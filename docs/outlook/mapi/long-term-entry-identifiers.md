@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b65656992681618aa8a1c53217bdd7101bc2502b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307781"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409220"
 ---
 # <a name="long-term-entry-identifiers"></a>Identificadores de entrada de longo prazo
 

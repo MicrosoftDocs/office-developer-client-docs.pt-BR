@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Determina se uma linha será desenhada em torno do limite do caminho.
 ms.openlocfilehash: ad3744ae8deb4ffb4dd2282e50590439c4b218a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433749"
 ---
 # <a name="noline-cell-geometry-section"></a>Célula NoLine (Seção Geometry)
 
@@ -22,7 +22,7 @@ Determina se uma linha será desenhada em torno do limite do caminho.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Uma linha não é desenhada em torno do limite do caminho que é o limite de uma região preenchida.  <br/> |
+| VERDADEIRO  <br/> | Uma linha não é desenhada em torno do limite do caminho que é o limite de uma região preenchida.  <br/> |
 | FALSE  <br/> | Uma linha é desenhada em torno do limite de um caminho.  <br/> |
    
 ## <a name="remarks"></a>Comentários

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: Protege a largura da forma para que ela não seja alterada quando a forma for dimensionada.
 ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314830"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439804"
 ---
 # <a name="lockwidth-cell-protection-section"></a>Célula LockWidth (Seção Protection)
 
@@ -22,7 +22,7 @@ Protege a largura da forma para que ela não seja alterada quando a forma for di
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | A largura está protegida.  <br/> |
+| VERDADEIRO  <br/> | A largura está protegida.  <br/> |
 | FALSE  <br/> | A largura não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,7 +38,7 @@ Para fazer referência à célula LockWidth pelo índice a partir de um programa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowLock** <br/> |
+| Índice de linha:  <br/> |**visRowLock** <br/> |
 | Índice da célula:  <br/> |**visLockWidth** <br/> |
    
 

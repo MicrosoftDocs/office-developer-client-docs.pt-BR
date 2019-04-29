@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7109ca54-1012-bf38-a8e9-946826abbb18
 description: Contém as células que controlam o alinhamento, as margens e a posição de texto de parada de tabulação padrão em um bloco de texto da forma.
 ms.openlocfilehash: a5009ec99ac7b2ec5abcb72adfbdb1c954d37f09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332317"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438502"
 ---
 # <a name="text-block-format-section"></a>Seção Text Block Format
 

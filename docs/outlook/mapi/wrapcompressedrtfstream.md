@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 710e0e2fc334194e33c6d8ba1296e4c7b1938bc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325624"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439797"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 

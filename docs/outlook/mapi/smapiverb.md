@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410956"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 

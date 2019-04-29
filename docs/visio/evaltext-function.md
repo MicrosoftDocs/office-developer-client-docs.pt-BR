@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: Avalia o texto em shapename como se fosse uma fórmula e retorna o resultado.
 ms.openlocfilehash: 6600d9d6ddaf630a93fdb5c37639ce50a21a4307
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438355"
 ---
 # <a name="evaltext-function"></a>Função EVALTEXT
 
@@ -26,13 +26,13 @@ EVALTEXT (* * *shapename! o texto* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _shapename! o texto_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma célula é disparada quando a composição do texto da forma associada é alterada.  <br/> |
+| _shapename! o texto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma célula é disparada quando a composição do texto da forma associada é alterada.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
 ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432916"
 ---
 # <a name="a-cell-geometry-section"></a>Célula A (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
   
-|**Linha**|**Descrição**|
+|**Row**|**Descrição**|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | A distância do ponto médio de um arco até o ponto médio de sua corda.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *x* do ponto de controle do arco, um ponto no arco. O ponto de controle é melhor localizado sobre a metade entre os vértices inicial e final do arco. Caso contrário, o arco pode chegar a um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |
@@ -45,7 +45,7 @@ Para fazer referência à célula A pelo índice a partir de um programa, use a 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex **(linhas Ellipse e InfiniteLine)  <br/> |
 | Índice da célula:  <br/> |**visBow **(linha ArcTo)  <br/> |
 ||**visControlX** (EllipticalArcTo row)  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: Determina a quantidade de espaço inserido depois de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o último parágrafo em um bloco de texto, da célula BottomMargin.
 ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439832"
 ---
 # <a name="spafter-cell-paragraph-section"></a>Célula SpAfter (Seção Paragraph)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula SpAfter pelo índice, a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice da linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visSpaceAfter** <br/> |
    
 

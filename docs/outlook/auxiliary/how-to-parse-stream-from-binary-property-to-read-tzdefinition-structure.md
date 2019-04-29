@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: Este tópico mostra como ler a estrutura TZDEFINITION do formato persistente armazenado em uma propriedade binária.
 ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317644"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434204"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION
 

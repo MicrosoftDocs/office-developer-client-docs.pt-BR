@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: Protege a taxa de proporção da forma para que ela somente seja dimensionada proporcionalmente e não em uma dimensão única.
 ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359637"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411579"
 ---
 # <a name="lockaspect-cell-protection-section"></a>Célula LockAspect (Seção Protection)
 
@@ -22,7 +22,7 @@ Protege a taxa de proporção da forma para que ela somente seja dimensionada pr
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | A taxa de proporção está protegida.  <br/> |
+| VERDADEIRO  <br/> | A taxa de proporção está protegida.  <br/> |
 | FALSE  <br/> | A taxa de proporção não está protegida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,7 +38,7 @@ Para fazer referência à célula LockAspect pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowLock** <br/> |
+| Índice de linha:  <br/> |**visRowLock** <br/> |
 | Índice da célula:  <br/> |**visLockAspect** <br/> |
    
 

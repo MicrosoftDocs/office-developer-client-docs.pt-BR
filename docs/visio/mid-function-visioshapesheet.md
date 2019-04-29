@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: Retorna um número específico de caracteres de uma cadeia de caracteres de texto, começando na posição especificada, com base no número de caracteres especificado.
 ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410263"
 ---
 # <a name="mid-function-visioshapesheet"></a>Função MID (VisioShapeSheet)
 
@@ -26,15 +26,15 @@ MID (* * *Text* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
+| _text_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
 | _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do primeiro caractere a ser extraído. O primeiro caractere na cadeia de caracteres de texto está na posição 1.  <br/> |
 | _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres a retornar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

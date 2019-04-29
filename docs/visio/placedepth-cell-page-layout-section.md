@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Determina o tipo de layout e o método pelo qual o desenho é analisado antes de o layout ser criado.
 ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432034"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>Célula PlaceDepth (Seção Page Layout)
 
@@ -40,7 +40,7 @@ Para fazer referência à célula PlaceDepth pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOPlaceDepth** <br/> |
    
 

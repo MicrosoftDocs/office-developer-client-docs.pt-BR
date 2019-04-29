@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
 description: Determina se as páginas no documento podem ser duplicadas, como um Boolean.
 ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439657"
 ---
 # <a name="doclockduplicatepage-cell-document-properties-section"></a>Célula DocLockDuplicatePage (seção Document Properties)
 
@@ -36,7 +36,7 @@ Para obter uma referência para a célula **DocLockDuplicatePage** pelo índice 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowDoc** <br/> |
+| Índice de linha:  <br/> |**visRowDoc** <br/> |
 | Índice da célula:  <br/> |**visDocLockDuplicatePage** <br/> |
    
 

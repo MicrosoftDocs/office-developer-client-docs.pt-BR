@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: 'Um feed de atividades consiste em uma ou mais atividades que ocorrem em uma rede social. Cada feed de atividades é representado por um elemento Ofeed e é caracterizado por estas três informações:'
 ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439944"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>Visão geral do XML para um item do feed de atividades
 

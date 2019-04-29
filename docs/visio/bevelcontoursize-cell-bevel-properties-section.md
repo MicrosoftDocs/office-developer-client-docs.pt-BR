@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
 description: Determina o tamanho da delimitação do bisel em pontos.
 ms.openlocfilehash: bb37c1a9990e1ee4bcca917f065b7872b8ae3bd7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439958"
 ---
 # <a name="bevelcontoursize-cell-bevel-properties-section"></a>Célula BevelContourSize (seção chanfrar Propriedades)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **BevelContourSize** pelo índice a pa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowBevelProperties** <br/> |
+| Índice de linha:  <br/> |**visRowBevelProperties** <br/> |
 | Índice da célula:  <br/> |**visBevelContourSize** <br/> |
    
 

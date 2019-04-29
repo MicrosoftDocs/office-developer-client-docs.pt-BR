@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: Este tópico contém um cenário de exemplo que mostra as chamadas da API de extensibilidade do provedor do Outlook Social Connector (OSC) que um provedor do OSC implementa e o OSC faz para obter informações sobre atividades. As informações são expressas em cadeias de caracteres XML que estão em conformidade com o esquema XML do provedor OSC.
 ms.openlocfilehash: a4f1c6ce1f33b59811f6a6fecb737cd1f737946b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409626"
 ---
 # <a name="xml-for-activities"></a>XML para atividades
 

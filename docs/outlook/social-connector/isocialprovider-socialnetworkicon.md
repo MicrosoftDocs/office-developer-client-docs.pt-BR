@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8b51675f-77b7-4df0-8496-b1e8958c6544
 description: Retorna uma matriz de bytes que representa o ícone da rede social.
 ms.openlocfilehash: c63d9996d4478c8ce7e46210aae34791bcfe9222
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285495"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438684"
 ---
 # <a name="isocialprovidersocialnetworkicon"></a>ISocialProvider::SocialNetworkIcon
 

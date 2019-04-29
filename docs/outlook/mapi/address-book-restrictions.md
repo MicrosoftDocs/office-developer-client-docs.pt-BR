@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7419c174c1f68653794c2dbd836577e8dd3e596e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328074"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432797"
 ---
 # <a name="address-book-restrictions"></a>Restrições do catálogo de endereços
 

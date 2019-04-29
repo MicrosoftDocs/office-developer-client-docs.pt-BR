@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 16e85eabc067bd82f5fb89c917afaf2831c75673
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439993"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 

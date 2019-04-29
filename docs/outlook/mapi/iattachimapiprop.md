@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2ef3bc973e12bd5630cc00b3c512b748d4a16e86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341619"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409087"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
@@ -41,7 +41,7 @@ Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **
 
 Esta interface não tem nenhum método exclusivo.
   
-|**Propriedades necessárias**|**Access**|
+|**Propriedades necessárias**|**Acesso**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Leitura/gravação  <br/> |

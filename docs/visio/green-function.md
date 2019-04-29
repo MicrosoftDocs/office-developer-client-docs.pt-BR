@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: Retorna o componente verde de uma cor.
 ms.openlocfilehash: 0412e4519c2964b05d7663805d7773e8dc5deaab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438103"
 ---
 # <a name="green-function"></a>Função GREEN
 
@@ -26,7 +26,7 @@ VERDE (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resolve para uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cor.  <br/> |
    

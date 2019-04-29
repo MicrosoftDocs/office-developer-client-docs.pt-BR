@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a70751eb-bfde-4f7d-ad90-a1e4cca25dbc
 description: Retorna um valor numérico que representa o ano da data especificada no calendário gregoriano.
 ms.openlocfilehash: 1400c352bcc070035d15b46f8e547e4637364299
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433119"
 ---
 # <a name="year-function-access-custom-web-app"></a>Função Year (aplicativo Web personalizado do Access)
 

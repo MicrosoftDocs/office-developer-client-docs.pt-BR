@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0730da9c3877985853e2cd0a55420e64fbd98e0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342179"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412538"
 ---
 # <a name="imapiformcontainerresolvemultiplemessageclasses"></a>IMAPIFormContainer::ResolveMultipleMessageClasses
 

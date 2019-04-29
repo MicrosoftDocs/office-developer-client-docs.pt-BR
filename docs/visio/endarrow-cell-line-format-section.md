@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu último vértice.
 ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328900"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434680"
 ---
 # <a name="endarrow-cell-line-format-section"></a>Célula EndArrow (Seção Line Format)
 
@@ -42,7 +42,7 @@ Para obter uma referência para a célula EndArrow pelo índice a partir de um p
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowLine** <br/> |
-|Índice da célula:  <br/> |**visLineEndArrow** <br/> |
+|Índice de linha:  <br/> |**visRowLine** <br/> |
+|Índice de célula:  <br/> |**visLineEndArrow** <br/> |
    
 

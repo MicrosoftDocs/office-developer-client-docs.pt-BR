@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Representa o nome de um quadro a ser direcionado quando o aplicativo estiver aberto como um documento ativo em um aplicativo contêiner. O padrão é uma cadeia de caracteres vazia.
 ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432853"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Célula Frame (Seção Hyperlinks)
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: Ao criar aplicativos personalizados, os desenvolvedores geralmente devem realizar o tratamento de erros que envolve a gravação do código de programação para verificar se há erros gerados pelo aplicativo ou para criar e gerar erros personalizados. O modelo de objeto compatível com o InfoPath 2003 oferece suporte ao tratamento de erros através do uso do objeto ErrorObject em associação com a coleção Errors.
 ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439475"
 ---
 # <a name="handle-errors-using-the-infopath-2003-object-model"></a>Manipular erros usando o modelo de objeto do InfoPath 2003
 
@@ -30,8 +30,8 @@ A **** coleção Errors fornece os seguintes métodos e propriedades, que os des
 |Método[Adicionar](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx)  <br/> |Cria um **** objeto ErrorObject e o adiciona à coleção.  <br/> |
 |Método[Excluir](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Exclui todos **** os objetos ErrorObject associados ao nó XML especificado e ao nome da condição, exceto erros personalizados adicionados usando o método **ReportError** .  <br/> |
 |Método [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx)  <br/> |Exclui todos **** os objetos ErrorObject contidos na coleção.  <br/> |
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx)  <br/> |Obtém uma contagem do número de objetos **ErrorObject** contidos na coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx)  <br/> |Obtém uma referência a um **** objeto ErrorObject com base no número de índice especificado.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx)  <br/> |Obtém uma contagem do número de objetos **ErrorObject** contidos na coleção.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx)  <br/> |Obtém uma referência a um **** objeto ErrorObject com base no número de índice especificado.  <br/> |
    
 ## <a name="overview-of-the-errorobject-object"></a>Visão geral do objeto ErrorObject
 
