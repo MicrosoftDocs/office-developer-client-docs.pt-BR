@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: Retorna uma referência de planilha para o contêiner especificado que contém a forma.
 ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437263"
 ---
 # <a name="containersheetref-function"></a>Função CONTAINERSHEETREF
 
@@ -29,7 +29,7 @@ CONTAINERSHEETREF (* * *index* * * * * *[, Category]* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _índice_ <br/> |Obrigatório  <br/> |**Integer** <br/> |O índice baseado em 1 do contêiner. Consulte Comentários para obter mais informações.  <br/> |
 | _Categorias_ <br/> |Opcional  <br/> |**String** <br/> |A categoria do contêiner. Consulte Comentários para obter mais informações.  <br/> |

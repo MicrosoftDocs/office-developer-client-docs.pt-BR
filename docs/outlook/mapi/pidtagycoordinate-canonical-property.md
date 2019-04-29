@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436850"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propriedade canônica PidTagYCoordinate
 

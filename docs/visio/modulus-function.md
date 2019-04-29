@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
 description: Retorna o resto (módulo) que resulta quando um número é dividido por um divisor.
 ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429268"
 ---
 # <a name="modulus-function"></a>Função MODULUS
 
@@ -26,7 +26,7 @@ MÓDULO (* * *número* * *, * * *divisor* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O dividendo.  <br/> |
 | _divisor_ <br/> |Obrigatório  <br/> |**Número** <br/> |O divisor.  <br/> |

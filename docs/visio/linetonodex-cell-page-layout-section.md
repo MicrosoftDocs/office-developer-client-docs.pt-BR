@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: Determina o espaço vazio horizontal entre todos os conectores e as formas na página de desenho.
 ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358930"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439706"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>Célula LineToNodeX (Seção Page Layout)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula LineToNodeX pelo índice a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOLineToNodeX** <br/> |
    
 

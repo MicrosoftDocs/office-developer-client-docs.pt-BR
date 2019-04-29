@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a1b4d27d-d1ef-4462-bbe8-5ec965883a6e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa74bb2c4ca40757cd62a7add6dd567b4b77a977
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358454"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411054"
 ---
 # <a name="pidtaginternetdistribution-canonical-property"></a>Propriedade canônica PidTagInternetDistribution
 

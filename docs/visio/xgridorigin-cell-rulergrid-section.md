@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: Especifica a coordenada horizontal da origem da grade.
 ms.openlocfilehash: ee58ea7d950dd7e422f8a60a13bac8aa4ed353a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322306"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428617"
 ---
 # <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Célula XGridOrigin (seção &amp; Ruler Grid)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula XGridOrigin pelo índice, a partir de 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowRulerGrid** <br/> |
+|Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
 |Índice da célula:  <br/> |**visXGridOrigin** <br/> |
    
 

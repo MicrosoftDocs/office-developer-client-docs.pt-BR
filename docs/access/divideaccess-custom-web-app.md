@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 3d296730-197b-44db-853b-881597dd9b48
 description: Divide um número por outro.
 ms.openlocfilehash: 48d43b224743949f86c5d206d9919a9e2d6fbcae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435184"
 ---
 # <a name="-divide-access-custom-web-app"></a>/(Divisão) (aplicativo Web personalizado do Access)
 

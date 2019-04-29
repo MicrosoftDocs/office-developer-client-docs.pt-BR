@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: Especifica a porcentagem de aumento ou redução da sombra de uma forma.
 ms.openlocfilehash: 9175e9a1148779524fdce96ff18eac22fe8dd421
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342879"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429002"
 ---
 # <a name="shdwscalefactor-cell-page-properties-section"></a>Célula ShdwScaleFactor (Seção Page Properties)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula ShdwScaleFactor pelo índice, a partir
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPage** <br/> |
-| Índice da célula:  <br/> |**visPageShdwScaleFactor** <br/> |
+| Índice de linha:  <br/> |**visRowPage** <br/> |
+| Índice de célula:  <br/> |**visPageShdwScaleFactor** <br/> |
    
 

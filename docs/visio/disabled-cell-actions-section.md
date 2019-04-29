@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indica se um item em um menu de atalho ou de marca de ação está desabilitado.
 ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332575"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431348"
 ---
 # <a name="disabled-cell-actions-section"></a>Célula Disabled (Seção Actions)
 
@@ -25,7 +25,7 @@ Indica se um item em um menu de atalho ou de marca de ação está desabilitado.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Desativar (esmaecer) o nome do comando.  <br/> |
+|VERDADEIRO  <br/> |Desativar (esmaecer) o nome do comando.  <br/> |
 |FALSE  <br/> |Ativar o nome do comando (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -41,7 +41,7 @@ Para fazer referência à célula Disabled pelo índice, a partir de um programa
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice da linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visActionDisabled** <br/> |
+|Índice de linha:  <br/> |**visRowAction** +  *i*           onde  *i*  = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visActionDisabled** <br/> |
    
 

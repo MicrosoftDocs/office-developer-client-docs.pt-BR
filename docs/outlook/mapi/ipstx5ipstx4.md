@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 43052e57-4712-410a-eb07-2a7c5bc124bd
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 387a7bdf2939f9ec618b0e86eeb00f3fddc9caa2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309685"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431796"
 ---
 # <a name="ipstx5--ipstx4"></a>IPSTX5 : IPSTX4
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bf072aba27c90b7cea80c464e17fafb47524b695
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436423"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 

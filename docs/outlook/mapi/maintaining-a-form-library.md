@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 51c7c3f8ba70dcb3d35dc50806e984fd4b193818
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298457"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408800"
 ---
 # <a name="maintaining-a-form-library"></a>Mantendo uma biblioteca de formulários
 

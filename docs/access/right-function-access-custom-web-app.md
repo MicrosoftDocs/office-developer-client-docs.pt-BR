@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
 description: Retorna a parte direita de uma cadeia de caracteres com o número especificado de caracteres.
 ms.openlocfilehash: eb87f6d238802a950a4858bae942f75fdefc1d5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439951"
 ---
 # <a name="right-function-access-custom-web-app"></a>Função Right (aplicativo Web personalizado do Access)
 

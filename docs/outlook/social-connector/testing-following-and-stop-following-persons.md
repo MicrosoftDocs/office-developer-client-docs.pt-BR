@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c603c3c6-62c8-4895-93e1-b2e146dfaa4f
 description: Este tópico descreve cenários para testar a capacidade do provedor do Outlook Social Connector (OSC) de seguir um amigo e para parar de seguir um amigo na rede social.
 ms.openlocfilehash: 06a2bc48fa723f4d4513376cace96a195cef9fa3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432447"
 ---
 # <a name="testing-following-and-stop-following-persons"></a>Testar o recurso de seguir e deixar de seguir pessoas
 

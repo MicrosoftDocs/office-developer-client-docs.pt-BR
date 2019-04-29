@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e7470417-0d70-433e-9496-604ca2eafee6
 description: Determina o tipo de estilo rápido (bidimensional, 1-dimensional ou conector) que a forma herda.
 ms.openlocfilehash: 95aced62c6397fc3229de29b98d3f18e5f69d05b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282576"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410501"
 ---
 # <a name="quickstyletype-cell-quick-style-section"></a>Célula QuickStyleType (seção Quick Style)
 
@@ -23,7 +23,7 @@ Determina o tipo de estilo rápido (bidimensional, 1-dimensional ou conector) qu
 |,0  <br/> |O Visio escolhe automaticamente  <br/> |
 |1  <br/> |unidimensional  <br/> |
 |duas  <br/> |bidimensionais  <br/> |
-|3D  <br/> |Conector  <br/> |
+|3D  <br/> |Connector  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -38,7 +38,7 @@ Para obter uma referência para a célula **QuickStyleType** pelo índice a part
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowQuickStyleProperties** <br/> |
+| Índice de linha:  <br/> |**visRowQuickStyleProperties** <br/> |
 | Índice da célula:  <br/> |**visQuickStyleType** <br/> |
    
 

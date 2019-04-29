@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2e75bc6f8e14258787a6c9d80dfbf6334ec698b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336510"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410431"
 ---
 # <a name="srow"></a>SRow
 

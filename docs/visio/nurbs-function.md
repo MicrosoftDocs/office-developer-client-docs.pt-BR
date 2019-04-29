@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: Retorna uma B-spline racional não-uniforme (NURBS). Essa função é usada na célula E nas linhas de geometria NURBSto.
 ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340121"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438453"
 ---
 # <a name="nurbs-function"></a>Função NURBS
 
@@ -26,16 +26,16 @@ NURBS (* * *knotLast* * *, * * *grau* * *, * * *xType* * *, * * *yType* * *, * *
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _knotLast_ <br/> |Obrigatório  <br/> |**cadeia de caracteres** <br/> | O último nó.  <br/> |
-| _alto_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O grau da spline.  <br/> |
-| _xType_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Especifica como interpretar os dados de entrada _x_ . Se _xType_ for 0, todos os dados de entrada _x_ serão interpretados como uma porcentagem de largura. Se _xType_ for 1, todos os dados de entrada _x_ serão interpretados como coordenadas locais.  <br/> |
-| _yType_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Especifica como interpretar os dados de entrada de _y_ . Se _yType_ for 0, todos os dados de entrada de _y_ serão interpretados como uma porcentagem de Height. Se _yType_ for 1, todos os dados de entrada de _y_ serão interpretados como coordenadas locais.  <br/> |
-| _X1_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma coordenada x.  <br/> |
-| _a1_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma coordenada y.  <br/> |
-| _knot1_ <br/> |Obrigatório  <br/> |**String** <br/> |Um nó na B-spline.  <br/> |
-| _weight1_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma espessura na B-spline.  <br/> |
+| _alto_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O grau da spline.  <br/> |
+| _xType_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |Especifica como interpretar os dados de entrada _x_ . Se _xType_ for 0, todos os dados de entrada _x_ serão interpretados como uma porcentagem de largura. Se _xType_ for 1, todos os dados de entrada _x_ serão interpretados como coordenadas locais.  <br/> |
+| _yType_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |Especifica como interpretar os dados de entrada de _y_ . Se _yType_ for 0, todos os dados de entrada de _y_ serão interpretados como uma porcentagem de Height. Se _yType_ for 1, todos os dados de entrada de _y_ serão interpretados como coordenadas locais.  <br/> |
+| _X1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma coordenada x.  <br/> |
+| _a1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma coordenada y.  <br/> |
+| _knot1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Um nó na B-spline.  <br/> |
+| _weight1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma espessura na B-spline.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9aa39c8ee68de42f1722048cb871d07e9a8151a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335536"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435303"
 ---
 # <a name="pidlidremoteentryid-canonical-property"></a>Propriedade canônica PidLidRemoteEntryId
 

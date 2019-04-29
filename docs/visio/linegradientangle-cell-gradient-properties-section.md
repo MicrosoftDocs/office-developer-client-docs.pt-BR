@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
 description: Determina o ângulo do gradiente de linha para um gradiente linear, de 0 a 359,9 graus.
 ms.openlocfilehash: fd806bc7c953dbd86abd95c8e6103ab9e6ee1a10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359260"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437130"
 ---
 # <a name="linegradientangle-cell-gradient-properties-section"></a>Célula LineGradientAngle (seção Gradient Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **LineGradientAngle** pelo índice a p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowGradientProperties** <br/> |
+| Índice de linha:  <br/> |**visRowGradientProperties** <br/> |
 | Índice da célula:  <br/> |**visLineGradientAngle** <br/> |
    
 

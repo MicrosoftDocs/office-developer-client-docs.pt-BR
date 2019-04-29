@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: Os modelos de formulário de código gerenciado do InfoPath dão suporte aos mesmos níveis de segurança que o script em execução em modelos de formulário não gerenciados, e também oferecem suporte a recursos de segurança de acesso a código adicionais que se aplicam ao código gerenciado em execução no CLR (Common Language Runtime) do. NET Framework.
 ms.openlocfilehash: 97f0239a5bd6699b539ddaebf4d1d2ed7d1394db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303763"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436143"
 ---
 # <a name="about-the-security-model-for-form-templates-with-code"></a>Sobre o modelo de segurança para modelos de formulário com código
 

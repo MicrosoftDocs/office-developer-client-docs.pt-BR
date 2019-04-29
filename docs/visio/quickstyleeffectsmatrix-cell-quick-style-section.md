@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0332bd3d-626a-4a46-8b69-e887e576ab86
 description: Determina os efeitos de estilo rápido que a forma herda do tema ativo, como um inteiro de 0-6.
 ms.openlocfilehash: 69541bd7371e8a02838a7ca075d136d8f49c316c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358741"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420126"
 ---
 # <a name="quickstyleeffectsmatrix-cell-quick-style-section"></a>Célula QuickStyleEffectsMatrix (seção Quick Style)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **QuickStyleEffectsMatrix** pelo índi
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowQuickStyleProperties** <br/> |
+| Índice de linha:  <br/> |**visRowQuickStyleProperties** <br/> |
 | Índice da célula:  <br/> |**visQuickStyleEffectsMatrix** <br/> |
    
 

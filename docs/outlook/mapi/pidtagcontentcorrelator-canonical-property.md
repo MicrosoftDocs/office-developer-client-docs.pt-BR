@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331973"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438523"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriedade canônica PidTagContentCorrelator
 

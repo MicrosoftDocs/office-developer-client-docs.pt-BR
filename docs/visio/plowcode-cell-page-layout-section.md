@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: Determina se as formas de colocação serão afastadas ao serem soltas próximas a uma outra forma de colocação na página de desenho.
 ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344370"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420350"
 ---
 # <a name="plowcode-cell-page-layout-section"></a>Célula PlowCode (Seção Page Layout)
 
@@ -40,7 +40,7 @@ Para obter uma referência para a célula PlowCode pelo índice a partir de um p
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOPlowCode** <br/> |
    
 

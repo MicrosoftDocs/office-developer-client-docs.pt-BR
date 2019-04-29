@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
 description: Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
 ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338819"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411642"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>Célula AvenueSizeX (Seção Page Layout)
 
@@ -37,7 +37,7 @@ Para obter uma referência para a célula AvenueSizeX pelo índice a partir de u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOAvenueSizeX** <br/> |
    
 

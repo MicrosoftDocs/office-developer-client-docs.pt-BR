@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b34714a230adb44417624d149d34ed6a14a2dfa5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339680"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437606"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Enviar mensagens usando provedores do repositório de mensagens
 

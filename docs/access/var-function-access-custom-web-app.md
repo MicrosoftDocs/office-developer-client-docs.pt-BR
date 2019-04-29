@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: cb2aace1-fa2d-480e-bfc7-44ae399943f5
 description: Retorna a variância estatística de uma amostra de população representada como um conjunto de valores contidos em um campo especificado em uma consulta.
 ms.openlocfilehash: 80cea512b0386d9b0461c927675ae51be3e0dcda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304197"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437753"
 ---
 # <a name="var-function-access-custom-web-app"></a>Função var (aplicativo da Web personalizado do Access)
 

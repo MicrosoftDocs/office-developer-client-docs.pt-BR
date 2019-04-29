@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 396a0f3e-dbbb-3f5b-3c5d-f7dd454a765f
 description: Determina o número de páginas impressas nas quais será ajustada verticalmente a página de desenho.
 ms.openlocfilehash: 43d4081439525c516d3da28b6c0e46e9273d85c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429779"
 ---
 # <a name="pagesy-cell-print-properties-section"></a>Célula PagesY (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula PagesY pelo índice a partir de um programa, u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesPagesY** <br/> |
    
 

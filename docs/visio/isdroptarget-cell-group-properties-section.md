@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: Determina se a forma pode ser adicionada ao grupo sendo solta nele.
 ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297225"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410788"
 ---
 # <a name="isdroptarget-cell-group-properties-section"></a>Célula IsDropTarget (Seção Group Properties)
 
@@ -22,7 +22,7 @@ Determina se a forma pode ser adicionada ao grupo sendo solta nele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
+|VERDADEIRO  <br/> |A forma pode ser adicionada ao grupo sendo solta nele.  <br/> |
 |FALSE  <br/> |A forma não pode ser solta no grupo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula IsDropTarget pelo índice a partir de 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowGroup** <br/> |
-|Índice da célula:  <br/> |**visGroupIsDropTarget** <br/> |
+|Índice de linha:  <br/> |**visRowGroup** <br/> |
+|Índice de célula:  <br/> |**visGroupIsDropTarget** <br/> |
    
 

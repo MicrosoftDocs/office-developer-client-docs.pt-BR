@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: O Visio 2013 fornece uma plataforma única e avançada para suas soluções de desenho personalizadas. Novas células e funções do ShapeSheet, juntamente com novos objetos de automação, propriedades, métodos e eventos, fornecem mais opções para definir e controlar o comportamento dos elementos em suas soluções.
 ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413322"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>Novidades para desenvolvedores do Visio ShapeSheet
 
@@ -128,7 +128,7 @@ A tabela a seguir lista as novas funções no Visio 2013.
 |:-----|
 |[NomeDaFonte](font-function.md) <br/> |
 |[ISTHEMED](isthemed-function.md) <br/> |
-|[PACOTE](language-function.md) <br/> |
+|[LANGUAGE](language-function.md) <br/> |
 |[THEMECBV](themecbv-function.md) <br/> |
 ||
 |[THEMEVAL](themeval-function.md) <br/> |

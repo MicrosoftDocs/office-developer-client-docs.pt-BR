@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
 description: Armazena a enumeração do tema interno do Microsoft Visio aplicado ao documento, como um inteiro. Quando um novo tema é escolhido para o documento, a célula ThemeIndex do documento e todas as páginas e formas que ele contém são atualizadas com o índice do tema interno.
 ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360526"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411908"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>Célula ThemeIndex (seção Theme Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **ThemeIndex** pelo índice a partir d
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowThemeProperties** <br/> |
+| Índice de linha:  <br/> |**visRowThemeProperties** <br/> |
 | Índice da célula:  <br/> |**visThemeIndex** <br/> |
    
 

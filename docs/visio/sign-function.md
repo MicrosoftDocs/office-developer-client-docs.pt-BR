@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Retorna um valor que representa o sinal de um número.
 ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357453"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420651"
 ---
 # <a name="sign-function"></a>Função SIGN
 
@@ -26,10 +26,10 @@ ASSINAR (* * *número* * *, * * *difusão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obrigatório  <br/> |**Numeric** <br/> | O número para o qual deseja determinar o sinal.  <br/> |
-| _difusa_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica o quanto o número deve estar próximo do zero para ser considerado igual a zero.  <br/> |
+| _number_ <br/> |Obrigatório  <br/> |**Numérica** <br/> | O número para o qual deseja determinar o sinal.  <br/> |
+| _difusa_ <br/> |Opcional  <br/> |**Numérica** <br/> |Especifica o quanto o número deve estar próximo do zero para ser considerado igual a zero.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

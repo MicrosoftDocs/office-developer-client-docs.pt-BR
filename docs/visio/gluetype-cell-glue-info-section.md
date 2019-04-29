@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Determina se uma forma 1D utilizará a cola estática (ponto a ponto) ou dinâmica (forma a forma) ao ser colada em outra forma.
 ms.openlocfilehash: ae4eddf17c6e7b5e56cb3397f03d0721d965c9b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339512"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410669"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>Célula GlueType (Seção Glue Info)
 
@@ -51,7 +51,7 @@ Para fazer referência à célula GlueType pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visGlueType** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visGlueType** <br/> |
    
 

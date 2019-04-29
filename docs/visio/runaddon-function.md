@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: Executa um complemento ou uma macro em um projeto do Microsoft Visual Basic for Applications (VBA).
 ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319058"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432006"
 ---
 # <a name="runaddon-function"></a>Função RUNADDON
 
@@ -26,9 +26,9 @@ RUNADDON (" *cadeia de caracteres* ")
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obrigatório  <br/> |**String** <br/> | O nome de um complemento na coleção **Addons** ou de uma macro em um projeto VBA.  <br/> |
+| _string_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O nome de um complemento na coleção **Addons** ou de uma macro em um projeto VBA.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

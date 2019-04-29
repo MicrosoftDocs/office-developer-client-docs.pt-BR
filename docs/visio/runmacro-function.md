@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
 description: Chama uma macro em um projeto do Microsoft Visual Basic for Applications (VBA).
 ms.openlocfilehash: 77045bd67fe9be9aab14e73199b33b93c6d70c2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355710"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428085"
 ---
 # <a name="runmacro-function"></a>Função RUNMACRO
 
@@ -26,9 +26,9 @@ RunMacro (* * *macroname* * * [, * * *projname_opt* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _nomedamacro_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome da macro a ser chamada.  <br/> |
+| _nomedamacro_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O nome da macro a ser chamada.  <br/> |
 | _projname_opt_ <br/> |Opcional  <br/> |**String** <br/> | O projeto que contém a macro.  <br/> |
    
 ## <a name="remarks"></a>Comentários

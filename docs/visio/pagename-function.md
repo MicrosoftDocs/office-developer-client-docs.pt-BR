@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
 description: Retorna o nome da página como uma cadeia de caracteres.
 ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339459"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438649"
 ---
 # <a name="pagename-function"></a>Função PAGENAME
 
@@ -26,13 +26,13 @@ PAGEname (* * *langID_opt* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _langID_opt_ <br/> |Opcional  <br/> |**Número** <br/> |Use para especificar uma linguagem para a cadeia de caracteres retornada pela função. Use 0 (valor padrão) para especificar a linguagem local. Use 750 para especificar a linguagem universal.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

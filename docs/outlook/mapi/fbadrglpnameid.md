@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434827"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 

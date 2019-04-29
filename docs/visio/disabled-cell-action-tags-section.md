@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indica se a marca de ação é exibida na janela de desenho.
 ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332561"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439664"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Célula Disabled (Seção Action Tags)
 
@@ -25,7 +25,7 @@ Indica se a marca de ação é exibida na janela de desenho.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | A marca de ação está desabilitada.  <br/> |
+| VERDADEIRO  <br/> | A marca de ação está desabilitada.  <br/> |
 | FALSE  <br/> | A marca de ação está habilitada (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -36,7 +36,7 @@ Para fazer referência à célula Disabled pelo nome, de outra fórmula ou progr
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . Desativado onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . Desativado onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula Disabled pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -44,6 +44,6 @@ Para fazer referência à célula Disabled pelo índice, a partir de um programa
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
 | Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visSmartTagDisabled** <br/> |
+| Índice de célula:  <br/> |**visSmartTagDisabled** <br/> |
    
 

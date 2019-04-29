@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fbc990a8c962883aa07987b200d1d2fd55434f93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328823"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413042"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 

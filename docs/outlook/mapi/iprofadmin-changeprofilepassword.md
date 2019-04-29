@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c7124c8e3f2ced66d303321ff7aee8592a723a2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420238"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 

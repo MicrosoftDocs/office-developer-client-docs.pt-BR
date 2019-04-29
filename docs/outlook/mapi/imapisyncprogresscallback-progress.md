@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9b44337a4bc9615558ac6337e99ea206ba063b1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341255"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429107"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 

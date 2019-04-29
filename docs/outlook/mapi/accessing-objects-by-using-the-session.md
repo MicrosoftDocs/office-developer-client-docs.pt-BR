@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a76397b74642aedf9ad5c9704735d869f61db7e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321704"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410536"
 ---
 # <a name="accessing-objects-by-using-the-session"></a>Acessar objetos usando a sessão
 
@@ -23,7 +23,7 @@ ms.locfileid: "32321704"
   
 O ponteiro de sessão recebido de sua chamada para [funçãomapilogonex](mapilogonex.md) pode ser usado para acessar uma ampla variedade de objetos. A tabela a seguir lista os métodos que são usados para acessar vários objetos: 
   
-|**Object**|**Método de sessão**|
+|**Objeto**|**Método de sessão**|
 |:-----|:-----|
 |Seção Profile  <br/> |[IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) <br/> |
 |Repositório de mensagens  <br/> |[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) <br/> |
@@ -33,7 +33,7 @@ O ponteiro de sessão recebido de sua chamada para [funçãomapilogonex](mapilog
    
 Com o método **OpenEntry** e um identificador de entrada válido, você pode abrir qualquer catálogo de endereços ou objeto de provedor de repositório de mensagens. Há outros métodos **OpenEntry** em MAPI, além do método **IMAPISession** . **OpenEntry** é implementado nos seguintes objetos: 
   
-|**Object**|**Method**|
+|**Objeto**|**Method**|
 |:-----|:-----|
 |Objeto de logon do provedor de catálogo de endereços  <br/> |[IABLogon::OpenEntry](iablogon-openentry.md) <br/> |
 |Catálogo de endereços  <br/> |[IAddrBook::OpenEntry](iaddrbook-openentry.md) <br/> |
@@ -41,7 +41,7 @@ Com o método **OpenEntry** e um identificador de entrada válido, você pode ab
 |Sessão  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
 |Repositório de mensagens  <br/> |[IMsgStore::OpenEntry](imsgstore-openentry.md) <br/> |
 |Objeto de logon do provedor de repositório de mensagens  <br/> |[IMSLogon::OpenEntry](imslogon-openentry.md) <br/> |
-|Pasta  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
+|Folder  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
 |Objeto support  <br/> |[IMAPISupport::OpenEntry](imapisupport-openentry.md) <br/> |
    
 Alguns métodos **OpenEntry** exigem um identificador de entrada do objeto a ser aberto, como o **IMAPISession:: OpenEntry**; outros métodos permitem que NULL seja especificado. Um identificador de entrada nulo é interpretado de forma diferente dependendo do objeto. Por exemplo, quando você chama **IAddrBook:: OpenEntry** com um identificador de entrada nulo, MAPI abre o contêiner raiz do catálogo de endereços. O método **OpenEntry** do armazenamento de mensagens se comporta de forma semelhante; Ele abre a pasta raiz do repositório de mensagens. **IMAPIContainer:: OpenEntry**, implementado por contêineres de pastas e catálogos de endereços, pode retornar MAPI_E_INVALID_PARAMETER ou o contêiner raiz, dependendo do implementador. 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2d63768e-afdb-4b3f-de49-f9ba69ae5391
 description: Uma célula de evento avaliada quando a composição do texto ou o texto da forma é alterado.
 ms.openlocfilehash: 6aa5e14f339d0030d8421eaae62b0e481be91fc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326674"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435163"
 ---
 # <a name="thetext-cell-events-section"></a>Célula TheText (Seção Events)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula TheText pelo índice, a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowEvent** <br/> |
+| Índice de linha:  <br/> |**visRowEvent** <br/> |
 | Índice da célula:  <br/> |**visEvtCellTheText** <br/> |
    
 

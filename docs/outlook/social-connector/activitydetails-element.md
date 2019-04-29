@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: O elemento activityDetails armazena os dados brutos de um único item de feed de atividade. Cada item de feed de atividades deve ter seu próprio elemento activityDetails. Os dados no elemento activityDetails são referenciados em modelos de atividade usando elementos Name.
 ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281346"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434869"
 ---
 # <a name="activitydetails-element"></a>Elemento activityDetails
 

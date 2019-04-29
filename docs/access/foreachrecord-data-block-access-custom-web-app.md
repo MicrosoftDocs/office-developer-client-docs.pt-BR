@@ -8,23 +8,23 @@ localization_priority: Normal
 ms.assetid: 8ffa0de2-5abb-4375-9fb5-042ce3c21506
 description: Um bloco de dados ParaCadaRegistro repete um conjunto de instruções para cada registro em um domínio.
 ms.openlocfilehash: 9715824bff7d478fa2880ada5e8770f7a0c88883
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302454"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428232"
 ---
 # <a name="foreachrecord-data-block-access-custom-web-app"></a>Bloco de dados ParaCadaRegistro (aplicativo Web personalizado do Access)
 
 Um bloco de dados **ParaCadaRegistro** repete um conjunto de instruções para cada registro em um domínio. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
 > O bloco de dados **ParaCadaRegistro** está disponível somente em Macros de Dados. 
   
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ParaCadaRegistro** tem os seguintes argumentos. 
   

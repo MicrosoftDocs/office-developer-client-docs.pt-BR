@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: Retorna um valor que representa um índice na paleta de cores do documento. Especifica uma cor por seus componentes de matiz, saturação e luminosidade.
 ms.openlocfilehash: 55703239395c54beedf4b7383435253f9c37006f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329922"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420959"
 ---
 # <a name="hsl-function"></a>Função HSL
 
@@ -26,7 +26,7 @@ HSL (* * *matiz* * *, * * *saturação* * *, * * *luminosidade* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _Tom_ <br/> |Obrigatório  <br/> |**Número** <br/> |A matiz da cor, expressa como um número entre 0 e 239, inclusive, ou uma expressão que é avaliada neste número.  <br/> |
 | _saturação_ <br/> |Obrigatório  <br/> |**Número** <br/> |A saturação da cor, expressa como um número entre 0 e 240, inclusive, ou uma expressão que é avaliada neste número.  <br/> |
@@ -42,7 +42,7 @@ Se a cor retornada pela função ainda não existir na paleta de cores do docume
   
 A tabela a seguir relaciona algumas cores padrão e seus valores de matiz, saturação e luminosidade. 
   
-|**Color**|**Valor de matiz**|**Valor de saturação**|**Valor de luminosidade**|
+|**Cor**|**Valor de matiz**|**Valor de saturação**|**Valor de luminosidade**|
 |:-----|:-----|:-----|:-----|
 |Preto  <br/> |,0  <br/> |,0  <br/> |dia  <br/> |
 |Azul  <br/> |160  <br/> |240  <br/> |120  <br/> |

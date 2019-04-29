@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: Define o nome de um item de menu exibido em um menu de atalho ou de marca de ação para uma forma ou página.
 ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360652"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436325"
 ---
 # <a name="menu-cell-actions-section"></a>Célula Menu (Seção Actions)
 
@@ -38,7 +38,7 @@ Para obter uma referência para a célula Menu pelo índice, a partir de um prog
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice da linha:  <br/> |**visRowAction** +  *i* onde i = 0, 1, 2,...  <br/> |
+|Índice de linha:  <br/> |**visRowAction** +  *i* onde i = 0, 1, 2,...  <br/> |
 |Índice da célula:  <br/> |**visActionMenu** <br/> |
    
 

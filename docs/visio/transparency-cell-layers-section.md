@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
 description: Determina o nível de transparência para uma camada de cor.
 ms.openlocfilehash: fe0aacf167b2400ca10e22a70c9086429f6059f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280949"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436374"
 ---
 # <a name="transparency-cell-layers-section"></a>Célula Transparency (Seção Layers)
 
@@ -39,7 +39,7 @@ Para obter uma referência para a célula Transparency pelo índice, a partir de
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice da linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visLayerColorTrans** <br/> |
    
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
 description: 'Última modificação: 5 de outubro de 2012'
 ms.openlocfilehash: 262955c0c2753dd69e874ab60246b3ed50500dbc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409990"
 ---
 # <a name="content-retired-notice-mapi"></a>Notificação de retirada de conteúdo (MAPI)
 
@@ -29,8 +29,8 @@ The content that you tried to view is no longer available. It may have been dele
     
 - [Amostras de MAPI](mapi-samples.md)
     
-- [Conceitos MAPI (em ingl�s)](mapi-concepts.md)
+- [Conceitos MAPI](mapi-concepts.md)
     
-- [Refer�ncia MAPI (em ingl�s)](mapi-reference.md)
+- [Referencia MAPI](mapi-reference.md)
     
 

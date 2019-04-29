@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2fb9eed0beaf7269ac90a021dae650355484ebc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436227"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Propriedade canônica PidTagResourceFlags
 

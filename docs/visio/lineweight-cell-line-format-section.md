@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: Determina a espessura da linha de uma forma. Defina a espessura inserindo um número com uma unidade de medida válida.
 ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412244"
 ---
 # <a name="lineweight-cell-line-format-section"></a>Célula LineWeight (Seção Line Format)
 
@@ -37,7 +37,7 @@ Para fazer referência à célula LineWeight pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowLine** <br/> |
-| Índice da célula:  <br/> |**visLineWeight** <br/> |
+| Índice de linha:  <br/> |**visRowLine** <br/> |
+| Índice de célula:  <br/> |**visLineWeight** <br/> |
    
 

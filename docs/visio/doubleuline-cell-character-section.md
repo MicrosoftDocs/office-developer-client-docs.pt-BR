@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Determina se o intervalo de texto contém um sublinhado duplo abaixo dele.
 ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438838"
 ---
 # <a name="doubleuline-cell-character-section"></a>Célula DoubleULine (Seção Character)
 
@@ -22,7 +22,7 @@ Determina se o intervalo de texto contém um sublinhado duplo abaixo dele.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |O texto contém sublinhado duplo abaixo dele.  <br/> |
+|VERDADEIRO  <br/> |O texto contém sublinhado duplo abaixo dele.  <br/> |
 |FALSE  <br/> |O texto não contém sublinhado duplo abaixo dele.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula DoubleULine pelo índice a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-|Índice da linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCharacterDblUnderline** <br/> |
+|Índice de linha:  <br/> |**visRowCharacter** +  *i*           onde  *i*  = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visCharacterDblUnderline** <br/> |
    
 

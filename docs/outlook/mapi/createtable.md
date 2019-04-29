@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e8c399569e68b8cb55d803733ed93105ea0be799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435009"
 ---
 # <a name="createtable"></a>CreateTable
 

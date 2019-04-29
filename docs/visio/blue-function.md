@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: Retorna o componente azul de uma cor. O valor de retorno é um número inteiro no intervalo de 0 a 255, inclusive. A função retornará 0 para uma entrada inválida.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439034"
 ---
 # <a name="blue-function"></a>Função BLUE
 
@@ -26,9 +26,9 @@ AZUL (* * *expressão* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
+| _expressão_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

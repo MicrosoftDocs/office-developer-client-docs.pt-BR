@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: Determina o nível de transparência para a cor utilizada para o primeiro plano (traço) do padrão de preenchimento da sombra projetada da forma.
 ms.openlocfilehash: 0ef3ce525edcce4ccd61f36649ead512545eef58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349095"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435037"
 ---
 # <a name="shdwforegndtrans-cell-fill-format-section"></a>Célula ShdwForegndTrans (Seção Fill Format)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula ShdwForegndTrans pelo índice, a parti
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowFill** <br/> |
+|Índice de linha:  <br/> |**visRowFill** <br/> |
 |Índice da célula:  <br/> |**visFillShdwForegndTrans** <br/> |
    
 

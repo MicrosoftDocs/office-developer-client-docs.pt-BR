@@ -6,11 +6,11 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8d696fa4-a6f2-4fb1-8662-a313bf0b5989
 ms.openlocfilehash: 3f409155bf5a1e9d7f9ace68c003e48d8fc7097a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410284"
 ---
 # <a name="access-custom-web-app-reference"></a>Referência de aplicativo Web personalizado do Access
 

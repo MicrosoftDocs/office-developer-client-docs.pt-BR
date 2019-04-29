@@ -13,11 +13,11 @@ api_type:
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430165"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
@@ -176,7 +176,7 @@ Para obter mais informações sobre notificação, consulte os tópicos descrito
 
 
 
-[NOTIFICATION](notification.md)
+[Notifica](notification.md)
   
 [SPropTagArray](sproptagarray.md)
 

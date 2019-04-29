@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ba69b2a7aebaba16b0d856c1b012b637650f5eaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360862"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434785"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Propriedade canônica PidTagDeltaY
 
