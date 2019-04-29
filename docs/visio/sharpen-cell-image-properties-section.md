@@ -10,30 +10,30 @@ localization_priority: Normal
 ms.assetid: aa2bebfc-a6bb-a6b3-3ae9-8553f96b5738
 description: Ajusta a nitidez de uma imagem de bitmap. O valor padrão é 0%. Ajustar a nitidez focaliza uma imagem aumentando o contraste dos pixels adjacentes.
 ms.openlocfilehash: e519cf6e5a168b64b4bc8aa083843163a47525ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349088"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415919"
 ---
-# <a name="sharpen-cell-image-properties-section"></a><span data-ttu-id="800f5-105">Célula Sharpen (Seção Image Properties)</span><span class="sxs-lookup"><span data-stu-id="800f5-105">Sharpen Cell (Image Properties Section)</span></span>
+# <a name="sharpen-cell-image-properties-section"></a><span data-ttu-id="57150-105">Célula Sharpen (Seção Image Properties)</span><span class="sxs-lookup"><span data-stu-id="57150-105">Sharpen Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="800f5-106">Ajusta a nitidez de uma imagem de bitmap.</span><span class="sxs-lookup"><span data-stu-id="800f5-106">Sharpens a bitmap image.</span></span> <span data-ttu-id="800f5-107">O valor padrão é 0%.</span><span class="sxs-lookup"><span data-stu-id="800f5-107">The default value is 0%.</span></span> <span data-ttu-id="800f5-108">Ajustar a nitidez focaliza uma imagem aumentando o contraste dos pixels adjacentes.</span><span class="sxs-lookup"><span data-stu-id="800f5-108">Sharpening an image focuses it by increasing the contrast of adjacent pixels.</span></span>
+<span data-ttu-id="57150-106">Ajusta a nitidez de uma imagem de bitmap.</span><span class="sxs-lookup"><span data-stu-id="57150-106">Sharpens a bitmap image.</span></span> <span data-ttu-id="57150-107">O valor padrão é 0%.</span><span class="sxs-lookup"><span data-stu-id="57150-107">The default value is 0%.</span></span> <span data-ttu-id="57150-108">Ajustar a nitidez focaliza uma imagem aumentando o contraste dos pixels adjacentes.</span><span class="sxs-lookup"><span data-stu-id="57150-108">Sharpening an image focuses it by increasing the contrast of adjacent pixels.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="800f5-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="800f5-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="57150-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="57150-109">Remarks</span></span>
 
-<span data-ttu-id="800f5-110">Para fazer referência à célula Sharpen pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="800f5-110">To get a reference to the Sharpen cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="57150-110">Para fazer referência à célula Sharpen pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="57150-110">To get a reference to the Sharpen cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="800f5-111">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="800f5-111">Cell name:</span></span>  <br/> | <span data-ttu-id="800f5-112">Nitidez</span><span class="sxs-lookup"><span data-stu-id="800f5-112">Sharpen</span></span>  <br/> |
+| <span data-ttu-id="57150-111">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="57150-111">Cell name:</span></span>  <br/> | <span data-ttu-id="57150-112">Nitidez</span><span class="sxs-lookup"><span data-stu-id="57150-112">Sharpen</span></span>  <br/> |
    
-<span data-ttu-id="800f5-113">Para fazer referência à célula Sharpen pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="800f5-113">To get a reference to the Sharpen cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="57150-113">Para fazer referência à célula Sharpen pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="57150-113">To get a reference to the Sharpen cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="800f5-114">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="800f5-114">Section index:</span></span>  <br/> |<span data-ttu-id="800f5-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="800f5-115">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="800f5-116">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="800f5-116">Row index:</span></span>  <br/> |<span data-ttu-id="800f5-117">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="800f5-117">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="800f5-118">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="800f5-118">Cell index:</span></span>  <br/> |<span data-ttu-id="800f5-119">**visImageSharpen**</span><span class="sxs-lookup"><span data-stu-id="800f5-119">**visImageSharpen**</span></span> <br/> |
+| <span data-ttu-id="57150-114">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="57150-114">Section index:</span></span>  <br/> |<span data-ttu-id="57150-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="57150-115">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="57150-116">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="57150-116">Row index:</span></span>  <br/> |<span data-ttu-id="57150-117">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="57150-117">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="57150-118">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="57150-118">Cell index:</span></span>  <br/> |<span data-ttu-id="57150-119">**visImageSharpen**</span><span class="sxs-lookup"><span data-stu-id="57150-119">**visImageSharpen**</span></span> <br/> |
    
 

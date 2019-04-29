@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 544aaaace18a9d26972e6484803b63a1ee7060fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317280"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416297"
 ---
-# <a name="imslogonopenentry"></a><span data-ttu-id="f2ec4-103">IMSLogon::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="f2ec4-103">IMSLogon::OpenEntry</span></span>
+# <a name="imslogonopenentry"></a><span data-ttu-id="62915-103">IMSLogon::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="62915-103">IMSLogon::OpenEntry</span></span>
 
   
   
-<span data-ttu-id="f2ec4-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f2ec4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="62915-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62915-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f2ec4-105">Abre uma pasta ou um objeto Message e retorna um ponteiro para o objeto para fornecer mais acesso.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-105">Opens a folder or message object and returns a pointer to the object to provide further access.</span></span> 
+<span data-ttu-id="62915-105">Abre uma pasta ou um objeto Message e retorna um ponteiro para o objeto para fornecer mais acesso.</span><span class="sxs-lookup"><span data-stu-id="62915-105">Opens a folder or message object and returns a pointer to the object to provide further access.</span></span> 
   
 ```cpp
 HRESULT OpenEntry(
@@ -38,65 +38,65 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f2ec4-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f2ec4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62915-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="62915-106">Parameters</span></span>
 
- <span data-ttu-id="f2ec4-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-107">_cbEntryID_</span></span>
+ <span data-ttu-id="62915-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="62915-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="f2ec4-108">no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="f2ec4-108">[in] The size, in bytes, of the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="62915-108">no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="62915-108">[in] The size, in bytes, of the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="f2ec4-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-109">_lpEntryID_</span></span>
+ <span data-ttu-id="62915-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="62915-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="f2ec4-110">no Um ponteiro para o endereço do identificador de entrada do objeto Folder ou Message a ser aberto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-110">[in] A pointer to the address of the entry identifier of the folder or message object to open.</span></span> 
+> <span data-ttu-id="62915-110">no Um ponteiro para o endereço do identificador de entrada do objeto Folder ou Message a ser aberto.</span><span class="sxs-lookup"><span data-stu-id="62915-110">[in] A pointer to the address of the entry identifier of the folder or message object to open.</span></span> 
     
- <span data-ttu-id="f2ec4-111">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-111">_lpInterface_</span></span>
+ <span data-ttu-id="62915-111">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="62915-111">_lpInterface_</span></span>
   
-> <span data-ttu-id="f2ec4-112">no Um ponteiro para o identificador de interface (IID) do objeto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-112">[in] A pointer to the interface identifier (IID) for the object.</span></span> <span data-ttu-id="f2ec4-113">Passar NULL indica que o objeto é convertido na interface padrão para tal objeto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-113">Passing NULL indicates that the object is cast to the standard interface for such an object.</span></span> <span data-ttu-id="f2ec4-114">O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface apropriada para o objeto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-114">The  _lpInterface_ parameter can also be set to an identifier for an appropriate interface for the object.</span></span> 
+> <span data-ttu-id="62915-112">no Um ponteiro para o identificador de interface (IID) do objeto.</span><span class="sxs-lookup"><span data-stu-id="62915-112">[in] A pointer to the interface identifier (IID) for the object.</span></span> <span data-ttu-id="62915-113">Passar NULL indica que o objeto é convertido na interface padrão para tal objeto.</span><span class="sxs-lookup"><span data-stu-id="62915-113">Passing NULL indicates that the object is cast to the standard interface for such an object.</span></span> <span data-ttu-id="62915-114">O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface apropriada para o objeto.</span><span class="sxs-lookup"><span data-stu-id="62915-114">The  _lpInterface_ parameter can also be set to an identifier for an appropriate interface for the object.</span></span> 
     
- <span data-ttu-id="f2ec4-115">_ulOpenFlags_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-115">_ulOpenFlags_</span></span>
+ <span data-ttu-id="62915-115">_ulOpenFlags_</span><span class="sxs-lookup"><span data-stu-id="62915-115">_ulOpenFlags_</span></span>
   
-> <span data-ttu-id="f2ec4-116">no Uma bitmask de sinalizadores que controla como o objeto é aberto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-116">[in] A bitmask of flags that controls how the object is opened.</span></span> <span data-ttu-id="f2ec4-117">Os seguintes sinalizadores podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="f2ec4-117">The following flags can be set:</span></span>
+> <span data-ttu-id="62915-116">no Uma bitmask de sinalizadores que controla como o objeto é aberto.</span><span class="sxs-lookup"><span data-stu-id="62915-116">[in] A bitmask of flags that controls how the object is opened.</span></span> <span data-ttu-id="62915-117">Os seguintes sinalizadores podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="62915-117">The following flags can be set:</span></span>
     
-<span data-ttu-id="f2ec4-118">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="f2ec4-118">MAPI_BEST_ACCESS</span></span> 
+<span data-ttu-id="62915-118">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="62915-118">MAPI_BEST_ACCESS</span></span> 
   
-> <span data-ttu-id="f2ec4-119">O objeto deve ser aberto com as permissões máximas permitidas para o usuário e as permissões máximas do aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-119">The object should be opened with the maximum permissions allowed for the user and the maximum client application permissions.</span></span> <span data-ttu-id="f2ec4-120">Por exemplo, se o cliente tem permissão de leitura/gravação, o objeto é aberto com permissão de leitura/gravação; Se o cliente tem permissão somente leitura, o objeto é aberto com permissão somente leitura.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-120">For example, if the client has read/write permission, the object is opened with read/write permission; if the client has read-only permission, the object is opened with read-only permission.</span></span> <span data-ttu-id="f2ec4-121">O cliente pode recuperar o nível de permissão obtendo a propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="f2ec4-121">The client can retrieve the permission level by getting the **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.</span></span>
+> <span data-ttu-id="62915-119">O objeto deve ser aberto com as permissões máximas permitidas para o usuário e as permissões máximas do aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="62915-119">The object should be opened with the maximum permissions allowed for the user and the maximum client application permissions.</span></span> <span data-ttu-id="62915-120">Por exemplo, se o cliente tem permissão de leitura/gravação, o objeto é aberto com permissão de leitura/gravação; Se o cliente tem permissão somente leitura, o objeto é aberto com permissão somente leitura.</span><span class="sxs-lookup"><span data-stu-id="62915-120">For example, if the client has read/write permission, the object is opened with read/write permission; if the client has read-only permission, the object is opened with read-only permission.</span></span> <span data-ttu-id="62915-121">O cliente pode recuperar o nível de permissão obtendo a propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="62915-121">The client can retrieve the permission level by getting the **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.</span></span>
     
-<span data-ttu-id="f2ec4-122">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="f2ec4-122">MAPI_DEFERRED_ERRORS</span></span> 
+<span data-ttu-id="62915-122">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="62915-122">MAPI_DEFERRED_ERRORS</span></span> 
   
-> <span data-ttu-id="f2ec4-123">A chamada terá permissão para ter êxito, mesmo se o objeto subjacente não estiver disponível para o aplicativo de chamada.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-123">The call is allowed to succeed even if the underlying object is not available to the calling application.</span></span> <span data-ttu-id="f2ec4-124">Se o objeto não estiver disponível, uma chamada subsequente para o objeto poderá retornar um erro.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-124">If the object is not available, a subsequent call to the object might return an error.</span></span>
+> <span data-ttu-id="62915-123">A chamada terá permissão para ter êxito, mesmo se o objeto subjacente não estiver disponível para o aplicativo de chamada.</span><span class="sxs-lookup"><span data-stu-id="62915-123">The call is allowed to succeed even if the underlying object is not available to the calling application.</span></span> <span data-ttu-id="62915-124">Se o objeto não estiver disponível, uma chamada subsequente para o objeto poderá retornar um erro.</span><span class="sxs-lookup"><span data-stu-id="62915-124">If the object is not available, a subsequent call to the object might return an error.</span></span>
     
-<span data-ttu-id="f2ec4-125">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="f2ec4-125">MAPI_MODIFY</span></span> 
+<span data-ttu-id="62915-125">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="62915-125">MAPI_MODIFY</span></span> 
   
-> <span data-ttu-id="f2ec4-126">Solicita permissão de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-126">Requests read/write permission.</span></span> <span data-ttu-id="f2ec4-127">Por padrão, os objetos são criados com permissão somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-127">By default, objects are created with read-only permission, and clients should not work on the assumption that read/write permission has been granted.</span></span> 
+> <span data-ttu-id="62915-126">Solicita permissão de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="62915-126">Requests read/write permission.</span></span> <span data-ttu-id="62915-127">Por padrão, os objetos são criados com permissão somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida.</span><span class="sxs-lookup"><span data-stu-id="62915-127">By default, objects are created with read-only permission, and clients should not work on the assumption that read/write permission has been granted.</span></span> 
     
- <span data-ttu-id="f2ec4-128">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-128">_lpulObjType_</span></span>
+ <span data-ttu-id="62915-128">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="62915-128">_lpulObjType_</span></span>
   
-> <span data-ttu-id="f2ec4-129">bota Um ponteiro para o tipo do objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-129">[out] A pointer to the type of the opened object.</span></span>
+> <span data-ttu-id="62915-129">bota Um ponteiro para o tipo do objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="62915-129">[out] A pointer to the type of the opened object.</span></span>
     
- <span data-ttu-id="f2ec4-130">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="f2ec4-130">_lppUnk_</span></span>
+ <span data-ttu-id="62915-130">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="62915-130">_lppUnk_</span></span>
   
-> <span data-ttu-id="f2ec4-131">bota Um ponteiro para o ponteiro para o objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-131">[out] A pointer to the pointer to the opened object.</span></span>
+> <span data-ttu-id="62915-131">bota Um ponteiro para o ponteiro para o objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="62915-131">[out] A pointer to the pointer to the opened object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f2ec4-132">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="f2ec4-132">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="62915-132">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="62915-132">Return value</span></span>
 
-<span data-ttu-id="f2ec4-133">S_OK</span><span class="sxs-lookup"><span data-stu-id="f2ec4-133">S_OK</span></span> 
+<span data-ttu-id="62915-133">S_OK</span><span class="sxs-lookup"><span data-stu-id="62915-133">S_OK</span></span> 
   
-> <span data-ttu-id="f2ec4-134">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-134">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="62915-134">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="62915-134">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f2ec4-135">Comentários</span><span class="sxs-lookup"><span data-stu-id="f2ec4-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62915-135">Comentários</span><span class="sxs-lookup"><span data-stu-id="62915-135">Remarks</span></span>
 
-<span data-ttu-id="f2ec4-136">MAPI chama o método **IMSLogon:: OpenEntry** para abrir uma pasta ou uma mensagem em um repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-136">MAPI calls the **IMSLogon::OpenEntry** method to open a folder or a message in a message store.</span></span> <span data-ttu-id="f2ec4-137">MAPI passa no identificador de entrada do objeto a ser aberto.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-137">MAPI passes in the entry identifier of the object to open.</span></span> <span data-ttu-id="f2ec4-138">O provedor de repositório de mensagens deve retornar um ponteiro que permita o acesso adicional ao objeto especificado no parâmetro _lppUnk_ .</span><span class="sxs-lookup"><span data-stu-id="f2ec4-138">The message store provider should return a pointer that enables further access to the object specified in the  _lppUnk_ parameter.</span></span> 
+<span data-ttu-id="62915-136">MAPI chama o método **IMSLogon:: OpenEntry** para abrir uma pasta ou uma mensagem em um repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="62915-136">MAPI calls the **IMSLogon::OpenEntry** method to open a folder or a message in a message store.</span></span> <span data-ttu-id="62915-137">MAPI passa no identificador de entrada do objeto a ser aberto.</span><span class="sxs-lookup"><span data-stu-id="62915-137">MAPI passes in the entry identifier of the object to open.</span></span> <span data-ttu-id="62915-138">O provedor de repositório de mensagens deve retornar um ponteiro que permita o acesso adicional ao objeto especificado no parâmetro _lppUnk_ .</span><span class="sxs-lookup"><span data-stu-id="62915-138">The message store provider should return a pointer that enables further access to the object specified in the  _lppUnk_ parameter.</span></span> 
   
-<span data-ttu-id="f2ec4-139">Antes de chamadas MAPI **IMSLogon:: OpenEntry**, ele primeiro determina que o identificador de entrada de pasta ou mensagem fornecido corresponde a um registrado por este provedor de repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-139">Before MAPI calls **IMSLogon::OpenEntry**, it first determines that the given message or folder entry identifier matches one registered by this message store provider.</span></span> <span data-ttu-id="f2ec4-140">Para obter mais informações sobre como os provedores de repositório registram identificadores de entrada, consulte [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md).</span><span class="sxs-lookup"><span data-stu-id="f2ec4-140">For more information about how store providers register entry identifiers, see [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).</span></span>
+<span data-ttu-id="62915-139">Antes de chamadas MAPI **IMSLogon:: OpenEntry**, ele primeiro determina que o identificador de entrada de pasta ou mensagem fornecido corresponde a um registrado por este provedor de repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="62915-139">Before MAPI calls **IMSLogon::OpenEntry**, it first determines that the given message or folder entry identifier matches one registered by this message store provider.</span></span> <span data-ttu-id="62915-140">Para obter mais informações sobre como os provedores de repositório registram identificadores de entrada, consulte [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md).</span><span class="sxs-lookup"><span data-stu-id="62915-140">For more information about how store providers register entry identifiers, see [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).</span></span>
   
- <span data-ttu-id="f2ec4-141">**IMSLogon:: OpenEntry** é idêntico ao método [IMsgStore:: OpenEntry](imsgstore-openentry.md) do objeto do repositório de mensagens, exceto pelo fato de que o cliente não chama **IMSLogon:: OpenEntry**; Chamadas MAPI **IMSLogon:: OpenEntry** quando processa um método **IMAPISession:: OpenEntry** .</span><span class="sxs-lookup"><span data-stu-id="f2ec4-141">**IMSLogon::OpenEntry** is identical to the [IMsgStore::OpenEntry](imsgstore-openentry.md) method of the message store object, except that the client does not call **IMSLogon::OpenEntry**; MAPI calls **IMSLogon::OpenEntry** when it processes an **IMAPISession::OpenEntry** method.</span></span> <span data-ttu-id="f2ec4-142">Os objetos abertos com o uso de **IMSLogon:: OpenEntry** devem ser tratados exatamente da mesma forma que os objetos abertos usando o objeto de repositório de mensagens; em particular, os objetos abertos usando essa chamada devem ser invalidados quando o objeto do repositório de mensagens é liberado.</span><span class="sxs-lookup"><span data-stu-id="f2ec4-142">Objects opened by using **IMSLogon::OpenEntry** should be treated exactly the same as objects opened by using the message store object; in particular, objects opened by using this call should be invalidated when the message store object is released.</span></span> 
+ <span data-ttu-id="62915-141">**IMSLogon:: OpenEntry** é idêntico ao método [IMsgStore:: OpenEntry](imsgstore-openentry.md) do objeto do repositório de mensagens, exceto pelo fato de que o cliente não chama **IMSLogon:: OpenEntry**; Chamadas MAPI **IMSLogon:: OpenEntry** quando processa um método **IMAPISession:: OpenEntry** .</span><span class="sxs-lookup"><span data-stu-id="62915-141">**IMSLogon::OpenEntry** is identical to the [IMsgStore::OpenEntry](imsgstore-openentry.md) method of the message store object, except that the client does not call **IMSLogon::OpenEntry**; MAPI calls **IMSLogon::OpenEntry** when it processes an **IMAPISession::OpenEntry** method.</span></span> <span data-ttu-id="62915-142">Os objetos abertos com o uso de **IMSLogon:: OpenEntry** devem ser tratados exatamente da mesma forma que os objetos abertos usando o objeto de repositório de mensagens; em particular, os objetos abertos usando essa chamada devem ser invalidados quando o objeto do repositório de mensagens é liberado.</span><span class="sxs-lookup"><span data-stu-id="62915-142">Objects opened by using **IMSLogon::OpenEntry** should be treated exactly the same as objects opened by using the message store object; in particular, objects opened by using this call should be invalidated when the message store object is released.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f2ec4-143">Confira também</span><span class="sxs-lookup"><span data-stu-id="f2ec4-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62915-143">Confira também</span><span class="sxs-lookup"><span data-stu-id="62915-143">See also</span></span>
 
 
 
-[<span data-ttu-id="f2ec4-144">IMAPISupport::SetProviderUID</span><span class="sxs-lookup"><span data-stu-id="f2ec4-144">IMAPISupport::SetProviderUID</span></span>](imapisupport-setprovideruid.md)
+[<span data-ttu-id="62915-144">IMAPISupport::SetProviderUID</span><span class="sxs-lookup"><span data-stu-id="62915-144">IMAPISupport::SetProviderUID</span></span>](imapisupport-setprovideruid.md)
   
-[<span data-ttu-id="f2ec4-145">IMsgStore::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="f2ec4-145">IMsgStore::OpenEntry</span></span>](imsgstore-openentry.md)
+[<span data-ttu-id="62915-145">IMsgStore::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="62915-145">IMsgStore::OpenEntry</span></span>](imsgstore-openentry.md)
   
-[<span data-ttu-id="f2ec4-146">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f2ec4-146">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
+[<span data-ttu-id="62915-146">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="62915-146">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
 
