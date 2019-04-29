@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 874dba4aa18190792a52e29064155f5afa0ef44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349263"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439867"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 

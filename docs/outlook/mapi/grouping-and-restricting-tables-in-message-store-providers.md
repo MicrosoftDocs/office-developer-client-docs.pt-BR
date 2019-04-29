@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8a45a9fd0d40c16d110fd52be1ac1117e1dd4d04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299409"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428981"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Agrupar e restringir tabelas em provedores de repositórios de mensagens
 

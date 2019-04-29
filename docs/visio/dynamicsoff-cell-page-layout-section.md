@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Determina se as formas de colocação serão movidas e se os conectores serão redirecionados em torno de outras formas e outros conectores na página de desenho.
 ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437473"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>Célula DynamicsOff (Seção Page Layout)
 
@@ -22,7 +22,7 @@ Determina se as formas de colocação serão movidas e se os conectores serão r
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Desativar dinâmica.  <br/> |
+| VERDADEIRO  <br/> | Desativar dinâmica.  <br/> |
 | FALSE  <br/> | Ativar dinâmica.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para fazer referência à célula DynamicsOff pelo índice a partir de um progra
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLODynamicsOff** <br/> |
    
 

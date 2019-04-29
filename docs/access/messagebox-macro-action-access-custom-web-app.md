@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bdacdafc-728b-4952-b28a-b5c1fe4b4f63
 description: Você pode usar a ação MessageBox para exibir uma caixa de mensagem contendo um aviso ou uma mensagem informativa. Por exemplo, você pode usar a ação MessageBox com macros de validação. Quando um controle ou registro falha em uma condição de validação na macro, uma caixa de mensagem pode exibir uma mensagem de erro e fornecer instruções sobre o tipo de dados que devem ser inseridos.
 ms.openlocfilehash: 9f45101fd269ef863e60fd8e69741e5cd7c56ef1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433448"
 ---
 # <a name="messagebox-macro-action-access-custom-web-app"></a>Ação de macro MessageBox (aplicativo Web personalizado do Access)
 

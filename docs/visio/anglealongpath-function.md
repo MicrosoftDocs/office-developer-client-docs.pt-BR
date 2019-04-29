@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d7f8ca9a-3a89-abab-9805-bd1e24075c3f
 description: Retorna o ângulo da tangente para o caminho em um determinado ponto.
 ms.openlocfilehash: 0d38fc0e123a7e38b7826b55415cfc09c1789c0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341416"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407323"
 ---
 # <a name="anglealongpath-function"></a>Função ANGLEALONGPATH
 
@@ -29,9 +29,9 @@ ANGLEALONGPATH (* * *seção* * *, * * *viagem* * * * * *[, segmento]* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
 | _transmiti_ <br/> |Obrigatório  <br/> |**Double** <br/> |O percentual no caminho do ponto inicial ao ponto final. Deve estar entre 0 e 1.  <br/> |
 | _segmento_ <br/> |Opcional  <br/> |**Integer** <br/> |O segmento baseado em 1 do caminho no qual o ângulo da tangente deverá ser calculado.  <br/> |
    

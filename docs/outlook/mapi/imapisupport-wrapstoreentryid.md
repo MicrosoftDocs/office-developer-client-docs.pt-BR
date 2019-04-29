@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430445"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 

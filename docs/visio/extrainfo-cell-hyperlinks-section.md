@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
 description: Representa uma sequência de caracteres que passa as informações que serão utilizadas para resolver um URL, como as coordenadas de um mapa de imagens. Por exemplo, na célula ExtraInfo, x = 41&amp;y = 7specifies as coordenadas de um mapa de imagem.
 ms.openlocfilehash: df2886ef7911b484cc60e8a476bfa53369fbf646
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357817"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409570"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>Célula ExtraInfo (Seção Hyperlinks)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Determina o nível de transparência para a cor do plano de fundo do bloco de texto da forma.
 ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408688"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>Célula TextBkgndTrans (Seção Text Block Format)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula TextBkgndTrans pelo índice, a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowText** <br/> |
+|Índice de linha:  <br/> |**visRowText** <br/> |
 |Índice da célula:  <br/> |**visTxtBlkBkgndTrans** <br/> |
    
 

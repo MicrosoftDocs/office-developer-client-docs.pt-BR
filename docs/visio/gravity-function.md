@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
 description: Calcula o ângulo de rotação correto de um bloco de texto para a rotação de formas indicada para evitar que o texto seja virado de cabeça para baixo.
 ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360183"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429282"
 ---
 # <a name="gravity-function"></a>Função GRAVITY
 
@@ -26,15 +26,15 @@ Gravidade (* * *Angle* * *, [* * *limites1* * *], [* * *limit2* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _reto_ <br/> |Obrigatório  <br/> |**String** <br/> | O ângulo da forma.  <br/> |
+| _ângulo_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O ângulo da forma.  <br/> |
 | _limites1_ <br/> |Opcional  <br/> |**String** <br/> |Primeiro limite de rotação. O padrão é 90 graus.  <br/> |
 | _limit2_ <br/> |Opcional  <br/> |**String** <br/> |Segundo limite de rotação. O padrão é de 270 graus.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

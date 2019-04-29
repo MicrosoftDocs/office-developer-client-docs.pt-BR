@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
 description: A posição da coordenada y nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.
 ms.openlocfilehash: 02797a849a262cb506f4617aadaccedabccdab77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341319"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430221"
 ---
 # <a name="y-cell-action-tags-section"></a>Célula Y (Seção Action Tags)
 
@@ -31,7 +31,7 @@ Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . Y onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . Y onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -39,6 +39,6 @@ Para fazer referência à célula Y pelo índice, a partir de um programa, use a
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
 | Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visSmartTagY** <br/> |
+| Índice de célula:  <br/> |**visSmartTagY** <br/> |
    
 

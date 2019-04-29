@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: Representa um fuso horário inteiro, incluindo todas as regras de mudança de fuso horário históricas, atuais e futuras para horário de verão.
 ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328291"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429338"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 
@@ -56,6 +56,6 @@ As regras devem ser classificadas da mais antiga para a mais recente. Não há n
 ## <a name="see-also"></a>Confira também
 
 - [Constantes (Outlook exportados APIs)](constants-outlook-exported-apis.md)
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
 

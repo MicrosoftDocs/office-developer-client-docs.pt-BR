@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: O modelo de objeto compatível com o InfoPath 2003 fornece a propriedade MachineOnlineState do objeto Application que permite que seu código de formulário Verifique se o computador do usuário está conectado à rede. Seu código de formulário pode executar ações diferentes dependendo do estado da conexão.
 ms.openlocfilehash: 452eb0d92b09dc0c3f9b2c247f7cda243dc8eb13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303567"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429240"
 ---
 # <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Trabalhar com soluções offline usando o modelo de objeto do InfoPath
 

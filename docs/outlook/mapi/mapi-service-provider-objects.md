@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0976e986a33d8b96366a84527f227bd05ef7845e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251602"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432265"
 ---
 # <a name="mapi-service-provider-objects"></a>Objetos do provedor de serviços MAPI
 
@@ -29,7 +29,7 @@ Os provedores de serviços implementam muitos objetos. Alguns são usados princi
 |Anexo  <br/> |Contém dados adicionais, como um arquivo ou objeto OLE, a serem associados a uma mensagem.  <br/> |
 |Control  <br/> |Habilita ou desabilita um botão e inicia o processamento quando o botão é clicado.  <br/> |
 |Lista de distribuição  <br/> |Descreve um agrupamento de destinatários de mensagens individuais.  <br/> |
-|Pasta  <br/> |Contém mensagens e outros contêineres de mensagem.  <br/> |
+|Folder  <br/> |Contém mensagens e outros contêineres de mensagem.  <br/> |
 |Logon  <br/> |Manipula as solicitações de eventos do provedor de serviços e as solicitações do cliente.  <br/> |
 |Usuário de mensagens  <br/> |Descreve um destinatário individual de uma mensagem.  <br/> |
 |Mensagem  <br/> |Contém informações que podem ser enviadas para um ou mais destinatários.  <br/> |

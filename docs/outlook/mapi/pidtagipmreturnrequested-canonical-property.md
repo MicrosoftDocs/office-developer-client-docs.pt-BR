@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bc6903fe10843faf15583a0b0fd8f22af375be0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429331"
 ---
 # <a name="pidtagipmreturnrequested-canonical-property"></a>Propriedade canônica PidTagIpmReturnRequested
 

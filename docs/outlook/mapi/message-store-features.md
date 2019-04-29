@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 092cf56aea2e246fbb7ef2016a2662a1f67f889b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356900"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439517"
 ---
 # <a name="message-store-features"></a>Recursos do repositório de mensagens
 
@@ -23,7 +23,7 @@ ms.locfileid: "32356900"
   
 Os provedores de repositório de mensagens são mais complexos do que outros provedores de serviço MAPI em que os provedores de repositórios de mensagens têm uma variedade maior de recursos opcionais que podem implementar. A lista de recursos necessários para um provedor de armazenamento de mensagens é bem curta. No enTanto, um provedor de armazenamento de mensagens típico oferecerá suporte a vários recursos opcionais, porque muitos dos recursos opcionais são muito úteis ou necessários para a maioria dos clientes MAPI. A tabela a seguir lista os principais recursos que os provedores de repositório de mensagens podem implementar e se cada recurso é obrigatório ou opcional para todos os provedores de repositórios de mensagens e para os provedores de repositórios de mensagens padrão.
   
-|**Recurso**|**All**|**Default**|
+|**Recurso**|**All**|**Padrão**|
 |:-----|:-----|:-----|
 |Fornecimento de status com a tabela de status MAPI.  <br/> |Obrigatório  <br/> |Obrigatório  <br/> |
 |Implementar objetos Folder.  <br/> |Obrigatório  <br/> |Obrigatório  <br/> |

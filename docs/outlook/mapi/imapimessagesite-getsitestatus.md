@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ab4a06a20c71943f9b649d8f22377f59223e9717
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430123"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
