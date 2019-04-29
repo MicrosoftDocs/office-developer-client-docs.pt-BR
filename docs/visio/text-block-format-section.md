@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: 7109ca54-1012-bf38-a8e9-946826abbb18
 description: Contém as células que controlam o alinhamento, as margens e a posição de texto de parada de tabulação padrão em um bloco de texto da forma.
 ms.openlocfilehash: a5009ec99ac7b2ec5abcb72adfbdb1c954d37f09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332317"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438502"
 ---
-# <a name="text-block-format-section"></a><span data-ttu-id="46377-103">Seção Text Block Format</span><span class="sxs-lookup"><span data-stu-id="46377-103">Text Block Format Section</span></span>
+# <a name="text-block-format-section"></a><span data-ttu-id="34ddd-103">Seção Text Block Format</span><span class="sxs-lookup"><span data-stu-id="34ddd-103">Text Block Format Section</span></span>
 
-<span data-ttu-id="46377-104">Contém as células que controlam o alinhamento, as margens e a posição de texto de parada de tabulação padrão em um bloco de texto da forma.</span><span class="sxs-lookup"><span data-stu-id="46377-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
+<span data-ttu-id="34ddd-104">Contém as células que controlam o alinhamento, as margens e a posição de texto de parada de tabulação padrão em um bloco de texto da forma.</span><span class="sxs-lookup"><span data-stu-id="34ddd-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="46377-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="46377-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34ddd-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="34ddd-105">Remarks</span></span>
 
-<span data-ttu-id="46377-106">Você também pode definir esses atributos de texto usando a caixa de diálogo **texto** (na guia **página inicial** , clique no iniciador da caixa de diálogo no grupo **fonte** ).</span><span class="sxs-lookup"><span data-stu-id="46377-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
+<span data-ttu-id="34ddd-106">Você também pode definir esses atributos de texto usando a caixa de diálogo **texto** (na guia **página inicial** , clique no iniciador da caixa de diálogo no grupo **fonte** ).</span><span class="sxs-lookup"><span data-stu-id="34ddd-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
   
 

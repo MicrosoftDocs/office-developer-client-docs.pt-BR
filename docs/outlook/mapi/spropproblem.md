@@ -13,23 +13,23 @@ api_type:
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407771"
 ---
-# <a name="spropproblem"></a><span data-ttu-id="7b228-103">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="7b228-103">SPropProblem</span></span>
+# <a name="spropproblem"></a><span data-ttu-id="0db9d-103">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="0db9d-103">SPropProblem</span></span>
 
   
   
-<span data-ttu-id="7b228-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b228-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0db9d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0db9d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7b228-105">Descreve um erro relacionado a uma operação envolvendo uma propriedade.</span><span class="sxs-lookup"><span data-stu-id="7b228-105">Describes an error that relate to an operation involving a property.</span></span>
+<span data-ttu-id="0db9d-105">Descreve um erro relacionado a uma operação envolvendo uma propriedade.</span><span class="sxs-lookup"><span data-stu-id="0db9d-105">Describes an error that relate to an operation involving a property.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7b228-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="7b228-106">Header file:</span></span>  <br/> |<span data-ttu-id="7b228-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="7b228-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="0db9d-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="0db9d-106">Header file:</span></span>  <br/> |<span data-ttu-id="0db9d-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="0db9d-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -41,50 +41,50 @@ typedef struct _SPropProblem
 
 ```
 
-## <a name="members"></a><span data-ttu-id="7b228-108">Members</span><span class="sxs-lookup"><span data-stu-id="7b228-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="0db9d-108">Members</span><span class="sxs-lookup"><span data-stu-id="0db9d-108">Members</span></span>
 
- <span data-ttu-id="7b228-109">**ulIndex**</span><span class="sxs-lookup"><span data-stu-id="7b228-109">**ulIndex**</span></span>
+ <span data-ttu-id="0db9d-109">**ulIndex**</span><span class="sxs-lookup"><span data-stu-id="0db9d-109">**ulIndex**</span></span>
   
-> <span data-ttu-id="7b228-110">Um índice em uma matriz de marcas de propriedade.</span><span class="sxs-lookup"><span data-stu-id="7b228-110">An index in an array of property tags.</span></span>
+> <span data-ttu-id="0db9d-110">Um índice em uma matriz de marcas de propriedade.</span><span class="sxs-lookup"><span data-stu-id="0db9d-110">An index in an array of property tags.</span></span>
     
- <span data-ttu-id="7b228-111">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="7b228-111">**ulPropTag**</span></span>
+ <span data-ttu-id="0db9d-111">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="0db9d-111">**ulPropTag**</span></span>
   
-> <span data-ttu-id="7b228-112">Marca de propriedade da propriedade que tem o erro.</span><span class="sxs-lookup"><span data-stu-id="7b228-112">Property tag for the property that has the error.</span></span>
+> <span data-ttu-id="0db9d-112">Marca de propriedade da propriedade que tem o erro.</span><span class="sxs-lookup"><span data-stu-id="0db9d-112">Property tag for the property that has the error.</span></span>
     
- <span data-ttu-id="7b228-113">**SCODE**</span><span class="sxs-lookup"><span data-stu-id="7b228-113">**scode**</span></span>
+ <span data-ttu-id="0db9d-113">**SCODE**</span><span class="sxs-lookup"><span data-stu-id="0db9d-113">**scode**</span></span>
   
-> <span data-ttu-id="7b228-114">Valor de erro descrevendo o problema com a propriedade.</span><span class="sxs-lookup"><span data-stu-id="7b228-114">Error value describing the problem with the property.</span></span> <span data-ttu-id="7b228-115">Esse valor pode ser qualquer valor de [SCODE](scode.md) de MAPI.</span><span class="sxs-lookup"><span data-stu-id="7b228-115">This value can be any MAPI [SCODE](scode.md) value.</span></span> 
+> <span data-ttu-id="0db9d-114">Valor de erro descrevendo o problema com a propriedade.</span><span class="sxs-lookup"><span data-stu-id="0db9d-114">Error value describing the problem with the property.</span></span> <span data-ttu-id="0db9d-115">Esse valor pode ser qualquer valor de [SCODE](scode.md) de MAPI.</span><span class="sxs-lookup"><span data-stu-id="0db9d-115">This value can be any MAPI [SCODE](scode.md) value.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="7b228-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="7b228-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0db9d-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="0db9d-116">Remarks</span></span>
 
-<span data-ttu-id="7b228-117">Uma matriz de estruturas **SPropProblem** é retornada dos seguintes métodos:</span><span class="sxs-lookup"><span data-stu-id="7b228-117">An array of **SPropProblem** structures is returned from the following methods:</span></span> 
+<span data-ttu-id="0db9d-117">Uma matriz de estruturas **SPropProblem** é retornada dos seguintes métodos:</span><span class="sxs-lookup"><span data-stu-id="0db9d-117">An array of **SPropProblem** structures is returned from the following methods:</span></span> 
   
-- [<span data-ttu-id="7b228-118">IMAPISupport::DoCopyTo</span><span class="sxs-lookup"><span data-stu-id="7b228-118">IMAPISupport::DoCopyTo</span></span>](imapisupport-docopyto.md)
+- [<span data-ttu-id="0db9d-118">IMAPISupport::DoCopyTo</span><span class="sxs-lookup"><span data-stu-id="0db9d-118">IMAPISupport::DoCopyTo</span></span>](imapisupport-docopyto.md)
     
-- [<span data-ttu-id="7b228-119">IMAPISupport::DoCopyProps</span><span class="sxs-lookup"><span data-stu-id="7b228-119">IMAPISupport::DoCopyProps</span></span>](imapisupport-docopyprops.md)
+- [<span data-ttu-id="0db9d-119">IMAPISupport::DoCopyProps</span><span class="sxs-lookup"><span data-stu-id="0db9d-119">IMAPISupport::DoCopyProps</span></span>](imapisupport-docopyprops.md)
     
-- [<span data-ttu-id="7b228-120">IMAPIProp::DeleteProps</span><span class="sxs-lookup"><span data-stu-id="7b228-120">IMAPIProp::DeleteProps</span></span>](imapiprop-deleteprops.md)
+- [<span data-ttu-id="0db9d-120">IMAPIProp::DeleteProps</span><span class="sxs-lookup"><span data-stu-id="0db9d-120">IMAPIProp::DeleteProps</span></span>](imapiprop-deleteprops.md)
     
-- [<span data-ttu-id="7b228-121">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="7b228-121">IMAPIProp::SetProps</span></span>](imapiprop-setprops.md)
+- [<span data-ttu-id="0db9d-121">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="0db9d-121">IMAPIProp::SetProps</span></span>](imapiprop-setprops.md)
     
-- [<span data-ttu-id="7b228-122">IMAPIProp::CopyProps</span><span class="sxs-lookup"><span data-stu-id="7b228-122">IMAPIProp::CopyProps</span></span>](imapiprop-copyprops.md)
+- [<span data-ttu-id="0db9d-122">IMAPIProp::CopyProps</span><span class="sxs-lookup"><span data-stu-id="0db9d-122">IMAPIProp::CopyProps</span></span>](imapiprop-copyprops.md)
     
-- [<span data-ttu-id="7b228-123">IMAPIProp::CopyTo</span><span class="sxs-lookup"><span data-stu-id="7b228-123">IMAPIProp::CopyTo</span></span>](imapiprop-copyto.md)
+- [<span data-ttu-id="0db9d-123">IMAPIProp::CopyTo</span><span class="sxs-lookup"><span data-stu-id="0db9d-123">IMAPIProp::CopyTo</span></span>](imapiprop-copyto.md)
     
-- [<span data-ttu-id="7b228-124">IPropData::HrAddObjProps</span><span class="sxs-lookup"><span data-stu-id="7b228-124">IPropData::HrAddObjProps</span></span>](ipropdata-hraddobjprops.md)
+- [<span data-ttu-id="0db9d-124">IPropData::HrAddObjProps</span><span class="sxs-lookup"><span data-stu-id="0db9d-124">IPropData::HrAddObjProps</span></span>](ipropdata-hraddobjprops.md)
     
-<span data-ttu-id="7b228-125">Uma estrutura **SPropProblem** contém um valor de erro **SCODE** que resulta de uma operação que tenta modificar ou excluir uma propriedade MAPI.</span><span class="sxs-lookup"><span data-stu-id="7b228-125">An **SPropProblem** structure contains an **SCODE** error value that results from an operation trying to modify or delete a MAPI property.</span></span> 
+<span data-ttu-id="0db9d-125">Uma estrutura **SPropProblem** contém um valor de erro **SCODE** que resulta de uma operação que tenta modificar ou excluir uma propriedade MAPI.</span><span class="sxs-lookup"><span data-stu-id="0db9d-125">An **SPropProblem** structure contains an **SCODE** error value that results from an operation trying to modify or delete a MAPI property.</span></span> 
   
-<span data-ttu-id="7b228-126">Para obter mais informações sobre como a estrutura do **SPropProblem** funciona com erros relacionados a propriedades, consulte [MAPI Named Properties](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="7b228-126">For more information about how the **SPropProblem** structure works with errors related to properties, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
+<span data-ttu-id="0db9d-126">Para obter mais informações sobre como a estrutura do **SPropProblem** funciona com erros relacionados a propriedades, consulte [MAPI Named Properties](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="0db9d-126">For more information about how the **SPropProblem** structure works with errors related to properties, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="7b228-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="7b228-127">See also</span></span>
-
-
-
-[<span data-ttu-id="7b228-128">SCODE</span><span class="sxs-lookup"><span data-stu-id="7b228-128">SCODE</span></span>](scode.md)
-  
-[<span data-ttu-id="7b228-129">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="7b228-129">SPropProblemArray</span></span>](spropproblemarray.md)
+## <a name="see-also"></a><span data-ttu-id="0db9d-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="0db9d-127">See also</span></span>
 
 
-[<span data-ttu-id="7b228-130">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="7b228-130">MAPI Structures</span></span>](mapi-structures.md)
+
+[<span data-ttu-id="0db9d-128">SCODE</span><span class="sxs-lookup"><span data-stu-id="0db9d-128">SCODE</span></span>](scode.md)
+  
+[<span data-ttu-id="0db9d-129">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="0db9d-129">SPropProblemArray</span></span>](spropproblemarray.md)
+
+
+[<span data-ttu-id="0db9d-130">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="0db9d-130">MAPI Structures</span></span>](mapi-structures.md)
 

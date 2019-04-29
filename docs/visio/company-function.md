@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: 8bca3efa-1f0d-6f60-537c-c9f976737dcf
 description: Retorna o texto do campo Empresa das propriedades de um documento.
 ms.openlocfilehash: c8a33c5cc82353b887d2fc7da358270e124c21ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412699"
 ---
-# <a name="company-function"></a><span data-ttu-id="a09cd-103">Função EMPRESA</span><span class="sxs-lookup"><span data-stu-id="a09cd-103">COMPANY Function</span></span>
+# <a name="company-function"></a><span data-ttu-id="94e3c-103">Função EMPRESA</span><span class="sxs-lookup"><span data-stu-id="94e3c-103">COMPANY Function</span></span>
 
-<span data-ttu-id="a09cd-104">Retorna o texto do campo **Empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="a09cd-104">Returns the text from the **Author** field of a document's properties.</span></span> 
+<span data-ttu-id="94e3c-104">Retorna o texto do campo **Empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="94e3c-104">Returns the text from the **Company** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="a09cd-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a09cd-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94e3c-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="94e3c-105">Syntax</span></span>
 
-<span data-ttu-id="a09cd-106">EMPRESA ()</span><span class="sxs-lookup"><span data-stu-id="a09cd-106">COMPANY ()</span></span>
+<span data-ttu-id="94e3c-106">EMPRESA ()</span><span class="sxs-lookup"><span data-stu-id="94e3c-106">COMPANY ()</span></span>
   
 

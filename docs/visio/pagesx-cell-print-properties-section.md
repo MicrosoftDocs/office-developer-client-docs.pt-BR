@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: a10bf4c2-24f4-4c53-39ba-2b8cd5b50d2c
 description: Determina o número de páginas impressas nas quais será ajustada horizontalmente a página de desenho.
 ms.openlocfilehash: e912aef2277f5a7d2af5352897654ee986836c48
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340135"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438691"
 ---
-# <a name="pagesx-cell-print-properties-section"></a><span data-ttu-id="a5af1-103">Célula PagesX (Seção Print Properties)</span><span class="sxs-lookup"><span data-stu-id="a5af1-103">PagesX Cell (Print Properties Section)</span></span>
+# <a name="pagesx-cell-print-properties-section"></a><span data-ttu-id="b4791-103">Célula PagesX (Seção Print Properties)</span><span class="sxs-lookup"><span data-stu-id="b4791-103">PagesX Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="a5af1-104">Determina o número de páginas impressas nas quais será ajustada horizontalmente a página de desenho.</span><span class="sxs-lookup"><span data-stu-id="a5af1-104">Determines the number of printer pages on which to fit the drawing page horizontally.</span></span> 
+<span data-ttu-id="b4791-104">Determina o número de páginas impressas nas quais será ajustada horizontalmente a página de desenho.</span><span class="sxs-lookup"><span data-stu-id="b4791-104">Determines the number of printer pages on which to fit the drawing page horizontally.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="a5af1-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="a5af1-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4791-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="b4791-105">Remarks</span></span>
 
-<span data-ttu-id="a5af1-106">Esse valor é usado somente quando a célula OnPage está definida como VERDADEIRO.</span><span class="sxs-lookup"><span data-stu-id="a5af1-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
+<span data-ttu-id="b4791-106">Esse valor é usado somente quando a célula OnPage está definida como VERDADEIRO.</span><span class="sxs-lookup"><span data-stu-id="b4791-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
   
-<span data-ttu-id="a5af1-107">Para fazer referência à célula PagesX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="a5af1-107">To get a reference to the PagesX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b4791-107">Para fazer referência à célula PagesX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="b4791-107">To get a reference to the PagesX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a5af1-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="a5af1-108">Cell name:</span></span>  <br/> | <span data-ttu-id="a5af1-109">PagesX</span><span class="sxs-lookup"><span data-stu-id="a5af1-109">PagesX</span></span>  <br/> |
+| <span data-ttu-id="b4791-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="b4791-108">Cell name:</span></span>  <br/> | <span data-ttu-id="b4791-109">PagesX</span><span class="sxs-lookup"><span data-stu-id="b4791-109">PagesX</span></span>  <br/> |
    
-<span data-ttu-id="a5af1-110">Para fazer referência à célula PagesX pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="a5af1-110">To get a reference to the PagesX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b4791-110">Para fazer referência à célula PagesX pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="b4791-110">To get a reference to the PagesX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a5af1-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="a5af1-111">Section index:</span></span>  <br/> |<span data-ttu-id="a5af1-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a5af1-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a5af1-113">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="a5af1-113">Row index:</span></span>  <br/> |<span data-ttu-id="a5af1-114">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="a5af1-114">**visRowPrintProperties**</span></span> <br/> |
-| <span data-ttu-id="a5af1-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="a5af1-115">Cell index:</span></span>  <br/> |<span data-ttu-id="a5af1-116">**visPrintPropertiesPagesX**</span><span class="sxs-lookup"><span data-stu-id="a5af1-116">**visPrintPropertiesPagesX**</span></span> <br/> |
+| <span data-ttu-id="b4791-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="b4791-111">Section index:</span></span>  <br/> |<span data-ttu-id="b4791-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b4791-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="b4791-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="b4791-113">Row index:</span></span>  <br/> |<span data-ttu-id="b4791-114">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="b4791-114">**visRowPrintProperties**</span></span> <br/> |
+| <span data-ttu-id="b4791-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="b4791-115">Cell index:</span></span>  <br/> |<span data-ttu-id="b4791-116">**visPrintPropertiesPagesX**</span><span class="sxs-lookup"><span data-stu-id="b4791-116">**visPrintPropertiesPagesX**</span></span> <br/> |
    
 

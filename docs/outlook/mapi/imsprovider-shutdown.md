@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317259"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438621"
 ---
-# <a name="imsprovidershutdown"></a><span data-ttu-id="1e286-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="1e286-103">IMSProvider::Shutdown</span></span>
+# <a name="imsprovidershutdown"></a><span data-ttu-id="85dd6-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="85dd6-103">IMSProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="1e286-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e286-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="85dd6-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="85dd6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1e286-105">Fecha um provedor de repositório de mensagens de maneira ordenada.</span><span class="sxs-lookup"><span data-stu-id="1e286-105">Closes a message store provider in an orderly fashion.</span></span>
+<span data-ttu-id="85dd6-105">Fecha um provedor de repositório de mensagens de maneira ordenada.</span><span class="sxs-lookup"><span data-stu-id="85dd6-105">Closes a message store provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown(
@@ -33,25 +33,25 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1e286-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="1e286-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="85dd6-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="85dd6-106">Parameters</span></span>
 
- <span data-ttu-id="1e286-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="1e286-107">_lpulFlags_</span></span>
+ <span data-ttu-id="85dd6-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="85dd6-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="1e286-108">no Serve deve ser um ponteiro para zero.</span><span class="sxs-lookup"><span data-stu-id="1e286-108">[in] Reserved; must be a pointer to zero.</span></span>
+> <span data-ttu-id="85dd6-108">no Serve deve ser um ponteiro para zero.</span><span class="sxs-lookup"><span data-stu-id="85dd6-108">[in] Reserved; must be a pointer to zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1e286-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="1e286-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="85dd6-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="85dd6-109">Return value</span></span>
 
-<span data-ttu-id="1e286-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="1e286-110">S_OK</span></span> 
+<span data-ttu-id="85dd6-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="85dd6-110">S_OK</span></span> 
   
-> <span data-ttu-id="1e286-111">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="1e286-111">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="85dd6-111">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="85dd6-111">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1e286-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="1e286-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="85dd6-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="85dd6-112">Remarks</span></span>
 
-<span data-ttu-id="1e286-113">MAPI chama o método **IMSProvider:: Shutdown** imediatamente antes de liberar o objeto do provedor de repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="1e286-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="1e286-114">MAPI libera todos os objetos de logon para um provedor \*\*\*\* antes de chamar o desligamento para esse provedor.</span><span class="sxs-lookup"><span data-stu-id="1e286-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
+<span data-ttu-id="85dd6-113">MAPI chama o método **IMSProvider:: Shutdown** imediatamente antes de liberar o objeto do provedor de repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="85dd6-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="85dd6-114">MAPI libera todos os objetos de logon para um provedor \*\*\*\* antes de chamar o desligamento para esse provedor.</span><span class="sxs-lookup"><span data-stu-id="85dd6-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="1e286-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="1e286-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85dd6-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="85dd6-115">See also</span></span>
 
 
 
-[<span data-ttu-id="1e286-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1e286-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
+[<span data-ttu-id="85dd6-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="85dd6-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
 
