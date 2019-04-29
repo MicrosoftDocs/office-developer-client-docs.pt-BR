@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
 description: Retorna valueiftrue se logicaly for TRUE. Caso contrário, retornará valueiffalse.
 ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344762"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405468"
 ---
 # <a name="if-function"></a>Função IF
 
@@ -26,9 +26,9 @@ IF (* * *LogicalName* * *, * * *valueiftrue* * *, * * *valueiffalse* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression_ <br/> |Obrigatório  <br/> |**String** <br/> |Expressão a ser avaliada.  <br/> |
+| _logicalexpression_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Expressão a ser avaliada.  <br/> |
 | _valueiftrue_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Valor a ser retornado __ se logicalid for true.  <br/> |
 | _valueiffalse_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Valor a ser retornado __ se logicalid for false.  <br/> |
    

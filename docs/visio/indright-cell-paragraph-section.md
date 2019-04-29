@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: Representa a distância do recuo de todas as linhas do texto em um parágrafo em relação à margem direita do bloco de texto. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, o recuo direito será o mesmo.
 ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335340"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408863"
 ---
 # <a name="indright-cell-paragraph-section"></a>Célula IndRight (Seção Paragraph)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula IndRight pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice da linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visIndentRight** <br/> |
    
 

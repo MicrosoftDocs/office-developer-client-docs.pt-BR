@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 285da82d143524d2b2cf73ed3e5f1e3aeef6f9b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405097"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 

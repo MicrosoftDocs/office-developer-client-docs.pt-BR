@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f475635424cfb9ed8ddab4025d6a944bdedd39fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300522"
 ---
 # <a name="recordsetindex-property-dao"></a>Propriedade Recordset.Index (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se a:** Access 2013, Office 2013
 
-Define ou retorna um valor que indica o nome do objeto **[Index](index-object-dao.md)** atual em um objeto **[Recordset](recordset-object-dao.md)** do tipo tabela (somente nos espaços de trabalho do Microsoft Access).
+Define ou retorna um valor que indica o nome do objeto **[Index](index-object-dao.md)** atual em um objeto **[Recordset](recordset-object-dao.md)** do tipo tabela (somente em espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Índice
+*expression* .Index
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -40,7 +40,7 @@ Examine a coleção **Indexes** de um objeto **TableDef** para determinar quais 
 
 Gere um novo índice da tabela pela criação de um novo objeto **Index**, pela definição de suas propriedades, pelo acréscimo à coleção **Indexes** do objeto base **TableDef** e depois pela reabertura do objeto **Recordset**.
 
-Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar registros em alguma outra ordem, você pode abrir um dynaset, instantâneo ou objeto **Recordset** do tipo somente encaminhamento, usando uma instrução SQL com uma cláusula ORDER BY.
+Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar os registros na mesma ordem, abra um objeto **Recordset** do tipo dynaset, instantâneo ou somente encaminhamento por meio da instrução SQL com uma cláusula ORDER BY.
 
 
 > [!NOTE]
@@ -48,12 +48,12 @@ Os registros retornados de um objeto **Recordset** do tipo tabela podem ser orde
 > - Os registros lidos de tabelas sem índices não são retornados em uma sequência específica.
 > - A propriedade **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** no objeto **Index** determina a ordem dos registros e, como consequência, determina as técnicas de acesso para o uso desse índice.
 > - Um índice exclusivo ajuda a otimizar a localização de registros.
-> - Índices não afetam a ordem física de uma tabela base, afetam índices apenas como os registros são acessados pelo objeto **Recordset** tipo tabela quando um índice específico é escolhido ou quando o **Recordset** é aberto.
+> - Os índices não têm influência na ordem física de uma tabela base. Os índices só afetarão a forma como os registros serão acessados pelo objeto **Recordset** do tipo tabela quando um índice específico for escolhido ou quando o **Recordset** for aberto.
 
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a propriedade **Index** para definir as ordens de registro diferentes para um **Recordset** do tipo tabela.
+Este exemplo usa a propriedade **Index** para definir pedidos de registros diferentes para um **Recordset** do tipo tabela.
 
 ```vb
     Sub IndexPropertyX() 
@@ -161,7 +161,7 @@ Este exemplo demonstra o método **Seek** ao permitir que o usuário procure um 
 
 O exemplo a seguir mostra como usar o método Seek para localizar um registro em uma tabela vinculada.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub TestSeek()

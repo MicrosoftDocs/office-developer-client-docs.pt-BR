@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
 description: Uma célula de evento que é avaliada quando a posição ou a orientação de uma forma na página é transformada (XF).
 ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418530"
 ---
 # <a name="eventxfmod-cell-events-section"></a>Célula EventXFMod (Seção Events)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula EventXFMod pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowEvent** <br/> |
+| Índice de linha:  <br/> |**visRowEvent** <br/> |
 | Índice da célula:  <br/> |**visEvtCellXFMod** <br/> |
    
 

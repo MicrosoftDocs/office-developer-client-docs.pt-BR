@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 369cf384-94b6-4d41-8938-afdcbd13f132
 description: Esta seção descreve a API de gerenciamento de conta que fornece acesso a informações de conta e oferece suporte a notificações de alteração de conta. Também inclui informações sobre como proteger contas contra spam e gerenciar downloads de mensagens para contas POP3.
 ms.openlocfilehash: 425739639562a91586d23b41de119916886e2c4a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322110"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437844"
 ---
 # <a name="outlook-account-management"></a>Gerenciamento de contas do Outlook
 

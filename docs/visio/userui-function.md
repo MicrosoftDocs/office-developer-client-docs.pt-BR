@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
 description: Avalia uma das duas expressões dependendo do valor de State.
 ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331322"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420343"
 ---
 # <a name="userui-function"></a>Função USERUI
 
@@ -26,11 +26,11 @@ USERUI (* * *estado* * *, * * *DefaultName* * *, * * *username* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _state_ <br/> |Obrigatório  <br/> |**Boolean** <br/> |Determina a expressão a ser avaliada.  <br/> |
-| _DefaultName_ <br/> |Obrigatório  <br/> |**String** <br/> |A expressão padrão.  <br/> |
-| _username_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma expressão fornecida pelo usuário.  <br/> |
+| _DefaultName_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A expressão padrão.  <br/> |
+| _username_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma expressão fornecida pelo usuário.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

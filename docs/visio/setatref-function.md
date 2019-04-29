@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: Redireciona valores atualizados resultantes de ações na interface do usuário ou automação para outra célula.
 ms.openlocfilehash: c4f5fe94aba90ce0a69983d6637a5399b6e42707
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416801"
 ---
 # <a name="setatref-function"></a>Função SETATREF
 
@@ -26,9 +26,9 @@ SETATREF (* * *referência* * * [, * * *def_expressão* * * [, * * *ignore_eval*
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _reference_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula para a qual as atualizações são redirecionadas.  <br/> |
+| _reference_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma referência à célula para a qual as atualizações são redirecionadas.  <br/> |
 | _def_expressão_ <br/> |Opcional  <br/> |**String** <br/> |Uma expressão que é atribuída à _referência_.  <br/> |
 | _ignore_eval_ <br/> |Opcional  <br/> |**Boolean** <br/> |Se TRUE, a função SETATREF avalia como (0) zero; Se FALSE (o padrão), a função SETATREF será avaliada como o valor de _referência_.  <br/> |
    

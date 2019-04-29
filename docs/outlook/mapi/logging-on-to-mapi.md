@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cce43301ac73a5646e263b2ab92700e57804637d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419706"
 ---
 # <a name="logging-on-to-mapi"></a>Fazer logon no MAPI
  

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d0d5d8fe13a3c192dc0b0a8ddc0f5f945fa16f15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416647"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 

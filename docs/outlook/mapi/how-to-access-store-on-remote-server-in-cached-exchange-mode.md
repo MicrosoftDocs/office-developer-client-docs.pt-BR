@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: 'Última modificação: 02 de julho de 2012'
 ms.openlocfilehash: 0d977507f6aff8aa5fbf437b4b718486a71f67dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299059"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420728"
 ---
 # <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Acessar um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
  

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 90fbec8b61499f383228823d69b041a21199a22e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297869"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417830"
 ---
 # <a name="mapi-attachments"></a>Anexos MAPI
 

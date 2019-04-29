@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
 description: 'Retorna o valor de erro #NA!.'
 ms.openlocfilehash: 25e7f8450b2aa379629f55e59d53e93c5f29bb51
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436059"
 ---
 # <a name="na-function"></a>Função NA
 
@@ -28,7 +28,7 @@ NA( )
   
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

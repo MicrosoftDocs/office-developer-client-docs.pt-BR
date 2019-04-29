@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: O modelo de objeto de código gerenciado do InfoPath fornece objetos e coleções que podem ser usados para obter acesso a informações sobre o aplicativo InfoPath, incluindo informações relacionadas ao documento XML subjacente de um formulário e ao arquivo de definição de formulário (. xsf). Esses dados são acessados por meio do objeto de nível superior na hierarquia de modelos de objeto do InfoPath, que é instanciada usando a classe Application.
 ms.openlocfilehash: 8da72313807584ee599d65701d009786dd631979
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300172"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417228"
 ---
 # <a name="access-application-data"></a>Acessar dados de aplicativo
 

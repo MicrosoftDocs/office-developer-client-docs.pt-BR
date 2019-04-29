@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
 description: Obtém uma referência a uma célula que contém uma função personalizada, bem como um ou mais pares nome-valor para passar para a função personalizada como argumentos (opcional). Retorna o resultado calculado da função personalizada, dado os argumentos e valores especificados.
 ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418901"
 ---
 # <a name="evalcell-function"></a>Função EVALCELL
 
@@ -24,9 +24,9 @@ EVALCELL (* * *cellRef* * *, [* * *arg1name, arg1* * *], [* * *arg2Name, arg2* *
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellRef_ <br/> |Obrigatório  <br/> |**String** <br/> |A referência à célula que contém a função personalizada. Referências cruzadas são permitidas.  <br/> |
+| _cellRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A referência à célula que contém a função personalizada. Referências cruzadas são permitidas.  <br/> |
 | _arg1name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do primeiro argumento a ser passado para a função personalizada. Espaços são permitidos.  <br/> |
 | _arg1_ <br/> |Opcional  <br/> |**Vai** <br/> |O valor do parâmetro _arg1_ .  <br/> |
 | _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |O nome do segundo argumento a ser passado para a função personalizada. Espaços são permitidos.  <br/> |

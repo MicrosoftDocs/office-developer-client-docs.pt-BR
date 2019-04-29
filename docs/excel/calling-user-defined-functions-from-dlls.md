@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301642"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417942"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Chamar funções definidas pelo usuário a partir de DLLs
 

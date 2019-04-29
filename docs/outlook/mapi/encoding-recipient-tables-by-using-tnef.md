@@ -9,11 +9,11 @@ api_type:
 ms.assetid: cd2f595f-4dd0-4704-b670-6857d6c843ca
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1ed047424e4a6d64c08b511a15769c081a0d8c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339400"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417956"
 ---
 # <a name="encoding-recipient-tables-by-using-tnef"></a>Codificar tabelas de destinatários usando TNEF
 

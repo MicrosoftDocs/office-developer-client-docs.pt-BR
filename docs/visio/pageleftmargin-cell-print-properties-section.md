@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ecdfc37-c9d4-2fde-ed3e-be81657c24e2
 description: Especifica a margem esquerda da página.
 ms.openlocfilehash: 289bd0bf16c6dcd9b26ec1a8c7920a29dab724a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435667"
 ---
 # <a name="pageleftmargin-cell-print-properties-section"></a>Célula PageLeftMargin (Seção Print Properties)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula PageLeftMargin pelo índice a partir de um pro
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesLeftMargin** <br/> |
    
 

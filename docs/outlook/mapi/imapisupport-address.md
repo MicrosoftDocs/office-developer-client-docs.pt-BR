@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7300c11d5835640fe308430c9bb08d40b397e47b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331602"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407316"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 

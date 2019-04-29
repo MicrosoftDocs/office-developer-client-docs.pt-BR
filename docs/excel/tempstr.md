@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4ccb6f3c764371c35bac12c8c78fede54234a7d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310315"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418040"
 ---
 # <a name="tempstr"></a>TempStr
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: Determina se a página de desenho ficará centralizada verticalmente na página impressa.
 ms.openlocfilehash: 858bf41c74fdcbd82d271a379df7c5816a7796fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341913"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437431"
 ---
 # <a name="centery-cell-print-properties-section"></a>Célula CenterY (Seção Print Properties)
 
@@ -22,7 +22,7 @@ Determina se a página de desenho ficará centralizada verticalmente na página 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Centraliza a página de desenho verticalmente na página impressa.  <br/> |
+| VERDADEIRO  <br/> | Centraliza a página de desenho verticalmente na página impressa.  <br/> |
 | FALSE  <br/> | Não centraliza a página de desenho verticalmente na página impressa (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para fazer referência à célula CenterY pelo índice a partir de um programa, 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPrintProperties** <br/> |
+| Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
 | Índice da célula:  <br/> |**visPrintPropertiesCenterY** <br/> |
    
 

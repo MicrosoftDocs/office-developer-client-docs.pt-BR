@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a60ac0d7ab139f77aea87080e1ce37fee870e97b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326310"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437536"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 

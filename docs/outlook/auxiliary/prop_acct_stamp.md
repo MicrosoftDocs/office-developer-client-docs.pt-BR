@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
 description: Retorna o carimbo da conta.
 ms.openlocfilehash: fe3c6e65e12ab62bd1c2ec0245e4a22502f610eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327591"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408247"
 ---
 # <a name="propacctstamp"></a>PROP_ACCT_STAMP
 

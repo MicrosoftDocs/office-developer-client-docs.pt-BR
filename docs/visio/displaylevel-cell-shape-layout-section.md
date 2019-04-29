@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 08b730c4-5dd8-106e-ddf3-da2c942e2ef6
 description: Determina a faixa de níveis de exibição (o intervalo relativo do agrupamento da ordem Z) para a forma.
 ms.openlocfilehash: 4f7e3fcb2d28f8c4c0706502c66444c121ae6ee6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332533"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408142"
 ---
 # <a name="displaylevel-cell-shape-layout-section"></a>Célula DisplayLevel (Seção Shape Layout)
 
@@ -41,7 +41,7 @@ Para obter uma referência à célula DisplayLevel pelo índice, a partir de um 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLODisplayLevel** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLODisplayLevel** <br/> |
    
 

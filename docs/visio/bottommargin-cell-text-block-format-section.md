@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3121911b-34d5-d99c-3806-76f6e2824f92
 description: Determina a distância entre a borda inferior do bloco de texto e a última linha do texto. O padrão é 0,1 polegada. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, a margem inferior será a mesma.
 ms.openlocfilehash: 544557f1e797315619bc9975db0b87a09981726c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338084"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417207"
 ---
 # <a name="bottommargin-cell-text-block-format-section"></a>Célula BottomMargin (Seção Text Block Format)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula BottomMargin pelo índice a partir de um progr
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowText** <br/> |
+| Índice de linha:  <br/> |**visRowText** <br/> |
 | Índice da célula:  <br/> |**visTxtBlkBottomMargin** <br/> |
    
 

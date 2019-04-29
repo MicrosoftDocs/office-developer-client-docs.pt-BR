@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 8c31cbf0472d3d64c7327fcfc80480ef27a1638e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435828"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 

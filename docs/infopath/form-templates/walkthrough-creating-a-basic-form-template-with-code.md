@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: No Microsoft InfoPath, você pode escrever lógica de negócios no Visual Basic ou no C# abrindo um modelo de formulário no designer do InfoPath e então usando um dos comandos da interface do usuário para adicionar um manipulador de eventos, que abrirá o ambiente de desenvolvimento do Visual Studio 2012 para que seu código seja escrito.
 ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299731"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420644"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>Passo a passo: criar um modelo de formulário básico com código
 

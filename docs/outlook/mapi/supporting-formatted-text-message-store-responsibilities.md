@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 502ba82279664638c8e7e4ae68f74df74758918d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350677"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435513"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Suporte a texto formatado: responsabilidades do repositório de mensagens
 
@@ -45,6 +45,6 @@ As diferenças entre esses três níveis são descritas na tabela a seguir.
 |:-----|:-----|
 |Baixo  <br/> |O provedor de repositório de mensagens chama **RTFSync** sempre que as alterações são salvas em uma mensagem e extrai os dados para a propriedade **PR_BODY** do **PR_RTF_COMPRESSED** , em vez de exigir que os clientes o definam. Tanto **PR_BODY** quanto **PR_RTF_COMPRESSED** são armazenados.  <br/> |
 |Middleware  <br/> |O provedor de repositório de mensagens armazena apenas a propriedade **PR_RTF_COMPRESSED** , calculando o **PR_BODY** quando necessário.  <br/> |
-|Alta  <br/> |O provedor de repositório de mensagens não armazena **PR_BODY** ou as propriedades de RTF auxiliares. **RTFSync** é chamado quando o texto da mensagem foi alterado e a formatação permanece inalterada ou quando uma nova mensagem é baixada por um provedor de transporte.  <br/> |
+|Alto  <br/> |O provedor de repositório de mensagens não armazena **PR_BODY** ou as propriedades de RTF auxiliares. **RTFSync** é chamado quando o texto da mensagem foi alterado e a formatação permanece inalterada ou quando uma nova mensagem é baixada por um provedor de transporte.  <br/> |
    
 

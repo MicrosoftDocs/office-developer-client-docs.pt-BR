@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
 description: Especifica como as formas são colocadas na página quando as formas são colocadas na caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout). Armazena o estilo de layout e os valores de alinhamento do VisCellIndices.
 ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326506"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418572"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>Célula ShapePlaceStyle (Seção Layout da Forma)
 
@@ -22,16 +22,16 @@ Especifica como as formas são colocadas na página quando as formas são coloca
   
 |**Constante**|**Valor**|
 |:-----|:-----|
-|**visLOPlaceBottomToTop** <br/> |quatro  <br/> |
-|**visLOPlaceCircular** <br/> |6  <br/> |
-|**visLOPlaceCompactDownLeft** <br/> |14  <br/> |
-|**visLOPlaceCompactDownRight** <br/> |178  <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |Treze  <br/> |
-|**visLOPlaceCompactLeftUp** <br/> |3,6  <br/> |
-|**visLOPlaceCompactRightDown** <br/> |8  <br/> |
-|**visLOPlaceCompactRightUp** <br/> |241  <br/> |
-|**visLOPlaceCompactUpLeft** <br/> |11  <br/> |
-|**visLOPlaceCompactUpRight** <br/> |254  <br/> |
+|**visLOPlaceBottomToTop** <br/> |4   <br/> |
+|**visLOPlaceCircular** <br/> |6   <br/> |
+|**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
+|**visLOPlaceCompactDownRight** <br/> |7   <br/> |
+|**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
+|**visLOPlaceCompactLeftUp** <br/> |12  <br/> |
+|**visLOPlaceCompactRightDown** <br/> |8   <br/> |
+|**visLOPlaceCompactRightUp** <br/> |9   <br/> |
+|**visLOPlaceCompactUpLeft** <br/> |11   <br/> |
+|**visLOPlaceCompactUpRight** <br/> |10   <br/> |
 |**visLOPlaceDefault** <br/> |,0  <br/> |
 |**visLOPlaceHierarchyBottomToTopCenter** <br/> |508  <br/> |
 |**visLOPlaceHierarchyBottomToTopLeft** <br/> |19  <br/> |
@@ -42,13 +42,13 @@ Especifica como as formas são colocadas na página quando as formas são coloca
 |**visLOPlaceHierarchyRightToLeftBottom** <br/> |27  <br/> |
 |**visLOPlaceHierarchyRightToLeftMiddle** <br/> |660  <br/> |
 |**visLOPlaceHierarchyRightToLeftTop** <br/> |25  <br/> |
-|**visLOPlaceHierarchyTopToBottomCenter** <br/> |17.07.06  <br/> |
-|**visLOPlaceHierarchyTopToBottomLeft** <br/> |dezesseis  <br/> |
-|**visLOPlaceHierarchyTopToBottomRight** <br/> |anos  <br/> |
+|**visLOPlaceHierarchyTopToBottomCenter** <br/> |17   <br/> |
+|**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
+|**visLOPlaceHierarchyTopToBottomRight** <br/> |18   <br/> |
 |**visLOPlaceLeftToRight** <br/> |duas  <br/> |
-|**visLOPlaceParentDefault** <br/> |15  <br/> |
+|**visLOPlaceParentDefault** <br/> |15   <br/> |
 |**visLOPlaceRadial** <br/> |3D  <br/> |
-|**visLOPlaceRightToLeft** <br/> |0,5  <br/> |
+|**visLOPlaceRightToLeft** <br/> |5   <br/> |
 |**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
 Para referir-se à célula ShapePlaceStyle pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use: 
@@ -62,7 +62,7 @@ Para referir-se à célula ShapePlaceStyle pelo índice de um programa, use a pr
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOPlaceStyle** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOPlaceStyle** <br/> |
    
 

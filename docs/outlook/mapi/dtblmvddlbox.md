@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 33b4fd87f33c26db15e1a6a28f077c393168db91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325757"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420742"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 

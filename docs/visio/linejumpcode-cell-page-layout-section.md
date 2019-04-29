@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: Determina os conectores aos quais você deseja adicionar saltos.
 ms.openlocfilehash: 7b5b8c8f1de160a4dc766d30a5f518c5653c270b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416248"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>Célula LineJumpCode (Seção Page Layout)
 
@@ -26,8 +26,8 @@ Determina os conectores aos quais você deseja adicionar saltos.
 |1  <br/> |Linhas horizontais  <br/> |**visPLOJumpHorizontal** <br/> |
 |duas  <br/> |Linhas verticais  <br/> |**visPLOJumpVertical** <br/> |
 |3D  <br/> |Última linha circulada  <br/> |**visPLOJumpLastRouted** <br/> |
-|quatro  <br/> |Última linha exibida (primeira forma na ordem *z* )  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|0,5  <br/> |Primeira linha exibida (forma na parte inferior da ordem *z* )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|4   <br/> |Última linha exibida (primeira forma na ordem *z* )  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5   <br/> |Primeira linha exibida (forma na parte inferior da ordem *z* )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -44,7 +44,7 @@ Para obter uma referência para a célula LineJumpCode pelo índice a partir de 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOJumpCode** <br/> |
    
 

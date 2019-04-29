@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
 description: Retorna um número inteiro, de 1 a 31, representando o dia em datetime ou expression. A função DAY usa o calendário gregoriano.
-ms.openlocfilehash: 07607b809aec9f50ae8981476313fc5e8dbc3423
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 49c29d5dc25bf11599f89a20cb2bc2367bd74187
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360289"
 ---
 # <a name="day-function-visioshapesheet"></a>Função DAY (VisioShapeSheet)
 
@@ -22,25 +22,25 @@ Retorna um número inteiro, de 1 a 31, representando o dia em _datetime_ ou _exp
   
 ## <a name="syntax"></a>Sintaxe
 
-DIA ("* * *datetime* * *" | * * *expressão* * * [, * * *lcid* * *]) 
+DAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica o identificador de local para ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Inteiro
+Número inteiro
   
 ## <a name="remarks"></a>Comentários
 
-Qualquer componente de hora em _datetime_ ou _expression_ é desconsiderado. 
+Qualquer componente de tempo em _datetime_ ou _expression_ é descartado. 
   
-É feito nenhum arredondamento. Se _datetime_ estiver faltando ou não puder ser convertida para um resultado válido, a função retornará um erro. 
+Não são feitos arredondamentos. Se _datetime_ estiver faltando ou não puder ser convertida para um resultado válido, a função retornará um erro. 
   
 A função DAY também aceita um valor de número único para _expression_ em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f743e4ee-343d-0edd-4a6d-5f104781a524
 description: Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
 ms.openlocfilehash: ce6a658a553182e360eaa978254fc59b5bd5b59b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434946"
 ---
 # <a name="text-fields-section"></a>Seção Text Fields
 

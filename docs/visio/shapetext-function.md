@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87ea5e8f-c3e0-009f-4bf8-8c34fbdb83a6
 description: Obtém o texto de uma forma.
 ms.openlocfilehash: bb9b1fbe5900cd051828ed6c7ff07546567c1b23
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349109"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419342"
 ---
 # <a name="shapetext-function"></a>Função SHAPETEXT
 
@@ -26,14 +26,14 @@ SHAPETEXT (* * *shapename! O texto* * * * * *[, sinalizador]* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _shapename! TheText_ <br/> |Obrigatório  <br/> ||Uma referência à célula chamada TheText na forma de destino.  _Shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
-| _sinalizador_ <br/> |Opcional  <br/> |**Numeric** <br/> |Um bit que especifica o formato do texto. O sinalizador padrão (0) mostra o texto exatamente como está na forma.  <br/> |
+| _flag_ <br/> |Opcional  <br/> |**Numérica** <br/> |Um bit que especifica o formato do texto. O sinalizador padrão (0) mostra o texto exatamente como está na forma.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 
@@ -44,9 +44,9 @@ Utilize a combinação de qualquer um dos sinalizadores a seguir com a função 
 |,0  <br/> |Mostrar o texto exatamente como está na forma.  <br/> |
 |1  <br/> |Incluir hífens discricionários.  <br/> |
 |duas  <br/> |Não incluir texto expandido nos campos.  <br/> |
-|quatro  <br/> |Converter tabulações em espaços simples.  <br/> |
-|8  <br/> |Converter tabulações em um conjunto de espaços.  <br/> |
-|dezesseis  <br/> |Converter retornos de texto e alimentação de linhas em espaços.  <br/> |
+|4   <br/> |Converter tabulações em espaços simples.  <br/> |
+|8   <br/> |Converter tabulações em um conjunto de espaços.  <br/> |
+|16   <br/> |Converter retornos de texto e alimentação de linhas em espaços.  <br/> |
 |32  <br/> |Converter aspas tipográficas em aspas normais.  <br/> |
 |64  <br/> |Converter espaços em branco adjacentes em um espaço simples.  <br/> |
    

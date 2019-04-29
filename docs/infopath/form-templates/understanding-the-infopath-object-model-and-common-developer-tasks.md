@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: Esta seção fornece informações sobre tarefas comuns de desenvolvedor ao desenvolver modelos de formulário de código gerenciado do InfoPath.
 ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303434"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418852"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Noções básicas sobre o modelo de objeto do InfoPath e tarefas comuns de desenvolvedor
 

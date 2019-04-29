@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c13b741b1e0ddfd964b9325d736a26dac4bff2af
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346295"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419181"
 ---
 # <a name="rowlist"></a>ROWLIST
 

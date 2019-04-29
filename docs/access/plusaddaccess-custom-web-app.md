@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8ba40adb-420a-4e5f-8858-d706da6cb497
 description: Adiciona dois números. Esse operador aritmético de adição também pode adicionar um número, em dias, a uma data.
 ms.openlocfilehash: 93135f99832f517c3a0cdbd1e9c380fcce45a28e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308075"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416563"
 ---
 # <a name="-add-access-custom-web-app"></a>+ (Adicionar) (aplicativo Web personalizado do Access)
 

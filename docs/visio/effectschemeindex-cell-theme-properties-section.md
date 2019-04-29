@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
 description: Determina o esquema de efeito do tema aplicado a uma forma, como um inteiro.
 ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321445"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409269"
 ---
 # <a name="effectschemeindex-cell-theme-properties-section"></a>Célula EffectSchemeIndex (seção Theme Properties)
 
@@ -31,7 +31,7 @@ Para obter uma referência para a célula **EffectSchemeIndex** pelo índice a p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowThemeProperties** <br/> |
+| Índice de linha:  <br/> |**visRowThemeProperties** <br/> |
 | Índice da célula:  <br/> |* * visEffectSchemeIndex * * <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Resulta em uma cadeia de caracteres que influencia a ordem na qual os itens na janela Dados da Forma são listados.
 ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335179"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417851"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>Célula SortKey (Seção Shape Data)
 
@@ -28,7 +28,7 @@ O exemplo a seguir mostra como utilizar as chaves de classificação para exibir
   
  *Row, Label* e *SortKey* se referem a células na linha de dados da forma. Neste caso, as linhas de dados de forma foram nomeadas. 
   
-|**Linha**|**Label**|**SortKey**|
+|**Row**|**Label**|**SortKey**|
 |:-----|:-----|:-----|
 | Prop. Item  <br/> | Número de itens  <br/> | 1  <br/> |
 | Preço prop  <br/> | Price  <br/> | 3D  <br/> |
@@ -45,7 +45,7 @@ Para obter uma referência para a célula SortKey pelo índice, a partir de um p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice da linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCustPropsSortKey** <br/> |
    
 

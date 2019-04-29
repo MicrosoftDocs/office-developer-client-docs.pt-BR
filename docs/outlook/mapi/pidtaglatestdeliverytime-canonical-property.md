@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407785"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>Propriedade canônica PidTagLatestDeliveryTime
 

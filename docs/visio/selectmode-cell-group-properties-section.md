@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
 description: Determina como selecionar uma forma de grupo e seus membros.
 ms.openlocfilehash: 82f9e2806d1131a0acfd064f585c681fef0f209f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435359"
 ---
 # <a name="selectmode-cell-group-properties-section"></a>Célula SelectMode (Seção Group Properties)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula SelectMode pelo índice, a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowGroup** <br/> |
-|Índice da célula:  <br/> |**visGroupSelectMode** <br/> |
+|Índice de linha:  <br/> |**visRowGroup** <br/> |
+|Índice de célula:  <br/> |**visGroupSelectMode** <br/> |
    
 

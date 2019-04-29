@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: Determina se a marca de ação é exibida quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332729"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415814"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>Célula DisplayMode (seção Action Tags)
 
@@ -39,7 +39,7 @@ Para fazer referência à célula DisplayMode pelo nome, de outra fórmula ou pr
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . DisplayMode onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . DisplayMode onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula DisplayMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -47,6 +47,6 @@ Para fazer referência à célula DisplayMode pelo índice, a partir de um progr
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
 | Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visSmartTagDisplayMode** <br/> |
+| Índice de célula:  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

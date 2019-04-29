@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: Ao trabalhar com um modelo de formulário do InfoPath, você pode escrever código para acessar as fontes de dados secundárias do formulário e manipular os dados que elas contêm.
 ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300193"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408310"
 ---
 # <a name="access-external-data-sources"></a>Acessar fontes de dados externas
 
@@ -38,7 +38,7 @@ A [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceColl
   
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx)  <br/> |Retorna uma contagem do número de instâncias do objeto **DataSource** contido na coleção.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx)  <br/> |Retorna uma contagem do número de instâncias do objeto **DataSource** contido na coleção.  <br/> |
 |[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) Método GetEnumerator  <br/> |Retorna um **IEnumerator** que pode ser usado para percorrer a coleção.  <br/> |
 |Propriedade [Item [Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Retorna uma referência ao objeto **DataSource** especificado pelo valor de índice.  <br/> |
 |Propriedade [Item [String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Retorna uma referência ao objeto **DataSource** especificado pelo nome.  <br/> |

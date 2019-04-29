@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 514a4053-7729-ec82-c42f-5b780e48cd2a
 description: Retorna o valor de data representado por datetime ou expression.
-ms.openlocfilehash: 7fcfd625b5e4e3da71a1b160c074401b672e0be7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: d5bc1865e76940508ddb67a9b3d2122dc7c43a50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360309"
 ---
 # <a name="datevalue-function-visioshapesheet"></a>Função DATEVALUE (VisioShapeSheet)
 
@@ -22,27 +22,27 @@ Retorna o valor de data representado por _datetime_ ou _expression_.
   
 ## <a name="syntax"></a>Sintaxe
 
-DATEVALUE ("* * *datetime* * *" | * * *expressão* * * [, * * *lcid* * *]) 
+DATEVALUE(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica o identificador de local para ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Datetime
   
 ## <a name="remarks"></a>Comentários
 
-Qualquer componente de hora em *datetime* ou *expression* é desconsiderado. 
+Qualquer componente de tempo em *datetime* ou *expression* é descartado. 
   
-Se *datetime* estiver faltando ou não puder ser convertida para um resultado válido, DATEVALUE retornará um #VALUE! erro. 
+Se a *datetime* estiver ausente ou não puder ser convertida em um resultado válido, DATEVALUE retornará um erro #VALUE! . 
   
-O valor retornado é exibido usando o estilo de data curta definido pelas Configurações regionais atuais do sistema. 
+O valor retornado é exibido usando o estilo de data abreviada definido pelas atuais configurações regionais do sistema. 
   
 A função DATEVALUE também aceita um valor de número único para *expression* em que a parte inteira do resultado representa os dias desde 30 de dezembro de 1899. 
   
@@ -62,7 +62,7 @@ Retornará a data.
 
 DATEVALUE("33 de maio de 1997")
   
-Retornará um erro de #VALUE!.
+Retornar um erro #VALUE!.
   
 ## <a name="example-4"></a>Exemplo 4
 

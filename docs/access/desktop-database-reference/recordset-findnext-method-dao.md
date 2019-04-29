@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a9ef8f1714244b02ed5423a38cf3fb8fa328ec1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300634"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Método Recordset.FindNext (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se a:** Access 2013, Office 2013
 
 Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access ).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . FindNext (***critérios***)
+*expression* .FindNext(***Criteria***)
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -106,30 +106,30 @@ Sempre verifique o valor da propriedade **NoMatch** para determinar se a operaç
 
 Utilizar o método **Find** com os conjuntos de registros com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access pode não ser eficaz. Você poderá constatar que reformular os critérios para localizar um registro específico seja mais rápido, especialmente quando se trabalha com grandes conjuntos de registros.
 
-Em um espaço de trabalho ODBCDirect, os métodos **Find** e **Seek** não estão disponíveis em nenhum tipo de objeto **Recordset**, porque executar um método **Find** ou **Seek** por meio de uma conexão ODBC não é muito eficiente na rede. Em vez disso, você deve projetar a consulta (ou seja, usando o argumento de origem para o método **OpenRecordset** ) com uma cláusula WHERE adequada que restringe os registros retornados somente aquelas que atendam aos critérios caso contrário, seria usado em um **Localizar** ou Método **Seek** .
+Em um espaço de trabalho ODBCDirect, os métodos **Find** e **Seek** não estão disponíveis em nenhum tipo de objeto **Recordset**, porque executar um método **Find** ou **Seek** por meio de uma conexão ODBC não é muito eficiente na rede. Em vez disso, você deve projetar a consulta (isto é, utilizando o argumento source para o método **OpenRecordset**) com uma cláusula WHERE apropriada que restrinja os registros retornados a apenas aqueles que corresponderem aos critérios utilizados em um método **Find** ou **Seek**.
 
 Ao trabalhar com bancos de dados ODBC conectados ao mecanismo de banco de dados do Microsoft Access e com grandes objetos v tipo dynaset, você poderá descobrir que a utilização dos métodos **Find** ou da propriedade **Sort** ou **Filter** é lenta. Para aprimorar o desempenho, use as consultas SQL com cláusulas ORDER BY ou WHERE personalizadas, consultas de parâmetro ou objetos **QueryDef** que recuperam registros específicos e indexados.
 
-Você deve usar o formato de data americano (mês-dia-ano) ao pesquisar campos contendo datas, mesmo que não esteja utilizando uma versão em inglês do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados não poderão ser localizado. Use a função **Format** do Visual Basic para converter a data. Por exemplo:
+É necessário usar o formato de data dos EUA (mês/dia/ano), ao pesquisar campos contendo datas, mesmo se não estiver usando a versão norte-americana do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados podem não ser encontrados. Use a função **Formato** do Visual Basic para converter a data. Por exemplo:
 
 ```vb
     rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Se os critérios é composta por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço \> " & lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar Chame o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+Se o critério for composto por uma cadeia concatenada de caracteres e com um valor não inteiro, e se os parâmetros do sistema especificarem um caractere decimal não-EUA, como uma vírgula (por exemplo, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), ocorrerá um erro ao tentar chamar o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 
 > [!NOTE]
-> - Para melhor desempenho, os *critérios* devem estar em um formato "*campo* = *valor*" onde o *campo* é um campo indexado na tabela base ou "*campo* como *prefixo*" onde o *campo* é um campo indexado na tabela base e *prefixo* é uma cadeia de caracteres de pesquisa do prefixo (por exemplo, "ART *").
+> - Para melhorar o desempenho, *criteria* deve estar no formato "*field* = *value*", no qual *field* é um campo indexado na tabela base, ou no formato "*field* LIKE *prefix*", no qual *field* é um campo indexado na tabela base e *prefix* é uma sequência de pesquisa de prefixo (por exemplo, "ART*").
 > 
-> - Em geral, para tipos equivalentes de pesquisa, o método **Seek** fornece melhor desempenho que os métodos **Find**. Isso significa que os objetos **Recordset** tipo tabela sozinhos podem atender às suas necessidades.
+> - De modo geral, para os tipos de pesquisas, o método **Seek** proporciona um melhor desempenho do que o método **Find**. Isso supõe que os objetos de tipo de tabela **Conjunto de registros** sozinhos podem atender às suas necessidades.
 
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar os métodos FindFirst e FindNext para localizar um registro em um Recordset.
+O exemplo a seguir mostra como usar os métodos FindFirst e FindNext para localizar um registro em um Conjunto de Registros.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb

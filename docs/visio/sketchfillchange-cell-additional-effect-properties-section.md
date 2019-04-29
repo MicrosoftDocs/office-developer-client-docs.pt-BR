@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 939f8f90-dee5-4175-b32a-e2964eb40681
 description: Determina a quantidade de randomização do preenchimento da forma na geometria da forma ao usar um efeito de esboço, como uma porcentagem do comprimento de uma seção. Se o valor da célula SketchFillChange for definido como 0%, a geometria de limite do preenchimento de uma forma corresponderá à geometria da forma. Se o valor for 100%, a geometria de limite do preenchimento da forma não seguirá a geometria da forma.
 ms.openlocfilehash: 8726e9dd6ca6257fb8dbbbef3dce1d4ec344e28b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408072"
 ---
 # <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Célula SketchFillChange (seção Additional Effect Properties)
 
@@ -33,7 +33,7 @@ Para obter uma referência para a célula **SketchFillChange** pelo índice a pa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
 | Índice da célula:  <br/> |**visSketchFillChange** <br/> |
    
 

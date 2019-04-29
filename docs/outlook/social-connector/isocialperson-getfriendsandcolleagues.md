@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: Obtém uma cadeia de caracteres que representa uma coleção de pessoas.
 ms.openlocfilehash: f755476f66ab2f91471b88c74baff899f31b83e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407652"
 ---
 # <a name="isocialpersongetfriendsandcolleagues"></a>ISocialPerson::GetFriendsAndColleagues
 

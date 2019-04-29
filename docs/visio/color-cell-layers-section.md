@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: Especifica a cor usada para exibir a camada.
 ms.openlocfilehash: a2eef24187165cabfdfc8dee49747a2381562d3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435128"
 ---
 # <a name="color-cell-layers-section"></a>Célula Color (Seção Layers)
 
@@ -41,7 +41,7 @@ Para fazer referência à célula Color pelo índice a partir de um programa, us
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice da linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2,...  <br/> |
+|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2,...  <br/> |
 |Índice da célula:  <br/> |**visLayerColor** <br/> |
    
 

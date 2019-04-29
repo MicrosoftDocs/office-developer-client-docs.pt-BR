@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
 description: Remove a pessoa identificada pelo parâmetro userID como um amigo na rede social.
 ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336775"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418432"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 

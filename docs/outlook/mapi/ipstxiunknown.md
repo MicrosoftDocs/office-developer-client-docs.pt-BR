@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4c758ecd0134ca11ced6f771303896bd885a22c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278796"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436220"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 

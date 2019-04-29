@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: Executa cadeia de caracteres e passa os argumentos de linha de comando para o programa como uma cadeia de caracteres.
 ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318946"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408702"
 ---
 # <a name="runaddonwargs-function"></a>Função RUNADDONWARGS
 
@@ -26,10 +26,10 @@ RUNADDONWARGS ("* * *cadeia de caracteres* * *", "* * *argumentos* * *")
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obrigatório  <br/> |**String** <br/> | O nome de um complemento.  <br/> |
-| _argumento_ <br/> |Obrigatório  <br/> |**String** <br/> |Argumentos a serem passados para seu programa.  <br/> |
+| _string_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O nome de um complemento.  <br/> |
+| _argumento_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Argumentos a serem passados para seu programa.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

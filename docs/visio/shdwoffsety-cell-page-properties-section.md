@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: Determina a distância em unidades de página pela qual a sombra projetada de uma forma está deslocada verticalmente da forma.
 ms.openlocfilehash: be7ec4cccd53cc9d74811e2e45122c8bc29497d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349053"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438138"
 ---
 # <a name="shdwoffsety-cell-page-properties-section"></a>Célula ShdwOffsetY (Seção Page Properties)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula ShdwOffsetY pelo índice, a partir de 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPage** <br/> |
-| Índice da célula:  <br/> |**visPageShdwOffsetY** <br/> |
+| Índice de linha:  <br/> |**visRowPage** <br/> |
+| Índice de célula:  <br/> |**visPageShdwOffsetY** <br/> |
    
 

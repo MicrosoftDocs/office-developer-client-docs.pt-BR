@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356564"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416283"
 ---
 # <a name="types-of-restrictions"></a>Tipos de restrições
 
@@ -36,7 +36,7 @@ Cada uma das estruturas de restrição especializadas na União representa um ti
 |**OU** <br/> |[SOrRestriction](sorrestriction.md) <br/> |Executa uma operação lógica **ou** em duas ou mais restrições.  <br/> |
 |**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |Executa uma operação **não** lógica em duas ou mais restrições.  <br/> |
 |Conteúdo  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Localiza dados especificados.  <br/> |
-|Propriedade	  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Especifica um determinado valor de propriedade como critérios de correspondência. Pode ser usado, por exemplo, para pesquisar um determinado tipo de anexo.  <br/> |
+|Propriedade  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Especifica um determinado valor de propriedade como critérios de correspondência. Pode ser usado, por exemplo, para pesquisar um determinado tipo de anexo.  <br/> |
 |Mascara  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |Aplica um bitmask a uma propriedade PT_LONG, geralmente para determinar se determinados sinalizadores estão definidos.  <br/> |
 |Tamanho  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Testa o tamanho de uma propriedade usando operadores relacionais padrão.  <br/> |
 |Existente  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Testa se um objeto tem um valor para uma propriedade.  <br/> |

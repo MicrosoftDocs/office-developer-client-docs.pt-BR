@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310424"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407694"
 ---
 # <a name="showoptions"></a>ShowOptions
 

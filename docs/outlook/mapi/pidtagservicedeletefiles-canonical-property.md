@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336397"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436822"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Propriedade canônica PidTagServiceDeleteFiles
 

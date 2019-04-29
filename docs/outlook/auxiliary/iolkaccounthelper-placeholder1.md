@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
 description: Esse membro é um espaço reservado e não tem suporte. Deve sempre retornar E_NOTIMPL.
 ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322082"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418887"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 

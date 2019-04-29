@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8794bb233eb69d0f246fb1019954ab718db6f464
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410550"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 

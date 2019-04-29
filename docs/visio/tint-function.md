@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
 description: Modifica a cor aumentando sua luminosidade pelo valor (positivo ou negativo) especificado no parâmetro int.
 ms.openlocfilehash: 8924bc0662814e14d01b4bd5332f5fadeb0a1082
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280928"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406574"
 ---
 # <a name="tint-function"></a>Função TINT
 
@@ -24,9 +24,9 @@ TONALIDADE (* * *cor* * *, * * *int* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da cor.  <br/> |
+| _color_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da cor.  <br/> |
 | _int_ <br/> |Obrigatório  <br/> |**Integer** <br/> |O valor pelo qual a luminosidade da cor será aumentada. Pode ser positivo ou negativo.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

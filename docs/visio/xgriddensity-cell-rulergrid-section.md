@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: db7b353f-4379-8865-1c35-36b89cf93257
 description: Especifica o tipo de grade horizontal a ser utilizada.
 ms.openlocfilehash: 5ebd172e56a66bfb39bd9bfa20967bb6b52c5aa2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436038"
 ---
 # <a name="xgriddensity-cell-ruler-amp-grid-section"></a>Célula XGridDensity (seção &amp; Ruler Grid)
 
@@ -24,8 +24,8 @@ Especifica o tipo de grade horizontal a ser utilizada.
 |:-----|:-----|:-----|
 |,0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
 |duas  <br/> |Grande  <br/> |**visGridCoarse** <br/> |
-|quatro  <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
-|8  <br/> |Funciona  <br/> |**visGridFine** <br/> |
+|4   <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
+|8   <br/> |Funciona  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -42,7 +42,7 @@ Para obter uma referência para a célula XGridDensity pelo índice, a partir de
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowRulerGrid** <br/> |
+|Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
 |Índice da célula:  <br/> |**visXGridDensity** <br/> |
    
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
 description: Representa a coordenada y do ponto inicial da forma 1-D, em relação à origem de seu item pai.
 ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360379"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419209"
 ---
 # <a name="beginy-cell-1-d-endpoints-section"></a>Célula InícioY (Seção 1-D Pontos de extremidade)
 

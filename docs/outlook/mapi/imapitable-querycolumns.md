@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328879"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410102"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 

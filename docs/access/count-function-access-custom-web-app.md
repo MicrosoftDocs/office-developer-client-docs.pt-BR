@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: Retorna o número de registros em uma consulta ou tabela.
 ms.openlocfilehash: 98dbed393bf2f6dc401119f6c5dc7ab6b5ff7864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282233"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419139"
 ---
 # <a name="count-function-access-custom-web-app"></a>Função Count (aplicativo Web personalizado do Access)
 

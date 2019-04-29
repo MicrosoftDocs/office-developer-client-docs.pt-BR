@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: É possível executar operações em fórmulas usando valores de data, hora e duração. No Microsoft Visio, uma expressão de data e tempo pode ser avaliada como um único valor. Uma expressão de data e hora é qualquer expressão comumente reconhecida como uma data e/ou hora ou uma referência a uma célula que contenha uma data e/ou hora. Isso inclui cadeias de caracteres e números que pareçam uma data e hora, e valores de data e hora retornados de funções.
 ms.openlocfilehash: 56de919fa713c0948bb87f794d1c6e0a5d727aef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341577"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416724"
 ---
 # <a name="about-date-time-and-duration-values"></a>Sobre valores de data, hora e duração
 
@@ -43,7 +43,7 @@ Para usar datas e horas dentro de uma expressão (em vez de uma única constante
    
 ## <a name="date-and-time-functions"></a>Funções de data e hora
 
-|**Function**|**Descrição**|
+|**Function**|**Description**|
 |:-----|:-----|
 |[PÓS-DATADOS](date-function-visioshapesheet.md) <br/> | Converte números em um valor de data.  <br/> |
 |[DATETIME](datetime-function.md) <br/> | Converte uma sequência de caracteres em um valor de data e hora.  <br/> |
@@ -51,14 +51,14 @@ Para usar datas e horas dentro de uma expressão (em vez de uma única constante
 |[AGORA](now-function-visioshapesheet.md) <br/> | Retorna a data atual do sistema como um valor de data e hora.  <br/> |
 |[TEMPORAIS](time-function-visioshapesheet.md) <br/> | Converte números em um valor de hora.  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Converte uma sequência de caracteres em um valor de hora.  <br/> |
-|[Data](day-function-visioshapesheet.md) <br/> | Retorna o componente do dia como uma expressão de data e hora.  <br/> |
+|[DAY](day-function-visioshapesheet.md) <br/> | Retorna o componente do dia como uma expressão de data e hora.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Retorna o dia do ano sequencial como uma expressão de data e hora.  <br/> |
-|[HORA](hour-function-visioshapesheet.md) <br/> | Retorna o componente de horas como uma expressão de data e hora.  <br/> |
-|[INCLUSÕES](minute-function-visioshapesheet.md) <br/> | Retorna o componente de minutos como uma expressão de data e hora.  <br/> |
-|[MENSAL](month-function-visioshapesheet.md) <br/> | Retorna o componente de mês como uma expressão de data e hora.  <br/> |
-|[SECUNDÁRIA](second-function-visioshapesheet.md) <br/> | Retorna o componente de segundos como uma expressão de data e hora.  <br/> |
+|[HOUR](hour-function-visioshapesheet.md) <br/> | Retorna o componente de horas como uma expressão de data e hora.  <br/> |
+|[MINUTE](minute-function-visioshapesheet.md) <br/> | Retorna o componente de minutos como uma expressão de data e hora.  <br/> |
+|[MONTH](month-function-visioshapesheet.md) <br/> | Retorna o componente de mês como uma expressão de data e hora.  <br/> |
+|[SECOND](second-function-visioshapesheet.md) <br/> | Retorna o componente de segundos como uma expressão de data e hora.  <br/> |
 |[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Retorna o número do dia da semana como uma expressão de data e hora.  <br/> |
-|[ANUAIS](year-function-visioshapesheet.md) <br/> | Retorna o componente de ano como uma expressão de data e hora.  <br/> |
+|[YEAR](year-function-visioshapesheet.md) <br/> | Retorna o componente de ano como uma expressão de data e hora.  <br/> |
    
 ## <a name="duration"></a>Duração
 

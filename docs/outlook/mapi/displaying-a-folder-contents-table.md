@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 56847283afaf41c1d45cdb875ddf49eaa5881175
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339932"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412391"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Exibir uma tabela de conteúdo da pasta
 

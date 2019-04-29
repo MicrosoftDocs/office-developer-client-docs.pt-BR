@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: Determina se um estilo inclui propriedades de texto.
 ms.openlocfilehash: 3f1d87316955b4e6e40cea16634cff7645a720fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328914"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419258"
 ---
 # <a name="enabletextprops-cell-style-properties-section"></a>Célula EnableTextProps (Seção Style Properties)
 
@@ -22,7 +22,7 @@ Determina se um estilo inclui propriedades de texto.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Incluir propriedades de texto.  <br/> |
+|VERDADEIRO  <br/> |Incluir propriedades de texto.  <br/> |
 |FALSE  <br/> |Excluir propriedades de texto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,7 +38,7 @@ Para obter uma referência para a célula EnableTextProps pelo índice a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowStyle** <br/> |
+|Índice de linha:  <br/> |**visRowStyle** <br/> |
 |Índice da célula:  <br/> |**visStyleIncludesText** <br/> |
    
 

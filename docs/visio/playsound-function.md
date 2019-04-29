@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 098d216f-e699-0e74-f702-ccfa7809c19b
 description: ReProduz um arquivo de som ou som do sistema.
 ms.openlocfilehash: 752412aab6584d2b01235fe88644e3ec3fa5daee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346841"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435835"
 ---
 # <a name="playsound-function"></a>Função PLAYSOUND
 
@@ -26,10 +26,10 @@ PLAYSOUND ("* * *filename* * *" | "* * *alias* * *", * * *IsAlias* * *, * * *bee
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _nomes_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome do arquivo de som a ser executado.  <br/> |
-| _alias_ <br/> |Obrigatório  <br/> |**String** <br/> | Um som de sistema representado por um alias.  <br/> |
+| _nomes_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O nome do arquivo de som a ser executado.  <br/> |
+| _alias_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Um som de sistema representado por um alias.  <br/> |
 | _isAlias_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | Especifica se a expressão precedente é um alias ou um nome de arquivo; utilize um valor diferente de zero para especificar um alias.  <br/> |
 | _sinais_ <br/> |Obrigatório  <br/> |**Boolean** <br/> |Especifica se haverá um alarme sonoro do Microsoft Visio quando o som não puder ser reproduzido; utilize um número diferente de zero para o alarme sonoro.  <br/> |
 | _sincroniza_ <br/> |Obrigatório  <br/> |**Boolean** <br/> |Determina se o som será reproduzido de forma assíncrona (0) ou síncrona (1).  <br/> |
