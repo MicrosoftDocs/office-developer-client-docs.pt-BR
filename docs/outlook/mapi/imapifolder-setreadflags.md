@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406910"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
@@ -134,7 +134,7 @@ Quando os sinalizadores SUPPRESS_RECEIPT e GENERATE_RECEIPT_ONLY estiverem defin
 
 Espere estes valores de retorno sob as condições a seguir.
   
-|**Condition**|**Valor retornado**|
+|**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |**SetReadFlags** processou com êxito todas as mensagens.  <br/> |S_OK  <br/> |
 |O **SetReadFlags** não pôde processar com êxito todas as mensagens.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b40752d4a5f445368752ad4caf5c919f6e0ce27b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348542"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409115"
 ---
 # <a name="outlook-items-and-fields"></a>Campos e itens do Outlook
 

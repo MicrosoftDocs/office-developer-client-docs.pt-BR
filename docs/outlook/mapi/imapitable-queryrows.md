@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 26d6ffe66a5e7749c9d8c4e5210e9f72de808932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328866"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416290"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 

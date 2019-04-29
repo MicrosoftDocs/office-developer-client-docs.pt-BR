@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b7da082-5e55-411d-b109-7fb6fa8f6e8e
 description: Contém as coordenadas x e y de um ponto de extremidade de um arco elíptico em relação à largura e altura da forma, as coordenadas x e y dos pontos de controle no arco em relação à largura e altura da forma, ângulo do eixo x para o eixo principal da elipse e a proporção entre t eixos principais e secundários de sua elipse.
 ms.openlocfilehash: e38f5f2baf6bb9ade31c2778799a3ece968147f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359959"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409094"
 ---
 # <a name="relellipticalarcto-row-geometry-section"></a>Linha RelEllipticalArcTo (seção geometry)
 
@@ -23,7 +23,7 @@ Contém as coordenadas *x* e *y* do ponto de extremidade de um arco elíptico em
   
 Uma linha **RelEllipticalArcTo** contém as células a seguir. 
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final em um arco em relação à largura da forma.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final em um arco em relação à altura da forma.  <br/> |

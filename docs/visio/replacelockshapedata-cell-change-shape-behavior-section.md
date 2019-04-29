@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6a089266-7b19-4310-8cb5-4373ea3b2d64
 description: Indica se os valores das células especificadas em uma forma mestre substituirão os valores (incluindo valores locais) de uma forma que está sendo substituída durante uma operação de substituição de forma. O ReplaceLockShapeData determina se os dados da forma da forma mestre substituirão todos os dados da forma da forma que está sendo substituída.
 ms.openlocfilehash: d2349da96bde7d141aada9066d56a4379f425fee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348339"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408870"
 ---
 # <a name="replacelockshapedata-cell-change-shape-behavior-section"></a>Célula ReplaceLockShapeData (seção Change Shape Behavior)
 
@@ -36,7 +36,7 @@ Para obter uma referência para a célula **ReplaceLockShapeData** pelo índice 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowReplaceBehaviors** <br/> |
+| Índice de linha:  <br/> |**visRowReplaceBehaviors** <br/> |
 | Índice da célula:  <br/> |**visReplaceLockShapeData** <br/> |
    
 

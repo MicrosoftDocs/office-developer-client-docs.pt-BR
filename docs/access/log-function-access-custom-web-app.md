@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
 description: Retorna o logaritmo natural ou o logaritmo da base fornecida, da expressão especificada.
 ms.openlocfilehash: e2cfd1cf4ad3c1bf44778737faa0f697333f5234
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419293"
 ---
 # <a name="log-function-access-custom-web-app"></a>Função log (aplicativo Web personalizado do Access)
 

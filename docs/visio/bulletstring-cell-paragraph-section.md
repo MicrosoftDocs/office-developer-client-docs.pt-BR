@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38285824-30ad-0cf2-07cb-0103ab3a415a
 description: Permite criar um estilo com marcadores personalizados.
 ms.openlocfilehash: b7a1d7f845c7b9945670240361a4ac66efa80786
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337559"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409745"
 ---
 # <a name="bulletstring-cell-paragraph-section"></a>Célula BulletString (Seção Paragraph)
 
@@ -37,7 +37,7 @@ Para obter uma referência para a célula BulletString pelo índice a partir de 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-|Índice da linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2,...  <br/> |
+|Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2,...  <br/> |
 |Índice da célula:  <br/> |**visBulletString** <br/> |
    
 

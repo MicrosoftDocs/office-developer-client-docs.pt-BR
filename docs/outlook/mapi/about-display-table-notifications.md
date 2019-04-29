@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326408"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430011"
 ---
 # <a name="about-display-table-notifications"></a>Sobre a exibição de notificações de tabela
 
@@ -41,7 +41,7 @@ MAPI responde a exibir notificações de tabela quando necessário, relendo o va
 |Caixa de seleção  <br/> |Relê o valor para o membro **ulPRPropertyName** .  <br/> |
 |Caixa de combinação  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLCOMBOBOX](dtblcombobox.md) . Relê todas as linhas, incluindo o valor do membro **ulPRPropertyName**.  <br/> |
 |Caixa de listagem suspensa  <br/> |Reabre a tabela associada ao membro **ulPRTableName** da estrutura [DTBLDDLBX](dtblddlbx.md) e relê todas as linhas. Chama [IMAPIProp::](imapiprop-getprops.md) GetProps para recuperar os valores das propriedades armazenadas nos membros **ulPRDisplayProperty** e **ulPRSetProperty** .  <br/> |
-|Editar  <br/> |Relê a propriedade e reexibe.  <br/> |
+|Edit  <br/> |Relê a propriedade e reexibe.  <br/> |
 |Caixa de grupo  <br/> |Ignora a notificação.  <br/> |
 |Rótulo  <br/> |Ignora a notificação.  <br/> |
 |Caixa de listagem de seleção múltipla  <br/> |Se uma das colunas for um identificador de entrada, atualizará a caixa de listagem. O objeto correspondente não é fechado ou recarregado.  <br/> |

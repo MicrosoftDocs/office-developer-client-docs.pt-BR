@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e8c52d71ee47966be09c6c0806eceafae0c5ff5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411187"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 

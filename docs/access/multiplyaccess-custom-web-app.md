@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: Multiplica duas expressões.
 ms.openlocfilehash: 73c1f7ff51ba52536ca4896d3a90126377867b9b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301698"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412160"
 ---
 # <a name="multiply-access-custom-web-app"></a>Multiplique (aplicativo Web personalizado do Access)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: Libera memória alocada pela interface IOlkAccountManager.
 ms.openlocfilehash: 3e680e1e26d6c9b12c2dd4a7d48df4dbeae14154
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322054"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408485"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 

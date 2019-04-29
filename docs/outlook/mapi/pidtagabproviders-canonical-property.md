@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8dac0b2684a4b6754e99235f47816f8e5fb84714
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332008"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419783"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Propriedade canônica PidTagAbProviders
 

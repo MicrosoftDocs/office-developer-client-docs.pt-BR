@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8dc6515b-66ab-f1ac-18fd-820209f90991
 description: Contém uma fórmula de gatilho gerada pelo aplicativo que determina se o ponto final de uma forma 1-D deve ser movido para manter sua conexão com outra forma.
 ms.openlocfilehash: 9093cca782d9262b2511198ed73f512a75bb8994
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418579"
 ---
 # <a name="endtrigger-cell-glue-info-section"></a>Célula EndTrigger (Seção Glue Info)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula EndTrigger pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visEndTrigger** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visEndTrigger** <br/> |
    
 

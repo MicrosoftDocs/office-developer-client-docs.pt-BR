@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6c39fe513be122f265fdc316629a3e64a156fdc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318176"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420133"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar IDs de entrada e IDs de anexo
 

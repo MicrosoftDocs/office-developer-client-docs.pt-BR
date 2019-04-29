@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: Determina as propriedades que são transferidas da forma antiga para a forma de substituição durante uma operação de substituição. Os valores das células na seção alterar comportamento da forma da forma mestre da substituição são lidos durante a operação de substituição da forma.
 ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341920"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418663"
 ---
 # <a name="change-shape-behavior-section"></a>Seção alterar comportamento da forma
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322159"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415289"
 ---
 # <a name="about-mapi-additions"></a>Sobre as adições de MAPI
 

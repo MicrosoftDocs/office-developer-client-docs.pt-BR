@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: Determina se um conector pode fazer o roteamento horizontalmente por uma forma de colocação.
 ms.openlocfilehash: 21fa1683c4b1afd24992ec7a8a6daa52a8280825
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409472"
 ---
 # <a name="shapepermeablex-cell-shape-layout-section"></a>Célula ShapePermeableX (Seção Shape Layout)
 
@@ -22,7 +22,7 @@ Determina se um conector pode fazer o roteamento horizontalmente por uma forma d
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Permitir que os conectores façam o roteamento horizontalmente por uma forma de colocação.  <br/> |
+|VERDADEIRO  <br/> |Permitir que os conectores façam o roteamento horizontalmente por uma forma de colocação.  <br/> |
 |FALSE  <br/> |Não permitir que os conectores façam o roteamento horizontalmente por uma forma de colocação.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula ShapePermeableX pelo índice, a partir
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOPermX** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOPermX** <br/> |
    
 

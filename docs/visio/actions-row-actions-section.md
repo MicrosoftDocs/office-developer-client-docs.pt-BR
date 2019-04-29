@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: Contém as células que especificam as ações associadas a um comando personalizado em um menu de atalho ou de marca de ação. A seção Actions contém uma linha Actions para cada ação.
 ms.openlocfilehash: 37464e98b3e4f7d07b2ae4bd391b31ec009b6726
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283041"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408002"
 ---
 # <a name="actions-row-actions-section"></a>Linha Actions (Seção Actions)
 
@@ -25,7 +25,7 @@ Contém as células que especificam as ações associadas a um comando personali
   
 As linhas Actions são denominadas Actions. *nome* e contém as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[Action](action-cell-actions-section.md) <br/> |Contém a fórmula a ser executada quando o usuário escolhe um item em um menu de atalho ou de marca de ação.  <br/> |
 |[Menu](menu-cell-actions-section.md) <br/> |Define o nome do item de menu que aparece em uma marca de ação ou menu de atalho.  <br/> |
@@ -40,7 +40,7 @@ As linhas Actions são denominadas Actions. *nome* e contém as células a segui
    
 ## <a name="remarks"></a>Comentários
 
- É possível adicionar tantas linhas Actions.  *nomear* linhas conforme necessário, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar um comando personalizado a uma seção Actions existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
+ É possível adicionar tantas linhas Actions.  *name* quantas forem necessárias, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar um comando personalizado a uma seção Actions existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
 É possível fazer referências a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir um nome significativo à linha Actions. *nome* , clique na linha e, em seguida, digite um nome, como *personalizado* , por exemplo, para criar o nome da linha actions. Custom. Você pode fazer referência à célula Menu usando Actions.Custom.Menu. 
   

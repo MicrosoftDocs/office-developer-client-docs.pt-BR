@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: Especifica se as formas pertencentes à camada podem ser coladas.
 ms.openlocfilehash: 55886a7e96bd2c08966cb85f5edad6a7174e30cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408513"
 ---
 # <a name="glue-cell-layers-section"></a>Célula Glue (Seção Layers)
 
@@ -22,7 +22,7 @@ Especifica se as formas pertencentes à camada podem ser coladas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |A cola está ativada.  <br/> |
+|VERDADEIRO  <br/> |A cola está ativada.  <br/> |
 |FALSE  <br/> |A cola não está ativada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -40,7 +40,7 @@ Para obter uma referência para a célula Glue pelo índice a partir de um progr
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice da linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visLayerGlue** <br/> |
    
 

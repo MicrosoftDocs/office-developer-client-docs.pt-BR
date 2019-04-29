@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: Ao criar aplicativos personalizados, os desenvolvedores geralmente devem realizar o tratamento de erros que envolve a gravação do código de programação para verificar se há erros gerados pelo aplicativo ou para criar e gerar erros personalizados. O modelo de objeto do InfoPath fornecido pelo namespace Microsoft. Office. InfoPath oferece suporte ao tratamento de erros por meio do uso da classe FormError em associação com a classe FormErrorCollection.
 ms.openlocfilehash: 30cf649188b7e4cbc35469d2a50540bb13ecb38d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303602"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410774"
 ---
 # <a name="handle-errors"></a>Manipular erros
 
@@ -39,8 +39,8 @@ A classe [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Offi
 |Método [delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+ 1 sobrecarga)  <br/> |Exclui o erro definido pelo usuário especificado da coleção.  <br/> |
 |Método [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx)  <br/> |Exclui todos os objetos **FormError** contidos na coleção.  <br/> |
 |[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) GetErrors (sobrecarga + 1)  <br/> |Retorna todos os objetos **FormError** do nome ou tipo especificado da coleção.  <br/> |
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Obtém uma contagem do número de objetos **FormError** contidos na coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Obtém uma referência a um objeto **FormError** com base no número de índice especificado.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Obtém uma contagem do número de objetos **FormError** contidos na coleção.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Obtém uma referência a um objeto **FormError** com base no número de índice especificado.  <br/> |
    
 ## <a name="overview-of-the-formerror-class"></a>Visão geral da classe FormError
 

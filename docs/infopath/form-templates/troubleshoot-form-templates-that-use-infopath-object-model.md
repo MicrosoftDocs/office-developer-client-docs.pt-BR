@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: Esta seção contém dicas para resolver problemas comuns que podem ocorrer durante a criação do modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
 ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303476"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413658"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>Solucionar problemas de modelos de formulário que usam o modelo de objeto do InfoPath
 

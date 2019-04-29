@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 87709f8a77471637d7652982669bcba93ca2e1dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341010"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412615"
 ---
 # <a name="imapipropsetprops"></a>IMAPIProp::SetProps
 

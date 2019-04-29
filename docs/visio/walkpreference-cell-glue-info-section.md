@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Determina se um ponto de extremidade de uma forma 1D será movido para um ponto de conexão horizontal ou vertical na forma à qual está colado, usando a cola dinâmica, quando a forma for movida para uma posição ambígua. Como padrão, ambos os pontos de extremidade da forma 1D são movidos para pontos de conexão horizontais.
 ms.openlocfilehash: 05f7ded3f7336dc2f8598e8d1e9edc501b511546
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285269"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408604"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>Célula WalkPreference (Seção Glue Info)
 
@@ -40,7 +40,7 @@ Para fazer referência à célula WalkPreference pelo índice a partir de um pro
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowMisc** <br/> |
-| Índice da célula:  <br/> |**visWalkPref** <br/> |
+| Índice de linha:  <br/> |**visRowMisc** <br/> |
+| Índice de célula:  <br/> |**visWalkPref** <br/> |
    
 

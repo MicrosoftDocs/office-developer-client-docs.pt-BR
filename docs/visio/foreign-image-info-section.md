@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c870d60b-f01d-ced6-08f7-bc3ae6832c42
 description: Contém a largura e a altura de um objeto de um outro programa usado em um desenho do Microsoft Visio e aparece na janela ShapeSheet somente para esse objetos. Também indica a distância do deslocamento das imagens do objeto em relação às bordas.
 ms.openlocfilehash: dbc9831daeb3b7b70b3764e31f2dbc78752780d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346050"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411712"
 ---
 # <a name="foreign-image-info-section"></a>Seção Foreign Image Info
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 99887bab2b576e6e6c05414ee9daf1bd6e8d0463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328198"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408324"
 ---
 # <a name="mapi-property-overview"></a>Visão geral da propriedade MAPI
 

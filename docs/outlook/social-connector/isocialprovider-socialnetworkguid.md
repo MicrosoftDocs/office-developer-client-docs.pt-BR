@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: Retorna um GUID que representa um identificador exclusivo para a rede social.
 ms.openlocfilehash: fc96799ada773cc7260e156d3e2ab8423b73884b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285509"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407869"
 ---
 # <a name="isocialprovidersocialnetworkguid"></a>ISocialProvider::SocialNetworkGuid
 

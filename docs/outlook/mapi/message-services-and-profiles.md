@@ -9,11 +9,11 @@ api_type:
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 78a13bacf13b019bbf9436830ad66db7fdfaf425
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415464"
 ---
 # <a name="message-services-and-profiles"></a>Perfis e serviços de mensagens
   
@@ -60,5 +60,5 @@ A ilustração a seguir mostra um perfil que inclui dois serviços de mensagens.
 ## <a name="see-also"></a>Confira também
 
 - [MAPIUID](mapiuid.md)
-- [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
+- [Visão geral da programação MAPI](mapi-programming-overview.md)
 

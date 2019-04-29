@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0d05672a0b136520216357cc85a6b7a125415759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345847"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427952"
 ---
 # <a name="mapi-notification-events"></a>Eventos de notificação MAPI
 
@@ -32,7 +32,7 @@ Quando os aplicativos cliente se registram para notificação de eventos, eles d
 |Objeto excluído ( _fnevObjectDeleted_)  <br/> |Um objeto MAPI foi excluído.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Objeto copiado ( _fnevObjectCopied_)  <br/> |Um objeto MAPI foi copiado.  <br/> |Pastas, mensagens, todos os tipos de objetos do catálogo de endereços  <br/> |
 |Evento estendido ( _fnevExtended_)  <br/> |Um evento interno definido por um determinado provedor de serviços ocorreu.  <br/> |Qualquer objeto de origem de aviso  <br/> |
-|Pesquisa concluída ( _fnevSearchComplete_)  <br/> |Uma operação de pesquisa foi concluída e os resultados da pesquisa estão disponíveis.  <br/> |Pastas  <br/> |
+|Pesquisa concluída ( _fnevSearchComplete_)  <br/> |Uma operação de pesquisa foi concluída e os resultados da pesquisa estão disponíveis.  <br/> |Folders  <br/> |
 |Tabela modificada ( _fnevTableModified_)  <br/> |As informações em um objeto de tabela MAPI foram alteradas.  <br/> |Tabelas  <br/> |
 |Nova mensagem de email ( _fnevNewMail_)  <br/> |Uma mensagem foi entregue e está aguardando para ser processada.  <br/> |Repositório de mensagens, pastas  <br/> |
    

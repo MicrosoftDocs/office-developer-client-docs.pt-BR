@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5b10f744e3033aab63820e4cd5e414f4c01c27cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351153"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410613"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 

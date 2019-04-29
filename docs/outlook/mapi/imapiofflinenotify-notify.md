@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 10c7cb9d-2e9d-72eb-6b07-31eed892e646
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
 ms.openlocfilehash: 4440df4b8e4a46e13748cf47d599e16599aaf858
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410690"
 ---
 # <a name="imapiofflinenotifynotify"></a>IMAPIOfflineNotify::Notify
 

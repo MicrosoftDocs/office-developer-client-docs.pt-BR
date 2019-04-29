@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: Determina a aparência padrão de todos os conectores em uma página de desenho.
 ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358979"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410620"
 ---
 # <a name="linerouteext-cell-page-layout-section"></a>Célula LineRouteExt (Seção Page Layout)
 
@@ -39,7 +39,7 @@ Para fazer referência à célula LineRouteExt pelo índice a partir de um progr
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+| Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 | Índice da célula:  <br/> |**visPLOLineRouteExt** <br/> |
    
 

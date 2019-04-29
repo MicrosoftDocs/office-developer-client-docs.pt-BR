@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: Indica o idioma padrão do documento.
 ms.openlocfilehash: 1a4f9f353821c0b336d0a9a53b8f42b4f4abb0e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332701"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430067"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>Célula DocLangID (Seção Document Properties)
 
@@ -28,7 +28,7 @@ Se você quiser alterar o idioma de um documento, em vez de editar esta célula 
   
 A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
   
-|**Language**|**LCID**|
+|**Idioma**|**LCID**|
 |:-----|:-----|
 |Africâner  <br/> |1078  <br/> |
 |Albanês  <br/> |1052  <br/> |
@@ -157,7 +157,7 @@ Para fazer referência à célula DocLangID pelo índice a partir de um programa
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowDoc** <br/> |
+|Índice de linha:  <br/> |**visRowDoc** <br/> |
 |Índice da célula:  <br/> |**visDocLangID** <br/> |
    
 

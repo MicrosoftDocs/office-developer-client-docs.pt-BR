@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Determina como a forma do grupo e seus membros são exibidos.
 ms.openlocfilehash: a49d7a38eac75a2845de0ca3ad22f7cbf79a63df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332708"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413182"
 ---
 # <a name="displaymode-cell-group-properties-section"></a>Célula DisplayMode (Seção Group Properties)
 
@@ -41,7 +41,7 @@ Para fazer referência à célula DisplayMode pelo índice, a partir de um progr
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowGroup** <br/> |
-|Índice da célula:  <br/> |**visGroupDisplayMode** <br/> |
+|Índice de linha:  <br/> |**visRowGroup** <br/> |
+|Índice de célula:  <br/> |**visGroupDisplayMode** <br/> |
    
 

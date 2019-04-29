@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 14f9bff8dbf55456c37e70e1ae7a0c236471b6c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410599"
 ---
 # <a name="mapi-address-book"></a>Catálogo de endereços MAPI
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: A propriedade Environment da classe Application Obtém uma referência a um objeto Environment, que pode ser usado para determinar qual ambiente de tempo de execução (InfoPath, navegador da Web ou navegador móvel) foi usado para abrir o formulário.
 ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299724"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408597"
 ---
 # <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Gravar lógica condicional que determina o ambiente de tempo de execução
 

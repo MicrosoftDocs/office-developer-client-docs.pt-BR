@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b4efdd8d8238d4bc7e89a1153b9be34c7af76355
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407918"
 ---
 # <a name="finding-a-profile-name"></a>Localizar um nome de perfil
 

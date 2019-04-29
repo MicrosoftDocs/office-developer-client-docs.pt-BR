@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 630efdc4da5a9064f9dd9055e3ceabc0283d6d5f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307578"
 ---
 # <a name="recordsetsort-property-dao"></a>Propriedade Recordset.Sort (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se a:** Access 2013, Office 2013
 
-Define ou retorna a ordem de classificação para registros em um objeto **[Recordset](recordset-object-dao.md)** (somente em espaços de trabalho do Microsoft Access).
+Define ou retorna a ordem de classificação dos registros em um objeto **[Recordset](recordset-object-dao.md)** (somente em espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Classificar
+*expression* .Sort
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a propriedade **Sort** com dynaset e instantâneo – objetos **Recordset** do tipo.
+Use a propriedade **Sort** com os objetos **Recordset** do tipo dynaset e snapshot.
 
 Quando você definir essa propriedade para um objeto, ocorrerá a classificação durante a criação de um objeto **Recordset** subsequente para esse objeto. A definição da propriedade **Sort** substituirá qualquer ordem de classificação especificada para um objeto **[QueryDef](querydef-object-dao.md)**.
 
 A ordem de classificação padrão é a ascendente (A a Z ou 0 a 100).
 
-A propriedade **Sort** não se aplica à tabela – ou – tipo forward only objetos **Recordset** . Para classificar um objeto **Recordset** do tipo tabela, use a propriedade **[Index](recordset-index-property-dao.md)** .
+A propriedade **Sort** não se aplica a objetos **Recordset** do tipo tabela ou somente encaminhamento. Para classificar o objeto **Recordset** do tipo tabela, use a propriedade **[Index](recordset-index-property-dao.md)**.
 
 > [!NOTE]
-> [!OBSERVAçãO] Em muitos casos, é mais rápido abrir um novo objeto **Recordset** usando uma instrução SQL que inclui os critérios de classificação.
+> Em vários casos, é mais rápido abrir um novo objeto **Recordset** usando uma instrução SQL que inclua os critérios de classificação.
 
 ## <a name="example"></a>Exemplo
 

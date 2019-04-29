@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 99380333-9bb2-4aad-87ef-4f7f5f594dcd
 description: Mostra as propriedades de qualquer efeito de preenchimento ou cor de linha de gradiente aplicado à forma. Esta seção também inclui células que controlam se o gradiente da forma gira com a forma ou se a forma assume um gradiente aplicado quando agrupado com outras formas.
 ms.openlocfilehash: e0eed4508a366c772cb9830e0fe53b57faa84c43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360218"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417312"
 ---
 # <a name="gradient-properties-section"></a>Seção Propriedades de gradiente
 

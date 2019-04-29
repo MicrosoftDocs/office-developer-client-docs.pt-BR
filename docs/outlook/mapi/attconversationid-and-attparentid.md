@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
 description: 'Última modificação: 12 de março de 2013'
 ms.openlocfilehash: c5880aefe7c2dba2e5e4c5405aae2020bb86c711
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410046"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID e attParentID
 

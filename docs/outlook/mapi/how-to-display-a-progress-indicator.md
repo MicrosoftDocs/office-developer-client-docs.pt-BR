@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7b0ce0ab75ffdce045ccde5bf6ea8a7da046f463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408023"
 ---
 # <a name="display-a-progress-indicator"></a>Exibir um indicador de progresso
  

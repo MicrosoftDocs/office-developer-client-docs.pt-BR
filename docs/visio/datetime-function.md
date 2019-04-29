@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0bf7f757-0b7f-dec1-9709-6612c9ad0d53
 description: Retorna o valor de data e hora representado por datetime ou expression.
-ms.openlocfilehash: 001430acaf9fcb670e95157380e474e12b9728cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 2da084f685c044d48495b04f727a877140b51004
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360316"
 ---
 # <a name="datetime-function"></a>Função DATETIME
 
@@ -22,27 +22,27 @@ Retorna o valor de data e hora representado por _datetime_ ou _expression_.
   
 ## <a name="syntax"></a>Sintaxe
 
-DATETIME ("* * *datetime* * *" | * * *expressão* * * [, * * *lcid* * *]) 
+DATETIME(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica o identificador de local para ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Datetime
   
 ## <a name="remarks"></a>Comentários
 
-Se *datetime* estiver faltando ou não puder ser interpretada como uma data ou hora válida, DATETIME retornará um #VALUE! erro. 
+Se a *datetime* estiver faltando ou não puder ser interpretada como uma data ou hora válida, DATETIME retornará um #VALUE! . 
   
-O valor retornado é formatado de acordo com o estilo de data e hora curtas nas Configurações regionais do sistema. 
+O valor retornado é formatado de acordo com o estilo de hora e data abreviada das atuais Configurações Regionais do sistema. 
   
-A função DATETIME também aceita um valor de número único para *expression* em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899 e a parte decimal representa a fração de um dia desde a meia-noite. 
+A função DATETIME também aceita um valor de número único para a *expression* em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899 e a parte decimal representa a fração de um dia desde a meia-noite. 
   
 ## <a name="example-1"></a>Exemplo 1
 

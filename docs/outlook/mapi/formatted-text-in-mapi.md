@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7f37d65e4beb328c2c92cf0c2ab28586af6bee45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327465"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408086"
 ---
 # <a name="formatted-text-in-mapi"></a>Texto formatado em MAPI
 

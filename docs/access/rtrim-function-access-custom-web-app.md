@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0b6cc5b2-342d-45dd-ba5e-aa29f1face48
 description: Retorna um valor de texto após truncar todos os espaços em branco à direita.
 ms.openlocfilehash: 4510ccc37399e0a10504dc39c4f455461269872d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311043"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413630"
 ---
 # <a name="rtrim-function-access-custom-web-app"></a>Função RTrim (aplicativo Web personalizado do Access)
 

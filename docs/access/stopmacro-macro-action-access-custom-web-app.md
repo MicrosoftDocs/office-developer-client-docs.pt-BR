@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: af28534b-6f0d-43ee-ae89-ee2f85da1af1
 description: Você pode usar a ação PararMacro para interromper a macro em execução no momento.
 ms.openlocfilehash: 8b80422a297647d556fb4b20cc15fb93e8853466
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429492"
 ---
 # <a name="stopmacro-macro-action-access-custom-web-app"></a>Ação da macro PararMacro (aplicativo Web personalizado do Access)
 

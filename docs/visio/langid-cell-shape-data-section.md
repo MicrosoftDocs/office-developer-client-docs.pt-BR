@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 description: Indica o idioma no qual o valor de dados de forma foi inserido.
 ms.openlocfilehash: c5a0cca5f71bc5520337ad2bdcf354a2b4affe92
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359028"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420322"
 ---
 # <a name="langid-cell-shape-data-section"></a>Célula LangID (Seção Shape Data)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula LangID pelo índice a partir de um programa, u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice da linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCustPropsLangID** <br/> |
    
 
