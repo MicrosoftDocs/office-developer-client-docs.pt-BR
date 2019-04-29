@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6973e2e6-7e7f-48ba-95b3-37c959f6ffb1
 description: Indica se os valores das células especificadas em uma forma mestre substituirão os valores (incluindo valores locais) de uma forma que está sendo substituída durante uma operação de substituição de forma. Se a célula ReplaceLockFormat de uma forma mestre for definida como TRUE (1), os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.
 ms.openlocfilehash: 88af22accb7a80640e7553338dae1af48934f246
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427231"
 ---
 # <a name="replacelockformat-cell-change-shape-behavior-section"></a>Célula ReplaceLockFormat (seção Change Shape Behavior)
 
@@ -20,7 +20,7 @@ Indica se os valores das células especificadas em uma forma mestre substituirã
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestre for definida como true, os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.  <br/> |
+|VERDADEIRO  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestre for definida como true, os valores de formatação do mestre substituirão todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.  <br/> |
 |FALSE  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestre estiver definida como false, a forma de substituição conterá os valores de formatação local da forma antiga após a operação de substituição.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -56,7 +56,7 @@ Para obter uma referência para a célula **ReplaceLockFormat** pelo índice a p
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowReplaceBehaviors** <br/> |
+| Índice de linha:  <br/> |**visRowReplaceBehaviors** <br/> |
 | Índice da célula:  <br/> |**visReplaceLockFormat** <br/> |
    
 

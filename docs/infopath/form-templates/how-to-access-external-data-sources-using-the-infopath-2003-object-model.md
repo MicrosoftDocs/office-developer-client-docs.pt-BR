@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: Ao trabalhar com um modelo de formulário do InfoPath que usa o modelo de objeto compatível com o InfoPath 2003, você pode escrever código para acessar as fontes de dados secundárias do formulário e manipular os dados que elas contêm.
 ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431677"
 ---
 # <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Acessar fontes de dados externas usando o modelo de objeto do InfoPath 2003
 
@@ -35,9 +35,9 @@ A [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTr
   
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Retorna uma contagem do número de instâncias **** de DataSourceObject contidas na coleção.  <br/> |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Retorna uma contagem do número de instâncias **** de DataSourceObject contidas na coleção.  <br/> |
 |[](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx) Método GetEnumerator  <br/> |Retorna um **IEnumerator** que pode ser usado para percorrer a coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Retorna uma referência para a instância **** DataSourceObject especificada.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Retorna uma referência para a instância **** DataSourceObject especificada.  <br/> |
    
 ## <a name="overview-of-the-datasourceobject-interface"></a>Visão geral da interface dataSourceobject
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: Ajusta o brilho de uma imagem de bitmap. Diminua o brilho de uma imagem inserindo um valor entre 0% e 49% ou aumente o brilho inserindo um valor entre 51% e 100%. O valor padrão é 50%.
 ms.openlocfilehash: ae1390d2db3adad86a8afcbeaff88172a841d030
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338021"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424788"
 ---
 # <a name="brightness-cell-image-properties-section"></a>Célula Brightness (Seção Image Properties)
 
@@ -33,7 +33,7 @@ Para fazer referência à célula Brightness pelo índice a partir de um program
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowImage** <br/> |
-| Índice da célula:  <br/> |**visImageBrightness** <br/> |
+| Índice de linha:  <br/> |**visRowImage** <br/> |
+| Índice de célula:  <br/> |**visImageBrightness** <br/> |
    
 

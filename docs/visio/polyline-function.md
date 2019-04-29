@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
 description: Retorna uma polilinha. Essa função é usada na célula A de linhas geométricas de poliLinhato.
 ms.openlocfilehash: d801c6f2c1a81cc5cc99b3517c4d86784421d7e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348273"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426293"
 ---
 # <a name="polyline-function"></a>Função POLYLINE
 
@@ -26,7 +26,7 @@ POLYLINE (* * *xType* * *, * * *yType* * *, * * *X1* * *, * * *Y1* * *...)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _xType_ <br/> |Obrigatório  <br/> |**Boolean** <br/> |Especifica como interpretar os dados de entrada _x_ . Se _xType_ for 0, os dados de entrada _x_serão interpretados como uma porcentagem de largura. Se _xType_ for 1, os dados _x_-Input serão interpretados como uma coordenada local.  <br/> |
 | _yType_ <br/> |Obrigatório  <br/> |**Boolean** <br/> |Especifica como interpretar os dados de entrada _y_. Se _yType_ for 0, os dados _y_de entrada serão interpretados como uma porcentagem da altura. Se _yType_ for 1, os dados _y_de entrada serão interpretados como uma coordenada local.  <br/> |

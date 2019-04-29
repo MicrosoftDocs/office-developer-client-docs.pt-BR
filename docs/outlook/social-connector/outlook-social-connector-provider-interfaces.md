@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8f92b2c7-9f47-4c84-874b-fec1a2a5b555
 description: 'O Outlook Social Connector (OCS) é um recurso do Office compartilhado pelos aplicativos cliente do Office que se conecta a redes empresariais e sociais para que usuários possam se manter em contato com as pessoas das suas redes sem sair do Office. '
 ms.openlocfilehash: 77759db34f63239473e0682cfaca720860e96768
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359847"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422807"
 ---
 # <a name="outlook-social-connector-provider-interfaces"></a>Interfaces do provedor do Outlook Social Connector
 

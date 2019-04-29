@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3f1e8291-6153-c308-94be-ca6745ea86a4
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c417e6f4412bc40e8c2ebc056514eb96f60798f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282674"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426804"
 ---
 # <a name="skey"></a>SKEY
 

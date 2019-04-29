@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 01d5ae3fd06d570e15336fad9538f01e586cd0f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431600"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Suporte a texto formatado em mensagens de saída: responsabilidades do cliente
 

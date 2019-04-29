@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356711"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431663"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriedade canônica PidTagRecipientCertificate
 
