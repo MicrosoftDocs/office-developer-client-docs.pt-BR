@@ -9,21 +9,21 @@ localization_priority: Normal
 ms.assetid: f4fef896-0803-4fdb-a40b-34bf15e20e4b
 description: No momento, este método não tem suporte.
 ms.openlocfilehash: 430fa8f73a47eda1bd1cb8caff7917508f76ffa7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285748"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412006"
 ---
-# <a name="isocialprovidergetstatussettings"></a><span data-ttu-id="6c5ad-103">ISocialProvider::GetStatusSettings</span><span class="sxs-lookup"><span data-stu-id="6c5ad-103">ISocialProvider::GetStatusSettings</span></span>
+# <a name="isocialprovidergetstatussettings"></a><span data-ttu-id="565f2-103">ISocialProvider::GetStatusSettings</span><span class="sxs-lookup"><span data-stu-id="565f2-103">ISocialProvider::GetStatusSettings</span></span>
 
-<span data-ttu-id="6c5ad-104">No momento, este método não tem suporte.</span><span class="sxs-lookup"><span data-stu-id="6c5ad-104">This method is currently not supported.</span></span> 
+<span data-ttu-id="565f2-104">No momento, este método não tem suporte.</span><span class="sxs-lookup"><span data-stu-id="565f2-104">This method is currently not supported.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetStatusSettings([out] BSTR* statusDefault, [out] int* maxStatusLength);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6c5ad-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="6c5ad-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="565f2-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="565f2-105">See also</span></span>
 
-- [<span data-ttu-id="6c5ad-106">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6c5ad-106">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="565f2-106">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="565f2-106">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

@@ -10,36 +10,36 @@ localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: Protege a expressão contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, movimentação, dimensionamento, agrupamento ou desagrupamento de formas.
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360190"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408149"
 ---
-# <a name="guard-function"></a><span data-ttu-id="f2342-103">Função GUARD</span><span class="sxs-lookup"><span data-stu-id="f2342-103">GUARD Function</span></span>
+# <a name="guard-function"></a><span data-ttu-id="c5f28-103">Função GUARD</span><span class="sxs-lookup"><span data-stu-id="c5f28-103">GUARD Function</span></span>
 
-<span data-ttu-id="f2342-104">Protege a *expressão* contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, movimentação, dimensionamento, agrupamento ou desagrupamento de formas.</span><span class="sxs-lookup"><span data-stu-id="f2342-104">Protects  *expression*  from deletion and change by actions performed in the drawing window, for example, moving, sizing, grouping, or ungrouping shapes.</span></span> 
+<span data-ttu-id="c5f28-104">Protege a *expressão* contra exclusão e alteração por ações executadas na janela de desenho, por exemplo, movimentação, dimensionamento, agrupamento ou desagrupamento de formas.</span><span class="sxs-lookup"><span data-stu-id="c5f28-104">Protects  *expression*  from deletion and change by actions performed in the drawing window, for example, moving, sizing, grouping, or ungrouping shapes.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f2342-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f2342-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c5f28-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c5f28-105">Syntax</span></span>
 
-<span data-ttu-id="f2342-106">PROTEÇÃO (\* \* *expressão* \* \*)</span><span class="sxs-lookup"><span data-stu-id="f2342-106">GUARD(\*\* *expression* \*\* )</span></span> 
+<span data-ttu-id="c5f28-106">PROTEÇÃO (\* \* *expressão* \* \*)</span><span class="sxs-lookup"><span data-stu-id="c5f28-106">GUARD(\*\* *expression* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="f2342-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f2342-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c5f28-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c5f28-107">Parameters</span></span>
 
-|<span data-ttu-id="f2342-108">**Nome**</span><span class="sxs-lookup"><span data-stu-id="f2342-108">**Name**</span></span>|<span data-ttu-id="f2342-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="f2342-109">**Required/Optional**</span></span>|<span data-ttu-id="f2342-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="f2342-110">**Data Type**</span></span>|<span data-ttu-id="f2342-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f2342-111">**Description**</span></span>|
+|<span data-ttu-id="c5f28-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="c5f28-108">**Name**</span></span>|<span data-ttu-id="c5f28-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="c5f28-109">**Required/Optional**</span></span>|<span data-ttu-id="c5f28-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="c5f28-110">**Data Type**</span></span>|<span data-ttu-id="c5f28-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c5f28-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f2342-112">_expressão_</span><span class="sxs-lookup"><span data-stu-id="f2342-112">_expression_</span></span> <br/> |<span data-ttu-id="f2342-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="f2342-113">Required</span></span>  <br/> |<span data-ttu-id="f2342-114">**String**</span><span class="sxs-lookup"><span data-stu-id="f2342-114">**String**</span></span> <br/> |<span data-ttu-id="f2342-115">Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.</span><span class="sxs-lookup"><span data-stu-id="f2342-115">A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value.</span></span>  <br/> |
+| <span data-ttu-id="c5f28-112">_expressão_</span><span class="sxs-lookup"><span data-stu-id="c5f28-112">_expression_</span></span> <br/> |<span data-ttu-id="c5f28-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="c5f28-113">Required</span></span>  <br/> |<span data-ttu-id="c5f28-114">**Cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="c5f28-114">**String**</span></span> <br/> |<span data-ttu-id="c5f28-115">Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.</span><span class="sxs-lookup"><span data-stu-id="c5f28-115">A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f2342-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="f2342-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c5f28-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="c5f28-116">Remarks</span></span>
 
-<span data-ttu-id="f2342-117">As células normalmente afetadas pela função GUARD são Width, Height, PinX e PinY.</span><span class="sxs-lookup"><span data-stu-id="f2342-117">The cells most often affected by the GUARD function are Width, Height, PinX, and PinY.</span></span> 
+<span data-ttu-id="c5f28-117">As células normalmente afetadas pela função GUARD são Width, Height, PinX e PinY.</span><span class="sxs-lookup"><span data-stu-id="c5f28-117">The cells most often affected by the GUARD function are Width, Height, PinX, and PinY.</span></span> 
   
-<span data-ttu-id="f2342-p101">Proteger uma fórmula em qualquer célula evita que o valor da célula seja alterado por ações executadas na janela de desenho. No entanto, uma ação na janela de desenho pode afetar diversas células e cada uma dessas células deve estar protegida caso você deseje evitar alterações inesperadas na aparência da forma.</span><span class="sxs-lookup"><span data-stu-id="f2342-p101">Guarding a formula in any cell prevents that cell's value from being changed by actions in the drawing window. However, one action in the drawing window can affect several cells, and each of these cells must be guarded if you want to prevent unexpected changes to the shape's appearance.</span></span> 
+<span data-ttu-id="c5f28-p101">Proteger uma fórmula em qualquer célula evita que o valor da célula seja alterado por ações executadas na janela de desenho. No entanto, uma ação na janela de desenho pode afetar diversas células e cada uma dessas células deve estar protegida caso você deseje evitar alterações inesperadas na aparência da forma.</span><span class="sxs-lookup"><span data-stu-id="c5f28-p101">Guarding a formula in any cell prevents that cell's value from being changed by actions in the drawing window. However, one action in the drawing window can affect several cells, and each of these cells must be guarded if you want to prevent unexpected changes to the shape's appearance.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="f2342-120">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f2342-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c5f28-120">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c5f28-120">Example</span></span>
 
-<span data-ttu-id="f2342-121">GUARD(TEXTWIDTH(TheText) + 0,5 pol.)</span><span class="sxs-lookup"><span data-stu-id="f2342-121">GUARD(TEXTWIDTH(TheText) + 0.5 in)</span></span> 
+<span data-ttu-id="c5f28-121">GUARD(TEXTWIDTH(TheText) + 0,5 pol.)</span><span class="sxs-lookup"><span data-stu-id="c5f28-121">GUARD(TEXTWIDTH(TheText) + 0.5 in)</span></span> 
   
-<span data-ttu-id="f2342-p102">Esta expressão na célula Width de uma seção Shape Transform de uma forma impede que a expressão (TEXTWIDTH(TheText) + 0,5 pol.) seja substituída por outro valor quando a largura da forma for alterada na janela de desenho. TheText é uma célula disparada quando a composição do texto da forma associada é alterada.</span><span class="sxs-lookup"><span data-stu-id="f2342-p102">This expression in the Width cell of a shape's Shape Transform section prevents the expression (TEXTWIDTH(TheText) + 0.5 in) from being replaced with another value when the shape's width is changed in the drawing window. TheText is a cell that gets triggered when the associated shape's text composition changes.</span></span> 
+<span data-ttu-id="c5f28-p102">Esta expressão na célula Width de uma seção Shape Transform de uma forma impede que a expressão (TEXTWIDTH(TheText) + 0,5 pol.) seja substituída por outro valor quando a largura da forma for alterada na janela de desenho. TheText é uma célula disparada quando a composição do texto da forma associada é alterada.</span><span class="sxs-lookup"><span data-stu-id="c5f28-p102">This expression in the Width cell of a shape's Shape Transform section prevents the expression (TEXTWIDTH(TheText) + 0.5 in) from being replaced with another value when the shape's width is changed in the drawing window. TheText is a cell that gets triggered when the associated shape's text composition changes.</span></span> 
   
 
