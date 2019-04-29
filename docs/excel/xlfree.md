@@ -12,42 +12,42 @@ localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310217"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424711"
 ---
-# <a name="xlfree"></a><span data-ttu-id="58856-104">xlFree</span><span class="sxs-lookup"><span data-stu-id="58856-104">xlFree</span></span>
+# <a name="xlfree"></a><span data-ttu-id="fb0df-104">xlFree</span><span class="sxs-lookup"><span data-stu-id="fb0df-104">xlFree</span></span>
 
- <span data-ttu-id="58856-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="58856-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="fb0df-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fb0df-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="58856-106">Usado para liberar recursos de memória alocados pelo Microsoft Excel ao criar o valor de retorno **XLOPER**/ **XLOPER12** em uma chamada para [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)ou [Excel12v](excel4v-excel12v.md).</span><span class="sxs-lookup"><span data-stu-id="58856-106">Used to free memory resources allocated by Microsoft Excel when creating the return value **XLOPER**/ **XLOPER12** in a call to [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md), or [Excel12v](excel4v-excel12v.md).</span></span> <span data-ttu-id="58856-107">A função **xlFree** libera a memória auxiliar e redefine o ponteiro como **NULL** , mas não destrói outras partes do **XLOPER**/ **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="58856-107">The **xlFree** function frees the auxiliary memory and resets the pointer to **NULL** but does not destroy other parts of the **XLOPER**/ **XLOPER12**.</span></span>
+<span data-ttu-id="fb0df-106">Usado para liberar recursos de memória alocados pelo Microsoft Excel ao criar o valor de retorno **XLOPER**/ **XLOPER12** em uma chamada para [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)ou [Excel12v](excel4v-excel12v.md).</span><span class="sxs-lookup"><span data-stu-id="fb0df-106">Used to free memory resources allocated by Microsoft Excel when creating the return value **XLOPER**/ **XLOPER12** in a call to [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md), or [Excel12v](excel4v-excel12v.md).</span></span> <span data-ttu-id="fb0df-107">A função **xlFree** libera a memória auxiliar e redefine o ponteiro como **NULL** , mas não destrói outras partes do **XLOPER**/ **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="fb0df-107">The **xlFree** function frees the auxiliary memory and resets the pointer to **NULL** but does not destroy other parts of the **XLOPER**/ **XLOPER12**.</span></span>
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="58856-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="58856-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fb0df-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="fb0df-108">Parameters</span></span>
 
- <span data-ttu-id="58856-109">_px_1,..., px_n_</span><span class="sxs-lookup"><span data-stu-id="58856-109">_px_1, ..., px_n_</span></span>
+ <span data-ttu-id="fb0df-109">_px_1,..., px_n_</span><span class="sxs-lookup"><span data-stu-id="fb0df-109">_px_1, ..., px_n_</span></span>
   
-<span data-ttu-id="58856-110">Um ou mais **XLOPER**/ **XLOPER12**s a serem liberados.</span><span class="sxs-lookup"><span data-stu-id="58856-110">One or more **XLOPER**/ **XLOPER12**s to be freed.</span></span> <span data-ttu-id="58856-111">Em versões do Excel até 2003, o número máximo de ponteiros que podem ser passados é 30.</span><span class="sxs-lookup"><span data-stu-id="58856-111">In Excel versions up to 2003, the maximum number of pointers that can be passed is 30.</span></span> <span data-ttu-id="58856-112">A partir do Excel 2007, isso é aumentado para 255.</span><span class="sxs-lookup"><span data-stu-id="58856-112">Starting in Excel 2007, this is increased to 255.</span></span>
+<span data-ttu-id="fb0df-110">Um ou mais **XLOPER**/ **XLOPER12**s a serem liberados.</span><span class="sxs-lookup"><span data-stu-id="fb0df-110">One or more **XLOPER**/ **XLOPER12**s to be freed.</span></span> <span data-ttu-id="fb0df-111">Em versões do Excel até 2003, o número máximo de ponteiros que podem ser passados é 30.</span><span class="sxs-lookup"><span data-stu-id="fb0df-111">In Excel versions up to 2003, the maximum number of pointers that can be passed is 30.</span></span> <span data-ttu-id="fb0df-112">A partir do Excel 2007, isso é aumentado para 255.</span><span class="sxs-lookup"><span data-stu-id="fb0df-112">Starting in Excel 2007, this is increased to 255.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="58856-113">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="58856-113">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="fb0df-113">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="fb0df-113">Property value/Return value</span></span>
 
-<span data-ttu-id="58856-114">Essa função não retorna um valor.</span><span class="sxs-lookup"><span data-stu-id="58856-114">This function does not return a value.</span></span>
+<span data-ttu-id="fb0df-114">Essa função não retorna um valor.</span><span class="sxs-lookup"><span data-stu-id="fb0df-114">This function does not return a value.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="58856-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="58856-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb0df-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="fb0df-115">Remarks</span></span>
 
-<span data-ttu-id="58856-116">Você deve liberar todos os **XLOPER** que você obtém como um valor de retorno de **Excel4** ou **Excel4v** e todos os **XLOPER12** que você obtém como um valor de retorno de **Excel12** ou **Excel12v** se eles forem um dos seguintes tipos: \*\*xltypeStr \*\*, **XltypeMulti**ou **xltypeRef**.</span><span class="sxs-lookup"><span data-stu-id="58856-116">You must free every **XLOPER** that you get as a return value from **Excel4** or **Excel4v** and every **XLOPER12** that you get as a return value from **Excel12** or **Excel12v** if they are one of the following types: **xltypeStr**, **xltypeMulti**, or **xltypeRef**.</span></span> <span data-ttu-id="58856-117">É sempre seguro liberar outros tipos, mesmo se eles não usarem memória auxiliar, desde que você os tenha obtido do **Excel4** ou do **Excel12**.</span><span class="sxs-lookup"><span data-stu-id="58856-117">It is always safe to free other types even if they do not use auxiliary memory, as long as you got them from **Excel4** or **Excel12**.</span></span>
+<span data-ttu-id="fb0df-116">Você deve liberar todos os **XLOPER** que você obtém como um valor de retorno de **Excel4** ou **Excel4v** e todos os **XLOPER12** que você obtém como um valor de retorno de **Excel12** ou **Excel12v** se eles forem um dos seguintes tipos: \*\*xltypeStr \*\*, **XltypeMulti**ou **xltypeRef**.</span><span class="sxs-lookup"><span data-stu-id="fb0df-116">You must free every **XLOPER** that you get as a return value from **Excel4** or **Excel4v** and every **XLOPER12** that you get as a return value from **Excel12** or **Excel12v** if they are one of the following types: **xltypeStr**, **xltypeMulti**, or **xltypeRef**.</span></span> <span data-ttu-id="fb0df-117">É sempre seguro liberar outros tipos, mesmo se eles não usarem memória auxiliar, desde que você os tenha obtido do **Excel4** ou do **Excel12**.</span><span class="sxs-lookup"><span data-stu-id="fb0df-117">It is always safe to free other types even if they do not use auxiliary memory, as long as you got them from **Excel4** or **Excel12**.</span></span>
   
-<span data-ttu-id="58856-118">Onde você está retornando ao Excel um ponteiro para um **XLOPER**/ **XLOPER12** que ainda contém memória alocada no Excel para ser liberado, você deve definir o **xlbitXLFree** para garantir que o Excel libere a memória.</span><span class="sxs-lookup"><span data-stu-id="58856-118">Where you are returning to Excel a pointer to an **XLOPER**/ **XLOPER12** that still contains Excel-allocated memory to be freed, you must set the **xlbitXLFree** to ensure Excel releases the memory.</span></span> 
+<span data-ttu-id="fb0df-118">Onde você está retornando ao Excel um ponteiro para um **XLOPER**/ **XLOPER12** que ainda contém memória alocada no Excel para ser liberado, você deve definir o **xlbitXLFree** para garantir que o Excel libere a memória.</span><span class="sxs-lookup"><span data-stu-id="fb0df-118">Where you are returning to Excel a pointer to an **XLOPER**/ **XLOPER12** that still contains Excel-allocated memory to be freed, you must set the **xlbitXLFree** to ensure Excel releases the memory.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="58856-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="58856-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fb0df-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="fb0df-119">Example</span></span>
 
-<span data-ttu-id="58856-120">Este exemplo chama **Get. WORKSPACE (1)** para retornar a plataforma na qual o Excel está atualmente em execução como uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="58856-120">This example calls **GET.WORKSPACE(1)** to return the platform on which Excel is currently running as a string.</span></span> <span data-ttu-id="58856-121">O código copia essa cadeia de caracteres retornada para um buffer para uso posterior.</span><span class="sxs-lookup"><span data-stu-id="58856-121">The code copies this returned string into a buffer for later use.</span></span> <span data-ttu-id="58856-122">O código coloca o buffer de volta no **XLOPER12** para uso posterior com a função do Excel.</span><span class="sxs-lookup"><span data-stu-id="58856-122">The code places the buffer back into the **XLOPER12** for later use with the Excel function.</span></span> <span data-ttu-id="58856-123">Por fim, o código exibe a cadeia de caracteres em uma caixa de alerta.</span><span class="sxs-lookup"><span data-stu-id="58856-123">Finally, the code displays the string in an alert box.</span></span> 
+<span data-ttu-id="fb0df-120">Este exemplo chama **Get. WORKSPACE (1)** para retornar a plataforma na qual o Excel está atualmente em execução como uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="fb0df-120">This example calls **GET.WORKSPACE(1)** to return the platform on which Excel is currently running as a string.</span></span> <span data-ttu-id="fb0df-121">O código copia essa cadeia de caracteres retornada para um buffer para uso posterior.</span><span class="sxs-lookup"><span data-stu-id="fb0df-121">The code copies this returned string into a buffer for later use.</span></span> <span data-ttu-id="fb0df-122">O código coloca o buffer de volta no **XLOPER12** para uso posterior com a função do Excel.</span><span class="sxs-lookup"><span data-stu-id="fb0df-122">The code places the buffer back into the **XLOPER12** for later use with the Excel function.</span></span> <span data-ttu-id="fb0df-123">Por fim, o código exibe a cadeia de caracteres em uma caixa de alerta.</span><span class="sxs-lookup"><span data-stu-id="fb0df-123">Finally, the code displays the string in an alert box.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -87,7 +87,7 @@ short WINAPI xlFreeExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="58856-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="58856-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb0df-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="fb0df-124">See also</span></span>
 
-- [<span data-ttu-id="58856-125">Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="58856-125">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="fb0df-125">Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="fb0df-125">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

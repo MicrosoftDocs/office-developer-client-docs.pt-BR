@@ -8,21 +8,21 @@ localization_priority: Normal
 ms.assetid: 6f2520c0-d2e2-470a-90b5-c4bca789bb73
 description: Mostra os valores atuais do ângulo de rotação de uma forma ao longo dos eixos x-, y-e z.
 ms.openlocfilehash: 03ecf92de66324157dc6a9003e943dbb33cb8aa5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421099"
 ---
-# <a name="3-d-rotation-properties-section"></a><span data-ttu-id="b1e85-103">Seção 3-D Rotation Properties</span><span class="sxs-lookup"><span data-stu-id="b1e85-103">3-D Rotation Properties Section</span></span>
+# <a name="3-d-rotation-properties-section"></a><span data-ttu-id="8096c-103">Seção 3-D Rotation Properties</span><span class="sxs-lookup"><span data-stu-id="8096c-103">3-D Rotation Properties Section</span></span>
 
-<span data-ttu-id="b1e85-104">Mostra os valores atuais do ângulo de rotação de uma forma ao longo dos eixos x-, y-e z.</span><span class="sxs-lookup"><span data-stu-id="b1e85-104">Shows the current values of a shape's angle of rotation along the x-, y-, and z-axes.</span></span>
+<span data-ttu-id="8096c-104">Mostra os valores atuais do ângulo de rotação de uma forma ao longo dos eixos x-, y-e z.</span><span class="sxs-lookup"><span data-stu-id="8096c-104">Shows the current values of a shape's angle of rotation along the x-, y-, and z-axes.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b1e85-105">A seção 3-D Rotation Properties não inclui células que controlam os efeitos de bisel da forma.</span><span class="sxs-lookup"><span data-stu-id="b1e85-105">The 3-D Rotation Properties section does not include cells that control shape bevel effects.</span></span> <span data-ttu-id="b1e85-106">Para definir um efeito de bisel, altere os valores das células na seção [Propriedades de bisel](bevel-properties-section.md) .</span><span class="sxs-lookup"><span data-stu-id="b1e85-106">To set a bevel effect, change the values of the cells in the [Bevel Properties](bevel-properties-section.md) section.</span></span> 
+> <span data-ttu-id="8096c-105">A seção 3-D Rotation Properties não inclui células que controlam os efeitos de bisel da forma.</span><span class="sxs-lookup"><span data-stu-id="8096c-105">The 3-D Rotation Properties section does not include cells that control shape bevel effects.</span></span> <span data-ttu-id="8096c-106">Para definir um efeito de bisel, altere os valores das células na seção [Propriedades de bisel](bevel-properties-section.md) .</span><span class="sxs-lookup"><span data-stu-id="8096c-106">To set a bevel effect, change the values of the cells in the [Bevel Properties](bevel-properties-section.md) section.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="b1e85-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="b1e85-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8096c-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="8096c-107">Remarks</span></span>
 
-<span data-ttu-id="b1e85-108">Você pode alterar os valores de rotação 3D na caixa de **diálogo Formatar forma** (**estilos** > de forma**inicial** > **efeitos** > de**3D de rotação** ou fazendo uma alteração em uma das células nas propriedades de \*\*rotação 3D \*\*seção.</span><span class="sxs-lookup"><span data-stu-id="b1e85-108">You can change the 3-D rotation values in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects** > **3-D Rotation** or by making a change to one of the cells in the **3-D Rotation Properties** section.</span></span> 
+<span data-ttu-id="8096c-108">Você pode alterar os valores de rotação 3D na caixa de **diálogo Formatar forma** (**estilos** > de forma**inicial** > **efeitos** > de**3D de rotação** ou fazendo uma alteração em uma das células nas propriedades de \*\*rotação 3D \*\*seção.</span><span class="sxs-lookup"><span data-stu-id="8096c-108">You can change the 3-D rotation values in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects** > **3-D Rotation** or by making a change to one of the cells in the **3-D Rotation Properties** section.</span></span> 
   
 
