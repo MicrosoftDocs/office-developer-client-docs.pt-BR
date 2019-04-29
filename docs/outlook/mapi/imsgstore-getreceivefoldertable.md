@@ -13,19 +13,19 @@ api_type:
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 303c2ef855d5cfc1d6614bda92b46c2da97717c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317350"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421351"
 ---
-# <a name="imsgstoregetreceivefoldertable"></a><span data-ttu-id="6ac9e-103">IMsgStore::GetReceiveFolderTable</span><span class="sxs-lookup"><span data-stu-id="6ac9e-103">IMsgStore::GetReceiveFolderTable</span></span>
+# <a name="imsgstoregetreceivefoldertable"></a><span data-ttu-id="06bf0-103">IMsgStore::GetReceiveFolderTable</span><span class="sxs-lookup"><span data-stu-id="06bf0-103">IMsgStore::GetReceiveFolderTable</span></span>
 
   
   
-<span data-ttu-id="6ac9e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6ac9e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="06bf0-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06bf0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6ac9e-105">Fornece acesso à tabela de pastas de recebimento, uma tabela que inclui informações sobre todas as pastas de recebimento do repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-105">Provides access to the receive folder table, a table that includes information about all of the receive folders for the message store.</span></span>
+<span data-ttu-id="06bf0-105">Fornece acesso à tabela de pastas de recebimento, uma tabela que inclui informações sobre todas as pastas de recebimento do repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="06bf0-105">Provides access to the receive folder table, a table that includes information about all of the receive folders for the message store.</span></span>
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -33,66 +33,66 @@ HRESULT GetReceiveFolderTable(
   LPMAPITABLE FAR * lppTable );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6ac9e-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="6ac9e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="06bf0-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="06bf0-106">Parameters</span></span>
 
- <span data-ttu-id="6ac9e-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="6ac9e-107">_ulFlags_</span></span>
+ <span data-ttu-id="06bf0-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="06bf0-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="6ac9e-108">no Uma bitmask de sinalizadores que controlam O acesso à tabela.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-108">[in] A bitmask of flags that controls table access.</span></span> <span data-ttu-id="6ac9e-109">Os seguintes sinalizadores podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="6ac9e-109">The following flags can be set:</span></span>
+> <span data-ttu-id="06bf0-108">no Uma bitmask de sinalizadores que controlam O acesso à tabela.</span><span class="sxs-lookup"><span data-stu-id="06bf0-108">[in] A bitmask of flags that controls table access.</span></span> <span data-ttu-id="06bf0-109">Os seguintes sinalizadores podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="06bf0-109">The following flags can be set:</span></span>
     
-<span data-ttu-id="6ac9e-110">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="6ac9e-110">MAPI_DEFERRED_ERRORS</span></span> 
+<span data-ttu-id="06bf0-110">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="06bf0-110">MAPI_DEFERRED_ERRORS</span></span> 
   
-> <span data-ttu-id="6ac9e-111">Permite que o **GetReceiveFolderTable** seja retornado com êxito, possivelmente antes de a tabela ficar totalmente disponível para o chamador.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-111">Allows **GetReceiveFolderTable** to return successfully, possibly before the table is fully available to the caller.</span></span> <span data-ttu-id="6ac9e-112">Se a tabela não estiver totalmente disponível, fazer uma chamada de tabela subsequente poderá gerar um erro.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-112">If the table is not fully available, making a subsequent table call can raise an error.</span></span> 
+> <span data-ttu-id="06bf0-111">Permite que o **GetReceiveFolderTable** seja retornado com êxito, possivelmente antes de a tabela ficar totalmente disponível para o chamador.</span><span class="sxs-lookup"><span data-stu-id="06bf0-111">Allows **GetReceiveFolderTable** to return successfully, possibly before the table is fully available to the caller.</span></span> <span data-ttu-id="06bf0-112">Se a tabela não estiver totalmente disponível, fazer uma chamada de tabela subsequente poderá gerar um erro.</span><span class="sxs-lookup"><span data-stu-id="06bf0-112">If the table is not fully available, making a subsequent table call can raise an error.</span></span> 
     
-<span data-ttu-id="6ac9e-113">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="6ac9e-113">MAPI_UNICODE</span></span> 
+<span data-ttu-id="06bf0-113">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="06bf0-113">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="6ac9e-114">As cadeias de caracteres retornadas estão no formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-114">The returned strings are in Unicode format.</span></span> <span data-ttu-id="6ac9e-115">Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-115">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="06bf0-114">As cadeias de caracteres retornadas estão no formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="06bf0-114">The returned strings are in Unicode format.</span></span> <span data-ttu-id="06bf0-115">Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="06bf0-115">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
- <span data-ttu-id="6ac9e-116">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="6ac9e-116">_lppTable_</span></span>
+ <span data-ttu-id="06bf0-116">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="06bf0-116">_lppTable_</span></span>
   
-> <span data-ttu-id="6ac9e-117">bota Um ponteiro para um ponteiro para a tabela de pastas de recebimento.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-117">[out] A pointer to a pointer to the receive folder table.</span></span>
+> <span data-ttu-id="06bf0-117">bota Um ponteiro para um ponteiro para a tabela de pastas de recebimento.</span><span class="sxs-lookup"><span data-stu-id="06bf0-117">[out] A pointer to a pointer to the receive folder table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6ac9e-118">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="6ac9e-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="06bf0-118">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="06bf0-118">Return value</span></span>
 
-<span data-ttu-id="6ac9e-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="6ac9e-119">S_OK</span></span> 
+<span data-ttu-id="06bf0-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="06bf0-119">S_OK</span></span> 
   
-> <span data-ttu-id="6ac9e-120">A tabela de pastas de recebimento foi retornada com êxito.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-120">The receive folder table was successfully returned.</span></span>
+> <span data-ttu-id="06bf0-120">A tabela de pastas de recebimento foi retornada com êxito.</span><span class="sxs-lookup"><span data-stu-id="06bf0-120">The receive folder table was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="6ac9e-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="6ac9e-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="06bf0-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="06bf0-121">Remarks</span></span>
 
-<span data-ttu-id="6ac9e-122">O método **IMsgStore:: GetReceiveFolderTable** fornece acesso a uma tabela que mostra as configurações de propriedade de todas as pastas de recebimento do repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-122">The **IMsgStore::GetReceiveFolderTable** method provides access to a table that shows the property settings for all of the message store's receive folders.</span></span> 
+<span data-ttu-id="06bf0-122">O método **IMsgStore:: GetReceiveFolderTable** fornece acesso a uma tabela que mostra as configurações de propriedade de todas as pastas de recebimento do repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="06bf0-122">The **IMsgStore::GetReceiveFolderTable** method provides access to a table that shows the property settings for all of the message store's receive folders.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="6ac9e-123">Observações para implementadores</span><span class="sxs-lookup"><span data-stu-id="6ac9e-123">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="06bf0-123">Observações para implementadores</span><span class="sxs-lookup"><span data-stu-id="06bf0-123">Notes to implementers</span></span>
 
-<span data-ttu-id="6ac9e-124">Para obter uma lista de colunas obrigatórias em uma tabela de pastas de recebimento, consulte [Receive Folder Tables](receive-folder-tables.md).</span><span class="sxs-lookup"><span data-stu-id="6ac9e-124">For a list of required columns in a receive folder table, see [Receive Folder Tables](receive-folder-tables.md).</span></span> 
+<span data-ttu-id="06bf0-124">Para obter uma lista de colunas obrigatórias em uma tabela de pastas de recebimento, consulte [Receive Folder Tables](receive-folder-tables.md).</span><span class="sxs-lookup"><span data-stu-id="06bf0-124">For a list of required columns in a receive folder table, see [Receive Folder Tables](receive-folder-tables.md).</span></span> 
   
-<span data-ttu-id="6ac9e-125">Implemente suas tabelas de pastas de recebimento para suportar a definição de restrições de propriedade na propriedade **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="6ac9e-125">Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property.</span></span> <span data-ttu-id="6ac9e-126">Isso permite o acesso fácil a pastas de recebimento específicas.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-126">This enables easy access to particular receive folders.</span></span>
+<span data-ttu-id="06bf0-125">Implemente suas tabelas de pastas de recebimento para suportar a definição de restrições de propriedade na propriedade **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="06bf0-125">Implement your receive folder tables to support setting property restrictions on the **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property.</span></span> <span data-ttu-id="06bf0-126">Isso permite o acesso fácil a pastas de recebimento específicas.</span><span class="sxs-lookup"><span data-stu-id="06bf0-126">This enables easy access to particular receive folders.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="6ac9e-127">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="6ac9e-127">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="06bf0-127">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="06bf0-127">Notes to callers</span></span>
 
-<span data-ttu-id="6ac9e-128">Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) .</span><span class="sxs-lookup"><span data-stu-id="6ac9e-128">Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the format of the columns returned from the [IMAPITable::QueryColumns](imapitable-querycolumns.md) and [IMAPITable::QueryRows](imapitable-queryrows.md) methods.</span></span> <span data-ttu-id="6ac9e-129">Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) .</span><span class="sxs-lookup"><span data-stu-id="6ac9e-129">This flag also controls the property types in the sort order returned by the [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) method.</span></span> 
+<span data-ttu-id="06bf0-128">Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) .</span><span class="sxs-lookup"><span data-stu-id="06bf0-128">Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the format of the columns returned from the [IMAPITable::QueryColumns](imapitable-querycolumns.md) and [IMAPITable::QueryRows](imapitable-queryrows.md) methods.</span></span> <span data-ttu-id="06bf0-129">Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) .</span><span class="sxs-lookup"><span data-stu-id="06bf0-129">This flag also controls the property types in the sort order returned by the [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) method.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6ac9e-130">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="6ac9e-130">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="06bf0-130">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="06bf0-130">MFCMAPI reference</span></span>
 
-<span data-ttu-id="6ac9e-131">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-131">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="06bf0-131">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="06bf0-131">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="6ac9e-132">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="6ac9e-132">**File**</span></span>|<span data-ttu-id="6ac9e-133">**Função**</span><span class="sxs-lookup"><span data-stu-id="6ac9e-133">**Function**</span></span>|<span data-ttu-id="6ac9e-134">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="6ac9e-134">**Comment**</span></span>|
+|<span data-ttu-id="06bf0-132">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="06bf0-132">**File**</span></span>|<span data-ttu-id="06bf0-133">**Função**</span><span class="sxs-lookup"><span data-stu-id="06bf0-133">**Function**</span></span>|<span data-ttu-id="06bf0-134">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="06bf0-134">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="6ac9e-135">MsgStoreDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="6ac9e-135">MsgStoreDlg.cpp</span></span>  <br/> |<span data-ttu-id="6ac9e-136">CMsgStoreDlg:: OnDisplayReceiveFolderTable</span><span class="sxs-lookup"><span data-stu-id="6ac9e-136">CMsgStoreDlg::OnDisplayReceiveFolderTable</span></span>  <br/> |<span data-ttu-id="6ac9e-137">MFCMAPI usa o método **IMsgStore:: GetReceiveFolderTable** para obter a exibição da tabela de pastas de recebimento.</span><span class="sxs-lookup"><span data-stu-id="6ac9e-137">MFCMAPI uses the **IMsgStore::GetReceiveFolderTable** method to get the receive folder table to display.</span></span>  <br/> |
+|<span data-ttu-id="06bf0-135">MsgStoreDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="06bf0-135">MsgStoreDlg.cpp</span></span>  <br/> |<span data-ttu-id="06bf0-136">CMsgStoreDlg:: OnDisplayReceiveFolderTable</span><span class="sxs-lookup"><span data-stu-id="06bf0-136">CMsgStoreDlg::OnDisplayReceiveFolderTable</span></span>  <br/> |<span data-ttu-id="06bf0-137">MFCMAPI usa o método **IMsgStore:: GetReceiveFolderTable** para obter a exibição da tabela de pastas de recebimento.</span><span class="sxs-lookup"><span data-stu-id="06bf0-137">MFCMAPI uses the **IMsgStore::GetReceiveFolderTable** method to get the receive folder table to display.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6ac9e-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="6ac9e-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="06bf0-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="06bf0-138">See also</span></span>
 
 
 
-[<span data-ttu-id="6ac9e-139">IMAPITable::QueryColumns</span><span class="sxs-lookup"><span data-stu-id="6ac9e-139">IMAPITable::QueryColumns</span></span>](imapitable-querycolumns.md)
+[<span data-ttu-id="06bf0-139">IMAPITable::QueryColumns</span><span class="sxs-lookup"><span data-stu-id="06bf0-139">IMAPITable::QueryColumns</span></span>](imapitable-querycolumns.md)
   
-[<span data-ttu-id="6ac9e-140">IMAPITable::QueryRows</span><span class="sxs-lookup"><span data-stu-id="6ac9e-140">IMAPITable::QueryRows</span></span>](imapitable-queryrows.md)
+[<span data-ttu-id="06bf0-140">IMAPITable::QueryRows</span><span class="sxs-lookup"><span data-stu-id="06bf0-140">IMAPITable::QueryRows</span></span>](imapitable-queryrows.md)
   
-[<span data-ttu-id="6ac9e-141">IMAPITable::QuerySortOrder</span><span class="sxs-lookup"><span data-stu-id="6ac9e-141">IMAPITable::QuerySortOrder</span></span>](imapitable-querysortorder.md)
+[<span data-ttu-id="06bf0-141">IMAPITable::QuerySortOrder</span><span class="sxs-lookup"><span data-stu-id="06bf0-141">IMAPITable::QuerySortOrder</span></span>](imapitable-querysortorder.md)
   
-[<span data-ttu-id="6ac9e-142">IMAPITable::SetColumns</span><span class="sxs-lookup"><span data-stu-id="6ac9e-142">IMAPITable::SetColumns</span></span>](imapitable-setcolumns.md)
+[<span data-ttu-id="06bf0-142">IMAPITable::SetColumns</span><span class="sxs-lookup"><span data-stu-id="06bf0-142">IMAPITable::SetColumns</span></span>](imapitable-setcolumns.md)
   
-[<span data-ttu-id="6ac9e-143">IMsgStore : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="6ac9e-143">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
+[<span data-ttu-id="06bf0-143">IMsgStore : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="06bf0-143">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
 
 
-[<span data-ttu-id="6ac9e-144">MFCMAPI como exemplo de código</span><span class="sxs-lookup"><span data-stu-id="6ac9e-144">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="06bf0-144">MFCMAPI como exemplo de código</span><span class="sxs-lookup"><span data-stu-id="06bf0-144">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
