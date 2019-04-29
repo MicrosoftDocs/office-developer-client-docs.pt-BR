@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 description: Determina o calendário a ser usado para um campo de texto quando o tipo de dado for Data.
 ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424746"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Célula Calendar (Seção Text Fields)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula Calendar pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTextField** <br/> |
-| Índice da linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visFieldCalendar** <br/> |
    
 

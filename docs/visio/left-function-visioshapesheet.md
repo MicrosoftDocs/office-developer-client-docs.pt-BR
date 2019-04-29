@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
 description: Retorna os caracteres mais à esquerda em uma sequência de caracteres de texto, com base no número de caracteres especificado.
 ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427518"
 ---
 # <a name="left-function-visioshapesheet"></a>Função LEFT (VisioShapeSheet)
 
@@ -26,14 +26,14 @@ Left (* * *Text* * *, [, * * *num_chars_opt* * *])
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
-| _num_chars_opt_ <br/> |Opcional  <br/> |**Numeric** <br/> |O número de caracteres que deseja extrair.  <br/> |
+| _text_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
+| _num_chars_opt_ <br/> |Opcional  <br/> |**Numérica** <br/> |O número de caracteres que deseja extrair.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-String
+Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 

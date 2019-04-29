@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cf9a070e8f892cb7bd4668b3f92397070e5b2284
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430137"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>Propriedade canônica PidTagOriginallyIntendedRecipEntryId
 

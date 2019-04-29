@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
 description: Contém as coordenadas x e y do ponto de extremidade de uma curva Bézier cúbica em relação à largura e à altura da forma, as coordenadas x e y do ponto de controle do início da largura e altura da forma relativa da curva e as coordenadas x e y do contro ponto l do final da largura e altura da forma relativa da curva.
 ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430326"
 ---
 # <a name="relcubbezto-row-geometry-section"></a>Linha RelCubBezTo (seção geometry)
 
@@ -23,7 +23,7 @@ Contém as coordenadas *x* e *y* do ponto de extremidade de uma curva Bézier c�
   
 Uma linha **RelCubBezTo** contém as células a seguir. 
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final de uma curva Bézier cúbica em relação à largura da forma.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final de uma curva Bézier cúbica em relação à altura da forma.  <br/> |

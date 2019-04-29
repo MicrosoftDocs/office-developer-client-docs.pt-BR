@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: Este tópico descreve os procedimentos para adicionar manipuladores de eventos a um modelo de formulário de código gerenciado do Microsoft InfoPath usando o Visual Studio 2012. Para adicionar um manipulador de eventos a um modelo de formulário, inicie com o modelo de formulário aberto no designer do InfoPath e, em seguida, selecione o comando de interface do usuário apropriado para o evento para o qual você deseja escrever o código. Depois de selecionar o comando para um evento no designer do InfoPath, o foco mudará automaticamente para o manipulador de eventos esqueleto desse evento no editor de código do Visual Studio 2012.
 ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427182"
 ---
 # <a name="add-an-event-handler"></a>Adicionar um manipulador de eventos
 

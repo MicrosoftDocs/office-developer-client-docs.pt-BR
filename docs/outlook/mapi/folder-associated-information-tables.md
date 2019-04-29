@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2332c2a2f7eb46816eab5305b73344e25b2832d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426412"
 ---
 # <a name="folder-associated-information-tables"></a>Tabelas de informações associadas à pasta
 

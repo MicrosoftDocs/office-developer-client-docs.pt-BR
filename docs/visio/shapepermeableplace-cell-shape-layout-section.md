@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b647cbb5-2769-068d-bbda-2dc983c47ac9
 description: Determina se formas de colocação podem ser posicionadas na parte superior de uma forma ao dispor as formas na caixa de diálogo Configurar Layout (na guia Design, do grupo Layout, clique em Refazer o Layout da Página e em Mais Opções de Layout).
 ms.openlocfilehash: ceecfa25c66c3ba261865d0131a3f55ef444d5e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357054"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427217"
 ---
 # <a name="shapepermeableplace-cell-shape-layout-section"></a>Célula ShapePermeablePlace (Seção Shape Layout)
 
@@ -22,7 +22,7 @@ Determina se formas de colocação podem ser posicionadas na parte superior de u
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|TRUE  <br/> |Permitir que as formas sejam colocadas em cima de uma forma.  <br/> |
+|VERDADEIRO  <br/> |Permitir que as formas sejam colocadas em cima de uma forma.  <br/> |
 |FALSE  <br/> |Não permitir que as formas sejam colocadas em cima de uma forma.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,7 +42,7 @@ Para obter uma referência para a célula ShapePermeablePlace pelo índice, a pa
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowShapeLayout** <br/> |
-|Índice da célula:  <br/> |**visSLOPermeablePlace** <br/> |
+|Índice de linha:  <br/> |**visRowShapeLayout** <br/> |
+|Índice de célula:  <br/> |**visSLOPermeablePlace** <br/> |
    
 

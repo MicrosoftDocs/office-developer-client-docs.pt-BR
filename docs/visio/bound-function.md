@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Restringe o valor de uma célula a um intervalo ou série de intervalos.
 ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348948"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425957"
 ---
 # <a name="bound-function"></a>Função BOUND
 
@@ -26,13 +26,13 @@ BOUND (* * *Value* * *, * * *Type* * *, * * *ignore* * *, * * *value1* * *, * * 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O valor que está sendo restringido no momento.  <br/> |
-| _type_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Se a restrição é inclusive (0), exclusive (1) ou desativada (2).  <br/> |
+| _value_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O valor que está sendo restringido no momento.  <br/> |
+| _type_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |Se a restrição é inclusive (0), exclusive (1) ou desativada (2).  <br/> |
 | _ignora_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | TRUE para ignorar o intervalo; FALSE para restringir o valor da célula ao intervalo.  <br/> |
-| _valor1_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro valor de um intervalo.  <br/> |
-| _value2_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O segundo valor de um intervalo.  <br/> |
+| _valor1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro valor de um intervalo.  <br/> |
+| _value2_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O segundo valor de um intervalo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

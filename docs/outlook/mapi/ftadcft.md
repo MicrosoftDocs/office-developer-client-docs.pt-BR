@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328018"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429702"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 

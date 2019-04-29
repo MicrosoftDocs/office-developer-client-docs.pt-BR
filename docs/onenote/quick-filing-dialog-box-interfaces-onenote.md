@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: Este tópico descreve as interfaces que você pode usar para personalizar programaticamente a caixa de diálogo de arquivamento rápido no OneNote 2013.
 ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317092"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425334"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Interfaces da caixa de diálogo de arquivamento rápido (OneNote)
 
@@ -37,7 +37,7 @@ Esta interface permite que o usuário personalize e execute a caixa de diálogo.
   
 **Propriedades**
 
-|**Nome**|**Tipo**|**Descrição**|
+|**Nome**|**Type**|**Descrição**|
 |:-----|:-----|:-----|
 |**Title** <br/> |string  <br/> |Obtém ou define o texto do título que aparece na barra de título da janela da caixa de diálogo.  <br/> |
 |**Descrição** <br/> |string  <br/> |Obtém ou define a descrição do texto para instruir o usuário sobre o que selecionar. Esse valor pode ser texto de várias linhas.  <br/> |

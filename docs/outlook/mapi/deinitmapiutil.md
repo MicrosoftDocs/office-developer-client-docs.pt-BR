@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a9654efc34280941cdbc727bce9912a0a39d0fb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427343"
 ---
 # <a name="deinitmapiutil"></a>DeinitMapiUtil
 
@@ -39,7 +39,7 @@ VOID DeinitMapiUtil( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhuma 
+Nenhum 
   
 ## <a name="return-value"></a>Valor de retorno
 

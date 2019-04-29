@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2a2439bae79b497f018391983e2c4b03a35eee70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348787"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424249"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 

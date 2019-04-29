@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb1ef018-6ea4-46b4-b81a-c51f86d80180
 ms.openlocfilehash: fe8640c1ff9773a5ee7254434f39735cd95daff6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301768"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426377"
 ---
 # <a name="macro-function-reference-access-custom-web-app"></a>Referência de função de macro (aplicativo da web personalizado do Access)
 

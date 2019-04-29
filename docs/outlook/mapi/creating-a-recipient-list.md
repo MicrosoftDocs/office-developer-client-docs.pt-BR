@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e3aa1f2b2e1e7c6d8a9be3fff451002952930ffb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332904"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428211"
 ---
 # <a name="creating-a-recipient-list"></a>Criar uma lista de destinatários
 

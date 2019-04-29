@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: Esta seção fornece informações sobre conceitos e tarefas adicionais de desenvolvimento do InfoPath.
 ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427539"
 ---
 # <a name="additional-infopath-development-concepts"></a>Conceitos adicionais de desenvolvimento do InfoPath
 

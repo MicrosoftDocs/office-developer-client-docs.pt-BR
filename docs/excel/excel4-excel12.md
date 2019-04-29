@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7c3af5f380ae4144890b1f7b486a61a05c19de74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304106"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429443"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
@@ -63,9 +63,9 @@ Retorna um dos seguintes valores inteiros (**int**).
 |,0  <br/> |**xlretSuccess** <br/> |A função foi chamada com êxito. Isso não significa que a função não retornou um valor de erro do Excel; para descobrir isso, você deve examinar o tipo e o valor do parâmetro _pxRes_ resultante.  <br/> |
 |1  <br/> |**xlretAbort** <br/> |O comando ou função foi encerrado de forma anormal (anulação interna). Isso pode ocorrer se uma folha de macro XLM se fechar ao chamar **Close**ou se o Excel estiver sem memória. Se o Excel retornar esse erro, a função de chamada deverá sair imediatamente. A DLL tem permissão para chamar **xlFree** apenas antes de sair. Todas as outras chamadas para a API de C não são permitidas. O usuário pode salvar qualquer trabalho interativamente usando o comando **salvar** no menu **arquivo** .  <br/> |
 |duas  <br/> |**xlretInvXlfn** <br/> |Um número de função inválido foi fornecido. Se você estiver usando constantes do arquivo de cabeçalho xlcall. h, isso não deve ocorrer, a menos que você esteja chamando algo que não é suportado na versão do Excel que você está executando.  <br/> |
-|quatro  <br/> |**xlretInvCount** <br/> |Um número inválido de argumentos foi inserido. Nas versões até o Excel 2003, o número máximo de argumentos que qualquer função pode levar é 30. A partir do Excel 2007, o número máximo é 255. Alguns exigem um número fixo ou mínimo de argumentos.  <br/> |
-|8  <br/> |**xlretInvXloper** <br/> |Um **XLOPER** ou **XLOPER12** inválido foi passado para a função ou um argumento do tipo incorreto foi usado.  <br/> |
-|dezesseis  <br/> |**xlretStackOvfl** <br/> |Um estouro de pilha ocorreu. Use **xlStack** para monitorar a quantidade de espaço restante na pilha. Evite alocar matrizes locais e estruturas (automáticas) muito grandes na pilha, onde for possível; torná-los estáticos. (Observe que um estouro de pilha pode ocorrer sem ser detectado.)  <br/> |
+|4   <br/> |**xlretInvCount** <br/> |Um número inválido de argumentos foi inserido. Nas versões até o Excel 2003, o número máximo de argumentos que qualquer função pode levar é 30. A partir do Excel 2007, o número máximo é 255. Alguns exigem um número fixo ou mínimo de argumentos.  <br/> |
+|8   <br/> |**xlretInvXloper** <br/> |Um **XLOPER** ou **XLOPER12** inválido foi passado para a função ou um argumento do tipo incorreto foi usado.  <br/> |
+|16   <br/> |**xlretStackOvfl** <br/> |Um estouro de pilha ocorreu. Use **xlStack** para monitorar a quantidade de espaço restante na pilha. Evite alocar matrizes locais e estruturas (automáticas) muito grandes na pilha, onde for possível; torná-los estáticos. (Observe que um estouro de pilha pode ocorrer sem ser detectado.)  <br/> |
 |32  <br/> |**xlretFailed** <br/> |Uma função de comando equivalente falhou. Isso equivale a um comando de macro que exibe a caixa de diálogo de alerta de erro de macro.  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |Foi feita uma tentativa de cancelar a referência de uma célula que ainda não foi calculada, pois ela está agendada para ser recalculada após a célula atual. Nesse caso, a DLL deve retornar o controle para o Excel imediatamente. A DLL tem permissão para chamar **xlFree** apenas antes de sair. Todas as outras chamadas para a API de C não são permitidas. Para obter mais informações sobre quais funções podem ou não acessar os valores das células que não foram recalculadas, consulte [comandos, funções e Estados do Excel](excel-commands-functions-and-states.md).  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |Foi feita uma tentativa de chamar uma função que não é, ou pode não ser, thread-safe durante um recálculo de vários threads da pasta de trabalho.  <br/> A partir do Excel 2007, esse valor é retornado e somente dentro das funções de planilha XLL declaradas como thread-safe.  <br/> |

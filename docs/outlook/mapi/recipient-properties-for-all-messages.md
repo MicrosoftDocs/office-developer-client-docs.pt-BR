@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 18c96796-f38d-4058-9c51-9c5a14990846
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3c5764d74039249ccac47d449f0ebd4042893434
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439713"
 ---
 # <a name="recipient-properties-for-all-messages"></a>Propriedades do destinatário para todas as mensagens
 
@@ -25,7 +25,7 @@ As propriedades a seguir geralmente estão presentes para todos os destinatário
   
 **Título da tabela**
 
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contém o tipo de endereço de email do usuário de mensagens, como SMTP.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contém o nome para exibição de um determinado objeto MAPI.  <br/> |

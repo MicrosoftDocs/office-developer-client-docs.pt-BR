@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: Retorna um valor que representa um índice na paleta de cores do documento. Especifica uma cor por seus componentes vermelho, verde e azul, onde cada um é um número no intervalo de 0 a 255, inclusive, ou uma expressão que é avaliada como um número.
 ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326737"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426300"
 ---
 # <a name="rgb-function-visioshapesheet"></a>Função RGB (VisioShapeSheet)
 
@@ -26,7 +26,7 @@ RGB (* * *vermelho* * *, * * *verde* * *, * * *azul* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _vermelha_ <br/> |Obrigatório  <br/> |**Número** <br/> |O componente vermelho.  <br/> |
 | _natureza_ <br/> |Obrigatório  <br/> |**Número** <br/> |O componente verde.  <br/> |
@@ -42,7 +42,7 @@ Se a cor retornada pela função ainda não existir na paleta de cores do docume
   
 A tabela a seguir relaciona algumas cores padrão e seus valores de vermelho, verde e azul.
   
-|**Color**|**Valor de vermelho**|**Valor de verde**|**Valor de azul**|
+|**Cor**|**Valor de vermelho**|**Valor de verde**|**Valor de azul**|
 |:-----|:-----|:-----|:-----|
 |Preto  <br/> |,0  <br/> |,0  <br/> |,0  <br/> |
 |Azul  <br/> |,0  <br/> |,0  <br/> |255  <br/> |

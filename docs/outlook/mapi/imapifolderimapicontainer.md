@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424235"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -53,7 +53,7 @@ Realiza operações nas mensagens e subpastas em uma pasta.
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Define a ordem de classificação padrão para a tabela de conteúdo de uma pasta.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Exclui todas as mensagens e subpastas de uma pasta sem excluir a própria pasta.  <br/> |
    
-|**Propriedades necessárias**|**Access**|
+|**Propriedades necessárias**|**Acesso**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Leitura/gravação  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Somente leitura  <br/> |

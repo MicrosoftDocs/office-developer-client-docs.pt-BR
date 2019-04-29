@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
 description: Obtém uma cadeia de caracteres que representa detalhes para a pessoa, como nome, sobrenome e URL de uma imagem de perfil.
 ms.openlocfilehash: 05cc2565ccd0688c7b8f4eccd6d8f42353d8743e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286140"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427329"
 ---
 # <a name="isocialpersongetdetails"></a>ISocialPerson::GetDetails
 

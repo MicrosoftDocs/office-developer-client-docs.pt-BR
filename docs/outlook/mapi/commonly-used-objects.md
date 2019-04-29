@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
 ms.openlocfilehash: a4f19b68eecc5173acfe21e5c7c7b1f8d836285a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429408"
 ---
 # <a name="commonly-used-objects"></a>Objetos usados com frequência
 

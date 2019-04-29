@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 611e0a49f0fd8df8fe40205a33ed5501055c3d45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329586"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425166"
 ---
 # <a name="using-thread-safe-objects"></a>Usando objetos isentos de threads
 

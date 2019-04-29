@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: Especifica o tipo de sombra para uma forma.
 ms.openlocfilehash: 607881e4a520f1376562394c6e40ab5d2508906d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342858"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430256"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>Célula ShapeShdwType (Seção Fill Format)
 
@@ -45,7 +45,7 @@ Para obter uma referência para a célula ShapeShdwType pelo índice, a partir d
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowFill** <br/> |
+|Índice de linha:  <br/> |**visRowFill** <br/> |
 |Índice da célula:  <br/> |**visFillShdwType** <br/> |
    
 

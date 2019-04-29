@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 472502d0f033370b06a69596944350152ab794f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317294"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425873"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 

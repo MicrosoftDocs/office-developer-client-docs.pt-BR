@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 09385b75-ec0e-4dde-b9c3-9ade4a7a2b74
 description: Retorna o valor exponencial da expressão especificada.
 ms.openlocfilehash: 30777c41005dfcf1caad896e9e60f0bcfd9d4361
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308194"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436409"
 ---
 # <a name="exp-function-access-custom-web-app"></a>Função exp (aplicativo Web personalizado do Access)
 

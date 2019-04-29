@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.
 ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431516"
 ---
 # <a name="format-cell-text-fields-section"></a>Célula Format (Seção Text Fields)
 
@@ -37,7 +37,7 @@ Para fazer referência à célula Format pelo índice a partir de um programa, u
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTextField** <br/> |
-| Índice da linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visFieldFormat** <br/> |
    
 

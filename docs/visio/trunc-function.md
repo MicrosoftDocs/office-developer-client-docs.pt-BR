@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Retorna um número truncado para o número especificado de dígitos.
 ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335172"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426496"
 ---
 # <a name="trunc-function"></a>Função TRUNC
 
@@ -26,10 +26,10 @@ TRUNCAr (* * *número* * *, * * *dígitos* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número a ser truncado.  <br/> |
-| _dígitos_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número de dígitos para o qual truncar o _número_.  <br/> |
+| _number_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número a ser truncado.  <br/> |
+| _dígitos_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número de dígitos para o qual truncar o _número_.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

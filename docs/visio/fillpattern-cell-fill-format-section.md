@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: Determina o padrão de preenchimento da forma. Para especificar um padrão de preenchimento personalizado, utilize a função USE da célula.
 ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422926"
 ---
 # <a name="fillpattern-cell-fill-format-section"></a>Célula FillPattern (Seção Fill Format)
 
@@ -41,7 +41,7 @@ Para obter uma referência para a célula FillPattern pelo índice a partir de u
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowFill** <br/> |
+|Índice de linha:  <br/> |**visRowFill** <br/> |
 |Índice da célula:  <br/> |**visFillPattern** <br/> |
    
 

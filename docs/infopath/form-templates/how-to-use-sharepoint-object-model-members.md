@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8cbafca3-7831-4231-8e61-38330b5ad61b
 description: Antes de poder programar em membros do modelo de objeto do SharePoint a partir do código em execução em um modelo de formulário do InfoPath, você deve fazer referência ao assembly Microsoft. SharePoint. dll no projeto do Visual Studio 2012 para seu formulário. Para fazer isso, você deve ter acesso ao sistema de arquivos de uma cópia licenciada do Microsoft SharePoint Server 2010 ou de um servidor que esteja executando o Microsoft SharePoint Foundation 2010 para que você possa obter uma cópia do assembly Microsoft. SharePoint. dll.
 ms.openlocfilehash: e29725450a6a1bdcba99215e337493f8686491e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431656"
 ---
 # <a name="use-sharepoint-object-model-members"></a>Usar membros do modelo de objeto do SharePoint
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
 description: Este tópico sugere algumas etapas para aprender a desenvolver um provedor do Outlook Social Connector (OSC).
 ms.openlocfilehash: 581997ab257d59062761d97bfef49a88b90bb1e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329215"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424214"
 ---
 # <a name="quick-steps-for-learning-to-develop-a-provider"></a>Etapas rápidas para aprender a desenvolver um provedor
 

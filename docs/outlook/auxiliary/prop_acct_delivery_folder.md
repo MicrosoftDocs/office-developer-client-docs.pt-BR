@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
 description: Representa a identificação de entrada da pasta de entrega padrão para a conta.
 ms.openlocfilehash: 1bac4890791edfe661599d383e2cb048bf4c42fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427147"
 ---
 # <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
 description: Localiza uma cadeia de caracteres de texto contida em outra cadeia de caracteres de texto e retorna a posição inicial da cadeia de caracteres de texto que você está procurando em relação à sua posição na cadeia de caracteres de texto que a contém.
 ms.openlocfilehash: 40d65af25d89774c1bdf7b235cf653dbb61dd1c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322495"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426573"
 ---
 # <a name="find-function"></a>Função FIND
 
@@ -26,10 +26,10 @@ Find (* * *texto_procurado* * *, * * *no_texto* * *, [* * *Núm_inicial* * *], [
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Texto_procurado_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
-| _format_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres que contém o texto a ser localizado.  <br/> |
+| _Texto_procurado_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
+| _format_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres que contém o texto a ser localizado.  <br/> |
 | _núm_inicial_ <br/> |Opcional  <br/> |**Número** <br/> |O caractere para início da pesquisa. O primeiro caractere em _no_texto_ é 1. Se _Núm_inicial_ estiver faltando, será considerado 1.  <br/> |
 | _ignore_case_ <br/> |Opcional  <br/> |**Boolean** <br/> |Por padrão, a função FIND distingue maiúsculas e minúsculas. Para que a função FIND ignore maiúsculas e minúsculas, defina este argumento como TRUE.  <br/> |
    

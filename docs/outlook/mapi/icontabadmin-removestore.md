@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4865c1c867dd73514ab22ac4e8da628caf154ee7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435415"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 

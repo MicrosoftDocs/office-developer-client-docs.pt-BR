@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0f0523c01e163b57d9ed37d9b324ec858adbd685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426069"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -84,7 +84,7 @@ Quando a operação de exclusão envolve mais de uma mensagem, execute a operaç
 
 Espere estes valores de retorno sob as condições a seguir.
   
-|**Condition**|**Valor retornado**|
+|**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |O **DeleteMessages** excluiu com êxito todas as mensagens.  <br/> |S_OK  <br/> |
 |O **DeleteMessages** não pôde excluir com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |

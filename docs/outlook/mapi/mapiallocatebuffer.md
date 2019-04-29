@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357306"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425691"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 

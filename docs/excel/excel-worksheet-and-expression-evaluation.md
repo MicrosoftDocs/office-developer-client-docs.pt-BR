@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310980"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427763"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Planilha do Excel e avaliação de expressões
 
@@ -46,7 +46,7 @@ O Excel expõe a capacidade de reduzir qualquer cadeia de caracteres válida par
 
 Todos os números de planilha do Excel são representados internamente como ponto flutuante de precisão dupla de 8 bytes, incluindo todos os números inteiros. No enTanto, a implementação desses números no Excel não é totalmente compatível com IEEE, conforme mostrado na tabela a seguir.
   
-|**Tipo**|**Maximum**|**Mínimo**|
+|**Type**|**Máximo**|**Mínimo**|
 |:-----|:-----|:-----|
 |IEEE de 8 bytes duplo  <br/> |1.7976931348623157 E + 308  <br/> |2.2250738585072014 E-308  <br/> |
 |Planilha (retornada por função ou colar valor)  <br/> |1.7976931348623157 E + 308  <br/> |2.22507385850721 E-308  <br/> |

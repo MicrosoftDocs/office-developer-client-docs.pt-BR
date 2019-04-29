@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0649672f-f496-ce80-6dc3-3affc9b6f913
 description: Determina o tamanho dos saltos de linha nos conectores dinâmicos horizontais na página em relação ao valor da célula LineToLineX. O valor dessa célula pode variar de 0 a 10, mas são sugeridos valores fracionários de 0 a 1.
 ms.openlocfilehash: 8698d99021ca64415417de8e946cbd80b586e759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424991"
 ---
 # <a name="linejumpfactorx-cell-page-layout-section"></a>Célula LineJumpFactorX (Seção Page Layout)
 
@@ -35,7 +35,7 @@ Para obter uma referência para a célula LineJumpFactorX pelo índice a partir 
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
-|Índice da linha:  <br/> |**visRowPageLayout** <br/> |
+|Índice de linha:  <br/> |**visRowPageLayout** <br/> |
 |Índice da célula:  <br/> |**visPLOJumpFactorX** <br/> |
    
 

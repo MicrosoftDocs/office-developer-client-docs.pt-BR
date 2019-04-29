@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: Faz logon no site de rede social usando a autenticação baseada em formulários.
 ms.openlocfilehash: 7ef7af8c1c2cdb783bdecd71b29635468e19dc6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335361"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430333"
 ---
 # <a name="isocialsessionlogonweb"></a>ISocialSession::LogonWeb
 

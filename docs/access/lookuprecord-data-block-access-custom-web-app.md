@@ -8,23 +8,23 @@ localization_priority: Normal
 ms.assetid: 001899f7-5b1a-4c0b-a0e4-e01985eea818
 description: Um bloco de dados PesquisarRegistro executa um conjunto de ações em um registro específico.
 ms.openlocfilehash: a6d89b1700a47f88086fd8c4e7b594b90425912c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434358"
 ---
 # <a name="lookuprecord-data-block-access-custom-web-app"></a>Bloco de dados Pesquisarregistro (aplicativo Web personalizado do Access)
 
 Um bloco de dados **PesquisarRegistro** executa um conjunto de ações em um registro específico. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
 > O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados. 
   
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **PesquisarRegistro** tem os seguintes argumentos. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: Este tópico descreve testes e cenários para verificar se o provedor do Outlook Social Connector (OSC) usa a sincronização sob demanda para retornar adequadamente as atividades de amigos e não amigos.
 ms.openlocfilehash: 0a40dca84681a9e758c2f17d2647c339ded70462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329180"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436297"
 ---
 # <a name="testing-activities"></a>Testar atividades
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c5b20257-676c-279d-f730-1b6fbbe98305
 description: Contém as coordenadas x e y do primeiro vértice de uma forma ou representa as coordenadas x e y do primeiro vértice depois de uma quebra em um caminho.
 ms.openlocfilehash: fc414093348b8da04fa3503053584395976982dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283855"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429695"
 ---
 # <a name="moveto-row-geometry-section"></a>Linha MoveTo (Seção Geometry)
 
@@ -22,7 +22,7 @@ Contém as coordenadas *x* e *y* do primeiro vértice de uma forma ou representa
   
 Uma linha **MoveTo** contém as células a seguir. 
   
-|**Cell**|**Descrição**|
+|**Célula**|**Descrição**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Se a linha **MoveTo** for a primeira linha na seção, A célula x representará a coordenada *X* do primeiro vértice de uma forma. Se a linha **MoveTo** aparecer entre duas linhas, A célula x representará a coordenada *X* do primeiro vértice depois da quebra no caminho.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Se a linha **MoveTo** for a primeira linha na seção, A célula y representará a coordenada *Y* do primeiro vértice de uma forma. Se a linha **MoveTo** aparecer entre duas linhas, A célula y representará a coordenada *Y* do primeiro vértice depois da quebra no caminho.  <br/> |
