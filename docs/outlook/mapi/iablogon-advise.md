@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4ab0e4b023e6af19f650abf421aed122dcc21879
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338574"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428225"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
@@ -128,7 +128,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Event
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[NOTIFICATION](notification.md)
+[Notifica](notification.md)
   
 [IABLogon : IUnknown](iablogoniunknown.md)
 

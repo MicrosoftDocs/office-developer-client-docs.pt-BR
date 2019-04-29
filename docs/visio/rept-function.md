@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 53362a32-ac27-42a3-ace1-c6184ab20b52
 description: Repete um texto um determinado número de vezes.
 ms.openlocfilehash: 84e7167fcee426c607e6967aff0530362685dd35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412076"
 ---
 # <a name="rept-function"></a>Função REPT
 
@@ -26,9 +26,9 @@ REPT (* * *texto* * *, * * *number_times* * *)
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obrigatório  <br/> |**String** <br/> | O texto a ser repetido.  <br/> |
+| _text_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O texto a ser repetido.  <br/> |
 | _number_times_ <br/> |Obrigatório  <br/> |**Número** <br/> |Um número positivo que especifica o número de vezes que o texto será repetido.  <br/> |
    
 ## <a name="remarks"></a>Comentários

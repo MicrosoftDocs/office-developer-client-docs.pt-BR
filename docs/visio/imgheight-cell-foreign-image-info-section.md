@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: 'Determina a altura da imagem do objeto dentro de sua borda. A fórmula padrão é:'
 ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344930"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411194"
 ---
 # <a name="imgheight-cell-foreign-image-info-section"></a>Célula ImgWidth (Seção Foreign Image Info)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula ImgHeight pelo índice a partir de um programa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowForeign** <br/> |
+| Índice de linha:  <br/> |**visRowForeign** <br/> |
 | Índice da célula:  <br/> |**visFrgnImgHeight** <br/> |
    
 

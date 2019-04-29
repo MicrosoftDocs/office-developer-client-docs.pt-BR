@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2edc65b4c0dad964e83b2731528124a86c87a32d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418306"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Propriedade canônica PidTagContactAddressBookUid
 

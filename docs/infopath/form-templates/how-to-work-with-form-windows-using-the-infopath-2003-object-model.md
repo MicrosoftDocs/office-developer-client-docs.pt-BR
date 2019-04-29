@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: Ao trabalhar de forma programática com um formulário do InfoPath, você pode escrever código para acessar o Windows do formulário e, em seguida, personalizar alguns dos itens que eles contêm. O modelo de objeto compatível com o InfoPath 2003 oferece suporte ao acesso a janelas de um formulário por meio do uso da interface WindowObject em associação à interface Windowscollection.
 ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299892"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427574"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Trabalhar com janelas de formulário usando o modelo de objeto do InfoPath 2003
 
@@ -33,8 +33,8 @@ A interface **Windows** contém as propriedades a seguir, que os desenvolvedores
   
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|Propriedade [Contagem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Retorna uma contagem do número de objetos **Window** contidos na coleção.  <br/> |
-|Propriedade[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Retorna uma referência ao objeto **Window** especificado.  <br/> **Observação**: o Visual C# acessa coleções usando um indexador em vez de chamar a propriedade **Item** . Por exemplo,  `thisApplication.Windows[0].Caption`.           |
+|Propriedade [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Retorna uma contagem do número de objetos **Window** contidos na coleção.  <br/> |
+|Propriedade [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Retorna uma referência ao objeto **Window** especificado.  <br/> **Observação**: o Visual C# acessa coleções usando um indexador em vez de chamar a propriedade **Item** . Por exemplo, `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Visão geral do objeto Window
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280103"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416780"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -87,7 +87,7 @@ Não chame o método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para me
 
 Espere estes valores de retorno sob as condições a seguir.
   
-|**Condition**|**Valor retornado**|
+|**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |**EmptyFolder** esvaziar a pasta com êxito.  <br/> |S_OK  <br/> |
 |**EmptyFolder** não pôde esvaziar completamente a pasta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 87ddbc35-8577-0a96-20b8-aa7734764c5b
 description: Retorna uma referência de planilha para a forma de contêiner da lista que contém a forma.
 ms.openlocfilehash: 748a248f68345e97e97ca90a4603b6e164a551c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429548"
 ---
 # <a name="listsheetref-function"></a>Função LISTSHEETREF
 

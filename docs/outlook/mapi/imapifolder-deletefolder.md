@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417403"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -101,7 +101,7 @@ Quando a operação de exclusão envolver mais de uma pasta, execute a operaçã
 
 Espere estes valores de retorno sob as condições a seguir.
   
-|**Condition**|**Valor retornado**|
+|**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |O **DeleteFolder** excluiu com êxito todas as mensagens e subpastas.  <br/> |S_OK  <br/> |
 |O **DeleteFolder** não pôde excluir com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |

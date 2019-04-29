@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: 'Representa a coordenada y do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinY é:'
 ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358041"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410592"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>Célula LocPinY (Seção Shape Transform)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula LocPinY pelo índice a partir de um programa, 
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowXFormOut** <br/> |
+| Índice de linha:  <br/> |**visRowXFormOut** <br/> |
 | Índice da célula:  <br/> |**visXFormLocPinY** <br/> |
    
 

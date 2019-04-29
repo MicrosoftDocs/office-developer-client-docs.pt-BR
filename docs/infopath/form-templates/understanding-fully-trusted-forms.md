@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath fornece a capacidade de criar formulários totalmente confiáveis, que são formulários com mais permissões de segurança e que podem acessar outros recursos do sistema e outros componentes no computador de um usuário. Este artigo descreve o que é um formulário totalmente confiável e por que ele é usado, e também como criar um formulário totalmente confiável convertendo manualmente e registrando um formulário padrão, ou então assinando digitalmente um formulário padrão.
 ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299756"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430389"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Compreender formulários totalmente confiáveis
 

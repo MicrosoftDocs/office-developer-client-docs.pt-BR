@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 74eae5e5-80ab-4e10-b292-e58a6d7607d2
 description: Determina se a interface do usuário substituir forma deve ser desabilitada para este documento.
 ms.openlocfilehash: cfec9b3c51a170c549fdd0d1b0b3597c030c410c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338602"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413420"
 ---
 # <a name="doclockreplace-cell-document-properties-section"></a>Célula DocLockReplace (seção Document Properties)
 
@@ -36,7 +36,7 @@ Para obter uma referência para a célula **DocLocReplace** pelo índice a parti
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowDoc** <br/> |
+| Índice de linha:  <br/> |**visRowDoc** <br/> |
 | Índice da célula:  <br/> |* * visDocLockReplace * * <br/> |
    
 

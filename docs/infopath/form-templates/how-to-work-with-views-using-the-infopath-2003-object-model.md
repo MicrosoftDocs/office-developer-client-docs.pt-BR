@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: Ao trabalhar com um modelo de formulário do InfoPath, você pode escrever código para acessar os modos de exibição do formulário e, em seguida, executar uma variedade de ações nos dados que os modos de exibição contêm. O modelo de objeto compatível com o InfoPath 2003 oferece suporte ao acesso a modos de exibição de um formulário por meio do uso dos membros da interface Viewobject.
 ms.openlocfilehash: 6a2dd408ba51e5c8394120944e0c28897e768738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411880"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>Trabalhar com modos de exibição usando o modelo de objeto do InfoPath 2003
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: becb058fc6434765c238421f59a8775fb76c2d2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315439"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428330"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propriedade canônica PidLidIsInterpersonalFax
 

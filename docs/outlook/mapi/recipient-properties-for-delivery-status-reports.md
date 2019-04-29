@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 784cac21aac5de18952f3768af9b8f189f604981
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328431"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411082"
 ---
 # <a name="recipient-properties-for-delivery-status-reports"></a>Propriedades do destinatário para relatórios de status de entrega
 
@@ -25,7 +25,7 @@ As propriedades a seguir estão presentes para relatórios de status de entrega 
   
 **Título da tabela**
 
-|**Property**|**Como descriptografia**|
+|**Propriedade**|**Como descriptografia**|
 |:-----|:-----|
 |**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contém a data e a hora em que a mensagem original foi entregue.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contém o nome para exibição de um determinado objeto MAPI.  <br/> |

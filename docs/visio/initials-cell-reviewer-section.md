@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: Contém as iniciais do revisor de um documento.
 ms.openlocfilehash: ddca3697dfcf1f422efacbe395c18f1a6b8ac48c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335291"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411502"
 ---
 # <a name="initials-cell-reviewer-section"></a>Célula Initials (Seção Reviewer)
 
@@ -35,7 +35,7 @@ Para fazer referência à célula Initials pelo índice a partir de um programa,
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionReviewer** <br/> |
-| Índice da linha:  <br/> |**visRowReviewer** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowReviewer** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visReviewerInitials** <br/> |
    
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: Este tópico foi projetado para ajudá-lo a encontrar rapidamente as respostas para perguntas comuns sobre o desenvolvimento de modelos de formulário com código de formulário que funciona no assembly Microsoft. Office. Interop. InfoPath. SemiTrust.
 ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303756"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411572"
 ---
 # <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Tarefas comuns para desenvolver modelos de formulário usando o modelo de objeto do InfoPath
 

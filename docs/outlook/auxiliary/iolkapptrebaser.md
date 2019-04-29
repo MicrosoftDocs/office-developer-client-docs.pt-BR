@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
 description: O suporta a alteração da base dos compromissos em uma pasta de calendário.
 ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321858"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410067"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 

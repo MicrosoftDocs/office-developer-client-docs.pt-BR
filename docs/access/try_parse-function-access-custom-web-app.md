@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
 description: Analisa um valor de texto para o tipo de dados especificado na cultura do aplicativo ou retorna NULL se a conversão não for válida.
 ms.openlocfilehash: 5d201557607d2d18c36238d9658b705a6a49fda8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427525"
 ---
 # <a name="tryparse-function-access-custom-web-app"></a>Função Try_Parse (aplicativo Web personalizado do Access)
 

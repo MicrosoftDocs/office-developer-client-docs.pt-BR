@@ -9,11 +9,11 @@ api_type:
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fb0972638fdd062c99040694222724566281024f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326401"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409759"
 ---
 # <a name="canceling-a-notification"></a>Cancelar uma notificação
 

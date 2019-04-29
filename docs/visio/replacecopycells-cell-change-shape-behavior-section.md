@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2f36aefd-da49-47ea-9b90-2fa1a2298849
 description: Indica uma lista de células no ShapeSheet que são copiadas de uma forma antiga para a forma de substituição durante uma operação de substituição de forma.
 ms.openlocfilehash: f2a7908a623c861d0284821b2d8ae5fc71690685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320171"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409339"
 ---
 # <a name="replacecopycells-cell-change-shape-behavior-section"></a>Célula ReplaceCopyCells (seção Change Shape Behavior)
 
@@ -37,7 +37,7 @@ Para obter uma referência para a célula **ReplaceCopyCells** pelo índice a pa
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
-| Índice da linha:  <br/> |**visRowReplaceBehaviors** <br/> |
+| Índice de linha:  <br/> |**visRowReplaceBehaviors** <br/> |
 | Índice da célula:  <br/> |**visReplaceCopyCells** <br/> |
    
 
