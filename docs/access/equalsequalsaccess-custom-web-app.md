@@ -7,35 +7,35 @@ localization_priority: Normal
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: Compara a igualdade de duas expressões.
 ms.openlocfilehash: 8c551e3dbc057433b49bc2558e08feba5ee3d04f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408926"
 ---
-# <a name="equals-access-custom-web-app"></a><span data-ttu-id="3bbe6-103">Equals (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="3bbe6-103">Equals (Access custom web app)</span></span>
+# <a name="equals-access-custom-web-app"></a><span data-ttu-id="0ff42-103">Equals (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="0ff42-103">Equals (Access custom web app)</span></span>
 
-<span data-ttu-id="3bbe6-104">Compara a igualdade de duas expressões.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-104">Compares the equality of two expressions.</span></span>
+<span data-ttu-id="0ff42-104">Compara a igualdade de duas expressões.</span><span class="sxs-lookup"><span data-stu-id="0ff42-104">Compares the equality of two expressions.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="3bbe6-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="0ff42-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="0ff42-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="3bbe6-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3bbe6-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0ff42-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0ff42-107">Syntax</span></span>
 
 `= (Equals)`
 
-<span data-ttu-id="3bbe6-108">\*\*  =  *expressão* de expressão</span><span class="sxs-lookup"><span data-stu-id="3bbe6-108">*expression*  =  *expression*</span></span> 
+<span data-ttu-id="0ff42-108">\*\*  =  *expressão* de expressão</span><span class="sxs-lookup"><span data-stu-id="0ff42-108">*expression*  =  *expression*</span></span> 
   
-<span data-ttu-id="3bbe6-109">*expression* Trata-se de qualquer expressão válida.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-109">*expression*  Is any valid expression.</span></span> <span data-ttu-id="3bbe6-110">Se as expressões não forem do mesmo tipo de dados, o tipo de dados de uma expressão deverá ser implicitamente conversível no tipo de dados da outra.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-110">If the expressions are not of the same data type, the data type for one expression must be implicitly convertible to the data type of the other.</span></span> <span data-ttu-id="3bbe6-111">A conversão depende das regras de precedência do tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-111">The conversion depends on the rules of data type precedence.</span></span> 
+<span data-ttu-id="0ff42-109">*expression* Trata-se de qualquer expressão válida.</span><span class="sxs-lookup"><span data-stu-id="0ff42-109">*expression*  Is any valid expression.</span></span> <span data-ttu-id="0ff42-110">Se as expressões não forem do mesmo tipo de dados, o tipo de dados de uma expressão deverá ser implicitamente conversível no tipo de dados da outra.</span><span class="sxs-lookup"><span data-stu-id="0ff42-110">If the expressions are not of the same data type, the data type for one expression must be implicitly convertible to the data type of the other.</span></span> <span data-ttu-id="0ff42-111">A conversão depende das regras de precedência do tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="0ff42-111">The conversion depends on the rules of data type precedence.</span></span> 
   
-## <a name="return-type"></a><span data-ttu-id="3bbe6-112">Tipo de retorno</span><span class="sxs-lookup"><span data-stu-id="3bbe6-112">Return Type</span></span>
+## <a name="return-type"></a><span data-ttu-id="0ff42-112">Tipo de retorno</span><span class="sxs-lookup"><span data-stu-id="0ff42-112">Return Type</span></span>
 
-<span data-ttu-id="3bbe6-113">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="3bbe6-113">**Boolean**</span></span>
+<span data-ttu-id="0ff42-113">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="0ff42-113">**Boolean**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3bbe6-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="3bbe6-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0ff42-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="0ff42-114">Remarks</span></span>
 
-<span data-ttu-id="3bbe6-115">Quando você compara duas expressões nulas, o resultado é TRUE.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-115">When you compare two NULL expressions, the result is TRUE.</span></span>
+<span data-ttu-id="0ff42-115">Quando você compara duas expressões nulas, o resultado é TRUE.</span><span class="sxs-lookup"><span data-stu-id="0ff42-115">When you compare two NULL expressions, the result is TRUE.</span></span>
   
-<span data-ttu-id="3bbe6-116">Comparar NULL com um valor não nulo sempre resulta em FALSE.</span><span class="sxs-lookup"><span data-stu-id="3bbe6-116">Comparing NULL to a non-NULL value always results in FALSE.</span></span>
+<span data-ttu-id="0ff42-116">Comparar NULL com um valor não nulo sempre resulta em FALSE.</span><span class="sxs-lookup"><span data-stu-id="0ff42-116">Comparing NULL to a non-NULL value always results in FALSE.</span></span>
   
 
