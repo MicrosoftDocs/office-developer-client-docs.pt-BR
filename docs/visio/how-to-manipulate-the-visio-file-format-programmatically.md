@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crie uma solução no Visual Studio 2012 para ler o novo pacote de formato de arquivo no Visio 2013, selecione partes no pacote, altere os dados em uma peça e adicione novas partes ao pacote.
 localization_priority: Priority
-ms.openlocfilehash: 7239180f6e8ecf013577bff787b7c3f784971efc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2b031a74fa8d2df9b9baa15e97652b8d8afdaf23
+ms.sourcegitcommit: 6f3f42b656afb45a0189a0ad4c81c095e285b3d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330023"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33655608"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular o formato de arquivo do Visio via programação
 
@@ -303,7 +303,7 @@ O aplicativo de console produz saída semelhante à seguinte (parte da saída fo
   
 Mais frequentemente, você precisará selecionar um **PackagePart** sem precisar iterar todos eles. Você pode obter um objeto **PackagePart** de um **Pacote** usando sua relação com o **Pacote** ou outro **PackagePart**. Um relacionamento no formato de arquivo do Visio 2013 é uma entidade discreta que descreve como uma parte do documento se relaciona com o pacote de arquivos ou como duas partes do documento se relacionam entre si. Por exemplo, o pacote de arquivos do Visio 2013 em si tem um relacionamento com a parte do documento do Visio e a parte do documento do Visio tem um relacionamento com a parte do Windows. Essas relações são representadas como instâncias das classes[PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) ou [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx). 
   
-A classe **Pacote** expõe vários métodos para obter os relacionamentos que ela contém como objetos **PackageRelationship** ou **PackageRelationshipCollection**. Você pode usar o método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para criar uma instância de um objeto**PackageRelationshipCollection** que contém objetos **PackageRelationship** de um único tipo específico. Claro, usar o método **Package.GetRelationshipsByType** requer que você já saiba o tipo de relação necessárias. Os tipos de relacionamento são sequências no formato de namespace XML. Por exemplo, o tipo de relação de parte do documento Visio é https://schemas.microsoft.com/visio/2010/relationships/document. 
+A classe **Pacote** expõe vários métodos para obter os relacionamentos que ela contém como objetos **PackageRelationship** ou **PackageRelationshipCollection**. Você pode usar o método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para criar uma instância de um objeto**PackageRelationshipCollection** que contém objetos **PackageRelationship** de um único tipo específico. Claro, usar o método **Package.GetRelationshipsByType** requer que você já saiba o tipo de relação necessárias. Os tipos de relacionamento são sequências no formato de namespace XML. Por exemplo, o tipo de relação de parte do documento Visio é http://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Depois que você sabe a relação de um **PackagePart** com o **Pacote** ou outra **PackagePart** (ou seja, você tem um objeto **PackageRelationship**que faz referência ao **PackagePart** desejado), você pode usar essa relação obter o URI desse **PackagePart**. Passar URI para o método **GetPart** para retornar a **PackagePart**.
   
@@ -366,14 +366,14 @@ Use o procedimento a seguir para obter uma **PackagePart** (a parte do documento
     ```cs
     // Get a reference to the Visio Document part contained in the file package.
     PackagePart documentPart = GetPackagePart(visioPackage, 
-        "https://schemas.microsoft.com/visio/2010/relationships/document");
+        "http://schemas.microsoft.com/visio/2010/relationships/document");
     
     ```
 
     ```vb
     ' Get a reference to the Visio Document part contained in the file package.
     Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-        "https://schemas.microsoft.com/visio/2010/relationships/document")
+        "http://schemas.microsoft.com/visio/2010/relationships/document")
     
     ```
 
@@ -438,9 +438,9 @@ Use o seguinte código para obter uma **PackagePart** do **Package** usando sua 
     // Get a reference to the collection of pages in the document, 
     // and then to the first page in the document.
     PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/pages");
+        "http://schemas.microsoft.com/visio/2010/relationships/pages");
     PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/page");
+        "http://schemas.microsoft.com/visio/2010/relationships/page");
     
     ```
 
@@ -448,9 +448,9 @@ Use o seguinte código para obter uma **PackagePart** do **Package** usando sua 
     ' Get a reference to the collection of pages in the document,
     ' and then to the first page in the document.
     Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/pages") 
+        "http://schemas.microsoft.com/visio/2010/relationships/pages") 
     Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/page") 
+        "http://schemas.microsoft.com/visio/2010/relationships/page") 
     ```
 
 Antes de poder fazer alterações no XML incluído em uma parte do documento, primeiro é necessário carregar o documento XML em um objeto que permita a leitura do XML, usando a classe [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) ou a classe [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx). Ambas as classes expõem métodos para tarefas como selecionar elementos XML contidos nos documentos XML; criar, ler e escrever atributos; e inserir novos elementos XML em um documento. 
@@ -1008,7 +1008,7 @@ Use o procedimento a seguir para criar uma nova parte de extensibilidade de faix
         // This code adds a new CUSTOM tab to the ribbon for this
         // document. The tab has one group that contains one button.
         XNamespace customUINS = 
-            "https://schemas.microsoft.com/office/2006/01/customui";
+            "http://schemas.microsoft.com/office/2006/01/customui";
         XDocument customUIXDoc = new XDocument(
             new XDeclaration("1.0", "utf-8", "true"),
             new XElement(customUINS + "customUI",
@@ -1042,7 +1042,7 @@ Use o procedimento a seguir para criar uma nova parte de extensibilidade de faix
         ' This code adds a new CUSTOM tab to the ribbon for this
         ' document. The tab has one group that contains one button.
         Dim customUINS As XNamespace = _
-            "https://schemas.microsoft.com/office/2006/01/customui"
+            "http://schemas.microsoft.com/office/2006/01/customui"
         Dim customUIXML = New XDocument( _
             New XDeclaration("1.0", "utf-8", "true"), _
             New XElement(customUINS + "customUI", _
@@ -1134,7 +1134,7 @@ Use o procedimento a seguir para criar uma nova parte de extensibilidade de faix
     CreateNewPackagePart(visioPackage, customUIXML, 
         new Uri("/customUI/customUI1.xml", UriKind.Relative),
         "application/xml",
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
     ```
 
     ```vb
@@ -1143,7 +1143,7 @@ Use o procedimento a seguir para criar uma nova parte de extensibilidade de faix
     CreateNewPackagePart(visioPackage, customUIXML, _
         New Uri("/customUI/customUI1.xml", UriKind.Relative), _
         "application/xml", _
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
     ```
 
 4. Escolha a tecla F5 para a solução de depuração. Quando o programa estiver concluído, escolha qualquer tecla para sair.
@@ -1160,7 +1160,7 @@ O XML criado pelo método `CreateCustomUI` é semelhante ao seguinte.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
