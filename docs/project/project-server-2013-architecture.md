@@ -1,17 +1,17 @@
 ---
 title: Arquitetura do Project Server
 manager: soliver
-ms.date: 09/17/2015
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: O Project Server 2013 integra funcionalidade de gerenciamento de projetos em um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do lado cliente (CSOM) e uma interface OData para os dados de Relatórios.
 localization_priority: Priority
-ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fd940c9ae74e04587cdfa83354b6ee71da21073c
+ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301583"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100892"
 ---
 # <a name="project-server-architecture"></a>Arquitetura do Project Server
 
@@ -226,7 +226,7 @@ As entidades lógicas, como Recurso ou Projeto, podem se estender por várias ta
   
 Os dados do Project Server para cada instância do Project Web App são armazenados em um banco de dados separado do Project com um nome diferente. Aplicativos cliente que possuem acesso direto ao Project Server podem ler diretamente as tabelas e exibições de relatórios. Para acesso remoto, os aplicativos cliente podem usar a interface OData e a interface REST para obter dados para relatórios. Os clientes devem usar apenas o CSOM ou a PSI para acessar as tabelas e exibições de rascunho, publicadas e arquivadas. O serviço de dados de relatório (RDS, que não é mostrado na Figura 3) atualiza os dados de relatório de dados publicados praticamente em tempo real. O banco de dados do Project pode estar localizado em um servidor separado.
   
-Os esquemas são documentados apenas para as tabelas e exibições de relatórios. Para uma instalação local do Project Server, você pode adicionar tabelas e exibições de relatórios para entidades que não estão definidas no esquema de banco de dados do Project. Você também pode criar bancos de dados separados para aplicativos locais personalizados. A modificação não é suportada pelas tabelas e exibições Rascunho, Publicado e Arquivo. Como o banco de dados do Project não está diretamente acessível no Project Online, as tabelas e exibições de relatório não podem ser modificadas. No entanto, se você tiver uma conta do SQL Azure, poderá criar bancos de dados separados para uso personalizado com o Project Online.
+Os esquemas são documentados apenas para as tabelas e exibições de relatórios. Para uma instalação local do Project Server, você pode adicionar tabelas e exibições de relatórios para entidades que não estão definidas no esquema de banco de dados do Project. Você também pode criar bancos de dados separados para aplicativos locais personalizados. A modificação não é suportada pelas tabelas e exibições Rascunho, Publicado e Arquivo. Se o seu aplicativo ou relatório personalizado exigir objetos SQL personalizados (por exemplo, tabelas e exibições), é recomendável criá-los em um banco de dados personalizado. Como o banco de dados do Project não está diretamente acessível no Project Online, as tabelas e exibições de relatório não podem ser modificadas. No entanto, se você tiver uma conta do SQL Azure, poderá criar bancos de dados separados para uso personalizado com o Project Online.
   
 ### <a name="event-receivers"></a>Receptores de eventos
 <a name="pj15_Architecture_EventHandlers"> </a>
