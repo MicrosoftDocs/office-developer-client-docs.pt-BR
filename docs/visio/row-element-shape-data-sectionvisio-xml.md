@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: Especifica uma entrada de dados de forma para associar dados a uma forma.
 ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/28/2019
 ms.locfileid: "32283483"
 ---
 # <a name="row-element-shape-data-section-visio-xml"></a>Elemento Row (seção Shape Data) (' Visio XML ')
