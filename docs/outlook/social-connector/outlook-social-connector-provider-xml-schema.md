@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: Todos os XML retornados por provedores do OSC em métodos de extensibilidade de provedores do OSC devem ser compatíveis com o esquema XML a seguir. O Esquema OSC é reproduzido aqui por completo.
-ms.openlocfilehash: 578f0ea0c8df4f81c51ce71b50aa2768fe930d5c
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
-ms.translationtype: HT
+ms.openlocfilehash: ad9b2833991997556f50a927d4552b68d2bfdb50
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643168"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541341"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML do provedor do Outlook Social Connector
 
@@ -28,8 +28,8 @@ Todos os XML retornados por provedores do OSC em métodos de extensibilidade de 
 -->
 <xs:schema
     xmlns:xs="https://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

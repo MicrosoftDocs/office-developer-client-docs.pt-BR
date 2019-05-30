@@ -8,23 +8,23 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: Especifica as condições meteorológicas futuras para pelo menos três dias, incluindo hoje, amanhã, depois de amanhã.
-ms.openlocfilehash: 01604796d4460cc14005ee00ea6b8f46f04d4742
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5e442ee5995bbd51c5e518162286bc199a625dbd
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339561"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540977"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>Elemento forecast (weatherType complexType) (Esquema de informações sobre o clima do Outlook)
 
 Especifica as condições meteorológicas futuras para pelo menos três dias, incluindo hoje, amanhã, depois de amanhã.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
    
 ## <a name="definition"></a>Definição

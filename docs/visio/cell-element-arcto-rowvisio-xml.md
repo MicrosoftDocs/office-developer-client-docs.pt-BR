@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha ArcTo) ('Visio XML')
+title: Elemento Cell (linha ArcTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: Contém a coordenada x, a coordenada y ou a curva de um arco circular.
-ms.openlocfilehash: 709251c40299425d59df97fc0c48901bb0204167
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6d744366cda7db0f3950ed0962c7ba5bd01b8e36
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356131"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538820"
 ---
-# <a name="cell-element-arcto-row-visio-xml"></a>Elemento Cell (Linha ArcTo) ('Visio XML')
+# <a name="cell-element-arcto-row-visio-xml"></a>Elemento Cell (linha ArcTo) (XML do Visio)
 
 Contém a coordenada x, a coordenada y ou a curva de um arco circular.
   
@@ -23,7 +23,7 @@ Contém a coordenada x, a coordenada y ou a curva de um arco circular.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

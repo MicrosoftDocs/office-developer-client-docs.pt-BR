@@ -1,5 +1,5 @@
 ---
-title: Elemento Rule (RuleSet_Type complexType) (' Visio XML ')
+title: Elemento Rule (RuleSet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: Representa uma regra de validação única em um conjunto de regras de validação de diagrama.
-ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d848ce3309d7dfc5a89b201be30ce060ec6f88f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358797"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541705"
 ---
-# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Elemento Rule (RuleSet_Type complexType) (' Visio XML ')
+# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Elemento Rule (RuleSet_Type complexType) (XML do Visio)
 
 Representa uma regra de validação única em um conjunto de regras de validação de diagrama.
   
@@ -23,7 +23,7 @@ Representa uma regra de validação única em um conjunto de regras de validaç�
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Validation. xml  <br/> |
    

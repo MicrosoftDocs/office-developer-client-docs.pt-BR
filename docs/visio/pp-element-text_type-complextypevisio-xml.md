@@ -1,5 +1,5 @@
 ---
-title: elemento PP (Text_Type complexType) (' Visio XML ')
+title: elemento PP (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
 description: Especifica o início de uma execução de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
-ms.openlocfilehash: bb2b0ab7a76c142b810ecd02dbc1b5ba7463520a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 695958c77f730abed03f50d6ad9c71f4de76dd63
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356074"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537735"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>elemento PP (Text_Type complexType) (' Visio XML ')
+# <a name="pp-element-texttype-complextype-visio-xml"></a>elemento PP (Text_Type complexType) (XML do Visio)
 
 Especifica o início de uma execução de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
   
@@ -23,7 +23,7 @@ Especifica o início de uma execução de propriedades de parágrafo. A execuç�
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    

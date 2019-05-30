@@ -1,5 +1,5 @@
 ---
-title: Elemento Masters (' Visio XML ')
+title: Elemento Masters (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: eb90df82-58b6-5d0b-6b7d-826c5c27c755
 description: Contém os elementos mestres do documento.
-ms.openlocfilehash: ea2cee2f9845f8a72220081617a11cf4f72dafd1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b2506466a5208223e3e7b9668ad6442030ec95c9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341423"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538050"
 ---
-# <a name="masters-element-visio-xml"></a>Elemento Masters (' Visio XML ')
+# <a name="masters-element-visio-xml"></a>Elemento Masters (XML do Visio)
 
 Contém os elementos mestres do documento.
   
@@ -23,7 +23,7 @@ Contém os elementos mestres do documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Masters. xml  <br/> |
    
@@ -40,7 +40,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,6 +51,6 @@ Nenhum.
    
 ### <a name="attributes"></a>Atributos
 
-Nenhuma.
+Nenhum.
   
 

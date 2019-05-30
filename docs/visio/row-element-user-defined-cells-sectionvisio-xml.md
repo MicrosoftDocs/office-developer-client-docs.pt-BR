@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção User-defined Cells) (' Visio XML ')
+title: Elemento Row (seção User-defined Cells) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Uma informação especificada pelo usuário que pode ser referenciada por outras células e ferramentas complementares.
-ms.openlocfilehash: 8852c1db31e9a9b8f0860c111da32de6d44dc7f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1573fd6ab27cc1dbec9559552ec33d9a4ad19fd2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538169"
 ---
-# <a name="row-element-user-defined-cells-section-visio-xml"></a>Elemento Row (seção User-defined Cells) (' Visio XML ')
+# <a name="row-element-user-defined-cells-section-visio-xml"></a>Elemento Row (seção User-defined Cells) (Visio XML)
 
 Uma informação especificada pelo usuário que pode ser referenciada por outras células e ferramentas complementares.
   
@@ -23,7 +23,7 @@ Uma informação especificada pelo usuário que pode ser referenciada por outras
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

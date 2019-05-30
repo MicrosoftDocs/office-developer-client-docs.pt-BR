@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção marca de ação) (' Visio XML ')
+title: Elemento Row (seção tag de ação) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 54c3315f-770f-6995-d0d8-ab66e4fe10d9
 description: Define uma marca de ação em uma forma ou a página.
-ms.openlocfilehash: 1ecdb256fbde4a667ade747c2c7216cd0d248fc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 44008d43871bfec9b5b943f19ce6ce0a069323d7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540424"
 ---
-# <a name="row-element-action-tag-section-visio-xml"></a>Elemento Row (seção marca de ação) (' Visio XML ')
+# <a name="row-element-action-tag-section-visio-xml"></a>Elemento Row (seção tag de ação) (Visio XML)
 
 Define uma marca de ação em uma forma ou a página.
   
@@ -23,7 +23,7 @@ Define uma marca de ação em uma forma ou a página.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ActionTagRow_Type](actiontagrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

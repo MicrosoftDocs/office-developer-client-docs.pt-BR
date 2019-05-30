@@ -1,5 +1,5 @@
 ---
-title: Elemento section (Sheet_Type complexType) (' Visio XML ')
+title: Elemento section (Sheet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica uma coleção de propriedades relacionadas.
-ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2862d2ccf10d235996c2a6fb26691d498bdfdbcf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "32326079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539030"
 ---
-# <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento section (Sheet_Type complexType) (' Visio XML ')
+# <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento section (Sheet_Type complexType) (XML do Visio)
 
 Especifica uma coleção de propriedades relacionadas.
   
@@ -23,7 +23,7 @@ Especifica uma coleção de propriedades relacionadas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    
@@ -70,7 +70,7 @@ O atributo **N** deste elemento **Section** deve ser um de um conjunto limitado 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|Actions  <br/> |Uma coleção de propriedades que são usadas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção Actions](actions-section.md) <br/> |
+|Ações  <br/> |Uma coleção de propriedades que são usadas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção Actions](actions-section.md) <br/> |
 |ActionTag  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Seção de marca de ação](action-tag-section.md) <br/> |
 |Conexões  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** .  <br/> ||
 |Controles  <br/> |Uma coleção de propriedades que são usadas apenas para avaliação de fórmulas. Ele deve ter um elemento pai **ShapeSheet_Type** .  <br/> |[Seção Controls](controls-section.md) <br/> |

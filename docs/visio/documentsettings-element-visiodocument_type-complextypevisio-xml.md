@@ -1,5 +1,5 @@
 ---
-title: Elemento DocumentSettings (VisioDocument_Type complexType) ("XML do Visio")
+title: Elemento DocumentSettings (VisioDocument_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: Contém elementos que especificam configurações de documentos.
-ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d8e0809afae7b3de059166343577bb58f0eb01b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315215"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540067"
 ---
-# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSettings (VisioDocument_Type complexType) ("XML do Visio")
+# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSettings (VisioDocument_Type complexType) (XML do Visio)
 
 Contém elementos que especificam configurações de documentos.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml  <br/> |
    

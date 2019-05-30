@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula C com base na linha na qual está localizada.
-ms.openlocfilehash: 5599c09ad3656653c486d7feff9aed2ee89e4614
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0284fea02c7eb890b56b6c865a69eb36662d8ae6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413364"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541887"
 ---
 # <a name="c-cell-geometry-section"></a>Célula C (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula C com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|Linha|Descrição|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | O ângulo do eixo principal do arco em relação ao eixo *x* de seu pai.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | O primeiro nó da B-spline racional não-uniforme (NURBS).  <br/> |
@@ -43,7 +43,7 @@ Para obter uma referência para a célula C pelo índice a partir de um programa
 | Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice de linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex **(linha Ellipse)  <br/> |
-| Índice da célula:  <br/> |**visEccentricityAngle** (Linha EllipticalArcTo)  <br/> |
+| Índice de célula:  <br/> |**visEccentricityAngle** (Linha EllipticalArcTo)  <br/> |
 ||**visNURBSKnotPrev** (Linha NURBSto)  <br/> |
 ||**visSplineKnot3** (Linha SplineStart)  <br/> |
 ||**visEllipseMinorX** (Linha Ellipse)  <br/> |

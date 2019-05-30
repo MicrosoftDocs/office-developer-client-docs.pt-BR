@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (' Visio XML ')
+title: Elemento Cell (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica elementos de célula que podem estar contidos em um DocumentSheet, folha de estilo, PageSheet ou ShapeSheet.
-ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2b76abeb83fb7251bf492e92d8dd1a81feeab092
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327129"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542307"
 ---
-# <a name="cell-element-visio-xml"></a>Elemento Cell (' Visio XML ')
+# <a name="cell-element-visio-xml"></a>Elemento Cell (XML do Visio)
 
 Especifica elementos de célula que podem estar contidos em um DocumentSheet, folha de estilo, PageSheet ou ShapeSheet.
   
@@ -23,7 +23,7 @@ Especifica elementos de célula que podem estar contidos em um DocumentSheet, fo
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document. xml, Pages. xml, Masters. xml, Master #. xml, Page #. xml  <br/> |
    
@@ -76,13 +76,13 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |AlignRight  <br/> |Determina a posição horizontal, em relação à origem de seu pai, de uma guia vertical ou ponto de guia ao qual a borda direita da forma está alinhada.  <br/> |[Célula AlignRight (Seção Alignment)](alignright-cell-alignment-section.md) <br/> |
 |AlignTop  <br/> |Determina a posição vertical, em relação à origem de seu pai, de uma guia horizontal ou ponto de guia ao qual a borda superior da forma está alinhada.  <br/> |[Célula AlignTop (Seção Alignment)](aligntop-cell-alignment-section.md) <br/> |
 |Ângulo  <br/> |Representa o ângulo de rotação atual da forma em relação ao pai. A fórmula padrão para determinar o ângulo de rotação de uma forma 1D é: =ATAN2(EndY-BeginY,EndX-BeginX).  <br/> |[Célula Angle (Seção Shape Transform)](angle-cell-shape-transform-section.md) <br/> |
-|AvenueSizeX  <br/> |Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).  <br/> |[Célula AvenueSizeX (Seção Page Layout)](avenuesizex-cell-page-layout-section.md) <br/> |
-|AvenueSizeY  <br/> |Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout). Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).  <br/> |[Célula AvenueSizeY (Seção Page Layout)](avenuesizey-cell-page-layout-section.md) <br/> |
+|AvenueSizeX  <br/> |Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em refazer o layout da página e, em seguida, clique em mais opções de layout).  <br/> |[Célula AvenueSizeX (Seção Page Layout)](avenuesizex-cell-page-layout-section.md) <br/> |
+|AvenueSizeY  <br/> |Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em refazer o layout da página e, em seguida, clique em mais opções de layout). Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em refazer o layout da página e, em seguida, clique em mais opções de layout).  <br/> |[Célula AvenueSizeY (Seção Page Layout)](avenuesizey-cell-page-layout-section.md) <br/> |
 |AvoidPageBreaks  <br/> |Determina se as formas podem ser posicionadas sobre quebras de página quando estão alinhadas ou espaçadas de forma incremental, ou ambos.  <br/> |[Célula AvoidPageBreaks (seção Page Layout)](avoidpagebreaks-cell-page-layout-section.md) <br/> |
 |BeginArrow  <br/> |Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu primeiro vértice. Insira um número de 0 a 45, utilize a função USE com o nome de um fim de linha personalizado ou use a caixa de diálogo Linha.  <br/> |[Célula BeginArrow (Seção Line Format)](beginarrow-cell-line-format-section.md) <br/> |
 |BeginArrowSize  <br/> |Determina o tamanho da ponta de seta no início da linha.  <br/> |[Célula BeginArrowSize (Seção Line Format)](beginarrowsize-cell-line-format-section.md) <br/> |
-|BeginX  <br/> |Representa a coordenada x do ponto inicial da forma 1D em relação à origem de seu pai. Representa a coordenada x do ponto inicial da forma 1D em relação à origem de seu pai.  <br/> |[Célula BeginX (Seção 1-D Endpoints)](beginx-cell-1-d-endpoints-section.md) <br/> |
-|BeginY  <br/> |Representa a coordenada y do ponto inicial da forma 1D em relação à origem de seu pai.  <br/> |[Célula BeginY (Seção 1-D Endpoints)](beginy-cell-1-d-endpoints-section.md) <br/> |
+|InícioX  <br/> |Representa a coordenada x do ponto inicial da forma 1D em relação à origem de seu pai. Representa a coordenada x do ponto inicial da forma 1D em relação à origem de seu pai.  <br/> |[Célula BeginX (Seção 1-D Endpoints)](beginx-cell-1-d-endpoints-section.md) <br/> |
+|InícioY  <br/> |Representa a coordenada y do ponto inicial da forma 1D em relação à origem de seu pai.  <br/> |[Célula BeginY (Seção 1-D Endpoints)](beginy-cell-1-d-endpoints-section.md) <br/> |
 |BegTrigger  <br/> |Contém uma fórmula de gatilho, gerada pelo aplicativo, que determina se o ponto inicial de uma forma 1D deve ser movido para manter sua conexão com outra forma.  <br/> |[Célula BegTrigger (Seção Glue Info)](begtrigger-cell-glue-info-section.md) <br/> |
 |BevelBottomHeight  <br/> |Determina a altura do bisel inferior de uma forma em pontos.  <br/> |[Célula BevelBottomHeight (seção chanfrar Propriedades)](bevelbottomheight-cell-bevel-properties-section.md) <br/> |
 |BevelBottomType  <br/> |Especifica o tipo de bisel inferior do bisel de uma forma.  <br/> |[Célula BevelBottomType (seção chanfrar Propriedades)](bevelbottomtype-cell-bevel-properties-section.md) <br/> |
@@ -109,21 +109,21 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |Centro  <br/> |Determina se a página de desenho ficará centralizada verticalmente na página impressa.  <br/> |[Célula CenterY (Seção Print Properties)](centery-cell-print-properties-section.md) <br/> |
 |ClippingPath  <br/> |Contém uma referência à geometria do caminho para o qual uma imagem está limitada.  <br/> |[Célula ClippingPath (seção Foreign Image Info)](clippingpath-cell-foreign-image-info-section.md) <br/> |
 |ColorSchemeIndex  <br/> |Determina o esquema de cores de um tema que é aplicado à forma, como um inteiro.  <br/> |[Célula ColorSchemeIndex (seção Theme Properties)](colorschemeindex-cell-theme-properties-section.md) <br/> |
-|Comentário  <br/> |Contém o texto exibido em um comentário.  <br/> |[Célula Comment (Seção Annotation)](comment-cell-annotation-section.md) <br/> |
+|Comentário  <br/> |Contém o texto que aparece em um comentário.  <br/> |[Célula Comment (Seção Annotation)](comment-cell-annotation-section.md) <br/> |
 |Comentário  <br/> |Contém o texto de comentário em formato de sequência de caracteres de uma forma.  <br/> |[Célula Comment (Seção Miscellaneous)](comment-cell-miscellaneous-section.md) <br/> |
-|CompoundType  <br/> |Determina o tipo composto da linha de uma forma.  <br/> |[Célula comtralhatype (seção line Format)](compoundtype-cell-line-format-section.md) <br/> |
+|CompoundType  <br/> |Determina o tipo composto da linha de uma forma.  <br/> |[Célula CompoundType (Seção Formato da linha)](compoundtype-cell-line-format-section.md) <br/> |
 |ConFixedCode  <br/> |Determina quando um conector é redirecionado.  <br/> |[Célula ConFixedCode (Seção Shape Layout)](confixedcode-cell-shape-layout-section.md) <br/> |
 |ConLineJumpCode  <br/> |Determina quando um conector salta.  <br/> |[Célula ConLineJumpCode (Seção Shape Layout)](conlinejumpcode-cell-shape-layout-section.md) <br/> |
 |ConLineJumpDirX  <br/> |Determina a direção dos saltos de linha que ocorrem em um conector dinâmico horizontal para uma forma.  <br/> |[Célula ConLineJumpDirX (Seção Shape Layout)](conlinejumpdirx-cell-shape-layout-section.md) <br/> |
 |ConLineJumpDirY  <br/> |Determina a direção dos saltos de linha que ocorrem em um conector dinâmico vertical para uma forma.  <br/> |[Célula ConLineJumpDirY (Seção Shape Layout)](conlinejumpdiry-cell-shape-layout-section.md) <br/> |
-|ConLineJumpStyle  <br/> |Determina o estilo de saltos de linha em um conector dinâmico.  <br/> |[Célula ConLineJumpStyle (Seção Shape Layout)](conlinejumpstyle-cell-shape-layout-section.md) <br/> |
+|ConLineJumpStyle  <br/> |Determina o estilo de salto da linha para os saltos de linha em um conector dinâmico.  <br/> |[Célula ConLineJumpStyle (Seção Shape Layout)](conlinejumpstyle-cell-shape-layout-section.md) <br/> |
 |ConLineRouteExt  <br/> |Determina a aparência de um conector.  <br/> |[Célula ConLineRouteExt (Seção Shape Layout)](conlinerouteext-cell-shape-layout-section.md) <br/> |
 |ConnectorSchemeIndex  <br/> |Determina o esquema de conector de um tema que é aplicado à forma, como um inteiro.  <br/> |[Célula ConnectorSchemeIndex (seção Theme Properties)](connectorschemeindex-cell-theme-properties-section.md) <br/> |
 |Contraste  <br/> |Ajusta o contraste de uma imagem de bitmap.  <br/> |[Célula Contrast (Seção Image Properties)](contrast-cell-image-properties-section.md) <br/> |
 |Direitos autorais  <br/> |Contém uma cadeia de caracteres que representa uma declaração de direitos autorais legível por pessoas  <br/> ||
 |CtrlAsInput  <br/> |Determina a forma pai ao utilizar formas com alças de controle. Esta célula determina o comportamento de todas as formas na página de desenho.  <br/> |[Célula CtrlAsInput (Seção Page Layout)](ctrlasinput-cell-page-layout-section.md) <br/> |
 |DefaultTabStop  <br/> |Determina o intervalo das paradas de tabulação padrão em um bloco de texto.  <br/> |[Célula DefaultTabstop (Seção Text Block Format)](defaulttabstop-cell-text-block-format-section.md) <br/> |
-|Denoise  <br/> |Remove os ruídos (pixels com níveis de cor distribuídos aleatoriamente) de uma imagem de bitmap.  <br/> |[Célula Denoise (Seção Image Properties)](denoise-cell-image-properties-section.md) <br/> |
+|Clareza  <br/> |Remove os ruídos (pixels com níveis de cor distribuídos aleatoriamente) de uma imagem de bitmap.  <br/> |[Célula Denoise (Seção Image Properties)](denoise-cell-image-properties-section.md) <br/> |
 |DisplayLevel  <br/> |Determina a faixa de níveis de exibição (o intervalo relativo do agrupamento da ordem Z) para a forma.  <br/> |[Célula DisplayLevel (seção Shape layout)](displaylevel-cell-shape-layout-section.md) <br/> |
 |DisplayMode  <br/> |Determina como a forma do grupo e seus membros são exibidos.  <br/> |[Célula DisplayMode (Seção Group Properties)](displaymode-cell-group-properties-section.md) <br/> |
 |DisplayMode  <br/> |Determina se a marca de ação é exibida quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.  <br/> |[Célula DisplayMode (Seção Smart Tags)](displaymode-cell-action-tags-section.md) <br/> |
@@ -134,7 +134,7 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |DontMoveChildren  <br/> |Determina se é possível arrastar formas em um grupo usando o mouse.  <br/> |[Célula DontMoveChildren (Seção Group Properties)](dontmovechildren-cell-group-properties-section.md) <br/> |
 |DrawingResizeType  <br/> |Determina se a página de desenho é redimensionada automaticamente para caber no diagrama.  <br/> |[Célula DrawingResizeType (seção Page Properties)](drawingresizetype-cell-page-properties-section.md) <br/> |
 |DrawingScale  <br/> |Representa o valor da unidade de desenho na escala de desenho atual.  <br/> |[Célula DrawingScale (Seção Page Properties)](drawingscale-cell-page-properties-section.md) <br/> |
-|DrawingScaleType  <br/> |Determina a escala do desenho selecionada na caixa de diálogo Configurar Página (clique na seta Configurar Página na guia Página Inicial).  <br/> |[Célula DrawingScaleType (Seção Page Properties)](drawingscaletype-cell-page-properties-section.md) <br/> |
+|DrawingScaleType  <br/> |Determina a escala de desenho selecionada na caixa de diálogo Configurar Página (clique na seta Configurar Página na guia Início).  <br/> |[Célula DrawingScaleType (Seção Page Properties)](drawingscaletype-cell-page-properties-section.md) <br/> |
 |DrawingSizeType  <br/> |Determina o tamanho do desenho.  <br/> |[Célula DrawingSizeType (Seção Page Properties)](drawingsizetype-cell-page-properties-section.md) <br/> |
 |DropOnPageScale  <br/> |Contém o percentual da escala de uma forma quando colocada na página de desenho.  <br/> |[Célula DropOnPageScale (Seção Miscellaneous)](droponpagescale-cell-miscellaneous-section.md) <br/> |
 |DynamicsOff  <br/> |Determina se as formas de colocação serão movidas e se os conectores serão redirecionados em torno de outras formas e outros conectores na página de desenho.  <br/> |[Célula DynamicsOff (Seção Page Layout)](dynamicsoff-cell-page-layout-section.md) <br/> |
@@ -287,7 +287,7 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |QuickStyleVariation  <br/> |Garante a visibilidade de cores de texto, linha e/ou preenchimento em uma forma contra um plano de fundo de diagrama com tema.  <br/> ||
 |ReflectionBlur  <br/> |Determina a quantidade de desfoque para um reflexo em uma forma, em pontos entre 0,0 e 100,0.  <br/> |[Célula ReflectionBlur (seção Additional Effect Properties)](reflectionblur-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionDist  <br/> |Determina a distância em que um reflexo é deslocado de uma forma, em pontos de 0,0 a 100,0.  <br/> |[Célula ReflectionDist (seção Additional Effect Properties)](reflectiondist-cell-additional-effect-properties-section.md) <br/> |
-|ReflectionSize  <br/> |Determina o tamanho da reflexão em relação à forma, como uma porcentagem de 0,0 a 100,0%. Uma forma com um valor de 0% na célula reFlexõesize não tem uma reflexão; um valor de 100% exibe uma imagem espelho completa da forma.  <br/> |[Célula reflexões (seção Additional Effect Properties)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
+|ReflectionSize  <br/> |Determina o tamanho da reflexão em relação à forma, como uma porcentagem de 0,0 a 100,0%. Uma forma com um valor de 0% na célula reflexõesize não tem uma reflexão; um valor de 100% exibe uma imagem espelho completa da forma.  <br/> |[Célula reflexões (seção Additional Effect Properties)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionTrans  <br/> |Determina a transparência da reflexão, como uma porcentagem de 0 a 100%.  <br/> |[Célula ReflectionTrans (seção Additional Effect Properties)](reflectiontrans-cell-additional-effect-properties-section.md) <br/> |
 |Relações  <br/> |Armazena as relações entre contêineres, listas, textos explicativos e formas.  <br/> |[Célula Relationships (seção Shape layout)](relationships-cell-shape-layout-section.md) <br/> |
 |ReplaceCopyCells  <br/> |Indica uma lista de células no ShapeSheet que são copiadas de uma forma antiga para a forma de substituição durante uma operação de substituição de forma.  <br/> |[Célula ReplaceCopyCells (seção Change Shape Behavior)](replacecopycells-cell-change-shape-behavior-section.md) <br/> |
@@ -298,7 +298,7 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |ResizePage  <br/> |Determina se a página de ser ampliada para incluir o desenho depois que as formas são dispostas usando a caixa de diálogo Configurar Layout (na guia Design, do grupo Layout, clique em Refazer o Layout da Página e em Mais Opções de Layout).  <br/> |[Célula ResizePage (Seção Page Layout)](resizepage-cell-page-layout-section.md) <br/> |
 |RightMargin  <br/> |Determina a distância entre a borda direita do bloco de texto e o texto contido nele. O padrão é 0,1 polegada.  <br/> |[Célula RightMargin (Seção Text Block Format)](rightmargin-cell-text-block-format-section.md) <br/> |
 |RotateGradientWithShape  <br/> |Determina se um gradiente de preenchimento gira com uma forma em rotação 2D, como um Boolean.  <br/> |[Célula RotateGradientWithShape (seção Gradient Properties)](rotategradientwithshape-cell-gradient-properties-section.md) <br/> |
-|RotationType  <br/> |Determina se a forma segue uma rotação paralela, uma rotação de perspectiva ou uma rotação oblíqua, como um inteiro de 0 a 6.  <br/> |[Célula Rotationtype (seção 3-D Rotation Properties)](rotationtype-cell-3-d-rotation-properties-section.md) <br/> |
+|RotationType  <br/> |Determina se a forma segue uma rotação paralela, uma rotação de perspectiva ou uma rotação oblíqua, como um inteiro de 0 a 6.  <br/> |[Célula rotationtype (seção 3-D Rotation Properties)](rotationtype-cell-3-d-rotation-properties-section.md) <br/> |
 |RotationXAngle  <br/> |Determina o ângulo de rotação ao longo do eixo X, em graus (0,0-359,9).  <br/> |[Célula RotationXAngle (seção 3-D Rotation Properties)](rotationxangle-cell-3-d-rotation-properties-section.md) <br/> |
 |RotationYAngle  <br/> |Determina o ângulo de rotação ao longo do eixo Y, em graus (0,0-359,9).  <br/> |[Célula RotationYAngle (seção 3-D Rotation Properties)](rotationyangle-cell-3-d-rotation-properties-section.md) <br/> |
 |RotationZAngle  <br/> |Determina o ângulo de rotação ao longo do eixo Z, em graus (0,0-359,9).  <br/> |[Célula RotationZAngle (seção 3-D Rotation Properties)](rotationzangle-cell-3-d-rotation-properties-section.md) <br/> |
@@ -313,7 +313,7 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |ShapePermeableX  <br/> |Determina se um conector pode fazer o roteamento horizontalmente por uma forma de colocação.  <br/> |[Célula ShapePermeableX (Seção Shape Layout)](shapepermeablex-cell-shape-layout-section.md) <br/> |
 |ShapePermeableY  <br/> |Determina se um conector pode fazer o roteamento verticalmente por uma forma.  <br/> |[Célula ShapePermeableY (Seção Shape Layout)](shapepermeabley-cell-shape-layout-section.md) <br/> |
 |ShapePlaceFlip  <br/> |Determina como as formas de colocação são invertidas, giradas, ou ambos, na página ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, do grupo Layout, clique em Refazer o Layout da Página e em Mais Opções de Layout).  <br/> |[Célula ShapePlaceFlip (Seção Shape Layout)](shapeplaceflip-cell-shape-layout-section.md) <br/> |
-|ShapePlaceStyle  <br/> |Especifica como as formas são colocadas na página quando as formas são colocadas na caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout). Armazena valores de estilo e alinhamento de layout de VisCellIndices.  <br/> |[Célula ShapePlaceStyle (seção Shape layout)](shapeplacestyle-cell-shape-layout-section.md) <br/> |
+|ShapePlaceStyle  <br/> |Especifica como as formas são colocadas na página quando as formas são colocadas na caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em refazer o layout da página e, em seguida, clique em mais opções de layout). Armazena valores de estilo e alinhamento de layout de VisCellIndices.  <br/> |[Célula ShapePlaceStyle (seção Shape layout)](shapeplacestyle-cell-shape-layout-section.md) <br/> |
 |ShapePlowCode  <br/> |Determina se esta forma de colocação será movida ao soltar outra forma de colocação próxima a esta forma na página de desenho.  <br/> |[Célula ShapePlowCode (Seção Shape Layout)](shapeplowcode-cell-shape-layout-section.md) <br/> |
 |ShapeRouteStyle  <br/> |Determina o estilo de roteamento e a direção de um conector selecionado na página de desenho.  <br/> |[Célula ShapeRouteStyle (Seção Shape Layout)](shaperoutestyle-cell-shape-layout-section.md) <br/> |
 |ShapeShdwBlur  <br/> |Determina o tamanho do desfoque para a sombra de uma forma, em pontos (0, 0 a 100, 0).  <br/> |[Célula ShapeShdwBlur (seção Fill Format)](shapeshdwblur-cell-fill-format-section.md) <br/> |
@@ -344,7 +344,7 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |TextBkgnd  <br/> |Determina a cor do plano de fundo do texto de uma forma.  <br/> |[Célula TextBkgnd (Seção Text Block Format)](textbkgnd-cell-text-block-format-section.md) <br/> |
 |TextBkgndTrans  <br/> |Determina o nível de transparência para a cor do plano de fundo do bloco de texto da forma.  <br/> |[Célula TextBkgndTrans (Seção Text Block Format)](textbkgndtrans-cell-text-block-format-section.md) <br/> |
 |TextDirection  <br/> |Determina a direção dos caracteres em um bloco de texto.  <br/> |[Célula TextDirection (Seção Text Block Format)](textdirection-cell-text-block-format-section.md) <br/> |
-|TheData  <br/> |Reservado para uso futuro.  <br/> |[Célula TheData (Seção Events)](thedata-cell-events-section.md) <br/> |
+|TheData  <br/> |Reserved for future use.  <br/> |[Célula TheData (Seção Events)](thedata-cell-events-section.md) <br/> |
 |ThemeIndex  <br/> |Armazena a enumeração do tema interno do Microsoft Visio aplicado ao documento, como um inteiro. Quando um novo tema é escolhido para o documento, a célula ThemeIndex do documento e todas as páginas e formas que ele contém são atualizadas com o índice do tema interno.  <br/> |[Célula ThemeIndex (seção Theme Properties)](themeindex-cell-theme-properties-section.md) <br/> |
 |TheText  <br/> |Uma célula de evento avaliada quando a composição do texto ou o texto da forma é alterado.  <br/> |[Célula TheText (Seção Events)](thetext-cell-events-section.md) <br/> |
 |TopMargin  <br/> |Determina a distância entre a borda superior do bloco de texto e a primeira linha do texto. O padrão é 4,0000 ponto. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, a margem superior será a mesma.  <br/> |[Célula TopMargin (Seção Text Block Format)](topmargin-cell-text-block-format-section.md) <br/> |

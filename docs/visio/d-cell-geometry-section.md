@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula D com base na linha na qual está localizada.
-ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a76093f028986907b58175bc6b8c81a7056cfe07
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424375"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542496"
 ---
 # <a name="d-cell-geometry-section"></a>Célula D (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula D com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|Linha|Descrição|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A razão entre os eixos principal e secundário de um arco. Apesar do significado comum dessas palavras, o eixo "principal" não precisa ser maior que o eixo "secundário". Logo, a razão não precisa ser maior que 1. Definir esta célula para um valor menor ou igual a 0, ou maior que 1000, pode ocasionar resultados imprevisíveis.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A primeira espessura da B-spline racional não-uniforme (NURBS).  <br/> |

@@ -1,25 +1,25 @@
 ---
-title: Scratch_Type complexType (' Visio XML ')
+title: Scratch_Type complexType (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1e3dd8c8-e84c-61ff-bfff-57d97545e441
-ms.openlocfilehash: 4002466eb98beac889fb27b2aec07aa6a5e31ceb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 434565cafe7d4345f3da7727760b21bfc186ee96
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335543"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539051"
 ---
-# <a name="scratchtype-complextype-visio-xml"></a>Scratch_Type complexType (' Visio XML ')
+# <a name="scratchtype-complextype-visio-xml"></a>Scratch_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base da extensão** <br/> |Section_Type  <br/> |
    
@@ -54,6 +54,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

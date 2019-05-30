@@ -7,12 +7,12 @@ ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: c91f43001d6c56ad3b4c316aede9845a5e0a0064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 75f414d95818b618cfcae236822bb2f5dacdf5f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349487"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540802"
 ---
 # <a name="create-a-view"></a>Criar um modo de exibição
 
@@ -74,7 +74,7 @@ A adição de um novo modo de exibição gera o evento [ViewAdd](https://msdn.mi
 
 O exemplo de código a seguir, CreateMeetingRequestsView, adiciona um novo modo de exibição chamado “Meeting Requests” à Caixa de Entrada do usuário gerando um objeto **View** para um objeto **TableView**. CreateMeetingRequestsView chama o método **Add** do objeto **Views** com o parâmetro *Name* definido para “Meeting Requests” e o parâmetro *ViewType* definido para **olTableView**. A propriedade [Filter](https://msdn.microsoft.com/library/bb610296\(v=office.15\)) do objeto **TableView** é definida para uma cadeia de caracteres DAV Searching and Locating (DASL), que faz com que o modo de exibição exiba apenas quando houver itens que contêm “IPM.Schedule” na classe de mensagem do item. Então, o novo modo de exibição é salvo e aplicado.
 
-Se você usar o Visual Studio para testar este exemplo de código, deve adicionar primeiro uma referência ao componente da Biblioteca de Objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -85,7 +85,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void CreateMeetingRequestsView()
 {
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.Views views =
         Application.Session.GetDefaultFolder(
         Outlook.OlDefaultFolders.olFolderInbox).Views;

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula B com base na linha na qual está localizada.
-ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 46c8aa418f495905630fed2833d84afc93945346
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423304"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537791"
 ---
 # <a name="b-cell-geometry-section"></a>Célula B (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula B com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|Linha|Descrição|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *y* do ponto de controle de um arco.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A última espessura da B-spline racional não-uniforme (NURBS).  <br/> |

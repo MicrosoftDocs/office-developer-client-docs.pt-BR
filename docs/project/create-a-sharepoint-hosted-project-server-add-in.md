@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: Dos três tipos de aplicativo que você pode criar para o Project Online (hospedado automaticamente, hospedado pelo provedor e hospedado pelo SharePoint), o aplicativo hospedado pelo SharePoint é o mais simples de criar e implantar.
-ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325873"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540837"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Criar um suplemento do Project Server hospedado pelo SharePoint
 
@@ -541,7 +541,7 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -1141,7 +1141,7 @@ A definição XML a seguir, para o botão adicionado à guia **TAREFAS** na faix
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1185,7 +1185,7 @@ A seguir, o XML para o manifesto do aplicativo do projeto **QuickStatus**, que i
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"

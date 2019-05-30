@@ -1,5 +1,5 @@
 ---
-title: Elemento AuthorEntry (AuthorList_Type complexType) ('Visio XML')
+title: Elemento AuthorEntry (AuthorList_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
 description: Especifica propriedades usadas para identificar o autor de um comentário em um desenho.
-ms.openlocfilehash: 81e5121a953102c7d2e3a5383ae9bc775af4ba41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 29dc4459d0df3b914d61140cb2c5f33cc3e1306e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338623"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537903"
 ---
-# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) ('Visio XML')
+# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) (XML do Visio)
 
 Especifica propriedades usadas para identificar o autor de um comentário em um desenho.
   
@@ -23,7 +23,7 @@ Especifica propriedades usadas para identificar o autor de um comentário em um 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |comments.xml  <br/> |
    

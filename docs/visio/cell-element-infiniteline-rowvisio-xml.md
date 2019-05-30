@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha InfiniteLine) ('Visio XML')
+title: Elemento Cell (linha InfiniteLine) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contém as coordenadas x ou y de dois pontos em uma linha infinita.
-ms.openlocfilehash: 1dde7958116824efffce6247855a959fee61e869
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1198e516a15e829b9a2da23491ca5f75e88a8e7d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348983"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539769"
 ---
-# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento Cell (Linha InfiniteLine) ('Visio XML')
+# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento Cell (linha InfiniteLine) (Visio XML)
 
 Contém as coordenadas x ou y de dois pontos em uma linha infinita.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

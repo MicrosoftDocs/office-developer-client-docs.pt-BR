@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Paragraph) ('Visio XML')
+title: Elemento Cell (seção Paragraph) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
 description: Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.
-ms.openlocfilehash: 2647ce92b38234e4d6fc4d6bc59188d468332ca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fbb837b96d40f412ddefdf1fac9da0d31a709e39
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344839"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539478"
 ---
-# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento Cell (Seção Paragraph) ('Visio XML')
+# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento Cell (seção Paragraph) (Visio XML)
 
 Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

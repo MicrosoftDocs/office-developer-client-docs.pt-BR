@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 36d75c0a3a5f4767bfb0eeb0f9ae3d0c249b084b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ed73c0947e51150dd15617a95a99cd709101eb9e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316545"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541915"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>Mapear nomes de propriedades canônicas para nomes MAPI
 
@@ -317,7 +317,7 @@ Para obter mais informações sobre como as propriedades canônicas se relaciona
 |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |ByteCount  <br/> |
 |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Categoria  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
-|[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comentários  <br/> |
+|[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comments  <br/> |
 |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Empresa  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Conteúdo-base  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Classe de conteúdo  <br/> |
@@ -326,7 +326,7 @@ Para obter mais informações sobre como as propriedades canônicas se relaciona
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |CreateDtmRo  <br/> |
 |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Xref  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
-|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
 |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Palavras-chave  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
@@ -336,7 +336,7 @@ Para obter mais informações sobre como as propriedades canônicas se relaciona
 |[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Gerente  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |MMClipCount  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |NoteCount  <br/> |
-|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |[PidNamePageCount](pidnamepagecount-canonical-property.md) <br/> |PageCount  <br/> |
 |[PidNameParagraphCount](pidnameparagraphcount-canonical-property.md) <br/> |ParCount  <br/> |
 |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |PresFormat  <br/> |
@@ -344,7 +344,7 @@ Para obter mais informações sobre como as propriedades canônicas se relaciona
 |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |DRMLicense  <br/> |
 |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |Segurança  <br/> |
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
-|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Assunto  <br/> |
+|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Modelo  <br/> |
 |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Título  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |

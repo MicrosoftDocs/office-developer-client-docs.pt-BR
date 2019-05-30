@@ -7,12 +7,12 @@ ms:contentKeyID: 55119800
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 677325df863e5b5a52856abb01f55bdb8884bbe8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320115"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542524"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Identificar a lista de endereços global ou um conjunto de listas de endereços de um armazenamento
 
@@ -24,9 +24,9 @@ Em uma sessão do Outlook onde várias contas do Exchange são definidas no perf
 
 O primeiro exemplo código contém o método DisplayGlobalAddressListForStore e a função GetGlobalAddressList. O método DisplayGlobalAddressListForStore é exibido, na caixa de diálogo**selecionar nomes** a lista de endereços global que está associada ao repositório de dados atual. Primeiro, o DisplayGlobalAddressListForStore obtém o armazenamento atual. Se o repositório de dados atual for um repositório do Exchange, GetGlobalAddressList é chamado para obter a lista de endereços Global associada ao repositório de dados atual. 
 
-GetGlobalAddressList usa o objeto[PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\))e a propriedade MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 para obter a propriedade PR\_EMSMDB\_SECTION\_UID dO repositório de dados atual e de uma lista de endereços. A GetGlobalAddressList identifica uma lista de endereços como associada a um repositório se as propriedades PR\_EMSMDB\_SECTION\_UID forem correspondentes e se a lista de endereços se a lista de endereços Global for a  [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) e a propriedade [olExchangeGlobalAddressList](https://msdn.microsoft.com/library/bb644009\(v=office.15\)). Se a chamada para a GetGlobalAddressList for concluída, a DisplayGlobalAddressListForStore usa o objeto[SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a lista de endereços Global retornada na caixa de diálogo **selecionar nomes**.
+GetGlobalAddressList usa o objeto[PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\))e a propriedade MAPI http://schemas.microsoft.com/mapi/proptag/0x3D150102 para obter a propriedade PR\_EMSMDB\_SECTION\_UID dO repositório de dados atual e de uma lista de endereços. A GetGlobalAddressList identifica uma lista de endereços como associada a um repositório se as propriedades PR\_EMSMDB\_SECTION\_UID forem correspondentes e se a lista de endereços se a lista de endereços Global for a  [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) e a propriedade [olExchangeGlobalAddressList](https://msdn.microsoft.com/library/bb644009\(v=office.15\)). Se a chamada para a GetGlobalAddressList for concluída, a DisplayGlobalAddressListForStore usa o objeto[SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a lista de endereços Global retornada na caixa de diálogo **selecionar nomes**.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente de biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A seguinte linha de código mostra como fazer a importação e de tarefa em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -57,7 +57,7 @@ void DisplayGlobalAddressListForStore()
 public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 {
     string  PR_EMSMDB_SECTION_UID = 
-        @"https://schemas.microsoft.com/mapi/proptag/0x3D150102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x3D150102";
     if (store == null)
     {
         throw new ArgumentNullException();
@@ -86,7 +86,7 @@ public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 
 O segundo exemplo de código contém o método EnumerateAddressListsForStore e a função GetAddressLists. O método EnumerateAddressListsForStore exibe a ordem de tipo e resolução de cada lista de endereços definida para o repositório de dados atual. EnumerateAddressListsForStore primeiro obtém o armazenamento atual e liga a GetAddressLists para obter uma lista genérica do .NET Framework [do objeto\<T\> ](https://msdn.microsoft.com/en-us/library/6sh2ey19) que contém objetos AddressList para o armazenamento atual. 
 
-GetAddressLists enumera cada lista de endereços definida para a sessão, usa o objeto PropertyAccessor e a propriedade nomeada MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 para obter a propriedade PR\_EMSMDB\_SECTION\_UID de uma lista de endereços e a propriedade PR\_EMSMDB\_SECTION\_de uma loja atual. GetGlobalAddressList identifica uma lista de endereços como associada a um repositório se sua propriedade PR\_EMSMDB\_SECTION\_UID corresponder e retornar  um conjunto de lista de endereços para o armazenamento atual. EnumerateAddressListsForStore usa as propriedades [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) e [ResolutionOrder](https://msdn.microsoft.com/library/bb646853\(v=office.15\)) do objeto **AddressList** para exibir o tipo e a resolução ordem para cada lista de endereços retornada.
+GetAddressLists enumera cada lista de endereços definida para a sessão, usa o objeto PropertyAccessor e a propriedade nomeada MAPI http://schemas.microsoft.com/mapi/proptag/0x3D150102 para obter a propriedade PR\_EMSMDB\_SECTION\_UID de uma lista de endereços e a propriedade PR\_EMSMDB\_SECTION\_de uma loja atual. GetGlobalAddressList identifica uma lista de endereços como associada a um repositório se sua propriedade PR\_EMSMDB\_SECTION\_UID corresponder e retornar  um conjunto de lista de endereços para o armazenamento atual. EnumerateAddressListsForStore usa as propriedades [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) e [ResolutionOrder](https://msdn.microsoft.com/library/bb646853\(v=office.15\)) do objeto **AddressList** para exibir o tipo e a resolução ordem para cada lista de endereços retornada.
 
 ```csharp
 private void EnumerateAddressListsForStore()
@@ -110,7 +110,7 @@ public List<Outlook.AddressList> GetAddressLists(Outlook.Store store)
     List<Outlook.AddressList> addrLists = 
         new List<Microsoft.Office.Interop.Outlook.AddressList>();
     string PR_EMSMDB_SECTION_UID =
-        @"https://schemas.microsoft.com/mapi/proptag/0x3D150102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x3D150102";
     if (store == null)
     {
         throw new ArgumentNullException();

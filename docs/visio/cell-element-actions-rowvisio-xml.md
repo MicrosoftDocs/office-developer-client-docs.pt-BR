@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha Actions) ("XML do Visio")
+title: Elemento Cell (linha Actions) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de marca de ação ou atalho.
-ms.openlocfilehash: 01b81a593de07be8059263d7a6e6538f31ed3be1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8cce85bdfb7d0ce54d968e00cda56e4e6c2455bc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356270"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538778"
 ---
-# <a name="cell-element-actions-row-visio-xml"></a>Elemento Cell (Linha Actions) ("XML do Visio")
+# <a name="cell-element-actions-row-visio-xml"></a>Elemento Cell (linha Actions) (Visio XML)
 
 Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de marca de ação ou atalho.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

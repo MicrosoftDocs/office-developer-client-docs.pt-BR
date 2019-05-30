@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha RelEllipticalArcTo) ('Visio XML')
+title: Elemento Cell (linha RelEllipticalArcTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico relativas à largura e altura da forma, as coordenadas x ou y dos pontos de controle no arco relativas à largura e altura da forma, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.
-ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 84d7fe222cd46b54f38bc03e058103cc1d7a9620
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339547"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539429"
 ---
-# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento Cell (Linha RelEllipticalArcTo) ('Visio XML')
+# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento Cell (linha RelEllipticalArcTo) (XML do Visio)
 
 Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico relativas à largura e altura da forma, as coordenadas x ou y dos pontos de controle no arco relativas à largura e altura da forma, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Elemento de texto (ShapeSheet_Type complexType) (' Visio XML ')
+title: Elemento Text (ShapeSheet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46211968-9ad8-07da-f725-3ad136b7a8a1
 description: Contém o texto de uma forma.
-ms.openlocfilehash: f2c809d7db895a3635a5898d83d4583cd38f1249
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4b03bc2539b80e49daae9d14f3e2ad07a51de9f1
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332343"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541922"
 ---
-# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Elemento de texto (ShapeSheet_Type complexType) (' Visio XML ')
+# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Elemento Text (ShapeSheet_Type complexType) (XML do Visio)
 
 Contém o texto de uma forma.
   
@@ -23,7 +23,7 @@ Contém o texto de uma forma.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    
@@ -55,6 +55,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

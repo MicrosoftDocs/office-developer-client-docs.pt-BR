@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha MoveTo) ('Visio XML')
+title: Elemento Cell (linha MoveTo) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: Contém as coordenadas x ou y do primeiro vértice de uma forma ou representa as coordenadas x ou y do primeiro vértice depois de uma quebra no caminho.
-ms.openlocfilehash: 12c36b009b019592ae48d24a0e16c3edcd6110e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f0cbe7170bf4462b9aece211a149af396c132766
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318071"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539513"
 ---
-# <a name="cell-element-moveto-row-visio-xml"></a>Elemento Cell (Linha MoveTo) ('Visio XML')
+# <a name="cell-element-moveto-row-visio-xml"></a>Elemento Cell (linha MoveTo) (Visio XML)
 
 Contém as coordenadas x ou y do primeiro vértice de uma forma ou representa as coordenadas x ou y do primeiro vértice depois de uma quebra no caminho.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

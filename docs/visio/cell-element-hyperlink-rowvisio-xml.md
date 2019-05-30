@@ -1,29 +1,29 @@
 ---
-title: Elemento Cell (Linha Hiperlink) ('Visio XML')
+title: Elemento Cell (linha Hyperlink) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
-description: Contém as informações de um hiperlink único associado a uma forma. Uma forma conterá uma linha Hiperlink para cada hiperlink.
-ms.openlocfilehash: 6644dc70f3d3616e5c20587db4eabaaf773c31d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contém as informações de um hiperlink único associado a uma forma. Uma forma conterá uma linha Hyperlink para cada hiperlink.
+ms.openlocfilehash: f9526b3e4bb7dc9216a0b72c0a816e136c6e89bf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356060"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539790"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento Cell (Linha Hiperlink) ('Visio XML')
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento Cell (linha Hyperlink) (Visio XML)
 
 Contém as informações de um hiperlink único associado a uma forma. Uma forma conterá uma linha **Hiperlink** para cada hiperlink. 
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

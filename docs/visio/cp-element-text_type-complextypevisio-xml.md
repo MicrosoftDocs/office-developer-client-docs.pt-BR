@@ -1,5 +1,5 @@
 ---
-title: Elemento cp (Text_Type complexType) ('Visio XML')
+title: elemento CP (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
 description: Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até a próxima marcação.
-ms.openlocfilehash: eb7fd30c2314e159dc3649e87cd63bd4090ba283
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 70f7d3f8333ff0f2c109862455fbd8cc3b340bf4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282947"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540557"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>Elemento cp (Text_Type complexType) ('Visio XML')
+# <a name="cp-element-texttype-complextype-visio-xml"></a>elemento CP (Text_Type complexType) (XML do Visio)
 
 Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até a próxima marcação.
   
@@ -23,7 +23,7 @@ Marca o início de uma execução de propriedades de caracteres que é formatada
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    

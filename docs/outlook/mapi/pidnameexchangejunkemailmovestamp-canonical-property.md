@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 07acfd8715dccad8833ee14ac8e573fb995539ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 098261cd71631e4816d22272e1b1bef1d5932a94
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337944"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540942"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Propriedade canônica PidNameExchangeJunkEmailMoveStamp
 
@@ -31,7 +31,7 @@ Contém o valor da mensagem persistente que indica que a mensagem não deve ser 
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Conjunto de propriedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nome da propriedade:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|Nome da propriedade:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensagens seguras  <br/> |
    

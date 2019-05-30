@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
-ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7009658c7a6844a5c6071f502c05114a4accd7b7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432916"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541299"
 ---
 # <a name="a-cell-geometry-section"></a>Célula A (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula A com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|Linha|Descrição|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | A distância do ponto médio de um arco até o ponto médio de sua corda.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *x* do ponto de controle do arco, um ponto no arco. O ponto de controle é melhor localizado sobre a metade entre os vértices inicial e final do arco. Caso contrário, o arco pode chegar a um tamanho extremo para passar pelo ponto de controle, com resultados imprevisíveis.  <br/> |

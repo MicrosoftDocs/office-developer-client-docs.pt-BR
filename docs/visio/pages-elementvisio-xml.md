@@ -1,5 +1,5 @@
 ---
-title: Elemento pages (' Visio XML ')
+title: Elemento pages (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Contém os elementos de página do documento.
-ms.openlocfilehash: f4062c83f4b017fde7e1d5d4c568f7c9728e3334
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 09feb09e6a01187892ba2756fb1c99dd1ef2f845
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339575"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538974"
 ---
-# <a name="pages-element-visio-xml"></a>Elemento pages (' Visio XML ')
+# <a name="pages-element-visio-xml"></a>Elemento pages (XML do Visio)
 
 Contém os elementos de página do documento.
   
@@ -23,7 +23,7 @@ Contém os elementos de página do documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Pages. xml  <br/> |
    
@@ -40,7 +40,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,6 +50,6 @@ Nenhum.
    
 ### <a name="attributes"></a>Atributos
 
-Nenhuma.
+Nenhum.
   
 

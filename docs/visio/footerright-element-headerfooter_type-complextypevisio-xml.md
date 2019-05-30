@@ -1,5 +1,5 @@
 ---
-title: Elemento FooterRight (HeaderFooter_Type complexType) (' Visio XML ')
+title: Elemento FooterRight (HeaderFooter_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ad752f2d-25c9-8890-885b-87266a8052b8
 description: Contém a cadeia de caracteres de texto que aparece na parte direita do rodapé de um documento.
-ms.openlocfilehash: 9977f0e86527b9e66784b2cd8ad0f2554030f7db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e3aa56790e7875ee2ef146b6234c02eafc2ede8b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346085"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538624"
 ---
-# <a name="footerright-element-headerfootertype-complextype-visio-xml"></a>Elemento FooterRight (HeaderFooter_Type complexType) (' Visio XML ')
+# <a name="footerright-element-headerfootertype-complextype-visio-xml"></a>Elemento FooterRight (HeaderFooter_Type complexType) (XML do Visio)
 
 Contém a cadeia de caracteres de texto que aparece na parte direita do rodapé de um documento.
   
@@ -23,7 +23,7 @@ Contém a cadeia de caracteres de texto que aparece na parte direita do rodapé 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml  <br/> |
    
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

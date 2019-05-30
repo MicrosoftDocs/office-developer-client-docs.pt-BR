@@ -8,23 +8,23 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Especifica as condições meteorológicas de um local.
-ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18669dfc4636c28e03a582bc0c8df512aa38a4e4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355143"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541264"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>Elemento weather (elemento weatherdata) (Esquema de informações sobre o clima do Outlook)
 
 Especifica as condições meteorológicas de um local.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
    
 ## <a name="definition"></a>Definição

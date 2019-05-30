@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção tabs) (' Visio XML ')
+title: Elemento Row (seção tabs) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: Contém as células para as formas ou os estilos que controlam o alinhamento e a posição de paradas de tabulação.
-ms.openlocfilehash: 3299a35a3f7391e587a31869adf64caf3c614f08
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 530d2e564615f33292b52f9aa860c0cf2794bc67
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326758"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538176"
 ---
-# <a name="row-element-tabs-section-visio-xml"></a>Elemento Row (seção tabs) (' Visio XML ')
+# <a name="row-element-tabs-section-visio-xml"></a>Elemento Row (seção tabs) (XML do Visio)
 
 Contém as células para as formas ou os estilos que controlam o alinhamento e a posição de paradas de tabulação.
   
@@ -23,7 +23,7 @@ Contém as células para as formas ou os estilos que controlam o alinhamento e a
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

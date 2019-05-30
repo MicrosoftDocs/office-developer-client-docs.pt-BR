@@ -1,5 +1,5 @@
 ---
-title: Elemento RuleTest (Rule_Type complexType) (' Visio XML ')
+title: Elemento RuleTest (Rule_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: Especifica a expressão lógica que determina se o objeto de destino satisfaz a regra de validação.
-ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bb1f0cf9b3f712903f6e45d6d09f96607089f920
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541516"
 ---
-# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) (' Visio XML ')
+# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) (XML do Visio)
 
 Especifica a expressão lógica que determina se o objeto de destino satisfaz a regra de validação.
   
@@ -23,7 +23,7 @@ Especifica a expressão lógica que determina se o objeto de destino satisfaz a 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Validation. xml  <br/> |
    

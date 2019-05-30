@@ -1,5 +1,5 @@
 ---
-title: Elemento RowMap (DataRecordSet_Type complexType) (' Visio XML ')
+title: Elemento RowMap (DataRecordSet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: Mapas de uma linha de conjunto de registros de dados para uma forma.
-ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332512"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540767"
 ---
-# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (' Visio XML ')
+# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (XML do Visio)
 
 Mapas de uma linha de conjunto de registros de dados para uma forma.
   
@@ -23,7 +23,7 @@ Mapas de uma linha de conjunto de registros de dados para uma forma.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |recordsets.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção Actions) (' Visio XML ')
+title: Elemento Row (seção Actions) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: Contém linhas que descrevem itens de menu em um menu de atalho ou marca de ação de uma forma ou página.
-ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dfe23aa7d635fc09d625c414e5548a0166384fbb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "32356417"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540410"
 ---
-# <a name="row-element-actions-section-visio-xml"></a>Elemento Row (seção Actions) (' Visio XML ')
+# <a name="row-element-actions-section-visio-xml"></a>Elemento Row (seção Actions) (Visio XML)
 
 Contém linhas que descrevem itens de menu em um menu de atalho ou marca de ação de uma forma ou página.
   
@@ -23,7 +23,7 @@ Contém linhas que descrevem itens de menu em um menu de atalho ou marca de aç�
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

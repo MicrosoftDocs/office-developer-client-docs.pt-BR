@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 4b017089a675727703de9e2ed4d584e7f77a778a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2fc605c57936765f43d7a6941dcc8d40d058db2f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319051"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540473"
 ---
 # <a name="mapi-canonical-properties"></a>Propriedades canônicas MAPI
 
@@ -25,7 +25,7 @@ Uma propriedade canônica é uma propriedade virtual que representa uma propried
   
 ## <a name="naming-conventions"></a>Convenções de nomenclatura
 
-Os nomes de propriedades canônicas começam com um prefixo, "PID", que representa "identificador de propriedade". Dependendo se a propriedade é uma propriedade marcada, uma propriedade nomeada com um identificador numérico ou uma propriedade nomeada com um nome de cadeia de caracteres, o prefixo é mais qualificado como "PidTag", "PidLid" e "PidName", respectivamente. Por exemplo, [PidTagAccount](pidtagaccount-canonical-property.md) representa as propriedades marcadas, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) **, PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) e **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), que especificam o nome da conta; [PidLidContacts](pidlidcontacts-canonical-property.md) representa a propriedade **dispidContacts** , uma propriedade nomeada que tem um identificador numérico e que especifica o nome dos contatos associados a uma mensagem; e [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) representa "https://schemas.microsoft.com/outlook/phishingstamp," uma propriedade nomeada que tem um nome de cadeia de caracteres e que especifica a cadeia de caracteres marcando mensagens que provavelmente serão phishing. 
+Os nomes de propriedades canônicas começam com um prefixo, "PID", que representa "identificador de propriedade". Dependendo se a propriedade é uma propriedade marcada, uma propriedade nomeada com um identificador numérico ou uma propriedade nomeada com um nome de cadeia de caracteres, o prefixo é mais qualificado como "PidTag", "PidLid" e "PidName", respectivamente. Por exemplo, [PidTagAccount](pidtagaccount-canonical-property.md) representa as propriedades marcadas, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) **, PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) e **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), que especificam o nome da conta; [PidLidContacts](pidlidcontacts-canonical-property.md) representa a propriedade **dispidContacts** , uma propriedade nomeada que tem um identificador numérico e que especifica o nome dos contatos associados a uma mensagem; e [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) representa "http://schemas.microsoft.com/outlook/phishingstamp," uma propriedade nomeada que tem um nome de cadeia de caracteres e que especifica a cadeia de caracteres marcando mensagens que provavelmente serão phishing. 
   
 ## <a name="representing-similar-properties-using-one-canonical-property"></a>Representando propriedades semelhantes usando uma propriedade canônica
 

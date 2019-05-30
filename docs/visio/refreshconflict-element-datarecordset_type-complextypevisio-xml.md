@@ -1,5 +1,5 @@
 ---
-title: Elemento RefreshConflict (DataRecordSet_Type complexType) (' Visio XML ')
+title: Elemento RefreshConflict (DataRecordSet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: Indica uma linha do conjunto de dados vinculados a uma forma que está em conflito após a atualização de conjunto do registros de dados.
-ms.openlocfilehash: 2da6f98cf7b047564331aaf5a4167e392927a155
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f966ca4a9f23de7a96273615b2404041d1045652
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360134"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542832"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (' Visio XML ')
+# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (XML do Visio)
 
 Indica uma linha do conjunto de dados vinculados a uma forma que está em conflito após a atualização de conjunto do registros de dados.
   
@@ -23,7 +23,7 @@ Indica uma linha do conjunto de dados vinculados a uma forma que está em confli
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |recordsets.xml  <br/> |
    

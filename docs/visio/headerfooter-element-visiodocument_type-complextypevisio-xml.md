@@ -1,5 +1,5 @@
 ---
-title: Elemento HeaderFooter (VisioDocument_Type complexType) (' Visio XML ')
+title: Elemento HeaderFooter (VisioDocument_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: Contém elementos do cabeçalho e rodapé de um documento.
-ms.openlocfilehash: eabb19100c4b37a546c0a271cfba5a0c865a7e83
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c3c2f0adab4448ca88e5f2cca5605f397c48bd98
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319020"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541103"
 ---
-# <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (' Visio XML ')
+# <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (XML do Visio)
 
 Contém elementos do cabeçalho e rodapé de um documento.
   
@@ -23,7 +23,7 @@ Contém elementos do cabeçalho e rodapé de um documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml  <br/> |
    

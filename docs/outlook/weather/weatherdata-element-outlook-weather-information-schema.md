@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
 description: Define o elemento do clima.
-ms.openlocfilehash: 2273f7ce6c6a04464ea3da430661c3d6f410cc9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bb8c76efd03661083a15aa315cf42c3a6c088b6f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355073"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538981"
 ---
 # <a name="weatherdata-element-outlook-weather-information-schema"></a>Elemento weatherdata (Esquema de informações meteorológicas do Outlook)
 
@@ -24,7 +24,7 @@ Define o elemento do clima.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> ||
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
    
 ## <a name="definition"></a>Definição
@@ -50,7 +50,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,6 +60,6 @@ Nenhum.
    
 ### <a name="attributes"></a>Atributos
 
-Nenhuma.
+Nenhum.
   
 

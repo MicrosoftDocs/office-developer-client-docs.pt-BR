@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: f237a2268fd287e96959dfc0522103b47e55d37b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316055"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540893"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Pesquisar por uma frase exata em anexos de itens em uma pasta
 
@@ -22,11 +22,11 @@ Este exemplo procura a cadeia de caracteres de pesquisa exata "office" nos anexo
 
 Este exemplo de código usa uma sintaxe DAV Searching and Locating (DASL) para especificar uma consulta. Para criar o filtro, o exemplo de código primeiro verifica se a Pesquisa Instantânea está habilitada no repositório padrão para determinar se a palavra-chave **ci\_phrasematch** será usada para haver uma correspondência exata de frase para "escritório" em qualquer anexo. O exemplo aplica o filtro ao método [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) na Caixa de Entrada e obtém os resultados em um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). O exemplo de código exibe o assunto de cada um dos itens retornados em **Table**.
 
-O exemplo de código especifica a propriedade **Attachments** de um item usando a representação de namespace https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. A sintaxe para usar a palavra-chave **ci\_phrasematch** é:
+O exemplo de código especifica a propriedade **Attachments** de um item usando a representação de namespace http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. A sintaxe para usar a palavra-chave **ci\_phrasematch** é:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -42,7 +42,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 Private Sub DemoSearchAttachments()
     Dim filter As String
     Const PR_SEARCH_ATTACHMENTS As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
     If (Application.Session.DefaultStore.IsInstantSearchEnabled) Then
         filter = "@SQL=" & Chr(34) _
             & PR_SEARCH_ATTACHMENTS & Chr(34) _
@@ -65,7 +65,7 @@ private void DemoSearchAttachments()
 {
     string filter;
     const string PR_SEARCH_ATTACHMENTS =
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
     if (Application.Session.DefaultStore.IsInstantSearchEnabled)
     {
         filter = "@SQL=" + "\""

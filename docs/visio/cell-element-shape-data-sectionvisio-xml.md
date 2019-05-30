@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Dados da Forma) ("XML do Visio")
+title: Elemento Cell (seção Shape Data) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: Especifica uma propriedade dos dados de forma.
-ms.openlocfilehash: 5e0c79d9439fb3800a277e039143060eec708b11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3a6238f19f27d001d3c9eebcbcec720822a0ed40
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339540"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539373"
 ---
-# <a name="cell-element-shape-data-section-visio-xml"></a>Elemento Cell (Seção Dados da Forma) ("XML do Visio")
+# <a name="cell-element-shape-data-section-visio-xml"></a>Elemento Cell (seção Shape Data) (Visio XML)
 
 Especifica uma propriedade dos dados de forma.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
@@ -76,6 +76,6 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |SortKey  <br/> |Resulta em uma cadeia de caracteres que influencia a ordem na qual os itens na janela Dados da Forma são listados.  <br/> |[Célula SortKey (Seção Dados da Forma)](sortkey-cell-shape-data-section.md) <br/> |
 |Type  <br/> |Especifica um tipo de dados para o valor dados da forma.  <br/> |[Célula Type (Seção Dados da Forma)](type-cell-shape-data-section.md) <br/> |
 |Value  <br/> |Contém o valor do item de dados de forma conforme inserido na caixa de diálogo Dados da Forma.  <br/> |[Célula Value (Seção Dados da Forma)](value-cell-shape-data-section.md) <br/> |
-|Verify  <br/> |Determina se um usuário é solicitado a inserir informações de propriedade personalizadas para uma forma quando uma instância é criada ou quando a forma é duplicada ou copiada.  <br/> |Nenhuma.  <br/> |
+|Verify  <br/> |Determina se um usuário é solicitado a inserir informações de propriedade personalizadas para uma forma quando uma instância é criada ou quando a forma é duplicada ou copiada.  <br/> |Nenhum  <br/> |
    
 

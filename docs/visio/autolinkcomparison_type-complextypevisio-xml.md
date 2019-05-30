@@ -1,25 +1,25 @@
 ---
-title: AutoLinkComparison_Type complexType ('Visio XML')
+title: AutoLinkComparison_Type complexType (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 319b4bfb-a798-4f6c-52be-45708ac40869
-ms.openlocfilehash: 235b63777d21955a2f2062757d6a54e899b169ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: eeb58a0e2f401c0e8a2bcf67147bc300bb8535ff
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338595"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537882"
 ---
-# <a name="autolinkcomparisontype-complextype-visio-xml"></a>AutoLinkComparison_Type complexType ('Visio XML')
+# <a name="autolinkcomparisontype-complextype-visio-xml"></a>AutoLinkComparison_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base da extensão** <br/> |Nenhum  <br/> |
    

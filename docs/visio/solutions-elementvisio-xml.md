@@ -1,5 +1,5 @@
 ---
-title: Elemento Solutions (' Visio XML ')
+title: Elemento Solutions (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Especifica as propriedades das soluções armazenadas no documento.
-ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f41e448681928c515ac7cb0d820d951b21549f76
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334843"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540221"
 ---
-# <a name="solutions-element-visio-xml"></a>Elemento Solutions (' Visio XML ')
+# <a name="solutions-element-visio-xml"></a>Elemento Solutions (XML do Visio)
 
 Especifica as propriedades das soluções armazenadas no documento.
   
@@ -23,7 +23,7 @@ Especifica as propriedades das soluções armazenadas no documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Solutions. xml  <br/> |
    
@@ -39,7 +39,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -49,6 +49,6 @@ Nenhum.
    
 ### <a name="attributes"></a>Atributos
 
-Nenhuma.
+Nenhum.
   
 

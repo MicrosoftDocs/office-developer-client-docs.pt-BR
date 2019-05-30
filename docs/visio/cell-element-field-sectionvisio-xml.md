@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Field) ('Visio XML')
+title: Elemento Cell (seção Field) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
 description: Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
-ms.openlocfilehash: f6c3c724b210ad579012ff58b93333e28c2a8cf1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b3bae89d20a4defed591e95ce0155f70d806e6f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356235"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540053"
 ---
-# <a name="cell-element-field-section-visio-xml"></a>Elemento Cell (Seção Field) ('Visio XML')
+# <a name="cell-element-field-section-visio-xml"></a>Elemento Cell (seção Field) (Visio XML)
 
 Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

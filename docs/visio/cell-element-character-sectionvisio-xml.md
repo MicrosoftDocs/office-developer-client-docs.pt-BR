@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Character) Visio XML
+title: Elemento Cell (seção Character) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Especifica um atributo de formatação para o formato de escrita do texto, como fonte, cor, estilo, caso, posição relativa à linha de base ou tamanho de ponto.
-ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a7d67aa3c53f3a4c673151afc991202904f0557b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356081"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540081"
 ---
-# <a name="cell-element-character-section-visio-xml"></a>Elemento Cell (Seção Character) Visio XML
+# <a name="cell-element-character-section-visio-xml"></a>Elemento Cell (seção Character) (Visio XML)
 
 Especifica um atributo de formatação para o formato de escrita do texto, como fonte, cor, estilo, caso, posição relativa à linha de base ou tamanho de ponto.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

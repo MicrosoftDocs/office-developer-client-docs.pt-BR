@@ -7,12 +7,12 @@ ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: e4a0a686327bb43b07773b149831107f51fcb4fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c64caf831f79ab61e5e3e0b9d712a511a7ba4f31
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334948"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537945"
 ---
 # <a name="access-solution-specific-data-stored-as-a-hidden-message-in-a-folder"></a>Acessar dados específicos da solução armazenados como uma mensagem oculta em uma pasta
 
@@ -26,7 +26,7 @@ O exemplo de código a seguir recupera os dados XML que estão armazenados como 
 
 O objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) retorna o XML como um objeto que contém um fluxo de bytes em vez de uma representação de string do XML. O exemplo de código usa **System.Text.Encoding.Ascii.GetString** para converter o fluxo de bytes em uma sequência de caracteres.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -49,7 +49,7 @@ Private Function GetWorkHoursXML() As String
         Dim pa As Outlook.PropertyAccessor = storage.PropertyAccessor
         ' PropertyAccessor will return a byte array for this property
         Dim rawXmlBytes As Byte() = CType(pa.GetProperty( _
-            "https://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
+            "http://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
             Byte())
         ' Use Encoding to convert the array to a string
         Return System.Text.Encoding.ASCII.GetString(rawXmlBytes)
@@ -72,7 +72,7 @@ private string GetWorkHoursXML()
         Outlook.PropertyAccessor pa = storage.PropertyAccessor;
         // PropertyAccessor will return a byte array for this property
         byte[] rawXmlBytes = (byte[])pa.GetProperty(
-            "https://schemas.microsoft.com/mapi/proptag/0x7C080102");
+            "http://schemas.microsoft.com/mapi/proptag/0x7C080102");
         // Use Encoding to convert the array to a string
         return System.Text.Encoding.ASCII.GetString(rawXmlBytes);
     }

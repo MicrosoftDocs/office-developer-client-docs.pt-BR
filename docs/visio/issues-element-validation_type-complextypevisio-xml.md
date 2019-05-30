@@ -1,5 +1,5 @@
 ---
-title: Elemento issues (Validation_Type complexType) (' Visio XML ')
+title: Elemento issues (Validation_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: Contém todos os elementos Issue do documento.
-ms.openlocfilehash: da3156e34af1536fab39d3d4949acac1efe67264
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dced8ab94b51535a47415794954b5b3062963ede
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542937"
 ---
-# <a name="issues-element-validationtype-complextype-visio-xml"></a>Elemento issues (Validation_Type complexType) (' Visio XML ')
+# <a name="issues-element-validationtype-complextype-visio-xml"></a>Elemento issues (Validation_Type complexType) (XML do Visio)
 
 Contém todos os elementos Issue do documento.
   
@@ -23,7 +23,7 @@ Contém todos os elementos Issue do documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Validation. xml  <br/> |
    
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

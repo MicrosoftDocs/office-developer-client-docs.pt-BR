@@ -1,5 +1,5 @@
 ---
-title: Elemento CommentEntry (CommentList_Type complexType) ('Visio XML')
+title: Elemento CommentEntry (CommentList_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: Especifica propriedades usadas para identificar um comentário em um desenho.
-ms.openlocfilehash: 79d15b95f986826a4848c2dfbb003255d3482134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6b4f20d632b54e7c96ef8181310e8ffab1abbd0f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329534"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540109"
 ---
-# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) ('Visio XML')
+# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) (XML do Visio)
 
 Especifica propriedades usadas para identificar um comentário em um desenho.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |comments.xml  <br/> |
    

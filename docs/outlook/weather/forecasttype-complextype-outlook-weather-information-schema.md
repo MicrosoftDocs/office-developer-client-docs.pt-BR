@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6301d6b6-34fa-af8d-e682-605d35cfdf47
 description: Define os parâmetros sobre as condições meteorológicas previstas para um local.
-ms.openlocfilehash: 75f20d7857fac85e1e95d23cf5ac826336648132
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: e799ebbea72daa1788aedbdcadbc523b5e4dff0d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361142"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540949"
 ---
 # <a name="forecasttype-complextype-outlook-weather-information-schema"></a>forecastType complexType (Esquema de informações sobre o clima do Outlook)
 
@@ -23,7 +23,7 @@ Define os parâmetros sobre as condições meteorológicas previstas para um loc
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
 |**Base da extensão** <br/> |Nenhum  <br/> |
    

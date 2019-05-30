@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Line Gradient) ('Visio XML')
+title: Elemento Cell (seção line Gradient) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
 description: Contém a cor, a transparência ou a posição de uma marca de gradiente para um gradiente de linha.
-ms.openlocfilehash: 915341b41849aae2af2285b49f0421798a16cf99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d8ac664285d24e47a142c22b1483e2ff435aef48
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318225"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539499"
 ---
-# <a name="cell-element-line-gradient-section-visio-xml"></a>Elemento Cell (Seção Line Gradient) ('Visio XML')
+# <a name="cell-element-line-gradient-section-visio-xml"></a>Elemento Cell (seção line Gradient) (Visio XML)
 
 Contém a cor, a transparência ou a posição de uma marca de gradiente para um gradiente de linha.
   
@@ -23,7 +23,7 @@ Contém a cor, a transparência ou a posição de uma marca de gradiente para um
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

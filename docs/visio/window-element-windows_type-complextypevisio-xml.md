@@ -1,5 +1,5 @@
 ---
-title: Elemento Window (Windows_Type complexType) (' Visio XML ')
+title: Elemento Window (Windows_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: Representa uma janela aberta em uma instância do Microsoft Visio. Este elemento contém as informações necessárias para recriar uma janela de interface do usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
-ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339897"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538456"
 ---
-# <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento Window (Windows_Type complexType) (' Visio XML ')
+# <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento Window (Windows_Type complexType) (XML do Visio)
 
 Representa uma janela aberta em uma instância do Microsoft Visio. Este elemento contém as informações necessárias para recriar uma janela de interface do usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
   
@@ -23,7 +23,7 @@ Representa uma janela aberta em uma instância do Microsoft Visio. Este elemento
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Windows. xml  <br/> |
    
@@ -71,7 +71,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |Documento  <br/> |xsd:string  <br/> |opcional  <br/> |Caminho do arquivo do documento exibido nesta janela.  <br/> |Valores do tipo xsd:string.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A identificação exclusiva do elemento no seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Mestre  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID mestre se esta janela estiver exibindo um mestre.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Page  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID da página se esta janela estiver exibindo uma página. Relevante somente quando **windowtype** é especificado como Drawing e **ContainerType** é especificado como página.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Página  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID da página se esta janela estiver exibindo uma página. Relevante somente quando **windowtype** é especificado como Drawing e **ContainerType** é especificado como página.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |ParentWindow  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID da janela na qual essa janela de estêncil está contida. Relevante somente quando **windowtype** é especificado como estêncil.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |ReadOnly  <br/> |xsd:boolean  <br/> |opcional  <br/> |Somente leitura sinalizador se este estêncil não for um estêncil de documento.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |Planilha  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID da planilha no contêiner. Relevante somente quando o contêiner é especificado como planilha.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |

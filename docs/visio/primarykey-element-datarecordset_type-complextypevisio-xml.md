@@ -1,5 +1,5 @@
 ---
-title: Elemento PrimaryKey (DataRecordSet_Type complexType) (' Visio XML ')
+title: Elemento PrimaryKey (DataRecordSet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Identifica uma ou mais colunas de chave primárias do conjunto de dados.
-ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bd77b1d18490695dc2b0cb43520f42bb845e91ab
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355991"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537707"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (' Visio XML ')
+# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (XML do Visio)
 
 Identifica uma ou mais colunas de chave primárias do conjunto de dados.
   
@@ -23,7 +23,7 @@ Identifica uma ou mais colunas de chave primárias do conjunto de dados.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |recordsets.xml  <br/> |
    

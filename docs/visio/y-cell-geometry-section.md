@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Representa uma coordenada y em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada.
-ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7dea96b544c84f09abe1d72304da0bacaa09432f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420938"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540487"
 ---
 # <a name="y-cell-geometry-section"></a>Célula Y (Seção Geometry)
 
 Representa uma coordenada *y* em uma forma em coordenadas locais. Esta tabela descreve a célula X com base na linha na qual está localizada. 
   
-|**Row**|**Descrição**|
+|Linha|Descrição|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Se a linha MoveTo for a primeira linha na seção, a célula Y representará a coordenada *Y* do primeiro vértice de um caminho. Se a linha MoveTo aparecer entre duas linhas, a célula Y representará a coordenada *Y* do primeiro vértice depois da quebra no caminho.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | A coordenada *y* do vértice final de um segmento de linha reta.  <br/> |

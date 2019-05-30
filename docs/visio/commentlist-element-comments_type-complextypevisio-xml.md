@@ -1,5 +1,5 @@
 ---
-title: Elemento CommentList (Comments_Type complexType) ('Visio XML')
+title: Elemento commentlist (Comments_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
 description: Especifica os comentários em um desenho.
-ms.openlocfilehash: 424eb10ab356fc2b7f07a1fae27a8e2715e3f2fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: fbbc7ea668686a8f075f3f11843b2d828c257363
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359427"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539245"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Elemento CommentList (Comments_Type complexType) ('Visio XML')
+# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Elemento commentlist (Comments_Type complexType) (XML do Visio)
 
 Especifica os comentários em um desenho.
   
@@ -23,7 +23,7 @@ Especifica os comentários em um desenho.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |comments.xml  <br/> |
    
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

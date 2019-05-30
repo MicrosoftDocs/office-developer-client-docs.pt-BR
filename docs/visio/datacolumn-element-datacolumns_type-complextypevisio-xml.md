@@ -1,5 +1,5 @@
 ---
-title: Elemento DataColumn (DataColumns_Type complexType) ("XML do Visio")
+title: Elemento DataColumn (DataColumns_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Define a aparência de uma coluna de dados na janela Dados Externos na interface de usuário do Visio, e qualifica os dados na coluna definindo o tipo de dados e a formatação.
-ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 021e7ffd154f1e124b9eb163acc27260b90c23eb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344818"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541222"
 ---
-# <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) ("XML do Visio")
+# <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) (XML do Visio)
 
 Define a aparência de uma coluna de dados na janela **Dados Externos** na interface de usuário do Visio e qualifica os dados na coluna definindo o tipo de dados e formatação. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |recordsets.xml  <br/> |
    
@@ -63,7 +63,7 @@ Nenhum.
 |Rótulo  <br/> |xsd:string  <br/> |obrigatório  <br/> |Rótulo da coluna de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
 |LangID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |ID de idioma da coluna de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Mapped  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se a coluna ficará visível na janela **Dados Externos**. True (1) para a coluna ficar visível; False (0) para a coluna não ficar visível. O padrão (atributo ausente) é a coluna ficar visível.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|Name  <br/> |xsd:string  <br/> |obrigatório  <br/> |Nome interno da coluna de dados. Usado como o nome da linha para o item de dados da forma (propriedade personalizada) adicionado a uma forma, quando a forma está vinculada a uma linha de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |obrigatório  <br/> |Nome interno da coluna de dados. Usado como o nome da linha para o item de dados da forma (propriedade personalizada) adicionado a uma forma, quando a forma está vinculada a uma linha de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
 |OrigLabel  <br/> |xsd:string  <br/> |opcional  <br/> |Rótulo de coluna retornado para o Visio pela interface ADO subjacente.  <br/> |Valores do tipo xsd:string.  <br/> |
 |UnitType  <br/> |xsd:string  <br/> |opcional  <br/> |Tipo de unidade dos dados na coluna de dados.  <br/> |Valores do tipo xsd:string.  <br/> |
    

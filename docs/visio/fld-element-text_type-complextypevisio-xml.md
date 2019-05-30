@@ -1,5 +1,5 @@
 ---
-title: elemento FLD (Text_Type complexType) (' Visio XML ')
+title: elemento FLD (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: Indica um ponto de inserção de campo de texto para o elemento Field correspondente.
-ms.openlocfilehash: a7303697a9471dab68f5b1cf851f60d51650a84e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: efacb7ed11968dec5d5c2f62b0ca3e3bcd8580c0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346211"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539611"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (Text_Type complexType) (' Visio XML ')
+# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (Text_Type complexType) (XML do Visio)
 
 Indica um ponto de inserção de campo de texto para o elemento **Field** correspondente. 
   
@@ -23,7 +23,7 @@ Indica um ponto de inserção de campo de texto para o elemento **Field** corres
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    

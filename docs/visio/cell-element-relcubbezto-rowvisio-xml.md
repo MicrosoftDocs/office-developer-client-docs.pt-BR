@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha RelCubBezTo) ("XML do Visio")
+title: Elemento Cell (linha RelCubBezTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier cúbica relativa à altura e a largura da forma, as coordenadas x ou y do ponto de controle do início da largura e da altura da forma relativa da curva, ou das coordenadas x ou y do ponto de controle do fim da largura e da altura da forma relativa da curva.
-ms.openlocfilehash: 15cfbbfd9b773169e338d7d364540582229a4ac7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c52b0108cc6ed753c0e494d2bce72025cabb1c93
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539436"
 ---
-# <a name="cell-element-relcubbezto-row-visio-xml"></a>Elemento Cell (Linha RelCubBezTo) ("XML do Visio")
+# <a name="cell-element-relcubbezto-row-visio-xml"></a>Elemento Cell (linha RelCubBezTo) (XML do Visio)
 
 Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier cúbica relativa à altura e a largura da forma, as coordenadas x ou y do ponto de controle do início da largura e da altura da forma relativa da curva, ou das coordenadas x ou y do ponto de controle do fim da largura e da altura da forma relativa da curva.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção Shape Data) (' Visio XML ')
+title: Elemento Row (seção Shape Data) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: Especifica uma entrada de dados de forma para associar dados a uma forma.
-ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: 4c5644aa2088dcaf3be81ea9aeaa549c911a31f6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "32283483"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538267"
 ---
-# <a name="row-element-shape-data-section-visio-xml"></a>Elemento Row (seção Shape Data) (' Visio XML ')
+# <a name="row-element-shape-data-section-visio-xml"></a>Elemento Row (seção Shape Data) (Visio XML)
 
 Especifica uma entrada de dados de forma para associar dados a uma forma.
   
@@ -23,7 +23,7 @@ Especifica uma entrada de dados de forma para associar dados a uma forma.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Shape Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

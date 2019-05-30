@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Tabs) ('Visio XML')
+title: Elemento Cell (seção tabs) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: Especifica uma propriedade que controla a posição ou o alinhamento da parada de tabulação da forma ou do estilo.
-ms.openlocfilehash: c6641c452144544dc769616130c96d6cf89aca23
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c3758f34058c08f98f8d99cf5c03f456e855d7df
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339638"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539359"
 ---
-# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (Seção Tabs) ('Visio XML')
+# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (seção tabs) (Visio XML)
 
 Especifica uma propriedade que controla a posição ou o alinhamento da parada de tabulação da forma ou do estilo. 
   
@@ -23,7 +23,7 @@ Especifica uma propriedade que controla a posição ou o alinhamento da parada d
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

@@ -1,25 +1,25 @@
 ---
-title: HyperlinkRow_Type complexType (' Visio XML ')
+title: HyperlinkRow_Type complexType (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f8ded1a6-3bbd-0d59-c9f0-ab84341888cd
-ms.openlocfilehash: 0056c87f4926f440ffcfd85619fd5ab7cba308db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 64705604ce12f032f49827b28fa3e61e879f2162
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344829"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541502"
 ---
-# <a name="hyperlinkrowtype-complextype-visio-xml"></a>HyperlinkRow_Type complexType (' Visio XML ')
+# <a name="hyperlinkrowtype-complextype-visio-xml"></a>HyperlinkRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base da extensão** <br/> |NamedRow_Type  <br/> |
    
@@ -56,6 +56,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

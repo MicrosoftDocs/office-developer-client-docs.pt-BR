@@ -7,12 +7,12 @@ ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: bef6ebe051e669b831dfee752b1b17db0a9023b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 031b7736ed397b9218ea677442f80595da2aa919
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320206"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542559"
 ---
 # <a name="get-the-default-message-class-of-a-folder"></a>Obter a classe de mensagem padrão de uma pasta
 
@@ -27,7 +27,7 @@ Para obter a classe de mensagem padrão para uma pasta, use a propriedade **Defa
 
 No exemplo de código a seguir, o procedimento GetDefaultMessageClass usa o **PropertyAccessor** para determinar o formulário padrão de uma pasta. Se a propriedade Folder **PR\_Def\_\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) não for encontrada e o Outlook gerar um erro, a **tentativa... Catch** Block retorna a **** propriedade MessageClass para a **pasta**.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -42,7 +42,7 @@ private string GetDefaultMessageClass(Outlook.Folder folder)
     try
     {
         const string PR_DEF_POST_MSGCLASS =
-            @"https://schemas.microsoft.com/mapi/proptag/0x36E5001E";
+            @"http://schemas.microsoft.com/mapi/proptag/0x36E5001E";
         string messageClass =
             folder.PropertyAccessor.GetProperty(
             PR_DEF_POST_MSGCLASS).ToString();

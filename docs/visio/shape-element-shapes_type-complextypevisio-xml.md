@@ -1,5 +1,5 @@
 ---
-title: Elemento Shape (Shapes_Type complexType) (' Visio XML ')
+title: Elemento Shape (Shapes_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8074bd07-430a-779e-ad1f-e7e3a1c748b1
 description: Contém elementos que definem uma forma em um elemento Master, Page ou group shape.
-ms.openlocfilehash: 6308b8dd21c92f6ced9ea7f03ec8aa85773fa2bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aa7ffa539c9f82adc486bd0848dda66798bac165
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542069"
 ---
-# <a name="shape-element-shapestype-complextype-visio-xml"></a>Elemento Shape (Shapes_Type complexType) (' Visio XML ')
+# <a name="shape-element-shapestype-complextype-visio-xml"></a>Elemento Shape (Shapes_Type complexType) (XML do Visio)
 
 Contém elementos que definem uma forma em um elemento **Master**, **Page** ou group shape.
   
@@ -23,7 +23,7 @@ Contém elementos que definem uma forma em um elemento **Master**, **Page** ou g
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    

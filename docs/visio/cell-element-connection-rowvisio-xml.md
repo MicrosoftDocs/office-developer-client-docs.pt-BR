@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha Connection) ('Visio XML')
+title: Elemento Cell (linha Connection) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: Contém as coordenadas x ou y, a direção horizontal ou vertical ou o tipo do ponto de conexão único em uma forma.
-ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0c8177767d5c85d505ba8a2a430946fd29cf44aa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356102"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541873"
 ---
-# <a name="cell-element-connection-row-visio-xml"></a>Elemento Cell (Linha Connection) ('Visio XML')
+# <a name="cell-element-connection-row-visio-xml"></a>Elemento Cell (linha Connection) (Visio XML)
 
 Contém as coordenadas x ou y, a direção horizontal ou vertical ou o tipo do ponto de conexão único em uma forma.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    

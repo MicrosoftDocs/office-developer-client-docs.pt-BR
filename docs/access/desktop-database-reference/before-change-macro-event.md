@@ -13,16 +13,16 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296854"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538113"
 ---
 # <a name="before-change-macro-event"></a>Evento da macro Antes da Alteração
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se a:** Access 2013, Office 2013
 
 O evento **Antes de Alterar** ocorre quando um registro é alterado, mas antes da alteração ser submetida.
 
@@ -33,7 +33,7 @@ O evento **Antes de Alterar** ocorre quando um registro é alterado, mas antes d
 
 Use o evento **Antes de Alterar** para executar qualquer ação que você deseja que ocorra antes da alteração de um registro. O **Antes de Alterar** é comumente usado para executar validação e criar mensagens de erro personalizadas.
 
-Você pode usar a função **Updated ("*nome do campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
+Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -59,13 +59,13 @@ O exemplo de código a seguir mostra a sintaxe para o uso da propriedade **Inser
     End If
 ```
 
-Você pode acessar um valor anterior em um campo utilizando a sintaxe a seguir.
+Você pode usar o acesso ao valor anterior em um campo usando a sintaxe a seguir.
 
 ```vb
     [Old].[Field Name]
 ```
 
-Por exemplo, para acessar o valor anterior do campo QuantidadeEmEstoque, use a sintaxe a seguir.
+Por exemplo, para acessar o valor anterior do campo QuantityIInStock, use a sintaxe a seguir.
 
 ```vb
     [Old].[QuantityInStock]
@@ -84,7 +84,7 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo de comando</p></th>
+<th><p>Tipo de Comando</p></th>
 <th><p>Comando</p></th>
 </tr>
 </thead>
@@ -94,40 +94,40 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 <td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Fluxo do programa</p></td>
+<td><p>Fluxo do Programa</p></td>
 <td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Fluxo do programa</p></td>
-<td><p><a href="if-then-else-macro-block.md">Bloco de macro If...Then...Else</a></p></td>
+<td><p>Fluxo do Programa</p></td>
+<td><p><a href="if-then-else-macro-block.md">Bloco de macro Se... Então... Senão</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloco de dados</p></td>
 <td><p><a href="lookuprecord-data-block.md">Ação de macro Pesquisarregistro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Ação da macro LimparErrodeMacro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Ação de macro LimparErrodaMacro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="onerror-macro-action.md">Ação da macro AoOcorrerErro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="raiseerror-macro-action.md">Ação da macro GerarErro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="raiseerror-macro-action.md">Ação de macro GerarErro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="setfield-macro-action.md">Ação de macro DefinirCampo</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Ação da macro DefinirVarLocal</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="stopmacro-macro-action.md">Ação da macro PararMacro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -139,7 +139,7 @@ Para criar uma Macro de Dados que capture o evento **Antes de Alterar**, siga es
 
 2.  Na guia **Tabela**, no grupo **Antes de eventos**, clique em **Antes de Alterar**.
 
-Uma macra de dados vazia é exibida no designer de macros.
+Uma macro de dados vazia é exibida no designer de macros.
 
 ## <a name="example"></a>Exemplo
 
@@ -185,7 +185,7 @@ Para exibir este exemplo no designer de macros, siga estas etapas.
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 

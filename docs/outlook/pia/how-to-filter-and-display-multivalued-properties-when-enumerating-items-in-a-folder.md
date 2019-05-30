@@ -7,12 +7,12 @@ ms:contentKeyID: 55119887
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: acb6f6807f956ee6d468d3fcefc2cdd27732ab9b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d6242506bac081ee16d125ea92fbed69939c6abc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320318"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542622"
 ---
 # <a name="filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder"></a>Filtrar e exibir propriedades de valores múltiplos ao enumerar itens em uma pasta
 
@@ -60,7 +60,7 @@ O objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) rep
 
 O exemplo de código a seguir ilustra como adicionar uma propriedade de namespace de cadeia de caracteres MAPI ao objeto **Table** e como propriedades de valores múltiplos afetam os valores retornados em um objeto [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)). O procedimento TableMultiValuedProperties filtra o objeto **Table** para linhas onde a propriedade [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) não é uma referência nula. A propriedade **Categories** é representada por uma propriedade que uma o namespace da cadeia de caracteres MAPI. Um filtro DAV Searching and Locating (DASL) é construído para itens que têm categorias (o filtro real retorna categorias que não têm uma referência nula). Então, a coluna **Categories** é adicionada ao objeto **Table** concatenando-se o especificador de tipos, 0000001f, com a constante categoriesProperty. Por fim, o objeto **Column** que representa a propriedade **Categories** contém uma matriz de cadeia unidimensional, onde cada elemento da matriz representa uma categoria atribuída ao item. As duas propriedades do item **Categories** e **Subject** são escritas para os ouvintes de rastreamento da coleção [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se usar o Visual Studio para testas este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -71,7 +71,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void TableMultiValuedProperties()
 {
     const string categoriesProperty =
-        "https://schemas.microsoft.com/mapi/string/"
+        "http://schemas.microsoft.com/mapi/string/"
         + "{00020329-0000-0000-C000-000000000046}/Keywords";
     // Inbox
     Outlook.Folder folder =

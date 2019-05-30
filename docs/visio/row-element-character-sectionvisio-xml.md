@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (seção Character) (' Visio XML ')
+title: Elemento Row (seção Character) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.
-ms.openlocfilehash: 3d8aa3e508b2f045a2cf38faaa795922dcc14803
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: afff4dcb809bf73da6ada25045678711ade75b6b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358524"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541782"
 ---
-# <a name="row-element-character-section-visio-xml"></a>Elemento Row (seção Character) (' Visio XML ')
+# <a name="row-element-character-section-visio-xml"></a>Elemento Row (seção Character) (Visio XML)
 
 Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.
   
@@ -23,7 +23,7 @@ Mostra os atributos de formatação para uma execução de texto da forma, como 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

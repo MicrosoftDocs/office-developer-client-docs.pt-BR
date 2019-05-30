@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Seção Layer) ('Visio XML')
+title: Elemento Cell (seção Layer) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: Especifica uma propriedade para uma camada ou suas propriedades para uma página.
-ms.openlocfilehash: e96fdc1dcd5c9a7a2cb8753beaff766c2b477af2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 119c82f84c76f735a5d9b73b4bea8beda0a7e476
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318169"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539754"
 ---
-# <a name="cell-element-layer-section-visio-xml"></a>Elemento Cell (Seção Layer) ('Visio XML')
+# <a name="cell-element-layer-section-visio-xml"></a>Elemento Cell (seção Layer) (XML do Visio)
 
 Especifica uma propriedade para uma camada ou suas propriedades para uma página.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |masters.xml, pages.xml  <br/> |
    
@@ -76,6 +76,6 @@ O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de va
 |Imprimir  <br/> |Especifica se as formas pertencentes à camada serão impressas quando o desenho for impresso.  <br/> |Nenhum.  <br/> |
 |Snap  <br/> |Especifica se outras formas podem ser ajustadas a formas atribuídas à camada.  <br/> |Nenhum.  <br/> |
 |Status  <br/> |Especifica se a camada é válida para um documento.  <br/> |Nenhum.  <br/> |
-|Visible  <br/> |Especifica se as formas pertencentes à camada ficarão visíveis na página de desenho.  <br/> |Nenhum.  <br/> |
+|Visible  <br/> |Especifica se as formas pertencentes à camada ficarão visíveis na página de desenho.  <br/> |Nenhum  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento rel (Master_Type complexType) (' Visio XML ')
+title: Elemento rel (Master_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 151cdd13-d00b-249c-7ebd-1ae9c4042b03
 description: Especifica uma relação com uma parte com o XML mestre correspondente.
-ms.openlocfilehash: 82552eeab746d9675f6175b62c34cef4a9c3c418
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 032c1ef4a94bb6acf18587a1257fe82285124e87
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542797"
 ---
-# <a name="rel-element-mastertype-complextype-visio-xml"></a>Elemento rel (Master_Type complexType) (' Visio XML ')
+# <a name="rel-element-mastertype-complextype-visio-xml"></a>Elemento rel (Master_Type complexType) (XML do Visio)
 
 Especifica uma relação com uma parte com o XML mestre correspondente.
   
@@ -23,7 +23,7 @@ Especifica uma relação com uma parte com o XML mestre correspondente.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Pages. xml, Masters. xml, Recordsets. xml, Page #. xml, Master #. xml  <br/> |
    
@@ -52,7 +52,7 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:ID  <br/> |xsd:string  <br/> Consulte Comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId #"  <br/> Consulte Comentários.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Consulte Comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId #"  <br/> Consulte Comentários.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

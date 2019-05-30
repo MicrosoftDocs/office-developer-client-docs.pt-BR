@@ -1,5 +1,5 @@
 ---
-title: Elemento Solution (Solutions_Type complexType) (' Visio XML ')
+title: Elemento Solution (Solutions_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: Especifica uma instância do XML da solução armazenada no desenho.
-ms.openlocfilehash: bb3cd512ff6109467c9d6465ba72c764d83abf96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 028decf0ac9b33ac33dd1e44ed3992ef7eb38aed
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335263"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540263"
 ---
-# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (' Visio XML ')
+# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (XML do Visio)
 
 Especifica uma instância do XML da solução armazenada no desenho.
   
@@ -23,7 +23,7 @@ Especifica uma instância do XML da solução armazenada no desenho.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Solutions. xml  <br/> |
    
@@ -53,6 +53,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Name  <br/> |xsd:string  <br/> |obrigatório  <br/> |O nome da solução.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |obrigatório  <br/> |O nome da solução.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

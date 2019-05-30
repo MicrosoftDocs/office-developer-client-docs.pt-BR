@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: O recurso Mesclar Formulários do editor do Microsoft InfoPath foi projetado para combinar dados de vários formulários em um único formulário.
-ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f79553f7fdf0b59c77a98fd479e0a307e4f2e6a3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303721"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537798"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Habilitar a mesclagem personalizada de formulários do InfoPath
 
@@ -25,7 +25,7 @@ A agregação de dados resultante da mesclagem de formulários pode incluir todo
     
 ## <a name="creating-a-custom-transform"></a>Criar um cabeçalho personalizado
 
-A operação padrão ao mesclar formulários funciona bem em formulários com base no mesmo esquema XML. Entretanto, em algumas circunstâncias, talvez você queira mesclar formulários com base em diferentes esquemas, ou substituir a operação de mesclagem padrão para formulários que tenham o mesmo esquema como base. Nesses cenários, você pode criar uma Transformação XSL (XSLT), que contém instruções de agregação para a operação de mesclagem. A transformação é aplicada no momento da mesclagem para criar um documento DOM que contém as informações a importar, juntamente das anotações que especificam como incorporar essas informações no documento de destino. Essas anotações são os atributos XML no namespace `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+A operação padrão ao mesclar formulários funciona bem em formulários com base no mesmo esquema XML. Entretanto, em algumas circunstâncias, talvez você queira mesclar formulários com base em diferentes esquemas, ou substituir a operação de mesclagem padrão para formulários que tenham o mesmo esquema como base. Nesses cenários, você pode criar uma Transformação XSL (XSLT), que contém instruções de agregação para a operação de mesclagem. A transformação é aplicada no momento da mesclagem para criar um documento DOM que contém as informações a importar, juntamente das anotações que especificam como incorporar essas informações no documento de destino. Essas anotações são os atributos XML no namespace `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 Os atributos XML e seus valores servem como instruções de agregação sobre como cada nó é mesclado com o documento XML de destino. Esses atributos são descritos nas seções a seguir.
   
@@ -70,7 +70,7 @@ Se o valor do atributo **agg:action** for "delete", todos os elementos de destin
  agg:action="delete"/>
 ```
 
-Junto aos atributos especificados no namespace `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, use o namespace `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` para indicar um objeto XSL que implementa a interface **IXMLDOMDocument**. Um dos membros mais úteis dessa interface é o método **get-documentElement**.
+Junto aos atributos especificados no namespace `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, use o namespace `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` para indicar um objeto XSL que implementa a interface **IXMLDOMDocument**. Um dos membros mais úteis dessa interface é o método **get-documentElement**.
   
 ### <a name="get-documentelement"></a>get-documentElement
 
@@ -103,9 +103,9 @@ A função **target:get-documentElement** fornece acesso ao Modelo de Objeto do 
     ```XML
         <?xml version="1.0"?> 
         <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

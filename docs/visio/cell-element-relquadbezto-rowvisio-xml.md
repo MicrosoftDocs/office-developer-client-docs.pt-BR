@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Linha RelQuadBezTo) ('Visio XML')
+title: Elemento Cell (linha RelQuadBezTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier quadrática relativa à altura e largura da forma ou as coordenadas x ou y do ponto de controle da largura e altura da forma relativa da curva.
-ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7bdd55cfd5401c8455f09cf7d237117572d12723
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339610"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542384"
 ---
-# <a name="cell-element-relquadbezto-row-visio-xml"></a>Elemento Cell (Linha RelQuadBezTo) ('Visio XML')
+# <a name="cell-element-relquadbezto-row-visio-xml"></a>Elemento Cell (linha RelQuadBezTo) (XML do Visio)
 
 Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier quadrática relativa à altura e largura da forma ou as coordenadas x ou y do ponto de controle da largura e altura da forma relativa da curva.
   
-## <a name="element-information"></a>Informações do elemento
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
