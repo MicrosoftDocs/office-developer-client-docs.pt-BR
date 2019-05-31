@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Este artigo descreve as APIs e tecnologias que você pode usar para estender o Outlook 2013 e o Outlook 2016, e ajuda você a se decidir pela API ou a tecnologia apropriada para seu cenário.
 localization_priority: Priority
-ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250423"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538393"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Escolher uma API ou tecnologia para desenvolver soluções para o Outlook
 
@@ -293,7 +293,7 @@ Em geral, use o modelo de objeto ou o PIA se a sua solução personalizar a inte
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Cenários adicionais compatíveis com o modelo de objeto ou PIA desde o Outlook 2007
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Cenários compatíveis com o modelo de objeto ou PIA desde o Outlook 2007
 
 Além dos cenários de linha de base, se sua solução do Outlook oferecer suporte a qualquer um dos cenários mostrados na lista a seguir e for executada no Outlook 2007 ou em versões posteriores, mas não em versões anteriores, você poderá usar o modelo de objeto ou o PIA também. Esta seção especifica os principais objetos ou membros que você pode usar no modelo de objeto do Outlook para estender cada cenário (com exceção da interface [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) no modelo de objeto de automação do Visual Studio e da interface [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) no modelo de objeto do Office, que você pode integrar com o modelo de objeto do Outlook). 
 
@@ -325,7 +325,7 @@ Além dos cenários de linha de base, se sua solução do Outlook oferecer supor
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Mais cenários compatíveis com o modelo de objeto ou PIA desde o Outlook 2010
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Cenários compatíveis com o modelo de objeto ou PIA desde o Outlook 2010
 
 Se a sua solução do Outlook se destina a ser executada no Outlook 2010 e não em versões anteriores, você poderá optar por usar o modelo de objeto ou o PIA para oferecer suporte aos cenários mostrados nesta próxima seção. Esta seção especifica os principais objetos ou membros que você pode usar no modelo de objeto do Outlook para estender cada cenário (com exceção das interfaces [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) e [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) que estão no modelo de objeto do Office, que você pode integrar com o modelo de objeto do Outlook). 
    
@@ -347,7 +347,7 @@ Se a sua solução do Outlook se destina a ser executada no Outlook 2010 e não 
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Cenários adicionais compatíveis com o modelo de objeto ou PIA desde o Outlook 2013
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Cenários compatíveis com o modelo de objeto ou PIA desde o Outlook 2013
 
 Se a sua solução se destina a ser executada no Outlook 2013 e não em versões anteriores, você pode usar o modelo de objeto ou o PIA para oferecer suporte aos cenários mostrados nos seguintes recursos.
 
