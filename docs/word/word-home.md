@@ -34,8 +34,7 @@ Encontre conteúdos de instruções, códigos de exemplo, documentação de SDKs
   
 ### <a name="code-samples"></a>Exemplos de código
   
-- 
-  [Exemplos de código do Word no Centro de Desenvolvimento do Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Exemplos de código do Word no Centro de Desenvolvimento do Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Outros recursos
   
