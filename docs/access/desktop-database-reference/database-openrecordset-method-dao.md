@@ -4,19 +4,19 @@ TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
 ms:contentKeyID: 48546753
-ms.date: 09/18/2015
+ms.date: 06/04/2019
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b13abd7f3f2c856a0f1a1288717d6f8affb81252
+ms.sourcegitcommit: 4a570873914c58dd4cdbe97b5d9ec41866dc797c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294831"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34675740"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Método Database.OpenRecordset (DAO)
 
@@ -26,9 +26,9 @@ Cria um novo objeto **[Conjunto de registros](recordset-object-dao.md)** e o acr
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* .OpenRecordset(_**Nome**_, _**Tipo**_, _**Opções**_, _**LockEdit**_)
+*expressão*.**OpenRecordset** (_Nome_, _Tipo_, _Opções_, _LockEdit_)
 
-*expressão* Uma variável que representa um objeto **Banco de dados**.
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Cria um novo objeto **[Conjunto de registros](recordset-object-dao.md)** e o acr
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Necessário/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -58,7 +58,7 @@ Cria um novo objeto **[Conjunto de registros](recordset-object-dao.md)** e o acr
 <td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p><p><strong>Observação</strong>: Se você abrir um <strong>Conjunto de Registros</strong> em um espaço de trabalho do Microsoft Access e não especificar um tipo, o <strong>OpenRecordset</strong> criará uma tabela do tipo <strong>Conjunto de Registros</strong>, se possível. If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</p>
+<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p><p><strong>OBSERVAÇÃO</strong>: Se você abrir um <strong>Conjunto de Registros</strong> em um espaço de trabalho do Microsoft Access e não especificar um tipo, o <strong>OpenRecordset</strong> criará uma tabela do tipo <strong>Conjunto de Registros</strong>, se possível. If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</p>
 </td>
 </tr>
 <tr class="odd">
@@ -173,7 +173,7 @@ O exemplo a seguir mostra como usar a propriedade do Filtro para determinar que 
     
     'Create the first filtered Recordset, returning customer records
     'for those visited between 30-60 days ago.
-    Set rest = dbs.OpenRecordset(_ 
+    Set rst = dbs.OpenRecordset(_ 
         "SELECT * FROM Customers WHERE LastVisitDate BETWEEN Date()-60 " & _
         "AND Date()-30 ORDER BY LastVisitDate DESC")
     
