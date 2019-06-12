@@ -4,27 +4,27 @@ TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
-ms.date: 09/18/2015
+ms.date: 06/13/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4e9f30401891452970fdbe80123fc373e26f26c6
+ms.sourcegitcommit: d0e1ce095a478d90411abb8c147eb9efe19ffa5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296049"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34870854"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparação entre o Microsoft Access SQL e o ANSI SQL
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No enTanto, determinados recursos SQL ANSI não são implementados no SQL do Microsoft Access. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
+O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No entanto, determinados recursos SQL ANSI não são implementados no SQL do Microsoft Access. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
 
 ## <a name="major-differences"></a>Principais diferenças
 
 - O Microsoft Access SQL e o ANSI SQL têm diferentes palavras reservadas e tipos de dados. Para obter mais informações, consulte [Palavras reservadas SQL do mecanismo de banco de dados do Microsoft Access](sql-reserved-words.md) e [Tipos de dados ANSI SQL equivalentes](equivalent-ansi-sql-data-types.md). Utilizando o Provedor do OLE DB do mecanismo de banco de dados do Microsoft Access, há outras palavras reservadas.
 
-- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
+- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
   *expr1* \[Não\] **entre** *value1* **e** *value2*
     
