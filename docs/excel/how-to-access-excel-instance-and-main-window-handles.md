@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310756"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Acessar a instância do Excel e as alças da janela principal
 

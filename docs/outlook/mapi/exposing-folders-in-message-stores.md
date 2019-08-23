@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 62f50ed7925305eca7432da17130d2be0365ef03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 457620dd0f805e78d12fc8feba09f8fc8aedc554
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341346"
 ---
 # <a name="exposing-folders-in-message-stores"></a>Expor pastas em repositórios de mensagens
 

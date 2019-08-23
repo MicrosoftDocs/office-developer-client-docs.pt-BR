@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 34784f6895386efe7e6c3ca7ec213c7d71931058
-ms.sourcegitcommit: f139451a43598b59da22775333779df691df460a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26685176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304001"
 ---
 # <a name="known-issues-in-excel-xll-development"></a>Problemas conhecidos no desenvolvimento do Excel XLL 
 

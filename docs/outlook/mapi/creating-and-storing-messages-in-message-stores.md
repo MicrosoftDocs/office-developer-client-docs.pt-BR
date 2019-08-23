@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: be718ea3ef4da91d2f85a0229f5a506198a2527f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7c923a330c542dff8b1bbc476461ccd21680a5b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332897"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Criar e armazenar mensagens em repositórios de mensagens
 

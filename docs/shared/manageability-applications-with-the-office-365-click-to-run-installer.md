@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Aprenda a integrar o instalador Clique para Executar do Office 365 a uma solução de gerenciamento de software.
 ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318333"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: 'Última modificação: 05 de julho de 2012'
 ms.openlocfilehash: 06f30b4856fc10127aec99975652e28a5e8dda30
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337097"
 ---
 # <a name="dnhier"></a>DNHIER
 
@@ -51,7 +51,7 @@ _pstmReserved_
     
 _pxihc_
   
->  [uto] Ponteiro para a hierarquia de hierarquia **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para saber mais sobre **IExchangeImportHierarchyChanges**, confira [Critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Ponteiro para a interface de hierarquia **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para saber mais sobre **IExchangeImportHierarchyChanges**, confira [Critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _cEntNew_
   
