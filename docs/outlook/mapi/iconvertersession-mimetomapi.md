@@ -1,7 +1,7 @@
 ---
 title: IConverterSessionMIMEToMAPI
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: 'Última modificação: 06 de setembro de 2019'
+ms.openlocfilehash: f6f671cbfd5e14d602aaa31d31e54e859f068593
+ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326926"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790768"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -38,13 +38,13 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
 ## <a name="parameters"></a>Parâmetros
 
- _pStm_
+ _pstm_
   
 > no Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para um fluxo MIME. 
     
- _pMsg_
+ _pmsg_
   
-> bota Ponteiro para a mensagem a ser carregada. Consulte mapidefs. h para a definição de tipo de **lpMessage**.
+> no Ponteiro para a mensagem a ser carregada. O chamador deve fornecer uma mensagem para que a API seja preenchida, portanto, o objeto deve ir [in]. Consulte mapidefs. h para a definição de tipo de **lpMessage**.
     
  _pszSrcSrv_
   
