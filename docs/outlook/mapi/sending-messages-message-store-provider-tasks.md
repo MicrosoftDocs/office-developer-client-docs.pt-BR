@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b65113e59b236b1f13596627a8669ae458f76369
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de29707c7a257ea0e7ad658622d2a3054487f8b5
+ms.sourcegitcommit: adcf409d56b6cb25be6117f09794defa41ad6c0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406497"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495303"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Enviar mensagens: tarefas do provedor de repositório de mensagens
 
@@ -52,7 +52,7 @@ O procedimento a seguir descreve as tarefas necessárias para um provedor de arm
    - Notifica o spooler MAPI de que a fila foi alterada.
    - Retorna o controle ao cliente e o fluxo de mensagens continua no spooler MAPI. 
    - O spooler MAPI realiza as seguintes tarefas:
-     - Bloqueia a mensagem chamando IMsgStore:: setLockstate. 
+     - Bloqueia a mensagem chamando IMsgStore:: setlockstate. 
      - Realiza o pré-processamento necessário chamando todas as funções de pré-processamento na ordem de registro. Os provedores de transporte chamam IMAPISupport:: RegisterPreprocessor para registrar funções de pré-processamento. 
      - Chama IMessage:: SubmitMessage na mensagem aberta para indicar ao repositório de mensagens que o pré-processamento está completo.
 
