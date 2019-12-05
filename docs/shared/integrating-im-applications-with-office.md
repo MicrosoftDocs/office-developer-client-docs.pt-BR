@@ -1,31 +1,29 @@
 ---
-title: Integração de aplicativos de mensagens instantâneas ao Office
-manager: soliver
-ms.date: 07/25/2016
+title: Integração de aplicativos de mensagens instantâneas com o Office
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: Este artigo descreve como configurar um aplicativo cliente de mensagens instantâneas para que ele se integre aos recursos de redes sociais no Office 2013, incluindo exibir presença e enviar mensagens instantâneas do cartão de visita.
+description: Este artigo descreve como configurar um aplicativo de cliente de mensagens instantâneas (IM) para que ele seja integrado aos recursos sociais do Office 2013 e superiores, incluindo a exibição da presença e o envio de mensagens instantâneas do cartão de visita.
 localization_priority: Priority
-ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270110"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819291"
 ---
-# <a name="integrating-im-applications-with-office"></a>Integração de aplicativos de mensagens instantâneas ao Office
+# <a name="integrating-im-applications-with-office"></a>Integração de aplicativos de mensagens instantâneas com o Office
 
-Este artigo descreve como configurar um aplicativo cliente de mensagens instantâneas para que ele se integre aos recursos de redes sociais no Office 2013, incluindo exibir presença e enviar mensagens instantâneas do cartão de visita.
-  
-Se você tiver dúvidas ou comentários sobre este artigo técnico, ou sobre os processos que o descrevem, entre em contato diretamente com a Microsoft enviando um email para [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Este artigo descreve como configurar um aplicativo de cliente de mensagens instantâneas (IM) para que ele seja integrado aos recursos sociais do Office 2013, Office 2016, Office 2019 e Office 365, incluindo a exibição da presença e o envio de mensagens instantâneas do cartão de visita.
   
 ## <a name="introduction"></a>Introdução
 <a name="off15_IMIntegration_Intro"> </a>
 
-O Office 2013 fornece integração avançada aos aplicativos cliente de mensagens instantâneas, incluindo o Lync 2013. Essa integração fornece aos usuários recursos de mensagens instantâneas no Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013 e OneNote 2013, bem como fornece integração de presença em páginas do SharePoint 2013. Os usuários podem ver a foto, o nome, o status de presença e os dados de contato das pessoas em sua lista de contatos. Elas podem começar uma sessão de mensagens instantâneas, chamadas de vídeo ou telefonemas diretamente do cartão de visita (o elemento da interface do usuário no Office 2013 que apresenta informações de contato e opções de comunicação). Com o Office 2013, é fácil manter-se conectado aos seus contatos sem que você tenha que sair do email ou dos documentos em que está trabalhando. 
+O Office 2013 (e versões posteriores) fornece integração avançada com aplicativos cliente de mensagens instantâneas, incluindo o Lync 2013 e o Teams. Essa integração oferece aos usuários os recursos de mensagens instantâneas do Word, Excel, PowerPoint, Outlook, Visio, Project e OneNote, além de oferecer a integração de presença nas páginas do SharePoint. Os usuários podem ver a foto, o nome, o status de presença e os dados de contato das pessoas em sua lista de contatos. Eles podem iniciar uma sessão de mensagens instantâneas, uma chamada de vídeo ou uma chamada telefônica diretamente do cartão de visita (o elemento da interface do usuário no Office que apresenta as informações de contato e as opções de comunicação). Com o Office, fica mais fácil manter-se conectado aos seus contatos sem levar você para fora de emails ou documentos. 
   
 > [!NOTE]
-> Este artigo usa o termo aplicativo cliente de mensagens instantâneas para se referir especificamente ao aplicativo instalado no computador de um usuário que se comunica com o serviço de mensagens instantâneas. Por exemplo, o Lync 2013 é considerado um aplicativo cliente de mensagens instantâneas. Este artigo não fornece detalhes sobre como o aplicativo cliente de mensagens instantâneas se comunica com o serviço de mensagens instantâneas nem sobre o serviço em si. 
+> Este artigo usa o termo aplicativo cliente de mensagens instantâneas para se referir especificamente ao aplicativo instalado no computador de um usuário que se comunica com o serviço de mensagens instantâneas. Por exemplo, o Lync 2013 e o Teams são considerados aplicativos cliente de mensagens instantâneas. Este artigo não fornece detalhes sobre como o aplicativo cliente de mensagens instantâneas se comunica com o serviço de mensagens instantâneas nem sobre o serviço em si. 
   
 Você pode personalizar um aplicativo cliente de mensagens instantâneas para que ele se comunique com o Office. Especificamente, é possível modificar o seu aplicativo de mensagens instantâneas para que ele exiba as seguintes informações na interface de usuário do Office:
   
@@ -55,12 +53,12 @@ Você pode personalizar um aplicativo cliente de mensagens instantâneas para qu
     
 **Figura 1. Cartão de visita no Office 2013**
 
-![O Cartão de Pessoas no Office 2013](media/ocom15_peoplecard.png "O Cartão de Pessoas no Office 2013")
+![Cartão de visita no Office 2013](media/ocom15_peoplecard.png "Cartão de visita no Office 2013")
   
-Para habilitar essa integração ao Office, um aplicativo cliente de mensagens instantâneas deve implementar um conjunto de interfaces que o Office fornece para se conectar a ele. As APIs para essa integração estão incluídas no namespace [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) que está contido no arquivo Microsoft.Office.UC.dll, que é instalado com versões do Office 2013 que incluem o Lync/Skype for Business. O namespace **UCCollaborationLib** inclui as interfaces que você deve implementar para integração ao Office. 
+Para habilitar essa integração ao Office, um aplicativo cliente de mensagens instantâneas deve implementar um conjunto de interfaces que o Office fornece para se conectar a ele. As APIs para essa integração estão incluídas no namespace [UCCollborationLib](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) que está contido no arquivo Microsoft.Office.UC.dll, que é instalado com versões do Office 2013 que incluem o Lync/Skype for Business. O namespace **UCCollaborationLib** inclui as interfaces que você deve implementar para integração ao Office. 
   
 > [!IMPORTANT] 
-> A biblioteca de tipos para as interfaces necessárias está inserida no Lync 2013/Skype for Business. Para integradores terceirizados, isso funcionará apenas quando o Lync 2013 e o Skype for Business estiverem instalados no computador de destino. Se estiver fazendo a integração usando o Office Standard, você precisará extrair a biblioteca de tipos e instalá-la no computador de destino. O [SDK do Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) inclui o arquivo Microsoft.Office.UC.dll. 
+> A biblioteca de tipos para as interfaces necessárias está inserida no Lync 2013/Skype for Business. Para integradores terceirizados, isso funcionará apenas quando o Lync 2013 e o Skype for Business estiverem instalados no computador de destino. Se estiver fazendo a integração usando o Office Standard, você precisará extrair a biblioteca de tipos e instalá-la no computador de destino. O [SDK do Lync 2013](https://www.microsoft.com/download/details.aspx?id=36824) inclui o arquivo Microsoft.Office.UC.dll. 
   
 > [!NOTE]
 >  Alguns aplicativos do Office 2010 podem se integrar de maneira semelhante a um aplicativo provedor de mensagens instantâneas de terceiros: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 e SharePoint Server 2010 (usando o controle ActiveX). Muitas das etapas necessárias na integração do Office 2013 também se aplicam ao Office 2010. Há várias diferenças importantes em como o Office 2010 se integra a um aplicativo do provedor de mensagens instantâneas: 
@@ -72,7 +70,7 @@ Para habilitar essa integração ao Office, um aplicativo cliente de mensagens i
 ## <a name="how-office-integrates-with-an-im-client-application"></a>Como o Office integra-se a um aplicativo cliente de mensagens instantâneas
 <a name="off15_IMIntegration_How"> </a>
 
-Quando um aplicativo do Office 2013 é iniciado, ele passa pelo seguinte processo para se integrar ao aplicativo cliente de mensagens instantâneas padrão:
+Quando um aplicativo do Office 2013 (ou superior) for iniciado, ele passará pelo seguinte processo para integração com o aplicativo cliente IM padrão:
   
 1. Ele verifica o registro para descobrir o aplicativo cliente de mensagens instantâneas padrão e se conectar a ele.
     
@@ -84,7 +82,7 @@ Quando um aplicativo do Office 2013 é iniciado, ele passa pelo seguinte process
     
 5. Ele obtém as informações de presença dos contatos do usuário local.
     
-6. Quando o aplicativo cliente de mensagens instantâneas é desligado, o aplicativo do Office 2013 é silenciosamente desconectado.
+6. Quando o aplicativo cliente de mensagens instantâneas desliga, o aplicativo do Office é desconectado silenciosamente.
     
 ### <a name="discovering-the-im-application"></a>Como descobrir o aplicativo de mensagens instantâneas
 
@@ -175,12 +173,12 @@ O aplicativo do Office obtém a presença do contato, incluindo o usuário local
 ### <a name="disconnecting-from-the-im-application"></a>Desconexão do aplicativo de mensagens instantâneas
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-Quando o aplicativo do Office 2013 detecta o evento **OnShuttingDown** do aplicativo de mensagens instantâneas, ele se desconecta silenciosamente. No entanto, se o aplicativo do Office for desligado antes do aplicativo de mensagens instantâneas, o aplicativo do Office não garantirá que a conexão seja limpa. O aplicativo de mensagens instantâneas deve tratar dos vazamentos de conexão do cliente. 
+Quando o aplicativo do Office detectar o evento **OnShuttingDown** do aplicativo de mensagem instantânea, ele se desconectará silenciosamente. No entanto, se o aplicativo do Office for desligado antes do aplicativo de mensagens instantâneas, o aplicativo do Office não garantirá que a conexão seja limpa. O aplicativo de mensagens instantâneas deve tratar dos vazamentos de conexão do cliente. 
   
 ## <a name="setting-registry-keys-and-entries"></a>Configuração de entradas e chaves do Registro
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-Conforme mencionado anteriormente, os aplicativos do Office 2013 compatíveis com mensagens instantâneas procuram chaves, entradas e valores específicos no registro para descobrir o aplicativo cliente de mensagens instantâneas ao qual se conectar. Esses valores de registro fornecem ao aplicativo do Office o nome do processo e a CLSID da classe que atua como o ponto de entrada para o modelo do aplicativo cliente de mensagens instantâneas (isto é, a classe que implementa a interface **IUCOfficeIntegration**). O aplicativo do Office cria essa classe em conjunto e se conecta como um cliente ao servidor COM fora do processo no aplicativo cliente de mensagens instantâneas. 
+Como mencionado anteriormente, os aplicativos do Office com capacidade para mensagens instantâneas procuram teclas, entradas e valores específicos no registro para descobrir o aplicativo de cliente de mensagens instantâneas para se conectar ao. Esses valores de registro fornecem ao aplicativo do Office o nome do processo e a CLSID da classe que atua como o ponto de entrada para o modelo do aplicativo cliente de mensagens instantâneas (isto é, a classe que implementa a interface **IUCOfficeIntegration**). O aplicativo do Office cria essa classe em conjunto e se conecta como um cliente ao servidor COM fora do processo no aplicativo cliente de mensagens instantâneas. 
   
 Use a Tabela 1 para identificar as chaves, as entradas e os valores que devem ser gravados no registro para integração de um aplicativo cliente de mensagens instantâneas ao Office.
   
@@ -304,10 +302,10 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-O método **GetSupportedFeatures** retorna informações sobre os recursos de mensagens instantâneas aos quais o aplicativo cliente de mensagens instantâneas dá suporte. Ele usa uma cadeia de caracteres para seu único parâmetro, _version_. Quando o aplicativo do Office chama o método **GetSupportFeatures**, o método retorna um valor da enumeração [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). O valor retornado especifica os recursos do cliente de mensagens instantâneas, onde cada recurso do aplicativo cliente de mensagens instantâneas é indicado para o aplicativo do Office adicionando um sinalizador ao valor. 
+O método **GetSupportedFeatures** retorna informações sobre os recursos de mensagens instantâneas aos quais o aplicativo cliente de mensagens instantâneas dá suporte. Ele usa uma cadeia de caracteres para seu único parâmetro, _version_. Quando o aplicativo do Office chama o método **GetSupportedFeatures**, o método retorna um valor da enumeração [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). O valor retornado especifica os recursos do cliente de mensagens instantâneas, onde cada recurso do aplicativo cliente de mensagens instantâneas é indicado para o aplicativo do Office adicionando um sinalizador ao valor. 
   
 > [!NOTE]
->  Os aplicativos do Office 2013 ignoram as seguintes constantes na enumeração **OIFeature**: 
+>  Os aplicativos do Office 2013 (e superiores) ignoram as seguintes constantes na enumeração **OIFeature**: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
@@ -862,7 +860,7 @@ public class IMClientSelf : ISelf
 }
 ```
 
-### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>Interfaces IContactManager e _IContactManagerEvents
+### <a name="icontactmanager-and-_icontactmanagerevents-interfaces"></a>Interfaces IContactManager e _IContactManagerEvents
 <a name="off15_IMIntegration_ImplementRequired_IContactManager"> </a>
 
 O objeto **IContactManager** gerencia os contatos para o usuário local, incluindo as informações de contato do próprio usuário local. O aplicativo do Office usa um objeto **IContactManager** para acessar objetos **IContact** que correspondem aos contatos do usuário local. 

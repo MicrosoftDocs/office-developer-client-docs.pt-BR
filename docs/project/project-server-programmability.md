@@ -1,7 +1,7 @@
 ---
 title: Programabilidade do Project Server
-manager: soliver
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 f1_keywords:
 - events
@@ -25,12 +25,12 @@ keywords:
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Saiba mais sobre os principais recursos de programação do Project Server 2013. Este artigo contém informações sobre a portabilidade de aplicativos que foram criados para versões anteriores do Project Server.
 localization_priority: Priority
-ms.openlocfilehash: 6df7b149b1e87c74efd8d90db8ece625a39ec185
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: db5e09ebe7a820255ba3d61c719b838289005e12
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301525"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819305"
 ---
 # <a name="project-server-programmability"></a>Programabilidade do Project Server
 
@@ -56,7 +56,7 @@ O Aplicativo de Serviço do Project é um provedor de serviços lógico que pode
   
 **Figura 1. Usando o menu Editar página no Project Web App**
 
-![Editar a página inicial do Project Web Access](media/pj15_Programmability_PWAHome.gif "Editing the Home page in Project Web Access")
+![Editar a Página Inicial no Project Web Access](media/pj15_Programmability_PWAHome.gif "Editar a Página Inicial no Project Web Access")
   
 Para acessar a página de configurações do Site no Project Web App, escolha o ícone**configurações** no canto superior direito da página. A página Configurações do Site ( `https://ServerName/ProjectServerName/_layouts/15/settings.aspx`) permite alterar a aparência e o tema do site, adicionar Web Parts personalizadas e modificar ou criar páginas mestras de sites de projetos.
   
@@ -67,7 +67,7 @@ A personalização do código em páginas ASPX ou a personalização de páginas
 
 Como o Project Web App é um aplicativo do SharePoint e sites de projeto são sites do SharePoint, você pode adicionar aplicativos personalizados, Web Parts, manipuladores de eventos, campos personalizados e outros recursos usando pacotes do SharePoint (arquivos .wsp) ou aplicativos do SharePoint (arquivos .spapp ). Um pacote do SharePoint ou um pacote de aplicativos pode incluir várias entidades do Project Server, nas quais as definições de entidade são especificadas em um arquivo elements.xml no pacote.
   
-No Project Online, você pode adicionar botões à faixa de opções do Project Web App, mas não pode remover ou renomear os botões existentes de produto e não pode criar novas guias da faixa de opções. Para saber mais, confira [Crie ações personalizadas para implantar com aplicativos para o SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx).
+No Project Online, você pode adicionar botões à faixa de opções do Project Web App, mas não pode remover ou renomear os botões existentes de produto e não pode criar novas guias da faixa de opções. Para saber mais, confira [Crie ações personalizadas para implantar com aplicativos para o SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins).
   
 > [!CAUTION]
 > Ao instalar um pacote do SharePoint ou um pacote de aplicativos, os tipos de entidades do Project Server devem aparecer na ordem que o esquema PSEntityProvision.xsd especifica ou a validação de esquema do pacote falha e a instalação não é concluída. 
@@ -76,7 +76,7 @@ O arquivo de esquema PSEntityProvision.xsd está disponível no download SDK do 
   
 **Figura 2. Modo de exibição do Visual Studio do esquema de provisionamento de entidade do Project Server**
 
-![Modo de exibição do esquema de entidade do Project Server](media/pj15_Programmability_EntitySchema.gif "View of the Project Server entity schema")
+![Exibição do esquema de entidade do Project Server](media/pj15_Programmability_EntitySchema.gif "Exibição do esquema de entidade do Project Server")
   
 Os pacotes do SharePoint que instalam recursos para o Project Server podem conter um ou mais arquivos elements.xml que seguem o esquema**PSEntityProvision**. As entidades do Project Server em um único arquivo XML devem aparecer na seguinte ordem: 
   
@@ -105,14 +105,14 @@ Quando você atualiza um aplicativo que foi desenvolvido para uma versão anteri
 > [!NOTE]
 > Se o CSOM incluir a funcionalidade necessária, recomendamos que você atualize os aplicativos para usar o CSOM. O CSOM permite que os aplicativos sejam usados ​​para instalações locais e on-line do Project Server 2013. 
   
-Se o seu aplicativo ler principalmente dados do Project Server, você poderá usar as tabelas e exibições de relatórios no banco de dados do Project Server para um cenário local. Se você pretende usar o aplicativo com o Project Online, você pode usar o protocolo OData para o serviço **ProjectData**, que fornece acesso local e on-line aos dados de relatório. Para obter mais informações, confira [ProjectData ‒  referência do serviço ProjectOData](https://msdn.microsoft.com/library/office/jj163015.aspx).
+Se o seu aplicativo ler principalmente dados do Project Server, você poderá usar as tabelas e exibições de relatórios no banco de dados do Project Server para um cenário local. Se você pretende usar o aplicativo com o Project Online, você pode usar o protocolo OData para o serviço **ProjectData**, que fornece acesso local e on-line aos dados de relatório. Para obter mais informações, confira [ProjectData ‒  referência do serviço ProjectOData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
   
 ### <a name="using-the-psi"></a>Usando o PSI
 <a name="pj15_Programmability_PSI"> </a>
 
 O PSI permite que aplicativos de confiança total do cliente, incluindo os aplicativos Project Professional 2013, Project Web App e LOB, acessem dados do Project Server em um farm do SharePoint. O PSI é criado e usado com o .NET Framework 4 e oferece vantagens, como um ambiente de desenvolvimento conhecido, com segurança interna, tratamento de erros e coleta de lixo.
   
-O PSI é acessado por meio de serviços WCF ou serviços da web ASMX. A interface ASMX se baseia no WCF. Cada serviço PSI normalmente contém uma classe base com métodos CRUD para itens dentro dessa classe. Os itens são especificados pelas classes relacionadas **Dataset**. Por exemplo, o serviço **CustomFields** serviço contém a classe **CustomFields** com métodos, como [CreateCustomFields2](https://msdn.microsoft.com/library/WebSvcCustomFields.CustomFields.CreateCustomFields2.aspx) . Os dados de um ou mais campos personalizados da empresa são especificados em **CustomFieldDataSet**.
+O PSI é acessado por meio de serviços WCF ou serviços da web ASMX. A interface ASMX se baseia no WCF. Cada serviço PSI normalmente contém uma classe base com métodos CRUD para itens dentro dessa classe. Os itens são especificados pelas classes relacionadas **Dataset**. Por exemplo, o serviço **CustomFields** serviço contém a classe **CustomFields** com métodos, como [CreateCustomFields2](https://docs.microsoft.com/previous-versions/office/ee767959(v=office.14)) . Os dados de um ou mais campos personalizados da empresa são especificados em **CustomFieldDataSet**.
   
 > [!NOTE]
 > A interface de serviço Web ASMX da PSI foi preterida no Project Server 2013. Embora a interface ASMX ainda esteja disponível, novos aplicativos que usam o PSI devem usar a interface do WCF ou, se possível, novos aplicativos devem usar o CSOM em vez do PSI. Versões futuras do Project Server exigirão uma atualização dos aplicativos baseados em ASMX existentes para usar a interface WCF do PSI ou para usar o CSOM. 
@@ -134,7 +134,7 @@ O CSOM pode ser usado copiando os seguintes recursos para o seu computador de de
   
 - Para o desenvolvimento do .NET Framework 4, copie a assembly `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll`. 
     
-  Para documentação de classes CSOM e membros, confira a namespace[Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). Para um exemplo de aplicativo, confira [Introdução ao CSOM e .NET](getting-started-with-the-project-server-csom-and-net.md).
+  Para documentação de classes CSOM e membros, confira a namespace[Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)). Para um exemplo de aplicativo, confira [Introdução ao CSOM e .NET](getting-started-with-the-project-server-csom-and-net.md).
     
 - Para o desenvolvimento do Microsoft Silverlight, copie a assembly `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll`. 
     
@@ -154,7 +154,7 @@ Os aplicativos desenvolvidos para o PDS não são compatíveis com versões mais
 > [!NOTE]
 > Como os aplicativos do PDS devem ser completamente reprojetados para o Project Server 2013, recomendamos que você use o CSOM. 
   
-Confira mais informações sobre compatibilidade PDS e  diretrizes de portabilidade de extensões PDS para o PSI em [Paridade PDS em serviços Web de PSI](https://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
+Confira mais informações sobre compatibilidade PDS e  diretrizes de portabilidade de extensões PDS para o PSI em [Paridade PDS em serviços Web de PSI](https://docs.microsoft.com/previous-versions/office/developer/office-2007/ms197081(v=office.12)).
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>Aplicativos de portabilidade criados do Project Server 2007 e no Project Server 2010
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -167,18 +167,18 @@ O PSI no Project Server 2013 é um superconjunto do modelo de objeto PSI no Offi
     
 - Use o CSOM para aplicativos que estão disponíveis como aplicativos na Office Store ou em um catálogo de aplicativos particulares.
     
-- Para aplicativos que modificam o agendamento do projeto, use o CSOM ou altere o aplicativo para usar o método PSI o[QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx). 
+- Para aplicativos que modificam o agendamento do projeto, use o CSOM ou altere o aplicativo para usar o método PSI o[QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)). 
     
-- Aplicativos locais ou da web que fazem logon em usuários em diferentes instâncias do Project Web App devem usar configurações programáticas para pontos de extremidade do WCF do CSOM ou do PSI. Os métodos foram substituídos. Os aplicativos devem usar a autenticação OAuth no lugar da autenticação Formas e para uso com o Project Online. Para saber mais, confira [Autorização e autenticação para os aplicativos no SharePoint 2013](https://msdn.microsoft.com/library/fp142384%28office.15%29.aspx#FileName_uniquekeyword1).
+- Aplicativos locais ou da web que fazem logon em usuários em diferentes instâncias do Project Web App devem usar configurações programáticas para pontos de extremidade do WCF do CSOM ou do PSI. Os métodos foram substituídos. Os aplicativos devem usar a autenticação OAuth no lugar da autenticação Formas e para uso com o Project Online. Para saber mais, confira [Autorização e autenticação para os aplicativos no SharePoint 2013](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins).
     
 - Aplicativos que dependem ou modificam configurações de segurança específicas do Project Server.
     
   > [!NOTE]
-  > Uma instalação local padrão do Project Server 2013 usa o modo de permissão do SharePoint, no qual as configurações de segurança do Project Server não são acessíveis por meio do PSI. Para alterar o modo de permissão do Project, confira a seção *Modo de permissão do SharePoint* em [Novidades para profissionais de TI no Project Server 2013](https://technet.microsoft.com/pt-BR/library/ff631142%28office.15%29.aspx#section13). 
+  > Uma instalação local padrão do Project Server 2013 usa o modo de permissão do SharePoint, no qual as configurações de segurança do Project Server não são acessíveis por meio do PSI. Para alterar o modo de permissão do Project, confira a seção *Modo de permissão do SharePoint* em [Novidades para profissionais de TI no Project Server 2013](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2016). 
   
-- Para muitos fluxos de trabalho personalizados do Project Server, você pode usar o SharePoint Designer 2013 para criar fluxos de trabalho declarativos. Para fluxos de trabalho personalizados que exigem mais programação, você *não* deve usar diretamente classes ou membros na namespace **Microsoft.Office.Project.Server.Workflow**. Nesse caso, use a classe [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) no CSOM. 
+- Para muitos fluxos de trabalho personalizados do Project Server, você pode usar o SharePoint Designer 2013 para criar fluxos de trabalho declarativos. Para fluxos de trabalho personalizados que exigem mais programação, você *não* deve usar diretamente classes ou membros na namespace **Microsoft.Office.Project.Server.Workflow**. Nesse caso, use a classe [Microsoft.ProjectServer.Client.WorkflowActivities](https://docs.microsoft.com/previous-versions/office/mt780562(v=office.15)) no CSOM. 
     
-- Em geral, aplicativos que usam representação devem ser reescritos para usar a interface do WCF do PSI. Aplicativos que fazem atualizações de status simples para outros usuários não requerem representação. Eles podem usar o método [StatusAssignment.SubmitStatusUpdates](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.StatusAssignment.SubmitStatusUpdates.aspx) no CSOM ou o método[Statusing.SubmitStatusForResource](https://msdn.microsoft.com/library/WebSvcStatusing.Statusing.SubmitStatusForResource.aspx) no PSI. 
+- Em geral, aplicativos que usam representação devem ser reescritos para usar a interface do WCF do PSI. Aplicativos que fazem atualizações de status simples para outros usuários não requerem representação. Eles podem usar o método [StatusAssignment.SubmitStatusUpdates](https://docs.microsoft.com/previous-versions/office/project-class/jj235883(v=office.15)) no CSOM ou o método[Statusing.SubmitStatusForResource](https://docs.microsoft.com/previous-versions/office/ee755393(v=office.14)) no PSI. 
     
 - Os componentes de middleware executados no computador do Project Server podem ser instalados apenas para uso local e devem usar a interface do WCF do PSI. Por exemplo, um componente de middleware que usa a interface ASMX para trocar dados entre o Project Web App no ​​local e um aplicativo de quadro de horários externo precisaria ser reescrito para usar a interface WCF do PSI. Para trabalhar com o Project Online, o componente teria que ser reprojetado como um aplicativo e usar o CSOM.
     
@@ -207,14 +207,14 @@ Quando você migrar uma solução para o Project Server 2013, ou se uma soluçã
   
 - Se você mudar de usar a interface ASMX do PSI para a interface do WCF, poderá inicializar as classes de cliente de forma programática ou usando os pontos de extremidade do WCF no app.config. Use a inicialização programática quando você precisar alternar rapidamente para instâncias diferentes do Project Web App ou quando estiver desenvolvendo uma web part que use o PSI.
     
-- Existem vários novos métodos e conjuntos de dados nos serviços PSI no Project Server 2013 e algumas classes **DataRow** contêm novas propriedades. Por exemplo, o método [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) no PSI usa o mecanismo de agendamento do Project Server para reprogramar um projeto atualizado sem a necessidade de abrir o projeto no Project Professional 2013 e também permite adicionar ou excluir entidades do projeto na mesma chamada. 
+- Existem vários novos métodos e conjuntos de dados nos serviços PSI no Project Server 2013 e algumas classes **DataRow** contêm novas propriedades. Por exemplo, o método [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) no PSI usa o mecanismo de agendamento do Project Server para reprogramar um projeto atualizado sem a necessidade de abrir o projeto no Project Professional 2013 e também permite adicionar ou excluir entidades do projeto na mesma chamada. 
     
 - Compilar e testar a solução.
     
 ## <a name="project-scheduling-on-the-server"></a>Agendamento do Project no servidor
 <a name="pj15_Programmability_Scheduling"> </a>
 
-O Project Server 2013 tem dois mecanismos de agendamento. O mecanismo de agendamento mais recente é o mesmo mecanismo de agendamento no Project Professional 2013. Quando você faz alterações no agendamento e publica as alterações usando a web part Scheduling (página Detalhes do Projeto) no Project Web App ou em um site de projeto ou usando o CSOM, o cálculo de datas, custos, duração, trabalho restante, linhas de base e outras alterações relacionadas ao agendamento são as mesmas caso você fizesse as alterações e publicasse o projeto usando o Project Professional 2013. No entanto, exceto para o [QueueUpdateProject2](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject2.aspx) os métodos PSI usam o mecanismo de agendamento anterior migrado do Project Server 2010. O motivo é garantir que os aplicativos herdados se comportem da mesma maneira no Project Server 2013 como faziam anteriormente. 
+O Project Server 2013 tem dois mecanismos de agendamento. O mecanismo de agendamento mais recente é o mesmo mecanismo de agendamento no Project Professional 2013. Quando você faz alterações no agendamento e publica as alterações usando a web part Scheduling (página Detalhes do Projeto) no Project Web App ou em um site de projeto ou usando o CSOM, o cálculo de datas, custos, duração, trabalho restante, linhas de base e outras alterações relacionadas ao agendamento são as mesmas caso você fizesse as alterações e publicasse o projeto usando o Project Professional 2013. No entanto, exceto para o [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) os métodos PSI usam o mecanismo de agendamento anterior migrado do Project Server 2010. O motivo é garantir que os aplicativos herdados se comportem da mesma maneira no Project Server 2013 como faziam anteriormente. 
   
 > [!NOTE]
 > Para usar o mecanismo de agendamento atualizado no Project Server 2013, os aplicativos podem usar o CSOM. 
@@ -234,7 +234,7 @@ Os mecanismos de planejamento mais antigos e mais recentes têm as seguintes lim
   
 A seguir estão os problemas e as limitações da programação PSI com o mecanismo de agendamento mais antigo do Project Server:
   
-- **Alterando o status ativo de uma tarefa** O mecanismo de agendamento mais antigo do Project Server pode mostrar horários de início ou término inconsistentes quando você usa o método [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) para alterar o status ativo de uma tarefa, se houver várias alterações no objeto **ProjectDataSet** para o parâmetro _dataset_. Se a propriedade **TASK_IS_ACTIVE** é a única alteração no parâmetro _conjunto de dados_ da **QueueUpdateProject**, você pode atualizar o projeto.
+- **Alterando o status ativo de uma tarefa** O mecanismo de agendamento mais antigo do Project Server pode mostrar horários de início ou término inconsistentes quando você usa o método [QueueUpdateProject](https://docs.microsoft.com/en-us/previous-versions/office/ms471014(v=office.14)) para alterar o status ativo de uma tarefa, se houver várias alterações no objeto **ProjectDataSet** para o parâmetro _dataset_. Se a propriedade **TASK_IS_ACTIVE** é a única alteração no parâmetro _conjunto de dados_ da **QueueUpdateProject**, você pode atualizar o projeto.
     
     Para obter mais informações sobre tarefas inativas e o mecanismo de agendamento mais antigo, consulte os artigos do blog [Introduzindo tarefas inativas no Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) e [Project Server 2010: Agendando na Web, PSI e Project Professional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obter uma comparação de agendamento no Project Professional 2010 e no Project Web App no ​​Project Server 2010, confira [Comparação de gerenciamento de cronograma baseado na Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
@@ -276,7 +276,7 @@ Os aplicativos que acessam diretamente as tabelas e exibições de rascunho, pub
   
 Por todas essas razões, o Project Professional e o Project Web App não fazem chamadas diretas para as tabelas de rascunho, publicadas ou arquivadas; nem para qualquer outro aplicativo que se integre ao Project Server.
   
-Os esquemas para as tabelas de rascunhos, publicados e arquivados não são documentados. Você pode usar as tabelas de relatórios para ajudar a gerar relatórios, e o esquema para as tabelas e exibições de relatórios está documentado no download do SDK do Project 2013. Para esquema OData de dados de relatórios, confira [ProjectData - referência do serviço OData do Project](https://msdn.microsoft.com/library/office/jj163015.aspx).
+Os esquemas para as tabelas de rascunhos, publicados e arquivados não são documentados. Você pode usar as tabelas de relatórios para ajudar a gerar relatórios, e o esquema para as tabelas e exibições de relatórios está documentado no download do SDK do Project 2013. Para esquema OData de dados de relatórios, confira [ProjectData - referência do serviço OData do Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)).
   
 ## <a name="see-also"></a>Confira também
 
@@ -288,7 +288,7 @@ Os esquemas para as tabelas de rascunhos, publicados e arquivados não são docu
 - [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md)    
 - [Referências de programação do Project 2013](project-2013-programming-references.md)    
 - [Visão geral da referência da PSI do Project](project-psi-reference-overview.md)    
-- [Criar ações personalizadas para implantação com aplicativos do SharePoint](https://msdn.microsoft.com/library/office/apps/jj163954%28v=office.15%29.aspx)    
+- [Criar ações personalizadas para implantação com aplicativos do SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)    
 - [Apresentamos as tarefas inativas no Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
 - [Project Server 2010: Agendamento na Web, PSI e Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 
