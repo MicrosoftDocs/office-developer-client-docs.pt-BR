@@ -2,17 +2,17 @@
 title: Pesquisar por uma frase exata em anexos de itens em uma pasta
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540893"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819284"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Pesquisar por uma frase exata em anexos de itens em uma pasta
 
@@ -20,7 +20,7 @@ Este exemplo procura a cadeia de caracteres de pesquisa exata "office" nos anexo
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo de código usa uma sintaxe DAV Searching and Locating (DASL) para especificar uma consulta. Para criar o filtro, o exemplo de código primeiro verifica se a Pesquisa Instantânea está habilitada no repositório padrão para determinar se a palavra-chave **ci\_phrasematch** será usada para haver uma correspondência exata de frase para "escritório" em qualquer anexo. O exemplo aplica o filtro ao método [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) na Caixa de Entrada e obtém os resultados em um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). O exemplo de código exibe o assunto de cada um dos itens retornados em **Table**.
+Este exemplo de código usa uma sintaxe DAV Searching and Locating (DASL) para especificar uma consulta. Para criar o filtro, o exemplo de código primeiro verifica se a Pesquisa Instantânea está habilitada no repositório padrão para determinar se a palavra-chave **ci\_phrasematch** será usada para haver uma correspondência exata de frase para "escritório" em qualquer anexo. O exemplo aplica o filtro ao método [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) na Caixa de Entrada e obtém os resultados em um objeto [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia). O exemplo de código exibe o assunto de cada um dos itens retornados em **Table**.
 
 O exemplo de código especifica a propriedade **Attachments** de um item usando a representação de namespace http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. A sintaxe para usar a palavra-chave **ci\_phrasematch** é:
 

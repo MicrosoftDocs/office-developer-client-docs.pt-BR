@@ -1,9 +1,9 @@
 ---
 title: Referência de desenvolvimento do InfoPath para modelos de formulário
 ms.author: mroberts
-author: mroberts
-manager: soliver
-ms.date: 11/16/2014
+author: lindalu
+manager: lindalu
+ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -12,12 +12,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
 description: Bem-vindo à referência do desenvolvedor do InfoPath 2013 para modelos de formulário. Esta documentação fornece visões gerais, tarefas de programação e informações de referência da biblioteca de classes que foram concebidas para ajudar você a compilar modelos de formulários do InfoPath que contêm lógica corporativa escrita em Visual Basic ou Visual C#.
-ms.openlocfilehash: c399623dea14903325dc1720b0642040febc15e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0cccaa335bcc5060c2af033a4fc4a993f11c10fe
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299857"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819347"
 ---
 # <a name="infopath-developer-reference-for-form-templates"></a>Referência de desenvolvimento do InfoPath para modelos de formulário
 
@@ -27,13 +27,10 @@ Data de publicação desta referência: Outubro 2012
   
 ## <a name="related-links"></a>Links relacionados
 
-[Centro de desenvolvedores do InfoPath](https://msdn.microsoft.com/office/aa905434.aspx)
+[Centro de desenvolvedores do Microsoft Office: docs](https://developer.microsoft.com/en-us/office/docs)
   
-[Centro de Desenvolvimento do Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
-  
-[Convenções de Documentos na Documentação dos Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905365.aspx)
-  
-[Acessibilidade da Microsoft](https://www.microsoft.com/ENABLE/)
+
+[Acessibilidade da Microsoft](https://www.microsoft.com/en-us/accessibility/)
 
   
 

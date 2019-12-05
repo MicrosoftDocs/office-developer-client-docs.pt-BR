@@ -2,17 +2,17 @@
 title: Obter o endereço de email de um destinatário
 TOCTitle: Get the email address of a recipient
 ms:assetid: e585811b-a298-496f-ba79-df7d46526169
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff184647(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-e-mail-address-of-a-recipient?redirectedfrom=MSDN
 ms:contentKeyID: 55119879
-ms.date: 07/24/2014
+ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 5d145dadd974b6608da29cdf85a4624d6c452eb8
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 8957cbc92414b0cdac442167a5c9ea025ce318cb
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542573"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819333"
 ---
 # <a name="get-the-email-address-of-a-recipient"></a>Obter o endereço de email de um destinatário
 
@@ -20,7 +20,7 @@ Este exemplo mostra como receber o endereço SMTP de um destinatário.
 
 ## <a name="example"></a>Exemplo
 
-A seguir, o exemplo de código, o método GetSMTPAddressForRecipients usa um objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) como um argumento de entrada e exibe o endereço SMTP de cada destinatário para esse item de email. O método primeiro recupera a coleção [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) que representa o conjunto de destinatários especificado para o item de email. Para cada [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) na coleção **Recipients**, o método obtém o objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) que corresponde ao objeto **Recipient**. Por fim, o método usa a propriedade [PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) para obter o valor da propriedade http://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, que mapeia para a **propriedade\_PR\_SMTP address** ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) do destinatário.
+A seguir, o exemplo de código, o método GetSMTPAddressForRecipients usa um objeto [MailItem](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mailitem?redirectedfrom=MSDN&view=outlook-pia) como um argumento de entrada e exibe o endereço SMTP de cada destinatário para esse item de email. O método primeiro recupera a coleção [Recipients](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipients?redirectedfrom=MSDN&view=outlook-pia) que representa o conjunto de destinatários especificado para o item de email. Para cada [destinatário](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipient?redirectedfrom=MSDN&view=outlook-pia) na coleção **Recipients** , o método obtém o objeto [PropertyAccessor](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.propertyaccessor?redirectedfrom=MSDN&view=outlook-pia)) que corresponde a esse objeto **Recipient** . Por fim, o método usa a propriedade [PropertyAccessor](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipient.propertyaccessor?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_Recipient_PropertyAccessor) para obter o valor da propriedade https://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, que mapeia para a **propriedade\_PR\_SMTP address** ([PidTagSmtpAddress](https://docs.microsoft.com/office/client-developer/outlook/mapi/pidtagsmtpaddress-canonical-property?redirectedfrom=MSDN)) do destinatário.
 
 Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 

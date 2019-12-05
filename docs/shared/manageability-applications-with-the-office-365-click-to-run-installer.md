@@ -1,17 +1,17 @@
 ---
 title: Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
-manager: kelbow
-ms.date: 10/22/2017
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Aprenda a integrar o instalador Clique para Executar do Office 365 a uma solução de gerenciamento de software.
-ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: 62bfef0063c414fcecd0948e49dfa098b5c82bbb
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318333"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819270"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
 
@@ -27,11 +27,11 @@ O instalador Clique para Executar do Office 365 fornece uma interface COM que pe
 Para usar essa interface, um aplicativo de capacidade de gerenciamento invoca a interface COM e chama APIs expostas que se comunicam diretamente com o serviço de instalação Clique para Executar. 
   
 > [!NOTE]
-> O instalador Clique para Executar do Office pode ser executado na linha de comando com parâmetros que podem controlar o comportamento, conforme documentado em [Ferramenta de Implantação do Office para Clique para Executar](https://www.microsoft.com/en-us/download/details.aspx?id=49117). 
+> O instalador Clique para Executar do Office pode ser executado na linha de comando com parâmetros que podem controlar o comportamento, conforme documentado em [Ferramenta de Implantação do Office para Clique para Executar](https://www.microsoft.com/download/details.aspx?id=49117). 
   
 **Veja a seguir um diagrama conceitual da interface COM**
 
-![Um diagrama sobre como usar a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama sobre como usar a interface COM no instalador Clique para Executar do Office")
+![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de usar a interface COM no instalador clique para executar do Office")
   
 O instalador Clique para Executar do Office 365 implementa uma interface baseada em COM, **IUpdateNotify**, registrada na CLSID **CLSID_UpdateNotifyObject**.
   
@@ -71,7 +71,7 @@ Há quatro estados em que o serviço de instalação Clique para Executar pode e
   
 **Veja a seguir o diagrama de Máquina de Estado da interface COM**
 
-![Um diagrama de estado da interface COM](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png "Um diagrama de estado da interface COM")
+![Um diagrama de estado da interface COM.](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png "Um diagrama de estado para a interface COM")
   
 > [!NOTE]
 > **Reinicializando**: quando o computador está sendo inicializado, há um período em que o serviço instalador Clique para Executar fica indisponível. Uma chamada bem-sucedida ao método Status após uma reinicialização retornará eUPDATE_UNKNOWN. 
@@ -349,7 +349,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 ### <a name="summary-of-iupdatenotify2-interface"></a>Resumo da interface IUpdateNotify2
 
 > [!NOTE]
-> Esse resumo é fornecido como informações complementares de [Integrando aplicativos de capacidade de gerenciamento ao instalador Clique para Executar do Office 365](https://msdn.microsoft.com/EN-US/library/office/mt608768.aspx). Assim que o documento público for atualizado, esse documento poderá ser considerado obsoleto. 
+> Esse resumo é fornecido como informações complementares de [Integrando aplicativos de capacidade de gerenciamento ao instalador Clique para Executar do Office 365](https://docs.microsoft.com/office/client-developer/shared/manageability-applications-with-the-office-365-click-to-run-installer). Assim que o documento público for atualizado, esse documento poderá ser considerado obsoleto. 
   
 No C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (Primeiro build publicamente disponível deve ser o build fork de junho-- 8326.*), adicionamos uma nova interface **IUpdateNotify2**. Veja algumas informações básicas sobre essa interface: 
   
@@ -373,7 +373,7 @@ Se você não usar qualquer um dos métodos novos, não será necessário altera
   
 ## <a name="implementing-the-bits-interface"></a>Como implantar a interface do BITS
 
-O BITS ([Serviço de Transferência Inteligente em Segundo Plano](https://msdn.microsoft.com/library/bb968799(v=vs.85).aspx)) é um serviço fornecido pela Microsoft para transferir arquivos entre um cliente e um servidor. O BITS é um dos canais que o instalador Clique para Executar do Office pode usar para baixar conteúdo. Por padrão, o instalador Clique para Executar do Office usa a implementação interna do BITS do Windows para baixar o conteúdo da CDN. 
+O BITS ([Serviço de Transferência Inteligente em Segundo Plano](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal)) é um serviço fornecido pela Microsoft para transferir arquivos entre um cliente e um servidor. O BITS é um dos canais que o instalador Clique para Executar do Office pode usar para baixar conteúdo. Por padrão, o instalador Clique para Executar do Office usa a implementação interna do BITS do Windows para baixar o conteúdo da CDN. 
   
 Ao fornecer uma implementação do BITS personalizado ao método **download()** da interface **IUpdateNotify**, seu software de capacidade de gerenciamento pode controlar onde e como o cliente baixa o conteúdo. Uma interface do BITS personalizado é útil ao fornecer um canal de distribuição de conteúdo personalizado diferente dos canais internos de Clique para Executar, como CDN do Office, servidores IIS ou compartilhamentos de arquivo. 
   
@@ -458,7 +458,7 @@ O requisito mínimo para uma interface do BITS personalizado trabalhar com o ser
 
 <!--## Automating content staging
 
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&rs=en-US&ad=US) using the [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) or [System Center Configuration Manager](https://support.office.com/en-us/article/Manage-updates-to-Office-365-ProPlus-with-System-Center-Configuration-Manager-b4a17328-fcfe-40bf-9202-58d7cbf1cede).
+IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) using the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) or [System Center Configuration Manager](https://docs.microsoft.com/deployoffice/manage-office-365-proplus-updates-with-configuration-manager).
   
 The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
   
@@ -588,7 +588,7 @@ O serviço dá suporte à capacidade das ferramentas de gerenciamento de reconhe
   
 **A imagem a seguir é uma visão geral de como baixar uma imagem personalizada**
 
-![Um diagrama sobre como usar a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama sobre como usar a interface COM no instalador Clique para Executar do Office")
+![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de usar a interface COM no instalador clique para executar do Office")
   
 ### <a name="overview-of-downloading-a-custom-image"></a>Visão geral de como baixar uma imagem personalizada
   
@@ -685,7 +685,7 @@ As Atualizações de Cliente do Office 365 permitem que o software de capacidade
   
 **A figura a seguir mostra um diagrama do fluxo de trabalho da Atualização de Cliente do Office 365.**
 
-![Diagrama do fluxo de trabalho para atualizações de cliente do O365PP.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagrama do fluxo de trabalho para atualizações de cliente do O365PP")
+![Diagrama de fluxo de trabalho de atualizações do cliente O365PP .](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagrama de fluxo de trabalho para atualizações do cliente O365PP")
   
 Cada Atualização de Cliente do Office 365 que é publicada inclui metadados sobre a atualização. Esses metadados incluem um parâmetro chamado *MoreInfoUrl*, que pode ser usado para derivar as seguintes informações: 
   
