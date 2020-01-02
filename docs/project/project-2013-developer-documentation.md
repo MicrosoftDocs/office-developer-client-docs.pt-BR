@@ -1,7 +1,7 @@
 ---
 title: Documentação do desenvolvedor do Project 2013
-manager: soliver
-ms.date: 04/04/2016
+manager: lindalu
+ms.date: 12/19/2019
 ms.audience: Developer
 f1_keywords:
 - Project
@@ -14,28 +14,26 @@ f1_keywords:
 keywords:
 - SDK, visão geral do project 2013, o Project 2013 SDK
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
-description: Localize documentação, exemplos de código, artigos de instruções e referências de programação para ajudar a criar aplicativos para o Office Store ou um catálogo de aplicativos e para personalizar e integrar clientes do Project Server e do Project a uma ampla variedade de outros aplicativos da área de trabalho e de negócios para o gerenciamento de projeto corporativo.
+description: Localize documentação, exemplos de código, artigos de instruções e referências de programação para ajudar a criar aplicativos para o Office ou um catálogo de aplicativos privados; e para personalizar e integrar clientes do Project Server e do Project a uma ampla variedade de outros aplicativos da área de trabalho e de negócios para o gerenciamento de projeto corporativo.
 localization_priority: Priority
-ms.openlocfilehash: cb4dd31a76b897bb5dba39e6b20d0a238bd95293
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1b6227bb25810be04bc87abb418f9966b593bf1c
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357040"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825755"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentação do desenvolvedor do Project 2013
 
-Localize documentação, exemplos de código, artigos de instruções e referências de programação para ajudar a criar aplicativos para o Office Store ou um catálogo de aplicativos e para personalizar e integrar clientes do Project Server e do Project a uma ampla variedade de outros aplicativos da área de trabalho e de negócios para o gerenciamento de projeto corporativo.
-  
-Bem-vindo ao kit de desenvolvimento de software do Microsoft Project 2013 (SDK). O SDK contém documentação, exemplos de código, artigos de instruções e referências de programação para ajudar a criar aplicativos para uma loja pública ou catálogo de aplicativos e para personalizar e integrar clientes do Project Server e do Project a uma ampla variedade de outros aplicativos da área de trabalho e de negócios para o gerenciamento de projeto corporativo.
-  
+Localize documentação, exemplos de código, artigos de instruções e referências de programação para ajudar a criar aplicativos para a AppSource. Saiba como personalizar e integrar clientes do Project Server e do Project a uma ampla variedade de outros aplicativos da área de trabalho e de negócios para o gerenciamento de projeto corporativo (EPM).
+   
 > [!NOTE]
 > O Project Server 2013 foi criado na plataforma SharePoint Server 2013 e o Project 2013 inclui grande parte da mesma infraestrutura que os outros aplicativos do Office 2013. Para obter documentação do modelo para suplementos do SharePoint, fluxos de trabalho baseados no SharePoint, Web Parts, desenvolvimento com outros recursos do SharePoint e documentação de suplementos do Office, confira[Suplementos do SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) e [ Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
   
-## <a name="introduction-to-the-project-sdk"></a>Introdução ao SDK do Project
+## <a name="introduction-to-the-project-software-development-kit-sdk"></a>Introdução ao SDK (Kit de Desenvolvimento de Software) do Project
 <a name="pj15_Welcome_IntroToSDK"> </a>
 
-O Project Server 2013 é uma plataforma para criar soluções de gerenciamento de projetos corporativos no local ou na nuvem e para criar aplicativos que os usuários finais podem descobrir e adquirir por meio de um armazenamento público ou de um catálogo de aplicativos privado. A arquitetura do Project Server 2013 é baseada na plataforma apresentada no Microsoft Office Project Server 2007, com muitos acréscimos e melhorias. Os novos recursos incluem um modelo de objeto do lado do cliente (CSOM) para habilitar o acesso ao Project Online, um serviço OData para acesso online aos dados de relatório do Project Server, receptores remotos de eventos e arquitetura de fluxo de trabalho baseado na versão 4 do Windows Workflow Foundation. (WF4) e Suplementos do Office, que é uma arquitetura comum para extensões do painel de tarefas em aplicativos de clientes do Microsoft Office 2013.
+O Project Server 2013 é uma plataforma para criar soluções de gerenciamento de projetos corporativos no local ou na nuvem, e para criar aplicativos que os usuários finais podem descobrir e adquirir por meio da AppSource (antigo Office Store). A arquitetura do Project Server 2013 é baseada na plataforma apresentada no Microsoft Office Project Server 2007, com muitos acréscimos e melhorias. Os novos recursos incluem um modelo de objeto do lado do cliente (CSOM) para habilitar o acesso ao Project Online, um serviço OData para acesso online aos dados de relatório do Project Server, receptores remotos de eventos e arquitetura de fluxo de trabalho baseado na versão 4 do Windows Workflow Foundation. (WF4) e Suplementos do Office, que é uma arquitetura comum para extensões do painel de tarefas em aplicativos de clientes do Microsoft Office 2013.
   
 Uma alteração importante no Project Server 2013 é o uso de um único banco de dados no lugar dos bancos de dados Rascunho, Publicado, Arquivo e Relatórios no Project Server 2010. Para saber mais sobre novos recursos e recursos preteridos, consulte [Atualizações para desenvolvedores no Project 2013](updates-for-developers-in-project-2013.md). Confira informações sobre as alterações de plataformas do Project Server em [Arquitetura do Project Server 2013](project-server-2013-architecture.md). Para obter uma visão geral da plataforma de desenvolvimento que existe no Project Server 2010 e na qual o Project Server 2013 se baseia, consulte[Introdução ao desenvolvimento no Project 2010](https://msdn.microsoft.com/library/gg607685.aspx) no MSDN. 
   
@@ -114,7 +112,7 @@ A seção **Artigos conceituais e de instruções** inclui o seguinte:
 - [Project 2013 programming references](project-2013-programming-references.md) inclui uma introdução à referência de PSI para o Project Server 2013, informações sobre códigos de erro do Project Server e referência ao esquema OData para o serviço **ProjectData**. 
     
 > [!NOTE]
->  Seguem os requisitos para desenvolver e implantar soluções e aplicativos de EPM da Office Store pública que se integra ao Project Server 2013:> Você deve instalar o .NET Framework 4 ou o .NET Framework 4.5 no computador de desenvolvimento e nos computadores de implantação. Para determinar se a versão correta está instalada, abra **Programas e Recursos** no painel de controle do Windows. > O Visual Studio 2012 instala e usa o .NET Framework 4.5. Quando você cria um projeto do Visual Studio, você pode selecionar **.NET Framework 4.0** ou **NET Framework 4.5** na lista suspensa da caixa de diálogo **Novo Projeto**. Você também pode selecionar as **Estrutura de Destino** na guia**Aplicativo** do projeto da janela **Propriedades**. > Você pode usar o Visual Studio 2010 para aplicativos que usam o CSOM ou o PSI e para os aplicativos do painel de tarefas do Project. No entanto, o Visual Studio 2010 não contém modelos de suplementos do Office, ferramentas de desenvolvimento do Office ou ferramentas de desenvolvimento do SharePoint para o Office 2013. Para baixar o Visual Studio 2012 e o Web Platform Installer (WebPI) que inclui as ferramentas de desenvolvimento do Office e do SharePoint, confira [Downloads para aplicativos do Office e SharePoint](https://msdn.microsoft.com/office/apps/fp123627). > Recomendamos que você desenvolva soluções personalizadas em um ambiente de teste. Se você desenvolver soluções para as versões atuais do Project Server 2013 e do Project 2013, elas deverão ser recompiladas com referências atualizadas e podem precisar de alterações adicionais para trabalhar com versões posteriores. Soluções desenvolvidas para qualquer versão de pré-lançamento podem não funcionar com a versão de lançamento. 
+>  Seguem os requisitos para desenvolver e implantar soluções e aplicativos de EPM da AppSource que se integra ao Project Server 2013:> Você deve instalar o .NET Framework 4 ou o .NET Framework 4.5 no computador de desenvolvimento e nos computadores de implantação. Para determinar se a versão correta está instalada, abra **Programas e Recursos** no painel de controle do Windows. > O Visual Studio 2012 instala e usa o .NET Framework 4.5. Quando você cria um projeto do Visual Studio, você pode selecionar **.NET Framework 4.0** ou **NET Framework 4.5** na lista suspensa da caixa de diálogo **Novo Projeto**. Você também pode selecionar as **Estrutura de Destino** na guia**Aplicativo** do projeto da janela **Propriedades**. > Você pode usar o Visual Studio 2010 para aplicativos que usam o CSOM ou o PSI e para os aplicativos do painel de tarefas do Project. No entanto, o Visual Studio 2010 não contém modelos de suplementos do Office, ferramentas de desenvolvimento do Office ou ferramentas de desenvolvimento do SharePoint para o Office 2013. Para baixar o Visual Studio 2012 e o Web Platform Installer (WebPI) que inclui as ferramentas de desenvolvimento do Office e do SharePoint, confira [Downloads para aplicativos do Office e SharePoint](https://msdn.microsoft.com/office/apps/fp123627). > Recomendamos que você desenvolva soluções personalizadas em um ambiente de teste. Se você desenvolver soluções para as versões atuais do Project Server 2013 e do Project 2013, elas deverão ser recompiladas com referências atualizadas e podem precisar de alterações adicionais para trabalhar com versões posteriores. Soluções desenvolvidas para qualquer versão de pré-lançamento podem não funcionar com a versão de lançamento. 
   
 ## <a name="see-also"></a>Confira também
 <a name="pj15_Welcome_AR"> </a>

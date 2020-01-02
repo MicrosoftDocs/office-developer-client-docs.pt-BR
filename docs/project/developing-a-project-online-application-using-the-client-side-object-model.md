@@ -1,23 +1,24 @@
 ---
 title: Desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online para área de trabalho, usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem.
+description: 'Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online usando o .NET Framework 4.0 e o CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322615"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825769"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente
+# <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente (CSOM)
 
-Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online para área de trabalho, usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem. 
+>[!NOTE] 
+>Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online para usar o CSOM. Recomendamos que você explore como desenvolver aplicativos usando o [novo Project para a Web](https://developer.microsoft.com/pt-BR/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
-## <a name="background"></a>Histórico
+## <a name="background"></a>Segundo plano
 
 O Microsoft Project começou como um aplicativo da área de trabalho no início da década de 1990. Atualmente o Project é muito mais, o que se comprova por sua variedade:
   
@@ -60,7 +61,7 @@ Comece com um sistema de base executando o Windows 10 e adicione os seguintes it
 
 Ao desenvolver um aplicativo de área de trabalho para o SharePoint, a interface preferida é o CSOM (Modelo de Objeto do Cliente) do Project. 
   
-É possível baixar a amostra completa em https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
+Você pode baixar os [exemplos de CSOM do Project](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project) na galeria de recursos do Project Developer no Centro de Desenvolvimento do Office.
   
 Os dois primeiros tópicos abordam as questões básicas: a criação de um projeto do Visual Studio com namespaces apropriados e assemblies, e o acesso ao servidor de hospedagem. Os tópicos restantes lidam com a recuperação de informações por meio do CSOM, de um e de diversos objetos. 
   
@@ -194,7 +195,7 @@ Entre os preparativos para acessar o ambiente hospedado estão os seguintes iten
 
    Ao instanciar o contexto dos projetos, o aplicativo deve fornecer a raiz do conjunto de sites dos Projects. O aplicativo usa uma subcadeia de caracteres da URL da raiz dos Projects. Um instantâneo desse local é realçado com um retângulo vermelho na ilustração a seguir. A autenticação precisa da cadeia de caracteres desde o início pela subcadeia de caracteres "pwa". Na lista de códigos, o aplicativo usa a cadeia "https://XXXXXXXX.sharepoint.com/sites/pwa".
         
-   ![Captura de tela da URL do conjunto de sites dos Projects dentro de uma borda vermelha. ] (media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de tela da URL do conjunto de sites dos Projects dentro de uma borda vermelha")
+   ![Captura de tela da URL do conjunto de sites dos Projects em uma borda vermelha.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de tela da URL do conjunto de sites dos Projects em uma borda vermelha.")
   
 3. Definir a senha em uma cadeia de caracteres segura – isso é feito no código a seguir ao fragmento de código anterior.
     
@@ -639,6 +640,6 @@ Value: Red
 
 ## <a name="see-also"></a>Confira também
 
-Confira a documentação e exemplos relacionados ao desenvolvimento de aplicativos usando o CSOM e Project Online no [Portal de Desenvolvimento do Project](https://developer.microsoft.com/pt-BR/project).
+Para documentação e exemplos relacionados ao desenvolvimento de aplicativos usando o CSOM, confira ao [Portal de desenvolvimento do Project](https://developer.microsoft.com/project).
     
 
