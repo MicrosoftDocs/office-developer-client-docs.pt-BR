@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Use o Telemetry Log for Office 2013 para determinar problemas de compatibilidade com o Office 2013 e as soluções criadas para versões anteriores do Office.
 localization_priority: Priority
-ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ace7a39c62194816662e49580cf6868edcae295
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346282"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773719"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Solucionando problemas de arquivos e de soluções personalizadas do Office com o log de telemetria
 
@@ -96,7 +96,7 @@ Por exemplo, o problema chamado "OM Oculto: Propriedade Comment.Initial" aparece
   
 **Figura 1. Log de Telemetria do Office**
   
-![O Visualizador de Eventos do Office mostrando registros.](media/off15_OfficeEventViewer_SD.png "O Visualizador de Eventos do Office mostrando registros")
+![O Visualizador de Eventos do Office exibindo registros](media/off15_OfficeEventViewer_SD.png "O Visualizador de Eventos do Office exibindo registros")
   
 > [!NOTE]
 >  A planilha de **Informações do Sistema** no Log de Telemetria contém informações sobre o computador em que o Office 2013 está instalado. A planilha exibe as seguintes informações: 
@@ -145,6 +145,8 @@ Use a tabela a seguir (Tabela 2) para interpretar os registros exibidos no Telem
 |18  <br/> |Aplicativo fechado com êxito  <br/> ||O aplicativo host conseguiu fechar o suplemento do Office com êxito.  <br/> |
 |19  <br/> |O suplemento encontrou um erro de tempo de execução  <br/> |Crítico  <br/> |O Suplemento do Office teve um problema que causou sua falha. Para obter mais detalhes, examine o log de Alertas do Microsoft Office usando o Visualizador de Eventos do Windows no computador que encontrou o erro.  <br/> |
 |20  <br/> |Falha ao verificar a licença do suplemento  <br/> |Crítico  <br/> |As informações de licenciamento para o Suplemento do Office não puderam ser verificadas e podem ter expirado. Para obter mais detalhes, examine o log de Alertas do Microsoft Office usando o Visualizador de Eventos do Windows no computador que encontrou o erro.  <br/> |
+|21 <br/>|A macro encontrou um erro de compilação <br/>|Aviso <br/>| O arquivo contém uma macro que falhou ao compilar e não pôde ser executada. Para obter mais detalhes, confira a mensagem de erro apresentada ao tentar compilar a macro no editor de macro.<br/>| 
+|22 <br/>|A macro encontrou um erro de tempo de execução<br/>| Aviso <br/>| O arquivo contém uma macro que encontrou um erro de tempo de execução. Para obter mais detalhes, confira a mensagem de erro apresentada ao tentar executar a macro no editor de macro e confira a [Referência do Visual Basic for Applications](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29).<br/>|
 |Vários  <br/> |"Alteração de Comportamento de OM: ..."  <br/> |Informativo  <br/> |O código do suplemento ou do documento habilitado para macro usa um objeto, um membro, uma coleção, uma enumeração ou uma constante que se comporta de forma diferente das versões anteriores do Office.<br/><br/> Para saber mais, consulte [Compatibility issues in Office 2013](compatibility-issues-in-office.md).  <br/> |
 |Vários  <br/> |"OM Removido: …"  <br/> |Crítico  <br/> |O código do suplemento ou do documento habilitado para macro usa um objeto, um membro, uma coleção, uma enumeração ou uma constante removido do modelo de objeto.<br/><br/>Para saber mais, consulte [Compatibility issues in Office 2013](compatibility-issues-in-office.md).  <br/> |
 |Vários  <br/> |"OM Oculto: …"  <br/> |Informativo  <br/> |O código do suplemento ou do documento habilitado para macro usa um objeto, um membro, uma coleção, uma enumeração ou uma constante ocultado no modelo de objeto.<br/><br/>Para saber mais, consulte [Compatibility issues in Office 2013](compatibility-issues-in-office.md).  <br/> |
@@ -161,6 +163,6 @@ O Telemetry Log oferece às grandes empresas, aos usuários individuais e aos de
 - [Central de Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Compatibility issues in Office 2013](compatibility-issues-in-office.md)
 - [Implantar o Painel de Telemetria do Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Central de Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905340)
+- [Central de desenvolvedores do Office](https://msdn.microsoft.com/office/aa905340)
     
 
