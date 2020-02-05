@@ -1,17 +1,17 @@
 ---
 title: Criar um suplemento do Project Server hospedado pelo SharePoint
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: Dos três tipos de aplicativo que você pode criar para o Project Online (hospedado automaticamente, hospedado pelo provedor e hospedado pelo SharePoint), o aplicativo hospedado pelo SharePoint é o mais simples de criar e implantar.
-ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9b3b41eda40a8419ad72f11bb474acf7acaf81e9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540837"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773754"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Criar um suplemento do Project Server hospedado pelo SharePoint
 
@@ -74,7 +74,7 @@ Para modificar a faixa de opções do Project Web App, você pode adicionar uma 
     
    **Figura 1. Criar um aplicativo do Project Server no Visual Studio**
 
-   ![Criar um aplicativo do Project Server no Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Criar um aplicativo do Project Server no Visual Studio")
+   ![Creating a Project Server app in Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Creating a Project Server app in Visual Studio")
   
 4. Na caixa de diálogo **Novo aplicativo para o SharePoint**, preencha estes três campos: 
     
@@ -97,7 +97,7 @@ Para modificar a faixa de opções do Project Web App, você pode adicionar uma 
     
    **Figura 2. Configurar o escopo da permissão para um aplicativo de status**
 
-   ![Configurar o escopo da permissão para um aplicativo de status](media/pj15_CreateStatusingApp_PermissionScope.gif "Configurar o escopo da permissão para um aplicativo de status")
+   ![Setting the permission scope for a statusing app](media/pj15_CreateStatusingApp_PermissionScope.gif "Setting the permission scope for a statusing app")
   
 O aplicativo **QuickStatus** permite que um usuário do Project Web App leia atribuições para esse usuário de vários projetos, altere a porcentagem concluída de atribuição e envie a atualização. Os outros escopos de solicitação de permissão mostrados na lista suspensa da Figura 2 não são necessários para este aplicativo. Os escopos de solicitação de permissão são as permissões que o aplicativo solicita em nome do usuário. Se o usuário não tiver essas permissões no Project Web App, o aplicativo não será executado. Um aplicativo pode ter vários escopos de solicitação de permissão, incluindo aqueles para outras permissões do SharePoint, mas deve ter apenas o mínimo necessário para a funcionalidade do aplicativo. A seguir estão os escopos de solicitação de permissão relacionados ao Project Server: 
 
@@ -126,7 +126,7 @@ Antes de começar a codificar o conteúdo HTML, projete a interface do usuário 
   
 **Figura 3. Página Design do aplicativo QuickStatus**
 
-![Página Design do aplicativo QuickStatus](media/pj15_CreateStatusingApp_AfterRefresh.gif "Página Design do aplicativo QuickStatus")
+![Design of the QuickStatus app page](media/pj15_CreateStatusingApp_AfterRefresh.gif "Design of the QuickStatus app page")
   
 O aplicativo mostra o nome de exibição na parte superior, que é o valor do elemento **Title** no AppManifest.xml. 
   
@@ -523,19 +523,19 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
     
    **Figura 4. Adicionar uma ação personalizada da faixa de opções**
 
-   ![Adicionar uma ação personalizada da faixa de opções](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adicionar uma ação personalizada da faixa de opções")
+   ![Adding a ribbon custom action](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adding a ribbon custom action")
   
 3. Na primeira página do assistente **Criar Ação Personalizada para a Faixa de Opções**, deixe a opção **Host da Web** selecionada, escolha **Nenhum** na lista suspensa para o escopo da ação personalizada e então escolha **Avançar** (consulte a Figura 5). Os itens das listas suspensas são relevantes para o SharePoint e não para o Project Server. Substituiremos a maioria dos XMLs gerados para a ação personalizada e, portanto, ela se aplicará ao Project Server. 
     
    **Figura 5. Especificar propriedades para a ação personalizada da faixa de opções**
 
-   ![Especificar propriedades para a ação personalizada da faixa de opções](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Especificar propriedades para a ação personalizada da faixa de opções")
+   ![Specifying properties for the ribbon custom action](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Specifying properties for the ribbon custom action")
   
 4. Na próxima página do assistente **Criar Ação Personalizada para a Faixa de Opções**, deixe todos os valores padrão para as configurações e então escolha **Concluir** (consulte a Figura 6). O Visual Studio cria a pasta **RibbonQuickStatusAction**, que contém um arquivo Elements.xml. 
     
    **Figura 6. Especificar as configurações para um controle de botão**
 
-   ![Especificar as configurações para um controle de botão](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Especificar as configurações para um controle de botão")
+   ![Specifying the settings for a button control](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Specifying the settings for a button control")
   
 5. Modifique o código padrão gerado no arquivo Elements.xml para a ação personalizada da faixa de opções. A seguir, o código XML padrão:
     
@@ -629,7 +629,7 @@ Conforme você desenvolve o aplicativo e adiciona um botão da faixa de opções
   
 **Figura 7. Visualizar a dica de ferramenta do botão QuickStatus desabilitado**
 
-![Visualizar a dica de ferramenta do botão QuickStatus desabilitado](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Visualizar a dica de ferramenta do botão QuickStatus desabilitado")
+![Viewing the tooltip of the disabled button](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Viewing the tooltip of the disabled button")
   
 O Procedimento 5 mostra como implantar e instalar o aplicativo **QuickStatus**. O Procedimento 6 mostra algumas etapas adicionais para testar o aplicativo depois de instalá-lo. 
 
@@ -650,7 +650,7 @@ Há várias maneiras de implantar um aplicativo para um aplicativo da Web do Sha
     
    **Figura 8. Publicar o aplicativo QuickStatus**
 
-   ![Usar o Assistente para Publicação](media/pj15_CreateStatusingApp_PublishWizard.gif "Usar o Assistente para Publicação")
+   ![Using the Publish Wizard](media/pj15_CreateStatusingApp_PublishWizard.gif "Using the Publish Wizard")
   
 3. Copie o arquivo QuickStatus.app do diretório `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` para um diretório conveniente no computador local (ou para o computador do SharePoint para uma instalação local). 
     
@@ -674,7 +674,7 @@ Há várias maneiras de implantar um aplicativo para um aplicativo da Web do Sha
     
       **Figura 9. Adicionar uma URL de ícone para o aplicativo QuickStatus**
 
-      ![Definir propriedades no SharePoint para o aplicativo](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Definir propriedades no SharePoint para o aplicativo")
+      ![Setting properties in SharePoint for the app](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Setting properties in SharePoint for the app")
   
    4. Campo **Categoria**: escolha uma categoria existente ou especifique seu próprio valor. Por exemplo, digite Status.
     
@@ -691,25 +691,25 @@ Há várias maneiras de implantar um aplicativo para um aplicativo da Web do Sha
     
       **Figura 10. O aplicativo QuickStatus é adicionado à biblioteca Aplicativos do SharePoint.**
 
-      ![O aplicativo QuickStatus é adicionado ao SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "O aplicativo QuickStatus é adicionado ao SharePoint")
+      ![The QuickStatus app is added to SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "The QuickStatus app is added to SharePoint")
   
 9. No Project Web App, no menu suspenso **Configurações**, escolha **Adicionar um aplicativo**. Na página Seus aplicativos, no Início Rápido, escolha **Da sua organização** e, em seguida, escolha **Detalhes do Aplicativo** para o aplicativo **Atualização do QuickStatus**. A Figura 11 mostra a página de detalhes com o ícone do aplicativo, captura de tela e outras informações adicionadas na etapa anterior. 
     
    **Figura 11. Usar a página de detalhes de Atualização do QuickStatus no Project Web App**
 
-   ![Adicionar o aplicativo QuickStatus ao Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adicionar o aplicativo QuickStatus ao Project Web App")
+   ![Adding the QuickStatus app to Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adding the QuickStatus app to Project Web App")
   
 10. Na página de detalhes da Atualização do QuickStatus, escolha **ADICIONAR**. O Project Web App exibe uma caixa de diálogo que lista as operações que o aplicativo QuickStatus pode executar (confira a Figura 12). A lista de operações é derivada dos elementos **AppPermissionRequest** no arquivo AppManifest.xml. 
     
     **Figura 12. Verificar se você confia no aplicativo QuickStatus**
 
-    ![Verificar a confiabilidade do aplicativo QuickStatus](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Verificar a confiabilidade do aplicativo QuickStatus")
+    ![Verifying trust for the QuickStatus app](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Verifying trust for the QuickStatus app")
   
 11. Na caixa de diálogo **Você confia na Atualização do QuickStatus**, escolha **Confiar**. O aplicativo é adicionado à página Conteúdo do Site do Project Web App (confira a Figura 13).
     
     **Figura 13. Exibir o aplicativo QuickStatus na página Conteúdo do Site**
 
-    ![Exibir o aplicativo QuickStatus em Conteúdo do Site](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Exibir o aplicativo QuickStatus em Conteúdo do Site")
+    ![Viewing the QuickStatus app in Site Contents](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Viewing the QuickStatus app in Site Contents")
   
 Na página Conteúdo do Site, você pode selecionar o ícone **Atualização do QuickStatus** para executar o aplicativo.
 
@@ -720,7 +720,7 @@ Na página Tarefas no Project Web App (confira a Figura 14), o botão **QuickSta
 
 **Figura 14. Iniciar o aplicativo QuickStatus na guia TAREFAS**
 
-![Iniciar o aplicativo QuickStatus na guia TAREFAS](media/pj15_CreateStatusingApp_TasksRibbon.gif "Iniciar o aplicativo QuickStatus na guia TAREFAS")
+![Starting the QuickStatus app from the TASKS tab](media/pj15_CreateStatusingApp_TasksRibbon.gif "Starting the QuickStatus app from the TASKS tab")
   
 O Procedimento 6 mostra alguns testes a serem feitos com o aplicativo QuickStatus.
 
@@ -753,25 +753,25 @@ Todas as operações que um usuário pode tentar no aplicativo **QuickStatus** d
     
       **Figura 15. Atualizar uma atribuição no aplicativo QuickStatus**
 
-      ![Atualizar uma atribuição no aplicativo QuickStatus](media/pj15_CreateStatusingApp_Testing1Update.gif "Atualizar uma atribuição no aplicativo QuickStatus")
+      ![Updating an assignment in the QuickStatus app](media/pj15_CreateStatusingApp_Testing1Update.gif "Updating an assignment in the QuickStatus app")
   
 3. Escolha **Atualizar** (confira a Figura 16). Todas as tarefas são selecionadas novamente e a tarefa principal mostra uma porcentagem de conclusão de 80%. 
     
       **Figura 16. Atualizar a página Atualização do QuickStatus**
 
-      ![Atualizar a página QuickStatus](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Atualizar a página QuickStatus")
+      ![Refreshing the QuickStatus page](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Refreshing the QuickStatus page")
   
 4. Desmarque todas as caixas de seleção e então selecione outra tarefa. Por exemplo, selecione **Nova tarefa do PWA**. Deixe a caixa de texto **Definir porcentagem concluída** vazia, exclua todo o texto da coluna **% concluídos** para a tarefa selecionada e então escolha **Atualização**. Como ambas as caixas de texto estão vazias, o aplicativo mostra uma mensagem de erro vermelha (consulte a Figura 17).
     
       **Figura 17. Testar a mensagem de erro**
 
-      ![Testar a mensagem de erro](media/pj15_CreateStatusingApp_Testing3Error.gif "Testar a mensagem de erro")
+      ![Testing the error message](media/pj15_CreateStatusingApp_Testing3Error.gif "Testing the error message")
   
 5. Atualize a tarefa anterior para 80% concluída e, em seguida, escolha **Sair**. A função **exitToPwa** altera o local da janela do navegador para a página Tarefas no aplicativo host do SharePoint (ou seja, a URL é alterada para https://ServerName/pwa/Tasks.aspx)). A Figura 18 mostra que a tarefa **T1** e a tarefa **Nova tarefa do PWA**, cada uma, mostram 80% de conclusão. 
     
       **Figura 18. Verificar se as tarefas estão atualizadas no Project Web App**
 
-      ![Verificar as tarefas atualizadas no Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Verificar as tarefas atualizadas no Project Web App")
+      ![Verifying the updated tasks in Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Verifying the updated tasks in Project Web App")
   
 6. Antes que o status atualizado seja mostrado no Project Professional 2013, as alterações deverão ser enviadas para aprovação e então aprovadas pelo gerente de projetos.
     
@@ -1223,7 +1223,7 @@ O aplicativo **QuickStatus** é um exemplo relativamente simples de como gravar 
 
 - [Tarefas de programação do Project Server](project-programming-tasks.md)
 - [Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
-- [Gerenciar atualizações de tarefas no Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
+- [Gerenciar atualizações de tarefas no Project Web App](https://technet.microsoft.com/library/hh767481%28v=office.14%29.aspx)
 - [Criar ações personalizadas para implantação com Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

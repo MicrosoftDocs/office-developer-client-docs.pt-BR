@@ -1,17 +1,17 @@
 ---
 title: Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Aprenda a integrar o instalador Clique para Executar do Office 365 a uma solução de gerenciamento de software.
-ms.openlocfilehash: 62bfef0063c414fcecd0948e49dfa098b5c82bbb
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 0c695d538a0a906bce19719c2735cb39740ff6a2
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819270"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773733"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
 
