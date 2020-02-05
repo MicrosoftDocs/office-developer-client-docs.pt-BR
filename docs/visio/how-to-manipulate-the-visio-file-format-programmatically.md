@@ -1,18 +1,18 @@
 ---
 title: Manipular o formato de arquivo do Visio via programação
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 04/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crie uma solução no Visual Studio 2012 para ler o novo pacote de formato de arquivo no Visio 2013, selecione partes no pacote, altere os dados em uma peça e adicione novas partes ao pacote.
 localization_priority: Priority
-ms.openlocfilehash: f54a0afec4bc45d322e3a18194eafc3bd768e0d0
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819298"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773740"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular o formato de arquivo do Visio via programação
 
@@ -128,7 +128,7 @@ Esses procedimentos usam um aplicativo de console do Windows para manipular arqu
 ## <a name="open-a-visio-2013-file-as-a-package"></a>Abrir um arquivo do Visio 2013 como um pacote
 <a name="vis15_ManipulateFF_OpenPackage"> </a>
 
-Antes de manipular os dados no arquivo, você precisa primeiro abri-lo em um objeto [pacote](https://docs.microsoft.com/dotnet/api/system.io.packaging.package?view=netframework-4.8), que está incluído na namespace[System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8). O objeto **pacote** representa o arquivo do Visio como um todo. Ele expõe membros que permitem selecionar partes individuais do documento dentro do pacote de arquivos. Em particular, a classe **Package** expõe o método estático [Open (String, FileMode, FileAccess)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.open?view=netframework-4.8) que você usa para abrir um arquivo como um pacote. Isso também expõe o método [Close ()](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.close?view=netframework-4.8) para fechar o pacote assim que você terminar. 
+Antes de manipular os dados no arquivo, você precisa primeiro abri-lo em um objeto [pacote](https://docs.microsoft.com/dotnet/api/system.io.packaging.package?view=netframework-4.8), que está incluído na namespace [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8). O objeto **pacote** representa o arquivo do Visio como um todo. Ele expõe membros que permitem selecionar partes individuais do documento dentro do pacote de arquivos. Em particular, a classe **Package** expõe o método estático [Open (String, FileMode, FileAccess)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.open?view=netframework-4.8) que você usa para abrir um arquivo como um pacote. Isso também expõe o método [Close ()](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.close?view=netframework-4.8) para fechar o pacote assim que você terminar. 
   
 > [!TIP]
 > Como prática recomendada, **use** o bloco de uso para abrir o arquivo do Visio no objeto **Package** para que você não precise fechar explicitamente o pacote de arquivos quando terminar. Você também pode chamar explicitamente o método **Package.Close** no bloco **finally** de uma construção **try /catch/finally**. 
@@ -302,8 +302,8 @@ O aplicativo de console produz saída semelhante à seguinte (parte da saída fo
  `Press any key to continue …`
   
 Mais frequentemente, você precisará selecionar um **PackagePart** sem precisar iterar todos eles. Você pode obter um objeto **PackagePart** de um **Pacote** usando sua relação com o **Pacote** ou outro **PackagePart**. Um relacionamento no formato de arquivo do Visio 2013 é uma entidade discreta que descreve como uma parte do documento se relaciona com o pacote de arquivos ou como duas partes do documento se relacionam entre si. Por exemplo, o pacote de arquivos do Visio 2013 em si tem um relacionamento com a parte do documento do Visio e a parte do documento do Visio tem um relacionamento com a parte do Windows. Essas relações são representadas como instâncias das classes[PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) ou [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
-  
-A classe **Pacote** expõe vários métodos para obter os relacionamentos que ela contém como objetos **PackageRelationship** ou **PackageRelationshipCollection**. Você pode usar o método [GetRelationshipsByType(String)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.getrelationshipsbytype?redirectedfrom=MSDN&view=netframework-4.8#System_IO_Packaging_Package_GetRelationshipsByType_System_String_) para criar uma instância de um objeto**PackageRelationshipCollection** que contém objetos **PackageRelationship** de um único tipo específico. Claro, usar o método **Package.GetRelationshipsByType** requer que você já saiba o tipo de relação necessárias. Os tipos de relacionamento são sequências no formato de namespace XML. Por exemplo, o tipo de relação de parte do documento Visio é https://schemas.microsoft.com/visio/2010/relationships/document. 
+
+A classe **Pacote** expõe vários métodos para obter os relacionamentos que ela contém como objetos **PackageRelationship** ou **PackageRelationshipCollection**. Você pode usar o método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para criar uma instância de um objeto**PackageRelationshipCollection** que contém objetos **PackageRelationship** de um único tipo específico. Claro, usar o método **Package.GetRelationshipsByType** requer que você já saiba o tipo de relação necessárias. Os tipos de relacionamento são sequências no formato de namespace XML. Por exemplo, o tipo de relação de parte do documento Visio é https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Depois que você sabe a relação de um **PackagePart** com o **Pacote** ou outra **PackagePart** (ou seja, você tem um objeto **PackageRelationship**que faz referência ao **PackagePart** desejado), você pode usar essa relação obter o URI desse **PackagePart**. Passar URI para o método **GetPart** para retornar a **PackagePart**.
   

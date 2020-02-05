@@ -25,12 +25,12 @@ keywords:
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Saiba mais sobre os principais recursos de programação do Project Server 2013. Este artigo contém informações sobre a portabilidade de aplicativos que foram criados para versões anteriores do Project Server.
 localization_priority: Priority
-ms.openlocfilehash: db5e09ebe7a820255ba3d61c719b838289005e12
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: e6991712b87291e90c6b4f277db84686aab384e7
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819305"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773726"
 ---
 # <a name="project-server-programmability"></a>Programabilidade do Project Server
 
@@ -105,7 +105,7 @@ Quando você atualiza um aplicativo que foi desenvolvido para uma versão anteri
 > [!NOTE]
 > Se o CSOM incluir a funcionalidade necessária, recomendamos que você atualize os aplicativos para usar o CSOM. O CSOM permite que os aplicativos sejam usados ​​para instalações locais e on-line do Project Server 2013. 
   
-Se o seu aplicativo ler principalmente dados do Project Server, você poderá usar as tabelas e exibições de relatórios no banco de dados do Project Server para um cenário local. Se você pretende usar o aplicativo com o Project Online, você pode usar o protocolo OData para o serviço **ProjectData**, que fornece acesso local e on-line aos dados de relatório. Para obter mais informações, confira [ProjectData ‒  referência do serviço ProjectOData](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
+Se o seu aplicativo ler principalmente dados do Project Server, você poderá usar as tabelas e exibições de relatórios no banco de dados do Project Server para um cenário local. Se você pretende usar o aplicativo com o Project Online, você pode usar o protocolo OData para o serviço **ProjectData**, que fornece acesso local e on-line aos dados de relatório. Para obter mais informações, confira [ProjectData ‒  referência do serviço Project OData](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)).
   
 ### <a name="using-the-psi"></a>Usando o PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -134,7 +134,7 @@ O CSOM pode ser usado copiando os seguintes recursos para o seu computador de de
   
 - Para o desenvolvimento do .NET Framework 4, copie a assembly `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll`. 
     
-  Para documentação de classes CSOM e membros, confira a namespace[Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)). Para um exemplo de aplicativo, confira [Introdução ao CSOM e .NET](getting-started-with-the-project-server-csom-and-net.md).
+  Para documentação de classes CSOM e membros, confira a namespace [Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)). Para um exemplo de aplicativo, confira [Introdução ao CSOM e .NET](getting-started-with-the-project-server-csom-and-net.md).
     
 - Para o desenvolvimento do Microsoft Silverlight, copie a assembly `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll`. 
     
@@ -234,7 +234,7 @@ Os mecanismos de planejamento mais antigos e mais recentes têm as seguintes lim
   
 A seguir estão os problemas e as limitações da programação PSI com o mecanismo de agendamento mais antigo do Project Server:
   
-- **Alterando o status ativo de uma tarefa** O mecanismo de agendamento mais antigo do Project Server pode mostrar horários de início ou término inconsistentes quando você usa o método [QueueUpdateProject](https://docs.microsoft.com/en-us/previous-versions/office/ms471014(v=office.14)) para alterar o status ativo de uma tarefa, se houver várias alterações no objeto **ProjectDataSet** para o parâmetro _dataset_. Se a propriedade **TASK_IS_ACTIVE** é a única alteração no parâmetro _conjunto de dados_ da **QueueUpdateProject**, você pode atualizar o projeto.
+- **Alterando o status ativo de uma tarefa** O mecanismo de agendamento mais antigo do Project Server pode mostrar horários de início ou término inconsistentes quando você usa o método [QueueUpdateProject](https://docs.microsoft.com/previous-versions/office/ms471014(v=office.14)) para alterar o status ativo de uma tarefa, se houver várias alterações no objeto **ProjectDataSet** para o parâmetro _dataset_. Se a propriedade **TASK_IS_ACTIVE** é a única alteração no parâmetro _conjunto de dados_ da **QueueUpdateProject**, você pode atualizar o projeto.
     
     Para obter mais informações sobre tarefas inativas e o mecanismo de agendamento mais antigo, consulte os artigos do blog [Introduzindo tarefas inativas no Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) e [Project Server 2010: Agendando na Web, PSI e Project Professional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obter uma comparação de agendamento no Project Professional 2010 e no Project Web App no ​​Project Server 2010, confira [Comparação de gerenciamento de cronograma baseado na Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     

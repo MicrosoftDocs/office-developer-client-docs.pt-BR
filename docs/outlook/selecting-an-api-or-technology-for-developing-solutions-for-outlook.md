@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Este artigo descreve as APIs e tecnologias que você pode usar para estender o Outlook 2013 e o Outlook 2016, e ajuda você a se decidir pela API ou a tecnologia apropriada para seu cenário.
 localization_priority: Priority
-ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 42ca5056c49186229ab1689c9aeeb4d34dda60fc
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819312"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773747"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Escolher uma API ou tecnologia para desenvolver soluções para o Outlook
 
@@ -554,7 +554,7 @@ Os recursos a seguir fornecem mais informações sobre como usar o modelo de obj
 
 - [Anexar um arquivo a um item de email](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Tipos de arquivo de anexo restringidos pelo Outlook 2010](https://technet.microsoft.com/pt-BR/library/cc179163.aspx)
+- [Tipos de arquivo de anexo restringidos pelo Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - Objeto [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx)  
     
@@ -754,7 +754,7 @@ Veja as seguintes propriedades relacionadas a tarefas em alguns objetos de item,
     
 - [Alterações de desligamento do Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Tipos de arquivo de anexo restringidos pelo Outlook 2010](https://technet.microsoft.com/pt-BR/library/cc179163.aspx)
+- [Tipos de arquivo de anexo restringidos pelo Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - [Alterações de encerramento do aplicativo no Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
