@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crie uma solução no Visual Studio 2012 para ler o novo pacote de formato de arquivo no Visio 2013, selecione partes no pacote, altere os dados em uma peça e adicione novas partes ao pacote.
 localization_priority: Priority
-ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.openlocfilehash: 3998c0d4b97439571bd93293f5f49659580f09de
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773740"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102902"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular o formato de arquivo do Visio via programação
 
@@ -36,7 +36,7 @@ Neste artigo, examinamos como trabalhar com o formato de arquivo do Visio 2013 p
 |:-----|:-----|
 |[Introdução ao formato de arquivo do Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Esta visão geral descreve alguns dos principais recursos do formato de arquivo do Visio 2013. Ele discute as Open Packaging Conventions (OPC) e como elas foram aplicadas ao formato de arquivo do Visio 2013. Também lista algumas diferenças entre o formato de arquivo do Visio 2013 e o formato de arquivo anterior do desenho do Visio XML (. vdx).  <br/> |
 |[OPC: Um novo padrão para sua embalagem de dados](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |Este artigo da MSDN revista descreve as Open Packaging Conventions como um conceito.  <br/> |
-|[Conceitos básicos das Open Packaging Conventions](https://docs.microsoft.com/en-us/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Apresentando os formatos de arquivo Open XML (2007) do Office](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |Esses dois artigos discutem como as Open Packaging Conventions foram aplicadas aos arquivos do Microsoft Office. Eles contêm descrições de como os relacionamentos funcionam em um pacote e também incluem alguns exemplos de código.  <br/> |
+|[Conceitos básicos das Open Packaging Conventions](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Apresentando os formatos de arquivo Open XML (2007) do Office](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |Esses dois artigos discutem como as Open Packaging Conventions foram aplicadas aos arquivos do Microsoft Office. Eles contêm descrições de como os relacionamentos funcionam em um pacote e também incluem alguns exemplos de código.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Criar um arquivo. vsdx e uma nova solução do Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>
