@@ -17,6 +17,8 @@
           href: integration/office-for-android-support-for-the-android-storage-access-framework.md
         - name: Integração com o Office em aplicativos do Android
           href: integration/integrate-with-office-from-android-applications.md
+        - name: Considerações para o ambiente de RPA não assistido do Microsoft 365
+          href: integration/considerations-unattended-automation-office-microsoft-365-for-unattended-rpa.md
     - name: Servidor do Office Online
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office para Mac
