@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Última modificação: 06 de setembro de 2019'
-ms.openlocfilehash: f6f671cbfd5e14d602aaa31d31e54e859f068593
-ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
+ms.openlocfilehash: c9fcffa8ad4dc982e869f4ccd449e1377fb1ea57
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790768"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160283"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -60,7 +60,7 @@ CCSF_EMBEDDED_MESSAGE
     
 CCSF_SMTP
   
-> O fluxo MIME é para uma mensagem Simple MAPI Transfer Protocol (SMTP).
+> O fluxo MIME é para uma mensagem SMTP (Simple Mail Transfer Protocol).
     
 CCSF_INCLUDE_BCC
   
@@ -81,7 +81,7 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Comentários
 
-Se você tiver especificado o **CCSF_USE_RTF** como parte do _parâmetroulflags_ e o repositório de mensagens de destino oferecer suporte a HTML e RTF, a mensagem MAPI será convertida em HTML ou RTF. Se a mensagem for convertida para RTF, o formato convertido será compactado RTF, qualquer HTML será incorporado na cadeia de caracteres RTF compactada, e a cadeia de caracteres será contida na [Propriedade canônica PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
+Se você especificou **CCSF_USE_RTF** como parte do _parâmetroulflags_ e o repositório de mensagens de destino oferecer suporte a HTML e RTF, a mensagem MAPI será convertida em HTML ou RTF. Se a mensagem for convertida para RTF, o formato convertido será compactado RTF, qualquer HTML será incorporado na cadeia de caracteres RTF compactada, e a cadeia de caracteres será contida na [Propriedade canônica PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 

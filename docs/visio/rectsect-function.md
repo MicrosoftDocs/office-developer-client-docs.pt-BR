@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Calcula o setor de um retângulo associado a x e y e retorna um inteiro de 0 a 4, indicando o setor.
-ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 442ec0d614589c709a097ba314abad044d470df6
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360021"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160269"
 ---
 # <a name="rectsect-function"></a>Função RECTSECT
 
@@ -22,11 +22,11 @@ Calcula o setor de um retângulo associado a *x* e *y* e retorna um inteiro de 0
   
 ## <a name="syntax"></a>Sintaxe
 
-RECTSECT (* * *largura* * *, * * *altura* * *, * * *x* * *, * * *y* * *, * * *opção* * *) 
+RECTSECT (***largura***, ***altura***, ***x***, ***y***, ***opção*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _width_ <br/> |Obrigatório  <br/> |**String** <br/> |Largura do retângulo.  <br/> |
 | _height_ <br/> |Obrigatório  <br/> |**String** <br/> |Altura do retângulo.  <br/> |

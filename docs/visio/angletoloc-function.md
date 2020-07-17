@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: Retorna um ângulo transformado no sistema de coordenadas local da forma de destino. Converte um ângulo de coordenadas locais em uma forma de origem para as coordenadas locais em uma forma de destino.
-ms.openlocfilehash: 804faeb24932e414ad03bc9e8487c62ca08bd7d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e971613d4fc33cd991e7e9aeba49ac47871ebe8f
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433567"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160262"
 ---
 # <a name="angletoloc-function"></a>Função ANGLETOLOC
 
@@ -22,15 +22,15 @@ Retorna um ângulo transformado no sistema de coordenadas local da forma de dest
   
 ## <a name="syntax"></a>Sintaxe
 
-ANGLETOLOC (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *) 
+ANGLETOLOC (***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _srcAngle_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |Um ângulo no sistema de coordenadas de origem.  <br/> |
-| _srcRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma referência a uma célula no objeto de origem, como uma forma, um grupo, uma página, entre outros.  <br/> |
-| _dstRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma referência a uma célula no objeto de destino, como uma forma, um grupo, uma página, entre outros.  <br/> |
+| _srcRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de origem, como uma forma, um grupo, uma página, entre outros.  <br/> |
+| _dstRef_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência a uma célula no objeto de destino, como uma forma, um grupo, uma página, entre outros.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

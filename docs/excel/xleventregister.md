@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00c222efce6925c3f691eb2b799adf687c22082c
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438761"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160276"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -43,7 +43,7 @@ A partir do Excel 2010, o Excel oferece suporte aos seguintes eventos:
    
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se bem-sucedido, retorna **true** (**xltypeBool**). Se não tiver êxito, retornará **false**.
+Se tiver êxito, pxRes (**xltypeInt**) tem um valor > 0. Se não tiver êxito, pxRes = = 0.
   
 ## <a name="see-also"></a>Confira também
 
