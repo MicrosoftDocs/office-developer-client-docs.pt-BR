@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
 description: Retorna um número binário de 16 bits em que cada bit é definido como 1 somente se o bit correspondente em ambos binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0.
-ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a3c76a9122d0f02d5ab61460cf3457bb15da4d7b
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409724"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293489"
 ---
 # <a name="bitand-function"></a>Função BITAND
 
@@ -22,7 +22,7 @@ Retorna um número binário de 16 bits em que cada bit é definido como 1 soment
   
 ## <a name="syntax"></a>Sintaxe
 
-BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *) 
+BITAND (***binarynumber1***, ***binarynumber2*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 

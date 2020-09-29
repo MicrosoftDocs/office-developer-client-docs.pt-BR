@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
 description: Especifica um argumento que a célula de chamada pode passar para uma função personalizada, bem como o valor padrão retornado pela função personalizada se a célula de chamada não passar um valor para o argumento. Retorna o valor especificado pela célula de chamada e o parâmetro argName correspondente.
-ms.openlocfilehash: f85c3dc4a49878b034674330f272a63e79c17d49
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3cde7fe55d7bc60d15f32d7ad954443e545af914
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422723"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293482"
 ---
 # <a name="arg-function"></a>Função ARG
 
@@ -20,14 +20,14 @@ Especifica um argumento que a célula de chamada pode passar para uma função p
   
 ## <a name="syntax"></a>Sintaxe
 
-ARG (* * *argName* * *, [* * *DefaultValue* * *]) 
+ARG (***argName***, [ ***DefaultValue*** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _argName_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O nome de um argumento que a célula de chamada pode passar para a função.  <br/> |
-| _Valor padrão_ <br/> |Opcional  <br/> |**Numérica** <br/> |O valor retornado por ARG se a célula de chamada não tiver passado um valor para o parâmetro _argName_ .  <br/> |
+| _argName_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome de um argumento que a célula de chamada pode passar para a função.  <br/> |
+| _Valor padrão_ <br/> |Opcional  <br/> |**Numérica** <br/> |O valor retornado por ARG se a célula de chamada não tiver passado um valor para o parâmetro  _argName_ .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

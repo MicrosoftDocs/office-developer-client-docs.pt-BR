@@ -1,14 +1,14 @@
 ---
-title: Lidar com a sua solução do Office de escala DPI e DPI alto
+title: Lidar com a sua solução do Office de alta escala DPI e DPI
 description: Atualize sua solução do Office como painéis de tarefas personalizados ou controles ActiveX, para dar suporte a monitores DPI altos.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78179b958bc57137c0565b8b1ca5feb40f61fe0e
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301724"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293475"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Lidar com a sua solução do Office de alta escala DPI e DPI
 
@@ -237,7 +237,7 @@ Com o Windows atualização de abril de 2018 (1803) e versões posteriores, DPI 
 
 ![Diagrama mostrando janelas filho executando o sistema DPI cientes contexto no Windows abril de 2018 atualização (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para receber reconhecimento DPI da janela dos pais. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obter o reconhecimento de DPI da janela pai. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
 > Você não pode depender reconhecimento de DPI o processo de como ela pode retornar [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) mesmo quando estiver o contexto de reconhecimento de conversa principal DPI aplicativo [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Use a função [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) Obtenha o contexto de reconhecimento de conversa DPI.
