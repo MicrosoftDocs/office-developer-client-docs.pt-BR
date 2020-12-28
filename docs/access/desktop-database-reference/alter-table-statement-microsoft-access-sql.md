@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 07a83c16368caa6e5c05c7554300c5589a437067
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297155"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734179"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instrução ALTER TABLE (Microsoft Access SQL)
 
@@ -147,8 +147,8 @@ Este exemplo altera o campo Salário do tipo de dados **Dinheiro** para o tipo d
         ' on your computer. 
         Set dbs = OpenDatabase("Northwind.mdb") 
      
-        ' Add the Salary field to the Employees table  
-        ' and make it a Money data type. 
+        ' Modify the existing Salary field of the Employees table  
+        ' by changing it to a CHAR data type. 
         dbs.Execute "ALTER TABLE Employees " _ 
             & "ALTER COLUMN Salary CHAR(20);" 
      

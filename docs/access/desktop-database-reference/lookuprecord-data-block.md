@@ -7,23 +7,23 @@ ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 920f0830a310452962eb5dd1c21be63215bf0f03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7a5cccb77300f36f3e33cd1eccb6c6d278db3120
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289788"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734207"
 ---
 # <a name="lookuprecord-data-block"></a>Bloco de dados Pesquisarregistro
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Um bloco de dados **PesquisarRegistro** executa um conjunto de ações em um registro específico.
 
 > [!NOTE]
 > O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **PesquisarRegistro** tem os seguintes argumentos.
 
@@ -35,7 +35,7 @@ A ação **PesquisarRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -62,13 +62,13 @@ A ação **PesquisarRegistro** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Se os critérios especificados pelos argumentos *in* e *Where Condition* especificarem mais de um registro, o bloco de dados **pesquisarregistro** funcionará somente no primeiro registro.
+Se os critérios especificados pelos argumentos *in* e *Where Condition* retornarem mais de um registro, o bloco de dados **pesquisarregistro** funcionará somente no primeiro registro.  No caso de nenhum registro corresponder aos critérios especificados, o Access ignorará o conjunto de ações contidas no bloco **pesquisarregistro** , como se tivesse sido uma expressão de bloco de macro **[If](if-then-else-macro-block.md)** que foi avaliada como false.
 
 ## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornado para a macro ou a sub-rotina VBA (Visual Basic for Applications) chamada da macro de dados nomeada.
 
-**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido pela** [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     RunDataMacro

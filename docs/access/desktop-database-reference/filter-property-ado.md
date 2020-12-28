@@ -1,4 +1,5 @@
 ---
+description: Filter Property
 title: Propriedade Filter (ADO)
 TOCTitle: Filter property (ADO)
 ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
@@ -7,17 +8,17 @@ ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 8cc5153d851a4dc17ef690421d1080ddf91fc3bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9d3234f1d5f41fd9f07b8d98bf3df395067780ae
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292472"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734193"
 ---
 # <a name="filter-property-ado"></a>Propriedade Filter (ADO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Indica um filtro para os dados em um [Recordset](recordset-object-ado.md).
 
@@ -39,18 +40,20 @@ A cadeia de caracteres de critérios é composta por cláusulas no formulário *
 
   - *FieldName* deve ser um nome de campo válido do **Recordset**. Se o nome de campo contiver espaços, coloque o nome entre colchetes.
 
-  - *Operator* deve ser uma das seguintes opções: \<, \>, \<=, \>=, \< \>, = ou **like**.
+  - *Operator* deve ser uma das seguintes opções: \<, \> , \<=, \> =, \<\> , = ou **like**.
 
-  - *Value* é o valor com o qual você irá comparar os valores de campo (por exemplo, ' Smith \#'\#, 8/24/95, 12,345 ou $50). Use aspas simples com cadeias de caracteres e\#sinais de sustenido () com datas. Para números, você pode usar vírgulas decimais, símbolos de dólar e notação científica. Se *Operator* for **LIKE**, *Value* poderá usar curingas. Somente o asterisco (\*) e o sinal de porcentagem (%) curingas são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
+  - *Value* é o valor com o qual você irá comparar os valores de campo (por exemplo, ' Smith ', \# 8/24/95 \# , 12,345 ou $50). Use aspas simples com cadeias de caracteres e sinais de sustenido ( \# ) com datas. Para números, você pode usar vírgulas decimais, símbolos de dólar e notação científica. Se *Operator* for **LIKE**, *Value* poderá usar curingas. Somente o asterisco ( \* ) e o sinal de porcentagem (%) curingas são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
 
     > [!NOTE]
     > [!OBSERVAçãO] Para incluir aspas simples (') no filtro Value, use duas aspas simples para representar uma. Por exemplo, para filtrar em O'Malley, a sequência de critérios deve ser "col1 = 'O''Malley'". Para incluir aspas simples no início e no final do valor de filtragem, coloque a sequência entre símbolos de libra (#). Por exemplo, para filtrar em '1', a sequência de critérios deve ser "col1 = #'1'#".
 
-  - Não há precedência entre **AND** e **OR**. As cláusulas podem ser agrupadas entre parênteses. No entanto, não é possível agrupar as cláusulas unidas por um **OR** e, em seguida, unir o grupo a outra cláusula com um **AND**, como neste exemplo:
+-   Não há precedência entre **AND** e **OR**. As cláusulas podem ser agrupadas entre parênteses. No entanto, você não pode agrupar as cláusulas Unidas por um **ou** e depois juntar o grupo a outra cláusula com um **e**, como no seguinte trecho de código:  
+ `(LastName = 'Smith' OR LastName = 'Jones') AND FirstName = 'John'`  
+  
+-   Em vez disso, você deve construir esse filtro como  
+ `(LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John')`  
 
-  - Em vez disso, você deve construir esse filtro como
-
-  - Em uma cláusula **like** , você pode usar um caractere curinga no início e no final do padrão (por exemplo, LastName como '\*MIT\*') ou apenas no final do padrão (por exemplo, LastName como ' Smit\*').
+  - Em uma cláusula **like** , você pode usar um caractere curinga no início e no final do padrão (por exemplo, LastName como ' \* MIT \* ') ou apenas no final do padrão (por exemplo, LastName como ' Smit \* ').
 
 As constantes de filtragem tornam mais fácil resolver conflitos individuais de registro durante o modo de atualização em lote, permitindo que você exiba, por exemplo, apenas os registros que foram afetados durante a última chamada do método [UpdateBatch](updatebatch-method-ado.md).
 
@@ -62,7 +65,7 @@ Sempre que a propriedade **Filter** for definida, a posição atual do registro 
 
 Consulte a propriedade [Bookmark](bookmark-property-ado.md) para obter uma explicação sobre valores de indicadores a partir dos quais é possível construir uma matriz para usar com a propriedade **Filter**.
 
-Somente **filtros** na forma de cadeias de caracteres de critérios ( \> por exemplo, DataDoPedido ' 12/31/1999 ') afetam o conteúdo de um **Recordset**persistente. **Filters** criados com uma Matriz de **Bookmarks** ou usando um valor de **FilterGroupEnum** não afetarão o conteúdo de um Recordset persistente. Essas regras aplicam-se a **Recordsets** criados com cursores do lado do cliente e do servidor.
+Somente **filtros** na forma de cadeias de caracteres de critérios (por exemplo, datadopedido \> ' 12/31/1999 ') afetam o conteúdo de um **Recordset** persistente. **Filters** criados com uma Matriz de **Bookmarks** ou usando um valor de **FilterGroupEnum** não afetarão o conteúdo de um Recordset persistente. Essas regras aplicam-se a **Recordsets** criados com cursores do lado do cliente e do servidor.
 
 > [!NOTE]
 > [!OBSERVAçãO] Quando você aplica o sinalizador **adFilterPendingRecords** a um **Recordset** filtrado e modificado no modo de atualização em lote, o **Recordset** resultante será vazio se a filtragem tiver sido baseada no campo de chave de uma tabela de chave única e a modificação tiver sido feita nos valores do campo de chave. O **Recordset** resultante não será vazio se uma das afirmações a seguir for verdadeira:
