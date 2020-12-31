@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Este artigo descreve como configurar um aplicativo de cliente de mensagens instantâneas (IM) para que ele seja integrado aos recursos sociais do Office 2013 e superiores, incluindo a exibição da presença e o envio de mensagens instantâneas do cartão de visita.
 localization_priority: Priority
-ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819291"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734228"
 ---
 # <a name="integrating-im-applications-with-office"></a>Integração de aplicativos de mensagens instantâneas com o Office
 
@@ -308,6 +308,10 @@ O método **GetSupportedFeatures** retorna informações sobre os recursos de me
 >  Os aplicativos do Office 2013 (e superiores) ignoram as seguintes constantes na enumeração **OIFeature**: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
+> - **oiFeaturePhoneNormalization**
+>
+>  Os aplicativos do Office 365 versão 2011 (e superior) ignoram as seguintes constantes na enumeração **OIFeature**: 
+> - **oiFeaturePictures** (2) 
 > - **oiFeaturePhoneNormalization**
   
 Use o exemplo de código a seguir para implementar o método **GetSupportFeatures** no código do aplicativo cliente de mensagens instantâneas. 
@@ -710,7 +714,7 @@ A Tabela 5 mostra os membros que devem ser implementados na classe que é herdad
 |Propriedade **Settings**  <br/> |Obtém uma coleção de propriedades do contato.  <br/> |
 |Propriedade **CustomGroups**  <br/> |Obtém uma coleção de grupos dos quais o contato é um membro.  <br/> |
    
-Durante o processo de inicialização, o aplicativo do Office chama o método **IContact.CanStart** para determinar os recursos de mensagens instantâneas para o usuário local. O método **CanStart** usa um sinalizador da enumeração [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como um argumento para o parâmetro __modalityTypes_. Se o usuário atual puder se envolver na modalidade solicitada (isto é, o usuário pode enviar e receber mensagens instantâneas, mensagens de áudio e vídeo ou compartilhar aplicativos), o método **CanStart** retornará **true**.
+Durante o processo de inicialização, o aplicativo do Office chama o método **IContact.CanStart** para determinar os recursos de mensagens instantâneas para o usuário local. O método **CanStart** usa um sinalizador da enumeração [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como um argumento para o parâmetro _ _modalityTypes_. Se o usuário atual puder se envolver na modalidade solicitada (isto é, o usuário pode enviar e receber mensagens instantâneas, mensagens de áudio e vídeo ou compartilhar aplicativos), o método **CanStart** retornará **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -734,7 +738,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-O método **GetContactInformation** recupera informações sobre o contato do objeto **IContact**. O código de chamada precisa passar um valor da enumeração [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para o parâmetro __contactInformationType_, que indica os dados a serem recuperados. 
+O método **GetContactInformation** recupera informações sobre o contato do objeto **IContact**. O código de chamada precisa passar um valor da enumeração [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para o parâmetro _ _contactInformationType_, que indica os dados a serem recuperados. 
   
 ```cs
 public object GetContactInformation(
@@ -765,7 +769,7 @@ public object GetContactInformation(
 }
 ```
 
-Semelhante a **GetContactInformation**, o método **BatchGetContactInformation** recupera vários itens de presença sobre o contato no objeto **IContact**. O código de chamada precisa passar uma matriz de valores da enumeração **ContactInformationType** para o parâmetro __contactInformationTypes_. O método retorna um objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contém os dados solicitados. 
+Semelhante a **GetContactInformation**, o método **BatchGetContactInformation** recupera vários itens de presença sobre o contato no objeto **IContact**. O código de chamada precisa passar uma matriz de valores da enumeração **ContactInformationType** para o parâmetro _ _contactInformationTypes_. O método retorna um objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contém os dados solicitados. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -883,7 +887,7 @@ A Tabela 7 mostra os membros que devem ser implementados na classe que é herdad
 ||Evento **OnGroupRemoved**  <br/> |Gerado quando um grupo é removido de uma coleção de grupos. A coleção de grupos atualizados pode ser obtida na propriedade **IContactManager.Groups**.  <br/> |
 ||Evento **OnSearchProviderStateChanged**  <br/> |Gerado quando o status de um provedor de pesquisa muda.  <br/> |
    
-O Office chama **IContactManager.GetContactByUri** para obter informações de presença de um contato usando o endereço SIP do contato. Quando um contato é configurado para um endereço SIP no Active Directory, o Office determina esse endereço para um contato e chama **GetContactByUri**, passando o endereço SIP do contato para o parâmetro __contactUri_. 
+O Office chama **IContactManager.GetContactByUri** para obter informações de presença de um contato usando o endereço SIP do contato. Quando um contato é configurado para um endereço SIP no Active Directory, o Office determina esse endereço para um contato e chama **GetContactByUri**, passando o endereço SIP do contato para o parâmetro _ _contactUri_. 
   
 Quando o Office não puder determinar o endereço SIP para o contato, ele chamará o método **IContactManager.Lookup** para encontrar o SIP usando o serviço de mensagens instantâneas. Aqui, o Office passa os melhores dados que pode encontrar para o contato (por exemplo, o endereço de email do contato). O método **Lookup** retorna um objeto **AsynchronousOperation** de modo assíncrono. Quando invocar o retorno de chamada, o método **Lookup** deverá retornar o êxito ou a falha da operação além do URI do contato. 
   
