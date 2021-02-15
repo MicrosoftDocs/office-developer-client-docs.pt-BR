@@ -38,9 +38,9 @@ ms.locfileid: "32308747"
 Use a ação **EnviarSequênciadeCaracteres** para enviar pressionamentos de teclas para o Microsoft Access ou para um aplicativos ativo baseado no Windows.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **EnviarSequênciaDeCaracteres** tem os seguintes argumentos.
 
@@ -57,7 +57,7 @@ A ação **EnviarSequênciaDeCaracteres** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pressionamentos</strong></p></td>
+<td><p><strong>Teclas</strong></p></td>
 <td><p>Os pressionamentos de teclas a serem processados pelo Access ou pelo aplicativo. Insira-os na caixa <strong>Pressionamentos de Teclas</strong> na seção <strong> Argumentos da Ação</strong> do painel Construtor de Macros. Você pode digitar até 255 caracteres. Este é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">

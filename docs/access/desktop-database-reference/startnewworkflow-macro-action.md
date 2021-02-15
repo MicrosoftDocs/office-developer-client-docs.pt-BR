@@ -25,7 +25,7 @@ ms.locfileid: "32306395"
 
 Você pode usar a ação **IniciarNovoFluxoDeTrabalho** para iniciar um novo fluxo de trabalho para um item em uma lista vinculada do Microsoft SharePoint Foundation.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **IniciarNovoFluxoDeTrabalho** tem o argumento a seguir.
 
@@ -43,7 +43,7 @@ A ação **IniciarNovoFluxoDeTrabalho** tem o argumento a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Número de registro</strong></p></td>
-<td><p>A posição do item na lista do SharePoint Foundation, começando com <strong>1</strong> para o primeiro item da lista, <strong>2</strong> para o segundo item e assim por diante. Você também pode inserir uma expressão para esse argumento.</p></td>
+<td><p>A posição do item na lista do SharePoint Foundation, começando com <strong>1</strong> para o primeiro item na lista, <strong>2</strong> para o segundo item e assim por diante. Você também pode inserir uma expressão para esse argumento.</p></td>
 </tr>
 </tbody>
 </table>

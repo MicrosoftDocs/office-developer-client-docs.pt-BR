@@ -23,7 +23,7 @@ O Java Type Library Wizard é um recurso do Visual J++ 1.x, integrado ao menu **
 
 O Java Type Library Wizard produz resultados semelhantes aos das ferramentas de linha de comando incluídas com o [Microsoft SDK for Java](using-the-microsoft-sdk-for-java.md). Entretanto, você não pode depurar os invólucros de classe gerados pelo assistente, ao contrário dos invólucros de classe gerados pelo Microsoft SDK for Java.
 
-O assistente de biblioteca de tipos Java gera as classes no seguinte local \\ \<: Windows\>\\Directory\\Java\\trustlib MsADO15. O arquivo Summary.txt, localizado no diretório que gerou as classes, mostra as definições de classe geradas por ele.
+O Java Type Library Wizard gera as classes no seguinte local: \\ \< windows directory Java \> \\ \\ trustlib \\ msado15. O arquivo Summary.txt, localizado no diretório que gerou as classes, mostra as definições de classe geradas por ele.
 
 O Java Type Library Wizard converte os tipos enumerados, encontrados em qualquer biblioteca de tipos específica, no tipo INT (inteiro). Ele também define uma interface que corresponde a cada tipo enumerado na biblioteca de tipos. Você pode fazer referência aos valores de um tipo ADO enumerado usando esta sintaxe:
 
@@ -43,11 +43,11 @@ Também seria possível herdar do invólucro de tipo enumerado gerado pelo Java 
 
 Para obter mais informações sobre código de exemplo, consulte [Invólucros de classe ADO Java](ado-java-class-wrappers.md).
 
-**Para executar o assistente de biblioteca de tipos Java a partir do Visual J++ versão 1. * x***
+**Para executar o Java Type Library Wizard no Visual J++ versão 1.*x***
 
 1.  No menu **Ferramentas**, selecione **Java Type Library Wizard**.
 
-2.  Selecione "Biblioteca Microsoft ActiveX Data Objects" e clique em **OK**. Isso gera \\arquivos no diretório TRUSTLIB para ADO (por padrão, em c:\\WinNT\\Java\\trustlib\\MsADO15). Se você tiver usado o Microsoft SDK for Java para já gerar classes para o ADO, elas serão substituídas por essas classes do Java Type Library Wizard.
+2.  Selecione "Biblioteca Microsoft ActiveX Data Objects" e clique em **OK**. Isso agora (re)gera arquivos no diretório trustlib do ADO (por padrão em \\ c: \\ winnt \\ java \\ trustlib \\ msado15). Se você tiver usado o Microsoft SDK for Java para já gerar classes para o ADO, elas serão substituídas por essas classes do Java Type Library Wizard.
 
-3.  Para usar esses arquivos, abra seu projeto no Visual J++. No menu **Projeto**, escolha **Adicionar ao Projeto**. Selecione **arquivos**e adicione todos os. Arquivos JAVA gerados no diretório \\trustlib (por padrão, em c:\\WinNT\\Java\\trustlib\\MsADO15) para o seu projeto.
+3.  Para usar esses arquivos, abra seu projeto no Visual J++. No menu **Projeto**, escolha **Adicionar ao Projeto**. Select **Files**, and add all of the . Arquivos JAVA gerados no diretório trustlib (por padrão em \\ c: \\ winnt \\ java \\ trustlib \\ msado15) para seu projeto.
 

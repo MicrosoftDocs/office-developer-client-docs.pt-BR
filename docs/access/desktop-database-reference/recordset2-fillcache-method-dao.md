@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. FillCache (DAO)
+title: Método Recordset2.FillCache (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309699"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Método Recordset2. FillCache (DAO)
+# <a name="recordset2fillcache-method-dao"></a>Método Recordset2.FillCache (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Preenche todo ou uma parte do cache local para um objeto **Recordset** que cont�
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . FillCache (***linhas***, ***startbookmark criarem***)
+*expressão* . FillCache(***Rows***, ***StartBookmark***)
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,23 +42,23 @@ Preenche todo ou uma parte do cache local para um objeto **Recordset** que cont�
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Rows</em></p></td>
+<td><p><em>Linhas</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica o número de linhas a ser armazenado no cache. Se você omitir esse argumento, o valor será determinado pela <strong><a href="recordset2-cachesize-property-dao.md"></a></strong> configuração da propriedade CacheSize.</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica o número de linhas a ser armazenado no cache. Se você omitir esse argumento, o valor será determinado pela configuração da propriedade <strong><a href="recordset2-cachesize-property-dao.md">CacheSize.</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><em>Startbookmark criarem</em></p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que especifica um indicador. O cache é preenchido começando pelo registro indicado por esse indicador. Se você omitir esse argumento, o cache será preenchido a partir do registro indicado pela propriedade <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> .</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que especifica um indicador. O cache é preenchido começando pelo registro indicado por esse indicador. Se você omitir esse argumento, o cache será preenchido começando pelo registro indicado pela <strong><a href="recordset2-cachestart-property-dao.md">propriedade CacheStart.</a></strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ Em vez de aguardar que o cache seja preenchido com registros à medida que eles 
 
 Qualquer fonte de dados ODBC conectada ao mecanismo de banco de dados do Microsoft Access que você acessa com os objetos **Recordset** pode ter um cache local. Para criar o cache, abra um objeto **Recordset** na fonte de dados remota e, em seguida, defina as propriedades **CacheSize** e **CacheStart** do **Recordset**.
 
-Se Rows e startbookmark criarem criar um intervalo de registros que está parcialmente ou totalmente fora do intervalo de registros especificado pelas propriedades **** CacheSize e **CacheStart** , a parte do Recordset fora desse intervalo será ignorada e não será carregada no cache.
+Se as linhas e o startbookmark criarem um intervalo de registros parcial ou totalmente fora do intervalo de registros especificado pelas propriedades **CacheSize** e **CacheStart,** a parte do recordset fora desse intervalo será ignorada e não será carregada no cache.
 
 Se **FillCache** solicitar mais registros do que o número restante na fonte de dados remota, o mecanismo do banco de dados do Microsoft Access irá recuperar somente os registros restantes, e não ocorrerá nenhum erro.
 

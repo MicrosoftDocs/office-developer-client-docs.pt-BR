@@ -22,7 +22,7 @@ Grava uma sequência de texto especificada em um objeto [Stream](stream-object-a
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. *Dados*WriteText, *Opções*
+*Stream*. Dados *WriteText*, *Opções*
 
 ## <a name="parameters"></a>Parâmetros
 

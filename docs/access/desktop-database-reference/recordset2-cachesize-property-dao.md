@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. caChesize (DAO)
+title: Propriedade Recordset2.CacheSize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: d8d195cc-6696-0583-31eb-b9988f8b7c6f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835090(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307424"
 ---
-# <a name="recordset2cachesize-property-dao"></a>Propriedade Recordset2. caChesize (DAO)
+# <a name="recordset2cachesize-property-dao"></a>Propriedade Recordset2.CacheSize (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ Define ou retorna vários registros recuperados de uma fonte de dados ODBC que s
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Ches
+*expressão* . CacheSize
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 

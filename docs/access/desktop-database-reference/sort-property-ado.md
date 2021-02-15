@@ -33,7 +33,7 @@ A operação de classificação é eficiente, pois os dados não são reorganiza
 
 A definição da propriedade **Sort** em uma sequência de caracteres vazia redefinirá as linhas para sua ordem original e excluirá os índices temporários. Os índices existentes não serão excluídos.
 
-Suponha que um **Recordset** contenha três campos denominados *firstName*, *middleInitial* e *lastName*. Defina a propriedade **Sort** como a cadeia de caracteres, "LastName DESC, FirstName ASC", que ordenará o **Recordset** pelo sobrenome em ordem decrescente e, em seguida, pelo primeiro nome em ordem crescente. A inicial do segundo nome será ignorada.
+Suponha que um **Recordset** contenha três campos denominados *firstName*, *middleInitial* e *lastName*. De definida a propriedade **Sort** para a cadeia de caracteres, "lastName DESC, firstName ASC", que ordenará o **Recordset** pelo sobrenome em ordem decrescente e, em seguida, pelo primeiro nome em ordem crescente. A inicial do segundo nome será ignorada.
 
 Nenhum campo poderá ser nomeado como "ASC" ou "DESC", pois esses nomes entrariam em conflito com as palavras-chave **ASC** e **DESC**. Forneça um alias ao campo com um nome conflitante utilizando a palavra-chave **AS** na consulta que retornar o **Recordset**.
 

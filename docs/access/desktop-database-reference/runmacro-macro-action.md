@@ -32,7 +32,7 @@ Você pode usar a ação:
 
 - Anexar uma macro a um comando de menu personalizado.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarMacro** tem os argumentos a seguir.
 
@@ -50,7 +50,7 @@ A ação **ExecutarMacro** tem os argumentos a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da Macro</strong></p></td>
-<td><p>O nome da macro a ser executada. A caixa <strong>nome da macro</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todas as macros (e grupos de macros) no banco de dados atual. Se a macro estiver em um grupo de macros, ela será listada sob o nome do grupo de macros na lista como <em>macrogroupname</em>. <em>nomedamacro</em>. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</p></td>
+<td><p>O nome da macro a ser executada. A <strong>caixa Nome da</strong> Macro na seção <strong>Argumentos</strong> da Ação do painel Construtor de Macros mostra todas as macros (e grupos de macros) no banco de dados atual. Se a macro estiver em um grupo de macros, ela será listada sob o nome do grupo de macros na lista como <em>nome do grupo de macros.</em> <em>macroname</em>. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Contagem de repetição</strong></p></td>

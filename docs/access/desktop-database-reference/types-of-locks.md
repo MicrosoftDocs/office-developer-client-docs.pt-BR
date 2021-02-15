@@ -1,5 +1,5 @@
 ---
-title: Tipos de bloqueios (referência de banco de dados do Access)
+title: Tipos de bloqueios (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)

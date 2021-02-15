@@ -1,5 +1,5 @@
 ---
-title: Cursores estáticos (referência do banco de dados do Access Desktop)
+title: Cursores estáticos (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Static cursors
 ms:assetid: 1acf7fc5-fb12-e59e-f480-dde378a29c53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)

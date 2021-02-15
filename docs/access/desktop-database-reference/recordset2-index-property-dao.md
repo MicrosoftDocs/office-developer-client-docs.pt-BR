@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. Index (DAO)
+title: Propriedade Recordset2.Index (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307298"
 ---
-# <a name="recordset2index-property-dao"></a>Propriedade Recordset2. Index (DAO)
+# <a name="recordset2index-property-dao"></a>Propriedade Recordset2.Index (DAO)
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se a:** Access 2013, Office 2013
 
-Define ou retorna um valor que indica o nome do objeto **[Index](index-object-dao.md)** atual em um objeto **[Recordset](recordset-object-dao.md)** do tipo tabela (somente nos espaços de trabalho do Microsoft Access).
+Define ou retorna um valor que indica o nome do objeto **[Index](index-object-dao.md)** atual em um objeto **[Recordset](recordset-object-dao.md)** do tipo tabela (somente em espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Índice
+*expression* .Index
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -36,7 +36,7 @@ Examine a coleção **Indexes** de um objeto **TableDef** para determinar quais 
 
 Gere um novo índice da tabela pela criação de um novo objeto **Index**, pela definição de suas propriedades, pelo acréscimo à coleção **Indexes** do objeto base **TableDef** e depois pela reabertura do objeto **Recordset**.
 
-Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar registros em alguma outra ordem, você pode abrir um objeto **Recordset** do tipo dynaset, instantâneo – ou Forward – somente usando uma instrução SQL com uma cláusula order by.
+Os registros retornados de um objeto **Recordset** do tipo tabela podem ser ordenados somente pelos índices definidos para o objeto base **TableDef**. Para classificar os registros na mesma ordem, abra um objeto **Recordset** do tipo dynaset, instantâneo ou somente encaminhamento por meio da instrução SQL com uma cláusula ORDER BY.
 
 > [!NOTE]
 > - Não é necessário criar índices para tabelas. Em tabelas grandes e não indexadas, o acesso a um registro específico ou a criação do objeto **Recordset** podem demorar muito. Por outro lado, a criação excessiva de índices diminui a velocidade das operações de atualização, acréscimo e exclusão porque todos os índices são atualizados automaticamente.
@@ -47,7 +47,7 @@ Os registros retornados de um objeto **Recordset** do tipo tabela podem ser orde
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a propriedade **Index** para definir as ordens de registro diferentes para um **Recordset** do tipo tabela.
+Este exemplo usa a propriedade **Index** para definir pedidos de registros diferentes para um **Recordset** do tipo tabela.
 
 ```vb
     Sub IndexPropertyX() 
@@ -91,7 +91,7 @@ Este exemplo usa a propriedade **Index** para definir as ordens de registro dife
 
 <br/>
 
-Este exemplo demonstra o método **Seek** permitindo que o usuário procure um produto com base em um número de identificação.
+Este exemplo demonstra o método **Seek** ao permitir que o usuário procure um produto com base em um número de ID.
 
 ```vb
     Sub SeekX() 

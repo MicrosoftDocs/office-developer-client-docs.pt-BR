@@ -26,7 +26,7 @@ ms.locfileid: "32306794"
 
 Você pode usar a ação **RemoverTodasVariáveisTemporárias** para remover todas as variáveis temporárias criadas usando a ação **DefinirVariávelTemporária**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RemoverTodasVariáveisTemporárias** não tem nenhum argumento.
 
@@ -52,7 +52,7 @@ A macro a seguir demonstra como criar uma variável temporária, usá-la em uma 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condição</p></th>
+<th><p>Condition</p></th>
 <th><p>Ação</p></th>
 <th><p>Argumentos</p></th>
 </tr>
@@ -60,17 +60,17 @@ A macro a seguir demonstra como criar uma variável temporária, usá-la em uma 
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>DefinirVariávelTemporária</strong></p></td>
-<td><p><strong>Name</strong>: minhavar<strong>expressão</strong>: InputBox (&quot;Insira um número diferente de zero)&quot;.</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars]! Minhavar &lt; &gt;0</p></td>
+<td><p>[TempVars]! [MyVar] &lt; &gt; 0</p></td>
 <td><p><strong>CaixaDeMensagem</strong></p></td>
-<td><p><strong>Mensagem</strong>: =&quot;você inseriu &quot; &amp; [TempVars]! Minhavar &amp; &quot;. &quot; <strong>Aviso sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
+<td><p><strong>Mensagem</strong>: = &quot; Você entrou &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>RemoverTodasVariáveisTemporárias</strong></p></td>
+<td><p><strong>RemoveAllTempVars</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

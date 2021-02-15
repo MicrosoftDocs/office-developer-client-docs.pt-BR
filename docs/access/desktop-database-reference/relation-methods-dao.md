@@ -1,5 +1,5 @@
 ---
-title: Métodos relation (DAO)
+title: Métodos Relation (DAO)
 TOCTitle: Methods
 ms:assetid: 9d0fef8b-3ae4-4b48-8b32-e73630c0a5ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125502(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307025"
 ---
-# <a name="relation-methods-dao"></a>Métodos relation (DAO)
+# <a name="relation-methods-dao"></a>Métodos Relation (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método relation. CreateField (DAO)](relation-createfield-method-dao.md)
+- [Método Relation.CreateField (DAO)](relation-createfield-method-dao.md)
 

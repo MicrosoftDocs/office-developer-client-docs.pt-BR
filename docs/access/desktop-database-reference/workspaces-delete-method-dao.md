@@ -1,5 +1,5 @@
 ---
-title: Método Workspaces. Delete (DAO)
+title: Método Workspaces.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308306"
 ---
-# <a name="workspacesdelete-method-dao"></a>Método Workspaces. Delete (DAO)
+# <a name="workspacesdelete-method-dao"></a>Método Workspaces.Delete (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Exclui o formulário **Workspace** especificado da coleção **Workspaces**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Excluir (***nome***)
+*expressão* . Delete(***Name***)
 
-*expressão* Uma variável que representa um **** objeto Workspaces.
+*expressão* Uma variável que representa **um objeto Workspaces** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,14 +38,14 @@ Exclui o formulário **Workspace** especificado da coleção **Workspaces**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>O nome do espaço de trabalho a ser excluído.</p></td>

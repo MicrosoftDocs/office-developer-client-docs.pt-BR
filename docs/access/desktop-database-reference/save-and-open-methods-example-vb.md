@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-Neste ponto, você chegou em seu destino. Você irá acessar a tabela ***Authors*** como um **Recordset** local e desconectado. Não se esqueça de que você deve ter o provedor **MSPersist** no computador que está usando para acessar o arquivo salvo, a:\\pubs. xml.
+Neste ponto, você chegou em seu destino. Você irá acessar a tabela ***Authors*** como um **Recordset** local e desconectado. Não se esqueça de que você deve ter o provedor **MSPersist** no computador que está usando para acessar o arquivo salvo, a: \\Pubs.xml.
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto de relações (DAO)
+title: Referência de objeto relations (DAO)
 TOCTitle: Relations
 ms:assetid: 6e803ead-5641-4611-af9a-22c211c238db
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160922(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306941"
 ---
-# <a name="relations-object-reference-dao"></a>Referência de objeto de relações (DAO)
+# <a name="relations-object-reference-dao"></a>Referência de objeto relations (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Coleção Relations (DAO)](relations-collection-dao.md)
-- [Membros de relações (DAO)](relations-members-dao.md)
-- [Propriedades de relações (DAO)](relations-properties-dao.md)
-- [Métodos de relações (DAO)](relations-methods-dao.md)
+- [Membros Relations (DAO)](relations-members-dao.md)
+- [Propriedades Relations (DAO)](relations-properties-dao.md)
+- [Métodos relations (DAO)](relations-methods-dao.md)
 

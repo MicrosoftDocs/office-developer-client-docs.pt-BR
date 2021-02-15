@@ -52,7 +52,7 @@ Você pode usar o ADO facilmente com o Visual Basic for Applications, por meio d
 
 4. Clique em **OK**.
 
-## <a name="creating-ado-objects-in-visual-basic"></a>Criando objetos ADO no Visual Basic
+## <a name="creating-ado-objects-in-visual-basic"></a>Criando objetos do ADO no Visual Basic
 
 Para criar uma variável de automação e uma instância de um objeto para essa variável, você pode usar dois métodos: **Dim** ou **CreateObject**.
 
@@ -74,7 +74,7 @@ Set conn = New ADODB.Connection
 ```
 
 > [!NOTE]
-> Não é necessário usar explicitamente o ProgID ADODB com a instrução **Dim** , supondo que você tenha referenciado corretamente a biblioteca do ADO em seu projeto. Entretanto, sua utilização garante a ausência de conflitos de nomeação com outras bibliotecas.
+> Não é necessário usar explicitamente o progid do ADODB com a instrução **Dim,** supondo que você tenha referenciado corretamente a biblioteca do ADO em seu projeto. Entretanto, sua utilização garante a ausência de conflitos de nomeação com outras bibliotecas.
 > 
 > Por exemplo, se você incluir referências a ADO e a DAO no mesmo projeto, inclua um qualificador para especificar qual modelo de objeto será usado ao instanciar objetos **Recordset**, como no código a seguir:  
 > 
@@ -105,9 +105,9 @@ A instanciação de objetos com o método **CreateObject** geralmente é mais le
 
 ## <a name="handling-events"></a>Manipular eventos
 
-Para manipular eventos do ADO no Microsoft Visual Basic, você deve declarar uma variável no nível do módulo usando a palavra-chave **WithEvents** . A variável pode ser declarada apenas como parte de um módulo de classe e deve ser declarada no nível de módulo. Para obter uma discussão mais completa sobre o tratamento de eventos do ADO, consulte o [capítulo 7: manipulação de eventos do ADO](chapter-7-handling-ado-events.md).
+Para manipular eventos ADO no Microsoft Visual Basic, você deve declarar uma variável de nível de módulo usando a **palavra-chave WithEvents.** A variável pode ser declarada apenas como parte de um módulo de classe e deve ser declarada no nível de módulo. Para obter uma discussão mais completa sobre a manipulação de eventos do ADO, consulte [o Capítulo 7: Manipulando eventos do ADO.](chapter-7-handling-ado-events.md)
 
 ## <a name="visual-basic-examples"></a>Exemplos do Visual Basic
 
-Vários exemplos de Visual Basic são incluídos com a documentação do ADO. Para obter mais informações, consulte [exemplos de código do ADO no Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
+Vários exemplos de Visual Basic são incluídos com a documentação do ADO. Para obter mais informações, consulte [exemplos de código ADO no Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

@@ -18,14 +18,14 @@ ms.locfileid: "32308670"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-A ação **SetReturnVar** cria uma variável de retorno e a define como um valor específico.
+A **ação SetReturnVar** cria uma variável de retorno e a define como um valor específico.
 
 > [!NOTE]
-> A ação **SetReturnVar** está disponível somente em macros de dados.
+> A **ação DefinirVarReturna** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
-A ação **SetReturnVar** tem os seguintes argumentos.
+A **ação SetReturnVar** tem os seguintes argumentos.
 
 <table>
 <colgroup>
@@ -35,7 +35,7 @@ A ação **SetReturnVar** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -47,9 +47,9 @@ A ação **SetReturnVar** tem os seguintes argumentos.
 <td><p>Uma cadeia de caracteres que especifica o nome da variável.</p></td>
 </tr>
 <tr class="even">
-<td><p>Expressão</p></td>
+<td><p>Expression</p></td>
 <td><p>Sim</p></td>
-<td><p>Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igualdade (=). Você pode clicar no botão <strong>construir</strong> para usar o <strong>Construtor de expressões</strong> para definir esse argumento.</p></td>
+<td><p>Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igualdade (=). Você pode clicar no botão <strong>Build</strong> para usar o <strong>Construtor de Expressões</strong> para definir esse argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,19 +57,19 @@ A ação **SetReturnVar** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro** .
+A **ação SetReturnVar** é usada para criar uma **Variável** RetornarVar , que é uma variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro.**
 
-Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, poderia usar a variável usando a seguinte sintaxe:
+Depois que **uma Revar** Retornada é criada pela **ação DefinirVarVar,** a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou uma **ReturnVar** chamada **UpdateSuccess,** poderá usar a variável usando a seguinte sintaxe:
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-A ação **SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ele não está disponível em macros de dados anexadas a um evento de macro de dados.
+A **ação SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ela não está disponível em macros de dados anexadas a um evento de macro de dados.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada. Um ReturnVar chamado **CurrentServiceRequest** é retornado para a macro ou a sub-rotina VBA (Visual Basic for Applications) chamada da macro de dados nomeada.
+O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada. Uma ReturnVar chamada **CurrentServiceRequest** é retornada para a macro ou sub-rotina Visual Basic for Applications (VBA) que chamou a macro de dados nomeada.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

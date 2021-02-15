@@ -1,5 +1,5 @@
 ---
-title: Seção Schema (referência do banco de dados de área de trabalho do Access)
+title: Seção Schema (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Schema Section
 ms:assetid: 59b42ffb-0524-adc3-8bcd-6e4cd2c505ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
@@ -148,7 +148,7 @@ Os exemplos a seguir mostram como incluir as informações de tipo na seção sc
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-Há um uso sutil do atributo **rs:fixedlength** no segundo exemplo. Uma coluna com o atributo **rs:fixedlength** definida como true significa que os dados devem ter o comprimento definido na seção schema. Nesse caso, um valor legal para ID de\_título é "123456", como é "123". Contudo, "123" não seria válido porque seu comprimento é 3, e não 6. Consulte o OLE DB Programmer's Guide para obter uma descrição mais completa da propriedade **fixedlength**.
+Há um uso sutil do atributo **rs:fixedlength** no segundo exemplo. Uma coluna com o atributo **rs:fixedlength** definida como true significa que os dados devem ter o comprimento definido na seção schema. Nesse caso, um valor legal para a ID de título é \_ "123456", assim como "123 ". Contudo, "123" não seria válido porque seu comprimento é 3, e não 6. Consulte o OLE DB Programmer's Guide para obter uma descrição mais completa da propriedade **fixedlength**.
 
 ## <a name="handling-nulls"></a>Tratando valores nulos
 
@@ -164,14 +164,14 @@ Os valores nulos são tratados pelo atributo **rs:maybenull**. Se esse atributo 
 </s:AttributeType> 
 ```
 
-A definição permite que CompanyName seja nulo, mas ShipperID não pode conter um valor nulo. Se a seção de dados contiver a seguinte linha, o provedor de persistência definiria o status dos dados da coluna CompanyName para a constante de status do\_OLE\_DB DBSTATUS S IsNull:
+A definição permite que CompanyName seja nulo, mas ShipperID não pode conter um valor nulo. Se a seção de dados contivesse a seguinte linha, o Persistence Provider definiria o status dos dados da coluna CompanyName como a constante de status DBSTATUS S ISNULL do OLE \_ DBSTATUS: \_
 
 ```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
-Se a linha estava totalmente vazia, como a seguir, o provedor de persistência retornaria um status de OLE\_DB\_de DBSTATUS e indisponível para transportador e DBSTATUS\_S\_IsNull para CompanyName.
+Se a linha estivesse totalmente vazia, como a seguir, o Persistence Provider retornaria um status OLE DBSTATUS E UNAVAILABLE para \_ \_ ShipperID e DBSTATUS \_ S \_ ISNULL para CompanyName.
 
 ```xml 
  
@@ -185,7 +185,7 @@ Observe que uma sequência de caracteres de comprimento igual a zero não é nul
 <z:row ShipperID="1" CompanyName=""/> 
 ```
 
-Para a linha anterior, o provedor de persistência retornará um status do OLE DB DBSTATUS\_S\_OK para ambas as colunas. Nesse caso, CompanyName é simplesmente "" (uma sequência de caracteres de comprimento zero).
+Para a linha anterior, o Persistence Provider retornará o status dbSTATUS S OK do banco de dados OLE \_ \_ para ambas as colunas. Nesse caso, CompanyName é simplesmente "" (uma sequência de caracteres de comprimento zero).
 
 Para obter mais informações sobre construções de banco de dados OLE disponíveis para uso dentro da seção schema de um documento em XML do banco de dados OLE, consulte a definição de "urn:schemas-microsoft-com:rowset" e o OLE DB Programmer's Guide.
 

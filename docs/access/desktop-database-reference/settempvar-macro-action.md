@@ -27,7 +27,7 @@ ms.locfileid: "32306513"
 
 Use a ação **DefinirVariávelTemporária** para criar uma variável temporária e defini-la com um valor específico. A variável poderá ser usada como condição ou argumento em ações subsequentes, ou em outra macro, em um procedimento de evento, ou ainda em um formulário ou relatório.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirVariávelTemporária** tem os seguintes argumentos.
 
@@ -49,7 +49,7 @@ A ação **DefinirVariávelTemporária** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Expressão</strong>.</p></td>
-<td><p>Insira a expressão a ser usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igual<strong>=</strong>(). Você pode clicar no botão <strong>construir</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> para usar o construtor de expressões para definir esse argumento.</p></td>
+<td><p>Insira a expressão a ser usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igual ( <strong>=</strong> ). Você pode clicar no <strong>botão Criar</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> para usar o Construtor de Expressões para definir esse argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ A ação **DefinirVariávelTemporária** tem os seguintes argumentos.
 
 - É possível definir até 255 variáveis temporárias de uma só vez. Se você não remover uma variável temporária, ela permanecerá na memória até você fechar o banco de dados. É recomendável remover variáveis temporárias após a conclusão do trabalho. Para remover uma única variável temporária, use a ação **[RemoverVariávelTemporária](removetempvar-macro-action.md)** e defina o respectivo argumento com o nome da variável temporária a ser removida. Se for necessário remover mais de uma variável temporária e você quiser removê-las todas de uma só vez, use a ação **RemoverTodasVariáveisTemporárias**.
 
-- Variáveis temporária são globais. Após a criação de uma variável temporária, você pode referenciá-la em um procedimento de evento, um módulo do VBA (Visual Basic for Applications), uma consulta ou em uma expressão. Por exemplo, se você criou uma variável temporária chamada *minhavar*, você poderia usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe:
+- Variáveis temporária são globais. Após a criação de uma variável temporária, você pode referenciá-la em um procedimento de evento, um módulo do VBA (Visual Basic for Applications), uma consulta ou em uma expressão. Por exemplo, se você criou uma variável temporária chamada *MyVar*, você pode usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe:
     
   `=[TempVars]![MyVar]`
     
@@ -82,7 +82,7 @@ A macro a seguir demonstra como criar uma variável temporária usando a ação 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condição</p></th>
+<th><p>Condition</p></th>
 <th><p>Ação</p></th>
 <th><p>Argumentos</p></th>
 </tr>
@@ -90,17 +90,17 @@ A macro a seguir demonstra como criar uma variável temporária usando a ação 
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>DefinirVariávelTemporária</strong></p></td>
-<td><p><strong>Name</strong>: minhavar<strong>expressão</strong>: InputBox (&quot;Insira um número diferente de zero)&quot;.</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars]! Minhavar &lt; &gt;0</p></td>
+<td><p>[TempVars]! [MyVar] &lt; &gt; 0</p></td>
 <td><p><strong>CaixaDeMensagem</strong></p></td>
-<td><p><strong>Mensagem</strong>: =&quot;você inseriu &quot; &amp; [TempVars]! Minhavar &amp; &quot;. &quot; <strong>Aviso sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
+<td><p><strong>Mensagem</strong>: = &quot; Você entrou &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>RemoverVariávelTemporária</strong></p></td>
+<td><p><strong>RemoveTempVar</strong></p></td>
 <td><p><strong>Nome</strong>: MinhaVar</p></td>
 </tr>
 </tbody>

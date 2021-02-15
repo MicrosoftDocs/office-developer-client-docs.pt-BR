@@ -25,9 +25,9 @@ ms.locfileid: "32306717"
 Você pode usar a ação **RenomearObjeto** para renomear um objeto de banco de dados especificado.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
+> Essa ação não será permitida se o banco de dados não for confiável.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RenomearObjeto** tem os seguintes argumentos.
 
@@ -53,7 +53,7 @@ A ação **RenomearObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Nome antigo</strong></p></td>
-<td><p>O nome do objeto a ser renomeado. A caixa <strong>Nome Antigo</strong> mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, faça o mesmo com este argumento.</p><p><strong>Observação</strong>: se você executar uma macro que contém a ação <STRONG>Rename</STRONG> em um banco de dados biblioteca, o Microsoft Access procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do objeto a ser renomeado. A caixa <strong>Nome Antigo</strong> mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, faça o mesmo com este argumento.</p><p><strong>OBSERVAÇÃO:</strong>se você executar uma <STRONG></STRONG> macro que contém a ação Renomear em um banco de dados biblioteca, o Microsoft Access primeiro procura o objeto com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
 </tr>
 </tbody>
 </table>

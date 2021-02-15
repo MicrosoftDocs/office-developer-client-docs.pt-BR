@@ -19,7 +19,7 @@ ms.locfileid: "32314067"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) contendo um tipo e parâmetro. Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**. O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.
+Cada título de seção no arquivo de personalização consiste em colchetes ( **\[\]** ) contendo um tipo e um parâmetro. Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**. O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.
 
 Portanto, cada seção é marcada com um destes cabeçalhos de seção:
 
@@ -42,21 +42,21 @@ Os cabeçalhos de seção possuem as seguintes partes.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ao</strong></p></td>
+<td><p><strong>connect</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica uma sequência de conexão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>sql</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica uma sequência de comando.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserList</strong></p></td>
+<td><p><strong>userlist</strong></p></td>
 <td><p>Uma sequência de caracteres literal que modifica os direitos de acesso de um usuário específico.</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ O **DataFactory** chama o manipulador, passando parâmetros cliente. O manipulad
 
 Uma seção específica é usada nas seguintes circunstâncias:
 
-  - Uma seção **Connect** será usada se a parte de valor da palavra-chave cadeia de caracteres de conexão do cliente, "**fonte de dados = * * * valor*", corresponder a um identificador de seção **Connect** *.*
+  - Uma **seção connect** é usada se a parte de valor da palavra-chave de cadeia  de caracteres de conexão do cliente, "**Data Source=***value*", corresponde a um identificador de seção de conexão *.*
 
   - Uma seção **sql** será usada se a sequência de comando do cliente contiver uma sequência de caracteres que corresponda a um identificador de seção **sql**.
 

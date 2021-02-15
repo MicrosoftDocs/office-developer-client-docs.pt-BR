@@ -1,5 +1,5 @@
 ---
-title: Propriedade URL (referência do banco de dados de área de trabalho do Access)
+title: Propriedade URL (RDS – referência do banco de dados da área de trabalho do Access)
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -24,9 +24,9 @@ Você pode definir a propriedade **URL** no tempo de design na marca OBJECT do o
 
 ## <a name="syntax"></a>Sintaxe
 
-Tempo de design \<: parâmetro Name = "URL" value = "Server"\>
+Tempo de design: \< PARAM NAME="URL" VALUE="Server"\>
 
-Tempo de execução: dataControl. URL = "Server"
+Tempo de executar: DataControl.URL="Server"
 
 ## <a name="parameters"></a>Parâmetros
 

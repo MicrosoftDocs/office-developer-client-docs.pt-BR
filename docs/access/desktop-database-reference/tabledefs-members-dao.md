@@ -1,5 +1,5 @@
 ---
-title: Membros de TableDefs (DAO)
+title: Membros TableDefs (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314081"
 ---
-# <a name="tabledefs-members-dao"></a>Membros de TableDefs (DAO)
+# <a name="tabledefs-members-dao"></a>Membros TableDefs (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Uma coleção TableDefs contém todos os objetos TableDef armazenados em um banc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Acrescido</a></strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong>TableDef</strong> à coleção <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledefs-delete-method-dao.md">Excluir</a></strong></p></td>
+<td><p><strong><a href="tabledefs-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Exclui o objeto <strong>TableDef</strong> especificado da coleção <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="odd">

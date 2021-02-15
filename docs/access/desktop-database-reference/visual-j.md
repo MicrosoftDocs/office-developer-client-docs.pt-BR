@@ -1,5 +1,5 @@
 ---
-title: Visual J++ (referência do banco de dados de área de trabalho do Access)
+title: Visual J++ (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)

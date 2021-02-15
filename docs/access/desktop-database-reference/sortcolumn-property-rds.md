@@ -22,7 +22,7 @@ Indica por qual coluna os registros serão classificados.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. SortColumn = *cadeia de caracteres*
+*DataControl*. SortColumn = *String*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -35,5 +35,5 @@ Indica por qual coluna os registros serão classificados.
 
 As propriedades **SortColumn**, [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md) e [FilterColumn](filtercolumn-property-rds.md) fornecem funcionalidade de classificação e filtragem no cache do lado do cliente. A funcionalidade de classificação ordena os registros de acordo com os valores de uma coluna. A funcionalidade de filtragem exibe um subconjunto de registros com base nos critérios de localização, enquanto todo o [Recordset](recordset-object-ado.md) é mantido no cache. O método [Reset](reset-method-rds.md) executará os critérios e substituirá o **Recordset** atual por um **Recordset** que pode ser atualizado.
 
-Para classificar em um **Recordset**, você deverá primeiramente salvar quaisquer alterações pendentes. Se você estiver utilizando o **RDS.DataControl**, será possível utilizar o método [SubmitChanges](submitchanges-method-rds.md). Por exemplo, se o seu **RDS. DataControl** é chamado de ADC1, seu código seria ADC1. SubmitChanges. Se estiver utilizando um **Recordset** do ADO, você poderá utilizar seu método [UpdateBatch](updatebatch-method-ado.md). O uso do **UpdateBatch** é o método recomendado para os objetos **Recordset** criados com o método [CreateRecordset](createrecordset-method-rds.md). Por exemplo, seu código poderia ser myRS. UpdateBatch ou. Se estiver utilizando um **Recordset** do ADO, você poderá utilizar seu método [UpdateBatch](updatebatch-method-ado.md). O uso do **UpdateBatch** é o método recomendado para os objetos **Recordset** criados com o método [CreateRecordset](createrecordset-method-rds.md). Por exemplo, seu código poderia ser myRS. UpdateBatch ou ADC1. Recordset. UpdateBatch.
+Para classificar em um **Recordset**, você deverá primeiramente salvar quaisquer alterações pendentes. Se você estiver utilizando o **RDS.DataControl**, será possível utilizar o método [SubmitChanges](submitchanges-method-rds.md). Por exemplo, se seu **RDS. DataControl** é chamado de ADC1, seu código seria ADC1. SubmitChanges . Se estiver utilizando um **Recordset** do ADO, você poderá utilizar seu método [UpdateBatch](updatebatch-method-ado.md). O uso do **UpdateBatch** é o método recomendado para os objetos **Recordset** criados com o método [CreateRecordset](createrecordset-method-rds.md). Por exemplo, seu código pode ser myRS.UpdateBatch ou . Se estiver utilizando um **Recordset** do ADO, você poderá utilizar seu método [UpdateBatch](updatebatch-method-ado.md). O uso do **UpdateBatch** é o método recomendado para os objetos **Recordset** criados com o método [CreateRecordset](createrecordset-method-rds.md). Por exemplo, seu código pode ser myRS.UpdateBatch ou ADC1. Recordset.UpdateBatch .
 

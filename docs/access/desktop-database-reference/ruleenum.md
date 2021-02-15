@@ -1,5 +1,5 @@
 ---
-title: RuleEnum (referência do banco de dados de área de trabalho do Access)
+title: RuleEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
@@ -38,22 +38,22 @@ Especifica a regra a ser seguida quando uma [Chave](key-object-adox.md) é exclu
 <tbody>
 <tr class="odd">
 <td><p><strong>adRICascade</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Alterações em cascata.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRINone</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Padrão. Nenhuma ação é executada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRISetDefault</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>A chave estrangeira é definida como o padrão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRISetNull</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O valor da chave estrangeira é definido como nulo.</p></td>
 </tr>
 </tbody>

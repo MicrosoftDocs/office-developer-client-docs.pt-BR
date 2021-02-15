@@ -28,16 +28,16 @@ Você pode definir a propriedade **Server** no tempo de design nas marcas OBJECT
 |:-------|:-----------------|
 |HTTP|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |HTTPS|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
-|PROTOCOLO|`<PARAM NAME="Server" VALUE="computername">`|
-|Em processo|`<PARAM NAME="Server" VALUE="">`|
+|DCOM|`<PARAM NAME="Server" VALUE="computername">`|
+|No processo|`<PARAM NAME="Server" VALUE="">`|
 
 
 |Protocolo|Sintaxe em tempo de execução|
 |:-------|:--------------|
 |HTTP|`DataControl.Server="https://awebsrvr:port"`|
 |HTTPS|`DataControl.Server="https://awebsrvr:port"`|
-|PROTOCOLO|`DataControl.Server="computername"`|
-|Em processo|`DataControl.Server=""`|
+|DCOM|`DataControl.Server="computername"`|
+|No processo|`DataControl.Server=""`|
 
 
 ## <a name="parameters"></a>Parâmetros

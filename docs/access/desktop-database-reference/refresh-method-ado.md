@@ -22,7 +22,7 @@ Atualiza os objetos de uma coleção para refletir os objetos disponíveis no pr
 
 ## <a name="syntax"></a>Sintaxe
 
-*coleção*. Atualizado
+*coleção*. Atualizar
 
 ## <a name="remarks"></a>Comentários
 

@@ -20,7 +20,7 @@ ms.locfileid: "32314123"
 
 Todos **Recordset** têm uma coleção **Fields** composta por um ou mais objetos **Field**. Um objeto **Field** geralmente representa uma coluna de tabela. 
 
-Os tópicos a seguir explicam como navegar pela **** coleção Fields e obter informações sobre cada campo. Em seguida, eles abordam o tipo de informação disponível por meio do objeto **Field** e como usá-lo.
+Os tópicos a seguir explicam como navegar pela coleção **Fields** e obter informações sobre cada campo. Em seguida, eles discutem que tipo de informação está disponível para você por meio do **objeto Field** e como usá-lo.
 
 - [Coleção Fields](the-fields-collection.md)
 - [Objeto Field](the-field-object.md)

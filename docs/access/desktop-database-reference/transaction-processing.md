@@ -29,7 +29,7 @@ A chamada do método **CommitTrans** salva as alterações feitas em uma transa�
 
 Dependendo da propriedade **Attributes** do objeto [Connection](attributes-property-ado.md), a chamada do método **CommitTrans** ou **RollbackTrans** poderá iniciar automaticamente uma nova transação. Se a propriedade **Attributes** for definida como **adXactCommitRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **CommitTrans**. Se a propriedade **Attributes** for definida como **adXactAbortRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **RollbackTrans**.
 
-## <a name="transaction-isolation-level"></a>Nível de isolamento da transação
+## <a name="transaction-isolation-level"></a>Nível de isolamento de transação
 
 Use a propriedade **IsolationLevel** para definir o nível de isolamento de uma transação em um objeto **Connection**. A configuração não tem efeito até a próxima vez que você chamar o método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Se o nível de isolamento solicitado estiver indisponível, o provedor pode retornar o próximo nível de isolamento maior. Consulte a propriedade **IsolationLevel** na referência do programador do ADO para obter mais detalhes sobre valores válidos.
 

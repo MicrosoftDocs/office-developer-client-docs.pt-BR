@@ -1,5 +1,5 @@
 ---
-title: Recordset, propriedades de SourceRecordset (RDS)
+title: Propriedades Recordset, SourceRecordset (RDS)
 TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307585"
 ---
-# <a name="recordset-sourcerecordset-properties-rds"></a>Recordset, propriedades de SourceRecordset (RDS)
+# <a name="recordset-sourcerecordset-properties-rds"></a>Propriedades Recordset, SourceRecordset (RDS)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ Indica o objeto **Recordset** retornado de um objeto corporativo personalizado.
 
 *DataControl*. SourceRecordset = *Recordset*
 
-** = *DataControl*do Recordset. Conectado
+*Recordset*  =  *DataControl*. Recordset
 
 ## <a name="parameters"></a>Parâmetros
 

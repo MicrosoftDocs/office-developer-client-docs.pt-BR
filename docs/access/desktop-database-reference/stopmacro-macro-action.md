@@ -18,25 +18,25 @@ ms.locfileid: "32308495"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **PararMacro** para interromper a macro em execução no momento.
+Você pode usar a **ação PararMacro** para interromper a macro em execução no momento.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
-A ação **PararMacro** não tem argumentos.
+A **ação StopMacro** não tem argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Normalmente, você usa esta ação quando uma condição torna necessário parar a macro. Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação. Quando a expressão é avaliada como **true** (– 1), o Microsoft Access interrompe a macro.
+Normalmente, você usa essa ação quando uma condição torna necessário parar a macro. Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação. Quando a expressão é avaliada como **True** (–1), o Microsoft Access interrompe a macro.
 
-Por exemplo, você pode criar uma macro que abre um formulário mostrando os totais de pedidos diários da data inserida em uma caixa de diálogo personalizada. Você pode usar uma expressão condicional para ter certeza de que o controle de **data da ordem** na caixa de diálogo contém uma data válida. Caso contrário, a ação **MessageBox** poderá exibir uma mensagem de erro e a ação **PararMacro** poderá interromper a macro.
+Por exemplo, você pode criar uma macro que abre um formulário mostrando os totais de ordem diária para a data inserida em uma caixa de diálogo personalizada. Você pode usar uma expressão condicional para garantir que o controle **Data** do Pedido na caixa de diálogo contenha uma data válida. Se isso não for o caso, a **ação MessageBox** poderá exibir uma mensagem de erro e a **ação PararMacro** poderá interromper a macro.
 
-Se a macro tiver usado as ações **eco** ou SetWarnings para ativar o eco ou a exibição de mensagens do sistema, a ação **PararMacro** as ativará automaticamente. ****
+Se a macro tiver usado as ações **Eco** ou **DefinirAvisos** para desativar o eco ou a exibição de mensagens do sistema, a ação **PararMacro** as ativará automaticamente.
 
 Esta ação não está disponível em um módulo VBA (Visual Basic for Applications).
 
 ## <a name="example"></a>Exemplo
 
-A macro a seguir demonstra o uso da ação **AoOcorrerErro** . Neste exemplo, a ação **AoOcorrerErro** especifica que o Access executa uma macro de tratamento de erros personalizada chamada ErrorHandler quando ocorre um erro. Quando ocorre um erro, a submacro CatchErrors é chamada. Se o número de erro for 2102, uma mensagem específica é exibida e a execução da macro é interrompida. Caso contrário, uma mensagem descrevendo o erro é exibida e a macro é pausada para que você possa executar a solução de problemas adicional. A macro ErrorHandler exibe uma caixa de mensagem que se refere ao objeto **MacroError** para exibir informações sobre o erro.
+A macro a seguir demonstra o uso da **ação AoOcorrer** Erro. Neste exemplo, a ação **OnError** especifica que o Access execute uma macro de tratamento de erro personalizada chamada ErrorHandler quando ocorrer um erro. Quando ocorre um erro, o submacro CatchErrors é chamado. Se o número do erro for 2102, uma mensagem específica será exibida e a execução da macro será interrompida. Caso contrário, uma mensagem que descreve o erro será exibida e a macro será pausada para que você possa executar soluções de problemas adicionais. A macro ErrorHandler exibe uma caixa de mensagem que se refere ao objeto **MacroError** para exibir informações sobre o erro.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

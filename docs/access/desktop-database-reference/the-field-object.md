@@ -1,5 +1,5 @@
 ---
-title: O objeto Field (referência do banco de dados de área de trabalho do Access)
+title: O objeto Field (referência do banco de dados da área de trabalho do Access)
 TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
@@ -44,9 +44,9 @@ Com as coleções, os métodos e as propriedades de um objeto **Field**, você p
 
 Os tópicos a seguir abordarão as propriedades do objeto [Field](field-object-ado.md) que representam informações descritivas do próprio objeto **Field**, isto é, metadados sobre o campo. É possível usar essas informações para determinar vários aspectos sobre o esquema do **Recordset**. Essas propriedades incluem **Type**, **DefinedSize** e **ActualSize**, bem como **Name**, **NumericScale** e **Precision**.
 
-## <a name="discovering-the-data-type"></a>Descobrindo o tipo de dados
+## <a name="discovering-the-data-type"></a>Descobrir o tipo de dados
 
-A propriedade **Type** indica o tipo de dados do campo. As constantes enumeradas de tipo de dados que são suportadas pelo ADO estão descritas em [DataTypeEnum](datatypeenum.md) na *referência do programador do ADO*.
+A propriedade **Type** indica o tipo de dados do campo. As constantes enumeradas do tipo de dados que são suportadas pelo ADO são descritas em [DataTypeEnum](datatypeenum.md) na referência do programador do *ADO.*
 
 É possível obter mais informações sobre os tipos numéricos de ponto flutuante, como **adNumeric**. A propriedade **NumericScale** indica quantos dígitos à direita do ponto decimal serão usados para representar valores do **Field**. A propriedade **Precision** especifica o número máximo de dígitos usados para representar valores do **Field**.
 
@@ -67,13 +67,13 @@ Para alterar os dados em um campo, defina a propriedade **Value** como um novo v
 > [!NOTE]
 > [!OBSERVAçãO] Não é possível definir os valores do campo **Recordset** durante o acréscimo de novos objetos **Field** a um **Recordset**. Em vez disso, é possível acrescentar novos objetos **Field** a um **Recordset** fechado. Em seguida, o **Recordset** deverá ser aberto, e só então valores poderão ser atribuídos a esses objetos **Field**.
 
-## <a name="getting-more-field-information"></a>Obtendo mais informações de campos
+## <a name="getting-more-field-information"></a>Obter mais informações de campo
 
 Os objetos do ADO têm dois tipos de propriedades: internas e dinâmicas. Até esse ponto, foram abordadas somente as propriedades internas do objeto **Field**.
 
-Propriedades internas são aquelas implementadas no ADO e disponibilizadas imediatamente para qualquer objeto novo, usando a sintaxe. Elas não são exibidas como objetos **Property** na coleção **Properties** de um objeto.
+As propriedades criadas são aquelas implementadas no ADO e imediatamente disponíveis para qualquer novo objeto, usando a sintaxe. Elas não são exibidas como objetos **Property** na coleção **Properties** de um objeto.
 
-As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto **Recordset** oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. Propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject. Properties (0) ou MyObject. Properties ("Name").
+As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto **Recordset** oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. As propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject.Properties(0) ou MyObject.Properties("Name") .
 
 Não é possível excluir nenhum tipo de propriedade.
 
@@ -122,5 +122,5 @@ Se o bit **adFldLong** na propriedade **Attributes** de um objeto **Field** for 
 
 Se não houver um registro atual quando você usar o método **GetChunk** ou **AppendChunk** em um objeto **Field**, ocorrerá o erro 3021 (sem registro atual).
 
-Para obter um exemplo de como usar esses métodos para manipular dados binários, consulte os exemplos do método [AppendChunk](appendchunk-method-ado.md) e do [método GetChunk](getchunk-method-ado.md) na *referência do programador do ADO*.
+Para obter um exemplo de como usar esses métodos para manipular dados binários, consulte os exemplos do Método [AppendChunk](appendchunk-method-ado.md) e do Método [GetChunk](getchunk-method-ado.md) na referência do programador do *ADO.*
 

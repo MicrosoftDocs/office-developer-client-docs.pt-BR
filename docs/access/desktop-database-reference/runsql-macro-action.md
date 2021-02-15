@@ -22,12 +22,12 @@ ms.locfileid: "32308992"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **ExecutarSQL** para executar uma consulta ação de acesso usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
+Você pode usar a **ação RunSQL** para executar uma consulta ação do Access usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarSQL** tem os seguintes argumentos.
 
@@ -76,7 +76,7 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Action</strong></p></td>
+<td><p><strong>Ação</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -85,11 +85,11 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 </tr>
 <tr class="odd">
 <td><p>Excluir</p></td>
-<td><p>DELETE</p></td>
+<td><p>EXCLUIR</p></td>
 </tr>
 <tr class="even">
-<td><p>Criar tabela</p></td>
-<td><p>SELECIONAR... ÀS</p></td>
+<td><p>Make-table</p></td>
+<td><p>SELECT... INTO</p></td>
 </tr>
 <tr class="odd">
 <td><p>Atualizar</p></td>

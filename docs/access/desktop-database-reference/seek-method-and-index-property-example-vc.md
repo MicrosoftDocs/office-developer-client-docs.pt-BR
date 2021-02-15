@@ -243,7 +243,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-**SeekX. h**
+**SeekX.h**
 
 ```cpp 
  

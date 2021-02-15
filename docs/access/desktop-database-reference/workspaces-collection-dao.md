@@ -25,21 +25,21 @@ Uma coleção **Workspaces** contém todos os objetos **Workspace** ativos e nã
 
 Use o objeto **Workspace** para gerenciar a sessão atual ou para iniciar uma sessão adicional.
 
-Quando você se referir ou usar um objeto **Workspace** pela primeira vez, crie automaticamente o espaço de trabalho padrão, DBEngine. Workspaces (0). As configurações das propriedades **Name** e **username** do espaço de trabalho padrão são "\#espaço de\#trabalho padrão" e "administrador", respectivamente. Se a segurança estiver ativada, a configuração da propriedade **UserName** é o nome do usuário que fez logon.
+Quando se faz referência ou se usa um objeto **Workspace** pela primeira vez, cria-se automaticamente o espaço de trabalho padrão, DBEngine.Workspaces(0). As configurações das propriedades **Name** e **UserName** do espaço de trabalho padrão são "\#Default Workspace\#" e "Admin," respectivamente. Se a segurança estiver habilitada, a configuração da propriedade **UserName** é o nome do usuário conectado.
 
 Você pode criar novos objetos **Workspace** com o método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Depois de criar um novo objeto **Workspace**, você deve acrescentá-lo à coleção **Workspaces** se precisar fazer referência a ele a partir da coleção **Workspaces**. Você pode, no entanto, usar um objeto **Workspace** recém-criado sem acrescentá-lo à coleção **Workspaces**.
 
-Para fazer referência a um objeto **Workspace** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
+Para referir-se a um objeto **Workspace** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-**DBEngine**. **Espaços de trabalho** ,0
+**DBEngine**.**Workspaces**(0)
 
-**DBEngine**. **Espaços de trabalho** ("Name")
+**DBEngine**.**Workspaces**("name")
 
-**DBEngine**. **Espaços de trabalho** \! \[nome\]
+**DBEngine**.**Workspaces**\!\[name\]
 
 
 > [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
+> O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: RecordTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: RecordTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
@@ -38,12 +38,12 @@ Especifica o tipo de objeto [Record](record-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adSimpleRecord</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica um registro <em>simples</em> (não contém nós filho).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCollectionRecord</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica um registro de <em>coleção</em> (contém nós filho).</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Especifica o tipo de objeto [Record](record-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adStructDoc</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica um tipo especial de registro de <em>coleção</em> que representa documentos COM estruturados.</p></td>
 </tr>
 </tbody>

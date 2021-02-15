@@ -1,5 +1,5 @@
 ---
-title: Propriedade dinâmica de comando Resync (ADO)
+title: Propriedade dinâmica De comando ressíncrono (ADO)
 TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306577"
 ---
-# <a name="resync-command-dynamic-property-ado"></a>Propriedade dinâmica de comando Resync (ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Propriedade dinâmica De comando ressíncrono (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

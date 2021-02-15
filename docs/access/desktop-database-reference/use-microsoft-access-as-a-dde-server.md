@@ -28,7 +28,7 @@ O Microsoft Access dá suporte à DDE (troca dinâmica de dados) como um aplicat
 > [!TIP]
 > [!DICA] Caso você precise manipular objetos do Microsoft Access a partir de outro aplicativo, convém considerar o uso da Automação.
 
-Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Depois que uma conversa começou em um tópico específico, somente um item de dados associado a esse tópico pode ser transferido.
+Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Depois que uma conversa tiver começado em um tópico específico, somente um item de dados associado a esse tópico poderá ser transferido.
 
 Por exemplo, suponha que você esteja executando o Microsoft Word e queira inserir dados de um banco de dados específico do Microsoft Access em um documento. Comece uma conversação DDE com o Microsoft Access abrindo um canal DDE com a função **DDEInitiate** e especificando o nome do arquivo de banco de dados como o tópico. Em seguida, será transferir os dados daquele banco de dados para o Microsoft Word por meio desse canal.
 
@@ -44,7 +44,7 @@ Como um servidor DDE, o Microsoft Access dá suporte a estes tópicos:
 
 - Uma cadeia SQL do Microsoft Access (tópico *sqlstring*)
 
-Depois de estabelecer uma conversa DDE, você pode usar a instrução **DDEExecute** para enviar um comando do cliente para o aplicativo de servidor. Quando usado como um servidor DDE, o Microsoft Access reconhece qualquer um destes como comandos válidos:
+Depois de estabelecer uma conversação DDE, você pode usar a instrução **DDEExecute** para enviar um comando do cliente para o aplicativo servidor. Quando usado como um servidor DDE, o Microsoft Access reconhece qualquer um destes como comandos válidos:
 
 - O nome de uma macro no banco de dados atual.
 
@@ -95,7 +95,7 @@ As seções a seguir fornecem informações sobre os tópicos DDE válidos com s
 
 ## <a name="the-system-topic"></a>O tópico System
 
-O tópico System é um tópico padrão para todos os aplicativos baseados no Microsoft Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essas informações, seu código deve primeiro chamar a função **DDEIniciar** com o argumento *topic* e executar a instrução **DDERequest** com uma das seguintes opções fornecidas para o argumento *Item* .
+O tópico System é um tópico padrão para todos os aplicativos baseados no Microsoft Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essas informações, seu código deve primeiro chamar  a função **DDEInitiate** com o argumento de tópico e, em seguida, executar a instrução **DDERequest** com um dos seguintes fornecidos para o argumento *do item.*
 
 <table>
 <colgroup>
@@ -119,7 +119,7 @@ O tópico System é um tópico padrão para todos os aplicativos baseados no Mic
 </tr>
 <tr class="odd">
 <td><p>Status</p></td>
-<td><p>&quot;Ocupado&quot; ou &quot;pronto&quot;.</p></td>
+<td><p>&quot;Ocupado &quot; ou &quot; &quot; Pronto.</p></td>
 </tr>
 <tr class="even">
 <td><p>Topics</p></td>
@@ -144,9 +144,9 @@ O exemplo a seguir demonstra o uso das funções **DDEInitiate** e **DDERequest*
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
 ```
 
-## <a name="the-database-topic"></a>O tópico Database
+## <a name="the-database-topic"></a>O tópico do banco de dados
 
-O tópico *database* é o nome do arquivo de um banco de dados existente. Você pode digitar apenas o nome de base (Northwind) ou o caminho e a extensão. mdb (C:\\Access\\Samples\\Northwind. mdb). Após iniciar uma conversação DDE com o banco de dados, você pode solicitar uma lista dos objetos naquele banco de dados.
+O tópico *database* é o nome do arquivo de um banco de dados existente. Você pode digitar apenas o nome base (Northwind) ou seu caminho e extensão .mdb (C: Exemplos do \\ Access \\ \\ Northwind.mdb). Após iniciar uma conversação DDE com o banco de dados, você pode solicitar uma lista dos objetos naquele banco de dados.
 
 > [!NOTE]
 > Não é possível usar a DDE para consultar o arquivo de informações do grupo de trabalho do Microsoft Access.
@@ -166,15 +166,15 @@ O tópico *database* oferece suporte aos seguintes itens.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tablelist</p></td>
+<td><p>TableList</p></td>
 <td><p>Uma lista de tabelas</p></td>
 </tr>
 <tr class="even">
-<td><p>Consulta</p></td>
+<td><p>QueryList</p></td>
 <td><p>Uma lista de consultas</p></td>
 </tr>
 <tr class="odd">
-<td><p>Formulário</p></td>
+<td><p>FormList</p></td>
 <td><p>Uma lista de formulários</p></td>
 </tr>
 <tr class="even">
@@ -182,7 +182,7 @@ O tópico *database* oferece suporte aos seguintes itens.
 <td><p>Uma lista de relatórios</p></td>
 </tr>
 <tr class="odd">
-<td><p>Macrolist</p></td>
+<td><p>MacroList</p></td>
 <td><p>Uma lista de macros</p></td>
 </tr>
 <tr class="even">
@@ -194,7 +194,7 @@ O tópico *database* oferece suporte aos seguintes itens.
 <td><p>Uma lista de modos.</p></td>
 </tr>
 <tr class="even">
-<td><p>StoredProcedurelist</p></td>
+<td><p>StoredProcedureList</p></td>
 <td><p>Uma lista de procedimentos armazenados.</p></td>
 </tr>
 <tr class="odd">
@@ -219,15 +219,15 @@ O exemplo a seguir mostra como abrir o formulário Employees no exemplo de banco
     DDEExecute intChan2, "[OpenForm Employees,0,,,1,0]"
 ```
 
-## <a name="the-table-topic"></a>O tópico da tabela
+## <a name="the-table-topic"></a>O tópico TABLE
 
 Esses tópicos usam a seguinte sintaxe:
 
-_DatabaseName_ ; **Tabela** _TableName_
+_databasename_ ; **TABLE** _tablename_
 
-_DatabaseName_ ; **Consulta** _QueryName_
+_databasename_ ; **QUERY** _queryname_
 
-_DatabaseName_ ; **SQL** [ _SqlString_ ]
+_databasename_ ; **SQL** [ _sqlstring_ ]
 
 <br/>
 
@@ -238,25 +238,25 @@ _DatabaseName_ ; **SQL** [ _SqlString_ ]
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>DatabaseName</em></p></td>
+<td><p><em>databasename</em></p></td>
 <td><p>O nome do banco de dados em que está a tabela ou consulta ou a que se aplica o SQL, seguido de ponto-e-vírgula (;). O nome do banco de dados pode ser apenas o nome básico (Northwind) ou seu caminho e extensão .mdb completos (C:\Access\Exemplos\Northwind.mdb).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>TableName</em></p></td>
+<td><p><em>tablename</em></p></td>
 <td><p>O nome de uma tabela existente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>QueryName</em></p></td>
+<td><p><em>queryname</em></p></td>
 <td><p>O nome de uma consulta existente.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>SqlString</em></p></td>
+<td><p><em>sqlstring</em></p></td>
 <td><p>Uma instrução SQL válida com até 256 caracteres e terminando com ponto-e-vírgula. Para trocar mais de 256 caracteres, omita esse argumento e, em seu lugar, use sucessivas instruções <strong>DDEPoke</strong> para formar uma instrução SQL. Por exemplo, o seguinte código Visual Basic utiliza a instrução <strong>DDEPoke</strong> para formar uma instrução SQL e, em seguida, solicitar os resultados de uma consulta.</p></td>
 </tr>
 </tbody>
@@ -279,11 +279,11 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tudo</p></td>
+<td><p>Todos</p></td>
 <td><p>Todos os dados na tabela, incluindo nomes de campos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Data</p></td>
+<td><p>Dados</p></td>
 <td><p>Todas as linhas de dados, sem nomes de campos.</p></td>
 </tr>
 <tr class="odd">
@@ -291,24 +291,24 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 <td><p>Uma lista de linha única de nomes de campos.</p></td>
 </tr>
 <tr class="even">
-<td><p>FieldNames I</p></td>
+<td><p>FieldNames; T</p></td>
 <td><p>Uma lista de duas linhas de nomes de campos (primeira linha) e seus tipos de dados (segunda linha).</p>
 <p>Estes são os valores retornados:</p>
 <p>Valor</p>
 <p><ul>
-<li>,0</li>
-<li>1</li>
-<li>duas</li>
-<li>3D</li>
-<li>quatro</li>
-<li>0,5</li>
-<li>6</li>
-<li>178</li>
-<li>8</li>
-<li>241</li>
-<li>254</li>
+<li>0</li>
+<li>1 </li>
+<li>2 </li>
+<li>3 </li>
+<li>4 </li>
+<li>5 </li>
+<li>6 </li>
+<li>7 </li>
+<li>8 </li>
+<li>9 </li>
+<li>10 </li>
 <li>11</li>
-<li>3,6</li>
+<li>12 </li>
 </ul>
 </p>
 </td>
@@ -334,12 +334,12 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 <td><p>O número de campos na tabela ou consulta.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SqlText</p></td>
-<td><p>Uma instrução SQL representando a tabela ou consulta. Para tabelas, este item retorna uma instrução SQL no formulário &quot;selecionar `*` from <em>Table</em>; &quot;.</p></td>
+<td><p>SQLText</p></td>
+<td><p>Uma instrução SQL representando a tabela ou consulta. Para tabelas, este item retorna uma instrução SQL no formato &quot; SELECT `*` FROM <em>tabela</em>; &quot; .</p></td>
 </tr>
 <tr class="even">
-<td><p>SqlText; <em>n</em></p></td>
-<td><p>Uma instrução SQL, em partes de <em>n</em> caracteres, representando a tabela ou consulta, onde <em>n</em> é um inteiro de até 256 caracteres. Por exemplo, suponha que uma consulta seja representada pela seguinte instrução SQL: o item &quot;SQLTEXT; 7&quot; retorna os seguintes blocos delimitados por tabulações: o &quot;item SQLTEXT;&quot; 7 retorna os seguintes blocos delimitados por tabulações:</p></td>
+<td><p>SQLText; <em>n</em></p></td>
+<td><p>Uma instrução SQL, em partes de <em>n</em> caracteres, representando a tabela ou consulta, onde <em>n</em> é um inteiro de até 256 caracteres. Por exemplo, suponha que uma consulta seja representada pela seguinte instrução SQL: O item SQLText;7 retorna as seguintes partes delimitadas por tabulação: O &quot; &quot; item &quot; SQLText;7 retorna as seguintes partes delimitadas por &quot; tabulação:</p></td>
 </tr>
 </tbody>
 </table>

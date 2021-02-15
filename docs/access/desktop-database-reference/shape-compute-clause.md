@@ -88,14 +88,14 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>Populaciona</p></th>
+<th><p>População</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
 <td><p>Seattle</p></td>
-<td><p>700.000</p></td>
+<td><p>700,000</p></td>
 </tr>
 <tr class="even">
 <td><p>OU</p></td>
@@ -110,7 +110,7 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 <tr class="even">
 <td><p>CA</p></td>
 <td><p>Los Angeles</p></td>
-<td><p>800.000</p></td>
+<td><p>800,000</p></td>
 </tr>
 <tr class="odd">
 <td><p>CA</p></td>
@@ -119,13 +119,13 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Tacoma</p></td>
+<td><p>Rúma</p></td>
 <td><p>US$ 500.000</p></td>
 </tr>
 <tr class="odd">
 <td><p>OU</p></td>
-<td><p>Corvallis</p></td>
-<td><p>300.000</p></td>
+<td><p>Corção</p></td>
+<td><p>300,000</p></td>
 </tr>
 </tbody>
 </table>
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-O comando abre um **Recordset** com formato de dois níveis. O nível pai é um **Recordset** gerado com uma coluna de agregação (Sum (RS. população)), uma coluna que faz referência ao **Recordset** filho (RS) e uma coluna para agrupar o **Recordset** filho (State). O nível filho é o **Recordset** retornado pelo comando de consulta (), uma coluna que faz referência ao **Recordset** filho (RS) e uma coluna para agrupar o **Recordset** filho (estado). O nível filho é o **Recordset** retornado pelo comando de consulta (selecione \* de demográficos).
+O comando abre um **Recordset** com formato de dois níveis. O nível pai é um **Recordset** gerado com uma coluna agregada (SUM(rs.population), uma coluna que faz referência ao **Recordset** filho (rs) e uma coluna para agrupar o **Recordset** filho (estado). O nível filho é o **Recordset** retornado pelo comando de consulta (), uma coluna que faz referência ao **Recordset** filho (rs) e uma coluna para agrupar o **Recordset** filho (estado). O nível filho é o **Recordset retornado** pelo comando de consulta (seleção \* de demografia).
 
 As linhas de detalhes do **Recordset** filho serão agrupadas por estado, mas sem nenhuma ordem específica, ou seja, os grupos não estarão em ordem alfabética ou numérica. Se desejar ordenar o **Recordset** pai, você poderá usar o método **Sort** de **Recordset** para ordenar o **Recordset** pai.
 
@@ -159,23 +159,23 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <thead>
 <tr class="header">
 <th><p>SUM (rs.Population)</p></th>
-<th><p>RS</p></th>
+<th><p>rs</p></th>
 <th><p>Estado</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1,3 milhões</p></td>
+<td><p>1,300,000</p></td>
 <td><p>Referência ao filho1</p></td>
 <td><p>CA</p></td>
 </tr>
 <tr class="even">
-<td><p>1,2 milhões</p></td>
+<td><p>1,200,000</p></td>
 <td><p>Referência ao filho2</p></td>
 <td><p>WA</p></td>
 </tr>
 <tr class="odd">
-<td><p>1,1 milhões</p></td>
+<td><p>1,100,000</p></td>
 <td><p>Referência ao filho3</p></td>
 <td><p>OU</p></td>
 </tr>
@@ -195,14 +195,14 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>Populaciona</p></th>
+<th><p>População</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>CA</p></td>
 <td><p>Los Angeles</p></td>
-<td><p>800.000</p></td>
+<td><p>800,000</p></td>
 </tr>
 <tr class="even">
 <td><p>CA</p></td>
@@ -225,18 +225,18 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>Populaciona</p></th>
+<th><p>População</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
 <td><p>Seattle</p></td>
-<td><p>700.000</p></td>
+<td><p>700,000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Tacoma</p></td>
+<td><p>Rúma</p></td>
 <td><p>US$ 500.000</p></td>
 </tr>
 </tbody>
@@ -255,7 +255,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 <tr class="header">
 <th><p>Estado</p></th>
 <th><p>Cidade</p></th>
-<th><p>Populaciona</p></th>
+<th><p>População</p></th>
 </tr>
 </thead>
 <tbody>
@@ -271,8 +271,8 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 </tr>
 <tr class="odd">
 <td><p>OU</p></td>
-<td><p>Corvallis</p></td>
-<td><p>300.000</p></td>
+<td><p>Corção</p></td>
+<td><p>300,000</p></td>
 </tr>
 </tbody>
 </table>

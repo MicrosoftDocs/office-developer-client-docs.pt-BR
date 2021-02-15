@@ -1,5 +1,5 @@
 ---
-title: Enumeração de WorkspaceTypeEnum (DAO)
+title: Enumeração WorkspaceTypeEnum (DAO)
 TOCTitle: WorkspaceTypeEnum Enumeration
 ms:assetid: c660a0a9-b0ae-a7be-5635-761d3a05a4ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308271"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a>Enumeração de WorkspaceTypeEnum (DAO)
+# <a name="workspacetypeenum-enumeration-dao"></a>Enumeração WorkspaceTypeEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -37,7 +37,7 @@ Usada com o método **CreateWorkspace** para especificar o tipo de espaço de tr
 <tbody>
 <tr class="odd">
 <td><p>dbUseJet</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Cria um espaço de trabalho do Microsoft Access.</p></td>
 </tr>
 </tbody>

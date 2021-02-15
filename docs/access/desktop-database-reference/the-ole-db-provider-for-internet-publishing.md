@@ -49,7 +49,7 @@ Há três maneiras de se conectar o ADO ao Internet Publishing Provider:
   ```
 
 > [!NOTE]
-> Se Msdaipp.dso for explicitamente especificado como o valor do provedor, com a palavra-chave de sequência de conexão *Provider* ou a propriedade **Provider**, você não poderá utilizar "URL=" na sequência de conexão. Se o fizer, ocorrerá um erro. Em vez disso, simplesmente especifique a URL, conforme mostrado anteriormente neste tópico.
+> Se Msdaipp.dso for explicitamente especificado como o valor do provedor, com a palavra-chave de sequência de conexão *Provider* ou a propriedade **Provider**, você não poderá utilizar "URL=" na sequência de conexão. Se o fizer, ocorrerá um erro. Em vez disso, basta especificar a URL, conforme mostrado anteriormente neste tópico.
 
 Para obter informações mais específicas sobre o Internet Publishing Provider, consulte [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md) ou a documentação do provedor fornecida com o aplicativo de origem com o qual o OLE DB Provider for Internet Publishing foi instalado: Windows 2000, Office 2000 ou Internet Explorer 5.0.
 

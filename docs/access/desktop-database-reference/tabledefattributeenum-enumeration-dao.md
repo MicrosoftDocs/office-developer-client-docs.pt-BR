@@ -57,7 +57,7 @@ Usada com a propriedade **Attributes** para determinar os atributos de um objeto
 </tr>
 <tr class="odd">
 <td><p>dbHiddenObject</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Tabela oculta (para uso temporário).</p></td>
 </tr>
 <tr class="even">

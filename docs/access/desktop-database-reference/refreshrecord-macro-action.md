@@ -39,9 +39,9 @@ A ação de macro **AtualizarRegistro** executa as seguintes ações em um banco
 
 1.  Atualiza a fonte do registro para o formulário ou para a folha de dados ativa para refletir as alterações feitas nas linhas do conjunto atual.
 
-2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha da fonte do registro tiver sido excluída, ela será alterada para \#mostrar excluído.
+2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha na fonte do registro tiver sido excluída, ela será alterada para mostrar \# Excluído.
 
-3.  Atualiza o Active ou a folha de dos para exibir quaisquer registros alterados e registros \#excluídos, no conjunto atual.
+3.  Atualiza a folha de dados ou ativa para exibir quaisquer registros alterados e quaisquer \# registros excluídos, no conjunto atual.
 
 4.  Repete consultas em todos os subformulários e subrelatórios no formulário ou na folha de dados ativa.
 
@@ -53,9 +53,9 @@ A ação de macro **AtualizarRegistro** executa as seguintes ações em um banco
 
 1.  Recupera alterações do servidor para quaisquer tabelas de base no conjunto atual. Para tabelas ODBC vinculadas, recuperada alterações nos registros no conjunto atual da fonte de dados.
 
-2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha no conjunto atual tiver sido excluída, ela será alterada para mostrar \#excluído.
+2.  Atualiza o conjunto atual para refletir as alterações. Se uma linha no conjunto atual tiver sido excluída, ela será alterada para mostrar \# Excluído.
 
-3.  Atualiza o formulário ou folha de de dos ativos para exibir quaisquer registros alterados e registros \#excluídos, no conjunto atual.
+3.  Atualiza o formulário ou a folha de dados ativa para exibir quaisquer registros alterados e quaisquer \# registros excluídos, no conjunto atual.
 
 4.  Repete consultas em todos os subformulários e subrelatórios no formulário ou na folha de dados ativa.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade dinâmica Name de Reformat (ADO)
+title: Propriedade dinâmica Reshape Name (ADO)
 TOCTitle: Reshape Name dynamic property (ADO)
 ms:assetid: 59ef99c8-da40-5cf6-b987-d47ea1433f45
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306598"
 ---
-# <a name="reshape-name-dynamic-property-ado"></a>Propriedade dinâmica Name de Reformat (ADO)
+# <a name="reshape-name-dynamic-property-ado"></a>Propriedade dinâmica Reshape Name (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

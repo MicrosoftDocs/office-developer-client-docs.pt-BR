@@ -24,7 +24,7 @@ ms.locfileid: "32308691"
 
 Você pode usar a ação **DefinirFiltro** para aplicar um filtro aos registros na folha de dados, formulário, relatório ou tabela ativa.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirFiltro** tem os seguintes argumentos.
 
@@ -46,7 +46,7 @@ A ação **DefinirFiltro** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
-<td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, formulário, relatório ou tabela. Em um banco de dados da Web, esse argumento é necessário.</p></td>
+<td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, formulário, relatório ou tabela. Em um banco de dados da Web, esse argumento é obrigatório.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nome do controle</p></td>
@@ -70,7 +70,7 @@ Em um banco de dados da Web, para aplicar um filtro automaticamente quando o obj
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação SetFilter para filtrar o formulário em que a macro está definida.
+O exemplo a seguir mostra como usar a ação DefinirFiltro para filtrar o formulário no qual a macro está definida.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

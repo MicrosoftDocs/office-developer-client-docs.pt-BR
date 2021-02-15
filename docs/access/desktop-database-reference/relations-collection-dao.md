@@ -29,9 +29,9 @@ Para fazer referência a um objeto **Relation** em uma coleção por seu número
 
 **Relations**(0)
 
-**Relações** ("Name")
+**Relations**("name")
 
-****\!\[Nome de relações\]
+ \! Relations \[ name\]
 
 ## <a name="example"></a>Exemplo
 
@@ -96,7 +96,7 @@ Este exemplo mostra como um objeto **Relation** existente pode controlar a entra
 
 <br/>
 
-Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre o **TableDef** Employees e o novo **TableDef** denominado Departments. Também demonstra como criar uma nova **relação** também criará os **índices** necessários na tabela externa (o índice DepartmentsEmployees na tabela Employees).
+Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre o **TableDef** Employees e o novo **TableDef** denominado Departments. Ele também demonstra como a criação de  uma nova **Relação** também criará quaisquer índices necessários na tabela externa (o Índice DepartmentsEmployees na tabela Funcionários).
 
 ```vb
     Sub CreateRelationX() 

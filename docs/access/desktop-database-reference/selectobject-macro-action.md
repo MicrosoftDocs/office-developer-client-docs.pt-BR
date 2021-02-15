@@ -24,7 +24,7 @@ ms.locfileid: "32308726"
 
 Use a ação **SelecionarObjeto** para selecionar um objeto de banco de dados especificado.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **SelecionarObjeto** tem os seguintes argumentos.
 
@@ -46,7 +46,7 @@ A ação **SelecionarObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto</strong></p></td>
-<td><p>O nome do objeto a ser selecionado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos do banco de dados, do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>. Este é um argumento obrigatório, a menos que, no Painel de Navegação, você defina o argumento como <strong>Sim</strong>.</p><p><strong>Observação</strong>: os nomes de objeto para o <STRONG>modo de exibição do servidor</STRONG>, <STRONG>diagrama</STRONG>ou <STRONG>procedimento armazenado</STRONG> não são exibidos na caixa <STRONG>nome do objeto</STRONG> de um projeto do Access (. adp).</p></td>
+<td><p>O nome do objeto a ser selecionado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos do banco de dados, do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>. Este é um argumento obrigatório, a menos que, no Painel de Navegação, você defina o argumento como <strong>Sim</strong>.</p><p><strong>OBSERVAÇÃO:</strong>os nomes de objeto para os objetos Server <STRONG>View</STRONG> <STRONG></STRONG> , <STRONG>Diagram</STRONG>ou <STRONG>Stored Procedure</STRONG> não são exibidos na caixa Nome do Objeto de um projeto do Access (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>No Painel de Navegação</strong></p></td>

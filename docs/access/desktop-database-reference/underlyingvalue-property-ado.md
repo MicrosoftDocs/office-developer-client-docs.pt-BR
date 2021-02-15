@@ -1,5 +1,5 @@
 ---
-title: Propriedade underdependvalue (ADO)
+title: Propriedade UnderlyingValue (ADO)
 TOCTitle: UnderlyingValue property (ADO)
 ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313997"
 ---
-# <a name="underlyingvalue-property-ado"></a>Propriedade underdependvalue (ADO)
+# <a name="underlyingvalue-property-ado"></a>Propriedade UnderlyingValue (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

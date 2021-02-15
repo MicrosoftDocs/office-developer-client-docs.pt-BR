@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto Recordsets (DAO)
+title: Referência de objeto recordsets (DAO)
 TOCTitle: Recordsets Object
 ms:assetid: 219f6a8f-1555-4be0-b46f-37e4075b9afa
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124002(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309315"
 ---
-# <a name="recordsets-object-reference-dao"></a>Referência de objeto Recordsets (DAO)
+# <a name="recordsets-object-reference-dao"></a>Referência de objeto recordsets (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Coleção Recordsets (DAO)](recordsets-collection-dao.md)
-- [Membros de Recordsets (DAO)](recordsets-members-dao.md)
-- [Propriedades de Recordsets (DAO)](recordsets-properties-dao.md)
-- [Métodos de Recordsets (DAO)](recordsets-methods-dao.md)
+- [Membros recordsets (DAO)](recordsets-members-dao.md)
+- [Propriedades recordsets (DAO)](recordsets-properties-dao.md)
+- [Métodos recordsets (DAO)](recordsets-methods-dao.md)
 

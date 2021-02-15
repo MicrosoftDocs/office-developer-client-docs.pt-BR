@@ -1,5 +1,5 @@
 ---
-title: Tipos de cursores (referência de banco de dados de área de trabalho do Access)
+title: Tipos de cursores (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Types of Cursors
 ms:assetid: 589f3755-3cf5-9470-bd66-8e8afa218fc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)

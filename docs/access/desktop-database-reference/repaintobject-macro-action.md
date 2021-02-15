@@ -24,7 +24,7 @@ ms.locfileid: "32306682"
 
 Você pode usar a ação **RedesenharObjeto** para concluir todas as atualizações de tela pendentes para um objeto de bancos de dados especificado ou para o objeto de banco de dados ativo, caso não haja nenhum especificado. Essas atualizações incluem todos os recálculos pendentes de controles do objeto.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RedesenharObjeto** tem os argumentos a seguir.
 

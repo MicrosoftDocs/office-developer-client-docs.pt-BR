@@ -1,5 +1,5 @@
 ---
-title: Propriedade Relation.Name (DAO)
+title: Relation.Name propriedade (DAO)
 TOCTitle: Name Property
 ms:assetid: 7ad17dcd-9fe2-a4b0-2fab-c5b13e66fedc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196187(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307053"
 ---
-# <a name="relationname-property-dao"></a>Propriedade Relation.Name (DAO)
+# <a name="relationname-property-dao"></a>Relation.Name propriedade (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna ou define o nome do objeto especificado. **String** de leitura/gravaçã
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tdomínio
+*expressão* . Nome
 
-*expressão* Uma variável que representa um objeto **relation** .
+*expressão* Uma variável que representa um **objeto Relation** .
 
 ## <a name="remarks"></a>Comentários
 

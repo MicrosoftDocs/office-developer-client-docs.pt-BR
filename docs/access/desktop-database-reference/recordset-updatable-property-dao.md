@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset. upDatable (DAO)
+title: Propriedade Recordset.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307543"
 ---
-# <a name="recordsetupdatable-property-dao"></a>Propriedade Recordset. upDatable (DAO)
+# <a name="recordsetupdatable-property-dao"></a>Propriedade Recordset.Updatable (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,11 +25,11 @@ Retorna um valor que indica se você pode alterar um objeto DAO. **Boolean** som
 
 *expressão* . Atualizável
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
-Os objetos Recordset do tipo instantâneo e somente de encaminhamento sempre retornam **false**.
+Os objetos Recordset dos tipos instantâneo e somente encaminhamento sempre **retornam False**.
 
 Muitos tipos de objetos podem conter campos não podem ser atualizados. Por exemplo, crie um objeto **Recordset** do tipo dynaset no qual somente alguns campos podem ser alterados. Esses campos podem ser consertados ou conter dados que são incrementados automaticamente ou o dynaset pode resultar de uma consulta que combina tabelas atualizáveis e não atualizáveis.
 

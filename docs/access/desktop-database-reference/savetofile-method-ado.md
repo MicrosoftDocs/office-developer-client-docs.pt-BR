@@ -22,7 +22,7 @@ Salva o conteúdo binário de um [Stream](stream-object-ado.md) para um arquivo.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. SaveToFile*nome de arquivo*, *SaveOptions*
+*Stream*. SaveToFile *FileName*, *SaveOptions*
 
 ## <a name="parameters"></a>Parâmetros
 

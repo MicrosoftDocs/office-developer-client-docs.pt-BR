@@ -66,7 +66,7 @@ O esquema mostra as declarações de espaços de nomes, a seção de esquema e a
 
 As definições de esquema estão em conformidade com a especificação de Dados XML e são capazes de ser totalmente validadas (embora a validação não ocorrerá no Internet Explorer 5). Você pode visualizar essa especificação em [Nota W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). Os Dados XML são o único formato de esquema suportado para a persistência **Recordset** no momento.
 
-A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia `<rs:data>` , mas as marcas devem estar presentes. Sem dados, você pode escrever a marca de forma abreviada `<rs:data>`como simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
+A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjuntos de linhas vazio, a seção de dados pode estar vazia, mas as `<rs:data>` marcas devem estar presentes. Sem dados, você poderia escrever a marca de forma `<rs:data>` simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
 
 ## <a name="xml-persistence-format"></a>Formato de persistência XML
 
@@ -116,5 +116,5 @@ O esquema mostra as declarações de espaços de nomes, a seção de esquema e a
 
 As definições de esquema estão em conformidade com a especificação de Dados XML e são capazes de ser totalmente validadas (embora a validação não ocorrerá no Internet Explorer 5). Você pode visualizar essa especificação em [Nota W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). Os Dados XML são o único formato de esquema suportado para a persistência **Recordset** no momento.
 
-A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjunto de linhas vazio, a seção de dados pode estar vazia `<rs:data>` , mas as marcas devem estar presentes. Sem dados, você pode escrever a marca de forma abreviada `<rs:data>`como simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
+A seção de dados possui três linhas que contêm informações sobre as transportadoras. Para um conjuntos de linhas vazio, a seção de dados pode estar vazia, mas as `<rs:data>` marcas devem estar presentes. Sem dados, você poderia escrever a marca de forma `<rs:data>` simples. Qualquer marca com o prefixo "rs" indica que estamos no namespace definido por urn:schemas-microsoft-com:rowset. A definição completa desse esquema está definida no apêndice desse documento.
 

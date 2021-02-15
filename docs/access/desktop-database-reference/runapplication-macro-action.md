@@ -40,7 +40,7 @@ Você pode usar a ação **ExecutarAplicativo** para executar, no Microsoft Acce
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarAplicativo** tem o seguinte argumento.
 

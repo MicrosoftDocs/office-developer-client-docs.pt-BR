@@ -27,7 +27,7 @@ Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especi
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **SalvarObjeto** tem os seguintes argumentos.
 
@@ -63,14 +63,14 @@ Deixar em branco o argumento **Tipo de Objeto** e inserir um novo nome no argume
 
 > [!NOTE]
 > [!OBSERVAçãO] A ação **SalvarObjeto** não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:
-> - Um formulário no modo formulário ou no modo folha de de de os
-> - Um relatório em Visualizar impressão
+> - Um formulário no exibição Formulário ou no de Folha de Dados
+> - Um relatório na Visualização de Impressão
 > - Um módulo
-> - Um modo de exibição do servidor no modo folha de de ou visualização de impressão
-> - Uma página de acesso A dados no modo de página
-> - Uma tabela no modo folha de ou visualização de impressão
-> - Uma consulta no modo folha de ou Visualizar impressão
-> - Um procedimento armazenado no modo folha de de ou visualização de impressão
+> - Um exibição de servidor no visualização folha de dados ou visualizar impressão
+> - Uma página de acesso a dados no visualização de página
+> - A table in Datasheet view or Print Preview
+> - Uma consulta no exibição Folha de Dados ou visualizar impressão
+> - Um procedimento armazenado no exibição Folha de Dados ou visualizar impressão
 
 A ação **SalvarObjeto**, esteja ela carregada em uma macro em execução no banco de dados atual ou em um banco de dados biblioteca, sempre salva o objeto especificado ou o objeto ativo do banco de dados em que o objeto foi criado.
 

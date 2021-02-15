@@ -1,5 +1,5 @@
 ---
-title: Método Seek-ActiveX Data Objects (ADO)
+title: Método Seek - ActiveX Data Objects (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -22,7 +22,7 @@ Pesquisa o índice de um [Recordset](recordset-object-ado.md) para localizar rap
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Buscar** keyValues, *SeekOption*
+*recordset*. Seek *KeyValues*, *SeekOption*
 
 ## <a name="parameters"></a>Parâmetros
 

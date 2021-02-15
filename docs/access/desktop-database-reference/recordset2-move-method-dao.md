@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. Move (DAO)
+title: Método Recordset2.Move (DAO)
 TOCTitle: Move Method
 ms:assetid: df39c05e-c5f8-3b66-fa5f-c91b687c147d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307263"
 ---
-# <a name="recordset2move-method-dao"></a>Método Recordset2. Move (DAO)
+# <a name="recordset2move-method-dao"></a>Método Recordset2.Move (DAO)
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Move a posição do registro atual em um objeto **[Recordset](recordset-object-dao.md)**.
+Move a posição do registro atual em um objeto **[Conjunto de registros](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Mover (***linhas***, ***startbookmark criarem***)
+*expressão* .Move (***Linhas***, ***StartBookmark***)
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,23 +38,23 @@ Move a posição do registro atual em um objeto **[Recordset](recordset-object-d
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Rows</em></p></td>
+<td><p><em>Linhas</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>O número de linhas que a posição será movida. Se rows for maior que 0, a posição será movida para frente (em direção ao final do arquivo). Se rows for menor que 0, a posição será movida para trás (em direção ao início do arquivo).</p></td>
+<td><p>O número de linhas que a posição vai mover. Se a quantidade de linhas for maior que 0, a posição será movida para a frente (em direção ao final do arquivo). Se a quantidade de linhas for menor que 0, a posição será movida para trás (em direção ao início do arquivo).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Startbookmark criarem</em></p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Um valor identificando um indicador. Se você especificar startbookmark, Move começará relativo a esse indicador. Caso contrário, Move começará a partir do registro atual.</p></td>
+<td><p>Um valor que identifica um marcador. Se você especificar startbookmark, a movimentação será iniciada em relação a este marcador. Caso contrário, Move começará a partir do registro atual.</p></td>
 </tr>
 </tbody>
 </table>

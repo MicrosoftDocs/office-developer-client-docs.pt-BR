@@ -24,7 +24,7 @@ ms.locfileid: "32306500"
 
 Você pode usar a ação **ExecutarComandodeMenu** para executar um comando interno do Microsoft Access.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarComandodeMenu** tem o argumento de ação a seguir.
 

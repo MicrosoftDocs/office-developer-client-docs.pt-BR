@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. Filter (DAO)
+title: Propriedade Recordset2.Filter (DAO)
 TOCTitle: Filter Property
 ms:assetid: 5b3b4e18-8af4-5acd-a129-513ba2d913d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194529(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307326"
 ---
-# <a name="recordset2filter-property-dao"></a>Propriedade Recordset2. Filter (DAO)
+# <a name="recordset2filter-property-dao"></a>Propriedade Recordset2.Filter (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ Define ou retorna um valor que determina os registros incluídos em um objeto **
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Filtre
+*expressão* . Filter
 
-*expressão* Uma expressão que retorna um objeto **Recordset2** .
+*expressão* Uma expressão que retorna um **objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -39,9 +39,9 @@ Use a propriedade **Filter** para aplicar um filtro a um objeto **Recordset** do
 
 Você pode usar a propriedade **Filter** para restringir os registros retornados de um objeto existente quando um novo objeto **Recordset** for aberto com base em um objeto **Recordset** existente.
 
-Use o formato de data dos EUA (mês-dia-ano) quando você filtrar campos que contenham datas, mesmo que não esteja usando a versão norte-americana do mecanismo de banco de dados do Microsoft Access (nesse caso, você deve montar qualquer data por meio da concatenação de cadeias de caracteres, por exemplo, strMonth & "-" _ aMP_ strDay & "-" & strYear). Caso contrário, é possível que os dados não sejam filtrados como esperado.
+Use o formato de dados dos EUA (mês-dia-ano) quando você filtra campos com datas, mesmo se você não estiver usando a versão dos EUA do mecanismo de banco de dados do Microsoft Access (nesse caso, você deverá montar todas as datas ao concatenar cadeias de caracteres, por exemplo, strMonth & "-" & strDay & "-" & strYear). Caso contrário, é possível que os dados não sejam filtrados como esperado.
 
-Em muitos casos, é mais rápido abrir um novo objeto **Recordset** pelo uso de uma instrução SQL que inclui a cláusula WHERE.
+Em vários casos, é mais rápido abrir um novo objeto **Recordset** usando uma instrução SQL que inclua uma cláusula WHERE.
 
-Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não norte-americano. decimal, como vírgula (por exemplo, strFilter = "PRICE \> " & lngPrice e lngPrice = 125, 50), ocorrerá um erro quando você tentar Abra o próximo **conjunto de registros**. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro, e se os parâmetros do sistema especificarem um caractere decimal não americano, como uma vírgula (por exemplo, strFilter = "PRICE > \>" & lngPrice e lngPrice = 125,50), ocorrerá um erro quando você tentar abrir o próximo **Recordset**. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 

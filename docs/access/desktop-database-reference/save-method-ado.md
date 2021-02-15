@@ -1,5 +1,5 @@
 ---
-title: Método Save-ActiveX Data Objects (ADO)
+title: Método Save - ActiveX Data Objects (ADO)
 TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
@@ -22,7 +22,7 @@ Salva o [Recordset](recordset-object-ado.md) em um arquivo ou objeto [Stream](st
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Salvar*destino*, *PersistFormat*
+*recordset*. Salvar *Destino*, *PersistFormat*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -56,7 +56,7 @@ Quando um **Recordset** for persistido com a propriedade **CursorLocation** defi
 > [!NOTE]
 > [!OBSERVAçãO] O salvamento de um **Recordset** com **Fields** do tipo **adVariant**, **adIDispatch** ou **adIUnknown** não é suportado pelo ADO e pode causar resultados imprevisíveis.
 
-Somente **filtros** na forma de cadeias de caracteres de critérios ( \> por exemplo, DataDoPedido ' 12/31/1999 ') afetam o conteúdo de um **Recordset**persistente. Os filtros criados com uma Matriz de **Bookmarks** ou utilizado um valor de **FilterGroupEnum** não afetarão o conteúdo do **Recordset** persistido. Essas regras são aplicadas a **Recordsets** criados com cursores do cliente ou do servidor.
+Somente **filtros** na forma de sequências de critérios (por exemplo, OrderDate \> '31/12/1999') afetam o conteúdo de um **Recordset persistente.** Os filtros criados com uma Matriz de **Bookmarks** ou utilizado um valor de **FilterGroupEnum** não afetarão o conteúdo do **Recordset** persistido. Essas regras são aplicadas a **Recordsets** criados com cursores do cliente ou do servidor.
 
 Como o parâmetro *Destination* pode aceitar qualquer objeto que suporte a interface IStream do banco de dados OLE, é possível salvar um **Recordset** diretamente no objeto de Resposta do ASP. Para obter mais detalhes, consulte o [Cenário de Persistência de Recordset XML](xml-recordset-persistence-scenario.md).
 

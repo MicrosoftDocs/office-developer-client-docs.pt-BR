@@ -1,5 +1,5 @@
 ---
-title: VBScript (referência do banco de dados de área de trabalho do Access)
+title: VBScript (referência do banco de dados da área de trabalho do Access)
 TOCTitle: VBScript
 ms:assetid: 070ae822-c0e4-3923-3a9c-69474981728b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248817(v=office.15)

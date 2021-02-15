@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace. Type (DAO)
+title: Propriedade Workspace.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311302"
 ---
-# <a name="workspacetype-property-dao"></a>Propriedade Workspace. Type (DAO)
+# <a name="workspacetype-property-dao"></a>Propriedade Workspace.Type (DAO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Escreva
+*expressão* .Type
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentários
 

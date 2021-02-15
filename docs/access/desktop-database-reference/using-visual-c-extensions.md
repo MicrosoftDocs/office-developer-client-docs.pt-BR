@@ -48,7 +48,7 @@ Inclua o arquivo a seguir em seu aplicativo para usar as extensões do Visual C+
 
 1.  Crie uma classe derivada da classe **CADORecordBinding**.
 
-2.  Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada. Colchete as entradas de associação **entre\_Begin\_Binding ADO** e **\_end\_ADO Binding** macros. Não termine as macros com vírgula ou ponto-e-vírgula. Delimitadores apropriados são especificados automaticamente por cada macro. Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++. Use um membro apropriado da **entrada de\_tamanho\_\_fixo do ADO**, da **entrada\_numérica\_do ADO**ou da família de entrada de **tamanho\_\_\_variável do ADO** .
+2.  Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada. Colchete as entradas de associação entre as macros **BEGIN \_ ADO \_ BINDING** e **END \_ ADO \_ BINDING.** Não termine as macros com vírgula ou ponto-e-vírgula. Delimitadores apropriados são especificados automaticamente por cada macro. Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++. Use um membro apropriado da família de entrada de comprimento fixo do **ADO, \_ \_ \_** entrada numérica **do ADO \_ \_** ou família de entrada de comprimento variável do **ADO \_ \_ \_** de macros.
 
 3.  No seu aplicativo, crie uma instância da classe derivada de **CADORecordBinding**. Obtenha a interface **IADORecordBinding** de **Recordset**. Em seguida, chame o método **BindToRecordset** para acoplar os campos **Recordset** às variáveis C/C++.
 
@@ -82,28 +82,28 @@ Para obter informações adicionais, consulte a *Referência do programador do O
 
 _**Início das entradas de ligação**_
 
-**INICIAR\_Associação\_ADO**(*classe*)
+**BEGIN \_ ASSOCIAÇÃO \_ do ADO**(*Classe*)
 
-_**Dados de comprimento fixo**_
+_**Dados de Comprimento Fixo**_
 
-**Entrada\_de\_tamanho\_fixo ADO**(*ordinal, DataType, buffer, status, modificar*)  
-**Tamanho\_fixo\_do ADO\_ENTRY2**(*ordinal, DataType, buffer, Modify*)
+**ADO \_ ENTRADA \_ DE \_ COMPRIMENTO FIXO**(*Ordinal, DataType, Buffer, Status, Modificar*)  
+**ADO \_ FIXED \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Modify*)
 
 _**Dados numéricos**_
 
-**Entrada\_numérica\_do ADO**(*ordinal, DataType, buffer, precisão, escala, status, modificar*)  
-**ADO\_numérico\_ENTRY2**(*ordinal, DataType, buffer, precisão, escala, modificar*)
+**ADO \_ NUMERIC \_ ENTRY**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)  
+**ADO \_ NUMERIC \_ ENTRY2**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)
 
 _**Dados de comprimento variável**_
 
-**Entrada\_de\_tamanho\_da variável ADO**(*ordinal, DataType, buffer, tamanho, status, comprimento, modificar*)  
-**Comprimento\_variável\_ADO\_ENTRY2**(*ordinal, DataType, buffer, tamanho, status, modificar*)  
-**Comprimento\_variável\_ADO\_ENTRY3**(*ordinal, DataType, buffer, tamanho, comprimento, modificar*)  
-**Comprimento\_variável\_ADO\_ENTRY4**(*ordinal, DataType, buffer, tamanho, modificar*)
+**ADO \_ ENTRADA \_ DE \_ COMPRIMENTO VARIÁVEl**(*Ordinal, DataType, Buffer, Size, Status, Length, Modify*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)
 
-_**Encerrar entradas de vinculação**_
+_**End Binding Entries**_
 
-**Encerrar\_Associação\_ADO** ()
+**END \_ ASSOCIAÇÃO \_ DO ADO**()
 
 <table>
 <colgroup>
@@ -139,7 +139,7 @@ _**Encerrar entradas de vinculação**_
 </tr>
 <tr class="even">
 <td><p><em>Status</em></p></td>
-<td><p>Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida. Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio. Os valores possíveis para <em>status</em> estão listados na próxima tabela, &quot;valores de status.&quot;</p></td>
+<td><p>Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida. Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio. Os valores possíveis <em>para Status</em> são listados na próxima tabela, Valores &quot; de Status.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modificar</em></p></td>
@@ -183,57 +183,57 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 <tbody>
 <tr class="odd">
 <td><p><strong>adFldOK</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Um valor de campo não-nulo foi retornado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldBadAccessor</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>A ligação era inválida.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O valor não pôde ser convertido devido a razões diferentes de incompatibilidade de sinal ou estouro de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Quando um campo é obtido, indica que um valor nulo foi retornado. Na configuração de um campo, indica que o campo deve ser definido como <strong>NULL</strong> quando ele não puder codificar o próprio <strong>NULL</strong> (por exemplo, uma matriz de caracteres ou um número inteiro).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Os dados de comprimento variável ou os dígitos numéricos foram truncados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>O valor tem sinal e o tipo de dados variáveis não.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>O valor é maior do que pôde ser armazenado no tipo de dados variáveis.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>178</p></td>
+<td><p>7 </p></td>
 <td><p>Tipo de coluna desconhecida e campo já aberto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Não foi possível determinar o valor de campo — por exemplo, em um novo campo sem alocação sem nenhum valor padrão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>241</p></td>
+<td><p>9 </p></td>
 <td><p>Durante uma atualização, não houve permissão para gravar dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p>Durante uma atualização, o valor de campo violaria a integridade da coluna.</p></td>
 </tr>
 <tr class="even">
@@ -243,12 +243,12 @@ Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o ca
 </tr>
 <tr class="odd">
 <td><p><strong>adFldBadStatus</strong></p></td>
-<td><p>3,6</p></td>
+<td><p>12 </p></td>
 <td><p>Durante uma atualização, um parâmetro de status inválido foi retornado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>Treze</p></td>
+<td><p>13 </p></td>
 <td><p>Durante uma atualização, um valor padrão foi utilizado.</p></td>
 </tr>
 </tbody>

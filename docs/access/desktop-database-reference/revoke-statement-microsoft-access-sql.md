@@ -26,9 +26,9 @@ Revoga privilégios específicos de um usuário ou grupo existente.
 
 ## <a name="syntax"></a>Sintaxe
 
-REVOKE {*privilégio*\[, *privilégio*,... \]} Em { *tabela* Table | *Objeto* Object|
+REVOKE {*privilege* \[ , *privilege*, ... \] } ON {TABLE *table* | Objeto *OBJECT*|
 
-*Contêiner*separador} de {*authorizationname*\[, *authorizationname*,... \]}
+CONTÊINER *CONTAINTER*} FROM {*authorizationname* \[ , *authorizationname*, ... \] }
 
 A instrução REVOKE contém estas partes:
 
@@ -39,14 +39,14 @@ A instrução REVOKE contém estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>mínimo</em></p></td>
-<td><p>O privilégio ou os privilégios a serem revogados. Os privilégios são especificados usando as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
+<td><p><em>privilege</em></p></td>
+<td><p>O privilégio ou os privilégios a serem revogados. Os privilégios são especificados usando-se as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>

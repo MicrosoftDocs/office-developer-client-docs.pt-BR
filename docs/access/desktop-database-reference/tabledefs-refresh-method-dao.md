@@ -1,5 +1,5 @@
 ---
-title: Método TableDefs. Refresh (DAO)
+title: Método TableDefs.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: f76c1a3f-1561-ce1f-a535-a5a2179ea739
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836915(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306311"
 ---
-# <a name="tabledefsrefresh-method-dao"></a>Método TableDefs. Refresh (DAO)
+# <a name="tabledefsrefresh-method-dao"></a>Método TableDefs.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Atualiza os objetos na coleta especificada para refletir o esquema atual do banc
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atualizado
+*expressão* . Atualizar
 
-*expressão* Uma variável que representa um **** objeto TableDefs.
+*expressão* Uma variável que representa **um objeto TableDefs** .
 
 ## <a name="remarks"></a>Comentários
 

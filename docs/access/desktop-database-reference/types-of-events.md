@@ -1,5 +1,5 @@
 ---
-title: Tipos de eventos (referência de banco de dados de área de trabalho do Access)
+title: Tipos de eventos (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Types of Events
 ms:assetid: 94660fc1-65c3-1d21-c451-f3898014e0b6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249660(v=office.15)
@@ -25,15 +25,15 @@ Há dois tipos básicos de eventos. Os "eventos Will", chamados antes do início
 
 ## <a name="will-events"></a>Eventos Will
 
-Os manipuladores de eventos chamados antes do início da operação permitem que você examine ou modifique os parâmetros de operação e, em seguida, cancele a operação ou permita sua conclusão. Essas rotinas de manipulador de eventos normalmente têm nomes do formulário **será*evento * * *.
+Os manipuladores de eventos chamados antes do início da operação permitem que você examine ou modifique os parâmetros de operação e, em seguida, cancele a operação ou permita sua conclusão. Essas rotinas manipuladoras de eventos geralmente têm nomes no formato **Will* Event***.
 
 ## <a name="complete-events"></a>Eventos Complete
 
-Os manipuladores de eventos chamados após a conclusão de uma operação podem notificar seu aplicativo de que a operação foi concluída. Esse manipulador de eventos também é notificado quando um manipulador de eventos Will cancela uma operação pendente. Essas rotinas de manipulador de eventos normalmente têm nomes do formulário ***evento * concluído**.
+Os manipuladores de eventos chamados após a conclusão de uma operação podem notificar seu aplicativo de que a operação foi concluída. Esse manipulador de eventos também é notificado quando um manipulador de eventos Will cancela uma operação pendente. Essas rotinas manipuladoras de eventos geralmente têm nomes no formato ***Event*Complete**.
 
 Os eventos Will e Complete geralmente são usados em pares.
 
 ## <a name="other-events"></a>Outros eventos
 
-Os outros manipuladores de eventos, ou seja, os eventos cujos nomes não estão no formulário **serão * Event*** ou ***Event * Complete,** serão chamados apenas após a conclusão da operação. Esses eventos são o **Disconnect**, o **EndOfRecordset** e o **InfoMessage**.
+Os outros manipuladores de eventos — ou seja, eventos cujos nomes não têm o formato **Will*Event*** ou ***Event*Complete —** são chamados somente após a conclusão de uma operação. Esses eventos são o **Disconnect**, o **EndOfRecordset** e o **InfoMessage**.
 

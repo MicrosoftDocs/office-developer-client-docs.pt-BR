@@ -1,5 +1,5 @@
 ---
-title: O que é um bloqueio? (Referência do banco de dados do Access Desktop)
+title: O que é um bloqueio? (Referência do banco de dados da área de trabalho do Access)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
@@ -33,7 +33,7 @@ Não há suporte para a configuração **adLockPessimistic** se a propriedade [C
 
 A propriedade **LockType** é de leitura/gravação quando o **Recordset** está fechado e somente leitura quando está aberto.
 
-Esta seção inclui o tópico a seguir:
+Esta seção inclui o seguinte tópico:
 
 - [Tipos de bloqueios](types-of-locks.md)
 

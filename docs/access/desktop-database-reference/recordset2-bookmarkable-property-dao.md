@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. Bookmarkable (DAO)
+title: Propriedade Recordset2.Bookmarkable (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -18,24 +18,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307452"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Propriedade Recordset2. Bookmarkable (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Propriedade Recordset2.Bookmarkable (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Retorna um valor que indica se um objeto **Recordset** suporta indicadores, que você pode definir usando a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)**.
+Retorna um valor que indica se um objeto **Recordset** suporta marcadores, que pode ser definido usando a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . Bookmarkable
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
 Verifique a definição da propriedade **Bookmarkable** de um objeto **Recordset** antes de você tentar definir ou verificar a propriedade **Bookmark**.
 
-Para objetos **Recordset** com base em tabelas do mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é true, e você pode usar indicadores. No entanto, outros produtos do banco de dados podem não oferecer suporte aos marcadores. Por exemplo, não será possível usar os indicadores em qualquer objeto **Recordset** com base em uma tabela do Paradox vinculada que não tem chave primária.
+Para **objetos Recordset** baseados inteiramente nas tabelas do mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é True e você pode usar indicadores. No entanto, outros produtos do banco de dados podem não oferecer suporte aos marcadores. Por exemplo, você não pode usar indicadores em nenhum objeto **Recordset** com base em uma tabela vinculada Paradox que não tenha nenhuma chave primária.
 
 ## <a name="example"></a>Exemplo
 

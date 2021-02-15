@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. noMatch (DAO)
+title: Propriedade Recordset2.NoMatch (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309391"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2. noMatch (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2.NoMatch (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Indica se um registro específico foi encontrado usando o método **[Seek](recordset2-seek-method-dao.md)** ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access).
+Indica se um registro em particular foi localizado usando o método **[Seek](recordset2-seek-method-dao.md)** ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access)
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . NoMatch
+*expressão* .NoMatch
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -35,7 +35,7 @@ Para localizar um registro, use o método **Seek** em um **Recordset** do tipo t
 Se o método **Seek** ou **Find** não for bem-sucedido e a propriedade **NoMatch** for **True**, o registro atual não será mais válido. Verifique se você obteve o indicador do registro atual antes de usar o método **Seek** ou o método **Find**, caso seja necessário retornar para esse registro.
 
 > [!NOTE]
-> [!OBSERVAçãO] O uso de qualquer um dos métodos **[Move](recordset-movefirst-method-dao.md)** em um objeto **Recordset** não afetará a definição da propriedade **NoMatch**.
+> O uso de qualquer um dos métodos **[Move](recordset-movefirst-method-dao.md)** em um objeto **Recordset** não afetará a definição da propriedade **NoMatch**.
 
 ## <a name="example"></a>Exemplo
 

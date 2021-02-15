@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. Cancel (DAO)
+title: Método Recordset2.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: cae49f36-3aad-80d8-c15f-a7a584aa2e9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834366(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307410"
 ---
-# <a name="recordset2cancel-method-dao"></a>Método Recordset2. Cancel (DAO)
+# <a name="recordset2cancel-method-dao"></a>Método Recordset2.Cancel (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ ms.locfileid: "32307410"
 
 *expressão* . Cancelar
 
-*expressão* Uma expressão que retorna um objeto **Recordset2** .
+*expressão* Uma expressão que retorna um **objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync). **Cancel** retornará um erro em tempo de execução se dbRunAsync não tiver sido usado no método que você está tentando encerrar.
+Use o **método Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync). **O** cancelamento retornará um erro em tempo de executar se dbRunAsync não tiver sido usado no método que você está tentando encerrar.
 

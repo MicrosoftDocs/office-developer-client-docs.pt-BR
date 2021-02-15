@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. EditMode (DAO)
+title: Propriedade Recordset2.EditMode (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307347"
 ---
-# <a name="recordset2editmode-property-dao"></a>Propriedade Recordset2. EditMode (DAO)
+# <a name="recordset2editmode-property-dao"></a>Propriedade Recordset2.EditMode (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Retorna um valor que indica o estado da edição do registro atual.
 
 *expressão* . EditMode
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 

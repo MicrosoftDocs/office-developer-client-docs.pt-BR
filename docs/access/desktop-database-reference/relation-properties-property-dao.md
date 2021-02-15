@@ -1,5 +1,5 @@
 ---
-title: Propriedade relation. Properties (DAO)
+title: Propriedade Relation.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 315c0e3d-269b-c726-32a0-dd58056d8520
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192290(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306997"
 ---
-# <a name="relationproperties-property-dao"></a>Propriedade relation. Properties (DAO)
+# <a name="relationproperties-property-dao"></a>Propriedade Relation.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **relation** .
+*expressão* Uma variável que representa um **objeto Relation** .
 

@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. NextRecordset (DAO)
+title: Método Recordset2.NextRecordset (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192318(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307235"
 ---
-# <a name="recordset2nextrecordset-method-dao"></a>Método Recordset2. NextRecordset (DAO)
+# <a name="recordset2nextrecordset-method-dao"></a>Método Recordset2.NextRecordset (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32307235"
 
 *expressão* . NextRecordset
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -35,7 +35,7 @@ Booliano
 
 ## <a name="remarks"></a>Comentários
 
-Em um espaço de trabalho ODBCDirect, você pode abrir um **Recordset** que contém mais de uma consulta seleção no argumento Source de **OpenRecordset**ou a propriedade **[SQL](querydef-sql-property-dao.md)** de um objeto **[QueryDef](querydef-object-dao.md)** de consulta seleção, como no exemplo a seguir.
+Em um espaço de trabalho ODBCDirect, você pode abrir um **Recordset** contendo mais de uma consulta seleção no argumento de origem de **OpenRecordset** ou a propriedade **[SQL](querydef-sql-property-dao.md)** de um objeto **[QueryDef](querydef-object-dao.md)** de consulta seleção, como no exemplo a seguir.
 
 ```sql
     SELECT LastName, FirstName FROM Authors 

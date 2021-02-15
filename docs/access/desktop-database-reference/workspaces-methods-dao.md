@@ -18,7 +18,7 @@ ms.locfileid: "32308313"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Workspaces. Append (DAO)](workspaces-append-method-dao.md)
-- [Método Workspaces. Delete (DAO)](workspaces-delete-method-dao.md)
-- [Método Workspaces. Refresh (DAO)](workspaces-refresh-method-dao.md)
+- [Método Workspaces.Append (DAO)](workspaces-append-method-dao.md)
+- [Método Workspaces.Delete (DAO)](workspaces-delete-method-dao.md)
+- [Método Workspaces.Refresh (DAO)](workspaces-refresh-method-dao.md)
 

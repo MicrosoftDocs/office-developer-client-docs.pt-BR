@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordsets. Count (DAO)
+title: Propriedade Recordsets.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 4362aa16-c8e9-e517-887e-c4532bd1eef9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192940(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309287"
 ---
-# <a name="recordsetscount-property-dao"></a>Propriedade Recordsets. Count (DAO)
+# <a name="recordsetscount-property-dao"></a>Propriedade Recordsets.Count (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna o número de objetos da coleção especificada. **Integer** somente leit
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Desconto
+*expressão* . Count
 
-*expressão* Uma variável que representa um **** objeto Recordsets.
+*expressão* Uma variável que representa um **objeto Recordsets.**
 
 ## <a name="remarks"></a>Comentários
 

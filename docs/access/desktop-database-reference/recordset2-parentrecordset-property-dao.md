@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. ParentRecordset (DAO)
+title: Propriedade Recordset2.ParentRecordset (DAO)
 TOCTitle: ParentRecordset Property
 ms:assetid: 816cc92e-e530-6ca6-65b0-3165221835a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196492(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309051"
 ---
-# <a name="recordset2parentrecordset-property-dao"></a>Propriedade Recordset2. ParentRecordset (DAO)
+# <a name="recordset2parentrecordset-property-dao"></a>Propriedade Recordset2.ParentRecordset (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013 
@@ -27,13 +27,13 @@ Retorna o **Recordset** pai do conjunto de registros especificado. Somente leitu
 
 ## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . ParentRecordset
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 

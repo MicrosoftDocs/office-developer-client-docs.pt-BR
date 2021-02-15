@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset. Properties (DAO)
+title: Propriedade Recordset.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: ea971737-8d2e-c31e-953f-72d1dea1afd2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836240(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309447"
 ---
-# <a name="recordsetproperties-property-dao"></a>Propriedade Recordset. Properties (DAO)
+# <a name="recordsetproperties-property-dao"></a>Propriedade Recordset.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 

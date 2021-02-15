@@ -22,7 +22,7 @@ O data shaping geralmente requer dois provedores. O provedor de serviços, [Serv
 
 O nome do provedor de serviços (MSDataShape) pode ser especificado como o valor da propriedade [Provider](connection-object-ado.md) do objeto [Connection](provider-property-ado.md) ou a palavra-chave "Provider=MSDataShape;" da sequência de conexão.
 
-O nome do provedor de dados pode ser especificado como o valor da propriedade dinâmica do **provedor de dados** , que é adicionado à coleção [Properties](properties-collection-ado.md) do objeto **Connection** pelo serviço de data Shaping para OLE DB ou a palavra-chave de sequência de conexão "* *Provedor de dados = * * * provedor*".
+O nome do provedor de dados pode ser  especificado como o valor da propriedade dinâmica do Provedor de Dados, que é adicionada à coleção **Connection** object [Properties](properties-collection-ado.md) pelo Data Shaping Service para OLE DB ou pela palavra-chave "**Data Provider=***provider*".
 
 Nenhum provedor de dados será necessário se **Recordset** não estiver preenchido (por exemplo, como em um **Recordset** fabricado, em que as colunas são criadas com a palavra-chave NEW). Nesse caso, especifique "**Data Provider=** none;".
 

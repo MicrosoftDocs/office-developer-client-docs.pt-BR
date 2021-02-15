@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. CacheStart (DAO)
+title: Propriedade Recordset2.CacheStart (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 2e9c2b0d-b382-e4d6-9406-ace0e538a7b7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307417"
 ---
-# <a name="recordset2cachestart-property-dao"></a>Propriedade Recordset2. CacheStart (DAO)
+# <a name="recordset2cachestart-property-dao"></a>Propriedade Recordset2.CacheStart (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna um valor que especifica o marcador do primeiro registro em um 
 
 *expressão* . CacheStart
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 

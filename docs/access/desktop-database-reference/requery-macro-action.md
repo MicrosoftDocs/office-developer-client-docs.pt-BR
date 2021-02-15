@@ -24,7 +24,7 @@ ms.locfileid: "32306703"
 
 Você pode usar a ação **RepetirConsulta** para atualizar os dados de um controle especificado no objeto ativo, repetindo a consulta da origem do controle. Se nenhum controle estiver especificado, a ação consultará outra vez a origem do próprio objeto. Use essa ação para verificar se o objeto ativo ou um de seus controles exibe a maioria dos dados atuais.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RepetirConsulta** tem os argumentos a seguir.
 
@@ -76,5 +76,5 @@ Se você deixar em branco o argumento **Nome do Controle**, a ação **RepetirCo
 > [!NOTE]
 > [!OBSERVAçãO] A ação **RepetirConsulta** refaz a consulta da origem do controle ou do objeto. Por outro lado, a ação **RedesenharObjeto** redesenha os controles do objeto especificado, mas não repete a consulta do banco de dados nem exibe novos registros. A ação **MostrarTodosRegistros** não só repete a consulta do objeto ativo, mas também remove todos os filtros aplicados, o que a ação **RepetirConsulta** não faz.
 
-Se você quiser repetir a consulta de um controle que não esteja no objeto ativo, use o método **Requery** em um módulo do VBA (Visual Basic for Applications), e não a ação **Requery** ou seu respectivo método **Requery** do objeto **DoCmd**. O método **Requery** do VBA é mais rápido do que a ação **Requery** ou o método **DoCmd.Requery**. Além disso, quando você usa a ação **Requery** ou o método **DoCmd.Requery** o Microsoft Access fecha a consulta e a recarrega do banco de dados, mas quando você usa o método **Requery**, o Access reexecuta a consulta, mas sem fechá-la e recarregá-la. Observe que o método reQuery do ADO **** (objeto de dados ActiveX) funciona da mesma maneira que o método Requery do Access. ****
+Se você quiser repetir a consulta de um controle que não esteja no objeto ativo, use o método **Requery** em um módulo do VBA (Visual Basic for Applications), e não a ação **Requery** ou seu respectivo método **Requery** do objeto **DoCmd**. O método **Requery** do VBA é mais rápido do que a ação **Requery** ou o método **DoCmd.Requery**. Além disso, quando você usa a ação **Requery** ou o método **DoCmd.Requery** o Microsoft Access fecha a consulta e a recarrega do banco de dados, mas quando você usa o método **Requery**, o Access reexecuta a consulta, mas sem fechá-la e recarregá-la. Observe que o método **Requery** do objeto ActiveX Data (ADO) funciona da mesma maneira que o método Access **Requery.**
 

@@ -24,7 +24,7 @@ ms.locfileid: "32306829"
 
 Use a ação **ExecutarCódigo** para chamar um procedimento Function do VBA(Visual Basic for Applications).
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarCódigo** tem o argumento a seguir.
 
@@ -42,7 +42,7 @@ A ação **ExecutarCódigo** tem o argumento a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da função</strong></p></td>
-<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: em um banco de dados do Access (. mdb ou. accdb), clique no botão <strong>construir</strong> para usar o construtor de expressões para selecionar uma função para esse argumento. Na lista do Construtor de Expressões, clique na função desejada.</p></td>
+<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p><p><strong>OBSERVAÇÃO:</strong>em um banco de dados do Access (.mdb ou .accdb), clique no botão <strong>Construir</strong> para usar o Construtor de Expressões para selecionar uma função para esse argumento. Na lista do Construtor de Expressões, clique na função desejada.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ Você deve incluí-los entre parênteses, mesmo que o procedimento Function não
 
 `TestFunction()`
 
-Diferentemente dos nomes de função definidos pelo usuário usados nas configurações da propriedade de evento, o nome da função no argumento **nome da função** não**=** começa com um sinal de igual ().
+Ao contrário dos nomes de função definidos pelo usuário usados para configurações de propriedade de evento, o nome da função no argumento **Nome** da Função não começa com um sinal de igual ( **=** ).
 
 O Access ignora o valor de retorno da função.
 

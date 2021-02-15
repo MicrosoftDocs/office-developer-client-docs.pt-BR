@@ -1,5 +1,5 @@
 ---
-title: Referência do objeto user (ADOX)
+title: Referência de objeto de usuário (ADOX)
 TOCTitle: User object (ADOX)
 ms:assetid: 1e3090b2-443b-41df-a67a-f2c1452c48f3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248974(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313164"
 ---
-# <a name="user-object-adox-reference"></a>Referência do objeto user (ADOX)
+# <a name="user-object-adox-reference"></a>Referência de objeto de usuário (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Objeto user (ADOX)](user-object-adox.md)
+- [Objeto User (ADOX)](user-object-adox.md)
 - [Propriedades, métodos e eventos do usuário (ADOX)](user-properties-methods-and-events-adox.md)
 

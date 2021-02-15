@@ -49,7 +49,7 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Cria e anexa um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> à coleção <strong>Recordsets</strong>.</p></td>
+<td><p>Cria um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> e o acrescenta à coleção <strong>Recordsets</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-refreshlink-method-dao.md">RefreshLink</a></strong></p></td>
@@ -99,14 +99,14 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. Somente leitura <strong>Variant</strong>.</p></td>
+<td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. <strong>Variant</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>Cadeia de caracteres</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="tabledef-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">

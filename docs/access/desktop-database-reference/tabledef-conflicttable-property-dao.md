@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef. ConflictTable (DAO)
+title: Propriedade TableDef.ConflictTable (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308425"
 ---
-# <a name="tabledefconflicttable-property-dao"></a>Propriedade TableDef. ConflictTable (DAO)
+# <a name="tabledefconflicttable-property-dao"></a>Propriedade TableDef.ConflictTable (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Retorna o nome de uma tabela em conflito que contém os registros do banco de da
 
 *expressão* . ConflictTable
 
-*expressão* Uma expressão que retorna um objeto **TableDef** .
+*expressão* Uma expressão que retorna um **objeto TableDef** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -41,5 +41,5 @@ Os conflitos ocorrem no nível do registro, não entre os campos. Por exemplo, s
 
 O mecanismo de sincronização manipula os conflitos do registro criando tabelas de conflito, que contêm as informações que devem ser colocadas na tabela se as alterações forem bem-sucedidas. Você pode examinar essas tabelas de conflitos e trabalhar nelas linha por linha, corrigindo o que for apropriado.
 
-Todas as tabelas de conflito são\_chamadas de conflito de tabelas, onde table é o nome original da tabela, truncado para o comprimento máximo do nome da tabela.
+Todas as tabelas conflitantes são nomeadas conflito de tabela, onde tabela é o nome original da tabela, truncada para o \_ comprimento máximo do nome da tabela.
 

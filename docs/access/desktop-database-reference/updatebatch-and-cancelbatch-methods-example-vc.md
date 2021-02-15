@@ -244,7 +244,7 @@ void PrintComError(_com_error &e)
 // EndUpdateBatchCpp 
 ```
 
-**UpdateBatchX. h**
+**UpdateBatchX.h**
 
 ```cpp 
  

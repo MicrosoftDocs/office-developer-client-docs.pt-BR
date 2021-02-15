@@ -239,7 +239,7 @@ void PrintComError(_com_error &e)
 // EndRefreshCpp 
 ```
 
-**RefreshX. h**
+**RefreshX.h**
 
 ```cpp 
  

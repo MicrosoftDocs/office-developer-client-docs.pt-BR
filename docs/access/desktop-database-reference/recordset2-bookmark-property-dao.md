@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. Bookmark (DAO)
+title: Propriedade Recordset2.Bookmark (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: 7366d550-2f72-ed10-b230-eb144a6f874b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307445"
 ---
-# <a name="recordset2bookmark-property-dao"></a>Propriedade Recordset2. Bookmark (DAO)
+# <a name="recordset2bookmark-property-dao"></a>Propriedade Recordset2.Bookmark (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,25 +23,25 @@ Define ou retorna um marcador que identifica exclusivamente o registro atual em 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Indicador
+*expressão* .Bookmark
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
-Para um objeto **Recordset** baseado inteiramente em tabelas do mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é true, e você pode usar a propriedade **Bookmark** com esse Recordset. No entanto, outros produtos do banco de dados podem não oferecer suporte aos marcadores. Por exemplo, não é possível usar marcadores em nenhum objeto **Recordset2** com base em uma tabela Paradox vinculada que não tem chave primária.
+Para um **objeto Recordset** baseado inteiramente nas tabelas do mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é True e você pode usar a propriedade **Bookmark** com esse recordset. No entanto, outros produtos do banco de dados podem não oferecer suporte aos marcadores. Por exemplo, não é possível usar marcadores em nenhum objeto **Recordset2** com base em uma tabela Paradox vinculada que não tem chave primária.
 
 Quando você criar ou abrir um objeto **Recordset**, cada um desses registros já possuirá um marcador exclusivo. Salve o marcador do registro atual pela atribuição do valor da propriedade **Bookmark** a uma variável. Para retornar rapidamente ao registro a qualquer momento depois de se mover para um registro diferente, defina a propriedade **Bookmark** do objeto **Recordset** como o valor dessa variável.
 
 Não há limite para o número de marcadores que você pode estabelecer. Para criar um marcador de um registro diferente do registro atual, mova-se para o registro desejado e atribua o valor da propriedade **Bookmark** a uma variável **String** que identifique o registro.
 
-Para ter certeza de que o objeto **Recordset** oferece suporte a marcadores, verifique o valor da propriedade **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** antes de usar a propriedade **Bookmark**. Se a **** Propriedade Bookmarkable for false, o objeto **Recordset** não oferecer suporte a indicadores e usar a propriedade **Bookmark** resultará em um erro interceptável.
+Para garantir que o objeto **Recordset** seja compatível com marcadores, verifique os valores de sua propriedade **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** antes de usar a propriedade **Bookmark**. Se a propriedade **Bookmarkable** for False, o objeto **Recordset** não oferecerá suporte aos marcadores e usará os resultados da propriedade **Bookmark** em um erro interceptável.
 
 Se você usar o método **[Clone](recordset2-clone-method-dao.md)** para criar uma cópia de um objeto **Recordset**, as definições da propriedade **Bookmark** dos objetos **Recordset** original e duplicado serão idênticas e poderão ser usadas de forma permutável. No entanto, você não pode usar marcadores de objetos **Recordset** diferentes de forma permutável, mesmo que esses marcadores tenham sido criados usando o mesmo objeto ou a mesma instrução SQL.
 
 Se você definir a propriedade **Bookmark** como um valor que representa um registro excluído, ocorrerá um erro interceptável.
 
-O valor da propriedade **Bookmark** não é o mesmo de um número de registro.
+O valor da propriedade **Bookmark** Bookmark não é o mesmo que um número de registro.
 
 ## <a name="example"></a>Exemplo
 

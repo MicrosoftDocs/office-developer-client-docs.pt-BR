@@ -24,7 +24,7 @@ ms.locfileid: "32306808"
 
 Você pode usar a ação **ExecutarMacrodeDados** para executar uma macro.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
 
@@ -50,17 +50,17 @@ A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a ação **RunDataMacro** em macros, macros de dados nomeadas e nos seguintes eventos de macro: evento de macro após **[exclusão](after-delete-macro-event.md)**, evento de macro após **[Inserir](after-insert-macro-event.md)** e **[evento de macro após atualização](after-update-macro-event.md)**.
+Você pode usar a ação **RunDataMacro** em macros, macros de dados nomeadas e os seguintes eventos de macro: evento de **[macro](after-delete-macro-event.md)** Após Exclusão , evento de **[macro](after-insert-macro-event.md)** Após Inserir e evento de macro Após **[Atualização.](after-update-macro-event.md)**
 
-O nome da macro de dados deve incluir a tabela à qual está anexada (por exemplo, **comentários. AddComment**, não apenas **AddComment**).
+O nome da macro de dados deve incluir a tabela à qual está anexada (por exemplo, **Comments.AddComment**, não apenas **AddComment**).
 
-Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados exigir parâmetros, as caixas de texto aparecerão onde você pode digitar os argumentos.
+Quando você selecionar a macro de dados que deseja executar no designer de macros, o Access determinará se a macro de dados exige parâmetros. Se a macro de dados exigir parâmetros, as caixas de texto aparecerão onde você poderá digitar os argumentos.
 
 Quando você executa uma macro que contém a ação **ExecutarMacrodeDados** e ela alcançar a ação **ExecutarMacrodeDados**, o Access executará a macro de dados chamada. Após a conclusão da macro de dados chamada, o Access retornará à macro original e executará a próxima ação.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como passar um parâmetro para uma macro de dados nomeada. A macro de dados dmGetCurrentServiceRequest da tabela tblServiceRequests é chamada usando a ação RunDataMacro. Quando o dmGetCurrentServiceRequest é concluído, a variável CurrentServiceRequest retornada a macro de dados é gravada na caixa de texto txtCurrentSR.
+O exemplo a seguir mostra como passar um parâmetro para uma macro de dados nomeada. A macro de dados dmGetCurrentServiceRequest da tabela tblServiceRequests é chamada usando a ação RunDataMacro. Quando o dmGetCurrentServiceRequest é concluído, a variável CurrentServiceRequest retornou a forma como a macro de dados é escrita na caixa de texto txtCurrentSR.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

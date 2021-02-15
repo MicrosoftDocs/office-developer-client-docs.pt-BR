@@ -1,5 +1,5 @@
 ---
-title: Visual Basic (referência do banco de dados de área de trabalho do Access)
+title: Visual Basic (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Visual Basic
 ms:assetid: 9d153b6c-c860-7350-cb3c-b9bd08f75ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-O objeto **Connection** é declarado no nível de **Form** por meio da palavra-chave **WithEvents** para ativar o tratamento de eventos. O manipulador\_de eventos Form Load realmente cria o objeto atribuindo um novo objeto **Connection** ao *connEvent* e, em seguida, abre a conexão. Naturalmente, um aplicativo real faria mais processamento no manipulador de eventos Form\_Load do que é mostrado aqui.
+O objeto **Connection** é declarado no nível de **Form** por meio da palavra-chave **WithEvents** para ativar o tratamento de eventos. Na verdade, o manipulador de eventos Form Load cria o objeto atribuindo um novo objeto \_ **Connection** a *connEvent* e, em seguida, abre a conexão. Obviamente, um aplicativo real faria mais processamento no manipulador de eventos Form Load do \_ que é mostrado aqui.
 

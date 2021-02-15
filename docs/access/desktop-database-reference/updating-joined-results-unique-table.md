@@ -21,5 +21,5 @@ ms.locfileid: "32313381"
 
 ## <a name="updating-joined-results-unique-table"></a>Atualização de resultados JOINed: tabela exclusiva
 
-O ADO permite que você controle rigorosamente as modificações em uma determinada tabela base em um **Recordset** formado por uma operação JOIN em várias tabelas base, usando a propriedade dinâmica **Unique Table**. Para obter detalhes sobre o uso da **tabela exclusiva**, consulte os tópicos de referência do programador do ADO sobre a **tabela exclusiva** e **Atualizar** as propriedades dinâmicas de ressincronização.
+O ADO permite que você controle rigorosamente as modificações em uma determinada tabela base em um **Recordset** formado por uma operação JOIN em várias tabelas base, usando a propriedade dinâmica **Unique Table**. Para obter detalhes sobre como usar **Unique Table**, consulte os tópicos de referência do programador do ADO nas propriedades dinâmicas **Unique Table** e **Update Resynch.**
 

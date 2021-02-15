@@ -1,5 +1,5 @@
 ---
-title: Propriedade maPosition (ADO)
+title: Propriedade RowPosition (ADO)
 TOCTitle: RowPosition property (ADO)
 ms:assetid: b87f14b0-136b-0564-3e12-f9d5ecc4f7c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306857"
 ---
-# <a name="rowposition-property-ado"></a>Propriedade maPosition (ADO)
+# <a name="rowposition-property-ado"></a>Propriedade RowPosition (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Obtém ou define um objeto **RowPosition** do OLE DB a partir de/em um objeto **ADORecordsetConstruction**. Quando você usa **colocar\_myposition** para definir o **** objeto transposition, o objeto **Recordset** resultante usa o **** objeto transposition para determinar a linha atual.
+Obtém ou define um objeto **RowPosition** do OLE DB a partir de/em um objeto **ADORecordsetConstruction**. Quando você usa **colocar \_ RowPosition** para definir o objeto **RowPosition,** o objeto **Recordset** resultante usa o objeto **RowPosition** para determinar a linha atual.
 
 Leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-HRESULT get\_multiposition (\[out, retval\] IUnknown\* \* ppRowPos);
+HRESULT get \_ RowPosition( \[ out, retval \] IUnknown \* \* ppRowPos);
 
-HRESULT Coloque\_a função (\[em\] IUnknown\* pRowPos);
+HRESULT put \_ RowPosition( \[ in \] IUnknown \* pRowPos);
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,7 +37,7 @@ HRESULT Coloque\_a função (\[em\] IUnknown\* pRowPos);
 
 ## <a name="return-values"></a>Valor de retorno
 
-Este método de propriedade retorna os valores HRESULT padrão, incluindo\_S OK E\_o e falha.
+Esse método de propriedade retorna os valores HRESULT padrão, incluindo S \_ OK e E \_ FAIL.
 
 ## <a name="remarks"></a>Comentários
 

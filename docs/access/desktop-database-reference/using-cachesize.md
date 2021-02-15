@@ -1,5 +1,5 @@
 ---
-title: Usando caChesize (referência de banco de dados do Access)
+title: Usando CacheSize (referência de banco de dados da área de trabalho do Access)
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)

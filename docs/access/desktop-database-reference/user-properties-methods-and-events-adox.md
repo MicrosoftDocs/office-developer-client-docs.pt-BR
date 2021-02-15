@@ -32,5 +32,5 @@ ms.locfileid: "32312954"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

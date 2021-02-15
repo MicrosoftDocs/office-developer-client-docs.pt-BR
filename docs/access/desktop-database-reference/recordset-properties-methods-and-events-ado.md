@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do Recordset (ADO)
+title: Propriedades, métodos e eventos do recordset (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: aca81c6c-5b08-13e9-5bf5-3561a173f5bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307641"
 ---
-# <a name="recordset-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do Recordset (ADO)
+# <a name="recordset-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do recordset (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

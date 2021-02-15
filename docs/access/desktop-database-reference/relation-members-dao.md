@@ -1,5 +1,5 @@
 ---
-title: Membros da relação (DAO)
+title: Membros Relation (DAO)
 TOCTitle: Relation Members
 ms:assetid: 9ee36e7d-3825-1de8-65fb-64bbcada847c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307034"
 ---
-# <a name="relation-members-dao"></a>Membros da relação (DAO)
+# <a name="relation-members-dao"></a>Membros Relation (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -70,7 +70,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <td><p>Define ou retorna o nome da tabela externa em uma relação (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +78,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <td><p>Define ou retorna um valor em um objeto <strong>Relation</strong>, indicando se essa relação deverá ser considerada durante o preenchimento de uma réplica parcial a partir de uma réplica completa. (somente em banco de dados do mecanismo de banco de dados do Microsoft Access). <strong>Boolean</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="relation-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">

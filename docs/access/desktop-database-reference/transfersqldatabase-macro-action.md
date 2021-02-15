@@ -22,12 +22,12 @@ ms.locfileid: "32306843"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** para transferir um banco de dados do Microsoft SQL Server 7.0 ou posterior para outro banco de dados SQL Server 7.0 ou posterior. Para obter mais informações sobre a transferência de um banco de dados, consulte a documentação do SQL Server.
+Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** para transferir um banco de dados do Microsoft SQL Server 7.0 ou posterior para outro banco de dados SQL Server 7.0 ou posterior. Para obter mais informações sobre como transferir um banco de dados, consulte a documentação do SQL Server.
 
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **TransferirBancoDeDadosSQL** tem os seguintes argumentos.
 
@@ -44,7 +44,7 @@ A ação **TransferirBancoDeDadosSQL** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Servidor</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>O nome do servidor de banco de dados do SQL Server 7.0 ou posterior no qual você está copiando.</p></td>
 </tr>
 <tr class="even">
@@ -53,10 +53,10 @@ A ação **TransferirBancoDeDadosSQL** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Usar conexão confiável</strong></p></td>
-<td><p>Especifica se há ou não uma conexão confiável para o SQL Server. Se definido como <strong>Sim</strong>, isso indicará que há uma conexão confiável e os argumentos <strong>Logon</strong> e <strong>Senha</strong> não serão exigidos. Se definido como <strong>Não</strong>, os argumentos <strong>Logon</strong> e <strong>Senha</strong> serão exigidos. O padrão é <strong>Sim</strong>. Quando você usa uma conexão confiável, a segurança do SQL Server integra-se com a segurança do sistema operacional Windows para fornecer um logon único para a rede e o banco de dados.</p></td>
+<td><p>Especifica se há ou não uma conexão confiável para o SQL Server. Se definido como <strong>Sim</strong>, isso indicará que há uma conexão confiável e os argumentos <strong>Logon</strong> e <strong>Senha</strong> não serão exigidos. Se definido como <strong>Não</strong>, os argumentos <strong>Logon</strong> e <strong>Senha</strong> serão exigidos. O padrão é <strong>Sim</strong>. Quando você usa uma conexão confiável, a segurança do SQL Server se integra à segurança do sistema operacional Windows para fornecer um único logoff na rede e no banco de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Faça</strong></p></td>
+<td><p><strong>Logon</strong></p></td>
 <td><p>O nome do logon no servidor de destino.</p></td>
 </tr>
 <tr class="odd">

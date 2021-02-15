@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset. ValidationRule (DAO)
+title: Propriedade Recordset.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: c9250c13-18fe-1ff7-7846-7872c49a1e3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823208(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307501"
 ---
-# <a name="recordsetvalidationrule-property-dao"></a>Propriedade Recordset. ValidationRule (DAO)
+# <a name="recordsetvalidationrule-property-dao"></a>Propriedade Recordset.ValidationRule (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ Define ou retorna um valor que valida os dados em um campo à medida que estes s
 
 *expressão* . ValidationRule
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -67,4 +67,4 @@ A propriedade **ValidationRule** de um objeto **Recordset** ou **TableDef** pode
 Para um **Recordset** do tipo tabela, a propriedade **ValidationRule** herda a definição de propriedade de **ValidationRule** do objeto **TableDef** usado para criar o objeto **Recordset** do tipo tabela.
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), ocorrerá um erro quando seu código tenta validar quaisquer dados. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro, e os parâmetros do sistema especificarem um valor não-americano. caractere decimal, como uma vírgula (por exemplo, strRule = "PRICE &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro quando seu código tentar validar quaisquer dados. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace. Properties (DAO)
+title: Propriedade Workspace.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311316"
 ---
-# <a name="workspaceproperties-property-dao"></a>Propriedade Workspace. Properties (DAO)
+# <a name="workspaceproperties-property-dao"></a>Propriedade Workspace.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 

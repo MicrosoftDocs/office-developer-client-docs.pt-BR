@@ -19,5 +19,5 @@ ms.locfileid: "32312142"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto View (ADOX)](view-object-adox.md)
-- [Propriedades, métodos e eventos do modo de exibição (ADOX)](view-properties-methods-and-events-adox.md)
+- [Exibir propriedades, métodos e eventos (ADOX)](view-properties-methods-and-events-adox.md)
 

@@ -22,9 +22,9 @@ Atualiza os dados no objeto [Recordset](recordset-object-ado.md) atual, ou a col
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Ressincronizar*AffectRecords*, *ResyncValues*
+*Recordset*. Resync *AffectRecords*, *ResyncValues*
 
-*Record*. *Campos*. Ressincronizar*ResyncValues*
+*Registro*. *Campos*. Resync *ResyncValues*
 
 ## <a name="parameters"></a>Parâmetros
 

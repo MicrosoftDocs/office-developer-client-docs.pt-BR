@@ -22,7 +22,7 @@ Indica se uma ordem de classificação é crescente ou decrescente.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. SortDirection = *valor*
+*DataControl*. SortDirection = *value*
 
 ## <a name="parameters"></a>Parâmetros
 

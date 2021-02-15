@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. FindFirst (DAO)
+title: Método Recordset2.FindFirst (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 2a18e81a-a9e5-cc1a-50b2-40c1f1b7fa06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192064(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309405"
 ---
-# <a name="recordset2findfirst-method-dao"></a>Método Recordset2. FindFirst (DAO)
+# <a name="recordset2findfirst-method-dao"></a>Método Recordset2.FindFirst (DAO)
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Localiza o primeiro registro em um dynaset ou objeto de tipo instantâneo do **Conjunto de registros**, que atende aos critérios específicos e torna esse registro atual (somente para espaços de trabalho do Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . FindFirst (***critérios***)
+*expressão* .FindFirst(***Criteria***)
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Localiza o primeiro registro em um dynaset ou objeto de tipo instantâneo do **C
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -71,8 +71,8 @@ Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direç�
 <thead>
 <tr class="header">
 <th><p>Método Find</p></th>
-<th><p>Começa a pesquisa em</p></th>
-<th><p>Direção de pesquisa</p></th>
+<th><p>Inicia pesquisa em</p></th>
+<th><p>Direção da pesquisa</p></th>
 </tr>
 </thead>
 <tbody>
@@ -89,12 +89,12 @@ Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direç�
 <tr class="odd">
 <td><p><strong>FindNext</strong></p></td>
 <td><p>Registro atual</p></td>
-<td><p>Final do recordset</p></td>
+<td><p>Fim do conjunto de registros</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FindPrevious</strong></p></td>
 <td><p>Registro atual</p></td>
-<td><p>Início do recordset</p></td>
+<td><p>Início do conjunto de registros</p></td>
 </tr>
 </tbody>
 </table>
@@ -108,17 +108,17 @@ Utilizar o método **Find** com os conjuntos de registros com acesso ODBC conect
 
 Ao trabalhar com os bancos de dados com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access e por grande objetos tipo dynaset do **Conjunto de registros**, você poderá descobrir que usar os métodos **Find** ou as propriedades **Classificar** ou **Filtrar** é mais lento. Para melhorar o desempenho, use as consultas SQL cláusulas ORDER BY ou WHERE, consultas de parâmetro ou objetos **QueryDef** personalizados, que recuperam registros específicos indexados.
 
-Você deve usar o formato de data americano (mês-dia-ano) ao pesquisar campos contendo datas, mesmo que não esteja utilizando uma versão em inglês do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados não poderão ser localizado. Use a função **Format** do Visual Basic para converter a data. Por exemplo:
+É necessário usar o formato de data dos EUA (mês/dia/ano), ao pesquisar campos contendo datas, mesmo se não estiver usando a versão norte-americana do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados podem não ser encontrados. Use a função **Formato** do Visual Basic para converter a data. Por exemplo:
 
 ```vb
 rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Se os critérios forem compostos de uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strSQL = "PRICE \> " & lngPrice e lngPrice = 125, 50), ocorrerá um erro quando você tentar chamar o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+Se o critério for composto por uma cadeia concatenada de caracteres e com um valor não inteiro, e se os parâmetros do sistema especificarem um caractere decimal não-EUA, como uma vírgula (por exemplo, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), ocorrerá um erro ao tentar chamar o método. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 
 > [!NOTE]
-> - Para obter um melhor desempenho, o *critério** deve estar no formato "** = *valor*do campo", onde *campo* é um campo indexado na tabela base subjacente ou "*campo* como *prefixo*" onde *campo* é um campo indexado na tabela base subjacente e o *prefixo* é uma cadeia de caracteres de pesquisa de prefixo (por exemplo, "Art *").
-> - Em geral, para tipos equivalentes de pesquisa, o método **Seek** fornece melhor desempenho que os métodos **Find**. Isso significa que os objetos **Recordset** tipo tabela sozinhos podem atender às suas necessidades.
+> - Para melhorar o desempenho, o critério *** deve estar no formato "*valor* do campo " onde o campo é um campo indexado na tabela base base ou " prefixo like do campo " onde o campo é um campo indexado na tabela base subjacente e o prefixo é uma cadeia de caracteres de pesquisa de  =  prefixo (por exemplo, "ART*").     
+> - De modo geral, para os tipos de pesquisas, o método **Seek** proporciona um melhor desempenho do que o método **Find**. Isso supõe que os objetos de tipo de tabela **Conjunto de registros** sozinhos podem atender às suas necessidades.
 
 

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312751"
 ---
-# <a name="using-addnew-in-immediate-and-batch-modes"></a>Usando AddNew nos modos imediato e em lote
+# <a name="using-addnew-in-immediate-and-batch-modes"></a>Usando AddNew nos modos Imediato e Em Lotes
 
 
 **Aplica-se ao:** Access 2013, Office 2013

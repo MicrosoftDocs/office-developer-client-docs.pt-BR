@@ -1,5 +1,5 @@
 ---
-title: SortOrderEnum (referência do banco de dados de área de trabalho do Access)
+title: SortOrderEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
@@ -38,12 +38,12 @@ Especifica a sequência de classificação de uma coluna indexada.
 <tbody>
 <tr class="odd">
 <td><p><strong>adSortAscending</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. A sequência de classificação da coluna é crescente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSortDescending</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>A sequência de classificação da coluna é decrescente.</p></td>
 </tr>
 </tbody>

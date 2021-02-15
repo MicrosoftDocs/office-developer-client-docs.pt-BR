@@ -1,5 +1,5 @@
 ---
-title: Método Relations. Refresh (DAO)
+title: Método Relations.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d71cecf2-da90-5f62-9e51-f994e660ad34
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306766"
 ---
-# <a name="relationsrefresh-method-dao"></a>Método Relations. Refresh (DAO)
+# <a name="relationsrefresh-method-dao"></a>Método Relations.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Atualiza os objetos na coleta especificada para refletir o esquema atual do banc
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atualizado
+*expressão* . Atualizar
 
-*expressão* Uma variável que representa um **** objeto Relations.
+*expressão* Uma variável que representa um **objeto Relations** .
 
 ## <a name="remarks"></a>Comentários
 

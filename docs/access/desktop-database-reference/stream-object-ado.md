@@ -23,7 +23,7 @@ Representa um fluxo de dados ou texto binário.
 
 ## <a name="remarks"></a>Comentários
 
-Em hierarquias estruturadas em árvore, como um sistema de arquivos ou um sistema de email, um [registro](record-object-ado.md) pode ter um fluxo binário padrão de bits associado a ele que contenha o conteúdo do arquivo ou o email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
+Em hierarquias estruturadas em árvore, como um sistema de arquivos ou um sistema de email, um [Registro](record-object-ado.md) pode ter um fluxo binário padrão de bits associados a ele que contém o conteúdo do arquivo ou do email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
 
   - A partir de uma URL que aponta para um objeto (geralmente um arquivo) que contenha dados binários ou de texto. Esse objeto pode ser um documento simples, um objeto **Record** que representa um documento estruturado ou uma pasta.
 
@@ -66,6 +66,6 @@ Com os métodos e as propriedades e um objeto **Stream**, você pode fazer o seg
   - Especificar o modo de acesso para o **Stream** com a propriedade [Mode](mode-property-ado.md).
 
 > [!NOTE]
-> [!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

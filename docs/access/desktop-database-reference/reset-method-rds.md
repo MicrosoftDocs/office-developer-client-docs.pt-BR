@@ -1,5 +1,5 @@
 ---
-title: Método Reset (referência do banco de dados de área de trabalho do Access)
+title: Método Reset (RDS – referência do banco de dados da área de trabalho do Access)
 TOCTitle: Reset method (RDS)
 ms:assetid: 169ebd1e-6071-613e-c065-3af060167456
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
@@ -22,7 +22,7 @@ Executa a classificação ou a filtragem em um **Recordset** de cliente, com bas
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Redefinir (*valor*)
+*DataControl*. Reset(*value*)
 
 ## <a name="parameters"></a>Parâmetros
 

@@ -18,15 +18,15 @@ ms.locfileid: "32306738"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Obtém ou define um objeto **Rowset** do OLE DB a partir de/em um objeto **ADORecordsetConstruction**. Quando você usa o\_conjunto de linhas, o conjunto de linhas é transformado em um objeto **Recordset** do ADO.
+Obtém ou define um objeto **Rowset** do OLE DB a partir de/em um objeto **ADORecordsetConstruction**. Quando você usa put \_ Rowset, o conjuntos de linhas é transformado em um objeto **Recordset do** ADO.
 
 Leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-HRESULT get\_Rowset (\[out, retval\] IUnknown\* \* ppRowset);
+HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);
 
-HRESULT colocar\_Rowset (\[em\] IUnknown\* pRowset);
+HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,7 +37,7 @@ HRESULT colocar\_Rowset (\[em\] IUnknown\* pRowset);
 
 ## <a name="return-values"></a>Valor de retorno
 
-Este método de propriedade retorna os valores HRESULT padrão, incluindo\_S OK E\_o e falha.
+Esse método de propriedade retorna os valores HRESULT padrão, incluindo S \_ OK e E \_ FAIL.
 
 ## <a name="applies-to"></a>Aplicável a
 

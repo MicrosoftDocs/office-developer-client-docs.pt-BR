@@ -22,7 +22,7 @@ Consulta novamente a fonte de dados especificada na propriedade [Connect](connec
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Atualizado
+*DataControl*. Atualizar
 
 ## <a name="parameters"></a>Parâmetros
 

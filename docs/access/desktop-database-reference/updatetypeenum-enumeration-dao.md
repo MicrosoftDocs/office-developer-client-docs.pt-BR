@@ -1,5 +1,5 @@
 ---
-title: Enumeração de UpdateTypeEnum (DAO)
+title: Enumeração UpdateTypeEnum (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306185"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a>Enumeração de UpdateTypeEnum (DAO)
+# <a name="updatetypeenum-enumeration-dao"></a>Enumeração UpdateTypeEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -37,17 +37,17 @@ Usada com o método **Update** para especificar quais atualizações devem ser g
 <tbody>
 <tr class="odd">
 <td><p>dbUpdateBatch</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Todas as atualizações pendentes do cache de atualização são gravadas no disco.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Somente as alterações pendentes do registro atual são gravadas no disco.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUpdateRegular</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>(Padrão) As alterações pendentes não são armazenadas em cache e são gravadas no disco imediatamente.</p></td>
 </tr>
 </tbody>

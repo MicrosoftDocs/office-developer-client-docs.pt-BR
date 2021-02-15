@@ -1,5 +1,5 @@
 ---
-title: Propriedades de Recordsets (DAO)
+title: Propriedades recordsets (DAO)
 TOCTitle: Properties
 ms:assetid: 86f55d9d-d26c-4e4e-9834-055d8be16445
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125147(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309307"
 ---
-# <a name="recordsets-properties-dao"></a>Propriedades de Recordsets (DAO)
+# <a name="recordsets-properties-dao"></a>Propriedades recordsets (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade Recordsets. Count (DAO)](recordsets-count-property-dao.md)
+- [Propriedade Recordsets.Count (DAO)](recordsets-count-property-dao.md)
 

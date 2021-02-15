@@ -21,7 +21,7 @@ ms.locfileid: "32312065"
 
 Este programa mostra como os valores são recuperados dos campos e convertidos em variáveis C/C++.
 
-Este exemplo também tira proveito de "ponteiros inteligentes", que manipulam automaticamente os detalhes específicos de COM de chamada e contagem de referência para a interface **IADORecordBinding** .
+Este exemplo também tira proveito de "ponteiros inteligentes", que lidam automaticamente com os detalhes específicos de COM da contagem de chamada e referência para a interface **IADORecordBinding.**
 
 Sem os ponteiros inteligentes, o código seria:
 
@@ -35,7 +35,7 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-Com apontadores inteligentes, você deriva o tipo IADORecordBindingPtr do tipo da interface IADORecordBinding com esta instrução:
+Com ponteiros inteligentes, você deriva o tipo IADORecordBindingPtr do tipo da interface IADORecordBinding com esta instrução:
 
 ```cpp 
  
@@ -49,7 +49,7 @@ E instancia o ponteiro da seguinte forma:
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Como as extensões do Visual C++ são implementadas pelo objeto **Recordset** , o construtor do ponteiro inteligente, picRs, utiliza o \_ponteiro RecordsetPtr, pRs. O construtor chama QueryInterface usando pRs para localizar o, usa o \_ponteiro RecordsetPtr, pRs. O construtor chama QueryInterface usando pRs para encontrar a interface IADORecordBinding.
+Como as Extensões do Visual C++ são implementadas pelo objeto **Recordset,** o construtor do ponteiro inteligente, picRs , assume o ponteiro \_ RecordsetPtr, pRs . O construtor chama QueryInterface usando pRs para encontrar o ponteiro \_ RecordsetPtr, pRs . O construtor chama QueryInterface usando pRs para encontrar a interface IADORecordBinding.
 
 ```cpp 
  

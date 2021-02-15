@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. EOF (DAO)
+title: Propriedade Recordset2.EOF (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198245(v=office.15)
@@ -18,18 +18,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309440"
 ---
-# <a name="recordset2eof-property-dao"></a>Propriedade Recordset2. EOF (DAO)
+# <a name="recordset2eof-property-dao"></a>Propriedade Recordset2.EOF (DAO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
 Retorna um valor que indica se a posição do registro atual será depois do último registro em um objeto **Recordset**. **Boolean** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . EOF
+*expressão* .EOF
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -62,38 +62,38 @@ Esta tabela mostra quais métodos Move são permitidos com diferentes combinaç�
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
+<th><p>MoveFirst,<br />
 MoveLast</p></th>
-<th><p>MovePrevious<br />
-Mover &lt; 0</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Mover &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = falso</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ambas <strong>Verdadeiras</strong></p></td>
 <td><p>Erro</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Erro</p></td>
 </tr>
 <tr class="even">
@@ -134,23 +134,23 @@ A tabela a seguir mostra como os métodos Move que não localizam um registro af
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
 <td><p>Sem alteração</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mover</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mover</strong> &gt; 0</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
+<td><p>Sem alteração</p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 </tr>
 </tbody>

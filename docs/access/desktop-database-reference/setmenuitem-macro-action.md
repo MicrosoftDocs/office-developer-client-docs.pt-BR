@@ -27,7 +27,7 @@ Use a ação **DefinirItemDoMenu** para definir o estado de itens de menu (habil
 > [!NOTE]
 > [!OBSERVAçãO] A ação **DefinirItemDoMenu** funciona somente com menus personalizados e globais criados por macros de menu. A ação **DefinirItemDoMenu** está incluída no Microsoft Access somente para fins de compatibilidade com versões anteriores. Ela não funciona com a funcionalidade da barra de comandos, No entanto, você pode usar as propriedades **Habilitado** e **Estado** em um módulo do VBA (Visual Basic for Applications) para habilitar ou desabilitar e selecionar ou cancelar a seleção de itens em menus de atalho ou em menus personalizados ou globais.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirItemDoMenu** tem os seguintes argumentos.
 

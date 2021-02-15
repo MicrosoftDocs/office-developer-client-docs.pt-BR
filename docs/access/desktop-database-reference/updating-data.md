@@ -1,5 +1,5 @@
 ---
-title: Atualizando dados (referência do banco de dados do Access)
+title: Atualizando dados (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Updating Data
 ms:assetid: 02e82066-77c8-cbb2-db28-98e2fc94404c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
@@ -31,5 +31,5 @@ Esta seção inclui os seguintes tópicos:
 
 - [Modo Imediato](immediate-mode.md)
 - [Processamento de transações](transaction-processing.md)
-- [Modo de lote (ADO)](batch-mode.md)
+- [Modo em lotes (ADO)](batch-mode.md)
 

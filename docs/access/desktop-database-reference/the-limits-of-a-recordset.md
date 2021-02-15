@@ -30,8 +30,8 @@ Use as propriedades **BOF** e **EOF** para determinar se um objeto **Recordset**
 <thead>
 <tr class="header">
 <th><p>ProductID</p></th>
-<th><p>NomeDoProduto</p></th>
-<th><p>PreçoUnitário</p></th>
+<th><p>ProductName</p></th>
+<th><p>UnitPrice</p></th>
 </tr>
 </thead>
 <tbody>
@@ -43,29 +43,29 @@ Use as propriedades **BOF** e **EOF** para determinar se um objeto **Recordset**
 </p></td>
 </tr>
 <tr class="even">
-<td><p>178</p></td>
+<td><p>7 </p></td>
 <td><p>Pêras secas orgânicas do Tio Bob</p></td>
-<td><p>30, 0</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="odd">
-<td><p>14</p></td>
+<td><p>14 </p></td>
 <td><p>Tofu</p></td>
-<td><p>23,2500</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="even">
 <td><p>28</p></td>
 <td><p>Chucrute Rssle</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="odd">
 <td><p>51</p></td>
 <td><p>Maçãs secas Manjimup</p></td>
-<td><p>53, 0</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="even">
 <td><p>74</p></td>
 <td><p>Tofu longa vida</p></td>
-<td><p>10, 0</p></td>
+<td><p>10.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>EOF</p></td>
@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Se você abrir um objeto **Recordset** que não contenha registros, as propriedades **BOF** e **EOF** serão definidas como **True** e o valor da configuração da propriedade **RecordCount** do objeto **Recordset** dependerá do tipo de cursor. -1 será retornado para cursores dinâmicos (**CursorType** = **AdOpenDynamic**) e 0 serão retornados para outros cursores.
+Se você abrir um objeto **Recordset** que não contenha registros, as propriedades **BOF** e **EOF** serão definidas como **True** e o valor da configuração da propriedade **RecordCount** do objeto **Recordset** dependerá do tipo de cursor. -1 será retornado para cursores dinâmicos (**CursorType**  =  **adOpenDynamic**) e 0 será retornado para outros cursores.
 
 Ao abrir um objeto **Recordset** que contenha pelo menos um registro, o primeiro registro será o registro atual e as propriedades **BOF** e **EOF** serão **False**.
 

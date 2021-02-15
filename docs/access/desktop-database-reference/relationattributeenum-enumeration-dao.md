@@ -1,5 +1,5 @@
 ---
-title: Enumeração de RelationAttributeEnum (DAO)
+title: Enumeração RelationAttributeEnum (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306976"
 ---
-# <a name="relationattributeenum-enumeration-dao"></a>Enumeração de RelationAttributeEnum (DAO)
+# <a name="relationattributeenum-enumeration-dao"></a>Enumeração RelationAttributeEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -42,12 +42,12 @@ Usada com a propriedade **Attributes** para determinar os atributos de um objeto
 </tr>
 <tr class="even">
 <td><p>dbRelationDontEnforce</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Relação não imposta (nenhuma integridade referencial)</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRelationInherited</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Existe relação no banco de dados que contém as duas tabelas vinculadas</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Usada com a propriedade **Attributes** para determinar os atributos de um objeto
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Relação um-para-um</p></td>
 </tr>
 <tr class="odd">

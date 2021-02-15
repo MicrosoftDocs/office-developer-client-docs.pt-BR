@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset. RecordsetType (DAO)
+title: Propriedade Recordset.RecordsetType (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307627"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a>Propriedade Recordset. RecordsetType (DAO)
+# <a name="recordsetrecordsettype-property-dao"></a>Propriedade Recordset.RecordsetType (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -42,25 +42,25 @@ A propriedade **RecordsetType** utiliza as configurações a seguir em um banco 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuração</p></th>
+<th><p>Setting</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>,0</p></td>
-<td><p>Aceita</p></td>
-<td><p>(Padrão) Você pode editar controles ligados com base em uma única tabela ou em tabelas com uma relação um-para-um. Para controles acoplados a campos baseados em tabelas com uma relação um-para-muitos, você não pode editar dados do campo de associação &quot;no&quot; lado único da relação, a menos que a atualização em cascata esteja habilitada entre as tabelas.</p></td>
+<td><p>0</p></td>
+<td><p>Dynaset</p></td>
+<td><p>(Padrão) Você pode editar controles ligados com base em uma única tabela ou em tabelas com uma relação um-para-um. Para controles vinculados a campos baseados em tabelas com uma relação um-para-muitos, você não pode editar dados do campo de junção em um lado da relação, a menos que a atualização em cascata esteja habilitada entre as &quot; &quot; tabelas.</p></td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Dynaset (Atualizações inconsistentes)</p></td>
 <td><p>Todas as tabelas e os controles ligados aos respectivos campos podem ser editados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>duas</p></td>
-<td><p>Lo</p></td>
+<td><p>2 </p></td>
+<td><p>Instantâneo</p></td>
 <td><p>Não é possível editar as tabelas nem os controles ligados aos respectivos campos.</p></td>
 </tr>
 </tbody>
@@ -79,19 +79,19 @@ A propriedade **RecordsetType** utiliza as configurações a seguir em um projet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuração</p></th>
+<th><p>Setting</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>3D</p></td>
-<td><p>Lo</p></td>
+<td><p>3 </p></td>
+<td><p>Instantâneo</p></td>
 <td><p>Não é possível editar as tabelas nem os controles ligados aos respectivos campos.</p></td>
 </tr>
 <tr class="even">
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Instantâneo atualizável</p></td>
 <td><p>(Padrão) Todas as tabelas e os controles ligados aos respectivos campos podem ser editados.</p></td>
 </tr>
@@ -103,7 +103,7 @@ A propriedade **RecordsetType** utiliza as configurações a seguir em um projet
 
 Você pode criar formulários com base em várias tabelas base com campos ligados a controles nos formulários. Dependendo da configuração da propriedade **RecordsetType**, você poderá limitar os controles ligados a serem editados.
 
-Além do controle de edição fornecido pelo **RecordsetType**, cada controle em um formulário tem uma propriedade **Locked** que você pode definir para especificar se o controle e seus dados subjacentes podem ser editados. Se a propriedade **Locked** estiver definida como Sim, você não poderá editar os dados.
+Além do controle de edição fornecido por **RecordsetType**, cada controle em um formulário tem uma propriedade **Locked** que você pode definir para especificar se o controle e seus dados subjacentes podem ser editados. Se a propriedade **Locked** estiver definida como Sim, você não poderá editar os dados.
 
 ## <a name="example"></a>Exemplo
 

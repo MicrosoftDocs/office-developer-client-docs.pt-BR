@@ -1,5 +1,5 @@
 ---
-title: ResyncEnum (referência do banco de dados de área de trabalho do Access)
+title: ResyncEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
@@ -38,12 +38,12 @@ Especifica se os valores subjacentes são sobregravados por uma chamada para [Re
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAllValues</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Padrão. Sobregrava dados e as atualizações pendentes são canceladas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncUnderlyingValues</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Não sobregrava os dados e as atualizações pendentes não são canceladas.</p></td>
 </tr>
 </tbody>
@@ -65,10 +65,10 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. AutoSync. setVALUEs</p></td>
+<td><p>AdoEnums.Resync.ALLVALUES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Resync. UNDERLYINGVALUES</p></td>
+<td><p>AdoEnums.Resync.UNDERLYINGVALUES</p></td>
 </tr>
 </tbody>
 </table>

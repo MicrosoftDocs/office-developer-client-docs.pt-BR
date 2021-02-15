@@ -29,7 +29,7 @@ Um computador cliente que está usando componentes do RDS 1.5 ou anterior não �
  \ADTGOptions]"MarshalFormat"="RDS10" 
 ```
 
-\-ou
+\-ou-
 
 ```vb 
  

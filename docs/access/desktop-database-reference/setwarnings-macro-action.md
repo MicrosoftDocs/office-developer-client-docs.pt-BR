@@ -25,9 +25,9 @@ ms.locfileid: "32308656"
 Use a ação **DefinirAvisos** para ativar ou desativar mensagens do sistema.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirAvisos** tem o argumento a seguir.
 

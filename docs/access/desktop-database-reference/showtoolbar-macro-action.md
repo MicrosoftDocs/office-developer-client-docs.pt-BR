@@ -26,9 +26,9 @@ Você pode usar a ação **MostrarBarraDeFerramentas** para exibir ou ocultar um
 
 > [!NOTE]
 > - [!OBSERVAçãO] A ação **MostrarBarraDeFerramentas** não afeta os menus de atalho.
-> - [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> - Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **MostrarBarraDeFerramentas** tem os seguintes argumentos.
 
@@ -50,7 +50,7 @@ A ação **MostrarBarraDeFerramentas** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Especifica se o grupo deve ser exibido ou ocultado e em quais modos de exibição isso ocorrerá. O padrão é <strong>Sim</strong> (sempre mostrar o grupo). Você pode selecionar <strong>Sim</strong> para exibir o grupo em todos os momentos, <strong>onde apropriado</strong> para exibir o grupo somente quando o formulário ou relatório apropriado estiver ativo, ou <strong>não</strong> para ocultar o grupo o tempo todo.</p></td>
+<td><p>Especifica se o grupo deve ser exibido ou ocultado e em quais modos de exibição isso ocorrerá. O padrão é <strong>Sim</strong> (mostrar o grupo em todos os momentos). Você pode selecionar <strong>Sim</strong> para sempre exibir o <strong>grupo,</strong> Onde Apropriado para exibir o grupo somente quando o formulário ou relatório apropriado estiver ativo ou <strong>Não</strong> para ocultar o grupo o tempo todo.</p></td>
 </tr>
 </tbody>
 </table>

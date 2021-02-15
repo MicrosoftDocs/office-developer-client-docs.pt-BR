@@ -1,5 +1,5 @@
 ---
-title: Propriedades relation (DAO)
+title: Propriedades Relation (DAO)
 TOCTitle: Properties
 ms:assetid: 1dbd0b17-acbb-4de4-97a0-395efc61f31c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123943(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307018"
 ---
-# <a name="relation-properties-dao"></a>Propriedades relation (DAO)
+# <a name="relation-properties-dao"></a>Propriedades Relation (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade relation. Attributes (DAO)](relation-attributes-property-dao.md)
-- [Propriedade relation. Fields (DAO)](relation-fields-property-dao.md)
-- [Propriedade Relationtable. ForeignTable (DAO)](relation-foreigntable-property-dao.md)
-- [Propriedade Relation.Name (DAO)](relation-name-property-dao.md)
-- [Propriedade relation. PartialReplica (DAO)](relation-partialreplica-property-dao.md)
-- [Propriedade relation. Properties (DAO)](relation-properties-property-dao.md)
-- [Propriedade relation. Table (DAO)](relation-table-property-dao.md)
+- [Propriedade Relation.Attributes (DAO)](relation-attributes-property-dao.md)
+- [Propriedade Relation.Fields (DAO)](relation-fields-property-dao.md)
+- [Propriedade Relation.ForeignTable (DAO)](relation-foreigntable-property-dao.md)
+- [Relation.Name propriedade (DAO)](relation-name-property-dao.md)
+- [Propriedade Relation.PartialReplica (DAO)](relation-partialreplica-property-dao.md)
+- [Propriedade Relation.Properties (DAO)](relation-properties-property-dao.md)
+- [Propriedade Relation.Table (DAO)](relation-table-property-dao.md)
 
 

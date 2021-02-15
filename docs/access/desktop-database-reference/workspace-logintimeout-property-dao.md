@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace. LoginTimeout (DAO)
+title: Propriedade Workspace.LoginTimeout (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 5f03b166-abbc-20de-1a01-3869a9f2907d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306906"
 ---
-# <a name="workspacelogintimeout-property-dao"></a>Propriedade Workspace. LoginTimeout (DAO)
+# <a name="workspacelogintimeout-property-dao"></a>Propriedade Workspace.LoginTimeout (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna o número de segundos antes de ocorrer um erro durante a tenta
 
 *expressão* . LoginTimeout
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentários
 

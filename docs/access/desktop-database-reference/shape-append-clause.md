@@ -100,7 +100,7 @@ As partes dessa cláusula são as seguintes:
 
 
 > [!NOTE]
-> - A cláusula _"Parent-Column to Child-Column"_ na verdade é uma lista, onde cada relação definida é separada por uma vírgula.
+> - A _cláusula "parent-column TO child-column"_ é, na verdade, uma lista, onde cada relação definida é separada por uma vírgula.
 > - A cláusula após a palavra-chave APPEND na verdade é uma lista, na qual cada cláusula é separada por uma vírgula e define uma outra coluna a ser acrescentada ao pai.
 
 
@@ -114,21 +114,21 @@ Quando você construir os comandos de provedor a partir da entrada do usuário c
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-A forma executará dois comandos: \* selecione de T1 e ( \* selecione de T2 relacionar K1 para K2). Se o usuário emitir um comando composto contendo vários comandos de provedor separados por ponto-e-vírgula, SHAPE não conseguirá diferenciar. Portanto, no comando SHAPE a seguir,
+SHAPE executará dois comandos: selecione \* a partir de t1 e (selecione \* entre t2 RELATE k1 TO k2). Se o usuário emitir um comando composto contendo vários comandos de provedor separados por ponto-e-vírgula, SHAPE não conseguirá diferenciar. Portanto, no comando SHAPE a seguir,
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-A forma executa Select \* from T1; descartar tabela T1 e \* (selecione de T2 relacionar K1 para K2), não percebendo que a tabela de descarte T1 é separada e, nesse caso, um comando de provedor perigoso. Os aplicativos devem sempre validar a entrada do usuário para impedir possíveis ataques de hacker como esse.
+SHAPE executa select \* from t1; drop table t1 and (select \* from t2 RELATE k1 TO k2), not realize that drop table t1 is a separate and in this case, dangerous, provider command. Os aplicativos devem sempre validar a entrada do usuário para impedir possíveis ataques de hacker como esse.
 
 Esta seção inclui os seguintes tópicos:
 
-- [Operação de comandos não parametrizados](operation-of-non-parameterized-commands.md)
+- [Operação de comandos sem parâmetros](operation-of-non-parameterized-commands.md)
 
 - [Operação de comandos parametrizados](operation-of-parameterized-commands.md)
 
 - [Comandos híbridos](hybrid-commands.md)
 
-- [Cláusulas de cálculo da forma interveniente](intervening-shape-compute-clauses.md)
+- [Cláusulas COMPUTE de forma intermediárias](intervening-shape-compute-clauses.md)

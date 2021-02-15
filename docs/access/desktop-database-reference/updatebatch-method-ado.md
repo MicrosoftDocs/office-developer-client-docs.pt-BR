@@ -22,7 +22,7 @@ Grava todas as atualizações em lote pendentes no disco.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. UpdateBatch*AffectRecords*
+*recordset*. UpdateBatch *AffectRecords*
 
 ## <a name="parameters"></a>Parâmetros
 

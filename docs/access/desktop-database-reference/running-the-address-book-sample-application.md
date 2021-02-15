@@ -24,7 +24,7 @@ Para executar o aplicativo Catálogo de Endereços, siga este procedimento.
 
 1.  Certifique-se de que o Microsoft SQL Server está sendo executado. Clique em **Iniciar**, aponte para **Programas**, **Microsoft SQL Server 7.0** e, em seguida, clique em **Gerenciador de Serviços**. Se houver uma seta verde no círculo branco, SQL Server está em execução. Se não houver (haverá um quadrado vermelho no círculo branco), clique em **Iniciar/Continuar**.
 
-2.  No Microsoft Internet Explorer 4,0 ou posterior, digite o seguinte endereço: **https://***WebServer***/RDS/AddressBook/AddrBook.asp** onde *WebServer* é o nome do servidor Web em que os componentes do servidor RDS estão instalados.
+2.  No Microsoft Internet Explorer 4.0 ou posterior, digite o seguinte endereço: **https://***webserver***/RDS/AddressBook/AddrBook.asp** onde *webserver* é o nome do servidor Web onde os componentes do servidor RDS estão instalados.
 
-3.  Em seguida, você pode experimentar vários cenários no aplicativo de exemplo do catálogo de endereços, como Pesquisar por uma pessoa com base no seu nome de email, listando todas as pessoas com o título "gerente de programas" ou editando registros existentes. Clique em **Localizar** para preencher a grade de dados com todos os nomes disponíveis.
+3.  Em seguida, você pode tentar vários cenários no aplicativo de exemplo do Address Book, como pesquisar uma pessoa com base no nome de email, listar todas as pessoas com o título "Gerente de Programa" ou editar registros existentes. Clique em **Localizar** para preencher a grade de dados com todos os nomes disponíveis.
 

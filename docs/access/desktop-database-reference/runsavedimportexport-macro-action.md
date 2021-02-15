@@ -25,9 +25,9 @@ ms.locfileid: "32309169"
 Você pode usar a ação **ExecutarImportaçãoOuExportaçãoSalva** para executar uma especificação de importação ou exportação salva e criada com o Assistente de Importação ou com o Assistente de Exportação.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
+> Essa ação não será permitida se o banco de dados não for confiável.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.
 
@@ -65,5 +65,5 @@ A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.
 
 - Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.
 
-- Se a especificação de importação ou exportação salva que você escolher para o argumento **Saved Import Export Name** for excluída após a criação da macro, o Access exibirá a seguinte mensagem de erro quando a macro for executada: **a especificação com o índice especificado faz Não existe. Especifique um índice diferente. ' * * * * * nome da especificação [* * * * '.**
+- Se a especificação salva de  importação ou exportação escolhida para o argumento Nome da Exportação de Importação Salva for excluída depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro for executado: A especificação com o índice especificado não **existe. Especifique um índice diferente. '*****nome da especificação*****'.**
 

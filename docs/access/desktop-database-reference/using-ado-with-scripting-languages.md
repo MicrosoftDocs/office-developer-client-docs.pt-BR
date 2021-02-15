@@ -19,7 +19,7 @@ ms.locfileid: "32312037"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Em um ambiente de script, o ADO permite expor dados através de um script de servidor. Nesse cenário, o ADO, o provedor OLE DB subjacente que o utiliza e qualquer outro componente necessário para a referência a um repositório de dados específico serão instalados em um servidor que esteja executando o Internet Information Services (IIS). Quando você utiliza o Active Server Pages (ASP), o ADO é um componente referenciado em um script que pode gerar HTML, por exemplo. Esse conteúdo HTML pode ser transmitido via HTTP para um navegador da Web do cliente. Por meio do uso de scripts, a página da Web pode enviar ações de volta para o script do lado do servidor, permitindo que você atualize, percorra ou exiba dados específicos.
+Em um ambiente de script, o ADO permite expor dados através de um script de servidor. Nesse cenário, o ADO, o provedor OLE DB subjacente que o utiliza e qualquer outro componente necessário para a referência a um repositório de dados específico serão instalados em um servidor que esteja executando o Internet Information Services (IIS). Quando você utiliza o Active Server Pages (ASP), o ADO é um componente referenciado em um script que pode gerar HTML, por exemplo. Esse conteúdo HTML pode ser passado por HTTP para um navegador da Web cliente. Por meio do uso de scripts, a página da Web pode enviar ações de volta para o script do lado do servidor, permitindo atualizar, percorrer ou exibir dados específicos.
 
 ## <a name="odbc-data-sources"></a>Fontes de dados ODBC
 

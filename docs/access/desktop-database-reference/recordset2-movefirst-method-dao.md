@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. MoveFirst (DAO)
+title: Método Recordset2.MoveFirst (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309657"
 ---
-# <a name="recordset2movefirst-method-dao"></a>Método Recordset2. MoveFirst (DAO)
+# <a name="recordset2movefirst-method-dao"></a>Método Recordset2.MoveFirst (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Move o primeiro registro em um objeto **Recordset** especificado e torna esse registro o atual.
+Move para o primeiro registro em um objeto **Recordset** específico e o torna o registro atual. 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . MoveFirst
+*expressão* .MoveFirst
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -37,9 +37,9 @@ Quando você abre um **Recordset**, o primeiro registro é o atual, e a propried
 
 Se o primeiro ou o último registro já for o atual quando você usar **MoveFirst** ou **MoveLast**, o registro atual não será alterado.
 
-Se Recordset se refere a um **Recordset** do tipo tabela (somente espaços de trabalho do Microsoft Access), o movimento segue o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
+Se o recordset se referir a um tipo de tabela **Recordset**(apenas espaços de trabalho do Microsoft Access), a movimentação seguirá o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
 
-Você não pode usar os métodos **MoveFirst**, MoveLast e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento. ****
+Você não pode usar os métodos **MoveFirst**, **MoveLast** e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento.
 
 Para mover a posição do registro atual em um número específico de registros do objeto **Recordset** para frente ou para trás, use o método **Move**.
 

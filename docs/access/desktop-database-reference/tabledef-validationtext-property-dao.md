@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef. ValidationText (DAO)
+title: Propriedade TableDef.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 9f38616a-41ee-cbd1-9e29-da436b258e08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314242"
 ---
-# <a name="tabledefvalidationtext-property-dao"></a>Propriedade TableDef. ValidationText (DAO)
+# <a name="tabledefvalidationtext-property-dao"></a>Propriedade TableDef.ValidationText (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna um valor que especifica o texto da mensagem exibido pelo aplic
 
 *expressão* . ValidationText
 
-*expressão* Uma variável que representa um objeto **TableDef** .
+*expressão* Uma variável que representa um objeto **TableDef**.
 
 ## <a name="remarks"></a>Comentários
 

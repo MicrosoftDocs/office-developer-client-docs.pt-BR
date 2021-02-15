@@ -1,5 +1,5 @@
 ---
-title: Propriedade Recordset2. BOF (DAO)
+title: Propriedade Recordset2.BOF (DAO)
 TOCTitle: BOF Property
 ms:assetid: d97d0507-0d5a-e3f1-fa30-40caec9f3ffa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307459"
 ---
-# <a name="recordset2bof-property-dao"></a>Propriedade Recordset2. BOF (DAO)
+# <a name="recordset2bof-property-dao"></a>Propriedade Recordset2.BOF (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna um valor que indica se a posição atual do registro será antes do prim
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . IMPACTOS
+*expressão* . BOF
 
-*expressão* Uma variável que representa um objeto **Recordset2** .
+*expressão* Uma variável que representa **um objeto Recordset2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -58,38 +58,38 @@ Esta tabela mostra quais métodos Move são permitidos com diferentes combinaç�
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
+<th><p>MoveFirst,<br />
 MoveLast</p></th>
-<th><p>MovePrevious<br />
-Mover &lt; 0</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Mover &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = falso</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ambas <strong>Verdadeiras</strong></p></td>
 <td><p>Erro</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Erro</p></td>
 </tr>
 <tr class="even">
@@ -113,7 +113,7 @@ Em umespaço de trabalho do Microsoft Access, se você adicionar um registro a u
 
 Qualquer método **Delete**, mesmo que remova somente o registro restante de um conjunto de registros, não alterará a definição da propriedade **BOF** ou **EOF**.
 
-A tabela a seguir mostra como os métodos Move que não localizam um registro afetam as definições das propriedades **BOF** e **EOF**.
+A tabela a seguir mostra como os métodos Move que não localizam um registro afetam as configurações das propriedades **BOF** e **EOF**.
 
 <table>
 <colgroup>
@@ -130,23 +130,23 @@ A tabela a seguir mostra como os métodos Move que não localizam um registro af
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
 <td><p>Sem alteração</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mover</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mover</strong> &gt; 0</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
+<td><p>Sem alteração</p></td>
 <td><p><strong>Verdadeiro</strong></p></td>
 </tr>
 </tbody>

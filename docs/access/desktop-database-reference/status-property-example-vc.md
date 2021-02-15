@@ -210,7 +210,7 @@ void PrintComError(_com_error &e)
 // EndStatusCpp 
 ```
 
-**StatusX. h**
+**StatusX.h**
 
 ```cpp 
  

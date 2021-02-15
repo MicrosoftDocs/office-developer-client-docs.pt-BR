@@ -338,7 +338,7 @@ void PrintComError(_com_error &e)
 // EndUpdateCpp 
 ```
 
-**UpdateX. h**
+**UpdateX.h**
 
 ```cpp 
  

@@ -22,9 +22,9 @@ Salva quaisquer alterações feitas na linha atual de um objeto [Recordset](reco
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Atualizar*campos*, *valores*
+*recordset*. Campos *de atualização,* *valores*
 
-*Record*. *Campos*. Cumulativo
+*registro*. *Campos*. Atualizar
 
 ## <a name="parameters"></a>Parâmetros
 

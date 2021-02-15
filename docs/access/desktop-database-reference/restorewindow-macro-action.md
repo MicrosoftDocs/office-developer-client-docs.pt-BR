@@ -27,7 +27,7 @@ Você pode usar a ação **RestaurarJanela** para restaurar uma janela maximizad
 > [!NOTE]
 > [!OBSERVAçãO] Essa ação não pode ser aplicada a janelas de código do Editor do Visual Basic (VBE). Para obter informações sobre como manipular janelas de código, consulte o tópico da propriedade **WindowState**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RestaurarJanela** não tem argumentos.
 
