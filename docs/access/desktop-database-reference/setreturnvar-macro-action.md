@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308670"
 ---
-# <a name="setreturnvar-macro-action"></a><span data-ttu-id="ceaaa-102">Ação da macro DefinirVardeRetorno</span><span class="sxs-lookup"><span data-stu-id="ceaaa-102">SetReturnVar macro action</span></span>
+# <a name="setreturnvar-macro-action"></a><span data-ttu-id="f67ce-102">Ação da macro DefinirVardeRetorno</span><span class="sxs-lookup"><span data-stu-id="f67ce-102">SetReturnVar macro action</span></span>
 
-<span data-ttu-id="ceaaa-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ceaaa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f67ce-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f67ce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ceaaa-104">A ação **SetReturnVar** cria uma variável de retorno e a define como um valor específico.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-104">The **SetReturnVar** action creates a return variable and sets it to a specific value.</span></span>
+<span data-ttu-id="f67ce-104">A **ação SetReturnVar** cria uma variável de retorno e a define como um valor específico.</span><span class="sxs-lookup"><span data-stu-id="f67ce-104">The **SetReturnVar** action creates a return variable and sets it to a specific value.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ceaaa-105">A ação **SetReturnVar** está disponível somente em macros de dados.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-105">The **SetReturnVar** action is available only in Data Macros.</span></span>
+> <span data-ttu-id="f67ce-105">A **ação DefinirVarReturna** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="f67ce-105">The **SetReturnVar** action is available only in Data Macros.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="ceaaa-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="ceaaa-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="f67ce-106">Setting</span><span class="sxs-lookup"><span data-stu-id="f67ce-106">Setting</span></span>
 
-<span data-ttu-id="ceaaa-107">A ação **SetReturnVar** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-107">The **SetReturnVar** action has the following arguments.</span></span>
+<span data-ttu-id="f67ce-107">A **ação SetReturnVar** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="f67ce-107">The **SetReturnVar** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,43 +35,43 @@ ms.locfileid: "32308670"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ceaaa-108">Argument</span><span class="sxs-lookup"><span data-stu-id="ceaaa-108">Argument</span></span></p></th>
-<th><p><span data-ttu-id="ceaaa-109">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="ceaaa-109">Required</span></span></p></th>
-<th><p><span data-ttu-id="ceaaa-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="ceaaa-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="f67ce-108">Argumento</span><span class="sxs-lookup"><span data-stu-id="f67ce-108">Argument</span></span></p></th>
+<th><p><span data-ttu-id="f67ce-109">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="f67ce-109">Required</span></span></p></th>
+<th><p><span data-ttu-id="f67ce-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="f67ce-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ceaaa-111">Nome</span><span class="sxs-lookup"><span data-stu-id="ceaaa-111">Name</span></span></p></td>
-<td><p><span data-ttu-id="ceaaa-112">Sim</span><span class="sxs-lookup"><span data-stu-id="ceaaa-112">Yes</span></span></p></td>
-<td><p><span data-ttu-id="ceaaa-113">Uma cadeia de caracteres que especifica o nome da variável.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-113">A string that specifies the name of the variable.</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-111">Nome</span><span class="sxs-lookup"><span data-stu-id="f67ce-111">Name</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-112">Sim</span><span class="sxs-lookup"><span data-stu-id="f67ce-112">Yes</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-113">Uma cadeia de caracteres que especifica o nome da variável.</span><span class="sxs-lookup"><span data-stu-id="f67ce-113">A string that specifies the name of the variable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ceaaa-114">Expressão</span><span class="sxs-lookup"><span data-stu-id="ceaaa-114">Expression</span></span></p></td>
-<td><p><span data-ttu-id="ceaaa-115">Sim</span><span class="sxs-lookup"><span data-stu-id="ceaaa-115">Yes</span></span></p></td>
-<td><p><span data-ttu-id="ceaaa-116">Uma expressão que será usada para definir o valor dessa variável temporária.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-116">An expression that will be used to set the value for this temporary variable.</span></span> <span data-ttu-id="ceaaa-117">Não preceda a expressão com o sinal de igualdade (=).</span><span class="sxs-lookup"><span data-stu-id="ceaaa-117">Do not precede the expression with the equal sign (=).</span></span> <span data-ttu-id="ceaaa-118">Você pode clicar no botão <strong>construir</strong> para usar o <strong>Construtor de expressões</strong> para definir esse argumento.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-118">You can click the <strong>Build</strong> button to use the <strong>Expression Builder</strong> to set this argument.</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-114">Expression</span><span class="sxs-lookup"><span data-stu-id="f67ce-114">Expression</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-115">Sim</span><span class="sxs-lookup"><span data-stu-id="f67ce-115">Yes</span></span></p></td>
+<td><p><span data-ttu-id="f67ce-116">Uma expressão que será usada para definir o valor dessa variável temporária.</span><span class="sxs-lookup"><span data-stu-id="f67ce-116">An expression that will be used to set the value for this temporary variable.</span></span> <span data-ttu-id="f67ce-117">Não preceda a expressão com o sinal de igualdade (=).</span><span class="sxs-lookup"><span data-stu-id="f67ce-117">Do not precede the expression with the equal sign (=).</span></span> <span data-ttu-id="f67ce-118">Você pode clicar no botão <strong>Build</strong> para usar o <strong>Construtor de Expressões</strong> para definir esse argumento.</span><span class="sxs-lookup"><span data-stu-id="f67ce-118">You can click the <strong>Build</strong> button to use the <strong>Expression Builder</strong> to set this argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="ceaaa-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="ceaaa-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f67ce-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="f67ce-119">Remarks</span></span>
 
-<span data-ttu-id="ceaaa-120">A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro** .</span><span class="sxs-lookup"><span data-stu-id="ceaaa-120">The **SetReturnVar** action is used to create a **ReturnVar**, which is variable that can be used by macros that call a data macro by using the **RunDataMacro** action.</span></span>
+<span data-ttu-id="f67ce-120">A **ação SetReturnVar** é usada para criar uma **Variável** RetornarVar , que é uma variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro.**</span><span class="sxs-lookup"><span data-stu-id="f67ce-120">The **SetReturnVar** action is used to create a **ReturnVar**, which is variable that can be used by macros that call a data macro by using the **RunDataMacro** action.</span></span>
 
-<span data-ttu-id="ceaaa-121">Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro de chamada pode usá-la em uma expressão.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-121">Once a **ReturnVar** is created by the **SetReturnVar** action, the calling macro can use it in an expression.</span></span> <span data-ttu-id="ceaaa-122">Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, poderia usar a variável usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="ceaaa-122">For example, if you created a **ReturnVar** named **UpdateSuccess**, you could use the variable by using the following syntax:</span></span>
+<span data-ttu-id="f67ce-121">Depois que **uma Revar** Retornada é criada pela **ação DefinirVarVar,** a macro de chamada pode usá-la em uma expressão.</span><span class="sxs-lookup"><span data-stu-id="f67ce-121">Once a **ReturnVar** is created by the **SetReturnVar** action, the calling macro can use it in an expression.</span></span> <span data-ttu-id="f67ce-122">Por exemplo, se você criou uma **ReturnVar** chamada **UpdateSuccess,** poderá usar a variável usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="f67ce-122">For example, if you created a **ReturnVar** named **UpdateSuccess**, you could use the variable by using the following syntax:</span></span>
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-<span data-ttu-id="ceaaa-123">A ação **SetReturnVar** pode ser usada somente em macros de dados nomeadas.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-123">The **SetReturnVar** action can be used only in named data macros.</span></span> <span data-ttu-id="ceaaa-124">Ele não está disponível em macros de dados anexadas a um evento de macro de dados.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-124">It is not available in data macros that are attached to a data macro event.</span></span>
+<span data-ttu-id="f67ce-123">A **ação SetReturnVar** pode ser usada somente em macros de dados nomeadas.</span><span class="sxs-lookup"><span data-stu-id="f67ce-123">The **SetReturnVar** action can be used only in named data macros.</span></span> <span data-ttu-id="f67ce-124">Ela não está disponível em macros de dados anexadas a um evento de macro de dados.</span><span class="sxs-lookup"><span data-stu-id="f67ce-124">It is not available in data macros that are attached to a data macro event.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ceaaa-125">Exemplo</span><span class="sxs-lookup"><span data-stu-id="ceaaa-125">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f67ce-125">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f67ce-125">Example</span></span>
 
-<span data-ttu-id="ceaaa-126">O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-126">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="ceaaa-127">Um ReturnVar chamado **CurrentServiceRequest** é retornado para a macro ou a sub-rotina VBA (Visual Basic for Applications) chamada da macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="ceaaa-127">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
+<span data-ttu-id="f67ce-126">O exemplo a seguir mostra como usar a ação SetReturnVar para retornar um valor de uma macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="f67ce-126">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="f67ce-127">Uma ReturnVar chamada **CurrentServiceRequest** é retornada para a macro ou sub-rotina Visual Basic for Applications (VBA) que chamou a macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="f67ce-127">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
 
-<span data-ttu-id="ceaaa-128">**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="ceaaa-128">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="f67ce-128">**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="f67ce-128">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     RunDataMacro

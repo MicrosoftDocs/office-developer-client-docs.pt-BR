@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308810"
 ---
-# <a name="section-i-activex-data-objects"></a><span data-ttu-id="04a91-102">Seção I: ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="04a91-102">Section I: ActiveX Data Objects</span></span>
+# <a name="section-i-activex-data-objects"></a><span data-ttu-id="96329-102">Seção I: ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="96329-102">Section I: ActiveX Data Objects</span></span>
 
-<span data-ttu-id="04a91-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04a91-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="96329-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96329-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04a91-104">Esta seção contém os seguintes capítulos:</span><span class="sxs-lookup"><span data-stu-id="04a91-104">This section contains the following chapters:</span></span>
+<span data-ttu-id="96329-104">Esta seção contém os seguintes capítulos:</span><span class="sxs-lookup"><span data-stu-id="96329-104">This section contains the following chapters:</span></span>
 
-- [<span data-ttu-id="04a91-105">Capítulo 1: Conceitos básicos do ADO</span><span class="sxs-lookup"><span data-stu-id="04a91-105">Chapter 1: ADO fundamentals</span></span>](chapter-1-ado-fundamentals.md)
-- [<span data-ttu-id="04a91-106">Capítulo 2: Obtenção de dados</span><span class="sxs-lookup"><span data-stu-id="04a91-106">Chapter 2: Getting data</span></span>](chapter-2-getting-data.md)
-- [<span data-ttu-id="04a91-107">Capítulo 3: Exame de dados</span><span class="sxs-lookup"><span data-stu-id="04a91-107">Chapter 3: Examining data</span></span>](chapter-3-examining-data.md)
-- [<span data-ttu-id="04a91-108">Capítulo 4: Edição de dados</span><span class="sxs-lookup"><span data-stu-id="04a91-108">Chapter 4: Editing data</span></span>](chapter-4-editing-data.md)
-- [<span data-ttu-id="04a91-109">Capítulo 5: Atualização e dados persistentes</span><span class="sxs-lookup"><span data-stu-id="04a91-109">Chapter 5: Updating and persisting data</span></span>](chapter-5-updating-and-persisting-data.md)
-- [<span data-ttu-id="04a91-110">Capítulo 6: Tratamento de erros</span><span class="sxs-lookup"><span data-stu-id="04a91-110">Chapter 6: Error handling</span></span>](chapter-6-error-handling.md)
-- [<span data-ttu-id="04a91-111">Capítulo 7: Manipulação de eventos do ADO</span><span class="sxs-lookup"><span data-stu-id="04a91-111">Chapter 7: Handling ADO events</span></span>](chapter-7-handling-ado-events.md)
-- [<span data-ttu-id="04a91-112">Capítulo 8: Noções básicas sobre cursores e bloqueios</span><span class="sxs-lookup"><span data-stu-id="04a91-112">Chapter 8: Understanding cursors and locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
-- [<span data-ttu-id="04a91-113">Capítulo 9: Data Shaping</span><span class="sxs-lookup"><span data-stu-id="04a91-113">Chapter 9: Data shaping</span></span>](chapter-9-data-shaping.md)
-- [<span data-ttu-id="04a91-114">Capítulo 10: Registros e fluxos</span><span class="sxs-lookup"><span data-stu-id="04a91-114">Chapter 10: Records and streams</span></span>](chapter-10-records-and-streams.md)
+- [<span data-ttu-id="96329-105">Capítulo 1: Conceitos básicos do ADO</span><span class="sxs-lookup"><span data-stu-id="96329-105">Chapter 1: ADO fundamentals</span></span>](chapter-1-ado-fundamentals.md)
+- [<span data-ttu-id="96329-106">Capítulo 2: Obtenção de dados</span><span class="sxs-lookup"><span data-stu-id="96329-106">Chapter 2: Getting data</span></span>](chapter-2-getting-data.md)
+- [<span data-ttu-id="96329-107">Capítulo 3: Exame de dados</span><span class="sxs-lookup"><span data-stu-id="96329-107">Chapter 3: Examining data</span></span>](chapter-3-examining-data.md)
+- [<span data-ttu-id="96329-108">Capítulo 4: Edição de dados</span><span class="sxs-lookup"><span data-stu-id="96329-108">Chapter 4: Editing data</span></span>](chapter-4-editing-data.md)
+- [<span data-ttu-id="96329-109">Capítulo 5: Atualização e dados persistentes</span><span class="sxs-lookup"><span data-stu-id="96329-109">Chapter 5: Updating and persisting data</span></span>](chapter-5-updating-and-persisting-data.md)
+- [<span data-ttu-id="96329-110">Capítulo 6: Tratamento de erros</span><span class="sxs-lookup"><span data-stu-id="96329-110">Chapter 6: Error handling</span></span>](chapter-6-error-handling.md)
+- [<span data-ttu-id="96329-111">Capítulo 7: Manipulação de eventos do ADO</span><span class="sxs-lookup"><span data-stu-id="96329-111">Chapter 7: Handling ADO events</span></span>](chapter-7-handling-ado-events.md)
+- [<span data-ttu-id="96329-112">Capítulo 8: Noções básicas sobre cursores e bloqueios</span><span class="sxs-lookup"><span data-stu-id="96329-112">Chapter 8: Understanding cursors and locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
+- [<span data-ttu-id="96329-113">Capítulo 9: Data Shaping</span><span class="sxs-lookup"><span data-stu-id="96329-113">Chapter 9: Data shaping</span></span>](chapter-9-data-shaping.md)
+- [<span data-ttu-id="96329-114">Capítulo 10: Registros e fluxos</span><span class="sxs-lookup"><span data-stu-id="96329-114">Chapter 10: Records and streams</span></span>](chapter-10-records-and-streams.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306402"
 ---
-# <a name="source-property-example-vb"></a><span data-ttu-id="23d9c-102">Exemplo da propriedade Source (VB)</span><span class="sxs-lookup"><span data-stu-id="23d9c-102">Source property example (VB)</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="b9114-102">Exemplo da propriedade Source (VB)</span><span class="sxs-lookup"><span data-stu-id="b9114-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="23d9c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23d9c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9114-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9114-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23d9c-104">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="23d9c-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="b9114-104">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="b9114-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

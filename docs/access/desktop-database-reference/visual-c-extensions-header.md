@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311318"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="ace45-102">Cabeçalho de Extensões do Visual C++</span><span class="sxs-lookup"><span data-stu-id="ace45-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="238d8-102">Cabeçalho de Extensões do Visual C++</span><span class="sxs-lookup"><span data-stu-id="238d8-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="ace45-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ace45-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="238d8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="238d8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ace45-p101">O cabeçalho a seguir, **icrsint.h**, detalha a interface que permite que clientes recuperem campos de um **Recordset** para as variáveis definidas em uma classe derivada de **CADORecordBinding**. Especifique uma macro de ligação ADO para cada campo que deseje acessar.</span><span class="sxs-lookup"><span data-stu-id="ace45-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="238d8-p101">O cabeçalho a seguir, **icrsint.h**, detalha a interface que permite que clientes recuperem campos de um **Recordset** para as variáveis definidas em uma classe derivada de **CADORecordBinding**. Especifique uma macro de ligação ADO para cada campo que deseje acessar.</span><span class="sxs-lookup"><span data-stu-id="238d8-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

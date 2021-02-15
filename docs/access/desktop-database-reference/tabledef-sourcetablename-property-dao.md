@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef. SourceTableName (DAO)
+title: Propriedade TableDef.SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314256"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="8c555-102">Propriedade TableDef. SourceTableName (DAO)</span><span class="sxs-lookup"><span data-stu-id="8c555-102">TableDef.SourceTableName property (DAO)</span></span>
+# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="e8885-102">Propriedade TableDef.SourceTableName (DAO)</span><span class="sxs-lookup"><span data-stu-id="e8885-102">TableDef.SourceTableName property (DAO)</span></span>
 
 
-<span data-ttu-id="8c555-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c555-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="e8885-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8885-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="8c555-104">Define ou retorna um valor que especifica o nome de uma tabela vinculada ou o nome da tabela base (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="8c555-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="e8885-104">Define ou retorna um valor que especifica o nome de uma tabela vinculada ou o nome da tabela base (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e8885-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8c555-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="8c555-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e8885-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e8885-105">Syntax</span></span>
 
-<span data-ttu-id="8c555-106">*expressão* . SourceTableName</span><span class="sxs-lookup"><span data-stu-id="8c555-106">*expression* .SourceTableName</span></span>
+<span data-ttu-id="e8885-106">*expressão* . SourceTableName</span><span class="sxs-lookup"><span data-stu-id="e8885-106">*expression* .SourceTableName</span></span>
 
-<span data-ttu-id="8c555-107">*expressão* Uma variável que representa um objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="8c555-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="e8885-107">*expressão* Uma variável que representa um objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e8885-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8c555-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="8c555-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e8885-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="e8885-108">Remarks</span></span>
 
-<span data-ttu-id="8c555-p101">Essa definição de propriedade é somente leitura para uma tabela base  e leitura/gravação para uma tabela vinculada ou um objeto não acrescentado à coleção. Para uma tabela base, a definição é uma cadeia de caracteres com comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="8c555-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
+<span data-ttu-id="e8885-p101">Essa definição de propriedade é somente leitura para uma tabela base  e leitura/gravação para uma tabela vinculada ou um objeto não acrescentado à coleção. Para uma tabela base, a definição é uma cadeia de caracteres com comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="e8885-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
 
-## <a name="example"></a><span data-ttu-id="8c555-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8c555-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e8885-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e8885-111">Example</span></span>
 
-<span data-ttu-id="8c555-p102">Este exemplo usa as propriedades **Connect** e **SourceTableName** para vincular várias tabelas externas ao banco de dados do Microsoft Access. O procedimento ConnectOutput é necessário para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="8c555-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="e8885-p102">Este exemplo usa as propriedades **Connect** e **SourceTableName** para vincular várias tabelas externas ao banco de dados do Microsoft Access. O procedimento ConnectOutput é necessário para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="e8885-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub ConnectX() 

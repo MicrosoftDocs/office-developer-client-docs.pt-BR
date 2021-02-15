@@ -1,5 +1,5 @@
 ---
-title: Propriedades de relações (DAO)
+title: Propriedades Relations (DAO)
 TOCTitle: Properties
 ms:assetid: c349962e-a28a-400a-87e4-5419c7568c48
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161298(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306801"
 ---
-# <a name="relations-properties-dao"></a><span data-ttu-id="890b0-102">Propriedades de relações (DAO)</span><span class="sxs-lookup"><span data-stu-id="890b0-102">Relations properties (DAO)</span></span>
+# <a name="relations-properties-dao"></a><span data-ttu-id="d20f3-102">Propriedades Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="d20f3-102">Relations properties (DAO)</span></span>
 
-<span data-ttu-id="890b0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="890b0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d20f3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d20f3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="890b0-104">Propriedade Relations. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="890b0-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
+- [<span data-ttu-id="d20f3-104">Propriedade Relations.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="d20f3-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
 

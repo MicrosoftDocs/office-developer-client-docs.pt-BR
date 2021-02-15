@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309072"
 ---
-# <a name="recordtype-property-ado"></a><span data-ttu-id="76523-102">Propriedade RecordType (ADO)</span><span class="sxs-lookup"><span data-stu-id="76523-102">RecordType property (ADO)</span></span>
+# <a name="recordtype-property-ado"></a><span data-ttu-id="cb50e-102">Propriedade RecordType (ADO)</span><span class="sxs-lookup"><span data-stu-id="cb50e-102">RecordType property (ADO)</span></span>
 
 
-<span data-ttu-id="76523-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76523-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb50e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb50e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76523-104">Indica o tipo de objeto [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="76523-104">Indicates the type of [Record](record-object-ado.md) object.</span></span>
+<span data-ttu-id="cb50e-104">Indica o tipo de objeto [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cb50e-104">Indicates the type of [Record](record-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="76523-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="76523-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cb50e-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="cb50e-105">Return value</span></span>
 
-<span data-ttu-id="76523-106">Retorna um valor [RecordTypeEnum](recordtypeenum.md).</span><span class="sxs-lookup"><span data-stu-id="76523-106">Returns a [RecordTypeEnum](recordtypeenum.md) value.</span></span>
+<span data-ttu-id="cb50e-106">Retorna um valor [RecordTypeEnum](recordtypeenum.md).</span><span class="sxs-lookup"><span data-stu-id="cb50e-106">Returns a [RecordTypeEnum](recordtypeenum.md) value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="76523-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="76523-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb50e-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="cb50e-107">Remarks</span></span>
 
-<span data-ttu-id="76523-108">A propriedade **RecordType** é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="76523-108">The **RecordType** property is read-only.</span></span>
+<span data-ttu-id="cb50e-108">A propriedade **RecordType** é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cb50e-108">The **RecordType** property is read-only.</span></span>
 

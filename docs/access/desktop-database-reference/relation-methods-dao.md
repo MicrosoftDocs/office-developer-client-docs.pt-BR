@@ -1,5 +1,5 @@
 ---
-title: Métodos relation (DAO)
+title: Métodos Relation (DAO)
 TOCTitle: Methods
 ms:assetid: 9d0fef8b-3ae4-4b48-8b32-e73630c0a5ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125502(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307025"
 ---
-# <a name="relation-methods-dao"></a><span data-ttu-id="e0460-102">Métodos relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0460-102">Relation methods (DAO)</span></span>
+# <a name="relation-methods-dao"></a><span data-ttu-id="3cff6-102">Métodos Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cff6-102">Relation methods (DAO)</span></span>
 
-<span data-ttu-id="e0460-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0460-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cff6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cff6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e0460-104">Método relation. CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0460-104">Relation.CreateField method (DAO)</span></span>](relation-createfield-method-dao.md)
+- [<span data-ttu-id="3cff6-104">Método Relation.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cff6-104">Relation.CreateField method (DAO)</span></span>](relation-createfield-method-dao.md)
 

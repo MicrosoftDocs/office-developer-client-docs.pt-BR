@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313612"
 ---
-# <a name="update-and-cancelupdate-methods-example-vc"></a><span data-ttu-id="90a95-102">Exemplo dos métodos Update e CancelUpdate (VC++)</span><span class="sxs-lookup"><span data-stu-id="90a95-102">Update and CancelUpdate methods example (VC++)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vc"></a><span data-ttu-id="fd369-102">Exemplo dos métodos Update e CancelUpdate (VC++)</span><span class="sxs-lookup"><span data-stu-id="fd369-102">Update and CancelUpdate methods example (VC++)</span></span>
 
 
-<span data-ttu-id="90a95-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90a95-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd369-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd369-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="90a95-104">Este exemplo demonstra o método [Update](update-method-ado.md) em conjunto com o método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="90a95-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="fd369-104">Este exemplo demonstra o método [Update](update-method-ado.md) em conjunto com o método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fd369-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -338,7 +338,7 @@ void PrintComError(_com_error &e)
 // EndUpdateCpp 
 ```
 
-<span data-ttu-id="90a95-105">**UpdateX. h**</span><span class="sxs-lookup"><span data-stu-id="90a95-105">**UpdateX.h**</span></span>
+<span data-ttu-id="fd369-105">**UpdateX.h**</span><span class="sxs-lookup"><span data-stu-id="fd369-105">**UpdateX.h**</span></span>
 
 ```cpp 
  

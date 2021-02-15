@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306276"
 ---
-# <a name="troubleshooting-rds"></a><span data-ttu-id="5df17-102">Solução de problemas do RDS</span><span class="sxs-lookup"><span data-stu-id="5df17-102">Troubleshooting RDS</span></span>
+# <a name="troubleshooting-rds"></a><span data-ttu-id="ee01b-102">Solução de problemas do RDS</span><span class="sxs-lookup"><span data-stu-id="ee01b-102">Troubleshooting RDS</span></span>
 
-<span data-ttu-id="5df17-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5df17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ee01b-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee01b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5df17-104">Consulte esta seção para obter soluções para erros ou problemas específicos com o RDS:</span><span class="sxs-lookup"><span data-stu-id="5df17-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
+<span data-ttu-id="ee01b-104">Consulte esta seção para encontrar soluções para erros ou problemas específicos com o RDS:</span><span class="sxs-lookup"><span data-stu-id="ee01b-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
 
-- [<span data-ttu-id="5df17-105">Configurando o RDS no Windows 2000</span><span class="sxs-lookup"><span data-stu-id="5df17-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
-- [<span data-ttu-id="5df17-106">Deadlocks com o nível de isolamento de leitura reproduzível</span><span class="sxs-lookup"><span data-stu-id="5df17-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
-- [<span data-ttu-id="5df17-107">Como garantir espaço suficiente em TempDB</span><span class="sxs-lookup"><span data-stu-id="5df17-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
-- [<span data-ttu-id="5df17-108">Erro no servidor da Internet: acesso negado</span><span class="sxs-lookup"><span data-stu-id="5df17-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
-- [<span data-ttu-id="5df17-109">Como minimizar o uso de espaço no arquivo de log</span><span class="sxs-lookup"><span data-stu-id="5df17-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
-- [<span data-ttu-id="5df17-110">O RDS retorna o erro "Fluxo não lido"</span><span class="sxs-lookup"><span data-stu-id="5df17-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
+- [<span data-ttu-id="ee01b-105">Configurando o RDS no Windows 2000</span><span class="sxs-lookup"><span data-stu-id="ee01b-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
+- [<span data-ttu-id="ee01b-106">Deadlocks com nível de isolamento repetido de leitura</span><span class="sxs-lookup"><span data-stu-id="ee01b-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
+- [<span data-ttu-id="ee01b-107">Como garantir espaço suficiente em TempDB</span><span class="sxs-lookup"><span data-stu-id="ee01b-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
+- [<span data-ttu-id="ee01b-108">Erro do servidor de Internet: Acesso Negado</span><span class="sxs-lookup"><span data-stu-id="ee01b-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
+- [<span data-ttu-id="ee01b-109">Como minimizar o uso de espaço no arquivo de log</span><span class="sxs-lookup"><span data-stu-id="ee01b-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
+- [<span data-ttu-id="ee01b-110">O RDS retorna o erro "Fluxo não lido"</span><span class="sxs-lookup"><span data-stu-id="ee01b-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
 
 

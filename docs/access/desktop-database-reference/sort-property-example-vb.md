@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306913"
 ---
-# <a name="sort-property-example-vb"></a><span data-ttu-id="3c3ae-102">Exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="3c3ae-102">Sort property example (VB)</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="94d7e-102">Exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="94d7e-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="3c3ae-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c3ae-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94d7e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94d7e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c3ae-104">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="3c3ae-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="3c3ae-105">Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="3c3ae-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="94d7e-104">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="94d7e-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="94d7e-105">Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="94d7e-105">A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -101,7 +101,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="3c3ae-106">Essa é a rotina secundária do utilitário que imprime o título determinado e o conteúdo do **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="3c3ae-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="94d7e-106">Essa é a rotina secundária do utilitário que imprime o título determinado e o conteúdo do **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="94d7e-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  

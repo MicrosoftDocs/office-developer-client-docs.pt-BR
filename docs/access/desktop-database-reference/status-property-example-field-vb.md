@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308502"
 ---
-# <a name="status-property-example-field-vb"></a><span data-ttu-id="511f2-102">Exemplo da propriedade Status (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="511f2-102">Status property example (Field) (VB)</span></span>
+# <a name="status-property-example-field-vb"></a><span data-ttu-id="30e1d-102">Exemplo da propriedade Status (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="30e1d-102">Status property example (Field) (VB)</span></span>
 
 
-<span data-ttu-id="511f2-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="511f2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30e1d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30e1d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="511f2-p101">O exemplo a seguir abre um documento a partir de uma pasta leitura/gravação utilizando o [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). A propriedade [Status](status-property-ado-field.md) de um objeto [Field](field-object-ado.md) do [Record](record-object-ado.md) será definida primeiramente como **adFieldPendingInsert** e, em seguida, atualizada como **adFieldOk**.</span><span class="sxs-lookup"><span data-stu-id="511f2-p101">The following example opens a document from a read/write folder using the [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). The [Status](status-property-ado-field.md) property of a [Field](field-object-ado.md) object of the [Record](record-object-ado.md) will first be set to **adFieldPendingInsert**, then be updated to **adFieldOk**.</span></span>
+<span data-ttu-id="30e1d-p101">O exemplo a seguir abre um documento a partir de uma pasta leitura/gravação utilizando o [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). A propriedade [Status](status-property-ado-field.md) de um objeto [Field](field-object-ado.md) do [Record](record-object-ado.md) será definida primeiramente como **adFieldPendingInsert** e, em seguida, atualizada como **adFieldOk**.</span><span class="sxs-lookup"><span data-stu-id="30e1d-p101">The following example opens a document from a read/write folder using the [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). The [Status](status-property-ado-field.md) property of a [Field](field-object-ado.md) object of the [Record](record-object-ado.md) will first be set to **adFieldPendingInsert**, then be updated to **adFieldOk**.</span></span>
 
 ```vb
     'BeginStatusFieldVB
@@ -78,7 +78,7 @@ ms.locfileid: "32308502"
 
 <br/>
 
-<span data-ttu-id="511f2-p102">O exemplo a seguir exclui um **Field** conhecido de um **Record** aberto a partir de um documento. A propriedade **Status** será definida primeiramente como **adFieldOK** e, em seguida, como **adFieldPendingUnknown**.</span><span class="sxs-lookup"><span data-stu-id="511f2-p102">The following example deletes a known **Field** from a **Record** opened from a document. The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.</span></span>
+<span data-ttu-id="30e1d-p102">O exemplo a seguir exclui um **Field** conhecido de um **Record** aberto a partir de um documento. A propriedade **Status** será definida primeiramente como **adFieldOK** e, em seguida, como **adFieldPendingUnknown**.</span><span class="sxs-lookup"><span data-stu-id="30e1d-p102">The following example deletes a known **Field** from a **Record** opened from a document. The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.</span></span>
 
 ```vb
     'BeginStatusField2VB
@@ -132,7 +132,7 @@ ms.locfileid: "32308502"
 
 <br/>
 
-<span data-ttu-id="511f2-p103">O código a seguir exclui um **Field** de um **Record** aberto em um documento somente leitura. O **Status** será definido como **adFieldPendingDelete**. No [Update](update-method-ado.md), a exclusão falhará e o **Status** será **adFieldPendingDelete** e **adFieldPermissionDenied**. O [CancelUpdate](cancelupdate-method-ado.md) limpa a definição pendente do **Status**.</span><span class="sxs-lookup"><span data-stu-id="511f2-p103">The following code deletes a **Field** from a **Record** opened on a read-only document. **Status** will be set to **adFieldPendingDelete**. At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.</span></span>
+<span data-ttu-id="30e1d-p103">O código a seguir exclui um **Field** de um **Record** aberto em um documento somente leitura. O **Status** será definido como **adFieldPendingDelete**. No [Update](update-method-ado.md), a exclusão falhará e o **Status** será **adFieldPendingDelete** e **adFieldPermissionDenied**. O [CancelUpdate](cancelupdate-method-ado.md) limpa a definição pendente do **Status**.</span><span class="sxs-lookup"><span data-stu-id="30e1d-p103">The following code deletes a **Field** from a **Record** opened on a read-only document. **Status** will be set to **adFieldPendingDelete**. At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.</span></span>
 
 ```vb
     Sub Main()

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306556"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="08063-102">Exemplo do método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="08063-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="477ff-102">Exemplo do método Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="477ff-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="08063-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08063-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="477ff-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="477ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="08063-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="08063-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="477ff-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="477ff-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306465"
 ---
-# <a name="source-property-ado-md"></a><span data-ttu-id="2b3ab-102">Propriedade Source (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2b3ab-102">Source property (ADO MD)</span></span>
+# <a name="source-property-ado-md"></a><span data-ttu-id="0cd87-102">Propriedade Source (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0cd87-102">Source property (ADO MD)</span></span>
 
 
-<span data-ttu-id="2b3ab-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b3ab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0cd87-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0cd87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b3ab-104">Indica a fonte dos dados no conjunto de dados.</span><span class="sxs-lookup"><span data-stu-id="2b3ab-104">Indicates the source for the data in the cellset.</span></span>
+<span data-ttu-id="0cd87-104">Indica a fonte dos dados no conjunto de dados.</span><span class="sxs-lookup"><span data-stu-id="0cd87-104">Indicates the source for the data in the cellset.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="2b3ab-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="2b3ab-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="0cd87-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="0cd87-105">Settings and return values</span></span>
 
-<span data-ttu-id="2b3ab-p101">Define ou retorna **Variant** e é de leitura/gravação em objetos [Cellset](cellset-object-ado-md.md) fechados e somente leitura em objetos **Cellset** abertos. **Variant** deve conter um valor **String** válido, por exemplo, uma consulta MDX.</span><span class="sxs-lookup"><span data-stu-id="2b3ab-p101">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects. The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
+<span data-ttu-id="0cd87-p101">Define ou retorna **Variant** e é de leitura/gravação em objetos [Cellset](cellset-object-ado-md.md) fechados e somente leitura em objetos **Cellset** abertos. **Variant** deve conter um valor **String** válido, por exemplo, uma consulta MDX.</span><span class="sxs-lookup"><span data-stu-id="0cd87-p101">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects. The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
 

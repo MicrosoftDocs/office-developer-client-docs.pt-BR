@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313752"
 ---
-# <a name="uniquename-property-ado-md"></a><span data-ttu-id="6465c-102">Propriedade UniqueName (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6465c-102">UniqueName property (ADO MD)</span></span>
+# <a name="uniquename-property-ado-md"></a><span data-ttu-id="18294-102">Propriedade UniqueName (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="18294-102">UniqueName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="6465c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6465c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="18294-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18294-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6465c-104">Indica um nome ambíguo para o objeto atual.</span><span class="sxs-lookup"><span data-stu-id="6465c-104">Indicates an unambiguous name for the current object.</span></span>
+<span data-ttu-id="18294-104">Indica um nome ambíguo para o objeto atual.</span><span class="sxs-lookup"><span data-stu-id="18294-104">Indicates an unambiguous name for the current object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6465c-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="6465c-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="18294-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="18294-105">Return values</span></span>
 
-<span data-ttu-id="6465c-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="6465c-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="18294-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="18294-106">Returns a **String** and is read-only.</span></span>
 

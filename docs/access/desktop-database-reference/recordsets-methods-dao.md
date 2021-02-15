@@ -1,5 +1,5 @@
 ---
-title: Métodos de Recordsets (DAO)
+title: Métodos recordsets (DAO)
 TOCTitle: Methods
 ms:assetid: d769d5d1-e66e-4dfb-ab30-2a0b3686d530
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309273"
 ---
-# <a name="recordsets-methods-dao"></a><span data-ttu-id="1ebe3-102">Métodos de Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ebe3-102">Recordsets methods (DAO)</span></span>
+# <a name="recordsets-methods-dao"></a><span data-ttu-id="8339c-102">Métodos recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="8339c-102">Recordsets methods (DAO)</span></span>
 
-<span data-ttu-id="1ebe3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ebe3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8339c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8339c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1ebe3-104">Método Recordsets. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ebe3-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
+- [<span data-ttu-id="8339c-104">Método Recordsets.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="8339c-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
 

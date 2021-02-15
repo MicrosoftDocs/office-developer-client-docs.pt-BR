@@ -1,5 +1,5 @@
 ---
-title: 'Seção III: ADO (Multidimensional) (ADO MD)'
+title: 'Seção III: ADO (multidimensional) (ADO MD)'
 TOCTitle: 'Section III: ADO (multidimensional) (ADO MD)'
 ms:assetid: 15a45148-3af5-82ca-fb41-91d1b0612719
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248919(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308782"
 ---
-# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="d9ff4-102">Seção III: ADO (Multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d9ff4-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
+# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="38609-102">Seção III: ADO (multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="38609-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
 
-<span data-ttu-id="d9ff4-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9ff4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="38609-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38609-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d9ff4-104">Esta seção contém o seguinte capítulo:</span><span class="sxs-lookup"><span data-stu-id="d9ff4-104">This section contains the following chapter:</span></span>
+<span data-ttu-id="38609-104">Esta seção contém o seguinte capítulo:</span><span class="sxs-lookup"><span data-stu-id="38609-104">This section contains the following chapter:</span></span>
 
-- [<span data-ttu-id="d9ff4-105">Capítulo 14: Conceitos básicos do ADO MD</span><span class="sxs-lookup"><span data-stu-id="d9ff4-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
+- [<span data-ttu-id="38609-105">Capítulo 14: Conceitos básicos do ADO MD</span><span class="sxs-lookup"><span data-stu-id="38609-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
 
