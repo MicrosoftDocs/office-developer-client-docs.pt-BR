@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296812"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="80476-102">Exemplo das propriedades BOF, EOF e Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="80476-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="bad1f-102">Exemplo das propriedades BOF, EOF e Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="bad1f-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
 
 
-<span data-ttu-id="80476-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80476-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bad1f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bad1f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="80476-p101">A primeira função neste exemplo usa as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) para exibir uma mensagem caso um usuário tente se mover para além do primeiro ou último registro de um [Recordset](recordset-object-ado.md). Ele usa a propriedade [Bookmark](bookmark-property-ado.md) para permitir que o usuário sinalize um registro em um **Recordset** e retorne a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="80476-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="bad1f-p101">A primeira função neste exemplo usa as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) para exibir uma mensagem caso um usuário tente se mover para além do primeiro ou último registro de um [Recordset](recordset-object-ado.md). Ele usa a propriedade [Bookmark](bookmark-property-ado.md) para permitir que o usuário sinalize um registro em um **Recordset** e retorne a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="bad1f-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
-<span data-ttu-id="80476-106">A segunda função usa a propriedade Bookmark para colocar o **Indicador** de cada registro de um **Recordset** em uma matriz e, depois, filtra o Recordset usando a matriz.</span><span class="sxs-lookup"><span data-stu-id="80476-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
+<span data-ttu-id="bad1f-106">A segunda função usa a propriedade Bookmark para colocar o **Indicador** de cada registro de um **Recordset** em uma matriz e, depois, filtra o Recordset usando a matriz.</span><span class="sxs-lookup"><span data-stu-id="bad1f-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
 
 ```cpp 
  
@@ -356,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-<span data-ttu-id="80476-107">**BofEofBookmark. h**</span><span class="sxs-lookup"><span data-stu-id="80476-107">**BofEofBookmark.h**</span></span>
+<span data-ttu-id="bad1f-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="bad1f-107">**BofEofBookmark.h**</span></span>
 
 ```cpp 
  

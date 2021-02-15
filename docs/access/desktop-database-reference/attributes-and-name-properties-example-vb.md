@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296973"
 ---
-# <a name="attributes-and-name-properties-example-vb"></a><span data-ttu-id="7f496-102">Exemplo das propriedades Attributes e Name (VB)</span><span class="sxs-lookup"><span data-stu-id="7f496-102">Attributes and Name properties example (VB)</span></span>
+# <a name="attributes-and-name-properties-example-vb"></a><span data-ttu-id="5bc7a-102">Exemplo das propriedades Attributes e Name (VB)</span><span class="sxs-lookup"><span data-stu-id="5bc7a-102">Attributes and Name properties example (VB)</span></span>
 
 
-<span data-ttu-id="7f496-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f496-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5bc7a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5bc7a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7f496-p101">Este exemplo exibe o valor da propriedade [Attributes](attributes-property-ado.md) para os objetos [Connection](connection-object-ado.md), [Field](field-object-ado.md) e [Property](property-object-ado.md). Ele usa a propriedade [Name](name-property-ado.md) para exibir o nome de cada objeto **Field** e **Property**.</span><span class="sxs-lookup"><span data-stu-id="7f496-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="5bc7a-p101">Este exemplo exibe o valor da propriedade [Attributes](attributes-property-ado.md) para os objetos [Connection](connection-object-ado.md), [Field](field-object-ado.md) e [Property](property-object-ado.md). Ele usa a propriedade [Name](name-property-ado.md) para exibir o nome de cada objeto **Field** e **Property**.</span><span class="sxs-lookup"><span data-stu-id="5bc7a-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```vb 
  

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296700"
 ---
-# <a name="cachesize-property-example-vb"></a><span data-ttu-id="78955-102">Exemplo da propriedade CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="78955-102">CacheSize property example (VB)</span></span>
+# <a name="cachesize-property-example-vb"></a><span data-ttu-id="cab9f-102">Exemplo da propriedade CacheSize (VB)</span><span class="sxs-lookup"><span data-stu-id="cab9f-102">CacheSize property example (VB)</span></span>
 
 
-<span data-ttu-id="78955-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="78955-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cab9f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cab9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="78955-104">Este exemplo usa a propriedade [CacheSize](cachesize-property-ado.md) para mostrar a diferença no desempenho de uma operação realizada com e sem um cache de 30 registros.</span><span class="sxs-lookup"><span data-stu-id="78955-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="cab9f-104">Este exemplo usa a propriedade [CacheSize](cachesize-property-ado.md) para mostrar a diferença no desempenho de uma operação realizada com e sem um cache de 30 registros.</span><span class="sxs-lookup"><span data-stu-id="cab9f-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```vb 
  

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297141"
 ---
-# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="60d06-102">Exemplo dos métodos Append e CreateParameter (JScript)</span><span class="sxs-lookup"><span data-stu-id="60d06-102">Append and CreateParameter methods example (JScript)</span></span>
+# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="845df-102">Exemplo dos métodos Append e CreateParameter (JScript)</span><span class="sxs-lookup"><span data-stu-id="845df-102">Append and CreateParameter methods example (JScript)</span></span>
 
 
-<span data-ttu-id="60d06-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60d06-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="845df-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="845df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="60d06-p101">Este exemplo usa os métodos [Append](append-method-ado.md) e [CreateParameter](createparameter-method-ado.md) para executar um procedimento armazenado com um parâmetro de entrada. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AppendJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="60d06-p101">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter. Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
+<span data-ttu-id="845df-p101">Este exemplo usa os métodos [Append](append-method-ado.md) e [CreateParameter](createparameter-method-ado.md) para executar um procedimento armazenado com um parâmetro de entrada. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AppendJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="845df-p101">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter. Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
 
 ```javascript 
  

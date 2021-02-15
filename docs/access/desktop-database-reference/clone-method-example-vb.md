@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296350"
 ---
-# <a name="clone-method-example-vb"></a><span data-ttu-id="e56eb-102">Exemplo do método Clone (VB)</span><span class="sxs-lookup"><span data-stu-id="e56eb-102">Clone method example (VB)</span></span>
+# <a name="clone-method-example-vb"></a><span data-ttu-id="49d4d-102">Exemplo do método Clone (VB)</span><span class="sxs-lookup"><span data-stu-id="49d4d-102">Clone method example (VB)</span></span>
 
 
-<span data-ttu-id="e56eb-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e56eb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="49d4d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49d4d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e56eb-104">Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.</span><span class="sxs-lookup"><span data-stu-id="e56eb-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="49d4d-104">Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.</span><span class="sxs-lookup"><span data-stu-id="49d4d-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb 
  

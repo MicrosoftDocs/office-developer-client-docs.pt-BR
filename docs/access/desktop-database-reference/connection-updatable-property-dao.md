@@ -1,5 +1,5 @@
 ---
-title: Propriedade Connection. upDatable (DAO)
+title: Propriedade Connection.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835360(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295797"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="1dde5-102">Propriedade Connection. upDatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="1dde5-102">Connection.Updatable property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="36cc1-102">Propriedade Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="36cc1-102">Connection.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="1dde5-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dde5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36cc1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36cc1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1dde5-104">Retorna um valor que indica se você pode alterar um objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="1dde5-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="1dde5-105">**Boolean** somente leitura.Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1dde5-105">Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="36cc1-104">Retorna um valor que indica se você pode alterar um objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="36cc1-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="36cc1-105">**Boolean** somente leitura.Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="36cc1-105">Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1dde5-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1dde5-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="36cc1-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="36cc1-106">Syntax</span></span>
 
-<span data-ttu-id="1dde5-107">*expressão* . Atualizável</span><span class="sxs-lookup"><span data-stu-id="1dde5-107">*expression* .Updatable</span></span>
+<span data-ttu-id="36cc1-107">*expressão* . Atualizável</span><span class="sxs-lookup"><span data-stu-id="36cc1-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="1dde5-108">*expressão* Uma expressão que retorna um objeto **Connection** .</span><span class="sxs-lookup"><span data-stu-id="1dde5-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="36cc1-108">*expressão* Uma expressão que retorna um **objeto Connection** .</span><span class="sxs-lookup"><span data-stu-id="36cc1-108">*expression* An expression that returns a **Connection** object.</span></span>
 

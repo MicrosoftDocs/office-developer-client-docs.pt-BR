@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296455"
 ---
-# <a name="chapter-3-examining-data"></a><span data-ttu-id="a63b0-102">Capítulo 3: Exame de dados</span><span class="sxs-lookup"><span data-stu-id="a63b0-102">Chapter 3: Examining data</span></span>
+# <a name="chapter-3-examining-data"></a><span data-ttu-id="90b57-102">Capítulo 3: Exame de dados</span><span class="sxs-lookup"><span data-stu-id="90b57-102">Chapter 3: Examining data</span></span>
 
-<span data-ttu-id="a63b0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a63b0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="90b57-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90b57-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a63b0-p101">O capítulo 2 explicou como recuperar os dados de uma fonte de dados como um objeto **Recordset**. Este capítulo tratará do **Recordset** mais detalhadamente, incluindo como navegar por meio do **Recordset** e exibir os dados.</span><span class="sxs-lookup"><span data-stu-id="a63b0-p101">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object. This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
+<span data-ttu-id="90b57-p101">O capítulo 2 explicou como recuperar os dados de uma fonte de dados como um objeto **Recordset**. Este capítulo tratará do **Recordset** mais detalhadamente, incluindo como navegar por meio do **Recordset** e exibir os dados.</span><span class="sxs-lookup"><span data-stu-id="90b57-p101">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object. This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
 
-<span data-ttu-id="a63b0-p102">Os **Recordsets** têm métodos e propriedades criados para facilitar o movimento entre eles e examinar os conteúdos deles. Dependendo da funcionalidade oferecida pelo provedor, alguns métodos ou propriedades do **Recordset** poderão não estar disponíveis. Para continuar a exploração do objeto **Recordset**, considere um **Recordset** que será retornado pelo banco de dados de exemplo Northwind no Microsoft SQL Server 2000, usando o seguinte código:</span><span class="sxs-lookup"><span data-stu-id="a63b0-p102">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents. Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available. To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
+<span data-ttu-id="90b57-p102">Os **Recordsets** têm métodos e propriedades criados para facilitar o movimento entre eles e examinar os conteúdos deles. Dependendo da funcionalidade oferecida pelo provedor, alguns métodos ou propriedades do **Recordset** poderão não estar disponíveis. Para continuar a exploração do objeto **Recordset**, considere um **Recordset** que será retornado pelo banco de dados de exemplo Northwind no Microsoft SQL Server 2000, usando o seguinte código:</span><span class="sxs-lookup"><span data-stu-id="90b57-p102">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents. Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available. To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
 
 ```vb 
  
@@ -57,7 +57,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="a63b0-p103">Esta consulta SQL retorna um **Recordset** com cinco linhas (registros) e três colunas (campos). Os valores de cada linha são mostrados na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="a63b0-p103">This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.</span></span>
+<span data-ttu-id="90b57-p103">Esta consulta SQL retorna um **Recordset** com cinco linhas (registros) e três colunas (campos). Os valores de cada linha são mostrados na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="90b57-p103">This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -67,48 +67,48 @@ End Sub
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a63b0-111">CAMPO 0</span><span class="sxs-lookup"><span data-stu-id="a63b0-111">FIELD 0</span></span><br />
-<span data-ttu-id="a63b0-112">Name = ProductID</span><span class="sxs-lookup"><span data-stu-id="a63b0-112">Name = ProductID</span></span></p></th>
-<th><p><span data-ttu-id="a63b0-113">CAMPO 1</span><span class="sxs-lookup"><span data-stu-id="a63b0-113">FIELD 1</span></span><br />
-<span data-ttu-id="a63b0-114">Name = NomeDoProduto</span><span class="sxs-lookup"><span data-stu-id="a63b0-114">Name = ProductName</span></span></p></th>
-<th><p><span data-ttu-id="a63b0-115">CAMPO 2</span><span class="sxs-lookup"><span data-stu-id="a63b0-115">FIELD 2</span></span><br />
-<span data-ttu-id="a63b0-116">Nome = PreçoUnitário</span><span class="sxs-lookup"><span data-stu-id="a63b0-116">Name = UnitPrice</span></span></p></th>
+<th><p><span data-ttu-id="90b57-111">CAMPO 0</span><span class="sxs-lookup"><span data-stu-id="90b57-111">FIELD 0</span></span><br />
+<span data-ttu-id="90b57-112">Nome = ProductID</span><span class="sxs-lookup"><span data-stu-id="90b57-112">Name = ProductID</span></span></p></th>
+<th><p><span data-ttu-id="90b57-113">CAMPO 1</span><span class="sxs-lookup"><span data-stu-id="90b57-113">FIELD 1</span></span><br />
+<span data-ttu-id="90b57-114">Nome = ProductName</span><span class="sxs-lookup"><span data-stu-id="90b57-114">Name = ProductName</span></span></p></th>
+<th><p><span data-ttu-id="90b57-115">CAMPO 2</span><span class="sxs-lookup"><span data-stu-id="90b57-115">FIELD 2</span></span><br />
+<span data-ttu-id="90b57-116">Name = UnitPrice</span><span class="sxs-lookup"><span data-stu-id="90b57-116">Name = UnitPrice</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a63b0-117">178</span><span class="sxs-lookup"><span data-stu-id="a63b0-117">7</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-118">Pêras secas orgânicas do Tio Bob</span><span class="sxs-lookup"><span data-stu-id="a63b0-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-119">30, 0</span><span class="sxs-lookup"><span data-stu-id="a63b0-119">30.0000</span></span></p></td>
+<td><p><span data-ttu-id="90b57-117">7 </span><span class="sxs-lookup"><span data-stu-id="90b57-117">7</span></span></p></td>
+<td><p><span data-ttu-id="90b57-118">Pêras secas orgânicas do Tio Bob</span><span class="sxs-lookup"><span data-stu-id="90b57-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
+<td><p><span data-ttu-id="90b57-119">30.0000</span><span class="sxs-lookup"><span data-stu-id="90b57-119">30.0000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a63b0-120">14</span><span class="sxs-lookup"><span data-stu-id="a63b0-120">14</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-121">Tofu</span><span class="sxs-lookup"><span data-stu-id="a63b0-121">Tofu</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-122">23,2500</span><span class="sxs-lookup"><span data-stu-id="a63b0-122">23.2500</span></span></p></td>
+<td><p><span data-ttu-id="90b57-120">14 </span><span class="sxs-lookup"><span data-stu-id="90b57-120">14</span></span></p></td>
+<td><p><span data-ttu-id="90b57-121">Tofu</span><span class="sxs-lookup"><span data-stu-id="90b57-121">Tofu</span></span></p></td>
+<td><p><span data-ttu-id="90b57-122">23.2500</span><span class="sxs-lookup"><span data-stu-id="90b57-122">23.2500</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a63b0-123">28</span><span class="sxs-lookup"><span data-stu-id="a63b0-123">28</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-124">Chucrute Rssle</span><span class="sxs-lookup"><span data-stu-id="a63b0-124">Rssle Sauerkraut</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-125">45,6000</span><span class="sxs-lookup"><span data-stu-id="a63b0-125">45.6000</span></span></p></td>
+<td><p><span data-ttu-id="90b57-123">28</span><span class="sxs-lookup"><span data-stu-id="90b57-123">28</span></span></p></td>
+<td><p><span data-ttu-id="90b57-124">Chucrute Rssle</span><span class="sxs-lookup"><span data-stu-id="90b57-124">Rssle Sauerkraut</span></span></p></td>
+<td><p><span data-ttu-id="90b57-125">45.6000</span><span class="sxs-lookup"><span data-stu-id="90b57-125">45.6000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a63b0-126">51</span><span class="sxs-lookup"><span data-stu-id="a63b0-126">51</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-127">Maçãs secas Manjimup</span><span class="sxs-lookup"><span data-stu-id="a63b0-127">Manjimup Dried Apples</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-128">53, 0</span><span class="sxs-lookup"><span data-stu-id="a63b0-128">53.0000</span></span></p></td>
+<td><p><span data-ttu-id="90b57-126">51</span><span class="sxs-lookup"><span data-stu-id="90b57-126">51</span></span></p></td>
+<td><p><span data-ttu-id="90b57-127">Maçãs secas Manjimup</span><span class="sxs-lookup"><span data-stu-id="90b57-127">Manjimup Dried Apples</span></span></p></td>
+<td><p><span data-ttu-id="90b57-128">53.0000</span><span class="sxs-lookup"><span data-stu-id="90b57-128">53.0000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a63b0-129">74</span><span class="sxs-lookup"><span data-stu-id="a63b0-129">74</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-130">Tofu longa vida</span><span class="sxs-lookup"><span data-stu-id="a63b0-130">Longlife Tofu</span></span></p></td>
-<td><p><span data-ttu-id="a63b0-131">10, 0</span><span class="sxs-lookup"><span data-stu-id="a63b0-131">10.0000</span></span></p></td>
+<td><p><span data-ttu-id="90b57-129">74</span><span class="sxs-lookup"><span data-stu-id="90b57-129">74</span></span></p></td>
+<td><p><span data-ttu-id="90b57-130">Tofu longa vida</span><span class="sxs-lookup"><span data-stu-id="90b57-130">Longlife Tofu</span></span></p></td>
+<td><p><span data-ttu-id="90b57-131">10.0000</span><span class="sxs-lookup"><span data-stu-id="90b57-131">10.0000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a63b0-132">A próxima seção explica como localizar a posição atual do cursor neste **Recordset**de exemplo.</span><span class="sxs-lookup"><span data-stu-id="a63b0-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
+<span data-ttu-id="90b57-132">A próxima seção explica como localizar a posição atual do cursor neste **recordset de exemplo.**</span><span class="sxs-lookup"><span data-stu-id="90b57-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
 
-<span data-ttu-id="a63b0-133">Este capítulo aborda os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="a63b0-133">This chapter covers the following topics:</span></span>
+<span data-ttu-id="90b57-133">Este capítulo aborda os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="90b57-133">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="a63b0-134">Localizando o registro atual (ADO)</span><span class="sxs-lookup"><span data-stu-id="a63b0-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
-- [<span data-ttu-id="a63b0-135">Navegando pelos dados (ADO)</span><span class="sxs-lookup"><span data-stu-id="a63b0-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
-- [<span data-ttu-id="a63b0-136">Noções básicas sobre a estrutura do Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a63b0-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)
+- [<span data-ttu-id="90b57-134">Localizar o registro atual (ADO)</span><span class="sxs-lookup"><span data-stu-id="90b57-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
+- [<span data-ttu-id="90b57-135">Navegando pelos dados (ADO)</span><span class="sxs-lookup"><span data-stu-id="90b57-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
+- [<span data-ttu-id="90b57-136">Noções básicas sobre a estrutura recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="90b57-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)

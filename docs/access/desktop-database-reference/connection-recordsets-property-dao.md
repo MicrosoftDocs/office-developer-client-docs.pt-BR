@@ -1,5 +1,5 @@
 ---
-title: Propriedade Connection. Recordsets (DAO)
+title: Propriedade Connection.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295804"
 ---
-# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="ccc25-102">Propriedade Connection. Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="ccc25-102">Connection.Recordsets property (DAO)</span></span>
+# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="2cc6e-102">Propriedade Connection.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="2cc6e-102">Connection.Recordsets property (DAO)</span></span>
 
 
-<span data-ttu-id="ccc25-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccc25-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2cc6e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cc6e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ccc25-104">Retorna uma coleção **Recordsets** que contém todos os recordsets abertos para a conexão especificada.</span><span class="sxs-lookup"><span data-stu-id="ccc25-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="ccc25-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="ccc25-105">Read-only.</span></span>
+<span data-ttu-id="2cc6e-104">Retorna uma coleção **Recordsets** que contém todos os recordsets abertos para a conexão especificada.</span><span class="sxs-lookup"><span data-stu-id="2cc6e-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="2cc6e-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="2cc6e-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ccc25-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ccc25-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2cc6e-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="2cc6e-106">Syntax</span></span>
 
-<span data-ttu-id="ccc25-107">*expressão* . Recordsets</span><span class="sxs-lookup"><span data-stu-id="ccc25-107">*expression* .Recordsets</span></span>
+<span data-ttu-id="2cc6e-107">*expressão* . Recordsets</span><span class="sxs-lookup"><span data-stu-id="2cc6e-107">*expression* .Recordsets</span></span>
 
-<span data-ttu-id="ccc25-108">*expressão* Uma variável que representa um objeto **Connection** .</span><span class="sxs-lookup"><span data-stu-id="ccc25-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="2cc6e-108">*expressão* Uma variável que representa um objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="2cc6e-108">*expression* A variable that represents a **Connection** object.</span></span>
 

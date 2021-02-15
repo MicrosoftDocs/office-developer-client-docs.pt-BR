@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto complexType (DAO)
+title: Referência de objeto ComplexType (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: 13eeca4d-7b36-4c9e-8035-ecc9acfe487a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123787(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296021"
 ---
-# <a name="complextype-object-reference-dao"></a><span data-ttu-id="81c64-102">Referência de objeto complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="81c64-102">ComplexType object reference (DAO)</span></span>
+# <a name="complextype-object-reference-dao"></a><span data-ttu-id="de816-102">Referência de objeto ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="de816-102">ComplexType object reference (DAO)</span></span>
 
-<span data-ttu-id="81c64-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81c64-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="de816-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de816-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="81c64-104">Objeto complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="81c64-104">ComplexType object (DAO)</span></span>](complextype-object-dao.md)
-- [<span data-ttu-id="81c64-105">Membros ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="81c64-105">ComplexType members (DAO)</span></span>](complextype-members-dao.md)
-- [<span data-ttu-id="81c64-106">Propriedades complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="81c64-106">ComplexType properties (DAO)</span></span>](complextype-properties-dao.md)
+- [<span data-ttu-id="de816-104">Objeto ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="de816-104">ComplexType object (DAO)</span></span>](complextype-object-dao.md)
+- [<span data-ttu-id="de816-105">Membros ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="de816-105">ComplexType members (DAO)</span></span>](complextype-members-dao.md)
+- [<span data-ttu-id="de816-106">Propriedades ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="de816-106">ComplexType properties (DAO)</span></span>](complextype-properties-dao.md)
 

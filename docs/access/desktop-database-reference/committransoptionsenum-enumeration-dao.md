@@ -1,5 +1,5 @@
 ---
-title: Enumeração de CommitTransOptionsEnum (DAO)
+title: Enumeração CommitTransOptionsEnum (DAO)
 TOCTitle: CommitTransOptionsEnum enumeration
 ms:assetid: f8bf56f7-41b7-ad90-1e83-58b7f4fc2927
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836959(v=office.15)
@@ -14,8 +14,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296098"
 ---
-# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="a00b5-102">Enumeração de CommitTransOptionsEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="a00b5-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
+# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="fe641-102">Enumeração CommitTransOptionsEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="fe641-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
 
-<span data-ttu-id="a00b5-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a00b5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fe641-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe641-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a00b5-104">A definir</span><span class="sxs-lookup"><span data-stu-id="a00b5-104">TBD</span></span>
+<span data-ttu-id="fe641-104">A definir</span><span class="sxs-lookup"><span data-stu-id="fe641-104">TBD</span></span>

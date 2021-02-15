@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296945"
 ---
-# <a name="attributes-property-adox"></a><span data-ttu-id="b6f67-102">Propriedade Attributes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b6f67-102">Attributes property (ADOX)</span></span>
+# <a name="attributes-property-adox"></a><span data-ttu-id="0e101-102">Propriedade Attributes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0e101-102">Attributes property (ADOX)</span></span>
 
 
-<span data-ttu-id="b6f67-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6f67-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0e101-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e101-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b6f67-104">Descreve características da coluna.</span><span class="sxs-lookup"><span data-stu-id="b6f67-104">Describes column characteristics.</span></span>
+<span data-ttu-id="0e101-104">Descreve características da coluna.</span><span class="sxs-lookup"><span data-stu-id="0e101-104">Describes column characteristics.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="b6f67-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="b6f67-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="0e101-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="0e101-105">Settings and return values</span></span>
 
-<span data-ttu-id="b6f67-p101">Define ou retorna um valor **Long**. O valor especifica características da tabela representada pelo objeto [Column](column-object-adox.md) e pode ser uma combinação das constantes [ColumnAttributesEnum](columnattributesenum.md). O valor padrão é zero (0), que não é **adColFixed** nem **adColNullable**.</span><span class="sxs-lookup"><span data-stu-id="b6f67-p101">Sets or returns a **Long** value. The value specifies characteristics of the table represented by the [Column](column-object-adox.md) object and can be a combination of [ColumnAttributesEnum](columnattributesenum.md) constants. The default value is zero (0), which is neither **adColFixed** nor **adColNullable**.</span></span>
+<span data-ttu-id="0e101-p101">Define ou retorna um valor **Long**. O valor especifica características da tabela representada pelo objeto [Column](column-object-adox.md) e pode ser uma combinação das constantes [ColumnAttributesEnum](columnattributesenum.md). O valor padrão é zero (0), que não é **adColFixed** nem **adColNullable**.</span><span class="sxs-lookup"><span data-stu-id="0e101-p101">Sets or returns a **Long** value. The value specifies characteristics of the table represented by the [Column](column-object-adox.md) object and can be a combination of [ColumnAttributesEnum](columnattributesenum.md) constants. The default value is zero (0), which is neither **adColFixed** nor **adColNullable**.</span></span>
 

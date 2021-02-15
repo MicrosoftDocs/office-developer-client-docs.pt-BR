@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296595"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="e2650-102">Exemplo da propriedade ActiveConnection de Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="e2650-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="20540-102">Exemplo da propriedade ActiveConnection de Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="20540-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="e2650-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2650-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="20540-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20540-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e2650-p101">A definição da propriedade [ActiveConnection](activeconnection-property-adox.md) para uma conexão aberta e válida "abre" o catálogo. Em um catálogo aberto, você pode acessar os objetos de esquema contidos nesse catálogo.</span><span class="sxs-lookup"><span data-stu-id="e2650-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="20540-p101">A definição da propriedade [ActiveConnection](activeconnection-property-adox.md) para uma conexão aberta e válida "abre" o catálogo. Em um catálogo aberto, você pode acessar os objetos de esquema contidos nesse catálogo.</span><span class="sxs-lookup"><span data-stu-id="20540-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296301"
 ---
-# <a name="clone-method-example-vc"></a><span data-ttu-id="a7591-102">Exemplo do método Clone (VC++)</span><span class="sxs-lookup"><span data-stu-id="a7591-102">Clone method example (VC++)</span></span>
+# <a name="clone-method-example-vc"></a><span data-ttu-id="598a6-102">Exemplo do método Clone (VC++)</span><span class="sxs-lookup"><span data-stu-id="598a6-102">Clone method example (VC++)</span></span>
 
 
-<span data-ttu-id="a7591-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7591-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="598a6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="598a6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a7591-104">Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.</span><span class="sxs-lookup"><span data-stu-id="a7591-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="598a6-104">Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.</span><span class="sxs-lookup"><span data-stu-id="598a6-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```cpp 
  
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-<span data-ttu-id="a7591-105">**CloneX. h**</span><span class="sxs-lookup"><span data-stu-id="a7591-105">**CloneX.h**</span></span>
+<span data-ttu-id="598a6-105">**CloneX.h**</span><span class="sxs-lookup"><span data-stu-id="598a6-105">**CloneX.h**</span></span>
 
 ```cpp 
  

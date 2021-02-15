@@ -1,5 +1,5 @@
 ---
-title: Objeto complexType (DAO)
+title: Objeto ComplexType (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: fc9bdebe-e432-e530-6b1f-8680b9dfe870
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837211(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296035"
 ---
-# <a name="complextype-object-dao"></a><span data-ttu-id="14e5f-102">Objeto complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="14e5f-102">ComplexType object (DAO)</span></span>
+# <a name="complextype-object-dao"></a><span data-ttu-id="79516-102">Objeto ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="79516-102">ComplexType object (DAO)</span></span>
 
-<span data-ttu-id="14e5f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="14e5f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79516-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79516-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="14e5f-104">Representa um campo de vários valores.</span><span class="sxs-lookup"><span data-stu-id="14e5f-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="79516-104">Representa um campo de vários valores.</span><span class="sxs-lookup"><span data-stu-id="79516-104">Represents a multi-valued field.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="14e5f-105">Informação da versão</span><span class="sxs-lookup"><span data-stu-id="14e5f-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="79516-105">Informação da versão</span><span class="sxs-lookup"><span data-stu-id="79516-105">Version information</span></span>
 
-<span data-ttu-id="14e5f-106">Versão adicionada: Access 2007</span><span class="sxs-lookup"><span data-stu-id="14e5f-106">Version added: Access 2007</span></span>
+<span data-ttu-id="79516-106">Versão adicionad: Access 2007</span><span class="sxs-lookup"><span data-stu-id="79516-106">Version added: Access 2007</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="14e5f-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="14e5f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="79516-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="79516-107">Remarks</span></span>
 
-<span data-ttu-id="14e5f-108">Use a propriedade **[Fields](complextype-fields-property-dao.md)** para retornar a coleção **[Fields](fields-collection-dao.md)** do objeto **ComplexType**.</span><span class="sxs-lookup"><span data-stu-id="14e5f-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
+<span data-ttu-id="79516-108">Use a propriedade **[Fields](complextype-fields-property-dao.md)** para retornar a coleção **[Fields](fields-collection-dao.md)** do objeto **ComplexType**.</span><span class="sxs-lookup"><span data-stu-id="79516-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
 

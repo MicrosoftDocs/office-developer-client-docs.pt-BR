@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295650"
 ---
-# <a name="container-members-dao"></a><span data-ttu-id="2b80c-102">Membros do contêiner (DAO)</span><span class="sxs-lookup"><span data-stu-id="2b80c-102">Container members (DAO)</span></span>
+# <a name="container-members-dao"></a><span data-ttu-id="3eb5c-102">Membros do contêiner (DAO)</span><span class="sxs-lookup"><span data-stu-id="3eb5c-102">Container members (DAO)</span></span>
 
 
-<span data-ttu-id="2b80c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b80c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3eb5c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3eb5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b80c-104">Um objeto Container agrupa tipos semelhantes de objetos Document.</span><span class="sxs-lookup"><span data-stu-id="2b80c-104">A Container object groups similar types of Document objects together.</span></span>
+<span data-ttu-id="3eb5c-104">Um objeto Container agrupa tipos semelhantes de objetos Document.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-104">A Container object groups similar types of Document objects together.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="2b80c-105">Propriedades</span><span class="sxs-lookup"><span data-stu-id="2b80c-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="3eb5c-105">Propriedades</span><span class="sxs-lookup"><span data-stu-id="3eb5c-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -30,22 +30,22 @@ ms.locfileid: "32295650"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b80c-106">Nome</span><span class="sxs-lookup"><span data-stu-id="2b80c-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="2b80c-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="2b80c-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="3eb5c-106">Nome</span><span class="sxs-lookup"><span data-stu-id="3eb5c-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="3eb5c-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="3eb5c-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b80c-108"><strong><a href="container-documents-property-dao.md">Documentos</a></strong></span><span class="sxs-lookup"><span data-stu-id="2b80c-108"><strong><a href="container-documents-property-dao.md">Documents</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="2b80c-109">Retorna uma coleção <strong>Documents</strong> que contém todos os documentos armazenados no objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="2b80c-109">Returns a <strong>Documents</strong> collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="2b80c-110">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="2b80c-110">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-108"><strong><a href="container-documents-property-dao.md">Documentos</a></strong></span><span class="sxs-lookup"><span data-stu-id="3eb5c-108"><strong><a href="container-documents-property-dao.md">Documents</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-109">Retorna uma coleção <strong>Documents</strong> que contém todos os documentos armazenados no objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-109">Returns a <strong>Documents</strong> collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="3eb5c-110">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-110">Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b80c-111"><strong><a href="container-name-property-dao.md">Nome</a></strong></span><span class="sxs-lookup"><span data-stu-id="2b80c-111"><strong><a href="container-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="2b80c-112">Retorna o nome do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="2b80c-112">Returns the name of the specified object.</span></span> <span data-ttu-id="2b80c-113">Somente leitura <strong>cadeia de caracteres</strong>.</span><span class="sxs-lookup"><span data-stu-id="2b80c-113">Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-111"><strong><a href="container-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="3eb5c-111"><strong><a href="container-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-112">Retorna o nome do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-112">Returns the name of the specified object.</span></span> <span data-ttu-id="3eb5c-113"><strong>String</strong> somente leitura.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-113">Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b80c-114"><strong><a href="container-properties-property-dao.md">Propriedades</a></strong></span><span class="sxs-lookup"><span data-stu-id="2b80c-114"><strong><a href="container-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="2b80c-115">Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="2b80c-115">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="2b80c-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="2b80c-116">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-114"><strong><a href="container-properties-property-dao.md">Properties</a></strong></span><span class="sxs-lookup"><span data-stu-id="3eb5c-114"><strong><a href="container-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="3eb5c-115">Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-115">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="3eb5c-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="3eb5c-116">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

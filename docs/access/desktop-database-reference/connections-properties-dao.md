@@ -1,5 +1,5 @@
 ---
-title: Propriedades de conexões (DAO)
+title: Propriedades connections (DAO)
 TOCTitle: Properties
 ms:assetid: 6307670c-a363-46e2-9bad-507ae6838d03
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142231(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295741"
 ---
-# <a name="connections-properties-dao"></a><span data-ttu-id="e5b41-102">Propriedades de conexões (DAO)</span><span class="sxs-lookup"><span data-stu-id="e5b41-102">Connections properties (DAO)</span></span>
+# <a name="connections-properties-dao"></a><span data-ttu-id="8ddb9-102">Propriedades connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="8ddb9-102">Connections properties (DAO)</span></span>
 
-<span data-ttu-id="e5b41-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5b41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8ddb9-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ddb9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e5b41-104">Propriedade Connections. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="e5b41-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
+- [<span data-ttu-id="8ddb9-104">Propriedade Connections.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="8ddb9-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
 

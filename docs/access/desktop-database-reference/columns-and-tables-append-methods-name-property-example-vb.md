@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296224"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="b5129-102">Métodos Append de colunas e tabelas, exemplo da propriedade Name (VB)</span><span class="sxs-lookup"><span data-stu-id="b5129-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="f9e12-102">Métodos Append de colunas e tabelas, exemplo da propriedade Name (VB)</span><span class="sxs-lookup"><span data-stu-id="f9e12-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="b5129-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5129-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f9e12-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9e12-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b5129-104">O código a seguir demonstra como criar uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="b5129-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="f9e12-104">O código a seguir demonstra como criar uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="f9e12-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

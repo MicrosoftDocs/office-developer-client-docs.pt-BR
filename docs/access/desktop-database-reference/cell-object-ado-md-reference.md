@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296560"
 ---
-# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="e07bf-102">Objeto Cell (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e07bf-102">Cell object (ADO MD reference)</span></span>
+# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="6d77f-102">Objeto Cell (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d77f-102">Cell object (ADO MD reference)</span></span>
 
-<span data-ttu-id="e07bf-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e07bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6d77f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d77f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e07bf-104">Objeto Cell (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e07bf-104">Cell object (ADO MD)</span></span>](cell-object-ado-md.md)
-- [<span data-ttu-id="e07bf-105">Propriedades, métodos e eventos da célula (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e07bf-105">Cell properties, methods, and events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="6d77f-104">Objeto Cell (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d77f-104">Cell object (ADO MD)</span></span>](cell-object-ado-md.md)
+- [<span data-ttu-id="6d77f-105">Propriedades, métodos e eventos de células (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d77f-105">Cell properties, methods, and events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
 

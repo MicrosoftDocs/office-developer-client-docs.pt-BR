@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296280"
 ---
-# <a name="clustered-property-adox"></a><span data-ttu-id="62cff-102">Propriedade Clustered (ADOX)</span><span class="sxs-lookup"><span data-stu-id="62cff-102">Clustered property (ADOX)</span></span>
+# <a name="clustered-property-adox"></a><span data-ttu-id="571c0-102">Propriedade Clustered (ADOX)</span><span class="sxs-lookup"><span data-stu-id="571c0-102">Clustered property (ADOX)</span></span>
 
 
-<span data-ttu-id="62cff-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62cff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="571c0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="571c0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="62cff-104">Indica se o índice está agrupado.</span><span class="sxs-lookup"><span data-stu-id="62cff-104">Indicates whether the index is clustered.</span></span>
+<span data-ttu-id="571c0-104">Indica se o índice está agrupado.</span><span class="sxs-lookup"><span data-stu-id="571c0-104">Indicates whether the index is clustered.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="62cff-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="62cff-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="571c0-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="571c0-105">Settings and return values</span></span>
 
-<span data-ttu-id="62cff-106">Define e retorna um valor **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="62cff-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="571c0-106">Define e retorna um valor **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="571c0-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="62cff-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="62cff-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="571c0-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="571c0-107">Remarks</span></span>
 
-<span data-ttu-id="62cff-108">O valor padrão é **False**.</span><span class="sxs-lookup"><span data-stu-id="62cff-108">The default value is **False**.</span></span>
+<span data-ttu-id="571c0-108">O valor padrão é **False**.</span><span class="sxs-lookup"><span data-stu-id="571c0-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="62cff-109">Esta propriedade é somente leitura em objetos [Index](index-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="62cff-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="571c0-109">Esta propriedade é somente leitura em objetos [Index](index-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="571c0-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

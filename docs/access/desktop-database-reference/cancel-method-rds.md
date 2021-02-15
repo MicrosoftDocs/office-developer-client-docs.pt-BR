@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296644"
 ---
-# <a name="cancel-method-rds"></a><span data-ttu-id="20b76-102">Método Cancel (RDS)</span><span class="sxs-lookup"><span data-stu-id="20b76-102">Cancel method (RDS)</span></span>
+# <a name="cancel-method-rds"></a><span data-ttu-id="89302-102">Método Cancel (RDS)</span><span class="sxs-lookup"><span data-stu-id="89302-102">Cancel method (RDS)</span></span>
 
 
-<span data-ttu-id="20b76-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20b76-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="89302-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="89302-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20b76-104">Cancela a execução de uma chamada de método assíncrona pendente.</span><span class="sxs-lookup"><span data-stu-id="20b76-104">Cancels execution of a pending, asynchronous method call.</span></span>
+<span data-ttu-id="89302-104">Cancela a execução de uma chamada de método assíncrona pendente.</span><span class="sxs-lookup"><span data-stu-id="89302-104">Cancels execution of a pending, asynchronous method call.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="20b76-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="20b76-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="89302-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="89302-105">Syntax</span></span>
 
-<span data-ttu-id="20b76-106">*RDS*.</span><span class="sxs-lookup"><span data-stu-id="20b76-106">*RDS*.</span></span> <span data-ttu-id="20b76-107">*DataControl*. Cancelar</span><span class="sxs-lookup"><span data-stu-id="20b76-107">*DataControl*.Cancel</span></span>
+<span data-ttu-id="89302-106">*RDS*.</span><span class="sxs-lookup"><span data-stu-id="89302-106">*RDS*.</span></span> <span data-ttu-id="89302-107">*DataControl*. Cancelar</span><span class="sxs-lookup"><span data-stu-id="89302-107">*DataControl*.Cancel</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="20b76-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="20b76-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89302-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="89302-108">Remarks</span></span>
 
-<span data-ttu-id="20b76-109">Ao chamar **Cancel**, [ReadyState](readystate-property-rds.md) é automaticamente definido como **adcReadyStateLoaded** e o [Recordset](recordset-object-ado.md) estará vazio.</span><span class="sxs-lookup"><span data-stu-id="20b76-109">When you call **Cancel**, [ReadyState](readystate-property-rds.md) is automatically set to **adcReadyStateLoaded**, and the [Recordset](recordset-object-ado.md) will be empty.</span></span>
+<span data-ttu-id="89302-109">Ao chamar **Cancel**, [ReadyState](readystate-property-rds.md) é automaticamente definido como **adcReadyStateLoaded** e o [Recordset](recordset-object-ado.md) estará vazio.</span><span class="sxs-lookup"><span data-stu-id="89302-109">When you call **Cancel**, [ReadyState](readystate-property-rds.md) is automatically set to **adcReadyStateLoaded**, and the [Recordset](recordset-object-ado.md) will be empty.</span></span>
 

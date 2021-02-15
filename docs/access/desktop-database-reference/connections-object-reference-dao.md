@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295748"
 ---
-# <a name="connections-object-reference-dao"></a><span data-ttu-id="56f3a-102">Referência de objeto de conexões (DAO)</span><span class="sxs-lookup"><span data-stu-id="56f3a-102">Connections object reference (DAO)</span></span>
+# <a name="connections-object-reference-dao"></a><span data-ttu-id="e45db-102">Referência de objeto de conexões (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45db-102">Connections object reference (DAO)</span></span>
 
-<span data-ttu-id="56f3a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56f3a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e45db-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e45db-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="56f3a-104">Coleção Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="56f3a-104">Connections collection (DAO)</span></span>](connections-collection-dao.md)
-- [<span data-ttu-id="56f3a-105">Membros de conexões (DAO)</span><span class="sxs-lookup"><span data-stu-id="56f3a-105">Connections members (DAO)</span></span>](connections-members-dao.md)
-- [<span data-ttu-id="56f3a-106">Propriedades de conexões (DAO)</span><span class="sxs-lookup"><span data-stu-id="56f3a-106">Connections properties (DAO)</span></span>](connections-properties-dao.md)
-- [<span data-ttu-id="56f3a-107">Métodos Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="56f3a-107">Connections methods (DAO)</span></span>](connections-methods-dao.md)
+- [<span data-ttu-id="e45db-104">Coleção Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45db-104">Connections collection (DAO)</span></span>](connections-collection-dao.md)
+- [<span data-ttu-id="e45db-105">Membros connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45db-105">Connections members (DAO)</span></span>](connections-members-dao.md)
+- [<span data-ttu-id="e45db-106">Propriedades connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45db-106">Connections properties (DAO)</span></span>](connections-properties-dao.md)
+- [<span data-ttu-id="e45db-107">Métodos connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45db-107">Connections methods (DAO)</span></span>](connections-methods-dao.md)
 

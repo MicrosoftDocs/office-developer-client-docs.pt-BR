@@ -1,5 +1,5 @@
 ---
-title: Objeto CellSet (referência do ADO MD)
+title: Objeto Cellset (referência do ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296532"
 ---
-# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="b180d-102">Objeto CellSet (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b180d-102">Cellset object (ADO MD reference)</span></span>
+# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="8abeb-102">Objeto Cellset (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8abeb-102">Cellset object (ADO MD reference)</span></span>
 
-<span data-ttu-id="b180d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b180d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8abeb-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8abeb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b180d-104">Objeto CellSet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b180d-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
-- [<span data-ttu-id="b180d-105">Propriedades, métodos e eventos do CellSet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b180d-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="8abeb-104">Objeto Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8abeb-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
+- [<span data-ttu-id="8abeb-105">Propriedades, métodos e eventos do cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8abeb-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
 
