@@ -1,5 +1,5 @@
 ---
-title: Método Fields. Delete (DAO)
+title: Método Fields.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292556"
 ---
-# <a name="fieldsdelete-method-dao"></a><span data-ttu-id="85e81-102">Método Fields. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="85e81-102">Fields.Delete method (DAO)</span></span>
+# <a name="fieldsdelete-method-dao"></a><span data-ttu-id="338c1-102">Método Fields.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="338c1-102">Fields.Delete method (DAO)</span></span>
 
-<span data-ttu-id="85e81-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85e81-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="338c1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="338c1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="85e81-104">Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="85e81-104">Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="338c1-104">Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="338c1-104">Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="85e81-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="85e81-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="338c1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="338c1-105">Syntax</span></span>
 
-<span data-ttu-id="85e81-106">*expressão* . Excluir (***nome***)</span><span class="sxs-lookup"><span data-stu-id="85e81-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="338c1-106">*expressão* . Delete(***Name***)</span><span class="sxs-lookup"><span data-stu-id="338c1-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="85e81-107">*expressão* Uma variável que representa um \*\*\*\* objeto Fields.</span><span class="sxs-lookup"><span data-stu-id="85e81-107">*expression* A variable that represents a **Fields** object.</span></span>
+<span data-ttu-id="338c1-107">*expressão* Uma variável que representa um objeto **Fields**.</span><span class="sxs-lookup"><span data-stu-id="338c1-107">*expression* A variable that represents a **Fields** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="85e81-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="85e81-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="338c1-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="338c1-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,30 +41,30 @@ ms.locfileid: "32292556"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="85e81-109">Nome</span><span class="sxs-lookup"><span data-stu-id="85e81-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="85e81-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="85e81-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="85e81-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="85e81-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="85e81-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="85e81-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="338c1-109">Nome</span><span class="sxs-lookup"><span data-stu-id="338c1-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="338c1-110">Necessária/opcional</span><span class="sxs-lookup"><span data-stu-id="338c1-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="338c1-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="338c1-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="338c1-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="338c1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85e81-113"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="85e81-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="85e81-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="85e81-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="85e81-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="85e81-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="85e81-116">O campo a ser excluído.</span><span class="sxs-lookup"><span data-stu-id="85e81-116">The field to delete.</span></span></p></td>
+<td><p><span data-ttu-id="338c1-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="338c1-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="338c1-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="338c1-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="338c1-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="338c1-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="338c1-116">O campo a ser excluído.</span><span class="sxs-lookup"><span data-stu-id="338c1-116">The field to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="85e81-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="85e81-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="338c1-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="338c1-117">Remarks</span></span>
 
-<span data-ttu-id="85e81-118">A exclusão de um objeto armazenado ocorre imediatamente, mas você deve usar o método **Refresh** em qualquer outra coleção que possa ser afetada pelas alterações na estrutura do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="85e81-118">The deletion of a stored object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="338c1-118">A exclusão de um objeto armazenado ocorre imediatamente, mas você deve usar o método **Refresh** em qualquer outra coleção que possa ser afetada pelas alterações na estrutura do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="338c1-118">The deletion of a stored object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-## <a name="example"></a><span data-ttu-id="85e81-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="85e81-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="338c1-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="338c1-119">Example</span></span>
 
-<span data-ttu-id="85e81-p101">Este exemplo usa o método **Append** ou **Delete** para modificar a coleção **Fields** de um **TableDef**. O procedimento AppendDeleteField é necessário para que esse procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="85e81-p101">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**. The AppendDeleteField procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="338c1-p101">Este exemplo usa o método **Append** ou **Delete** para modificar a coleção **Fields** de um **TableDef**. O procedimento AppendDeleteField é necessário para que esse procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="338c1-p101">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**. The AppendDeleteField procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub AppendX() 

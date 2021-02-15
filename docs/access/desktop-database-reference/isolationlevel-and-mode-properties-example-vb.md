@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291167"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="ed70e-102">Exemplo das propriedades IsolationLevel e Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="ed70e-102">IsolationLevel and Mode properties example (VB)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="46810-102">Exemplo das propriedades IsolationLevel e Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="46810-102">IsolationLevel and Mode properties example (VB)</span></span>
 
 
-<span data-ttu-id="ed70e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed70e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="46810-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="46810-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ed70e-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="ed70e-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="46810-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="46810-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```vb 
  

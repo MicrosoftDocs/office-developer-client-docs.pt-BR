@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292038"
 ---
-# <a name="handling-errors-in-jscript"></a><span data-ttu-id="61fba-102">Tratamento de erros em JScript</span><span class="sxs-lookup"><span data-stu-id="61fba-102">Handling errors in JScript</span></span>
+# <a name="handling-errors-in-jscript"></a><span data-ttu-id="5f8cd-102">Tratamento de erros em JScript</span><span class="sxs-lookup"><span data-stu-id="5f8cd-102">Handling errors in JScript</span></span>
 
 
-<span data-ttu-id="61fba-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61fba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5f8cd-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f8cd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61fba-p101">O código Microsoft JScript deve verificar a propriedade **Count** da coleção **Errors** do objeto **Connection**. Se o valor for maior que 0, percorra a coleção e imprima os valores como em qualquer outra linguagem.</span><span class="sxs-lookup"><span data-stu-id="61fba-p101">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection. If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
+<span data-ttu-id="5f8cd-p101">O código Microsoft JScript deve verificar a propriedade **Count** da coleção **Errors** do objeto **Connection**. Se o valor for maior que 0, percorra a coleção e imprima os valores como em qualquer outra linguagem.</span><span class="sxs-lookup"><span data-stu-id="5f8cd-p101">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection. If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
 
 ```javascript 
  

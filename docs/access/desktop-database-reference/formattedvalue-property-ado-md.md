@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292311"
 ---
-# <a name="formattedvalue-property-ado-md"></a><span data-ttu-id="fd868-102">Propriedade FormattedValue (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="fd868-102">FormattedValue property (ADO MD)</span></span>
+# <a name="formattedvalue-property-ado-md"></a><span data-ttu-id="a143c-102">Propriedade FormattedValue (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a143c-102">FormattedValue property (ADO MD)</span></span>
 
 
-<span data-ttu-id="fd868-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd868-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a143c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a143c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fd868-104">Indica a exibição formatada de um valor de célula.</span><span class="sxs-lookup"><span data-stu-id="fd868-104">Indicates the formatted display of a cell value.</span></span>
+<span data-ttu-id="a143c-104">Indica a exibição formatada de um valor de célula.</span><span class="sxs-lookup"><span data-stu-id="a143c-104">Indicates the formatted display of a cell value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="fd868-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="fd868-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a143c-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="a143c-105">Return values</span></span>
 
-<span data-ttu-id="fd868-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="fd868-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="a143c-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a143c-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fd868-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="fd868-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a143c-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="a143c-107">Remarks</span></span>
 
-<span data-ttu-id="fd868-p101">Use a propriedade **FormattedValue** para obter o valor de exibição formatado da propriedade [Value](value-property-ado-md.md) de um objeto [Cell](cell-object-ado-md.md). Por exemplo, se o valor de uma célula era 1056.87, e esse valor representava uma quantia em dólar, **FormattedValue** seria US$ 1.056,87.</span><span class="sxs-lookup"><span data-stu-id="fd868-p101">Use the **FormattedValue** property to obtain the formatted display value of the [Value](value-property-ado-md.md) property of a [Cell](cell-object-ado-md.md) object. For example, if the value of a cell was 1056.87, and this value represented a dollar amount, **FormattedValue** would be $1,056.87.</span></span>
+<span data-ttu-id="a143c-p101">Use a propriedade **FormattedValue** para obter o valor de exibição formatado da propriedade [Value](value-property-ado-md.md) de um objeto [Cell](cell-object-ado-md.md). Por exemplo, se o valor de uma célula era 1056.87, e esse valor representava uma quantia em dólar, **FormattedValue** seria US$ 1.056,87.</span><span class="sxs-lookup"><span data-stu-id="a143c-p101">Use the **FormattedValue** property to obtain the formatted display value of the [Value](value-property-ado-md.md) property of a [Cell](cell-object-ado-md.md) object. For example, if the value of a cell was 1056.87, and this value represented a dollar amount, **FormattedValue** would be $1,056.87.</span></span>
 

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291506"
 ---
-# <a name="indexes-object-reference-dao"></a><span data-ttu-id="4d7af-102">Referência de objeto de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7af-102">Indexes object reference (DAO)</span></span>
+# <a name="indexes-object-reference-dao"></a><span data-ttu-id="fba0f-102">Referência de objeto de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="fba0f-102">Indexes object reference (DAO)</span></span>
 
-<span data-ttu-id="4d7af-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d7af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fba0f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fba0f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4d7af-104">Coleção Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7af-104">Indexes collection (DAO)</span></span>](indexes-collection-dao.md)
-- [<span data-ttu-id="4d7af-105">Índices de Membros (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7af-105">Indexes members (DAO)</span></span>](indexes-members-dao.md)
-- [<span data-ttu-id="4d7af-106">Propriedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7af-106">Indexes properties (DAO)</span></span>](indexes-properties-dao.md)
-- [<span data-ttu-id="4d7af-107">Métodos Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7af-107">Indexes methods (DAO)</span></span>](indexes-methods-dao.md)
+- [<span data-ttu-id="fba0f-104">Coleção Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="fba0f-104">Indexes collection (DAO)</span></span>](indexes-collection-dao.md)
+- [<span data-ttu-id="fba0f-105">Membros indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="fba0f-105">Indexes members (DAO)</span></span>](indexes-members-dao.md)
+- [<span data-ttu-id="fba0f-106">Propriedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="fba0f-106">Indexes properties (DAO)</span></span>](indexes-properties-dao.md)
+- [<span data-ttu-id="fba0f-107">Métodos de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="fba0f-107">Indexes methods (DAO)</span></span>](indexes-methods-dao.md)
 

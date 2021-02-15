@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291487"
 ---
-# <a name="indexes-properties-dao"></a><span data-ttu-id="cf813-102">Propriedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="cf813-102">Indexes properties (DAO)</span></span>
+# <a name="indexes-properties-dao"></a><span data-ttu-id="32500-102">Propriedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="32500-102">Indexes properties (DAO)</span></span>
 
-<span data-ttu-id="cf813-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf813-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="32500-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="32500-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cf813-104">Propriedade Indexes. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="cf813-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
+- [<span data-ttu-id="32500-104">Propriedade Indexes.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="32500-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
 

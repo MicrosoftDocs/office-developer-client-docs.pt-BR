@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292248"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vc"></a><span data-ttu-id="94113-102">Exemplo dos métodos GetPermissions e SetPermissions (VC++)</span><span class="sxs-lookup"><span data-stu-id="94113-102">GetPermissions and SetPermissions methods example (VC++)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vc"></a><span data-ttu-id="d2683-102">Exemplo dos métodos GetPermissions e SetPermissions (VC++)</span><span class="sxs-lookup"><span data-stu-id="d2683-102">GetPermissions and SetPermissions methods example (VC++)</span></span>
 
 
-<span data-ttu-id="94113-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94113-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2683-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2683-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="94113-p101">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md). O código a seguir concede acesso total ao usuário Admin para a tabela Pedidos.</span><span class="sxs-lookup"><span data-stu-id="94113-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access to the Orders table to the Admin user.</span></span>
+<span data-ttu-id="d2683-p101">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md). O código a seguir concede acesso total ao usuário Admin para a tabela Pedidos.</span><span class="sxs-lookup"><span data-stu-id="d2683-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access to the Orders table to the Admin user.</span></span>
 
 ```cpp 
  

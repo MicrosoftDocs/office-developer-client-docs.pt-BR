@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. OrdinalPosition (DAO)
+title: Propriedade Field.OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
@@ -14,26 +14,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293032"
 ---
-# <a name="fieldordinalposition-property-dao"></a><span data-ttu-id="f1de6-102">Propriedade Field. OrdinalPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1de6-102">Field.OrdinalPosition property (DAO)</span></span>
+# <a name="fieldordinalposition-property-dao"></a><span data-ttu-id="e32bc-102">Propriedade Field.OrdinalPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="e32bc-102">Field.OrdinalPosition property (DAO)</span></span>
 
 
-<span data-ttu-id="f1de6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1de6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e32bc-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e32bc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f1de6-104">Define ou retorna a posição relativa de um objeto **[Field](field-object-dao.md)** em uma coleção **[Fields](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="f1de6-104">Sets or returns the relative position of a **[Field](field-object-dao.md)** object within a **[Fields](fields-collection-dao.md)** collection.</span></span> <span data-ttu-id="f1de6-105">.</span><span class="sxs-lookup"><span data-stu-id="f1de6-105"></span></span>
+<span data-ttu-id="e32bc-104">Define ou retorna a posição relativa de um **[objeto Field](field-object-dao.md)** dentro de uma **[coleção Fields](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="e32bc-104">Sets or returns the relative position of a **[Field](field-object-dao.md)** object within a **[Fields](fields-collection-dao.md)** collection.</span></span> <span data-ttu-id="e32bc-105">.</span><span class="sxs-lookup"><span data-stu-id="e32bc-105">.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f1de6-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f1de6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e32bc-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e32bc-106">Syntax</span></span>
 
-<span data-ttu-id="f1de6-107">*expressão* . OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="f1de6-107">*expression* .OrdinalPosition</span></span>
+<span data-ttu-id="e32bc-107">*expressão* . OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="e32bc-107">*expression* .OrdinalPosition</span></span>
 
-<span data-ttu-id="f1de6-108">*expressão* Uma variável que representa um objeto **Field** .</span><span class="sxs-lookup"><span data-stu-id="f1de6-108">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="e32bc-108">*expressão* Uma variável que representa um objeto de **Campo**.</span><span class="sxs-lookup"><span data-stu-id="e32bc-108">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f1de6-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="f1de6-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e32bc-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="e32bc-109">Remarks</span></span>
 
-<span data-ttu-id="f1de6-110">Para um objeto ainda não acrescentado à coleção **Fields**, essa propriedade é de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="f1de6-110">For an object not yet appended to the **Fields** collection, this property is read/write.</span></span>
+<span data-ttu-id="e32bc-110">Para um objeto ainda não acrescentado à coleção **Fields**, essa propriedade é de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e32bc-110">For an object not yet appended to the **Fields** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="f1de6-111">O padrão é 0.</span><span class="sxs-lookup"><span data-stu-id="f1de6-111">The default is 0.</span></span>
+<span data-ttu-id="e32bc-111">O padrão é 0.</span><span class="sxs-lookup"><span data-stu-id="e32bc-111">The default is 0.</span></span>
 
-<span data-ttu-id="f1de6-112">A disponibilidade da propriedade **OrdinalPosition** depende do objeto que contém a coleção **Fields**, conforme mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="f1de6-112">The availability of the **OrdinalPosition** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
+<span data-ttu-id="e32bc-112">A disponibilidade da propriedade **OrdinalPosition** depende do objeto que contém a coleção **Fields**, conforme mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="e32bc-112">The availability of the **OrdinalPosition** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -42,56 +42,56 @@ ms.locfileid: "32293032"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f1de6-113">Se a coleção Fields pertencer a um</span><span class="sxs-lookup"><span data-stu-id="f1de6-113">If the Fields collection belongs to a</span></span></p></th>
-<th><p><span data-ttu-id="f1de6-114">OrdinalPosition será</span><span class="sxs-lookup"><span data-stu-id="f1de6-114">Then OrdinalPosition is</span></span></p></th>
+<th><p><span data-ttu-id="e32bc-113">Se a coleção Fields pertencer a um</span><span class="sxs-lookup"><span data-stu-id="e32bc-113">If the Fields collection belongs to a</span></span></p></th>
+<th><p><span data-ttu-id="e32bc-114">OrdinalPosition será</span><span class="sxs-lookup"><span data-stu-id="e32bc-114">Then OrdinalPosition is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1de6-115">
-						Objeto <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="f1de6-115"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="f1de6-116">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="f1de6-116">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-115">
+						Objeto <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="e32bc-115"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-116">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e32bc-116">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1de6-117">
-						Objeto <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="f1de6-117"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="f1de6-118">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="f1de6-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-117">
+						Objeto <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="e32bc-117"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-118">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="e32bc-118">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1de6-119">
-						Objeto <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="f1de6-119"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="f1de6-120">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="f1de6-120">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-119">
+						Objeto <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="e32bc-119"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-120">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="e32bc-120">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1de6-121">
-						Objeto <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="f1de6-121"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="f1de6-122">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="f1de6-122">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-121">
+						Objeto <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="e32bc-121"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-122">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e32bc-122">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1de6-123">
-						Objeto <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="f1de6-123"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="f1de6-124">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="f1de6-124">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-123">
+						Objeto <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="e32bc-123"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="e32bc-124">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="e32bc-124">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f1de6-125">Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado.</span><span class="sxs-lookup"><span data-stu-id="f1de6-125">Generally, the ordinal position of an object that you append to a collection depends on the order in which you append the object.</span></span> <span data-ttu-id="f1de6-126">O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="f1de6-126">The first appended object is in the first position (0), the second appended object is in the second position (1), and so on.</span></span> <span data-ttu-id="f1de6-127">O último objeto acrescentado está na contagem de posições ordinais – 1, onde contagem é o número de objetos na coleção como especificado pela configuração da propriedade **[Count](containers-count-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="f1de6-127">The last appended object is in ordinal position count – 1, where count is the number of objects in the collection as specified by the **[Count](containers-count-property-dao.md)** property setting.</span></span>
+<span data-ttu-id="e32bc-125">Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado.</span><span class="sxs-lookup"><span data-stu-id="e32bc-125">Generally, the ordinal position of an object that you append to a collection depends on the order in which you append the object.</span></span> <span data-ttu-id="e32bc-126">O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="e32bc-126">The first appended object is in the first position (0), the second appended object is in the second position (1), and so on.</span></span> <span data-ttu-id="e32bc-127">O último objeto anexado está na contagem de posição ordinal – 1, onde count é o número de objetos na coleção conforme especificado pela configuração da propriedade **[Count.](containers-count-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="e32bc-127">The last appended object is in ordinal position count – 1, where count is the number of objects in the collection as specified by the **[Count](containers-count-property-dao.md)** property setting.</span></span>
 
-<span data-ttu-id="f1de6-128">Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção.</span><span class="sxs-lookup"><span data-stu-id="f1de6-128">You can use the **OrdinalPosition** property to specify an ordinal position for new **Field** objects that differs from the order in which you append those objects to a collection.</span></span> <span data-ttu-id="f1de6-129">Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo.</span><span class="sxs-lookup"><span data-stu-id="f1de6-129">This enables you to specify a field order for your tables, queries, and recordsets when you use them in an application.</span></span> <span data-ttu-id="f1de6-130">Por exemplo, a ordem na qual os campos são retornados em uma \* consulta seleção é determinada pelos valores de propriedade **OrdinalPosition** atuais.</span><span class="sxs-lookup"><span data-stu-id="f1de6-130">For example, the order in which fields are returned in a SELECT \* query is determined by the current **OrdinalPosition** property values.</span></span>
+<span data-ttu-id="e32bc-128">Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção.</span><span class="sxs-lookup"><span data-stu-id="e32bc-128">You can use the **OrdinalPosition** property to specify an ordinal position for new **Field** objects that differs from the order in which you append those objects to a collection.</span></span> <span data-ttu-id="e32bc-129">Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo.</span><span class="sxs-lookup"><span data-stu-id="e32bc-129">This enables you to specify a field order for your tables, queries, and recordsets when you use them in an application.</span></span> <span data-ttu-id="e32bc-130">Por exemplo, a ordem na qual os campos são retornados em uma consulta SELECT é determinada pelos valores atuais da \* **propriedade OrdinalPosition.**</span><span class="sxs-lookup"><span data-stu-id="e32bc-130">For example, the order in which fields are returned in a SELECT \* query is determined by the current **OrdinalPosition** property values.</span></span>
 
-<span data-ttu-id="f1de6-131">Redefina, de forma permanente, a ordem na qual os campos são retornados nos recordsets pela definição da propriedade **OrdinalPosition** para qualquer número inteiro positivo.</span><span class="sxs-lookup"><span data-stu-id="f1de6-131">You can permanently reset the order in which fields are returned in recordsets by setting the **OrdinalPosition** property to any positive integer.</span></span>
+<span data-ttu-id="e32bc-131">Redefina, de forma permanente, a ordem na qual os campos são retornados nos recordsets pela definição da propriedade **OrdinalPosition** para qualquer número inteiro positivo.</span><span class="sxs-lookup"><span data-stu-id="e32bc-131">You can permanently reset the order in which fields are returned in recordsets by setting the **OrdinalPosition** property to any positive integer.</span></span>
 
-<span data-ttu-id="f1de6-p104">Dois ou mais objetos **Field** na mesma coleção podem ter o mesmo valor da propriedade **OrdinalPosition** e, nesse caso, serão colocados em ordem alfabética. Por exemplo, se você tem um campo denominado Idade definido como 4 e definir um segundo campo denominado Peso como 4, Peso será retornado depois de Idade.</span><span class="sxs-lookup"><span data-stu-id="f1de6-p104">Two or more **Field** objects in the same collection can have the same **OrdinalPosition** property value, in which case they will be ordered alphabetically. For example, if you have a field named Age set to 4 and you set a second field named Weight to 4, Weight is returned after Age.</span></span>
+<span data-ttu-id="e32bc-p104">Dois ou mais objetos **Field** na mesma coleção podem ter o mesmo valor da propriedade **OrdinalPosition** e, nesse caso, serão colocados em ordem alfabética. Por exemplo, se você tem um campo denominado Idade definido como 4 e definir um segundo campo denominado Peso como 4, Peso será retornado depois de Idade.</span><span class="sxs-lookup"><span data-stu-id="e32bc-p104">Two or more **Field** objects in the same collection can have the same **OrdinalPosition** property value, in which case they will be ordered alphabetically. For example, if you have a field named Age set to 4 and you set a second field named Weight to 4, Weight is returned after Age.</span></span>
 
-<span data-ttu-id="f1de6-p105">Especifique um número maior que o número de campos menos 1. O campo será retornado em uma ordem relativa ao maior número. Por exemplo, se você definir a propriedade **OrdinalPosition** do campo como 20 (e existirem somente cinco campos) e já tiver definido a propriedade **OrdinalPosition** para outros dois campos como 10 e 30, respectivamente, o campo definido como 20 será retornado entre os campos definidos como 10 e 30.</span><span class="sxs-lookup"><span data-stu-id="f1de6-p105">You can specify a number that is greater than the number of fields minus 1. The field will be returned in an order relative to the largest number. For example, if you set a field's **OrdinalPosition** property to 20 (and there are only 5 fields) and you've set the **OrdinalPosition** property for two other fields to 10 and 30, respectively, the field set to 20 is returned between the fields set to 10 and 30.</span></span>
+<span data-ttu-id="e32bc-p105">Especifique um número maior que o número de campos menos 1. O campo será retornado em uma ordem relativa ao maior número. Por exemplo, se você definir a propriedade **OrdinalPosition** do campo como 20 (e existirem somente cinco campos) e já tiver definido a propriedade **OrdinalPosition** para outros dois campos como 10 e 30, respectivamente, o campo definido como 20 será retornado entre os campos definidos como 10 e 30.</span><span class="sxs-lookup"><span data-stu-id="e32bc-p105">You can specify a number that is greater than the number of fields minus 1. The field will be returned in an order relative to the largest number. For example, if you set a field's **OrdinalPosition** property to 20 (and there are only 5 fields) and you've set the **OrdinalPosition** property for two other fields to 10 and 30, respectively, the field set to 20 is returned between the fields set to 10 and 30.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f1de6-137">[!OBSERVAçãO] Mesmo se a coleção **Fields** de um [TableDef](tabledef-object-dao.md) não tiver sido atualizado, a ordem do campo em um [Recordset](recordset-object-dao.md) aberto a partir de **TableDef** refletirá os dados de **OrdinalPosition** do objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="f1de6-137">Even if the **Fields** collection of a [TableDef](tabledef-object-dao.md) has not been refreshed, the field order in a [Recordset](recordset-object-dao.md) opened from the **TableDef** will reflect the **OrdinalPosition** data of the **TableDef** object.</span></span> <span data-ttu-id="f1de6-138">Um **Recordset** tipo tabela terá os mesmos dados de **OrdinalPosition** que a tabela base, mas nenhum outro tipo de **Recordset** terá novos dados **OrdinalPosition** (começando com 0) que seguirão a ordem determinada pelos dados **OrdinalPosition** de **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="f1de6-138">A table-type **Recordset** will have the same **OrdinalPosition** data as the underlying table, but any other type of **Recordset** will have new **OrdinalPosition** data (starting with 0) that follow the order determined by the **OrdinalPosition** data of the **TableDef**.</span></span>
+> <span data-ttu-id="e32bc-137">[!OBSERVAçãO] Mesmo se a coleção **Fields** de um [TableDef](tabledef-object-dao.md) não tiver sido atualizado, a ordem do campo em um [Recordset](recordset-object-dao.md) aberto a partir de **TableDef** refletirá os dados de **OrdinalPosition** do objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e32bc-137">Even if the **Fields** collection of a [TableDef](tabledef-object-dao.md) has not been refreshed, the field order in a [Recordset](recordset-object-dao.md) opened from the **TableDef** will reflect the **OrdinalPosition** data of the **TableDef** object.</span></span> <span data-ttu-id="e32bc-138">Um **Recordset** tipo tabela terá os mesmos dados de **OrdinalPosition** que a tabela base, mas nenhum outro tipo de **Recordset** terá novos dados **OrdinalPosition** (começando com 0) que seguirão a ordem determinada pelos dados **OrdinalPosition** de **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e32bc-138">A table-type **Recordset** will have the same **OrdinalPosition** data as the underlying table, but any other type of **Recordset** will have new **OrdinalPosition** data (starting with 0) that follow the order determined by the **OrdinalPosition** data of the **TableDef**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f1de6-139">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f1de6-139">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e32bc-139">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e32bc-139">Example</span></span>
 
-<span data-ttu-id="f1de6-p107">Este exemplo altera os valores da propriedade **OrdinalPosition** no **TableDef** Funcionários para controlar a ordem **Field** em um **Recordset** resultante. Pela definição de **OrdinalPosition** de todos os **Fields** como 1, qualquer **Recordset** resultante colocará os **Fields** em ordem alfabética. Observe que os valores **OrdinalPosition** em **Recordset** não correspondem aos valores de **TableDef**, mas refletem apenas o resultado final das alterações de **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="f1de6-p107">This example changes the **OrdinalPosition** property values in the Employees **TableDef** in order to control the **Field** order in a resulting **Recordset**. By setting the **OrdinalPosition** of all the **Fields** to 1, any resulting **Recordset** will order the **Fields** alphabetically. Note that the **OrdinalPosition** values in the **Recordset** don't match the values in the **TableDef**, but simply reflect the end result of the **TableDef** changes.</span></span>
+<span data-ttu-id="e32bc-p107">Este exemplo altera os valores da propriedade **OrdinalPosition** no **TableDef** Funcionários para controlar a ordem **Field** em um **Recordset** resultante. Pela definição de **OrdinalPosition** de todos os **Fields** como 1, qualquer **Recordset** resultante colocará os **Fields** em ordem alfabética. Observe que os valores **OrdinalPosition** em **Recordset** não correspondem aos valores de **TableDef**, mas refletem apenas o resultado final das alterações de **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e32bc-p107">This example changes the **OrdinalPosition** property values in the Employees **TableDef** in order to control the **Field** order in a resulting **Recordset**. By setting the **OrdinalPosition** of all the **Fields** to 1, any resulting **Recordset** will order the **Fields** alphabetically. Note that the **OrdinalPosition** values in the **Recordset** don't match the values in the **TableDef**, but simply reflect the end result of the **TableDef** changes.</span></span>
 
 ```vb
     Sub OrdinalPositionX() 

@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292269"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="62c1e-102">Exemplo dos métodos GetPermissions e SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="62c1e-102">GetPermissions and SetPermissions methods example (VB)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="8343d-102">Exemplo dos métodos GetPermissions e SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="8343d-102">GetPermissions and SetPermissions methods example (VB)</span></span>
 
 
-<span data-ttu-id="62c1e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62c1e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8343d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8343d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="62c1e-104">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="62c1e-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="62c1e-105">O código a seguir dá ao usuário Admin acesso total à tabela Orders.</span><span class="sxs-lookup"><span data-stu-id="62c1e-105">The following code gives full access for the Orders table to the Admin user.</span></span>
+<span data-ttu-id="8343d-104">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="8343d-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="8343d-105">O código a seguir dá ao usuário Admin acesso total à tabela Orders.</span><span class="sxs-lookup"><span data-stu-id="8343d-105">The following code gives full access for the Orders table to the Admin user.</span></span>
 
 ```vb 
  

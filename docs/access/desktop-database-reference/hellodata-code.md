@@ -1,5 +1,5 @@
 ---
-title: Código HelloData (referência de banco de dados de área de trabalho do Access)
+title: Código HelloData (referência do banco de dados da área de trabalho do Access)
 TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292003"
 ---
-# <a name="hellodata-code"></a><span data-ttu-id="f3c7f-102">Código do HelloData</span><span class="sxs-lookup"><span data-stu-id="f3c7f-102">HelloData code</span></span>
+# <a name="hellodata-code"></a><span data-ttu-id="6c634-102">Código do HelloData</span><span class="sxs-lookup"><span data-stu-id="6c634-102">HelloData code</span></span>
 
 
-<span data-ttu-id="f3c7f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3c7f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6c634-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6c634-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292171"
 ---
-# <a name="getstring-method-example-vj"></a><span data-ttu-id="d6452-102">Exemplo do método GetString (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d6452-102">GetString method example (VJ++)</span></span>
+# <a name="getstring-method-example-vj"></a><span data-ttu-id="43ec8-102">Exemplo do método GetString (VJ++)</span><span class="sxs-lookup"><span data-stu-id="43ec8-102">GetString method example (VJ++)</span></span>
 
 
-<span data-ttu-id="d6452-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6452-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="43ec8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="43ec8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d6452-104">Este exemplo demonstra o método [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d6452-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="43ec8-104">Este exemplo demonstra o método [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="43ec8-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="d6452-105">Suponha que você esteja depurando um problema de acesso a dados e deseja uma forma simples e rápida de imprimir o conteúdo atual de um pequeno [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d6452-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="43ec8-105">Suponha que você esteja depurando um problema de acesso a dados e deseja uma forma simples e rápida de imprimir o conteúdo atual de um pequeno [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="43ec8-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```java 
  

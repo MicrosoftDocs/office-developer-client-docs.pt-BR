@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292465"
 ---
-# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="4af46-102">Exemplo das propriedades Filter e RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="4af46-102">Filter and RecordCount properties example (VC++)</span></span>
+# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="de383-102">Exemplo das propriedades Filter e RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="de383-102">Filter and RecordCount properties example (VC++)</span></span>
 
 
-<span data-ttu-id="4af46-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4af46-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="de383-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de383-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4af46-p101">Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="4af46-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
+<span data-ttu-id="de383-p101">Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="de383-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
 
 ```cpp 
  
@@ -320,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-<span data-ttu-id="4af46-107">**FilterX. h**</span><span class="sxs-lookup"><span data-stu-id="4af46-107">**FilterX.h**</span></span>
+<span data-ttu-id="de383-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="de383-107">**FilterX.h**</span></span>
 
 ```cpp 
  

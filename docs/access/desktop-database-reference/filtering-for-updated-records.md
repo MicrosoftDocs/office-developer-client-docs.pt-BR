@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292395"
 ---
-# <a name="filtering-for-updated-records"></a><span data-ttu-id="2312e-102">Filtragem de registros atualizados</span><span class="sxs-lookup"><span data-stu-id="2312e-102">Filtering for updated records</span></span>
+# <a name="filtering-for-updated-records"></a><span data-ttu-id="7e22d-102">Filtragem de registros atualizados</span><span class="sxs-lookup"><span data-stu-id="7e22d-102">Filtering for updated records</span></span>
 
-<span data-ttu-id="2312e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2312e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7e22d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e22d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="filtering-for-updated-records"></a><span data-ttu-id="2312e-104">Filtrando registros atualizados</span><span class="sxs-lookup"><span data-stu-id="2312e-104">Filtering for Updated Records</span></span>
+## <a name="filtering-for-updated-records"></a><span data-ttu-id="7e22d-104">Filtrando registros atualizados</span><span class="sxs-lookup"><span data-stu-id="7e22d-104">Filtering for Updated Records</span></span>
 
-<span data-ttu-id="2312e-p101">Antes de chamar **UpdateBatch**, você pode usar a propriedade **Filter** de **Recordset** para exibir somente os registros que foram alterados desde a abertura de **Recordset** ou da última chamada de **UpdateBatch**. Para isso, defina **Filter** como **adFilterPendingRecords** para determinar quantos registros serão atualizados, como mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="2312e-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
+<span data-ttu-id="7e22d-p101">Antes de chamar **UpdateBatch**, você pode usar a propriedade **Filter** de **Recordset** para exibir somente os registros que foram alterados desde a abertura de **Recordset** ou da última chamada de **UpdateBatch**. Para isso, defina **Filter** como **adFilterPendingRecords** para determinar quantos registros serão atualizados, como mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="7e22d-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
 
-<span data-ttu-id="2312e-107">Este exemplo amplia o exemplo anterior de **UpdateBatch** filtrando o **Recordset** antes de chamar o **UpdateBatch**, mostrando ao usuário os registros que serão alterados e permitindo que ele cancele a atualização (usando o método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="2312e-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
+<span data-ttu-id="7e22d-107">Este exemplo amplia o exemplo anterior de **UpdateBatch** filtrando o **Recordset** antes de chamar o **UpdateBatch**, mostrando ao usuário os registros que serão alterados e permitindo que ele cancele a atualização (usando o método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="7e22d-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
 
 ```vb 
  

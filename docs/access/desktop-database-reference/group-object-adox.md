@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292115"
 ---
-# <a name="group-object-adox"></a><span data-ttu-id="2e89c-102">Objeto Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2e89c-102">Group object (ADOX)</span></span>
+# <a name="group-object-adox"></a><span data-ttu-id="a63cf-102">Objeto Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a63cf-102">Group object (ADOX)</span></span>
 
 
-<span data-ttu-id="2e89c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e89c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a63cf-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a63cf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e89c-104">Representa uma conta de grupo que tem permissões de acesso em um banco de dados protegido.</span><span class="sxs-lookup"><span data-stu-id="2e89c-104">Represents a group account that has access permissions within a secured database.</span></span>
+<span data-ttu-id="a63cf-104">Representa uma conta de grupo que tem permissões de acesso em um banco de dados protegido.</span><span class="sxs-lookup"><span data-stu-id="a63cf-104">Represents a group account that has access permissions within a secured database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2e89c-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="2e89c-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a63cf-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="a63cf-105">Remarks</span></span>
 
-<span data-ttu-id="2e89c-p101">A coleção [Groups](groups-collection-adox.md) de um [Catálogo](catalog-object-adox.md) representa todas as contas de grupo do catálogo. A coleção **Groups** de um [Usuário](user-object-adox.md) representa apenas o grupo ao qual o usuário pertence.</span><span class="sxs-lookup"><span data-stu-id="2e89c-p101">The [Groups](groups-collection-adox.md) collection of a [Catalog](catalog-object-adox.md) represents all the catalog's group accounts. The **Groups** collection for a [User](user-object-adox.md) represents only the group to which the user belongs.</span></span>
+<span data-ttu-id="a63cf-p101">A coleção [Groups](groups-collection-adox.md) de um [Catálogo](catalog-object-adox.md) representa todas as contas de grupo do catálogo. A coleção **Groups** de um [Usuário](user-object-adox.md) representa apenas o grupo ao qual o usuário pertence.</span><span class="sxs-lookup"><span data-stu-id="a63cf-p101">The [Groups](groups-collection-adox.md) collection of a [Catalog](catalog-object-adox.md) represents all the catalog's group accounts. The **Groups** collection for a [User](user-object-adox.md) represents only the group to which the user belongs.</span></span>
 
-<span data-ttu-id="2e89c-108">Com as propriedades, as coleções e os métodos de um objeto **Group**, você pode:</span><span class="sxs-lookup"><span data-stu-id="2e89c-108">With the properties, collections, and methods of a **Group** object, you can:</span></span>
+<span data-ttu-id="a63cf-108">Com as propriedades, as coleções e os métodos de um objeto **Group**, você pode:</span><span class="sxs-lookup"><span data-stu-id="a63cf-108">With the properties, collections, and methods of a **Group** object, you can:</span></span>
 
-  - <span data-ttu-id="2e89c-109">Identificar o grupo com a propriedade [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="2e89c-109">Identify the group with the [Name](name-property-adox.md) property.</span></span>
+  - <span data-ttu-id="a63cf-109">Identificar o grupo com a propriedade [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a63cf-109">Identify the group with the [Name](name-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="2e89c-110">Determinar se um grupo tem permissões de leitura, gravação ou exclusão com os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="2e89c-110">Determine whether a group has read, write, or delete permissions with the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span>
+  - <span data-ttu-id="a63cf-110">Determinar se um grupo tem permissões de leitura, gravação ou exclusão com os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a63cf-110">Determine whether a group has read, write, or delete permissions with the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span>
 
-  - <span data-ttu-id="2e89c-111">Acessar as contas de usuários que têm associações no grupo com a coleção [Users](users-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="2e89c-111">Access the user accounts that have memberships in the group with the [Users](users-collection-adox.md) collection.</span></span>
+  - <span data-ttu-id="a63cf-111">Acessar as contas de usuários que têm associações no grupo com a coleção [Users](users-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a63cf-111">Access the user accounts that have memberships in the group with the [Users](users-collection-adox.md) collection.</span></span>
 
-  - <span data-ttu-id="2e89c-112">Acessar propriedades específicas do provedor com a coleção [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2e89c-112">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
+  - <span data-ttu-id="a63cf-112">Acessar propriedades específicas do provedor com a coleção [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a63cf-112">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
 

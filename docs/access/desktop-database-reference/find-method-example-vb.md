@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292381"
 ---
-# <a name="find-method-example-vb"></a><span data-ttu-id="2d876-102">Exemplo do método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="2d876-102">Find method example (VB)</span></span>
+# <a name="find-method-example-vb"></a><span data-ttu-id="5a468-102">Exemplo do método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="5a468-102">Find method example (VB)</span></span>
 
 
-<span data-ttu-id="2d876-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d876-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5a468-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a468-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d876-104">Este exemplo utiliza o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e contar o número de títulos comerciais no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="2d876-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="2d876-105">O exemplo supõe que o provedor base não suporta funcionalidade semelhante.</span><span class="sxs-lookup"><span data-stu-id="2d876-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="5a468-104">Este exemplo utiliza o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e contar o número de títulos comerciais no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="5a468-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="5a468-105">O exemplo supõe que o provedor base não suporta funcionalidade semelhante.</span><span class="sxs-lookup"><span data-stu-id="5a468-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```vb 
  

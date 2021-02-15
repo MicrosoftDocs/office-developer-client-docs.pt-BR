@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292388"
 ---
-# <a name="find-method-example-jscript"></a><span data-ttu-id="8b3ff-102">Exemplo do método Find (JScript)</span><span class="sxs-lookup"><span data-stu-id="8b3ff-102">Find method example (JScript)</span></span>
+# <a name="find-method-example-jscript"></a><span data-ttu-id="38fc4-102">Exemplo do método Find (JScript)</span><span class="sxs-lookup"><span data-stu-id="38fc4-102">Find method example (JScript)</span></span>
 
 
-<span data-ttu-id="8b3ff-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b3ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="38fc4-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38fc4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8b3ff-104">Este exemplo utiliza o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e exibir as empresas no banco de dados ***Northwind*** cujo nome inicia com a letra G. Recorte e cole o seguinte código no Bloco de Notas ou em outro editor de texto e salve-o como **FindJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="8b3ff-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
+<span data-ttu-id="38fc4-104">Este exemplo utiliza o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e exibir as empresas no banco de dados ***Northwind*** cujo nome inicia com a letra G. Recorte e cole o seguinte código no Bloco de Notas ou em outro editor de texto e salve-o como **FindJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="38fc4-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
 
 ```javascript 
  

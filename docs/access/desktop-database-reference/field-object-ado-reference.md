@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293067"
 ---
-# <a name="field-object-ado-reference"></a><span data-ttu-id="149f2-102">Referência do objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="149f2-102">Field object (ADO) reference</span></span>
+# <a name="field-object-ado-reference"></a><span data-ttu-id="efd6c-102">Referência do objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="efd6c-102">Field object (ADO) reference</span></span>
 
-<span data-ttu-id="149f2-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="149f2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="efd6c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="efd6c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="149f2-104">Objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="149f2-104">Field object (ADO)</span></span>](field-object-ado.md)
-- [<span data-ttu-id="149f2-105">Propriedades, métodos e eventos do campo (ADO)</span><span class="sxs-lookup"><span data-stu-id="149f2-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="efd6c-104">Objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="efd6c-104">Field object (ADO)</span></span>](field-object-ado.md)
+- [<span data-ttu-id="efd6c-105">Propriedades, métodos e eventos de campo (ADO)</span><span class="sxs-lookup"><span data-stu-id="efd6c-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
 
