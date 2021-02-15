@@ -18,22 +18,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538232"
 ---
-# <a name="after-delete-macro-event"></a><span data-ttu-id="4cee4-102">Evento da macro Após Exclusão</span><span class="sxs-lookup"><span data-stu-id="4cee4-102">After Delete macro event</span></span>
+# <a name="after-delete-macro-event"></a><span data-ttu-id="7a562-102">Evento da macro Após Exclusão</span><span class="sxs-lookup"><span data-stu-id="7a562-102">After Delete macro event</span></span>
 
-<span data-ttu-id="4cee4-103">**Aplica-se a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4cee4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7a562-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a562-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4cee4-104">O evento **Após Exclusão** ocorre após a exclusão de cada evento.</span><span class="sxs-lookup"><span data-stu-id="4cee4-104">The **After Delete** event occurs after a record is deleted.</span></span>
+<span data-ttu-id="7a562-104">O evento **Após Exclusão** ocorre após a exclusão de cada evento.</span><span class="sxs-lookup"><span data-stu-id="7a562-104">The **After Delete** event occurs after a record is deleted.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4cee4-105">O evento **Após Exclusão** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="4cee4-105">The **After Delete** event is available only in Data Macros.</span></span>
+> <span data-ttu-id="7a562-105">O evento **Após Exclusão** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="7a562-105">The **After Delete** event is available only in Data Macros.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4cee4-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="4cee4-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7a562-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="7a562-106">Remarks</span></span>
 
-<span data-ttu-id="4cee4-p101">Use o evento **Após Exclusão** para executar qualquer ação que você deseja que ocorra após a exclusão de um registro. As utilizações mais comuns do **Após Exclusão** incluem a aplicação de regras de negócio, fluxos de trabalho, a atualização de um total agregado e o envio de notificações.</span><span class="sxs-lookup"><span data-stu-id="4cee4-p101">Use the **After Delete** event to perform any actions that you want to occur when a record is deleted. Common uses for the **After Delete** include enforcing business rules, workflows, updating an aggregate total, and sending notifications.</span></span>
+<span data-ttu-id="7a562-p101">Use o evento **Após Exclusão** para executar qualquer ação que você deseja que ocorra após a exclusão de um registro. As utilizações mais comuns do **Após Exclusão** incluem a aplicação de regras de negócio, fluxos de trabalho, a atualização de um total agregado e o envio de notificações.</span><span class="sxs-lookup"><span data-stu-id="7a562-p101">Use the **After Delete** event to perform any actions that you want to occur when a record is deleted. Common uses for the **After Delete** include enforcing business rules, workflows, updating an aggregate total, and sending notifications.</span></span>
 
-<span data-ttu-id="4cee4-109">Quando o evento **Após Exclusão** ocorre, os valores contidos no registro excluído ainda permanecem disponíveis.</span><span class="sxs-lookup"><span data-stu-id="4cee4-109">When the **After Delete** event occurs, the values contained in the deleted record are still available.</span></span> <span data-ttu-id="4cee4-110">Você pode querer usar um valor excluído para incrementar ou decrementar um total, criar uma trilha de auditoria ou comparar com um valor existente em um argumento *WhereCondition* .</span><span class="sxs-lookup"><span data-stu-id="4cee4-110">You may want to use a deleted value to increment or decrement a total, create an audit trail, or compare to an existing value in a *WhereCondition* argument.</span></span>
+<span data-ttu-id="7a562-109">Quando o evento **Após Exclusão** ocorre, os valores contidos no registro excluído ainda permanecem disponíveis.</span><span class="sxs-lookup"><span data-stu-id="7a562-109">When the **After Delete** event occurs, the values contained in the deleted record are still available.</span></span> <span data-ttu-id="7a562-110">Talvez você queira usar um valor excluído para incrementar ou rebaixar um total, criar uma trilha de auditoria ou comparar com um valor existente em um argumento *WhereCondition.*</span><span class="sxs-lookup"><span data-stu-id="7a562-110">You may want to use a deleted value to increment or decrement a total, create an audit trail, or compare to an existing value in a *WhereCondition* argument.</span></span>
 
-<span data-ttu-id="4cee4-111">Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado.</span><span class="sxs-lookup"><span data-stu-id="4cee4-111">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="4cee4-112">O código de exemplo a seguir mostra como usar uma instrução Se para determinar se o campo PaidInFull foi alterado.</span><span class="sxs-lookup"><span data-stu-id="4cee4-112">The following code example shows how to use an If staement to determine determine whether the PaidInFull field has been changed.</span></span>
+<span data-ttu-id="7a562-111">Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado.</span><span class="sxs-lookup"><span data-stu-id="7a562-111">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="7a562-112">O código de exemplo a seguir mostra como usar uma instrução Se para determinar se o campo PaidInFull foi alterado.</span><span class="sxs-lookup"><span data-stu-id="7a562-112">The following code example shows how to use an If staement to determine determine whether the PaidInFull field has been changed.</span></span>
 
 ```vb 
  
@@ -45,17 +45,17 @@ End If
  
 ```
 
-<span data-ttu-id="4cee4-113">Você pode acessar um valor no registro excluído utilizando a sintaxe a seguir</span><span class="sxs-lookup"><span data-stu-id="4cee4-113">You can use access a value in the deleted record by using the following syntax.</span></span>
+<span data-ttu-id="7a562-113">Você pode acessar um valor no registro excluído utilizando a sintaxe a seguir</span><span class="sxs-lookup"><span data-stu-id="7a562-113">You can use access a value in the deleted record by using the following syntax.</span></span>
 
 `[Old].[Field Name]`
 
-<span data-ttu-id="4cee4-114">Por exemplo, para acessar o valor do campo QuantityInStock no registro excluído, use a seguinte sintaxe.</span><span class="sxs-lookup"><span data-stu-id="4cee4-114">For example, to access the value of the QuantityInStock field in the deleted record, use the following syntax.</span></span>
+<span data-ttu-id="7a562-114">Por exemplo, para acessar o valor do campo QuantityInStock no registro excluído, use a seguinte sintaxe.</span><span class="sxs-lookup"><span data-stu-id="7a562-114">For example, to access the value of the QuantityInStock field in the deleted record, use the following syntax.</span></span>
 
 `[Old].[QuantityInStock]`
 
-<span data-ttu-id="4cee4-115">Os valores contidos no registro excluído são excluídos permanentemente após a conclusão do evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="4cee4-115">The values contained in the deleted record are deleted permanently when the **After Delete** event ends.</span></span>
+<span data-ttu-id="7a562-115">Os valores contidos no registro excluído são excluídos permanentemente após a conclusão do evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="7a562-115">The values contained in the deleted record are deleted permanently when the **After Delete** event ends.</span></span>
 
-<span data-ttu-id="4cee4-116">Os comandos de macro a seguir podem ser usados no evento **After Delete** .</span><span class="sxs-lookup"><span data-stu-id="4cee4-116">The following macro commands can be used in the **After Delete** event.</span></span>
+<span data-ttu-id="7a562-116">Os seguintes comandos de macro podem ser usados no evento **Após Exclusão.**</span><span class="sxs-lookup"><span data-stu-id="7a562-116">The following macro commands can be used in the **After Delete** event.</span></span>
 
 <table>
 <colgroup>
@@ -64,118 +64,118 @@ End If
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4cee4-117">Tipo de Comando</span><span class="sxs-lookup"><span data-stu-id="4cee4-117">Command Type</span></span></p></th>
-<th><p><span data-ttu-id="4cee4-118">Comando</span><span class="sxs-lookup"><span data-stu-id="4cee4-118">Command</span></span></p></th>
+<th><p><span data-ttu-id="7a562-117">Tipo de Comando</span><span class="sxs-lookup"><span data-stu-id="7a562-117">Command Type</span></span></p></th>
+<th><p><span data-ttu-id="7a562-118">Comando</span><span class="sxs-lookup"><span data-stu-id="7a562-118">Command</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-119">Fluxo do programa</span><span class="sxs-lookup"><span data-stu-id="4cee4-119">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-120"><a href="comment-macro-statement.md">Instrução de macro Comentário</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-120"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-119">Fluxo do programa</span><span class="sxs-lookup"><span data-stu-id="7a562-119">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="7a562-120"><a href="comment-macro-statement.md">Instrução de macro Comentário</a></span><span class="sxs-lookup"><span data-stu-id="7a562-120"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-121">Fluxo do Programa</span><span class="sxs-lookup"><span data-stu-id="4cee4-121">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-122"><a href="group-macro-statement.md">Instrução de macro Grupo</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-122"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-121">Fluxo do Programa</span><span class="sxs-lookup"><span data-stu-id="7a562-121">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="7a562-122"><a href="group-macro-statement.md">Instrução de macro Grupo</a></span><span class="sxs-lookup"><span data-stu-id="7a562-122"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-123">Fluxo do Programa</span><span class="sxs-lookup"><span data-stu-id="4cee4-123">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-124"><a href="if-then-else-macro-block.md">Bloco de macro Se... Então... Senão</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-124"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-123">Fluxo do Programa</span><span class="sxs-lookup"><span data-stu-id="7a562-123">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="7a562-124"><a href="if-then-else-macro-block.md">Bloco de macro Se... Então... Senão</a></span><span class="sxs-lookup"><span data-stu-id="7a562-124"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-125">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-125">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-126"><a href="createrecord-data-block.md">Ação de macro CriarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-126"><a href="createrecord-data-block.md">CreateRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-125">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="7a562-125">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="7a562-126"><a href="createrecord-data-block.md">Ação de macro CriarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-126"><a href="createrecord-data-block.md">CreateRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-127">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-127">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-128"><a href="editrecord-data-block.md">Ação de macro EditarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-128"><a href="editrecord-data-block.md">EditRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-127">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="7a562-127">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="7a562-128"><a href="editrecord-data-block.md">Ação de macro EditarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-128"><a href="editrecord-data-block.md">EditRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-129">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-129">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-130"><a href="foreachrecord-data-block.md">Ação de macro ParaCadaRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-130"><a href="foreachrecord-data-block.md">ForEachRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-129">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="7a562-129">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="7a562-130"><a href="foreachrecord-data-block.md">Ação de macro ParaCadaRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-130"><a href="foreachrecord-data-block.md">ForEachRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-131">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-131">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-132"><a href="lookuprecord-data-block.md">Bloco de dados PesquisarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-132"><a href="lookuprecord-data-block.md">LookupRecord data block</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-131">Bloco de dados</span><span class="sxs-lookup"><span data-stu-id="7a562-131">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="7a562-132"><a href="lookuprecord-data-block.md">Bloco de dados PesquisarRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-132"><a href="lookuprecord-data-block.md">LookupRecord data block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-133">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-133">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-134"><a href="cancelrecordchange-macro-action.md">Ação de macro CancelarAlteraçãodeRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-134"><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-133">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-133">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-134"><a href="cancelrecordchange-macro-action.md">Ação de macro CancelarAlteraçãodeRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-134"><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-135">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-135">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-136"><a href="clearmacroerror-macro-action.md">Ação de macro LimparErrodaMacro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-136"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-135">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-135">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-136"><a href="clearmacroerror-macro-action.md">Ação de macro LimparErrodaMacro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-136"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-137">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-137">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-138"><a href="deleterecord-macro-action.md">Ação de macro ExcluirRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-138"><a href="deleterecord-macro-action.md">DeleteRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-137">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-137">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-138"><a href="deleterecord-macro-action.md">Ação de macro ExcluirRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-138"><a href="deleterecord-macro-action.md">DeleteRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-139">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-139">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-140"><a href="exitforeachrecord-macro-action.md">Ação de macro SairparaCadaRegistro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-140"><a href="exitforeachrecord-macro-action.md">ExitForEachRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-139">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-139">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-140"><a href="exitforeachrecord-macro-action.md">Ação de macro SairparaCadaRegistro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-140"><a href="exitforeachrecord-macro-action.md">ExitForEachRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-141">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-141">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-142"><a href="logevent-macro-action.md">Ação de macro RegistrarEvento</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-142"><a href="logevent-macro-action.md">LogEvent macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-141">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-141">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-142"><a href="logevent-macro-action.md">Ação de macro RegistrarEvento</a></span><span class="sxs-lookup"><span data-stu-id="7a562-142"><a href="logevent-macro-action.md">LogEvent macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-143">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-143">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-144"><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-144"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-143">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-143">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-144"><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-144"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-145">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-145">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-146"><a href="raiseerror-macro-action.md">Ação de macro GerarErro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-146"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-145">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-145">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-146"><a href="raiseerror-macro-action.md">Ação de macro GerarErro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-146"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-147">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-147">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-148"><a href="rundatamacro-macro-action.md">Ação de macro ExecutarMacrodeDados</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-148"><a href="rundatamacro-macro-action.md">RunDataMacro macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-147">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-147">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-148"><a href="rundatamacro-macro-action.md">Ação de macro ExecutarMacrodeDados</a></span><span class="sxs-lookup"><span data-stu-id="7a562-148"><a href="rundatamacro-macro-action.md">RunDataMacro macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-149">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-149">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-150"><a href="sendemail-macro-action.md">Ação de macro EnviarEmail</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-150"><a href="sendemail-macro-action.md">SendEmail macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-149">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-149">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-150"><a href="sendemail-macro-action.md">Ação de macro EnviarEmail</a></span><span class="sxs-lookup"><span data-stu-id="7a562-150"><a href="sendemail-macro-action.md">SendEmail macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-151">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-151">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-152"><a href="setfield-macro-action.md">Ação de macro DefinirCampo</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-152"><a href="setfield-macro-action.md">SetField macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-151">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-151">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-152"><a href="setfield-macro-action.md">Ação de macro DefinirCampo</a></span><span class="sxs-lookup"><span data-stu-id="7a562-152"><a href="setfield-macro-action.md">SetField macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-153">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-153">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-154"><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-154"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-153">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-153">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-154"><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></span><span class="sxs-lookup"><span data-stu-id="7a562-154"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4cee4-155">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-155">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-156"><a href="stopallmacros-macro-action.md">Ação de macro PararTodasMacros</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-156"><a href="stopallmacros-macro-action.md">StopAllMacros macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-155">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-155">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-156"><a href="stopallmacros-macro-action.md">Ação de macro PararTodasMacros</a></span><span class="sxs-lookup"><span data-stu-id="7a562-156"><a href="stopallmacros-macro-action.md">StopAllMacros macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4cee4-157">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="4cee4-157">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="4cee4-158"><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></span><span class="sxs-lookup"><span data-stu-id="4cee4-158"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="7a562-157">Ação de Dados</span><span class="sxs-lookup"><span data-stu-id="7a562-157">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="7a562-158"><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></span><span class="sxs-lookup"><span data-stu-id="7a562-158"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="4cee4-159">Para criar uma Macro de Dados que capture o evento **Após Exclusão**, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="4cee4-159">To create a Data Macro that captures the **After Delete** event, use the following steps.</span></span>
+<span data-ttu-id="7a562-159">Para criar uma Macro de Dados que capture o evento **Após Exclusão**, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="7a562-159">To create a Data Macro that captures the **After Delete** event, use the following steps.</span></span>
 
-1.  <span data-ttu-id="4cee4-160">Abra a tabela na qual deseja capturar o evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="4cee4-160">Open the table for which you want to capture the **After Delete** event.</span></span>
+1.  <span data-ttu-id="7a562-160">Abra a tabela na qual deseja capturar o evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="7a562-160">Open the table for which you want to capture the **After Delete** event.</span></span>
 
-2.  <span data-ttu-id="4cee4-161">Na guia **Tabela**, no grupo **Após Eventos**, clique em **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="4cee4-161">On the **Table** tab, in the **After Events** group, click **After Delete**.</span></span>
+2.  <span data-ttu-id="7a562-161">Na guia **Tabela**, no grupo **Após Eventos**, clique em **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="7a562-161">On the **Table** tab, in the **After Events** group, click **After Delete**.</span></span>
 
-<span data-ttu-id="4cee4-162">Uma Macro de Dados vazia é exibida no designer de macros.</span><span class="sxs-lookup"><span data-stu-id="4cee4-162">An empty Data Macro is displayed in the macro designer.</span></span>
+<span data-ttu-id="7a562-162">Uma Macro de Dados vazia é exibida no designer de macros.</span><span class="sxs-lookup"><span data-stu-id="7a562-162">An empty Data Macro is displayed in the macro designer.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4cee4-163">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4cee4-163">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7a562-163">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7a562-163">Example</span></span>
 
-<span data-ttu-id="4cee4-p104">O exemplo de código a seguir usa o evento **Após Exclusão** para executar alguns processos quando um registro é excluído da tabela Doações. Quando um registro é excluído, a quantidade de doações é subtraída do campo DoaçõesRecebidas em DoaçõesRecebidas e do campo TotaldaDoação na tabela Doadores.</span><span class="sxs-lookup"><span data-stu-id="4cee4-p104">The following code example uses the **After Delete** event to perform some processing when a record is deleted from the Donations table. When a record is deleted, the amount of the donation is subracted form the DonationsReceived field in the DonationsReceived table and the TotalDonatedField in the Donors table.</span></span>
+<span data-ttu-id="7a562-p104">O exemplo de código a seguir usa o evento **Após Exclusão** para executar alguns processos quando um registro é excluído da tabela Doações. Quando um registro é excluído, a quantidade de doações é subtraída do campo DoaçõesRecebidas em DoaçõesRecebidas e do campo TotaldaDoação na tabela Doadores.</span><span class="sxs-lookup"><span data-stu-id="7a562-p104">The following code example uses the **After Delete** event to perform some processing when a record is deleted from the Donations table. When a record is deleted, the amount of the donation is subracted form the DonationsReceived field in the DonationsReceived table and the TotalDonatedField in the Donors table.</span></span>
 
-<span data-ttu-id="4cee4-166">**Clique aqui para exibir uma cópia de macro que você pode colar no Designer de Macros.**</span><span class="sxs-lookup"><span data-stu-id="4cee4-166">**Click here to view a copy of the macro that you can paste into Macro Designer.**</span></span>
+<span data-ttu-id="7a562-166">**Clique aqui para exibir uma cópia de macro que você pode colar no Designer de Macros.**</span><span class="sxs-lookup"><span data-stu-id="7a562-166">**Click here to view a copy of the macro that you can paste into Macro Designer.**</span></span>
 
-<span data-ttu-id="4cee4-167">Para exibir este exemplo no designer de macros, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="4cee4-167">To view this example in the macro designer, use the following steps.</span></span>
+<span data-ttu-id="7a562-167">Para exibir este exemplo no designer de macros, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="7a562-167">To view this example in the macro designer, use the following steps.</span></span>
 
-1.  <span data-ttu-id="4cee4-168">Abra a tabela na qual deseja capturar o evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="4cee4-168">Open the table for which you want to capture the **After Delete** event.</span></span>
+1.  <span data-ttu-id="7a562-168">Abra a tabela na qual deseja capturar o evento **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="7a562-168">Open the table for which you want to capture the **After Delete** event.</span></span>
 
-2.  <span data-ttu-id="4cee4-169">Na guia **Tabela**, no grupo **Após Eventos**, clique em **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="4cee4-169">On the **Table** tab, in the **After Events** group, click **After Delete**.</span></span>
+2.  <span data-ttu-id="7a562-169">Na guia **Tabela**, no grupo **Após Eventos**, clique em **Após Exclusão**.</span><span class="sxs-lookup"><span data-stu-id="7a562-169">On the **Table** tab, in the **After Events** group, click **After Delete**.</span></span>
 
-3.  <span data-ttu-id="4cee4-170">Selecione o código listado abaixo e pressione CTRL+C para copiá-lo para a área de transferência.</span><span class="sxs-lookup"><span data-stu-id="4cee4-170">Select the code listed below and then press CTRL+C to copy it to the Clipboard.</span></span>
+3.  <span data-ttu-id="7a562-170">Selecione o código listado abaixo e pressione CTRL+C para copiá-lo para a área de transferência.</span><span class="sxs-lookup"><span data-stu-id="7a562-170">Select the code listed below and then press CTRL+C to copy it to the Clipboard.</span></span>
 
-4.  <span data-ttu-id="4cee4-171">Ative a janela do designer de macros e pressione CTRL+V.</span><span class="sxs-lookup"><span data-stu-id="4cee4-171">Activate the macro designer window and then press CTRL+V.</span></span>
+4.  <span data-ttu-id="7a562-171">Ative a janela do designer de macros e pressione CTRL+V.</span><span class="sxs-lookup"><span data-stu-id="7a562-171">Activate the macro designer window and then press CTRL+V.</span></span>
 
 <!-- end list -->
 

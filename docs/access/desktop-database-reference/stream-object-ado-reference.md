@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314452"
 ---
-# <a name="stream-object-ado-reference"></a><span data-ttu-id="8bf83-102">Referência do objeto Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="8bf83-102">Stream object (ADO) reference</span></span>
+# <a name="stream-object-ado-reference"></a><span data-ttu-id="9143c-102">Referência do objeto Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="9143c-102">Stream object (ADO) reference</span></span>
 
-<span data-ttu-id="8bf83-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bf83-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9143c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9143c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8bf83-104">Objeto Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="8bf83-104">Stream object (ADO)</span></span>](stream-object-ado.md)
-- [<span data-ttu-id="8bf83-105">Propriedades, métodos e eventos do Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="8bf83-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="9143c-104">Objeto Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="9143c-104">Stream object (ADO)</span></span>](stream-object-ado.md)
+- [<span data-ttu-id="9143c-105">Propriedades, métodos e eventos do stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="9143c-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
 

@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314438"
 ---
-# <a name="table-object-adox-reference"></a><span data-ttu-id="a0901-102">Referência do objeto Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a0901-102">Table object (ADOX) reference</span></span>
+# <a name="table-object-adox-reference"></a><span data-ttu-id="34f45-102">Referência do objeto Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="34f45-102">Table object (ADOX) reference</span></span>
 
-<span data-ttu-id="a0901-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0901-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="34f45-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="34f45-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a0901-104">Objeto Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a0901-104">Table object (ADOX)</span></span>](table-object-adox.md)
-- [<span data-ttu-id="a0901-105">Propriedades, métodos e eventos da tabela (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a0901-105">Table properties, methods, and events (ADOX)</span></span>](table-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="34f45-104">Objeto Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="34f45-104">Table object (ADOX)</span></span>](table-object-adox.md)
+- [<span data-ttu-id="34f45-105">Propriedades, métodos e eventos de tabela (ADOX)</span><span class="sxs-lookup"><span data-stu-id="34f45-105">Table properties, methods, and events (ADOX)</span></span>](table-properties-methods-and-events-adox.md)
 

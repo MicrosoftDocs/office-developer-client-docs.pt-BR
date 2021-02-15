@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314725"
 ---
-# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="d61da-102">Como salvar o objeto DOM XML</span><span class="sxs-lookup"><span data-stu-id="d61da-102">Saving to the XML DOM object</span></span>
+# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="bc0c2-102">Como salvar o objeto DOM XML</span><span class="sxs-lookup"><span data-stu-id="bc0c2-102">Saving to the XML DOM object</span></span>
 
-<span data-ttu-id="d61da-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d61da-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bc0c2-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc0c2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="d61da-104">Salvando no objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="d61da-104">Saving to the XML DOM Object</span></span>
+## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="bc0c2-104">Salvando no objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="bc0c2-104">Saving to the XML DOM Object</span></span>
 
-<span data-ttu-id="d61da-105">É possível salvar um **Recordset** em formato XML para uma instância de um objeto MSXML DOM, conforme mostrado no seguinte código Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="d61da-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
+<span data-ttu-id="bc0c2-105">É possível salvar um **Recordset** em formato XML para uma instância de um objeto MSXML DOM, conforme mostrado no seguinte código Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="bc0c2-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
 
 ```vb 
  

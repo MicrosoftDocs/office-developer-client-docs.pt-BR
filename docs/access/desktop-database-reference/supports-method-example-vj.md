@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314858"
 ---
-# <a name="supports-method-example-vj"></a><span data-ttu-id="b09cd-102">Exemplo do método Supports (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b09cd-102">Supports method example (VJ++)</span></span>
+# <a name="supports-method-example-vj"></a><span data-ttu-id="783e7-102">Exemplo do método Supports (VJ++)</span><span class="sxs-lookup"><span data-stu-id="783e7-102">Supports method example (VJ++)</span></span>
 
 
-<span data-ttu-id="b09cd-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b09cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="783e7-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="783e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b09cd-p101">Este exemplo utiliza o método [Supports](supports-method-ado.md) para exibir as opções suportadas por um recordset aberto com tipos de cursor diferentes. A função DisplaySupport é necessária para a execução deste exemplo.</span><span class="sxs-lookup"><span data-stu-id="b09cd-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="783e7-p101">Este exemplo utiliza o método [Supports](supports-method-ado.md) para exibir as opções suportadas por um recordset aberto com tipos de cursor diferentes. A função DisplaySupport é necessária para a execução deste exemplo.</span><span class="sxs-lookup"><span data-stu-id="783e7-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
 
 ```java 
  

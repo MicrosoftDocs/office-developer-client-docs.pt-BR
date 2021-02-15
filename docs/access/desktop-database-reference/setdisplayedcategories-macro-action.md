@@ -18,16 +18,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314621"
 ---
-# <a name="setdisplayedcategories-macro-action"></a><span data-ttu-id="36352-102">Ação da macro DefinirCategoriasExibidas</span><span class="sxs-lookup"><span data-stu-id="36352-102">SetDisplayedCategories macro action</span></span>
+# <a name="setdisplayedcategories-macro-action"></a><span data-ttu-id="309c6-102">Ação da macro DefinirCategoriasExibidas</span><span class="sxs-lookup"><span data-stu-id="309c6-102">SetDisplayedCategories macro action</span></span>
 
 
-<span data-ttu-id="36352-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36352-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="309c6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="309c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36352-p101">Você pode usar a ação **DefinirCategoriasExibidas** para especificar quais categorias serão exibidas em **Navegar para Categoria** na barra de título do Painel de Navegação. Por exemplo, para que os usuários não possam mudar o Painel de Navegação para exibir objetos classificados por **Data da Criação**, use essa ação para ocultar essa opção na lista suspensa da barra de título.</span><span class="sxs-lookup"><span data-stu-id="36352-p101">You can use the **SetDisplayedCategories** action to specify which categories are displayed under **Navigate to Category** in the title bar of the Navigation Pane. For example, if you want to prevent users from switching the Navigation Pane so that it displays objects sorted by **Created Date**, you can use this action to hide that option in the title bar's drop-down list.</span></span>
+<span data-ttu-id="309c6-p101">Você pode usar a ação **DefinirCategoriasExibidas** para especificar quais categorias serão exibidas em **Navegar para Categoria** na barra de título do Painel de Navegação. Por exemplo, para que os usuários não possam mudar o Painel de Navegação para exibir objetos classificados por **Data da Criação**, use essa ação para ocultar essa opção na lista suspensa da barra de título.</span><span class="sxs-lookup"><span data-stu-id="309c6-p101">You can use the **SetDisplayedCategories** action to specify which categories are displayed under **Navigate to Category** in the title bar of the Navigation Pane. For example, if you want to prevent users from switching the Navigation Pane so that it displays objects sorted by **Created Date**, you can use this action to hide that option in the title bar's drop-down list.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="36352-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="36352-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="309c6-106">Setting</span><span class="sxs-lookup"><span data-stu-id="309c6-106">Setting</span></span>
 
-<span data-ttu-id="36352-107">A ação **DefinirCategoriasExibidas** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="36352-107">The **SetDisplayedCategories** action has the following arguments.</span></span>
+<span data-ttu-id="309c6-107">A ação **DefinirCategoriasExibidas** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="309c6-107">The **SetDisplayedCategories** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -36,28 +36,28 @@ ms.locfileid: "32314621"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="36352-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="36352-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="36352-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="36352-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="309c6-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="309c6-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="309c6-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="309c6-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="36352-110"><strong>Show</strong></span><span class="sxs-lookup"><span data-stu-id="36352-110"><strong>Show</strong></span></span></p></td>
-<td><p><span data-ttu-id="36352-111">Selecione <strong>Sim</strong> para mostrar a(s) categoria(s).</span><span class="sxs-lookup"><span data-stu-id="36352-111">Select <strong>Yes</strong> to show the category or categories.</span></span> <span data-ttu-id="36352-112">Selecione <strong>Não</strong> para ocultá-la(s).</span><span class="sxs-lookup"><span data-stu-id="36352-112">Select <strong>No</strong> to hide them.</span></span></p></td>
+<td><p><span data-ttu-id="309c6-110"><strong>Show</strong></span><span class="sxs-lookup"><span data-stu-id="309c6-110"><strong>Show</strong></span></span></p></td>
+<td><p><span data-ttu-id="309c6-111">Selecione <strong>Sim</strong> para mostrar a(s) categoria(s).</span><span class="sxs-lookup"><span data-stu-id="309c6-111">Select <strong>Yes</strong> to show the category or categories.</span></span> <span data-ttu-id="309c6-112">Selecione <strong>Não</strong> para ocultá-la(s).</span><span class="sxs-lookup"><span data-stu-id="309c6-112">Select <strong>No</strong> to hide them.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="36352-113"><strong>Categoria</strong></span><span class="sxs-lookup"><span data-stu-id="36352-113"><strong>Category</strong></span></span></p></td>
-<td><p><span data-ttu-id="36352-114">Digite ou selecione o nome da categoria que você deseja mostrar ou ocultar.</span><span class="sxs-lookup"><span data-stu-id="36352-114">Enter or select the name of the category you want to show or hide.</span></span> <span data-ttu-id="36352-115">Deixe em branco para mostrar ou ocultar todas as categorias.</span><span class="sxs-lookup"><span data-stu-id="36352-115">Leave blank to show or hide all categories.</span></span></p></td>
+<td><p><span data-ttu-id="309c6-113"><strong>Categoria</strong></span><span class="sxs-lookup"><span data-stu-id="309c6-113"><strong>Category</strong></span></span></p></td>
+<td><p><span data-ttu-id="309c6-114">Digite ou selecione o nome da categoria que você deseja mostrar ou ocultar.</span><span class="sxs-lookup"><span data-stu-id="309c6-114">Enter or select the name of the category you want to show or hide.</span></span> <span data-ttu-id="309c6-115">Deixe em branco para mostrar ou ocultar todas as categorias.</span><span class="sxs-lookup"><span data-stu-id="309c6-115">Leave blank to show or hide all categories.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="36352-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="36352-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="309c6-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="309c6-116">Remarks</span></span>
 
-  - <span data-ttu-id="36352-p104">A legenda da barra de título do Painel de Navegação indica o filtro que está atualmente ativo, caso haja algum filtro. Clique em qualquer lugar da barra para exibir a lista suspensa. Os itens que essa macro controla estão listados em **Navegar para Categoria**.</span><span class="sxs-lookup"><span data-stu-id="36352-p104">The caption in the title bar of the Navigation pane indicates which filter, if any, is currently active. Click anywhere in the bar to display the drop-down list. The items that this macro action controls are listed under **Navigate to Category**.</span></span>
+  - <span data-ttu-id="309c6-p104">A legenda da barra de título do Painel de Navegação indica o filtro que está atualmente ativo, caso haja algum filtro. Clique em qualquer lugar da barra para exibir a lista suspensa. Os itens que essa macro controla estão listados em **Navegar para Categoria**.</span><span class="sxs-lookup"><span data-stu-id="309c6-p104">The caption in the title bar of the Navigation pane indicates which filter, if any, is currently active. Click anywhere in the bar to display the drop-down list. The items that this macro action controls are listed under **Navigate to Category**.</span></span>
 
-  - <span data-ttu-id="36352-p105">Essa ação apenas habilita ou desabilita a exibição das categorias especificadas; ela não executa a alternância de exibição do Painel de Navegação. Por exemplo, se você estiver exibindo objetos classificados por **Data de Criação** e usar a ação **DefinirCategoriasExibidas** para desabilitar a opção **Data de Criação**, o Access não alternará a categoria no Painel de Navegação.</span><span class="sxs-lookup"><span data-stu-id="36352-p105">This action only enables or disables the display of the specified category or categories; it does not perform any switching of the Navigation Pane display. For example, if you are displaying objects sorted by **Creation Date** and you use the **SetDisplayedCategories** action to disable the **Creation Date** option, Access does not switch the Navigation Pane to another category.</span></span>
+  - <span data-ttu-id="309c6-p105">Essa ação apenas habilita ou desabilita a exibição das categorias especificadas; ela não executa a alternância de exibição do Painel de Navegação. Por exemplo, se você estiver exibindo objetos classificados por **Data de Criação** e usar a ação **DefinirCategoriasExibidas** para desabilitar a opção **Data de Criação**, o Access não alternará a categoria no Painel de Navegação.</span><span class="sxs-lookup"><span data-stu-id="309c6-p105">This action only enables or disables the display of the specified category or categories; it does not perform any switching of the Navigation Pane display. For example, if you are displaying objects sorted by **Creation Date** and you use the **SetDisplayedCategories** action to disable the **Creation Date** option, Access does not switch the Navigation Pane to another category.</span></span>
 
-  - <span data-ttu-id="36352-122">Para executar a ação **DefinirCategoriasExibidas** em um módulo do VBA, use o método **SetDisplayedCategories** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="36352-122">To run the **SetDisplayedCategories** action in a VBA module, use the **SetDisplayedCategories** method of the **DoCmd** object.</span></span>
+  - <span data-ttu-id="309c6-122">Para executar a ação **DefinirCategoriasExibidas** em um módulo do VBA, use o método **SetDisplayedCategories** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="309c6-122">To run the **SetDisplayedCategories** action in a VBA module, use the **SetDisplayedCategories** method of the **DoCmd** object.</span></span>
 
