@@ -49,7 +49,7 @@ A planilha a seguir mostra as funcionalidades do provedor (identificadas por con
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>nenhuma</p></td>
+<td><p>nenhum</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -72,5 +72,5 @@ A planilha a seguir mostra as funcionalidades do provedor (identificadas por con
 
 A propriedade **CursorType** será leitura/gravação quando o **Recordset** estiver fechado e somente leitura quando ele estiver aberto.
 
-**Uso do Remote Data Service** Quando usado em um objeto Recordset do lado do cliente, **** a propriedade CursorType pode ser definida apenas como **adOpenStatic**.
+**Uso do Remote Data Service** Quando usada em um objeto Recordset do lado do cliente, a propriedade **CursorType** pode ser definida somente como **adOpenStatic**.
 

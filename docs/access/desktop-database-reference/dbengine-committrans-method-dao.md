@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. CommitTrans (DAO)
+title: Método DBEngine.CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: 0c9d345f-13ff-7fe6-789d-fbdb43fa54b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294384"
 ---
-# <a name="dbenginecommittrans-method-dao"></a>Método DBEngine. CommitTrans (DAO)
+# <a name="dbenginecommittrans-method-dao"></a>Método DBEngine.CommitTrans (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Encerra a transação atual e salva as alterações.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CommitTrans (***opção***)
+*expressão* . CommitTrans(***Option***)
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -39,7 +39,7 @@ Encerra a transação atual e salva as alterações.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>

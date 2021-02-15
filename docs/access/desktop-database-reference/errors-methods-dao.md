@@ -1,5 +1,5 @@
 ---
-title: Métodos de erros (DAO)
+title: Métodos errors (DAO)
 TOCTitle: Methods
 ms:assetid: 8f1d9006-9c98-4d5b-9dec-57cb846b1e70
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125294(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293375"
 ---
-# <a name="errors-methods-dao"></a>Métodos de erros (DAO)
+# <a name="errors-methods-dao"></a>Métodos errors (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Errors. Refresh (DAO)](errors-refresh-method-dao.md)
+- [Método Errors.Refresh (DAO)](errors-refresh-method-dao.md)
 

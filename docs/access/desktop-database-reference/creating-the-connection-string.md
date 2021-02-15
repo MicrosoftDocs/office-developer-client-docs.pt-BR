@@ -27,7 +27,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -58,7 +58,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 
 
 > [!NOTE]
-> Nos exemplos a seguir e por todo o guia do programador do ADO, a ID de usuário "MyId" com a senha "123aBc" é usada para autenticar-se no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
+> Nos exemplos a seguir e em todo o guia do programador do ADO, a ID de usuário "MyId" com a senha "123aBc" é usada para autenticar no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
 
 O aplicativo HelloData no Capítulo 1 usava a seguinte sequência de conexão:
 

@@ -18,5 +18,5 @@ ms.locfileid: "32294614"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método de bancos de dados. Refresh (DAO)](databases-refresh-method-dao.md)
+- [Método Databases.Refresh (DAO)](databases-refresh-method-dao.md)
 

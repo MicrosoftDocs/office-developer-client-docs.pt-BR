@@ -22,19 +22,19 @@ O evento **EndOfRecordset** é chamado quando houver uma tentativa de mover para
 
 ## <a name="syntax"></a>Sintaxe
 
-EndOfRecordset*fMoreData*, *adStatus*, ** precaboset
+EndOfRecordset *fMoreData*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*fMoreData* |Um **valor\_booliano Variant** que, se definido como\_Variant true, indica que mais linhas foram adicionadas ao **Recordset**.|
+|*fMoreData* |Um **valor \_ VARIANT BOOL** que, se definido como VARIANT TRUE, indica que mais linhas \_ foram adicionadas ao **Recordset**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **EndOfRecordset** for chamado, esse parâmetro será definido como **adStatusOK** se a operação que provocou o evento tiver sido bem-sucedida. Será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação que provocou esse evento.<br/><br/>Antes que **EndOfRecordset** seja retornado, configure esse parâmetro como **adStatusUnwantedEvent** para impedir as notificações subsequentes.|
-|*precaboset* | Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
+|*pRecordset* | Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 
 Pode ocorrer um evento **EndOfRecordset** se a operação [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) falhar.
 
-Esse manipulador eventos é chamada quando é feita uma tentativa de mover após o final do objeto **Recordset**, talvez como resultado de chamar **MoveNext**. No entanto, enquanto estiver nesse evento, você poderia recuperar mais registros de um banco de dados e anexá-los final do **Recordset**. Nesse caso, defina *fMoreData* como Variant\_true e retorne de **EndOfRecordset**. Em seguida, chame **MoveNext** novamente para acessar os registros recém-recuperados.
+Esse manipulador eventos é chamada quando é feita uma tentativa de mover após o final do objeto **Recordset**, talvez como resultado de chamar **MoveNext**. No entanto, enquanto estiver nesse evento, você poderia recuperar mais registros de um banco de dados e anexá-los final do **Recordset**. Nesse caso, de definida *fMoreData* como VARIANT \_ TRUE e retorne de **EndOfRecordset**. Em seguida, chame **MoveNext** novamente para acessar os registros recém-recuperados.
 

@@ -48,7 +48,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome_do_catálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>Um rótulo ou uma legenda associada à dimensão.</p></td>
 </tr>
 <tr class="even">
-<td><p>DimensionCardinality</p></td>
+<td><p>Dimension DimensionNality</p></td>
 <td><p>O número de membros na dimensão.</p></td>
 </tr>
 <tr class="odd">

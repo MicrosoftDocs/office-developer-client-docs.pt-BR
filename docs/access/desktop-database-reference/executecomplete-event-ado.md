@@ -22,7 +22,7 @@ O evento **ExecuteComplete** é chamado depois que um comando terminar a execuç
 
 ## <a name="syntax"></a>Sintaxe
 
-ExecuteComplete*RecordsAffected*, *perror*, *adStatus*, *pCommand*, ** precaboset, *pConnection*
+ExecuteComplete *RecordsAffected*, *pError*, *adStatus*, *pCommand*, *pRecordset*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ ExecuteComplete*RecordsAffected*, *perror*, *adStatus*, *pCommand*, ** precabose
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de **adStatus** for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes que esse evento seja retornado, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
 |*pCommand* |O objeto [Command](command-object-ado.md) que foi executado. Contém um objeto **Command** mesmo ao chamar **Connection.Execute** ou **Recordset.Open** sem criar explicitamente um **Command**, nesses casos o objeto **Command** será criado internamente por ADO.|
-|*precaboset* |Um objeto [Recordset](recordset-object-ado.md) que é o resultado do comando executado. Esse **Recordset** pode estar vazio. Você nunca deve destruir esse objeto Recordset a partir dessa rotina de tratamento de eventos. Tal procedimento resultará em uma Violação de Acesso quando o ADO tentar acessar um objeto que não exista mais.|
+|*pRecordset* |Um objeto [Recordset](recordset-object-ado.md) que é o resultado do comando executado. Esse **Recordset** pode estar vazio. Você nunca deve destruir esse objeto Recordset a partir dessa rotina de tratamento de eventos. Tal procedimento resultará em uma Violação de Acesso quando o ADO tentar acessar um objeto que não exista mais.|
 |*pConnection* |Um objeto [Connection](connection-object-ado.md). A conexão sobre a qual a operação foi executada.|
 
 ## <a name="remarks"></a>Comentários

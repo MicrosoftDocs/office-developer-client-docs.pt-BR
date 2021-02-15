@@ -35,5 +35,5 @@ Os cursores retornados pelo método [Execute](https://docs.microsoft.com/office/
 
 Essa propriedade é leitura/gravação em um [Connection](connection-object-ado.md) ou um [Recordset](recordset-object-ado.md) fechado e somente leitura em um **Recordset** aberto.
 
-**Uso do Remote Data Service** Quando usado em um objeto **Recordset** ou **Connection** do lado do cliente, a propriedade **CursorLocation** só pode ser definida como **adUseClient**.
+**Uso do Remote Data Service** Quando usada em um **recordset** ou objeto **Connection** do lado do cliente, a propriedade **CursorLocation** só pode ser definida como **adUseClient**.
 

@@ -32,14 +32,14 @@ Cada objeto **Container** tem uma coleção **Documents** que contém objetos **
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Documento</p></th>
+<th><p>Document</p></th>
 <th><p>Contêiner</p></th>
 <th><p>Contém informações sobre</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Banco de dados</p></td>
+<td><p>Database</p></td>
 <td><p>Bancos de dados</p></td>
 <td><p>Banco de dados salvo</p></td>
 </tr>
@@ -75,9 +75,9 @@ Como um objeto **Document** corresponde a um objeto existente, você não poder�
 
 - **Documents**(0)
 
-- **Documentos** ("*Name*")
+- **Documentos**("*nome*")
 
-- ****\!\[*Nome* dos documentos\]
+-  \! Documentos \[ *name*\]
 
 ## <a name="example"></a>Exemplo
 

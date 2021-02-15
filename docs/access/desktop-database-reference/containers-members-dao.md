@@ -1,5 +1,5 @@
 ---
-title: Membros de contêineres (DAO)
+title: Membros containers (DAO)
 TOCTitle: Containers Members
 ms:assetid: e4cc05d2-8c82-f6c5-aad1-56861d219167
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295566"
 ---
-# <a name="containers-members-dao"></a>Membros de contêineres (DAO)
+# <a name="containers-members-dao"></a>Membros containers (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access. Uma coleção Connections contém os objetos Connection atuais de um objeto Workspace (apenas espaços de trabalho ODBCDirect).
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access. Uma coleção Connections contém os objetos Connection atuais de um objeto Workspace (somente espaços de trabalho ODBCDirect).
 
 ## <a name="methods"></a>Métodos
 

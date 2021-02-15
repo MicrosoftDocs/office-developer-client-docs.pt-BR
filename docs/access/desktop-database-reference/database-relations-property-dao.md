@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. Relations (DAO)
+title: Propriedade Database.Relations (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196193(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294719"
 ---
-# <a name="databaserelations-property-dao"></a>Propriedade Database. Relations (DAO)
+# <a name="databaserelations-property-dao"></a>Propriedade Database.Relations (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Retorna uma coleção **Relations** que contém todos os objetos **Relation** ar
 
 *expressão* . Relations
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 

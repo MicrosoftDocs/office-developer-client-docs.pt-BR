@@ -1,5 +1,5 @@
 ---
-title: Ações de dados (referência do banco de dados do Access Desktop)
+title: Ações de dados (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data actions
 ms:assetid: f6ec7193-9693-4543-bdc7-569d60f59185
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180129(v=office.15)
@@ -18,14 +18,14 @@ ms.locfileid: "32295111"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Ação da macro CancelarAlteraçãodeRegistro](cancelrecordchange-macro-action.md)
-- [Ação da macro LimparErrodeMacro](clearmacroerror-macro-action.md)
-- [Ação da macro SairparaCadaRegistro](exitforeachrecord-macro-action.md)
-- [Ação da macro RegistrarEvento](logevent-macro-action.md)
-- [Ação da macro AoOcorrerErro](onerror-macro-action.md)
-- [Ação da macro GerarErro](raiseerror-macro-action.md)
-- [Ação da macro EnviarEmail](sendemail-macro-action.md)
-- [Ação da macro DefinirCampo](setfield-macro-action.md)
-- [Ação da macro DefinirVarLocal](setlocalvar-macro-action.md)
+- [Ação de macro CancelarAlteraçãodeRegistro](cancelrecordchange-macro-action.md)
+- [Ação de macro LimparErrodaMacro](clearmacroerror-macro-action.md)
+- [Ação de macro SairparaCadaRegistro](exitforeachrecord-macro-action.md)
+- [Ação de macro RegistrarEvento](logevent-macro-action.md)
+- [Ação de macro AoOcorrerErro](onerror-macro-action.md)
+- [Ação de macro GerarErro](raiseerror-macro-action.md)
+- [Ação de macro EnviarEmail](sendemail-macro-action.md)
+- [Ação de macro DefinirCampo](setfield-macro-action.md)
+- [Ação de macro DefinirVarLocal](setlocalvar-macro-action.md)
 - [Ação da macro DefinirVardeRetorno](setreturnvar-macro-action.md)
 

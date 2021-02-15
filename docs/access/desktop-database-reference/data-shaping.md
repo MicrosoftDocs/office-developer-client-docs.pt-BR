@@ -1,5 +1,5 @@
 ---
-title: Data Shaping (referência do banco de dados de área de trabalho do Access)
+title: Data shaping (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)

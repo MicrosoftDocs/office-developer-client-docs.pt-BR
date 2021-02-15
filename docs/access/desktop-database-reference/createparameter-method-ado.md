@@ -1,5 +1,5 @@
 ---
-title: Método createParameter (ADO)
+title: Método CreateParameter (ADO)
 TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295384"
 ---
-# <a name="createparameter-method-ado"></a>Método createParameter (ADO)
+# <a name="createparameter-method-ado"></a>Método CreateParameter (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ Cria um novo objeto [Parameter](parameter-object-ado.md) com as propriedades esp
 
 ## <a name="syntax"></a>Sintaxe
 
-**Definir** *parâmetro*  =  *comando*. CreateParameter (*nome*, *tipo*, *direção*, *tamanho*, *valor*)
+**Definir comando** *de*  =  *parâmetro.* CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -36,7 +36,7 @@ Retorna um objeto **Parameter**.
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Name* |Opcional. Um valor **String** que contém o nome do objeto **Parameter**.|
+|*Nome* |Opcional. Um valor **String** que contém o nome do objeto **Parameter**.|
 |*Type* |Opcional. Um valor [DataTypeEnum](datatypeenum.md) que especifica o tipo de dados do objeto **Parameter**.|
 |*Direction* |Opcional. Um valor [ParameterDirectionEnum](parameterdirectionenum.md) que especifica o tipo do objeto **Parameter**.|
 |*Size* |Opcional. Um valor **Long** que especifica o comprimento máximo do valor do parâmetro em caracteres ou bytes.|

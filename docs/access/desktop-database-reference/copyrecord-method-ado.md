@@ -22,7 +22,7 @@ Copia uma entidade representada por um **Record** para outro local.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Record*. CopyRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)
+*Registro*. CopyRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -52,6 +52,6 @@ Este método falha se *Destination* identificar uma entidade existente (por exem
 
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

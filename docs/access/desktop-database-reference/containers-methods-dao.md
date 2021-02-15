@@ -18,5 +18,5 @@ ms.locfileid: "32295573"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método containers. Refresh (DAO)](containers-refresh-method-dao.md)
+- [Método Containers.Refresh (DAO)](containers-refresh-method-dao.md)
 

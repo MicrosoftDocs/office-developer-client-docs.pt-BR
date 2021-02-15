@@ -1,5 +1,5 @@
 ---
-title: Método Documents. Refresh (DAO)
+title: Método Documents.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 33405192-f23c-e2a2-feb6-9d641439cbc5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293669"
 ---
-# <a name="documentsrefresh-method-dao"></a>Método Documents. Refresh (DAO)
+# <a name="documentsrefresh-method-dao"></a>Método Documents.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Atualiza os objetos na coleta especificada para refletir o esquema atual do banc
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atualizado
+*expressão* . Atualizar
 
-*expressão* Uma variável que representa um **** objeto Documents.
+*expressão* Uma variável que representa um **objeto Documents** .
 
 ## <a name="remarks"></a>Comentários
 

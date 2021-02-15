@@ -22,7 +22,7 @@ Exclui a entidade representada por um [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-*Record*. **DeleteRecord * * * Source*, *Async*
+*Record*.**DeleteRecord***Source*, *Async*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -35,9 +35,9 @@ Exclui a entidade representada por um [Record](record-object-ado.md).
 
 As operações no objeto representado por esse **Record** podem falhar após a conclusão desse método. Depois de chamar **DeleteRecord**, o **Record** deve ser fechado porque o comportamento do **Record** pode ficar imprevisível dependendo de quando o provedor atualiza o **Record** com a fonte de dados.
 
-Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), os resultados dessa operação não serão refletidos imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo-o ou executando o **Recordset** [](requery-method-ado.md)Requery ou os métodos [Update](update-method-ado.md) e resync. [](resync-method-ado.md)
+Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), os resultados dessa operação não serão refletidos imediatamente no **Recordset**. Atualize **o Recordset** fechando e reabrem-o ou executando os métodos [Requery](requery-method-ado.md)de **Recordset** ou [Update](update-method-ado.md) e [Resync.](resync-method-ado.md)
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

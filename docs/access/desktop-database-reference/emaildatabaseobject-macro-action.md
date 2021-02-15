@@ -20,7 +20,7 @@ ms.locfileid: "32293564"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>Ação da macro EnviarObjetodeBancodeDadosporEMail
 
-**Aplica-se a:** Access 2013 | Office 2013
+**Se aplica ao:** Access 2013, Office 2013
 
 Você pode usar a ação **EMailDatabaseObject** para incluir a folha de dados especificada do Microsoft Access, o formulário, o relatório, o módulo ou a página de acesso a dados em uma mensagem eletrônica de email, onde ela possa ser visualizada e encaminhada.
 
@@ -44,7 +44,7 @@ A ação **EnviarObjetodeBancodeDadosporEMail** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de objeto</strong></p></td>
+<td><p><strong>Tipo de Objeto</strong></p></td>
 <td><p>O tipo de objeto a ser incluído na mensagem de email. Clique em <strong>Tabela</strong> (para obter uma folha de dados da tabela), <strong>Consulta</strong> (para obter uma folha de dados da consulta), <strong>Formulário</strong> (para obter um formulário ou uma folha de dados do formulário), <strong>Relatório</strong>, <strong>Módulo</strong> ou <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Procedimentos Armazenados</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Não é possível enviar uma macro. Se quiser incluir o objeto ativo, selecione o respectivo tipo com esse argumento, mas deixe em branco o argumento <strong>Nome do objeto</strong>.  </p></td>
 </tr>
 <tr class="even">
@@ -53,7 +53,7 @@ A ação **EnviarObjetodeBancodeDadosporEMail** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Formato de Saída</strong></p></td>
-<td><p>O tipo de formato que você deseja usar para o objeto incluído. A lista de formatos nas quais você pode selecionar será alterada dependendo do que você selecionar para o argumento <strong>tipo de objeto</strong> . Os formatos disponíveis podem incluir <strong>a pasta de trabalho do excel 97-excel 2003 (*. xls)</strong>, <strong>pasta de trabalho binária do Excel (*. xlsb)</strong>, <strong>pasta de trabalho do Excel (*. xlsx)</strong>, <strong>HTML (*. htm, *. html)</strong>, <strong>pasta de trabalho do Microsoft Excel 5.0/95 (*. xls)</strong>, <strong>formato PDF </strong>, <strong>Rich Text Formatar (*. rtf)</strong>, <strong>arquivos de texto (*. txt)</strong>ou <strong>formato XPS (*. XPS)</strong>. na caixa <strong>formato de saída</strong> . Os módulos só podem ser enviados no formato de texto. As páginas de acesso a dados só podem ser enviadas no formato HTML. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
+<td><p>O tipo de formato que você deseja usar para o objeto incluído. A lista de formatos que você pode selecionar mudará dependendo do que você selecionar para o argumento <strong>Tipo de</strong> Objeto. Os formatos disponíveis podem incluir <strong>Excel 97 - Excel 2003 Workbook (*.xls)</strong>, <strong>Excel Binary Workbook (*.xlsb)</strong>, <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, Rich <strong>Text Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>ou <strong>XPS Format (*.xps)</strong>. na caixa <strong>Formato de</strong> Saída. Os módulos só podem ser enviados em formato de texto. As páginas de acesso a dados só podem ser enviadas em formato HTML. Se você deixar este argumento em branco, o Access solicitará o formato de saída.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -61,11 +61,11 @@ A ação **EnviarObjetodeBancodeDadosporEMail** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Cc</strong></p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>CC</strong> (&quot;cópia&quot;carbono) na mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cc</strong> da mensagem de email ficará em branco.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>Cc</strong> (cópia &quot; &quot; carbono) da mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cc</strong> da mensagem de email ficará em branco.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bcc</strong></p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>Cco</strong> (&quot;com cópia&quot;oculta) da mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cco</strong> ficará em branco.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>Cc</strong> ( &quot; cópia &quot; carbono) da mensagem de email. Se você deixar este argumento em branco, a linha <strong>Cco</strong> ficará em branco.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Assunto</strong></p></td>
@@ -111,7 +111,7 @@ Para executar a ação **EnviarObjetodeBancodeDadosporEMail** em um módulo do V
 
 ### <a name="about-the-contributor"></a>Sobre o colaborador
 
-**Link fornecido por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), fundador e presidente da FMS, Inc., um provedor líder de soluções de banco de dados personalizadas e ferramentas de desenvolvedor.
+**Link fornecido por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), o fundador e presidente da FMS, Inc., um provedor líder de soluções de banco de dados personalizadas e ferramentas de desenvolvedor.
 
 - [Recursos e limites do uso do Método SendObject para envio](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 

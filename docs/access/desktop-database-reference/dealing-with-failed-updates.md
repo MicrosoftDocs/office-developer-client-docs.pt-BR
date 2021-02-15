@@ -22,7 +22,7 @@ ms.locfileid: "32294159"
 
 Quando uma atualização é concluída com erros, a maneira como você resolve os erros depende da natureza e da gravidade deles, bem como da lógica do seu aplicativo. Contudo, se o banco de dados for compartilhado com outros usuários, um erro típico seria outra pessoa modificar o campo antes de você. Esse tipo de erro é chamado de *conflito.* O ADO detecta essa situação e relata um erro.
 
-Se houver erros de atualização, eles serão interceptados em uma rotina de tratamento de erros. Filtre o **Recordset** com a constante **adFilterConflictingRecords**, de modo que as linhas conflitantes fiquem visíveis. Neste exemplo, a estratégia de resolução de erro é simplesmente imprimir o nome e o sobrenome do autor (**au\_fname** e **au\_lname**).
+Se houver erros de atualização, eles serão interceptados em uma rotina de tratamento de erros. Filtre o **Recordset** com a constante **adFilterConflictingRecords**, de modo que as linhas conflitantes fiquem visíveis. Neste exemplo, a estratégia de resolução de erros é simplesmente imprimir o nome e o sobrenome do autor (**au \_ fname** e **au \_ lname**).
 
 O código usado para alertar o usuário sobre o conflito de atualização tem esta aparência:
 

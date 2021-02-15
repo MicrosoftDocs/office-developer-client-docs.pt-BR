@@ -19,7 +19,7 @@ ms.locfileid: "32295440"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções no banco de dados ***Employees***. A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira de enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.
+Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções no banco de dados ***Employees***. A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira de enumerar essas coleções sem usar a **propriedade Count** seria usar instruções.
 
 ```java 
  

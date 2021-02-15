@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. ReplicaId (DAO)
+title: Propriedade Database.ReplicaID (DAO)
 TOCTitle: ReplicaID Property
 ms:assetid: cf2ca8a1-d13f-30e0-2ca1-dd32ac736c56
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834672(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294712"
 ---
-# <a name="databasereplicaid-property-dao"></a>Propriedade Database. ReplicaId (DAO)
+# <a name="databasereplicaid-property-dao"></a>Propriedade Database.ReplicaID (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -30,7 +30,7 @@ Retorna um valor de 16 bytes que identifica exclusivamente uma réplica de um ba
 
 *expressão* . ReplicaID
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="remarks"></a>Comentários
 

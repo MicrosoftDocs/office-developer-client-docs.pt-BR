@@ -1,5 +1,5 @@
 ---
-title: Parâmetros de evento (referência do banco de dados do Access Desktop)
+title: Parâmetros de evento (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
@@ -104,7 +104,7 @@ Cada evento recebe um ou mais objetos que representam os objetos envolvidos na o
 
 ## <a name="reason-parameter"></a>Parâmetro Reason
 
-O parâmetro *Reason*, *adReason*, fornece informações adicionais sobre o motivo do evento. Os eventos com esse tipo de parâmetro podem ser chamados várias vezes, inclusive para a mesma operação, e sempre por um motivo diferente. Por exemplo, o manipulador de eventos ****WillChangeRecord** é chamado para as operações que estão prestes a fazer ou desfazer a inserção, a exclusão ou a modificação de um registro. Se desejar processar somente um evento no momento em que ele ocorrer por um determinado motivo, você poderá usar o parâmetro *adReason* para filtrar as ocorrências que não sejam de seu interesse. Por exemplo, se desejar processar somente eventos de alteração de registro quando eles ocorrerem devido à adição de um registro, você poderá executar este procedimento:
+O parâmetro *Reason*, *adReason*, fornece informações adicionais sobre o motivo do evento. Os eventos com esse tipo de parâmetro podem ser chamados várias vezes, inclusive para a mesma operação, e sempre por um motivo diferente. Por exemplo, o manipulador de eventos **WillChangeRecord** é chamado para as operações que estão prestes a fazer ou desfazer a inserção, a exclusão ou a modificação de um registro. Se desejar processar somente um evento no momento em que ele ocorrer por um determinado motivo, você poderá usar o parâmetro *adReason* para filtrar as ocorrências que não sejam de seu interesse. Por exemplo, se desejar processar somente eventos de alteração de registro quando eles ocorrerem devido à adição de um registro, você poderá executar este procedimento:
 
 ```vb 
  

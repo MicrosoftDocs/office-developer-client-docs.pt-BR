@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**DeleteX. h**
+**DeleteX.h**
 
 ```cpp 
  

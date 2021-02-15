@@ -1,5 +1,5 @@
 ---
-title: CursorOptionEnum (referência do banco de dados de área de trabalho do Access)
+title: CursorOptionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
@@ -37,7 +37,7 @@ Especifica a funcionalidade para a qual o método [Supports](supports-method-ado
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Cursoroptionenumadaddnew</strong></p></td>
+<td><p><strong>adAddNew</strong></p></td>
 <td><p>0x1000400</p></td>
 <td><p>Fornece suporte ao método <a href="addnew-method-ado.md">AddNew</a> para adicionar novos registros.</p></td>
 </tr>
@@ -57,7 +57,7 @@ Especifica a funcionalidade para a qual o método [Supports](supports-method-ado
 <td><p>Fornece suporte ao método <a href="delete-method-ado-recordset.md">Delete</a> para excluir registros.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Find</strong></p></td>
+<td><p><strong>adFind</strong></p></td>
 <td><p>0x80000</p></td>
 <td><p>Fornece suporte ao método <a href="find-method-ado.md">Find</a> para localizar uma linha em um <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
@@ -120,43 +120,43 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. ADDNEW</p></td>
+<td><p>AdoEnums.CursorOption.ADDNEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. APPROXPOSITION</p></td>
+<td><p>AdoEnums.CursorOption.APPROXPOSITION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. BOOKMARK</p></td>
+<td><p>AdoEnums.CursorOption.BOOKMARK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. DELETE</p></td>
+<td><p>AdoEnums.CursorOption.DELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. FIND</p></td>
+<td><p>AdoEnums.CursorOption.FIND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. HOLDRECORDS</p></td>
+<td><p>AdoEnums.CursorOption.HOLDRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. INDEX</p></td>
+<td><p>AdoEnums.CursorOption.INDEX</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. MOVEPREVIOUS</p></td>
+<td><p>AdoEnums.CursorOption.MOVEPREVIOUS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. NOTIFY</p></td>
+<td><p>AdoEnums.CursorOption.NOTIFY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. reSYNC</p></td>
+<td><p>AdoEnums.CursorOption.RESYNC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. SEEK</p></td>
+<td><p>AdoEnums.CursorOption.SEEK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. UPDATE</p></td>
+<td><p>AdoEnums.CursorOption.UPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. UPDATEBATCH</p></td>
+<td><p>AdoEnums.CursorOption.UPDATEBATCH</p></td>
 </tr>
 </tbody>
 </table>

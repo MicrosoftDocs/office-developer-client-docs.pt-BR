@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. containers (DAO)
+title: Propriedade Database.Containers (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835049(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294964"
 ---
-# <a name="databasecontainers-property-dao"></a>Propriedade Database. containers (DAO)
+# <a name="databasecontainers-property-dao"></a>Propriedade Database.Containers (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Retorna uma coleção **Containers** que representa todos os objetos **Container
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Recipiente
+*expressão* . Contêineres
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 

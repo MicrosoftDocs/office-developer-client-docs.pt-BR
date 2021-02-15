@@ -1,5 +1,5 @@
 ---
-title: Objeto Error-Data Access Objects (DAO)
+title: Objeto Error - Objetos de Acesso a Dados (DAO)
 TOCTitle: Error Object
 ms:assetid: e2608bc9-bece-9b47-4562-7a2689601f75
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
@@ -27,7 +27,7 @@ Qualquer operação envolvendo DAO pode gerar um ou mais erros. Por exemplo, uma
 
 Quando uma operação DAO subsequente gera um erro, a coleção **Errors** é limpa, e um ou mais novos objetos **Error** são colocados na coleção **Errors**. As operações DAO que não geram nenhum erro não são efetivadas na coleção **Errors**.
 
-A definição dos objetos **Error** na coleção **Errors** descreve um erro. O primeiro objeto **Error** é o erro no nível mais baixo (o erro de origem), o segundo é o erro no próximo nível mais alto e assim por diante. Por exemplo, se ocorrer um erro ODBC durante a tentativa de abrir um objeto **[Recordset](recordset-object-dao.md)**, o primeiro objeto **Error**  **Errors**(0)  conterá o erro ODBC no nível mais baixo; os erros subsequentes conterão os erros ODBC retornados por várias camadas ODBC. Nesse caso, o gerenciador do driver ODBC, e possivelmente o próprio driver, retorna objetos **Error** separados. O último objeto **Error** — Errors **. Count-** 1 — contém o erro do DAO indicando que o objeto não pôde ser aberto.
+A definição dos objetos **Error** na coleção **Errors** descreve um erro. O primeiro objeto **Error** é o erro no nível mais baixo (o erro de origem), o segundo é o erro no próximo nível mais alto e assim por diante. Por exemplo, se ocorrer um erro ODBC durante a tentativa de abrir um objeto **[Recordset](recordset-object-dao.md)**, o primeiro objeto **Error**  **Errors**(0)  conterá o erro ODBC no nível mais baixo; os erros subsequentes conterão os erros ODBC retornados por várias camadas ODBC. Nesse caso, o gerenciador do driver ODBC, e possivelmente o próprio driver, retorna objetos **Error** separados. O último **objeto Error** Error **Errors.Count-** 1 contém o erro DAO indicando que o objeto não pôde ser aberto.
 
 Enumerar os erros específicos na coleção **Errors** permite que as rotinas de tratamento de erros determinem de forma mais precisa a causa e a origem de um erro e executem as etapas apropriadas para recuperação. Você pode ler as propriedades do objeto **Error** para obter detalhes específicos sobre cada erro, inclusive:
 
@@ -43,7 +43,7 @@ Enumerar os erros específicos na coleção **Errors** permite que as rotinas de
     > [!NOTE]
     > [!OBSERVAçãO] Durante uma programação no Microsoft Visual Basic for Applications, se você usar a palavra-chave **New** para criar um objeto que, subsequentemente, causa um erro antes de o objeto ser acrescentado a uma coleção, a coleção **Errors** do objeto **DBEngine** não conterá nenhum entrada para aquele erro do objeto, porque o novo objeto não está associado ao objeto **DBEngine**. Entretanto, as informações do erro estão disponíveis no objeto **Err** do VBA. Seu código de tratamento de erro deve examinar a coleção **Errors** sempre que você antecipa um erro de acesso aos dados. 
     > 
-    > Se você estiver gravando uma rotina de tratamento de erro centralizada, teste o objeto **Err** do VBA para determinar se as informações do erro na coleção **Errors** são válidas. Se a **propriedade Number** do último elemento da coleção **Errors** (DBEngine. Errors. Count-1) e o valor do objeto **Err** forem correspondentes, você poderá usar uma série de instruções **Select Case** para identificar o erro DAO específico ou erros que ocorreram. Se eles não forem correspondentes, use o método [Refresh](errors-refresh-method-dao.md)  na coleção **Errors**.
+    > Se você estiver gravando uma rotina de tratamento de erro centralizada, teste o objeto **Err** do VBA para determinar se as informações do erro na coleção **Errors** são válidas. Se a propriedade **Number** do último elemento da coleção **Errors** (DBEngine.Errors.Count - 1) e o valor do objeto **Err** corresponderem, você poderá usar uma série de instruções **Select Case** para identificar o erro de DAO específico ou os erros que ocorreram. Se eles não forem correspondentes, use o método [Refresh](errors-refresh-method-dao.md)  na coleção **Errors**.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto de documento (DAO)
+title: Referência de objeto do documento (DAO)
 TOCTitle: Document Object
 ms:assetid: 80345a24-2ee7-4bc1-8392-c12eacadc848
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125023(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293767"
 ---
-# <a name="document-object-reference-dao"></a>Referência de objeto de documento (DAO)
+# <a name="document-object-reference-dao"></a>Referência de objeto do documento (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

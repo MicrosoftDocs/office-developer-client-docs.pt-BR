@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. setOption (DAO)
+title: Método DBEngine.SetOption (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294194"
 ---
-# <a name="dbenginesetoption-method-dao"></a>Método DBEngine. setOption (DAO)
+# <a name="dbenginesetoption-method-dao"></a>Método DBEngine.SetOption (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . SetOption (***opção***, ***valor***)
+*expressão* . SetOption(***Option***, ***Value***)
 
-*expressão* Uma expressão que retorna um objeto **DBEngine** .
+*expressão* Uma expressão que retorna um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -57,7 +57,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 <tr class="even">
 <td><p><em>Value</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>O valor para o qual você deseja definir a opção.</p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 
 ## <a name="remarks"></a>Comentários
 
-Cada constante se refere à chave do registro correspondente no caminho HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\12,0\\Access Connectivity\\Engines\\, ACE (ou seja, **dbSharedAsyncDelay** corresponde à chave hKey\_local\_Machine\\software\\Microsoft\\Office\\12,0\\Access Connectivity Engines\\\\Ace \\SharedAsyncDelay e assim por diante).
+Cada constante se refere à chave do Registro correspondente no caminho HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ (ou seja, **dbSharedAsyncDelay** corresponde à chave HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay e assim por diante).
 
 <table>
 <colgroup>

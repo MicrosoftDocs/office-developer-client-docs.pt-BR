@@ -1,5 +1,5 @@
 ---
-title: Método Database. createRelation (DAO)
+title: Método Database.CreateRelation (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294950"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Método Database. createRelation (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Método Database.CreateRelation (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateRelation (***Name***, ***Table***, ***ForeignTable***, ***Attributes***)
+*expressão* . CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,35 +42,35 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes de <strong>relações</strong> válidos.</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a <strong><a href="connection-name-property-dao.md">propriedade Name</a></strong> para obter detalhes sobre nomes <strong>válidos de Relation.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><em>Table</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina a tabela primária na relação. Se a tabela não existir antes de você acrescentar o objeto <strong>Relation</strong>, ocorrerá um erro em tempo de execução.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ForeignTable</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina a tabela externa na relação. Se a tabela não existir antes de você acrescentar o objeto <strong>Relation</strong>, ocorrerá um erro em tempo de execução.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a <strong><a href="field-attributes-property-dao.md"></a></strong> propriedade Attributes para obter detalhes.</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a <strong><a href="field-attributes-property-dao.md">propriedade Attributes</a></strong> para obter detalhes.</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +88,7 @@ Se omitir uma ou mais dessas partes opcionais quando usar o método **CreateRela
 
 Antes de poder usar o método **[Append](fields-append-method-dao.md)** em um objeto **Relation**, você deve acrescentar os objetos **[Field](field-object-dao.md)** apropriados para definir as tabelas de relações entre chaves primária e estrangeira.
 
-Se Name se referir a um objeto que já é um membro da coleção ou se os nomes de objeto **Field** fornecidos na coleção de **campos** subordinados forem inválidos, ocorrerá um erro em tempo de execução quando você usar o método **Append** .
+Se o nome se referir a um objeto que já é membro da coleção ou se os nomes dos objetos Field fornecidos na coleção **Fields** subordinada são inválidos, ocorrerá um erro em tempo de executar quando você usar o método **Append.** 
 
 Você não pode estabelecer ou manter uma relação entre uma tabela replicada e uma tabela local.
 

@@ -1,5 +1,5 @@
 ---
-title: Método createRecordset (RDS)
+title: Método CreateRecordset (RDS)
 TOCTitle: CreateRecordset method (RDS)
 ms:assetid: 19524509-31da-9af1-4062-cd3c59b51278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295335"
 ---
-# <a name="createrecordset-method-rds"></a>Método createRecordset (RDS)
+# <a name="createrecordset-method-rds"></a>Método CreateRecordset (RDS)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,14 +22,14 @@ Cria um [Recordset](recordset-object-ado.md) vazio e desconectado.
 
 ## <a name="syntax"></a>Sintaxe
 
-*objeto*. CreateRecordset (*ColumnInfos*)
+*objeto*. CreateRecordset(*ColumnInfos*)
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*Object* |Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).|
-|*ColumnsInfos* |Uma matriz de atributos **Variant** que define cada coluna no **Recordset** criado. Cada definição de coluna contém uma matriz de quatro atributos obrigatórios e um atributo opcional. Em seguida, o conjunto de matrizes de coluna é agrupado em uma matriz, que define o **Recordset**. Para obter uma lista de atributos, consulte a tabela a seguir.|
+|*ColumnsInfos* |Uma matriz de atributos **Variant** que define cada coluna no **Recordset** criado. Cada definição de coluna contém uma matriz de quatro atributos obrigatórios e um atributo opcional. Em seguida, o conjunto de matrizes de coluna é agrupado em uma matriz, que define o **Recordset**. Para uma lista de atributos, consulte a tabela a seguir.|
 
 ### <a name="variant-array-attributes"></a>Atributos de matriz variante
 
@@ -37,8 +37,8 @@ Cria um [Recordset](recordset-object-ado.md) vazio e desconectado.
 |:--------|:----------|
 |Nome |Nome do cabeçalho da coluna.|
 |Tipo |Inteiro do tipo de dados.|
-|Tamanho |Inteiro da largura em caracteres, independentemente do tipo de dados.|
-|Nulidade |Valor booliano.|
+|Size |Inteiro da largura em caracteres, independentemente do tipo de dados.|
+|Anulação |Valor booliano.|
 |Escala (opcional) |Este atributo opcional define a escala para campos numéricos. Se esse valor não for especificado, os valores numéricos serão truncados para uma escala de três. A precisão não é afetada, mas o número de dígitos que seguem a vírgula decimal será truncado para três.|
 
 ## <a name="remarks"></a>Comentários
@@ -70,37 +70,37 @@ Para alguns dos tipos de dados variáveis, o tipo pode ser forçado para o tipo 
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>dezesseis</p></td>
+<td><p>16 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adBigInt</strong></p></td>
-<td><p>508</p></td>
+<td><p>20</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17.07.06</p></td>
+<td><p>17 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>anos</p></td>
+<td><p>18 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -112,31 +112,31 @@ Para alguns dos tipos de dados variáveis, o tipo pode ser forçado para o tipo 
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adSingle</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adDouble</strong></p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adDecimal</strong></p></td>
-<td><p>14</p></td>
+<td><p>14 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -154,7 +154,7 @@ Para alguns dos tipos de dados variáveis, o tipo pode ser forçado para o tipo 
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adError</strong></p></td>
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -166,7 +166,7 @@ Para alguns dos tipos de dados variáveis, o tipo pode ser forçado para o tipo 
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adDate</strong></p></td>
-<td><p>178</p></td>
+<td><p>7 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -185,12 +185,12 @@ Para alguns dos tipos de dados variáveis, o tipo pode ser forçado para o tipo 
 <td><p>Fixed</p></td>
 <td><p><strong>adDBTimestamp</strong></p></td>
 <td><p>135</p></td>
-<td><p>178</p></td>
+<td><p>7 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Variável</p></td>
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">

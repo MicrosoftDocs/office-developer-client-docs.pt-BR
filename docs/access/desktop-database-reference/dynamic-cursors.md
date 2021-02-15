@@ -1,5 +1,5 @@
 ---
-title: Cursores dinâmicos (referência de banco de dados do Access)
+title: Cursores dinâmicos (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Dynamic cursors
 ms:assetid: ae599d86-6b89-6103-fda1-c899a6138e1d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)

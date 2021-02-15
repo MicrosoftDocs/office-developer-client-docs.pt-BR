@@ -33,9 +33,9 @@ Se a propriedade dinâmica **Unique Table** estiver definida e o **Recordset** f
 
 O método **Delete** usa um argumento opcional que permite especificar quais registros são afetados pela operação **Delete**. Os únicos valores válidos para esse argumento são uma das seguintes constantes enumeradas **AffectEnum** do ADO:
 
-  - **adAffectCurrent** Afeta somente o registro atual.
+  - **adAffectCurrent** Afeta apenas o registro atual.
 
-  - **adAffectGroup** Afeta somente os registros que satisfazem a configuração atual da propriedade **Filter** . A propriedade **Filter** deve ser definida como um valor **FilterGroupEnum** ou uma matriz de **Bookmarks** para usar essa opção.
+  - **adAffectGroup** Afeta somente os registros que satisfazem a configuração atual **da propriedade Filter.** A propriedade **Filter** deve ser definida como um valor **FilterGroupEnum** ou uma matriz de **Bookmarks** para usar essa opção.
 
 O código a seguir mostra um exemplo da especificação de **adAffectGroup** durante a chamada do método **Delete**. Este exemplo adiciona alguns registros ao **Recordset** de exemplo e atualiza o banco de dados. Em seguida, ele filtra o **Recordset** usando a constante enumerada de filtro **adFilterAffectedRecords**, a qual deixa apenas os registro recém-adicionados visíveis no **Recordset**. Finalmente, ele chama o método **Delete** e especifica que todos os registros que satisfazem a configuração atual da propriedade **Filter** (os novos registros) devem ser excluídos.
 

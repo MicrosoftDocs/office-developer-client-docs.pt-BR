@@ -61,5 +61,5 @@ Define ou retorna um dos valores a seguir.
 
 ## <a name="remarks"></a>Comentários
 
-Em um aplicativo Web, você geralmente vai querer usar o **adcFetchAsync** (o valor padrão), pois ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
+Em um aplicativo Web, geralmente você vai querer usar **adcFetchAsync** (o valor padrão), porque ele fornece melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
 

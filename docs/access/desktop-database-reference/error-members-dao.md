@@ -1,5 +1,5 @@
 ---
-title: Membros de erro (DAO)
+title: Membros error (DAO)
 TOCTitle: Error Members
 ms:assetid: 0f4a7fb7-3070-39c9-d71b-facd254a2ccd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845280(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293515"
 ---
-# <a name="error-members-dao"></a>Membros de erro (DAO)
+# <a name="error-members-dao"></a>Membros error (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

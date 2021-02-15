@@ -22,7 +22,7 @@ Cria um novo catálogo.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Catálogo*. Criar*ConnectString*
+*Catálogo*. Criar *ConnectString*
 
 ## <a name="parameters"></a>Parâmetros
 

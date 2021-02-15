@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. Idle (DAO)
+title: Método DBEngine.Idle (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294327"
 ---
-# <a name="dbengineidle-method-dao"></a>Método DBEngine. Idle (DAO)
+# <a name="dbengineidle-method-dao"></a>Método DBEngine.Idle (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Suspende o processamento de dados, habilitando o mecanismo de banco de dados do 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Idle (***ação***)
+*expressão* . Idle(***Action***)
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Suspende o processamento de dados, habilitando o mecanismo de banco de dados do 
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -51,8 +51,8 @@ Suspende o processamento de dados, habilitando o mecanismo de banco de dados do 
 <tr class="odd">
 <td><p><em>Action</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Especifica a ação a ser tomada. Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> .</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Especifica a ação a ser tomada. Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum.</a></strong></p></td>
 </tr>
 </tbody>
 </table>

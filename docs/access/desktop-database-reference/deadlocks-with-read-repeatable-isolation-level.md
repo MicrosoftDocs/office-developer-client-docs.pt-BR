@@ -1,5 +1,5 @@
 ---
-title: Deadlocks com o nível de isolamento de leitura reproduzível
+title: Deadlocks com nível de isolamento repetido de leitura
 TOCTitle: Deadlocks with read repeatable isolation level
 ms:assetid: 3d5f3293-33bb-cf6d-362a-278f9ec1bd3c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249165(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294173"
 ---
-# <a name="deadlocks-with-read-repeatable-isolation-level"></a>Deadlocks com o nível de isolamento de leitura reproduzível
+# <a name="deadlocks-with-read-repeatable-isolation-level"></a>Deadlocks com nível de isolamento repetido de leitura
 
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 Se um objeto de negócios personalizado usa um nível de isolamento de leitura repetida para acessar um SQL Server e o objeto de negócios for chamado simultaneamente por dois clientes que enviam uma consulta e são atualizados na mesma transação, é possível haver um conflito. O Serviço de dados remotos foi projetado para permitir que um dos processos expire para eliminar o conflito, mas a atualização falhará para aquele cliente.
 
-Use a propriedade dinâmica**tempo limite de comando** do [serviço de cursor](microsoft-cursor-service-for-ole-db-ado-service-component.md)para modificar a duração do tempo limite.
+Use a propriedade dinâmica Time **Out** do Comando do Serviço de [Cursor](microsoft-cursor-service-for-ole-db-ado-service-component.md)para modificar a duração do tempo final.
 

@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. OpenConnection (DAO)
+title: Método DBEngine.OpenConnection (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294257"
 ---
-# <a name="dbengineopenconnection-method-dao"></a>Método DBEngine. OpenConnection (DAO)
+# <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . OpenConnection (***Name***, ***Options***, ***ReadOnly***, ***Connect***)
+*expressão* . OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -40,35 +40,35 @@ ms.locfileid: "32294257"
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opções</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>Define as várias opções para a conexão, como especificado em Comentários. Com base nessa valor, o gerenciador do driver ODBC solicita ao usuário informações de conexão, como o DSN (Nome da fonte de dados), o nome do usuário e a senha.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ReadOnly</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p><strong>True</strong> se a conexão tiver que ser aberta para acesso somente leitura, e <strong>False</strong> se a conexão tiver que ser aberta para acesso de leitura/gravação (padrão).</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Uma cadeia de caracteres de conexão ODBC. Consulte a propriedade <strong><a href="connection-connect-property-dao.md">Connect</a></strong> para os elementos específicos e a sintaxe dessa cadeia de caracteres. Um &quot;ODBC precedida; &quot; é necessário.</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Uma cadeia de caracteres de conexão ODBC. Consulte a <strong><a href="connection-connect-property-dao.md">propriedade Connect</a></strong> para ver os elementos específicos e a sintaxe dessa cadeia de caracteres. Um &quot; ODBC anexado; &quot; é necessário.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,9 +82,9 @@ Connection
 
 Use o método **OpenConnection** para estabelecer uma conexão com uma fonte de dados ODBC a partir de um espaço de trabalho ODBCDirect. O método **OpenConnection** é semelhante mas não igual a **OpenDatabase**. A principal diferença é que **OpenConnection** está disponível em um espaço de trabalho ODBCDirect.
 
-Se você especificar um nome de fonte de dados ODBC (DSN) registrado no argumento Connect, o argumento Name poderá ser qualquer cadeia de caracteres válida e também fornecerá a propriedade **Name** para o objeto **Connection** . Se um DSN válido não for incluído no argumento Connect, Name deve se referir a um DSN ODBC válido, que também será a propriedade **Name** . Se nem Name nem Connect contiverem um DSN válido, o Gerenciador de driver ODBC poderá ser definido (através do argumento Options) para solicitar ao usuário as informações de conexão necessárias. O DSN é fornecido pela solicitação e depois fornece a propriedade **Name**.
+Se você especificar um DSN (nome de fonte de dados) ODBC registrado no argumento connect, o argumento name pode ser qualquer cadeia de caracteres válida e também fornecerá a propriedade **Name** para o objeto **Connection.** Se um DSN válido não for incluído no argumento connect, o nome deverá se referir a um DSN ODBC válido, que também será a **propriedade Name.** Se nem o nome nem a conexão contiver um DSN válido, o gerenciador de driver ODBC poderá ser definido (por meio do argumento options) para solicitar ao usuário as informações de conexão necessárias. O DSN é fornecido pela solicitação e depois fornece a propriedade **Name**.
 
-O argumento Options determina se e quando solicitar que o usuário estabeleça a conexão e se a conexão será ou não aberta de forma assíncrona. Você pode usar uma das constantes a seguir.
+O argumento options determina se e quando solicitar que o usuário estabeleça a conexão e se a conexão será aberta de forma assíncrona ou não. Você pode usar uma das constantes a seguir.
 
 <table>
 <colgroup>

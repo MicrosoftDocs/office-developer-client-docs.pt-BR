@@ -36,7 +36,7 @@ Um objeto Database representa um banco de dados aberto.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="database-close-method-dao.md">Fechar</a></strong></p></td>
+<td><p><strong><a href="database-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Fecha um objeto <strong>Database</strong> aberto.</p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ Um objeto Database representa um banco de dados aberto.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
+<td><p>Crie um novo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
@@ -69,7 +69,7 @@ Um objeto Database representa um banco de dados aberto.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Cria e anexa um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> à coleção <strong>Recordsets</strong>.</p></td>
+<td><p>Cria um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> e o acrescenta à coleção <strong>Recordsets</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></p></td>
@@ -107,7 +107,7 @@ Um objeto Database representa um banco de dados aberto.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Retorna o objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde ao banco de dados (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -119,11 +119,11 @@ Um objeto Database representa um banco de dados aberto.
 <td><p>Define ou retorna um valor de 16 bytes que identifica exclusivamente a Design Mestre em um conjunto de réplicas (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-name-property-dao.md">Nome</a></strong></p></td>
-<td><p>Retorna o nome do objeto especificado. Somente leitura <strong>cadeia de caracteres</strong>.</p></td>
+<td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
+<td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="database-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">

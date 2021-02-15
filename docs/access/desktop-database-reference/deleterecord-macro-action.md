@@ -20,7 +20,7 @@ ms.locfileid: "32294012"
 
 Você pode usar a ação **ExcluirRegistro** para excluir um registro.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 
@@ -31,7 +31,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -45,7 +45,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para fazer referência ao registro criado mais recentemente:
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao registro criado mais recentemente:
 
 `[LastCreateRecordIdentity]`
 

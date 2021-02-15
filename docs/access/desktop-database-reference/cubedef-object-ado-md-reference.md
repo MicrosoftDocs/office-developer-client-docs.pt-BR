@@ -19,5 +19,5 @@ ms.locfileid: "32295321"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto CubeDef (ADO MD)](cubedef-object-ado-md.md)
-- [Propriedades, métodos e eventos do CubeDef (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
+- [Propriedades, métodos e eventos de CubeDef (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
 

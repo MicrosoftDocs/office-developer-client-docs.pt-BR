@@ -1,5 +1,5 @@
 ---
-title: CursorLocationEnum (referência do banco de dados de área de trabalho do Access)
+title: CursorLocationEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
@@ -38,18 +38,18 @@ Especifica o local do serviço do cursor.
 <tbody>
 <tr class="odd">
 <td><p><strong>adUseClient</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Usa cursores do lado do cliente fornecidos por uma biblioteca de cursores local. Os serviços de cursores locais permitirão, com frequência, muitos recursos que os cursores fornecidos por drivers não permitirão, portanto, usar essa configuração poderá oferecer uma vantagem com relação aos recursos que estarão ativados. Para compatibilidade com versões anteriores, também há suporte para o sinônimo <strong>adUseClientBatch</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adUseNone</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Não usa os serviços de cursor. (Essa constante é obsoleta e aparece somente para fins de compatibilidade com versões anteriores.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
-<td><p>duas</p></td>
-<td><p>Padrão. Usa os cursores de provedores de dados ou fornecidos pelo driver. Esses cursores são, algumas vezes, muito flexíveis e permitem sensibilidade adicional para alterações que os outros fazem na fonte de dados. No enTanto, alguns recursos do <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">serviço de cursor da Microsoft para OLE DB</a> (como objetos <a href="recordset-object-ado.md">Recordset</a> desassociados) não podem ser simulados com cursores do lado do servidor e esses recursos não estarão disponíveis nessa configuração.</p></td>
+<td><p>2 </p></td>
+<td><p>Padrão. Usa os cursores de provedores de dados ou fornecidos pelo driver. Esses cursores são, algumas vezes, muito flexíveis e permitem sensibilidade adicional para alterações que os outros fazem na fonte de dados. No entanto, alguns recursos do <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> (como objetos <a href="recordset-object-ado.md">Recordset</a> desassociados) não podem ser simulados com cursores do servidor, e esses recursos não estarão disponíveis com essa configuração.</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,13 +70,13 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorLocation. CLIENT</p></td>
+<td><p>AdoEnums.CursorLocation.CLIENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorLocation. NONE</p></td>
+<td><p>AdoEnums.CursorLocation.NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorLocation. SERVER</p></td>
+<td><p>AdoEnums.CursorLocation.SERVER</p></td>
 </tr>
 </tbody>
 </table>

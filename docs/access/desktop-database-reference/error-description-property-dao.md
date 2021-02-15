@@ -1,5 +1,5 @@
 ---
-title: Propriedade Error. Description (DAO)
+title: Propriedade Error.Description (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293501"
 ---
-# <a name="errordescription-property-dao"></a>Propriedade Error. Description (DAO)
+# <a name="errordescription-property-dao"></a>Propriedade Error.Description (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -30,7 +30,7 @@ Retorna uma sequência descritiva associada a um erro. Essa é a propriedade pad
 
 *expressão* . Descrição
 
-*expressão* Uma variável que representa um objeto **Error** .
+*expressão* Uma variável que representa um **objeto Error** .
 
 ## <a name="remarks"></a>Comentários
 

@@ -83,7 +83,7 @@ O comando a ser executado é especificado com a propriedade **CommandText**.
 
 
 > [!NOTE]
-> Vários exemplos nesta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados. Para evitar redundância, ela é listada apenas uma vez:
+> Vários exemplos nesta seção chamam uma função de utilitário, **GetNewConnection**, para estabelecer uma conexão com o provedor de dados. Para evitar a redundância, ela é listada apenas uma vez:
 
 ```vb 
  

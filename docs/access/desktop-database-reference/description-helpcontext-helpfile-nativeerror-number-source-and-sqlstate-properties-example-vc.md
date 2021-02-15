@@ -1,5 +1,5 @@
 ---
-title: Exemplo das propriedades Description, HelpContext e HelpFile (VC + +)
+title: Exemplo das propriedades Description, HelpContext, HelpFile (VC++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)

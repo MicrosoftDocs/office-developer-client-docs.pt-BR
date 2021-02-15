@@ -1,5 +1,5 @@
 ---
-title: Propriedade Document. DateCreated (DAO)
+title: Propriedade Document.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: e3b881df-1673-f584-bda5-5945b3081ac1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293809"
 ---
-# <a name="documentdatecreated-property-dao"></a>Propriedade Document. DateCreated (DAO)
+# <a name="documentdatecreated-property-dao"></a>Propriedade Document.DateCreated (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a data e a hora que um objeto foi criado. **Variant** somente leitura.
 
 *expressão* . DateCreated
 
-*expressão* Uma variável que representa um objeto **Document** .
+*expressão* Uma variável que representa um **objeto Document** .
 

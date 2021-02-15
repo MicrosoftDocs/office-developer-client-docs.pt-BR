@@ -1,5 +1,5 @@
 ---
-title: ExecuteOptionEnum (referência do banco de dados de área de trabalho do Access)
+title: ExecuteOptionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ExecuteOptionEnum
 ms:assetid: bd6d44a3-e471-7aa0-3e65-6775334de2ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
@@ -54,12 +54,12 @@ Especifica como um provedor deve executar um comando.
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Indica que o texto do comando é um comando ou procedimento armazenado que não retorna as linhas (por exemplo, um comando que apenas insere dados). Se alguma linha for recuperada, ela será descartada e não retornada. <strong>adExecuteNoRecords</strong> só pode ser passado como um parâmetro opcional para o <strong>comando</strong> ou método <strong>Execute</strong> de <strong>conexão</strong> .</p></td>
+<td><p>Indica que o texto do comando é um comando ou procedimento armazenado que não retorna as linhas (por exemplo, um comando que apenas insere dados). Se alguma linha for recuperada, ela será descartada e não retornada. <strong>adExecuteNoRecords</strong> só pode ser passado como um parâmetro opcional para o <strong>método Command</strong> ou <strong>Connection</strong> <strong>Execute.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adExecuteStream</strong></p></td>
 <td><p>0x400</p></td>
-<td><p>Indica que os resultados de uma execução de comando devem ser retornados como um fluxo. <strong>adExecuteStream</strong> só pode ser passado como um parâmetro opcional para o método <strong>Execute</strong> <strong>Command</strong> .</p></td>
+<td><p>Indica que os resultados de uma execução de comando devem ser retornados como um fluxo. <strong>adExecuteStream</strong> só pode ser passado como um parâmetro opcional para o <strong>método Command</strong> <strong>Execute.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteRecord</strong></p></td>
@@ -91,19 +91,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. ASYNCEXECUTE</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCEXECUTE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ExecuteOption. ASYNCFETCH</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCFETCH</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. ASYNCFETCHNONBLOCKING</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCFETCHNONBLOCKING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ExecuteOption. noRECORDs</p></td>
+<td><p>AdoEnums.ExecuteOption.NORECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. unESPECIFICADO</p></td>
+<td><p>AdoEnums.ExecuteOption.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

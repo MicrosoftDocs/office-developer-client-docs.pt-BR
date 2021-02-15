@@ -18,9 +18,9 @@ ms.locfileid: "32293760"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade Document. Container (DAO)](document-container-property-dao.md)
-- [Propriedade Document. DateCreated (DAO)](document-datecreated-property-dao.md)
-- [Propriedade Document. LastUpdated (DAO)](document-lastupdated-property-dao.md)
-- [Propriedade Document.Name (DAO)](document-name-property-dao.md)
-- [Propriedade Document. Properties (DAO)](document-properties-property-dao.md)
+- [Propriedade Document.Container (DAO)](document-container-property-dao.md)
+- [Propriedade Document.DateCreated (DAO)](document-datecreated-property-dao.md)
+- [Propriedade Document.LastUpdated (DAO)](document-lastupdated-property-dao.md)
+- [Document.Name (DAO)](document-name-property-dao.md)
+- [Propriedade Document.Properties (DAO)](document-properties-property-dao.md)
 

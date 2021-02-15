@@ -1,5 +1,5 @@
 ---
-title: Método containers. Refresh (DAO)
+title: Método Containers.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: a4fe114a-9209-4a01-b7c8-8e83bc5adb04
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295594"
 ---
-# <a name="containersrefresh-method-dao"></a>Método containers. Refresh (DAO)
+# <a name="containersrefresh-method-dao"></a>Método Containers.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

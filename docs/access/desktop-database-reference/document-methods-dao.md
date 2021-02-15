@@ -19,5 +19,5 @@ ms.locfileid: "32293795"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Document. createProperty (DAO)](document-createproperty-method-dao.md)
+- [Método Document.CreateProperty (DAO)](document-createproperty-method-dao.md)
 

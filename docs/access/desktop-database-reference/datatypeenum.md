@@ -1,5 +1,5 @@
 ---
-title: DataTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: DataTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
@@ -38,13 +38,13 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 <tbody>
 <tr class="odd">
 <td><p><strong>AdArray<br />
-</strong>(Não se aplica ao ADOX)</p></td>
+</strong>(Não se aplica ao ADOX.)</p></td>
 <td><p>0x2000</p></td>
 <td><p>Um valor de sinalizador sempre combinado a outra constante de tipo de dados, indicando uma matriz desse outro tipo de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adBigInt</strong></p></td>
-<td><p>508</p></td>
+<td><p>20</p></td>
 <td><p>Indica um inteiro assinado de oito bytes (DBTYPE_I8).</p></td>
 </tr>
 <tr class="odd">
@@ -59,7 +59,7 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="odd">
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Indica uma cadeia de caracteres terminada em nulo (Unicode) (DBTYPE_BSTR).</p></td>
 </tr>
 <tr class="even">
@@ -74,12 +74,12 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="even">
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>Indica um valor de moeda (DBTYPE_CY). A moeda é um número de ponto fixo com quatro dígitos à direita do ponto decimal. Ele é armazenado em um inteiro assinado de oito bytes expansível até 10.000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adDate</strong></p></td>
-<td><p>178</p></td>
+<td><p>7 </p></td>
 <td><p>Indica um valor de data (DBTYPE_DATE). Uma data é armazenada como uma dupla, a parte inteira é o número de dias desde 30 de dezembro de 1899, e a parte fracionada é a fração de um dia.</p></td>
 </tr>
 <tr class="even">
@@ -99,22 +99,22 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="odd">
 <td><p><strong>adDecimal</strong></p></td>
-<td><p>14</p></td>
+<td><p>14 </p></td>
 <td><p>Indica um valor numérico exato com precisão e escala fixas (DBTYPE_DECIMAL).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adDouble</strong></p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>Indica um valor de ponto flutuante de precisão dupla (DBTYPE_R8).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEmpty</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Não especifica nenhum valor (DBTYPE_EMPTY).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adError</strong></p></td>
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p>Indica um código de erro de 32 bits (DBTYPE_ERROR).</p></td>
 </tr>
 <tr class="odd">
@@ -129,19 +129,19 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
-<td><p>241</p></td>
-<td><p>Indica um ponteiro para uma interface <strong>IDispatch</strong> em um objeto COM (DBTYPE_IDISPATCH).</p><p><strong>Observação</strong>: não há suporte para esse tipo de dados no ADO. Seu uso pode causar resultados imprevisíveis.</p>
+<td><p>9 </p></td>
+<td><p>Indica um ponteiro para uma interface <strong>IDispatch</strong> em um objeto COM (DBTYPE_IDISPATCH).</p><p><strong>OBSERVAÇÃO:</strong>esse tipo de dados atualmente não é suportado pelo ADO. Seu uso pode causar resultados imprevisíveis.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Indica um inteiro assinado de quatro bytes (DBTYPE_I4).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
-<td><p>Treze</p></td>
-<td><p>Indica um ponteiro para uma interface <strong>IUnknown</strong> em um objeto COM (DBTYPE_IUNKNOWN).</p><p><strong>Observação</strong>: não há suporte para esse tipo de dados no ADO. Seu uso pode causar resultados imprevisíveis.
+<td><p>13 </p></td>
+<td><p>Indica um ponteiro para uma interface <strong>IUnknown</strong> em um objeto COM (DBTYPE_IUNKNOWN).</p><p><strong>OBSERVAÇÃO:</strong>esse tipo de dados atualmente não é suportado pelo ADO. Seu uso pode causar resultados imprevisíveis.
 </p></td>
 </tr>
 <tr class="even">
@@ -171,22 +171,22 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="odd">
 <td><p><strong>adSingle</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica um valor de ponto de flutuação de precisão única (DBTYPE_R4).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica um inteiro assinado de dois bytes (DBTYPE_I2).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>dezesseis</p></td>
+<td><p>16 </p></td>
 <td><p>Indica um inteiro assinado de um byte (DBTYPE_I1).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21 </p></td>
 <td><p>Indica um inteiro não assinado de oito bytes (DBTYPE_U8).</p></td>
 </tr>
 <tr class="odd">
@@ -196,12 +196,12 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="even">
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>anos</p></td>
+<td><p>18 </p></td>
 <td><p>Indica um inteiro não assinado de dois bytes (DBTYPE_U2).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17.07.06</p></td>
+<td><p>17 </p></td>
 <td><p>Indica um inteiro não assinado de um byte (DBTYPE_U1).</p></td>
 </tr>
 <tr class="even">
@@ -221,8 +221,8 @@ Especifica o tipo de dados de [Field](field-object-ado.md), [Parameter](paramete
 </tr>
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
-<td><p>3,6</p></td>
-<td><p>Indica uma <strong>Variant</strong> de automação (DBTYPE_VARIANT).</p><p><strong>Observação</strong>: não há suporte para esse tipo de dados no ADO. Seu uso pode causar resultados imprevisíveis.</p></td>
+<td><p>12 </p></td>
+<td><p>Indica uma <strong>Variant</strong> de automação (DBTYPE_VARIANT).</p><p><strong>OBSERVAÇÃO:</strong>esse tipo de dados atualmente não é suportado pelo ADO. Seu uso pode causar resultados imprevisíveis.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -258,124 +258,124 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. DataType. ARRAY</p></td>
+<td><p>AdoEnums.DataType.ARRAY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. BIGINT</p></td>
+<td><p>AdoEnums.DataType.BIGINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. BINARY</p></td>
+<td><p>AdoEnums.DataType.BINARY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. BOOLEAN</p></td>
+<td><p>AdoEnums.DataType.BOOLEAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. BSTR</p></td>
+<td><p>AdoEnums.DataType.BSTR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. capítulo</p></td>
+<td><p>AdoEnums.DataType.CHAPTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. CHAR</p></td>
+<td><p>AdoEnums.DataType.CHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. CURRENCY</p></td>
+<td><p>AdoEnums.DataType.CURRENCY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. DATE</p></td>
+<td><p>AdoEnums.DataType.DATE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. DBDATE</p></td>
+<td><p>AdoEnums.DataType.DBDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. DBTIME</p></td>
+<td><p>AdoEnums.DataType.DBTIME</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. DBTIMESTAMP</p></td>
+<td><p>AdoEnums.DataType.DBTIMESTAMP</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. DECIMAL</p></td>
+<td><p>AdoEnums.DataType.DECIMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. DOUBLE</p></td>
+<td><p>AdoEnums.DataType.DOUBLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. EMPTY</p></td>
+<td><p>AdoEnums.DataType.EMPTY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. ERROR</p></td>
+<td><p>AdoEnums.DataType.ERROR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. FILETIME</p></td>
+<td><p>AdoEnums.DataType.FILETIME</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. GUID</p></td>
+<td><p>AdoEnums.DataType.GUID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. IDISPATCH</p></td>
+<td><p>AdoEnums.DataType.IDISPATCH</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. INTEGER</p></td>
+<td><p>AdoEnums.DataType.INTEGER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. IUNKNOWN</p></td>
+<td><p>AdoEnums.DataType.IUNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. LONGVARBINARY</p></td>
+<td><p>AdoEnums.DataType.LONGVARBINARY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. LONGVARCHAR</p></td>
+<td><p>AdoEnums.DataType.LONGVARCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. LONGVARWCHAR</p></td>
+<td><p>AdoEnums.DataType.LONGVARWCHAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. NUMERIC</p></td>
+<td><p>AdoEnums.DataType.NUMERIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. PROPVARIANT</p></td>
+<td><p>AdoEnums.DataType.PROPVARIANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. SINGLE</p></td>
+<td><p>AdoEnums.DataType.SINGLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. SMALLINT</p></td>
+<td><p>AdoEnums.DataType.SMALLINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. TINYINT</p></td>
+<td><p>AdoEnums.DataType.TINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. UNSIGNEDBIGINT</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDBIGINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. UNSIGNEDINT</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDINT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. UNSIGNEDSMALLINT</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDSMALLINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. UNSIGNEDTINYINT</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDTINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. userDEFINEd</p></td>
+<td><p>AdoEnums.DataType.USERDEFINED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. VARBINARY</p></td>
+<td><p>AdoEnums.DataType.VARBINARY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. VARCHAR</p></td>
+<td><p>AdoEnums.DataType.VARCHAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. VARIANT</p></td>
+<td><p>AdoEnums.DataType.VARIANT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. VARNUMERIC</p></td>
+<td><p>AdoEnums.DataType.VARNUMERIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. DataType. VARWCHAR</p></td>
+<td><p>AdoEnums.DataType.VARWCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. DataType. WCHAR</p></td>
+<td><p>AdoEnums.DataType.WCHAR</p></td>
 </tr>
 </tbody>
 </table>

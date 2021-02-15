@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do erro (ADO)
+title: Propriedades, métodos e eventos de erro (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 8a1180b3-e8bf-c13d-a295-9caad7dad259
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293452"
 ---
-# <a name="error-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do erro (ADO)
+# <a name="error-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos de erro (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -33,5 +33,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

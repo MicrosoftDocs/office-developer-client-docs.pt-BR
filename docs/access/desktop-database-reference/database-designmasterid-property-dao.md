@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. DesignMasterID (DAO)
+title: Propriedade Database.DesignMasterID (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822824(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294929"
 ---
-# <a name="databasedesignmasterid-property-dao"></a>Propriedade Database. DesignMasterID (DAO)
+# <a name="databasedesignmasterid-property-dao"></a>Propriedade Database.DesignMasterID (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Define ou retorna um valor de 16 bytes que identifica exclusivamente a Design Me
 
 *expressão* . DesignMasterID
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="remarks"></a>Comentários
 

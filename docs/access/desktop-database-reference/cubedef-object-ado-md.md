@@ -48,11 +48,11 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome_do_catálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>O nome do catálogo ao qual este cubo pertence.</p></td>
 </tr>
 <tr class="even">
-<td><p>Created</p></td>
+<td><p>CreatedOn</p></td>
 <td><p>Data e hora de criação do cubo.</p></td>
 </tr>
 <tr class="odd">

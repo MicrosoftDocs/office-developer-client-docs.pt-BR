@@ -1,5 +1,5 @@
 ---
-title: Seção data (referência do banco de dados de área de trabalho do Access)
+title: Seção Data (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
@@ -28,17 +28,17 @@ Os caracteres XML reservados em dados de texto devem ser substituídos por entid
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Os seguintes caracteres são reservados em XML e devem ser substituídos por entidades de caracteres: {', ",\<&\>,,}.
+Os seguintes caracteres são reservados em XML e devem ser substituídos por entidades de caractere: {',",&, \< } \> .
 
-## <a name="binary"></a>Binary
+## <a name="binary"></a>Binária
 
 Dados binários são codificados em bin.hex (ou seja, um byte mapeia para dois caracteres, um caractere por nibble).
 
 ## <a name="datetime"></a>DateTime
 
-O formato de\_data de Variant VT não é suportado diretamente pelos tipos de dados de dados XML. O formato correto para datas com um componente de data e hora é aaaa-mm-dd**T**hh:mm:ss.
+O formato variant VT DATE não é diretamente suportado XML-Data \_ tipos de dados. O formato correto para datas com um componente de data e hora é aaaa-mm-dd **T** hh:mm:ss.
 
-Para obter mais informações sobre formatos de data especificados por XML, consulte [W3C XMLDATA Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
+Para obter mais informações sobre formatos de data especificados por XML, consulte [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 
 Quando a especificação XML-Data define dois tipos de dados equivalentes (por exemplo, i4 == int), o ADO grava o nome amigável, mas lê ambos.
 

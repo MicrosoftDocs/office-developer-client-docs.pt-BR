@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. createWorkspace (DAO)
+title: Método DBEngine.CreateWorkspace (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294342"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine. createWorkspace (DAO)
+# <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine.CreateWorkspace (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateWorkspace (***nome***, ***nome de usuário***, ***senha***, ***UseType***)
+*expressão* . CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,17 +42,17 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Workspace</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes de <strong>espaço de trabalho</strong> válidos.</p></td>
+<td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Workspace</strong>. Consulte a <strong><a href="connection-name-property-dao.md">propriedade Name</a></strong> para obter detalhes sobre nomes <strong>válidos de Workspace.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
@@ -64,16 +64,16 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Password</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Uma <strong>cadeia de caracteres</strong> que contém a senha do novo objeto <strong>Workspace</strong> . A senha pode ter até 20 caracteres e incluir quaisquer caracteres exceto o caractere ASCII 0 (nulo).</p>
-<p><strong>Observação</strong>: Use senhas fortes que combinam letras maiúsculas e minúsculas, números e símbolos. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<td><p>Uma <strong>cadeia de</strong> caracteres que contém a senha do novo objeto <strong>Workspace.</strong> A senha pode ter até 20 caracteres e pode incluir qualquer caractere, exceto o caractere ASCII 0 (nulo).</p>
+<p><strong>OBSERVAÇÃO:</strong>use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As enhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: Casa27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>UseType</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Um dos <strong><a href="workspacetypeenum-enumeration-dao.md">valores de WorkspaceTypeEnum.</a></strong></p>
+<p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 </td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 
 ## <a name="return-value"></a>Valor de retorno
 
-Espaço de trabalho
+Workspace
 
 ## <a name="remarks"></a>Comentários
 

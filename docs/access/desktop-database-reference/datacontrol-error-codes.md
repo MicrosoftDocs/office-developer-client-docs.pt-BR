@@ -82,14 +82,14 @@ A tabela abaixo lista os códigos de erro do objeto [RDS.DataControl](datacontro
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Esta página acessa dados em outro domínio. Você quer permitir isso? Para evitar essa mensagem no Internet Explorer, você pode adicionar um site seguro à zona de sites confiáveis na guia <strong>segurança</strong> da caixa de diálogo <strong>Opções da Internet</strong> .</p></td>
+<td><p>Esta página acessa dados em outro domínio. Você quer permitir isso? Para evitar essa mensagem no Internet Explorer, você pode adicionar <strong></strong> um site seguro à sua zona de Sites Confiáveis na guia Segurança da caixa de diálogo Opções da <strong>Internet.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Versão de cliente RDS inVálida — o cliente é mais recente do que o servidor.</p></td>
+<td><p>Versão do cliente RDS inválida — O cliente é mais recente do que o servidor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

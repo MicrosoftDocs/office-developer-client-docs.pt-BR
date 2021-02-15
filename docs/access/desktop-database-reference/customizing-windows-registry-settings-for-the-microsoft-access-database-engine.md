@@ -22,12 +22,12 @@ ms.locfileid: "32295118"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Se o aplicativo não funcionar corretamente com a funcionalidade padrão do mecanismo de banco de dados do Microsoft Access, talvez seja necessário alterar as configurações no registro do Microsoft Windows para atender às suas necessidades. O Registro do Windows também pode ser usado para ajustar a operação do driver ISAM e ODBC instalável.
+Se seu aplicativo não puder funcionar corretamente com a funcionalidade padrão do mecanismo de banco de dados do Microsoft Access, talvez seja necessário alterar as configurações do Registro do Microsoft Windows para atender às suas necessidades. O Registro do Windows também pode ser usado para ajustar a operação do driver ISAM e ODBC instalável.
 
 Você pode personalizar as configurações do Registro do Windows de quatro maneiras diferentes:
 
-- [Usando Regedit. exe para substituir as configurações padrão](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
-- [Criar uma parte na árvore do registro do aplicativo para gerenciar as configurações](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
-- [Usando o método setOption do DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
-- [Usando as propriedades de conexão do Microsoft OLE DB Provider for Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
+- [Usando Regedit.exe para substituir as configurações padrão](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Criando uma parte na árvore de registro do aplicativo para gerenciar as configurações](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [Usando o método SetOption do DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [Usando as propriedades Connection no Microsoft OLE DB Provider for Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

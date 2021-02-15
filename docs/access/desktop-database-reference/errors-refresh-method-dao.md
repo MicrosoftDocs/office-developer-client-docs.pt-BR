@@ -1,5 +1,5 @@
 ---
-title: Método Errors. Refresh (DAO)
+title: Método Errors.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: dc352c5f-09d0-bfb3-b24a-4c3454dbf5aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293347"
 ---
-# <a name="errorsrefresh-method-dao"></a>Método Errors. Refresh (DAO)
+# <a name="errorsrefresh-method-dao"></a>Método Errors.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Atualiza os objetos na coleta especificada para refletir o esquema atual do banc
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atualizado
+*expressão* . Atualizar
 
-*expressão* Uma variável que representa um **** objeto Errors.
+*expressão* Uma variável que representa **um objeto Errors** .
 
 ## <a name="remarks"></a>Comentários
 

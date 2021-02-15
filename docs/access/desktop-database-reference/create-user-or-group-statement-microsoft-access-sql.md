@@ -24,11 +24,11 @@ Cria um ou mais usuários ou grupos novos.
 
 ### <a name="create-a-user"></a>Criar um usuário
 
-Create User *User* *password PID* \[, *User* *password PID*,...\]
+CREATE USER *user* *password pid* \[ , *user* *password pid*, ...\]
 
 ### <a name="create-a-group"></a>Criar um grupo
 
-Criar *grupo* de grupo *pid*\[, *pid*de *grupo* ,...\]
+CREATE GROUP *group* *pid* \[ , *group* *pid*, ...\]
 
 A instrução CREATE USER ou GROUP tem estas partes:
 
@@ -39,25 +39,25 @@ A instrução CREATE USER ou GROUP tem estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>usuário</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>O nome de um usuário a ser adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>grupo</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>O nome de um grupo a ser adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>la</em></p></td>
+<td><p><em>password</em></p></td>
 <td><p>A senha a ser associada ao nome de <em>usuário</em> especificado.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>atos</em></p></td>
+<td><p><em>pid</em></p></td>
 <td><p>A identificação pessoal.</p></td>
 </tr>
 </tbody>

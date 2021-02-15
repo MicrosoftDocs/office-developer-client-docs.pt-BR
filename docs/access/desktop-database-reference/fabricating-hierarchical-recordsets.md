@@ -48,5 +48,5 @@ Para fabricar um **Recordset** hierárquico, é necessário especificar o Micros
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-Após o **Recordset** ter sido fabricado, ele pode ser preenchido, manipulado ou persistente em um arquivo.
+Depois que **o Recordset** tiver sido fabricado, ele poderá ser preenchido, manipulado ou persistido em um arquivo.
 

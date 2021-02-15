@@ -1,5 +1,5 @@
 ---
-title: Objeto dataFactory (RDSServer)
+title: Objeto DataFactory (RDSServer)
 TOCTitle: DataFactory object (RDSServer)
 ms:assetid: 1de76cdd-34dc-8547-29aa-48ad6067bdea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248971(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294474"
 ---
-# <a name="datafactory-object-rdsserver"></a>Objeto dataFactory (RDSServer)
+# <a name="datafactory-object-rdsserver"></a>Objeto DataFactory (RDSServer)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,11 +23,11 @@ Este objeto corporativo padrão do servidor implementa os métodos que fornecem 
 
 ## <a name="remarks"></a>Comentários
 
-O objeto **RDSServer.DataFactory** foi criado como um objeto Automation do servidor que recebe solicitações do cliente. Em uma implementação da Internet, ele reside em um servidor Web e é instanciado pelo componente ADISAPI. O objeto **RDSServer.DataFactory** fornece acesso de leitura e gravação às fontes de dados especificadas, mas não contém nenhuma validação ou regras comerciais lógicas.
+O objeto **RDSServer.DataFactory** foi criado como um objeto Automation do servidor que recebe solicitações do cliente. Em uma implementação da Internet, ela reside em um servidor Web e é instariada pelo componente ADISAPI. O objeto **RDSServer.DataFactory** fornece acesso de leitura e gravação às fontes de dados especificadas, mas não contém nenhuma validação ou regras comerciais lógicas.
 
 Se você usar um método disponível em ambos os objetos **RDSServer.DataFactory** e [RDS.DataControl](datacontrol-object-rds.md), o RDS usará a versão **RDS.DataControl** por padrão. O padrão adotará um cenário de programação básico, no qual o **RDSServer.DataFactory** servirá como um objeto corporativo genérico do servidor.
 
-Se você quiser que o aplicativo Web manipule o processamento do lado do servidor específico de tarefa, substitua o **RDSServer.** datafactory por um objeto corporativo personalizado.
+Se você quiser que seu aplicativo Web manipular o processamento do lado do servidor específico da tarefa, poderá substituir **o RDSServer.DataFactory** por um objeto de negócios personalizado.
 
 Crie os objetos corporativos do servidor que chamam os métodos **RDSServer.DataFactory**, como [Query](query-method-rds.md) e [CreateRecordset](createrecordset-method-rds.md). Isso será útil, caso você queira adicionar funcionalidade aos objetos corporativos, mas tire proveito das tecnologias RDS existentes.
 

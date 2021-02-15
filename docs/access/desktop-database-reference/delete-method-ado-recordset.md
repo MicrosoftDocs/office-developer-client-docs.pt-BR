@@ -22,7 +22,7 @@ Exclui o registro atual ou um grupo de registros.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Excluir *AffectRecords*
+*recordset*. Excluir *AffectRecords*
 
 ## <a name="parameters"></a>Parâmetros
 

@@ -21,9 +21,9 @@ ms.locfileid: "32295132"
 
 A seção **sql** pode conter uma nova sequência de caracteres SQL que substitui a sequência de comando do cliente. Se a seção não tiver nenhuma sequência de caracteres SQL, ela será ignorada.
 
-A nova sequência de caracteres SQL pode conter parâmetros. Isso significa que os parâmetros na sequência de caracteres SQL da seção **sql** (designada pelo caractere '?') podem ser substituídos pelos argumentos correspondentes em um *identifier* na sequência de comando do cliente (designada por uma lista delimitada por vírgula entre parênteses). O identificador e a lista de argumentos funcionam como uma chamada de função.**
+A nova sequência de caracteres SQL pode conter parâmetros. Isso significa que os parâmetros na sequência de caracteres SQL da seção **sql** (designada pelo caractere '?') podem ser substituídos pelos argumentos correspondentes em um *identifier* na sequência de comando do cliente (designada por uma lista delimitada por vírgula entre parênteses). O identificador e a lista de argumentos funcionam como uma chamada de função.
 
-Por exemplo, suponha que a cadeia de caracteres de comando do cliente é "CustomerByID (4)", \[o cabeçalho\] da seção SQL é SQL CustomerByID e a nova sequência \* de caracteres da seção SQL é "selecionar de clientes em que CustomerID = ?". O manipulador gerará, o cabeçalho da seção SQL \[será SQL\] CustomerByID e a nova sequência de caracteres da seção SQL \* será "selecionar de clientes em que CustomerID = ?". O manipulador irá gerar "selecionar \* de clientes em que CustomerID = 4" e usar essa cadeia de caracteres para consultar a fonte de dados.
+Por exemplo, suponha que a cadeia de comando do cliente seja "CustomerByID(4)" , o header da seção SQL seja SQL CustomerByID e a nova cadeia de caracteres da seção SQL seja \[ \] "SELECT \* FROM Customers WHERE CustomerID = ?". O manipulador gerará , o header da seção SQL é SQL CustomerByID e a nova cadeia de caracteres de seção SQL é \[ \] "SELECT \* FROM Customers WHERE CustomerID = ?". O manipulador gerará "SELECT FROM Customers WHERE CustomerID = 4" e usará essa cadeia de caracteres \* para consultar a fonte de dados.
 
 Se a nova sequência de caracteres SQL for a sequência nula (""), a seção será ignorada.
 
@@ -39,7 +39,7 @@ SQL = " "
 
 Uma entrada de sequência de caracteres SQL de substituição tem este formato:
 
-**SQL = * sqlString***
+**SQL=*sqlString***
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ Uma entrada de sequência de caracteres SQL de substituição tem este formato:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

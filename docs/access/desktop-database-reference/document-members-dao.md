@@ -58,23 +58,23 @@ O objeto Document inclui informações sobre uma instância de um objeto. O obje
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="document-container-property-dao.md">Caixa</a></strong></p></td>
+<td><p><strong><a href="document-container-property-dao.md">Contêiner</a></strong></p></td>
 <td><p>Retorna o nome do objeto <strong><a href="container-object-dao.md">Container</a></strong> ao qual um objeto <strong>Document</strong> pertence (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Retorna a data e a hora que um objeto foi criado. Somente leitura <strong>Variant</strong>.</p></td>
+<td><p>Retorna a data e a hora que um objeto foi criado. <strong>Variant</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
 <td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. <strong>Variant</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="document-name-property-dao.md">Nome</a></strong></p></td>
-<td><p>Retorna o nome do objeto especificado. Somente leitura <strong>cadeia de caracteres</strong>.</p></td>
+<td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
+<td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="document-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="document-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 </tbody>

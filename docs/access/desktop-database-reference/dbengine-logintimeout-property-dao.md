@@ -1,5 +1,5 @@
 ---
-title: Propriedade DBEngine. LoginTimeout (DAO)
+title: Propriedade DBEngine.LoginTimeout (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 81d14153-79c5-7860-b6a8-4079d2d7acf7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196648(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294306"
 ---
-# <a name="dbenginelogintimeout-property-dao"></a>Propriedade DBEngine. LoginTimeout (DAO)
+# <a name="dbenginelogintimeout-property-dao"></a>Propriedade DBEngine.LoginTimeout (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Define ou retorna o número de segundos antes de ocorrer um erro durante a tenta
 
 *expressão* . LoginTimeout
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="remarks"></a>Comentários
 

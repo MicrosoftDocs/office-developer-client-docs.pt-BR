@@ -18,5 +18,5 @@ ms.locfileid: "32295097"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Ação da macro ExcluirRegistro](deleterecord-macro-action.md)
+- [Ação de macro ExcluirRegistro](deleterecord-macro-action.md)
 

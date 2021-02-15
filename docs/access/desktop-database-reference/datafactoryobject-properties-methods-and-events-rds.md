@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do dataFactory (RDS)
+title: Propriedades, métodos e eventos de DataFactory (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294509"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>Propriedades, métodos e eventos do dataFactory (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>Propriedades, métodos e eventos de DataFactory (RDS)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -34,11 +34,11 @@ Nenhum.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="converttostring-method-rds.md">Método ConvertTostring (RDS)</a></p></td>
+<td><p><a href="converttostring-method-rds.md">Método ConvertToString (RDS)</a></p></td>
 <td><p>Converte um recordset em uma sequência MIME64.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="createrecordset-method-rds.md">Método createRecordset (RDS)</a></p></td>
+<td><p><a href="createrecordset-method-rds.md">Método CreateRecordset (RDS)</a></p></td>
 <td><p>Cria e retorna um recordset vazio.</p></td>
 </tr>
 <tr class="odd">
@@ -55,5 +55,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhuma.
+Nenhum
 

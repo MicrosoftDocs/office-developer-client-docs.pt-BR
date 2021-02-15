@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. CollatingOrder (DAO)
+title: Propriedade Database.CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295013"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Propriedade Database. CollatingOrder (DAO)
+# <a name="databasecollatingorder-property-dao"></a>Propriedade Database.CollatingOrder (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Retorna um valor que especifica a sequência da ordem de classificação no text
 
 *expressão* . CollatingOrder
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -116,7 +116,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 <td><p>Sueco ou finlandês Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPolish</strong></p></td>
+<td><p><strong>dbSort Ltdh</strong></p></td>
 <td><p>Polonês</p></td>
 </tr>
 <tr class="even">
@@ -147,7 +147,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 </table>
 
 
-A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
+A configuração da propriedade **CollatingOrder** corresponde ao argumento de localidade do método **CreateDatabase** quando o banco de dados foi criado ou ao método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
 
 Verifique a configuração da propriedade **CollatingOrder** de um objeto **Database** ou **Field** para determinar o método de comparação da sequência para o banco de dados ou o campo. Você pode definir a propriedade **CollatingOrder** de um objeto **Field** novo e não acrescentado se quiser que a configuração do objeto **Field** seja diferente da configuração do objeto **Database** que a contém.
 

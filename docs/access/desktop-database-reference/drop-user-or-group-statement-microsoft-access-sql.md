@@ -18,17 +18,17 @@ ms.locfileid: "32293641"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Exclui um ou mais *usuários* ou *grupos*existentes ou remove um ou mais *usuários* existentes de um *grupo*existente.
+Exclui um ou mais usuários *ou* grupos existentes *ou* remove um ou mais usuários *existentes* de um grupo *existente.*
 
 ## <a name="syntax"></a>Sintaxe
 
 ### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Excluir um ou mais usuários ou remover um ou mais usuários de um grupo
 
-Drop user *User*\[, *User*,... \] \[ **\]
+DROP USER *user,* \[ *user*, ... \] \[ Grupo  FROM\]
 
 ### <a name="delete-one-or-more-groups"></a>Excluir um ou mais grupos
 
-Drop Group *Group*\[, *Group*,...\]
+DROP GROUP *group* \[ , *group*, ...\]
 
 A instrução DROP USER ou GROUP tem estas partes:
 
@@ -39,17 +39,17 @@ A instrução DROP USER ou GROUP tem estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>usuário</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>O nome de um usuário a ser removido do arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>grupo</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>O nome de um grupo a ser removido do arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 </tbody>
@@ -58,7 +58,7 @@ A instrução DROP USER ou GROUP tem estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-Se a palavra-chave FROM for usada na instrução DROP USER, cada um dos *usuários* listados na instrução será removido do *grupo* especificado após a palavra-chave from. No enTanto, os *usuários* propriamente ditos não serão excluídos.
+Se a palavra-chave FROM for usada na  instrução DROP USER, cada  um dos usuários listados na instrução será removido do grupo especificado após a palavra-chave FROM. No entanto, *os próprios* usuários não serão excluídos.
 
-A instrução DROP GROUP excluirá o(s) *grupo*(s) especificado(s). Os *usuários* que são membros do (s) *grupo*(s) não serão afetados, mas não serão mais membros do (s) *grupo*(s) excluídos.
+A instrução DROP GROUP excluirá o(s) *grupo*(s) especificado(s). Os *usuários* que são membros *do*(s) grupo(s) não serão afetados, mas eles não serão mais membros *do(s)* grupo(s) excluído(s).
 

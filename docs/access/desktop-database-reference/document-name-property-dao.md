@@ -1,5 +1,5 @@
 ---
-title: Propriedade Document.Name (DAO)
+title: Document.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293781"
 ---
-# <a name="documentname-property-dao"></a>Propriedade Document.Name (DAO)
+# <a name="documentname-property-dao"></a>Document.Name (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Retorna o nome do objeto especificado. **String** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tdomínio
+*expressão* . Nome
 
-*expressão* Uma variável que representa um objeto **Document** .
+*expressão* Uma variável que representa um **objeto Document** .
 

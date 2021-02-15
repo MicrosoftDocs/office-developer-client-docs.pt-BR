@@ -1,5 +1,5 @@
 ---
-title: Provedores de dados (referência de banco de dados do Access)
+title: Provedores de dados (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data Providers
 ms:assetid: c1e36245-4ece-4986-db30-dc4be3daa794
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249946(v=office.15)
@@ -23,5 +23,5 @@ Os provedores de dados representam diversas fontes de dados como bancos de dados
 
 O ADO é poderoso e flexível porque consegue estabelecer conexão com qualquer um dos vários provedores de dados diferentes, e ainda expor o mesmo modelo de programação, independentemente dos recursos específicos de qualquer provedor determinado. No entanto, devido à exclusividade de cada provedor de dados, a maneira como o seu aplicativo interage com o ADO irá variar de provedor para provedor.
 
-Por exemplo, os recursos e recursos do OLE DB Provider for SQL Server, que é usado para acessar os bancos de dados do Microsoft SQL Server, são consideravelmente diferentes daqueles do Microsoft OLE DB Provider for Internet Publishing, que é usado para acessar o arquivo repositórios em um servidor Web.
+Por exemplo, os recursos do OLE DB Provider for SQL Server, que é usado para acessar bancos de dados do Microsoft SQL Server, são consideravelmente diferentes daqueles do Microsoft OLE DB Provider for Internet Publishing, que é usado para acessar os armazenamentos de arquivos em um servidor Web.
 

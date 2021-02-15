@@ -19,5 +19,5 @@ ms.locfileid: "32294453"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto DataSpace (RDS)](dataspace-object-rds.md)
-- [Propriedades, métodos e eventos de espaço de DataSpace (RDS)](dataspace-properties-methods-and-events-rds.md)
+- [Propriedades, métodos e eventos do DataSpace (RDS)](dataspace-properties-methods-and-events-rds.md)
 

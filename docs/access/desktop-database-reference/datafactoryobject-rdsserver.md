@@ -18,6 +18,6 @@ ms.locfileid: "32294481"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Objeto dataFactory (RDSServer)](datafactory-object-rdsserver.md)
-- [Propriedades, métodos e eventos do dataFactory (RDS)](datafactoryobject-properties-methods-and-events-rds.md)
+- [Objeto DataFactory (RDSServer)](datafactory-object-rdsserver.md)
+- [Propriedades, métodos e eventos de DataFactory (RDS)](datafactoryobject-properties-methods-and-events-rds.md)
 

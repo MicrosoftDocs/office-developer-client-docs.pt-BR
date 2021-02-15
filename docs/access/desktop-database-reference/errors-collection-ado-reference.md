@@ -1,5 +1,5 @@
 ---
-title: Referência de coleção Errors (ADO)
+title: Referência da coleção Errors (ADO)
 TOCTitle: Errors collection (ADO)
 ms:assetid: 08400de5-8113-4f53-a6ae-62010372f276
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248823(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293431"
 ---
-# <a name="errors-collection-ado-reference"></a>Referência de coleção Errors (ADO)
+# <a name="errors-collection-ado-reference"></a>Referência da coleção Errors (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

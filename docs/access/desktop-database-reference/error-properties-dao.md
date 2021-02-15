@@ -18,7 +18,7 @@ ms.locfileid: "32293459"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade Error. Description (DAO)](error-description-property-dao.md)
-- [Propriedade Error. Number (DAO)](error-number-property-dao.md)
-- [Propriedade Error. Source (DAO)](error-source-property-dao.md)
+- [Propriedade Error.Description (DAO)](error-description-property-dao.md)
+- [Propriedade Error.Number (DAO)](error-number-property-dao.md)
+- [Propriedade Error.Source (DAO)](error-source-property-dao.md)
 

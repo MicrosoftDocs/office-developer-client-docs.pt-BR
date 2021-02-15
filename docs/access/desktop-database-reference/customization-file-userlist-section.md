@@ -21,13 +21,13 @@ ms.locfileid: "32295153"
 
 A seção **userlist** refere-se à seção **connect** com o mesmo parâmetro *identifier* de seção.
 
-Esta seção pode conter uma *entrada de acesso de usuário*, que especifica os direitos de acesso para o usuário especificado e substitui a *entrada de acesso* *padrão* na seção **Connect** correspondente.
+Esta seção pode conter *uma* entrada de acesso de usuário , que   especifica os direitos de acesso para o usuário especificado e substitui a entrada de acesso padrão na seção **de conexão correspondente.**
 
 ## <a name="syntax"></a>Sintaxe
 
 Uma entrada de acesso de usuário tem este formato:
 
-*username * * * =* accessRights * * *
+*userName***=* accessRights***
 
 <table>
 <colgroup>
@@ -36,7 +36,7 @@ Uma entrada de acesso de usuário tem este formato:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

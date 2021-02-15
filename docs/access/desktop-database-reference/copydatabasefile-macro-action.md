@@ -18,13 +18,13 @@ ms.locfileid: "32295496"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **CopiarArquivoDeBancodeDados** para fazer uma cópia do banco de dados atual do Microsoft SQL Server 7.0 ou versões posteriores conectado ao projeto do Access. O Access desanexa o banco de dados atual e anexa-o ao servidor de destino. Para obter mais informações sobre como desanexar e anexar um banco de dados, consulte a documentação do SQL Server.
+Você pode usar a ação **CopiarArquivoDeBancodeDados** para fazer uma cópia do banco de dados atual do Microsoft SQL Server 7.0 ou versões posteriores conectado ao projeto do Access. O Access desconecta o banco de dados atual e o anexa ao servidor de destino. Para obter mais informações sobre como desanexar e anexar um banco de dados, consulte a documentação do SQL Server.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **CopiarArquivoDeBancodeDados** tem os seguintes argumentos.
 
@@ -50,7 +50,7 @@ A ação **CopiarArquivoDeBancodeDados** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Desconectar Todos os Usuários</strong></p></td>
-<td><p>Especifica se o Access deve ou não remover os usuários do banco de dados. Se estiver definido como <strong>Sim</strong>, quaisquer usuários conectados ao banco de dados atual serão desconectados para que a operação de banco de dados de cópia possa prosseguir. Se estiver definido como <strong>Não</strong> e um ou mais usuários estiverem conectados ao banco de dados, a operação de banco de dados de cópia falhará. O padrão é <strong>Não</strong>.</p><p><strong>Aviso</strong>: desconectar usuários de um banco de dados sem aviso adequado pode levar a uma perda de dados.</p></td>
+<td><p>Especifica se o Access deve ou não remover os usuários do banco de dados. Se estiver definido como <strong>Sim</strong>, quaisquer usuários conectados ao banco de dados atual serão desconectados para que a operação de banco de dados de cópia possa prosseguir. Se estiver definido como <strong>Não</strong> e um ou mais usuários estiverem conectados ao banco de dados, a operação de banco de dados de cópia falhará. O padrão é <strong>Não</strong>.</p><p><strong>AVISO:</strong>desconectar usuários de um banco de dados sem aviso adequado pode levar à perda de dados.</p></td>
 </tr>
 </tbody>
 </table>

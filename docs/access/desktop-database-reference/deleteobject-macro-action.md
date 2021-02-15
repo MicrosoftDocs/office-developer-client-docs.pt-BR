@@ -25,9 +25,9 @@ ms.locfileid: "32294026"
 Você pode usar a ação **ExcluirObjeto** para excluir um objeto de banco de dados especificado.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExcluirObjeto** tem os seguintes argumentos.
 

@@ -45,7 +45,7 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copia e compacta um banco de dados fechado e oferece a opção de alterar sua versão, ordem de agrupamento e criptografia. (Somente em espaços de trabalho do Microsoft Access). .</p></td>
+<td><p>Copia e compacta um banco de dados fechado e dá a você a opção de alterar sua versão, ordem de agrupamento e criptografia. (Espaços de trabalho do Microsoft Access apenas). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
@@ -56,18 +56,18 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 <td><p>Cria um novo objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">Estado</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">Ocioso</a></strong></p></td>
 <td><p>Suspende o processamento de dados, habilitando o mecanismo de banco de dados do Microsoft Access a concluir tarefas pendentes, como otimização de memória ou tempo limite da página (somente espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p>Um dos <strong><a href="workspacetypeenum-enumeration-dao.md">valores de WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Abre um objeto <strong><a href="connection-object-dao.md">Connection</a></strong> em uma fonte de dados ODBC (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Abre um banco de dados especificado e retorna uma referência ao objeto <strong><a href="database-object-dao.md">Database</a></strong> que o representa.</p></td>
+<td><p>Abri um banco de dados especificado e retorna uma referência para o objeto <strong><a href="database-object-dao.md">Banco de dados</a> </strong> que o representa.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></p></td>
@@ -124,7 +124,7 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 <td><p>Define ou retorna o número de segundos antes de ocorrer um erro durante a tentativa de fazer logon em um banco de dados ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="dbengine-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="dbengine-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">

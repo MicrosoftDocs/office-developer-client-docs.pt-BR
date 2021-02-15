@@ -1,5 +1,5 @@
 ---
-title: Propriedade defaultDatabase (ADO)
+title: Propriedade DefaultDatabase (ADO)
 TOCTitle: DefaultDatabase property (ADO)
 ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294145"
 ---
-# <a name="defaultdatabase-property-ado"></a>Propriedade defaultDatabase (ADO)
+# <a name="defaultdatabase-property-ado"></a>Propriedade DefaultDatabase (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -33,5 +33,5 @@ Se houver um banco de dados padrão, as sequências SQL poderão usar uma sintax
 
 Algumas fontes de dados e provedores talvez não ofereçam suporte a esse recurso e podem retornar um erro ou uma cadeia de caracteres vazia.
 
-**Uso do Remote Data Service** Esta propriedade não está disponível em um objeto **Connection** do lado do cliente.
+**Uso do Remote Data Service** Essa propriedade não está disponível em um objeto **Connection do** lado do cliente.
 

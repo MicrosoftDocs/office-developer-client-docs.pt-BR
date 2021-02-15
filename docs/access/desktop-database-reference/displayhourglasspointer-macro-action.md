@@ -25,7 +25,7 @@ ms.locfileid: "32293830"
 
 Você pode usar a ação **ExibirPonteirodeAmpulheta** para alterar o ponteiro do mouse para uma imagem de ampulheta (ou outro ícone escolhido) enquanto uma macro está em execução. Esta ação pode fornecer uma indicação visual de que a macro está em execução. Isso é especialmente útil quando uma ação de macro ou a própria macro leva muito tempo para ser executada.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ExibirPonteirodeAmpulheta** tem os seguintes argumentos.
 
@@ -51,7 +51,7 @@ A ação **ExibirPonteirodeAmpulheta** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Normalmente você usa esta ação se desativou o eco usando a ação **Eco**. Quando o eco está desativado, o Access suspende as atualizações de tela até que a macro seja concluída.
+Normalmente você usa esta ação se desativou o eco usando a ação **Eco**. Quando o eco está desligado, o Access suspende as atualizações de tela até que a macro seja concluída.
 
 O Access redefine automaticamente o argumento **Ampulheta Ativa** como **Não** quando a execução da macro é concluída.
 

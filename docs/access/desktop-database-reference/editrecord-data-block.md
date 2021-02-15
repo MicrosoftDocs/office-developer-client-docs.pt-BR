@@ -1,5 +1,5 @@
 ---
-title: Bloco de dados Editarregistro
+title: Bloco de dados EditarRegiscord
 TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293592"
 ---
-# <a name="editrecord-data-block"></a>Bloco de dados Editarregistro
+# <a name="editrecord-data-block"></a>Bloco de dados EditarRegiscord
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ Você pode usar o bloco de dados **EditarRegistro** para alterar os valores cont
 > O bloco de dados **EditarRegistro** está disponível somente em Macros de Dados.
 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 O bloco de dados **EditarRegistro** tem os seguintes argumentos.
 
@@ -35,7 +35,7 @@ O bloco de dados **EditarRegistro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -57,7 +57,7 @@ Após a instrução **EditarRegistro**, você pode inserir um bloco de comandos 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">Ação da macro CancelarAlteraçãodeRegistro</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Ação de macro CancelarAlteraçãodeRegistro</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
@@ -66,13 +66,13 @@ Após a instrução **EditarRegistro**, você pode inserir um bloco de comandos 
 <td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Then... Instrução de macro else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Se... Então... Instrução de macro Else</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
+<td><p><a href="setfield-macro-action.md">Ação de macro DefinirCampo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">Ação da macro DefinirVarLocal</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +83,7 @@ Você pode usar uma instrução **Se...Então...Senão** para executar operaçõ
 
 Para cancelar a edição de um registro, use a ação **CancelarAlteraçãodeRegistro**. Dessa forma, as alterações não são atribuídas e o bloco de dados **EditarRegistro** é encerrado.
 
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do Registro criado mais recentemente:
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AtribuídoA do registro criado mais recentemente:
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

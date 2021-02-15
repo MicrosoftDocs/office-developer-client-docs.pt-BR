@@ -1,5 +1,5 @@
 ---
-title: Importação/exportação de dados (referência de banco de dados de área de trabalho do Access)
+title: Importação/exportação de dados (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data import/export
 ms:assetid: 30b43148-8915-4204-87cc-09621f4d628a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)

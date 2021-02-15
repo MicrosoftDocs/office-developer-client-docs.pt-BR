@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. RegisterDatabase (DAO)
+title: Método DBEngine.RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294222"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine. RegisterDatabase (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine.RegisterDatabase (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . RegisterDatabase (***DSN***, ***Driver***, ***silencioso***, ***atributos***)
+*expressão* . RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,17 +42,17 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>DSN</em></p></td>
+<td><p><em>Dsn</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>o nome usado no método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Ele se refere a um bloco de informações descritivas sobre a fonte de dados. Por exemplo, se a fonte de dados for um banco de dados remoto ODBC, ele poderá ser o nome do servidor.</p></td>
+<td><p>o nome usado no <strong><a href="dbengine-opendatabase-method-dao.md">método OpenDatabase.</a></strong> Ele se refere a um bloco de informações descritivas sobre a fonte de dados. Por exemplo, se a fonte de dados for um banco de dados remoto ODBC, ele poderá ser o nome do servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -61,10 +61,10 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 <td><p>O nome do driver ODBC. Esse não é o nome do arquivo DLL do driver ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Silenciosa</em></p></td>
+<td><p><em>Silencioso</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong> se você não quiser exibir as caixas de diálogo do driver ODBC que solicitam as informações específicas do driver; ou <strong>False</strong> se você desejar exibir as caixas de diálogo do driver ODBC. Se silencioso for <strong>verdadeiro</strong>, os atributos deverão conter todas as informações específicas do driver necessárias ou as caixas de diálogo serão exibidas de qualquer forma.</p></td>
+<td><p><strong>True</strong> se você não quiser exibir as caixas de diálogo do driver ODBC que solicitam as informações específicas do driver; ou <strong>False</strong> se você desejar exibir as caixas de diálogo do driver ODBC. Se silencioso for <strong>True</strong>, os atributos deverão conter todas as informações específicas do driver necessárias ou as caixas de diálogo serão exibidas de qualquer forma.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>

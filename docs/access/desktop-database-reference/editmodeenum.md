@@ -1,5 +1,5 @@
 ---
-title: EditModeEnum (referência do banco de dados de área de trabalho do Access)
+title: EditModeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
@@ -38,22 +38,22 @@ Especifica o status de edição de um registro.
 <tbody>
 <tr class="odd">
 <td><p><strong>adEditNone</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica que nenhuma operação de edição está em andamento.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adEditInProgress</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que os dados no registro atual foram modificados, mas não foram salvos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEditAdd</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o método <a href="addnew-method-ado.md">AddNew</a> foi chamado e o registro atual no buffer de cópias é um novo registro que não foi salvo no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adEditDelete</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que o registro atual foi excluído.</p></td>
 </tr>
 </tbody>
@@ -75,16 +75,16 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. EditMode. NONE</p></td>
+<td><p>AdoEnums.EditMode.NONE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EditMode. inPROGRESS</p></td>
+<td><p>AdoEnums.EditMode.INPROGRESS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. EditMode. ADD</p></td>
+<td><p>AdoEnums.EditMode.ADD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EditMode. DELETE</p></td>
+<td><p>AdoEnums.EditMode.DELETE</p></td>
 </tr>
 </tbody>
 </table>

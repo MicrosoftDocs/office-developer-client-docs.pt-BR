@@ -18,5 +18,5 @@ ms.locfileid: "32295552"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade containers. Count (DAO)](containers-count-property-dao.md)
+- [Propriedade Containers.Count (DAO)](containers-count-property-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum (referência do banco de dados de área de trabalho do Access)
+title: ErrorValueEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -26,10 +26,10 @@ Três formatos de número de erro são listados:
 
 - Decimal negativo  A conversão decimal de um número completo do erro.
 
-- Hexadecimal  A representação hexadecimal do número completo do erro. O código de recurso do Windows está no quarto dígito. O código de facilidade para números de erro do ADO é *um*. Por exemplo: 0x800***um***0E7B.
+- Hexadecimal  A representação hexadecimal do número completo do erro. O código de recurso do Windows está no quarto dígito. O código de recurso para números de erro do ADO é *A*. Por exemplo: 0x800 ***A*** 0E7B.
 
 > [!NOTE]
-> Os erros do OLE DB podem ser transmitidos para seu aplicativo ADO. Em geral, eles podem ser identificados por um código de recursos do Windows de *4*. Por exemplo, 0x800_**4**_.... Para obter mais informações sobre esses números, consulte o capítulo 16 da *referência do programador do OLE DB.*
+> Os erros do OLE DB podem ser transmitidos para seu aplicativo ADO. Em geral, eles podem ser identificados por um código de recursos do Windows de *4*. Por exemplo, 0x800_ **4** _.... Para obter mais informações sobre esses números, consulte o Capítulo 16 da Referência do programador *do OLE DB.*
 
 <br/>
 
@@ -446,67 +446,67 @@ Somente os seguintes subconjuntos de equivalentes do ADO/WFC estão definidos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. dataCONVERSION</p></td>
+<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. ILLEGALOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. inTRANSACTION</p></td>
+<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. INVALIDARGUMENT</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. INVALIDCONNECTION</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. ITEMNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. NOCURRENTRECORD</p></td>
+<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. não está em execução</p></td>
+<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. NOTREENTRANT</p></td>
+<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. objectCLOSEd</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. objectNOTSET</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. objectOPEN</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. STILLCONNECTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Errorvalue. STILLEXECUTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Errorvalue. UNSAFEOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

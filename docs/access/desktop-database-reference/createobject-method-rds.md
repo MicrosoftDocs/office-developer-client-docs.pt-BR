@@ -38,19 +38,19 @@ O Remote Data Service suporta os seguintes protocolos: HTTP, HTTPS (HTTP sobre S
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Definir<em></em> = <em>espaço de disco</em>de objeto. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
+<td><p>Set<em>object</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Definir<em></em> = <em>espaço de disco</em>de objeto. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
+<td><p>Set<em>object</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="odd">
-<td><p>PROTOCOLO</p></td>
-<td><p>Definir<em></em> = <em>espaço de disco</em>de objeto. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; <em>ComputerName</em>&quot;)</p></td>
+<td><p>DCOM</p></td>
+<td><p>Set<em>object</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>Em processo</p></td>
-<td><p>Definir<em></em> = <em>espaço de disco</em>de objeto. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; &quot;)</p></td>
+<td><p>No processo</p></td>
+<td><p>Set<em>object</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,9 +63,9 @@ O Remote Data Service suporta os seguintes protocolos: HTTP, HTTPS (HTTP sobre S
 |*Object* |Uma variável de objeto que é avaliada para um objeto que é o tipo especificado em *ProgID*.|
 |*DataSpace* |Uma variável de objeto que representa um objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para criar uma instância do novo objeto.|
 |*ProgID* |Um valor **String** que contém o identificador programático que especifica um objeto corporativo no servidor que implementa as regras comerciais de seu aplicativo.|
-|*awebsrvr* ou *computername* |Um valor **String** que representa uma URL que identifica o servidor Web do IIS (serviços de informações da Internet) onde uma instância do objeto de negócios do servidor é criada.|
+|*awebsrvr* ou *computername* |Um **valor String** que representa uma URL que identifica o servidor Web do IIS (Serviços de Informações da Internet) onde uma instância do objeto de negócios do servidor é criada.|
 
 ## <a name="remarks"></a>Comentários
 
-O *protocolo http* é o protocolo Web padrão; *Https* é um protocolo da Web seguro. Utilize o *protocolo DCOM* ao executar uma rede local sem HTTP. O protocolo *dentro do processo* é uma biblioteca de vínculo dinâmico (DLL) local; ele não utiliza uma rede.
+O *protocolo HTTP é* o protocolo padrão da Web; *HTTPS* é um protocolo seguro da Web. Utilize o *protocolo DCOM* ao executar uma rede local sem HTTP. O protocolo *dentro do processo* é uma biblioteca de vínculo dinâmico (DLL) local; ele não utiliza uma rede.
 

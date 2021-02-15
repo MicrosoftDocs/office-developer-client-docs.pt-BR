@@ -43,7 +43,7 @@ Uma entrada de sequência de substituição de conexão tem este formato:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -75,5 +75,5 @@ Uma entrada de sequência de substituição de conexão tem este formato:
 </table>
 
 
-Se você quiser permitir qualquer conexão (em vigor, desabilitando o comportamento padrão do manipulador), defina a entrada de acesso na seção **Connect default** como e exclua ou comente qualquer outra seção **** *identificador* de conexão.
+Se você deseja permitir qualquer conexão (na verdade, desabilitando o comportamento  do manipulador padrão), de definida a  entrada de acesso na seção padrão conectar e exclua ou comente qualquer outra seção do *identificador* de conexão.
 

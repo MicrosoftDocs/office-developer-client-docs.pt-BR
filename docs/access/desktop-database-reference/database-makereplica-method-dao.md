@@ -1,5 +1,5 @@
 ---
-title: Método Database. MakeReplica (DAO)
+title: Método Database.MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294915"
 ---
-# <a name="databasemakereplica-method-dao"></a>Método Database. MakeReplica (DAO)
+# <a name="databasemakereplica-method-dao"></a>Método Database.MakeReplica (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . MakeReplica (***nome do caminho***, ***Descrição***, ***Opções***)
+*expressão* . MakeReplica(***PathName***, ***Description***, ***Options***)
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -61,10 +61,10 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 <td><p>A <strong>String</strong> que descreve a réplica que está sendo criada</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opções</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> que especifica as características da réplica que você está criando.</p></td>
+<td><p><strong>Variantes</strong></p></td>
+<td><p>Uma <strong><a href="replicatypeenum-enumeration-dao.md">constante ReplicaTypeEnum</a></strong> que especifica as características da réplica que você está criando.</p></td>
 </tr>
 </tbody>
 </table>
@@ -76,7 +76,7 @@ Uma réplica parcial recém-criada terá todas as propriedades **[ReplicaFilter]
 
 ## <a name="example"></a>Exemplo
 
-Esta função usa o método **MakeReplica** para criar uma réplica adicional de um Design Mestre existente. O argumento intOptions pode ser uma combinação das constantes **dbRepMakeReadOnly** e **dbRepMakePartial**ou pode ser 0. Por exemplo, para criar uma réplica parcial somente leitura, você deve passar o valor **dbRepMakeReadOnly** + **dbRepMakePartial** como o valor de intOptions.
+Esta função usa o método **MakeReplica** para criar uma réplica adicional de um Design Mestre existente. O argumento intOptions pode ser uma combinação das constantes **dbRepMakeReadOnly** e **dbRepMakePartial** ou pode ser 0. Por exemplo, para criar uma réplica parcial somente leitura, você deve passar o valor **dbRepMakeReadOnly**  +  **dbRepMakePartial** como o valor de intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

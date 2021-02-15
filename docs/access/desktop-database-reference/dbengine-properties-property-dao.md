@@ -1,5 +1,5 @@
 ---
-title: Propriedade DBEngine. Properties (DAO)
+title: Propriedade DBEngine.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 603e1bd9-53e5-00cd-f6a7-c3dac7c0ff1a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194802(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294236"
 ---
-# <a name="dbengineproperties-property-dao"></a>Propriedade DBEngine. Properties (DAO)
+# <a name="dbengineproperties-property-dao"></a>Propriedade DBEngine.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **DBEngine** .
+*expressão* Uma variável que representa um objeto **DBEngine**.
 

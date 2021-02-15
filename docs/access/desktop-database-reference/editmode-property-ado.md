@@ -31,7 +31,7 @@ O ADO mantém um buffer de edição associado ao registro atual. Essa propriedad
 
 Consulte o método [AddNew](addnew-method-ado.md) para obter uma descrição mais detalhada da propriedade **EditMode** em diferentes condições de edição.
 
-Quando uma chamada para [excluir](delete-method-ado-recordset.md) não excluir com êxito o registro ou os registros na fonte de dados (devido a violações de integridade referencial, por exemplo), o [Recordset](recordset-object-ado.md) permanecerá no modo de edição (**EditMode** = **adEditInProgress **). Isso significa que **CancelUpdate** deve ser chamado antes de sair do registro atual (com [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) ou [Close](close-method-ado.md), por exemplo).
+Quando uma [](delete-method-ado-recordset.md) chamada para Excluir não exclui com êxito o registro ou registros na fonte de dados (devido a violações de integridade referencial, por exemplo), o [Recordset](recordset-object-ado.md) permanecerá no modo de edição (**EditMode**  =  **adEditInProgress**). Isso significa que **CancelUpdate** deve ser chamado antes de sair do registro atual (com [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) ou [Close](close-method-ado.md), por exemplo).
 
 
 > [!NOTE]

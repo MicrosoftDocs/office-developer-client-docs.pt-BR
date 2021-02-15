@@ -22,13 +22,13 @@ Copia o número especificado de caracteres ou bytes (dependendo de [Type](type-p
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. CopyTo *DestStream*, *NUMCHARS*
+*Stream*. CopyTo *DestStream*, *NumChars*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*DestStream* |Um valor de variável de objeto que contém uma referência para um objeto **Stream** aberto. O **Stream** atual é copiado para o **Stream** de destino especificado por *DestStream*. O **Stream** de destino já deve estar aberto. Se não estiver, ocorrerá um erro em tempo de execução.<br/><br/>**Observação**: o parâmetro *DestStream* pode não ser um proxy do objeto **Stream** porque isso requer acesso a uma interface privada no objeto **Stream** que não pode ser remota ao cliente.|
+|*DestStream* |Um valor de variável de objeto que contém uma referência para um objeto **Stream** aberto. O **Stream** atual é copiado para o **Stream** de destino especificado por *DestStream*. O **Stream** de destino já deve estar aberto. Se não estiver, ocorrerá um erro em tempo de execução.<br/><br/>**OBSERVAÇÃO:** o *parâmetro DestStream* pode não ser um proxy do objeto **Stream** porque isso requer acesso a uma interface privada no objeto **Stream** que não pode ser remota ao cliente.|
 |*NumChars* |Opcional. Um valor **Integer** que especifica o número de bytes ou caracteres a serem copiados da posição atual no **Stream** de origem para o **Stream** de destino. O valor padrão é –1, que especifica que todos os caracteres ou bytes são copiados da posição atual até o [EOS](eos-property-ado.md).|
 
 ## <a name="remarks"></a>Comentários

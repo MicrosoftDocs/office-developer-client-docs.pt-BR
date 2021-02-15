@@ -1,5 +1,5 @@
 ---
-title: Método Database. NewPassword (DAO)
+title: Método Database.NewPassword (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294852"
 ---
-# <a name="databasenewpassword-method-dao"></a>Método Database. NewPassword (DAO)
+# <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . NewPassword (***bstrOld***, ***bstrNew***)
+*expressão* . NewPassword(***bstrOld***, ***bstrNew***)
 
-*expressão* Uma expressão que retorna um objeto **Database** .
+*expressão* Uma expressão que retorna um **objeto Database** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -58,8 +58,8 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 <td><p><em>bstrNew</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>A nova configuração da propriedade <strong>password</strong> do objeto <strong>Database</strong> .</p>
-<p><strong>Observação</strong>: Use senhas fortes que combinam letras maiúsculas e minúsculas, números e símbolos. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<td><p>A nova configuração da <strong>propriedade Password</strong> do objeto <strong>Database</strong> .</p>
+<p><strong>OBSERVAÇÃO:</strong>use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As enhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: Casa27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 
 ## <a name="remarks"></a>Comentários
 
-As cadeias de caracteres bstrOld e bstrNew podem ter até 20 caracteres e podem incluir quaisquer caracteres, exceto o caractere ASCII 0 (nulo). Para limpar a senha, use uma cadeia de caracteres de comprimento zero ("") para bstrNew.
+As cadeias de caracteres bstrOld e bstrNew podem ter até 20 caracteres e podem incluir qualquer caractere, exceto o caractere ASCII 0 (nulo). Para limpar a senha, use uma cadeia de caracteres de comprimento zero ("") para bstrNew.
 
 Senhas diferenciam maiúsculas de minúsculas.
 

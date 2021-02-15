@@ -18,8 +18,8 @@ ms.locfileid: "32295559"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Coleção containers (DAO)](containers-collection-dao.md)
-- [Membros de contêineres (DAO)](containers-members-dao.md)
+- [Coleção Containers (DAO)](containers-collection-dao.md)
+- [Membros containers (DAO)](containers-members-dao.md)
 - [Propriedades de contêineres (DAO)](containers-properties-dao.md)
 - [Métodos de contêineres (DAO)](containers-methods-dao.md)
 

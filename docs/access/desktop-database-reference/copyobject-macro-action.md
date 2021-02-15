@@ -27,7 +27,7 @@ Você pode usar a ação **CopiarObjeto** para copiar o objeto de banco de dados
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **CopiarObjeto** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **CopiarObjeto** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Banco de Dados de Destino</strong></p></td>
-<td><p>Um caminho e nome de arquivo válidos para o banco de dados de destino. Insira o caminho e nome de arquivo na caixa <strong>Banco de Dados de Destino</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe este argumento em branco se desejar selecionar o banco de dados atual.</p><p><strong>Observação</strong>: este argumento só está disponível no ambiente de banco de dados do Access. Ao usar esta ação em um ambiente de projeto do Access (.adp), o argumento Banco de Dados de Destino precisa estar em branco.</p>
+<td><p>Um caminho e nome de arquivo válidos para o banco de dados de destino. Insira o caminho e nome de arquivo na caixa <strong>Banco de Dados de Destino</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe este argumento em branco se desejar selecionar o banco de dados atual.</p><p><strong>OBSERVAÇÃO:</strong>esse argumento só está disponível no ambiente de banco de dados do Access. Ao usar esta ação em um ambiente de projeto do Access (.adp), o argumento Banco de Dados de Destino precisa estar em branco.</p>
 <p>Se você executar uma macro que contém a ação <strong>CopiarObjeto</strong> em um banco de dados biblioteca e deixar este argumento em branco, o Microsoft Office Access 2007 copiará o objeto para o banco de dados biblioteca.</p></td>
 </tr>
 <tr class="even">

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. QueryTimeout (DAO)
+title: Propriedade Database.QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294734"
 ---
-# <a name="databasequerytimeout-property-dao"></a>Propriedade Database. QueryTimeout (DAO)
+# <a name="databasequerytimeout-property-dao"></a>Propriedade Database.QueryTimeout (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -26,7 +26,7 @@ Define ou retorna um valor que especifica o número de segundos a serem aguardad
 
 *expressão* . QueryTimeout
 
-*expressão* Uma variável que representa um objeto **Database** .
+*expressão* Uma variável que representa um objeto do **Banco de dados**.
 
 ## <a name="remarks"></a>Comentários
 
