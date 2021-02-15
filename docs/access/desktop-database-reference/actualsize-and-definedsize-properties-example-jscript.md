@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280578"
 ---
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a><span data-ttu-id="f17fd-102">Exemplo das propriedades ActualSize e DefinedSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="f17fd-102">ActualSize and DefinedSize properties example (JScript)</span></span>
+# <a name="actualsize-and-definedsize-properties-example-jscript"></a><span data-ttu-id="d854d-102">Exemplo das propriedades ActualSize e DefinedSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="d854d-102">ActualSize and DefinedSize properties example (JScript)</span></span>
 
-<span data-ttu-id="f17fd-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f17fd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d854d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d854d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f17fd-p101">Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **ActualSizeJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="f17fd-p101">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.</span></span>
+<span data-ttu-id="d854d-p101">Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **ActualSizeJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d854d-p101">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActualSizeJS --> 

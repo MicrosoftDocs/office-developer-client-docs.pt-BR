@@ -1,5 +1,5 @@
 ---
-title: Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn (VC + +)
+title: Exemplo do método Append de chaves, tipo de chave, propriedades RelatedColumn (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290635"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="8a339-102">Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RELATEDTABLE e UpdateRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="8a339-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="39e27-102">Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="39e27-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="8a339-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a339-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="39e27-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="39e27-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8a339-p101">O código a seguir demonstra como criar uma nova chave estrangeira. Ele pressupõe a existência de duas tabelas (Clientes e Pedidos).</span><span class="sxs-lookup"><span data-stu-id="8a339-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="39e27-p101">O código a seguir demonstra como criar uma nova chave estrangeira. Ele pressupõe a existência de duas tabelas (Clientes e Pedidos).</span><span class="sxs-lookup"><span data-stu-id="39e27-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

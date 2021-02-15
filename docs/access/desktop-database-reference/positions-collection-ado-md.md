@@ -1,5 +1,5 @@
 ---
-title: Coleção poSitions (ADO MD)
+title: Coleção Positions (ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: a1e6333a-26a5-047a-1311-1a4060c73145
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249746(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287483"
 ---
-# <a name="positions-collection-ado-md"></a><span data-ttu-id="0077d-102">Coleção poSitions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0077d-102">Positions collection (ADO MD)</span></span>
+# <a name="positions-collection-ado-md"></a><span data-ttu-id="d2685-102">Coleção Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d2685-102">Positions collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="0077d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0077d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2685-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2685-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0077d-104">Contém os objetos [Position](position-object-ado-md.md) que definem um ponto em um eixo.</span><span class="sxs-lookup"><span data-stu-id="0077d-104">Contains the [Position](position-object-ado-md.md) objects that define a point on an axis.</span></span>
+<span data-ttu-id="d2685-104">Contém os objetos [Position](position-object-ado-md.md) que definem um ponto em um eixo.</span><span class="sxs-lookup"><span data-stu-id="d2685-104">Contains the [Position](position-object-ado-md.md) objects that define a point on an axis.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0077d-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="0077d-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d2685-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="d2685-105">Remarks</span></span>
 
-<span data-ttu-id="0077d-p101">**Positions** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="0077d-p101">**Positions** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="d2685-p101">**Positions** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="d2685-p101">**Positions** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
 
-  - <span data-ttu-id="0077d-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="0077d-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+  - <span data-ttu-id="d2685-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d2685-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="0077d-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="0077d-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+  - <span data-ttu-id="d2685-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d2685-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="0077d-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="0077d-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+  - <span data-ttu-id="d2685-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d2685-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

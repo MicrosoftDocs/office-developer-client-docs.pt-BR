@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280457"
 ---
-# <a name="activeconnection-property-adox"></a><span data-ttu-id="ff4e4-102">Propriedade ActiveConnection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ff4e4-102">ActiveConnection property (ADOX)</span></span>
+# <a name="activeconnection-property-adox"></a><span data-ttu-id="6f6bc-102">Propriedade ActiveConnection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6f6bc-102">ActiveConnection property (ADOX)</span></span>
 
-<span data-ttu-id="ff4e4-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff4e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6f6bc-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f6bc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ff4e4-104">Indica o objeto [Connection](connection-object-ado.md) do ADO ao qual pertence o [Catalog](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="ff4e4-104">Indicates the ADO [Connection](connection-object-ado.md) object to which the [Catalog](catalog-object-adox.md) belongs.</span></span>
+<span data-ttu-id="6f6bc-104">Indica o objeto [Connection](connection-object-ado.md) do ADO ao qual pertence o [Catalog](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="6f6bc-104">Indicates the ADO [Connection](connection-object-ado.md) object to which the [Catalog](catalog-object-adox.md) belongs.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ff4e4-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ff4e4-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="6f6bc-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="6f6bc-105">Settings and return values</span></span>
 
-<span data-ttu-id="ff4e4-106">Define um objeto **Connection** ou um objeto **String** que contém a definição de uma conexão.</span><span class="sxs-lookup"><span data-stu-id="ff4e4-106">Sets a **Connection** object or a **String** containing the definition for a connection.</span></span> <span data-ttu-id="ff4e4-107">Retorna o objeto **Connection** ativo.</span><span class="sxs-lookup"><span data-stu-id="ff4e4-107">Returns the active **Connection** object.</span></span>
+<span data-ttu-id="6f6bc-106">Define um objeto **Connection** ou um objeto **String** que contém a definição de uma conexão.</span><span class="sxs-lookup"><span data-stu-id="6f6bc-106">Sets a **Connection** object or a **String** containing the definition for a connection.</span></span> <span data-ttu-id="6f6bc-107">Retorna o objeto **Connection** ativo.</span><span class="sxs-lookup"><span data-stu-id="6f6bc-107">Returns the active **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ff4e4-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="ff4e4-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6f6bc-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="6f6bc-108">Remarks</span></span>
 
-<span data-ttu-id="ff4e4-109">O valor padrão é uma referência de objeto nula.</span><span class="sxs-lookup"><span data-stu-id="ff4e4-109">The default value is a null object reference.</span></span>
+<span data-ttu-id="6f6bc-109">O valor padrão é uma referência de objeto nula.</span><span class="sxs-lookup"><span data-stu-id="6f6bc-109">The default value is a null object reference.</span></span>
 

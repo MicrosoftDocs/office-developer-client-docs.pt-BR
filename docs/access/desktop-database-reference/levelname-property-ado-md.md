@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290047"
 ---
-# <a name="levelname-property-ado-md"></a><span data-ttu-id="c83c2-102">Propriedade LevelName (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c83c2-102">LevelName property (ADO MD)</span></span>
+# <a name="levelname-property-ado-md"></a><span data-ttu-id="2df57-102">Propriedade LevelName (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2df57-102">LevelName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="c83c2-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c83c2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2df57-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2df57-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c83c2-104">Indica o nome do nível de um membro.</span><span class="sxs-lookup"><span data-stu-id="c83c2-104">Indicates the name of the level of a member.</span></span>
+<span data-ttu-id="2df57-104">Indica o nome do nível de um membro.</span><span class="sxs-lookup"><span data-stu-id="2df57-104">Indicates the name of the level of a member.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c83c2-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c83c2-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2df57-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="2df57-105">Return values</span></span>
 
-<span data-ttu-id="c83c2-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="c83c2-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="2df57-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="2df57-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c83c2-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="c83c2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2df57-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="2df57-107">Remarks</span></span>
 
-<span data-ttu-id="c83c2-p101">Use a propriedade **LevelName** para recuperar o nome do nível ao qual pertence um membro. Isso corresponde à propriedade [Name](name-property-ado-md.md) de um objeto [Level](level-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="c83c2-p101">Use the **LevelName** property to retrieve the name of the level to which a member belongs. This corresponds to the [Name](name-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
+<span data-ttu-id="2df57-p101">Use a propriedade **LevelName** para recuperar o nome do nível ao qual pertence um membro. Isso corresponde à propriedade [Name](name-property-ado-md.md) de um objeto [Level](level-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="2df57-p101">Use the **LevelName** property to retrieve the name of the level to which a member belongs. This corresponds to the [Name](name-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
 

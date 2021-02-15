@@ -14,16 +14,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281850"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="e29a1-102">Exemplo do método AddNew (VBScript)</span><span class="sxs-lookup"><span data-stu-id="e29a1-102">AddNew method example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="b5bcc-102">Exemplo do método AddNew (VBScript)</span><span class="sxs-lookup"><span data-stu-id="b5bcc-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="e29a1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e29a1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5bcc-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5bcc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e29a1-104">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado.</span><span class="sxs-lookup"><span data-stu-id="e29a1-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="b5bcc-104">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado.</span><span class="sxs-lookup"><span data-stu-id="b5bcc-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="e29a1-p101">Use o exemplo a seguir em um Active Server Page (ASP). Use **Localizar** para procurar o arquivo Adovbs.inc e insira-o no diretório que planeja usar. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AddNewVBS.asp**. O resultado poderá ser exibido em qualquer navegador cliente.</span><span class="sxs-lookup"><span data-stu-id="e29a1-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="b5bcc-p101">Use o exemplo a seguir em um Active Server Page (ASP). Use **Localizar** para procurar o arquivo Adovbs.inc e insira-o no diretório que planeja usar. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AddNewVBS.asp**. O resultado poderá ser exibido em qualquer navegador cliente.</span><span class="sxs-lookup"><span data-stu-id="b5bcc-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="e29a1-p102">Para praticar o exemplo, adicione um novo registro no formato HTML. Clique em **Adicionar Novo**. Consulte o [Exemplo do método Delete](delete-method-example-vbscript.md) para remover registros indesejados.</span><span class="sxs-lookup"><span data-stu-id="e29a1-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="b5bcc-p102">Para praticar o exemplo, adicione um novo registro no formato HTML. Clique em **Adicionar Novo**. Consulte o [Exemplo do método Delete](delete-method-example-vbscript.md) para remover registros indesejados.</span><span class="sxs-lookup"><span data-stu-id="b5bcc-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

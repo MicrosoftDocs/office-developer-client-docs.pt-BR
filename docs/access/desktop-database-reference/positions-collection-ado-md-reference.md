@@ -1,5 +1,5 @@
 ---
-title: Coleção poSitions (referência do ADO MD)
+title: Coleção Positions (referência do ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: 325ee360-16b1-4878-ac5a-80d8fc3f7299
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249096(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287514"
 ---
-# <a name="positions-collection-ado-md-reference"></a><span data-ttu-id="12e33-102">Coleção poSitions (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="12e33-102">Positions collection (ADO MD reference)</span></span>
+# <a name="positions-collection-ado-md-reference"></a><span data-ttu-id="f4e5f-102">Coleção Positions (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f4e5f-102">Positions collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="12e33-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12e33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f4e5f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f4e5f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="12e33-104">Coleção poSitions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="12e33-104">Positions collection (ADO MD)</span></span>](positions-collection-ado-md.md)
-- [<span data-ttu-id="12e33-105">Propriedades, métodos e eventos da coleção poSitions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="12e33-105">Positions collection properties, methods, and events (ADO MD)</span></span>](positions-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="f4e5f-104">Coleção Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f4e5f-104">Positions collection (ADO MD)</span></span>](positions-collection-ado-md.md)
+- [<span data-ttu-id="f4e5f-105">Propriedades, métodos e eventos da coleção Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f4e5f-105">Positions collection properties, methods, and events (ADO MD)</span></span>](positions-collection-properties-methods-and-events-ado-md.md)
 

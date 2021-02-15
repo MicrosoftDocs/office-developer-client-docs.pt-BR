@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280674"
 ---
-# <a name="activecommand-property-example-vc"></a><span data-ttu-id="c7484-102">Exemplo da propriedade ActiveCommand (VC++)</span><span class="sxs-lookup"><span data-stu-id="c7484-102">ActiveCommand property example (VC++)</span></span>
+# <a name="activecommand-property-example-vc"></a><span data-ttu-id="8f9ec-102">Exemplo da propriedade ActiveCommand (VC++)</span><span class="sxs-lookup"><span data-stu-id="8f9ec-102">ActiveCommand property example (VC++)</span></span>
 
-<span data-ttu-id="c7484-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7484-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8f9ec-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f9ec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c7484-104">Este exemplo demonstra a propriedade [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c7484-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="8f9ec-104">Este exemplo demonstra a propriedade [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8f9ec-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="c7484-105">Uma sub-rotina recebe um objeto [Recordset](recordset-object-ado.md) cuja propriedade **ActiveCommand** é utilizada para exibir o texto do comando e o parâmetro que criaram o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c7484-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="8f9ec-105">Uma sub-rotina recebe um objeto [Recordset](recordset-object-ado.md) cuja propriedade **ActiveCommand** é utilizada para exibir o texto do comando e o parâmetro que criaram o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="8f9ec-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```cpp 
  

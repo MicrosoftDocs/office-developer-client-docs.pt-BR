@@ -1,5 +1,5 @@
 ---
-title: Propriedades de parâmetros (DAO)
+title: Propriedades parameters (DAO)
 TOCTitle: Properties
 ms:assetid: 5ab55b3c-f745-40a7-a31b-ebd46aadbb70
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124957(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287794"
 ---
-# <a name="parameters-properties-dao"></a><span data-ttu-id="e8278-102">Propriedades de parâmetros (DAO)</span><span class="sxs-lookup"><span data-stu-id="e8278-102">Parameters properties (DAO)</span></span>
+# <a name="parameters-properties-dao"></a><span data-ttu-id="2902e-102">Propriedades parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="2902e-102">Parameters properties (DAO)</span></span>
 
-<span data-ttu-id="e8278-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8278-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2902e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2902e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e8278-104">Propriedade paraMeters. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="e8278-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
+- [<span data-ttu-id="2902e-104">Propriedade Parameters.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="2902e-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
 

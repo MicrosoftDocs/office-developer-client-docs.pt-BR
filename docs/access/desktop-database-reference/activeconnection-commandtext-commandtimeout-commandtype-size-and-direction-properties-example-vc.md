@@ -1,5 +1,5 @@
 ---
-title: Exemplo das propriedades ActiveConnection, CommandText e CommandTimeout (VC + +)
+title: Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout (VC++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280554"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="e8e3f-102">Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction (VC++)</span><span class="sxs-lookup"><span data-stu-id="e8e3f-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="d2e9f-102">Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction (VC++)</span><span class="sxs-lookup"><span data-stu-id="d2e9f-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
 
-<span data-ttu-id="e8e3f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8e3f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2e9f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2e9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e8e3f-104">Este exemplo usa as propriedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) e [Direction](direction-property-ado.md) para executar um procedimento armazenado.</span><span class="sxs-lookup"><span data-stu-id="e8e3f-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="d2e9f-104">Este exemplo usa as propriedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) e [Direction](direction-property-ado.md) para executar um procedimento armazenado.</span><span class="sxs-lookup"><span data-stu-id="d2e9f-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```cpp 
  
@@ -202,7 +202,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="e8e3f-105">**ActiveConnectionX. h**</span><span class="sxs-lookup"><span data-stu-id="e8e3f-105">**ActiveConnectionX.h**</span></span>
+<span data-ttu-id="d2e9f-105">**ActiveConnectionX.h**</span><span class="sxs-lookup"><span data-stu-id="d2e9f-105">**ActiveConnectionX.h**</span></span>
 
 ```cpp 
  

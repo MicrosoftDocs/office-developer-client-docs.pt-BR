@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290118"
 ---
-# <a name="levels-collection-ado-md"></a><span data-ttu-id="3dd67-102">Coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="3dd67-102">Levels collection (ADO MD)</span></span>
+# <a name="levels-collection-ado-md"></a><span data-ttu-id="6d292-102">Coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d292-102">Levels collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="3dd67-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3dd67-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6d292-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d292-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3dd67-104">Contém os objetos [Level](level-object-ado-md.md) que formam uma hierarquia.</span><span class="sxs-lookup"><span data-stu-id="3dd67-104">Contains the [Level](level-object-ado-md.md) objects that make up a hierarchy.</span></span>
+<span data-ttu-id="6d292-104">Contém os objetos [Level](level-object-ado-md.md) que formam uma hierarquia.</span><span class="sxs-lookup"><span data-stu-id="6d292-104">Contains the [Level](level-object-ado-md.md) objects that make up a hierarchy.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3dd67-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="3dd67-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6d292-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="6d292-105">Remarks</span></span>
 
-<span data-ttu-id="3dd67-p101">**Levels** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="3dd67-p101">**Levels** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="6d292-p101">**Levels** é uma coleção padrão do ADO. Com as propriedades e os métodos de uma coleção, você pode executar os seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="6d292-p101">**Levels** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
 
-  - <span data-ttu-id="3dd67-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3dd67-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+  - <span data-ttu-id="6d292-108">Obter o número de objetos na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6d292-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="3dd67-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3dd67-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+  - <span data-ttu-id="6d292-109">Retornar um objeto da coleção com a propriedade padrão [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6d292-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="3dd67-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3dd67-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+  - <span data-ttu-id="6d292-110">Atualizar os objetos na coleção do provedor com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6d292-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

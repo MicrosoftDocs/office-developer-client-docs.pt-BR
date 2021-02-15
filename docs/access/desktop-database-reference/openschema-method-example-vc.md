@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288312"
 ---
-# <a name="openschema-method-example-vc"></a><span data-ttu-id="aa0b1-102">Exemplo do método OpenSchema (VC++)</span><span class="sxs-lookup"><span data-stu-id="aa0b1-102">OpenSchema method example (VC++)</span></span>
+# <a name="openschema-method-example-vc"></a><span data-ttu-id="28cf8-102">Exemplo do método OpenSchema (VC++)</span><span class="sxs-lookup"><span data-stu-id="28cf8-102">OpenSchema method example (VC++)</span></span>
 
 
-<span data-ttu-id="aa0b1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa0b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="28cf8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28cf8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aa0b1-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="aa0b1-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="28cf8-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="28cf8-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```cpp 
  

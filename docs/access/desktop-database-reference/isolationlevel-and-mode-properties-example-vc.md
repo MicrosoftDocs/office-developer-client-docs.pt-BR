@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291194"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="11b18-102">Exemplo das propriedades IsolationLevel e Mode (VC++)</span><span class="sxs-lookup"><span data-stu-id="11b18-102">IsolationLevel and Mode properties example (VC++)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="12514-102">Exemplo das propriedades IsolationLevel e Mode (VC++)</span><span class="sxs-lookup"><span data-stu-id="12514-102">IsolationLevel and Mode properties example (VC++)</span></span>
 
 
-<span data-ttu-id="11b18-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11b18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12514-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12514-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="11b18-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="11b18-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="12514-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="12514-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```cpp 
  
@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 // EndIsolationLevelCpp 
 ```
 
-<span data-ttu-id="11b18-105">**IsolationLevelX. h**</span><span class="sxs-lookup"><span data-stu-id="11b18-105">**IsolationLevelX.h**</span></span>
+<span data-ttu-id="12514-105">**IsolationLevelX.h**</span><span class="sxs-lookup"><span data-stu-id="12514-105">**IsolationLevelX.h**</span></span>
 
 ```cpp 
  

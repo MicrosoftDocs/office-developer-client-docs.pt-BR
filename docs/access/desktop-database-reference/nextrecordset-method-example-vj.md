@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288564"
 ---
-# <a name="nextrecordset-method-example-vj"></a><span data-ttu-id="b51ee-102">Exemplo do método NextRecordset (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b51ee-102">NextRecordset method example (VJ++)</span></span>
+# <a name="nextrecordset-method-example-vj"></a><span data-ttu-id="baa5a-102">Exemplo do método NextRecordset (VJ++)</span><span class="sxs-lookup"><span data-stu-id="baa5a-102">NextRecordset method example (VJ++)</span></span>
 
 
-<span data-ttu-id="b51ee-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b51ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="baa5a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="baa5a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b51ee-104">Este exemplo utiliza o método [NextRecordset](nextrecordset-method-ado.md) para exibir os dados em um recordset que utiliza uma instrução de comando composta, que inclui três instruções **SELECT** separadas.</span><span class="sxs-lookup"><span data-stu-id="b51ee-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="baa5a-104">Este exemplo utiliza o método [NextRecordset](nextrecordset-method-ado.md) para exibir os dados em um recordset que utiliza uma instrução de comando composta, que inclui três instruções **SELECT** separadas.</span><span class="sxs-lookup"><span data-stu-id="baa5a-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```java 
  

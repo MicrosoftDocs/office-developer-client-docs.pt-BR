@@ -1,5 +1,5 @@
 ---
-title: Referência do conjunto paraMeters (ADO)
+title: Referência da coleção Parameters (ADO)
 TOCTitle: Parameters collection (ADO)
 ms:assetid: ac05170e-6add-4eb1-bfd1-52594359882f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249799(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287955"
 ---
-# <a name="parameters-collection-ado-reference"></a><span data-ttu-id="e8538-102">Referência do conjunto paraMeters (ADO)</span><span class="sxs-lookup"><span data-stu-id="e8538-102">Parameters collection (ADO) reference</span></span>
+# <a name="parameters-collection-ado-reference"></a><span data-ttu-id="53a9d-102">Referência da coleção Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="53a9d-102">Parameters collection (ADO) reference</span></span>
 
-<span data-ttu-id="e8538-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8538-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="53a9d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="53a9d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e8538-104">Coleção paraMeters (ADO)</span><span class="sxs-lookup"><span data-stu-id="e8538-104">Parameters collection (ADO)</span></span>](parameters-collection-ado.md)
-- [<span data-ttu-id="e8538-105">Propriedades, métodos e eventos da coleção Parameters</span><span class="sxs-lookup"><span data-stu-id="e8538-105">Parameters collection properties, methods, and events</span></span>](parameters-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="53a9d-104">Coleção Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="53a9d-104">Parameters collection (ADO)</span></span>](parameters-collection-ado.md)
+- [<span data-ttu-id="53a9d-105">Propriedades, métodos e eventos da coleção Parameters</span><span class="sxs-lookup"><span data-stu-id="53a9d-105">Parameters collection properties, methods, and events</span></span>](parameters-collection-properties-methods-and-events.md)
 

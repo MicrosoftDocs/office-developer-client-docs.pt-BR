@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282569"
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="df3cb-102">Exemplo das propriedades AbsolutePage, PageCount e PageSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="df3cb-102">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="e5e9a-102">Exemplo das propriedades AbsolutePage, PageCount e PageSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="e5e9a-102">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="df3cb-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df3cb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5e9a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5e9a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="df3cb-104">Este exemplo usa as propriedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) e [PageSize](pagesize-property-ado.md) para exibir nomes e datas de contratação da tabela ***Funcionário***; cinco registros por vez.</span><span class="sxs-lookup"><span data-stu-id="df3cb-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
+<span data-ttu-id="e5e9a-104">Este exemplo usa as propriedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) e [PageSize](pagesize-property-ado.md) para exibir nomes e datas de contratação da tabela ***Funcionário***; cinco registros por vez.</span><span class="sxs-lookup"><span data-stu-id="e5e9a-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
 
 ```cpp
 // BeginAbsolutePageCpp 
@@ -198,7 +198,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="df3cb-105">**AbsolutePageX. h**</span><span class="sxs-lookup"><span data-stu-id="df3cb-105">**AbsolutePageX.h**</span></span>
+<span data-ttu-id="e5e9a-105">**AbsolutePageX.h**</span><span class="sxs-lookup"><span data-stu-id="e5e9a-105">**AbsolutePageX.h**</span></span>
 
 ```cpp 
  

@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280206"
 ---
-# <a name="addnew-method-example-jscript"></a><span data-ttu-id="d2bd6-102">Exemplo do método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="d2bd6-102">AddNew method example (JScript)</span></span>
+# <a name="addnew-method-example-jscript"></a><span data-ttu-id="394fe-102">Exemplo do método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="394fe-102">AddNew method example (JScript)</span></span>
 
-<span data-ttu-id="d2bd6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2bd6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="394fe-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="394fe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2bd6-p101">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d2bd6-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
+<span data-ttu-id="394fe-p101">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado. Recorte e cole o código a seguir no Bloco de notas ou em outro editor de texto e salve-o como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="394fe-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAddNewJS --> 

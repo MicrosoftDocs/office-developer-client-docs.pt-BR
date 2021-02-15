@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288187"
 ---
-# <a name="ordinal-property-ado-md-position"></a><span data-ttu-id="0c2fa-102">Propriedade Ordinal (Position do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0c2fa-102">Ordinal property (ADO MD Position)</span></span>
+# <a name="ordinal-property-ado-md-position"></a><span data-ttu-id="194ac-102">Propriedade Ordinal (Position do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="194ac-102">Ordinal property (ADO MD Position)</span></span>
 
 
-<span data-ttu-id="0c2fa-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c2fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="194ac-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="194ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0c2fa-104">Identifica exclusivamente uma posição em um eixo.</span><span class="sxs-lookup"><span data-stu-id="0c2fa-104">Uniquely identifies a position along an axis.</span></span>
+<span data-ttu-id="194ac-104">Identifica exclusivamente uma posição em um eixo.</span><span class="sxs-lookup"><span data-stu-id="194ac-104">Uniquely identifies a position along an axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0c2fa-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="0c2fa-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="194ac-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="194ac-105">Return values</span></span>
 
-<span data-ttu-id="0c2fa-106">Retorna um inteiro **Long** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="0c2fa-106">Returns a **Long** integer and is read-only.</span></span>
+<span data-ttu-id="194ac-106">Retorna um inteiro **Long** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="194ac-106">Returns a **Long** integer and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0c2fa-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="0c2fa-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="194ac-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="194ac-107">Remarks</span></span>
 
-<span data-ttu-id="0c2fa-108">O **Ordinal** de um objeto [Position](position-object-ado-md.md) corresponde ao índice do **Position** na coleção [Positions](positions-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="0c2fa-108">The **Ordinal** of a [Position](position-object-ado-md.md) object corresponds to the index of the **Position** within the [Positions](positions-collection-ado-md.md) collection.</span></span>
+<span data-ttu-id="194ac-108">O **Ordinal** de um objeto [Position](position-object-ado-md.md) corresponde ao índice do **Position** na coleção [Positions](positions-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="194ac-108">The **Ordinal** of a [Position](position-object-ado-md.md) object corresponds to the index of the **Position** within the [Positions](positions-collection-ado-md.md) collection.</span></span>
 
-<span data-ttu-id="0c2fa-109">Uma célula pode ser recuperada rapidamente por meio do **Ordinal** do objeto **Position** em cada eixo com a propriedade [Item](item-property-ado-md-cellset.md) do objeto [Cellset](cellset-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="0c2fa-109">A cell can quickly be retrieved using the **Ordinal** of the **Position** along each axis with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object.</span></span>
+<span data-ttu-id="194ac-109">Uma célula pode ser recuperada rapidamente por meio do **Ordinal** do objeto **Position** em cada eixo com a propriedade [Item](item-property-ado-md-cellset.md) do objeto [Cellset](cellset-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="194ac-109">A cell can quickly be retrieved using the **Ordinal** of the **Position** along each axis with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object.</span></span>
 

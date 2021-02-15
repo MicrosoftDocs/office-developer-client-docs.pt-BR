@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288557"
 ---
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="adc39-102">Exemplo das propriedades NumericScale e Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="adc39-102">NumericScale and Precision properties example (VJ++)</span></span>
+# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="24af6-102">Exemplo das propriedades NumericScale e Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="24af6-102">NumericScale and Precision properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="adc39-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="adc39-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="24af6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="24af6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="adc39-104">Este exemplo usa as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md) para exibir a escala numérica e a precisão de campos na tabela ***Discounts*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="adc39-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="24af6-104">Este exemplo usa as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md) para exibir a escala numérica e a precisão de campos na tabela ***Discounts*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="24af6-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```java 
  

@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290776"
 ---
-# <a name="key-object-adox-reference"></a><span data-ttu-id="ed7b1-102">Referência do objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ed7b1-102">Key object (ADOX) reference</span></span>
+# <a name="key-object-adox-reference"></a><span data-ttu-id="35a71-102">Referência do objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35a71-102">Key object (ADOX) reference</span></span>
 
-<span data-ttu-id="ed7b1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed7b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35a71-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35a71-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ed7b1-104">Objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ed7b1-104">Key object (ADOX)</span></span>](key-object-adox.md)
-- [<span data-ttu-id="ed7b1-105">Propriedades, métodos e eventos de chave (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ed7b1-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="35a71-104">Objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35a71-104">Key object (ADOX)</span></span>](key-object-adox.md)
+- [<span data-ttu-id="35a71-105">Propriedades, métodos e eventos principais (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35a71-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
 

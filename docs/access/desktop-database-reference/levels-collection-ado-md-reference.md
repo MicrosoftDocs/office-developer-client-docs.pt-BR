@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290054"
 ---
-# <a name="levels-collection-ado-md-reference"></a><span data-ttu-id="5beaa-102">Coleção Levels (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5beaa-102">Levels collection (ADO MD reference)</span></span>
+# <a name="levels-collection-ado-md-reference"></a><span data-ttu-id="8d422-102">Coleção Levels (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8d422-102">Levels collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="5beaa-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5beaa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8d422-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d422-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5beaa-104">Coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5beaa-104">Levels collection (ADO MD)</span></span>](levels-collection-ado-md.md)
-- [<span data-ttu-id="5beaa-105">Propriedades, métodos e eventos da coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5beaa-105">Levels collection properties, methods, and events (ADO MD)</span></span>](levels-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="8d422-104">Coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8d422-104">Levels collection (ADO MD)</span></span>](levels-collection-ado-md.md)
+- [<span data-ttu-id="8d422-105">Propriedades, métodos e eventos da coleção Levels (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8d422-105">Levels collection properties, methods, and events (ADO MD)</span></span>](levels-collection-properties-methods-and-events-ado-md.md)
 

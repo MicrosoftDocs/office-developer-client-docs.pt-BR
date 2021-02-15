@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287766"
 ---
-# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="7e658-102">Exemplo da propriedade ParentCatalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="7e658-102">ParentCatalog property example (VC++)</span></span>
+# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="dd065-102">Exemplo da propriedade ParentCatalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="dd065-102">ParentCatalog property example (VC++)</span></span>
 
 
-<span data-ttu-id="7e658-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e658-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dd065-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd065-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7e658-p101">O código a seguir demonstra como usar a propriedade [ParentCatalog](parentcatalog-property-adox.md) para acessar uma propriedade específica do provedor-antes de acrescentar uma tabela a um catálogo. A propriedade é AutoIncrement, que cria um campo AutoIncrement em um banco de dados Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="7e658-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
+<span data-ttu-id="dd065-p101">O código a seguir demonstra como usar a propriedade [ParentCatalog](parentcatalog-property-adox.md) para acessar uma propriedade específica do provedor-antes de acrescentar uma tabela a um catálogo. A propriedade é AutoIncrement, que cria um campo AutoIncrement em um banco de dados Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="dd065-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
 
 ```cpp 
  

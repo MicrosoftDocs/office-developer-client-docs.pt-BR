@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283328"
 ---
-# <a name="ado-md-methods"></a><span data-ttu-id="d7fc1-102">Métodos do ADO MD</span><span class="sxs-lookup"><span data-stu-id="d7fc1-102">ADO MD methods</span></span>
+# <a name="ado-md-methods"></a><span data-ttu-id="b74c7-102">Métodos do ADO MD</span><span class="sxs-lookup"><span data-stu-id="b74c7-102">ADO MD methods</span></span>
 
-<span data-ttu-id="d7fc1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7fc1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b74c7-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b74c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,16 +27,16 @@ ms.locfileid: "32283328"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="d7fc1-104">Método		</span><span class="sxs-lookup"><span data-stu-id="d7fc1-104">Method</span></span></th>
-<th><span data-ttu-id="d7fc1-105">Descrição</span><span class="sxs-lookup"><span data-stu-id="d7fc1-105">Description</span></span></th>
+<th><span data-ttu-id="b74c7-104">Método</span><span class="sxs-lookup"><span data-stu-id="b74c7-104">Method</span></span></th>
+<th><span data-ttu-id="b74c7-105">Descrição</span><span class="sxs-lookup"><span data-stu-id="b74c7-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7fc1-106"><a href="close-method-ado-md.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="d7fc1-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
-<td><p><span data-ttu-id="d7fc1-107">Fecha um conjunto de células aberto.</span><span class="sxs-lookup"><span data-stu-id="d7fc1-107">Closes an open cellset.</span></span></p></td>
+<td><p><span data-ttu-id="b74c7-106"><a href="close-method-ado-md.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="b74c7-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
+<td><p><span data-ttu-id="b74c7-107">Fecha um conjunto de células aberto.</span><span class="sxs-lookup"><span data-stu-id="b74c7-107">Closes an open cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7fc1-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="d7fc1-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
-<td><p><span data-ttu-id="d7fc1-109">Recupera os resultados de uma consulta multidimensional e retorna os resultados para um conjunto de células.</span><span class="sxs-lookup"><span data-stu-id="d7fc1-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
+<td><p><span data-ttu-id="b74c7-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="b74c7-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
+<td><p><span data-ttu-id="b74c7-109">Recupera os resultados de uma consulta multidimensional e retorna os resultados para um conjunto de células.</span><span class="sxs-lookup"><span data-stu-id="b74c7-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
 </tr>
 </tbody>
 </table>

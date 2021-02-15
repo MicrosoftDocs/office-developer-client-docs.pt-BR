@@ -1,5 +1,5 @@
 ---
-title: Invólucros de classe Java do ADO
+title: Wrappers de classe Java do ADO
 TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283314"
 ---
-# <a name="ado-java-class-wrappers"></a><span data-ttu-id="e2966-102">Invólucros de classe Java do ADO</span><span class="sxs-lookup"><span data-stu-id="e2966-102">ADO Java class wrappers</span></span>
+# <a name="ado-java-class-wrappers"></a><span data-ttu-id="d1a0b-102">Wrappers de classe Java do ADO</span><span class="sxs-lookup"><span data-stu-id="d1a0b-102">ADO Java class wrappers</span></span>
 
 
-<span data-ttu-id="e2966-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2966-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1a0b-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1a0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e2966-p101">Este código declara uma instância do wrapper da classe [Recordset](recordset-object-ado.md) do ADO e a inicializa, tudo na mesma linha de código. Além disso, ele declara variáveis para cada um dos argumentos no método [Open](open-method-ado-recordset.md), especialmente para [LockType](locktype-property-ado.md) e [CursorType](cursortype-property-ado.md) (pois o Java não oferece suporte a tipos enumerados). Ele abre e fecha o objeto **Recordset**. Definir Rs1 como NULL apenas faz com que esta variável seja lançada quando o Java executar o lançamento sistemático e intermitente de objetos não utilizados.</span><span class="sxs-lookup"><span data-stu-id="e2966-p101">This code declares an instance of the ADO [Recordset](recordset-object-ado.md) class wrapper and initializes it, all on the same line of code. Further, it declares variables for each of the arguments in the [Open](open-method-ado-recordset.md) method, especially for [LockType](locktype-property-ado.md) and [CursorType](cursortype-property-ado.md) (because Java doesn't support enumerated types). It opens and closes the **Recordset** object. Setting Rs1 to NULL merely schedules that variable to be released when Java performs its systematic and intermittent release of unused objects.</span></span>
+<span data-ttu-id="d1a0b-p101">Este código declara uma instância do wrapper da classe [Recordset](recordset-object-ado.md) do ADO e a inicializa, tudo na mesma linha de código. Além disso, ele declara variáveis para cada um dos argumentos no método [Open](open-method-ado-recordset.md), especialmente para [LockType](locktype-property-ado.md) e [CursorType](cursortype-property-ado.md) (pois o Java não oferece suporte a tipos enumerados). Ele abre e fecha o objeto **Recordset**. Definir Rs1 como NULL apenas faz com que esta variável seja lançada quando o Java executar o lançamento sistemático e intermitente de objetos não utilizados.</span><span class="sxs-lookup"><span data-stu-id="d1a0b-p101">This code declares an instance of the ADO [Recordset](recordset-object-ado.md) class wrapper and initializes it, all on the same line of code. Further, it declares variables for each of the arguments in the [Open](open-method-ado-recordset.md) method, especially for [LockType](locktype-property-ado.md) and [CursorType](cursortype-property-ado.md) (because Java doesn't support enumerated types). It opens and closes the **Recordset** object. Setting Rs1 to NULL merely schedules that variable to be released when Java performs its systematic and intermittent release of unused objects.</span></span>
 
 ```java 
  

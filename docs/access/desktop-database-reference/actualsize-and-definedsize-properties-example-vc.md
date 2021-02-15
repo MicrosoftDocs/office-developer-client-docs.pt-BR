@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280485"
 ---
-# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="e859f-102">Exemplo das propriedades ActualSize e DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="e859f-102">ActualSize and DefinedSize properties example (VC++)</span></span>
+# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="1c878-102">Exemplo das propriedades ActualSize e DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="1c878-102">ActualSize and DefinedSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="e859f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e859f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c878-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c878-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e859f-104">Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo.</span><span class="sxs-lookup"><span data-stu-id="e859f-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
+<span data-ttu-id="1c878-104">Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo.</span><span class="sxs-lookup"><span data-stu-id="1c878-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
 
 ```cpp 
  

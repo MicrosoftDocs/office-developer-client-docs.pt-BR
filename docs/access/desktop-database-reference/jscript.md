@@ -1,5 +1,5 @@
 ---
-title: JScript (referência do banco de dados de área de trabalho do Access)
+title: JScript (referência do banco de dados da área de trabalho do Access)
 TOCTitle: JScript
 ms:assetid: 78da203c-1342-1a04-ae53-c1fb714d18b5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290905"
 ---
-# <a name="jscript"></a><span data-ttu-id="18dc5-102">JScript</span><span class="sxs-lookup"><span data-stu-id="18dc5-102">JScript</span></span>
+# <a name="jscript"></a><span data-ttu-id="7cffe-102">JScript</span><span class="sxs-lookup"><span data-stu-id="7cffe-102">JScript</span></span>
 
 
-<span data-ttu-id="18dc5-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18dc5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7cffe-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cffe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="18dc5-104">O Microsoft JScript não oferece suporte a eventos do ADO.</span><span class="sxs-lookup"><span data-stu-id="18dc5-104">Microsoft JScript does not support ADO events.</span></span>
+<span data-ttu-id="7cffe-104">O Microsoft JScript não oferece suporte a eventos do ADO.</span><span class="sxs-lookup"><span data-stu-id="7cffe-104">Microsoft JScript does not support ADO events.</span></span>
 

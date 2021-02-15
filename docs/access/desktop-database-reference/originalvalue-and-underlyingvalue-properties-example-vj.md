@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288158"
 ---
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a><span data-ttu-id="dd99e-102">Exemplo das propriedades OriginalValue e UnderlyingValue (VJ++)</span><span class="sxs-lookup"><span data-stu-id="dd99e-102">OriginalValue and UnderlyingValue properties example (VJ++)</span></span>
+# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a><span data-ttu-id="8eba9-102">Exemplo das propriedades OriginalValue e UnderlyingValue (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8eba9-102">OriginalValue and UnderlyingValue properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="dd99e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd99e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8eba9-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8eba9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd99e-104">Este exemplo demonstra as propriedades [OriginalValue](originalvalue-property-ado.md) e [UnderlyingValue](underlyingvalue-property-ado.md) exibindo uma mensagem se os dados de base de um registro forem alterados durante uma atualização em lotes do [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="dd99e-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="8eba9-104">Este exemplo demonstra as propriedades [OriginalValue](originalvalue-property-ado.md) e [UnderlyingValue](underlyingvalue-property-ado.md) exibindo uma mensagem se os dados de base de um registro forem alterados durante uma atualização em lotes do [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8eba9-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```java 
  

@@ -1,5 +1,5 @@
 ---
-title: KeyTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: KeyTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290240"
 ---
-# <a name="keytypeenum"></a><span data-ttu-id="9b8ec-102">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="9b8ec-102">KeyTypeEnum</span></span>
+# <a name="keytypeenum"></a><span data-ttu-id="28ffe-102">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="28ffe-102">KeyTypeEnum</span></span>
 
-<span data-ttu-id="9b8ec-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b8ec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="28ffe-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28ffe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b8ec-104">Especifica o tipo de [Chave](key-object-adox.md): primária, estrangeira ou exclusiva.</span><span class="sxs-lookup"><span data-stu-id="9b8ec-104">Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.</span></span>
+<span data-ttu-id="28ffe-104">Especifica o tipo de [Chave](key-object-adox.md): primária, estrangeira ou exclusiva.</span><span class="sxs-lookup"><span data-stu-id="28ffe-104">Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.</span></span>
 
 <br/>
 
@@ -30,26 +30,26 @@ ms.locfileid: "32290240"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9b8ec-105">Constant</span><span class="sxs-lookup"><span data-stu-id="9b8ec-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="9b8ec-106">Valor</span><span class="sxs-lookup"><span data-stu-id="9b8ec-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="9b8ec-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="9b8ec-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="28ffe-105">Constant</span><span class="sxs-lookup"><span data-stu-id="28ffe-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="28ffe-106">Valor</span><span class="sxs-lookup"><span data-stu-id="28ffe-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="28ffe-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="28ffe-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9b8ec-108"><strong>adKeyPrimary</strong></span><span class="sxs-lookup"><span data-stu-id="9b8ec-108"><strong>adKeyPrimary</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-109">1</span><span class="sxs-lookup"><span data-stu-id="9b8ec-109">1</span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-p101">Padrão. A chave é primária.</span><span class="sxs-lookup"><span data-stu-id="9b8ec-p101">Default. The key is a primary key.</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-108"><strong>adKeyPrimary</strong></span><span class="sxs-lookup"><span data-stu-id="28ffe-108"><strong>adKeyPrimary</strong></span></span></p></td>
+<td><p><span data-ttu-id="28ffe-109">1 </span><span class="sxs-lookup"><span data-stu-id="28ffe-109">1</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-p101">Padrão. A chave é primária.</span><span class="sxs-lookup"><span data-stu-id="28ffe-p101">Default. The key is a primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9b8ec-112"><strong>adKeyForeign</strong></span><span class="sxs-lookup"><span data-stu-id="9b8ec-112"><strong>adKeyForeign</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-113">duas</span><span class="sxs-lookup"><span data-stu-id="9b8ec-113">2</span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-114">A chave é uma chave estrangeira.</span><span class="sxs-lookup"><span data-stu-id="9b8ec-114">The key is a foreign key.</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-112"><strong>adKeyForeign</strong></span><span class="sxs-lookup"><span data-stu-id="28ffe-112"><strong>adKeyForeign</strong></span></span></p></td>
+<td><p><span data-ttu-id="28ffe-113">2 </span><span class="sxs-lookup"><span data-stu-id="28ffe-113">2</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-114">A chave é uma chave estrangeira.</span><span class="sxs-lookup"><span data-stu-id="28ffe-114">The key is a foreign key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9b8ec-115"><strong>adKeyUnique</strong></span><span class="sxs-lookup"><span data-stu-id="9b8ec-115"><strong>adKeyUnique</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-116">3D</span><span class="sxs-lookup"><span data-stu-id="9b8ec-116">3</span></span></p></td>
-<td><p><span data-ttu-id="9b8ec-117">A chave é exclusiva.</span><span class="sxs-lookup"><span data-stu-id="9b8ec-117">The key is unique.</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-115"><strong>adKeyUnique</strong></span><span class="sxs-lookup"><span data-stu-id="28ffe-115"><strong>adKeyUnique</strong></span></span></p></td>
+<td><p><span data-ttu-id="28ffe-116">3 </span><span class="sxs-lookup"><span data-stu-id="28ffe-116">3</span></span></p></td>
+<td><p><span data-ttu-id="28ffe-117">A chave é exclusiva.</span><span class="sxs-lookup"><span data-stu-id="28ffe-117">The key is unique.</span></span></p></td>
 </tr>
 </tbody>
 </table>

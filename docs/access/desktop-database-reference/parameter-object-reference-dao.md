@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288060"
 ---
-# <a name="parameter-object-reference-dao"></a><span data-ttu-id="847b8-102">Referência de objeto de parâmetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="847b8-102">Parameter object reference (DAO)</span></span>
+# <a name="parameter-object-reference-dao"></a><span data-ttu-id="1219c-102">Referência de objeto de parâmetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="1219c-102">Parameter object reference (DAO)</span></span>
 
-<span data-ttu-id="847b8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="847b8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1219c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1219c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="847b8-104">Objeto Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="847b8-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
-- [<span data-ttu-id="847b8-105">Membros de parâmetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="847b8-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
-- [<span data-ttu-id="847b8-106">Propriedades do parâmetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="847b8-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
+- [<span data-ttu-id="1219c-104">Objeto Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="1219c-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
+- [<span data-ttu-id="1219c-105">Membros parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="1219c-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
+- [<span data-ttu-id="1219c-106">Propriedades de parâmetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="1219c-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
 

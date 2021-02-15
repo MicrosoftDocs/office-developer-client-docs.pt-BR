@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284522"
 ---
-# <a name="recordset-object-ado-reference"></a><span data-ttu-id="a95e3-102">Referência do objeto Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a95e3-102">Recordset object (ADO) reference</span></span>
+# <a name="recordset-object-ado-reference"></a><span data-ttu-id="a7514-102">Referência do objeto Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a7514-102">Recordset object (ADO) reference</span></span>
 
-<span data-ttu-id="a95e3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a95e3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a7514-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7514-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a95e3-104">Objeto Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a95e3-104">Recordset object (ADO)</span></span>](recordset-object-ado.md)
-- [<span data-ttu-id="a95e3-105">Propriedades, métodos e eventos do Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a95e3-105">Recordset properties, methods, and events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="a7514-104">Objeto Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a7514-104">Recordset object (ADO)</span></span>](recordset-object-ado.md)
+- [<span data-ttu-id="a7514-105">Propriedades, métodos e eventos do recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a7514-105">Recordset properties, methods, and events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
 
