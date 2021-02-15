@@ -1,5 +1,5 @@
 ---
-title: Métodos Campo2 (DAO)
+title: Métodos Field2 (DAO)
 TOCTitle: Methods
 ms:assetid: 2d382d0a-3d61-4321-b048-18e15ccf55e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124187(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292766"
 ---
-# <a name="field2-methods-dao"></a>Métodos Campo2 (DAO)
+# <a name="field2-methods-dao"></a>Métodos Field2 (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Campo2. AppendChunk (DAO)](field2-appendchunk-method-dao.md)
-- [Método Campo2. createProperty (DAO)](field2-createproperty-method-dao.md)
-- [Método Campo2. getChunk (DAO)](field2-getchunk-method-dao.md)
-- [Método Campo2. loadFromfile (DAO)](field2-loadfromfile-method-dao.md)
-- [Método Campo2. SaveToFile (DAO)](field2-savetofile-method-dao.md)
+- [Método Field2.AppendChunk (DAO)](field2-appendchunk-method-dao.md)
+- [Método Field2.CreateProperty (DAO)](field2-createproperty-method-dao.md)
+- [Método Field2.GetChunk (DAO)](field2-getchunk-method-dao.md)
+- [Método Field2.LoadFromFile (DAO)](field2-loadfromfile-method-dao.md)
+- [Método Field2.SaveToFile (DAO)](field2-savetofile-method-dao.md)
 

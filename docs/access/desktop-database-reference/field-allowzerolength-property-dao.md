@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. AllowZeroLength (DAO)
+title: Propriedade Field.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293158"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Propriedade Field. AllowZeroLength (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Propriedade Field.AllowZeroLength (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Define ou retorna um valor que indica que a sequência de comprimento zero ("") 
 
 *expressão* . AllowZeroLength
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 

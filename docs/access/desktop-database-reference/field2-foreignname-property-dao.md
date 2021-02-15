@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. ForeignName (DAO)
+title: Propriedade Field2.ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292808"
 ---
-# <a name="field2foreignname-property-dao"></a>Propriedade Campo2. ForeignName (DAO)
+# <a name="field2foreignname-property-dao"></a>Propriedade Field2.ForeignName (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Define ou retorna um valor que especifica o nome do objeto **Field2** em uma tab
 
 *expressão* . ForeignName
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

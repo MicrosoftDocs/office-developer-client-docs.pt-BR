@@ -48,11 +48,11 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Membro</p></td>
+<td><p>AllMember</p></td>
 <td><p>O membro de nível mais alto de acúmulo na hierarquia.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nome_do_catálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>Um rótulo ou uma legenda associada à hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HierarchyCardinality</p></td>
+<td><p>HierarchyItudenality</p></td>
 <td><p>O número de membros na hierarquia.</p></td>
 </tr>
 <tr class="even">

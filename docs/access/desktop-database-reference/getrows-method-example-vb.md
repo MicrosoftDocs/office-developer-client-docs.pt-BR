@@ -19,7 +19,7 @@ ms.locfileid: "32292234"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar um número específico de linhas de um [Recordset](recordset-object-ado.md) e para preencher uma matriz com os dados resultantes. O método **GetRows** retornará menos do que o número de linhas desejado nos dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido alcançado ou se **GetRows** tentou recuperar um registro excluído por outro usuário. A função retornará **False** somente se o segundo caso ocorrer. A função GetRowsOK é exigida para que este procedimento seja executado.
+Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar um número especificado de linhas de um [Recordset](recordset-object-ado.md) e para preencher uma matriz com os dados resultantes. O método **GetRows** retornará menos do que o número desejado de linhas em dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido atingido ou se **GetRows** tiver tentado recuperar um registro excluído por outro usuário. A função só retornará **Falso** se o segundo caso ocorrer. A função GetRowsOK é necessária para a execução deste procedimento.
 
 ```vb 
  

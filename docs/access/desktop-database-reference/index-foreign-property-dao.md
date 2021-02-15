@@ -1,5 +1,5 @@
 ---
-title: Propriedade index. Foreign (DAO)
+title: Propriedade Index.Foreign (DAO)
 TOCTitle: Foreign Property
 ms:assetid: 81272436-a506-4b72-fd28-2d68e76d6d9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196489(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291814"
 ---
-# <a name="indexforeign-property-dao"></a>Propriedade index. Foreign (DAO)
+# <a name="indexforeign-property-dao"></a>Propriedade Index.Foreign (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Retorna um valor que indica se um objeto **[Index](index-object-dao.md)** repres
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Estrangeira
+*expressão* . Externo
 
-*expressão* Uma variável que representa um objeto **index** .
+*expressão* Uma variável que representa um **objeto Index** .
 
 ## <a name="remarks"></a>Comentários
 

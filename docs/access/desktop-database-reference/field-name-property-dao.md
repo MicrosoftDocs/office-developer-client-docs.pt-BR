@@ -23,9 +23,9 @@ Retorna ou define o nome do objeto especificado. **String** de leitura/gravaçã
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tdomínio
+*expressão* . Nome
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 

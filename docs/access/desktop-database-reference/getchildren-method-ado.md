@@ -24,7 +24,7 @@ Retorna um [Recordset](recordset-object-ado.md) cujas linhas representam os filh
 
 ## <a name="syntax"></a>Sintaxe
 
-**Definir** *conjunto de registros*  =  *Record*. GetChildren
+**Definir** *registro do conjunto de*  =  *registros.* GetChildren
 
 ## <a name="return-value"></a>Valor de retorno
 

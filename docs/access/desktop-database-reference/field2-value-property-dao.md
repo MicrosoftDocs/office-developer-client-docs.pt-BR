@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. Value (DAO)
+title: Propriedade Field2.Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 6ead6ba8-1613-99c7-7968-56f5b81b2385
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292626"
 ---
-# <a name="field2value-property-dao"></a>Propriedade Campo2. Value (DAO)
+# <a name="field2value-property-dao"></a>Propriedade Field2.Value (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna o valor de um objeto. **Variant** de leitura/gravação.
 
 *expressão* . Valor
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

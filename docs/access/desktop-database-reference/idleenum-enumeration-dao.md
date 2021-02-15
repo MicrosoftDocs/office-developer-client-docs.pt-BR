@@ -1,5 +1,5 @@
 ---
-title: Enumeração de IdleEnum (DAO)
+title: Enumeração IdleEnum (DAO)
 TOCTitle: IdleEnum Enumeration
 ms:assetid: 44da6085-810a-f001-629b-9bd270d3949a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193165(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291898"
 ---
-# <a name="idleenum-enumeration-dao"></a>Enumeração de IdleEnum (DAO)
+# <a name="idleenum-enumeration-dao"></a>Enumeração IdleEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

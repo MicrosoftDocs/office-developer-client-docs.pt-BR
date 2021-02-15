@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. ValidationText (DAO)
+title: Propriedade Field.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6d9ec790-a9d2-84d7-ccba-57d738491e36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292927"
 ---
-# <a name="fieldvalidationtext-property-dao"></a>Propriedade Field. ValidationText (DAO)
+# <a name="fieldvalidationtext-property-dao"></a>Propriedade Field.ValidationText (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna um valor que especifica o texto da mensagem exibido pelo aplic
 
 *expressão* . ValidationText
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -58,7 +58,7 @@ Para um objeto **Field**, o uso da propriedade **ValidationText** depende do obj
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relação</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">

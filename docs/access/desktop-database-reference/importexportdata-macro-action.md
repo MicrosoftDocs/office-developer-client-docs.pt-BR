@@ -25,7 +25,7 @@ ms.locfileid: "32291884"
 Você pode usar a ação **ImportExportData** para importar ou exportar dados entre o banco de dados atual do Access (.mdb ou .accdb) ou o projeto do Access (.adp) e outro banco de dados. Para bancos de dados do Microsoft Access, você também pode vincular uma tabela ao banco de dados atual do Access de outro banco de dados. Com uma tabela vinculada, você tem acesso aos dados da tabela enquanto a própria tabela permanece em outro banco de dados.
 
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="settings"></a>Configurações
 
@@ -61,7 +61,7 @@ A ação **ImportExportData** tem os argumentos a seguir.
 <li><p>Selecione uma tabela na caixa de diálogo <strong>Vincular Tabelas</strong> e clique em <strong>OK</strong>.</p></li>
 </ol>
 <p>Abra a tabela recentemente vinculada no modo Design e exiba as propriedades da tabela clicando em <strong>Folha de Propriedades</strong> na guia <strong>Design</strong>, em <strong>Ferramentas</strong>. O texto na configuração de propriedade <strong>Descrição</strong> é a cadeia de conexão para esta tabela.  </p>
-<p>Para obter mais informações sobre cadeias de conexão ODBC, consulte o arquivo de ajuda ou outra documentação para o driver ODBC desse tipo de banco de dados ODBC.</p></td>
+<p>Para obter mais informações sobre cadeias de conexão ODBC, consulte o arquivo de Ajuda ou outra documentação para o driver ODBC desse tipo de banco de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de Objeto</strong></p></td>

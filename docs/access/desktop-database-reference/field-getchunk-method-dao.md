@@ -1,5 +1,5 @@
 ---
-title: Método Field. getChunk (DAO)
+title: Método Field.GetChunk (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822448(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293095"
 ---
-# <a name="fieldgetchunk-method-dao"></a>Método Field. getChunk (DAO)
+# <a name="fieldgetchunk-method-dao"></a>Método Field.GetChunk (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Retorna todo ou parte do conteúdo de um objeto Field **Memo** ou **Long Binary** **[](field-object-dao.md)** na coleção Fields **[](fields-collection-dao.md)** de um objeto **[Recordset](recordset-object-dao.md)** .
+Retorna todo ou parte do conteúdo de um **objeto Field Memo** ou **Long Binary** **[](field-object-dao.md)** na coleção **[Fields](fields-collection-dao.md)** de um **[objeto Recordset](recordset-object-dao.md)** .
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . GetChunk (***deslocamento***, ***bytes***)
+*expressão* . GetChunk(***Offset***, ***Bytes***)
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Retorna todo ou parte do conteúdo de um objeto Field **Memo** ou **Long Binary*
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -72,9 +72,9 @@ Variant
 
 Os bytes retornados por **GetChunk** são atribuídos à variável. Use **GetChunk** para retornar uma porção do valor de dados total de cada vez. Você pode usar o método **[AppendChunk](field-appendchunk-method-dao.md)** para remontar as peças.
 
-Se offset for 0, **GetChunk** começará a copiar do primeiro byte do campo.
+Se o deslocamento for 0, **GetChunk** começará a copiar do primeiro byte do campo.
 
-Se numBytes for maior do que o número de bytes no campo, **GetChunk** retornará o número real de bytes restantes no campo.
+Se núm for maior do que o número de bytes no campo, **GetChunk** retornará o número real de bytes restantes no campo.
 
 > [!NOTE]
 > [!OBSERVAçãO] Use um campo **Memo** para texto e coloque apenas dados binários em campos **Long Binary**. De outra forma, serão gerados resultados indesejados.

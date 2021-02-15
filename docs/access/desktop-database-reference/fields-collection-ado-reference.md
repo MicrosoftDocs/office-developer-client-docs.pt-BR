@@ -1,5 +1,5 @@
 ---
-title: Referência de coleção Fields (ADO)
+title: Referência da coleção Fields (ADO)
 TOCTitle: Fields collection (ADO)
 ms:assetid: bf2f780e-8a29-4d20-a5ec-80567860d576
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249929(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292563"
 ---
-# <a name="fields-collection-ado-reference"></a>Referência de coleção Fields (ADO)
+# <a name="fields-collection-ado-reference"></a>Referência da coleção Fields (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

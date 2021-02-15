@@ -1,5 +1,5 @@
 ---
-title: Método Field. AppendChunk (DAO)
+title: Método Field.AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293165"
 ---
-# <a name="fieldappendchunk-method-dao"></a>Método Field. AppendChunk (DAO)
+# <a name="fieldappendchunk-method-dao"></a>Método Field.AppendChunk (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Acrescenta dados de uma expressão de cadeia de caracteres a um objeto **[Field]
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . AppendChunk (***Val***)
+*expressão* . AppendChunk(***Val***)
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Acrescenta dados de uma expressão de cadeia de caracteres a um objeto **[Field]
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -47,7 +47,7 @@ Acrescenta dados de uma expressão de cadeia de caracteres a um objeto **[Field]
 <tr class="odd">
 <td><p><em>Val</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>Uma expressão ou variável Variant (subtipo String) que contém os dados para acrescentar ao objeto <strong>Field</strong>.</p></td>
 </tr>
 </tbody>

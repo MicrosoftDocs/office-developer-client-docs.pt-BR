@@ -1,5 +1,5 @@
 ---
-title: Método getChunk (ADO)
+title: Método GetChunk (ADO)
 TOCTitle: GetChunk method (ADO)
 ms:assetid: 1ef1c37a-8453-8d3b-251a-d16e0d519fd7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292282"
 ---
-# <a name="getchunk-method-ado"></a>Método getChunk (ADO)
+# <a name="getchunk-method-ado"></a>Método GetChunk (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Retorna todo, ou uma porção de, o conteúdo de um grande objeto [Field](field-
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *campo*Variable. GetChunk (*tamanho* )
+*variável*  =  *campo*. GetChunk(*Size* )
 
 ## <a name="return-value"></a>Valor de retorno
 

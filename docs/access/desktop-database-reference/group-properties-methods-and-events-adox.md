@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do grupo (ADOX)
+title: Propriedades, métodos e eventos de grupo (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1597b02-a9db-662e-3842-3444c63406cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292101"
 ---
-# <a name="group-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos do grupo (ADOX)
+# <a name="group-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de grupo (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -31,5 +31,5 @@ ms.locfileid: "32292101"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

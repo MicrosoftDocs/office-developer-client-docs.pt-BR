@@ -23,11 +23,11 @@ Este exemplo de código demonstra como usar o ADO com o Provedor DB Microsoft OL
 As seguintes etapas são necessárias para criar este cenário: 
 
 1. Configurar o projeto do Visual Basic.
-2. Inicializar a caixa de listagem principal.
-3. Preencha a caixa de listagem campos.
-4. Preencha a caixa de texto detalhes.
+2. Inicialize a caixa de listagem Principal.
+3. Preencha a caixa de listagem Campos.
+4. Preencha a caixa de texto Detalhes.
 
-## <a name="step-1-set-up-the-visual-basic-project"></a>Etapa 1: configurar o projeto do Visual Basic
+## <a name="step-1-set-up-the-visual-basic-project"></a>Etapa 1: Configurar o projeto do Visual Basic
 
 Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou posterior, ADO 2.5 ou posterior e o Microsoft OLE DB Provider for Internet Publishing instalado no seu sistema.
 
@@ -37,17 +37,17 @@ Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou poste
 
 2.  No menu **Projeto**, clique em **Referências**.
 
-3.  Selecione **biblioteca do Microsoft ActiveX Data objects 2,5**e clique em **OK**.
+3.  Selecione **Microsoft ActiveX Data Objects 2.5 Library** e clique em **OK**.
 
 ### <a name="insert-controls-on-the-main-form"></a>Inserir controles no formulário principal
 
-1.  Adicione um controle ListBox em Form1. Defina sua propriedade **Name** como **lstMain**.
+1.  Adicione um controle ListBox em Form1. Definir sua **propriedade Name** como **lstMain**.
 
-2.  Adicione outro controle ListBox em Form1. Defina sua propriedade **Name** como **lstDetails**.
+2.  Adicione outro controle ListBox em Form1. Definir sua **propriedade Name** como **lstDetails**.
 
-3.  Adicione um controle TextBox em Form1. Defina sua propriedade **Name** como **txtDetails**.
+3.  Adicione um controle TextBox em Form1. Definir sua **propriedade Name** como **txtDetails**.
 
-## <a name="step-2-initialize-the-main-list-box"></a>Etapa 2: inicializar a caixa de listagem principal
+## <a name="step-2-initialize-the-main-list-box"></a>Etapa 2: Inicializar a caixa de listagem Principal
 
 ### <a name="declare-global-record-and-recordset-objects"></a>Declarar objetos Record e Recordset globais
 
@@ -81,13 +81,13 @@ Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou poste
     End Sub 
    ```
     
-   Este código instancia os objetos **Record** e **Recordset** globais. O **registro** `grec` é aberto com uma URL especificada como **ActiveConnection**. Se o URL existir, estará aberto; se ainda não existir, será criado. 
+   Este código instancia os objetos **Record** e **Recordset** globais. O **Registro** `grec` é aberto com uma URL especificada como **ActiveConnection**. Se o URL existir, estará aberto; se ainda não existir, será criado. 
    
    Observe que você deve substituir `https://servername/foldername/` por uma URL válida do seu ambiente. 
    
-   O **Recordset** `grs` é aberto nos filhos do **registro** `grec`. O lstMain é preenchido com os nomes de arquivo dos recursos publicados na URL.
+   O **Recordset** `grs` é aberto nos filhos do **Registro.** `grec` O lstMain é preenchido com os nomes de arquivo dos recursos publicados na URL.
 
-## <a name="step-3-populate-the-fields-list-box"></a>Etapa 3: preencher a caixa de listagem campos
+## <a name="step-3-populate-the-fields-list-box"></a>Etapa 3: Preencher a caixa de listagem Campos
 
 - Insira o seguinte código no manipulador de eventos Click de lstMain:
 
@@ -118,19 +118,19 @@ Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou poste
     End Sub 
    ```
 
-   Este código declara e instancia os objetos `rec` **Record** e **Recordset** local e, `rs`respectivamente.
+   Este código declara e insta insta em uma inciação de **objetos Record** e **Recordset** `rec` `rs` locais, respectivamente.
 
-   A linha correspondente ao recurso selecionado em lstMain é feita a linha atual de `grs`. A caixa de listagem **detalhes** é desmarcada e `rec` aberta com a linha atual `grs` da como a fonte.
+   A linha correspondente ao recurso selecionado em lstMain se tornou a linha atual de `grs` . A **caixa de** listagem Detalhes é desmarcarada e aberta com a linha atual como `rec` `grs` fonte.
 
-   Se o recurso for um registro de coleção (conforme especificado **** por RecordType), o **Recordset** `rs` local será aberto nos filhos de `rec`. lstDetails é preenchido com os valores das linhas de `rs`.
+   Se o recurso for um registro de coleção (conforme especificado por **RecordType**), o **Recordset** local será `rs` aberto nos filhos de `rec` . lstDetails é preenchido com os valores das linhas de `rs` .
 
-   Se o recurso for um registro simples, `recFields` o será chamado. Para obter mais informações `recFields`sobre o, consulte a próxima etapa.
+   Se o recurso for um registro simples, `recFields` será chamado. Para obter mais informações `recFields` sobre, consulte a próxima etapa.
 
    Nenhum código será implementado se o recurso for um documento estruturado.
 
-## <a name="step-4-populate-the-details-text-box"></a>Etapa 4: preencher a caixa de texto detalhes
+## <a name="step-4-populate-the-details-text-box"></a>Etapa 4: Preencher a caixa de texto Detalhes
 
-- Crie uma nova subrotina nomeada `recFields` e insira o seguinte código:
+- Crie uma nova sub-rotina chamada `recFields` e insira o seguinte código:
 
    ```vb 
     
@@ -157,5 +157,5 @@ Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou poste
     End Sub 
    ```
 
-   Este código preenche lstDetails com os campos e valores do registro simples passados para `recFields`. Se o registro for um arquivo de texto, um texto **Stream** será aberto a partir do registro de recurso. O código determina se o conjunto de caracteres é ASCII e copia o **** conteúdo do fluxo `txtDetails`para.
+   Este código preenche lstDetails com os campos e valores do registro simples passado para `recFields` . Se o registro for um arquivo de texto, um texto **Stream** será aberto a partir do registro de recurso. O código determina se o conjunto de caracteres é ASCII e copia o **conteúdo do Stream** para `txtDetails` .
 

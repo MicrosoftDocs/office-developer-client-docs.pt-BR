@@ -22,7 +22,7 @@ Retorna o [Recordset](recordset-object-ado.md) como uma sequência.
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *Conjunto de registros*Variant. GetString (*StringFormat*, *numrows*, *ColumnDelimiter*, **, *NullExpr*)
+*Variant*  =  *recordset*. GetString(*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -35,7 +35,7 @@ Retorna o **Recordset** como uma **Variant** avaliada como sequência (BSTR).
 |*StringFormat* |Um valor [StringFormatEnum](stringformatenum.md) que especifica como o **Recordset** deve ser convertido em uma sequência. Os parâmetros *RowDelimiter*, *ColumnDelimiter* e *NullExpr* são utilizados apenas com um *StringFormat* igual a **adClipString**.|
 |*NumRows* |Opcional. O número de linhas a ser convertido no **Recordset**. Se *NumRows* não for especificado ou se for maior que o número total de linhas no **Recordset**, todas as linhas no **Recordset** serão convertidas.|
 |*ColumnDelimiter* |Opcional. Um delimitador utilizado entre colunas, se especificado; caso contrário, o caractere TAB.|
-|*ObjectDelimiter* |Opcional. Um delimitador utilizado entre linhas, se especificado; caso contrário, o caractere CARRIAGE RETURN.|
+|*RowDelimiter* |Opcional. Um delimitador utilizado entre linhas, se especificado; caso contrário, o caractere CARRIAGE RETURN.|
 |*NullExpr* |Opcional. Uma expressão utilizada no lugar de um valor nulo, se especificada; caso contrário, a sequência vazia.|
 
 ## <a name="remarks"></a>Comentários

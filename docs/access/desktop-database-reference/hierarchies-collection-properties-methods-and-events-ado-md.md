@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos da coleção de hierarquias (ADO MD)
+title: Propriedades, métodos e eventos da coleção Hierarchies (ADO MD)
 TOCTitle: Hierarchies collection properties, methods, and events
 ms:assetid: 6bd1df55-c35f-ae6c-75de-ecda0c9be82f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249423(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291968"
 ---
-# <a name="hierarchies-collection-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos da coleção de hierarquias (ADO MD)
+# <a name="hierarchies-collection-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos da coleção Hierarchies (ADO MD)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -30,5 +30,5 @@ ms.locfileid: "32291968"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

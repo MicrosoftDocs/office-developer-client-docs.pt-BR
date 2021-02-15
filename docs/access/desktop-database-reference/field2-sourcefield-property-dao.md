@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. SourceField (DAO)
+title: Propriedade Field2.SourceField (DAO)
 TOCTitle: SourceField Property
 ms:assetid: f89146c1-d4a4-1129-636a-c22cf7921a4e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836948(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292675"
 ---
-# <a name="field2sourcefield-property-dao"></a>Propriedade Campo2. SourceField (DAO)
+# <a name="field2sourcefield-property-dao"></a>Propriedade Field2.SourceField (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna um valor que indique o nome do campo que é a origem dos dados para um o
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Propriedades SourceField
+*expressão* . SourceField
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -56,7 +56,7 @@ Para um objeto **Field2**, a utilização das propriedades **SourceField** e **S
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relação</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">

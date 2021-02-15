@@ -19,5 +19,5 @@ ms.locfileid: "32293067"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Field (ADO)](field-object-ado.md)
-- [Propriedades, métodos e eventos do campo (ADO)](field-properties-methods-and-events-ado.md)
+- [Propriedades, métodos e eventos de campo (ADO)](field-properties-methods-and-events-ado.md)
 

@@ -19,9 +19,9 @@ ms.locfileid: "32292024"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-No COM, a maioria das operações retornam um código de retorno HRESULT que indica que uma função foi concluída com sucesso. A \#política de importação gera código de wrapper ao redor de cada método ou propriedade "RAW" e verifica o HRESULT retornado. Se o HRESULT indicar falha, o código de wrapper gerará um erro COM \_chamando\_o\_problema com errorex () com o código de retorno HRESULT como um argumento. Os objetos de erro COM podem ser capturados em um bloco **try-catch**. (Para fins de eficiência, Capture uma referência a um \_objeto\_Error com.)
+No COM, a maioria das operações retornam um código de retorno HRESULT que indica que uma função foi concluída com sucesso. A diretiva de importação gera código wrapper em torno de cada propriedade ou método \# "bruto" e verifica o HRESULT retornado. Se o HRESULT indicar falha, o código wrapper lançará um erro COM chamando com issue errorex() com o código de retorno \_ \_ \_ HRESULT como um argumento. Os objetos de erro COM podem ser capturados em um bloco **try-catch**. (Por uma questão de eficiência, captura uma referência a um \_ objeto de erro de \_ com.)
 
 Lembre-se de que esses erros são do ADO, pois resultam da falha de operação desse aplicativo. Os erros retornados pelo provedor subjacente aparecem como objetos **Error** na coleção **Errors** do objeto **Connection**.
 
-A \#política de importação cria apenas rotinas de tratamento de erros para métodos e propriedades declaradas no ADO. dll. Contudo, você pode utilizar esse mesmo mecanismo de tratamento de erros criando sua própria função inline ou macro de verificação de erros. Para obter exemplos, consulte o tópico "Extensões do Visual C++".
+A diretiva de importação só cria rotinas de tratamento de erros para métodos e propriedades \# declarados no ADO .dll. Contudo, você pode utilizar esse mesmo mecanismo de tratamento de erros criando sua própria função inline ou macro de verificação de erros. Para obter exemplos, consulte o tópico "Extensões do Visual C++".
 

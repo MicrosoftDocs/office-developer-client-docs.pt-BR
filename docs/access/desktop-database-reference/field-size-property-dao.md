@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. Size (DAO)
+title: Propriedade Field.Size (DAO)
 TOCTitle: Size Property
 ms:assetid: 15e25201-87b6-f62f-ff18-259414a47891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845510(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293011"
 ---
-# <a name="fieldsize-property-dao"></a>Propriedade Field. Size (DAO)
+# <a name="fieldsize-property-dao"></a>Propriedade Field.Size (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -28,9 +28,9 @@ Define ou retorna um valor que indica o tamanho máximo, em bytes, de um objeto 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Porte
+*expressão* . Tamanho
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -65,7 +65,7 @@ O uso da propriedade **Size** depende do objeto que contém a coleção **Fields
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relação</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">

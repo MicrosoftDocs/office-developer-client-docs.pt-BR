@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. ValidationRule (DAO)
+title: Propriedade Field2.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 5464d2de-f3d7-5d6b-4fc5-66df6a5540cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292647"
 ---
-# <a name="field2validationrule-property-dao"></a>Propriedade Campo2. ValidationRule (DAO)
+# <a name="field2validationrule-property-dao"></a>Propriedade Field2.ValidationRule (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Define ou retorna um valor que valida os dados em um campo, conforme ele é alte
 
 *expressão* . ValidationRule
 
-*expressão* Uma expressão que retorna um objeto **campo2** .
+*expressão* Uma expressão que retorna um **objeto Field2** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -60,7 +60,7 @@ Para um objeto **Field2**, a utilização da propriedade **ValidationRule** depe
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relação</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
@@ -77,6 +77,6 @@ A expressão de sequência especificada pela propriedade **ValidationRule** de u
 
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere não-U. decimal, como vírgula (por exemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), ocorrerá um erro quando seu código tenta validar quaisquer dados. Isso ocorre porque, durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o mecanismo de banco de dados do Microsoft Access SQL aceita apenas caracteres decimais EUA.
+> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro, e os parâmetros do sistema especificarem um valor não-americano. caractere decimal, como uma vírgula (por exemplo, strRule = "PRICE &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro quando seu código tentar validar quaisquer dados. Isso ocorre porque, durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o mecanismo de banco de dados do Microsoft Access SQL aceita apenas caracteres decimais EUA.
 
 

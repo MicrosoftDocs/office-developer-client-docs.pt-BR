@@ -1,5 +1,5 @@
 ---
-title: Método Find-ActiveX Data Objects (ADO)
+title: Método Find - ActiveX Data Objects (ADO)
 TOCTitle: Find method (ADO)
 ms:assetid: a7cc9ceb-fdb9-73e2-8328-70b174f93cda
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
@@ -22,7 +22,7 @@ Procura um [Recordset](recordset-object-ado.md) para a linha que satisfaz os cri
 
 ## <a name="syntax"></a>Sintaxe
 
-Localizar (*critérios*, *SkipRows*, *SearchDirection*, *início*)
+Find (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,9 +37,9 @@ Localizar (*critérios*, *SkipRows*, *SearchDirection*, *início*)
 
 Apenas um único nome de coluna pode ser especificado em *criteria*. Este método não suporta pesquisas de várias colunas.
 
-O operador de comparação nos *critérios* pode ser**\>**"" (maior que),**\<**"" (menor que), "=" (igual),\>"=" (maior que ou igual),\<"=" (menor ou igual), "\<\>" (diferente) ou "Like" (correspondência de padrão).
+O operador de comparação em *Criteria* pode ser **\>** " " (maior que), **\<** " " (menor que), "=" (igual), " \> =" (maior ou igual), " =" (menor ou igual), " " (diferente) ou \< \< \> "like" (correspondência de padrão).
 
-O valor em *Criteria* pode ser uma sequência, um número de ponto flutuante ou uma data. Valores de cadeia de caracteres são delimitados por\#aspas simples ou marcas "" (sinal de número) (por exemplo, "State = ' wa ' \#"\#ou "state = WA"). os valores de data são\#delimitados com marcas "" (sinal de número) (por\_exemplo \> \#,\#"data de início 7/22/97") e podem conter horas, minutos e segundos para indicar carimbos de data/hora, mas não devem conter milissegundos ou erros ocorrerão .
+O valor em *Criteria* pode ser uma sequência, um número de ponto flutuante ou uma data. Os valores de cadeia de caracteres são delimitados por aspas simples ou " " (sinal de \# número) (por exemplo, "state = 'WA'" ou "state = \# WA \# "). Os valores de data são delimitados por marcas " " (sinal de \# número) (por exemplo, "data de início \_ \> \# 22/7/97 ") e podem conter \# horas, minutos e segundos para indicar carimbos de data/hora, mas não devem conter milissegundos ou ocorrerão erros.
 
 Se o operador de comparação for "like", o valor da sequência poderá conter um asterisco (\*) para localizar uma ou mais ocorrências de qualquer caractere ou subsequência. Por exemplo, "state like 'M\*'" corresponde a Maine e Massachusetts. Também é possível utilizar asteriscos à esquerda e à direita para localizar uma subsequência contida nos valores. Por exemplo, "state like '\*as\*'" corresponde a Alaska, Arkansas e Massachusetts.
 

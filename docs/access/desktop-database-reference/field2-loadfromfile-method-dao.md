@@ -1,5 +1,5 @@
 ---
-title: Método Campo2. loadFromfile (DAO)
+title: Método Field2.LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292787"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Método Campo2. loadFromfile (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Método Field2.LoadFromFile (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,13 +26,13 @@ Carrega o arquivo especificado do disco.
 
 ## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . LoadFromfile (***nome de arquivo***)
+*expressão* . LoadFromFile(***FileName***)
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -46,7 +46,7 @@ Versão adicionada: Access 2007
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -89,7 +89,7 @@ O trecho de código a seguir usa o método **LoadFromFile** para carregar a foto
 
 <br/>
 
-O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado a um campo de anexo.
+O exemplo a seguir mostra como adicionar arquivos de um caminho de uma pasta especificada para um campo anexo.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

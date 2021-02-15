@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto Campo2 (DAO)
+title: Referência de objeto field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 1f2fde45-577d-4f53-9652-1307ac038f87
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123963(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292731"
 ---
-# <a name="field2-object-reference-dao"></a>Referência de objeto Campo2 (DAO)
+# <a name="field2-object-reference-dao"></a>Referência de objeto field2 (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Membros de Campo2 (DAO)](field2-members-dao.md)
-- [Métodos Campo2 (DAO)](field2-methods-dao.md)
-- [Objeto Campo2 (DAO)](field2-object-dao.md)
-- [Propriedades de Campo2 (DAO)](field2-properties-dao.md)
+- [Membros Field2 (DAO)](field2-members-dao.md)
+- [Métodos Field2 (DAO)](field2-methods-dao.md)
+- [Objeto Field2 (DAO)](field2-object-dao.md)
+- [Propriedades Field2 (DAO)](field2-properties-dao.md)
 
 

@@ -19,5 +19,5 @@ ms.locfileid: "32290135"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Level (ADO MD)](level-object-ado-md.md)
-- [Propriedades, métodos e eventos Level (ADO MD)](level-properties-methods-and-events-ado-md.md)
+- [Propriedades, métodos e eventos de nível (ADO MD)](level-properties-methods-and-events-ado-md.md)
 

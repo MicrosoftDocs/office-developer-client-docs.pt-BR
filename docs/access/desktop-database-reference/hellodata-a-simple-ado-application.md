@@ -28,11 +28,11 @@ O aplicativo consulta o banco de dados de exemplo Northwind, incluído no Micros
 
 2.  Crie quatro botões de comando na parte superior do formulário, definindo as propriedades **Name** e **Caption** como os valores mostrados na tabela a seguir.
 
-3.  Debaixo dos botões, adicione **Microsoft DataGrid Control** (Msdatgrd.ocx). O arquivo Msdatgrd. ocx é fornecido com o Visual Basic e está localizado \\em\\seu diretório \\Windows\\system32 ou winnt system32. Para adicionar o controle DataGrid ao painel da caixa de ferramentas do Visual Basic, selecione **Componentes...** no menu **Projeto**. Depois, verifique a caixa próxima a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" e clique em **OK**. Para adicionar o controle ao projeto, arraste o controle DataGrid da Caixa de Ferramentas para o formulário do Visual Basic.
+3.  Debaixo dos botões, adicione **Microsoft DataGrid Control** (Msdatgrd.ocx). O arquivo Msdatgrd.ocx vem com o Visual Basic e está localizado no diretório \\ do \\ sistema32 ou \\ winnt do windows \\ system32. Para adicionar o controle DataGrid ao painel da caixa de ferramentas do Visual Basic, selecione **Componentes...** no menu **Projeto**. Depois, verifique a caixa próxima a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" e clique em **OK**. Para adicionar o controle ao projeto, arraste o controle DataGrid da Caixa de Ferramentas para o formulário do Visual Basic.
 
 4.  Crie uma **TextBox** no formulário abaixo da grade e defina as propriedades como mostra a tabela. O formulário deverá ter uma aparência semelhante à figura a seguir, quando você tiver finalizado.
 
-5.  Por fim, copie o código listado no [código HelloData](hellodata-code.md) e cole-o na janela do editor de código do formulário. Pressione **F5** para executar o código.
+5.  Por fim, copie o código listado no [Código helloData e](hellodata-code.md) o copie na janela do editor de código do formulário. Pressione **F5** para executar o código.
 
 > [!NOTE]
 > [!OBSERVAçãO] No exemplo a seguir e por todo o guia, o id de usuário "MyId" com a senha "123aBc" será usado para se autenticar no servidor. Você deve substituir esses valores com as credenciais de logon válidas do servidor. Além disso, substitua o valor "MyServer" pelo nome do seu servidor.
@@ -48,7 +48,7 @@ Para obter uma descrição detalhada do código, consulte [HelloData Details](he
 <thead>
 <tr class="header">
 <th><p>Tipo de controle</p></th>
-<th><p>Propriedade	</p></th>
+<th><p>Propriedade</p></th>
 <th><p>Valor</p></th>
 </tr>
 </thead>

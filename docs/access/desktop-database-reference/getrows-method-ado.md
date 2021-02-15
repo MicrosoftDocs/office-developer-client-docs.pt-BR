@@ -1,5 +1,5 @@
 ---
-title: Método getRows (ADO)
+title: Método GetRows (ADO)
 TOCTitle: GetRows method (ADO)
 ms:assetid: 570e6f1c-c17a-7d9a-c172-387894a3a1f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292220"
 ---
-# <a name="getrows-method-ado"></a>Método getRows (ADO)
+# <a name="getrows-method-ado"></a>Método GetRows (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Recupera vários registros de um objeto [Recordset](recordset-object-ado.md) par
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *conjunto de registros*de matriz. GetRows (*linhas*, *início*, *campos* )
+*matriz*  =  *recordset*. GetRows(*Rows*, *Start*, *Fields* )
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -32,7 +32,7 @@ Retorna uma **Variant** cujo valor é uma matriz bidimensional.
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Rows* |Opcional. Um valor [GetRowsOptionEnum](getrowsoptionenum.md) que indica o número de registros a serem recuperados. O padrão é **adGetRowsRest**.|
+|*Linhas* |Opcional. Um valor [GetRowsOptionEnum](getrowsoptionenum.md) que indica o número de registros a serem recuperados. O padrão é **adGetRowsRest**.|
 |*Start* |Opcional. Um valor **String** ou **Variant** que é avaliado para o indicador de um registro a partir do qual a operação **GetRows** deve começar. Também é possível utilizar um valor [BookmarkEnum](bookmarkenum.md).|
 |*Fields* |Opcional. Uma **Variant** que representa um único nome de campo ou posição ordinal, ou uma matriz de nomes de campos ou números de posição ordinal. O ADO retorna apenas os dados nesses campos.|
 

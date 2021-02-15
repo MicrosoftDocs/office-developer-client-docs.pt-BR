@@ -45,7 +45,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Retorna todo ou parte do conteúdo de um objeto Field <strong>Memo</strong> ou <strong>Long Binary</strong> <strong><a href="field-object-dao.md"></a></strong> na coleção Fields <strong><a href="fields-collection-dao.md"></a></strong> de um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Retorna todo ou parte do conteúdo de um <strong>objeto Field Memo</strong> ou <strong>Long Binary</strong> <strong><a href="field-object-dao.md"></a></strong> na coleção <strong><a href="fields-collection-dao.md">Fields</a></strong> de um <strong><a href="recordset-object-dao.md">objeto Recordset</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Define ou retorna um valor que indica se uma cadeia de caracteres de comprimento&quot;&quot;zero () é uma configuração válida para a propriedade <strong><a href="field-value-property-dao.md">Value</a></strong> do objeto <strong><a href="field-object-dao.md">Field</a></strong> com um tipo de dados de texto ou memorando (apenas espaços de trabalho do Microsoft Access).</p></td>
+<td><p>Define ou retorna um valor que indica se uma cadeia de caracteres de comprimento zero ( ) é uma configuração válida para a propriedade Value do objeto Field com um tipo de dados Texto ou Memorando (apenas espaços de trabalho do &quot; &quot; Microsoft Access). <strong><a href="field-value-property-dao.md"></a></strong> <strong><a href="field-object-dao.md"></a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-attributes-property-dao.md">Atributos</a></strong></p></td>
@@ -94,25 +94,25 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 <td><p>Define ou retorna um valor que especifica o nome do objeto <strong><a href="field-object-dao.md">Field</a></strong> em uma tabela externa que corresponde a um campo em uma tabela primária de uma relação (somente nos espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="field-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Define ou retorna a posição relativa de um objeto <strong><a href="field-object-dao.md">Field</a></strong> em uma coleção <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
+<td><p>Define ou retorna a posição relativa de um <strong><a href="field-object-dao.md">objeto Field</a></strong> dentro de uma <strong><a href="fields-collection-dao.md">coleção Fields</a></strong> . .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p>Um dos <strong><a href="workspacetypeenum-enumeration-dao.md">valores de WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Retorna o valor de um <strong>Field</strong> no banco de dados existente quando começou a última atualização em lotes (somente nos espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="field-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">Required</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Obrigatório</a></strong></p></td>
 <td><p>Define ou retorna um valor que indica se um objeto <strong><a href="field-object-dao.md">Field</a></strong> requer um valor não Null.</p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +120,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 <td><p>Retorna o número de bytes usado no banco de dados (em vez da memória) do objeto Memo ou Long Binary <strong><a href="field-object-dao.md">Field</a></strong> na coleção <strong><a href="fields-collection-dao.md">Fields</a></strong> de um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-sourcefield-property-dao.md">Propriedades SourceField</a></strong></p></td>
+<td><p><strong><a href="field-sourcefield-property-dao.md">SourceField</a></strong></p></td>
 <td><p>Retorna um valor que indica o nome do campo que é a fonte de dados original de um objeto <strong>Field</strong>. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
@@ -129,7 +129,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. <strong>Integer</strong> de leitura/gravação.</p></td>
+<td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. <strong>número inteiro</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -149,8 +149,8 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p>Um dos <strong><a href="workspacetypeenum-enumeration-dao.md">valores de WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Retorna um valor atualmente no banco de dados mais recente que a propriedade <strong>OriginalValue</strong> como determinado pelo conflito de atualização em lotes (somente nos espaços de trabalho do ODBCDirect).</p></td>
 </tr>
 </tbody>

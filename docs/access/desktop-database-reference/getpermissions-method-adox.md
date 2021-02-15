@@ -1,5 +1,5 @@
 ---
-title: Método getPermissions (ADOX)
+title: Método GetPermissions (ADOX)
 TOCTitle: GetPermissions method (ADOX)
 ms:assetid: 98a2b2b6-a8af-15ee-b052-622a6f0661b9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249683(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292241"
 ---
-# <a name="getpermissions-method-adox"></a>Método getPermissions (ADOX)
+# <a name="getpermissions-method-adox"></a>Método GetPermissions (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Retorna as permissões de um grupo ou usuário em um objeto ou contêiner de obj
 
 ## <a name="syntax"></a>Sintaxe
 
-*ReturnValue* = *GroupOrUser*. GetPermissions (*Name*, *objecttype* \[,**\]objecttypeid)
+*ReturnValue*  =  *GroupOrUser*. GetPermissions(*Name*, *ObjectType* \[ ,*ObjectTypeId* \] )
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -34,5 +34,5 @@ Retorna um valor **Long** que especifica um bitmask que contém as permissões d
 |:--------|:----------|
 |*Nome* |Um valor **Variant** que especifica o nome do objeto cujas permissões devem ser definidas. Defina *Name* como um valor nulo se desejar obter as permissões do contêiner de objetos.|
 |*ObjectType* |Um valor **Long**, que pode ser uma das constantes [ObjectTypeEnum](objecttypeenum.md), que especifica o tipo do objeto para o qual devem ser obtidas permissões.|
-|*ObjectTypeid* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
+|*ObjectTypeId* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
 

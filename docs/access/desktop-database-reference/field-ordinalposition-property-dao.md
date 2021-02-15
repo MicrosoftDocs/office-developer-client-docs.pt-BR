@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. OrdinalPosition (DAO)
+title: Propriedade Field.OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293032"
 ---
-# <a name="fieldordinalposition-property-dao"></a>Propriedade Field. OrdinalPosition (DAO)
+# <a name="fieldordinalposition-property-dao"></a>Propriedade Field.OrdinalPosition (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Define ou retorna a posição relativa de um objeto **[Field](field-object-dao.md)** em uma coleção **[Fields](fields-collection-dao.md)** . .
+Define ou retorna a posição relativa de um **[objeto Field](field-object-dao.md)** dentro de uma **[coleção Fields](fields-collection-dao.md)** . .
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . OrdinalPosition
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -76,9 +76,9 @@ A disponibilidade da propriedade **OrdinalPosition** depende do objeto que cont�
 </table>
 
 
-Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto acrescentado está na contagem de posições ordinais – 1, onde contagem é o número de objetos na coleção como especificado pela configuração da propriedade **[Count](containers-count-property-dao.md)** .
+Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto anexado está na contagem de posição ordinal – 1, onde count é o número de objetos na coleção conforme especificado pela configuração da propriedade **[Count.](containers-count-property-dao.md)**
 
-Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção. Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma \* consulta seleção é determinada pelos valores de propriedade **OrdinalPosition** atuais.
+Use a propriedade **OrdinalPosition** para especificar a posição ordinal dos novos objetos **Field** que é diferente da ordem na qual foram acrescentados à uma coleção. Isso permite especificar a ordem dos campos para tabelas, consultas e recordsets quando você usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma consulta SELECT é determinada pelos valores atuais da \* **propriedade OrdinalPosition.**
 
 Redefina, de forma permanente, a ordem na qual os campos são retornados nos recordsets pela definição da propriedade **OrdinalPosition** para qualquer número inteiro positivo.
 

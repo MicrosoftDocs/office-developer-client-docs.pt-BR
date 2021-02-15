@@ -1,5 +1,5 @@
 ---
-title: Inicializando o driver de fonte de dados de texto
+title: Inicializando o driver de Fonte de Dados de Texto
 TOCTitle: Initializing the Text Data Source driver
 ms:assetid: cba0864e-5f94-bf43-4708-b1981e3acaff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834391(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291418"
 ---
-# <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver de fonte de dados de texto
+# <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver de Fonte de Dados de Texto
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 O mesmo driver de banco de dados é usado para fontes de dados de texto e para fontes de dados HTML.
 
-Quando você instala o driver de banco de dados de fonte de dados de texto, o programa de instalação grava um conjunto de valores padrão no registro do Microsoft Windows nas subchaves Engines e ISAM formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
+Quando você instala o driver de banco de dados de Fonte de Dados de Texto, o programa de Instalação grava um conjunto de valores padrão no Registro do Microsoft Windows nas sub-chaves Engines e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
 
 ## <a name="text-data-source-initialization-settings"></a>Configurações de inicialização da fonte de dados de texto
 
-A **pasta de texto\\formatos\\ISAM do mecanismo de conectividade do Access** inclui configurações de inicialização para o driver Acetxt. dll, usado para acesso externo a arquivos de dados de texto. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
+A **pasta Texto \\ isam \\ formats** do mecanismo de conectividade de acesso inclui configurações de inicialização para o driver Acetxt.dll, usado para acesso externo a arquivos de dados de texto. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
 
 ```vb
     win32=<path>\ ACETXT.DLL 
@@ -63,7 +63,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta Text 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Win</p></td>
+<td><p>win32</p></td>
 <td><p>A localização do arquivo Acetxt.dll. O caminho completo é determinado no momento da instalação. Os valores são do tipo REG_SZ.</p></td>
 </tr>
 <tr class="even">
@@ -82,14 +82,14 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta Text 
 <li><p>ANSI — a página de código ANSI do computador. São feitas as conversões AnsiToUnicode e UnicodeToAnsi.</p></li>
 <li><p>OEM — a página de código OEM do computador. São feitas as conversões OemToUnicode e UnicodeToOem.</p></li>
 <li><p>Unicode — não são feitas conversões de página de código.</p></li>
-<li><p>&lt;número&gt; Decimal — o número da página de código de um conjunto de caracteres específico. As conversões de e para Unicode serão feitas.</p></li>
+<li><p>&lt;número decimal &gt; — o número da página de código de um conjunto de caracteres específico. As conversões de e para Unicode serão feitas.</p></li>
 </ul>
 <p></p>
 <p>O padrão é ANSI. Os valores são do tipo REG_SZ.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Formatar</p></td>
-<td><p>Pode ser qualquer um dos seguintes: TabDelimited, CSVDelimited, Delimited&lt;(caractere&gt;único). O delimitador de caractere único no formato delimitado pode ser qualquer caractere único, exceto aspas duplas&quot;(). O padrão é CSVDelimited. Os valores são do tipo REG_SZ.</p></td>
+<td><p>Pode ser qualquer um dos seguintes: TabDelimited, CSVDelimited, Delimited ( &lt; caractere único &gt; ). O delimitador de caractere único no formato Delimitado pode ser qualquer caractere, exceto aspas duplas ( &quot; ). O padrão é CSVDelimited. Os valores são do tipo REG_SZ.</p></td>
 </tr>
 <tr class="even">
 <td><p>Extensões</p></td>
@@ -105,7 +105,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta Text 
 
 ## <a name="text-data-source-isam-formats"></a>Formatos ISAM de fonte de dados de texto
 
-A pasta de **texto\\formatos\\ISAM do mecanismo de conectividade do Access** contém as entradas a seguir.
+A **pasta Texto de \\ Formatos ISAM do \\** Mecanismo de Conectividade do Access contém as entradas a seguir.
 
 <table>
 <colgroup>
@@ -137,19 +137,19 @@ A pasta de **texto\\formatos\\ISAM do mecanismo de conectividade do Access** con
 <td><p>Arquivos de texto (*.txt; *.csv; *.tab; *.asc)</p></td>
 </tr>
 <tr class="even">
-<td><p>CanVinculo</p></td>
+<td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 <tr class="odd">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 <tr class="even">
-<td><p>Isamtype</p></td>
+<td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="odd">
 <td><p>IndexDialog</p></td>
@@ -179,7 +179,7 @@ A pasta de **texto\\formatos\\ISAM do mecanismo de conectividade do Access** con
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 </tbody>
 </table>
@@ -188,9 +188,9 @@ A pasta de **texto\\formatos\\ISAM do mecanismo de conectividade do Access** con
 > [!NOTE]
 > Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-## <a name="html-import-isam-formats"></a>Formatos ISAM de importação HTML
+## <a name="html-import-isam-formats"></a>HTML import ISAM formats
 
-A pasta de **importação\\HTML do\\mecanismo de conectividade do Access formats** contém as entradas a seguir.
+A **pasta importação \\ \\ HTML isam formats** do mecanismo de conectividade do Access contém as entradas a seguir.
 
 <table>
 <colgroup>
@@ -214,12 +214,12 @@ A pasta de **importação\\HTML do\\mecanismo de conectividade do Access formats
 <tr class="even">
 <td><p>ImportFilter</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Arquivos HTML (*. HT*)</p></td>
+<td><p>Arquivos HTML (*.ht*)</p></td>
 </tr>
 <tr class="odd">
-<td><p>CanVinculo</p></td>
+<td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
@@ -227,9 +227,9 @@ A pasta de **importação\\HTML do\\mecanismo de conectividade do Access formats
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>Isamtype</p></td>
+<td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -254,7 +254,7 @@ A pasta de **importação\\HTML do\\mecanismo de conectividade do Access formats
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 </tbody>
 </table>
@@ -262,9 +262,9 @@ A pasta de **importação\\HTML do\\mecanismo de conectividade do Access formats
 > [!NOTE]
 > Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-## <a name="html-export-isam-formats"></a>Formatos ISAM de exportação HTML
+## <a name="html-export-isam-formats"></a>FORMATOS ISAM de exportação HTML
 
-A pasta de **exportação\\\\HTML do mecanismo de conectividade do Access** formats contém as entradas a seguir.
+A **pasta Exportação \\ \\ HTML isAM Formats** do Mecanismo de Conectividade do Access contém as entradas a seguir.
 
 <table>
 <colgroup>
@@ -291,19 +291,19 @@ A pasta de **exportação\\\\HTML do mecanismo de conectividade do Access** form
 <td><p>Arquivos HTML (*.htm)</p></td>
 </tr>
 <tr class="odd">
-<td><p>CanVinculo</p></td>
+<td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 <tr class="odd">
-<td><p>Isamtype</p></td>
+<td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -323,7 +323,7 @@ A pasta de **exportação\\\\HTML do mecanismo de conectividade do Access** form
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>0,01</p></td>
+<td><p>01</p></td>
 </tr>
 </tbody>
 </table>
@@ -331,7 +331,7 @@ A pasta de **exportação\\\\HTML do mecanismo de conectividade do Access** form
 > [!NOTE]
 > Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalizando o arquivo Schema. ini para dados de texto e HTML
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalização do arquivo Schema.ini de texto e dados HTML
 
 Para ler, importar ou exportar dados HTML e de texto, você precisa criar um arquivo Schema.ini, bem como incluir as informações ISAM do texto no arquivo .ini. O arquivo Schema.ini contém informações específicas da fonte de dados: como o arquivo de texto está formatado, como ele é lido no momento da importação e o formato de exportação padrão dos arquivos. Os exemplos a seguir mostram o layout de um arquivo de largura fixa, Filename.txt:
 
@@ -440,7 +440,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas do Schema.ini 
 </tr>
 <tr class="even">
 <td><p>Formatar</p></td>
-<td><p>Pode ser definido como um dos seguintes valores: TabDelimited, CSVDelimited, delimitado (&lt;caractere&gt;único) ou FixedLength. O delimitador especificado para o formato de arquivo delimitado pode ser qualquer caractere único, exceto aspas&quot;duplas ().</p></td>
+<td><p>Pode ser definido como um dos seguintes valores: TabDelimited, CSVDelimited, Delimited ( caractere único &lt; &gt; ) ou FixedLength. O delimitador especificado para o formato de arquivo Delimitado pode ser qualquer caractere, exceto aspas duplas ( &quot; ).</p></td>
 </tr>
 <tr class="odd">
 <td><p>FixedFormat</p></td>
@@ -464,7 +464,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas do Schema.ini 
 </tr>
 <tr class="even">
 <td><p>CurrencyPosFormat</p></td>
-<td><p>Pode ser definido como qualquer um dos seguintes valores: prefixo de símbolo de moeda sem separação ($1) sufixo de símbolo de moeda sem separação ($1) prefixo de símbolo de moeda com uma separação de caracteres ($1) sufixo de símbolo de moeda com uma separação de caracteres ($1) se esta entrada estiver ausente, o valor padrão no painel de controle do Windows será usado.</p></td>
+<td><p>Pode ser definido como qualquer um dos seguintes valores: Prefixo de símbolo de moeda sem separação ($1) Sufixo de símbolo de moeda sem separação (1$) Prefixo de símbolo de moeda com um sufixo de símbolo de moeda ($ 1) com separação de caracteres (1 $) Se essa entrada estiver ausente, o valor padrão no Painel de Controle do Windows será usado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CurrencyDigits</p></td>
@@ -472,7 +472,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas do Schema.ini 
 </tr>
 <tr class="even">
 <td><p>CurrencyNegFormat</p></td>
-<td><p>Pode ser um dos seguintes valores: ($1) – $1 $ – $1 1 – ($1) – $1 1 – $1 $ ($1) ($1)-$1, US $ (em inglês), o símbolo de cifrão é mostrado para fins deste exemplo, mas deve ser substituído pelo valor CurrencySymbol apropriado no programa real. Na ausência dessa entrada, o valor padrão do Painel de Controle do Windows será usado.</p></td>
+<td><p>Pode ser um dos seguintes valores: ($1) –$1 $–1 $–1 – (1$) –1$ 1–$ 1$– –1 $ –$ 1 1 $– $ 1– $ –1 1 – $ ($ 1) (1 $) O cifrão é mostrado para este exemplo, mas deve ser substituído pelo valor currencySymbol apropriado no programa real. Na ausência dessa entrada, o valor padrão do Painel de Controle do Windows será usado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CurrencyThousandSymbol</p></td>
@@ -495,12 +495,12 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas do Schema.ini 
 <td><p>Especifica se um valor decimal inferior a 1 e superior a –1 deve conter zeros à esquerda; esse valor pode ser False (sem zeros à esquerda) ou True.</p></td>
 </tr>
 <tr class="even">
-<td><p>Col1, Col2,...</p></td>
-<td><p>Lista as colunas do arquivo de texto que devem ser lidas. O formato desta entrada deve ser: <em>Coln</em>=<em>ColumnName</em> tipo [Width <em> #</em>] <em>ColumnName</em>: os nomes de coluna com espaços incorporados devem ser colocados entre aspas. <em>type</em>: pode ser Bit, Byte, Short, Long, Decimal, Currency, Single, Double, DateTime. Binary, OLE, Text ou Memo. Além disso, há suporte para os seguintes tipos de driver de texto ODBC: Char (igual ao texto) float (igual a Double) inteiro (mesmo que short) LongChar (igual a Memo) data data <em>Format</em> no caso de um tipo de memorando um marcador de formato adicional [attribute Hyperlink] pode ser usado para especificar as colunas que devem ser URLs ativas no Microsoft Access. No caso de um tipo Decimal, marcadores de formato adicionais [Scale #] Precision #] devem ser usados.</p></td>
+<td><p>Col1, Col2, ...</p></td>
+<td><p>Lista as colunas do arquivo de texto que devem ser lidas. O formato dessa entrada deve ser: <em>Coln</em> = <em>columnName</em> type [Width <em>#</em> ] <em>columnName:</em>os nomes das colunas com espaços incorporados devem ser incluídos entre aspas. <em>type</em>: pode ser Bit, Byte, Short, Long, Decimal, Currency, Single, Double, DateTime. Binary, OLE, Text ou Memo. Além disso, há suporte para os seguintes tipos de Driver de Texto ODBC: Char (mesmo que Text) Float <em></em> (mesmo que Double) Integer (mesmo que Short) LongChar (mesmo que Memo) No caso de um tipo Memorando, um marcador de formato adicional [Hiperlink de Atributo] pode ser usado para especificar colunas que devem ser URLs ativas no Microsoft Access. No caso de um tipo Decimal, marcadores de formato adicionais [Scale #] Precision #] devem ser usados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TextDelimiter</p></td>
-<td><p>Pode ser qualquer caractere usado para delimitar cadeias de caracteres que contenham qualquer um dos outros caracteres especiais. Por exemplo &quot;ABC&quot;,&quot;XYZ, PQR&quot;,&quot;hij&quot; se essa entrada não estiver presente, o delimitador padrão será uma aspa dupla. Se essa entrada for a cadeia &quot;de&quot; caracteres nenhum, nenhum caractere será tratado como delimitadores.</p></td>
+<td><p>Pode ser qualquer caractere usado para delimitar cadeias de caracteres que contenham qualquer um dos outros caracteres especiais. Por exemplo &quot;abc , xyz,pqr , hij Se essa entrada não estiver presente, o &quot; &quot; &quot; &quot; &quot; delimiter padrão será aspas duplas. Se essa entrada for a cadeia de &quot; &quot; caracteres, nenhum caractere será tratado como delimitadores.</p></td>
 </tr>
 </tbody>
 </table>

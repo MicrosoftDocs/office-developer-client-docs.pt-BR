@@ -1,5 +1,5 @@
 ---
-title: Método index. CreateField (DAO)
+title: Método Index.CreateField (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291828"
 ---
-# <a name="indexcreatefield-method-dao"></a>Método index. CreateField (DAO)
+# <a name="indexcreatefield-method-dao"></a>Método Index.CreateField (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Cria um novo objeto **[Field](field-object-dao.md)** (apenas espaços de trabalh
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateField (***nome***, ***tipo***, ***tamanho***)
+*expressão* . CreateField(***Name***, ***Type***, ***Size***)
 
-*expressão* Uma variável que representa um objeto **index** .
+*expressão* Uma variável que representa um **objeto Index** .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,28 +38,28 @@ Cria um novo objeto **[Field](field-object-dao.md)** (apenas espaços de trabalh
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes de <strong>campo</strong> válidos.</p></td>
+<td><p>Uma cadeia de caracteres que nomeia o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>O argumento não tem suporte neste objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Size</em></p></td>
+<td><p><em>Tamanho</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>O argumento não tem suporte neste objeto.</p></td>
 </tr>
 </tbody>
@@ -74,9 +74,9 @@ Campo
 
 Você pode usar o método **CreateField** para criar um novo campo, bem como especificar o nome, o tipo dos dados e o tamanho do campo. Se você omitir uma ou mais das partes opcionais ao utilizar **CreateField**, poderá usar uma instruções de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto a uma coleção. Depois de acrescentar o novo objeto, será possível alterar algumas, mas não todas as suas configurações de propriedade. Consulte os tópicos de propriedade individuais para obter mais detalhes.
 
-Os argumentos Type e Size aplicam-se somente aos objetos **Field** em um objeto **TableDef** . Esses argumentos serão ignorados quando o objeto **Field** for associado a um objeto **Index** ou **Relation**.
+Os argumentos de tipo e tamanho se aplicam somente **aos objetos Field** em um objeto **TableDef** . Estes argumentos são ignorados quando um objeto **Field** está associado a um objeto **Index** ou **Relation**.
 
-Se Name se referir a um objeto que já é um membro da coleção, ocorrerá um erro em tempo de execução quando você usar o método **[Append](fields-append-method-dao.md)** .
+Se o nome se referir a um objeto que já é membro da coleção, ocorrerá um erro em tempo de executar quando você usar o **[método Append.](fields-append-method-dao.md)**
 
 Para remover um objeto **Field** de uma coleção **Fields**, use o método **[Delete](fields-delete-method-dao.md)** na coleção. Não é possível excluir um objeto **Field** de uma coleção **Fields** do objeto **TableDef** depois de criar um index que faça referência ao campo.
 

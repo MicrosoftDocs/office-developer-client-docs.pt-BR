@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. ValidateOnSet (DAO)
+title: Propriedade Field.ValidateOnSet (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844720(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292955"
 ---
-# <a name="fieldvalidateonset-property-dao"></a>Propriedade Field. ValidateOnSet (DAO)
+# <a name="fieldvalidateonset-property-dao"></a>Propriedade Field.ValidateOnSet (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Define ou retorna um valor que especifica ou não se o valor de um objeto **[Fie
 
 *expressão* . ValidateOnSet
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 

@@ -1,5 +1,5 @@
 ---
-title: FieldEnum (referência do banco de dados de área de trabalho do Access)
+title: FieldEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: FieldEnum
 ms:assetid: fbd415c0-d6b4-278f-318b-98432c013634
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)

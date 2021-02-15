@@ -19,7 +19,7 @@ ms.locfileid: "32291758"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Index (DAO)](index-object-dao.md)
-- [Membros do índice (DAO)](index-members-dao.md)
-- [Propriedades do índice (DAO)](index-properties-dao.md)
-- [Métodos index (DAO)](index-methods-dao.md)
+- [Membros index (DAO)](index-members-dao.md)
+- [Propriedades de índice (DAO)](index-properties-dao.md)
+- [Métodos de índice (DAO)](index-methods-dao.md)
 

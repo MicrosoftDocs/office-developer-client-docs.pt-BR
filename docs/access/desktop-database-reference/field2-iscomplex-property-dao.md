@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. isComplex (DAO)
+title: Propriedade Field2.IsComplex (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292780"
 ---
-# <a name="field2iscomplex-property-dao"></a>Propriedade Campo2. isComplex (DAO)
+# <a name="field2iscomplex-property-dao"></a>Propriedade Field2.IsComplex (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013 
 
@@ -22,17 +22,17 @@ Retorna um **Boolean** que indica se o campo especificado tem um tipo de dados d
 
 ## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . IsComplex
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como navegar em um Recordset que contém um campo de vários valores.
+O exemplo a seguir mostra como navegar em um Recordset que contém um campo com valores múltiplos.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -30,7 +30,7 @@ Algumas vezes, uma operação pode gerar mais de um evento. Por exemplo, o objet
 
 Em instâncias com vários eventos Will gerados, um dos eventos poderá cancelar a operação pendente. Por exemplo, quando seu aplicativo altera o valor de um **Field**, normalmente os manipuladores de eventos **WillChangeField** e **WillChangeRecord** são chamados. Entretanto, se a operação for cancelada no primeiro manipulador de eventos, seu manipulador Complete associado será imediatamente chamado através de **adStatusOperationCancelled**. O segundo manipulador nunca é chamado. No entanto, se o primeiro manipulador de eventos permitir a continuação do evento, o outro será chamado. Se, em seguida, ele cancelar a operação, os dois eventos Complete serão chamados como nos exemplos anteriores.
 
-## <a name="unpaired-event-handlers"></a>Manipuladores de eventos não emparelhados
+## <a name="unpaired-event-handlers"></a>Manipuladores de eventos não formados
 
 Caso o status passado para o evento seja diferente de **adStatusCantDeny**, você poderá desativar as notificações para qualquer evento, retornando **adStatusUnwantedEvent** no parâmetro *Status*. Por exemplo, quando o manipulador de eventos Complete for chamado pela primeira vez, você poderá retornar  **adStatusUnwantedEvent**. Em seguida, você receberá apenas eventos Will. Entretanto, alguns eventos podem ser disparados por mais de um motivo. Nesse caso, o evento terá um parâmetro *Reason*. Ao retornar **adStatusUnwantedEvent**, você não receberá mais notificações desse evento, somente quando elas ocorrerem por um motivo específico. Isso significa que você provavelmente receberá uma notificação de cada possível motivo para o disparo do evento.
 
@@ -40,9 +40,9 @@ Você também pode manter a notificação do evento Complete habilitada. Quando 
 
 Um único manipulador de eventos Complete pode ser útil para o gerenciamento de operações assíncronas. Cada operação assíncrona possui um evento Complete apropriado.
 
-Por exemplo, o preenchimento de um grande objeto [Recordset](recordset-object-ado.md) pode ser demorado. Se o aplicativo for gravado apropriadamente, você poderá iniciar uma operação e continuar com outro processamento. No final, você será notificado quando **Recordset** for preenchido por um evento **ExecuteComplete**.
+Por exemplo, o preenchimento de um grande objeto [Recordset](recordset-object-ado.md) pode ser demorado. Se o aplicativo for escrito adequadamente, você poderá iniciar uma operação e continuar com outros processamentos. No final, você será notificado quando **Recordset** for preenchido por um evento **ExecuteComplete**.
 
-## <a name="single-event-handlers-and-multiple-objects"></a>Manipuladores de eventos únicos e vários objetos
+## <a name="single-event-handlers-and-multiple-objects"></a>Manipuladores de eventos individuais e vários objetos
 
 A flexibilidade de uma linguagem de programação como o Microsoft Visual C++ permite ter eventos de processo de um único manipulador de eventos a partir de vários objetos. Por exemplo, você pode ter eventos de processo de um único manipulador de eventos **Disconnect** a partir de vários objetos **Connection**. Se uma das conexões for encerrada, o manipulador de eventos **Disconnect** será chamado. É possível saber qual conexão causou o evento, pois o parâmetro de objeto manipulador de eventos é definido para o objeto **Connection** correspondente.
 

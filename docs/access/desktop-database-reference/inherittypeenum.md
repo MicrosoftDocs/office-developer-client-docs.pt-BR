@@ -1,5 +1,5 @@
 ---
-title: InheritTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: InheritTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
@@ -38,27 +38,27 @@ Especifica como os objetos herdarão permissões definidas com [SetPermissions](
 <tbody>
 <tr class="odd">
 <td><p><strong>adInheritBoth</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Os objetos e os outros contêineres existentes no objeto principal herdam a entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adInheritContainers</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Outros contêineres existentes no objeto principal herdam a entrada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritNone</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Padrão. Nada é herdado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adInheritNoPropagate</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Os sinalizadores <strong>adInheritObjects</strong> e <strong>adInheritContainers</strong> não são propagados para uma entrada herdada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritObjects</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Os objetos não contêiner existentes no contêiner herdam as permissões.</p></td>
 </tr>
 </tbody>

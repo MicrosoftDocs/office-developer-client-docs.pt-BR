@@ -18,7 +18,7 @@ ms.locfileid: "32293081"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Field. AppendChunk (DAO)](field-appendchunk-method-dao.md)
-- [Método Field. createProperty (DAO)](field-createproperty-method-dao.md)
-- [Método Field. getChunk (DAO)](field-getchunk-method-dao.md)
+- [Método Field.AppendChunk (DAO)](field-appendchunk-method-dao.md)
+- [Método Field.CreateProperty (DAO)](field-createproperty-method-dao.md)
+- [Método Field.GetChunk (DAO)](field-getchunk-method-dao.md)
 

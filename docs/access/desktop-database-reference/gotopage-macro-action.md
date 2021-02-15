@@ -24,7 +24,7 @@ ms.locfileid: "32292157"
 
 Você pode usar a ação **IrParaPágina** para mover o foco no formulário ativo para o primeiro controle em uma página especificada. É possível usar esta ação se você criou um formulário com quebras de páginas que contém grupos de informações relacionadas. Por exemplo, talvez haja um formulário Funcionários com informações pessoais em uma página, informações de escritório em outra e informações de vendas em uma terceira página. Você pode usar a ação **IrParaPágina** para se mover para a página desejada. Também pode apresentar várias páginas de informações em um único formulário usando controles guia.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **IrParaPágina** tem os seguintes argumentos.
 
@@ -62,7 +62,7 @@ A ação **IrParaPágina** tem os seguintes argumentos.
 
 Você pode usar esta ação para selecionar o primeiro controle (conforme definido pela ordem de tabulação do formulário) na página especificada. Use a ação **IrParaControle** para se mover para um controle específico no formulário.
 
-Você pode usar os argumentos **Right** e **down** para formulários com páginas maiores do que a janela do Access. Use o argumento **Número de Página** para se mover para a página desejada e use os argumentos **À Direita** e **Abaixo** para exibir a parte da página que deseja ver. O Access exibe a parte da página cujo canto superior esquerdo está deslocado na distância especificada a partir do canto superior esquerdo da página.
+Você pode usar os **argumentos Right** e **Down** para formulários com páginas maiores do que a janela do Access. Use o argumento **Número de Página** para se mover para a página desejada e use os argumentos **À Direita** e **Abaixo** para exibir a parte da página que deseja ver. O Access exibe a parte da página cujo canto superior esquerdo está deslocado na distância especificada a partir do canto superior esquerdo da página.
 
 Não use a ação **IrParaPágina** nos seguintes casos:
 

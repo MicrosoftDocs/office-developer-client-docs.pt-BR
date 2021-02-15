@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. Type (DAO)
+title: Propriedade Field2.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 057d6ec9-b72c-cee6-005a-6d916e3dda29
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292661"
 ---
-# <a name="field2type-property-dao"></a>Propriedade Campo2. Type (DAO)
+# <a name="field2type-property-dao"></a>Propriedade Field2.Type (DAO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** de leitura/gravação.
+Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **número inteiro** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Escreva
+*expressão* .Type
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -51,7 +51,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>Binário</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -83,7 +83,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Ponto</p></td>
+<td><p>Flutuação</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -95,7 +95,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Longo</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
@@ -107,7 +107,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numeric</p></td>
+<td><p>Numérico</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
@@ -123,7 +123,7 @@ Para um objeto **Field2**, as configurações e valores de retorno possíveis s�
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Carimbo de data/hora</p></td>
+<td><p>Carimbo de Data/Hora</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>

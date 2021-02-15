@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. OrdinalPosition (DAO)
+title: Propriedade Field2.OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 55d89611-ad07-990d-fc33-f81d59472430
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194179(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292724"
 ---
-# <a name="field2ordinalposition-property-dao"></a>Propriedade Campo2. OrdinalPosition (DAO)
+# <a name="field2ordinalposition-property-dao"></a>Propriedade Field2.OrdinalPosition (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -30,7 +30,7 @@ Define ou retorna a posição relativa de um objeto **Field2** em uma coleção 
 
 *expressão* . OrdinalPosition
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -81,9 +81,9 @@ A disponibilidade da propriedade **OrdinalPosition** depende do objeto que cont�
 </table>
 
 
-Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto acrescentado está na contagem de posições ordinais – 1, onde contagem é o número de objetos na coleção como especificado pela configuração da propriedade **[Count](containers-count-property-dao.md)** .
+Em geral, a posição ordinal de um objeto que você acrescenta a uma coleção depende da ordem na qual ele é acrescentado. O primeiro objeto acrescentado está na primeira posição (0), o segundo está na segunda posição (1) e assim por diante. O último objeto anexado está na contagem de posição ordinal – 1, onde count é o número de objetos na coleção conforme especificado pela configuração da propriedade **[Count.](containers-count-property-dao.md)**
 
-Você pode usar a propriedade **OrdinalPosition** para especificar uma posição ordinal para os novos objetos **Field2** que se difere da ordem na qual você acrescenta aqueles objetos a uma coleção. Isso permite que você especifique uma ordem de campo para suas tabelas, consultas e recordsets quando usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma \* consulta seleção é determinada pelos valores de propriedade **OrdinalPosition** atuais.
+Você pode usar a propriedade **OrdinalPosition** para especificar uma posição ordinal para os novos objetos **Field2** que se difere da ordem na qual você acrescenta aqueles objetos a uma coleção. Isso permite que você especifique uma ordem de campo para suas tabelas, consultas e recordsets quando usá-los em um aplicativo. Por exemplo, a ordem na qual os campos são retornados em uma consulta SELECT é determinada pelos valores atuais da \* **propriedade OrdinalPosition.**
 
 Você pode redefinir de modo permanente a ordem na qual os campos serão retornados em recordsets, configurando a propriedade **OrdinalPosition** para qualquer inteiro positivo.
 
@@ -93,7 +93,7 @@ Dois ou mais objetos **Field2** na mesma coleção podem ter o mesmo valor da pr
 
 
 > [!NOTE]
-> Mesmo que a **** coleção Fields de um objeto **[TableDef](tabledef-object-dao.md)** não tenha sido atualizada, a ordem dos campos em um **[Recordset](recordset-object-dao.md)** aberto a partir do **TableDef** refletirá os dados de **OrdinalPosition** do objeto **TableDef** . Um **Recordset** tipo tabela terá os mesmos dados de **OrdinalPosition** que a tabela base, mas nenhum outro tipo de **Recordset** terá novos dados **OrdinalPosition** (começando com 0) que seguirão a ordem determinada pelos dados **OrdinalPosition** de **TableDef**.
+> Mesmo que a coleção **Fields** de um objeto **[TableDef](tabledef-object-dao.md)** não tenha sido atualizada, a ordem de campo em um **[Recordset](recordset-object-dao.md)** aberto a partir de **TableDef** refletirá os dados **ordinalPosition** do objeto **TableDef** . Um **Recordset** tipo tabela terá os mesmos dados de **OrdinalPosition** que a tabela base, mas nenhum outro tipo de **Recordset** terá novos dados **OrdinalPosition** (começando com 0) que seguirão a ordem determinada pelos dados **OrdinalPosition** de **TableDef**.
 
 
 

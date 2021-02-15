@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. Attributes (DAO)
+title: Propriedade Field2.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292885"
 ---
-# <a name="field2attributes-property-dao"></a>Propriedade Campo2. Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Propriedade Field2.Attributes (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -28,9 +28,9 @@ Define ou retorna um valor que indica uma ou mais características de um objeto 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Atributos
+*expressão* .Attributes
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -54,15 +54,15 @@ O valor especifica características do campo representadas pelo objeto **Field2*
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>O campo é classificado em ordem decrescente (Z para A ou 100 para 0); essa opção se aplica a um objeto <strong>Field2</strong> em uma coleção <strong>Fields</strong> de um índice <strong>Index</strong>. Se você omitir essa constante, o campo será classificado em ordem crescente (A para Z ou 0 para 100). Esse é o valor padrão para os campos <strong>Index</strong> e <strong>TableDef</strong> (apenas espaços de trabalho do Microsoft Access)..</p></td>
+<td><p>O campo é classificado em ordem decrescente (Z para A ou 100 para 0); essa opção se aplica a um objeto <strong>Field2</strong> em uma coleção <strong>Fields</strong> de um índice <strong>Index</strong>. Se você omitir essa constante, o campo é classificado em ordem crescente (A até Z ou de 0 a 100). Este é o valor padrão para <strong>Índice</strong> e campos de <strong>TableDef</strong> (espaços de trabalho apenas do Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
-<td><p>O tamanho do campo é fixo (padrão para campos numéricos).</p></td>
+<td><p>O tamanho do campo é corrigido (padrão para Campos numéricos).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbHyperlinkField</strong></p></td>
-<td><p>O campo contém informações de hiperlink (apenas campos de memorando).</p></td>
+<td><p>O campo contém informações sobre o hiperlink (apenas campos Memorando).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
@@ -70,11 +70,11 @@ O valor especifica características do campo representadas pelo objeto **Field2*
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
-<td><p>O valor do campo pode ser alterado.</p></td>
+<td><p>O valor de campo pode ser alterado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVariableField</strong></p></td>
-<td><p>O tamanho do campo é variável (apenas campos de texto).</p></td>
+<td><p>O tamanho do campo é variável (somente campos de texto).</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,9 +95,8 @@ Para um objeto que não está acrescentado a uma coleção, essa propriedade é 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>
-						Objeto <strong>Index</strong></p></td>
-<td><p>Leitura/gravação até que o objeto <strong>TableDef</strong>, que contém o objeto <strong>Index</strong>, esteja acrescentando ao objeto <strong>Database</strong>; a propriedade é somente leitura.</p></td>
+<td><p>Objeto do <strong>Índice</strong> </p></td>
+<td><p>Leitura/gravação até o objeto <strong>TableDef</strong> que o objeto do <strong>Índice</strong> é anexado ao seu anexo para o objeto de <strong>Banco de dados</strong>; em seguida, a propriedade é somente leitura.</p></td>
 </tr>
 <tr class="even">
 <td><p>

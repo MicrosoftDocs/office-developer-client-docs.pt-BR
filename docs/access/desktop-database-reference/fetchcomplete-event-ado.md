@@ -22,7 +22,7 @@ O evento **FetchComplete** é chamado depois de todos os registros em uma opera�
 
 ## <a name="syntax"></a>Sintaxe
 
-FetchComplete*perror*, *adStatus*, ** precaboset
+FetchComplete *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -30,7 +30,7 @@ FetchComplete*perror*, *adStatus*, ** precaboset
 |:--------|:----------|
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de **adStatus** for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de este evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
-|*precaboset* |Um objeto **Recordset**. O objeto para o qual os registros foram recuperados.|
+|*pRecordset* |Um objeto **Recordset**. O objeto para o qual os registros foram recuperados.|
 
 ## <a name="remarks"></a>Comentários
 

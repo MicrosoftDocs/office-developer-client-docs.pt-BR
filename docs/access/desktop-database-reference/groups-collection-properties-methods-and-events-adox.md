@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos da coleção groups (ADOX)
+title: Propriedades, métodos e eventos da coleção Groups (ADOX)
 TOCTitle: Groups collection properties, methods, and events (ADOX)
 ms:assetid: 6893863d-a9e9-cde8-3ad9-283332c6da88
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249410(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292052"
 ---
-# <a name="groups-collection-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos da coleção groups (ADOX)
+# <a name="groups-collection-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos da coleção Groups (ADOX)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -26,11 +26,11 @@ ms.locfileid: "32292052"
 
 ## <a name="methods"></a>Métodos
 
-- [Método Append (grupos)](append-method-adox-groups.md)
-- [Método Delete (coleções)](delete-method-adox-collections.md)
+- [Método Append (Grupos)](append-method-adox-groups.md)
+- [Método Delete (Coleções)](delete-method-adox-collections.md)
 - [Método Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

@@ -25,9 +25,9 @@ ms.locfileid: "32291856"
 É possível usar a ação **ImportarListadoSharePoint** para importar ou vincular dados de um site do Microsoft SharePoint Foundation.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ImportarListadoSharePoint** tem os seguintes argumentos.
 
@@ -47,8 +47,8 @@ A ação **ImportarListadoSharePoint** tem os seguintes argumentos.
 <td><p><strong>Tipo de transferência</strong></p></td>
 <td><p>Selecione o tipo de transferência.</p>
 <ul>
-<li><p>Selecione <strong>importar</strong> para copiar os dados do SharePoint Foundation em uma tabela no Microsoft Access. As atualizações dos dados no Access não afetam os dados no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation não afetam os dados no Access.</p></li>
-<li><p>Selecione <strong>vincular</strong> para criar uma tabela vinculada no Access que vincule aos dados no SharePoint Foundation. As atualizações dos dados no Access são refletidas no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation são refletidas no Access.</p></li>
+<li><p>Selecione <strong>Importar</strong> para copiar os dados do SharePoint Foundation para uma tabela no Microsoft Access. As atualizações nos dados no Access não afetam os dados no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation não afetam os dados no Access.</p></li>
+<li><p>Selecione <strong>Link</strong> para criar uma tabela vinculada no Access vinculada aos dados no SharePoint Foundation. As atualizações dos dados no Access são refletidas no SharePoint Foundation. Da mesma forma, as atualizações dos dados no SharePoint Foundation são refletidas no Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,5 +98,5 @@ A ação **ImportarListadoSharePoint** tem os seguintes argumentos.
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Antes de poder usar os GUIDs do endereço como argumentos nesta ação de macro, você deve substituir cada cadeia de caracteres **% 7B** pelo caractere **{** , substituir cada cadeia de caracteres **% 2D** pelo **-** caractere e substituir cada cadeia de caracteres **% 7D** por **}** caractere. Não inclua o caractere **&** (E comercial) que vem depois da cadeia de caracteres **%7D** no GUID da lista.
+  Antes de poder usar os GUIDs do endereço como argumentos nesta ação de macro, você deve substituir cada cadeia de caracteres **%7B** pelo **caractere {,** substituir cada cadeia de caracteres **%2D** pelo caractere e substituir cada cadeia de caracteres **-** **%7D** pelo **caractere }.** Não inclua o caractere **&** (E comercial) que vem depois da cadeia de caracteres **%7D** no GUID da lista.
 

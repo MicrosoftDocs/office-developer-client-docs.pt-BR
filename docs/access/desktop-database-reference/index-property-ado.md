@@ -43,7 +43,7 @@ Se o índice puder ser definido, a posição da linha atual poderá ser alterada
 
 Se o índice puder ser definido e a propriedade [LockType](locktype-property-ado.md) for **adLockPessimistic** ou **adLockOptimistic**, uma operação [UpdateBatch](updatebatch-method-ado.md) implícita será executada. Isso libera os grupos atuais e afetados. Qualquer filtro existente é liberado, e a posição da linha atual é alterada para a primeira linha do **Recordset** reordenado.
 
-A propriedade **Index** é usada em conjunto com o método [Seek](seek-method-ado.md). Se o provedorde base não oferecer suporte à propriedade **Index** e, consequentemente, ao método **Seek**, considere o uso do método [Find](find-method-ado.md). Determinar se o objeto **Recordset** oferece suporte a índices [](supports-method-ado.md)com o método Supports **(adIndex)** .
+A propriedade **Index** é usada em conjunto com o método [Seek](seek-method-ado.md). Se o provedorde base não oferecer suporte à propriedade **Index** e, consequentemente, ao método **Seek**, considere o uso do método [Find](find-method-ado.md). Determine se o **objeto Recordset** oferece suporte a índices com o método [Supports](supports-method-ado.md)**(adIndex).**
 
 A propriedade interna **Index** não está relacionada à propriedade [Optimize](optimize-property-dynamic-ado.md) dinâmica, embora as duas lidem com índices.
 

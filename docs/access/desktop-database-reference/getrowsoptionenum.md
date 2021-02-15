@@ -1,5 +1,5 @@
 ---
-title: GetRowsOptionEnum (referência do banco de dados de área de trabalho do Access)
+title: GetRowsOptionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
@@ -60,7 +60,7 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. GetRowsOption. REST</p></td>
+<td><p>AdoEnums.GetRowsOption.REST</p></td>
 </tr>
 </tbody>
 </table>

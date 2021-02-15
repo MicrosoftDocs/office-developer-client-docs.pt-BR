@@ -1,5 +1,5 @@
 ---
-title: Propriedade Field. CollatingOrder (DAO)
+title: Propriedade Field.CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293123"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Propriedade Field. CollatingOrder (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Propriedade Field.CollatingOrder (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Retorna um valor que especifica a sequência da ordem de classificação no text
 
 *expressão* . CollatingOrder
 
-*expressão* Uma variável que representa um objeto **Field** .
+*expressão* Uma variável que representa um objeto de **Campo**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -120,7 +120,7 @@ O valor de retorno é uma constante ou um valor **Long** que pode ser um dos val
 <td><p>Sueco ou finlandês Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPolish</strong></p></td>
+<td><p><strong>dbSort Ltdh</strong></p></td>
 <td><p>Polonês</p></td>
 </tr>
 <tr class="even">
@@ -194,7 +194,7 @@ A disponibilidade da propriedade **CollatingOrder** depende do objeto que conté
 </table>
 
 
-A configuração da propriedade **CollatingOrder** corresponde ao argumento locale do método **CreateDatabase** quando o banco de dados foi criado ou o método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
+A configuração da propriedade **CollatingOrder** corresponde ao argumento de localidade do método **CreateDatabase** quando o banco de dados foi criado ou ao método **CompactDatabase** quando o banco de dados foi compactado mais recentemente.
 
 As definições das propriedades **CollatingOrder** e **Attributes** de um objeto **Field** em uma coleção **Fields** de um objeto **Index** determinam em conjunto a sequência e a direção da ordem de classificação de um índice. No entanto, não é possível definir uma ordem de agrupamento para um índice individual você pode defini-la somente para uma tabela inteira.
 

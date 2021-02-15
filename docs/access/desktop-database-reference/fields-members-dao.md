@@ -1,5 +1,5 @@
 ---
-title: Membros de campos (DAO)
+title: Membros Fields (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292535"
 ---
-# <a name="fields-members-dao"></a>Membros de campos (DAO)
+# <a name="fields-members-dao"></a>Membros Fields (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Uma coleção Fields contém todos os objetos Field armazenados de um objeto Ind
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Acrescido</a></strong></p></td>
-<td><p>Adiciona um novo objeto <strong><a href="field-object-dao.md">Field</a></strong> à coleção <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Adiciona um novo <strong><a href="field-object-dao.md">Field</a></strong> à coleção<strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="fields-delete-method-dao.md">Excluir</a></strong></p></td>
+<td><p><strong><a href="fields-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Exclui um objeto <strong><a href="field-object-dao.md">Field</a></strong> da coleção <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="odd">

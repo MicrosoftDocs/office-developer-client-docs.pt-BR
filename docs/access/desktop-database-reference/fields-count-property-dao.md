@@ -1,5 +1,5 @@
 ---
-title: Propriedade Fields. Count (DAO)
+title: Propriedade Fields.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 574de1db-2640-159b-7756-28c37acc9f83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194261(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292542"
 ---
-# <a name="fieldscount-property-dao"></a>Propriedade Fields. Count (DAO)
+# <a name="fieldscount-property-dao"></a>Propriedade Fields.Count (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna o número de objetos da coleção especificada. **Integer** somente leit
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Desconto
+*expressão* . Count
 
-*expressão* Uma variável que representa um **** objeto Fields.
+*expressão* Uma variável que representa um objeto **Fields**.
 
 ## <a name="remarks"></a>Comentários
 

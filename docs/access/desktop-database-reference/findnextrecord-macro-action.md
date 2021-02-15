@@ -25,7 +25,7 @@ ms.locfileid: "32292346"
 
 Você pode usar a ação **LocalizarPróximoRegistro** para localizar o próximo registro que atende aos critérios especificados pela ação **EncontrarRegistro** anterior ou o valor na caixa de diálogo **Localizar e Substituir** (na guia **Página Inicial**, clique em **Localizar**). Use a ação **LocalizarPróximoRegistro** para pesquisar registros várias vezes. Por exemplo, você pode se mover sucessivamente por todos os registros para buscar um cliente específico.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **LocalizarPróximoRegistro** não tem nenhum argumento. A ação **LocalizarPróximoRegistro** localiza o próximo registro que atende aos critérios definidos pela ação **EncontrarRegistro** ou na caixa de diálogo **Localizar e Substituir**. Os argumentos da ação **EncontrarRegistro** são compartilhados com as opções na caixa de diálogo **Localizar e Substituir**.
 

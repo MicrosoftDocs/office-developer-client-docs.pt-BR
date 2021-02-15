@@ -22,7 +22,7 @@ Indica a coluna em que os critérios de filtro serão avaliados.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. FilterColumn = *cadeia de caracteres*
+*DataControl*. FilterColumn = *String*
 
 ## <a name="parameters"></a>Parâmetros
 

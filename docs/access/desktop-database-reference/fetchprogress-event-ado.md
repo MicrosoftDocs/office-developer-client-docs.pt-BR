@@ -22,7 +22,7 @@ O evento **FetchProgress** é chamado periodicamente durante uma operação ass�
 
 ## <a name="syntax"></a>Sintaxe
 
-FetchProgress*Progress*, *MaxProgress*, *adStatus*, ** precaboset
+FetchProgress *Progress*, *MaxProgress*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -31,7 +31,7 @@ FetchProgress*Progress*, *MaxProgress*, *adStatus*, ** precaboset
 |*Progress* |Um valor **Long** que indica o número de registros que foram atualmente recuperados pela operação de busca.|
 |*MaxProgress* |Um valor **Long** que indica o número máximo de registros esperados para recuperação.|
 |*adStatus* |Um valor de status [EventStatusEnum](eventstatusenum.md).|
-|*precaboset* |Um objeto **Recordset** que é aquele para o qual os registros estão sendo recuperados.|
+|*pRecordset* |Um objeto **Recordset** que é aquele para o qual os registros estão sendo recuperados.|
 
 ## <a name="remarks"></a>Comentários
 

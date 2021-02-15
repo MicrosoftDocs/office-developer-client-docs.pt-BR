@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. complexType (DAO)
+title: Propriedade Field2.ComplexType (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292850"
 ---
-# <a name="field2complextype-property-dao"></a>Propriedade Campo2. complexType (DAO)
+# <a name="field2complextype-property-dao"></a>Propriedade Field2.ComplexType (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,11 +27,11 @@ Retorna um objeto **[ComplexType](complextype-object-dao.md)** que representa um
 
 ## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 
 *expressão* . ComplexType
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 

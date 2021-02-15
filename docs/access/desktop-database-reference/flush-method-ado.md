@@ -1,5 +1,5 @@
 ---
-title: Método Flush-ActiveX Data Objects (ADO)
+title: Método Flush - ActiveX Data Objects (ADO)
 TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
@@ -23,7 +23,7 @@ Força que o com que o conteúdo do [Stream](stream-object-ado.md) remanescente 
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. Descarga
+*Stream*. Flush
 
 ## <a name="remarks"></a>Comentários
 

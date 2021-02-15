@@ -188,7 +188,7 @@ void PrintComError(_com_error &e)
 // EndFindCpp 
 ```
 
-**FindX. h**
+**FindX.h**
 
 ```cpp 
  

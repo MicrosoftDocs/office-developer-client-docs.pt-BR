@@ -24,7 +24,7 @@ ms.locfileid: "32292368"
 
 Você pode usar a ação **EncontrarRegistro** para localizar a primeira instância de dados que atende aos critérios especificados pelos argumentos **EncontrarRegistro**. Esses dados podem estar no registro atual, em um registro sucessivo ou anterior, ou no primeiro registro. Você pode localizar registros na folha de dados da tabela ativa, na folha de dados de consulta ou no formulário.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **EncontrarRegistro** tem os seguintes argumentos.
 
@@ -42,7 +42,7 @@ A ação **EncontrarRegistro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Localizar</strong></p></td>
-<td><p>Especifica os dados que serão localizados no registro. Insira o texto, o número ou a data que você deseja localizar ou digite uma expressão, que é precedida por um sinal de<strong>=</strong>igual (), na seção <strong>Localizar</strong> , na seção <strong>argumentos da ação</strong> do painel Construtor de macros. Você pode usar caracteres curinga. Esse é um argumento obrigatório.</p></td>
+<td><p>Especifica os dados que serão localizados no registro. Insira o texto, o número ou a data que você deseja encontrar ou digite uma expressão, que é precedida por um sinal de igual ( ), na caixa Encontrar o quê na seção Argumentos da Ação do painel Construtor de <strong>=</strong> <strong>Macros.</strong> <strong></strong> Você pode usar caracteres curinga. Esse é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Match</strong></p></td>
@@ -53,13 +53,13 @@ A ação **EncontrarRegistro** tem os seguintes argumentos.
 <td><p>Especifica se a pesquisa diferencia maiúsculas de minúsculas. Clique em <strong>Sim</strong> (conduzir uma pesquisa com diferenciação de maiúsculas e minúsculas) ou <strong>Não</strong> (pesquisar sem fazer coincidir exatamente as letras maiúsculas e minúsculas). O padrão é <strong>Não</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Search</strong></p></td>
+<td><p><strong>Pesquisa</strong></p></td>
 <td><p>Especifica se a pesquisa continua partindo do registro atual e sobe até o início dos registros (<strong>Acima</strong>); desce até o final dos registros (<strong>Abaixo</strong>); ou desce até o final dos registros e partindo do início dos registros até o registro atual, para que todos os registros sejam pesquisados (<strong>Todos</strong>). O padrão é <strong>Tudo</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pesquisar como Formatado</strong></p></td>
 <td><p>Especifica se a pesquisa inclui dados formatados. Clique em <strong>Sim</strong> (o Microsoft Office Access 2007 pesquisa os dados à medida que são formatados e exibidos no campo) ou <strong>Não</strong> (o Access pesquisa os dados à medida que são armazenados no banco de dados, o que nem sempre é o mesmo que quando são exibidos). O padrão é <strong>Não</strong>. Você pode usar esse recurso para restringir a pesquisa a dados de um formato específico. Por exemplo, clique em <strong>Sim</strong> e digite <strong>1.234</strong> no argumento <strong>Localizar</strong> para localizar um valor de 1.234 em um campo formatado para incluir pontos. Clique em <strong>Não</strong> se desejar digitar <strong>1234</strong> para pesquisar dados nesse campo. Para pesquisar datas, clique em <strong>Sim</strong> para localizar uma data exatamente como ela está formatada, como 08-Julho-2003. Se você clicar em <strong>Não</strong>, digite a data do argumento <strong>Localizar</strong> no formato definido nas configurações regionais do Painel de Controle do Windows. Esse formato é mostrado na caixa <strong>Formato de data abreviada</strong> localizada na guia <strong>Data</strong> das configurações regionais. Por exemplo, se a caixa <strong>Formato de data abreviada</strong> estiver definida como <strong>M/d/aa</strong>, você poderá digitar 7/8/03, e o Access localizará todas as entradas em um campo Data que correspondem a 8 de julho de 2003, independentemente de como esse campo esteja formatado.</p>
-<p><strong>Observação</strong>: o argumento <strong>Pesquisar como formatado</strong> tem efeito somente se o campo atual for um controle acoplado, o argumento <strong>Match</strong> estiver definido como <strong>campo inteiro</strong>, o argumento <strong>somente campo atual</strong> será definido como <strong>Sim</strong>e a <strong>correspondência </strong>O argumento Case é definido como <strong>não</strong>.</p>
+<p><strong>OBSERVAÇÃO:</strong>O argumento Pesquisar como <strong>Formatado</strong> só tem efeito se o campo atual for <strong></strong> um controle vinculado, o argumento <strong>Match</strong> for definido como <strong>Campo</strong>Inteiro , o argumento Campo Somente Atual estiver definido como <strong>Sim</strong>e o argumento <strong>Match Case</strong> estiver definido como <strong>Não</strong>.</p>
 <p>Se você definiu <strong>Diferenciar Maiúsc. de Minúsc.</strong> como <strong>Sim</strong>, ou <strong>Somente Campo Atual</strong> como <strong>Não</strong>, também precisará definir <strong>Pesquisar como Formatado</strong> como <strong>Sim</strong>.</p></td>
 </tr>
 <tr class="even">

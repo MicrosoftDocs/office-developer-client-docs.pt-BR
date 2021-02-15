@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. DefaultValue (DAO)
+title: Propriedade Field2.DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292829"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Propriedade Campo2. DefaultValue (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Propriedade Field2.DefaultValue (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Fiel
 
 *expressão* . DefaultValue
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

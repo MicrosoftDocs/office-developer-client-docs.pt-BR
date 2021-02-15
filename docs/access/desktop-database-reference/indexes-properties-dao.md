@@ -18,5 +18,5 @@ ms.locfileid: "32291487"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade Indexes. Count (DAO)](indexes-count-property-dao.md)
+- [Propriedade Indexes.Count (DAO)](indexes-count-property-dao.md)
 

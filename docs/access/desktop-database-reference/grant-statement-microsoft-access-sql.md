@@ -26,9 +26,9 @@ Concede privilégios específicos a um usuário ou grupo existente.
 
 ## <a name="syntax"></a>Sintaxe
 
-Grant {*privilégio*\[, *privilégio*,... \]} Em { *tabela* Table | *Objeto* Object|
+GRANT {*privilege* \[ , *privilege*, ... \] } Tabela *ON{|* Objeto *OBJECT*|
 
-*Contêiner* contêiner} para {*authorizationname*\[, *authorizationname*,... \]}
+CONTÊINER *container* } TO {*authorizationname* \[ , *authorizationname*, ... \] }
 
 A instrução GRANT tem estas partes:
 
@@ -39,17 +39,17 @@ A instrução GRANT tem estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>mínimo</em></p></td>
-<td><p>O privilégio ou os privilégios a serem concedidos. Os privilégios são especificados usando as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
+<td><p><em>privilege</em></p></td>
+<td><p>O privilégio ou os privilégios a serem concedidos. Os privilégios são especificados usando-se as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>TableName</em></p></td>
+<td><p><em>tablename</em></p></td>
 <td><p>Nenhum nome de tabela válido.</p></td>
 </tr>
 <tr class="odd">

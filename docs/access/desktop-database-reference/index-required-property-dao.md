@@ -1,5 +1,5 @@
 ---
-title: Propriedade index. Required (DAO)
+title: Propriedade Index.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: ec8fafc4-8155-c48e-b3c8-2d9be425175a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836310(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291696"
 ---
-# <a name="indexrequired-property-dao"></a>Propriedade index. Required (DAO)
+# <a name="indexrequired-property-dao"></a>Propriedade Index.Required (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Define ou retorna um valor que indica se um objeto **[Field](field-object-dao.md
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Necessário
+*expressão* . Obrigatório
 
-*expressão* Uma variável que representa um objeto **index** .
+*expressão* Uma variável que representa um **objeto Index** .
 
 ## <a name="remarks"></a>Comentários
 

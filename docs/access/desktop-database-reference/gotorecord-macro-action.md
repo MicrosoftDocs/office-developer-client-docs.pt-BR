@@ -25,7 +25,7 @@ ms.locfileid: "32292136"
 
 Você pode usar a ação **IrParaRegistro** para tornar o registro especificado no registro atual de um conjunto de resultados de tabela, formulário, ou consulta aberta.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **IrParaRegistro** tem os seguintes argumentos.
 
@@ -55,11 +55,11 @@ A ação **IrParaRegistro** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Offset</strong></p></td>
-<td><p>Um inteiro ou uma expressão que é calculada como um inteiro. Uma expressão deve ser precedida por um sinal de igual<strong>=</strong>(). Este argumento especifica o registro que se tornará o atual. Você pode usar o argumento <strong>Deslocamento</strong> de duas maneiras:</p>
+<td><p>Um inteiro ou uma expressão que é calculada como um inteiro. Uma expressão deve ser precedida por um sinal de igual ( <strong>=</strong> ). Este argumento especifica o registro que se tornará o atual. Você pode usar o argumento <strong>Deslocamento</strong> de duas maneiras:</p>
 <ul>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Próximo</strong> ou <strong>Anterior</strong>, o Microsoft Office Access 2007 move para frente ou para trás o número de registros especificado no argumento <strong>Deslocamento</strong>.</p></li>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Ir Para</strong>, o Access se move para o registro com o número igual ao do argumento <strong>Deslocamento</strong>. O número de registros é mostrado na caixa de número de registros na parte inferior da janela.</p>
-<p><strong>Observação</strong>: se você usar a <strong>primeira</strong>, <strong>última</strong>ou <strong>nova</strong> configuração para o argumento <strong>Record</strong> , o Access ignorará o argumento <strong>offset</strong> . Se você inserir um argumento <strong>Deslocamento</strong> excessivamente grande, o Access exibirá uma mensagem de erro. Você não pode digitar números negativos para o argumento <strong>Deslocamento</strong>.</p></li>
+<p><strong>OBSERVAÇÃO:</strong>se você usar a <strong></strong> <strong>configuração Primeiro</strong> <strong>,</strong>Último ou Novo para o argumento <strong>Registro,</strong> o Access ignorará o argumento <strong>Deslocamento.</strong> Se você inserir um argumento <strong>Deslocamento</strong> excessivamente grande, o Access exibirá uma mensagem de erro. Você não pode digitar números negativos para o argumento <strong>Deslocamento</strong>.</p></li>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Próximo</strong> ou <strong>Anterior</strong>, o Microsoft Office Access 2007 move para frente ou para trás o número de registros especificado no argumento <strong>Deslocamento</strong>.</p></li>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Ir Para</strong>, o Access se move para o registro com o número igual ao do argumento <strong>Deslocamento</strong>. O número de registros é mostrado na caixa de número de registros na parte inferior da janela.</p></li>
 </ul>

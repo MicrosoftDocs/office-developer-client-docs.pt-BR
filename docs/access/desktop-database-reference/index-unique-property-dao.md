@@ -1,5 +1,5 @@
 ---
-title: Propriedade index. Unique (DAO)
+title: Propriedade Index.Unique (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291689"
 ---
-# <a name="indexunique-property-dao"></a>Propriedade index. Unique (DAO)
+# <a name="indexunique-property-dao"></a>Propriedade Index.Unique (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Define ou retorna um valor que indica se objeto **[Index](index-object-dao.md)**
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Diferente
+*expressão* . Exclusivo
 
-*expressão* Uma variável que representa um objeto **index** .
+*expressão* Uma variável que representa um **objeto Index** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -43,7 +43,7 @@ Se ambas as propriedades **Unique** e **[Primary](index-primary-property-dao.md)
 > - Os registros recuperados das tabelas sem os índices não são retornados em uma sequência específica.
 > - A propriedade **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** no objeto **Index** determina a ordem dos registros e, consequentemente, determina as técnicas de acesso para uso desse objeto **Index**.
 > - Um índice exclusivo ajuda a otimizar a localização de registros.
-> - Os índices não afetam a ordem física de uma tabela base; os índices afetam apenas a forma como os registros são acessados pelo objeto **[Recordset](recordset-object-dao.md)** do tipo tabela quando um índice específico é escolhido ou quando o mecanismo de banco de dados do Microsoft Access cria objetos **Recordset** .
+> - Os índices não afetam a ordem física de uma tabela base; afetam apenas como os registros são acessados pelo objeto **[Recordset](recordset-object-dao.md)** do tipo tabela quando um índice específico é escolhido ou quando o mecanismo de banco de dados do Microsoft Access cria **objetos Recordset.**
 
 ## <a name="example"></a>Exemplo
 

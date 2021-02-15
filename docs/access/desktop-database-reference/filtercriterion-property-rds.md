@@ -22,20 +22,20 @@ Indica o operador de avaliação a ser usado no valor do filtro.
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. FilterCriterion = *cadeia de caracteres*
+*DataControl*. FilterCriterion = *String*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Um valor **String** que especifica o operador de avaliação do [FilterValue](filtervalue-property-rds.md) para os registros. Pode \<ser um dos seguintes:, \<=, \>, \>=, = ou. \< \>|
+|*String* |Um valor **String** que especifica o operador de avaliação do [FilterValue](filtervalue-property-rds.md) para os registros. Pode ser qualquer um dos seguintes: \< , = , = , \< \> \> =, =, ou \< \> .|
 
 ## <a name="remarks"></a>Comentários
 
 As propriedades [SortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), **FilterCriterion** e [FilterColumn](filtercolumn-property-rds.md) fornecem funcionalidade de classificação e filtragem no cache do lado do cliente. A funcionalidade de classificação ordena os registros de acordo com os valores de uma coluna. A funcionalidade de filtragem exibe um subconjunto de registros com base nos critérios de localização, enquanto todo o [Recordset](recordset-object-ado.md) é mantido no cache. O método [Reset](reset-method-rds.md) executará os critérios e substituirá o **Recordset** atual por um **Recordset** que pode ser atualizado.
 
-O operador\!"=" não é válido para **FilterCriterion**; em vez disso,\<\>use "".
+O operador " \! =" não é válido para **FilterCriterion**; em vez disso, use " \< \> ".
 
 Se tanto as propriedades de filtro como as de classificação estiverem definidas, e o método **Reset** for chamado, o conjunto de linhas será filtrado primeiro e depois classificado. Nas classificações em ordem crescente, os valores nulos ficam na parte superior; nas classificações em ordem decrescente, os valores nulos ficam na parte inferior (a ordem crescente é o comportamento padrão).
 

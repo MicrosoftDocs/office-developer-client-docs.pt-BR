@@ -1,5 +1,5 @@
 ---
-title: Propriedade index. Properties (DAO)
+title: Propriedade Index.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 88990fdf-75a4-f750-ba3a-e26f11155a89
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197056(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291717"
 ---
-# <a name="indexproperties-property-dao"></a>Propriedade index. Properties (DAO)
+# <a name="indexproperties-property-dao"></a>Propriedade Index.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **index** .
+*expressão* Uma variável que representa um **objeto Index** .
 

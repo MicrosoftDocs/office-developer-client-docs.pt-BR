@@ -37,32 +37,32 @@ Se um erro for diretamente relacionado a um campo (por exemplo, se os dados esti
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o campo não pode ser recuperado nem armazenado sem perda de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>Indica que os dados retornados do provedor estouraram o tipo de dados do campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>Treze</p></td>
+<td><p>13 </p></td>
 <td><p>Indica que o valor padrão do campo foi usado durante a definição dos dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Indica que este campo foi ignorado durante a definição dos valores de dados na fonte. Nenhum valor foi definido pelo provedor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p>Indica que não é possível modificar o campo porque ele é uma entidade calculada ou derivada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que o provedor retornou um valor nulo.</p></td>
 </tr>
 <tr class="odd">

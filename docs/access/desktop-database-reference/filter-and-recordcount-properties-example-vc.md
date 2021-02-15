@@ -320,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-**FilterX. h**
+**FilterX.h**
 
 ```cpp 
  

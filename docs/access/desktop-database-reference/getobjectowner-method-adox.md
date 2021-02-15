@@ -22,7 +22,7 @@ Retorna o proprietário de um objeto em um [Catálogo](catalog-object-adox.md).
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *Catálogo*de proprietário. GetObjectOwner (*objectname*, *objecttype* \[,**\]objecttypeid)
+*Proprietário*  =  *Catálogo*. GetObjectOwner(*ObjectName*, *ObjectType* \[ ,*ObjectTypeId* \] )
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -34,7 +34,7 @@ Retorna um valor **String** que especifica o [Nome](name-property-adox.md) do [U
 |:--------|:----------|
 |*ObjectName* |Um valor **String** que especifica o nome do objeto para o qual o usuário deve ser retornado.|
 |*ObjectType* |Um valor **Long** que pode ser uma das constantes [ObjectTypeEnum](objecttypeenum.md), que especifica o tipo do objeto cujo proprietário deve ser obtido.|
-|*ObjectTypeid* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
+|*ObjectTypeId* |Opcional. Um valor **Variant** que especifica o GUID de um tipo de objeto do provedor, não definido pela especificação do OLE DB. Este parâmetro será necessário se *ObjectType* for definido como **adPermObjProviderSpecific**; caso contrário, ele não será usado.|
 
 ## <a name="remarks"></a>Comentários
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. Required (DAO)
+title: Propriedade Field2.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292717"
 ---
-# <a name="field2required-property-dao"></a>Propriedade Campo2. Required (DAO)
+# <a name="field2required-property-dao"></a>Propriedade Field2.Required (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -24,9 +24,9 @@ Define ou retorna um valor que indica se o objeto **Field2** requer ou não um v
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Necessário
+*expressão* . Obrigatório
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

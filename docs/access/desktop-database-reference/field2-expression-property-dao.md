@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. Expression (DAO)
+title: Propriedade Field2.Expression (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292815"
 ---
-# <a name="field2expression-property-dao"></a>Propriedade Campo2. Expression (DAO)
+# <a name="field2expression-property-dao"></a>Propriedade Field2.Expression (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -28,11 +28,11 @@ Versão adicionada: Access 2010
 
 *expressão* . Expressão
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 
-No Access 2013, você pode criar campos de tabela que calculam valores. Os cálculos podem incluir valores de campos na mesma tabela, bem como funções internas do Access.
+No Access 2013, você pode criar campos de tabela que calculam valores. Os cálculos podem incluir valores de campos na mesma tabela, bem como funções do Access interno.
 
 O cálculo não pode incluir campos de outras tabelas ou consultas.
 

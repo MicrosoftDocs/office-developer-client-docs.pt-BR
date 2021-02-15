@@ -1,5 +1,5 @@
 ---
-title: Método Fields. Delete (DAO)
+title: Método Fields.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292556"
 ---
-# <a name="fieldsdelete-method-dao"></a>Método Fields. Delete (DAO)
+# <a name="fieldsdelete-method-dao"></a>Método Fields.Delete (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Excluir (***nome***)
+*expressão* . Delete(***Name***)
 
-*expressão* Uma variável que representa um **** objeto Fields.
+*expressão* Uma variável que representa um objeto **Fields**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,14 +42,14 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>O campo a ser excluído.</p></td>

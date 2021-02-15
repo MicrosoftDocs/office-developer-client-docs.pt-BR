@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. OriginalValue (DAO)
+title: Propriedade Field2.OriginalValue (DAO)
 TOCTitle: OriginalValue Property
 ms:assetid: 10fed55e-c938-2ae6-8fd2-996745a63da3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845353(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292738"
 ---
-# <a name="field2originalvalue-property-dao"></a>Propriedade Campo2. OriginalValue (DAO)
+# <a name="field2originalvalue-property-dao"></a>Propriedade Field2.OriginalValue (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32292738"
 
 *expressão* . OriginalValue
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

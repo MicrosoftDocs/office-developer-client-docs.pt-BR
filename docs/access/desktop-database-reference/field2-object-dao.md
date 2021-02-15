@@ -1,5 +1,5 @@
 ---
-title: Objeto Campo2 (DAO)
+title: Objeto Field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292759"
 ---
-# <a name="field2-object-dao"></a>Objeto Campo2 (DAO)
+# <a name="field2-object-dao"></a>Objeto Field2 (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -36,19 +36,19 @@ Um objeto **Field2** contém as mesmas propriedades e métodos que o objeto **[F
 
 Para se referir a um objeto **Field2** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-**Campos** ,0
+**Campos**(0)
 
-**Campos** ("Name")
+**Campos**("nome")
 
-****\!\[Nome dos campos\]
+**Campos**\!\[nome\]
 
 Com as mesmas formas de sintaxe, você também pode se referir à propriedade **Value** de um objeto **Field2** criado e acrescentado à coleção **Fields**. O contexto da referência de campo determinará se você está se referindo ao objeto **Field2** ou à propriedade **Value** do objeto **Field**.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como navegar em um Recordset que contém um campo de vários valores.
+O exemplo a seguir mostra como navegar em um Recordset que contém um campo com valores múltiplos.
 
-**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido** pela [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ O exemplo a seguir mostra como navegar em um Recordset que contém um campo de v
 
 <br/>
 
-O exemplo a seguir mostra como navegar os arquivos em um campo de anexo. O tipo de arquivo e o nome de arquivo de cada anexo são impressos na janela imediata.
+O exemplo a seguir mostra como navegar os arquivos em um campo de anexo. O tipo de arquivo e o nome de cada anexo é impressa na janela imediata.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ O exemplo a seguir mostra como navegar os arquivos em um campo de anexo. O tipo 
 
 <br/>
 
-O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado a um campo de anexo.
+O exemplo a seguir mostra como adicionar arquivos de um caminho de uma pasta especificada para um campo anexo.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especif
 
 <br/>
 
-O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo no caminho de pasta especificado.
+O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de anexo para o caminho da pasta especificada.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ O exemplo a seguir mostra como salvar os arquivos armazenados em um campo de ane
 
 <br/>
 
-O exemplo a seguir mostra como excluir um arquivo armazenado em um campo de anexo.
+O exemplo a seguir mostra como excluir um arquivo armazenado em um campo anexo.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Campo2. AllowZeroLength (DAO)
+title: Propriedade Field2.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292906"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Propriedade Campo2. AllowZeroLength (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Propriedade Field2.AllowZeroLength (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -26,7 +26,7 @@ Define ou retorna um valor que indica que a sequência de comprimento zero ("") 
 
 *expressão* . AllowZeroLength
 
-*expressão* Uma variável que representa um objeto **campo2** .
+*expressão* Uma variável que representa um objeto **Field2**.
 
 ## <a name="remarks"></a>Comentários
 

@@ -22,7 +22,7 @@ O evento **InfoMessage** é chamado sempre que ocorre um aviso durante uma opera
 
 ## <a name="syntax"></a>Sintaxe
 
-InfoMessage*perror*, *adStatus*, *pConnection*
+InfoMessage *pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 

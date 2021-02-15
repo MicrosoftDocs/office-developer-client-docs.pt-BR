@@ -19,7 +19,7 @@ ms.locfileid: "32292297"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código pressupõe a existência do grupo acCounting (consulte o [exemplo dos métodos Append e ChangePassword de grupos e usuários (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo ao sistema). O proprietário da tabela Categories é definido como Accounting.
+Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código assume a existência do grupo Accounting (consulte o exemplo dos métodos [Append e ChangePassword](groups-and-users-append-changepassword-methods-example-vb.md) de grupos e usuários (VB) para ver como adicionar esse grupo ao sistema). O proprietário da tabela Categories é definido como Accounting.
 
 ```vb 
  

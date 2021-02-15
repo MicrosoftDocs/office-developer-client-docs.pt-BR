@@ -22,14 +22,14 @@ Indica o nome de um programa de personalização do servidor (manipulador) que e
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Handler = *cadeia de caracteres*
+*DataControl*. Handler = *String*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Um valor **String** que contém o nome do manipulador e qualquer parâmetro, todos separados por vírgulas (por exemplo, "HandlerName, Parm1, parm2,..., Parm *N*").|
+|*String* |Um valor **String** que contém o nome do manipulador e quaisquer parâmetros, todos separados por vírgulas (por exemplo, "handlerName,parm1,parm2,...,parm *N*" ).|
 
 ## <a name="remarks"></a>Comentários
 
@@ -39,5 +39,5 @@ O nome do manipulador e seus parâmetros, se houver, são separados por vírgula
 
 O nome do manipulador padrão é **MSDFMAP.Handler** e seu parâmetro padrão é um arquivo de personalização chamado **MSDFMAP.INI**. Use esta propriedade para invocar arquivos de personalização alternativos pelo administrador do servidor.
 
-A alternativa para definir a propriedade **Handler** é especificar um manipulador e os parâmetros na propriedade [ConnectionString](connectionstring-property-ado.md) ; ou seja, "**Handler = * * * HandlerName, Parm1, parm2,...;*".
+A alternativa para definir a **propriedade Handler** é especificar um manipulador e parâmetros na [propriedade ConnectionString;](connectionstring-property-ado.md) ou seja, "**Handler=***handlerName,parm1,parm2,...;*".
 

@@ -27,12 +27,12 @@ ms.locfileid: "32292549"
 
 - [Método Append](append-method-ado.md)
 - [Método CancelUpdate](cancelupdate-method-ado.md)
-- [Método Delete (coleção Fields do ADO)](delete-method-ado-fields-collection.md)
+- [Método Delete (Coleção Fields do ADO)](delete-method-ado-fields-collection.md)
 - [Método Refresh](refresh-method-ado.md)
 - [Método Resync](resync-method-ado.md)
 - [Método Update](update-method-ado.md)
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

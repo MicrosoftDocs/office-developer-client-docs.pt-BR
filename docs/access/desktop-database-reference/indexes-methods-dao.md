@@ -1,5 +1,5 @@
 ---
-title: Métodos Indexes (DAO)
+title: Métodos de índices (DAO)
 TOCTitle: Methods
 ms:assetid: e61af2b7-783c-47b0-bfbc-537ee3314776
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125933(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291501"
 ---
-# <a name="indexes-methods-dao"></a>Métodos Indexes (DAO)
+# <a name="indexes-methods-dao"></a>Métodos de índices (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método indexes. Append (DAO)](indexes-append-method-dao.md)
-- [Método indexes. Delete (DAO)](indexes-delete-method-dao.md)
-- [Método indexes. Refresh (DAO)](indexes-refresh-method-dao.md)
+- [Método Indexes.Append (DAO)](indexes-append-method-dao.md)
+- [Método Indexes.Delete (DAO)](indexes-delete-method-dao.md)
+- [Método Indexes.Refresh (DAO)](indexes-refresh-method-dao.md)
 
