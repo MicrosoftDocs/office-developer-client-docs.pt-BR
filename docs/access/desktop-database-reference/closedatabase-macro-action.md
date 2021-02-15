@@ -21,7 +21,7 @@ ms.locfileid: "32296294"
 
 Você pode usar a ação **FecharBancoDeDados** para fechar o banco de dados atual.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **FecharBancoDeDados** não tem nenhum argumento.
 
@@ -29,7 +29,7 @@ A ação **FecharBancoDeDados** não tem nenhum argumento.
 
   - O Access não executará nenhuma ação que siga a ação **FecharBancoDeDados** em uma macro.
 
-  - Esta ação tem o mesmo efeito que clicar na guia **arquivo** e, em seguida, clicar em **fechar banco de dados**. Se houver algum objeto não salvo ao executar a ação **FecharBancoDeDados**, as caixas de diálogo exibidas serão as mesmas daquelas exibidas ao clicar em **Fechar Banco de Dados**.
+  - Esta ação tem o mesmo  efeito que clicar na guia Arquivo e clicar em Fechar Banco **de Dados.** Se houver algum objeto não salvo ao executar a ação **FecharBancoDeDados**, as caixas de diálogo exibidas serão as mesmas daquelas exibidas ao clicar em **Fechar Banco de Dados**.
 
   - Para executar a ação **FecharBancoDeDados** em um módulo do VBA (Visual Basic for Applications), use o método **CloseDatabase** do objeto **DoCmd**.
 

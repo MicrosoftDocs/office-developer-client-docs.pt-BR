@@ -40,7 +40,7 @@ ms.locfileid: "32295839"
 - [Métodos BeginTrans, CommitTrans e RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Método Cancel](cancel-method-ado.md)
 - [Método Close](close-method-ado.md)
-- [Método Execute (conexão ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Método Execute (Connection do ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Método Open (Connection do ADO)](open-method-ado-connection.md)
 - [Método OpenSchema](openschema-method-ado.md)
 

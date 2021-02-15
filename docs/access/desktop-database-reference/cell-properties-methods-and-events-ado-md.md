@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos da célula (ADO MD)
+title: Propriedades, métodos e eventos de células (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 76330293-fc35-0c7c-0806-1f2e253635f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296539"
 ---
-# <a name="cell-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos da célula (ADO MD)
+# <a name="cell-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos de células (ADO MD)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
 - [Propriedade FormattedValue](formattedvalue-property-ado-md.md)
-- [Propriedade ordinal (Cell)](ordinal-property-ado-md-cell.md)
+- [Propriedade Ordinal (cell)](ordinal-property-ado-md-cell.md)
 - [Coleção Positions](positions-collection-ado-md.md)
 - [Coleção Properties](properties-collection-ado.md)
 - [Propriedade Value](value-property-ado-md.md)
@@ -32,5 +32,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

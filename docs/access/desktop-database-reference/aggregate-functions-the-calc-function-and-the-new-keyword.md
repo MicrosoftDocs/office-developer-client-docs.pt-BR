@@ -36,32 +36,32 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SUM (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
+<td><p>SUM(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula a soma de todos os valores da coluna especificada.</p></td>
 </tr>
 <tr class="even">
-<td><p>Méd (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
+<td><p>AVG(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula a média de todos os valores da coluna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>MAX (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
+<td><p>MAX(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula o valor máximo na coluna especificada.</p></td>
 </tr>
 <tr class="even">
-<td><p>MIN (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
+<td><p>MIN(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula o valor mínimo na coluna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>COUNT (<em>Chapter-alias</em>[.<em> Column-Name</em>])</p></td>
+<td><p>COUNT(<em>chapter-alias</em>[.<em> column-name</em>])</p></td>
 <td><p>Conta o número de linhas no alias especificado. Se uma coluna for especificada, somente as linhas para as quais essa coluna for não-Null serão incluídas na contagem.</p></td>
 </tr>
 <tr class="even">
-<td><p>DESVPAD (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
+<td><p>STDEV(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula o desvio padrão na coluna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>QUALQUER (<em>Chapter-alias</em>.<em> Column-Name</em>)</p></td>
-<td><p>Um valor da coluna especificada. ANY possui um valor previsível apenas quando o valor da coluna é igual para todas as linhas do capítulo.</p><p><strong>Observação</strong>: se a coluna não contiver o mesmo valor para todas as linhas no capítulo, o comando Shape retorna arbitrariamente um dos valores para ser o valor da função qualquer.</p></td>
+<td><p>ANY(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
+<td><p>Um valor da coluna especificada. ANY possui um valor previsível apenas quando o valor da coluna é igual para todas as linhas do capítulo.</p><p><strong>OBSERVAÇÃO:</strong>se a coluna não contém o mesmo valor para todas as linhas no capítulo, o comando SHAPE retorna arbitrariamente um dos valores para ser o valor da função ANY.</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CALC (<em>expressão</em>)</p></td>
+<td><p>CALC(<em>expressão</em>)</p></td>
 <td><p>Calcula uma expressão arbitrária, mas apenas na linha do <strong>Recordset</strong> que contém a função CALC. Qualquer expressão que usar essas <a href="visual-basic-for-applications-functions.md">Funções do Visual Basic for Applications (VBA)</a> é permitida.</p></td>
 </tr>
 </tbody>
@@ -102,7 +102,7 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Novo <em>campo-tipo</em> [(<em>erro</em> de<em>precisão</em> | de<em>escala</em> | de<em>largura</em> | [, <em>escala</em> | de<em>erro</em>])]</p></td>
+<td><p>NEW <em>field-type</em> [(<em>width</em>  |  <em>scale</em>  |  <em>precision</em>  |  <em>error</em> [, <em>scale</em>  |  <em>error</em>])]</p></td>
 <td><p>Adiciona ao <strong>Recordset</strong> uma coluna vazia do tipo especificado.</p></td>
 </tr>
 </tbody>
@@ -208,5 +208,5 @@ O *field-type* passado com a palavra-chave NEW pode ser qualquer um dos tipos de
 </table>
 
 
-Quando o novo campo é do tipo decimal (no OLE DB, no\_formato DB decimal ou no ADO, adDecimal), você deve especificar os valores de precisão e escala.
+Quando o novo campo for do tipo decimal (em OLE DB, DBTYPE DECIMAL ou \_ em ADO, adDecimal), você deverá especificar os valores de precisão e escala.
 

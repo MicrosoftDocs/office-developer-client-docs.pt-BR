@@ -32,7 +32,7 @@ Consulte os tópicos a seguir para saber mais sobre o data shaping:
 - [Acesso de linhas em um conjunto de registros hierárquico](accessing-rows-in-a-hierarchical-recordset.md)
 - [Gramática formal de forma](formal-shape-grammar.md)
 - [Funções do Visual Basic for Applications](visual-basic-for-applications-functions.md)
-- [Cláusula da forma Append (ADO)](shape-append-clause.md)
-- [Data Shaping (ADO)](data-shaping.md)
-- [Comandos de forma em geral (ADO)](shape-commands-in-general.md)
+- [Cláusula Shape Append (ADO)](shape-append-clause.md)
+- [Data shaping (ADO)](data-shaping.md)
+- [Comandos shape em geral (ADO)](shape-commands-in-general.md)
 

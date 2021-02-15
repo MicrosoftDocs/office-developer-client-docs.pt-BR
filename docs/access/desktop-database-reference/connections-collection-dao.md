@@ -19,7 +19,7 @@ ms.locfileid: "32295783"
 **Aplica-se ao:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
+> O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 Uma coleção **Connections** contém os objetos **Connection** atuais de um objeto **Workspace**. (espaços de trabalho do ODBCDirect apenas).
 
@@ -31,11 +31,11 @@ Quando você abre um objeto **Connection**, um objeto **[Database](database-obje
 
 A configuração da propriedade **Name** de um objeto **Connection** é uma sequência de caracteres que especifica o caminho do arquivo do banco de dados. Para fazer referência a um objeto **Connection** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-- **Conexões** ,0
+- **Conexões**(0)
 
-- **Conexões** ("*Name*")
+- **Connections**("*name*")
 
-- ****\!\[*Nome* de conexões\]
+- **Conexões** \! \[ *name*\]
 
 
 > [!NOTE]

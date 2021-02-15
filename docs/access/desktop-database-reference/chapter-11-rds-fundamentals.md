@@ -27,5 +27,5 @@ Esta seção contém uma série de tópicos cuja leitura pode ser feita em uma d
 - [Resumo de modelos de objeto RDS](rds-object-model-summary.md)
 - [Cenário do RDS](rds-scenario.md)
 
-Esta seção também contém o [tutorial RDS](chapter-12-rds-tutorial.md) que demonstra como acessar e atualizar uma fonte de dados e uma série de tópicos sobre como [usar o RDS](chapter-13-rds-usage-and-security.md), que aborda os tópicos mais avançados do RDS.
+Esta seção também contém o [tutorial do RDS](chapter-12-rds-tutorial.md) que demonstra como acessar e atualizar uma fonte de dados e uma série de tópicos sobre o uso do [RDS,](chapter-13-rds-usage-and-security.md)que discute tópicos mais avançados do RDS.
 

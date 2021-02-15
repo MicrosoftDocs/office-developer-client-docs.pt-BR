@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos da coluna (ADOX)
+title: Propriedades, métodos e eventos de coluna (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3cfb6eaf-399a-1678-45bd-6fe692d8bd81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296238"
 ---
-# <a name="column-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos da coluna (ADOX)
+# <a name="column-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de coluna (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32296238"
 - [Coleção Properties](properties-collection-ado.md)
 - [Propriedade RelatedColumn](relatedcolumn-property-adox.md)
 - [Propriedade SortOrder](sortorder-property-adox.md)
-- [Propriedade Type (coluna)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
+- [Propriedade Type (Column)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
 ## <a name="methods"></a>Métodos
 
@@ -38,5 +38,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

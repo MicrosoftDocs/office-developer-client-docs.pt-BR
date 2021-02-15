@@ -22,9 +22,9 @@ Acrescenta um objeto a uma coleção. Se a coleção for [Fields](fields-collect
 
 ## <a name="syntax"></a>Sintaxe
 
-*coleção*. *Objeto* Append
+*coleção*. Objeto *Append*
 
-*campos*. Anexar *nome*, *tipo*, *DefinedSize*, *attrib*, *FieldValue*
+*campos*. Append *Name*, *Type*, *DefinedSize*, *Attrib*, *FieldValue*
 
 ## <a name="parameters"></a>Parâmetros
 

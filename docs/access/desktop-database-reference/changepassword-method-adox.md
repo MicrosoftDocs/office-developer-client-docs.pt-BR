@@ -22,13 +22,13 @@ Altera a senha de uma conta de usuário.
 
 ## <a name="syntax"></a>Sintaxe
 
-*User*. ChangePassword*SenhaAntiga*, *newPassword*
+*Usuário*. ChangePassword *OldPassword*, *NewPassword*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*SenhaAntiga* |Um valor **String** que especifica a senha existente do usuário. Se o usuário não tiver uma senha no momento, usar uma sequência vazia ("") para *OldPassword*.|
+|*OldPassword* |Um valor **String** que especifica a senha existente do usuário. Se o usuário não tiver uma senha no momento, usar uma sequência vazia ("") para *OldPassword*.|
 |*NewPassword* |Um valor **String** que especifica a nova senha.|
 
 ## <a name="remarks"></a>Comentários

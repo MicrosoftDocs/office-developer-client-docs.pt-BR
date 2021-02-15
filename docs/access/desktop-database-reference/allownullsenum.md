@@ -1,5 +1,5 @@
 ---
-title: AllowNullsEnum (referência do banco de dados de área de trabalho do Access)
+title: AllowNullsEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
@@ -38,22 +38,22 @@ Especifica se os registros com valores nulos são indexados.
 <tbody>
 <tr class="odd">
 <td><p><strong>adIndexNullsAllow</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, a entrada será inserida no índice.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsDisallow</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. O índice não permite entradas nas quais as colunas chave são nulas. Se for inserido um valor nulo em uma dessas colunas, ocorrerá um erro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIndexNullsIgnore</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O índice não insere entradas que contenham chaves nulas. Se for inserido um valor nulo em uma coluna chave, a entrada será ignorada e não ocorrerá nenhum erro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsIgnoreAny</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>O índice não insere entradas onde alguma coluna chave contenha um valor nulo. Em um índice com uma chave de várias colunas, se for inserido um valor nulo em alguma coluna, a entrada será ignorada e não ocorrerá nenhum erro.</p></td>
 </tr>
 </tbody>

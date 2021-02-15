@@ -22,7 +22,7 @@ Adiciona um novo objeto [Table](table-object-adox.md) à coleção [Tables](tabl
 
 ## <a name="syntax"></a>Sintaxe
 
-*Tabelas*. Anexar*tabela*
+*Tabelas*. Append *Table*
 
 ## <a name="parameters"></a>Parâmetros
 

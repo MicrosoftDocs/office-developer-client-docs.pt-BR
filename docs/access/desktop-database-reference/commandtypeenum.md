@@ -1,5 +1,5 @@
 ---
-title: CommandTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: CommandTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
@@ -43,22 +43,22 @@ Especifica como um argumento de comando deve ser interpretado.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdText</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Avalia o <a href="commandtext-property-ado.md">CommandText</a> como uma definição textual de um comando ou chamada de procedimento armazenado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Avalia o <strong>CommandText</strong> como um nome de tabela cujas colunas são todas retornadas por uma consulta SQL gerada internamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCmdStoredProc</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Avalia o <strong>CommandText</strong> como um nome de procedimento armazenado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdUnknown</strong></p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Padrão. Indica que o tipo de comando na propriedade <strong>CommandText</strong> não é conhecido.</p></td>
 </tr>
 <tr class="even">
@@ -90,25 +90,25 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. unESPECIFICADO</p></td>
+<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. TEXT</p></td>
+<td><p>AdoEnums.CommandType.TEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLE</p></td>
+<td><p>AdoEnums.CommandType.TABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. STOREDPROC</p></td>
+<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. UNKNOWN</p></td>
+<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. FILE</p></td>
+<td><p>AdoEnums.CommandType.FILE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLEDIRECT</p></td>
+<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
 </tr>
 </tbody>
 </table>

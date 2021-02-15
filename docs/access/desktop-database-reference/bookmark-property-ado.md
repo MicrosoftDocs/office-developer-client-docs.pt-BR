@@ -35,5 +35,5 @@ Talvez o usuário não seja capaz de exibir o valor do indicador. Além disso, o
 
 Se você usar o método [Clone](clone-method-ado.md) para criar uma cópia de um objeto **Recordset**, as definições da propriedade **Bookmark** para os objetos **Recordset** original e duplicado serão idênticas e você poderá usá-las alternadamente. Contudo, não é possível usar indicadores de objetos **Recordset** diferentes alternadamente, mesmo que eles tenham sido criados a partir da mesma fonte ou comando.
 
-**Uso do Remote Data Service** Quando usado em um objeto **Recordset** do lado do cliente, a propriedade **Bookmark** está sempre disponível.
+**Uso do Remote Data Service** Quando usada em um objeto **Recordset** do lado do cliente, a propriedade **Bookmark** está sempre disponível.
 

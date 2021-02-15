@@ -28,7 +28,7 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *objeto*Level. BeginTrans ()
+*level*  =  *objeto*. BeginTrans()
 
 *objeto*. BeginTrans
 
@@ -51,7 +51,7 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 Use esses métodos com um objeto **Connection** quando desejar salvar ou cancelar uma série de alterações feitas na fonte de dados como uma única unidade. Por exemplo, para transferir dinheiro entre contas, subtraia um valor de uma conta e acrescente o mesmo valor à outra. Se uma das duas atualizações falhar, as contas ficarão desequilibradas. A realização dessas alterações em uma transação aberta garante que todas as alterações, ou nenhuma delas, ocorram.
 
 > [!NOTE]
-> [!OBSERVAçãO] Nem todos os provedores oferecem suporte a transações. Verifique se o **DDL de transação** de propriedade definido pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection** , indicando que o provedor dá suporte a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
+> [!OBSERVAçãO] Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade definida pelo provedor **Transaction DDL** aparece na coleção Properties do objeto [](properties-collection-ado.md) **Connection,** indicando que o provedor oferece suporte a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
 
 Depois que você chamar o método **BeginTrans**, o provedor não confirmará mais instantaneamente as alterações feitas até que **CommitTrans** ou **RollbackTrans** seja chamado para finalizar a transação.
 

@@ -1,5 +1,5 @@
 ---
-title: Método Close-ActiveX Data Objects (ADO)
+title: Método Close - ActiveX Data Objects (ADO)
 TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
@@ -23,11 +23,11 @@ Fecha um objeto aberto e quaisquer objetos dependentes.
 
 ## <a name="syntax"></a>Sintaxe
 
-*objeto*. Fechado
+*objeto*. Fechar
 
 ## <a name="remarks"></a>Comentários
 
-Utilize o método **Close** para fechar um objeto [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) e liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, defina a variável de objeto como *Nothing* (no Visual Basic) após fechar o objeto.
+Utilize o método **Close** para fechar um objeto [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) e liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, de definida a variável de objeto como *Nothing* (no Visual Basic) depois de fechar o objeto.
 
 **Connection**
 

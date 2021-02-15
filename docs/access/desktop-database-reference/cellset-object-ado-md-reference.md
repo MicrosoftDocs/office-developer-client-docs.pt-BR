@@ -1,5 +1,5 @@
 ---
-title: Objeto CellSet (referência do ADO MD)
+title: Objeto Cellset (referência do ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296532"
 ---
-# <a name="cellset-object-ado-md-reference"></a>Objeto CellSet (referência do ADO MD)
+# <a name="cellset-object-ado-md-reference"></a>Objeto Cellset (referência do ADO MD)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Objeto CellSet (ADO MD)](cellset-object-ado-md.md)
-- [Propriedades, métodos e eventos do CellSet (ADO MD)](cellset-properties-methods-and-events-ado-md.md)
+- [Objeto Cellset (ADO MD)](cellset-object-ado-md.md)
+- [Propriedades, métodos e eventos do cellset (ADO MD)](cellset-properties-methods-and-events-ado-md.md)
 

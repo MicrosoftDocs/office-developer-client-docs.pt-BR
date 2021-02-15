@@ -1,5 +1,5 @@
 ---
-title: Ação da macro AlarmeSonoro (referência do banco de dados do Access)
+title: Ação da macro Alarme Sonoro (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
@@ -25,7 +25,7 @@ ms.locfileid: "32296861"
 
 Você pode usar a ação **AlarmeSonoro** para emitir um tom de alarme sonoro pelo alto-falante do computador.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AlarmeSonoro** não tem nenhum argumento.
 

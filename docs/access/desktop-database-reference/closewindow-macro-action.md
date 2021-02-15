@@ -23,9 +23,9 @@ ms.locfileid: "32296287"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **fecharJanela** para fechar uma guia de documento do Access especificada ou a guia do documento ativo se nenhum for especificado.
+Você pode usar a **ação Fechar Janela** Estreita para fechar uma guia de documento do Access especificada ou a guia do documento ativo, caso nenhuma seja especificada.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **FecharJanela** tem os seguintes argumentos.
 

@@ -32,4 +32,4 @@ Este capítulo aborda os seguintes tópicos:
 - [Tipos de eventos](types-of-events.md)
 - [Parâmetros de eventos](event-parameters.md)
 - [Como os manipuladores de eventos funcionam juntos](how-event-handlers-work-together.md)
-- [Instanciação de eventos do ADO por idioma (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Instaciação de eventos do ADO por idioma (ADO)](ado-event-instantiation-by-language-ado.md)

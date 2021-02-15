@@ -39,7 +39,7 @@ Se tanto a propriedade **BOF** como a **EOF** forem **Verdadeiras**, não existe
 
 Se você abrir um objeto **Recordset** sem nenhum registro, as propriedades **BOF** e **EOF** são configuradas como **Verdadeiro** (consulte a propriedade [RecordCount](recordcount-property-ado.md) para obter mais informações sobre esse estado de um **Recordset**). Quando você abre um objeto **Recordset** contendo ao menos um registro, o primeiro registro será o registro atual e as propriedades **BOF** e **EOF** são **Falsas**.
 
-Se você excluir o último registro restante do objeto **Recordset**, as propriedades **BOF** e **EOF** poderão permanecer **Falsas** até que você tente reposicionar o registro atual.
+Se você excluir o último registro do objeto **Recordset**, as propriedades **BOF** e **EOF** permanecerão como **False** até você tentar o reposicionamento do registro atual.
 
 Esta tabela mostra quais métodos **Move** são permitidos com diferentes combinações das propriedades **BOF** e **EOF**.
 
@@ -54,38 +54,38 @@ Esta tabela mostra quais métodos **Move** são permitidos com diferentes combin
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
+<th><p>MoveFirst,<br />
 MoveLast</p></th>
-<th><p>MovePrevious<br />
-Mover &lt; 0</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Mover &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = falso</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ambas <strong>Verdadeiras</strong></p></td>
 <td><p>Erro</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro</p></td>
 <td><p>Erro</p></td>
 </tr>
 <tr class="even">
@@ -118,22 +118,22 @@ A tabela a seguir mostra o que acontece às configurações de propriedade de **
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>Nenhuma alteração</p></td>
-<td><p>Nenhuma alteração</p></td>
+<td><p>Sem alteração</p></td>
+<td><p>Sem alteração</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mover</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 <td><p>Sem alteração</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mover</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>Sem alteração</p></td>
 <td><p>Configurada como <strong>Verdadeiro</strong></p></td>
 </tr>

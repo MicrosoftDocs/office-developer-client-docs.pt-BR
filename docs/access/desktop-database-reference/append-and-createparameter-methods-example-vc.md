@@ -200,7 +200,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**AppendX. h**
+**AppendX.h**
 
 ```cpp 
  

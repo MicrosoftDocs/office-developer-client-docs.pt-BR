@@ -21,18 +21,18 @@ ms.locfileid: "32296014"
 
 Se tiver dificuldades para fazer com que o RDS funcione corretamente depois de fazer a atualização para o Windows 2000, siga as etapas a seguir para solucionar o problema.
 
-1.  Certifique-se de que o serviço de publicação na World Wide Web esteja sendo executado primeiro navegando até o*servidor* https://usando o Internet Explorer. Se você não puder acessar o servidor Web dessa forma, vá para um prompt de comando e digite o seguinte comando, "NET START W3SVC".
+1.  Certifique-se de que o Serviço de Publicação na World Wide Web seja executado primeiro, navegando https://*servidor* usando o Internet Explorer. Se você não puder acessar o servidor Web dessa forma, vá para um prompt de comando e digite o seguinte comando, "NET START W3SVC".
 
-2.  No menu Iniciar, selecione Executar. Digite msdfmap.ini e clique em OK para abrir o arquivo msdfmap.ini no Bloco de Notas. Verifique a \[seção Connect\] default e, se o parâmetro Access estiver definido como NoAccess, altere-o para ReadOnly.
+2.  No menu Iniciar, selecione Executar. Digite msdfmap.ini e clique em OK para abrir o arquivo msdfmap.ini no Bloco de Notas. Verifique a seção CONNECT DEFAULT e, se o parâmetro ACCESS estiver definido como \[ \] NOACCESS, altere-o para READONLY.
 
-3.  Usando o utilitário RegEdit, navegue até "software\_\\da\_máquina\\local da\\Microsoft datafactory\\HandlerInfo" e certifique-se de que **HandlerRequired** esteja definido como 0 e defaulthandler seja "" (nulo **** Cadeia de caracteres).
+3.  Usando o utilitário RegEdit, navegue até "HKEY LOCAL MACHINE SOFTWARE Microsoft DataFactory HandlerInfo" e certifique-se de que HandlerRequired está definido como 0 e \_ \_ \\ \\ \\ \\ **DefaultHandler** é "" (cadeia  de caracteres nula).
     
     > [!NOTE]
     > [!OBSERVAçãO] Se você fizer quaisquer alterações nesta seção do Registro, deverá parar e reiniciar o Serviço de Publicação na World Wide Web, inserindo os seguintes comandos em um prompt de comando: "NET STOP W3SVC" e "NET START W3SVC".
 
-4.  Usando o utilitário RegEdit, navegue no registro para "HKEY\_local\_Machine\\System\\CurrentControlSet\\Services\\W3SVC\\Parameters\\ADCLaunch" e verifique se há uma chave chamada ** RDSServer.** datafactory. Se não houver, crie-a.
+4.  Usando o utilitário RegEdit, navegue no registro para "HKEY \_ LOCAL \_ MACHINE SYSTEM \\ \\ CurrentControlSet \\ Services W3SVC Parameters ADCLaunch" e verifique se há uma chave chamada \\ \\ \\ **RDSServer.Datafactory**. Se não houver, crie-a.
 
-5.  Usando o Gerenciador de serviços de Internet, vá para o site padrão e exiba as propriedades da raiz virtual do MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
+5.  Usando o Gerenciador de Serviços da Internet, vá para o site padrão e veja as propriedades da raiz virtual MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
 
 Certifique-se de tentar reiniciar o servidor se as alterações não parecerem solucionar o problema em um primeiro momento.
 

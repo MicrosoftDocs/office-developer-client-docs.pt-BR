@@ -22,7 +22,7 @@ O Microsoft ActiveX Data Objects (Multidimensional) (ADO MD) oferece acesso fác
 
 Como o ADO, o ADO MD usa um provedor de OLE DB subjacente para obter acesso aos dados. Para utilizar o ADO MD, o provedor deve ser um MDP (provedor de dados multidimensionais), como definido na especificação do OLE DB para OLAP. Os MDPs apresentam dados em modos de exibição multidimensionais, ao contrário de TDPs (provedores de dados tabulares) que apresentam dados em modos de exibição tabulares. Consulte a documentação do provedor OLE DB para OLAP para obter informações mais detalhadas sobre a sintaxe e os comportamentos específicos aos quais seu provedor oferece suporte.
 
-Este documento pressupõe que o usuário tenha experiência na linguagem de programação Visual Basic e conhecimento geral sobre ADO e OLAP. Para obter mais informações, consulte o [Guia do programador do ADO](ado-programmer-s-guide.md) e a referência do programador do OLE DB para OLAP. 
+Este documento pressupõe que o usuário tenha experiência na linguagem de programação Visual Basic e conhecimento geral sobre ADO e OLAP. Para obter mais informações, consulte o guia do programador [do ADO](ado-programmer-s-guide.md) e a Referência do programador OLE DB para OLAP Programmer's Reference. 
 
 Este capítulo aborda os seguintes tópicos:
 

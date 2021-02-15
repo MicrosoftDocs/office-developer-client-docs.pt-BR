@@ -70,11 +70,11 @@ Como os objetos **Container** são incorporados, você não pode criar novos obj
 
 Para referir-se a um objeto **Container** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-- **Contêineres** ,0
+- **Contêineres**(0)
 
-- **Contêineres** ("*Name*")
+- **Contêineres**("*nome*")
 
-- ****\!\[*Nome* do contêiner\]
+- **Contêineres** \! \[ *name*\]
 
 ## <a name="example"></a>Exemplo
 

@@ -1,5 +1,5 @@
 ---
-title: Exemplo dos métodos BeginTrans, CommitTrans e RollbackTrans (VJ + +)
+title: Exemplo dos métodos BeginTrans, CommitTrans, RollbackTrans (VJ++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 ms:assetid: 8c1ca470-792e-4792-8913-fa7d3b46218f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)

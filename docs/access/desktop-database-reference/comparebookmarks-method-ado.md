@@ -22,7 +22,7 @@ Compara dois indicadores e retorna uma indicação de seus valores relativos.
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *Recordset*do resultado. CompareBookmarks (*Bookmark1*, *Bookmark2*)
+*result*  =  *recordset*. CompareBookmarks(*Bookmark1*, *Bookmark2*)
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -41,7 +41,7 @@ Os indicadores devem ser aplicados ao mesmo objeto [Recordset](recordset-object-
 
 Um indicador identifica exclusivamente uma linha em um objeto **Recordset**. Utilize a propriedade [Bookmark](bookmark-property-ado.md) da linha atual para obter seu indicador.
 
-Como o tipo de dados de um indicador é específico do provedor, o ADO o expõe como uma Variant. Por exemplo, os indicadores do SQL Server são do tipo\_R8 de DbType (duplo). O ADO exporá esse tipo como uma Variant com um subtipo igual a Double.
+Como o tipo de dados de um indicador é específico do provedor, o ADO o expõe como uma Variant. Por exemplo, os indicadores do SQL Server são do tipo DBTYPE \_ R8 (Double). O ADO exporá esse tipo como uma Variant com um subtipo igual a Double.
 
 Ao comparar indicadores, o ADO não tenta nenhum tipo de imposição. Os valores são simplesmente passados para o provedor onde a comparação ocorre. Se os indicadores passados para o método **CompareBookmarks** forem armazenados em variáveis de tipos diferentes, ele pode gerar o erro de tipos incompatíveis "Os argumentos são do tipo errado, estão fora do intervalo aceitável ou estão em conflito entre si."
 

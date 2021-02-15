@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do catálogo (ADOX)
+title: Propriedades, métodos e eventos de catálogo (ADOX)
 TOCTitle: Catalog properties, methods, and events (ADOX)
 ms:assetid: 82d7dfc2-6fc8-709c-96e0-d8cddd1d5432
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296553"
 ---
-# <a name="catalog-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos do catálogo (ADOX)
+# <a name="catalog-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de catálogo (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013 
 
@@ -35,5 +35,5 @@ ms.locfileid: "32296553"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

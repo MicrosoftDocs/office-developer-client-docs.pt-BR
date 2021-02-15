@@ -1,5 +1,5 @@
 ---
-title: Coleção containers (DAO)
+title: Coleção Containers (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295601"
 ---
-# <a name="containers-collection-dao"></a>Coleção containers (DAO)
+# <a name="containers-collection-dao"></a>Coleção Containers (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Uma **** coleção containers contém todos os objetos de **contêiner** que são definidos em um banco de dados.
+Uma **coleção Containers** contém todos os objetos **Container** definidos em um banco de dados.
 
 ## <a name="remarks"></a>Comentários
 

@@ -35,13 +35,13 @@ Você pode acessar um valor no registro a ser excluído usando a seguinte sintax
 
 `[Old].[Field Name]`
 
-Por exemplo, para acessar o valor do campo Quantidadeemestoque no registro a ser excluído, use a seguinte sintaxe:
+Por exemplo, para acessar o valor do campo QuantityInStock no registro a ser excluído, use a seguinte sintaxe:
 
 `[Old].[QuantityInStock]`
 
 Os valores contidos no registro a ser excluído são excluídos permanentemente após a conclusão do evento **Antes de Excluir**.
 
-Você pode cancelar o evento **Antes de Excluir** utilizando a ação **GerarErro**. Quando um erro é gerado, as alterações contidas no evento **antes de excluir** são descartadas.
+Você pode cancelar o evento **Antes de Excluir** utilizando a ação **GerarErro**. Quando um erro é gerado, as alterações contidas no evento **Antes de Excluir** são descartadas.
 
 A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes de Excluir**.
 
@@ -52,7 +52,7 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo de comando</p></th>
+<th><p>Tipo de Comando</p></th>
 <th><p>Comando</p></th>
 </tr>
 </thead>
@@ -62,36 +62,36 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 <td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Fluxo do programa</p></td>
+<td><p>Fluxo do Programa</p></td>
 <td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Fluxo do programa</p></td>
-<td><p><a href="if-then-else-macro-block.md">Bloco de macro If...Then...Else</a></p></td>
+<td><p>Fluxo do Programa</p></td>
+<td><p><a href="if-then-else-macro-block.md">Bloco de macro Se... Então... Senão</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloco de dados</p></td>
-<td><p><a href="lookuprecord-data-block.md">Ação de macro Pesquisarregistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Ação da macro LookupRecord</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Ação da macro LimparErrodeMacro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Ação de macro LimparErrodaMacro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="onerror-macro-action.md">Ação da macro AoOcorrerErro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="onerror-macro-action.md">Ação de macro AoOcorrerErro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="raiseerror-macro-action.md">Ação da macro GerarErro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="raiseerror-macro-action.md">Ação de macro GerarErro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Ação de dados</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Ação da macro DefinirVarLocal</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="setlocalvar-macro-action.md">Ação de macro DefinirVarLocal</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ação de dados</p></td>
-<td><p><a href="stopmacro-macro-action.md">Ação da macro PararMacro</a></p></td>
+<td><p>Ação de Dados</p></td>
+<td><p><a href="stopmacro-macro-action.md">Ação de macro PararMacro</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -101,5 +101,5 @@ Para criar uma Macro de Dados que capture o evento **Antes de Excluir**, siga es
 
 1.  Abra a tabela na qual deseja capturar o evento **Antes de Excluir**.
 
-2.  Na guia **tabela** , no grupo **antes de eventos** , selecione **antes de excluir**.
+2.  Na guia **Tabela,** no grupo Antes de **Eventos,** selecione **Antes de Excluir.**
 

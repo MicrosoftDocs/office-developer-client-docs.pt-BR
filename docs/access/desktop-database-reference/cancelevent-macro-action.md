@@ -22,9 +22,9 @@ ms.locfileid: "32296630"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **CancelarEvento** para cancelar o evento que causou o acesso para executar a macro que contém essa ação. O nome da macro é a configuração de uma propriedade de evento como **AntesDeAtualizar**, **AoAbrir**, **OnUnload** ou **OnPrint**.
+Você pode usar a **ação CancelarEvento** para cancelar o evento que fez o Access executar a macro que contém essa ação. O nome da macro é a configuração de uma propriedade de evento como **AntesDeAtualizar**, **AoAbrir**, **OnUnload** ou **OnPrint**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **CancelarEvento** não tem nenhum argumento.
 
@@ -55,12 +55,12 @@ Os eventos a seguir podem ser cancelados pala ação **CancelarEvento**.
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filter</strong></p></td>
+<td><p><strong>Filtro</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BeforeUpdate</strong></p></td>
-<td><p><strong>Format</strong></p></td>
+<td><p><strong>Formato</strong></p></td>
 <td><p><strong>Print</strong></p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +103,7 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condição</p></th>
+<th><p>Condition</p></th>
 <th><p>Ação</p></th>
 <th><p>Argumentos: Configuração</p></th>
 <th><p>Comentário</p></th>
@@ -111,15 +111,15 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull ([CountryRegion])</p></td>
+<td><p>IsNull([CountryRegion])</p></td>
 <td><p>PararMacro</p></td>
 <td><p></p></td>
 <td><p>Se PaísRegião for <strong>Nulo</strong>, o código postal não poderá ser validado.</p></td>
 </tr>
 <tr class="even">
-<td><p>CountryRegion In (&quot;França&quot;,&quot;Itália&quot;,&quot;Espanha&quot;) e compr ([CEP]) &lt; &gt; 5</p></td>
+<td><p>[CountryRegion] In ( &quot; França , Itália , Espanha ) e &quot; &quot; &quot; &quot; &quot; Len([CEP]) &lt; &gt; 5</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal precisa ter 5 caracteres. Alarme sonoro: <strong>Sim</strong> tipo: título da <strong>informação</strong> : erro de código postal</p></td>
+<td><p>Mensagem: O código postal precisa ter 5 caracteres. Alarme sonoro: <strong>Sim</strong> Tipo: <strong>Título da</strong> Informação: Erro de Código Postal</p></td>
 <td><p>Se o código postal não tiver 5 caracteres, exiba uma mensagem.</p></td>
 </tr>
 <tr class="odd">
@@ -135,9 +135,9 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>CountryRegion In (&quot;Austrália&quot;,&quot;Cingapura&quot;) e compr ([CEP]) &lt; &gt; 4</p></td>
+<td><p>[CountryRegion] In ( &quot; Austrália &quot; , &quot; &quot; Cingapura ) e Len([CEP]) &lt; &gt; 4</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal precisa ter 4 caracteres. Alarme sonoro: <strong>Sim</strong> tipo: título da <strong>informação</strong> : erro de código postal</p></td>
+<td><p>Mensagem: O código postal precisa ter 4 caracteres. Alarme sonoro: <strong>Sim</strong> Tipo: <strong>Título da</strong> Informação: Erro de Código Postal</p></td>
 <td><p>Se o código postal não tiver 4 caracteres, exiba uma mensagem.</p></td>
 </tr>
 <tr class="even">
@@ -153,9 +153,9 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([CountryRegion] = &quot;Canadá&quot;) E ([código postal] não like&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
+<td><p>([CountryRegion] = &quot; Canadá &quot; ) e ([cep] não como &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
 <td><p>CaixaDeMensagem</p></td>
-<td><p>Mensagem: O código postal é inválido. Exemplo de código canadense: H1J 1C3 beep: <strong>Yes</strong> Type: tipo de <strong>informação</strong> : erro de código postal</p></td>
+<td><p>Mensagem: O código postal é inválido. Exemplo de código canadense: H1J 1C3 Beep: <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Se o código postal não estiver correto para Canadá, exiba uma mensagem. (Exemplo de código de Canadá: H1J 1C3)</p></td>
 </tr>
 <tr class="odd">

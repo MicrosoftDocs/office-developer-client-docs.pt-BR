@@ -1,5 +1,5 @@
 ---
-title: Propriedade Container.Name (DAO)
+title: Container.Name propriedade (DAO)
 TOCTitle: Name Property
 ms:assetid: c3f9fdc9-beed-a57b-ae95-5612db75b50c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823054(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295636"
 ---
-# <a name="containername-property-dao"></a>Propriedade Container.Name (DAO)
+# <a name="containername-property-dao"></a>Container.Name propriedade (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Retorna o nome do objeto especificado. **String** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tdomínio
+*expressão* . Nome
 
-*expressão* Uma variável que representa um objeto **container** .
+*expressão* Uma variável que representa um **objeto Container.**
 

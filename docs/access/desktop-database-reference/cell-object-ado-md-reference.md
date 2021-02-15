@@ -19,5 +19,5 @@ ms.locfileid: "32296560"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Cell (ADO MD)](cell-object-ado-md.md)
-- [Propriedades, métodos e eventos da célula (ADO MD)](cell-properties-methods-and-events-ado-md.md)
+- [Propriedades, métodos e eventos de células (ADO MD)](cell-properties-methods-and-events-ado-md.md)
 

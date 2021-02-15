@@ -20,7 +20,7 @@ ms.locfileid: "32296406"
 
 O ADO usa vários métodos para notificar um aplicativo sobre os erros ocorridos. Este capítulo aborda os tipos de erros que podem ocorrer quando você usa o ADO e como seu aplicativo é notificado. No final, ele apresenta sugestões sobre como tratar esses erros.
 
-## <a name="how-does-ado-report-errors"></a>Como o ADO relata os erros?
+## <a name="how-does-ado-report-errors"></a>Como o ADO relata erros?
 
 O ADO notifica-o sobre erros de diversas maneiras:
 

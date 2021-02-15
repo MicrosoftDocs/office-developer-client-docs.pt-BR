@@ -27,11 +27,11 @@ Por padrão, o ADO é instalado com uma configuração [RDSServer.DataFactory](d
 
 3.  O arquivo msdfmap.ini está instalado no diretório Windows. Você deve configurar esse arquivo de acordo com suas necessidades antes de utilizar o RDS no modo de três camadas.
 
-Opcionalmente, você pode configurar uma instalação **DataFactory** não restrita. O **DataFactory** pode ser usado diretamente sem o manipulador personalizado. Os usuários ainda podem utilizar um manipulador personalizado modificando as sequências de conexão, mas isso não é requerido. Para obter mais informações sobre as implicações de usar o objeto **RDSServer.** datafactory, consulte [Securing RDS Applications](securing-rds-applications.md).
+Opcionalmente, você pode configurar uma instalação **DataFactory** não restrita. O **DataFactory** pode ser usado diretamente sem o manipulador personalizado. Os usuários ainda podem utilizar um manipulador personalizado modificando as sequências de conexão, mas isso não é requerido. Para obter mais informações sobre as implicações do uso do objeto **RDSServer.DataFactory,** consulte Proteção de aplicativos [RDS.](securing-rds-applications.md)
 
 O arquivo de registro handsafe.reg foi fornecido para configurar as entradas de registro do manipulador para configuração segura. Para executar no modo seguro, execute o handsafe.reg. O arquivo de registro handunsf.reg foi fornecido para configurar as entradas de registro do manipulador para a configuração irrestrita. Para executar no modo irrestrito, execute handunsf.reg.
 
-Depois de executar o handsafe. reg ou o handunsf. reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor Web digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET START W3SVC".
+Depois de executar handsafe.reg ou handunsf.reg, você deve parar e reiniciar o Serviço de Publicação na World Wide Web no servidor Web digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET START W3SVC".
 
 Para obter mais informações sobre o uso do recurso do manipulador de personalização do RDS, consulte o artigo técnico Usando o recurso do manipulador de personalização no RDS 2.1.
 

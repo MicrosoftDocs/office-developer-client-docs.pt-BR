@@ -294,7 +294,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendChunkCpp 
 ```
 
-**AppendChunkX. h**
+**AppendChunkX.h**
 
 ```cpp 
  

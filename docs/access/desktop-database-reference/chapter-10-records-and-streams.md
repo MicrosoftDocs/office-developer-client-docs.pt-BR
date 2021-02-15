@@ -26,7 +26,7 @@ Os objetos **Record** funcionam essencialmente como um **Recordset** de uma linh
 
 Os objetos **Record** podem servir para outro propósito, particularmente com os provedores de fontes de dados diferentes de bancos de dados relacionais tradicionais, como o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Muitas das informações que devem ser processadas existem não como tabelas nos bancos de dados, mas como mensagens em sistemas de email e como arquivos em sistemas de arquivo modernos. Os objetos **Record** e **Stream** facilitam o acesso às informações armazenadas em fontes diferentes de bancos de dados relacionais.
 
-O objeto **Record** pode representar e gerenciar dados, como diretórios e arquivos em um sistema de arquivos, pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
+O **objeto Record** pode representar e gerenciar dados como diretórios e arquivos em um sistema de arquivos ou pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
 
 Normalmente, um **Recordset** pode ser utilizado para representar um contêiner ou um pai na hierarquia, como uma pasta ou diretório. Um **Record** pode ser usado para retornar informações específicas sobre um nó no contêiner pai, como um arquivo ou documento. A principal razão para que os **Records** sejam utilizados para representar esse tipo de informação é que essas fontes de dados são heterogêneas. Isso significa que cada **Record** pode ter um conjunto e um número diferente de campos. Os **Recordsets** tradicionais que contêm linhas de um banco de dados são homogêneos, o que significa que cada linha tem o mesmo número e tipo de campos.
 
@@ -57,4 +57,4 @@ Este capítulo aborda os seguintes tópicos:
 - [Fluxos e persistência](streams-and-persistence.md)
 - [Campos fornecidos pelo provedor e registros](records-and-provider-supplied-fields.md)
 - [URLs absolutas e relativas](absolute-and-relative-urls.md)
-- [Usando o ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)
+- [Usando o ADO para publicação na Internet (ADO)](using-ado-for-internet-publishing.md)

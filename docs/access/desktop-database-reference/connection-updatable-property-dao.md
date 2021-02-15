@@ -1,5 +1,5 @@
 ---
-title: Propriedade Connection. upDatable (DAO)
+title: Propriedade Connection.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835360(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295797"
 ---
-# <a name="connectionupdatable-property-dao"></a>Propriedade Connection. upDatable (DAO)
+# <a name="connectionupdatable-property-dao"></a>Propriedade Connection.Updatable (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Retorna um valor que indica se você pode alterar um objeto DAO. **Boolean** som
 
 *expressão* . Atualizável
 
-*expressão* Uma expressão que retorna um objeto **Connection** .
+*expressão* Uma expressão que retorna um **objeto Connection** .
 

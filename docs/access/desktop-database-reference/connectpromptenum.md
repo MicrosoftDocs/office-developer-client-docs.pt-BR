@@ -1,5 +1,5 @@
 ---
-title: ConnectPromptEnum (referência do banco de dados de área de trabalho do Access)
+title: ConnectPromptEnum (referência de banco de dados da área de trabalho do Access)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
@@ -38,22 +38,22 @@ Especifica se uma caixa de diálogo deve ser exibida para avisar sobre parâmetr
 <tbody>
 <tr class="odd">
 <td><p><strong>adPromptAlways</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Avisar sempre.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Avisar se mais informações forem necessárias.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Avisar se mais informações forem necessárias, mas se os parâmetros opcionais não forem permitidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptNever</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Nunca avisar.</p></td>
 </tr>
 </tbody>
@@ -75,16 +75,16 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectPrompt. ALWAYs</p></td>
+<td><p>AdoEnums.ConnectPrompt.ALWAYS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectPrompt. COMPLETE</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ConnectPrompt. COMPLETEREQUIRED</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETEREQUIRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectPrompt. NEVEr</p></td>
+<td><p>AdoEnums.ConnectPrompt.NEVER</p></td>
 </tr>
 </tbody>
 </table>

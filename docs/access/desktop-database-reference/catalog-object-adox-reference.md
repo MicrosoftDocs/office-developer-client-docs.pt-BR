@@ -19,5 +19,5 @@ ms.locfileid: "32296581"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Catalog (ADOX)](catalog-object-adox.md)
-- [Propriedades, métodos e eventos do catálogo (ADOX)](catalog-properties-methods-and-events-adox.md)
+- [Propriedades, métodos e eventos de catálogo (ADOX)](catalog-properties-methods-and-events-adox.md)
 

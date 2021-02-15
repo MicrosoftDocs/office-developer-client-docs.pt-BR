@@ -1,5 +1,5 @@
 ---
-title: Propriedade caChesize (ADO)
+title: Propriedade CacheSize (ADO)
 TOCTitle: CacheSize property (ADO)
 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296742"
 ---
-# <a name="cachesize-property-ado"></a>Propriedade caChesize (ADO)
+# <a name="cachesize-property-ado"></a>Propriedade CacheSize (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

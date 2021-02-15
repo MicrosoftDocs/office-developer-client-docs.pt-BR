@@ -1,5 +1,5 @@
 ---
-title: Propriedade Container. Documents (DAO)
+title: Container.Documents (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295657"
 ---
-# <a name="containerdocuments-property-dao"></a>Propriedade Container. Documents (DAO)
+# <a name="containerdocuments-property-dao"></a>Container.Documents (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Retorna uma coleção **Documents** que contém todos os documentos armazenados 
 
 *expressão* . Documentos
 
-*expressão* Uma variável que representa um objeto **container** .
+*expressão* Uma variável que representa um **objeto Container.**
 

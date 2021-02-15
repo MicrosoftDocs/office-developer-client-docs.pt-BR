@@ -1,5 +1,5 @@
 ---
-title: Método Connections. Refresh (DAO)
+title: Método Connections.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e44b49bd-6645-a2e5-691e-afddfaf294b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835932(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295713"
 ---
-# <a name="connectionsrefresh-method-dao"></a>Método Connections. Refresh (DAO)
+# <a name="connectionsrefresh-method-dao"></a>Método Connections.Refresh (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

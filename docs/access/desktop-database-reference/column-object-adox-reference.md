@@ -19,5 +19,5 @@ ms.locfileid: "32296252"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Column (ADOX)](column-object-adox.md)
-- [Propriedades, métodos e eventos da coluna (ADOX)](column-properties-methods-and-events-adox.md)
+- [Propriedades, métodos e eventos de coluna (ADOX)](column-properties-methods-and-events-adox.md)
 

@@ -104,5 +104,5 @@ Para obter mais informações sobre provedores, consulte a documentação do Mic
 
 ## <a name="provider-commands"></a>Comandos do provedor
 
-Para cada provedor listado aqui, se seus aplicativos permitir que os usuários insiram instruções SQL como os comandos do provedor, você deve sempre validar a entrada do usuário e ser vigilante de possíveis ataques de hackers usando uma instrução SQL potencialmente perigosa, como, por exemplo, como parte do entrada do usuário.
+Para cada provedor listado aqui, se seus aplicativos permitirem que os usuários insiram instruções SQL como comandos do provedor, você deve sempre validar a entrada do usuário e estar atento a possíveis ataques de hacker usando instrução SQL potencialmente perigosa, como parte da entrada do usuário.
 

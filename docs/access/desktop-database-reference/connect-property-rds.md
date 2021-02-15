@@ -24,14 +24,14 @@ Indica o nome do banco de dados a partir do qual são executadas as operações 
 
 ## <a name="syntax"></a>Sintaxe
 
-Tempo de design \<: parâmetro Name = "Connect" value = "ConnectionString"\>
+Tempo de design: \< PARAM NAME="Connect" VALUE="ConnectionString"\>
 
-Tempo de execução: dataControl. Connect = "ConnectionString"
+Tempo de executar: DataControl.Connect = "ConnectionString"
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*ConnectionString* |Uma sequência de conexão válida. Para obter mais informações gerais sobre sequências de conexão, consulte a propriedade [ConnectionString](connectionstring-property-ado.md) ou a documentação de seu provedor.<br/><br/>**Observação**: ESPECIFICANDO o MS Remote como o provedor para o **RDS. DataControl** criaria um cenário de quatro camadas. Cenários com mais de três camadas não foram testados e não devem ser necessários.|
+|*ConnectionString* |Uma sequência de conexão válida. Para obter mais informações gerais sobre sequências de conexão, consulte a propriedade [ConnectionString](connectionstring-property-ado.md) ou a documentação de seu provedor.<br/><br/>**OBSERVAÇÃO:** especificando o MS Remote como provedor para **o RDS. O DataControl** criaria um cenário de quatro camadas. Cenários com mais de três camadas não foram testados e não devem ser necessários.|
 |*DataControl* |Uma variável de objeto que representa um objeto **RDS.DataControl**.|
 

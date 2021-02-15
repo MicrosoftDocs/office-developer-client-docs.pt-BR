@@ -19,7 +19,7 @@ ms.locfileid: "32296301"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.
+Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.
 
 ```cpp 
  
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-**CloneX. h**
+**CloneX.h**
 
 ```cpp 
  

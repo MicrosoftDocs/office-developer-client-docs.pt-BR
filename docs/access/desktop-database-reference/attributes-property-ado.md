@@ -46,5 +46,5 @@ Use a propriedade **Attributes** para definir ou retornar características de ob
 
 Quando vários atributos são definidos, é possível somar as constantes adequadas. A definição do valor de propriedade para uma soma, incluindo constantes incompatíveis, provocará um erro.
 
-**Uso do Remote Data Service** Esta propriedade não está disponível em um objeto **Connection** do lado do cliente.
+**Uso do Remote Data Service** Essa propriedade não está disponível em um objeto **Connection do** lado do cliente.
 

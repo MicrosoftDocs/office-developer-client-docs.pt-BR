@@ -23,9 +23,9 @@ Cancela qualquer alteração feita na linha atual ou na nova linha de um objeto 
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. CancelUpdate
+*recordset*. CancelUpdate
 
-*Record*. *Campos*. CancelUpdate
+*registro*. *Campos*. CancelUpdate
 
 ## <a name="remarks"></a>Comentários
 

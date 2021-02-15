@@ -25,7 +25,7 @@ Adiciona um novo objeto [Index](index-object-adox.md) à coleção [Indexes](ind
 
 ## <a name="syntax"></a>Sintaxe
 
-*Índices*. Anexar*índice* \[,*colunas*\]
+*Índices*. Append *Index* \[ ,*Columns*\]
 
 ## <a name="parameters"></a>Parâmetros
 

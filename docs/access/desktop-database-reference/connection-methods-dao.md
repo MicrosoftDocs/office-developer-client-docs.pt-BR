@@ -18,9 +18,9 @@ ms.locfileid: "32295888"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Connection. Cancel (DAO)](connection-cancel-method-dao.md)
-- [Método Connection. Close (DAO)](connection-close-method-dao.md)
-- [Método Connection. CreateQueryDef (DAO)](connection-createquerydef-method-dao.md)
-- [Método Connection. Execute (DAO)](connection-execute-method-dao.md)
-- [Método Connection. OpenRecordset (DAO)](connection-openrecordset-method-dao.md)
+- [Método Connection.Cancel (DAO)](connection-cancel-method-dao.md)
+- [Método Connection.Close (DAO)](connection-close-method-dao.md)
+- [Método Connection.CreateQueryDef (DAO)](connection-createquerydef-method-dao.md)
+- [Connection.Exemétodo cute (DAO)](connection-execute-method-dao.md)
+- [Método Connection.OpenRecordset (DAO)](connection-openrecordset-method-dao.md)
 

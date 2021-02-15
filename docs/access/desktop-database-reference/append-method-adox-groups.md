@@ -22,7 +22,7 @@ Adiciona um novo objeto [Group](group-object-adox.md) à coleção [Groups](grou
 
 ## <a name="syntax"></a>Sintaxe
 
-*Grupos*. *Grupo* Append
+*Grupos*. Append *Group*
 
 ## <a name="parameters"></a>Parâmetros
 

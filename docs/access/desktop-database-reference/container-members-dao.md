@@ -40,11 +40,11 @@ Um objeto Container agrupa tipos semelhantes de objetos Document.
 <td><p>Retorna uma coleção <strong>Documents</strong> que contém todos os documentos armazenados no objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="container-name-property-dao.md">Nome</a></strong></p></td>
-<td><p>Retorna o nome do objeto especificado. Somente leitura <strong>cadeia de caracteres</strong>.</p></td>
+<td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
+<td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="container-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="container-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 </tbody>

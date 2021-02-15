@@ -22,7 +22,7 @@ Adiciona um novo objeto [User](user-object-adox.md) à coleção [Users](users-c
 
 ## <a name="syntax"></a>Sintaxe
 
-*Usuários*. Anexar*usuário*\[,*senha*\]
+*Usuários*. Append *User* \[ ,*Password*\]
 
 ## <a name="parameters"></a>Parâmetros
 

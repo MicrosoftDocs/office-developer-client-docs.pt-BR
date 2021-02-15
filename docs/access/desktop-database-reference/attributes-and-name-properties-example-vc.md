@@ -212,7 +212,7 @@ VOID PrintComError(_com_error &e)
 // EndAttributesCpp 
 ```
 
-**AttributesX. h**
+**AttributesX.h**
 
 ```cpp 
  

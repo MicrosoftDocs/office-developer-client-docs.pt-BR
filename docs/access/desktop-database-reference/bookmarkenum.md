@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnum (referência do banco de dados de área de trabalho do Access)
+title: BookmarkEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
@@ -38,17 +38,17 @@ Especifica um indicador mostrando onde a operação deveria começar.
 <tbody>
 <tr class="odd">
 <td><p><strong>adBookmarkCurrent</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Inicia no registro atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adBookmarkFirst</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Inicia no primeiro registro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmarkLast</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Inicia no último registro.</p></td>
 </tr>
 </tbody>
@@ -70,13 +70,13 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Bookmark. CURRENT</p></td>
+<td><p>AdoEnums.Bookmark.CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Bookmark. FIRST</p></td>
+<td><p>AdoEnums.Bookmark.FIRST</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Bookmark. LAST</p></td>
+<td><p>AdoEnums.Bookmark.LAST</p></td>
 </tr>
 </tbody>
 </table>

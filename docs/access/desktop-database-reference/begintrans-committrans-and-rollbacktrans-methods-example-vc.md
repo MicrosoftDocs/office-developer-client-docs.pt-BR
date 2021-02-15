@@ -1,5 +1,5 @@
 ---
-title: Exemplo dos métodos BeginTrans, CommitTrans e RollbackTrans (VC + +)
+title: Exemplo dos métodos BeginTrans, CommitTrans, RollbackTrans (VC++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
@@ -277,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-**BeginTransX. h**
+**BeginTransX.h**
 
 ```cpp 
  

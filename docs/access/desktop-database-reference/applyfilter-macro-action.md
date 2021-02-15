@@ -27,7 +27,7 @@ Você pode usar a ação **AplicarFiltro** para aplicar um filtro, uma consulta 
 > [!NOTE]
 > [!OBSERVAçãO] Você pode usar esta ação para aplicar uma cláusula WHERE do SQL apenas ao aplicar um filtro de servidor. Um filtro de servidor não pode ser aplicado a uma fonte de registros do procedimento armazenado.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AplicarFiltro** tem os seguintes argumentos.
 
@@ -45,13 +45,13 @@ A ação **AplicarFiltro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do Filtro</p></td>
-<td><p>O nome de um filtro ou consulta que restringe ou classifica os registros da tabela, do formulário ou do relatório. Você pode inserir o nome de uma consulta existente ou de um filtro que tenha sido salvo como uma consulta na caixa <strong>nome do filtro</strong> na seção <strong>argumentos da ação</strong> do painel <strong>Construtor</strong> de macros.</p><p><strong>Observação</strong>: quando você estiver usando esta ação para aplicar um filtro de servidor, o argumento Nome do filtro deverá ficar em branco.</p></td>
+<td><p>O nome de um filtro ou consulta que restringe ou classifica os registros da tabela, do formulário ou do relatório. Você pode inserir o nome de uma consulta existente ou de um filtro <strong></strong> que tenha sido salvo como uma consulta na caixa Nome do Filtro na seção <strong>Argumentos</strong> da Ação do painel Construtor de <strong>Macros.</strong></p><p><strong>OBSERVAÇÃO:</strong>quando você estiver usando essa ação para aplicar um filtro de servidor, o argumento Filter Name deve estar em branco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
 <td><p>Uma cláusula SQL WHERE válida (sem a palavra WHERE) ou uma expressão que restringe os registros da tabela, do formulário ou do relatório.</p>
-<p><b>Observação</b>: em uma expressão de argumento condição onde, o lado esquerdo da expressão normalmente contém um nome de campo da tabela ou consulta base para o formulário ou relatório. O lado direito da expressão normalmente contém os critérios que você deseja aplicar a esse campo para restringir ou classificar os registros. Por exemplo, os critérios podem ser o nome de um controle em outro formulário que contém o valor com o qual você deseja que os registros do primeiro formulário correspondam. O nome do controle deve ser totalmente qualificado, por exemplo:</p>
-<p><strong>Formulários</strong>! <em>FormName</em>! <em>ControlName</em> Os nomes de campo devem ser circundados por aspas duplas e os literais de cadeia de caracteres devem ser circundados por aspas simples. A extensão máxima do argumento Condição Onde é de 255 caracteres. Se precisar usar uma cláusula SQL WHERE mais extensa, use o método <strong>ApplyFilter</strong> do objeto <strong>DoCmd</strong> em um módulo do VBA (Visual Basic for Applications). Você pode inserir instruções de cláusula SQL WHERE de até 32.768 caracteres no VBA.</p></td>
+<p><b>OBSERVAÇÃO:</b>em uma expressão de argumento Condição Where, o lado esquerdo da expressão normalmente contém um nome de campo da tabela ou consulta base do formulário ou relatório. O lado direito da expressão normalmente contém os critérios que você deseja aplicar a esse campo para restringir ou classificar os registros. Por exemplo, os critérios podem ser o nome de um controle em outro formulário que contém o valor com o qual você deseja que os registros do primeiro formulário correspondam. O nome do controle deve ser totalmente qualificado, por exemplo:</p>
+<p><strong>Formulários</strong>! <em>formname</em>! <em>controlname</em> Os nomes de campo devem estar entre aspas duplas e os literais de cadeia de caracteres devem estar entre aspas simples. A extensão máxima do argumento Condição Onde é de 255 caracteres. Se precisar usar uma cláusula SQL WHERE mais extensa, use o método <strong>ApplyFilter</strong> do objeto <strong>DoCmd</strong> em um módulo do VBA (Visual Basic for Applications). Você pode inserir instruções de cláusula SQL WHERE de até 32.768 caracteres no VBA.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ Quando você salvar uma tabela ou um formulário, o Access salvará todo filtro 
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação AplicarFiltro para filtrar o formulário frmFoods quando ele é aberto.
+O exemplo a seguir mostra como usar a ação ApplyFilter para filtrar o formulário frmFoods quando ele é aberto.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -22,9 +22,9 @@ O evento **ConnectComplete** é chamado após o *início* de uma conexão. O eve
 
 ## <a name="syntax"></a>Sintaxe
 
-ConnectComplete*perror*, *adStatus*, *pConnection*
+ConnectComplete *pError*, *adStatus*, *pConnection*
 
-DesConectar*adStatus*, *pConnection*
+Disconnect *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 

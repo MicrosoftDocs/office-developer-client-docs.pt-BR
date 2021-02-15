@@ -23,7 +23,7 @@ Fecha um conjunto de células aberto.
 
 ## <a name="syntax"></a>Sintaxe
 
-*CellSet*. Fechado
+*Cellset*. Fechar
 
 ## <a name="remarks"></a>Comentários
 

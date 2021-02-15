@@ -22,7 +22,7 @@ Adiciona um novo objeto [Column](column-object-adox.md) à coleção [Columns](c
 
 ## <a name="syntax"></a>Sintaxe
 
-*Colunas*. Anexar*coluna* \[,*tipo* \] \[,*DefinedSize*\]
+*Colunas*. Append *Column* \[ ,*Type* \] \[ ,*DefinedSize*\]
 
 ## <a name="parameters"></a>Parâmetros
 

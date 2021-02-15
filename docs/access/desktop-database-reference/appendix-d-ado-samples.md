@@ -23,7 +23,7 @@ O Windows SDK contém diversos aplicativos de exemplo que demonstram o uso do c�
 > [!NOTE]
 > [!OBSERVAçãO] Empresas, nomes e dados usados nos exemplos são fictícios, a menos que indicado de outra forma.
 
-Para localizar os exemplos do ADO, navegue até a pasta raiz do Windows SDK, como C\\: arquivos\\de programas\\Microsoft\\SDKs Windows v 6.0. Em seguida, navegue até\\a subpasta de exemplos de acesso DataAccess\\do ADO. Para começar com os aplicativos de exemplo do ADO e RDS, abra o default.htm a partir das pastas de exemplos do ADO e RDS, respectivamente. Esses arquivos descrevem cada aplicativo de exemplo disponível e explica como configurar e executar os exemplos, como procurar pelo código-fonte de exemplo.
+Para encontrar os exemplos do ADO, navegue até a pasta raiz do SDK do Windows, como C: Arquivos de Programas \\ \\ Microsoft SDKs \\ Windows \\ v6.0. Em seguida, navegue até a \\ subpasta ADO Samples dataaccess. \\ Para começar com os aplicativos de exemplo do ADO e RDS, abra o default.htm a partir das pastas de exemplos do ADO e RDS, respectivamente. Esses arquivos descrevem cada aplicativo de exemplo disponível e explica como configurar e executar os exemplos, como procurar pelo código-fonte de exemplo.
 
 A documentação ADO contém também exemplos de código em vários idiomas, que são incluídos como tópicos dentro dessa ajuda online. Para obter mais informações sobre esses exemplos, consulte [Exemplos de código ADO](ado-code-examples.md).
 

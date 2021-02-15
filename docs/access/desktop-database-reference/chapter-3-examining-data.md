@@ -68,47 +68,47 @@ Esta consulta SQL retorna um **Recordset** com cinco linhas (registros) e três 
 <thead>
 <tr class="header">
 <th><p>CAMPO 0<br />
-Name = ProductID</p></th>
+Nome = ProductID</p></th>
 <th><p>CAMPO 1<br />
-Name = NomeDoProduto</p></th>
+Nome = ProductName</p></th>
 <th><p>CAMPO 2<br />
-Nome = PreçoUnitário</p></th>
+Name = UnitPrice</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>178</p></td>
+<td><p>7 </p></td>
 <td><p>Pêras secas orgânicas do Tio Bob</p></td>
-<td><p>30, 0</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
+<td><p>14 </p></td>
 <td><p>Tofu</p></td>
-<td><p>23,2500</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="odd">
 <td><p>28</p></td>
 <td><p>Chucrute Rssle</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
 <td><p>Maçãs secas Manjimup</p></td>
-<td><p>53, 0</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
 <td><p>Tofu longa vida</p></td>
-<td><p>10, 0</p></td>
+<td><p>10.0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A próxima seção explica como localizar a posição atual do cursor neste **Recordset**de exemplo.
+A próxima seção explica como localizar a posição atual do cursor neste **recordset de exemplo.**
 
 Este capítulo aborda os seguintes tópicos:
 
-- [Localizando o registro atual (ADO)](locating-the-current-record.md)
+- [Localizar o registro atual (ADO)](locating-the-current-record.md)
 - [Navegando pelos dados (ADO)](navigating-through-the-data.md)
-- [Noções básicas sobre a estrutura do Recordset (ADO)](understanding-recordset-structure.md)
+- [Noções básicas sobre a estrutura recordset (ADO)](understanding-recordset-structure.md)

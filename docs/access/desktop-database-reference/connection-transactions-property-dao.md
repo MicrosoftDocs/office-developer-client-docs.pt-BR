@@ -1,5 +1,5 @@
 ---
-title: Propriedade Connection. transActions (DAO)
+title: Propriedade Connection.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 8bd72db7-68f6-6974-1ee6-a0a267ce2a94
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295776"
 ---
-# <a name="connectiontransactions-property-dao"></a>Propriedade Connection. transActions (DAO)
+# <a name="connectiontransactions-property-dao"></a>Propriedade Connection.Transactions (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Retorna um valor que indica se um objeto tem suporte em transações. **Boolean*
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Transação
+*expressão* . Transações
 
-*expressão* Uma variável que representa um objeto **Connection** .
+*expressão* Uma variável que representa um objeto **Connection**.
 

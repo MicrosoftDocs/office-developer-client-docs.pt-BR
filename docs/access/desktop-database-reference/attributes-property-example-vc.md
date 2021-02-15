@@ -222,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-**ADOXAttributesX. h**
+**ADOXAttributesX.h**
 
 ```cpp
     // BeginAttributesH 

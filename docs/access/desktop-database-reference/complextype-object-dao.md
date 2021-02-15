@@ -1,5 +1,5 @@
 ---
-title: Objeto complexType (DAO)
+title: Objeto ComplexType (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: fc9bdebe-e432-e530-6b1f-8680b9dfe870
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837211(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296035"
 ---
-# <a name="complextype-object-dao"></a>Objeto complexType (DAO)
+# <a name="complextype-object-dao"></a>Objeto ComplexType (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Representa um campo de vários valores.
 
 ## <a name="version-information"></a>Informação da versão
 
-Versão adicionada: Access 2007
+Versão adicionad: Access 2007
 
 ## <a name="remarks"></a>Comentários
 

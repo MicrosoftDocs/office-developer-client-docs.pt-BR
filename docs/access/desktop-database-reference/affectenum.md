@@ -1,5 +1,5 @@
 ---
-title: AffectEnum (referência do banco de dados de área de trabalho do Access)
+title: AffectEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
@@ -38,23 +38,23 @@ Especifica quais registros foram afetados por uma operação.
 <tbody>
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
-<td><p>3D</p></td>
-<td><p>Se não houver um <a href="filter-property-ado.md">Filter</a> aplicado ao <strong>Recordset</strong>, afeta todos os registros. Se a propriedade <strong>Filter</strong> estiver definida como um critério de cadeia de caracteres &quot;(como autor = '&quot;Smith '), a operação afetará os registros visíveis no capítulo atual. Se a propriedade <strong>Filter</strong> estiver definida como um membro do <a href="filtergroupenum.md">FilterGroupEnum</a> ou uma matriz de indicadores, a operação afetará todas as linhas do <strong>Recordset</strong>.</p><p><strong>Observação</strong>: o adAffectAll está oculto no navegador de objetos do Visual Basic.</p>
+<td><p>3 </p></td>
+<td><p>Se não houver um <a href="filter-property-ado.md">Filter</a> aplicado ao <strong>Recordset</strong>, afeta todos os registros. Se a <strong>propriedade Filter</strong> estiver definida como um critério de cadeia de caracteres (como Author='Smith' ), a operação afetará os registros visíveis &quot; no capítulo &quot; atual. Se a <strong>propriedade Filter</strong> estiver definida como um membro do <a href="filtergroupenum.md">FilterGroupEnum</a> ou uma matriz de indicadores, a operação afetará todas as linhas do <strong>Recordset</strong>.</p><p><strong>OBSERVAÇÃO</strong>: adAffectAll está oculto no Pesquisador de Objetos do Visual Basic.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><strong>adAffectAllChapters</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Afeta todos os registros em todos os capítulos irmãos do <strong>Recordset</strong>, incluindo os que não são visíveis através de qualquer <strong>Filter</strong> que esteja aplicado no momento.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adAffectCurrent</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Afeta apenas o registro atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAffectGroup</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Afeta apenas os registros que satisfazem a definição da propriedade <a href="filter-property-ado.md">Filter</a> atual. Você deve definir a propriedade <strong>Filter</strong> para um valor <strong>FilterGroupEnum</strong> ou uma matriz de <strong>Indicadores</strong> para utilizar essa opção.</p></td>
 </tr>
 </tbody>
@@ -76,16 +76,16 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. afeto. ALL</p></td>
+<td><p>AdoEnums.Affect.ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums..</p></td>
+<td><p>AdoEnums.Affect.ALLCHAPTERS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. afeto. CURRENT</p></td>
+<td><p>AdoEnums.Affect.CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. afeto. GROUP</p></td>
+<td><p>AdoEnums.Affect.GROUP</p></td>
 </tr>
 </tbody>
 </table>

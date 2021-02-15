@@ -20,5 +20,5 @@ ms.locfileid: "32295622"
 
 - [Objeto Container (DAO)](container-object-dao.md)
 - [Membros do contêiner (DAO)](container-members-dao.md)
-- [Propriedades do contêiner (DAO)](container-properties-dao.md)
+- [Propriedades de contêiner (DAO)](container-properties-dao.md)
 

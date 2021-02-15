@@ -1,5 +1,5 @@
 ---
-title: Propriedade Container. Properties (DAO)
+title: Propriedade Container.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 2ab6d104-e20e-0228-7dc7-105da54446d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192073(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295608"
 ---
-# <a name="containerproperties-property-dao"></a>Propriedade Container. Properties (DAO)
+# <a name="containerproperties-property-dao"></a>Propriedade Container.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **container** .
+*expressão* Uma variável que representa um **objeto Container.**
 

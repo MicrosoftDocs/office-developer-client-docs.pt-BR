@@ -22,13 +22,13 @@ Cria e anexa um novo objeto [View](view-object-adox.md) à coleção [Views](vie
 
 ## <a name="syntax"></a>Sintaxe
 
-*Modos de exibição*. *Nome*de acréscimo, *comando*
+*Exibições*. Append *Name*, *Command*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Name* |Um valor **String** que especifica o nome do modo de exibição a ser criado.|
+|*Nome* |Um valor **String** que especifica o nome do modo de exibição a ser criado.|
 |*Command* |Um objeto [Command](command-object-ado.md) do ADO que representa o modo de exibição a ser criado.|
 
 ## <a name="remarks"></a>Comentários

@@ -22,7 +22,7 @@ Cancela uma atualização em lotes pendente.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. CancelBatch *AffectRecords*
+*recordset*. CancelBatch *AffectRecords*
 
 ## <a name="parameters"></a>Parâmetros
 

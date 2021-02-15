@@ -35,9 +35,9 @@ ms.locfileid: "32296147"
 
 - [Método Cancel](cancel-method-ado.md)
 - [Método CreateParameter](createparameter-method-ado.md)
-- [Método Execute (comando do ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
+- [Método Execute (Comando do ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

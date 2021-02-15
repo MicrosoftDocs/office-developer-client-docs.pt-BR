@@ -1,5 +1,5 @@
 ---
-title: Propriedade charset (ADO)
+title: Propriedade Charset (ADO)
 TOCTitle: Charset property (ADO)
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296385"
 ---
-# <a name="charset-property-ado"></a>Propriedade charset (ADO)
+# <a name="charset-property-ado"></a>Propriedade Charset (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Indica o conjunto de caracteres no qual o conteúdo de um texto [Stream](stream-
 
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
 
-Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para obter uma lista de cadeias de caracteres de conjuntos de caracteres que são conhecidas por um sistema, consulte\_as\_subchaves\\do conjunto de dados MIME\\\\raiz de classes hKey no registro do Windows.
+Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para uma lista das cadeias de caracteres de conjunto de caracteres conhecidas por um sistema, consulte as sub-chaves de HKEY \_ CLASSES \_ ROOT \\ MIME Database Charset no Registro do \\ \\ Windows.
 
 ## <a name="remarks"></a>Comentários
 

@@ -19,11 +19,11 @@ ms.locfileid: "32296329"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.
+Este exemplo usa o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.
 
 Utilize o exemplo a seguir em um Active Server Page (ASP). Esse exemplo utiliza o banco de dados Northwind distribuído com o Microsoft Access. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **CloneVBS.asp**. É possível ver o resultado em qualquer navegador cliente.
 
-Para exercitar o exemplo, altere a linha RsCustomerList. Source = "Customers" para RsCustomerList. Source = "Products" para contar uma tabela maior.
+Para exercer o exemplo, altere a linha RsCustomerList.Source = "Customers" para RsCustomerList.Source = "Products" para contar uma tabela maior.
 
 ```vb 
  

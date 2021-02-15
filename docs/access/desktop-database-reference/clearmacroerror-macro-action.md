@@ -26,13 +26,13 @@ ms.locfileid: "32296371"
 
 Você pode usar a ação **LimparErrodeMacro** para limpar as informações sobre um erro armazenado no objeto **MacroError**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **LimparErrodeMacro** não tem nenhum argumento.
 
 ## <a name="remarks"></a>Comentários
 
-- Quando ocorre um erro em uma macro, informações sobre o erro são armazenadas no objeto **MacroError**. Se você não tiver usado a ação **[AoOcorrerErro](onerror-macro-action.md)** para suprimir mensagens de erro, a macro será interrompida e as informações de erro serão exibidas em uma mensagem de erro padrão. No enTanto, se você tiver usado a ação **AoOcorrerErro** para suprimir mensagens de erro, talvez queira usar as informações armazenadas no objeto **MacroError** em uma condição ou em uma mensagem de erro personalizada.
+- Quando ocorre um erro em uma macro, informações sobre o erro são armazenadas no objeto **MacroError**. Se você não tiver usado a ação **[OnError](onerror-macro-action.md)** para suprimir mensagens de erro, a macro será interrompida e as informações de erro serão exibidas em uma mensagem de erro padrão. No entanto, se você tiver usado a ação **OnError** para suprimir mensagens de erro, talvez queira usar as informações armazenadas no objeto **MacroError** em uma condição ou em uma mensagem de erro personalizada.
     
   Depois que um erro for manipulado, as informações do objeto **MacroError** estarão desatualizadas, portanto é uma ótima ideia limpar o objeto usando a ação **LimparErrodeMacro**. Esse procedimento redefinirá o número de erro no objeto **MacroError** como 0 e limpará todas as outras informações sobre o erro armazenado no objeto, como descrição do erro, nome da macro, nome da ação, condição e argumentos. Dessa maneira, você poderá inspecionar o objeto **MacroError** outra vez mais tarde para saber se ocorreu outro erro.
 
@@ -44,7 +44,7 @@ A ação **LimparErrodeMacro** não tem nenhum argumento.
 
 ## <a name="example"></a>Exemplo
 
-A macro a seguir usa a ação **AoOcorrerErro** com o argumento **Próximo** para suprimir mensagens de erro, além de usar a ação **AbrirFormulário** para abrir um formulário. Para este exemplo, um erro é criado deliberadamente usando a ação **IrParaRegistro** para ir até o registro anterior. A condição ** \[MacroError\].\[ O\]\<número\>0** testa o objeto **MacroError** . Se um erro tiver ocorrido, o número do erro será diferente de zero, e a ação **CaixadeMensagem** será executada. A caixa de mensagem exibirá o nome da ação que causou o erro (nesse caso, a ação **IrParaRegistro** ) e o número do erro será exibido. Por fim, a execução da ação **LimparErrodeMacro** limpa o objeto **ErrodeMacro**.
+A macro a seguir usa a ação **AoOcorrerErro** com o argumento **Próximo** para suprimir mensagens de erro, além de usar a ação **AbrirFormulário** para abrir um formulário. Para este exemplo, um erro é criado deliberadamente usando a ação **IrParaRegistro** para ir até o registro anterior. A condição **\[ MacroError \] . \[ O \] \< \> número 0** testa o **objeto MacroError.** Se um erro tiver ocorrido, o número do erro será diferente de zero, e a ação **CaixadeMensagem** será executada. A caixa de mensagem exibirá o nome da ação que causou o erro (nesse caso, a ação **IrParaRegistro** ) e o número do erro será exibido. Por fim, a execução da ação **LimparErrodeMacro** limpa o objeto **ErrodeMacro**.
 
 <table>
 <colgroup>
@@ -54,7 +54,7 @@ A macro a seguir usa a ação **AoOcorrerErro** com o argumento **Próximo** par
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condição</p></th>
+<th><p>Condition</p></th>
 <th><p>Ação</p></th>
 <th><p>Argumentos</p></th>
 </tr>
@@ -68,17 +68,17 @@ A macro a seguir usa a ação **AoOcorrerErro** com o argumento **Próximo** par
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nome do formulário</strong>:<strong>modo de exibição</strong>formuláriodacategoria: <strong>modo FormWindow</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Nome do formulário</strong>: Modo<strong>FormulárioDa</strong>Categoria : <strong>Modo FormWindow</strong>: <strong>Normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToRecord</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>nome</strong>do formObject:<strong>registro</strong>formuláriodacategoria: anterior</p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>FormObject Name</strong>: Registro CategoryForm : Previous<strong></strong></p></td>
 </tr>
 <tr class="even">
-<td><p>[MacroError]. Série &lt; &gt;0</p></td>
+<td><p>[MacroError]. [Número] &lt; &gt; 0</p></td>
 <td><p><strong>CaixaDeMensagem</strong></p></td>
-<td><p><strong>Mensagem</strong>: =&quot;erro # &quot; &amp; [MacroError]. Série &amp; em &quot; [ &amp; MacroError]. &quot; ActionName &amp; &quot; ação. &quot; <strong>Aviso sonoro</strong>: <strong>YesType</strong>: informações</p></td>
+<td><p><strong>Mensagem</strong>: = &quot; Erro # &quot; &amp; [MacroError].[ Número] &amp; &quot; em &quot; &amp; [MacroError].[ Ação &amp; &quot; ActionName]. &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: informações</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

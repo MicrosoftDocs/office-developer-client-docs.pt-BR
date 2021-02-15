@@ -1,5 +1,5 @@
 ---
-title: Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC + +)
+title: Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC++)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296217"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC + +)
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC++)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

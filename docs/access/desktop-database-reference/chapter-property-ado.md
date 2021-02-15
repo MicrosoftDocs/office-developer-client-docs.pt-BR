@@ -18,13 +18,13 @@ ms.locfileid: "32296392"
 
 **Aplica-se ao:** Access 2013, Office 2013
  
-Obtém ou configura um objeto **Chapter** do OLE DB de/em um objeto **ADORecordsetConstruction**. Quando você usa **o\_Chapter** para definir o objeto **Chapter** , um subconjunto de linhas é transformado em um objeto **Recordset** do ADO. Isso define o capítulo atual do objeto **Rowset**. Leitura/gravação.
+Obtém ou configura um objeto **Chapter** do OLE DB de/em um objeto **ADORecordsetConstruction**. Quando você usa **colocar \_ Chapter** para definir o objeto **Chapter,** um subconjunto de linhas é transformado em um objeto **Recordset do** ADO. Isso define o capítulo atual do objeto **Rowset**. Leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-HRESULT obter\_capítulo (\[out, retval\] Long\* plChapter);
+HRESULT get \_ Chapter( \[ out, retval \] long \* plChapter);
 
-Módulo HRESULT\_put (\[em\] Long lChapter);
+HRESULT put \_ Chapter( \[ in long \] lChapter);
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -35,7 +35,7 @@ Módulo HRESULT\_put (\[em\] Long lChapter);
 
 ## <a name="return-values"></a>Valor de retorno
 
-Este método de propriedade retorna os valores HRESULT padrão, incluindo\_S OK E\_o e falha.
+Esse método de propriedade retorna os valores HRESULT padrão, incluindo S \_ OK e E \_ FAIL.
 
 ## <a name="applies-to"></a>Aplica-se a
 

@@ -1,5 +1,5 @@
 ---
-title: ConFigurando o RDS (referência do banco de dados do Access Desktop)
+title: Configurando o RDS (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Configuring RDS
 ms:assetid: afd76de4-337b-5f6c-7d3e-af019802441d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
@@ -23,9 +23,9 @@ Para implementar o RDS de maneira eficiente, certifique-se de que você está fa
 - [Configuração de DataFactory para modos seguros ou irrestritos](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Configuração de servidores virtuais no IIS](configuring-virtual-servers-on-iis.md)
 - [Como habilitar uma DLL para ser executada em DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Concedendo privilégios de convidado a um computador do servidor Web](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Concedendo privilégios de convidado a um computador servidor Web](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Marcação de objetos Business como confiáveis para script](marking-business-objects-as-safe-for-scripting.md)
-- [Registrando um objeto corporativo personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
+- [Registrando um objeto de negócios personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
 - [Registro de objetos Business no cliente para uso com DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Proteção de aplicativos do RDS](securing-rds-applications.md)
 - [Configuração do formato de empacotamento de fluxo DCOM](setting-dcom-stream-marshaling-format.md)

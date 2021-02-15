@@ -1,5 +1,5 @@
 ---
-title: Membros de conexão (DAO)
+title: Membros connection (DAO)
 TOCTitle: Connection Members
 ms:assetid: 94fc60ee-b6f2-cf08-b008-ed51bf7e7f8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295902"
 ---
-# <a name="connection-members-dao"></a>Membros de conexão (DAO)
+# <a name="connection-members-dao"></a>Membros connection (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -40,12 +40,12 @@ ms.locfileid: "32295902"
 <td><p>Cancela a execução de uma chamada assíncrona pendente do método (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-close-method-dao.md">Fechar</a></strong></p></td>
+<td><p><strong><a href="connection-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Fecha um objeto <strong>Connection</strong> aberto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
-<td><p>Cria um novo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
+<td><p>Crie um novo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-execute-method-dao.md">Execute</a></strong></p></td>
@@ -53,7 +53,7 @@ ms.locfileid: "32295902"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Cria e anexa um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> à coleção <strong>Recordsets</strong>.</p></td>
+<td><p>Cria um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> e o acrescenta à coleção <strong>Recordsets</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -78,11 +78,11 @@ ms.locfileid: "32295902"
 <td><p>Define ou retorna um valor que fornece informações sobre a origem de uma conexão aberta. <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">Banco de dados</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p>Retorna o objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a essa conexão (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna o nome de um <strong><a href="connection-object-dao.md">Connection</a></strong>.</p></td>
 </tr>
 <tr class="even">

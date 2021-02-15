@@ -1,5 +1,5 @@
 ---
-title: Método Clone-ActiveX Data Objects (ADO)
+title: Método Clone - ActiveX Data Objects (ADO)
 TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
@@ -22,7 +22,7 @@ Cria um objeto [Recordset](recordset-object-ado.md) duplicado a partir de um obj
 
 ## <a name="syntax"></a>Sintaxe
 
-**Definir** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
+**Set** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
 
 ## <a name="return-value"></a>Valor de retorno
 

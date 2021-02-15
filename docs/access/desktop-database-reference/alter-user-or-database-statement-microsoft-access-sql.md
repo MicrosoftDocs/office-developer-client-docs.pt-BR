@@ -35,21 +35,21 @@ A instrução ALTER USER ou DATABASE possui as seguintes partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Sair</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>usuário</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>O nome de um usuário que será adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>newPassword</em></p></td>
+<td><p><em>newpassword</em></p></td>
 <td><p>A nova senha que será associada ao nome do <em>usuário</em> ou do <em>banco de dados</em> especificado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>SenhaAntiga</em></p></td>
+<td><p><em>oldpassword</em></p></td>
 <td><p>A senha existente que será associada ao nome do <em>usuário</em> ou do <em>grupo</em> especificado.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: ConnectOptionEnum (referência do banco de dados de área de trabalho do Access)
+title: ConnectOptionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ConnectOptionEnum
 ms:assetid: 803d3fd6-93cf-85ea-eeb0-ca1bc965577d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249544(v=office.15)
@@ -37,8 +37,8 @@ Especifica se o método [Open](open-method-ado-connection.md) de um objeto [Conn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Opção adasyncconnect</strong></p></td>
-<td><p>dezesseis</p></td>
+<td><p><strong>adAsyncConnect</strong></p></td>
+<td><p>16 </p></td>
 <td><p>Abre a conexão de maneira assíncrona. O evento <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> pode ser usado para determinar quando a conexão está disponível.</p></td>
 </tr>
 <tr class="even">
@@ -65,10 +65,10 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectOption. ASYNCCONNECT</p></td>
+<td><p>AdoEnums.ConnectOption.ASYNCCONNECT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectOption. CONNECTUNSPECIFIED</p></td>
+<td><p>AdoEnums.ConnectOption.CONNECTUNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

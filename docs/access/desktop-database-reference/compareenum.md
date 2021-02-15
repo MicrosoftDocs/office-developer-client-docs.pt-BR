@@ -1,5 +1,5 @@
 ---
-title: CompareEnum (referência do banco de dados de área de trabalho do Access)
+title: CompareEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -38,27 +38,27 @@ Especifica a posição relativa de dois registros representados por seus indicad
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que os indicadores são iguais.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o primeiro indicador é após o segundo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareLessThan</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica que o primeiro indicador é antes do segundo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareNotComparable</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que os indicadores não podem ser comparados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que os indicadores não são iguais e não estão em ordem.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Compare. EQUAL</p></td>
+<td><p>AdoEnums.Compare.EQUAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. GREATERTHAN</p></td>
+<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. LESSTHAN</p></td>
+<td><p>AdoEnums.Compare.LESSTHAN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. não comparável</p></td>
+<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. não igual a</p></td>
+<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

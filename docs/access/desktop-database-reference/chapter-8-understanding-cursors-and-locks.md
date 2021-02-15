@@ -25,10 +25,10 @@ Muitos recursos do objeto **Recordset** do ADO são determinados pelo tipo e loc
 Este capítulo aborda os seguintes tópicos:
 
 - [O que é um cursor?](what-is-a-cursor.md)
-- [O significado do local do cursor](the-significance-of-cursor-location.md)
+- [A significância do local do cursor](the-significance-of-cursor-location.md)
 - [Microsoft Cursor Service for OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 - [Usando CacheSize](using-cachesize.md)
 - [Características de cursor e de bloqueio](cursor-and-lock-characteristics.md)
 - [Tipos de cursores (ADO)](types-of-cursors.md)
-- [O que é um bloqueio? ACRESCENTAR](what-is-a-lock.md)
+- [O que é um bloqueio? (ADO)](what-is-a-lock.md)
 

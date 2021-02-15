@@ -1,5 +1,5 @@
 ---
-title: Modo em lote (referência de banco de dados do Access Desktop)
+title: Modo em lotes (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)

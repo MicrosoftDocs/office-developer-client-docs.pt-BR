@@ -22,7 +22,7 @@ Acrescenta dados a um objeto [Field](field-object-ado.md) ou [Parameter](paramet
 
 ## <a name="syntax"></a>Sintaxe
 
-*objeto.* *Dados* AppendChunk
+*.* Dados de  AppendChunk
 
 ## <a name="parameters"></a>Parâmetros
 

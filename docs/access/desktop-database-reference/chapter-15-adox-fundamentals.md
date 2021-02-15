@@ -26,9 +26,9 @@ Para usar o ADOX com a sua ferramenta de desenvolvimento, você deve estabelecer
 
 O Microsoft OLE DB Provider para o mecanismo de banco de dados Microsoft Jet oferece suporte completo para o ADOX. Certos recursos do ADOX podem não ter suporte, dependendo do seu provedor de dados. Para obter mais informações sobre os recursos para os quais há suporte com o Microsoft OLE DB Provider for ODBC, o Microsoft OLE DB Provider for Oracle ou o Microsoft OLE DB Provider for SQL Server, consulte o arquivo leia-me do MDAC.
 
-Este documento pressupõe um conhecimento funcional da linguagem de programação Microsoft Visual Basic e um conhecimento geral do ADO. Para obter mais informações sobre o ADO, consulte o [Guia do programador do ADO](ado-programmer-s-guide.md).
+Este documento assume um conhecimento prático da linguagem de programação do Microsoft Visual Basic e um conhecimento geral do ADO. Para obter mais informações sobre o ADO, consulte o guia [do programador do ADO.](ado-programmer-s-guide.md)
 
-Este capítulo aborda o tópico a seguir:
+Este capítulo aborda o seguinte tópico:
 
 - [Suporte do provedor para ADOX](provider-support-for-adox.md)
 
@@ -38,5 +38,5 @@ Para obter mais informações gerais sobre o ADOX, consulte os seguintes tópico
 - [Coleções do ADOX](adox-collections.md)
 - [Propriedades do ADOX](adox-properties.md)
 - [Métodos do ADOX](adox-methods.md)
-- [Exemplos de ADOX](adox-code-examples.md)
+- [Exemplos do ADOX](adox-code-examples.md)
 

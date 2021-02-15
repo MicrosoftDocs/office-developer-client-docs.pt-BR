@@ -19,5 +19,5 @@ ms.locfileid: "32296602"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Catalog (ADO MD)](catalog-object-ado-md.md)
-- [Propriedades, métodos e eventos do catálogo (ADO MD)](catalog-properties-methods-and-events-ado-md.md)
+- [Propriedades, métodos e eventos de catálogo (ADO MD)](catalog-properties-methods-and-events-ado-md.md)
 

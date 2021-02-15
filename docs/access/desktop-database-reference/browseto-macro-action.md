@@ -24,7 +24,7 @@ ms.locfileid: "32296770"
 
 Você pode usar a ação **ProcurarEm** para navegar entre objetos no local. Também é possível alterar o objeto de origem em um controle de subformulário, especificando o argumento Caminho para Controle de Subformulário. Use **ProcurarEm** para navegar do formulário1 para o formulário1 sem precisar abrir uma nova janela.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **ProcurarEm** tem os seguintes argumentos.
 
@@ -50,7 +50,7 @@ A ação **ProcurarEm** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p>Caminho para Controle de Subformulário</p></td>
-<td><p>Se especificado, o caminho do formulário principal do aplicativo para o controle de subformulário de destino que carrega o objeto especificado pelo argumento Nome do objeto.</p></td>
+<td><p>Se especificado, o caminho do formulário principal do aplicativo para o controle de subformuidade de destino que carrega o objeto especificado pelo argumento Object Name.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
@@ -58,7 +58,7 @@ A ação **ProcurarEm** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Este argumento é somente Web.</p></td>
+<td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Esse argumento é somente da Web.</p></td>
 </tr>
 <tr class="even">
 <td><p>Modo de Dados</p></td>
@@ -80,7 +80,7 @@ Neste exemplo, o Formulário principal é o formulário de nível superior no ap
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação procurarem para abrir um relatório em um controle de subformulário ou dentro de um controle de navegação.
+O exemplo a seguir mostra como usar a ação ProcurarPara para abrir um relatório em um controle de subformuidade ou em um controle de navegação.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -1,5 +1,5 @@
 ---
-title: Método Connection. Cancel (DAO)
+title: Método Connection.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295965"
 ---
-# <a name="connectioncancel-method-dao"></a>Método Connection. Cancel (DAO)
+# <a name="connectioncancel-method-dao"></a>Método Connection.Cancel (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ ms.locfileid: "32295965"
 
 *expressão* . Cancelar
 
-*expressão* Uma variável que representa um objeto **Connection** .
+*expressão* Uma variável que representa um objeto **Connection**.
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync). **Cancel** retornará um erro em tempo de execução se dbRunAsync não tiver sido usado no método que você está tentando encerrar.
+Use o **método Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync). **O** cancelamento retornará um erro em tempo de executar se dbRunAsync não tiver sido usado no método que você está tentando encerrar.
 
 Ocorrerá um erro se, após uma chamada do método **Cancel**, você tentar fazer referência ao objeto que tiver sido criado por uma chamada assíncrona de **OpenConnection** (ou seja, o objeto **Connection** a partir do qual você chamou o método **Cancel**).
 
