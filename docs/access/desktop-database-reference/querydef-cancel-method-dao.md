@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef. Cancel (DAO)
+title: Método QueryDef.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 91e61012-c01c-4c24-185c-bdadb7f33a58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197642(v=office.15)
@@ -18,18 +18,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301117"
 ---
-# <a name="querydefcancel-method-dao"></a><span data-ttu-id="69570-102">Método QueryDef. Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="69570-102">QueryDef.Cancel method (DAO)</span></span>
+# <a name="querydefcancel-method-dao"></a><span data-ttu-id="61141-102">Método QueryDef.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="61141-102">QueryDef.Cancel method (DAO)</span></span>
 
 
-<span data-ttu-id="69570-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69570-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="61141-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61141-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="69570-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="69570-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="61141-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="61141-104">Syntax</span></span>
 
-<span data-ttu-id="69570-105">*expressão* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="69570-105">*expression* .Cancel</span></span>
+<span data-ttu-id="61141-105">*expressão* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="61141-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="69570-106">*expressão* Uma variável que representa um objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="69570-106">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="61141-106">*expressão* Uma variável que representa um objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="61141-106">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="69570-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="69570-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="61141-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="61141-107">Remarks</span></span>
 
-<span data-ttu-id="69570-108">Use o método **Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="69570-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="69570-109">**Cancel** retornará um erro em tempo de execução se dbRunAsync não tiver sido usado no método que você está tentando encerrar.</span><span class="sxs-lookup"><span data-stu-id="69570-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="61141-108">Use o **método Cancel** para encerrar a execução de uma chamada de método **Execute** ou **OpenConnection** assíncrona (ou seja, o método foi invocado com a opção dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="61141-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="61141-109">**O** cancelamento retornará um erro em tempo de executar se dbRunAsync não tiver sido usado no método que você está tentando encerrar.</span><span class="sxs-lookup"><span data-stu-id="61141-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 

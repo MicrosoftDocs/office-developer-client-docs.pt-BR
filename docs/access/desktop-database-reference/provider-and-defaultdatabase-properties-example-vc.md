@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301145"
 ---
-# <a name="provider-and-defaultdatabase-properties-example-vc"></a><span data-ttu-id="6dc27-102">Exemplo das propriedades Provider e DefaultDatabase (VC++)</span><span class="sxs-lookup"><span data-stu-id="6dc27-102">Provider and DefaultDatabase properties example (VC++)</span></span>
+# <a name="provider-and-defaultdatabase-properties-example-vc"></a><span data-ttu-id="66d65-102">Exemplo das propriedades Provider e DefaultDatabase (VC++)</span><span class="sxs-lookup"><span data-stu-id="66d65-102">Provider and DefaultDatabase properties example (VC++)</span></span>
 
 
-<span data-ttu-id="6dc27-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6dc27-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66d65-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66d65-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6dc27-p101">Este exemplo demonstra a propriedade [Provider](provider-property-ado.md) ao abrir três objetos [Connection](connection-object-ado.md) utilizando provedores diferentes. Ele também utiliza a propriedade [DefaultDatabase](defaultdatabase-property-ado.md) para definir o banco de dados padrão para o Microsoft ODBC Provider.</span><span class="sxs-lookup"><span data-stu-id="6dc27-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
+<span data-ttu-id="66d65-p101">Este exemplo demonstra a propriedade [Provider](provider-property-ado.md) ao abrir três objetos [Connection](connection-object-ado.md) utilizando provedores diferentes. Ele também utiliza a propriedade [DefaultDatabase](defaultdatabase-property-ado.md) para definir o banco de dados padrão para o Microsoft ODBC Provider.</span><span class="sxs-lookup"><span data-stu-id="66d65-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
 
 ```cpp 
  

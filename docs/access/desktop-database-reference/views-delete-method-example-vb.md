@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302762"
 ---
-# <a name="views-delete-method-example-vb"></a><span data-ttu-id="770a1-102">Exemplo do método Delete de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="770a1-102">Views Delete method example (VB)</span></span>
+# <a name="views-delete-method-example-vb"></a><span data-ttu-id="63a3c-102">Exemplo do método Delete de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="63a3c-102">Views Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="770a1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="770a1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="63a3c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63a3c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="770a1-104">O código a seguir mostra como usar o método [Delete](delete-method-adox-collections.md) para excluir um modo de exibição do catálogo.</span><span class="sxs-lookup"><span data-stu-id="770a1-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
+<span data-ttu-id="63a3c-104">O código a seguir mostra como usar o método [Delete](delete-method-adox-collections.md) para excluir um modo de exibição do catálogo.</span><span class="sxs-lookup"><span data-stu-id="63a3c-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
 
 ```vb 
  

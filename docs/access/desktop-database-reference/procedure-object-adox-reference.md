@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301383"
 ---
-# <a name="procedure-object-adox-reference"></a><span data-ttu-id="73f7f-102">Referência do objeto Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="73f7f-102">Procedure object (ADOX) reference</span></span>
+# <a name="procedure-object-adox-reference"></a><span data-ttu-id="cf3a9-102">Referência do objeto Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cf3a9-102">Procedure object (ADOX) reference</span></span>
 
-<span data-ttu-id="73f7f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73f7f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cf3a9-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf3a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="73f7f-104">Objeto Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="73f7f-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
-- [<span data-ttu-id="73f7f-105">Propriedades, métodos e eventos do procedimento (ADOX)</span><span class="sxs-lookup"><span data-stu-id="73f7f-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="cf3a9-104">Objeto Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cf3a9-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
+- [<span data-ttu-id="cf3a9-105">Propriedades, métodos e eventos de procedimento (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cf3a9-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
 

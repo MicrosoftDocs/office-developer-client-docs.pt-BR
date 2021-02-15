@@ -1,5 +1,5 @@
 ---
-title: Método Properties. Delete (DAO)
+title: Método Properties.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301246"
 ---
-# <a name="propertiesdelete-method-dao"></a><span data-ttu-id="b8621-102">Método Properties. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="b8621-102">Properties.Delete method (DAO)</span></span>
+# <a name="propertiesdelete-method-dao"></a><span data-ttu-id="f1547-102">Método Properties.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1547-102">Properties.Delete method (DAO)</span></span>
 
-<span data-ttu-id="b8621-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8621-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f1547-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1547-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8621-104">Exclui o objeto **Property** especificado da coleção **Properties**.</span><span class="sxs-lookup"><span data-stu-id="b8621-104">Deletes the specified **Property** object from the **Properties** collection.</span></span>
+<span data-ttu-id="f1547-104">Exclui o objeto **Property** especificado da coleção **Properties**.</span><span class="sxs-lookup"><span data-stu-id="f1547-104">Deletes the specified **Property** object from the **Properties** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b8621-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b8621-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1547-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f1547-105">Syntax</span></span>
 
-<span data-ttu-id="b8621-106">*expressão* . Excluir (***nome***)</span><span class="sxs-lookup"><span data-stu-id="b8621-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="f1547-106">*expressão* . Delete(***Name***)</span><span class="sxs-lookup"><span data-stu-id="f1547-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="b8621-107">*expressão* Uma variável que representa um objeto **Properties** .</span><span class="sxs-lookup"><span data-stu-id="b8621-107">*expression* A variable that represents a **Properties** object.</span></span>
+<span data-ttu-id="f1547-107">*expressão* Uma variável que representa um **objeto** Properties .</span><span class="sxs-lookup"><span data-stu-id="f1547-107">*expression* A variable that represents a **Properties** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="b8621-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b8621-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f1547-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f1547-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ ms.locfileid: "32301246"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b8621-109">Nome</span><span class="sxs-lookup"><span data-stu-id="b8621-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="b8621-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="b8621-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="b8621-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="b8621-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="b8621-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="b8621-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="f1547-109">Nome</span><span class="sxs-lookup"><span data-stu-id="f1547-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="f1547-110">Necessária/opcional</span><span class="sxs-lookup"><span data-stu-id="f1547-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="f1547-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="f1547-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="f1547-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="f1547-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8621-113"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="b8621-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="b8621-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="b8621-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="b8621-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="b8621-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8621-116">O nome da propriedade a ser excluída.</span><span class="sxs-lookup"><span data-stu-id="b8621-116">The name of the property to delete.</span></span></p></td>
+<td><p><span data-ttu-id="f1547-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="f1547-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="f1547-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="f1547-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="f1547-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="f1547-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="f1547-116">O nome da propriedade a ser excluída.</span><span class="sxs-lookup"><span data-stu-id="f1547-116">The name of the property to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Exemplo das coleções views e Fields (VB)
+title: Exemplo das coleções Views e Fields (VB)
 TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305990"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="41d72-102">Exemplo das coleções Views e Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="41d72-102">Views and Fields collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="73b3d-102">Exemplo das coleções Views e Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="73b3d-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="41d72-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41d72-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73b3d-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73b3d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="41d72-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) e o objeto [Recordset](recordset-object-ado.md) para recuperar informações de campo para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="41d72-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="73b3d-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) e o objeto [Recordset](recordset-object-ado.md) para recuperar informações de campo para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="73b3d-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

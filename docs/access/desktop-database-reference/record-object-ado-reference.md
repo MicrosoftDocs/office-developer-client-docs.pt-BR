@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300718"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="f7f14-102">Referência do objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="f7f14-102">Record object (ADO) reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="ec2c1-102">Referência do objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="ec2c1-102">Record object (ADO) reference</span></span>
 
-<span data-ttu-id="f7f14-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7f14-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec2c1-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec2c1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f7f14-104">Objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="f7f14-104">Record object (ADO)</span></span>](record-object-ado.md)
-- [<span data-ttu-id="f7f14-105">Propriedades, métodos e eventos de registro (ADO)</span><span class="sxs-lookup"><span data-stu-id="f7f14-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="ec2c1-104">Objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="ec2c1-104">Record object (ADO)</span></span>](record-object-ado.md)
+- [<span data-ttu-id="ec2c1-105">Gravar propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="ec2c1-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

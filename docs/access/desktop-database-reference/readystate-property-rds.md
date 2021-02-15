@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300816"
 ---
-# <a name="readystate-property-rds"></a><span data-ttu-id="28657-102">Propriedade ReadyState (RDS)</span><span class="sxs-lookup"><span data-stu-id="28657-102">ReadyState property (RDS)</span></span>
+# <a name="readystate-property-rds"></a><span data-ttu-id="c848f-102">Propriedade ReadyState (RDS)</span><span class="sxs-lookup"><span data-stu-id="c848f-102">ReadyState property (RDS)</span></span>
 
-<span data-ttu-id="28657-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28657-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c848f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c848f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="28657-104">Indica o progresso de um objeto [DataControl](datacontrol-object-rds.md) à medida que ele recupera dados em seu objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="28657-104">Indicates the progress of a [DataControl](datacontrol-object-rds.md) object as it retrieves data into its [Recordset](recordset-object-ado.md) object.</span></span>
+<span data-ttu-id="c848f-104">Indica o progresso de um objeto [DataControl](datacontrol-object-rds.md) à medida que ele recupera dados em seu objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c848f-104">Indicates the progress of a [DataControl](datacontrol-object-rds.md) object as it retrieves data into its [Recordset](recordset-object-ado.md) object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="28657-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="28657-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="c848f-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="c848f-105">Settings and return values</span></span>
 
-<span data-ttu-id="28657-106">Define ou retorna um dos seguintes valores.</span><span class="sxs-lookup"><span data-stu-id="28657-106">Sets or returns one of the following values.</span></span>
+<span data-ttu-id="c848f-106">Define ou retorna um dos seguintes valores.</span><span class="sxs-lookup"><span data-stu-id="c848f-106">Sets or returns one of the following values.</span></span>
 
 <table>
 <colgroup>
@@ -31,32 +31,32 @@ ms.locfileid: "32300816"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="28657-107">Valor</span><span class="sxs-lookup"><span data-stu-id="28657-107">Value</span></span></p></th>
-<th><p><span data-ttu-id="28657-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="28657-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="c848f-107">Valor</span><span class="sxs-lookup"><span data-stu-id="c848f-107">Value</span></span></p></th>
+<th><p><span data-ttu-id="c848f-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="c848f-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="28657-109"><strong>adcReadyStateLoaded</strong></span><span class="sxs-lookup"><span data-stu-id="28657-109"><strong>adcReadyStateLoaded</strong></span></span></p></td>
-<td><p><span data-ttu-id="28657-110">A consulta atual ainda está sendo executada e nenhuma linha foi pesquisada.</span><span class="sxs-lookup"><span data-stu-id="28657-110">The current query is still executing and no rows have been fetched.</span></span> <span data-ttu-id="28657-111">O <strong>Recordset</strong> do objeto <strong>DataControl</strong> não está disponível para uso.</span><span class="sxs-lookup"><span data-stu-id="28657-111">The <strong>DataControl</strong> object's <strong>Recordset</strong> is not available for use.</span></span></p></td>
+<td><p><span data-ttu-id="c848f-109"><strong>adcReadyStateLoaded</strong></span><span class="sxs-lookup"><span data-stu-id="c848f-109"><strong>adcReadyStateLoaded</strong></span></span></p></td>
+<td><p><span data-ttu-id="c848f-110">A consulta atual ainda está sendo executada e nenhuma linha foi pesquisada.</span><span class="sxs-lookup"><span data-stu-id="c848f-110">The current query is still executing and no rows have been fetched.</span></span> <span data-ttu-id="c848f-111">O <strong>Recordset</strong> do objeto <strong>DataControl</strong> não está disponível para uso.</span><span class="sxs-lookup"><span data-stu-id="c848f-111">The <strong>DataControl</strong> object's <strong>Recordset</strong> is not available for use.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="28657-112"><strong>adcReadyStateInteractive</strong></span><span class="sxs-lookup"><span data-stu-id="28657-112"><strong>adcReadyStateInteractive</strong></span></span></p></td>
-<td><p><span data-ttu-id="28657-p102">Um conjunto inicial de linhas recuperado pela consulta atual foi armazenado no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e está disponível para uso. As linhas restantes ainda estão sendo pesquisadas.</span><span class="sxs-lookup"><span data-stu-id="28657-p102">An initial set of rows retrieved by the current query has been stored in the <strong>DataControl</strong> object's <strong>Recordset</strong> and are available for use. The remaining rows are still being fetched.</span></span></p></td>
+<td><p><span data-ttu-id="c848f-112"><strong>adcReadyStateInteractive</strong></span><span class="sxs-lookup"><span data-stu-id="c848f-112"><strong>adcReadyStateInteractive</strong></span></span></p></td>
+<td><p><span data-ttu-id="c848f-p102">Um conjunto inicial de linhas recuperado pela consulta atual foi armazenado no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e está disponível para uso. As linhas restantes ainda estão sendo pesquisadas.</span><span class="sxs-lookup"><span data-stu-id="c848f-p102">An initial set of rows retrieved by the current query has been stored in the <strong>DataControl</strong> object's <strong>Recordset</strong> and are available for use. The remaining rows are still being fetched.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="28657-115"><strong>adcReadyStateComplete</strong></span><span class="sxs-lookup"><span data-stu-id="28657-115"><strong>adcReadyStateComplete</strong></span></span></p></td>
-<td><p><span data-ttu-id="28657-116">Todas as linhas recuperadas pela consulta atual foram armazenadas no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e estão disponíveis para uso.</span><span class="sxs-lookup"><span data-stu-id="28657-116">All rows retrieved by the current query have been stored in the <strong>DataControl</strong> object's <strong>Recordset</strong> and are available for use.</span></span> <span data-ttu-id="28657-117">Este estado também é possível se uma operação for anulada devido a um erro ou se o objeto <strong>Recordset</strong> não for inicializado.</span><span class="sxs-lookup"><span data-stu-id="28657-117">This state will also exist if an operation aborted due to an error, or if the <strong>Recordset</strong> object is not initialized.</span></span></p></td>
+<td><p><span data-ttu-id="c848f-115"><strong>adcReadyStateComplete</strong></span><span class="sxs-lookup"><span data-stu-id="c848f-115"><strong>adcReadyStateComplete</strong></span></span></p></td>
+<td><p><span data-ttu-id="c848f-116">Todas as linhas recuperadas pela consulta atual foram armazenadas no <strong>Recordset</strong> do objeto <strong>DataControl</strong> e estão disponíveis para uso.</span><span class="sxs-lookup"><span data-stu-id="c848f-116">All rows retrieved by the current query have been stored in the <strong>DataControl</strong> object's <strong>Recordset</strong> and are available for use.</span></span> <span data-ttu-id="c848f-117">Este estado também é possível se uma operação for anulada devido a um erro ou se o objeto <strong>Recordset</strong> não for inicializado.</span><span class="sxs-lookup"><span data-stu-id="c848f-117">This state will also exist if an operation aborted due to an error, or if the <strong>Recordset</strong> object is not initialized.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="28657-p104">[!OBSERVAçãO] Cada arquivo executável do lado do cliente que utilizar essas constantes deverá fornecer suas respectivas declarações. Você pode recortar e colar as declarações da constante que deseja do arquivo Adcvbs.inc, localizado na pasta C:\Arquivos de Programas\Arquivos Comuns\System\MSADC.</span><span class="sxs-lookup"><span data-stu-id="28657-p104">Each client-side executable file that uses these constants must provide declarations for them. You can cut and paste the constant declarations you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.</span></span>
+> <span data-ttu-id="c848f-p104">[!OBSERVAçãO] Cada arquivo executável do lado do cliente que utilizar essas constantes deverá fornecer suas respectivas declarações. Você pode recortar e colar as declarações da constante que deseja do arquivo Adcvbs.inc, localizado na pasta C:\Arquivos de Programas\Arquivos Comuns\System\MSADC.</span><span class="sxs-lookup"><span data-stu-id="c848f-p104">Each client-side executable file that uses these constants must provide declarations for them. You can cut and paste the constant declarations you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="28657-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="28657-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c848f-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="c848f-120">Remarks</span></span>
 
-<span data-ttu-id="28657-p105">Utilize o evento [onReadyStateChange](onreadystatechange-event-rds.md) para monitorar as alterações da propriedade **ReadyState** durante uma operação de consulta assíncrona. Esse procedimento é mais eficiente do que verificar periodicamente o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="28657-p105">Use the [onReadyStateChange](onreadystatechange-event-rds.md) event to monitor changes in the **ReadyState** property during an asynchronous query operation. This is more efficient than periodically checking the value of the property.</span></span>
+<span data-ttu-id="c848f-p105">Utilize o evento [onReadyStateChange](onreadystatechange-event-rds.md) para monitorar as alterações da propriedade **ReadyState** durante uma operação de consulta assíncrona. Esse procedimento é mais eficiente do que verificar periodicamente o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="c848f-p105">Use the [onReadyStateChange](onreadystatechange-event-rds.md) event to monitor changes in the **ReadyState** property during an asynchronous query operation. This is more efficient than periodically checking the value of the property.</span></span>
 
-<span data-ttu-id="28657-123">Se ocorrer um erro durante uma operação assíncrona, \*\*\*\* a propriedade ReadyState será alterada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) será alterada de **adStateExecuting** para **adStateClosed**e o **Recordset** Propriedade [valor](value-property-ado.md) do objeto permanece *Nothing*.</span><span class="sxs-lookup"><span data-stu-id="28657-123">If an error occurs during an asynchronous operation, the **ReadyState** property changes to **adcReadyStateComplete**, the [State](state-property-ado.md) property changes from **adStateExecuting** to **adStateClosed**, and the **Recordset** object [Value](value-property-ado.md) property remains *Nothing*.</span></span>
+<span data-ttu-id="c848f-123">Se ocorrer um erro durante uma operação assíncrona, a propriedade **ReadyState** será mudada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) muda de **adStateExecuting** para **adStateClosed** e a propriedade [Value](value-property-ado.md) do objeto **Recordset** permanece *Nothing*.</span><span class="sxs-lookup"><span data-stu-id="c848f-123">If an error occurs during an asynchronous operation, the **ReadyState** property changes to **adcReadyStateComplete**, the [State](state-property-ado.md) property changes from **adStateExecuting** to **adStateClosed**, and the **Recordset** object [Value](value-property-ado.md) property remains *Nothing*.</span></span>
 

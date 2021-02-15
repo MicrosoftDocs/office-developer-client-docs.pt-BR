@@ -1,5 +1,5 @@
 ---
-title: Coleção views, exemplo da propriedade CommandText (VB)
+title: Exemplo da coleção Views, da propriedade CommandText (VB)
 TOCTitle: Views Collection, CommandText property example (VB)
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302776"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="68246-102">Coleção Views, exemplo da propriedade CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="68246-102">Views collection, CommandText property example (VB)</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="27b5f-102">Coleção Views, exemplo da propriedade CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="27b5f-102">Views collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="68246-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68246-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="27b5f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27b5f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="68246-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) para atualizar o texto de um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="68246-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="27b5f-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) para atualizar o texto de um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="27b5f-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

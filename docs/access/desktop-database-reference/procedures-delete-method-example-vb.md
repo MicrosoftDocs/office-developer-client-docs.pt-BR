@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301327"
 ---
-# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="fce0e-102">Exemplo do método Delete de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="fce0e-102">Procedures Delete method example (VB)</span></span>
+# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="5ec46-102">Exemplo do método Delete de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="5ec46-102">Procedures Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="fce0e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fce0e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5ec46-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ec46-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fce0e-104">O código a seguir demonstra como excluir um procedimento usando o método [Delete](procedures-collection-adox.md) da coleção [Procedures](delete-method-adox-collections.md).</span><span class="sxs-lookup"><span data-stu-id="fce0e-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
+<span data-ttu-id="5ec46-104">O código a seguir demonstra como excluir um procedimento usando o método [Delete](procedures-collection-adox.md) da coleção [Procedures](delete-method-adox-collections.md).</span><span class="sxs-lookup"><span data-stu-id="5ec46-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
 
 ```vb 
  

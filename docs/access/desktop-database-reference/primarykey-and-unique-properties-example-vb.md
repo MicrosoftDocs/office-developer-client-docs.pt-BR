@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301418"
 ---
-# <a name="primarykey-and-unique-properties-example-vb"></a><span data-ttu-id="e8ead-102">Exemplo das propriedades PrimaryKey e Unique (VB)</span><span class="sxs-lookup"><span data-stu-id="e8ead-102">PrimaryKey and Unique properties example (VB)</span></span>
+# <a name="primarykey-and-unique-properties-example-vb"></a><span data-ttu-id="80e75-102">Exemplo das propriedades PrimaryKey e Unique (VB)</span><span class="sxs-lookup"><span data-stu-id="80e75-102">PrimaryKey and Unique properties example (VB)</span></span>
 
 
-<span data-ttu-id="e8ead-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8ead-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="80e75-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80e75-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e8ead-p101">Este exemplo demonstra as propriedades [PrimaryKey](primarykey-property-adox.md) e [Unique](unique-property-adox.md) de um [Index](index-object-adox.md). O código cria uma nova tabela com duas colunas. As propriedades **PrimaryKey** e **Unique** são usadas a fim de tornar uma coluna a chave primária para a qual valores duplicados não são permitidos.</span><span class="sxs-lookup"><span data-stu-id="e8ead-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="80e75-p101">Este exemplo demonstra as propriedades [PrimaryKey](primarykey-property-adox.md) e [Unique](unique-property-adox.md) de um [Index](index-object-adox.md). O código cria uma nova tabela com duas colunas. As propriedades **PrimaryKey** e **Unique** são usadas a fim de tornar uma coluna a chave primária para a qual valores duplicados não são permitidos.</span><span class="sxs-lookup"><span data-stu-id="80e75-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```vb 
  

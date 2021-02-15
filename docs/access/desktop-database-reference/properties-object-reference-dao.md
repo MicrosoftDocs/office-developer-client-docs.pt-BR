@@ -1,5 +1,5 @@
 ---
-title: Referência de objeto de Propriedades (DAO)
+title: Referência de objeto de propriedades (DAO)
 TOCTitle: Properties Object
 ms:assetid: dbd58d66-9566-41cd-82e2-bfc0c8778867
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125748(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301229"
 ---
-# <a name="properties-object-reference-dao"></a><span data-ttu-id="5c7b7-102">Referência de objeto de Propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c7b7-102">Properties object reference (DAO)</span></span>
+# <a name="properties-object-reference-dao"></a><span data-ttu-id="3bad0-102">Referência de objeto de propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bad0-102">Properties object reference (DAO)</span></span>
 
-<span data-ttu-id="5c7b7-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c7b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3bad0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bad0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5c7b7-104">Coleção Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c7b7-104">Properties collection (DAO)</span></span>](properties-collection-dao.md)
-- [<span data-ttu-id="5c7b7-105">Membros de Propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c7b7-105">Properties members (DAO)</span></span>](properties-members-dao.md)
-- [<span data-ttu-id="5c7b7-106">Propriedades de Propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c7b7-106">Properties properties (DAO)</span></span>](properties-properties-dao.md)
-- [<span data-ttu-id="5c7b7-107">Métodos de Propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c7b7-107">Properties methods (DAO)</span></span>](properties-methods-dao.md)
+- [<span data-ttu-id="3bad0-104">Coleção Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bad0-104">Properties collection (DAO)</span></span>](properties-collection-dao.md)
+- [<span data-ttu-id="3bad0-105">Membros properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bad0-105">Properties members (DAO)</span></span>](properties-members-dao.md)
+- [<span data-ttu-id="3bad0-106">Propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bad0-106">Properties properties (DAO)</span></span>](properties-properties-dao.md)
+- [<span data-ttu-id="3bad0-107">Métodos de propriedades (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bad0-107">Properties methods (DAO)</span></span>](properties-methods-dao.md)
 

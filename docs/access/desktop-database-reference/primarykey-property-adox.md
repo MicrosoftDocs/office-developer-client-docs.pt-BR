@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301397"
 ---
-# <a name="primarykey-property-adox"></a><span data-ttu-id="27c97-102">Propriedade PrimaryKey (ADOX)</span><span class="sxs-lookup"><span data-stu-id="27c97-102">PrimaryKey property (ADOX)</span></span>
+# <a name="primarykey-property-adox"></a><span data-ttu-id="c6579-102">Propriedade PrimaryKey (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c6579-102">PrimaryKey property (ADOX)</span></span>
 
 
-<span data-ttu-id="27c97-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27c97-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c6579-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6579-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27c97-104">Indica se o índice representa a chama primária na tabela.</span><span class="sxs-lookup"><span data-stu-id="27c97-104">Indicates whether the index represents the primary key on the table.</span></span>
+<span data-ttu-id="c6579-104">Indica se o índice representa a chama primária na tabela.</span><span class="sxs-lookup"><span data-stu-id="c6579-104">Indicates whether the index represents the primary key on the table.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="27c97-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="27c97-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="c6579-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="c6579-105">Settings and return values</span></span>
 
-<span data-ttu-id="27c97-106">Define e retorna um valor **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="27c97-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="c6579-106">Define e retorna um valor **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="c6579-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="27c97-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="27c97-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6579-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="c6579-107">Remarks</span></span>
 
-<span data-ttu-id="27c97-108">O valor padrão é **False**.</span><span class="sxs-lookup"><span data-stu-id="27c97-108">The default value is **False**.</span></span>
+<span data-ttu-id="c6579-108">O valor padrão é **False**.</span><span class="sxs-lookup"><span data-stu-id="c6579-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="27c97-109">Esta propriedade é somente leitura em objetos [Index](index-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="27c97-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="c6579-109">Esta propriedade é somente leitura em objetos [Index](index-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="c6579-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 
