@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. Close (DAO)
+title: Método Workspace.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b3d28f9-5cde-0dd9-8a4a-d2efaec5fe5d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305954"
 ---
-# <a name="workspaceclose-method-dao"></a>Método Workspace. Close (DAO)
+# <a name="workspaceclose-method-dao"></a>Método Workspace.Close (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,13 +23,13 @@ Fecha um **Workspace** aberto.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Fechado
+*expressão* .Close
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentários
 
 Se o objeto **Workspace** já estiver fechado quando você usar **Close**, ocorrerá um erro de tempo de execução.
 
-Uma alternativa para o método **Close** é definir o valor de uma variável de objeto como **Nothing** (Set dbsTemp = Nothing).
+Uma alternativa ao método **Fechar**, é definir o valor de uma variável de um objeto para **Nada** (Definir dbsTemp = Nada).
 

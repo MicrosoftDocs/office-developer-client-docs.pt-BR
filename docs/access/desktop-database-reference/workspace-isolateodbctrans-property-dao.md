@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspace. IsolateODBCTrans (DAO)
+title: Propriedade Workspace.IsolateODBCTrans (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836924(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302510"
 ---
-# <a name="workspaceisolateodbctrans-property-dao"></a>Propriedade Workspace. IsolateODBCTrans (DAO)
+# <a name="workspaceisolateodbctrans-property-dao"></a>Propriedade Workspace.IsolateODBCTrans (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Define ou retorna um valor que indica se vários transactiond, que envolvem o me
 
 *expressão* . IsolateODBCTrans
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentários
 

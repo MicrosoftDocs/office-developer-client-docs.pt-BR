@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. StillExecuting (DAO)
+title: Propriedade QueryDef.StillExecuting (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303413"
 ---
-# <a name="querydefstillexecuting-property-dao"></a>Propriedade QueryDef. StillExecuting (DAO)
+# <a name="querydefstillexecuting-property-dao"></a>Propriedade QueryDef.StillExecuting (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32303413"
 
 *expressão* . StillExecuting
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 

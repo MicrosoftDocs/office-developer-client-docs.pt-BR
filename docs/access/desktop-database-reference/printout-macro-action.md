@@ -27,7 +27,7 @@ Você pode usar a ação **Imprimir** para imprimir o objeto ativo no banco de d
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **Imprimir** tem os seguintes argumentos.
 

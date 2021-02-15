@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. ReturnsRecords (DAO)
+title: Propriedade QueryDef.ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303336"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>Propriedade QueryDef. ReturnsRecords (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Propriedade QueryDef.ReturnsRecords (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Define ou retorna um valor que indica se uma consulta passagem SQL para um banco
 
 *expressão* . ReturnsRecords
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 

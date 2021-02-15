@@ -19,6 +19,6 @@ ms.locfileid: "32303000"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Property (DAO)](property-object-dao.md)
-- [Membros de propriedade (DAO)](property-members-dao.md)
-- [Propriedades da propriedade (DAO)](property-properties-dao.md)
+- [Membros da propriedade (DAO)](property-members-dao.md)
+- [Propriedades de propriedade (DAO)](property-properties-dao.md)
 

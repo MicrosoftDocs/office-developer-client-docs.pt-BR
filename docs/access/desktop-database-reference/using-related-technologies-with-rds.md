@@ -24,15 +24,15 @@ Esta seção contém informações específicas sobre o uso do RDS com aspectos 
 
 - [Execução de objetos Business em serviços de componente](running-business-objects-in-component-services.md)
 
-**Serviços de informações da Internet** Para obter mais informações sobre os serviços de informações da Internet da Microsoft (IIS), consulte o site do Microsoft Internet Information Services.
+**Serviços de Informações da Internet** Para obter mais informações sobre o Microsoft Internet Information Services (IIS), consulte o site do Microsoft Internet Information Services.
 
-**Páginas do Active Server** Para obter mais informações sobre o Microsoft Active Server Pages (ASP), consulte o site do Microsoft Active Server Pages.
+**Active Server Pages** Para obter mais informações sobre o Microsoft Active Server Pages (ASP), consulte o site do Microsoft Active Server Pages.
 
-**Serviços de componente da Microsoft** Para obter mais informações sobre os serviços de componentes, consulte o site do Microsoft Transaction Server.
+**Microsoft Component Services** Para obter mais informações sobre os Serviços de Componente, consulte o site do Microsoft Transaction Server.
 
 **Microsoft SQL Server** Para obter mais informações sobre o Microsoft SQL Server, consulte o site do Microsoft SQL Server.
 
-**Microsoft Internet Explorer** Para obter mais informações sobre o Microsoft Internet Explorer, consulte o site do Microsoft Internet Explorer e o site do MSDN Library and Web Workshop.
+**Microsoft Internet Explorer** Para obter mais informações sobre o Microsoft Internet Explorer, consulte o site do Microsoft Internet Explorer e o site MSDN Library and Web Workshop.
 
-**Servidor do Microsoft Windows NT Server/Windows 2000** Para obter mais informações sobre segurança no Microsoft Windows NT Server ou no Windows 2000 Server, consulte o site do Microsoft Windows.
+**Microsoft Windows NT Server/Windows 2000 Server** Para obter mais informações sobre segurança no Microsoft Windows NT Server ou no Windows 2000 Server, consulte o site do Microsoft Windows.
 

@@ -31,20 +31,20 @@ Define um nome e os parâmetros opcionais para uma consulta.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Nome* \[do procedimento *param1 DataType*\[, *param2 DataType*\[,...\]\]
+PROCEDURE *name* \[ *param1 datatype*, \[ *param2 datatype* \[ , ...\]\]
 
 A cláusula PROCEDURE contém estas partes:
 
-|Parte |Descrição |
+|Sair |Descrição |
 |:----|:-----------|
 |*name* |Um nome para o procedimento. Ele deve seguir as convenções de nomenclatura padrão.|
-|*param1*, *param2* |Um ou mais campos ou parâmetros de campo. Por exemplo:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, [](parameters-declaration-microsoft-access-sql.md)consulte Parameters.|
-|*alinha* | Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos. |
+|*param1*, *param2* |Um ou mais campos ou parâmetros de campo. Por exemplo:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obter mais informações sobre parâmetros, consulte [parâmetros.](parameters-declaration-microsoft-access-sql.md)|
+|*datatype* | Um dos principais [tipos de dados do Microsoft Access SQL](sql-data-types.md) ou seus sinônimos. |
 
 
 ## <a name="remarks"></a>Comentários
 
-Um procedimento SQL consiste em uma cláusula PROCEDURE (que especifica o nome do procedimento), uma lista opcional das definições de parâmetro e uma única instrução SQL. Por exemplo, o procedimento obter\_número\_de peça pode executar uma consulta que recupera um número de peça especificado.
+Um procedimento SQL consiste em uma cláusula PROCEDURE (que especifica o nome do procedimento), uma lista opcional das definições de parâmetro e uma única instrução SQL. Por exemplo, o procedimento Get Part Number pode executar uma \_ consulta que recupera um número de parte \_ especificado.
 
 > [!NOTE]
 > - Se a cláusula incluir mais de uma definição de campo (isto é, pares de *param-datatype*), separe-os com vírgulas.
@@ -52,7 +52,7 @@ Um procedimento SQL consiste em uma cláusula PROCEDURE (que especifica o nome d
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo nomeia a consulta CategoryList e chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
+Este exemplo chama a consulta CategoryList e o procedimento EnumFields, o que pode ser localizado no exemplo da instrução SELECT.
 
 ```vb
     Sub ProcedureX() 

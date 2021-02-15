@@ -45,10 +45,10 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>Chr</p></td>
 <td><p>ChrB</p></td>
 <td><p>ChrW</p></td>
-<td><p>Chr $</p></td>
+<td><p>Chr$</p></td>
 </tr>
 <tr class="odd">
-<td><p>ChrB $</p></td>
+<td><p>ChrB$</p></td>
 <td><p>CInt</p></td>
 <td><p>CLng</p></td>
 <td><p>Cos</p></td>
@@ -60,7 +60,7 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>CVDate</p></td>
 <td><p>CVErr</p></td>
 <td><p>Data</p></td>
-<td><p>Data $</p></td>
+<td><p>Date$</p></td>
 <td><p>DateAdd</p></td>
 </tr>
 <tr class="odd">
@@ -72,23 +72,23 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>DDB</p></td>
 </tr>
 <tr class="even">
-<td><p>Error</p></td>
-<td><p>Erro $</p></td>
+<td><p>Erro</p></td>
+<td><p>Erro$</p></td>
 <td><p>Exp</p></td>
 <td><p>Correção</p></td>
 <td><p>Formatar</p></td>
-<td><p>Format $</p></td>
+<td><p>Format$</p></td>
 </tr>
 <tr class="odd">
 <td><p>VF</p></td>
 <td><p>Hex</p></td>
-<td><p>Hex $</p></td>
+<td><p>Hex$</p></td>
 <td><p>Hora</p></td>
 <td><p>IIF</p></td>
 <td><p>InStr</p></td>
 </tr>
 <tr class="even">
-<td><p>Limite</p></td>
+<td><p>Int</p></td>
 <td><p>IPmt</p></td>
 <td><p>TIR</p></td>
 <td><p>IsDate</p></td>
@@ -100,21 +100,21 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>IsNumeric</p></td>
 <td><p>IsObject</p></td>
 <td><p>LCase</p></td>
-<td><p>LCase $</p></td>
+<td><p>LCase$</p></td>
 <td><p>Esquerda</p></td>
 </tr>
 <tr class="even">
-<td><p>ESQUERDAB</p></td>
-<td><p>Esquerda $</p></td>
-<td><p>ESQUERDAB $</p></td>
+<td><p>LeftB</p></td>
+<td><p>Left$</p></td>
+<td><p>LeftB$</p></td>
 <td><p>Núm.Caract</p></td>
 <td><p>Log</p></td>
 <td><p>SuprEsq</p></td>
 </tr>
 <tr class="odd">
-<td><p>LTrim $</p></td>
+<td><p>LTrim$</p></td>
 <td><p>Mid</p></td>
-<td><p>Médio $</p></td>
+<td><p>Mid$</p></td>
 <td><p>Minuto</p></td>
 <td><p>MIRR</p></td>
 <td><p>Mês</p></td>
@@ -124,7 +124,7 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>NPer</p></td>
 <td><p>VPL</p></td>
 <td><p>Out</p></td>
-<td><p>Oct $</p></td>
+<td><p>Oct$</p></td>
 <td><p>Pmt</p></td>
 </tr>
 <tr class="odd">
@@ -136,12 +136,12 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>Direita</p></td>
 </tr>
 <tr class="even">
-<td><p>DIREITAB</p></td>
-<td><p>Direito $</p></td>
-<td><p>DIREITAB $</p></td>
+<td><p>RightB</p></td>
+<td><p>Right$</p></td>
+<td><p>RightB$</p></td>
 <td><p>Rnd</p></td>
 <td><p>SuprDir</p></td>
-<td><p>RTrim $</p></td>
+<td><p>RTrim$</p></td>
 </tr>
 <tr class="odd">
 <td><p>Segundo</p></td>
@@ -149,38 +149,38 @@ As funções a seguir do Visual Basic for Applications podem ser usadas nas expr
 <td><p>Sin</p></td>
 <td><p>DPD</p></td>
 <td><p>Space</p></td>
-<td><p>Espaço $</p></td>
+<td><p>Space$</p></td>
 </tr>
 <tr class="even">
 <td><p>Sqr</p></td>
 <td><p>Str</p></td>
-<td><p>Str $</p></td>
+<td><p>Str$</p></td>
 <td><p>StrComp</p></td>
 <td><p>StrConv</p></td>
 <td><p>Cadeia de caracteres</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cadeia de caracteres $</p></td>
+<td><p>String$</p></td>
 <td><p>SDA</p></td>
 <td><p>Tan</p></td>
 <td><p>Hora</p></td>
-<td><p>Tempo $</p></td>
+<td><p>Time$</p></td>
 <td><p>Timer</p></td>
 </tr>
 <tr class="even">
 <td><p>TimeSerial</p></td>
 <td><p>TimeValue</p></td>
 <td><p>Cortar</p></td>
-<td><p>Trim $</p></td>
+<td><p>Trim$</p></td>
 <td><p>TypeName</p></td>
 <td><p>UCase</p></td>
 </tr>
 <tr class="odd">
-<td><p>UCase $</p></td>
+<td><p>UCase$</p></td>
 <td><p>Val</p></td>
 <td><p>VarType</p></td>
 <td><p>Dia da semana</p></td>
-<td><p>Ano</p></td>
+<td><p>Year</p></td>
 <td><p><br />
 </p></td>
 </tr>

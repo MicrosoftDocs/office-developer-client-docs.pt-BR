@@ -1,5 +1,5 @@
 ---
-title: Propriedade Workspaces. Count (DAO)
+title: Propriedade Workspaces.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: bc7c5a11-13d3-27bd-1be4-5d069e888ac2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822719(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302552"
 ---
-# <a name="workspacescount-property-dao"></a>Propriedade Workspaces. Count (DAO)
+# <a name="workspacescount-property-dao"></a>Propriedade Workspaces.Count (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Retorna o número de objetos na coleção especificada. Somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Desconto
+*expressão* . Count
 
-*expressão* Uma variável que representa um **** objeto Workspaces.
+*expressão* Uma variável que representa **um objeto Workspaces** .
 
 ## <a name="remarks"></a>Comentários
 

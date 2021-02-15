@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef. Close (DAO)
+title: Método QueryDef.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822031(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303301"
 ---
-# <a name="querydefclose-method-dao"></a>Método QueryDef. Close (DAO)
+# <a name="querydefclose-method-dao"></a>Método QueryDef.Close (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,13 +27,13 @@ Fecha um objeto **QueryDef** aberto.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Fechado
+*expressão* .Close
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 
 Se o objeto **QueryDef** já estiver fechado quando você usar **Close**, ocorrerá um erro em tempo de execução.
 
-Uma alternativa para o método **Close** é definir o valor de uma variável de objeto como **Nothing** (Set dbsTemp = Nothing).
+Uma alternativa ao método **Fechar**, é definir o valor de uma variável de um objeto para **Nada** (Definir dbsTemp = Nada).
 

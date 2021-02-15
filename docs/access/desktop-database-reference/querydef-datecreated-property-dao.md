@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. DateCreated (DAO)
+title: Propriedade QueryDef.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: f7585b34-8314-fb9f-daa6-cd1a8ad59d91
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836910(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301068"
 ---
-# <a name="querydefdatecreated-property-dao"></a>Propriedade QueryDef. DateCreated (DAO)
+# <a name="querydefdatecreated-property-dao"></a>Propriedade QueryDef.DateCreated (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Retorna a hora e a data nas quais um objeto foi criado (somente em espaços de t
 
 *expressão* . DateCreated
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. Type (DAO)
+title: Propriedade QueryDef.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300942"
 ---
-# <a name="querydeftype-property-dao"></a>Propriedade QueryDef. Type (DAO)
+# <a name="querydeftype-property-dao"></a>Propriedade QueryDef.Type (DAO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer**somente leitura.
+Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. Somente leitura **inteiro**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Escreva
+*expressão* .Type
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 
@@ -53,11 +53,11 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Composição</p></td>
+<td><p>Composto</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Tabela</p></td>
+<td><p>Crosstab</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
@@ -69,11 +69,11 @@ Para um objeto **QueryDef**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="odd">
 <td><p><strong>dbQMakeTable</strong></p></td>
-<td><p>Criar tabela</p></td>
+<td><p>Make-table</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedimento (somente em espaços de trabalho ODBCDirect)</p><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p></td>
+<td><p>Procedimento (somente em espaços de trabalho ODBCDirect)</p><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

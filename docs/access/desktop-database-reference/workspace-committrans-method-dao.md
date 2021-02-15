@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. CommitTrans (DAO)
+title: Método Workspace.CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306031"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Método Workspace. CommitTrans (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Método Workspace.CommitTrans (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Encerra a transação atual e salva as alterações.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CommitTrans (***Opções***)
+*expressão* . CommitTrans(***Options***)
 
-*expressão* Uma variável que representa um objeto **Workspace** .
+*expressão* Uma variável que representa um objeto **Workspace**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,7 +38,7 @@ Encerra a transação atual e salva as alterações.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -86,7 +86,7 @@ Nos espaços de trabalho ODBC, quando você usa **CommitTrans**, seu cursor pode
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar uma transação em um espaço de trabalho de Data Access Objects (DAO).
+O exemplo a seguir mostra como usar uma transação no espaço de trabalho do Objetos de Acesso de Dados (DAO).
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos de registro (ADO)
+title: Gravar propriedades, métodos e eventos (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300711"
 ---
-# <a name="record-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos de registro (ADO)
+# <a name="record-properties-methods-and-events-ado"></a>Gravar propriedades, métodos e eventos (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -42,5 +42,5 @@ ms.locfileid: "32300711"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

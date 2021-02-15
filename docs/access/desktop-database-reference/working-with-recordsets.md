@@ -32,7 +32,7 @@ A propriedade **Sort** exige que a propriedade [CursorLocation](cursorlocation-p
 
 A definição da propriedade **Sort** como uma sequência vazia redefinirá as linhas para sua ordem original e excluirá os índices temporários. Os índices existentes não serão excluídos.
 
-Suponha que um **Recordset** contenha três campos denominados *firstName*, *middleInitial* e *lastName*. Defina a propriedade **Sort** como a cadeia de caracteres "", que ordenará o **Recordset** pelo sobrenome em ordem decrescente e, em seguida, pelo primeiro nome em ordem crescente. A inicial do nome do meio é ignorada.
+Suponha que um **Recordset** contenha três campos denominados *firstName*, *middleInitial* e *lastName*. De definida **a propriedade Sort** como a cadeia de caracteres "", que ordenará o **Recordset** pelo sobrenome em ordem decrescente e, em seguida, pelo primeiro nome na ordem crescente. A inicial do nome do meio é ignorada.
 
 Nenhum campo mencionado em um critério de classificação poderá ser nomeado como "ASC" ou "DESC" porque esses nomes entram em conflito com as palavras-chave **ASC** e **DESC**. Atribua um nome conflitante a um campo como um alias usando a palavra-chave **AS** na consulta que retorna o **Recordset**.
 
@@ -54,9 +54,9 @@ O método **Find** procura um **Recordset** para a linha que satisfaça um crit�
 
 Apenas um único nome de coluna pode ser especificado para o critério. Em outras palavras, este método não oferece suporte a pesquisas com várias colunas.
 
-O operador de comparação para o critério pode ser**\>**"" (maior que),**\<**"" (menor que), "=" (igual),\>"=" (maior que ou igual a)\<, "=" (menor ou igual),\<\>"" (não igual) ou "Like" (correspondência de padrão).
+O operador de comparação para o critério pode ser " ( maior **\>** que), **\<** " " (menor que), "=" (igual), " \> =" (maior ou igual), " =" (menor ou igual), " " (diferente) ou \< \< \> "LIKE" (correspondência de padrão).
 
-O valor do critério pode ser uma sequência, número do ponto flutuante ou data. Valores de cadeia de caracteres são delimitados por\#aspas simples ou marcas "" (sinal de número) (por exemplo, "State = ' wa ' \#"\#ou "state = WA"). os valores de data são\#delimitados com marcas "" (sinal de número) (por\_exemplo \> \#,\#"data de início 7/22/97").
+O valor do critério pode ser uma sequência, número do ponto flutuante ou data. Os valores de cadeia de caracteres são delimitados por aspas simples ou " " (sinal de \# número) (por exemplo, "state = 'WA'" ou "state = \# WA \# "). Os valores de data são delimitados por \# " " (sinal de número) (por exemplo, "data de início \_ \> \# 22/7/97 \# ").
 
 Se o operador de comparação for "like", o valor da sequência pode conter um asterisco (\*) para localizar uma ou mais ocorrências de qualquer caractere ou subsequência. Por exemplo, "state like 'M\*'" corresponde a Maine e Massachusetts. Você também pode usar asteriscos no início ou final para localizar uma subsequência contida nesses valores. Por exemplo, "state like '\*as\*'" corresponde a Alaska, Arkansas e Massachusetts.
 
@@ -85,20 +85,20 @@ A propriedade **Filter** assume um argumento de variante. Este valor representa 
 
 Para remover um filtro de um **Recordset**, use a constante **adFilterNone**. A definição da propriedade **Filter** como uma sequência com tamanho igual a zero ("") tem o mesmo efeito que usar a constante **adFilterNone**.
 
-### <a name="filtering-with-a-criteria-string"></a>Filtragem com uma cadeia de caracteres de critérios
+### <a name="filtering-with-a-criteria-string"></a>Filtrando com uma cadeia de critérios
 
-A cadeia de caracteres de critérios é composta por cláusulas no *valor do operador FieldName* do formulário (por exemplo, "LastName = ' Smith '"). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = ' Smith ' e FirstName = ' John '") e OR (por exemplo,). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = ' Smith ' e FirstName = ' John '") e ou (por exemplo, "LastName = ' Smith ' ou LastName = ' Jones '"). Use as seguintes diretrizes para as sequências de critérios:
+A sequência de critérios é formada por cláusulas no formato *FieldName Operator Value* (por exemplo, "LastName = 'Smith'"). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = 'Smith' AND FirstName = 'John'") e OR (por exemplo, ). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = 'Smith' AND FirstName = 'John'") e OR (por exemplo, "LastName = 'Smith' OR LastName = 'Jones'"). Use as seguintes diretrizes para as sequências de critérios:
 
 - *FieldName* deve ser um nome de campo válido do **Recordset**. Se o nome de campo contiver espaços, coloque o nome entre colchetes.
 
-- *Operator* deve ser uma das seguintes opções: \<, \>, \<=, \>=, \< \>, = ou like.
+- *O* operador deve ser um dos seguintes: \< , = , \> \< \> =, = , \< \> =, ou LIKE.
 
-- *Value* é o valor com o qual você irá comparar os valores de campo (por exemplo, ' Smith \#'\#, 8/24/95, 12,345 ou $50). Use aspas simples (') com cadeias de caracteres e sinais\#de sustenido () com datas. Para os números, você pode usar casas decimais, sinais de dólar e notação científica. Se o *Operator* for LIKE, *Value* poderá usar caracteres curinga. Somente o asterisco (\*) e o sinal de porcentagem (%) os curingas são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
+- *Value* is the value with which you will compare the field values (for example, 'Smith', \# 8/24/95 \# , 12.345, or $50.00). Use aspas simples (') com cadeias de caracteres e sinais de libra ( \# ) com datas. Para os números, você pode usar casas decimais, sinais de dólar e notação científica. Se o *Operator* for LIKE, *Value* poderá usar caracteres curinga. Somente o asterisco ( \* ) e o sinal de porcentagem (%) caracteres curinga são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
     
   > [!NOTE]
-  > Para incluir aspas simples (') no filtro *Value*, use duas aspas simples para representar uma. Por exemplo, para filtrar no *' Malley*, a cadeia de caracteres de critérios deve ser "Col1 = ' O ' ' Malley '". 
+  > Para incluir aspas simples (') no filtro *Value*, use duas aspas simples para representar uma. Por exemplo, para filtrar *em O'Ley*, a cadeia de caracteres de critérios deve ser "col1 = 'O''Ley'". 
   > 
-  > Para incluir as marcas de aspas simples no início e no final do valor do filtro, coloque a sequência entre sinais de número (#). Por exemplo, para filtrar em *' 1 '*, a sequência de critérios deve ser "Col1 = # ' 1 ' #".
+  > Para incluir as marcas de aspas simples no início e no final do valor do filtro, coloque a sequência entre sinais de número (#). Por exemplo, para filtrar *em '1',* a sequência de critérios deve ser "col1 = #'1'#".
 
 Não há precedência entre AND e OR. As cláusulas podem ser agrupadas entre parênteses. Contudo, você não pode agrupar as cláusulas unidas por um operador OR e, em seguida, unir o grupo a outra cláusula com um operador AND, como:
 
@@ -114,7 +114,7 @@ Ao contrário, você deveria construir esse filtro como:
 (LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John') 
 ```
 
-Em uma cláusula LIKE, você pode usar um curinga no início e no final do padrão (por exemplo, LastName como '\*MIT\*') ou apenas no final do padrão (por exemplo,) ou apenas no final do padrão (por exemplo, LastName como ' Smit\*').
+Em uma cláusula LIKE, você pode usar um caractere curinga no início e no final do padrão (por exemplo, LastName Like ' mit ') ou apenas no final do padrão (por exemplo) ou apenas no final do padrão \* \* (por exemplo, LastName Like 'Smit \* ').
 
 ### <a name="filtering-with-a-constant"></a>Filtrando com uma constante
 
@@ -190,7 +190,7 @@ As constantes do filtro se tornam mais fáceis para resolver conflitos do regist
 'EndDeleteGroup 
 ```
 
-### <a name="filtering-with-bookmarks"></a>Filtrando com indicadores
+### <a name="filtering-with-bookmarks"></a>Filtragem com indicadores
 
 Finalmente, você pode passar uma matriz de variante de marcadores para a propriedade **Filter**. O cursor resultante conterá apenas aqueles registros cujo marcador foi transmitido à propriedade. O seguinte exemplo de código cria uma matriz de marcadores a partir dos registros em um **Recordset** que tenha um "B" no campo *ProductName*. Em seguida, transmite a matriz para a propriedade **Filter** e exibe as informações sobre o **Recordset** filtrado resultante.
 

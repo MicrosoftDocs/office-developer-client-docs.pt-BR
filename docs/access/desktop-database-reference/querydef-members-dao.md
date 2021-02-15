@@ -1,5 +1,5 @@
 ---
-title: Membros de QueryDef (DAO)
+title: Membros QueryDef (DAO)
 TOCTitle: QueryDef Members
 ms:assetid: 3f914d23-aa63-3ebd-1d86-4f53da71131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302979"
 ---
-# <a name="querydef-members-dao"></a>Membros de QueryDef (DAO)
+# <a name="querydef-members-dao"></a>Membros QueryDef (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -37,11 +37,11 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 <p>Cancela a execução de uma chamada assíncrona pendente do método (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-close-method-dao.md">Fechar</a></strong></p></td>
+<td><p><strong><a href="querydef-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Fecha um objeto <strong>QueryDef</strong> aberto.</p></td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Cria e anexa um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> à coleção <strong>Recordsets</strong>.</p></td>
+<td><p>Cria um novo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> e o acrescenta à coleção <strong>Recordsets</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydef-cachesize-property-dao.md">Ches</a></strong></p></td>
+<td><p><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></p></td>
 <td><p>Define ou retorna vários registros recuperados de uma fonte de dados ODBC que serão armazenados em cache localmente. <strong>Long</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
@@ -92,14 +92,14 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. Somente leitura <strong>Variant</strong>.</p></td>
+<td><p>Retorna a data e a hora da alteração mais recente feita em um objeto. <strong>Variant</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></p></td>
 <td><p>Define ou retorna o número máximo de registros a serem retornados de uma consulta em relação à fonte de dados ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>Cadeia de caracteres</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
@@ -107,16 +107,16 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <td><p>Indica se o número de segundos a ser aguardado antes da ocorrência de um erro de tempo limite durante a execução de <strong><a href="querydef-object-dao.md">QueryDef</a></strong> em um banco de dados ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></p></td>
+<td><p><strong><a href="querydef-parameters-property-dao.md">Parâmetros</a></strong></p></td>
 <td><p>Retorna uma coleção <strong><a href="parameters-collection-dao.md">Parameters</a></strong> que contém todos os objetos <strong><a href="parameter-object-dao.md">Parameter</a></strong> do <strong>QueryDef</strong> especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-prepare-property-dao.md">Preparação</a></strong></p></td>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong><a href="querydef-prepare-property-dao.md">Preparar</a></strong></p></td>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use o ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Define ou retorna um valor que indica se a consulta está preparada no servidor como um procedimento armazenado temporariamente usando a função API <strong>SQLPrepare</strong> do ODBC, antes da execução ou executar apenas usando a função API <strong>SQLExecDirect</strong> do ODBC (apenas espaços de trabalho ODBCDirect). <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> de leitura e gravação.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-properties-property-dao.md">Propriedades</a></strong></p></td>
+<td><p><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
@@ -129,16 +129,16 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></p></td>
-<td><p>Define ou retorna a instrução SQL que define a consulta executada por um objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
+<td><p>Define ou retorna a instrução SQL, que define a consulta executada por um objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p><strong>Observação</strong>: os espaços de trabalho ODBCDirect não têm suporte no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<td><p><strong>OBSERVAÇÃO</strong>: o Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Indica se uma operação assíncrona ou não (ou seja, um método chamado com a opção <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) concluiu a execução (somente em espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. <strong>Integer</strong>somente leitura.</p></td>
+<td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. Somente leitura<strong>inteiro</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>

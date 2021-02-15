@@ -22,9 +22,9 @@ O evento **WillChangeField** é chamado antes que uma operação pendente altere
 
 ## <a name="syntax"></a>Sintaxe
 
-WillChangeField*cFields*, *Fields*, *adStatus*, precaboset **
+WillChangeField *cFields*, *Fields*, *adStatus*, *pRecordset*
 
-FieldChangeComplete*cFields*, *Fields*, *perror*, *adStatus*, precaboset **
+FieldChangeComplete *cFields*, *Fields*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -35,7 +35,7 @@ FieldChangeComplete*cFields*, *Fields*, *perror*, *adStatus*, precaboset **
 Para **FieldChangeComplete**, o parâmetro *Fields* é uma matriz de **Variants** que contém os objetos **Field** com os valores alterados.|
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **WillChangeField** for chamado, esse parâmetro será definido como **adStatusOK** se a operação que provocou o evento tiver sido bem-sucedida. Será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente. <br/><br/>Quando **FieldChangeComplete** for cancelado, esse parâmetro será definido como **adStatusOK** se a operação que provocou o evento tiver sido bem-sucedida ou como **adStatusErrorsOccurred** se a operação tiver falhado. <br/><br/>Antes que **WillChangeField** seja retornado, configure esse parâmetro como **adStatusCancel** para solicitar o cancelamento da operação pendente. <br/><br/>Antes que **FieldChangeComplete** seja retornado, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
-|*precaboset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
+|*pRecordset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 

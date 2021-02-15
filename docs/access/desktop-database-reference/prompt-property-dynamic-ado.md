@@ -1,5 +1,5 @@
 ---
-title: Propriedade Dynamic prompt (ADO)
+title: Propriedade Dinâmica do Prompt (ADO)
 TOCTitle: Prompt dynamic property (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301320"
 ---
-# <a name="prompt-dynamic-property-ado"></a>Propriedade Dynamic prompt (ADO)
+# <a name="prompt-dynamic-property-ado"></a>Propriedade Dinâmica do Prompt (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

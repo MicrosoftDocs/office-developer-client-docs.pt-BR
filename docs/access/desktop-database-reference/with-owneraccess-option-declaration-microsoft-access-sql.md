@@ -29,7 +29,7 @@ Em um ambiente de vários usuários com um grupo de trabalho seguro, use essa de
 
 ## <a name="syntax"></a>Sintaxe
 
-** SQLStatement OPÇÃO WITH OWNERACCESS
+*sqlstatement* COM A OPÇÃO OWNERACCESS
 
 ## <a name="remarks"></a>Comentários
 

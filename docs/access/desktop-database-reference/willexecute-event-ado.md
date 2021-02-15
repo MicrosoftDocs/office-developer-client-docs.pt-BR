@@ -22,19 +22,19 @@ O evento **WillExecute** é chamado um pouco antes da execução de um comando p
 
 ## <a name="syntax"></a>Sintaxe
 
-WillExecute*Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*, ** precaboset, *pConnection*
+WillExecute *Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*, *pRecordset*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*Source* |Uma **sequência de caracteres** que contém um comando SQL ou um nome de procedimento armazenado.|
-|*CursorType* |Um [CursorTypeEnum](cursortypeenum.md) que contém o tipo de cursor para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o cursor para qualquer tipo durante uma operação de [abertura](open-method-ado-recordset.md) de **Recordset** . O *CursorType* será ignorado para qualquer outra operação.|
+|*CursorType* |Um [CursorTypeEnum](cursortypeenum.md) que contém o tipo de cursor para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o cursor para qualquer tipo durante uma **operação Recordset** [Open.](open-method-ado-recordset.md) O *CursorType* será ignorado para qualquer outra operação.|
 |*LockType* |Um [LockTypeEnum](locktypeenum.md) que contém o tipo de bloqueio para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o bloqueio para qualquer tipo, durante a operação **Open** do **Recordset**. O *LockType* será ignorado para qualquer outra operação.|
 |*Options* |Um valor **Long** que indica as opções que podem ser usadas para executar o comando ou abrir o **Recordset**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes que esse evento retorne, defina esse parâmetro como **adStatusUnwantedEvent**, para evitar notificações subsequentes, ou como **adStatusCancel** para solicitar o cancelamento da operação que gerou esse evento.|
 |*pCommand* |O objeto [Command](command-object-ado.md) ao qual essa notificação de evento se aplica.|
-|*precaboset* |O objeto [Recordset](recordset-object-ado.md) ao qual essa notificação de evento se aplica.|
+|*pRecordset* |O objeto [Recordset](recordset-object-ado.md) ao qual essa notificação de evento se aplica.|
 |*pConnection* |O objeto [Connection](connection-object-ado.md) ao qual essa notificação de evento se aplica.|
 
 ## <a name="remarks"></a>Comentários

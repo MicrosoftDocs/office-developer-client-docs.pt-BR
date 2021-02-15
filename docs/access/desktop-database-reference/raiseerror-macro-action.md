@@ -23,7 +23,7 @@ A ação **GerarErro** cria uma exceção que pode ser lidada pela ação de mac
 > [!NOTE]
 > [!OBSERVAçãO] A ação **GerarErro** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **GerarErro** tem os seguintes argumentos.
 
@@ -35,7 +35,7 @@ A ação **GerarErro** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -63,7 +63,7 @@ Se não houver uma instrução **AoOcorrerErro** ativa lidando com erros, o erro
 
 Para ver a tabela **USysApplicationLog**, siga estas etapas:
 
-1.  Clique no menu **arquivo** e, em seguida, clique em **Opções**.
+1.  Clique no menu **Arquivo** e em **Opções.**
 
 2.  Na caixa de diálogo **Opções do Access**, clique na guia **Bancos de Dados Atual**.
 
@@ -75,7 +75,7 @@ Para ver a tabela **USysApplicationLog**, siga estas etapas:
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento antes de alterar a macro de dados. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído está atualmente atribuído a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
+O exemplo a seguir mostra como usar a ação RaiseError para cancelar o evento de macro de dados Antes de Alterar. Quando o campo AssignedTo é atualizado, um bloco de dados LookupRecord é usado para determinar se o técnico atribuído está atribuído no momento a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento Antes de Alterar será cancelado e o registro não será atualizado.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -19,5 +19,5 @@ ms.locfileid: "32300718"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Record (ADO)](record-object-ado.md)
-- [Propriedades, métodos e eventos de registro (ADO)](record-properties-methods-and-events-ado.md)
+- [Gravar propriedades, métodos e eventos (ADO)](record-properties-methods-and-events-ado.md)
 

@@ -38,7 +38,7 @@ Um recurso (por exemplo, um arquivo ou um diretório) pode ser identificado excl
 A modificação dos dados e os métodos de navegação no objeto **Record** também aceitam uma URL relativa, que localiza um recurso usando uma URL absoluta ou o contexto do objeto **Connection** como um ponto de partida.
 
 > [!NOTE]
-> [!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 
 

@@ -42,7 +42,7 @@ Especifica se um **Record** existente deve ser aberto ou um novo **Record** cria
 </tr>
 <tr class="even">
 <td><p><strong>adCreateNonCollection</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Cria um novo <strong>Record</strong> do tipo <a href="recordtypeenum.md">adSimpleRecord</a>.</p></td>
 </tr>
 <tr class="odd">

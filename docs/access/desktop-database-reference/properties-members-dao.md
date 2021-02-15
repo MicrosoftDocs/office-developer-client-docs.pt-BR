@@ -1,5 +1,5 @@
 ---
-title: Membros de Propriedades (DAO)
+title: Membros properties (DAO)
 TOCTitle: Properties Members
 ms:assetid: 04cd45ae-3a1e-6090-534d-de10363744c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301257"
 ---
-# <a name="properties-members-dao"></a>Membros de Propriedades (DAO)
+# <a name="properties-members-dao"></a>Membros properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Uma coleção Properties contém todos os objetos **[Property](property-object-dao.md)** para uma instância específica de um objeto.
+Uma coleção Properties contém todos os **[objetos Property](property-object-dao.md)** para uma instância específica de um objeto.
 
 ## <a name="methods"></a>Métodos
 
@@ -36,11 +36,11 @@ Uma coleção Properties contém todos os objetos **[Property](property-object-d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">Acrescido</a></strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Adiciona um novo <strong>Property</strong> à coleção <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="properties-delete-method-dao.md">Excluir</a></strong></p></td>
+<td><p><strong><a href="properties-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Exclui o objeto <strong>Property</strong> especificado da coleção <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="odd">

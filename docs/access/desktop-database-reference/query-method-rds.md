@@ -1,5 +1,5 @@
 ---
-title: Método Query (referência do banco de dados de área de trabalho do Access)
+title: Método Query (RDS - referência do banco de dados da área de trabalho do Access)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -22,7 +22,7 @@ Utiliza uma sequência de consulta SQL válida para retornar um [Recordset](reco
 
 ## <a name="syntax"></a>Sintaxe
 
-Define*Recordset* = ** datafactory. Consulta (*conexão*, *consulta*)
+Definir *Recordset*  =  *DataFactory*. Query(*Connection*, *Query*)
 
 ## <a name="parameters"></a>Parâmetros
 

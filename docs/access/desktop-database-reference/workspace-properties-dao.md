@@ -1,5 +1,5 @@
 ---
-title: Propriedades do espaço de trabalho (DAO)
+title: Propriedades de espaço de trabalho (DAO)
 TOCTitle: Properties
 ms:assetid: 5b18557d-5531-4149-b773-89fa58cf73ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124967(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305905"
 ---
-# <a name="workspace-properties-dao"></a>Propriedades do espaço de trabalho (DAO)
+# <a name="workspace-properties-dao"></a>Propriedades de espaço de trabalho (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade Workspace. Connections (DAO)](workspace-connections-property-dao.md)
-- [Propriedade Workspace. databases (DAO)](workspace-databases-property-dao.md)
-- [Propriedade Workspace. DefaultCursorDriver (DAO)](workspace-defaultcursordriver-property-dao.md)
-- [Propriedade Workspace. IsolateODBCTrans (DAO)](workspace-isolateodbctrans-property-dao.md)
-- [Propriedade Workspace. LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
-- [Propriedade Workspace.Name (DAO)](workspace-name-property-dao.md)
-- [Propriedade Workspace. Properties (DAO)](workspace-properties-property-dao.md)
-- [Propriedade Workspace. Type (DAO)](workspace-type-property-dao.md)
+- [Propriedade Workspace.Connections (DAO)](workspace-connections-property-dao.md)
+- [Propriedade Workspace.Databases (DAO)](workspace-databases-property-dao.md)
+- [Propriedade Workspace.DefaultCursorDriver (DAO)](workspace-defaultcursordriver-property-dao.md)
+- [Propriedade Workspace.IsolateODBCTrans (DAO)](workspace-isolateodbctrans-property-dao.md)
+- [Propriedade Workspace.LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
+- [Workspace.Name (DAO)](workspace-name-property-dao.md)
+- [Propriedade Workspace.Properties (DAO)](workspace-properties-property-dao.md)
+- [Propriedade Workspace.Type (DAO)](workspace-type-property-dao.md)
 
 

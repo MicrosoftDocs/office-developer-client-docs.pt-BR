@@ -24,7 +24,7 @@ Se **Record** for aberto a partir de um **Recordset**, a coleção **Fields** co
 
 O provedor pode inserir campos adicionais que funcionem como características complementares de **Record**. Como resultado, um **Record** poderá ter campos exclusivos que não façam parte de **Recordset** como um todo ou qualquer **Record** derivado de outra linha de **Recordset**.
 
-Por exemplo, todas as linhas de um **Recordset** derivadas de uma fonte de dados de email podem ter colunas como from, to e Subject. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
+Por exemplo, todas as linhas de um **Recordset** derivadas de uma fonte de dados de email podem ter colunas como De, Para e Assunto. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
 
 Embora o objeto **Record** e a linha atual de **Recordset** tenham os mesmos campos, eles são diferentes, pois os objetos **Record** e **Recordset** possuem métodos e propriedades diferentes.
 
@@ -101,7 +101,7 @@ Um *conjunto de registros de recurso* consiste nas seguintes colunas.
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica o tipo MIME do documento, indicando o formato como &quot;text/html.&quot;</p></td>
+<td><p>Indica o tipo MIME do documento, indicando o formato como &quot; texto/html &quot; .'</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

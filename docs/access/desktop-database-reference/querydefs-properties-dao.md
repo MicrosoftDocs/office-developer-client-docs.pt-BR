@@ -18,5 +18,5 @@ ms.locfileid: "32303441"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Propriedade QueryDefs. Count (DAO)](querydefs-count-property-dao.md)
+- [Propriedade QueryDefs.Count (DAO)](querydefs-count-property-dao.md)
 

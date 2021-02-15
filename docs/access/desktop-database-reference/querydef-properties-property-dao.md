@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. Properties (DAO)
+title: Propriedade QueryDef.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 91d724bf-8e63-a517-c5be-2b8b382608e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197640(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303217"
 ---
-# <a name="querydefproperties-property-dao"></a>Propriedade QueryDef. Properties (DAO)
+# <a name="querydefproperties-property-dao"></a>Propriedade QueryDef.Properties (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto esp
 
 *expressão* . Propriedades
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 

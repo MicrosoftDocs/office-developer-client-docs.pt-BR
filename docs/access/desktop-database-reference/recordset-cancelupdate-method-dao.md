@@ -1,5 +1,5 @@
 ---
-title: Método Recordset. CancelUpdate (DAO)
+title: Método Recordset.CancelUpdate (DAO)
 TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300676"
 ---
-# <a name="recordsetcancelupdate-method-dao"></a>Método Recordset. CancelUpdate (DAO)
+# <a name="recordsetcancelupdate-method-dao"></a>Método Recordset.CancelUpdate (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Cancela as atualizações pendentes para um objeto **[Recordset](recordset-object-dao.md)**.
+Cancela qualquer atualizações pendentes de um objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CancelUpdate (***UpdateType***)
+*expressão* . CancelUpdate(***UpdateType***)
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,7 +42,7 @@ Cancela as atualizações pendentes para um objeto **[Recordset](recordset-objec
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -52,7 +52,7 @@ Cancela as atualizações pendentes para um objeto **[Recordset](recordset-objec
 <td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Defina como um dos valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Observação</strong>: os valores <EM>dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> são válidos somente se a atualização em lotes estiver habilitada.</p>
+<td><p>De definida como um dos <strong><a href="updatetypeenum-enumeration-dao.md">valores UpdateTypeEnum.</a></strong></p><p><strong>OBSERVAÇÃO:</strong>os <EM>valores dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> só serão válidos se a atualização em lotes estiver habilitada.</p>
 </td>
 </tr>
 </tbody>

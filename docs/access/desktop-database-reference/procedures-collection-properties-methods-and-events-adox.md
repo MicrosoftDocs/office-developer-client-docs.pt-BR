@@ -25,11 +25,11 @@ ms.locfileid: "32301348"
 
 ## <a name="methods"></a>Métodos
 
-- [Método Append (procedimentos)](append-method-adox-procedures.md)
-- [Método Delete (coleções)](delete-method-adox-collections.md)
+- [Método Append (Procedimentos)](append-method-adox-procedures.md)
+- [Método Delete (Coleções)](delete-method-adox-collections.md)
 - [Método Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

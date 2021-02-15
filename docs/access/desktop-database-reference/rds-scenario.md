@@ -1,5 +1,5 @@
 ---
-title: Cenário RDS (referência de banco de dados de área de trabalho do Access)
+title: Cenário do RDS (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RDS scenario
 ms:assetid: 61b4b047-4a8f-491c-868e-08aa87d81dff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
@@ -20,8 +20,8 @@ ms.locfileid: "32300823"
 
 - [Botões de comando do catálogo de endereços](address-book-command-buttons.md)
 - [Objeto Address Book Data-Binding](address-book-data-binding-object.md)
-- [Botões de navegação do catálogo de endereços](address-book-navigation-buttons.md)
-- [Executando o aplicativo de exemplo do catálogo de endereços](running-the-address-book-sample-application.md)
+- [Botões de navegação do livro de endereços](address-book-navigation-buttons.md)
+- [Executando o aplicativo de exemplo do Livro de Endereços](running-the-address-book-sample-application.md)
 - [Requisitos do sistema para o aplicativo Catálogo de Endereços](system-requirements-for-the-address-book-application.md)
 
 

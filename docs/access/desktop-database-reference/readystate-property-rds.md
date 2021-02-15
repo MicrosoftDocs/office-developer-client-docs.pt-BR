@@ -58,5 +58,5 @@ Define ou retorna um dos seguintes valores.
 
 Utilize o evento [onReadyStateChange](onreadystatechange-event-rds.md) para monitorar as alterações da propriedade **ReadyState** durante uma operação de consulta assíncrona. Esse procedimento é mais eficiente do que verificar periodicamente o valor da propriedade.
 
-Se ocorrer um erro durante uma operação assíncrona, **** a propriedade ReadyState será alterada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) será alterada de **adStateExecuting** para **adStateClosed**e o **Recordset** Propriedade [valor](value-property-ado.md) do objeto permanece *Nothing*.
+Se ocorrer um erro durante uma operação assíncrona, a propriedade **ReadyState** será mudada para **adcReadyStateComplete**, a propriedade [State](state-property-ado.md) muda de **adStateExecuting** para **adStateClosed** e a propriedade [Value](value-property-ado.md) do objeto **Recordset** permanece *Nothing*.
 

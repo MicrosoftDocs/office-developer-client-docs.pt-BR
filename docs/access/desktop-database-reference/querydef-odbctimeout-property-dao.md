@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. ODBCTimeout (DAO)
+title: Propriedade QueryDef.ODBCTimeout (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300998"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>Propriedade QueryDef. ODBCTimeout (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>Propriedade QueryDef.ODBCTimeout (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Indica se o número de segundos a ser aguardado antes da ocorrência de um erro 
 
 *expressão* . ODBCTimeout
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 

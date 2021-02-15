@@ -1,5 +1,5 @@
 ---
-title: O que é um Cursor?  (Referência do banco de dados do Access Desktop)
+title: O que é um Cursor?  (Referência do banco de dados da área de trabalho do Access)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
@@ -67,7 +67,7 @@ Em alguns aplicativos de vários usuários, é extremamente importante que os da
 
 Em outros aplicativos, a simultaneidade não é tão importante. Nesses casos, a despesa envolvida em manter os dados sempre atualizados não pode ser justificada.
 
-## <a name="position"></a>Posição
+## <a name="position"></a>Position
 
 Um cursor também mantém o controle da posição atual em um conjunto de resultados. Pense na posição do cursor como um ponteiro para o registro atual, semelhante ao modo como um índice de matriz aponta para o valor naquele determinado local na matriz.
 

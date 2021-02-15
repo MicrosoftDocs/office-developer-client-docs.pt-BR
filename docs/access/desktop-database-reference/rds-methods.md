@@ -1,5 +1,5 @@
 ---
-title: Métodos RDS (referência de banco de dados de área de trabalho do Access)
+title: Métodos RDS (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32300886"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Método		</th>
+<th>Método</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ ms.locfileid: "32300886"
 <td><p>Cria um <strong>Recordset</strong> vazio e desconectado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, moVelast, MoveNext, MovePrevious</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></p></td>
 <td><p>Move para o primeiro, o último, o próximo ou o registro anterior em um objeto <strong>Recordset</strong> especificado.</p></td>
 </tr>
 <tr class="odd">

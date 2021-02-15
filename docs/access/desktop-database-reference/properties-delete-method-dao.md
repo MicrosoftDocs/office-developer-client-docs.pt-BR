@@ -1,5 +1,5 @@
 ---
-title: Método Properties. Delete (DAO)
+title: Método Properties.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301246"
 ---
-# <a name="propertiesdelete-method-dao"></a>Método Properties. Delete (DAO)
+# <a name="propertiesdelete-method-dao"></a>Método Properties.Delete (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Exclui o objeto **Property** especificado da coleção **Properties**.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Excluir (***nome***)
+*expressão* . Delete(***Name***)
 
-*expressão* Uma variável que representa um objeto **Properties** .
+*expressão* Uma variável que representa um **objeto** Properties .
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -38,14 +38,14 @@ Exclui o objeto **Property** especificado da coleção **Properties**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>O nome da propriedade a ser excluída.</p></td>

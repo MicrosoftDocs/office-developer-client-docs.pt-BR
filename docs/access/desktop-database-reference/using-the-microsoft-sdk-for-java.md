@@ -23,7 +23,7 @@ O Microsoft SDK for Java é o kit de desenvolvedor para o ambiente Microsoft Int
 
 O utilitário Jactivex.exe gera classes de uma biblioteca de tipos, mas somente pode ser chamado na linha de comando. Esse recurso não está integrado ao ambiente de desenvolvimento do Visual J++. Ao contrário das classes geradas pelo [Java Type Library Wizard](using-the-java-type-library-wizard.md), você pode entrar nos invólucros de classe criados pelo SDK, o que é útil para depurar o modo de uso das classes invólucro ADO pelo seu código.
 
-Esse mecanismo lê a biblioteca de tipos ADO e gera classes que podem ser instanciadas em seu aplicativo. Ele gera essas classes no seguinte local \\ \<: Windows Directory\>\\Java\\trustlib\\MsADO15.
+Esse mecanismo lê a biblioteca de tipos ADO e gera classes que podem ser instanciadas em seu aplicativo. Ele gera essas classes no seguinte local: \\ \< windows directory Java \> \\ \\ trustlib \\ msado15.
 
 A criação de um aplicativo ADO em Java com o Microsoft SDK for Java é basicamente idêntico, da perspectiva do código-fonte, ao uso do Java Type Library Wizard. Para obter um código de exemplo, consulte [Invólucros de classe ADO Java](ado-java-class-wrappers.md). A única diferença real está no modo como você gera as classes invólucro em primeiro lugar, conforme demonstrado nas etapas a seguir.
 
@@ -43,5 +43,5 @@ A criação de um aplicativo ADO em Java com o Microsoft SDK for Java é basicam
     jvc /g:t c:\<windows>\Java\trustlib\msado15\*.Java 
     ```
 
-3.  Para usar esses arquivos, abra seu projeto no Visual J++. No menu **Projeto**, escolha **Adicionar ao Projeto**. Selecione **arquivos**e adicione todos os. Arquivos JAVA gerados no diretório trustlib\\MsADO15 para o seu projeto.
+3.  Para usar esses arquivos, abra seu projeto no Visual J++. No menu **Projeto**, escolha **Adicionar ao Projeto**. Select **Files**, and add all of the . Arquivos JAVA gerados no diretório trustlib \\ msado15 para seu projeto.
 

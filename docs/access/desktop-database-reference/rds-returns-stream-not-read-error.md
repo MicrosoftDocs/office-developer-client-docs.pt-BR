@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300851"
 ---
-# <a name="rds-returns-stream-not-read-error"></a>O RDS \"retorna o erro\" de fluxo não lido
+# <a name="rds-returns-stream-not-read-error"></a>O RDS retorna \" um erro stream não \" lido
 
 
 **Aplica-se ao:** Access 2013, Office 2013

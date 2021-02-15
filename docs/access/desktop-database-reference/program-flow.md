@@ -1,5 +1,5 @@
 ---
-title: Fluxo do programa (referência do banco de dados do Access)
+title: Fluxo do programa (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Program flow
 ms:assetid: 1ca43854-f15b-45f8-a227-eaa8e1aec75f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123920(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32301285"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Bloco de macro If...Then...Else](if-then-else-macro-block.md)
+- [Bloco de macro Se... Então... Senão](if-then-else-macro-block.md)
 - [Instrução de macro Comentário](comment-macro-statement.md)
 - [Instrução de macro Grupo](group-macro-statement.md)
 - [Instrução de macro Submacro](submacro-macro-statement.md)

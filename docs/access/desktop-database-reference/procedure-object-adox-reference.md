@@ -19,5 +19,5 @@ ms.locfileid: "32301383"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Procedure (ADOX)](procedure-object-adox.md)
-- [Propriedades, métodos e eventos do procedimento (ADOX)](procedure-properties-methods-and-events-adox.md)
+- [Propriedades, métodos e eventos de procedimento (ADOX)](procedure-properties-methods-and-events-adox.md)
 

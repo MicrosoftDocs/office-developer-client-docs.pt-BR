@@ -37,7 +37,7 @@ A correspondência de padrões internos fornece uma ferramenta versátil para fa
 <td><p>Qualquer caractere simples</p></td>
 </tr>
 <tr class="even">
-<td><p>*ou</p></td>
+<td><p>* ou %</p></td>
 <td><p>Zero ou mais caracteres</p></td>
 </tr>
 <tr class="odd">
@@ -56,19 +56,19 @@ A correspondência de padrões internos fornece uma ferramenta versátil para fa
 </table>
 
 
-Você pode usar um grupo de um ou mais caracteres (*charlist*) entre\[ \]colchetes () para corresponder a qualquer caractere único em *Expression,* e *charlist* pode incluir quase todos os caracteres no conjunto de caracteres ANSI, incluindo dígito. Você pode usar o colchete de abertura de caracteres\[ especiais (), o ponto de interrogação (?\#), o sinal de\*número () e o asterisco () para fazer a correspondência deles diretamente apenas se estiverem entre colchetes. Não é possível usar o colchete de \]fechamento () dentro de um grupo para corresponder a si mesmo, mas você pode usá-lo fora de um grupo como um caractere individual.
+Você pode usar um grupo de um ou mais caracteres (*charlist*) entre colchetes ( ) para corresponder a qualquer caractere único na expressão, e charlist pode incluir quase todos os caracteres no conjunto de \[ \] caracteres  ANSI, incluindo dígitos.  Você pode usar o colchete de abertura de caracteres especiais ( ), ponto de interrogação (?), sinal de número ( ) e asterisco ( ) para corresponder a si mesmos diretamente somente se estiver entre \[ \# \* colchetes. Você não pode usar o colchete de fechamento ( ) dentro de um grupo para se corresponder a si mesmo, mas você pode usá-lo fora de um \] grupo como um caractere individual.
 
-Além de uma simples lista de caracteres entre colchetes, *charlist* pode especificar um intervalo de caracteres utilizando um hífen (-) para separar limites superiores e inferiores do intervalo. Por exemplo, o \[uso de A\] -Z no *padrão* resulta em uma correspondência se a posição do caractere correspondente na *expressão* contiver qualquer uma das letras maiúsculas no intervalo de a a Z. Você pode incluir vários intervalos dentro dos colchetes sem delimitar os intervalos. Por exemplo, \[a-zA-Z0-9\] corresponde a qualquer caractere alfanumérico.
+Além de uma simples lista de caracteres entre colchetes, *charlist* pode especificar um intervalo de caracteres utilizando um hífen (-) para separar limites superiores e inferiores do intervalo. Por exemplo, usar A-Z no padrão resulta em uma correspondência se a posição de caractere correspondente na expressão contiver qualquer uma das letras maiúsculas no intervalo \[ \] de A a Z.   Você pode incluir vários intervalos entre colchetes sem delimitar os intervalos. Por exemplo, \[ a-zA-Z0-9 corresponde a \] qualquer caractere alfanumérico.
 
-É importante observar que os curingas ANSI SQL (%) e (\_) só estão disponíveis com o Microsoft Jet versão 4. X e o Microsoft OLE DB Provider for Jet. Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.
+É importante observar que os caracteres curinga do ANSI SQL (%) e ( ) só estão disponíveis com o \_ Microsoft Jet versão 4.X e o Microsoft OLE DB Provider for Jet. Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.
 
 A seguir estão outras regras importantes para correspondência de padrões:
 
-- Um ponto de exclamação (\!) no início da *charlist* significa que uma correspondência é feita se qualquer caractere, exceto aqueles em *charlist* , for encontrado na *expressão*. Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.
+- Um ponto de exclamação ( ) no início da lista de caracteres significa que uma combinação será feita se qualquer caractere, exceto aqueles na lista de caracteres, for \! encontrado na *expressão*.   Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.
 
 - Você pode usar o hífen (-) no início (após um ponto de exclamação, se utilizado) ou no final da *charlist* para sua própria correspondência. Em outro local, o hífen identifica um intervalo de caracteres ANSI.
 
-- Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100). \[A-Z\] é um padrão válido, mas \[Z-a\] não é.
+- Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100). \[A-Z \] é um padrão válido, mas \[ Z-A \] não é.
 
-- A sequência \[ \] de caracteres é ignorada; Ela é considerada como uma cadeia de caracteres de comprimento zero ("").
+- A sequência de caracteres é ignorada; ela é considerada \[ \] uma cadeia de caracteres de comprimento zero ("").
 

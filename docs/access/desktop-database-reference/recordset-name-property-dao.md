@@ -23,9 +23,9 @@ Retorna o nome do objeto especificado. **String** somente leitura.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Tdomínio
+*expressão* . Nome
 
-*expressão* Uma variável que representa um objeto **Recordset** .
+*expression* Uma variável que representa um objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 

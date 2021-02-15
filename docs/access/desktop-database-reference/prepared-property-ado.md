@@ -1,5 +1,5 @@
 ---
-title: Propriedade preparado (ADO)
+title: Propriedade Prepared (ADO)
 TOCTitle: Prepared property (ADO)
 ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301453"
 ---
-# <a name="prepared-property-ado"></a>Propriedade preparado (ADO)
+# <a name="prepared-property-ado"></a>Propriedade Prepared (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

@@ -22,9 +22,9 @@ O evento **WillChangeRecord** é chamado antes da alteração de um ou mais regi
 
 ## <a name="syntax"></a>Sintaxe
 
-WillChangeRecord*adReason*, *cRecords*, *adStatus*, ** precaboset
+WillChangeRecord *adReason*, *cRecords*, *adStatus*, *pRecordset*
 
-RecordChangeComplete*adReason*, *cRecords*, *perror*, *adStatus*, ** precaboset
+RecordChangeComplete *adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -34,13 +34,13 @@ RecordChangeComplete*adReason*, *cRecords*, *perror*, *adStatus*, ** precaboset
 |*cRecords* |Um valor **Long** que indica o número de registros que foram alterados (afetados).|
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **WillChangeRecord** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida. Ele será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente. <br/><br/>Quando **RecordChangeComplete** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida, ou como **adStatusErrorsOccurred** se a operação falhar. <br/><br/>Antes do retorno de **WillChangeRecord**, defina esse parâmetro como **adStatusCancel**, para solicitar o cancelamento da operação que gerou esse evento, ou como adStatusUnwantedEvent para evitar notificações subsequentes. <br/><br/>Antes do retorno de **RecordChangeComplete**, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
-|*precaboset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
+|*pRecordset* |Um objeto **Recordset**. O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 
-Um evento **WillChangeRecord** ou **RecordChangeComplete** pode ocorrer para o campo alterado em uma linha devido às seguintes operações de **Recordset**: [Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) e [CancelBatch](cancelbatch-method-ado.md). O valor do **Recordset** [CursorType](cursortype-property-ado.md) determina quais operações fazem com que os eventos ocorram.
+Um evento **WillChangeRecord** ou **RecordChangeComplete** pode ocorrer para o campo alterado em uma linha devido às seguintes operações de **Recordset**: [Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) e [CancelBatch](cancelbatch-method-ado.md). O valor do [CursorType](cursortype-property-ado.md) **do Recordset** determina quais operações causam a ocorrência de eventos.
 
-Durante o evento **WillChangeRecord** , a propriedade [Filter](filter-property-ado.md) do **Recordset** é definida como **adFilterAffectedRecords**. Você não poderá alterar essa propriedade enquanto estiver processando o evento.
+Durante o **evento WillChangeRecord,** a propriedade **Recordset** [Filter](filter-property-ado.md) é definida como **adFilterAffectedRecords**. Você não poderá alterar essa propriedade enquanto estiver processando o evento.
 
 Você deve definir o parâmetro adStatus como adStatusUnwantedEvent para cada valor adReason possível, a fim de interromper totalmente as notificações de qualquer evento que inclua o parâmetro adReason.
 

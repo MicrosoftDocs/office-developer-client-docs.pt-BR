@@ -27,7 +27,7 @@ Você pode usar a ação **SairdoAccess** para sair do Microsoft Access. A açã
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **SairdoAccess** tem os seguintes argumentos.
 

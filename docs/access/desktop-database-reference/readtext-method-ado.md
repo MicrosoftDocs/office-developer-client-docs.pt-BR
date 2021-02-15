@@ -22,7 +22,7 @@ Lê o número de caracteres especificado de um objeto [Stream](stream-object-ado
 
 ## <a name="syntax"></a>Sintaxe
 
-** = *Fluxo*de cadeia de caracteres. ReadText (*NUMCHARS*)
+*Cadeia de caracteres*  =  *Stream*. ReadText (*NumChars*)
 
 ## <a name="parameters"></a>Parâmetros
 

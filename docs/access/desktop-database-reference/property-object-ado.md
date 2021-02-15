@@ -25,9 +25,9 @@ Representa uma característica dinâmica de um objeto ADO definido pelo provedor
 
 Os objetos ADO têm dois tipos de propriedades: internas e dinâmicas.
 
-Propriedades internas são aquelas implementadas no ADO e disponibilizadas imediatamente para qualquer objeto novo, usando a sintaxe. Essas propriedades não aparecem como objetos **Property** na coleção [Properties](properties-collection-ado.md), por isso, embora você possa alterar seus valores, não será possível modificar suas características.
+As propriedades criadas são aquelas implementadas no ADO e imediatamente disponíveis para qualquer novo objeto, usando a sintaxe. Essas propriedades não aparecem como objetos **Property** na coleção [Properties](properties-collection-ado.md), por isso, embora você possa alterar seus valores, não será possível modificar suas características.
 
-As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto [Recordset](recordset-object-ado.md) oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. As propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject. Properties (0) ou MyObject. Properties ("Name").
+As propriedades dinâmicas são definidas pelo provedor de dados subjacentes e aparecem na coleção **Properties** referente ao objeto ADO adequado. Por exemplo, uma propriedade específica do provedor pode indicar se um objeto [Recordset](recordset-object-ado.md) oferece suporte a transações ou à atualização. Essas propriedades adicionais serão exibidas como objetos **Property** na coleção **Properties** do objeto **Recordset**. As propriedades dinâmicas podem ser referenciadas somente através da coleção, usando a sintaxe MyObject.Properties(0) ou MyObject.Properties("Name").
 
 Não é possível excluir nenhum tipo de propriedade.
 

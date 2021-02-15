@@ -1,5 +1,5 @@
 ---
-title: Membros de espaços de trabalho (DAO)
+title: Membros workspaces (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302601"
 ---
-# <a name="workspaces-members-dao"></a>Membros de espaços de trabalho (DAO)
+# <a name="workspaces-members-dao"></a>Membros workspaces (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Uma coleção Workspaces contém todos os objetos Workspace ativos e não-oculto
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Acrescido</a></strong></p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Adiciona um novo objeto <strong>Workspace</strong> à coleção <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspaces-delete-method-dao.md">Excluir</a></strong></p></td>
+<td><p><strong><a href="workspaces-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Exclui o formulário <strong>Workspace</strong> especificado da coleção <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="odd">

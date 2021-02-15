@@ -21,7 +21,7 @@ ms.locfileid: "32305898"
 
 
 
-[O OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) mostra um exemplo específico de acesso a dados heterogêneos com o ADO. Enquanto os exemplos nesta seção serão específicos para usar o provedor de publicação na Internet, os princípios demonstrados devem ser semelhantes ao usar o ADO com outros provedores para dados heterogêneos, como um provedor para um repositório de email.
+[O OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) mostra um exemplo específico de acesso a dados heterogêneos com o ADO. Embora os exemplos desta seção sejam específicos para usar o Internet Publishing Provider, os princípios demonstrados devem ser semelhantes ao usar o ADO com outros provedores para dados heterogêneos, como um provedor para um armazenamento de email.
 
 ## <a name="urls"></a>URLs
 
@@ -45,4 +45,4 @@ Vários objetos ADO foram aprimorados para funcionar junto com objetos **Record*
 
 ## <a name="see-also"></a>Confira também
 
-- [Tópicos do cenário de publicação na Internet](internet-publishing-scenario.md)
+- [Tópicos do Cenário de Publicação na Internet](internet-publishing-scenario.md)

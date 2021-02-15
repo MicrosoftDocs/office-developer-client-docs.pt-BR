@@ -1,5 +1,5 @@
 ---
-title: Eventos RDS (referência do banco de dados de área de trabalho do Access)
+title: Eventos RDS (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RDS events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)

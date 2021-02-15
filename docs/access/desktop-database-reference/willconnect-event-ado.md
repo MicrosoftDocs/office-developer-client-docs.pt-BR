@@ -22,7 +22,7 @@ O evento **WillConnect** é chamado antes que uma conexão seja iniciada.
 
 ## <a name="syntax"></a>Sintaxe
 
-WillConnect*ConnectionString*, *userid*, *senha*, *Opções*, *adStatus*, *pConnection*
+WillConnect *ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 

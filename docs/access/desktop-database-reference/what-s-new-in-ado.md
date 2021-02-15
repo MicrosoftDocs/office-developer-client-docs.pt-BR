@@ -1,5 +1,5 @@
 ---
-title: O que há de novo no ADO (ActiveX Data Objects)
+title: Novidades no ActiveX Data Objects (ADO)
 TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
@@ -24,11 +24,11 @@ Os novos recursos a seguir e a documentação aperfeiçoada foram incluídos no 
 
 - **[Registros e fluxos](chapter-10-records-and-streams.md)**
 
-  Esta versão do ADO apresenta o objeto [Record](record-object-ado.md) , que pode representar e gerenciar itens como diretórios e arquivos em um sistema de arquivos e pastas e mensagens em um sistema de email. Um **Record** também pode representar uma linha em um [Recordset](recordset-object-ado.md), embora os objetos **Record** e **Recordset** tenham métodos e propriedades diferentes.
+  Esta versão do ADO apresenta o objeto [Record,](record-object-ado.md) que pode representar e gerenciar coisas como diretórios e arquivos em um sistema de arquivos e pastas e mensagens em um sistema de email. Um **Record** também pode representar uma linha em um [Recordset](recordset-object-ado.md), embora os objetos **Record** e **Recordset** tenham métodos e propriedades diferentes.
 
   O novo objeto [Stream](stream-object-ado.md) permite ler, gravar e gerenciar o fluxo binário de bytes ou o texto que abrange um fluxo de arquivo ou de mensagem.
 
-- **[Uso de URL](absolute-and-relative-urls.md)**
+- **[Uso da URL](absolute-and-relative-urls.md)**
 
   Esta versão também introduz o uso de URLs, uma alternativa para sequências de conexão e texto de comando, para nomear objetos de repositório de dados. As URLs podem ser usadas com os objetos [Connection](connection-object-ado.md) e **Recordset** existentes, e também com os novos objetos **Record** e **Stream**.
 
@@ -36,7 +36,7 @@ Os novos recursos a seguir e a documentação aperfeiçoada foram incluídos no 
 
 - **[Campos especiais para provedores de fonte de documentos](records-and-provider-supplied-fields.md)**
 
-  Uma classe especial de provedores, denominada provedores de *fonte de documentos*, gerencia pastas e documentos. Quando um objeto **Record** representa um documento, ou um objeto **Recordset** representa uma pasta de documentos, o provedor de fonte de documentos preenche esses objetos com um conjunto exclusivo de campos que descrevem as características do documento. Esses campos constituem um ** **registro** de recurso ou **Recordset**.
+  Uma classe especial de provedores, denominada provedores de *fonte de documentos*, gerencia pastas e documentos. Quando um objeto **Record** representa um documento, ou um objeto **Recordset** representa uma pasta de documentos, o provedor de fonte de documentos preenche esses objetos com um conjunto exclusivo de campos que descrevem as características do documento. Esses campos constituem um *registro de* **recurso** **ou recordset**.
 
 ## <a name="new-reference-topics"></a>Novos tópicos de referência
 
@@ -51,7 +51,7 @@ As novas propriedades a seguir foram incluídas nesta versão.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade	</p></th>
+<th><p>Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -61,7 +61,7 @@ As novas propriedades a seguir foram incluídas nesta versão.
 <td><p>Indica o conjunto de caracteres no qual o conteúdo de um objeto <strong>Stream</strong> de texto deve ser convertido.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="eos-property-ado.md">STRESS</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indica se a posição atual é o final do fluxo.</p></td>
 </tr>
 <tr class="odd">
@@ -114,7 +114,7 @@ Os novos métodos a seguir foram incluídos nesta versão.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método		</p></th>
+<th><p>Método</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -125,14 +125,14 @@ Os novos métodos a seguir foram incluídos nesta versão.
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Copia o número especificado de caracteres ou bytes (dependendo do <strong>tipo</strong>) no <strong>objeto</strong> <strong>Stream</strong> para outro objeto <strong>Stream</strong> .</p></td>
+<td><p>Copia o número especificado de caracteres ou bytes (dependendo de <strong>Type)</strong>no objeto <strong>Stream</strong> <strong>para</strong> outro <strong>objeto Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">ExcluirRegistro</a></p></td>
 <td><p>Exclui um arquivo ou um diretório e todos os respectivos subdiretórios.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Descarga</a></p></td>
+<td><p><a href="flush-method-ado.md">Flush</a></p></td>
 <td><p>Força o conteúdo do objeto <strong>Stream</strong> restante no buffer do ADO para o objeto subjacente ao qual o objeto <strong>Stream</strong> está associado.</p></td>
 </tr>
 <tr class="odd">
@@ -191,13 +191,13 @@ Os novos métodos a seguir foram incluídos nesta versão.
 
 - **[Tópicos de exemplo de código](ado-code-examples.md)**
 
-  Os exemplos foram expandidos para conter exemplos de código escritos no Microsoft Visual C++ e Microsoft Visual J++. Você pode copiar e colar esses exemplos de código em seu editor.
+  Os exemplos foram expandidos para conter exemplos de código escritos no Microsoft Visual C++ e no Microsoft Visual J++. Você pode copiar e colar esses exemplos de código em seu editor.
 
-- **[Tópicos de provedor](appendix-a-providers.md)**
+- **[Tópicos do provedor](appendix-a-providers.md)**
 
   Um novo tópico foi incluído e explica como usar o ADO com o [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).
 
 - **[Programando com o ADO](appendix-c-programming-with-ado.md)**
 
-  Esta nova seção contém dicas e truques para o uso do ADO com diversas linguagens de programação. Ele contém os índices de sintaxe existentes para as extensões do Visual C++ para ADO e ADO/WFC, assim como novas informações específicas para desenvolvedores usando o Microsoft Visual Basic, o Microsoft Visual Basic Scripting Edition, o Microsoft JScript, o Microsoft Visual C++ ou o Microsoft Visual J++.
+  Esta nova seção contém dicas e truques para o uso do ADO com diversas linguagens de programação. Ele contém os índices de sintaxe existentes para as Extensões do Visual C++ para ADO e ADO/WFC, bem como novas informações específicas para desenvolvedores que usam o Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ ou Microsoft Visual J++.
 

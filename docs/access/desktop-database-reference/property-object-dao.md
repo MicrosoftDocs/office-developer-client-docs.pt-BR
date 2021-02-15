@@ -51,18 +51,18 @@ O objeto **Property** também apresenta quatro propriedades incorporadas:
 
 Para referir-se a um objeto **Property** incorporado em uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-- * objeto ***. Propriedades**(0)
+- *object***. Propriedades**(0)
 
-- *objeto ***. Propriedades**("* Name *")
+- *object***. Properties**("* name*")
 
-- *objeto ***. Nome das propriedades**\!**\]
+- *object***. Nome das** \! \[* propriedades*\]
 
 Para uma propriedade incorporada, você também pode usar esta sintaxe:
 
-- *objeto*. *nome*
+- *objeto*. *name*
 
 > [!NOTE]
-> Para uma propriedade definida pelo usuário, você deve usar o *objeto completo ***. Propriedades**("* Name *") sintaxe.
+> Para uma propriedade definida pelo usuário, você deve usar o objeto *completo***. Sintaxe de** propriedades ("* nome*").
 
 Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.
 

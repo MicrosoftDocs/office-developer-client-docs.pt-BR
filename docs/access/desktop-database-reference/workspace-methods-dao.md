@@ -18,11 +18,11 @@ ms.locfileid: "32305877"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método Workspace. BeginTrans (DAO)](workspace-begintrans-method-dao.md)
-- [Método Workspace. Close (DAO)](workspace-close-method-dao.md)
-- [Método Workspace. CommitTrans (DAO)](workspace-committrans-method-dao.md)
-- [Método Workspace. createDatabase (DAO)](workspace-createdatabase-method-dao.md)
-- [Método Workspace. OpenConnection (DAO)](workspace-openconnection-method-dao.md)
-- [Método Workspace. OpenDatabase (DAO)](workspace-opendatabase-method-dao.md)
-- [Método Workspace. Rollback (DAO)](workspace-rollback-method-dao.md)
+- [Método Workspace.BeginTrans (DAO)](workspace-begintrans-method-dao.md)
+- [Método Workspace.Close (DAO)](workspace-close-method-dao.md)
+- [Método Workspace.CommitTrans (DAO)](workspace-committrans-method-dao.md)
+- [Método Workspace.CreateDatabase (DAO)](workspace-createdatabase-method-dao.md)
+- [Método Workspace.OpenConnection (DAO)](workspace-openconnection-method-dao.md)
+- [Método Workspace.OpenDatabase (DAO)](workspace-opendatabase-method-dao.md)
+- [Método Workspace.Rollback (DAO)](workspace-rollback-method-dao.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "32302748"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O método preferencial de programação do ADO com o Visual C++ é ** \#** usar a política de importação, conforme discutido na [programação do Microsoft Visual C++ ADO](visual-c-ado-programming.md). Entretanto, as versões anteriores do ADO eram fornecidas com um método alternativo de programação utilizando o C++: as Extensões do Visual C++. Esta seção documenta esse recurso para aqueles que precisam manter o código de extensões do Visual C++, mas o novo código ADO \#deve ser escrito usando a **importação**.
+O método preferencial de programação do ADO **\#** com Visual C++ é usar a diretiva de importação, conforme discutido no [Microsoft Visual C++ ADO Programming.](visual-c-ado-programming.md) Entretanto, as versões anteriores do ADO eram fornecidas com um método alternativo de programação utilizando o C++: as Extensões do Visual C++. Esta seção documenta esse recurso para aqueles que devem manter o código das Extensões do Visual C++, mas o novo código do ADO deve ser escrito usando a \# **importação.**
 
 Um dos trabalhos mais tediosos que os programadores do Visual C++ enfrentam ao recuperar dados com o ADO é a conversão de dados retornados como um tipo de dados VARIANT em um tipo de dados C++ e, em seguida, o repositório dos dados convertidos em uma classe ou estrutura. Além de ser trabalhosa, a recuperação dos dados C++ por meio de tipo de dados VARIANT reduz o desempenho.
 

@@ -37,17 +37,17 @@ Especifica os atributos de um objeto [Property](property-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adPropNotSupported</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica que o provedor não oferece suporte para a propriedade.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPropRequired</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que o usuário deve especificar um valor para essa propriedade antes de a fonte de dados ser inicializada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPropOptional</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o usuário não precisa especificar um valor para essa propriedade antes de a fonte de dados ser inicializada.</p></td>
 </tr>
 <tr class="even">
@@ -79,19 +79,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. PropertyAttributes. não suportado</p></td>
+<td><p>AdoEnums.PropertyAttributes.NOTSUPPORTED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. PropertyAttributes. REQUIRED</p></td>
+<td><p>AdoEnums.PropertyAttributes.REQUIRED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. PropertyAttributes. OPTIONAL</p></td>
+<td><p>AdoEnums.PropertyAttributes.OPTIONAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. PropertyAttributes. READ</p></td>
+<td><p>AdoEnums.PropertyAttributes.READ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. PropertyAttributes. WRITE</p></td>
+<td><p>AdoEnums.PropertyAttributes.WRITE</p></td>
 </tr>
 </tbody>
 </table>

@@ -21,5 +21,5 @@ ms.locfileid: "32305947"
 - [Personalização das configurações do Registro do Windows para o mecanismo de banco de dados do Microsoft Access](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 - [Inicialização do driver do Microsoft Excel](initializing-the-microsoft-excel-driver.md)
 - [Inicializando o driver de fonte de dados do Microsoft Exchange](initializing-the-microsoft-exchange-data-source-driver.md)
-- [Inicializando o driver de fonte de dados de texto](initializing-the-text-data-source-driver.md)
+- [Inicializando o driver de Fonte de Dados de Texto](initializing-the-text-data-source-driver.md)
 

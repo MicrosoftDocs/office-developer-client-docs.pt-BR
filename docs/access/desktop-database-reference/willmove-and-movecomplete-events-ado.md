@@ -22,9 +22,9 @@ O evento **WillMove** é chamado antes que a operação pendente altere a sua po
 
 ## <a name="syntax"></a>Sintaxe
 
-WillMove*adReason*, *adStatus*, ** precaboset
+WillMove *adReason*, *adStatus*, *pRecordset*
 
-MoveComplete*adReason*, *perror*, *adStatus*, ** precaboset
+MoveComplete *adReason*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,14 +33,14 @@ MoveComplete*adReason*, *perror*, *adStatus*, ** precaboset
 |*adReason* |Um valor [EventReasonEnum](eventreasonenum.md) que especifica a razão para esse evento. Seu valor pode ser **adRsnMoveFirst**, **adRsnMoveLast**, **adRsnMoveNext**, **adRsnMovePrevious**, **adRsnMove** ou **adRsnRequery**.|
 |*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **WillMove** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida. Ele será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente. <br/><br/>Quando **MoveComplete** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida, ou como **adStatusErrorsOccurred** se a operação falhar. <br/><br/>Antes do retorno de **WillMove**, defina esse parâmetro como **adStatusCancel**, para solicitar o cancelamento da operação pendente, ou como adStatusUnwantedEvent para evitar notificações subsequentes. <br/><br/>Antes do retorno de **MoveComplete**, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
-|*precaboset* |Um objeto [Recordset](recordset-object-ado.md). O **Recordset** para o qual esse evento ocorreu.|
+|*pRecordset* |Um objeto [Recordset](recordset-object-ado.md). O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 
-Um evento **WillMove** ou **MoveComplete** pode ocorrer devido às seguintes operações de **Recordset** :
+Um **evento WillMove** **ou MoveComplete** pode ocorrer devido às seguintes **operações do Recordset:**
 
 - [Open](open-method-ado-recordset.md)
-- [Move](move-method-ado.md)
+- [Mover](move-method-ado.md)
 - [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 
@@ -50,7 +50,7 @@ Um evento **WillMove** ou **MoveComplete** pode ocorrer devido às seguintes ope
 
 Esses eventos podem ocorrer devido às seguintes propriedades:
 
-- [Filter](filter-property-ado.md)
+- [Filtro](filter-property-ado.md)
 - [Índice](index-property-ado.md)
 - [Bookmark](bookmark-property-ado.md)
 - [AbsolutePage](absolutepage-property-ado.md)

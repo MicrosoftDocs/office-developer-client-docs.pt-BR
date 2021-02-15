@@ -1,5 +1,5 @@
 ---
-title: Propriedades RDS (referência do banco de dados de área de trabalho do Access)
+title: Propriedades do RDS (referência do banco de dados da área de trabalho do Access)
 TOCTitle: RDS properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32300837"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriedade	</th>
+<th>Propriedade</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -55,7 +55,7 @@ ms.locfileid: "32300837"
 <td><p>Indica o valor usado para filtrar registros.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="handler-property-rds.md">Indicador</a></p></td>
+<td><p><a href="handler-property-rds.md">Manipulador</a></p></td>
 <td><p>Indica o nome de um programa de personalização de servidor (<em>manipulador</em>) que aumenta a funcionalidade de <strong>RDSServer.DataFactory</strong> e qualquer parâmetro usado pelo <em>manipulador</em>.</p></td>
 </tr>
 <tr class="even">
@@ -71,7 +71,7 @@ ms.locfileid: "32300837"
 <td><p>Indica o objeto <strong>Recordset</strong> retornado de um objeto corporativo personalizado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Servidor</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Indica o nome do IIS (Serviços de Informações da Internet) e o protocolo de comunicação.</p></td>
 </tr>
 <tr class="even">

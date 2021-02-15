@@ -1,5 +1,5 @@
 ---
-title: Propriedade QueryDef. caChesize (DAO)
+title: Propriedade QueryDef.CacheSize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: a84d990e-8180-daa3-7640-47d2be8fd28b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821397(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301089"
 ---
-# <a name="querydefcachesize-property-dao"></a>Propriedade QueryDef. caChesize (DAO)
+# <a name="querydefcachesize-property-dao"></a>Propriedade QueryDef.CacheSize (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Define ou retorna vários registros recuperados de uma fonte de dados ODBC que s
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Ches
+*expressão* . CacheSize
 
-*expressão* Uma variável que representa um objeto **QueryDef** .
+*expressão* Uma variável que representa um objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentários
 

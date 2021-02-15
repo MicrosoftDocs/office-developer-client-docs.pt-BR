@@ -32,14 +32,14 @@ As seguintes etapas são necessárias para criar este cenário:
 3.  Enviar os dados.
 4.  Receber e exibir os dados.
 
-## <a name="step-1-set-up-the-application"></a>Etapa 1: configurar o aplicativo
+## <a name="step-1-set-up-the-application"></a>Etapa 1: Configurar o aplicativo
 
-1. Crie um diretório virtual do IIS **** chamado xmlpersist com permissões de script. 
+1. Crie um diretório virtual do IIS chamado **XMLPersist** com permissões de script. 
 
-2. Crie dois novos arquivos de texto na pasta para a qual o diretório virtual aponta, um chamado **xmlresponse. asp**e o outro chamado **Default. htm**.
+2. Crie dois novos arquivos de texto na pasta para a qual o diretório virtual aponta, um chamado **XMLResponse.asp** e o outro chamado **Default.htm**.
 
 
-## <a name="step-2-get-the-data"></a>Etapa 2: obter os dados
+## <a name="step-2-get-the-data"></a>Etapa 2: Obter os dados
 
 Nesta etapa, você gravará o código para abrir um **Recordset** ADO e preparar para enviá-lo ao cliente. 
 
@@ -68,11 +68,11 @@ Nesta etapa, você gravará o código para abrir um **Recordset** ADO e preparar
         adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
    ```
 
-2. Certifique-se de alterar o valor do parâmetro da fonte de dados no strCon para o nome do computador do Microsoft SQL Server.
+2. Certifique-se de alterar o valor do parâmetro Data Source no strCon para o nome do computador do Microsoft SQL Server.
 
 3. Mantenha o arquivo aberto e vá para a próxima etapa.
 
-## <a name="step-3-send-the-data"></a>Etapa 3: enviar os dados
+## <a name="step-3-send-the-data"></a>Etapa 3: Enviar os dados
 
 Agora que você tem um **Recorset**, você precisa enviá-lo ao cliente, salvando-o como XML no objeto **Response** ASP. 
 
@@ -92,15 +92,15 @@ Agora que você tem um **Recorset**, você precisa enviá-lo ao cliente, salvand
     %> 
    ```
 
-   Observe que o objeto de **resposta** do ASP é especificado como o destino para o método [Save](save-method-ado.md) do **Recordset** . O destino do método **Save** pode ser qualquer objeto que ofereça suporte à interface **IStream**, como um objeto [Stream](stream-object-ado.md) ADO ou um nome de arquivo que inclui o caminho completo no qual o **Recordset** deve ser salvo.
+   Observe que o objeto **Response** asP é especificado como o destino do método **Save do Recordset.** [](save-method-ado.md) O destino do método **Save** pode ser qualquer objeto que ofereça suporte à interface **IStream**, como um objeto [Stream](stream-object-ado.md) ADO ou um nome de arquivo que inclui o caminho completo no qual o **Recordset** deve ser salvo.
 
-2. Salve e feche o arquivo XMLResponse.asp antes de ir para a próxima etapa. Além disso, copie o arquivo adovbs. Inc da\\pasta C\\: arquivos\\de\\programas comuns do sistema de arquivos comum para a mesma pasta em que você tem o arquivo xmlresponse. ASP.
+2. Salve e feche o arquivo XMLResponse.asp antes de ir para a próxima etapa. Copie também o arquivo adovbs.inc da pasta C: Arquivos de Programas Common Files System Ado para a mesma pasta em que você tem o \\ \\ arquivo \\ \\ XMLResponse.asp.
 
-## <a name="step-4-receive-and-display-the-data"></a>Etapa 4: receber e exibir os dados
+## <a name="step-4-receive-and-display-the-data"></a>Etapa 4: Receber e exibir os dados
 
-Nesta etapa, você criará um arquivo HTML com um RDS incorporado [. ](datacontrol-object-rds.md)Objeto DataControl que aponta o arquivo xmlresponse. asp para obter o **Recordset**. 
+Nesta etapa, você criará um arquivo HTML com um [RDS incorporado. Objeto DataControl](datacontrol-object-rds.md) que aponta para o arquivo XMLResponse.asp para obter o **Recordset**. 
 
-1. Abra o default. htm com um editor de texto, como o bloco de notas do Windows, e adicione o código a seguir. Substitua "sqlserver" no URL pelo nome do seu computador servidor.
+1. Abra default.htm um editor de texto, como o Bloco de Notas do Windows, e adicione o código a seguir. Substitua "sqlserver" no URL pelo nome do seu computador servidor.
 
    ```html 
     
@@ -125,9 +125,9 @@ Nesta etapa, você criará um arquivo HTML com um RDS incorporado [. ](datacontr
 
 2. Feche o arquivo default.htm e salve-o na mesma pasta na qual você salvou o arquivo XMLResponse.asp. 
 
-3. Usando o Internet Explorer 4,0 ou posterior, abra a `https://<sqlserver>/XMLPersist/default.htm` URL e observe os resultados. Os dados são exibidos em uma tabela DHTML vinculada. 
+3. Usando o Internet Explorer 4.0 ou posterior, abra a URL `https://<sqlserver>/XMLPersist/default.htm` e observe os resultados. Os dados são exibidos em uma tabela DHTML vinculada. 
 
-4. Agora, abra a `https://<sqlserver>/XMLPersist/XMLResponse.asp` URL e observe os resultados. O XML é exibido.
+4. Agora abra a URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` e observe os resultados. O XML é exibido.
 
 
 

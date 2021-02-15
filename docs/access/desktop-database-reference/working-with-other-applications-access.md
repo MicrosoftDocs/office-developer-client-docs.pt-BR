@@ -1,5 +1,5 @@
 ---
-title: Trabalhando com outros aplicativos (Access)
+title: Trabalhar com outros aplicativos (Access)
 TOCTitle: Working with Other Applications
 ms:assetid: 39e189d2-1e50-4de7-af8c-591aa5b9e56d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124391(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306010"
 ---
-# <a name="working-with-other-applications-access"></a>Trabalhando com outros aplicativos (Access)
+# <a name="working-with-other-applications-access"></a>Trabalhar com outros aplicativos (Access)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

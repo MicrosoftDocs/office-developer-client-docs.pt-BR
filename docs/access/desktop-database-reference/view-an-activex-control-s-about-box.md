@@ -1,7 +1,7 @@
 ---
 title: Exibir a caixa sobre de um controle ActiveX
 TOCTitle: View an ActiveX control About box
-description: Etapas para visualizar a caixa sobre.
+description: Etapas para exibir a caixa Sobre.
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
 ms:contentKeyID: 48545612
@@ -23,9 +23,9 @@ ms.locfileid: "32305961"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Para exibir uma caixa **sobre** mostrando informações de versão e direitos autorais de um controle ActiveX:
+Para exibir uma **caixa Sobre** mostrando informações de direitos autorais e versão de um controle ActiveX:
 
-1. Escolha a caixa de propriedade **sobre** na folha de propriedades do Microsoft Access.
+1. Escolha a **caixa sobre** a propriedade na folha de propriedades do Microsoft Access.
 
-2. Escolha o botão **construir** à direita da caixa da propriedade.
+2. Escolha o **botão Construir** à direita da caixa de propriedades.
 

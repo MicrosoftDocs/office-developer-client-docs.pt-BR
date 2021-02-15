@@ -33,18 +33,18 @@ Além das propriedades internas, você também poderá criar e adicionar suas pr
 
 Para fazer referência a um objeto **Property** interno em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-- objeções. **Propriedades** de ,0
+- . **Propriedades**(0)
 
-- objeções. **Propriedades** de ("Name")
+- . **Propriedades**("nome")
 
-- objeções. **Propriedades** de \! \[nome\]
+- .  \! Propriedades \[ name\]
 
 Para uma propriedade interna, é possível usar esta sintaxe:
 
-- Object.Name
+- object.name
 
 > [!NOTE]
-> Para uma propriedade definida pelo usuário, você deve usar o objeto completo. **Propriedades** de ("Name") sintaxe.
+> Para uma propriedade definida pelo usuário, você deve usar o objeto completo. **Sintaxe de** propriedades ("nome").
 
 Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.
 
