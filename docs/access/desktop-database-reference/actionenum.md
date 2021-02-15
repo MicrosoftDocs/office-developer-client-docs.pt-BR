@@ -1,5 +1,5 @@
 ---
-title: ActionEnum (referência do banco de dados de área de trabalho do Access)
+title: ActionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ActionEnum
 ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
@@ -36,22 +36,22 @@ Especifica o tipo de ação a ser executada quando [SetPermissions](setpermissio
 <tbody>
 <tr class="odd">
 <td><p><strong>adAccessDeny</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>As permissões especificadas serão negadas ao grupo ou usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessGrant</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>O grupo ou usuário terá, pelo menos, as permissões solicitadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adAccessRevoke</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Serão revogados todos os direitos de acesso explícitos do grupo ou do usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessSet</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O grupo ou usuário terá exatamente as permissões solicitadas.</p></td>
 </tr>
 </tbody>

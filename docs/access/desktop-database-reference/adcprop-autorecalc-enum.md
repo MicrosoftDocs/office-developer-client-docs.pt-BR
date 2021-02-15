@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280519"
 ---
-# <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_enum
+# <a name="adcprop_autorecalc_enum"></a>ADCPROP \_ AUTORECALC \_ ENUM
 
 **Aplica-se ao:** Access 2013, Office 2013
 
 Especifica quando o provedor [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) recalcula colunas calculadas e agregadas em um Recordset hierárquico.
 
-Essas constantes são usadas somente com o provedor **MSDataShape** e a propriedade dinâmica "**recálculo automático**" do **Recordset** , que é referenciada no [índice de propriedade dinâmica do ADO](ado-dynamic-property-index.md) e documentada no [serviço de cursor da Microsoft para OLE Banco](microsoft-cursor-service-for-ole-db-ado-service-component.md) [de dados ou documentação do Microsoft Data Shaping Service para OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
+Essas constantes são usadas apenas com o provedor **MSDataShape** e a propriedade dinâmica "**Auto Recalc**" do **Recordset,** que é referenciada no Índice de Propriedades Dinâmicas do [ADO](ado-dynamic-property-index.md) e documentada no [Microsoft Cursor Service para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou Microsoft Data Shaping Service para documentação do [OLE DB.](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
 <br/>
 
@@ -40,12 +40,12 @@ Essas constantes são usadas somente com o provedor **MSDataShape** e a propried
 <tbody>
 <tr class="odd">
 <td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. Recalcula sempre que determinados valores do provedor <strong>MSDataShape</strong>, dos quais as colunas calculadas dependem, são alterados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecalcUpFront</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Calcula apenas quando cria-se inicialmente o <strong>Recordset</strong> hierárquico.</p></td>
 </tr>
 </tbody>

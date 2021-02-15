@@ -1,5 +1,5 @@
 ---
-title: PositionEnum (referência do banco de dados de área de trabalho do Access)
+title: PositionEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -70,13 +70,13 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Position. BOF</p></td>
+<td><p>AdoEnums.Position.BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Position. EOF</p></td>
+<td><p>AdoEnums.Position.EOF</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Position. UNKNOWN</p></td>
+<td><p>AdoEnums.Position.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

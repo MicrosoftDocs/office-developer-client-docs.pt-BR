@@ -35,9 +35,9 @@ Suponha que "second" seja uma pasta contida em "first". Abra o objeto **Record**
     record.Open "second"
 ```
 
-Agora, o valor da propriedade **ParentURL** é **ParentURL** propriedade é "https://first", o mesmo que **ActiveConnection**.
+Agora, o valor da **propriedade ParentURL** é **a propriedade ParentURL** é " , o mesmo que https://first **ActiveConnection**.
 
-A origem também pode ser uma URL absoluta, como "https://first/second". A propriedade **ParentURL** é então "https://first", o nível acima. A propriedade **ParentURL** é então "https://first", o nível acima de "Second".
+A fonte também pode ser uma URL absoluta, como " https://first/second . A **propriedade ParentURL** é então " https://first , o nível acima . A **propriedade ParentURL** é então " https://first " , o nível acima de "segundo" .
 
 Essa propriedade poderá ser um valor nulo se:
 

@@ -42,17 +42,17 @@ Especifica o comportamento do objeto [Record](record-object-ado.md) do método [
 </tr>
 <tr class="even">
 <td><p><strong>adMoveOverWrite</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Sobregrava o arquivo ou diretório de destino, mesmo se ele já existir.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Modifica o comportamento padrão do método <strong>MoveRecord</strong> por não atualizar os links de hipertexto do <strong>Record</strong> de origem. O comportamento padrão depende dos recursos do provedor. A operação mover atualiza os links se o provedor tiver recursos. Se ele não puder consertar os links ou se este valor não for especificado, a operação mover terá êxito mesmo que os links não sejam consertados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMoveAllowEmulation</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Solicita que o provedor tente simular a operação mover (usando as operações download, upload e excluir). Se a tentativa de mover o <strong>Record</strong> falhar porque o URL de destino está em um servidor diferente ou está sendo atendido por um provedor diferente da origem, isso poderá causar um aumento na latência ou a perda de dados, devido aos recursos diferentes do provedor ao mover os recursos entre os provedores.</p></td>
 </tr>
 </tbody>

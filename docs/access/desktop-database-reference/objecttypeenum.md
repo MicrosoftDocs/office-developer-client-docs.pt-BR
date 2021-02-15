@@ -1,5 +1,5 @@
 ---
-title: ObjectTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: ObjectTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ObjectTypeEnum
 ms:assetid: b0ee2113-dea9-912d-3442-e54885397310
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)
@@ -38,17 +38,17 @@ Especifica o tipo de objeto de banco de dados para o qual devem ser definidas pe
 <tbody>
 <tr class="odd">
 <td><p><strong>adPermObjColumn</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O objeto é uma coluna.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjDatabase</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>O objeto é um banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjProcedure</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>O objeto é um procedimento.</p></td>
 </tr>
 <tr class="even">
@@ -58,12 +58,12 @@ Especifica o tipo de objeto de banco de dados para o qual devem ser definidas pe
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjTable</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>O objeto é uma tabela.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjView</strong></p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>O objeto é um modo de exibição.</p></td>
 </tr>
 </tbody>

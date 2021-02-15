@@ -52,7 +52,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome_do_catálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="even">
@@ -76,7 +76,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>Um rótulo ou uma legenda associada ao nível.</p></td>
 </tr>
 <tr class="odd">
-<td><p>LevelCardinality</p></td>
+<td><p>LevelItudenality</p></td>
 <td><p>O número de membros no nível.</p></td>
 </tr>
 <tr class="even">

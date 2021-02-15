@@ -22,7 +22,7 @@ Move a entidade representada por um [Record](record-object-ado.md) para outro lo
 
 ## <a name="syntax"></a>Sintaxe
 
-*Record*. MoveRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)
+*Registro*. MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -33,7 +33,7 @@ Move a entidade representada por um [Record](record-object-ado.md) para outro lo
 |*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.|
 |*Password* |Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.|
 |*Options* |Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.|
-|*Async* |Opcional. Um valor **Boolean** que, quando **true**, especifica que esta operação deve ser assíncrona.|
+|*Async* |Opcional. Um **valor Boolean** que, **quando True**, especifica que esta operação deve ser assíncrona.|
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -53,6 +53,6 @@ Alguns atributos do objeto **Record**, tal como a propriedade [ParentURL](parent
 Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), o novo local do arquivo ou diretório movido não será refletido imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo o mesmo.
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

@@ -20,7 +20,7 @@ ms.locfileid: "32283258"
 
 As relações entre esses objetos são representadas no modelo de objeto do ActiveX Data Objects (ADO).
 
-Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações, consulte [coleções do ADO](ado-collections.md) ou um tópico específico da coleção.
+Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações, consulte [coleções do ADO ou](ado-collections.md) um tópico de coleção específico.
 
 <br/>
 
@@ -51,7 +51,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa uma conexão aberta com uma fonte de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Error</a></p></td>
+<td><p><a href="error-object-ado.md">Erro</a></p></td>
 <td><p>Contém detalhes sobre os erros de acesso de dados que pertencem a uma única operação envolvendo o provedor.</p></td>
 </tr>
 <tr class="even">
@@ -63,7 +63,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa um parâmetro ou argumento associado a um objeto <strong>Command</strong> com base em uma consulta com parâmetros ou procedimento armazenado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p><a href="property-object-ado.md">Propriedade</a></p></td>
 <td><p>Representa uma característica dinâmica de um objeto do ADO definida pelo provedor.</p></td>
 </tr>
 <tr class="odd">

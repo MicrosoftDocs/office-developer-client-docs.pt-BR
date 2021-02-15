@@ -26,7 +26,7 @@ Define ou retorna um valor **Long** de 1 até o número de registros no objeto *
 
 ## <a name="remarks"></a>Comentários
 
-Para definir a propriedade **AbsolutePosition** , o ADO requer que o provedor OLE DB que você está usando implemente a interface IRowsetLocate.
+Para definir a **propriedade AbsolutePosition,** o ADO requer que o provedor OLE DB que você está usando implemente a interface IRowsetLocate.
 
 O acesso à propriedade **AbsolutePosition** de um **Recordset** aberto usando um cursor somente de encaminhamento ou dinâmico provoca o erro **adErrFeatureNotAvailable**. Com outros tipos de cursor, a posição correta será retornada, desde que o provedor ofereça suporte à interface IRowsetScroll. Se o provedor não oferecer suporte a essa *interface*, a propriedade será definida como **adPosUnknown**. Consulte a documentação do seu provedor para identificar se ele oferece suporte à *IRowsetScroll*.
 
@@ -34,10 +34,10 @@ Use a propriedade **AbsolutePosition** para mover um registro, de acordo com sua
 
 Assim como a propriedade [AbsolutePage](absolutepage-property-ado.md), **AbsolutePosition** tem base unitária e equivale a 1 quando o registro atual é o primeiro registro no **Recordset**. É possível obter o número total de registros no objeto **Recordset** usando a propriedade [RecordCount](recordcount-property-ado.md).
 
-Quando você define a propriedade **AbsolutePosition** , mesmo que seja um registro no cache atual, o ADO recarrega o cache com um novo grupo de registros começando com o registro que você especificou. A propriedade [CacheSize](cachesize-property-ado.md) determina o tamanho desse grupo.
+Quando você define a propriedade **AbsolutePosition,** mesmo que seja para um registro no cache atual, o ADO recarrega o cache com um novo grupo de registros começando com o registro especificado. A propriedade [CacheSize](cachesize-property-ado.md) determina o tamanho desse grupo.
 
 
 > [!NOTE]
-> [!OBSERVAçãO] A propriedade **AbsolutePosition** não deve ser usada como um número de registro substituto. A posição de um determinado registro é alterada quando um registro precedente é excluído. Também não há garantias de que um determinado registro terá a mesma **AbsolutePosition** se o objeto **Recordset** for consultado e aberto novamente. Os indicadores ainda são a forma recomendada de reter e retornar a uma determinada posição e são a única maneira de posicionar em todos os tipos de objetos **Recordset** .
+> [!OBSERVAçãO] A propriedade **AbsolutePosition** não deve ser usada como um número de registro substituto. A posição de um determinado registro é alterada quando um registro precedente é excluído. Também não há garantias de que um determinado registro terá a mesma **AbsolutePosition** se o objeto **Recordset** for consultado e aberto novamente. Os indicadores ainda são a maneira recomendada de reter e retornar a uma determinada posição e são a única maneira de posicionamento em todos os tipos de objetos **Recordset.**
 
 

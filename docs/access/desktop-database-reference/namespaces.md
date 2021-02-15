@@ -1,5 +1,5 @@
 ---
-title: Namespaces (referência do banco de dados de área de trabalho do Access)
+title: Namespaces (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
@@ -34,14 +34,14 @@ O formato de persistência do XML no ADO usa estes espaços de nome.
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>Refere-se &quot;ao namespace XML&quot; -data contendo os elementos e atributos que definem o esquema do <strong>Recordset</strong>atual.</p></td>
+<td><p>Refere-se ao namespace XML-Data que contém os elementos e atributos que definem o &quot; &quot; esquema do <strong>Recordset atual.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>obrigatória</p></td>
+<td><p>dt</p></td>
 <td><p>Refere-se à especificação das definições do tipo de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>RS</p></td>
+<td><p>rs</p></td>
 <td><p>Refere-se ao namespace que contém os elementos e os atributos específicos das propriedades e dos atributos do <strong>Recordset</strong> do ADO.</p></td>
 </tr>
 <tr class="even">

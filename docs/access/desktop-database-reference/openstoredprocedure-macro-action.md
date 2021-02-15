@@ -27,7 +27,7 @@ Em um projeto do Access, você pode usar a ação **AbrirProcedimentoArmazenado*
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirProcedimentoArmazenado** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **AbrirProcedimentoArmazenado** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Procedimento</strong></p></td>
-<td><p>O nome do procedimento armazenado que será aberto. A caixa <strong>nome do procedimento</strong> na seção <strong>argumentos da ação</strong> do painel Construtor de macros mostra todos os procedimentos armazenados no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirProcedimentoArmazenado</strong> em um banco de dados biblioteca, o Microsoft Access procurará o procedimento armazenado com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do procedimento armazenado que será aberto. A <strong>caixa Nome do</strong> Procedimento na seção <strong>Argumentos</strong> da Ação do painel Construtor de Macros mostra todos os procedimentos armazenados no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirProcedimentoArmazenado</strong> em um banco de dados biblioteca, o Microsoft Access procurará o procedimento armazenado com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -65,7 +65,7 @@ Esta ação é semelhante a clicar duas vezes no procedimento armazenado do Pain
 Alternar para o modo Design enquanto o procedimento armazenado é aberto remove a configuração do argumento **Modo de Dados** do procedimento armazenado. Essa configuração não entra em vigor, mesmo se o usuário retorna para o modo Folha de Dados.
 
 > [!TIP]
-> - Você pode arrastar um procedimento armazenado do painel de navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirProcedimentoArmazenado** que abre o procedimento armazenado em modo Folha de Dados.
+> - Você pode arrastar um procedimento armazenado do Painel de Navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirProcedimentoArmazenado** que abre o procedimento armazenado em modo Folha de Dados.
 > - Se você não deseja exibir as mensagens do sistema que normalmente aparecem quando um procedimento armazenado é executado (indicando que ele é um procedimento armazenado e mostrando quantos registros serão afetados), use a ação **DefinirAviso** para suprimir a exibição dessas mensagens.
 
 Para executar a ação **AbrirProcedimentoArmazenado** em um módulo do VBA (Visual Basic for Applications), use o método **OpenStoredProcedure** do objeto **DoCmd**.

@@ -38,7 +38,7 @@ Para os objetos **Command**, a propriedade **ActiveConnection** é leitura/grava
 
 Ocorrerá um erro se você tentar chamar o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) em um objeto **Command** antes de configurar essa propriedade como um objeto **Connection** aberto ou uma sequência de conexão válida.
 
-**Microsoft Visual Basic**: a configuração da propriedade **ActiveConnection** como *Nothing* desassocia o objeto **Command** da **conexão** atual e faz com que o provedor libere qualquer recurso associado aos dados originais. Assim, você pode associar o objeto **Command** ao mesmo objeto **Connection** ou a um outro. Alguns provedores permitem que você mude a definição da propriedade de **Connection** para outro sem precisar antes definir a propriedade como *Nothing*.
+**Microsoft Visual Basic**: definir a propriedade **ActiveConnection** como *Nothing* desassocia o objeto **Command** da **conexão** atual e faz com que o provedor libere quaisquer recursos associados na fonte de dados. Assim, você pode associar o objeto **Command** ao mesmo objeto **Connection** ou a um outro. Alguns provedores permitem que você mude a definição da propriedade de **Connection** para outro sem precisar antes definir a propriedade como *Nothing*.
 
 Se a coleção [Parameters](parameters-collection-ado.md) do objeto **Command** contiver parâmetros fornecidos pelo provedor, a coleção será limpa se você definir a propriedade **ActiveConnection** como *Nothing* ou como outro objeto **Connection**. Se você criar manualmente objetos [Parameter](parameter-object-ado.md) e usá-los para preencher a coleção **Parameters** do objeto **Command**, a configuração da propriedade **ActiveConnection** como *Nothing* ou como um outro objeto **Connection** não afetará a coleção **Parameters**.
 
@@ -54,16 +54,16 @@ Se você usar o argumento *ActiveConnection* do método [Open](open-method-ado-r
 
 Se você configurar a propriedade **Source** do objeto **Recordset** como uma variável de objeto **Command** válida, a propriedade **ActiveConnection** do **Recordset** herdará a definição da propriedade **ActiveConnection** do objeto **Command**.
 
-**Uso do Remote Data Service**: quando usado em um objeto Recordset do lado do cliente, essa propriedade pode ser definida somente como uma cadeia de conexão ou (no Microsoft Visual Basic ou Visual Basic, Scripting Edition) como *Nothing*.
+Uso do Remote **Data Service:** quando usada em um objeto Recordset do lado do cliente, essa propriedade pode ser definida apenas como uma sequência de conexão ou (no Microsoft Visual Basic ou no Visual Basic, Scripting Edition) como *Nothing*.
 
 ### <a name="record"></a>Registro
 
 Essa propriedade é leitura/gravação quando o objeto **Record** estiver fechado, podendo conter uma sequência de conexão ou referência a um objeto **Connection** aberto. Ela é somente leitura quando o objeto **Record** estiver aberto e contiver uma referência a um objeto **Connection** aberto.
 
-Um objeto **Connection** é criado implicitamente quando o objeto **Record** é aberto a partir de uma URL. Abra o **Record** com um objeto **Connection** existente e aberto atribuindo o objeto **Connection** a essa propriedade ou usando o objeto **Connection** como um parâmetro na chamada do método [Open](open-method-ado-record.md). Se o **registro** for aberto a partir de um **registro** ou [conjunto de registros](recordset-object-ado.md)existente, ele será associado automaticamente ao **registro** ou ao objeto **Connection** do objeto **Recordset** .
+Um objeto **Connection** é criado implicitamente quando o objeto **Record** é aberto a partir de uma URL. Abra o **Record** com um objeto **Connection** existente e aberto atribuindo o objeto **Connection** a essa propriedade ou usando o objeto **Connection** como um parâmetro na chamada do método [Open](open-method-ado-record.md). Se o **Registro** for aberto a partir de um **Registro** ou [Recordset](recordset-object-ado.md)existente, ele será associado automaticamente ao objeto Connection desse objeto **Record** ou **Recordset.** 
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 
 

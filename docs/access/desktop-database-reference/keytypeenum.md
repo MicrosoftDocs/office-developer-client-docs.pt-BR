@@ -1,5 +1,5 @@
 ---
-title: KeyTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: KeyTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
@@ -38,17 +38,17 @@ Especifica o tipo de [Chave](key-object-adox.md): primária, estrangeira ou excl
 <tbody>
 <tr class="odd">
 <td><p><strong>adKeyPrimary</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. A chave é primária.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>A chave é uma chave estrangeira.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adKeyUnique</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>A chave é exclusiva.</p></td>
 </tr>
 </tbody>

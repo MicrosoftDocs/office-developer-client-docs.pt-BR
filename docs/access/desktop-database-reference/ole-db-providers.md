@@ -1,5 +1,5 @@
 ---
-title: Provedores OLE DB (referência de banco de dados de área de trabalho do Access)
+title: Provedores OLE DB (referência do banco de dados da área de trabalho do Access)
 TOCTitle: OLE DB providers
 ms:assetid: ef412198-eac5-bf86-73fd-574e67276408
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32288480"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O guia do programador do [](introduction-to-ado-programming.md) ADO aborda a relação entre o ADO e o restante da arquitetura do Microsoft Data Access. O OLE DB define um conjunto de interfaces COM para fornecer aos aplicativos acesso uniforme aos dados armazenados em diversas fontes de informação. Essa abordagem permite que uma fonte de dados compartilhe seus dados por meio de interfaces que suportam o número de funcionalidades DBMS apropriado para a fonte de dados. De acordo com o design, a arquitetura de alto desempenho do OLE DB é baseada no uso de um modelo de serviços flexível e baseado em componentes. Em vez de ter um número prescrito de camadas intermediárias entre o aplicativo e os dados, o OLE DB requer somente os componentes necessários para realizar uma tarefa específica.
+A Introdução do programador do ADO discute a relação entre o ADO e o restante da arquitetura do Microsoft Data Access. [](introduction-to-ado-programming.md) O OLE DB define um conjunto de interfaces COM para fornecer aos aplicativos acesso uniforme aos dados armazenados em diversas fontes de informação. Essa abordagem permite que uma fonte de dados compartilhe seus dados por meio de interfaces que suportam o número de funcionalidades DBMS apropriado para a fonte de dados. De acordo com o design, a arquitetura de alto desempenho do OLE DB é baseada no uso de um modelo de serviços flexível e baseado em componentes. Em vez de ter um número prescrito de camadas intermediárias entre o aplicativo e os dados, o OLE DB requer somente os componentes necessários para realizar uma tarefa específica.
 
 Por exemplo, suponha que um usuário deseje realizar uma consulta. Considere as seguintes situações:
 
@@ -39,6 +39,6 @@ O ADO fornece uma interface consistente e de alto nível para os vários provedo
 
 Esta seção inclui os seguintes tópicos:
 
-- [Provedores de dados](data-providers.md)
+- [Provedores de Dados](data-providers.md)
 
 - [Provedores de serviços e componentes](service-providers-and-components.md)

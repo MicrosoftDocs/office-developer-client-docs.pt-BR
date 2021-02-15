@@ -1,5 +1,5 @@
 ---
-title: IsolationLevelEnum (referência do banco de dados de área de trabalho do Access)
+title: IsolationLevelEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
@@ -43,7 +43,7 @@ Especifica o nível de isolamento da transação para um objeto [Connection](con
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>dezesseis</p></td>
+<td><p>16 </p></td>
 <td><p>Indica que as alterações pendentes de transações mais altamente isoladas não podem ser sobregravadas.</p></td>
 </tr>
 <tr class="odd">
@@ -100,31 +100,31 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. unESPECIFICADO</p></td>
+<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. caos</p></td>
+<td><p>AdoEnums.IsolationLevel.CHAOS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. BROWSE</p></td>
+<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. READUNCOMMITTED</p></td>
+<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. CURSORSTABILITY</p></td>
+<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. READCOMMITTED</p></td>
+<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. REPEATABLEREAD</p></td>
+<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. ISOLAted</p></td>
+<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. SERIALIZABLE</p></td>
+<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
 </tr>
 </tbody>
 </table>

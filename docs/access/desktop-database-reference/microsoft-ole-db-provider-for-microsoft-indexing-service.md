@@ -19,7 +19,7 @@ ms.locfileid: "32288915"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático somente leitura ao sistema de arquivos e a dados da Web indexados pelo serviço de indexação da Microsoft. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
+O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático somente leitura ao sistema de arquivos e aos dados da Web indexados pelo Serviço de Indexação da Microsoft. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
 
 O provedor é de encadeamento livre e habilitado para unicode.
 
@@ -83,7 +83,7 @@ O provedor não aceita chamadas de procedimento armazenado ou nomes simples de t
 
 ## <a name="recordset-behavior"></a>Comportamento do Recordset
 
-As tabelas a seguir listam os recursos disponíveis em um objeto **Recordset** aberto com esse provedor. Somente o tipo de cursor estático (**adOpenStatic**) está disponível.
+As tabelas a seguir listam os recursos disponíveis em um objeto **Recordset** aberto com esse provedor. Somente o tipo de cursor Estático (**adOpenStatic**) está disponível.
 
 Para obter informações mais detalhadas sobre o comportamento do **Recordset** na sua configuração de provedor, execute o método [Supports](supports-method-ado.md) e enumere a coleção [Properties](properties-collection-ado.md) de **Recordset** para identificar se propriedades dinâmicas específicas para provedor estão presentes.
 
@@ -96,7 +96,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade	</p></th>
+<th><p>Propriedade</p></th>
 <th><p>Disponibilidade</p></th>
 </tr>
 </thead>
@@ -122,7 +122,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
+<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
@@ -142,7 +142,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -185,7 +185,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </table>
 
 
-\*Os indicadores devem estar habilitados no provedor para que este recurso exista no **Recordset**.
+\*Bookmarks must be enabled on the provider in order for this feature to exist on the **Recordset**.
 
 Disponibilidade dos métodos padrão do **Recordset** do ADO:
 
@@ -196,8 +196,8 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método		</p></th>
-<th><p>Disponíveis?</p></th>
+<th><p>Método</p></th>
+<th><p>Disponível?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -234,7 +234,7 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Move</a></p></td>
+<td><p><a href="move-method-ado.md">Mover</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
@@ -258,11 +258,11 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
+<td><p><a href="supports-method-ado.md">Oferece suporte</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">Atualização</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">

@@ -25,7 +25,7 @@ ms.locfileid: "32289868"
 
 Você pode usar a ação **BloquearPainelDeNavegação** para impedir que os usuários excluam objetos de banco de dados exibidos no Painel de Navegação.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **BloquearPainelDeNavegação** tem os seguintes argumentos.
 

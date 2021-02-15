@@ -33,7 +33,7 @@ As seguintes propriedades dinâmicas são importantes e estão documentadas nas 
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriedade Dynamic</th>
+<th>Propriedade dinâmica</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ As seguintes propriedades dinâmicas são importantes e estão documentadas nas 
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Tabela exclusiva, Esquema exclusivo, Catálogo exclusivo</a></p></td>
-<td><p><strong>Tabela exclusiva</strong> — especifica o nome da tabela base na qual atualizações, inserções e exclusões são permitidas.<br/><br/><strong>Esquema exclusivo</strong> — especifica o esquema ou o nome do proprietário da tabela.<br/><br/><strong>Catálogo exclusivo</strong> — especifica o catálogo ou o nome do banco de dados que contém a tabela.</p></td>
+<td><p><strong>Unique Table</strong> — especifica o nome da tabela base na qual atualizações, inserções e exclusões são permitidas.<br/><br/><strong>Esquema exclusivo</strong> — especifica o esquema ou o nome do proprietário da tabela.<br/><br/><strong>Unique Catalog</strong> — especifica o catálogo ou o nome do banco de dados que contém a tabela.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>

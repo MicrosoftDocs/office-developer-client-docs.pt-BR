@@ -18,8 +18,8 @@ ms.locfileid: "32287829"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Coleção paraMeters (DAO)](parameters-collection-dao.md)
-- [Parâmetros de Membros (DAO)](parameters-members-dao.md)
-- [Propriedades de parâmetros (DAO)](parameters-properties-dao.md)
+- [Coleção de parâmetros (DAO)](parameters-collection-dao.md)
+- [Membros parameters (DAO)](parameters-members-dao.md)
+- [Propriedades parameters (DAO)](parameters-properties-dao.md)
 - [Métodos de parâmetros (DAO)](parameters-methods-dao.md)
 

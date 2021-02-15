@@ -1,5 +1,5 @@
 ---
-title: Cursores de conjunto de chaves (referência de banco de dados do Access)
+title: Cursores de keyset (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Keyset cursors
 ms:assetid: 4b6e5f90-4413-4fb3-0a08-2cb89d3c61f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)

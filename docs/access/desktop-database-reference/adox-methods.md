@@ -1,5 +1,5 @@
 ---
-title: Métodos ADOX (referência de banco de dados de área de trabalho do Access)
+title: Métodos do ADOX (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32270004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método		</p></th>
+<th><p>Método</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

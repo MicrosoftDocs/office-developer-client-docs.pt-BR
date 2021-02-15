@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos de chave (ADOX)
+title: Propriedades, métodos e eventos principais (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290302"
 ---
-# <a name="key-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de chave (ADOX)
+# <a name="key-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos principais (ADOX)
 
 **Aplica-se ao:** Access 2013, Office 2013 
 
@@ -33,5 +33,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

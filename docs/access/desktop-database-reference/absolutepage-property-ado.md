@@ -22,7 +22,7 @@ Indica a página na qual está o registro atual.
 
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
 
-Define ou retorna um valor **Long** de 1 até o número de páginas no objeto [Recordset](recordset-object-ado.md) ([PageCount](pagecount-property-ado.md)) ou retorna um dos valores [PositionEnum](positionenum.md) .
+Define ou retorna um **valor Long** de 1 até o número de páginas no objeto [Recordset](recordset-object-ado.md) ([PageCount](pagecount-property-ado.md)) ou retorna um dos valores [positionEnum](positionenum.md) .
 
 ## <a name="remarks"></a>Comentários
 
@@ -32,7 +32,7 @@ Ao obter ou configurar a propriedade **AbsolutePage**, o ADO usa as propriedades
 
 - Para obter a **AbsolutePage**, o ADO primeiro recupera a **AbsolutePosition** e a divide pela **PageSize**.
 
-- Para definir a **AbsolutePage**, o ADO move a **AbsolutePosition** da seguinte maneira: ele multiplica a **PageSize** pelo novo valor da **AbsolutePage** e acrescenta 1 ao valor. Como resultado, a posição atual no **Recordset** após a definição bem-sucedida de **AbsolutePage** é o primeiro registro nessa página.
+- Para definir a **AbsolutePage**, o ADO move a **AbsolutePosition** da seguinte maneira: ele multiplica a **PageSize** pelo novo valor da **AbsolutePage** e acrescenta 1 ao valor. Como resultado, a posição atual no **Recordset** após a definição bem-sucedida **de AbsolutePage** é o primeiro registro nessa página.
 
 Da mesma forma que a propriedade **AbsolutePosition**, a **AbsolutePage** tem base unitária e equivale a 1 quando o registro atual é o primeiro registro no **Recordset**. Defina essa propriedade para mover para o primeiro registro de uma página específica. Obtenha o número total de páginas da propriedade **PageCount**.
 

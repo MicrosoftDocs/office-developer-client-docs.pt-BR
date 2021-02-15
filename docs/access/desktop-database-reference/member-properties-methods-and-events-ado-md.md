@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos de membro (ADO MD)
+title: Propriedades, métodos e eventos do membro (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 67d28214-2805-010b-eb10-4995fb69506c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249404(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289446"
 ---
-# <a name="member-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos de membro (ADO MD)
+# <a name="member-properties-methods-and-events-ado-md"></a>Propriedades, métodos e eventos do membro (ADO MD)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -41,5 +41,5 @@ Nenhum.
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

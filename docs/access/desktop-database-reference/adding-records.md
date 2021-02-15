@@ -1,5 +1,5 @@
 ---
-title: Adicionando registros (referência de banco de dados de área de trabalho do Access)
+title: Adicionando registros (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
@@ -28,5 +28,5 @@ Esta seção inclui os seguintes tópicos:
 
 - [Adição de vários campos](adding-multiple-fields.md)
 - [Determinando o modo de edição](determining-edit-mode.md)
-- [Usando AddNew nos modos imediato e em lote](using-addnew-in-immediate-and-batch-modes.md)
+- [Usando AddNew nos modos Imediato e Em Lotes](using-addnew-in-immediate-and-batch-modes.md)
 

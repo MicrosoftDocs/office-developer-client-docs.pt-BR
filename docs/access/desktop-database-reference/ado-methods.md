@@ -27,7 +27,7 @@ ms.locfileid: "32283279"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Método		</th>
+<th>Método</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -46,7 +46,7 @@ ms.locfileid: "32283279"
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans e RollbackTrans</a></p></td>
 <td><p>Gerencia o processamento de transações em um objeto <strong>Connection</strong> da seguinte maneira:<br/><br/><strong>BeginTrans</strong>  inicia uma nova transação.<br/><br/>
 <strong>CommitTrans</strong>  salva as alterações e finaliza a transação atual. Também pode iniciar uma nova transação.<br/><br/>
-<strong>RollbackTrans</strong> — cancela as alterações e encerra a transação atual. Também pode iniciar uma nova transação.</p></td>
+<strong>RollbackTrans</strong> — Cancela todas as alterações e finaliza a transação atual. Também pode iniciar uma nova transação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -117,7 +117,7 @@ ms.locfileid: "32283279"
 <td><p>Pesquisa um <strong>Recordset</strong> para a linha que atende aos critérios especificados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Descarga</a></p></td>
+<td><p><a href="flush-method-ado.md">Flush</a></p></td>
 <td><p>Força o conteúdo do <strong>Stream</strong> a permanecer no buffer do objeto de base ao qual o <strong>Stream</strong> está associado.</p></td>
 </tr>
 <tr class="odd">
@@ -141,7 +141,7 @@ ms.locfileid: "32283279"
 <td><p>Carrega os conteúdos de um arquivo existente em um <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Move</a></p></td>
+<td><p><a href="move-method-ado.md">Mover</a></p></td>
 <td><p>Move a posição do registro atual em um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -221,11 +221,11 @@ ms.locfileid: "32283279"
 <td><p>Obtém informações estatísticas sobre um fluxo aberto.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
+<td><p><a href="supports-method-ado.md">Oferece suporte</a></p></td>
 <td><p>Determina se um objeto <strong>Recordset</strong> especificado oferece suporte a um tipo específico de funcionalidade.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Atualização</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Salva quaisquer alterações feitas na linha atual de um objeto <strong>Recordset</strong>, ou na coleção <strong>Fields</strong> de um objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

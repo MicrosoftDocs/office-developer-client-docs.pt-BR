@@ -22,7 +22,7 @@ Recupera os resultados de uma consulta multidimensional e retorna os resultados 
 
 ## <a name="syntax"></a>Sintaxe
 
-*CellSet*. *Fonte*aberta, *ActiveConnection*
+*Cellset*. Open *Source*, *ActiveConnection*
 
 ## <a name="parameters"></a>Parâmetros
 

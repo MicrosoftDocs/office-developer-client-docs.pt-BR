@@ -274,7 +274,7 @@ void PrintComError(_com_error &e)
 // EndMarshalOptionsCpp 
 ```
 
-**MarshalOptionsX. h**
+**MarshalOptionsX.h**
 
 ```cpp 
  

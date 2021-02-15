@@ -25,9 +25,9 @@ ms.locfileid: "32288354"
 Em um projeto do Access, você pode usar a ação **AbrirDiagrama** para abrir um diagrama de banco de dados no modo Design.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirDiagrama** tem os argumentos a seguir.
 

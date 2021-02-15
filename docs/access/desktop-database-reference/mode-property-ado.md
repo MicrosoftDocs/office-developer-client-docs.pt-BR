@@ -33,5 +33,5 @@ Para um objeto **Stream**, se o modo de acesso não for especificado, ele será 
 
 Esta propriedade será leitura/gravação enquanto o objeto estiver fechado e somente leitura quando estiver aberto.
 
-**Uso do Remote Data Service** Quando usado em um objeto Connection do lado do cliente, a propriedade **Mode** só pode ser definida como **adModeUnknown**.
+**Uso do Remote Data Service** Quando usada em um objeto Connection do lado do cliente, a propriedade **Mode** só pode ser definida como **adModeUnknown**.
 

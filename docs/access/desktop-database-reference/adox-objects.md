@@ -1,5 +1,5 @@
 ---
-title: Objetos ADOX (referência de banco de dados de área de trabalho do Access)
+title: Objetos do ADOX (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280298"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto **Table** pode estar contido em uma coleção [Tables](tables-collection-adox.md). Para obter mais informações, consulte [coleções do ADOX](adox-collections.md) ou um tópico específico da coleção.
+Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto **Table** pode estar contido em uma coleção [Tables](tables-collection-adox.md). Para obter mais informações, consulte [coleções do ADOX ou](adox-collections.md) um tópico de coleção específico.
 
 <br/>
 
@@ -51,7 +51,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa um índice de uma tabela de banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Tecla</a></p></td>
+<td><p><a href="key-object-adox.md">Chave</a></p></td>
 <td><p>Representa um campo de chave primária, estrangeira ou exclusiva de uma tabela de banco de dados.</p></td>
 </tr>
 <tr class="even">

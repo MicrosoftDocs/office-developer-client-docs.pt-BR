@@ -18,7 +18,7 @@ ms.locfileid: "32288845"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O objeto Recordset do ADO oferece suporte ao repositório do conteúdo de um objeto **Recordset** em arquivo por meio de seu método [Save](save-method-ado.md). O arquivo armazenado persistente pode existir em uma unidade local, servidor de rede ou como uma URL em um site. Posteriormente, o arquivo poderá ser restaurado com o método **Open** do objeto [Recordset](open-method-ado-recordset.md) ou com o método [Execute](connection-object-ado.md) do objeto [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
+O objeto Recordset do ADO oferece suporte ao repositório do conteúdo de um objeto **Recordset** em arquivo por meio de seu método [Save](save-method-ado.md). O arquivo armazenado de forma persistente pode existir em uma unidade local, servidor de rede ou como uma URL em um site. Posteriormente, o arquivo poderá ser restaurado com o método **Open** do objeto [Recordset](open-method-ado-recordset.md) ou com o método [Execute](connection-object-ado.md) do objeto [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
 
 O método [GetString](getstring-method-ado.md) também converte um objeto **Recordset** em uma forma na qual as colunas e as linhas são delimitadas pelos caracteres especificados.
 

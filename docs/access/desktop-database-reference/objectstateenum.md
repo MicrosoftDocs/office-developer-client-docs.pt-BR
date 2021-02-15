@@ -1,5 +1,5 @@
 ---
-title: ObjectStateEnum (referência do banco de dados de área de trabalho do Access)
+title: ObjectStateEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -38,27 +38,27 @@ Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados
 <tbody>
 <tr class="odd">
 <td><p><strong>adStateClosed</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica que o objeto está fechado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que o objeto está aberto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o objeto está conectando.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateExecuting</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que o objeto está executando um comando.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Indica que as linhas do objeto estão sendo recuperadas.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. CLOSED</p></td>
+<td><p>AdoEnums.ObjectState.CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ObjectState. OPEN</p></td>
+<td><p>AdoEnums.ObjectState.OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. CONNECTing</p></td>
+<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ObjectState. EXECUting</p></td>
+<td><p>AdoEnums.ObjectState.EXERECORTAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. FETCHing</p></td>
+<td><p>AdoEnums.ObjectState.FETCHING</p></td>
 </tr>
 </tbody>
 </table>

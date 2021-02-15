@@ -1,5 +1,5 @@
 ---
-title: Instanciação de eventos do ADO por idioma (ADO)
+title: Instaciação de eventos do ADO por idioma (ADO)
 TOCTitle: ADO event instantiation by language
 ms:assetid: d21cc0bd-8450-4f8f-92f8-78ca9861f44a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283363"
 ---
-# <a name="ado-event-instantiation-by-language-ado"></a>Instanciação de eventos do ADO por idioma (ADO)
+# <a name="ado-event-instantiation-by-language-ado"></a>Instaciação de eventos do ADO por idioma (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 

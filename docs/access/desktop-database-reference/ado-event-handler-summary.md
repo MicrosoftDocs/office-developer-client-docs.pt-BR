@@ -40,7 +40,7 @@ As seguintes tabelas resumem os eventos e suas descrições.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos begintranscomplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
 <td><p><strong>Gerenciamento de transação</strong> — Notificação sobre o início, a confirmação ou a reversão da transação atual na conexão.</p></td>
 </tr>
 <tr class="even">

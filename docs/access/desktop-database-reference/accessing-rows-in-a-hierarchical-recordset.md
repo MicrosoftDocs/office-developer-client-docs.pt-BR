@@ -29,7 +29,7 @@ O exemplo a seguir mostra as etapas necessárias para acessar as linhas em um [R
 4. O loop interno exibe quatro campos de cada linha no **Recordset** anexado.
 
 > [!NOTE] 
-> A propriedade [StayInSync](stayinsync-property-ado.md) é definida como false para fins de ilustração, portanto, você pode ver a alteração de capítulo explicitamente em cada iteração do loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Defina a propriedade **StayInSync** como true, para que o *rstTitleAuthor* mude implicitamente e automaticamente para o capítulo correspondente sempre que *RST* se mover para uma nova linha.
+> A [propriedade StayInSync](stayinsync-property-ado.md) é definida como FALSE para fins de ilustração, para que você possa ver a alteração do capítulo explicitamente em cada iteração do loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Definir a **propriedade StayInSync** como TRUE, para que *rstTitleAuthor* altere implicitamente e automaticamente para o capítulo correspondente sempre *que rst* se mover para uma nova linha.
 
 **Exemplo**
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos MoveFirst, moVelast, MoveNext e MovePrevious (RDS)
+title: Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (RDS)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (RDS)
 ms:assetid: 32ef8fa9-c096-b4e7-3396-b88a6a9bd1a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288683"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Métodos MoveFirst, moVelast, MoveNext e MovePrevious (RDS)
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (RDS)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Move para o primeiro, o último, o próximo ou o registro anterior em um objeto 
 
 ## <a name="syntax"></a>Sintaxe
 
-*DataControl*. Conectado. { MoveFirst | MoVelast | MoveNext | MovePrevious
+*DataControl*. Recordset. { MoveFirst | MoveLast | MoveNext | MovePrevious}
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ Move para o primeiro, o último, o próximo ou o registro anterior em um objeto 
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar os métodos **move** com o **RDS. **Objeto DataControl para navegar pelos registros de dados nos controles associados a dados em uma página da Web. 
+Você pode usar **os métodos Move** com o **RDS. Objeto DataControl** para navegar pelos registros de dados nos controles vinculados a dados em uma página da Web. 
 
 Por exemplo, suponha que você exiba um **Recordset** em uma grade ligando a um objeto **RDS.DataControl**. Em seguida, é possível incluir botões Primeiro, Último, Próximo e Anterior que os usuários podem clicar para mover-se para o primeiro, o último, o próximo ou o registro anterior no **Recordset** exibido. Isso é feito chamando-se os métodos **MoveFirst**, **MoveLast**, **MoveNext** e **MovePrevious** do objeto **RDS.DataControl** nos procedimentos onClick dos botões Primeiro, Último, Próximo e Anterior, respectivamente. O [Exemplo de Catálogo de Endereços](address-book-navigation-buttons.md) mostra como fazer isso.
 

@@ -27,7 +27,7 @@ Você pode usar a ação **AbrirConsulta** para abrir uma consulta de seleção 
 > [!NOTE]
 > [!OBSERVAçãO] Esta ação só está disponível no ambiente de banco de dados do Access (.mdb ou .accdb). Consulte as ações **AbrirModoDeExibição**, **AbrirProcedimentoArmazenado** ou **AbrirFunção** se estiver usando o ambiente de the projeto do Access (.adp).
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirConsulta** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **AbrirConsulta** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da Consulta</strong></p></td>
-<td><p>O nome da consulta que será aberta. A caixa <strong>nome da consulta</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todas as consultas no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirConsulta</strong> em um banco de dados biblioteca, o Microsoft Access procurará a consulta com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome da consulta que será aberta. A <strong>caixa Nome da Consulta</strong> na seção <strong>Argumentos</strong> da Ação do painel Construtor de Macros mostra todas as consultas no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>OpenQuery</strong> em um banco de dados biblioteca, o Microsoft Access primeiro procura a consulta com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

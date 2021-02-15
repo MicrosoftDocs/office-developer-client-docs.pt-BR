@@ -1,5 +1,5 @@
 ---
-title: Coleções do ADOX (referência de banco de dados do Access)
+title: Coleções do ADOX (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
@@ -57,7 +57,7 @@ ms.locfileid: "32270123"
 <td><p>Contém todos os objetos <strong>Tabela</strong> de um catálogo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="users-collection-adox.md">Users</a></p></td>
+<td><p><a href="users-collection-adox.md">Usuários</a></p></td>
 <td><p>Contém todos os objetos <strong>User</strong> armazenados de um catálogo ou grupo.</p></td>
 </tr>
 <tr class="even">

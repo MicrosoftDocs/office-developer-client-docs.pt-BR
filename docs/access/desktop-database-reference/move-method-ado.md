@@ -1,5 +1,5 @@
 ---
-title: Método Move-ActiveX Data Objects (ADO)
+title: Método Move - ActiveX Data Objects (ADO)
 TOCTitle: Move method (ADO)
 ms:assetid: 1f858654-5fa3-273d-7cdc-574c5f09a420
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
@@ -22,7 +22,7 @@ Move a posição do registro atual em um objeto [Recordset](recordset-object-ado
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. Mover *NumRecords*, *Iniciar*
+*recordset*. Mover *NumRecords*, *Iniciar*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,7 +37,7 @@ O método **Move** é suportado em todos os objetos **Recordset**.
 
 Se o argumento *NumRecords* for maior que zero, a posição de registro atual é movida para frente (em direção ao final do **Recordset**). Se *NumRecords* for menor que zero, a posição de registro atual será movida para trás (em direção ao início do **Recordset**).
 
-Se a chamada de **movimentação** mover a posição do registro atual para um ponto antes do primeiro registro, o ADO define o registro atual como a posição antes do primeiro registro no Recordset ([BOF](bof-eof-properties-ado.md) é **true**). Uma tentativa em mover para trás quando a propriedade **BOF** já é **True** gera um erro.
+Se a chamada **Move** moveria a posição do registro atual para um ponto antes do primeiro registro, o ADO define o registro atual para a posição antes do primeiro registro no conjunto de registros ([BOF](bof-eof-properties-ado.md) é **True**). Uma tentativa em mover para trás quando a propriedade **BOF** já é **True** gera um erro.
 
 Se a chamada a **Move** moveria a posição do registro atual para um ponto depois do último registro, o ADO define o registro atual para a posição depois do último registro no recordset ([EOF](bof-eof-properties-ado.md) é **True**). Uma tentativa em mover para frente quando a propriedade **EOF** já é **True** gera um erro.
 

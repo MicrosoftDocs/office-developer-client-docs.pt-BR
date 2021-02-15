@@ -1,5 +1,5 @@
 ---
-title: Coleção poSitions (ADO MD)
+title: Coleção Positions (ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: a1e6333a-26a5-047a-1311-1a4060c73145
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249746(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287483"
 ---
-# <a name="positions-collection-ado-md"></a>Coleção poSitions (ADO MD)
+# <a name="positions-collection-ado-md"></a>Coleção Positions (ADO MD)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

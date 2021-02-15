@@ -1,5 +1,5 @@
 ---
-title: Propriedades do ActiveX Data Objects (ADO) MD
+title: Propriedades MD do ActiveX Data Objects (ADO)
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32283286"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriedade	</th>
+<th>Propriedade</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">

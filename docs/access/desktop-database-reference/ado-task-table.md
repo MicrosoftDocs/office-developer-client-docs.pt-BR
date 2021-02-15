@@ -18,7 +18,7 @@ ms.locfileid: "32283244"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-A tabela a seguir lista tarefas de programação contidas no *Guia do programador do ADO* e fornece referências para cada tarefa. Essas referências podem ser descrições textuais ou exemplos de código nos quais é possível encontrar informações sobre o recurso do ADO que realiza a tarefa.
+A tabela a seguir lista as tarefas de programação contidas no guia do programador do *ADO* e fornece referências para cada tarefa. Essas referências podem ser descrições textuais ou exemplos de código nos quais é possível encontrar informações sobre o recurso do ADO que realiza a tarefa.
 
 <table>
 <colgroup>

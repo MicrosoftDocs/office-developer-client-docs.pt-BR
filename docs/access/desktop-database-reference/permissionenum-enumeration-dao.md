@@ -1,5 +1,5 @@
 ---
-title: Enumeração de PermissionEnum (DAO)
+title: Enumeração PermissionEnum (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287707"
 ---
-# <a name="permissionenum-enumeration-dao"></a>Enumeração de PermissionEnum (DAO)
+# <a name="permissionenum-enumeration-dao"></a>Enumeração PermissionEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -37,27 +37,27 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>O usuário pode criar novos documentos (não é válido para objetos Document).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>O usuário pode replicar um banco de dados e alterar a senha do banco de dados (não é válido para objetos Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>O usuário pode criar novos bancos de dados. Esta opção é válida somente no contêiner Bancos de Dados do arquivo de informações do grupo de trabalho (Systen.mdw). Esta constante não é válida para objetos Document.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBExclusive</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>O usuário tem acesso exclusivo ao banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>O usuário pode abrir o banco de dados.</p></td>
 </tr>
 <tr class="even">
@@ -82,12 +82,12 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 </tr>
 <tr class="even">
 <td><p>dbSecNoAccess</p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>O usuário não tem acesso ao objeto (não é válido para objetos Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecReadDef</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>O usuário pode ler a definição da tabela, inclusive informações de coluna e índice.</p></td>
 </tr>
 <tr class="even">
@@ -102,7 +102,7 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 </tr>
 <tr class="even">
 <td><p>dbSecRetrieveData</p></td>
-<td><p>508</p></td>
+<td><p>20</p></td>
 <td><p>O usuário pode recuperar dados do objeto Document.</p></td>
 </tr>
 <tr class="odd">

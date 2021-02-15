@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 // EndIsolationLevelCpp 
 ```
 
-**IsolationLevelX. h**
+**IsolationLevelX.h**
 
 ```cpp 
  

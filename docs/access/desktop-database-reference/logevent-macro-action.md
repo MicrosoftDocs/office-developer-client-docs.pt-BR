@@ -23,7 +23,7 @@ A ação **RegistrarEvento** grava informações na tabela de sistema **USysAppl
 > [!NOTE]
 > A ação **RegistrarEvento** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **RegistrarEvento** tem os seguintes argumentos.
 
@@ -35,7 +35,7 @@ A ação **RegistrarEvento** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>

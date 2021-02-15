@@ -89,11 +89,11 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Jailbreak</em></p></td>
+<td><p><em>Raiz</em></p></td>
 <td><p>Indica o objeto <strong>ADsPath</strong> a partir do qual iniciar a pesquisa (isto é, a raiz para a pesquisa).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Filtro</em></p></td>
 <td><p>Indica o filtro da pesquisa no formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -102,9 +102,9 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>Opcional. Uma <strong>String</strong> que especifica o escopo da pesquisa. Pode ser uma das seguintes opções: base – pesquise apenas o objeto base (raiz da pesquisa).<br />
-OnElevel – pesquise apenas um nível.<br />
-SubÁrvore — Pesquise toda a subárvore.</p></td>
+<td><p>Opcional. Uma <strong>String</strong> que especifica o escopo da pesquisa. Pode ser um dos seguintes: Base — pesquisa somente o objeto base (raiz da pesquisa).<br />
+OneLevel — Pesquisa apenas um nível.<br />
+Subárvore — Pesquisa a subárvore inteira.</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +129,7 @@ O provedor não aceita chamadas de procedimento armazenado ou nomes simples de t
 
 ## <a name="recordset-behavior"></a>Comportamento do Recordset
 
-As tabelas a seguir relacionam os recursos disponíveis em um objeto [Recordset](recordset-object-ado.md) aberto com este provedor. Somente o tipo de cursor estático (**adOpenStatic**) está disponível.
+As tabelas a seguir relacionam os recursos disponíveis em um objeto [Recordset](recordset-object-ado.md) aberto com este provedor. Somente o tipo de cursor Estático (**adOpenStatic**) está disponível.
 
 Para obter informações mais detalhadas sobre o comportamento do **Recordset** na sua configuração de provedor, execute o método [Supports](supports-method-ado.md) e enumere a coleção [Properties](properties-collection-ado.md) de **Recordset** para identificar se propriedades dinâmicas específicas para provedor estão presentes.
 
@@ -142,7 +142,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade	</p></th>
+<th><p>Propriedade</p></th>
 <th><p>Disponibilidade</p></th>
 </tr>
 </thead>
@@ -168,7 +168,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
+<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
@@ -188,7 +188,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -240,8 +240,8 @@ Disponibilidade de métodos padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método		</p></th>
-<th><p>Disponíveis?</p></th>
+<th><p>Método</p></th>
+<th><p>Disponível?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -278,7 +278,7 @@ Disponibilidade de métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Move</a></p></td>
+<td><p><a href="move-method-ado.md">Mover</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
@@ -314,11 +314,11 @@ Disponibilidade de métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
+<td><p><a href="supports-method-ado.md">Oferece suporte</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Atualização</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">

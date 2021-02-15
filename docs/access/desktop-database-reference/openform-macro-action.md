@@ -18,11 +18,11 @@ ms.locfileid: "32288368"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Você pode usar a ação **AbrirFormulário** para abrir um formulário no modo formulário, modo de design, visualização de impressão ou modo folha de de formulários. Você pode selecionar a entrada de dados e os modos de janela para o formulário e restringir os registros que o formulário exibe.
+You can use the **OpenForm** action to open a form in Form view, Design view, Print Preview, or Datasheet view. Você pode selecionar a entrada de dados e os modos de janela para o formulário e restringir os registros que o formulário exibe.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
-A ação **AbrirFormulário** tem os seguintes argumentos.
+A **ação OpenForm** tem os seguintes argumentos.
 
 <table>
 <colgroup>
@@ -38,36 +38,36 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do formulário</strong></p></td>
-<td><p>O nome do formulário a ser aberto. A caixa <strong>nome do formulário</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todos os formulários no banco de dados atual. É um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirFormulário</strong> em um banco de dados biblioteca, o Microsoft Access procurará o formulário com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do formulário a ser aberto. A <strong>caixa Nome do</strong> Formulário na seção <strong>Argumentos da</strong> Ação do painel Construtor de Macros mostra todos os formulários no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro contendo a ação <strong>OpenForm</strong> em um banco de dados biblioteca, o Microsoft Access primeiro procura o formulário com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
-<td><p>O modo de exibição no qual o formulário será aberto. Clique em <strong>formulário</strong>, <strong>design</strong>, <strong>Visualizar impressão</strong>, <strong>folha</strong>de data, <strong>tabela dinâmica</strong>ou <strong>gráfico dinâmico</strong> na caixa <strong>modo de exibição</strong> . O padrão é <strong>Form</strong>.</p><p><strong>Observação</strong>: a configuração do argumento <STRONG>Exibir</STRONG> substitui as configurações das propriedades <STRONG>ModoPadrão</STRONG> e <STRONG>ModosPermitidos</STRONG> do formulário. Por exemplo, se a propriedade <STRONG>ModosPermitidos</STRONG> de um formulário estiver definida como <STRONG>folha</STRONG>de a, você ainda poderá usar a ação <STRONG>AbrirFormulário</STRONG> para abrir o formulário no modo formulário.</p></td>
+<td><p>O exibição no qual o formulário será aberto. Click <strong>Form</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>Datasheet</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. O padrão é <strong>Form</strong>.</p><p><strong>OBSERVAÇÃO:</strong>a <STRONG>configuração</STRONG> do argumento View substitui as configurações das propriedades <STRONG>DefaultView</STRONG> e <STRONG>ViewsAllowed do</STRONG> formulário. For example, if a form's <STRONG>ViewsAllowed</STRONG> property is set to <STRONG>Datasheet</STRONG>, you can still use the <STRONG>OpenForm</STRONG> action to open the form in Form view.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nome do Filtro</strong></p></td>
-<td><p>Um filtro que restringe ou classifica os registros do formulário. Você pode digitar o nome de uma consulta existente ou de um filtro que foi salvo como consulta. No enTanto, a consulta deve incluir todos os campos no formulário que você está abrindo ou ter a propriedade <strong>OutputAllFields</strong> definida como <strong>Sim</strong>.</p></td>
+<td><p>Um filtro que restringe ou classifica os registros do formulário. Você pode digitar o nome de uma consulta existente ou de um filtro que foi salvo como consulta. No entanto, a consulta deve incluir todos os campos no formulário que você está abrindo ou ter sua <strong>propriedade OutputAllFields</strong> definida como <strong>Sim</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Condição Where</strong></p></td>
-<td><p>Uma cláusula SQL WHERE válida (sem a palavra WHERE) ou expressão que o Access usa para selecionar registros da tabela ou consulta base do formulário. Se você selecionar um filtro com o argumento <strong>Nome do Filtro</strong>, o Access aplicará essa cláusula WHERE aos resultados do filtro. Para abrir um formulário e restringir seus registros aos especificados pelo valor de um controle em outro formulário, use a seguinte expressão: <strong>[</strong><em>FieldName</em><strong>] = Forms! [</strong> <em>FormName</em> <strong>]! [</strong><em>ControlName em outro formulário</em><strong>]</strong> substitui <em>FieldName</em> pelo nome de um campo na tabela ou consulta base do formulário que você deseja abrir. Substitua <em>FormName</em> e <em>ControlName em outro formulário</em> com o nome do outro formulário e o controle no outro formulário que contém o valor que você deseja que os registros no primeiro formulário correspondam.</p><p><strong>Observação</strong>: o comprimento máximo do argumento <STRONG>condição onde</STRONG> é de 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE mais complexa e maior que isso, use o método <STRONG>OpenForm</STRONG> do objeto <STRONG>DoCmd</STRONG> em um módulo do Visual Basic for Applications (VBA). É possível inserir instruções de cláusulas SQL WHERE de até 32.768 caracteres no VBA.</p></td>
+<td><p>Uma cláusula SQL WHERE válida (sem a palavra WHERE) ou expressão que o Access usa para selecionar registros da tabela ou consulta base do formulário. Se você selecionar um filtro com o argumento <strong>Nome do Filtro</strong>, o Access aplicará essa cláusula WHERE aos resultados do filtro. Para abrir um formulário e restringir seus registros àqueles especificados pelo valor de um controle em outro formulário, use a expressão a seguir: <strong>[</strong><em>nome_do_campo</em><strong>] = Formulários![</strong> <em>formname</em><strong>]! [</strong><em>controlname on other form</em><strong>]</strong> Replace <em>fieldname</em> with the name of a field in the underlying table or query of the form you want to open. Substitua <em>formname</em> e <em>controlname em outro</em> formulário pelo nome do outro formulário e o controle no outro formulário que contém o valor que você deseja que os registros do primeiro formulário sejam match.</p><p><strong>OBSERVAÇÃO:</strong>o comprimento máximo do argumento <STRONG>Condição Where</STRONG> é de 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE mais complexa do que essa, use o método <STRONG>OpenForm</STRONG> do objeto <STRONG>DoCmd</STRONG> em um módulo do VBA (Visual Basic for Applications). É possível inserir instruções de cláusulas SQL WHERE de até 32.768 caracteres no VBA.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Modo de Dados</strong></p></td>
 <td><p>O modo de entrada de dados do formulário. Isso se aplica apenas aos formulários abertos no modo Formulário ou no modo Folha de Dados. Clique em <strong>Adicionar</strong> (o usuário pode adicionar novos registros, mas não pode editar os existentes), <strong>Editar</strong> (o usuário pode editar os registros existentes e adicionar novos) ou <strong>Somente Leitura</strong> (o usuário só pode exibir registros). O padrão é <strong>Editar</strong>. <strong>Anotações</strong></p>
 <ul>
-<li><p>A configuração do argumento <strong>modo de dados</strong> substitui as configurações das propriedades <strong>PermitirEdições</strong>, <strong>PermitirExclusões</strong>, <strong>PermitirAdições</strong>e DataEntry do formulário. <strong></strong> Por exemplo, se a propriedade <strong>PermitirEdições</strong> de um formulário estiver definida como <strong>não</strong>, você ainda poderá usar a ação <strong>AbrirFormulário</strong> para abrir o formulário no modo de edição.</p></li>
-<li><p>Se você deixar este argumento em branco, o Access abrirá o formulário no modo de entrada de dados definido pelas propriedades <strong>PermitirEdições</strong>, <strong>PermitirExclusões</strong>, <strong>PermitirAdições</strong>e DataEntry do formulário. <strong></strong></p></li>
+<li><p>A <strong>configuração</strong> do argumento Modo de Dados substitui as configurações das propriedades <strong>AllowEdits</strong>, <strong>AllowDeletions</strong>, <strong>AllowAdditions</strong>e <strong>DataEntry do</strong> formulário. For example, if a form's <strong>AllowEdits</strong> property is set to <strong>No</strong>, you can still use the <strong>OpenForm</strong> action to open the form in Edit mode.</p></li>
+<li><p>Se você deixar esse argumento em branco, o Access abrirá o formulário no modo de entrada de dados definido pelas propriedades <strong>AllowEdits</strong>, <strong>AllowDeletions</strong>, <strong>AllowAdditions</strong>e <strong>DataEntry</strong> do formulário.</p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modo Janela</strong></p></td>
-<td><p>O modo de janela em que o formulário é aberto. Clique em <strong>normal</strong> (o formulário é aberto no modo definido por suas propriedades) <strong>, oculto</strong> (o formulário é oculto), <strong>ícone</strong> (o formulário abre minimizado como uma pequena barra de título na parte inferior da tela) ou <strong>caixa de diálogo</strong> (a <strong>janela restrita</strong> e o <strong>pop-up do formulário </strong>propriedades estão definidas como <strong>Sim</strong>). O padrão é <strong>Normal</strong>.</p><p><strong>Observação</strong>: algumas configurações de argumento do <STRONG>modo de janela</STRONG> não se aplicam ao usar documentos com guias. Para alternar para janelas sobrepostas:</p>
+<td><p>O modo de janela no qual o formulário é aberto. Click <strong>Normal</strong> (the form opens in the mode set by its properties), <strong>Hidden</strong> (the form is hidden), <strong>Icon</strong> (the form opens minimized as a small title bar at the bottom of the screen), or <strong>Dialog</strong> (the form's <strong>Modal</strong> and <strong>PopUp</strong> properties are set to <strong>Yes</strong>). O padrão é <strong>Normal</strong>.</p><p><strong>OBSERVAÇÃO:</strong>algumas <STRONG>configurações de</STRONG> argumento do Modo Janela não se aplicam ao usar documentos com guias. Para alternar para janelas sobrepostas:</p>
 <ol>
-<li><p>Clique na guia arquivo e em <strong>Opções</strong>.</p></li>
+<li><p>Clique na guia Arquivo e em <strong>Opções.</strong></p></li>
 <li><p>Na caixa de diálogo <strong>Opções do Access</strong>, clique em <strong>Banco de Dados Atual</strong>.</p></li>
-<li><p>Na seção <strong>Opções do aplicativo</strong>, em <strong>Opções da janela de documento</strong>, clique em janelas sobrepostas. <strong></strong></p></li>
+<li><p>Na seção <strong>Opções de Aplicativo,</strong>em <strong>Opções de Janela de Documento,</strong>clique <strong>em Sobreposição do Windows</strong>.</p></li>
 <li><p>Clique em <strong>OK</strong> e feche e abra o banco de dados novamente.</p></li>
 </ol></td>
 </tr>
@@ -77,22 +77,22 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Esta ação é semelhante a clicar duas vezes em um formulário no painel de navegação ou clicar com o botão direito do mouse no formulário no painel de navegação e selecionar um modo de exibição.
+Esta ação é semelhante a clicar duas vezes em um formulário no Painel de Navegação ou clicar com o botão direito do mouse no formulário no Painel de Navegação e selecionar um modo de exibição.
 
-Um formulário pode ser de janela restrita (deve ser fechado ou oculto para que o usuário possa executar qualquer outra ação) ou sem janela restrita (o usuário pode mover para outras janelas enquanto o formulário está aberto). Também pode ser um formulário pop-up (um formulário usado para coletar ou exibir informações que permanecem na parte superior de todas as outras janelas do Access). Você define as propriedades **modal** e **Popup** quando cria o formulário. Se você usar **normal** para o argumento **modo janela** , o formulário é aberto no modo especificado por essas configurações de propriedade. Se você usar a **caixa de diálogo** do argumento **modo janela** , essas propriedades serão definidas como **Sim**. Um formulário aberto como oculto ou como um ícone retorna ao modo especificado por suas configurações de propriedade quando você o exibe ou restaura.
+Um formulário pode ser modal (deve ser fechado ou oculto antes que o usuário possa executar qualquer outra ação) ou sem janelas (o usuário pode se mover para outras janelas enquanto o formulário estiver aberto). Também pode ser um formulário pop-up (um formulário usado para coletar ou exibir informações que permanecem sobre todas as outras janelas do Access). Você pode definir **as propriedades Modal** **e PopUp** ao criar o formulário. Se você usar **Normal** para o **argumento Modo janela,** o formulário abre no modo especificado por essas configurações de propriedade. Se você usar **Dialog** para o **argumento Modo Janela,** essas propriedades serão definidas como **Sim**. Um formulário aberto como oculto ou como um ícone retorna ao modo especificado por suas configurações de propriedade quando você o mostra ou restaura.
 
-Quando você abre um formulário com o argumento **modo janela** definido como **caixa de diálogo**, o Access suspende a macro até que o formulário seja fechado ou oculto. Você pode ocultar um formulário definindo sua propriedade **Visible** como **não** usando a ação **DefinirValor** .
+Quando você abre um formulário com o argumento **Modo** Janela definido como **Diálogo,** o Access suspende a macro até que o formulário seja fechado ou oculto. Você pode ocultar um formulário definindo **sua propriedade Visible** como **Não** usando a **ação SetValue.**
 
 > [!TIP]
-> Você pode selecionar um formulário no painel de navegação e arrastá-lo para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirFormulário** que abre o formulário no modo formulário.
+> Você pode selecionar um formulário no Painel de Navegação e arrastá-lo para uma linha de ação de macro. This automatically creates an **OpenForm** action that opens the form in Form view.
 
-O filtro e a condição WHERE aplicados tornam-se a configuração da propriedade **Filter** do formulário.
+O filtro e a condição WHERE aplicados tornam-se a definição da propriedade **Filter do** formulário.
 
 ## <a name="examples"></a>Exemplos
 
-**Definir o valor de um controle usando uma macro**
+**Definir o valor de um controle, usando uma macro**
 
-A macro a seguir abre o formulário Adicionar produtos a partir de um botão no formulário fornecedores. Ela mostra o uso das ações **eco**, **fecharJanela**, **AbrirFormulário**, **DefinirValor**e **IrParaControle** . A ação **DefinirValor** define o controle de ID do fornecedor no formulário produtos como o fornecedor atual no formulário fornecedores. A ação **IrParaControle** move o foco para o campo ID da categoria, onde você pode começar a inserir dados para o novo produto. Essa macro deve ser anexada ao botão Adicionar produtos no formulário fornecedores.
+A macro a seguir abre o formulário Adicionar Produtos de um botão no formulário de Fornecedores. Mostra o uso das ações **Echo**, **CloseWindow**, **OpenForm**, **SetValue** e **GoToControl**. A **ação SetValue** define o controle de ID do Fornecedor no formulário Produtos para o fornecedor atual no formulário Fornecedores. A **ação IrParaControle** move o foco para o campo ID da categoria, onde você pode começar a inserir dados para o novo produto. Essa macro deve estar anexada ao botão Adicionar Produtos no formulário de Fornecedores.
 
 <table>
 <colgroup>
@@ -110,34 +110,34 @@ A macro a seguir abre o formulário Adicionar produtos a partir de um botão no 
 <tbody>
 <tr class="odd">
 <td><p><strong>Echo</strong></p></td>
-<td><p><strong>Echo ativado</strong>: <strong>não</strong></p></td>
-<td><p>Interrompa a atualização da tela enquanto a macro estiver em execução.</p></td>
+<td><p><strong>Echo On</strong>: <strong>No</strong></p></td>
+<td><p>Interrompe a atualização de tela quando a macro é executada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FecharJanela</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>nome</strong>do formObject: <strong>salvamento</strong>da lista de produtos: <strong>não</strong></p></td>
-<td><p>Feche o formulário lista de produtos.</p></td>
+<td><p><strong>CloseWindow</strong></p></td>
+<td><p><strong>Object Type</strong>: <strong>FormObject Name</strong>: Product List <strong>Save</strong>: <strong>No</strong></p></td>
+<td><p>Fecha o Formulário de Lista de Produtos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nome do formulário</strong>: modo de <strong>exibição</strong>de produtos: <strong>modo FormData</strong>: <strong>modo AddWindow</strong>: <strong>normal</strong></p></td>
-<td><p>Abra o formulário produtos.</p></td>
+<td><p><strong>Form Name</strong>: Products <strong>View</strong>: <strong>FormData Mode</strong>: <strong>AddWindow Mode</strong>: <strong>Normal</strong></p></td>
+<td><p>Abre o formulário de produtos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SetValue</strong></p></td>
-<td><p><strong>Item</strong>: [formulários]! [Produtos]! [CódigoDoFornecedor] <strong>Expressão</strong>: CódigoDoFornecedor</p></td>
-<td><p>Defina o controle de ID do fornecedor como o fornecedor atual no formulário fornecedores.</p></td>
+<td><p><strong>Item</strong>: [Forms]![Products]![SupplierID] <strong>Expression</strong>: SupplierID</p></td>
+<td><p>De definir o controle de ID de fornecedor para o fornecedor atual no formulário Fornecedores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nome do controle</strong>: CategoryID</p></td>
-<td><p>Vá para o controle de ID de categoria.</p></td>
+<td><p><strong>Control Name</strong>: CategoryID</p></td>
+<td><p>Vá para o controle de ID da categoria.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A macro a seguir abre um formulário de lista de produtos no canto inferior direito do formulário fornecedores, exibindo os produtos do fornecedor atual. Ela mostra o uso das ações **eco**, **MessageBox**, **IrParaControle**, **PararMacro**, **AbrirFormulário**e **moveredimensionarjanela** . Também mostra o uso de uma expressão condicional com as ações **MessageBox**, **IrParaControle**e **PararMacro** . Essa macro deve ser anexada ao botão reVisar produtos no formulário fornecedores.
+A macro a seguir abre um formulário de Lista de Produtos no canto inferior direito do formulário Fornecedores, exibindo os produtos do fornecedor atual. Ele mostra o uso das ações **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm** e **MoveAndSizeWindow.** Ele também mostra o uso de uma expressão condicional com as ações **MessageBox**, **GoToControl** e **StopMacro.** Essa macro deve ser anexada ao botão Revisar Produtos no formulário Fornecedores.
 
 **Sincronizar formulários usando uma macro**
 
@@ -150,7 +150,7 @@ A macro a seguir abre um formulário de lista de produtos no canto inferior dire
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condição</p></th>
+<th><p>Condition</p></th>
 <th><p>Ação</p></th>
 <th><p>Argumentos: Configuração</p></th>
 <th><p>Comentário</p></th>
@@ -160,38 +160,38 @@ A macro a seguir abre um formulário de lista de produtos no canto inferior dire
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>Echo</strong></p></td>
-<td><p><strong>Echo ativado</strong>: <strong>não</strong></p></td>
-<td><p>Interrompa a atualização da tela enquanto a macro estiver em execução.</p></td>
+<td><p><strong>Echo On</strong>: <strong>No</strong></p></td>
+<td><p>Interrompe a atualização de tela quando a macro é executada.</p></td>
 </tr>
 <tr class="even">
-<td><p>Énulo ([CódigoDoFornecedor])</p></td>
+<td><p>IsNull([SupplierID])</p></td>
 <td><p><strong>CaixaDeMensagem</strong></p></td>
-<td><p><strong>Mensagem</strong>: mova para o registro de fornecedor cujos produtos você deseja ver e, em seguida, clique no botão revisar produtos novamente. <strong>Aviso sonoro</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: selecionar um fornecedor</p></td>
-<td><p>Se não houver um fornecedor atual no formulário fornecedores, exiba uma mensagem.</p></td>
+<td><p><strong>Mensagem:</strong>vá para o registro do fornecedor cujos produtos você deseja ver e clique no botão Revisar Produtos novamente. <strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</p></td>
+<td><p>Se não houver fornecedor atual no formulário Fornecedores, exibe uma mensagem.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
 <td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CompanyName</p></td>
-<td><p>Mover o foco para o controle CompanyName.</p></td>
+<td><p>Mova o foco para o controle CompanyName.</p></td>
 </tr>
 <tr class="even">
 <td><p>...</p></td>
 <td><p><strong>PararMacro</strong></p></td>
 <td><p></p></td>
-<td><p>Interrompa a macro.</p></td>
+<td><p>Pare a macro.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nome do formulário</strong>: <strong>modo de exibição</strong>de lista de produtos: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [CódigoDoFornecedor] = [formulários]! [Fornecedores]! [CódigoDoFornecedor] <strong>Modo de dados</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>normal</strong></p></td>
-<td><p>Abra o formulário lista de produtos e mostre os produtos do fornecedor atual.</p></td>
+<td><p><strong>Nome do formulário</strong>: Exibição de Lista <strong>de</strong>Produtos : <strong>Nome do Filtro de</strong>Folha de Dados : <strong>Condição</strong>Onde : [SupplierID] = [Forms]! [Fornecedores]! [SupplierID] <strong>Modo de Dados</strong>: <strong>Ler Modo Somente Janela</strong>: <strong>Normal</strong></p></td>
+<td><p>Abra o formulário Lista de Produtos e mostre os produtos do fornecedor atual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>Moveredimensionarjanela</strong></p></td>
-<td><p><strong>direita</strong>: 0,7799&quot; <strong>baixo</strong>: 1,8&quot;</p></td>
-<td><p>Posicione o formulário lista de produtos no canto inferior direito do formulário fornecedores.</p></td>
+<td><p><strong>MoveAndSizeWindow</strong></p></td>
+<td><p><strong>À</strong>direita: 0,7799 &quot; <strong>para baixo:</strong>1,8&quot;</p></td>
+<td><p>Posiciona o formulário Lista de Produtos no canto inferior direito do formulário Fornecedores.</p></td>
 </tr>
 </tbody>
 </table>

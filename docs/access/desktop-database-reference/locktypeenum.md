@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: LockTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -36,22 +36,22 @@ Especifica o tipo de bloqueio colocado nos registros durante a edição.
 <tbody>
 <tr class="odd">
 <td><p><strong>adLockBatchOptimistic</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica as atualizações em lote otimistas. Exigido para o modo de atualização em lote.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Indica o bloqueio otimista, registro por registro. O provedor usa os registros de bloqueio otimistas apenas quando você chama o método <a href="update-method-ado.md">Update</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica o bloqueio pessimista, registro por registro. O provedor faz o que for necessário para garantir a edição bem-sucedida dos registros, geralmente bloqueando os registros na fonte de dados imediatamente após a edição.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica os registros somente leitura. Não é possível alterar os dados.</p></td>
 </tr>
 <tr class="odd">
@@ -78,19 +78,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. LockType. BATCHOPTIMISTIC</p></td>
+<td><p>AdoEnums.LockType.BATESTIMÍSTICA</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. LockType. otimista</p></td>
+<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. LockType. PESSIMISTA</p></td>
+<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. LockType. READONLY</p></td>
+<td><p>AdoEnums.LockType.READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. LockType. unESPECIFICADO</p></td>
+<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

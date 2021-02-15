@@ -257,7 +257,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**MoveX. h**
+**MoveX.h**
 
 ```cpp
 // BeginMoveH 

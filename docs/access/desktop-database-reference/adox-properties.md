@@ -1,5 +1,5 @@
 ---
-title: Propriedades do ADOX (referência do banco de dados do Access)
+title: Propriedades do ADOX (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -27,7 +27,7 @@ ms.locfileid: "32285247"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade	</p></th>
+<th><p>Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

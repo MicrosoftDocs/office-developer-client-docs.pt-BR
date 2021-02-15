@@ -1,5 +1,5 @@
 ---
-title: Propriedade Parameter. Type (DAO)
+title: Propriedade Parameter.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 68205cd6-eb45-56a3-593f-e1203472037b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195248(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288018"
 ---
-# <a name="parametertype-property-dao"></a>Propriedade Parameter. Type (DAO)
+# <a name="parametertype-property-dao"></a>Propriedade Parameter.Type (DAO)
 
 
-**Aplica-se ao:** Access 2013, Office 2013
+**Aplica-se ao**: Access 2013, Office 2013
 
-Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** de leitura/gravação.
+Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **número inteiro** de leitura/gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Escreva
+*expressão* .Type
 
-*expressão* Uma variável que representa um objeto **Parameter** .
+*expressão* Uma variável que representa um **objeto Parameter** .
 
 ## <a name="remarks"></a>Comentários
 
@@ -51,7 +51,7 @@ Para um objeto **Parameter**, as configurações e os valores de retorno possív
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>Binário</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -83,7 +83,7 @@ Para um objeto **Parameter**, as configurações e os valores de retorno possív
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Ponto</p></td>
+<td><p>Flutuação</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -95,7 +95,7 @@ Para um objeto **Parameter**, as configurações e os valores de retorno possív
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Longo</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
@@ -107,7 +107,7 @@ Para um objeto **Parameter**, as configurações e os valores de retorno possív
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numeric</p></td>
+<td><p>Numérico</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
@@ -123,7 +123,7 @@ Para um objeto **Parameter**, as configurações e os valores de retorno possív
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Carimbo de data/hora</p></td>
+<td><p>Carimbo de Data/Hora</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>

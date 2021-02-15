@@ -1,5 +1,5 @@
 ---
-title: Cláusulas de cálculo da forma interveniente
+title: Cláusulas COMPUTE de forma intermediárias
 TOCTitle: Intervening Shape COMPUTE clauses
 ms:assetid: 3e9dcef2-776c-0365-4a92-68e325f7dbb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249174(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291245"
 ---
-# <a name="intervening-shape-compute-clauses"></a>Cláusulas de cálculo da forma interveniente
+# <a name="intervening-shape-compute-clauses"></a>Cláusulas COMPUTE de forma intermediárias
 
 
 **Aplica-se ao:** Access 2013, Office 2013

@@ -26,18 +26,18 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
 ## <a name="methods"></a>Métodos
 
 - [Exemplo do método AddNew](addnew-method-example-jscript.md)
-- [Exemplo dos métodos Append e createParameter](append-and-createparameter-methods-example-jscript.md)
-- [Exemplo dos métodos Execute, reQuery e Clear](execute-requery-and-clear-methods-example-jscript.md)
+- [Exemplo dos métodos Append e CreateParameter](append-and-createparameter-methods-example-jscript.md)
+- [Exemplo dos métodos Execute, Requery e Clear](execute-requery-and-clear-methods-example-jscript.md)
 - [Exemplo do método Find](find-method-example-jscript.md)
-- [Exemplo do método getRows](getrows-method-example-vb.md)
+- [Exemplo do método GetRows](getrows-method-example-vb.md)
 
 ## <a name="properties"></a>Propriedades
 
 - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
 - [Exemplo da propriedade ActiveCommand](activecommand-property-example-jscript.md)
-- [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, size e Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
 - [Exemplo das propriedades ActualSize e DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
-- [Exemplo da propriedade caChesize](cachesize-property-example-jscript.md)
+- [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
 - [Exemplo das propriedades Filter e RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

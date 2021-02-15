@@ -21,7 +21,7 @@ ms.locfileid: "32291252"
 
 Se você receber este erro, geralmente significa que o Microsoft Internet Information Services (IIS) retornou o seguinte status:
 
-STATUS\_\_do http negado 401
+HTTP \_ STATUS \_ NEGADO 401
 
-Certifique-se de que os diretórios acessados pelo IIS têm as permissões adequadas. O RDS pode se comunicar com um servidor Web IIS em execução em qualquer um dos três modos de autenticação de senha: Anonymous, Basic ou NT Challenge/Response (chamado autenticação integrada do Windows no Windows 2000). Além disso, o servidor Web deve ter permissões para o computador da fonte de dados se ele for um computador Windows NT/Windows 2000.
+Certifique-se de que os diretórios acessados pelo IIS têm as permissões adequadas. O RDS pode se comunicar com um servidor Web do IIS em execução em qualquer um dos três modos de Autenticação de Senha: Anônimo, Básico ou Desafio/Resposta NT (chamado de autenticação integrada do Windows no Windows 2000). Além disso, o servidor Web deve ter permissões para o computador de fonte de dados se for um computador Com Windows NT/Windows 2000.
 

@@ -33,7 +33,7 @@ Use a ação **AdicionarMenu** para criar:
 
 - Um menu de atalho global. O menu de atalho global substitui o menu de atalho interno de campos em folhas de dados de consulta e tabela, formulários e relatórios, com exceção de onde foi adicionado um menu de atalho personalizado de um formulário, relatório ou controle.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AdicionarMenu** tem os seguintes argumentos.
 
@@ -51,12 +51,12 @@ A ação **AdicionarMenu** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Menu</strong></p></td>
-<td><p>O nome do menu, por exemplo &quot;, comandos&quot; ou &quot;ferramentas&quot;de relatório. Para criar uma chave de acesso para que você possa usar o teclado para escolher o menu, digite um e<strong>&amp;</strong>comercial () antes da letra que você deseja que seja a tecla de acesso. Essa letra estará sublinhada no nome do menu da guia <strong>Suplementos</strong>.</p></td>
+<td><p>O nome do menu, por exemplo, &quot; Comandos de Relatório ou &quot; &quot; &quot; Ferramentas. Para criar uma tecla de acesso para que você possa usar o teclado para escolher o menu, digite um E comercial ( ) antes da letra que você deseja que <strong>&amp;</strong> seja a tecla de acesso. Essa letra estará sublinhada no nome do menu da guia <strong>Suplementos</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome da Macro do Menu</strong></p></td>
 <td><p>O nome do grupo de macros que contém as macros dos comandos do menu. Esse é um argumento obrigatório.</p>
-<p><strong>Observação</strong>: se você executar uma macro que contém a ação <strong>AdicionarMenu</strong> em um banco de dados biblioteca, o Microsoft Office Access 2007 procurará o grupo de macros com esse nome somente no banco de dados atual.</p></td>
+<p><strong>OBSERVAÇÃO:</strong>se você executar uma macro que contenha a ação <strong>AdicionarMenu</strong> em um banco de dados biblioteca, o Microsoft Office Access 2007 procura o grupo de macros com esse nome somente no banco de dados atual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texto da Barra de Status</strong></p></td>

@@ -22,13 +22,13 @@ Recupera uma célula de um conjunto de células usando suas coordenadas.
 
 ## <a name="syntax"></a>Sintaxe
 
-Definir a*célula* = *CellSet*. Item (*posições*)
+Definir *Cell*  =  *Cellset*. Item (*Positions*)
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Positions* |Uma **matriz Variant** de valores que especifica exclusivamente uma célula. *Positions* pode ser:<br/><br/>– Uma matriz de números de posição<br/>-Uma matriz de nomes de membros<br/>-A posição ordinal |
+|*Positions* |Uma **matriz Variant** de valores que especificam exclusivamente uma célula. *Positions* pode ser:<br/><br/>- Uma matriz de números de posição<br/>- Uma matriz de nomes de membros<br/>- A posição ordinal |
 
 ## <a name="remarks"></a>Comentários
 

@@ -27,7 +27,7 @@ Em um projeto do Access, você pode usar a ação **AbrirFunção** para abrir u
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirFunção** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **AbrirFunção** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da função</strong></p></td>
-<td><p>O nome da função definida pelo usuário que será aberta. A caixa <strong>Nome da Função</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todas as funções definidas pelo usuário no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>Function</strong> em um banco de dados biblioteca, o Microsoft Access procurará a função com esse nome no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome da função definida pelo usuário que será aberta. A caixa <strong>Nome da Função</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todas as funções definidas pelo usuário no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>Function</strong> em um banco de dados biblioteca, o Microsoft Access primeiro procura a função com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

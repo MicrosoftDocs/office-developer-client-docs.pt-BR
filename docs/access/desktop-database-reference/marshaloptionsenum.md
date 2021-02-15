@@ -1,5 +1,5 @@
 ---
-title: MarshalOptionsEnum (referência do banco de dados de área de trabalho do Access)
+title: MarshalOptionsEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: MarshalOptionsEnum
 ms:assetid: 5361884b-a0fe-c480-1b9f-18e53be77f86
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
@@ -38,12 +38,12 @@ Especifica quais registros devem ser retornados ao servidor.
 <tbody>
 <tr class="odd">
 <td><p><strong>adMarshalAll</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Padrão. Retorna todas as linhas ao servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Retorna apenas as linhas modificadas ao servidor.</p></td>
 </tr>
 </tbody>
@@ -65,10 +65,10 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Marshaloptions. ALL</p></td>
+<td><p>AdoEnums.MarshalOptions.ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Marshaloptions. MODIFIEDONLY</p></td>
+<td><p>AdoEnums.MarshalOptions.MODIFIEDONLY</p></td>
 </tr>
 </tbody>
 </table>

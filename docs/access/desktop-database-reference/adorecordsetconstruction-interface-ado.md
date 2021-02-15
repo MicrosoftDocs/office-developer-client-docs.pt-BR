@@ -32,7 +32,7 @@ Essa interface suporta as seguintes propriedades:
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Módulo</a></p></td>
+<td><p><a href="chapter-property-ado.md">Capítulo</a></p></td>
 <td><p>Leitura/gravação.<br />
 
 Obtém/define um objeto <strong>Chapter</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
@@ -44,7 +44,7 @@ Obtém/define um objeto <strong>Chapter</strong> do banco de dados OLE desse/nes
 Obtém/define um objeto <strong>RowPosition</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">OPENXML</a></p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
 <td><p>Leitura/gravação.<br />
 
 Obtém/define um objeto <strong>Rowset</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
@@ -63,7 +63,7 @@ Nenhum.
 
 ## <a name="remarks"></a>Comentários
 
-Dado um objeto de **conjunto de linhas** OLE DB (pRowset), a construção de um objeto **Recordset** do ADO (), a construção de um objeto **Recordset** do ADO (adoRs) para as três operações básicas a seguir:
+Dado um objeto **Rowset** do OLE DB (pRowset ), a construção de um objeto **Recordset** do ADO (), a construção de um objeto **Recordset** do ADO (adoRs ) equivale às três operações básicas a seguir:
 
 1. Criar um objeto **Recordset** do ADO:
     
@@ -79,18 +79,18 @@ Dado um objeto de **conjunto de linhas** OLE DB (pRowset), a construção de um 
          (void**)&adoRsConstruct);
    ```
 
-3. Chame o método de propriedade IADORecordsetConstruction\_::p UT Rowset para definir o objeto Rowset do OLE DB no objeto RECORDSET do ADO:
+3. Chame o método da propriedade IADORecordsetConstruction::p ut Rowset para definir o objeto Rowset OLE DB no objeto \_ Recordset do ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-O objeto resultante agora representa o objeto **Recordset** do ADO construído a partir do objeto **Rowset** do OLE DB.
+O objeto resultante agora representa o objeto **Recordset do** ADO construído a partir do objeto **Rowset** do OLE DB.
 
 Também é possível construir um objeto **Recordset** do ADO a partir de um objeto **Chapter** ou **RowPosition** do banco de dados OLE.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 - **Versão:** ADO 2.0 e posterior
 

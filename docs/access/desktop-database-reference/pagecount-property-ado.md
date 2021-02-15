@@ -27,7 +27,7 @@ Retorna um valor **Long**, indicando a quantidade de páginas do **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 
-Utilize a propriedade **PageCount** para determinar a quantidade de páginas de dados contida no objeto **Recordset**. *As páginas * são grupos de registros cujo tamanho se iguala ao da definição da propriedade [PageSize](pagesize-property-ado.md). Mesmo que a última página esteja incompleta por conter menos registros que no valor **PageSize**, ela será considerada como uma página adicional no valor **PageCount**. Se o objeto **Recordset** não oferecer suporte a essa propriedade, o valor será -1, indicando que **PageCount** é indeterminável.
+Utilize a propriedade **PageCount** para determinar a quantidade de páginas de dados contida no objeto **Recordset**. *As páginas* são grupos de registros cujo tamanho se iguala ao da definição da propriedade [PageSize](pagesize-property-ado.md). Mesmo que a última página esteja incompleta por conter menos registros que no valor **PageSize**, ela será considerada como uma página adicional no valor **PageCount**. Se o objeto **Recordset** não oferecer suporte a essa propriedade, o valor será -1, indicando que **PageCount** é indeterminável.
 
 Consulte as propriedades **PageSize** e [AbsolutePage](absolutepage-property-ado.md) para obter mais informações sobre a funcionalidade da página.
 

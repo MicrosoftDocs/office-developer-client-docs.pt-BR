@@ -22,12 +22,12 @@ ms.locfileid: "32288880"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você poderá usar a ação **minimizarjanela** para reduzir a janela ativa para uma pequena barra de título na parte inferior da janela do Access.
+Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você poderá usar a ação **MinimizarWindow** para reduzir a janela ativa a uma pequena barra de título na parte inferior da janela do Access.
 
 > [!NOTE]
 > [!OBSERVAçãO] Essa ação não pode ser aplicada a janelas de código do Editor do Visual Basic (VBE). Para obter informações sobre como manipular janelas de código, consulte o tópico da propriedade **WindowState**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **MinimizarJanela** não tem nenhum argumento.
 

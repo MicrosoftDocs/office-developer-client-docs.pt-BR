@@ -1,5 +1,5 @@
 ---
-title: Objetos ADP (referência de banco de dados de área de trabalho do Access)
+title: Objetos ADP (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADP objects
 ms:assetid: 0a0a71fe-b1b0-4679-b2e6-0f7422b97983
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)

@@ -198,7 +198,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**AbsolutePageX. h**
+**AbsolutePageX.h**
 
 ```cpp 
  

@@ -31,7 +31,7 @@ ms.locfileid: "32283335"
 <th>Descrição</th>
 </tr>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos begintranscomplete</a></p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a></p></td>
 <td><p>Chamado após a operação <strong>BeginTrans</strong>.</p></td>
 </tr>
 <tr class="even">

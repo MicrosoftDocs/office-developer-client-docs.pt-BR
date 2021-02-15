@@ -43,7 +43,7 @@ Ao usar o provedor de dados MSOLAP, defina a fonte de dados em uma cadeia de car
 
 `"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
-A cadeia de caracteres a seguir se conecta a um arquivo de cubo local\\no\\local\\C\\:\\MSDASDK\\Samples OLEDB OLAP data bobsvid. Cub:
+A cadeia de caracteres a seguir conecta-se a um arquivo de cubo local no local C: \\ MSDASDK \\ samples \\ oledb \\ olap \\ data \\ bobsvid.cub:
 
 `"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

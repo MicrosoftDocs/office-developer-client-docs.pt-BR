@@ -24,15 +24,15 @@ Abre um objeto [Stream](stream-object-ado.md) para manipular fluxos de dados de 
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. *Fonte*aberta, *modo*, *openoptions*, *nome_de_usuário*, *senha*
+*Stream*. Open *Source*, *Mode*, *OpenOptions*, *UserName*, *Password*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Source* |Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Source* pode conter uma cadeia de caracteres de URL absoluta que aponta para um nó existente em uma estrutura de árvore bem conhecida, como um email ou sistema de arquivos. Uma URL deve ser especificada usando a palavra-chave URL ("URL =*esquema*://*pasta**do servidor*/"). De forma alternativa, *Source* pode conter uma referência para um objeto [Record](record-object-ado.md) já aberto, que abre o fluxo padrão associado ao **Record**. Se *Source* não for especificado, um **Stream** será instanciado e aberto, não associado a fonte base alguma por padrão. Para obter mais informações sobre esquemas de URL e seus provedores associados, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).|
+|*Source* |Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Source* may contain an absolute URL string that points to an existing node in a well-known tree structure, like an email or file system. Uma URL deve ser especificada usando a palavra-chave URL ("URL=*esquema*://*pasta do* / *servidor*"). De forma alternativa, *Source* pode conter uma referência para um objeto [Record](record-object-ado.md) já aberto, que abre o fluxo padrão associado ao **Record**. Se *Source* não for especificado, um **Stream** será instanciado e aberto, não associado a fonte base alguma por padrão. Para obter mais informações sobre esquemas de URL e seus provedores associados, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)|
 |*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md) que especifica o modo de acesso para o **Stream** resultante (por exemplo, leitura/gravação ou somente leitura). O valor padrão é **adModeUnknown**. Consulte a propriedade [Mode](mode-property-ado.md) para obter mais informações sobre modos de acesso. Se *Mode* não for especificado, ele será herdado do objeto de origem. Por exemplo, se o **Record** de origem for aberto no modo somente leitura, o **Stream** também será aberto no modo somente leitura por padrão.|
-|*Adopenstreamfromrecord* |Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.|
+|*OpenOptions* |Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.|
 |*UserName* |Opcional. Um valor **String** que contém a identificação do usuário que, se necessária, acessa o objeto **Stream**.|
 |*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, acessa o objeto **Stream**.|
 

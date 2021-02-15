@@ -18,13 +18,13 @@ ms.locfileid: "32282461"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O aplicativo de catálogo de endereços exibe os botões de navegação na parte inferior da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
+O aplicativo de Agenda exibe os botões de navegação na parte inferior da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
 
 ## <a name="navigation-sub-procedures"></a>Subprocedimentos de navegação
 
 O aplicativo de Catálogo de Endereço contém vários procedimentos que permitem aos usuários clicarem nos botões **Primeiro**, **Próximo**, **Anterior** e **Último** para mover-se ap redor dos dados.
 
-Por exemplo, clicar no **primeiro** botão ativa o primeiro\_procedimento do VBScript OnClick sub. O procedimento executa um método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), que torna a primeira linha de dados a seleção atual. Clicar no botão **último** ativa o último\_procedimento OnClick, que invoca o método MoveLast, tornando a última linha de dados a seleção atual. [](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) Os demais botões de navegação trabalham de uma maneira semelhante.
+Por exemplo, clicar no **botão Primeiro** ativa o procedimento VBScript First \_ OnClick Sub. O procedimento executa um método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), que torna a primeira linha de dados a seleção atual. Clicar no **último botão** ativa o último procedimento OnClick Sub, que invoca o método \_ [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) tornando a última linha de dados a seleção atual. Os demais botões de navegação trabalham de uma maneira semelhante.
 
 ```vb 
  

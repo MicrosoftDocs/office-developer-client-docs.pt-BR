@@ -22,7 +22,7 @@ Cria um novo registro para um objeto [Recordset](recordset-object-ado.md) atuali
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. *Campo de campos*AddNew, *valores*
+*recordset*. AddNew *FieldList*, *Values*
 
 ## <a name="parameters"></a>Parâmetros
 

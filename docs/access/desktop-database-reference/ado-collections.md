@@ -18,7 +18,7 @@ ms.locfileid: "32281705"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre objetos, confira [objetos ADO](ado-objects-and-interfaces.md) ou um tópico de objeto específico.
+Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre objetos, consulte [objetos ADO](ado-objects-and-interfaces.md) ou um tópico de objeto específico.
 
 <br/>
 
@@ -41,11 +41,11 @@ Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Er
 <td><p>Contém todos os objetos <strong>Field</strong> de um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameters-collection-ado.md">Parameters</a></p></td>
+<td><p><a href="parameters-collection-ado.md">Parâmetros</a></p></td>
 <td><p>Contém todos os objetos <strong>Parameter</strong> de um objeto <strong>Command</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-collection-ado.md">Properties</a></p></td>
+<td><p><a href="properties-collection-ado.md">Propriedades</a></p></td>
 <td><p>Contém todos os objetos <strong>Property</strong> para uma instância específica de um objeto.</p></td>
 </tr>
 </tbody>

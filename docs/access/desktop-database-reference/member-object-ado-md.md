@@ -1,5 +1,5 @@
 ---
-title: Objeto member (ADO MD)
+title: Objeto Member (ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289419"
 ---
-# <a name="member-object-ado-md"></a>Objeto member (ADO MD)
+# <a name="member-object-ado-md"></a>Objeto Member (ADO MD)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -78,11 +78,11 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome_do_catálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>O nome do catálogo ao qual o cubo pertence.</p></td>
 </tr>
 <tr class="even">
-<td><p>ChildrenCardinality</p></td>
+<td><p>ChildrenItudenality</p></td>
 <td><p>O número de filhos que o membro tem.</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +118,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O GUID do membro.</p></td>
 </tr>
 <tr class="odd">
-<td><p>NomeDoMembro</p></td>
+<td><p>MemberName</p></td>
 <td><p>O nome do membro.</p></td>
 </tr>
 <tr class="even">

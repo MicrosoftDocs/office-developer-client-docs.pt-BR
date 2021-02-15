@@ -20,7 +20,7 @@ ms.locfileid: "32288964"
 
 O Microsoft OLE DB Provider for Internet Publishing permite que o ADO acesse recursos apresentados pelo Microsoft FrontPage ou Microsoft Internet Information Server. Esses recursos incluem arquivos de origem da Web, como arquivos HTML, ou pastas da Web no Windows 2000.
 
-## <a name="connection-string-parameters"></a>Parâmetros de cadeia de conexão
+## <a name="connection-string-parameters"></a>Parâmetros de cadeia de caracteres de conexão
 
 Para estabelecer uma conexão com esse provedor, defina o argumento *Provider* da propriedade [ConnectionString](connectionstring-property-ado.md) como:
 
@@ -40,7 +40,7 @@ Esta é uma sequência de conexão típica para esse provedor:
 "Provider=MSDAIPP.DSO;Data Source=ResourceURL;User ID=userName;Password=userPassword;" 
 ```
 
-\-ou
+\-ou-
 
 ```vb 
  

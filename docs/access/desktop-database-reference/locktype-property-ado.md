@@ -35,5 +35,5 @@ A definição **adLockPessimistic** não terá suporte se a propriedade [CursorL
 
 A propriedade **LockType** será leitura/gravação quando o **Recordset** estiver fechado e somente leitura quando estiver aberto.
 
-**Uso do Remote Data Service** Quando usado em um objeto Recordset do lado do cliente, **** a propriedade LockType só pode ser definida como **adLockBatchOptimistic**.
+**Uso do Remote Data Service** Quando usada em um objeto Recordset do lado do cliente, a propriedade **LockType** só pode ser definida como **adLockBatchOptimistic**.
 

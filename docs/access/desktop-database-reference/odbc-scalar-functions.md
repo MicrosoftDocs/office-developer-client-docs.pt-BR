@@ -22,9 +22,9 @@ ms.locfileid: "32288508"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-O Microsoft Access SQL suporta o uso da sintaxe definida por ODBC para funções escalares. 
+O Microsoft Access SQL dá suporte ao uso da sintaxe definida pelo ODBC para funções escalares. 
 
-Por exemplo, a consulta `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` retorna todas as linhas em que o valor absoluto da alteração no preço de um estoque era maior que cinco.
+Por exemplo, a consulta retornaria todas as linhas em que o valor absoluto da alteração no preço de uma ação fosse `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` maior que cinco.
 
 Um subconjunto de funções escalares definidas por ODBC é aceito. A tabela a seguir lista as funções aceitas.
 
@@ -41,26 +41,26 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 <tbody>
 <tr class="odd">
 <td><p>ASCII</p></td>
-<td><p>COMPRIMENTO</p></td>
+<td><p>LENGTH</p></td>
 <td><p>RTRIM</p></td>
 </tr>
 <tr class="even">
 <td><p>CHAR</p></td>
-<td><p>LOCALIZADO</p></td>
-<td><p>ESPAÇO</p></td>
+<td><p>LOCATE</p></td>
+<td><p>SPACE</p></td>
 </tr>
 <tr class="odd">
-<td><p>CONCATENA</p></td>
+<td><p>CONCAT</p></td>
 <td><p>LTRIM</p></td>
-<td><p>SUBCADEIA</p></td>
+<td><p>SUBSTRING</p></td>
 </tr>
 <tr class="even">
 <td><p>LCASE</p></td>
-<td><p>Certo</p></td>
+<td><p>DIREITA</p></td>
 <td><p>UCASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>DEIXOU</p></td>
+<td><p>LEFT</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -84,29 +84,29 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 </tr>
 <tr class="even">
 <td><p>ATAN</p></td>
-<td><p>REGISTRA</p></td>
+<td><p>LOG</p></td>
 <td><p>SQRT</p></td>
 </tr>
 <tr class="odd">
-<td><p>RENDIMENTO</p></td>
-<td><p>FORÇA</p></td>
-<td><p>Claro</p></td>
+<td><p>CEILING</p></td>
+<td><p>ENERGIA</p></td>
+<td><p>TAN</p></td>
 </tr>
 <tr class="even">
-<td><p>EXIBI</p></td>
+<td><p>COS</p></td>
 <td><p>RAND</p></td>
 <td><p>MOD</p></td>
 </tr>
 <tr class="odd">
-<td><p>ESP</p></td>
-<td><p>CIFRÃO</p></td>
+<td><p>EXP</p></td>
+<td><p>SIGN</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="time--date-functions"></a>Funções de data de tempo &
+## <a name="time--date-functions"></a>Funções de & data e hora
 
 <table>
 <colgroup>
@@ -118,26 +118,26 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 <tr class="odd">
 <td><p>CURDATE</p></td>
 <td><p>DAYOFYEAR</p></td>
-<td><p>MENSAL</p></td>
+<td><p>MONTH</p></td>
 </tr>
 <tr class="even">
 <td><p>CURTIME</p></td>
-<td><p>ANUAIS</p></td>
-<td><p>ÚTIL</p></td>
+<td><p>YEAR</p></td>
+<td><p>WEEK</p></td>
 </tr>
 <tr class="odd">
-<td><p>DISPONIBILIZA</p></td>
-<td><p>HORA</p></td>
-<td><p>TRIMESTRE</p></td>
+<td><p>AGORA</p></td>
+<td><p>HOUR</p></td>
+<td><p>QUARTER</p></td>
 </tr>
 <tr class="even">
 <td><p>DAYOFMONTH</p></td>
-<td><p>INCLUSÕES</p></td>
+<td><p>MINUTE</p></td>
 <td><p>MONTHNAME</p></td>
 </tr>
 <tr class="odd">
 <td><p>DAYOFWEEK</p></td>
-<td><p>SECUNDÁRIA</p></td>
+<td><p>SECOND</p></td>
 <td><p>DAYNAME</p></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>CONVERSÃO</p></td>
+<td><p>CONVERT</p></td>
 <td><p>Os literais de sequência podem ser convertidos para os seguintes tipos de dados: SQL_FLOAT, SQL_DOUBLE, SQL_NUMERIC, SQL_INTEGER, SQL_REAL, SQL_SMALLINT, SQL_VARCHAR e SQL_DATETIME.</p></td>
 </tr>
 </tbody>

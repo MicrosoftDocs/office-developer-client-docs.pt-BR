@@ -1,5 +1,5 @@
 ---
-title: Métodos MoveFirst, moVelast, MoveNext e MovePrevious (ADO)
+title: Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (ADO)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (ADO)
 ms:assetid: d04ce41c-77c9-df42-115a-65c50a38518a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250039(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288782"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-ado"></a>Métodos MoveFirst, moVelast, MoveNext e MovePrevious (ADO)
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-ado"></a>Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Move para o primeiro, o último, o próximo ou o registro anterior em um objeto 
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. { MoveFirst | MoVelast | MoveNext | MovePrevious
+*recordset*. { MoveFirst | MoveLast | MoveNext | MovePrevious}
 
 ## <a name="remarks"></a>Comentários
 
@@ -35,7 +35,7 @@ Uma chamada a **MoveFirst** ou **MoveLast** quando o **Recordset** estiver vazio
 
 Utilize o método **MoveNext** para mover a posição de registro atual um registro para frente (em direção ao final do **Recordset**). Se o último registro for o registro atual e você chamar o método **MoveNext**, o ADO definirá o registro atual para a posição após o último registro no **Recordset** ([EOF](bof-eof-properties-ado.md) é **True**). Uma tentativa em mover para frente quando a propriedade **EOF** já é **True** gera um erro.
 
-Nos casos em que o **Recordset** foi filtrado ou classificado e os dados do registro atual forem alterados, a posição também pode ser alterada. Nesses casos, o método **MoveNext** funciona normalmente, mas você deve estar ciente de que a posição é movida um registro para a frente a partir da nova posição, não da posição antiga. Por exemplo, alterar os dados no registro atual, de modo que o registro seja movido para o final do conjunto de **registros classificados,** significa que a chamada de **MoveNext** resultará no ADO definindo o registro atual como a posição após o último registro **da Recordset** (**EOF** = **true**).
+Nos casos em que o **Recordset** foi filtrado ou classificado e os dados do registro atual forem alterados, a posição também pode ser alterada. Nesses casos, o método **MoveNext** funciona normalmente, mas você deve estar ciente de que a posição é movida um registro para a frente a partir da nova posição, não da posição antiga. Por exemplo, alterar os dados no registro atual, de forma que o registro seja movido para o final do **Recordset classificação,** significa que chamar **MoveNext** resulta na definição do registro atual do ADO para a posição após o último registro no **Recordset** (**EOF**  =  **True**).
 
 Utilize o método **MovePrevious** para mover a posição de registro atual um registro para trás (em direção ao início do **Recordset**). O objeto **Recordset** deve suportar indicadores ou movimentação do cursor para trás; caso contrário, a chamada ao método gerará um erro. Se o primeiro registro for o registro atual e você chamar o método **MovePrevious**, o ADO definirá o registro atual para a posição antes do primeiro registro no **Recordset** ([BOF](bof-eof-properties-ado.md) é **True**). Uma tentativa em mover para trás quando a propriedade **BOF** já é **True** gera um erro. Se o objeto **Recordset** não suportar indicadores ou movimentação do cursor para trás, o método **MovePrevious** gerará um erro.
 

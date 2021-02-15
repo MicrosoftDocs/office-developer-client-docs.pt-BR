@@ -18,7 +18,7 @@ ms.locfileid: "32283377"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Os erros do ADO são relatados para o seu programa como erros em tempo de execução. Você pode usar o mecanismo de interceptação de erro da sua linguagem de programação para interceptá-los e tratá-los. Por exemplo, no Visual Basic, use a instrução **On Error**. No Visual J++, use um bloco **try-catch**. No Visual C++, depende do método que estiver sendo usado para acessar as bibliotecas do ADO. Com \#a importação, use um bloco **try-catch** . Caso contrário, os programadores do C++ precisarão recuperar de maneira explícita o objeto de erro chamando **GetErrorInfo**. O seguinte subprocedimento do Visual Basic demonstra a interceptação de um erro do ADO:
+Os erros do ADO são relatados para o seu programa como erros em tempo de execução. Você pode usar o mecanismo de interceptação de erro da sua linguagem de programação para interceptá-los e tratá-los. Por exemplo, no Visual Basic, use a instrução **On Error**. No Visual J++, use um bloco **try-catch**. No Visual C++, depende do método que estiver sendo usado para acessar as bibliotecas do ADO. Com \# a importação, use **um bloco try-catch.** Caso contrário, os programadores do C++ precisarão recuperar de maneira explícita o objeto de erro chamando **GetErrorInfo**. O seguinte subprocedimento do Visual Basic demonstra a interceptação de um erro do ADO:
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-Este procedimento de evento **\_Form Load** cria intencionalmente um erro tentando abrir o mesmo objeto **Connection** duas vezes. Na segunda vez que o método **Open** é chamado, o identificador de erro é ativado. Nesse caso, o erro é do tipo **adErrObjectOpen**, portanto, o identificador de erro exibe a seguinte mensagem antes de continuar a execução do programa:
+Este **procedimento de evento Form \_ Load** cria intencionalmente um erro tentando abrir o mesmo **objeto Connection** duas vezes. Na segunda vez que o método **Open** é chamado, o identificador de erro é ativado. Nesse caso, o erro é do tipo **adErrObjectOpen**, portanto, o identificador de erro exibe a seguinte mensagem antes de continuar a execução do programa:
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

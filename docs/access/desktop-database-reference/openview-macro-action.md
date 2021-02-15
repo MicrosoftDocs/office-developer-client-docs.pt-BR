@@ -27,7 +27,7 @@ Em um projeto do Access, você pode usar a ação **AbrirModoDeExibição** para
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirModoDeExibição** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **AbrirModoDeExibição** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Modo de Exibição</strong></p></td>
-<td><p>O nome do modo de exibição que será aberto. A caixa <strong>nome do modo de exibição</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todos os modos de exibição no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirModoDeExibição</strong> em um banco de dados biblioteca, o Microsoft Access procurará o modo de exibição com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do modo de exibição que será aberto. A <strong>caixa Exibir Nome</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todos os exibições do banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirModoDeExibição</strong> em um banco de dados biblioteca, o Microsoft Access procurará o modo de exibição com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

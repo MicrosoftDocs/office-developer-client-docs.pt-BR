@@ -222,7 +222,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>A URL de origem ou o pai da URL de destino não existe. Há um erro ortográfico na URL de origem ou de destino. Você pode ter https://mysite/photo/myphoto.jpg quando deve realmente ter https://mysite/photos/myphoto.jpg em vez disso. O erro ortográfico na URL pai (neste caso, <em>photo</em> em vez de <em>photos</em>) causou o erro.</p></td>
+<td><p>A URL de origem ou o pai da URL de destino não existe. Há um erro ortográfico na URL de origem ou de destino. Você pode ter https://mysite/photo/myphoto.jpg quando realmente https://mysite/photos/myphoto.jpg deveria. O erro ortográfico na URL pai (neste caso, <em>photo</em> em vez de <em>photos</em>) causou o erro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

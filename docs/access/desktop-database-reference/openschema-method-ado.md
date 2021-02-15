@@ -22,7 +22,7 @@ Obtém informações do esquema do banco de dados a partir doprovedor .
 
 ## <a name="syntax"></a>Sintaxe
 
-**Set * * ** = *conexão*Recordset. OpenSchema (* QueryType *, *criteria*, *SchemaId*)
+**Set***recordset*  =  *connection*. OpenSchema (* QueryType*, *Criteria*, *SchemaID*)
 
 ## <a name="return-values"></a>Valor de retorno
 
@@ -48,7 +48,7 @@ A constante **adSchemaProviderSpecific** será utilizada para o argumento *Query
 
 Os provedores não precisam suportar todas as consultas de esquema padrão do banco de dados OLE. Especificamente, apenas **adSchemaTables**, **adSchemaColumns** e **adSchemaProviderTypes** são necessárias pela especificação do banco de dados OLE. No entanto, o provedor não precisa suportar as restrições de *Criteria* listadas acima para essas consultas de esquema.
 
-**Uso do Remote Data Service** O método **OpenSchema** não está disponível em um objeto [Connection](connection-object-ado.md) do lado do cliente.
+**Uso do Remote Data Service** O **método OpenSchema** não está disponível em um objeto [Connection do](connection-object-ado.md) lado do cliente.
 
 > [!NOTE]
 > No Visual Basic, as colunas que têm um inteiro sem sinal de quatro bytes (DBTYPE UI4) no **Recordset** retornado do método **OpenSchema** no objeto **Connection** não podem ser comparadas a outras variáveis. Para obter mais informações sobre os tipos de dados de banco de dados OLE, consulte o Capítulo 13 e o Apêndice A do *Microsoft OLE DB Programmer's Reference*.

@@ -1,5 +1,5 @@
 ---
-title: ADO para Windows Foundation classes (ADO/WFC)
+title: ADO for Windows Foundation Classes (ADO/WFC)
 TOCTitle: ADO/WFC
 ms:assetid: 73206be8-6515-79e4-e904-cc2d0d59411d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)
@@ -64,7 +64,7 @@ O ADO for Windows Foundation Classes (ADO/WFC) é criado com base no modelo de e
     
     O único argumento é uma referência à classe desejada (**this**) e ao método na classe (**onConnectComplete**).
 
-3.  Adicione o manipulador de eventos a uma lista de manipuladores designados para processar determinado tipo de evento. Use o método com um nome como **addOn * * * EventName*(*Handler*).
+3.  Adicione o manipulador de eventos a uma lista de manipuladores designados para processar determinado tipo de evento. Use o método com um nome como **addOn***EventName*(*manipulador*).
 
 4.  O ADO/WFC implementa internamente todos os manipuladores de eventos do ADO. Portanto, um evento causado por uma operação **Connection** ou **Recordset** é interceptado por um manipulador de eventos do ADO/WFC. O manipulador de eventos do ADO/WFC passa os parâmetros **ConnectionEvent** do ADO em uma instância da classe **ConnectionEvent** do ADO/WFC, ou os parâmetros **RecordsetEvent** do ADO em uma instância da classe **RecordsetEvent** do ADO/WFC. Essas classes do ADO/WFC consolidam os parâmetros de evento do ADO; isto é, cada uma delas contém um membro de dados para cada parâmetro exclusivo em todos os métodos **ConnectionEvent** ou **RecordsetEvent** do ADO.
 
@@ -79,5 +79,5 @@ O ADO for Windows Foundation Classes (ADO/WFC) é criado com base no modelo de e
 
 6.  Retorne do manipulador de eventos para o manipulador do ADO/WFC referente ao evento do ADO. O ADO/WFC copia os membros de dados de eventos do ADO/WFC pertinentes de volta para os parâmetros de evento do ADO e, em seguida, o manipulador de eventos do ADO retorna.
 
-7.  Quando terminar o processamento, remova o manipulador da lista de manipuladores de eventos do ADO/WFC. Use o método com um nome como * removen ** * * EventName*(*Handler*).
+7.  Quando terminar o processamento, remova o manipulador da lista de manipuladores de eventos do ADO/WFC. Use o método com um nome como **removeOn***EventName*(*manipulador*).
 

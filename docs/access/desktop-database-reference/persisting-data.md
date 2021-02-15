@@ -1,5 +1,5 @@
 ---
-title: Dados persistentes (referência do banco de dados de área de trabalho do Access)
+title: Dados persistentes (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
@@ -108,6 +108,6 @@ Esta seção inclui os seguintes tópicos:
 
 - [Mais sobre a persistência do Recordset](more-about-recordset-persistence.md)
 
-- [Mantendo Recordsets filtrados e hierárquicos](persisting-filtered-and-hierarchical-recordsets.md)
+- [Recordsets persistentes filtrados e hierárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Mantendo registros em formato XML (ADO)](persisting-records-in-xml-format.md)
+- [Persistir registros no formato XML (ADO)](persisting-records-in-xml-format.md)

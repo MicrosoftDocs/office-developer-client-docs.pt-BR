@@ -1,5 +1,5 @@
 ---
-title: Invólucros de classe Java do ADO
+title: Wrappers de classe Java do ADO
 TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283314"
 ---
-# <a name="ado-java-class-wrappers"></a>Invólucros de classe Java do ADO
+# <a name="ado-java-class-wrappers"></a>Wrappers de classe Java do ADO
 
 
 **Aplica-se ao:** Access 2013, Office 2013

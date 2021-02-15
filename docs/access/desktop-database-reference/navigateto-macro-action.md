@@ -24,7 +24,7 @@ ms.locfileid: "32288599"
 
 Você pode usar a ação **NavegarPara** para controlar a exibição de objetos de banco de dados no Painel de Navegação. Por exemplo, é possível alterar a maneira como os objetos de banco de dados são categorizados, além de filtrá-los para que somente alguns sejam exibidos.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **NavegarPara** tem os seguintes argumentos.
 
@@ -46,7 +46,7 @@ A ação **NavegarPara** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Group</strong></p></td>
-<td><p>Opcional. O argumento <strong>Grupo</strong> limita quais objetos na categoria aparecem no Painel de Navegação. Se você deixar o argumento <strong>grupo</strong> em branco, o painel de navegação exibirá todos os objetos de banco de dados, categorizados pelos critérios especificados no argumento <strong>Category</strong> . Exemplos de argumentos <strong>Grupo</strong> válidos para os vários argumentos <strong>Categoria</strong> são mostrados na tabela a seguir.</p></td>
+<td><p>Opcional. O argumento <strong>Grupo</strong> limita quais objetos na categoria aparecem no Painel de Navegação. Se você deixar o argumento <strong>Grupo</strong> em branco, o Painel de Navegação exibirá todos os objetos de banco de dados, categorizados pelos critérios especificados no <strong>argumento Categoria.</strong> Exemplos de argumentos <strong>Grupo</strong> válidos para os vários argumentos <strong>Categoria</strong> são mostrados na tabela a seguir.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ A ação **NavegarPara** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-- Esta ação é semelhante à seleção de categorias e grupos na barra de título do painel de navegação.
+- Essa ação é semelhante à seleção de categorias e grupos na barra de título do painel de navegação.
 
 - Os argumentos **Grupo** válidos dependem do argumento **Categoria** usado. Se você digitar um argumento **Grupo** inválido, será exibida uma mensagem de erro.A tabela a seguir contém exemplos de argumentos **Grupo** válidos para cada argumento **Categoria**.
     

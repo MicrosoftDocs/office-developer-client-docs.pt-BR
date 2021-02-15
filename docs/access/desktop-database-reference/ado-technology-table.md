@@ -18,7 +18,7 @@ ms.locfileid: "32283216"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-A tabela a seguir lista os produtos, ferramentas e tecnologias da Microsoft discutidos no *Guia do programador do ADO*. Sempre que possível, ela fornece links para tópicos relevantes no guia.
+A tabela a seguir lista os produtos, ferramentas e tecnologias da Microsoft discutidos no guia *do programador do ADO.* Sempre que possível, ela fornece links para tópicos relevantes no guia.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ A tabela a seguir lista os produtos, ferramentas e tecnologias da Microsoft disc
 <td><p><a href="prerequisites-ado-introduction.md">Pré-requisitos</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">Marcando os objetos de negócios como seguros para scripts</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">Registrando objetos de negócios no cliente para uso com o DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">Configurando o DCOM Stream Marshaling Format</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">Permitindo que uma DLL seja executada no DCOM</a><br/><br/><a href="running-business-objects-in-component-services.md">Executar objetos corporativos nos serviços de componente</a><br/><br/></p></td>
 </tr>
 <tr class="even">
-<td><p>Nas</p></td>
+<td><p>FrontPage</p></td>
 <td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
@@ -58,14 +58,14 @@ A tabela a seguir lista os produtos, ferramentas e tecnologias da Microsoft disc
 </tr>
 <tr class="odd">
 <td><p>Internet Information Services</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Registros e fluxos</a><br/><br/><a href="streams-and-persistence.md">Fluxos e persistência</a><br/><br/><a href="using-ado-for-internet-publishing.md">Usar o ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluções para o acesso remoto a dados</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurando os servidores virtuais no IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificando encadeamentos por processador no IIS</a><br/><br/><a href="securing-rds-applications.md">Protegendo os aplicativos RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Erro no servidor da Internet: acesso negado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de Erro dos Serviços de Informações da Internet</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Registros e fluxos</a><br/><br/><a href="streams-and-persistence.md">Fluxos e persistência</a><br/><br/><a href="using-ado-for-internet-publishing.md">Usar o ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluções para o acesso remoto a dados</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurando os servidores virtuais no IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificando encadeamentos por processador no IIS</a><br/><br/><a href="securing-rds-applications.md">Protegendo os aplicativos RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Erro do servidor de Internet: Acesso negado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de Erro dos Serviços de Informações da Internet</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
 <td><p><a href="handling-errors-in-other-languages.md">Lidar com erros em outras linguagens</a><br/><br/><a href="jscript-ado-programming.md">Programação do ADO no JScript</a><br/><br/><a href="ado-code-examples-in-microsoft-jscript.md">Exemplos de código ADO no Microsoft JScript</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
-<td><p>Connectivity</p></td>
+<td><p>ODBC</p></td>
 <td><p><a href="the-role-of-ado-in-microsoft-data-access.md">A função do ADO no Microsoft Data Access</a><br/><br/><a href="using-the-connection-object-access.md">Uso do objeto Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Usando o RDS com o ODBC Connection Pooling</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a><br/><br/></p></td>
 </tr>
 <tr class="even">

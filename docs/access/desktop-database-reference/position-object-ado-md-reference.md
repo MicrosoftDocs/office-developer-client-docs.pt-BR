@@ -19,5 +19,5 @@ ms.locfileid: "32287556"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Position (ADO MD)](position-object-ado-md.md)
-- [Propriedades, métodos e eventos de Position (ADO MD)](position-properties-methods-and-events-ado-md.md)
+- [Propriedades, métodos e eventos de posição (ADO MD)](position-properties-methods-and-events-ado-md.md)
 

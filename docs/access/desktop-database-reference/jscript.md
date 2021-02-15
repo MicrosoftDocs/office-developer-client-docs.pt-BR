@@ -1,5 +1,5 @@
 ---
-title: JScript (referência do banco de dados de área de trabalho do Access)
+title: JScript (referência do banco de dados da área de trabalho do Access)
 TOCTitle: JScript
 ms:assetid: 78da203c-1342-1a04-ae53-c1fb714d18b5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)

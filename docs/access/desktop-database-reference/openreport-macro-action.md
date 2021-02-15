@@ -24,7 +24,7 @@ ms.locfileid: "32288347"
 
 Você pode usar a ação **AbrirRelatório** para abrir um relatório em modo Design ou Visualizar Impressão, ou para enviar o relatório diretamente para a impressora. Também pode restringir os registros impressos no relatório.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirRelatório** tem os seguintes argumentos.
 
@@ -42,7 +42,7 @@ A ação **AbrirRelatório** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do relatório</p></td>
-<td><p>O nome do relatório que será aberto. A caixa <strong>nome do relatório</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de <strong>macros</strong> mostra todos os relatórios no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação AbrirRelatório em um banco de dados biblioteca, o Microsoft Access procurará o relatório com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do relatório que será aberto. A <strong>caixa Nome do</strong> Relatório na seção <strong>Argumentos da</strong> Ação do painel Construtor de <strong>Macros</strong> mostra todos os relatórios no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação AbrirRelatório em um banco de dados biblioteca, o Microsoft Access procurará o relatório com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p>Exibir</p></td>
@@ -56,19 +56,19 @@ A ação **AbrirRelatório** tem os seguintes argumentos.
 <td><p>Condição Where</p></td>
 <td><p>Uma cláusula SQL WHERE  (sem a palavra WHERE) válida ou expressão que o Access usa para selecionar registros da tabela ou consulta subjacente do relatório. Se você selecionar um filtro com o argumento Nome do Filtro, o Access aplicará essa cláusula WHERE aos resultados do filtro. Para abrir um relatório e restringir seus registros àqueles especificados pelo valor de um controle em um relatório, use a expressão a seguir:<br />
 <strong>[</strong><em>nome_do_campo</em><strong>] = Formulários![</strong><em>nome_do_formulário</em><strong>]![</strong><em>nome do controle em um formulário</em><strong>]</strong><br />
-Substitua <em>nome_do_campo</em> pelo nome de um campo na tabela ou consulta subjacente do relatório que será aberto. Substitua <em>FormName</em> e <em>ControlName no formulário</em> com o nome do formulário e o controle no formulário que contém o valor que você deseja que os registros no relatório correspondam.</p>
-<p><b>Observação</b>: o comprimento máximo do argumento condição onde é de 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE mais complexa e extensa do que essa, use o método <b>OpenReport</b> do objeto <b>DoCmd</b> em um módulo do VBA (Visual Basic for Applications). É possível inserir instruções de cláusulas SQL WHERE de até 32.768 caracteres no VBA.</p>
+Substitua <em>nome_do_campo</em> pelo nome de um campo na tabela ou consulta subjacente do relatório que será aberto. Substitua <em>o nome do</em> formulário e o nome do controle no formulário pelo nome do formulário e o controle no formulário que contém o valor que você deseja que os registros do relatório sejam igualmente. <em></em></p>
+<p><b>OBSERVAÇÃO:</b>o comprimento máximo do argumento Condição Where é de 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE mais complexa e extensa do que essa, use o método <b>OpenReport</b> do objeto <b>DoCmd</b> em um módulo do VBA (Visual Basic for Applications). É possível inserir instruções de cláusulas SQL WHERE de até 32.768 caracteres no VBA.</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p>Modo Janela</p></td>
-<td><p>O modo no qual o relatório será aberto. Clique em <strong>normal</strong>, <strong>oculto</strong>, <strong>ícone</strong>ou caixa de <strong>diálogo</strong> na caixa <strong>modo de janela</strong> . O padrão é <strong>Normal</strong>.</p>
-<p><b>Observação</b>: algumas configurações de argumento do modo de janela não se aplicam ao usar documentos com guias. Para alternar para janelas sobrepostas:
+<td><p>O modo no qual o relatório será aberto. Clique <strong>em Normal</strong>, <strong>Oculto</strong>, <strong>Ícone</strong>ou <strong>Caixa de</strong> Diálogo na caixa Modo <strong>janela.</strong> O padrão é <strong>Normal</strong>.</p>
+<p><b>OBSERVAÇÃO:</b>algumas configurações de argumento do Modo Janela não se aplicam ao usar documentos com guias. Para alternar para janelas sobrepostas:
 <ol>
 <li><p>Clique em <strong>Opções</strong>.</p></li>
 <li><p>Na caixa de diálogo <strong>Opções do Access</strong>, clique em <strong>Banco de Dados Atual</strong>.</p></li>
 <li><p>Na seção <strong>Opções do Aplicativo</strong>, em <strong>Opções de Janela de Documento</strong>, clique em <strong>Janelas Sobrepostas</strong>.</p></li>
-<li><p>Clique em <strong>OK</strong>e feche e reabra o banco de dados.</p></li>
+<li><p>Clique <strong>em OK</strong>e feche e reabra o banco de dados.</p></li>
 </ol>
 </td>
 </tr>
@@ -91,7 +91,7 @@ A ação **AbrirRelatório** é semelhante a clicar duas vezes no relatório do 
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação AbrirRelatório para passar um parâmetro que filtra um relatório quando ele é aberto. O relatório **rptChapters** exibe os registros do autor especificado passando o item selecionado na caixa de combinação **cboAuthors** para o parâmetro SelectedAuthor.
+O exemplo a seguir mostra como usar a ação Abrir Relatório para passar um parâmetro que filtra um relatório à medida que ele é aberto. O **relatório rptChapters** exibe os registros do autor especificado passando o item selecionado na caixa de combinação **cboAuthors** para o parâmetro SelectedAuthor.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -1,5 +1,5 @@
 ---
-title: Coleção poSitions (referência do ADO MD)
+title: Coleção Positions (referência do ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: 325ee360-16b1-4878-ac5a-80d8fc3f7299
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249096(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287514"
 ---
-# <a name="positions-collection-ado-md-reference"></a>Coleção poSitions (referência do ADO MD)
+# <a name="positions-collection-ado-md-reference"></a>Coleção Positions (referência do ADO MD)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Coleção poSitions (ADO MD)](positions-collection-ado-md.md)
-- [Propriedades, métodos e eventos da coleção poSitions (ADO MD)](positions-collection-properties-methods-and-events-ado-md.md)
+- [Coleção Positions (ADO MD)](positions-collection-ado-md.md)
+- [Propriedades, métodos e eventos da coleção Positions (ADO MD)](positions-collection-properties-methods-and-events-ado-md.md)
 

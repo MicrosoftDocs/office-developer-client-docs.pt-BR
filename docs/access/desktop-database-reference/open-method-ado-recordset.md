@@ -22,7 +22,7 @@ Abre um cursor.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Recordset*. *Fonte*aberta, *ActiveConnection*, *CursorType*, *LockType*, *Opções*
+*recordset*. Open *Source*, *ActiveConnection*, *CursorType*, *LockType*, *Options*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -45,11 +45,11 @@ O cursor padrão para um **Recordset** do ADO é um cursor apenas leitura e apen
 
 A utilização do método **Open** em um objeto **Recordset** abre um cursor que representa registros de uma tabela base, os resultados de uma consulta ou um **Recordset** anteriormente salvo.
 
-Utilize o argumento opcional *Source* para especificar uma fonte de dados que utiliza um dos seguintes itens: uma variável de objeto **Command**, uma instrução SQL, um procedimento armazenado, um nome de tabela, uma URL ou um nome de caminho de arquivo completo. Se *Source* for um nome de caminho de arquivo, ele pode ser um caminho completo ("\\c\\: Dir arquivo. RST"), um caminho relativo (".. \\File. RST ") ou uma URL ("https://files/file.rst").
+Utilize o argumento opcional *Source* para especificar uma fonte de dados que utiliza um dos seguintes itens: uma variável de objeto **Command**, uma instrução SQL, um procedimento armazenado, um nome de tabela, uma URL ou um nome de caminho de arquivo completo. Se *Source* for um nome de caminho de arquivo, pode ser um caminho completo ("c: \\ dir \\ file.rst"), um caminho relativo (".. \\ file.rst") ou uma URL (" https://files/file.rst ").
 
 Não é uma boa ideia utilizar o argumento *Source* do método **Open** para executar uma consulta ação que não retorna registros porque não existe uma forma fácil de determinar se a chamada obteve êxito. O **Recordset** retornado por tal consulta será fechado. Chame o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de um objeto **Command** ou o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) de um objeto **Connection** em vez de executar uma consulta que, tal como uma instrução SQL INSERT, não retorna registros.
 
-O argumento *ActiveConnection* corresponde à propriedade [ActiveConnection](activeconnection-property-ado.md) e especifica em qual conexão abrir o objeto **Recordset**. Se você passar uma definição de conexão para esse argumento, o ADO abrirá uma nova conexão utilizando os parâmetros especificados. Após abrir o **Recordset** com um cursor do lado do cliente (**CursorLocation** = **adUseClient**), você pode alterar o valor dessa propriedade para enviar atualizações para outro provedor. Ou ainda, poderá definir essa propriedade como **Nothing** (no Microsoft Visual Basic) ou NULL para desconectar o **Recordset** de qualquer provedor. No entanto, alterar **ActiveConnection** para um cursor do servidor gera um erro.
+O argumento *ActiveConnection* corresponde à propriedade [ActiveConnection](activeconnection-property-ado.md) e especifica em qual conexão abrir o objeto **Recordset**. Se você passar uma definição de conexão para esse argumento, o ADO abrirá uma nova conexão utilizando os parâmetros especificados. Depois de abrir o **Recordset** com um cursor do lado do cliente (**CursorLocation**  =  **adUseClient**), você pode alterar o valor dessa propriedade para enviar atualizações para outro provedor. Ou ainda, poderá definir essa propriedade como **Nothing** (no Microsoft Visual Basic) ou NULL para desconectar o **Recordset** de qualquer provedor. No entanto, alterar **ActiveConnection** para um cursor do servidor gera um erro.
 
 Para os demais argumentos que correspondem diretamente às propriedades de um objeto **Recordset** (*Source*, *CursorType* e *LockType*), a relação dos argumentos com as propriedades é a seguinte:
 
@@ -74,7 +74,7 @@ Se a fonte de dados não retornar registros, o provedor definirá as propriedade
 
 Quando concluir as operações em um objeto **Recordset** aberto, utilize o método [Close](close-method-ado.md) para liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e utilizar o método **Open** para abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, defina a variável do objeto como *Nothing*.
 
-Antes que a propriedade **ActiveConnection** seja definida, chame **Open** sem operandos para criar uma instância de um **Recordset** criado ao anexar campos à coleção Fields do **Recordset** [](fields-collection-ado.md) .
+Antes da **propriedade ActiveConnection** ser definida, chame **Open** sem operands para criar uma instância de um **Recordset** criado por campos de adição à coleção **Recordset** [Fields](fields-collection-ado.md) .
 
 Se você definiu a propriedade [CursorLocation](cursorlocation-property-ado.md) como **adUseClient**, poderá recuperar linhas assincronamente em uma das duas formas a seguir. O método recomendado é definir *Options* como **adAsyncFetch**. De modo alternativo, é possível utilizar a propriedade dinâmica "Asynchronous Rowset Processing" na coleção [Properties](properties-collection-ado.md), mas os eventos relacionados recuperados poderão ser perdidos se você não definir o parâmetro **Options** como **adAsyncFetch**.
 
@@ -82,6 +82,6 @@ Se você definiu a propriedade [CursorLocation](cursorlocation-property-ado.md) 
 > A busca em segundo plano no provedor MS Remote é suportada apenas por meio do parâmetro *Options* do método **Open**.
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

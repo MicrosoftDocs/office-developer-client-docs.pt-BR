@@ -219,7 +219,7 @@ void PrintComError(_com_error &e)
 // EndOpenCpp 
 ```
 
-**OpenX. h**
+**OpenX.h**
 
 ```cpp 
  

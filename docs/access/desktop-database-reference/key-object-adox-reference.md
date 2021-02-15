@@ -19,5 +19,5 @@ ms.locfileid: "32290776"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Key (ADOX)](key-object-adox.md)
-- [Propriedades, métodos e eventos de chave (ADOX)](key-properties-methods-and-events-adox.md)
+- [Propriedades, métodos e eventos principais (ADOX)](key-properties-methods-and-events-adox.md)
 

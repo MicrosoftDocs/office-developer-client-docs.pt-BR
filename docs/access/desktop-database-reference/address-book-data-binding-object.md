@@ -88,11 +88,11 @@ A tabela a seguir descreve os parâmetros específicos ao objeto **RDS.DataContr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">DO</a></p></td>
-<td><p>Se você estiver usando HTTP, o valor será o nome do computador do servidor precedido por https://.</p></td>
+<td><p><a href="server-property-rds.md">SERVIDOR</a></p></td>
+<td><p>Se você estiver usando HTTP, o valor será o nome do computador servidor precedido por https:// .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">AO</a></p></td>
+<td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
 <td><p>Fornece informações de conexão necessárias para que o <strong>RDS.DataControl</strong> se conecte ao SQL Server.</p></td>
 </tr>
 <tr class="odd">

@@ -22,7 +22,7 @@ Indica um membro específico de uma coleção, por nome ou número ordinal.
 
 ## <a name="syntax"></a>Sintaxe
 
-Definir** = *coleção*de objetos. Item (index)
+Definir *coleção de*  =  *objetos.* Item ( Index )
 
 ## <a name="return-value"></a>Valor de retorno
 

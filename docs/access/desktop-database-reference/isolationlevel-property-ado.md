@@ -31,7 +31,7 @@ Use a propriedade **IsolationLevel** para definir o nível de isolamento de um o
 
 A propriedade **IsolationLevel** é leitura/gravação.
 
-**Uso do Remote Data Service** Quando usado em um objeto Connection do lado do cliente, a propriedade **IsolationLevel** pode ser definida apenas como **adXactUnspecified**.
+**Uso do Remote Data Service** Quando usada em um objeto Connection do lado do cliente, a propriedade **IsolationLevel** pode ser definida somente como **adXactUnspecified**.
 
 Como os usuários estão trabalhando com objetos **Recordset** desconectados em um cache do lado do cliente, pode haver problemas com vários usuários. Por exemplo, quando dois usuários diferentes tentam atualizar o mesmo registro, o Remote Data Service simplesmente permite que o usuário que atualizar o registro primeiro "ganhe". A solicitação de atualização do segundo usuário falhará, apresentando um erro.
 

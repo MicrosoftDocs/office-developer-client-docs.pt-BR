@@ -22,12 +22,12 @@ ms.locfileid: "32289746"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você poderá usar a ação **maximizarjanela** para ampliar a janela ativa de modo que ela preencha a janela do Access. Esta ação permitirá ver o máximo possível do objeto na janela ativa.
+Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você poderá usar a ação **MaximizeWindow** para ampliar a janela ativa para que ela preencha a janela do Access. Esta ação permitirá ver o máximo possível do objeto na janela ativa.
 
 > [!NOTE]
 > [!OBSERVAçãO] Essa ação não pode ser aplicada a janelas de código do Editor do Visual Basic (VBE). Para obter informações sobre como manipular janelas de código, consulte o tópico da propriedade **WindowState**.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **MaximizarJanela** não tem nenhum argumento.
 

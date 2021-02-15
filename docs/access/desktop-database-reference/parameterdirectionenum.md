@@ -37,27 +37,27 @@ Especifica se [Parameter](parameter-object-ado.md) representa um parâmetro de e
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamInput</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. Indica que o parâmetro representa um parâmetro de entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que o parâmetro representa um parâmetro de entrada e de saída.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que o parâmetro representa um parâmetro de saída.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamReturnValue</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que o parâmetro representa um valor de retorno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamUnknown</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Indica que a direção do parâmetro é desconhecida.</p></td>
 </tr>
 </tbody>
@@ -79,19 +79,19 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. INPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. INPUTOUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. OUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. RETURNVALUE</p></td>
+<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. UNKNOWN</p></td>
+<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

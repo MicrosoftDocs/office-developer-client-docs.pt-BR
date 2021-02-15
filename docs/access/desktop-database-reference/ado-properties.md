@@ -27,7 +27,7 @@ ms.locfileid: "32283230"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriedade	</th>
+<th>Propriedade</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -63,11 +63,11 @@ ms.locfileid: "32283230"
 <td><p>Aponta um indicador que identifica de forma exclusiva o registro atual em um objeto <strong>Recordset</strong> ou define o registro atual em um objeto <strong>Recordset</strong> para o registro identificado por um indicador válido.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
+<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
 <td><p>Indica o número de registros de um objeto <strong>Recordset</strong> que está armazenado em cache localmente na memória.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="chapter-property-ado.md">Módulo</a></p></td>
+<td><p><a href="chapter-property-ado.md">Capítulo</a></p></td>
 <td><p>Obtém ou define um objeto <strong>Chapter</strong> do OLE DB a partir de/em um objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -127,7 +127,7 @@ ms.locfileid: "32283230"
 <td><p>Descreve um objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="direction-property-ado.md">Direction</a></p></td>
+<td><p><a href="direction-property-ado.md">Direção</a></p></td>
 <td><p>Indica se o <strong>Parameter</strong> representa um parâmetro de entrada, um parâmetro de saída ou ambos, ou se o parâmetro é o valor de retorno de um procedimento armazenado.</p></td>
 </tr>
 <tr class="even">
@@ -135,11 +135,11 @@ ms.locfileid: "32283230"
 <td><p>Indica o status de edição do registro atual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">STRESS</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indica se a posição atual está no final do fluxo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>Indica um filtro de dados em um <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -223,7 +223,7 @@ ms.locfileid: "32283230"
 <td><p>Indica o grau de precisão para valores numéricos em um objeto <strong>Parameter</strong> ou para objetos <strong>Field</strong> numéricos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="prepared-property-ado.md">Prepare</a></p></td>
+<td><p><a href="prepared-property-ado.md">Preparado</a></p></td>
 <td><p>Indica se uma versão compilada de um comando deve ser salva antes da execução.</p></td>
 </tr>
 <tr class="even">
@@ -247,7 +247,7 @@ ms.locfileid: "32283230"
 <td><p>Obtém ou define um objeto <strong>RowPosition</strong> do OLE DB a partir de/em um objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">OPENXML</a></p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
 <td><p>Obtém ou define um objeto <strong>Rowset</strong> do OLE DB a partir de/em um objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">

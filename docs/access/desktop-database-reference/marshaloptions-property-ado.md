@@ -1,5 +1,5 @@
 ---
-title: Propriedade Marshaloptions (ADO)
+title: Propriedade MarshalOptions (ADO)
 TOCTitle: MarshalOptions property (ADO)
 ms:assetid: dc9c4e94-0725-210d-8251-079054541142
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289767"
 ---
-# <a name="marshaloptions-property-ado"></a>Propriedade Marshaloptions (ADO)
+# <a name="marshaloptions-property-ado"></a>Propriedade MarshalOptions (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Define ou retorna um valor [MarshalOptionsEnum](marshaloptionsenum.md). O valor 
 
 ## <a name="remarks"></a>Comentários
 
-Ao usar um [Recordset](recordset-object-ado.md)do lado do cliente, os registros que foram modificados no cliente são gravados novamente na camada intermediária ou servidor Web por meio de uma técnica chamada marshaling, o processo de empacotamento e envio de parâmetros de método de interface no thread ou limites do processo. A definição **** da propriedade marshaloptions pode melhorar o desempenho quando dados remotos modificados são empacotados para atualização de volta para a camada intermediária ou servidor Web.
+Ao usar um [Recordset](recordset-object-ado.md)do lado do cliente, os registros que foram modificados no cliente são gravados de volta na camada intermediária ou no servidor Web por meio de uma técnica chamada empacotamento, o processo de empacotamento e envio de parâmetros de método de interface entre limites de thread ou processo. A **definição da propriedade MarshalOptions** pode melhorar o desempenho quando os dados remotos modificados são empacotados para atualização de volta para a camada intermediária ou servidor Web.
 
-**Uso do Remote Data Service** Essa propriedade é usada apenas em um **Recordset**do lado do cliente.
+**Uso do Remote Data Service** Essa propriedade é usada somente em um Recordset do lado **do cliente.**
 

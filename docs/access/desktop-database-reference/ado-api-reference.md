@@ -1,5 +1,5 @@
 ---
-title: Referência da API do ActiveX Data Objects (ADO)
+title: Referência de API do ActiveX Data Objects (ADO)
 TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
@@ -18,11 +18,11 @@ ms.locfileid: "32281842"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-Esta seção da documentação do ActiveX Data Objects (ADO) contém tópicos para cada objeto ADO, coleção, propriedade, propriedade dinâmica, método, evento e enumeração. Além disso, contém uma lista de índices de sintaxe ADO a serem utilizados com o Microsoft Visual C++ e Windows Foundation Classes (WFC).
+Esta seção da documentação do ActiveX Data Objects (ADO) contém tópicos para cada objeto, coleção, propriedade, propriedade dinâmica, método, evento e enumeração do ADO. Além disso, contém uma lista de índices de sintaxe ADO a serem utilizados com o Microsoft Visual C++ e Windows Foundation Classes (WFC).
 
 Para obter mais informações, procure por um tópico no índice ou consulte os seguintes tópicos:
 
-- [Objetos ADO](ado-objects-and-interfaces.md)
+- [Objetos do ADO](ado-objects-and-interfaces.md)
 - [Coleções ADO](ado-collections.md)
 - [Propriedades do ADO](ado-properties.md)
 - [Propriedades dinâmicas do ADO](ado-dynamic-properties.md)

@@ -28,7 +28,7 @@ Retorna um **Variant** contendo um objeto **Command**. O padrão é uma referên
 
 A propriedade **ActiveCommand** é somente leitura.
 
-Se um objeto **Command** não foi usado para criar o **Recordset**atual, uma referência de objeto **nulo** será retornada.
+Se um **objeto Command** não tiver sido usado para criar o **Recordset atual,** uma referência de objeto **Null** será retornada.
 
 Use essa propriedade para encontrar o objeto **Command** associado quando receber apenas o objeto **Recordset** resultante.
 

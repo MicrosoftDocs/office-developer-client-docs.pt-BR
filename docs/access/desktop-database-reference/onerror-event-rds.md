@@ -1,5 +1,5 @@
 ---
-title: evento OnError (RDS)
+title: Evento onError (RDS)
 TOCTitle: onError event (RDS)
 ms:assetid: e26a3f7f-0f00-919a-65ad-bf39ffb83e92
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250153(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288473"
 ---
-# <a name="onerror-event-rds"></a>evento OnError (RDS)
+# <a name="onerror-event-rds"></a>Evento onError (RDS)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ O evento **onError** é chamado sempre que ocorre um erro durante uma operação
 
 ## <a name="syntax"></a>Sintaxe
 
-OnError*SCODE*, *Descrição*, *origem*, *CancelDisplay*
+onError *SCode*, *Description*, *Source*, *CancelDisplay*
 
 ## <a name="parameters"></a>Parâmetros
 

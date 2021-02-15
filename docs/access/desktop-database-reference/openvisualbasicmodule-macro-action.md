@@ -27,7 +27,7 @@ Você pode usar a ação **AbrirMódulodoVisualBasic** para abrir um módulo do 
 > [!NOTE]
 > Essa ação não será permitida se o banco de dados não for confiável. 
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **AbrirMódulodoVisualBasic** tem os seguintes argumentos.
 
@@ -60,7 +60,7 @@ A ação **AbrirMódulodoVisualBasic** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar esta ação para abrir um procedimento de evento especificando o argumento **Nome do Módulo** e o argumento **Nome do Procedimento**. Por exemplo, para abrir o procedimento de evento **Click** do botão PrintInvoice nas ordens de formulário, defina o argumento **nome do módulo** como **Form. Orders** e defina o argumento Nome do **procedimento** como **PrintInvoice\_clique**. Para exibir o procedimento de evento de um formulário ou relatório, este precisa estar aberto.
+Você pode usar esta ação para abrir um procedimento de evento especificando o argumento **Nome do Módulo** e o argumento **Nome do Procedimento**. For example, to open the **Click** event procedure of the PrintInvoice button on the form Orders, set the **Module Name** argument to **Form.Orders** and set the **Procedure Name** argument to **PrintInvoice \_ Click**. Para exibir o procedimento de evento de um formulário ou relatório, este precisa estar aberto.
 
 Da mesma maneira, para abrir um procedimento em um módulo de classe, especifique o nome do módulo, embora não seja necessário abrir o módulo de classe.
 

@@ -66,24 +66,24 @@ Cada nível tem um conjunto de membros, conforme mostrado a seguir:
 
   - Continentes = {América do Norte, Europa}
 
-  - Países = {Canadá, EUA, ru, Alemanha}
+  - Países = {Canadá, EUA, Reino Unido, Alemanha}
 
-  - Regions = {Canada-leste, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escócia, Gales, Alemanha-Norte, Alemanha-Sul}
+  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Canada, Ireland, Scotland, Canada, Germany-North, Germany-South}
 
-  - Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, Nova York, London, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlim, Hamburg, Munique, Stuttgart}
+  - Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Toronto, Shreveport, Ottawa, Ottawa, New York, Londres, Dover, Glarid, Ottawah, Cardiff, Pembroke, Ottawa, Berlim, Inglaterra, Stuttgart}
 
 ## <a name="members"></a>Members
 
 Os membros do nível folha de uma hierarquia não têm filhos e os membros do nível raiz não têm pais. Todos os outros membros têm pelo menos um pai e um filho. Por exemplo, uma transversal parcial da árvore da hierarquia na dimensão Geografia resulta nas seguintes relações pai-filho:
 
-- Todos os (pai de) {Europa, América do Norte}
-- {América do Norte} (pai de) {Canadá, USA}
-- Japão (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {All} (pai de) {Europa, América do Norte}
+- {América do Norte} (pai de) {Canadá, EUA}
+- {USA} (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
 - {USA-NW} (pai de) {Boise, Seattle}
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Este exemplo também ilustra outra característica: alguns membros do nível semana da hierarquia ano-semana não aparecem em qualquer nível da hierarquia ano-trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível Semana da hierarquia Year-Week não aparecem em nenhum nível da hierarquia Year-Quarter trabalho. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 
 ## <a name="understanding-multidimensional-schemas"></a>Noções básicas sobre esquemas multidimensionais
 
@@ -133,25 +133,25 @@ Cada nível tem um conjunto de membros, conforme mostrado a seguir:
 
 - Continentes = {América do Norte, Europa}
 
-- Países = {Canadá, EUA, ru, Alemanha}
+- Países = {Canadá, EUA, Reino Unido, Alemanha}
 
-- Regions = {Canada-leste, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escócia, Gales, Alemanha-Norte, Alemanha-Sul}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Canada, Ireland, Scotland, Canada, Germany-North, Germany-South}
 
-- Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, Nova York, London, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlim, Hamburg, Munique, Stuttgart}
+- Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Toronto, Shreveport, Ottawa, Ottawa, New York, Londres, Dover, Glarid, Ottawah, Cardiff, Pembroke, Ottawa, Berlim, Inglaterra, Stuttgart}
 
 ## <a name="members"></a>Members
 
 Os membros do nível folha de uma hierarquia não têm filhos e os membros do nível raiz não têm pais. Todos os outros membros têm pelo menos um pai e um filho. Por exemplo, uma transversal parcial da árvore da hierarquia na dimensão Geografia resulta nas seguintes relações pai-filho:
 
-- Todos os (pai de) {Europa, América do Norte}
+- {All} (pai de) {Europa, América do Norte}
 
-- {América do Norte} (pai de) {Canadá, USA}
+- {América do Norte} (pai de) {Canadá, EUA}
 
-- Japão (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA} (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
 - {USA-NW} (pai de) {Boise, Seattle}
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Este exemplo também ilustra outra característica: alguns membros do nível semana da hierarquia ano-semana não aparecem em qualquer nível da hierarquia ano-trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível Semana da hierarquia Year-Week não aparecem em nenhum nível da hierarquia Year-Quarter trabalho. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 

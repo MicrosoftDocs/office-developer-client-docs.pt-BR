@@ -18,5 +18,5 @@ ms.locfileid: "32287857"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Método paraMeters. Refresh (DAO)](parameters-refresh-method-dao.md)
+- [Método Parameters.Refresh (DAO)](parameters-refresh-method-dao.md)
 

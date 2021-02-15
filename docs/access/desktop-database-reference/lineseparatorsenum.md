@@ -1,5 +1,5 @@
 ---
-title: LineSeparatorsEnum (referência do banco de dados de área de trabalho do Access)
+title: LineSeparatorsEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
@@ -38,7 +38,7 @@ Especifica o caractere usado como um separador de linha nos objetos [Stream](str
 <tbody>
 <tr class="odd">
 <td><p><strong>adCR</strong></p></td>
-<td><p>Treze</p></td>
+<td><p>13 </p></td>
 <td><p>Indica um retorno de carro.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Especifica o caractere usado como um separador de linha nos objetos [Stream](str
 </tr>
 <tr class="odd">
 <td><p><strong>adLF</strong></p></td>
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p>Indica a alimentação de linha.</p></td>
 </tr>
 </tbody>

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280436"
 ---
-# <a name="adcpropupdateresyncenum"></a>ADCPROP\_UPDATERESYNC\_enum
+# <a name="adcprop_updateresync_enum"></a>ADCPROP \_ UPDATERESYNC \_ ENUM
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -38,32 +38,32 @@ Especifica se o método [UpdateBatch](updatebatch-method-ado.md) é seguido por 
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAll</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Chama <strong>Resync</strong> com o valor combinado de todos os outros membros ADCPROP_UPDATERESYNC_ENUM.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncAutoIncrement</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Padrão. Tenta recuperar o novo valor de identidade para as colunas que são automaticamente incrementadas ou geradas pela fonte de dados, como os campos AutoNumber do Microsoft Jet ou as colunas Identity do Microsoft SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncConflicts</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Chama <strong>Resync</strong> para todas as linhas nas quais a operação de atualização ou exclusão falhou devido a um conflito de simultaneidade.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncInserts</strong></p></td>
-<td><p>8</p></td>
-<td><p>Chama <strong>Resync</strong> para todas as linhas inseridas com êxito. Contudo, os valores da coluna AutoIncrement não serão resincronizados. Ao contrário, o conteúdo das linhas inseridas recentemente será resincronizado com base no valor-chave primário existente. Se a chave primária for um valor AutoIncrement, <strong>Resync</strong> não recuperará o conteúdo da linha desejada. Para incrementar automaticamente valores de chave primária de incremento automático, chame <strong>UpdateBatch</strong> com o valor combinado <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
+<td><p>8 </p></td>
+<td><p>Chama <strong>Resync</strong> para todas as linhas inseridas com êxito. Contudo, os valores da coluna AutoIncrement não serão resincronizados. Ao contrário, o conteúdo das linhas inseridas recentemente será resincronizado com base no valor-chave primário existente. Se a chave primária for um valor AutoIncrement, <strong>Resync</strong> não recuperará o conteúdo da linha desejada. Para incrementar automaticamente os valores da chave primária AutoIncrement, chame <strong>UpdateBatch</strong> com o valor combinado <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncNone</strong></p></td>
-<td><p>,0</p></td>
+<td><p>0</p></td>
 <td><p>Não chama <strong>Resync</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncUpdates</strong></p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Chama <strong>Resync</strong> para todas as linhas atualizadas com êxito.</p></td>
 </tr>
 </tbody>

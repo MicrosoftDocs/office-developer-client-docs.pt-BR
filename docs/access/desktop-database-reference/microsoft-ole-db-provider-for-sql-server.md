@@ -354,7 +354,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Senha</p></td>
+<td><p>Password</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">
@@ -558,7 +558,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Essa</p></td>
+<td><p>IRowsetScroll</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="even">
@@ -718,7 +718,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_UNIQUEROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Atualização</p></td>
+<td><p>Updatability</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
@@ -854,7 +854,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_IRowsetResynch</p></td>
 </tr>
 <tr class="even">
-<td><p>Essa</p></td>
+<td><p>IRowsetScroll</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="odd">
@@ -1026,7 +1026,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Atualização</p></td>
+<td><p>Updatability</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">

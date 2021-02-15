@@ -1,5 +1,5 @@
 ---
-title: Objeto member (referência do ADO MD)
+title: Objeto Member (referência do ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: 933be014-9cb2-416a-8290-6dece686fc41
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249650(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289697"
 ---
-# <a name="member-object-ado-md-reference"></a>Objeto member (referência do ADO MD)
+# <a name="member-object-ado-md-reference"></a>Objeto Member (referência do ADO MD)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-- [Objeto member (ADO MD)](member-object-ado-md.md)
-- [Propriedades, métodos e eventos de membro (ADO MD)](member-properties-methods-and-events-ado-md.md)
+- [Objeto Member (ADO MD)](member-object-ado-md.md)
+- [Propriedades, métodos e eventos do membro (ADO MD)](member-properties-methods-and-events-ado-md.md)
 

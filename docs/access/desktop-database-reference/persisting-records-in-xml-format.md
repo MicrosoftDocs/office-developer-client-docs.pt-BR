@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-O ADO sempre mantém todo o objeto **Recordset**. Se você deseja manter apenas um subconjunto de linhas do objeto **Recordset**, use o método **Filter** para estreitar as linhas ou alterar sua cláusula de seleção. No entanto, você deve abrir um objeto **Recordset** com um cursor do lado do cliente (**CursorLocation** = **adUseClient**) para usar o método **Filter** para salvar um subconjunto de linhas. Por exemplo, para recuperar títulos que começam com a letra "b," você pode aplicar um filtro a um objeto **Recordset** aberto:
+O ADO sempre mantém todo o objeto **Recordset**. Se você deseja manter apenas um subconjunto de linhas do objeto **Recordset**, use o método **Filter** para estreitar as linhas ou alterar sua cláusula de seleção. No entanto, você deve abrir um objeto **Recordset** com um cursor do lado do cliente (**CursorLocation**  =  **adUseClient**) para usar o método **Filter** para salvar um subconjunto de linhas. Por exemplo, para recuperar títulos que começam com a letra "b," você pode aplicar um filtro a um objeto **Recordset** aberto:
 
 ```vb 
  
@@ -71,18 +71,18 @@ Esta seção inclui os seguintes tópicos:
 
 - [Namespaces](namespaces.md)
 
-- [Seção de esquema](schema-section.md)
+- [Seção Schema](schema-section.md)
 
-- [Seção de dados](data-section.md)
+- [Seção Data](data-section.md)
 
 - [Conjuntos de registros hierárquicos em XML](hierarchical-recordsets-in-xml.md)
 
 - [Propriedades dinâmicas do Recordset em XML](recordset-dynamic-properties-in-xml.md)
 
-- [Transformações de XSLT](xslt-transformations.md)
+- [Transformações XSLT](xslt-transformations.md)
 
 - [Salvando no objeto DOM XML](saving-to-the-xml-dom-object.md)
 
 - [Considerações sobre segurança XML](xml-security-considerations.md)
 
-- [Tópicos do cenário de persistência de conjunto de registros XML](xml-recordset-persistence-scenario.md)
+- [Tópicos do cenário de persistência do recordset XML](xml-recordset-persistence-scenario.md)

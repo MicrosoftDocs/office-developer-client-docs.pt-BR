@@ -1,5 +1,5 @@
 ---
-title: Referência da API do ADOX (referência do banco de dados do Access)
+title: Referência da API do ADOX (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADOX API reference
 ms:assetid: 70965aa3-992d-c68f-a6e2-a48325561dfd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)

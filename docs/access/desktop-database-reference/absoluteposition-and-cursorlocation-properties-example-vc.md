@@ -303,7 +303,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**AbsolutePositionX. h**
+**AbsolutePositionX.h**
 
 ```cpp 
  

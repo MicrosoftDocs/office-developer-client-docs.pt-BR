@@ -231,7 +231,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**OriginalValueX. h**
+**OriginalValueX.h**
 
 ```cpp 
  

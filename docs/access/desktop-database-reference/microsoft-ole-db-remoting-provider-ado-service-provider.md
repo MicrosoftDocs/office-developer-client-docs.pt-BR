@@ -74,10 +74,10 @@ Quando esse provedor de serviços é invocado, as propriedades dinâmicas abaixo
 <td><p>Indica o Modo DataFactory. Uma cadeia de caracteres que especifica a versão desejada do objeto <a href="datafactory-object-rdsserver.md">DataFactory</a> no servidor. Defina esta propriedade antes de abrir uma conexão para solicitar uma versão específica de <strong>DataFactory</strong>. Se a versão solicitada não estiver disponível, será feita uma tentativa de usar a versão anterior. Se não houver uma versão anterior, ocorrerá um erro. Se <strong>DFMode</strong> for inferior à versão disponível, ocorrerá um erro. Esta propriedade será somente leitura depois que uma conexão for estabelecida. Pode ser um dos seguintes valores válidos da cadeia de caracteres:</p>
 <p></p>
 <ul>
-<li><p>&quot;25&quot; – versão 2,5 (padrão)</p></li>
-<li><p>&quot;21&quot; — versão 2,1</p></li>
-<li><p>&quot;20&quot; — versão 2,0</p></li>
-<li><p>&quot;15&quot; – versão 1,5</p></li>
+<li><p>&quot;25 &quot; — Versão 2.5 (Padrão)</p></li>
+<li><p>&quot;21 &quot; — Versão 2.1</p></li>
+<li><p>&quot;20 &quot; — Versão 2.0</p></li>
+<li><p>&quot;15 &quot; — Versão 1.5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -96,7 +96,7 @@ Quando esse provedor de serviços é invocado, as propriedades dinâmicas abaixo
 <li><p>15 — Versão 1.5</p></li>
 </ul>
 <p></p>
-<p>Adição &quot;de DFMode = 20; &quot; para a cadeia de conexão ao usar o provedor <strong>MSRemote</strong> pode melhorar o desempenho do seu servidor ao atualizar dados. Com essa definição, o objeto <strong>RDSServer.DataFactory</strong> do servidor usa um modo de recursos menos intensivo. No entanto, os seguintes recursos não estão disponíveis nesta configuração:</p>
+<p>Adicionar DFMode=20; à cadeia de conexão ao usar o provedor &quot; &quot; <strong>MSRemote</strong> pode melhorar o desempenho do servidor ao atualizar dados. Com essa definição, o objeto <strong>RDSServer.DataFactory</strong> do servidor usa um modo de recursos menos intensivo. No entanto, os seguintes recursos não estão disponíveis nesta configuração:</p>
 <p></p>
 <ul>
 <li><p>Uso de consultas parametrizadas.</p></li>
@@ -111,8 +111,8 @@ Quando esse provedor de serviços é invocado, as propriedades dinâmicas abaixo
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Indicador</strong></p></td>
-<td><p>Indica o nome de um programa de personalização do servidor (ou manipulador) que estende a funcionalidade do <a href="datafactory-object-rdsserver.md">RDSServer.</a>datafactory e quaisquer parâmetros usados pelo manipulador<em>,</em> todos separados por vírgulas (&quot;,&quot;). Um valor <strong>String</strong>.</p></td>
+<td><p><strong>Manipulador</strong></p></td>
+<td><p>Indica o nome de um programa de personalização do servidor (ou manipulador) que estende a funcionalidade do <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>e quaisquer parâmetros usados pelo<em>manipulador,</em> todos separados por vírgulas ( &quot; , &quot; ). Um valor <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>

@@ -24,7 +24,7 @@ Somente gravação.
 
 ## <a name="syntax"></a>Sintaxe
 
-HRESULT Coloque\_ParentRow (\[em\] IUnknown\* pParent);
+HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -34,7 +34,7 @@ HRESULT Coloque\_ParentRow (\[em\] IUnknown\* pParent);
 
 ## <a name="return-values"></a>Valor de retorno
 
-Este método de propriedade retorna os valores HRESULT padrão, incluindo\_S OK E\_o e falha.
+Esse método de propriedade retorna os valores HRESULT padrão, incluindo S \_ OK e E \_ FAIL.
 
 ## <a name="applies-to"></a>Aplicável a
 

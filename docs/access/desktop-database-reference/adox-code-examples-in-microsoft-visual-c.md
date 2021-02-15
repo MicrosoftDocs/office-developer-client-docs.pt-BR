@@ -32,7 +32,7 @@ Estes tópicos fornecem código de exemplo para ajudá-lo a compreender como usa
 - [Exemplo dos métodos GetPermissions e SetPermissions (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 - [Exemplo dos métodos Append e ChangePassword de Groups and Users (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 - [Exemplo do método Append de Indexes (VC++)](indexes-append-method-example-vc.md)
-- [Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RELATEDTABLE e UpdateRule (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 ## <a name="properties"></a>Propriedades
 
@@ -40,17 +40,17 @@ Estes tópicos fornecem código de exemplo para ajudá-lo a compreender como usa
 - [Exemplo da propriedade ActiveConnection de Catalog (VC++)](catalog-activeconnection-property-example-vc.md)
 - [Exemplo da propriedade Clustered (VC++)](clustered-property-example-vc.md)
 - [Exemplo das propriedades Command e CommandText (VC++)](command-and-commandtext-properties-example-vc.md)
-- [Propriedade Command, exemplo da coleção paraMeters (VC + +)](parameters-collection-command-property-example-vc.md)
+- [Propriedade Command, exemplo da coleção Parameters (VC++)](parameters-collection-command-property-example-vc.md)
 - [Exemplo das propriedades DateCreated e DateModified (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 - [Exemplo da propriedade DefinedSize (VC++)](definedsize-property-example-vc.md)
 - [Exemplo da propriedade DeleteRule (VC++)](deleterule-property-example-vc.md)
 - [Exemplo da propriedade IndexNulls (VC++)](indexnulls-property-example-vc.md)
-- [Tipo de chave, RelatedColumn, RELATEDTABLE, propriedades de UpdateRule, exemplo do método Append de chaves (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-- [Exemplo da propriedade Name, dos métodos Append de colunas e tabelas (VC + +)](columns-and-tables-append-methods-name-property-example-vc.md)
+- [Tipo de chave, propriedades RelatedColumn, RelatedTable, UpdateRule, exemplo do método Append de chaves (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Propriedade Name, exemplo dos métodos Append de colunas e tabelas (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [Exemplo das propriedades NumericScale e Precision (VC++)](numericscale-and-precision-properties-example-vc.md)
 - [Exemplo da propriedade ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
 - [Exemplo das propriedades PrimaryKey e Unique (VC++)](primarykey-and-unique-properties-example-vc.md)
-- [Propriedade tipo de tabela, exemplo do método Close de conexão (VC + +)](connection-close-method-table-type-property-example-vc.md)
+- [Propriedade Tipo de Tabela, exemplo do método Close de Conexão (VC++)](connection-close-method-table-type-property-example-vc.md)
 
 ## <a name="collections"></a>Coleções
 

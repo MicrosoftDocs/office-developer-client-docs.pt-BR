@@ -35,5 +35,5 @@ Para um objeto **Field**, **Name** normalmente é somente leitura. No entanto, p
 
 Para os objetos **Parameter** que ainda não foram acrescentados à coleção [Parameters](parameters-collection-ado.md), a propriedade **Name** é leitura/gravação. Para objetos **Parameter** acrescentados e todos os outros objetos, a propriedade **Name** é somente leitura. Os nomes não precisam ser exclusivos em uma coleção.
 
-Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal, após a qual pode se referir ao objeto diretamente pelo nome. Por exemplo, se rstMain. Properties (20). O nome produz a capacidade de atualização, posteriormente, você pode referir-se a essa propriedade como produz a capacidade de atualização, em seguida, pode referir-se a essa propriedade como rstMain. Properties ("atualização").
+Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal, após a qual pode se referir ao objeto diretamente pelo nome. Por exemplo, se rstMain.Properties(20). Name produz Updatability , você pode subsequentemente referir-se a essa propriedade como produz Updatability , você pode subsequentemente referir-se a essa propriedade como rstMain.Properties("Updatability") .
 

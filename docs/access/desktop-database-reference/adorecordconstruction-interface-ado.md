@@ -57,7 +57,7 @@ Nenhum.
 
 ## <a name="remarks"></a>Comentários
 
-Dado um objeto de **linha** OLE DB (Prow), a construção de um objeto **Record** do ADO (), a construção de um objeto **Record** do ADO (adoR), valores para as três operações básicas a seguir:
+Dado um objeto OLE DB **Row** (pRow), a construção de um objeto **Record** do ADO (), a construção de um objeto **Record** do ADO (adoR), equivale às três operações básicas a seguir:
 
 1.  Criar um objeto **Record** do ADO:
     
@@ -74,7 +74,7 @@ Dado um objeto de **linha** OLE DB (Prow), a construção de um objeto **Record*
                             (void**)&adoRConstruct);
     ```
 
-3.  Chame o método de propriedade de **linha IADORecordConstruction::p\_UT** para definir o objeto de **linha** OLE DB no objeto **Record** do ADO:
+3.  Chame o método de propriedade **IADORecordConstruction::p ut \_ Row** para definir o objeto OLE DB **Row** no objeto **Record** do ADO:
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -86,7 +86,7 @@ O objeto **adoR** resultante agora representa o objeto **Record** do ADO constru
 
 Um objeto **Record** do ADO também pode ser construído a partir do contêiner de um objeto **Row** do banco de dados OLE.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 **Versão:** ADO 2.0 e posterior
 

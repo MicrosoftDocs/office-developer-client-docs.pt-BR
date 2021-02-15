@@ -1,5 +1,5 @@
 ---
-title: Objetos do ADO MD (referência do banco de dados do Access Desktop)
+title: Objetos do ADO MD (referência do banco de dados da área de trabalho do Access)
 TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
@@ -56,14 +56,14 @@ ms.locfileid: "32283293"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarquia</a></p></td>
-<td><p>Representa uma maneira em que os membros de uma dimensão podem ser agregados ou &quot;acumulados. &quot; Uma dimensão pode ser agregada ao longo de uma ou mais hierarquias.</p></td>
+<td><p>Representa uma maneira na qual os membros de uma dimensão podem ser agregados ou &quot; acumulados. &quot; Uma dimensão pode ser agregada ao longo de uma ou mais hierarquias.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Nível</a></p></td>
 <td><p>Contém um conjunto de membros, sendo que cada um tem a mesma ordem em uma hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p><a href="member-object-ado-md.md">Membro</a></p></td>
 <td><p>Representa um membro de um nível em um cubo, os filhos de um membro de um nível ou um membro de uma posição em um eixo de um conjunto de células.</p></td>
 </tr>
 <tr class="even">

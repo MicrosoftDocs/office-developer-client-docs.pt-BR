@@ -22,7 +22,7 @@ Abre um objeto [Record](record-object-ado.md) existente ou cria um novo item rep
 
 ## <a name="syntax"></a>Sintaxe
 
-*Fonte*aberta, *ActiveConnection*, *Mode*, *CreateOptions*, *Options*, *username*, *password*
+Open *Source*, *ActiveConnection*, *Mode*, *CreateOptions*, *Options*, *UserName*, *Password*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -31,7 +31,7 @@ Abre um objeto [Record](record-object-ado.md) existente ou cria um novo item rep
 |*Source* |Opcional. Uma **Variant** que pode representar a URL da entidade a ser representada por esse objeto **Record**, um **Command**, um [Recordset](recordset-object-ado.md) aberto ou outro objeto **Record**, uma sequência que contém uma instrução SQL SELECT ou um nome de tabela.|
 |*ActiveConnection* | Opcional. Uma **Variant** que representa a sequência de conexão ou objeto [Connection](connection-object-ado.md) aberto.|
 |*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md), cujo valor padrão é **adModeUnknown**, que especifica o modo de acesso para o objeto **Record** resultante.|
-|*Criaroptions* |Opcional. Um valor [RecordCreateOptionsEnum](recordcreateoptionsenum.md), cujo valor padrão é **adFailIfNotExists**, que especifica se um arquivo ou diretório existente deve ser aberto ou se um novo arquivo ou diretório deve ser criado. Se definido para o valor padrão, o modo de acesso será obtido da propriedade [Mode](mode-property-ado.md). Este parâmetro é ignorado quando o parâmetro *Source* não contém uma URL.|
+|*CreateOptions* |Opcional. Um valor [RecordCreateOptionsEnum](recordcreateoptionsenum.md), cujo valor padrão é **adFailIfNotExists**, que especifica se um arquivo ou diretório existente deve ser aberto ou se um novo arquivo ou diretório deve ser criado. Se definido para o valor padrão, o modo de acesso será obtido da propriedade [Mode](mode-property-ado.md). Este parâmetro é ignorado quando o parâmetro *Source* não contém uma URL.|
 |*Options* |Opcional. Um valor [RecordOpenOptionsEnum](recordopenoptionsenum.md), cujo valor padrão é **adOpenRecordUnspecified**, que especifica opções para a abertura do **Record**. Esses valores podem ser combinados.|
 |*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso a *Source*.|
 |*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.|
@@ -53,6 +53,6 @@ Abre um objeto [Record](record-object-ado.md) existente ou cria um novo item rep
 Se o objeto **Record** representar uma entidade que não pode ser acessada com uma URL (por exemplo, uma linha de um **Recordset** derivada de um banco de dados), os valores da propriedade [ParentURL](parenturl-property-ado.md) e do campo acessado com a constante **adRecordURL** serão nulos.
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 
