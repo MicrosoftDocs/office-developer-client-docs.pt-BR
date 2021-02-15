@@ -1,5 +1,5 @@
 ---
-title: StreamTypeEnum (referência do banco de dados de área de trabalho do Access)
+title: StreamTypeEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
@@ -38,12 +38,12 @@ Especifica o tipo de dados armazenado em um objeto [Stream](stream-object-ado.md
 <tbody>
 <tr class="odd">
 <td><p><strong>adTypeBinary</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica dados binários.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adTypeText</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Padrão. Indica os dados do texto, que estão no conjunto de caracteres especificado por <a href="charset-property-ado.md">Charset</a>.</p></td>
 </tr>
 </tbody>

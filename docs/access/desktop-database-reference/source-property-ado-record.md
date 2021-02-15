@@ -38,6 +38,6 @@ Se a propriedade **ActiveConnection** também for definida, então a propriedade
 A propriedade **Source** será leitura/gravação enquanto o objeto **Record** estiver fechado e somente leitura enquanto o objeto **Record** estiver aberto.
 
 > [!NOTE]
-> [!OBSERVAçãO] As URLs que estiverem utilizando o esquema http invocarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] As URLs que estiverem utilizando o esquema http invocarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas.](absolute-and-relative-urls.md)
 
 

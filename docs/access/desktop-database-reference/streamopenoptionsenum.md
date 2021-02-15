@@ -37,12 +37,12 @@ Especifica as opções para abrir um objeto [Stream](stream-object-ado.md). Os v
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Abre o objeto <strong>Stream</strong> no modo assíncrono.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Openoptions</strong></p></td>
-<td><p>quatro</p></td>
+<td><p><strong>adOpenStreamFromRecord</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Identifica o conteúdo do parâmetro <em>Source</em> para ser um objeto <a href="record-object-ado.md">Record</a> já aberto. O comportamento padrão é tratar <em>Source</em> com um URL que aponta diretamente para um nó em uma estrutura em árvore. O fluxo padrão associado àquele nó é aberto.</p></td>
 </tr>
 <tr class="odd">

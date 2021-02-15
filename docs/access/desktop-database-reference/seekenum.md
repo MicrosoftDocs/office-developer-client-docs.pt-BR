@@ -1,5 +1,5 @@
 ---
-title: SeekEnum (referência do banco de dados de área de trabalho do Access)
+title: SeekEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
@@ -38,27 +38,27 @@ Especifica o tipo de [Seek](seek-method-ado.md) a ser executada.
 <tbody>
 <tr class="odd">
 <td><p>adSeekFirstEQ</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Procura a primeira chave igual a <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekLastEQ</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Procura a última chave igual a <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>adSeekAfterEQ</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Procura uma chave igual a <em>KeyValues</em> ou apenas depois de onde essa correspondência ocorreu.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekAfter</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Procura uma chave depois do local em que uma correspondência com <em>KeyValues</em> ocorreu.</p></td>
 </tr>
 <tr class="odd">
 <td><p>adSeekBeforeEQ</p></td>
-<td><p>dezesseis</p></td>
+<td><p>16 </p></td>
 <td><p>Procura uma chave igual a <em>KeyValues</em> ou apenas antes do local em que essa correspondência ocorreu.</p></td>
 </tr>
 <tr class="even">
@@ -85,22 +85,22 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Seek. FIRSTEQ</p></td>
+<td><p>AdoEnums.Seek.FIRSTEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. LASTEQ</p></td>
+<td><p>AdoEnums.Seek.LASTEQ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Seek. AFTEREQ</p></td>
+<td><p>AdoEnums.Seek.AFTEREQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. AFTER</p></td>
+<td><p>AdoEnums.Seek.AFTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Seek. BEFOREEQ</p></td>
+<td><p>AdoEnums.Seek.BEFOREEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. BEFORE</p></td>
+<td><p>AdoEnums.Seek.BEFORE</p></td>
 </tr>
 </tbody>
 </table>

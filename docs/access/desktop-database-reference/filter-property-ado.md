@@ -18,7 +18,7 @@ ms.locfileid: "49734193"
 # <a name="filter-property-ado"></a>Propriedade Filter (ADO)
 
 
-**Aplica-se ao**: Access 2013, Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica um filtro para os dados em um [Recordset](recordset-object-ado.md).
 
@@ -36,24 +36,24 @@ Define ou retorna um valor **Variant**, que pode conter:
 
 Use a propriedade **Filter** para filtrar de maneira seletiva os registros de um objeto **Recordset**. O **Recordset** filtrado torna-se o cursor atual. Outras propriedades que retornam valores com base no cursor atual são afetadas, como [AbsolutePosition](absoluteposition-property-ado.md), [AbsolutePage](absolutepage-property-ado.md), [RecordCount](recordcount-property-ado.md) e [PageCount](pagecount-property-ado.md). Isso ocorre porque definir a propriedade **Filter** para um valor específico moverá o registro atual para o primeiro registro que atende ao novo valor.
 
-A cadeia de caracteres de critérios é composta por cláusulas no formulário *FieldName-Operator-Value* (por exemplo, "LastName = ' Smith '"). Você pode criar cláusulas compostas concatenando cláusulas individuais com **and** (por exemplo, "LastName = ' Smith ' e FirstName = ' John '") ou **or** (por exemplo, "). Você pode criar cláusulas compostas concatenando cláusulas individuais com **and** (por exemplo, "LastName = ' Smith ' e FirstName = ' John '") ou **or** (por exemplo, "LastName = ' Smith ' ou LastName = ' Jones '"). Use as seguintes diretrizes para as sequências de critérios:
+A sequência de critérios é formada por cláusulas no formato *FieldName-Operator-Value* (por exemplo, "LastName = 'Smith'"). Você pode criar cláusulas compostas concatenando cláusulas individuais com **AND** (por exemplo, "LastName = 'Smith' AND FirstName = 'John'") ou **OR** (por exemplo, "). Você pode criar cláusulas compostas concatenando cláusulas individuais com **AND** (por exemplo, "LastName = 'Smith' AND FirstName = 'John'") ou **OR** (por exemplo, "LastName = 'Smith' OR LastName = 'Jones'"). Use as seguintes diretrizes para as sequências de critérios:
 
   - *FieldName* deve ser um nome de campo válido do **Recordset**. Se o nome de campo contiver espaços, coloque o nome entre colchetes.
 
-  - *Operator* deve ser uma das seguintes opções: \<, \> , \<=, \> =, \<\> , = ou **like**.
+  - *O* operador deve ser um dos seguintes: \<, \> , \<=, \> =, \<\> = ou **LIKE**.
 
-  - *Value* é o valor com o qual você irá comparar os valores de campo (por exemplo, ' Smith ', \# 8/24/95 \# , 12,345 ou $50). Use aspas simples com cadeias de caracteres e sinais de sustenido ( \# ) com datas. Para números, você pode usar vírgulas decimais, símbolos de dólar e notação científica. Se *Operator* for **LIKE**, *Value* poderá usar curingas. Somente o asterisco ( \* ) e o sinal de porcentagem (%) curingas são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
+  - *Value* is the value with which you will compare the field values (for example, 'Smith', \# 8/24/95 \# , 12.345, or $50.00). Use aspas simples com cadeias de caracteres e sinais de libra ( \# ) com datas. Para números, você pode usar vírgulas decimais, símbolos de dólar e notação científica. Se *Operator* for **LIKE**, *Value* poderá usar curingas. Somente o asterisco ( \* ) e o sinal de porcentagem (%) curingas são permitidos e devem ser o último caractere na cadeia de caracteres. *Value* não pode ser nulo.
 
     > [!NOTE]
     > [!OBSERVAçãO] Para incluir aspas simples (') no filtro Value, use duas aspas simples para representar uma. Por exemplo, para filtrar em O'Malley, a sequência de critérios deve ser "col1 = 'O''Malley'". Para incluir aspas simples no início e no final do valor de filtragem, coloque a sequência entre símbolos de libra (#). Por exemplo, para filtrar em '1', a sequência de critérios deve ser "col1 = #'1'#".
 
--   Não há precedência entre **AND** e **OR**. As cláusulas podem ser agrupadas entre parênteses. No entanto, você não pode agrupar as cláusulas Unidas por um **ou** e depois juntar o grupo a outra cláusula com um **e**, como no seguinte trecho de código:  
+-   Não há precedência entre **AND** e **OR**. As cláusulas podem ser agrupadas entre parênteses. No entanto, você não pode agrupar cláusulas unidas por um **or** e, em seguida, unir o grupo a outra cláusula com um **and**, como no trecho de código a seguir:  
  `(LastName = 'Smith' OR LastName = 'Jones') AND FirstName = 'John'`  
   
 -   Em vez disso, você deve construir esse filtro como  
  `(LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John')`  
 
-  - Em uma cláusula **like** , você pode usar um caractere curinga no início e no final do padrão (por exemplo, LastName como ' \* MIT \* ') ou apenas no final do padrão (por exemplo, LastName como ' Smit \* ').
+  - Em uma cláusula **LIKE,** você pode usar um caractere curinga no início e no final do padrão (por exemplo, LastName Like ' mit ') ou apenas no final do padrão \* \* (por exemplo, LastName Like 'Smit \* ').
 
 As constantes de filtragem tornam mais fácil resolver conflitos individuais de registro durante o modo de atualização em lote, permitindo que você exiba, por exemplo, apenas os registros que foram afetados durante a última chamada do método [UpdateBatch](updatebatch-method-ado.md).
 
@@ -65,7 +65,7 @@ Sempre que a propriedade **Filter** for definida, a posição atual do registro 
 
 Consulte a propriedade [Bookmark](bookmark-property-ado.md) para obter uma explicação sobre valores de indicadores a partir dos quais é possível construir uma matriz para usar com a propriedade **Filter**.
 
-Somente **filtros** na forma de cadeias de caracteres de critérios (por exemplo, datadopedido \> ' 12/31/1999 ') afetam o conteúdo de um **Recordset** persistente. **Filters** criados com uma Matriz de **Bookmarks** ou usando um valor de **FilterGroupEnum** não afetarão o conteúdo de um Recordset persistente. Essas regras aplicam-se a **Recordsets** criados com cursores do lado do cliente e do servidor.
+Somente **filtros** na forma de sequências de critérios (por exemplo, OrderDate \> '31/12/1999') afetam o conteúdo de um **Recordset persistente.** **Filters** criados com uma Matriz de **Bookmarks** ou usando um valor de **FilterGroupEnum** não afetarão o conteúdo de um Recordset persistente. Essas regras aplicam-se a **Recordsets** criados com cursores do lado do cliente e do servidor.
 
 > [!NOTE]
 > [!OBSERVAçãO] Quando você aplica o sinalizador **adFilterPendingRecords** a um **Recordset** filtrado e modificado no modo de atualização em lote, o **Recordset** resultante será vazio se a filtragem tiver sido baseada no campo de chave de uma tabela de chave única e a modificação tiver sido feita nos valores do campo de chave. O **Recordset** resultante não será vazio se uma das afirmações a seguir for verdadeira:

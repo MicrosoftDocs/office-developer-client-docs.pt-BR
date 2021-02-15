@@ -16,9 +16,9 @@ ms.locfileid: "34870854"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparação entre o Microsoft Access SQL e o ANSI SQL
 
-**Aplica-se ao**: Access 2013, Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No entanto, determinados recursos SQL ANSI não são implementados no SQL do Microsoft Access. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
+O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível com ANSI-89 Nível 1. No entanto, determinados recursos DO ANSI SQL não são implementados no Microsoft Access SQL. Em oposição, o Microsoft Access SQL inclui palavras reservadas e recursos não aceitos no ANSI SQL.
 
 ## <a name="major-differences"></a>Principais diferenças
 
@@ -26,7 +26,7 @@ O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível co
 
 - **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
-  *expr1* \[Não\] **entre** *value1* **e** *value2*
+  *expr1* \[ NOT \] **Between** *value1* **And** *value2*
     
   No Microsoft Access SQL, *value1* pode ser maior que *value2*; no ANSI SQL, *value1* deve ser igual ou menor que *value2.*
 
@@ -64,7 +64,7 @@ O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível co
 
 - O Microsoft Access SQL fornece suporte a expressões mais poderosas.
 
-## <a name="enhanced-features-of-microsoft-access-sql"></a>Recursos avançados do Microsoft Access SQL
+## <a name="enhanced-features-of-microsoft-access-sql"></a>Recursos aprimorados do Microsoft Access SQL
 
 O Microsoft Access SQL fornece os seguintes recursos avançados:
 

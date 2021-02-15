@@ -1,5 +1,5 @@
 ---
-title: Remodelagem (referência do banco de dados de área de trabalho do Access)
+title: Remodelagem (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Reshaping
 ms:assetid: 89c6a0d6-3bf4-36ae-26ec-d4e60f920490
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
@@ -36,9 +36,9 @@ rs2.Open "SHAPE {select * from Employees} " & _
 . . . 
 ```
 
-A segunda função é habilitar o acesso sem capítulos a objetos **Recordset** filho existentes, usando a sintaxe `"SHAPE <recordset reshape name>"`.
+A segunda função é habilitar o acesso não capítulo a objetos **Recordset** filho existentes, usando a sintaxe `"SHAPE <recordset reshape name>"` .
 
 > [!NOTE]
-> [!OBSERVAçãO] Você não pode anexar colunas a um **Recordset** existente, alterar a forma de um **Recordset** parametrizado nem os objetos **Recordset** em qualquer cláusula COMPUTE intermediária ou executar operações agregadas em qualquer **Recordset** descendente a partir do **Recordset** que está tendo sua forma alterada. O **Recordset** que está sendo remodelado e o comando nova forma devem usar o mesmo objeto de[conexão](connection-object-ado.md) * *.
+> [!OBSERVAçãO] Você não pode anexar colunas a um **Recordset** existente, alterar a forma de um **Recordset** parametrizado nem os objetos **Recordset** em qualquer cláusula COMPUTE intermediária ou executar operações agregadas em qualquer **Recordset** descendente a partir do **Recordset** que está tendo sua forma alterada. O **Recordset que** está sendo reshapedado e o novo comando shape devem usar o mesmo objeto **[Connection.](connection-object-ado.md)
 
 

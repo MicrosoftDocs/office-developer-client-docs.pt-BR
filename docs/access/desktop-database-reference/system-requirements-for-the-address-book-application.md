@@ -23,9 +23,9 @@ Para configurar o aplicativo de exemplo Catálogo de Endereços, é necessário 
 
 **Requisitos de software**
 
-Os requisitos de software do computador do servidor para executar este aplicativo Web incluem:
+Os requisitos de software do computador servidor para executar este aplicativo Web incluem:
 
-  - Microsoft Windows NT Server 4,0, com Service Pack 3 ou posterior ou Microsoft Windows 2000 Server.
+  - Microsoft Windows NT Server 4.0, com Service Pack 3 ou posterior, ou Microsoft Windows 2000 Server.
 
   - Microsoft Internet Information Services (IIS) versão 3.0 ou posterior com Active Server Pages.
 
@@ -39,7 +39,7 @@ Os requisitos de software do computador cliente para executar este aplicativo We
 
 Para usar este exemplo, você deve ter:
 
-  - Um servidor de banco de dados do Microsoft SQL Server versão 6,5 ou posterior operacional.
+  - Um servidor de banco de dados operacional do Microsoft SQL Server versão 6.5 ou posterior.
 
   - Privilégios para criar o banco de dados e preenchê-lo com os dados de exemplo.
 

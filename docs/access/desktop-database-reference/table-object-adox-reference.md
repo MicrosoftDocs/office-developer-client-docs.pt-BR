@@ -19,5 +19,5 @@ ms.locfileid: "32314438"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Table (ADOX)](table-object-adox.md)
-- [Propriedades, métodos e eventos da tabela (ADOX)](table-properties-methods-and-events-adox.md)
+- [Propriedades, métodos e eventos de tabela (ADOX)](table-properties-methods-and-events-adox.md)
 

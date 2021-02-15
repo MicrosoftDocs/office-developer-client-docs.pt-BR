@@ -23,7 +23,7 @@ A ação **DefinirCampo** pode ser usada para atribuir um valor a um campo.
 > [!NOTE]
 > A ação **DefinirCampo** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirCampo** tem os seguintes listados na tabela a seguir.
 
@@ -34,7 +34,7 @@ A ação **DefinirCampo** tem os seguintes listados na tabela a seguir.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>

@@ -1,5 +1,5 @@
 ---
-title: Método TableDef. CreateIndex (DAO)
+title: Método TableDef.CreateIndex (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314368"
 ---
-# <a name="tabledefcreateindex-method-dao"></a>Método TableDef. CreateIndex (DAO)
+# <a name="tabledefcreateindex-method-dao"></a>Método TableDef.CreateIndex (DAO)
 
 **Aplica-se ao:** Access 2013, Office 2013 
 
@@ -26,9 +26,9 @@ Cria um novo objeto **[Index](index-object-dao.md)** (apenas espaços de trabalh
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . CreateIndex (***nome***)
+*expressão* . CreateIndex(***Name***)
 
-*expressão* Uma variável que representa um objeto **TableDef** .
+*expressão* Uma variável que representa um objeto **TableDef**.
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -42,16 +42,16 @@ Cria um novo objeto **[Index](index-object-dao.md)** (apenas espaços de trabalh
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/opcional</p></th>
+<th><p>Necessária/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
-<td><p><strong>Variant</strong></p></td>
+<td><p><strong>Variantes</strong></p></td>
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Index</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Index</strong>.</p></td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Cria um novo objeto **[Index](index-object-dao.md)** (apenas espaços de trabalh
 
 ## <a name="return-value"></a>Valor de retorno
 
-Índice
+Index
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar o método **CreateIndex** para criar um novo objeto **Index** para um objeto **TableDef**. Se você omitir a parte do nome opcional ao usar o **CreateIndex**, você pode usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade **Name** antes de acrescentar o novo objeto a uma coleção. Depois de acrescentar o objeto, você pode ou não conseguir definir sua propriedade **Name**, dependendo do tipo de objeto que contém a coleção **Indexes**. Consulte o tópico da propriedade **Name** para obter mais detalhes.
+Você pode usar o método **CreateIndex** para criar um novo objeto **Index** para um objeto **TableDef**. Se você omitir a parte de nome opcional ao usar **CreateIndex**, poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade **Name** antes de anexar o novo objeto a uma coleção. Depois de acrescentar o objeto, você pode ou não conseguir definir sua propriedade **Name**, dependendo do tipo de objeto que contém a coleção **Indexes**. Consulte o tópico da propriedade **Name** para obter mais detalhes.
 
-Se Name se referir a um objeto que já é um membro da coleção, ocorrerá um erro em tempo de execução quando você usar o método **[Append](fields-append-method-dao.md)** .
+Se o nome se referir a um objeto que já é membro da coleção, ocorrerá um erro em tempo de executar quando você usar o **[método Append.](fields-append-method-dao.md)**
 
 Para remover um objeto **Index** de uma coleção, use o método **[Delete](fields-delete-method-dao.md)** na coleção.
 

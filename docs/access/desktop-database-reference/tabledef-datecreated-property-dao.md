@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef. DateCreated (DAO)
+title: Propriedade TableDef.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: fedd28e9-41a4-db7f-9ba9-6ada350d594a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837292(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314536"
 ---
-# <a name="tabledefdatecreated-property-dao"></a>Propriedade TableDef. DateCreated (DAO)
+# <a name="tabledefdatecreated-property-dao"></a>Propriedade TableDef.DateCreated (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Retorna a hora e a data nas quais um objeto foi criado (somente em espaços de t
 
 *expressão* . DateCreated
 
-*expressão* Uma variável que representa um objeto **TableDef** .
+*expressão* Uma variável que representa um objeto **TableDef**.
 
 ## <a name="remarks"></a>Comentários
 

@@ -22,7 +22,7 @@ ms.locfileid: "34538113"
 ---
 # <a name="before-change-macro-event"></a>Evento da macro Antes da Alteração
 
-**Aplica-se a:** Access 2013, Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **Antes de Alterar** ocorre quando um registro é alterado, mas antes da alteração ser submetida.
 
@@ -33,7 +33,7 @@ O evento **Antes de Alterar** ocorre quando um registro é alterado, mas antes d
 
 Use o evento **Antes de Alterar** para executar qualquer ação que você deseja que ocorra antes da alteração de um registro. O **Antes de Alterar** é comumente usado para executar validação e criar mensagens de erro personalizadas.
 
-Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar uma instrução **If** para determinar se o campo PaidInFull foi alterado.
+Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado. O exemplo de código a seguir mostra como usar **uma instrução If** para determinar se o campo PaidInFull foi alterado.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -103,7 +103,7 @@ A tabela a seguir lista comandos de macro que podem ser usadas no evento **Antes
 </tr>
 <tr class="even">
 <td><p>Bloco de dados</p></td>
-<td><p><a href="lookuprecord-data-block.md">Ação de macro Pesquisarregistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Ação da macro LookupRecord</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ação de Dados</p></td>
@@ -143,7 +143,7 @@ Uma macro de dados vazia é exibida no designer de macros.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo de código a seguir usa o evento **antes de alterar** para validar os campos de status. Um erro será exibido se houver um valor incorreto no campo Resolução.
+O exemplo de código a seguir usa o **evento Before Change** para validar os campos Status. Um erro será exibido se houver um valor incorreto no campo Resolução.
 
 ```vb 
  
@@ -178,9 +178,9 @@ Para exibir este exemplo no designer de macros, siga estas etapas.
 
 2.  Na guia **Tabela**, no grupo **Antes de Eventos**, clique em **Antes de Alterar**.
 
-3.  Selecione o código no exemplo de código a seguir e pressione **Ctrl + C** para copiá-lo para a área de transferência.
+3.  Selecione o código no exemplo de código a seguir e pressione **CTRL+C** para copiá-lo para a área de transferência.
 
-4.  Ative a janela do designer de macros e pressione **Ctrl + V**.
+4.  Ative a janela do designer de macros e pressione **CTRL+V.**
 
 
 
@@ -228,7 +228,7 @@ Para exibir este exemplo no designer de macros, siga estas etapas.
 </DataMacros>
 ```
 
-O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento antes de alterar a macro de dados. Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído está atualmente atribuído a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.
+O exemplo a seguir mostra como usar a ação RaiseError para cancelar o evento de macro de dados Antes de Alterar. Quando o campo AssignedTo é atualizado, um bloco de dados LookupRecord é usado para determinar se o técnico atribuído está atribuído no momento a uma solicitação de serviço aberta. Se isso for verdadeiro, o evento Antes de Alterar será cancelado e o registro não será atualizado.
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

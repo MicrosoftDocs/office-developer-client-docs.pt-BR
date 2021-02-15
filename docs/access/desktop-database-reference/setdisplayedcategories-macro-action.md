@@ -25,7 +25,7 @@ ms.locfileid: "32314621"
 
 Você pode usar a ação **DefinirCategoriasExibidas** para especificar quais categorias serão exibidas em **Navegar para Categoria** na barra de título do Painel de Navegação. Por exemplo, para que os usuários não possam mudar o Painel de Navegação para exibir objetos classificados por **Data da Criação**, use essa ação para ocultar essa opção na lista suspensa da barra de título.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirCategoriasExibidas** tem os seguintes argumentos.
 

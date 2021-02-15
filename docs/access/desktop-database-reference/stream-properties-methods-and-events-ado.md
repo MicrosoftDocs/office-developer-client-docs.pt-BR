@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do Stream (ADO)
+title: Propriedades, métodos e eventos do stream (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314424"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do Stream (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos do stream (ADO)
 
 **Aplica-se ao:** Access 2013, Office 2013
 
@@ -50,5 +50,5 @@ ms.locfileid: "32314424"
 
 ## <a name="events"></a>Eventos
 
-Nenhum.
+Nenhum
 

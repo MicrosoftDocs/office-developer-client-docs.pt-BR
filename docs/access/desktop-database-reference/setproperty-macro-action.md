@@ -24,7 +24,7 @@ ms.locfileid: "32314571"
 
 Você pode usar a ação **DefinirPropriedade** para definir uma propriedade para um controle em um formulário ou relatório.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirPropriedade** tem os seguintes argumentos.
 
@@ -45,7 +45,7 @@ A ação **DefinirPropriedade** tem os seguintes argumentos.
 <td><p>Digite o nome do campo ou do controle para o qual você deseja definir o valor da propriedade. Use somente o nome do controle, e não a sintaxe completa. Deixe este argumento em branco para definir a propriedade do formulário ou do relatório atual.</p></td>
 </tr>
 <tr class="even">
-<td><p>Propriedade	</p></td>
+<td><p>Propriedade</p></td>
 <td><p>Selecione a propriedade a ser definida. Consulte a seção <strong>Comentários</strong> deste artigo para obter uma lista das propriedades que podem ser definidas com esta ação.</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ A ação **DefinirPropriedade** tem os seguintes argumentos.
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir mostra como usar a ação setProperty para alternar a visibilidade da caixa **** de texto myTextBox.
+O exemplo a seguir mostra como usar a ação DefinirPropriedade para alternar a visibilidade da caixa de **texto MyTextBox.**
 
 **Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

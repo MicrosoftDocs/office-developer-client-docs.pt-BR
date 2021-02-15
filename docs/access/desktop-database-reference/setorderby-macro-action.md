@@ -25,7 +25,7 @@ ms.locfileid: "32314606"
 
 Você pode usar a ação **DefinirClassificadoPor** para especificar como deseja classificar os registros em um formulário, relatório, tabela ou resultado da consulta.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **DefinirClassificadoPor** tem os seguintes argumentos.
 

@@ -19,5 +19,5 @@ ms.locfileid: "32314452"
 **Aplica-se ao:** Access 2013, Office 2013
 
 - [Objeto Stream (ADO)](stream-object-ado.md)
-- [Propriedades, métodos e eventos do Stream (ADO)](stream-properties-methods-and-events-ado.md)
+- [Propriedades, métodos e eventos do stream (ADO)](stream-properties-methods-and-events-ado.md)
 

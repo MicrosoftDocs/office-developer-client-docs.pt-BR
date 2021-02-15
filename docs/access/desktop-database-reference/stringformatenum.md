@@ -1,5 +1,5 @@
 ---
-title: StringFormatEnum (referência do banco de dados de área de trabalho do Access)
+title: StringFormatEnum (referência do banco de dados da área de trabalho do Access)
 TOCTitle: StringFormatEnum
 ms:assetid: ab069d67-d983-f390-5d45-876a9f9d9691
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249794(v=office.15)
@@ -38,7 +38,7 @@ Especifica o formato ao recuperar um [Recordset](recordset-object-ado.md) como u
 <tbody>
 <tr class="odd">
 <td><p><strong>adClipString</strong></p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>Delimita as linhas por <em>RowDelimiter</em>, colunas por <em>ColumnDelimiter</em> e valores nulos por <em>NullExpr</em>. Esses três parâmetros do método <a href="getstring-method-ado.md">GetString</a> só são válidas com um <em>StringFormat</em> de <strong>adClipString</strong>.</p></td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ Pacote: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. StringFormat. CLIPstring</p></td>
+<td><p>AdoEnums.StringFormat.CLIPSTRING</p></td>
 </tr>
 </tbody>
 </table>

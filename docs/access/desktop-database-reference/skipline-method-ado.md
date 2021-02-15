@@ -1,5 +1,5 @@
 ---
-title: Método de exclusão (ADO)
+title: Método SkipLine (ADO)
 TOCTitle: SkipLine method (ADO)
 ms:assetid: 419c24c3-6b84-eed0-5884-f2dcd485dc3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249187(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314557"
 ---
-# <a name="skipline-method-ado"></a>Método de exclusão (ADO)
+# <a name="skipline-method-ado"></a>Método SkipLine (ADO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013

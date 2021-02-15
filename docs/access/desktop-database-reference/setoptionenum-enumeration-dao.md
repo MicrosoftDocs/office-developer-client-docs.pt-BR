@@ -1,5 +1,5 @@
 ---
-title: Enumeração de SetOptionEnum (DAO)
+title: Enumeração SetOptionEnum (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314599"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>Enumeração de SetOptionEnum (DAO)
+# <a name="setoptionenum-enumeration-dao"></a>Enumeração SetOptionEnum (DAO)
 
 
 **Aplica-se ao:** Access 2013, Office 2013
@@ -62,7 +62,7 @@ Usada com o método **SetOption** para especificar uma chave do mecanismo de ban
 </tr>
 <tr class="even">
 <td><p>dbMaxBufferSize</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>A chave MaxBufferSize.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ Usada com o método **SetOption** para especificar uma chave do mecanismo de ban
 </tr>
 <tr class="even">
 <td><p>dbPageTimeout</p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>A chave PageTimeout.</p></td>
 </tr>
 <tr class="odd">

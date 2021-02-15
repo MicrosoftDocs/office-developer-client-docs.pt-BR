@@ -20,7 +20,7 @@ ms.locfileid: "34538232"
 ---
 # <a name="after-delete-macro-event"></a>Evento da macro Após Exclusão
 
-**Aplica-se a:** Access 2013, Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O evento **Após Exclusão** ocorre após a exclusão de cada evento.
 
@@ -31,7 +31,7 @@ O evento **Após Exclusão** ocorre após a exclusão de cada evento.
 
 Use o evento **Após Exclusão** para executar qualquer ação que você deseja que ocorra após a exclusão de um registro. As utilizações mais comuns do **Após Exclusão** incluem a aplicação de regras de negócio, fluxos de trabalho, a atualização de um total agregado e o envio de notificações.
 
-Quando o evento **Após Exclusão** ocorre, os valores contidos no registro excluído ainda permanecem disponíveis. Você pode querer usar um valor excluído para incrementar ou decrementar um total, criar uma trilha de auditoria ou comparar com um valor existente em um argumento *WhereCondition* .
+Quando o evento **Após Exclusão** ocorre, os valores contidos no registro excluído ainda permanecem disponíveis. Talvez você queira usar um valor excluído para incrementar ou rebaixar um total, criar uma trilha de auditoria ou comparar com um valor existente em um argumento *WhereCondition.*
 
 Você pode usar a função **Updated("*Nome do Campo*")** para determinar se um campo foi alterado. O código de exemplo a seguir mostra como usar uma instrução Se para determinar se o campo PaidInFull foi alterado.
 
@@ -55,7 +55,7 @@ Por exemplo, para acessar o valor do campo QuantityInStock no registro excluído
 
 Os valores contidos no registro excluído são excluídos permanentemente após a conclusão do evento **Após Exclusão**.
 
-Os comandos de macro a seguir podem ser usados no evento **After Delete** .
+Os seguintes comandos de macro podem ser usados no evento **Após Exclusão.**
 
 <table>
 <colgroup>

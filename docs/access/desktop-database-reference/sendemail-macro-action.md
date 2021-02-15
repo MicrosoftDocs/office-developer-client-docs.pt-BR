@@ -18,12 +18,12 @@ ms.locfileid: "32314648"
 
 **Aplica-se ao:** Access 2013, Office 2013
 
-A ação **EnviarEmail** envia uma mensagem de email.
+A **ação EnviarEmail** envia uma mensagem de email.
 
 > [!NOTE]
 > A ação **EnviarEmail** está disponível somente em Macros de Dados.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **EnviarEmail** tem os seguintes argumentos.
 
@@ -35,7 +35,7 @@ A ação **EnviarEmail** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -44,20 +44,20 @@ A ação **EnviarEmail** tem os seguintes argumentos.
 <tr class="odd">
 <td><p><strong>To</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha <strong>para</strong> da mensagem. Separe os nomes de destinatários especificados neste argumento (e nos argumentos <em>CC</em> e <em>Cco</em> ) com ponto e vírgula (;).</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na <strong>linha</strong> Para da mensagem. Separe os nomes dos destinatários especificados nesse argumento (e nos argumentos <em>Cc</em> e <em>Cc)</em> com um ponto-e-vírgula (;).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha CC (&quot;cópia&quot;carbono) na mensagem.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha Cc (cópia &quot; &quot; carbono) da mensagem.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha Cco (&quot;com cópia&quot;oculta) da mensagem.</p></td>
+<td><p>Os destinatários da mensagem cujos nomes você deseja colocar na linha Cc ( &quot; cópia &quot; carbono) da mensagem.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Subject</strong></p></td>
+<td><p><strong>Assunto</strong></p></td>
 <td><p>Não</p></td>
 <td><p>O assunto da mensagem. Esse texto aparece na linha <strong>Assunto</strong> da mensagem de email.</p></td>
 </tr>

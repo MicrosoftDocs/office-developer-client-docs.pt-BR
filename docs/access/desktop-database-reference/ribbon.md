@@ -1,5 +1,5 @@
 ---
-title: Faixa de opções (referência do banco de dados do Access)
+title: Faixa de Opções (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Ribbon
 ms:assetid: 7314847b-73d2-48d2-87c2-80ddf696f026
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160996(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314732"
 ---
-# <a name="ribbon"></a>Faixa de Opções
+# <a name="ribbon"></a>Ribbon
 
 **Aplica-se ao:** Access 2013, Office 2013
 

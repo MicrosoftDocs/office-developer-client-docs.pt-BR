@@ -25,7 +25,7 @@ ms.locfileid: "32314473"
 
 Você pode usar a ação **PararTodasMacros** para interromper todas as macros em execução no momento.
 
-## <a name="setting"></a>Configuração
+## <a name="setting"></a>Setting
 
 A ação **PararTodasMacros** não tem argumentos.
 

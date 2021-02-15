@@ -1,5 +1,5 @@
 ---
-title: Comandos do sistema (referência do banco de dados do Access)
+title: Comandos do sistema (referência do banco de dados da área de trabalho do Access)
 TOCTitle: System commands
 ms:assetid: b85d04eb-c30f-47c3-9aa2-ed2f8d12afad
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)

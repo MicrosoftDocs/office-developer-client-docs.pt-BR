@@ -24,7 +24,7 @@ Submete as alterações pendentes do [Recordset](recordset-object-ado.md) atuali
 
 *DataControl*. SubmitChanges
 
-** Datafactory. *Conexão*SubmitChanges, *Recordset*
+*DataFactory*. Conexão *SubmitChanges*, *Recordset*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -43,7 +43,7 @@ Se você chamar o método [CancelUpdate](cancelupdate-method-rds.md) depois de c
 
 Apenas os registros alterados serão enviados para modificação e todas as alterações obterão êxito ou falharão ao mesmo tempo.
 
-Você pode usar **SubmitChanges** somente com o objeto **RDSServer.** datafactory *padrão* . Objetos corporativos personalizados não podem utilizar esse método.
+Você só pode **usar SubmitChanges** com *o objeto* **RDSServer.DataFactory** padrão. Objetos corporativos personalizados não podem utilizar esse método.
 
 Se a propriedade **URL** foi definida, **SubmitChanges** submeterá as alterações para o local especificado pela URL.
 
