@@ -1,5 +1,5 @@
 ---
-title: Métodos de erros (DAO)
+title: Métodos errors (DAO)
 TOCTitle: Methods
 ms:assetid: 8f1d9006-9c98-4d5b-9dec-57cb846b1e70
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125294(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293375"
 ---
-# <a name="errors-methods-dao"></a><span data-ttu-id="3e106-102">Métodos de erros (DAO)</span><span class="sxs-lookup"><span data-stu-id="3e106-102">Errors methods (DAO)</span></span>
+# <a name="errors-methods-dao"></a><span data-ttu-id="f66cc-102">Métodos errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="f66cc-102">Errors methods (DAO)</span></span>
 
-<span data-ttu-id="3e106-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e106-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f66cc-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f66cc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3e106-104">Método Errors. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="3e106-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
+- [<span data-ttu-id="f66cc-104">Método Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f66cc-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
 

@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295503"
 ---
-# <a name="converttostring-method-example-vb"></a><span data-ttu-id="ed2b4-102">Exemplo do método ConvertToString (VB)</span><span class="sxs-lookup"><span data-stu-id="ed2b4-102">ConvertToString method example (VB)</span></span>
+# <a name="converttostring-method-example-vb"></a><span data-ttu-id="8c40f-102">Exemplo do método ConvertToString (VB)</span><span class="sxs-lookup"><span data-stu-id="8c40f-102">ConvertToString method example (VB)</span></span>
 
 
-<span data-ttu-id="ed2b4-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed2b4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8c40f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c40f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

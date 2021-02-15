@@ -1,5 +1,5 @@
 ---
-title: Eventos de macro de dados (referência de banco de dados do Access)
+title: Eventos de macro de dados (referência do banco de dados da área de trabalho do Access)
 TOCTitle: Data macro events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295069"
 ---
-# <a name="data-macro-events"></a><span data-ttu-id="f3a46-102">Eventos de macro de dados</span><span class="sxs-lookup"><span data-stu-id="f3a46-102">Data macro events</span></span>
+# <a name="data-macro-events"></a><span data-ttu-id="e7b6e-102">Eventos de macro de dados</span><span class="sxs-lookup"><span data-stu-id="e7b6e-102">Data macro events</span></span>
 
-<span data-ttu-id="f3a46-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3a46-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e7b6e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7b6e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f3a46-104">Evento da macro Após Exclusão</span><span class="sxs-lookup"><span data-stu-id="f3a46-104">After Delete macro event</span></span>](after-delete-macro-event.md)
-- [<span data-ttu-id="f3a46-105">Evento da macro Após Inserção</span><span class="sxs-lookup"><span data-stu-id="f3a46-105">After Insert macro event</span></span>](after-insert-macro-event.md)
-- [<span data-ttu-id="f3a46-106">Evento da macro Após Atualização</span><span class="sxs-lookup"><span data-stu-id="f3a46-106">After Update macro event</span></span>](after-update-macro-event.md)
-- [<span data-ttu-id="f3a46-107">Evento da macro Antes da Alteração</span><span class="sxs-lookup"><span data-stu-id="f3a46-107">Before Change macro event</span></span>](before-change-macro-event.md)
-- [<span data-ttu-id="f3a46-108">Evento da macro Antes da Exclusão</span><span class="sxs-lookup"><span data-stu-id="f3a46-108">Before Delete macro event</span></span>](before-delete-macro-event.md)
+- [<span data-ttu-id="e7b6e-104">Evento da macro Após Exclusão</span><span class="sxs-lookup"><span data-stu-id="e7b6e-104">After Delete macro event</span></span>](after-delete-macro-event.md)
+- [<span data-ttu-id="e7b6e-105">Evento da macro Após Inserção</span><span class="sxs-lookup"><span data-stu-id="e7b6e-105">After Insert macro event</span></span>](after-insert-macro-event.md)
+- [<span data-ttu-id="e7b6e-106">Evento da macro Após Atualização</span><span class="sxs-lookup"><span data-stu-id="e7b6e-106">After Update macro event</span></span>](after-update-macro-event.md)
+- [<span data-ttu-id="e7b6e-107">Evento da macro Antes da Alteração</span><span class="sxs-lookup"><span data-stu-id="e7b6e-107">Before Change macro event</span></span>](before-change-macro-event.md)
+- [<span data-ttu-id="e7b6e-108">Evento da macro Antes da Exclusão</span><span class="sxs-lookup"><span data-stu-id="e7b6e-108">Before Delete macro event</span></span>](before-delete-macro-event.md)
 

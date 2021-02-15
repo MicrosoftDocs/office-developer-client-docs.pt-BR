@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293459"
 ---
-# <a name="error-properties-dao"></a><span data-ttu-id="c9263-102">Propriedades de erro (DAO)</span><span class="sxs-lookup"><span data-stu-id="c9263-102">Error properties (DAO)</span></span>
+# <a name="error-properties-dao"></a><span data-ttu-id="7d45c-102">Propriedades de erro (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d45c-102">Error properties (DAO)</span></span>
 
-<span data-ttu-id="c9263-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9263-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d45c-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d45c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c9263-104">Propriedade Error. Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="c9263-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
-- [<span data-ttu-id="c9263-105">Propriedade Error. Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="c9263-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
-- [<span data-ttu-id="c9263-106">Propriedade Error. Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="c9263-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
+- [<span data-ttu-id="7d45c-104">Propriedade Error.Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d45c-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
+- [<span data-ttu-id="7d45c-105">Propriedade Error.Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d45c-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
+- [<span data-ttu-id="7d45c-106">Propriedade Error.Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d45c-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
 

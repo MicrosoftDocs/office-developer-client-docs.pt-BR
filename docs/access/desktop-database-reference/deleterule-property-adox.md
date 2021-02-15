@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294005"
 ---
-# <a name="deleterule-property-adox"></a><span data-ttu-id="aad72-102">Propriedade DeleteRule (ADOX)</span><span class="sxs-lookup"><span data-stu-id="aad72-102">DeleteRule property (ADOX)</span></span>
+# <a name="deleterule-property-adox"></a><span data-ttu-id="5d56a-102">Propriedade DeleteRule (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5d56a-102">DeleteRule property (ADOX)</span></span>
 
 
-<span data-ttu-id="aad72-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aad72-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d56a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d56a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aad72-104">Indica a ação executada quando uma chave primária é excluída.</span><span class="sxs-lookup"><span data-stu-id="aad72-104">Indicates the action performed when a primary key is deleted.</span></span>
+<span data-ttu-id="5d56a-104">Indica a ação executada quando uma chave primária é excluída.</span><span class="sxs-lookup"><span data-stu-id="5d56a-104">Indicates the action performed when a primary key is deleted.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="aad72-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="aad72-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="5d56a-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="5d56a-105">Settings and return values</span></span>
 
-<span data-ttu-id="aad72-106">Define e retorna um valor **Long** que pode ser uma das constantes [RuleEnum](ruleenum.md).</span><span class="sxs-lookup"><span data-stu-id="aad72-106">Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants.</span></span> <span data-ttu-id="aad72-107">O valor padrão é **adRINone**.</span><span class="sxs-lookup"><span data-stu-id="aad72-107">The default value is **adRINone**.</span></span>
+<span data-ttu-id="5d56a-106">Define e retorna um valor **Long** que pode ser uma das constantes [RuleEnum](ruleenum.md).</span><span class="sxs-lookup"><span data-stu-id="5d56a-106">Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants.</span></span> <span data-ttu-id="5d56a-107">O valor padrão é **adRINone**.</span><span class="sxs-lookup"><span data-stu-id="5d56a-107">The default value is **adRINone**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="aad72-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="aad72-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5d56a-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="5d56a-108">Remarks</span></span>
 
-<span data-ttu-id="aad72-109">Esta propriedade é somente leitura em objetos [Key](key-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="aad72-109">This property is read-only on [Key](key-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="5d56a-109">Esta propriedade é somente leitura em objetos [Key](key-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="5d56a-109">This property is read-only on [Key](key-object-adox.md) objects already appended to a collection.</span></span>
 

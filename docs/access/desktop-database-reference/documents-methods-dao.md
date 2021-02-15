@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293725"
 ---
-# <a name="documents-methods-dao"></a><span data-ttu-id="16640-102">Métodos de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="16640-102">Documents methods (DAO)</span></span>
+# <a name="documents-methods-dao"></a><span data-ttu-id="3ab4b-102">Métodos de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="3ab4b-102">Documents methods (DAO)</span></span>
 
 
-<span data-ttu-id="16640-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16640-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3ab4b-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ab4b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="16640-104">Método Documents. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="16640-104">Documents.Refresh method (DAO)</span></span>](documents-refresh-method-dao.md)
+- [<span data-ttu-id="3ab4b-104">Método Documents.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="3ab4b-104">Documents.Refresh method (DAO)</span></span>](documents-refresh-method-dao.md)
 

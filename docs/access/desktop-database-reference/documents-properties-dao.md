@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293690"
 ---
-# <a name="documents-properties-dao"></a><span data-ttu-id="50bca-102">Propriedades de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="50bca-102">Documents properties (DAO)</span></span>
+# <a name="documents-properties-dao"></a><span data-ttu-id="b7e0b-102">Propriedades de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="b7e0b-102">Documents properties (DAO)</span></span>
 
-<span data-ttu-id="50bca-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50bca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7e0b-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7e0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="50bca-104">Propriedade Documents. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="50bca-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
+- [<span data-ttu-id="b7e0b-104">Propriedade Documents.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="b7e0b-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
 

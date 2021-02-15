@@ -1,5 +1,5 @@
 ---
-title: Enumeração de EditModeEnum (DAO)
+title: Enumeração EditModeEnum (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293599"
 ---
-# <a name="editmodeenum-enumeration-dao"></a><span data-ttu-id="65359-102">Enumeração de EditModeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="65359-102">EditModeEnum enumeration (DAO)</span></span>
+# <a name="editmodeenum-enumeration-dao"></a><span data-ttu-id="9f638-102">Enumeração EditModeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="9f638-102">EditModeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="65359-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65359-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9f638-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f638-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="65359-104">Indica o estado da edição do registro atual.</span><span class="sxs-lookup"><span data-stu-id="65359-104">Indicates the state of editing for the current record.</span></span>
+<span data-ttu-id="9f638-104">Indica o estado da edição do registro atual.</span><span class="sxs-lookup"><span data-stu-id="9f638-104">Indicates the state of editing for the current record.</span></span>
 
 <table>
 <colgroup>
@@ -29,26 +29,26 @@ ms.locfileid: "32293599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="65359-105">Nome</span><span class="sxs-lookup"><span data-stu-id="65359-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="65359-106">Valor</span><span class="sxs-lookup"><span data-stu-id="65359-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="65359-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="65359-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="9f638-105">Nome</span><span class="sxs-lookup"><span data-stu-id="9f638-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="9f638-106">Valor</span><span class="sxs-lookup"><span data-stu-id="9f638-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="9f638-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="9f638-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="65359-108">dbEditAdd</span><span class="sxs-lookup"><span data-stu-id="65359-108">dbEditAdd</span></span></p></td>
-<td><p><span data-ttu-id="65359-109">duas</span><span class="sxs-lookup"><span data-stu-id="65359-109">2</span></span></p></td>
-<td><p><span data-ttu-id="65359-110"><strong>AddNew</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="65359-110"><strong>AddNew</strong> method invoked.</span></span></p></td>
+<td><p><span data-ttu-id="9f638-108">dbEditAdd</span><span class="sxs-lookup"><span data-stu-id="9f638-108">dbEditAdd</span></span></p></td>
+<td><p><span data-ttu-id="9f638-109">2 </span><span class="sxs-lookup"><span data-stu-id="9f638-109">2</span></span></p></td>
+<td><p><span data-ttu-id="9f638-110"><strong>AddNew</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="9f638-110"><strong>AddNew</strong> method invoked.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="65359-111">dbEditInProgress</span><span class="sxs-lookup"><span data-stu-id="65359-111">dbEditInProgress</span></span></p></td>
-<td><p><span data-ttu-id="65359-112">1</span><span class="sxs-lookup"><span data-stu-id="65359-112">1</span></span></p></td>
-<td><p><span data-ttu-id="65359-113"><strong>Edit</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="65359-113"><strong>Edit</strong> method invoked.</span></span></p></td>
+<td><p><span data-ttu-id="9f638-111">dbEditInProgress</span><span class="sxs-lookup"><span data-stu-id="9f638-111">dbEditInProgress</span></span></p></td>
+<td><p><span data-ttu-id="9f638-112">1 </span><span class="sxs-lookup"><span data-stu-id="9f638-112">1</span></span></p></td>
+<td><p><span data-ttu-id="9f638-113"><strong>Edit</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="9f638-113"><strong>Edit</strong> method invoked.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="65359-114">dbEditNone</span><span class="sxs-lookup"><span data-stu-id="65359-114">dbEditNone</span></span></p></td>
-<td><p><span data-ttu-id="65359-115">,0</span><span class="sxs-lookup"><span data-stu-id="65359-115">0</span></span></p></td>
-<td><p><span data-ttu-id="65359-116"><strong>Edit</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="65359-116"><strong>Edit</strong> method invoked.</span></span></p></td>
+<td><p><span data-ttu-id="9f638-114">dbEditNone</span><span class="sxs-lookup"><span data-stu-id="9f638-114">dbEditNone</span></span></p></td>
+<td><p><span data-ttu-id="9f638-115">0</span><span class="sxs-lookup"><span data-stu-id="9f638-115">0</span></span></p></td>
+<td><p><span data-ttu-id="9f638-116"><strong>Edit</strong> método chamado.</span><span class="sxs-lookup"><span data-stu-id="9f638-116"><strong>Edit</strong> method invoked.</span></span></p></td>
 </tr>
 </tbody>
 </table>

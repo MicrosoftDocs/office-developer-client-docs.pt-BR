@@ -1,5 +1,5 @@
 ---
-title: Propriedade Document.Name (DAO)
+title: Document.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293781"
 ---
-# <a name="documentname-property-dao"></a><span data-ttu-id="b56c0-102">Propriedade Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="b56c0-102">Document.Name property (DAO)</span></span>
+# <a name="documentname-property-dao"></a><span data-ttu-id="dacc3-102">Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="dacc3-102">Document.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="b56c0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b56c0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dacc3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dacc3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b56c0-104">Retorna o nome do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="b56c0-104">Returns the name of the specified object.</span></span> <span data-ttu-id="b56c0-105">**String** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="b56c0-105">Read-only **String**.</span></span>
+<span data-ttu-id="dacc3-104">Retorna o nome do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="dacc3-104">Returns the name of the specified object.</span></span> <span data-ttu-id="dacc3-105">**String** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dacc3-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b56c0-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b56c0-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dacc3-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="dacc3-106">Syntax</span></span>
 
-<span data-ttu-id="b56c0-107">*expressão* . Tdomínio</span><span class="sxs-lookup"><span data-stu-id="b56c0-107">*expression* .Name</span></span>
+<span data-ttu-id="dacc3-107">*expressão* . Nome</span><span class="sxs-lookup"><span data-stu-id="dacc3-107">*expression* .Name</span></span>
 
-<span data-ttu-id="b56c0-108">*expressão* Uma variável que representa um objeto **Document** .</span><span class="sxs-lookup"><span data-stu-id="b56c0-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="dacc3-108">*expressão* Uma variável que representa um **objeto Document** .</span><span class="sxs-lookup"><span data-stu-id="dacc3-108">*expression* A variable that represents a **Document** object.</span></span>
 

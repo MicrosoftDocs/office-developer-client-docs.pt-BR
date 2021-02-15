@@ -1,5 +1,5 @@
 ---
-title: Propriedade Database. Relations (DAO)
+title: Propriedade Database.Relations (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196193(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294719"
 ---
-# <a name="databaserelations-property-dao"></a><span data-ttu-id="cd040-102">Propriedade Database. Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd040-102">Database.Relations property (DAO)</span></span>
+# <a name="databaserelations-property-dao"></a><span data-ttu-id="e45ae-102">Propriedade Database.Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="e45ae-102">Database.Relations property (DAO)</span></span>
 
 
-<span data-ttu-id="cd040-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd040-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e45ae-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e45ae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cd040-104">Retorna uma coleção **Relations** que contém todos os objetos **Relation** armazenados para o banco de dados especificado.</span><span class="sxs-lookup"><span data-stu-id="cd040-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="cd040-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cd040-105">Read-only.</span></span>
+<span data-ttu-id="e45ae-104">Retorna uma coleção **Relations** que contém todos os objetos **Relation** armazenados para o banco de dados especificado.</span><span class="sxs-lookup"><span data-stu-id="e45ae-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="e45ae-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e45ae-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cd040-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="cd040-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e45ae-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e45ae-106">Syntax</span></span>
 
-<span data-ttu-id="cd040-107">*expressão* . Relations</span><span class="sxs-lookup"><span data-stu-id="cd040-107">*expression* .Relations</span></span>
+<span data-ttu-id="e45ae-107">*expressão* . Relations</span><span class="sxs-lookup"><span data-stu-id="e45ae-107">*expression* .Relations</span></span>
 
-<span data-ttu-id="cd040-108">*expressão* Uma variável que representa um objeto **Database** .</span><span class="sxs-lookup"><span data-stu-id="cd040-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="e45ae-108">*expressão* Uma variável que representa um objeto do **Banco de dados**.</span><span class="sxs-lookup"><span data-stu-id="e45ae-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Erros de Membros (DAO)
+title: Membros errors (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293382"
 ---
-# <a name="errors-members-dao"></a><span data-ttu-id="34ea3-102">Erros de Membros (DAO)</span><span class="sxs-lookup"><span data-stu-id="34ea3-102">Errors members (DAO)</span></span>
+# <a name="errors-members-dao"></a><span data-ttu-id="99fbe-102">Membros errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="99fbe-102">Errors members (DAO)</span></span>
 
 
-<span data-ttu-id="34ea3-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="34ea3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="99fbe-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99fbe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="34ea3-104">Uma coleção Errors contém todos os objetos Error armazenados, cada um dos quais pertence a uma única operação envolvendo o DAO.</span><span class="sxs-lookup"><span data-stu-id="34ea3-104">An Errors collection contains all stored Error objects, each of which pertains to a single operation involving DAO.</span></span>
+<span data-ttu-id="99fbe-104">Uma coleção Errors contém todos os objetos Error armazenados, cada um dos quais pertence a uma única operação envolvendo o DAO.</span><span class="sxs-lookup"><span data-stu-id="99fbe-104">An Errors collection contains all stored Error objects, each of which pertains to a single operation involving DAO.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="34ea3-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="34ea3-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="99fbe-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="99fbe-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "32293382"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="34ea3-106">Nome</span><span class="sxs-lookup"><span data-stu-id="34ea3-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="34ea3-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="34ea3-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="99fbe-106">Nome</span><span class="sxs-lookup"><span data-stu-id="99fbe-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="99fbe-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="99fbe-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34ea3-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="34ea3-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="34ea3-109">Atualiza os objetos na coleta especificada para refletir o esquema atual do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="34ea3-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
+<td><p><span data-ttu-id="99fbe-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="99fbe-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="99fbe-109">Atualiza os objetos na coleta especificada para refletir o esquema atual do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="99fbe-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="34ea3-110">Propriedades</span><span class="sxs-lookup"><span data-stu-id="34ea3-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="99fbe-110">Propriedades</span><span class="sxs-lookup"><span data-stu-id="99fbe-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "32293382"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="34ea3-111">Nome</span><span class="sxs-lookup"><span data-stu-id="34ea3-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="34ea3-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="34ea3-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="99fbe-111">Nome</span><span class="sxs-lookup"><span data-stu-id="99fbe-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="99fbe-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="99fbe-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34ea3-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="34ea3-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="34ea3-114">Retorna o número de objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="34ea3-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="34ea3-115">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="34ea3-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="99fbe-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="99fbe-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="99fbe-114">Retorna o número de objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="99fbe-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="99fbe-115">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="99fbe-115">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

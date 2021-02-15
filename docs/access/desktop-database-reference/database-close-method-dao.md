@@ -1,5 +1,5 @@
 ---
-title: Método Database. Close (DAO)
+title: Método Database.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295020"
 ---
-# <a name="databaseclose-method-dao"></a><span data-ttu-id="da3c8-102">Método Database. Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="da3c8-102">Database.Close method (DAO)</span></span>
+# <a name="databaseclose-method-dao"></a><span data-ttu-id="56e89-102">Método Database.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="56e89-102">Database.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="da3c8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da3c8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="56e89-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56e89-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="da3c8-104">Fecha um objeto **Database** aberto.</span><span class="sxs-lookup"><span data-stu-id="da3c8-104">Closes an open **Database**.</span></span>
+<span data-ttu-id="56e89-104">Fecha um objeto **Database** aberto.</span><span class="sxs-lookup"><span data-stu-id="56e89-104">Closes an open **Database**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="da3c8-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="da3c8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="56e89-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="56e89-105">Syntax</span></span>
 
-<span data-ttu-id="da3c8-106">*expressão* . Fechado</span><span class="sxs-lookup"><span data-stu-id="da3c8-106">*expression* .Close</span></span>
+<span data-ttu-id="56e89-106">*expressão* .Close</span><span class="sxs-lookup"><span data-stu-id="56e89-106">*expression* .Close</span></span>
 
-<span data-ttu-id="da3c8-107">*expressão* Uma variável que representa um objeto **Database** .</span><span class="sxs-lookup"><span data-stu-id="da3c8-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="56e89-107">*expressão* Uma variável que representa um objeto do **Banco de dados**.</span><span class="sxs-lookup"><span data-stu-id="56e89-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="da3c8-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="da3c8-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="56e89-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="56e89-108">Remarks</span></span>
 
-<span data-ttu-id="da3c8-109">Se o objeto **Database** já estiver fechado quando você usar **Close**, ocorrerá um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="da3c8-109">If the **Database** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="56e89-109">Se o objeto **Database** já estiver fechado quando você usar **Close**, ocorrerá um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="56e89-109">If the **Database** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="da3c8-110">Uma alternativa para o método **Close** é definir o valor de uma variável de objeto como **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="da3c8-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="56e89-110">Uma alternativa ao método **Fechar**, é definir o valor de uma variável de um objeto para **Nada** (Definir dbsTemp = Nada).</span><span class="sxs-lookup"><span data-stu-id="56e89-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 

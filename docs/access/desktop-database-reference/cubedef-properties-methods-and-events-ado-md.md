@@ -1,5 +1,5 @@
 ---
-title: Propriedades, métodos e eventos do CubeDef (ADO MD)
+title: Propriedades, métodos e eventos de CubeDef (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: fa28ae46-e9e2-a542-224d-8217ca8e52af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250274(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295293"
 ---
-# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="a74af-102">Propriedades, métodos e eventos do CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a74af-102">CubeDef properties, methods, and events (ADO MD)</span></span>
+# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="2dd6a-102">Propriedades, métodos e eventos de CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2dd6a-102">CubeDef properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="a74af-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a74af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2dd6a-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2dd6a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="a74af-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="a74af-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="2dd6a-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="2dd6a-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="a74af-105">Propriedade Description</span><span class="sxs-lookup"><span data-stu-id="a74af-105">Description property</span></span>](description-property-ado-md.md)
-- [<span data-ttu-id="a74af-106">Coleção Dimensions</span><span class="sxs-lookup"><span data-stu-id="a74af-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
-- [<span data-ttu-id="a74af-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="a74af-107">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="a74af-108">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="a74af-108">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="2dd6a-105">Propriedade Description</span><span class="sxs-lookup"><span data-stu-id="2dd6a-105">Description property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="2dd6a-106">Coleção Dimensions</span><span class="sxs-lookup"><span data-stu-id="2dd6a-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
+- [<span data-ttu-id="2dd6a-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="2dd6a-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="2dd6a-108">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="2dd6a-108">Properties collection</span></span>](properties-collection-ado.md)
 
-## <a name="events"></a><span data-ttu-id="a74af-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="a74af-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="2dd6a-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="2dd6a-109">Events</span></span>
 
-<span data-ttu-id="a74af-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="a74af-110">None.</span></span>
+<span data-ttu-id="2dd6a-110">Nenhum</span><span class="sxs-lookup"><span data-stu-id="2dd6a-110">None.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Document. Container (DAO)
+title: Propriedade Document.Container (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -18,22 +18,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293823"
 ---
-# <a name="documentcontainer-property-dao"></a><span data-ttu-id="b3208-102">Propriedade Document. Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3208-102">Document.Container property (DAO)</span></span>
+# <a name="documentcontainer-property-dao"></a><span data-ttu-id="3ed35-102">Propriedade Document.Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="3ed35-102">Document.Container property (DAO)</span></span>
 
 
-<span data-ttu-id="b3208-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3208-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3ed35-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ed35-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3208-104">Retorna o nome do objeto **[Container](container-object-dao.md)** ao qual um objeto **Document** pertence (apenas espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="b3208-104">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only).</span></span> <span data-ttu-id="b3208-105">.</span><span class="sxs-lookup"><span data-stu-id="b3208-105"></span></span>
+<span data-ttu-id="3ed35-104">Retorna o nome do objeto **[Container](container-object-dao.md)** ao qual um objeto **Document** pertence (apenas espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3ed35-104">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only).</span></span> <span data-ttu-id="3ed35-105">.</span><span class="sxs-lookup"><span data-stu-id="3ed35-105">.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b3208-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b3208-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3ed35-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3ed35-106">Syntax</span></span>
 
-<span data-ttu-id="b3208-107">*expressão* . Caixa</span><span class="sxs-lookup"><span data-stu-id="b3208-107">*expression* .Container</span></span>
+<span data-ttu-id="3ed35-107">*expressão* . Contêiner</span><span class="sxs-lookup"><span data-stu-id="3ed35-107">*expression* .Container</span></span>
 
-<span data-ttu-id="b3208-108">*expressão* Uma variável que representa um objeto **Document** .</span><span class="sxs-lookup"><span data-stu-id="b3208-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="3ed35-108">*expressão* Uma variável que representa um **objeto Document** .</span><span class="sxs-lookup"><span data-stu-id="3ed35-108">*expression* A variable that represents a **Document** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b3208-109">Exemplo</span><span class="sxs-lookup"><span data-stu-id="b3208-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3ed35-109">Exemplo</span><span class="sxs-lookup"><span data-stu-id="3ed35-109">Example</span></span>
 
-<span data-ttu-id="b3208-110">Este exemplo exibe a propriedade **Container** para uma variedade de objetos **Document**.</span><span class="sxs-lookup"><span data-stu-id="b3208-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
+<span data-ttu-id="3ed35-110">Este exemplo exibe a propriedade **Container** para uma variedade de objetos **Document**.</span><span class="sxs-lookup"><span data-stu-id="3ed35-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
 
 ```vb 
 Sub ContainerPropertyX() 

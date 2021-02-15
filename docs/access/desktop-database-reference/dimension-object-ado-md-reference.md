@@ -14,10 +14,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293900"
 ---
-# <a name="dimension-object-ado-md-reference"></a><span data-ttu-id="94fe2-102">Objeto Dimension (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="94fe2-102">Dimension object (ADO MD reference)</span></span>
+# <a name="dimension-object-ado-md-reference"></a><span data-ttu-id="1bce9-102">Objeto Dimension (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1bce9-102">Dimension object (ADO MD reference)</span></span>
 
-<span data-ttu-id="94fe2-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94fe2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1bce9-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bce9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="94fe2-104">Objeto Dimension (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="94fe2-104">Dimension object (ADO MD)</span></span>](dimension-object-ado-md.md)
-- [<span data-ttu-id="94fe2-105">Propriedades, métodos e eventos de dimensão (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="94fe2-105">Dimension properties, methods, and events (ADO MD)</span></span>](dimension-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="1bce9-104">Objeto Dimension (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1bce9-104">Dimension object (ADO MD)</span></span>](dimension-object-ado-md.md)
+- [<span data-ttu-id="1bce9-105">Propriedades, métodos e eventos de dimensão (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1bce9-105">Dimension properties, methods, and events (ADO MD)</span></span>](dimension-properties-methods-and-events-ado-md.md)
 

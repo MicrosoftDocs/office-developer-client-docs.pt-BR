@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294068"
 ---
-# <a name="delete-method-example-vj"></a><span data-ttu-id="95c21-102">Exemplo do método Delete (VJ++)</span><span class="sxs-lookup"><span data-stu-id="95c21-102">Delete method example (VJ++)</span></span>
+# <a name="delete-method-example-vj"></a><span data-ttu-id="bdf1e-102">Exemplo do método Delete (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bdf1e-102">Delete method example (VJ++)</span></span>
 
 
-<span data-ttu-id="95c21-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95c21-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bdf1e-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdf1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="95c21-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="95c21-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="bdf1e-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="bdf1e-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```java 
  

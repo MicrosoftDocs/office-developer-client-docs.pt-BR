@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294594"
 ---
-# <a name="databases-properties-dao"></a><span data-ttu-id="042e0-102">Propriedades de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="042e0-102">Databases properties (DAO)</span></span>
+# <a name="databases-properties-dao"></a><span data-ttu-id="8104f-102">Propriedades de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="8104f-102">Databases properties (DAO)</span></span>
 
-<span data-ttu-id="042e0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="042e0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8104f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8104f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="042e0-104">Propriedade databases. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="042e0-104">Databases.Count property (DAO)</span></span>](databases-count-property-dao.md)
+- [<span data-ttu-id="8104f-104">Propriedade Databases.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="8104f-104">Databases.Count property (DAO)</span></span>](databases-count-property-dao.md)
 

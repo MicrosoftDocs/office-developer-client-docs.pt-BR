@@ -1,5 +1,5 @@
 ---
-title: Propriedade Document. DateCreated (DAO)
+title: Propriedade Document.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: e3b881df-1673-f584-bda5-5945b3081ac1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293809"
 ---
-# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="48377-102">Propriedade Document. DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="48377-102">Document.DateCreated property (DAO)</span></span>
+# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="3cce8-102">Propriedade Document.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cce8-102">Document.DateCreated property (DAO)</span></span>
 
 
-<span data-ttu-id="48377-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48377-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cce8-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cce8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48377-104">Retorna a data e a hora que um objeto foi criado.</span><span class="sxs-lookup"><span data-stu-id="48377-104">Returns the date and time that an object was created.</span></span> <span data-ttu-id="48377-105">**Variant** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="48377-105">Read-only **Variant**.</span></span>
+<span data-ttu-id="3cce8-104">Retorna a data e a hora que um objeto foi criado.</span><span class="sxs-lookup"><span data-stu-id="3cce8-104">Returns the date and time that an object was created.</span></span> <span data-ttu-id="3cce8-105">**Variant** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="3cce8-105">Read-only **Variant**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="48377-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="48377-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3cce8-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3cce8-106">Syntax</span></span>
 
-<span data-ttu-id="48377-107">*expressão* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="48377-107">*expression* .DateCreated</span></span>
+<span data-ttu-id="3cce8-107">*expressão* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="3cce8-107">*expression* .DateCreated</span></span>
 
-<span data-ttu-id="48377-108">*expressão* Uma variável que representa um objeto **Document** .</span><span class="sxs-lookup"><span data-stu-id="48377-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="3cce8-108">*expressão* Uma variável que representa um **objeto Document** .</span><span class="sxs-lookup"><span data-stu-id="3cce8-108">*expression* A variable that represents a **Document** object.</span></span>
 

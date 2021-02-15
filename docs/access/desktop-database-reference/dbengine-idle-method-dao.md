@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. Idle (DAO)
+title: Método DBEngine.Idle (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294327"
 ---
-# <a name="dbengineidle-method-dao"></a><span data-ttu-id="d4aca-102">Método DBEngine. Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4aca-102">DBEngine.Idle method (DAO)</span></span>
+# <a name="dbengineidle-method-dao"></a><span data-ttu-id="a2bd4-102">Método DBEngine.Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2bd4-102">DBEngine.Idle method (DAO)</span></span>
 
-<span data-ttu-id="d4aca-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4aca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a2bd4-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2bd4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4aca-104">Suspende o processamento de dados, habilitando o mecanismo de banco de dados do Microsoft Access a concluir tarefas pendentes, como otimização de memória ou tempo limite da página (somente espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d4aca-104">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="a2bd4-104">Suspende o processamento de dados, habilitando o mecanismo de banco de dados do Microsoft Access a concluir tarefas pendentes, como otimização de memória ou tempo limite da página (somente espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="a2bd4-104">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d4aca-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d4aca-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a2bd4-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a2bd4-105">Syntax</span></span>
 
-<span data-ttu-id="d4aca-106">*expressão* . Idle (***ação***)</span><span class="sxs-lookup"><span data-stu-id="d4aca-106">*expression* .Idle(***Action***)</span></span>
+<span data-ttu-id="a2bd4-106">*expressão* . Idle(***Action***)</span><span class="sxs-lookup"><span data-stu-id="a2bd4-106">*expression* .Idle(***Action***)</span></span>
 
-<span data-ttu-id="d4aca-107">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="d4aca-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="a2bd4-107">*expressão* Uma variável que representa um objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d4aca-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="d4aca-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a2bd4-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a2bd4-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,40 +41,40 @@ ms.locfileid: "32294327"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d4aca-109">Nome</span><span class="sxs-lookup"><span data-stu-id="d4aca-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="d4aca-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="d4aca-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="d4aca-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="d4aca-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="d4aca-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="d4aca-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="a2bd4-109">Nome</span><span class="sxs-lookup"><span data-stu-id="a2bd4-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="a2bd4-110">Necessária/opcional</span><span class="sxs-lookup"><span data-stu-id="a2bd4-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="a2bd4-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="a2bd4-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="a2bd4-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="a2bd4-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4aca-113"><em>Action</em></span><span class="sxs-lookup"><span data-stu-id="d4aca-113"><em>Action</em></span></span></p></td>
-<td><p><span data-ttu-id="d4aca-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="d4aca-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d4aca-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d4aca-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4aca-116">Especifica a ação a ser tomada.</span><span class="sxs-lookup"><span data-stu-id="d4aca-116">Specifies the action to take.</span></span> <span data-ttu-id="d4aca-117">Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="d4aca-117">Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</span></span></p></td>
+<td><p><span data-ttu-id="a2bd4-113"><em>Action</em></span><span class="sxs-lookup"><span data-stu-id="a2bd4-113"><em>Action</em></span></span></p></td>
+<td><p><span data-ttu-id="a2bd4-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="a2bd4-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="a2bd4-115"><strong>Variantes</strong></span><span class="sxs-lookup"><span data-stu-id="a2bd4-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="a2bd4-116">Especifica a ação a ser tomada.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-116">Specifies the action to take.</span></span> <span data-ttu-id="a2bd4-117">Pode ser uma das constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="a2bd4-117">Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d4aca-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="d4aca-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a2bd4-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="a2bd4-118">Remarks</span></span>
 
-<span data-ttu-id="d4aca-p102">O método **Idle** permite que o mecanismo de banco de dados do Microsoft Access execute tarefas em segundo plano que podem não estar atualizadas por causa de intenso processamento de dados. Isso geralmente ocorre em ambientes multiusuários e multitarefas que não têm tempo suficiente de planejamento em segundo plano para manter todos os registros em um **[Recordset](recordset-object-dao.md)** atual.</span><span class="sxs-lookup"><span data-stu-id="d4aca-p102">The **Idle** method allows the Microsoft Access database engine to perform background tasks that may not be up-to-date because of intense data processing. This is often true in multiuser, multitasking environments that don't have enough background processing time to keep all records in a **[Recordset](recordset-object-dao.md)** current.</span></span>
+<span data-ttu-id="a2bd4-p102">O método **Idle** permite que o mecanismo de banco de dados do Microsoft Access execute tarefas em segundo plano que podem não estar atualizadas por causa de intenso processamento de dados. Isso geralmente ocorre em ambientes multiusuários e multitarefas que não têm tempo suficiente de planejamento em segundo plano para manter todos os registros em um **[Recordset](recordset-object-dao.md)** atual.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-p102">The **Idle** method allows the Microsoft Access database engine to perform background tasks that may not be up-to-date because of intense data processing. This is often true in multiuser, multitasking environments that don't have enough background processing time to keep all records in a **[Recordset](recordset-object-dao.md)** current.</span></span>
 
-<span data-ttu-id="d4aca-p103">Em geral, bloqueios de leitura são removidos e os dados em objetos **Recordset** do tipo dynaset locais são atualizados apenas quando nenhuma outra ação ocorrer (inclusive movimentos de mouse). Se você usa periodicamente o método **Idle**, o mecanismo de banco de dados do Microsoft Access pode realizar o processamento de tarefas em segundo plano, liberando bloqueios de leitura desnecessários.</span><span class="sxs-lookup"><span data-stu-id="d4aca-p103">Usually, read locks are removed and data in local dynaset-type **Recordset** objects are updated only when no other actions (including mouse movements) occur. If you periodically use the **Idle** method, the Microsoft Access database engine can catch up on background processing tasks by releasing unneeded read locks.</span></span>
+<span data-ttu-id="a2bd4-p103">Em geral, bloqueios de leitura são removidos e os dados em objetos **Recordset** do tipo dynaset locais são atualizados apenas quando nenhuma outra ação ocorrer (inclusive movimentos de mouse). Se você usa periodicamente o método **Idle**, o mecanismo de banco de dados do Microsoft Access pode realizar o processamento de tarefas em segundo plano, liberando bloqueios de leitura desnecessários.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-p103">Usually, read locks are removed and data in local dynaset-type **Recordset** objects are updated only when no other actions (including mouse movements) occur. If you periodically use the **Idle** method, the Microsoft Access database engine can catch up on background processing tasks by releasing unneeded read locks.</span></span>
 
-<span data-ttu-id="d4aca-123">Especificar o argumento **dbRefreshCache** opcional atualiza a memória apenas com os dados mais recentes do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="d4aca-123">Specifying the optional **dbRefreshCache** argument refreshes memory with only the most current data from the database.</span></span>
+<span data-ttu-id="a2bd4-123">Especificar o argumento **dbRefreshCache** opcional atualiza a memória apenas com os dados mais recentes do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-123">Specifying the optional **dbRefreshCache** argument refreshes memory with only the most current data from the database.</span></span>
 
-<span data-ttu-id="d4aca-p104">Você não precisa usar esse método em ambientes de um único usuário a menos que várias instâncias de um aplicativo estejam em execução. O método **Idle** pode aumentar o desempenho em um ambiente multiusuário porque força o mecanismo de banco de dados a gravar dados em disco, liberando bloqueios na memória.</span><span class="sxs-lookup"><span data-stu-id="d4aca-p104">You don't need to use this method in single-user environments unless multiple instances of an application are running. The **Idle** method may increase performance in a multiuser environment because it forces the database engine to write data to disk, releasing locks on memory.</span></span>
+<span data-ttu-id="a2bd4-p104">Você não precisa usar esse método em ambientes de um único usuário a menos que várias instâncias de um aplicativo estejam em execução. O método **Idle** pode aumentar o desempenho em um ambiente multiusuário porque força o mecanismo de banco de dados a gravar dados em disco, liberando bloqueios na memória.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-p104">You don't need to use this method in single-user environments unless multiple instances of an application are running. The **Idle** method may increase performance in a multiuser environment because it forces the database engine to write data to disk, releasing locks on memory.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="d4aca-126">[!OBSERVAçãO] Você também pode liberar bloqueios de leitura tornando as operações parte de uma transação.</span><span class="sxs-lookup"><span data-stu-id="d4aca-126">You can also release read locks by making operations part of a transaction.</span></span>
+> <span data-ttu-id="a2bd4-126">[!OBSERVAçãO] Você também pode liberar bloqueios de leitura tornando as operações parte de uma transação.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-126">You can also release read locks by making operations part of a transaction.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d4aca-127">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d4aca-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a2bd4-127">Exemplo</span><span class="sxs-lookup"><span data-stu-id="a2bd4-127">Example</span></span>
 
-<span data-ttu-id="d4aca-p105">Este exemplo usa o método **Idle** para assegurar que um procedimento de saída está acessando os dados mais atuais disponíveis no banco de dados. O procedimento IdleOutput é exigido para a execução do procedimento.</span><span class="sxs-lookup"><span data-stu-id="d4aca-p105">This example uses the **Idle** method to ensure that an output procedure is accessing the most current data available from the database. The IdleOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="a2bd4-p105">Este exemplo usa o método **Idle** para assegurar que um procedimento de saída está acessando os dados mais atuais disponíveis no banco de dados. O procedimento IdleOutput é exigido para a execução do procedimento.</span><span class="sxs-lookup"><span data-stu-id="a2bd4-p105">This example uses the **Idle** method to ensure that an output procedure is accessing the most current data available from the database. The IdleOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub IdleX() 

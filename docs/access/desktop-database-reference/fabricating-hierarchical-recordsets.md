@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293200"
 ---
-# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="5db15-102">Fabricação de conjuntos de registros hierárquicos</span><span class="sxs-lookup"><span data-stu-id="5db15-102">Fabricating hierarchical Recordsets</span></span>
+# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="6c376-102">Fabricação de conjuntos de registros hierárquicos</span><span class="sxs-lookup"><span data-stu-id="6c376-102">Fabricating hierarchical Recordsets</span></span>
 
 
-<span data-ttu-id="5db15-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5db15-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6c376-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6c376-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5db15-104">O exemplo a seguir mostra como fabricar um Recordset hierárquicosem uma fonte de dados base utilizando a gramática de formatação de dados para definir colunas para **Recordsets** pais, filhos e netos.</span><span class="sxs-lookup"><span data-stu-id="5db15-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
+<span data-ttu-id="6c376-104">O exemplo a seguir mostra como fabricar um Recordset hierárquicosem uma fonte de dados base utilizando a gramática de formatação de dados para definir colunas para **Recordsets** pais, filhos e netos.</span><span class="sxs-lookup"><span data-stu-id="6c376-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
 
-<span data-ttu-id="5db15-p101">Para fabricar um **Recordset** hierárquico, é necessário especificar o Microsoft Data Shaping Service for OLE DB (MSDataShape) e você pode especificar o valor de Data Provider igual a NONE no parâmetro de sequência de conexão do método [Open](connection-object-ado.md) do objeto [Connection](open-method-ado-connection.md). Para obter mais informações, consulte [Provedores Necessários para Formação de Dados](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="5db15-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
+<span data-ttu-id="6c376-p101">Para fabricar um **Recordset** hierárquico, é necessário especificar o Microsoft Data Shaping Service for OLE DB (MSDataShape) e você pode especificar o valor de Data Provider igual a NONE no parâmetro de sequência de conexão do método [Open](connection-object-ado.md) do objeto [Connection](open-method-ado-connection.md). Para obter mais informações, consulte [Provedores Necessários para Formação de Dados](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="6c376-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
 
 ```vb
     Dim cn As New ADODB.Connection
@@ -48,5 +48,5 @@ ms.locfileid: "32293200"
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-<span data-ttu-id="5db15-107">Após o **Recordset** ter sido fabricado, ele pode ser preenchido, manipulado ou persistente em um arquivo.</span><span class="sxs-lookup"><span data-stu-id="5db15-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
+<span data-ttu-id="6c376-107">Depois que **o Recordset** tiver sido fabricado, ele poderá ser preenchido, manipulado ou persistido em um arquivo.</span><span class="sxs-lookup"><span data-stu-id="6c376-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
 

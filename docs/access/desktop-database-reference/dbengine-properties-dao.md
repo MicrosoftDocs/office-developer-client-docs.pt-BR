@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294229"
 ---
-# <a name="dbengine-properties-dao"></a><span data-ttu-id="f8a58-102">Propriedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-102">DBEngine properties (DAO)</span></span>
+# <a name="dbengine-properties-dao"></a><span data-ttu-id="132fc-102">Propriedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-102">DBEngine properties (DAO)</span></span>
 
-<span data-ttu-id="f8a58-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8a58-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="132fc-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="132fc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f8a58-104">Propriedade DBEngine. defaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-104">DBEngine.DefaultPassword property (DAO)</span></span>](dbengine-defaultpassword-property-dao.md)
-- [<span data-ttu-id="f8a58-105">Propriedade DBEngine. defaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-105">DBEngine.DefaultType property (DAO)</span></span>](dbengine-defaulttype-property-dao.md)
-- [<span data-ttu-id="f8a58-106">Propriedade DBEngine. defaultUser (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-106">DBEngine.DefaultUser property (DAO)</span></span>](dbengine-defaultuser-property-dao.md)
-- [<span data-ttu-id="f8a58-107">Propriedade DBEngine. Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-107">DBEngine.Errors property (DAO)</span></span>](dbengine-errors-property-dao.md)
-- [<span data-ttu-id="f8a58-108">Propriedade DBEngine. IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-108">DBEngine.IniPath property (DAO)</span></span>](dbengine-inipath-property-dao.md)
-- [<span data-ttu-id="f8a58-109">Propriedade DBEngine. LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-109">DBEngine.LoginTimeout property (DAO)</span></span>](dbengine-logintimeout-property-dao.md)
-- [<span data-ttu-id="f8a58-110">Propriedade DBEngine. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-110">DBEngine.Properties property (DAO)</span></span>](dbengine-properties-property-dao.md)
-- [<span data-ttu-id="f8a58-111">Propriedade DBEngine. Version (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-111">DBEngine.Version property (DAO)</span></span>](dbengine-version-property-dao.md)
-- [<span data-ttu-id="f8a58-112">Propriedade DBEngine. Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8a58-112">DBEngine.Workspaces property (DAO)</span></span>](dbengine-workspaces-property-dao.md)
+- [<span data-ttu-id="132fc-104">Propriedade DBEngine.DefaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-104">DBEngine.DefaultPassword property (DAO)</span></span>](dbengine-defaultpassword-property-dao.md)
+- [<span data-ttu-id="132fc-105">Propriedade DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-105">DBEngine.DefaultType property (DAO)</span></span>](dbengine-defaulttype-property-dao.md)
+- [<span data-ttu-id="132fc-106">Propriedade DBEngine.DefaultUser (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-106">DBEngine.DefaultUser property (DAO)</span></span>](dbengine-defaultuser-property-dao.md)
+- [<span data-ttu-id="132fc-107">Propriedade DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-107">DBEngine.Errors property (DAO)</span></span>](dbengine-errors-property-dao.md)
+- [<span data-ttu-id="132fc-108">DBEngine.IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-108">DBEngine.IniPath property (DAO)</span></span>](dbengine-inipath-property-dao.md)
+- [<span data-ttu-id="132fc-109">Propriedade DBEngine.LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-109">DBEngine.LoginTimeout property (DAO)</span></span>](dbengine-logintimeout-property-dao.md)
+- [<span data-ttu-id="132fc-110">Propriedade DBEngine.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-110">DBEngine.Properties property (DAO)</span></span>](dbengine-properties-property-dao.md)
+- [<span data-ttu-id="132fc-111">Propriedade DBEngine.Version (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-111">DBEngine.Version property (DAO)</span></span>](dbengine-version-property-dao.md)
+- [<span data-ttu-id="132fc-112">Propriedade DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="132fc-112">DBEngine.Workspaces property (DAO)</span></span>](dbengine-workspaces-property-dao.md)
 
 

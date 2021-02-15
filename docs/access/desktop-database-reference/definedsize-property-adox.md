@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294124"
 ---
-# <a name="definedsize-property-adox"></a><span data-ttu-id="58111-102">Propriedade DefinedSize (ADOX)</span><span class="sxs-lookup"><span data-stu-id="58111-102">DefinedSize property (ADOX)</span></span>
+# <a name="definedsize-property-adox"></a><span data-ttu-id="7abb6-102">Propriedade DefinedSize (ADOX)</span><span class="sxs-lookup"><span data-stu-id="7abb6-102">DefinedSize property (ADOX)</span></span>
 
 
-<span data-ttu-id="58111-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58111-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7abb6-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7abb6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58111-104">Indica o tamanho máximo definido para a coluna.</span><span class="sxs-lookup"><span data-stu-id="58111-104">Indicates the stated maximum size of the column.</span></span>
+<span data-ttu-id="7abb6-104">Indica o tamanho máximo definido para a coluna.</span><span class="sxs-lookup"><span data-stu-id="7abb6-104">Indicates the stated maximum size of the column.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="58111-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="58111-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="7abb6-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="7abb6-105">Settings and return values</span></span>
 
-<span data-ttu-id="58111-106">Define e retorna um valor **Long** que é o tamanho máximo em caracteres dos valores de dados.</span><span class="sxs-lookup"><span data-stu-id="58111-106">Sets and returns a **Long** value that is the maximum length in characters of data values.</span></span>
+<span data-ttu-id="7abb6-106">Define e retorna um valor **Long** que é o tamanho máximo em caracteres dos valores de dados.</span><span class="sxs-lookup"><span data-stu-id="7abb6-106">Sets and returns a **Long** value that is the maximum length in characters of data values.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="58111-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="58111-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7abb6-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="7abb6-107">Remarks</span></span>
 
-<span data-ttu-id="58111-108">O valor padrão é zero (0).</span><span class="sxs-lookup"><span data-stu-id="58111-108">The default value is zero (0).</span></span>
+<span data-ttu-id="7abb6-108">O valor padrão é zero (0).</span><span class="sxs-lookup"><span data-stu-id="7abb6-108">The default value is zero (0).</span></span>
 
-<span data-ttu-id="58111-109">Esta propriedade é somente leitura em objetos [Column](column-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="58111-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="7abb6-109">Esta propriedade é somente leitura em objetos [Column](column-object-adox.md) já acrescentados a uma coleção.</span><span class="sxs-lookup"><span data-stu-id="7abb6-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
 

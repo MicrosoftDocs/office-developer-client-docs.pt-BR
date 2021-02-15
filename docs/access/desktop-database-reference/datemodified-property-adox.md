@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294404"
 ---
-# <a name="datemodified-property-adox"></a><span data-ttu-id="f2fbb-102">Propriedade DateModified (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f2fbb-102">DateModified property (ADOX)</span></span>
+# <a name="datemodified-property-adox"></a><span data-ttu-id="f0e6f-102">Propriedade DateModified (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f0e6f-102">DateModified property (ADOX)</span></span>
 
 
-<span data-ttu-id="f2fbb-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2fbb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f0e6f-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0e6f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f2fbb-104">Indica a data da última modificação do objeto.</span><span class="sxs-lookup"><span data-stu-id="f2fbb-104">Indicates the date the object was last modified.</span></span>
+<span data-ttu-id="f0e6f-104">Indica a data da última modificação do objeto.</span><span class="sxs-lookup"><span data-stu-id="f0e6f-104">Indicates the date the object was last modified.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f2fbb-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="f2fbb-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f0e6f-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="f0e6f-105">Return values</span></span>
 
-<span data-ttu-id="f2fbb-106">Retorna um valor **Variant** que especifica a data de modificação.</span><span class="sxs-lookup"><span data-stu-id="f2fbb-106">Returns a **Variant** value specifying the date modified.</span></span> <span data-ttu-id="f2fbb-107">O valor será nulo se o provedor não oferecer suporte a **DateModified**.</span><span class="sxs-lookup"><span data-stu-id="f2fbb-107">The value is null if **DateModified** is not supported by the provider.</span></span>
+<span data-ttu-id="f0e6f-106">Retorna um valor **Variant** que especifica a data de modificação.</span><span class="sxs-lookup"><span data-stu-id="f0e6f-106">Returns a **Variant** value specifying the date modified.</span></span> <span data-ttu-id="f0e6f-107">O valor será nulo se o provedor não oferecer suporte a **DateModified**.</span><span class="sxs-lookup"><span data-stu-id="f0e6f-107">The value is null if **DateModified** is not supported by the provider.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f2fbb-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="f2fbb-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f0e6f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="f0e6f-108">Remarks</span></span>
 
-<span data-ttu-id="f2fbb-p102">A propriedade **DateModified** será nula para objetos recém-acrescentados. Após acrescentar um novo [Modo de exibição](view-object-adox.md) ou [Procedimento](procedure-object-adox.md), chame o método [Refresh](refresh-method-ado.md) da coleção [Views](views-collection-adox.md) ou [Procedures](procedures-collection-adox.md) para obter valores da propriedade **DateModified**.</span><span class="sxs-lookup"><span data-stu-id="f2fbb-p102">The **DateModified** property is null for newly appended objects. After appending a new [View](view-object-adox.md) or [Procedure](procedure-object-adox.md), you must call the [Refresh](refresh-method-ado.md) method of the [Views](views-collection-adox.md) or [Procedures](procedures-collection-adox.md) collection to obtain values for the **DateModified** property.</span></span>
+<span data-ttu-id="f0e6f-p102">A propriedade **DateModified** será nula para objetos recém-acrescentados. Após acrescentar um novo [Modo de exibição](view-object-adox.md) ou [Procedimento](procedure-object-adox.md), chame o método [Refresh](refresh-method-ado.md) da coleção [Views](views-collection-adox.md) ou [Procedures](procedures-collection-adox.md) para obter valores da propriedade **DateModified**.</span><span class="sxs-lookup"><span data-stu-id="f0e6f-p102">The **DateModified** property is null for newly appended objects. After appending a new [View](view-object-adox.md) or [Procedure](procedure-object-adox.md), you must call the [Refresh](refresh-method-ado.md) method of the [Views](views-collection-adox.md) or [Procedures](procedures-collection-adox.md) collection to obtain values for the **DateModified** property.</span></span>
 

@@ -14,28 +14,28 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293746"
 ---
-# <a name="documents-collection-dao"></a><span data-ttu-id="579b7-102">Coleção Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="579b7-102">Documents collection (DAO)</span></span>
+# <a name="documents-collection-dao"></a><span data-ttu-id="94388-102">Coleção Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="94388-102">Documents collection (DAO)</span></span>
 
 
-<span data-ttu-id="579b7-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="579b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94388-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94388-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="579b7-104">Uma coleção **Documents** contém todos os objetos **Document** para um tipo específico de objeto (bancos de dados de mecanismo de banco de dados do Microsoft Access apenas).</span><span class="sxs-lookup"><span data-stu-id="579b7-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="94388-104">Uma coleção **Documents** contém todos os objetos **Document** para um tipo específico de objeto (bancos de dados de mecanismo de banco de dados do Microsoft Access apenas).</span><span class="sxs-lookup"><span data-stu-id="94388-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="579b7-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="579b7-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94388-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="94388-105">Remarks</span></span>
 
-<span data-ttu-id="579b7-106">Cada objeto **Container** tem uma coleção **Documents** contendo objetos **Document** que descrevem instâncias de objetos internos do tipo especificado pelo **Container**.</span><span class="sxs-lookup"><span data-stu-id="579b7-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
+<span data-ttu-id="94388-106">Cada objeto **Container** tem uma coleção **Documents** contendo objetos **Document** que descrevem instâncias de objetos internos do tipo especificado pelo **Container**.</span><span class="sxs-lookup"><span data-stu-id="94388-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
 
-<span data-ttu-id="579b7-107">Para fazer referência a um objeto **Document** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="579b7-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="94388-107">Para fazer referência a um objeto **Document** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="94388-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-  - <span data-ttu-id="579b7-108">**Documents**(0)</span><span class="sxs-lookup"><span data-stu-id="579b7-108">**Documents**(0)</span></span>
+  - <span data-ttu-id="94388-108">**Documents**(0)</span><span class="sxs-lookup"><span data-stu-id="94388-108">**Documents**(0)</span></span>
 
-  - <span data-ttu-id="579b7-109">**Documentos** ("*Name*")</span><span class="sxs-lookup"><span data-stu-id="579b7-109">**Documents**("*name*")</span></span>
+  - <span data-ttu-id="94388-109">**Documentos**("*nome*")</span><span class="sxs-lookup"><span data-stu-id="94388-109">**Documents**("*name*")</span></span>
 
-  - <span data-ttu-id="579b7-110">\*\*\*\*\!\[*Nome* dos documentos\]</span><span class="sxs-lookup"><span data-stu-id="579b7-110">**Documents**\!\[*name*\]</span></span>
+  - <span data-ttu-id="94388-110"> \! Documentos \[ *name*\]</span><span class="sxs-lookup"><span data-stu-id="94388-110">**Documents**\!\[*name*\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="579b7-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="579b7-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="94388-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="94388-111">Example</span></span>
 
-<span data-ttu-id="579b7-112">Este exemplo enumera a coleção **Documents** do contêineer Tables e enumera a coleção **Properties** do primeiro objeto **Document** na coleção.</span><span class="sxs-lookup"><span data-stu-id="579b7-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
+<span data-ttu-id="94388-112">Este exemplo enumera a coleção **Documents** do contêineer Tables e enumera a coleção **Properties** do primeiro objeto **Document** na coleção.</span><span class="sxs-lookup"><span data-stu-id="94388-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
 
 ```vb 
 Sub DocumentX() 
