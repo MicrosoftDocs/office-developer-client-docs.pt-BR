@@ -22,7 +22,7 @@ Executa o comando identificado.
   
 ## <a name="syntax"></a>Sintaxe
 
- **DoCmd** ( _commandID_)
+ **DOCMD**( _commandID_)
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ Executa o comando identificado.
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista de comandos que são compatíveis com a função DOCMD, consulte o tópico "comandos DoCmd/DOCMD" na referência de automação do Microsoft Visio 2013. 
+Para uma lista de comandos que são suportados com a função DOCMD, consulte o tópico "Comandos DoCmd/DOCMD" na Referência de Automação do Microsoft Visio 2013. 
   
 ## <a name="example"></a>Exemplo
 

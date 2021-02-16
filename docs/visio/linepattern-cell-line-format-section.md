@@ -22,8 +22,8 @@ Determina o padrão de linha de uma forma. O valor inserido na célula LinePatte
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Sem padrão de linha  <br/> |
-|1  <br/> |Sólida  <br/> |
+|0  <br/> |Sem padrão de linha  <br/> |
+|1   <br/> |Sólida  <br/> |
 |2 - 23  <br/> |Padrões de linha variados  <br/> |
    
 ## <a name="remarks"></a>Comentários

@@ -1,5 +1,5 @@
 ---
-title: Objetos do provedor do repositório de mensagens MAPI
+title: Objetos de provedor de armazenamento de mensagens MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413294"
 ---
-# <a name="mapi-message-store-provider-objects"></a>Objetos do provedor do repositório de mensagens MAPI
+# <a name="mapi-message-store-provider-objects"></a>Objetos de provedor de armazenamento de mensagens MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os provedores de repositório de mensagens implementam objetos de logon e de provedor, como todos os provedores de serviços. Eles também implementam um objeto de repositório de mensagens, pastas, mensagens, anexos e tabelas. Como opção, alguns provedores de repositórios de mensagens implementam objetos de status.
+Os provedores de armazenamento de mensagens implementam provedores e objetos de logon, assim como todos os provedores de serviços. Eles também implementam um objeto de armazenamento de mensagens, pastas, mensagens, anexos e tabelas. Como opção, alguns provedores de armazenamento de mensagens implementam objetos de status.
   
-A ilustração a seguir mostra cada objeto Message Store com sua interface correspondente e o componente MAPI que o utiliza.
+A ilustração a seguir mostra cada objeto do armazenamento de mensagens com sua interface correspondente e o componente MAPI que o utiliza.
   
-![Objetos que os provedores de repositório de mensagens implementam] (media/amapi_63.gif "Objetos que os provedores de repositório de mensagens implementam")
+![Objetos que os provedores de armazenamento de mensagens implementam](media/amapi_63.gif "Objetos que os provedores de armazenamento de mensagens implementam")
   
 ## <a name="see-also"></a>Confira também
 

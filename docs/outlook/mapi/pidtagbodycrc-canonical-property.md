@@ -25,7 +25,7 @@ ms.locfileid: "33415177"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de CRC (verificação de redundância cíclica) no texto da mensagem.
+Contém um valor CRC (verificação de redundância cíclica) no texto da mensagem.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um valor de CRC (verificação de redundância cíclica) no texto da men
    
 ## <a name="remarks"></a>Comentários
 
-O repositório de mensagens pode usar qualquer algoritmo CRC que gere um valor PT_LONG. Ele deve calcular essa propriedade como parte do método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) quando a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) tiver sido definida pela primeira vez e sempre que ela tiver sido modificada subsequentemente.
+O armazenamento de mensagens pode usar qualquer algoritmo CRC que gere um PT_LONG valor. Ele deve calcular essa propriedade como parte do método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) quando a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) tiver sido definida pela primeira vez e sempre que tiver sido modificada subsequentemente.
   
-Um aplicativo cliente usa O **PR_BODY_CRC** para ajudar na comparação de cadeias de caracteres de texto de mensagem contidas nas propriedades **PR_BODY** ou em suas variantes. Usando essa propriedade, o cliente pode detectar de forma rápida e fácil quando o texto da mensagem tiver sido alterado. Ele pode obter ganhos de desempenho significativos usando o **PR_BODY_CRC** em vez de obter o **PR_BODY** do repositório de mensagens e compará-lo com uma versão local. 
+Um aplicativo cliente usa **PR_BODY_CRC** para auxiliar na comparação de cadeias de caracteres de texto de mensagem contidas **PR_BODY** propriedades ou suas variantes. Usando essa propriedade, o cliente pode detectar rapidamente e facilmente quando o texto da mensagem foi alterado. Ele pode obter ganhos significativos de desempenho  usando o **PR_BODY_CRC** em vez de obter PR_BODY do armazenamento de mensagens e compará-lo com uma versão local. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

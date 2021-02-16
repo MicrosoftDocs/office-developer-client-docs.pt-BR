@@ -19,11 +19,11 @@ ms.locfileid: "33415443"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como todas as mensagens MAPI são instâncias de formulários, os aplicativos cliente são exibidos e interagem com objetos de formulário da mesma forma que em outros objetos de mensagem.
+Como todas as mensagens MAPI são instâncias de formulários, os aplicativos cliente exibem e interagem com objetos de formulário da mesma forma que fazem com outros objetos de mensagem.
   
-Aplicativos clientes que usam as interfaces de formulário MAPI podem fornecer interação adicional com objetos de formulário. Os aplicativos cliente podem usar qualquer verbo especial definido por um formulário para fornecer aos usuários a gama completa de interações destinadas pelo designer do formulário. Os clientes também podem usar propriedades personalizadas que o servidor de formulário expõe para ajudar os usuários a classificar, Visualizar ou gerenciar formulários na interface do cliente.
+Aplicativos cliente que usam as interfaces de formulário MAPI podem fornecer interação adicional com objetos de formulário. Os aplicativos cliente podem usar quaisquer verbos especiais definidos por um formulário para fornecer aos usuários toda a gama de interações pretendida pelo designer do formulário. Os clientes também podem usar qualquer propriedade personalizada exposta pelo servidor de formulários para ajudar os usuários a classificar, visualizar ou gerenciar formulários na interface do cliente.
   
-Para obter mais informações, consulte [tratamento de formulários MAPI](handling-mapi-forms.md).
+Para obter mais informações, consulte [Manipulando formulários MAPI.](handling-mapi-forms.md)
   
 ## <a name="see-also"></a>Confira também
 

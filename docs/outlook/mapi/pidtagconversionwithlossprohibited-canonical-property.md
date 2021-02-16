@@ -25,7 +25,7 @@ ms.locfileid: "33417123"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido de fazer conversões de texto de mensagem que percam informações. 
+Contém TRUE se um agente de transferência de mensagens (MTA) é proibido de fazer conversões de texto de mensagem que perdem informações. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido d
    
 ## <a name="remarks"></a>Comentários
 
-Um exemplo do tipo de conversão proibido é o mapeamento "com perdas" do Unicode (dois bytes por caractere) para um conjunto de caracteres de byte único. 
+Um exemplo do tipo de conversão que está sendo proibido é o mapeamento "lossy" de Unicode (dois bytes por caractere) para um conjunto de caracteres de um único byte. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

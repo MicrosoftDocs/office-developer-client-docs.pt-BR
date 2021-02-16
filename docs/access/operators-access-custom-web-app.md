@@ -21,11 +21,11 @@ ms.locfileid: "33417061"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Operadores aritméticos (aplicativo Web personalizado do Access)](arithmetic-operators-access-custom-web-app.md)
+- [Operadores Aritméticos (aplicativo Web personalizado do Access)](arithmetic-operators-access-custom-web-app.md)
     
 - [Operadores de comparação (aplicativo Web personalizado do Access)](comparison-operators-access-custom-web-app.md)
     
-- [Operadores lógicos (aplicativo Web personalizado do Access)](logical-operators-access-custom-web-app.md)
+- [Operadores Lógicos (aplicativo Web personalizado do Access)](logical-operators-access-custom-web-app.md)
     
 - [Operadores de cadeia de caracteres (aplicativo Web personalizado do Access)](string-operators-access-custom-web-app.md)
     

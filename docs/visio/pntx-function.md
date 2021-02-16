@@ -18,17 +18,17 @@ ms.locfileid: "33417032"
 ---
 # <a name="pntx-function"></a>Função PNTX
 
-Retorna a coordenada _x_de um ponto.
+Retorna a  _coordenada x_ de um ponto.
   
 ## <a name="syntax"></a>Sintaxe
 
-PNTX (* * *ponto* * *) 
+PNTX(** *ponto* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ponto_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _x_do ponto.  <br/> |
+| _point_ <br/> |Obrigatório  <br/> |**Número** <br/> |A  _coordenada x_ do ponto.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="example"></a>Exemplo
 
-PNTX (PNT (7, 12)) 
+PNTX(PNT(7,12)) 
   
 Retornará 7. 
   

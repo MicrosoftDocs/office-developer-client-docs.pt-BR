@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
-description: Especifica se deve usar a autenticação de senha segura (SPA) para uma caixa de correio de Internet geral.
+description: Especifica se é para usar a Autenticação de Senha Segura (SPA) para uma caixa de correio de Internet geral.
 ms.openlocfilehash: b20bba4866ba61c66d6c79ee53ca2fe225f6d433
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413511"
 ---
-# <a name="propinetusespa"></a>PROP_INET_USE_SPA
+# <a name="prop_inet_use_spa"></a>PROP_INET_USE_SPA
 
-Especifica se deve usar a autenticação de senha segura (SPA) para uma caixa de correio de Internet geral.
+Especifica se é para usar a Autenticação de Senha Segura (SPA) para uma caixa de correio de Internet geral.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -29,7 +29,7 @@ Especifica se deve usar a autenticação de senha segura (SPA) para uma caixa de
    
 ## <a name="remarks"></a>Comentários
 
-Um valor zero significa não usar SPA, caso contrário, use SPA.
+Um valor zero significa não usar SPA; caso contrário, use SPA.
   
 ## <a name="see-also"></a>Confira também
 

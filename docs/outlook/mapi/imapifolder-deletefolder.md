@@ -41,35 +41,35 @@ HRESULT DeleteFolder(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada da subpasta a ser excluída.
+> [in] Um ponteiro para o identificador de entrada da subpasta a ser excluído.
     
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um alça para a janela pai do indicador de progresso. O _parâmetro ulUIParam é_ ignorado, a menos que o FOLDER_DIALOG padrão seja definido no parâmetro _ulFlags._ 
     
  _lpProgress_
   
-> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido em _parâmetroulflags_.
+> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O  _parâmetro lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG seja definido em  _ulFlags_.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla a exclusão da subpasta. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla a exclusão da subpasta. Os sinalizadores a seguir podem ser definidos:
     
 DEL_FOLDERS 
   
-> Todas as subpastas da subpasta indicada por _lpEntryID_ devem ser excluídas. 
+> Todas as subpastas da subpasta apontada por  _lpEntryID_ devem ser excluídas. 
     
 DEL_MESSAGES 
   
-> Todas as mensagens na subpasta indicada por _lpEntryID_ devem ser excluídas. 
+> Todas as mensagens na subpasta apontadas por  _lpEntryID_ devem ser excluídas. 
     
 FOLDER_DIALOG 
   
-> Um indicador de progresso deve ser exibido enquanto a operação prossegue.
+> Um indicador de progresso deve ser exibido enquanto a operação continua.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -87,29 +87,29 @@ MAPI_E_HAS_MESSAGES
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada teve êxito, mas nem todas as entradas foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas nem todas as entradas foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::D eletefolder** exclui uma subpasta. Por padrão, o **DeleteFolder** funciona apenas em pastas vazias, mas você pode usá-lo com êxito em pastas não vazias Configurando dois sinalizadores: DEL_FOLDERS e DEL_MESSAGES. Somente pastas vazias ou pastas que definem os sinalizadores DEL_FOLDERS e DEL_MESSAGES na chamada **DeleteFolder** podem ser excluídas. O DEL_FOLDERS permite que todas as subpastas da pasta sejam removidas; DEL_MESSAGES habilita todas as mensagens da pasta a serem removidas. 
+O **método IMAPIFolder::D eleteFolder** exclui uma subpasta. Por padrão, **DeleteFolder** opera somente em pastas vazias, mas você pode usá-la com êxito em pastas não vazias definindo dois sinalizadores: DEL_FOLDERS e DEL_MESSAGES. Somente pastas vazias ou pastas que definirem os sinalizadores DEL_FOLDERS e DEL_MESSAGES na **chamada DeleteFolder** podem ser excluídas. DEL_FOLDERS permite que todas as subpastas da pasta sejam removidas; DEL_MESSAGES permite que todas as mensagens da pasta sejam removidas. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando a operação de exclusão envolver mais de uma pasta, execute a operação o mais completo possível para cada pasta. Às vezes, uma das pastas a serem excluídas não existe ou foi movida ou copiada em outro lugar. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do seu controle, como a falta de memória, ficando sem espaço em disco ou corrupção no repositório de mensagens.
+Quando a operação de exclusão envolver mais de uma pasta, execute a operação o mais completamente possível para cada pasta. Às vezes, uma das pastas a serem excluídas não existe ou foi movida ou copiada em outro lugar. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do controle, como falta de memória, falta de espaço em disco ou corrupção no armazenamento de mensagens.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Espere estes valores de retorno sob as condições a seguir.
+Espere esses valores de retorno sob as seguintes condições.
   
 |**Condition**|**Valor de retorno**|
 |:-----|:-----|
-|O **DeleteFolder** excluiu com êxito todas as mensagens e subpastas.  <br/> |S_OK  <br/> |
-|O **DeleteFolder** não pôde excluir com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**DeleteFolder** não pôde ser concluída.  <br/> |Qualquer valor de erro, exceto MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** excluiu com êxito todas as mensagens e subpastas.  <br/> |S_OK  <br/> |
+|**DeleteFolder** não pôde excluir todas as mensagens e subpastas com êxito.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** não pôde ser concluído.  <br/> |Qualquer valor de erro exceto MAPI_E_NOT_FOUND  <br/> |
    
-Quando o **DeleteFolder** não puder ser concluído, não presuma que nenhum trabalho foi realizado. O **DeleteFolder** pode ter sido capaz de excluir uma ou mais das mensagens e subpastas antes de encontrar o erro. 
+Quando **DeleteFolder** não puder ser concluído, não suponha que nenhum trabalho foi feito. **DeleteFolder** pode ter sido capaz de excluir uma ou mais das mensagens e subpastas antes de encontrar o erro. 
   
-Se uma ou mais subpastas não puderem ser excluídas, **DeleteFolder** retornará MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do provedor de repositório de mensagens. 
+Se uma ou mais subpastas não puderem ser excluídas, **DeleteFolder** retornará MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do provedor de armazenamento de mensagens. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -117,7 +117,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFolder::D eletefolder** para excluir pastas.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o **método IMAPIFolder::D eleteFolder** para excluir pastas.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

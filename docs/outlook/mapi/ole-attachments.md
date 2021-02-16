@@ -21,6 +21,6 @@ ms.locfileid: "33417144"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Anexos que são objetos OLE são codificados como objetos Stream de OLE 1 para compatibilidade com versões anteriores. Se o objeto original for realmente um objeto **ISTORAGE** OLE 2, o objeto deverá ser convertido em um fluxo OLE 1. Essa conversão é realizada usando a função **OleConvertIStorageToOLESTREAM** , que faz parte das bibliotecas OLE do Win32. 
+Anexos que são objetos OLE são codificados como objetos de fluxo OLE 1 para compatibilidade com compatibilidade com backward. Se o objeto original for realmente um objeto OLE 2 **IStorage,** o objeto deverá ser convertido em um fluxo OLE 1. Essa conversão é realizada usando a **função OleConvertIStorageToOLESTREAM,** que faz parte das bibliotecas OLE do Win32. 
   
 

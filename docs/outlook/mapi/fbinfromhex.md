@@ -29,7 +29,7 @@ Converte uma representação de cadeia de caracteres de um número hexadecimal e
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -42,13 +42,13 @@ BOOL FBinFromHex(
 
 ## <a name="parameters"></a>Parâmetros
 
- _v_
+ _sz_
   
-> no Ponteiro para a cadeia de caracteres ASCII terminada em nulo para conversão. Não é uma cadeia de caracteres Unicode. Os caracteres válidos incluem os caracteres hexadecimais de zero a nove e os caracteres maiúsculos e minúsculos de A a F.
+> [in] Ponteiro para a cadeia de caracteres ASCII terminada em nulo a ser convertida. Não é uma cadeia de caracteres Unicode. Os caracteres válidos incluem os caracteres hexadecimais zero a nove e caracteres em maiúsculas e minúsculas de A a F.
     
  _pb_
   
-> bota Ponteiro para o número binário retornado.
+> [out] Ponteiro para o número binário retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 

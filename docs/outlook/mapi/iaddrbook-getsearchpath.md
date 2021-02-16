@@ -25,7 +25,7 @@ ms.locfileid: "33412979"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma lista ordenada de identificadores de entrada dos contêineres a serem incluídos no processo de resolução de nomes iniciado pelo método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . 
+Retorna uma lista ordenada de identificadores de entrada dos contêineres a serem incluídos no processo de resolução de nomes iniciado pelo método [IAddrBook::ResolveName.](iaddrbook-resolvename.md) 
   
 ```cpp
 HRESULT GetSearchPath(
@@ -38,15 +38,15 @@ HRESULT GetSearchPath(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeias de caracteres retornadas no caminho de pesquisa. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla o tipo das cadeias de caracteres retornadas no caminho de pesquisa. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _lppSearchPath_
   
-> bota Um ponteiro para um ponteiro para uma lista ordenada de identificadores de entrada de contêiner. **GetSearchPath** armazena a lista ordenada em uma estrutura [SRowSet](srowset.md) . Se não houver contêineres na hierarquia de catálogos de endereços, zero será retornado na estrutura **SRowSet** . 
+> [out] Um ponteiro para um ponteiro para uma lista ordenada de identificadores de entrada de contêiner. **GetSearchPath** armazena a lista ordenada em uma [estrutura SRowSet.](srowset.md) Se não houver contêineres na hierarquia do address book, zero será retornado na **estrutura SRowSet.** 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,19 +56,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes e os provedores de serviços chamam o método **GetSearchPath** para obter o caminho de pesquisa usado para resolver nomes com o método **ResolveName** . Normalmente, os clientes chamam o método [IAddrBook:: SetSearchPath](iaddrbook-setsearchpath.md) para estabelecer um caminho de pesquisa de contêiner no perfil antes de chamar o **GetSearchPath** para recuperá-lo. No enTanto, chamar **SetSearchPath** é opcional. 
+Os clientes e provedores de serviços chamam o **método GetSearchPath** para obter o caminho de pesquisa usado para resolver nomes com o **método ResolveName.** Normalmente, os clientes chamam o método [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) para estabelecer um caminho de pesquisa de contêiner no perfil antes de **chamarEm GetSearchPath** para recuperá-lo. No entanto, **chamar SetSearchPath** é opcional. 
   
-Se **SetSearchPath** nunca tiver sido chamado, o **GetSearchPath** cria um caminho trabalhando através das tabelas de hierarquia do catálogo de endereços. O caminho de pesquisa padrão estabelecido pelo **GetSearchPath** consiste nos seguintes contêineres na seguinte ordem: 
+Se **SetSearchPath** nunca tiver sido chamado, **GetSearchPath** criará um caminho trabalhando nas tabelas de hierarquia do livro de endereços. O caminho de pesquisa padrão estabelecido **pelo GetSearchPath** consiste nos seguintes contêineres na seguinte ordem: 
   
-1. O primeiro contêiner com permissão de leitura/gravação, geralmente o catálogo de endereços pessoal (PAB).
+1. O primeiro contêiner com permissão de leitura/gravação, geralmente o pab (lista de endereços pessoal).
     
-2. Cada contêiner que tenha sua propriedade **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) definida como DT_GLOBAL. Essa configuração indica que o contêiner contém destinatários. 
+2. Cada contêiner que tem sua **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) definida como DT_GLOBAL. Essa configuração indica que o contêiner contém destinatários. 
     
-3. O contêiner designado como padrão, se não houver contêineres com o sinalizador DT_GLOBAL definido na propriedade **PR_DISPLAY_TYPE** e o contêiner padrão difere do primeiro contêiner com permissão de leitura/gravação. 
+3. O contêiner designado como padrão, se não houver contêineres com o sinalizador DT_GLOBAL definido em sua propriedade **PR_DISPLAY_TYPE** e o contêiner padrão for diferente do primeiro contêiner com permissão de leitura/gravação. 
     
-Se **SetSearchPath** tiver sido chamado, o **GetSearchPath** cria um caminho usando os contêineres do catálogo de endereços que foram armazenados no perfil. O **GetSearchPath** valida esse caminho antes de refazê-lo para o chamador. 
+Se **SetSearchPath** tiver sido chamado, **GetSearchPath** criará um caminho usando os contêineres de agendas que foram armazenados no perfil. **GetSearchPath** valida esse caminho antes de retorá-lo ao chamador. 
   
-Após a primeira chamada para **SetSearchPath**, as chamadas subsequentes para **SetSearchPath** devem ser usadas para modificar o caminho de pesquisa retornado por **GetSearchPath**. Em outras palavras, o cliente ou provedor de chamadas não recebe o caminho de pesquisa padrão após a primeira chamada a **SetSearchPath**.
+Após a primeira chamada para **SetSearchPath**, as chamadas subsequentes para **SetSearchPath** devem ser usadas para modificar o caminho de pesquisa retornado por **GetSearchPath**. Em outras palavras, o cliente ou provedor de chamada não recebe o caminho de pesquisa padrão após a primeira chamada para **SetSearchPath**.
   
 ## <a name="see-also"></a>Confira também
 

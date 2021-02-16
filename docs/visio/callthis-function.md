@@ -22,33 +22,33 @@ Chama um procedimento em um projeto do Microsoft Visual Basic for Applications (
   
 ## <a name="syntax"></a>Sintaxe
 
-CALLTHIS ("* * *procedimento* * *", ["* * *project* * *"], [* * *arg1* * *, * * *arg2* * *,...]) 
+CALLTHIS(" ** *procedure* ** ",[" ** *project* ** "],[ ** *arg1* **, ** *arg2* **,...]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _procedimento_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O nome do procedimento a ser chamado.  <br/> |
-| _projecto_ <br/> |Opcional  <br/> |**String** <br/> |O projeto que contém o procedimento.  <br/> |
-| _ARG_ <br/> |Opcional  <br/> |**Número, Cadeia de Caracteres, Data ou Moeda** <br/> |Passados como parâmetros para o procedimento.  <br/> |
+| _procedimento_ <br/> |Obrigatório  <br/> |**String** <br/> | O nome do procedimento a ser chamado.  <br/> |
+| _project_ <br/> |Opcional  <br/> |**String** <br/> |O projeto que contém o procedimento.  <br/> |
+| _arg_ <br/> |Opcional  <br/> |**Número, Cadeia de Caracteres, Data ou Moeda** <br/> |Passados como parâmetros para o procedimento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-No projeto VBA, o *procedimento* é definido da seguinte maneira: 
+No projeto VBA,  *o procedimento*  é definido da seguinte forma: 
   
-procedimento (*vsoShape* como Visio. Shape [arg1 as Type, arg2 as Type...]) 
+procedure(*vsoShape*  As Visio.Shape [arg1 As type, arg2 As type...]) 
   
-onde *vsoShape* é uma referência ao objeto **Shape** que contém a fórmula CALLTHIS que está sendo avaliada e _arg1_, *arg2* ... os argumentos são especificados na fórmula. 
+onde  *vsoShape*  é uma referência ao objeto **Shape** que contém a fórmula CALLTHIS que está sendo avaliada e  _arg1_,  *arg2*  ... são os argumentos especificados nessa fórmula. 
   
-Observe que *vsoShape* é muito parecido com o argumento "This" passado para um procedimento de membro C++; Portanto, o nome "CALLTHIS". Na verdade, uma célula que contém uma fórmula que inclui CALLTHIS pode ser lida como "chamar este procedimento e passar uma referência para minha forma". 
+Observe que  *vsoShape*  é muito parecido com o argumento "this" passado para um procedimento de membro C++; daí o nome "CALLTHIS". Na verdade, uma célula que contém uma fórmula que inclui CALLTHIS pode ser lida como "Chame este procedimento e passe uma referência para minha forma". 
   
-Se o _projeto_ for especificado, o Microsoft Visio examinará todos os documentos abertos para o que você contém o _projeto_ e as chamadas de _procedimento_ nesse projeto. Se _Project_ for omitido ou nulo (""), o Visio pressupõe que o _procedimento_ está no projeto VBA do documento que contém a fórmula CALLTHIS que está sendo avaliada. 
+Se _o_ projeto for especificado, o Microsoft Visio  verifica todos os documentos abertos em busca do que contém o projeto e chama o _procedimento_ nesse projeto. Se _o projeto_ for omitido ou  nulo (""), o Visio assumirá que o procedimento está no projeto VBA do documento que contém a fórmula CALLTHIS que está sendo avaliada. 
   
-Os números em _arg1_, _arg2..._ são passados em unidades externas. Por exemplo, se o valor da célula Height for passado de uma forma de 3 centímetros de altura, 3 será o valor passado. Para passar unidades diferentes com um número, utilize a função FORMATEX ou force explicitamente as unidades adicionando um par de unidade de número nulo, por exemplo, 0 pés + Altura. 
+Os números  _em arg1_,  _arg2..._ são passados em unidades externas. Por exemplo, se o valor da célula Height for passado de uma forma de 3 centímetros de altura, 3 será o valor passado. Para passar unidades diferentes com um número, utilize a função FORMATEX ou force explicitamente as unidades adicionando um par de unidade de número nulo, por exemplo, 0 pés + Altura. 
   
-A segunda vírgula na função CALLTHIS é opcional. Ela corresponde ao número de parâmetros adicionais adicionados ao procedimento. Se você não usar nenhum parâmetro adicional, exceto `(vsoShape as Visio.Shape)` , não adicione a segunda vírgula; Use CALLTHIS ("",). Se você adicionar dois parâmetros opcionais, por exemplo, utilize CALLTHIS("",,,). 
+A segunda vírgula na função CALLTHIS é opcional. Ela corresponde ao número de parâmetros adicionais adicionados ao procedimento. Se você não usar parâmetros adicionais, exceto , não adicione a segunda  `(vsoShape as Visio.Shape)` vírgula; use CALLTHIS("",). Se você adicionar dois parâmetros opcionais, por exemplo, utilize CALLTHIS("",,,). 
   
-A função CALLTHIS sempre é avaliada como 0 e a chamada para o _procedimento_ ocorre durante o tempo ocioso após a conclusão do processo de recálculo.  O _procedure_ poderá retornar um valor, mas será ignorado pelo Visio.  _Procedure_ retorna um valor que o Visio pode reconhecer Configurando a fórmula ou o resultado de outra célula no documento, mas não a célula que chamou o _procedimento_, a menos que você queira substituir a fórmula CALLTHIS.
+A função CALLTHIS sempre é avaliada como  0, e a chamada para o procedimento ocorre durante o tempo ocioso após a finalização do processo de recálculo.  O _procedure_ poderá retornar um valor, mas será ignorado pelo Visio.  _O_ procedimento retorna um valor que o Visio pode reconhecer definindo a fórmula ou o resultado de outra célula no documento, mas não a célula que chamou o  _procedimento,_ a menos que você queira substituir a fórmula CALLTHIS.
   
 A função CALLTHIS difere da função RUNADDON no sentido de que o projeto de um documento não precisa fazer referência a um outro projeto para chamar esse projeto. 
   
@@ -79,13 +79,13 @@ Chamará o procedimento q, localizado em um módulo, e passará a altura da cél
   
 ## <a name="example-3"></a>Exemplo 3
 
-Use o procedimento a seguir no módulo de classe *ThisDocument* . 
+Use o procedimento a seguir no *módulo de classe ThisDocument.* 
   
 Utilize uma das sintaxes a seguir na célula EventDblClick de uma forma com os procedimentos descritos anteriormente.
   
-CALLTHIS ("ThisDocument. A",)
+CALLTHIS("ThisDocument.A",)
   
-CALLTHIS ("ThisDocument. B", "clique")
+CALLTHIS("ThisDocument.B",,"Click")
   
 CALLTHIS("Este documento.C",,"Clique", " OK.")
   

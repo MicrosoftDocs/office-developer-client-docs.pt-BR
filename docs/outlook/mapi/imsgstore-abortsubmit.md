@@ -39,15 +39,15 @@ AbortSubmit(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada da mensagem a ser removida da fila de saída. 
+> [in] Um ponteiro para o identificador de entrada da mensagem a ser removido da fila de saída. 
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,19 +57,19 @@ S_OK
     
 MAPI_E_NOT_IN_QUEUE 
   
-> A mensagem identificada por _lpEntryID_ não está mais na fila de saída do repositório de mensagens, geralmente porque já foi enviada. 
+> A mensagem identificada por  _lpEntryID_ não está mais na fila de saída do armazenamento de mensagens, normalmente porque ela já foi enviada. 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> A mensagem identificada por _lpEntryID_ é bloqueada pelo spooler MAPI, e a operação não pode ser anulada. 
+> A mensagem identificada por  _lpEntryID_ é bloqueada pelo spooler MAPI e a operação não pode ser anulada. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore:: AbortSubmit** tenta remover uma mensagem enviada da fila de saída do armazenamento de mensagens. 
+O **método IMsgStore::AbortSubmit** tenta remover uma mensagem enviada da fila de saída do repositório de mensagens. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Depois que uma mensagem é enviada, a anulação do envio chamando **AbortSubmit** é a única ação que pode ser executada na mensagem. Não espere que o **AbortSubmit** sempre seja bem-sucedido. Dependendo de como o sistema de mensagens subjacente é implementado, talvez não seja possível cancelar o envio da mensagem. 
+Depois que uma mensagem é enviada, a anulação do envio chamando **AbortSubmit** é a única ação que pode ser executada na mensagem. Não espere que **AbortSubmit** seja sempre bem-sucedido. Dependendo de como o sistema de mensagens subjacente é implementado, talvez não seja possível cancelar o envio da mensagem. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -77,7 +77,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI usa o método **IMsgStore:: AbortSubmit** para anular o envio da mensagem selecionada.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa o **método IMsgStore::AbortSubmit** para anular o envio da mensagem selecionada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

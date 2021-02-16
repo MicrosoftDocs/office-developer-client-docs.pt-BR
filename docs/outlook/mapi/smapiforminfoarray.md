@@ -25,11 +25,11 @@ ms.locfileid: "33416969"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de ponteiros para objetos de informação de formulário. 
+Contém uma matriz de ponteiros para objetos de informações de formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
@@ -45,15 +45,15 @@ typedef struct
 
  **cForms**
   
-> Contagem de ponteiros na matriz apontada pelo membro **aFormInfo** . 
+> Contagem de ponteiros na matriz apontada pelo membro **aFormInfo.** 
     
  **aFormInfo**
   
-> Ponteiro para uma matriz de ponteiros para objetos de informação de formulário.
+> Ponteiro para uma matriz de ponteiros para objetos de informações de formulário.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SMAPIFormInfoArray** é passada como um parâmetro nos seguintes métodos: 
+A **estrutura SMAPIFormInfoArray** é passada como um parâmetro nos seguintes métodos: 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     

@@ -22,8 +22,8 @@ Mostra os atributos de formatação de parágrafo do texto de uma forma, como re
   
 ## <a name="remarks"></a>Comentários
 
-Os formatos de parágrafo podem ser definidos fazendo uma entrada em uma célula de seção de **parágrafo** , aplicando um estilo de texto ou digitando valores na caixa de diálogo **texto** (na guia **página inicial** , clique no iniciador da caixa de diálogo no grupo **fonte** ). 
+Os formatos de parágrafo podem ser definidos fazendo uma entrada em uma célula  da seção **Paragraph**  aplicando um estilo de texto  ou inserindo valores na caixa de diálogo Texto (na guia Início, clique no início da caixa de diálogo no grupo Fonte). 
   
-A seção **Paragraph** não inclui células para configurações de tabulação. Para definir tabulações para um texto de forma, use a caixa de diálogo **Texto**. 
+A **seção Paragraph** não inclui células para configurações de tabulação. Para definir tabulações para um texto de forma, use a caixa de diálogo **Texto**. 
   
 

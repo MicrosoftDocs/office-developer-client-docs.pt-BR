@@ -29,7 +29,7 @@ Descreve uma propriedade nomeada usada com um formulário.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormProp
@@ -56,11 +56,11 @@ typedef struct _SMAPIFormProp
 
  **ulFlags**
   
-> Sinalizadores usados para distinguir o formato das cadeias de caracteres na estrutura **SMAPIFormProp** . O seguinte sinalizador pode ser definido: 
+> Sinalizadores usados para distinguir o formato das cadeias de caracteres na **estrutura SMAPIFormProp.** O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se MAPI_UNICODE não for definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  **nPropType**
   
@@ -76,35 +76,35 @@ MAPI_UNICODE
     
  **nSpecialType**
   
-> Valor que descreve o tipo de dados incluído no membro **u** . Os valores possíveis são os seguintes: 
+> Valor que descreve o tipo de dados incluídos no **membro u.** Os valores possíveis são: 
     
 FPST_VANILLA 
   
-> O membro **u** não contém uma enumeração. 
+> O **membro u** não contém uma enumeração. 
     
 FPST_ENUM_PROP 
   
-> O membro **u** contém uma estrutura que descreve uma enumeração. 
+> O **membro u** contém uma estrutura que descreve uma enumeração. 
     
  **u**
   
-> União descrevendo a associação entre o nome e o número da propriedade nomeada. Usando algumas propriedades, o membro **u** está vazio. Com outras propriedades, ela é representada em uma estrutura que consiste nos seguintes membros: 
+> União que descreve a associação entre o nome e o número da propriedade nomeada. Usando algumas propriedades, o **membro u** fica vazio. Com outras propriedades, ela é representada em uma estrutura que consiste nos seguintes membros: 
     
  **nmidIdx**
   
-> A estrutura [MAPINAMEID](mapinameid.md) que contém o conjunto de propriedades e o identificador da propriedade nomeada. 
+> A [estrutura MAPINAMEID](mapinameid.md) que contém o conjunto de propriedades e o identificador da propriedade nomeada. 
     
  **cfpevAvailable**
   
-> Contagem de estruturas [SMAPIFormPropEnumVal](smapiformpropenumval.md) na matriz apontada pelo membro **pfpevAvailable** . 
+> Contagem de [estruturas SMAPIFormPropEnumVal](smapiformpropenumval.md) na matriz apontada pelo **membro pfpevAvailable.** 
     
  **pfpevAvailable**
   
-> Ponteiro para uma matriz de estruturas **SMAPIFormPropEnumVal** , cada uma delas armazena um valor para a propriedade named. 
+> Ponteiro para uma matriz de **estruturas SMAPIFormPropEnumVal,** cada uma das quais contém um valor para a propriedade nomeada. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SMAPIFormProp** contém informações sobre uma propriedade de formulário usada como parte das definições da interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contém uma marca que se aplica à União **u** que faz parte de **SMAPIFormProp**.
+A **estrutura SMAPIFormProp** contém informações sobre uma propriedade de formulário usada como parte das definições da interface [IMAPIFormInfo;](imapiforminfoimapiprop.md) **nSpecialType** contém uma marca que se aplica à **união u** que faz parte de **SMAPIFormProp**.
   
 ## <a name="see-also"></a>Confira também
 

@@ -29,7 +29,7 @@ Contém um identificador de entrada para um objeto MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewENTRYID](cbnewentryid.md), [SizedENTRYID](sizedentryid.md) <br/> |
    
 ```cpp
@@ -45,11 +45,11 @@ typedef struct
 
  **abFlags**
   
-> Bitmask de sinalizadores que fornecem informações que descrevem o objeto. Somente o primeiro byte dos sinalizadores, **abFlags [0]**, pode ser definido pelo provedor; os outros três são reservados. Esses sinalizadores não devem ser definidos para identificadores de entradas permanentes; Eles são definidos apenas para identificadores de entrada de curto prazo. Para clientes, essa estrutura é somente leitura. Os seguintes sinalizadores podem ser definidos no **abFlags [0]**:
+> Máscara de bits de sinalizadores que fornecem informações que descrevem o objeto. Somente o primeiro byte dos sinalizadores, **abFlags[0]**, pode ser definido pelo provedor; os outros três são reservados. Esses sinalizadores não devem ser definidos para identificadores de entrada permanente; eles são definidos apenas para identificadores de entrada de curto prazo. Para clientes, essa estrutura é somente leitura. Os sinalizadores a seguir podem ser **definidos em abFlags[0]**:
     
 MAPI_NOTRECIP 
   
-> O identificador de entrada não pode ser usado como um destinatário em uma mensagem.
+> O identificador de entrada não pode ser usado como destinatário em uma mensagem.
     
 MAPI_NOTRESERVED 
   
@@ -57,31 +57,31 @@ MAPI_NOTRESERVED
     
 MAPI_NOW 
   
-> O identificador de entrada não pode ser usado em outros momentos.
+> O identificador de entrada não pode ser usado em outras ocasiões.
     
 MAPI_SHORTTERM 
   
-> O identificador de entrada é de curto prazo. Todos os outros valores nesse byte devem ser definidos, a menos que outros usos do identificador de entrada estejam habilitados.
+> O identificador de entrada é de curto prazo. Todos os outros valores nesse byte devem ser definidos, a menos que outros usos do identificador de entrada sejam habilitados.
     
 MAPI_THISSESSION 
   
 > O identificador de entrada não pode ser usado em outras sessões.
     
- **AB**
+ **ab**
   
-> Indica uma matriz de dados binários que é usada por provedores de serviços. O aplicativo cliente não pode usar essa matriz.
+> Indica uma matriz de dados binários usados pelos provedores de serviços. O aplicativo cliente não pode usar essa matriz.
     
 ## <a name="remarks"></a>Comentários
 
-A **** estrutura ENTRYID é usada por provedores de repositório de mensagens e de catálogo de endereços para construir identificadores exclusivos para seus objetos. Os identificadores de entrada são usados para identificar os seguintes tipos de objetos: 
+A **estrutura ENTRYID** é usada por provedores de armazenamento de mensagens e de address book para construir identificadores exclusivos para seus objetos. Os identificadores de entrada são usados para identificar os seguintes tipos de objetos: 
   
-- Repositórios de mensagens
+- Armazenamentos de mensagens
     
 - Folders
     
 - Mensagens
     
-- Contêineres do catálogo de endereços
+- Contêineres do livro de endereços
     
 - Listas de distribuição
     
@@ -91,31 +91,31 @@ A **** estrutura ENTRYID é usada por provedores de repositório de mensagens e 
     
 - Seções de perfil
     
-Cada provedor usa um formato para a **** estrutura ENTRYID que faz sentido para esse provedor. 
+Cada provedor usa um formato para a **estrutura ENTRYID** que faz sentido para esse provedor. 
   
-Os identificadores de entrada não podem ser comparados diretamente porque um objeto pode ser representado por dois valores binários diferentes. Para determinar se dois identificadores de entrada representam o mesmo objeto, chame o método [IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md) . 
+Os identificadores de entrada não podem ser comparados diretamente porque um objeto pode ser representado por dois valores binários diferentes. Para determinar se dois identificadores de entrada representam o mesmo objeto, chame o método [IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
   
-Quando um cliente chama o método [IMAPIProp::](imapiprop-getprops.md) GetProps de um objeto para recuperar seu identificador de entrada, o objeto retorna a forma mais permanente do identificador de entrada. Um cliente pode verificar se um identificador de entrada é de longo prazo, verificando se nenhum dos sinalizadores está definido no primeiro byte do membro **abFlags** . 
+Quando um cliente chama o método [IMAPIProp::GetProps](imapiprop-getprops.md) de um objeto para recuperar seu identificador de entrada, o objeto retorna a forma mais permanente do identificador de entrada. Um cliente pode verificar se um identificador de entrada é de longo prazo verificando se nenhum dos sinalizadores está definido no primeiro byte do membro **abFlags.** 
   
-Quando um cliente acessa um identificador de entrada por meio de uma coluna em uma tabela, provavelmente esse identificador de entrada é de curto prazo em vez de longo prazo. Identificadores de entrada de curto prazo podem ser usados para abrir seus objetos correspondentes apenas na sessão MAPI atual. Um cliente pode verificar se um identificador de entrada é de curto prazo verificando se todos os sinalizadores estão definidos no primeiro byte do membro **abFlags** . 
+Quando um cliente acessa um identificador de entrada por meio de uma coluna em uma tabela, provavelmente esse identificador de entrada é de curto prazo em vez de longo prazo. Identificadores de entrada de curto prazo podem ser usados para abrir seus objetos correspondentes somente na sessão MAPI atual. Um cliente pode verificar se um identificador de entrada é de curto prazo verificando se todos os sinalizadores estão definidos no primeiro byte do membro **abFlags.** 
   
-Alguns identificadores de entrada são de curto prazo, mas têm uso de longo prazo. Esse identificador de entrada terá um ou mais dos sinalizadores apropriados definidos no primeiro byte de seu membro **abFlags** . 
+Alguns identificadores de entrada são de curto prazo, mas têm uso de longo prazo. Esse identificador de entrada terá um ou mais sinalizadores apropriados definidos no primeiro byte de **seu membro abFlags.** 
   
-Uma **** estrutura ENTRYID é semelhante a uma estrutura [FLATENTRY](flatentry.md) . No enTanto, há algumas diferenças: 
+Uma **estrutura ENTRYID** se parece com uma [estrutura FLATENTRY.](flatentry.md) No entanto, há algumas diferenças: 
   
-- Uma **** estrutura ENTRYID não armazena o tamanho do identificador de entrada; uma estrutura **FLATENTRY** . 
+- Uma **estrutura ENTRYID** não armazena o tamanho do identificador de entrada; uma **estrutura FLATENTRY** faz. 
     
-- Uma **** estrutura ENTRYID armazena os dados de sinalizador e o restante do identificador de entrada separadamente; uma estrutura **FLATENTRY** armazena os dados de sinalizador com o resto do identificador de entrada. 
+- Uma **estrutura ENTRYID** armazena os dados de sinalizador e o restante do identificador de entrada separadamente; uma **estrutura FLATENTRY** armazena os dados de sinalizador com o restante do identificador de entrada. 
     
-- Uma **** estrutura ENTRYID é passada como um parâmetro para os métodos da interface [IMAPIProp](imapipropiunknown.md) e para os seguintes métodos **OpenEntry** : [IABLogon:: OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry ](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [IMAPISupport:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), [IMSLogon::](imslogon-openentry.md) OpenEntry
+- Uma estrutura **ENTRYID** é passada como um parâmetro para os métodos da interface [IMAPIProp](imapipropiunknown.md) e para os seguintes métodos **OpenEntry:** [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     
-- Uma **** estrutura ENTRYID é usada para armazenar um identificador de entrada no disco. Uma estrutura **FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes. 
+- Uma **estrutura ENTRYID** é usada para armazenar um identificador de entrada no disco. Uma **estrutura FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes. 
     
-Os clientes devem sempre passar por identificadores de entrada alinhados naturalmente. Embora os provedores manipulem identificadores de entrada com alinhamento arbitrária, os clientes não devem esperar esse comportamento. A falha ao passar um identificador de entrada alinhada para um método pode causar uma falha de alinhamento nos processadores RISC. 
+Os clientes sempre devem passar identificadores de entrada alinhados naturalmente. Embora os provedores deverão lidar com identificadores de entrada arbitrariamente alinhados, os clientes não devem esperar esse comportamento. Falha ao passar um bom identificador de entrada alinhada para um método pode causar uma falha de alinhamento em processadores RISC. 
   
-O fator de alinhamento natural, geralmente 8 bytes, é o maior tipo de dados suportado pela CPU e, normalmente, o mesmo fator de alinhamento usado pelo alocador de memória do sistema. Um endereço de memória logicamente alinhado permite que a CPU acesse qualquer tipo de dados compatível com esse endereço sem gerar uma falha de alinhamento. Para CPUs RISC, um tipo de dados de tamanho N bytes geralmente deve ser alinhado em um múltiplo par de N bytes, sendo que o endereço é um múltiplo de N.
+O fator de alinhamento natural, normalmente 8 bytes, é o maior tipo de dados suportado pela CPU, e geralmente o mesmo fator de alinhamento usado pelo alocador de memória do sistema. Um endereço de memória alinhado naturalmente permite que a CPU acesse qualquer tipo de dados compatível com esse endereço sem gerar uma falha de alinhamento. Para CPUs risc, um tipo de dados de tamanho N bytes geralmente deve ser alinhado em um múltiplo de N bytes, com o endereço sendo um múltiplo de N até mesmo.
   
-Para obter mais informações, consulte identificadores de [entrada](mapi-entry-identifiers.md). 
+Para obter mais informações, consulte [Identificadores de entrada.](mapi-entry-identifiers.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
-description: Especifica se é para usar a autenticação da conta SMTP.
+description: Especifica se a autenticação deve ser usada para a conta SMTP.
 ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413091"
 ---
-# <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
+# <a name="prop_smtp_use_auth"></a>PROP_SMTP_USE_AUTH
 
-Especifica se é para usar a autenticação da conta SMTP.
+Especifica se a autenticação deve ser usada para a conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -29,7 +29,7 @@ Especifica se é para usar a autenticação da conta SMTP.
    
 ## <a name="remarks"></a>Comentários
 
-Um valor zero significa não usar a autenticação, caso contrário, use a autenticação.
+Um valor zero significa não usar autenticação; caso contrário, use autenticação.
   
 ## <a name="see-also"></a>Confira também
 

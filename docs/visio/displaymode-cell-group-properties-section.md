@@ -20,15 +20,15 @@ ms.locfileid: "33413182"
 
 Determina como a forma do grupo e seus membros são exibidos.
   
-|**Valor**|**Modo de exibição**|**Constante de automação**|
+|**Valor**|**Modo de Exibição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Oculta o texto e a forma do grupo.  <br/> |**visGrpDispModeNone** <br/> |
-|1  <br/> |Exibe a forma do grupo atrás das formas dos membros.  <br/> |**visGrpDispModeBack** <br/> |
-|duas  <br/> |Exibe a forma do grupo na frente das formas dos membros.  <br/> |**visGrpDispModeFront** <br/> |
+|0  <br/> |Oculta o texto e a forma do grupo.  <br/> |**visGrpDispModeNone** <br/> |
+|1   <br/> |Exibe a forma do grupo atrás das formas dos membros.  <br/> |**visGrpDispModeBack** <br/> |
+|2   <br/> |Exibe a forma do grupo na frente das formas dos membros.  <br/> |**visGrpDispModeFront** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor selecionando o grupo, clicando em **comportamento** no grupo **design da forma** na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, selecionando um modo de exibição na lista dados do **grupo** . 
+Você também pode definir esse valor selecionando o grupo, clicando em Comportamento no grupo **Design** da Forma na guia Desenvolvedor e selecionando um modo de exibição na lista de dados **do** grupo.  [](run-in-developer-mode-display-the-developer-tab.md) 
   
 Para obter uma referência para a célula DisplayMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

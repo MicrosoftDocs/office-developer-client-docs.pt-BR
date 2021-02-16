@@ -25,7 +25,7 @@ ms.locfileid: "33417158"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Modifica a tabela status adicionando uma nova linha ou modificando uma linha existente.
+Modifica a tabela de status adicionando uma nova linha ou modificando uma linha existente.
   
 ```cpp
 HRESULT ModifyStatusRow(
@@ -39,19 +39,19 @@ ULONG ulFlags
 
  _cValues_
   
-> no A contagem de propriedades a serem incluídas na linha da tabela de status novo ou modificado. 
+> [in] A contagem de propriedades a serem incluídas na linha da tabela de status nova ou modificada. 
     
  _lpColumnVals_
   
-> no Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem incluídas como colunas na linha da tabela de status novo ou modificado.
+> [in] Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem incluídas como colunas na linha de tabela de status nova ou modificada.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como as informações que definem a linha da tabela de status são processadas. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla como as informações que definem a linha da tabela de status são processadas. O sinalizador a seguir pode ser definido:
     
 STATUSROW_UPDATE 
   
-> Direciona o MAPI a mesclar as propriedades incluídas na matriz apontadas por _lpColumnVals_ com uma linha de tabela de status existente, e não em uma nova linha. 
+> Direciona o MAPI para mesclar as propriedades incluídas na matriz apontada por  _lpColumnVals_ com uma linha de tabela de status existente, em vez de em uma nova linha. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,15 +61,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: ModifyStatusRow** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços chamam **ModifyStatusRow** no momento do logon para adicionar uma linha à tabela de status e em outros momentos durante a sessão para atualizar a linha. O **ModifyStatusRow** fornece MAPI com as informações necessárias para criar a tabela de status. 
+O **método IMAPISupport::ModifyStatusRow** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços chamam **ModifyStatusRow** no momento do logon para adicionar uma linha à tabela de status e em outras ocasiões durante a sessão para atualizar a linha. **ModifyStatusRow** fornece MAPI com as informações necessárias para criar a tabela de status. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Defina o sinalizador STATUSROW_UPDATE quando você chamar **ModifyStatusRow** para fazer alterações nas propriedades da linha da tabela de status existente. Isso informa ao MAPI que apenas as colunas que estão sendo alteradas são passadas no parâmetro _lpColumnVals_ . 
+De definida STATUSROW_UPDATE sinalizador de status quando você chamar **ModifyStatusRow** para fazer alterações nas propriedades na linha da tabela de status existente. Isso informa AO MAPI que somente as colunas que estão sendo alteradas são passadas no parâmetro _lpColumnVals._ 
   
-Os clientes podem usar as informações na tabela de status para acessar o objeto status. 
+Os clientes podem usar as informações na tabela de status para acessar seu objeto de status. 
   
-Para obter uma lista completa das colunas que devem ser incluídas na linha da tabela de status, consulte [tabelas de status](status-tables.md).
+Para uma lista completa de colunas que você deve incluir na linha da tabela de status, consulte [Tabelas de Status.](status-tables.md)
   
 ## <a name="see-also"></a>Confira também
 

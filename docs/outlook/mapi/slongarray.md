@@ -25,11 +25,11 @@ ms.locfileid: "33414526"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de tipos de valor longo que são usados para descrever uma propriedade do tipo PT_MV_LONG. 
+Contém uma matriz de tipos de valor LONG que são usados para descrever uma propriedade do tipo PT_MV_LONG. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -44,15 +44,15 @@ typedef struct _SLongArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **LPL** . 
+> Contagem de valores na matriz apontada pelo membro **lpl.** 
     
- **LPL**
+ **lpl**
   
 > Ponteiro para uma matriz de valores LONG.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre o PT_MV_LONG, confira [lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre PT_MV_LONG, consulte [Lista de tipos de propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

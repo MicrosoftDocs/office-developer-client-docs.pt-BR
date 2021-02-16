@@ -1,5 +1,5 @@
 ---
-title: Função Upper (aplicativo da Web personalizado do Access)
+title: Função Upper (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413434"
 ---
-# <a name="upper-function-access-custom-web-app"></a>Função Upper (aplicativo da Web personalizado do Access)
+# <a name="upper-function-access-custom-web-app"></a>Função Upper (aplicativo Web personalizado do Access)
 
 Retorna uma expressão de texto com dados de caracteres minúsculos convertidos em maiúsculas.
   
@@ -23,9 +23,9 @@ Retorna uma expressão de texto com dados de caracteres minúsculos convertidos 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Superior** (*TextName*) 
+ **Superior** (*TextExpression*) 
   
-A função **Upper** contém o argumento a seguir. 
+A **função Superior** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|

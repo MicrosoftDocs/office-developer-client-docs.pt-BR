@@ -23,15 +23,15 @@ Determina o estilo de salto da linha para os saltos de linha em um conector din�
 |**Valor**|**Estilo de salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
 |0  <br/> |Padrão da página  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|2  <br/> |Lacuna  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |Quadrado  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |Triângulo  <br/> |**visLOJumpStyleTriangle** <br/> |
-|5  <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
-|6  <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |
-|7  <br/> |5 lados  <br/> |**visLOJumpStyle4Point** <br/> |
-|8  <br/> |6 lados  <br/> |**visLOJumpStyle5Point** <br/> |
-|9  <br/> |7 lados  <br/> |**visLOJumpStyle6Point** <br/> |
+|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2   <br/> |Lacuna  <br/> |**visLOJumpStyleGap** <br/> |
+|3   <br/> |Quadrado  <br/> |**visLOJumpStyleSquare** <br/> |
+|4   <br/> |Triângulo  <br/> |**visLOJumpStyleTriangle** <br/> |
+|5   <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
+|6   <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |
+|7   <br/> |5 lados  <br/> |**visLOJumpStyle4Point** <br/> |
+|8   <br/> |6 lados  <br/> |**visLOJumpStyle5Point** <br/> |
+|9   <br/> |7 lados  <br/> |**visLOJumpStyle6Point** <br/> |
    
 |||
 |:-----|:-----|

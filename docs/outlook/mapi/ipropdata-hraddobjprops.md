@@ -38,11 +38,11 @@ HRESULT HrAddObjProps(
 
  _lpPropTagArray_
   
-> no Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades a serem adicionadas.
+> [in] Um ponteiro para uma matriz de marcas de propriedade que indicam as propriedades a adicionar.
     
  _lppProblems_
   
-> [in, out] Na entrada, um ponteiro válido para uma estrutura [SPropProblemArray](spropproblemarray.md) ou nulo. Na saída, um ponteiro para um ponteiro para uma estrutura que contém informações sobre propriedades que não puderam ser adicionadas ou nulos. Um ponteiro para uma estrutura de conjunto de problemas de propriedade é retornado somente se um ponteiro válido é passado. 
+> [in, out] Na entrada, um ponteiro válido para uma [estrutura SPropProblemArray](spropproblemarray.md) ou NULL. Na saída, um ponteiro para um ponteiro para uma estrutura que contém informações sobre propriedades que não puderam ser adicionadas ou NULL. Um ponteiro para uma estrutura de matriz do problema de propriedade será retornado somente se um ponteiro válido for passado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,7 +52,7 @@ S_OK
     
 MAPI_E_INVALID_TYPE 
   
-> Um tipo de propriedade diferente de PT_OBJECT foi passado na matriz à qual o parâmetro _lpPropTagArray_ aponta. 
+> Um tipo de propriedade diferente PT_OBJECT foi passado na matriz para a qual o parâmetro  _lpPropTagArray_ aponta. 
     
 MAPI_E_NO_ACCESS 
   
@@ -60,17 +60,17 @@ MAPI_E_NO_ACCESS
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> Algumas das propriedades foram adicionadas, mas não todas.
+> Algumas, mas não todas, das propriedades foram adicionadas.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IPropData:: HrAddObjProps** adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto. **HrAddObjProps** fornece uma alternativa para o método [IMAPIProp::](imapiprop-setprops.md) SetProps para propriedades de objeto, pois as propriedades do objeto não podem **** ser criadas chamando SetProps. Adicionar uma propriedade de objeto resulta na marca de propriedade que está sendo incluída na lista de marcas de propriedade que o método [IMAPIProp::](imapiprop-getproplist.md) getproplist retorna. 
+O **método IPropData::HrAddObjProps** adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto. **HrAddObjProps** fornece uma alternativa ao método [IMAPIProp::SetProps](imapiprop-setprops.md) para propriedades de objeto, porque as propriedades do objeto não podem ser criadas chamando **SetProps**. A adição de uma propriedade de objeto resulta na marca de propriedade que está sendo incluída na lista de marcas de propriedade que o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) retorna. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se **HrAddObjProps** retornar MAPI_W_PARTIAL_COMPLETION e você tiver definido _lppProblems_ para um ponteiro válido, verifique a estrutura [SPropProblemArray](spropproblemarray.md) retornada para descobrir quais propriedades não foram adicionadas. Normalmente, o único problema que ocorre é falta de memória. Libere a estrutura **SPropProblemArray** chamando a função [MAPIFreeBuffer](mapifreebuffer.md) quando tiver concluído. 
+Se **HrAddObjProps** retornar MAPI_W_PARTIAL_COMPLETION e você tiver definido  _lppProblems_ como um ponteiro válido, verifique a estrutura [SPropProblemArray](spropproblemarray.md) retornada para descobrir quais propriedades não foram adicionadas. Normalmente, o único problema que ocorre é a falta de memória. Free the **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function when you are finished with it. 
   
-Para adicionar uma propriedade, o objeto de destino deve ter permissão de leitura/gravação. Se **HrAddObjProps** retornar MAPI_E_NO_ACCESS, você não poderá adicionar propriedades ao objeto porque ele não permite modificações. Para obter permissão de leitura/gravação para um objeto antes de chamar **HrAddObjProps**, chame [IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md) e defina o parâmetro _ulAccess_ como IPROP_READWRITE. 
+Para adicionar uma propriedade, o objeto de destino deve ter permissão de leitura/gravação. Se **HrAddObjProps** retornar MAPI_E_NO_ACCESS, você não poderá adicionar propriedades ao objeto porque ele não permite modificação. Para obter permissão de leitura/gravação para um objeto antes de chamar **HrAddObjProps**, chame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) e de definir o  _parâmetro ulAccess_ como IPROP_READWRITE. 
   
 ## <a name="see-also"></a>Confira também
 

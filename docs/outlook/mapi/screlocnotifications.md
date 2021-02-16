@@ -25,11 +25,11 @@ ms.locfileid: "33415198"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ajusta um ponteiro dentro de uma matriz de notificação de eventos especificada. 
+Ajusta um ponteiro dentro de uma matriz de notificação de evento especificada. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,25 +45,25 @@ SCODE ScRelocNotifications(
 
 ## <a name="parameters"></a>Parâmetros
 
- _CNTF_
+ _cntf_
   
-> no Contagem de estruturas de [notificação](notification.md) na matriz indicada pelo parâmetro _rgntf_ . 
+> [in] Contagem de [estruturas](notification.md) NOTIFICATION na matriz indicada pelo _parâmetro rgntf._ 
     
  _rgntf_
   
-> no Ponteiro para a matriz de estruturas de **notificação** definindo notificações de eventos em que um ponteiro deve ser ajustado. 
+> [in] Ponteiro para a matriz de estruturas **notification** definindo notificações de evento dentro da qual um ponteiro deve ser ajustado. 
     
  _pvBaseOld_
   
-> no Ponteiro para o endereço base original da matriz indicada pelo parâmetro _rgntf_ . 
+> [in] Ponteiro para o endereço base original da matriz indicado pelo _parâmetro rgntf._ 
     
  _pvBaseNew_
   
-> no O local para o qual o **ScRelocNotifications** grava o novo endereço base da matriz indicada pelo parâmetro _rgntf_ . 
+> [in] O local no qual **ScRelocNotifications** grava o novo endereço base da matriz indicado pelo _parâmetro rgntf._ 
     
- _PCB_
+ _pcb_
   
-> bota Ponteiro para o tamanho, em bytes, da matriz indicada pelo parâmetro _pvBaseNew_ . 
+> [out] Ponteiro para o tamanho, em bytes, da matriz indicada pelo _parâmetro pvBaseNew._ 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -77,7 +77,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-O parâmetro _PCB_ para a função **ScRelocNotifications** é opcional. 
+O  _parâmetro pcb_ para a **função ScRelocNotifications** é opcional. 
   
 ## <a name="see-also"></a>Confira também
 

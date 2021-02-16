@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415954"
 ---
-# <a name="tablenotification"></a>TABLE_NOTIFICATION
+# <a name="table_notification"></a>TABLE_NOTIFICATION
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -27,7 +27,7 @@ Descreve uma linha em uma tabela que foi afetada por algum tipo de evento, como 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _TABLE_NOTIFICATION
@@ -45,11 +45,11 @@ typedef struct _TABLE_NOTIFICATION
 
 **ulTableEvent**
   
-> Bitmask dos sinalizadores usados para representar o tipo de evento Table. Os seguintes sinalizadores podem ser definidos:
+> Bitmask de sinalizadores usados para representar o tipo de evento de tabela. Os sinalizadores a seguir podem ser definidos:
     
 TABLE_CHANGED 
   
-> Indica em um nível alto que algo sobre a tabela foi alterado. O estado da tabela é como era antes do evento. Isso significa que todas as propriedades de **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), indicadores, posicionamento atual e seleções de interface do usuário ainda são válidas. Manipule esse evento relendo a tabela. Os provedores de serviços que não querem implementar notificações de tabela rica enviam eventos TABLE_CHANGED em vez de eventos mais detalhados para indicar um tipo específico de alteração. 
+> Indica em um nível alto que algo sobre a tabela foi alterado. O estado da tabela é como era antes do evento. Isso significa que **todas PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) , indicadores, posicionamento atual e seleções de interface do usuário ainda são válidas. Manipular esse evento relendo a tabela. Os provedores de serviços que não querem implementar notificações de tabelas detalhadas enviam TABLE_CHANGED eventos em vez de eventos mais detalhados para indicar um tipo específico de alteração. 
     
 TABLE_ERROR 
   
@@ -61,73 +61,73 @@ TABLE_ERROR
     
    - [IMAPITable::Restrict](imapitable-restrict.md)
     
-   Após receber um evento TABLE_ERROR, um cliente não pode depender da precisão do conteúdo da tabela. Além disso, as notificações pendentes sobre outras alterações podem ser perdidas. O método imApitable [:: GetLastError](imapitable-getlasterror.md) pode não fornecer informações adicionais sobre o erro, pois ele foi gerado em algum ponto anterior, não necessariamente da última chamada do método. 
+   Depois de receber TABLE_ERROR evento, um cliente não pode confiar na precisão do conteúdo da tabela. Além disso, as notificações pendentes sobre outras alterações podem ser perdidas. O [método IMAPITable::GetLastError](imapitable-getlasterror.md) pode não fornecer informações adicionais sobre o erro porque ele foi gerado em algum ponto anterior, não necessariamente a partir da última chamada de método. 
     
 TABLE_RELOAD 
   
-> Os dados da tabela devem ser recarregados. Os provedores de serviços enviam TABLE_RELOAD Quando, por exemplo, os dados subjacentes são armazenados em um banco de dados e o banco de dados é substituído. Manipule esse evento supondo que nada sobre a tabela ainda seja válido e releia a tabela. Todos os indicadores, as teclas de instância, o status e as informações de posicionamento são inválidos.
+> Os dados na tabela devem ser recarregados. Os provedores de serviços enviam TABLE_RELOAD quando, por exemplo, os dados subjacentes são armazenados em um banco de dados e o banco de dados é substituído. Manipular esse evento supondo que nada sobre a tabela ainda seja válido e relendo a tabela. Todos os indicadores, chaves de instância, informações de status e posicionamento são inválidos.
     
 TABLE_RESTRICT_DONE 
   
-> Uma operação de restrição iniciada com uma chamada de método imApitable **:: Restrict** foi concluída. 
+> Uma operação de restrição iniciada com uma chamada de método **IMAPITable::Restrict** foi concluída. 
     
 TABLE_ROW_ADDED 
   
-> Uma nova linha foi adicionada à tabela e o objeto correspondente foi salvo. Eventos TABLE_ROW_ADDED são gerados após uma chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+> Uma nova linha foi adicionada à tabela e o objeto correspondente foi salvo. TABLE_ROW_ADDED eventos são gerados após uma chamada para o [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
     
 TABLE_ROW_DELETED 
   
-> Uma linha foi removida da tabela. O membro **propPrior** está definido como nulo. 
+> Uma linha foi removida da tabela. O **membro propPrior** é definido como NULL. 
     
 TABLE_ROW_MODIFIED 
   
-> Uma linha foi alterada. O membro **Row** contém as propriedades afetadas para a linha. Vários eventos TABLE_ROW_MODIFIED são enviados na ordem em que aparecem no modo de exibição de tabela. 
+> Uma linha foi alterada. O **membro** da linha contém as propriedades afetadas para a linha. Vários TABLE_ROW_MODIFIED eventos são enviados na ordem em que aparecem no modo de exibição de tabela. 
     
-  Os eventos TABLE_ROW_MODIFIED são enviados após as alterações no objeto correspondente terem sido confirmadas com uma chamada para o método **IMAPIProp:: SaveChanges** . Se a linha modificada agora for a primeira linha na tabela, o valor da marca de propriedade no membro **propPrior** será **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+  TABLE_ROW_MODIFIED eventos são enviados depois que as alterações no objeto correspondente são comprometidas com uma chamada para o método **IMAPIProp::SaveChanges.** Se a linha modificada agora for a primeira linha na tabela, o valor da marca de propriedade no membro **propPrior** **será PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
     
 TABLE_SETCOL_DONE 
   
-> Uma operação de configuração de coluna iniciada com uma chamada de método imApitable **::** SetColumns foi concluída. 
+> Uma operação de configuração de coluna iniciada com uma chamada do método **IMAPITable::SetColumns** foi concluída. 
     
 TABLE_SORT_DONE 
   
-> Uma operação de classificação de tabela iniciada com uma chamada de método imApitable **:: SortTable** foi concluída. 
+> Uma operação de classificação de tabela iniciada com uma chamada de método **IMAPITable::SortTable** foi concluída. 
     
-**And**
+**hResult**
   
-> Valor HRESULT para o erro que ocorreu, se o membro **ulTableEvent** estiver definido como TABLE_ERROR. 
+> Valor HRESULT do erro ocorrido, se o **membro ulTableEvent** estiver definido como TABLE_ERROR. 
     
 **propIndex**
   
-> Estrutura [SPropValue](spropvalue.md) para a propriedade **PR_INSTANCE_KEY** da linha afetada. 
+> [Estrutura SPropValue](spropvalue.md) para a **PR_INSTANCE_KEY** propriedade da linha afetada. 
     
 **propPrior**
   
-> Estrutura **SPropValue** da propriedade **PR_INSTANCE_KEY** da linha antes da afetada. Se a linha afetada for a primeira linha na tabela, **propPrior** deverá ser definido como **PR_NULL** e não como zero. Zero não é uma marca de propriedade válida. 
+> **Estrutura SPropValue** para a **PR_INSTANCE_KEY** propriedade da linha antes da afetada. Se a linha afetada for a primeira linha na tabela, **propPrior** deverá ser definido como **PR_NULL** e não como zero. Zero não é uma marca de propriedade válida. 
     
-**Row**
+**row**
   
-> Estrutura [SRow](srow.md) descrevendo a linha afetada. Essa estrutura é preenchida para todos os eventos de notificação de tabela. Para eventos de notificação de tabela que não passam dados de linha, o membro **cValues** da estrutura **SRow** é definido como zero e o membro **lpProps** é definido como nulo. Como essa estrutura **SRow** é somente leitura; Os clientes devem fazer uma cópia deles se desejarem fazer modificações. A função [ScDupPropset](scduppropset.md) pode ser usada para fazer a cópia. 
+> [Estrutura SRow](srow.md) que descreve a linha afetada. Essa estrutura é preenchida para todos os eventos de notificação de tabela. Para eventos de notificação de tabela que não passam dados de linha, o membro **cValues** da estrutura **SRow** é definido como zero e o membro **lpProps** é definido como NULL. Como essa **estrutura SRow** é somente leitura; os clientes devem fazer uma cópia se quiserem fazer modificações. A [função ScDupPropset](scduppropset.md) pode ser usada para fazer a cópia. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura de **notificação de\_tabela** é um dos membros da União de estruturas incluído no membro **info** da estrutura de [notificação](notification.md) . O membro **info** inclui uma estrutura de **notificação de\_tabela** quando o membro **ulEventType** da estrutura é definido como _fnevTableModified_.
+A **estrutura \_ DE NOTIFICAÇÃO** DE TABELA é um dos membros da união de estruturas incluídas no membro **de** informações da estrutura [NOTIFICATION.](notification.md) O **membro** de informações inclui uma estrutura **DE \_ NOTIFICAÇÃO DE** TABELA quando o membro **ulEventType** da estrutura é definido como  _fnevTableModified_.
   
-A ordem e o tipo de colunas no membro da linha refletem a ordem e o tipo que estava em vigor no momento em que a notificação foi gerada. A ordem e o tipo no momento em que a notificação foi gerada não é necessariamente o mesmo que quando a notificação foi entregue. 
+A ordem e o tipo de colunas no membro da linha refletem a ordem e o tipo que estava em vigor no momento em que a notificação foi gerada. A ordem e o tipo no momento em que a notificação foi gerada não é necessariamente o mesmo de quando a notificação foi entregue. 
   
-Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
-|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
-|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o método **IMAPISupport** para gerar notificações.  <br/> |
+|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos de notificação e notificação.  <br/> |
+|[Manipulando notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Suporte à notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o **método IMAPISupport** para gerar notificações.  <br/> |
    
-Como as notificações de tabela são assíncronas, os clientes podem receber a notificação de uma linha adicionada após aprender sobre a adição por outro meio. É possível receber um evento TABLE_ERROR quando há um erro em um método imApitable: **: Sort**, IMAPITable: **: reStrict**ou imapitaBle:: SetColumns ou quando um processo subjacente tenta atualizar uma tabela com, por exemplo, novo ou **** linhas modificadas. 
+Como as notificações de tabela são assíncronas, os clientes podem receber uma notificação de uma linha adicionada depois de aprender sobre a adição por meio de outro meio. É possível receber um evento TABLE_ERROR quando há um erro em um **método IMAPITable::Sort**, **IMAPITable::Restrict** ou **IMAPITable::SetColumns** ou quando um processo subjacente tenta atualizar uma tabela com, por exemplo, linhas novas ou modificadas. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Notifica](notification.md) 
+- [NOTIFICAÇÃO](notification.md) 
 - [ScDupPropset](scduppropset.md)
 - [SRow](srow.md)
 - [SPropValue](spropvalue.md)

@@ -20,14 +20,14 @@ ms.locfileid: "33415674"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Ação de macro DeleteRecord (aplicativo Web personalizado do Access)](deleterecord-macro-action-access-custom-web-app.md)
+- [Ação de macro ExcluirRegiso (aplicativo Web personalizado do Access)](deleterecord-macro-action-access-custom-web-app.md)
     
-- [Ação de macro Editarregistro (aplicativo Web personalizado do Access)](editrecord-macro-action-access-custom-web-app.md)
+- [Ação de macro EditarRegiso (aplicativo Web personalizado do Access)](editrecord-macro-action-access-custom-web-app.md)
     
 - [Ação de macro NewRecord (aplicativo Web personalizado do Access)](newrecord-macro-action-access-custom-web-app.md)
     
-- [Ação de macro SaveRecord (aplicativo Web personalizado do Access)](saverecord-macro-action-access-custom-web-app.md)
+- [Ação de macro SalvarRegiso (aplicativo Web personalizado do Access)](saverecord-macro-action-access-custom-web-app.md)
     
-- [Ação de macro UndoRecord (aplicativo Web personalizado do Access)](undorecord-macro-action-access-custom-web-app.md)
+- [Ação de macro DesfazerRegiso (aplicativo Web personalizado do Access)](undorecord-macro-action-access-custom-web-app.md)
     
 

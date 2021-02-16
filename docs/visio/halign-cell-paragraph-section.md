@@ -22,10 +22,10 @@ Determina o alinhamento horizontal do texto no bloco de texto da forma.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Alinhar à esquerda  <br/> |**visHorzLeft** <br/> |
-| 1  <br/> | Centro  <br/> |**visHorzCenter** <br/> |
-| duas  <br/> | Alinhar à direita  <br/> |**visHorzRight** <br/> |
-| 3D  <br/> | Justificar  <br/> |**visHorzJustify** <br/> |
+| 0  <br/> | Alinhar à esquerda  <br/> |**visHorzLeft** <br/> |
+| 1   <br/> | Centro  <br/> |**visHorzCenter** <br/> |
+| 2   <br/> | Alinhar à direita  <br/> |**visHorzRight** <br/> |
+| 3   <br/> | Justificar  <br/> |**visHorzJustify** <br/> |
 | 4   <br/> | Forçar justificado  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -38,14 +38,14 @@ Para fazer referência à célula HAlign pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para. HorzAlign [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para.HorzAlign[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula HAlign pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visHorzAlign** <br/> |
    
 

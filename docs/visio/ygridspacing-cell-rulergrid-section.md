@@ -1,5 +1,5 @@
 ---
-title: Célula YGridSpacing (seção &amp; Ruler Grid)
+title: Célula YGridSpacing (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417459"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Célula YGridSpacing (seção &amp; Ruler Grid)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Célula YGridSpacing (Seção Ruler &amp; Grid)
 
 Especifica a distância entre as linhas verticais em uma grade fixa (YGridDensity = 0).
   
 ## <a name="remarks"></a>Comentários
 
-Corresponde à opção vertical **espaçaMento mínimo** na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Corresponde à opção de **espaçamento** mínimo vertical na  caixa de diálogo Grade de Régua (na guia Exibir, clique na **seta** Mostrar). **&amp;** 
   
 Para obter uma referência para a célula YGridSpacing pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
@@ -36,6 +36,6 @@ Para obter uma referência para a célula YGridSpacing pelo índice, a partir de
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visYGridSpacing** <br/> |
+|Índice de célula:  <br/> |**visYGridSpacing** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33415128"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera a lista de registros para o arquivo de pastas particulares (. pst).
+Recupera a lista de registros do arquivo de Pastas Particulares (.pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -35,10 +35,10 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> no Um ponteiro para um ponteiro para uma estrutura [SPropValue](spropvalue.md) . O membro ulPropTag dessa estrutura é do tipo PT_MV_UNICODE, e o membro de valor MVszW será uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. Essas cadeias de caracteres são caminhos para DLLs para as quais o registro foi persistido. 
+> [in] Um ponteiro para um ponteiro para uma [estrutura SPropValue.](spropvalue.md) O membro ulPropTag dessa estrutura é do tipo PT_MV_UNICODE, e o membro de valor MVszW será uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. Essas cadeias de caracteres são caminhos para DLLs para os quais o registro foi persistente. 
     
 > [!NOTE]
-> o suporte a. pst para ANSI não foi implementado. 
+> O suporte ao .pst para ANSI não foi implementado. 
   
 ## <a name="return-value"></a>Valor de retorno
 

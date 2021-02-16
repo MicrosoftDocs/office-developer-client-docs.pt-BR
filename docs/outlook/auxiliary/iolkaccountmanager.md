@@ -32,30 +32,30 @@ Gerencia o acesso a contas e configura notificações sobre alterações de cont
 |||
 |:-----|:-----|
 |[Inicialização](iolkaccountmanager-init.md) <br/> |Inicializa o gerente de conta para uso.  <br/> |
-|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Exibe a caixa de diálogo **configurações da conta** ou **Adicionar nova conta** .  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
+|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Exibe a caixa de **diálogo Configurações da Conta** ou Adicionar **Nova** Conta.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
 |[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Localiza uma conta por valor de propriedade.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
 |[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Exclui a conta especificada.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
 |[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Salva as alterações na conta especificada.  <br/> |
-|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Obtém a ordenação da categoria de contas especificada.  <br/> |
-|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifica a ordenação da categoria especificada de contas.  <br/> |
-|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Obtém um enumerador para as contas de categoria e tipo específicos.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libera memória alocada pela interface **IOlkAccountManager** .  <br/> |
-|[Utilizar](iolkaccountmanager-advise.md) <br/> |Registra um cliente com o gerente de contas para notificações sobre todas as contas.  <br/> |
-|[Cancelar](iolkaccountmanager-unadvise.md) <br/> |Cancela o registro de um cliente com o gerente de contas para notificações para todas as contas.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado*  <br/> |
+|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Obtém a ordem da categoria de contas especificada.  <br/> |
+|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifica a ordem da categoria de contas especificada.  <br/> |
+|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Obtém um enumerador para as contas da categoria e tipo específicos.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libera memória alocada pela interface **IOlkAccountManager.**  <br/> |
+|[Advise](iolkaccountmanager-advise.md) <br/> |Registra um cliente com o gerenciador de contas para notificações sobre todas as contas.  <br/> |
+|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Unregisters a client with the account manager for notifications for all accounts.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado*  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

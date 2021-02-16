@@ -25,22 +25,22 @@ ms.locfileid: "33414778"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece informações sobre o que um repositório pode suportar.
+Fornece informações sobre o que um armazenamento pode suportar.
   
 |||
 |:-----|:-----|
-|Provided by:  <br/> |Provedor de repositório de mensagens  <br/> |
+|Provided by:  <br/> |Provedor de armazenamento de mensagens  <br/> |
 |Identificador de interface:  <br/> |IID_IMSCapabilities  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Retorna recursos de um repositório com base na seleção especificada.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Retorna recursos de um armazenamento com base na seleção especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
- **IMSCapabilities** fornece informações sobre o que um repositório pode suportar se o repositório oferecer suporte a essa interface. 
+ **IMSCapabilities fornece** informações sobre o que um armazenamento pode suportar se o armazenamento oferece suporte a essa interface. 
   
 ## <a name="see-also"></a>Confira também
 

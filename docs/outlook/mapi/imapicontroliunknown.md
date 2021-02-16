@@ -25,13 +25,13 @@ ms.locfileid: "33414036"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Habilita e desabilita um controle de botão e realiza tarefas quando um usuário de um aplicativo cliente clica no controle habilitado. Os provedores de serviços implementam objetos de controle para criar botões personalizados em caixas de diálogo, como as folhas de propriedades de configuração, que são definidas usando as tabelas de exibição. 
+Habilita e desabilita um controle de botão e executa tarefas quando um usuário de um aplicativo cliente clica no controle habilitado. Os provedores de serviços implementam objetos de controle para criar botões personalizados em caixas de diálogo, como folhas de propriedades de configuração, definidas usando tabelas de exibição. 
   
-Para obter mais informações sobre como trabalhar com tabelas de exibição e objetos de controle, consulte [Exibir tabelas](display-tables.md).
+Para obter mais informações sobre como trabalhar com tabelas de exibição e objetos de controle, consulte [Display Tables](display-tables.md).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Exposto por:  <br/> |Objetos de controle  <br/> |
 |Implementado por:  <br/> |Provedores de serviços  <br/> |
 |Chamado por:  <br/> |MAPI  <br/> |
@@ -42,8 +42,8 @@ Para obter mais informações sobre como trabalhar com tabelas de exibição e o
 
 |||
 |:-----|:-----|
-|[GetLastError](imapicontrol-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de controle de botão anterior.  <br/> |
-|[Activate](imapicontrol-activate.md) <br/> |Executa uma tarefa, como exibir uma caixa de diálogo ou iniciar uma operação programática quando um usuário de aplicativo cliente clica no controle de botão.  <br/> |
+|[GetLastError](imapicontrol-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro de controle de botão anterior.  <br/> |
+|[Ativar](imapicontrol-activate.md) <br/> |Executa uma tarefa como exibir uma caixa de diálogo ou iniciar uma operação programática quando um usuário do aplicativo cliente clica no controle de botão.  <br/> |
 |[GetState](imapicontrol-getstate.md) <br/> |Recupera um valor que indica se o controle de botão está habilitado ou desabilitado.  <br/> |
    
 ## <a name="see-also"></a>Confira também

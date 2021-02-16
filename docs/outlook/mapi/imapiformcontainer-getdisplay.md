@@ -25,7 +25,7 @@ ms.locfileid: "33416129"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o nome de exibição de um contêiner de formulários.
+Retorna o nome de exibição de um contêiner de formulário.
   
 ```cpp
 HRESULT GetDisplay(
@@ -38,21 +38,21 @@ HRESULT GetDisplay(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo da cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo da cadeia de caracteres retornada. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> A cadeia de caracteres retornada está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres estará no formato ANSI.
+> A cadeia de caracteres retornada está no formato Unicode. Se o MAPI_UNICODE não estiver definido, a cadeia de caracteres está no formato ANSI.
     
  _pszDisplayName_
   
-> bota Um ponteiro para uma cadeia de caracteres que contém o nome de exibição do contêiner de formulários.
+> [out] Um ponteiro para uma cadeia de caracteres que contém o nome de exibição do contêiner de formulário.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -60,7 +60,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: CFormContainerDlg  <br/> |MFCMAPI usa o método **IMAPIFormContainer:: getdisplay** para obter o nome do contêiner de formulário quando ele renderiza CFormContainerDlg.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI uses the **IMAPIFormContainer::GetDisplay** method to get the name of the form container when it renders CFormContainerDlg.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

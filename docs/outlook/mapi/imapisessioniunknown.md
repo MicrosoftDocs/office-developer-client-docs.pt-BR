@@ -25,12 +25,12 @@ ms.locfileid: "33413378"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gerencia objetos associados a uma sessão de Logon MAPI.
+Gerencia objetos associados a uma sessão de logon MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
-|Exposto por:  <br/> |Objetos de sessão  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
+|Exposto por:  <br/> |Objetos Session  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISession  <br/> |
@@ -40,25 +40,25 @@ Gerencia objetos associados a uma sessão de Logon MAPI.
 
 |||
 |:-----|:-----|
-|[GetLastError](imapisession-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de sessão anterior.  <br/> |
-|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Fornece acesso à tabela do repositório de mensagens que contém informações sobre todos os repositórios de mensagens no perfil da sessão.  <br/> |
-|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Abre um repositório de mensagens e retorna um ponteiro [IMsgStore](imsgstoreimapiprop.md) para obter mais acesso.  <br/> |
-|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Abre o catálogo de endereços integrado MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para obter mais acesso.  <br/> |
-|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Abre uma seção do perfil atual e retorna um ponteiro [IProfSect](iprofsectimapiprop.md) para obter mais acesso.  <br/> |
-|[GetStatustable](imapisession-getstatustable.md) <br/> |Fornece acesso à tabela status, uma tabela que contém informações sobre todos os recursos MAPI na sessão.  <br/> |
-|[OpenEntry](imapisession-openentry.md) <br/> |Abre um objeto e retorna um ponteiro de interface para acesso adicional.  <br/> |
+|[GetLastError](imapisession-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro de sessão anterior.  <br/> |
+|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Fornece acesso à tabela do armazenamento de mensagens que contém informações sobre todos os armazenamentos de mensagens no perfil de sessão.  <br/> |
+|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Abre um repositório de mensagens e retorna um ponteiro [IMsgStore](imsgstoreimapiprop.md) para mais acesso.  <br/> |
+|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Abre o livro de endereços integrado MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para mais acesso.  <br/> |
+|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Abre uma seção do perfil atual e retorna um ponteiro [IProfSect](iprofsectimapiprop.md) para mais acesso.  <br/> |
+|[GetStatusTable](imapisession-getstatustable.md) <br/> |Fornece acesso à tabela de status, uma tabela que contém informações sobre todos os recursos MAPI na sessão.  <br/> |
+|[OpenEntry](imapisession-openentry.md) <br/> |Abre um objeto e retorna um ponteiro de interface para mais acesso.  <br/> |
 |[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.  <br/> |
-|[Utilizar](imapisession-advise.md) <br/> |Registra para receber notificações de eventos específicos que afetam a sessão.  <br/> |
-|[Cancelar](imapisession-unadvise.md) <br/> |Cancela o envio de notificações previamente configuradas com uma chamada para o método **Advise** .  <br/> |
-|**Mensagem de mensagens** <br/> | *Não suportado ou documentado.*  <br/> |
-|**QueryDefaultMessageOpt** <br/> | *Não suportado ou documentado.*  <br/> |
-|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Obsoleto. Retorna os tipos de endereço que podem ser tratados por todos os provedores de transporte na sessão.  <br/> |
-|[QueryIdentity](imapisession-queryidentity.md) <br/> |Retorna o identificador de entrada do objeto que fornece a identidade principal da sessão.  <br/> |
-|[Fazer logoff](imapisession-logoff.md) <br/> |Finaliza uma sessão MAPI.  <br/> |
-|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Estabelece um repositório de mensagens como o repositório de mensagens padrão para a sessão.  <br/> |
-|[Adminservices](imapisession-adminservices.md) <br/> |Retorna um ponteiro [IMsgServiceAdmin](imsgserviceadminiunknown.md) para fazer alterações nos serviços de mensagens.  <br/> |
-|[Formulário de conForm](imapisession-showform.md) <br/> |Exibe um formulário.  <br/> |
-|[PrepareForm](imapisession-prepareform.md) <br/> |Cria um token numérico que o método de **formulário** usa para acessar uma mensagem.  <br/> |
+|[Advise](imapisession-advise.md) <br/> |Registra para receber notificação de eventos especificados que afetam a sessão.  <br/> |
+|[Unadvise](imapisession-unadvise.md) <br/> |Cancela o envio de notificações configuradas anteriormente com uma chamada para o **método Advise.**  <br/> |
+|**MessageOptions** <br/> | *Sem suporte ou documentado.*  <br/> |
+|**QueryDefaultMessageOpt** <br/> | *Sem suporte ou documentado.*  <br/> |
+|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Depreciado. Retorna os tipos de endereço que podem ser manipulados por todos os provedores de transporte na sessão.  <br/> |
+|[QueryIdentity](imapisession-queryidentity.md) <br/> |Retorna o identificador de entrada do objeto que fornece a identidade principal para a sessão.  <br/> |
+|[Fazer logoff](imapisession-logoff.md) <br/> |Encerra uma sessão MAPI.  <br/> |
+|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Estabelece um armazenamento de mensagens como o armazenamento de mensagens padrão para a sessão.  <br/> |
+|[AdminServices](imapisession-adminservices.md) <br/> |Retorna um [ponteiro IMsgServiceAdmin](imsgserviceadminiunknown.md) para fazer alterações nos serviços de mensagens.  <br/> |
+|[ShowForm](imapisession-showform.md) <br/> |Exibe um formulário.  <br/> |
+|[PrepareForm](imapisession-prepareform.md) <br/> |Cria um token numérico que o **método ShowForm** usa para acessar uma mensagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

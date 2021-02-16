@@ -25,7 +25,7 @@ ms.locfileid: "33414806"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador para o agente de transferência de mensagem (MTA) que originou a mensagem.
+Contém um identificador para o MTA (agente de transferência de mensagens) que originou a mensagem.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um identificador para o agente de transferência de mensagem (MTA) que o
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, se definida, está disponível em mensagens enviadas na pasta Itens enviados.
+Essa propriedade, se definida, está disponível em mensagens enviadas na pasta Itens Enviados.
   
-Essa propriedade corresponde ao atributo X. 400 relatório por mensagem.
+Essa propriedade corresponde ao atributo X.400 report per message.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

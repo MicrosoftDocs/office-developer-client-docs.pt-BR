@@ -19,9 +19,9 @@ ms.locfileid: "33415100"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os tópicos desta seção descrevem interações entre os aplicativos cliente, o Gerenciador de formulários MAPI, os servidores de formulários e os objetos de formulário para uma variedade de ações comuns, como abrir uma mensagem e redigir uma nova mensagem.
+Os tópicos nesta seção descrevem as interações entre aplicativos cliente, o gerenciador de formulário MAPI, servidores de formulário e objetos de formulário para uma variedade de ações comuns, como abrir uma mensagem e compor uma nova mensagem.
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolvendo servidores de formulário MAPI](developing-mapi-form-servers.md)
 

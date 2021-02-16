@@ -29,7 +29,7 @@ Contém uma lista de sinalizadores usados para indicar o status das entradas de 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -48,23 +48,23 @@ typedef struct
     
  **ulFlags**
   
-> Uma matriz de sinalizadores que fornece o status da operação de resolução de nome de um destinatário. Os seguintes sinalizadores podem ser definidos:
+> Uma matriz de sinalizadores que fornece o status da operação de resolução de nome para um destinatário. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_AMBIGUOUS 
   
-> O destinatário foi resolvido, mas não a um identificador de entrada exclusivo. Outros contêineres do catálogo de endereços não devem tentar resolver esse destinatário. 
+> O destinatário foi resolvido, mas não para um identificador de entrada exclusivo. Outros contêineres de agenda não devem tentar resolver esse destinatário. 
     
 MAPI_RESOLVED 
   
-> O destinatário foi resolvido para um identificador de entrada exclusivo. Outros contêineres do catálogo de endereços não devem tentar resolver esse destinatário. 
+> O destinatário foi resolvido para um identificador de entrada exclusivo. Outros contêineres de agenda não devem tentar resolver esse destinatário. 
     
 MAPI_UNRESOLVED 
   
-> A entrada não foi resolvida. Outros contêineres do catálogo de endereços devem tentar resolver esse destinatário.
+> A entrada não foi resolvida. Outros contêineres de agenda devem tentar resolver esse destinatário.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura da **marca de sinalizador** é usada como um parâmetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada um dos destinatários a serem resolvidos está incluído em uma estrutura [das ADRLIST](adrlist.md) . Como o contêiner de catálogo de endereços tenta resolver cada destinatário, ele define o sinalizador apropriado na entrada correspondente na estrutura **flaglist** . Todas as entradas na estrutura **flaglist** estão na mesma ordem das entradas na estrutura **das ADRLIST** . Isso facilita a associação de uma configuração de sinalizador a um destinatário. 
+A **estrutura FLAGLIST** é usada como um parâmetro para [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Cada um dos destinatários a serem resolvidos está incluído em uma [estrutura ADRLIST.](adrlist.md) À medida que o contêiner do livro de endereços tenta resolver cada destinatário, ele define o sinalizador apropriado na entrada correspondente na **estrutura FLAGLIST.** Todas as entradas na estrutura **FLAGLIST** estão na mesma ordem que as entradas na **estrutura ADRLIST.** Isso facilita a associação de uma configuração de sinalizador a um destinatário. 
   
 ## <a name="see-also"></a>Confira também
 

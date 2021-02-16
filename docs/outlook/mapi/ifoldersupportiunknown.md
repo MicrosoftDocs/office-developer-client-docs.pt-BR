@@ -29,7 +29,7 @@ Fornece informações sobre o suporte de uma pasta para compartilhamento.
   
 |||
 |:-----|:-----|
-|Provided by:  <br/> |Provedor de repositório de mensagens  <br/> |
+|Provided by:  <br/> |Provedor de armazenamento de mensagens  <br/> |
 |Identificador de interface:  <br/> |IID_IFolderSupport  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
@@ -40,8 +40,8 @@ Fornece informações sobre o suporte de uma pasta para compartilhamento.
    
 ## <a name="remarks"></a>Comentários
 
-Geralmente, o Microsoft Office Outlook requer um provedor de repositório MAPI para implementar essa interface se o provedor quiser compartilhar uma pasta. A exceção é o provedor de armazenamento do Exchange Server, que pode compartilhar pastas sem implementar esta interface.
+Geralmente, o Microsoft Office Outlook requer um provedor de armazenamento MAPI para implementar essa interface se o provedor quiser compartilhar uma pasta. A exceção é o provedor de armazenamento do Exchange Server, que pode compartilhar pastas sem implementar essa interface.
   
-Um cliente pode consultar um **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**. Se isso tiver êxito, chame **IFolderSupport:: GetSupportMask** e verifique o bit de **FS_SUPPORTS_SHARING** a ser definido. 
+Um cliente pode consultar uma **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**. Se isso for bem-sucedido, chame **IFolderSupport::GetSupportMask** e verifique se FS_SUPPORTS_SHARING **bit** a ser definido. 
   
 

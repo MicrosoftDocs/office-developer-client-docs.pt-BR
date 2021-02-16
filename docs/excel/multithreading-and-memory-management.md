@@ -18,15 +18,15 @@ ms.locfileid: "33414463"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A manipulação adequada da memória é vital para a criação de suplementos XLL confiáveis para o Microsoft Excel. Falha ao alocar buffers de memória apropriados e liberá-los quando eles não são mais necessários reduzem o desempenho, criam contenção de recursos e desestabilizam o Excel.
+A manipulação adequada da memória é vital para a criação de complementos XLL confiáveis para o Microsoft Excel. A falha ao alocar buffers de memória apropriados e libera-los quando eles não são mais necessários reduz o desempenho, cria contenção de recursos e desestabiliza o Excel.
   
-A partir do Microsoft Office Excel 2007, você pode configurar o Excel para usar até 1.024 threads simultâneos ao recalcular. Em alguns casos, especialmente quando vários processadores estão disponíveis ou com funções definidas pelo usuário em execução em servidores em cluster, o multithreading pode melhorar o desempenho.
+A partir do Microsoft Office Excel 2007, você pode configurar o Excel para usar até 1.024 threads simultâneos ao recalcular. Em alguns casos, especialmente quando vários processadores estão disponíveis ou com funções definidas pelo usuário em execução em servidores clusterados, multithreading pode melhorar o desempenho.
   
-Os tópicos a seguir descrevem como gerenciar memória e threads em XLLs:
+Os tópicos a seguir descrevem como gerenciar a memória e threads em XLLs:
   
 - [Gerenciamento de Memória no Excel](memory-management-in-excel.md)
     
-- [Multithreading e conTenção de memória no Excel](multithreading-and-memory-contention-in-excel.md)
+- [Contenção de memória e multithreading no Excel](multithreading-and-memory-contention-in-excel.md)
     
 - [Recálculo com vários threads no Excel](multithreaded-recalculation-in-excel.md)
     

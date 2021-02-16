@@ -38,11 +38,11 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> no Sempre nulo.
+> [in] Sempre NULO.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela de perfis.
+> [out] Um ponteiro para um ponteiro para a tabela de perfil.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,13 +52,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin::** getprofiletable fornece acesso à tabela de perfis, que contém uma linha para cada perfil disponível. Há apenas duas colunas em cada linha: o nome de exibição do perfil e um sinalizador que indica se o perfil é o padrão. 
+O **método IProfAdmin::GetProfileTable** fornece acesso à tabela de perfil, que contém uma linha para cada perfil disponível. Há apenas duas colunas em cada linha: o nome de exibição do perfil e um sinalizador que indica se o perfil é o padrão. 
   
-Os perfis excluídos ou que estão em uso, mas que foram marcados para exclusão, não estão incluídos na tabela de perfis. A tabela de perfil é estática; adições e exclusões subsequentes de perfis não são refletidas na tabela. 
+Perfis que foram excluídos ou que estão em uso, mas foram marcados para exclusão, não estão incluídos na tabela de perfil. A tabela de perfil é estática; adições e exclusões subsequentes de perfis não são refletidas na tabela. 
   
-Se não existir nenhum perfil **** , getprofiletable retornará uma tabela com zero linhas. 
+Se não existirem perfis, **GetProfileTable** retornará uma tabela com zero linhas. 
   
-Para obter mais informações sobre a tabela de perfil, consulte [tabelas de perfil](profile-tables.md). 
+Para obter mais informações sobre a tabela de perfil, consulte [Profile Tables](profile-tables.md). 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -66,7 +66,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI usa o método **IProfAdmin::** getprofiletable para fazer com que a tabela de perfil seja exibida em uma nova caixa de diálogo.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI usa o **método IProfAdmin::GetProfileTable** para fazer com que a tabela de perfil seja exibida em uma nova caixa de diálogo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

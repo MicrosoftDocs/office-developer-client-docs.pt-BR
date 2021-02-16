@@ -29,7 +29,7 @@ Um ponteiro para uma estrutura que especifica uma matriz de cadeias de caractere
   
 ## <a name="remarks"></a>Comentários
 
-Um provedor pode dar suporte A URLs de vários sites. O OSC define a propriedade [ISocialSession:: SiteUrl](isocialsession-siteurl.md) para informar o provedor da URL do site selecionada. 
+Um provedor pode dar suporte a várias URLs de site. O OSC define a [propriedade ISocialSession::SiteUrl](isocialsession-siteurl.md) para informar o provedor da URL do site selecionado. 
   
 O OSC usa o primeiro elemento da matriz como a URL do site padrão. Um provedor pode retornar elementos adicionais na matriz de URL do site, mas o OSC não os usa. 
   

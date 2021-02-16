@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [FLATMTSIDLIST](flatmtsidlist.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbFLATMTSIDLIST (_lplist)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lplist_
+ _ _lplist_
   
 > Ponteiro para a estrutura **FLATMTSIDLIST** existente. 
     

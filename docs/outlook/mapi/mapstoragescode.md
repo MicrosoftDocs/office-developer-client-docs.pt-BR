@@ -29,7 +29,7 @@ Mapeia um valor de retorno SCODE de um objeto de armazenamento OLE para um tipo 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,22 +43,22 @@ SCODE MapStorageSCode(
 
  _StgSCode_
   
-> no SCODE MAPI valor de retorno de um objeto de armazenamento OLE a ser mapeado para um valor HRESULT.
+> [in] Valor de retorno de SCODE MAPI de um objeto de armazenamento OLE a ser mapeado para um valor HRESULT.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor esperado.
+> A chamada foi bem-sucedida e retornou o valor esperado.
     
 MAPI_E_CALL_FAILED 
   
-> A função não pode localizar um valor correspondente.
+> A função não pode encontrar um valor correspondente.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI fornece a função **MapStorageSCode** para o uso interno de componentes MAPI que baseiam suas implementações de mensagem na DLL de mensagens. Como esses componentes abrem o armazenamento OLE, eles devem ser capazes de mapear valores de erro retornados para problemas com o armazenamento OLE para um valor HRESULT. 
+MAPI provides the **MapStorageSCode** function for the internal use of MAPI components that base their message implementations on the message DLL. Como esses componentes abrem o armazenamento OLE por conta própria, eles devem ser capazes de mapear os valores de erro retornados para problemas com o armazenamento OLE para um valor HRESULT. 
   
-Para obter mais informações, consulte [Structured Storage](structured-storage-in-mapi.md). 
+Para obter mais informações, consulte [Armazenamento Estruturado.](structured-storage-in-mapi.md) 
   
 

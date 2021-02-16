@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415702"
 ---
-# <a name="propsmtpserver"></a>PROP_SMTP_SERVER
+# <a name="prop_smtp_server"></a>PROP_SMTP_SERVER
 
 Representa o nome do servidor da conta SMTP.
   

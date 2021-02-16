@@ -23,11 +23,11 @@ ms.locfileid: "33413854"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [FLATENTRY](flatentry.md) . 
+Contém uma matriz de [estruturas FLATENTRY.](flatentry.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
 ```cpp
@@ -44,7 +44,7 @@ typedef struct
 
 **cEntries**
   
-> Contagem de estruturas **FLATENTRY** na matriz descrita pelo membro **abEntries** . 
+> Contagem de **estruturas FLATENTRY** na matriz descrita pelo membro **abEntries.** 
     
 **cbEntries**
   
@@ -52,15 +52,15 @@ typedef struct
     
 **abEntries**
   
-> Matriz de bytes que contém uma ou mais estruturas **FLATENTRY** , organizadas de ponta a ponta. 
+> Matriz de byte que contém uma ou mais **estruturas FLATENTRY,** organizadas de ponta a ponta. 
     
 ## <a name="remarks"></a>Comentários
 
-Na matriz **abEntries** , cada estrutura **FLATENTRY** é alinhada em um limite naturalmente alinhado. Bytes extras são incluídos como enchimento para garantir o alinhamento natural entre duas estruturas **FLATENTRY** . A primeira estrutura **FLATENTRY** na matriz é sempre alinhada corretamente porque o deslocamento do membro **abEntries** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondado para o próximo múltiplo de 4. Use a macro [CbFLATENTRY](cbflatentry.md) para calcular o tamanho de uma estrutura **FLATENTRY** . 
+Na matriz **abEntries,** cada **estrutura FLATENTRY** é alinhada em um limite alinhado naturalmente. Bytes extras são incluídos como preenchimento para garantir o alinhamento natural entre duas **estruturas FLATENTRY.** A primeira **estrutura FLATENTRY** na matriz é sempre alinhada corretamente porque o deslocamento do membro **abEntries** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondada para o próximo múltiplo de 4. Use a macro [CbFLATENTRY](cbflatentry.md) para calcular o tamanho de uma **estrutura FLATENTRY.** 
   
-Por exemplo, a segunda estrutura **FLATENTRY** começa em um deslocamento que consiste no deslocamento da primeira entrada, além do comprimento da primeira entrada arredondada para os próximos quatro bytes. O comprimento da primeira entrada é o comprimento do seu membro **CB** mais o comprimento de seu membro **abEntry** . 
+Por exemplo, a segunda estrutura **FLATENTRY** começa em um deslocamento que consiste no deslocamento da primeira entrada mais o comprimento da primeira entrada arredondada para os próximos quatro bytes. O comprimento da primeira entrada é o comprimento de seu membro **cb** mais o comprimento de **seu membro abEntry.** 
   
-O exemplo de código a seguir indica como computar deslocamentos em uma estrutura **FLATENTRYLIST** . Suponha que _lpFlatEntry_ é um ponteiro para a primeira estrutura na lista. 
+O exemplo de código a seguir indica como calcular deslocamentos em uma **estrutura FLATENTRYLIST.** Suponha que  _lpFlatEntry_ seja um ponteiro para a primeira estrutura na lista. 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4

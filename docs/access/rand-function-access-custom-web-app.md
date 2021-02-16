@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6390b325-025e-4546-bb19-1cd1c45ceb5a
-description: Retorna um número pseudo aleatório entre 0 e 1.
+description: Retorna um número pseudoleato entre 0 e 1.
 ms.openlocfilehash: 02d914de9d74083a6ebf76f6d0e556fe51954a24
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -23,16 +23,16 @@ Retorna um número pseudo aleatório entre 0 e 1.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Rand** ([ *Semente* ]) 
+ **Rand** ( [  *Seed*  ]) 
   
-A função **Rand** contém o argumento a seguir. 
+A **função Rand** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Seed*  <br/> |Uma expressão de inteiro que retorna o valor semente. Se *propagação* não for especificada, um valor de semente será atribuído aleatoriamente.  <br/> |
+| *Seed*  <br/> |Uma expressão inteira que fornece o valor de semente. Se  *Seed*  não for especificado, um valor de alteração será atribuído aleatoriamente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-As chamadas repetitivas da função **Rand** com a mesma semente retornam os mesmos resultados. 
+Chamadas repetitivas da **função Rand** com a mesma seed retornam os mesmos resultados. 
   
 

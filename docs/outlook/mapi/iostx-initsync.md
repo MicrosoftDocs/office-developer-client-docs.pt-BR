@@ -25,7 +25,7 @@ ms.locfileid: "33413350"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informa o repositório de mensagens local que a sincronização está prestes a começar.
+Informa ao armazenamento de mensagens local que a sincronização está prestes a iniciar.
   
 ```cpp
 HRESULT InitSync( 
@@ -37,7 +37,7 @@ HRESULT InitSync(
 
  _ulFlags_
   
-> no Sinalizadores para determinar o comportamento apropriado durante a sincronização. O Outlook usa esses sinalizadores em cada Estado da máquina de estado de replicação para determinar as informações que ele deve fornecer para o cliente. Por exemplo, se o cliente passar **SYNC_ONLY_ASSOCIATED**, o Outlook retornará apenas informações relacionadas aos itens associados (ou ocultos). 
+> [in] Sinalizadores para determinar o comportamento apropriado durante a sincronização. O Outlook usa esses sinalizadores em cada estado da máquina de estado de replicação para determinar as informações que ele deve fornecer para o cliente. Por exemplo, se o cliente passar **SYNC_ONLY_ASSOCIATED**, o Outlook só retornará informações relacionadas a itens associados (ou ocultos). 
     
 ## <a name="see-also"></a>Confira também
 

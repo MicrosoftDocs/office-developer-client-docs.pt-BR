@@ -22,16 +22,16 @@ Determina se duas cadeias de caracteres são iguais.
   
 ## <a name="syntax"></a>Sintaxe
 
-STRSAMEEX ("* * *seqüência1* * *", "* * *seqüência2* * *", * * *LocaleID* * *, * * *sinalizador* * *) 
+STRSAMEEX (" ** *string1* ** ", " ** *string2* ** ", ** *localeID* **, ** *sinalizador* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A primeira cadeia a ser comparada.  <br/> |
-| _string2_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | A segunda cadeia a ser comparada.  <br/> |
+| _string1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira cadeia a ser comparada.  <br/> |
+| _string2_ <br/> |Obrigatório  <br/> |**String** <br/> | A segunda cadeia a ser comparada.  <br/> |
 | _localeID_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O código de identificação de local.  <br/> |
-| _flag_ <br/> |Obrigatório  <br/> |**Numérica** <br/> | Um bit que especifica o tipo de comparação.  <br/> |
+| _sinalizador_ <br/> |Obrigatório  <br/> |**Numérica** <br/> | Um bit que especifica o tipo de comparação.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -46,7 +46,7 @@ Utilize a combinação de qualquer um dos sinalizadores a seguir com a função 
 |**Flag**|**Descrição**|
 |:-----|:-----|
 |1  <br/> |Ignorar maiúsculas e minúsculas.  <br/> |
-|duas  <br/> |Ignorar caracteres sem espaçamento.  <br/> |
+|2   <br/> |Ignorar caracteres sem espaçamento.  <br/> |
 |4   <br/> |Ignorar símbolos.  <br/> |
 |4096  <br/> |Tratar a pontuação da mesma forma que os símbolos.  <br/> |
 |65536  <br/> |Não diferenciar entre os caracteres Hiragana e Katakana.  <br/> |

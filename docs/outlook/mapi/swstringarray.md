@@ -29,7 +29,7 @@ Contém uma matriz de cadeias de caracteres que são usadas para descrever uma p
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -44,15 +44,15 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Contagem de cadeias de caracteres na matriz apontada pelo membro **lppszW** . 
+> Contagem de cadeias de caracteres na matriz apontada pelo **membro lppszW.** 
     
  **lppszW**
   
-> Ponteiro para uma matriz de cadeias de caracteres Unicode de término nulo.
+> Ponteiro para uma matriz de cadeias de caracteres Unicode terminadas em nulo.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre o PT_MV_UNICODE, consulte [tipos de propriedade](property-types.md).
+Para obter mais informações sobre PT_MV_UNICODE, consulte [Tipos de Propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -26,7 +26,7 @@ NOW ( )
   
 ### <a name="return-value"></a>Valor de retorno
 
-DateTime
+Datetime
   
 ## <a name="remarks"></a>Comentários
 
@@ -46,7 +46,7 @@ Retornará a data e a hora atuais formatadas como 27 de setembro de 2010 12:03.
   
 ## <a name="example-3"></a>Exemplo 3
 
-NOW () + 2EW.
+NOW()+2EW.
   
 Retornará a data e a hora atuais, além de duas semanas decorridas, como 11/10/10 12:03:30.
   

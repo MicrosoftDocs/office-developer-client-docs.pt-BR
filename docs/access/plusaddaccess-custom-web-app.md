@@ -1,5 +1,5 @@
 ---
-title: + Acrescenta (Aplicativo Web personalizado do Access)
+title: + (Adicionar) (Aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -23,12 +23,12 @@ Adiciona dois números. Esse operador aritmético de adição também pode adici
   
 ## <a name="syntax"></a>Sintaxe
 
- **  +  *expressão* de expressão 
+ *expressão*   +   *expressão* 
   
- *expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico, exceto o tipo de dados **bit** . Não pode ser usado com tipos de dados de data ou hora. 
+ *expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérica, exceto o tipo **de** dados bit. Não pode ser usado com tipos de dados de data ou hora. 
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna o tipo de dados do argumento com maior precedência. 
+Retorna o tipo de dados do argumento com a precedência mais alta. 
   
 

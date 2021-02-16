@@ -22,13 +22,13 @@ Retorna o valor do componente de saturação de uma cor.
   
 ## <a name="syntax"></a>Sintaxe
 
-SAT (* * *expressão* * *) 
+Expressão SAT(** *** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Varia** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -40,13 +40,13 @@ O valor retornado é um número no intervalo de 0 a 240, inclusive. A função r
   
 ## <a name="example-1"></a>Exemplo 1
 
-SAT (planilha. 4! FillForegnd
+SAT(Sheet.4! FillForegnd)
   
 Retornará a saturação da cor de preenchimento de primeiro plano de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-SAT (8)
+SAT(8)
   
 Retornará 240 se o documento utilizar a paleta de cores padrão do Visio, sendo vermelho escuro a cor do índice 8.
   

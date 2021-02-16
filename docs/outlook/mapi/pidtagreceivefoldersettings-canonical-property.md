@@ -25,32 +25,32 @@ ms.locfileid: "33415051"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma tabela de configurações da pasta de recebimento de um repositório de mensagens.
+Contém uma tabela de configurações de pasta de recebimento de um armazenamento de mensagens.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identificador:  <br/> |0x3415  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
+|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade pode ser excluída nas operações de [IMAPIProp:: CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps; seu conteúdo deve ser acessado pelo método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , solicitando a interface com identificador IID_IMAPITable. Os provedores de serviços devem relatá-lo para o método [IMAPIProp::](imapiprop-getproplist.md) getproplist, se estiver definido, mas pode opcionalmente relatá-lo ou não se ele não estiver definido. 
+Essa propriedade pode ser excluída nas [operações IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::GetProps;](imapiprop-getprops.md) seu conteúdo deve ser acessado pelo [método IMAPIProp::OpenProperty,](imapiprop-openproperty.md) solicitando a interface com identificador IID_IMAPITable. Os provedores de serviços devem reportá-lo para o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) se ele estiver definido, mas, opcionalmente, pode reportá-lo ou não se ele não estiver definido. 
   
-Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Para obter mais informações, consulte [receber tabelas de pastas](receive-folder-tables.md).
+Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) Para obter mais informações, consulte [Tabelas de Pastas de Recebimento.](receive-folder-tables.md)
   
-Esta propriedade contém uma tabela de mapeamentos das pastas de recebimento para o repositório de mensagens. Chamar **OpenProperty** nessa propriedade é equivalente a chamar **GetReceiveFolderTable** no repositório de mensagens. 
+Essa propriedade contém uma tabela de mapeamentos das pastas de recebimento para o armazenamento de mensagens. Chamar **OpenProperty** nessa propriedade é equivalente a chamar **GetReceiveFolderTable** no armazenamento de mensagens. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

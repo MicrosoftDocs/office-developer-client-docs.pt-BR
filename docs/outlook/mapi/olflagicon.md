@@ -50,11 +50,11 @@ enum OlFlagIcon {
     
  _olOrangeFlagIcon_
   
-> O laranja foi associado ao item sinalizado.
+> Laranja foi associado ao item sinalizado.
     
  _olGreenFlagIcon_
   
-> Green foi associado ao item sinalizado.
+> Verde foi associado ao item sinalizado.
     
  _olYellowFlagIcon_
   
@@ -62,7 +62,7 @@ enum OlFlagIcon {
     
  _olBlueFlagIcon_
   
-> Blue foi associado ao item sinalizado.
+> Azul foi associado ao item sinalizado.
     
  _olRedFlagIcon_
   

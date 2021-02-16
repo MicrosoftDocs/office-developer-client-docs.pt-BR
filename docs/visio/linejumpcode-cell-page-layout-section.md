@@ -22,12 +22,12 @@ Determina os conectores aos quais você deseja adicionar saltos.
   
 |**Valor**|**Conectores aos quais você deseja adicionar saltos**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Nenhum  <br/> |**visPLOJumpNone** <br/> |
-|1  <br/> |Linhas horizontais  <br/> |**visPLOJumpHorizontal** <br/> |
-|duas  <br/> |Linhas verticais  <br/> |**visPLOJumpVertical** <br/> |
-|3D  <br/> |Última linha circulada  <br/> |**visPLOJumpLastRouted** <br/> |
-|4   <br/> |Última linha exibida (primeira forma na ordem *z* )  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|5   <br/> |Primeira linha exibida (forma na parte inferior da ordem *z* )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|0  <br/> |Nenhum  <br/> |**visPLOJumpNone** <br/> |
+|1   <br/> |Linhas horizontais  <br/> |**visPLOJumpHorizontal** <br/> |
+|2   <br/> |Linhas verticais  <br/> |**visPLOJumpVertical** <br/> |
+|3   <br/> |Última linha circulada  <br/> |**visPLOJumpLastRouted** <br/> |
+|4   <br/> |Última linha exibida (forma superior na ordem *z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5   <br/> |Primeira linha exibida (forma na parte inferior da ordem *z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -45,6 +45,6 @@ Para obter uma referência para a célula LineJumpCode pelo índice a partir de 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOJumpCode** <br/> |
+|Índice de célula:  <br/> |**visPLOJumpCode** <br/> |
    
 

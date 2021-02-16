@@ -29,7 +29,7 @@ Multiplica um inteiro de 32 bits não assinado por outro.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> no Uma palavra dupla que contém o inteiro de 32 bits não assinado a ser multiplicado pelo valor no parâmetro multiplicador __ . 
+> [in] Uma palavra dupla que contém o inteiro de 32 bits não assinado a ser multiplicado pelo valor no _parâmetro Multiplicador._ 
     
  _Multiplicador_
   
-> no Uma palavra dupla que contém o multiplicador inteiro de 32 bits não assinado.
+> [in] Uma palavra dupla que contém o multiplicador de inteiro de 32 bits não assinado.
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **FtMulDwDw** retorna uma estrutura [FILETIME](filetime.md) que contém o produto dos dois números inteiros. Os dois parâmetros de entrada permanecem inalterados. 
+A **função FtMulDwDw** retorna uma estrutura [FILETIME](filetime.md) que contém o produto dos dois inteiros. Os dois parâmetros de entrada permanecem inalterados. 
   
 

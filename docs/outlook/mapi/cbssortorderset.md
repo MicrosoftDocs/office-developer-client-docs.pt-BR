@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [SSortOrderSet](ssortorderset.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSSortOrderSet (_lpset)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lpset_
+ _ _lpset_
   
 > Ponteiro para a estrutura **SSortOrderSet** existente. 
     

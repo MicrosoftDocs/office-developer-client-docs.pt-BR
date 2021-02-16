@@ -22,9 +22,9 @@ Determina o formato de saída do desenho. Normalmente, as páginas de desenho s�
   
 |**Valor**|**Formato de saída**|
 |:-----|:-----|
-| ,0  <br/> | Impressão (padrão)  <br/> |
-| 1  <br/> | Apresentação de slides do PowerPoint  <br/> |
-| duas  <br/> | Saída HTML ou GIF  <br/> |
+| 0  <br/> | Impressão (padrão)  <br/> |
+| 1   <br/> | Apresentação de slides do PowerPoint  <br/> |
+| 2   <br/> | Saída HTML ou GIF  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -23,11 +23,11 @@ ms.locfileid: "33416262"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLCOMBOBOX](dtblcombobox.md) para descrever um controle de caixa de combinação e o número máximo de caracteres que podem ser inseridos no controle de edição associado. 
+Cria uma estrutura nomeada que inclui uma [estrutura DTBLCOMBOBOX](dtblcombobox.md) para descrever um controle caixa de combinação e o número máximo de caracteres que podem ser inseridos no controle de edição associado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblComboBox** permite definir uma caixa de combinação quando o comprimento da cadeia de caracteres habilitada é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblComboBox** permite definir uma caixa de combinação quando o comprimento da cadeia de caracteres habilitada for conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblComboBox** como um ponteiro de estrutura **DTBLCOMBOBOX** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblComboBox** como um ponteiro de **estrutura DTBLCOMBOBOX,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

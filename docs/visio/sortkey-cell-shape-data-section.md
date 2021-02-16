@@ -26,26 +26,26 @@ O cálculo utilizado para comparar os valores da célula SortKey são específic
   
 O exemplo a seguir mostra como utilizar as chaves de classificação para exibir os dados de forma na janela **Dados da Forma** na ordem: Número de Itens, Quantidade, Preço. 
   
- *Row, Label* e *SortKey* se referem a células na linha de dados da forma. Neste caso, as linhas de dados de forma foram nomeadas. 
+ *Row, Label e*  *SortKey*  referem-se às células na linha de dados da forma. Neste caso, as linhas de dados de forma foram nomeadas. 
   
-|**Row**|**Label**|**SortKey**|
+|**Linha**|**Label**|**SortKey**|
 |:-----|:-----|:-----|
-| Prop. Item  <br/> | Número de itens  <br/> | 1  <br/> |
-| Preço prop  <br/> | Price  <br/> | 3D  <br/> |
-| Prop. Quan  <br/> | Quantidade  <br/> | duas  <br/> |
+| Prop.Item  <br/> | Número de itens  <br/> | 1   <br/> |
+| Prop.Price  <br/> | Price  <br/> | 3   <br/> |
+| Prop.Quan  <br/> | Quantidade  <br/> | 2   <br/> |
    
 Para obter uma referência para a célula SortKey pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *Nome* . SortKey onde prop.  *Name* é o nome da linha de propriedade personalizada  <br/> |
+| Nome da célula:  <br/> | Prop.  *Nome*  . SortKey onde Prop.  *Nome*  é o nome da linha de propriedade personalizada  <br/> |
    
 Para obter uma referência para a célula SortKey pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCustPropsSortKey** <br/> |
+| Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCustPropsSortKey** <br/> |
    
 

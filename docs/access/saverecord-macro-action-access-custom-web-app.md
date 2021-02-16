@@ -1,5 +1,5 @@
 ---
-title: Ação de macro SaveRecord (aplicativo Web personalizado do Access)
+title: Ação de macro SalvarRegiso (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415555"
 ---
-# <a name="saverecord-macro-action-access-custom-web-app"></a>Ação de macro SaveRecord (aplicativo Web personalizado do Access)
+# <a name="saverecord-macro-action-access-custom-web-app"></a>Ação de macro SalvarRegiso (aplicativo Web personalizado do Access)
 
 Salva o registro atual.
   
@@ -23,6 +23,6 @@ Salva o registro atual.
   
 ## <a name="remarks"></a>Comentários
 
-A ação **SaveRecord** equivale a usar o botão **salvar** na barra de ações para salvar o registro atual. 
+A **ação SalvarRegisto** é equivalente a usar o **botão** Salvar na barra de ações para salvar o registro atual. 
   
 

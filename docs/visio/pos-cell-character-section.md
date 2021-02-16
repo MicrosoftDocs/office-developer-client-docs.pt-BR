@@ -22,9 +22,9 @@ Determina a posição do texto da forma em relação à linha de base.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Posição normal  <br/> |**visPosNormal** <br/> |
-| 1  <br/> | Sobrescrito  <br/> |**visPosSuper** <br/> |
-| duas  <br/> | Subscrito  <br/> |**visPosSub** <br/> |
+| 0  <br/> | Posição normal  <br/> |**visPosNormal** <br/> |
+| 1   <br/> | Sobrescrito  <br/> |**visPosSuper** <br/> |
+| 2   <br/> | Subscrito  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -32,14 +32,14 @@ Para fazer referência à célula Pos pelo nome, a partir de outra fórmula ou p
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char. pos [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char.Pos[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Pos pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-| Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCharacterPos** <br/> |
+| Índice de linha:  <br/> |**visRowCharacter** +  *i*            onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCharacterPos** <br/> |
    
 

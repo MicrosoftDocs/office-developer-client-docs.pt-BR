@@ -25,7 +25,7 @@ ms.locfileid: "33414001"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para o contêiner de formulários no qual um determinado formulário é instalado.
+Retorna um ponteiro para o contêiner de formulário no qual um formulário específico está instalado.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,13 +37,13 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> bota Um ponteiro para um ponteiro para o objeto contêiner Form retornado.
+> [out] Um ponteiro para um ponteiro para o objeto de contêiner de formulário retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

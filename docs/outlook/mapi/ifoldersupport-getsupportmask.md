@@ -37,7 +37,7 @@ HRESULT GetSupportMask(
 
  _pdwSupportMask_
   
-> bota Uma bitmask indicando se a pasta oferece suporte ao compartilhamento.
+> [out] Uma máscara de bits indicando se a pasta oferece suporte ao compartilhamento.
     
  **FS_NONE**
   

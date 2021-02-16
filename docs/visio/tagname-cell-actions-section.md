@@ -27,11 +27,11 @@ Contém o nome da marca de ação a que esta ação está associada.
 
 A célula TagName na seção Actions trabalha junto com a célula TagName na seção Action Tags para associar a marca de ação a suas ações. 
   
-- Se a célula TagName em uma linha Actions estiver em branco, a ação será exibida em um menu de atalho, não em um menu de marca de ação.
+- Se a célula TagName em uma linha Actions estiver em branco, a ação aparecerá em um menu de atalho, não em um menu de marca de ação.
     
-- Se um valor de célula TagName na linha Actions corresponder ao valor da célula TagName em uma linha Smart Tags, a ação será exibida no menu de marca de ação.
+- Se um valor de célula TagName na linha Actions corresponde ao valor da célula TagName em uma linha Smart Tags, a ação aparece no menu da marca de ação.
     
-- Se a célula TagName de uma ação tiver um valor, mas não corresponder ao valor TagName em qualquer linha de marca de forma, essa ação não aparecerá nos menus de marcas de ação ou nos menus de atalho.
+- Se a célula TagName de uma ação tiver um valor, mas não corresponder ao valor TagName em nenhuma linha de marca de forma, essa ação não aparecerá em menus de marca de ação ou menus de atalho.
     
 - Se várias linhas da marca inteligente tiverem o mesmo valor TagName, todas exibirão as mesmas ações.
     
@@ -39,14 +39,14 @@ Para obter uma referência para a célula TagName pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações Tagnameonde.  *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Ações de TagNamewhere.  *nome*  é o nome da linha Actions  <br/> |
    
 Para fazer referência à célula TagName pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visActionTagName** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visActionTagName** <br/> |
    
 

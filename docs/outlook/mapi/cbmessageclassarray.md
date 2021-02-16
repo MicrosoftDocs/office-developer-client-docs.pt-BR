@@ -25,11 +25,11 @@ ms.locfileid: "33413119"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura existente do [SMessageClassArray](smessageclassarray.md) que contém um número especificado de ponteiros de cadeia de caracteres para classes de mensagens. 
+Calcula o número de bytes em uma estrutura [SMessageClassArray](smessageclassarray.md) existente que contém um número especificado de ponteiros de cadeia de caracteres para classes de mensagem. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbMessageClassArray (_c)
 
 ## <a name="parameters"></a>Parâmetros
 
- __c_
+ _ _c_
   
-> Contagem de ponteiros para classes de mensagens incluídas no **SMessageClassArray**existente.
+> Contagem dos ponteiros para classes de mensagem que estão incluídos no **SMessageClassArray existente.**
     
 ## <a name="see-also"></a>Confira também
 

@@ -28,23 +28,23 @@ Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
-O identificador assíncrono do UDF para o qual o resultado é retornado.
+O alça assíncrona da UDF para a qual o resultado é retornado.
   
 _pxFunctionResult_
   
-O valor de retorno do UDF.
+O valor de retorno da UDF.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se bem-sucedido, retorna **true** (**xltypeBool**). Se não tiver êxito, retornará **false**.
+Se bem-sucedido, **retorna VERDADEIRO** (**xltypeBool**). Se não tiver êxito, **retornará FALSE**.
   
 ## <a name="remarks"></a>Comentários
 
-**xlAsyncReturn** é o único retorno de chamada que o Excel permite em threads não calculados durante o recálculo. A parte assíncrona de um UDF assíncrono não deve realizar nenhum retorno de chamada diferente de **xlAsyncReturn**. O XLL deve liberar memória alocada para armazenar o valor de retorno.
+**xlAsyncReturn** é o único retorno de chamada que o Excel permite em threads que não são de cálculo durante o recálculo. A parte assíncrona de uma UDF assíncrona não deve executar nenhum retorno de chamada diferente de **xlAsyncReturn**. O XLL deve liberar memória alocada para manter o valor de retorno.
   
-Os parâmetros _pxAsyncHandle_ e _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usados para retornar uma matriz de identificadores e valores correspondentes em um único retorno de chamada. Ao usar um único retorno de chamada, passe um LPXLOPER12 que aponta para estruturas XLOPER12 que contêm uma matriz dimensional que contém as alças assíncronas e valores de retorno. Essas matrizes devem estar na mesma ordem para que o Excel coincida corretamente um identificador assíncrono com seu valor correspondente. 
+Os _parâmetros pxAsyncHandle_ e  _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usados para retornar uma matriz de identificadores e valores correspondentes em um único retorno de chamada. Ao usar um único retorno de chamada, passe um LPXLOPER12 que aponta para estruturas XLOPER12 que contenham uma matriz dimensional que contenha as alças assíncronas e valores de retorno. Essas matrizes devem estar na mesma ordem para que o Excel corresponda corretamente a uma alça assíncrona com seu valor correspondente. 
   
-O exemplo a seguir mostra como você pode fazer uma chamada em lote usando o **xlAsyncReturn**.
+O exemplo a seguir mostra como você pode fazer uma chamada em lote usando **xlAsyncReturn**.
   
 ```cpp
 int batchSize = 10;

@@ -22,25 +22,25 @@ Indica a direção do texto: da esquerda para a direita ou vice-versa.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |A direção do texto é da esquerda para a direita (o padrão).  <br/> |
-|1  <br/> |A direção do texto é da direita para a esquerda.  <br/> |
+|0  <br/> |A direção do texto é da esquerda para a direita (o padrão).  <br/> |
+|1   <br/> |A direção do texto é da direita para a esquerda.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor desta célula corresponde à configuração de **direção** da guia **parágrafo** da caixa de diálogo **texto** (na guia **página inicial** , clique na seta **fonte** ), que aparece somente se um idioma que usa o texto de scripts complexos tiver sido adicionado na caixa de diálogo **preferências de idioma do Microsoft Office** . (Clique em **Iniciar**, **todos os programas**, **Microsoft Office**, **Ferramentas do Microsoft Office**e, em seguida, em preferências de **idioma do Microsoft Office**.) 
+O valor nesta célula corresponde  à configuração Direção  na guia Parágrafo da caixa de  diálogo Texto (na guia Página Início, clique na seta Fonte), que só aparecerá se um idioma que usa texto de scripts complexos tiver sido adicionado à caixa de diálogo Preferências de Idioma do **Microsoft Office.**   (Clique **em Iniciar,** em **Todos os Programas,** em **Microsoft Office,** em Ferramentas do **Microsoft Office** e em Preferências de Idioma do **Microsoft Office.)** 
   
 Para obter uma referência para a célula Flags pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Para. Flags [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Para.Flags[ *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Flags pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-|Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visFlags** <br/> |
+|Índice de linha:  <br/> |**visRowParagraph**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visFlags** <br/> |
    
 

@@ -19,18 +19,18 @@ ms.locfileid: "33413035"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Muitas pastas podem ser abertas com um modo de exibição normal, um modo de exibição padrão ou qualquer número de exibições personalizadas. Um modo de exibição descreve como exibir o conteúdo de uma pasta. O modo de exibição normal é usado quando não há um modo de exibição alternativo e quando você está abrindo a pasta pela primeira vez. Quando um modo de exibição alternativo existe, você deve usá-lo para abrir a pasta.
+Muitas pastas podem ser abertas com um modo de exibição normal, um modo de exibição padrão ou qualquer número de exibições personalizadas. Uma exibição descreve como exibir o conteúdo de uma pasta. O modo de exibição normal é usado quando não há nenhum modo de exibição alternativo e quando você está abrindo a pasta pela primeira vez. Quando existe uma exibição alternativa, você deve usá-la para abrir a pasta.
   
-Um modo de exibição é descrito em uma mensagem conhecida como um descritor de modo de exibição. Os descritores de modo geralmente são criados como mensagens associadas e podem aparecer nas pastas de exibição comum ou pessoal ou em qualquer pasta IPM.
+Uma exibição é descrita em uma mensagem conhecida como descritor de exibição. Os descritores de exibição normalmente são criados como mensagens associadas e podem aparecer nas pastas de exibição comum ou pessoal ou em qualquer pasta do IPM.
   
-### <a name="to-open-a-view-descriptor"></a>Para abrir um descritor de modo de exibição
+### <a name="to-open-a-view-descriptor"></a>Para abrir um descritor de exibição
   
-1. Chame [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable para recuperar a tabela de conteúdo associada da pasta. 
+1. Chame [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) para recuperar a tabela de conteúdo associada da pasta. 
     
-2. Criar uma restrição que localiza somente mensagens com a classe de mensagem reservada para exibir descritores e Call [IMAPITable:: Restrict](imapitable-restrict.md) para limitar a tabela e IMAPITable [:: QueryRows](imapitable-queryrows.md) para recuperar as linhas apropriadas ou...
+2. Crie uma restrição que localize somente mensagens com a classe de mensagem reservada para descritores de exibição e chame [IMAPITable::Restrict](imapitable-restrict.md) para limitar a tabela e [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar as linhas apropriadas, ou...
     
-   Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps da pasta para recuperar sua propriedade **PR_DEFAULT_VIEW_ENTRYID** ([pidtagdefaultviewentryid Canonical](pidtagdefaultviewentryid-canonical-property.md)). **PR_DEFAULT_VIEW_ENTRYID** contém o identificador de entrada para a mensagem que contém o descritor de modo de exibição padrão de uma pasta. Essa chamada será bem-sucedida se a pasta suportar o uso do sinalizador MAPI_ASSOCIATED em chamadas para [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) e [IMAPIContainer::](imapicontainer-getcontentstable.md)getcontenttable.
+   Chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) da pasta para recuperar sua **PR_DEFAULT_VIEW_ENTRYID** ([PidTagDefaultViewEntryId](pidtagdefaultviewentryid-canonical-property.md)) . **PR_DEFAULT_VIEW_ENTRYID** contém o identificador de entrada para a mensagem que contém o descritor de modo de exibição padrão para uma pasta. Essa chamada será bem-sucedida se a pasta suportar o uso do sinalizador MAPI_ASSOCIATED em chamadas para [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) e [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md).
     
-3. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md) com o identificador de entrada do descritor de modo de exibição para abri-lo. 
+3. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md) com o identificador de entrada do descritor de exibição para abri-lo. 
     
 

@@ -18,7 +18,7 @@ ms.locfileid: "33414715"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Informa ao conector de cluster que um cálculo do Excel foi cancelado e, portanto, todas as chamadas de função pendentes nessa sessão podem ser canceladas também (e o Excel não espera retornos de chamada com seus resultados).
+Informa ao conector de cluster que um cálculo do Excel foi cancelado e, portanto, todas as chamadas de função pendentes nessa sessão também podem ser canceladas (e que o Excel não espera retornos de chamada com seus resultados).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
@@ -32,11 +32,11 @@ _SessionID_
     
 ## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se o argumento _SessionID_ for válido; **xlHpcRetInvalidSessionId** se o argumento _SessionID_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
+**xlHpcRetSuccess** se o  _argumento SessionId_ for válido; **xlHpcRetInvalidSessionId** se o  _argumento SessionId_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
   
 ## <a name="remarks"></a>Comentários
 
-Os implementadores devem interromper todos os processos da sessão para melhorar o desempenho, como os resultados recebidos depois que essa chamada será descartada pelo Excel.
+Os implementadores devem interromper todos os processos da sessão para melhorar o desempenho, pois os resultados recebidos após essa chamada serão descartados pelo Excel.
   
 ## <a name="see-also"></a>Confira também
 

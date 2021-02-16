@@ -37,7 +37,7 @@ HRESULT Logoff(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O processo de logoff normalmente é iniciado quando um cliente chama o método [IMAPISession:: logoff](imapisession-logoff.md) para finalizar uma sessão. Em seguida, o MAPI chama cada método **IABLogon:: logoff** do provedor de catálogo de endereços para iniciar o processo de logoff. 
+O processo de logoff geralmente é iniciado quando um cliente chama o método [IMAPISession::Logoff](imapisession-logoff.md) para encerrar uma sessão. MAPI then calls each address book provider's **IABLogon::Logoff** method to start the logoff process. 
   
-O método **IABLogon:: logoff** faz o seguinte: 
+O **método IABLogon::Logoff** faz o seguinte: 
   
-- Libera todos os objetos abertos, como qualquer subobjeto ou o objeto status.
+- Libera todos os objetos abertos, como subobjetos ou o objeto de status.
     
-- Libera o objeto support do provedor.
+- Libera o objeto de suporte do provedor.
     
-Para obter mais informações sobre o processo de logoff dos provedores de catálogo de endereços, consulte desLigamento [de um provedor de serviços](shutting-down-a-service-provider.md).
+Para obter mais informações sobre o processo de logoff de provedores de agendamento de endereços, consulte [Desligar um Provedor de Serviços.](shutting-down-a-service-provider.md)
   
 ## <a name="see-also"></a>Confira também
 

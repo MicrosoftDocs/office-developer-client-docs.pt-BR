@@ -1,5 +1,5 @@
 ---
-title: Elementos (esquema de localização do clima do Outlook)
+title: Elementos (Esquema de localização do clima do Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416031"
 ---
-# <a name="elements-outlook-weather-location-schema"></a>Elementos (esquema de localização do clima do Outlook)
+# <a name="elements-outlook-weather-location-schema"></a>Elementos (Esquema de localização do clima do Outlook)
 
 Este tópico lista os elementos no esquema XML de localização do clima do Outlook.
   

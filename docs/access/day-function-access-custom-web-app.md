@@ -22,16 +22,16 @@ Retorna um inteiro que representa o dia (dia do mês) da data especificada no ca
   
 ## <a name="syntax"></a>Sintaxe
 
-**Dia** (*Data*) 
+**Day** (*Date*) 
   
-A função **Day** contém o argumento a seguir. 
+A **função** Dia contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
+| *Date*  <br/> |Uma expressão que pode ser resolvida para um valor de Data/Hora. A  *expressão do argumento Date,*  a expressão de coluna, a variável definida pelo usuário ou a cadeia de caracteres literal.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-**Day** retorna o mesmo valor que **datepart** (dia, Date). 
+**Day** retorna o mesmo valor que **Datepart** (dia, data). 
   
 

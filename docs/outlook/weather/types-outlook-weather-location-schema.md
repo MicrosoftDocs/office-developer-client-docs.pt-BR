@@ -1,5 +1,5 @@
 ---
-title: Tipos (esquema de localização do clima do Outlook)
+title: Tipos (Esquema de localização do clima do Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413735"
 ---
-# <a name="types-outlook-weather-location-schema"></a>Tipos (esquema de localização do clima do Outlook)
+# <a name="types-outlook-weather-location-schema"></a>Tipos (Esquema de localização do clima do Outlook)
 
 Este tópico lista os tipos no esquema XML de localização do clima do Outlook.
   

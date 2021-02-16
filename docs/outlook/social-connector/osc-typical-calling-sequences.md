@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
-description: Esta seção descreve as sequências de chamadas típicas de membros do Outlook Social Connector (OSC) nas interfaces de extensibilidade do provedor OSC, que um provedor OSC implementa.
+description: Esta seção descreve as sequências de chamada típicas do Outlook Social Connector (OSC) de membros nas interfaces de extensibilidade do provedor OSC, que um provedor osC implementa.
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,23 +17,23 @@ ms.locfileid: "33413609"
 ---
 # <a name="osc-typical-calling-sequences"></a>Sequências de chamadas típicas de OSC
 
-Esta seção descreve as sequências de chamadas típicas de membros do Outlook Social Connector (OSC) nas interfaces de extensibilidade do provedor OSC, que um provedor OSC implementa. As sequências de chamadas típicas ilustram como e quando o OSC usa essas interfaces e métodos, para permitir que você determine melhor como implementar um determinado membro em uma interface de extensibilidade de provedor. A sequência de chamadas real pode variar dependendo dos recursos retornados pelo método [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) . Exemplos de recursos incluem o seguinte: 
+Esta seção descreve as sequências de chamada típicas do Outlook Social Connector (OSC) de membros nas interfaces de extensibilidade do provedor OSC, implementadas por um provedor do OSC. As sequências de chamada típicas ilustram como e quando o OSC usa essas interfaces e métodos para permitir que você determine melhor como implementar um determinado membro em uma interface de extensibilidade do provedor. A sequência de chamada real pode variar dependendo dos recursos retornados pelo [método ISocialProvider::GetCapabilities.](isocialprovider-getcapabilities.md) Exemplos de recursos incluem o seguinte: 
   
-- Suporte do provedor para obter, armazenar em cache ou procurar dinamicamente amigos e atividades da rede social.
+- Suporte do provedor para obter, armazenamento em cache ou procurar dinamicamente amigos e atividades da rede social.
     
-- A interface do usuário que o OSC deve exibir para o logon do usuário.
+- A interface do usuário que o OSC deve exibir para logon do usuário.
     
 - O tipo de autenticação (por exemplo, autenticação baseada em formulários) que o OSC deve usar.
     
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Autenticação básica](basic-authentication.md): descreve a sequência de chamadas típica do OSC para dar suporte a um usuário do Office que está fazendo logon em uma rede social, se o provedor OSC oferecer suporte à autenticação básica.
+- [Autenticação](basic-authentication.md)Básica: descreve a sequência de chamada típica do OSC para dar suporte a um usuário do Office que está fazendo logon em uma rede social, se o provedor OSC suportar a autenticação básica.
     
-- [Autenticação baseada em formulários](forms-based-authentication.md): descreve a sequência de chamadas típica do OSC para dar suporte a um usuário do Office que está fazendo logon em uma rede social, se o provedor do OSC oferecer suporte à autenticação baseada em formulários.
+- [Autenticação baseada](forms-based-authentication.md)em formulários: descreve a sequência de chamada típica do OSC para dar suporte a um usuário do Office que está fazendo logon em uma rede social, se o provedor OSC suportar autenticação baseada em formulários.
     
-- [Obtendo atividades](getting-activities.md): descreve a sequência de chamadas típica do OSC para sincronizar as atividades dos amigos do usuário do Office de uma rede social, se o provedor do Social Network OSC oferecer suporte à sincronização de atividades.
+- [Getting Activities](getting-activities.md): Descreve a sequência de chamada típica do OSC para sincronizar as atividades dos amigos do usuário do Office de uma rede social, se o provedor OSC de rede social suportar a sincronização de atividades.
     
-- [Obter informações de amigos](getting-friends-information.md): descreve a sequência de chamadas típica do OSC para sincronizar a lista de amigos do usuário do Office a partir de uma rede social, se o provedor do Social Network OSC oferecer suporte à sincronização em cache de contatos.
+- [Obter informações](getting-friends-information.md)de amigos: descreve a sequência de chamada típica do OSC para sincronizar a lista de amigos do usuário do Office de uma rede social, se o provedor OSC de rede social suportar a sincronização em cache de contatos.
     
 ## <a name="reference"></a>Referências
 

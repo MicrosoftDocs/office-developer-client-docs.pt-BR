@@ -25,11 +25,11 @@ ms.locfileid: "33414533"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Localiza uma contraparte de caminho de convenção universal de nomenclatura (UNC) para o caminho local fornecido.
+Localiza uma contraparte de caminho UNC para o caminho local determinado.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,21 +45,21 @@ SCODE ScUNCFromLocalPath(
 
  _szLocal_
   
-> no Um caminho no formato [ _unidade:_]\[ _caminho_] de um arquivo ou diretório.
+> [in] Um caminho no formato [ _unidade:_] \[ _caminho_] de um arquivo ou diretório.
     
  _szUNC_
   
-> bota \\Um caminho no formato [ _Server_]\[ _share_]\[ _caminho_] do mesmo arquivo ou diretório que o parâmetro _szLocal_ . 
+> [out] Um caminho no formato [ servidor ] compartilhamento ] caminho ] do mesmo arquivo ou diretório \\ como para o parâmetro  \[  \[  _szLocal._ 
     
  _cchUNC_
   
-> no Tamanho do buffer para a cadeia de caracteres de saída.
+> [in] Tamanho do buffer para a cadeia de caracteres de saída.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> O equivalente ao caminho UNC foi localizado com êxito.
+> A contraparte do caminho UNC foi localizada com êxito.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -67,7 +67,7 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_E_TOO_BIG
   
->  _szUNC_ não era grande o suficiente para armazenar o resultado. 
+>  _szUNC_ não era grande o suficiente para manter o resultado. 
     
 S_FALSE
   

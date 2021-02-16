@@ -25,7 +25,7 @@ ms.locfileid: "33412755"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para a tabela única de MAPI (uma lista de modelos que todos os provedores de catálogo de endereços dão suporte à criação de novos destinatários).
+Retorna um ponteiro para a tabela única MAPI (uma lista de modelos que todos os provedores de agenda de endereços suportam para criar novos destinatários).
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,15 +38,15 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo das colunas de cadeia de caracteres. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo das colunas de cadeia de caracteres. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela única.
+> [out] Um ponteiro para um ponteiro para a tabela um-off.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,17 +56,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: GetOneOffTable** é implementado para objetos de suporte do provedor de catálogo de endereços. Os provedores de catálogo de endereços chamam **GetOneOffTable** para recuperar a lista completa de modelos para a criação de novos destinatários. Esta tabela inclui modelos que os provedores de catálogo de endereços estão ativos no suporte de sessão, bem como os modelos suportados por MAPI. 
+O **método IMAPISupport::GetOneOffTable** é implementado para objetos de suporte do provedor de agendas de endereços. Os provedores de agendamento de endereço chamam **GetOneOffTable** para recuperar a lista completa de modelos para criar novos destinatários. Esta tabela inclui modelos que abordam provedores de livro de endereços que estão ativos no suporte à sessão, bem como modelos compatíveis com MAPI. 
   
-Os destinatários recém-criados podem ser usados para endereçar uma mensagem ou podem ser adicionados a um contêiner de catálogo de endereços.
+Os destinatários recém-criados podem ser usados para lidar com uma mensagem ou podem ser adicionados a um contêiner de um livro de endereços.
   
-Para obter uma lista das propriedades que compõem o conjunto de colunas obrigatórios em tabelas únicas, consulte [one-off Tables](one-off-tables.md).
+Para uma lista das propriedades que com o conjunto de colunas necessários em tabelas únicas, consulte [Tabelas Únicas.](one-off-tables.md)
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
+A definição MAPI_UNICODE sinalizador de texto no parâmetro _ulFlags_ afeta o formato das colunas retornadas dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você estiver registrado para receber notificações de alterações para esta tabela única, você também receberá notificações de alterações para as tabelas únicas de outros provedores. Com base nessas notificações, você pode dar suporte a novos tipos de endereço que são adicionados durante a sessão atual.
+Se você estiver registrado para receber notificações de alterações nesta tabela única, também receberá notificações de alterações nas tabelas one-off de outros provedores. Com base nessas notificações, você pode dar suporte a novos tipos de endereços adicionados durante a sessão atual.
   
 ## <a name="see-also"></a>Confira também
 
@@ -89,5 +89,5 @@ Se você estiver registrado para receber notificações de alterações para est
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Tabelas únicas](one-off-tables.md)
+[Tabelas One-Off](one-off-tables.md)
 

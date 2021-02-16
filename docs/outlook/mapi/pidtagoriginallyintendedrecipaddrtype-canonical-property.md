@@ -25,7 +25,7 @@ ms.locfileid: "33416087"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o tipo de endereço do destinatário originalmente planejado de uma mensagem de encaminhamento.
+Contém o tipo de endereço do destinatário originalmente pretendido de uma mensagem com origem automática.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o tipo de endereço do destinatário originalmente planejado de uma mens
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são uma das propriedades de endereço do destinatário da mensagem originalmente planejado. Ele deve ser definido pelo agente automático que encaminhou a mensagem.
+Essas propriedades são uma das propriedades de endereço do destinatário da mensagem originalmente pretendido. Ela deve ser definida pelo agente automático que encaminhou a mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

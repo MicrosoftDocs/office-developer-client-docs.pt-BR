@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- UDFs [Excel 2007], chamadas de DLLs, funções definidas pelo usuário [Excel 2007], chamadas de DLLs, DLLs [Excel 2007], chamadas UDFs
+- udfs [excel 2007], chamando de dlls,funções definidas pelo usuário [Excel 2007], chamando de DLLs,DLLs [Excel 2007], chamando UDFs
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,27 +20,27 @@ ms.locfileid: "33417942"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chamar funções definidas pelo usuário (UDFs) de uma planilha é tão simples quanto chamar funções internas: você insere a função por meio de uma fórmula de célula. No enTanto, a partir da API de C, não há códigos de função pré-definidos para usar com os retornos de chamada. Para permitir que você chame UDFs, a API C exporta uma função somente XLL, a função [xlUDF](xludf.md) . O primeiro argumento da função é o nome da função como uma cadeia de caracteres e os argumentos subsequentes são aqueles que o UDF normalmente esperaria. 
+Chamar funções definidas pelo usuário (UDFs) a partir de uma planilha é tão simples quanto chamar funções internas: você inserir a função por meio de uma fórmula de célula. No entanto, na API de C, não há códigos de função pré-definidos para usar com os retornos de chamada. Para permitir que você chame UDFs, a API de C exporta uma função somente XLL, a [função xlUDF.](xludf.md) O primeiro argumento da função é o nome da função como uma cadeia de caracteres, e os argumentos subsequentes são aqueles que a UDF normalmente espera. 
   
-Você pode obter uma lista de funções e comandos de suplemento XLL registrados atualmente usando a função **xlfGetWorkspace** com o argumento 44. Isso retorna uma matriz de três colunas onde as colunas representam o seguinte: 
+Você pode obter uma lista das funções e comandos do complemento XLL atualmente registrados usando a função **xlfGetWorkspace** com o argumento 44. Isso retorna uma matriz de três colunas onde as colunas representam o seguinte: 
   
 - O caminho completo e o nome do XLL
     
-- O nome do UDF ou comando exportado do XLL
+- O nome da UDF ou comando conforme exportado do XLL
     
 - A cadeia de caracteres de código de retorno e argumento
     
 > [!NOTE]
-> O nome a ser exportado do XLL pode não ser igual ao nome registrado pelo qual o Excel conhece o UDF ou comando. 
+> O nome exportado do XLL pode não ser igual ao nome registrado pelo qual o Excel conhece o UDF ou comando. 
   
-A partir do Excel 2007, as funções de ferramentas de análise (ATP) são totalmente integradas e a API C tem suas próprias enumerações para funções como PRICE, **xlfPrice**. Em versões anteriores, você precisava usar o **xlUDF** para chamar essas funções. Se o suplemento precisar funcionar com o Excel 2003 e o Excel 2007 ou versões posteriores e usar essas funções, você deverá detectar a versão atual e chamar a função da maneira apropriada. 
+A partir do Excel 2007, as funções de Análise Toolpak (ATP) estão totalmente integradas, e a API de C tem suas próprias enumerações para funções como PREÇO, **xlfPrice**. Em versões anteriores, você precisava usar **xlUDF** para chamar essas funções. Se o seu complemento precisar trabalhar com o Excel 2003 e o Excel 2007 ou versões posteriores, e ele usar essas funções, você deverá detectar a versão atual e chamar a função da maneira apropriada. 
   
 ## <a name="examples"></a>Exemplos
 
-O exemplo a seguir mostra a função **xlUDF** que está sendo usada para chamar o **preço** da função ATP quando a versão em execução do Excel for 2003 ou anterior. Para obter informações sobre a configuração de uma variável de versão global, como **gExcelVersion12plus** neste exemplo, consulte [compatibilidade com versões anteriores](backward-compatibility.md).
+O exemplo a seguir mostra a **função xlUDF** que está sendo usada para chamar a função ATP **PRICE** quando a versão em execução do Excel é 2003 ou anterior. Para obter informações sobre a configuração de uma variável de versão global, como **gExcelVersion12plus** neste exemplo, consulte [Backward Compatibility](backward-compatibility.md).
   
 > [!NOTE]
-> Este exemplo usa as funções de estrutura **TempNum**, **TempStrConst** para configurar os argumentos e o Excel para chamar a API de C. 
+> Este exemplo usa as funções Framework **TempNum**, **TempStrConst** para configurar os argumentos e o Excel para chamar a API de C. 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-Onde você está chamando uma função XLL que retorna um valor modificando um argumento no local, a função **xlUDF** ainda retorna o valor pelo endereço do resultado **XLOPER/XLOPER12**. Em outras palavras, o resultado é retornado como se por meio de uma instrução de retorno normal. O **XLOPER/XLOPER12** que corresponde ao argumento que é usado para o valor de retorno não é modificado. Por exemplo, considere os dois UDFs a seguir. 
+Onde você está chamando uma função XLL que retorna um valor modificando um argumento no local, a função **xlUDF** ainda retorna o valor por meio do endereço do resultado **XLOPER/XLOPER12**. Em outras palavras, o resultado é retornado como se fosse por meio de uma instrução de retorno normal. O **XLOPER/XLOPER12** que corresponde ao argumento usado para o valor de retorno não émodificado. Por exemplo, considere as duas UDFs a seguir. 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,9 +109,9 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-Quando **o\_UDF 2** chama o **UDF\_1**, o valor de **pxArg** é inalterado após a chamada para **Excel12**, e o valor retornado por **UDF_1** está contido em **xRetVal**.
+Quando **udf \_ 2** chama **UDF \_ 1**, o valor de **pxArg** é inalterado após a chamada para **Excel12** e o valor retornado por **UDF_1** está contido em **xRetVal**.
   
-Ao fazer um grande número de chamadas para um UDF dessa forma, você pode avaliar o nome da função primeiro usando a [função xlfEvaluate](xlfevaluate.md). O número resultante, que é o mesmo que a ID de registro retornada pela função **xlfRegister** , pode ser passado no lugar do nome da função como o primeiro argumento para a função **xlUDF** . Isso permite que o Excel encontre e chame a função mais rapidamente do que se tiver que procurar o nome da função todas as vezes. 
+Ao fazer um grande número de chamadas para uma UDF dessa maneira, você pode avaliar o nome da função primeiro usando a função [xlfEvaluate](xlfevaluate.md). O número resultante, que é igual à ID de registro retornada pela função **xlfRegister,** pode ser passado no lugar do nome da função como o primeiro argumento para a função **xlUDF.** Isso permite que o Excel encontre e chame a função mais rapidamente do que se fosse necessário procurar o nome da função sempre. 
   
 ## <a name="see-also"></a>Confira também
 

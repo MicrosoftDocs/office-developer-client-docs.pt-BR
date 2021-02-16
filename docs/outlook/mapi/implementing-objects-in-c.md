@@ -19,17 +19,17 @@ ms.locfileid: "33414939"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aplicativos cliente e provedores de serviço escritos em C definem objetos MAPI criando uma estrutura de dados e uma matriz de ponteiros de função ordenada conhecida como uma tabela de função virtual ou vtable. Um ponteiro para vtable deve ser o primeiro membro da estrutura de dados.
+Os aplicativos cliente e provedores de serviços escritos em C definem objetos MAPI criando uma estrutura de dados e uma matriz de ponteiros de função ordenada conhecidos como uma tabela de funções virtuais ou vtable. Um ponteiro para a vtable deve ser o primeiro membro da estrutura de dados.
   
-Na própria vtable, há um ponteiro para cada método em cada interface suportada pelo objeto. A ordem dos ponteiros deve seguir a ordem dos métodos na especificação de interface publicada no arquivo de cabeçalho mapidefs. h. Cada ponteiro de função no vtable é definido como o endereço da implementação real do método. No C++, o compilador configura automaticamente a vtable. Em C, ele não. 
+Na própria vtable, há um ponteiro para cada método em cada interface com suporte do objeto. A ordem dos ponteiros deve seguir a ordem dos métodos na especificação da interface publicada no arquivo de header Mapidefs.h. Cada ponteiro de função na vtable é definido como o endereço da implementação real do método. Em C++, o compilador configura automaticamente a vtable. Em C, não. 
   
-A ilustração a seguir mostra como isso funciona. A caixa na extrema esquerda representa um cliente que precisa usar um objeto de provedor de serviços. Por meio da sessão, o cliente obtém um ponteiro para o objeto **lpObject**. A vtable aparece primeiro no objeto seguido por dados privados e métodos. O ponteiro vtable aponta para a vtable real, que contém ponteiros para cada uma das implementações dos métodos na interface. 
+A ilustração a seguir mostra como isso funciona. A caixa à esquerda representa um cliente que precisa usar um objeto de provedor de serviços. Durante a sessão, o cliente obtém um ponteiro para o objeto, **lpObject**. A vtable aparece primeiro no objeto, seguida de dados e métodos privados. O ponteiro vtable aponta para a vtable real, que contém ponteiros para cada uma das implementações dos métodos na interface. 
   
 **Object implementation**
   
-![Implementação do objeto] (media/amapi_42.gif "Implementação do objeto")
+![Implementação de objeto de](media/amapi_42.gif "implementação de objeto")
   
-O exemplo de código a seguir mostra como um provedor de serviços C pode definir um objeto status simples. O primeiro membro é o ponteiro vtable; o restante do objeto é composto de membros de dados. 
+O exemplo de código a seguir mostra como um provedor de serviços C pode definir um objeto de status simples. O primeiro membro é o ponteiro vtable; o restante do objeto é feito de membros de dados. 
   
 ```C
 typedef struct _MYSTATUSOBJECT
@@ -43,7 +43,7 @@ typedef struct _MYSTATUSOBJECT
  
 ```
 
-Como este objeto é um objeto status, a vtable inclui ponteiros para implementações de cada um dos métodos na interface do [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , bem como ponteiros para implementações de cada um dos métodos nas interfaces base, **IUnknown **e **IMAPIProp**. A ordem dos métodos na vtable corresponde à ordem especificada, conforme definido no arquivo de cabeçalho mapidefs. h.
+Como esse objeto é um objeto de status, a vtable inclui ponteiros para implementações de cada um dos métodos na interface [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) bem como ponteiros para implementações de cada um dos métodos nas interfaces base — **IUnknown** e **IMAPIProp**. A ordem dos métodos na vtable corresponde à ordem especificada, conforme definido no arquivo de header Mapidefs.h.
   
 ```js
 static const MYOBJECT_Vtbl vtblSTATUS =
@@ -70,9 +70,9 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Os clientes e provedores de serviço escritos em C usam objetos indiretamente através da vtable e adicionam um ponteiro de objeto como o primeiro parâmetro em cada chamada. Cada chamada para um método de interface MAPI requer um ponteiro para o objeto que está sendo chamado como seu primeiro parâmetro. O C++ define um ponteiro especial conhecido como **este** apontador para essa finalidade. O compilador C++ adiciona implicitamente o **** ponteiro como primeiro parâmetro a cada chamada de método. No C, não há nenhum ponteiro; Ele deve ser explicitamente adicionado. 
+Clientes e provedores de serviços escritos em C usam objetos indiretamente através da vtable e adicionam um ponteiro de objeto como o primeiro parâmetro em cada chamada. Todas as chamadas para um método de interface MAPI exigem um ponteiro para o objeto que está sendo chamado como seu primeiro parâmetro. O C++ define um ponteiro especial conhecido **como ponteiro** para essa finalidade. O compilador C++ adiciona implicitamente esse **ponteiro** como o primeiro parâmetro a cada chamada de método. Em C, não existe esse ponteiro; ela deve ser adicionada explicitamente. 
   
-O código a seguir demonstra como um cliente pode fazer uma chamada para uma instância de mySTATUSobject:
+O código a seguir demonstra como um cliente pode fazer uma chamada para uma instância de MYSTATUSOBJECT:
   
 ```C
 lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
@@ -81,5 +81,5 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementando objetos MAPI](implementing-mapi-objects.md)
 

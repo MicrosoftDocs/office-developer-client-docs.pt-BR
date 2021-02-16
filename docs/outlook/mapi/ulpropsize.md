@@ -29,7 +29,7 @@ Retorna o tamanho de um único valor de propriedade.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,20 +43,20 @@ ULONG UlPropSize(
 
  _lpSPropValue_
   
-> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define a propriedade a ser medida. 
+> [in] Ponteiro para uma [estrutura SPropValue](spropvalue.md) definindo a propriedade a ser medida. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impedia a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
-A função **UlPropSize** retorna o tamanho, em bytes, do valor da propriedade especificada. Ele ignora o tamanho do restante da estrutura **SPropValue** . 
+A **função UlPropSize** retorna o tamanho, em bytes, do valor da propriedade especificada. Ele ignora o tamanho do restante da **estrutura SPropValue.** 
   
 

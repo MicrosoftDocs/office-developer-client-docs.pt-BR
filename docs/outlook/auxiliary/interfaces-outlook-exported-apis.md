@@ -1,5 +1,5 @@
 ---
-title: Interfaces (APIs exportadas pelo Outlook)
+title: Interfaces (APIs exportadas do Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414820"
 ---
-# <a name="interfaces-outlook-exported-apis"></a>Interfaces (APIs exportadas pelo Outlook)
+# <a name="interfaces-outlook-exported-apis"></a>Interfaces (APIs exportadas do Outlook)
 
 Esta seção descreve as interfaces que o Outlook exporta.
   
 |**Interface**|**Descrição**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |O suporta a alteração da base dos compromissos em uma pasta de calendário.  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Oferece suporte à alteração da base de compromissos em uma pasta de calendário.  <br/> |
    
 

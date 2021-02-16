@@ -1,5 +1,5 @@
 ---
-title: Pastas especiais em repositórios de mensagens
+title: Pastas especiais em armazenamentos de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416759"
 ---
-# <a name="special-folders-in-message-stores"></a>Pastas especiais em repositórios de mensagens
+# <a name="special-folders-in-message-stores"></a>Pastas especiais em armazenamentos de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Pastas especiais como caixa de entrada, caixa de saída e pasta de resultados de pesquisa podem ser criadas antecipadamente e protegidas pelo provedor de armazenamento de mensagens. Se as pastas não existirem, o MAPI tentará criá-las no repositório de mensagens chamando a função [HrValidateIPMSubtree](hrvalidateipmsubtree.md) . Para obter mais informações, consulte [MAPI especial Folders](mapi-special-folders.md).
+Pastas especiais, como a Caixa de Entrada, a Caixa de Saída e a pasta de resultados de pesquisa, podem ser criadas com antecedência e protegidas pelo provedor de armazenamento de mensagens. Se as pastas não existirem, o MAPI tentará criar no armazenamento de mensagens chamando a [função HrValidateIPMSubtree.](hrvalidateipmsubtree.md) Para obter mais informações, consulte [Pastas Especiais MAPI.](mapi-special-folders.md)
   
 ## <a name="see-also"></a>Confira também
 

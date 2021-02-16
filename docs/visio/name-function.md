@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251580
 localization_priority: Normal
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
-description: Retorna o nome de uma folha como uma cadeia de caracteres.
+description: Retorna o nome de uma planilha como uma cadeia de caracteres.
 ms.openlocfilehash: 7d0a4e9f3c5f70be07e9cc5691f52afcbc7bea68
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33416794"
 ---
 # <a name="name-function"></a>Função NAME
 
-Retorna o nome de uma folha como uma cadeia de caracteres.
+Retorna o nome de uma planilha como uma cadeia de caracteres.
   
 ## <a name="syntax"></a>Sintaxe
 
-NOME (* * *langID_opt* * *) 
+NAME (** *langID_opt* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 

@@ -1,5 +1,5 @@
 ---
-title: Linha de parada de gradiente (seção Fill Gradient)
+title: Linha Gradient Stop (Seção Fill Gradient)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,16 +14,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412902"
 ---
-# <a name="gradient-stop-row-fill-gradient-section"></a>Linha de parada de gradiente (seção Fill Gradient)
+# <a name="gradient-stop-row-fill-gradient-section"></a>Linha Gradient Stop (Seção Fill Gradient)
 
 Contém a cor, transparência e posição de uma marca de gradiente para um gradiente de preenchimento.
   
-Uma linha de **parada** de gradiente contém as células a seguir. 
+Uma **linha Gradient Stop** contém as células a seguir. 
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
 |**Color** <br/> |O valor de cor da marca de gradiente. Esse valor pode ser expresso como o número de índice de uma cor na paleta de documentos ou usando as funções [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md)ou [HSL](hsl-function.md) (por exemplo).  <br/> |
 |**ColorTrans** <br/> |A quantidade de transparência da cor do gradiente, como uma porcentagem.  <br/> |
-|**Posição** <br/> |A posição da parada do gradiente ao longo da direção do gradiente de preenchimento, como uma porcentagem do ponto de origem do gradiente para a borda da área do preenchimento.  <br/> |
+|**Posição** <br/> |A posição da parada de gradiente ao longo da direção do gradiente de preenchimento, como uma porcentagem do ponto de origem do gradiente até a borda da área do preenchimento.  <br/> |
    
 

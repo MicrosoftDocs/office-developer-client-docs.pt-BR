@@ -1,5 +1,5 @@
 ---
-title: Implementar mensagens em repositórios de mensagens
+title: Implementando mensagens em armazenamentos de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416640"
 ---
-# <a name="implementing-messages-in-message-stores"></a>Implementar mensagens em repositórios de mensagens
+# <a name="implementing-messages-in-message-stores"></a>Implementando mensagens em armazenamentos de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A interface [IMessage: IMAPIProp](imessageimapiprop.md) é semelhante à interface [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) em que ambas as interfaces derivam da interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Os clientes usam os métodos **IMAPIProp** para acessar o conteúdo de uma mensagem. A interface **IMessage** fornece métodos adicionais para a manipulação de mensagens (por exemplo, adição de anexos ou modificação dos destinatários de uma mensagem). Os métodos na interface **IMessage** modificam atributos de mensagens que não são armazenadas diretamente nas propriedades da mensagem. 
+The [IMessage : IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp : IUnknown](imapipropiunknown.md) interface. Os clientes usam **os métodos IMAPIProp** para acessar o conteúdo de uma mensagem. A interface **IMessage** fornece métodos adicionais para manipular mensagens (por exemplo, adicionar anexos ou modificar os destinatários de uma mensagem). Os métodos na interface **IMessage** modificam atributos de mensagens que não são armazenados diretamente nas propriedades da mensagem. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos do Armazenamento de Mensagens](message-store-features.md)
 

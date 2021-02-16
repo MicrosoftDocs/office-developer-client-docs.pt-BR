@@ -22,13 +22,13 @@ Determina a direção dos saltos de linha que ocorrem em um conector dinâmico h
   
 |**Valor**|**Direção do salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Padrão da página  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1  <br/> | Para cima  <br/> |**visLOJumpDirXUp** <br/> |
-| duas  <br/> | Para baixo  <br/> |**visLOJumpDirXDown** <br/> |
+| 0  <br/> | Padrão da página  <br/> |**visLOJumpDirXDefault** <br/> |
+| 1   <br/> | Para cima  <br/> |**visLOJumpDirXUp** <br/> |
+| 2   <br/> | Para baixo  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para definir a direção horizontal padrão para *todos os* saltos de conectores em uma página, use a célula PageLineJumpDirX na seção Page Layout. 
+Para definir a direção  horizontal padrão para todos os saltos de conector em uma página, use a célula PageLineJumpDirX na seção Page Layout. 
   
 Para fazer referência à célula ConLineJumpDirX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   

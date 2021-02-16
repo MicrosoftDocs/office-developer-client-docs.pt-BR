@@ -25,14 +25,14 @@ ms.locfileid: "33412860"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso a um provedor de repositório de mensagens por meio de um objeto do provedor de repositório de mensagens. Este objeto do provedor de repositório de mensagens é retornado no logon do provedor pela função de ponto de entrada do provedor do repositório de mensagens [MSProviderInit](msproviderinit.md) . O objeto do provedor de repositório de mensagens é usado principalmente por aplicativos cliente e o spooler MAPI para abrir repositórios de mensagens. 
+Fornece acesso a um provedor de armazenamento de mensagens por meio de um objeto de provedor de armazenamento de mensagens. Esse objeto do provedor de armazenamento de mensagens é retornado no logon do provedor pela função de ponto de entrada [MSProviderInit](msproviderinit.md) do provedor de armazenamento de mensagens. O objeto do provedor de armazenamento de mensagens é usado principalmente por aplicativos cliente e pelo spooler MAPI para abrir os armazenamentos de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Exposto por:  <br/> |Objetos do provedor do repositório de mensagens  <br/> |
-|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
-|Chamado por:  <br/> |MAPI e o spooler MAPI  <br/> |
+|Implementado por:  <br/> |Provedores de armazenamento de mensagens  <br/> |
+|Chamado por:  <br/> |MAPI and the MAPI spooler  <br/> |
 |Identificador de interface:  <br/> |IID_IMSProvider  <br/> |
 |Tipo de ponteiro:  <br/> |LPMSPROVIDER  <br/> |
    
@@ -40,22 +40,22 @@ Fornece acesso a um provedor de repositório de mensagens por meio de um objeto 
 
 |||
 |:-----|:-----|
-|[Shutdown](imsprovider-shutdown.md) <br/> |Fecha um provedor de repositório de mensagens de maneira ordenada.  <br/> |
-|[Logon](imsprovider-logon.md) <br/> |Registra o MAPI em uma instância de um provedor de armazenamento de mensagens.  <br/> |
-|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Registra o spooler MAPI em um repositório de mensagens.  <br/> |
-|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compara dois identificadores de entrada de repositório de mensagens para determinar se eles se referem ao mesmo objeto Store.  <br/> |
+|[Break](imsprovider-shutdown.md) <br/> |Fecha um provedor de armazenamento de mensagens de forma pedido.  <br/> |
+|[Logon](imsprovider-logon.md) <br/> |Registra MAPI em uma instância de um provedor de armazenamento de mensagens.  <br/> |
+|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Registra o spooler MAPI em um armazenamento de mensagens.  <br/> |
+|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compara dois identificadores de entrada do armazenamento de mensagens para determinar se eles se referem ao mesmo objeto de armazenamento.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O MAPI usa um objeto de provedor de repositório de mensagens por sessão, independentemente de quantas lojas de mensagens são abertas pelo provedor da loja. Se uma segunda sessão MAPI fizer logon em qualquer repositório aberto, as chamadas MAPI **MSProviderInit** uma segunda vez para criar um novo objeto do provedor de repositório de mensagens para essa sessão usar. 
+O MAPI usa um objeto de provedor de armazenamento de mensagens por sessão, independentemente de quantos armazenamentos de mensagens sejam abertos pelo provedor de armazenamento. Se uma segunda sessão MAPI faz o login em qualquer armazenamento aberto, o MAPI chama **MSProviderInit** uma segunda vez para criar um novo objeto de provedor de armazenamento de mensagens para essa sessão usar. 
   
-Um objeto do provedor de repositório de mensagens deve conter o seguinte para funcionar corretamente:
+Um objeto de provedor de armazenamento de mensagens deve conter o seguinte para funcionar corretamente:
   
-- Um ponteiro de rotina de alocação de memória do _lpMalloc_ para uso por todos os repositórios abertos usando este objeto de provedor. 
+- Um ponteiro de rotina de alocação de memória  _lpMalloc_ para uso por todos os armazenamentos abertos usando esse objeto de provedor. 
     
-- Os ponteiros de rotina _lpfAllocateBuffer_, _ lpfAllocateMore _ e _lpfFreeBuffer_ para as funções de alocação de memória [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) . 
+- The  _lpfAllocateBuffer_, _ lpfAllocateMore _, and  _lpfFreeBuffer_ routine pointers to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) memory allocation functions. 
     
-- Uma lista vinculada de todos os repositórios abertos usando este objeto de provedor e ainda não foi fechado.
+- Uma lista vinculada de todos os armazenamentos abertos usando esse objeto provedor e ainda não fechado.
     
 ## <a name="see-also"></a>Confira também
 

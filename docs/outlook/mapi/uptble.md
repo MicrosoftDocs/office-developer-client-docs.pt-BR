@@ -19,7 +19,7 @@ ms.locfileid: "33413837"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações estendidas para carregar o conteúdo de uma pasta durante o [estado de carregamento da tabela](upload-table-state.md).
+Informações estendidas para carregar o conteúdo de uma pasta durante o [estado da tabela de carregamento.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -39,27 +39,27 @@ struct UPTBLE
 
  _iEntMod_
   
->  bota Index para acompanhar o carregamento do número _cEntMod_ de itens novos ou modificados. 
+>  [out] Index to tracking the  _cEntMod_ number of new or modified items. 
     
  _cEntMod_
   
->  bota Número de itens novos ou modificados na pasta. 
+>  [out] Número de itens novos ou modificados na pasta. 
     
  _iEntRead_
   
->  bota Index para acompanhar o carregamento do número de itens de leitura _cEntRead_ . 
+>  [out] Index to track uploading the number of  _cEntRead_ read items. 
     
  _cEntRead_
   
->  bota Número de itens lidos na pasta. 
+>  [out] Número de itens de leitura na pasta. 
     
  _iEntDel_
   
->  bota Index para acompanhar o carregamento do número de itens excluídos do _cEntDel_ . 
+>  [out] Index to track uploading the number of  _cEntDel_ deleted items. 
     
  _cEntDel_
   
->  bota Número de itens excluídos na pasta. 
+>  [out] Número de itens excluídos na pasta. 
     
 ## <a name="see-also"></a>Confira também
 

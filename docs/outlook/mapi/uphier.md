@@ -19,7 +19,7 @@ ms.locfileid: "33414918"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para sincronizar uma hierarquia de pastas durante o [estado de hierarquia de upload](upload-hierarchy-state.md).
+Informações para sincronizar uma hierarquia de pastas durante o estado [de hierarquia de carregamento.](upload-hierarchy-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -37,25 +37,25 @@ struct UPHIER
 
 _ulFlags_
   
-> no Sinalizadores para modificar o comportamento ao sincronizar a hierarquia de pastas.
+> [in] Sinalizadores para modificar o comportamento ao sincronizar a hierarquia de pastas.
     
   - UPH_OK
     
-    - no O upload foi bem-sucedido. O cliente define isso após carregar as informações com êxito no servidor. Ao ver esse sinalizador, o Outlook limpa todas as informações de escrituração interna que indicaram que a hierarquia de pastas precisava ser atualizada. 
+    - [in] O carregamento foi bem-sucedido. O cliente define isso depois de carregar com êxito as informações para o servidor. Ao ver esse sinalizador, o Outlook limpa todas as informações de manutenção contábil internas que indicavam que a hierarquia de pastas necessitava de atualização. 
     
-    - O cliente passa o HRESULT se o upload não tiver sido bem-sucedido.
+    - O cliente passa o HRESULT se o carregamento não foi bem-sucedido.
     
 _pstmReserved_
   
-> bota Este membro é reservado para uso interno do Outlook e não tem suporte.
+> [out] Este membro é reservado para uso interno do Outlook e não tem suporte.
     
 _iEnt_
   
-> bota Índice para controlar a sincronização do número de pastas especificado por *cento* . 
+> [out] Index to track synchronizing the number of folders specified by  *cEnt*  . 
     
 _cEnt_
   
-> bota Número de pastas que estão fora de sincronia.
+> [out] Número de pastas que estão fora de sincronia.
     
 ## <a name="see-also"></a>Confira também
 

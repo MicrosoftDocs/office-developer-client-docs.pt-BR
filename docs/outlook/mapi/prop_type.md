@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412832"
 ---
-# <a name="proptype"></a>PROP_TYPE
+# <a name="prop_type"></a>PROP_TYPE
 
   
   
@@ -29,7 +29,7 @@ Retorna o tipo de propriedade de uma marca de propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -44,9 +44,9 @@ PROP_TYPE (ulPropTag)
     
 ## <a name="remarks"></a>Comentários
 
-A macro **PROP_TYPE** pode ser usada para determinar o tipo de uma propriedade. Por exemplo, chamar PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) resulta no valor PT_BINARY que está sendo retornado.
+A **PROP_TYPE** macro pode ser usada para determinar o tipo de uma propriedade. Por exemplo, chamar PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) resulta no valor PT_BINARY sendo retornado.
   
-Cada marca de propriedade contém o tipo de propriedade na palavra de ordem inferior (bits 0 a 15) e o identificador de propriedade na palavra de ordem alta (bits 16 a 31). A macro **PROP_TYPE** extrai o tipo de propriedade e a coloca em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
+Cada marca de propriedade contém o tipo de propriedade na palavra de ordem baixa (bits 0 a 15) e o identificador da propriedade na palavra de ordem alta (bits 16 a 31). A **PROP_TYPE** macro extrai o tipo de propriedade e o coloca nos bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
   
 ## <a name="see-also"></a>Confira também
 

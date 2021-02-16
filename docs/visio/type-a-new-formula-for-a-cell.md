@@ -26,10 +26,10 @@ ms.locfileid: "33413448"
     
     A fórmula digitada substitui a fórmula anterior da célula.
     
-    Se você digitar um número, mas não fornecer unidades de medida, o Microsoft Visio usará as unidades do valor anterior da célula, se houver uma. Caso contrário, se a célula requer unidades, o Visio utiliza as unidades padrão para a célula.
+    Se você digitar um número, mas não fornecer unidades de medida, o Microsoft Visio usará as unidades do valor anterior da célula se houver uma. Caso contrário, se a célula requer unidades, o Visio utiliza as unidades padrão para a célula.
     
 3. Para aceitar a fórmula, pressione ENTER.
     
-    Se o número ou fórmula contiver um erro, o Visio exibirá uma mensagem e, em seguida, destacará o erro na barra de fórmulas ou na célula. Corrija o erro e pressione ENTER para aceitar a correção.
+    Se o número ou a fórmula contiver um erro, o Visio exibirá uma mensagem e realça o erro na barra de fórmulas ou na célula. Corrija o erro e pressione ENTER para aceitar a correção.
     
 

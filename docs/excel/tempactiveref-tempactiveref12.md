@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- função tempactiveref [Excel 2007], função TempActiveRef12 [Excel 2007]
+- função tempactiveref [excel 2007],função TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33415541"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de estrutura que cria um **XLOPER XLOPER**/ **** temporário contendo uma referência externa para o bloco retangular de células na planilha ativa. 
+Função de biblioteca de estrutura que cria um /  **XLOPER XLOPER12** temporário contendo uma referência externa ao bloco retangular de células na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
@@ -40,7 +40,7 @@ A linha inicial da referência.
   
 A linha final da referência.
   
-Os argumentos de linha são baseados em zero, de forma que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser feito por um inteiro de palavra. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. 0.
+Os argumentos de linha são baseados em zero para que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e em versões anteriores, e a partir do Excel 2007 executando uma planilha no modo de compatibilidade, o valor máximo é 65.535 = 2^16 - 1 e é o valor máximo que pode ser feito por um inteiro do WORD. A partir do Excel 2007 executando uma planilha, o valor máximo é 1.048.575 = 2^20 - 1. O RW é definido como um inteiro assinado de 32 bits em XLCALL.H.
   
  _colFirst_
   
@@ -50,15 +50,15 @@ O número da coluna inicial da referência.
   
 O número da coluna final da referência.
   
-Os argumentos de coluna são baseados em zero para que A coluna A seja passada como 0. No Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 255 = 2 ^ 8-1 e é o valor máximo que pode ser feito por um inteiro de BYTE. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 16.383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. 0.
+Os argumentos de coluna são baseados em zero para que a coluna A seja passada como 0. No Excel 2003 e em versões anteriores, e a partir do Excel 2007 executando uma planilha no modo de compatibilidade, o valor máximo é 255 = 2^8 - 1 e é o valor máximo que pode ser feito por um inteiro BYTE. A partir do Excel 2007 executando uma planilha, o valor máximo é 16.383 = 2^14 - 1. COL é definido como um inteiro assinado de 32 bits em XLCALL.H.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência externa **xltypeRef** para o bloco retangular de células passadas. 
+Retorna uma **referência externa xltypeRef** para o bloco retangular de células passadas. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempActiveRef12** para selecionar as células A105: C110. 
+Este exemplo usa a **função TempActiveRef12** para selecionar as células A105:C110. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

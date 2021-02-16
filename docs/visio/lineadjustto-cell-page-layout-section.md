@@ -20,12 +20,12 @@ ms.locfileid: "33414022"
 
 Determina quais conectores dinâmicos são alinhados uns sobre os outros.
   
-|**Valor**|**Just**|**Constante de automação**|
+|**Valor**|**Ajuste**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustToDefault** <br/> |
-|1  <br/> |Linhas próximas umas das outras  <br/> |**visPLOLineAdjustToAll** <br/> |
-|duas  <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3D  <br/> |Linhas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|0  <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustToDefault** <br/> |
+|1   <br/> |Linhas próximas umas das outras  <br/> |**visPLOLineAdjustToAll** <br/> |
+|2   <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3   <br/> |Linhas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -43,6 +43,6 @@ Para obter uma referência para a célula LineAdjustTo pelo índice a partir de 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOLineAdjustTo** <br/> |
+|Índice de célula:  <br/> |**visPLOLineAdjustTo** <br/> |
    
 

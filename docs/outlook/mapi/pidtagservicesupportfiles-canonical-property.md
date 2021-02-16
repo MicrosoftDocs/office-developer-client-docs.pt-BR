@@ -36,19 +36,19 @@ Contém uma lista dos arquivos que pertencem ao serviço de mensagens.
    
 ## <a name="remarks"></a>Comentários
 
-Usando uma caixa de diálogo no miniaplicativo do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagens. Por exemplo, o usuário pode obter os nomes de todas as DLLs (bibliotecas de vínculo dinâmico) que pertencem ao serviço. O usuário pode então buscar detalhes adicionais sobre os arquivos especificados, como os nomes e números de versão de todas as DLLs. O MAPI usa as propriedades a seguir para criar uma lista de arquivos de suporte em uma caixa de diálogo para a seleção de usuários de mensagens.
+Usando uma caixa de diálogo no applet do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagens. Por exemplo, o usuário pode obter os nomes de todas as bibliotecas de vínculo dinâmico (DLLs) que pertencem ao serviço. Em seguida, o usuário pode procurar detalhes adicionais sobre os arquivos especificados, como os nomes e os números de versão de todas as DLLs. MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.
   
-MAPI funciona somente com nomes de Filee outras cadeias de caracteres passadas para ele, no conjunto de caracteres de interfaces de serviço do Active Directory (ANSI). Aplicativos clientes que usam nomes de FileNames em um conjunto de caracteres OEM (fabricante original de equipamento) devem convertê-los para ANSI antes de chamar MAPI.
+O MAPI funciona somente com nomes de arquivo e outras cadeias de caracteres passadas para ele, no conjunto de caracteres ANSI (Interfaces de Serviço do Active Directory). Os aplicativos cliente que usam nomes de arquivo em um conjunto de caracteres OEM (fabricante de equipamento original) devem convertê-los em ANSI antes de chamar o MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -38,6 +38,6 @@ Para obter uma referência para a célula ShapeShdwObliqueAngle pelo índice, a 
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowFill** <br/> |
-| Índice da célula:  <br/> |**visFillShdwObliqueAngle** <br/> |
+| Índice de célula:  <br/> |**visFillShdwObliqueAngle** <br/> |
    
 

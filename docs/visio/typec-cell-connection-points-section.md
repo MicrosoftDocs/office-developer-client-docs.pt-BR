@@ -22,9 +22,9 @@ Determina o tipo de ponto de conexão.
   
 |**Valor**|**Tipo**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Cilindro  <br/> |**visCnnctTypeInward** <br/> |
-|1  <br/> |Para fora  <br/> |**visCnnctTypeOutward** <br/> |
-|duas  <br/> |Para &amp; fora  <br/> |**visCnnctTypeInwardOutward** <br/> |
+|0  <br/> |Para dentro  <br/> |**visCnnctTypeInward** <br/> |
+|1   <br/> |Para fora  <br/> |**visCnnctTypeOutward** <br/> |
+|2   <br/> |Para dentro &amp; para fora  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,15 +34,15 @@ Para obter uma referência para a célula Type / C pelo nome, a partir de outra 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Connections. Type [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Connections.Type[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Type / C pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionConnectionPts** <br/> |
-|Índice de linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCnnctType** (linhas não estendidas) **visCnnctC** (linhas estendidas)  <br/> |
+|Índice de linha:  <br/> |**visRowConnectionPts**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visCnnctType** (linhas não estendidas) **visCnnctC** (linhas estendidas)  <br/> |
    
 Para obter informações sobre linhas estendidas e não-estendidas, consulte a linha Conectar Pontos.
   

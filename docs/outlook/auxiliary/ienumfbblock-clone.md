@@ -30,16 +30,16 @@ HRESULT Clone(
 
 ## <a name="parameters"></a>Parâmetros
 
-_ppclone_
+_ppcasa_
   
-> bota Um ponteiro para ponteiro para a cópia da interface [IEnumFBBlock](ienumfbblock.md) . 
+> [out] Um ponteiro para ponteiro para a cópia da interface [IEnumFBBlock.](ienumfbblock.md) 
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_OUTOFMEMORY  <br/> |Não há memória suficiente para fazer a cópia.  <br/> |
+|E_OUTOFMEMORY  <br/> |Há memória insuficiente para fazer a cópia.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

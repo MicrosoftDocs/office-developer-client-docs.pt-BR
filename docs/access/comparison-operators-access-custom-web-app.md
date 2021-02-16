@@ -20,17 +20,17 @@ ms.locfileid: "33412839"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [\<(Menor que) (Aplicativo Web personalizado do Access)](less-thanaccess-custom-web-app.md)
+- [\< (Menor que) (Aplicativo Web personalizado do Access)](less-thanaccess-custom-web-app.md)
     
 - [\<= (Menor ou igual a) (aplicativo Web personalizado do Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [\<\>(Diferente de) (Aplicativo Web personalizado do Access)](not-equal-toaccess-custom-web-app.md)
+- [\<\> (Não é igual a) (Aplicativo Web personalizado do Access)](not-equal-toaccess-custom-web-app.md)
     
 - [= (Igual a) (aplicativo Web personalizado do Access)](equalsequalsaccess-custom-web-app.md)
     
-- [\>(Maior que) (Aplicativo Web personalizado do Access)](greater-thanaccess-custom-web-app.md)
+- [\> (Maior que) (Aplicativo Web personalizado do Access)](greater-thanaccess-custom-web-app.md)
     
-- [\>= (Maior que ou igual a) (aplicativo Web personalizado do Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [\>= (maior ou igual a) (aplicativo Web personalizado do Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
 - [BETWEEN (aplicativo Web personalizado do Access)](between-access-custom-web-app.md)
     

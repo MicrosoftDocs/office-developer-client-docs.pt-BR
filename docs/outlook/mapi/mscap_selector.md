@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417200"
 ---
-# <a name="mscapselector"></a>MSCAP_SELECTOR
+# <a name="mscap_selector"></a>MSCAP_SELECTOR
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica as funcionalidades a serem retornadas para um repositório.
+Especifica os recursos a retornar para um armazenamento.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -40,7 +40,7 @@ typedef enum
 
  *MSCAP_SEL_RESERVED1* 
   
-> Este membro é reservado para uso interno do Outlook e não tem suporte. 
+> Este membro está reservado para uso interno do Outlook e não tem suporte. 
     
  *MSCAP_SEL_RESERVED2* 
   
@@ -48,7 +48,7 @@ typedef enum
     
  *MSCAP_SEL_FOLDER* 
   
-> Recursos sobre as pastas de suporte em um repositório.
+> Recursos sobre suporte a pastas em um armazenamento.
     
  *MSCAP_SEL_RESERVED3* 
   
@@ -56,6 +56,6 @@ typedef enum
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Recursos sobre restrições de suporte em um repositório.
+> Recursos sobre o suporte a restrições em um armazenamento.
     
 

@@ -29,7 +29,7 @@ Se as linhas dos Pontos de Conexão são nomeadas, esses nomes aparecerão como 
 |[DirX/A](dirxa-cell-connection-points-section.md) <br/> |O componente *x* do vetor de alinhamento necessário de um ponto de conexão correspondente. Ela também é utilizada para orientar o segmento anexado de um conector dinâmico. Essa célula assume um valor de ponto flutuante.  <br/> |
 |[DirY/B](diryb-cell-connection-points-section.md) <br/> |O componente *y* do vetor de alinhamento necessário de um ponto de conexão correspondente. Ela também é utilizada para orientar o segmento anexado de um conector dinâmico. Essa célula assume um valor de ponto flutuante.  <br/> |
 |[Type/C](typec-cell-connection-points-section.md) <br/> |O tipo de ponto de conexão (0 = para dentro; 1 = para fora; 2 = para dentro + para fora).  <br/> |
-|[D](d-cell-connection-points-section.md) <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas. Para acessar essa célula, clique com o botão direito do mouse em uma linha e clique em **Alterar Tipo de Linha **no menu de atalho.<br/> |
+|[D](d-cell-connection-points-section.md) <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas. Para acessar essa célula, clique com o botão direito do mouse em uma linha e clique em **Alterar Tipo de Linha** no menu de atalho.<br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -51,7 +51,7 @@ As linhas estendidas contêm células A, B, C e D e se comportam como as linhas 
   
 Você pode fazer referência as células de linha Connection Point pelo nome da linha, que aparece na janela ShapeSheet em texto vermelho. Para alterar o nome da linha, clique na linha e digite um nome, como *Custom*, por exemplo, para criar o nome da linha Connections.Custom. Você pode fazer referência à célula X usando Connections.Custom.X, por exemplo, ou Connections.X1 se quiser utilizar o número da linha. 
   
-O nome de linha que você inserir deve ser único dentro da seção. Quando você cria um nome para uma linha na seção Connection Points, o Microsoft Office Visio nomeia todas as linhas da seção com o nome padrão, Connections.Row_*n*. 
+O nome de linha que você inserir deve ser único dentro da seção. Quando você cria um nome para uma linha na seção Connection Points, o Microsoft Office Visio nomeia todas as linhas da seção com o nome padrão, Connections.Row_ *n*. 
   
 As linhas Connection Points nomeadas não são compatíveis com versões do Visio anteriores ao Visio 5.0. Ao salvar um arquivo de desenho do Visio com linhas Connection Points nomeadas para um formato anterior, as referências às linhas Connection Points nomeadas são convertidas em referências indexadas e os nomes das linhas são perdidos.
   

@@ -25,7 +25,7 @@ ms.locfileid: "33417025"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Solicita que a mensagem atual seja enfileirada para entrega.
+Solicita que a mensagem atual seja en fila para entrega.
   
 ```cpp
 HRESULT SubmitMessage(
@@ -37,23 +37,23 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como uma mensagem é enviada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como uma mensagem é enviada. O sinalizador a seguir pode ser definido:
     
 FORCE_SUBMIT 
   
-> O MAPI deve enviar a mensagem mesmo que ela não possa ser enviada imediatamente.
+> O MAPI deve enviar a mensagem, mesmo que não possa ser enviada imediatamente.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIMessageSite:: SubmitMessage** para solicitar que uma mensagem seja enfileirada para entrega. O site de mensagens deve chamar o método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar a mensagem. A mensagem não precisa ter sido salva anteriormente porque **SubmitMessage** deve fazer com que a mensagem seja salva se a mensagem tiver sido modificada. Após o retorno de **SubmitMessage**, o formulário deve verificar uma mensagem atual e, em seguida, se descartar, se não houver nenhuma. 
+Os objetos de formulário chamam o método **IMAPIMessageSite::SubmitMessage** para solicitar que uma mensagem seja en fila para entrega. O site de mensagens deve chamar [o método IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar a mensagem. A mensagem não precisa ter sido salva anteriormente, porque **SubmitMessage** deve fazer com que a mensagem seja salva se a mensagem tiver sido modificada. Após o retorno de **SubmitMessage**, o formulário deve verificar se há uma mensagem atual e, em seguida, descartar a si mesmo se não existe. 
   
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -61,7 +61,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: SubmitMessage** para salvar a mensagem. Primeiro, ele chama o método **IPersistMessage:: HandsOffMessage** e, em seguida, chama **SubmitMessage**.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI usa o **método IMAPIMessageSite::SubmitMessage** para salvar a mensagem. Primeiro, ele chama o **método IPersistMessage::HandsOffMessage** e, em seguida, chama **SubmitMessage**.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

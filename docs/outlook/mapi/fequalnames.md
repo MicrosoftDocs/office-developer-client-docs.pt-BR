@@ -25,11 +25,11 @@ ms.locfileid: "33414799"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se duas propriedades nomeadas por MAPI são as mesmas. 
+Determina se duas propriedades nomeadas MAPI são iguais. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,11 +44,11 @@ BOOL FEqualNames(
 
  _lpName1_
   
-> no Ponteiro para uma estrutura [MAPINAMEID](mapinameid.md) descrevendo a primeira propriedade nomeada. 
+> [in] Ponteiro para uma [estrutura MAPINAMEID que](mapinameid.md) descreve a primeira propriedade nomeada. 
     
  _lpName2_
   
-> no Ponteiro para uma estrutura **MAPINAMEID** descrevendo a segunda propriedade nomeada. 
+> [in] Ponteiro para uma **estrutura MAPINAMEID que** descreve a segunda propriedade nomeada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -62,8 +62,8 @@ FALSE
     
 ## <a name="remarks"></a>Comentários
 
-A função **FEqualNames** é útil porque a estrutura **MAPINAMEID** contém um [GUID](guid.md) e pode representar o próprio nome da propriedade em mais de uma forma. Isso significa que as duas estruturas não podem ser comparadas por métodos binários simples. 
+A **função FEqualNames** é útil porque a estrutura **MAPINAMEID** contém um [GUID](guid.md) e pode representar o nome da propriedade em si de mais de uma maneira. Isso significa que as duas estruturas não podem ser comparadas por métodos binários simples. 
   
-O processo de teste diferencia maiúsculas de minúsculas para as cadeias de caracteres de nome da propriedade. 
+O processo de teste faz a seleção de caso para as cadeias de caracteres do nome da propriedade. 
   
 

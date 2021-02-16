@@ -22,15 +22,15 @@ ms.locfileid: "33416038"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **Register** de uma folha de macro XLM do Excel. 
+Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **REGISTER de uma** folha de macro XLM do Excel. 
   
-A função **xlfRegister** pode ser chamada em duas formas: 
+A **função xlfRegister** pode ser chamada de duas formas: 
   
-- [xlfRegister (formulário 1)](xlfregister-form-1.md): registra um comando ou função individual.
+- [xlfRegister (Formulário 1)](xlfregister-form-1.md): registra um comando ou função individual.
     
 - xlfRegister (Formato 2): carrega e ativa um XLL.
     
-Chamado no formato 2, essa função só pode ser usada para carregar e ativar um XLL contendo um procedimento [xlAutoOpen](xlautoopen.md) . 
+Chamada no Formulário 2, essa função só pode ser usada para carregar e ativar um XLL contendo um [procedimento xlAutoOpen.](xlautoopen.md) 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -44,7 +44,7 @@ O nome da DLL a ser carregada e ativada.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se tiver êxito, retornará o nome da DLL (**xltypeStr**). Caso contrário, retornará um #VALUE! #NUM!
+Se bem-sucedido, retornará o nome da DLL (**xltypeStr**). Caso contrário, retornará um #VALUE! .
   
 ## <a name="see-also"></a>Confira também
 

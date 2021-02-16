@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251581
 localization_priority: Normal
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
-description: Retorna o nome mestre de uma planilha como uma cadeia de caracteres ou retorna a cadeia de caracteres ' sem mestre ' se a planilha não tiver um mestre.
+description: Retorna o nome mestre de uma planilha como uma cadeia de caracteres ou retorna a cadeia de caracteres 'nenhum mestre' se a planilha não tiver um mestre.
 ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33414750"
 ---
 # <a name="mastername-function"></a>Função MASTERNAME
 
-Retorna o nome mestre de uma planilha como uma cadeia de caracteres ou retorna a\<cadeia de\>caracteres "sem mestre" se a planilha não tiver um mestre.
+Retorna o nome mestre de uma planilha como uma cadeia de caracteres ou retorna a cadeia de caracteres " no master " se \< a planilha não tiver um \> mestre.
   
 ## <a name="syntax"></a>Sintaxe
 
-MASTERname ([* * *langID_opt* * *]) 
+MASTERNAME ([ ** *langID_opt* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 

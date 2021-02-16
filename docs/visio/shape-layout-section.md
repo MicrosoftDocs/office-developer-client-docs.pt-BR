@@ -24,6 +24,6 @@ Contém as células que controlam as configurações de roteamento de conector e
 
 Você pode também definir os valores das células específicas de forma nesta seção usando a guia **Posicionamento** da caixa de diálogo **Comportamento** (na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md), do grupo **Design da Forma**, clique em **Comportamento**). Defina os valores das células específicas de conector nesta seção usando a guia **Conector** na caixa de diálogo **Comportamento**. (Para visualizar a guia **Conector**, selecione o conector na janela de desenho e clique na caixa de diálogo **Comportamento**.) 
   
-Você pode usar valores na seção **Shape layout** para substituir os valores padrão contidos na seção **Page Layout** . 
+Você pode usar valores na seção **Layout da** Forma para substituir os valores padrão contidos na seção **Page Layout.** 
   
 

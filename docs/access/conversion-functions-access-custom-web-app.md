@@ -20,16 +20,16 @@ ms.locfileid: "33415877"
 
 - [Função Cast (aplicativo Web personalizado do Access)](cast-function-access-custom-web-app.md)
     
-- [Função de adesão (aplicativo Web personalizado do Access)](coalesce-function-access-custom-web-app.md)
+- [Função Coalesce (aplicativo Web personalizado do Access)](coalesce-function-access-custom-web-app.md)
     
 - [Função DateWithTimeFromParts (aplicativo Web personalizado do Access)](datewithtimefromparts-function-access-custom-web-app.md)
     
 - [Função Format (aplicativo Web personalizado do Access)](format-function-access-custom-web-app.md)
     
-- [Função Parse (aplicativo Web personalizado do Access)](parse-function-access-custom-web-app.md)
+- [Função Analisar (aplicativo Web personalizado do Access)](parse-function-access-custom-web-app.md)
     
 - [Função TimeFromParts (aplicativo Web personalizado do Access)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Função Try_Parse (aplicativo Web personalizado do Access)](try_parse-function-access-custom-web-app.md)
+- [Try_Parse (aplicativo Web personalizado do Access)](try_parse-function-access-custom-web-app.md)
     
 

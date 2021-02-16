@@ -22,9 +22,9 @@ Determina a direção dos saltos de linha em conectores dinâmicos verticais na 
   
 |**Valor**|**Direção do salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Padrão; acima ou a definição da página para formas  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Esquerdo  <br/> |**visLOJumpDirYLeft** <br/> |
-| duas  <br/> | À direita  <br/> |**visLOJumpDirYRight** <br/> |
+| 0  <br/> | Padrão; acima ou a definição da página para formas  <br/> |**visLOJumpDirYDefault** <br/> |
+| 1   <br/> | Esquerdo  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2   <br/> | À direita  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

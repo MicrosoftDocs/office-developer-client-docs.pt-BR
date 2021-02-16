@@ -1,5 +1,5 @@
 ---
-title: Seções do serviço de mensagens MapiSvc. inf
+title: Seções do Serviço de Mensagens MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415366"
 ---
-# <a name="mapisvcinf-message-service-sections"></a>Seções do serviço de mensagens MapiSvc. inf
+# <a name="mapisvcinf-message-service-sections"></a>Seções do Serviço de Mensagens MapiSvc.inf
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPISVC. inf inclui uma seção de serviço de mensagem para cada uma das entradas listadas na seção **[serviços]** . Há dois tipos de entradas nessas seções: uma para a configuração de determinadas propriedades e a outra para listar nomes de seções relacionadas ao serviço de mensagens que está sendo configurado. 
+mapisvc.inf inclui uma seção de serviço de mensagens para cada uma das entradas listadas na **seção [Serviços].** Há dois tipos de entradas nessas seções: uma para definir determinadas propriedades e a outra para listar nomes de seções relacionadas ao serviço de mensagens que está sendo configurado. 
   
 

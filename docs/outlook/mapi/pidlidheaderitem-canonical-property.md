@@ -25,7 +25,7 @@ ms.locfileid: "33415275"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se o Microsoft Outlook foi baixado para o computador cliente apenas o cabeçalho de uma mensagem ou o cabeçalho e o corpo da mensagem, quando o Outlook é configurado no modo cache do Exchange.
+Especifica se o Microsoft Outlook baixou para o computador cliente apenas o header de uma mensagem, ou o corpo e o corpo da mensagem, quando o Outlook está configurado no Modo Cache do Exchange.
   
 |||
 |:-----|:-----|
@@ -37,15 +37,15 @@ Especifica se o Microsoft Outlook foi baixado para o computador cliente apenas o
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -57,7 +57,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

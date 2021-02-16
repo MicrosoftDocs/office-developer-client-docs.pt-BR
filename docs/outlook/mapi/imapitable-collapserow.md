@@ -25,7 +25,7 @@ ms.locfileid: "33416171"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recolhe uma categoria de tabela expandida, removendo quaisquer títulos de nível inferior e linhas de folha pertencentes à categoria do modo de exibição de tabela.
+Collapses an expanded table category, removing any lower-level headings and leaf rows belonging to the category from the table view.
   
 ```cpp
 HRESULT CollapseRow(
@@ -40,43 +40,43 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> no A contagem de bytes na propriedade PR_INSTANCE_KEY indicada pelo parâmetro _pbInstanceKey_ . 
+> [in] A contagem de bytes na propriedade PR_INSTANCE_KEY apontado pelo parâmetro _pbInstanceKey._ 
     
  _pbInstanceKey_
   
-> no Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
+> [in] Um ponteiro para a **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica a linha de título para a categoria. 
     
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  _lpulRowCount_
   
-> bota Um ponteiro para o número total de linhas que estão sendo removidas do modo de exibição de tabela.
+> [out] Um ponteiro para o número total de linhas que estão sendo removidas do ponto de vista da tabela.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A operação de recolhimento foi bem-sucedida.
+> A operação de re collapse foi bem-sucedida.
     
 MAPI_E_NOT_FOUND 
   
-> A linha identificada pelo parâmetro _pbInstanceKey_ não existe. 
+> A linha identificada pelo  _parâmetro pbInstanceKey_ não existe. 
     
 MAPI_E_INVALID_ENTRYID 
   
-> A linha identificada pelo parâmetro _pbInstanceKey_ não existe. Este erro é uma alternativa ao MAPI_E_NOT_FOUND; os provedores de serviços podem retornar um. 
+> A linha identificada pelo  _parâmetro pbInstanceKey_ não existe. Esse erro é uma alternativa à MAPI_E_NOT_FOUND; os provedores de serviços podem retornar qualquer um deles. 
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: CollapseRow** recolhe uma categoria de tabela e a remove da exibição de tabela. As linhas são recolhidas começando pela linha identificada pela propriedade **PR_INSTANCE_KEY** indicada pelo parâmetro _pbInstanceKey_ . O número de linhas que são removidas do modo de exibição é retornado no conteúdo do parâmetro _lpulRowCount_ . 
+O **método IMAPITable::CollapseRow** collapses a table category and removes it from the table view. As linhas são recolhidos começando na linha identificada pela propriedade **PR_INSTANCE_KEY** apontada pelo parâmetro _pbInstanceKey._ O número de linhas removidas do ponto de vista é retornado no conteúdo do parâmetro _lpulRowCount._ 
   
-As notificações nunca são geradas para linhas de tabela que são removidas de um modo de exibição como resultado de uma operação de recolhimento. 
+As notificações nunca são geradas para linhas de tabela removidas de uma exibição como resultado de uma operação de remoção. 
   
-Quando uma linha definida por um indicador é recolhida da exibição, o indicador é movido para apontar para a próxima linha visível. 
+Quando uma linha definida por um indicador é recolhido para fora da exibição, o indicador é movido para apontar para a próxima linha visível. 
   
-Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md).
+Para obter mais informações sobre tabelas categorizadas, consulte [Classificação e Categorização.](sorting-and-categorization.md)
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -84,7 +84,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa o método imApitable **:: CollapseRow** para recolher uma categoria de tabela.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa o **método IMAPITable::CollapseRow** para recaír uma categoria de tabela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

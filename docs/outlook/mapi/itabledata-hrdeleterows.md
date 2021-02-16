@@ -39,19 +39,19 @@ HRESULT HrDeleteRows(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam a exclusão. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla a exclusão. O sinalizador a seguir pode ser definido:
     
 TAD_ALL_ROWS 
   
-> Exclui todas as linhas da tabela e de todos os modos de exibição correspondentes, enviando uma única notificação de TABLE_RELOAD.
+> Exclui todas as linhas da tabela e todos os exibições correspondentes, enviando uma única TABLE_RELOAD de exibição.
     
  _lprowsetToDelete_
   
-> no Um ponteiro para um conjunto de linhas que descreve as linhas a serem excluídas. O parâmetro _lprowsetToDelete_ pode ser NULL se o sinalizador TAD_ALL_ROWS estiver definido no parâmetro _parâmetroulflags_ . 
+> [in] Um ponteiro para um conjunto de linhas que descreve as linhas a serem excluídas. O _parâmetro lprowsetToDelete_ poderá ser NULL se o sinalizador TAD_ALL_ROWS for definido no _parâmetro ulFlags._ 
     
  _cRowsDeleted_
   
-> bota A contagem das linhas excluídas.
+> [out] A contagem das linhas excluídas.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,13 +61,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrDeleteRows** localiza e remove as linhas da tabela que contêm as colunas que correspondem à propriedade indicada pelo membro **lpProps** de cada entrada **aRow** no conjunto de linhas. Uma coluna de índice é usada para identificar cada linha; Essa coluna deve ter a mesma marca de propriedade que a marca de propriedade passada no parâmetro _ulPropTagIndexColumn_ na chamada para a [](createtable.md) função CreateTable. 
+O método **ITableData::HrDeleteRows** localiza e remove as linhas da tabela que contêm as colunas que corresponderem à propriedade apontada pelo membro **lpProps** de cada entrada **aRow** no conjunto de linhas. Uma coluna de índice é usada para identificar cada linha; essa coluna deve ter a mesma marca de propriedade que a marca de propriedade passada no _parâmetro ulPropTagIndexColumn_ na chamada para a [função CreateTable.](createtable.md) 
   
-O número de linhas realmente excluídas é retornado em _cRowsDeleted_. Nenhum erro será retornado se não foi possível localizar uma ou mais linhas. 
+O número de linhas que foram realmente excluídas é retornado em  _cRowsDeleted_. Nenhum erro será retornado se uma ou mais linhas não puderem ser encontradas. 
   
-Depois que as linhas são excluídas, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método imApitable [:: Advise](imapitable-advise.md) a ser registrado para notificações. 
+Depois que as linhas são excluídas, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que tenham chamado o método [IMAPITable::Advise](imapitable-advise.md) da tabela para registrar para notificações. 
   
-A exclusão de linhas não reduz as colunas disponíveis para os modos de exibição de tabelas existentes ou, subsequentemente, abrir modos de exibição de tabela, mesmo que as linhas excluídas sejam a última que tenham valores para uma coluna específica.
+A exclusão de linhas não reduz as colunas disponíveis para exibições de tabela existentes ou exibições de tabela abertas subsequentemente, mesmo que as linhas excluídas sejam as últimas com valores para uma coluna específica.
   
 ## <a name="see-also"></a>Confira também
 

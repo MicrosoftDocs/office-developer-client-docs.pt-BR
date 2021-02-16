@@ -20,12 +20,12 @@ ms.locfileid: "33415184"
 
 Determina quais conectores dinâmicos serão separados pelos espaços do aplicativo se forem roteados uns sobre os outros.
   
-|**Valor**|**Just**|**Constante de automação**|
+|**Valor**|**Ajuste**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Linhas não relacionadas  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
-|1  <br/> |Todas as linhas  <br/> |**visPLOLineAdjustFromAll** <br/> |
-|duas  <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustFromNone** <br/> |
-|3D  <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
+|0  <br/> |Linhas não relacionadas  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
+|1   <br/> |Todas as linhas  <br/> |**visPLOLineAdjustFromAll** <br/> |
+|2   <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustFromNone** <br/> |
+|3   <br/> |Padrão de estilo de roteamento  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -43,6 +43,6 @@ Para obter uma referência para a célula LineAdjustFrom pelo índice a partir d
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOLineAdjustFrom** <br/> |
+|Índice de célula:  <br/> |**visPLOLineAdjustFrom** <br/> |
    
 

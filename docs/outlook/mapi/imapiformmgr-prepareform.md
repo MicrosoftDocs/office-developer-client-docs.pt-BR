@@ -39,31 +39,31 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso que é exibida enquanto o formulário é baixado. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um alça para a janela pai do indicador de progresso que é exibido enquanto o formulário é baixado. O _parâmetro ulUIParam é ignorado,_ a menos que o MAPI_DIALOG padrão seja definido no _parâmetro ulFlags._ 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o formulário é baixado. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como o formulário é baixado. O sinalizador a seguir pode ser definido:
     
 MAPI_DIALOG 
   
-> Exibe uma interface do usuário para fornecer status ou solicitar mais informações ao usuário. Se esse sinalizador não for definido, nenhuma interface de usuário será exibida.
+> Exibe uma interface do usuário para fornecer status ou solicitar ao usuário mais informações. Se esse sinalizador não estiver definido, nenhuma interface do usuário será exibida.
     
  _pfrmiInfo_
   
-> no Um ponteiro para um objeto de informações de formulário para o formulário ser baixado.
+> [in] Um ponteiro para um objeto de informações de formulário para o formulário a ser baixado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormMgr::P repareform** para baixar um formulário de um contêiner de formulários para abertura. A maioria dos visualizadores de formulário não precisa chamar **PrepareForm**, porque os métodos [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) e [IMAPIFormMgr:: loadform](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário. 
+Visualizadores de formulário chamam **o método IMAPIFormMgr::P repareForm** para baixar um formulário de um contêiner de formulário para abertura. A maioria dos visualizadores de formulário não precisa chamar **PrepareForm**, porque os métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) e [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) chamam **PrepareForm,** se necessário. 
   
-Você pode usar o **PrepareForm** para obter as bibliotecas de vínculo dinâmico (DLLs) e outros arquivos associados a um formulário para modificá-los. Se o formulário modificado for carregado de volta para o contêiner de formulários, ele deverá ser reinstalado. 
+Você pode usar **o PrepareForm** para obter as bibliotecas de vínculo dinâmico (DLLs) e outros arquivos associados a um formulário para modificá-los. Se o formulário modificado for carregado de volta em seu contêiner de formulário, ele deverá ser reinstalado. 
   
 ## <a name="see-also"></a>Confira também
 

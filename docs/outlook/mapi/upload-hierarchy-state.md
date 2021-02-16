@@ -1,5 +1,5 @@
 ---
-title: Estado de hierarquia de upload
+title: Estado de Hierarquia de Carregamento
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415422"
 ---
-# <a name="upload-hierarchy-state"></a>Estado de hierarquia de upload
+# <a name="upload-hierarchy-state"></a>Estado de Hierarquia de Carregamento
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Este tópico descreve o que acontece durante o estado de hierarquia de upload da máquina de estado de replicação. 
+ Este tópico descreve o que acontece durante o estado de hierarquia de carregamento da máquina de estado de replicação. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -27,17 +27,17 @@ ms.locfileid: "33415422"
 |:-----|:-----|
 |Identificador de Estado:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
 |Estrutura de dados relacionada:  <br/> |**[UPHIER](uphier.md)** <br/> |
-|A partir deste Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
-|Para este Estado:  <br/> |[Carregar o estado da pasta](upload-folder-state.md)ou sincronizar estado  <br/> |
+|Desse estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Para esse estado:  <br/> |[Estado carregar pasta](upload-folder-state.md)ou sincronizar estado  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
+> A máquina de estado de replicação é uma máquina de estado determinística. Um cliente que parte de um estado para outro deve eventualmente retornar ao primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Este estado inicia o carregamento de uma hierarquia de árvore de pastas que foi especificada em um estado de sincronização anterior. O Outlook determina o número de pastas que foram criadas ou modificadas nessa hierarquia e inicializa a *centavos* no **UPHIER**. O Outlook também mantém uma contagem do número de pastas carregadas com outro membro *iEnt* . Para carregar cada uma das pastas de *centésimo* , o cliente move o repositório local para o estado de pasta de carregamento, retornando ao estado de hierarquia de carregamento quando o carregamento da pasta é concluído. 
+Esse estado inicia o carregamento de uma hierarquia de árvore de pastas que foi especificada em um estado de sincronização anterior. Outlook determines the number of folders that have been created or modified in that hierarchy and initializes  *cEnt*  in **UPHIER**. O Outlook também mantém uma contagem do número de pastas carregadas com outro  *membro iEnt*  . Para carregar cada uma das  *pastas cEnt,*  o cliente move o armazenamento local para o estado da pasta de carregamento, retornando ao estado de hierarquia de carregamento quando o carregamento da pasta é finaliza. 
   
-Quando o estado de hierarquia de upload termina, o repositório local retorna ao estado de sincronização.
+Quando o estado de hierarquia de upload termina, o armazenamento local retorna ao estado de sincronização.
   
 ## <a name="see-also"></a>Confira também
 

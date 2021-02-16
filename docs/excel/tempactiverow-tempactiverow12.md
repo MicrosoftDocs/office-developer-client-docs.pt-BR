@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRow
 - TempActiveRow12
 keywords:
-- função tempactiverow [Excel 2007], função TempActiveRow12 [Excel 2007]
+- função tempactiverow [excel 2007],função TempActiveRow12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33413105"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funções de biblioteca da estrutura que criam um **XLOPER de XLOPER**/ **** temporário contendo uma referência externa a uma linha inteira na planilha ativa. 
+Funções de biblioteca de estrutura que criam um /  **XLOPER XLOPER12** temporário contendo uma referência externa a uma linha inteira na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveRow12(ROW row);
 
 ## <a name="parameters"></a>Parâmetros
 
- _Row_
+ _row_
   
-A linha a ser referenciada. Os argumentos de linha são baseados em zero, de forma que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser feito por um inteiro de palavra. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. 0.
+A linha a ser referenciada. Os argumentos de linha são baseados em zero para que a linha 1 seja passada como 0. No Microsoft Office Excel 2003 e em versões anteriores, e a partir do Excel 2007 executando uma planilha no modo de compatibilidade, o valor máximo é 65.535 = 2^16 - 1 e é o valor máximo que pode ser feito por um inteiro do WORD. A partir do Excel 2007 executando uma planilha, o valor máximo é 1.048.575 = 2^20 - 1. O RW é definido como um inteiro assinado de 32 bits em XLCALL.H.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência externa **xltypeRef** para as células de linha passadas. 
+Retorna uma **referência externa xltypeRef** para células de linha passadas. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempActiveRow12** para selecionar a linha 113. 
+Este exemplo usa a **função TempActiveRow12** para selecionar a linha 113. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

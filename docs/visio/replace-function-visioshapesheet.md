@@ -22,16 +22,16 @@ Substitui parte de uma sequência de caracteres de texto, baseada no número de 
   
 ## <a name="syntax"></a>Sintaxe
 
-REPLACE (* * *texto_antigo* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *, * * *novo_texto* * *) 
+REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _iguais_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
-| _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do caractere em _texto_antigo_ que você deseja substituir por _novo_texto_. O primeiro caractere na cadeia é a posição 1.  <br/> |
-| _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres em _texto_antigo_ que você deseja substituir  <br/> |
-| _novo_texto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O texto que substituirá os caracteres em _texto_antigo_.  <br/> |
+| _old_text_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto no qual você deseja substituir alguns caracteres.  <br/> |
+| _start_num_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do caractere no  _old_text_ que você deseja substituir por  _new_text_. O primeiro caractere na cadeia é a posição 1.  <br/> |
+| _num_chars_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres  _old_text_ que você deseja substituir  <br/> |
+| _new_text_ <br/> |Obrigatório  <br/> |**String** <br/> |O texto que substituirá caracteres em  _old_text_.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

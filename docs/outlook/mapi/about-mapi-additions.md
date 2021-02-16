@@ -17,7 +17,7 @@ ms.locfileid: "33415289"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As adições de MAPI são APIs que pertencem à MAPI (Messaging Application Programming Interface), como tipos de dados, funções e propriedades, que anteriormente não foram expostas e documentadas como parte da referência do programador MAPI. Eles incluem as seguintes definições e propriedades.
+As adições de MAPI são APIs que pertencem à Messaging Application Programming Interface (MAPI), como tipos de dados, funções e propriedades, que anteriormente não eram expostas e documentadas como parte da Referência do programador de MAPI. Eles incluem as seguintes definições e propriedades.
   
 ## <a name="constant-definitions"></a>Definições constantes
 
@@ -39,7 +39,7 @@ As adições de MAPI são APIs que pertencem à MAPI (Messaging Application Prog
     
 ## <a name="properties"></a>Propriedades
 
-As propriedades a seguir são geralmente expostas por objetos de mensagem.
+As propriedades a seguir geralmente são expostas por objetos de mensagem.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ As propriedades a seguir são geralmente expostas por objetos de mensagem.
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-As propriedades a seguir são expostas pelos objetos da tabela de conteúdo do catálogo de endereços.
+As propriedades a seguir são expostas pelos objetos de tabela de conteúdo do livro de endereços.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-As propriedades a seguir são expostas por objetos contêiner de catálogo de endereços.
+As propriedades a seguir são expostas por objetos de contêiner do livro de endereços.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,7 +91,7 @@ As propriedades a seguir são expostas por objetos contêiner de catálogo de en
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-As propriedades a seguir são expostas por objetos Folder.
+As propriedades a seguir são expostas por objetos de pasta.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
@@ -189,7 +189,7 @@ As propriedades a seguir são expostas por objetos de usuário de mensagens.
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-As propriedades a seguir são expostas por objetos seção de perfil.
+As propriedades a seguir são expostas por objetos de seção de perfil.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ As propriedades a seguir são expostas por objetos seção de perfil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-As propriedades a seguir são expostas por objetos Store.
+As propriedades a seguir são expostas por objetos de armazenamento.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ As propriedades a seguir são expostas por objetos Store.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-As propriedades a seguir são expostas por objetos Store e são usados na pesquisa de elementos específicos de um email na loja.
+As propriedades a seguir são expostas por objetos de armazenamento e são usadas na pesquisa de elementos específicos de um email na loja.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     

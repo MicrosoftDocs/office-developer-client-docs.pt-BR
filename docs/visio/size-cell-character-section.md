@@ -28,14 +28,14 @@ Para fazer referência à célula Size pelo nome a partir de outra fórmula ou d
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char. Size [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char.Size[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Size pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-| Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCharacterSize** <br/> |
+| Índice de linha:  <br/> |**visRowCharacter** +  *i*            onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCharacterSize** <br/> |
    
 

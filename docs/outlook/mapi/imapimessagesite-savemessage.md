@@ -39,13 +39,13 @@ Nenhum.
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 ## <a name="remarks"></a>Comentários
 
-Os formulários chamam o método **IMAPIMessageSite:: SaveMessage** para solicitar que uma mensagem seja salva. 
+Os formulários chamam **o método IMAPIMessageSite::SaveMessage** para solicitar que uma mensagem seja salva. 
   
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -53,7 +53,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SaveMessage  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: SaveMessage** para salvar a mensagem.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI usa o **método IMAPIMessageSite::SaveMessage** para salvar a mensagem.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

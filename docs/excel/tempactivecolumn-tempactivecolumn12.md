@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- função tempactivecolumn12 [Excel 2007], função TempActiveColumn [Excel 2007]
+- função tempactivecolumn12 [excel 2007],função TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33417872"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funções de biblioteca da estrutura que criam um **XLOPER de XLOPER**/ **** temporário contendo uma referência externa para uma coluna inteira na planilha ativa. 
+Funções de biblioteca de estrutura que criam um /  **XLOPER XLOPER12** temporário contendo uma referência externa a uma coluna inteira na planilha ativa. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## <a name="parameters"></a>Parâmetros
 
- _Col_ (**Byte**)
+ _col_ (**BYTE**)
   
-A coluna a ser referenciada. Isso é baseado em zero, para que A coluna A seja passada como 0. No Microsoft Office Excel 2003 e versões anteriores, e a partir do Excel 2007 executando uma pasta de trabalho no modo de compatibilidade, o valor máximo é 255 = 2 ^ 8-1 e é o valor máximo que pode ser feito por um inteiro de BYTE. A partir do Excel 2007 executando uma pasta de trabalho, o valor máximo é 16.383 = 2 ^ 14-1. COL é definido como um inteiro assinado de 32 bits em XLCALL. 0.
+A coluna a ser referenciada. Isso é baseado em zero para que a coluna A seja passada como 0. No Microsoft Office Excel 2003 e em versões anteriores, e a partir do Excel 2007 executando uma planilha no modo de compatibilidade, o valor máximo é 255 = 2^8 - 1 e é o valor máximo que pode ser tomada por um inteiro BYTE. A partir do Excel 2007 executando uma planilha, o valor máximo é 16.383 = 2^14 - 1. COL é definido como um inteiro assinado de 32 bits em XLCALL.H.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna uma referência externa **xltypeRef** à coluna passada. 
+Retorna uma **referência externa xltypeRef** para a coluna passada. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir usa **TempActiveColumn12** para selecionar a coluna inteira B. 
+O exemplo a seguir **usa TempActiveColumn12** para selecionar a coluna B inteira. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

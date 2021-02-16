@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3e8cf5a1-31d1-4d69-8db3-511b6880eb89
-description: Um provedor do Outlook Social Connector (OSC) permite que os usuários do Office vejam em um aplicativo cliente do Office uma agregação de atualizações de informações sociais aplicada a um site profissional ou de rede social.
+description: Um provedor do Outlook Social Connector (OSC) permite que os usuários do Office veja dentro de um aplicativo cliente do Office uma agregação de atualizações de informações sociais aplicadas a um site de rede social ou profissional.
 ms.openlocfilehash: 06514937ab07fa78b83a4687eaeba8967213d76c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,15 +17,15 @@ ms.locfileid: "33415863"
 ---
 # <a name="why-develop-an-outlook-social-connector-provider"></a>Por que desenvolver um provedor do Outlook Social Connector
 
-Um provedor do Outlook Social Connector (OSC) permite que os usuários do Office vejam em um aplicativo cliente do Office uma agregação de atualizações de informações sociais aplicada a um site profissional ou de rede social. SharePoint Server, SharePoint Workspace, Lync Client e todos os aplicativos cliente do Office que oferecem suporte a informações de presença e o cartão de visita dão suporte ao OSC.
+Um provedor do Outlook Social Connector (OSC) permite que os usuários do Office veja dentro de um aplicativo cliente do Office uma agregação de atualizações de informações sociais aplicadas a um site de rede social ou profissional. O SharePoint Server, o SharePoint Workspace, o cliente do Lync e todos os aplicativos cliente do Office que suportam informações de presença e o Cartão de Visita suportam o OSC.
   
-Usando um provedor de rede social, o OSC mostra informações adicionais sobre uma pessoa no cartão de visita ou no painel de pessoas do Outlook, conforme mostrado na Figura 1. Como o OSC é criado em um modelo de provedor aberto, você pode criar provedores para que funcionem com o OSC para exibir dados de rede social (como amigos, perfis, atividades e informações de relacionamento) no Office.
+Usando um provedor de redes sociais, o OSC mostra informações adicionais sobre uma pessoa no Cartão de Visita ou no Painel de Pessoas do Outlook, conforme mostrado na Figura 1. Como o OSC é criado em um modelo de provedor aberto, você pode convenientemente criar provedores para trabalhar com o OSC para exibir dados de redes sociais (como amigos, perfis, atividades e informações de relação) no Office.
   
-Além de sites de redes sociais públicas, você também pode usar a extensibilidade do provedor OSC para criar provedores para aplicativos de linha de negócios ou sites corporativos internos e para integrar seus serviços ao Office.
+Além de sites de rede social pública, você também pode usar a extensibilidade do provedor OSC para criar provedores para aplicativos de linha de negócios ou sites corporativos internos e integrar seus serviços ao Office.
   
-**Figura 1. Painel do conector social do Outlook**
+**Figura 1. Painel Do Outlook Social Connector**
 
-![Outlook Social Connector pane](media/2d6b867f-73d8-4a3b-b8bd-3844bc34bf4e.jpg)
+![Painel do Outlook Social Connector](media/2d6b867f-73d8-4a3b-b8bd-3844bc34bf4e.jpg)
   
 ## <a name="see-also"></a>Confira também
 

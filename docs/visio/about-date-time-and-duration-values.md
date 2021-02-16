@@ -45,11 +45,11 @@ Para usar datas e horas dentro de uma expressão (em vez de uma única constante
 
 |**Function**|**Description**|
 |:-----|:-----|
-|[PÓS-DATADOS](date-function-visioshapesheet.md) <br/> | Converte números em um valor de data.  <br/> |
+|[DATE](date-function-visioshapesheet.md) <br/> | Converte números em um valor de data.  <br/> |
 |[DATETIME](datetime-function.md) <br/> | Converte uma sequência de caracteres em um valor de data e hora.  <br/> |
-|[Date](datevalue-function-visioshapesheet.md) <br/> | Converte uma sequência de caracteres em um valor de data.  <br/> |
+|[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | Converte uma sequência de caracteres em um valor de data.  <br/> |
 |[AGORA](now-function-visioshapesheet.md) <br/> | Retorna a data atual do sistema como um valor de data e hora.  <br/> |
-|[TEMPORAIS](time-function-visioshapesheet.md) <br/> | Converte números em um valor de hora.  <br/> |
+|[TIME](time-function-visioshapesheet.md) <br/> | Converte números em um valor de hora.  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Converte uma sequência de caracteres em um valor de hora.  <br/> |
 |[DAY](day-function-visioshapesheet.md) <br/> | Retorna o componente do dia como uma expressão de data e hora.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Retorna o dia do ano sequencial como uma expressão de data e hora.  <br/> |
@@ -60,7 +60,7 @@ Para usar datas e horas dentro de uma expressão (em vez de uma única constante
 |[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Retorna o número do dia da semana como uma expressão de data e hora.  <br/> |
 |[YEAR](year-function-visioshapesheet.md) <br/> | Retorna o componente de ano como uma expressão de data e hora.  <br/> |
    
-## <a name="duration"></a>Duração
+## <a name="duration"></a>Duration
 
 É possível executar operações que calculam a duração ou o tempo decorrido. A duração é armazenada internamente como dias e a fração de um dia. Por exemplo, 1 semana decorrida, 7 dias decorridos e 168 horas decorridas são todos armazenados internamente como 7,0, mas são exibidos com as unidades adequadas.
   
@@ -68,11 +68,11 @@ O Visio reconhece as unidades de duração na seguinte tabela.
   
 |**Unit**|**Abbreviation**|**Abreviação universal**|
 |:-----|:-----|:-----|
-| dia decorrido  <br/> | diad, dd.  <br/> | Ed  <br/> |
-| hora decorrida  <br/> | horad, hd.  <br/> | HD  <br/> |
+| dia decorrido  <br/> | diad, dd.  <br/> | dd  <br/> |
+| hora decorrida  <br/> | horad, hd.  <br/> | hd  <br/> |
 | minuto decorrido  <br/> | minutod, md.  <br/> | em  <br/> |
-| segundo decorrido  <br/> | segundod, sd.  <br/> | es  <br/> |
-| semana decorrida  <br/> | semanad, sd.  <br/> | ova  <br/> |
+| segundo decorrido  <br/> | segundod, sd.  <br/> | sd  <br/> |
+| semana decorrida  <br/> | semanad, sd.  <br/> | sd  <br/> |
    
 É possível adicionar uma data e hora a uma duração para calcular uma nova data e hora. Você pode executar as operações listadas nessa tabela usando datas, horas e durações.
   

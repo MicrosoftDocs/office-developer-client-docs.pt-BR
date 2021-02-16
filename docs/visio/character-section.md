@@ -22,8 +22,8 @@ Mostra os atributos de formatação do texto da forma, como fonte, cor, estilo d
   
 ## <a name="remarks"></a>Comentários
 
-Cada estilo de caractere em uma forma tem uma linha correspondente na seção **Character** , conforme exibido na janela ShapeSheet. O nome da linha representa o número de caracteres a ser aplicado pelo estilo do caractere. 
+Cada estilo de caractere em uma forma tem uma linha correspondente na **seção Character** conforme exibido na janela ShapeSheet. O nome da linha representa o número de caracteres a ser aplicado pelo estilo do caractere. 
   
-Você pode definir formatos de texto na caixa de diálogo **texto** (clique no iniciador da caixa de diálogo no grupo **fonte** da guia **página inicial** ), aplicando um estilo de texto ou fazendo uma entrada em uma célula de seção **Character** . 
+Você pode definir formatos  de texto na caixa de diálogo  Texto (clique no início da caixa de diálogo no grupo  Fonte na guia Página Início), aplicando um estilo de texto ou fazendo uma entrada em uma célula da seção Character.  
   
 

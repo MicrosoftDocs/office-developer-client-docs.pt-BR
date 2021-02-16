@@ -18,16 +18,16 @@ ms.locfileid: "33413616"
 ---
 # <a name="infiniteline-row-geometry-section"></a>Linha InfiniteLine (Seção Geometry)
 
-Contém as coordenadas *x* e *y* de dois pontos em uma linha infinita. 
+Contém as  *coordenadas x*  e  *y*  de dois pontos em uma linha infinita. 
   
 Uma linha InfiniteLine contém as células a seguir.
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Uma coordenada *x* de um ponto na linha infinita; emparelhado com a coordenada *y* representada pela célula y.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Uma coordenada *y* de um ponto na linha infinita; emparelhado com a coordenada *x* representada pela célula x.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Uma coordenada *x* de um ponto na linha infinita; emparelhado com a coordenada *y* representada pela célula B.  <br/> |
-|[A.b.c.](b-cell-geometry-section.md) <br/> |Uma coordenada *y* de um ponto em uma linha infinita; emparelhado com a coordenada *x* representada pela célula a.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Uma  *coordenada x*  de um ponto na linha infinita; emparelhado com uma coordenada  *y*  representada pela célula Y.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Uma  *coordenada y*  de um ponto na linha infinita; emparelhado com uma coordenada  *x*  representada pela célula X.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Uma  *coordenada x*  de um ponto na linha infinita; emparelhado com uma coordenada  *y*  representada pela célula B.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |Uma  *coordenada y*  de um ponto em uma linha infinita; emparelhado com uma coordenada  *x*  representada pela célula A.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

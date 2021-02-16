@@ -24,12 +24,12 @@ Especifica a formatação de um item de dados da forma que pode ser uma sequênc
 
 |**Tipo de item de dados da forma**|**Valor**|**Conteúdo da célula Format**|
 |:-----|:-----|:-----|
-| String  <br/> | ,0  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
-| Lista fixa  <br/> | 1  <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
-| Número  <br/> | duas  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| String  <br/> | 0  <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| Lista fixa  <br/> | 1   <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
+| Número  <br/> | 2   <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
 | Lista variável  <br/> | 4   <br/> | Os itens a serem exibidos na lista, separados por ponto-e-vírgula.  <br/> |
 | Data ou hora  <br/> | 5   <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
-| Duração  <br/> | 6   <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
+| Duration  <br/> | 6   <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
 | Moeda  <br/> | 7   <br/> | Uma figura de formatação apropriada para o tipo de dado.  <br/> |
    
 Um exemplo de especificação de uma figura de formatação apropriada para o tipo de dado é a figura de formatação "# #/4 UU" que formata o número 12,43 pol. como 12 2/4 POLEGADAS. Para obter mais informações sobre como especificar uma figura de formatação, consulte [Sobre figuras de formatação](about-format-pictures.md).
@@ -44,14 +44,14 @@ Para fazer referência à célula Format pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *nome* . Formatar onde prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Prop.  *nome*  . Formatar onde Prop.  *nome*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Format pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCustPropsFormat** <br/> |
    
 

@@ -30,13 +30,13 @@ Para obter detalhes sobre como mostrar um objeto específico na janela ShapeShee
     
 ## <a name="show-a-master"></a>Mostrar um mestre
 
-Você pode acessar a janela ShapeSheet e editar fórmulas somente para mestres em um estêncil de documento ou personalizado. Quando começar com Microsoft Office Visio 2003, você não pode editar mestres nos estênceis que acompanham o produto Visio.
+Você pode acessar a janela ShapeSheet e editar fórmulas somente para mestres em um estêncil personalizado ou de documento. Quando começar com Microsoft Office Visio 2003, você não pode editar mestres nos estênceis que acompanham o produto Visio.
   
 1. Na janela **Formas**, clique em **Mais Formas** e em **Abrir Estêncil**.
     
-2. Localize e selecione o estêncil que contém o mestre, clique na seta ao lado do botão **abrir** , selecione uma opção de abertura na lista suspensa e clique em **abrir**. 
+2. Localize e selecione o estêncil que contém o  mestre, clique na seta ao lado do botão Abrir, selecione uma opção de abertura na lista drop-down e clique em **Abrir**. 
     
-    Se o estêncil já estiver aberto, clique com o botão direito do mouse na barra de título do estêncil e, em seguida, clique em **Editar estêncil** no menu de atalho. 
+    Se o estêncil já estiver aberto, clique com o botão direito do mouse na barra de título do estêncil e clique em **Editar Estêncil** no menu de atalho. 
     
 3. Clique com o botão direito do mouse no mestre sobre o estêncil, clique em **Editar Mestre** no menu de atalho e clique em **Editar Forma Mestra.**
     
@@ -50,13 +50,13 @@ Você pode acessar a janela ShapeSheet e editar fórmulas somente para mestres e
     
 ## <a name="show-a-document"></a>Mostrar um documento
 
-1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione janela do **Gerenciador de desenho**.
+1. Na guia [Desenvolvedor,](run-in-developer-mode-display-the-developer-tab.md) no grupo **Mostrar/Ocultar,** selecione **Janela do Explorador de Desenho.**
     
 2. No **Gerenciador de Desenho**, clique com o botão direito do mouse no documento e clique em **Mostrar ShapeSheet** no menu de atalho. 
     
 ## <a name="show-a-style"></a>Mostrar um estilo
 
-1. Na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione janela do **Gerenciador de desenho**.
+1. Na guia [Desenvolvedor,](run-in-developer-mode-display-the-developer-tab.md) no grupo **Mostrar/Ocultar,** selecione **Janela do Explorador de Desenho.**
     
 2. No **Gerenciador de Desenho**, expanda a pasta **Estilos**. 
     

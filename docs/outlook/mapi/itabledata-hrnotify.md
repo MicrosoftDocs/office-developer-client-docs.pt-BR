@@ -39,25 +39,25 @@ HRESULT HrNotify(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _cValues_
   
-> no A contagem de valores de propriedade na estrutura [SPropValue](spropvalue.md) apontada pelo parâmetro _lpSPropValue_ . 
+> [in] A contagem de valores de propriedade na [estrutura SPropValue](spropvalue.md) apontado pelo parâmetro _lpSPropValue._ 
     
  _lpSPropValue_
   
-> no Um ponteiro para uma estrutura **SPropValue** que descreve os valores das colunas na linha de destino. 
+> [in] Um ponteiro para uma **estrutura SPropValue** que descreve os valores das colunas na linha de destino. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrNotify** envia uma notificação TABLE_ROW_MODIFIED para a linha que corresponde à linha descrita pelas propriedades apontadas pelo parâmetro _lpSPropValue_ . O **HrNotify** envia a notificação independentemente de ocorrerem alterações na linha. Todos os clientes e provedores de serviço que possuem modos de exibição da tabela e chamaram imApitable [:: Advise](imapitable-advise.md) para registrar notificações em seus modos de exibição recebem esta notificação. 
+O **método ITableData::HrNotify** envia uma notificação TABLE_ROW_MODIFIED para a linha que corresponde à linha descrita pelas propriedades apontadas pelo parâmetro _lpSPropValue._ **HrNotify** envia a notificação independentemente de as alterações ocorrerem na linha. Todos os clientes e provedores de serviços que possuem exibições da tabela e chamam [IMAPITable::Advise](imapitable-advise.md) para se registrar para notificações em seus visualizações recebem essa notificação. 
   
 ## <a name="see-also"></a>Confira também
 

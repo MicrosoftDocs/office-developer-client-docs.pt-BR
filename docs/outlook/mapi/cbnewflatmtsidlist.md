@@ -29,7 +29,7 @@ Calcula o número de bytes que devem ser alocados para uma nova estrutura [FLATM
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewFLATMTSIDIDLIST (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CB_
+ _ _cb_
   
-> Contagem de bytes nas estruturas **MTSID** a serem incluídas na nova estrutura **FLATMTSIDLIST** . 
+> Contagem de bytes nas estruturas **MTSID** a serem incluídos na nova **estrutura FLATMTSIDLIST.** 
     
 ## <a name="see-also"></a>Confira também
 

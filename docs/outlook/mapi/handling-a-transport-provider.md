@@ -19,13 +19,13 @@ ms.locfileid: "33416535"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes se comunicam com provedores de transporte por meio de objetos de status fornecidos por provedores de transporte e pelo spooler MAPI. Os clientes acessam objetos de status chamando [IMAPISession::](imapisession-getstatustable.md) getstatustable para recuperar a tabela status. Os objetos de status implementam a interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , que tem métodos para configurar provedores, liberar filas de mensagens de entrada e de saída, definir senhas e validação de estado. Para obter mais informações sobre objetos de status, consulte [tabela de status e objetos de status](status-table-and-status-objects.md).
+Os clientes se comunicam com provedores de transporte por meio de objetos de status fornecidos por provedores de transporte e o spooler MAPI. Os clientes acessam objetos de status [chamando IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar a tabela de status. Os objetos de status implementam a interface [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) que tem métodos para configurar provedores, liberar filas de mensagens de entrada e saída, definir senhas e validação de estado. Para obter mais informações sobre objetos de status, consulte [Status Table and Status Objects](status-table-and-status-objects.md).
 
 
-- [Enviando ou recebendo uma mensagem sob demanda](sending-or-receiving-a-message-on-demand.md): descreve como enviar ou receber uma mensagem sob demanda.
+- [Enviar ou receber uma mensagem sob demanda:](sending-or-receiving-a-message-on-demand.md)descreve como enviar ou receber uma mensagem sob demanda.
     
-- [Configuração da ordem de transporte](setting-transport-order.md): descreve como definir a ordem de transporte.
+- [Setting Transport Order](setting-transport-order.md): Describes how to set transport order.
     
-- [Reconfiguração de um provedor de transporte](reconfiguring-a-transport-provider.md): descreve como reconfigurar um provedor de transporte e quais propriedades estão disponíveis para definir.
+- [Reconfigurando um Provedor de Transporte:](reconfiguring-a-transport-provider.md)descreve como reconfigurar um provedor de transporte e quais propriedades estão disponíveis para definir.
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33415534"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera os endereços das funções de alocação e desalocação de memória MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md)).
+Recupera os endereços das funções de alocação e alocação de memória MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md)).
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -39,25 +39,25 @@ HRESULT GetMemAllocRoutines(
 
  _lppAllocateBuffer_
   
-> bota Um ponteiro para um ponteiro para a função **MAPIAllocateBuffer** . **MAPIAllocateBuffer** aloca memória. 
+> [out] Um ponteiro para um ponteiro para a **função MAPIAllocateBuffer.** **MAPIAllocateBuffer** aloca memória. 
     
  _lppAllocateMore_
   
-> bota Um ponteiro para um ponteiro para a função **MAPIAllocateMore** . **MAPIAllocateMore** aloca memória adicional para a memória que foi originalmente alocada usando o **MAPIAllocateBuffer**.
+> [out] Um ponteiro para um ponteiro para a **função MAPIAllocateMore.** **MAPIAllocateMore** aloca memória adicional para a memória originalmente alocada usando **MAPIAllocateBuffer**.
     
  _lppFreeBuffer_
   
-> bota Um ponteiro para um ponteiro para a função **MAPIFreeBuffer** . **MAPIFreeBuffer** libera memória. 
+> [out] Um ponteiro para um ponteiro para a **função MAPIFreeBuffer.** **MAPIFreeBuffer** libera memória. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Os endereços da função foram retornados com êxito.
+> Os endereços de função foram retornados com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: GetMemAllocRoutines** é implementado para todos os objetos de suporte. Os provedores de serviços chamam o **GetMemAllocRoutines** para obter os endereços das três funções de alocação de memória que são passadas para a função de inicialização ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
+O **método IMAPISupport::GetMemAllocRoutines** é implementado para todos os objetos de suporte. Os provedores de serviços chamam **GetMemAllocRoutines** para obter os endereços das três funções de alocação de memória que são passadas para sua função de inicialização ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
   
 ## <a name="see-also"></a>Confira também
 

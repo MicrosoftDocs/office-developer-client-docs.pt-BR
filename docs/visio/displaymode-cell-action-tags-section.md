@@ -1,5 +1,5 @@
 ---
-title: Célula DisplayMode (seção Action Tags)
+title: Célula DisplayMode (Seção Action Tags)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,18 +16,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415814"
 ---
-# <a name="displaymode-cell-action-tags-section"></a>Célula DisplayMode (seção Action Tags)
+# <a name="displaymode-cell-action-tags-section"></a>Célula DisplayMode (Seção Action Tags)
 
 Determina se a marca de ação é exibida quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
   
-|**Valor**|**Modo de exibição**|**Constante de automação**|
+|**Valor**|**Modo de Exibição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Aparece quando o mouse é pausado sobre a marca (o padrão).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
-| 1  <br/> | Exibido enquanto a forma é selecionada.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| duas  <br/> | Sempre exibido.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 0  <br/> | Aparece quando o mouse é pausado sobre a marca (o padrão).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
+| 1   <br/> | Exibido enquanto a forma é selecionada.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
+| 2   <br/> | Sempre exibido.  <br/> |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -39,7 +39,7 @@ Para fazer referência à célula DisplayMode pelo nome, de outra fórmula ou pr
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . DisplayMode onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome*  . DisplayMode onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula DisplayMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

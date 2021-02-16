@@ -27,7 +27,7 @@ Determina se a marcação é exibida na janela de desenho.
    
 ## <a name="remarks"></a>Comentários
 
- Quando o rastreamento de marcação está ativado (a célula addMarkup é TRUE), a célula ViewMarkup é definida automaticamente como TRUE e permanece TRUE, mesmo após o rastreamento de marcação ter sido desativado (a célula addMarkup é FALSE). O valor da célula ViewMarkup é ignorado quando a célula AddMarkup está definida como VERDADEIRO. 
+ Quando o rastreamento de marcação está ativado (a célula AddMarkup é TRUE), a célula ViewMarkup é automaticamente definida como TRUE e permanece TRUE mesmo depois que o controle de marcação tiver sido desligado (a célula AddMarkup é FALSE). O valor da célula ViewMarkup é ignorado quando a célula AddMarkup está definida como VERDADEIRO. 
   
 A célula ViewMarkup também é definida como VERDADEIRO quando são inseridos comentários em um desenho (independente de o rastreamento de marcação estar ativado ou não) e precisa ser VERDADEIRO para que os comentários sejam exibidos no desenho.
   
@@ -45,6 +45,6 @@ Para obter uma referência para a célula ViewMarkup pelo índice, a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowDoc** <br/> |
-|Índice da célula:  <br/> |**visDocViewMarkup** <br/> |
+|Índice de célula:  <br/> |**visDocViewMarkup** <br/> |
    
 

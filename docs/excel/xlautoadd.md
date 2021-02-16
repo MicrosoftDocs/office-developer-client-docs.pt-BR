@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoAdd
 keywords:
-- função xlAutoAdd [Excel 2007]
+- função xlautoadd [excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,11 +22,11 @@ ms.locfileid: "33413756"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Adicionado pelo Microsoft Excel sempre que o usuário ativa o XLL durante uma sessão do Excel usando o Gerenciador de suplementos. Esta função não é chamada quando o Excel é iniciado e carrega um suplemento pré-instalado.
+Adicionado pelo Microsoft Excel sempre que o usuário ativa o XLL durante uma sessão do Excel usando o Add-In Manager. Essa função não é chamada quando o Excel é iniciado e carrega um complemento pré-instalado.
   
-Essa função pode ser usada para exibir uma caixa de diálogo personalizada que informa ao usuário que o suplemento foi ativado, ou para ler ou gravar no registro, ou verificar informações de licenciamento, por exemplo.
+Essa função pode ser usada para exibir uma caixa de diálogo personalizada que informa ao usuário que o complemento foi ativado, para ler ou gravar no Registro, ou verificar informações de licenciamento, por exemplo.
   
-O Excel não requer um XLL para implementar e exportar essa função.
+O Excel não exige um XLL para implementar e exportar essa função.
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -38,15 +38,15 @@ Essa função não usa argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Sua implementação dessa função deve retornar 1. (**int**).
+Sua implementação desta função deve retornar 1. (**int**).
   
 ## <a name="remarks"></a>Comentários
 
-Use essa função se houver alguma coisa que o seu XLL precisa fazer quando for adicionado pelo Gerenciador de suplementos.
+Use essa função se houver algo que seu XLL precise fazer quando for adicionado pelo Add-In Manager.
   
 ## <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` , por exemplo, implementações dessa função. O código a seguir é de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Veja  `\SAMPLES\EXAMPLE\EXAMPLE.C`  `\SAMPLES\GENERIC\GENERIC.C` e, por exemplo, implementações dessa função. O código a seguir é de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoAdd(void)

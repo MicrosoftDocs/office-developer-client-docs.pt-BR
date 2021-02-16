@@ -25,7 +25,7 @@ ms.locfileid: "33414785"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna as marcas de propriedade de todas as propriedades. 
+Retorna marcas de propriedade para todas as propriedades. 
   
 ```cpp
 HRESULT GetPropList(
@@ -38,15 +38,15 @@ HRESULT GetPropList(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o formato das cadeias de caracteres nas marcas de propriedade retornadas. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla o formato das cadeias de caracteres nas marcas de propriedade retornadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _lppPropTagArray_
   
-> bota Um ponteiro para um ponteiro para a matriz de marca de propriedade que contém marcas para todas as propriedades do objeto.
+> [out] Um ponteiro para um ponteiro para a matriz de marcas de propriedade que contém marcas para todas as propriedades do objeto.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,23 +56,23 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIProp::** getproplist recupera a marca de propriedade para cada propriedade atualmente aceita por um objeto. Se o objeto não suportar nenhuma propriedade no momento, **** getproplist retornará uma matriz de marca de propriedade com o membro **cValues** definido como 0. 
+O **método IMAPIProp::GetPropList** recupera a marca de propriedade de cada propriedade atualmente suportada por um objeto. Se o objeto não suportar nenhuma propriedade no momento, **GetPropList** retornará uma matriz de marca de propriedade com o membro **cValues** definido como 0. 
   
-O escopo de propriedades retornado por **** getproplist varia de provedor para provedor. Alguns provedores de serviços excluem as propriedades para as quais o chamador não tem acesso. Todos os provedores retornam propriedades do tipo **PT_OBJECT**.
+O escopo das propriedades retornadas **por GetPropList** varia de provedor para provedor. Alguns provedores de serviços excluem as propriedades para as quais o chamador não tem acesso. Todos os provedores retornam propriedades do **tipo PT_OBJECT**.
   
-Se o objeto não oferecer suporte a Unicode **** , getproplist retornará MAPI_E_BAD_CHARWIDTH, mesmo se não houver propriedades de cadeia de caracteres definidas para o objeto. 
+Se o objeto não suportar Unicode, **GetPropList** retornará MAPI_E_BAD_CHARWIDTH, mesmo se não houver propriedades de cadeia de caracteres definidas para o objeto. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Os provedores de transporte **** remotos implementam getproplist exatamente como especificado aqui. Não há preocupações especiais. A implementação deve, naturalmente, retornar a mesma lista de propriedades que é suportada pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps. 
+Os provedores de transporte remoto **implementam GetPropList** exatamente como especificado aqui. Não há preocupações especiais. Sua implementação deve, é claro, retornar a mesma lista de propriedades com suporte pelo método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de marca de propriedade apontada por _lppPropTagArray_. 
+Chame a [função MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de marca de propriedade apontado por  _lppPropTagArray_. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -80,7 +80,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa o método **IMAPIProp::** getproplist para obter uma lista de propriedades a ser **** passada para GetProps.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa o **método IMAPIProp::GetPropList** para obter uma lista de propriedades para passar para **GetProps**.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

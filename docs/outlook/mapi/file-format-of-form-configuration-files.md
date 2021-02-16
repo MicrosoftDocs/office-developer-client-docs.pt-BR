@@ -19,10 +19,10 @@ ms.locfileid: "33415548"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um arquivo de configuração de formulário é um arquivo formatado criado por desenvolvedores de formulários para definir um formulário.
+Um arquivo de configuração de formulário é um arquivo formatado criado por desenvolvedores de formulário para definir um formulário.
   
-Como os arquivos de configuração de formulário são usados por gerentes de formulários para carregar formulários, cada formulário deve ser definido usando um arquivo de configuração de formulário. Arquivos de configuração de formulário devem ter a extensão de nome de arquivo. cfg. O arquivo segue a sintaxe geral de um arquivo de inicialização do Windows (arquivo. ini). 
+Como os arquivos de configuração de formulário são usados por gerentes de formulário para carregar formulários, cada formulário deve ser definido usando um arquivo de configuração de formulário. Os arquivos de configuração de formulário devem ter a extensão de nome de arquivo .cfg. O arquivo segue a sintaxe geral de um arquivo de inicialização do Windows (arquivo .ini). 
 
-Ele é dividido em seções nomeadas e cada seção contém uma série de entradas e valores. Os valores têm um dos seguintes tipos: cadeia de caracteres, Cadeia de caracteres exibida, Cadeia de caracteres de plataforma, caminho, inteiro ou identificador global exclusivo, **GUID**. Os arquivos de configuração de formulário podem ser criados com qualquer editor de texto ou processador de textos que possa salvar arquivos de texto.
+Ele é dividido em seções nomeadas e cada seção contém uma série de entradas e valores. Os valores têm um dos seguintes tipos: cadeia de caracteres, cadeia de caracteres exibida, cadeia de caracteres de plataforma, caminho, inteiro ou identificador global exclusivo, **GUID**. Arquivos de configuração de formulário podem ser criados com qualquer editor de texto ou processador de texto capaz de salvar arquivos de texto.
   
 

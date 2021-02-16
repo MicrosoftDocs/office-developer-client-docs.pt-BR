@@ -1,5 +1,5 @@
 ---
-title: Bloco de dados Editarregistro (aplicativo Web personalizado do Access)
+title: Bloco de Dados EditarRegiscord (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418341"
 ---
-# <a name="editrecord-data-block-access-custom-web-app"></a>Bloco de dados Editarregistro (aplicativo Web personalizado do Access)
+# <a name="editrecord-data-block-access-custom-web-app"></a>Bloco de Dados EditarRegiscord (aplicativo Web personalizado do Access)
 
 Você pode usar o bloco de dados **EditarRegistro** para alterar os valores contidos em um registro existente. 
   
@@ -29,11 +29,11 @@ O bloco de dados **EditarRegistro** tem os seguintes argumentos.
   
 |**Argumento**|**Descrição**|
 |:-----|:-----|
-|**Alias** <br/> |Uma cadeia de caracteres que identifica o registro a ser editado. Se o argumento *alias* não for especificado, o registro atual será editado.  <br/> |
+|**Alias** <br/> |Uma cadeia de caracteres que identifica o registro a ser editado. Se o  *argumento Alias*  não for especificado, o registro atual será editado.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Após a instrução **editarregistro** , você pode inserir um bloco de comandos que será executado antes que as alterações no registro sejam confirmadas. As ações a seguir estão disponíveis em um bloco de dados **editarregistro** . 
+Após a **instrução EditRecord,** você pode inserir um bloco de comandos que será executado antes que as alterações no registro sejam comprometidas. As ações a seguir estão disponíveis em um **bloco de dados EditarRegiso.** 
   
 ||
 |:-----|
@@ -46,11 +46,11 @@ Após a instrução **editarregistro** , você pode inserir um bloco de comandos
    
 Use a ação **DefinirCampo** para especificar os novos valores de um campo no registro editado. 
   
-Você pode usar um **If... Then... Else** para executar operações com base em uma condição. 
+Você pode usar um **If... Então... Instrução Else** para executar operações com base em uma condição. 
   
 Para cancelar a edição de um registro, use a ação **CancelarAlteraçãodeRegistro**. Dessa forma, as alterações não são atribuídas e o bloco de dados **EditarRegistro** é encerrado. 
   
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do Registro criado mais recentemente: 
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao campo AtribuídoA do registro criado mais recentemente: 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

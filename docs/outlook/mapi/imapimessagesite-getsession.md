@@ -37,21 +37,21 @@ HRESULT GetSession(
 
  _ppSession_
   
-> bota Um ponteiro para um ponteiro para o objeto Session retornado.
+> [out] Um ponteiro para um ponteiro para o objeto de sessão retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 S_FALSE 
   
-> Nenhuma sessão existe para a mensagem atual.
+> Não há sessão para a mensagem atual.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulários MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -59,7 +59,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: GetSession** para retornar o ponteiro de sessão atualmente em cache, se ele estiver disponível.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa o método **IMAPIMessageSite::GetSession** para retornar o ponteiro de sessão atualmente armazenado em cache, se ele estiver disponível.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

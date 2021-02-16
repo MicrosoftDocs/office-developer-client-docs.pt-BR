@@ -22,12 +22,12 @@ Determina se a visualização do desenho é um rascunho ou detalhada.
   
 |**Valor**|**Qualidade de visualização**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Rascunho  <br/> |**visDocPreviewQualityDraft** <br/> |
-| 1  <br/> | Análise  <br/> |**visDocPreviewQualityDetailed** <br/> |
+| 0  <br/> | Rascunho  <br/> |**visDocPreviewQualityDraft** <br/> |
+| 1   <br/> | Detalhado  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na guia **Resumo** da caixa de diálogo **Propriedades** (clique no botão **Office** , clique na guia **informações** , em **Propriedades do documento**e em **Propriedades avançadas**).
+Você também pode definir  esse valor na guia Resumo da caixa de diálogo Propriedades (clique no botão **Office,** clique na guia Informações, em Propriedades do Documento e em **Propriedades Avançadas).**  
   
 Para obter uma referência para a célula PreviewQuality pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -41,6 +41,6 @@ Para obter uma referência para a célula PreviewQuality pelo índice a partir d
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowDoc** <br/> |
-| Índice da célula:  <br/> |**visDocPreviewQuality** <br/> |
+| Índice de célula:  <br/> |**visDocPreviewQuality** <br/> |
    
 

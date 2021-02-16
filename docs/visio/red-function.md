@@ -22,13 +22,13 @@ Retorna o componente vermelho de uma cor.
   
 ## <a name="syntax"></a>Sintaxe
 
-VERMELHO (* * *expressão* * *) 
+Expressão RED(** *** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Varia** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cores.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -36,17 +36,17 @@ Número
   
 ## <a name="remarks"></a>Comentários
 
-O valor retornado é um número entre 0 e 255, inclusive, ou uma referência de célula que resulta em um índice. Se a _expressão_ for inválida, esta função retornará 0 (preto). 
+O valor retornado é um número entre 0 e 255, inclusive, ou uma referência de célula que resulta em um índice. Se  _expressão_ for inválida, essa função retornará 0 (preto). 
   
 ## <a name="example-1"></a>Exemplo 1
 
-VERMELHO (22)
+RED(22)
   
 Retornará 51 se o documento utilizar a paleta de cores padrão do Microsoft Office Visio, sendo cinza escuro a cor do índice 22.
   
 ## <a name="example-2"></a>Exemplo 2
 
-VERMELHO (Char. Color)
+RED(Char.Color)
   
 Retorna o valor do componente vermelho da cor de origem atual.
   

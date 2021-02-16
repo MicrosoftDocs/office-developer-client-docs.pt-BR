@@ -25,11 +25,11 @@ ms.locfileid: "33413336"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes a serem alocados para uma nova estrutura [SPropProblemArray](spropproblemarray.md) que contém um número especificado de estruturas [SPropProblem](spropproblem.md) . 
+Calcula o número de bytes a serem alocados para uma nova [estrutura SPropProblemArray](spropproblemarray.md) que contém um número especificado de [estruturas SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewSPropProblemArray (_cprob)
 
 ## <a name="parameters"></a>Parâmetros
 
- __cprob_
+ _ _cprob_
   
-> Contagem de estruturas **SPropProblem** a serem incluídas na nova estrutura **SPropProblemArray** . 
+> Contagem de **estruturas SPropProblem** a serem incluídas na nova **estrutura SPropProblemArray.** 
     
 ## <a name="see-also"></a>Confira também
 

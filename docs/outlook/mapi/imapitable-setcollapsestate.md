@@ -25,7 +25,7 @@ ms.locfileid: "33414064"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recria o estado atual expandido ou recolhido de uma tabela categorizada usando dados que foram salvos por uma chamada anterior para o método [IMAPITable::](imapitable-getcollapsestate.md) getcollapsestate. 
+Recria o estado expandido ou recolhido atual de uma tabela categorizada usando dados salvos por uma chamada anterior para o método [IMAPITable::GetCollapseState.](imapitable-getcollapsestate.md) 
   
 ```cpp
 HRESULT SetCollapseState(
@@ -40,19 +40,19 @@ BOOKMARK FAR * lpbkLocation
 
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  _cbCollapseState_
   
-> no Contagem de bytes na estrutura apontada pelo parâmetro _pbCollapseState_ . 
+> [in] Contagem de bytes na estrutura apontada pelo parâmetro _pbCollapseState._ 
     
  _pbCollapseState_
   
-> no Ponteiro para as estruturas que contêm os dados necessários para reconstruir o modo de exibição de tabela.
+> [in] Ponteiro para as estruturas que contêm os dados necessários para recriar o ponto de vista da tabela.
     
  _lpbkLocation_
   
-> bota Ponteiro para um indicador identificando a linha na tabela na qual o estado recolhido ou expandido deve ser recriado. Este indicador e a chave de instância passada no parâmetro _lpbInstanceKey_ na chamada para IMAPITable [::](imapitable-getcollapsestate.md) getcollapsestate identificam a mesma linha. 
+> [out] Ponteiro para um indicador que identifica a linha na tabela na qual o estado recolhido ou expandido deve ser reconstruído. Esse indicador e a chave de instância passadas no parâmetro  _lpbInstanceKey_ na chamada para [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identificam a mesma linha. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -62,31 +62,31 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento, o que impede a inicialização da operação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
+> Outra operação está em andamento que impede o início da operação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> A tabela não pôde concluir a reconstrução da exibição recolhida ou expandida.
+> A tabela não pôde concluir a recomposição do ponto de vista recolhido ou expandido.
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **::** setcollapsestate restabelece o estado expandido ou recolhido do modo de exibição de tabela. **** Setcollapsestate e **** getcollapsestate funcionam juntos da seguinte maneira: 
+O **método IMAPITable::SetCollapseState** restabelece o estado expandido ou recolhido do modo de exibição de tabela. **SetCollapseState** e **GetCollapseState** funcionam juntos da seguinte forma: 
   
-1. Quando o estado de uma tabela categorizada está prestes a mudar, [IMAPITable::](imapitable-getcollapsestate.md) getcollapsestate é chamado para salvar todos os dados pertencentes ao estado anterior à alteração. 
+1. Quando o estado de uma tabela categorizada está prestes a mudar, [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) é chamado para salvar todos os dados pertencentes ao estado antes da alteração. 
     
-2. Para restaurar o modo de exibição da tabela para seu estado salvo **** , setcollapsestate é chamado. Os dados salvos por **** getcollapsestate são passados para **** setcollapsestate. **** Setcollapsestate é capaz de usar esses dados para restaurar o estado. 
+2. Para restaurar o modo de exibição da tabela ao seu estado salvo, **SetCollapseState** é chamado. Os dados salvos por **GetCollapseState** são passados para **SetCollapseState**. **SetCollapseState** é capaz de usar esses dados para restaurar o estado. 
     
-3. **** Setcollapsestate retorna como um parâmetro de saída um indicador que identifica a mesma linha que a chave de instância passada como entrada para getcollapsestate. ****
+3. **SetCollapseState** retorna como um parâmetro de saída um indicador que identifica a mesma linha que a chave de instância passada como entrada para **GetCollapseState**.
     
-Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md). 
+Para obter mais informações sobre tabelas categorizadas, consulte [Classificação e Categorização.](sorting-and-categorization.md) 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você é responsável por verificar se a ordem de classificação e as restrições são exatamente iguais às que foram no momento da chamada getCollapsestate. **** Se uma alteração tiver sido feita, **** setcollapsestate não deverá ser chamado porque os resultados podem ser imprevisíveis. Isso pode acontecer se, por exemplo, um cliente chama **** getcollapsestate e **SortTable** para alterar a chave de classificação antes de **** chamar setcollapsestate. Para ser seguro, verifique se os dados salvos ainda são válidos antes de prosseguir com a restauração. 
+Você é responsável por verificar se a ordem de classificação e as restrições são exatamente as mesmas que eram no momento da chamada **GetCollapseState.** Se uma alteração tiver sido feita, **SetCollapseState** não deverá ser chamado porque os resultados podem ser imprevisíveis. Isso pode acontecer se, por exemplo, um cliente chamar **GetCollapseState** e, em seguida, **SortTable** alterar a chave de classificação antes de chamar **SetCollapseState**. Para garantir a segurança, verifique se os dados salvos ainda são válidos antes de prosseguir com a restauração. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para chamar **** setcollapsestate, você deve ter chamado getcollapsestate anteriormente. **** A ordem de classificação que estabelece as categorias deve ser a mesma para os dois métodos. Se as ordens de classificação forem diferentes, os resultados **** da operação setcollapsestate serão imprevisíveis. 
+Para chamar **SetCollapseState,** você deve ter chamado **GetCollapseState anteriormente.** A ordem de classificação que estabelece as categorias deve ser a mesma para ambos os métodos. Se as ordens de classificação são diferentes, os resultados da **operação SetCollapseState** são imprevisíveis. 
   
 ## <a name="see-also"></a>Confira também
 
