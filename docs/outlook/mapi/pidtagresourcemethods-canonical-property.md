@@ -19,74 +19,74 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436332"
 ---
-# <a name="pidtagresourcemethods-canonical-property"></a><span data-ttu-id="16672-103">Propriedade canônica PidTagResourceMethods</span><span class="sxs-lookup"><span data-stu-id="16672-103">PidTagResourceMethods Canonical Property</span></span>
+# <a name="pidtagresourcemethods-canonical-property"></a><span data-ttu-id="b0984-103">Propriedade canônica PidTagResourceMethods</span><span class="sxs-lookup"><span data-stu-id="b0984-103">PidTagResourceMethods Canonical Property</span></span>
 
   
   
-<span data-ttu-id="16672-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="16672-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b0984-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b0984-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="16672-105">Contém uma bitmask de sinalizadores que indicam os métodos na interface **IMAPIStatus** que são compatíveis com o objeto status.</span><span class="sxs-lookup"><span data-stu-id="16672-105">Contains a bitmask of flags that indicate the methods in the **IMAPIStatus** interface that are supported by the status object.</span></span> 
+<span data-ttu-id="b0984-105">Contém uma bitmask de sinalizadores que indicam os métodos na interface **IMAPIStatus** que são suportados pelo objeto de status.</span><span class="sxs-lookup"><span data-stu-id="b0984-105">Contains a bitmask of flags that indicate the methods in the **IMAPIStatus** interface that are supported by the status object.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="16672-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="16672-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="16672-107">PR_RESOURCE_METHODS</span><span class="sxs-lookup"><span data-stu-id="16672-107">PR_RESOURCE_METHODS</span></span>  <br/> |
-|<span data-ttu-id="16672-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="16672-108">Identifier:</span></span>  <br/> |<span data-ttu-id="16672-109">0x3E02</span><span class="sxs-lookup"><span data-stu-id="16672-109">0x3E02</span></span>  <br/> |
-|<span data-ttu-id="16672-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="16672-110">Data type:</span></span>  <br/> |<span data-ttu-id="16672-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="16672-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="16672-112">Área:</span><span class="sxs-lookup"><span data-stu-id="16672-112">Area:</span></span>  <br/> |<span data-ttu-id="16672-113">Status de MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="b0984-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="b0984-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b0984-107">PR_RESOURCE_METHODS</span><span class="sxs-lookup"><span data-stu-id="b0984-107">PR_RESOURCE_METHODS</span></span>  <br/> |
+|<span data-ttu-id="b0984-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="b0984-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b0984-109">0x3E02</span><span class="sxs-lookup"><span data-stu-id="b0984-109">0x3E02</span></span>  <br/> |
+|<span data-ttu-id="b0984-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="b0984-110">Data type:</span></span>  <br/> |<span data-ttu-id="b0984-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b0984-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="b0984-112">Área:</span><span class="sxs-lookup"><span data-stu-id="b0984-112">Area:</span></span>  <br/> |<span data-ttu-id="b0984-113">Status de MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="16672-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="16672-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b0984-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="b0984-114">Remarks</span></span>
 
-<span data-ttu-id="16672-115">Essa propriedade indica qual dos métodos na implementação de **IMAPIStatus** de um objeto status são suportados.</span><span class="sxs-lookup"><span data-stu-id="16672-115">This property indicates which of the methods in a status object's implementation of **IMAPIStatus** are supported.</span></span> <span data-ttu-id="16672-116">Os objetos de status têm permissão para retornar MAPI_E_NO_SUPPORT de métodos sem suporte.</span><span class="sxs-lookup"><span data-stu-id="16672-116">Status objects are allowed to return MAPI_E_NO_SUPPORT from unsupported methods.</span></span> 
+<span data-ttu-id="b0984-115">Essa propriedade indica quais dos métodos na implementação de **IMAPIStatus** de um objeto de status são suportados.</span><span class="sxs-lookup"><span data-stu-id="b0984-115">This property indicates which of the methods in a status object's implementation of **IMAPIStatus** are supported.</span></span> <span data-ttu-id="b0984-116">Os objetos de status podem retornar MAPI_E_NO_SUPPORT de métodos sem suporte.</span><span class="sxs-lookup"><span data-stu-id="b0984-116">Status objects are allowed to return MAPI_E_NO_SUPPORT from unsupported methods.</span></span> 
   
-<span data-ttu-id="16672-117">Os clientes usam a propriedade **PR_RESOURCE_METHODS** de um objeto status para evitar fazer chamadas para métodos sem suporte.</span><span class="sxs-lookup"><span data-stu-id="16672-117">Clients use a status object's **PR_RESOURCE_METHODS** property to avoid making calls to unsupported methods.</span></span> <span data-ttu-id="16672-118">Se o sinalizador que corresponde a um determinado método for definido, o método existirá e poderá ser chamado.</span><span class="sxs-lookup"><span data-stu-id="16672-118">If the flag that corresponds to a particular method is set, the method exists and can be called.</span></span> <span data-ttu-id="16672-119">Se esse sinalizador for claro, o método não deverá ser chamado.</span><span class="sxs-lookup"><span data-stu-id="16672-119">If that flag is clear, the method should not be called.</span></span> 
+<span data-ttu-id="b0984-117">Os clientes usam a propriedade PR_RESOURCE_METHODS **de** um objeto de status para evitar fazer chamadas para métodos sem suporte.</span><span class="sxs-lookup"><span data-stu-id="b0984-117">Clients use a status object's **PR_RESOURCE_METHODS** property to avoid making calls to unsupported methods.</span></span> <span data-ttu-id="b0984-118">Se o sinalizador que corresponde a um método específico for definido, o método existirá e poderá ser chamado.</span><span class="sxs-lookup"><span data-stu-id="b0984-118">If the flag that corresponds to a particular method is set, the method exists and can be called.</span></span> <span data-ttu-id="b0984-119">Se esse sinalizador estiver claro, o método não deve ser chamado.</span><span class="sxs-lookup"><span data-stu-id="b0984-119">If that flag is clear, the method should not be called.</span></span> 
   
-<span data-ttu-id="16672-120">Os objetos de status implementados pelo MAPI dão suporte aos seguintes métodos:</span><span class="sxs-lookup"><span data-stu-id="16672-120">The status objects implemented by MAPI support the following methods:</span></span>
+<span data-ttu-id="b0984-120">Os objetos de status implementados pelo MAPI suportam os seguintes métodos:</span><span class="sxs-lookup"><span data-stu-id="b0984-120">The status objects implemented by MAPI support the following methods:</span></span>
   
-|<span data-ttu-id="16672-121">**Objeto status**</span><span class="sxs-lookup"><span data-stu-id="16672-121">**Status object**</span></span>|<span data-ttu-id="16672-122">**Métodos com suporte**</span><span class="sxs-lookup"><span data-stu-id="16672-122">**Supported methods**</span></span>|
+|<span data-ttu-id="b0984-121">**Objeto Status**</span><span class="sxs-lookup"><span data-stu-id="b0984-121">**Status object**</span></span>|<span data-ttu-id="b0984-122">**Métodos com suporte**</span><span class="sxs-lookup"><span data-stu-id="b0984-122">**Supported methods**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="16672-123">Subsistema MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-123">MAPI subsystem</span></span>  <br/> |<span data-ttu-id="16672-124">**ValidateState** somente</span><span class="sxs-lookup"><span data-stu-id="16672-124">**ValidateState** only</span></span>  <br/> |
-|<span data-ttu-id="16672-125">Catálogo de endereços MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-125">MAPI address book</span></span>  <br/> |<span data-ttu-id="16672-126">**ValidateState** somente</span><span class="sxs-lookup"><span data-stu-id="16672-126">**ValidateState** only</span></span>  <br/> |
-|<span data-ttu-id="16672-127">Spooler MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-127">MAPI spooler</span></span>  <br/> |<span data-ttu-id="16672-128">**ValidateState** e **FlushQueues**</span><span class="sxs-lookup"><span data-stu-id="16672-128">**ValidateState** and **FlushQueues**</span></span> <br/> |
+|<span data-ttu-id="b0984-123">Subsistema MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-123">MAPI subsystem</span></span>  <br/> |<span data-ttu-id="b0984-124">**Somente ValidateState**</span><span class="sxs-lookup"><span data-stu-id="b0984-124">**ValidateState** only</span></span>  <br/> |
+|<span data-ttu-id="b0984-125">MapI address book</span><span class="sxs-lookup"><span data-stu-id="b0984-125">MAPI address book</span></span>  <br/> |<span data-ttu-id="b0984-126">**Somente ValidateState**</span><span class="sxs-lookup"><span data-stu-id="b0984-126">**ValidateState** only</span></span>  <br/> |
+|<span data-ttu-id="b0984-127">Spooler MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-127">MAPI spooler</span></span>  <br/> |<span data-ttu-id="b0984-128">**ValidateState** e **FlushQueues**</span><span class="sxs-lookup"><span data-stu-id="b0984-128">**ValidateState** and **FlushQueues**</span></span> <br/> |
    
-<span data-ttu-id="16672-129">Um ou mais dos seguintes sinalizadores podem ser definidos no **PR_RESOURCE_METHODS**:</span><span class="sxs-lookup"><span data-stu-id="16672-129">One or more of the following flags can be set in **PR_RESOURCE_METHODS**:</span></span>
+<span data-ttu-id="b0984-129">Um ou mais dos sinalizadores a seguir podem ser definidos **PR_RESOURCE_METHODS:**</span><span class="sxs-lookup"><span data-stu-id="b0984-129">One or more of the following flags can be set in **PR_RESOURCE_METHODS**:</span></span>
   
-<span data-ttu-id="16672-130">STATUS_CHANGE_PASSWORD</span><span class="sxs-lookup"><span data-stu-id="16672-130">STATUS_CHANGE_PASSWORD</span></span> 
+<span data-ttu-id="b0984-130">STATUS_CHANGE_PASSWORD</span><span class="sxs-lookup"><span data-stu-id="b0984-130">STATUS_CHANGE_PASSWORD</span></span> 
   
-> <span data-ttu-id="16672-131">Indica que o método [IMAPIStatus:: ChangePassword](imapistatus-changepassword.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="16672-131">Indicates that the [IMAPIStatus::ChangePassword](imapistatus-changepassword.md) method is supported.</span></span> 
+> <span data-ttu-id="b0984-131">Indica que o [método IMAPIStatus::ChangePassword](imapistatus-changepassword.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="b0984-131">Indicates that the [IMAPIStatus::ChangePassword](imapistatus-changepassword.md) method is supported.</span></span> 
     
-<span data-ttu-id="16672-132">STATUS_FLUSH_QUEUES</span><span class="sxs-lookup"><span data-stu-id="16672-132">STATUS_FLUSH_QUEUES</span></span> 
+<span data-ttu-id="b0984-132">STATUS_FLUSH_QUEUES</span><span class="sxs-lookup"><span data-stu-id="b0984-132">STATUS_FLUSH_QUEUES</span></span> 
   
-> <span data-ttu-id="16672-133">Indica que há suporte para o método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) .</span><span class="sxs-lookup"><span data-stu-id="16672-133">Indicates that the [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) method is supported.</span></span> 
+> <span data-ttu-id="b0984-133">Indica que o [método IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="b0984-133">Indicates that the [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) method is supported.</span></span> 
     
-<span data-ttu-id="16672-134">STATUS_SETTINGS_DIALOG</span><span class="sxs-lookup"><span data-stu-id="16672-134">STATUS_SETTINGS_DIALOG</span></span> 
+<span data-ttu-id="b0984-134">STATUS_SETTINGS_DIALOG</span><span class="sxs-lookup"><span data-stu-id="b0984-134">STATUS_SETTINGS_DIALOG</span></span> 
   
-> <span data-ttu-id="16672-135">Indica que há suporte para o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) .</span><span class="sxs-lookup"><span data-stu-id="16672-135">Indicates that the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method is supported.</span></span> 
+> <span data-ttu-id="b0984-135">Indica que o [método IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="b0984-135">Indicates that the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method is supported.</span></span> 
     
-<span data-ttu-id="16672-136">STATUS_VALIDATE_STATE</span><span class="sxs-lookup"><span data-stu-id="16672-136">STATUS_VALIDATE_STATE</span></span> 
+<span data-ttu-id="b0984-136">STATUS_VALIDATE_STATE</span><span class="sxs-lookup"><span data-stu-id="b0984-136">STATUS_VALIDATE_STATE</span></span> 
   
-> <span data-ttu-id="16672-137">Indica que o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="16672-137">Indicates that the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method is supported.</span></span> 
+> <span data-ttu-id="b0984-137">Indica que o [método IMAPIStatus::ValidateState](imapistatus-validatestate.md) é suportado.</span><span class="sxs-lookup"><span data-stu-id="b0984-137">Indicates that the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method is supported.</span></span> 
     
-## <a name="related-resources"></a><span data-ttu-id="16672-138">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="16672-138">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b0984-138">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="b0984-138">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="16672-139">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="16672-139">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b0984-139">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="b0984-139">Header files</span></span>
 
-<span data-ttu-id="16672-140">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="16672-140">Mapidefs.h</span></span>
+<span data-ttu-id="b0984-140">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b0984-140">Mapidefs.h</span></span>
   
-> <span data-ttu-id="16672-141">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="16672-141">Provides data type definitions.</span></span>
+> <span data-ttu-id="b0984-141">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="b0984-141">Provides data type definitions.</span></span>
     
-<span data-ttu-id="16672-142">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="16672-142">Mapitags.h</span></span>
+<span data-ttu-id="b0984-142">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b0984-142">Mapitags.h</span></span>
   
-> <span data-ttu-id="16672-143">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="16672-143">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="b0984-143">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="b0984-143">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="16672-144">Confira também</span><span class="sxs-lookup"><span data-stu-id="16672-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b0984-144">Confira também</span><span class="sxs-lookup"><span data-stu-id="b0984-144">See also</span></span>
 
 
 
-[<span data-ttu-id="16672-145">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-145">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b0984-145">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-145">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="16672-146">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-146">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b0984-146">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-146">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="16672-147">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="16672-147">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b0984-147">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="b0984-147">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="16672-148">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="16672-148">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b0984-148">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="b0984-148">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
