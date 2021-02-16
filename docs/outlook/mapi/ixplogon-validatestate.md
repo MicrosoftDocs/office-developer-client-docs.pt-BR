@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439482"
 ---
-# <a name="ixplogonvalidatestate"></a><span data-ttu-id="2b30d-103">IXPLogon::ValidateState</span><span class="sxs-lookup"><span data-stu-id="2b30d-103">IXPLogon::ValidateState</span></span>
+# <a name="ixplogonvalidatestate"></a><span data-ttu-id="3f69e-103">IXPLogon::ValidateState</span><span class="sxs-lookup"><span data-stu-id="3f69e-103">IXPLogon::ValidateState</span></span>
 
   
   
-<span data-ttu-id="2b30d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b30d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3f69e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3f69e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2b30d-105">Verifica o status externo do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="2b30d-105">Checks the transport provider's external status.</span></span> 
+<span data-ttu-id="3f69e-105">Verifica o status externo do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="3f69e-105">Checks the transport provider's external status.</span></span> 
   
 ```cpp
 HRESULT ValidateState(
@@ -34,75 +34,75 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2b30d-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="2b30d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3f69e-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3f69e-106">Parameters</span></span>
 
- <span data-ttu-id="2b30d-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="2b30d-107">_ulUIParam_</span></span>
+ <span data-ttu-id="3f69e-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="3f69e-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="2b30d-108">no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.</span><span class="sxs-lookup"><span data-stu-id="2b30d-108">[in] A handle to the parent window of any dialog boxes or windows that this method displays.</span></span>
+> <span data-ttu-id="3f69e-108">[in] Um alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.</span><span class="sxs-lookup"><span data-stu-id="3f69e-108">[in] A handle to the parent window of any dialog boxes or windows that this method displays.</span></span>
     
- <span data-ttu-id="2b30d-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="2b30d-109">_ulFlags_</span></span>
+ <span data-ttu-id="3f69e-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3f69e-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="2b30d-110">no Uma bitmask de sinalizadores que controla como a verificação de status é executada e os resultados da verificação de status.</span><span class="sxs-lookup"><span data-stu-id="2b30d-110">[in] A bitmask of flags that controls how the status check is performed and the results of the status check.</span></span> <span data-ttu-id="2b30d-111">Os seguintes sinalizadores podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="2b30d-111">The following flags can be set:</span></span>
+> <span data-ttu-id="3f69e-110">[in] Uma máscara de bits de sinalizadores que controla como a verificação de status é realizada e os resultados da verificação de status.</span><span class="sxs-lookup"><span data-stu-id="3f69e-110">[in] A bitmask of flags that controls how the status check is performed and the results of the status check.</span></span> <span data-ttu-id="3f69e-111">Os sinalizadores a seguir podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="3f69e-111">The following flags can be set:</span></span>
     
-<span data-ttu-id="2b30d-112">ABORT_XP_HEADER_OPERATION</span><span class="sxs-lookup"><span data-stu-id="2b30d-112">ABORT_XP_HEADER_OPERATION</span></span> 
+<span data-ttu-id="3f69e-112">ABORT_XP_HEADER_OPERATION</span><span class="sxs-lookup"><span data-stu-id="3f69e-112">ABORT_XP_HEADER_OPERATION</span></span> 
   
-> <span data-ttu-id="2b30d-113">O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="2b30d-113">The user canceled the operation, typically by clicking the **Cancel** button in a dialog box.</span></span> <span data-ttu-id="2b30d-114">O provedor de transporte tem a opção de continuar trabalhando na operação ou pode anular a operação e retornar MAPI_E_USER_CANCELED.</span><span class="sxs-lookup"><span data-stu-id="2b30d-114">The transport provider has the option to continue working on the operation, or it can abort the operation and return MAPI_E_USER_CANCELED.</span></span> 
+> <span data-ttu-id="3f69e-113">O usuário cancelou a operação, normalmente clicando no botão Cancelar **em** uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3f69e-113">The user canceled the operation, typically by clicking the **Cancel** button in a dialog box.</span></span> <span data-ttu-id="3f69e-114">O provedor de transporte tem a opção de continuar trabalhando na operação ou pode cancelar a operação e retornar MAPI_E_USER_CANCELED.</span><span class="sxs-lookup"><span data-stu-id="3f69e-114">The transport provider has the option to continue working on the operation, or it can abort the operation and return MAPI_E_USER_CANCELED.</span></span> 
     
-<span data-ttu-id="2b30d-115">CONFIG_CHANGED</span><span class="sxs-lookup"><span data-stu-id="2b30d-115">CONFIG_CHANGED</span></span> 
+<span data-ttu-id="3f69e-115">CONFIG_CHANGED</span><span class="sxs-lookup"><span data-stu-id="3f69e-115">CONFIG_CHANGED</span></span> 
   
-> <span data-ttu-id="2b30d-116">Valida o estado dos provedores de transporte atualmente carregados, fazendo com que o spooler MAPI chame o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) .</span><span class="sxs-lookup"><span data-stu-id="2b30d-116">Validates the state of currently loaded transport providers by causing the MAPI spooler to call their [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method.</span></span> <span data-ttu-id="2b30d-117">Esse sinalizador também fornece ao spooler MAPI uma oportunidade de corrigir falhas críticas do provedor de transporte sem forçar os aplicativos cliente a fazer logoff e, em seguida, fazer logon novamente.</span><span class="sxs-lookup"><span data-stu-id="2b30d-117">This flag also provides the MAPI spooler an opportunity to correct critical transport-provider failures without forcing client applications to log off and then log on again.</span></span> 
+> <span data-ttu-id="3f69e-116">Valida o estado dos provedores de transporte carregados no momento, fazendo com que o spooler MAPI chame seu [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md)</span><span class="sxs-lookup"><span data-stu-id="3f69e-116">Validates the state of currently loaded transport providers by causing the MAPI spooler to call their [IXPLogon::AddressTypes](ixplogon-addresstypes.md) method.</span></span> <span data-ttu-id="3f69e-117">Esse sinalizador também oferece ao spooler MAPI uma oportunidade de corrigir falhas críticas do provedor de transporte sem forçar os aplicativos clientes a fazer logoff e fazer logoff novamente.</span><span class="sxs-lookup"><span data-stu-id="3f69e-117">This flag also provides the MAPI spooler an opportunity to correct critical transport-provider failures without forcing client applications to log off and then log on again.</span></span> 
     
-<span data-ttu-id="2b30d-118">FORCE_XP_CONNECT</span><span class="sxs-lookup"><span data-stu-id="2b30d-118">FORCE_XP_CONNECT</span></span> 
+<span data-ttu-id="3f69e-118">FORCE_XP_CONNECT</span><span class="sxs-lookup"><span data-stu-id="3f69e-118">FORCE_XP_CONNECT</span></span> 
   
-> <span data-ttu-id="2b30d-119">O usuário selecionou uma operação de conexão.</span><span class="sxs-lookup"><span data-stu-id="2b30d-119">The user selected a connect operation.</span></span> <span data-ttu-id="2b30d-120">Quando esse sinalizador é usado com o sinalizador REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, a ação de conexão ocorre sem cache.</span><span class="sxs-lookup"><span data-stu-id="2b30d-120">When this flag is used with the REFRESH_XP_HEADER_CACHE or PROCESS_XP_HEADER_CACHE flag, the connect action occurs without caching.</span></span>
+> <span data-ttu-id="3f69e-119">O usuário selecionou uma operação de conexão.</span><span class="sxs-lookup"><span data-stu-id="3f69e-119">The user selected a connect operation.</span></span> <span data-ttu-id="3f69e-120">Quando esse sinalizador é usado com o sinalizador REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, a ação de conexão ocorre sem armazenamento em cache.</span><span class="sxs-lookup"><span data-stu-id="3f69e-120">When this flag is used with the REFRESH_XP_HEADER_CACHE or PROCESS_XP_HEADER_CACHE flag, the connect action occurs without caching.</span></span>
     
-<span data-ttu-id="2b30d-121">FORCE_XP_DISCONNECT</span><span class="sxs-lookup"><span data-stu-id="2b30d-121">FORCE_XP_DISCONNECT</span></span> 
+<span data-ttu-id="3f69e-121">FORCE_XP_DISCONNECT</span><span class="sxs-lookup"><span data-stu-id="3f69e-121">FORCE_XP_DISCONNECT</span></span> 
   
-> <span data-ttu-id="2b30d-122">O usuário selecionou uma operação de desconexão.</span><span class="sxs-lookup"><span data-stu-id="2b30d-122">The user selected a disconnect operation.</span></span> <span data-ttu-id="2b30d-123">Quando esse sinalizador é usado com REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, a ação de desconexão ocorre sem cache.</span><span class="sxs-lookup"><span data-stu-id="2b30d-123">When this flag is used with REFRESH_XP_HEADER_CACHE or PROCESS_XP_HEADER_CACHE, the disconnect action occurs without caching.</span></span>
+> <span data-ttu-id="3f69e-122">O usuário selecionou uma operação de desconexão.</span><span class="sxs-lookup"><span data-stu-id="3f69e-122">The user selected a disconnect operation.</span></span> <span data-ttu-id="3f69e-123">Quando esse sinalizador é usado com REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, a ação de desconectar ocorre sem armazenamento em cache.</span><span class="sxs-lookup"><span data-stu-id="3f69e-123">When this flag is used with REFRESH_XP_HEADER_CACHE or PROCESS_XP_HEADER_CACHE, the disconnect action occurs without caching.</span></span>
     
-<span data-ttu-id="2b30d-124">PROCESS_XP_HEADER_CACHE</span><span class="sxs-lookup"><span data-stu-id="2b30d-124">PROCESS_XP_HEADER_CACHE</span></span> 
+<span data-ttu-id="3f69e-124">PROCESS_XP_HEADER_CACHE</span><span class="sxs-lookup"><span data-stu-id="3f69e-124">PROCESS_XP_HEADER_CACHE</span></span> 
   
-> <span data-ttu-id="2b30d-125">As entradas na tabela de cache de cabeçalho devem ser processadas, todas as mensagens marcadas com o sinalizador MSGSTATUS_REMOTE_DOWNLOAD devem ser baixadas e todas as mensagens marcadas com o sinalizador MSGSTATUS_REMOTE_DELETE devem ser excluídas.</span><span class="sxs-lookup"><span data-stu-id="2b30d-125">Entries in the header cache table should be processed, all messages marked with the MSGSTATUS_REMOTE_DOWNLOAD flag should be downloaded, and all messages marked with the MSGSTATUS_REMOTE_DELETE flag should be deleted.</span></span> <span data-ttu-id="2b30d-126">As mensagens que têm o conjunto MSGSTATUS_REMOTE_DOWNLOAD e MSGSTATUS_REMOTE_DELETE devem ser movidas.</span><span class="sxs-lookup"><span data-stu-id="2b30d-126">Messages that have both MSGSTATUS_REMOTE_DOWNLOAD and MSGSTATUS_REMOTE_DELETE set should be moved.</span></span>
+> <span data-ttu-id="3f69e-125">As entradas na tabela de cache de MSGSTATUS_REMOTE_DOWNLOAD devem ser processadas, todas as mensagens marcadas com o sinalizador MSGSTATUS_REMOTE_DOWNLOAD devem ser baixadas e todas as mensagens marcadas com o sinalizador MSGSTATUS_REMOTE_DELETE devem ser excluídas.</span><span class="sxs-lookup"><span data-stu-id="3f69e-125">Entries in the header cache table should be processed, all messages marked with the MSGSTATUS_REMOTE_DOWNLOAD flag should be downloaded, and all messages marked with the MSGSTATUS_REMOTE_DELETE flag should be deleted.</span></span> <span data-ttu-id="3f69e-126">As mensagens que possuem MSGSTATUS_REMOTE_DOWNLOAD e MSGSTATUS_REMOTE_DELETE definidas devem ser movidas.</span><span class="sxs-lookup"><span data-stu-id="3f69e-126">Messages that have both MSGSTATUS_REMOTE_DOWNLOAD and MSGSTATUS_REMOTE_DELETE set should be moved.</span></span>
     
-<span data-ttu-id="2b30d-127">REFRESH_XP_HEADER_CACHE</span><span class="sxs-lookup"><span data-stu-id="2b30d-127">REFRESH_XP_HEADER_CACHE</span></span> 
+<span data-ttu-id="3f69e-127">REFRESH_XP_HEADER_CACHE</span><span class="sxs-lookup"><span data-stu-id="3f69e-127">REFRESH_XP_HEADER_CACHE</span></span> 
   
-> <span data-ttu-id="2b30d-128">Uma nova lista de cabeçalhos de mensagens deve ser baixada e todos os sinalizadores de marcação de status de mensagens devem ser apagados.</span><span class="sxs-lookup"><span data-stu-id="2b30d-128">A new list of message headers should be downloaded, and all message status marking flags should be cleared.</span></span>
+> <span data-ttu-id="3f69e-128">Uma nova lista de headers de mensagem deve ser baixada, e todos os sinalizadores de marcação de status de mensagem devem ser limpos.</span><span class="sxs-lookup"><span data-stu-id="3f69e-128">A new list of message headers should be downloaded, and all message status marking flags should be cleared.</span></span>
     
-<span data-ttu-id="2b30d-129">SUPPRESS_UI</span><span class="sxs-lookup"><span data-stu-id="2b30d-129">SUPPRESS_UI</span></span> 
+<span data-ttu-id="3f69e-129">SUPPRESS_UI</span><span class="sxs-lookup"><span data-stu-id="3f69e-129">SUPPRESS_UI</span></span> 
   
-> <span data-ttu-id="2b30d-130">Impede que o provedor de transporte exiba uma interface do usuário.</span><span class="sxs-lookup"><span data-stu-id="2b30d-130">Prevents the transport provider from displaying a user interface.</span></span>
+> <span data-ttu-id="3f69e-130">Impede que o provedor de transporte exibir uma interface do usuário.</span><span class="sxs-lookup"><span data-stu-id="3f69e-130">Prevents the transport provider from displaying a user interface.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2b30d-131">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="2b30d-131">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3f69e-131">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3f69e-131">Return value</span></span>
 
-<span data-ttu-id="2b30d-132">S_OK</span><span class="sxs-lookup"><span data-stu-id="2b30d-132">S_OK</span></span> 
+<span data-ttu-id="3f69e-132">S_OK</span><span class="sxs-lookup"><span data-stu-id="3f69e-132">S_OK</span></span> 
   
-> <span data-ttu-id="2b30d-133">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="2b30d-133">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="3f69e-133">A chamada foi bem-sucedida e retornou o valor ou os valores esperados.</span><span class="sxs-lookup"><span data-stu-id="3f69e-133">The call succeeded and returned the expected value or values.</span></span>
     
-<span data-ttu-id="2b30d-134">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="2b30d-134">MAPI_E_BUSY</span></span> 
+<span data-ttu-id="3f69e-134">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="3f69e-134">MAPI_E_BUSY</span></span> 
   
-> <span data-ttu-id="2b30d-135">Outra operação está em andamento; Ele deve ter permissão para ser concluído ou deve ser interrompido antes que esta operação seja tentada.</span><span class="sxs-lookup"><span data-stu-id="2b30d-135">Another operation is in progress; it should be allowed to complete, or it should be stopped before this operation is attempted.</span></span>
+> <span data-ttu-id="3f69e-135">Outra operação está em andamento; ela deve ter permissão para ser concluída ou deve ser interrompida antes da tentativa dessa operação.</span><span class="sxs-lookup"><span data-stu-id="3f69e-135">Another operation is in progress; it should be allowed to complete, or it should be stopped before this operation is attempted.</span></span>
     
-<span data-ttu-id="2b30d-136">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="2b30d-136">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="3f69e-136">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="3f69e-136">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="2b30d-137">O provedor de transporte remoto envolvido não oferece suporte a uma interface de usuário e o próprio aplicativo cliente deve exibir a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="2b30d-137">The remote transport provider involved does not support a user interface, and the client application itself should display the dialog box.</span></span>
+> <span data-ttu-id="3f69e-137">O provedor de transporte remoto envolvido não dá suporte a uma interface do usuário, e o próprio aplicativo cliente deve exibir a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3f69e-137">The remote transport provider involved does not support a user interface, and the client application itself should display the dialog box.</span></span>
     
-<span data-ttu-id="2b30d-138">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="2b30d-138">MAPI_E_USER_CANCEL</span></span> 
+<span data-ttu-id="3f69e-138">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="3f69e-138">MAPI_E_USER_CANCEL</span></span> 
   
-> <span data-ttu-id="2b30d-139">O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="2b30d-139">The user canceled the operation, typically by clicking the **Cancel** button in a dialog box.</span></span> 
+> <span data-ttu-id="3f69e-139">O usuário cancelou a operação, normalmente clicando no botão Cancelar **em** uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3f69e-139">The user canceled the operation, typically by clicking the **Cancel** button in a dialog box.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="2b30d-140">Comentários</span><span class="sxs-lookup"><span data-stu-id="2b30d-140">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f69e-140">Comentários</span><span class="sxs-lookup"><span data-stu-id="3f69e-140">Remarks</span></span>
 
-<span data-ttu-id="2b30d-141">O spooler MAPI chama o método **IXPLogon:: ValidateState** para dar suporte às chamadas para o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) para o objeto status.</span><span class="sxs-lookup"><span data-stu-id="2b30d-141">The MAPI spooler calls the **IXPLogon::ValidateState** method to support calls to the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method for the status object.</span></span> <span data-ttu-id="2b30d-142">O provedor de transporte deve responder à chamada **IXPLogon:: ValidateState** exatamente como se o spooler MAPI tivesse aberto um objeto status para a sessão de logon atual e, em seguida, chamou **IMAPIStatus:: ValidateState** nesse objeto.</span><span class="sxs-lookup"><span data-stu-id="2b30d-142">The transport provider should respond to the **IXPLogon::ValidateState** call exactly as if the MAPI spooler had opened a status object for the current logon session and then called **IMAPIStatus::ValidateState** on that object.</span></span> 
+<span data-ttu-id="3f69e-141">O spooler MAPI chama o método **IXPLogon::ValidateState** para dar suporte a chamadas para o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para o objeto de status.</span><span class="sxs-lookup"><span data-stu-id="3f69e-141">The MAPI spooler calls the **IXPLogon::ValidateState** method to support calls to the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method for the status object.</span></span> <span data-ttu-id="3f69e-142">O provedor de transporte deve responder à chamada **IXPLogon::ValidateState** exatamente como se o spooler MAPI tivesse aberto um objeto de status para a sessão de logon atual e chamado **IMAPIStatus::ValidateState** nesse objeto.</span><span class="sxs-lookup"><span data-stu-id="3f69e-142">The transport provider should respond to the **IXPLogon::ValidateState** call exactly as if the MAPI spooler had opened a status object for the current logon session and then called **IMAPIStatus::ValidateState** on that object.</span></span> 
   
-<span data-ttu-id="2b30d-143">Para dar suporte à implementação de **IMAPIStatus:: ValidateState**, o spooler MAPI chama **IXPLogon:: ValidateState** em todos os objetos de logon para todos os provedores de transporte ativos que estão sendo executados em uma sessão de perfil.</span><span class="sxs-lookup"><span data-stu-id="2b30d-143">To support its implementation of **IMAPIStatus::ValidateState**, the MAPI spooler calls **IXPLogon::ValidateState** on all logon objects for all active transport providers that are running in a profile session.</span></span> 
+<span data-ttu-id="3f69e-143">Para dar suporte à sua implementação de **IMAPIStatus::ValidateState**, o spooler MAPI chama **IXPLogon::ValidateState** em todos os objetos de logon para todos os provedores de transporte ativos que estão sendo executados em uma sessão de perfil.</span><span class="sxs-lookup"><span data-stu-id="3f69e-143">To support its implementation of **IMAPIStatus::ValidateState**, the MAPI spooler calls **IXPLogon::ValidateState** on all logon objects for all active transport providers that are running in a profile session.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2b30d-144">Confira também</span><span class="sxs-lookup"><span data-stu-id="2b30d-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f69e-144">Confira também</span><span class="sxs-lookup"><span data-stu-id="3f69e-144">See also</span></span>
 
 
 
-[<span data-ttu-id="2b30d-145">IMAPIStatus::ValidateState</span><span class="sxs-lookup"><span data-stu-id="2b30d-145">IMAPIStatus::ValidateState</span></span>](imapistatus-validatestate.md)
+[<span data-ttu-id="3f69e-145">IMAPIStatus::ValidateState</span><span class="sxs-lookup"><span data-stu-id="3f69e-145">IMAPIStatus::ValidateState</span></span>](imapistatus-validatestate.md)
   
-[<span data-ttu-id="2b30d-146">IXPLogon::AddressTypes</span><span class="sxs-lookup"><span data-stu-id="2b30d-146">IXPLogon::AddressTypes</span></span>](ixplogon-addresstypes.md)
+[<span data-ttu-id="3f69e-146">IXPLogon::AddressTypes</span><span class="sxs-lookup"><span data-stu-id="3f69e-146">IXPLogon::AddressTypes</span></span>](ixplogon-addresstypes.md)
   
-[<span data-ttu-id="2b30d-147">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2b30d-147">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
+[<span data-ttu-id="3f69e-147">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3f69e-147">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
 

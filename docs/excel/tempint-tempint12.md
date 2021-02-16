@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- função tempint12 [Excel 2007], função TempInt [Excel 2007]
+- Função tempint12 [excel 2007],função TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -19,30 +19,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438747"
 ---
-# <a name="tempinttempint12"></a><span data-ttu-id="fb257-104">TempInt/TempInt12</span><span class="sxs-lookup"><span data-stu-id="fb257-104">TempInt/TempInt12</span></span>
+# <a name="tempinttempint12"></a><span data-ttu-id="7d6ca-104">TempInt/TempInt12</span><span class="sxs-lookup"><span data-stu-id="7d6ca-104">TempInt/TempInt12</span></span>
 
- <span data-ttu-id="fb257-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fb257-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="7d6ca-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7d6ca-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="fb257-106">Função da biblioteca de estrutura que cria um**XLOPER12** **XLOPER**/ temporário que contém um inteiro.</span><span class="sxs-lookup"><span data-stu-id="fb257-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** that contains an integer.</span></span> 
+<span data-ttu-id="7d6ca-106">Função de biblioteca de estrutura que cria um **XLOPER** /  **XLOPER12 temporário** que contém um inteiro.</span><span class="sxs-lookup"><span data-stu-id="7d6ca-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** that contains an integer.</span></span> 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="fb257-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="fb257-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7d6ca-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="7d6ca-107">Parameters</span></span>
 
- <span data-ttu-id="fb257-108">_i_</span><span class="sxs-lookup"><span data-stu-id="fb257-108">_i_</span></span>
+ <span data-ttu-id="7d6ca-108">_i_</span><span class="sxs-lookup"><span data-stu-id="7d6ca-108">_i_</span></span>
   
-<span data-ttu-id="fb257-109">O valor inteiro pretendido.</span><span class="sxs-lookup"><span data-stu-id="fb257-109">The intended integer value.</span></span> <span data-ttu-id="fb257-110">Observe que o inteiro **XLOPER** é um inteiro de 16 bits com sinal (int curta), enquanto o inteiro **XLOPER12** é um inteiro de 32 bits assinado ([Long] int).</span><span class="sxs-lookup"><span data-stu-id="fb257-110">Note that the **XLOPER** integer is a signed 16-bit integer (short int), whereas the **XLOPER12** integer is a signed 32-bit integer ([long] int).</span></span> 
+<span data-ttu-id="7d6ca-109">O valor inteiro pretendido.</span><span class="sxs-lookup"><span data-stu-id="7d6ca-109">The intended integer value.</span></span> <span data-ttu-id="7d6ca-110">Observe que o inteiro **XLOPER** é um inteiro de 16 bits assinado (short int), enquanto o inteiro **XLOPER12** é um inteiro de 32 bits assinado ([long] int).</span><span class="sxs-lookup"><span data-stu-id="7d6ca-110">Note that the **XLOPER** integer is a signed 16-bit integer (short int), whereas the **XLOPER12** integer is a signed 32-bit integer ([long] int).</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="fb257-111">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="fb257-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7d6ca-111">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="7d6ca-111">Return value</span></span>
 
-<span data-ttu-id="fb257-112">Retorna um inteiro **xltypeInt** que contém o valor passado.</span><span class="sxs-lookup"><span data-stu-id="fb257-112">Returns an **xltypeInt** integer containing the value passed in.</span></span> 
+<span data-ttu-id="7d6ca-112">Retorna um **inteiro xltypeInt** que contém o valor passado.</span><span class="sxs-lookup"><span data-stu-id="7d6ca-112">Returns an **xltypeInt** integer containing the value passed in.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="fb257-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="fb257-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7d6ca-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7d6ca-113">Example</span></span>
 
-<span data-ttu-id="fb257-114">Este exemplo usa a função **TempInt12** para passar um argumento para **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="fb257-114">This example uses the **TempInt12** function to pass an argument to **xlfGetWorkspace**.</span></span>
+<span data-ttu-id="7d6ca-114">Este exemplo usa a **função TempInt12** para passar um argumento para **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="7d6ca-114">This example uses the **TempInt12** function to pass an argument to **xlfGetWorkspace**.</span></span>
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempIntExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="fb257-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="fb257-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d6ca-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="7d6ca-115">See also</span></span>
 
 
 
-[<span data-ttu-id="fb257-116">Funções na biblioteca do Framework</span><span class="sxs-lookup"><span data-stu-id="fb257-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="7d6ca-116">Funções na biblioteca do Framework</span><span class="sxs-lookup"><span data-stu-id="7d6ca-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

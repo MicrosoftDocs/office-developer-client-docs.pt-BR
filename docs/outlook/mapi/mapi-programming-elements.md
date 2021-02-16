@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439314"
 ---
-# <a name="mapi-programming-elements"></a><span data-ttu-id="b486f-103">Elementos de programação MAPI</span><span class="sxs-lookup"><span data-stu-id="b486f-103">MAPI programming elements</span></span>
+# <a name="mapi-programming-elements"></a><span data-ttu-id="c302d-103">Elementos de programação MAPI</span><span class="sxs-lookup"><span data-stu-id="c302d-103">MAPI programming elements</span></span>
 
-<span data-ttu-id="b486f-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b486f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c302d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c302d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b486f-105">Esta seção contém visões gerais conceituais dos elementos de programação na [referência do MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="b486f-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
+<span data-ttu-id="c302d-105">Esta seção contém visão geral conceitual dos elementos de programação na [Referência de MAPI.](mapi-reference.md)</span><span class="sxs-lookup"><span data-stu-id="c302d-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="b486f-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="b486f-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c302d-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="c302d-106">See also</span></span>
 
-- [<span data-ttu-id="b486f-107">Conceitos de MAPI</span><span class="sxs-lookup"><span data-stu-id="b486f-107">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="c302d-107">Conceitos de MAPI</span><span class="sxs-lookup"><span data-stu-id="c302d-107">MAPI Concepts</span></span>](mapi-concepts.md)
 

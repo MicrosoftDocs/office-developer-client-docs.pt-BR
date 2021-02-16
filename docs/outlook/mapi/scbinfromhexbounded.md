@@ -19,19 +19,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439755"
 ---
-# <a name="scbinfromhexbounded"></a><span data-ttu-id="62f15-103">ScBinFromHexBounded</span><span class="sxs-lookup"><span data-stu-id="62f15-103">ScBinFromHexBounded</span></span>
+# <a name="scbinfromhexbounded"></a><span data-ttu-id="34234-103">ScBinFromHexBounded</span><span class="sxs-lookup"><span data-stu-id="34234-103">ScBinFromHexBounded</span></span>
 
   
   
-<span data-ttu-id="62f15-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62f15-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="34234-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34234-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="62f15-105">Converte a parte especificada de uma representação de cadeia de caracteres de um número hexadecimal em um número binário.</span><span class="sxs-lookup"><span data-stu-id="62f15-105">Converts the specified portion of a string representation of a hexadecimal number into a binary number.</span></span> 
+<span data-ttu-id="34234-105">Converte a parte especificada de uma representação de cadeia de caracteres de um número hexadecimal em um número binário.</span><span class="sxs-lookup"><span data-stu-id="34234-105">Converts the specified portion of a string representation of a hexadecimal number into a binary number.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="62f15-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="62f15-106">Header file:</span></span>  <br/> |<span data-ttu-id="62f15-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="62f15-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="62f15-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="62f15-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="62f15-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="62f15-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="62f15-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="62f15-110">Called by:</span></span>  <br/> |<span data-ttu-id="62f15-111">Aplicativos cliente e provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="62f15-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="34234-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="34234-106">Header file:</span></span>  <br/> |<span data-ttu-id="34234-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="34234-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="34234-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="34234-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="34234-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="34234-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="34234-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="34234-110">Called by:</span></span>  <br/> |<span data-ttu-id="34234-111">Aplicativos cliente e provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="34234-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScBinFromHexBounded(
@@ -41,33 +41,33 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="62f15-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="62f15-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="34234-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="34234-112">Parameters</span></span>
 
- <span data-ttu-id="62f15-113">_v_</span><span class="sxs-lookup"><span data-stu-id="62f15-113">_sz_</span></span>
+ <span data-ttu-id="34234-113">_sz_</span><span class="sxs-lookup"><span data-stu-id="34234-113">_sz_</span></span>
   
-> <span data-ttu-id="62f15-114">no Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido.</span><span class="sxs-lookup"><span data-stu-id="62f15-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="62f15-115">Os caracteres válidos incluem os caracteres hexadecimais de 0 a 9 e os caracteres maiúsculos e minúsculos de a a f.</span><span class="sxs-lookup"><span data-stu-id="62f15-115">Valid characters include the hexadecimal characters 0 through 9 and both uppercase and lowercase characters a through f.</span></span>
+> <span data-ttu-id="34234-114">[in] Ponteiro para a cadeia de caracteres terminada em nulo a ser convertida.</span><span class="sxs-lookup"><span data-stu-id="34234-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="34234-115">Os caracteres válidos incluem os caracteres hexadecimais de 0 a 9 e os caracteres em maiúsculas e minúsculas de a a f.</span><span class="sxs-lookup"><span data-stu-id="34234-115">Valid characters include the hexadecimal characters 0 through 9 and both uppercase and lowercase characters a through f.</span></span>
     
- <span data-ttu-id="62f15-116">_pb_</span><span class="sxs-lookup"><span data-stu-id="62f15-116">_pb_</span></span>
+ <span data-ttu-id="34234-116">_pb_</span><span class="sxs-lookup"><span data-stu-id="34234-116">_pb_</span></span>
   
-> <span data-ttu-id="62f15-117">bota Ponteiro para o número binário retornado.</span><span class="sxs-lookup"><span data-stu-id="62f15-117">[out] Pointer to the returned binary number.</span></span>
+> <span data-ttu-id="34234-117">[out] Ponteiro para o número binário retornado.</span><span class="sxs-lookup"><span data-stu-id="34234-117">[out] Pointer to the returned binary number.</span></span>
     
- <span data-ttu-id="62f15-118">_cb_</span><span class="sxs-lookup"><span data-stu-id="62f15-118">_cb_</span></span>
+ <span data-ttu-id="34234-118">_cb_</span><span class="sxs-lookup"><span data-stu-id="34234-118">_cb_</span></span>
   
-> <span data-ttu-id="62f15-119">no Tamanho, em bytes, do parâmetro _PB_ .</span><span class="sxs-lookup"><span data-stu-id="62f15-119">[in] Size, in bytes, of the  _pb_ parameter.</span></span> 
+> <span data-ttu-id="34234-119">[in] Tamanho, em bytes, do _parâmetro pb._</span><span class="sxs-lookup"><span data-stu-id="34234-119">[in] Size, in bytes, of the  _pb_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="62f15-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="62f15-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="34234-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="34234-120">Return value</span></span>
 
-<span data-ttu-id="62f15-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="62f15-121">S_OK</span></span>
+<span data-ttu-id="34234-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="34234-121">S_OK</span></span>
   
-> <span data-ttu-id="62f15-122">A conversão foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="62f15-122">Conversion was successful.</span></span>
+> <span data-ttu-id="34234-122">A conversão foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="34234-122">Conversion was successful.</span></span>
     
-<span data-ttu-id="62f15-123">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="62f15-123">MAPI_E_CALL_FAILED</span></span>
+<span data-ttu-id="34234-123">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="34234-123">MAPI_E_CALL_FAILED</span></span>
   
-> <span data-ttu-id="62f15-124">Foram encontrados caracteres inVálidos.</span><span class="sxs-lookup"><span data-stu-id="62f15-124">Invalid characters were encountered.</span></span>
+> <span data-ttu-id="34234-124">Foram encontrados caracteres inválidos.</span><span class="sxs-lookup"><span data-stu-id="34234-124">Invalid characters were encountered.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="62f15-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="62f15-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34234-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="34234-125">See also</span></span>
 
 
 
-[<span data-ttu-id="62f15-126">FBinFromHex</span><span class="sxs-lookup"><span data-stu-id="62f15-126">FBinFromHex</span></span>](fbinfromhex.md)
+[<span data-ttu-id="34234-126">FBinFromHex</span><span class="sxs-lookup"><span data-stu-id="34234-126">FBinFromHex</span></span>](fbinfromhex.md)
 

@@ -19,35 +19,35 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436969"
 ---
-# <a name="entrylist"></a><span data-ttu-id="afd82-103">ENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="afd82-103">ENTRYLIST</span></span>
+# <a name="entrylist"></a><span data-ttu-id="bc4c7-103">ENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="bc4c7-103">ENTRYLIST</span></span>
 
   
   
-<span data-ttu-id="afd82-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="afd82-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bc4c7-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bc4c7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="afd82-105">Uma matriz de identificadores de entrada representando o objeto MAPI que usa a mesma implementação da estrutura [SBinaryArray](sbinaryarray.md) .</span><span class="sxs-lookup"><span data-stu-id="afd82-105">An array of entry identifiers representing MAPI object that uses the same implementation as the [SBinaryArray](sbinaryarray.md) structure.</span></span> 
+<span data-ttu-id="bc4c7-105">Uma matriz de identificadores de entrada que representa o objeto MAPI que usa a mesma implementação da [estrutura SBinaryArray.](sbinaryarray.md)</span><span class="sxs-lookup"><span data-stu-id="bc4c7-105">An array of entry identifiers representing MAPI object that uses the same implementation as the [SBinaryArray](sbinaryarray.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="afd82-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="afd82-106">Header file:</span></span>  <br/> |<span data-ttu-id="afd82-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="afd82-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="bc4c7-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="bc4c7-106">Header file:</span></span>  <br/> |<span data-ttu-id="bc4c7-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bc4c7-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ```
 
-## <a name="members"></a><span data-ttu-id="afd82-108">Members</span><span class="sxs-lookup"><span data-stu-id="afd82-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bc4c7-108">Members</span><span class="sxs-lookup"><span data-stu-id="bc4c7-108">Members</span></span>
 
-<span data-ttu-id="afd82-109">Consulte a estrutura **SBinaryArry** para membros.</span><span class="sxs-lookup"><span data-stu-id="afd82-109">See the **SBinaryArry** structure for members.</span></span> 
+<span data-ttu-id="bc4c7-109">Consulte a **estrutura SBinaryArry** para membros.</span><span class="sxs-lookup"><span data-stu-id="bc4c7-109">See the **SBinaryArry** structure for members.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="afd82-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="afd82-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc4c7-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="bc4c7-110">See also</span></span>
 
 
 
-[<span data-ttu-id="afd82-111">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="afd82-111">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="bc4c7-111">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="bc4c7-111">ENTRYID</span></span>](entryid.md)
   
-[<span data-ttu-id="afd82-112">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="afd82-112">SBinaryArray</span></span>](sbinaryarray.md)
+[<span data-ttu-id="bc4c7-112">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="bc4c7-112">SBinaryArray</span></span>](sbinaryarray.md)
 
 
-[<span data-ttu-id="afd82-113">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="afd82-113">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="bc4c7-113">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="bc4c7-113">MAPI Structures</span></span>](mapi-structures.md)
 

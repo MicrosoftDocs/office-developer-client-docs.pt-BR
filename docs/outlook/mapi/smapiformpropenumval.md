@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435408"
 ---
-# <a name="smapiformpropenumval"></a><span data-ttu-id="cc09a-103">SMAPIFormPropEnumVal</span><span class="sxs-lookup"><span data-stu-id="cc09a-103">SMAPIFormPropEnumVal</span></span>
+# <a name="smapiformpropenumval"></a><span data-ttu-id="89ca0-103">SMAPIFormPropEnumVal</span><span class="sxs-lookup"><span data-stu-id="89ca0-103">SMAPIFormPropEnumVal</span></span>
 
   
   
-<span data-ttu-id="cc09a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cc09a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="89ca0-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="89ca0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cc09a-105">Mapeia um valor de número inteiro enumerado para um nome de exibição para esse valor.</span><span class="sxs-lookup"><span data-stu-id="cc09a-105">Maps an enumerated integer value to a display name for that value.</span></span> 
+<span data-ttu-id="89ca0-105">Mapeia um valor inteiro enumerado para um nome de exibição para esse valor.</span><span class="sxs-lookup"><span data-stu-id="89ca0-105">Maps an enumerated integer value to a display name for that value.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cc09a-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="cc09a-106">Header file:</span></span>  <br/> |<span data-ttu-id="cc09a-107">Mapiform. h</span><span class="sxs-lookup"><span data-stu-id="cc09a-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="89ca0-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="89ca0-106">Header file:</span></span>  <br/> |<span data-ttu-id="89ca0-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="89ca0-107">Mapiform.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -40,28 +40,28 @@ typedef struct _SMAPIFormPropEnumVal
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cc09a-108">Members</span><span class="sxs-lookup"><span data-stu-id="cc09a-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="89ca0-108">Members</span><span class="sxs-lookup"><span data-stu-id="89ca0-108">Members</span></span>
 
- <span data-ttu-id="cc09a-109">**pszDisplayName**</span><span class="sxs-lookup"><span data-stu-id="cc09a-109">**pszDisplayName**</span></span>
+ <span data-ttu-id="89ca0-109">**pszDisplayName**</span><span class="sxs-lookup"><span data-stu-id="89ca0-109">**pszDisplayName**</span></span>
   
-> <span data-ttu-id="cc09a-110">Cadeia de caracteres que contém o nome de exibição para o valor especificado no membro **nVal** .</span><span class="sxs-lookup"><span data-stu-id="cc09a-110">String that contains the display name for the value specified in the **nVal** member.</span></span> 
+> <span data-ttu-id="89ca0-110">Cadeia de caracteres que contém o nome para exibição do valor especificado no **membro nVal.**</span><span class="sxs-lookup"><span data-stu-id="89ca0-110">String that contains the display name for the value specified in the **nVal** member.</span></span> 
     
- <span data-ttu-id="cc09a-111">**nVal**</span><span class="sxs-lookup"><span data-stu-id="cc09a-111">**nVal**</span></span>
+ <span data-ttu-id="89ca0-111">**nVal**</span><span class="sxs-lookup"><span data-stu-id="89ca0-111">**nVal**</span></span>
   
-> <span data-ttu-id="cc09a-112">Um valor de enumeração para o nome de exibição apontado pelo membro **pszDisplayName** .</span><span class="sxs-lookup"><span data-stu-id="cc09a-112">An enumeration value for the display name pointed to by the **pszDisplayName** member.</span></span> 
+> <span data-ttu-id="89ca0-112">Um valor de enumeração para o nome de exibição apontado pelo **membro pszDisplayName.**</span><span class="sxs-lookup"><span data-stu-id="89ca0-112">An enumeration value for the display name pointed to by the **pszDisplayName** member.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="cc09a-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="cc09a-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89ca0-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="89ca0-113">Remarks</span></span>
 
-<span data-ttu-id="cc09a-114">Quando um usuário seleciona um nome de exibição de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação da interface [IMAPIProp](imapipropiunknown.md) que está associada ao formulário.</span><span class="sxs-lookup"><span data-stu-id="cc09a-114">When a user selects a display name from a form, the name's corresponding enumeration value is stored by using the [IMAPIProp](imapipropiunknown.md) interface implementation that is associated with the form.</span></span> 
+<span data-ttu-id="89ca0-114">Quando um usuário seleciona um nome de exibição de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação da interface [IMAPIProp](imapipropiunknown.md) associada ao formulário.</span><span class="sxs-lookup"><span data-stu-id="89ca0-114">When a user selects a display name from a form, the name's corresponding enumeration value is stored by using the [IMAPIProp](imapipropiunknown.md) interface implementation that is associated with the form.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="cc09a-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="cc09a-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="89ca0-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="89ca0-115">See also</span></span>
 
 
 
-[<span data-ttu-id="cc09a-116">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="cc09a-116">SMAPIFormProp</span></span>](smapiformprop.md)
+[<span data-ttu-id="89ca0-116">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="89ca0-116">SMAPIFormProp</span></span>](smapiformprop.md)
   
-[<span data-ttu-id="cc09a-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="cc09a-117">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="89ca0-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="89ca0-117">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="cc09a-118">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="cc09a-118">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="89ca0-118">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="89ca0-118">MAPI Structures</span></span>](mapi-structures.md)
 

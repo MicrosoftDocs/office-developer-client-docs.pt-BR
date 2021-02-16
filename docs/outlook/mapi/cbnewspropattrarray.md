@@ -19,35 +19,35 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439118"
 ---
-# <a name="cbnewspropattrarray"></a><span data-ttu-id="13520-103">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="13520-103">CbNewSPropAttrArray</span></span>
+# <a name="cbnewspropattrarray"></a><span data-ttu-id="a1e96-103">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="a1e96-103">CbNewSPropAttrArray</span></span>
 
   
   
-<span data-ttu-id="13520-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="13520-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a1e96-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a1e96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="13520-105">Calcula o número de bytes que devem ser alocados para uma nova estrutura [SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade.</span><span class="sxs-lookup"><span data-stu-id="13520-105">Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes.</span></span> 
+<span data-ttu-id="a1e96-105">Calcula o número de bytes que devem ser alocados para uma nova [estrutura SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade.</span><span class="sxs-lookup"><span data-stu-id="a1e96-105">Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="13520-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="13520-106">Header file:</span></span>  <br/> |<span data-ttu-id="13520-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="13520-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="13520-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="13520-108">Related structure:</span></span>  <br/> |<span data-ttu-id="13520-109">**SPropAttrArray**</span><span class="sxs-lookup"><span data-stu-id="13520-109">**SPropAttrArray**</span></span> <br/> |
+|<span data-ttu-id="a1e96-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="a1e96-106">Header file:</span></span>  <br/> |<span data-ttu-id="a1e96-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="a1e96-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="a1e96-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="a1e96-108">Related structure:</span></span>  <br/> |<span data-ttu-id="a1e96-109">**SPropAttrArray**</span><span class="sxs-lookup"><span data-stu-id="a1e96-109">**SPropAttrArray**</span></span> <br/> |
    
 ```cpp
 CbNewSPropAttrArray (_cattr)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="13520-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="13520-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a1e96-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a1e96-110">Parameters</span></span>
 
- <span data-ttu-id="13520-111">__cattr_</span><span class="sxs-lookup"><span data-stu-id="13520-111">__cattr_</span></span>
+ <span data-ttu-id="a1e96-111">_ _cattr_</span><span class="sxs-lookup"><span data-stu-id="a1e96-111">_ _cattr_</span></span>
   
-> <span data-ttu-id="13520-112">Contagem de atributos de propriedade a serem incluídos na nova estrutura **SPropAttrArray** .</span><span class="sxs-lookup"><span data-stu-id="13520-112">Count of property attributes to be included in the new **SPropAttrArray** structure.</span></span> 
+> <span data-ttu-id="a1e96-112">Contagem de atributos de propriedade a serem incluídos na nova **estrutura SPropAttrArray.**</span><span class="sxs-lookup"><span data-stu-id="a1e96-112">Count of property attributes to be included in the new **SPropAttrArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="13520-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="13520-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1e96-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="a1e96-113">See also</span></span>
 
 
 
-[<span data-ttu-id="13520-114">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="13520-114">SPropAttrArray</span></span>](spropattrarray.md)
+[<span data-ttu-id="a1e96-114">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="a1e96-114">SPropAttrArray</span></span>](spropattrarray.md)
 
 
-[<span data-ttu-id="13520-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="13520-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="a1e96-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="a1e96-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

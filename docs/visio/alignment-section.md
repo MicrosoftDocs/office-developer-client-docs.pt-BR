@@ -16,8 +16,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436514"
 ---
-# <a name="alignment-section"></a><span data-ttu-id="4e59f-104">Seção Alignment</span><span class="sxs-lookup"><span data-stu-id="4e59f-104">Alignment Section</span></span>
+# <a name="alignment-section"></a><span data-ttu-id="9117a-104">Seção Alignment</span><span class="sxs-lookup"><span data-stu-id="9117a-104">Alignment Section</span></span>
 
-<span data-ttu-id="4e59f-105">Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada.</span><span class="sxs-lookup"><span data-stu-id="4e59f-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="4e59f-106">A seção **Alignment** aparece apenas para as formas coladas às guias.</span><span class="sxs-lookup"><span data-stu-id="4e59f-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
+<span data-ttu-id="9117a-105">Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada.</span><span class="sxs-lookup"><span data-stu-id="9117a-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="9117a-106">A **seção Alignment** aparece somente para formas coladas às guias.</span><span class="sxs-lookup"><span data-stu-id="9117a-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
   
 

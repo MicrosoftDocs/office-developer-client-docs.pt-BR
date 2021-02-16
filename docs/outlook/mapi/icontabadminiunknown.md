@@ -19,27 +19,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439328"
 ---
-# <a name="icontabadmin--iunknown"></a><span data-ttu-id="1609d-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1609d-103">IContabAdmin : IUnknown</span></span>
+# <a name="icontabadmin--iunknown"></a><span data-ttu-id="a3212-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a3212-103">IContabAdmin : IUnknown</span></span>
 
   
   
-<span data-ttu-id="1609d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1609d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a3212-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a3212-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1609d-105">Remove pastas de contatos do catálogo de endereços do Microsoft Outlook 2010 e do Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="1609d-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
+<span data-ttu-id="a3212-105">Remove pastas de contatos do livro de endereços do Microsoft Outlook 2010 e do Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="a3212-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1609d-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="1609d-106">Header file:</span></span>  <br/> |<span data-ttu-id="1609d-107">cabadmin. h</span><span class="sxs-lookup"><span data-stu-id="1609d-107">cabadmin.h</span></span>  <br/> |
-|<span data-ttu-id="1609d-108">Exposto por:</span><span class="sxs-lookup"><span data-stu-id="1609d-108">Exposed by:</span></span>  <br/> ||
-|<span data-ttu-id="1609d-109">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="1609d-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="1609d-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="1609d-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
-|<span data-ttu-id="1609d-111">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="1609d-111">Called by:</span></span>  <br/> |<span data-ttu-id="1609d-112">CRM</span><span class="sxs-lookup"><span data-stu-id="1609d-112">CRM</span></span>  <br/> |
-|<span data-ttu-id="1609d-113">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="1609d-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="1609d-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="1609d-114">IID_IContabAdmin</span></span>  <br/> |
-|<span data-ttu-id="1609d-115">Tipo de ponteiro:</span><span class="sxs-lookup"><span data-stu-id="1609d-115">Pointer type:</span></span>  <br/> ||
+|<span data-ttu-id="a3212-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="a3212-106">Header file:</span></span>  <br/> |<span data-ttu-id="a3212-107">cabadmin.h</span><span class="sxs-lookup"><span data-stu-id="a3212-107">cabadmin.h</span></span>  <br/> |
+|<span data-ttu-id="a3212-108">Exposto por:</span><span class="sxs-lookup"><span data-stu-id="a3212-108">Exposed by:</span></span>  <br/> ||
+|<span data-ttu-id="a3212-109">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="a3212-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="a3212-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="a3212-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
+|<span data-ttu-id="a3212-111">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="a3212-111">Called by:</span></span>  <br/> |<span data-ttu-id="a3212-112">CRM</span><span class="sxs-lookup"><span data-stu-id="a3212-112">CRM</span></span>  <br/> |
+|<span data-ttu-id="a3212-113">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="a3212-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="a3212-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="a3212-114">IID_IContabAdmin</span></span>  <br/> |
+|<span data-ttu-id="a3212-115">Tipo de ponteiro:</span><span class="sxs-lookup"><span data-stu-id="a3212-115">Pointer type:</span></span>  <br/> ||
    
-## <a name="vtable-order"></a><span data-ttu-id="1609d-116">Vtable order</span><span class="sxs-lookup"><span data-stu-id="1609d-116">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="a3212-116">Vtable order</span><span class="sxs-lookup"><span data-stu-id="a3212-116">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="1609d-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="1609d-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="1609d-118">Remove o catálogo de endereços de contatos (CAB) especificado pela ID de entrada fornecida na hierarquia do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="1609d-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
+|[<span data-ttu-id="a3212-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="a3212-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="a3212-118">Remove o Cab (Contact Address Book) especificado pela ID de entrada determinada da hierarquia do address book.</span><span class="sxs-lookup"><span data-stu-id="a3212-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
    
 
