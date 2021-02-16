@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32321900"
 ---
-# <a name="iolkapptrebaserendenumerateappointments"></a><span data-ttu-id="dac0a-103">IOlkApptRebaser::EndEnumerateAppointments</span><span class="sxs-lookup"><span data-stu-id="dac0a-103">IOlkApptRebaser::EndEnumerateAppointments</span></span>
+# <a name="iolkapptrebaserendenumerateappointments"></a><span data-ttu-id="9cd4f-103">IOlkApptRebaser::EndEnumerateAppointments</span><span class="sxs-lookup"><span data-stu-id="9cd4f-103">IOlkApptRebaser::EndEnumerateAppointments</span></span>
 
-<span data-ttu-id="dac0a-104">Aguarda a conclusão da enumeração de compromissos em uma pasta de calendário e retorna uma lista de compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="dac0a-104">Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.</span></span>
+<span data-ttu-id="9cd4f-104">Aguarda a conclusão da enumeração de compromissos em uma pasta de calendário e retorna uma lista de compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-104">Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="dac0a-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="dac0a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="9cd4f-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="9cd4f-105">Quick info</span></span>
 
-<span data-ttu-id="dac0a-106">Confira [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="dac0a-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
+<span data-ttu-id="9cd4f-106">Confira [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="9cd4f-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
   
 ```cpp
 HRESULT EndEnumerateAppointments( 
@@ -30,29 +30,29 @@ HRESULT EndEnumerateAppointments(
     SRowSet **ppRows);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="dac0a-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="dac0a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9cd4f-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="9cd4f-107">Parameters</span></span>
 
-<span data-ttu-id="dac0a-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="dac0a-108">_pContext_</span></span>
+<span data-ttu-id="9cd4f-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="9cd4f-108">_pContext_</span></span>
   
-> <span data-ttu-id="dac0a-109">[in] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="dac0a-109">[in] Required.</span></span> <span data-ttu-id="dac0a-110">Um ponteiro para o contexto obtido em uma chamada anterior para [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="dac0a-110">A pointer to the context obtained from a prior call to [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span></span>
+> <span data-ttu-id="9cd4f-109">[in] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-109">[in] Required.</span></span> <span data-ttu-id="9cd4f-110">Um ponteiro para o contexto obtido em uma chamada anterior para [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="9cd4f-110">A pointer to the context obtained from a prior call to [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span></span>
     
-<span data-ttu-id="dac0a-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="dac0a-111">_phResult_</span></span>
+<span data-ttu-id="9cd4f-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="9cd4f-111">_phResult_</span></span>
   
-> <span data-ttu-id="dac0a-112">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="dac0a-112">[out] Required.</span></span> <span data-ttu-id="dac0a-113">Um ponteiro para um **HRESULT** para recuperar os resultados da operação de enumeração.</span><span class="sxs-lookup"><span data-stu-id="dac0a-113">A pointer to an **HRESULT** to retrieve the results of the enumeration operation.</span></span> 
+> <span data-ttu-id="9cd4f-112">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-112">[out] Required.</span></span> <span data-ttu-id="9cd4f-113">Um ponteiro para um **HRESULT** para recuperar os resultados da operação de enumeração.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-113">A pointer to an **HRESULT** to retrieve the results of the enumeration operation.</span></span> 
     
-<span data-ttu-id="dac0a-114">_ppError_</span><span class="sxs-lookup"><span data-stu-id="dac0a-114">_ppError_</span></span>
+<span data-ttu-id="9cd4f-114">_ppError_</span><span class="sxs-lookup"><span data-stu-id="9cd4f-114">_ppError_</span></span>
   
-> <span data-ttu-id="dac0a-115">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="dac0a-115">[out] Optional.</span></span> <span data-ttu-id="dac0a-116">Um ponteiro para uma estrutura **MAPIERROR** para recuperar informações sobre erros estendidas.</span><span class="sxs-lookup"><span data-stu-id="dac0a-116">A pointer to a pointer to a **MAPIERROR** structure to retrieve extended error information.</span></span> 
+> <span data-ttu-id="9cd4f-115">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-115">[out] Optional.</span></span> <span data-ttu-id="9cd4f-116">Um ponteiro para uma estrutura **MAPIERROR** para recuperar informações sobre erros estendidas.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-116">A pointer to a pointer to a **MAPIERROR** structure to retrieve extended error information.</span></span> 
     
-<span data-ttu-id="dac0a-117">_ppRows_</span><span class="sxs-lookup"><span data-stu-id="dac0a-117">_ppRows_</span></span>
+<span data-ttu-id="9cd4f-117">_ppRows_</span><span class="sxs-lookup"><span data-stu-id="9cd4f-117">_ppRows_</span></span>
   
-> <span data-ttu-id="dac0a-118">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="dac0a-118">[out] Required.</span></span> <span data-ttu-id="dac0a-119">Um ponteiro para uma estrutura [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) que descreve os compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="dac0a-119">A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing.</span></span> <span data-ttu-id="dac0a-120">Essa estrutura geralmente é passada para [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="dac0a-120">This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
+> <span data-ttu-id="9cd4f-118">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-118">[out] Required.</span></span> <span data-ttu-id="9cd4f-119">Um ponteiro para uma estrutura [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) que descreve os compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-119">A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing.</span></span> <span data-ttu-id="9cd4f-120">Essa estrutura geralmente é passada para [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="9cd4f-120">This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="dac0a-121">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="dac0a-121">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9cd4f-121">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="9cd4f-121">Return values</span></span>
 
-<span data-ttu-id="dac0a-122">S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="dac0a-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="9cd4f-122">S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="9cd4f-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="dac0a-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="dac0a-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9cd4f-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="9cd4f-123">See also</span></span>
 
-- [<span data-ttu-id="dac0a-124">Sobre a alteração programática da base de calendários para o horário de verão</span><span class="sxs-lookup"><span data-stu-id="dac0a-124">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [<span data-ttu-id="9cd4f-124">Sobre a alteração programática da base de calendários para o horário de verão</span><span class="sxs-lookup"><span data-stu-id="9cd4f-124">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

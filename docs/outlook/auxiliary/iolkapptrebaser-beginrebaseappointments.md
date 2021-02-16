@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32321907"
 ---
-# <a name="iolkapptrebaserbeginrebaseappointments"></a><span data-ttu-id="e277d-103">IOlkApptRebaser::BeginRebaseAppointments</span><span class="sxs-lookup"><span data-stu-id="e277d-103">IOlkApptRebaser::BeginRebaseAppointments</span></span>
+# <a name="iolkapptrebaserbeginrebaseappointments"></a><span data-ttu-id="abe68-103">IOlkApptRebaser::BeginRebaseAppointments</span><span class="sxs-lookup"><span data-stu-id="abe68-103">IOlkApptRebaser::BeginRebaseAppointments</span></span>
 
-<span data-ttu-id="e277d-104">Inicia uma tarefa para alterar a base de compromisso, dada uma lista de compromissos, geralmente obtida de [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="e277d-104">Begins a task for appointment rebasing given a list of appointments, usually obtained from [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span></span>
+<span data-ttu-id="abe68-104">Inicia uma tarefa para alterar a base de compromisso, dada uma lista de compromissos, geralmente obtida de [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="abe68-104">Begins a task for appointment rebasing given a list of appointments, usually obtained from [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="e277d-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="e277d-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="abe68-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="abe68-105">Quick info</span></span>
 
-<span data-ttu-id="e277d-106">Confira [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="e277d-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
+<span data-ttu-id="abe68-106">Confira [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="abe68-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
   
 ```cpp
 HRESULT BeginRebaseAppointments( 
@@ -30,33 +30,33 @@ HRESULT BeginRebaseAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e277d-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="e277d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="abe68-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="abe68-107">Parameters</span></span>
 
-<span data-ttu-id="e277d-108">_pRows_</span><span class="sxs-lookup"><span data-stu-id="e277d-108">_pRows_</span></span>
+<span data-ttu-id="abe68-108">_pRows_</span><span class="sxs-lookup"><span data-stu-id="abe68-108">_pRows_</span></span>
   
-> <span data-ttu-id="e277d-109">[in] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="e277d-109">[in] Required.</span></span> <span data-ttu-id="e277d-110">Um ponteiro para uma estrutura [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) que descreve os compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="e277d-110">A pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing.</span></span> <span data-ttu-id="e277d-111">Essa estrutura é obtida em uma chamada anterior para [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="e277d-111">This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span></span>
+> <span data-ttu-id="abe68-109">[in] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="abe68-109">[in] Required.</span></span> <span data-ttu-id="abe68-110">Um ponteiro para uma estrutura [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) que descreve os compromissos que precisam de alteração programática.</span><span class="sxs-lookup"><span data-stu-id="abe68-110">A pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing.</span></span> <span data-ttu-id="abe68-111">Essa estrutura é obtida em uma chamada anterior para [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="abe68-111">This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).</span></span>
     
-<span data-ttu-id="e277d-112">_pfnProgress_</span><span class="sxs-lookup"><span data-stu-id="e277d-112">_pfnProgress_</span></span>
+<span data-ttu-id="abe68-112">_pfnProgress_</span><span class="sxs-lookup"><span data-stu-id="abe68-112">_pfnProgress_</span></span>
   
-> <span data-ttu-id="e277d-113">[in] Opcional.</span><span class="sxs-lookup"><span data-stu-id="e277d-113">[in] Optional.</span></span> <span data-ttu-id="e277d-114">Um ponteiro para uma função de progresso da tarefa de alteração da base para receber progresso.</span><span class="sxs-lookup"><span data-stu-id="e277d-114">A pointer to a rebase task progress function to receive progress.</span></span> <span data-ttu-id="e277d-115">**PFNREBASETASKPROGRESS** é definido em tzmovelib.h</span><span class="sxs-lookup"><span data-stu-id="e277d-115">**PFNREBASETASKPROGRESS** is defined in tzmovelib.h.</span></span> 
+> <span data-ttu-id="abe68-113">[in] Opcional.</span><span class="sxs-lookup"><span data-stu-id="abe68-113">[in] Optional.</span></span> <span data-ttu-id="abe68-114">Um ponteiro para uma função de progresso da tarefa de alteração da base para receber progresso.</span><span class="sxs-lookup"><span data-stu-id="abe68-114">A pointer to a rebase task progress function to receive progress.</span></span> <span data-ttu-id="abe68-115">**PFNREBASETASKPROGRESS** é definido em tzmovelib.h</span><span class="sxs-lookup"><span data-stu-id="abe68-115">**PFNREBASETASKPROGRESS** is defined in tzmovelib.h.</span></span> 
     
-<span data-ttu-id="e277d-116">_pfnComplete_</span><span class="sxs-lookup"><span data-stu-id="e277d-116">_pfnComplete_</span></span>
+<span data-ttu-id="abe68-116">_pfnComplete_</span><span class="sxs-lookup"><span data-stu-id="abe68-116">_pfnComplete_</span></span>
   
-> <span data-ttu-id="e277d-117">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="e277d-117">[out] Optional.</span></span> <span data-ttu-id="e277d-118">Um ponteiro para uma função de conclusão de tarefa de alteração da base para receber notificação de conclusão de alteração da base.</span><span class="sxs-lookup"><span data-stu-id="e277d-118">A pointer to a rebase task completion function to receive notification of rebase completion.</span></span> <span data-ttu-id="e277d-119">**PFNREBASETASKCOMPLETE** é definido em tzmovelib.h</span><span class="sxs-lookup"><span data-stu-id="e277d-119">**PFNREBASETASKCOMPLETE** is defined in tzmovelib.h.</span></span> 
+> <span data-ttu-id="abe68-117">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="abe68-117">[out] Optional.</span></span> <span data-ttu-id="abe68-118">Um ponteiro para uma função de conclusão de tarefa de alteração da base para receber notificação de conclusão de alteração da base.</span><span class="sxs-lookup"><span data-stu-id="abe68-118">A pointer to a rebase task completion function to receive notification of rebase completion.</span></span> <span data-ttu-id="abe68-119">**PFNREBASETASKCOMPLETE** é definido em tzmovelib.h</span><span class="sxs-lookup"><span data-stu-id="abe68-119">**PFNREBASETASKCOMPLETE** is defined in tzmovelib.h.</span></span> 
     
-<span data-ttu-id="e277d-120">_ppContext_</span><span class="sxs-lookup"><span data-stu-id="e277d-120">_ppContext_</span></span>
+<span data-ttu-id="abe68-120">_ppContext_</span><span class="sxs-lookup"><span data-stu-id="abe68-120">_ppContext_</span></span>
   
-> <span data-ttu-id="e277d-121">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="e277d-121">[out] Required.</span></span> <span data-ttu-id="e277d-122">Um ponteiro para um ponteiro para o contexto retornado.</span><span class="sxs-lookup"><span data-stu-id="e277d-122">A pointer to a pointer to the returned context.</span></span> <span data-ttu-id="e277d-123">Essa estrutura geralmente é passada para [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="e277d-123">This context will usually be passed to [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).</span></span>
+> <span data-ttu-id="abe68-121">[out] Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="abe68-121">[out] Required.</span></span> <span data-ttu-id="abe68-122">Um ponteiro para um ponteiro para o contexto retornado.</span><span class="sxs-lookup"><span data-stu-id="abe68-122">A pointer to a pointer to the returned context.</span></span> <span data-ttu-id="abe68-123">Essa estrutura geralmente é passada para [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="abe68-123">This context will usually be passed to [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="e277d-124">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="e277d-124">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="abe68-124">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="abe68-124">Return values</span></span>
 
-<span data-ttu-id="e277d-125">S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="e277d-125">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="abe68-125">S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="abe68-125">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e277d-126">Comentários</span><span class="sxs-lookup"><span data-stu-id="e277d-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="abe68-126">Comentários</span><span class="sxs-lookup"><span data-stu-id="abe68-126">Remarks</span></span>
 
-<span data-ttu-id="e277d-127">Esta tarefa é executada em um novo segmento.</span><span class="sxs-lookup"><span data-stu-id="e277d-127">This task runs on a new thread.</span></span>
+<span data-ttu-id="abe68-127">Esta tarefa é executada em um novo segmento.</span><span class="sxs-lookup"><span data-stu-id="abe68-127">This task runs on a new thread.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e277d-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="e277d-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abe68-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="abe68-128">See also</span></span>
 
-- [<span data-ttu-id="e277d-129">Sobre a alteração programática da base de calendários para o horário de verão</span><span class="sxs-lookup"><span data-stu-id="e277d-129">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [<span data-ttu-id="abe68-129">Sobre a alteração programática da base de calendários para o horário de verão</span><span class="sxs-lookup"><span data-stu-id="abe68-129">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

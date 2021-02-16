@@ -15,8 +15,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300256"
 ---
-# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="94dba-104">Depurar projetos do InfoPath usando o modelo de objeto do InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="94dba-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
+# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="aabb2-104">Depurar projetos do InfoPath usando o modelo de objeto do InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="aabb2-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
 
-<span data-ttu-id="94dba-105">Para saber mais sobre a depuração de um modelo de formulário de código gerenciado do InfoPath, inclusive os que são codificados com base no modelo de objeto do InfoPath 2003, confira [Visualizar e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span><span class="sxs-lookup"><span data-stu-id="94dba-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
+<span data-ttu-id="aabb2-105">Para saber mais sobre a depuração de um modelo de formulário de código gerenciado do InfoPath, inclusive os que são codificados com base no modelo de objeto do InfoPath 2003, confira [Visualizar e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span><span class="sxs-lookup"><span data-stu-id="aabb2-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
   
 

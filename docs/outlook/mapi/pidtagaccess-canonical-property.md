@@ -19,67 +19,67 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316510"
 ---
-# <a name="pidtagaccess-canonical-property"></a><span data-ttu-id="4c52a-103">Propriedade canônica PidTagAccess</span><span class="sxs-lookup"><span data-stu-id="4c52a-103">PidTagAccess Canonical Property</span></span>
+# <a name="pidtagaccess-canonical-property"></a><span data-ttu-id="aded5-103">Propriedade canônica PidTagAccess</span><span class="sxs-lookup"><span data-stu-id="aded5-103">PidTagAccess Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4c52a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4c52a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="aded5-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aded5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4c52a-105">Contém uma bitmask de sinalizadores que indicam as operações que estão disponíveis para o cliente para o objeto.</span><span class="sxs-lookup"><span data-stu-id="4c52a-105">Contains a bitmask of flags indicating the operations that are available to the client for the object.</span></span>
+<span data-ttu-id="aded5-105">Contém uma máscara de bits de sinalizadores indicando as operações que estão disponíveis para o cliente para o objeto.</span><span class="sxs-lookup"><span data-stu-id="aded5-105">Contains a bitmask of flags indicating the operations that are available to the client for the object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4c52a-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="4c52a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4c52a-107">PR_ACCESS</span><span class="sxs-lookup"><span data-stu-id="4c52a-107">PR_ACCESS</span></span>  <br/> |
-|<span data-ttu-id="4c52a-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="4c52a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4c52a-109">0x0FF4</span><span class="sxs-lookup"><span data-stu-id="4c52a-109">0x0FF4</span></span>  <br/> |
-|<span data-ttu-id="4c52a-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="4c52a-110">Data type:</span></span>  <br/> |<span data-ttu-id="4c52a-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="4c52a-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="4c52a-112">Área:</span><span class="sxs-lookup"><span data-stu-id="4c52a-112">Area:</span></span>  <br/> |<span data-ttu-id="4c52a-113">Propriedades de controle de acesso</span><span class="sxs-lookup"><span data-stu-id="4c52a-113">Access Control Properties</span></span>  <br/> |
+|<span data-ttu-id="aded5-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="aded5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="aded5-107">PR_ACCESS</span><span class="sxs-lookup"><span data-stu-id="aded5-107">PR_ACCESS</span></span>  <br/> |
+|<span data-ttu-id="aded5-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="aded5-108">Identifier:</span></span>  <br/> |<span data-ttu-id="aded5-109">0x0FF4</span><span class="sxs-lookup"><span data-stu-id="aded5-109">0x0FF4</span></span>  <br/> |
+|<span data-ttu-id="aded5-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="aded5-110">Data type:</span></span>  <br/> |<span data-ttu-id="aded5-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="aded5-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="aded5-112">Área:</span><span class="sxs-lookup"><span data-stu-id="aded5-112">Area:</span></span>  <br/> |<span data-ttu-id="aded5-113">Propriedades de controle de acesso</span><span class="sxs-lookup"><span data-stu-id="aded5-113">Access Control Properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4c52a-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="4c52a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aded5-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="aded5-114">Remarks</span></span>
 
-<span data-ttu-id="4c52a-115">Essa propriedade é somente leitura para o cliente.</span><span class="sxs-lookup"><span data-stu-id="4c52a-115">This property is read-only for the client.</span></span> <span data-ttu-id="4c52a-116">Ele deve ser um **ou** mais bits ou valores da tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="4c52a-116">It must be a bitwise **OR** of zero or more values from the following table.</span></span> 
+<span data-ttu-id="aded5-115">Essa propriedade é somente leitura para o cliente.</span><span class="sxs-lookup"><span data-stu-id="aded5-115">This property is read-only for the client.</span></span> <span data-ttu-id="aded5-116">Ela deve ser um bit a bit **OR** de zero ou mais valores da tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="aded5-116">It must be a bitwise **OR** of zero or more values from the following table.</span></span> 
   
-|<span data-ttu-id="4c52a-117">**Nome**</span><span class="sxs-lookup"><span data-stu-id="4c52a-117">**Name**</span></span>|<span data-ttu-id="4c52a-118">**Valor**</span><span class="sxs-lookup"><span data-stu-id="4c52a-118">**Value**</span></span>|<span data-ttu-id="4c52a-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4c52a-119">**Description**</span></span>|
+|<span data-ttu-id="aded5-117">**Nome**</span><span class="sxs-lookup"><span data-stu-id="aded5-117">**Name**</span></span>|<span data-ttu-id="aded5-118">**Valor**</span><span class="sxs-lookup"><span data-stu-id="aded5-118">**Value**</span></span>|<span data-ttu-id="aded5-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="aded5-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="4c52a-120">MAPI_ACCESS_MODIFY</span><span class="sxs-lookup"><span data-stu-id="4c52a-120">MAPI_ACCESS_MODIFY</span></span>  <br/> |<span data-ttu-id="4c52a-121">0x00000001</span><span class="sxs-lookup"><span data-stu-id="4c52a-121">0x00000001</span></span>  <br/> |<span data-ttu-id="4c52a-122">Gravar</span><span class="sxs-lookup"><span data-stu-id="4c52a-122">Write</span></span>  <br/> |
-|<span data-ttu-id="4c52a-123">MAPI_ACCESS_READ</span><span class="sxs-lookup"><span data-stu-id="4c52a-123">MAPI_ACCESS_READ</span></span>  <br/> |<span data-ttu-id="4c52a-124">0x00000002</span><span class="sxs-lookup"><span data-stu-id="4c52a-124">0x00000002</span></span>  <br/> |<span data-ttu-id="4c52a-125">Leitura</span><span class="sxs-lookup"><span data-stu-id="4c52a-125">Read</span></span>  <br/> |
-|<span data-ttu-id="4c52a-126">MAPI_ACCESS_DELETE</span><span class="sxs-lookup"><span data-stu-id="4c52a-126">MAPI_ACCESS_DELETE</span></span>  <br/> |<span data-ttu-id="4c52a-127">0x00000004</span><span class="sxs-lookup"><span data-stu-id="4c52a-127">0x00000004</span></span>  <br/> |<span data-ttu-id="4c52a-128">Excluir</span><span class="sxs-lookup"><span data-stu-id="4c52a-128">Delete</span></span>  <br/> |
-|<span data-ttu-id="4c52a-129">MAPI_ACCESS_CREATE_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="4c52a-129">MAPI_ACCESS_CREATE_HIERARCHY</span></span>  <br/> |<span data-ttu-id="4c52a-130">0x00000008</span><span class="sxs-lookup"><span data-stu-id="4c52a-130">0x00000008</span></span>  <br/> |<span data-ttu-id="4c52a-131">Criar subpastas na hierarquia de pastas</span><span class="sxs-lookup"><span data-stu-id="4c52a-131">Create subfolders in the folder hierarchy</span></span>  <br/> |
-|<span data-ttu-id="4c52a-132">MAPI_ACCESS_CREATE_CONTENTS</span><span class="sxs-lookup"><span data-stu-id="4c52a-132">MAPI_ACCESS_CREATE_CONTENTS</span></span>  <br/> |<span data-ttu-id="4c52a-133">0x00000010</span><span class="sxs-lookup"><span data-stu-id="4c52a-133">0x00000010</span></span>  <br/> |<span data-ttu-id="4c52a-134">Criar mensagens de conteúdo</span><span class="sxs-lookup"><span data-stu-id="4c52a-134">Create content messages</span></span>  <br/> |
-|<span data-ttu-id="4c52a-135">MAPI_ACCESS_CREATE_ASSOCIATED</span><span class="sxs-lookup"><span data-stu-id="4c52a-135">MAPI_ACCESS_CREATE_ASSOCIATED</span></span>  <br/> |<span data-ttu-id="4c52a-136">0x00000020</span><span class="sxs-lookup"><span data-stu-id="4c52a-136">0x00000020</span></span>  <br/> |<span data-ttu-id="4c52a-137">Criar mensagens de conteúdo associadas</span><span class="sxs-lookup"><span data-stu-id="4c52a-137">Create associated content messages</span></span>  <br/> |
+|<span data-ttu-id="aded5-120">MAPI_ACCESS_MODIFY</span><span class="sxs-lookup"><span data-stu-id="aded5-120">MAPI_ACCESS_MODIFY</span></span>  <br/> |<span data-ttu-id="aded5-121">0x00000001</span><span class="sxs-lookup"><span data-stu-id="aded5-121">0x00000001</span></span>  <br/> |<span data-ttu-id="aded5-122">Gravar</span><span class="sxs-lookup"><span data-stu-id="aded5-122">Write</span></span>  <br/> |
+|<span data-ttu-id="aded5-123">MAPI_ACCESS_READ</span><span class="sxs-lookup"><span data-stu-id="aded5-123">MAPI_ACCESS_READ</span></span>  <br/> |<span data-ttu-id="aded5-124">0x00000002</span><span class="sxs-lookup"><span data-stu-id="aded5-124">0x00000002</span></span>  <br/> |<span data-ttu-id="aded5-125">Ler</span><span class="sxs-lookup"><span data-stu-id="aded5-125">Read</span></span>  <br/> |
+|<span data-ttu-id="aded5-126">MAPI_ACCESS_DELETE</span><span class="sxs-lookup"><span data-stu-id="aded5-126">MAPI_ACCESS_DELETE</span></span>  <br/> |<span data-ttu-id="aded5-127">0x00000004</span><span class="sxs-lookup"><span data-stu-id="aded5-127">0x00000004</span></span>  <br/> |<span data-ttu-id="aded5-128">Excluir</span><span class="sxs-lookup"><span data-stu-id="aded5-128">Delete</span></span>  <br/> |
+|<span data-ttu-id="aded5-129">MAPI_ACCESS_CREATE_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="aded5-129">MAPI_ACCESS_CREATE_HIERARCHY</span></span>  <br/> |<span data-ttu-id="aded5-130">0x00000008</span><span class="sxs-lookup"><span data-stu-id="aded5-130">0x00000008</span></span>  <br/> |<span data-ttu-id="aded5-131">Criar subpastas na hierarquia de pastas</span><span class="sxs-lookup"><span data-stu-id="aded5-131">Create subfolders in the folder hierarchy</span></span>  <br/> |
+|<span data-ttu-id="aded5-132">MAPI_ACCESS_CREATE_CONTENTS</span><span class="sxs-lookup"><span data-stu-id="aded5-132">MAPI_ACCESS_CREATE_CONTENTS</span></span>  <br/> |<span data-ttu-id="aded5-133">0x00000010</span><span class="sxs-lookup"><span data-stu-id="aded5-133">0x00000010</span></span>  <br/> |<span data-ttu-id="aded5-134">Criar mensagens de conteúdo</span><span class="sxs-lookup"><span data-stu-id="aded5-134">Create content messages</span></span>  <br/> |
+|<span data-ttu-id="aded5-135">MAPI_ACCESS_CREATE_ASSOCIATED</span><span class="sxs-lookup"><span data-stu-id="aded5-135">MAPI_ACCESS_CREATE_ASSOCIATED</span></span>  <br/> |<span data-ttu-id="aded5-136">0x00000020</span><span class="sxs-lookup"><span data-stu-id="aded5-136">0x00000020</span></span>  <br/> |<span data-ttu-id="aded5-137">Criar mensagens de conteúdo associadas</span><span class="sxs-lookup"><span data-stu-id="aded5-137">Create associated content messages</span></span>  <br/> |
    
-<span data-ttu-id="4c52a-138">Os sinalizadores MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados nos objetos Folder e Message e na coluna **PR_ACCESS** nas tabelas de conteúdo e tabelas de conteúdo associadas.</span><span class="sxs-lookup"><span data-stu-id="4c52a-138">The MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY, and MAPI_ACCESS_READ flags are found on folder and message objects and in the **PR_ACCESS** column in contents tables and associated contents tables.</span></span> <span data-ttu-id="4c52a-139">Os sinalizadores MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados somente nos objetos Folder.</span><span class="sxs-lookup"><span data-stu-id="4c52a-139">The MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS, and MAPI_ACCESS_CREATE_HIERARCHY flags are found on folder objects only.</span></span> 
+<span data-ttu-id="aded5-138">Os MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados em objetos de pasta e mensagem e na coluna **PR_ACCESS** em tabelas de conteúdo e tabelas de conteúdo associadas.</span><span class="sxs-lookup"><span data-stu-id="aded5-138">The MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY, and MAPI_ACCESS_READ flags are found on folder and message objects and in the **PR_ACCESS** column in contents tables and associated contents tables.</span></span> <span data-ttu-id="aded5-139">Os MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados somente em objetos de pasta.</span><span class="sxs-lookup"><span data-stu-id="aded5-139">The MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS, and MAPI_ACCESS_CREATE_HIERARCHY flags are found on folder objects only.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="4c52a-140">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="4c52a-140">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="aded5-140">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="aded5-140">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4c52a-141">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="4c52a-141">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="aded5-141">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="aded5-141">Protocol specifications</span></span>
 
-<span data-ttu-id="4c52a-142">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4c52a-142">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="aded5-142">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="aded5-142">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4c52a-143">Fornece referências às especificações relacionadas do protocolo do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="4c52a-143">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="aded5-143">Fornece referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="aded5-143">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4c52a-144">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4c52a-144">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="aded5-144">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="aded5-144">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4c52a-145">Manipula objetos Message e Attachment.</span><span class="sxs-lookup"><span data-stu-id="4c52a-145">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="aded5-145">Lida com objetos de mensagem e anexo.</span><span class="sxs-lookup"><span data-stu-id="aded5-145">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4c52a-146">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="4c52a-146">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="aded5-146">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="aded5-146">Header files</span></span>
 
-<span data-ttu-id="4c52a-147">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4c52a-147">Mapidefs.h</span></span>
+<span data-ttu-id="aded5-147">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="aded5-147">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4c52a-148">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="4c52a-148">Provides data type definitions.</span></span>
+> <span data-ttu-id="aded5-148">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="aded5-148">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4c52a-149">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="4c52a-149">Mapitags.h</span></span>
+<span data-ttu-id="aded5-149">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="aded5-149">Mapitags.h</span></span>
   
-> <span data-ttu-id="4c52a-150">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="4c52a-150">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="aded5-150">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="aded5-150">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4c52a-151">Confira também</span><span class="sxs-lookup"><span data-stu-id="4c52a-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aded5-151">Confira também</span><span class="sxs-lookup"><span data-stu-id="aded5-151">See also</span></span>
 
 
 
-[<span data-ttu-id="4c52a-152">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="4c52a-152">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="aded5-152">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="aded5-152">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4c52a-153">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="4c52a-153">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="aded5-153">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="aded5-153">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4c52a-154">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="4c52a-154">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="aded5-154">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="aded5-154">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4c52a-155">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="4c52a-155">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="aded5-155">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="aded5-155">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

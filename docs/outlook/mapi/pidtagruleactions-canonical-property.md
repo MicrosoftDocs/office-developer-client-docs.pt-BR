@@ -19,64 +19,64 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32278897"
 ---
-# <a name="pidtagruleactions-canonical-property"></a><span data-ttu-id="c00dd-103">Propriedade canônica PidTagRuleActions</span><span class="sxs-lookup"><span data-stu-id="c00dd-103">PidTagRuleActions Canonical Property</span></span>
+# <a name="pidtagruleactions-canonical-property"></a><span data-ttu-id="1eac9-103">Propriedade canônica PidTagRuleActions</span><span class="sxs-lookup"><span data-stu-id="1eac9-103">PidTagRuleActions Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c00dd-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c00dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1eac9-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1eac9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c00dd-105">Contém o conjunto de ações associadas à regra.</span><span class="sxs-lookup"><span data-stu-id="c00dd-105">Contains the set of actions associated with the rule.</span></span> 
+<span data-ttu-id="1eac9-105">Contém o conjunto de ações associadas à regra.</span><span class="sxs-lookup"><span data-stu-id="1eac9-105">Contains the set of actions associated with the rule.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c00dd-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="c00dd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c00dd-107">PR_RULE_ACTIONS</span><span class="sxs-lookup"><span data-stu-id="c00dd-107">PR_RULE_ACTIONS</span></span>  <br/> |
-|<span data-ttu-id="c00dd-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="c00dd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c00dd-109">0x6680</span><span class="sxs-lookup"><span data-stu-id="c00dd-109">0x6680</span></span>  <br/> |
-|<span data-ttu-id="c00dd-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="c00dd-110">Data type:</span></span>  <br/> |<span data-ttu-id="c00dd-111">PT_ACTIONS</span><span class="sxs-lookup"><span data-stu-id="c00dd-111">PT_ACTIONS</span></span>  <br/> |
-|<span data-ttu-id="c00dd-112">Área:</span><span class="sxs-lookup"><span data-stu-id="c00dd-112">Area:</span></span>  <br/> |<span data-ttu-id="c00dd-113">Regras no servidor</span><span class="sxs-lookup"><span data-stu-id="c00dd-113">Server Side Rules</span></span>  <br/> |
+|<span data-ttu-id="1eac9-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="1eac9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1eac9-107">PR_RULE_ACTIONS</span><span class="sxs-lookup"><span data-stu-id="1eac9-107">PR_RULE_ACTIONS</span></span>  <br/> |
+|<span data-ttu-id="1eac9-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="1eac9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1eac9-109">0x6680</span><span class="sxs-lookup"><span data-stu-id="1eac9-109">0x6680</span></span>  <br/> |
+|<span data-ttu-id="1eac9-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="1eac9-110">Data type:</span></span>  <br/> |<span data-ttu-id="1eac9-111">PT_ACTIONS</span><span class="sxs-lookup"><span data-stu-id="1eac9-111">PT_ACTIONS</span></span>  <br/> |
+|<span data-ttu-id="1eac9-112">Área:</span><span class="sxs-lookup"><span data-stu-id="1eac9-112">Area:</span></span>  <br/> |<span data-ttu-id="1eac9-113">Regras do lado do servidor</span><span class="sxs-lookup"><span data-stu-id="1eac9-113">Server Side Rules</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c00dd-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="c00dd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1eac9-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="1eac9-114">Remarks</span></span>
 
-<span data-ttu-id="c00dd-115">As ações são expressas como uma ação de regra e o buffer de valor da propriedade contém a estrutura de buffer de dados de ação de regra empacotada conforme especificado em [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c00dd-115">The actions are expressed as a rule action and the property value buffer contains the rule action data buffer structure packaged as specified in [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="1eac9-115">As ações são expressas como uma ação de regra e o buffer de valores de propriedade contém a estrutura de buffer de dados de ação de regra empacotada conforme especificado em [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1eac9-115">The actions are expressed as a rule action and the property value buffer contains the rule action data buffer structure packaged as specified in [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="c00dd-116">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="c00dd-116">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="1eac9-116">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="1eac9-116">MFCMAPI reference</span></span>
 
-<span data-ttu-id="c00dd-117">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="c00dd-117">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="1eac9-117">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="1eac9-117">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="c00dd-118">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="c00dd-118">**File**</span></span>|<span data-ttu-id="c00dd-119">**Função**</span><span class="sxs-lookup"><span data-stu-id="c00dd-119">**Function**</span></span>|<span data-ttu-id="c00dd-120">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="c00dd-120">**Comment**</span></span>|
+|<span data-ttu-id="1eac9-118">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="1eac9-118">**File**</span></span>|<span data-ttu-id="1eac9-119">**Função**</span><span class="sxs-lookup"><span data-stu-id="1eac9-119">**Function**</span></span>|<span data-ttu-id="1eac9-120">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="1eac9-120">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c00dd-121">ImportProcs. cpp</span><span class="sxs-lookup"><span data-stu-id="c00dd-121">ImportProcs.cpp</span></span>  <br/> |<span data-ttu-id="c00dd-122">PropCopyMore, HrCopyActions</span><span class="sxs-lookup"><span data-stu-id="c00dd-122">PropCopyMore, HrCopyActions</span></span>  <br/> |<span data-ttu-id="c00dd-123">Essas funções demonstram como analisar uma propriedade PT_ACTIONS para fins de cópia para outra propriedade.</span><span class="sxs-lookup"><span data-stu-id="c00dd-123">These functions demonstrate how to parse a PT_ACTIONS property for the purposes of copying to another property.</span></span>  <br/> |
+|<span data-ttu-id="1eac9-121">ImportProcs.cpp</span><span class="sxs-lookup"><span data-stu-id="1eac9-121">ImportProcs.cpp</span></span>  <br/> |<span data-ttu-id="1eac9-122">PropCopyMore, HrCopyActions</span><span class="sxs-lookup"><span data-stu-id="1eac9-122">PropCopyMore, HrCopyActions</span></span>  <br/> |<span data-ttu-id="1eac9-123">Essas funções demonstram como analisar uma propriedade PT_ACTIONS para fins de cópia para outra propriedade.</span><span class="sxs-lookup"><span data-stu-id="1eac9-123">These functions demonstrate how to parse a PT_ACTIONS property for the purposes of copying to another property.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="c00dd-124">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="c00dd-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1eac9-124">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="1eac9-124">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c00dd-125">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="c00dd-125">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="1eac9-125">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="1eac9-125">Protocol specifications</span></span>
 
-<span data-ttu-id="c00dd-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c00dd-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1eac9-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1eac9-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c00dd-127">Fornece referências às especificações relacionadas do protocolo do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="c00dd-127">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="1eac9-127">Fornece referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="1eac9-127">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c00dd-128">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c00dd-128">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1eac9-128">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1eac9-128">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c00dd-129">Manipula mensagens de email de entrada em um servidor.</span><span class="sxs-lookup"><span data-stu-id="c00dd-129">Manipulates incoming email messages on a server.</span></span>
+> <span data-ttu-id="1eac9-129">Manipula mensagens de email de entrada em um servidor.</span><span class="sxs-lookup"><span data-stu-id="1eac9-129">Manipulates incoming email messages on a server.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c00dd-130">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="c00dd-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1eac9-130">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="1eac9-130">Header files</span></span>
 
-<span data-ttu-id="c00dd-131">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="c00dd-131">Mapidefs.h</span></span>
+<span data-ttu-id="1eac9-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1eac9-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c00dd-132">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="c00dd-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="1eac9-132">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="1eac9-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="c00dd-133">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="c00dd-133">Mapitags.h</span></span>
+<span data-ttu-id="1eac9-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1eac9-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="c00dd-134">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="c00dd-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="1eac9-134">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="1eac9-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c00dd-135">Confira também</span><span class="sxs-lookup"><span data-stu-id="c00dd-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1eac9-135">Confira também</span><span class="sxs-lookup"><span data-stu-id="1eac9-135">See also</span></span>
 
 
 
-[<span data-ttu-id="c00dd-136">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="c00dd-136">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1eac9-136">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="1eac9-136">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c00dd-137">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="c00dd-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1eac9-137">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="1eac9-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c00dd-138">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="c00dd-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1eac9-138">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="1eac9-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c00dd-139">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="c00dd-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1eac9-139">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="1eac9-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

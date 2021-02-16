@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317651"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="16e67-103">Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG</span><span class="sxs-lookup"><span data-stu-id="16e67-103">Parse a stream from a binary property to read the TZREG structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="275e0-103">Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG</span><span class="sxs-lookup"><span data-stu-id="275e0-103">Parse a stream from a binary property to read the TZREG structure</span></span>
 
-<span data-ttu-id="16e67-104">Este tópico mostra como ler a estrutura [TZREG](tzreg.md) do formato persistente armazenado na propriedade binária [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="16e67-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="275e0-104">Este tópico mostra como ler a estrutura [TZREG](tzreg.md) do formato persistente armazenado na propriedade binária [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="275e0-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="16e67-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="16e67-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="275e0-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="275e0-105">See also</span></span>
 
-- [<span data-ttu-id="16e67-106">Ler propriedades de fuso horário de um compromisso</span><span class="sxs-lookup"><span data-stu-id="16e67-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="275e0-106">Ler propriedades de fuso horário de um compromisso</span><span class="sxs-lookup"><span data-stu-id="275e0-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 
