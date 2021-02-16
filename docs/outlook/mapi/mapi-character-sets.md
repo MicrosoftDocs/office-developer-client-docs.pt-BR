@@ -21,27 +21,27 @@ ms.locfileid: "33417550"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os aplicativos cliente compatíveis com MAPI e provedores de serviços podem usar caracteres ANSI (byte único) ou caracteres Unicode (byte duplo). Não há suporte para conjuntos de caracteres OEM. Uma cadeia de caracteres OEM passada para um método ou função MAPI causará falha no método ou na função. Os aplicativos cliente que funcionam com nomes de fileno conjunto de caracteres OEM devem ser cuidadoso para convertê-los em ANSI antes de passá-los para um método ou função MAPI.
+Aplicativos cliente e provedores de serviços compatíveis com MAPI podem usar caracteres ANSI (byte único) ou caracteres Unicode (byte duplo). Não há suporte para conjuntos de caracteres OEM. Uma cadeia de caracteres OEM passada para um método ou função MAPI causará falha nesse método ou função. Os aplicativos cliente que trabalham com nomes de arquivo no conjunto de caracteres OEM devem ter cuidado para convertê-los em ANSI antes de passá-los para um método ou função MAPI.
   
-O suporte ao conjunto de caracteres Unicode é opcional, tanto para clientes quanto para provedores de serviços. Todos os provedores de serviços devem gravar seu código para que eles possam compilar independentemente de terem ou não suporte Unicode. Os clientes são compilados condicionalmente, dependendo do nível de suporte, mas os provedores de serviços não. Eles não devem ter que ser recompilados quando o conjunto de caracteres é alterado. Nada no código do provedor de serviços deve ser condicional. 
+O suporte ao conjunto de caracteres Unicode é opcional, tanto para clientes quanto para provedores de serviços. Todos os provedores de serviços devem escrever seu código para que possam compilar independentemente de eles suportarem ou não Unicode. Os clientes compilam condicionalmente, dependendo do nível de suporte, mas os provedores de serviços não. Eles não devem ter que ser recompilados quando o conjunto de caracteres muda. Nada no código do provedor de serviços deve ser condicional. 
   
-Quando clientes ou provedores de serviço que oferecem suporte a Unicode fazem uma chamada de método que inclui cadeias de caracteres como parâmetros de entrada ou saída, eles definem o sinalizador MAPI_UNICODE. A definição desse sinalizador indica a implementação de que todas as cadeias de caracteres de entrada são cadeias de caracteres Unicode. Na saída, a definição desse sinalizador solicita que todas as cadeias de caracteres passadas da implementação devem ser cadeias de caracteres Unicode, se possível. Implementadores de métodos que dão suporte a Unicode serão compatíveis com a solicitação; os implementadores de métodos que não oferecem suporte a Unicode não são compatíveis. As propriedades de cadeia de caracteres que não estão no formato Unicode são do tipo PT_STRING8.
+Quando clientes ou provedores de serviços que suportam Unicode fazem uma chamada de método que inclui cadeias de caracteres como parâmetros de entrada ou saída, eles configuram o sinalizador MAPI_UNICODE caracteres. Definir esse sinalizador indica à implementação que todas as cadeias de caracteres de entrada são cadeias de caracteres Unicode. Na saída, a definição desse sinalizador solicita que todas as cadeias de caracteres passadas da implementação sejam cadeias de caracteres Unicode, se possível. Implementadores de método que suportam Unicode atenderão à solicitação; implementadores de método que não oferecem suporte a Unicode não estarão em conformidade. Propriedades de cadeia de caracteres que não estão no formato Unicode são do tipo PT_STRING8.
   
-MAPI define a constante **fMapiUnicode** no arquivo de cabeçalho MAPIDEFS. H para representar o conjunto de caracteres padrão. Se um cliente ou provedor de serviços oferecer suporte a Unicode, **fMapiUnicode** é definido como MAPI_UNICODE. Clientes e provedores de serviço que não dão suporte a Unicode Set **fMapiUnicode** como zero. 
+MAPI define a **constante fMapiUnicode** no arquivo de header MAPIDEFS. H para representar o conjunto de caracteres padrão. Se um cliente ou provedor de serviços suportar Unicode, **fMapiUnicode** será definido como MAPI_UNICODE. Clientes e provedores de serviços que não suportam o conjunto **de unicode fMapiUnicode** como zero. 
   
-Os provedores de serviços que não dão suporte ao Unicode devem:
+Os provedores de serviços que não suportam Unicode devem:
   
-- Recusar a execução de conversões entre conjuntos de caracteres.
+- Recusa-se a executar conversões entre conjuntos de caracteres.
     
 - Nunca passe o sinalizador MAPI_UNICODE em chamadas de método.
     
-- Retornar MAPI_E_BAD_CHARWIDTH quando o sinalizador MAPI_UNICODE for passado.
+- Retornar MAPI_E_BAD_CHARWIDTH quando o MAPI_UNICODE de dados for passado.
     
 - Declare explicitamente as propriedades da cadeia de caracteres ANSI. 
     
-Os provedores de serviços também podem retornar MAPI_E_BAD_CHARWIDTH quando só dão suporte a Unicode e clientes não passam o sinalizador MAPI_UNICODE. 
+Os provedores de serviços também podem retornar MAPI_E_BAD_CHARWIDTH quando só suportam Unicode e os clientes não passam o sinalizador MAPI_UNICODE dados. 
   
- A versão atual do MAPI oferece suporte a Unicode nos seguintes métodos: 
+ A versão atual do MAPI dá suporte a Unicode nos seguintes métodos: 
   
 [IAddrBook::Address](iaddrbook-address.md)
   
@@ -51,8 +51,8 @@ Os provedores de serviços também podem retornar MAPI_E_BAD_CHARWIDTH quando s�
   
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
-[IMAPIProp:: GetLastError](imapiprop-getlasterror.md) (Apenas implementação do**IAddrBook** ) 
+[IMAPIProp::GetLastError](imapiprop-getlasterror.md) (**somente implementação de IAddrBook)** 
   
-Para esses métodos, os chamadores podem esperar que qualquer cadeia de caracteres retornada seja cadeia de caracteres Unicode. As cadeias de caracteres retornadas de implementações MAPI de qualquer outro método serão cadeias de caracteres ANSI.
+Para esses métodos, os chamadores podem esperar que todas as cadeias de caracteres retornadas sejam cadeias de caracteres Unicode. Cadeias de caracteres retornadas de implementações MAPI de qualquer outro método serão cadeias de caracteres ANSI.
   
 

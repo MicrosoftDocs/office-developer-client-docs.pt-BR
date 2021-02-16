@@ -23,13 +23,13 @@ ms.locfileid: "33420371"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada para processar teclas de aceleração em uma caixa de diálogo do catálogo de endereços sem restrições. 
+Define uma função de retorno de chamada para processar teclas aceleradoras em uma caixa de diálogo de agendamento sem modo. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Função definida implementada por:  <br/> |MAPI  <br/> |
-|Função definida chamada por:  <br/> |Aplicativos cliente  <br/> |
+|Função definida chamada por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)( 
@@ -42,22 +42,22 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
  _ulUIParam_
   
-> no Um valor específico de implementação usado para passar informações da interface do usuário para uma função. Em aplicativos executados no Microsoft Windows, _ulUIParam_ é o identificador da janela pai de uma caixa de diálogo e é do tipo HWND, CAST para um **ULONG_PTR**. Um valor igual A zero indica que não há janela pai. 
+> [in] Um valor específico de implementação usado para passar informações da interface do usuário para uma função. Em aplicativos em execução no Microsoft Windows,  _ulUIParam_ é o identificador da janela pai de uma caixa de diálogo e é do tipo HWND, cast em um **ULONG_PTR**. Um valor zero indica que não há janela pai. 
     
  _lpvmsg_
   
-> no Ponteiro para uma mensagem do Windows.
+> [in] Ponteiro para uma mensagem do Windows.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Uma função com o protótipo **ACCELERATEABSDI** retorna true se ele lida com a mensagem. 
+Uma função com o **protótipo ACCELERATEABSDI** retornará VERDADEIRO se manipular a mensagem. 
   
 ## <a name="remarks"></a>Comentários
 
-Uma função com base no protótipo **ACCELERATEABSDI** é usada apenas com uma caixa de diálogo sem janela restrita, ou seja, somente se o aplicativo cliente tiver definido o sinalizador DIALOG_SDI no membro _Parâmetroulflags_ da estrutura [ADRPARM](adrparm.md) . 
+Uma função baseada no protótipo **ACCELERATEABSDI** é usada apenas com uma caixa de diálogo sem modo, ou seja, somente se o aplicativo cliente tiver definido o sinalizador DIALOG_SDI no _membro ulFlags_ da estrutura [ADRPARM.](adrparm.md) 
   
-Uma caixa de diálogo sem janela restrita compartilha o loop de mensagem do Windows do aplicativo cliente, em vez de ter seu próprio loop. O aplicativo, que controla o loop de mensagem, não sabe quais teclas de aceleração a caixa de diálogo usa, portanto, ele chama uma função baseada em **ACCELERATEABSDI** para testar e agir em teclas de aceleração, como CTRL + P para impressão. 
+Uma caixa de diálogo sem janelas sem janelas compartilha o loop de mensagem do Windows do aplicativo cliente, em vez de ter seu próprio loop. O aplicativo, que controla o loop de mensagem, não sabe quais teclas aceleradoras a caixa de diálogo usa, então chama uma função baseada em **ACCELERATEABSDI** para testar e agir em teclas aceleradoras, como CTRL+P para impressão. 
   
-O loop de mensagens de um cliente chama a função baseada em **ACCELERATEABSDI** quando o cliente invoca uma caixa de diálogo do catálogo de endereços sem restrições com o método de [endereço IAddrBook::](iaddrbook-address.md) . Essa chamada é terminada quando MAPI chama uma função com base no protótipo de função [DISMISSMODELESS](dismissmodeless.md) . 
+O loop de mensagens de um cliente chama a função baseada **em ACCELERATEABSDI** quando o cliente invoca uma caixa de diálogo de agenda sem modo com o método [IAddrBook::Address.](iaddrbook-address.md) Essa chamada é encerrada quando MAPI chama uma função com base no protótipo [de função DISMISSMODELESS.](dismissmodeless.md) 
   
 

@@ -23,11 +23,11 @@ ms.locfileid: "33419314"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLGROUPBOX](dtblgroupbox.md) para descrever um controle de caixa de grupo e um rótulo de um comprimento especificado. 
+Cria uma estrutura nomeada que inclui uma [estrutura DTBLGROUPBOX](dtblgroupbox.md) para descrever um controle de caixa de grupo e um rótulo de um comprimento especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblGroupBox** permite definir um controle de caixa de grupo quando o comprimento do rótulo é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblGroupBox** permite definir um controle de caixa de grupo quando o tamanho do rótulo for conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblGroupBox** como um ponteiro de estrutura **DTBLGROUPBOX** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblGroupBox** como um ponteiro de **estrutura DTBLGROUPBOX,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

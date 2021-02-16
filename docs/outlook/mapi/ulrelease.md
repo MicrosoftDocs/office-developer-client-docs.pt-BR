@@ -25,11 +25,11 @@ ms.locfileid: "33415842"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece uma maneira alternativa para invocar o método OLE **IUnknown:: Release**. 
+Fornece uma maneira alternativa de invocar o método OLE **IUnknown::Release**. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -41,28 +41,28 @@ ULONG UlRelease(
 
 ## <a name="parameters"></a>Parâmetros
 
- _punk_
+ _2013_
   
-> no Ponteiro para uma interface derivada da interface **IUnknown** , em outras palavras, em qualquer interface MAPI. 
+> [in] Ponteiro para uma interface derivada da interface **IUnknown,** ou seja, qualquer interface MAPI. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impedia a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
 A contagem de referência é o número de ponteiros existentes para o objeto a ser liberado. 
   
-Se o parâmetro _punk_ for NULL, a função retornará imediatamente sem chamar **IUnknown:: Release**
+Se o  _parâmetro de_ grupo for NULL, a função retornará imediatamente sem **chamar IUnknown::Release**
   
- **UlRelease** retorna o valor retornado pelo método **IUnknown:: Release** , que pode ser igual à contagem de referência do objeto a ser liberado. 
+ **UlRelease retorna** o valor retornado pelo método **IUnknown::Release,** que pode ser igual à contagem de referência para o objeto a ser liberado. 
   
-Para obter mais informações sobre o **IUnknown:: Release**, consulte [Implementing the IUnknown interface](implementing-the-iunknown-interface.md). 
+Para obter mais informações **sobre IUnknown::Release**, consulte [Implementando a interface IUnknown](implementing-the-iunknown-interface.md). 
   
 

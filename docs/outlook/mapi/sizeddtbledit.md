@@ -27,7 +27,7 @@ Cria uma estrutura nomeada que inclui uma estrutura [DTBLEDIT](dtbledit.md) para
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblEdit** permite definir um controle de edição quando o número de caracteres habilitados é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblEdit** permite definir um controle de edição quando o número de caracteres habilitados for conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblEdit** como um ponteiro de estrutura **DTBLEDIT** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblEdit** como um ponteiro de estrutura **DTBLEDIT,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

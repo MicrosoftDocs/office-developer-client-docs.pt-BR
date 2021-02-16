@@ -25,22 +25,22 @@ ms.locfileid: "32359014"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se a entrada na tabela one-off pode ser selecionada. 
+Contém TRUE se a entrada na tabela única pode ser selecionada. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SELECTABLE  <br/> |
 |Identificador:  <br/> |0x3609  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Contêiner de catálogo de endereços  <br/> |
+|Área:  <br/> |Contêiner do livro de endereços  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada principalmente para formatação visual de uma tabela única. Os modelos podem ser agrupados criando uma entrada que indica o título do grupo. A definição dessa propriedade como FALSE para o título garante que o usuário possa selecionar apenas os modelos reais no grupo e não esta entrada de título. 
+Essa propriedade é usada principalmente para formatação visual de uma tabela única. Os modelos podem ser agrupados criando uma entrada que indica o título do grupo. Definir essa propriedade como FALSE para o título garante que o usuário pode selecionar apenas os modelos reais no grupo e não essa entrada de título. 
   
-Essa propriedade só se aplica a uma tabela única, e não a uma tabela de hierarquia de catálogo de endereços. 
+Essa propriedade se aplica somente a uma tabela única, não a uma tabela de hierarquia de um livro de endereços. 
   
-O MAPI permite que um provedor de catálogo de endereços agrupe itens visualmente por dois meios. Primeiro, determinadas linhas podem funcionar como títulos ao serem não-selecionadas. Segundo, os itens selecionáveis podem ser recuados em relação aos seus títulos usando a propriedade **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Essa propriedade é usada nesse agrupamento para indicar se este item pode ou não ser selecionado de uma lista para criar um endereço one-off. Por exemplo, se um cliente tiver vários modelos para a criação de endereços de fax, ele poderá exibi-los da seguinte maneira: 
+MAPI allows an address book provider to group items visually by two means. Primeiro, determinadas linhas podem funcionar como títulos por serem inselecionáveis. Segundo, os itens selecionáveis podem ser recuados em relação a **seus títulos** usando a propriedade PR_DEPTH ([PidTagDepth](pidtagdepth-canonical-property.md)). Essa propriedade é usada nesse grupo para indicar se esse item pode ou não ser selecionado em uma lista para criar um endereço único. Por exemplo, se um cliente tiver vários modelos para construir endereços de fax, ele poderá exibi-los da seguinte forma: 
   
 Modelos de FAX (profundidade 0, não selecionável)
   
@@ -50,23 +50,23 @@ Modelos de FAX (profundidade 0, não selecionável)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os modelos de catálogo de endereços.
+> Especifica as propriedades e operações que são permitidas para modelos de livro de endereços.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -83,7 +83,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

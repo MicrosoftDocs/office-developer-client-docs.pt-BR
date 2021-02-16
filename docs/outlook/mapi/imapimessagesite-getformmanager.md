@@ -25,7 +25,7 @@ ms.locfileid: "33419454"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma interface de Gerenciador de formulários, que um servidor de formulário pode usar para abrir outro servidor de formulários.
+Retorna uma interface do gerenciador de formulário, que um servidor de formulário pode usar para abrir outro servidor de formulário.
   
 ```cpp
 HRESULT GetFormManager(
@@ -37,17 +37,17 @@ HRESULT GetFormManager(
 
  _ppFormMgr_
   
-> bota Um ponteiro para um ponteiro para a interface do Gerenciador de formulários retornado.
+> [out] Um ponteiro para um ponteiro para a interface do gerenciador de formulário retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -55,7 +55,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: getFormmanager  <br/> |MFCMAPI usa o método **IMAPIMessageSite::** getformmanager para chamar [MAPIOpenFormMgr](mapiopenformmgr.md) e retornar os resultados da chamada.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI usa o método **IMAPIMessageSite::GetFormManager** para chamar [MAPIOpenFormMgr](mapiopenformmgr.md) e retornar os resultados dessa chamada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

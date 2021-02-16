@@ -23,18 +23,18 @@ Retorna um valor de tempo com base em partes especificadas.
   
 ## <a name="syntax"></a>Sintaxe
 
- **TimeFromParts** (*Hora*, *minuto*, *segundo*) 
+ **TimeFromParts** (*Hora*, *Minuto*, *Segundo*) 
   
-A função **TimeFromParts** contém os seguintes argumentos. 
+A **função TimeFromParts** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Hour*  <br/> |Expressão de inteiro especificando horas.  <br/> |
-| *Minute*  <br/> |Expressão de inteiro especificando minutos.  <br/> |
-| *Second*  <br/> |Expressão de inteiro especificando segundos.  <br/> |
+| *Hour*  <br/> |Expressão inteira especificando horas.  <br/> |
+| *Minute*  <br/> |Expressão inteira especificando minutos.  <br/> |
+| *Second*  <br/> |Expressão inteira especificando segundos.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
- **TimeFromParts** retorna um valor de hora totalmente inicializado. Se os argumentos forem inválidos, um erro será gerado. Se qualquer um dos parâmetros for NULL, NULL será retornado. 
+ **TimeFromParts** retorna um valor de tempo totalmente inicializado. Se os argumentos são inválidos, um erro é gerado. Se qualquer um dos parâmetros for nulo, será retornado null. 
   
 

@@ -29,7 +29,7 @@ Define ou altera o valor de uma única propriedade em uma interface de proprieda
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -42,13 +42,13 @@ HrSetOneProp(
 
 ## <a name="parameters"></a>Parâmetros
 
- _PMP_
+ _pmp_
   
-> no Ponteiro para uma interface [IMAPIProp](imapipropiunknown.md) na qual o valor da propriedade deve ser definido ou alterado. 
+> [in] Ponteiro para uma interface [IMAPIProp](imapipropiunknown.md) na qual o valor da propriedade deve ser definido ou alterado. 
     
- _pProp_
+ _pprop_
   
-> no Ponteiro para a estrutura [SPropValue](spropvalue.md) que define o valor a ser definido na propriedade _PMP_ . 
+> [in] Ponteiro para a [estrutura SPropValue](spropvalue.md) definindo o valor a ser definido na _propriedade pmp._ 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -56,8 +56,8 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Diferentemente do método [IMAPIProp::](imapiprop-setprops.md) SetProps, a função **HrSetOneProp** nunca retorna quaisquer avisos. Como ela define apenas uma propriedade, ela simplesmente sucede ou falha. Para definir ou alterar várias propriedades, **** SetProps é mais rápido. 
+Ao contrário [do método IMAPIProp::SetProps,](imapiprop-setprops.md) **a função HrSetOneProp** nunca retorna nenhum aviso. Como define apenas uma propriedade, ela simplesmente é bem-sucedida ou falha. Para definir ou alterar várias propriedades, **SetProps** é mais rápido. 
   
-Você pode recuperar uma única propriedade com a função [HrGetOneProp](hrgetoneprop.md) . 
+Você pode recuperar uma única propriedade com a [função HrGetOneProp.](hrgetoneprop.md) 
   
 

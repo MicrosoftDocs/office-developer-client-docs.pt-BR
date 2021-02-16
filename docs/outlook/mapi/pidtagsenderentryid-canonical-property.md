@@ -36,21 +36,21 @@ Contém o identificador de entrada do remetente da mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço para o remetente da mensagem. Ele deve ser definido pelo provedor de transporte de saída, que nunca deve propagar nenhum valor existente anteriormente.
+Essa propriedade é uma das propriedades de endereço do remetente da mensagem. Ele deve ser definido pelo provedor de transporte de saída, que nunca deve propagar valores existentes anteriormente.
   
-Se nenhum provedor de transporte tiver fornecido Propriedades de endereço de remetente, o spooler MAPI tentará preenchê-las chamando o método [IMAPISession:: QueryIdentity](imapisession-queryidentity.md) para um identificador de entrada. Se nenhum identificador de entrada tiver sido fornecido, o spooler MAPI um identificador correspondente à cadeia de caracteres "Unknown" nessa propriedade. 
+Se nenhum provedor de transporte tiver fornecido qualquer propriedade de endereço do remetente, o spooler MAPI tentará preenchê-las chamando o método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para um identificador de entrada. Se nenhum identificador de entrada tiver sido fornecido, o spooler MAPI um identificador correspondente à cadeia de caracteres "Unknown" nesta propriedade. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
@@ -58,27 +58,27 @@ Se nenhum provedor de transporte tiver fornecido Propriedades de endereço de re
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para objetos post.
+> Especifica as propriedades e operações que são permitidas para postagem de objetos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -90,7 +90,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

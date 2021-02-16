@@ -19,7 +19,7 @@ ms.locfileid: "33417627"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura define os Estados da máquina de estado de replicação.
+Essa estrutura define os estados para a máquina de estado de replicação.
   
 ## <a name="quick-info"></a>Informações rápidas
 

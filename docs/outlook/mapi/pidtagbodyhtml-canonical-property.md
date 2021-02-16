@@ -25,7 +25,7 @@ ms.locfileid: "32359042"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a versão do HTML (Hypertext Markup Language) do texto da mensagem. 
+Contém a versão HTML (Hypertext Markup Language) do texto da mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém a versão do HTML (Hypertext Markup Language) do texto da mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm o mesmo texto de mensagem que o **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mas em HTML. 
+Essas propriedades contêm o mesmo texto da **mensagem PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mas em HTML. 
   
-Um repositório de mensagens que oferece suporte a HTML indica isso Configurando o sinalizador **STORE_HTML_OK** em seu **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Um repositório de mensagens que oferece suporte a HTML indica isso definindo o **sinalizador STORE_HTML_OK** em seu **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Observação** O **STORE_HTML_OK** não está definido nas versões do mapidefs. h incluídas no Microsoft ® Exchange 2000 Server e versões anteriores. Se **STORE_HTML_OK** estiver indefinido, use o valor 0x00010000 em vez disso. 
+ **Observe** **STORE_HTML_OK** não está definido nas versões de Mapidefs.h incluídas no Microsoft® Exchange 2000 Server e versões anteriores. Se **STORE_HTML_OK** for indefinido, use o valor 0x00010000 em vez disso. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

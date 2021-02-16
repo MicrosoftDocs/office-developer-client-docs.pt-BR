@@ -1,5 +1,5 @@
 ---
-title: Receber tabelas de pastas
+title: Tabelas de Pastas de Recebimento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417347"
 ---
-# <a name="receive-folder-tables"></a>Receber tabelas de pastas
+# <a name="receive-folder-tables"></a>Tabelas de Pastas de Recebimento
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de pastas de recebimento contém informações para todas as pastas designadas como receber pastas para um repositório de mensagens. Uma pasta de recebimento é uma pasta onde as mensagens de entrada de uma determinada classe de mensagem são colocadas. Os provedores de repositório de mensagens implementam tabelas de pastas de recebimento e aplicativos clientes as usam fazendo uma chamada para o método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
+Uma tabela de pastas de recebimento contém informações para todas as pastas designadas como pastas de recebimento para um armazenamento de mensagens. Uma pasta de recebimento é uma pasta onde as mensagens de entrada de uma classe de mensagem específica são colocadas. Os provedores de repositório de mensagens implementam tabelas de pastas de recebimento e os aplicativos cliente os usam fazendo uma chamada para o método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-As propriedades a seguir compõem o conjunto de colunas obrigatórios em receber tabelas de pastas:
+As propriedades a seguir compom o conjunto de colunas necessário nas tabelas da pasta de recebimento:
   
  **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
   

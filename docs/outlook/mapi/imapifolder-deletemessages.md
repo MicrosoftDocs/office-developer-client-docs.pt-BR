@@ -40,27 +40,27 @@ HRESULT DeleteMessages(
 
  _lpMsgList_
   
-> no Um ponteiro para uma [](entrylist.md) estrutura ENTRYLIST que contém o número de mensagens a serem excluídas e uma matriz de estruturas [EntryID](entryid.md) que identificam as mensagens. 
+> [in] Um ponteiro para uma [estrutura ENTRYLIST](entrylist.md) que contém o número de mensagens a excluir e uma matriz de estruturas [ENTRYID](entryid.md) que identificam as mensagens. 
     
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um alça para a janela pai do indicador de progresso. O _parâmetro ulUIParam é_ ignorado, a menos que o MESSAGE_DIALOG padrão seja definido no parâmetro _ulFlags._ 
     
  _lpProgress_
   
-> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O _parâmetro lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG seja definido no _parâmetro ulFlags._ 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como as mensagens são excluídas. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como as mensagens são excluídas. Os sinalizadores a seguir podem ser definidos:
     
 DELETE_HARD_DELETE
   
-> Remove permanentemente todas as mensagens, incluindo as excluídas de forma reversível.
+> Remove permanentemente todas as mensagens, incluindo as excluídas de forma suave.
     
 MESSAGE_DIALOG 
   
-> Exibe um indicador de progresso à medida que a operação prossegue.
+> Exibe um indicador de progresso à medida que a operação prosse segue.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -70,29 +70,29 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada teve êxito, mas nem todas as mensagens foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas nem todas as mensagens foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder::D eletemessages** exclui mensagens de uma pasta. As mensagens que não existem, que foram movidas em outro lugar, que estão abertas com permissão de leitura/gravação ou não podem ser excluídas. 
+O **método IMAPIFolder::D eleteMessages** exclui mensagens de uma pasta. Mensagens que não existem, que foram movidas para outro lugar, abertas com permissão de leitura/gravação ou que estão enviadas atualmente não podem ser excluídas. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando a operação de exclusão envolve mais de uma mensagem, execute a operação o mais completo possível para cada pasta, mesmo que uma ou mais das mensagens não possam ser excluídas. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do seu controle, como a falta de memória, ficando sem espaço em disco ou corrupção no repositório de mensagens.
+Quando a operação de exclusão envolver mais de uma mensagem, execute a operação o mais completamente possível para cada pasta, mesmo se uma ou mais das mensagens não puderem ser excluídas. Não pare a operação prematuramente, a menos que ocorra uma falha que esteja além do controle, como falta de memória, falta de espaço em disco ou corrupção no armazenamento de mensagens.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Espere estes valores de retorno sob as condições a seguir.
+Espere esses valores de retorno sob as seguintes condições.
   
 |**Condition**|**Valor de retorno**|
 |:-----|:-----|
-|O **DeleteMessages** excluiu com êxito todas as mensagens.  <br/> |S_OK  <br/> |
-|O **DeleteMessages** não pôde excluir com êxito todas as mensagens e subpastas.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**DeleteMessages** não pôde ser concluída.  <br/> |Qualquer valor de erro, exceto MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** excluiu todas as mensagens com êxito.  <br/> |S_OK  <br/> |
+|**DeleteMessages** não pôde excluir todas as mensagens e subpastas com êxito.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** não pôde ser concluído.  <br/> |Qualquer valor de erro, exceto MAPI_E_NOT_FOUND  <br/> |
    
-Quando o **DeleteMessages** não puder ser concluído, não presuma que nenhum trabalho foi realizado. O **DeleteMessages** pode ter sido capaz de excluir uma ou mais mensagens antes de encontrar o erro. 
+Quando **DeleteMessages** não puder ser concluído, não suponha que nenhum trabalho foi feito. **DeleteMessages** pode ter sido capaz de excluir uma ou mais das mensagens antes de encontrar o erro. 
   
- **DeleteMessages** retorna MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do repositório de mensagens. 
+ **DeleteMessages** retorna MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, dependendo da implementação do armazenamento de mensagens. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -100,7 +100,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMAPIFolder::D eletemessages** para excluir as mensagens especificadas.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o **método IMAPIFolder::D eleteMessages** para excluir as mensagens especificadas.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -22,7 +22,7 @@ Retorna o caractere Unicode de um número.
   
 ## <a name="syntax"></a>Sintaxe
 
-UNICHAR (* * *número* * *) 
+UNICHAR (** *número* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -36,7 +36,7 @@ A cadeia de caracteres resultante é um caractere Unicode (dois caracteres).
   
 ## <a name="example"></a>Exemplo
 
-UNICHAR (65) 
+UNICHAR(65) 
   
 Retorna A (letra latina maiúscula A) 
   

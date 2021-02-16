@@ -21,7 +21,7 @@ ms.locfileid: "33417704"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se o modo cache do Exchange para a pasta **favoritos da pasta pública** está habilitado e se isso é imposto pela política. 
+Indica se o Modo Cache do Exchange para a **pasta Favoritos** da Pasta Pública está habilitado e se isso é imposto pela política. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -40,7 +40,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
 
  _pfPolicy_
   
-> bota **true** se o valor de retorno é imposto por política, **false** se não for. 
+> [out] **true** se o valor de retorno for imposto pela política, **false** se não for. 
     
 ## <a name="return-values"></a>Valor de retorno
 
@@ -48,9 +48,9 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
   
 - O cache está habilitado.
     
- **false**
+ **falso**
   
-- O armazenamento em cache está desabilitado.
+- O cache está desabilitado.
     
 ## <a name="see-also"></a>Confira também
 

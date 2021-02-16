@@ -29,7 +29,7 @@ Recupera o valor de uma única propriedade de uma interface de propriedade, ou s
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,17 +43,17 @@ HrGetOneProp(
 
 ## <a name="parameters"></a>Parâmetros
 
- _PMP_
+ _pmp_
   
-> no Ponteiro para a interface [IMAPIProp](imapipropiunknown.md) da qual o valor da propriedade deve ser recuperado. 
+> [in] Ponteiro para a interface [IMAPIProp](imapipropiunknown.md) da qual o valor da propriedade deve ser recuperado. 
     
  _ulPropTag_
   
-> no Marca de propriedade da propriedade a ser recuperada. 
+> [in] Marca de propriedade da propriedade a ser recuperada. 
     
  _ppprop_
   
-> bota Ponteiro para um ponteiro para a estrutura [SPropValue](spropvalue.md) retornada que define o valor da propriedade recuperado. 
+> [out] Ponteiro para um ponteiro para a estrutura [SPropValue](spropvalue.md) retornada definindo o valor da propriedade recuperada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -63,9 +63,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentários
 
-Diferentemente do método [IMAPIProp::](imapiprop-getprops.md) GetProps, a função **HrGetOneProp** nunca retorna qualquer aviso. Como ele recupera apenas uma propriedade, ele simplesmente Obtém ou falha. Para recuperar várias propriedades, getProps é mais rápido. **** 
+Ao contrário [do método IMAPIProp::GetProps,](imapiprop-getprops.md) **a função HrGetOneProp** nunca retorna nenhum aviso. Como recupera apenas uma propriedade, ela simplesmente é bem-sucedida ou falha. Para recuperar várias propriedades, **GetProps** é mais rápido. 
   
-Você pode definir ou alterar uma única propriedade com a função [HrSetOneProp](hrsetoneprop.md) . 
+Você pode definir ou alterar uma única propriedade com a [função HrSetOneProp.](hrsetoneprop.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -73,7 +73,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI usa o método **HrGetOneProp** para recuperar o tipo de um objeto.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI usa o **método HrGetOneProp** para recuperar o tipo de um objeto.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

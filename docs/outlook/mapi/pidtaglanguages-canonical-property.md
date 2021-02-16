@@ -25,7 +25,7 @@ ms.locfileid: "33417837"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista ASCII dos idiomas que são incorporados em uma mensagem. 
+Contém uma lista ASCII dos idiomas incorporados em uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -40,13 +40,13 @@ Essas propriedades contêm uma sequência de códigos de país/região de dois c
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

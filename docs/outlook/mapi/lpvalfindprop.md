@@ -21,11 +21,11 @@ ms.locfileid: "33419636"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Procura por uma propriedade especificada em um conjunto de propriedades.
+Pesquisa uma propriedade especificada em um conjunto de propriedades.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços.  <br/> |
    
@@ -41,23 +41,23 @@ LPSPropValue LpValFindProp(
 
  _ulPropTag_
   
-> no A marca da propriedade a ser pesquisada no conjunto de propriedades, indicado pelo parâmetro _lpPropArray_ . 
+> [in] Marca para a propriedade a ser pesquisada no conjunto de propriedades, indicado pelo parâmetro _lpPropArray._ 
     
  _cValues_
   
-> no Contagem de propriedades no conjunto de propriedades, indicada pelo parâmetro _lpPropArray_ . 
+> [in] Contagem de propriedades no conjunto de propriedades, indicada pelo parâmetro _lpPropArray._ 
     
  _lpPropArray_
   
-> no Matriz de estruturas **SPropValue** que define as propriedades a serem pesquisadas. 
+> [in] Matriz de **estruturas SPropValue** que define as propriedades a serem pesquisadas. 
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **LpValFindProp** retorna uma estrutura **SPropValue** que define a propriedade que corresponde à marca de propriedade de entrada ou NULL se não houver correspondência. 
+A **função LpValFindProp** retorna uma estrutura **SPropValue** que define a propriedade que corresponde à marca de propriedade de entrada ou NULL se não houver nenhuma combinação. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **LpValFindProp** é idêntica a **PpropFindProp**.
+A **função LpValFindProp** é idêntica a **PpropFindProp**.
   
 ## <a name="see-also"></a>Confira também
 

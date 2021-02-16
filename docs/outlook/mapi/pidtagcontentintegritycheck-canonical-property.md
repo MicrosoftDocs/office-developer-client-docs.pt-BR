@@ -25,7 +25,7 @@ ms.locfileid: "33415723"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de verificação de integridade de conteúdo ASN. 1 que permite que um remetente de mensagem proteja o conteúdo da mensagem contra divulgação para destinatários não autorizados.
+Contém um valor de verificação de integridade de conteúdo ASN.1 que permite que um remetente de mensagem proteja o conteúdo da mensagem contra divulgação para destinatários não autorizados.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém um valor de verificação de integridade de conteúdo ASN. 1 que permite
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade fornece o conteúdo de mensagens não recusadas. Em conjunto com o **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), ele garante que o conteúdo de uma mensagem chega ao seu destino inalterado.
+Essa propriedade fornece não repúdio do conteúdo da mensagem. Em conjunto com **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), garante que o conteúdo de uma mensagem chegue ao seu destino inalterado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

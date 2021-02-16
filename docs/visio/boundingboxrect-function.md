@@ -25,7 +25,7 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-BOUNDINGBOXRECT (* * *índice* * *) 
+BOUNDINGBOXRECT(** *Index* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -39,15 +39,15 @@ BOUNDINGBOXRECT (* * *índice* * *)
   
 ## <a name="remarks"></a>Comentários
 
- *Index* pode ser um dos valores a seguir. 
+ *Index*  pode ser um dos seguintes valores. 
   
 |**Item**|**Valor**|
 |:-----|:-----|
-|Borda esquerda  <br/> |,0  <br/> |
-|Borda direita  <br/> |1  <br/> |
-|Borda superior  <br/> |duas  <br/> |
-|Borda inferior  <br/> |3D  <br/> |
+|Borda esquerda  <br/> |0  <br/> |
+|Borda direita  <br/> |1   <br/> |
+|Borda superior  <br/> |2   <br/> |
+|Borda inferior  <br/> |3   <br/> |
    
-Se a forma tiver um pai, o valor de retorno estará no sistema de coordenadas desse pai.
+Se a forma tiver um pai, o valor de retorno está no sistema de coordenadas desse pai.
   
 

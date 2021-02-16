@@ -20,7 +20,7 @@ ms.locfileid: "33415975"
 
 Uma função executa uma única tarefa bem definida. A maioria das funções assume vários argumentos como entrada. Embora o tipo e o número de argumentos dependam da função, todas as funções têm uma mesma sintaxe geral:
   
- **Função (** _argument1_, _argument2_,...  _argumenton_ [, argumento _argumento_ |  __ **])**
+ **FUNCTION(** _argument1_,  _argument2_, ...  _argumentN_ [, _argumentoA_  |    **])**
   
 |**Elemento de sintaxe**|**Descrição**|
 |:-----|:-----|
@@ -28,13 +28,13 @@ Uma função executa uma única tarefa bem definida. A maioria das funções ass
 | ,  <br/> | Os argumentos são separados por uma vírgula.  <br/> |
 | ...  <br/> | Usado somente para notação; não inclui uma função.  <br/> |
 | [ ]  <br/> | Argumento opcional. Usado somente para notação; não inclui uma função.  <br/> |
-| |  <br/> | Uma opção; Você pode incluir _argumentoum_ ou _argumento_. Usado somente para notação; não inclui uma função.  <br/> |
+| |  <br/> | Uma escolha; você pode incluir _argumentoA_ ou _argumento._ Usado somente para notação; não inclui uma função.  <br/> |
    
 Muitas funções utilizadas em fórmulas são semelhantes àquelas usadas em programas de planilha eletrônica: matemáticas, como SUM ou SQRT; trigonométricas, como SIN ou COS; ou lógicas, como IF ou NOT. Várias outras funções são exclusivas do Microsoft Office Visio, como GUARD, GRAVITA e RUNADDON.
   
 Para obter mais informações sobre funções específicas, consulte a Referência do ShapeSheet.
   
 > [!NOTE]
->  Determinadas funções aparecem em fórmulas geradas pelo Visio, mas não são mostradas na caixa de diálogo **Editar fórmula** ou descritas nesta referência porque são reservadas para uso interno e não devem ser usadas em outras fórmulas. Veja alguns exemplos: ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 e _SHAPEMIN. 
+>  Determinadas funções aparecem em fórmulas geradas pelo Visio, mas não são mostradas na caixa de diálogo Editar Fórmula ou descritas nesta referência porque são reservadas para uso interno e não devem ser usadas em outras fórmulas.  Veja alguns exemplos: ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 e _SHAPEMIN. 
   
 

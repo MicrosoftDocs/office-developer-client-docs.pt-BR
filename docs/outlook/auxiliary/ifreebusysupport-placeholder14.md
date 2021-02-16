@@ -31,7 +31,7 @@ HRESULT Placeholder14(
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre E_NOTIMPL, porque esse membro é um espaço reservado e não tem suporte.
+Sempre E_NOTIMPL, pois esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 

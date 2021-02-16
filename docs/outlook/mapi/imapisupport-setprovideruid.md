@@ -38,27 +38,27 @@ ULONG ulFlags
 
  _lpProviderID_
   
-> no Um ponteiro para a estrutura **MAPIUID** que identifica o catálogo de endereços ou o provedor de repositório de mensagens. 
+> [in] Um ponteiro para a estrutura **MAPIUID** que identifica o agendador de endereços ou o provedor de armazenamento de mensagens. 
     
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A estrutura **MAPIUID** foi registrada com êxito. 
+> A **estrutura MAPIUID** foi registrada com êxito. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: SetProviderUID** é implementado para o catálogo de endereços e os objetos de suporte do provedor de repositório de mensagens. Esses provedores chamam **SetProviderUID** para registrar um identificador exclusivo descrito na estrutura **MAPIUID** indicada por _lpProviderID_. Os provedores incluem esse identificador em todos os identificadores de entrada criados por eles. 
+O **método IMAPISupport::SetProviderUID** é implementado para objetos de suporte de provedor de armazenamento de endereços e de armazenamento de mensagens. Esses provedores chamam **SetProviderUID** para registrar um identificador exclusivo descrito na estrutura **MAPIUID** apontada por  _lpProviderID_. Os provedores incluem esse identificador em todos os identificadores de entrada que eles criam. 
   
-MAPI usa a estrutura **MAPIUID** quando ele envia mensagens de saída para o spooler MAPI e para determinar o provedor apropriado para lidar com solicitações de cliente. Por exemplo, quando um cliente chama o método [IMAPISession:: OpenEntry](imapisession-openentry.md) , o MAPI examina a parte **MAPIUID** do identificador de entrada, mapeia-o para o provedor que o aprovou para **SetProviderUID**e chama o **OpenEntry** do provedor . 
+MAPI uses the **MAPIUID** structure when it sends outbound messages to the MAPI spooler and to determine the appropriate provider for handling client requests. Por exemplo, quando um cliente chama o método [IMAPISession::OpenEntry,](imapisession-openentry.md) MAPI examina a parte **MAPIUID** do identificador de entrada, mapeia para o provedor que a passou para **SetProviderUID** e chama **OpenEntry** desse provedor. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame **SetProviderUID** no momento do logon para registrar sua estrutura do **MAPIUID** . MAPI permite que o catálogo de endereços e provedores de repositório de mensagens registrem vários identificadores. Quando você faz várias chamadas para o **SetProviderUID**, ela sempre adiciona a estrutura **MAPIUID** ao conjunto de estruturas **MAPIUID** do provedor, mesmo que o **MAPIUID** seja uma duplicata. **SetProviderUID** não pode remover um **MAPIUID**. 
+Chame **SetProviderUID no** momento do logon para registrar sua **estrutura MAPIUID.** MAPI allows address book and message store providers to register multiple identifiers. Quando você faz várias chamadas para **SetProviderUID**, ela sempre adiciona a estrutura **MAPIUID** ao conjunto de estruturas **MAPIUID** do provedor, mesmo se **o MAPIUID** for uma duplicata. **SetProviderUID** não pode remover um **MAPIUID**. 
   
 ## <a name="see-also"></a>Confira também
 

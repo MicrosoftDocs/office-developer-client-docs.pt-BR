@@ -25,7 +25,7 @@ ms.locfileid: "33425124"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera as informações de impressão atuais.
+Recupera informações de impressão atuais.
   
 ```cpp
 HRESULT GetPrintSetup(
@@ -38,15 +38,15 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 
  _ulFlags_
   
-> no Bitmask dos sinalizadores que controlam o tipo das cadeias de caracteres retornadas. O seguinte sinalizador pode ser definido:
+> [in] Máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres retornadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _lppFormPrintSetup_
   
-> bota Ponteiro para um ponteiro para uma estrutura que contém as informações de impressão.
+> [out] Ponteiro para um ponteiro para uma estrutura que contém as informações de impressão.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,17 +56,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIViewContext:: GetPrintSetup** para recuperar informações sobre a configuração da impressora antes de tentar imprimir a mensagem atual. 
+Objetos de formulário chamam o método **IMAPIViewContext::GetPrintSetup** para recuperar informações sobre a instalação da impressora antes de tentar imprimir a mensagem atual. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Aloque os membros **hDevMode** e **HDevName** da estrutura [FORMPRINTSETUP](formprintsetup.md) usando a função **GlobalAlloc**do Win32.
+Aloque **os membros hDevMode** e **hDevName** da estrutura [FORMPRINTSETUP](formprintsetup.md) usando a função **Win32 GlobalAlloc**.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você espera que os membros **hDevMode** e **HDevName** da estrutura **FORMPRINTSETUP** apontados pelo parâmetro _lppFormPrintSetup_ como cadeias de caracteres Unicode, defina _parâmetroulflags_ como MAPI_UNICODE. Caso contrário, **GetPrintSetup** retornará essas cadeias de caracteres no formato ANSI. 
+Se você espera que os membros **hDevMode** e **hDevName** da estrutura **FORMPRINTSETUP** apontados pelo parâmetro  _lppFormPrintSetup_ sejam cadeias de caracteres Unicode, defina  _ulFlags_ como MAPI_UNICODE. Caso contrário, **GetPrintSetup** retornará essas cadeias de caracteres no formato ANSI. 
   
-Libere os membros **hDevMode** e **HDevName** da estrutura **FORMPRINTSETUP** chamando a função Win32 **GlobalFree**. Libere toda a estrutura do **FORMPRINTSETUP** chamando [MAPIFreeBuffer](mapifreebuffer.md). 
+Free the **hDevMode** and **hDevName** members of the **FORMPRINTSETUP** structure by calling the Win32 function **GlobalFree**. Free the entire **FORMPRINTSETUP** structure by calling [MAPIFreeBuffer](mapifreebuffer.md). 
   
 ## <a name="see-also"></a>Confira também
 

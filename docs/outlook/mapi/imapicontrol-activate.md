@@ -25,7 +25,7 @@ ms.locfileid: "33418012"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Executa uma tarefa, como exibir uma caixa de diálogo ou iniciar uma operação programática quando um usuário de aplicativo cliente clica no controle de botão.
+Executa uma tarefa como exibir uma caixa de diálogo ou iniciar uma operação programática quando um usuário do aplicativo cliente clica no controle de botão.
   
 ```cpp
 HRESULT Activate(
@@ -38,11 +38,11 @@ HRESULT Activate(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo na qual o controle Button aparece.
+> [in] Um alça para a janela pai da caixa de diálogo na qual o controle de botão é exibido.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIControl:: Activate** executa tarefas após o clique do controle de botão de um usuário. Depois que o clique ocorre, como parte do processamento da tabela de exibição, o MAPI faz uma chamada para **Activate** após chamar [IMAPIControl:: GetState](imapicontrol-getstate.md) para determinar se o botão está habilitado. 
+O **método IMAPIControl::Activate** executa tarefas após o clique do usuário no controle de botão. Depois que o clique ocorre, como parte do processamento da tabela  de exibição, MAPI faz uma chamada para Ativar depois de chamar primeiro [IMAPIControl::GetState](imapicontrol-getstate.md) para determinar se o botão está habilitado. 
   
-Para obter mais informações sobre como implementar **Activate** e os outros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , consulte [Control Object Implementation](control-object-implementation.md).
+For more information about how to implement **Activate** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

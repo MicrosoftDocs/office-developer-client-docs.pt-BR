@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- XLLs [Excel 2007], exibindo caixas de diálogo de, caixas de diálogo [Excel 2007], exibindo de uma DLL ou XLL, DLLs [Excel 2007], exibindo caixas de diálogo de
+- xlls [excel 2007], exibindo caixas de diálogo de,caixas de diálogo [Excel 2007], exibindo de uma DLL ou XLL,DLLs [Excel 2007], exibindo caixas de diálogo de
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,11 +20,11 @@ ms.locfileid: "33417865"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Para exibir uma caixa de diálogo do Win32 usando, por exemplo, a função SDK do Windows **DialogBox**, você deve primeiro obter a instância completa de 32 bits e os identificadores de janela principal para o Excel. Para obter mais informações, consulte [instâncias do Excel e identificadores de janela principal do Access](how-to-access-excel-instance-and-main-window-handles.md). 
+Para exibir uma caixa de diálogo Win32 usando, por exemplo, a função Windows SDK **DialogBox**, primeiro você deve obter a instância completa de 32 bits e alças de janela principal para Excel. For more information, see [Access Excel Instance and Main Window Handles](how-to-access-excel-instance-and-main-window-handles.md). 
   
-Supondo que seu projeto contenha o recurso caixa de diálogo, você deve executar várias etapas para definir a rotina de tratamento de mensagens para a da caixa de diálogo exibida recentemente e para restaurar a rotina de tratamento de mensagens do Excel quando a caixa de diálogo é fechada. O exemplo de comando de [fShowDialog](fshowdialog.md) no projeto genérico demonstra o uso das funções do Windows para fazer isso corretamente. 
+Supondo que seu projeto contenha o recurso de caixa de diálogo, você deve seguir várias etapas para definir a rotina de tratamento de mensagens como a da caixa de diálogo recém-exibida e restaurar a rotina de tratamento de mensagens do Excel quando a caixa de diálogo for fechada. O comando [de exemplo fShowDialog](fshowdialog.md) no projeto genérico demonstra o uso das funções do Windows para fazer isso corretamente. 
   
-Você também pode exibir caixas de diálogo usando a API C sem ter que usar as funções do Windows SDK. No enTanto, a caixa de diálogo recursos da API C são muito limitadas em comparação com as do Windows, Visual Basic for Applications (VBA) ou Microsoft Foundation classes (MFC). (Por exemplo, as caixas de diálogo da API C são sempre restritas).
+Você também pode exibir caixas de diálogo usando a API de C sem precisar usar funções do SDK do Windows. No entanto, os recursos da caixa de diálogo da API de C são muito limitados em comparação com os do Windows, do Visual Basic for Applications (VBA) ou do Microsoft Foundation Classes (MFC). (Por exemplo, caixas de diálogo da API C são sempre modais).
   
 ## <a name="see-also"></a>Confira também
 

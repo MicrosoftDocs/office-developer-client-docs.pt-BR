@@ -22,7 +22,7 @@ Retorna o seno hiperbólico de um ângulo.
   
 ## <a name="syntax"></a>Sintaxe
 
-SINH (* * *Angle* * *) 
+SINH(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="remarks"></a>Comentários
 
-A função SINH usa radianos, a menos que você especifique uma unidade de medida diferente em _Angle_.
+A função SINH usa radianos, a menos que você especifique uma unidade de medida diferente em _ângulo._
   
 ## <a name="example"></a>Exemplo
 

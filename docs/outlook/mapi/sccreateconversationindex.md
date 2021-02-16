@@ -25,11 +25,11 @@ ms.locfileid: "33415653"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica em que local da mensagem um segmento de mensagem pertence. 
+Indica onde uma mensagem pertence em um thread de mensagem. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -46,24 +46,24 @@ SCODE ScCreateConversationIndex(
 
  _cbParent_
   
-> no Contagem de bytes no índice de conversa pai.
+> [in] Contagem de bytes no índice da conversa pai.
     
  _lpbParent_
   
-> no Ponteiro para bytes no índice de conversa pai. Isso pode ser NULL se _cbParent_ for zero. 
+> [in] Ponteiro para bytes no índice de conversa pai. Isso poderá ser NULL se  _cbParent_ for zero. 
     
  _lpcbIndex_
   
-> bota Ponteiro para a contagem de bytes no novo índice de conversa retornado pela chamada. 
+> [out] Ponteiro para a contagem de bytes no novo índice de conversa retornado pela chamada. 
     
  _lppbIndex_
   
-> bota Ponteiro para um ponteiro para o novo índice de conversa retornado pela chamada.
+> [out] Ponteiro para um ponteiro para o novo índice de conversa retornado pela chamada.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 

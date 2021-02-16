@@ -21,6 +21,6 @@ ms.locfileid: "33417606"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os tópicos nesta seção se aplicam aos desenvolvedores de aplicativos cliente e provedores de serviços. Esses tópicos são organizados em ordem de importância. Ou seja, os tópicos que são críticos para todos os programadores aparecem primeiro e os tópicos que são de importância mínima ou não se aplicam a todos os programadores aparecem por último.
+Os tópicos desta seção se aplicam aos desenvolvedores de aplicativos cliente e provedores de serviços. Esses tópicos são organizados em ordem de importância. Ou seja, os tópicos que são fundamentais para todos os programadores são exibidos primeiro e os tópicos que são de importância mínima ou não se aplicam a todos os programadores aparecem por último.
   
 

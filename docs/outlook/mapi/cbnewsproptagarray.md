@@ -25,11 +25,11 @@ ms.locfileid: "33417774"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes a serem alocados para uma nova estrutura [SPropTagArray](sproptagarray.md) que contém um número especificado de marcas de propriedade. 
+Calcula o número de bytes a serem alocados para uma nova [estrutura SPropTagArray](sproptagarray.md) que contém um número especificado de marcas de propriedade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewSPropTagArray (_ctag)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CTAG_
+ _ _ctag_
   
-> Contagem de marcas de propriedade a serem incluídas na nova estrutura **SPropTagArray** . 
+> Contagem de marcas de propriedade a serem incluídas na nova **estrutura SPropTagArray.** 
     
 ## <a name="see-also"></a>Confira também
 

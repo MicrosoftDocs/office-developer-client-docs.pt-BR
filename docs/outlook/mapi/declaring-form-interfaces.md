@@ -1,5 +1,5 @@
 ---
-title: Declarar interfaces de formulário
+title: Declarando interfaces de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437508"
 ---
-# <a name="declaring-form-interfaces"></a>Declarar interfaces de formulário
+# <a name="declaring-form-interfaces"></a>Declarando interfaces de formulário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Você pode simplificar as declarações de suas implementações de interfaces de formulário MAPI usando as macros do MAPI_ _interface__METHOD, onde _interface_ é uma interface de formulário definida no arquivo de cabeçalho Mapiform. h. Não é necessário usar essas macros, mas se você não fizer isso, deverá ter um cuidado especial de que suas declarações estão de acordo com as declarações no arquivo de cabeçalho Mapiform. h. Por exemplo, você poderia declarar a classe de objeto Form do seu servidor de formulário como o seguinte: 
+Você pode simplificar as declarações de suas implementações de interfaces de formulário MAPI usando as macros MAPI_ _interface__METHOD, onde interface é uma  _interface_ de formulário definida no arquivo de header Mapiform.h. Não é necessário usar essas macros, mas se não usar, tome cuidado particular com as declarações que estão em conformidade com as declarações no arquivo de header Mapiform.h. For example, you could declare your form server's form object class like the following: 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,
@@ -45,5 +45,5 @@ public:
 
 
 
-[Gravando código de servidor de formulário](writing-form-server-code.md)
+[Escrevendo código do servidor de formulário](writing-form-server-code.md)
 

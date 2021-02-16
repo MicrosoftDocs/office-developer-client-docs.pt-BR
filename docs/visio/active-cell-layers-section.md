@@ -33,14 +33,14 @@ Para fazer referência à célula Active pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers. Active [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers.Active[ *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Active pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visLayerActive** <br/> |
+|Índice de linha:  <br/> |**visRowLayer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visLayerActive** <br/> |
    
 

@@ -22,20 +22,20 @@ Contém o nome do revisor de um documento.
   
 ## <a name="remarks"></a>Comentários
 
- Este valor padrão é o nome encontrado na caixa **nome de usuário** na guia **geral** da caixa de diálogo **Opções do Visio** (clique na guia **arquivo** , em **Opções**e em **geral**). 
+ Esse valor assume como padrão  o nome encontrado  na caixa Nome de usuário, na  guia Geral da caixa de diálogo Opções do **Visio** (clique na guia Arquivo, em Opções e em **Geral).** 
   
-Para fazer referência à célula Name pelo nome, a partir de outra fórmula ou programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula Name pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Reviewer.Name [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Reviewer.Name [  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Name pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionReviewer** <br/> |
-| Índice de linha:  <br/> |**visRowReviewer** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visReviewerName** <br/> |
+| Índice de linha:  <br/> |**visRowReviewer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visReviewerName** <br/> |
    
 

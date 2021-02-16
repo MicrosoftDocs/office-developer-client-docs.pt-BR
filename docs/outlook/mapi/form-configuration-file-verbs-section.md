@@ -1,5 +1,5 @@
 ---
-title: Seção do arquivo de configuração de formulários [verbos]
+title: Seção Arquivo de Configuração do Formulário [Verbos]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417781"
 ---
-# <a name="form-configuration-file-verbs-section"></a>Seção do arquivo de configuração de formulários [verbos]
+# <a name="form-configuration-file-verbs-section"></a>Seção Arquivo de Configuração do Formulário [Verbos]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[verbos]** lista o conjunto completo de verbos com suporte no formulário. O formato da seção **[verbos]** é: 
+A **seção [Verbos]** lista o conjunto completo de verbos suportados pelo formulário. O formato da **seção [Verbos]** é: 
   
- **Verbos**
+ **[Verbos]**
   
- **** =  _Cadeia de caracteres_ Verb1
+ **Verb1**  =   _string_
   
-Veja a seguir um exemplo de uma seção de **[verbos]** . 
+A seguir está um exemplo de **uma seção [Verbos].** 
   
 ```cpp
 [Verbs]
@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-Cada verbo é definido em um **[verbo separado.** _cadeia de caracteres_ **]** seção. Um **[verbo.** _cadeia de caracteres_ **]** descreve um único verbo oferecido pelo formulário. A entrada **DisplayName** em um **[Verb.** _cadeia de caracteres_ **]** seção especifica o nome do comando exibido na interface do usuário. A entrada de **código** corresponde ao número de verbo passado no método [IMAPIForm::D overb](imapiform-doverb.md) . A sintaxe do **verbo [.** _cadeia de caracteres_ **]** seção é: 
+Cada verbo é definido em um **[Verbo] separado.** _seção string_ **]** . A **[Verbo.** _string_ **]** section describes a single verb offered by the form. A **entrada DisplayName** em um **[Verbo.** _string_ **]** section specifies the command name displayed in the user interface. A **entrada** de código corresponde ao número do verbo passado no [método IMAPIForm::D oVerb.](imapiform-doverb.md) A sintaxe do **[Verbo.** _string_ **]** section is: 
   
- **Verbo.** _cadeia de caracteres_ **]**
+ **[Verbo.** _string_ **]**
   
- **** =  _Cadeia de caracteres exibida_ DisplayName
+ **DisplayName**  =   _cadeia de caracteres exibida_
   
- **** =  _Inteiro_ de código
+ **Código**  =   _integer_
   
- **** =  _Inteiro_ de sinalizadores
+ **Sinalizadores**  =   _integer_
   
- **** Número inteiro de attrib__  =  
+ **Atribs**  =   _integer_
   
-Veja a seguir um exemplo de um **verbo [.** _cadeia de caracteres_ **]** seção. 
+A seguir está um exemplo de **um [Verbo.** _seção string_ **]** . 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-Os verbos listados nesta seção são recuperados por um cliente usando o [método IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md). Os verbos são ativados chamando o método [IMAPIForm::D overb](imapiform-doverb.md) do formulário e passando-o número de código do verbo a ser executado. 
+Os verbos listados nesta seção são recuperados por um cliente usando o [método IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md). Os verbos são ativados chamando o método [IMAPIForm::D oVerb](imapiform-doverb.md) do formulário e passando a ele o número de código do verbo a ser executado. 
   
 

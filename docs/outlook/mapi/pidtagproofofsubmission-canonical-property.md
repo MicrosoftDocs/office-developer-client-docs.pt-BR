@@ -25,24 +25,24 @@ ms.locfileid: "33425327"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta propriedade conterá TRUE se um remetente de mensagem solicitar uma prova de que o sistema de transferência de mensagens enviou uma mensagem para entrega ao destinatário originalmente planejado.
+Essa propriedade contém TRUE se um remetente de mensagem solicitar prova de que o sistema de transferência de mensagens enviou uma mensagem para entrega ao destinatário originalmente pretendido.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identificador:  <br/> |0x0E26  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI Não transmitível  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

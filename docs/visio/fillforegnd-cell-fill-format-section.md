@@ -24,7 +24,7 @@ Determina a cor usada para o primeiro plano (traço) do padrão de preenchimento
 
 Para definir a cor, insira um número de 0 a 23.
   
-Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB, e RGB( *r, g, b*), em vez de um número, será mostrado na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência de preenchimento do primeiro plano na célula FillForegndTrans.
   
@@ -40,6 +40,6 @@ Para obter uma referência para a célula FillForegnd pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillForegnd** <br/> |
+|Índice de célula:  <br/> |**visFillForegnd** <br/> |
    
 

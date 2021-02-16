@@ -39,6 +39,6 @@ Para obter uma referência para a célula LockVtxEdit pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockVtxEdit** <br/> |
+|Índice de célula:  <br/> |**visLockVtxEdit** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "32359175"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a chave de pesquisa do destinatário que deve obter relatórios para esta mensagem.
+Contém a chave de pesquisa para o destinatário que deve obter relatórios para essa mensagem.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contém a chave de pesquisa do destinatário que deve obter relatórios para est
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é uma das propriedades de endereço do destinatário que o remetente delegou para receber quaisquer relatórios gerados para esta mensagem.
+Essa propriedade é uma das propriedades de endereço do destinatário que o remetente delegou para receber relatórios gerados para essa mensagem.
   
-Um aplicativo cliente que deve encaminhar relatórios para outro usuário deve definir essa propriedade no horário de envio da mensagem. Se ele não estiver definido, os relatórios serão enviados para o remetente da mensagem.
+Um aplicativo cliente que deve rotear relatórios para outro usuário deve definir essa propriedade no momento do envio da mensagem. Se não estiver definido, os relatórios serão enviados para o remetente da mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em mensagens de email.
+> Especifica as propriedades e operações permitidas em mensagens de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

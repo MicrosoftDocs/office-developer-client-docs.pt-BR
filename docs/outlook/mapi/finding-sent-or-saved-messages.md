@@ -1,5 +1,5 @@
 ---
-title: Localizar mensagens enviadas ou salvas
+title: Localizar Mensagens Enviadas ou Salvas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437417"
 ---
-# <a name="finding-sent-or-saved-messages"></a>Localizar mensagens enviadas ou salvas
+# <a name="finding-sent-or-saved-messages"></a>Localizar Mensagens Enviadas ou Salvas
 
   
   
@@ -23,15 +23,15 @@ ms.locfileid: "33437417"
   
  **Para localizar todas as mensagens de saída que você salvou ou enviou**
   
-1. Chame [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) para comparar a pasta que contém as mensagens enviadas com a pasta que contém suas mensagens de entrada. 
+1. Chame [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) para comparar a pasta que contém suas mensagens enviadas com a pasta que contém suas mensagens de entrada. 
     
-2. Defina o parâmetro _lpEntryID1_ para apontar para **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) e o parâmetro _lpEntryID2_ para apontar para **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Set the  _lpEntryID1_ parameter to point to **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) and the  _lpEntryID2_ parameter to point to **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Lembre-se de que se você excluir mensagens após elas terem sido enviadas ou se tiver movido qualquer uma das mensagens enviadas para outra pasta, essa estratégia não funcionará. 
+Esteja ciente de que, se você excluir mensagens depois que elas são enviadas ou tiver movido qualquer uma das mensagens enviadas para outra pasta, essa estratégia não funcionará. 
   
-Se estiver examinando uma mensagem de entrada, você percebe que as propriedades normalmente definidas por um provedor de transporte estão ausentes, você pode supor que a mensagem nunca foi manipulada por um provedor de transporte. Essas propriedades incluem:
+Se ao examinar uma mensagem de entrada, você perceber que as propriedades que são normalmente definidas por um provedor de transporte estão ausentes, você pode supor que a mensagem nunca foi manipulada por um provedor de transporte. Essas propriedades incluem:
   
-- Propriedades **PR_RECEIVED_BY** 
+- **PR_RECEIVED_BY** propriedades 
     
 - **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     
