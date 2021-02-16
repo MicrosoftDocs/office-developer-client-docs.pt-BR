@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420308"
 ---
-# <a name="imapiformmgrselectmultipleforms"></a><span data-ttu-id="f5188-103">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="f5188-103">IMAPIFormMgr::SelectMultipleForms</span></span>
+# <a name="imapiformmgrselectmultipleforms"></a><span data-ttu-id="aceb0-103">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="aceb0-103">IMAPIFormMgr::SelectMultipleForms</span></span>
 
   
   
-<span data-ttu-id="f5188-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f5188-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="aceb0-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aceb0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f5188-105">Apresenta uma caixa de diálogo que permite ao usuário selecionar vários formulários e retorna uma matriz de objetos de informações de formulário que descrevem esses formulários.</span><span class="sxs-lookup"><span data-stu-id="f5188-105">Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.</span></span>
+<span data-ttu-id="aceb0-105">Apresenta uma caixa de diálogo que permite ao usuário selecionar vários formulários e retorna uma matriz de objetos de informações de formulário que descrevem esses formulários.</span><span class="sxs-lookup"><span data-stu-id="aceb0-105">Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.</span></span>
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -38,61 +38,61 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f5188-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f5188-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="aceb0-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="aceb0-106">Parameters</span></span>
 
- <span data-ttu-id="f5188-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="f5188-107">_ulUIParam_</span></span>
+ <span data-ttu-id="aceb0-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="aceb0-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="f5188-108">no Uma alça para a janela pai da caixa de diálogo exibida.</span><span class="sxs-lookup"><span data-stu-id="f5188-108">[in] A handle to the parent window of the displayed dialog box.</span></span> 
+> <span data-ttu-id="aceb0-108">[in] Um alça para a janela pai da caixa de diálogo exibida.</span><span class="sxs-lookup"><span data-stu-id="aceb0-108">[in] A handle to the parent window of the displayed dialog box.</span></span> 
     
- <span data-ttu-id="f5188-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f5188-109">_ulFlags_</span></span>
+ <span data-ttu-id="aceb0-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="aceb0-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="f5188-110">no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas.</span><span class="sxs-lookup"><span data-stu-id="f5188-110">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="f5188-111">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="f5188-111">The following flag can be set:</span></span>
+> <span data-ttu-id="aceb0-110">[in] Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas.</span><span class="sxs-lookup"><span data-stu-id="aceb0-110">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="aceb0-111">O sinalizador a seguir pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="aceb0-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="f5188-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f5188-112">MAPI_UNICODE</span></span> 
+<span data-ttu-id="aceb0-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="aceb0-112">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="f5188-113">As cadeias de caracteres passadas estão no formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="f5188-113">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="f5188-114">Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="f5188-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="aceb0-113">As cadeias de caracteres passadas estão no formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="aceb0-113">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="aceb0-114">Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="aceb0-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
- <span data-ttu-id="f5188-115">_pszTitle_</span><span class="sxs-lookup"><span data-stu-id="f5188-115">_pszTitle_</span></span>
+ <span data-ttu-id="aceb0-115">_pszTitle_</span><span class="sxs-lookup"><span data-stu-id="aceb0-115">_pszTitle_</span></span>
   
-> <span data-ttu-id="f5188-116">no Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="f5188-116">[in] A pointer to a string that contains the caption of the dialog box.</span></span> <span data-ttu-id="f5188-117">Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulários que fornecerá os formulários fornecerá uma legenda padrão.</span><span class="sxs-lookup"><span data-stu-id="f5188-117">If the  _pszTitle_ parameter is NULL, the form library provider that provides the forms supplies a default caption.</span></span> 
+> <span data-ttu-id="aceb0-116">[in] Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="aceb0-116">[in] A pointer to a string that contains the caption of the dialog box.</span></span> <span data-ttu-id="aceb0-117">Se o  _parâmetro pszTitle_ for NULL, o provedor da biblioteca de formulários que fornece os formulários fornece uma legenda padrão.</span><span class="sxs-lookup"><span data-stu-id="aceb0-117">If the  _pszTitle_ parameter is NULL, the form library provider that provides the forms supplies a default caption.</span></span> 
     
- <span data-ttu-id="f5188-118">_pfld_</span><span class="sxs-lookup"><span data-stu-id="f5188-118">_pfld_</span></span>
+ <span data-ttu-id="aceb0-118">_pfld_</span><span class="sxs-lookup"><span data-stu-id="aceb0-118">_pfld_</span></span>
   
-> <span data-ttu-id="f5188-119">no Um ponteiro para a pasta da qual os formulários serão selecionados.</span><span class="sxs-lookup"><span data-stu-id="f5188-119">[in] A pointer to the folder from which to select the forms.</span></span> <span data-ttu-id="f5188-120">Se o parâmetro _pfld_ for NULL, os formulários serão selecionados do contêiner de formulário local, pessoal ou organização.</span><span class="sxs-lookup"><span data-stu-id="f5188-120">If the  _pfld_ parameter is NULL, the forms are selected from the local, personal, or organization form container.</span></span> 
+> <span data-ttu-id="aceb0-119">[in] Um ponteiro para a pasta a partir da qual os formulários são selecionados.</span><span class="sxs-lookup"><span data-stu-id="aceb0-119">[in] A pointer to the folder from which to select the forms.</span></span> <span data-ttu-id="aceb0-120">Se o  _parâmetro pfld_ for NULL, os formulários serão selecionados no contêiner de formulário local, pessoal ou da organização.</span><span class="sxs-lookup"><span data-stu-id="aceb0-120">If the  _pfld_ parameter is NULL, the forms are selected from the local, personal, or organization form container.</span></span> 
     
- <span data-ttu-id="f5188-121">_pfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="f5188-121">_pfrminfoarray_</span></span>
+ <span data-ttu-id="aceb0-121">_pfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="aceb0-121">_pfrminfoarray_</span></span>
   
-> <span data-ttu-id="f5188-122">no Um ponteiro para uma matriz de objetos de informações de formulário que são preselecionadas para o usuário.</span><span class="sxs-lookup"><span data-stu-id="f5188-122">[in] A pointer to an array of form information objects that are preselected for the user.</span></span>
+> <span data-ttu-id="aceb0-122">[in] Um ponteiro para uma matriz de objetos de informações de formulário que são pré-selecionados para o usuário.</span><span class="sxs-lookup"><span data-stu-id="aceb0-122">[in] A pointer to an array of form information objects that are preselected for the user.</span></span>
     
- <span data-ttu-id="f5188-123">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="f5188-123">_ppfrminfoarray_</span></span>
+ <span data-ttu-id="aceb0-123">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="aceb0-123">_ppfrminfoarray_</span></span>
   
-> <span data-ttu-id="f5188-124">bota Um ponteiro para um ponteiro para a matriz retornada de objetos de informação do formulário.</span><span class="sxs-lookup"><span data-stu-id="f5188-124">[out] A pointer to a pointer to the returned array of form information objects.</span></span>
+> <span data-ttu-id="aceb0-124">[out] Um ponteiro para um ponteiro para a matriz retornada de objetos de informações de formulário.</span><span class="sxs-lookup"><span data-stu-id="aceb0-124">[out] A pointer to a pointer to the returned array of form information objects.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f5188-125">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="f5188-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="aceb0-125">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="aceb0-125">Return value</span></span>
 
-<span data-ttu-id="f5188-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="f5188-126">S_OK</span></span> 
+<span data-ttu-id="aceb0-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="aceb0-126">S_OK</span></span> 
   
-> <span data-ttu-id="f5188-127">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="f5188-127">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="aceb0-127">A chamada foi bem-sucedida e retornou o valor ou os valores esperados.</span><span class="sxs-lookup"><span data-stu-id="aceb0-127">The call succeeded and returned the expected value or values.</span></span>
     
-<span data-ttu-id="f5188-128">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="f5188-128">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="aceb0-128">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="aceb0-128">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="f5188-129">O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.</span><span class="sxs-lookup"><span data-stu-id="f5188-129">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
+> <span data-ttu-id="aceb0-129">O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.</span><span class="sxs-lookup"><span data-stu-id="aceb0-129">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
     
-<span data-ttu-id="f5188-130">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="f5188-130">MAPI_E_USER_CANCEL</span></span> 
+<span data-ttu-id="aceb0-130">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="aceb0-130">MAPI_E_USER_CANCEL</span></span> 
   
-> <span data-ttu-id="f5188-131">O usuário cancelou a operação, geralmente clicando no botão **Cancelar** na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="f5188-131">The user canceled the operation, typically by clicking the **Cancel** button in the dialog box.</span></span> 
+> <span data-ttu-id="aceb0-131">O usuário cancelou a operação, normalmente clicando no botão **Cancelar** na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="aceb0-131">The user canceled the operation, typically by clicking the **Cancel** button in the dialog box.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="f5188-132">Comentários</span><span class="sxs-lookup"><span data-stu-id="f5188-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aceb0-132">Comentários</span><span class="sxs-lookup"><span data-stu-id="aceb0-132">Remarks</span></span>
 
-<span data-ttu-id="f5188-133">Os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectMultipleForms** para primeiro apresentar uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, recuperar uma matriz de objetos de informações de formulário que descrevem os formulários selecionados.</span><span class="sxs-lookup"><span data-stu-id="f5188-133">Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first present a dialog box that enables the user to select multiple forms and then to retrieve an array of form information objects that describe the selected forms.</span></span> <span data-ttu-id="f5188-134">A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, independentemente de estarem ou não ocultos (ou seja, se suas propriedades ocultas estão desmarcadas ou não).</span><span class="sxs-lookup"><span data-stu-id="f5188-134">The **SelectMultipleForms** dialog box displays all forms, whether or not they are hidden (that is, whether or not their hidden properties are clear).</span></span> 
+<span data-ttu-id="aceb0-133">Visualizadores de formulário chamam o método **IMAPIFormMgr::SelectMultipleForms** para apresentar primeiro uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, recuperar uma matriz de objetos de informações de formulário que descrevem os formulários selecionados.</span><span class="sxs-lookup"><span data-stu-id="aceb0-133">Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first present a dialog box that enables the user to select multiple forms and then to retrieve an array of form information objects that describe the selected forms.</span></span> <span data-ttu-id="aceb0-134">A **caixa de diálogo SelectMultipleForms** exibe todos os formulários, se eles estão ocultos ou não (ou seja, se suas propriedades ocultas são claras ou não).</span><span class="sxs-lookup"><span data-stu-id="aceb0-134">The **SelectMultipleForms** dialog box displays all forms, whether or not they are hidden (that is, whether or not their hidden properties are clear).</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="f5188-135">Observações para implementadores</span><span class="sxs-lookup"><span data-stu-id="f5188-135">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="aceb0-135">Observações para implementadores</span><span class="sxs-lookup"><span data-stu-id="aceb0-135">Notes to implementers</span></span>
 
-<span data-ttu-id="f5188-136">Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres serão Unicode.</span><span class="sxs-lookup"><span data-stu-id="f5188-136">If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode.</span></span> <span data-ttu-id="f5188-137">Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado.</span><span class="sxs-lookup"><span data-stu-id="f5188-137">Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.</span></span> 
+<span data-ttu-id="aceb0-136">Se um visualizador de formulário passar o sinalizador MAPI_UNICODE no  _parâmetro ulFlags,_ todas as cadeias de caracteres serão Unicode.</span><span class="sxs-lookup"><span data-stu-id="aceb0-136">If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode.</span></span> <span data-ttu-id="aceb0-137">Provedores de biblioteca de formulário que não suportam cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE for passado.</span><span class="sxs-lookup"><span data-stu-id="aceb0-137">Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f5188-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="f5188-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aceb0-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="aceb0-138">See also</span></span>
 
 
 
-[<span data-ttu-id="f5188-139">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f5188-139">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
+[<span data-ttu-id="aceb0-139">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="aceb0-139">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
 

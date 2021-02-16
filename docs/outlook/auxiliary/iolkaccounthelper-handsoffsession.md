@@ -14,27 +14,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418628"
 ---
-# <a name="iolkaccounthelperhandsoffsession"></a><span data-ttu-id="6212f-103">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="6212f-103">IOlkAccountHelper::HandsOffSession</span></span>
+# <a name="iolkaccounthelperhandsoffsession"></a><span data-ttu-id="53171-103">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="53171-103">IOlkAccountHelper::HandsOffSession</span></span>
 
-<span data-ttu-id="6212f-104">Libera o objeto de sessão MAPI retornado por- [IOlkAccountHelper:: GetMapiSession](iolkaccounthelper-getmapisession.md).</span><span class="sxs-lookup"><span data-stu-id="6212f-104">Releases the MAPI session object that was returned by - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).</span></span>
+<span data-ttu-id="53171-104">Libera o objeto de sessão MAPI retornado por - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).</span><span class="sxs-lookup"><span data-stu-id="53171-104">Releases the MAPI session object that was returned by - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="6212f-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="6212f-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="53171-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="53171-105">Quick info</span></span>
 
-<span data-ttu-id="6212f-106">Confira [IOlkAccountHelper](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="6212f-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
+<span data-ttu-id="53171-106">Confira [IOlkAccountHelper](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="53171-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountHelper::HandsOffSession( );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="6212f-107">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="6212f-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="53171-107">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="53171-107">Return values</span></span>
 
-|<span data-ttu-id="6212f-108">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="6212f-108">**HRESULT**</span></span>|<span data-ttu-id="6212f-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6212f-109">**Description**</span></span>|
+|<span data-ttu-id="53171-108">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="53171-108">**HRESULT**</span></span>|<span data-ttu-id="53171-109">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="53171-109">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="6212f-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="6212f-110">S_OK</span></span>  <br/> |<span data-ttu-id="6212f-111">Se sua implementação do **IOlkAccountHelper** criar sua própria sessão MAPI retornada no **IOlkAccountHelper:: GetMapiSession**, você deve liberar a sessão aqui e retornar S_OK.</span><span class="sxs-lookup"><span data-stu-id="6212f-111">If your implementation of **IOlkAccountHelper** creates its own MAPI session that is returned in **IOlkAccountHelper::GetMapiSession**, you must release the session here and return S_OK.</span></span>  <br/> |
-|<span data-ttu-id="6212f-112">E_NOTIMPL</span><span class="sxs-lookup"><span data-stu-id="6212f-112">E_NOTIMPL</span></span>  <br/> |<span data-ttu-id="6212f-113">Se sua implementação do **IOlkAccountHelper** não criou sua própria sessão MAPI, você deve retornar apenas E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="6212f-113">If your implementation of **IOlkAccountHelper** did not create its own MAPI session, you must return only E_NOTIMPL.</span></span> <span data-ttu-id="6212f-114">Nesse caso, esse é o único valor de retorno com suporte.</span><span class="sxs-lookup"><span data-stu-id="6212f-114">In this case, this is the only supported return value.</span></span>  <br/> |
+|<span data-ttu-id="53171-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="53171-110">S_OK</span></span>  <br/> |<span data-ttu-id="53171-111">Se sua implementação de **IOlkAccountHelper** criar sua própria sessão MAPI retornada em **IOlkAccountHelper::GetMapiSession**, você deverá liberar a sessão aqui e retornar S_OK.</span><span class="sxs-lookup"><span data-stu-id="53171-111">If your implementation of **IOlkAccountHelper** creates its own MAPI session that is returned in **IOlkAccountHelper::GetMapiSession**, you must release the session here and return S_OK.</span></span>  <br/> |
+|<span data-ttu-id="53171-112">E_NOTIMPL</span><span class="sxs-lookup"><span data-stu-id="53171-112">E_NOTIMPL</span></span>  <br/> |<span data-ttu-id="53171-113">Se a implementação de **IOlkAccountHelper** não tiver criado sua própria sessão MAPI, você deverá retornar somente E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="53171-113">If your implementation of **IOlkAccountHelper** did not create its own MAPI session, you must return only E_NOTIMPL.</span></span> <span data-ttu-id="53171-114">Nesse caso, este é o único valor de retorno com suporte.</span><span class="sxs-lookup"><span data-stu-id="53171-114">In this case, this is the only supported return value.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6212f-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="6212f-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53171-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="53171-115">See also</span></span>
 
-- [<span data-ttu-id="6212f-116">Constantes (API de gerenciamento de contas)</span><span class="sxs-lookup"><span data-stu-id="6212f-116">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="6212f-117">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="6212f-117">IOlkAccountHelper::GetMapiSession</span></span>](iolkaccounthelper-getmapisession.md)
+- [<span data-ttu-id="53171-116">Constantes (API de gerenciamento de contas)</span><span class="sxs-lookup"><span data-stu-id="53171-116">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="53171-117">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="53171-117">IOlkAccountHelper::GetMapiSession</span></span>](iolkaccounthelper-getmapisession.md)
 

@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422282"
 ---
-# <a name="description-function"></a><span data-ttu-id="249cc-103">Função DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="249cc-103">DESCRIPTION Function</span></span>
+# <a name="description-function"></a><span data-ttu-id="45d60-103">Função DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="45d60-103">DESCRIPTION Function</span></span>
 
-<span data-ttu-id="249cc-104">Retorna o texto do campo **Descrição** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="249cc-104">Returns the text from the **Description** field of a document's properties.</span></span> 
+<span data-ttu-id="45d60-104">Retorna o texto do campo **Descrição** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="45d60-104">Returns the text from the **Description** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="249cc-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="249cc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="45d60-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="45d60-105">Syntax</span></span>
 
-<span data-ttu-id="249cc-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="249cc-106">DESCRIPTION ()</span></span>
+<span data-ttu-id="45d60-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="45d60-106">DESCRIPTION ()</span></span>
   
 

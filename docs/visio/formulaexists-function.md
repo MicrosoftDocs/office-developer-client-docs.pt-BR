@@ -16,22 +16,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420273"
 ---
-# <a name="formulaexists-function"></a><span data-ttu-id="f2f3a-103">Função FORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="f2f3a-103">FORMULAEXISTS Function</span></span>
+# <a name="formulaexists-function"></a><span data-ttu-id="b4cce-103">Função FORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="b4cce-103">FORMULAEXISTS Function</span></span>
 
-<span data-ttu-id="f2f3a-104">Indica se a célula referenciada contém uma fórmula.</span><span class="sxs-lookup"><span data-stu-id="f2f3a-104">Indicates whether the referenced cell contains a formula.</span></span> 
+<span data-ttu-id="b4cce-104">Indica se a célula referenciada contém uma fórmula.</span><span class="sxs-lookup"><span data-stu-id="b4cce-104">Indicates whether the referenced cell contains a formula.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f2f3a-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f2f3a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b4cce-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b4cce-105">Syntax</span></span>
 
-<span data-ttu-id="f2f3a-106">FORMULAEXISTS (\* \* *cellref* \* \*)</span><span class="sxs-lookup"><span data-stu-id="f2f3a-106">FORMULAEXISTS (\*\* *cellref* \*\* )</span></span> 
+<span data-ttu-id="b4cce-106">FORMULAEXISTS (\*\* *cellref* \*\* )</span><span class="sxs-lookup"><span data-stu-id="b4cce-106">FORMULAEXISTS (\*\* *cellref* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="f2f3a-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f2f3a-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="b4cce-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b4cce-107">Parameters</span></span>
 
-|<span data-ttu-id="f2f3a-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="f2f3a-108">**Name**</span></span>|<span data-ttu-id="f2f3a-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="f2f3a-109">**Required/Optional**</span></span>|<span data-ttu-id="f2f3a-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="f2f3a-110">**Data Type**</span></span>|<span data-ttu-id="f2f3a-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f2f3a-111">**Description**</span></span>|
+|<span data-ttu-id="b4cce-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="b4cce-108">**Name**</span></span>|<span data-ttu-id="b4cce-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="b4cce-109">**Required/Optional**</span></span>|<span data-ttu-id="b4cce-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="b4cce-110">**Data Type**</span></span>|<span data-ttu-id="b4cce-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b4cce-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f2f3a-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="f2f3a-112">_cellref_</span></span> <br/> |<span data-ttu-id="f2f3a-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="f2f3a-113">Required</span></span>  <br/> |<span data-ttu-id="f2f3a-114">**Cadeia de caracteres**</span><span class="sxs-lookup"><span data-stu-id="f2f3a-114">**String**</span></span> <br/> |<span data-ttu-id="f2f3a-115">A célula cuja presença de fórmula você deseja verificar.</span><span class="sxs-lookup"><span data-stu-id="f2f3a-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
+| <span data-ttu-id="b4cce-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="b4cce-112">_cellref_</span></span> <br/> |<span data-ttu-id="b4cce-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="b4cce-113">Required</span></span>  <br/> |<span data-ttu-id="b4cce-114">**String**</span><span class="sxs-lookup"><span data-stu-id="b4cce-114">**String**</span></span> <br/> |<span data-ttu-id="b4cce-115">A célula cuja presença de fórmula você deseja verificar.</span><span class="sxs-lookup"><span data-stu-id="b4cce-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f2f3a-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="f2f3a-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4cce-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="b4cce-116">Remarks</span></span>
 
-<span data-ttu-id="f2f3a-117">A função FORMULAEXISTS retornará 1 se a célula contiver uma fórmula; Se ele não contiver uma fórmula, retornará zero (0).</span><span class="sxs-lookup"><span data-stu-id="f2f3a-117">The FORMULAEXISTS function returns 1 if the cell contains a formula; if it does not contain a formula, it returns zero (0).</span></span> 
+<span data-ttu-id="b4cce-117">A função FORMULAEXISTS retornará 1 se a célula contiver uma fórmula; se não tiver uma fórmula, retornará zero (0).</span><span class="sxs-lookup"><span data-stu-id="b4cce-117">The FORMULAEXISTS function returns 1 if the cell contains a formula; if it does not contain a formula, it returns zero (0).</span></span> 
   
 

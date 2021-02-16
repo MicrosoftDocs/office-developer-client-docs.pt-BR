@@ -14,20 +14,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421106"
 ---
-# <a name="theme-function"></a><span data-ttu-id="6b809-103">Função THEME</span><span class="sxs-lookup"><span data-stu-id="6b809-103">THEME Function</span></span>
+# <a name="theme-function"></a><span data-ttu-id="9e884-103">Função THEME</span><span class="sxs-lookup"><span data-stu-id="9e884-103">THEME Function</span></span>
 
-<span data-ttu-id="6b809-104">Obtém as configurações de formato do tema atual.</span><span class="sxs-lookup"><span data-stu-id="6b809-104">Gets the current theme's format settings.</span></span>
+<span data-ttu-id="9e884-104">Obtém as configurações de formato do tema atual.</span><span class="sxs-lookup"><span data-stu-id="9e884-104">Gets the current theme's format settings.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="6b809-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="6b809-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9e884-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="9e884-105">Syntax</span></span>
 
-<span data-ttu-id="6b809-106">THEME ()</span><span class="sxs-lookup"><span data-stu-id="6b809-106">THEME()</span></span>
+<span data-ttu-id="9e884-106">THEME()</span><span class="sxs-lookup"><span data-stu-id="9e884-106">THEME()</span></span>
   
-## <a name="example"></a><span data-ttu-id="6b809-107">Exemplo</span><span class="sxs-lookup"><span data-stu-id="6b809-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9e884-107">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9e884-107">Example</span></span>
 
 ```vb
 Shape.FillForegnd = THEME("FillColor")
 ```
 
-<span data-ttu-id="6b809-108">Atribui a cor de preenchimento do tema atual à forma.</span><span class="sxs-lookup"><span data-stu-id="6b809-108">Assigns the fill color of the current theme to the shape.</span></span>
+<span data-ttu-id="9e884-108">Atribui a cor de preenchimento do tema atual à forma.</span><span class="sxs-lookup"><span data-stu-id="9e884-108">Assigns the fill color of the current theme to the shape.</span></span>
   
 

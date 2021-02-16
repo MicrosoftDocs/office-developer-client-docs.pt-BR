@@ -16,18 +16,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418642"
 ---
-# <a name="copy-and-paste-a-formula-from-one-cell-into-another"></a><span data-ttu-id="9c50a-102">Copiar e Colar uma Fórmula a partir de uma Célula dentro de Outra Célula</span><span class="sxs-lookup"><span data-stu-id="9c50a-102">Copy and Paste a Formula from One Cell into Another</span></span>
+# <a name="copy-and-paste-a-formula-from-one-cell-into-another"></a><span data-ttu-id="9d336-102">Copiar e Colar uma Fórmula a partir de uma Célula dentro de Outra Célula</span><span class="sxs-lookup"><span data-stu-id="9d336-102">Copy and Paste a Formula from One Cell into Another</span></span>
 
-1. <span data-ttu-id="9c50a-103">Selecione a célula que contém a fórmula desejada.</span><span class="sxs-lookup"><span data-stu-id="9c50a-103">Select the cell that contains the formula you want.</span></span>
+1. <span data-ttu-id="9d336-103">Selecione a célula que contém a fórmula desejada.</span><span class="sxs-lookup"><span data-stu-id="9d336-103">Select the cell that contains the formula you want.</span></span>
     
-2. <span data-ttu-id="9c50a-104">Pressione CTRL + C.</span><span class="sxs-lookup"><span data-stu-id="9c50a-104">Press CTRL+C.</span></span>
+2. <span data-ttu-id="9d336-104">Pressione CTRL+C.</span><span class="sxs-lookup"><span data-stu-id="9d336-104">Press CTRL+C.</span></span>
     
-    <span data-ttu-id="9c50a-105">Para substituir a fórmula inteira, selecione a célula cuja fórmula você deseja substituir.</span><span class="sxs-lookup"><span data-stu-id="9c50a-105">To replace the entire formula, select the cell whose formula you want to replace.</span></span>
+    <span data-ttu-id="9d336-105">Para substituir a fórmula inteira, selecione a célula cuja fórmula você deseja substituir.</span><span class="sxs-lookup"><span data-stu-id="9d336-105">To replace the entire formula, select the cell whose formula you want to replace.</span></span>
     
-    <span data-ttu-id="9c50a-106">Para colar a fórmula em uma fórmula existente, clique duas vezes na célula e, em seguida, clique em um ponto de inserção onde você deseja colar a fórmula.</span><span class="sxs-lookup"><span data-stu-id="9c50a-106">To paste the formula into an existing formula, double-click the cell, and then click an insertion point where you want to paste the formula.</span></span>
+    <span data-ttu-id="9d336-106">Para colar a fórmula em uma fórmula existente, clique duas vezes na célula e clique em um ponto de inserção onde você deseja colar a fórmula.</span><span class="sxs-lookup"><span data-stu-id="9d336-106">To paste the formula into an existing formula, double-click the cell, and then click an insertion point where you want to paste the formula.</span></span>
     
-3. <span data-ttu-id="9c50a-107">Pressione CTRL + V</span><span class="sxs-lookup"><span data-stu-id="9c50a-107">Press CTRL+V</span></span>
+3. <span data-ttu-id="9d336-107">Pressione CTRL + V</span><span class="sxs-lookup"><span data-stu-id="9d336-107">Press CTRL+V</span></span>
     
-4. <span data-ttu-id="9c50a-108">Pressione ENTER para aceitar a fórmula.</span><span class="sxs-lookup"><span data-stu-id="9c50a-108">Press ENTER to accept the formula.</span></span>
+4. <span data-ttu-id="9d336-108">Pressione ENTER para aceitar a fórmula.</span><span class="sxs-lookup"><span data-stu-id="9d336-108">Press ENTER to accept the formula.</span></span>
     
 

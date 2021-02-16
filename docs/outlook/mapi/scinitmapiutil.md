@@ -19,19 +19,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420588"
 ---
-# <a name="scinitmapiutil"></a><span data-ttu-id="681c5-103">ScInitMapiUtil</span><span class="sxs-lookup"><span data-stu-id="681c5-103">ScInitMapiUtil</span></span>
+# <a name="scinitmapiutil"></a><span data-ttu-id="3dba6-103">ScInitMapiUtil</span><span class="sxs-lookup"><span data-stu-id="3dba6-103">ScInitMapiUtil</span></span>
 
   
   
-<span data-ttu-id="681c5-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="681c5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3dba6-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3dba6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="681c5-105">Substitui [MAPIInitialize](mapiinitialize.md) quando apenas as funções de utilitário são usadas.</span><span class="sxs-lookup"><span data-stu-id="681c5-105">Replaces [MAPIInitialize](mapiinitialize.md) when only select utility functions are being used.</span></span> 
+<span data-ttu-id="3dba6-105">Substitui [MAPIInitialize](mapiinitialize.md) quando apenas funções utilitais selecionadas estão sendo usadas.</span><span class="sxs-lookup"><span data-stu-id="3dba6-105">Replaces [MAPIInitialize](mapiinitialize.md) when only select utility functions are being used.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="681c5-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="681c5-106">Header file:</span></span>  <br/> |<span data-ttu-id="681c5-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="681c5-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="681c5-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="681c5-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="681c5-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="681c5-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="681c5-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="681c5-110">Called by:</span></span>  <br/> |<span data-ttu-id="681c5-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="681c5-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="3dba6-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="3dba6-106">Header file:</span></span>  <br/> |<span data-ttu-id="3dba6-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="3dba6-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="3dba6-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="3dba6-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3dba6-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3dba6-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="3dba6-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="3dba6-110">Called by:</span></span>  <br/> |<span data-ttu-id="3dba6-111">Aplicativos do cliente</span><span class="sxs-lookup"><span data-stu-id="3dba6-111">Client applications</span></span>  <br/> |
    
 ```cpp
 SCODE ScInitMapiUtil(
@@ -39,27 +39,27 @@ SCODE ScInitMapiUtil(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="681c5-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="681c5-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3dba6-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3dba6-112">Parameters</span></span>
 
- <span data-ttu-id="681c5-113">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="681c5-113">_ulFlags_</span></span>
+ <span data-ttu-id="3dba6-113">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3dba6-113">_ulFlags_</span></span>
   
-> <span data-ttu-id="681c5-114">no Serve deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="681c5-114">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="3dba6-114">[in] Reservado; deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="3dba6-114">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="681c5-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="681c5-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3dba6-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3dba6-115">Return value</span></span>
 
-<span data-ttu-id="681c5-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="681c5-116">S_OK</span></span> 
+<span data-ttu-id="3dba6-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="3dba6-116">S_OK</span></span> 
   
-> <span data-ttu-id="681c5-117">A chamada teve êxito e retornou o valor ou valores esperados.</span><span class="sxs-lookup"><span data-stu-id="681c5-117">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="3dba6-117">A chamada foi bem-sucedida e retornou o valor ou os valores esperados.</span><span class="sxs-lookup"><span data-stu-id="3dba6-117">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="681c5-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="681c5-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3dba6-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="3dba6-118">Remarks</span></span>
 
-<span data-ttu-id="681c5-119">As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam para chamar e liberar funções do utilitário Select, em vez de [MAPIInitialize](mapiinitialize.md), que chama o núcleo, bem como funções utilitárias.</span><span class="sxs-lookup"><span data-stu-id="681c5-119">The **ScInitMapiUtil** and [DeinitMapiUtil](deinitmapiutil.md) functions cooperate to call and release select utility functions, as opposed to [MAPIInitialize](mapiinitialize.md), which calls core as well as utility functions.</span></span> <span data-ttu-id="681c5-120">Quando o **ScInitMapiUtil** chama funções de utilitário, ele também inicializa a memória necessária.</span><span class="sxs-lookup"><span data-stu-id="681c5-120">When **ScInitMapiUtil** calls utility functions, it also initializes the necessary memory.</span></span> 
+<span data-ttu-id="3dba6-119">As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam para chamar e liberar funções utilitais selecionadas, em oposição a [MAPIInitialize](mapiinitialize.md), que chama o núcleo, bem como funções de utilitário.</span><span class="sxs-lookup"><span data-stu-id="3dba6-119">The **ScInitMapiUtil** and [DeinitMapiUtil](deinitmapiutil.md) functions cooperate to call and release select utility functions, as opposed to [MAPIInitialize](mapiinitialize.md), which calls core as well as utility functions.</span></span> <span data-ttu-id="3dba6-120">Quando **ScInitMapiUtil** chama funções de utilitário, ele também inicializa a memória necessária.</span><span class="sxs-lookup"><span data-stu-id="3dba6-120">When **ScInitMapiUtil** calls utility functions, it also initializes the necessary memory.</span></span> 
   
-<span data-ttu-id="681c5-121">Quando o uso das funções que o **ScInitMapiUtil** chamou estiver concluído, **DeinitMapiUtil** deverá ser explicitamente chamado para liberá-las.</span><span class="sxs-lookup"><span data-stu-id="681c5-121">When use of the functions that **ScInitMapiUtil** has called is complete, **DeinitMapiUtil** must be explicitly called to release them.</span></span> <span data-ttu-id="681c5-122">Por outro lado, **MAPIInitialize** chama implicitamente **DeinitMapiUtil**.</span><span class="sxs-lookup"><span data-stu-id="681c5-122">In contrast, **MAPIInitialize** implicitly calls **DeinitMapiUtil**.</span></span> 
+<span data-ttu-id="3dba6-121">Quando o uso das funções que **ScInitMapiUtil** chamou está concluído, **DeinitMapiUtil** deve ser chamado explicitamente para liberá-las.</span><span class="sxs-lookup"><span data-stu-id="3dba6-121">When use of the functions that **ScInitMapiUtil** has called is complete, **DeinitMapiUtil** must be explicitly called to release them.</span></span> <span data-ttu-id="3dba6-122">Por outro lado, **MAPIInitialize** implicitamente chama **DeinitMapiUtil**.</span><span class="sxs-lookup"><span data-stu-id="3dba6-122">In contrast, **MAPIInitialize** implicitly calls **DeinitMapiUtil**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="681c5-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="681c5-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3dba6-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="3dba6-123">See also</span></span>
 
 
 
-[<span data-ttu-id="681c5-124">MAPIUninitialize</span><span class="sxs-lookup"><span data-stu-id="681c5-124">MAPIUninitialize</span></span>](mapiuninitialize.md)
+[<span data-ttu-id="3dba6-124">MAPIUninitialize</span><span class="sxs-lookup"><span data-stu-id="3dba6-124">MAPIUninitialize</span></span>](mapiuninitialize.md)
 

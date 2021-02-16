@@ -16,8 +16,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419699"
 ---
-# <a name="shape-transform-section"></a><span data-ttu-id="9efd2-103">Seção Shape Transform</span><span class="sxs-lookup"><span data-stu-id="9efd2-103">Shape Transform Section</span></span>
+# <a name="shape-transform-section"></a><span data-ttu-id="3e8c3-103">Seção Shape Transform</span><span class="sxs-lookup"><span data-stu-id="3e8c3-103">Shape Transform Section</span></span>
 
-<span data-ttu-id="9efd2-104">Contém informações gerais de posicionamento de uma forma: por exemplo, a largura, a altura, o ângulo e o centro de rotação (pino); se a forma foi virada e como a forma deve se comportar quando redimensionada em um grupo.</span><span class="sxs-lookup"><span data-stu-id="9efd2-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
+<span data-ttu-id="3e8c3-104">Contém informações gerais de posicionamento de uma forma: por exemplo, a largura, a altura, o ângulo e o centro de rotação (pino); se a forma foi virada e como a forma deve se comportar quando redimensionada em um grupo.</span><span class="sxs-lookup"><span data-stu-id="3e8c3-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
   
 

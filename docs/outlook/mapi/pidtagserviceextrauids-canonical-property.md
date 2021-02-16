@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagServiceExtraUids
+title: Propriedade canônica PidTagServiceExtrauids
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,46 +19,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422303"
 ---
-# <a name="pidtagserviceextrauids-canonical-property"></a><span data-ttu-id="280a6-103">Propriedade canônica PidTagServiceExtraUids</span><span class="sxs-lookup"><span data-stu-id="280a6-103">PidTagServiceExtraUids Canonical Property</span></span>
+# <a name="pidtagserviceextrauids-canonical-property"></a><span data-ttu-id="10fef-103">Propriedade canônica PidTagServiceExtrauids</span><span class="sxs-lookup"><span data-stu-id="10fef-103">PidTagServiceExtraUids Canonical Property</span></span>
 
   
   
-<span data-ttu-id="280a6-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="280a6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="10fef-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10fef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="280a6-105">Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam seções de perfil adicionais para o serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="280a6-105">Contains a list of [MAPIUID](mapiuid.md) structures that identify additional profile sections for the message service.</span></span> 
+<span data-ttu-id="10fef-105">Contém uma lista de [estruturas MAPIUID](mapiuid.md) que identificam seções de perfil adicionais para o serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="10fef-105">Contains a list of [MAPIUID](mapiuid.md) structures that identify additional profile sections for the message service.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="280a6-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="280a6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="280a6-107">PR_SERVICE_EXTRA_UIDS</span><span class="sxs-lookup"><span data-stu-id="280a6-107">PR_SERVICE_EXTRA_UIDS</span></span>  <br/> |
-|<span data-ttu-id="280a6-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="280a6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="280a6-109">0x3D0D</span><span class="sxs-lookup"><span data-stu-id="280a6-109">0x3D0D</span></span>  <br/> |
-|<span data-ttu-id="280a6-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="280a6-110">Data type:</span></span>  <br/> |<span data-ttu-id="280a6-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="280a6-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="280a6-112">Área:</span><span class="sxs-lookup"><span data-stu-id="280a6-112">Area:</span></span>  <br/> |<span data-ttu-id="280a6-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="280a6-113">MAPI profile</span></span>  <br/> |
+|<span data-ttu-id="10fef-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="10fef-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="10fef-107">PR_SERVICE_EXTRA_UIDS</span><span class="sxs-lookup"><span data-stu-id="10fef-107">PR_SERVICE_EXTRA_UIDS</span></span>  <br/> |
+|<span data-ttu-id="10fef-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="10fef-108">Identifier:</span></span>  <br/> |<span data-ttu-id="10fef-109">0x3D0D</span><span class="sxs-lookup"><span data-stu-id="10fef-109">0x3D0D</span></span>  <br/> |
+|<span data-ttu-id="10fef-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="10fef-110">Data type:</span></span>  <br/> |<span data-ttu-id="10fef-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="10fef-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="10fef-112">Área:</span><span class="sxs-lookup"><span data-stu-id="10fef-112">Area:</span></span>  <br/> |<span data-ttu-id="10fef-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="10fef-113">MAPI profile</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="280a6-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="280a6-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="10fef-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="10fef-114">Remarks</span></span>
 
-<span data-ttu-id="280a6-115">Novas seções de perfil podem ser criadas para cada filtro de mensagem.</span><span class="sxs-lookup"><span data-stu-id="280a6-115">New profile sections can be created for each message filter.</span></span> <span data-ttu-id="280a6-116">Quando as informações sobre o serviço de mensagens são copiadas para outro perfil, é importante também copiar as seções de perfil adicionais para os filtros.</span><span class="sxs-lookup"><span data-stu-id="280a6-116">When the information about the message service is to be copied to another profile, it is important to copy the additional profile sections for the filters as well.</span></span> <span data-ttu-id="280a6-117">Um provedor de serviços que usa seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil no **PR_SERVICE_EXTRA_UIDS**, que permite que o MAPI copie as informações adicionais do serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="280a6-117">A service provider that uses additional profile sections can store the **MAPIUID** structures of those profile sections in **PR_SERVICE_EXTRA_UIDS**, which allows MAPI to copy the additional message service information.</span></span>
+<span data-ttu-id="10fef-115">Novas seções de perfil podem ser criadas para cada filtro de mensagem.</span><span class="sxs-lookup"><span data-stu-id="10fef-115">New profile sections can be created for each message filter.</span></span> <span data-ttu-id="10fef-116">Quando as informações sobre o serviço de mensagens devem ser copiadas para outro perfil, é importante copiar as seções de perfil adicionais para os filtros também.</span><span class="sxs-lookup"><span data-stu-id="10fef-116">When the information about the message service is to be copied to another profile, it is important to copy the additional profile sections for the filters as well.</span></span> <span data-ttu-id="10fef-117">Um provedor de serviços que usa seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil no **PR_SERVICE_EXTRA_UIDS**, que permite que o MAPI copie as informações adicionais do serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="10fef-117">A service provider that uses additional profile sections can store the **MAPIUID** structures of those profile sections in **PR_SERVICE_EXTRA_UIDS**, which allows MAPI to copy the additional message service information.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="280a6-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="280a6-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="10fef-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="10fef-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="280a6-119">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="280a6-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="10fef-119">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="10fef-119">Header files</span></span>
 
-<span data-ttu-id="280a6-120">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="280a6-120">Mapidefs.h</span></span>
+<span data-ttu-id="10fef-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="10fef-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="280a6-121">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="280a6-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="10fef-121">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="10fef-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="280a6-122">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="280a6-122">Mapitags.h</span></span>
+<span data-ttu-id="10fef-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="10fef-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="280a6-123">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="280a6-123">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="10fef-123">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="10fef-123">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="280a6-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="280a6-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10fef-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="10fef-124">See also</span></span>
 
 
 
-[<span data-ttu-id="280a6-125">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="280a6-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="10fef-125">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="10fef-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="280a6-126">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="280a6-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="10fef-126">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="10fef-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="280a6-127">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="280a6-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="10fef-127">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="10fef-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="280a6-128">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="280a6-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="10fef-128">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="10fef-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,46 +19,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420637"
 ---
-# <a name="pidtagrecipientnumberforadvice-canonical-property"></a><span data-ttu-id="62ccd-103">Propriedade canônica PidTagRecipientNumberForAdvice</span><span class="sxs-lookup"><span data-stu-id="62ccd-103">PidTagRecipientNumberForAdvice Canonical Property</span></span>
+# <a name="pidtagrecipientnumberforadvice-canonical-property"></a><span data-ttu-id="e843e-103">Propriedade canônica PidTagRecipientNumberForAdvice</span><span class="sxs-lookup"><span data-stu-id="e843e-103">PidTagRecipientNumberForAdvice Canonical Property</span></span>
 
   
   
-<span data-ttu-id="62ccd-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62ccd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e843e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e843e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="62ccd-105">Esta propriedade contém o número de telefone do destinatário da mensagem para chamar o aviso da entrega física de uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="62ccd-105">This property contains a message recipient's telephone number to call to advise of the physical delivery of a message.</span></span>
+<span data-ttu-id="e843e-105">Essa propriedade contém o número de telefone de um destinatário da mensagem a ser chamada para avisar sobre a entrega física de uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="e843e-105">This property contains a message recipient's telephone number to call to advise of the physical delivery of a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="62ccd-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="62ccd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="62ccd-107">PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W</span><span class="sxs-lookup"><span data-stu-id="62ccd-107">PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W</span></span>  <br/> |
-|<span data-ttu-id="62ccd-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="62ccd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="62ccd-109">0x0C14</span><span class="sxs-lookup"><span data-stu-id="62ccd-109">0x0C14</span></span>  <br/> |
-|<span data-ttu-id="62ccd-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="62ccd-110">Data type:</span></span>  <br/> |<span data-ttu-id="62ccd-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="62ccd-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="62ccd-112">Área:</span><span class="sxs-lookup"><span data-stu-id="62ccd-112">Area:</span></span>  <br/> |<span data-ttu-id="62ccd-113">Destinatário MAPI</span><span class="sxs-lookup"><span data-stu-id="62ccd-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="e843e-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="e843e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e843e-107">PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W</span><span class="sxs-lookup"><span data-stu-id="e843e-107">PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W</span></span>  <br/> |
+|<span data-ttu-id="e843e-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="e843e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e843e-109">0x0C14</span><span class="sxs-lookup"><span data-stu-id="e843e-109">0x0C14</span></span>  <br/> |
+|<span data-ttu-id="e843e-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="e843e-110">Data type:</span></span>  <br/> |<span data-ttu-id="e843e-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="e843e-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="e843e-112">Área:</span><span class="sxs-lookup"><span data-stu-id="e843e-112">Area:</span></span>  <br/> |<span data-ttu-id="e843e-113">Destinatário MAPI</span><span class="sxs-lookup"><span data-stu-id="e843e-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="62ccd-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="62ccd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e843e-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="e843e-114">Remarks</span></span>
 
-<span data-ttu-id="62ccd-115">Essas propriedades devem ser usadas em conjunto com a entrega para um destino físico, em vez de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega.</span><span class="sxs-lookup"><span data-stu-id="62ccd-115">These properties are meant to be used in conjunction with delivery to a physical destination, rather than an electronic mailbox, when the human recipient is not expected to be present at delivery.</span></span> <span data-ttu-id="62ccd-116">Um exemplo é o número de telefone em uma folha de rosto de fax.</span><span class="sxs-lookup"><span data-stu-id="62ccd-116">An example is the telephone number on a fax cover sheet.</span></span>
+<span data-ttu-id="e843e-115">Essas propriedades devem ser usadas em conjunto com a entrega para um destino físico, em vez de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega.</span><span class="sxs-lookup"><span data-stu-id="e843e-115">These properties are meant to be used in conjunction with delivery to a physical destination, rather than an electronic mailbox, when the human recipient is not expected to be present at delivery.</span></span> <span data-ttu-id="e843e-116">Um exemplo é o número de telefone em uma folha de capa de fax.</span><span class="sxs-lookup"><span data-stu-id="e843e-116">An example is the telephone number on a fax cover sheet.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="62ccd-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="62ccd-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e843e-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="e843e-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="62ccd-118">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="62ccd-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e843e-118">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="e843e-118">Header files</span></span>
 
-<span data-ttu-id="62ccd-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="62ccd-119">Mapidefs.h</span></span>
+<span data-ttu-id="e843e-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e843e-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="62ccd-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="62ccd-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="e843e-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="e843e-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="62ccd-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="62ccd-121">Mapitags.h</span></span>
+<span data-ttu-id="e843e-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e843e-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="62ccd-122">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="62ccd-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="e843e-122">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="e843e-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="62ccd-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="62ccd-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e843e-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="e843e-123">See also</span></span>
 
 
 
-[<span data-ttu-id="62ccd-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="62ccd-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e843e-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="e843e-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="62ccd-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="62ccd-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e843e-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="e843e-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="62ccd-126">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="62ccd-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e843e-126">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="e843e-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="62ccd-127">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="62ccd-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e843e-127">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="e843e-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

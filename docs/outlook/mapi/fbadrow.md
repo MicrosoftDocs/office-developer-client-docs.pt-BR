@@ -19,19 +19,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420616"
 ---
-# <a name="fbadrow"></a><span data-ttu-id="84318-103">FBadRow</span><span class="sxs-lookup"><span data-stu-id="84318-103">FBadRow</span></span>
+# <a name="fbadrow"></a><span data-ttu-id="8ec72-103">FBadRow</span><span class="sxs-lookup"><span data-stu-id="8ec72-103">FBadRow</span></span>
 
   
   
-<span data-ttu-id="84318-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84318-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8ec72-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ec72-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84318-105">Valida uma linha em uma tabela.</span><span class="sxs-lookup"><span data-stu-id="84318-105">Validates a row in a table.</span></span>
+<span data-ttu-id="8ec72-105">Valida uma linha em uma tabela.</span><span class="sxs-lookup"><span data-stu-id="8ec72-105">Validates a row in a table.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="84318-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="84318-106">Header file:</span></span>  <br/> |<span data-ttu-id="84318-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="84318-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="84318-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="84318-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="84318-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="84318-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="84318-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="84318-110">Called by:</span></span>  <br/> |<span data-ttu-id="84318-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="84318-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="8ec72-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="8ec72-106">Header file:</span></span>  <br/> |<span data-ttu-id="8ec72-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="8ec72-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="8ec72-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="8ec72-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="8ec72-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="8ec72-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="8ec72-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="8ec72-110">Called by:</span></span>  <br/> |<span data-ttu-id="8ec72-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="8ec72-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadRow(
@@ -39,25 +39,25 @@ ULONG FBadRow(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="84318-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="84318-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8ec72-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="8ec72-112">Parameters</span></span>
 
- <span data-ttu-id="84318-113">_lprow_</span><span class="sxs-lookup"><span data-stu-id="84318-113">_lprow_</span></span>
+ <span data-ttu-id="8ec72-113">_lprow_</span><span class="sxs-lookup"><span data-stu-id="8ec72-113">_lprow_</span></span>
   
-> <span data-ttu-id="84318-114">no Ponteiro para uma estrutura [SRow](srow.md) identificando a linha a ser validada.</span><span class="sxs-lookup"><span data-stu-id="84318-114">[in] Pointer to an [SRow](srow.md) structure identifying the row to be validated.</span></span> 
+> <span data-ttu-id="8ec72-114">[in] Ponteiro para uma [estrutura SRow](srow.md) que identifica a linha a ser validada.</span><span class="sxs-lookup"><span data-stu-id="8ec72-114">[in] Pointer to an [SRow](srow.md) structure identifying the row to be validated.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="84318-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="84318-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8ec72-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="8ec72-115">Return value</span></span>
 
-<span data-ttu-id="84318-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="84318-116">TRUE</span></span> 
+<span data-ttu-id="8ec72-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="8ec72-116">TRUE</span></span> 
   
-> <span data-ttu-id="84318-117">A linha especificada é inválida.</span><span class="sxs-lookup"><span data-stu-id="84318-117">The specified row is invalid.</span></span>
+> <span data-ttu-id="8ec72-117">A linha especificada é inválida.</span><span class="sxs-lookup"><span data-stu-id="8ec72-117">The specified row is invalid.</span></span>
     
-<span data-ttu-id="84318-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="84318-118">FALSE</span></span> 
+<span data-ttu-id="8ec72-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="8ec72-118">FALSE</span></span> 
   
-> <span data-ttu-id="84318-119">A linha especificada é válida.</span><span class="sxs-lookup"><span data-stu-id="84318-119">The specified row is valid.</span></span>
+> <span data-ttu-id="8ec72-119">A linha especificada é válida.</span><span class="sxs-lookup"><span data-stu-id="8ec72-119">The specified row is valid.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="84318-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="84318-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8ec72-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="8ec72-120">See also</span></span>
 
 
 
-[<span data-ttu-id="84318-121">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="84318-121">FBadRowSet</span></span>](fbadrowset.md)
+[<span data-ttu-id="8ec72-121">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="8ec72-121">FBadRowSet</span></span>](fbadrowset.md)
 
