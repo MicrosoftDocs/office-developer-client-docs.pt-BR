@@ -23,7 +23,7 @@ ms.locfileid: "33436031"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma linha e a operação que é executada nessa linha em uma tabela através da interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contém uma linha e a operação que é executada nessa linha em uma tabela por meio da interface [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -38,23 +38,23 @@ typedef struct
 
 **ulRowFlags**
   
-> Uma das operações a seguir a ser executada nos dados: 
+> Uma das seguintes operações a serem executadas nos dados: 
     
-  - ROW_ADD: adicionar os dados à tabela como uma nova linha.
+  - ROW_ADD: adicione os dados à tabela como uma nova linha.
       
-  - ROW_MODIFY: modifique essa linha na tabela.
+  - ROW_MODIFY: modifique esta linha na tabela.
       
-  - ROW_REMOVE: remova essa linha da tabela.
+  - ROW_REMOVE: remova esta linha da tabela.
       
-  - ROW_EMPTY: Não adicione os dados da linha à tabela. (A linha está vazia.)
+  - ROW_EMPTY: não adicione os dados de linha à tabela. (A linha está vazia.)
     
 **cValues**
   
-> O número de valores de propriedade em **rgPropvals**.
+> O número de valores de propriedade **em rgPropvals**.
     
 **rgPropVals**
   
-> Uma matriz de estruturas [SPropValue](spropvalue.md) que representa os valores das colunas a serem inseridas na tabela. 
+> Uma matriz de [estruturas SPropValue](spropvalue.md) que representam os valores de colunas a serem inseridos na tabela. 
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -62,7 +62,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|RulesDlg. cpp  <br/> |CRulesDlg:: getSelectedItems  <br/> |Usado para criar uma lista de regras selecionadas para ações **modificadas** subsequentes.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Usado para criar uma lista de regras selecionadas para ações **ModifyTable** subsequentes.  <br/> |
    
 ## <a name="see-also"></a>Confira também
   

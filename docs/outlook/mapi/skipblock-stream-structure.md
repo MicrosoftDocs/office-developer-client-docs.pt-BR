@@ -19,15 +19,15 @@ ms.locfileid: "33435541"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma estrutura de fluxo SkipBlock é um bloco de dados que começa com um inteiro que especifica o comprimento da parte restante do bloco. Essa estrutura de fluxo existe em um fluxo de [FieldDefinition](fielddefinition-stream-structure.md) se a definição de campo estiver no formato PropDefV2. 
+Uma estrutura de fluxo SkipBlock é um bloco de dados que começa com um inteiro que especifica o comprimento da parte restante do bloco. Essa estrutura de fluxo existe em [um fluxo FieldDefinition](fielddefinition-stream-structure.md) se a definição de campo estiver no formato PropDefV2. 
   
-A finalidade de uma estrutura de fluxo do SkipBlock depende de seu local relativo em uma série de estruturas semelhantes no elemento de dados SkipBlocks de um fluxo de FieldDefinition. A série SkipBlocks deve conter pelo menos uma estrutura SkipBlock que termine a série e tenha o elemento de dados de tamanho igual a 0. Se a primeira estrutura não for a estrutura de terminação (ou seja, o elemento de dados size for maior que 0), o Outlook presumirá que a primeira estrutura especifica o nome do campo em Unicode (UTF-16).
+A finalidade de uma estrutura de fluxo SkipBlock depende de seu local relativo em uma série de estruturas como no elemento de dados SkipBlocks de um fluxo FieldDefinition. A série SkipBlocks deve conter pelo menos uma estrutura SkipBlock que termine a série e tenha o elemento de dados Size igual a 0. Se a primeira estrutura não for a estrutura de terminação (ou seja, o elemento de dados Size for maior que 0), o Outlook assumirá que a primeira estrutura especificará o nome do campo em Unicode (UTF-16).
   
-Os elementos de dados neste fluxo são armazenados em uma ordem de byte little-endian, imediatamente após o outro na ordem especificada abaixo.
+Os elementos de dados nesse fluxo são armazenados em ordem de byte little-endian, imediatamente após uns aos outros na ordem especificada abaixo.
   
-- Tamanho: DWORD (4 bytes), o tamanho, em número de bytes, do elemento de dados de conteúdo.
+- Tamanho: DWORD (4 bytes), o tamanho, em número de bytes, do elemento de dados Content.
     
-- Conteúdo: uma matriz de BYTE. A contagem dessa matriz é igual ao elemento de dados de tamanho. O significado do elemento de dados de conteúdo depende do local da estrutura SkipBlock da série e da versão do Outlook. Se a primeira estrutura SkipBlock não for a estrutura de terminação, o Outlook considerará a primeira estrutura SkipBlock como a estrutura de fluxo de [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica o nome do campo em Unicode. 
+- Conteúdo: uma matriz de BYTE. A contagem dessa matriz é igual ao elemento de dados Size. O significado do elemento de dados de conteúdo depende do local da estrutura SkipBlock na série e da versão do Outlook. Se a primeira estrutura SkipBlock não for a estrutura de encerramento, o Outlook considerará a primeira estrutura SkipBlock como a estrutura de fluxo [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica o nome do campo em Unicode. 
     
 ## <a name="see-also"></a>Confira também
 
@@ -37,7 +37,7 @@ Os elementos de dados neste fluxo são armazenados em uma ordem de byte little-e
   
 [Estruturas de fluxo](stream-structures.md)
   
-[Estrutura de fluxo FieldDefinition](fielddefinition-stream-structure.md)
+[Estrutura de Fluxo de FieldDefinition](fielddefinition-stream-structure.md)
   
-[Estrutura de fluxo FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+[Estrutura de fluxo firstSkipBlockContent](firstskipblockcontent-stream-structure.md)
 

@@ -25,11 +25,11 @@ ms.locfileid: "33435170"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador de entrada MTS (sistema de transporte de mensagens) X. 400. 
+Contém um identificador de entrada do sistema de transporte de mensagens (MTS) X.400. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
@@ -45,15 +45,15 @@ typedef struct
 
  **cb**
   
-> Contagem de bytes na matriz descrita pelo membro **abEntry** . 
+> Contagem de bytes na matriz descrita pelo membro **abEntry.** 
     
  **abEntry**
   
-> Matriz de bytes que contém os dados do identificador de entrada MTS.
+> Matriz de byte que contém os dados do identificador de entrada MTS.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MTSID** é usada apenas para mapeamentos X. 400 de identificadores de entrada MAPI. Ela corresponde à estrutura [FLATENTRY](flatentry.md) MAPI. 
+A **estrutura MTSID** é usada somente para mapeamentos X.400 de identificadores de entrada MAPI. Ela corresponde à estrutura [FLATENTRY](flatentry.md) DE MAPI. 
   
 Um identificador MTS tem o mesmo formato que um identificador de entrada MAPI ou um valor de propriedade binária. Os identificadores MTS podem ser particularmente úteis para cancelar mensagens adiadas. 
   

@@ -19,7 +19,7 @@ ms.locfileid: "33439314"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção contém visões gerais conceituais dos elementos de programação na [referência do MAPI](mapi-reference.md). 
+Esta seção contém visão geral conceitual dos elementos de programação na [Referência de MAPI.](mapi-reference.md) 
   
 ## <a name="see-also"></a>Confira também
 

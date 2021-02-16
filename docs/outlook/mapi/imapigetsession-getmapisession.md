@@ -37,7 +37,7 @@ HRESULT GetMAPISession(
 
  _lppSession_
   
-> bota Um ponteiro para a sessão MAPI atual.
+> [out] Um ponteiro para a sessão MAPI atual.
     
 ## <a name="see-also"></a>Confira também
 

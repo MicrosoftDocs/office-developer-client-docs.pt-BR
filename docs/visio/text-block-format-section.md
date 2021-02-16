@@ -22,6 +22,6 @@ Contém as células que controlam o alinhamento, as margens e a posição de tex
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esses atributos de texto usando a caixa de diálogo **texto** (na guia **página inicial** , clique no iniciador da caixa de diálogo no grupo **fonte** ). 
+Você também pode definir esses  atributos de texto  usando a caixa de diálogo Texto (na guia Página Início, clique no início da caixa de diálogo no **grupo** Fonte). 
   
 

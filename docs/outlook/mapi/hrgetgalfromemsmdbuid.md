@@ -21,11 +21,11 @@ ms.locfileid: "33439104"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada do catálogo de endereços global para o serviço do Exchange identificado por _pEmsmdbUID_. O identificador de entrada retornado deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
+Retorna o identificador de entrada do livro de endereços global para o serviço exchange identificado por  _pEmsmdbUID_. O identificador de entrada retornado deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |abhelp. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> no O IMAPISession conectado. Ele não pode ser nulo.
+> [in] O IMAPISession conectado. Não pode ser NULL.
     
  _pAddrBook_
   
-> no O catálogo de endereços usado para abrir o identificador de entrada. Ele não pode ser nulo.
+> [in] O livro de endereços usado para abrir o identificador de entrada. Não pode ser NULL.
     
  _pEmsmdbUID_
   
-> no Um ponteiro para um **emsmdbUID** que identifica a GAL do serviço do Exchange a ser recuperado. Se _pEmsmdbUID_ for nulo ou a UID zero, essa função obterá a GAL herdada do serviço do Exchange. 
+> [in] Um ponteiro para **um emsmdbUID** que identifica a GAL do Serviço do Exchange a ser recuperada. Se  _pEmsmdbUID_ for NULL ou o UID zero, essa função obtém a GAL herdado do Serviço do Exchange. 
     
- _lpcbeid_
+ _lpc planejadod_
   
-> bota Um ponteiro para o número de bytes do identificador de entrada da lista de endereços global.
+> [out] Um ponteiro para a contagem de byte do identificador de entrada da lista de endereços global.
     
  _lppeid_
   
-> bota Um ponteiro para o identificador de entrada da lista de endereços global. Isso deve ser liberado usando o [MAPIFreeBuffer](mapifreebuffer.md).
+> [out] Um ponteiro para o identificador de entrada da lista de endereços global. Isso deve ser liberado usando [MAPIFreeBuffer](mapifreebuffer.md).
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33436150"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela um registro de notificação estabelecido previamente para uma entrada do catálogo de endereços.
+Cancela um registro de notificação estabelecido anteriormente para uma entrada do livro de endereços.
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> no Um número de conexão que representa o registro a ser cancelado. O parâmetro _ulConnection_ deve conter um valor retornado por uma chamada anterior para o método [IAddrBook:: Advise](iaddrbook-advise.md) . 
+> [in] Um número de conexão que representa o registro a ser cancelado. O _parâmetro ulConnection_ deve conter um valor retornado por uma chamada anterior para o [método IAddrBook::Advise.](iaddrbook-advise.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes chamam o método **Unadvise** para parar de receber notificações sobre alterações em uma entrada de catálogo de endereços específica. Quando um registro de notificação é cancelado, o provedor de catálogo de endereços libera o ponteiro para o coletor de aviso do chamador. No enTanto, o lançamento pode ocorrer durante a chamada a **Unadvise** ou, posteriormente, se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) . Quando uma notificação estiver em andamento, a versão será atrasada até o **** método OnNotify retornar. 
+Os clientes chamam **o método Unadvise** para parar de receber notificações sobre alterações em uma entrada específica do livro de endereços. Quando um registro de notificação é cancelado, o provedor de agendamento libera seu ponteiro para o pia de aviso do chamador. No entanto, a versão pode ocorrer durante a chamada **Unadvise** ou em algum momento posterior, se outro thread estiver em processo de chamada do método [IMAPIAdviseSink::OnNotify.](imapiadvisesink-onnotify.md) Quando uma notificação está em andamento, a versão é adiada até que o **método OnNotify** retorne. 
   
 ## <a name="see-also"></a>Confira também
 

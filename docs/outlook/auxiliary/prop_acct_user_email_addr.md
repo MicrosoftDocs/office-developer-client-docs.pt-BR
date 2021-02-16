@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436773"
 ---
-# <a name="propacctuseremailaddr"></a>PROP_ACCT_USER_EMAIL_ADDR
+# <a name="prop_acct_user_email_addr"></a>PROP_ACCT_USER_EMAIL_ADDR
 
 Especifica o endereço de email da conta.
   
@@ -31,7 +31,7 @@ Confira [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Comentários
 
- **PROP_ACCT_USER_EMAIL_ADDR** não deve existir em todas as contas. Por exemplo, uma conta do Exchange poderia ter [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) mas não **PROP_ACCT_USER_EMAIL_ADDR**, enquanto for uma conta SMTP/POP3, a situação será revertida.
+ **PROP_ACCT_USER_EMAIL_ADDR** se espera que exista em todas as contas. Por exemplo, uma conta [](prop_mapi_identity_entryid.md) do Exchange pode ter PROP_MAPI_IDENTITY_ENTRYID, mas não **PROP_ACCT_USER_EMAIL_ADDR**, enquanto para uma conta SMTP/POP3, a situação é invertida.
   
 ## <a name="see-also"></a>Confira também
 

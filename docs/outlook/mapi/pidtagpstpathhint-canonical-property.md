@@ -23,34 +23,34 @@ ms.locfileid: "33437305"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece o nome da tabela de armazenamento pessoal (arquivo. pst), que o usuário pode editar, para a caixa de diálogo de configuração. 
+Fornece o nome da tabela de armazenamento pessoal (arquivo .pst), que o usuário pode editar, para a caixa de diálogo de configuração. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W  <br/> |
 |Identificador:  <br/> |0x6771  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Tabela de armazenamento pessoal (. pst) interna  <br/> |
+|Área:  <br/> |Tabela de armazenamento pessoal (.pst) interna  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) for usada em vez disso, a caixa de diálogo de configuração será aberta, mas o usuário não poderá editar o caminho e muitas outras propriedades.
+Se a **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) for usada em vez disso, a caixa de diálogo de configuração será aberta, mas o usuário não poderá editar o caminho e muitas outras propriedades.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

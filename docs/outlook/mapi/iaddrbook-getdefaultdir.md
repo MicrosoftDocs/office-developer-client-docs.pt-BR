@@ -25,7 +25,7 @@ ms.locfileid: "33436871"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada para o contêiner do catálogo de endereços inicial.
+Retorna o identificador de entrada para o contêiner inicial do address book.
   
 ```cpp
 HRESULT GetDefaultDir(
@@ -38,11 +38,11 @@ HRESULT GetDefaultDir(
 
  _lpcbEntryID_
   
-> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> [out] Um ponteiro para a contagem de byte no identificador de entrada apontado pelo _parâmetro lppEntryID._ 
     
  _lppEntryID_
   
-> bota Um ponteiro para um ponteiro para o identificador de entrada do contêiner padrão.
+> [out] Um ponteiro para um ponteiro para o identificador de entrada do contêiner padrão.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Aplicativos cliente e provedores de serviços chamam o método **GetDefaultDir** para recuperar o identificador de entrada do contêiner de catálogo de endereços padrão. O contêiner padrão é o que o usuário vê exibido no catálogo de endereços quando o catálogo de endereços é aberto pela primeira vez. Se um contêiner padrão não tiver sido definido por uma chamada para o método [IAddrBook:: SetDefaultDir](iaddrbook-setdefaultdir.md) , MAPI atribui como o contêiner padrão o primeiro contêiner com nomes que não sejam o catálogo de endereços pessoal (PAB). Se esse contêiner não puder ser localizado, o PAB se tornará o contêiner padrão. 
+Os aplicativos cliente e provedores de serviços chamam o **método GetDefaultDir** para recuperar o identificador de entrada do contêiner de agendamento de endereços padrão. O contêiner padrão é o que o usuário vê exibido no livro de endereços quando o livro de endereços é aberto pela primeira vez. Se um contêiner padrão não tiver sido definido por uma chamada para o método [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) o MAPI atribuirá como contêiner padrão o primeiro contêiner com nomes que não são o pab (lista de endereços pessoal). Se esse contêiner não for encontrado, o PAB se tornará o contêiner padrão. 
   
-Para definir o diretório padrão, um cliente ou provedor chama o método **SetDefaultDir** . Os clientes e provedores não precisam chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) ; como as alterações no catálogo de endereços não são transacionadas, as alterações são imediatamente feitas permanentes. 
+Para definir o diretório padrão, um cliente ou provedor chama o **método SetDefaultDir.** Os clientes e provedores não têm que chamar o [método IMAPIProp::SaveChanges;](imapiprop-savechanges.md) como as alterações no livro de endereços não são transacionados, as alterações são permanentes imediatamente. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -62,7 +62,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenDefaultDir  <br/> |MFCMAPI usa o método **GetDefaultDir** para obter a ID do contêiner de catálogo de endereços padrão.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI usa o **método GetDefaultDir** para obter a ID do contêiner de livro de endereços padrão.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

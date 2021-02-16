@@ -26,7 +26,7 @@ Determina o nível de transparência para a cor utilizada para o primeiro plano 
    
 ## <a name="remarks"></a>Comentários
 
-Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma sombra que tenha um preenchimento completamente transparente seja exibida na página de desenho como uma sombra que não tem preenchimento, ela interage com outros objetos da página da mesma maneira que se a transparência fosse 0%.
+Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma sombra com preenchimento completamente transparente tenha a mesma forma que uma sombra sem preenchimento na página de desenho, ela interage com outros objetos na página da mesma forma que se a transparência fosse 0%.
   
 Você pode também definir o valor utilizando o controle deslizante na caixa de diálogo **Sombra** (na guia **Página Inicial**, no grupo **Forma**, clique em **Sombra** e em **Opções de Sombra**). Esse valor controla o valor das transparências de sombra do primeiro plano e do plano de fundo. Para definir os valores independentemente, insira-os na janela ShapeSheet.
   
@@ -42,6 +42,6 @@ Para obter uma referência para a célula ShdwForegndTrans pelo índice, a parti
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillShdwForegndTrans** <br/> |
+|Índice de célula:  <br/> |**visFillShdwForegndTrans** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33435149"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um tamanho de mensagem, em bytes, passado para um aplicativo cliente ou provedor de serviços para determinar se uma mensagem desse tamanho pode ser entregue. 
+Contém um comprimento de mensagem, em bytes, passado para um aplicativo cliente ou provedor de serviços para determinar se uma mensagem desse tamanho pode ser entregue. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contém um tamanho de mensagem, em bytes, passado para um aplicativo cliente ou 
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33434148"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de fila de saída, uma tabela que tem informações sobre todas as mensagens na fila de saída do repositório de mensagens. Este método é chamado apenas pelo spooler MAPI.
+Fornece acesso à tabela de filas de saída, uma tabela que tem informações sobre todas as mensagens na fila de saída do armazenamento de mensagens. Esse método é chamado apenas pelo spooler MAPI.
   
 ```cpp
 HRESULT GetOutgoingQueue(
@@ -38,29 +38,29 @@ HRESULT GetOutgoingQueue(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela de fila de saída.
+> [out] Um ponteiro para um ponteiro para a tabela de fila de saída.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A tabela de fila de saída foi retornada com êxito.
+> A tabela de filas de saída foi retornada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore:: GetOutgoingQueue** fornece ao spooler MAPI o acesso à tabela que mostra a fila de mensagens de saída do repositório de mensagens. Normalmente, as mensagens são colocadas na tabela de fila de saída depois que o método [IMessage:: SubmitMessage](imessage-submitmessage.md) é chamado. No enTanto, como a ordem de envio afeta a ordem de pré-processamento e envio para o provedor de transporte, algumas mensagens marcadas para envio podem não aparecer na tabela de fila de saída imediatamente. 
+O **método IMsgStore::GetOutgoingQueue** fornece ao spooler MAPI acesso à tabela que mostra a fila de mensagens de saída do repositório de mensagens. Normalmente, as mensagens são colocadas na tabela de filas de saída após o método [IMessage::SubmitMessage](imessage-submitmessage.md) ser chamado. No entanto, como a ordem de envio afeta a ordem de pré-processamento e envio ao provedor de transporte, algumas mensagens marcadas para envio podem não aparecer imediatamente na tabela de filas de saída. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Para obter uma lista das propriedades que devem ser incluídas como colunas na tabela de fila de saída, confira [tabelas de fila de saída](outgoing-queue-tables.md). 
+Para uma lista das propriedades que devem ser incluídas como colunas em sua tabela de fila de saída, consulte Tabelas de Fila de [Saída.](outgoing-queue-tables.md) 
   
-Como o spooler MAPI foi projetado para aceitar mensagens de um repositório de mensagens em ordem crescente de tempo de envio, permita que o spooler MAPI Classifique a tabela de fila de saída para corresponder a essa ordem ou a estabeleça como a ordem de classificação padrão.
+Como o spooler MAPI foi projetado para aceitar mensagens de um armazenamento de mensagens em ordem crescente de tempo de envio, permita que o spooler MAPI classificar a tabela de fila de saída para corresponder a essa ordem ou estabeleça-a como a ordem de classificação padrão.
   
-Você deve dar suporte a notificações para a tabela de fila de mensagens de saída, garantindo que o spooler MAPI seja notificado quando o conteúdo da fila for alterado. 
+Você deve dar suporte a notificações para a tabela de fila de mensagens de saída, garantindo que o spooler MAPI seja notificado quando o conteúdo da fila mudar. 
   
 ## <a name="see-also"></a>Confira também
 

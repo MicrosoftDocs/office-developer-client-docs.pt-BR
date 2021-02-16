@@ -22,13 +22,13 @@ Retorna o componente verde de uma cor.
   
 ## <a name="syntax"></a>Sintaxe
 
-VERDE (* * *expressão* * *) 
+Expressão GREEN(** *** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resolve para uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cor.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Varia** <br/> |Um índice de uma cor na tabela de cores do documento, uma expressão que resulta em uma cor personalizada (como RGB ou HSL) ou uma referência a uma célula que contém um índice de cores ou um resultado de cor.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -36,17 +36,17 @@ Inteiro
   
 ## <a name="remarks"></a>Comentários
 
-O valor retornado é um número entre 0 e 255, inclusive, ou uma referência de célula que resulta em um índice. Se a *expressão* for inválida, retornará 0 (preto). 
+O valor retornado é um número entre 0 e 255, inclusive, ou uma referência de célula que resulta em um índice. Se  *a expressão*  for inválida, ela retornará 0 (preto). 
   
 ## <a name="example-1"></a>Exemplo 1
 
-VERDE (planilha. 4! FillForegnd
+GREEN(Sheet.4! FillForegnd)
   
 Retornará o componente verde da cor de primeiro plano do preenchimento de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-VERDE (11)
+GREEN(11)
   
 Retornará 128 se o documento utilizar a paleta de cores padrão do Visio, sendo amarelo escuro a cor do índice 11.
   

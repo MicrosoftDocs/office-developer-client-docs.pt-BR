@@ -19,10 +19,10 @@ ms.locfileid: "33435891"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como alternativa ao registro direto com um objeto de origem de aviso, como uma pasta ou um usuário de mensagens, um cliente pode se registrar para notificações em uma tabela de conteúdo ou hierarquia. Controlar alterações em entradas do catálogo de endereços, pastas e mensagens por meio de uma tabela de conteúdo ou hierarquia pode ser mais simples e simples do que por objetos individuais. 
+Como alternativa ao registro direto com um objeto de origem de aviso, como uma pasta ou um usuário de mensagens, um cliente pode se registrar para notificações em um conteúdo ou tabela de hierarquia. O rastreamento de alterações em entradas, pastas e mensagens de um conteúdo ou de uma tabela de hierarquia pode ser mais simples e simples do que por meio de objetos individuais. 
 
-Por exemplo, você pode chamar [IMAPITable:: Advise](imapitable-advise.md) na tabela de hierarquia da pasta para descobrir quando as alterações ocorrem em uma de suas subpastas. Se você oferecer suporte à exibição de mensagens remotas, registre-se com a tabela de status para observar a atividade por provedores de transporte e pelo spooler MAPI. 
+Por exemplo, você pode chamar [IMAPITable::Advise](imapitable-advise.md) na tabela de hierarquia de uma pasta para descobrir quando ocorrem alterações em uma de suas subpastas. Se você suportar a exibição de mensagens remotas, registre-se na tabela de status para observar a atividade dos provedores de transporte e do spooler MAPI. 
   
-No enTanto, nem sempre é preferível usar as notificações de tabela em vez de notificações de objeto. O monitoramento de alterações no número de mensagens em uma pasta é um exemplo de quando o cliente pode precisar registrar notificações de objeto em uma pasta, em vez de em uma tabela implementada pela pasta.
+No entanto, nem sempre é preferível usar notificações de tabela em vez de notificações de objeto. O monitoramento de alterações no número de mensagens em uma pasta é um exemplo de quando seu cliente pode precisar se registrar para notificações de objeto em uma pasta, em vez de em uma tabela implementada pela pasta.
   
 

@@ -18,14 +18,14 @@ ms.locfileid: "33439461"
 ---
 # <a name="polylineto-row-geometry-section"></a>Linha PolylineTo (Seção Geometry)
 
-Contém as coordenadas *x* e *y* do último ponto de uma polilinha e uma fórmula de polilinha. 
+Contém as coordenadas  *x*  e  *y*  do último ponto de uma polilinha e uma fórmula de polilinha. 
   
 Uma linha PolylineTo contém as células a seguir.
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final de uma polilinha.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final de uma polilinha.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A  *coordenada x*  do vértice final de uma polilinha.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A  *coordenada y*  do vértice final de uma polilinha.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |A fórmula da polilinha.  <br/> |
    
 ## <a name="remarks"></a>Comentários

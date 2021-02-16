@@ -21,11 +21,11 @@ ms.locfileid: "33437774"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Sempre que uma propriedade nomeada é enviada, movida ou copiada, o nome permanece constante, mas o identificador deve ser alterado para aderir ao mapeamento do objeto de destino. A única exceção a essa regra é quando a origem e o destino têm a mesma assinatura de mapeamento, tornando o remapeamento desnecessário.
+Sempre que uma propriedade nomeada é enviada, movida ou copiada, o nome permanece constante, mas o identificador deve mudar para aderir ao mapeamento do objeto de destino. A única exceção a essa regra é quando a origem e o destino têm a mesma assinatura de mapeamento, tornando desnecessário o remapeamento.
   
-É responsabilidade do provedor de transporte remapear os nomes das propriedades nomeadas transmitidas para os identificadores apropriados que funcionam no destino. O provedor de transporte de envio não pode saber qual é o mapeamento correto no destino; Ele deve transmitir os nomes e confiar no provedor de transporte de recebimento para mapeá-los para os identificadores que funcionam. A implementação de MAPI do TNEF manipula o remapeamento de propriedades nomeadas para provedores de transporte. Os provedores de transporte podem manipular o remapeamento manualmente ou usar a implementação TNEF. 
+É responsabilidade do provedor de transporte remapear os nomes das propriedades nomeadas transmitidas para identificadores apropriados que trabalham no destino. O provedor de transporte de envio não pode saber qual é o mapeamento correto no destino; ele deve transmitir os nomes e contar com o provedor de transporte de recebimento para mapeá-los para identificadores que funcionam. A implementação mapi do TNEF lida com o remapeamento de propriedades nomeadas para provedores de transporte. Os provedores de transporte podem manipular o remapeamento manualmente ou usar a implementação do TNEF. 
   
-Um remapeamento semelhante de propriedades nomeadas deve ocorrer quando essas propriedades são copiadas entre repositórios de mensagens. No enTanto, como os provedores de repositórios de mensagens podem recuperar o nome para o mapeamento de identificadores do destino, eles podem remapear as propriedades imediatamente e não precisam depender do repositório de mensagens de destino. 
+Um remapeamento semelhante de propriedades nomeadas deve ocorrer quando essas propriedades são copiadas entre os armazenamentos de mensagens. No entanto, como os provedores de armazenamento de mensagens podem recuperar o nome para o mapeamento de identificador do destino, eles podem remapear as propriedades imediatamente e não precisam depender do armazenamento de mensagens de destino. 
   
 ## <a name="see-also"></a>Confira também
 

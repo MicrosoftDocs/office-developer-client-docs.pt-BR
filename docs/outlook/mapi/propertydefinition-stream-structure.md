@@ -17,29 +17,29 @@ ms.locfileid: "33438586"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma estrutura de fluxo do PropertyDefinition é uma matriz de estruturas de fluxo do [FieldDefinition](fielddefinition-stream-structure.md) que contêm definições para todos os campos definidos pelo usuário em um item do Microsoft Outlook e configurações de vinculação de dados para alguns campos internos. 
+Uma estrutura de fluxo PropertyDefinition é uma matriz de estruturas de fluxo [FieldDefinition](fielddefinition-stream-structure.md) que contêm definições para todos os campos definidos pelo usuário em um item do Microsoft Outlook e configurações de vinculação de dados para alguns campos integrados. 
   
-Você pode manipular programaticamente a estrutura de fluxo do PropertyDefinition. No enTanto, você pode obter resultados semelhantes usando o designer de formulários do Outlook e, em particular, a caixa de diálogo **Propriedades** para um controle associado a dados. 
+Você pode manipular programaticamente a estrutura de fluxo PropertyDefinition. No entanto, você pode obter resultados semelhantes usando o  Designer de Formulários do Outlook e, em particular, a caixa de diálogo Propriedades para um controle vinculado a dados. 
   
-As definições de campo em uma estrutura de fluxo do PropertyDefinition podem ser um dos dois formatos: PropDefV1 e PropDefV2. O Outlook oferece suporte ao PropDefV1 e ao PropDefV2. Todas as definições de campo em uma única estrutura de fluxo de PropertyDefinition devem ter o mesmo formato. Para obter mais informações sobre como PropDefV1 e PropDefV2 diferem, consulte [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
+As definições de campo em uma estrutura de fluxo PropertyDefinition podem ser um dos dois formatos: PropDefV1 e PropDefV2. O Outlook dá suporte a PropDefV1 e PropDefV2. Todas as definições de campo em uma única estrutura de fluxo PropertyDefinition devem ter o mesmo formato. Para obter mais informações sobre como PropDefV1 e PropDefV2 diferem, consulte [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
   
-Os elementos de dados neste fluxo são armazenados em uma ordem de byte little-endian, imediatamente após o outro na ordem especificada abaixo.
+Os elementos de dados nesse fluxo são armazenados em ordem de byte little-endian, imediatamente após uns aos outros na ordem especificada abaixo.
   
-- Versão: WORD (2 bytes), o formato das definições de campo na estrutura de fluxo do PropertyDefinition. A tabela a seguir mostra os valores possíveis.
+- Versão: WORD (2 bytes), o formato das definições de campo na estrutura de fluxo PropertyDefinition. A tabela a seguir mostra os valores possíveis.
     
     |**Valor**|**Descrição**|
     |:-----|:-----|
     |0x0102  <br/> |O formato é PropDefV1.  <br/> |
     |0x0103  <br/> |O formato é PropDefV2.  <br/> |
    
-- FieldDefinitionCount: DWORD (4 bytes), o número de definições de campo neste fluxo. Esta é a contagem dos elementos de matriz no elemento de dados FieldDefinitions.
+- FieldDefinitionCount: DWORD (4 bytes), o número de definições de campo neste fluxo. Esta é a contagem de elementos de matriz no elemento de dados FieldDefinitions.
     
-- FieldDefinitions: uma matriz de estruturas de fluxo do FieldDefinition. A contagem dessa matriz é igual ao elemento de dados FieldDefinitionCount.
+- FieldDefinitions: uma matriz de estruturas de fluxo FieldDefinition. A contagem dessa matriz é igual ao elemento de dados FieldDefinitionCount.
     
 ## <a name="see-also"></a>Confira também
 
 - [Campos e itens do Outlook](outlook-items-and-fields.md)
-- [Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
-- [Exemplo de fluxo PropertyDefinition](propertydefinition-stream-sample.md)
+- [Adicionar uma definição para um novo User-Defined campo](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [Exemplo de fluxo propertyDefinition](propertydefinition-stream-sample.md)
 - [Estruturas de fluxo](stream-structures.md)
 

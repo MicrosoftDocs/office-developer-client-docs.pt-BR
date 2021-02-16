@@ -19,23 +19,23 @@ ms.locfileid: "33436857"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um problema importante conectado à recuperação de dados de uma tabela é o uso de memória. A falta de memória disponível pode causar imApitable [:: QueryRows](imapitable-queryrows.md) e [HrQueryAllRows](hrqueryallrows.md) falhar, retornando menos do que o número desejado de linhas. Decidir qual método ou função usar para recuperar os dados da tabela dependerá se a tabela pode ser adequada para caber na memória e, se não puder, se a falha for aceitável. 
+Um problema importante conectado à recuperação de dados de uma tabela é o uso da memória. A falta de memória disponível pode causar falha em [IMAPITable::QueryRows](imapitable-queryrows.md) e [HrQueryAllRows,](hrqueryallrows.md) retornando menos do que o número desejado de linhas. Decidir qual método ou função usar para recuperar dados de tabela depende se a tabela deve caber na memória e, se não puder, se a falha for aceitável. 
   
-Como nem sempre é fácil determinar a quantidade de dados que se ajustarão na memória de uma só vez, o MAPI fornecerá algumas diretrizes básicas para um aplicativo cliente ou provedor de serviços a seguir. Lembre-se de que há sempre exceções, com base na implementação específica da tabela e como os dados subjacentes são armazenados.
+Como nem sempre é fácil determinar a quantidade de dados que caberá na memória de uma só vez, o MAPI fornece algumas diretrizes básicas para que um provedor de serviços ou aplicativo cliente siga. Lembre-se de que sempre há exceções, com base na implementação de tabela específica e em como os dados subjacentes são armazenados.
   
 As diretrizes a seguir podem ser usadas para avaliar o uso da memória da tabela:
   
-- Os clientes que podem tolerar o uso de memória de conjunto de trabalho ocasional no intervalo de megabytes e podem supor que não terão problemas para ler uma tabela inteira na memória. 
+- Clientes que podem tolerar o uso ocasional de memória do conjunto de trabalho no intervalo de megabyte e podem supor que não terão problemas ao ler uma tabela inteira na memória. 
     
-- As restrições afetam o uso da memória de uma tabela. Uma tabela rigorosamente restrita com um grande número de linhas, como uma tabela de conteúdo, pode ser esperado para caber na memória, enquanto uma tabela grande irrestrita não é possível. 
+- As restrições afetam o uso de memória de uma tabela. Uma tabela gravemente restrita com um grande número de linhas, como uma tabela de conteúdo, pode ser esperada para caber na memória enquanto uma tabela grande irrestrita normalmente não pode. 
     
-- Várias das tabelas pertencentes a MAPI, como o status, o perfil, o serviço de mensagens, o provedor e as tabelas de repositório de mensagens, normalmente se encaixarão na memória. Geralmente são tabelas pequenas. No enTanto, há exceções. Por exemplo, um provedor de perfil baseado em servidor pode gerar uma tabela de perfil maior que não poderá se ajustar.
+- Várias das tabelas pertencentes a MAPI, como status, perfil, serviço de mensagens, provedor e tabelas de armazenamento de mensagens, geralmente caberão na memória. Geralmente, são tabelas pequenas. No entanto, há exceções. Por exemplo, um provedor de perfil baseado em servidor pode gerar uma tabela de perfil maior que não será capaz de caber.
     
-Para recuperar todas as linhas de uma tabela que se ajustam à memória sem problemas, chame [HrQueryAllRows](hrqueryallrows.md), definindo o número máximo de linhas como zero.
+Para recuperar todas as linhas de uma tabela que caberá na memória sem problemas, chame [HrQueryAllRows](hrqueryallrows.md), definindo o número máximo de linhas como zero.
   
-Para recuperar todas as linhas de uma tabela que podem ou não se ajustar à memória, gerando um erro, chame **HrQueryAllRows** especificando um número máximo de linhas. O número máximo de linhas deve ser definido como um número maior que o número mínimo de linhas necessárias. Se um cliente precisar acessar pelo menos 50 linhas de uma tabela de linha 300, o número máximo de linhas deverá ser definido como pelo menos 51. 
+Para recuperar todas as linhas de uma tabela que pode ou não caber na memória, gerando um erro, chame **HrQueryAllRows** especificando um número máximo de linhas. O número máximo de linhas deve ser definido como um número maior do que o número mínimo de linhas necessárias. Se um cliente tiver que acessar pelo menos 50 linhas de uma tabela de 300 linhas, o número máximo de linhas deverá ser definido como pelo menos 51. 
   
-Para recuperar todas as linhas de uma tabela que não seja adequada para a memória, chame imApitable [:: QueryRows](imapitable-queryrows.md) em um loop com uma contagem de linha relativamente pequena, pois o exemplo de código a seguir ilustra: 
+Para recuperar todas as linhas de uma tabela que não deve caber na memória, chame [IMAPITable::QueryRows](imapitable-queryrows.md) em um loop com uma contagem de linhas relativamente pequena, como ilustra o exemplo de código a seguir: 
   
 ```cpp
 HRESULT     hr;
@@ -59,7 +59,7 @@ if (hr)
  
 ```
 
-Quando esse loop é concluído e todas as linhas da tabela foram processadas e as _galinha_ são zero, a posição do cursor normalmente estará na parte inferior da tabela. 
+Quando esse loop for concluído e todas as linhas da tabela foram processadas e  _cRows_ for zero, a posição do cursor normalmente estará na parte inferior da tabela. 
   
 ## <a name="see-also"></a>Confira também
 

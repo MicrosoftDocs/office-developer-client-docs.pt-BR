@@ -25,11 +25,11 @@ ms.locfileid: "33439356"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve um filtro para limitar o modo de exibição de uma tabela para linhas particulares. 
+Descreve um filtro para limitar a exibição de uma tabela a linhas específicas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -55,21 +55,21 @@ typedef struct _SRestriction
 
 ## <a name="members"></a>Members
 
- **RT**
+ **rt**
   
-> O tipo de restrição. Os valores possíveis são os seguintes: 
+> O tipo de restrição. Os valores possíveis são: 
     
 RES_AND 
   
-> Uma restrição **and** , que aplica uma operação **e** bit a bit a uma restrição. 
+> Uma **restrição AND,** que se aplica a uma operação **AND** bit a bit a uma restrição. 
     
 RES_BITMASK 
   
-> Uma restrição de bitmask, que aplica um bitmask a um valor de propriedade.
+> Uma restrição de bitmask, que aplica uma máscara de bits a um valor de propriedade.
     
 RES_COMMENT 
   
-> Uma restrição de comentário, que associa um comentário com uma restrição.
+> Uma restrição de comentário, que associa um comentário a uma restrição.
     
 RES_COMPAREPROPS 
   
@@ -81,15 +81,15 @@ RES_CONTENT
     
 RES_EXIST 
   
-> Uma restrição exist, que determina se há suporte para uma propriedade.
+> Uma restrição existente, que determina se uma propriedade é suportada.
     
 RES_NOT 
   
-> Uma restrição **not** , que aplica uma operação **não** lógica a uma restrição. 
+> Uma **restrição NOT,** que aplica uma operação **LÓGICA NOT** a uma restrição. 
     
 RES_OR 
   
-> Uma restrição **ou** , que aplica uma operação **ou** lógica a uma restrição. 
+> Uma **restrição OR,** que aplica uma operação **OR** lógica a uma restrição. 
     
 RES_PROPERTY 
   
@@ -101,11 +101,11 @@ RES_SIZE
     
 RES_SUBRESTRICTION 
   
-> Uma restrição de subobjeto, que aplica uma restrição aos anexos ou destinatários de uma mensagem.
+> Uma restrição de subpro object, que aplica uma restrição a anexos ou destinatários de uma mensagem.
     
  **res**
   
-> União de estruturas de restrição descrevendo o filtro a ser aplicado. A estrutura específica incluída no membro **res** depende do valor do membro **RT** . O mapeamento entre o tipo de restrição e a estrutura está listado na tabela a seguir. 
+> União de estruturas de restrição que descrevem o filtro a ser aplicado. A estrutura específica incluída no **membro res** depende do valor do **membro rt.** O mapeamento entre o tipo de restrição e a estrutura está listado na tabela a seguir. 
     
 |||
 |:-----|:-----|
@@ -124,9 +124,9 @@ RES_SUBRESTRICTION
    
 ## <a name="remarks"></a>Comentários
 
-Os clientes usam uma estrutura **SRestriction** para limitar o número e o tipo de linhas no modo de exibição de uma tabela e procurar mensagens específicas em uma pasta. Para impor a limitação em uma tabela, os clientes chamam [IMAPITable:: Restrict](imapitable-restrict.md) ou IMAPITable [:: FindRow](imapitable-findrow.md). Para impor a limitação em uma pasta, os clientes chamam o método [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) da pasta. 
+Os clientes usam **uma estrutura SRestriction** para limitar o número e o tipo de linhas em sua exibição de uma tabela e para pesquisar mensagens específicas em uma pasta. Para impor a limitação em uma tabela, os clientes chamam [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow](imapitable-findrow.md). Para impor a limitação em uma pasta, os clientes chamam o método [IMAPIContainer::SetSearchCriteria da](imapicontainer-setsearchcriteria.md) pasta. 
   
-Para obter informações sobre como usar restrições com tabelas, consulte [about Restrictions](about-restrictions.md). 
+Para obter informações sobre como usar restrições com tabelas, consulte [Sobre restrições.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -35,7 +35,7 @@ Para obter uma referência para a célula DoubleULine pelo nome, a partir de out
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char. DblUnderline [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char.DblUnderline[ *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula DoubleULine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

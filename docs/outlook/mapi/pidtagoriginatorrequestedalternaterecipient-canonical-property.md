@@ -36,17 +36,17 @@ Contém um identificador de entrada para um destinatário alternativo designado 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada em mensagens de encaminhamento. Se o encaminhamento não for permitido ou se nenhum destinatário alternativo tiver sido designado, um relatório de não entrega deve ser gerado.
+Essa propriedade é usada em mensagens com o sentido automático. Se o autoforwarding não for permitido ou se nenhum destinatário alternativo tiver sido designado, um relatório de não entrega deverá ser gerado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

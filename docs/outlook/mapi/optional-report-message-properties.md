@@ -21,7 +21,7 @@ ms.locfileid: "33439503"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As seguintes propriedades às vezes são exibidas com mensagens de relatórios:
+Às vezes, as seguintes propriedades aparecem com mensagens de relatório:
   
 **Título da tabela**
 

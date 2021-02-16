@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm80002
 localization_priority: Normal
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
-description: Determina se a página de desenho é redimensionada automaticamente para caber no diagrama.
+description: Determina se a página de desenho é ressalvada automaticamente para se ajustar ao diagrama.
 ms.openlocfilehash: 6956c1e021ffffdb54f3dfa36270b9df04e892b0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33437004"
 ---
 # <a name="drawingresizetype-cell-page-properties-section"></a>Célula DrawingResizeType (Seção Page Properties)
 
-Determina se a página de desenho é redimensionada automaticamente para caber no diagrama. 
+Determina se a página de desenho é ressalvada automaticamente para se ajustar ao diagrama. 
   
 ## <a name="remarks"></a>Comentários
 

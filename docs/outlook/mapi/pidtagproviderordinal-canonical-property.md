@@ -25,7 +25,7 @@ ms.locfileid: "33438348"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o índice com base em zero da posição de um provedor de serviços na tabela do provedor.
+Contém o índice baseado em zero da posição de um provedor de serviços na tabela do provedor.
   
 |||
 |:-----|:-----|
@@ -38,17 +38,17 @@ Contém o índice com base em zero da posição de um provedor de serviços na t
 
 Essa propriedade é calculada por MAPI.
   
-Obtenha a tabela do provedor chamando o método [IMsgServiceAdmin::](imsgserviceadmin-getprovidertable.md) getprovidertable. Classifique a tabela Provider nessa propriedade para exibir a ordem de transporte. 
+Obtenha a tabela do provedor chamando o [método IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Classificar a tabela do provedor nessa propriedade para exibir o pedido de transporte. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

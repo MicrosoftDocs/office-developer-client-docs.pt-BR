@@ -25,11 +25,11 @@ ms.locfileid: "33437242"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função que pré-processamento o conteúdo da mensagem ou o formato de uma mensagem.
+Define uma função que pré-processa o conteúdo da mensagem ou o formato de uma mensagem.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Função definida implementada por:  <br/> |Provedores de transporte  <br/> |
 |Função definida chamada por:  <br/> |Spooler MAPI  <br/> |
    
@@ -52,61 +52,61 @@ HRESULT PreprocessMessage(
 
  _lpvSession_
   
-> no Ponteiro para a sessão a ser usada. 
+> [in] Ponteiro para a sessão a ser usada. 
     
  _lpMessage_
   
-> no Ponteiro para a mensagem a ser preprocessada. 
+> [in] Ponteiro para a mensagem a ser pré-processada. 
     
  _lpAdrBook_
   
-> no Ponteiro para o catálogo de endereços do qual o usuário deve selecionar destinatários para a mensagem. 
+> [in] Ponteiro para o livro de endereços do qual o usuário deve selecionar destinatários para a mensagem. 
     
  _lpFolder_
   
-> [in, out] Ponteiro para uma pasta. Na entrada, o parâmetro _lpFolder_ aponta para a pasta que contém as mensagens a serem processadas. Na saída, _lpFolder_ aponta para a pasta onde as mensagens pré processadas foram colocadas. 
+> [in, out] Ponteiro para uma pasta. Na entrada, o  _parâmetro lpFolder_ aponta para a pasta que contém as mensagens a serem pré-processadas. Na saída,  _lpFolder_ aponta para a pasta onde as mensagens pré-processadas foram colocadas. 
     
  _lpAllocateBuffer_
   
-> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória. 
+> [in] Ponteiro para a [função MAPIAllocateBuffer,](mapiallocatebuffer.md) a ser usado para alocar memória. 
     
  _lpAllocateMore_
   
-> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , a ser usado para alocar memória adicional onde for necessário. 
+> [in] Ponteiro para a [função MAPIAllocateMore,](mapiallocatemore.md) a ser usado para alocar memória adicional quando necessário. 
     
  _lpFreeBuffer_
   
-> no Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , a ser usado para liberar memória. 
+> [in] Ponteiro para a [função MAPIFreeBuffer,](mapifreebuffer.md) a ser usado para liberar memória. 
     
  _lpcOutbound_
   
-> bota Ponteiro para o número de mensagens na matriz apontadas pelo parâmetro _lpppMessage_ . 
+> [out] Ponteiro para o número de mensagens na matriz apontada pelo parâmetro _lpppMessage._ 
     
  _lpppMessage_
   
-> bota Ponteiro para um ponteiro para uma matriz de ponteiros para mensagens preprocessadas ou de outra forma geradas. 
+> [out] Ponteiro para um ponteiro para uma matriz de ponteiros para mensagens geradas previamente ou geradas de outra forma. 
     
  _lppRecipList_
   
-> bota Ponteiro para uma estrutura [das ADRLIST](adrlist.md) retornada opcional, listando destinatários detectados pelo pré-processador para o qual a mensagem não é entregue. Para obter mais informações sobre o conteúdo dessa lista, consulte o método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) . 
+> [out] Ponteiro para uma estrutura [ADRLIST](adrlist.md) retornada opcional, listando destinatários detectados pelo pré-processador para os quais a mensagem é não entregue. Para obter mais informações sobre o conteúdo desta lista, consulte o [método IMAPISupport::StatusRecips.](imapisupport-statusrecips.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> O conteúdo da mensagem foi preprocessada com êxito.
+> O conteúdo da mensagem foi pré-processada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-Um pré-processador de mensagem do provedor de transporte pode apresentar um indicador de progresso durante o pré-processamento da mensagem. No enTanto, ele nunca deve apresentar uma caixa de diálogo que exija interação do usuário durante o pré-processamento da mensagem. 
+Um pré-processador de mensagem do provedor de transporte pode apresentar um indicador de progresso durante o pré-processamento da mensagem. No entanto, ele nunca deve apresentar uma caixa de diálogo que exija interação do usuário durante o pré-processamento de mensagens. 
   
-Quando um pré-processador adiciona grandes quantidades de dados a uma mensagem de saída, determinados procedimentos devem ser seguidos. Esse tipo de mensagem pode ser armazenado em um repositório de mensagens baseado em servidor, fazendo com que o pré-processador acesse um repositório remoto, um procedimento de consumo de tempo. Para evitar ter que fazer isso, o pré-processador deve ter uma opção que permite que ele armazene dados que contenham uma grande quantidade de espaço em um repositório de mensagens local e forneça uma referência a esse repositório local na mensagem. 
+Quando um pré-processador adiciona grandes quantidades de dados a uma mensagem de saída, determinados procedimentos devem ser seguidos. Esse tipo de mensagem pode ser armazenado em um armazenamento de mensagens baseado em servidor, fazendo com que o pré-processador acesse um armazenamento remoto, um procedimento demorado. Para evitar ter que fazer isso, o pré-processador deve ter uma opção que o permita armazenar dados que ocupam uma grande quantidade de espaço em um armazenamento de mensagens local e fornecer uma referência a esse armazenamento local na mensagem. 
   
-O pré-processador não deve liberar nenhum dos objetos passados originalmente para a função baseada em **PreprocessMessage** . 
+O pré-processador não deve liberar nenhum dos objetos originalmente passados para a função baseada em **PreprocessMessage.** 
   
-Antes que o spooler MAPI possa chamar uma função **PreprocessMessage** , o provedor de transporte deve ter registrado a função em uma chamada para o método [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . Depois de chamar uma função **PreprocessMessage** , o spooler não pode continuar enviando uma mensagem até que a função retorne. 
+Antes que o spooler MAPI possa chamar uma função **PreprocessMessage,** o provedor de transporte deve ter registrado a função em uma chamada para o método [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) Depois de chamar **uma função PreprocessMessage,** o spooler não poderá continuar enviando uma mensagem até que a função retorne. 
   
-O spooler MAPI é proprietário da tarefa de envio de mensagens. Isso significa que a mensagem original nunca é colocada em uma matriz de ponteiros de mensagem e que uma chamada para os métodos **SubmitMessage** nunca é necessária. 
+O spooler MAPI possui a tarefa de enviar mensagens. Isso significa que a mensagem original nunca é colocada em uma matriz de ponteiros de mensagem e que uma chamada para os métodos **SubmitMessage** nunca é necessária. 
   
 ## <a name="see-also"></a>Confira também
 

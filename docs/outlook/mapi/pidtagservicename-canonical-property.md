@@ -25,7 +25,7 @@ ms.locfileid: "33438957"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de um serviço de mensagens, conforme definido pelo usuário no arquivo MapiSvc. inf.
+Contém o nome de um serviço de mensagem conforme definido pelo usuário no arquivo MapiSvc.inf.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o nome de um serviço de mensagens, conforme definido pelo usuário no a
    
 ## <a name="remarks"></a>Comentários
 
-O nome contido nessas propriedades é específico para o serviço de mensagens. Ele vem da seção [serviços] no MapiSvc. inf.
+O nome contido nessas propriedades é específico do serviço de mensagens. Ela vem da seção [Serviços] em MapiSvc.inf.
   
-Essas propriedades aparecem como uma coluna na tabela de serviço de mensagens e podem ser usadas para filtrar serviços. Como ele é usado para identificar e filtrar serviços, o valor não deve ser localizado.
+Essas propriedades aparecem como uma coluna na tabela de serviço de mensagens e podem ser usadas para filtrar serviços. Como é usado para identificar e filtrar serviços, o valor não deve ser localizado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

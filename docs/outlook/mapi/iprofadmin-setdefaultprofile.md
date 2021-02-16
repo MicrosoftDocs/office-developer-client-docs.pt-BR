@@ -38,15 +38,15 @@ HRESULT SetDefaultProfile(
 
  _lpszProfileName_
   
-> no Um ponteiro para o nome do perfil que se tornará o padrão, ou nulo. Definir _lpszProfileName_ como nulo indica que o **setdefaultprofile foi** deve remover o perfil padrão existente, deixando o cliente sem um padrão. 
+> [in] Um ponteiro para o nome do perfil que se tornará o padrão ou NULL. Definir  _lpszProfileName_ como NULL indica que **SetDefaultProfile** deve remover o perfil padrão existente, deixando o cliente sem um padrão. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo da cadeia de caracteres indicada por _lpszProfileName_. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres apontado por  _lpszProfileName_. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> O nome do perfil está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome do perfil estará no formato ANSI.
+> O nome do perfil está no formato Unicode. Se o MAPI_UNICODE não estiver definido, o nome do perfil está no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -60,11 +60,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin:: setdefaultprofile foi** estabelece um perfil específico como o perfil padrão do cliente ou limpa o perfil padrão atual. O perfil padrão é o perfil que é usado automaticamente sempre que o cliente inicia uma sessão MAPI. **Setdefaultprofile foi** também define a propriedade **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) do novo perfil padrão como true.
+O **método IProfAdmin::SetDefaultProfile** estabelece um perfil específico como o perfil padrão do cliente ou limpa o perfil padrão atual. O perfil padrão é o perfil que é usado automaticamente sempre que o cliente inicia uma sessão MAPI. **SetDefaultProfile** também define a propriedade **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) do novo perfil padrão como VERDADEIRO.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para iniciar uma sessão com o perfil padrão, passe o sinalizador MAPI_USE_DEFAULT para a função [funçãomapilogonex](mapilogonex.md) . 
+Para iniciar uma sessão com o perfil padrão, passe o sinalizador MAPI_USE_DEFAULT para a [função MAPILogonEx.](mapilogonex.md) 
   
 ## <a name="see-also"></a>Confira também
 

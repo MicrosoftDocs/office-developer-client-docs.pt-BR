@@ -25,7 +25,7 @@ ms.locfileid: "33437340"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta de modo de exibição comum predefinida. 
+Contém o identificador de entrada da pasta de exibição comum predefinida. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o identificador de entrada da pasta de modo de exibição comum predefin
    
 ## <a name="remarks"></a>Comentários
 
-A pasta de modo de exibição comum contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidos por um usuário de mensagens. Essas pastas, que não estão visíveis na hierarquia de mensagens interpessoais (IPM), podem conter vários especificadores de exibição, cada um armazenado como uma mensagem. Um aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e torná-los disponíveis. 
+A pasta de exibição comum contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidos por um usuário de mensagens. Essas pastas, que não são visíveis na hierarquia de mensagens interpersonales (IPM), podem conter muitos especificadores de exibição, cada um armazenado como uma mensagem. Um aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e torná-los disponíveis. 
   
-Para obter mais informações sobre modos de [exibição](mapi-view-folders.md), consulte View Folders.
+Para obter mais informações sobre exibições, consulte [Exibir Pastas.](mapi-view-folders.md)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -56,7 +56,7 @@ Mapitags. h
 
 
 
-[Propriedade canônica Pidtagdefaultviewentryid Canonical](pidtagdefaultviewentryid-canonical-property.md)
+[Propriedade canônica PidTagDefaultViewEntryId](pidtagdefaultviewentryid-canonical-property.md)
   
 [Propriedade canônica PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)
 
@@ -65,7 +65,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

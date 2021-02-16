@@ -25,7 +25,7 @@ ms.locfileid: "33436220"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
+Essa interface fornece funcionalidade auxiliar ao executar a replicação por meio da interface **[IOSTX.](iostxiunknown.md)** 
   
 |||
 |:-----|:-----|
@@ -37,17 +37,17 @@ Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por 
 |||
 |:-----|:-----|
 |**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtém informações estendidas sobre o último erro.  <br/> |
-|**[GetSyncobject](ipstx-getsyncobject.md)** <br/> |Obtém a interface **[IOSTX](iostxiunknown.md)** associada.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Define um repositório local para emular o Gerenciador de protocolos do Outlook para o spool de mensagens de saída para um servidor.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtém a interface **[IOSTX](iostxiunknown.md)** associada.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Define um armazenamento local para emular o Gerenciador de Protocolos do Outlook para fazer o spool de mensagens de saída para um servidor.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

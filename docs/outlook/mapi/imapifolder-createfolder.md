@@ -42,7 +42,7 @@ HRESULT CreateFolder(
 
  _ulFolderType_
   
-> no O tipo de pasta a ser criado. Os seguintes sinalizadores podem ser definidos:
+> [in] O tipo de pasta a ser criado. Os sinalizadores a seguir podem ser definidos:
     
 FOLDER_GENERIC 
   
@@ -54,35 +54,35 @@ FOLDER_SEARCH
     
  _lpszFolderName_
   
-> no Um ponteiro para uma cadeia de caracteres que contém o nome da nova pasta. Esse nome é a base para a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) da nova pasta.
+> [in] Um ponteiro para uma cadeia de caracteres que contém o nome da nova pasta. Esse nome é a base para a propriedade PR_DISPLAY_NAME **(** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) da nova pasta.
     
  _lpszFolderComment_
   
-> no Um ponteiro para uma cadeia de caracteres que contém um comentário associado à nova pasta. Esta cadeia de caracteres se torna o valor da propriedade **PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md)) da nova pasta. Se NULL for passado, a pasta não terá nenhum comentário inicial.
+> [in] Um ponteiro para uma cadeia de caracteres que contém um comentário associado à nova pasta. Essa cadeia de caracteres se torna o valor da propriedade PR_COMMENT **(** [PidTagComment](pidtagcomment-canonical-property.md)) da nova pasta. Se NULL for passado, a pasta não terá comentários iniciais.
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a nova pasta. Passar NULL faz com que o provedor de repositório de mensagens retorne a interface de pasta padrão, [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Os clientes devem passar NULL. Outros chamadores podem definir o parâmetro _lpInterface_ como IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a nova pasta. Passar NULL faz com que o provedor de armazenamento de mensagens retorne a interface de pasta padrão, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Os clientes devem passar NULL. Outros chamadores podem definir o  _parâmetro lpInterface_ como IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como a pasta é criada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a pasta é criada. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **** que CreateFolder seja retornado com êxito, possivelmente antes que a nova pasta esteja totalmente disponível para o cliente de chamada. Se a nova pasta não estiver disponível, fazer uma chamada subsequente para ela poderá causar um erro. 
+> Permite que **CreateFolder** retorne com êxito, possivelmente antes da nova pasta estar totalmente disponível para o cliente de chamada. Se a nova pasta não estiver disponível, fazer uma chamada subsequente pode causar um erro. 
     
 MAPI_UNICODE 
   
-> O nome da pasta está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome da pasta estará no formato ANSI.
+> O nome da pasta está no formato Unicode. Se o MAPI_UNICODE não estiver definido, o nome da pasta está no formato ANSI.
     
 OPEN_IF_EXISTS 
   
-> Permite que o método seja bem-sucedido, mesmo que a pasta nomeada no parâmetro _lpszFolderName_ já exista abrindo a pasta existente que tem esse nome. Observe que os provedores de repositório de mensagens que permitem que pastas irmãs tenham o mesmo nome podem não abrir uma pasta existente se houver mais de um com o nome fornecido. 
+> Permite que o método tenha êxito mesmo se a pasta nomeada no parâmetro  _lpszFolderName_ já existir abrindo a pasta existente com esse nome. Observe que os provedores de armazenamento de mensagens que permitem que pastas irmãos tenham o mesmo nome podem não abrir uma pasta existente se houver mais de um com o nome fornecido. 
     
  _lppFolder_
   
-> bota Um ponteiro para um ponteiro para a pasta recém-criada.
+> [out] Um ponteiro para um ponteiro para a pasta recém-criada.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -92,25 +92,25 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 MAPI_E_COLLISION 
   
-> Uma pasta com o nome fornecido no parâmetro _lpszFolderName_ já existe. Os nomes de pasta devem ser exclusivos. 
+> Já existe uma pasta com o nome dado _no parâmetro lpszFolderName._ Os nomes das pastas devem ser exclusivos. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder:: CreateFolder** cria uma subpasta na pasta atual e atribui um identificador de entrada à nova pasta. 
+O **método IMAPIFolder::CreateFolder** cria uma subpasta na pasta atual e atribui um identificador de entrada à nova pasta. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando **CreateFolder** retornar, lembre-se de que o identificador de entrada para a nova pasta pode não estar disponível. Alguns provedores de repositórios de mensagens não disponibilizam identificadores de entrada até que você tenha chamado o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da nova pasta para salvá-lo permanentemente. Isso é especialmente verdadeiro se você tiver definido o sinalizador MAPI_DEFERRED_ERRORS. 
+Quando **CreateFolder** retornar, esteja ciente de que o identificador de entrada para a nova pasta pode não estar disponível. Alguns provedores de armazenamento de mensagens não disponibilizam identificadores de entrada até que você tenha chamado o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da nova pasta para salvá-la permanentemente. Isso é especialmente verdadeiro se você tiver definido o MAPI_DEFERRED_ERRORS sinalizador. 
   
-Lembre-se de que alguns provedores de repositórios de mensagens sempre apontam o parâmetro _lppFolder_ para a interface padrão da pasta, independentemente do valor que você passa para o parâmetro _lpInterface_ . Como o ponteiro de interface que é retornado pode não ser do tipo esperado, chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps da nova pasta para recuperar a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Se necessário, converta o ponteiro para um tipo mais apropriado antes de fazer outras chamadas.
+Saiba que alguns provedores de armazenamento de mensagens sempre apontam o parâmetro _lppFolder_ para a interface padrão da pasta, independentemente do valor que você passa para o parâmetro _lpInterface._ Como o ponteiro da interface retornado pode não ser do tipo esperado, chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) da nova pasta para recuperar a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Se necessário, cast the pointer to a more appropriate type before you make other calls.
   
-A maioria dos provedores de repositórios de mensagens exige que o nome da nova pasta seja exclusivo em relação aos nomes de suas pastas de irmãos. É possível manipular o valor de erro MAPI_E_COLLISION, que é retornado se essa regra não for seguida. 
+A maioria dos provedores de armazenamento de mensagens exige que o nome da nova pasta seja exclusivo em relação aos nomes de suas pastas irmãos. Ser capaz de manipular o MAPI_E_COLLISION de erro, que será retornado se essa regra não for seguida. 
   
-Para determinar o identificador de entrada da pasta recém-criada, chame o método **IMAPIProp::** GetProps da nova pasta para recuperar sua propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Para determinar o identificador de entrada da pasta recém-criada, chame o método **IMAPIProp::GetProps** da nova pasta para recuperar sua **propriedade PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -118,7 +118,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnCreateSubFolder  <br/> |MFCMAPI usa o método **CMsgStoreDlg:: OnCreateSubFolder** para criar novas pastas no MFCMAPI.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |MFCMAPI usa o **método CMsgStoreDlg::OnCreateSubFolder** para criar novas pastas em MFCMAPI.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

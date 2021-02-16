@@ -25,13 +25,13 @@ ms.locfileid: "33436570"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adiciona pastas padrão de mensagens interpessoais (IPM) a um repositório de mensagens. 
+Adiciona pastas de mensagens padrão interpersonal (IPM) a um armazenamento de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HrValidateIPMSubtree(
@@ -47,49 +47,49 @@ HrValidateIPMSubtree(
 
  _lpMDB_
   
-> no Ponteiro para o objeto do repositório de mensagens ao qual as pastas serão adicionadas. 
+> [in] Ponteiro para o objeto de armazenamento de mensagens ao qual adicionar as pastas. 
     
  _ulFlags_
   
-> no Bitmask dos sinalizadores usados para controlar como as pastas são criadas. Os seguintes sinalizadores podem ser definidos:
+> [in] Bitmask de sinalizadores usados para controlar como as pastas são criadas. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_FORCE_CREATE 
   
-> As pastas devem ser verificadas antes da criação, mesmo se as propriedades do repositório de mensagens indicarem que são válidas. Um aplicativo cliente normalmente define esse sinalizador quando um erro indica que a estrutura de uma pasta existente foi danificada. 
+> As pastas devem ser verificadas antes da criação, mesmo se as propriedades do armazenamento de mensagens indicarem que são válidas. Um aplicativo cliente normalmente define esse sinalizador quando um erro indica que a estrutura de uma pasta existente foi danificada. 
     
 MAPI_FULL_IPM_TREE 
   
-> O conjunto completo de pastas IPM deve ser criado na pasta raiz do repositório de mensagens. Os títulos de pasta na hierarquia são:
+> O conjunto completo de pastas IPM deve ser criado na pasta raiz do armazenamento de mensagens. Os títulos de pasta na hierarquia são:
     
-    - Modos de exibição de pasta
+    - Exibições de Pasta
     
-    - Modos de exibição comuns
+    - Exibições comuns
     
-    - Raiz de pesquisa\*
+    - Raiz de Pesquisa\*
     
-    - SubÁrvore IPM\*
+    - Subárvore IPM\*
     
     - Caixa de Entrada
     
-    - Enviada
+    - Caixa de saída
     
     - Itens excluídos\*
     
     - Itens enviados
     
-    onde as três pastas marcadas \* com são o conjunto mínimo criado, mesmo quando o sinalizador MAPI_FULL_IPM_TREE não foi definido. Um aplicativo cliente normalmente define esse sinalizador quando o repositório de mensagens no qual as pastas devem ser criadas é o repositório padrão.
+    onde as três pastas marcadas com são o conjunto mínimo criado mesmo quando o \* MAPI_FULL_IPM_TREE sinalizador não foi definido. Um aplicativo cliente normalmente define esse sinalizador quando o armazenamento de mensagens no qual as pastas devem ser criadas é o armazenamento padrão.
     
  _lpcValues_
   
-> [in, out] Ponteiro para o número de estruturas [SPropValue](spropvalue.md) na matriz retornada no parâmetro _lppProps_ . O valor do parâmetro _lpcValues_ pode ser zero se _lppProps_ for nulo. 
+> [in, out] Ponteiro para o número de [estruturas SPropValue](spropvalue.md) na matriz retornada no _parâmetro lppProps._ O valor do parâmetro  _lpcValues_ pode ser zero se  _lppProps_ for NULL. 
     
  _lppProps_
   
-> [in, out] Ponteiro para um ponteiro para uma matriz de estruturas **SPropValue** que contém valores de propriedade para a propriedade **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) e para as propriedades de identificador de entrada de pasta apropriadas. Se **HrValidateIPMSubtree** cria uma caixa de entrada no repositório de mensagens, a matriz **SPropValue** inclui um identificador de entrada de caixa de entrada com uma `PROP_TAG(PT_BINARY, PROP_ID_NULL)`marca de propriedade especial codificada como. O parâmetro _lppProps_ pode ser NULL, indicando que a implementação de chamada não exige que uma matriz **SPropValue** seja retornada. 
+> [in, out] Ponteiro para um ponteiro para uma matriz de **estruturas SPropValue** que contém valores de propriedade para a propriedade **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) e para as propriedades de identificador de entrada de pasta apropriadas. Se **HrValidateIPMSubtree** criar uma Caixa de Entrada no armazenamento de mensagens, a matriz **SPropValue** incluirá um identificador de entrada de Caixa de Entrada com uma marca de propriedade especial codificada como  `PROP_TAG(PT_BINARY, PROP_ID_NULL)` . O  _parâmetro lppProps_ pode ser NULL, indicando que a implementação da chamada não exige que uma **matriz SPropValue** seja retornada. 
     
  _lppMapiError_
   
-> bota Ponteiro para um ponteiro para uma estrutura [MAPIERROR](mapierror.md) que contém a versão, o componente e informações de contexto de um erro. O parâmetro _lppMAPIError_ é definido como NULL se nenhuma estrutura **MAPIERROR** for retornada. 
+> [out] Ponteiro para um ponteiro para uma [estrutura MAPIERROR](mapierror.md) que contém informações de versão, componente e contexto para um erro. O  _parâmetro lppMAPIError_ é definido como NULL se nenhuma **estrutura MAPIERROR** for retornada. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -97,13 +97,13 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-MAPI usa a função **HrValidateIPMSubtree** internamente para construir a subárvore IPM padrão em um repositório de mensagens quando o repositório é aberto pela primeira vez ou quando um repositório é tornado o repositório padrão. Essa função também pode ser usada por aplicativos cliente para validar ou reparar pastas de mensagens padrão. 
+MAPI uses the **HrValidateIPMSubtree** function internally to construct the standard IPM subtree in a message store when the store is first opened, or when a store is made the default store. Essa função também pode ser usada por aplicativos cliente para validar ou reparar pastas de mensagens padrão. 
   
- O **HrValidateIPMSubtree** sempre cria as pastas de subárvores de pesquisa e de raiz IPM na pasta raiz do repositório e na pasta itens excluídos na pasta IPM Tree. A pasta de sub-árvore IPM é a raiz da hierarquia IPM no repositório de mensagens. A pasta raiz de pesquisa pode ser usada como a raiz de uma subárvore para pastas de resultados de pesquisa. 
+ **HrValidateIPMSubtree** sempre cria as pastas Raiz de Pesquisa e Subárvore do IPM na pasta raiz do armazenamento e a pasta Itens Excluídos na pasta Subárvore do IPM. A pasta Subárvore do IPM é a raiz da hierarquia do IPM nesse armazenamento de mensagens. A pasta Raiz da Pesquisa pode ser usada como raiz de uma subárvore para pastas de resultados de pesquisa. 
   
-Os clientes IPM devem exibir o modo de exibição de pastas começando na pasta raiz da sub-árvore IPM e mostrando as pastas filhas abaixo dela. As informações na pasta raiz de um repositório de mensagens não devem aparecer na interface de usuário de um cliente. Essa funcionalidade significa que, se um cliente deve ocultar informações, as informações podem ser colocadas no diretório raiz da sub-árvore IPM, onde não fica visível para o usuário. Por outro lado, aplicativos não-IPM que exigem mensagens e pastas invisíveis para o usuário, por exemplo, em um repositório de mensagens baseado em servidor, podem colocá-los fora da hierarquia IPM. 
+Os clientes IPM devem exibir a exibição de pastas começando na pasta raiz da subárvore do IPM e mostrando pastas filho abaixo dela. As informações na pasta raiz de um armazenamento de mensagens não devem aparecer na interface do usuário de um cliente. Essa funcionalidade significa que, se um cliente tiver que ocultar informações, as informações poderão ser colocadas no diretório raiz da subárvore do IPM, onde não estarão visíveis para o usuário. Por outro lado, aplicativos não IPM que exigem que mensagens e pastas sejam invisíveis para o usuário, por exemplo, em um armazenamento de mensagens baseado em servidor, podem colocá-los fora da hierarquia do IPM. 
   
- **HrValidateIPMSubtree** define a propriedade **PR_VALID_FOLDER_MASK** para indicar se cada pasta IPM que ele cria tem um identificador de entrada válido. As seguintes propriedades de identificador de entrada do repositório de mensagens são definidas para os identificadores de entrada das pastas correspondentes e retornadas no parâmetro _lppProps_ juntamente com **PR_VALID_FOLDER_MASK**: 
+ **HrValidateIPMSubtree** define a propriedade **PR_VALID_FOLDER_MASK** para indicar se cada pasta IPM criada tem um identificador de entrada válido. As seguintes propriedades do identificador de entrada do armazenamento de mensagens são definidas para os identificadores de entrada das pastas correspondentes e retornadas no parâmetro  _lppProps_ juntamente com **PR_VALID_FOLDER_MASK**: 
   
  **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
@@ -119,7 +119,7 @@ Os clientes IPM devem exibir o modo de exibição de pastas começando na pasta 
   
 > **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))
   
-> Uma [PROP_TAG](prop_tag.md) de espaço reservado para a caixa de entrada IPM (PT_BINARY, PROP_ID_NULL). 
+> Um espaço reservado [PROP_TAG](prop_tag.md) para a Caixa de Entrada do IPM (PT_BINARY, PROP_ID_NULL). 
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -127,7 +127,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MstStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnValidateIPMSubtree  <br/> |MFCMAPI usa o método **HrValidateIPMSubtree** para adicionar pastas padrão a um repositório de mensagens.  <br/> |
+|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI usa o **método HrValidateIPMSubtree** para adicionar pastas padrão a um armazenamento de mensagens.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

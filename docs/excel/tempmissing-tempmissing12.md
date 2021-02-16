@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- função tempmissing [Excel 2007], função TempMissing12 [Excel 2007]
+- função tempmissing [excel 2007],função TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33435954"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de estrutura que cria um **XLOPER de XLOPER**/ **** temporário do tipo **xltypeMissing**.
+Função de biblioteca de estrutura que cria um /  **XLOPER XLOPER12 temporário** do tipo **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
@@ -36,11 +36,11 @@ Essa função não usa parâmetros.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um ponteiro para um **** ****/ **XLOPER12**XLOPER xltypeMissing.
+Retorna um ponteiro para um **xltypeMissing** **XLOPER** /  **XLOPER12**.
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa **TempMissing12** para fornecer três argumentos ausentes para **xlcWorkspace** seguidos por um **Boolean** **falso** para suprimir a exibição das barras de rolagem da planilha. Os primeiros três argumentos correspondem a outras configurações do espaço de trabalho que não são afetadas. 
+Este exemplo usa **TempMissing12** para fornecer três argumentos ausentes para **xlcWorkspace** seguido por **um Boolean** **FALSE** para suprimir a exibição de barras de rolagem de planilha. Os três primeiros argumentos correspondem a outras configurações de espaço de trabalho que não são afetadas. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

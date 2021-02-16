@@ -25,7 +25,7 @@ ms.locfileid: "33436647"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à sessão MAPI atual associada ao objeto support. Os provedores MAPI podem consultar o objeto de suporte MAPI para esta interface. Para obter mais informações sobre objetos de suporte, consulte [visão geral do objeto support](support-object-overview.md).
+Fornece acesso à sessão MAPI atual associada ao objeto de suporte. Os provedores mapi podem consultar seu objeto de suporte MAPI para esta interface. Para obter mais informações sobre objetos de suporte, consulte [Visão geral do objeto de suporte.](support-object-overview.md)
   
 |||
 |:-----|:-----|

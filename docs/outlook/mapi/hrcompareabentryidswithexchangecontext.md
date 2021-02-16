@@ -21,11 +21,11 @@ ms.locfileid: "33436430"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Compara dois catálogos de endereços **entryIDs** com segurança em um perfil de vários Exchange. Esta função é uma função de substituição para [IAddrBook:: CompareEntryIDs](iaddrbook-compareentryids.md).
+Compara duas **entryIDs** do livro de endereços com segurança em um perfil do Exchange múltiplo. Esta função é uma função de substituição para [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |abhelp. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -47,38 +47,38 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 
  _pmsess_
   
-> no O **IMAPISession**conectado. Ele não pode ser nulo.
+> [in] O **IMAPISession conectado.** Não pode ser NULL.
     
  _pEmsmdbUID_
   
-> no Um ponteiro para um **emsmdbUID** que identifica o serviço do Exchange que contém o provedor de catálogo de endereços do Exchange que essa função deve usar para exibir detalhes sobre o identificador de entrada. Se o identificador de entrada de entrada não for um identificador de entrada do provedor de catálogo de endereços do Exchange, este parâmetro será ignorado e a chamada de função se comformará como [IAddrBook::D etails](iaddrbook-details.md). Se esse parâmetro for nulo ou um MAPIUID zero, essa função se comformará como [IAddrBook::D etails](iaddrbook-details.md).
+> [in] Um ponteiro para **um emsmdbUID** que identifica o Serviço do Exchange que contém o Exchange Address Book Provider que essa função deve usar para exibir detalhes sobre o identificador de entrada. Se o identificador de entrada de entrada não for um identificador de entrada do Exchange Address Book Provider, esse parâmetro será ignorado e a chamada de função se comportará como [IAddrBook::D etails](iaddrbook-details.md). Se esse parâmetro for NULL ou zero MAPIUID, essa função se comportará como [IAddrBook::D etails](iaddrbook-details.md).
     
  _pAddrBook_
   
-> no O catálogo de endereços usado para abrir o identificador de entrada. Ele não pode ser nulo.
+> [in] O livro de endereços usado para abrir o identificador de entrada. Não pode ser NULL.
     
  _cbEntryID1_
   
-> no A contagem de bytes do primeiro identificador de entrada especificado pelo parâmetro _lpEntryID1_ . 
+> [in] A contagem de byte do primeiro identificador de entrada especificado pelo parâmetro _lpEntryID1._ 
     
  _lpEntryID1_
   
-> no Um ponteiro para o primeiro identificador de entrada que representa a entrada do catálogo de endereços a ser comparada.
+> [in] Um ponteiro para o identificador da primeira entrada que representa a entrada do livro de endereços a ser comparada.
     
  _cbEntryID2_
   
-> no A contagem de bytes do segundo identificador de entrada especificado pelo parâmetro _lpEntryID2_ . 
+> [in] A contagem de byte do segundo identificador de entrada especificado pelo parâmetro _lpEntryID2._ 
     
  _lpEntryID2_
   
-> no Um ponteiro para o segundo identificador de entrada usado na comparação que representa a entrada do catálogo de endereços a ser comparada.
+> [in] Um ponteiro para o segundo identificador de entrada usado na comparação que representa a entrada do livro de endereços a ser comparada.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpulResult_
   
-> bota Um ponteiro para o local que contém os resultados da comparação. 
+> [out] Um ponteiro para o local que contém os resultados da comparação. 
     
 

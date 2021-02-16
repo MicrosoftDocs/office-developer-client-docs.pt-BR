@@ -21,11 +21,11 @@ ms.locfileid: "33435282"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Realoca um buffer de memória. É usado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Realoca um buffer de memória. Ele é usado com a [função MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |omapix. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |omapix.h  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
@@ -39,7 +39,7 @@ LPVOID * lppv
 
 ## <a name="parameters"></a>Parâmetros
 
- _LPV_
+ _lpv_
   
 > Um ponteiro para a memória a ser realocada.
     
@@ -53,7 +53,7 @@ LPVOID * lppv
     
 ## <a name="remarks"></a>Comentários
 
- **MAPIReallocateBuffer** aloca um novo bloco de memória do tamanho solicitado e copia o conteúdo do buffer que é passado para esse novo bloco de memória. Se o bloco de memória que é passado contiver ponteiros internos, os ponteiros não mudarão para corresponder ao novo local. 
+ **MAPIReallocateBuffer** aloca um novo bloco de memória do tamanho solicitado e copia o conteúdo do buffer que é passado para esse novo bloco de memória. Se o bloco de memória passado contiver ponteiros internos, os ponteiros não mudarão para corresponder ao novo local. 
   
 ## <a name="see-also"></a>Confira também
 

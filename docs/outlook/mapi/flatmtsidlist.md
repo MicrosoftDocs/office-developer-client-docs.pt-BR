@@ -25,11 +25,11 @@ ms.locfileid: "33439216"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [MTSID](mtsid.md) , cada uma contendo um identificador de entrada do sistema de transporte de mensagens (MTS) X. 400. 
+Contém uma matriz de [estruturas MTSID,](mtsid.md) cada uma contendo um identificador de entrada do sistema de transporte de mensagens (MTS) X.400. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
    
 ```cpp
@@ -46,7 +46,7 @@ typedef struct
 
  **cMTSIDs**
   
-> Contagem de estruturas **MTSID** na matriz descrita pelo membro **abMTSIDs** . 
+> Contagem de **estruturas MTSID** na matriz descrita pelo **membro abMTSIDs.** 
     
  **cbMTSIDs**
   
@@ -54,13 +54,13 @@ typedef struct
     
  **abMTSIDs**
   
-> Matriz de bytes que contém uma ou mais estruturas **MTSID** . 
+> Matriz de byte que contém uma ou mais **estruturas MTSID.** 
     
 ## <a name="remarks"></a>Comentários
 
-O uso da estrutura **FLATMTSIDLIST** em uma mensagem X. 400 corresponde ao uso da estrutura [FLATENTRYLIST](flatentrylist.md) em mensagens MAPI. MAPI usa estruturas **FLATMTSIDLIST** para manter as propriedades X. 400 durante o tratamento de mensagens. Os provedores de serviços usam estruturas **FLATMTSIDLIST** ao lidar com as mensagens X. 400 de entrada e de saída. 
+O uso da estrutura **FLATMTSIDLIST** em mensagens X.400 corresponde ao uso da estrutura [FLATENTRYLIST](flatentrylist.md) em mensagens MAPI. O MAPI usa **estruturas FLATMTSIDLIST** para manter propriedades X.400 durante o tratamento de mensagens. Os provedores de serviços usam **estruturas FLATMTSIDLIST** ao lidar com mensagens X.400 de entrada e saída. 
   
-Na matriz **abMTSIDs** , cada estrutura **MTSID** é alinhada em um limite naturalmente alinhado. Bytes extras são incluídos como enchimento para garantir o alinhamento natural entre duas estruturas **MTSID** . A primeira estrutura **MTSID** na matriz é sempre alinhada corretamente porque o deslocamento do membro **abMTSIDs** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondado para o próximo múltiplo de 4. Use a macro [CbNewMTSID](cbnewmtsid.md) para calcular o tamanho de uma estrutura **MTSID** . 
+Na matriz **abMTSIDs,** cada estrutura **MTSID** é alinhada em um limite alinhado naturalmente. Bytes extras são incluídos como preenchimento para garantir o alinhamento natural entre duas estruturas **MTSID.** A primeira **estrutura MTSID** na matriz é sempre alinhada corretamente porque o deslocamento do membro **abMTSIDs** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondada para o próximo múltiplo de 4. Use a macro [CbNewMTSID](cbnewmtsid.md) para calcular o tamanho de uma **estrutura MTSID.** 
   
 ## <a name="see-also"></a>Confira também
 

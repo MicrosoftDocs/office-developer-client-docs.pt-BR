@@ -29,7 +29,7 @@ Recupera o endereço da função de alocação de memória MAPI padrão.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,6 +43,6 @@ Nenhum.
   
 ## <a name="return-value"></a>Valor retornado
 
-A função **MAPIGetDefaultMalloc** retorna um ponteiro para a função de alocação de memória MAPI padrão. 
+A **função MAPIGetDefaultMalloc** retorna um ponteiro para a função de alocação de memória MAPI padrão. 
   
 

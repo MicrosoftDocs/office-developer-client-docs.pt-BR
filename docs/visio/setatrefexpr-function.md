@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1027317
 localization_priority: Normal
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
-description: Armazena um valor definido por meio de uma ação na interface do usuário ou automação.
+description: Armazena um valor que é definido por meio de uma ação na interface do usuário (UI) ou automação.
 ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33439048"
 ---
 # <a name="setatrefexpr-function"></a>Função SETATREFEXPR
 
-Armazena um valor definido por meio de uma ação na interface do usuário ou automação.
+Armazena um valor que é definido por meio de uma ação na interface do usuário (UI) ou automação.
   
 ## <a name="syntax"></a>Sintaxe
 
-SETATREFEXPR ([* * *expr_opt* * *]) 
+SETATREFEXPR ([ ** *expr_opt* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |Opcional  <br/> |**Vai** <br/> |Uma expressão substituída pelo valor ou expressão atribuída à célula referenciada na função SETATREF. Se não for indicado, seu valor inicial será 0 (zero).  <br/> |
+| _expr_opt_ <br/> |Opcional  <br/> |**Varia** <br/> |Uma expressão substituída pelo valor ou expressão atribuída à célula referenciada na função SETATREF. Se não for indicado, seu valor inicial será 0 (zero).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -50,9 +50,9 @@ User.GridX =2 pol
   
 User.GridY =2 pol
   
-PinX = INT (SETATREFEXPR ()/User.GridX + 0,5)\*User. gradex
+PinX =INT(SETATREFEXPR()/User.GridX + .5) \* User.GridX
   
-PinY = INT (SETATREFEXPR ()/User.GridY + 0,5)\*User. GridY
+PinY =INT(SETATREFEXPR()/User.GridY + .5) \* User.GridY
   
 ## <a name="example-3"></a>Exemplo 3
 

@@ -29,7 +29,7 @@ Contém uma matriz de valores binários.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,17 +44,17 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **lpbin** . 
+> Contagem de valores na matriz apontada pelo membro **lpbin.** 
     
  **lpbin**
   
-> Ponteiro para uma matriz de estruturas [SBinary](sbinary.md) que mantém os valores binários. 
+> Ponteiro para uma matriz de [estruturas SBinary](sbinary.md) que contém os valores binários. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SBinaryArray** é usada para descrever as propriedades do tipo PT_MV_BINARY. 
+A **estrutura SBinaryArray** é usada para descrever propriedades do tipo PT_MV_BINARY. 
   
-Para obter mais informações sobre o PT_MV_BINARY, confira [lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre PT_MV_BINARY, consulte [Lista de tipos de propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

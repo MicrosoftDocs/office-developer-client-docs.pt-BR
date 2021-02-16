@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfEvaluate
 keywords:
-- função xlfevaluate [Excel 2007]
+- Função xlfevaluate [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33439181"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usa o Microsoft Excel Parser e o avaliador de função para avaliar qualquer expressão que possa ser inserida em uma célula de planilha.
+Usa o analisador do Microsoft Excel e o avaliador de funções para avaliar qualquer expressão que possa ser inserida em uma célula de planilha.
   
 ```cs
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
@@ -32,7 +32,7 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
  _pxFormulaText (xltypeStr)_
   
-A cadeia de caracteres a ser avaliada. Um sinal de igual (=) à esquerda é opcional. A cadeia de caracteres pode ser qualquer texto que possa ser inserido legalmente em uma planilha ou célula de planilha de macro.
+A cadeia de caracteres a ser avaliada. Um sinal de igual à frente (=) é opcional. A cadeia de caracteres pode ser qualquer texto que possa ser inserido legalmente em uma célula de planilha de macro ou planilha de macro.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
@@ -40,17 +40,17 @@ Retorna o resultado da avaliação da cadeia de caracteres que pode ser qualquer
   
 ## <a name="remarks"></a>Comentários
 
-A cadeia de caracteres pode conter apenas funções, não equivalentes de comando. É equivalente a pressionar **F9** da barra de fórmulas. Se **xlfEvaluate** for chamado a partir de uma função de planilha XLL registrada como thread-safe, a expressão deve conter apenas funções thread-safe. 
+A cadeia de caracteres pode conter apenas funções, não equivalentes de comando. Equivale a pressionar **F9 a partir** da barra de fórmulas. Se **xlfEvaluate** for chamado de uma função de planilha XLL registrada como thread-safe, a expressão deverá conter apenas funções thread-safe. 
   
-O uso principal da função **xlfEvaluate** é permitir que as DLLs descubram o valor atribuído a um nome definido em uma planilha ou um nome oculto definido dentro da dll. Observe que, em uma DLL/XLL, um nome de planilha deve ser prefixado com pelo menos um ponto de exclamação (!) para garantir que ele seja interpretado como externo à DLL. Para obter mais informações, consulte [avaliar nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md).
+O uso principal da função **xlfEvaluate** é permitir que as DLLs descubram o valor atribuído a um nome definido que está em uma planilha ou em um nome oculto definido dentro da DLL. Observe que dentro de uma DLL/XLL, um nome de planilha deve ser prefixado com pelo menos um ponto de exclamação (!) para garantir que ele seja interpretado como externo à DLL. Para obter mais informações, [consulte Avaliando nomes e outras expressões de fórmula de planilha.](evaluating-names-and-other-worksheet-formula-expressions.md)
   
  **xlfEvaluate** não pode ser usado para avaliar referências a uma planilha externa que não está aberta. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa **xlfEvaluate** para forçar o texto "! B38 "com o conteúdo da célula B38. 
+Este exemplo usa **xlfEvaluate** para fazer a coerção do texto "! B38" para o conteúdo da célula B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. Essa função chama uma macro de comando (**xlcAlert**) e funcionará corretamente somente quando for chamado a partir de uma folha de macro ou como um comando de macro.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. Esta função chama uma macro de comando (**xlcAlert**) e funcionará corretamente somente quando chamado de uma folha de macro ou como um comando de macro.
   
 ```cs
 short WINAPI EvaluateExample(void)

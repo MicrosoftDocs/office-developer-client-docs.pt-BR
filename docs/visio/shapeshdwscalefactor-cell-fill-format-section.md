@@ -22,7 +22,7 @@ Especifica a porcentagem pela qual a sombra de uma forma pode ser aumentada ou r
   
 ## <a name="remarks"></a>Comentários
 
-Cada sombra possui um local de pino sombreado, que representa um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro dela, então o local do pino sombreado será o ponto no centro da sombra. Ao aplicar escala a sombras simples, a ampliação é centralizada no local de PIN sombreado; ao aplicar escala a sombras oblíquas, a ampliação é aplicada na direção oblíqua. 
+Cada sombra possui um local de pino sombreado, que representa um ponto na sombra que corresponde ao pino da forma. Por exemplo, se o pino de uma forma estiver no centro dela, então o local do pino sombreado será o ponto no centro da sombra. Ao aplicar escala a sombras simples, a ampliação é centralizada no local do pino sombreado; ao aplicar escala a sombras oblíquas, a ampliação é aplicada na direção oblíqua. 
   
 Para definir esse valor para todas as formas de uma página, use a célula ShdwScaleFactor na seção Page Properties.
   
@@ -40,6 +40,6 @@ Para obter uma referência para a célula ShapeShdwScaleFactor pelo índice, a p
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillShdwScaleFactor** <br/> |
+|Índice de célula:  <br/> |**visFillShdwScaleFactor** <br/> |
    
 

@@ -35,7 +35,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 _pclsidType_
   
-> bota O identificador de classe para o tipo de conta. O valor deve ser uma das seguintes opções:
+> [out] O identificador de classe para o tipo de conta. O valor deve ser uma das seguintes opções:
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> bota O número de categorias no _prgclsidCategory_.
+> [out] O número de categorias  _em prgclsidCategory_.
     
 _prgclsidCategory_
   
-> bota Uma matriz de categorias à qual essa conta está associada. A matriz é do tamanho * _pcCategories_. O valor de cada categoria na matriz deve ser um dos seguintes:
+> [out] Uma matriz de categorias às que esta conta está associada. A matriz tem o tamanho * _pcCategories_. O valor de cada categoria na matriz deve ser um dos seguintes:
     
    - CLSID_OlkMail
     
@@ -67,9 +67,9 @@ S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Após o método retornar, você deve liberar *prgclsidCategory* usando [IOlkAccount:: freememory](iolkaccount-freememory.md).
+Depois que esse método retornar, você deverá liberar  *prgclsidCategory*  usando [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount:: GetAccountInfo** não dá suporte à categoria catálogo de endereços para uma conta do Exchange. Se a conta for uma conta do Exchange (*pclsidType* é **CLSID_OlkMAPIAccount** ) e a conta implementar o catálogo de endereços, chamar **IOlkAccount:: GetAccountInfo** não retornará **CLSID_OlkAddressBook** como uma categoria no * prgclsidCategory* . 
+**IOlkAccount::GetAccountInfo** não dá suporte à categoria de livro de endereços de uma conta do Exchange. Se a conta for uma conta do Exchange (*pclsidType*  é **CLSID_OlkMAPIAccount** ), e a conta implementa o livro de endereços, chamar **IOlkAccount::GetAccountInfo** não retornará **CLSID_OlkAddressBook** como uma categoria em  *prgclsidCategory*  . 
   
 ## <a name="see-also"></a>Confira também
 

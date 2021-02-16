@@ -25,11 +25,11 @@ ms.locfileid: "33439118"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que devem ser alocados para uma nova estrutura [SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade. 
+Calcula o número de bytes que devem ser alocados para uma nova [estrutura SPropAttrArray](spropattrarray.md) que contém um número especificado de atributos de propriedade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Imessage.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewSPropAttrArray (_cattr)
 
 ## <a name="parameters"></a>Parâmetros
 
- __cattr_
+ _ _cattr_
   
-> Contagem de atributos de propriedade a serem incluídos na nova estrutura **SPropAttrArray** . 
+> Contagem de atributos de propriedade a serem incluídos na nova **estrutura SPropAttrArray.** 
     
 ## <a name="see-also"></a>Confira também
 

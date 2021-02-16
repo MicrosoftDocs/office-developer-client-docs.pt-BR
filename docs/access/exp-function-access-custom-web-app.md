@@ -1,5 +1,5 @@
 ---
-title: Função exp (aplicativo Web personalizado do Access)
+title: Função Exp (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436409"
 ---
-# <a name="exp-function-access-custom-web-app"></a>Função exp (aplicativo Web personalizado do Access)
+# <a name="exp-function-access-custom-web-app"></a>Função Exp (aplicativo Web personalizado do Access)
 
 Retorna o valor exponencial da expressão especificada.
   
@@ -23,20 +23,20 @@ Retorna o valor exponencial da expressão especificada.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Exp** (*Numericé*) 
+ **Exp** (*NumericExpression*) 
   
-A função **exp** contém o argumento a seguir. 
+A **função Exp** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |Uma expressão do tipo Double ou de um tipo que pode ser convertido implicitamente em Double.  <br/> |
+| *NumericExpression*  <br/> |Uma expressão do tipo Double ou de um tipo que pode ser convertida implicitamente em Double.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A constante **e** (2,718281...) é a base dos logaritmos naturais. 
+A constante **e** (2,718281...), é a base de logaritmos naturais. 
   
-O expoente de um número é a constante **e** elevado à potência do número. Por exemplo, **exp** (1,0) = e ^ 1,0 = 2.71828182845905 e **exp** (10) = e ^ 10 = 22026.4657948067. 
+O expoente de um número é a constante **elevada** à potência do número. Por exemplo **Exp** (1,0) = e^1,0 = 2,71828182845905 e **Exp** (10) = e^10 = 22026.4657948067. 
   
-O exponencial do logaritmo natural de um número é o próprio número: **exp** (log (n)) = n. E o logaritmo natural do exponencial de um número é o próprio número: LOG (**exp** (n)) = n. 
+O exponencial do logaritmo natural de um número é o próprio número: **Exp** (LOG (n)) = n. E o logaritmo natural do exponencial de um número é o próprio número: LOG (**Exp** (n)) = n. 
   
 

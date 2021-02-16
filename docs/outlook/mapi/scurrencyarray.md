@@ -29,7 +29,7 @@ Contém uma matriz de valores de moeda que são usados para descrever uma propri
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -44,15 +44,15 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **lpcur** . 
+> Contagem de valores na matriz apontada pelo membro **lpcur.** 
     
  **lpcur**
   
-> Ponteiro para uma matriz de estruturas de [moeda](currency.md) que contêm os valores de moeda. 
+> Ponteiro para uma matriz de [estruturas CURRENCY](currency.md) que contêm os valores de moeda. 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter informações sobre o PT_MV_CURRENCY, consulte [list of Property Types](property-types.md). 
+Para obter informações sobre PT_MV_CURRENCY, consulte [Lista de tipos de propriedade.](property-types.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- função tempint12 [Excel 2007], função TempInt [Excel 2007]
+- Função tempint12 [excel 2007],função TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33438747"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca de estrutura que cria um**XLOPER12** **XLOPER**/ temporário que contém um inteiro. 
+Função de biblioteca de estrutura que cria um **XLOPER** /  **XLOPER12 temporário** que contém um inteiro. 
   
 ```cs
 LPXLOPER TempInt(short int i);
@@ -34,15 +34,15 @@ LPXLOPER12 TempInt12(int i);
 
  _i_
   
-O valor inteiro pretendido. Observe que o inteiro **XLOPER** é um inteiro de 16 bits com sinal (int curta), enquanto o inteiro **XLOPER12** é um inteiro de 32 bits assinado ([Long] int). 
+O valor inteiro pretendido. Observe que o inteiro **XLOPER** é um inteiro de 16 bits assinado (short int), enquanto o inteiro **XLOPER12** é um inteiro de 32 bits assinado ([long] int). 
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um inteiro **xltypeInt** que contém o valor passado. 
+Retorna um **inteiro xltypeInt** que contém o valor passado. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempInt12** para passar um argumento para **xlfGetWorkspace**.
+Este exemplo usa a **função TempInt12** para passar um argumento para **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

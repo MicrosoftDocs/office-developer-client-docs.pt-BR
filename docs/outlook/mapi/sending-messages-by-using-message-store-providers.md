@@ -19,105 +19,105 @@ ms.locfileid: "33437606"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os provedores de repositórios de mensagens não são necessários para dar suporte a envios de mensagens de saída (ou seja, a capacidade de aplicativos clientes usarem o provedor de armazenamento de mensagens para enviar mensagens). Os aplicativos cliente precisam usar um repositório de mensagens durante o envio de mensagens, pois os dados da mensagem devem ser armazenados em algum lugar entre o momento em que o usuário tiver concluído a composição e a hora em que o spooler MAPI fornece a mensagem a um provedor de transporte envio para o sistema de mensagens subjacente. Se o seu provedor de repositório de mensagens não oferecer suporte a envios de mensagens de saída, ele não poderá ser usado como o repositório de mensagens padrão.
+Os provedores de armazenamento de mensagens não são obrigados a dar suporte a envios de mensagens de saída (ou seja, a capacidade dos aplicativos clientes usarem o provedor de armazenamento de mensagens para enviar mensagens). Os aplicativos cliente precisam usar um armazenamento de mensagens durante o envio de mensagens, porque os dados da mensagem devem ser armazenados em algum lugar entre o momento em que o usuário terminou de retorá-la e a hora em que o spooler MAPI entrega a mensagem a um provedor de transporte para envio ao sistema de mensagens subjacente. Se seu provedor de armazenamento de mensagens não suportar envios de mensagens de saída, ele não poderá ser usado como o armazenamento de mensagens padrão.
   
-Para dar suporte ao envio de mensagens, seu provedor de repositório de mensagens deve fazer o seguinte:
+Para dar suporte ao envio de mensagens, seu provedor de armazenamento de mensagens deve fazer o seguinte:
   
-- Implementar uma fila de mensagens de saída.
+- Implemente uma fila de mensagens de saída.
     
-- Suporte para o método [IMessage:: SubmitMessage](imessage-submitmessage.md) em objetos Message criados no repositório de mensagens. 
+- Suporte ao [método IMessage::SubmitMessage](imessage-submitmessage.md) em objetos de mensagem criados no armazenamento de mensagens. 
     
-- Suporte aos métodos **IMsgStore** que são específicos para o spooler MAPI: [IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md)e [IMsgStore::](imsgstore-setlockstate.md)setlockstate.
+- Suporte aos métodos **IMsgStore** específicos para o spooler MAPI: [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)e [IMsgStore::SetLockState](imsgstore-setlockstate.md).
     
-O **** método setlockstate é importante para a interoperação adequada entre os clientes e o spooler MAPI. Quando o spooler MAPI chama setLockstate em uma mensagem de saída, o provedor do repositório de mensagens não deve permitir que os clientes Abram a mensagem. **** Se um cliente tentar abrir uma mensagem bloqueada pelo spooler MAPI, o provedor de repositório de mensagens deverá retornar MAPI_E_NO_ACCESS. O estado bloqueado de uma mensagem não precisa ser persistente, caso o repositório seja desligado enquanto a mensagem é bloqueada pelo spooler MAPI. 
+O **método SetLockState** é importante para interoperação adequada entre o spooler MAPI e os clientes. Quando o spooler MAPI chama **SetLockState** em uma mensagem de saída, o provedor de armazenamento de mensagens não deve permitir que os clientes abram a mensagem. Se um cliente tentar abrir uma mensagem bloqueada pelo spooler MAPI, o provedor de armazenamento de mensagens deverá retornar MAPI_E_NO_ACCESS. O estado bloqueado de uma mensagem não precisa ser persistente no caso de o armazenamento ser desligado enquanto a mensagem é bloqueada pelo spooler MAPI. 
   
-Independentemente de o spooler MAPI ter bloqueado uma mensagem de saída, o provedor do repositório de mensagens não deve permitir que uma mensagem na fila de mensagens de saída seja aberta para gravação. Se um cliente chamar o método [IMSgStore:: OpenEntry](imsgstore-openentry.md) em uma mensagem de saída com o sinalizador MAPI_MODIFY, a chamada deverá falhar e retornar MAPI_E_SUBMITTED. Se um aplicativo cliente chama **OpenEntry** em uma mensagem de saída com o sinalizador MAPI_BEST_ACCESS, o provedor do repositório de mensagens deve permitir acesso somente leitura à mensagem. 
+Independentemente de o spooler MAPI ter bloqueado uma mensagem de saída, o provedor de armazenamento de mensagens não deve permitir que uma mensagem na fila de mensagens de saída seja aberta para escrita. Se um cliente chamar o método [IMSgStore::OpenEntry](imsgstore-openentry.md) em uma mensagem de saída com o sinalizador MAPI_MODIFY, a chamada falhará e retornará MAPI_E_SUBMITTED. Se um aplicativo cliente chamar **OpenEntry** em uma mensagem de saída com o sinalizador MAPI_BEST_ACCESS, o provedor de armazenamento de mensagens deverá permitir acesso somente leitura à mensagem. 
   
-Quando uma mensagem é manipulada pelo spooler MAPI, o provedor do repositório de mensagens define a propriedade **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) da mensagem como SUBMITFLAG_LOCKED. O valor SUBMITFLAG_LOCKED indica que o spooler MAPI bloqueou a mensagem para seu uso exclusivo. O outro valor para **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, é definido quando a mensagem requer o pré-processamento por uma ou mais funções de pré-processador registradas por um provedor de transporte.
+Quando uma mensagem deve ser manipulada pelo spooler MAPI, o provedor de armazenamento de mensagens define a propriedade **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) da mensagem como SUBMITFLAG_LOCKED. O SUBMITFLAG_LOCKED valor indica que o spooler MAPI travadau a mensagem para seu uso exclusivo. O outro valor para **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, é definido quando a mensagem exige pré-processamento por uma ou mais funções de pré-processador registradas por um provedor de transporte.
   
-Os procedimentos a seguir descrevem como o repositório de mensagens, o transporte e o spooler MAPI interagem para enviar uma mensagem de um cliente para um ou mais destinatários. 
+Os procedimentos a seguir descrevem como o armazenamento de mensagens, o transporte e o spooler MAPI interagem para enviar uma mensagem de um cliente para um ou mais destinatários. 
   
-O aplicativo cliente chama o método [IMessage:: SubmitMessage](imessage-submitmessage.md) . No **SubmitMessage**, o provedor de armazenamento de mensagens faz o seguinte:
+O aplicativo cliente chama o [método IMessage::SubmitMessage.](imessage-submitmessage.md) Em **SubmitMessage**, o provedor de armazenamento de mensagens faz o seguinte:
   
-1. Chama [IMAPISupport::P reparesubmit](imapisupport-preparesubmit.md). Se MAPI retornar um erro, o provedor de armazenamento de mensagens retornará esse erro ao cliente.
+1. Chama [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md). Se MAPI retornar um erro, o provedor de armazenamento de mensagens retornará esse erro para o cliente.
     
-2. Define o bit MSGFLAG_SUBMIT na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem.
+2. Define o MSGFLAG_SUBMIT bit **na propriedade PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem.
     
-3. Garante que exista uma coluna para a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) na tabela de destinatários e a defina como false para indicar que nenhum transporte ainda assumiu a responsabilidade de transmitir a mensagem.
+3. Garante que haja uma coluna para a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) na tabela de destinatários e a define como FALSE para indicar que nenhum transporte assume a responsabilidade pela transmissão da mensagem.
     
-4. Define a data e a hora da origem na propriedade **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
+4. Define a data e a hora de origem **na propriedade PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
     
-5. Chama [IMAPISupport:: ExpandRecips](imapisupport-expandrecips.md) para fazer o seguinte: 
+5. Chama [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) para fazer o seguinte: 
     
-    1. Expanda todas as listas de distribuição pessoal e destinatários personalizados e substitua todos os nomes de exibição alterados por seus nomes originais.
+    1. Expanda todas as listas de distribuição pessoais e destinatários personalizados e substitua todos os nomes de exibição alterados por seus nomes originais.
         
     2. Remover nomes duplicados.
         
-    3. Verifique se há um pré-processamento necessário e, se o pré-processamento for necessário, defina o sinalizador NEEDS_PREPROCESSING e a propriedade **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)), que é reservada para MAPI. 
+    3. Verifique se há qualquer pré-processamento necessário e, se o pré-processamento for necessário, de definir o sinalizador NEEDS_PREPROCESSING e a propriedade **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)), que é reservado para MAPI. 
         
-    4. Defina o sinalizador NEEDS_SPOOLER se o repositório de mensagens estiver rigidamente acoplado a um transporte e não puder lidar com todos os destinatários. 
+    4. De definida NEEDS_SPOOLER sinalizador se o armazenamento de mensagens estiver fortemente unido a um transporte e não puder manipular todos os destinatários. 
     
-6. Executa as seguintes tarefas se o sinalizador de mensagem NEEDS_PREPROCESSING estiver definido:
+6. Executa as seguintes tarefas se o sinalizador NEEDS_PREPROCESSING mensagem estiver definido:
     
-    1. Coloca a mensagem na fila de saída com o conjunto de bits SUBMITFLAG_PREPROCESS na propriedade **PR_SUBMIT_FLAGS** . 
+    1. Coloca a mensagem na fila de saída com o SUBMITFLAG_PREPROCESS bit definido na **propriedade PR_SUBMIT_FLAGS** saída. 
         
     2. Notifica o spooler MAPI de que a fila foi alterada.
         
-    3. Retorna o controle ao cliente e o fluxo de mensagens continua no spooler MAPI. O spooler MAPI realiza as seguintes tarefas: 
+    3. Retorna o controle para o cliente, e o fluxo de mensagens continua no spooler MAPI. O spooler MAPI executa as seguintes tarefas: 
     
-       1. Bloqueia a mensagem chamando [IMsgStore::](imsgstore-setlockstate.md)setlockstate.
+       1. Bloqueia a mensagem chamando [IMsgStore::SetLockState](imsgstore-setlockstate.md).
             
-       2. Realiza o pré-processamento necessário chamando todas as funções de pré-processamento na ordem de registro. Os provedores de transporte chamam [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar funções de pré-processamento. 
+       2. Executa o pré-processamento necessário chamando todas as funções de pré-processamento na ordem de registro. Provedores de transporte chamam [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar funções de pré-processamento. 
             
-       3. Chama [IMessage:: SubmitMessage](imessage-submitmessage.md) na mensagem aberta para indicar ao repositório de mensagens que o pré-processamento está completo. 
+       3. Chama [IMessage::SubmitMessage](imessage-submitmessage.md) na mensagem aberta para indicar ao armazenamento de mensagens que o pré-processamento está concluído. 
     
-Se não houver pré-processamento ou se houver pré-processamento e o spooler MAPI chamado **SubmitMessage**, o provedor de armazenamento de mensagens fará o seguinte no processo de cliente: 
+Se não houve pré-processamento ou se houve pré-processamento e o spooler MAPI chamado **SubmitMessage**, o provedor de armazenamento de mensagens faz o seguinte no processo do cliente: 
   
-- Realiza as seguintes tarefas se o repositório de mensagens estiver rigidamente acoplado a um transporte e o sinalizador NEEDS_SPOOLER retornado de [IMAPISupport:: ExpandRecips](imapisupport-expandrecips.md):
+- Executa as seguintes tarefas se o armazenamento de mensagens estiver fortemente unido a um transporte e o sinalizador NEEDS_SPOOLER foi retornado de [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
-   - Cuida de qualquer destinatário que possa lidar.
+   - Trata todos os destinatários que ele pode manipular.
     
-   - Define a propriedade **PR_RESPONSIBILITY** como true para todos os destinatários que ele manipula. 
+   - Define a **PR_RESPONSIBILITY** propriedade como TRUE para todos os destinatários que ela manipular. 
     
-   - Realiza as seguintes tarefas se todos os destinatários forem conhecidos por esse transporte e transporte rigidamente acoplados: 
+   - Executa as seguintes tarefas se todos os destinatários são conhecidos por esse transporte e armazenamento fortemente próximos: 
     
-     - Chama [IMAPISupport:: CompleteMsg](imapisupport-completemsg.md) se a mensagem tiver sido preprocessada ou se o provedor de repositório de mensagens quiser que o spooler MAPI Complete o processamento de mensagens. O fluxo de mensagens continua com o spooler MAPI. 
+     - Chama [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) se a mensagem foi pré-processada ou se o provedor de armazenamento de mensagens deseja que o spooler MAPI conclua o processamento de mensagens. O fluxo de mensagens continua com o spooler MAPI. 
     
-     - Realiza as seguintes tarefas se a mensagem não tiver sido preprocessada ou se o provedor do repositório de mensagens não quiser que o spooler MAPI Complete o processamento de mensagens:
+     - Executa as seguintes tarefas se a mensagem não tiver sido pré-processada ou se o provedor de armazenamento de mensagens não quiser que o spooler MAPI conclua o processamento de mensagens:
     
-       1. Copia a mensagem para a pasta identificada pelo identificador de entrada na propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), se definida.
+       1. Copia a mensagem para a pasta identificada pelo identificador de entrada na **propriedade PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), se definida.
             
-       2. Exclui a mensagem se a propriedade **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) tiver sido definida como true.
+       2. Exclui a mensagem se a **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) tiver sido definida como TRUE.
             
-       3. Desbloqueia a mensagem se estiver bloqueada.
+       3. Desbloqueia a mensagem se ela estiver bloqueada.
             
-       4. Retorna ao cliente. O fluxo de mensagens foi concluído.
+       4. Retorna ao cliente. O fluxo de mensagens está concluído.
     
-  - Executa as seguintes tarefas se a mensagem foi preprocessada ou o provedor quer que o spooler MAPI conclua o processamento de mensagens:
+  - Executa as seguintes tarefas se a mensagem foi pré-processada ou se o provedor deseja que o spooler MAPI conclua o processamento de mensagens:
     
-    1. Chama [IMAPISupport:: CompleteMsg](imapisupport-completemsg.md). 
+    1. Chama [IMAPISupport::CompleteMsg](imapisupport-completemsg.md). 
           
-    2. Continua o fluxo de mensagens com o spooler MAPI. Para obter mais informações, consulte [enviando mensagens: tarefas do spooler MAPI](sending-messages-mapi-spooler-tasks.md).
+    2. Continua o fluxo de mensagens com o spooler MAPI. Para obter mais informações, consulte [Enviando Mensagens: Tarefas do Spooler MAPI.](sending-messages-mapi-spooler-tasks.md)
     
-  - Executa as seguintes tarefas se a mensagem não foi preprocessada ou o provedor não deseja que o spooler conclua o processamento de mensagens:
+  - Executa as seguintes tarefas se a mensagem não tiver sido pré-processada ou se o provedor não quiser que o spooler conclua o processamento de mensagens:
     
-    1. Copia a mensagem para a pasta identificada pelo identificador de entrada na propriedade **PR_SENTMAIL_ENTRYID** , se definida. 
+    1. Copia a mensagem para a pasta identificada pelo identificador de entrada na propriedade **PR_SENTMAIL_ENTRYID,** se definida. 
         
-    2. Exclui a mensagem se a propriedade **PR_DELETE_AFTER_SUBMIT** tiver sido definida como true. 
+    2. Exclui a mensagem se a **PR_DELETE_AFTER_SUBMIT** propriedade tiver sido definida como TRUE. 
         
-    3. Desbloqueia a mensagem se estiver bloqueada. 
+    3. Desbloqueia a mensagem se ela estiver bloqueada. 
         
-    4. Retorna ao chamador. O fluxo de mensagens foi concluído.
+    4. Retorna ao chamador. O fluxo de mensagens está concluído.
     
-- Realiza as seguintes tarefas se o repositório de mensagens não estiver rigidamente acoplado a um transporte, nem todos os destinatários foram conhecidos no repositório de mensagens ou se o sinalizador NEEDS_SPOOLER estiver definido:
+- Executa as seguintes tarefas se o armazenamento de mensagens não estiver fortemente unido a um transporte, nem todos os destinatários eram conhecidos no armazenamento de mensagens ou o sinalizador de NEEDS_SPOOLER está definido:
     
-  1. Coloca a mensagem na fila de saída sem definir o bit SUBMITFLAG_PREPROCESS na propriedade **PR_SUBMIT_FLAGS** . 
+  1. Coloca a mensagem na fila de saída sem definir SUBMITFLAG_PREPROCESS bit na **propriedade PR_SUBMIT_FLAGS** saída. 
     
   2. Notifica o spooler MAPI de que a fila de saída foi alterada gerando uma notificação de tabela. 
     
-  3. Retorna ao cliente e o fluxo de mensagens continua com um conjunto de tarefas executadas pelo spooler MAPI.
+  3. Retorna ao cliente, e o fluxo de mensagens continua com um conjunto de tarefas executadas pelo spooler MAPI.
     
 ## <a name="see-also"></a>Confira também
 
-- [Recursos do repositório de mensagens](message-store-features.md)
+- [Recursos do Armazenamento de Mensagens](message-store-features.md)
 

@@ -22,14 +22,14 @@ Indica se o desenho é impresso em um número específico de páginas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Ajustar a página de desenho a um número definido de páginas da impressora.  <br/> |
+|VERDADEIRO  <br/> |Ajustar a página de desenho a um número definido de páginas impressas.  <br/> |
 |FALSE  <br/> |Não ajusta a página de desenho a um número definido de páginas impressas (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 Se a célula OnPage for definida como VERDADEIRO, o Microsoft Visio usa as células PagesX e PagesY para determinar o número de páginas impressas com o qual ajustará o desenho. Os valores das células ScaleX e ScaleY são ignorados. Essa pode ser considerada uma configuração de "escala automática".
   
-Esse valor corresponde à opção **ajustar para** , na guia **Configurar impressão** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ). 
+Esse valor corresponde  à opção Ajustar  à guia  Configurar Impressão na caixa de diálogo  Configurar Página (na guia **Design,** clique na seta Configurar Página). 
   
 Para obter uma referência para a célula OnPage pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -43,6 +43,6 @@ Para obter uma referência para a célula OnPage pelo índice a partir de um pro
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
-|Índice da célula:  <br/> |**visPrintPropertiesOnPage** <br/> |
+|Índice de célula:  <br/> |**visPrintPropertiesOnPage** <br/> |
    
 

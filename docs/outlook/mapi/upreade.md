@@ -19,7 +19,7 @@ ms.locfileid: "33434141"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações estendidas para carregar o estado de leitura de um item durante o [estado carregar status de leitura](upload-read-status-state.md).
+Informações estendidas para carregar o estado de leitura de um item durante o [estado de status de leitura do upload.](upload-read-status-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -35,27 +35,27 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] flags para determinar o comportamento apropriado durante o carregamento. 
+>  [out]/[in] Sinalizadores para determinar o comportamento apropriado durante o upload. 
     
   - UPR_ASSOC
     
-    - bota O item está oculto.
+    - [out] O item está oculto.
     
   - UPR_READ
     
-    - bota O status de leitura do item foi alterado.
+    - [out] O status de leitura do item foi alterado.
     
   - UPR_OK
     
-    - no O upload foi bem-sucedido. O cliente define isso após carregar informações no servidor.
+    - [in] O carregamento foi bem-sucedido. O cliente define isso depois de carregar informações no servidor.
     
   - UPR_COMMIT
     
-    - no Carregar o status de leitura do item agora, em vez de esperar para o final do [estado de carregamento da tabela](upload-table-state.md) para processar mais de um item. 
+    - [in] Carregue o status de leitura do item agora, [](upload-table-state.md) em vez de aguardar até o final do estado da tabela de carregamento para processar em lote mais de um item. 
     
 _skey_
   
-> bota Chave de origem do item.
+> [out] Chave de origem do item.
     
 ## <a name="see-also"></a>Confira também
 

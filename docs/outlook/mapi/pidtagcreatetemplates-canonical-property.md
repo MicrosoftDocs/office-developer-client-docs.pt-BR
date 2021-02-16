@@ -25,7 +25,7 @@ ms.locfileid: "33438180"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um objeto Table incorporado que contém identificadores de entrada de modelo de caixa de diálogo. 
+Contém um objeto de tabela incorporado que contém identificadores de entrada de modelo de caixa de diálogo. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um objeto Table incorporado que contém identificadores de entrada de mo
    
 ## <a name="remarks"></a>Comentários
 
-Para saber quais objetos de modelo podem ser criados dentro de um contêiner, chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) nessa propriedade. O objeto resultante é a tabela única que fornece os identificadores de entrada para todos os modelos que você pode criar dentro do contêiner. 
+Para saber quais objetos de modelo podem ser criados dentro de um contêiner, chame o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) nessa propriedade. O objeto resultante é a tabela única que fornece os identificadores de entrada para todos os modelos que você pode criar dentro do contêiner. 
   
-Para criar os objetos de modelo, chame o método **createentry** do objeto Container nos valores de coluna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da tabela one-off.
+Para criar os objetos de modelo, chame o método **CreateEntry** do objeto contêiner nos valores de coluna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da tabela one-off.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

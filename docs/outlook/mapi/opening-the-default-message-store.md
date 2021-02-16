@@ -19,23 +19,23 @@ ms.locfileid: "33436024"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Em qualquer sessão específica, um repositório de mensagens atua como o repositório de mensagens padrão. Um repositório de mensagens padrão tem as seguintes características:
+Em qualquer sessão específica, um armazenamento de mensagens atua como o armazenamento de mensagens padrão. Um armazenamento de mensagens padrão tem as seguintes características:
   
-- A propriedade **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) é definida como true.
+- A **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) é definida como TRUE.
     
-- O sinalizador STATUS_DEFAULT_STORE é definido na propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+- O STATUS_DEFAULT_STORE sinalizador é definido **na propriedade PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-- O MAPI cria automaticamente a subárvore IPM e as pastas raiz para resultados de pesquisa, modos de exibição e modos de exibição pessoais quando o repositório de mensagens é aberto. Para obter mais informações sobre essas pastas, consulte [IPM sub-árvore](ipm-subtree.md) and [MAPI Special Folders](mapi-special-folders.md). 
+- MAPI automatically creates the IPM subtree and the root folders for search-results, common views and personal views when the message store is opened. Para obter mais informações sobre essas pastas, consulte [Subárvore IPM](ipm-subtree.md) e [Pastas Especiais MAPI.](mapi-special-folders.md) 
     
-Para recuperar o identificador de entrada para o repositório de mensagens padrão, você deve chamar [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) para abrir a tabela de repositório de mensagens e aplicar uma restrição apropriada em uma chamada para [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** retornará um conjunto de linhas com uma linha que representa o repositório de mensagens padrão. A restrição que você passa para o **HrQueryAllRows** pode executar um dos seguintes formatos: 
+Para recuperar o identificador de entrada para o armazenamento de mensagens padrão, você deve chamar [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) para abrir a tabela de armazenamento de mensagens e aplicar uma restrição apropriada em uma chamada para [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** retornará um conjunto de linhas com a única linha que representa o armazenamento de mensagens padrão. A restrição que você passa **para HrQueryAllRows** pode assumir em um dos seguintes formulários: 
   
-1. Uma restrição **e** que usa uma estrutura **SAndRestriction** para combinar: 
+1. Uma **restrição AND** que usa uma **estrutura SAndRestriction** para combinar: 
     
-   - Uma restrição Exists que usa uma estrutura **SExistRestriction** para testar a existência da propriedade **PR_DEFAULT_STORE** . 
+   - Existe uma restrição que usa **uma estrutura SExistRestriction** para testar a existência da **PR_DEFAULT_STORE** propriedade. 
     
-   - Uma restrição de propriedade que usa uma estrutura [SPropertyRestriction](spropertyrestriction.md) para verificar o valor true na propriedade **PR_DEFAULT_STORE** . 
+   - Uma restrição de propriedade que usa uma [estrutura SPropertyRestriction](spropertyrestriction.md) para verificar o valor TRUE na **PR_DEFAULT_STORE** propriedade. 
     
-2. Uma restrição de bitmask que usa uma estrutura [SBitMaskRestriction](sbitmaskrestriction.md) para aplicar STATUS_DEFAULT_STORE como uma máscara à propriedade **PR_RESOURCE_FLAGS** . 
+2. Uma restrição de bitmask que usa uma estrutura [SBitMaskRestriction](sbitmaskrestriction.md) para aplicar STATUS_DEFAULT_STORE como uma máscara contra a **PR_RESOURCE_FLAGS** propriedade. 
     
 ## <a name="see-also"></a>Confira também
 

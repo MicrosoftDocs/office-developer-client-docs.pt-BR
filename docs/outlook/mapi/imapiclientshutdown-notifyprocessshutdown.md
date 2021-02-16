@@ -25,7 +25,7 @@ ms.locfileid: "33438866"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a intenção do cliente MAPI para prosseguir com o desligamento.
+Indica a intenção do cliente MAPI de prosseguir com o desligado.
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,11 +35,11 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> O subsistema MAPI tentou notificar os provedores MAPI carregados de que o cliente MAPI fará um desligamento rápido.
+> O subsistema de MAPI tentou notificar os provedores MAPI carregados de que o cliente MAPI fará um desligamento rápido.
     
 ## <a name="remarks"></a>Comentários
 
-Para evitar a perda de dados do desligamento rápido de um cliente MAPI, os clientes MAPI devem chamar os métodos **IMAPIClientShutdown:: NotifyProcessShutdown** e [IMAPIClientShutdown::D ofastshutdown](imapiclientshutdown-dofastshutdown.md) com base no resultado de S_OK RETORNADO pelo subsistema MAPI no o método [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Para obter mais informações, consulte [práticas recomendadas para](best-practices-for-fast-shutdown.md)o desligamento rápido.
+Para evitar a perda de dados do desligamento rápido de um cliente MAPI, os clientes MAPI devem chamar os métodos **IMAPIClientShutdown::NotifyProcessShutdown** e [IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) com base no resultado S_OK retornado pelo subsistema de MAPI no método [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Para obter mais informações, consulte [As Práticas Recomendadas para o Desligamento Rápido.](best-practices-for-fast-shutdown.md)
   
 ## <a name="see-also"></a>Confira também
 

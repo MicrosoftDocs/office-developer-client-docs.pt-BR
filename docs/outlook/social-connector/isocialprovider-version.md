@@ -17,7 +17,7 @@ ms.locfileid: "33438271"
 ---
 # <a name="isocialproviderversion"></a>ISocialProvider::Version
 
-Retorna uma cadeia de caracteres que representa o número de versão do provedor para esta rede social. 
+Retorna uma cadeia de caracteres que representa o número de versão do provedor para essa rede social. 
   
 ```cpp
 [propget] HRESULT _stdcall Version([out, retval] BSTR* Version);
@@ -29,7 +29,7 @@ Uma cadeia de caracteres que contém o número de versão do provedor.
   
 ## <a name="remarks"></a>Comentários
 
-A cadeia de caracteres de versão deve usar o _MajorVersion_. Formato _MinorVersion_ (por exemplo, 1,4730). 
+A cadeia de caracteres de versão deve usar  _MajorVersion_. _Formato MinorVersion_ (por exemplo, 1,4730). 
   
 ## <a name="see-also"></a>Confira também
 

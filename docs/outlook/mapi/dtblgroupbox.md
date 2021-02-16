@@ -29,7 +29,7 @@ Descreve um controle de caixa de grupo que será usado em uma caixa de diálogo 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
 ```cpp
@@ -45,21 +45,21 @@ typedef struct _DTBLGROUPBOX
 
  **ulbLpszLabel**
   
-> Posição na memória da cadeia de caracteres que acompanha a caixa de grupo. Se for exibido, o rótulo aparecerá na parte superior à esquerda da caixa.
+> Posição na memória da cadeia de caracteres que acompanha a caixa de grupo. Se exibido, o rótulo aparece no lado superior esquerdo da caixa.
     
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para designar o formato do rótulo apontado pelo membro **ulbLpszLabel** . O seguinte sinalizador pode ser definido: 
+> Bitmask de sinalizadores usados para designar o formato do rótulo apontado pelo **membro ulbLpszLabel.** O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo estará no formato ANSI.
+> O rótulo está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o rótulo está no formato ANSI.
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLGROUPBOX** descreve um controle de caixa de grupo usado para associar visualmente outros controles na caixa de diálogo. A técnica de realce envolve cerca dos outros controles por uma caixa. 
+Uma **estrutura DTBLGROUPBOX** descreve um controle de caixa de grupo que é usado para associar visualmente outros controles na caixa de diálogo. A técnica de realçamento envolve os outros controles por uma caixa. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Display Tables](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

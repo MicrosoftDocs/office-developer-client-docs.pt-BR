@@ -42,27 +42,27 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID1_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID1._ 
     
  _lpEntryID1_
   
-> no Um ponteiro para o primeiro identificador de entrada a ser comparado.
+> [in] Um ponteiro para o identificador da primeira entrada a ser comparado.
     
  _cbEntryID2_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID2_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID2._ 
     
  _lpEntryID2_
   
-> no Um ponteiro para o segundo identificador de entrada ser comparado.
+> [in] Um ponteiro para o segundo identificador de entrada a ser comparado.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpulRet_
   
-> bota Um ponteiro para o resultado da comparação. TRUE para indicar que os dois identificadores de entrada se referem ao mesmo objeto; caso contrário, FALSE.
+> [out] Um ponteiro para o resultado da comparação. TRUE para indicar que os dois identificadores de entrada se referem ao mesmo objeto; caso contrário, FALSE.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -72,15 +72,15 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> Um ou ambos os identificadores de entrada não pertencem ao provedor de catálogo de endereços.
+> Um ou ambos os identificadores de entrada não pertencem ao provedor do address book.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de catálogos de endereços implementam o método **CompareEntryIDs** para comparar dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. 
+Os provedores de agendas implementam o **método CompareEntryIDs** para comparar dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. 
   
- **CompareEntryIDs** é útil porque um objeto pode ter mais de um identificador de entrada válido; tal situação pode ocorrer, por exemplo, quando você compara um identificador de entrada de curto prazo com um identificador de entrada de longo prazo. 
+ **CompareEntryIDs** é útil porque um objeto pode ter mais de um identificador de entrada válido; essa situação pode ocorrer, por exemplo, quando você compara um identificador de entrada de curto prazo com um identificador de entrada de longo prazo. 
   
-Para obter mais informações sobre como criar identificadores de entrada, confira identificadores de [entrada MAPI](mapi-entry-identifiers.md).
+Para obter mais informações sobre como criar identificadores de entrada, consulte [MAPI Entry Identifiers](mapi-entry-identifiers.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33435275"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora da entrega da mensagem original. 
+Contém a data e a hora em que a mensagem original foi entregue. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém a data e hora da entrega da mensagem original.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é uma propriedade por destinatário em um relatório de entrega que indica o momento em que a mensagem original foi entregue ao usuário de mensagens para o qual o relatório de entrega está sendo gerado.
+Essa propriedade é uma propriedade por destinatário em um relatório de entrega que indica a hora em que a mensagem original foi entregue ao usuário de mensagens para o qual o relatório de entrega está sendo gerado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Obter uma mensagem de contato com uma entrada do catálogo de endereços de contatos
+title: Obter uma mensagem de contato com uma entrada do livro de endereços de contatos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,25 +13,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437788"
 ---
-# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obter uma mensagem de contato com uma entrada do catálogo de endereços de contatos
+# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obter uma mensagem de contato com uma entrada do livro de endereços de contatos
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo em C++, `HrOpenContact`que mostra como usar a estrutura [CONTAB_ENTRYID](contab_entryid.md) que identifica uma entrada em um catálogo de endereços de contatos para obter a mensagem de contato MAPI associada. 
+Este tópico contém um exemplo em C++, que mostra como usar a estrutura CONTAB_ENTRYID que identifica uma entrada em um Livro de Endereços de Contatos para obter a mensagem de Contato `HrOpenContact` MAPI associada. [](contab_entryid.md) 
   
-`HrOpenContact`o tem os seguintes parâmetros: 
+`HrOpenContact` tem os seguintes parâmetros: 
   
--  *lpSession* é um parâmetro de entrada que representa a sessão atual. **LPMAPISESSION** é definido no arquivo de cabeçalho MAPI mapix. h como um ponteiro para [IMAPISession: IUnknown](imapisessioniunknown.md).
+-  *lpSession é*  um parâmetro de entrada que representa a sessão atual. **LPMAPISESSION** é definido no arquivo de cabeça MAPI mapix.h como um ponteiro para [IMAPISession : IUnknown](imapisessioniunknown.md).
     
--  *cbEntryID* é um parâmetro de entrada que representa o tamanho do identificador de entrada associado ao *lpEntryID* . 
+-  *cbEntryID*  é um parâmetro de entrada que representa o tamanho do identificador de entrada associado a  *lpEntryID*  . 
     
--  *lpEntryID* é um parâmetro de entrada que representa um ponteiro para o identificador de entrada de uma entrada em um catálogo de endereços de contatos. 
+-  *lpEntryID*  é um parâmetro de entrada que representa um ponteiro para o identificador de entrada de uma entrada em um Livro de Endereços de Contato. 
     
--  *parâmetroulflags* é um parâmetro de entrada que representa uma bitmask contendo sinalizadores de acesso a objetos à mensagem de contato MAPI. 
+-  *ulFlags*  é um parâmetro de entrada que representa uma bitmask que contém sinalizadores de acesso de objeto à mensagem de Contato MAPI. 
     
--  *lpContactMessage* é um parâmetro de saída que representa um ponteiro para a mensagem de contato MAPI. 
+-  *lpContactMessage é*  um parâmetro de saída que representa um ponteiro para a mensagem de contato MAPI. 
     
-Para abrir a mensagem de contato MAPI subjacente `HrOpenContact` , o primeiro converte *lpEntryID* em um ponteiro para **CONTAB_ENTRYID**. Em seguida, ele chama [IMAPISession:: OpenEntry](imapisession-openentry.md) para obter a mensagem de contato MAPI, passando como parâmetros os campos *cbeid* e *Abeid* da entrada no catálogo de endereços de contatos que identificam, respectivamente, o tamanho do identificador de entrada e o identificador de entrada da mensagem de contato MAPI. 
+Para abrir a mensagem de contato MAPI subjacente,  `HrOpenContact` primeiro casts  *lpEntryID*  em um ponteiro para **CONTAB_ENTRYID**. Em seguida, ele chama [IMAPISession::OpenEntry](imapisession-openentry.md) para obter a mensagem de contato MAPI, passando como parâmetros os campos  *cbeid*  e  *abeid*  da entrada no Livro de Endereços de Contatos que identificam, respectivamente, o tamanho do identificador de entrada e o identificador de entrada da mensagem de Contato MAPI. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

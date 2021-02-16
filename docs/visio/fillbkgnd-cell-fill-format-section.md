@@ -40,6 +40,6 @@ Para obter uma referência para a célula FillBkgnd pelo índice a partir de um 
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowFill** <br/> |
-| Índice da célula:  <br/> |**visFillBkgnd** <br/> |
+| Índice de célula:  <br/> |**visFillBkgnd** <br/> |
    
 

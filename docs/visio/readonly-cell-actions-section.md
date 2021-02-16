@@ -36,14 +36,14 @@ Para obter uma referência para a célula ReadOnly pelo nome, de outra fórmula 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações Readonlyonde.  *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Ações readOnlywhere.  *nome*  é o nome da linha Actions  <br/> |
    
 Para obter uma referência para a célula ReadOnly pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visActionReadOnly** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visActionReadOnly** <br/> |
    
 

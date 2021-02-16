@@ -21,7 +21,7 @@ Impede a aplicação de cores de tema à forma.
   
 O valor da célula LockThemeColors corresponde à configuração da caixa de seleção **Das cores de tema** na caixa de diálogo **Proteção**. 
   
-Para referir-se à célula LockThemeColors pelo nome de outra fórmula ou a partir de um programa usando a propriedade**CellsU**, utilize:
+Para referir-se à célula LockThemeColors pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, utilize:
 
  
   
@@ -35,6 +35,6 @@ Para referir-se à célula LockThemeColors pelo índice de um programa, use a pr
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockThemeColors** <br/> |
+|Índice de célula:  <br/> |**visLockThemeColors** <br/> |
    
 

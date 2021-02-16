@@ -19,82 +19,82 @@ ms.locfileid: "33435737"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor estrangeiro é um provedor de catálogo de endereços que: 
+Um provedor estrangeiro é um provedor de agendas que: 
   
-- Atribui identificadores de modelo para seus destinatários.
+- Atribui identificadores de modelo a seus destinatários.
     
-- O suporta o método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) . 
+- Dá suporte [ao método IABLogon::OpenTemplateID.](iablogon-opentemplateid.md) 
     
-- Fornece código para manter destinatários que existem nos contêiners de outros provedores de catálogo de endereços conhecidos como provedores de host. Este código envolve um objeto Property, normalmente uma implementação de interface **IMAPIProp** , que envolve um objeto Property do provedor de host. 
+- Fornece código para manter destinatários existentes nos contêineres de outros provedores de agendas de endereços conhecidos como provedores de host. Esse código envolve um objeto de propriedade, normalmente uma implementação de interface **IMAPIProp,** que envolve um objeto de propriedade do provedor de host. 
     
-Atuar como um provedor externo é uma função opcional; Nem todos os provedores precisam suportar identificadores de modelo e seus códigos relacionados. Implemente seu provedor como um provedor externo se você quiser manter o controle sobre os destinatários que os provedores de host criam usando os modelos fornecidos pelo provedor. 
+Atuar como um provedor estrangeiro é uma função opcional; nem todos os provedores precisam dar suporte a identificadores de modelo e seu código relacionado. Implemente seu provedor como um provedor estrangeiro se você quiser manter o controle sobre destinatários que os provedores de host criam usando modelos fornecidos por seu provedor. 
   
-O formato que seu provedor usa para seus identificadores de entrada também pode ser usado para seus identificadores de modelo. Os identificadores de modelo devem incluir o **MAPIUID** registrado do provedor para permitir que o MAPI vincule com êxito os destinatários aos provedores apropriados. 
+O formato que seu provedor usa para seus identificadores de entrada também pode ser usado para seus identificadores de modelo. Os identificadores de modelo devem incluir **o MAPIUID** registrado do provedor para habilitar o MAPI para vincular com êxito os destinatários aos provedores apropriados. 
   
-MAPI chama o método **IABLogon:: OpenTemplateID** do provedor quando um provedor de host chama [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md). O provedor de host passa o identificador de modelo do destinatário no parâmetro _lpTemplateID_ em sua chamada para **IMAPISupport:: OpenTemplateID**. O MAPI determina que o identificador de modelo pertence ao seu provedor combinando o [MAPIUID](mapiuid.md) no identificador de modelo com o **MAPIUID** que seu provedor registrou no momento do logon. Em seguida, MAPI encaminha a chamada do provedor de host para seu provedor por meio do método **IABLogon:: OpenTemplateID** . 
+O MAPI chama o método **IABLogon::OpenTemplateID** do provedor quando um provedor de host chama [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). O provedor de host passa o identificador de modelo do destinatário no parâmetro  _lpTemplateID_ em sua chamada para **IMAPISupport::OpenTemplateID**. O MAPI determina que o identificador do modelo pertence ao seu provedor, combinando o [MAPIUID](mapiuid.md) no identificador de modelo com o **MAPIUID** que seu provedor registrou no momento do logon. O MAPI encaminha a chamada do provedor de host para seu provedor por meio do **método IABLogon::OpenTemplateID.** 
   
-O provedor de host também passa um ponteiro para sua implementação de objeto Property para o destinatário no parâmetro _lpMAPIPropData_ , um identificador de interface no parâmetro _lpInterface_ que corresponde ao tipo de implementação de interface passado no _lpMAPIPropData_e um sinalizador opcional, FILL_ENTRY. O provedor deve retornar no parâmetro _lppMAPIPropNew_ um ponteiro para uma implementação de objeto Property do tipo especificado em _lpInterface_. O ponteiro retornado pode ser para o objeto de propriedade wrapped implementado pelo provedor ou para o objeto fornecido pelo provedor de host no _lpMAPIPropData_. Seu provedor deve retornar um ponteiro de objeto Property wrapped quando:
+O provedor de host também passa um ponteiro para sua implementação de objeto de propriedade para o destinatário no parâmetro  _lpMAPIPropData,_ um identificador de interface no parâmetro  _lpInterface_ que corresponde ao tipo de implementação de interface passada  _em lpMAPIPropData_ e um sinalizador opcional, FILL_ENTRY. Seu provedor deve retornar no parâmetro  _lppMAPIPropNew_ um ponteiro para uma implementação de objeto de propriedade do tipo especificado em  _lpInterface_. O ponteiro retornado pode ser para o objeto de propriedade de empacotado implementado pelo provedor ou para o objeto fornecido pelo provedor de host em  _lpMAPIPropData_. Seu provedor deve retornar um ponteiro de objeto de propriedade com retorno quando:
   
 - A tabela de exibição do destinatário contém controles de caixa de listagem.
     
-- O endereço de email do destinatário deve ser montado de dados em vários controles de tabela de exibição.
+- O endereço de email do destinatário deve ser montado a partir de dados em vários controles de tabela de exibição.
     
-- Seus problemas de provedor exibem notificações de tabela.
+- Seu provedor emite notificações de tabela de exibição.
     
-O sinalizador FILL_ENTRY indica ao seu provedor que o provedor de host exige que todas as propriedades do destinatário sejam atualizadas. Seu provedor é necessário para atender a essa solicitação.
+O FILL_ENTRY sinalizador indica ao provedor que o provedor de host exige que todas as propriedades do destinatário sejam atualizadas. Seu provedor é necessário para atender a essa solicitação.
   
-Quando um provedor de host chama o método **OpenTemplateID** do seu provedor, seu provedor pode: 
+Quando um provedor de host chama o método **OpenTemplateID** do provedor, o provedor pode: 
   
-- Atualiza periodicamente os dados de uma entrada copiada.
+- Atualize periodicamente os dados de uma entrada copiada.
     
-- Mantenha uma entrada copiada sincronizada com seu original, como quando uma entrada do catálogo de endereços é copiada para o catálogo de endereços pessoal.
+- Mantenha uma entrada copiada sincronizada com seu original, como quando uma entrada do livro de endereços é copiada para o livro de endereços pessoal.
     
-- Implementar a funcionalidade que não pode ser implementada pelo provedor de host, como preencher dinamicamente as caixas de listagem na tabela de detalhes da entrada copiada dos dados em um servidor.
+- Implemente a funcionalidade que não pode ser implementada pelo provedor de host, como preencher dinamicamente caixas de listagem na tabela de detalhes da entrada copiada dos dados em um servidor.
     
-- Controlar a interação entre as propriedades em uma entrada copiada ou modelo instanciado. Por exemplo, a computação **PR_EMAIL_ADDRESS** de outras propriedades exibidas na tabela detalhes. 
+- Controlar a interação entre as propriedades em uma entrada copiada ou modelo instariado. Por exemplo, calcular **PR_EMAIL_ADDRESS** de outras propriedades exibidas na tabela de detalhes. 
     
-Os primeiros dois itens são exemplos de tarefas que não exigem que seu provedor forneça um objeto Property wrapped — uma implementação do **IMAPIProp** que se baseia na implementação do provedor de host. O provedor pode simplesmente atualizar as propriedades conforme necessário e retornar, definindo o parâmetro _lppMAPIPropNew_ para apontar para o ponteiro passado pelo provedor de host no parâmetro _lpMAPIPropData_ . 
+Os dois primeiros itens são exemplos de tarefas que não exigem que seu provedor fornecer um objeto de propriedade empacotado — uma implementação de **IMAPIProp** baseada na implementação do provedor de host. Seu provedor pode simplesmente atualizar as propriedades conforme necessário e retornar, definindo o parâmetro _lppMAPIPropNew_ para apontar para o ponteiro passado pelo provedor de host no parâmetro _lpMAPIPropData._ 
   
-As segunda duas tarefas exigem que seu provedor retorne ao provedor de host um objeto Property que quebra o objeto do provedor do host com funcionalidade adicional, como a capacidade de exibir uma folha de propriedades para a entrada. Este objeto Property será um usuário de mensagens ou uma lista de distribuição, dependendo do tipo de objeto passado pelo provedor de host no parâmetro _lpMAPIPropData_ e indicado pelo identificador de interface no parâmetro _lpInterface_ . Se o parâmetro _lpMAPIPropData_ apontar para um usuário de mensagens, o objeto de propriedade wrapped do provedor deverá ser uma implementação do **IMailUser** . Se _lpMAPIPropData_ apontar para uma lista de distribuição, deverá ser uma implementação do **IDistList** . 
+As duas segundas tarefas exigem que seu provedor retorne ao provedor de host um objeto de propriedade que envolve o objeto do provedor de host com funcionalidade adicional, como a capacidade de exibir uma folha de propriedades para a entrada. Esse objeto de propriedade será um usuário de mensagens ou uma lista de distribuição, dependendo do tipo de objeto passado pelo provedor de host no parâmetro _lpMAPIPropData_ e indicado pelo identificador de interface no parâmetro _lpInterface._ Se o _parâmetro lpMAPIPropData_ aponta para um usuário de mensagens, o objeto de propriedade de empacotamento do provedor deve ser uma implementação **IMailUser.** Se _lpMAPIPropData aponta para_ uma lista de distribuição, ele deve ser uma implementação de **IDistList.** 
   
-O objeto de propriedade wrapped do provedor intercepta as chamadas de método **IMAPIProp** para executar a manipulação específica de contexto do destinatário do provedor do host — o objeto que está sendo disposto. O MAPI tem apenas um requisito para objetos de propriedade wrapped: todas as chamadas para [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) solicitando a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) devem ser passadas para o provedor de host. A implementação do provedor pode usar a tabela retornada para interceptar as notificações da tabela de exibição ou adicionar suas próprias, se necessário. 
+O objeto de propriedade quebrada de seu provedor intercepta chamadas de método **IMAPIProp** para executar manipulação específica de contexto do destinatário do provedor de host o objeto que ele está envolvendo. MAPI only has one requirement for wrapped property objects: all calls to [IMAPIProp::OpenProperty](imapiprop-openproperty.md) requesting the **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property should be passed to the host provider. A implementação do provedor pode usar a tabela retornada para interceptar as notificações da tabela de exibição ou adicionar suas próprias, se necessário. 
   
-A lista a seguir inclui tarefas que normalmente são implementadas no objeto de propriedade wrapped implementado por provedores externos:
+A lista a seguir inclui tarefas que são normalmente implementadas no objeto de propriedade empacotado implementado por provedores externos:
   
-- Pré-processamento e valores de propriedade de pré-processamento para o destinatário do host em [IMAPIProp::](imapiprop-getprops.md)GetProps.
+- Valores de propriedade de pré-processamento e pós-processamento para o destinatário do host [em IMAPIProp::GetProps](imapiprop-getprops.md).
     
-- Os detalhes de manipulação exibem controles de tabela, como botões e caixas de listagem, em **IMAPIProp:: OpenProperty**.
+- Manipular detalhes exibem controles de tabela, como botões e caixas de listagem, **em IMAPIProp::OpenProperty**.
     
-- Validar ou manipular valores de propriedade para o destinatário do host em [IMAPIProp::](imapiprop-setprops.md)SetProps.
+- Validando ou manipulando valores de propriedade para o destinatário do host [em IMAPIProp::SetProps](imapiprop-setprops.md).
     
-- Calculando propriedades obrigatórias, como **PR_EMAIL_ADDRESS** e verificando se todas as propriedades necessárias foram definidas antes de salvar o destinatário do host no [IMAPIProp:: SaveChanges](imapiprop-savechanges.md).
+- Calculando as propriedades necessárias, **como PR_EMAIL_ADDRESS** e verificando se todas as propriedades necessárias foram definidas antes de salvar o destinatário do host em [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
-### <a name="to-implement-iablogonopentemplateid"></a>Para implementar o IABLogon:: OpenTemplateID
+### <a name="to-implement-iablogonopentemplateid"></a>Para implementar IABLogon::OpenTemplateID
   
-1. Verifique se o identificador de modelo passado com o parâmetro _lpTemplateID_ é válido e se está em um formato que seu provedor reconhece. Se não for, falhará e retornará MAPI_E_INVALID_ENTRYID. 
+1. Verifique se o identificador de modelo passado com o parâmetro  _lpTemplateID_ é válido e está em um formato que seu provedor reconhece. Se não estiver, falhe e retorne MAPI_E_INVALID_ENTRYID. 
     
-2. Criar um objeto do tipo indicado pelo identificador de modelo, um usuário de mensagens, uma lista de distribuição ou um destinatário one-off. 
+2. Crie um objeto do tipo indicado pelo identificador do modelo, seja um usuário de mensagens, uma lista de distribuição ou um destinatário único. 
     
-3. Chame o método **IUnknown:: AddRef** no objeto Property do provedor de host, que é o objeto apontado pelo parâmetro _lpMAPIPropData_ . 
+3. Chame o **método IUnknown::AddRef** no objeto de propriedade do provedor de host, que é o objeto apontado pelo parâmetro _lpMAPIPropData._ 
     
-4. Se o parâmetro _ulTemplateFlags_ estiver definido como FILL_ENTRY: 
+4. Se o  _parâmetro ulTemplateFlags_ for definido como FILL_ENTRY: 
     
    1. Se o novo objeto for um usuário de mensagens ou uma lista de distribuição:
       
-      1. Recupere todas as propriedades do novo objeto, possivelmente chamando seu método **IMAPIProp::** GetProps. 
+      1. Recupere todas as propriedades do novo objeto, possivelmente chamando seu **método IMAPIProp::GetProps.** 
           
-      2. Chame o método **IMAPIProp::** SetProps do provedor de host para copiar todas as propriedades recuperadas para o objeto Property do provedor de host. 
+      2. Chame o método **IMAPIProp::SetProps** do provedor de host para copiar todas as propriedades recuperadas para o objeto de propriedade do provedor de host. 
       
-   2. Se o novo objeto for um destinatário one-off, chame o método **IMAPIProp::** SetProps do provedor de host para definir as seguintes propriedades: 
+   2. Se o novo objeto for um destinatário único, chame o método **IMAPIProp::SetProps** do provedor de host para definir as seguintes propriedades: 
       
-      - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) ao tipo de endereço manipulado pelo provedor.
+      - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) para o tipo de endereço manipulado pelo provedor.
         
-      - **PR\_TemplateID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) para o identificador de modelo dos parâmetros _lpTemplateID_ e _cbTemplateID_ . 
+      - **PR \_ TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) para o identificador de modelo dos parâmetros _lpTemplateID_ e _cbTemplateID._ 
         
       - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para DT_MAILUSER ou DT_DISTLIST, conforme apropriado.
     
-5. Defina o conteúdo do parâmetro _lppMAPIPropNew_ para apontar para o novo objeto do provedor ou para o objeto Property passado com o parâmetro _lpMAPIPropData_ , dependendo se o provedor determina um objeto wrapped é necessário. 
+5. De definir o conteúdo do parâmetro  _lppMAPIPropNew_ para apontar para o novo objeto do provedor ou para o objeto de propriedade passado com o parâmetro  _lpMAPIPropData,_ dependendo se o provedor determinar um objeto de empacotamento é necessário. 
     
-6. Se ocorrer um erro crítico, como uma falha de rede ou uma condição de memória insuficiente, retorne o valor de erro apropriado. Esse valor deve ser propagado para o cliente com a estrutura [MAPIERROR](mapierror.md) apropriada, uma tarefa executada pelo provedor de host. 
+6. Se ocorrer um erro crítico, como uma falha de rede ou uma condição de falta de memória, retorne o valor de erro apropriado. Esse valor deve ser propagado para o cliente com a estrutura [MAPIERROR](mapierror.md) apropriada, uma tarefa executada pelo provedor de host. 
     
 

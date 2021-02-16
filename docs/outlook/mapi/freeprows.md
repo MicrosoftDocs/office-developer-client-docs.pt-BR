@@ -25,11 +25,11 @@ ms.locfileid: "33438817"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Destrói uma estrutura [SRowSet](srowset.md) e libera a memória associada, incluindo a memória alocada para todas as matrizes e estruturas de membros. 
+Destrói uma estrutura [SRowSet](srowset.md) e libera memória associada, incluindo a memória alocada para todas as matrizes e estruturas membros. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,7 +43,7 @@ void FreeProws(
 
  _prows_
   
-> no Ponteiro para a estrutura **SRowSet** a ser destruído. 
+> [in] Ponteiro para a **estrutura SRowSet** a ser destruída. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -51,9 +51,9 @@ Nenhum.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Como parte de sua implementação do **FreeProws**, MAPI chama a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar todas as entradas da estrutura **SRowSet** antes de liberar a estrutura completa. Portanto, todas as entradas devem ter seguido as regras de alocação para a estrutura [SRowSet](srowset.md) , usando uma chamada [MAPIAllocateBuffer](mapiallocatebuffer.md) individual para cada matriz de membros e estrutura. 
+Como parte de sua implementação de **FreeProws**, o MAPI chama a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar todas as entradas na estrutura **SRowSet** antes de liberar a estrutura completa. Portanto, todas essas entradas devem ter seguido as regras de alocação para a estrutura [SRowSet,](srowset.md) usando uma chamada [MAPIAllocateBuffer](mapiallocatebuffer.md) individual para cada matriz e estrutura de membros. 
   
-Para obter mais informações sobre a alocação de memória para as estruturas **das ADRLIST** e **SRowSet** , consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md). 
+Para obter mais informações sobre como alocar memória para **estruturas ADRLIST** e **SRowSet,** consulte Gerenciando memória para [estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -61,7 +61,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa o método **FreeProws** para liberar uma estrutura SRowSet contendo linhas da tabela que está sendo processada.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa **o método FreeProws** para liberar uma estrutura SRowSet contendo linhas da tabela que está sendo processada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

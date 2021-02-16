@@ -25,7 +25,7 @@ ms.locfileid: "33436822"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de nomes de FileNames que devem ser excluídos quando o serviço de mensagens é desinstalado.
+Contém uma lista de nomes de arquivo que devem ser excluídos quando o serviço de mensagens for desinstalado.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma lista de nomes de FileNames que devem ser excluídos quando o servi�
    
 ## <a name="remarks"></a>Comentários
 
-Os nomes de FileNames da lista contidos nessas propriedades são excluídos do computador ao usar o painel de controle para desinstalar o serviço de mensagens. Não inclua na lista qualquer DLL que ofereça suporte a vários serviços de mensagens ou que os serviços de mensagens adicionais possam ser removidos inadvertidamente.
+Os nomes de arquivo na lista contida nessas propriedades são excluídos do computador ao usar o painel de controle para desinstalar o serviço de mensagens. Não inclua na lista qualquer DLL que suporte vários serviços de mensagem ou serviços de mensagem adicionais podem ser removidos inadvertidamente.
   
-O MAPI funciona somente com nomes de Filee outras cadeias de caracteres passadas para ele, no conjunto de caracteres ANSI. Os aplicativos que usam nomes de fileformados em um conjunto de caracteres OEM devem convertê-los para ANSI antes de chamar MAPI.
+MAPI funciona somente com nomes de arquivo e outras cadeias de caracteres passadas para ele, no conjunto de caracteres ANSI. Os aplicativos que usam nomes de arquivo em um conjunto de caracteres OEM devem convertê-los em ANSI antes de chamar o MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

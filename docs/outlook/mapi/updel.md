@@ -21,7 +21,7 @@ ms.locfileid: "33436794"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para itens que foram excluídos em um repositório local. Essas informações são usadas durante o [estado de status de exclusão de upload](upload-delete-status-state.md).
+Informações para itens que foram excluídos em um armazenamento local. Essas informações são usadas durante o [estado de status de exclusão de upload.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -35,13 +35,13 @@ struct UPDEL
 
 ## <a name="members"></a>Membros
 
- _pupde_
+ _atade_
   
->  bota Vetor de entradas de [UPDELE](updele.md) . 
+>  [out] Vetor de [entradas UPDELE.](updele.md) 
     
  _cEnt_
   
-> bota Número de entradas no *pupde* . 
+> [out] Número de entradas em  *velde*  . 
     
 ## <a name="see-also"></a>Confira também
 

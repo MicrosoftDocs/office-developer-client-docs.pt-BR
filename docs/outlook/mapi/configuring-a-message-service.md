@@ -1,5 +1,5 @@
 ---
-title: ConFigurando um serviço de mensagens
+title: Configurando um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434505"
 ---
-# <a name="configuring-a-message-service"></a>ConFigurando um serviço de mensagens
+# <a name="configuring-a-message-service"></a>Configurando um serviço de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para configurar todos os provedores de serviço em um serviço de mensagens**
+ **Para configurar todos os provedores de serviços em um serviço de mensagens**
   
-- Chamar [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Se todos os dados necessários para a configuração estiverem disponíveis programaticamente, você pode escolher se deseja ou não exibir uma interface de usuário. No enTanto, se algumas das informações de um ou mais provedores não estiverem disponíveis, certifique-se de definir o sinalizador SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. A supressão de uma interface de usuário quando os dados de configuração necessários não estão disponíveis resulta em um serviço de mensagens não configurado.
+- Chame [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Se todos os dados necessários para a configuração estão disponíveis programaticamente, você pode escolher se exibirá ou não uma interface do usuário. No entanto, se algumas das informações de um ou mais provedores não estão disponíveis, certifique-se de definir o SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS sinalizador. Suprimir uma interface do usuário quando os dados de configuração necessários não estão disponíveis resulta em um serviço de mensagens não configurado.
     
  **Para configurar um único provedor de serviços em um serviço de mensagens**
   
-1. Chame [IMAPISession::](imapisession-getstatustable.md) getstatustable para acessar o objeto status do provedor de serviços. 
+1. Chame [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para acessar o objeto de status do provedor de serviços. 
     
-2. Chame [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para exibir a folha de propriedades do provedor de serviços. 
+2. Chame [IMAPIStatus::SettingsDialog para](imapistatus-settingsdialog.md) exibir a folha de propriedades do provedor de serviços. 
     
-Para obter mais informações sobre como usar objetos de status, consulte [tabela de status e objetos de status](status-table-and-status-objects.md).
+Para obter mais informações sobre como usar objetos de status, consulte [Status Table and Status Objects](status-table-and-status-objects.md).
   
 

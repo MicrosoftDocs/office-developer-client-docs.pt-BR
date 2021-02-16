@@ -25,7 +25,7 @@ ms.locfileid: "33436423"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma matriz das propriedades usadas por um grupo de formulários.
+Retorna uma matriz das propriedades que um grupo de formulários usa.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -39,11 +39,11 @@ HRESULT CalcFormPropSet(
 
  _pfrminfoarray_
   
-> no Um ponteiro para uma matriz de objetos de informação de formulário que identificam os formulários para os quais retornar propriedades.
+> [in] Um ponteiro para uma matriz de objetos de informações de formulário que identificam os formulários para os quais retornar propriedades.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a matriz de propriedades no parâmetro _ppResults_ é retornada. Os seguintes sinalizadores podem ser definidos: 
+> [in] Uma bitmask de sinalizadores que controla como a matriz de propriedades no  _parâmetro ppResults_ é retornada. Os sinalizadores a seguir podem ser definidos: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -51,33 +51,33 @@ FORMPROPSET_INTERSECTION
     
 FORMPROPSET_UNION 
   
-> A matriz retornada contém a União das propriedades do formulário.
+> A matriz retornada contém a união das propriedades do formulário.
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas na matriz estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas na matriz estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _ppResults_
   
-> bota Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada, que contém as propriedades que os formulários utilizam. 
+> [out] Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada, que contém as propriedades que os formulários usam. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormMgr:: CalcFormPropSet** para obter uma matriz das propriedades usadas por um grupo de formulários. O **CalcFormPropSet** utiliza uma interseção ou uma União desses conjuntos de propriedades de formulários, dependendo do sinalizador definido no parâmetro _parâmetroulflags_ e retorna uma estrutura **SMAPIFormPropArray** que contém o grupo resultante de Propriedades. 
+Visualizadores de formulário chamam o método **IMAPIFormMgr::CalcFormPropSet** para obter uma matriz das propriedades que um grupo de formulários usa. **CalcFormPropSet** assume uma interseção ou uma união dos conjuntos de propriedades desses formulários, dependendo do sinalizador definido no parâmetro  _ulFlags,_ e retorna uma estrutura **SMAPIFormPropArray** que contém o grupo de propriedades resultante. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres deverão ser retornadas como cadeias de caracteres Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+Se um visualizador de formulário passar o sinalizador MAPI_UNICODE no parâmetro  _ulFlags,_ todas as cadeias de caracteres deverão ser retornadas como cadeias de caracteres Unicode. Provedores de biblioteca de formulário que não suportam cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE for passado. 
   
 ## <a name="see-also"></a>Confira também
 

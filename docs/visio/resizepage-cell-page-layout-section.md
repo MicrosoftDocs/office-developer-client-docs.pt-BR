@@ -18,7 +18,7 @@ ms.locfileid: "33438089"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>Célula ResizePage (Seção Page Layout)
 
-Determina se a página será ampliada para incluir o desenho após dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em **refazer o layout** da página e clique em **mais layout Opções**).
+Determina se a página será ampliada para incluir o desenho após o layout das formas usando a caixa de diálogo Configurar **Layout** (na guia **Design,** no grupo **Layout,** clique em **Re-Layout** page e em Mais Opções de **Layout).**
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
@@ -39,6 +39,6 @@ Para obter uma referência à célula ResizePage pelo índice, de um programa, u
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-| Índice da célula:  <br/> |**visPLOResizePage** <br/> |
+| Índice de célula:  <br/> |**visPLOResizePage** <br/> |
    
 

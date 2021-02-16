@@ -18,7 +18,7 @@ ms.locfileid: "33439237"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>Célula LocPinX (Seção Shape Transform)
 
-Representa a coordenada *x* do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinX é: 
+Representa a  *coordenada x*  do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinX é: 
   
 = Largura \* 0,5
   

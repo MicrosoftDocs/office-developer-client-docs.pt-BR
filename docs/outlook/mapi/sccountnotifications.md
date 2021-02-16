@@ -29,7 +29,7 @@ Determina o tamanho, em bytes, de uma matriz de notificações de eventos e vali
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,17 +43,17 @@ SCODE ScCountNotifications(
 
 ## <a name="parameters"></a>Parâmetros
 
- _CNTF_
+ _cntf_
   
-> no Contagem de estruturas de [notificação](notification.md) na matriz indicada pelo parâmetro _rgntf_ . 
+> [in] Contagem de [estruturas](notification.md) NOTIFICATION na matriz indicada pelo _parâmetro rgntf._ 
     
  _rgntf_
   
-> no Ponteiro para a matriz de estruturas de **notificação** cujo tamanho deve ser determinado. 
+> [in] Ponteiro para a matriz de **estruturas NOTIFICATION** cujo tamanho deve ser determinado. 
     
- _PCB_
+ _pcb_
   
-> bota Ponteiro opcional para o tamanho, em bytes, da matriz apontada pelo parâmetro _rgntf_ . Se NULL, **ScCountNotifications** valida a matriz de notificações. 
+> [out] Ponteiro opcional para o tamanho, em bytes, da matriz apontada pelo _parâmetro rgntf._ Se for NULL, **ScCountNotifications** validará a matriz de notificações. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -67,6 +67,6 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-Se NULL for passado no parâmetro _PCB_ , a função **ScCountNotifications** validará apenas a matriz de notificações, mas nenhuma contagem será feita; se um valor não nulo for passado em _PCB_, **ScCountNotifications** determinará o tamanho da matriz e armazenará a _PCB_de causa. O parâmetro _PCB_ deve ser grande o suficiente para conter toda a matriz. 
+Se NULL for passado no parâmetro  _pcb,_ a função **ScCountNotifications** só validará a matriz de notificações, mas nenhuma contagem será feita; se um valor não nulo for passado em  _pcb_, **ScCountNotifications** determinará o tamanho da matriz e armazenará a causa  _pcb_. O  _parâmetro pcb_ deve ser grande o suficiente para conter toda a matriz. 
   
 

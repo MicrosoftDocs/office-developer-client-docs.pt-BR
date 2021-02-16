@@ -22,9 +22,9 @@ Determina a aparência de um conector.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Padrão; utiliza a configuração de página  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | Estreita  <br/> |**visLORouteExtStraight** <br/> |
-| duas  <br/> | Curvo  <br/> |**visLORouteExtNURBS** <br/> |
+| 0  <br/> | Padrão; utiliza a configuração de página  <br/> |**visLORouteExtDefault** <br/> |
+| 1   <br/> | Reto  <br/> |**visLORouteExtStraight** <br/> |
+| 2   <br/> | Curvo  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

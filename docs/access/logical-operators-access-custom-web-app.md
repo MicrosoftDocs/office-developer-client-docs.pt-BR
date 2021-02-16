@@ -1,5 +1,5 @@
 ---
-title: Operadores lógicos (aplicativo Web personalizado do Access)
+title: Operadores Lógicos (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437662"
 ---
-# <a name="logical-operators-access-custom-web-app"></a>Operadores lógicos (aplicativo Web personalizado do Access)
+# <a name="logical-operators-access-custom-web-app"></a>Operadores Lógicos (aplicativo Web personalizado do Access)
 
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [E (aplicativo Web personalizado do Access)](and-access-custom-web-app.md)
+- [AND (aplicativo Web personalizado do Access)](and-access-custom-web-app.md)
     
-- [Não (aplicativo Web personalizado do Access)](not-access-custom-web-app.md)
+- [NOT (aplicativo Web personalizado do Access)](not-access-custom-web-app.md)
     
-- [OU (aplicativo Web personalizado do Access)](or-access-custom-web-app.md)
+- [OR (aplicativo Web personalizado do Access)](or-access-custom-web-app.md)
     
 - [IS [NOT] NULL (aplicativo Web personalizado do Access)](is-not-null-access-custom-web-app.md)
     

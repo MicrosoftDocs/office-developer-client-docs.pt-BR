@@ -25,7 +25,7 @@ ms.locfileid: "33436073"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna os dados necessários para reconstruir o estado atual recolhido ou expandido de uma tabela categorizada.
+Retorna os dados necessários para recriar o estado recolhido ou expandido atual de uma tabela categorizada.
   
 ```cpp
 HRESULT GetCollapseState(
@@ -41,23 +41,23 @@ LPBYTE FAR * lppbCollapseState
 
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  _cbInstanceKey_
   
-> no A contagem de bytes na chave de instância indicada pelo parâmetro _lpbInstanceKey_ . 
+> [in] A contagem de bytes na chave de instância apontada pelo _parâmetro lpbInstanceKey._ 
     
  _lpbInstanceKey_
   
-> no Um ponteiro para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) da linha na qual o estado atual recolhido ou expandido deve ser recriado. O parâmetro _lpbInstanceKey_ não pode ser nulo. 
+> [in] Um ponteiro para **a PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) da linha na qual o estado recolhido ou expandido atual deve ser reconstruído. O  _parâmetro lpbInstanceKey_ não pode ser NULL. 
     
  _lpcbCollapseState_
   
-> bota Um ponteiro para a contagem de estruturas apontada pelo parâmetro _lppbCollapseState_ . 
+> [out] Um ponteiro para a contagem de estruturas apontadas pelo _parâmetro lppbCollapseState._ 
     
  _lppbCollapseState_
   
-> bota Um ponteiro para um ponteiro para estruturas que contêm dados que descrevem o modo de exibição de tabela atual.
+> [out] Um ponteiro para um ponteiro para estruturas que contêm dados que descrevem a exibição de tabela atual.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -67,31 +67,31 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento, o que impede a inicialização da operação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
+> Outra operação está em andamento que impede o início da operação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 MAPI_E_NO_SUPPORT 
   
-> A tabela não dá suporte a categorização e exibições expandidas e recolhidas.
+> A tabela não suporta categorização e exibições expandidas e recolhidos.
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **::** getcollapsestate funciona com o método IMAPITable [::](imapitable-setcollapsestate.md) setcollapsestate para alterar o modo de exibição do usuário de uma tabela categorizada. **** Getcollapsestate salva os dados necessários para setcollapsestate a ser usado para reconstruir as exibições apropriadas das categorias de uma tabela categorizada. **** Os provedores de serviços determinam os dados a serem salvos. No enTanto, a maioria **** dos provedores de serviços que implementam getcollapsestate salvam o seguinte: 
+O **método IMAPITable::GetCollapseState** funciona com o método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para alterar o modo de exibição do usuário de uma tabela categorizada. **GetCollapseState** salva os dados necessários para **SetCollapseState** ser usado para recriar as exibições apropriadas das categorias de uma tabela categorizada. Os provedores de serviços determinam os dados a serem salvos. No entanto, a maioria dos provedores de serviços **implementando GetCollapseState** salva o seguinte: 
   
-- As chaves de classificação (colunas de categoria e colunas padrão).
+- As chaves de classificação (colunas padrão e colunas de categoria).
     
 - Informações sobre a linha que a chave de instância representa.
     
-- Informações para restaurar as categorias recolhidas e expandidas da tabela.
+- Informações para restaurar as categorias recolhidos e expandidos da tabela.
     
-Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md).
+Para obter mais informações sobre tabelas categorizadas, consulte [Classificação e Categorização.](sorting-and-categorization.md)
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Armazenar o estado atual de todos os nós de uma tabela no parâmetro _lppbCollapseState_ . 
+Armazene o estado atual de todos os nós de uma tabela no _parâmetro lppbCollapseState._ 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame sempre **** getcollapsestate antes de chamar **** setcollapsestate. 
+Sempre chame **GetCollapseState** antes de chamar **SetCollapseState**. 
   
 ## <a name="see-also"></a>Confira também
 

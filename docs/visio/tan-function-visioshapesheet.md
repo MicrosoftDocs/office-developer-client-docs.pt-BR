@@ -22,7 +22,7 @@ Retorna a tangente de um ângulo.
   
 ## <a name="syntax"></a>Sintaxe
 
-TAN (* * *Angle* * *) 
+TAN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -36,7 +36,7 @@ Numeric
   
 ## <a name="remarks"></a>Comentários
 
-A função TAN usa radianos, a menos que você especifique uma unidade de medida diferente em *Angle* . 
+A função TAN usa radianos, a menos que você especifique uma unidade de medida diferente em *ângulo.* 
   
 ## <a name="example"></a>Exemplo
 

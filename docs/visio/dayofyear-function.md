@@ -18,7 +18,7 @@ ms.locfileid: "33439448"
 ---
 # <a name="dayofyear-function"></a>Função DAYOFYEAR
 
-Retorna um inteiro, de 1 a 366, que representa o dia sequencial do ano em   _ data e hora_ ou  _expressão_. A função DAYOFYEAR usa o calendário Gregoriano.
+Retorna um inteiro, de 1 a 366, que representa o dia sequencial do ano em   _data e hora_ ou  _expressão_. A função DAYOFYEAR usa o calendário Gregoriano.
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -29,7 +29,7 @@ DAYOFYEAR(" ** *datetime* ** "| ** *expressão* ** [, ** *lcid* ** ])
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica o identificador de local para ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

@@ -22,7 +22,7 @@ Retorna o nome da página como uma cadeia de caracteres.
   
 ## <a name="syntax"></a>Sintaxe
 
-PAGEname (* * *langID_opt* * *) 
+PAGENAME (** *langID_opt* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 

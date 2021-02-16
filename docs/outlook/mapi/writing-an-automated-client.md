@@ -1,5 +1,5 @@
 ---
-title: Gravar um cliente automatizado
+title: Escrevendo um cliente automatizado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439762"
 ---
-# <a name="writing-an-automated-client"></a>Gravar um cliente automatizado
+# <a name="writing-an-automated-client"></a>Escrevendo um cliente automatizado
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo cliente automatizado é um aplicativo que executa o autônomo, não exibindo nenhuma interface do usuário.
+Um aplicativo cliente automatizado é um aplicativo que é executado sem supervisão, não exibindo nenhuma interface do usuário.
   
- Por padrão, muitos métodos de interface MAPI mostram uma interface de usuário. Todos esses métodos têm sinalizadores que permitem que um cliente permita ou suprima essa exibição. Embora o MAPI espere que os provedores de serviços obedeçam a esses sinalizadores, há alguns provedores que nem sempre atendem a essas expectativas. Uma razão legítima para não honrar os sinalizadores é a confiança do provedor de serviços em outro serviço que não permite a supressão da interface do usuário. Se você estiver desenvolvendo um cliente automatizado, preste atenção cuidadosa aos provedores de serviços que está usando e como eles estão configurados. Não presuma que todas as suas chamadas para suprimir uma interface do usuário serão bem-sucedidas. 
+ Por padrão, muitos métodos de interface MAPI mostram uma interface do usuário. Todos esses métodos têm sinalizadores que permitem que um cliente permita ou suprime essa exibição. Embora o MAPI espere que os provedores de serviços adcarem esses sinalizadores, há alguns provedores que nem sempre atendem a essas expectativas. Um motivo legítimo para não honrar os sinalizadores é a confiança do provedor de serviços em outro serviço que não permite a supressão da interface do usuário. Se você estiver desenvolvendo um cliente automatizado, preste atenção aos provedores de serviços que está usando e como eles são configurados. Não suponha que todas as suas chamadas para suprimir uma interface do usuário serão bem-sucedidas. 
   
 Os clientes automatizados devem ter as informações necessárias disponíveis para a configuração adequada de cada um dos serviços de mensagens no perfil. Há duas maneiras de fornecer informações de configuração no momento do logon:
   
@@ -31,8 +31,8 @@ Os clientes automatizados devem ter as informações necessárias disponíveis p
     
 - O provedor de serviços pode solicitar informações ao usuário. 
     
-Como a segunda opção não está disponível para clientes automatizados, esses clientes devem usar a primeira opção. Os clientes devem configurar seus perfis com cuidado para garantir que essa opção funcione sempre.
+Como a segunda opção não está disponível para clientes automatizados, esses clientes devem usar a primeira opção. Os clientes devem configurar seus perfis com cuidado para garantir que essa opção sempre funcione.
   
-Os clientes automatizados sempre definem o sinalizador MAPI_NO_MAIL na chamada de função [funçãomapilogonex](mapilogonex.md) para iniciar uma sessão MAPI. 
+Clientes automatizados sempre configuram o MAPI_NO_MAIL sinalizador na chamada de função [MAPILogonEx](mapilogonex.md) para iniciar uma sessão MAPI. 
   
 

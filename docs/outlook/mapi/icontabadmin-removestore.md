@@ -25,7 +25,7 @@ ms.locfileid: "33435415"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove o catálogo de endereços de contatos (CAB) especificado pela ID de entrada fornecida na hierarquia do catálogo de endereços.
+Remove o Cab (Contact Address Book) especificado pela ID de entrada determinada da hierarquia do address book.
   
 ```cpp
 HRESULT RemoveStore(
@@ -38,10 +38,10 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do objeto a ser aberto.
+> [in] Um ponteiro para o identificador de entrada do objeto a ser aberto.
     
 

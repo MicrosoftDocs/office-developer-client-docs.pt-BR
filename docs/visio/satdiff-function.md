@@ -16,17 +16,17 @@ ms.locfileid: "33439377"
 ---
 # <a name="satdiff-function"></a>Função SATDIFF
 
-Retorna a diferença na saturação entre _color1_ e _color2_.
+Retorna a diferença na saturação entre  _color1_ e  _color2_.
   
 ## <a name="syntax"></a>Sintaxe
 
-SATDIFF (* * *color1* * *, * * *color2* * *) 
+SATDIFF(** *color1* **, ** *color2* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Color1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da primeira cor.  <br/> |
+| _color1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da primeira cor.  <br/> |
 | _color2_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da segunda cor.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

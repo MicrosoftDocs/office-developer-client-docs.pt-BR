@@ -1,5 +1,5 @@
 ---
-title: Célula DocLockDuplicatePage (seção Document Properties)
+title: Célula DocLockDuplicatePage (Seção Document Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,29 +14,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439657"
 ---
-# <a name="doclockduplicatepage-cell-document-properties-section"></a>Célula DocLockDuplicatePage (seção Document Properties)
+# <a name="doclockduplicatepage-cell-document-properties-section"></a>Célula DocLockDuplicatePage (Seção Document Properties)
 
 Determina se as páginas no documento podem ser duplicadas, como um Boolean.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Duplicata** no menu de atalho da página e o método de automação **Page. Duplicate** estão desabilitados.  <br/> |
+|TRUE  <br/> |**A** duplicação no menu de atalho de página e o método de automação **Page.Duplicate** estão desabilitados.  <br/> |
 |FALSE  <br/> |A página pode ser duplicada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **DocLockDuplicatePage** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **DocLockDuplicatePage** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | DocLockDuplicatePage  <br/> |
    
-Para obter uma referência para a célula **DocLockDuplicatePage** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à **célula DocLockDuplicatePage** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowDoc** <br/> |
-| Índice da célula:  <br/> |**visDocLockDuplicatePage** <br/> |
+| Índice de célula:  <br/> |**visDocLockDuplicatePage** <br/> |
    
 

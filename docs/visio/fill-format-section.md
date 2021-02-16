@@ -22,6 +22,6 @@ Mostra os atributos de formatação de preenchimento atuais para a forma e a som
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir formatos de preenchimento no painel **Formatar forma** (na guia **página inicial** , no grupo **estilos de forma** , clique em **preenchimento**e em **Opções de preenchimento**), aplicando um estilo de preenchimento ou fazendo uma entrada em uma célula no formato de **preenchimento** sessão. 
+Você pode definir formatos  de preenchimento no  painel Formatar Forma (na guia Página Base, no grupo Estilos de Forma, clique em Preencher e em Opções de **Preenchimento),** aplicando um estilo de preenchimento ou fazendo uma entrada em uma célula na seção  **Formato** de Preenchimento. 
   
 

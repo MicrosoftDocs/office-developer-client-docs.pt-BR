@@ -23,8 +23,8 @@ Determina como as formas de colocação são invertidas e/ou giradas em uma pág
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Padrão. Não inverter.  <br/> |**visLOFlipDefault** <br/> |
-|&amp;Semestre  <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
-|&amp;S2  <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
+|&amp;H1  <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
+|&amp;H2  <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |Inverter em incrementos de 90 graus.  <br/> |**visLOFlipRotate** <br/> |
 |&amp;H8  <br/> |Não inverter.  <br/> |**visLOFlipNone** <br/> |
    
@@ -46,6 +46,6 @@ Para obter uma referência para a célula PlaceFlip pelo índice a partir de um 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOPlaceFlip** <br/> |
+|Índice de célula:  <br/> |**visPLOPlaceFlip** <br/> |
    
 

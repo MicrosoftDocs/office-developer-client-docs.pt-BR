@@ -25,11 +25,11 @@ ms.locfileid: "33435408"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mapeia um valor de número inteiro enumerado para um nome de exibição para esse valor. 
+Mapeia um valor inteiro enumerado para um nome de exibição para esse valor. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -44,15 +44,15 @@ typedef struct _SMAPIFormPropEnumVal
 
  **pszDisplayName**
   
-> Cadeia de caracteres que contém o nome de exibição para o valor especificado no membro **nVal** . 
+> Cadeia de caracteres que contém o nome para exibição do valor especificado no **membro nVal.** 
     
  **nVal**
   
-> Um valor de enumeração para o nome de exibição apontado pelo membro **pszDisplayName** . 
+> Um valor de enumeração para o nome de exibição apontado pelo **membro pszDisplayName.** 
     
 ## <a name="remarks"></a>Comentários
 
-Quando um usuário seleciona um nome de exibição de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação da interface [IMAPIProp](imapipropiunknown.md) que está associada ao formulário. 
+Quando um usuário seleciona um nome de exibição de um formulário, o valor de enumeração correspondente do nome é armazenado usando a implementação da interface [IMAPIProp](imapipropiunknown.md) associada ao formulário. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33434799"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um motivo pelo qual um agente de transferência de mensagem (MTA) descartou uma mensagem. 
+Contém um motivo pelo qual um MTA (agente de transferência de mensagens) descartou uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém um motivo pelo qual um agente de transferência de mensagem (MTA) descar
    
 ## <a name="remarks"></a>Comentários
 
-O motivo contido nessa propriedade é usado em um relatório de não entrega para a mensagem.
+O motivo contido nessa propriedade é usado em um relatório de não entrega da mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

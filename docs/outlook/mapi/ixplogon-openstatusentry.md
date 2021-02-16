@@ -25,7 +25,7 @@ ms.locfileid: "33435898"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre o objeto status do provedor de transporte.
+Abre o objeto de status do provedor de transporte.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,11 +40,11 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> no Um ponteiro para um identificador de interface (IID) para o objeto de logon de transporte. Passar NULL retorna a interface [IMAPIStatus](imapistatusimapiprop.md) . O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface para o objeto. 
+> [in] Um ponteiro para um IID (identificador de interface) para o objeto de logon de transporte. Passar NULL retorna a interface [IMAPIStatus.](imapistatusimapiprop.md) O  _parâmetro lpInterface_ também pode ser definido como um identificador para uma interface para o objeto. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto status é aberto. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como o objeto de status é aberto. O sinalizador a seguir pode ser definido:
     
 MAPI_MODIFY 
   
@@ -52,21 +52,21 @@ MAPI_MODIFY
     
  _lpulObjType_
   
-> bota Um ponteiro para o tipo do objeto aberto.
+> [out] Um ponteiro para o tipo do objeto aberto.
     
  _lppEntry_
   
-> bota Um ponteiro para o ponteiro para o objeto status aberto.
+> [out] Um ponteiro para o ponteiro para o objeto de status aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O spooler MAPI chama o método **IXPLogon:: OpenStatusEntry** quando um aplicativo cliente chama um método **OpenEntry** para o identificador de entrada na linha da tabela de status do provedor de transporte. **OpenStatusEntry** abre um objeto com a interface **IMAPIStatus** associada a esse logon específico do provedor de transporte. Esse objeto é usado para permitir que os aplicativos cliente chamem métodos **IMAPIStatus** (por exemplo, para reconfigurar a sessão de logon usando o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou para validar o estado da sessão de logon usando o [ IMAPIStatus::](imapistatus-validatestate.md) método ValidateState). 
+O spooler MAPI chama o método **IXPLogon::OpenStatusEntry** quando um aplicativo cliente chama um método **OpenEntry** para o identificador de entrada na linha da tabela de status do provedor de transporte. **OpenStatusEntry** abre um objeto com a interface **IMAPIStatus** associada a esse logon específico do provedor de transporte. Esse objeto é usado para permitir que aplicativos cliente chamem métodos **IMAPIStatus** (por exemplo, para reconfigurar a sessão de logon usando o método [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou para validar o estado da sessão de logon usando o método [IMAPIStatus::ValidateState).](imapistatus-validatestate.md) 
   
 ## <a name="see-also"></a>Confira também
 

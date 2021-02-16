@@ -25,7 +25,7 @@ ms.locfileid: "33434330"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o tipo e o status da tabela.
+Retorna o status e o tipo da tabela.
   
 ```cpp
 HRESULT GetStatus(
@@ -38,7 +38,7 @@ ULONG FAR * lpulTableType
 
  _lpulTableStatus_
   
-> bota Ponteiro para um valor que indica o status da tabela. Um dos valores a seguir pode ser retornado:
+> [out] Ponteiro para um valor que indica o status da tabela. Um dos seguintes valores pode ser retornado:
     
 TBLSTAT_COMPLETE 
   
@@ -46,47 +46,47 @@ TBLSTAT_COMPLETE
     
 TBLSTAT_QCHANGED 
   
-> O conteúdo da tabela tem expectantly alterado. Esse valor de status não é retornado para alterações resultantes de operações de classificação ou restrição.
+> O conteúdo da tabela foi alterado de forma esperada. Esse valor de status não é retornado para alterações resultantes de operações de classificação ou restrição.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Ocorreu um erro durante uma operação imApitable [:: Restrict](imapitable-restrict.md) . 
+> Ocorreu um erro durante uma [operação IMAPITable::Restrict.](imapitable-restrict.md) 
     
 TBLSTAT_RESTRICTING 
   
-> Uma operação imApitable **:: Restrict** está em andamento. 
+> Uma **operação IMAPITable::Restrict** está em andamento. 
     
 TBLSTAT_SETCOL_ERROR 
   
-> Ocorreu um erro durante uma operação imApitable [::](imapitable-setcolumns.md) SetColumns. 
+> Ocorreu um erro durante uma [operação IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
 TBLSTAT_SETTING_COLS 
   
-> Uma operação imApitable **::** SetColumns está em andamento. 
+> Uma **operação IMAPITable::SetColumns** está em andamento. 
     
 TBLSTAT_SORT_ERROR 
   
-> Ocorreu um erro durante uma operação imApitable [:: SortTable](imapitable-sorttable.md) . 
+> Ocorreu um erro durante uma [operação IMAPITable::SortTable.](imapitable-sorttable.md) 
     
 TBLSTAT_SORTING 
   
-> Uma operação imApitable **:: SortTable** está em andamento. 
+> Uma **operação IMAPITable::SortTable** está em andamento. 
     
  _lpulTableType_
   
-> bota Ponteiro para um valor que indica o tipo da tabela. Um dos três tipos de tabela a seguir pode ser retornado:
+> [out] Ponteiro para um valor que indica o tipo da tabela. Um dos três tipos de tabela a seguir pode ser retornado:
     
 TBLTYPE_DYNAMIC 
   
-> O conteúdo da tabela é dinâmico; os valores de linhas e colunas podem ser alterados à medida que os dados subjacentes são alterados.
+> O conteúdo do índice é dinâmico; as linhas e os valores de coluna podem mudar à medida que os dados subjacentes mudam.
     
 TBLTYPE_KEYSET 
   
-> As linhas dentro da tabela são corrigidas, mas os valores das colunas dentro dessas linhas são dinâmicos e podem ser alterados à medida que os dados subjacentes são alterados.
+> As linhas dentro da tabela são fixas, mas os valores das colunas dentro dessas linhas são dinâmicos e podem mudar à medida que os dados subjacentes mudam.
     
 TBLTYPE_SNAPSHOT 
   
-> A tabela é estática, e seu conteúdo não é alterado quando os dados subjacentes são alterados.
+> A tabela é estática e seu conteúdo não muda quando os dados subjacentes mudam.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -96,17 +96,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **imaptable:: GetStatus** recupera informações sobre o tipo de tabela e o status atual. 
+O **método IMAPTable::GetStatus** recupera informações sobre o tipo e o status atual de uma tabela. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar **GetStatus** em conjunto com três outros **** métodos IMAPITable para monitorar o status dessas operações e determinar o efeito sobre a tabela. Chame **GetStatus** após fazer uma das seguintes chamadas **** IMAPITable: 
+Você pode usar **GetStatus** em conjunto com três outros métodos **IMAPITable** para monitorar o status dessas operações e determinar o efeito na tabela. Chame **GetStatus** depois de fazer uma das seguintes **chamadas IMAPITable:** 
   
-- [IMAPITable:: strict](imapitable-restrict.md) para definir uma restrição. 
+- [IMAPITable::Restrict](imapitable-restrict.md) para definir uma restrição. 
     
-- [IMAPITable:: SortTable](imapitable-sorttable.md) para estabelecer uma ordem de classificação. 
+- [IMAPITable::SortTable](imapitable-sorttable.md) para estabelecer uma ordem de classificação. 
     
-- [IMAPITable::](imapitable-setcolumns.md) SetColumns para definir um conjunto de colunas. 
+- [IMAPITable::SetColumns](imapitable-setcolumns.md) para definir um conjunto de colunas. 
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -114,7 +114,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: GetStatus  <br/> |MFCMAPI usa o método imApitable **:: GetStatus** para relatar o status de uma tabela.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI usa o **método IMAPITable::GetStatus** para relatar o status de uma tabela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -1,5 +1,5 @@
 ---
-title: Princípios básicos de desenvolvimento do provedor de serviços
+title: Noções básicas de desenvolvimento do provedor de serviços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437802"
 ---
-# <a name="service-provider-development-basics"></a>Princípios básicos de desenvolvimento do provedor de serviços
+# <a name="service-provider-development-basics"></a>Noções básicas de desenvolvimento do provedor de serviços
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção contém informações gerais que você deve examinar antes de criar seus próprios provedores de serviço MAPI.
+Esta seção contém informações de visão geral que você deve analisar antes de criar seus próprios provedores de serviços MAPI.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Desenvolver um provedor de catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
+[Desenvolvendo um provedor de lista de endereços MAPI](developing-a-mapi-address-book-provider.md)
   
-[Desenvolver um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
+[Desenvolvendo um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
   
 [Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
   
-[Provedores de serviço MAPI](mapi-service-providers.md)
+[Provedores de Serviços MAPI](mapi-service-providers.md)
   
 [Visão geral do provedor de serviços MAPI](mapi-service-provider-overview.md)
 

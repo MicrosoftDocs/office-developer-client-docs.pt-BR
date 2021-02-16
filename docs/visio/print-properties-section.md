@@ -22,8 +22,8 @@ Contém as células que controlam como a página de desenho é formatada (exibid
   
 ## <a name="remarks"></a>Comentários
 
-Use a seção **Propriedades de impressão** para controlar a impressão no nível da página. Essas configurações são por página e não dependem  das configurações da página do desenho; por exemplo, uma página de desenho que utilize a orientação paisagem pode ser impressa com a orientação retrato. Além disso, os documentos podem ser impressos usando uma combinação de orientações. 
+Use a **seção Print Properties** para controlar a impressão no nível da página. Essas configurações são por página e não dependem  das configurações da página do desenho; por exemplo, uma página de desenho que utilize a orientação paisagem pode ser impressa com a orientação retrato. Além disso, os documentos podem ser impressos usando uma combinação de orientações. 
   
-As configurações da seção **Imprimir Propriedades** correspondem aos valores definidos na guia **Configurar impressão** da caixa de diálogo **Configurar página** (na guia **design** , clique no iniciador da caixa de diálogo no grupo **Configurar página** ). Consulte a seção **Propriedades da página** para ver as configurações que se aplicam à página de desenho. 
+As configurações na seção Print **Properties** correspondem  aos valores definidos na guia Configurar Impressão na caixa de diálogo  Configurar Página (na guia **Design,** clique no início da caixa de diálogo no grupo Configurar Página).  Consulte a **seção Page Properties** para ver as configurações que se aplicam à página de desenho. 
   
 

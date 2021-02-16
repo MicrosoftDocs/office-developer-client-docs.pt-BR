@@ -22,12 +22,12 @@ Decodifica uma sequência de caracteres base64 e a armazena como dados binários
   
 ## <a name="syntax"></a>Sintaxe
 
-BLOB (* * *bintext* * *) 
+BLOB (** *bintext* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _bintext_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma cadeia de caracteres codificada base64.  <br/> |
+| _bintext_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma cadeia de caracteres codificada base64.  <br/> |
    
 

@@ -29,7 +29,7 @@ Descreve uma restrição de tamanho que é usada para testar o tamanho de um val
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -43,13 +43,13 @@ typedef struct _SSizeRestriction
 
 ## <a name="members"></a>Members
 
- **RelOp**
+ **re ltda**
   
-> Operador relacional usado na comparação de tamanho. Os valores possíveis são os seguintes: 
+> Operador relacional que é usado na comparação de tamanho. Os valores possíveis são: 
     
 RELOP_GE 
   
-> A comparação é feita com base em um valor maior ou igual a um primeiro.
+> A comparação é feita com base em um primeiro valor maior ou igual.
     
 RELOP_GT 
   
@@ -57,7 +57,7 @@ RELOP_GT
     
 RELOP_LE 
   
-> A comparação é feita com base em um valor menor ou igual a.
+> A comparação é feita com base em um primeiro valor menor ou igual.
     
 RELOP_LT 
   
@@ -65,7 +65,7 @@ RELOP_LT
     
 RELOP_NE 
   
-> A comparação é feita com base em valores desiguais.
+> A comparação é feita com base em valores de valores de valores diferentes.
     
 RELOP_RE 
   
@@ -77,7 +77,7 @@ RELOP_EQ
     
  **ulPropTag**
   
-> Marca de propriedade identificando a propriedade a ser testada.
+> Marca de propriedade que identifica a propriedade a ser testado.
     
  **cb**
   
@@ -85,7 +85,7 @@ RELOP_EQ
     
 ## <a name="remarks"></a>Comentários
 
-Para uma discussão geral de como as restrições funcionam, consulte [about Restrictions](about-restrictions.md). 
+Para uma discussão geral sobre como funcionam as restrições, consulte [Sobre restrições.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -33,7 +33,7 @@ Para fazer referência à célula CenterY pelo nome a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Centro  <br/> |
+| Nome da célula:  <br/> | CenterY  <br/> |
    
 Para fazer referência à célula CenterY pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

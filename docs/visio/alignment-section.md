@@ -18,6 +18,6 @@ ms.locfileid: "33436514"
 ---
 # <a name="alignment-section"></a>Seção Alignment
 
-Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada. A seção **Alignment** aparece apenas para as formas coladas às guias. 
+Indica o alinhamento de uma forma com relação à guia ou ponto da guia ao qual a forma está colada. A **seção Alignment** aparece somente para formas coladas às guias. 
   
 

@@ -36,7 +36,7 @@ Para fazer referência à célula Disabled pelo nome, de outra fórmula ou progr
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | SmartTags.  *nome* . Desativado onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome*  . Desabilitado onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula Disabled pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

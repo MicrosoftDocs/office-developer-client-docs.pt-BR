@@ -25,7 +25,7 @@ ms.locfileid: "33438922"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Desbloqueia um arquivo de pastas particulares (. pst) para uma sessão, substituindo a política PSTDisableGrow.
+Desbloqueia um arquivo de Pastas Particulares (.pst) para uma sessão, substituindo a política PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();

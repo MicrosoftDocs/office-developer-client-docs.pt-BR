@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [MTSID](mtsid.md) existente.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbMTSID (_lpentry)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lpentry_
+ _ _lpentry_
   
 > Ponteiro para a estrutura **MTSID** existente. 
     

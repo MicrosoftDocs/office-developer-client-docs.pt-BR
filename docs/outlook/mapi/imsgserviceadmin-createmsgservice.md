@@ -25,7 +25,7 @@ ms.locfileid: "33434974"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-PreTerido: o uso de [IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) é recomendado. Adiciona um serviço de mensagens ao perfil atual. 
+Preterido: o uso de [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) é recomendado. Adiciona um serviço de mensagem ao perfil atual. 
   
 ```cpp
 HRESULT CreateMsgService(
@@ -40,31 +40,31 @@ HRESULT CreateMsgService(
 
  _lpszService_
   
-> no Um ponteiro para o nome do serviço de mensagens a ser adicionado. Esse nome de serviço de mensagem deve aparecer na seção **[serviços]** do arquivo MapiSvc. inf. 
+> [in] Um ponteiro para o nome do serviço de mensagens a ser acrescentado. Esse nome de serviço de mensagem deve aparecer na seção **[Serviços]** do arquivo MapiSvc.inf. 
     
  _lpszDisplayName_
   
-> no Um ponteiro para o nome de exibição do serviço de mensagens a ser adicionado. O parâmetro _lpszDisplayName_ será ignorado se o serviço de mensagens tiver definido a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) no arquivo MapiSvc. inf.
+> [in] Um ponteiro para o nome de exibição do serviço de mensagens a ser acrescentado. O  _parâmetro lpszDisplayName_ será ignorado se o serviço de mensagens tiver definido a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) no arquivo MapiSvc.inf.
     
  _ulUIParam_
   
-> no Uma alça para a janela pai de qualquer caixa de diálogo ou Windows este método é exibido.
+> [in] Um alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o serviço de mensagens é instalado. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como o serviço de mensagens é instalado. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_UNICODE
   
-> Os parâmetros lpszService e lpszDisplayName devem ser convertidos em LPWSTR e interpretados como cadeias de caracteres Unicode.
+> Os parâmetros lpszService e lpszDisplayName devem ser lançados para LPWSTR e interpretados como cadeias de caracteres Unicode.
     
 SERVICE_NO_RESTART_WARNING
   
-> Ao adicionar um novo serviço de mensagens ao perfil, o subsistema MAPI, com base em várias circunstâncias e critérios, geralmente determina que essa ação requer uma reinicialização do Outlook. Se o sinalizador SERVICE_NO_RESTART_WARNING não estiver incluído e a interface do usuário for baseada nos sinalizadores SERVICE_UI_ALWAYS e SERVICE_UI_ALLOWED e pelo menos um processo estiver conectado ao perfil atual, essa função exibirá a mensagem "você deve reiniciar o Outlook para que as alterações entrem em vigor. " Incluir o sinalizador SERVICE_NO_RESTART_WARNING suprime a exibição dessa mensagem de aviso.
+> Ao adicionar um novo serviço de mensagens ao perfil, o subsistema MAPI, com base em várias circunstâncias e critérios, geralmente determina que essa ação requer uma reinicialização do Outlook. Se o sinalizador SERVICE_NO_RESTART_WARNING não estiver incluído e a interface do usuário for permitida, com base nos sinalizadores SERVICE_UI_ALWAYS e SERVICE_UI_ALLOWED, e pelo menos um processo estiver conectado ao perfil atual, essa função exibirá a mensagem "Você deve reiniciar o Outlook para que essas alterações entre em vigor". A inclusão SERVICE_NO_RESTART_WARNING sinalizador suprime a exibição dessa mensagem de aviso.
     
 SERVICE_UI_ALLOWED
   
-> A interface do usuário de configuração do serviço de mensagens é permitida se necessário.
+> A interface do usuário de configuração do serviço de mensagens é permitida, se necessário.
     
 SERVICE_UI_ALWAYS 
   
@@ -74,39 +74,39 @@ SERVICE_UI_ALWAYS
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_NOT_FOUND 
   
-> O nome do serviço de mensagens não está na seção **[serviços]** de MapiSvc. inf. 
+> O nome do serviço de mensagens não está na seção **[Serviços]** de MapiSvc.inf. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin:: CreateMsgService** adiciona um serviço de mensagens ao perfil atual. **CreateMsgService** chama a função de ponto de entrada do serviço de mensagens para executar qualquer tarefa de configuração específica do serviço. Se o sinalizador SERVICE_UI_ALLOWED estiver definido no parâmetro _parâmetroulflags_ , o serviço de mensagens que estiver sendo instalado poderá exibir uma folha de propriedades para permitir que o usuário defina suas configurações. 
+O **método IMsgServiceAdmin::CreateMsgService** adiciona um serviço de mensagem ao perfil atual. **CreateMsgService** chama a função de ponto de entrada do serviço de mensagens para executar qualquer tarefa de configuração específica do serviço. Se o SERVICE_UI_ALLOWED sinalizador for definido no parâmetro  _ulFlags,_ o serviço de mensagem que está sendo instalado poderá exibir uma folha de propriedades para permitir que o usuário defina suas configurações. 
   
-O arquivo MapiSvc. inf contém a lista de provedores que compõem um serviço de mensagens e as propriedades de cada um. **CreateMsgService** primeiro cria uma nova seção de perfil para o serviço de mensagens e, em seguida, copia Todas as informações desse serviço do arquivo MapiSvc. inf para o perfil, criando novas seções para cada provedor. 
+O arquivo MapiSvc.inf contém a lista de provedores que comem um serviço de mensagens e as propriedades de cada um deles. **CreateMsgService** primeiro cria uma nova seção de perfil para o serviço de mensagens e, em seguida, copia todas as informações para esse serviço do arquivo MapiSvc.inf para o perfil, criando novas seções para cada provedor. 
   
-Após todas as informações terem sido copiadas de MapiSvc. inf, a função de ponto de entrada do serviço de mensagens é chamada com o valor MSG_SERVICE_CREATE definido no parâmetro _ulContext_ . Se o sinalizador SERVICE_UI_ALLOWED estiver definido no parâmetro _parâmetroulflags_ do método **CreateMsgService** , os valores nos parâmetros _ulUIParam_ e _parâmetroulflags_ também serão passados quando a função de ponto de entrada do serviço de mensagens for chamada. Os provedores de serviços devem exibir suas folhas de propriedades de configuração para que os usuários possam configurar o serviço de mensagens. 
+Depois que todas as informações foram copiadas de MapiSvc.inf, a função de ponto de entrada do serviço de mensagens é chamada com o valor MSG_SERVICE_CREATE definido no _parâmetro ulContext._ Se o sinalizador SERVICE_UI_ALLOWED for definido no parâmetro _ulFlags_ do método **CreateMsgService,** os valores nos parâmetros _ulUIParam_ e _ulFlags_ também serão passados quando a função de ponto de entrada do serviço de mensagens for chamada. Os provedores de serviços devem exibir suas folhas de propriedades de configuração para que os usuários possam configurar o serviço de mensagens. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **CreateMsgService** não retorna a estrutura [MAPIUID](mapiuid.md) para o serviço de mensagem que foi adicionado ao perfil. 
+ **CreateMsgService** não retorna a estrutura [MAPIUID](mapiuid.md) para o serviço de mensagens que foi adicionado ao perfil. 
   
-Para recuperar o **MAPIUID** do serviço de mensagens criadas, use o seguinte procedimento: 
+Para recuperar o **MAPIUID** para o serviço de mensagem criado, use o seguinte procedimento: 
   
-1. Chame o método [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para obter a tabela de administração do serviço de mensagens. 
+1. Chame o [método IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para obter a tabela de administração do serviço de mensagens. 
     
-2. Localize a linha que representa o serviço de mensagem, colocando uma restrição na tabela que corresponde à propriedade **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) com o nome do serviço de mensagens. 
+2. Localize a linha que representa o serviço de mensagens colocando uma restrição na tabela que corresponde à propriedade **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) com o nome do serviço de mensagem. 
     
-3. Recupere a propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) do serviço. 
+3. Recupere a propriedade PR_SERVICE_UID **(** [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) do serviço. 
     
-4. Passe o valor da propriedade **PR_SERVICE_UID** no parâmetro _lpUid_ para o método [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) para configurar o serviço. 
+4. Passe o valor da **propriedade PR_SERVICE_UID** no parâmetro  _lpUid_ para o método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) para configurar o serviço. 
     
 > [!CAUTION]
-> A implementação do Microsoft Outlook 2010 do subsistema MAPI não oferece suporte ao MAPI_UNICODE e falhará se for usado. 
+> The Microsoft Outlook 2010 implementation of the MAPI subsystem does not support MAPI_UNICODE and will fail if it is used. 
   
 > [!IMPORTANT]
-> O _parâmetroulflags_ SERVICE_NO_RESTART_WARNING pode não estar definido no arquivo de cabeçalho baixável que você tem atualmente, e, nesse caso, você pode adicioná-lo ao seu código usando o seguinte valor: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
+> O  _SERVICE_NO_RESTART_WARNING ulFlags_ pode não ser definido no arquivo de header baixável que você tem atualmente, nesse caso, você pode adicioná-lo ao seu código usando o seguinte valor: >  `#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -114,7 +114,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa o método **IMsgServiceAdmin:: CreateMsgService** para adicionar um serviço a um perfil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa o **método IMsgServiceAdmin::CreateMsgService** para adicionar um serviço a um perfil.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

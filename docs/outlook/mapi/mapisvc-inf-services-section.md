@@ -1,5 +1,5 @@
 ---
-title: Seção MapiSvc. inf [serviços]
+title: Seção MapiSvc.inf [Services]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434778"
 ---
-# <a name="mapisvcinf-services-section"></a>Seção MapiSvc. inf [serviços]
+# <a name="mapisvcinf-services-section"></a>Seção MapiSvc.inf [Services]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[serviços]** lista os serviços de mensagens que estão instalados em um computador. As entradas nesta seção usam o seguinte formato: 
+A **seção [Serviços]** lista os serviços de mensagem instalados em um computador. As entradas nesta seção usam o seguinte formato: 
   
- **Serviço**
+ **[Serviços]**
   
- __ =  nome da seção do serviço de mensagens nome do_serviço_
+ _nome da seção message-service_  =   _nome do serviço de mensagem_
   
-O nome da seção Message-Service é uma cadeia de caracteres definida pelo serviço de mensagens que vincula essa entrada a uma seção correspondente para o serviço em outro lugar no MAPISVC. inf. O nome do serviço de mensagens é o nome do serviço instalado. A seção a seguir mostra três serviços de mensagens: o catálogo de endereços padrão, meu próprio serviço e o serviço de repositório de mensagens. Esses serviços são fictícios, apenas para fins ilustrativos. Cada implementador de serviço de mensagens substituiria a entrada apropriada para o seu serviço de mensagens nesta seção.
+O nome da seção de serviço de mensagens é uma cadeia de caracteres definida pelo serviço de mensagens que vincula essa entrada a uma seção correspondente para o serviço em outro lugar em mapisvc.inf. O nome do serviço de mensagens é o nome do serviço instalado. A seção a seguir mostra três serviços de mensagem: o Livro de Endereços Padrão, Meu Próprio Serviço e o Serviço de Armazenamento de Mensagens. Esses serviços são fictícios, apenas para fins ilustradores. Cada implementador de serviço de mensagens substituiria a entrada apropriada por seu serviço de mensagens nesta seção.
   
 ```cpp
 [Services]
@@ -37,6 +37,6 @@ MS=Message Store Service
 
 ```
 
-Cada entrada desta seção tem uma seção correspondente de seu próprio local em que as informações do serviço de mensagens são armazenadas. Por exemplo, a seção correspondente para o catálogo de endereços padrão é chamada de [AB].
+Cada entrada nesta seção tem uma seção correspondente própria onde as informações do serviço de mensagens são armazenadas. Por exemplo, a seção correspondente para o Livro de Endereços Padrão é chamada [AB].
   
 

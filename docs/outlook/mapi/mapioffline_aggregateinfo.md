@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438159"
 ---
-# <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
+# <a name="mapioffline_aggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
@@ -40,11 +40,11 @@ typedef struct
     
  **pOuterObj**
   
-> Um ponteiro para o objeto IUnknown no qual este objeto está sendo agregado. Isso permite que qualquer chamada de QueryInterface passe para o objeto criado.
+> Um ponteiro para o objeto IUnknown no qual esse objeto está sendo agregado. Isso permite que todas as chamadas QueryInterface passem pelo objeto criado.
     
  **pRefTrackRoot**
   
-> Deve ser nulo.
+> Deve ser NULL.
     
 ## <a name="see-also"></a>Confira também
 

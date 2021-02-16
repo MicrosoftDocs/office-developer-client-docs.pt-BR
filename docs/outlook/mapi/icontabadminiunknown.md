@@ -25,11 +25,11 @@ ms.locfileid: "33439328"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove pastas de contatos do catálogo de endereços do Microsoft Outlook 2010 e do Microsoft Outlook 2013.
+Remove pastas de contatos do livro de endereços do Microsoft Outlook 2010 e do Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |cabadmin. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |cabadmin.h  <br/> |
 |Exposto por:  <br/> ||
 |Implementado por:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Chamado por:  <br/> |CRM  <br/> |
@@ -40,6 +40,6 @@ Remove pastas de contatos do catálogo de endereços do Microsoft Outlook 2010 e
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Remove o catálogo de endereços de contatos (CAB) especificado pela ID de entrada fornecida na hierarquia do catálogo de endereços.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Remove o Cab (Contact Address Book) especificado pela ID de entrada determinada da hierarquia do address book.  <br/> |
    
 

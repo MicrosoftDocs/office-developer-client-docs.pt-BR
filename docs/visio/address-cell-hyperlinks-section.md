@@ -20,7 +20,7 @@ ms.locfileid: "33438033"
 
 Especifica uma URL, um nome de arquivo ou um caminho UNC para o qual ir.
   
-Você pode especificar o endereço como um caminho relativo com base no caminho base definido para o documento na **caixa base do hiperlink** na guia **Resumo** da caixa de diálogo **Propriedades** (clique na guia **arquivo** , em **informações**, em * * Propriedades * * e, em seguida, clique em **Propriedades avançadas**. Se o documento não contiver um caminho de base, o aplicativo navegará com base no caminho do documento. Se o documento não tiver sido salvo, o hiperlink não será definido.
+Você pode especificar o endereço como um caminho relativo com base no caminho  base definido  para o documento  na caixa **base Hiperlink** da guia Resumo da caixa de diálogo Propriedades (clique na guia Arquivo, em **Informações,** em ** Propriedades ** e em Propriedades Avançadas **).** Se o documento não contiver um caminho de base, o aplicativo navegará com base no caminho do documento. Se o documento não tiver sido salvo, o hiperlink não será definido.
   
 ## <a name="remarks"></a>Comentários
 
@@ -30,9 +30,9 @@ Para fazer referência à célula Address pelo índice a partir de um programa, 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hiperlink. *nome* . Endereço onde hiperlink. *Name* é o nome da linha de hiperlink  <br/> |
+|Nome da célula:  <br/> |Hiperlink. *nome*  . Endereço onde o hiperlink. *name*  is the name of the hyperlink row  <br/> |
    
-Para fazer referência à célula address pelo nome, a partir de outra fórmula ou programa, usando a propriedade Cells **** , utilize: 
+Para fazer referência à célula Address pelo nome, a partir de outra fórmula ou programa, usando a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|

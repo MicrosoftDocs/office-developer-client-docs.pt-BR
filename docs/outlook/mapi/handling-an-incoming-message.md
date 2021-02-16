@@ -19,46 +19,46 @@ ms.locfileid: "33438978"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma mensagem de entrada é uma mensagem que foi enviada por um ou mais sistemas de mensagens. Ele pode ter sido enviado apenas para você ou para muitos outros destinatários. As mensagens de entrada são colocadas em uma pasta de recebimento designada para armazenar mensagens de uma determinada classe. Você pode configurar uma pasta de recebimento diferente para cada classe de mensagem que você manipula ou usa uma pasta para todas as classes.
+Uma mensagem de entrada é uma mensagem que foi enviada por um ou mais sistemas de mensagens. Ele pode ter sido enviado apenas para você ou para muitos outros destinatários. As mensagens de entrada são colocadas em uma pasta de recebimento designada para manter mensagens de uma classe específica. Você pode configurar uma pasta de recebimento diferente para cada classe de mensagem que manipular ou usar uma pasta para todas as classes.
   
-Se você tiver registrado para novas notificações de email com o repositório de mensagens, será notificado sempre que uma mensagem for colocada em uma pasta de recebimento. Se você não tiver registrado para novas notificações de email, deverá abrir a pasta de recebimento apropriada periodicamente para verificar manualmente a chegada de novas mensagens.
+Se você tiver se registrado para novas notificações de email com o armazenamento de mensagens, você será notificado sempre que uma mensagem for colocada em uma pasta de recebimento. Se você não tiver se registrado para novas notificações de email, deverá abrir a pasta de recebimento apropriada periodicamente para verificar manualmente a chegada de novas mensagens.
   
-Os clientes se registram para novas notificações de email Configurando os parâmetros para [IMsgStore:: Advise](imsgstore-advise.md) da seguinte maneira: 
+Os clientes se registram para novas notificações de email definindo os parâmetros como [IMsgStore::Advise](imsgstore-advise.md) da seguinte forma: 
   
-- Defina _cbEntryID_ como 0. 
+- De  _definida cbEntryID_ como 0. 
     
-- Defina _lpEntryID_ como nulo. 
+- De  _definida lpEntryID_ como NULL. 
     
-- Defina _ulEventMask_ como fnevNewMail. 
+- De  _definir ulEventMask_ como fnevNewMail. 
     
-O parâmetro _lpNotifications_ na chamada para o método **IMAPIAdviseSink:: OnNotify** aponta para uma estrutura de **notificação do NEWMAIL\_** que contém informações sobre a mensagem de entrada, como sua classe de mensagens, sua entrada identificador, o identificador de entrada de sua pasta pai e o conteúdo de sua propriedade **PR_MESSAGE_FLAGS** . Para obter mais informações sobre como registrar e lidar com notificações, consulte [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md), [NEWMAIL_NOTIFICATION](newmail_notification.md), **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) e [tratamento de notificações](handling-notifications.md). 
+O parâmetro _lpNotifications_ na chamada para seu método **IMAPIAdviseSink::OnNotify** aponta para uma estrutura NOTIFICAÇÃO **DE NEWMAIL \_** que contém informações sobre a mensagem de entrada, como sua classe de mensagem, seu identificador de entrada, o identificador de entrada de sua pasta pai e o conteúdo de sua propriedade **PR_MESSAGE_FLAGS.** Para obter mais informações sobre como registrar e manipular notificações, consulte [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md), [NEWMAIL_NOTIFICATION](newmail_notification.md), **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) e Manipulando notificações [.](handling-notifications.md) 
   
-Antes de exibir uma mensagem de entrada para um usuário, determine se sua classe de mensagem é uma classe que seu cliente suporta. Caso contrário, ignore a mensagem. Se a classe é suportada, você pode abrir e exibir a mensagem com um formulário apropriado para a classe de mensagem da mensagem. A opção de formulários é baseada na classe da mensagem. As mensagens que pertencem à classe IPM usam um formulário padrão implementado por MAPI. As mensagens que pertencem a classes personalizadas definidas por clientes podem usar formulários especializados definidos pelo cliente ou o formulário MAPI padrão.
+Antes de exibir uma mensagem de entrada para um usuário, determine se sua classe de mensagem é uma classe compatível com seu cliente. Caso não seja, ignore a mensagem. Se a classe for aquela à qual você dá suporte, você poderá abrir e exibir a mensagem com um formulário apropriado para a classe de mensagem da mensagem. A escolha de formulários baseia-se na classe da mensagem. Mensagens que pertencem à classe IPM usam um formulário padrão implementado por MAPI. Mensagens que pertencem a classes personalizadas definidas por clientes podem usar formulários especializados definidos pelo cliente ou o formulário padrão MAPI.
   
 ## <a name="open-and-display-an-incoming-message"></a>Abrir e exibir uma mensagem de entrada
   
-1. Chame **IMsgStore:: GetReceiveFolder** para recuperar o identificador de entrada da pasta de recebimento para a classe de mensagem da mensagem e passar esse identificador de entrada para **IMsgStore:: OpenEntry** para abrir a pasta. Para obter mais informações, consulte [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md)e [abrindo uma pasta do repositório de mensagens](opening-a-message-store-folder.md).
+1. Chame **IMsgStore::GetReceiveFolder** para recuperar o identificador de entrada da pasta de recebimento da classe de mensagem da mensagem e passe esse identificador de entrada para **IMsgStore::OpenEntry** para abrir a pasta. For more information, see [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), and [Opening a Message Store Folder](opening-a-message-store-folder.md).
     
-2. Chame o método **IMAPIContainer::** getcontenttable da pasta de recebimento para recuperar sua tabela de conteúdo. Para obter mais informações, consulte [IMAPIContainer::](imapicontainer-getcontentstable.md)getcontenttable. Chame o método imApitable **:: QueryRows** da tabela para recuperar todas as linhas da tabela. Para obter mais informações, consulte imApitable [:: QueryRows](imapitable-queryrows.md) e [Content Tables](contents-tables.md). Para obter mais informações sobre como exibir uma tabela de conteúdo, consulte [exibindo uma tabela de conteúdo da pasta](displaying-a-folder-contents-table.md).
+2. Chame o método **IMAPIContainer::GetContentsTable** da pasta de recebimento para recuperar sua tabela de conteúdo. Para obter mais informações, consulte [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md). Chame o método **IMAPITable::QueryRows** da tabela para recuperar todas as linhas da tabela. Para obter mais informações, [consulte IMAPITable::QueryRows](imapitable-queryrows.md) and [Contents Tables](contents-tables.md). Para obter mais informações sobre a exibição de uma tabela de conteúdos, consulte [Exibindo uma tabela de conteúdo de pasta.](displaying-a-folder-contents-table.md)
     
-3. Se o cliente for interativo, permita que o usuário selecione uma mensagem da tabela e determine o formulário a ser usado para exibir a mensagem. Os clientes podem usar o formulário padrão fornecido por MAPI ou um formulário personalizado. Para obter mais informações, consulte [tratamento de formulários MAPI](handling-mapi-forms.md).
+3. Se o cliente for interativo, permita que o usuário selecione uma mensagem da tabela e determine o formulário a ser usado para exibir essa mensagem. Os clientes podem usar o formulário padrão fornecido por MAPI ou um formulário personalizado. Para obter mais informações, consulte [Manipulando formulários MAPI.](handling-mapi-forms.md)
     
-4. Chame **IMsgStore:: OpenEntry** para abrir a mensagem. Para obter mais informações, consulte [abrir uma mensagem](opening-a-message.md).
+4. Chame **IMsgStore::OpenEntry** para abrir a mensagem. Para obter mais informações, consulte [Abrindo uma mensagem.](opening-a-message.md)
     
-5. Processe o texto da mensagem. Para obter mais informações, consulte [abrindo mensagem de texto](opening-message-text.md).
+5. Processe o texto da mensagem. Para obter mais informações, consulte [Opening Message Text](opening-message-text.md).
     
-6. Renderizar cada um dos anexos da mensagem. Para obter mais informações, consulte [renderizar um anexo em texto sem formatação](rendering-an-attachment-in-plain-text.md) ou [renderizar um anexo em texto RTF](rendering-an-attachment-in-rtf-text.md).
+6. Renderizar cada um dos anexos da mensagem. Para obter mais informações, consulte [Renderização de](rendering-an-attachment-in-plain-text.md) um anexo em texto sem texto ou [renderização de um anexo em texto RTF.](rendering-an-attachment-in-rtf-text.md)
     
-7. Abra um anexo, se desejado. Para obter mais informações, consulte [abrir um anexo](opening-an-attachment.md).
+7. Abra um anexo, se desejado. Para obter mais informações, [consulte Abrindo um anexo.](opening-an-attachment.md)
     
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Abrindo mensagem texto](opening-message-text.md): descreve como abrir o texto da mensagem.
+- [Abrir Texto da](opening-message-text.md)Mensagem: Descreve como abrir o texto da mensagem.
     
-- [Renderizar um anexo em texto sem formatação](rendering-an-attachment-in-plain-text.md): descreve como renderizar um anexo em texto sem formatação.
+- [Renderização de um anexo em texto sem](rendering-an-attachment-in-plain-text.md)texto: descreve como renderizar um anexo em texto sem forma.
     
-- [Renderizar um anexo em texto RTF](rendering-an-attachment-in-rtf-text.md): descreve como renderizar um anexo em texto formatado.
+- [Renderização de um anexo em texto RTF:](rendering-an-attachment-in-rtf-text.md)descreve como renderizar um anexo em texto formatado.
     
-- [Abrir um anexo](opening-an-attachment.md): descreve como abrir um anexo.
+- [Abrir um anexo:](opening-an-attachment.md)descreve como abrir um anexo.
     
 

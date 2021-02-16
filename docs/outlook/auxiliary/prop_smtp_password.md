@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435947"
 ---
-# <a name="propsmtppassword"></a>PROP_SMTP_PASSWORD
+# <a name="prop_smtp_password"></a>PROP_SMTP_PASSWORD
 
 Representa a senha da conta SMTP.
   

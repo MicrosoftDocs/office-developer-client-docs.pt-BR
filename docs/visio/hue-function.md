@@ -22,13 +22,13 @@ Retorna o valor do componente de matiz de uma cor.
   
 ## <a name="syntax"></a>Sintaxe
 
-MATIZ (* * *expressão* * *) 
+HUE(** *expressão* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma expressão que é avaliada para uma cor.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma expressão que é avaliada para uma cor.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -40,13 +40,13 @@ O valor retornado é um número entre 0 e 239, inclusive. A entrada é um índic
   
 ## <a name="example-1"></a>Exemplo 1
 
-MATIZ (planilha. 4! FillForegnd
+HUE(Sheet.4! FillForegnd)
   
 Retornará a matiz da cor de preenchimento de primeiro plano de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-MATIZ (7)
+HUE(7)
   
 Retornará 120 se o documento utilizar a paleta de cores padrão do Microsoft Visio, sendo ciano a cor do índice 7.
   

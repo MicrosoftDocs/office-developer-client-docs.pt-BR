@@ -22,13 +22,13 @@ Determina como selecionar uma forma de grupo e seus membros.
   
 |**Valor**|**Modo de seleção**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Selecionar somente a forma de grupo.  <br/> |**visGrpSelModeGroupOnly** <br/> |
-|1  <br/> |Selecionar primeiro a forma de grupo.  <br/> |**visGrpSelModeGroup1st** <br/> |
-|duas  <br/> |Selecionar primeiro os membros do grupo.  <br/> |**visGrpSelModeMembers1st** <br/> |
+|0  <br/> |Selecionar somente a forma de grupo.  <br/> |**visGrpSelModeGroupOnly** <br/> |
+|1   <br/> |Selecionar primeiro a forma de grupo.  <br/> |**visGrpSelModeGroup1st** <br/> |
+|2   <br/> |Selecionar primeiro os membros do grupo.  <br/> |**visGrpSelModeMembers1st** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na caixa de diálogo **comportamento** (com a forma de grupo selecionada, na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **design da forma** , clique em **comportamento**e, em seguida, clique em um modo na lista **seleção** em **grupo Comportamento** ). 
+Você também pode definir esse valor na caixa de diálogo Comportamento (com a forma de grupo selecionada, na guia  Desenvolvedor, no grupo **Design** da Forma, clique em Comportamento e em um modo na lista Seleção em Comportamento do **Grupo).**  [](run-in-developer-mode-display-the-developer-tab.md) 
   
 Para obter uma referência para a célula SelectMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

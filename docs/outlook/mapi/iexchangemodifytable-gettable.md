@@ -25,7 +25,7 @@ ms.locfileid: "33436241"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro para uma interface de um objeto MAPI da tabela.
+Retorna um ponteiro para uma interface para um objeto de tabela MAPI.
   
 ```cpp
 HRESULT GetTable( 
@@ -39,23 +39,23 @@ HRESULT GetTable(
 
  _ulFlags_
   
-> no Serve deve ser 0 (zero).
+> [in] Reservado; deve ser 0 (zero).
     
 ACLTABLE_FREEBUSY
   
 > Define novos direitos.
     
-frightsFreeBusyDetailed
+freeBusyDetailed
   
-> Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada dos novos direitos de disponibilidade.
+> Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição detalhada dos novos direitos de livre/ocupado.
     
-frightsFreeBusySimple
+freeBusySimple
   
-> Quando o ACLTABLE_FREEBUSY é passado, fornece uma exibição simples de novos direitos de disponibilidade.
+> Quando ACLTABLE_FREEBUSY é passado, fornece uma exibição simples de novos direitos de livre/ocupado.
     
  _lppTable_
   
-> bota Aponta para uma interface imApitable [: IUnknown](imapitableiunknown.md) contendo o objeto Table. 
+> [out] Aponta para [uma IMAPITable : interface IUnknown](imapitableiunknown.md) que contém o objeto table. 
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -63,7 +63,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|RulesDlg. cpp  <br/> |CRulesDlg:: OnRefreshView  <br/> |MFCMAPI usa o método **IExchangeModifyTable:: GetTable** para obter uma tabela de regras.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI usa o **método IExchangeModifyTable::GetTable** para obter uma tabela de regras.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

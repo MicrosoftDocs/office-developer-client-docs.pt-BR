@@ -29,7 +29,7 @@ Descreve uma lista de vários valores que será exibida em uma caixa de diálogo
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVLISTBOX
@@ -44,7 +44,7 @@ typedef struct _DTBLMVLISTBOX
 
  **ulFlags**
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  **ulMVPropTag**
   
@@ -52,13 +52,13 @@ typedef struct _DTBLMVLISTBOX
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLMVLISTBOX** descreve uma lista de valores múltiplos padrão que tem uma lista de itens somente leitura. Usando uma lista de vários valores padrão, os valores são exibidos imediatamente. 
+Uma **estrutura DTBLMVLISTBOX** descreve uma lista de valores múltiplos padrão que tem uma lista de itens somente leitura. Usando uma lista de valores múltiplos padrão, os valores são exibidos imediatamente. 
   
-Os dados exibidos vêm da propriedade identificada no membro **ulMVPropTag** . Não há nenhum requisito para ler a partir da interface de propriedade associada à tabela de exibição. Além disso, como os usuários não podem fazer seleções desses tipos de listas, os dados não são gravados na interface de propriedade. 
+Os dados exibidos vêm da propriedade identificada no **membro ulMVPropTag.** Não há necessidade de ler a partir da interface de propriedade que está associada à tabela de exibição. Além disso, como os usuários não conseguem fazer seleções desses tipos de listas, os dados não são gravados na interface de propriedades. 
   
-Somente as propriedades de cadeia de caracteres de valores múltiplos têm suporte para a lista de vários valores; Não há suporte para outros tipos de propriedades de valores múltiplos. 
+Somente propriedades de cadeia de caracteres de valores múltiplos são suportadas para a lista de valores múltiplos; outros tipos de propriedade de vários valores não são suportados. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Tabelas de Exibição.](display-tables.md) Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

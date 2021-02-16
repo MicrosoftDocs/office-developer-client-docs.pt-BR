@@ -25,11 +25,11 @@ ms.locfileid: "33435387"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aloca um buffer de memória que está vinculado a outro buffer anteriormente alocado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Aloca um buffer de memória vinculado a outro buffer alocado anteriormente com a [função MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,26 +45,26 @@ SCODE MAPIAllocateMore(
 
  _cbSize_
   
-> no Tamanho, em bytes, do novo buffer a ser alocado. 
+> [in] Tamanho, em bytes, do novo buffer a ser alocado. 
     
  _lpObject_
   
-> no Ponteiro para um buffer MAPI existente alocado usando **MAPIAllocateBuffer**.
+> [in] Ponteiro para um buffer MAPI existente alocado usando **MAPIAllocateBuffer**.
     
  _lppBuffer_
   
-> bota Ponteiro para o buffer retornado e recentemente alocado.
+> [out] Ponteiro para o buffer recém-alocado retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou um ponteiro para a memória solicitada.
+> A chamada foi bem-sucedida e retornou um ponteiro para a memória solicitada.
     
 ## <a name="remarks"></a>Comentários
 
-Durante o processamento de chamada **MAPIAllocateMore** , a implementação de chamada adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de byte par numerado. Nas plataformas nas quais o acesso inteiro longo é mais eficiente, o sistema operacional aloca o buffer em um endereço cujo tamanho em bytes é um múltiplo de quatro. 
+Durante o processamento de chamada **MAPIAllocateMore,** a implementação de chamada adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de byte numerado. Em plataformas onde o acesso inteiro longo é mais eficiente, o sistema operacional aloca o buffer em um endereço cujo tamanho em bytes é um múltiplo de quatro. 
   
-A única maneira de liberar um buffer alocado com o **MAPIAllocateMore** é passar o ponteiro de buffer especificado no parâmetro _lpObject_ para a função [MAPIFreeBuffer](mapifreebuffer.md) . O link entre os buffers de memória alocados com o [MAPIAllocateBuffer](mapiallocatebuffer.md) e o **MAPIAllocateMore** permite que o **MAPIFreeBuffer** libere os dois buffers com uma única chamada. 
+A única maneira de liberar um buffer alocado com **MAPIAllocateMore** é passar o ponteiro do buffer especificado no parâmetro _lpObject_ para a função [MAPIFreeBuffer.](mapifreebuffer.md) O link entre os buffers de memória alocados com [MAPIAllocateBuffer](mapiallocatebuffer.md) e **MAPIAllocateMore** permite que **MAPIFreeBuffer** libere ambos os buffers com uma única chamada. 
   
 

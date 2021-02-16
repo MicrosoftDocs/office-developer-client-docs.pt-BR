@@ -29,10 +29,10 @@ Oferece suporte à administração de perfis.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
 |Exposto por:  <br/> |Objeto de administração de perfil  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IProfAdmin  <br/> |
 |Tipo de ponteiro:  <br/> |LPPROFADMIN  <br/> |
    
@@ -40,15 +40,15 @@ Oferece suporte à administração de perfis.
 
 |||
 |:-----|:-----|
-|[GetLastError](iprofadmin-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorreu com um objeto de administração de perfil.  <br/> |
-|[GetProfiletable](iprofadmin-getprofiletable.md) <br/> |Fornece acesso à tabela de perfil, uma tabela que contém informações sobre todos os perfis disponíveis.  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorreu em um objeto de administração de perfil.  <br/> |
+|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Fornece acesso à tabela de perfil, uma tabela que contém informações sobre todos os perfis disponíveis.  <br/> |
 |[CreateProfile](iprofadmin-createprofile.md) <br/> |Cria um novo perfil.  <br/> |
 |[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |Exclui um perfil.  <br/> |
-|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Obsoleto. Altera a senha de um perfil.  <br/> |
+|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Depreciado. Altera a senha de um perfil.  <br/> |
 |[CopyProfile](iprofadmin-copyprofile.md) <br/> |Copia um perfil.  <br/> |
 |[RenameProfile](iprofadmin-renameprofile.md) <br/> |Atribui um novo nome a um perfil.  <br/> |
-|[Setdefaultprofile foi](iprofadmin-setdefaultprofile.md) <br/> |Define ou limpa o perfil padrão de um cliente.  <br/> |
-|[Adminservices](iprofadmin-adminservices.md) <br/> |Fornece acesso a um objeto de administração de serviço de mensagens para fazer alterações nos serviços de mensagens em um perfil.  <br/> |
+|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Define ou limpa o perfil padrão de um cliente.  <br/> |
+|[AdminServices](iprofadmin-adminservices.md) <br/> |Fornece acesso a um objeto de administração do serviço de mensagens para fazer alterações nos serviços de mensagem em um perfil.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

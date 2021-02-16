@@ -25,11 +25,11 @@ ms.locfileid: "33439440"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identifica a conta à qual o item de cabeçalho está associado, principalmente para implementar a licença POP na funcionalidade do servidor. 
+Identifica a qual conta o item de header está associado, principalmente para implementar a funcionalidade De saída POP no servidor. 
   
 |||
 |:-----|:-----|
-|Propriedades associadas  <br/> |dispidRemoteXP  <br/> |
+|Propriedades Associadas  <br/> |dispidRemoteXP  <br/> |
 |Conjunto de propriedades:  <br/> |PSETID_Remote  <br/> |
 |Long ID (LID):  <br/> |0x00008F03  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8  <br/> |
@@ -37,19 +37,19 @@ Identifica a conta à qual o item de cabeçalho está associado, principalmente 
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é relevante somente em mensagens que têm uma classe de mensagem IPM. Remota. O Microsoft Outlook mantém um mapeamento de várias contas que estão sendo baixadas para um determinado repositório em uma mensagem de informações associadas à pasta (FAI), mas também pode manter essas informações no registro.
+Essa propriedade só é relevante em mensagens que tenham uma classe de mensagem do IPM. Remoto. O Microsoft Outlook mantém um mapeamento de várias contas que estão baixando para um determinado armazenamento em uma mensagem FAI (Informações Associadas à Pasta), mas também pode manter essas informações no Registro.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

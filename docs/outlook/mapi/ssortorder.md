@@ -27,7 +27,7 @@ Define como classificar as linhas de uma tabela, qual coluna usar como a chave d
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSortOrder
@@ -42,27 +42,27 @@ typedef struct _SSortOrder
 
 **ulPropTag**
   
-> Marca de propriedade identificando a chave de classificação ou, para uma classificação categorizada, a coluna Categoria.
+> Marca de propriedade que identifica a chave de classificação ou, para uma classificação categorizada, a coluna de categoria.
     
 **ulOrder**
   
-> A ordem na qual os dados serão classificados. Os valores possíveis são os seguintes:
+> A ordem na qual os dados devem ser organizados. Os valores possíveis são:
     
-  - TABLE_SORT_ASCEND: a tabela deve ser classificada em ordem crescente.
+  - TABLE_SORT_ASCEND: a tabela deve ser ordenada em ordem crescente.
       
-  - TABLE_SORT_COMBINE: a operação de classificação deve criar uma categoria que combina a propriedade identificada como a coluna de chave de classificação no membro **ulPropTag** com a coluna de chave de classificação especificada na estrutura **SSortOrder** anterior. 
+  - TABLE_SORT_COMBINE: a operação de classificação deve criar uma categoria que combine a propriedade identificada como a coluna de chave de classificação no membro **ulPropTag** com a coluna de chave de classificação especificada na estrutura **SSortOrder** anterior. 
       
-    TABLE_SORT_COMBINE só pode ser usado quando a estrutura **SSortOrder** está sendo usada como uma entrada em uma estrutura [SSortOrderSet](ssortorderset.md) para especificar várias ordens de classificação para uma classificação categorizada. TABLE_SORT_COMBINE não pode ser usado na primeira estrutura **SSortOrder** de uma estrutura **SSortOrderSet** . 
+    TABLE_SORT_COMBINE pode ser usado somente quando a estrutura **SSortOrder** está sendo usada como uma entrada em uma estrutura [SSortOrderSet](ssortorderset.md) para especificar várias ordens de classificação para uma classificação categorizada. TABLE_SORT_COMBINE pode ser usado na primeira **estrutura SSortOrder** em uma **estrutura SSortOrderSet.** 
       
-  - TABLE_SORT_DESCEND: a tabela deve ser classificada em ordem decrescente.
+  - TABLE_SORT_DESCEND: a tabela deve ser ordenada em ordem decrescente.
       
-  - TABLE_SORT_CATEG_MAX: a tabela deve ser classificada no valor máximo do membro **ulPropTag** para as linhas de dados nas categorias especificadas pela ordem de classificação anterior na estrutura **SSortOrderSet** . 
+  - TABLE_SORT_CATEG_MAX: a tabela deve ser ordenada no valor máximo do membro **ulPropTag** para as linhas de dados nas categorias especificadas pela ordem de classificação anterior na estrutura **SSortOrderSet.** 
       
-  - TABLE_SORT_CATEG_MIN: a tabela deve ser classificada no valor mínimo do membro **ulPropTag** para as linhas de dados nas categorias especificadas pela ordem de classificação anterior na estrutura no **SSortOrderSet** . 
+  - TABLE_SORT_CATEG_MIN: a tabela deve ser ordenada no valor mínimo do membro **ulPropTag** para as linhas de dados nas categorias especificadas pela ordem de classificação anterior na estrutura **SSortOrderSet.** 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **SSortOrder** é usada para descrever como realizar uma operação de classificação padrão ou uma operação de classificação categorizada. Estruturas **SSortOrder** normalmente são combinadas em uma estrutura **SSortOrderSet** para descrever várias chaves de classificação e direções. As estruturas **SSortOrderSet** são usadas nas seguintes funções e métodos de interface: 
+Uma **estrutura SSortOrder** é usada para descrever como executar uma operação de classificação padrão ou uma operação de classificação categorizada. **Estruturas SSortOrder** geralmente são combinadas em uma estrutura **SSortOrderSet** para descrever várias chaves de classificação e trajetos. **As estruturas SSortOrderSet** são usadas nas seguintes funções e métodos de interface: 
   
 - [ITableData::HrGetView](itabledata-hrgetview.md)
     
@@ -76,18 +76,18 @@ Uma estrutura **SSortOrder** é usada para descrever como realizar uma operaçã
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-O intervalo de colunas permitidas em uma tabela que pode ser usado como uma chave de classificação depende do provedor. As colunas que fazem parte do conjunto de colunas atual sempre podem ser usadas como chaves de classificação. No enTanto, cada provedor determina se as chaves de classificação podem ser definidas usando colunas disponíveis que não estão no conjunto de colunas atual. Uma coluna disponível é uma coluna retornada de imApitable [:: QueryColumns](imapitable-querycolumns.md) quando o sinalizador TBL_ALL_COLUMNS está definido. 
+O intervalo de colunas permitidas em uma tabela que pode ser usada como uma chave de classificação depende do provedor. As colunas que fazem parte do conjunto de colunas atual sempre podem ser usadas como chaves de classificação. No entanto, cada provedor determina se as chaves de classificação podem ser definidas usando colunas disponíveis que não estão no conjunto de colunas atual. Uma coluna disponível é uma coluna retornada de [IMAPITable::QueryColumns](imapitable-querycolumns.md) quando o sinalizador TBL_ALL_COLUMNS está definido. 
   
-O membro **ulOrder** indica a ordem direcional e as informações de categorização, por exemplo, por conversa ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), ou seja, thread de conversa, que é uma série de mensagens e respostas. As linhas podem ser classificadas em uma sequência crescente ou decrescente com todas as entradas nulas posicionadas por último. 
+O **membro ulOrder** indica a ordem direcional e as informações de categorização, por exemplo, por conversa ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), ou seja, thread de conversa, que é uma série de mensagens e respostas. As linhas podem ser ordenadas em uma sequência crescente ou decrescente com todas as entradas NULL posicionadas por último. 
   
-O valor TABLE_SORT_COMBINE indica que a coluna especificada em **ulPropTag** deve ser combinada com a coluna de categoria anterior para formar uma categoria composta. Ou seja, em vez de categorizar os valores exclusivos de colunas individuais, TABLE_SORT_COMBINE permite a categorização em valores exclusivos de uma combinação de colunas. Por exemplo, uma única categoria pode ser definida para agrupar mensagens recebidas de um remetente específico em um determinado assunto. Definir o valor como TABLE_SORT_COMBINE reduz o número de linhas de categoria que são exibidas. 
+O TABLE_SORT_COMBINE valor indica que a coluna especificada em **ulPropTag** deve ser combinada com a coluna de categoria anterior para formar uma categoria composta. Ou seja, em vez de categorizar valores exclusivos de colunas individuais, TABLE_SORT_COMBINE permite categorização em valores exclusivos de uma combinação de colunas. Por exemplo, uma única categoria poderia ser definida para agrupar mensagens recebidas de um remetente específico em um determinado assunto. Definir o valor como TABLE_SORT_COMBINE reduz o número de linhas de categoria que são exibidas. 
   
-A classificação em colunas de vários valores não é universalmente compatível com todas as implementações de tabelas. Se houver suporte, aplique o MV_FLAG usando a macro MVI_PROP à marca de propriedade no membro **ulPropTag** para identificar a chave de classificação como uma coluna de vários valores. A classificação em uma coluna com valores múltiplos é baseada em usar os valores individuais. 
+A classificação em colunas de valores múltiplos não é universalmente suportada por todas as implementações de tabela. Se tiver suporte, aplique o MV_FLAG usando a macro MVI_PROP à marca de propriedade no membro **ulPropTag** para identificar a chave de classificação como uma coluna de vários valores. A classificação em uma coluna de valores múltiplos baseia-se no uso dos valores individuais. 
   
 > [!IMPORTANT]
-> Os valores de membro do **ULORDER** TABLE_SORT_CATEG_MAX e TABLE_SORT_CATEG_MIN podem não ser definidos no arquivo de cabeçalho baixável que você tem atualmente e, nesse caso, você pode adicioná-lo ao seu código usando os seguintes valores: >`#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
+> Os valores de membro **ulOrder** TABLE_SORT_CATEG_MAX e TABLE_SORT_CATEG_MIN podem não ser definidos no arquivo de header baixável que você tem atualmente, nesse caso, você pode adicioná-lo ao seu código usando os seguintes valores: >  `#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
   
-Para obter mais informações sobre a classificação padrão e categorizadas, consulte [classificação e categorização](sorting-and-categorization.md). 
+Para obter mais informações sobre classificação padrão e categorizada, consulte [Classificação e Categorização.](sorting-and-categorization.md) 
   
 ## <a name="see-also"></a>Confira também
 

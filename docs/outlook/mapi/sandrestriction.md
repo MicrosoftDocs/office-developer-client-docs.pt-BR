@@ -25,11 +25,11 @@ ms.locfileid: "33438880"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição **e** que é usada para ingressar em um grupo de restrições usando uma operação **e** lógica. 
+Descreve uma **restrição AND,** que é usada para ingressar em um grupo de restrições usando uma operação **AND** lógica. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -44,17 +44,17 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> Contagem de restrições de pesquisa na matriz apontada pelo membro **lpRes** . 
+> Contagem de restrições de pesquisa na matriz apontada pelo **membro lpRes.** 
     
  **lpRes**
   
-> Ponteiro para uma matriz de estruturas [SRestriction](srestriction.md) que serão combinadas com uma operação **e** lógica. 
+> Ponteiro para uma matriz de [estruturas SRestriction](srestriction.md) que serão combinadas com uma operação **AND** lógica. 
     
 ## <a name="remarks"></a>Comentários
 
-O resultado da **SAndRestriction** será true se todas as restrições filhas forem avaliadas como true. É FALSE se qualquer restrição de filho é avaliada como FALSE. 
+O resultado de **SAndRestriction** será VERDADEIRO se todas as suas restrições filho avaliarem como TRUE. Será FALSO se qualquer restrição filha for avaliada como FALSE. 
   
-Para obter uma descrição dos tipos de restrições, como criá-los e código de exemplo, consulte [about Restrictions](about-restrictions.md).
+Para uma descrição dos tipos de restrições, como criar e código de exemplo, consulte [Sobre restrições.](about-restrictions.md)
   
 ## <a name="see-also"></a>Confira também
 

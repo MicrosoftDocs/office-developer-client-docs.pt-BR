@@ -25,7 +25,7 @@ ms.locfileid: "33437319"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta Itens enviados padrão de mensagem interpessoa (IPM). 
+Contém o identificador de entrada da pasta itens enviados IPM (mensagem interpersonal padrão). 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o identificador de entrada da pasta Itens enviados padrão de mensagem i
    
 ## <a name="remarks"></a>Comentários
 
-Após serem enviadas, as mensagens interpessoais geralmente são colocadas na pasta Itens enviados. Um cliente pode usar essa propriedade para definir a propriedade **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) em uma mensagem enviada. 
+Depois de enviadas, as mensagens interpersonales geralmente são colocadas na pasta Itens Enviados. Um cliente pode usar essa propriedade para definir a **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) em uma mensagem enviada. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

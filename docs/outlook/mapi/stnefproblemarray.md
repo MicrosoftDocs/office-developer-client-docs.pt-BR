@@ -25,11 +25,11 @@ ms.locfileid: "33434260"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas **STnefProblem** que descreve um ou mais problemas de processamento que ocorreram durante a codificação ou a decodificação de um fluxo de formato de encapsulamento neutro de transporte (TNEF). 
+Contém uma matriz de estruturas **STnefProblem** que descrevem um ou mais problemas de processamento que ocorreram durante a codificação ou decodificação de um fluxo TNEF (Transport Neutral Encapsulation Format). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |TNEF. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblemArray
@@ -44,17 +44,17 @@ typedef struct _STnefProblemArray
 
  **cProblem**
   
-> Contagem de elementos na matriz especificada no membro **aproblem** . 
+> Contagem de elementos na matriz especificada no **membro aProblem.** 
     
  **aProblem**
   
-> Matriz de estruturas [STnefProblem](stnefproblem.md) . Cada estrutura contém informações sobre um problema de processamento de propriedade ou de atributo. 
+> Matriz de [estruturas STnefProblem.](stnefproblem.md) Cada estrutura contém informações sobre um problema de processamento de propriedade ou atributo. 
     
 ## <a name="remarks"></a>Comentários
 
-Se ocorrer um problema durante o processamento de atributo ou propriedade, um parâmetro de saída no método [ITnef:: ExtractProps](itnef-extractprops.md) e no método [ITnef:: Finish](itnef-finish.md) cada receberá um ponteiro para uma estrutura **STnefProblemArray** e **ExtractProps **e **Finalize** cada retorno do valor MAPI_W_ERRORS_RETURNED. Esse valor de erro indica que um problema surgiu durante o processamento e uma estrutura **STnefProblemArray** foi gerada. 
+Se ocorrer um problema durante o processamento do atributo ou da propriedade, um parâmetro de saída no método [ITnef::ExtractProps](itnef-extractprops.md) e no método [ITnef::Finish](itnef-finish.md) recebe um ponteiro para uma **estrutura STnefProblemArray** e **ExtractProps** e **Finish** retornam o valor MAPI_W_ERRORS_RETURNED. Esse valor de erro indica que um problema ocorreu durante o processamento e uma estrutura **STnefProblemArray** foi gerada. 
   
-Se uma estrutura **STnefProblem** não for gerada durante o processamento de um atributo ou propriedade, o aplicativo cliente poderá continuar com a suposição de que o processamento desse atributo ou propriedade tenha sido bem-sucedido. A única exceção ocorre quando o problema surgiu durante a decodificação de um bloco de encapsulamento. Se o erro ocorreu durante essa decodificação, MAPI_E_UNABLE_TO_COMPLETE pode ser retornado como o [SCODE](scode.md) na estrutura. Nesse caso, a decodificação do componente correspondente ao bloco é interrompida e a decodificação continua em outro componente. 
+Se uma **estrutura STnefProblem** não for gerada durante o processamento de um atributo ou propriedade, o aplicativo cliente poderá continuar pressupor que o processamento desse atributo ou propriedade foi bem-sucedido. A única exceção ocorre quando o problema surge durante a decodificação de um bloco de encapsulamento. Se o erro ocorreu durante essa decodificação, MAPI_E_UNABLE_TO_COMPLETE pode ser retornado como [o SCODE](scode.md) na estrutura. Nesse caso, a decodificação do componente correspondente ao bloco é interrompida e a decodificação continua em outro componente. 
   
 ## <a name="see-also"></a>Confira também
 

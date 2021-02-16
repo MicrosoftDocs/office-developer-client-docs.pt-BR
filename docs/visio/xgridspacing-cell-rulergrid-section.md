@@ -1,5 +1,5 @@
 ---
-title: Célula XGridSpacing (seção &amp; Ruler Grid)
+title: Célula XGridSpacing (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435072"
 ---
-# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Célula XGridSpacing (seção &amp; Ruler Grid)
+# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Célula XGridSpacing (Seção Ruler &amp; Grid)
 
 Especifica a distância entre as linhas horizontais em uma grade fixa (XGridDensity = 0).
   
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção horizontal **espaçaMento mínimo** na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Essa célula corresponde à opção de espaçamento mínimo horizontal  na caixa de diálogo Grade de Régua (na guia Exibir, clique na **seta Mostrar).** **&amp;**  
   
 Para obter uma referência para a célula XGridSpacing pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
@@ -36,6 +36,6 @@ Para obter uma referência para a célula XGridSpacing pelo índice, a partir de
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visXGridSpacing** <br/> |
+|Índice de célula:  <br/> |**visXGridSpacing** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Célula SketchSeed (seção Additional Effect Properties)
+title: Célula SketchSeed (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434393"
 ---
-# <a name="sketchseed-cell-additional-effect-properties-section"></a>Célula SketchSeed (seção Additional Effect Properties)
+# <a name="sketchseed-cell-additional-effect-properties-section"></a>Célula SketchSeed (Seção Additional Effect Properties)
 
 Representa um valor de randomização usado para determinar a geometria de um efeito de esboço, como um inteiro positivo. O valor da célula **SketchSeed** é criado aleatoriamente quando um efeito de esboço é aplicado à forma. 
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **SketchSeed** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **SketchSeed** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | SketchSeed  <br/> |
    
-Para obter uma referência para a célula **SketchSeed** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **SketchSeed** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Índice da célula:  <br/> |**visSketchSeed** <br/> |
+| Índice de célula:  <br/> |**visSketchSeed** <br/> |
    
 

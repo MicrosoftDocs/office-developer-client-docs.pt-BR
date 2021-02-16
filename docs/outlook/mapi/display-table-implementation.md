@@ -1,5 +1,5 @@
 ---
-title: Exibir a implementação da tabela
+title: Implementação da tabela de exibição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,35 +15,35 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435261"
 ---
-# <a name="display-table-implementation"></a>Exibir a implementação da tabela
+# <a name="display-table-implementation"></a>Implementação da tabela de exibição
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de exibição é usada para mostrar uma folha de propriedades, uma caixa de diálogo especial que é composta de uma ou mais páginas de propriedades com guias dedicadas para exibir e possivelmente editar uma ou mais propriedades. Associado a cada tabela de exibição é uma implementação de interface [IAttach: IMAPIProp](iattachimapiprop.md) . A implementação do [IMAPIProp](imapipropiunknown.md) mantém os dados de propriedade apresentados na folha de propriedades. 
+Uma tabela de exibição é usada para mostrar uma folha de propriedades, uma caixa de diálogo especial composta por uma ou mais páginas de propriedades com guias dedicadas à exibição e possivelmente edição de uma ou mais propriedades. Associado a cada tabela de exibição é uma implementação de interface [IAttach : IMAPIProp.](iattachimapiprop.md) A [implementação de IMAPIProp](imapipropiunknown.md) mantém os dados de propriedade apresentados na folha de propriedades. 
   
-As linhas em uma tabela de exibição representam os controles na folha de propriedades. A maioria dos controles pode ser associada às propriedades mantidas com a implementação **IMAPIProp** . Quando um usuário altera o valor de um controle modificável, a propriedade correspondente é atualizada. 
+As linhas em uma tabela de exibição representam os controles na folha de propriedades. A maioria dos controles pode ser associada a propriedades mantidas com a **implementação IMAPIProp.** Quando um usuário altera o valor de um controle modificável, a propriedade correspondente é atualizada. 
   
-As colunas em uma tabela de exibição representam as propriedades do controle, como sua posição na folha de propriedades, o tipo, a estrutura associada e o identificador. Para obter uma lista completa das colunas de exibição obrigatórias da tabela, confira [Exibir tabelas](display-tables.md).
+As colunas em uma tabela de exibição representam propriedades do controle, como sua posição na folha de propriedades, seu tipo, estrutura associada e identificador. Para uma lista completa das colunas de tabela de exibição necessárias, consulte [Tabelas de Exibição.](display-tables.md)
   
-MAPI exibe uma folha de propriedades para o usuário de um aplicativo cliente lendo valores de propriedade da implementação **IMAPIProp** associada à tabela de exibição ou a partir da tabela de exibição diretamente. Como o usuário trabalha com a folha de propriedades, alterando os valores nos controles, MAPI chama [IMAPIProp::](imapiprop-setprops.md) SetProps para salvar um controle alterado se o sinalizador DT_SET_IMMEDIATE do controle estiver definido. Para controles sem o sinalizador DT_SET_IMMEDIATE definido, as alterações nas propriedades são salvas quando o usuário ignora a caixa de diálogo clicando no botão **OK** ou **aplicar agora** . Quando um desses botões ou o botão **Cancelar** é clicado, MAPI remove a folha de propriedades do modo de exibição. 
+MAPI displays a property sheet to the user of a client application by reading property values from the **IMAPIProp** implementation associated with the display table or from the display table directly. Conforme o usuário trabalha com a folha de propriedades, alterando valores nos controles, MAPI chama [IMAPIProp::SetProps](imapiprop-setprops.md) para salvar um controle alterado se o sinalizador DT_SET_IMMEDIATE do controle estiver definido. Para controles sem o DT_SET_IMMEDIATE sinalizador definido, as alterações nas propriedades são salvas quando o usuário descarta a caixa de diálogo clicando no **botão OK** ou Aplicar **Agora.** Quando um desses botões ou o **botão Cancelar** é clicado, MAPI remove a folha de propriedades da exibição. 
   
-O MAPI obtém acesso à sua tabela de exibição chamando o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) na implementação **IMAPIProp** e solicitando a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) ou herdando-a em um chamada que você fez para MAPI, como [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md).
+MAPI obtém acesso à sua tabela de exibição chamando o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) na implementação **IMAPIProp** e solicitando a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) ou herdando-a em uma chamada que você fez para MAPI, como [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md).
   
-A primeira técnica de acesso é usada quando os provedores de catálogos de endereços são solicitados a mostrar detalhes sobre usuários de mensagens ou listas de distribuição. O seguinte processamento ocorre:
+A primeira técnica de acesso é usada quando os provedores de agendamento de endereço são solicitados a mostrar detalhes sobre usuários de mensagens ou listas de distribuição. Ocorre o seguinte processamento:
   
-1. Um cliente chama o método [IAddrBook::D etails](iaddrbook-details.md) . 
+1. Um cliente chama o [método IAddrBook::D etails.](iaddrbook-details.md) 
     
-2. MAPI chama o método [IABLogon:: OpenEntry](iablogon-openentry.md) do provedor de catálogo de endereços para acessar o usuário de mensagens que representa a entrada selecionada. 
+2. MAPI calls the address book provider's [IABLogon::OpenEntry](iablogon-openentry.md) method to access the messaging user that represents the selected entry. 
     
-3. MAPI chama o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do usuário de mensagens para recuperar a propriedade **PR_DETAILS_TABLE** , a tabela de exibição da caixa de diálogo detalhes. 
+3. MAPI calls the messaging user's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method to retrieve the **PR_DETAILS_TABLE** property, the display table for the details dialog box. 
     
-4. MAPI exibe a caixa de diálogo, manipulando a interação do usuário com as informações e a remove quando o usuário tiver concluído. 
+4. MAPI displays the dialog box, handling the user's interaction with the information, and removes it when the user has finished. 
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Provedores de serviço MAPI](mapi-service-providers.md)
+[Provedores de Serviços MAPI](mapi-service-providers.md)
 

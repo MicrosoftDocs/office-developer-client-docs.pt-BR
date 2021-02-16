@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251447
 localization_priority: Normal
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
-description: Arredonda um número para baixo até o próximo inteiro.
+description: Arredoda um número para baixo até o próximo inteiro.
 ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33436946"
 ---
 # <a name="int-function"></a>Função INT
 
-Arredonda um número para baixo até o próximo inteiro.
+Arredoda um número para baixo até o próximo inteiro.
   
 ## <a name="syntax"></a>Sintaxe
 
-INT (* * *número* * *) 
+INT(** *number* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,13 +32,13 @@ INT (* * *número* * *)
    
 ## <a name="example-1"></a>Exemplo 1
 
-INT (7.2)
+INT(7.2)
   
 Retornará 7.
   
 ## <a name="example-2"></a>Exemplo 2
 
-INT (-7,2)
+INT(-7.2)
   
 Retornará -8.
   

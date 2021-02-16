@@ -25,7 +25,7 @@ ms.locfileid: "33435674"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conclui o processamento de todas as operações do formato de encapsulamento de transporte neutro (TNEF) que estão na fila e aguardando. 
+Finaliza o processamento de todas as Transport-Neutral TNEF (Formato de Encapsulamento) que estão em fila e aguardando. 
   
 ```cpp
 HRESULT Finish(
@@ -39,33 +39,33 @@ HRESULT Finish(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpKey_
   
-> bota Um ponteiro para a propriedade da chave **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de um anexo. O objeto de encapsulamento TNEF usa essa chave para corresponder a um anexo à sua marca de posicionamento de anexo em uma mensagem. Essa chave deve ser exclusiva para cada anexo.
+> [out] Um ponteiro para a **PR_ATTACH_NUM** chave ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de um anexo. O objeto de encapsulamento TNEF usa essa chave para corresponder a um anexo à marca de posicionamento do anexo em uma mensagem. Essa chave deve ser exclusiva para cada anexo.
     
  _lpProblem_
   
-> bota Um ponteiro para um ponteiro para uma estrutura [STnefProblemArray](stnefproblemarray.md) retornada. A estrutura **STnefProblemArray** indica quais propriedades, se houver, não foram codificadas corretamente. Se NULL for passado no parâmetro _lpProblem_ , nenhuma matriz de problemas de propriedade será retornada. 
+> [out] Um ponteiro para um ponteiro para uma [estrutura STnefProblemArray](stnefproblemarray.md) retornada. A **estrutura STnefProblemArray** indica quais propriedades, se alguma, não foram codificadas corretamente. Se NULL for passado no  _parâmetro lpProblem,_ nenhuma matriz de problema de propriedade será retornada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de transporte, provedores de repositórios de mensagens e gateways chamam o método **ITnef:: Finish** para executar a codificação de todas as propriedades para as quais a codificação foi solicitada em chamadas para os métodos [ITnef::](itnef-addprops.md) addprops e [ITnef:](itnef-setprops.md) : SetProps. Se o objeto TNEF tiver sido aberto com o sinalizador TNEF_ENCODE para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) , o método **Finish** codificará as propriedades solicitadas no fluxo de encapsulamento passado para esse objeto. Se o objeto TNEF tiver sido aberto com o sinalizador TNEF_DECODE, o método **Finalize** decodificará as propriedades do fluxo TNEF e as gravará novamente na mensagem à qual pertencem. 
+Provedores de transporte, provedores de armazenamento de mensagens e gateways chamam o método **ITnef::Finish** para executar a codificação de todas as propriedades para as quais a codificação foi solicitada em chamadas para os métodos [ITnef::AddProps](itnef-addprops.md) e [ITnef::SetProps.](itnef-setprops.md) Se o objeto TNEF foi aberto com o sinalizador TNEF_ENCODE para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx,](opentnefstreamex.md) o método **Finish** codifica as propriedades solicitadas no fluxo de encapsulamento passado para esse objeto. Se o objeto TNEF tiver sido aberto com o sinalizador TNEF_DECODE, o método **Finish** decodificará as propriedades do fluxo TNEF e as grava novamente na mensagem à que pertencem. 
   
-Após a chamada de **término** , o ponteiro para o fluxo de encapsulamento aponta para o final dos dados TNEF. Se o provedor ou gateway precisar usar os dados de fluxo TNEF após a chamada de **término** , ele deverá redefinir o ponteiro de fluxo para o início dos dados de fluxo TNEF. 
+Após a **chamada Concluir,** o ponteiro para o fluxo de encapsulamento aponta para o final dos dados TNEF. Se o provedor ou o gateway precisar usar os dados de fluxo TNEF após a chamada **Concluir,** ele deverá redefinir o ponteiro de fluxo para o início dos dados de fluxo TNEF. 
   
-A implementação TNEF relata os problemas de codificação de fluxo TNEF sem interromper o processo de **conclusão** . A estrutura [STnefProblemArray](stnefproblemarray.md) retornada no parâmetro _lpProblem_ indica quais atributos do TNEF ou propriedades MAPI, se houver, não puderam ser processados. O valor retornado no membro **SCODE** de uma das estruturas **STnefProblem** contidas no **STnefProblemArray** indica o problema específico. O provedor ou gateway pode funcionar na pressuposição de que todas as propriedades ou atributos para os quais **concluir** não retornar um relatório de problemas foram processados com êxito. 
+A implementação do TNEF relata problemas de codificação de fluxo TNEF sem interromper o **processo de** Concluir. A [estrutura STnefProblemArray](stnefproblemarray.md) retornada no parâmetro  _lpProblem_ indica quais atributos TNEF ou propriedades MAPI, se algum, não puderam ser processados. O valor retornado no membro **scode** de uma das estruturas **STnefProblem** contidas em **STnefProblemArray** indica o problema específico. O provedor ou gateway pode trabalhar na suposição de que todas as propriedades ou atributos para os quais **Finish** não retorna um relatório de problemas foram processados com êxito. 
   
-Se um provedor ou gateway não funcionar com matrizes problemáticas, ele poderá passar NULL no _lpProblem_; Nesse caso, nenhum conjunto de problemas é retornado. 
+Se um provedor ou gateway não funcionar com matrizes de problemas, ele poderá passar NULL em  _lpProblem_; nesse caso, nenhuma matriz do problema será retornada. 
   
-O valor retornado em _lpProblem_ é válido somente se a chamada retornar S_OK. Quando S_OK é retornado, o provedor ou gateway deve verificar os valores retornados na estrutura **STnefProblemArray** . Se ocorrer um erro na chamada, a estrutura **STnefProblemArray** não será preenchida e o provedor de chamadas ou o gateway não deverá usar ou liberar a estrutura. Se nenhum erro ocorrer na chamada, o provedor de chamada ou o gateway deve liberar a memória para o **STnefProblemArray** chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+O valor retornado em  _lpProblem_ só será válido se a chamada retornar S_OK. Quando S_OK é retornado, o provedor ou gateway deve verificar os valores retornados na **estrutura STnefProblemArray.** Se ocorrer um erro na chamada, a estrutura **STnefProblemArray** não será preenchida e o provedor de chamada ou gateway não deverá usar ou liberar a estrutura. Se não ocorrer nenhum erro na chamada, o provedor de chamada ou gateway deverá liberar a memória para **o STnefProblemArray** chamando a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -73,7 +73,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|Arquivo. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa o método **ITnef:: Finish** para concluir o processamento do novo fluxo TNEF.  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa o **método ITnef::Finish** para concluir o processamento do novo fluxo TNEF.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

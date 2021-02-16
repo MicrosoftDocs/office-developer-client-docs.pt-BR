@@ -21,17 +21,17 @@ ms.locfileid: "33437571"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de fila de saída contém informações sobre todas as mensagens de saída de um repositório de mensagens. Os provedores de repositório de mensagens implementam tabelas de fila de saída para o spooler MAPI a ser usado. Os repositórios que não dão suporte ao envio ou recebimento de mensagens não precisam implementar essa tabela. 
+Uma tabela de filas de saída contém informações sobre todas as mensagens de saída para um armazenamento de mensagens. Os provedores de armazenamento de mensagens implementam tabelas de fila de saída para o spooler MAPI usar. Os armazenamentos que não suportam o envio ou o recebimento de mensagens não precisam implementar esta tabela. 
   
-Para acessar uma tabela de fila de saída, o spooler MAPI chama o método [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
+Para acessar uma tabela de fila de saída, o spooler MAPI chama o método [IMsgStore::GetOutgoingQueue.](imsgstore-getoutgoingqueue.md) 
   
-Há um requisito de que as mensagens sejam preprocessadas e enviadas ao provedor de transporte na mesma ordem em que foram enviadas pelo aplicativo cliente. O MAPI spooler é projetado para aceitar mensagens do repositório de mensagens em ordem crescente de tempo de envio. Devido a esse requisito, pode haver um atraso antes de algumas mensagens aparecerem na tabela de fila de saída. 
+Há um requisito para que as mensagens sejam pré-processadas e enviadas ao provedor de transporte na mesma ordem em que foram enviadas pelo aplicativo cliente. O spooler MAPI foi projetado para aceitar mensagens do armazenamento de mensagens em ordem crescente de tempo de envio. Devido a esse requisito, pode haver algum atraso antes que algumas mensagens apareçam na tabela de filas de saída. 
   
-Os repositórios de mensagens devem permitir a classificação na tabela de fila de saída para que o spooler MAPI possa classificar as mensagens por hora de envio ou a ordem de classificação padrão deve ser em tempo de envio em ordem crescente. 
+Os armazenamentos de mensagens devem permitir a classificação na tabela de filas de saída para que o spooler MAPI possa classificar as mensagens por hora de envio ou a ordem de classificação padrão deve ser crescente no tempo de envio. 
   
-A tabela de fila de saída deve enviar notificações quando o conteúdo da fila é alterado.
+A tabela de filas de saída deve enviar notificações quando o conteúdo da fila mudar.
   
-As propriedades a seguir compõem o conjunto de colunas necessárias nas tabelas de fila de saída:
+As propriedades a seguir compom o conjunto de colunas necessário nas tabelas de fila de saída:
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ As propriedades a seguir compõem o conjunto de colunas necessárias nas tabelas
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Para obter mais informações sobre como a tabela de fila de saída é usada, consulte [enviando mensagens usando provedores de repositório de mensagens](sending-messages-by-using-message-store-providers.md).
+Para obter mais informações sobre como a tabela de filas de saída é usada, consulte [Enviando Mensagens Usando Provedores de Armazenamento de Mensagens.](sending-messages-by-using-message-store-providers.md)
   
 ## <a name="see-also"></a>Confira também
 

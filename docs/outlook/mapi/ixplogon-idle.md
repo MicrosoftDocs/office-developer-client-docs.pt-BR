@@ -25,7 +25,7 @@ ms.locfileid: "33436045"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica que o sistema está ocioso, permitindo que o provedor de transporte realize operações de baixa prioridade.
+Indica que o sistema está ocioso, permitindo que o provedor de transporte execute operações de baixa prioridade.
   
 ```cpp
 HRESULT Idle(
@@ -37,17 +37,17 @@ HRESULT Idle(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O spooler MAPI chama periodicamente o método **IXPLogon:: Idle** , se solicitado, durante os horários em que o sistema está ocioso passando o sinalizador XP_LOGON_SP na chamada para o método [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) que abriu a sessão atual. Às vezes em que o sistema está ocioso, o provedor de transporte pode executar operações de plano de fundo que não são apropriadas durante outras chamadas ou que precisam ocorrer regularmente. 
+O spooler MAPI chama periodicamente o método **IXPLogon::Idle,** se solicitado, durante os momentos em que o sistema está ocioso passando o sinalizador XP_LOGON_SP na chamada para o método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) que abriu a sessão atual. Às vezes, quando o sistema está ocioso, o provedor de transporte pode executar operações em segundo plano que não são apropriadas durante outras chamadas ou que precisam ocorrer regularmente. 
   
 ## <a name="see-also"></a>Confira também
 

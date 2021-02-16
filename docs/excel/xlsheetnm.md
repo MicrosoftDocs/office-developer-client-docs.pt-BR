@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetNm
 keywords:
-- função xlsheetnm [Excel 2007]
+- função xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33437410"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Retorna o nome de uma planilha ou folha de macro de sua ID de folha interna contida em uma referência externa ou o nome da planilha atual se for passada uma referência interna.
+Retorna o nome de uma planilha ou folha de macro de sua ID de planilha interna contida em uma referência externa ou o nome da planilha atual se for passada uma referência interna.
   
 ```cs
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
@@ -32,19 +32,19 @@ Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
-Uma referência à planilha cujo nome você deseja obter.
+Uma referência à planilha cujo nome você deseja.
   
-Se você estiver passando uma referência externa (**xltypeRef**), ela precisará conter apenas a ID da planilha. As estruturas de dados que descrevem as células na planilha são ignoradas e não precisam ser fornecidas. Se a ID estiver definida como zero, **xlSheetNm** retornará o nome da planilha atual. 
+Se você estiver passando uma referência externa (**xltypeRef**), ela só precisará conter a ID da planilha. As estruturas de dados que descrevem as células na planilha são ignoradas e não precisam ser fornecidas. Se a ID estiver definida como zero, **xlSheetNm** retornará o nome da planilha atual. 
   
 Se você estiver passando uma referência interna (**xltypeSef**), **xlSheetNm** retornará o nome da planilha atual. 
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna o nome da planilha (**xltypeStr**) no formulário `[Book1]Sheet1`.
+Retorna o nome da planilha (**xltypeStr**) no formulário  `[Book1]Sheet1` .
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir exibe o nome da planilha a partir da qual a função foi chamada. A função funciona corretamente somente se for chamado a partir de uma planilha de macro durante a execução de uma macro de comando XLM. Isso ocorre porque ele chama **xlcAlert**, que somente os comandos podem fazer, e precisa ser chamado a partir de uma planilha em vez de uma caixa de diálogo, menu ou barra de comandos para que o **xlfCaller** retorne uma referência. 
+O exemplo a seguir exibe o nome da planilha da qual a função foi chamada. A função só funcionará corretamente se for chamada de uma folha de macro durante a execução de uma macro de comando XLM. Isso porque ele chama **xlcAlert**, que somente comandos podem fazer e precisa ser chamado de uma planilha em vez de uma caixa de diálogo, menu ou barra de comandos para que **xlfCaller** retorne uma referência. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

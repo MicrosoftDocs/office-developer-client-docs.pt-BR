@@ -1,5 +1,5 @@
 ---
-title: Listar entradas nas seções do serviço de mensagens MapiSvc. inf
+title: Listar entradas em Seções do Serviço de Mensagens MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435926"
 ---
-# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Listar entradas nas seções do serviço de mensagens MapiSvc. inf
+# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Listar entradas em Seções do Serviço de Mensagens MapiSvc.inf
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Há dois tipos de entradas da lista de seções: um que lista as seções do provedor de serviços e uma que lista diversas seções específicas do serviço de mensagens. Esses dois tipos de entradas aparecem no MAPISVC. inf usando os seguintes formatos:
+Há dois tipos de entradas de lista de seções: um que lista seções do provedor de serviços e outro que lista diversas seções específicas do serviço de mensagens. Esses dois tipos de entradas aparecem em mapisvc.inf usando os seguintes formatos:
   
 ```cpp
 Providersprovider section1, provider section2, ...... provider sectionX
@@ -29,9 +29,9 @@ Sectionssection name1, section name2, ......section nameX
 
 ```
 
-Cada seção na entrada **Providers** mapeia para uma seção individual que fornece informações de configuração para um provedor de serviços que pertence ao serviço de mensagens. Cada seção na entrada **Sections** mapeia para uma seção que contém informações adicionais de configuração necessárias para o serviço de mensagens. Os implementadores de serviço de mensagens definem seções adicionais quando desejam incluir informações especiais que não se ajustam às seções padrão. Os serviços de mensagens que possuem configurações complicadas **** normalmente usam a entrada Sections para adicionar informações extras. Cada seção de serviços de mensagem tem uma entrada de **provedores** com pelo menos uma seção na lista; Nem todas as seções do serviço de mensagens têm uma entrada de **seções** . 
+Cada seção na entrada **Provedores** mapeia para uma seção individual que fornece informações de configuração para um provedor de serviços que pertence ao serviço de mensagens. Cada seção na entrada **Seções** é mapeada para uma seção que contém informações adicionais de configuração necessárias para o serviço de mensagens. Os implementadores de serviço de mensagens definem seções extras quando quiserem incluir informações especiais que não se encaixem nas seções padrão. Os serviços de mensagens que têm configurações complicadas normalmente usam **a entrada Seções** para adicionar informações extras. Cada seção de serviços de mensagens tem **uma entrada provedores** com pelo menos uma seção na lista; nem todas as seções do serviço de mensagens têm **uma entrada de Seções.** 
   
-Dois exemplos de seções do serviço de mensagens são apresentados a seguir. A primeira seção é para o serviço de catálogo de endereços padrão na ilustração anterior, um serviço de mensagens simples com um único provedor de serviços. A segunda seção é para o serviço MsgService, um serviço de mensagens de exemplo mais complexo com três provedores de serviço. 
+Seguem dois exemplos de seções do serviço de mensagens. A primeira seção é para o serviço de Agenda Padrão da ilustração anterior, um serviço de mensagens simples com um único provedor de serviços. A segunda seção é para o serviço MsgService, um serviço de mensagens de exemplo mais complexo com três provedores de serviços. 
   
 ```cpp
 [AB]
@@ -53,7 +53,7 @@ PR_RESOURCE_FLAGS=SERVICE_SINGLE_COPY
 
 ```
 
-A **** entrada Sections na seção **[MsgService]** lista duas seções adicionais, uma chamada **[First_Special_Section]** e a outra chamada **[Second_Special_Section]**. Os dados que podem aparecer em seções extras são significativos para o serviço de mensagens específico. Essas seções são exibidas abaixo para ilustrar seções adicionais. 
+A **entrada Seções** na seção **[MsgService]** lista duas seções adicionais, uma chamada **[First_Special_Section]** e a outra chamada **[Second_Special_Section]**. Os dados que podem aparecer em seções extras são significativos para o serviço de mensagens específico. Estas seções aparecem a seguir para ilustrar seções extras. 
   
 ```cpp
 [First_Special_Section]

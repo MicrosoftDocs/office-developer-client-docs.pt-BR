@@ -25,13 +25,13 @@ ms.locfileid: "33437725"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recria um identificador de entrada da codificação ASCII. 
+Recria um identificador de entrada de sua codificação ASCII. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HRESULT HrEntryIDFromSz(
@@ -43,34 +43,34 @@ HRESULT HrEntryIDFromSz(
 
 ## <a name="parameters"></a>Parâmetros
 
- _v_
+ _sz_
   
-> no Ponteiro para a cadeia de caracteres ASCII da qual criar um identificador de entrada. 
+> [in] Ponteiro para a cadeia de caracteres ASCII a partir da qual criar um identificador de entrada. 
     
- _PCB_
+ _pcb_
   
-> bota Ponteiro para o tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _ppentry_ . 
+> [out] Ponteiro para o tamanho, em bytes, do identificador de entrada apontado pelo _parâmetro ppentry._ 
     
  _ppentry_
   
-> bota Ponteiro para um ponteiro para a estrutura [EntryID](entryid.md) retornada que contém o novo identificador de entrada. 
+> [out] Ponteiro para um ponteiro para a estrutura [ENTRYID retornada](entryid.md) que contém o novo identificador de entrada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> A recreação foi bem-sucedida.
+> A recriação foi bem-sucedida.
     
 MAPI_E_INVALID_ENTRYID
   
-> A identificação de entrada era inválida.
+> A ID de entrada era inválida.
     
 ## <a name="remarks"></a>Comentários
 
-As funções **HrEntryIDFromSz** e [HrSzFromEntryID](hrszfromentryid.md) fornecem conversão entre a cadeia de caracteres e os formatos binários de identificadores de entrada. 
+As **funções HrEntryIDFromSz** e [HrSzFromEntryID](hrszfromentryid.md) fornecem conversão entre a cadeia de caracteres e os formatos binários dos identificadores de entrada. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A função **HrEntryIDFromSz** aloca memória para a cadeia de caracteres ASCII usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+A **função HrEntryIDFromSz** aloca memória para a cadeia de caracteres ASCII usando a [função MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

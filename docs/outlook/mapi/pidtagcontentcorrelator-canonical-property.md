@@ -36,17 +36,17 @@ Contém um valor que o remetente da mensagem pode usar para corresponder a um re
    
 ## <a name="remarks"></a>Comentários
 
-O conteúdo da cadeia de caracteres binária é definido pelo originador da mensagem. Se definido em uma mensagem de saída, essa propriedade deve ser copiada em todos os relatórios gerados em resposta à mensagem.
+O conteúdo da cadeia de caracteres binária é definido pelo originador da mensagem. Se for definida em uma mensagem de saída, essa propriedade deverá ser copiada para todos os relatórios gerados em resposta à mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

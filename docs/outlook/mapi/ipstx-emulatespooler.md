@@ -25,7 +25,7 @@ ms.locfileid: "33438950"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define um repositório local para emular o Gerenciador de protocolos do Outlook para o spool de mensagens de saída para um servidor.
+Define um armazenamento local para emular o Gerenciador de Protocolos do Outlook para fazer o spool de mensagens de saída para um servidor.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  no Defina esse parâmetro como true se o repositório local deve emular o spooler; Defina como false se não. 
+>  [in] Definir esse parâmetro como True se o armazenamento local deve emular o spooler; se não for definido como False. 
     
 ## <a name="remarks"></a>Comentários
 
-Um repositório local chama **IPSTX:: EmulateSpooler** para atuar como um Gerenciador de protocolo do Outlook, fazendo o spool de mensagens na fila de saída para o servidor back-end (por exemplo, servidor do MSN ou AOL) para processamento. Emular um spooler durante a sincronização, o repositório chama esses dois métodos: 
+Um armazenamento local chama **IPSTX::EmulateSpooler** para atuar como um Gerenciador de Protocolos do Outlook, spooling de mensagens na fila de saída para o servidor back-end (por exemplo, servidor MSN ou servidor AOL) para processamento. Emulando um spooler durante a sincronização, o armazenamento chama esses dois métodos: 
   
-1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obter a fila de saída de mensagens no repositório. Este método será bem-sucedido somente se o repositório estiver emulando o Gerenciador de protocolos do Outlook. 
+1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obter a fila de saída de mensagens no repositório. Esse método só será bem-sucedido se o armazenamento estiver emulando o Outlook Protocol Manager. 
     
-2. **[IMsgStore::](imsgstore-setlockstate.md)** setlockstate para proteger o acesso exclusivo a uma mensagem na fila de saída antes de enviá-la ao servidor. Este método será bem-sucedido somente se o repositório estiver emulando o Gerenciador de protocolos do Outlook. Após enviar a mensagem, o armazenamento chama esse método novamente para liberar acesso exclusivo a ele. 
+2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** para proteger o único acesso a uma mensagem na fila de saída antes de enviá-la para o servidor. Esse método só será bem-sucedido se o armazenamento estiver emulando o Gerenciador de Protocolo do Outlook. Depois de enviar a mensagem, o armazenamento chama esse método novamente para liberar o único acesso a ela. 
     
 > [!NOTE]
-> Desde o Outlook 2002, o Gerenciador de protocolo do Outlook substituiu o spooler MAPI e se tornou responsável por fazer o spool de mensagens de saída para servidores de back-end. 
+> Desde o Outlook 2002, o Gerenciador de Protocolos do Outlook substituiu o spooler MAPI e se tornou responsável pelo spooling de mensagens de saída para servidores back-end. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -29,8 +29,8 @@ Permite que um cliente MAPI realize o desligamento rápido do processo do client
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Objeto [IMAPISession](imapisessioniunknown.md)  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |[Objeto IMAPISession](imapisessioniunknown.md)  <br/> |
 |Implementado por:  <br/> |Subsistema MAPI  <br/> |
 |Chamado por:  <br/> |Cliente MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIClientShutdown  <br/> |
@@ -40,19 +40,19 @@ Permite que um cliente MAPI realize o desligamento rápido do processo do client
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Consulta o subsistema MAPI para obter suporte de desligamento rápido fornecido por provedores MAPI carregados.  <br/> |
-|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica a intenção do cliente MAPI para prosseguir com o desligamento.  <br/> |
-|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica a intenção de que o cliente MAPI saia imediatamente do processo do cliente.  <br/> |
+|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Consulta o subsistema mapi para suporte de desligamento rápido fornecido por provedores MAPI carregados.  <br/> |
+|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica a intenção do cliente MAPI de prosseguir com o desligado.  <br/> |
+|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica a intenção do cliente MAPI de sair do processo de cliente imediatamente.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O objetivo do desligamento rápido é permitir um cliente MAPI e qualquer provedor MAPI carregado com o qual o cliente MAPI tem uma sessão MAPI ativa para salvar as configurações e os dados de MAPI. Isso permite que o cliente MAPI Desconecte todas as referências externas e saia sem causar perda de dados. Um cliente MAPI que precisa executar o desligamento rápido deve usar a interface **IMAPIClientShutdown** . O cliente MAPI pode obter um ponteiro para esta interface chamando o método IUnknown:: QueryInterface em qualquer objeto [IMAPISession](imapisessioniunknown.md) . 
+O objetivo do desligamento rápido é permitir um cliente MAPI e qualquer provedor MAPI carregado com o qual o cliente MAPI tenha uma sessão MAPI ativa para salvar dados e configurações de MAPI. Isso permite que o cliente MAPI desconecte todas as referências externas e saia sem causar perda de dados. Um cliente MAPI que precisa executar o desligamento rápido deve usar a interface **IMAPIClientShutdown.** O cliente MAPI pode obter um ponteiro para essa interface chamando o método IUnknown::QueryInterface em qualquer [objeto IMAPISession.](imapisessioniunknown.md) 
   
-Um cliente MAPI sempre inicia um desligamento rápido chamando o método **IMAPIClientShutdown:: QueryFastShutdown** . O subsistema MAPI responde à consulta do cliente MAPI verificando se os provedores de MAPI carregados dão suporte ao desligamento rápido do cliente. O administrador pode usar as configurações do registro do Windows para ajudar a determinar o nível de suporte do provedor necessário para que os clientes MAPI continuem com o desligamento rápido. Para obter mais informações, consulte [Opções de usuário](fast-shutdown-user-options.md)de desligamento rápido.
+Um cliente MAPI sempre inicia um desligamento rápido chamando o método **IMAPIClientShutdown::QueryFastShutdown.** O subsistema de MAPI responde à consulta do cliente MAPI verificando se os provedores MAPI carregados suportam o desligamento rápido do cliente. O administrador pode usar as configurações do Registro do Windows para ajudar a determinar o nível de suporte do provedor necessário para que os clientes MAPI prossigam com o desligamento rápido. Para obter mais informações, consulte Opções [de Usuário de Desligamento Rápido.](fast-shutdown-user-options.md)
   
-Para continuar com o desligamento rápido, o cliente chama o método **IMAPIClientShutdown:: NotifyProcessShutdown** para indicar ao subsistema MAPI a intenção de desligar. O cliente chama o método **IMAPIClientShutdown::D ofastshutdown** para indicar que o processo do cliente está saindo imediatamente. 
+Para prosseguir com o desligamento rápido, o cliente chama o método **IMAPIClientShutdown::NotifyProcessShutdown** para indicar ao subsistema MAPI a intenção de desligar. Em seguida, o cliente chama o **método IMAPIClientShutdown::D oFastShutdown** para indicar que o processo do cliente está saindo imediatamente. 
   
-Para obter mais informações sobre o desligamento rápido, consulte [visão geral](fast-shutdown-overview.md)de desligamento rápido. Para obter informações sobre como executar o desligamento rápido com êxito, consulte [práticas recomendadas para](best-practices-for-fast-shutdown.md)o desligamento rápido.
+Para obter mais informações sobre o desligamento rápido, consulte [Visão geral do desligamento rápido.](fast-shutdown-overview.md) Para obter informações sobre como executar o desligamento rápido com êxito, consulte As Práticas Recomendadas [para o Desligamento Rápido.](best-practices-for-fast-shutdown.md)
   
 ## <a name="see-also"></a>Confira também
 

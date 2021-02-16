@@ -25,11 +25,11 @@ ms.locfileid: "33435177"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém informações sobre um problema de processamento de propriedade ou de atributo que ocorreu durante a codificação ou a decodificação de um fluxo TNEF (Transport neutral Encapsulation Format).
+Contém informações sobre um problema de processamento de propriedade ou atributo que ocorreu durante a codificação ou decodificação de um fluxo TNEF (Transport Neutral Encapsulation Format).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |TNEF. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblem
@@ -46,7 +46,7 @@ typedef struct _STnefProblem
 
  **ulComponent**
   
-> O tipo de processamento durante o qual o problema ocorreu. Se o problema ocorreu durante o processamento de mensagens, o membro **ulComponent** é definido como zero. Se o problema ocorreu durante o processamento de anexos, **ulComponent** é definido como igual ao valor de **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo correspondente.
+> O tipo de processamento durante o qual o problema ocorreu. Se o problema ocorreu durante o processamento de mensagens, o **membro ulComponent** é definido como zero. Se o problema ocorreu durante o processamento do anexo, **ulComponent** é definido como o valor **de PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) correspondente.
     
  **ulAttribute**
   
@@ -54,7 +54,7 @@ typedef struct _STnefProblem
     
  _attMAPIProps_
   
-> Nível de mensagem
+> Nível da mensagem
     
  _attAttachment_
   
@@ -62,15 +62,15 @@ typedef struct _STnefProblem
     
  **ulPropTag**
   
-> Marca de propriedade da propriedade que causou o problema de processamento TNEF, exceto quando o problema ocorre ao decodificar um bloco de encapsulamento, nesse caso, **ulPropTag** é definido como zero. 
+> Marca de propriedade da propriedade que causou o problema de processamento TNEF, exceto quando o problema ocorre ao decodificar um bloco de encapsulamento; nesse caso, **ulPropTag** é definido como zero. 
     
- **SCODE**
+ **scode**
   
-> O valor de erro que indica o problema encontrado durante o processamento.
+> Valor de erro indicando o problema encontrado durante o processamento.
     
 ## <a name="remarks"></a>Comentários
 
-Se uma estrutura **STnefProblem** não for gerada durante o processamento de um atributo ou propriedade, o aplicativo poderá continuar sob a pressuposição de que o processamento desse atributo ou propriedade foi bem-sucedido. A única exceção ocorre quando o problema surgiu durante a decodificação de um bloco de encapsulamento. Nesse caso, a decodificação do componente correspondente ao bloco é interrompida e a decodificação continua em outro componente. 
+Se uma **estrutura STnefProblem** não for gerada durante o processamento de um atributo ou propriedade, o aplicativo poderá continuar pressupor que o processamento desse atributo ou propriedade foi bem-sucedido. A única exceção ocorre quando o problema surge durante a decodificação de um bloco de encapsulamento. Nesse caso, a decodificação do componente correspondente ao bloco é interrompida e a decodificação continua em outro componente. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,14 +25,14 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-CONTAINERSHEETREF (* * *index* * * * * *[, Category]* * *) 
+CONTAINERSHEETREF(** *index* ** ** *[, category]* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _índice_ <br/> |Obrigatório  <br/> |**Integer** <br/> |O índice baseado em 1 do contêiner. Consulte Comentários para obter mais informações.  <br/> |
-| _Categorias_ <br/> |Opcional  <br/> |**String** <br/> |A categoria do contêiner. Consulte Comentários para obter mais informações.  <br/> |
+| _category_ <br/> |Opcional  <br/> |**String** <br/> |A categoria do contêiner. Consulte Comentários para obter mais informações.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -42,13 +42,13 @@ Referência do ShapeSheet
 
 O índice de um contêiner é calculado com base na ordem Z dos contêineres, de frente para trás.
   
- As *categorias* são cadeias de caracteres definidas pelo usuário que você pode usar para categorizar formas. Você pode definir categorias na célula User.msvShapeCategories do ShapeSheet para uma forma. Pode também definir várias categorias para uma forma separando-as com ponto-e-vírgula. 
+ *As*  categorias são cadeias de caracteres definidas pelo usuário que você pode usar para categorizar formas. Você pode definir categorias na célula User.msvShapeCategories do ShapeSheet para uma forma. Pode também definir várias categorias para uma forma separando-as com ponto-e-vírgula. 
   
 Se a forma não for membro de um contêiner ou não houver nenhum contêiner que corresponda tanto à categoria como ao número de índice especificado, CONTAINERSHEETREF retornará #REF!.
   
 ## <a name="example"></a>Exemplo
 
-CONTAINERSHEETREF (1)! Height 
+CONTAINERSHEETREF(1)! Altura 
   
 Retorna o valor na célula Height do contêiner que está mais à frente na página à qual a forma pertence. 
   

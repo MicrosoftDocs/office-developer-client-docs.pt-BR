@@ -27,18 +27,18 @@ Define o nome de um item de menu exibido em um menu de atalho ou de marca de aç
 
 Para inserir um separador no menu acima desse item, use a célula BeginGroup. Para exibir o comando na parte inferior do menu, insira antes do nome o caractere de porcentagem (%) .
   
-Para obter uma referência para a célula menu pelo nome, a partir de outra fórmula ou programa que use a **** propriedade Cells, utilize: 
+Para fazer referência à célula Menu pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações Menuonde.  *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Menuonde Ações.  *nome*  é o nome da linha Actions  <br/> |
    
 Para obter uma referência para a célula Menu pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde i = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visActionMenu** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde i = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visActionMenu** <br/> |
    
 

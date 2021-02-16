@@ -25,14 +25,14 @@ ms.locfileid: "33436381"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que visualizadores de formulários trabalhem com contextos de exibição de formulário e notificação de formulário, para executar verbos de formulário e para desligar formulários.
+Permite que os visualizadores de formulários trabalhem com contextos de modo de formulário e notificação de formulário, executem verbos de formulário e desliguem formulários.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Exposto por:  <br/> |Objetos de formulário  <br/> |
 |Implementado por:  <br/> |Servidores de formulário  <br/> |
-|Chamado por:  <br/> |Visualizadores de formulários  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIForm  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORM  <br/> |
    
@@ -40,13 +40,13 @@ Permite que visualizadores de formulários trabalhem com contextos de exibição
 
 |||
 |:-----|:-----|
-|[SetViewContext](imapiform-setviewcontext.md) <br/> |Estabelece um contexto de modo de exibição para o formulário.  <br/> |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |Retorna o contexto do modo de exibição atual do formulário.  <br/> |
+|[SetViewContext](imapiform-setviewcontext.md) <br/> |Estabelece um contexto de exibição para o formulário.  <br/> |
+|[GetViewContext](imapiform-getviewcontext.md) <br/> |Retorna o contexto de exibição atual do formulário.  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |Fecha o formulário.  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |Solicita que o formulário execute qualquer tarefa que ele associa a um verbo específico.  <br/> |
-|[Utilizar](imapiform-advise.md) <br/> |Registra um visualizador de formulários para notificações sobre eventos que afetam o formulário.  <br/> |
-|[Cancelar](imapiform-unadvise.md) <br/> |Cancela um registro de notificações com um visualizador de formulários previamente estabelecido pelo **aviso**de chamada.  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorre com o objeto Form.  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |Solicita que o formulário execute as tarefas associadas a um verbo específico.  <br/> |
+|[Advise](imapiform-advise.md) <br/> |Registra um visualizador de formulário para notificações sobre eventos que afetam o formulário.  <br/> |
+|[Unadvise](imapiform-unadvise.md) <br/> |Cancela um registro para notificações com um visualizador de formulário estabelecido anteriormente chamando **Advise**.  <br/> |
+|[GetLastError](imapiform-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorreu no objeto de formulário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

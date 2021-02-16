@@ -25,28 +25,28 @@ ms.locfileid: "33434435"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtida do repositório que contém a pasta de contatos.
+Contém a **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtida do repositório que contém a pasta Contatos.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Identificador:  <br/> |0x6611  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Catálogo de endereços de contatos  <br/> |
+|Área:  <br/> |Contact address book  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O provedor de catálogo de endereços de contatos usa essa propriedade para avaliar a adequação dos recursos com suporte do repositório. É uma propriedade em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contato.
+O provedor do Livro de Endereços de Contato usa essa propriedade para avaliar a adequação dos recursos com suporte do armazenamento. Esta é uma propriedade em um contêiner do Livro de Endereços de Contato e uma coluna na tabela de contêineres do Livro de Endereços de Contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm840
 localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
-description: Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo inclui automaticamente o texto do prompt entre aspas () para indicar que se trata de uma cadeia de caracteres de texto. Se você digitar um sinal de igual (=) e omitir as aspas, é possível inserir uma fórmula na célula avaliada pelo aplicativo.
+description: Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo automaticamente inclui o texto do prompt entre aspas () para indicar que é uma cadeia de caracteres de texto. Se você digitar um sinal de igual (=) e omitir as aspas, é possível inserir uma fórmula na célula avaliada pelo aplicativo.
 ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -26,14 +26,14 @@ Para fazer referência à célula Prompt pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Utilizador.  *Nome* . Avisar onde usuário.  *Name*  é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Usuário.  *Nome*  . Prompt onde o usuário.  *Name*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Prompt pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionUser** <br/> |
-| Índice de linha:  <br/> |**visRowUser +** *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowUser +** *i*            onde  *i*  = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visUserPrompt** <br/> |
    
 

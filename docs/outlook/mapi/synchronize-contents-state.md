@@ -19,7 +19,7 @@ ms.locfileid: "33438467"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Este tópico descreve o que acontece durante o estado sincronizar conteúdo da máquina de estado de replicação. 
+ Este tópico descreve o que acontece durante o estado de sincronização do conteúdo da máquina de estado de replicação. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -27,21 +27,21 @@ ms.locfileid: "33438467"
 |:-----|:-----|
 |Identificador de Estado:  <br/> |**LR_SYNC_CONTENTS** <br/> |
 |Estrutura de dados relacionada:  <br/> |**[SYNCCONT](synccont.md)** <br/> |
-|A partir deste Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
-|Para este Estado:  <br/> |[Baixar o estado da tabela](download-table-state.md), carregar o estado da [tabela](upload-table-state.md)ou sincronizar estado  <br/> |
+|Desse estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Para esse estado:  <br/> |[Estado de download da tabela,](download-table-state.md) [estado de carregamento da](upload-table-state.md)tabela ou estado de sincronização  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
+> A máquina de estado de replicação é uma máquina de estado determinística. Um cliente que sai de um estado para outro eventualmente deve retornar ao primeiro do último. 
   
 ## <a name="description"></a>Descrição
 
-Este estado inicia um dos dois processos de replicação: carregar o conteúdo de pastas especificadas em um repositório local ou uma sincronização completa. Em uma sincronização completa, para cada uma das pastas especificadas, o conteúdo é carregado primeiro e, em seguida, baixado. Dependendo do conjunto *parâmetroulflags* na estrutura de **[sincronização](sync.md)** correspondente no estado de sincronização anterior, o Outlook inicializará [out] Membros na estrutura **SYNCCONT** para fornecer informações sobre o conteúdo. 
+Esse estado inicia um dos dois processos de replicação: carregar o conteúdo das pastas especificadas em um armazenamento local ou uma sincronização completa. Em uma sincronização completa, para cada uma das pastas especificadas, o conteúdo é carregado primeiro e, em seguida, baixado. Dependendo do  *ulFlags*  definido na estrutura **[SYNC](sync.md)** correspondente no estado de sincronização anterior, o Outlook inicializa membros [out] na estrutura **SYNCCONT** para fornecer informações sobre o conteúdo. 
   
-Através da mesma estrutura **SYNCCONT** , o cliente obtém a contagem das pastas que têm conteúdo a ser carregado ou baixado. O cliente executará um loop através de cada uma dessas pastas movendo o repositório local para o estado de carregamento da tabela para carregar uma pasta ou mover o repositório local para o estado de download da tabela para baixar a pasta. 
+Por meio da mesma **estrutura SYNCCONT,** o cliente obtém a contagem das pastas que têm conteúdo a ser carregado ou baixado. O cliente fará um loop por cada uma dessas pastas movendo o armazenamento local para o estado carregar tabela para carregar uma pasta ou movendo o armazenamento local para o estado de tabela de download para baixar a pasta. 
   
-Além disso, o cliente obtém IDs de entrada para as pastas que requerem replicação.
+Além disso, o cliente obtém IDs de entrada para as pastas que exigem replicação.
   
-Quando esse estado termina, o Outlook limpa suas informações internas. O repositório local retorna ao estado de sincronização.
+Quando esse estado termina, o Outlook limpa suas informações internas. O armazenamento local retorna ao estado de sincronização.
   
 ## <a name="see-also"></a>Confira também
 

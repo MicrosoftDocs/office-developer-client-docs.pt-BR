@@ -23,21 +23,21 @@ ms.locfileid: "33435562"
   
 Há várias macros para facilitar o trabalho com valores HRESULT.
   
-Há dois conjuntos de macros que testam a falha ou o êxito: HR_SUCCEEDED e HR_FAILED e com êxito e falha. SUCCEEDed é o mesmo que HR_SUCCEEDED e FAILED é o mesmo que HR_FAILED.
+Há dois conjuntos de macros que testam se há falha ou sucesso: HR_SUCCEEDED e HR_FAILED êxito e FALHA. SUCCEEDED é o mesmo que HR_SUCCEEDED e FAILED é o mesmo que HR_FAILED.
   
-Nesse caso, use a macro **ResultFromScode** para definir a variável HRESULT para o valor HRESULT correspondente de S_OK. 
+Nesse caso, use a macro **ResultFromScode** para definir a variável HRESULT com o valor HRESULT correspondente para S_OK. 
   
-As macros comumente usadas são descritas brevemente na tabela a seguir.
+As macros comumente usadas são brevemente descritas na tabela a seguir.
   
 |**Macro**|**Descrição**|
 |:-----|:-----|
 |**MAKE_HRESULT** <br/> |Constrói um HRESULT a partir de seus componentes.  <br/> |
-|**HR_SUCCEEDED** <br/> |Testa um HRESULT para uma condição de êxito ou de aviso.  <br/> |
+|**HR_SUCCEEDED** <br/> |Testa um HRESULT para uma condição de sucesso ou aviso.  <br/> |
 |**HR_FAILED** <br/> |Testa um HRESULT para uma condição de erro.  <br/> |
 |**HRESULT_CODE** <br/> |Extrai a parte do código de erro do HRESULT.  <br/> |
-|**HRESULT_FACILITY** <br/> |Extrai o recurso do HRESULT.  <br/> |
-|**HRESULT_SEVERITY** <br/> |Extrai o bit de severidade da severidade.  <br/> |
-|**ADICIONADA** <br/> |Testa um HRESULT para uma condição de êxito ou de aviso.  <br/> |
-|**FALHOU** <br/> |Testa um HRESULT para uma condição de erro.  <br/> |
+|**HRESULT_FACILITY** <br/> |Extrai as instalações do HRESULT.  <br/> |
+|**HRESULT_SEVERITY** <br/> |Extrai o bit de severidade da SEVERITY.  <br/> |
+|**SUCCEEDED** <br/> |Testa um HRESULT para uma condição de sucesso ou aviso.  <br/> |
+|**FALHA** <br/> |Testa um HRESULT para uma condição de erro.  <br/> |
    
 

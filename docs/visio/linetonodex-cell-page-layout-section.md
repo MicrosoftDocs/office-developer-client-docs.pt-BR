@@ -36,6 +36,6 @@ Para obter uma referência para a célula LineToNodeX pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOLineToNodeX** <br/> |
+|Índice de célula:  <br/> |**visPLOLineToNodeX** <br/> |
    
 

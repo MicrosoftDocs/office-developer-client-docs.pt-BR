@@ -34,14 +34,14 @@ Para obter uma referência para a célula Checked pelo nome, de outra fórmula o
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Check-in de ações. *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Verificamos onde ações. *nome*  é o nome da linha Actions  <br/> |
    
 Para obter uma referência para a célula Checked pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visActionChecked** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visActionChecked** <br/> |
    
 

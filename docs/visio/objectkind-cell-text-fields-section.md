@@ -22,8 +22,8 @@ Indica o tipo de campo de texto.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Standard  <br/> |**visTFOKStandard** <br/> |
-| 1  <br/> |Horizontal em vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
+| 0  <br/> | Padrão  <br/> |**visTFOKStandard** <br/> |
+| 1   <br/> |Horizontal em vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,14 +37,14 @@ Para fazer referência à célula ObjectKind pelo nome, a partir de outra fórmu
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Fields. objectKind [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Fields.ObjectKind[  *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula ObjectKind pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTextField** <br/> |
-| Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowField**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visFieldObjectKind** <br/> |
    
 

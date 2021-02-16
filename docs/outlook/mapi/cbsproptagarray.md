@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [SPropTagArray](sproptagarray.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropTagArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __LPArray_
+ _ _lparray_
   
 > Ponteiro para a estrutura **SPropTagArray** existente. 
     

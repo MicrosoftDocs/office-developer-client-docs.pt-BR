@@ -1,5 +1,5 @@
 ---
-title: If... Then... Bloco de macro else (aplicativo Web personalizado do Access)
+title: Se... Então... Bloco de Macro Senão (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434491"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Bloco de macro else (aplicativo Web personalizado do Access)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Se... Então... Bloco de Macro Senão (aplicativo Web personalizado do Access)
 
 Você pode usar o bloco de macro **Se** para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão. 
   

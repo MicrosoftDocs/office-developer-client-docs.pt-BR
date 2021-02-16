@@ -1,5 +1,5 @@
 ---
-title: Desenvolver um provedor de transporte habilitado para TNEF
+title: Desenvolvendo um provedor TNEF-Enabled transporte de conteúdo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438999"
 ---
-# <a name="developing-a-tnef-enabled-transport-provider"></a>Desenvolver um provedor de transporte habilitado para TNEF
+# <a name="developing-a-tnef-enabled-transport-provider"></a>Desenvolvendo um provedor TNEF-Enabled transporte de conteúdo
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para promover a interoperabilidade entre sistemas de mensagens que oferecem suporte a diferentes conjuntos de recursos MAPI, o MAPI fornece o formato de encapsulamento de transporte neutro (TNEF) como uma maneira padrão de transferir dados. Este formato encapsula as propriedades MAPI que não têm suporte de um sistema de mensagens subjacente em um fluxo binário que pode ser transferido junto com a mensagem quando um provedor de transporte o envia. O provedor de transporte que recebe a mensagem pode então decodificar o fluxo binário para recuperar todas as propriedades da mensagem original e disponibilizá-las aos aplicativos cliente. O modelo operacional para TNEF é:
+Para promover a interoperabilidade entre sistemas de mensagens que suportam diferentes conjuntos de recursos MAPI, o MAPI fornece o TNEF (Transport Neutral Encapsulation Format) como uma maneira padrão de transferir dados. Esse formato encapsula as propriedades MAPI não suportadas por um sistema de mensagens subjacente em um fluxo binário que pode ser transferido junto com a mensagem quando um provedor de transporte o envia. O provedor de transporte que recebe a mensagem pode decodificar o fluxo binário para recuperar todas as propriedades da mensagem original e torná-las disponíveis para aplicativos cliente. O modelo operacional para TNEF é:
   
-- Os clientes de mensagens enviam e recebem mensagens para um transporte TNEF como normal.
+- Os clientes de mensagens enviam e recebem mensagens para um transporte TNEF normalmente.
     
-- O transporte separa as propriedades nas mensagens de saída em duas categorias: as que o sistema de mensagens subjacente suporta e as que não. Os valores das propriedades que são compatíveis com o sistema de mensagens subjacente são convertidos no formato necessário.
+- O transporte separa as propriedades das mensagens de saída em duas categorias: as que o sistema de mensagens subjacente suporta e as que ele não suporta. Os valores das propriedades que são suportadas pelo sistema de mensagens subjacente são convertidos no formato necessário.
     
-- O transporte usa os métodos MAPI TNEF para codificar qualquer propriedade sem suporte em um único fluxo de dados. O transporte então transforma esse fluxo de dados em um anexo especial na mensagem de saída, usando o modelo de anexo do sistema de mensagens subjacente, antes de enviar a mensagem.
+- O transporte usa os métodos TNEF MAPI para codificar as propriedades sem suporte em um único fluxo de dados. Em seguida, o transporte transforma esse fluxo de dados em um anexo especial na mensagem de saída, usando o modelo de anexo do sistema de mensagens subjacente, antes de enviar a mensagem.
     
-- Um transporte habilitado para TNEF que recebe tal mensagem faz duas coisas. Primeiro, ele converte as propriedades da mensagem de entrada, as quais há suporte no sistema de mensagens subjacente, em propriedades MAPI. Em segundo lugar, se o anexo especial estiver presente, ele usará os métodos de MAPI TNEF para recuperar propriedades MAPI adicionais do anexo antes de entregar a mensagem a um aplicativo cliente.
+- Um transporte habilitado para TNEF que recebe essa mensagem faz duas coisas. Primeiro, ele converte as propriedades da mensagem de entrada — aquelas suportadas pelo sistema de mensagens subjacentes — em propriedades MAPI. Segundo, se o anexo especial estiver presente, ele usará os métodos TNEF MAPI para recuperar propriedades MAPI adicionais do anexo antes de entregar a mensagem para um aplicativo cliente.
     
-O MAPI fornece uma implementação da interface **ITnef** para uso por provedores de transporte MAPI ao trabalhar com objetos TNEF. A função [OpenTnefStreamEx](opentnefstreamex.md) é usada para criar objetos TNEF e associá-los a uma mensagem. Os fluxos TNEF são criados na parte superior da interface do OLE **IStream** 
+O MAPI fornece uma implementação da interface **ITnef** para uso por provedores de transporte MAPI ao trabalhar com objetos TNEF. A [função OpenTnefStreamEx](opentnefstreamex.md) é usada para criar objetos TNEF e associá-los a uma mensagem. Fluxos TNEF são construídos sobre a interface **IStream** OLE 
   
 > [!NOTE]
-> Você usa o **OpenTnefStreamEx** para criar objetos TNEF. A função antiga do **OpenTnefStream** ainda existe para compatibilidade com código-fonte antigo e não deve ser usada em nada novo. 
+> Use **OpenTnefStreamEx** para criar objetos TNEF. A função **OpenTnefStream** antiga ainda existe para compatibilidade com o código-fonte antigo e não deve ser usada em nada novo. 
   
 A interface **ITnef** fornece os seguintes métodos: 
   
@@ -52,10 +52,10 @@ A interface **ITnef** fornece os seguintes métodos:
     
 - [SetProps](itnef-setprops.md)
     
-O modelo de implementação MAPI TNEF oferece suporte a:
+O modelo de implementação TNEF MAPI oferece suporte a:
   
-- Todas as propriedades MAPI sem afetar outras propriedades de mensagem. Para que as mensagens MAPI sobrevivam transporte por meio de um sistema de mensagens, todas as propriedades que não podem ser codificadas como propriedades do sistema de mensagens devem ser encapsuladas. Como quase nunca é conhecido no momento em que uma mensagem é enviada independentemente de um cliente compatível com MAPI receber a mensagem, o esquema de encapsulamento permite que um provedor de transporte codifique apenas as propriedades de mensagens de MAPI que o sistema de mensagens não suporte nativo. Isso significa que as mensagens que usam TNEF não são "opacos" para sistemas de mensagens que não são baseados em MAPI, como sistemas de mensagens UNIX baseados em SMTP. Esses sistemas recebem as propriedades que eles suportam de qualquer maneira típica para eles, e outras propriedades são recebidas como um fluxo de dados TNEF codificado. O provedor de transporte TNEF é responsável por diferenciar esses dois conjuntos de propriedades e enviar o conjunto suportado da maneira adequada para o sistema de mensagens. O TNEF não faz suposições com o nível de suporte fornecido por um sistema de mensagens. No enTanto, nos exemplos de uso do TNEF incluídos nesta seção, pressupõe-se que o sistema de mensagens oferece suporte a pelo menos um anexo único além da mensagem. Em alguns casos, o anexo só pode ser suportado por meio de um fluxo UUEncoded e transmitido como parte do texto da mensagem. Somente em circunstâncias muito raras, o sistema de mensagens terá pouco suporte para propriedades de mensagens que a codificação TNEF completa de todas as propriedades seja necessária.
+- Todas as propriedades MAPI sem afetar outras propriedades da mensagem. Para que as mensagens MAPI sobreviverem ao transporte por meio de um sistema de mensagens, todas as propriedades que não podem ser codificadas como propriedades do sistema de mensagens devem ser encapsuladas. Como é quase nunca conhecido no momento em que uma mensagem é enviada se um cliente compatível com MAPI receberá ou não a mensagem, o esquema de encapsulamento permite que um provedor de transporte codificar apenas as propriedades de mensagem MAPI às que o sistema de mensagens não suporta na nações. Isso significa que as mensagens que usam TNEF não são "opacos" para sistemas de mensagens que não são baseados em MAPI, como sistemas de mensagens UNIX baseados em SMTP. Esses sistemas recebem as propriedades às quais suportam de qualquer maneira, e outras propriedades são recebidas como um fluxo de dados TNEF codificado. O provedor de transporte TNEF é responsável por diferenciar entre esses dois conjuntos de propriedades e enviar o conjunto com suporte da maneira adequada para o sistema de mensagens. O TNEF não faz suposições sobre o nível de suporte fornecido por um sistema de mensagens. No entanto, nos exemplos de uso de TNEF incluídos nesta seção, a suposição é feita de que o sistema de mensagens oferece suporte a pelo menos um único anexo além da mensagem. Em alguns casos, o anexo só pode ter suporte por meio de um fluxo uuencoded e transmitido como parte do texto da mensagem. Somente em circunstâncias muito raras o sistema de mensagens terá tão pouco suporte para propriedades de mensagem que a codificação TNEF completa de todas as propriedades é necessária.
     
-- Um mecanismo para determinar se um fluxo TNEF em uma mensagem de entrada pertence à mensagem, com base na propriedade MAPI **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Essa propriedade deve ser encontrada tanto no fluxo TNEF quanto em um cabeçalho de mensagem apropriado. Se a propriedade tiver o mesmo valor em ambos os locais ou se estiver ausente em qualquer lugar, presume-se que o fluxo de TNEF pertença à mensagem. Caso contrário, o fluxo TNEF será ignorado. Os transportes habilitados para TNEF são responsáveis por escolher um valor para essa propriedade em mensagens de saída e codificá-lo em um cabeçalho de mensagem apropriado (por exemplo, o cabeçalho Message-ID: cabeçalho para mensagens SMTP) e no fluxo TNEF.
+- Um mecanismo para determinar se um fluxo TNEF em uma mensagem de entrada pertence à mensagem, com base na propriedade MAPI **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Essa propriedade deve ser encontrada no fluxo TNEF e em um header de mensagem apropriado. Se a propriedade tiver o mesmo valor em ambos os lugares ou estiver ausente em ambos os locais, o fluxo TNEF será assumido como pertencendo à mensagem. Caso contrário, o fluxo TNEF será ignorado. Os transporte habilitados para TNEF são responsáveis por escolher um valor para essa propriedade em mensagens de saída e codificar-a em um header de mensagem apropriado (por exemplo, o message-ID: header para mensagens SMTP) e no fluxo TNEF.
     
 

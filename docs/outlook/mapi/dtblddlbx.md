@@ -25,11 +25,11 @@ ms.locfileid: "33438845"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve um controle de lista suspensa que será usado em uma caixa de diálogo criada a partir de uma tabela de exibição.
+Descreve um controle de lista drop-down que será usado em uma caixa de diálogo criada a partir de uma tabela de exibição.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLDDLBX
@@ -50,27 +50,27 @@ typedef struct _DTBLDDLBX
     
  **ulPRDisplayProperty**
   
-> Marca de propriedade de uma propriedade do tipo PT_TSTRING. Essa propriedade é uma das colunas na tabela identificadas pelo membro **ulPRTableName** . Os valores dessa propriedade são exibidos na lista. 
+> Marca de propriedade de uma propriedade do tipo PT_TSTRING. Essa propriedade é uma das colunas na tabela identificada pelo **membro ulPRTableName.** Os valores dessa propriedade são exibidos na lista. 
     
  **ulPRSetProperty**
   
-> Marca de propriedade de uma propriedade de qualquer tipo. Essa propriedade é uma das colunas na tabela identificadas pelo membro **ulPRTableName** . Quando o usuário da lista seleciona um valor de propriedade para o membro **ulPRDisplayProperty** das linhas da tabela identificadas pelo membro **ulPRTableName** , o membro **ulPRSetProperty** correspondente é definido. 
+> Marca de propriedade para uma propriedade de qualquer tipo. Essa propriedade é uma das colunas na tabela identificada pelo **membro ulPRTableName.** Quando o usuário da lista seleciona um valor de propriedade para o membro **ulPRDisplayProperty** das linhas da tabela identificada pelo membro **ulPRTableName,** o membro **ulPRSetProperty** correspondente é definido. 
     
  **ulPRTableName**
   
-> Marca de propriedade de uma propriedade de tabela do tipo PT_OBJECT que pode ser aberta usando **** uma chamada OpenProperty. A tabela deve ter duas colunas: **ulPRDisplayProperty** e **ulPRSetProperty**. As linhas da tabela devem corresponder aos itens na lista.
+> Marca de propriedade de uma propriedade de tabela do tipo PT_OBJECT que pode ser aberta usando uma **chamada OpenProperty.** A tabela deve ter duas colunas: **ulPRDisplayProperty** e **ulPRSetProperty**. As linhas da tabela devem corresponder aos itens na lista.
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLDDLBX** descreve um controle de lista suspensa que é exibido como um único item até que o usuário opte por expandi-lo. 
+Uma **estrutura DTBLDDLBX** descreve um controle de lista drop-down que é exibido como um único item até que o usuário opte por expandi-lo. 
   
-As três propriedades identificadas pelas marcas de propriedade funcionam juntas para exibir as informações na lista e definir uma propriedade relacionada. O membro **ulPRTableName** é um objeto Table que é acessado por meio de uma chamada a [IMAPIProp:: OpenProperty](imapiprop-openproperty.md). A tabela tem duas colunas: uma coluna para a propriedade identificada pelo membro **ulPRDisplayProperty** e a outra para a propriedade identificada pelo membro **ulPRSetProperty** . 
+As três propriedades identificadas pelas marcas de propriedade funcionam juntas para exibir as informações na lista e definir uma propriedade relacionada. O **membro ulPRTableName** é um objeto de tabela que é acessado por meio de uma chamada para [IMAPIProp::OpenProperty](imapiprop-openproperty.md). A tabela tem duas colunas: uma coluna para a propriedade identificada pelo membro **ulPRDisplayProperty** e a outra para a propriedade identificada pelo **membro ulPRSetProperty.** 
   
-A propriedade **ulPRDisplayProperty** orienta a exibição da lista. Quando um usuário seleciona um dos valores da exibição, MAPI chama [IMAPIProp::](imapiprop-setprops.md) SetProps para definir a propriedade correspondente conforme identificado pelo membro **ulPRSetProperty** . Isso significa que a propriedade na mesma linha que a propriedade de exibição selecionada. O membro **ulPRSetProperty** não pode ser definido como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+A **propriedade ulPRDisplayProperty** orienta a exibição da lista. Quando um usuário seleciona um dos valores na exibição, MAPI chama [IMAPIProp::SetProps](imapiprop-setprops.md) para definir a propriedade correspondente conforme identificado pelo **membro ulPRSetProperty.** Isso significa que a propriedade na mesma linha que a propriedade de exibição selecionada. O **membro ulPRSetProperty** não pode ser definido como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
   
-Um valor inicial é exibido na lista se o MAPI tiver recuperado a propriedade representada pelo membro **ulPRSetProperty** por meio de uma chamada a [IMAPIProp::](imapiprop-getprops.md) GetProps e localizada uma linha na tabela com o valor do membro **ulPRSetProperty** . O valor inicial exibido é o conteúdo da coluna **ulPRDisplayProperty** dessa linha que corresponde à propriedade no membro **ulPRDisplayProperty** da estrutura. O valor retornado por **** GetProps para a propriedade identificada pelo membro **ulPRDisplayProperty** se torna o valor inicial que é mostrado quando a lista é exibida pela primeira vez. 
+Um valor inicial será exibido na lista se MAPI tiver recuperado a propriedade representada pelo membro **ulPRSetProperty** por meio de uma chamada para [IMAPIProp::GetProps](imapiprop-getprops.md) e localizado uma linha na tabela com o valor do membro **ulPRSetProperty.** O valor exibido inicial é o conteúdo da coluna **ulPRDisplayProperty** dessa linha que corresponde à propriedade no **membro ulPRDisplayProperty** da estrutura. O valor retornado por **GetProps** para a propriedade identificada pelo membro **ulPRDisplayProperty** torna-se o valor inicial mostrado quando a lista é exibida pela primeira vez. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md). Para obter informações sobre tipos de propriedade, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+Para uma visão geral das tabelas de exibição, consulte [Display Tables](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md) Para obter informações sobre tipos de propriedade, consulte [Visão geral do tipo de propriedade MAPI.](mapi-property-type-overview.md)
   
 ## <a name="see-also"></a>Confira também
 
@@ -87,9 +87,9 @@ Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas]
 
 [Estruturas MAPI](mapi-structures.md)
   
-[Exibir a implementação da tabela](display-table-implementation.md)
+[Implementação da tabela de exibição](display-table-implementation.md)
   
-[Exibir tabelas](display-tables.md)
+[Exibir Tabelas](display-tables.md)
   
 [Visão geral do tipo de propriedade MAPI](mapi-property-type-overview.md)
 

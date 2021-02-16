@@ -22,7 +22,7 @@ Determina a largura da página impressa em unidades de desenho.
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir a largura da página na **guia Tamanho da página** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ) ou redimensionando manualmente a página com o mouse. Para fazer isso, mantenha pressionada a tecla CTRL e arraste a borda da página. 
+Você também pode definir a largura da  página na guia Tamanho da Página  da caixa de diálogo Configurar Página (na guia **Design,** clique na seta Configurar Página) ou reizing manualmente a página com o mouse.  Para fazer isso, mantenha pressionada a tecla CTRL e arraste a borda da página. 
   
 Para obter uma referência para a célula PageWidth pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

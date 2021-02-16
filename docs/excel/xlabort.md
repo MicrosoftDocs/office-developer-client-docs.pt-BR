@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- função xlAbort [Excel 2007]
+- função xlabort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33436654"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Gera o processador para outras tarefas no sistema e verifica se o usuário pressionou **ESC** para cancelar uma macro. Se o usuário pressionou **ESC** durante um recálculo de pasta de trabalho, ele também pode ser detectado de dentro de uma função de planilha chamando essa função. 
+Gera o processador para outras tarefas no sistema e verifica se o usuário pressionou **o ESC** para cancelar uma macro. Se o usuário pressionou **eSC** durante um recálculo de pasta de trabalho, ele também pode ser detectado de dentro de uma função de planilha chamando essa função. 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
@@ -32,11 +32,11 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
  _pxRetain_ (**xltypeBool**)
   
-(Opcional). Se **false**, esta função verifica a condição de interrupção e limpa qualquer quebra pendente. Isso permite que o usuário continue apesar da condição de interrupção. Se esse argumento for omitido ou for **true**, a função verificará a anulação do usuário sem limpá-lo.
+(Opcional). Se **FALSO**, esta função verifica a condição de quebra e limpa qualquer quebra pendente. Isso permite que o usuário continue apesar da condição de quebra. Se esse argumento for omitido ou **for VERDADEIRO**, a função verificará se há uma anulação de usuário sem des limpa-lo.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna **true** (**xltypeBool**) se o usuário pressionou **ESC**.
+Retorna **TRUE** (**xltypeBool**) se o usuário pressionou **ESC**.
   
 ## <a name="remarks"></a>Comentários
 
@@ -44,15 +44,15 @@ Retorna **true** (**xltypeBool**) se o usuário pressionou **ESC**.
 
 #### <a name="frequent-calls-may-be-needed"></a>Chamadas frequentes podem ser necessárias
 
-Funções e comandos que podem levar muito tempo devem chamar essa função freqüentemente para gerar o processador para outras tarefas no sistema.
+Funções e comandos que podem levar muito tempo devem chamar essa função com frequência para gerar o processador para outras tarefas no sistema.
   
-#### <a name="avoid-sensitive-language"></a>Evitar idioma confidencial
+#### <a name="avoid-sensitive-language"></a>Evitar linguagem sensível
 
-Evite usar o termo "Abort" em sua interface do usuário. Considere usar "Cancelar", "parar", "" quebrar "ou" parar ".
+Evite usar o termo "Abort" na interface do usuário. Considere usar "Cancelar", "Parar", "Interromper" ou "Parar".
   
 ## <a name="example"></a>Exemplo
 
-O código a seguir move repetidamente a célula ativa em uma planilha até que um minuto tenha decorrido ou até que o usuário pressione **ESC**. Ele chama a função **xlAbort** ocasionalmente. Isso gera o processador, facilitando a multitarefas cooperativa. 
+O código a seguir move repetidamente a célula ativa em uma planilha até que um minuto tenha decorrido ou até que o usuário pressione **ESC**. Ele chama a função **xlAbort ocasionalmente.** Isso produz o processador, easing multitarefa cooperativo. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

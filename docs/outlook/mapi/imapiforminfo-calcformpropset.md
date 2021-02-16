@@ -38,25 +38,25 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo de cadeia de caracteres retornada. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres retornadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres retornadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _ppFormPropArray_
   
-> bota Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada. 
+> [out] Um ponteiro para um ponteiro para a estrutura [SMAPIFormPropArray](smapiformproparray.md) retornada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE padrão foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -64,7 +64,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MFCOutput. cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o método **IMAPIFormInfo:: CalcFormPropSet** ao gravar saída de depuração para objetos de informações de formulário.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI usa o **método IMAPIFormInfo::CalcFormPropSet** ao escrever saída de depuração para objetos de informações de formulário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

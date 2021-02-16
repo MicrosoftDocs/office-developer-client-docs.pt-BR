@@ -18,7 +18,7 @@ ms.locfileid: "33434477"
 ---
 # <a name="x-cell-annotation-section"></a>Célula X (Seção Annotation)
 
-A coordenada *x* do marcador de comentário em coordenadas de página. 
+A  *coordenada x*  do marcador de comentário em coordenadas de página. 
   
 > [!NOTE]
 > Essa célula é usada para rastrear comentários somente ao abrir um arquivo .vsd no Microsoft Visio 2013 ou ao salvar um arquivo .vsdx no formato de arquivo .vsd. Não é usada para rastrear comentários em documentos .vsdx no Visio 2013. 
@@ -29,14 +29,14 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Annotation. X [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Annotation.X[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionAnnotation** <br/> |
-| Índice de linha:  <br/> |**visRowAnnotation ** +  *i*            onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowAnnotation** +  *i*            onde *i* = 0, 1, 2...  <br/> |
 | Índice de célula:  <br/> |**visAnnotationX** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33436850"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a coordenada y da posição inicial (o canto superior esquerdo) de um controle de caixa de diálogo, nas unidades de caixa de diálogo padrão do Windows.
+Contém a coordenada y da posição inicial (o canto superior esquerdo) de um controle de caixa de diálogo, em unidades de diálogo padrão do Windows.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém a coordenada y da posição inicial (o canto superior esquerdo) de um co
    
 ## <a name="remarks"></a>Comentários
 
-As propriedades **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), propriedade, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) são posicionadas e dimensionam o controle.
+The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), this property, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), and **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) properties position and size the control.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: /(Divisão) (aplicativo Web personalizado do Access)
+title: / (Dividir) (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435184"
 ---
-# <a name="-divide-access-custom-web-app"></a>/(Divisão) (aplicativo Web personalizado do Access)
+# <a name="-divide-access-custom-web-app"></a>/ (Dividir) (aplicativo Web personalizado do Access)
 
 Divide um número por outro.
   
@@ -22,20 +22,20 @@ Divide um número por outro.
   
 ## <a name="syntax"></a>Sintaxe
 
- **  /  *divisor* de dividendo 
+ *divide*   /   *divisor* 
   
- *dividendo*  É a expressão numérica a ser dividida. Pode ser qualquer expressão válida de qualquer um dos tipos de dados da categoria de tipo de dados numéricos, exceto o tipo de dados DateTime. 
+ *divide*  É a expressão numérica a ser dividida. Pode ser qualquer expressão válida de qualquer um dos tipos de dados da categoria de tipo de dados numéricos, exceto o tipo de dados de data e hora. 
   
- *Divisor*  É a expressão numérica pela qual dividir o dividendo. Pode ser qualquer expressão válida de qualquer um dos tipos de dados da categoria de tipo de dados numéricos, exceto o tipo de dados DateTime. 
+ *Divisor*  É a expressão numérica pela qual dividir o dividendo. Pode ser qualquer expressão válida de qualquer um dos tipos de dados da categoria de tipo de dados numéricos, exceto o tipo de dados de data e hora. 
   
 ## <a name="return-type"></a>Tipo de retorno
 
-Retorna o tipo de dados do argumento com maior precedência. 
+Retorna o tipo de dados do argumento com a precedência mais alta. 
   
-Se um *dividendo* inteiro for dividido por um *divisor* inteiro, o resultado será um inteiro que tenha qualquer parte fracionária do resultado truncado. 
+Se um  *dividendo inteiro*  é dividido por um  *divisor*  inteiro , o resultado é um inteiro que tem qualquer parte fracionada do resultado truncado. 
   
 ## <a name="remarks"></a>Comentários
 
-O valor real retornado pelo operador/é o quociente da primeira expressão dividida pela segunda expressão.
+O valor real retornado pelo operador /é o quociente da primeira expressão dividida pela segunda expressão.
   
 

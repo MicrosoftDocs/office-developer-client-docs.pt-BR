@@ -36,21 +36,21 @@ Contém o nome do perfil.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são computadas por provedores de serviços. A implementação de um provedor da função de **entrada** pode usar essas propriedades para descobrir o nome do perfil. 
+Essas propriedades são calculadas pelos provedores de serviços. A implementação da função **ServiceEntry** de um provedor pode usar essas propriedades para descobrir o nome do perfil. 
   
-Os aplicativos cliente podem usar essas propriedades como uma alternativa conveniente para obter o nome do perfil examinando a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) na linha da tabela de status do subsistema de MAPI.
+Os aplicativos cliente podem usar essas propriedades como uma alternativa conveniente para obter o nome do perfil examinando a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) na linha da tabela de status do subsistema MAPI.
   
-Essas propriedades podem não ser exclusivas ao longo do tempo, por exemplo, onde um perfil é excluído e posteriormente recriado com o mesmo nome. O MAPI fornece uma propriedade totalmente exclusiva do **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) em uma seção de perfil embutida chamada **MUID_PROFILE_INSTANCE.**
+Essas propriedades podem não ser exclusivas ao longo do tempo, por exemplo, onde um perfil é excluído e posteriormente recriado com o mesmo nome. O MAPI fornece uma propriedade **totalmente exclusiva PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) em uma seção de perfil em código chamada **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

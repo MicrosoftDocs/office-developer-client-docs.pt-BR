@@ -1,5 +1,5 @@
 ---
-title: Propriedades do destinatário para todas as mensagens
+title: Propriedades de destinatário para todas as mensagens
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439713"
 ---
-# <a name="recipient-properties-for-all-messages"></a>Propriedades do destinatário para todas as mensagens
+# <a name="recipient-properties-for-all-messages"></a>Propriedades de destinatário para todas as mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As propriedades a seguir geralmente estão presentes para todos os destinatários de mensagens. **PR_EMAIL_ADDRESS** e **PR_SEARCH_KEY** são opcionais; todas as outras propriedades são obrigatórias. 
+As propriedades a seguir normalmente estão presentes para todos os destinatários da mensagem. **PR_EMAIL_ADDRESS** e **PR_SEARCH_KEY** são opcionais; todas as outras propriedades são necessárias. 
   
 **Título da tabela**
 
 |**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contém o tipo de endereço de email do usuário de mensagens, como SMTP.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contém o nome para exibição de um determinado objeto MAPI.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contém o nome de exibição de um determinado objeto MAPI.  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contém um valor usado para associar um ícone a uma linha específica de uma tabela.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Contém o endereço de email do usuário de mensagens.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contém um identificador de entrada MAPI usado para abrir e editar as propriedades de um objeto MAPI específico.  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contém um identificador de entrada MAPI usado para abrir e editar propriedades de um objeto MAPI específico.  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contém o tipo de um objeto.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contém uma chave comparável à binária que identifica objetos correlacionados para uma pesquisa.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contém uma chave comparável binária que identifica objetos correlacionados para uma pesquisa.  <br/> |
    
 

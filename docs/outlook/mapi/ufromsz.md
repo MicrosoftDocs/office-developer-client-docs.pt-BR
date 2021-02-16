@@ -25,11 +25,11 @@ ms.locfileid: "33439006"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Converte uma cadeia de caracteres decimal terminada em nulo em um inteiro não assinado. 
+Converte uma cadeia de caracteres terminada em nulo de dígitos decimais em um inteiro não assinado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,7 +43,7 @@ UINT UFromSz(
 
  _lpsz_
   
-> no Ponteiro para a cadeia de caracteres terminada em nulo a ser convertido. O parâmetro _lpsz_ não deve exceder 65536 caracteres. 
+> [in] Ponteiro para a cadeia de caracteres terminada por nulo a ser convertida. O  _parâmetro lpsz_ não deve exceder 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -51,8 +51,8 @@ UINT UFromSz(
   
 ## <a name="remarks"></a>Comentários
 
-A função **UFromSz** para de converter quando atinge o primeiro caractere na cadeia de caracteres que não é um dígito decimal. Por exemplo, dado a cadeia de caracteres "55", **UFromSz** retorna o valor inteiro 55. Dada a cadeia de caracteres "5a5b", a função retorna o valor inteiro 5. Dada a cadeia de caracteres "A5B5", **UFromSz** retorna zero. 
+A **função UFromSz** para de converter quando atinge o primeiro caractere na cadeia de caracteres que não é um dígito decimal. Por exemplo, dada a cadeia de caracteres "55", **UFromSz** retorna o valor inteiro 55. Dada a cadeia de caracteres "5a5b", a função retorna o valor inteiro 5. Dada a cadeia de caracteres "a5b5", **UFromSz** retorna zero. 
   
- **UFromSz** é sensível a diferenças diacrítico. As cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de tamanho no _lpsz_ está em caracteres, não necessariamente em bytes. 
+ **UFromSz é** sensível a diferenças diacríticas. Cadeias de caracteres nos formatos Unicode e DBCS são suportadas. O limite de comprimento  _em lpsz_ está em caracteres, não necessariamente bytes. 
   
 

@@ -44,11 +44,11 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> no Ponteiro para uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. 
+> [in] Ponteiro para uma matriz de cadeias de caracteres Unicode terminadas por caractere nulo. 
     
  _cStrings_
   
-> no Contagem de cadeias de caracteres na matriz apontada pelo parâmetro _lppszW_ . 
+> [in] Contagem de cadeias de caracteres na matriz apontada pelo _parâmetro lppszW._ 
     
 ## <a name="return-value"></a>Valor de retorno
 

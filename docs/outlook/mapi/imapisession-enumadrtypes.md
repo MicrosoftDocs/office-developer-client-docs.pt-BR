@@ -25,7 +25,7 @@ ms.locfileid: "33439286"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obsoleto. Retorna os tipos de endereço que podem ser tratados por todos os provedores de transporte na sessão. 
+Depreciado. Retorna os tipos de endereço que podem ser manipulados por todos os provedores de transporte na sessão. 
   
 ```cpp
 HRESULT EnumAdrTypes(
@@ -39,19 +39,19 @@ HRESULT EnumAdrTypes(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que indica o formato dos tipos de endereço retornados. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que indica o formato dos tipos de endereço retornados. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> Os tipos de endereço estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, os tipos de endereço estarão no formato ANSI.
+> Os tipos de endereço estão no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, os tipos de endereços estão no formato ANSI.
     
  _lpcAdrTypes_
   
-> bota Um ponteiro para uma contagem de tipos de endereço apontados pelo parâmetro _lpppszAdrTypes_ . 
+> [out] Um ponteiro para uma contagem de tipos de endereço apontados pelo _parâmetro lpppszAdrTypes._ 
     
  _lpppszAdrTypes_
   
-> bota Um ponteiro para uma matriz de ponteiros para tipos de endereço.
+> [out] Um ponteiro para uma matriz de ponteiros para tipos de endereço.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: EnumAdrTypes** retorna uma lista dos tipos de endereço que podem ser tratados por todos os provedores de transporte ativos na sessão. Os tipos de endereço para provedores de transporte que não estão carregados atualmente não estão incluídos na lista. Provedores de transporte Registre-se para lidar com um ou mais tipos de endereço quando o MAPI chama o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
+O **método IMAPISession::EnumAdrTypes** retorna uma lista dos tipos de endereço que podem ser manipulados por todos os provedores de transporte ativos na sessão. Os tipos de endereço para provedores de transporte que não estão carregados no momento não estão incluídos na lista. Os provedores de transporte se registram para lidar com um ou mais tipos de endereço quando o MAPI chama seu [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de cadeia de caracteres apontada pelo parâmetro _lpppszAdrTypes_ . 
+Chame [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de cadeia de caracteres apontada pelo _parâmetro lpppszAdrTypes._ 
   
 ## <a name="see-also"></a>Confira também
 

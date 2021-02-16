@@ -19,15 +19,15 @@ ms.locfileid: "33435044"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O MAPI fornece um recurso para atribuir nomes às propriedades, para mapear esses nomes para identificadores exclusivos e para tornar este mapeamento persistente. Nome persistente para mapeamento de identificador garante que os nomes de propriedade permaneçam válidos entre as sessões.
+MAPI provides a facility for assigning names to properties, for mapping these names to unique identifiers, and for making this mapping persistent. O nome persistente do mapeamento de identificador garante que os nomes de propriedade permaneçam válidos entre sessões.
   
-Para definir uma propriedade nomeada, um cliente ou provedor de serviços constitui um nome e o armazena em uma estrutura [MAPINAMEID](mapinameid.md) . Como os nomes são compostos de um identificador global exclusivo de 32 bits, ou GUID, e uma cadeia de caracteres Unicode ou valor numérico, os criadores de propriedades nomeadas podem criar nomes significativos sem temer a duplicação. Os nomes são exclusivos e podem ser usados sem considerar o valor de seus identificadores. 
+Para definir uma propriedade nomeada, um cliente ou provedor de serviços com um nome e o armazena em uma [estrutura MAPINAMEID.](mapinameid.md) Como os nomes são feitos de um identificador global exclusivo de 32 bits ou GUID e uma cadeia de caracteres Unicode ou um valor numérico, os criadores de propriedades nomeadas podem criar nomes significativos sem o medo da duplicação. Os nomes são exclusivos e podem ser usados sem considerar o valor de seus identificadores. 
   
-Para dar suporte a propriedades nomeadas, um provedor de serviços implementa dois métodos — [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) – para traduzir entre nomes e identificadores e permitir seu [IMAPIProp:: GetProps](imapiprop-getprops.md) [ IMAPIProp::](imapiprop-setprops.md) SetProps métodos para recuperar e modificar propriedades com identificadores no intervalo de propriedades nomeado. O intervalo de identificadores de propriedade nomeados está entre 0x8000 e 0xFFFE. 
+Para dar suporte a propriedades nomeadas, um provedor de serviços implementa dois métodos [— IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) — para traduzir entre nomes e identificadores e permitir que seus métodos [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) recuperem e modifiquem propriedades com identificadores no intervalo de propriedades nomeados. O intervalo para identificadores de propriedade nomeados é 0x8000 e 0xFFFE. 
   
-Qualquer objeto que implemente a interface **IMAPIProp** pode dar suporte a propriedades nomeadas. Provedores de catálogo de endereços que permitem que entradas de outros provedores sejam copiadas em seus contêineres e provedores de repositórios de mensagens que podem ser usados para criar tipos de mensagem arbitrários são necessários para fornecer esse suporte. É uma opção para todos os outros provedores de serviços. Os provedores que não dão suporte a propriedades nomeadas retornam MAPI_E_NO_SUPPORT dos métodos **GetIDsFromNames** e **GetNamesFromIDs** e se recusam a definir qualquer propriedade com identificadores de 0x8000 ou superior, retornando MAPI_E_UNEXPECTED no ** SPropProblemarray**.
+Qualquer objeto que implemente a interface **IMAPIProp** pode dar suporte a propriedades nomeadas. Provedores de agendas que permitem que entradas de outros provedores sejam copiadas para seus contêineres e provedores de armazenamento de mensagens que podem ser usados para criar tipos de mensagem arbitrários são necessários para fornecer esse suporte. É uma opção para todos os outros provedores de serviços. Provedores que não suportam propriedades nomeadas retornam MAPI_E_NO_SUPPORT dos métodos **GetIDsFromNames** e **GetNamesFromIDs** e se recusam a definir quaisquer propriedades com identificadores de 0x8000 ou superior, retornando MAPI_E_UNEXPECTED no **SPropProblemarray**.
   
-A criação de nomes para propriedades é uma maneira de os clientes definirem novas propriedades para classes de mensagem personalizadas ou existentes. Os provedores de serviços podem usar propriedades nomeadas para expor recursos exclusivos de seus sistemas de mensagens. Mas outro uso para propriedades nomeadas é fornecer uma maneira alternativa de se referir a propriedades com identificadores abaixo de 0x8000. 
+Criar nomes para propriedades é uma maneira dos clientes definirem novas propriedades para classes de mensagens existentes ou personalizadas. Os provedores de serviços podem usar propriedades nomeadas para expor recursos exclusivos de seus sistemas de mensagens. Ainda assim, outro uso para propriedades nomeadas é fornecer uma maneira alternativa de se referir a propriedades com identificadores abaixo 0x8000. 
   
 Por exemplo, um cliente poderia usar código semelhante ao código a seguir para recuperar os nomes de todas as propriedades nomeadas de um objeto:
   
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Para solicitar todos os nomes do conjunto de propriedades PS_PUBLIC_STRINGS, um cliente substituiria nulo no parâmetro set de propriedade para PS_PUBLIC_STRINGS da seguinte maneira: 
+Para solicitar todos os nomes do conjunto PS_PUBLIC_STRINGS propriedade, um cliente substituiria NULL no parâmetro do conjunto de propriedades para PS_PUBLIC_STRINGS da seguinte forma: 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

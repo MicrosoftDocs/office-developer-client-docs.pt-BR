@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434638"
 ---
-# <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
+# <a name="prop_smtp_auth_method"></a>PROP_SMTP_AUTH_METHOD
 
 Especifica o método de autenticação a ser usado para a conta SMTP.
   
@@ -29,13 +29,13 @@ Especifica o método de autenticação a ser usado para a conta SMTP.
    
 ## <a name="remarks"></a>Comentários
 
-O valor é uma bitmask das constantes a seguir. ConFira [constantes (API de gerenciamento de contas)](constants-account-management-api.md) para seus valores. 
+O valor é uma máscara de bits das constantes a seguir. Consulte [Constantes (API de gerenciamento de conta)](constants-account-management-api.md) para seus valores. 
   
 - **SMTP_AUTH_SAME_AS_POP** significa usar as mesmas credenciais que meu servidor de email de entrada, conforme fornecido por [PROP_INET_USER](prop_inet_user.md) e [PROP_INET_PASSWORD](prop_inet_password.md).
     
 - **SMTP_AUTH_USER_PASS** significa usar as credenciais conforme fornecido por [PROP_SMTP_USER](prop_smtp_user.md) e [PROP_SMTP_PASSWORD](prop_smtp_password.md).
     
-- **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa solicitar que o usuário faça logon no servidor de email de entrada antes de enviar email. 
+- **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa solicitar que o usuário faça logoff no servidor de email de entrada antes de enviar emails. 
     
 ## <a name="see-also"></a>Confira também
 

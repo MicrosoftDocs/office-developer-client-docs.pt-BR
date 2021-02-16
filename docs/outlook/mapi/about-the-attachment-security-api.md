@@ -19,7 +19,7 @@ ms.locfileid: "33438873"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API de segurança de anexos permite que as soluções do Outlook descubram se um anexo é considerado não seguro pelo Outlook e é bloqueado para visualização e indexação. Ele fornece as seguintes definições e interface.
+A API de Segurança de Anexos permite que as soluções do Outlook descubram se um anexo é considerado inseguro pelo Outlook e está bloqueado para exibição e indexação. Ele fornece as seguintes definições e interface.
   
 Definições
   

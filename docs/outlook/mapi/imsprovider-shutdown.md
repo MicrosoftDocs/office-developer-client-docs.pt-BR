@@ -25,7 +25,7 @@ ms.locfileid: "33438621"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fecha um provedor de repositório de mensagens de maneira ordenada.
+Fecha um provedor de armazenamento de mensagens de forma pedido.
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> no Serve deve ser um ponteiro para zero.
+> [in] Reservado; deve ser um ponteiro para zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método **IMSProvider:: Shutdown** imediatamente antes de liberar o objeto do provedor de repositório de mensagens. MAPI libera todos os objetos de logon para um provedor **** antes de chamar o desligamento para esse provedor. 
+MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object. O MAPI libera todos os objetos de logon para um provedor antes de chamar **o Desligamento** desse provedor. 
   
 ## <a name="see-also"></a>Confira também
 
