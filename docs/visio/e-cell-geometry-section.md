@@ -16,24 +16,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423563"
 ---
-# <a name="e-cell-geometry-section"></a><span data-ttu-id="56b1f-103">Célula E (Seção Geometry)</span><span class="sxs-lookup"><span data-stu-id="56b1f-103">E Cell (Geometry Section)</span></span>
+# <a name="e-cell-geometry-section"></a><span data-ttu-id="43126-103">Célula E (Seção Geometry)</span><span class="sxs-lookup"><span data-stu-id="43126-103">E Cell (Geometry Section)</span></span>
 
-<span data-ttu-id="56b1f-104">Contém uma fórmula de B-spline racional não-uniforme (NURBS).</span><span class="sxs-lookup"><span data-stu-id="56b1f-104">Contains a nonuniform rational B-spline (NURBS) formula.</span></span>
+<span data-ttu-id="43126-104">Contém uma fórmula de B-spline racional não-uniforme (NURBS).</span><span class="sxs-lookup"><span data-stu-id="43126-104">Contains a nonuniform rational B-spline (NURBS) formula.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="56b1f-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="56b1f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43126-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="43126-105">Remarks</span></span>
 
-<span data-ttu-id="56b1f-106">Para fazer referência à célula E pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="56b1f-106">To get a reference to the E cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="43126-106">Para fazer referência à célula E pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="43126-106">To get a reference to the E cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="56b1f-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="56b1f-107">Cell name:</span></span>  <br/> | <span data-ttu-id="56b1f-108">Geometry *i* . E *j* onde *i* e *j* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="56b1f-108">Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="43126-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="43126-107">Cell name:</span></span>  <br/> | <span data-ttu-id="43126-108">Geometry  *i*  . E  *j*            onde  *i*  e  *j*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="43126-108">Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="56b1f-109">Para fazer referência à célula E pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="56b1f-109">To get a reference to the E cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="43126-109">Para fazer referência à célula E pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="43126-109">To get a reference to the E cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="56b1f-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="56b1f-110">Section index:</span></span>  <br/> |<span data-ttu-id="56b1f-111">**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="56b1f-111">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="56b1f-112">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="56b1f-112">Row index:</span></span>  <br/> |<span data-ttu-id="56b1f-113">**visRowVertex** +  *j* onde *j* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="56b1f-113">**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="56b1f-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="56b1f-114">Cell index:</span></span>  <br/> |<span data-ttu-id="56b1f-115">**visNURBSData**</span><span class="sxs-lookup"><span data-stu-id="56b1f-115">**visNURBSData**</span></span> <br/> |
+| <span data-ttu-id="43126-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="43126-110">Section index:</span></span>  <br/> |<span data-ttu-id="43126-111">**visSectionFirstComponent**  +   *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="43126-111">**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="43126-112">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="43126-112">Row index:</span></span>  <br/> |<span data-ttu-id="43126-113">**visRowVertex**  +   *j* onde *j* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="43126-113">**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="43126-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="43126-114">Cell index:</span></span>  <br/> |<span data-ttu-id="43126-115">**visNURBSData**</span><span class="sxs-lookup"><span data-stu-id="43126-115">**visNURBSData**</span></span> <br/> |
    
 

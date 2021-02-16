@@ -14,25 +14,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427595"
 ---
-# <a name="is1d-function"></a><span data-ttu-id="5c98d-103">Função IS1D</span><span class="sxs-lookup"><span data-stu-id="5c98d-103">IS1D Function</span></span>
+# <a name="is1d-function"></a><span data-ttu-id="3e8d0-103">Função IS1D</span><span class="sxs-lookup"><span data-stu-id="3e8d0-103">IS1D Function</span></span>
 
-<span data-ttu-id="5c98d-104">Retornará TRUE se a forma for 1D (unidimensional); retornará FALSE se a forma for 2D (bidimensional).</span><span class="sxs-lookup"><span data-stu-id="5c98d-104">Returns TRUE if the shape is 1-D (one-dimensional); returns FALSE if the shape is 2-D (two-dimensional).</span></span>
+<span data-ttu-id="3e8d0-104">Retornará TRUE se a forma for 1D (unidimensional); retornará FALSE se a forma for 2D (bidimensional).</span><span class="sxs-lookup"><span data-stu-id="3e8d0-104">Returns TRUE if the shape is 1-D (one-dimensional); returns FALSE if the shape is 2-D (two-dimensional).</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="5c98d-105">Informações da versão</span><span class="sxs-lookup"><span data-stu-id="5c98d-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="3e8d0-105">Informações da versão</span><span class="sxs-lookup"><span data-stu-id="3e8d0-105">Version Information</span></span>
 
-<span data-ttu-id="5c98d-106">Version Added: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="5c98d-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="3e8d0-106">Version Added: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="3e8d0-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="5c98d-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5c98d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3e8d0-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3e8d0-107">Syntax</span></span>
 
-<span data-ttu-id="5c98d-108">IS1D ()</span><span class="sxs-lookup"><span data-stu-id="5c98d-108">IS1D()</span></span>
+<span data-ttu-id="3e8d0-108">IS1D()</span><span class="sxs-lookup"><span data-stu-id="3e8d0-108">IS1D()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="5c98d-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="5c98d-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="3e8d0-109">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3e8d0-109">Return value</span></span>
 
- <span data-ttu-id="5c98d-110">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="5c98d-110">**Boolean**</span></span>
+ <span data-ttu-id="3e8d0-110">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="3e8d0-110">**Boolean**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5c98d-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="5c98d-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e8d0-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="3e8d0-111">Remarks</span></span>
 
-<span data-ttu-id="5c98d-112">Se a planilha (forma) for uma página ou um documento, a função IS1D retornará #REF!.</span><span class="sxs-lookup"><span data-stu-id="5c98d-112">If the sheet (shape) is a page or a document, the IS1D function returns #REF!.</span></span>
+<span data-ttu-id="3e8d0-112">Se a planilha (forma) for uma página ou um documento, a função IS1D retornará #REF!.</span><span class="sxs-lookup"><span data-stu-id="3e8d0-112">If the sheet (shape) is a page or a document, the IS1D function returns #REF!.</span></span>
   
 

@@ -13,8 +13,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433084"
 ---
-# <a name="using-the-wopi-protocol-to-integrate-with-office-online"></a><span data-ttu-id="caf6c-104">Usar o protocolo WOPI para se integrar com o Office Online</span><span class="sxs-lookup"><span data-stu-id="caf6c-104">Using the WOPI protocol to integrate with Office Online</span></span>
+# <a name="using-the-wopi-protocol-to-integrate-with-office-online"></a><span data-ttu-id="b799c-104">Usar o protocolo WOPI para se integrar com o Office Online</span><span class="sxs-lookup"><span data-stu-id="b799c-104">Using the WOPI protocol to integrate with Office Online</span></span>
 
-<span data-ttu-id="caf6c-105">Este conteúdo não está mais disponível neste local.</span><span class="sxs-lookup"><span data-stu-id="caf6c-105">This content is no longer available at this location.</span></span> <span data-ttu-id="caf6c-106">Para continuar, confira [Usar o protocolo WOPI para se integrar com o Office Online](https://wopi.readthedocs.org/en/latest/intro.html) no GitHub.</span><span class="sxs-lookup"><span data-stu-id="caf6c-106">To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.html) on GitHub.</span></span> 
+<span data-ttu-id="b799c-105">Este conteúdo não está mais disponível neste local.</span><span class="sxs-lookup"><span data-stu-id="b799c-105">This content is no longer available at this location.</span></span> <span data-ttu-id="b799c-106">Para continuar, confira [Usar o protocolo WOPI para se integrar com o Office Online](https://wopi.readthedocs.org/en/latest/intro.html) no GitHub.</span><span class="sxs-lookup"><span data-stu-id="b799c-106">To continue, see [Using the WOPI protocol to integrate with Office Online](https://wopi.readthedocs.org/en/latest/intro.html) on GitHub.</span></span> 
   
 

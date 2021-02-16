@@ -14,35 +14,35 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405279"
 ---
-# <a name="xlgetinstptr"></a><span data-ttu-id="218a0-103">xlGetInstPtr</span><span class="sxs-lookup"><span data-stu-id="218a0-103">xlGetInstPtr</span></span>
+# <a name="xlgetinstptr"></a><span data-ttu-id="43071-103">xlGetInstPtr</span><span class="sxs-lookup"><span data-stu-id="43071-103">xlGetInstPtr</span></span>
 
-<span data-ttu-id="218a0-104">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="218a0-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="43071-104">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="43071-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="218a0-105">Retorna o identificador de instância da instância do Microsoft Excel que está atualmente chamando uma DLL.</span><span class="sxs-lookup"><span data-stu-id="218a0-105">Returns the instance handle of the instance of Microsoft Excel that is currently calling a DLL.</span></span>
+<span data-ttu-id="43071-105">Retorna o alça de instância da instância do Microsoft Excel que está chamando uma DLL no momento.</span><span class="sxs-lookup"><span data-stu-id="43071-105">Returns the instance handle of the instance of Microsoft Excel that is currently calling a DLL.</span></span>
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="218a0-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="218a0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="43071-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="43071-106">Parameters</span></span>
 
-<span data-ttu-id="218a0-107">Esta função não tem argumentos.</span><span class="sxs-lookup"><span data-stu-id="218a0-107">This function has no arguments.</span></span>
+<span data-ttu-id="43071-107">Esta função não tem argumentos.</span><span class="sxs-lookup"><span data-stu-id="43071-107">This function has no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="218a0-108">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="218a0-108">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="43071-108">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="43071-108">Property value/Return value</span></span>
 
-<span data-ttu-id="218a0-109">O identificador de instância (**xltypeBigData**) será no campo **Val. bigdata. h. hData** .</span><span class="sxs-lookup"><span data-stu-id="218a0-109">The instance handle (**xltypeBigData**) will be in the **val.bigdata.h.hdata** field.</span></span> 
+<span data-ttu-id="43071-109">O alça de instância (**xltypeBigData**) estará no **campo val.bigdata.h.hdata.**</span><span class="sxs-lookup"><span data-stu-id="43071-109">The instance handle (**xltypeBigData**) will be in the **val.bigdata.h.hdata** field.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="218a0-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="218a0-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43071-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="43071-110">Remarks</span></span>
 
-<span data-ttu-id="218a0-111">Essa função pode ser usada para distinguir entre várias instâncias em execução do Excel que estão chamando a DLL.</span><span class="sxs-lookup"><span data-stu-id="218a0-111">This function can be used to distinguish between multiple running instances of Excel that are calling the DLL.</span></span>
+<span data-ttu-id="43071-111">Essa função pode ser usada para distinguir entre várias instâncias em execução do Excel que estão chamando a DLL.</span><span class="sxs-lookup"><span data-stu-id="43071-111">This function can be used to distinguish between multiple running instances of Excel that are calling the DLL.</span></span>
   
-<span data-ttu-id="218a0-112">Essa função retorna um valor correto com as versões de 32 bits e 64 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="218a0-112">This function returns a correct value with both 32-bit and 64-bit versions of Excel.</span></span> <span data-ttu-id="218a0-113">Ele foi introduzido no Excel 2010 como uma extensão para a função [xlGetInst](xlgetinst.md) , que funciona corretamente apenas com as versões de 32 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="218a0-113">It was introduced in Excel 2010 as an extension to the [xlGetInst](xlgetinst.md) function, which works correctly only with 32-bit versions of Excel.</span></span> 
+<span data-ttu-id="43071-112">Esta função retorna um valor correto com as versões de 32 bits e 64 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="43071-112">This function returns a correct value with both 32-bit and 64-bit versions of Excel.</span></span> <span data-ttu-id="43071-113">Ele foi introduzido no Excel 2010 como uma extensão para a função [xlGetInst,](xlgetinst.md) que funciona corretamente apenas com versões de 32 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="43071-113">It was introduced in Excel 2010 as an extension to the [xlGetInst](xlgetinst.md) function, which works correctly only with 32-bit versions of Excel.</span></span> 
   
-<span data-ttu-id="218a0-114">Essa função funciona corretamente quando é chamada usando o [Excel4 e o Excel12](excel4-excel12.md) variedades das funções de retorno de chamada da API, porque **XLOPER** e **XLOPER12** têm a mesma estrutura que dá suporte ao valor **xltypeBigData** Escreva.</span><span class="sxs-lookup"><span data-stu-id="218a0-114">This function works correctly when it is called by using both the [Excel4 and Excel12](excel4-excel12.md) varieties of the API callback functions, because both **XLOPER** and **XLOPER12** have the same structure that supports the **xltypeBigData** value type.</span></span> 
+<span data-ttu-id="43071-114">Essa função funciona corretamente quando é chamada usando as variedades Excel4 e [Excel12](excel4-excel12.md) das funções de retorno de chamada de API, porque **xlOPER** e **XLOPER12** têm a mesma estrutura que dá suporte ao tipo de valor **xltypeBigData.**</span><span class="sxs-lookup"><span data-stu-id="43071-114">This function works correctly when it is called by using both the [Excel4 and Excel12](excel4-excel12.md) varieties of the API callback functions, because both **XLOPER** and **XLOPER12** have the same structure that supports the **xltypeBigData** value type.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="218a0-115">Exemplo</span><span class="sxs-lookup"><span data-stu-id="218a0-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="43071-115">Exemplo</span><span class="sxs-lookup"><span data-stu-id="43071-115">Example</span></span>
 
-<span data-ttu-id="218a0-116">O exemplo a seguir compara a instância da última cópia do Excel que a chamou para a cópia atual do Excel que a chamou.</span><span class="sxs-lookup"><span data-stu-id="218a0-116">The following example compares the instance of the last copy of Excel that called it to the current copy of Excel that called it.</span></span> <span data-ttu-id="218a0-117">Se forem iguais, retornará 1; caso contrário, retornará 0; se a função falhar, ela retornará-1.</span><span class="sxs-lookup"><span data-stu-id="218a0-117">If they are the same, it returns 1; if not, it returns 0; if the function fails, it returns -1.</span></span> <span data-ttu-id="218a0-118">Este exemplo funciona com as versões de 32 bits e 64 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="218a0-118">This sample works with both 32-bit and 64-bit versions of Excel.</span></span>
+<span data-ttu-id="43071-116">O exemplo a seguir compara a instância da última cópia do Excel que a chamou à cópia atual do Excel que a chamou.</span><span class="sxs-lookup"><span data-stu-id="43071-116">The following example compares the instance of the last copy of Excel that called it to the current copy of Excel that called it.</span></span> <span data-ttu-id="43071-117">Se eles são iguais, retornará 1; caso não seja, retornará 0; se a função falhar, retornará -1.</span><span class="sxs-lookup"><span data-stu-id="43071-117">If they are the same, it returns 1; if not, it returns 0; if the function fails, it returns -1.</span></span> <span data-ttu-id="43071-118">Este exemplo funciona com versões de 32 bits e 64 bits do Excel.</span><span class="sxs-lookup"><span data-stu-id="43071-118">This sample works with both 32-bit and 64-bit versions of Excel.</span></span>
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -68,9 +68,9 @@ short WINAPI xlGetInstPtrExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="218a0-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="218a0-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="43071-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="43071-119">See also</span></span>
 
-- [<span data-ttu-id="218a0-120">xlGetHwnd</span><span class="sxs-lookup"><span data-stu-id="218a0-120">xlGetHwnd</span></span>](xlgethwnd.md)
-- [<span data-ttu-id="218a0-121">xlGetInst</span><span class="sxs-lookup"><span data-stu-id="218a0-121">xlGetInst</span></span>](xlgetinst.md)
-- [<span data-ttu-id="218a0-122">Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="218a0-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="43071-120">xlGetHwnd</span><span class="sxs-lookup"><span data-stu-id="43071-120">xlGetHwnd</span></span>](xlgethwnd.md)
+- [<span data-ttu-id="43071-121">xlGetInst</span><span class="sxs-lookup"><span data-stu-id="43071-121">xlGetInst</span></span>](xlgetinst.md)
+- [<span data-ttu-id="43071-122">Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="43071-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

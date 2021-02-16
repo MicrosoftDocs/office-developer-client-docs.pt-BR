@@ -15,10 +15,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404229"
 ---
-# <a name="attoriginalmessageclass"></a><span data-ttu-id="4ad95-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="4ad95-103">attOriginalMessageClass</span></span>
+# <a name="attoriginalmessageclass"></a><span data-ttu-id="bb272-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="bb272-103">attOriginalMessageClass</span></span>
 
-<span data-ttu-id="4ad95-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ad95-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bb272-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb272-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ad95-105">Uma classe de mensagem é armazenada como uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="4ad95-105">A message class is stored as a string.</span></span> <span data-ttu-id="4ad95-106">A cadeia de caracteres codificada normalmente contém o nome de MAPI especificado da classe de mensagem.</span><span class="sxs-lookup"><span data-stu-id="4ad95-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
+<span data-ttu-id="bb272-105">Uma classe de mensagem é armazenada como uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="bb272-105">A message class is stored as a string.</span></span> <span data-ttu-id="bb272-106">A cadeia de caracteres codificada geralmente contém o nome especificado por MAPI da classe de mensagem.</span><span class="sxs-lookup"><span data-stu-id="bb272-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
   
 

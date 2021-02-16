@@ -16,29 +16,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434043"
 ---
-# <a name="lockmovey-cell-protection-section"></a><span data-ttu-id="ccac5-103">Célula LockMoveY (Seção Protection)</span><span class="sxs-lookup"><span data-stu-id="ccac5-103">LockMoveY Cell (Protection Section)</span></span>
+# <a name="lockmovey-cell-protection-section"></a><span data-ttu-id="4f4a2-103">Célula LockMoveY (Seção Protection)</span><span class="sxs-lookup"><span data-stu-id="4f4a2-103">LockMoveY Cell (Protection Section)</span></span>
 
-<span data-ttu-id="ccac5-104">Protege a posição vertical da forma para que ela não se mova verticalmente.</span><span class="sxs-lookup"><span data-stu-id="ccac5-104">Locks the vertical position of the shape so it cannot be moved vertically.</span></span>
+<span data-ttu-id="4f4a2-104">Protege a posição vertical da forma para que ela não se mova verticalmente.</span><span class="sxs-lookup"><span data-stu-id="4f4a2-104">Locks the vertical position of the shape so it cannot be moved vertically.</span></span>
   
-|<span data-ttu-id="ccac5-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="ccac5-105">**Value**</span></span>|<span data-ttu-id="ccac5-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ccac5-106">**Description**</span></span>|
+|<span data-ttu-id="4f4a2-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="4f4a2-105">**Value**</span></span>|<span data-ttu-id="4f4a2-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4f4a2-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="ccac5-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="ccac5-107">TRUE</span></span>  <br/> | <span data-ttu-id="ccac5-108">A posição vertical está protegida.</span><span class="sxs-lookup"><span data-stu-id="ccac5-108">Vertical position is locked.</span></span>  <br/> |
-| <span data-ttu-id="ccac5-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="ccac5-109">FALSE</span></span>  <br/> | <span data-ttu-id="ccac5-110">A posição vertical não está protegida.</span><span class="sxs-lookup"><span data-stu-id="ccac5-110">Vertical position is not locked.</span></span>  <br/> |
+| <span data-ttu-id="4f4a2-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="4f4a2-107">TRUE</span></span>  <br/> | <span data-ttu-id="4f4a2-108">A posição vertical está protegida.</span><span class="sxs-lookup"><span data-stu-id="4f4a2-108">Vertical position is locked.</span></span>  <br/> |
+| <span data-ttu-id="4f4a2-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="4f4a2-109">FALSE</span></span>  <br/> | <span data-ttu-id="4f4a2-110">A posição vertical não está protegida.</span><span class="sxs-lookup"><span data-stu-id="4f4a2-110">Vertical position is not locked.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ccac5-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="ccac5-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4f4a2-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="4f4a2-111">Remarks</span></span>
 
-<span data-ttu-id="ccac5-112">Para fazer referência à célula LockMoveY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="ccac5-112">To get a reference to the LockMoveY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="4f4a2-112">Para fazer referência à célula LockMoveY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-112">To get a reference to the LockMoveY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ccac5-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="ccac5-113">Cell name:</span></span>  <br/> | <span data-ttu-id="ccac5-114">LockMoveY</span><span class="sxs-lookup"><span data-stu-id="ccac5-114">LockMoveY</span></span>  <br/> |
+| <span data-ttu-id="4f4a2-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-113">Cell name:</span></span>  <br/> | <span data-ttu-id="4f4a2-114">LockMoveY</span><span class="sxs-lookup"><span data-stu-id="4f4a2-114">LockMoveY</span></span>  <br/> |
    
-<span data-ttu-id="ccac5-115">Para fazer referência à célula LockMoveY pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="ccac5-115">To get a reference to the LockMoveY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="4f4a2-115">Para fazer referência à célula LockMoveY pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-115">To get a reference to the LockMoveY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ccac5-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="ccac5-116">Section index:</span></span>  <br/> |<span data-ttu-id="ccac5-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ccac5-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="ccac5-118">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="ccac5-118">Row index:</span></span>  <br/> |<span data-ttu-id="ccac5-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="ccac5-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="ccac5-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="ccac5-120">Cell index:</span></span>  <br/> |<span data-ttu-id="ccac5-121">**visLockMoveY**</span><span class="sxs-lookup"><span data-stu-id="ccac5-121">**visLockMoveY**</span></span> <br/> |
+| <span data-ttu-id="4f4a2-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-116">Section index:</span></span>  <br/> |<span data-ttu-id="4f4a2-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="4f4a2-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="4f4a2-118">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-118">Row index:</span></span>  <br/> |<span data-ttu-id="4f4a2-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="4f4a2-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="4f4a2-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="4f4a2-120">Cell index:</span></span>  <br/> |<span data-ttu-id="4f4a2-121">**visLockMoveY**</span><span class="sxs-lookup"><span data-stu-id="4f4a2-121">**visLockMoveY**</span></span> <br/> |
    
 
