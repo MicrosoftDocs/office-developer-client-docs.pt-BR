@@ -13,30 +13,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412496"
 ---
-# <a name="iolkaccountnotify"></a><span data-ttu-id="252c9-102">IOlkAccountNotify</span><span class="sxs-lookup"><span data-stu-id="252c9-102">IOlkAccountNotify</span></span>
+# <a name="iolkaccountnotify"></a><span data-ttu-id="22156-102">IOlkAccountNotify</span><span class="sxs-lookup"><span data-stu-id="22156-102">IOlkAccountNotify</span></span>
 
-<span data-ttu-id="252c9-103">Fornece um retorno de chamada para o cliente para alterações em uma conta.</span><span class="sxs-lookup"><span data-stu-id="252c9-103">Provides a callback to the client for changes to an account.</span></span>
+<span data-ttu-id="22156-103">Fornece um retorno de chamada para o cliente para alterações em uma conta.</span><span class="sxs-lookup"><span data-stu-id="22156-103">Provides a callback to the client for changes to an account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="252c9-104">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="252c9-104">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="22156-104">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="22156-104">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="252c9-105">Herda de:</span><span class="sxs-lookup"><span data-stu-id="252c9-105">Inherits from:</span></span>  <br/> |[<span data-ttu-id="252c9-106">IOlkErrorUnknown</span><span class="sxs-lookup"><span data-stu-id="252c9-106">IOlkErrorUnknown</span></span>](iolkerrorunknown.md) <br/> |
-|<span data-ttu-id="252c9-107">Fornecido por:</span><span class="sxs-lookup"><span data-stu-id="252c9-107">Provided by:</span></span>  <br/> | <span data-ttu-id="252c9-108">Cliente</span><span class="sxs-lookup"><span data-stu-id="252c9-108">Client</span></span>  <br/> |
-|<span data-ttu-id="252c9-109">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="252c9-109">Interface identifier:</span></span>  <br/> |<span data-ttu-id="252c9-110">IID_IOlkAccountNotify</span><span class="sxs-lookup"><span data-stu-id="252c9-110">IID_IOlkAccountNotify</span></span>  <br/> |
+|<span data-ttu-id="22156-105">Herda de:</span><span class="sxs-lookup"><span data-stu-id="22156-105">Inherits from:</span></span>  <br/> |[<span data-ttu-id="22156-106">IOlkErrorUnknown</span><span class="sxs-lookup"><span data-stu-id="22156-106">IOlkErrorUnknown</span></span>](iolkerrorunknown.md) <br/> |
+|<span data-ttu-id="22156-107">Fornecido por:</span><span class="sxs-lookup"><span data-stu-id="22156-107">Provided by:</span></span>  <br/> | <span data-ttu-id="22156-108">Cliente</span><span class="sxs-lookup"><span data-stu-id="22156-108">Client</span></span>  <br/> |
+|<span data-ttu-id="22156-109">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="22156-109">Interface identifier:</span></span>  <br/> |<span data-ttu-id="22156-110">IID_IOlkAccountNotify</span><span class="sxs-lookup"><span data-stu-id="22156-110">IID_IOlkAccountNotify</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="252c9-111">Vtable order</span><span class="sxs-lookup"><span data-stu-id="252c9-111">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="22156-111">Vtable order</span><span class="sxs-lookup"><span data-stu-id="22156-111">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="252c9-112">Notify</span><span class="sxs-lookup"><span data-stu-id="252c9-112">Notify</span></span>](iolkaccountnotify-notify.md) <br/> |<span data-ttu-id="252c9-113">Notifica o cliente sobre as alterações na conta especificada.</span><span class="sxs-lookup"><span data-stu-id="252c9-113">Notifies the client of changes to the specified account.</span></span>  <br/> |
+|[<span data-ttu-id="22156-112">Notify</span><span class="sxs-lookup"><span data-stu-id="22156-112">Notify</span></span>](iolkaccountnotify-notify.md) <br/> |<span data-ttu-id="22156-113">Notifica o cliente sobre alterações na conta especificada.</span><span class="sxs-lookup"><span data-stu-id="22156-113">Notifies the client of changes to the specified account.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="252c9-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="252c9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="22156-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="22156-114">Remarks</span></span>
 
-<span data-ttu-id="252c9-115">Esta interface é passada para [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) ao configurar notificações.</span><span class="sxs-lookup"><span data-stu-id="252c9-115">This interface is passed to [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) when setting up notifications.</span></span> 
+<span data-ttu-id="22156-115">Essa interface é passada para [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) ao configurar notificações.</span><span class="sxs-lookup"><span data-stu-id="22156-115">This interface is passed to [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) when setting up notifications.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="252c9-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="252c9-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="22156-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="22156-116">See also</span></span>
 
-- [<span data-ttu-id="252c9-117">Sobre a API de gerenciamento de contas</span><span class="sxs-lookup"><span data-stu-id="252c9-117">About the Account Management API</span></span>](about-the-account-management-api.md) 
-- [<span data-ttu-id="252c9-118">Constantes (API de gerenciamento de contas)</span><span class="sxs-lookup"><span data-stu-id="252c9-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="22156-117">Sobre a API de gerenciamento de contas</span><span class="sxs-lookup"><span data-stu-id="22156-117">About the Account Management API</span></span>](about-the-account-management-api.md) 
+- [<span data-ttu-id="22156-118">Constantes (API de gerenciamento de contas)</span><span class="sxs-lookup"><span data-stu-id="22156-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

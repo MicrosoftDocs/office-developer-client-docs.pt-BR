@@ -1,5 +1,5 @@
 ---
-title: Acessar os membros de uma lista de distribuição
+title: Acessando os membros de uma lista de distribuição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412384"
 ---
-# <a name="accessing-the-members-of-a-distribution-list"></a><span data-ttu-id="4907e-103">Acessar os membros de uma lista de distribuição</span><span class="sxs-lookup"><span data-stu-id="4907e-103">Accessing the Members of a Distribution List</span></span>
+# <a name="accessing-the-members-of-a-distribution-list"></a><span data-ttu-id="d32ca-103">Acessando os membros de uma lista de distribuição</span><span class="sxs-lookup"><span data-stu-id="d32ca-103">Accessing the Members of a Distribution List</span></span>
 
   
   
-<span data-ttu-id="4907e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4907e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d32ca-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d32ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="4907e-105">**Para obter os membros de uma lista de distribuição**</span><span class="sxs-lookup"><span data-stu-id="4907e-105">**To get the members of a distribution list**</span></span>
+ <span data-ttu-id="d32ca-105">**Para obter os membros de uma lista de distribuição**</span><span class="sxs-lookup"><span data-stu-id="d32ca-105">**To get the members of a distribution list**</span></span>
   
-1. <span data-ttu-id="4907e-106">Crie uma matriz de marca de propriedade dimensionada com as propriedades dos membros que você deseja recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e **PR_DISPLAY_TYPE** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="4907e-106">Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span></span>
+1. <span data-ttu-id="d32ca-106">Crie uma matriz de marca de propriedade dimensionada com as propriedades dos membros que você gostaria de recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="d32ca-106">Create a sized property tag array with the properties of the members you would like to retrieve, such as **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), and **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).</span></span>
     
-2. <span data-ttu-id="4907e-107">Chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md) para abrir a lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="4907e-107">Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the distribution list.</span></span> 
+2. <span data-ttu-id="d32ca-107">Chame [IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir a lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="d32ca-107">Call [IAddrBook::OpenEntry](iaddrbook-openentry.md) to open the distribution list.</span></span> 
     
-3. <span data-ttu-id="4907e-108">Chame o método **IABContainer::** getcontenttable da lista de distribuição para acessar sua tabela de conteúdo.</span><span class="sxs-lookup"><span data-stu-id="4907e-108">Call the distribution list's **IABContainer::GetContentsTable** method to access its contents table.</span></span> 
+3. <span data-ttu-id="d32ca-108">Chame o método **IABContainer::GetContentsTable** da lista de distribuição para acessar sua tabela de conteúdo.</span><span class="sxs-lookup"><span data-stu-id="d32ca-108">Call the distribution list's **IABContainer::GetContentsTable** method to access its contents table.</span></span> 
     
-4. <span data-ttu-id="4907e-109">Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas da tabela que representam os membros da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="4907e-109">Call [HrQueryAllRows](hrqueryallrows.md) to retrieve all of the table's rows representing the members of the distribution list.</span></span> 
+4. <span data-ttu-id="d32ca-109">Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas da tabela que representam os membros da lista de distribuição.</span><span class="sxs-lookup"><span data-stu-id="d32ca-109">Call [HrQueryAllRows](hrqueryallrows.md) to retrieve all of the table's rows representing the members of the distribution list.</span></span> 
     
 

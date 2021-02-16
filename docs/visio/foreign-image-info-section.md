@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411712"
 ---
-# <a name="foreign-image-info-section"></a><span data-ttu-id="4d330-104">Seção Foreign Image Info</span><span class="sxs-lookup"><span data-stu-id="4d330-104">Foreign Image Info Section</span></span>
+# <a name="foreign-image-info-section"></a><span data-ttu-id="33ea6-104">Seção Foreign Image Info</span><span class="sxs-lookup"><span data-stu-id="33ea6-104">Foreign Image Info Section</span></span>
 
-<span data-ttu-id="4d330-p102">Contém a largura e a altura de um objeto de um outro programa usado em um desenho do Microsoft Visio e aparece na janela ShapeSheet somente para esse objetos. Também indica a distância do deslocamento das imagens do objeto em relação às bordas.</span><span class="sxs-lookup"><span data-stu-id="4d330-p102">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects. It also indicates the distance the object's image is offset within its borders.</span></span>
+<span data-ttu-id="33ea6-p102">Contém a largura e a altura de um objeto de um outro programa usado em um desenho do Microsoft Visio e aparece na janela ShapeSheet somente para esse objetos. Também indica a distância do deslocamento das imagens do objeto em relação às bordas.</span><span class="sxs-lookup"><span data-stu-id="33ea6-p102">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects. It also indicates the distance the object's image is offset within its borders.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4d330-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="4d330-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="33ea6-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="33ea6-107">Remarks</span></span>
 
-<span data-ttu-id="4d330-108">Nas versões do Visio anteriores à versão 2000, esta seção recebeu o nome **informações da imagem**.</span><span class="sxs-lookup"><span data-stu-id="4d330-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
+<span data-ttu-id="33ea6-108">Em versões dos produtos Visio anteriores à versão 2000, esta seção era denominada **Informações de Imagem.**</span><span class="sxs-lookup"><span data-stu-id="33ea6-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
   
 
