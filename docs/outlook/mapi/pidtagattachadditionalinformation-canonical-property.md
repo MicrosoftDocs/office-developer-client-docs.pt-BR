@@ -25,7 +25,7 @@ ms.locfileid: "32339869"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece informações de tipo de arquivo para um anexo não Windows.
+Fornece informações de tipo de arquivo para um anexo que não é do Windows.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Fornece informações de tipo de arquivo para um anexo não Windows.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade fornece metadados sobre um anexo específico com base na codificação do anexo. Por exemplo, quando a propriedade **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contém MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contém uma cadeia de caracteres que representa o criador e o tipo de arquivo do Macintosh, formatado como ": CREA: tipo" para o arquivo de Macintosh codificado. 
+Essa propriedade fornece metadados sobre um anexo específico com base na codificação do anexo. Por exemplo, quando a propriedade **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contém MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contém uma cadeia de caracteres que representa o criador do arquivo Macintosh e o tipo de arquivo, formatado como ":CREA:TYPE" para o arquivo Macintosh codificado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

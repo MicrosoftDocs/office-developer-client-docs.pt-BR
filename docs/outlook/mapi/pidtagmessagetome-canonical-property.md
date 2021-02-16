@@ -25,7 +25,7 @@ ms.locfileid: "32356193"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se esse usuário de mensagens é especificamente chamado de destinatário principal (para) desta mensagem e não faz parte de uma lista de distribuição. 
+Contém TRUE se esse usuário de mensagens é especificamente nomeado como um destinatário primário (Para) dessa mensagem e não faz parte de uma lista de distribuição. 
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contém TRUE se esse usuário de mensagens é especificamente chamado de destina
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade oferece uma maneira conveniente de determinar se o nome de usuário aparece explicitamente na lista de destinatários principal, sem examinar todas as entradas na lista. 
+Essa propriedade fornece uma maneira conveniente de determinar se o nome de usuário aparece explicitamente na lista de destinatários primários, sem examinar todas as entradas na lista. 
   
-Essa propriedade também auxilia a manipulação automatizada de mensagens recebidas no momento da confirmação. Na opção do provedor de transporte, essa propriedade conterá FALSE ou não será incluída se o usuário de mensagens não estiver listado diretamente na tabela de destinatários. 
+Essa propriedade também auxilia o tratamento automatizado de mensagens recebidas no momento do recebimento. Na opção do provedor de transporte, essa propriedade conterá FALSE ou não será incluída se o usuário de mensagens não estiver listado diretamente na tabela de destinatários. 
   
-A entrega de mensagens resultante da expansão da lista de distribuição ou de uma designação de cópia oculta não faz com que essa propriedade seja definida. O destinatário deve ser nomeado explicitamente. 
+A entrega de mensagens resultante da expansão da lista de distribuição ou de uma designação de cópia carbono não faz com que essa propriedade seja definida. O destinatário deve ser explicitamente nomeado. 
   
-As mensagens não enviadas geralmente não definem o **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), o **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou esta propriedade. Se estiverem presentes nas mensagens que o usuário pode acessar em repositórios de mensagens públicas, em repositórios privados de outros usuários, em arquivos no disco ou incorporado dentro de outras mensagens recebidas, eles geralmente contêm os valores para os quais foram definidos na última vez que um provedor de transporte entregue a mensagem. 
+Mensagens não enviadas geralmente não configuram o **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou esta propriedade. Se eles estão presentes nas mensagens que o usuário pode acessar em armazenamentos de mensagens públicas, em armazenamentos particulares de outros usuários, em arquivos no disco ou incorporados em outras mensagens recebidas, eles geralmente contêm os valores para os quais foram definidos na última vez que um provedor de transporte entregue a mensagem. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338462"
 ---
-# <a name="mnlslstrlenw"></a>MNLS_lstrlenW
+# <a name="mnls_lstrlenw"></a>MNLS_lstrlenW
 
   
   
@@ -35,15 +35,15 @@ int MNLS_lstrlen(
 
  _lpsz_
   
-> no A cadeia de caracteres Unicode terminada em nulo para ser verificada.
+> [in] A cadeia de caracteres Unicode terminada por caractere nulo a ser verificada.
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função retorna um inteiro com o comprimento da cadeia de caracteres. É uma contagem de caracteres na cadeia de caracteres, excluindo o caractere nulo de terminação. Se _lpsz_ for NULL, a função retornará zero. 
+A função retorna um inteiro com o comprimento da cadeia de caracteres. É uma contagem de caracteres na cadeia de caracteres, excluindo o caractere nulo de terminação. Se  _lpsz_ for NULL, a função retornará zero. 
   
 ## <a name="remarks"></a>Comentários
 
-Essa função envolve a função **lstrlen** . Para obter mais informações, consulte [lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
+Esta função quebra a **função lstrlen.** Para obter mais informações, consulte [lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 

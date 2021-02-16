@@ -25,42 +25,42 @@ ms.locfileid: "32330083"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se os compromissos sobrepostos não forem permitidos.
+Contém TRUE se compromissos sobrepostos não são permitidos.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |
 |Identificador:  <br/> |0x686F  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Disponibilidade  <br/> |
+|Área:  <br/> |Livre/Ocupado  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade só será significativa quando o valor da propriedade **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PIDTAGSCHEDULEINFOAUTOACCEPTAPPOINTMENTS](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) for true. Um valor TRUE indica que, quando responder automaticamente às solicitações de reunião, um cliente ou servidor deve recusar instâncias que sobrepõem eventos agendados anteriormente. Um valor FALSE ou a ausência dessa propriedade indica que as instâncias de sobreposição devem ser aceitas. Essa não é uma propriedade obrigatória.
+Essa propriedade só será significativa quando o valor da propriedade **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) for VERDADEIRO. Um valor TRUE indica que, ao responder automaticamente a solicitações de reunião, um cliente ou servidor deve recusar instâncias que se sobreponham a eventos agendados anteriormente. Um valor FALSE ou a ausência dessa propriedade indica que instâncias sobrepostas devem ser aceitas. Esta não é uma propriedade necessária.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

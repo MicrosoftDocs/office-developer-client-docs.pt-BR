@@ -1,5 +1,5 @@
 ---
-title: O que há de novo nesta edição
+title: Novidades desta edição
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,79 +15,79 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329544"
 ---
-# <a name="whats-new-in-this-edition"></a>O que há de novo nesta edição
+# <a name="whats-new-in-this-edition"></a>Novidades desta edição
 
  
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A referência de MAPI do Microsoft Outlook 2013 foi atualizada para incluir documentação de vários novos recursos. 
+A Referência de MAPI do Microsoft Outlook 2013 foi atualizada para incluir a documentação de vários novos recursos. 
   
 ## <a name="new-content"></a>Novo conteúdo
 
 O conteúdo foi adicionado para os seguintes recursos:
   
-- O tópico de [introdução à referência de MAPI do outlook 2013](getting-started-with-the-outlook-mapi-reference.md) foi atualizado para fazer referência a informações abrangentes sobre modelos de programação para sua funcionalidade do Outlook e MAPI para ajudá-lo a identificar as APIs e tecnologias mais apropriado para suas necessidades. Os links para o artigo técnico referenciado também foram revisados nos seguintes tópicos: 
+- The [topic Getting Started with the Outlook 2013 MAPI Reference](getting-started-with-the-outlook-mapi-reference.md) has been updated to reference comprehensive information about programming models for your Outlook and MAPI functionality to help you identify the APIs and technologies that are most appropriate for your needs. Os links para o artigo técnico referenciado também foram revisados nos seguintes tópicos: 
     
   - [Referência de MAPI do Outlook](outlook-mapi-reference.md)
     
   - [Visão Geral de Referência de MAPI do Outlook](outlook-mapi-reference-overview.md)
     
-- **Exemplo de provedor de repositório de mensagens**— o código de [exemplo de provedor de repositório PST encapsulado](message-store-provider-sample.md) foi revisado para reconhecer e acomodar o Outlook 2013. Para obter mais informações, consulte conteúdo reVisado anteriormente neste tópico. 
+- **Exemplo de provedor de armazenamento de** mensagens — O código do provedor de armazenamento [PST](message-store-provider-sample.md) com amostra foi revisado para reconhecer e acomodar o Outlook 2013. Para obter mais informações, consulte Conteúdo Revisado Anteriormente neste tópico. 
     
-- **Fluxo de preenchimento automático**— o tópico [cache de Alcunha](nickname-cache.md) , anteriormente o **formato de arquivo Nk2**, foi atualizado para refletir as alterações no Outlook 2013, bem como no Outlook 2010. Os tópicos a seguir agora foram revisados para fornecer informações sobre o formato de arquivo. nk2 diretrizes de desenvolvedor para o Microsoft Outlook 2003/Microsoft Office Outlook 2007 e análise de arquivo binário. Para obter mais informações, consulte conteúdo reVisado anteriormente neste tópico.
+- **Fluxo de preenchimento** automático — o tópico de [cache Nickname,](nickname-cache.md) anteriormente o formato de arquivo **Nk2**, foi atualizado para refletir as alterações no Outlook 2013, bem como no Outlook 2010. Os tópicos a seguir foram revisados para fornecer informações sobre as diretrizes de desenvolvedor de formato de arquivo .nk2 para Microsoft Outlook 2003/Microsoft Office Outlook 2007 e análise de arquivos binários. Para obter mais informações, consulte Conteúdo Revisado Anteriormente neste tópico.
     
   - [Perfis MAPI](mapi-profiles.md)
     
   - [Cache de apelidos](nickname-cache.md)
     
-  - [Fluxo de preenchimento automático](autocomplete-stream.md)
+  - [Fluxo de Preenchimento Automático](autocomplete-stream.md)
     
-- **Interfaces**– o tópico [IAddrBook:: OpenEntry](iaddrbook-openentry.md) documenta um método de abrir uma entrada de catálogo de endereços e retornar um ponteiro para a interface usada para acessá-lo. Anteriormente, ele continha um sinalizador no parâmetro *parâmetroulflags* , **MAPI_GAL_ONLY**, que poderia ser usado para abrir a lista de endereços global (GAL), e foi revisado para incluir sua definição.
+- **Interfaces**-The [IAddrBook::OpenEntry](iaddrbook-openentry.md) topic documents a method of opening an address book entry and returning a pointer to the interface used to access it. Anteriormente, ela continha um sinalizador no parâmetro  *ulFlags,* **MAPI_GAL_ONLY**, que poderia ser usado somente para abrir a Lista de Endereços Global (GAL) e foi revisado para incluir sua definição.
     
-- **Propriedades**– a propriedade nomeada **PR_CONVERSATION_KEY** ([Propriedade canônica PidTagConversationKey](pidtagconversationkey-canonical-property.md)) foi adicionada e relacionada a **IPM. **Mensagens de MessageManager somente no Outlook MAPI. Os seguintes tópicos relacionados a ele e a documentação do Stream do formato de encapsulamento de transporte neutro (TNEF) foram revisados: 
+- **Propriedades**— o **PR_CONVERSATION_KEY** propriedade nomeada ( propriedade canônica [PidTagConversationKey](pidtagconversationkey-canonical-property.md)) foi adicionado e está relacionado ao **IPM. Mensagens messageManager** somente no MAPI do Outlook. Os tópicos a seguir relacionados a ele e a documentação do fluxo Transport-Neutral TNEF foram revisados: 
     
-  - [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+  - [Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
     
   - [Mapeamento de atributos TNEF para propriedades MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID e attParentID](attconversationid-and-attparentid.md)
     
-## <a name="previously-revised-content"></a>Conteúdo reVisado anteriormente
+## <a name="previously-revised-content"></a>Conteúdo revisado anteriormente
 
-O conteúdo foi adicionado em versões anteriores da referência MAPI do Outlook para os seguintes recursos:
+O conteúdo foi adicionado em versões anteriores da Referência de MAPI do Outlook para os seguintes recursos:
   
-- O Microsoft Outlook 2013 permite cenários de implantação não tradicionais, como lado a lado e clique para executar. Esses cenários podem complicar a lógica usada para carregar a biblioteca MAPI apropriada. Os desenvolvedores MAPI agora têm a opção de vincular explicitamente às funções MAPI e podem optar por vincular explicitamente ao stub MAPI do cliente MAPI padrão (por exemplo, Msmapi32. dll do Outlook) sem passar pela biblioteca MAPI e pelo stub MAPI do Windows. Para obter mais informações sobre vinculação explícita em comparação com o vínculo implícito, consulte [link to MAPI Functions](how-to-link-to-mapi-functions.md). A **biblioteca de stub MAPI**, postada no site [codeplex](https://mapistublibrary.codeplex.com/) , fornece uma substituição de redistribuição para Mapi32. lib que oferece suporte à criação de aplicativos MAPI de 32 bits e 64 bits. 
+- O Microsoft Outlook 2013 permite cenários de implantação não tradicionais, como lado a lado e Clique para Executar. Esses cenários podem complicar a lógica usada para carregar a biblioteca MAPI adequada. Os desenvolvedores de MAPI agora têm a opção de vincular explicitamente a funções MAPI e podem optar por vincular explicitamente ao stub MAPI do cliente MAPI padrão (por exemplo, Msmapi32.dll do Outlook) sem passar pela biblioteca MAPI e o stub mapi do Windows. Para obter mais informações sobre vinculação explícita em comparação com vinculação implícita, consulte [Link para funções MAPI](how-to-link-to-mapi-functions.md). A **Biblioteca stub MAPI**, postada no site [do CodePlex,](https://mapistublibrary.codeplex.com/) fornece um substituto de drop-in para Mapi32.lib que dá suporte à criação de aplicativos MAPI de 32 bits e 64 bits. 
     
-- **Suporte para o Microsoft Outlook de 64 bits**— os tópicos de referência para elementos de API aplicáveis foram atualizados para corresponder aos novos arquivos de cabeçalho que dão suporte ao Outlook de 64 bits. Esses arquivos de cabeçalho estão disponíveis como download no [Outlook 2010: Arquivos de cabeçalho MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Um novo exemplo de código foi fornecido em [verificar a versão do Outlook](how-to-check-the-version-of-outlook.md) para mostrar como verificar se a versão instalada do Outlook é de 64 bits do Microsoft Outlook e foi revisada para o Outlook 2013. Se o seu aplicativo de MAPI de 32 bits existente estiver sendo executado em um sistema operacional de 64 bits com o Outlook de 64 bits instalado, você precisará reconstruir seu aplicativo de 32 bits como um aplicativo de 64 bits. Para obter mais informações sobre o suporte a MAPI para o Outlook de 64 bits, consulte [Building MAPI Applications in 32-bit and 64-bit Platforms](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
+- **Suporte para o Microsoft Outlook de 64** bits — Tópicos de referência para elementos de API aplicáveis foram atualizados para corresponder aos novos arquivos de header que suportam o Outlook de 64 bits. Esses arquivos de header estão disponíveis como download no [Outlook 2010: arquivos de header MAPI.](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1) Um novo exemplo de código foi fornecido em Verificar a versão do [Outlook](how-to-check-the-version-of-outlook.md) para mostrar como verificar se a versão instalada do Outlook é do Microsoft Outlook 2010 de 64 bits e foi revisada para o Outlook 2013. Se seu aplicativo MAPI de 32 bits existente for executado em um sistema operacional de 64 bits com o Outlook de 64 bits instalado, você precisará recriar seu aplicativo de 32 bits como um aplicativo de 64 bits. Para obter mais informações sobre o suporte a MAPI para o Outlook de 64 bits, consulte Criando aplicativos MAPI em plataformas de 32 bits e [64 bits.](building-mapi-applications-on-32-bit-and-64-bit-platforms.md)
     
-- **Exemplo de provedor de repositório de mensagens**— o [provedor de exemplo de repositório PST encapsulado](message-store-provider-sample.md) anteriormente foi atualizado para suportar a arquitetura de 64 bits. O exemplo de [inicialização de um tópico do provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md) foi expandido para fornecer informações sobre os "caminhos PST e Unicode encapsulado". 
+- **Exemplo de provedor de armazenamento de** mensagens — O provedor de armazenamento [PST](message-store-provider-sample.md) com conteúdo de exemplo foi atualizado anteriormente para dar suporte à arquitetura de 64 bits. O tópico De inicialização de um provedor de armazenamento [PST](initializing-a-wrapped-pst-store-provider.md) empacotado agora foi expandido para fornecer informações sobre os "Caminhos PST e Unicode empacotados". 
     
-- **Fluxo de preenchimento automático**— o tópico [cache de Alcunha](nickname-cache.md) , anteriormente, o **formato de arquivo Nk2**, foi atualizado para refletir as alterações no Outlook 2013, bem como no Outlook 2010. Informações como a lista de preenchimento automático, que é a lista de nomes que exibe nas caixas de edição **para**, **CC**e **Cco** enquanto um usuário está redigindo um email, agora é salvo no fluxo de [preenchimento automático](autocomplete-stream.md) de uma mensagem no computador local em vez de salvá-lo em um arquivo como no Outlook 2007. 
+- **Fluxo de Preenchimento** Automático — o tópico de [cache Nickname,](nickname-cache.md) anteriormente o formato de arquivo **Nk2**, foi atualizado para refletir as alterações no Outlook 2013, bem como no Outlook 2010. Informações como a lista de preenchimento automático, que é a lista de nomes que é exibida nas caixas de edição **Para** [](autocomplete-stream.md) , **Cc** e **Cc** enquanto um usuário está compondo um email, agora são salvas no Fluxo de Preenchimento Automático de uma mensagem no computador local em vez de salvá-la em um arquivo como no Outlook 2007. 
     
-  - Interagir com o fluxo de preenchimento automático
+  - Interagindo com o fluxo de preenchimento automático
     
-  - Carregar o fluxo de preenchimento automático
+  - Carregando o fluxo de preenchimento automático
     
   - Salvando o fluxo de preenchimento automático
     
-- **Suporte de desligaMento rápido para clientes MAPI**— os clientes MAPI agora podem iniciar um desligamento rápido e fazer com que o subsistema MAPI notifique os provedores carregados para minimizar a perda de dados do desligamento rápido. Foram adicionadas interfaces adicionais para o cliente e o provedor suportar o desligamento rápido. Para obter mais informações sobre o desligamento rápido, consulte [Client Shutdown in MAPI](client-shutdown-in-mapi.md).
+- **Suporte de desligamento** rápido para clientes MAPI — os clientes MAPI agora podem iniciar um desligamento rápido e fazer com que o subsistema de MAPI notifique os provedores carregados para minimizar a perda de dados do desligamento rápido. Interfaces adicionais foram adicionadas para o cliente e o provedor suportarem o desligamento rápido. Para obter mais informações sobre o desligamento rápido, consulte [o Desligamento do Cliente em MAPI.](client-shutdown-in-mapi.md)
     
-- **Estrutura de fluxo para definições de campo para um item do Outlook**— a documentação de um fluxo binário para a propriedade [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) foi adicionada. Esta propriedade especifica as definições de todos os campos personalizados e configurações de associação de dados para campos internos de um item do Outlook. 
+- **Estrutura de fluxo para definições** de campo para um item do Outlook — a documentação de um fluxo binário para a propriedade [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) foi adicionada. Esta propriedade especifica definições de todos os campos personalizados e configurações de vinculação de dados para campos integrados de um item do Outlook. 
     
-- **Substituição de repositório pessoal**— as seguintes interfaces e seus respectivos métodos foram adicionados para suportar a substituição do arquivo de pastas particulares (PST) provedores de repositórios **PSTDisableGrow** : 
+- **Substituição de** Armazenamento Pessoal — As interfaces a seguir e seus respectivos métodos foram adicionados para dar suporte à substituição da política PSTDisableGrow de provedores de armazenamento **PSTDisableGrow** do arquivo de Pastas Particulares: 
     
-    [IPSTOVERRIDEREQ:: IUnknown](ipstoverridereqiunknown.md)
+    [IPSTOVERRIDEREQ::IUnknown](ipstoverridereqiunknown.md)
     
-    [IPSTOVERRIDE1:: IUnknown](ipstoverride1iunknown.md)
+    [IPSTOVERRIDE1::IUnknown](ipstoverride1iunknown.md)
     
-- **Usando várias contas do Exchange**— a documentação da [API do catálogo de endereços MAPI](using-multiple-exchange-accounts.md) foi adicionada. Esta API foi aprimorada para dar suporte a várias contas do Exchange no Microsoft Outlook 2010 e agora inclui o Microsoft Outlook 2013. Para resolver endereços corretamente com várias contas do Exchange, use as novas funções que usam um contexto de conta para que as chamadas ao catálogo de endereços pesquisem a conta correta do Exchange. 
+- **Usando várias contas do Exchange —** a documentação da API do Address Book [MAPI](using-multiple-exchange-accounts.md) foi adicionada. Essa API foi aprimorada para dar suporte a várias contas do Exchange no Microsoft Outlook 2010 e agora inclui o Microsoft Outlook 2013. Para resolver os endereços corretamente com várias contas do Exchange, use as novas funções que usam um contexto de conta para que as chamadas para o livro de endereços pesquisem a conta correta do Exchange. 
     
-- **Formatos de arquivo MAPI**— as informações de configuração MAPI foram expandidas para explicar como você pode usar caminhos no [registro de serviços e provedores de serviços no MapiSvc. inf](registering-services-and-service-providers-in-mapisvc-inf.md).
+- **Formatos** de arquivo MAPI as informações de configuração MAPI foram expandidas para explicar como você pode usar caminhos em Registrar Serviços e Provedores de Serviços em [MapiSvc.inf](registering-services-and-service-providers-in-mapisvc-inf.md).
     
-- **Propriedades**— as seguintes propriedades marcadas foram adicionadas além da documentação para 38 outras propriedades marcadas e propriedades nomeadas que foram adicionadas anteriormente:
+- **Propriedades**— As seguintes propriedades marcadas foram adicionadas além da documentação de 38 outras propriedades marcadas e propriedades nomeadas que foram adicionadas anteriormente:
     
   - [PidTagAddressBookChooseDirectoryAutomatically](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md)
     
@@ -101,11 +101,11 @@ O conteúdo foi adicionado em versões anteriores da referência MAPI do Outlook
     
   - [PidTagStoreEntryIdEmsmdbV1](pidtagstoreentryidemsmdbv1-canonical-property.md)
     
-- **Constantes MAPI**— as [constantes MAPI](mapi-constants.md) consolidadas foram expandidas. Em versões anteriores, elas foram distribuídas em vários tópicos, mas agora são coletadas em um único tópico para facilitar a descoberta e o uso. Eles também foram expandidos para fornecer uma cobertura mais abrangente, incluindo as seguintes seções: 
+- **Constantes MAPI**— As [constantes MAPI](mapi-constants.md) consolidadas foram expandidas. Em versões anteriores, eles eram distribuídos em vários tópicos, mas agora são coletados em um único tópico para facilitar a descoberta e o uso. Eles também foram expandidos para oferecer uma cobertura mais extensa, incluindo as seguintes seções: 
     
-  - Definições de códigos de erro do catálogo de endereços do Exchange e do repositório de mensagens
+  - Definições para o Exchange Address Book e códigos de erro do armazenamento de mensagens
     
-  - Definições para cotas do modo cache de caixa de correio do Exchange Server
+  - Definições para Cotas do Modo Cache de Caixa de Correio do Exchange Server
     
 ## <a name="see-also"></a>Confira também
 

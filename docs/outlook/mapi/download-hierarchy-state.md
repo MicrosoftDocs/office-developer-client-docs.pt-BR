@@ -1,5 +1,5 @@
 ---
-title: Estado de hierarquia de download
+title: Estado de Hierarquia de Download
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32337006"
 ---
-# <a name="download-hierarchy-state"></a>Estado de hierarquia de download
+# <a name="download-hierarchy-state"></a>Estado de Hierarquia de Download
 
   
   
@@ -27,19 +27,19 @@ ms.locfileid: "32337006"
 |:-----|:-----|
 |Identificador de Estado:  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
 |Estrutura de dados relacionada:  <br/> |**[DNHIER](dnhier.md)** <br/> |
-|A partir deste Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
-|Para este Estado:  <br/> |Estado Sincronizar  <br/> |
+|Desse estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Para esse estado:  <br/> |Estado Sincronizar  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
+> A máquina de estado de replicação é uma máquina de estado determinística. Um cliente que sai de um estado para outro eventualmente deve retornar ao primeiro do último. 
   
 ## <a name="description"></a>Descrição
 
-Esse estado inicia o download de uma hierarquia de árvore de pastas de um servidor para o repositório local. 
+Esse estado inicia o download de uma hierarquia de árvore de pastas de um servidor para o armazenamento local. 
   
-O Outlook Inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente baixa a hierarquia e insere novas pastas ou modificações em pastas no repositório local. O processo de download adota a sincronização de alteração incremental (ICS) do Microsoft Exchange. Confira mais informações sobre ICS em [Critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+O Outlook inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente baixa a hierarquia e insere novas pastas ou modificações em pastas no armazenamento local. O processo de download adota o Microsoft Exchange Incremental Change Synchronization (ICS). Confira mais informações sobre ICS em [Critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
-Quando esse estado termina, o repositório local retorna ao estado de sincronização.
+Quando esse estado termina, o armazenamento local retorna ao estado de sincronização.
   
 ## <a name="see-also"></a>Confira também
 

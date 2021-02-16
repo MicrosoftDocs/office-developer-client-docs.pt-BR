@@ -1,5 +1,5 @@
 ---
-title: Sobre a Planilha ShapeSheet
+title: Sobre a planilha ShapeSheet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -40,7 +40,7 @@ O exemplo a seguir mostra a barra de fórmulas ![barra de fórmulas](media/callo
   
 ![janela ShapeSheet.](media/ShpSheetRef_CA_02a_ZA07645861.gif)
   
-Quando você desenha uma forma, o Visio registra essa forma como um conjunto de locações horizontais e verticais conectadas com o segmentos de linha. Esses locais (chamados vértices) são gravados nas células X e Y da seção de**geometria** da forma. Conforme mostrado no exemplo a seguir, quando você clica em células X e Y na seção **geometria** de uma janela de forma ShapeSheet, você verá uma caixa com as bordas pretas, realçando o vértice de forma na janela de desenho. 
+Quando você desenha uma forma, o Visio registra essa forma como um conjunto de locações horizontais e verticais conectadas com o segmentos de linha. Esses locais (chamados vértices) são gravados nas células X e Y da seção de **geometria** da forma. Conforme mostrado no exemplo a seguir, quando você clica em células X e Y na seção **geometria** de uma janela de forma ShapeSheet, você verá uma caixa com as bordas pretas, realçando o vértice de forma na janela de desenho. 
   
 ![Caixa com bordas pretas, realçando o vértice de forma na janela de desenho](media/ShpSheetRef_CA_01_ZA07645860.gif)
   
@@ -48,9 +48,9 @@ Quando você desenha uma forma, o Visio registra essa forma como um conjunto de 
 
 Quando uma janela do ShapeSheet está ativa, a faixa de opções é alterada para exibir opções específicas ao trabalho nessa janela. Ao selecionar uma célula do ShapeSheet, é exibida uma barra de fórmulas, a qual é utilizada para inserir e editar as fórmulas de um objeto. Uma outra alternativa é trabalhar diretamente na célula.
   
-Em uma janela de ShapeSheet, você pode adicionar seções a uma planilha de forma para adicionar novas características ao formato na página de desenho. Por exemplo, você pode adicionar uma seção**pontos de Conexão** para criar uma conexão. Quando não precisar de uma seção, você pode excluí-la. 
+Em uma janela de ShapeSheet, você pode adicionar seções a uma planilha de forma para adicionar novas características ao formato na página de desenho. Por exemplo, você pode adicionar uma seção **pontos de Conexão** para criar uma conexão. Quando não precisar de uma seção, você pode excluí-la. 
   
-Você também pode adicionar linhas às seções para manter  fórmulas adicionais ou para alterar a aparência da forma. Por exemplo, você pode adicionar uma linha a uma seção **geometria**para adicionar um segmento de forma. Da mesma forma, você pode excluir linhas desnecessárias. 
+Você também pode adicionar linhas às seções para manter  fórmulas adicionais ou para alterar a aparência da forma. Por exemplo, você pode adicionar uma linha a uma seção **geometria** para adicionar um segmento de forma. Da mesma forma, você pode excluir linhas desnecessárias. 
   
 Tanto fórmulas como valores podem ser exibidos nas células. Exiba as fórmulas quando estiver inserindo novas fórmulas, editando fórmulas existentes ou para visualizar como as fórmulas se relacionam entre si nas células. Um valor é o resultado obtido quando o Visio avalia a fórmula de uma célula. É possível exibir os valores nas células para ver o resultado de uma avaliação.
   

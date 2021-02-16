@@ -21,34 +21,34 @@ ms.locfileid: "32339596"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A série de ações a seguir descrevem como os transportes usam métodos TNEF para processar mensagens de saída e de entrada.
+A série de ações a seguir descreve como os transporte usam métodos TNEF para processar mensagens de saída e de entrada.
   
  **Para enviar uma mensagem que inclui um fluxo TNEF**
   
-1. Processe as propriedades da mensagem que são suportadas pelo sistema de mensagens.
+1. Processe as propriedades de mensagem que são suportadas pelo sistema de mensagens.
     
-2. Marcar a mensagem em uma forma específica de implementação para que o provedor de transporte de recebimento possa determinar que a mensagem requer processamento TNEF. Por exemplo, um provedor de transporte TNEF enviando para um sistema de mensagens SMTP pode adicionar um campo de cabeçalho personalizado como "X-CONTAINS-TNEF" para indicar que a mensagem contém dados TNEF.
+2. Marque a mensagem de uma maneira específica de implementação para que o provedor de transporte de recebimento possa determinar que a mensagem requer processamento TNEF. Por exemplo, um provedor de transporte TNEF enviando para um sistema de mensagens SMTP pode adicionar um campo de header personalizado como "X-CONTAINS-TNEF" para indicar que a mensagem contém dados TNEF.
     
 3. Obtenha um objeto TNEF e use-o para encapsular as propriedades de mensagem não suportadas pelo sistema de mensagens em um fluxo TNEF.
     
-4. Codifique o fluxo TNEF usando o modelo de anexo do sistema de mensagens. Por exemplo, se o modelo de anexo subjacente for uuencode anexos e acrescentá-los ao texto da mensagem, o provedor de transporte deverá uuencode o fluxo TNEF para outro anexo. O provedor de transporte também deve implementar um método para reconhecer qual anexo contém o fluxo TNEF codificado quando recebe uma mensagem. O modo padrão de marcar esse anexo é dar a ele um nome de arquivo de anexo de "WINMAIL. DAT ". Se o seu provedor de transporte fizer isso, todos os outros provedores de transporte habilitados para TNEF que seguirem essa Convenção poderão interoperar com ele.
+4. Codificar o fluxo TNEF usando o modelo de anexo do sistema de mensagens. Por exemplo, se o modelo de anexo subjacente for para codificar anexos e aendá-los ao texto da mensagem, o provedor de transporte deverá codificar o fluxo TNEF em outro anexo. O provedor de transporte também deve implementar um método para reconhecer qual anexo contém o fluxo TNEF codificado quando recebe uma mensagem. A maneira padrão de marcar esse anexo é dar a ele um nome de arquivo de anexo "WINMAIL. DAT". Se o provedor de transporte fizer isso, qualquer outro provedor de transporte habilitado para TNEF que seguir essa convenção poderá interoperar com ela.
     
-5. Use os métodos de interface [ITnef: IUnknown](itnefiunknown.md) para inserir marcas descrevendo as posições dos anexos de mensagens no texto da mensagem. 
+5. Use [ITnef : métodos](itnefiunknown.md) de interface IUnknown para inserir marcas que descrevem as posições dos anexos de mensagem no texto da mensagem. 
     
-6. Acessar o texto da mensagem marcada por meio de métodos [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) e enviá-lo ao sistema de mensagens. 
+6. Acesse o texto da mensagem marcado por [meio dos métodos IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) e envie-o para o sistema de mensagens. 
     
  **Para recuperar propriedades encapsuladas**
   
-1. Escreva as propriedades aceitas pelo sistema de mensagens em uma nova mensagem, incluindo o texto da mensagem marcada que contém as propriedades encapsuladas.
+1. Escreva as propriedades suportadas pelo sistema de mensagens em uma nova mensagem, incluindo o texto da mensagem marcado que contém as propriedades encapsuladas.
     
-2. DeCodifique o fluxo TNEF do anexo adequado.
+2. Decodificar o fluxo TNEF do anexo apropriado.
     
-3. DeCodifique quaisquer outros anexos e grave-os em novos anexos MAPI em uma mensagem.
+3. Decodificar quaisquer outros anexos e gravar em novos anexos MAPI em uma mensagem.
     
-4. Abra o fluxo TNEF para decodificação usando a função [OpenTnefStreamEx](opentnefstreamex.md) . 
+4. Abra o fluxo TNEF para decodificação usando a [função OpenTnefStreamEx.](opentnefstreamex.md) 
     
-5. Use o método [ITnef:: ExtractProps](itnef-extractprops.md) para decodificar o fluxo TNEF e gravar as propriedades encapsuladas na nova mensagem. Quaisquer propriedades codificadas que sejam duplicatas de propriedades não codificadas substituirão as propriedades não codificadas quando as propriedades codificadas forem decodificadas. 
+5. Use o [método ITnef::ExtractProps](itnef-extractprops.md) para decodificar o fluxo TNEF e gravar as propriedades encapsuladas na nova mensagem. Quaisquer propriedades codificadas que sejam duplicatas de propriedades não codificadas substituirão as propriedades não codificadas quando as propriedades codificadas são decodificadas. 
     
-6. Use o método [ITnef:: OpenTaggedBody](itnef-opentaggedbody.md) para analisar o texto da mensagem para recuperar posições de anexo das marcas no texto da mensagem. 
+6. Use o [método ITnef::OpenTaggedBody](itnef-opentaggedbody.md) para analisar o texto da mensagem para recuperar posições de anexo das marcas no texto da mensagem. 
     
 

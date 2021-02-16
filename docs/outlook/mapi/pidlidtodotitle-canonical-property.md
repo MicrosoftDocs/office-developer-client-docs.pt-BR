@@ -25,7 +25,7 @@ ms.locfileid: "32339939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém texto que especifique o usuário para identificar esse objeto Message em uma lista de tarefas consolidadas.
+Contém texto especificado pelo usuário para identificar esse objeto de mensagem em uma lista de a fazer consolidada.
   
 |||
 |:-----|:-----|
@@ -33,33 +33,33 @@ Contém texto que especifique o usuário para identificar esse objeto Message em
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x000085A4  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade não deve ser definida em uma tarefa. Para indicar uma propriedade vazia, não defina essa propriedade como a cadeia de caracteres de comprimento zero, mas, em vez disso, exclua-a. 
+Essa propriedade não deve ser definida em uma tarefa. Para indicar uma propriedade vazia, não de definida como a cadeia de caracteres de comprimento zero; em vez disso, exclua-a. 
   
-Ao sinalizar um objeto Message e a propriedade não existir, um cliente deve gravar o valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) nessa propriedade.
+Ao sinalizar um objeto de mensagem e a propriedade não existir, um cliente deve gravar o valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) para essa propriedade.
   
-Em uma lista de tarefas consolidadas, se essa propriedade não existir, um cliente deve substituir o valor da propriedade **PR_NORMALIZED_SUBJECT** ao exibir essa propriedade na lista de tarefas pendentes. 
+Em uma lista de coisas a fazer consolidada, se essa propriedade não existir, um cliente deverá substituir o valor da propriedade **PR_NORMALIZED_SUBJECT** ao exibir essa propriedade na lista de a fazer. 
   
-Em um objeto de mensagem de rascunho, se o cliente implementar os sinalizadores de remetente, essa propriedade deverá ser definida com o mesmo valor que **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).
+Em um objeto de mensagem de rascunho, se o cliente implementa sinalizadores de remetente, essa propriedade deve ser definida com o mesmo valor que **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -76,7 +76,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

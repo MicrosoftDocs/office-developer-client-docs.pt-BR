@@ -36,7 +36,7 @@ Contém um número que indica qual ícone usar ao exibir um grupo de objetos de 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade, se existir, é uma dica ao cliente. O cliente pode ignorar o valor dessa propriedade. 
+Essa propriedade, se existir, é uma dica para o cliente. O cliente pode ignorar o valor dessa propriedade. 
   
 |**Estado do item de email**|**Índice de ícone**|
 |:-----|:-----|
@@ -48,89 +48,89 @@ Essa propriedade, se existir, é uma dica ao cliente. O cliente pode ignorar o v
 |Email enviado  <br/> |0x00000102  <br/> |
 |Email não enviado  <br/> |0x00000103  <br/> |
 |Email de recebimento  <br/> |0x00000104  <br/> |
-|Emails respondidos  <br/> |0x00000105  <br/> |
+|Email respondido  <br/> |0x00000105  <br/> |
 |Email encaminhado  <br/> |0x00000106  <br/> |
 |Email remoto  <br/> |0x00000107  <br/> |
 |Entrega de email  <br/> |0x00000108  <br/> |
 |Ler email  <br/> |0x00000109  <br/> |
-|Emails não entregues  <br/> |0x0000010A  <br/> |
-|Emails não lidos  <br/> |0x0000010B  <br/> |
+|Nondelivery mail  <br/> |0x0000010A  <br/> |
+|Email não lido  <br/> |0x0000010B  <br/> |
 |Recall_S email  <br/> |0x0000010C  <br/> |
 |Recall_F email  <br/> |0x0000010D  <br/> |
-|Controle de email  <br/> |0x0000010E  <br/> |
-|Email de ausência temporária  <br/> |0x0000011B  <br/> |
-|Cancelar email  <br/> |0x0000011C  <br/> |
-|Email controlado  <br/> |0x00000130  <br/> |
+|Acompanhar emails  <br/> |0x0000010E  <br/> |
+|Email de fora do escritório  <br/> |0x0000011B  <br/> |
+|Recall mail  <br/> |0x0000011C  <br/> |
+|Email rastreado  <br/> |0x00000130  <br/> |
 |Contato  <br/> |0x00000200  <br/> |
 |Lista de distribuição  <br/> |0x00000202  <br/> |
-|Azul de nota auto-adesiva  <br/> |0x00000300  <br/> |
-|Verde-nota auto-adesiva  <br/> |0x00000301  <br/> |
-|Rosa de nota auto-adesiva  <br/> |0x00000302  <br/> |
-|Amarelo de nota auto-adesiva  <br/> |0x00000303  <br/> |
-|Branco de nota auto-adesiva  <br/> |0x00000304  <br/> |
+|Observação sticky azul  <br/> |0x00000300  <br/> |
+|Observação sticky verde  <br/> |0x00000301  <br/> |
+|Nota colada rosa  <br/> |0x00000302  <br/> |
+|Observação sticky amarelo  <br/> |0x00000303  <br/> |
+|Nota sticky branca  <br/> |0x00000304  <br/> |
 |Compromisso de instância única  <br/> |0x00000400  <br/> |
 |Compromisso recorrente  <br/> |0x00000401  <br/> |
 |Reunião de instância única  <br/> |0x00000402  <br/> |
 |Reunião recorrente  <br/> |0x00000403  <br/> |
 |Solicitação de reunião  <br/> |0x00000404  <br/> |
 |Aceitar  <br/> |0x00000405  <br/> |
-|Aceito  <br/> |0x00000406  <br/> |
+|Recusar  <br/> |0x00000406  <br/> |
 |Tentativly  <br/> |0x00000407  <br/> |
 |Cancelamento  <br/> |0x00000408  <br/> |
-|Atualização inFormativa  <br/> |0x00000409  <br/> |
+|Atualização informacional  <br/> |0x00000409  <br/> |
 |Tarefa/tarefa  <br/> |0x00000500  <br/> |
 |Tarefa recorrente não atribuída  <br/> |0x00000501  <br/> |
 |Tarefa do destinatário  <br/> |0x00000502  <br/> |
-|Tarefa do destinatário  <br/> |0x00000503  <br/> |
+|Tarefa do atribuídor  <br/> |0x00000503  <br/> |
 |Solicitação de tarefa  <br/> |0x00000504  <br/> |
-|Aceitação de tarefas  <br/> |0x00000505  <br/> |
-|Rejeição de tarefa  <br/> |0x00000506  <br/> |
-|Conversa do diário  <br/> |0x00000601  <br/> |
+|Aceitação da tarefa  <br/> |0x00000505  <br/> |
+|Rejeição da tarefa  <br/> |0x00000506  <br/> |
+|Conversa no diário  <br/> |0x00000601  <br/> |
 |Mensagem de email do diário  <br/> |0x00000602  <br/> |
-|Solicitação de reunião do diário  <br/> |0x00000603  <br/> |
-|Resposta de reunião do diário  <br/> |0x00000604  <br/> |
-|Solicitação de tarefa do diário  <br/> |0x00000606  <br/> |
-|Resposta de tarefa do diário  <br/> |0x00000607  <br/> |
-|Anotação do diário  <br/> |0x00000608  <br/> |
-|Fax do diário  <br/> |0x00000609  <br/> |
-|Chamada telefônica do diário  <br/> |0x0000060A  <br/> |
-|Carta do diário  <br/> |0x0000060C  <br/> |
+|Solicitação de reunião no diário  <br/> |0x00000603  <br/> |
+|Resposta de reunião no diário  <br/> |0x00000604  <br/> |
+|Solicitação de tarefa de diário  <br/> |0x00000606  <br/> |
+|Resposta de tarefa de diário  <br/> |0x00000607  <br/> |
+|Observação do diário  <br/> |0x00000608  <br/> |
+|Fax de diário  <br/> |0x00000609  <br/> |
+|Chamada telefônica de diário  <br/> |0x0000060A  <br/> |
+|Carta de diário  <br/> |0x0000060C  <br/> |
 |Diário do Microsoft Office Word  <br/> |0x0000060D  <br/> |
 |Diário do Microsoft Office Excel  <br/> |0x0000060E  <br/> |
-|Registrar em diário o Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
+|Diário do Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
 |Diário do Microsoft Office Access  <br/> |0x00000610  <br/> |
-|Documento de diário  <br/> |0x00000612  <br/> |
-|Reunião de diário  <br/> |0x00000613  <br/> |
-|Cancelamento de reunião do diário  <br/> |0x00000614  <br/> |
-|Sessão remota do diário  <br/> |0x00000615  <br/> |
+|Documento do diário  <br/> |0x00000612  <br/> |
+|Reunião no diário  <br/> |0x00000613  <br/> |
+|Cancelamento de reunião no diário  <br/> |0x00000614  <br/> |
+|Sessão remota de diário  <br/> |0x00000615  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
+> Especifica as propriedades e operações permitidas em objetos de mensagem de email.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas em contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -142,7 +142,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

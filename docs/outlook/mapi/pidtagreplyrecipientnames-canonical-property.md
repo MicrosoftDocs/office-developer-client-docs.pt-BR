@@ -25,7 +25,7 @@ ms.locfileid: "32355171"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de nomes de exibição para destinatários que devem receber uma resposta.
+Contém uma lista de nomes para exibição de destinatários que receberão uma resposta.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém uma lista de nomes de exibição para destinatários que devem receber u
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm os nomes de exibição separados por ponto e vírgula.
+Essas propriedades contêm os nomes para exibição separados por ponto e vírgula.
   
-Quando essa propriedade não está presente, uma resposta é enviada somente para o usuário identificado pela propriedade **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Quando **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) e essas propriedades são definidas, a resposta é enviada a todos os destinatários identificados por essas duas propriedades. Um provedor de transporte usa essas propriedades para substituir a lógica de resposta usual.
+Quando essa propriedade não está presente, uma resposta é enviada apenas ao usuário identificado pela propriedade **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Quando **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) e essas propriedades são definidas, a resposta é enviada a todos os destinatários identificados por essas duas propriedades. Um provedor de transporte usa essas propriedades para substituir a lógica de resposta comum.
   
-Se **PR_REPLY_RECIPIENT_ENTRIES** ou essas propriedades estiverem definidas, a outra propriedade também deverá ser definida. Essas propriedades devem conter o mesmo número de destinatários, e devem contê-los na mesma ordem. A falha ao observar esses requisitos pode causar resultados imprevisíveis. 
+Se **PR_REPLY_RECIPIENT_ENTRIES** ou essas propriedades são definidas, a outra propriedade deve ser definida também. Essas propriedades devem conter o mesmo número de destinatários e devem contê-los na mesma ordem. A falha ao observar esses requisitos pode causar resultados imprevisíveis. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em mensagens de email.
+> Especifica as propriedades e operações permitidas em mensagens de email.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

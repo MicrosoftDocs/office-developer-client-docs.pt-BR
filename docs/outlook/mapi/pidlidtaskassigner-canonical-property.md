@@ -25,7 +25,7 @@ ms.locfileid: "32340086"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Nomeia o usuário que recebeu a última atribuição da tarefa. 
+ Nomeia o usuário que foi atribuído pela última vez à tarefa. 
   
 |||
 |:-----|:-----|
@@ -33,27 +33,27 @@ ms.locfileid: "32340086"
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008121  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se a tarefa não tiver sido atribuída, essa propriedade será à esquerda desdefinida. Como o cliente define essa propriedade depois que o destinatário da tarefa recebe uma solicitação de tarefa, a propriedade não será definida na cópia da tarefa do destinatário da tarefa. Quando o cliente adiciona ou remove um separador de tarefas da lista de destinatários de tarefas na propriedade **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), a propriedade **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) deve ser definida como adicionado ou um atribuínte de tarefas removido.
+Se a tarefa não tiver sido atribuída, essa propriedade será deixada desanhada. Como o cliente define essa propriedade depois que o destinatário da tarefa recebe uma solicitação de tarefa, a propriedade não será definida na cópia da tarefa do destinatário da tarefa. Quando o cliente adiciona ou remove um atribuídor de tarefa da lista de atribuição de tarefas na propriedade **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), a **propriedade dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) deve ser definida para o atribuídor de tarefa adicionado ou removido.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

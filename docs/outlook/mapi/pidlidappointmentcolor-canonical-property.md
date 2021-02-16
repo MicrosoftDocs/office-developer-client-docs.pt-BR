@@ -37,7 +37,7 @@ Especifica a cor a ser usada ao exibir o calendário.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica a cor a ser usada ao exibir o calendário. Um cliente ou servidor deve definir esse valor para compatibilidade com versões anteriores de clientes mais antigos. Em vez disso, ele pode exibir o calendário com base no **** valor da Propriedade Keywords ([PidNameKeywords](pidnamekeywords-canonical-property.md)) conforme especificado em [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Quando definido, o valor deve ser um dos seguintes.
+Essa propriedade especifica a cor a ser usada ao exibir o calendário. Um cliente ou servidor deve definir esse valor para compatibilidade com versões mais antigas. Em vez disso, ele pode exibir o calendário com base no valor da propriedade **Keywords** ([PidNameKeywords](pidnamekeywords-canonical-property.md)), conforme especificado em [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Quando definido, o valor deve ser um dos seguintes.
   
 |**Valor**|**Color**|
 |:-----|:-----|
@@ -51,23 +51,23 @@ Esta propriedade especifica a cor a ser usada ao exibir o calendário. Um client
 |0x00000007  <br/> |Verde-oliva  <br/> |
 |0x00000008  <br/> |Roxo  <br/> |
 |0x00000009  <br/> |Azul-petróleo  <br/> |
-|Interrupção  <br/> |Amarelo  <br/> |
+|0x0000000A  <br/> |Amarelo  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -79,7 +79,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32345476"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o cabeçalho de local de conteúdo de um anexo de mensagem MIME (Multipurpose Internet Mail Extensions). 
+Contém o título do local de conteúdo de um anexo de mensagem MIME (Multipurpose Internet Mail Extensions). 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contém o cabeçalho de local de conteúdo de um anexo de mensagem MIME (Multipu
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são usadas para suporte a MHTML. Eles representam o cabeçalho de local de conteúdo para a parte de corpo MIME apropriada. 
+Essas propriedades são usadas para suporte a MHTML. Eles representam o título do local de conteúdo para a parte apropriada do corpo MIME. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

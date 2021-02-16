@@ -25,7 +25,7 @@ ms.locfileid: "32356039"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o último usuário que respondeu à solicitação de reunião ou ao objeto de atualização de reunião.
+Especifica o usuário que respondeu pela última vez à solicitação de reunião ou ao objeto de atualização da reunião.
   
 |||
 |:-----|:-----|
@@ -33,15 +33,15 @@ Especifica o último usuário que respondeu à solicitação de reunião ou ao o
 |Conjunto de propriedades:  <br/> |PSETID_Appointment  <br/> |
 |Long ID (LID):  <br/> |0x00008230  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Meetings  <br/> |
+|Área:  <br/> |Reuniões  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade só é definida para um delegante quando um representante responder. O valor é igual à propriedade **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o repositório do representante. Esta propriedade não tem significado para o organizador. Para obter detalhes sobre o **PR_MAILBOX_OWNER_NAME**, consulte o protocolo de objeto de armazenamento especificado em [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
+Essa propriedade só é definida para um delegante quando um representante respondeu. O valor é igual à **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o armazenamento do representante. Essa propriedade não tem significado para o organizador. Para obter detalhes **PR_MAILBOX_OWNER_NAME**, consulte o protocolo de objeto de armazenamento especificado [em [MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -49,15 +49,15 @@ Esta propriedade só é definida para um delegante quando um representante respo
     
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -69,7 +69,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

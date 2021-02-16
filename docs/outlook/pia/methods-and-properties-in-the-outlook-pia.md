@@ -46,7 +46,7 @@ Continuando a usar o objeto **FormRegion** como exemplo, a lista a seguir examin
 
 - A classe FormRegionClass define todos os membros de métodos, propriedades e eventos de FormRegion. Esta é a classe à qual a interface FormRegion é atribuída para associar-se com os bastidores, de modo que você possa escrever um código para criar uma instância da interface FormRegion. Porém, você não deve usar essa interface diretamente em código.
 
-- A interface FormRegion herda a interface \_FormRegion interface e a interface**FormRegionEvents**\_Event. A Figura 1 ilustra esta relação de herança.
+- A interface FormRegion herda a interface \_FormRegion interface e a interface **FormRegionEvents**\_Event. A Figura 1 ilustra esta relação de herança.
     
   **Figura 1. A interface FormRegion herda métodos e propriedades da interface \_FormRegion e herda eventos da interface FormRegionEvents\_Event**
 
@@ -56,7 +56,7 @@ Continuando a usar o objeto **FormRegion** como exemplo, a lista a seguir examin
 
 Usando o objeto **Application** como outro exemplo, você acessa o objeto **Application**, métodos, propriedade e eventos através da interface [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)). Entretanto, existem três exceções nas quais você deve usar uma interface diferente ou, dependendo da linguagem, você desejaria usar uma interface diferente:
 
-- Quando você acessa um método que compartilha o mesmo nome de um evento, uma prática recomendada é converter a interface primária para chamar o método. Por exemplo, o objeto **Application** tem um método [Quit](https://msdn.microsoft.com/library/bb646614\(v=office.15\)) e um evento[Quit](https://msdn.microsoft.com/library/bb622595\(v=office.15\)). No Visual Basic .NET, você pode acessar o método Quit através da interface Application. Em C\#, é possível evitar um aviso do compilador ao converter o método Quit para a interface primária, como mostrado na seguinte amostra de código:
+- Quando você acessa um método que compartilha o mesmo nome de um evento, uma prática recomendada é converter a interface primária para chamar o método. Por exemplo, o objeto **Application** tem um método [Quit](https://msdn.microsoft.com/library/bb646614\(v=office.15\)) e um evento [Quit](https://msdn.microsoft.com/library/bb622595\(v=office.15\)). No Visual Basic .NET, você pode acessar o método Quit através da interface Application. Em C\#, é possível evitar um aviso do compilador ao converter o método Quit para a interface primária, como mostrado na seguinte amostra de código:
     
    ```csharp
       void DemoApp()
@@ -69,7 +69,7 @@ Usando o objeto **Application** como outro exemplo, você acessa o objeto **Appl
 
 - Quando você acessa um evento que compartilha o mesmo nome de um método daquele objeto, você deve converter a interface de eventos apropriada para conectar-se com o evento. Semelhante ao exemplo acima, para se conectar ao evento Quit, converta para a interface [ApplicationEvents\_11\_Event](https://msdn.microsoft.com/library/bb622725\(v=office.15\)).
 
-- Quando você se conectar a uma versão anterior de um evento foi estendida posteriormente em uma versão posterior do Outlook, você deve se conectar à versão do evento na interface anterior. Por exemplo, se você deseja se conectar à versão do evento Quit para o objeto **Application** implementado para Outlook 2002 em vez da versão mais recente, conecte-se ao evento [Quit](https://msdn.microsoft.com/library/bb609660\(v=office.15\)) definido para a interface[ApplicationEvents\_10\_Event](https://msdn.microsoft.com/library/bb610098\(v=office.15\)) em vez do evento definido na interface ApplicationEvents\_11\_Event.
+- Quando você se conectar a uma versão anterior de um evento foi estendida posteriormente em uma versão posterior do Outlook, você deve se conectar à versão do evento na interface anterior. Por exemplo, se você deseja se conectar à versão do evento Quit para o objeto **Application** implementado para Outlook 2002 em vez da versão mais recente, conecte-se ao evento [Quit](https://msdn.microsoft.com/library/bb609660\(v=office.15\)) definido para a interface [ApplicationEvents\_10\_Event](https://msdn.microsoft.com/library/bb610098\(v=office.15\)) em vez do evento definido na interface ApplicationEvents\_11\_Event.
 
 ## <a name="see-also"></a>Confira também
 

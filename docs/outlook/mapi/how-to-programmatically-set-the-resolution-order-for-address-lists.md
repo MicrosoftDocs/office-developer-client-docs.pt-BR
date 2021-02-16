@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Última modificação: 06 de julho de 2012'
+description: 'Last modified: July 06, 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,41 +17,41 @@ ms.locfileid: "32345956"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo de código em C++ que define programaticamente a ordem das listas de endereços pelas quais os destinatários em mensagens de email e participantes nas solicitações de reunião são resolvidos.
+Este tópico contém um exemplo de código em C++ que define programaticamente a ordem das listas de endereços pelas quais os destinatários em mensagens de email e participantes em solicitações de reunião são resolvidos.
   
-No MAPI, cada perfil pode dar suporte a várias listas de endereços, e cada lista de endereços reside em seu próprio contêiner. O MAPI dá suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface que permite definir um novo caminho de pesquisa no perfil usado para resolução de nomes. Para usar o método **IAddrBook:: SetSearchPath** , você precisa definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especificar a matriz como o *lpSearchPath*  Construtor. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente. 
+No MAPI, cada perfil pode dar suporte a várias listas de endereços e cada lista de endereços reside em seu próprio contêiner. MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution. To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do livro de endereços correspondente. 
   
 O exemplo de código define a ordem de resolução nas seguintes etapas:
   
-1. Inicializa `numANR` como o número de contêineres a ser correspondido e especifica os nomes e a ordem de resolução das listas de endereços `ANROrder` desejadas em uma matriz. 
+1. Inicializa o número de contêineres para corresponder e especifica os nomes e a ordem de resolução das listas de  `numANR` endereços desejadas em uma  `ANROrder` matriz. 
     
-2. Inicializa o MAPI usando a função **MAPIInitialize** . 
+2. Inicializa o MAPI usando a **função MAPIInitialize.** 
     
-3.  Faz logon no MAPI e permite que o usuário escolha um perfil. 
+3.  Faz o login no MAPI e permite que o usuário escolha um perfil. 
     
-4.  Obtém um ponteiro para o catálogo de endereços da sessão atual. 
+4.  Obtém um ponteiro para o livro de endereços da sessão atual. 
     
-5. Abre o catálogo de endereços.
+5. Abre o Address Book.
     
-6. Abre o contêiner para o catálogo de endereços raiz.
+6. Abre o contêiner para o Address Book raiz.
     
-7. Abre a tabela de hierarquia do contêiner do catálogo de endereços raiz.
+7. Abre a tabela de hierarquia do contêiner do livro de endereços raiz.
     
-8. Obtém a lista de contêineres de catálogo de endereços na hierarquia.
+8. Obtém a lista de contêineres do livro de endereços na hierarquia.
     
-9. Procura as identificações de entrada das listas de endereços desejadas comparando os nomes das listas `ANROrder` de endereços desejadas com os nomes existentes na hierarquia do catálogo de endereços. 
+9. Procura as IDs de entrada das listas de endereços desejadas comparando os nomes das listas de endereços desejadas com os nomes existentes na hierarquia do livro  `ANROrder` de endereços. 
     
-10. Define as IDs de entrada apropriadas para **** a matriz SRowSet `pNewRows`,.
+10. Define as IDs de entrada apropriadas para a **matriz SRowSet,**  `pNewRows` .
     
-11. Chama e passa `pNewRows` como o parâmetro *lpSearchPath* para **IAddrBook:: SetSearchPath** para definir o caminho de pesquisa. 
+11. Chama e passa  `pNewRows` como  *o parâmetro lpSearchPath*  para **IAddrBook::SetSearchPath** para definir o caminho de pesquisa. 
     
-12. Limpa os buffers internos e os ponteiros.
+12. Limpa buffers internos e ponteiros.
     
-13. Faz logoff do MAPI.
+13. Faz o login no MAPI.
     
-14. Uninitalizes MAPI.
+14. Desinitaliza o MAPI.
     
-Este exemplo de código usa listas de endereços que estão disponíveis na instalação padrão do Microsoft Office Outlook: **todos os contatos**, **todos os grupos**e **contatos**. Você deve executar o exemplo depois que o Outlook for iniciado e estiver em execução em um perfil inicializado. O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes estão em inglês). Ele não foi projetado para funcionar em implantações multilíngues, por exemplo, a pasta de **contatos** localizada para um usuário que esteja executando uma compilação do Outlook que não esteja em inglês. 
+Este exemplo de código usa listas de endereços disponíveis na instalação padrão do Microsoft Office **Outlook:** Todos os Contatos **,** Todos os Grupos **e Contatos.** Você deve executar o exemplo depois que o Outlook é iniciado e está sendo executado em um perfil inicializado. O exemplo funciona bem com nomes que estão em um idioma (por exemplo, todos os nomes estão em inglês). Ele não foi projetado para funcionar em implantações  multilínge, por exemplo, a pasta Contatos localizada para um usuário que executa um build do Outlook que não seja em inglês. 
   
 ```cpp
 #include "stdafx.h" 
@@ -266,5 +266,5 @@ STDMETHODIMP CopySBinary(
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre como definir a ordem de resolução de listas de endereços no Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [Sobre a definição da ordem de resolução para listas de endereços no Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

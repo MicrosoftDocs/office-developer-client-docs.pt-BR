@@ -25,7 +25,7 @@ ms.locfileid: "32348437"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o estado dos endereços eletrônicos do contato e representa um conjunto de sinalizadores de bit.
+Especifica o estado dos endereços eletrônicos do contato e representa um conjunto de sinalizadores de bits.
   
 |||
 |:-----|:-----|
@@ -37,32 +37,32 @@ Especifica o estado dos endereços eletrônicos do contato e representa um conju
    
 ## <a name="remarks"></a>Comentários
 
-O valor da propriedade **dispidABPArrayType** deve ser uma combinação de sinalizadores que especificam o estado do objeto de contato. Sinalizadores individuais são especificados na tabela a seguir. Se essa propriedade for definida, a propriedade **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) também deverá ser definida. Essas duas propriedades devem ser mantidas sincronizadas umas com as outras. Por exemplo, se **dispidABPArrayType** tiver o bit "0x00000001 set", um dos valores de **dispidABPEmailList** deve ser "0x00000000". 
+O valor da **propriedade dispidABPArrayType** deve ser uma combinação de sinalizadores que especificam o estado do objeto de contato. Sinalizadores individuais são especificados na tabela a seguir. Se essa propriedade for definida, a **propriedade dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) também deverá ser definida. Essas duas propriedades devem ser mantidas sincronizadas entre si. Por exemplo, se **dispidABPArrayType** tiver o bit "0x00000001 set", um dos valores de **dispidABPEmailList** deverá ser "0x00000000". 
   
-|**Bits**|**Descrição**|
+|**Bit**|**Descrição**|
 |:-----|:-----|
 |0x00000001  <br/> |Email1 é definido para o contato.  <br/> |
-|0x00000002  <br/> |EMAIL2 é definido para o contato.  <br/> |
+|0x00000002  <br/> |Email2 é definido para o contato.  <br/> |
 |0x00000004  <br/> |Email3 é definido para o contato.  <br/> |
 |0x00000008  <br/> |O fax comercial é definido para o contato.  <br/> |
-|0x00000010  <br/> |O fax residencial é definido para o contato.  <br/> |
+|0x00000010  <br/> |O fax home é definido para o contato.  <br/> |
 |0x00000020  <br/> |O fax principal é definido para o contato.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas para contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

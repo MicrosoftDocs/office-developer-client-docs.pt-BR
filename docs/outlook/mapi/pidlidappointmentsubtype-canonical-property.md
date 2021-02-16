@@ -37,23 +37,23 @@ Especifica se o evento é ou não o dia inteiro.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica se o evento é ou não um evento de dia inteiro, conforme especificado pelo usuário. Um valor TRUE indica que o evento é um evento de dia inteiro e, nesse caso, a hora de início e a hora de término devem ser meia-noite, de forma que a duração seja um múltiplo de 24 horas e tenha pelo menos 24 horas. Um valor FALSE ou a ausência dessa propriedade indica que o evento não é um evento de dia inteiro. O cliente ou servidor não deve inferir o valor como TRUE quando um usuário cria um evento que é de 24 horas, mesmo que o evento inicie e termine à meia-noite.
+Essa propriedade especifica se o evento é ou não um evento de dia inteiro, conforme especificado pelo usuário. Um valor TRUE indica que o evento é um evento de dia inteiro; nesse caso, a hora de início e a hora de término devem ser meia-noite, de modo que a duração seja múltipla de 24 horas e seja pelo menos 24 horas. Um valor FALSE ou a ausência dessa propriedade indica que o evento não é um evento de dia inteiro. O cliente ou servidor não deve inferir o valor como TRUE quando um usuário cria um evento de 24 horas, mesmo se o evento começa e termina à meia-noite.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

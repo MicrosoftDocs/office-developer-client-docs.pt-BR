@@ -25,7 +25,7 @@ ms.locfileid: "32335697"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela o envio de notificações anteriormente configuradas com uma chamada para o método [IMAPISession:: Advise](imapisession-advise.md) . 
+Cancela o envio de notificações configuradas anteriormente com uma chamada para o [método IMAPISession::Advise.](imapisession-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> no Um número de conexão associado a um registro de notificação ativo. O valor de _ulConnection_ deve ter sido retornado por uma chamada anterior para **IMAPISession:: Advise**.
+> [in] Um número de conexão associado a um registro de notificação ativo. O valor de  _ulConnection_ deve ter sido retornado por uma chamada anterior para **IMAPISession::Advise**.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: Unadvise** cancela um registro para notificação. **Unadvise** libera seu ponteiro para o coletor de aviso do chamador, que ele recebeu na chamada de **aviso** usada para registro. 
+O **método IMAPISession::Unadvise** cancela um registro para notificação. **A unadvise** libera seu ponteiro para o pia de conselhos do chamador, que ele recebeu na chamada **Advise** usada para registro. 
   
-Em geral, **Unadvise** chama o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do coletor de aviso, durante a chamada de **Unadvise** . No enTanto, se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do coletor de aviso, a chamada de **versão** será atrasada até o método OnNotify retornar. **** 
+Geralmente, **Unadvise** chama o método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do sink de aconselhe durante **a chamada Unadvise.** No entanto, se outro thread estiver em processo de chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do cliente de alerta, a chamada **release** será atrasada até que o método **OnNotify** retorne. 
   
 ## <a name="see-also"></a>Confira também
 

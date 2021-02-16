@@ -26,7 +26,7 @@ Este exemplo mostra como criar um item de tarefa usando o método [MarkAsTask(Ol
 
 No exemplo de código a seguir, CreateToDoItemExample cria um item de tarefa pendente chamando o método **MarkAsTask** no item e salvando o item. O exemplo marca o item para acompanhamento amanhã e define um lembrete para amanhã às 10h00 usando as propriedades [ReminderSet](https://msdn.microsoft.com/library/bb622600\(v=office.15\)) e [ReminderTime](https://msdn.microsoft.com/library/bb622803\(v=office.15\)). Em seguida, o exemplo usa o método [Save()](https://msdn.microsoft.com/library/bb645518\(v=office.15\)) para salvar o item.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -23,25 +23,25 @@ ms.locfileid: "32348955"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso aos contêineres do catálogo de endereços. Os aplicativos de MAPI e cliente chamam os métodos de **IABContainer** para executar a resolução de nomes e criar, copiar e excluir destinatários. 
+Fornece acesso a contêineres do livro de endereços. MapI and client applications call the methods of **IABContainer** to perform name resolution and to create, copy, and delete recipients. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Objetos de contêiner de catálogo de endereços  <br/> |
-|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado por:  <br/> |Aplicativos de MAPI e cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |Objetos de contêiner do livro de endereços  <br/> |
+|Implementado por:  <br/> |Provedores de lista de endereços  <br/> |
+|Chamado por:  <br/> |MAPI e aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IABContainer  <br/> |
 |Tipo de ponteiro:  <br/> |LPABCONT  <br/> |
-|Modelo de transação:  <br/> |Transact  <br/> |
+|Modelo de transação:  <br/> |Transacted  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
 |[CreateEntry](iabcontainer-createentry.md) <br/> |Cria uma nova entrada, que pode ser um usuário de mensagens, uma lista de distribuição ou outro contêiner.  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copia uma ou mais entradas, geralmente usuários de mensagens ou listas de distribuição.  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Remove uma ou mais entradas, tipicamente usuários de mensagens, listas de distribuição ou outros contêineres.  <br/> |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copia uma ou mais entradas, normalmente usuários de mensagens ou listas de distribuição.  <br/> |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Remove uma ou mais entradas, normalmente usuários de mensagens, listas de distribuição ou outros contêineres.  <br/> |
 |[ResolveNames](iabcontainer-resolvenames.md) <br/> |Executa a resolução de nome para uma ou mais entradas de destinatário.  <br/> |
    
 |**Propriedades necessárias**|**Access**|
@@ -62,11 +62,11 @@ Fornece acesso aos contêineres do catálogo de endereços. Os aplicativos de MA
    
 ## <a name="remarks"></a>Comentários
 
-A interface **IABContainer** herda indiretamente da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) por meio das interfaces [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) e [IMAPIProp: IUnknown](imapipropiunknown.md) . Os provedores de catálogos de endereços implementam a interface **IABContainer** . 
+A interface **IABContainer** herda indiretamente da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) por meio de [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) e [IMAPIProp : interfaces IUnknown.](imapipropiunknown.md) Os provedores de agendas implementam a interface **IABContainer.** 
   
-Qualquer número de objetos de usuário de mensagens, listas de distribuição e outros contêineres de catálogo de endereços podem existir em um contêiner de catálogo de endereços. Assim como qualquer contêiner, clientes ou provedores de serviços podem usar um contêiner de catálogo de endereços para abrir uma de suas entradas ou recuperar uma tabela de hierarquia ou de conteúdo. Os contêineres do catálogo de endereços também fornecem resolução de nomes e, dependendo do provedor, a capacidade de adicionar, remover ou modificar entradas.
+Qualquer número de objetos de usuário de mensagens, listas de distribuição e outros contêineres de listas de endereços pode existir em um contêiner de um livro de endereços. Como em qualquer contêiner, os clientes ou provedores de serviços podem usar um contêiner de livro de endereços para abrir uma de suas entradas ou para recuperar um índice de hierarquia ou de conteúdo. Os contêineres do livro de endereços também fornecem resolução de nomes e, dependendo do provedor, a capacidade de adicionar, remover ou modificar entradas.
   
-MAPI define um contêiner de catálogo de endereços especial chamado catálogo de endereços pessoal (PAB) que armazena as entradas copiadas de outros contêineres. Um PAB é sempre modificável. Normalmente, os usuários preenchem o PAB com entradas que designam os destinatários com os quais eles se comunicam com mais frequência. Um PAB também pode conter endereços únicos e novos destinatários ainda não fazem parte de nenhum contêiner de catálogo de endereços.
+MAPI define um contêiner de agenda especial chamado de pab (lista de endereços pessoal) que contém entradas copiadas de outros contêineres. Um PAB é sempre modificável. Os usuários geralmente preenchem sua PAB com entradas designando os destinatários com os quais eles se comunicam com mais frequência. Um PAB também pode manter endereços one-off e novos destinatários que ainda não fazem parte de qualquer contêiner do livro de endereços.
   
 ## <a name="see-also"></a>Confira também
 

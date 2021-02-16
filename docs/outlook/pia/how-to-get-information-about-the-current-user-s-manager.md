@@ -1,5 +1,5 @@
 ---
-title: Acessar informações sobre o gerenciador do usuário atual
+title: Acessar informações sobre o gerente do usuário atual
 TOCTitle: Get information about the current user's manager
 ms:assetid: 3a77fa51-e2e3-4544-849f-4267b1762270
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184603(v=office.15)
@@ -25,7 +25,7 @@ Este exemplo mostra como ter acesso a informações (como nome, cargo e números
 
 No procedimento a seguir, GetManagerInfo chama o método [GetExchangeUserManager()](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) para obter um objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) que representa o gerente de um **ExchangeUser** na hierarquia da organização. O procedimento testa se o usuário está online para garantir que o **GetExchangeUserManager** possa retornar um objeto **ExchangeUser**. Se o usuário não estiver online, **GetExchangeUserManager** retornará uma referência nula. GetManagerInfo grava as informações do gerente nos ouvintes de rastreamento da coleção [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

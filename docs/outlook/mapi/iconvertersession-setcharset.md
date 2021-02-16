@@ -38,21 +38,21 @@ HRESULT SetCharset(
 
  _fApply_
   
-> no Indica se um determinado conjunto de caracteres deve ser usado para a conversão. Defina esse parâmetro como **true** para aplicar o conjunto de caracteres em conversões subsequentes. Defina esse parâmetro como **false** se não quiser mais aplicar qualquer conjunto de caracteres específico e retornar aos padrões para as mensagens subsequentes. 
+> [in] Indica se um conjunto de caracteres específico deve ser usado para a conversão. De definir esse parâmetro **como true** para aplicar o conjunto de caracteres em conversões subsequentes. De definida como **false se** você não quiser mais aplicar qualquer conjunto de caracteres específico e retornar aos padrões para mensagens subsequentes. 
     
  _hcharset_
   
-> no Um identificador para um conjunto de caracteres conforme definido em MimeOLE. h do Windows Mail. Especifique **NULL** para especificar que você não deseja aplicar qualquer conjunto de caracteres específico. Para valores não **nulos** , use uma função como [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) para obter um identificador para o conjunto de caracteres. 
+> [in] Um alça para um conjunto de caracteres, conforme definido em mimeole.h do Windows Mail. **Especifique** nulo para especificar que você não deseja aplicar qualquer conjunto de caracteres específico. Para valores não **nulos,** use uma função como [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) para obter um alça para o conjunto de caracteres. 
     
  _csetapplytype_
   
-> no Indica como aplicar um conjunto de caracteres para converter uma mensagem, conforme definido no MimeOLE. h do Windows Mail.
+> [in] Indica como aplicar um conjunto de caracteres para converter uma mensagem, conforme definido em mimeole.h do Windows Mail.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> A chamada de função foi bem-sucedida.
+> A chamada de função é bem-sucedida.
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -60,8 +60,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

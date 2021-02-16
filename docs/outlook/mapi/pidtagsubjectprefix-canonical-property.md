@@ -25,7 +25,7 @@ ms.locfileid: "32339225"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um prefixo de assunto que normalmente indica alguma ação em uma mensagem, como "FW:" para encaminhamento. 
+Contém um prefixo de assunto que normalmente indica alguma ação em uma mensagem, como "FW: " para encaminhamento. 
   
 |||
 |:-----|:-----|
@@ -38,37 +38,37 @@ Contém um prefixo de assunto que normalmente indica alguma ação em uma mensag
 
 Essas propriedades são recomendadas em todos os objetos de mensagem. 
   
-O prefixo de assunto consiste em um ou mais caracteres alfanuméricos, seguidos por dois-pontos e um espaço (que fazem parte do prefixo). Ele não deve conter caracteres não alfanuméricos antes dos dois-pontos. A ausência de um prefixo pode ser representada por uma cadeia de caracteres vazia ou por esta propriedade não está sendo definida. 
+O prefixo de assunto consiste em um ou mais caracteres alfanuméricos, seguidos por dois-pontos e um espaço (que fazem parte do prefixo). Ele não deve conter caracteres não-cônicos antes dos dois-pontos. A ausência de um prefixo pode ser representada por uma cadeia de caracteres vazia ou por essa propriedade não estar sendo definida. 
   
-Se essas propriedades são definidas explicitamente, a cadeia de caracteres pode ser de qualquer tamanho e usar qualquer caractere alfanumérico, mas deve corresponder a uma subcadeia de caracteres no início da propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Se essas propriedades não forem definidas pelo remetente e devem ser computadas, seu conteúdo será mais restrito. A regra para a computação do prefixo é que o **PR_SUBJECT** deve começar com uma, duas ou três letras (somente alfabético) seguido por dois-pontos e um espaço. Se tal subcadeia de caracteres for encontrada no início de **PR_SUBJECT**, ela se tornará a cadeia de caracteres dessas propriedades (e também permanecerá no início de **PR_SUBJECT**). Caso contrário, essas propriedades permanecerão desdefinidas. 
+Se essas propriedades são definidas explicitamente, a cadeia de caracteres pode ser de qualquer comprimento e usar quaisquer caracteres alfanuméricos, mas deve corresponder a uma substring no início da propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Se essas propriedades não são definidas pelo remetente e devem ser computadas, seu conteúdo é mais restrito. A regra para calcular o prefixo **é PR_SUBJECT** deve começar com uma, duas ou três letras (somente alfabéticas) seguidas por dois-pontos e um espaço. Se tal substring for encontrada no início de **PR_SUBJECT**, ela se tornará a cadeia de caracteres para essas propriedades (e também permanecerá no início de PR_SUBJECT **).** Caso contrário, essas propriedades permanecerão não ativas. 
   
-Essas propriedades e **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) devem ser calculadas como parte da implementação [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Um cliente não deve solicitar [IMAPIProp::](imapiprop-getprops.md) GetProps para seus valores até que eles tenham sido confirmados por uma chamada **IMAPIProp:: SaveChanges** . 
+Essas propriedades e **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) devem ser computadas como parte da implementação [de IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Um cliente não deve solicitar [a IMAPIProp::GetProps](imapiprop-getprops.md) seus valores até que eles tenham sido confirmados por uma chamada **IMAPIProp::SaveChanges.** 
   
-As propriedades de assunto normalmente são pequenas cadeias de caracteres de menos de 256 caracteres, e um provedor de repositório de mensagens não é obrigado a oferecer suporte à interface de OLE **IStream** nelas. Um cliente sempre deve tentar acessar por meio da interface **IMAPIProp** primeiro e recorrer a **IStream** se **MAPI_E_NOT_ENOUGH_MEMORY** for retornado. 
+As propriedades de assunto são normalmente pequenas cadeias de caracteres com menos de 256 caracteres, e um provedor de armazenamento de mensagens não é obrigado a dar suporte à interface **OLE IStream** neles. Um cliente deve sempre tentar acessar pela interface **IMAPIProp** primeiro e recorrer a **IStream** somente **se** MAPI_E_NOT_ENOUGH_MEMORY for retornado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
+> Especifica as propriedades e operações permitidas em objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -80,7 +80,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -17,26 +17,26 @@ ms.locfileid: "32346456"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico inclui um exemplo de código em C++ que mostra como obter o caminho de uma versão específica do MAPI que é usada pelo cliente de email padrão em um computador. Os clientes de email MAPI têm uma opção para especificar no registro uma DLL personalizada à qual a biblioteca stub de MAPI deve carregar e distribuir as chamadas MAPI para o. A chave de registro a ser definida para esta DLL personalizada para um cliente de email padrão é **MSIComponentID**, sob a chave **HKLM\Software\Clients\Mail** do cliente de email padrão. A função [FGetComponentPath](fgetcomponentpath.md) , exportada pela biblioteca de stub MAPI, MAPISTUB. dll, pode retornar o caminho para a versão personalizada de MAPI especificada pela chave do registro **MSIComponentID** . 
+Este tópico inclui um exemplo de código em C++ que mostra como obter o caminho de uma versão específica de MAPI usada pelo cliente de email padrão em um computador. Os clientes de email MAPI têm a opção de especificar no Registro uma DLL personalizada para a qual a biblioteca de stub MAPI deve carregar e expedir chamadas MAPI. A chave do Registro a ser definida para essa DLL personalizada para um cliente de email padrão é **MSIComponentID**, na chave **HKLM\Software\Clients\Mail** do cliente de email padrão. A [função FGetComponentPath,](fgetcomponentpath.md) exportada pela biblioteca de stub MAPI, mapistub.dll, pode retornar o caminho para a versão personalizada de MAPI especificada pela chave do Registro **MSIComponentID.** 
   
-Este exemplo de código inclui duas funções `HrGetRegMultiSZValueA` : `GetMAPISVCPath`e. A `GetMAPISVCPath` função usa [FGetComponentPath](fgetcomponentpath.md) para obter o caminho para a versão personalizada do MAPI. Ele pressupõe que o cliente de email padrão é o Microsoft Office Outlook 2007 e passa para **FGetComponentPath** o valor `{FF1D0740-D227-11D1-A4B0-006008AF820E}`,, que o Outlook 2007 define como a ID do componente MAPI para a chave de registro **MSIComponentID** . 
+Este exemplo de código inclui duas funções:  `HrGetRegMultiSZValueA` e  `GetMAPISVCPath` . A  `GetMAPISVCPath` função usa [FGetComponentPath](fgetcomponentpath.md) para obter o caminho para a versão personalizada de MAPI. It assumes that the default mail client is Microsoft Office Outlook 2007, and passes to **FGetComponentPath** the value,  `{FF1D0740-D227-11D1-A4B0-006008AF820E}` that Outlook 2007 sets as the component ID of MAPI for the **MSIComponentID** registry key. 
   
 > [!NOTE]
-> Na prática, você não deve assumir o valor, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, é sempre a ID de componente de MAPI e passá-lo diretamente para o **FGetComponentPath**. Para descobrir de forma confiável qual versão do MAPI Outlook usa em um computador, você deve ler do registro o valor de **MSIComponentID** e passá-lo para **FGetComponentPath**. 
+> Na prática, você não deve presumir o valor, é sempre a ID do componente de MAPI e passá-lo diretamente  `{FF1D0740-D227-11D1-A4B0-006008AF820E}` para **FGetComponentPath**. Para descobrir com segurança qual versão do Outlook MAPI usa em um computador, você deve ler no Registro o valor de **MSIComponentID** e passá-lo para **FGetComponentPath**. 
   
-As etapas a seguir descrevem `GetMAPISVCPath` como isso. 
+As etapas a seguir descrevem  `GetMAPISVCPath` como fazer isso. 
   
-1. Carrega a biblioteca de stub MAPI, MAPISTUB. dll, a partir do diretório de sistema.
+1. Carrega a biblioteca stub MAPI, mapistub.dll, do diretório do sistema.
     
-2. Presume que MAPISTUB. dll exporta a função **FGetComponentPath** , ele tenta obter o endereço dessa função a partir de MAPISTUB. dll. 
+2. Assume que mapistub.dll exporta a **função FGetComponentPath,** ele tenta obter o endereço dessa função de mapistub.dll. 
     
-3. Se a obtenção do endereço de MAPISTUB. dll falhar, ele tentará obter o endereço de Mapi32. dll.
+3. Se o endereço de mapistub.dll falhar, ele tentará obter o endereço de mapi32.dll.
     
-4. Se a obter o endereço do **FGetComponentPath** tiver êxito, ele abrirá o registro e `HrGetRegMultiSZValueA` usará a função para ler os valores do registro em **HKLM\Software\Clients\Mail\Microsoft Outlook**. 
+4. Se o endereço **de FGetComponentPath** for bem-sucedido, ele abre o Registro e usa a função para ler os valores do Registro em `HrGetRegMultiSZValueA` **HKLM\Software\Clients\Mail\Microsoft Outlook.** 
     
-5. Chama **FGetComponentPath**, especificando o valor, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, para obter o caminho para a versão do MAPI que o Outlook 2007 usa.
+5. Chama **FGetComponentPath**, especificando o valor, para obter o caminho para a versão de  `{FF1D0740-D227-11D1-A4B0-006008AF820E}` MAPI que o Outlook 2007 usa.
     
-Observe que para dar suporte a cópias localizadas de MAPI para localidades em inglês e não inglês, o exemplo de código lê os valores das subchaves **MSIApplicationLCID** e **MSIOfficeLCID** e chama **FGetComponentPath**, primeiro especificando ** MSIApplicationLCID** como *szQualifier* e, em seguida, especificando novamente **MSIOfficeLCID** como *szQualifier* . Para obter mais informações sobre chaves do registro para clientes de email que oferecem suporte a idiomas que não são do inglês, confira conFigurando [as chaves msi para sua dll MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).
+Observe que, para dar suporte a cópias localizadas de MAPI para localidades em inglês e não inglês, o exemplo de código lê os valores para as sub-chaves **MSIApplicationLCID** e **MSIOfficeLCID** e chama **FGetComponentPath**, primeiro especificando **MSIApplicationLCID** como  *szQualifier*  e, em seguida, especificando **novamente MSIOfficeLCID** como  *szQualifier*  . Para obter mais informações sobre chaves do Registro para clientes de email que suportam idiomas diferentes do inglês, consulte Configurando as chaves MSI para sua [DLL MAPI.](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
   
 ```cpp
 // HrGetRegMultiSZValueA 

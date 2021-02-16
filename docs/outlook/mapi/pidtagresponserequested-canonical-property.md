@@ -25,7 +25,7 @@ ms.locfileid: "32330153"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se o remetente da mensagem quiser uma resposta a uma solicitação de reunião.
+Contém TRUE se o remetente da mensagem deseja uma resposta a uma solicitação de reunião.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém TRUE se o remetente da mensagem quiser uma resposta a uma solicitação 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para solicitações de reunião. O aplicativo cliente de recebimento deve solicitar que o usuário aceite ou recuse a solicitação e, em seguida, envie essa resposta de volta para o remetente.
+Essa propriedade é usada para solicitações de reunião. O aplicativo cliente de recebimento deve solicitar que o usuário aceite ou recusa a solicitação e envie essa resposta de volta ao remetente.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em mensagens de email.
+> Especifica as propriedades e operações permitidas em mensagens de email.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ Essa propriedade é usada para solicitações de reunião. O aplicativo cliente 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

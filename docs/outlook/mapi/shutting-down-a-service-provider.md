@@ -21,55 +21,55 @@ ms.locfileid: "32339204"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando um cliente chama o método [IMAPISession:: logoff](imapisession-logoff.md) para finalizar a sessão e desligar todos os provedores de serviços ativos, MAPI por vez chama os seguintes métodos: 
+Quando um cliente chama o método [IMAPISession::Logoff](imapisession-logoff.md) para encerrar a sessão e desligar todos os provedores de serviços ativos, o MAPI, por sua vez, chama os seguintes métodos: 
   
-- [IABLogon:: fazer logoff](iablogon-logoff.md) para provedores de catálogo de endereços. 
+- [IABLogon::Logoff para](iablogon-logoff.md) provedores de agendamento de endereços. 
     
-- [IMSLogon:: fazer logoff](imslogon-logoff.md) para provedores de repositórios de mensagens. 
+- [IMSLogon::Logoff para](imslogon-logoff.md) provedores de armazenamento de mensagens. 
     
-- [IXPLogon:: TransportLogoff](ixplogon-transportlogoff.md) para provedores de transporte. 
+- [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md) para provedores de transporte. 
     
-Esses métodos têm implementações semelhantes. As principais tarefas executadas por um método de logoff são as seguintes:
+Esses métodos têm implementações semelhantes. As principais tarefas que um método logoff executa são as seguinte:
   
-- Liberar todos os objetos abertos, incluindo subobjetos e objetos de status.
+- Liberação de todos os objetos abertos, incluindo subobjetos e objetos de status.
     
-- Chamar o método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) do objeto support para decrementar sua contagem de referência. 
+- Chamar o método [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) do objeto de suporte para rebaixar sua contagem de referência. 
     
 - Removendo todas as estruturas [MAPIUID](mapiuid.md) registradas do provedor. 
     
-- Removendo a linha do provedor na tabela status.
+- Removendo a linha do provedor na tabela de status.
     
-- Executar qualquer tarefa relacionada à limpeza de recursos, como o seguinte:
+- Executar tarefas relacionadas à limpeza de recursos, como as seguintes:
     
-  - Encerrar uma conexão com um servidor remoto.
+  - Terminando uma conexão com um servidor remoto.
     
-  - Decrementar a contagem de referência no objeto de logon.
+  - Diminuindo a contagem de referência no objeto de logon.
     
-  - Remover o objeto de logon da lista de objetos de logon que seu provedor armazena.
+  - Removendo o objeto de logon da lista de objetos de logon que seu provedor armazena.
     
-  - No modo de depuração, emitir rastreamentos para localizar objetos que têm memória vazada.
+  - No modo de depuração, emita rastreamentos para localizar objetos que tenham vazado memória.
     
-Quando o método de logoff retorna, o MAPI chama o seguinte:
+Quando o método logoff retorna, o MAPI chama o seguinte:
   
-- O método **IUnknown:: Release** do objeto de logon. 
+- Método **IUnknown::Release** do objeto de logon. 
     
-- O método **Shutdown** do objeto Provider para executar qualquer tarefa de limpeza final. Dependendo do tipo de provedor, um dos seguintes métodos é chamado: 
+- O método Shutdown do objeto **do** provedor para executar qualquer tarefa de limpeza final. Dependendo do tipo de provedor, um dos seguintes métodos é chamado: 
     
-  - [IABProvider:: desligar](iabprovider-shutdown.md) para provedores de catálogo de endereços 
+  - [IABProvider::Shutdown](iabprovider-shutdown.md) para provedores de agendas 
     
-  - [IMSProvider:: desligar](imsprovider-shutdown.md) para provedores de repositórios de mensagens 
+  - [IMSProvider::Shutdown](imsprovider-shutdown.md) para provedores de armazenamento de mensagens 
     
-  - [IXPProvider:: desligar](ixpprovider-shutdown.md) para provedores de transporte 
+  - [IXPProvider::Shutdown](ixpprovider-shutdown.md) para provedores de transporte 
     
-- O método **IUnknown:: Release** do objeto Provider. 
+- Método **IUnknown::Release do seu** objeto provedor. 
     
-Se seu provedor for um repositório de mensagens, uma chamada de cliente para [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) também iniciará o processo de desligamento. O **StoreLogoff** desliga um determinado provedor de armazenamento de mensagens e não tem efeito sobre a sessão. Apenas um provedor de repositório de mensagens pode ser desligado com esse método; Não há uma maneira explícita de desligar um determinado catálogo de endereços ou provedor de transporte. Para obter informações sobre como responder a uma chamada **StoreLogoff** , conFira desligamento [de um provedor de armazenamento de mensagens](shutting-down-a-message-store-provider.md).
+Se o provedor for um repositório de mensagens, uma chamada de cliente para [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) também iniciará o processo de desligamento. **StoreLogoff** desliga um provedor de armazenamento de mensagens específico e não tem efeito na sessão. Somente um provedor de armazenamento de mensagens pode ser desligado com esse método; não há uma maneira explícita de desligar um determinado address book ou provedor de transporte. Para obter informações sobre como responder a uma **chamada StoreLogoff,** consulte [Desligar um Provedor de Armazenamento de Mensagens.](shutting-down-a-message-store-provider.md)
   
-A DLL do provedor será descarregada quando MAPI chamar a função de API Win32 **FreeLibrary**, uma chamada feita após o último cliente ativo chamou [MAPIUninitialize](mapiuninitialize.md). Nesse momento, o seu provedor de serviços terminará de ser desligado. 
+A DLL do seu provedor será descarregada quando MAPI chamar a função de API **Win32 FreeLibrary**, uma chamada que é feita após o último cliente ativo ter chamado [MAPIUninitialize](mapiuninitialize.md). Neste momento, seu provedor de serviços terá terminado de desligar. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Provedores de serviço MAPI](mapi-service-providers.md)
+[Provedores de Serviços MAPI](mapi-service-providers.md)
 

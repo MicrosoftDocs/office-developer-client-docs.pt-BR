@@ -25,14 +25,14 @@ ms.locfileid: "32342116"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O suporta o uso de formulários de tempo de execução configuráveis em ambientes de computação distribuídos. 
+Oferece suporte ao uso de formulários de tempo de executar configuráveis em ambientes de computação distribuída. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
-|Exposto por:  <br/> |Objetos de fábrica de formulários  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
+|Exposto por:  <br/> |Objetos de fábrica de formulário  <br/> |
 |Implementado por:  <br/> |Servidores de formulário  <br/> |
-|Chamado por:  <br/> |Visualizadores de formulários  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
@@ -40,15 +40,15 @@ O suporta o uso de formulários de tempo de execução configuráveis em ambient
 
 |||
 |:-----|:-----|
-|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Retorna um objeto Factory de classe para o formulário.  <br/> |
-|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorre com o objeto Factory de formulários.  <br/> |
+|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Retorna um objeto de fábrica de classe para o formulário.  <br/> |
+|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior ocorrendo no objeto de fábrica de formulário.  <br/> |
 |[LockServer](imapiformfactory-lockserver.md) <br/> |Mantém um servidor de formulário aberto na memória.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A interface **IMAPIFormFactory** é baseada na interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) , e os objetos que implementam o **IMAPIFormFactory** também devem ser herdados de **IClassFactory**.
+A interface **IMAPIFormFactory** é baseada na interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) e os objetos que implementam **IMAPIFormFactory** também devem herdar **de IClassFactory**.
   
- **IMAPIFormFactory** é a interface que os visualizadores de formulários usam para criar novos objetos de formulário quando um servidor de formulário dá suporte a mais de uma classe de mensagem (ou seja, mais de um tipo de objeto Form). 
+ **IMAPIFormFactory** é a interface que os visualizadores de formulário usam para criar novos objetos de formulário quando um servidor de formulário oferece suporte a mais de uma classe de mensagem (ou seja, mais de um tipo de objeto de formulário). 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,35 +25,35 @@ ms.locfileid: "32349214"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o **ObjectID**global limpo.
+Especifica o ObjectID global **limpo.**
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidCleanGlobalObjId  <br/> |
 |Conjunto de propriedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |interrupção  <br/> |
+|Long ID (LID):  <br/> |0x00000023  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Meetings  <br/> |
+|Área:  <br/> |Reuniões  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O formato dessa propriedade é o mesmo do **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). O valor dessa propriedade deve ser igual ao valor de **LID_GLOBAL_OBJID**, exceto que os campos YH, YL, M e D devem ser zero. Todos os objetos que se referem a uma instância de uma série recorrente (incluindo uma instância órfã), bem como a própria série recorrente, terão o mesmo valor para essa propriedade.
+O formato dessa propriedade é o mesmo de **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). O valor dessa propriedade deve ser igual ao valor de **LID_GLOBAL_OBJID**, exceto os campos YH, YL, M e D devem ser zero. Todos os objetos que se referem a uma Instância de uma série recorrente (incluindo uma instância órfã), bem como a própria série recorrente, terão o mesmo valor para essa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

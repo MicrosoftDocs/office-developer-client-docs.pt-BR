@@ -25,7 +25,7 @@ ms.locfileid: "32335151"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se um lembrete está definido no objeto.
+Especifica se um lembrete é definido no objeto.
   
 |||
 |:-----|:-----|
@@ -37,25 +37,25 @@ Especifica se um lembrete está definido no objeto.
    
 ## <a name="remarks"></a>Comentários
 
-Se um objeto Calendar recorrente tiver essa propriedade definida como TRUE, o cliente poderá substituir esse valor por exceções.
+Se um objeto de calendário recorrente tiver essa propriedade definida como TRUE, o cliente poderá substituir esse valor para exceções.
   
-Se essa propriedade for FALSE em um objeto Calendar recorrente, lembretes serão desabilitados para toda a série, incluindo exceções. Para objetos de tarefa recorrentes, essa propriedade não pode ser substituída por exceções (consulte [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) e [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) para obter detalhes). 
+Se essa propriedade for FALSE em um objeto de calendário recorrente, os lembretes serão desabilitados para toda a série, incluindo exceções. Para objetos de tarefa recorrentes, essa propriedade não pode ser substituído por exceções (consulte [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) e [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) para obter detalhes). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

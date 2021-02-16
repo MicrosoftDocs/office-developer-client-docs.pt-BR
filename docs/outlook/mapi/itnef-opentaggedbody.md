@@ -39,43 +39,43 @@ HRESULT OpenTaggedBody(
 
  _lpMessage_
   
-> no Um ponteiro para a mensagem à qual o Stream está associado. Esta mensagem não precisa ser a mesma mensagem que é passada na chamada para a função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
+> [in] Um ponteiro para a mensagem à qual o fluxo está associado. Essa mensagem não é necessária para ser a mesma mensagem que é passada na chamada para as funções [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a interface de fluxo é aberta. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a interface de fluxo é aberta. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_CREATE 
   
-> Se uma propriedade não existir na mensagem atual, ela deverá ser criada. Se a propriedade existir, os dados atuais da propriedade deverão ser substituídos pelos dados do fluxo TNEF (Transport-neutral Encapsulation Format). Quando uma implementação define o sinalizador MAPI_CREATE, ela também deve definir o sinalizador MAPI_MODIFY.
+> Se uma propriedade não existir na mensagem atual, ela deverá ser criada. Se a propriedade existir, os dados atuais na propriedade deverão ser substituídos com os dados do fluxo Transport-Neutral TNEF (Encapsulation Format). Quando uma implementação define o MAPI_CREATE, ele também deve definir o MAPI_MODIFY sinalizador.
     
 MAPI_MODIFY 
   
-> Solicita permissão de leitura/gravação. A interface padrão é somente leitura. MAPI_MODIFY deve ser definido sempre que MAPI_CREATE estiver definido.
+> Solicita permissão de leitura/gravação. A interface padrão é somente leitura. MAPI_MODIFY deve ser definido sempre que MAPI_CREATE definida.
     
  _lppStream_
   
-> bota Um ponteiro para um ponteiro para um objeto Stream que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) da mensagem encapsulada aprovada e que oferece suporte à interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [out] Um ponteiro para um ponteiro para um objeto de fluxo que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) da mensagem encapsulada passada e que oferece suporte à interface [IStream.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores de transporte, provedores de repositórios de mensagens e gateways chamam o método **ITnef:: OpenTaggedBody** para abrir uma interface de fluxo no texto de uma mensagem encapsulada (ou seja, em um objeto TNEF). 
+Provedores de transporte, provedores de armazenamento de mensagens e gateways chamam o método **ITnef::OpenTaggedBody** para abrir uma interface de fluxo no texto de uma mensagem encapsulada (ou seja, em um objeto TNEF). 
   
-Como parte do seu processamento, o **OpenTaggedBody** insere ou analisa marcas de anexo que indicam a posição de qualquer anexo ou objeto OLE no texto da mensagem. As marcas de anexo estão no seguinte formato: 
+Como parte de seu processamento, **OpenTaggedBody** insere ou analisado marcas de anexo que indicam a posição de quaisquer anexos ou objetos OLE no texto da mensagem. As marcas de anexo estão no seguinte formato: 
   
- **[[** _nome do anexo_ **:** _n_ **no nome do contêiner de** _anexo_ **]]**
+ **[[** _nome do anexo_ **:** n _no_ **nome** _do contêiner do anexo_ **]]**
   
- _nome do anexo_ descreve o objeto Attachment;  _n_ é um número que identifica o anexo que faz parte de uma sequência, incrementando do valor passado no parâmetro _LpKey_ da função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) ; e _nome do contêiner de anexo_ descreve o componente físico onde reside o objeto Attachment. 
+ _o nome do_ anexo descreve o objeto attachment;  _n_ é um número que identifica o anexo que faz parte de uma sequência, incrementando do valor passado no parâmetro  _lpKey_ da função [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx;](opentnefstreamex.md) e  _o nome do contêiner_ de anexo descreve o componente físico em que o objeto anexo reside. 
   
- O **OpenTaggedBody** lê o texto da mensagem e insere uma marca de anexo em qualquer lugar em que um objeto Attachment apareceu originalmente no texto. O texto da mensagem original não é alterado. 
+ **OpenTaggedBody** lê o texto da mensagem e insere uma marca de anexo sempre que um objeto de anexo apareceu originalmente no texto. O texto da mensagem original não é alterado. 
   
-Quando uma mensagem que tem marcas é passada para um fluxo, as marcas são removidas e os objetos Attachment são realocados na posição das marcas no Stream.
+Quando uma mensagem com marcas é passada para um fluxo, as marcas são retiradas e os objetos de anexo são realocados na posição das marcas no fluxo.
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "32331399"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de resolução de conflito da pasta.
+Contém o valor de resolução de conflitos de uma pasta.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém um valor de resolução de conflito da pasta.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade na pasta que contém a mensagem de resolução de conflitos indicará como resolver o conflito. Esta propriedade não é obrigatória. No enTanto, se estiver definido, os sinalizadores diferentes dos seguintes não devem estar presentes:
+Essa propriedade na pasta que contém a mensagem de resolução de conflitos indicará como resolver o conflito. Essa propriedade não é necessária. No entanto, se estiver definido, sinalizadores que não sejam os seguintes não devem estar presentes:
   
 |||
 |:-----|:-----|
 |RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |A mensagem de resolução de conflitos deve ser gerada.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Sobrescrever mensagem de destino com as alterações atuais aplicadas.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Não enviar mensagem de notificação de conflito ao gerar a mensagem de resolução de conflitos na pasta pública.  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Substituir a mensagem de destino com as alterações atuais aplicadas.  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Não envie mensagem de notificação de conflito ao gerar mensagem de resolução de conflito na pasta pública.  <br/> |
    
-Um cliente ou servidor não deve gerar uma mensagem de resolução de conflitos para mensagens associadas. Essas mensagens devem ser resolvidas usando a semântica **RESOLVE_METHOD_LAST_WRITER_WINS** . 
+Um cliente ou servidor não deve gerar uma mensagem de resolução de conflito para mensagens associadas. Essas mensagens devem ser resolvidas usando **RESOLVE_METHOD_LAST_WRITER_WINS** semântica. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
-> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
+> Lida com a sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Define as estruturas de dados básicas que são usadas em operações remotas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

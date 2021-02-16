@@ -25,7 +25,7 @@ ms.locfileid: "32335757"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um token numérico que o método [IMAPISession:: @ Form](imapisession-showform.md) usa para acessar uma mensagem. 
+Cria um token numérico que o [método IMAPISession::ShowForm](imapisession-showform.md) usa para acessar uma mensagem. 
   
 ```cpp
 HRESULT PrepareForm(
@@ -39,15 +39,15 @@ HRESULT PrepareForm(
 
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a mensagem. Passar **** resultados nulos na interface padrão ou [IMessage](imessageimapiprop.md), sendo usado. O parâmetro _lpInterface_ deve ser **nulo** ou IID_IMessage. 
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a mensagem. Passar **resultados** nulos na interface padrão ou [IMessage](imessageimapiprop.md), sendo usado. O  _parâmetro lpInterface_ deve ser **nulo** ou IID_IMessage. 
     
  _lpMessage_
   
-> no Um ponteiro para a mensagem a ser exibida no formulário.
+> [in] Um ponteiro para a mensagem a ser exibida no formulário.
     
  _lpulMessageToken_
   
-> bota Um ponteiro para um token de mensagem, que é usado pelo método **IMAPISession:: Form** para acessar a mensagem indicada por _lpMessage_.
+> [out] Um ponteiro para um token de mensagem, que é usado pelo método **IMAPISession::ShowForm** para acessar a mensagem apontada por  _lpMessage_.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,11 +57,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession::P repareform** cria um token de mensagem para a mensagem indicada pelo parâmetro _lpMessage_ e chama o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) da mensagem. Esse token é passado no parâmetro _ulMessageToken_ para **IMAPISession:: conform**. 
+O **método IMAPISession::P repareForm** cria um token de mensagem para a mensagem apontada pelo parâmetro  _lpMessage_ e chama o método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) da mensagem. Esse token é passado no  _parâmetro ulMessageToken_ para **IMAPISession::ShowForm**. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se a chamada para **PrepareForm** tiver êxito, libere a mensagem indicada por _lpMessage_ chamando seu método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de chamar o **formulário**. Falha ao liberar a mensagem antes de chamar o **formulário** pode causar vazamentos de memória. 
+Se a chamada para **PrepareForm** for bem-sucedida, libere a mensagem apontada por  _lpMessage_ chamando seu método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de chamar **ShowForm**. A falha ao liberar a mensagem antes de chamar **ShowForm** pode causar vazamentos de memória. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -69,7 +69,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa o método **IMAPISession::P repareform** , juntamente com **IMAPISession::**, para exibir uma mensagem em um formulário de janela restrita.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa o **método IMAPISession::P repareForm,** juntamente com **IMAPISession::ShowForm**, para exibir uma mensagem em um formulário modal.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -42,9 +42,9 @@ Para mais informações sobre como métodos e propriedades são mapeados a parti
 
 ## <a name="hidden-and-deprecated-objects"></a>Objetos ocultos e preteridos
 
-O PIA também contém objetos, membros e enumerações que foram preteridos e marcados opcionalmente como ocultos no modelo de objeto COM. A maioria desses objetos, membros e enumerações é exposta na PIA. No entanto, eles são expostos para a completude da PIA; não são mais destinados a serem usados por desenvolvedores de soluções e, portanto, são minimamente documentados. Algumas exceções existem, como os objetos ** \_DocSiteControl** e ** \_RecipientControl**, que estão ocultos na biblioteca de tipos, mas são expostos como objetos de primeira classe na referência da PIA. 
+O PIA também contém objetos, membros e enumerações que foram preteridos e marcados opcionalmente como ocultos no modelo de objeto COM. A maioria desses objetos, membros e enumerações é exposta na PIA. No entanto, eles são expostos para a completude da PIA; não são mais destinados a serem usados por desenvolvedores de soluções e, portanto, são minimamente documentados. Algumas exceções existem, como os objetos **\_DocSiteControl** e **\_RecipientControl**, que estão ocultos na biblioteca de tipos, mas são expostos como objetos de primeira classe na referência da PIA. 
 
-Para saber mais sobre o objeto ** \_DocSiteControl**, confira [ \_DDocSiteControl](https://msdn.microsoft.com/library/bb609520\(v=office.15\)). Para saber mais sobre o objeto ** \_RecipientControl**, confira [ \_DRecipientControl](https://msdn.microsoft.com/library/bb609501\(v=office.15\)).
+Para saber mais sobre o objeto **\_DocSiteControl**, confira [ \_DDocSiteControl](https://msdn.microsoft.com/library/bb609520\(v=office.15\)). Para saber mais sobre o objeto **\_RecipientControl**, confira [ \_DRecipientControl](https://msdn.microsoft.com/library/bb609501\(v=office.15\)).
 
 
 

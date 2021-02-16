@@ -25,7 +25,7 @@ ms.locfileid: "32355150"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um deslocamento, em caracteres, a ser usado na renderização de um anexo dentro do texto da mensagem principal.
+Contém um deslocamento, em caracteres, a ser usado na renderização de um anexo no texto da mensagem principal.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contém um deslocamento, em caracteres, a ser usado na renderização de um anex
    
 ## <a name="remarks"></a>Comentários
 
-Quando o deslocamento fornecido é-1 (0xFFFFFFFF), o anexo não é renderizado usando essa propriedade. Todos os valores diferentes de-1 indicam a posição dentro da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) na qual o anexo deve ser renderizado.
+Quando o deslocamento fornecido for -1 (0xFFFFFFFF), o anexo não será renderizado usando essa propriedade. Todos os valores diferentes de -1 indicam a posição dentro da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) na qual o anexo deve ser renderizado.
   
- **Observação** O caractere indicado por essa propriedade no **PR_BODY** é substituído pelo anexo. Normalmente, esse caractere é um espaço, embora um caractere de espaço reservado especial também possa ser usado. 
+ **Observação** O caractere indicado por essa propriedade **PR_BODY** é substituído pelo anexo. Normalmente, esse caractere é um espaço, embora um caractere de espaço reservado especial também possa ser usado. 
   
-Essa propriedade é expressa em caracteres. Em alguns conjuntos de caracteres, isso não é equivalente a bytes. Os aplicativos Unicode podem calcular a posição com base em caracteres de dois bytes. Os aplicativos de conjunto de caracteres de dois bytes (DBCS) devem digitalizar o texto até esse valor da propriedade, pois sua representação de caracteres varia entre um e dois bytes por caractere.
+Essa propriedade é expressa em caracteres. Em alguns conjuntos de caracteres, isso não é equivalente a bytes. Aplicativos Unicode podem calcular a posição com base em caracteres de dois byte. Double-Byte DBCS (Conjunto de Caracteres) deve examinar o texto até esse valor de propriedade, porque sua representação de caractere varia entre um e dois bytes por caractere.
   
-Esta propriedade não deve ser usada com texto Rich Text Format (RTF). A posição de renderização é indicada em RTF por uma sequência de escape chamada espaço reservado para o objeto Attachment. Essa sequência consiste na cadeia de `\objattph` caracteres seguida por um único caractere, normalmente um espaço, que será substituído pela renderização de anexo. 
+Essa propriedade não deve ser usada com texto RTF (Rich Text Format). A posição de renderização é indicada em RTF por uma sequência de escape chamada de espaço reservado para anexo de objeto. Essa sequência consiste na cadeia de caracteres seguida por um único caractere, normalmente um espaço, que será  `\objattph` substituído pela renderização do anexo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

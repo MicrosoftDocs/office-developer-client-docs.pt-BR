@@ -16,11 +16,11 @@ ms.locfileid: "32335599"
 ---
 # <a name="visio-file-format-reference"></a>Referência de formato de arquivo para o Visio
 
-Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para orientá-lo no desenvolvimento de soluções\*com o formato de arquivo do Visio (. vsdx).
+Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para orientá-lo no desenvolvimento de soluções com o formato de arquivo do Visio ( \* .vsdx).
   
 Agradecemos os comentários ou as perguntas sobre esse conteúdo. Envie comentários para [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
- **Publicação inicial**: outubro de 2012 | **Atualizado**em: março de 2013
+ **Publicação inicial**: outubro de 2012 | **Atualizado**: março de 2013
   
 Esta documentação contém as seguintes informações:
   
@@ -28,11 +28,11 @@ Esta documentação contém as seguintes informações:
     
 - [Manipular o formato de arquivo do Visio via programação](how-to-manipulate-the-visio-file-format-programmatically.md)
     
-- [Mapa de esquema](schema-mapvisio-xml.md): exibe o esquema XML do formato de arquivo do Visio.
+- [Mapa de esquema:](schema-mapvisio-xml.md)exibe o esquema XML do formato de arquivo do Visio.
     
-- [Elementos](elementsvisio-xml.md): fornece informações sobre os elementos XML que podem aparecer no formato de arquivo do Visio.
+- [Elementos:](elementsvisio-xml.md)Fornece informações sobre os elementos XML que podem aparecer no formato de arquivo do Visio.
     
-- [Tipos](typesvisio-xml.md): fornece informações sobre os tipos XML que podem aparecer no formato de arquivo do Visio.
+- [Tipos:](typesvisio-xml.md)fornece informações sobre os tipos XML que podem aparecer no formato de arquivo do Visio.
     
 ## <a name="see-also"></a>Confira também
 

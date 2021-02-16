@@ -25,7 +25,7 @@ ms.locfileid: "32342563"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma tabela de anexos para uma mensagem. 
+Contém uma tabela de anexos de uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contém uma tabela de anexos para uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade pode ser excluída nas operações de [IMAPIProp:: CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps. Seu conteúdo deve ser acessado pelo método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , solicitando o identificador de interface **IID_IMAPITable** . Os provedores de serviços devem relatá-lo para o método [IMAPIProp::](imapiprop-getproplist.md) getproplist, se estiver definido, mas pode opcionalmente relatá-lo ou não se ele não estiver definido. 
+Essa propriedade pode ser excluída nas [operações IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo [método IMAPIProp::GetProps.](imapiprop-getprops.md) Seu conteúdo deve ser acessado pelo [método IMAPIProp::OpenProperty,](imapiprop-openproperty.md) solicitando o **identificador IID_IMAPITable** interface. Os provedores de serviços devem reportá-lo ao método [IMAPIProp::GetPropList](imapiprop-getproplist.md) se ele estiver definido, mas, opcionalmente, pode relaí-lo ou não se ele não estiver definido. 
   
-Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMessage::](imessage-getattachmenttable.md) GetAttachmentTable. Para obter mais informações, consulte [tabelas de anexo](attachment-tables.md). 
+Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o [método IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) Para obter mais informações, consulte [Attachment Tables](attachment-tables.md). 
   
-Essa propriedade pode ser usada para restrição de subobjeto especificando-a na estrutura [SSubRestriction](ssubrestriction.md) . Isso permite que o cliente limite o modo de exibição de um contêiner às mensagens com anexos que atendam aos critérios fornecidos. Uma mensagem é qualificada para exibir se pelo menos uma linha na tabela de anexos, ou seja, um anexo, satisfizer a restrição de subobjeto. 
+Essa propriedade pode ser usada para restrição de subobjeto especificando-a na [estrutura SSubRestriction.](ssubrestriction.md) Isso permite que o cliente limite a exibição de um contêiner a mensagens com anexos que atenderem a determinados critérios. Uma mensagem se qualifica para exibição se pelo menos uma linha em sua tabela de anexos, ou seja, um anexo, satisfaz a restrição de subobjeto. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ Essa propriedade pode ser usada para restrição de subobjeto especificando-a na
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

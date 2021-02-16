@@ -19,9 +19,9 @@ ms.locfileid: "32332827"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Avisar objetos coletores – objetos que suportam a interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) , são objetos MAPI que os aplicativos cliente implementam para processar notificações. O **IMAPIAdviseSink** herda diretamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método ****, OnNotify. Portanto, para implementar um objeto de coletor de aviso, um cliente cria código para os três métodos em **IUnknown** e para OnNotify. [](imapiadvisesink-onnotify.md)
+Aconselhe objetos sink — objetos que suportam a interface [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) — são objetos MAPI que os aplicativos cliente implementam para processar notificações. **IMAPIAdviseSink** herda diretamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**. Portanto, para implementar um objeto sink de aconselhe, um cliente cria código para os três métodos **em IUnknown** e [para OnNotify](imapiadvisesink-onnotify.md).
   
-O arquivo de cabeçalho mapidefs. h define uma implementação de interface do **IMAPIAdviseSink** usando o **DECLARE_MAPI_INTERFACE**, da seguinte maneira:
+O arquivo de header Mapidefs.h define uma implementação de interface **IMAPIAdviseSink** usando DECLARE_MAPI_INTERFACE **,** da seguinte forma:
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Os clientes que implementam os objetos de coletor de aviso podem definir suas interfaces em seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** . Implementações de objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e economizar tempo e esforço. 
+Os clientes que implementam objetos sink de alerta podem definir suas interfaces em seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** cliente. Implementadores de objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e para economizar tempo e esforço. 
   
-A implementação dos métodos [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é relativamente simples, pois normalmente só são necessárias algumas linhas de código. Portanto, os clientes e provedores de serviço que implementam objetos podem tornar as implementações de **AddRef** e **versão** embutidas. O código a seguir mostra como definir um objeto de coletor de aviso do C++ com implementações embutidas de **AddRef** e **Release**.
+Implementar os métodos [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é relativamente simples porque normalmente são necessárias apenas algumas linhas de código. Portanto, os clientes e provedores de serviços que implementam objetos podem fazer suas implementações **addRef** e **Release** em linha. O código a seguir mostra como definir um objeto sink de consultoria C++ com implementações em linha de **AddRef** e **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-No C, o objeto de coletor de aviso é composto pelos seguintes elementos:
+Em C, o objeto sink advise é composto pelos seguintes elementos:
   
-- Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos em **IUnknown** e **IMAPIAdviseSink**.
+- Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos **em IUnknown** e **IMAPIAdviseSink**.
     
 - Membros de dados.
     
-O exemplo de código a seguir mostra como definir um objeto de coletor de aviso em C e construir sua vtable. 
+O exemplo de código a seguir mostra como definir um objeto sink advise em C e construir sua vtable. 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Depois de declarar um objeto no C, você deve inicializá-lo definindo o ponteiro vtable para o endereço da vtable construída, conforme mostrado no código a seguir:
+Depois de declarar um objeto em C, você deve inicializá-lo definindo o ponteiro vtable para o endereço da vtable construída, conforme mostrado no código a seguir:
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -116,5 +116,5 @@ lpMyObj->lpVtbl = &vtblADVISE;
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral da propriedade MAPI](mapi-property-overview.md)
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementando objetos MAPI](implementing-mapi-objects.md)
 

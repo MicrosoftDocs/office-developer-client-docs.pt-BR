@@ -17,11 +17,11 @@ ms.locfileid: "32346421"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo de código em C++ que mostra como chamar a função [MAPICrashRecovery](mapicrashrecovery.md) da função [UnhandledExceptionFilter](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) . A função [MAPICrashRecovery](mapicrashrecovery.md) verifica o estado do arquivo de pastas particulares (PST) ou da memória compartilhada do arquivo de pastas offline (OST). 
+Este tópico contém um exemplo de código em C++ que mostra como chamar a função [MAPICrashRecovery](mapicrashrecovery.md) da [função UnhandledExceptionFilter.](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) A [função MAPICrashRecovery](mapicrashrecovery.md) verifica o estado da memória compartilhada do arquivo de Pastas Particulares (PST) ou do arquivo de Pastas Offline (OST). 
 
-Se a memória estiver em um estado consistente, a função [MAPICrashRecovery](mapicrashrecovery.md) moverá os dados para o disco e impedirá o acesso de leitura ou gravação adicional até que o processo seja encerrado. Ao garantir que PSTs ou OSTs estejam em um estado consistente antes do término do processo, você pode impedir que o Microsoft Outlook 2010 ou o Microsoft Outlook 2013 exiba a mensagem de erro a seguir e evitar problemas de desempenho: 
+Se a memória estiver em um estado consistente, a função [MAPICrashRecovery](mapicrashrecovery.md) move os dados para o disco e impede acesso de leitura ou gravação até que o processo seja encerrado. Ao garantir que os PSTs ou OSTs estão em um estado consistente antes que o processo seja encerrado, você pode impedir que o Microsoft Outlook 2010 ou o Microsoft Outlook 2013 exibir a seguinte mensagem de erro e evitar problemas de desempenho: 
   
-**Um arquivo de dados não foi fechado corretamente na última vez em que foi usado e está sendo verificado em busca de problemas. O desempenho pode ser afetado enquanto o cheque estiver em andamento.**
+**Um arquivo de dados não foi fechado corretamente na última vez em que foi usado e está sendo verificado em busca de problemas. O desempenho pode ser afetado enquanto a verificação está em andamento.**
   
 ```cpp
 LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep) 

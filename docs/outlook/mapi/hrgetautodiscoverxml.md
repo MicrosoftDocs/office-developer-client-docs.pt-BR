@@ -25,13 +25,13 @@ ms.locfileid: "32347800"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um fluxo de Extensible Markup Language (XML) que representa informações recuperadas do serviço de descoberta automática de um servidor do Microsoft Exchange 2007.
+Retorna um fluxo XML que representa as informações recuperadas do serviço de descoberta automática de um servidor microsoft Exchange 2007.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |olmapi32. dll  <br/> |
+|Exportado por:  <br/> |olmapi32.dll  <br/> |
 |Chamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
@@ -49,15 +49,15 @@ HRESULT HrGetAutoDiscoverXML(
 
  _pwzAddress_
   
-> no Um endereço de email SMTP (Simple Mail Transfer Protocol) terminada em nulo da conta para a qual você deseja recuperar as informações de descoberta automática.
+> [in] Um endereço de email SMTP (Simple Mail Transfer Protocol) encerrado por nulo da conta para a qual você deseja recuperar as informações de descoberta automática.
     
  _pwzPassword_
   
-> no Uma senha opcional para a conta especificada por _pwzAddress_. Observe que a passagem de qualquer senha não terá efeito se a conta especificada por _pwzAddress_ não exigir uma senha. 
+> [in] Uma senha opcional para a conta especificada por  _pwzAddress_. Observe que passar qualquer senha não terá efeito se a conta especificada por  _pwzAddress_ não exigir uma senha. 
     
  _hCancelEvent_
   
-> no Um manipulador de eventos Win32 desdefinida que é opcional e pode ser usado para cancelar a operação. Para cancelar a operação, defina o evento e passe o manipulador de eventos como _hCancelEvent_; Passe **NULL** se você não quiser cancelar a operação. Observe que passar um valor que não representa um manipulador de eventos não tem efeito e é ignorado pela função. 
+> [in] Uma alça de evento Win32 não configurada que é opcional e pode ser usada para cancelar a operação. Para cancelar a operação, de definir o evento e passar o alça de evento como  _hCancelEvent_; passe **nulo** se não quiser cancelar a operação. Observe que passar um valor que não representa uma alça de evento não tem efeito e é ignorado pela função. 
     
  _ulFlags_
   
@@ -65,28 +65,28 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> bota Um ponteiro para um objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que contém o XML de descoberta automática. Retorna **NULL** se a operação de descoberta automática falhar. Você deve liberar o objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) quando tiver concluído. 
+> [out] Um ponteiro para um [objeto IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que contém o XML de descoberta automática. Retorna **nulo** se a operação de descoberta automática falhar. Você deve liberar o [objeto IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) quando terminar. 
     
 ## <a name="return-values"></a>Valor de retorno
 
 S_OK 
   
-- A chamada de função foi bem-sucedida.
+- A chamada de função é bem-sucedida.
     
 E_INVALIDARG 
   
--  _pwzAddress_ é **nulo** ou não é um endereço SMTP válido, ou _ppXmlStream_ é um ponteiro **nulo** para um objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . 
+-  _pwzAddress_ é **nulo** ou não é um endereço SMTP válido ou _ppXmlStream_ é um ponteiro **nulo** para [um objeto IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 
     
 MAPI_E_NOT_FOUND 
   
-- O computador cliente não está conectado à rede, o computador cliente não está conectado a um servidor do Microsoft Exchange 2007, _pwzAddress_ não é uma conta em um servidor do Exchange 2007 ou _pwzAddress_ é uma conta que não dá suporte ao Exchange serviço de descoberta automática. 
+- O computador cliente não está conectado à rede, o computador cliente não está conectado a um servidor do Microsoft Exchange 2007, o  _pwzAddress_ não é uma conta em um servidor Exchange 2007 ou  _o pwzAddress_ é uma conta que não dá suporte ao serviço de descoberta automática do Exchange. 
     
 MAPI_E_USER_CANCEL 
   
-- Um identificador de evento foi passado para _hCancelEvent_ para cancelar a operação. 
+- Uma alça de evento foi passada para  _hCancelEvent_ para cancelar a operação. 
     
 STRSAFE_E_INSUFFICIENT_BUFFER
   
-- O valor passado para _pwzAddress_ ou _pwzPassword_ é muito longo, de forma que ele estoura o buffer interno de tamanho de 256 bytes. 
+- O valor passado para  _pwzAddress_ ou  _pwzPassword_ é muito longo, de forma que ele ultrapasse o buffer interno de tamanho de 256 bytes. 
     
 

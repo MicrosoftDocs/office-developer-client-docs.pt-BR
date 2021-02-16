@@ -25,7 +25,7 @@ ms.locfileid: "32329467"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela um registro de notificações com um visualizador de formulários estabelecido anteriormente chamando [IMAPIForm:: Advise](imapiform-advise.md).
+Cancela um registro para notificações com um visualizador de formulário estabelecido anteriormente chamando [IMAPIForm::Advise](imapiform-advise.md).
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> no Um número de conexão que identifica o registro de notificação a ser cancelado.
+> [in] Um número de conexão que identifica o registro de notificação a ser cancelado.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 E_INVALIDARG 
   
-> O número de conexão passado no parâmetro _ulConnection_ não representa um registro válido. 
+> O número de conexão passado no  _parâmetro ulConnection_ não representa um registro válido. 
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIForm:: Unadvise** para cancelar um registro para notificação de que ele primeiro estabeleceu chamando o método **IMAPIForm:: Advise** . 
+Visualizadores de formulário chamam o método **IMAPIForm::Unadvise** para cancelar um registro para notificação que eles estabeleceram pela primeira vez chamando o método **IMAPIForm::Advise.** 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-DesCartar o ponteiro que você está segurando para o coletor de aviso de exibição do Visualizador de formulários chamando seu método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Geralmente, o **lançamento** é chamado durante a chamada de **Unadvise** . No enTanto, se outro thread estiver no processo de chamar um dos métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para o coletor de aviso de exibição, adie a chamada de **lançamento** até que o método **IMAPIViewAdviseSink** retorne. 
+Descarte o ponteiro que você está segurando para o sink de modo de exibição do visualizador de formulário chamando seu [método IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) Geralmente, **Release** é chamado durante **a chamada Unadvise.** No entanto, se outro thread estiver no processo de chamar um dos métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para o sink de alerta de exibição, atrase a chamada **release** até que o método **IMAPIViewAdviseSink** retorne. 
   
 ## <a name="see-also"></a>Confira também
 

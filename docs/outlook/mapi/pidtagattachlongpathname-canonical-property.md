@@ -25,7 +25,7 @@ ms.locfileid: "32339365"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o caminho e o nome de arquivo longos totalmente qualificados de um anexo. 
+Contém o caminho longo e o nome de arquivo totalmente qualificados de um anexo. 
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém o caminho e o nome de arquivo longos totalmente qualificados de um anexo
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são aplicáveis quando você usa qualquer um dos valores da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam o anexo por referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY _REF_ONLY**. Plataformas que suportam nomes de filelong devem definir as propriedades **PR_ATTACH_LONG_PATHNAME** ou Associated Propriedades e **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) ao enviar e verificar **PR_ATTACH_LONG_PATHNAME **ou propriedades associadas primeiro ao receber. 
+Essas propriedades são aplicáveis quando você usa qualquer um dos valores da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam anexo por referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. As plataformas que suportam nomes de arquivo longos devem definir propriedades **PR_ATTACH_LONG_PATHNAME** ou associadas e propriedades **PR_ATTACH_PATHNAME** (  [PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) ao enviar e devem verificar PR_ATTACH_LONG_PATHNAME ou propriedades associadas primeiro ao receber. 
   
-O aplicativo cliente deve definir essas propriedades como um caminho longo e um nome de arquivo sugeridos para serem usados se a máquina host que recebe uma mensagem suportar nomes de arquivo longos. A configuração dessas propriedades indica que os dados de anexo não estão incluídos na mensagem, mas estão disponíveis em um servidor de arquivos comum. 
+O aplicativo cliente deve definir essas propriedades como um caminho longo e um nome de arquivo sugeridos a serem usados se o computador host que recebe uma mensagem suportar nomes de arquivo longos. A definição dessas propriedades indica que os dados do anexo não estão incluídos na mensagem, mas estão disponíveis em um servidor de arquivos comum. 
   
-Diferentemente dos diretórios e nomes de arquivo fornecidos pelo **PR_ATTACH_PATHNAME**, esses diretórios e nomes de arquivo não estão restritos a um diretório de oito caracteres ou nome de arquivo, além de uma extensão de três caracteres. Em vez disso, cada diretório ou nome de arquivo pode ter até 256 caracteres de comprimento, incluindo o nome, a extensão e o período separador. No enTanto, o caminho geral está limitado a 256 caracteres. 
+Ao contrário dos diretórios e nomes de arquivo fornecidos pelo **PR_ATTACH_PATHNAME**, esses diretórios e nomes de arquivo não são restritos a um diretório de oito caracteres ou nome de arquivo mais extensão de três caracteres. Em vez disso, cada diretório ou nome de arquivo pode ter até 256 caracteres, incluindo o nome, a extensão e o ponto separador. No entanto, o caminho geral é limitado a 256 caracteres. 
   
-Os clientes devem usar uma Convenção de nomenclatura universal (UNC) na maioria dos casos em que o arquivo é compartilhado e deve usar um caminho absoluto quando o arquivo for local.
+Os clientes devem usar uma convenção de nomenização universal (UNC) na maioria dos casos quando o arquivo é compartilhado e devem usar um caminho absoluto quando o arquivo for local.
   
-O MAPI funciona somente com caminhos e nomes de fileset no conjunto de caracteres ANSI. Os aplicativos clientes que usam caminhos e nomes de um conjunto de caracteres OEM devem convertê-los para ANSI antes de chamar MAPI. 
+MAPI funciona somente com caminhos e nomes de arquivo no conjunto de caracteres ANSI. Os aplicativos cliente que usam caminhos e nomes de arquivo em um conjunto de caracteres OEM devem convertê-los em ANSI antes de chamar o MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas gerenciadas por direitos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

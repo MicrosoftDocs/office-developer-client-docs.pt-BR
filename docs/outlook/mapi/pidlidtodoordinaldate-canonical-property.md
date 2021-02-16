@@ -25,7 +25,7 @@ ms.locfileid: "32345273"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina a ordem de classificação dos objetos em uma lista de tarefas consolidadas.
+Determina a ordem de classificação de objetos em uma lista de coisas a fazer consolidada.
   
 |||
 |:-----|:-----|
@@ -33,31 +33,31 @@ Determina a ordem de classificação dos objetos em uma lista de tarefas consoli
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x000085A0  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando um objeto é sinalizado, essa propriedade deve ser definida como a hora atual em tempo universal coordenado (UTC). 
+Quando um objeto é sinalizado, essa propriedade deve ser definida como a hora atual no Tempo Universal Coordenado (UTC). 
   
-Se o cliente permitir que um usuário reordene tarefas dentro da lista de tarefas consolidadas por meio de arrastar ou outros mecanismos, eles poderão usar qualquer algoritmo adequado para determinar o novo valor dessa propriedade para que a tarefa seja exibida no local correto quando essa propriedade for usada como um sor campo de nota.
+Se o cliente permitir que um usuário reordene tarefas dentro da lista de tarefas consolidada por meio de arrastar ou outros mecanismos, ele poderá usar qualquer algoritmo adequado para determinar o novo valor dessa propriedade para que a tarefa apareça no local correto quando essa propriedade for usada como um campo de classificação.
   
-Quando essa propriedade é usada para classificar objetos e a classificação resulta em um objeto tie, a propriedade **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) é usada como um desempate.
+Quando essa propriedade é usada para classificar objetos e a classificação resulta em um vínculo, a propriedade **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) é usada como um desempate.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -72,7 +72,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

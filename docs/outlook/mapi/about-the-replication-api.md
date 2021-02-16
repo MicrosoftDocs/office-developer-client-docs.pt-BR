@@ -19,32 +19,32 @@ ms.locfileid: "32329516"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API de replicação fornece a funcionalidade de um provedor de armazenamento de mensagens MAPI para sincronizar os itens do Microsoft Outlook 2013 ou do Microsoft Outlook 2010 entre um servidor e um repositório local baseado em arquivo. pst privado criado para esse provedor. 
+A API de Replicação fornece a funcionalidade para um provedor de armazenamento de mensagens MAPI sincronizar os itens do Microsoft Outlook 2013 ou do Microsoft Outlook 2010 entre um servidor e um armazenamento local baseado em .pst privado criado para esse provedor. 
   
 > [!NOTE]
-> Um provedor de repositório de mensagens MAPI deve implementar a API de replicação de acordo com as instruções em [sobre a máquina de estado de replicação](about-the-replication-state-machine.md). O provedor deve usar a API somente em um repositório pessoal criado para si mesmo e não em repositórios pessoais criados para outros provedores, porque os repositórios pessoais criados para outros provedores podem já ter configurado seus próprios mecanismos de replicação com o respectivo servidor. Por exemplo, um arquivo de pasta offline (. ost) mantém sua própria relação de replicação com um servidor do Microsoft Exchange. 
+> Um provedor de armazenamento de mensagens MAPI deve implementar a API de replicação de acordo com as instruções em [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md). O provedor deve usar a API somente em um armazenamento pessoal criado para si mesmo, e não em armazenamentos pessoais criados para outros provedores, porque os armazenamentos pessoais criados para outros provedores podem já ter definido seus próprios mecanismos de replicação com o respectivo servidor. Por exemplo, um arquivo de pasta offline (.ost) mantém sua própria relação de replicação com um servidor Microsoft Exchange. 
   
-Para usar a API de replicação, um provedor de repositório de mensagens MAPI deve primeiro abrir e encapsular um repositório local baseado em arquivo. pst chamando **[NSTServiceEntry](nstserviceentry.md)**. O provedor pode usar as principais interfaces da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)**, para realizar a replicação. O **IPSTX** é fornecido pela consulta no [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)e **IOSTX** é fornecido por **[IPSTX::](ipstx-getsyncobject.md)** getsyncobject. 
+Para usar a API de Replicação, um provedor de armazenamento de mensagens MAPI deve primeiro abrir e quebrar um armazenamento local baseado em .pst chamando **[NSTServiceEntry](nstserviceentry.md)**. Em seguida, o provedor pode usar as principais interfaces da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)** para realizar a replicação. **IPSTX** é fornecido consultando [em IMsgStore : IMAPIProp](imsgstoreimapiprop.md)e **IOSTX** é fornecido pelo **[IPSTX::GetSyncObject](ipstx-getsyncobject.md)**. 
   
 ## <a name="the-iostx-interface"></a>A interface IOSTX
 
-A interface **IOSTX** é a interface principal que realiza a sincronização na API de replicação. O **IOSTX** move o repositório local por meio de uma série de Estados, recuperando informações em cada Estado sobre alterações no repositório local, bem como informando o repositório local de alterações no servidor. A API de replicação também especifica muitas estruturas de dados que dão suporte à sincronização. 
+A interface **IOSTX** é a interface principal que executa a sincronização na API de Replicação. **O IOSTX** move o armazenamento local por uma série de estados, recuperando informações em cada estado sobre alterações no armazenamento local, bem como informando o armazenamento local de alterações no servidor. A API de Replicação também especifica muitas estruturas de dados que suportam a sincronização. 
   
-Um provedor de repositório, como um cliente para esta API, usa a API de replicação para encapsular o repositório local e se move através desses Estados, colocando as alterações no repositório local (como as alterações na hierarquia de pastas ou a adição de novos itens) no servidor e também recuperando informações sobre alterações no servidor e como fornecer essas informações para a interface do **IOSTX** . A interface **IOSTX** adota a sincronização de alteração incremental (ICS) fornecida pelo Microsoft Exchange Server. Para obter mais informações sobre o ICS, consulte [critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). Por meio do **IOSTX**, o cliente usa o ICS para monitorar e sincronizar as alterações incrementais na hierarquia ou no conteúdo de um repositório local. 
+Um provedor de armazenamento, como um cliente para essa API, usa a API de replicação para quebrar o armazenamento local e mover-se por esses estados, pressionando alterações no armazenamento local (como alterações na hierarquia de pastas ou a adição de novos itens) ao servidor e também recuperando informações sobre alterações no servidor e fornecendo essas informações para a interface **IOSTX.** A interface **IOSTX** adota a Sincronização de Alteração Incremental (ICS) fornecida pelo Microsoft Exchange Server. Para obter mais informações sobre ICS, consulte [Critérios de Avaliação do ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx) Por **meio do IOSTX,** o cliente usa o ICS para monitorar e sincronizar as alterações incrementais para a hierarquia ou o conteúdo em um armazenamento local. 
   
 ## <a name="the-ipstx-interface"></a>A interface IPSTX
 
- **IPSTX** e cinco outras interfaces * * IPSTX *n* * * que herdam de **IPSTX** fornecem funcionalidades auxiliares que podem ser usadas ao realizar a replicação por meio da interface **IOSTX** . Por exemplo, **[IPSTX:: EmulateSpooler](ipstx-emulatespooler.md)** permite que você faça com que o repositório local eMule o Gerenciador de protocolos do Outlook para o spool de mensagens de saída para um servidor. 
+ **O IPSTX** e cinco outras interfaces **IPSTX *n* ** herdada do **IPSTX** fornecem funcionalidades auxiliares que podem ser usadas ao executar a replicação por meio da interface **IOSTX.** Por exemplo, **[IPSTX::EmulateSpooler](ipstx-emulatespooler.md)** permite que você faça o armazenamento local emular o Outlook Protocol Manager para fazer o spool de mensagens de saída para um servidor. 
   
-Para obter mais informações sobre as transições de estado durante a replicação, consulte [sobre a máquina de estado de replicação](about-the-replication-state-machine.md).
+Para obter mais informações sobre transições de estado durante a replicação, [consulte Sobre a Máquina de Estado de Replicação.](about-the-replication-state-machine.md)
   
-## <a name="the-replication-api"></a>A API de replicação
+## <a name="the-replication-api"></a>A API de Replicação
 
-A API de replicação fornece os seguintes defintions, tipos de dados e interfaces. Para obter um exemplo de implementação de um provedor de repositório para arquivos de pastas particulares encapsuladas (PST), consulte [sobre o exemplo de provedor de repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md).
+A API de Replicação fornece as seguintes definições, tipos de dados e interfaces. Para ver um exemplo de implementação de um provedor de armazenamento para arquivos PST (Pastas Particulares) empacotados, consulte Sobre o Provedor [de Armazenamento PST com Fim](about-the-sample-wrapped-pst-store-provider.md)de Exemplo.
   
 Definições:
   
-- [Constantes para a API de replicação](mapi-constants.md)
+- [Constantes para a API de Replicação](mapi-constants.md)
     
 Funções:
   
@@ -70,7 +70,7 @@ Tipos de dados:
     
 - **[SKEY](skey.md)**
     
-- **[SINCRONIZAÇÃO](sync.md)**
+- **[SYNC](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

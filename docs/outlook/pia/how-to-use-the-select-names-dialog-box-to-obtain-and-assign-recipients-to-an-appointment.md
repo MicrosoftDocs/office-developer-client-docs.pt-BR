@@ -1,5 +1,5 @@
 ---
-title: Usar a caixa de diálogo Selecionar Nomes para obter e atribuir destinatários a um compromisso
+title: Use a caixa de diálogo Selecionar Nomes para obter e atribuir destinatários a um compromisso
 TOCTitle: Use the Select Names dialog box to obtain and assign recipients to an appointment
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)

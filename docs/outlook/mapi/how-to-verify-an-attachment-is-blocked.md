@@ -17,9 +17,9 @@ ms.locfileid: "32345882"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este exemplo de código no C++ mostra como usar a interface [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) para descobrir se um anexo é bloqueado pelo microsoft Outlook 2010 ou pelo microsoft Outlook 2013 para exibição e indexação. 
+Este exemplo de código em C++ mostra como usar a interface [IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) para descobrir se um anexo é bloqueado pelo Microsoft Outlook 2010 ou pelo Microsoft Outlook 2013 para exibição e indexação. 
   
-[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) é derivado da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Você pode obter a interface [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) chamando [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) no objeto de sessão MAPI, solicitando o **IID_IAttachmentSecurity**. [IAttachmentSecurity:: IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) retorna **true** no _pfBlocked_ se o anexo é considerado não seguro pelo Outlook 2010 ou pelo Outlook 2013 e é bloqueado para exibição e indexação no Outlook 2010 ou no Outlook 2013. 
+[IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) é derivado da interface [IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Você pode obter a interface [IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) chamando [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) no objeto de sessão MAPI, solicitando IID_IAttachmentSecurity **.** [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) retornará **true** em  _pfBlocked_ se o anexo for considerado inseguro pelo Outlook 2010 ou pelo Outlook 2013 e for bloqueado para exibição e indexação no Outlook 2010 ou no Outlook 2013. 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

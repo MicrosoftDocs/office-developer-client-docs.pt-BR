@@ -26,7 +26,7 @@ A janela **Rastreamento de Fórmula** fornece informações que o ajudam a enten
   
 ## <a name="displaying-the-formula-tracing-window"></a>Mostrar a janela Rastreamento de Fórmula
 
-Para exibir a janela **Rastreamento de Fórmula** com a janela ShapeSheet ativa, em **Ferramentas de ShapeSheet** na guia **Design**, no grupo **Rastreamento de Fórmula**, clique em ** Mostrar Janela**. A janela **Rastreamento de Fórmula** aparece encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuada ou mesclada com as outras janelas ShapeSheet ancoradas disponíveis, por exemplo, a janela **Explorador de Estilo**. 
+Para exibir a janela **Rastreamento de Fórmula** com a janela ShapeSheet ativa, em **Ferramentas de ShapeSheet** na guia **Design**, no grupo **Rastreamento de Fórmula**, clique em **Mostrar Janela**. A janela **Rastreamento de Fórmula** aparece encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuada ou mesclada com as outras janelas ShapeSheet ancoradas disponíveis, por exemplo, a janela **Explorador de Estilo**. 
   
 ## <a name="tracing-dependent-cells"></a>Rastreando células dependentes
 

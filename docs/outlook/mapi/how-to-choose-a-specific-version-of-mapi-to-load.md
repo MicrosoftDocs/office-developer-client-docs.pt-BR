@@ -19,96 +19,96 @@ ms.locfileid: "32344517"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ao vincular explicitamente a uma implementação de MAPI, você deve selecionar cuidadosamente a implementação a ser carregada. 
+Ao vincular explicitamente a uma implementação de MAPI, você deve selecionar cuidadosamente qual implementação carregar. 
   
 Há dois métodos para vincular explicitamente a uma implementação de MAPI. 
   
-1. Você pode carregar a biblioteca de stub MAPI e especificar no registro uma DLL personalizada para carregar e distribuir as chamadas MAPI para.
+1. Você pode carregar a biblioteca de stub MAPI e especificar no Registro uma DLL personalizada para carregar e expedir chamadas MAPI.
     
-2. Você pode implementar o algoritmo de pesquisa de cliente MAPI para pesquisar a versão de MAPI usada pelo cliente de email padrão e carregá-lo.
+2. Você pode implementar o algoritmo de busca do cliente MAPI para procurar a versão do MAPI usada pelo cliente de email padrão e carregá-la.
     
-Como você pode alterar as [configurações do registro stub de Mapi32. dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) para direcionar seu aplicativo para usar qualquer implementação de MAPI, recomendamos que você direcione seu aplicativo para usar uma implementação de MAPI que você testou com. O procedimento a seguir descreve os dois métodos de vinculação explícita. 
+Como você pode alterar as configurações do RegistroMapi32.dll [ Stub](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) para direcionar seu aplicativo a usar qualquer implementação de MAPI, recomendamos direcionar seu aplicativo para usar uma implementação de MAPI testada. O exemplo a seguir descreve os dois métodos de vinculação explicitamente. 
   
-## <a name="reading-from-the-registry"></a>Leitura do registro
+## <a name="reading-from-the-registry"></a>Lendo a partir do Registro
 
-### <a name="to-read-mapi-implementation-information-from-the-registry"></a>Para ler as informações de implementação de MAPI do registro
+### <a name="to-read-mapi-implementation-information-from-the-registry"></a>Para ler as informações de implementação de MAPI do Registro
 
-1. As chaves do registro que indicam uma DLL personalizada para um cliente de email estão localizadas na `HKLM\Software\Clients\Mail` chave do cliente de email. 
+1. As chaves do Registro que indicam uma DLL personalizada para um cliente de email estão localizadas na  `HKLM\Software\Clients\Mail` chave do cliente de email. 
     
    A tabela a seguir descreve estas chaves:
     
-   |**Tecla**|**Descrição**|
+   |**Chave**|**Descrição**|
    |:-----|:-----|
-   |MSIComponentID  <br/> |Uma ID de categoria (GUID) PublishComponent do Windows Installer que identifica a DLL que exporta as chamadas simples de MAPI ou MAPI. Se definido, esta tecla tem precedência sobre a chave **DLLPath** ou **DLLPathEx** .  <br/> |
-   |MSIApplicationLCID  <br/> |Identificador de localidade (LCID) do seu aplicativo. O primeiro valor de cadeia de caracteres identifica uma subchave de e os valores de cadeia de `HKLM\Software` caracteres subsequentes identificam os valores do registro sob esta chave que contêm informações de localidade.  <br/> |
-   |MSIOfficeLCID  <br/> |LCIDs do Microsoft Office. O primeiro valor de cadeia de caracteres identifica uma subchave de e os valores de cadeia de `HKLM\Software` caracteres subsequentes identificam os valores do registro sob essa chave.  <br/> |
+   |MSIComponentID  <br/> |Uma ID da categoria PublishComponent (GUID) do Windows Installer que identifica a DLL que exporta chamadas MAPI ou MAPI simples. Se definida, essa chave tem precedência sobre a **chave DLLPath** ou **DLLPathEx.**  <br/> |
+   |MSIApplicationLCID  <br/> |Identificador de localidade (LCID) para seu aplicativo. O primeiro valor de cadeia de caracteres identifica uma sub-chave de valores subsequentes de cadeia de caracteres que identificam valores de registro sob essa chave que  `HKLM\Software` contêm informações de localidade.  <br/> |
+   |MSIOfficeLCID  <br/> |LCIDs para Microsoft Office. O primeiro valor de cadeia de caracteres identifica uma sub-chave de valores subsequentes de cadeia de caracteres que identificam valores  `HKLM\Software` do Registro sob essa chave.  <br/> |
    
    Obtenha as informações dessas chaves.
     
-2. Passe os valores obtidos da etapa anterior para a função [FGetComponentPath](fgetcomponentpath.md) . **FGetComponentPath** é uma função que é exportada pela biblioteca de stub de MAPI MAPISTUB. dll. Ele retorna o caminho da versão personalizada de MAPI. 
+2. Passe os valores obtidos da etapa anterior para a [função FGetComponentPath.](fgetcomponentpath.md) **FGetComponentPath** é uma função exportada pela biblioteca stub MAPI Mapistub.dll. Ele retorna o caminho da versão personalizada de MAPI. 
 
 
 ### <a name="to-load-the-implementation-of-mapi-marked-as-default"></a>Para carregar a implementação de MAPI marcada como padrão
 
-1. Leia o `HKLM\Software\Clients\Mail::(default)` valor do registro. 
+1. Leia o  `HKLM\Software\Clients\Mail::(default)` valor do Registro. 
     
-2. Procure as informações para o cliente indicado, conforme descrito anteriormente.
+2. Procure as informações do cliente indicado conforme descrito anteriormente.
     
 > [!NOTE]
-> Observe que o cliente de email padrão pode não implementar o MAPI estendido. 
+> Observe que o cliente de email padrão pode não implementar MAPI estendido. 
   
 #### <a name="example"></a>Exemplo
 
-Para carregar MAPI conforme implementado pelo Outlook, procure as chaves do registro em `HKLM\Software\Clients\Mail\Microsoft Outlook` e passe-as para o **FGetComponentPath**. **FGetComponentPath** retornará o caminho para a implementação de MAPI do Outlook. 
+Para carregar o MAPI conforme implementado pelo Outlook, procure as chaves do Registro e  `HKLM\Software\Clients\Mail\Microsoft Outlook` passe-as para **FGetComponentPath**. **FGetComponentPath** retornará o caminho para a implementação de MAPI do Outlook. 
   
-Se as chaves **MSIComponentID**, **MSIApplicationLCID**e **MSIOfficeLCID** não estiverem definidas, verifique o valor do registro **DLLPathEx** . Se as chaves estiverem definidas, **FGetComponentPath** fornecerá o caminho da implementação de MAPI do cliente. 
+Se as chaves **MSIComponentID**, **MSIApplicationLCID** e **MSIOfficeLCID** não estão definidas, verifique o valor do Registro **DLLPathEx.** Se as chaves estão definidas, **FGetComponentPath** fornece o caminho da implementação de MAPI do cliente. 
   
-## <a name="implementing-the-mapi-client-lookup-algorithm"></a>Implementar o algoritmo de pesquisa de cliente MAPI
+## <a name="implementing-the-mapi-client-lookup-algorithm"></a>Implementando o algoritmo de Busca de Cliente MAPI
 
-A tabela a seguir lista as quatro funções do MFCMAPI que são usadas para pesquisar o caminho de uma implementação personalizada de MAPI:
+A tabela a seguir lista as quatro funções de MFCMAPI que são usadas para procurar o caminho para uma implementação personalizada de MAPI:
   
-|**Function**|**Descrição**|
+|**Function**|**Description**|
 |:-----|:-----|
 | `GetMAPIPath` <br/> |Obtém o caminho da biblioteca MAPI.  <br/> |
-| `GetMailKey` <br/> |Obtém a chave de registro de email MAPI.  <br/> |
+| `GetMailKey` <br/> |Obtém a chave do Registro de email MAPI.  <br/> |
 | `GetMapiMsiIds` <br/> |Obtém o identificador do Windows Installer.  <br/> |
-| `GetComponentPath` <br/> |Obtém o caminho do componente usando [FGetComponentPath](fgetcomponentpath.md).  <br/> |
+| `GetComponentPath` <br/> |Obtém o caminho do componente [usando FGetComponentPath](fgetcomponentpath.md).  <br/> |
    
-Como o MFCMAPI carrega a implementação padrão de MAPI por padrão, se você quiser usar uma implementação diferente de MAPI, é necessário direcioná-lo explicitamente para isso. Isso é feito usando a rotina **MAPI Session\Load** . 
+Como O MFCMAPI carrega a implementação padrão de MAPI por padrão, se você quiser usar uma implementação diferente do MAPI, deverá direcionar explicitamente para isso. Isso é realizado usando a rotina **Session\Load MAPI.** 
   
 ### <a name="how-these-functions-work"></a>Como essas funções funcionam
 
-1. Chamadas `GetMAPIPath`MFCMAPI, passando NULL para o parâmetro Client, para carregar a implementação MAPI padrão.
+1. Chamadas MFCMAPI  `GetMAPIPath` , passando NULL para o parâmetro cliente, para carregar a implementação de MAPI padrão.
     
-2.  `GetMAPIPath`chamadas `GetMapiMsiIds` para ler os valores de **MSIComponentID**, **MSIApplicationLCID**e **MSIOfficeLCID**.
+2.  `GetMAPIPath` chamadas  `GetMapiMsiIds` para ler os valores para **MSIComponentID**, **MSIApplicationLCID** e **MSIOfficeLCID**.
     
-3.  `GetMapiMsiIds`chamadas `GetMailKey` para abrir a chave do registro para o cliente de email padrão. 
+3.  `GetMapiMsiIds` para  `GetMailKey` abrir a chave do Registro para o cliente de email padrão. 
     
-4.  `GetMapiMsiIds`usa o identificador do registro retornado `GetMailKey` por para pesquisar valores de **MSIComponentID**, **MSIApplicationLCID**e **MSIOfficeLCID**.
+4.  `GetMapiMsiIds` usa o alça do Registro retornado por para procurar valores para  `GetMailKey` **MSIComponentID**, **MSIApplicationLCID** e **MSIOfficeLCID**.
     
-5. Os valores de **MSIComponentID**, **MSIApplicationLCID**e **MSIOfficeLCID**são retornados para `GetMAPIPath`.  `GetMAPIPath`em seguida, passa `GetComponentPath`-os para o.
+5. Os valores para **MSIComponentID**, **MSIApplicationLCID** e **MSIOfficeLCID**, são retornados para  `GetMAPIPath` .  `GetMAPIPath` em seguida, os passa para  `GetComponentPath` .
     
-6.  `GetComponentPath`carrega a biblioteca de stub MAPI, Mapi32. dll, do diretório do sistema. 
+6.  `GetComponentPath` carrega a biblioteca stub MAPI, Mapi32.dll, do diretório do sistema. 
     
-7.  `GetComponentPath`em seguida, recupera o endereço da função **FGetComponentPath** de Mapi32. dll, supondo que Mapi32. dll exporta **FGetComponentPath**.
+7.  `GetComponentPath` em seguida, recupera o endereço da **função FGetComponentPath** Mapi32.dll, supondo que Mapi32.dll **exporta FGetComponentPath**.
     
-8. Se a obter o endereço de **FGetComponentPath** de Mapi32. dll falhar `GetComponentPath` , o recuperará o endereço de MAPISTUB. dll. 
+8. Se o endereço de **FGetComponentPath** Mapi32.dll falhar, recupera o  `GetComponentPath` endereço do Mapistub.dll. 
     
-9.  `GetComponentPath`em seguida, chama **FGetComponentPath**, obtendo o caminho da versão padrão do MAPI.
+9.  `GetComponentPath` em **seguida, chama FGetComponentPath**, obtendo o caminho da versão padrão de MAPI.
     
-10.  `GetMAPIPath`em seguida, retorna esse caminho para o chamador, que carrega o MAPI e explicitamente os links para ele, conforme descrito em [link to MAPI Functions](how-to-link-to-mapi-functions.md).
+10.  `GetMAPIPath` em seguida, retorna esse caminho para o chamador, que carrega MAPI e explicitamente vincula a ele conforme descrito em Link para funções [MAPI](how-to-link-to-mapi-functions.md).
     
 > [!NOTE] 
-> - Para dar suporte a cópias localizadas de MAPI para localidades do inglês e `GetMAPIPath` que não sejam do inglês, lê os valores das subchaves **MSIApplicationLCID** e **MSIOfficeLCID** .  `GetMAPIPath`em seguida, chama **FGetComponentPath**, primeiro especificando **MSIApplicationLCID** como **szQualifier**e, novamente, especificando **MSIOfficeLCID** como **szQualifier**. Para obter mais informações sobre chaves do registro para clientes de email que oferecem suporte a idiomas que não são do inglês, confira conFigurando [as chaves msi para sua dll MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).   
-> - Se o MFCMAPI não receber um caminho para MAPI usando `GetMAPIPath`o, ele carregará a biblioteca de stub MAPI do diretório do sistema.
-> - O valor do registro **MSMapiApps** discutido em [mapeamento explicitamente de chamadas MAPI para DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) só se aplica quando a biblioteca stub MAPI é usada. Os aplicativos que carregam uma implementação específica de MAPI ou carregam a implementação padrão não precisam definir a chave do registro **MSMapiApps** . 
+> - Para dar suporte a cópias localizadas de MAPI para localidades em inglês e não inglês, lê os valores para as `GetMAPIPath` sub-chaves **MSIApplicationLCID** e **MSIOfficeLCID.**  `GetMAPIPath` em seguida, chama **FGetComponentPath**, primeiro especificando **MSIApplicationLCID** como **szQualifier** e especificando novamente **MSIOfficeLCID** como **szQualifier**. Para obter mais informações sobre chaves do Registro para clientes de email que suportam idiomas diferentes do inglês, consulte Configurando as chaves MSI para sua [DLL MAPI.](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)   
+> - Se MFCMAPI não receber um caminho para MAPI usando , ele carregará a biblioteca  `GetMAPIPath` de stub MAPI do diretório do sistema.
+> - O valor do Registro **MSMapiApps** discutido no Mapeamento Explícito de Chamadas MAPI para [DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) só se aplica quando a biblioteca stub MAPI é usada. Os aplicativos que carregam uma implementação específica de MAPI ou carregam a implementação padrão não têm que definir a chave do Registro **MSMapiApps.** 
     
 ## <a name="see-also"></a>Confira também
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Visão geral da programação MAPI](mapi-programming-overview.md)
 - [Link para funções MAPI](how-to-link-to-mapi-functions.md)
-- [Configurações do registro stub Mapi32. dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
-- [ConFigurando as chaves MSI para sua DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
-- [Mapear explicitamente as chamadas MAPI para DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
+- [Mapi32.dll do Registro stub](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [Configurando as chaves MSI para sua DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [Mapear explicitamente chamadas MAPI para DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

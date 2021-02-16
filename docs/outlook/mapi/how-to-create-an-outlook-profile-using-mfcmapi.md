@@ -44,7 +44,7 @@ Para não desenvolvedores, é recomendável usar a interface de usuário do Outl
     
 10. No menu Propriedades, clique em **Propriedades adicionais**. 
     
-11. Clique em **Adicionar**e adicione as seguintes propriedades: 
+11. Clique em **Adicionar** e adicione as seguintes propriedades: 
     
     **No Outlook 2016**: `PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)` e `PR_DISPLAY_NAME_W`
     

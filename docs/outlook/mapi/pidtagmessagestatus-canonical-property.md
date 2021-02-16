@@ -25,7 +25,7 @@ ms.locfileid: "32355717"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um bitmask de 32 bits de sinalizadores que define o status de uma mensagem em uma tabela de conteúdo. 
+Contém uma máscara de bits de 32 bits de sinalizadores que define o status de uma mensagem em uma tabela de conteúdo. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contém um bitmask de 32 bits de sinalizadores que define o status de uma mensag
    
 ## <a name="remarks"></a>Comentários
 
-Uma mensagem pode existir em uma tabela de conteúdo e em uma ou mais tabelas de resultados de pesquisa, e cada instância da mensagem pode ter um status diferente. Essa propriedade não deve ser considerada uma propriedade em uma mensagem, mas uma coluna em uma tabela de conteúdo. 
+Uma mensagem pode existir em um índice de conteúdo e em uma ou mais tabelas de resultados de pesquisa, e cada instância da mensagem pode ter um status diferente. Essa propriedade não deve ser considerada uma propriedade em uma mensagem, mas uma coluna em uma tabela de conteúdo. 
   
 Um aplicativo cliente pode definir um ou mais dos seguintes sinalizadores nesta propriedade: 
   
@@ -54,51 +54,51 @@ MSGSTATUS_DRAFT
     
 MSGSTATUS_HIDDEN 
   
-> A mensagem deve ser suprimida da exibição da pasta destinatários. 
+> A mensagem deve ser suprimida na exibição da pasta dos destinatários. 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> A mensagem deve ser realçada na pasta de destinatários. 
+> A mensagem deve ser realçada nas exibições da pasta dos destinatários. 
     
 MSGSTATUS_REMOTE_DELETE 
   
-> A mensagem foi marcada para exclusão no armazenamento remoto de mensagens sem baixar para o cliente local. 
+> A mensagem foi marcada para exclusão no armazenamento de mensagens remoto sem ser baixada para o cliente local. 
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> A mensagem foi marcada para download no repositório de mensagens remotas para o cliente local. 
+> A mensagem foi marcada para download do armazenamento de mensagens remoto para o cliente local. 
     
 MSGSTATUS_TAGGED 
   
 > A mensagem foi marcada para uma finalidade definida pelo cliente.
     
-Os sinalizadores **MSGSTATUS_DELMARKED**, **MSGSTATUS_HIDDEN**, **MSGSTATUS_HIGHLIGHTED**e **MSGSTATUS_TAGGED** são definidos pelo cliente. Provedores de transporte e de repositório passam esses bits sem qualquer ação. 
+Os **MSGSTATUS_DELMARKED**, **MSGSTATUS_HIDDEN**, **MSGSTATUS_HIGHLIGHTED** e MSGSTATUS_TAGGED são  definidos pelo cliente. Os provedores de transporte e armazenamento passam esses bits sem qualquer ação. 
   
-Os clientes podem interpretar esses valores de qualquer forma que seja apropriada para seus aplicativos. Uma maneira de que muitos clientes usem essa propriedade é exibir mensagens marcadas para exclusão com um ícone representativo. 
+Os clientes podem interpretar esses valores de qualquer maneira que seja apropriado para seus aplicativos. Uma maneira pela qual muitos clientes usam essa propriedade é exibir mensagens marcadas para exclusão com um ícone representativo. 
   
-Um cliente do visualizador remoto pode definir **MSGSTATUS_REMOTE_DELETE** ou **MSGSTATUS_REMOTE_DOWNLOAD** em mensagens na pasta de cabeçalho apresentada pelo provedor de transporte remoto. O aplicativo cliente pode examinar cada cabeçalho de mensagem nessa pasta para determinar se a mensagem deve ser baixada ou excluída no repositório de mensagens remoto. Em seguida, ele usa o método [IMAPIFolder:: SetMessageStatus](imapifolder-setmessagestatus.md) para definir o sinalizador apropriado. **SetMessageStatus** é a única maneira de definir qualquer um dos sinalizadores nessa propriedade; o método [IMAPIProp::](imapiprop-setprops.md) SetProps não pode ser usado. Para recuperar essa propriedade, os clientes chamam [IMAPIFolder:: GetMessageStatus](imapifolder-getmessagestatus.md) , em vez de [IMAPIProp::](imapiprop-getprops.md)GetProps.
+Um cliente de visualizador remoto pode MSGSTATUS_REMOTE_DELETE ou **MSGSTATUS_REMOTE_DOWNLOAD** mensagens na pasta de header apresentadas a ele pelo provedor de transporte remoto.  O aplicativo cliente pode examinar cada header de mensagem nessa pasta para determinar se a mensagem deve ser baixada ou excluída no armazenamento de mensagens remoto. Em seguida, ele usa [o método IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) para definir o sinalizador apropriado. **SetMessageStatus** é a única maneira de definir qualquer um dos sinalizadores nesta propriedade; o [método IMAPIProp::SetProps](imapiprop-setprops.md) não pode ser usado. Para recuperar essa propriedade, os clientes chamam [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) em vez de [IMAPIProp::GetProps](imapiprop-getprops.md).
   
-Bits 16 a 31 (0x10000 a 0x80000000) desta propriedade estão disponíveis para uso pelo aplicativo cliente de mensagem interpessoal (IPM). Todos os outros bits são reservados para uso por MAPI; aqueles não definidos na tabela anterior devem ser inicialmente definidos como zero e não alterados subsequentemente. 
+Os bits de 16 a 31 (0x10000 0x80000000) dessa propriedade estão disponíveis para uso pelo aplicativo cliente de mensagem interpersonal (IPM). Todos os outros bits são reservados para uso por MAPI; aqueles não definidos na tabela anterior devem ser inicialmente definidos como zero e não alterados posteriormente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
+> Lida com a sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -113,7 +113,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

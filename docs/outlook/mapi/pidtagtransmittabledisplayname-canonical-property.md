@@ -36,41 +36,41 @@ Contém o nome de exibição de um destinatário em um formulário seguro que n�
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser implementadas por todos os provedores de catálogo de endereços. Eles contêm a versão do nome de exibição do destinatário que é transmitida com a mensagem. Para a maioria dos provedores de catálogo de endereços, essas propriedades têm o mesmo valor que a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Os provedores que não têm um nome de exibição seguro retornam PT_ERROR e MAPI altera o nome de exibição adicionando aspas ao redor do nome.
+Essas propriedades devem ser implementadas por todos os provedores de agendas. Eles contêm a versão do nome de exibição do destinatário que é transmitida com a mensagem. Para a maioria dos provedores de livro de endereços, essas propriedades têm o mesmo valor que a **propriedade PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Provedores que não têm um nome de exibição seguro retornam PT_ERROR e MAPI altera o nome de exibição adicionando aspas ao redor do nome.
   
-Um aplicativo cliente pode usar essa propriedade para impedir a alteração ou "falsificação" de entradas. Um exemplo de falsificação é transmitir John Doe como John (o que é uma pessoa) Doe.
+Um aplicativo cliente pode usar essa propriedade para evitar alteração ou "spoofing" de entradas. Um exemplo de spoofing é a transmissão de John Doe como John (What a Guy).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Lida com as comunicações de um cliente com um servidor de interface de provedor de serviços de nome (NSPI).
+> Lida com as comunicações de um cliente com um servidor NSPI (Name Service Provider Interface).
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -82,7 +82,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

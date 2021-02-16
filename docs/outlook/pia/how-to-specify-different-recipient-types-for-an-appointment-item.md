@@ -27,7 +27,7 @@ Para adicionar destinatários a um objeto [AppointmentItem](https://msdn.microso
 
 No exemplo a seguir, SetRecipientTypeForAppt cria um objeto **AppointmentItem**, define propriedades do objeto e adiciona participantes obrigatórios e opcionais. Ele também adiciona uma sala de conferências para a reunião. Observe que a propriedade [MeetingStatus](https://msdn.microsoft.com/library/bb611417\(v=office.15\)) está definida como [olMeeting](https://msdn.microsoft.com/library/bb644590\(v=office.15\)), indicando que o compromisso é uma solicitação de reunião.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

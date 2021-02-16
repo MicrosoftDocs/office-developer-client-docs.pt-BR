@@ -80,10 +80,10 @@ The following table describes the **WeatherServiceUrl** key.
   
 |||
 |:-----|:-----|
-|**Tecla** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**WeatherServiceUrl** <br/> |
 |**Value type** <br/> |REG_SZ  <br/> |
-|**Valor padrão** <br/> |EMPTY_STRING  <br/> |
+|**Default value** <br/> |EMPTY_STRING  <br/> |
 |**Descrição** <br/> |URL to a weather data service.  <br/> |
    
 ## <a name="dependent-conditions"></a>Dependent conditions
@@ -99,10 +99,10 @@ Note that an administrator can also use Group Policy to disable the Weather Bar 
   
 |||
 |:-----|:-----|
-|**Tecla** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**DisableWeather** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Default value** <br/> |,0  <br/> |
+|**Default value** <br/> |0  <br/> |
 |**Descrição** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
@@ -120,7 +120,7 @@ An administrator can also use Group Policy to disable all online content, includ
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Value name** <br/> |**UseOnlineContent** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Default value** <br/> |duas  <br/> |
+|**Default value** <br/> |2   <br/> |
 |**Descrição** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 

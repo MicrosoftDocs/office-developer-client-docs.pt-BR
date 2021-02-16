@@ -19,34 +19,34 @@ ms.locfileid: "32345190"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI pode ser usado para criar e enviar uma mensagem que solicita uma confirmação de leitura. Quando uma confirmação de leitura é solicitada, o sistema de mensagens gera e retorna um relatório de leitura ao remetente quando o destinatário abre a mensagem.
+MAPI can be used to create and send a message that requests a read receipt. Quando uma confirmação de leitura é solicitada, o sistema de mensagens gera e retorna um relatório de leitura ao remetente quando o destinatário abre a mensagem.
   
-Para obter informações sobre como baixar, exibir e executar o código do aplicativo MFCMAPI e o projeto do CreateOutlookItemsAddin referenciado neste tópico, consulte [install the Samples Used in this section](how-to-install-the-samples-used-in-this-section.md).
+Para obter informações sobre como baixar, exibir e executar o código do aplicativo MFCMAPI e do projeto CreateOutlookItemsAddin referenciados neste tópico, consulte Instalar os [exemplos](how-to-install-the-samples-used-in-this-section.md)usados nesta seção.
 
 
 ### <a name="to-create-and-send-a-message-requesting-a-read-receipt"></a>Para criar e enviar uma mensagem solicitando uma confirmação de leitura
 
-1. Criar uma mensagem de saída. Para obter informações sobre como criar uma mensagem de saída, consulte [tratamento de uma mensagem de saída](handling-an-outgoing-message.md).
+1. Crie uma mensagem de saída. Para obter informações sobre como criar uma mensagem de saída, consulte [Manipulando uma mensagem de saída.](handling-an-outgoing-message.md)
     
-2. Adicione a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) e defina-a como **true**.
+2. Adicione a **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) e de definida como **true**.
     
-3. Adicione a propriedade **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)).
+3. Adicione a **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) .
     
-4. Adicione a propriedade **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)).
+4. Adicione a **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)) .
     
-5. Envie a mensagem chamando o método [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
+5. Envie a mensagem chamando o [método IMessage::SubmitMessage.](imessage-submitmessage.md) 
     
-A `AddMail` função no arquivo de origem mails. cpp do projeto CreateOutlookItemsAddin demonstra essas etapas. A `AddMail` função usa parâmetros da caixa de diálogo **Adicionar email** que é exibida quando você clica no comando **Adicionar email** no menu **AddIns** no aplicativo de exemplo MFCMAPI. A `DisplayAddMailDialog` função em mails. cpp exibe a caixa de diálogo e passa os valores da caixa de diálogo para `AddMail` a função. A `DisplayAddMailDialog` função não está relacionada diretamente à criação de um item de email usando MAPI, portanto, não está listada aqui. A `AddMail` função está listada abaixo. 
+A função no arquivo de origem Mails.cpp do projeto  `AddMail` CreateOutlookItemsAddin demonstra estas etapas. A função assume parâmetros da caixa de diálogo Adicionar Email que é exibida quando você clica no comando Adicionar Email no menu Addins no aplicativo de exemplo `AddMail` MFCMAPI.    A função em Mails.cpp exibe a caixa de diálogo e passa os valores da  `DisplayAddMailDialog` caixa de diálogo para a  `AddMail` função. A função não está diretamente relacionada à criação de um item de email usando  `DisplayAddMailDialog` MAPI, portanto, ele não está listado aqui. A  `AddMail` função está listada abaixo. 
   
-Observe que o parâmetro _lpFolder_ passado para o `AddMail` método é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta na qual a nova mensagem será criada. Dado o parâmetro _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . O **** Método CreateMessage retorna um código de êxito e um ponteiro para um ponteiro para uma interface [IMessage: IMAPIProp](imessageimapiprop.md) . 
+Observe que o  _parâmetro lpFolder_ passado para o método é um ponteiro para uma  `AddMail` interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta onde a nova mensagem será criada. Dado o _parâmetro lpFolder_ que representa uma interface **IMAPIFolder,** o código chama o [método IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) O **método CreateMessage** retorna um código de sucesso e um ponteiro para um ponteiro para [uma IMessage : interface IMAPIProp.](imessageimapiprop.md) 
 
-A maior parte `AddMail` do código de função trata do trabalho de definição de propriedades em preparação para chamar o método [IMAPIProp::](imapiprop-setprops.md) SetProps. Se a chamada para o **** método SetProps for bem-sucedida, uma chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) confirmará as alterações no repositório e criará um novo item de email. Em seguida, se solicitado, o método [IMessage:: SubmitMessage](imessage-submitmessage.md) é chamado para enviar a mensagem. 
+A maioria do código de função lida com o trabalho de definição de propriedades em preparação para chamar o `AddMail` [método IMAPIProp::SetProps.](imapiprop-setprops.md) Se a chamada para o método **SetProps** for bem-sucedida, uma chamada para o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) confirma as alterações no armazenamento e cria um novo item de email. Em seguida, se solicitado, o [método IMessage::SubmitMessage](imessage-submitmessage.md) é chamado para enviar a mensagem. 
   
-A `AddMail` função usa duas funções auxiliares para criar valores para as propriedades **PR_CONVERSATION_INDEX** e **PR_REPORT_TAG** : `BuildConversationIndex` as `AddReportTag` funções e. A `BuildConversationIndex` função, localizada em CreateOutlookItemsAddin. cpp, faz o mesmo trabalho que a função [ScCreateConversationIndex](sccreateconversationindex.md) MAPI interna faz quando um índice de conversa pai não é passado para ele. O formato do buffer de índice de conversa que essas funções geram está documentado na [Propriedade canônica PidTagConversationIndex](pidtagconversationindex-canonical-property.md). 
+A função usa duas funções auxiliares para criar valores para as propriedades PR_CONVERSATION_INDEX e `AddMail` **PR_REPORT_TAG:**  o e as `BuildConversationIndex` `AddReportTag` funções. A função, localizada em  `BuildConversationIndex` CreateOutlookItemsAddin.cpp, faz o mesmo trabalho que a função [MAPI ScCreateConversationIndex](sccreateconversationindex.md) faz quando um índice de conversa pai não é passado para ela. O formato do buffer de índice de conversa que essas funções geram está documentado na propriedade canônica [PidTagConversationIndex](pidtagconversationindex-canonical-property.md). 
 
-A `AddReportTag` função, localizada em mails. cpp, por sua vez, `BuildReportTag` chama a função para criar uma estrutura para a propriedade **PR_REPORT_TAG** . Para obter informações sobre a estrutura que `BuildReportTag` a função cria, consulte [PidTagReportTag canônica Propriedade](pidtagreporttag-canonical-property.md).
+A  `AddReportTag` função, localizada em Mails.cpp, chama a função para criar uma  `BuildReportTag` estrutura para a **PR_REPORT_TAG** propriedade. Para obter informações sobre a estrutura que a função cria, consulte a propriedade canônica  `BuildReportTag` [PidTagReportTag](pidtagreporttag-canonical-property.md).
   
-Veja a seguir a listagem completa da `AddMail` função. 
+A seguir está a listagem completa da  `AddMail` função. 
   
 ```cpp
 HRESULT AddMail(LPMAPISESSION lpMAPISession,

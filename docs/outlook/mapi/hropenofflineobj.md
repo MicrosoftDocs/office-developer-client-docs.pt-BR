@@ -53,25 +53,25 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
     
  _pwszProfileNameIn_
   
-> no O nome do perfil para o qual o objeto offline é. Ele deve ser expresso em Unicode. 
+> [in] O nome do perfil para o objeto offline. Ele deve ser expresso em Unicode. 
     
  _pGUID_
   
-> no Ponteiro para um GUID que pode ser usado para identificar exclusivamente este objeto de outros objetos offline. Deve ser **GUID_GlobalState**.
+> [in] Ponteiro para um GUID que pode ser usado para identificar exclusivamente esse objeto de outros objetos offline. Deve ser **GUID_GlobalState**.
     
- _Enquanto_
+ _pReserved_
   
-> [in] Este parâmetro não é usado. Ele deve ser **nulo**.
+> [in] Este parâmetro não é usado. Deve ser **nulo.**
     
  _ppOfflineObj_
   
-> bota Um ponteiro para o objeto offline solicitado. O chamador pode usar esse ponteiro para acessar a interface [IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md) para localizar os retornos de chamada que esse objeto suporta e para configurar os retornos de chamada para ele. 
+> [out] Um ponteiro para o objeto offline solicitado. O chamador pode usar esse ponteiro para acessar a interface [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) para encontrar os retornos de chamada compatíveis com esse objeto e configurar retornos de chamada para ele. 
     
 ## <a name="return-values"></a>Valor de retorno
 
 S_OK 
   
-- A chamada de função foi bem-sucedida.
+- A chamada de função é bem-sucedida.
     
 MAPI_E_NOT_FOUND
   
@@ -79,11 +79,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentários
 
-Esta é a primeira chamada que um cliente faz quando o cliente deseja ser notificado de qualquer alteração de estado de conexão para um determinado perfil. Ao chamar **HrOpenOfflineObj**, o cliente obtém um objeto offline que oferece suporte a **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto (usando [IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)) e, em seguida, configurar os retornos de chamada para ele (usando [IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)).
+Esta é a primeira chamada que um cliente faz quando o cliente deseja ser notificado de qualquer alteração de estado de conexão para um determinado perfil. Ao chamar **HrOpenOfflineObj**, o cliente obtém um objeto offline que dá suporte a **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto (usando [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) e configurar retornos de chamada para ele (usando [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
-Ao usar [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para procurar o endereço dessa função em Msmapi32. dll, especifique **HrOpenOfflineObj @ 20** como o nome do procedimento. 
+Ao usar [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para procurar o endereço dessa função msmapi32.dll, especifique **HrOpenOfflineObj@20** como o nome do procedimento. 
   
- O **HrOpenOfflineObj** só funciona para clientes que são provedores MAPI, suplementos de com e extensões de cliente do Exchange executando dentro do processo do Outlook. Caso contrário, **HrOpenOfflineObj** retornará **MAPI_E_NOT_FOUND**. 
+ **HrOpenOfflineObj** só funciona para clientes que são provedores MAPI, Com Add-Ins e Exchange Client Extensions em execução dentro do processo do Outlook. Caso contrário, **HrOpenOfflineObj** **retornará MAPI_E_NOT_FOUND**. 
   
 ## <a name="see-also"></a>Confira também
 

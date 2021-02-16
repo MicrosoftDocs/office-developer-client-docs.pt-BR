@@ -25,44 +25,44 @@ ms.locfileid: "32331952"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o número de mensagens em uma pasta, como computadas pelo repositório de mensagens.
+Contém o número de mensagens em uma pasta, conforme calculado pelo armazenamento de mensagens.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificador:  <br/> |0x3602  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade calculada pelo repositório de mensagens é usada para duas finalidades diferentes, embora relacionadas. Em um objeto MapiFolder, ele contém o número de mensagens em uma pasta. Em uma linha de título em tabelas MAPI categorizadas, ele contém o número de mensagens não associadas na categoria correspondente a essa linha de título.
+Essa propriedade calculada pelo armazenamento de mensagens é usada para duas finalidades diferentes, porém relacionadas. Em um objeto MapiFolder, ele contém o número de mensagens em uma pasta. Em uma linha de título em tabelas MAPI categorizadas, ela contém o número de mensagens não associadas na categoria correspondente a essa linha de título.
   
-O número contido nessa propriedade não inclui entradas associadas na pasta. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contém a contagem de mensagens não lidas para a pasta. Um aplicativo cliente pode ler mas não alterar essa propriedade e **PR_CONTENT_UNREAD**. 
+O número contido nessa propriedade não inclui entradas associadas na pasta. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contém a contagem de mensagens não lidas para a pasta. Um aplicativo cliente pode ler, mas não alterar essa propriedade **e PR_CONTENT_UNREAD**. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências para as especificações de protocolo do Microsoft Exchange Server relacionadas.
+> Fornece referências a especificações de protocolo do Microsoft Exchange Server relacionadas.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclui operações permissíveis para os objetos da tabela principal.
+> Inclui operações permitidas para os objetos de tabela principais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

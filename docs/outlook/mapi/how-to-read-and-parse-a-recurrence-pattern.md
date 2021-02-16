@@ -19,27 +19,27 @@ ms.locfileid: "32345924"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI pode ser usado para ler e analisar um padrão de recorrência de um compromisso.
+MAPI can be used to read and parse a recurrence pattern for an appointment.
   
-Para obter informações sobre como baixar, exibir e executar o código do projeto de aplicativo do MFCMAPI mencionado neste tópico, confira [instalar os exemplos usados nesta seção](how-to-install-the-samples-used-in-this-section.md).
+Para obter informações sobre como baixar, exibir e executar o código do projeto de aplicativo MFCMAPI referenciado neste tópico, consulte Instalar os exemplos usados [nesta seção.](how-to-install-the-samples-used-in-this-section.md)
 
 ### <a name="to-parse-a-recurrence-blob"></a>Para analisar um blob de recorrência
 
-1. Abra um item de compromisso. Para obter informações sobre como abrir uma mensagem, consulte [abrir uma mensagem](opening-a-message.md).
+1. Abra um item de compromisso. Para obter informações sobre como abrir uma mensagem, consulte [Abrindo uma mensagem.](opening-a-message.md)
     
-2. Recupere a propriedade nomeada **dispidApptRecur** ([Propriedade canônica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Para obter informações sobre como recuperar propriedades nomeadas, consulte [MAPI Named Properties](mapi-named-properties.md).
+2. Recuperar a propriedade **nomeada dispidApptRecur** ( propriedade canônica [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Para obter informações sobre como recuperar propriedades nomeadas, consulte [MAPI Named Properties](mapi-named-properties.md).
     
-3. Siga as orientações em [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) para ler a estrutura do padrão de recorrência do compromisso. 
+3. Siga as orientações em [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) para ler a estrutura de padrão de recorrência de compromisso. 
     
-O aplicativo de referência MFCMAPI demonstra a última etapa com `BinToAppointmentRecurrencePatternStruct` a função no arquivo de origem InterpretProp2. cpp do projeto MFCMAPI. A `BinToAppointmentRecurrencePatternStruct` função usa um ponteiro para um buffer na memória como um parâmetro. O aplicativo MFCMAPI obtém esse buffer, primeiro mapeando a propriedade nomeada **dispidApptRecur** para uma marca de propriedade e, em seguida, solicitando o valor da propriedade usando o método [IMAPIProp::](imapiprop-getprops.md) GetProps. Se a propriedade for muito grande para ser recuperada **** usando o método GetProps, MFCMAPI abrirá uma interface Stream para recuperar a propriedade usando o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . O aplicativo MFCMAPI, em seguida, lê os dados do Stream para criar o buffer. 
+O aplicativo de referência MFCMAPI demonstra a última etapa com a função no arquivo de origem  `BinToAppointmentRecurrencePatternStruct` InterpretProp2.cpp do projeto MFCMapi. A  `BinToAppointmentRecurrencePatternStruct` função leva um ponteiro para um buffer na memória como um parâmetro. O aplicativo MFCMAPI obtém esse buffer mapeando primeiro a propriedade nomeada **dispidApptRecur** para uma marca de propriedade e, em seguida, solicitando o valor da propriedade usando o método [IMAPIProp::GetProps.](imapiprop-getprops.md) Se a propriedade for muito grande para recuperar usando o método **GetProps,** MFCMAPI abrirá uma interface de fluxo para recuperar a propriedade usando o método [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) Em seguida, o aplicativo MFCMAPI lê os dados do fluxo para criar o buffer. 
   
-Para obter informações sobre o formato do buffer, consulte a [Propriedade canônica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). A maior parte dos dados no buffer consiste em campos de um número fixo de bytes, que devem ser lidos um após o outro. Alguns campos estão presentes apenas se outros campos contiverem determinados valores e o tamanho de alguns campos puderem depender do valor de outros campos. A análise do buffer para ler os vários campos envolve uma grande quantidade de escrituração de contador. MFCMAPI usa uma classe auxiliar interna nomeada `CBinaryParser` para encapsular esta escrituração de contador. Por exemplo, a `CBinaryParser::GetDWORD` função verifica se bytes suficientes permanecem no buffer para ler um DWORD e, em seguida, lê o valor e atualiza os ponteiros. 
+Para obter informações sobre o formato do buffer, consulte a propriedade canônica [PidLidAppointmentRecur.](pidlidappointmentrecur-canonical-property.md) A maior parte dos dados no buffer consiste em campos de um número fixo de bytes, que devem ser lidos um após o outro. Alguns campos só estão presentes se outros campos contêm determinados valores, e o tamanho de alguns campos pode depender do valor de outros campos. Analisar o buffer para ler os vários campos envolve muita manutenção contábil. MFCMAPI usa uma classe auxiliar interna chamada  `CBinaryParser` para encapsular essa manutenção contábil. Por exemplo, a função verifica se bytes suficientes permanecem no buffer para ler um DWORD e lê o valor e atualiza  `CBinaryParser::GetDWORD` os ponteiros. 
   
-Após o buffer ter sido analisado em uma estrutura, o aplicativo MFCMAPI usa a `AppointmentRecurrencePatternStructToString` função para converter a estrutura em uma cadeia de caracteres a ser exibida para o usuário. Essa não é a mesma cadeia de caracteres que o Outlook exibiria, mas, em vez disso, é um modo de exibição bruto dos dados nos quais o Outlook cria sua lógica. 
+Depois que o buffer é analisado em uma estrutura, o aplicativo MFCMAPI usa a função para converter a estrutura em uma cadeia de caracteres para exibir  `AppointmentRecurrencePatternStructToString` para o usuário. Essa não é a mesma cadeia de caracteres que o Outlook exibiria, mas, em vez disso, é uma exibição bruta dos dados sobre os quais o Outlook cria sua lógica. 
   
-É possível encontrar um buffer que contenha dados corrompidos ou mais dados do que o necessário para codificar um padrão de recorrência. Para ajudar a identificar esses cenários, o aplicativo MFCMAPI controla a quantidade de dados que foi analisada com êxito e quanto resta no buffer. Se os dados permanecerem no buffer após a conclusão da análise, o MFCMAPI incluirá esses "dados de lixo eletrônico" na estrutura para que possa ser examinado.
+É possível encontrar um buffer que contenha dados corrompidos ou mais dados do que o necessário para codificar um padrão de recorrência. Para ajudar a identificar esses cenários, o aplicativo MFCMAPI mantém o controle de quantos dados foram analisados com êxito e quanto permanece no buffer. Se os dados permanecerem no buffer após a conclusão da análise, o MFCMAPI incluirá esses "dados de lixo eletrônico" na estrutura para que possam ser examinados.
   
-Veja a seguir a listagem completa da `BinToAppointmentRecurrencePatternStruct` função. 
+A seguir está a listagem completa da  `BinToAppointmentRecurrencePatternStruct` função. 
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)

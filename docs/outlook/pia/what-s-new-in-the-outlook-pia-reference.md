@@ -1,5 +1,5 @@
 ---
-title: Quais são as novidades na referência ao Outlook PIA
+title: Quais são as novidades na referência PIA do Outlook
 TOCTitle: What's new in the Outlook PIA reference
 ms:assetid: 9863c857-2991-49af-84c7-1dd273172fe3
 ms:mtpsurl: https://msdn.microsoft.com/library/office/dn292515(v=office.15)
@@ -132,7 +132,7 @@ A tabela a seguir lista aprimoramentos para objetos e enumerações que estavam 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/bb645611(v=office.15)">AppointmentItem</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/bb645611(v=office.15)">Item de compromisso</a></p></td>
 <td><p>Evento<a href="https://msdn.microsoft.com/library/jj881880(v=office.15)">Leitura Completa</a></p></td>
 </tr>
 <tr class="even">

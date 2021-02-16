@@ -19,7 +19,7 @@ ms.locfileid: "32339183"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para carregar itens que foram movidos. Essas informações são usadas durante o [carregamento do status de exclusão](upload-delete-status-state.md) e o [estado da tabela de carregamento](upload-table-state.md).
+Informações para carregar itens que foram movidos. Essas informações são usadas durante o estado [de status de exclusão de upload](upload-delete-status-state.md) e o estado da tabela de [carregamento.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -43,21 +43,21 @@ struct UPMOV
 
 _ulFlags_
   
-> no Sinalizadores para determinar o comportamento apropriado durante o carregamento.
+> [in] Sinalizadores para determinar o comportamento apropriado durante o carregamento.
     
   - UPV_ERROR
     
-    - no Problema ao abrir a pasta do servidor.
+    - [in] Problema ao abrir a pasta do servidor.
     
   - UPV_DIRTY
     
-    - no O estado de carregamento foi alterado. Isso é usado pelo cliente para rastrear a alteração no estado do repositório local.
+    - [in] O estado de carregamento foi alterado. Isso é usado pelo cliente para controlar a alteração no estado do armazenamento local.
     
   - UPV_COMMIT
     
-    - no Confirme o estado de carregamento.
+    - [in] Estado de carregamento de confirmações.
     
-_Enquanto_
+_pReserved_
   
 >  [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
@@ -67,34 +67,34 @@ _pstmReserved_
     
 _pszName_
   
->  bota Nome da pasta de destino. 
+>  [out] Nome da pasta de destino. 
     
   > [!NOTE]
   > Este membro não dá suporte a UNICODE. 
   
 _feid_
   
->  bota ID de entrada da pasta de destino. 
+>  [out] ID de entrada da pasta de destino. 
     
 _pfld_
   
->  no Ponteiro para a pasta do servidor. 
+>  [in] Ponteiro para pasta do servidor. 
     
 _pxicc_
   
->  no Ponteiro para a interface de conteúdo do **IExchangeImportContentsChanges** que oferece suporte ao carregamento de alterações de conteúdo ao usar a sincronização de alteração incremental (ICS). Para obter mais informações sobre o **IExchangeImportContentsChanges** e o ICS, consulte [critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [in] Ponteiro para a interface **de conteúdo IExchangeImportContentsChanges** que oferece suporte ao carregamento de alterações de conteúdo ao usar a Sincronização de Alteração Incremental (ICS). Para obter mais informações **sobre IExchangeImportContentsChanges** e ICS, consulte Critérios de [Avaliação do ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)
     
 _dwReserved_
   
 >  [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
-_pupmovNext_
+_gnamovNext_
   
->  bota Próximo contexto de movimentação. 
+>  [out] Em seguida, mova o contexto. 
     
 _cEntMov_
   
->  no Número de itens movidos aqui. 
+>  [in] Número de itens movidos aqui. 
     
 ## <a name="see-also"></a>Confira também
 

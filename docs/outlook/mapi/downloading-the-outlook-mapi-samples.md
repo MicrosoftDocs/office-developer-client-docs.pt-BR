@@ -1,5 +1,5 @@
 ---
-title: Baixar exemplos de MAPI do Outlook
+title: Baixando os exemplos de MAPI do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,33 +15,33 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338357"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>Baixar exemplos de MAPI do Outlook
+# <a name="downloading-the-outlook-mapi-samples"></a>Baixando os exemplos de MAPI do Outlook
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os exemplos de MAPI do Microsoft Outlook incluem um provedor de catálogo de endereços, um provedor de repositório de mensagens e um provedor de transporte.
+Os exemplos de MAPI do Microsoft Outlook incluem um provedor de agendas, um provedor de armazenamento de mensagens e um provedor de transporte.
   
- **Para baixar o exemplo de provedor de catálogo de endereços**
+ **Para baixar o provedor de lista de endereços de exemplo**
   
-1. Para baixar os exemplos MAPI do Outlook, clique na guia **página inicial** da página [exemplos de código da API de mensagens do Outlook (MAPI)](https://ol2010mapisamples.codeplex.com/) . 
+1. Para baixar os exemplos de  MAPI do Outlook, clique na guia Página Inicial na página exemplos de código [MAPI (Api](https://ol2010mapisamples.codeplex.com/) de Mensagens do Outlook). 
     
-2. Na guia **página inicial** , clique **em clique aqui para baixar a fonte de exemplos MAPI do Outlook 2010**.
+2. On the **Home** tab, click **click here to download the source for Outlook 2010 MAPI Samples**.
     
-3. Leia o contrato de licença e, se concordar, clique em **concordo**.
+3. Leia o contrato de licenciamento e, se você concordar, clique **em Concordar.**
     
-4. Na caixa de diálogo **download de arquivo** , clique em **salvar**. Na caixa de diálogo **salvar como** , localize a pasta na qual você deseja salvar os arquivos de origem e clique em **salvar**.
+4. Na caixa **de diálogo Download** de Arquivo, clique em **Salvar.** Na caixa **de diálogo Salvar como,** localize a pasta na qual você deseja salvar os arquivos de origem e clique em **Salvar.**
     
-5. Na caixa de diálogo **baixar completo** , clique em **fechar** para fechar a caixa de diálogo. 
+5. Na caixa **de diálogo Baixar** Concluído, clique em **Fechar** para fechar a caixa de diálogo. 
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Exemplo de provedor de catálogo de endereços](address-book-provider-sample.md)
+[Exemplo de provedor de agenda de endereços](address-book-provider-sample.md)
   
-[Exemplo de provedor de repositório de mensagens](message-store-provider-sample.md)
+[Exemplo de provedor de armazenamento de mensagens](message-store-provider-sample.md)
   
 [Exemplo de provedor de transporte](transport-provider-sample.md)
 

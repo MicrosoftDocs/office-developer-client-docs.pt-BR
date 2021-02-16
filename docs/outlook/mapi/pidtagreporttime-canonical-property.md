@@ -25,7 +25,7 @@ ms.locfileid: "32330146"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora em que o sistema de mensagens gerou um relatório.
+Contém a data e a hora em que o sistema de mensagens gerou um relatório.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém a data e hora em que o sistema de mensagens gerou um relatório.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade representa uma propriedade por destinatário em relatórios de entrega e de não entrega e uma propriedade por mensagem em relatórios de leitura e não leitura. 
+Essa propriedade representa uma propriedade por destinatário nos relatórios de entrega e não entrega e uma propriedade por mensagem em relatórios lidos e não lidos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em mensagens de email.
+> Especifica as propriedades e operações permitidas em mensagens de email.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
+> Permite a manipulação de listas de bloqueio/autorização e a determinação de mensagens de lixo eletrônico.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

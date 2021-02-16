@@ -25,7 +25,7 @@ ms.locfileid: "32329418"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre o catálogo de endereços integrado MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para obter mais acesso. 
+Abre o livro de endereços integrado MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para mais acesso. 
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -40,43 +40,43 @@ HRESULT OpenAddressBook(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo endereço comum e outros vídeos relacionados.
+> [in] Um alça para a janela pai da caixa de diálogo de endereço comum e outras exibições relacionadas.
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o catálogo de endereços. Passar **nulo** retorna um ponteiro para a interface padrão do catálogo de endereços, [IAddrBook: IMAPIProp](iaddrbookimapiprop.md). 
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar o livro de endereços. Passar **nulo** retorna um ponteiro para a interface padrão do livro de endereços, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla a abertura do catálogo de endereços. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla a abertura do livro de endereços. O sinalizador a seguir pode ser definido:
     
 AB_NO_DIALOG 
   
-> SuPrime a exibição de caixas de diálogo. Se o sinalizador AB_NO_DIALOG não estiver definido, os provedores de catálogo de endereços que contribuem para o catálogo de endereços integrado podem solicitar que o usuário Verifique as informações necessárias. 
+> Suprime a exibição de caixas de diálogo. Se o AB_NO_DIALOG de endereço não estiver definido, os provedores de agendas que contribuem para o livro de endereços integrado poderão solicitar ao usuário as informações necessárias. 
     
  _lppAdrBook_
   
-> bota Um ponteiro para um ponteiro para o catálogo de endereços.
+> [out] Um ponteiro para um ponteiro para o livro de endereços.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O catálogo de endereços foi aberto com êxito.
+> O livro de endereços foi aberto com êxito.
     
 MAPI_W_ERRORS_RETURNED 
   
-> A chamada foi bem-sucedida, mas não foi possível abrir os contêineres de um ou mais provedores de catálogo de endereços. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas os contêineres de um ou mais provedores de agendamento de endereço não puderam ser abertos. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: OpenAddressBook** abre o catálogo de endereços integrado MAPI, uma coleção dos contêineres de nível superior de todos os provedores de catálogo de endereços no perfil. O ponteiro retornado no parâmetro _lppAdrBook_ fornece acesso adicional ao conteúdo do catálogo de endereços. Isso permite que o chamador realize tarefas como abrir contêineres individuais, localizar usuários de mensagens e exibir caixas de diálogo de endereços comuns. 
+O **método IMAPISession::OpenAddressBook** abre o livro de endereços integrado MAPI, uma coleção dos contêineres de nível superior de todos os provedores de livro de endereços no perfil. O ponteiro retornado no parâmetro  _lppAdrBook_ fornece mais acesso ao conteúdo do livro de endereços. Isso permite que o chamador execute tarefas como abrir contêineres individuais, localizar usuários de mensagens e exibir caixas de diálogo de endereço comuns. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED se não puder carregar um ou mais dos provedores de catálogo de endereços no perfil. Esse valor é um aviso, não um valor de erro; manipule-o como seria de S_OK. **OpenAddressBook** sempre retorna um ponteiro válido no parâmetro _lppAdrBook_ , independentemente de quantos dos provedores de catálogo de endereços não puderam ser carregados. Portanto, você deve sempre chamar o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do catálogo de endereços em algum momento antes de fazer logoff. 
+ **OpenAddressBook** retornará MAPI_W_ERRORS_RETURNED se não puder carregar um ou mais provedores de lista de endereços no perfil. Este valor é um aviso, não um valor de erro; lidar com ele como você S_OK. **OpenAddressBook** sempre retorna um ponteiro válido no parâmetro  _lppAdrBook,_ independentemente de quantos provedores de agendas falharam ao carregar. Portanto, você deve sempre chamar o método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do livro de endereços em algum momento antes de fazer logon. 
   
-Quando **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED, chame [IMAPISession:: GetLastError](imapisession-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores com falha. Uma única estrutura **MAPIERROR** é retornada, contendo informações fornecidas por todos os provedores. 
+Quando **OpenAddressBook** retornar MAPI_W_ERRORS_RETURNED, chame [IMAPISession::GetLastError](imapisession-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores com falha. Uma única **estrutura MAPIERROR** é retornada que contém informações fornecidas por todos os provedores. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -84,7 +84,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIObjects. cpp  <br/> |CMapiObjects:: GetAddrBook  <br/> |MFCMAPI usa o método **IMAPISession:: OpenAddressBook** para obter o catálogo de endereços integrado.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI usa o **método IMAPISession::OpenAddressBook** para obter o livro de endereços integrado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

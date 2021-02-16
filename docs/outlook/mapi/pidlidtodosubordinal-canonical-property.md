@@ -25,7 +25,7 @@ ms.locfileid: "32344916"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Atua como um desempate quando a propriedade **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) classifica objetos e o resultado em um empate.
+Atua como um desempate quando a **propriedade dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) classifica objetos e o resultado em um vínculo.
   
 |||
 |:-----|:-----|
@@ -33,27 +33,27 @@ Atua como um desempate quando a propriedade **dispidToDoOrdinalDate** ([PidLidTo
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x000085A1  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se usado, essa propriedade deve ser classificada como lexicographically. Os caracteres de componente da cadeia de caracteres devem consistir apenas nos numerais de zero a nove. Essa propriedade deve ser definida inicialmente como "5555555". O comprimento dessa propriedade não deve exceder 254 caracteres (excluindo o caractere de terminação nula).
+Se usada, essa propriedade deve ser ordenada lexicograficamente. Os caracteres componentes da cadeia de caracteres devem consistir apenas nos numerais zero a nove. Essa propriedade deve ser inicialmente definida como "5555555". O comprimento dessa propriedade não deve exceder 254 caracteres (excluindo o caractere NULL de encerramento).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -68,7 +68,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

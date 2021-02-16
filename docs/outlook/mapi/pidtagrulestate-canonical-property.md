@@ -32,7 +32,7 @@ Um valor interpretado como uma combinação de bitmask de sinalizadores que espe
 |Propriedades associadas:  <br/> |PR_RULE_STATE  <br/> |
 |Identificador:  <br/> |0x6677  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Regras no servidor  <br/> |
+|Área:  <br/> |Regras do lado do servidor  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -40,23 +40,23 @@ A tabela a seguir define os valores possíveis dessa propriedade.
   
 EN (ST_ENABLED, bitmask 0x00000001)
   
-> A regra está habilitada para execução. Se esse sinalizador não for definido, o servidor deverá ignorar essa regra ao avaliar as regras.
+> A regra está habilitada para execução. Se esse sinalizador não estiver definido, o servidor deverá ignorar essa regra ao avaliar as regras.
     
-ER (ST_ERROR, bitmask 0x00000002)
+ER (ST_ERROR, máscara de 0x00000002)
   
 > O servidor encontrou um erro ao processar a regra.
     
-DE (ST_ONLY_WHEN_OOF, bitmask 0x00000004)
+OF (ST_ONLY_WHEN_OOF, bitmask 0x00000004)
   
-> A regra é executada somente quando o usuário define o estado de ausência temporária (OOF) na caixa de correio. Este sinalizador não deve ser definido em uma regra de pasta pública.
+> A regra é executada somente quando o usuário define o estado de Fora do Escritório (OOF) na caixa de correio. Esse sinalizador não deve ser definido em uma regra de pasta pública.
     
 HI (ST_KEEP_OOF_HIST, bitmask 0x00000008)
   
-> Este sinalizador não deve ser definido em uma regra de pasta pública.
+> Esse sinalizador não deve ser definido em uma regra de pasta pública.
     
 EL (ST_EXIT_LEVEL, bitmask 0x00000010)
   
-> A avaliação da regra será finalizada após a execução dessa regra, exceto a avaliação de regras de ausência temporária.
+> A avaliação de regra terminará após a execução dessa regra, exceto para a avaliação das regras de Desem posse.
     
 SCL (ST_SKIP_IF_SCL_IS_SAFE, bitmask 0x00000020)
   
@@ -64,43 +64,43 @@ SCL (ST_SKIP_IF_SCL_IS_SAFE, bitmask 0x00000020)
     
 PE (ST_RULE_PARSE_ERROR, bitmask 0x00000040)
   
-> O servidor encontrou um erro ao analisar os dados da regra fornecidos pelo cliente.
+> O servidor encontrou um erro ao analisar os dados de regra fornecidos pelo cliente.
     
 X
   
-> Não usado por este protocolo. Este bit não deve ser modificado pelo cliente.
+> Não éusado por este protocolo. Este bit não deve ser modificado pelo cliente.
     
-Observe a interação entre os sinalizadores ST_ONLY_WHEN_OOF e ST_EXIT_LEVEL: 
+Observação sobre a interação entre ST_ONLY_WHEN_OOF e ST_EXIT_LEVEL sinalizadores: 
   
-Quando o estado "fora do escritório" é definido na caixa de correio e uma condição de regra é avaliada como TRUE, 
+Quando o estado "Fora do Escritório" é definido na caixa de correio e uma condição de regra é avaliada como VERDADEIRO, 
   
-E
+E:
   
-- A regra tem o sinalizador ST_EXIT_LEVEL definido e não tem o sinalizador ST_ONLY_WHEN_OOF definido. Em seguida, o servidor não deve avaliar as regras subsequentes que não têm o sinalizador ST_ONLY_WHEN_OOF definido e deve avaliar as regras subsequentes que têm o sinalizador ST_ONLY_WHEN_OOF definido.
+- A regra tem o ST_EXIT_LEVEL sinalizador definido e não tem ST_ONLY_WHEN_OOF sinalizador definido. Em seguida, o servidor não deve avaliar as regras subsequentes que não têm um sinalizador ST_ONLY_WHEN_OOF definido e deve avaliar as regras subsequentes que ST_ONLY_WHEN_OOF sinalizador definido.
     
-OU
+OU:
   
-- A regra tem os sinalizadores ST_EXIT_LEVEL e ST_ONLY_WHEN_OOF definidos. Em seguida, o servidor não deve avaliar nenhuma regra subsequente.
+- A regra tem os sinalizadores ST_EXIT_LEVEL e ST_ONLY_WHEN_OOF definidos. Em seguida, o servidor não deve avaliar as regras subsequentes.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -112,7 +112,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

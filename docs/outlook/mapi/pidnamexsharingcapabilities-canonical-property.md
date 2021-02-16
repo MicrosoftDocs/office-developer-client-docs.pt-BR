@@ -31,29 +31,29 @@ Contém um valor que indica os recursos de compartilhamento do item.
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Conjunto de propriedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nome da propriedade:  <br/> |X-Sharing-Capabilities  <br/> |
+|Nome da propriedade:  <br/> |Recursos de compartilhamento X  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Compartilhamento  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade contém um valor que indica os recursos de compartilhamento do objeto Message.
+Essa propriedade contém um valor que indica os recursos de compartilhamento do objeto de mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Compartilha pastas de caixa de correio entre os clientes.
+> Compartilha pastas de caixa de correio entre clientes.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

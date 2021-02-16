@@ -1,5 +1,5 @@
 ---
-title: Hierarquia de herança de objeto MAPI
+title: Hierarquia de herança de objetos MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345834"
 ---
-# <a name="mapi-object-inheritance-hierarchy"></a>Hierarquia de herança de objeto MAPI
+# <a name="mapi-object-inheritance-hierarchy"></a>Hierarquia de herança de objetos MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Todas as interfaces implementadas por objetos MAPI basicamente herdam de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), a interface OLE que permite que os objetos se comuniquem. A maioria das interfaces herda diretamente de **IUnknown**, mas algumas herdam de uma das duas interfaces base: [IMAPIProp: IUnknown](imapipropiunknown.md) ou [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). A ilustração a seguir mostra a hierarquia de herança completa em MAPI.
+Todas as interfaces implementadas por objetos MAPI herdam, em última análise, [de IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), a interface OLE que permite que os objetos se comuniquem. A maioria das interfaces herda diretamente de **IUnknown**, mas algumas herdam de uma de duas outras interfaces base: [IMAPIProp : IUnknown](imapipropiunknown.md) ou [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md). A ilustração a seguir mostra a hierarquia de herança completa em MAPI.
   
 **MAPI inheritance hierarchy**
   
-![Hierarquia de herança de MAPI] (media/amapi_06.gif "Hierarquia de herança de MAPI")
+![Hierarquia de herança MAPI da](media/amapi_06.gif "hierarquia de herança MAPI")
   
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md) 
 - [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
+- [Visão geral de objetos e interface MAPI](mapi-object-and-interface-overview.md)
 

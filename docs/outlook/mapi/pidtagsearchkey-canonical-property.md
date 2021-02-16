@@ -23,7 +23,7 @@ ms.locfileid: "32345462"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma chave comparável à binária que identifica objetos correlacionados para uma pesquisa.
+Contém uma chave binária comparável que identifica objetos correlacionados para uma pesquisa.
   
 |||
 |:-----|:-----|
@@ -36,50 +36,50 @@ Contém uma chave comparável à binária que identifica objetos correlacionados
 
 Essa propriedade fornece um rastreamento para objetos relacionados, como cópias de mensagens, e facilita a localização de ocorrências indesejadas, como destinatários duplicados.
   
-O MAPI usa regras específicas para construir chaves de pesquisa para destinatários de mensagens. A chave de pesquisa é formada com a concatenação do tipo de endereço (em caracteres maiúsculos), o caractere de dois pontos ': ', o endereço de email em forma canônica e o caractere nulo de terminação. Forma canônica aqui significa que os endereços diferenciados entre maiúsculas e minúsculas aparecem no caso correto, e os endereços que não diferenciam maiúsculas de minúsculas são convertidos em maiúsculas. Isso é importante em preservar as correlações entre as mensagens.
+MAPI uses specific rules for constructing search keys for message recipients. A tecla de pesquisa é formada concatenando o tipo de endereço (em caracteres em maiúsculas), o caractere de dois pontos ':', o endereço de email em formato canônico e o caractere nulo de terminação. O formato canônico aqui significa que os endereços com maiúsculas e minúsculas aparecem no caso correto, e os endereços que não são sensíveis a maiúsculas e minúsculas são convertidos em maiúsculas. Isso é importante para preservar as correlações entre mensagens.
   
-Para objetos de mensagem, essa propriedade está disponível por meio do método [IMAPIProp::](imapiprop-getprops.md) GetProps imediatamente após a criação da mensagem. Para outros objetos, ele está disponível seguindo a primeira chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Como essa propriedade pode ser alterada, não é possível obtê-la por **** meio de GetProps até que uma chamada **SaveChanges** tenha confirmado quaisquer valores definidos ou alterados pelo método [IMAPIProp::](imapiprop-setprops.md) SetProps. 
+Para objetos de mensagem, essa propriedade está disponível por meio do [método IMAPIProp::GetProps](imapiprop-getprops.md) imediatamente após a criação da mensagem. Para outros objetos, ele está disponível após a primeira chamada para o [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Como essa propriedade é mutável, não é confiável obtendo-la por meio de **GetProps** até que uma chamada **SaveChanges** tenha confirmado valores definidos ou alterados pelo método [IMAPIProp::SetProps.](imapiprop-setprops.md) 
   
-Para perfis, o MAPI também fornece uma seção de perfil embutida com o nome **MUID_PROFILE_INSTANCE**, com essa propriedade como sua única propriedade. É garantido que essa chave seja exclusiva entre todos os perfis já criados e pode ser mais confiável do que a propriedade **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)), que pode ser, por exemplo, excluída e recriada com o mesmo nome.
+Para perfis, o MAPI também fornece uma seção de perfil em código chamada **MUID_PROFILE_INSTANCE**, com essa propriedade como sua propriedade única. Essa chave é garantidamente exclusiva entre todos os perfis já criados e pode ser mais confiável do que a propriedade **PR_PROFILE_NAME** ([PidTagProfileName),](pidtagprofilename-canonical-property.md)que pode ser, por exemplo, excluída e recriada com o mesmo nome.
   
-A tabela a seguir resume diferenças importantes entre o **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), o **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) e essa propriedade.
+A tabela a seguir resume diferenças importantes entre PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) e esta propriedade.
   
-|**Características**|PR_ENTRYID * * * *|PR_RECORD_KEY * * * *|PR_SEARCH_KEY * * * *|
+|**Característica**|PR_ENTRYID****|PR_RECORD_KEY****|PR_SEARCH_KEY****|
 |:-----|:-----|:-----|:-----|
-|Obrigatório em objetos Attachment  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
-|Obrigatório em objetos Folder  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Obrigatório nos objetos do repositório de mensagens  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Obrigatório nos objetos status  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Criada por cliente  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Disponível antes de **SaveChanges** <br/> |Depende da implementação do provedor  <br/> |Depende da implementação do provedor  <br/> |Para mensagens, sim. Para outros, ele depende da implementação do provedor.  <br/> |
+|Obrigatório em objetos anexos  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
+|Obrigatório em objetos de pasta  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Obrigatório nos objetos do armazenamento de mensagens  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Obrigatório em objetos de status  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
+|Criatável pelo cliente  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
+|Disponível antes **de SaveChanges** <br/> |Depende da implementação do provedor  <br/> |Depende da implementação do provedor  <br/> |Para mensagens, Sim. Para outros, depende da implementação do provedor.  <br/> |
 |Alterado em uma operação de cópia  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|É possível alterar o cliente após uma cópia  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Exclusivo em...  <br/> |Todo o mundo  <br/> |Instância do provedor  <br/> |Todo o mundo  <br/> |
-|Binary comparável (como em memcmp)  <br/> |Não--use [IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Sim  <br/> |Sim  <br/> |
+|Alterável pelo cliente após uma cópia  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
+|Exclusivo em ...  <br/> |Mundo inteiro  <br/> |Instância do provedor  <br/> |Mundo inteiro  <br/> |
+|Binário comparável (como com memcmp)  <br/> |Não -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Sim  <br/> |Sim  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -96,7 +96,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

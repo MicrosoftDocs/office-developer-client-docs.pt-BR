@@ -32,31 +32,31 @@ Contém o identificador de um membro da tabela que tem os direitos descritos em 
 |Propriedades associadas:  <br/> |PR_MEMBER_ID  <br/> |
 |Identificador:  <br/> |0x6671  <br/> |
 |Tipo de dados:  <br/> |PT_I8  <br/> |
-|Área:  <br/> |Controle de acesso  <br/> |
+|Área:  <br/> |Controle de Acesso  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade retorna um identificador exclusivo para a tabela. Um identificador de usuário de diretório é associado a cada identificador de membro e é fornecido por essa propriedade. Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para recuperar o identificador de entrada de diretório de um membro com direitos explícitos em uma pasta. 
+Essa propriedade retorna um identificador exclusivo para a tabela. Um identificador de usuário de diretório é associado a cada identificador de membro e é dado por essa propriedade. Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para recuperar o identificador de entrada de diretório de um membro com direitos explícitos em uma pasta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Lida com a recuperação de listas de permissões de pastas armazenadas no servidor.
+> Lida com a recuperação de listas de permissões de pasta armazenadas no servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -71,7 +71,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32329481"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um visualizador de formulários para notificações sobre eventos que afetam o formulário.
+Registra um visualizador de formulário para notificações sobre eventos que afetam o formulário.
   
 ```cpp
 HRESULT Advise(
@@ -38,11 +38,11 @@ HRESULT Advise(
 
  _pAdvise_
   
-> no Um ponteiro para um objeto de coletor de aviso de exibição para receber as notificações subsequentes. 
+> [in] Um ponteiro para um objeto sink de exibição aconselha a receber as notificações subsequentes. 
     
- _pulConnection_
+ _ligaConnection_
   
-> bota Um ponteiro para um valor diferente de zero que representa um registro de notificação bem-sucedido.
+> [out] Um ponteiro para um valor que não é zero que representa um registro de notificação bem-sucedido.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,21 +52,21 @@ S_OK
     
 E_OUTOFMEMORY 
   
-> O registro não foi bem-sucedido devido à memória insuficiente.
+> O registro não teve êxito devido a memória insuficiente.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIForm:: Advise** de um formulário para registrar a notificação quando ocorrerem alterações no formulário. 
+Visualizadores de formulário chamam o método **IMAPIForm::Advise** de um formulário para registrar a notificação quando ocorrem alterações no formulário. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Mantenha uma cópia do ponteiro View Advise Sink passado no parâmetro _pAdvise_ para que você possa usá-lo para chamar o método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) apropriado quando ocorre um evento. Chame o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) do coletor de avisos de exibição para manter o ponteiro até que o registro de notificação seja cancelado. Defina o conteúdo do parâmetro _pulConnection_ para um número diferente de zero. 
+Mantenha uma cópia do ponteiro do sink de dica de exibição passado no parâmetro  _pAdvise_ para que você possa usá-lo para chamar o método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) apropriado quando ocorrer um evento. Chame o método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) do sink de modo de exibição para reter o ponteiro até que o registro de notificação seja cancelado. De definir o conteúdo do  _parâmetroligaConnection_ como um número que não seja zero. 
   
-Muitos formulários implementam um objeto auxiliar para lidar com o registro e a notificação subsequente de eventos. 
+Muitos formulários implementam um objeto auxiliar para manipular o registro e a notificação subsequente de eventos. 
   
-Para obter mais informações sobre o processo de notificação em geral, consulte [Event Notification in MAPI](event-notification-in-mapi.md). 
+Para obter mais informações sobre o processo de notificação em geral, consulte [Notificação de Evento em MAPI](event-notification-in-mapi.md). 
   
-Para obter mais informações sobre notificações e formulários, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações e formulários, consulte [Enviando e recebendo notificações de formulário.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>Confira também
 
@@ -79,7 +79,7 @@ Para obter mais informações sobre notificações e formulários, consulte [env
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Notificação de evento no MAPI](event-notification-in-mapi.md)
+[Notificação de evento em MAPI](event-notification-in-mapi.md)
   
-[Enviar e receber notificações de formulário](sending-and-receiving-form-notifications.md)
+[Enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md)
 

@@ -36,31 +36,31 @@ Contém o tópico da primeira mensagem em um thread de conversa.
    
 ## <a name="remarks"></a>Comentários
 
-Um thread de conversa representa uma série de mensagens e respostas. Essas propriedades são definidas para a primeira mensagem em um thread, geralmente para a propriedade **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). As mensagens subsequentes no thread devem usar o mesmo tópico sem modificações. 
+Um thread de conversa representa uma série de mensagens e respostas. Essas propriedades são definidas para a primeira mensagem em um thread, geralmente para a propriedade **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). As mensagens subsequentes no thread devem usar o mesmo tópico sem modificação. 
   
-A propriedade **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indica a relação do pedido entre as mensagens e respostas subsequentes. Seu uso é opcional, mesmo se essas propriedades forem definidas. 
+A **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indica a relação de ordem entre mensagens e respostas subsequentes. Seu uso é opcional, mesmo que essas propriedades sejam definidas. 
   
-Um provedor de repositório de mensagens tem a opção de garantir que essas propriedades estejam sempre definidas em mensagens de entrada ou de saída. Se essas propriedades já estiverem definidas, elas não deverão ser alteradas. Caso contrário, elas podem ser definidas como **PR_NORMALIZED_SUBJECT**. Qualquer ação deve ser executada antes de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) é chamado. 
+Um provedor de armazenamento de mensagens tem a opção de garante que essas propriedades sejam sempre definidas em mensagens de entrada ou de saída. Se essas propriedades já estão definidas, elas não devem ser alteradas. Caso não, eles podem ser definidos **como PR_NORMALIZED_SUBJECT**. Qualquer ação deve ser tomada antes [que IMAPIProp::SaveChanges](imapiprop-savechanges.md) seja chamado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
+> Especifica as propriedades e operações permitidas em objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

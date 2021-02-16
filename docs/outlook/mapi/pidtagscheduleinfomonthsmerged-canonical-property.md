@@ -25,38 +25,38 @@ ms.locfileid: "32336474"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista dos meses nos quais os dados de disponibilidade do tipo ocupado ou uma mensagem de ausência temporária (OOF) estão presentes na mensagem de disponibilidade. 
+Contém uma lista dos meses para os quais os dados de livre/ocupado do tipo ocupado ou uma mensagem de falta de trabalho (OOF) estão presentes na mensagem de livre/ocupado. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_MONTHS_MERGED  <br/> |
 |Identificador:  <br/> |0x684F  <br/> |
 |Tipo de dados:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Disponibilidade  <br/> |
+|Área:  <br/> |Livre/Ocupado  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Os eventos da tentativa de tipo de disponibilidade não estão incluídos nessa propriedade. A sintaxe/o formato e as restrições dessa propriedade são os mesmos do **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), mas se referem aos compromissos marcados como OOF ou inatividade no objeto Calendar associado. 
+Eventos provisórios de tipo de ocupado/livre não são incluídos nessa propriedade. A sintaxe/formato e as restrições dessa propriedade são as mesmas do **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), mas se referem a compromissos marcados como OOF ou Ocupado no objeto de calendário associado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

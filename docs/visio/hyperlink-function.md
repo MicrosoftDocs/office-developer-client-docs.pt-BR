@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251441
 localization_priority: Normal
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
-description: Navega até o endereço especificado, que pode ser um caminho de arquivo, UNC ou URL.
+description: Navega até o endereço especificado, que pode ser um arquivo, UNC ou caminho da URL.
 ms.openlocfilehash: 5e4952c3d56eff0cb1e6518928a7b8259f645046
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "32329943"
 ---
 # <a name="hyperlink-function"></a>Função HYPERLINK
 
-Navega até o endereço especificado, que pode ser um caminho de arquivo, UNC ou URL.
+Navega até o endereço especificado, que pode ser um arquivo, UNC ou caminho da URL.
   
 ## <a name="syntax"></a>Sintaxe
 
-HYPERLINK ("* * *endereço* * *" [, "* * *Subendereço* * *", "* * *ExtraInfo* * *", * * *janela* * *, "* * *quadro* * *"]) 
+HYPERLINK(" ** *endereço* ** "[," ** *subddress* ** "," ** *extrainfo* ** ", ** *window* **," ** *frame* ** "]) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
+|**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _address_ <br/> |Obrigatório  <br/> |**String** <br/> |Um caminho completo ou relativo.  <br/> |
-| _SubAddress_ <br/> |Opcional  <br/> |**String** <br/> |Especifica uma localização no address ao qual se vincular. Por exemplo, se o address for um arquivo do Microsoft Visio, o subaddress poderá ser um nome de página; se for um arquivo do Microsoft Excel, o subaddress poderá ser uma planilha ou um intervalo na planilha; se for uma URL de uma página HTML, o subaddress poderá ser uma âncora.  <br/> |
-| _ExtraInfo_ <br/> |Opcional  <br/> |**String** <br/> |Passa as informações utilizadas para resolver o URL, como as coordenadas de um mapa de imagens.  <br/> |
-| _backup_ <br/> |Opcional  <br/> |**Boolean** <br/> |Especifica se o hiperlink será aberto em uma nova janela. O valor padrão é FALSO.  <br/> |
-| _proje_ <br/> |Opcional  <br/> |**String** <br/> | Especifica o nome de uma moldura para servir de destino quando o Visio for aberto como um documento ativo em um navegador ActiveX, como o Microsoft Internet Explorer 3.0 ou superior. O padrão é uma cadeia de caracteres vazia.  <br/> |
+| _subaddress_ <br/> |Opcional  <br/> |**String** <br/> |Especifica uma localização no address ao qual se vincular. Por exemplo, se o address for um arquivo do Microsoft Visio, o subaddress poderá ser um nome de página; se for um arquivo do Microsoft Excel, o subaddress poderá ser uma planilha ou um intervalo na planilha; se for uma URL de uma página HTML, o subaddress poderá ser uma âncora.  <br/> |
+| _extrainfo_ <br/> |Opcional  <br/> |**String** <br/> |Passa as informações utilizadas para resolver o URL, como as coordenadas de um mapa de imagens.  <br/> |
+| _janela_ <br/> |Opcional  <br/> |**Boolean** <br/> |Especifica se o hiperlink será aberto em uma nova janela. O valor padrão é FALSO.  <br/> |
+| _frame_ <br/> |Opcional  <br/> |**String** <br/> | Especifica o nome de uma moldura para servir de destino quando o Visio for aberto como um documento ativo em um navegador ActiveX, como o Microsoft Internet Explorer 3.0 ou superior. O padrão é uma cadeia de caracteres vazia.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

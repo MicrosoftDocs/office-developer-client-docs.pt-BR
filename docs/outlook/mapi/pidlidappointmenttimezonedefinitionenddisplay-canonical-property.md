@@ -25,7 +25,7 @@ ms.locfileid: "32345378"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um Stream que mapeia para o formato persistente de uma estrutura [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que armazena a descrição do fuso horário que é usado quando a hora de término de um compromisso ou solicitação de reunião de instância única é selecionada. 
+Contém um fluxo que é mapeado para o formato persistente de uma estrutura [TZDEFINITION,](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) que armazena a descrição para o fuso horário que é usado quando a hora de término de um compromisso de instância única ou solicitação de reunião é selecionada. 
   
 |||
 |:-----|:-----|
@@ -37,29 +37,29 @@ Contém um Stream que mapeia para o formato persistente de uma estrutura [TZDEFI
    
 ## <a name="remarks"></a>Comentários
 
-Microsoft Office Outlook 2003 ou anterior, e soluções baseadas em Collaboration Data Objects (CDO) 1.2.1 e que não executaram a ferramenta de atualização de calendário para Outlook ou Microsoft Exchange Server, armazenam a hora de início e a hora de término de uma única instância compromissos e solicitações de reunião no tempo universal coordenado (UTC). Esses clientes não armazenam nenhuma informação para o fuso horário em que o compromisso ou solicitação de reunião foi criado.
+Microsoft Office Outlook 2003 ou anterior, e soluções baseadas no CDO (Collaboration Data Objects) 1.2.1 e que não executaram a ferramenta de atualização de calendário para o Outlook ou o Microsoft Exchange Server, armazene a hora de início e a hora de término de compromissos de instância única e solicitações de reunião em UTC (Tempo Universal Coordenado). Esses clientes não armazenam informações para o fuso horário em que a solicitação de compromisso ou reunião é criada.
   
-Versões do Microsoft Outlook desde o Microsoft Office Outlook 2007, e soluções baseadas no CDO 1.2.1 que executaram a ferramenta de atualização de calendário do Outlook ou do Exchange Server usam **dispidApptTZDefEndDisplay** para armazenar o fuso horário para a hora de término. **dispidApptTZDefEndDisplay** mostra o compromisso ou a reunião no fuso horário original que foi agendado e determina se a hora de término deve ser ajustada se as regras do fuso horário forem alteradas. Se essa propriedade estiver ausente, o fuso horário especificado pela propriedade **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) será usado. Se **dispidApptTZDefStartDisplay** estiver ausente ou for inválido, será considerado o fuso horário local atual. **dispidApptTZDefEndDisplay** é usado apenas para fins de exibição e não é usado em expansão de recorrência. 
+As versões do Microsoft Outlook desde o Microsoft Office Outlook 2007 e as soluções baseadas no CDO 1.2.1 que executaram a ferramenta de atualização de calendário do Outlook ou do Exchange Server usam **dispidApptTZDefEndDisplay** para armazenar o fuso horário para a hora de término. **dispidApptTZDefEndDisplay** mostra o compromisso ou a reunião no fuso horário original que foi agendado e determina se a hora de término deve ser ajustada se as regras do fuso horário mudarem. Se essa propriedade estiver ausente, o fuso horário especificado pela **propriedade dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) será usado. Se **dispidApptTZDefStartDisplay** estiver ausente ou for inválido, o fuso horário local atual será considerado. **dispidApptTZDefEndDisplay** é usado apenas para fins de exibição e não é usado na expansão de recorrência. 
   
-Um analisador deve ser cuidadoso quando lê um fluxo obtido de **dispidApptTZDefEndDisplay**ou quando ele persiste **TZDEFINITION** para um Stream de compromisso para uma propriedade binária, como **dispidApptTZDefEndDisplay**. Para obter mais informações, consulte [sobre a persistência de TZDEFINITION em um Stream para confirmar uma propriedade binária](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
+Um analisador deve ter cuidado ao ler um fluxo obtido de **dispidApptTZDefEndDisplay** ou quando persistir **TZDEFINITION** em um fluxo para compromisso com uma propriedade binária, como **dispidApptTZDefEndDisplay**. For more information, see [About persisting TZDEFINITION to a stream to commit to a binary property](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
   
- **dispidApptTZDefEndDisplay** especifica informações de fuso horário para a propriedade **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). O formato, as restrições e a computação de **dispidApptTZDefEndDisplay** são iguais aos especificados na propriedade **dispidApptTZDefStartDisplay** . 
+ **dispidApptTZDefEndDisplay** especifica informações de fuso horário para a **propriedade dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) . O formato, as restrições e a computação de **dispidApptTZDefEndDisplay** são os mesmos especificados na **propriedade dispidApptTZDefStartDisplay.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -71,7 +71,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

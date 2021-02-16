@@ -24,7 +24,7 @@ O método a seguir, EnumerateAccounts, exibe o nome da conta, o nome de usuário
 
 EnumerateAccounts acessa a maioria dessas informações do objeto [Account](https://msdn.microsoft.com/library/bb645103\(v=office.15\)), exceto quando o objeto **Account** não contém informações sobre o nome de usuário e endereço SMTP. Nesse caso, EnumerateAccounts usa os objetos [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) e [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)). 
 
-EnumerateAccounts obtém o objeto **AddressEntry** usando a propriedade [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) do objeto [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) obtido da propriedade [CurrentUser ](https://msdn.microsoft.com/library/ff184864\(v=office.15\)). EnumerateAccounts obtém o objeto **ExchangeUser** usando o método [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto **AddressEntry**. 
+EnumerateAccounts obtém o objeto **AddressEntry** usando a propriedade [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) do objeto [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) obtido da propriedade [CurrentUser](https://msdn.microsoft.com/library/ff184864\(v=office.15\)). EnumerateAccounts obtém o objeto **ExchangeUser** usando o método [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto **AddressEntry**. 
 
 Este é o algoritmo para obter várias informações usando os objetos Account, AddressEntry e ExchangeUser:
 

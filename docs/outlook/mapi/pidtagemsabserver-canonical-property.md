@@ -38,23 +38,23 @@ Especifica o caminho de um contêiner de catálogo de endereços em um cenário 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade tem o tipo de propriedade reset como **PT_UNICODE** quando ele é compilado com `UNICODE` o símbolo em uma plataforma Unicode e para **PT_STRING8** quando não é compilado com o `UNICODE` símbolo. 
+Essa propriedade tem o tipo de propriedade redefinido como **PT_UNICODE** quando ele é compilado com o símbolo em uma plataforma Unicode e para PT_STRING8 quando ele não é compilado com o `UNICODE`  `UNICODE` símbolo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece definições de conjunto de propriedades.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

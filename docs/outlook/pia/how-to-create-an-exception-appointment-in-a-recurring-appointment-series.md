@@ -1,5 +1,5 @@
 ---
-title: Criar um compromisso de exceção em uma série de compromisso recorrente
+title: Criar um compromisso de exceção em uma série de compromissos recorrentes
 TOCTitle: Create an exception appointment in a recurring appointment series
 ms:assetid: b7cd0975-4f44-453a-b878-ec55feeedc4e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184635(v=office.15)

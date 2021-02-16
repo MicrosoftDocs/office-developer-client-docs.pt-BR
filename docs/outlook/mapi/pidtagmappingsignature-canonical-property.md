@@ -36,33 +36,33 @@ Contém a assinatura de mapeamento para propriedades nomeadas de um objeto MAPI 
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que objetos com propriedades nomeadas exponham essa propriedade. Um aplicativo cliente deve verificar a propriedade **PR_MAPPING_SIGNATURE** de ambos os objetos ao copiar as propriedades nomeadas de um objeto para outro. O uso dessa propriedade pode minimizar a conversão entre nomes e identificadores de propriedades copiadas. 
+É recomendável que objetos com propriedades nomeadas exponham essa propriedade. Um aplicativo cliente deve verificar **PR_MAPPING_SIGNATURE** propriedade de ambos os objetos ao copiar propriedades nomeadas de um objeto para outro. O uso dessa propriedade pode minimizar a tradução entre os nomes e identificadores das propriedades copiadas. 
   
-Se essa propriedade não existir para um determinado objeto MAPI, o objeto terá seu próprio mapeamento exclusivo de nomes e identificadores. Nesse caso, o cliente deve chamar o método [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) no objeto de origem e, em seguida, o método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) no objeto de destino. 
+Se essa propriedade não existir para um determinado objeto MAPI, o objeto terá seu próprio mapeamento exclusivo de nomes e identificadores. Nesse caso, o cliente deve chamar o método [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) no objeto de origem e, em seguida, o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) no objeto de destino. 
   
-Quando dois objetos têm o mesmo valor **PR_MAPPING_SIGNATURE** , o cliente não precisa converter o nome para identificador e identificador para nome. O cliente pode simplesmente chamar o método [IMAPIProp::](imapiprop-getprops.md) GetProps na origem e, em seguida, o método [IMAPIProp::](imapiprop-setprops.md) SetProps no destino. Isso é conveniente para clientes que executam uma cópia personalizada de propriedades nomeadas e para provedores que implementam os métodos [IMAPIProp:: CopyTo](imapiprop-copyto.md) e [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . 
+Quando dois objetos têm o mesmo **PR_MAPPING_SIGNATURE,** o cliente não precisa traduzir o nome para identificador e identificador para o nome. O cliente pode simplesmente chamar o método [IMAPIProp::GetProps](imapiprop-getprops.md) na origem e, em seguida, o método [IMAPIProp::SetProps](imapiprop-setprops.md) no destino. Isso é conveniente para clientes que realizam cópia personalizada de propriedades nomeadas e para provedores implementando os métodos [IMAPIProp::CopyTo](imapiprop-copyto.md) e [IMAPIProp::CopyProps.](imapiprop-copyprops.md) 
   
 Para obter mais informações sobre propriedades nomeadas e mapeamento de nomes e identificadores, consulte [MAPI Named Properties](mapi-named-properties.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -77,7 +77,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

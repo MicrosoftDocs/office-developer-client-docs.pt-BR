@@ -25,7 +25,7 @@ ms.locfileid: "32349221"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se a classificação de mensagem deve persistir com a mensagem se a mensagem for encaminhada ou respondida.
+Indica se a classificação da mensagem deve persistir com a mensagem se ela for encaminhada ou respondida.
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Indica se a classificação de mensagem deve persistir com a mensagem se a mensa
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações adicionais, consulte [como implantar a classificação de mensagens para o Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
+Para obter informações adicionais, [consulte Como implantar a classificação de mensagens para o Outlook 2007.](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definição de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

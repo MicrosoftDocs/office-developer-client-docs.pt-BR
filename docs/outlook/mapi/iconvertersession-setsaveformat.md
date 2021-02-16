@@ -23,7 +23,7 @@ ms.locfileid: "32336635"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define o formato no qual o conversor retornará um fluxo MIME em [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Define o formato no qual o conversor retornará um fluxo MIME [em IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
@@ -35,10 +35,10 @@ HRESULT IConverterSession::SetSaveFormat (
 
 _mstSaveFormat_
   
-> no O formato de salvamento a ser usado para um fluxo MIME. Para obter mais informações, consulte o tipo de enumeração [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
+> [in] O formato de salvar a ser usado para um fluxo MIME. Para obter mais informações, consulte o tipo de enum [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
     
   - **SAVE_RFC1521**: Use MIME, que é o padrão.      
-  - **SAVE_RFC822**: Use UUEncode.
+  - **SAVE_RFC822**: Use uuencode.
     
 ## <a name="return-values"></a>Valor de retorno
 
@@ -52,8 +52,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

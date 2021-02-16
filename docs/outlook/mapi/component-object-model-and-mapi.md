@@ -21,19 +21,19 @@ ms.locfileid: "32334465"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A documentação do SDK do Windows inclui uma discussão abrangente das regras para implementar objetos que estão de acordo com o modelo de objeto componente (COM). Essas regras abordam como fazer o seguinte:
+A documentação do SDK do Windows inclui uma discussão abrangente das regras para implementar objetos em conformidade com o COM (Component Object Model). Essas regras abordam como fazer o seguinte:
   
-- Criar interfaces e objetos.
+- Projetar interfaces e objetos.
     
-- Implementar a interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . 
+- Implemente a interface [IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) 
     
 - Gerenciar memória.
     
-- Gerenciar contagem de referência.
+- Lidar com a contagem de referências.
     
-- Implementar objetos Apartment-Threaded.
+- Implemente objetos apartment-threaded.
     
-Embora todos os objetos MAPI sejam considerados com base em COM, pois implementam interfaces que herdam de [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx), o MAPI desvia em algumas situações das regras com padrão. Esse desvio permite que os desenvolvedores tenham mais flexibilidade em suas implementações. Por exemplo, uma interface MAPI, como qualquer interface COM, descreve um contrato entre o implementador e o chamador. Depois que a interface é criada e publicada, sua definição não pode e não é alterada. O MAPI não se desvia dessa descrição, mas libera, de certa forma, a descrição. Os implementadores podem optar por não implementar métodos específicos, retornando um dos seguintes valores de erro ao chamador: 
+Embora todos os objetos MAPI sejam considerados baseados em COM porque implementam interfaces que herdam de [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx), MAPI se desvia em algumas situações das regras COM padrão. Esse desvio permite aos desenvolvedores mais flexibilidade em suas implementações. Por exemplo, uma interface MAPI, como qualquer interface COM, descreve um contrato entre o implementador e o chamador. Depois que a interface é criada e publicada, sua definição não pode e não muda. O MAPI não se desvia dessa descrição, mas a descrição é um pouco diferente. Implementadores podem optar por não implementar métodos específicos, retornando um dos seguintes valores de erro para o chamador: 
   
 - MAPI_E_NO_SUPPORT
     
@@ -45,13 +45,13 @@ Embora todos os objetos MAPI sejam considerados com base em COM, pois implementa
     
 Os outros desvios das regras COM padrão são descritos na tabela a seguir.
   
-|**Regra de programação COM**|**Variação de MAPI**|
+|**Regra de programação COM**|**Variação MAPI**|
 |:-----|:-----|
-|Todos os parâmetros de cadeia de caracteres nos métodos de interface devem ser Unicode.  <br/> |As interfaces MAPI são definidas para permitir parâmetros de cadeia de caracteres Unicode ou ANSI. Muitos métodos que possuem um parâmetro de cadeia de caracteres também têm um parâmetro **parâmetroulflags** ; a largura de um parâmetro de cadeia de caracteres é indicada pelo valor do sinalizador MAPI_UNICODE em **parâmetroulflags**. Algumas interfaces MAPI não dão suporte a Unicode e retornam MAPI_E_BAD_CHARWIDTH quando o sinalizador MAPI_UNICODE está definido.  <br/> |
-|Todos os métodos de interface devem ter um tipo de retorno HRESULT.  <br/> |O MAPI tem pelo menos um método que retorna um valor não HRESULT: [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md).  <br/> |
-|Os chamadores e implementadores devem alocar e liberar memória para os parâmetros de interface usando os alocadores de tarefa COM padrão.  <br/> |Todos os métodos MAPI usam os alocadores vinculados [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) para gerenciar memória para parâmetros de interface. Todas as implementações MAPI de interfaces definidas por OLE, como [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx), usam os alocadores de tarefa com padrão.  <br/> |
-|Todos os parâmetros de ponteiro devem ser definidos explicitamente como NULL quando um método falha.  <br/> |As interfaces MAPI exigem que os parâmetros de ponteiro de saída sejam definidos como nulos ou permaneçam inalterados quando um método falha. Todas as implementações de MAPI de interfaces definidas por OLE explicitamente definem parâmetros como NULL em Failure.  <br/> |
-|Implemente objetos agregáveis sempre que possível.  <br/> |As interfaces MAPI não podem ser agregadas.  <br/> |
+|Todos os parâmetros de cadeia de caracteres nos métodos de interface devem ser Unicode.  <br/> |As interfaces MAPI são definidas para permitir parâmetros de cadeia de caracteres Unicode ou ANSI. Muitos métodos que têm um parâmetro de cadeia de caracteres também têm um **parâmetro ulFlags;** a largura de um parâmetro de cadeia de caracteres é indicada pelo valor do MAPI_UNICODE sinalizador em **ulFlags**. Algumas interfaces MAPI não suportam Unicode e retornam MAPI_E_BAD_CHARWIDTH quando o sinalizador MAPI_UNICODE está definido.  <br/> |
+|Todos os métodos de interface devem ter um tipo de retorno HRESULT.  <br/> |MAPI has at least one method that returns a non-HRESULT value: [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md).  <br/> |
+|Os chamadores e implementadores devem alocar e liberar memória para parâmetros de interface usando os alocadores de tarefas COM padrão.  <br/> |Todos os métodos MAPI usam os alocadores vinculados [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) para gerenciar a memória para parâmetros de interface. Todas as implementações de MAPI de interfaces definidas por OLE, como [IStream,](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)usam os alocadores de tarefas COM padrão.  <br/> |
+|Todos os parâmetros de ponteiro de saída devem ser definidos explicitamente como NULL quando um método falhar.  <br/> |As interfaces MAPI exigem que os parâmetros de ponteiro de saída sejam definidos como NULL ou permaneçam inalterados quando um método falha. Todas as implementações de MAPI de interfaces definidas pelo OLE explicitamente definem parâmetros como NULL em caso de falha.  <br/> |
+|Implemente objetos aggregatable sempre que possível.  <br/> |As interfaces MAPI não são aggregantes.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -64,5 +64,5 @@ Os outros desvios das regras COM padrão são descritos na tabela a seguir.
 [MAPIFreeBuffer](mapifreebuffer.md)
 
 
-[Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
+[Visão geral de objetos e interface MAPI](mapi-object-and-interface-overview.md)
 

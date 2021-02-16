@@ -22,7 +22,7 @@ Especifica uma localidade no documento de destino à qual vincular.
   
 ## <a name="remarks"></a>Comentários
 
-Por exemplo, se a célula address for "Drawing1. vsdx", a célula subAddress poderá especificar um nome de página, como "página-3". Se a célula address for o arquivo do Microsoft Excel "Samples. xlsx", o valor dessa célula poderá ser uma planilha ou um intervalo em uma planilha, como "funções de planilha" ou "Planilha1! A1: D10 ". Se a célula address for "https://www.microsoft.com/office/", o valor dessa célula poderá ser uma âncora nomeada dentro do documento, como "soluções".
+Por exemplo, se a célula Address for "Drawing1.vsdx", a célula SubAddress poderá especificar um nome de página como "Page-3". Se a célula Address for o arquivo do Microsoft Excel "Samples.xlsx", o valor dessa célula poderá ser uma planilha ou um intervalo dentro de uma planilha, como "Funções de Planilha" ou "Planilha1! A1:D10". Se a célula Address for " ", o valor dessa célula poderá ser uma âncora nomeada dentro do https://www.microsoft.com/office/ documento, como "soluções".
   
 Você pode também definir o valor da célula utilizando a caixa de diálogo **Hiperlinks** (no grupo **Links** da guia **Inserir**, clique em **Hyperlink**).
   
@@ -30,14 +30,14 @@ Para obter uma referência para a célula SubAddress pelo nome a partir de outra
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *nome* . SubEndereço onde Hyperlink *. Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *nome*  . SubAddress onde Hyperlink  *.name é*  o nome da linha  <br/> |
    
-Para obter uma referência para a **** célula SubAddress pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **SubAddress** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
-| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visHLinkSubAddress** <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visHLinkSubAddress** <br/> |
    
 

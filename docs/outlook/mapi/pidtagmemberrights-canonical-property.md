@@ -25,58 +25,58 @@ ms.locfileid: "32342691"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um conjunto de bits que indicava os direitos desse membro em uma pasta ou caixa de correio.
+Contém um conjunto de bits que indica os direitos desse membro em uma pasta ou caixa de correio.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_MEMBER_RIGHTS  <br/> |
 |Identificador:  <br/> |0x6673  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Controle de acesso  <br/> |
+|Área:  <br/> |Controle de Acesso  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir os direitos de um membro em uma pasta. Esses direitos podem ser exibidos e modificados. Os seguintes valores são direitos definidos para esta propriedade. 
+Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir direitos de um membro em uma pasta. Esses direitos podem ser exibidos e modificados. Os seguintes valores são direitos definidos para essa propriedade. 
   
-frightsReadAny
+readAny
   
-> O membro pode ler qualquer mensagem.
+> O membro pode ler todas as mensagens.
     
-frightsCreate
+dasCreate
   
 > O membro pode criar mensagens.
     
-frightsEditOwned
+dasEditOwned
   
-> O membro pode editar qualquer mensagem de Propriedade do usuário.
+> O membro pode editar todas as mensagens pertencentes ao usuário.
     
-frightsDeleteOwned
+adletadosDeleteOwned
   
-> O membro pode excluir qualquer mensagem de Propriedade do usuário.
+> O membro pode excluir todas as mensagens pertencentes ao usuário.
     
-frightsEditAny
+daSeditAny
   
 > O membro pode editar qualquer mensagem.
     
-frightsDeleteAny
+adlettasDeleteAny
   
 > O membro pode excluir qualquer mensagem.
     
-frightsCreateSubfolder
+wesCreateSubfolder
   
 > O membro pode criar subpastas para a pasta.
     
-frightsOwner
+ownsOwner
   
 > O membro tem todos os direitos anteriores na pasta.
     
-frightsContact
+adsContact
   
-> O membro pode fazer com que seu nome apareça como o contato na pasta.
+> O membro pode fazer com que seu nome apareça como contato na pasta.
     
-frightsVisible
+daVisible
   
-> O membro pode ver se a pasta existe.
+> O membro pode ver que a pasta existe.
     
 rightsNone
   
@@ -96,31 +96,31 @@ rightsAll
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Lida com a recuperação de listas de permissões de pastas armazenadas no servidor.
+> Lida com a recuperação de listas de permissões de pasta armazenadas no servidor.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com itens de mensagens e calendários quando eles atuam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como representantes e interações com itens de mensagem e calendário quando eles agem em nome de outro usuário.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -135,7 +135,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

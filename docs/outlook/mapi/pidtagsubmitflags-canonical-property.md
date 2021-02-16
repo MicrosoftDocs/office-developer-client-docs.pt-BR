@@ -25,46 +25,46 @@ ms.locfileid: "32339351"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask de sinalizadores que indicam detalhes sobre um envio de mensagens.
+Contém uma máscara de bits de sinalizadores indicando detalhes sobre um envio de mensagem.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identificador:  <br/> |0x0E14  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um ou mais dos seguintes sinalizadores podem ser definidos para o bitmask **PR_SUBMIT_FLAGS** : 
+Um ou mais dos sinalizadores a seguir podem ser definidos para a **PR_SUBMIT_FLAGS** bitmask: 
   
 SUBMITFLAG_LOCKED 
   
-> O spooler MAPI tem a mensagem bloqueada no momento. 
+> No momento, o spooler MAPI tem a mensagem bloqueada. 
     
 SUBMITFLAG_PREPROCESS 
   
-> A mensagem precisa de pré-processamento. Quando o spooler MAPI estiver realizando o pré-processamento dessa mensagem, ele deverá chamar o método [IMessage:: SubmitMessage](imessage-submitmessage.md) . O provedor de repositório de mensagens reconhece que o spooler, em vez do aplicativo cliente, chamou **SubmitMessage**, limpa o sinalizador e continua o envio da mensagem.
+> A mensagem precisa de pré-processamento. Quando o spooler MAPI for feito o pré-processamento dessa mensagem, ele deverá chamar o método [IMessage::SubmitMessage.](imessage-submitmessage.md) O provedor de armazenamento de mensagens reconhece que o spooler, em vez do aplicativo cliente, chamou **SubmitMessage**, limpa o sinalizador e continua o envio de mensagens.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

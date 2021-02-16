@@ -36,13 +36,13 @@ Contém um valor que indica a opinião do remetente da mensagem sobre a sensibil
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os objetos Message exponham essa propriedade.
+É recomendável que os objetos de mensagem exponham essa propriedade.
   
 Essa propriedade pode ter exatamente um dos seguintes valores:
   
 SENSITIVITY_NONE 
   
-> A mensagem não tem confidencialidade especial.
+> A mensagem não tem sensibilidade especial.
     
 SENSITIVITY_PERSONAL 
   
@@ -50,31 +50,31 @@ SENSITIVITY_PERSONAL
     
 SENSITIVITY_PRIVATE 
   
-> A mensagem é privada.
+> A mensagem é particular.
     
 SENSITIVITY_COMPANY_CONFIDENTIAL 
   
-> A mensagem é designada pela empresa.
+> A mensagem é designada como confidencial da empresa.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

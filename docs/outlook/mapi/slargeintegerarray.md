@@ -25,11 +25,11 @@ ms.locfileid: "32331385"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) que são usadas para descrever uma propriedade do tipo PT_MV_I8. 
+Contém uma matriz de [LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) estruturas que são usadas para descrever uma propriedade do tipo PT_MV_I8. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLargeIntegerArray
@@ -44,15 +44,15 @@ typedef struct _SLargeIntegerArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **lpli** . 
+> Contagem de valores na matriz apontada pelo membro **lpli.** 
     
  **lpli**
   
-> Ponteiro para uma matriz de estruturas **LARGE_INTEGER** que contêm os valores inteiros. 
+> Ponteiro para uma matriz de **LARGE_INTEGER** estruturas que mantém os valores inteiros. 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre o PT_MV_18, confira [lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre PT_MV_18, consulte [Lista de tipos de propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

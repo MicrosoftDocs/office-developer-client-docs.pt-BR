@@ -37,29 +37,29 @@ Especifica as opções usadas no processamento automático de mensagens de email
    
 ## <a name="remarks"></a>Comentários
 
-A propriedade pode estar ausente e, nesse caso, o valor padrão "0x00000000" é usado. Se definido, esta propriedade deve ser definida como um dos valores na tabela a seguir.
+A propriedade pode estar ausente, caso em que o valor padrão de "0x00000000" é usado. Se definida, essa propriedade deve ser definida como um dos valores da tabela a seguir.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |Não processa a mensagem automaticamente.  <br/> |
-|0x00000001  <br/> |Processar a mensagem automaticamente ou quando a mensagem for aberta.  <br/> |
-|0x00000002  <br/> |Processa a mensagem somente quando a mensagem é aberta.  <br/> |
+|0x00000000  <br/> |Não processe automaticamente a mensagem.  <br/> |
+|0x00000001  <br/> |Processe a mensagem automaticamente ou quando a mensagem for aberta.  <br/> |
+|0x00000002  <br/> |Processe a mensagem somente quando a mensagem for aberta.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -71,7 +71,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

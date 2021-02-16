@@ -25,7 +25,7 @@ ms.locfileid: "32332106"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a função do usuário atual relativo à tarefa.
+Indica a função do usuário atual em relação à tarefa.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Indica a função do usuário atual relativo à tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008129  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -41,25 +41,25 @@ Essa propriedade deve ser um dos valores a seguir.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |A tarefa não foi atribuída.  <br/> |
-|0x00000001  <br/> |A tarefa é a cópia da tarefa do destinatário da tarefa.  <br/> |
+|0x00000000  <br/> |A tarefa não é atribuída.  <br/> |
+|0x00000001  <br/> |A tarefa é a cópia da tarefa do atribuídor.  <br/> |
 |0x00000002  <br/> |A tarefa é a cópia da tarefa do destinatário da tarefa.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -71,7 +71,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

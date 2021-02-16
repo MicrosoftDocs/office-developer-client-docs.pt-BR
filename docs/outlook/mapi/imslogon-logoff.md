@@ -25,7 +25,7 @@ ms.locfileid: "32348871"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Faz logoff de um provedor de repositório de mensagens. 
+Faz o login de um provedor de armazenamento de mensagens. 
   
 ```cpp
 HRESULT Logoff(
@@ -37,21 +37,21 @@ HRESULT Logoff(
 
  _lpulFlags_
   
-> no Serve deve ser um ponteiro para zero.
+> [in] Reservado; deve ser um ponteiro para zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de repositórios de mensagens implementam o método **IMSLogon:: logoff** para desligar forçosamente um provedor de armazenamento de mensagens. **IMSLogon:: logoff** é chamado nas seguintes situações: 
+Os provedores de armazenamento de mensagens implementam o método **IMSLogon::Logoff** para forçar o desligado de um provedor de armazenamento de mensagens. **IMSLogon::Logoff** é chamado nas seguintes situações: 
   
-- Enquanto o MAPI estiver fazendo o logoff de um cliente após uma chamada para o método [IMAPISession:: logoff](imapisession-logoff.md) . 
+- Enquanto o MAPI está fazendo logoff de um cliente após uma chamada para o [método IMAPISession::Logoff.](imapisession-logoff.md) 
     
-- Embora o MAPI faça o logoff de um provedor de armazenamento de mensagens. Nesse caso, **IMSLogon:: logoff** é chamado como parte do processamento de MAPI o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do objeto support que o provedor de repositório de mensagens cria enquanto processa um [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) ou **IUnknown:: **Chamada de método Release em um objeto do repositório de mensagens. 
+- Enquanto o MAPI está fazendo logo off de um provedor de armazenamento de mensagens. Nesse caso, **IMSLogon::Logoff** é chamado como parte do processamento de MAPI do método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do objeto de suporte que o provedor de repositório de mensagens cria durante o processamento de uma chamada de método [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) ou **IUnknown::Release** em um objeto de repositório de mensagens. 
     
 ## <a name="see-also"></a>Confira também
 

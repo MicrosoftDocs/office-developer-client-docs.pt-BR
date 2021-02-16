@@ -17,11 +17,11 @@ ms.locfileid: "32355101"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Aviso de direitos autorais da referência do desenvolver do Outlook
 
-Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização. 
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo. 
   
-Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
+Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Nenhuma associação ou conexão real tem a finalidade ou deve ser deduzida.
   
-Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. 
+Este documento não fornece a você quaisquer direitos legais a qualquer propriedade intelectual sobre qualquer produto da Microsoft. Você pode copiar e usar o presente documento internamente, para fins de referência. 
   
 © 2013 Microsoft Corporation. Todos os direitos reservados.
   
